@@ -1,0 +1,65 @@
+[
+  {
+    "id": "talk-clothes",
+    "title": "Buying Clothes",
+    "situation": "You are shopping for a shirt and need a different size.",
+    "level": "A1",
+    "lines": [
+      { "speaker": "점원", "ko": "어서 오세요. 뭐 찾으세요?", "en": "Welcome. What are you looking for?" },
+      { "speaker": "손님", "ko": "이 셔츠 한번 보여 주세요.", "en": "Please show me this shirt.", "note": "보여 주세요 = please show" },
+      { "speaker": "점원", "ko": "네, 여기 있어요. 한번 입어 보세요.", "en": "Sure, here it is. Try it on." },
+      { "speaker": "손님", "ko": "조금 작아요. 큰 거 있어요?", "en": "It is a little small. Do you have a bigger one?" },
+      { "speaker": "점원", "ko": "사이즈가 어떻게 되세요?", "en": "What size are you?", "note": "polite size question" },
+      { "speaker": "손님", "ko": "잘 모르겠어요. 보통 라지 입어요.", "en": "I am not sure. I usually wear large." },
+      { "speaker": "점원", "ko": "그럼 이 라지 사이즈 입어 보세요.", "en": "Then try on this large size." },
+      { "speaker": "손님", "ko": "딱 맞아요. 이거 얼마예요?", "en": "It fits perfectly. How much is this?" },
+      { "speaker": "점원", "ko": "삼만 오천 원이에요.", "en": "It is 35,000 won." },
+      { "speaker": "손님", "ko": "이걸로 할게요. 카드 돼요?", "en": "I will take this. Do you take card?" }
+    ],
+    "tip": "Most Korean shops let you try clothes on, and politely asking before trying something on is always appreciated.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-pharmacy",
+    "title": "At the Pharmacy",
+    "situation": "You feel sick and describe your symptoms to a pharmacist.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "직원", "ko": "어디가 아프세요?", "en": "Where does it hurt?", "note": "common pharmacy opener" },
+      { "speaker": "손님", "ko": "어제부터 머리가 아프고 열이 나요.", "en": "Since yesterday I have a headache and a fever." },
+      { "speaker": "직원", "ko": "기침도 해요?", "en": "Do you have a cough too?" },
+      { "speaker": "손님", "ko": "네, 기침이 조금 나고 목도 아파요.", "en": "Yes, I cough a little and my throat hurts." },
+      { "speaker": "직원", "ko": "감기 같아요. 이 약 드세요.", "en": "It seems like a cold. Take this medicine." },
+      { "speaker": "손님", "ko": "하루에 몇 번 먹어요?", "en": "How many times a day do I take it?" },
+      { "speaker": "직원", "ko": "식사 후에 하루 세 번 드세요.", "en": "Take it three times a day after meals.", "note": "식사 후 = after meals" },
+      { "speaker": "손님", "ko": "졸린 약이에요?", "en": "Does this medicine make me sleepy?" },
+      { "speaker": "직원", "ko": "조금 졸릴 수 있어요. 운전하지 마세요.", "en": "It may make you a bit sleepy. Do not drive." },
+      { "speaker": "손님", "ko": "알겠어요. 감사합니다.", "en": "Got it. Thank you." }
+    ],
+    "tip": "In Korea you can buy mild cold medicine at a pharmacy without a prescription, so just describe your symptoms clearly.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-clinic",
+    "title": "Seeing a Doctor",
+    "situation": "You visit a clinic and explain your symptoms to the doctor.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "직원", "ko": "어떻게 오셨어요?", "en": "What brings you in?", "note": "asks reason for visit" },
+      { "speaker": "손님", "ko": "배가 너무 아파요.", "en": "My stomach hurts a lot." },
+      { "speaker": "직원", "ko": "언제부터 아팠어요?", "en": "Since when has it hurt?" },
+      { "speaker": "손님", "ko": "어젯밤부터 아프고 설사도 해요.", "en": "It has hurt since last night and I have diarrhea." },
+      { "speaker": "직원", "ko": "어제 뭐 드셨어요?", "en": "What did you eat yesterday?" },
+      { "speaker": "손님", "ko": "회를 먹었어요. 그다음에 아팠어요.", "en": "I ate raw fish. After that it started to hurt." },
+      { "speaker": "직원", "ko": "여기 누워서 좀 볼게요.", "en": "Lie down here and let me check.", "note": "누워서 = lie down and" },
+      { "speaker": "손님", "ko": "많이 안 좋아요?", "en": "Is it very bad?" },
+      { "speaker": "직원", "ko": "심하지 않아요. 약 처방해 드릴게요.", "en": "It is not serious. I will prescribe medicine." },
+      { "speaker": "손님", "ko": "네, 감사합니다. 안녕히 계세요.", "en": "Okay, thank you. Goodbye." }
+    ],
+    "tip": "At a clinic the doctor usually gives you a prescription, which you then take to a nearby pharmacy to fill.",
+    "vocabIds": [],
+    "patternIds": []
+  }
+]

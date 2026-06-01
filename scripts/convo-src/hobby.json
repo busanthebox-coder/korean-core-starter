@@ -1,0 +1,383 @@
+[
+  {
+    "id": "convo-game-one-round-tonight",
+    "title": "One Quick Game Tonight",
+    "situation": "A friend texts asking if you want to hop on for a quick game tonight.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "Casual invites get casual answers. React first (콜/좋아), then add a quick logistics question to keep it moving instead of just saying yes.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "야 오늘 저녁에 게임 한판 콜?",
+        "en": "Yo, you down for a quick game tonight?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say yes casually and ask when",
+        "choices": [
+          {
+            "ko": "콜콜 몇 시쯤?",
+            "en": "Down, down — around what time?",
+            "correct": true,
+            "feedback": "Quick reaction (콜콜) plus a follow-up question — exactly how friends lock in plans over text."
+          },
+          {
+            "ko": "네 좋습니다. 참여하겠습니다.",
+            "en": "Yes, sounds good. I will join.",
+            "correct": false,
+            "feedback": "Way too formal — sounds like replying to a boss, not a friend texting about games."
+          },
+          {
+            "ko": "오늘 저녁에 게임 한판 콜?",
+            "en": "Down for a quick game tonight?",
+            "correct": false,
+            "feedback": "You just repeated their question back — that doesn't answer or move the chat forward."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "9시 어때? 나 밥 먹고 바로 켤게",
+        "en": "How about 9? I'll hop on right after dinner."
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and ask what you're playing",
+        "choices": [
+          {
+            "ko": "좋아 9시 ㄱㄱ 오늘 뭐 할 건데?",
+            "en": "Cool, 9 it is — what are we playing today?",
+            "correct": true,
+            "feedback": "Confirms the time and naturally asks the next thing (the game). Keeps the plan rolling."
+          },
+          {
+            "ko": "9시에 게임에 참여하는 것이 가능합니다.",
+            "en": "It is possible for me to participate at 9.",
+            "correct": false,
+            "feedback": "Stiff and robotic — no friend texts in full 존댓말 sentences about gaming."
+          },
+          {
+            "ko": "아 나 사실 게임 잘 안 해",
+            "en": "Ah, I don't really play games actually.",
+            "correct": false,
+            "feedback": "Contradicts the whole vibe — you just agreed to play, so this kills the plan."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "롤? 아님 그냥 배그 한판?",
+        "en": "LoL? Or just a round of PUBG?"
+      },
+      {
+        "role": "you",
+        "prompt": "Pick one and react",
+        "choices": [
+          {
+            "ko": "배그 ㄱ 요즘 롤 하면 너무 빡쳐 ㅋㅋ",
+            "en": "PUBG, let's go — LoL gets me way too tilted these days lol",
+            "correct": true,
+            "feedback": "Makes a choice and drops a relatable reaction with ㅋㅋ — totally how friends text about games."
+          },
+          {
+            "ko": "둘 다 제가 잘 모르는 게임입니다.",
+            "en": "Both are games I am not familiar with.",
+            "correct": false,
+            "feedback": "Too formal and oddly distant — doesn't pick or react like a friend would."
+          },
+          {
+            "ko": "롤? 아님 배그 한판?",
+            "en": "LoL? Or a round of PUBG?",
+            "correct": false,
+            "feedback": "You bounced the same question back instead of choosing — leaves them hanging."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ ㅇㅋ 그럼 배그로 ㄱㄱ 이따 봐",
+        "en": "Lolol ok, PUBG it is — see you later."
+      },
+      {
+        "role": "you",
+        "prompt": "Wrap it up casually",
+        "choices": [
+          {
+            "ko": "ㅇㅋㅇㅋ 이따 봐 9시 늦지 마라 ㅋㅋ",
+            "en": "Kk, see you later — don't be late at 9 lol",
+            "correct": true,
+            "feedback": "Natural sign-off with a playful jab — friends love teasing on the way out."
+          },
+          {
+            "ko": "그럼 나중에 뵙도록 하겠습니다.",
+            "en": "Then I shall see you later.",
+            "correct": false,
+            "feedback": "Far too formal for closing a casual game plan with a buddy."
+          },
+          {
+            "ko": "근데 너 주말에 뭐 해?",
+            "en": "By the way, what are you doing this weekend?",
+            "correct": false,
+            "feedback": "Random subject change right at the goodbye — the chat was already wrapping up."
+          }
+        ]
+      }
+    ],
+    "vocab": ["한판", "콜", "ㄱㄱ", "켜다", "빡치다", "이따"]
+  },
+  {
+    "id": "convo-weekend-climbing-plan",
+    "title": "Weekend Climbing Plan",
+    "situation": "A friend texts to invite you climbing this weekend since the weather's nice.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When a friend proposes a weekend activity, show interest with a reaction (오 좋다/콜) and ask a practical follow-up (when/where/what to bring) so it turns into a real plan.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "주말에 날씨 좋대 클라이밍 갈래?",
+        "en": "Weather's supposed to be nice this weekend — wanna go climbing?"
+      },
+      {
+        "role": "you",
+        "prompt": "React with interest and ask which day",
+        "choices": [
+          {
+            "ko": "오 좋다 토요일 일요일?",
+            "en": "Oh nice — Saturday or Sunday?",
+            "correct": true,
+            "feedback": "Warm reaction plus a practical follow-up — this is how a casual invite becomes a real plan."
+          },
+          {
+            "ko": "주말에 클라이밍을 가는 것에 동의합니다.",
+            "en": "I agree to going climbing this weekend.",
+            "correct": false,
+            "feedback": "Sounds like signing a contract — nobody texts a friend in this register."
+          },
+          {
+            "ko": "주말에 날씨 좋대?",
+            "en": "Is the weather nice this weekend?",
+            "correct": false,
+            "feedback": "Just echoes their info instead of answering — doesn't move toward a plan."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "토욜 오전 어때? 사람 적을 때 가자",
+        "en": "Saturday morning? Let's go when it's less crowded."
+      },
+      {
+        "role": "you",
+        "prompt": "Agree but admit you're a beginner",
+        "choices": [
+          {
+            "ko": "콜 근데 나 완전 초보인데 괜찮아?",
+            "en": "Down — but I'm a total beginner, is that ok?",
+            "correct": true,
+            "feedback": "Agrees and honestly checks in with a question — keeps it real and keeps them talking."
+          },
+          {
+            "ko": "저는 클라이밍 경험이 전혀 없는 초보자입니다.",
+            "en": "I am a beginner with no climbing experience whatsoever.",
+            "correct": false,
+            "feedback": "The meaning's fine but the 존댓말 is too stiff for texting a friend."
+          },
+          {
+            "ko": "토욜 오전 어때 사람 적을 때?",
+            "en": "Saturday morning, when it's less crowded?",
+            "correct": false,
+            "feedback": "You repeated their suggestion back word for word — that's not a reply."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㄱㅊㄱㅊ 내가 다 알려줄게 신발만 빌리면 돼",
+        "en": "All good, I'll show you everything — you just need to rent shoes."
+      },
+      {
+        "role": "you",
+        "prompt": "Show relief and ask what to bring",
+        "choices": [
+          {
+            "ko": "오 다행 ㅋㅋ 그럼 뭐 챙겨가면 돼?",
+            "en": "Oh phew lol — so what should I bring?",
+            "correct": true,
+            "feedback": "Relieved reaction plus a useful question — exactly the kind of follow-up that keeps planning natural."
+          },
+          {
+            "ko": "준비물에 관하여 안내해 주시면 감사하겠습니다.",
+            "en": "I would appreciate it if you could inform me of what to prepare.",
+            "correct": false,
+            "feedback": "Email-level politeness — totally mismatched with a casual climbing text."
+          },
+          {
+            "ko": "나 클라이밍 말고 등산이 더 좋은데",
+            "en": "I'd actually rather go hiking than climbing.",
+            "correct": false,
+            "feedback": "You already agreed to climbing — flipping the plan now is off and confusing."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "편한 운동복이랑 물만 챙겨와 끝나고 밥 ㄱ",
+        "en": "Just bring comfy workout clothes and water — food after, let's go."
+      },
+      {
+        "role": "you",
+        "prompt": "Lock it in enthusiastically",
+        "choices": [
+          {
+            "ko": "콜 완전 기대된다 토욜에 봐!",
+            "en": "Down — so excited, see you Saturday!",
+            "correct": true,
+            "feedback": "Locks the plan with genuine excitement — a perfect upbeat close for a friend."
+          },
+          {
+            "ko": "그렇게 진행하도록 하겠습니다.",
+            "en": "I shall proceed accordingly.",
+            "correct": false,
+            "feedback": "Sounds like a work confirmation, not a friend hyped about the weekend."
+          },
+          {
+            "ko": "밥은 누가 사는 거야?",
+            "en": "So who's paying for the food?",
+            "correct": false,
+            "feedback": "Oddly transactional right at the close — friends just say 끝나고 같이 먹자 and sort it later."
+          }
+        ]
+      }
+    ],
+    "vocab": ["클라이밍", "초보", "ㄱㅊ", "챙기다", "운동복", "기대되다"]
+  },
+  {
+    "id": "convo-starting-new-hobby",
+    "title": "Picking Up a New Hobby",
+    "situation": "You bump into a friend who just started a new hobby, and you're curious to hear about it.",
+    "setting": "hangout",
+    "partner": "친구",
+    "tip": "Curiosity carries the conversation. Pile on follow-up questions (진짜?/어땠어?/얼마나 했어?) and react warmly so your friend keeps sharing about their new thing.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "나 요즘 베이킹 시작했잖아",
+        "en": "So I started baking recently, you know."
+      },
+      {
+        "role": "you",
+        "prompt": "React with surprise and ask why baking",
+        "choices": [
+          {
+            "ko": "헐 진짜? 갑자기 베이킹은 왜?",
+            "en": "Whoa, really? Why baking all of a sudden?",
+            "correct": true,
+            "feedback": "Surprise reaction (헐 진짜?) plus a 되묻기 question — this is exactly how you make a friend open up."
+          },
+          {
+            "ko": "베이킹을 시작하셨다니 놀랍습니다.",
+            "en": "I am surprised to hear you started baking.",
+            "correct": false,
+            "feedback": "The 존댓말 makes it sound distant — friends in person react with 헐/진짜, not full polite sentences."
+          },
+          {
+            "ko": "아 그래. 나도 밥 먹어야 되는데.",
+            "en": "Oh ok. I should eat something too.",
+            "correct": false,
+            "feedback": "Ignores what they shared and changes the subject — kills their excitement."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그냥 스트레스 풀려고? 빵 만들면 좀 힐링되더라고",
+        "en": "Just to de-stress, I guess? Making bread is kinda therapeutic."
+      },
+      {
+        "role": "you",
+        "prompt": "Relate and ask how long they've done it",
+        "choices": [
+          {
+            "ko": "오 그럴 듯 근데 한 지 얼마나 됐어?",
+            "en": "Oh I get that — but how long have you been at it?",
+            "correct": true,
+            "feedback": "Validates them and asks another follow-up — keeps the curiosity flowing naturally."
+          },
+          {
+            "ko": "베이킹의 치유 효과에 대해 동의하는 바입니다.",
+            "en": "I concur regarding the therapeutic effects of baking.",
+            "correct": false,
+            "feedback": "Absurdly formal for chatting face to face with a friend."
+          },
+          {
+            "ko": "그래서 빵은 언제 줄 건데?",
+            "en": "So when are you giving me bread?",
+            "correct": false,
+            "feedback": "Jumps to demanding bread — it shifts focus off their story too soon and feels self-centered."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "한 두 달? 처음엔 진짜 다 망했는데 요즘 좀 늘었어",
+        "en": "Like two months? At first everything flopped, but I've gotten better lately."
+      },
+      {
+        "role": "you",
+        "prompt": "Encourage and ask what they made recently",
+        "choices": [
+          {
+            "ko": "대박 부럽다 최근엔 뭐 만들었어?",
+            "en": "That's awesome, I'm jealous — what'd you make recently?",
+            "correct": true,
+            "feedback": "Warm hype (대박/부럽다) plus a follow-up — perfect for keeping a friend sharing."
+          },
+          {
+            "ko": "지속적인 노력의 결과라고 사료됩니다.",
+            "en": "I presume it is the result of continuous effort.",
+            "correct": false,
+            "feedback": "Reads like a written report — no one talks to a friend like this."
+          },
+          {
+            "ko": "두 달이면 아직 초보네 뭐.",
+            "en": "Two months means you're still a beginner, huh.",
+            "correct": false,
+            "feedback": "Slightly dismissive — it deflates their progress instead of cheering them on."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "지난주에 휘낭시에 구웠는데 그건 좀 성공했어 ㅋㅋ",
+        "en": "I baked financiers last week and those actually turned out lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Hint that you want to try one",
+        "choices": [
+          {
+            "ko": "오 휘낭시에 ㅋㅋ 다음에 나도 좀 맛보자!",
+            "en": "Oh financiers lol — let me try some next time!",
+            "correct": true,
+            "feedback": "Playful and hints at next time — a natural, friendly way to wrap while leaving the door open."
+          },
+          {
+            "ko": "다음 기회에 시식할 수 있도록 부탁드립니다.",
+            "en": "I request the opportunity to taste them next time.",
+            "correct": false,
+            "feedback": "Over-the-top polite — clashes hard with the easy ㅋㅋ tone of the chat."
+          },
+          {
+            "ko": "휘낭시에가 뭐야? 난 관심 없어.",
+            "en": "What's a financier? I'm not interested.",
+            "correct": false,
+            "feedback": "Saying you're not interested shuts the whole conversation down after they opened up."
+          }
+        ]
+      }
+    ],
+    "vocab": ["베이킹", "힐링", "망하다", "늘다", "대박", "맛보다"]
+  }
+]

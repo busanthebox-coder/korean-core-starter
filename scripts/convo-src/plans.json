@@ -1,0 +1,101 @@
+[
+  {
+    "id": "convo-grab-a-drink",
+    "title": "Suggesting a drink after work",
+    "situation": "It's Friday and you text a friend to see if they want to grab a drink tonight.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "To make a casual plan, lead with a reaction to what they said, then pitch it with ~하자/~할래?. 한잔하자 and 콜 are how friends really lock in drinks.",
+    "turns": [
+      { "role": "partner", "ko": "아 오늘 금요일이네 드디어ㅋㅋ", "en": "Ah it's finally Friday lol" },
+      { "role": "you", "prompt": "Agree it's been a long week and float the idea of a drink tonight.", "choices": [
+        { "ko": "그니까ㅋㅋ 오늘 가볍게 한잔할래?", "en": "Right lol wanna grab a quick drink tonight?", "correct": true, "feedback": "그니까 agrees, then 한잔할래? pitches the plan — exactly how friends start this." },
+        { "ko": "금일 음주 가능하십니까?", "en": "Is drinking possible today? (formal)", "correct": false, "feedback": "금일/가능하십니까 is stiff business-speak. Friends say 오늘 한잔할래?" },
+        { "ko": "응 금요일 맞아.", "en": "Yeah, it's Friday.", "correct": false, "feedback": "Just confirms the fact and stalls — it doesn't pitch a plan or keep things moving." }
+      ] },
+      { "role": "partner", "ko": "오 콜 좋지ㅋㅋ 어디서 볼까?", "en": "Oh deal, sounds good lol where should we meet?" },
+      { "role": "you", "prompt": "Suggest meeting near the station and toss the time back to them.", "choices": [
+        { "ko": "강남역 어때? 몇 시에 볼래?", "en": "How about Gangnam Station? What time wanna meet?", "correct": true, "feedback": "Concrete spot + 몇 시에 볼래? bounces it back so the plan keeps rolling." },
+        { "ko": "장소는 추후에 공지하겠습니다.", "en": "I'll announce the location later. (formal)", "correct": false, "feedback": "공지하겠습니다 sounds like an office memo — way too formal for a friend." },
+        { "ko": "어디서 볼까?", "en": "Where should we meet?", "correct": false, "feedback": "Just repeats their question instead of answering it — the plan goes nowhere." }
+      ] },
+      { "role": "partner", "ko": "강남 좋아 그럼 7시쯤?", "en": "Gangnam works, so around 7?" },
+      { "role": "you", "prompt": "Confirm 7 and say you'll text when you arrive.", "choices": [
+        { "ko": "콜 7시! 도착하면 톡할게", "en": "Deal, 7! I'll text when I get there", "correct": true, "feedback": "콜 + 도착하면 톡할게 locks it in with a natural casual sign-off." },
+        { "ko": "19시에 도착 예정입니다.", "en": "I'm scheduled to arrive at 19:00. (formal)", "correct": false, "feedback": "19시/도착 예정입니다 reads like a train announcement, not a friend." },
+        { "ko": "오늘 한잔할래?", "en": "Wanna grab a drink today?", "correct": false, "feedback": "You already agreed — re-asking the original question makes no sense here." }
+      ] }
+    ],
+    "vocab": ["금요일", "한잔하다", "콜", "톡하다"]
+  },
+  {
+    "id": "convo-coffee-catch-up",
+    "title": "Inviting a friend for coffee",
+    "situation": "You haven't seen a friend in a while and text them to grab coffee this weekend.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "오랜만 (long time) and a soft 우리 ~할까? are perfect for casual invites. React first, then ask a follow-up to nail down the details.",
+    "turns": [
+      { "role": "partner", "ko": "헐 우리 진짜 오랜만이다", "en": "Whoa it's been so long since we last saw each other" },
+      { "role": "you", "prompt": "Agree it's been ages and suggest meeting for coffee soon.", "choices": [
+        { "ko": "그니까ㅠㅠ 우리 조만간 커피 한잔할까?", "en": "I know, ugh, should we grab coffee soon?", "correct": true, "feedback": "Matches their energy, then 커피 한잔할까? is the natural soft invite." },
+        { "ko": "오랜만에 차 한잔 대접하고 싶습니다.", "en": "I'd like to treat you to tea after so long. (formal)", "correct": false, "feedback": "대접하고 싶습니다 is overly polite and old-fashioned for a close friend." },
+        { "ko": "응 오랜만이네.", "en": "Yeah, it's been a while.", "correct": false, "feedback": "Agrees but stops there — no invite, so the chat just fizzles." }
+      ] },
+      { "role": "partner", "ko": "완전 좋지! 언제 볼까?", "en": "Totally down! When should we meet?" },
+      { "role": "you", "prompt": "Propose Saturday afternoon and check if it works for them.", "choices": [
+        { "ko": "토요일 오후 어때? 너 시간 돼?", "en": "How about Saturday afternoon? You free?", "correct": true, "feedback": "Gives a concrete time + 너 시간 돼? keeps it collaborative and moving." },
+        { "ko": "귀하의 일정을 확인 부탁드립니다.", "en": "Please confirm your schedule. (formal)", "correct": false, "feedback": "귀하/부탁드립니다 is corporate email language, not a text to a friend." },
+        { "ko": "나 커피 좋아해.", "en": "I like coffee.", "correct": false, "feedback": "Doesn't answer when to meet — it drifts off the actual plan." }
+      ] },
+      { "role": "partner", "ko": "토요일 좋아 근데 어디서 봐?", "en": "Saturday's good, but where are we meeting?" },
+      { "role": "you", "prompt": "Suggest a cafe near them and offer to send the location.", "choices": [
+        { "ko": "너네 동네 카페 갈까? 위치 보내줄게", "en": "Wanna go to a cafe in your area? I'll send the spot", "correct": true, "feedback": "Picks a place + 위치 보내줄게 is exactly how friends wrap up details." },
+        { "ko": "장소 선정 후 별도 안내드리겠습니다.", "en": "I'll inform you separately once a venue is chosen. (formal)", "correct": false, "feedback": "별도 안내드리겠습니다 sounds like an event invite, not a casual chat." },
+        { "ko": "토요일 오후 어때?", "en": "How about Saturday afternoon?", "correct": false, "feedback": "You already settled on Saturday — repeating it stalls the plan." }
+      ] },
+      { "role": "partner", "ko": "오키 그럼 토요일에 봐!", "en": "Okay, see you Saturday then!" },
+      { "role": "you", "prompt": "Say you're looking forward to it.", "choices": [
+        { "ko": "좋아 완전 기대된다 그때 봐!", "en": "Nice, can't wait, see you then!", "correct": true, "feedback": "기대된다 + a quick 그때 봐 is a warm, natural way to close. (이따 봐 would mean 'later today,' but the plan is Saturday.)" },
+        { "ko": "그럼 그때 뵙겠습니다.", "en": "I'll see you then. (formal)", "correct": false, "feedback": "뵙겠습니다 is honorific — too formal to end a chat with a friend." },
+        { "ko": "커피 한잔할까?", "en": "Should we grab coffee?", "correct": false, "feedback": "The plan's already set — re-inviting just loops back awkwardly." }
+      ] }
+    ],
+    "vocab": ["오랜만", "커피", "조만간", "기대되다"]
+  },
+  {
+    "id": "convo-gym-buddy",
+    "title": "Asking a friend to work out together",
+    "situation": "You want to start going to the gym and text a friend to join you so you'll actually stick with it.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "같이 ~하자 and 운동 talk are super common between friends. Bouncing back 너는? and 언제부터? keeps a plan-making chat alive.",
+    "turns": [
+      { "role": "partner", "ko": "요즘 운동 좀 해야 되는데 의지가 없다ㅋㅋ", "en": "I really should work out these days but I have zero willpower lol" },
+      { "role": "you", "prompt": "Say same here and suggest hitting the gym together.", "choices": [
+        { "ko": "나도ㅋㅋ 우리 같이 헬스 다닐래?", "en": "Same lol wanna hit the gym together?", "correct": true, "feedback": "나도 bonds over it, then 같이 헬스 다닐래? turns it into a real plan." },
+        { "ko": "규칙적인 운동을 권장드립니다.", "en": "I recommend regular exercise. (formal)", "correct": false, "feedback": "권장드립니다 sounds like a health pamphlet — not how a friend talks." },
+        { "ko": "운동은 건강에 좋아.", "en": "Exercise is good for your health.", "correct": false, "feedback": "True but preachy — it doesn't invite them or move toward a plan." }
+      ] },
+      { "role": "partner", "ko": "오 좋은데? 같이 하면 진짜 갈 듯ㅋㅋ", "en": "Oh nice? I'd actually go if we did it together lol" },
+      { "role": "you", "prompt": "Agree it's easier together and ask when they want to start.", "choices": [
+        { "ko": "그치 혼자는 안 가게 되잖아ㅋㅋ 언제부터 할까?", "en": "Right, you never go alone lol when should we start?", "correct": true, "feedback": "그치 agrees, and 언제부터 할까? pushes the plan to the next step." },
+        { "ko": "동반 운동의 효과는 입증되었습니다.", "en": "The effects of partnered exercise are proven. (formal)", "correct": false, "feedback": "입증되었습니다 reads like a research paper — totally off for friends." },
+        { "ko": "헬스장은 보통 비싸.", "en": "Gyms are usually expensive.", "correct": false, "feedback": "Changes the subject to cost and kills the momentum of the plan." }
+      ] },
+      { "role": "partner", "ko": "다음 주 월요일부터 어때? 아침에ㅋㅋ", "en": "How about starting next Monday? In the morning lol" },
+      { "role": "you", "prompt": "React to 'morning' and ask what time exactly.", "choices": [
+        { "ko": "헐 아침ㅋㅋ 좋아 몇 시에 만날까?", "en": "Whoa morning lol okay what time should we meet?", "correct": true, "feedback": "A playful reaction + 몇 시에 만날까? keeps it casual and nails the detail." },
+        { "ko": "오전 운동 일정에 동의합니다.", "en": "I agree to the morning workout schedule. (formal)", "correct": false, "feedback": "동의합니다 is contract language — friends just say 좋아." },
+        { "ko": "다음 주 월요일부터 어때?", "en": "How about starting next Monday?", "correct": false, "feedback": "That's literally what they just asked — echoing it stalls the chat." }
+      ] },
+      { "role": "partner", "ko": "7시 어때? 운동하고 출근하게ㅋㅋ", "en": "How about 7? So we can work out then head to work lol" },
+      { "role": "you", "prompt": "Confirm 7 and hype them up to not bail.", "choices": [
+        { "ko": "콜 7시! 우리 진짜 빠지지 말자ㅋㅋ", "en": "Deal, 7! Let's really not skip lol", "correct": true, "feedback": "콜 locks the time and 빠지지 말자 adds friendly accountability — perfect close." },
+        { "ko": "결석 시 불이익이 있을 수 있습니다.", "en": "There may be penalties for absence. (formal)", "correct": false, "feedback": "결석/불이익 is school/work jargon — bizarre between friends." },
+        { "ko": "헬스 다닐래?", "en": "Wanna go to the gym?", "correct": false, "feedback": "You already agreed and set a time — re-asking restarts the whole thing." }
+      ] }
+    ],
+    "vocab": ["운동", "헬스", "같이", "빠지다"]
+  }
+]

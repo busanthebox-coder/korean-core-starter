@@ -1,0 +1,48 @@
+[
+  {
+    "id": "talk-taxi-fare-destination",
+    "title": "Telling the Taxi Driver Where to Go and Asking the Fare",
+    "situation": "You flag down a taxi, give the driver your destination, and ask how much it will cost and how long it will take.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "기사", "ko": "어서 오세요. 어디로 모실까요?", "en": "Welcome. Where shall I take you?", "note": "어디로 모실까요? = a polite 'where to?'; 모시다 is a humble verb drivers often use" },
+      { "speaker": "손님", "ko": "안녕하세요. 홍대입구역으로 가 주세요.", "en": "Hello. Please take me to Hongik University Station.", "note": "-(으)로 가 주세요 = 'please go to ~'; -(으)로 marks the destination" },
+      { "speaker": "기사", "ko": "홍대입구역이요? 네, 알겠습니다. 출발할게요.", "en": "Hongik Univ. Station? Okay, got it. I'll get going.", "note": "Drivers often repeat the destination back to confirm it" },
+      { "speaker": "손님", "ko": "거기까지 시간이 얼마나 걸려요?", "en": "How long does it take to get there?", "note": "얼마나 걸려요? = 'how long does it take?', for time or distance" },
+      { "speaker": "기사", "ko": "지금 길이 좀 막혀서 한 삼십 분 정도 걸릴 것 같아요.", "en": "Traffic's a bit heavy right now, so it'll probably take about thirty minutes.", "note": "길이 막히다 = the road is jammed; 한 ~ 정도 = roughly about ~" },
+      { "speaker": "손님", "ko": "혹시 좀 빠른 길로 가 주실 수 있어요?", "en": "Could you take a faster route, if possible?", "note": "빠른 길로 = by the quicker road; -(으)ㄹ 수 있어요? = is it possible to ~?" },
+      { "speaker": "기사", "ko": "그럼 큰길 말고 골목으로 갈게요. 그게 더 빨라요.", "en": "Then I'll take the side streets instead of the main road. That's faster.", "note": "큰길 = main road, 골목 = back alley/side street; A 말고 B = B instead of A" },
+      { "speaker": "손님", "ko": "네, 감사합니다. 그리고 카드로 결제돼요?", "en": "Okay, thank you. Also, can I pay by card?", "note": "카드로 결제돼요? = 'does card payment work?'; almost all Korean taxis take cards" },
+      { "speaker": "기사", "ko": "그럼요, 카드 다 됩니다. 다 왔어요, 손님. 여기 세워 드릴게요.", "en": "Of course, all cards work. We're here. I'll pull over right here.", "note": "다 왔어요 = 'we've arrived'; 세워 드릴게요 = 'I'll stop (the car) for you'" },
+      { "speaker": "손님", "ko": "요금이 얼마 나왔어요?", "en": "How much is the fare?", "note": "얼마 나왔어요? = 'how much did it come out to?', the natural way to ask a metered total" },
+      { "speaker": "기사", "ko": "만 천오백 원 나왔습니다.", "en": "It comes to 11,500 won.", "note": "만 천오백 원 = 11,500 won; fares are read straight off the meter (미터기)" },
+      { "speaker": "손님", "ko": "여기 카드요. 감사합니다. 좋은 하루 보내세요.", "en": "Here's my card. Thank you. Have a good day.", "note": "좋은 하루 보내세요 = a friendly 'have a nice day' when getting out" }
+    ],
+    "tip": "These days most people call a taxi with the 카카오택시 app, but you can still flag one with an empty 빈차 light. Give the destination as 목적지 + -(으)로 가 주세요, and ask the meter total with 얼마 나왔어요?. Cards work in nearly every taxi, so 카드로 결제돼요? is enough. Late at night a 심야 할증 (late-night surcharge, usually after midnight) is added automatically, so don't be surprised if the meter starts higher.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-salon-haircut-style",
+    "title": "Asking for a Haircut and Style at a Hair Salon",
+    "situation": "You go to a hair salon (미용실) and explain to the stylist how you want your hair cut and styled.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "디자이너", "ko": "안녕하세요. 오늘 어떻게 해 드릴까요?", "en": "Hello. What would you like done today?", "note": "어떻게 해 드릴까요? = 'how shall I do it for you?', the standard salon opener" },
+      { "speaker": "손님", "ko": "커트만 하려고요. 머리가 너무 길어서요.", "en": "Just a cut, please. My hair's gotten too long.", "note": "커트 = (a) haircut; -만 하려고요 = 'I'm only going to do ~'" },
+      { "speaker": "디자이너", "ko": "어느 정도 자를까요? 많이 자를까요, 아니면 살짝 다듬을까요?", "en": "How much should I take off? A lot, or just a light trim?", "note": "자르다 = to cut; 다듬다 = to trim/tidy up the ends" },
+      { "speaker": "손님", "ko": "기장은 어깨 정도로 하고, 앞머리는 그대로 두고 싶어요.", "en": "I'd like the length around shoulder-length, and please leave the bangs as they are.", "note": "기장 = (hair) length; 앞머리 = bangs/fringe; 그대로 두다 = to leave it as is" },
+      { "speaker": "디자이너", "ko": "숱은 좀 칠까요? 끝이 많이 상했네요.", "en": "Shall I thin it out a bit? The ends are pretty damaged.", "note": "숱을 치다 = to thin out the volume; 상하다 = (hair) to be damaged" },
+      { "speaker": "손님", "ko": "네, 숱 좀 쳐 주시고 끝만 정리해 주세요.", "en": "Yes, thin it out a little and just clean up the ends.", "note": "정리하다 = to tidy/clean up; a soft way to ask for a neat finish" },
+      { "speaker": "디자이너", "ko": "혹시 펌이나 염색도 같이 하실 생각 있으세요?", "en": "By any chance, were you thinking of getting a perm or color done too?", "note": "펌 = perm, 염색 = hair dye/coloring; common add-on questions" },
+      { "speaker": "손님", "ko": "오늘은 커트만 할게요. 펌은 다음에 할까 봐요.", "en": "Just the cut today. I'm thinking I'll do the perm next time.", "note": "-(으)ㄹ까 봐요 here = 'I think I might ~'; a soft way to put something off" },
+      { "speaker": "디자이너", "ko": "네, 그럼 머리 먼저 감겨 드릴게요. 이쪽으로 오세요.", "en": "Okay, then let me wash your hair first. Come this way.", "note": "머리를 감기다 = to wash someone's hair (for them); 감다 is to wash your own" },
+      { "speaker": "손님", "ko": "혹시 다 하면 시간 얼마나 걸려요?", "en": "About how long will the whole thing take?", "note": "다 하면 = 'once it's all done'; useful for planning your day" },
+      { "speaker": "디자이너", "ko": "커트만 하면 삼십 분이면 끝나요. 편하게 계세요.", "en": "Just a cut takes thirty minutes. Make yourself comfortable.", "note": "-(으)면 끝나요 = 'it's done in ~'; 편하게 계세요 = 'relax / make yourself at home'" },
+      { "speaker": "손님", "ko": "감사합니다. 너무 짧지 않게만 해 주세요.", "en": "Thank you. Just please don't make it too short.", "note": "너무 짧지 않게 = 'not too short'; -지 않게 (해 주세요) = please make it not ~" }
+    ],
+    "tip": "At a 미용실 (hair salon) the cutter is called a 디자이너. The key words are 다듬다 (a light trim), 자르다 (a real cut), 기장 (length), 숱 (thickness/volume), 앞머리 (bangs), 펌 (perm), and 염색 (coloring). To be safe, say how much in concrete terms — 어깨 기장으로 (to shoulder length) or 손가락 두 마디 정도 (about two finger-joints) — and 너무 짧지 않게 해 주세요 if you're nervous. Bringing a photo and saying 이렇게 해 주세요 (please do it like this) works great.",
+    "vocabIds": [],
+    "patternIds": []
+  }
+]

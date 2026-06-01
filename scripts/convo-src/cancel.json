@@ -1,0 +1,107 @@
+[
+  {
+    "id": "convo-rain-check-reschedule",
+    "title": "Asking to push the plan",
+    "situation": "You're too wiped out for tomorrow's plan, so you text a friend to push it to next week.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When you bail, soften it: a quick 미안 + a reason + offering a new day keeps it casual and not flaky. Tossing back 언제가 좋아? hands them the choice.",
+    "turns": [
+      { "role": "partner", "ko": "내일 몇 시에 볼까?", "en": "What time should we meet tomorrow?" },
+      { "role": "you", "prompt": "Apologize and ask to push it to next week.", "choices": [
+        { "ko": "아 미안ㅠ 나 내일 말고 담주에 보면 안 될까?", "en": "Ah sorry ㅠ could we do next week instead of tomorrow?", "correct": true, "feedback": "미안 + 담주 (next week) + a soft 안 될까? is exactly how friends ask to reschedule." },
+        { "ko": "죄송하지만 약속을 변경하고 싶습니다.", "en": "I'm sorry but I would like to change our appointment.", "correct": false, "feedback": "Way too formal — 죄송하지만/변경하다 sounds like a business email, not a friend." },
+        { "ko": "내일 몇 시에 볼까?", "en": "What time should we meet tomorrow?", "correct": false, "feedback": "That just repeats their question instead of asking to move the plan." }
+      ] },
+      { "role": "partner", "ko": "오 그래 괜찮아~ 무슨 일 있어?", "en": "Oh sure, no problem~ is something up?" },
+      { "role": "you", "prompt": "Say you're just exhausted lately.", "choices": [
+        { "ko": "아니 그냥 요즘 너무 피곤해서ㅠㅠ", "en": "No, I've just been so tired lately ㅠㅠ", "correct": true, "feedback": "그냥 + a real reason is natural and honest — friends don't need a big excuse." },
+        { "ko": "별다른 사유는 없습니다.", "en": "There is no particular reason.", "correct": false, "feedback": "사유/없습니다 is stiff bureaucratic Korean — friends say 그냥." },
+        { "ko": "너 요즘 무슨 일 있어?", "en": "Is something up with you lately?", "correct": false, "feedback": "Flips the question back at them instead of answering — doesn't fit." }
+      ] },
+      { "role": "partner", "ko": "헐 푹 쉬어ㅠ 그럼 담주 언제가 좋아?", "en": "Aw get some rest ㅠ so when next week works for you?" },
+      { "role": "you", "prompt": "Suggest the weekend and bounce it back.", "choices": [
+        { "ko": "주말 어때? 토욜 아님 일욜!", "en": "How about the weekend? Saturday or Sunday!", "correct": true, "feedback": "A concrete option (토욜/일욜) plus 어때? keeps the rescheduling moving." },
+        { "ko": "저는 주말에 시간이 가능합니다.", "en": "I am available on the weekend.", "correct": false, "feedback": "가능합니다 is too formal — with a friend just say 주말 어때?" },
+        { "ko": "응 푹 쉴게 고마워.", "en": "Yeah I'll rest well, thanks.", "correct": false, "feedback": "Polite, but it drops the ball — they asked which day, so you should pick one." }
+      ] },
+      { "role": "partner", "ko": "콜! 토욜로 하자 ㅎㅎ", "en": "Deal! Let's do Saturday hehe" },
+      { "role": "you", "prompt": "Confirm and thank them for understanding.", "choices": [
+        { "ko": "오키 토욜! 이해해줘서 고마워ㅎㅎ", "en": "Okay, Saturday! Thanks for understanding hehe", "correct": true, "feedback": "오키 + confirming the day + a quick thanks is a warm, natural sign-off." },
+        { "ko": "양해해 주셔서 감사합니다.", "en": "Thank you for your understanding (formal).", "correct": false, "feedback": "양해/감사합니다 is customer-service formal — too stiff for a friend." },
+        { "ko": "토욜은 좀 그래.", "en": "Saturday's kind of iffy.", "correct": false, "feedback": "Contradicts what you both just agreed on — confusing." }
+      ] }
+    ],
+    "vocab": ["담주", "피곤하다", "주말", "이해하다"]
+  },
+  {
+    "id": "convo-running-late-text",
+    "title": "Warning you'll be late",
+    "situation": "You're stuck and running about 20 minutes late, so you text the friend already waiting.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "Give a heads-up early with a time (한 20분), a reason, and what they should do meanwhile (먼저 들어가 있어). 미안 ㅠ goes a long way.",
+    "turns": [
+      { "role": "partner", "ko": "야 너 어디야? 나 거의 다 왔어", "en": "Hey where are you? I'm almost there" },
+      { "role": "you", "prompt": "Warn them you'll be about 20 min late and say sorry.", "choices": [
+        { "ko": "헉 미안ㅠ 나 한 20분 늦을 거 같아", "en": "Oh no, sorry ㅠ I think I'll be about 20 min late", "correct": true, "feedback": "Heads-up with a number (한 20분) + 미안 is exactly the right move when you're running late." },
+        { "ko": "도착이 지연될 예정입니다.", "en": "My arrival is expected to be delayed.", "correct": false, "feedback": "지연/예정입니다 reads like a train announcement — friends say 늦을 거 같아." },
+        { "ko": "너 어디야?", "en": "Where are you?", "correct": false, "feedback": "Just echoes their question — doesn't tell them you're late." }
+      ] },
+      { "role": "partner", "ko": "헐 왜? 무슨 일 있어?", "en": "What, why? Did something happen?" },
+      { "role": "you", "prompt": "Explain the bus is super late.", "choices": [
+        { "ko": "버스가 안 와ㅠ 진짜 미치겠다", "en": "The bus isn't coming ㅠ I'm seriously losing it", "correct": true, "feedback": "A real, vivid reason + 미치겠다 sounds like a frustrated friend in the moment." },
+        { "ko": "대중교통 사정으로 인하여 늦습니다.", "en": "I am late due to public transit circumstances.", "correct": false, "feedback": "사정으로 인하여 is formal/written — nobody texts a friend like this." },
+        { "ko": "응 무슨 일 있어?", "en": "Yeah, did something happen?", "correct": false, "feedback": "Bounces the question back instead of explaining why you're late." }
+      ] },
+      { "role": "partner", "ko": "아 괜찮아ㅋㅋ 천천히 와~", "en": "Ah it's fine lol take your time~" },
+      { "role": "you", "prompt": "Tell them to go in first and order without you.", "choices": [
+        { "ko": "ㅇㅇ 먼저 들어가 있어! 음료 시켜놔ㅋㅋ", "en": "Yeah go in first! Order me a drink lol", "correct": true, "feedback": "먼저 들어가 있어 + 시켜놔 is the natural casual way to handle it while they wait." },
+        { "ko": "먼저 입장해 주시기 바랍니다.", "en": "Please enter ahead of me (formal).", "correct": false, "feedback": "입장/바랍니다 is announcement-speak — say 먼저 들어가 있어." },
+        { "ko": "거기 카페 분위기 어때?", "en": "How's the vibe at that cafe?", "correct": false, "feedback": "Random subject change — doesn't deal with you being late." }
+      ] },
+      { "role": "partner", "ko": "ㅇㅋㅋㅋ 알겠어 빨리 와", "en": "Okay lol got it, hurry up" },
+      { "role": "you", "prompt": "Say you're almost there and apologize again.", "choices": [
+        { "ko": "거의 다 왔어! 금방 갈게 미안ㅠ", "en": "Almost there! I'll be quick, sorry ㅠ", "correct": true, "feedback": "거의 다 왔어 + 금방 갈게 + 미안 wraps it up warmly and naturally." },
+        { "ko": "최대한 신속히 이동하겠습니다.", "en": "I will move as swiftly as possible (formal).", "correct": false, "feedback": "신속히/이동하겠습니다 is way too formal for a friend." },
+        { "ko": "천천히 갈게.", "en": "I'll take my time getting there.", "correct": false, "feedback": "Wrong meaning — you're late, so saying you'll go slowly doesn't fit." }
+      ] }
+    ],
+    "vocab": ["늦다", "버스", "먼저", "금방"]
+  },
+  {
+    "id": "convo-not-feeling-well-raincheck",
+    "title": "Bailing because you feel off",
+    "situation": "You feel sick the day of the plan and text a friend to cancel and do it another time.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "Canceling for your health: state it simply (컨디션이 안 좋아), apologize, and lock in 다음에 so it doesn't feel like a brush-off. 다음에 내가 살게 is a sweet way to make up for it.",
+    "turns": [
+      { "role": "partner", "ko": "오늘 저녁에 보는 거 맞지?", "en": "We're still on for tonight, right?" },
+      { "role": "you", "prompt": "Say you're not feeling great and ask to do it another time.", "choices": [
+        { "ko": "미안ㅠ 나 오늘 컨디션이 너무 안 좋아서 다음에 보면 안 될까?", "en": "Sorry ㅠ I'm really not feeling well today, can we meet another time?", "correct": true, "feedback": "컨디션이 안 좋아 + 다음에 + 안 될까? is the standard, kind way to cancel and reschedule." },
+        { "ko": "금일 컨디션 난조로 약속을 취소합니다.", "en": "I am canceling today's appointment due to poor condition.", "correct": false, "feedback": "금일/난조/취소합니다 is formal written Korean — robotic for a friend." },
+        { "ko": "오늘 저녁에 보는 거 맞지?", "en": "We're still on for tonight, right?", "correct": false, "feedback": "Just repeats their line instead of canceling." }
+      ] },
+      { "role": "partner", "ko": "헐 어디 아파? 괜찮아?", "en": "Oh no, are you sick? You okay?" },
+      { "role": "you", "prompt": "Say you think you caught a cold.", "choices": [
+        { "ko": "감기 걸렸나 봐ㅠ 목도 아프고 으슬으슬해", "en": "I think I caught a cold ㅠ my throat hurts and I've got the chills", "correct": true, "feedback": "감기 걸렸나 봐 + symptoms is natural — gives them a clear, relatable picture." },
+        { "ko": "감기에 이환된 것으로 사료됩니다.", "en": "It is surmised that I have contracted a cold (formal).", "correct": false, "feedback": "이환/사료됩니다 is medical-report language — absurd in a text to a friend." },
+        { "ko": "너는 안 아파?", "en": "You're not sick?", "correct": false, "feedback": "Turns it around onto them instead of answering how you feel." }
+      ] },
+      { "role": "partner", "ko": "아이고ㅠ 약 먹고 푹 자 진짜", "en": "Aww ㅠ take some meds and really get some sleep" },
+      { "role": "you", "prompt": "Thank them and promise to treat them next time.", "choices": [
+        { "ko": "ㅇㅇ 약 먹고 잘게ㅠ 다음엔 내가 살게!", "en": "Yeah I'll take meds and sleep ㅠ next time it's on me!", "correct": true, "feedback": "Reacts to their advice (약 먹고 잘게) then offers 다음엔 내가 살게 — makes up for bailing and keeps it warm." },
+        { "ko": "배려에 깊이 감사드립니다.", "en": "I deeply appreciate your consideration (formal).", "correct": false, "feedback": "배려/감사드립니다 is far too formal — friends just say 고마워." },
+        { "ko": "약은 됐고 그냥 잘게.", "en": "Forget the meds, I'll just sleep.", "correct": false, "feedback": "Brushes off their kind advice — sounds a bit cold." }
+      ] },
+      { "role": "partner", "ko": "ㅇㅇ 낫고 보자! 몸조리 잘해", "en": "Yeah, let's meet once you're better! Take good care" },
+      { "role": "you", "prompt": "Agree and tell them you'll text when you're better.", "choices": [
+        { "ko": "응 나으면 바로 연락할게! 고마워ㅎㅎ", "en": "Yeah I'll message you as soon as I'm better! Thanks hehe", "correct": true, "feedback": "나으면 바로 연락할게 confirms the rain check and ends on a warm note." },
+        { "ko": "쾌차하는 대로 연락드리겠습니다.", "en": "I will contact you as soon as I recover (formal).", "correct": false, "feedback": "쾌차/연락드리겠습니다 is too polite/formal for a close friend." },
+        { "ko": "이미 다 나았어ㅋㅋ", "en": "I'm already all better lol", "correct": false, "feedback": "Contradicts the whole reason you canceled — confusing." }
+      ] }
+    ],
+    "vocab": ["컨디션", "감기", "다음에", "낫다"]
+  }
+]

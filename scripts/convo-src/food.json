@@ -1,0 +1,107 @@
+[
+  {
+    "id": "convo-late-night-delivery",
+    "title": "Ordering late-night delivery",
+    "situation": "It's almost midnight and a friend texts you about ordering late-night food together.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When a friend floats an idea, react first (헐/오/대박) then bounce a question back (뭐 시킬까?) — that combo is what keeps a casual chat alive instead of killing it with a flat yes/no.",
+    "turns": [
+      { "role": "partner", "ko": "야 자?? 나 갑자기 야식 땡기는데ㅋㅋ", "en": "Hey you asleep?? I'm suddenly craving late-night food lol" },
+      { "role": "you", "prompt": "Say you're awake and you're in — ask what to order.", "choices": [
+        { "ko": "헐 나도ㅋㅋ 뭐 시킬까?", "en": "Omg me too lol what should we order?", "correct": true, "feedback": "헐 나도 reacts and matches their energy, and 뭐 시킬까? tosses it right back — perfect momentum." },
+        { "ko": "아직 안 잤습니다. 무엇을 주문할까요?", "en": "I haven't slept yet. What shall we order? (formal)", "correct": false, "feedback": "Way too formal for a midnight text to a friend — drop the 습니다/까요." },
+        { "ko": "응 자려고.", "en": "Yeah, about to sleep.", "correct": false, "feedback": "Kills the chat — they're inviting you, so react and keep it going instead." }
+      ] },
+      { "role": "partner", "ko": "치킨 vs 족발 둘 중에 골라봐", "en": "Pick one: chicken or jokbal" },
+      { "role": "you", "prompt": "Lean toward chicken and ask if they're okay with it.", "choices": [
+        { "ko": "음 난 치킨! 너도 콜?", "en": "Hmm I want chicken! you in?", "correct": true, "feedback": "Picks a side and checks in with 콜? — natural back-and-forth that lands the decision together." },
+        { "ko": "저는 치킨을 선호합니다.", "en": "I prefer chicken. (formal)", "correct": false, "feedback": "선호합니다 is textbook-stiff. Friends just say 난 치킨!" },
+        { "ko": "치킨 vs 족발 골라봐.", "en": "Pick one: chicken or jokbal.", "correct": false, "feedback": "You just repeated their question back instead of answering it." }
+      ] },
+      { "role": "partner", "ko": "콜ㅋㅋ 양념 반 후라이드 반 어때?", "en": "Deal lol how about half seasoned half fried?" },
+      { "role": "you", "prompt": "Love it, and bring up paying.", "choices": [
+        { "ko": "완전 좋아! 배달비는 더치페이ㄱㄱ", "en": "Love it! let's split the delivery fee, let's go", "correct": true, "feedback": "완전 좋아 shows enthusiasm and ㄱㄱ (=go go) is super common casual texting." },
+        { "ko": "반반은 진리지ㅋㅋ 근데 나 다이어트 중인데", "en": "Half-and-half is the truth lol but I'm on a diet", "correct": false, "feedback": "Funny, but it backpedals right after agreeing — mixed signal that stalls the order." },
+        { "ko": "그렇게 하시면 됩니다.", "en": "You may do it that way. (formal)", "correct": false, "feedback": "Sounds like a customer-service reply, not a friend hyped about chicken." }
+      ] },
+      { "role": "partner", "ko": "ㅇㅋ 내가 주문할게! 30분 걸린대", "en": "ok I'll order! says it'll take 30 min" },
+      { "role": "you", "prompt": "Thank them and say you'll head over.", "choices": [
+        { "ko": "오키 고마워! 나 지금 갈게ㅋㅋ", "en": "Okay thanks! I'm heading over now lol", "correct": true, "feedback": "고마워 + 지금 갈게 wraps it up warmly and moves to action — exactly how friends close a plan." },
+        { "ko": "감사합니다. 곧 도착하겠습니다.", "en": "Thank you. I will arrive soon. (formal)", "correct": false, "feedback": "Too polite — 고마워 / 갈게 is the casual register here." },
+        { "ko": "30분이나 걸려?", "en": "It takes a whole 30 minutes?", "correct": false, "feedback": "Reads as complaining when they just did you a favor by ordering." }
+      ] }
+    ],
+    "vocab": ["야식", "땡기다", "시키다", "반반", "배달비", "더치페이"]
+  },
+  {
+    "id": "convo-cafe-dessert",
+    "title": "Picking a dessert at a cafe",
+    "situation": "You and a friend are at a cafe staring at the dessert case, trying to decide.",
+    "setting": "hangout",
+    "partner": "친구",
+    "tip": "In person, fillers (음…, 그니까) and quick agreement tokens (그치, 그러게) buy you time and signal you're listening. Pair them with a suggestion so the decision actually moves.",
+    "turns": [
+      { "role": "partner", "ko": "와 여기 디저트 다 맛있어 보여… 뭐 먹지?", "en": "Wow everything here looks good… what should we get?" },
+      { "role": "you", "prompt": "Agree it all looks good and ask what they're craving.", "choices": [
+        { "ko": "그러게ㅋㅋ 넌 뭐 땡겨?", "en": "Right lol what are you feeling?", "correct": true, "feedback": "그러게 agrees naturally and 넌 뭐 땡겨? throws the choice back — keeps you two deciding together." },
+        { "ko": "전부 다 맛있어 보입니다.", "en": "Everything looks delicious. (formal)", "correct": false, "feedback": "보입니다 is too formal facing a friend over a cake display." },
+        { "ko": "여기 디저트 다 맛있어 보여?", "en": "Does all the dessert here look good?", "correct": false, "feedback": "Just echoes what they said as a question — doesn't add anything." }
+      ] },
+      { "role": "partner", "ko": "난 치즈케이크? 근데 요즘 약과 쿠키도 핫하잖아", "en": "Cheesecake for me? but yakgwa cookies are trendy these days too" },
+      { "role": "you", "prompt": "Suggest splitting both so you don't have to choose.", "choices": [
+        { "ko": "오 그럼 둘 다 시켜서 나눠 먹을까?", "en": "Oh then should we get both and share?", "correct": true, "feedback": "Solves the indecision and 나눠 먹을까? invites them in — a classic friendly cafe move." },
+        { "ko": "약과는 한국 전통 과자입니다.", "en": "Yakgwa is a traditional Korean sweet. (formal)", "correct": false, "feedback": "Random fact dump that ignores the actual choice you two are making." },
+        { "ko": "마음대로 하세요.", "en": "Do as you please. (formal)", "correct": false, "feedback": "Cold and dismissive — sounds like you don't want to decide with them." }
+      ] },
+      { "role": "partner", "ko": "오 좋다! 음료는 뭐 마실래?", "en": "Oh nice! what do you want to drink?" },
+      { "role": "you", "prompt": "Say iced americano and ask what they're getting.", "choices": [
+        { "ko": "난 아아! 넌?", "en": "Iced americano for me! you?", "correct": true, "feedback": "아아 (iced americano) is the everyday slang, and 넌? keeps it bouncing." },
+        { "ko": "저는 아이스 아메리카노로 하겠습니다.", "en": "I will have an iced americano. (formal)", "correct": false, "feedback": "Sounds like you're ordering from staff — with a friend it's just 난 아아!" },
+        { "ko": "커피는 몸에 안 좋아.", "en": "Coffee is bad for you.", "correct": false, "feedback": "Turns a fun choice into a lecture and changes the subject." }
+      ] },
+      { "role": "partner", "ko": "난 라떼! 자리 잡고 있어, 내가 주문할게", "en": "Latte for me! grab us a seat, I'll order" },
+      { "role": "you", "prompt": "Offer to pay this round instead.", "choices": [
+        { "ko": "오키! 근데 이번엔 내가 살게ㅋㅋ", "en": "Okay! but this round's on me lol", "correct": true, "feedback": "내가 살게 (I'll treat) is warm and natural, and it keeps the friendly give-and-take going." },
+        { "ko": "제가 계산하도록 하겠습니다.", "en": "I shall take care of the payment. (formal)", "correct": false, "feedback": "Reads like a waiter — friends say 내가 살게." },
+        { "ko": "응, 빨리 와.", "en": "Yeah, hurry back.", "correct": false, "feedback": "A bit bossy and flat when they just offered to go order for you." }
+      ] }
+    ],
+    "vocab": ["디저트", "땡기다", "나눠 먹다", "아아", "자리 잡다", "내가 살게"]
+  },
+  {
+    "id": "convo-what-for-lunch",
+    "title": "Figuring out lunch",
+    "situation": "It's lunchtime and a coworker-friend asks what you both should eat.",
+    "setting": "hangout",
+    "partner": "친구",
+    "tip": "\"아무거나\" feels easy but it stalls the decision. The friendly skill here is to give a soft preference and a real suggestion so your friend isn't stuck choosing alone.",
+    "turns": [
+      { "role": "partner", "ko": "벌써 점심시간이네ㅋㅋ 오늘 뭐 먹지?", "en": "It's already lunchtime lol what should we eat today?" },
+      { "role": "you", "prompt": "Say you're starving and ask if they have anything in mind.", "choices": [
+        { "ko": "헐 나 완전 배고파ㅠㅠ 너 먹고 싶은 거 있어?", "en": "Ugh I'm starving :( you got anything in mind?", "correct": true, "feedback": "Reacts with energy and 먹고 싶은 거 있어? invites their idea — way better than a dead-end 아무거나." },
+        { "ko": "저는 매우 배가 고픕니다.", "en": "I am very hungry. (formal)", "correct": false, "feedback": "고픕니다 is far too formal for a lunch chat with a buddy." },
+        { "ko": "아무거나 상관없어.", "en": "Anything's fine, don't care.", "correct": false, "feedback": "Technically fine but it dumps the whole decision on them and stalls things." }
+      ] },
+      { "role": "partner", "ko": "음… 어제 치킨 먹어서 좀 느끼한데", "en": "Hmm… had chicken yesterday so I'm kinda sick of greasy stuff" },
+      { "role": "you", "prompt": "Empathize and suggest something light like kalguksu.", "choices": [
+        { "ko": "아 그치ㅋㅋ 그럼 칼국수 같은 거 어때?", "en": "Ah right lol then how about something like kalguksu?", "correct": true, "feedback": "그치 shows you get it, and a concrete suggestion (칼국수) moves the decision forward." },
+        { "ko": "느끼한 음식은 건강에 해롭습니다.", "en": "Greasy food is harmful to your health. (formal)", "correct": false, "feedback": "Lecture-y and formal — not the vibe when you're just picking lunch." },
+        { "ko": "그럼 오늘도 치킨 먹자!", "en": "Then let's get chicken again today!", "correct": false, "feedback": "They literally just said they're sick of greasy food — wrong read." }
+      ] },
+      { "role": "partner", "ko": "오 칼국수 좋다! 근데 거기 항상 줄 길지 않아?", "en": "Oh kalguksu sounds good! but isn't there always a line there?" },
+      { "role": "you", "prompt": "Agree it gets busy and suggest going a bit early.", "choices": [
+        { "ko": "맞아 점심엔 웨이팅 빡세지ㅋㅋ 좀 일찍 갈까?", "en": "Yeah the wait's brutal at lunch lol wanna go a bit early?", "correct": true, "feedback": "맞아 confirms, 웨이팅 빡세다 is natural slang, and the suggestion keeps solving the problem together." },
+        { "ko": "그곳은 항상 사람이 많습니다.", "en": "That place is always crowded. (formal)", "correct": false, "feedback": "Just restates their point in stiff 습니다 form without offering a fix." },
+        { "ko": "그럼 그냥 굶자ㅋㅋ", "en": "Then let's just skip eating lol", "correct": false, "feedback": "Joke aside, it derails the plan you were both building." }
+      ] },
+      { "role": "partner", "ko": "콜! 그럼 지금 나갈까?", "en": "Deal! shall we head out now?" },
+      { "role": "you", "prompt": "Agree and say let's go.", "choices": [
+        { "ko": "ㅇㅋ 가자 가자!", "en": "Okay let's go let's go!", "correct": true, "feedback": "가자 is the casual 'let's go,' and doubling it adds a friendly little push of energy." },
+        { "ko": "네, 지금 출발하겠습니다.", "en": "Yes, I will depart now. (formal)", "correct": false, "feedback": "출발하겠습니다 sounds like an announcement — friends just say 가자." },
+        { "ko": "잠깐, 나 아직 배 안 고픈데.", "en": "Wait, I'm not actually hungry yet.", "correct": false, "feedback": "Contradicts what you said earlier and stalls the plan right at the finish line." }
+      ] }
+    ],
+    "vocab": ["점심시간", "느끼하다", "칼국수", "웨이팅", "빡세다", "가자"]
+  }
+]

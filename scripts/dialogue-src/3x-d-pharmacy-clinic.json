@@ -1,0 +1,48 @@
+[
+  {
+    "id": "talk-pharmacy-cold-medicine",
+    "title": "Buying Cold Medicine at the Pharmacy",
+    "situation": "You catch a cold and go to a 약국 to describe your symptoms and buy over-the-counter medicine.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "약사", "ko": "어서 오세요. 어디가 안 좋으세요?", "en": "Welcome. What's bothering you?", "note": "어디가 안 좋으세요 = a softer, common way to ask what's wrong" },
+      { "speaker": "손님", "ko": "어제부터 감기 기운이 있어요.", "en": "I've felt a cold coming on since yesterday.", "note": "감기 기운 = signs/onset of a cold, a very natural phrase" },
+      { "speaker": "약사", "ko": "증상이 어떻게 되세요? 콧물이나 기침 있으세요?", "en": "What are your symptoms? Do you have a runny nose or a cough?", "note": "증상 = symptom; ~이나 lists options" },
+      { "speaker": "손님", "ko": "콧물이 나고 목이 좀 따끔거려요.", "en": "I have a runny nose and my throat feels a bit scratchy.", "note": "따끔거리다 = to feel prickly/scratchy" },
+      { "speaker": "약사", "ko": "열은요? 열도 나세요?", "en": "What about a fever? Do you have one too?" },
+      { "speaker": "손님", "ko": "열은 없는데 몸이 좀 으슬으슬해요.", "en": "No fever, but I feel a bit chilly and shivery.", "note": "으슬으슬하다 = the chilly, shivery feeling of a cold" },
+      { "speaker": "약사", "ko": "그럼 종합감기약 드릴게요. 졸린 성분이 들어 있어요.", "en": "Then I'll give you a combination cold medicine. It has a drowsy ingredient in it.", "note": "종합감기약 = all-in-one cold medicine" },
+      { "speaker": "손님", "ko": "하루에 몇 번 먹어요?", "en": "How many times a day do I take it?" },
+      { "speaker": "약사", "ko": "식후 30분에 하루 세 번 드세요.", "en": "Take it three times a day, 30 minutes after meals.", "note": "식후 30분 = 30 minutes after eating, the standard dosing line" },
+      { "speaker": "손님", "ko": "이거 먹고 운전해도 돼요?", "en": "Is it okay to drive after taking this?" },
+      { "speaker": "약사", "ko": "졸릴 수 있으니까 운전은 피하세요.", "en": "It may make you drowsy, so avoid driving.", "note": "~(으)니까 = because/so; gives a reason before advice" },
+      { "speaker": "손님", "ko": "알겠습니다. 얼마예요?", "en": "Got it. How much is it?" }
+    ],
+    "tip": "For colds, fevers, and minor pain you can buy medicine straight from a 약국 without a prescription. Just describe your 증상 (symptoms) clearly. For most antibiotics you'll need a doctor's prescription (처방전) first.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-clinic-front-desk",
+    "title": "Registering at a Clinic Front Desk",
+    "situation": "You arrive at a 의원 (clinic) for the first time and check in at the front desk before seeing the doctor.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "직원", "ko": "안녕하세요. 접수 도와드릴게요. 처음 오셨어요?", "en": "Hello. Let me help you check in. Is this your first visit?", "note": "접수 = registration/check-in; 처음 오셨어요 asks if you're a new patient" },
+      { "speaker": "손님", "ko": "네, 처음이에요.", "en": "Yes, it's my first time." },
+      { "speaker": "직원", "ko": "그럼 이 문진표 좀 작성해 주세요. 신분증 있으세요?", "en": "Then please fill out this form. Do you have an ID?", "note": "문진표 작성하다 = to fill out a medical questionnaire; 신분증 = ID card" },
+      { "speaker": "손님", "ko": "외국인등록증도 괜찮아요?", "en": "Is an Alien Registration Card okay too?", "note": "외국인등록증 = ARC, the ID foreigners carry in Korea" },
+      { "speaker": "직원", "ko": "네, 괜찮아요. 건강보험은 있으세요?", "en": "Yes, that's fine. Do you have health insurance?", "note": "건강보험 = national health insurance" },
+      { "speaker": "손님", "ko": "네, 직장 건강보험 있어요.", "en": "Yes, I have insurance through my job." },
+      { "speaker": "직원", "ko": "어디가 불편해서 오셨어요?", "en": "What are you here to see the doctor about?", "note": "어디가 불편하세요 = a polite, standard way to ask your reason for visiting" },
+      { "speaker": "손님", "ko": "며칠째 기침이 안 멈춰서요.", "en": "I've had a cough that won't stop for a few days.", "note": "며칠째 = for several days now; ~아서/어서요 trails off to give a reason" },
+      { "speaker": "직원", "ko": "알겠습니다. 저쪽에서 잠시만 기다려 주세요. 성함 부를게요.", "en": "Got it. Please wait over there for a moment. I'll call your name.", "note": "성함 = honorific for 'name'; 부르다 = to call" },
+      { "speaker": "손님", "ko": "네, 진료비는 끝나고 내면 돼요?", "en": "Okay, do I pay the consultation fee after I'm done?", "note": "진료비 = medical/consultation fee" },
+      { "speaker": "직원", "ko": "네, 진료 끝나고 여기서 수납하시면 돼요.", "en": "Yes, you can settle the payment here after your consultation.", "note": "수납하다 = to pay/settle the bill, common at clinic desks" },
+      { "speaker": "손님", "ko": "감사합니다. 기다릴게요.", "en": "Thank you. I'll wait." }
+    ],
+    "tip": "First-time patients fill out a short 문진표 (medical questionnaire) and show ID (your 외국인등록증 works). If you're enrolled in 건강보험, clinic visits are cheap. You usually see the doctor first and pay (수납) at the desk on your way out, then take any 처방전 to a nearby pharmacy.",
+    "vocabIds": [],
+    "patternIds": []
+  }
+]

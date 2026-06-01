@@ -1,0 +1,65 @@
+[
+  {
+    "id": "talk-hotel",
+    "title": "Checking into a hotel",
+    "situation": "You arrive at a hotel front desk to check in for your stay.",
+    "level": "A1",
+    "lines": [
+      { "speaker": "손님", "ko": "안녕하세요. 체크인하고 싶어요.", "en": "Hello. I would like to check in." },
+      { "speaker": "직원", "ko": "네, 예약하셨어요?", "en": "Yes, do you have a reservation?", "note": "polite past form" },
+      { "speaker": "손님", "ko": "네, 인터넷으로 예약했어요.", "en": "Yes, I booked online." },
+      { "speaker": "직원", "ko": "성함이 어떻게 되세요?", "en": "What is your name?", "note": "honorific for name" },
+      { "speaker": "손님", "ko": "김민수예요. 이박 예약했어요.", "en": "It is Kim Minsu. I booked two nights." },
+      { "speaker": "직원", "ko": "여권 좀 보여 주세요.", "en": "Please show me your passport." },
+      { "speaker": "손님", "ko": "여기 있어요. 조식도 포함이에요?", "en": "Here it is. Is breakfast included too?" },
+      { "speaker": "직원", "ko": "네, 칠 층 식당에서 드시면 돼요.", "en": "Yes, you can eat at the restaurant on the seventh floor." },
+      { "speaker": "손님", "ko": "감사합니다. 방이 몇 호예요?", "en": "Thank you. What is the room number?" },
+      { "speaker": "직원", "ko": "삼백오 호예요. 카드 키 여기 있어요.", "en": "It is room 305. Here is your card key." }
+    ],
+    "tip": "Korean hotels usually ask for your passport at check-in, so keep it handy.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-meeting",
+    "title": "Meeting someone new",
+    "situation": "You meet a new coworker for the first time and introduce yourself.",
+    "level": "A1",
+    "lines": [
+      { "speaker": "A", "ko": "안녕하세요. 처음 뵙겠습니다.", "en": "Hello. Nice to meet you.", "note": "set first-meeting phrase" },
+      { "speaker": "B", "ko": "안녕하세요. 반갑습니다.", "en": "Hello. Glad to meet you." },
+      { "speaker": "A", "ko": "저는 사라예요. 미국에서 왔어요.", "en": "I am Sarah. I came from America." },
+      { "speaker": "B", "ko": "아, 그래요? 저는 지훈이에요.", "en": "Oh, really? I am Jihun." },
+      { "speaker": "A", "ko": "만나서 반가워요. 무슨 일 하세요?", "en": "Nice to meet you. What work do you do?" },
+      { "speaker": "B", "ko": "디자이너예요. 사라 씨는요?", "en": "I am a designer. How about you, Sarah?", "note": "씨 = polite title" },
+      { "speaker": "A", "ko": "저는 영어 선생님이에요.", "en": "I am an English teacher." },
+      { "speaker": "B", "ko": "와, 멋있어요. 한국어 잘하세요.", "en": "Wow, that is cool. You speak Korean well." },
+      { "speaker": "A", "ko": "아니에요. 아직 조금 해요.", "en": "Not at all. I still speak only a little." },
+      { "speaker": "B", "ko": "앞으로 잘 부탁해요.", "en": "I look forward to working with you.", "note": "common closing phrase" }
+    ],
+    "tip": "Koreans add the title 씨 after a given name to be polite, but never use it for yourself.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-phone",
+    "title": "A short call to a friend",
+    "situation": "You call a friend to make plans to meet later today.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "A", "ko": "여보세요? 지민아, 나야.", "en": "Hello? Jimin, it is me.", "note": "여보세요 = phone hello" },
+      { "speaker": "B", "ko": "어, 안녕! 지금 뭐 해?", "en": "Oh, hi! What are you doing now?", "note": "casual speech" },
+      { "speaker": "A", "ko": "그냥 집에 있어. 오늘 시간 있어?", "en": "Just staying home. Do you have time today?" },
+      { "speaker": "B", "ko": "응, 저녁에 괜찮아. 왜?", "en": "Yeah, the evening is fine. Why?" },
+      { "speaker": "A", "ko": "같이 영화 볼래? 새 영화 나왔어.", "en": "Want to watch a movie together? A new one came out." },
+      { "speaker": "B", "ko": "좋아! 몇 시에 만날까?", "en": "Sounds good! What time should we meet?" },
+      { "speaker": "A", "ko": "여섯 시 어때? 역 앞에서 보자.", "en": "How about six? Let us meet in front of the station." },
+      { "speaker": "B", "ko": "알겠어. 그럼 이따 봐.", "en": "Got it. See you later then." },
+      { "speaker": "A", "ko": "응, 늦지 마. 끊을게!", "en": "Okay, do not be late. I will hang up!" },
+      { "speaker": "B", "ko": "응, 이따 봐. 안녕!", "en": "Okay, see you later. Bye!" }
+    ],
+    "tip": "Always answer the phone in Korean with 여보세요, even if you already know who is calling.",
+    "vocabIds": [],
+    "patternIds": []
+  }
+]

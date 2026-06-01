@@ -1,0 +1,107 @@
+[
+  {
+    "id": "convo-bombed-the-exam",
+    "title": "Friend bombed an exam",
+    "situation": "A friend texts you, upset that they did terribly on a test.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When a friend vents, lead with empathy (헐, 어떡해, 고생했어) before asking what happened — comforting first, then a follow-up question, is the natural flow.",
+    "turns": [
+      { "role": "partner", "ko": "나 시험 완전 망했어ㅠㅠ", "en": "I totally bombed the exam ㅠㅠ" },
+      { "role": "you", "prompt": "React with sympathy and ask how bad it was.", "choices": [
+        { "ko": "헐 왜? 많이 어려웠어?", "en": "Oh no, why? Was it really hard?", "correct": true, "feedback": "헐 (reaction) + 왜? (follow-up) is exactly how friends respond to bad news." },
+        { "ko": "시험 결과가 안 좋으셨군요.", "en": "Your exam results were poor (formal).", "correct": false, "feedback": "Way too formal and stiff — friends never talk like this." },
+        { "ko": "나도 시험 망했어.", "en": "I bombed my exam too.", "correct": false, "feedback": "Makes it about you instead of comforting them first." }
+      ] },
+      { "role": "partner", "ko": "응 한 문제도 제대로 못 풀었어 진짜ㅠ", "en": "Yeah I couldn't even solve a single question properly ㅠ" },
+      { "role": "you", "prompt": "Show you feel for them and tell them not to stress too much.", "choices": [
+        { "ko": "아이고… 너무 스트레스받지 마", "en": "Aw… don't stress about it too much", "correct": true, "feedback": "아이고 + 스트레스받지 마 is warm, casual comfort." },
+        { "ko": "공부를 더 열심히 하셨어야죠.", "en": "You should have studied harder (formal/scolding).", "correct": false, "feedback": "Scolding and formal — the opposite of comforting a friend." },
+        { "ko": "그래서 몇 점인데?", "en": "So what'd you get?", "correct": false, "feedback": "Prying for the number right now feels cold when they're already down." }
+      ] },
+      { "role": "partner", "ko": "위로 고마워ㅠㅠ 술이나 마시러 갈까", "en": "Thanks for the comfort ㅠㅠ wanna go grab a drink or something" },
+      { "role": "you", "prompt": "Agree and offer to treat them.", "choices": [
+        { "ko": "콜! 오늘은 내가 쏠게", "en": "Deal! I'll treat you today", "correct": true, "feedback": "콜 + 내가 쏠게 is super natural — agreeing and offering to pay." },
+        { "ko": "저는 술을 마시지 않습니다.", "en": "I do not drink (formal).", "correct": false, "feedback": "Too formal, and it shuts the plan down." },
+        { "ko": "다음 시험은 잘 보세요.", "en": "Do well on the next exam (polite).", "correct": false, "feedback": "요 is formal and it ignores the invite they just made." }
+      ] },
+      { "role": "partner", "ko": "오 진짜? 역시 너밖에 없다", "en": "Oh really? You're the best, seriously" },
+      { "role": "you", "prompt": "Brush it off and say let's go.", "choices": [
+        { "ko": "당연하지ㅋㅋ 이따 보자!", "en": "Of course lol see you later!", "correct": true, "feedback": "당연하지 + 이따 보자 is the perfect casual wrap-up." },
+        { "ko": "별말씀을요.", "en": "Don't mention it (polite).", "correct": false, "feedback": "별말씀을요 is polite/formal — friends say 당연하지 or 뭘ㅋㅋ." },
+        { "ko": "그럼 이만 실례하겠습니다.", "en": "Then I'll take my leave (very formal).", "correct": false, "feedback": "Extremely formal sign-off — completely wrong for a friend." }
+      ] }
+    ],
+    "vocab": ["시험", "망하다", "스트레스받다", "위로", "쏘다"]
+  },
+  {
+    "id": "convo-assignment-overload",
+    "title": "Buried in assignments",
+    "situation": "A friend texts that they're drowning in assignments all due at once.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "Commiserating (나도, 그니까, 헐) signals you're on their side; pair it with a question like 언제까지야? to keep the venting going.",
+    "turns": [
+      { "role": "partner", "ko": "과제가 산더미야 진짜 죽겠다", "en": "I've got a mountain of assignments, I'm seriously dying" },
+      { "role": "you", "prompt": "React and ask when they're due.", "choices": [
+        { "ko": "헐 몇 개인데? 언제까지야?", "en": "Whoa, how many? When are they due?", "correct": true, "feedback": "헐 + two quick follow-ups keeps them venting and shows you care." },
+        { "ko": "과제가 많아서 힘드시겠어요.", "en": "You must be struggling with so much work (polite).", "correct": false, "feedback": "요 makes it formal — friends drop the 요." },
+        { "ko": "과제는 미리미리 하는 게 좋아.", "en": "It's better to do assignments ahead of time.", "correct": false, "feedback": "Sounds preachy — not what they want to hear mid-panic." }
+      ] },
+      { "role": "partner", "ko": "세 개… 다 내일까지ㅋㅋㅋ 망했어", "en": "Three… all due tomorrow lol I'm doomed" },
+      { "role": "you", "prompt": "Empathize hard.", "choices": [
+        { "ko": "헐 그걸 어떻게 다 해ㅠㅠ", "en": "What, how are you gonna finish all that ㅠㅠ", "correct": true, "feedback": "Genuine 'how is that even possible' empathy — exactly right." },
+        { "ko": "그것은 매우 어려운 상황이네요.", "en": "That is a very difficult situation (formal).", "correct": false, "feedback": "Stiff, textbook phrasing — no friend texts like this." },
+        { "ko": "나는 과제 다 끝냈는데.", "en": "I already finished all mine.", "correct": false, "feedback": "Bragging while they're stressed — reads as rubbing it in." }
+      ] },
+      { "role": "partner", "ko": "그니까ㅠㅠ 밤새야 될 듯", "en": "Right ㅠㅠ I'll probably have to pull an all-nighter" },
+      { "role": "you", "prompt": "Cheer them on and offer help.", "choices": [
+        { "ko": "할 수 있어! 모르는 거 있음 물어봐", "en": "You can do it! Ask me if you get stuck on anything", "correct": true, "feedback": "Encouragement + an offer to help is warm and natural." },
+        { "ko": "밤을 새우는 것은 건강에 해롭습니다.", "en": "Staying up all night is bad for your health (formal).", "correct": false, "feedback": "Lecturing and formal — kills the supportive vibe." },
+        { "ko": "그래서 과제가 몇 개라고?", "en": "So how many assignments was it again?", "correct": false, "feedback": "Just repeats a question they already answered." }
+      ] },
+      { "role": "partner", "ko": "고마워ㅠㅠ 진짜 힘난다", "en": "Thanks ㅠㅠ that really gives me strength" },
+      { "role": "you", "prompt": "Tell them to hang in there.", "choices": [
+        { "ko": "화이팅!! 끝나면 연락해", "en": "You got this!! Hit me up when you're done", "correct": true, "feedback": "화이팅 + 끝나면 연락해 is the classic casual send-off." },
+        { "ko": "그럼 열심히 하시길 바랍니다.", "en": "Then I hope you work hard (formal).", "correct": false, "feedback": "Overly formal — friends say 화이팅 or 파이팅." },
+        { "ko": "과제 주제가 뭐야?", "en": "What's the assignment topic?", "correct": false, "feedback": "Opens a new question when the chat is wrapping up." }
+      ] }
+    ],
+    "vocab": ["과제", "산더미", "밤새다", "화이팅", "연락하다"]
+  },
+  {
+    "id": "convo-lets-study-together",
+    "title": "Let's study together",
+    "situation": "You're hanging out with a friend and suggest cramming for the exam together.",
+    "setting": "hangout",
+    "partner": "친구",
+    "tip": "Proposing plans casually (~할래?, ~하자, 콜) and locking in details (몇 시? 어디서?) is how friends turn an idea into an actual hangout.",
+    "turns": [
+      { "role": "partner", "ko": "아 시험 코앞인데 하나도 안 했어", "en": "Ugh the exam's right around the corner and I haven't done a thing" },
+      { "role": "you", "prompt": "Say you're the same and suggest studying together.", "choices": [
+        { "ko": "나도ㅋㅋ 우리 같이 공부할래?", "en": "Same lol wanna study together?", "correct": true, "feedback": "나도 (relate) + 같이 공부할래? (proposal) is a perfect casual invite." },
+        { "ko": "함께 공부하는 것이 어떻겠습니까?", "en": "How would it be to study together? (very formal).", "correct": false, "feedback": "Textbook-formal — no friend phrases an invite like this." },
+        { "ko": "시험공부는 혼자 하는 게 좋아.", "en": "It's better to study alone.", "correct": false, "feedback": "Shoots down the chance to make a plan together." }
+      ] },
+      { "role": "partner", "ko": "오 좋아! 어디서 할까?", "en": "Oh nice! Where should we do it?" },
+      { "role": "you", "prompt": "Suggest a cafe and ask if it works.", "choices": [
+        { "ko": "학교 앞 카페 어때? 거기 조용하잖아", "en": "How about the cafe by school? It's quiet there", "correct": true, "feedback": "A concrete spot + 거기 조용하잖아 gives a reason and keeps it moving." },
+        { "ko": "장소는 당신이 정하세요.", "en": "You decide the place (formal).", "correct": false, "feedback": "당신 and 정하세요 are stiff — friends just throw out an idea." },
+        { "ko": "도서관은 자리가 없어.", "en": "The library has no seats.", "correct": false, "feedback": "Only says where NOT to go without suggesting anything." }
+      ] },
+      { "role": "partner", "ko": "콜! 몇 시에 만날까?", "en": "Deal! What time should we meet?" },
+      { "role": "you", "prompt": "Propose 2 PM and check it's okay.", "choices": [
+        { "ko": "두 시 어때? 점심 먹고 가자", "en": "How about 2? Let's go after lunch", "correct": true, "feedback": "Names a time + 점심 먹고 가자 — natural and locks in the plan." },
+        { "ko": "오후 두 시에 뵙겠습니다.", "en": "I will see you at 2 PM (formal).", "correct": false, "feedback": "뵙겠습니다 is honorific — way too formal for a friend." },
+        { "ko": "나는 아침을 안 먹어.", "en": "I don't eat breakfast.", "correct": false, "feedback": "Off-topic — they asked about the meeting time." }
+      ] },
+      { "role": "partner", "ko": "오케이! 그럼 이따 봐", "en": "Okay! See you later then" },
+      { "role": "you", "prompt": "Confirm and tell them to bring their notes.", "choices": [
+        { "ko": "ㅇㅋ 필기 꼭 챙겨 와ㅋㅋ", "en": "K, make sure you bring your notes lol", "correct": true, "feedback": "ㅇㅋ + a quick casual reminder is exactly how friends sign off." },
+        { "ko": "필기를 지참해 주시기 바랍니다.", "en": "Please bring your notes (formal).", "correct": false, "feedback": "지참해 주시기 바랍니다 sounds like an official notice — far too formal." },
+        { "ko": "그런데 시험 범위가 어디까지야?", "en": "By the way, what's the exam range?", "correct": false, "feedback": "Opens a brand-new question just as you're saying bye." }
+      ] }
+    ],
+    "vocab": ["코앞", "공부하다", "조용하다", "필기", "챙기다"]
+  }
+]

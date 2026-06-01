@@ -1,0 +1,165 @@
+{
+  "id": "track-living",
+  "letter": "C",
+  "title": "Housing, Banking & Admin",
+  "summary": "Survival Korean for renting a home, opening a bank account, and sorting your trash in your first weeks in Korea.",
+  "units": [
+    {
+      "id": "guide-c-housing",
+      "title": "Find a Place & Understand the Lease",
+      "situation": "You walk into a real-estate office (부동산) to look at a studio or one-room and need to ask about rent, deposit, and move-in.",
+      "goal": "Ask about monthly rent (월세) and deposit (보증금), check maintenance fees, and confirm when you can move in.",
+      "keyPhrases": [
+        {"ko": "월세가 얼마예요?", "en": "How much is the monthly rent?", "note": "월세 = monthly rent. 얼마예요? asks the price. The most common question in any 부동산."},
+        {"ko": "보증금이 얼마예요?", "en": "How much is the deposit?", "note": "보증금 = deposit. With 월세 the deposit is usually smaller (a few hundred to a few thousand 만원)."},
+        {"ko": "언제 이사 갈 수 있어요?", "en": "When can I move in?", "note": "이사 가다 = to move (house). V-ㄹ/을 수 있어요 = can/be able to. Use this to confirm the available move-in date."},
+        {"ko": "관리비가 있어요?", "en": "Is there a maintenance fee?", "note": "관리비 = monthly building maintenance fee (often separate from rent, covers cleaning, security, sometimes water/internet). 있어요? = is there?"},
+        {"ko": "방을 보고 싶어요.", "en": "I would like to see the room.", "note": "방 = room. V-고 싶어요 = I want to. Polite way to ask for a viewing."},
+        {"ko": "여기 인터넷하고 가스 돼요?", "en": "Does this place have internet and gas?", "note": "하고 = and (connects nouns). 돼요? = does it work / is it available?"}
+      ],
+      "dialogue": [
+        {"speaker": "You", "ko": "실례합니다. 원룸을 보고 싶어요.", "en": "Excuse me. I'd like to see a one-room (studio)."},
+        {"speaker": "Agent", "ko": "네, 이 방은 어때요? 깨끗해요.", "en": "Sure, how about this room? It's clean."},
+        {"speaker": "You", "ko": "월세가 얼마예요? 보증금이 얼마예요?", "en": "How much is the monthly rent? How much is the deposit?"},
+        {"speaker": "Agent", "ko": "보증금 천만 원에 월세 오십만 원이에요. 관리비는 오만 원이에요.", "en": "The deposit is 10 million won and the rent is 500,000 won. The maintenance fee is 50,000 won."},
+        {"speaker": "You", "ko": "언제 이사 갈 수 있어요?", "en": "When can I move in?"},
+        {"speaker": "Agent", "ko": "다음 주에 이사 올 수 있어요.", "en": "You can move in next week."}
+      ],
+      "beginnerGuide": [
+        {"title": "월세 vs 전세 — two ways to rent", "body": "월세 (monthly rent): you pay a smaller deposit (보증금) plus rent every month — this is what most newcomers choose. 전세 (jeonse): instead of monthly rent, you hand the landlord one very large lump-sum deposit (often tens of thousands of 만원), pay no monthly rent, and get the entire amount back when you leave. 전세 needs a huge amount of cash up front, so as a newcomer you'll almost always start with 월세."},
+        {"title": "Your deposit comes back", "body": "보증금 (deposit) is NOT a fee — the landlord holds it and returns it to you when you move out (이사 갈 때), as long as there's no unpaid rent or damage. Always get the lease (계약서) in writing and keep a copy. 관리비 (maintenance fee), by contrast, is a real monthly cost you do not get back."},
+        {"title": "Reading a price out loud", "body": "Rent and deposits are spoken in 만원 (10,000-won units). 오십만 원 = 500,000 won. 천만 원 = 10,000,000 won. When the agent says a number fast, use 천천히 말해 주세요 (please speak slowly) and 잘 모르겠어요 (I don't understand) to slow things down."}
+      ],
+      "checkpoints": [
+        "Ask the monthly rent and deposit using 월세가 얼마예요? and 보증금이 얼마예요?",
+        "Confirm the move-in date with 언제 이사 갈 수 있어요?",
+        "Ask whether there is a maintenance fee with 관리비가 있어요?",
+        "Explain in one sentence the difference between 월세 and 전세."
+      ],
+      "coreVocabularyIds": ["word-newcomer-010", "word-newcomer-011", "word-noun-015"],
+      "linkedEntryIds": ["expr-015", "pattern-007", "pattern-005", "pattern-002", "expr-009"],
+      "grammarFocus": ["grammar-ending-want", "grammar-particle-i-ga"],
+      "drills": [
+        {"ko": "보증금이 얼마예요?", "en": "How much is the deposit?", "note": "Swap 보증금 for 월세 or 관리비 to ask about each cost."},
+        {"ko": "이 방을 보고 싶어요.", "en": "I'd like to see this room.", "note": "Practice V-고 싶어요: 계약하고 싶어요 (I want to sign), 이사 가고 싶어요 (I want to move)."},
+        {"ko": "다음 달에 이사 갈 수 있어요?", "en": "Can I move in next month?", "note": "V-ㄹ/을 수 있어요 = can. Try 더 싼 방 있어요? (Is there a cheaper room?)."}
+      ],
+      "steps": [
+        "Visit a 부동산 (real-estate office) near the neighborhood you want, or browse listings online first.",
+        "Tell the agent your budget and ask 방을 보고 싶어요.",
+        "For each room ask 월세가 얼마예요?, 보증금이 얼마예요?, and 관리비가 있어요?.",
+        "Confirm the move-in date and what the deposit covers, then ask to see the 계약서 (lease) before signing."
+      ],
+      "deepLinks": [
+        {"label": "Naver Real Estate (네이버 부동산)", "url": "https://land.naver.com/", "note": "Browse 월세/전세 listings by neighborhood with photos and prices before visiting an office."}
+      ],
+      "costs": "Typical studio 월세: deposit 보증금 5,000,000–10,000,000 won + monthly rent 400,000–700,000 won; 관리비 (maintenance) often 30,000–100,000 won extra. 전세 needs a far larger lump-sum deposit.",
+      "notes": "Bring your 외국인등록증 (ARC) to sign a lease. A Korean-speaking friend or agent can help review the 계약서."
+    },
+    {
+      "id": "guide-c-bank",
+      "title": "Open a Bank Account",
+      "situation": "You go to a bank branch to open your first Korean account (계좌) so you can receive your salary and pay rent.",
+      "goal": "Open a bank account, show your ARC, request a debit card, and ask about internet banking.",
+      "keyPhrases": [
+        {"ko": "계좌를 만들고 싶어요.", "en": "I'd like to open a bank account.", "note": "계좌 = account. 만들다 = to make/open. V-고 싶어요 = I want to. This opens the whole conversation at the teller window."},
+        {"ko": "외국인등록증 있어요.", "en": "I have my Alien Registration Card.", "note": "외국인등록증 = ARC (foreigner ID). 있어요 = I have it. Banks require it plus a Korean phone number."},
+        {"ko": "체크카드도 만들어 주세요.", "en": "Please make me a debit card too.", "note": "체크카드 = debit (check) card, drawn directly from your account. 도 = also/too. V-아/어 주세요 = please do (for me)."},
+        {"ko": "인터넷뱅킹 돼요?", "en": "Is internet banking available?", "note": "인터넷뱅킹 = online/mobile banking. 돼요? = is it possible / does it work? Ask so you can transfer money from your phone."},
+        {"ko": "여권도 필요해요?", "en": "Do you also need my passport?", "note": "여권 = passport. 필요해요 = is needed. Some branches ask for passport plus ARC, so confirm what to bring."},
+        {"ko": "송금할 수 있어요?", "en": "Can I send a transfer?", "note": "송금하다 = to send money/transfer. V-ㄹ/을 수 있어요 = can. Useful for paying rent or sending money home."}
+      ],
+      "dialogue": [
+        {"speaker": "You", "ko": "안녕하세요. 계좌를 만들고 싶어요.", "en": "Hello. I'd like to open a bank account."},
+        {"speaker": "Teller", "ko": "네, 외국인등록증 있으세요?", "en": "Sure, do you have your Alien Registration Card?"},
+        {"speaker": "You", "ko": "네, 외국인등록증 있어요. 여권도 필요해요?", "en": "Yes, I have my ARC. Do you also need my passport?"},
+        {"speaker": "Teller", "ko": "여권도 주세요. 그리고 전화번호도 필요해요.", "en": "Please give me your passport too. And I also need your phone number."},
+        {"speaker": "You", "ko": "체크카드도 만들어 주세요. 인터넷뱅킹 돼요?", "en": "Please make me a debit card too. Is internet banking available?"},
+        {"speaker": "Teller", "ko": "네, 돼요. 앱을 설치해 주세요.", "en": "Yes, it is. Please install the app."}
+      ],
+      "beginnerGuide": [
+        {"title": "What to bring", "body": "To open an account you almost always need: (1) your 외국인등록증 (ARC) — the bank cannot open an account without proof of legal residence, (2) a Korean mobile phone number for verification, and often (3) your 여권 (passport). Bring all three to be safe. Without an ARC yet, some banks open only a limited 'foreigner' account, so it's easiest once your ARC has arrived."},
+        {"title": "체크카드 vs 신용카드", "body": "A 체크카드 (debit card) pulls money directly from your account — easy to get and the right first card for newcomers. A 신용카드 (credit card) is a loan and usually needs Korean credit history, so it's hard to get at first. Ask for a 체크카드 with 체크카드도 만들어 주세요."},
+        {"title": "Set up mobile banking", "body": "Most banking happens in the bank's app (인터넷뱅킹 / 모바일뱅킹). After opening the account, ask 인터넷뱅킹 돼요? and let the teller help you register so you can check your balance and send transfers (송금) from your phone. If the teller talks too fast, say 천천히 말해 주세요."}
+      ],
+      "checkpoints": [
+        "State your purpose with 계좌를 만들고 싶어요.",
+        "Confirm you have your ARC with 외국인등록증 있어요.",
+        "Request a debit card using 체크카드도 만들어 주세요.",
+        "Ask about online banking with 인터넷뱅킹 돼요?."
+      ],
+      "coreVocabularyIds": ["word-newcomer-012", "word-newcomer-004", "word-noun-015"],
+      "linkedEntryIds": ["pattern-005", "pattern-007", "pattern-015", "pattern-002", "expr-021"],
+      "grammarFocus": ["grammar-ending-want", "grammar-ending-must"],
+      "drills": [
+        {"ko": "계좌를 만들고 싶어요.", "en": "I want to open an account.", "note": "Swap the noun: 체크카드를 만들고 싶어요 (I want to make a debit card)."},
+        {"ko": "체크카드도 만들어 주세요.", "en": "Please make a debit card too.", "note": "V-아/어 주세요 = please do for me. Try 천천히 말해 주세요 (please speak slowly)."},
+        {"ko": "송금할 수 있어요?", "en": "Can I make a transfer?", "note": "V-ㄹ/을 수 있어요 = can. Try 인터넷뱅킹 할 수 있어요? (Can I use internet banking?)."}
+      ],
+      "steps": [
+        "Take a number ticket at the branch and wait for a teller window (창구).",
+        "Say 계좌를 만들고 싶어요 and hand over your 외국인등록증 (and 여권 if asked).",
+        "Give your Korean phone number for verification.",
+        "Request a 체크카드 and ask 인터넷뱅킹 돼요?, then register for the mobile app."
+      ],
+      "deepLinks": [
+        {"label": "Woori Bank Global Banking", "url": "https://global.wooribank.com/", "note": "Major bank with English-language services and foreigner account guidance."},
+        {"label": "Hana Bank (KEB Hana)", "url": "https://www.kebhana.com/", "note": "Another major bank widely used by foreign residents for first accounts and transfers."}
+      ],
+      "costs": "Opening a basic account is free. 체크카드 issuance is usually free or about 1,000–3,000 won. Domestic transfers via app are often free or a few hundred won; international 송금 carries higher fees that vary by bank.",
+      "notes": "Banks have tightened anti-fraud rules, so a brand-new foreigner account may start with daily transfer limits. Keep your ARC and phone number consistent across services to avoid verification problems."
+    },
+    {
+      "id": "guide-c-waste",
+      "title": "Sort Your Trash",
+      "situation": "You're settling into your new place and need to figure out recycling (분리수거) and where to buy the official volume-rate trash bag (종량제봉투).",
+      "goal": "Buy the correct trash bag, learn how to sort recycling, and find out where to put food waste — without breaking your district's rules.",
+      "keyPhrases": [
+        {"ko": "종량제봉투 주세요.", "en": "A volume-rate trash bag, please.", "note": "종량제봉투 = the official pay-as-you-throw bag sold at convenience stores/supermarkets. Add a size: 이십 리터 (20L). Only general waste goes in this bag."},
+        {"ko": "분리수거 어떻게 해요?", "en": "How do I do the recycling sorting?", "note": "분리수거 = separating recyclables. 어떻게 해요? = how do I do it? Ask a neighbor or your landlord; rules differ by building."},
+        {"ko": "음식물 쓰레기는 어디에 버려요?", "en": "Where do I throw out food waste?", "note": "음식물 쓰레기 = food waste (collected separately!). 어디에 = where. 버리다 = to throw away. -에 marks the place/destination."},
+        {"ko": "여기에 버려도 돼요?", "en": "May I throw it away here?", "note": "여기에 = here (place). V-아/어도 돼요? = is it okay if / may I? Polite way to check before dumping trash in the wrong spot."},
+        {"ko": "종량제봉투는 어디에서 사요?", "en": "Where do I buy the trash bags?", "note": "어디에서 = at where (-에서 marks where an action happens). 사다 = to buy. Usually the nearest 편의점 (convenience store) or supermarket."},
+        {"ko": "여기에 버리지 마세요.", "en": "Please don't throw it away here.", "note": "V-지 마세요 = please don't. You'll see this on signs; recognizing it keeps you from getting fined."}
+      ],
+      "dialogue": [
+        {"speaker": "You", "ko": "실례합니다. 종량제봉투 주세요.", "en": "Excuse me. A volume-rate trash bag, please."},
+        {"speaker": "Clerk", "ko": "몇 리터 드릴까요?", "en": "What size (how many liters) would you like?"},
+        {"speaker": "You", "ko": "이십 리터 주세요. 분리수거 어떻게 해요?", "en": "A 20-liter one, please. How do I sort the recycling?"},
+        {"speaker": "Clerk", "ko": "플라스틱하고 종이는 따로 버려야 해요.", "en": "You have to throw out plastic and paper separately."},
+        {"speaker": "You", "ko": "음식물 쓰레기는 어디에 버려요? 여기에 버려도 돼요?", "en": "Where do I throw out food waste? May I throw it here?"},
+        {"speaker": "Clerk", "ko": "음식물은 따로 버려야 해요. 여기에 버리지 마세요.", "en": "Food waste has to go separately. Please don't throw it here."}
+      ],
+      "beginnerGuide": [
+        {"title": "Three streams: general, recycling, food", "body": "Korean trash splits into three: (1) general waste — must go in the paid 종량제봉투 (volume-rate bag); (2) 분리수거 (recyclables) — plastic, paper, glass, cans, PET bottles, rinsed and separated; (3) 음식물 쓰레기 (food waste) — collected on its own, often in a special small bag or a designated bin. Putting general trash out without the official bag, or mixing food waste in, can get you a fine."},
+        {"title": "Rules change by 구 (district)", "body": "The 종량제봉투 is printed for a specific 구 (district) or 시 (city) — a bag from another district may be rejected. Bag colors, food-waste systems, and collection days all vary locally. When in doubt, ask a neighbor or your landlord 분리수거 어떻게 해요? and check your district office (구청) notice, or look it up on the government services portal."},
+        {"title": "Buying and using the bag", "body": "Buy 종량제봉투 at the nearest 편의점 (convenience store) or supermarket — say 종량제봉투 주세요 and a size like 이십 리터 (20L) or 오십 리터 (50L). Use V-아/어도 돼요? (여기에 버려도 돼요?) to check a drop-off spot, and recognize V-지 마세요 (버리지 마세요 = don't throw here) on signs so you don't break the rules."}
+      ],
+      "checkpoints": [
+        "Buy a trash bag and state a size, e.g. 종량제봉투 주세요 / 이십 리터 주세요.",
+        "Ask how to sort recycling with 분리수거 어떻게 해요?",
+        "Ask where food waste goes with 음식물 쓰레기는 어디에 버려요?",
+        "Politely check a spot using 여기에 버려도 돼요?."
+      ],
+      "coreVocabularyIds": ["word-newcomer-013", "word-newcomer-014"],
+      "linkedEntryIds": ["pattern-015", "pattern-013", "pattern-014", "pattern-011", "expr-025"],
+      "grammarFocus": ["grammar-ending-must", "grammar-ending-prohibition", "grammar-particle-e"],
+      "drills": [
+        {"ko": "종량제봉투 주세요.", "en": "Please give me a trash bag.", "note": "Add a size + counter: 십 리터 / 이십 리터 / 오십 리터 주세요."},
+        {"ko": "여기에 버려도 돼요?", "en": "May I throw it away here?", "note": "V-아/어도 돼요? = may I? Try 여기에 주차해도 돼요? (May I park here?)."},
+        {"ko": "음식물 쓰레기는 따로 버려야 해요.", "en": "Food waste must be thrown out separately.", "note": "V-아/어야 해요 = must. 따로 = separately. Try 봉투를 사야 해요 (I must buy a bag)."}
+      ],
+      "steps": [
+        "Buy the 종량제봉투 for your district at a 편의점 or supermarket (say a size).",
+        "Put only general waste in the official bag.",
+        "Rinse and separate recyclables (plastic, paper, glass, cans) for 분리수거.",
+        "Take 음식물 쓰레기 (food waste) to its designated bag/bin, and check your building's collection days and spots."
+      ],
+      "deepLinks": [
+        {"label": "Government Services (gov.kr)", "url": "https://www.gov.kr/", "note": "Government portal — search your district (구) for local waste-disposal and recycling rules and notices."}
+      ],
+      "costs": "종량제봉투 prices depend on district and size: roughly 300–500 won for a 10L bag, more for larger sizes; food-waste bags are sold similarly. Improper disposal can result in fines.",
+      "notes": "Collection days and times are set per neighborhood — putting trash out on the wrong day or place is the most common newcomer mistake. Ask your landlord or a neighbor early, and keep the right district's bags on hand."
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+[
+  {
+    "id": "convo-some-update",
+    "title": "How's Your Crush Going?",
+    "situation": "You text a friend to ask how things are going with the person they've been talking to.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When asking about someone's love life, lead with a reaction and a curious follow-up question (되묻기) like 그래서? to keep them spilling instead of just answering yes/no.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "야 나 어제 그 사람이랑 또 밤새 톡함 ㅋㅋㅋ",
+        "en": "Hey, I texted that person all night again yesterday lol"
+      },
+      {
+        "role": "you",
+        "prompt": "React with surprise and ask how it's going",
+        "choices": [
+          {
+            "ko": "헐 진짜? 그래서 둘이 잘돼가는 거야?",
+            "en": "Whoa, really? So are things going well between you two?",
+            "correct": true,
+            "feedback": "A reaction (헐 진짜?) plus a follow-up question — exactly how friends keep the gossip flowing."
+          },
+          {
+            "ko": "두 분이 어떤 관계인지 여쭤봐도 될까요?",
+            "en": "May I ask what kind of relationship you two have?",
+            "correct": false,
+            "feedback": "Way too formal — 여쭤봐도 될까요 is 존댓말 you'd never use with a close friend."
+          },
+          {
+            "ko": "어제 밤새 톡했다고?",
+            "en": "You texted all night yesterday?",
+            "correct": false,
+            "feedback": "Just repeats what they said without moving the chat forward — feels flat."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "몰라ㅋㅋ 근데 맨날 먼저 연락 오긴 해",
+        "en": "I dunno lol but they always text me first"
+      },
+      {
+        "role": "you",
+        "prompt": "Tease that it sounds promising",
+        "choices": [
+          {
+            "ko": "오 그거 완전 그린라이트 아니야?",
+            "en": "Ooh, isn't that totally a green light?",
+            "correct": true,
+            "feedback": "Playful read of the situation — 그린라이트 is exactly the slang friends use for this."
+          },
+          {
+            "ko": "그런 행동은 호감의 신호로 해석됩니다.",
+            "en": "Such behavior is interpreted as a sign of interest.",
+            "correct": false,
+            "feedback": "Sounds like a textbook or a news anchor, not a friend gossiping over text."
+          },
+          {
+            "ko": "넌 먼저 연락 안 해?",
+            "en": "You don't text first?",
+            "correct": false,
+            "feedback": "Slightly nags instead of cheering them on — kills the excited vibe."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그런가...? 나 김칫국 마시는 거 아니지??",
+        "en": "You think so...? I'm not getting ahead of myself, right??"
+      },
+      {
+        "role": "you",
+        "prompt": "Reassure and push them to make a move",
+        "choices": [
+          {
+            "ko": "아니야 진짜 가능성 있어! 그냥 한번 만나자고 해봐",
+            "en": "No way, there's real potential! Just ask to meet up",
+            "correct": true,
+            "feedback": "Reassures and nudges with a suggestion — supportive friend energy."
+          },
+          {
+            "ko": "글쎄 잘 모르겠는데 알아서 잘 판단하세요.",
+            "en": "Hmm, not sure, please make your own judgment.",
+            "correct": false,
+            "feedback": "Cold and formal (판단하세요) — leaves your friend hanging when they want support."
+          },
+          {
+            "ko": "맞아 김칫국은 위험하지.",
+            "en": "Yeah, getting ahead of yourself is risky.",
+            "correct": false,
+            "feedback": "Agrees with the self-doubt and discourages them — not what a hyped friend says."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "에이 떨려서 못해 ㅠㅠ 용기 좀 줘",
+        "en": "Ugh I'm too nervous, I can't ㅠㅠ give me some courage"
+      },
+      {
+        "role": "you",
+        "prompt": "Hype them up to go for it",
+        "choices": [
+          {
+            "ko": "할 수 있어!! 안 되면 내가 밥 사줄게 ㄱㄱ",
+            "en": "You can do it!! If it flops, I'll buy you dinner, let's go",
+            "correct": true,
+            "feedback": "Warm, funny, and pushes them forward (ㄱㄱ) — peak supportive-friend move."
+          },
+          {
+            "ko": "용기를 내시길 진심으로 응원하겠습니다.",
+            "en": "I sincerely cheer you on to find your courage.",
+            "correct": false,
+            "feedback": "Reads like a formal speech — friends don't talk like this in casual texts."
+          },
+          {
+            "ko": "떨리면 그냥 하지 마.",
+            "en": "If you're nervous, just don't do it.",
+            "correct": false,
+            "feedback": "Discouraging and abrupt — the opposite of the courage they asked for."
+          }
+        ]
+      }
+    ],
+    "vocab": ["썸", "그린라이트", "김칫국", "톡", "그래서", "ㄱㄱ"]
+  },
+  {
+    "id": "convo-blind-date-recap",
+    "title": "The Blind Date Recap",
+    "situation": "Your friend just got home from a blind date and you text to get all the details.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "For a recap, react first (대박/헐) then ask open follow-ups like 어땠어? or 그래서 어떻게 됐어? so they tell the whole story.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "나 소개팅 끝나고 방금 집 옴ㅋㅋㅋ",
+        "en": "I just got home from my blind date lol"
+      },
+      {
+        "role": "you",
+        "prompt": "React and ask how it went",
+        "choices": [
+          {
+            "ko": "오 어땠어?? 첫인상 괜찮았어?",
+            "en": "Oh, how was it?? Was the first impression good?",
+            "correct": true,
+            "feedback": "Open question + a specific follow-up — gets the recap rolling naturally."
+          },
+          {
+            "ko": "소개팅은 어떠셨는지 후기 부탁드립니다.",
+            "en": "I'd like to request a review of how the blind date was.",
+            "correct": false,
+            "feedback": "Sounds like a survey request — far too formal (부탁드립니다) for a friend."
+          },
+          {
+            "ko": "벌써 집에 도착했어?",
+            "en": "You're already home?",
+            "correct": false,
+            "feedback": "Latches onto the wrong detail and ignores the actual news (the date)."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "음... 사진보다 실물이 별로였어 ㅠㅠ",
+        "en": "Hmm... they looked worse in person than in the photo ㅠㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Show sympathy and ask if the vibe was bad too",
+        "choices": [
+          {
+            "ko": "헐 아쉽다ㅠㅠ 그럼 대화는 좀 통했어?",
+            "en": "Aw, that's a bummer ㅠㅠ so did you click conversation-wise at least?",
+            "correct": true,
+            "feedback": "Empathetic reaction plus a follow-up to keep digging — perfect gossip flow."
+          },
+          {
+            "ko": "외모가 전부는 아니라고 사료됩니다.",
+            "en": "It is my assessment that looks are not everything.",
+            "correct": false,
+            "feedback": "Stiff and preachy (사료됩니다) — nobody texts a friend like this."
+          },
+          {
+            "ko": "사진은 원래 잘 나오잖아 ㅋㅋ 근데 너 저녁 뭐 먹었어?",
+            "en": "Photos always come out good lol anyway what'd you eat for dinner?",
+            "correct": false,
+            "feedback": "Randomly changes the subject right when they're opening up about the date."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그게 또 말은 진짜 잘 통하더라고",
+        "en": "That's the thing, we actually talked really well"
+      },
+      {
+        "role": "you",
+        "prompt": "React with surprise and ask if there'll be a second date",
+        "choices": [
+          {
+            "ko": "오 의외다! 그럼 또 만날 거야?",
+            "en": "Oh, that's unexpected! So are you gonna meet again?",
+            "correct": true,
+            "feedback": "Genuine reaction + the key question everyone wants answered — keeps it going."
+          },
+          {
+            "ko": "대화가 잘 통했다니 매우 긍정적인 신호네요.",
+            "en": "The fact that conversation flowed well is a very positive sign.",
+            "correct": false,
+            "feedback": "Overly formal analysis (신호네요) — not how friends react excitedly."
+          },
+          {
+            "ko": "말 잘 통했어?",
+            "en": "You talked well?",
+            "correct": false,
+            "feedback": "Just echoes their line — adds nothing and stalls the chat."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "고민 중ㅋㅋ 애프터 신청 오긴 했는데",
+        "en": "I'm thinking about it lol they did ask for a second date though"
+      },
+      {
+        "role": "you",
+        "prompt": "Encourage giving it one more shot",
+        "choices": [
+          {
+            "ko": "에이 한 번 더 만나봐~ 첫인상이 다는 아니잖아",
+            "en": "Come on, give it one more shot~ first impressions aren't everything",
+            "correct": true,
+            "feedback": "Casual nudge with warm reasoning — exactly what a friend would say."
+          },
+          {
+            "ko": "재회 여부는 신중히 결정하시기 바랍니다.",
+            "en": "Please decide carefully whether to meet again.",
+            "correct": false,
+            "feedback": "Formal advice-column tone (바랍니다) — totally out of place in friend-talk."
+          },
+          {
+            "ko": "그냥 거절해 외모 별로라며.",
+            "en": "Just reject them, you said the looks weren't great.",
+            "correct": false,
+            "feedback": "Pushy and negative — shuts down the openness they just showed."
+          }
+        ]
+      }
+    ],
+    "vocab": ["소개팅", "실물", "애프터", "어땠어", "통하다", "의외다"]
+  },
+  {
+    "id": "convo-breakup-comfort",
+    "title": "Comforting a Breakup",
+    "situation": "A friend texts that they just broke up with their partner and you want to comfort them.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When comforting someone, validate their feelings first (괜찮아? / 헐 어떡해) before offering help — don't jump to advice or take sides too fast.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "나 어제 헤어졌어...",
+        "en": "I broke up yesterday..."
+      },
+      {
+        "role": "you",
+        "prompt": "React with concern and ask if they're okay",
+        "choices": [
+          {
+            "ko": "헐 갑자기? 너 괜찮아??",
+            "en": "What, so suddenly? Are you okay??",
+            "correct": true,
+            "feedback": "Concerned reaction + checking on them — the right first move when comforting."
+          },
+          {
+            "ko": "이별 소식을 듣게 되어 매우 유감입니다.",
+            "en": "I am very sorry to hear the news of your breakup.",
+            "correct": false,
+            "feedback": "Sounds like a formal condolence card (유감입니다) — too cold for a close friend."
+          },
+          {
+            "ko": "헤어진 이유가 뭔데?",
+            "en": "What's the reason you broke up?",
+            "correct": false,
+            "feedback": "Jumps straight to prying for details before checking how they feel — insensitive."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "모르겠어 그냥 좀 멍해 ㅠㅠ",
+        "en": "I don't know, I just feel kind of numb ㅠㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Validate the feeling and offer to listen",
+        "choices": [
+          {
+            "ko": "그럴 만하지... 얘기하고 싶으면 다 들어줄게",
+            "en": "That's understandable... if you wanna talk, I'm all ears",
+            "correct": true,
+            "feedback": "Validates the feeling and offers support without pushing — gentle and warm."
+          },
+          {
+            "ko": "감정을 추스르고 빨리 잊으시기 바랍니다.",
+            "en": "Please pull yourself together and forget it quickly.",
+            "correct": false,
+            "feedback": "Formal and dismissive (바랍니다) — rushes their grief instead of sitting with it."
+          },
+          {
+            "ko": "거봐 내가 걔 별로랬잖아.",
+            "en": "See, I told you they weren't great.",
+            "correct": false,
+            "feedback": "Makes it about being right — the last thing someone wants right after a breakup."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "고마워... 주말에 집에만 있을 것 같아",
+        "en": "Thanks... I think I'll just stay home all weekend"
+      },
+      {
+        "role": "you",
+        "prompt": "Gently offer to come see them",
+        "choices": [
+          {
+            "ko": "그럼 내가 갈까? 맛있는 거 사들고 갈게",
+            "en": "Then should I come over? I'll bring some good food",
+            "correct": true,
+            "feedback": "Offers concrete comfort with a soft question — a real friend move."
+          },
+          {
+            "ko": "외출을 자제하시는 것이 좋겠습니다.",
+            "en": "It would be advisable to refrain from going out.",
+            "correct": false,
+            "feedback": "Reads like a public notice (좋겠습니다) — robotic and emotionally distant."
+          },
+          {
+            "ko": "혼자 있는 게 최고지 뭐.",
+            "en": "Being alone is the best, I guess.",
+            "correct": false,
+            "feedback": "Brushes them off and leaves them isolated instead of offering company."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "헐 진짜? 그래주면 완전 고맙지 ㅠㅠ",
+        "en": "Whoa, really? That'd be so sweet of you ㅠㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Reassure them warmly before ending",
+        "choices": [
+          {
+            "ko": "당연하지~ 일단 푹 쉬고 있어 이따 연락할게",
+            "en": "Of course~ just rest up for now, I'll text you later",
+            "correct": true,
+            "feedback": "Warm reassurance plus a natural sign-off — closes the chat on a caring note."
+          },
+          {
+            "ko": "방문 일정은 추후 다시 공지하겠습니다.",
+            "en": "I will announce the visit schedule again later.",
+            "correct": false,
+            "feedback": "Sounds like an official memo (공지하겠습니다) — bizarre between friends."
+          },
+          {
+            "ko": "근데 새 연애는 언제 시작할 거야?",
+            "en": "But when are you gonna start dating again?",
+            "correct": false,
+            "feedback": "Wildly mistimed — pushing a new relationship the day after a breakup is tone-deaf."
+          }
+        ]
+      }
+    ],
+    "vocab": ["헤어지다", "멍하다", "괜찮아", "어떡해", "들어주다", "푹 쉬다"]
+  }
+]

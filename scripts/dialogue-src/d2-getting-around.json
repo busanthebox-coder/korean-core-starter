@@ -1,0 +1,65 @@
+[
+  {
+    "id": "talk-taxi",
+    "title": "Taking a Taxi",
+    "situation": "You get into a taxi and tell the driver where to go.",
+    "level": "A1",
+    "lines": [
+      { "speaker": "기사", "ko": "어디 가세요?", "en": "Where are you going?", "note": "common driver greeting" },
+      { "speaker": "손님", "ko": "서울역으로 가 주세요.", "en": "Please go to Seoul Station.", "note": "으로 marks destination" },
+      { "speaker": "기사", "ko": "네, 알겠습니다.", "en": "Yes, understood.", "note": "" },
+      { "speaker": "손님", "ko": "시간이 얼마나 걸려요?", "en": "How long does it take?", "note": "" },
+      { "speaker": "기사", "ko": "한 이십 분 걸려요.", "en": "It takes about twenty minutes.", "note": "한 means about" },
+      { "speaker": "손님", "ko": "저기 신호등에서 세워 주세요.", "en": "Please stop at that traffic light.", "note": "" },
+      { "speaker": "기사", "ko": "여기요? 네, 다 왔어요.", "en": "Here? Yes, we have arrived.", "note": "" },
+      { "speaker": "손님", "ko": "얼마예요?", "en": "How much is it?", "note": "" },
+      { "speaker": "기사", "ko": "구천 원이에요.", "en": "It is nine thousand won.", "note": "" },
+      { "speaker": "손님", "ko": "여기요. 감사합니다.", "en": "Here you go. Thank you.", "note": "" }
+    ],
+    "tip": "Most Korean taxis take cards, so you can say 카드 돼요 to ask if card payment is okay.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-subway",
+    "title": "Asking Subway Directions",
+    "situation": "You ask a station worker how to reach your destination by subway.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "손님", "ko": "저기요, 뭐 좀 물어봐도 돼요?", "en": "Excuse me, may I ask something?", "note": "polite opener" },
+      { "speaker": "직원", "ko": "네, 말씀하세요.", "en": "Yes, go ahead.", "note": "" },
+      { "speaker": "손님", "ko": "강남역에 가고 싶어요.", "en": "I want to go to Gangnam Station.", "note": "" },
+      { "speaker": "직원", "ko": "이호선을 타세요.", "en": "Take line two.", "note": "호선 means line number" },
+      { "speaker": "손님", "ko": "여기서 갈아타야 해요?", "en": "Do I have to transfer here?", "note": "갈아타다 to transfer" },
+      { "speaker": "직원", "ko": "아니요, 그냥 쭉 가세요.", "en": "No, just keep going straight.", "note": "" },
+      { "speaker": "손님", "ko": "몇 정거장이에요?", "en": "How many stops is it?", "note": "정거장 means stop" },
+      { "speaker": "직원", "ko": "다섯 정거장이에요.", "en": "It is five stops.", "note": "" },
+      { "speaker": "손님", "ko": "감사합니다. 도움이 많이 됐어요.", "en": "Thank you. That helped a lot.", "note": "" },
+      { "speaker": "직원", "ko": "조심히 가세요.", "en": "Go safely.", "note": "warm closing" }
+    ],
+    "tip": "Look for the line color and number on signs, and follow the arrow to the platform for your direction.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-directions",
+    "title": "Asking for Directions",
+    "situation": "You stop someone on the street to find a nearby place.",
+    "level": "A1",
+    "lines": [
+      { "speaker": "A", "ko": "저기요, 길 좀 물어볼게요.", "en": "Excuse me, let me ask for directions.", "note": "polite street opener" },
+      { "speaker": "B", "ko": "네, 어디 찾으세요?", "en": "Yes, what are you looking for?", "note": "" },
+      { "speaker": "A", "ko": "이 근처에 약국이 있어요?", "en": "Is there a pharmacy near here?", "note": "근처 means nearby" },
+      { "speaker": "B", "ko": "네, 저기 편의점 옆에 있어요.", "en": "Yes, it is next to that convenience store.", "note": "옆 means beside" },
+      { "speaker": "A", "ko": "여기서 멀어요?", "en": "Is it far from here?", "note": "" },
+      { "speaker": "B", "ko": "아니요, 걸어서 오 분이에요.", "en": "No, it is five minutes on foot.", "note": "걸어서 on foot" },
+      { "speaker": "A", "ko": "쭉 가서 오른쪽이에요?", "en": "Go straight and it is on the right?", "note": "오른쪽 means right" },
+      { "speaker": "B", "ko": "네, 맞아요. 금방 보여요.", "en": "Yes, that is right. You will see it soon.", "note": "" },
+      { "speaker": "A", "ko": "정말 감사합니다.", "en": "Thank you so much.", "note": "" },
+      { "speaker": "B", "ko": "별말씀을요.", "en": "You are welcome.", "note": "polite reply" }
+    ],
+    "tip": "Koreans often point with an open hand rather than one finger, so watch their gesture for the direction.",
+    "vocabIds": [],
+    "patternIds": []
+  }
+]

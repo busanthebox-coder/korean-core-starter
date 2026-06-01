@@ -1,0 +1,65 @@
+[
+  {
+    "id": "talk-cafe",
+    "title": "Ordering at a cafe",
+    "situation": "You order a drink at a coffee shop counter.",
+    "level": "A1",
+    "lines": [
+      { "speaker": "점원", "ko": "어서 오세요. 주문하시겠어요?", "en": "Welcome. Would you like to order?" },
+      { "speaker": "손님", "ko": "네, 아메리카노 한 잔 주세요.", "en": "Yes, one americano please.", "note": "한 잔 = one cup" },
+      { "speaker": "점원", "ko": "따뜻한 거요, 차가운 거요?", "en": "Hot one or cold one?" },
+      { "speaker": "손님", "ko": "아이스로 주세요.", "en": "Iced please.", "note": "아이스 = iced" },
+      { "speaker": "점원", "ko": "사이즈는 어떻게 해 드릴까요?", "en": "What size would you like?" },
+      { "speaker": "손님", "ko": "작은 걸로 할게요.", "en": "I will go with the small one." },
+      { "speaker": "점원", "ko": "드시고 가세요, 가지고 가세요?", "en": "For here or to go?" },
+      { "speaker": "손님", "ko": "가지고 갈게요. 얼마예요?", "en": "To go. How much is it?" },
+      { "speaker": "점원", "ko": "사천오백 원이에요.", "en": "It is four thousand five hundred won." },
+      { "speaker": "손님", "ko": "여기 카드요. 감사합니다.", "en": "Here is my card. Thank you." }
+    ],
+    "tip": "Cafes always ask 따뜻한 거 (hot) or 아이스 (iced), so decide before you reach the counter.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-restaurant",
+    "title": "Ordering and paying at a restaurant",
+    "situation": "You order food at a casual restaurant and pay at the end.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "직원", "ko": "몇 분이세요?", "en": "How many people?", "note": "분 = polite counter" },
+      { "speaker": "손님", "ko": "두 명이요.", "en": "Two people." },
+      { "speaker": "직원", "ko": "이쪽으로 앉으세요. 주문은요?", "en": "Sit over here. And your order?" },
+      { "speaker": "손님", "ko": "비빔밥 하나하고 김치찌개 하나 주세요.", "en": "One bibimbap and one kimchi stew please." },
+      { "speaker": "직원", "ko": "매운 거 괜찮으세요?", "en": "Is spicy food okay for you?" },
+      { "speaker": "손님", "ko": "네, 괜찮아요. 물도 좀 주세요.", "en": "Yes, it is fine. Some water too please." },
+      { "speaker": "직원", "ko": "네, 조금만 기다려 주세요.", "en": "Sure, please wait a moment." },
+      { "speaker": "손님", "ko": "저기요, 계산할게요.", "en": "Excuse me, I will pay now.", "note": "저기요 = excuse me" },
+      { "speaker": "직원", "ko": "전부 만 오천 원이에요.", "en": "It is fifteen thousand won in total." },
+      { "speaker": "손님", "ko": "카드로 할게요. 잘 먹었습니다.", "en": "I will pay by card. Thank you for the meal." }
+    ],
+    "tip": "Say 저기요 to call staff, and pay at the counter or table when you are ready, since tipping is not expected in Korea.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-store",
+    "title": "Buying items at a convenience store",
+    "situation": "You buy a few items at a convenience store counter.",
+    "level": "A1",
+    "lines": [
+      { "speaker": "점원", "ko": "어서 오세요.", "en": "Welcome." },
+      { "speaker": "손님", "ko": "이거 두 개 주세요.", "en": "Two of these please.", "note": "개 = item counter" },
+      { "speaker": "점원", "ko": "봉투 필요하세요?", "en": "Do you need a bag?" },
+      { "speaker": "손님", "ko": "네, 하나 주세요.", "en": "Yes, one please." },
+      { "speaker": "점원", "ko": "봉투는 백 원이에요.", "en": "The bag is one hundred won." },
+      { "speaker": "손님", "ko": "괜찮아요. 다 해서 얼마예요?", "en": "That is fine. How much is it all together?" },
+      { "speaker": "점원", "ko": "삼천이백 원이에요.", "en": "It is three thousand two hundred won." },
+      { "speaker": "손님", "ko": "현금으로 낼게요.", "en": "I will pay in cash.", "note": "현금 = cash" },
+      { "speaker": "점원", "ko": "팔백 원 거스름돈이에요.", "en": "Here is eight hundred won change." },
+      { "speaker": "손님", "ko": "네, 감사합니다.", "en": "Okay, thank you." }
+    ],
+    "tip": "Plastic bags usually cost extra in Korea, so staff will ask 봉투 필요하세요 before charging you.",
+    "vocabIds": [],
+    "patternIds": []
+  }
+]

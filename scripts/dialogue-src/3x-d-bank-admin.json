@@ -1,0 +1,71 @@
+[
+  {
+    "id": "talk-bank-open-account",
+    "title": "Opening a Bank Account",
+    "situation": "You go to a bank to open your first account and get a debit card.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "직원", "ko": "안녕하세요. 어떤 일로 오셨어요?", "en": "Hello. What brings you in today?", "note": "standard bank greeting" },
+      { "speaker": "손님", "ko": "통장 하나 만들고 싶어요.", "en": "I would like to open an account.", "note": "통장 = bankbook/account" },
+      { "speaker": "직원", "ko": "신분증 가지고 오셨어요?", "en": "Did you bring your ID?", "note": "신분증 = ID card" },
+      { "speaker": "손님", "ko": "네, 외국인등록증 여기 있어요.", "en": "Yes, here is my alien registration card.", "note": "외국인등록증 = ARC, the foreigner ID" },
+      { "speaker": "직원", "ko": "여기 신청서에 성함하고 연락처 적어 주세요.", "en": "Please write your name and phone number on this form here.", "note": "성함 = honorific for name" },
+      { "speaker": "손님", "ko": "체크카드도 같이 만들 수 있어요?", "en": "Can I get a debit card with it too?", "note": "체크카드 = debit card" },
+      { "speaker": "직원", "ko": "네, 가능해요. 비밀번호 네 자리 눌러 주세요.", "en": "Yes, that is possible. Please enter a four-digit PIN.", "note": "비밀번호 = password/PIN" },
+      { "speaker": "손님", "ko": "인터넷뱅킹도 신청하고 싶어요.", "en": "I would also like to sign up for internet banking.", "note": "" },
+      { "speaker": "직원", "ko": "그럼 휴대폰으로 본인 인증 한번 할게요.", "en": "Then let me verify your identity with your phone.", "note": "본인 인증 = identity verification" },
+      { "speaker": "손님", "ko": "카드는 언제 나와요?", "en": "When does the card come out?", "note": "" },
+      { "speaker": "직원", "ko": "지금 바로 발급해 드려요. 잠시만요.", "en": "I will issue it right now. One moment please.", "note": "발급 = issue" },
+      { "speaker": "손님", "ko": "네, 감사합니다.", "en": "Okay, thank you.", "note": "" }
+    ],
+    "tip": "Bring your 외국인등록증 (ARC) and a Korean phone number, since banks verify your identity by phone. New foreign accounts often start with a low daily transfer limit for fraud protection.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-bank-transfer",
+    "title": "Asking About a Transfer",
+    "situation": "You go to the bank counter to send money and ask about the transfer limit and fee.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "손님", "ko": "안녕하세요. 계좌이체 하려고 왔어요.", "en": "Hello. I came to make a transfer.", "note": "계좌이체 = bank transfer" },
+      { "speaker": "직원", "ko": "네, 받는 분 계좌번호 알고 계세요?", "en": "Sure, do you know the recipient's account number?", "note": "받는 분 = the person receiving" },
+      { "speaker": "손님", "ko": "네, 여기 적어 왔어요. 백만 원 보내고 싶어요.", "en": "Yes, I wrote it down here. I want to send one million won.", "note": "" },
+      { "speaker": "직원", "ko": "혹시 이체 한도 확인해 보셨어요?", "en": "Have you by any chance checked your transfer limit?", "note": "이체 한도 = transfer limit" },
+      { "speaker": "손님", "ko": "한도가 얼마예요? 오늘 다 보낼 수 있어요?", "en": "What is the limit? Can I send it all today?", "note": "" },
+      { "speaker": "직원", "ko": "하루 한도가 백만 원이라서 딱 돼요.", "en": "Your daily limit is one million won, so it works exactly.", "note": "-라서 = because (giving a reason)" },
+      { "speaker": "손님", "ko": "수수료는 얼마예요?", "en": "How much is the fee?", "note": "수수료 = fee" },
+      { "speaker": "직원", "ko": "같은 은행이면 무료예요.", "en": "If it is the same bank, it is free.", "note": "-(으)면 = if" },
+      { "speaker": "손님", "ko": "다른 은행이면요?", "en": "What if it is a different bank?", "note": "" },
+      { "speaker": "직원", "ko": "오백 원 붙어요. 비밀번호 눌러 주세요.", "en": "There is a 500 won charge. Please enter your PIN.", "note": "붙다 = to be added on" },
+      { "speaker": "손님", "ko": "보냈어요? 확인 문자 와요?", "en": "Did it go through? Will I get a confirmation text?", "note": "" },
+      { "speaker": "직원", "ko": "네, 이체 완료됐어요. 문자 갈 거예요.", "en": "Yes, the transfer is complete. A text will be sent.", "note": "완료 = completion" }
+    ],
+    "tip": "If you hit your daily 이체 한도, you can raise it in the bank app or in person, though raising it usually needs extra verification. Transfers within the same bank are free, while inter-bank transfers add a small fee.",
+    "vocabIds": [],
+    "patternIds": []
+  },
+  {
+    "id": "talk-jumin-center",
+    "title": "Move-in Report at the Community Center",
+    "situation": "You go to the 주민센터 to report a change of address and pick up a residence document.",
+    "level": "A2",
+    "lines": [
+      { "speaker": "직원", "ko": "안녕하세요. 번호표 뽑고 잠시만 기다려 주세요.", "en": "Hello. Please take a number and wait a moment.", "note": "번호표 = number ticket" },
+      { "speaker": "손님", "ko": "네. 전입신고 하러 왔어요.", "en": "Okay. I came to file a move-in report.", "note": "전입신고 = move-in/address report" },
+      { "speaker": "직원", "ko": "이사한 주소가 어떻게 되세요?", "en": "What is your new address?", "note": "polite way to ask for info" },
+      { "speaker": "손님", "ko": "강남구 역삼동으로 이사 왔어요.", "en": "I moved to Yeoksam-dong, Gangnam-gu.", "note": "-(으)로 = marks destination" },
+      { "speaker": "직원", "ko": "신분증하고 계약서 보여 주시겠어요?", "en": "Could you show me your ID and lease contract?", "note": "계약서 = contract" },
+      { "speaker": "손님", "ko": "여기요. 며칠 안에 처리돼요?", "en": "Here you go. How many days until it is processed?", "note": "처리되다 = to be processed" },
+      { "speaker": "직원", "ko": "오늘 바로 처리돼요. 여기 서명해 주세요.", "en": "It is processed today right away. Please sign here.", "note": "서명 = signature" },
+      { "speaker": "손님", "ko": "그리고 주민등록등본도 한 통 떼고 싶어요.", "en": "And I would also like to get one copy of a residence certificate.", "note": "등본 한 통 떼다 = print one copy of a certificate" },
+      { "speaker": "직원", "ko": "수수료가 사백 원인데 카드로 하시겠어요?", "en": "The fee is 400 won—would you like to pay by card?", "note": "-(으)ㄴ데 = and/so (background)" },
+      { "speaker": "손님", "ko": "혹시 영어로 된 서류도 돼요?", "en": "By any chance, can I get the document in English too?", "note": "-(으)로 된 = made in/written in" },
+      { "speaker": "직원", "ko": "영문 서류는 따로 신청하셔야 돼요.", "en": "An English document has to be requested separately.", "note": "-아/어야 되다 = have to" },
+      { "speaker": "손님", "ko": "알겠어요. 그럼 등본만 주세요. 감사합니다.", "en": "I see. Then just the certificate please. Thank you.", "note": "" }
+    ],
+    "tip": "You must report a move within 14 days. Bring your ID and lease, and you can print a 주민등록등본 (residence certificate) at the same visit. Foreign residents may instead report at an immigration office, so check which applies to your visa.",
+    "vocabIds": [],
+    "patternIds": []
+  }
+]

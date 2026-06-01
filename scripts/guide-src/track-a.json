@@ -1,0 +1,158 @@
+{
+  "id": "track-arrival",
+  "letter": "A",
+  "title": "Arrival & Connectivity",
+  "summary": "Your first hours in Korea: clear the airport and immigration, plan your ARC, grab a SIM, and load a T-money card — with the survival Korean to do each one.",
+  "units": [
+    {
+      "id": "guide-a-arrival",
+      "title": "Clear immigration and plan your ARC",
+      "situation": "At the airport arrivals hall, at the immigration desk and the help counter right after you land.",
+      "goal": "I can answer basic immigration questions, ask for help in line, and know I must apply for my ARC within 90 days.",
+      "keyPhrases": [
+        {"ko": "안녕하세요.", "en": "Hello.", "note": "Polite all-purpose greeting; say it as you step up to the immigration desk."},
+        {"ko": "여행 왔어요.", "en": "I'm here to travel.", "note": "Simple reason for visit. For study or work, swap in 공부하러 왔어요 / 일하러 왔어요."},
+        {"ko": "영어 할 수 있어요?", "en": "Can you speak English?", "note": "Uses the 'can' pattern. A polite way to check before continuing in English."},
+        {"ko": "천천히 말해 주세요.", "en": "Please speak slowly.", "note": "Your single most useful survival line when someone speaks too fast."},
+        {"ko": "잘 모르겠어요.", "en": "I'm not sure / I don't understand.", "note": "Say this instead of guessing; the officer will usually rephrase."},
+        {"ko": "외국인등록증은 어디에서 신청해요?", "en": "Where do I apply for the Alien Registration Card?", "note": "외국인등록증 (ARC) is your key ID in Korea; you apply at an immigration office."},
+        {"ko": "화장실이 어디예요?", "en": "Where is the bathroom?", "note": "어디예요? = 'where is it?'. Swap 화장실 for any place you need."}
+      ],
+      "dialogue": [
+        {"speaker": "Officer", "ko": "방문 목적이 뭐예요?", "en": "What is the purpose of your visit?"},
+        {"speaker": "You", "ko": "공부하러 왔어요. 천천히 말해 주세요.", "en": "I'm here to study. Please speak slowly."},
+        {"speaker": "Officer", "ko": "네, 알겠어요. 얼마나 있을 거예요?", "en": "Okay, got it. How long will you stay?"},
+        {"speaker": "You", "ko": "일 년이요. 외국인등록증은 어디에서 신청해요?", "en": "One year. Where do I apply for the ARC?"},
+        {"speaker": "Officer", "ko": "출입국·외국인청에서 신청해요.", "en": "You apply at the immigration office."}
+      ],
+      "beginnerGuide": [
+        {"title": "What the ARC is and the 90-day rule", "body": "The 외국인등록증 (Alien Registration Card, ARC) is the ID that lets you open a bank account, get a long-term phone plan, and more. If you're staying over 90 days, you must apply at an immigration office, generally within 90 days of arrival. Book your visit on HiKorea before you go — walk-in slots are scarce."},
+        {"title": "해요체: the polite ending you'll hear most", "body": "Most phrases here end in -요 (왔어요, 신청해요, 모르겠어요). This 해요체 is polite but friendly — the right default with officials and strangers. You don't need the stiffer -습니다 form to be respectful."},
+        {"title": "Asking 'where' with 어디", "body": "어디 means 'where'. 어디예요? asks 'where is it?' (화장실이 어디예요?), while 어디에서 marks where an action happens (어디에서 신청해요? = 'where do I apply?'). Hear the difference: 어디예요 = location of a thing, 어디에서 = location of an action."}
+      ],
+      "checkpoints": [
+        "I can greet the officer and state my reason for visiting (여행/공부하러/일하러 왔어요).",
+        "I can ask someone to slow down (천천히 말해 주세요) and say when I don't understand (잘 모르겠어요).",
+        "I can ask where to apply for my ARC (외국인등록증은 어디에서 신청해요?).",
+        "I know I must apply for the ARC at an immigration office within 90 days for a long stay."
+      ],
+      "coreVocabularyIds": ["word-newcomer-004", "word-newcomer-005", "word-noun-019"],
+      "linkedEntryIds": ["expr-002", "expr-009", "expr-020", "expr-021", "expr-025", "expr-026", "pattern-007"],
+      "grammarFocus": ["grammar-ending-can"],
+      "drills": [
+        {"ko": "화장실이 어디예요?", "en": "Where is the bathroom?", "note": "Swap 화장실 for 출구 (exit) or 택시 (taxi) to ask for other places."},
+        {"ko": "영어 할 수 있어요?", "en": "Can you speak English?", "note": "Practice the V + ㄹ/을 수 있어요 'can' shape; try 도와줄 수 있어요? (can you help?)."}
+      ],
+      "steps": [
+        "Have your passport, arrival card, and accommodation address ready at the immigration desk.",
+        "After immigration, collect baggage and pass through customs (declare items if asked).",
+        "If staying over 90 days, book an ARC appointment on HiKorea and gather documents (passport photo, application form, fee)."
+      ],
+      "deepLinks": [
+        {"label": "HiKorea (immigration & ARC)", "url": "https://www.hikorea.go.kr/", "note": "Official portal to book immigration office visits and check ARC requirements."}
+      ],
+      "costs": "ARC application fee is typically around 30,000 KRW (pay at the immigration office); have a passport photo ready.",
+      "notes": "Bring the exact documents listed on your visa type's HiKorea page; missing a photo or the fee is the most common reason for a wasted trip."
+    },
+    {
+      "id": "guide-a-sim",
+      "title": "Buy a SIM or eSIM",
+      "situation": "At an airport telecom booth or a neighborhood phone shop, choosing between prepaid and a plan.",
+      "goal": "I can ask for a SIM, choose prepaid vs. a plan, ask the price, and confirm it will work in my phone.",
+      "keyPhrases": [
+        {"ko": "유심 사고 싶어요.", "en": "I'd like to buy a SIM.", "note": "Uses the 'want' pattern V고 싶어요. 유심 = USIM, the standard word for a SIM card here."},
+        {"ko": "데이터 유심 주세요.", "en": "A data SIM, please.", "note": "N 주세요 = 'please give me N'. Add 데이터 for a data-focused SIM."},
+        {"ko": "얼마예요?", "en": "How much is it?", "note": "The essential price question. Works for anything you can point at."},
+        {"ko": "한 달 얼마예요?", "en": "How much per month?", "note": "Useful when comparing a monthly plan; 한 달 = one month."},
+        {"ko": "선불 유심 있어요?", "en": "Do you have a prepaid SIM?", "note": "선불 = prepaid, 후불 = pay-later/plan. 있어요? = 'do you have?'"},
+        {"ko": "제 폰에서 쓸 수 있어요?", "en": "Can I use it in my phone?", "note": "Uses the 'can' pattern to confirm compatibility before paying. 폰 = phone."},
+        {"ko": "여기에서 개통해 주세요.", "en": "Please activate it here.", "note": "V아/어 주세요 asks someone to do something for you; 개통 = activation."}
+      ],
+      "dialogue": [
+        {"speaker": "You", "ko": "안녕하세요. 유심 사고 싶어요.", "en": "Hello. I'd like to buy a SIM."},
+        {"speaker": "Staff", "ko": "선불로 하시겠어요, 후불로 하시겠어요?", "en": "Would you like prepaid or a plan?"},
+        {"speaker": "You", "ko": "선불 유심 주세요. 얼마예요?", "en": "A prepaid SIM, please. How much is it?"},
+        {"speaker": "Staff", "ko": "삼만 원이에요. 여권 주세요.", "en": "It's 30,000 won. Your passport, please."},
+        {"speaker": "You", "ko": "여기요. 여기에서 개통해 주세요.", "en": "Here you go. Please activate it here."}
+      ],
+      "beginnerGuide": [
+        {"title": "Prepaid (선불) vs. plan (후불)", "body": "선불 (prepaid) is the easiest as a newcomer: pay up front, no contract, and usually only a passport is needed. 후불 (a monthly plan) is cheaper long-term but often requires your ARC and a Korean bank account, so most people start prepaid and switch after their ARC arrives."},
+        {"title": "Two ways to ask a price", "body": "얼마예요? means 'how much is it?' for a one-time price. To compare monthly plans, add a time word: 한 달 얼마예요? ('how much per month?'). The pattern is just [time/thing] + 얼마예요?"},
+        {"title": "고 싶어요 vs. 주세요", "body": "Use V고 싶어요 to state what YOU want to do (사고 싶어요 = 'I want to buy'), and N 주세요 to ask the seller to hand you something (유심 주세요 = 'give me a SIM'). For an action done for you, use V아/어 주세요 (개통해 주세요 = 'please activate it for me')."}
+      ],
+      "checkpoints": [
+        "I can say I want to buy a SIM (유심 사고 싶어요) and ask for a specific one (데이터 유심 주세요).",
+        "I can ask the price (얼마예요?) and the monthly price (한 달 얼마예요?).",
+        "I can tell prepaid from a plan (선불 / 후불) and ask if they have prepaid (선불 유심 있어요?).",
+        "I can confirm it works in my phone (제 폰에서 쓸 수 있어요?) and ask them to activate it (개통해 주세요)."
+      ],
+      "coreVocabularyIds": ["word-newcomer-003", "word-newcomer-004", "word-noun-016"],
+      "linkedEntryIds": ["pattern-004", "pattern-005", "pattern-007", "pattern-015", "expr-002", "expr-022"],
+      "grammarFocus": ["grammar-ending-want", "grammar-ending-can", "grammar-ending-request"],
+      "drills": [
+        {"ko": "충전 카드 사고 싶어요.", "en": "I'd like to buy a top-up card.", "note": "Reuse V고 싶어요 with a new noun; swap 충전 카드 for 유심."},
+        {"ko": "이거 제 폰에서 쓸 수 있어요?", "en": "Can I use this in my phone?", "note": "이거 = 'this one' (point at it). Practice the 'can' question form."}
+      ],
+      "steps": [
+        "Decide prepaid vs. plan: prepaid for the first weeks (passport only), a plan later once you have your ARC.",
+        "Check your phone is unlocked and supports Korean bands or eSIM before you buy.",
+        "Hand over your passport for registration and ask the staff to activate the SIM on the spot."
+      ],
+      "deepLinks": [
+        {"label": "Naver Map (find a phone shop)", "url": "https://map.naver.com/", "note": "Search a carrier name to find a nearby shop and its hours."}
+      ],
+      "costs": "Airport prepaid SIMs commonly run ~25,000–50,000 KRW depending on data and days; monthly plans vary by carrier.",
+      "notes": "eSIM works only on supported phones — confirm 제 폰에서 쓸 수 있어요? before paying, since prepaid SIMs are often non-refundable once opened."
+    },
+    {
+      "id": "guide-a-tmoney",
+      "title": "Buy and charge a T-money card",
+      "situation": "At a convenience store or a subway station machine, getting the transit card you'll tap on every bus and train.",
+      "goal": "I can buy a T-money card, load cash onto it, check whether card payment works, and ask for my balance.",
+      "keyPhrases": [
+        {"ko": "티머니 카드 주세요.", "en": "A T-money card, please.", "note": "N 주세요. 티머니 is the standard rechargeable transit card sold at convenience stores."},
+        {"ko": "만 원 충전해 주세요.", "en": "Please charge 10,000 won.", "note": "V아/어 주세요 + amount. 만 원 = 10,000 won; 충전 = top-up/charge."},
+        {"ko": "카드로 충전돼요?", "en": "Can I charge it with a card?", "note": "카드로 uses the -로/으로 'by means of' particle. Many stores only top up T-money with cash."},
+        {"ko": "잔액 확인해 주세요.", "en": "Please check the balance.", "note": "잔액 = remaining balance; 확인해 주세요 = 'please check (for me)'."},
+        {"ko": "현금으로 충전할게요.", "en": "I'll charge it with cash.", "note": "현금으로 = 'with cash' (-으로 after a consonant). Use this if card top-up isn't available."},
+        {"ko": "오천 원만 충전해 주세요.", "en": "Please charge just 5,000 won.", "note": "오천 원 = 5,000 won; -만 = 'just/only' that amount."}
+      ],
+      "dialogue": [
+        {"speaker": "You", "ko": "안녕하세요. 티머니 카드 주세요.", "en": "Hello. A T-money card, please."},
+        {"speaker": "Clerk", "ko": "네, 사천 원이에요. 충전도 해 드릴까요?", "en": "Sure, it's 4,000 won. Shall I charge it too?"},
+        {"speaker": "You", "ko": "네, 만 원 충전해 주세요. 카드로 충전돼요?", "en": "Yes, please charge 10,000 won. Can I charge it with a card?"},
+        {"speaker": "Clerk", "ko": "충전은 현금만 돼요.", "en": "Top-ups are cash only."},
+        {"speaker": "You", "ko": "그럼 현금으로 충전할게요. 잔액 확인해 주세요.", "en": "Then I'll charge with cash. Please check the balance."}
+      ],
+      "beginnerGuide": [
+        {"title": "Why T-money first", "body": "티머니 is a prepaid card you tap on buses, the subway, and even many taxis and convenience stores. Buy the card once (about 2,500–4,000 KRW, non-refundable) at any convenience store, then top it up with cash as you go — no app or registration needed to start."},
+        {"title": "The -로/으로 particle ('by means of')", "body": "Attach -로 after a vowel and -으로 after a consonant to say HOW you do something: 카드 → 카드로 ('by card'), 현금 → 현금으로 ('by cash'). So 카드로 충전돼요? literally asks 'does it charge by card?' Keep cash handy — store top-ups are usually cash only."},
+        {"title": "충전해 주세요 = asking for the favor", "body": "충전 ('charge/top-up') becomes a request with 해 주세요: 만 원 충전해 주세요 = 'please charge 10,000 won (for me)'. Put the amount first, then the verb. The same 확인해 주세요 ('please check') works for your balance: 잔액 확인해 주세요."}
+      ],
+      "checkpoints": [
+        "I can buy a T-money card (티머니 카드 주세요).",
+        "I can ask to load a specific amount (만 원 충전해 주세요 / 오천 원만 충전해 주세요).",
+        "I can ask if card payment works (카드로 충전돼요?) and say I'll pay cash instead (현금으로 충전할게요).",
+        "I can ask the clerk to check my balance (잔액 확인해 주세요)."
+      ],
+      "coreVocabularyIds": ["word-newcomer-001", "word-newcomer-002", "word-noun-016"],
+      "linkedEntryIds": ["pattern-004", "pattern-015", "expr-002", "expr-022"],
+      "grammarFocus": ["grammar-ending-request", "grammar-particle-ro-euro"],
+      "drills": [
+        {"ko": "만 원 충전해 주세요.", "en": "Please charge 10,000 won.", "note": "Swap the amount: 오천 원 (5,000) or 이만 원 (20,000) + 충전해 주세요."},
+        {"ko": "카드로 충전돼요?", "en": "Can I charge it with a card?", "note": "Change the means: 현금으로 충전돼요? ('can I charge with cash?')."}
+      ],
+      "steps": [
+        "Buy the T-money card at any convenience store (GS25, CU, 7-Eleven) or a subway vending machine.",
+        "Top up with cash at the counter or a station machine; tell the clerk the amount (e.g. 만 원).",
+        "Tap on entry (and exit on the subway/some buses); recharge before the balance runs low."
+      ],
+      "deepLinks": [
+        {"label": "T-money official site", "url": "https://www.t-money.co.kr/", "note": "Card types, balance/refund info, and where T-money is accepted."},
+        {"label": "Naver Map (find a store/station)", "url": "https://map.naver.com/", "note": "Locate a nearby convenience store or subway station to buy and recharge."}
+      ],
+      "costs": "Card itself ~2,500–4,000 KRW (non-refundable); top up any amount in cash. Card top-ups at stores are usually cash only.",
+      "notes": "Keep a small balance buffer — being short at a turnstile or on a bus is the most common T-money snag, and store recharges rarely take credit cards."
+    }
+  ]
+}

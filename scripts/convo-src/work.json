@@ -1,0 +1,107 @@
+[
+  {
+    "id": "convo-overtime-venting",
+    "title": "Venting about working late",
+    "situation": "A friend texts you at night complaining they're stuck at the office doing overtime again.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When a friend vents, lead with a reaction (헐/진짜?) and a quick 되묻기 (왜?/언제 끝나?) so they feel heard — that's what keeps a venting chat alive.",
+    "turns": [
+      { "role": "partner", "ko": "하… 나 아직 회사야 ㅠㅠ", "en": "Ugh… I'm still at the office ㅠㅠ" },
+      { "role": "you", "prompt": "React with surprise and ask why they're still there.", "choices": [
+        { "ko": "헐 지금까지? 왜 또 야근해?", "en": "What, still?? Why are you working late again?", "correct": true, "feedback": "헐 (reaction) + 왜 또 야근해? (follow-up) is exactly how friends pick up a vent." },
+        { "ko": "아직 회사에 계시는군요.", "en": "Oh, you're still at the office. (formal)", "correct": false, "feedback": "계시는군요 is 존댓말 — way too formal for a friend venting." },
+        { "ko": "나도 오늘 좀 피곤하네.", "en": "I'm kinda tired today too.", "correct": false, "feedback": "Changes the subject to you instead of reacting to their complaint." }
+      ] },
+      { "role": "partner", "ko": "내일까지 보고서 내야 돼서 ㅠㅠ 팀장이 갑자기 시킴", "en": "I have to hand in a report by tomorrow ㅠㅠ my team lead just dumped it on me" },
+      { "role": "you", "prompt": "Sympathize and ask when they'll be done.", "choices": [
+        { "ko": "헐 진짜 너무하다… 언제 끝나?", "en": "Wow that's so unfair… when do you finish?", "correct": true, "feedback": "Empathy (너무하다) plus 언제 끝나? keeps the conversation going and shows you care." },
+        { "ko": "보고서 작성을 도와드릴까요?", "en": "Shall I help you write the report? (formal)", "correct": false, "feedback": "드릴까요 is 존댓말 — friends would say 도와줄까?, and it's a sudden offer that skips the empathy." },
+        { "ko": "그래도 월급 받잖아 ㅋㅋ", "en": "Still, you get paid lol", "correct": false, "feedback": "Dismissive — invalidates the venting instead of being on their side." }
+      ] },
+      { "role": "partner", "ko": "몰라 적어도 10시 ㅋㅋㅋ 진짜 퇴사하고 싶다", "en": "Dunno, at least 10pm lol I seriously wanna quit" },
+      { "role": "you", "prompt": "Agree they've earned a treat and cheer them on.", "choices": [
+        { "ko": "고생한다 진짜… 끝나고 치맥 어때?", "en": "You're really working so hard… how about chicken and beer after?", "correct": true, "feedback": "고생한다 + a fun plan (치맥) is the perfect friend move — comfort plus something to look forward to." },
+        { "ko": "퇴사는 신중하게 결정하셔야 합니다.", "en": "You should decide on quitting carefully. (formal)", "correct": false, "feedback": "Stiff lecture in 존댓말 — kills the mood when they just wanted to vent." },
+        { "ko": "10시? 난 벌써 집인데.", "en": "10pm? I'm already home though.", "correct": false, "feedback": "Comes off as bragging and rubs in their bad situation." }
+      ] },
+      { "role": "partner", "ko": "오 치맥 콜 ㅋㅋ 끝나면 톡할게", "en": "Oh chicken and beer, deal lol I'll text you when I'm done" },
+      { "role": "you", "prompt": "Tell them to hang in there and you'll wait.", "choices": [
+        { "ko": "ㅇㅋ 힘내! 기다릴게", "en": "Okay, hang in there! I'll be waiting", "correct": true, "feedback": "힘내 + 기다릴게 is a warm, natural casual send-off after a vent." },
+        { "ko": "그럼 수고하십시오.", "en": "Well then, keep up the good work. (formal)", "correct": false, "feedback": "수고하십시오 is what you say to a coworker/boss, not a close friend." },
+        { "ko": "보고서 마감이 언제라고?", "en": "When's the report deadline again?", "correct": false, "feedback": "Just repeats a question already answered — doesn't move the chat to a close." }
+      ] }
+    ],
+    "vocab": ["야근", "보고서", "팀장", "퇴사", "치맥", "고생하다", "힘내"]
+  },
+  {
+    "id": "convo-thinking-quit-parttime",
+    "title": "Thinking about quitting a part-time job",
+    "situation": "A friend texts that they're seriously considering quitting their part-time job because the manager is awful.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "When a friend is weighing a decision, react then dig with 되묻기 (왜?/무슨 일 있었어?) before giving any opinion — friends gather the story first.",
+    "turns": [
+      { "role": "partner", "ko": "나 알바 그만둘까 봐 진심", "en": "I'm seriously thinking about quitting my part-time job" },
+      { "role": "you", "prompt": "React and ask what happened.", "choices": [
+        { "ko": "헐 갑자기? 무슨 일 있었어?", "en": "What, out of nowhere? Did something happen?", "correct": true, "feedback": "Reaction + 무슨 일 있었어? pulls the story out — the natural first response to a friend's big decision." },
+        { "ko": "아르바이트를 그만두시려고요?", "en": "You're planning to quit your part-time job? (formal)", "correct": false, "feedback": "그만두시려고요 is 존댓말, and 아르바이트 sounds textbook — friends say 알바 and 반말." },
+        { "ko": "그래 잘 생각했어, 그만둬.", "en": "Yeah good call, quit.", "correct": false, "feedback": "Jumps to a verdict before hearing why — friends ask first." }
+      ] },
+      { "role": "partner", "ko": "사장님이 자꾸 시간 막 바꾸고 어제는 괜히 나한테 짜증냄", "en": "The boss keeps changing my hours randomly and yesterday he snapped at me for no reason" },
+      { "role": "you", "prompt": "Take their side and ask how long they've put up with it.", "choices": [
+        { "ko": "헐 진짜 별로다… 그런 거 참은 지 얼마나 됐어?", "en": "Ugh that's so lame… how long have you been putting up with that?", "correct": true, "feedback": "Siding with them (별로다) + a follow-up keeps them talking and shows you're listening." },
+        { "ko": "사장님께도 사정이 있으시겠죠.", "en": "The boss probably has his reasons too. (formal)", "correct": false, "feedback": "Taking the boss's side in 존댓말 — the opposite of what a venting friend needs." },
+        { "ko": "시급은 얼마 받는데?", "en": "How much do you get paid per hour?", "correct": false, "feedback": "Random subject change to money — ignores the emotional point." }
+      ] },
+      { "role": "partner", "ko": "한 세 달? 근데 막상 그만둔다 하니까 좀 무섭기도 하고", "en": "Like three months? But now that I'm actually about to quit, it's kinda scary too" },
+      { "role": "you", "prompt": "Reassure them and gently nudge them to do what's best for them.", "choices": [
+        { "ko": "그치 그 마음 이해돼. 그래도 너 힘들면 그만두는 게 맞지", "en": "Yeah, I get that feeling. Still, if it's wearing you out, quitting is the right call", "correct": true, "feedback": "그치 (맞장구) + understanding + a gentle opinion — supportive without bulldozing." },
+        { "ko": "후회 없으시길 바랍니다.", "en": "I hope you won't regret it. (formal)", "correct": false, "feedback": "Cold 존댓말 send-off — sounds like a stranger, not a friend." },
+        { "ko": "무섭긴 뭐가 무서워, 그냥 다녀.", "en": "Scared of what? Just keep working there.", "correct": false, "feedback": "Brushes off their fear and contradicts them — not how a supportive friend reacts." }
+      ] },
+      { "role": "partner", "ko": "고마워 ㅠㅠ 너랑 얘기하니까 마음 정리된다", "en": "Thanks ㅠㅠ talking to you helps me sort my head out" },
+      { "role": "you", "prompt": "Offer to keep listening anytime.", "choices": [
+        { "ko": "언제든 말해 ㅋㅋ 결정하면 알려줘!", "en": "Tell me anytime lol let me know once you decide!", "correct": true, "feedback": "Warm, open-ended, and asks to stay in the loop — a perfect friend close." },
+        { "ko": "도움이 되었다니 다행입니다.", "en": "I'm glad I could be of help. (formal)", "correct": false, "feedback": "다행입니다 is 존댓말 — too businesslike between close friends." },
+        { "ko": "그래서 결국 그만두는 거야 마는 거야?", "en": "So are you quitting in the end or not?", "correct": false, "feedback": "Pushy — pressures them for an answer right after they said they need to think." }
+      ] }
+    ],
+    "vocab": ["알바", "그만두다", "사장님", "짜증내다", "참다", "시급", "마음 정리"]
+  },
+  {
+    "id": "convo-dreading-work-dinner",
+    "title": "Dreading a company dinner",
+    "situation": "You two are hanging out when your friend groans about a forced company dinner (회식) they have to attend tonight.",
+    "setting": "hangout",
+    "partner": "친구",
+    "tip": "Face-to-face venting still runs on 맞장구 (헐/그니까) and 되묻기 (몇 차까지 가?) — match their energy out loud and keep the back-and-forth going.",
+    "turns": [
+      { "role": "partner", "ko": "아 나 오늘 또 회식이야 가기 싫어 죽겠어", "en": "Ugh, I've got another company dinner tonight, I so don't wanna go" },
+      { "role": "you", "prompt": "React and ask why they don't want to go.", "choices": [
+        { "ko": "또? 왜 이렇게 자주 해 ㅋㅋ", "en": "Again? Why do you guys do it so often lol", "correct": true, "feedback": "또? (맞장구) + 왜 자주 해? bounces it back and matches their groan." },
+        { "ko": "회식에 참석하기 싫으신가요?", "en": "Are you reluctant to attend the dinner? (formal)", "correct": false, "feedback": "참석하기 싫으신가요 is 존댓말 — bizarrely formal when sitting right next to a friend." },
+        { "ko": "회식은 직장 생활의 일부야.", "en": "Company dinners are part of work life.", "correct": false, "feedback": "Sounds like a lecture — doesn't sympathize or keep the chat casual." }
+      ] },
+      { "role": "partner", "ko": "팀장이 술을 너무 좋아해서 ㅋㅋ 맨날 2차 3차 가", "en": "My team lead loves drinking lol we always go to a second and third round" },
+      { "role": "you", "prompt": "React to that and ask how late it usually runs.", "choices": [
+        { "ko": "헐 3차까지?? 그럼 몇 시에 끝나는데?", "en": "Whoa, up to a third round?? So what time does it end?", "correct": true, "feedback": "Big reaction + 몇 시에 끝나? is genuine curiosity that keeps them venting." },
+        { "ko": "음주는 건강에 좋지 않습니다.", "en": "Drinking isn't good for your health. (formal)", "correct": false, "feedback": "Preachy and in 존댓말 — totally kills a casual hangout vibe." },
+        { "ko": "난 어제 일찍 잤는데.", "en": "I went to bed early yesterday though.", "correct": false, "feedback": "Random and self-focused — ignores what they just said." }
+      ] },
+      { "role": "partner", "ko": "기본 새벽 1시 ㅋㅋㅋ 진짜 집 가고 싶어", "en": "Like 1am minimum lol I just wanna go home" },
+      { "role": "you", "prompt": "Sympathize hard and suggest a polite escape plan.", "choices": [
+        { "ko": "와 그건 너무하다… 1차만 살짝 있다가 빠져!", "en": "Wow that's too much… just stay for the first round and sneak out!", "correct": true, "feedback": "그건 너무하다 (empathy) + a practical tip is exactly the help a venting friend wants." },
+        { "ko": "끝까지 자리를 지키시는 게 예의입니다.", "en": "Staying till the end is good manners. (formal)", "correct": false, "feedback": "Formal etiquette lecture — the last thing they want to hear right now." },
+        { "ko": "새벽 1시면 막차 끊겼겠다, 택시 타.", "en": "1am means the last train's already gone, take a taxi.", "correct": false, "feedback": "Fixates on a logistics detail and skips the emotional support." }
+      ] },
+      { "role": "partner", "ko": "그래야겠다 ㅋㅋ 적당히 마시고 튈게", "en": "I should do that lol I'll drink a bit and bail" },
+      { "role": "you", "prompt": "Cheer them on and tell them to text you after.", "choices": [
+        { "ko": "ㅋㅋㅋ 그래 적당히 해! 끝나고 톡해", "en": "Lol yeah, take it easy! Text me when it's over", "correct": true, "feedback": "Light encouragement + 끝나고 톡해 wraps the hangout chat naturally." },
+        { "ko": "즐거운 시간 보내시길 바랍니다.", "en": "I hope you have a pleasant time. (formal)", "correct": false, "feedback": "존댓말 well-wishing sounds like a card, not a friend." },
+        { "ko": "근데 회식 왜 가기 싫다고?", "en": "Wait, why don't you wanna go to the dinner again?", "correct": false, "feedback": "Re-asks something already explained — stalls instead of closing the chat." }
+      ] }
+    ],
+    "vocab": ["회식", "2차", "3차", "새벽", "막차", "적당히", "튀다"]
+  }
+]

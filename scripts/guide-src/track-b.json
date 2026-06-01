@@ -1,0 +1,167 @@
+{
+  "id": "track-transport",
+  "letter": "B",
+  "title": "Transport & Navigation",
+  "summary": "Survival Korean for getting around Korea: the subway and bus with T-money, booking KTX/SRT trains, and taking taxis.",
+  "units": [
+    {
+      "id": "guide-b-subway",
+      "title": "Subway & Bus with T-money",
+      "situation": "You need to ride the subway and bus across the city, tap a T-money card, transfer lines, and figure out which stop to get off at.",
+      "goal": "Find a subway station, tap T-money, ask where to transfer, and confirm your stop in polite Korean.",
+      "keyPhrases": [
+        {"ko": "지하철역 어디예요?", "en": "Where is the subway station?", "note": "Your go-to question for finding the nearest station. Swap 지하철역 for 버스 정류장 to ask for the bus stop."},
+        {"ko": "버스 정류장 어디예요?", "en": "Where is the bus stop?", "note": "정류장 means bus stop. Same '어디예요?' (where is it?) pattern as the subway question."},
+        {"ko": "어디서 환승해요?", "en": "Where do I transfer?", "note": "환승 = transfer (between subway lines or bus-to-subway). 어디서 = 'at where', using the 에서 particle for the place an action happens."},
+        {"ko": "이 카드로 환승돼요?", "en": "Can I transfer with this card?", "note": "Tap your T-money again within the time limit and transfers are usually free. 카드로 = 'with the card', using the 로/으로 particle."},
+        {"ko": "다음 정류장에서 내려요.", "en": "I get off at the next stop.", "note": "내려요 = get off. 다음 정류장 = the next stop. Works for both bus and subway."},
+        {"ko": "여기서 내려요?", "en": "Do I get off here?", "note": "A quick check with the driver or a fellow passenger. 여기서 = 'at here'."}
+      ],
+      "dialogue": [
+        {"speaker": "You", "ko": "실례합니다, 지하철역 어디예요?", "en": "Excuse me, where is the subway station?"},
+        {"speaker": "Passerby", "ko": "저기 오른쪽에 있어요.", "en": "It's over there on the right."},
+        {"speaker": "You", "ko": "감사합니다. 시청역 가고 싶어요. 어디서 환승해요?", "en": "Thank you. I want to go to City Hall Station. Where do I transfer?"},
+        {"speaker": "Passerby", "ko": "다음 역에서 2호선으로 갈아타세요.", "en": "Transfer to Line 2 at the next station."},
+        {"speaker": "You", "ko": "천천히 말해 주세요.", "en": "Please speak slowly."},
+        {"speaker": "Passerby", "ko": "네. 다음 역에서 환승해요.", "en": "Okay. You transfer at the next station."}
+      ],
+      "beginnerGuide": [
+        {"title": "Tap in AND tap out", "body": "On the subway and most city buses you tap your T-money card on the reader when you board and again when you get off. Tapping out is what makes free transfers (환승) work and charges the correct distance-based fare. If you forget to tap out, you may be charged the maximum fare next time."},
+        {"title": "What 환승 really means", "body": "환승 = transfer. Within about 30 minutes of tapping out, your next bus or subway ride is free or discounted as a transfer. Just keep using the same T-money card and tap normally each time — the system links the rides automatically."},
+        {"title": "Boarding the right bus", "body": "Bus numbers are color-coded: blue for long trunk routes, green for short neighborhood loops, red for express to the suburbs. Buses don't always stop unless someone is waiting and visible, so stand near the 정류장 sign and raise a hand as your bus approaches."}
+      ],
+      "checkpoints": [
+        "I can ask '지하철역 어디예요?' and '버스 정류장 어디예요?' to find a station or stop.",
+        "I can ask '어디서 환승해요?' and understand a direction like '다음 역에서 갈아타세요'.",
+        "I remember to tap my T-money both when boarding and when getting off.",
+        "I can say '다음 정류장에서 내려요' to signal where I'll get off."
+      ],
+      "coreVocabularyIds": ["word-noun-017", "word-noun-018", "word-newcomer-006", "word-newcomer-007", "word-newcomer-001"],
+      "linkedEntryIds": ["expr-009", "expr-018", "expr-021", "pattern-005", "pattern-007"],
+      "grammarFocus": ["grammar-particle-eseo", "grammar-particle-ro-euro"],
+      "drills": [
+        {"ko": "지하철역 어디예요?", "en": "Where is the subway station?", "note": "Practice swapping the place noun: 버스 정류장 / 화장실 / 출구."},
+        {"ko": "어디서 환승해요?", "en": "Where do I transfer?", "note": "Listen for the answer pattern '...역에서 갈아타세요'."},
+        {"ko": "다음 정류장에서 내려요.", "en": "I get off at the next stop.", "note": "Change 다음 to 이번 (this one) or 시청역 (a named stop)."}
+      ],
+      "steps": [
+        "Buy a T-money card at any convenience store (CU, GS25, 7-Eleven) and ask to load it: '충전해 주세요'.",
+        "Tap the card on the reader as you enter the gate or board the bus.",
+        "Check the line map or app for where to transfer (환승).",
+        "Tap out as you exit the gate or leave the bus to lock in your fare and transfer credit."
+      ],
+      "deepLinks": [
+        {"label": "Naver Map (routes & transfers)", "url": "https://map.naver.com/", "note": "Search a destination for door-to-door subway and bus directions with transfer points."},
+        {"label": "T-money official site", "url": "https://www.t-money.co.kr/", "note": "Card balance, refunds, and where to buy or reload."}
+      ],
+      "costs": "T-money card: about 2,500–4,000 KRW (one-time). Base subway/bus fare from roughly 1,400 KRW with the card, plus small distance add-ons; transfers within ~30 min are usually free.",
+      "notes": "여기 세워 주세요 ('please stop here') is for taxis, not buses — on a bus you press the stop button and say '내려요'. Save it for Unit 3."
+    },
+    {
+      "id": "guide-b-train",
+      "title": "Booking a KTX or SRT Ticket",
+      "situation": "You're traveling between cities and need to buy or reserve a high-speed train ticket at the station counter or in the app.",
+      "goal": "Ask whether tickets to your destination exist, pick a departure time, and buy or confirm your ticket politely.",
+      "keyPhrases": [
+        {"ko": "표 한 장 주세요.", "en": "One ticket, please.", "note": "한 장 = one (flat object). Use 두 장 for two, 세 장 for three. The 주세요 pattern means 'please give me'."},
+        {"ko": "부산 가는 표 있어요?", "en": "Do you have a ticket going to Busan?", "note": "Swap 부산 for any city. 가는 = 'that goes', and 있어요? asks if it exists/is available."},
+        {"ko": "몇 시 거 있어요?", "en": "What times do you have?", "note": "거 = 'one/thing'. A natural way to ask which departure times are available."},
+        {"ko": "다음 거 타고 싶어요.", "en": "I want to take the next one.", "note": "타고 싶어요 = 'want to ride', using the V고 싶어요 pattern. 다음 거 = the next one."},
+        {"ko": "몇 시 거로 할까요?", "en": "Which time shall I go with?", "note": "할까요? = 'shall I do?', a soft way to decide. Pairs with the staff suggesting options."},
+        {"ko": "예약했어요.", "en": "I made a reservation.", "note": "Say this at the gate or counter if you already booked in the app."}
+      ],
+      "dialogue": [
+        {"speaker": "You", "ko": "안녕하세요. 부산 가는 표 있어요?", "en": "Hello. Do you have a ticket going to Busan?"},
+        {"speaker": "Staff", "ko": "네, 있어요. 몇 시 거 드릴까요?", "en": "Yes, we do. What time would you like?"},
+        {"speaker": "You", "ko": "음, 몇 시 거 있어요?", "en": "Um, what times do you have?"},
+        {"speaker": "Staff", "ko": "두 시하고 세 시 거 있어요.", "en": "We have the two o'clock and the three o'clock."},
+        {"speaker": "You", "ko": "그럼 두 시 거 한 장 주세요.", "en": "Then one for two o'clock, please."},
+        {"speaker": "Staff", "ko": "네, 오만 구천 원이에요.", "en": "Okay, that's 59,000 won."}
+      ],
+      "beginnerGuide": [
+        {"title": "KTX vs. SRT", "body": "Both are high-speed trains. KTX is run by Korail and uses Seoul Station and Yongsan; SRT is a separate operator that mainly departs from Suseo Station in southern Seoul. They serve overlapping cities like Busan and Daegu, so check which station is closer to you and book on the matching app."},
+        {"title": "Counting tickets with 장", "body": "Tickets, sheets, and other flat things are counted with the counter 장: 한 장 (one), 두 장 (two), 세 장 (three). So '표 두 장 주세요' = 'two tickets, please.' This counter shows up for paper money, photos, and pizza slices too."},
+        {"title": "Reserved seats", "body": "High-speed train seats are reserved, so your ticket shows a car number (호차) and seat number. Standing tickets (입석) exist when seats sell out. If you booked in the app, you usually don't need a paper ticket — just show the screen or say '예약했어요'."}
+      ],
+      "checkpoints": [
+        "I can ask '부산 가는 표 있어요?' for any destination city.",
+        "I can ask '몇 시 거 있어요?' and choose a time.",
+        "I can buy a ticket with '표 한 장 주세요' and the right number + 장.",
+        "I can say '예약했어요' when I've already booked in the app."
+      ],
+      "coreVocabularyIds": ["word-newcomer-008", "word-noun-009"],
+      "linkedEntryIds": ["pattern-004", "pattern-005", "pattern-016", "expr-015", "expr-028"],
+      "grammarFocus": ["grammar-ending-request", "grammar-particle-e"],
+      "drills": [
+        {"ko": "표 한 장 주세요.", "en": "One ticket, please.", "note": "Practice 두 장, 세 장; combine with a destination: '부산, 표 두 장 주세요'."},
+        {"ko": "부산 가는 표 있어요?", "en": "Do you have a ticket going to Busan?", "note": "Swap the city: 대구, 광주, 대전."},
+        {"ko": "몇 시 거 있어요?", "en": "What times are available?", "note": "Then answer for yourself: '세 시 거 주세요'."}
+      ],
+      "steps": [
+        "Decide your departure station — Seoul/Yongsan for KTX, Suseo for SRT — based on what's nearest.",
+        "Check times and book in the app or at a counter/kiosk.",
+        "At the counter, ask '부산 가는 표 있어요?' then '몇 시 거 있어요?'.",
+        "Confirm the time and buy: '두 시 거 한 장 주세요'. Note your 호차 (car) and seat number."
+      ],
+      "deepLinks": [
+        {"label": "Korail (KTX) booking", "url": "https://www.letskorail.com/", "note": "Official KTX timetables and reservations; departs Seoul Station / Yongsan."},
+        {"label": "SRT booking", "url": "https://etk.srail.kr/", "note": "Official SRT reservations; mainly departs Suseo Station."}
+      ],
+      "costs": "Seoul–Busan high-speed runs roughly 50,000–60,000 KRW one way in standard class; shorter routes cost less. Prices vary by distance and seat class.",
+      "notes": "If you don't catch the price, fall back to '얼마예요?' (how much is it?). Times are often spoken in pure-Korean hours: 두 시 (2:00), 세 시 (3:00)."
+    },
+    {
+      "id": "guide-b-taxi",
+      "title": "Taking a Taxi & Giving Directions",
+      "situation": "You're taking a taxi and need to give the destination, ask to stop, and pay — possibly by card.",
+      "goal": "Tell the driver where to go, ask them to stop, confirm card payment, and check the fare in polite Korean.",
+      "keyPhrases": [
+        {"ko": "이 주소로 가 주세요.", "en": "Please go to this address.", "note": "Show the address on your phone and say this. 주소로 = 'to the address' (로/으로 particle); 가 주세요 uses the V아/어 주세요 'please do for me' pattern."},
+        {"ko": "여기 세워 주세요.", "en": "Please stop here.", "note": "세워 주세요 = 'please stop (the car)'. This is the correct taxi phrase — don't use it on a bus."},
+        {"ko": "여기서 내릴게요.", "en": "I'll get off here.", "note": "A polite way to say you're getting out at this spot."},
+        {"ko": "카드 돼요?", "en": "Can I pay by card?", "note": "Most taxis take cards, but it's polite to confirm. 돼요? = 'does it work / is it okay?'"},
+        {"ko": "얼마예요?", "en": "How much is it?", "note": "Ask at the end of the ride to confirm the fare before paying."},
+        {"ko": "다시 말해 주세요.", "en": "Please say that again.", "note": "Use it if you don't catch the fare or the driver's question."}
+      ],
+      "dialogue": [
+        {"speaker": "Driver", "ko": "어디로 가세요?", "en": "Where are you going?"},
+        {"speaker": "You", "ko": "이 주소로 가 주세요.", "en": "Please go to this address."},
+        {"speaker": "Driver", "ko": "네, 알겠습니다.", "en": "Okay, got it."},
+        {"speaker": "You", "ko": "저기 신호등 앞에서 세워 주세요.", "en": "Please stop in front of that traffic light."},
+        {"speaker": "You", "ko": "카드 돼요? 얼마예요?", "en": "Can I pay by card? How much is it?"},
+        {"speaker": "Driver", "ko": "네, 카드 돼요. 팔천 원이에요.", "en": "Yes, card is fine. It's 8,000 won."}
+      ],
+      "beginnerGuide": [
+        {"title": "Show, don't just say", "body": "Korean addresses can be hard to pronounce, so the easiest move is to pull up the destination in a map app and show the screen while saying '이 주소로 가 주세요'. Many drivers will type it into their own navigation. Hailing through the Kakao T app skips the talking entirely — the address is already set."},
+        {"title": "Stopping where you want", "body": "Use '여기 세워 주세요' (please stop here) or point to a landmark: '저기 편의점 앞에서 세워 주세요' (please stop in front of that convenience store over there). 앞에서 = 'in front of', a handy way to be precise without an exact address."},
+        {"title": "Paying and tipping", "body": "Tipping is not expected in Korea. Cards work in nearly all taxis, but confirm with '카드 돼요?' just in case. The meter sets the fare, so '얼마예요?' is mostly to hear the final number — there's no haggling."}
+      ],
+      "checkpoints": [
+        "I can give a destination with '이 주소로 가 주세요' while showing my phone.",
+        "I can ask the driver to stop with '여기 세워 주세요'.",
+        "I can confirm payment with '카드 돼요?' and check the fare with '얼마예요?'.",
+        "I can ask the driver to repeat with '다시 말해 주세요'."
+      ],
+      "coreVocabularyIds": ["word-newcomer-009"],
+      "linkedEntryIds": ["pattern-015", "expr-015", "expr-021", "expr-022"],
+      "grammarFocus": ["grammar-ending-request", "grammar-particle-ro-euro"],
+      "drills": [
+        {"ko": "이 주소로 가 주세요.", "en": "Please go to this address.", "note": "Swap in a place: '서울역으로 가 주세요'."},
+        {"ko": "여기 세워 주세요.", "en": "Please stop here.", "note": "Add a landmark: '편의점 앞에서 세워 주세요'."},
+        {"ko": "카드 돼요?", "en": "Can I pay by card?", "note": "Follow up with '얼마예요?' to confirm the fare."}
+      ],
+      "steps": [
+        "Hail a taxi on the street (a red 빈차 light means it's free) or call one in the Kakao T app.",
+        "Show the destination on your map and say '이 주소로 가 주세요'.",
+        "Near your stop, say '여기 세워 주세요' or name a landmark with 앞에서.",
+        "Confirm payment and fare: '카드 돼요? 얼마예요?'."
+      ],
+      "deepLinks": [
+        {"label": "Kakao Mobility (Kakao T)", "url": "https://www.kakaomobility.com/", "note": "Korea's main taxi-hailing app; sets your pickup and destination automatically."},
+        {"label": "Naver Map (find an address)", "url": "https://map.naver.com/", "note": "Search your destination and show the screen to the driver."}
+      ],
+      "costs": "Standard taxi base fare is roughly 4,800 KRW in Seoul (varies by region), rising with distance and time; late-night rides add a surcharge.",
+      "notes": "If unsure of the amount, combine '다시 말해 주세요' with '얼마예요?'."
+    }
+  ]
+}

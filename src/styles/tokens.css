@@ -1,0 +1,45 @@
+:root {
+  /* Editorial palette — warm ink on paper, single red accent */
+  --ink: #16140f; --ink-2: #57514a; --ink-3: #948d80;
+  --bg: #f7f5ef; --surface: #ffffff; --surface-2: #f1eee6;
+  --border: #e4e0d6;            /* hairline */
+  --rule: #16140f;              /* strong editorial rule */
+  --radius: 9px; --radius-pill: 999px;
+
+  --accent: #e4322b; --accent-ink: #b3261e; --accent-soft: #fbe7e5;
+
+  /* "green" tokens are kept (many components reference them) but remapped to
+     editorial ink/neutral so the whole app reads monochrome with red accents. */
+  --green: #16140f; --green-dark: #000000; --green-soft: #efece4;
+  --blue: #1f6feb;
+
+  /* category color-coding (used as small accents / legend swatches) */
+  --type-word: #1f7a43; --type-expression: #1f6feb; --type-pattern: #6d44d9; --type-grammar: #c5571a;
+
+  --chat-bg: #b2c7da; --chat-bg-2: #a7bdd1; /* KakaoTalk-style messenger backdrop */
+  --shadow-1: none;
+  --bounce: cubic-bezier(.2,.8,.3,1.2);
+
+  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --sans: 'Pretendard Variable', Pretendard, system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--ink);
+  font-family: var(--sans); line-height: 1.6; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+button { font: inherit; cursor: pointer; border: 0; background: none; color: inherit; }
+a { color: inherit; text-decoration: none; }
+
+/* Editorial primitives */
+.eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--ink-3); }
+.serif { font-family: var(--serif); }
+.rule { border: 0; border-top: 1px solid var(--rule); margin: 0; }
+.hairline { border: 0; border-top: 1px solid var(--border); margin: 0; }
+
+/* Solid-ink editorial button (replaces the old 3D pill) */
+.btn3d { display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 12px 20px; border-radius: 7px; background: var(--ink); color: #fff; font-weight: 720;
+  letter-spacing: .005em; box-shadow: none; transition: opacity .12s, transform .08s; }
+.btn3d:hover { opacity: .9; }
+.btn3d:active { transform: translateY(1px); }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: none; }

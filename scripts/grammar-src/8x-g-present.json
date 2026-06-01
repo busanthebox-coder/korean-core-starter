@@ -1,0 +1,34 @@
+[
+  {
+    "id": "grammar-tense-present",
+    "hangul": "V-아/어요",
+    "romanization": "-a/eoyo",
+    "title": "Present Tense (Polite)",
+    "plainEnglish": "The everyday polite present tense — what is happening now or is generally true.",
+    "whenToUse": "Use V-아/어요 for almost everything in daily speech: current actions, habits, and general facts, e.g. 저는 커피를 마셔요 (I drink coffee). It is the safe default ending with most people.",
+    "attachmentRule": "Drop 다 from the stem. If the last stem vowel is ㅏ or ㅗ, add 아요 (좋다→좋아요). Otherwise add 어요 (먹다→먹어요, 읽다→읽어요). 하다 verbs become 해요 (공부하다→공부해요). Watch contractions: 가다→가요, 오다→와요, 마시다→마셔요, 주다→줘요, 보내다→보내요.",
+    "contrastWith": "The same stem rule builds the past tense — present 먹어요 (I eat) vs past 먹었어요 (I ate). Also don't confuse polite 아/어요 with casual 반말, which simply drops 요 (먹어, 가).",
+    "sentenceFrames": ["저는 ___아/어요.", "지금 ___아/어요.", "매일 ___아/어요."],
+    "examples": [
+      { "ko": "저는 매일 학교에 가요.", "romanization": "", "en": "I go to school every day." },
+      { "ko": "동생이 지금 밥을 먹어요.", "romanization": "", "en": "My sibling is eating now." },
+      { "ko": "주말에 보통 친구를 만나요.", "romanization": "", "en": "On weekends I usually meet friends." },
+      { "ko": "저는 한국어를 공부해요.", "romanization": "", "en": "I study Korean." }
+    ],
+    "commonMistakes": [
+      "Adding 아요 after a non-ㅏ/ㅗ vowel, e.g. saying 먹아요 instead of the correct 먹어요.",
+      "Forgetting the contraction: saying 가아요 instead of 가요, or 마시어요 instead of 마셔요."
+    ],
+    "practiceItems": [
+      { "prompt": "가다 (to go) → polite present", "ko": "가요", "answer": "가요" },
+      { "prompt": "먹다 (to eat) → polite present", "ko": "먹어요", "answer": "먹어요" },
+      { "prompt": "공부하다 (to study) → polite present", "ko": "공부해요", "answer": "공부해요" }
+    ],
+    "studyOrder": [
+      "Drop 다 to find the stem",
+      "Check the last stem vowel: ㅏ/ㅗ takes 아요, everything else takes 어요",
+      "Apply 하다 → 해요 and watch for contractions (가요, 와요, 마셔요)"
+    ],
+    "beginnerExplanation": "The 아/어요 ending is the workhorse of Korean — the polite, everyday present tense you will use more than any other form. To build it, take the dictionary verb, drop 다, and look at the last vowel of what is left. If that vowel is the bright ㅏ or ㅗ you add 아요; for everything else you add 어요; and 하다 verbs turn into 해요. A few combinations squeeze together to be easier to say, so 가다 becomes 가요, not 가아요. Make 아/어요 your default and you will sound natural in almost any polite situation."
+  }
+]

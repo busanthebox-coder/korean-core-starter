@@ -1,0 +1,114 @@
+[
+  {
+    "id": "grammar-sound-liaison",
+    "hangul": "받침 + 모음 (연음)",
+    "romanization": "yeoneum",
+    "title": "Liaison — Linking Sounds (연음)",
+    "plainEnglish": "When a syllable ends in a consonant and the next starts with ㅇ (a vowel), that consonant slides over to begin the next syllable.",
+    "whenToUse": "This happens constantly in speech: 한국어 sounds like 한구거, 음악이 like 으마기, 꽃이 like 꼬치. The spelling never changes — only the sound links.",
+    "attachmentRule": "A final consonant (받침) before an ㅇ-initial syllable moves to become that syllable's onset: 꽃 + 이 → [꼬치], 음악 + 을 → [으마글], 옷 + 이 → [오시], 한국 + 어 → [한구거]. A double 받침 splits — one stays, one moves: 읽 + 어 → [일거], 앉 + 아 → [안자]. Liaison does not cross a clear pause between words.",
+    "contrastWith": "You still WRITE 꽃이, 음악을, 한국어 — only the pronunciation links. This is the #1 reason Korean sounds different from how it looks on the page.",
+    "sentenceFrames": ["꽃이 → [꼬치]", "한국어 → [한구거]", "음악을 → [으마글]"],
+    "examples": [
+      { "ko": "한국어를 공부해요.", "romanization": "", "en": "I study Korean. (sounds like 한구거)" },
+      { "ko": "꽃이 정말 예뻐요.", "romanization": "", "en": "The flowers are really pretty. (sounds like 꼬치)" },
+      { "ko": "음악을 들어요.", "romanization": "", "en": "I listen to music. (sounds like 으마글)" },
+      { "ko": "옷이 너무 작아요.", "romanization": "", "en": "The clothes are too small. (sounds like 오시)" }
+    ],
+    "commonMistakes": [
+      "Pronouncing each block separately (꼳-이 instead of 꼬치).",
+      "Forgetting a double 받침 splits: 읽어요 is [일거요], not [익어요]."
+    ],
+    "practiceItems": [
+      { "prompt": "꽃이 (say it)", "ko": "[꼬치]", "answer": "꼬치" },
+      { "prompt": "한국어", "ko": "[한구거]", "answer": "한구거" },
+      { "prompt": "읽어요", "ko": "[일거요]", "answer": "일거요" }
+    ],
+    "studyOrder": ["Spot a 받침 followed by ㅇ", "Slide the 받침 into the next syllable", "For double 받침, keep one and move one"],
+    "beginnerExplanation": "Korean is written in neat syllable blocks, but in speech a final consonant 'jumps' onto the next block when that block starts with a vowel (the silent ㅇ). So 한국어 is read 한구거, and 꽃이 is read 꼬치. You keep spelling it the normal way — only the sound links up. Once you expect this, listening gets much easier."
+  },
+  {
+    "id": "grammar-sound-nasalization",
+    "hangul": "ㄱㄷㅂ + ㄴㅁ (비음화)",
+    "romanization": "bieumhwa",
+    "title": "Nasalization (비음화)",
+    "plainEnglish": "A stop consonant (ㄱ/ㄷ/ㅂ) turns into a nasal (ㅇ/ㄴ/ㅁ) when the next syllable starts with ㄴ or ㅁ.",
+    "whenToUse": "Why 감사합니다 sounds like 감사함니다 and 학년 like 항년. It happens whenever a stop 받침 bumps into ㄴ or ㅁ.",
+    "attachmentRule": "Before ㄴ or ㅁ: a ㄱ-type 받침 (ㄱㄲㅋㄳㄺ) → ㅇ (학년 → [항년], 국물 → [궁물]); a ㄷ-type 받침 (ㄷㅅㅆㅈㅊㅌㅎ) → ㄴ (받는 → [반는], 옛날 → [옌날]); a ㅂ-type 받침 (ㅂㅍㄼㄿ) → ㅁ (입니다 → [임니다], 앞문 → [암문]).",
+    "contrastWith": "Spelling stays the same (입니다, 학년). This is different from liaison: nasalization happens before ㄴ/ㅁ, while liaison happens before a vowel (ㅇ).",
+    "sentenceFrames": ["합니다 → [함니다]", "학년 → [항년]", "국물 → [궁물]"],
+    "examples": [
+      { "ko": "감사합니다.", "romanization": "", "en": "Thank you. (sounds like 감사함니다)" },
+      { "ko": "저는 삼 학년이에요.", "romanization": "", "en": "I'm in third grade. (학년 sounds like 항년)" },
+      { "ko": "국물이 뜨거워요.", "romanization": "", "en": "The broth is hot. (국물 sounds like 궁물)" },
+      { "ko": "이게 한국 음식입니다.", "romanization": "", "en": "This is Korean food. (입니다 sounds like 임니다)" }
+    ],
+    "commonMistakes": [
+      "Pronouncing the hard 합니다 as written instead of [함니다].",
+      "Missing it in -습니다/-ㅂ니다 endings, which always nasalize to [-슴니다]/[-ㅁ니다]."
+    ],
+    "practiceItems": [
+      { "prompt": "합니다", "ko": "[함니다]", "answer": "함니다" },
+      { "prompt": "학년", "ko": "[항년]", "answer": "항년" },
+      { "prompt": "입니다", "ko": "[임니다]", "answer": "임니다" }
+    ],
+    "studyOrder": ["Find a ㄱ/ㄷ/ㅂ 받침 before ㄴ or ㅁ", "ㄱ→ㅇ, ㄷ→ㄴ, ㅂ→ㅁ", "Apply it to every -ㅂ니다 ending"],
+    "beginnerExplanation": "Some 받침 sounds soften when they run into ㄴ or ㅁ. A ㄱ-sound becomes ㅇ (학년 → 항년), a ㄷ-sound becomes ㄴ (받는 → 반는), and a ㅂ-sound becomes ㅁ (입니다 → 임니다). That's why the polite -습니다 ending is pronounced -슴니다. You don't change the spelling — just the sound."
+  },
+  {
+    "id": "grammar-sound-palatalization",
+    "hangul": "ㄷㅌ + 이 (구개음화)",
+    "romanization": "gugaeeumhwa",
+    "title": "Palatalization (구개음화)",
+    "plainEnglish": "A final ㄷ or ㅌ turns into ㅈ or ㅊ when the next sound is 이 (or 히).",
+    "whenToUse": "Why 같이 is pronounced 가치 and 굳이 is 구지. It only happens with ㄷ/ㅌ + 이.",
+    "attachmentRule": "When a 받침 ㄷ/ㅌ meets the vowel 이: ㄷ + 이 → 지 (굳이 → [구지], 해돋이 → [해도지], 맏이 → [마지]); ㅌ + 이 → 치 (같이 → [가치], 끝이 → [끄치], 붙이다 → [부치다]). With 히 it also applies: 닫히다 → [다치다].",
+    "contrastWith": "This is a special case of liaison: normally ㅌ + 이 would just link to [티], but before 이 the sound shifts forward in the mouth to [치]. Only ㄷ/ㅌ do this, and only before 이/히.",
+    "sentenceFrames": ["같이 → [가치]", "굳이 → [구지]", "해돋이 → [해도지]"],
+    "examples": [
+      { "ko": "같이 갈까요?", "romanization": "", "en": "Shall we go together? (같이 sounds like 가치)" },
+      { "ko": "굳이 안 와도 돼요.", "romanization": "", "en": "You don't have to come (no need). (굳이 sounds like 구지)" },
+      { "ko": "끝이 안 보여요.", "romanization": "", "en": "I can't see the end. (끝이 sounds like 끄치)" },
+      { "ko": "스티커를 붙여요.", "romanization": "", "en": "I stick on a sticker. (붙여 area, 붙이- → 부치-)" }
+    ],
+    "commonMistakes": [
+      "Reading 같이 as [가티] — before 이 it becomes [가치].",
+      "Over-applying it: it only affects ㄷ/ㅌ before 이/히, not other consonants or vowels."
+    ],
+    "practiceItems": [
+      { "prompt": "같이", "ko": "[가치]", "answer": "가치" },
+      { "prompt": "굳이", "ko": "[구지]", "answer": "구지" },
+      { "prompt": "맏이", "ko": "[마지]", "answer": "마지" }
+    ],
+    "studyOrder": ["Spot a ㄷ or ㅌ 받침 right before 이/히", "ㄷ → 지, ㅌ → 치", "Remember the common word 같이 → 가치"],
+    "beginnerExplanation": "When ㄷ or ㅌ at the end of a syllable meets 이, the sound slides forward and becomes ㅈ or ㅊ. So 같이 ('together') is said 가치, and 굳이 is 구지. It's a small rule, but 같이 is such a common word that getting it right (가치, not 가티) makes you sound much more natural."
+  },
+  {
+    "id": "grammar-sound-aspiration",
+    "hangul": "ㅎ + ㄱㄷㅂㅈ (격음화)",
+    "romanization": "gyeogeumhwa",
+    "title": "Aspiration (격음화)",
+    "plainEnglish": "ㅎ merges with a neighboring ㄱ/ㄷ/ㅂ/ㅈ to make the strong, breathy ㅋ/ㅌ/ㅍ/ㅊ.",
+    "whenToUse": "Why 좋다 sounds like 조타 and 축하해요 like 추카해요. It works in either order (ㅎ before or after the stop).",
+    "attachmentRule": "ㅎ + ㄱ (or ㄱ + ㅎ) → ㅋ: 축하 → [추카], 그렇게 → [그러케]. ㅎ + ㄷ → ㅌ: 좋다 → [조타], 많다 → [만타]. ㅎ + ㅂ → ㅍ: 입학 → [이팍], 잡히다 → [자피다]. ㅎ + ㅈ → ㅊ: 좋지 → [조치], 맞히다 → [마치다]. ㅅ-type 받침 + 해 also works: 못해 → [모태].",
+    "contrastWith": "The two plain sounds fuse into ONE aspirated sound — you don't hear ㅎ separately. Compare plain 다 vs aspirated 타 in 좋다 → [조타].",
+    "sentenceFrames": ["좋다 → [조타]", "축하 → [추카]", "못해요 → [모태요]"],
+    "examples": [
+      { "ko": "날씨가 정말 좋다.", "romanization": "", "en": "The weather is really nice. (좋다 sounds like 조타)" },
+      { "ko": "생일 축하해요!", "romanization": "", "en": "Happy birthday! (축하 sounds like 추카)" },
+      { "ko": "저는 그거 못해요.", "romanization": "", "en": "I can't do that. (못해 sounds like 모태)" },
+      { "ko": "대학교에 입학했어요.", "romanization": "", "en": "I entered university. (입학 sounds like 이팍)" }
+    ],
+    "commonMistakes": [
+      "Trying to pronounce ㅎ as a separate sound — 좋다 is one fused [조타], not [조ㅎ다].",
+      "Missing it in 못해/안 해도 — 못해 is [모태]."
+    ],
+    "practiceItems": [
+      { "prompt": "좋다", "ko": "[조타]", "answer": "조타" },
+      { "prompt": "축하", "ko": "[추카]", "answer": "추카" },
+      { "prompt": "못해요", "ko": "[모태요]", "answer": "모태요" }
+    ],
+    "studyOrder": ["Find a ㅎ next to ㄱ/ㄷ/ㅂ/ㅈ (either order)", "Fuse them into ㅋ/ㅌ/ㅍ/ㅊ", "Practice 좋다 → 조타 and 축하 → 추카"],
+    "beginnerExplanation": "The letter ㅎ is 'breathy', and when it touches ㄱ, ㄷ, ㅂ, or ㅈ, the two fuse into one strong aspirated sound: ㅋ, ㅌ, ㅍ, ㅊ. So 좋다 is said 조타, 축하 is 추카, and 못해 is 모태. You won't hear the ㅎ on its own — it gets absorbed into the harder sound."
+  }
+]

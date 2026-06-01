@@ -1,0 +1,398 @@
+[
+  {
+    "id": "grammar-passive",
+    "hangul": "V 피동 (이/히/리/기)",
+    "romanization": "pidong (i/hi/ri/gi)",
+    "title": "Passive verbs (이/히/리/기)",
+    "plainEnglish": "Turns an action verb into a passive one, so the subject has something done to it instead of doing it.",
+    "whenToUse": "Use when the focus is on what happens to the subject, not who does it — doors that open, things that get seen, food that gets eaten up. Very common in daily life and signs. Example: 문이 안 열려요. (The door won't open.)",
+    "attachmentRule": "Insert one of -이-/-히-/-리-/-기- between the verb stem and the ending; which one is fixed per verb and must be memorized. -이-: 보다→보이다 (be seen), 놓다→놓이다, 쌓다→쌓이다. -히-: 닫다→닫히다 (be closed), 먹다→먹히다, 잡다→잡히다, 막다→막히다. -리-: 열다→열리다 (be opened), 듣다→들리다 (be heard), 팔다→팔리다, 밀다→밀리다. -기-: 안다→안기다, 끊다→끊기다, 쫓다→쫓기다, 빼앗다→빼앗기다 (have it taken away). The agent, if mentioned, usually takes 에게/한테 for a person/animal (모기에게 물렸어요) or 에 for a thing/force (소나기에 옷이 다 젖었어요).",
+    "contrastWith": "이/히/리/기 passive vs -아/어지다 passive: the four-marker type only works for a fixed set of transitive verbs and often describes a natural happening (문이 열렸어요 = the door opened/got opened), while -아/어지다 attaches more freely, often to describe a change of state or something becoming a certain way (이 펜은 글씨가 잘 써져요 = this pen writes well). Many verbs allow only one type.",
+    "sentenceFrames": [
+      "___이/가 (이/히/리/기) -어요 (The ___ gets ...)",
+      "여기서 ___이/가 잘 보여요/들려요 (You can see/hear ___ well here)",
+      "모기/사람한테 ___였어요 (I got ...-ed by a mosquito/someone)"
+    ],
+    "examples": [
+      { "ko": "지하철에서 사람이 너무 많아서 문이 안 닫혀요.", "romanization": "", "en": "There are so many people on the subway that the door won't close." },
+      { "ko": "옆집 소리가 다 들려요, 벽이 너무 얇아요.", "romanization": "", "en": "I can hear everything from next door — the walls are way too thin." },
+      { "ko": "인기 메뉴라 점심때 다 팔려요.", "romanization": "", "en": "It's a popular item, so it all sells out at lunchtime." },
+      { "ko": "어제 모기한테 다리를 물렸어요.", "romanization": "", "en": "I got bitten on the leg by a mosquito yesterday." }
+    ],
+    "commonMistakes": [
+      "Guessing the marker — each verb takes a fixed one (열다→열리다, not 열이다; 닫다→닫히다, not 닫리다). They must be memorized verb by verb.",
+      "Using 을/를 with a passive verb. The thing affected becomes the subject with 이/가 (문을 열려요 ✗ → 문이 열려요 ✓)."
+    ],
+    "practiceItems": [
+      { "prompt": "Make 열다 (to open) passive, present polite: 'The window opens'", "ko": "창문이 열려요.", "answer": "창문이 열려요." },
+      { "prompt": "Make 닫다 (to close) passive: 'The door is closed'", "ko": "문이 닫혔어요.", "answer": "문이 닫혔어요." },
+      { "prompt": "Say 'I can hear music' using 듣다→들리다", "ko": "음악이 들려요.", "answer": "음악이 들려요." }
+    ],
+    "studyOrder": [
+      "Learn the four markers 이/히/리/기 as a set, then memorize a handful of high-frequency pairs (보이다, 닫히다, 열리다, 들리다, 팔리다).",
+      "Practice flipping the object to the subject: 문을 닫다 → 문이 닫히다.",
+      "Add the agent with 에게/한테 only when you really need to say who did it (모기한테 물렸어요)."
+    ],
+    "beginnerExplanation": "Korean passives slip a tiny syllable — 이, 히, 리, or 기 — inside the verb so the action happens TO the subject instead of being done BY it. So 닫다 (to close something) becomes 닫히다 (to be closed): 문이 닫혔어요 means the door got closed. The catch is that each verb is married to one specific marker, and there's no rule for guessing which — you just memorize them (열리다, 들리다, 보이다, 팔리다). You'll hear these constantly: 안 들려요 (I can't hear), 안 보여요 (I can't see), 다 팔렸어요 (it's all sold out). Start with those everyday ones and the pattern will click."
+  },
+  {
+    "id": "grammar-causative",
+    "hangul": "V 사동 (이/히/리/기/우)",
+    "romanization": "sadong (i/hi/ri/gi/u)",
+    "title": "Causative verbs (이/히/리/기/우)",
+    "plainEnglish": "Turns a verb into a causative one, meaning you make or let someone or something do the action.",
+    "whenToUse": "Use when you cause a change or make someone do something — feeding a child, waking someone up, lowering the price, raising the volume. Example: 아이한테 밥을 먹여요. (I feed the child rice.)",
+    "attachmentRule": "Insert -이-/-히-/-리-/-기-/-우- between stem and ending; the choice is fixed per verb. -이-: 먹다→먹이다 (feed), 보다→보이다 (show), 죽다→죽이다, 끓다→끓이다. -히-: 입다→입히다 (dress someone), 앉다→앉히다 (seat), 눕다→눕히다, 읽다→읽히다. -리-: 살다→살리다 (save/keep alive), 울다→울리다 (make cry), 알다→알리다 (inform), 돌다→돌리다. -기-: 웃다→웃기다 (make laugh), 씻다→씻기다 (wash someone), 맡다→맡기다, 신다→신기다. -우-: 자다→재우다 (put to sleep; note 자→재), 서다→세우다 (stop/stand it up), 깨다→깨우다 (wake someone), 타다→태우다 (give a ride), 크다→키우다 (raise). The person made to act takes 에게/한테 or 을/를.",
+    "contrastWith": "Causative vs -게 하다: the embedded marker (먹이다 = feed directly) usually implies hands-on, direct causation, while V-게 하다 (먹게 하다 = make/let them eat) is more indirect — you cause it but they do the eating. 아이를 재우다 = I put the baby to sleep; 아이가 자게 하다 = I make the child go to sleep.",
+    "sentenceFrames": [
+      "___한테 ___을/를 (이/히/리/기/우) -어요 (I make/help ___ do ...)",
+      "아이를 ___ -였어요 (I ...-ed the child)",
+      "소리/값을 ___ -여 주세요 (Please turn up / lower the ...)"
+    ],
+    "examples": [
+      { "ko": "아기를 겨우 재웠는데 초인종이 울렸어요.", "romanization": "", "en": "I'd just barely gotten the baby to sleep and the doorbell rang." },
+      { "ko": "기사님, 다음 사거리에서 세워 주세요.", "romanization": "", "en": "Driver, please stop at the next intersection." },
+      { "ko": "추우니까 아이한테 옷 좀 두껍게 입혀요.", "romanization": "", "en": "It's cold, so dress the kid in something thick." },
+      { "ko": "강아지를 한 마리 키우고 있어요.", "romanization": "", "en": "I'm raising a puppy." }
+    ],
+    "commonMistakes": [
+      "Mixing up the look-alike passive and causative (보이다 can mean both 'be seen' and 'show'; 울리다 = make cry, but 울다 = cry). Context and particles tell them apart.",
+      "Forgetting the vowel shifts in the -우- group: 자다→재우다, 서다→세우다 (not 자우다, 서우다)."
+    ],
+    "practiceItems": [
+      { "prompt": "Make 먹다 (to eat) causative: 'I feed the baby'", "ko": "아기한테 밥을 먹여요.", "answer": "아기한테 밥을 먹여요." },
+      { "prompt": "Use 자다→재우다: 'I put the child to sleep' (past)", "ko": "아이를 재웠어요.", "answer": "아이를 재웠어요." },
+      { "prompt": "Use 서다→세우다: 'Please stop the car here'", "ko": "여기서 차를 세워 주세요.", "answer": "여기서 차를 세워 주세요." }
+    ],
+    "studyOrder": [
+      "Learn the five markers 이/히/리/기/우, then memorize the most useful pairs (먹이다, 입히다, 재우다, 깨우다, 세우다, 키우다).",
+      "Notice which causatives look identical to a passive (보이다, 울리다) and rely on particles to tell them apart.",
+      "Contrast the direct embedded causative with the looser V-게 하다 so you pick the right nuance."
+    ],
+    "beginnerExplanation": "Causatives add the same little syllables — 이, 히, 리, 기, or 우 — to mean you MAKE or HELP something happen. 먹다 (to eat) becomes 먹이다 (to feed): 아기한테 밥을 먹여요 means I feed the baby. The -우- ones change the vowel a bit, so 자다 (to sleep) becomes 재우다 (to put to sleep) and 서다 (to stand) becomes 세우다 (to stop/stand it up) — that 세워 주세요 is exactly how you tell a taxi to pull over. A few causatives look just like passives (보이다, 울리다), but the words around them make the meaning clear. Start with feed, dress, wake, raise, and stop — you'll use those all the time with kids, pets, and taxis."
+  },
+  {
+    "id": "grammar-ending-nota-duda",
+    "hangul": "V-아/어 놓다 / V-아/어 두다",
+    "romanization": "-a/eo nota / -a/eo duda",
+    "title": "Do in advance & leave done (놓다/두다)",
+    "plainEnglish": "Says you do something and leave it in that finished state, often as preparation for later.",
+    "whenToUse": "Use when you finish an action on purpose and leave the result standing — prepping ahead, keeping something ready, or leaving something as is. Example: 표는 미리 예매해 놓았어요. (I went ahead and booked the tickets in advance.)",
+    "attachmentRule": "Take the -아/어 connective (vowel harmony like the present tense) and add 놓다 or 두다: ㅏ/ㅗ stems → -아 놓다/두다 (찾다→찾아 놓다, 사다→사 놓다); other vowels → -어 놓다/두다 (열다→열어 놓다, 만들다→만들어 두다); 하다 → 해 놓다/해 두다. Then conjugate 놓다/두다 freely (해 놨어요 from 놓았어요, 해 둘게요). In speech 해 놓다 often contracts to 해 놨어요. With a noun phrase you can also say 켜 놓다, 열어 두다, etc.",
+    "contrastWith": "V-아/어 놓다·두다 vs V-아/어 있다: 놓다/두다 keep an action's RESULT in place on purpose for later use (창문을 열어 놨어요 = I opened the window and left it open), while V-아/어 있다 just describes a state that exists (창문이 열려 있어요 = the window is (in the state of) open). 놓다 leans toward 'just did it / quick prep'; 두다 leans toward 'leave it for a while'.",
+    "sentenceFrames": [
+      "미리 ___아/어 놓을게요 (I'll go ahead and ___)",
+      "___아/어 놨으니까 그냥 ... (I've ___ already, so just ...)",
+      "그건 ___아/어 두세요 (Leave that ___ for now)"
+    ],
+    "examples": [
+      { "ko": "주말에 손님 와서 김밥 미리 싸 놨어요.", "romanization": "", "en": "Guests are coming this weekend, so I made gimbap ahead of time." },
+      { "ko": "에어컨 켜 놓고 나왔는데 끄고 올걸 그랬어요.", "romanization": "", "en": "I left the AC on when I went out — I should've turned it off." },
+      { "ko": "그 서류는 일단 책상 위에 올려 두세요.", "romanization": "", "en": "For now, just leave those documents on the desk." },
+      { "ko": "식당 예약해 뒀으니까 그냥 가면 돼요.", "romanization": "", "en": "I've booked the restaurant, so we can just go." }
+    ],
+    "commonMistakes": [
+      "Confusing the connective vowel: it follows present-tense harmony, so 열다→열어 놓다 (not 열아 놓다), 하다→해 놓다 (not 하아 놓다).",
+      "Mixing it up with V-아/어 있다 for plain states — 'the window is open' is 열려 있어요, but 'I left it open (on purpose)' is 열어 놨어요."
+    ],
+    "practiceItems": [
+      { "prompt": "Use 사다 + 놓다: 'I bought it in advance' (past, contracted)", "ko": "미리 사 놨어요.", "answer": "미리 사 놨어요." },
+      { "prompt": "Use 켜다 + 놓다: 'I'll leave the light on'", "ko": "불을 켜 놓을게요.", "answer": "불을 켜 놓을게요." },
+      { "prompt": "Use 넣다 + 두다: 'Leave it in the fridge'", "ko": "냉장고에 넣어 두세요.", "answer": "냉장고에 넣어 두세요." }
+    ],
+    "studyOrder": [
+      "Build the -아/어 connective first (same as present tense), then bolt on 놓다 or 두다.",
+      "Practice contracting 놓았어요 → 놨어요, which is what you'll actually hear.",
+      "Feel the nuance: 놓다 = did it and it's ready now; 두다 = leave it sitting for later."
+    ],
+    "beginnerExplanation": "V-아/어 놓다 and V-아/어 두다 both mean you do something and then leave it that way, usually to be ready later. Think prepping: 표를 예매해 놨어요 means I went ahead and booked the tickets. You make the -아/어 form (just like present tense) and add 놓다 or 두다, and in real speech 놓았어요 squishes to 놨어요. The two are nearly the same; 놓다 feels like you just did it and it's set, while 두다 feels like leaving it for a while. Don't confuse this with 열려 있어요 (the window is open as a state) — 열어 놨어요 means I opened it and left it open on purpose."
+  },
+  {
+    "id": "grammar-ending-chaero",
+    "hangul": "V-(으)ㄴ 채로",
+    "romanization": "-(eu)n chaero",
+    "title": "While still in a state (-ㄴ 채로)",
+    "plainEnglish": "Means doing something while still in the state left by a previous action, often one you forgot to undo.",
+    "whenToUse": "Use when one action's result is left in place while you do something else — sleeping with the lights on, going out with shoes on, talking with your mouth full. Often the state is a bit careless or unusual. Example: 불을 켠 채로 잤어요. (I slept with the lights on.)",
+    "attachmentRule": "Attach to the PAST modifier form of a verb: vowel stem → -ㄴ 채로 (켜다→켠 채로, 자다→잔 채로), consonant stem → -은 채로 (신다→신은 채로, 입다→입은 채로). ㄹ-stems drop ㄹ then add ㄴ (열다→연 채로). The 로 is optional — -(으)ㄴ 채 alone is also correct. It describes a maintained state, so the verb is usually one that leaves a lasting result (켜다, 입다, 신다, 열다, 앉다, 눕다). Not normally used with motion verbs like 가다.",
+    "contrastWith": "V-(으)ㄴ 채로 vs V-고: 신을 신고 들어갔어요 just sequences two actions (put on shoes, then went in), while 신을 신은 채로 들어갔어요 stresses that the shoes STAYED ON the whole time — often with a nuance of 'without taking them off', sometimes improperly. Also contrast with V-아/어서 (cause/sequence), which doesn't carry that 'left in that state' feeling.",
+    "sentenceFrames": [
+      "___(으)ㄴ 채로 자 버렸어요 (I fell asleep while still ___)",
+      "___(으)ㄴ 채로 나왔어요 (I left while still ___)",
+      "___(으)ㄴ 채(로) ... 하지 마세요 (Don't ... while still ___)"
+    ],
+    "examples": [
+      { "ko": "어제 화장도 안 지운 채로 그냥 잤어요.", "romanization": "", "en": "Yesterday I just slept without even taking my makeup off." },
+      { "ko": "신발을 신은 채로 들어오면 안 돼요.", "romanization": "", "en": "You can't come in with your shoes on." },
+      { "ko": "창문을 연 채로 나와서 좀 걱정돼요.", "romanization": "", "en": "I left with the window open, so I'm a bit worried." },
+      { "ko": "안경을 낀 채로 세수했어요.", "romanization": "", "en": "I washed my face with my glasses still on." }
+    ],
+    "commonMistakes": [
+      "Using the present modifier instead of the past one — it's 켠 채로 / 신은 채로 (past form), never 켜는 채로.",
+      "Attaching it to adjectives or to plain motion (가는 채로 ✗). It needs a verb that leaves a lingering result-state."
+    ],
+    "practiceItems": [
+      { "prompt": "Use 켜다: 'I slept with the TV on'", "ko": "텔레비전을 켠 채로 잤어요.", "answer": "텔레비전을 켠 채로 잤어요." },
+      { "prompt": "Use 신다: 'Don't come in with your shoes on'", "ko": "신발을 신은 채로 들어오지 마세요.", "answer": "신발을 신은 채로 들어오지 마세요." },
+      { "prompt": "Use 열다: 'I left with the door open'", "ko": "문을 연 채로 나왔어요.", "answer": "문을 연 채로 나왔어요." }
+    ],
+    "studyOrder": [
+      "Build the past modifier first (켜다→켠, 신다→신은), since 채로 always rides on that form.",
+      "Pick verbs that leave a state behind (입다, 신다, 켜다, 열다) and practice 'doing X while still in that state'.",
+      "Compare with V-고 to feel the difference between 'and then' and 'while still left that way'."
+    ],
+    "beginnerExplanation": "V-(으)ㄴ 채로 describes doing something while a previous action is still left in place — usually a slightly careless 'oops I didn't undo it' situation. 불을 켠 채로 잤어요 means I slept with the lights still on; 신발을 신은 채로 means with your shoes still on. The key is that it attaches to the PAST modifier form (켠, 신은, 연), not the present one. You drop it in when the state hangs around the whole time: makeup not removed, window left open, glasses still on. It's everyday and very natural — Koreans use it constantly to describe little forgetful moments."
+  },
+  {
+    "id": "grammar-honorific-words",
+    "hangul": "계시다 / 드리다 / 잡수시다",
+    "romanization": "gyesida / deurida / japsusida",
+    "title": "Special honorific words",
+    "plainEnglish": "A small set of completely different verbs you swap in to show respect, instead of just adding -(으)시-.",
+    "whenToUse": "Use with people you must honor — grandparents, parents, teachers, bosses, customers. Some lift the SUBJECT (계시다, 잡수시다), one lowers YOURSELF toward the listener (드리다). Example: 할머니께서 방에 계세요. (Grandmother is in the room.)",
+    "attachmentRule": "Memorize these suppletive swaps. SUBJECT-honorific (honor the doer): 있다→계시다 (계세요), 먹다/마시다→드시다 or the higher 잡수시다 (잡수세요), 자다→주무시다, 말하다→말씀하시다, 아프다→편찮으시다, 죽다→돌아가시다. OBJECT/humble (lower yourself toward a senior): 주다→드리다 (드릴게요), 말하다→말씀드리다, 묻다→여쭤보다/여쭙다, 보다(meet)→뵙다/뵈다, 데리다→모시다. The honored subject also takes 께서 (이/가 honorific) and 께 (에게 honorific): 부모님께 선물을 드렸어요. 계시다 honors a person; for a respected person's possessions use 있으시다 (질문 있으세요?).",
+    "contrastWith": "Special words vs plain -(으)시-: most verbs just add -(으)시- (가다→가세요), but these high-frequency ones REPLACE the whole verb. Saying 있으세요 for a person is wrong where 계세요 is required (할머니가 계세요, not 할머니가 있으세요). And 드리다 is humble (you giving up), not honorific (someone giving to you), so a senior gives to you with 주시다, while you give to them with 드리다.",
+    "sentenceFrames": [
+      "___께서 ___에 계세요 (___ is in/at ...)",
+      "제가 ___을/를 드릴게요 (I'll give/do ... for you)",
+      "할아버지께서 진지를 잡수세요 (Grandfather is eating his meal)"
+    ],
+    "examples": [
+      { "ko": "사장님 지금 자리에 안 계세요. 메모 남겨 드릴까요?", "romanization": "", "en": "The boss isn't at his desk right now. Shall I leave him a message?" },
+      { "ko": "부모님께 드릴 선물을 고르고 있어요.", "romanization": "", "en": "I'm picking out a gift to give my parents." },
+      { "ko": "할머니, 진지 다 잡수셨어요?", "romanization": "", "en": "Grandma, have you finished your meal?" },
+      { "ko": "내일 교수님을 뵙고 여쭤볼 게 있어요.", "romanization": "", "en": "I'm meeting the professor tomorrow and have something to ask." }
+    ],
+    "commonMistakes": [
+      "Using 있으세요 for a respected person who is present — for a person you must say 계세요 (있으시다 is only for their belongings/states, like 질문 있으세요?).",
+      "Using 드리다 when a senior gives to you. You receive from them with 주시다; 드리다 is only when YOU give to someone higher."
+    ],
+    "practiceItems": [
+      { "prompt": "Say 'The teacher is in the office' honorifically (있다→계시다)", "ko": "선생님께서 사무실에 계세요.", "answer": "선생님께서 사무실에 계세요." },
+      { "prompt": "Say 'I'll give it to my parents' humbly (주다→드리다)", "ko": "부모님께 드릴게요.", "answer": "부모님께 드릴게요." },
+      { "prompt": "Ask Grandpa 'Did you eat?' honorifically (먹다→잡수시다)", "ko": "할아버지, 진지 잡수셨어요?", "answer": "할아버지, 진지 잡수셨어요?" }
+    ],
+    "studyOrder": [
+      "Memorize the swaps in pairs: 있다/계시다, 먹다/드시다·잡수시다, 자다/주무시다, 주다/드리다, 말하다/말씀드리다.",
+      "Learn the matching particles 께서 and 께, which travel with these honorific subjects and recipients.",
+      "Keep subject-honorific (계시다, 잡수시다) separate from humble (드리다, 뵙다) so you raise the right person."
+    ],
+    "beginnerExplanation": "For most verbs you show respect by tucking in -(으)시-, but a handful of everyday verbs swap out entirely. 있다 becomes 계시다 when it's about a person (할머니가 계세요 = Grandma is here), 먹다 becomes 드시다 or the very polite 잡수시다, and 자다 becomes 주무시다. There's also a humble side: when YOU give something to someone above you, 주다 becomes 드리다 (부모님께 드릴게요). These come with their own particles, 께서 and 께. Two traps to remember: use 계세요 (not 있으세요) for a person who's present, and use 드리다 only when you're the one giving upward — when a senior gives to you, it's 주시다."
+  },
+  {
+    "id": "grammar-ending-tende",
+    "hangul": "A/V-(으)ㄹ 텐데",
+    "romanization": "-(eu)l tende",
+    "title": "Probably ... so (-ㄹ 텐데)",
+    "plainEnglish": "Expresses a strong guess or expectation, usually setting up a related comment, worry, or suggestion.",
+    "whenToUse": "Use when you assume something is likely true and then add a thought based on it — concern, advice, or a contrast. Example: 길이 막힐 텐데 지하철로 갈까요? (It'll probably be jammed, so shall we take the subway?)",
+    "attachmentRule": "Built from -(으)ㄹ 터인데 (터 = expectation), almost always contracted to -(으)ㄹ 텐데. Vowel/ㄹ stem → -ㄹ 텐데 (바쁘다→바쁠 텐데, 오다→올 텐데, 멀다→멀 텐데), consonant stem → -을 텐데 (좋다→좋을 텐데, 먹다→먹을 텐데). PAST guess: -았/었을 텐데 (도착했을 텐데 = they've probably arrived). NOUN: -일 텐데 (학생일 텐데). It can end a sentence as a soft 'I'd expect... (but)': 맛있을 텐데. For a 1st-person plan that sets up a reason, Koreans normally use the sibling form -(으)ㄹ 테니까, not 텐데 (제가 갈 테니까 걱정 마세요 = I'll go, so don't worry).",
+    "contrastWith": "-(으)ㄹ 텐데 vs -(으)ㄹ 거예요: 거예요 just states a plain prediction (비가 올 거예요 = it'll rain), while 텐데 wraps that prediction in a 'so / but / I'm worried' frame that leads into another clause (비가 올 텐데 우산 챙겨요 = it'll probably rain, so take an umbrella). Also vs -(으)니까 (definite reason): 텐데 is a GUESS-based lead-in, softer and less certain.",
+    "sentenceFrames": [
+      "___(으)ㄹ 텐데 괜찮을까요? (It'll probably ___, will it be okay?)",
+      "___(으)ㄹ 텐데 ___ 하세요 (It'll likely ___, so please ...)",
+      "___았/었을 텐데 (They've probably already ___)"
+    ],
+    "examples": [
+      { "ko": "지금쯤 도착했을 텐데 왜 연락이 없지?", "romanization": "", "en": "They should've arrived by now — why haven't they texted?" },
+      { "ko": "주말이라 사람 많을 텐데 좀 일찍 나갈까요?", "romanization": "", "en": "It's the weekend so it'll probably be crowded — shall we head out a bit early?" },
+      { "ko": "배고프실 텐데 이거라도 좀 드세요.", "romanization": "", "en": "You must be hungry, so please at least have some of this." },
+      { "ko": "비 올 텐데 우산 안 가져가요?", "romanization": "", "en": "It's probably going to rain — you're not taking an umbrella?" }
+    ],
+    "commonMistakes": [
+      "Spelling it 텐대 — it's 텐데 (from 터인데).",
+      "Confusing the consonant/vowel split: 먹다→먹을 텐데 (not 먹ㄹ 텐데), 오다→올 텐데 (not 오을 텐데)."
+    ],
+    "practiceItems": [
+      { "prompt": "Use 막히다: 'The road will probably be jammed, so let's leave early'", "ko": "길이 막힐 텐데 일찍 나가요.", "answer": "길이 막힐 텐데 일찍 나가요." },
+      { "prompt": "Use 배고프다 + honorific: 'You must be hungry, so eat this'", "ko": "배고프실 텐데 이거 드세요.", "answer": "배고프실 텐데 이거 드세요." },
+      { "prompt": "Past guess with 도착하다: 'They've probably arrived already'", "ko": "벌써 도착했을 텐데요.", "answer": "벌써 도착했을 텐데요." }
+    ],
+    "studyOrder": [
+      "Start with present guesses (바쁠 텐데, 좋을 텐데) and add a worry or suggestion after them.",
+      "Add the past form -았/었을 텐데 for 'they've probably already ...'.",
+      "Compare with -(으)ㄹ 거예요 so you reserve 텐데 for guesses that lead into another remark."
+    ],
+    "beginnerExplanation": "A/V-(으)ㄹ 텐데 is how you make a confident guess and then lean into a follow-up thought — worry, advice, or a gentle 'but'. 길이 막힐 텐데 means it'll probably be jammed, and you'd add something like 일찍 나가요 (so let's leave early). It comes from 터(expectation) + 인데, and you'll almost always hear the squished form 텐데. Use -을 텐데 after a consonant (먹을 텐데) and -ㄹ 텐데 after a vowel (올 텐데); for a past guess, add 았/었을 (도착했을 텐데 = they've probably arrived). It's warmer and more thoughtful than a flat 거예요, because it shows you're guessing and caring at the same time."
+  },
+  {
+    "id": "grammar-passive-eojida",
+    "hangul": "V-아/어지다",
+    "romanization": "-a/eojida",
+    "title": "Get done / become (-아/어지다)",
+    "plainEnglish": "Makes a verb passive or shows a gradual change — something gets done, or a state comes about.",
+    "whenToUse": "Use for things that happen on their own or get done without a clear doer, and for adjectives that gradually change. Example: 글씨가 잘 안 써져요. (The writing just won't come out / the pen won't write.)",
+    "attachmentRule": "Take the -아/어 connective and add 지다: ㅏ/ㅗ stems → -아지다 (작다→작아지다, 좋다→좋아지다), other vowels → -어지다 (만들다→만들어지다, 켜다→켜지다), 하다 → 해지다 (편하다→편해지다). With ADJECTIVES it means 'become/get more ~': 추워지다 (get colder), 많아지다 (increase). With some TRANSITIVE verbs it makes a passive of result: 켜다→켜지다 (get switched on), 깨다→깨지다 (get broken), 만들다→만들어지다 (get made), 쓰다→써지다 (get written). Conjugate 지다 normally (좋아졌어요, 깨졌어요).",
+    "contrastWith": "-아/어지다 vs 이/히/리/기 passive: -아/어지다 attaches very freely and often signals a CHANGE or a 'it just happens by itself' feel (글씨가 잘 안 써져요 = the writing just won't come out), while the embedded-marker passive (닫히다, 열리다) is the lexical passive for a fixed verb set. When a verb already has a lexical passive, that one is usually preferred (the door 'gets closed' is 문이 닫혀요, not 문이 닫아져요). For adjectives, only -아/어지다 works (날씨가 좋아졌어요 = the weather got better) — there's no 이/히/리/기 version.",
+    "sentenceFrames": [
+      "점점 ___아/어져요 (It's gradually getting ___)",
+      "이게 잘 안 ___아/어져요 (This won't ___ properly)",
+      "갑자기 ___아/어졌어요 (It suddenly became/got ___)"
+    ],
+    "examples": [
+      { "ko": "한국에 오래 살다 보니 한국말이 많이 편해졌어요.", "romanization": "", "en": "After living in Korea a while, Korean has gotten a lot more comfortable for me." },
+      { "ko": "휴대폰을 떨어뜨려서 액정이 깨졌어요.", "romanization": "", "en": "I dropped my phone and the screen got cracked." },
+      { "ko": "날씨가 갑자기 추워졌네요.", "romanization": "", "en": "The weather suddenly got cold." },
+      { "ko": "불이 자꾸 꺼져서 좀 이상해요.", "romanization": "", "en": "The light keeps turning off, it's a bit weird." }
+    ],
+    "commonMistakes": [
+      "Using -아/어지다 where a fixed lexical passive is standard (the door 'gets closed' is 닫혀요, not 닫아져요).",
+      "Wrong connective vowel: 좋다→좋아지다 (not 좋어지다), 켜다→켜지다 (not 켜아지다)."
+    ],
+    "practiceItems": [
+      { "prompt": "Adjective change with 춥다: 'It got colder' (past)", "ko": "날씨가 추워졌어요.", "answer": "날씨가 추워졌어요." },
+      { "prompt": "Use 깨다→깨지다: 'The cup broke'", "ko": "컵이 깨졌어요.", "answer": "컵이 깨졌어요." },
+      { "prompt": "Use 좋다→좋아지다: 'My mood got better'", "ko": "기분이 좋아졌어요.", "answer": "기분이 좋아졌어요." }
+    ],
+    "studyOrder": [
+      "Start with adjectives + 지다 to mean 'become more ~' (좋아지다, 추워지다, 많아지다).",
+      "Add the passive-of-result use on a few verbs (켜지다, 꺼지다, 깨지다, 써지다).",
+      "Compare with 이/히/리/기 so you know when the fixed lexical passive is the natural choice instead."
+    ],
+    "beginnerExplanation": "V-아/어지다 has two everyday jobs. With adjectives it means 'get/become more ~': 추워지다 is to get colder, 좋아지다 is to get better — 날씨가 추워졌어요 means the weather turned cold. With certain verbs it makes a passive that focuses on the result: 깨지다 (get broken), 꺼지다 (turn off), 켜지다 (turn on) — 컵이 깨졌어요 means the cup got broken. You just take the -아/어 form and add 지다. One thing to watch: some verbs already have a fixed passive (the door 'gets closed' is 닫혀요, not 닫아져요), so 아/어지다 isn't a free pass for every verb — but for adjectives turning into changes, it's exactly right."
+  },
+  {
+    "id": "grammar-ending-ge-doeda",
+    "hangul": "V-게 되다",
+    "romanization": "-ge doeda",
+    "title": "Come to / end up (-게 되다)",
+    "plainEnglish": "Shows that something came about by circumstances rather than purely by your own choice.",
+    "whenToUse": "Use when a situation leads to an outcome — you ended up doing something, came to feel a way, or things turned out so. Softens decisions so they don't sound boastful or blunt. Example: 회사 때문에 부산에서 살게 됐어요. (Because of work, I ended up living in Busan.)",
+    "attachmentRule": "Attach -게 되다 directly to the plain verb stem with no vowel harmony (가다→가게 되다, 먹다→먹게 되다, 알다→알게 되다, 하다→하게 되다). Then conjugate 되다: most often past 게 됐어요 (= came to / ended up), also future 게 될 거예요 and present 게 돼요. ㄹ-stems keep the ㄹ (살다→살게 되다). It pairs naturally with reasons like 덕분에, 때문에, 하다 보니까.",
+    "contrastWith": "V-게 되다 vs plain verb / -기로 하다: a plain 갔어요 just states you went; 가게 됐어요 frames it as 'it worked out that I went' (circumstances led there). And -기로 하다 is a deliberate decision YOU made (가기로 했어요 = I decided to go), whereas 가게 됐어요 downplays your agency. Korean often prefers 게 되다 to sound modest about good news (붙게 됐어요 = I ended up passing).",
+    "sentenceFrames": [
+      "그래서 ___게 됐어요 (So I ended up ___ing)",
+      "덕분에 ___게 됐어요 (Thanks to that, I came to ___)",
+      "곧 ___게 될 거예요 (I'll come to ___ soon)"
+    ],
+    "examples": [
+      { "ko": "원래 1년만 있으려고 했는데 한국에 계속 살게 됐어요.", "romanization": "", "en": "I'd only planned to stay a year, but I ended up living in Korea for good." },
+      { "ko": "친구 소개로 그 회사에 들어가게 됐어요.", "romanization": "", "en": "Through a friend's introduction, I ended up joining that company." },
+      { "ko": "한국 드라마를 보다 보니까 한국어에 관심을 가지게 됐어요.", "romanization": "", "en": "Watching Korean dramas, I came to take an interest in Korean." },
+      { "ko": "사정이 생겨서 모임에 못 가게 됐어요.", "romanization": "", "en": "Something came up, so it turned out I can't make the gathering." }
+    ],
+    "commonMistakes": [
+      "Adding vowel harmony before 게 — it's just 먹게 되다, 가게 되다, never 먹어게 / 가아게.",
+      "Using it for a firmly chosen plan when you mean a decision; for 'I decided to', use -기로 했어요 instead."
+    ],
+    "practiceItems": [
+      { "prompt": "Use 살다: 'I ended up living in Korea' (past)", "ko": "한국에서 살게 됐어요.", "answer": "한국에서 살게 됐어요." },
+      { "prompt": "Use 알다: 'I came to know him' (past)", "ko": "그 사람을 알게 됐어요.", "answer": "그 사람을 알게 됐어요." },
+      { "prompt": "Use 못 가다: 'It turns out I can't go'", "ko": "못 가게 됐어요.", "answer": "못 가게 됐어요." }
+    ],
+    "studyOrder": [
+      "Learn the past 게 됐어요 first — it's the workhorse 'ended up / came to' form.",
+      "Pair it with reason phrases (때문에, 덕분에, -다 보니까) that explain how it came about.",
+      "Contrast with -기로 하다 so you separate 'it worked out' from 'I decided'."
+    ],
+    "beginnerExplanation": "V-게 되다 says something came about because of circumstances, not just because you chose it. 한국에서 살게 됐어요 means I ended up living in Korea — maybe work or life pushed it that way. You attach -게 되다 straight to the stem (no vowel changes) and then usually use the past 게 됐어요. Koreans love this form for two reasons: it explains how a situation unfolded (덕분에 합격하게 됐어요 = thanks to you I ended up passing), and it sounds humble, since you're not bragging about your own decision. If you truly chose something on purpose, use 기로 했어요 instead; 게 됐어요 is for 'it turned out that...'."
+  },
+  {
+    "id": "grammar-resultant-eo-itda",
+    "hangul": "V-아/어 있다",
+    "romanization": "-a/eo itda",
+    "title": "Resultant state (-아/어 있다)",
+    "plainEnglish": "Describes the ongoing state that remains after an action is completed.",
+    "whenToUse": "Use to say something stays in a finished condition — a door that's open, a person who's seated, a sign that's posted. The action already happened; you're describing the lingering result. Example: 의자에 앉아 있어요. (I'm (in a) seated (state).)",
+    "attachmentRule": "Take the -아/어 connective and add 있다: ㅏ/ㅗ stems → -아 있다 (앉다→앉아 있다, 남다→남아 있다), other vowels → -어 있다 (서다→서 있다, 열리다→열려 있다), 하다 verbs rarely use this. Works with INTRANSITIVE/result verbs and passives (가다→가 있다 = have gone and be there, 오다→와 있다, 죽다→죽어 있다, 켜지다→켜져 있다). For honor use 계시다 (앉아 계세요). NOTE: transitive 'be ~ing' is V-고 있다, not V-아/어 있다.",
+    "contrastWith": "V-아/어 있다 vs V-고 있다: 고 있다 = action in progress (문을 닫고 있어요 = I'm closing the door right now), while 아/어 있다 = the result-state after it's done (문이 닫혀 있어요 = the door is (already) closed). Also vs V-아/어 놓다: 놓다 stresses someone DID it and left it on purpose (문을 열어 놨어요), while 아/어 있다 just describes the existing state neutrally (문이 열려 있어요).",
+    "sentenceFrames": [
+      "___아/어 있어요 (It's (in the state of) ___)",
+      "여기 ___아/어 있어요 (___ is (still) here)",
+      "벌써 ___아/어 있었어요 (It was already ___ when ...)"
+    ],
+    "examples": [
+      { "ko": "문 앞에 택배가 와 있어요.", "romanization": "", "en": "A delivery has arrived (and is sitting) at the door." },
+      { "ko": "벽에 '공사 중'이라고 쓰여 있어요.", "romanization": "", "en": "It says 'under construction' on the wall." },
+      { "ko": "할머니가 소파에 앉아 계세요.", "romanization": "", "en": "Grandmother is (seated) on the sofa." },
+      { "ko": "불이 아직 켜져 있어요, 누가 있나 봐요.", "romanization": "", "en": "The light is still on — looks like someone's there." }
+    ],
+    "commonMistakes": [
+      "Using V-아/어 있다 with a plain transitive verb for 'be ~ing'. 'I'm reading' is 읽고 있어요, never 읽어 있어요.",
+      "Wrong connective vowel: 앉다→앉아 있다 (not 앉어 있다); 서다→서 있다 (the 어 + 어 contracts)."
+    ],
+    "practiceItems": [
+      { "prompt": "Use 앉다: 'I'm seated on the chair'", "ko": "의자에 앉아 있어요.", "answer": "의자에 앉아 있어요." },
+      { "prompt": "Use 열리다: 'The window is open'", "ko": "창문이 열려 있어요.", "answer": "창문이 열려 있어요." },
+      { "prompt": "Use 오다: 'A package has arrived (and is here)'", "ko": "택배가 와 있어요.", "answer": "택배가 와 있어요." }
+    ],
+    "studyOrder": [
+      "Lock in the contrast with V-고 있다 first: progress vs. resulting state.",
+      "Practice with verbs that leave a state: 앉다, 서다, 눕다, 오다, 열리다, 켜지다.",
+      "Swap 있다 for 계시다 when the person in that state deserves respect (앉아 계세요)."
+    ],
+    "beginnerExplanation": "V-아/어 있다 describes the state that's left over after an action finishes. 앉아 있어요 doesn't mean you're in the act of sitting down — it means you're already (in the state of) seated. 문이 열려 있어요 means the door is open (someone opened it earlier and it stayed that way). The big thing to remember: this is NOT how you say 'be doing' — that's V-고 있다. So 'I'm reading' is 읽고 있어요, but 'the package has arrived and is here' is 와 있어요. Use 아/어 있다 with verbs that naturally leave a result hanging around: arrived, seated, standing, open, turned on. It's everywhere in descriptions of how things currently are."
+  },
+  {
+    "id": "grammar-negation-short",
+    "hangul": "안 V / V-지 않다 / 못 V / V-지 못하다",
+    "romanization": "an V / -ji anta / mot V / -ji mothada",
+    "title": "Negation: don't vs can't",
+    "plainEnglish": "Two ways to say no — 안/-지 않다 for simple negation, and 못/-지 못하다 for inability.",
+    "whenToUse": "Use 안/-지 않다 when you simply don't or won't do something, and 못/-지 못하다 when you can't because of ability or circumstances. Example: 오늘은 술 안 마셔요. (I'm not drinking today.) vs 운전 못 해요. (I can't drive.)",
+    "attachmentRule": "SHORT form: put 안 or 못 right before the verb/adjective (안 가요, 못 가요, 안 비싸요). For 하다 ACTION verbs the negator splits the noun and 하다: 공부 안 해요 / 공부 못 해요 (not 안 공부해요). LONG form: attach -지 않다 / -지 못하다 to the plain stem (가지 않아요, 가지 못해요, 좋지 않아요). 못 is for verbs only (ability), not for adjectives — for adjectives use 안/-지 않다 (안 예뻐요). NOTE the pronunciation: 못 해요 sounds like [모태요], 못 가요 like [몯까요].",
+    "contrastWith": "안 (안 가요) vs 못 (못 가요): 안 = choose not to / simply don't (안 먹어요 = I don't eat it / I'm not eating); 못 = unable to (못 먹어요 = I can't eat it — allergy, too full, etc.). Short vs long form is mostly the same meaning; -지 않다/못하다 is a touch more formal or emphatic and is required in longer written sentences.",
+    "sentenceFrames": [
+      "저는 ___ 안 해요 (I don't ___)",
+      "오늘은 ___ 못 가요 (I can't go ___ today)",
+      "그건 ___지 않아요 (That's not ___)"
+    ],
+    "examples": [
+      { "ko": "저는 고기를 안 먹어요. 채식하거든요.", "romanization": "", "en": "I don't eat meat — I'm vegetarian." },
+      { "ko": "어제 야근해서 운동을 못 했어요.", "romanization": "", "en": "I worked late yesterday, so I couldn't work out." },
+      { "ko": "이 식당은 별로 안 비싸요.", "romanization": "", "en": "This restaurant isn't that expensive." },
+      { "ko": "매워서 도저히 못 먹겠어요.", "romanization": "", "en": "It's so spicy I really can't eat it." }
+    ],
+    "commonMistakes": [
+      "Putting 안/못 before the whole 하다 verb: it's 공부 안 해요 / 청소 못 해요, not 안 공부해요 / 못 청소해요.",
+      "Using 못 with an adjective. For 'not pretty' say 안 예뻐요 / 예쁘지 않아요 — 못 only negates ability of verbs."
+    ],
+    "practiceItems": [
+      { "prompt": "Say 'I don't drink (alcohol)' with short 안", "ko": "술 안 마셔요.", "answer": "술 안 마셔요." },
+      { "prompt": "Say 'I can't drive' with short 못 (운전하다)", "ko": "운전 못 해요.", "answer": "운전 못 해요." },
+      { "prompt": "Say 'It's not expensive' with long form (비싸다)", "ko": "비싸지 않아요.", "answer": "비싸지 않아요." }
+    ],
+    "studyOrder": [
+      "Master the short forms 안 V and 못 V first — they're what you'll say out loud most.",
+      "Practice the 하다 split (운동 안 해요, 운동 못 해요), the most common mistake spot.",
+      "Add the long forms -지 않다 / -지 못하다 for writing and emphasis, and remember 못 is verbs-only."
+    ],
+    "beginnerExplanation": "Korean has two flavors of 'no'. 안 (or the longer -지 않다) is plain negation: 안 가요 = I'm not going, 안 비싸요 = it's not expensive. 못 (or -지 못하다) means you CAN'T — you lack the ability or something blocks you: 못 가요 = I can't go, 운전 못 해요 = I can't drive. The classic trap is 하다 verbs: the 안/못 squeezes in between, so it's 공부 안 해요 and 운동 못 했어요, never 안 공부해요. One more rule: 못 is only for verbs (actions/ability), so 'not pretty' has to be 안 예뻐요, not 못 예뻐요. Get 안 vs 못 straight and your 'no' will sound natural right away."
+  },
+  {
+    "id": "grammar-ending-l-ppeon",
+    "hangul": "V-(으)ㄹ 뻔하다",
+    "romanization": "-(eu)l ppeonhada",
+    "title": "Almost happened (-ㄹ 뻔하다)",
+    "plainEnglish": "Says something nearly happened but didn't — a close call.",
+    "whenToUse": "Use for a near-miss, usually something bad you barely avoided: almost fell, almost forgot, almost late. Almost always in the past. Example: 길이 미끄러워서 넘어질 뻔했어요. (The road was slippery and I almost fell.)",
+    "attachmentRule": "Attach to the verb stem: vowel/ㄹ stem → -ㄹ 뻔하다 (넘어지다→넘어질 뻔하다, 울다→울 뻔하다), consonant stem → -을 뻔하다 (죽다→죽을 뻔하다, 늦다→늦을 뻔하다). It almost always appears as past 뻔했어요 (= almost did, but didn't). Used with action verbs about events, not with adjectives. Often paired with 하마터면 ... -(으)ㄹ 뻔했다 (= 'I almost ...!'). 하다 verbs: 지각하다→지각할 뻔했어요.",
+    "contrastWith": "V-(으)ㄹ 뻔하다 vs V-(으)ㄹ 것 같았다: 뻔하다 means it genuinely ALMOST happened (and clearly did NOT) — a real close call, while -(으)ㄹ 것 같았다 is just 'it seemed like it would' (a guess/impression). 넘어질 뻔했어요 = I nearly fell; 넘어질 것 같았어요 = it felt like I was going to fall.",
+    "sentenceFrames": [
+      "하마터면 ___(으)ㄹ 뻔했어요 (I almost ___!)",
+      "___아서 ___(으)ㄹ 뻔했어요 (Because of ..., I almost ___)",
+      "큰일 ___(으)ㄹ 뻔했어요 (That almost turned into a disaster)"
+    ],
+    "examples": [
+      { "ko": "하마터면 지하철에 가방을 두고 내릴 뻔했어요.", "romanization": "", "en": "I almost left my bag on the subway and got off without it." },
+      { "ko": "차가 갑자기 튀어나와서 사고 날 뻔했어요.", "romanization": "", "en": "A car suddenly darted out and there was almost an accident." },
+      { "ko": "알람을 못 들어서 회사에 지각할 뻔했어요.", "romanization": "", "en": "I didn't hear my alarm and almost got to work late." },
+      { "ko": "너무 감동적이어서 울 뻔했어요.", "romanization": "", "en": "It was so moving I almost cried." }
+    ],
+    "commonMistakes": [
+      "Using the present 뻔해요 — a near-miss is finished, so it's almost always past 뻔했어요.",
+      "Wrong consonant/vowel split: 죽다→죽을 뻔했어요 (not 죽ㄹ), 넘어지다→넘어질 뻔했어요 (not 넘어지을)."
+    ],
+    "practiceItems": [
+      { "prompt": "Use 넘어지다: 'I almost fell'", "ko": "넘어질 뻔했어요.", "answer": "넘어질 뻔했어요." },
+      { "prompt": "Use 지각하다: 'I almost was late (for work/school)'", "ko": "지각할 뻔했어요.", "answer": "지각할 뻔했어요." },
+      { "prompt": "Use 잊다 with 하마터면: 'I almost forgot!'", "ko": "하마터면 잊을 뻔했어요.", "answer": "하마터면 잊을 뻔했어요." }
+    ],
+    "studyOrder": [
+      "Learn it straight in the past as 'almost ...ed but didn't' — 넘어질 뻔했어요.",
+      "Add 하마터면 in front for the natural 'I almost ...!' exclamation.",
+      "Contrast with -(으)ㄹ 것 같았다 so 'it really almost happened' stays separate from 'it seemed it would'."
+    ],
+    "beginnerExplanation": "V-(으)ㄹ 뻔하다 is the 'I almost ___!' of Korean — a close call that, thankfully, didn't happen. 넘어질 뻔했어요 means I almost fell; 지각할 뻔했어요 means I almost got there late. Because a near-miss is already over, you'll basically always say it in the past as 뻔했어요. Pop 하마터면 in front to add drama: 하마터면 가방을 두고 내릴 뻔했어요 (I almost left my bag and got off!). Use -을 뻔했어요 after a consonant and -ㄹ 뻔했어요 after a vowel. It's super common in everyday storytelling about little disasters you dodged."
+  }
+]
