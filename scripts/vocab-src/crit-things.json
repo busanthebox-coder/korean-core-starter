@@ -7,18 +7,39 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["소가 있어요", "There is a cow", "소 + 가 (ends in a vowel)"],
-      ["소 한 마리", "one cow", "animals use the counter 마리"],
-      ["소를 키워요", "I raise cows", "소 + 를 + 키우다"],
-      ["소가 풀을 먹어요", "The cow eats grass", "소 + 가, 먹다 = eat"]
+      ["소가 있어요", "There is a cow", "소 + 가 because 소 ends in a vowel"],
+      ["소 한 마리", "one cow", "all animals are counted with 마리, never 개"],
+      ["소를 키워요", "I raise cows", "키우다 = to raise/keep an animal, takes 를"],
+      ["소가 풀을 먹어요", "The cow eats grass", "풀 = grass; everyday subject-object sentence"]
     ],
     "examples": [
-      ["농장에 소가 있어요.", "There is a cow on the farm.", "소가 = subject"],
-      ["소 두 마리가 풀을 먹어요.", "Two cows are eating grass.", "counter 마리"],
-      ["할아버지가 소를 키워요.", "My grandfather raises cows.", "소를 = object"]
+      ["저기 소가 있어요.", "There's a cow over there.", "Simple existence: 소 + 가 + 있어요."],
+      ["할아버지가 소 두 마리를 키워요.", "My grandfather raises two cows.", "Counter 마리 sits after the number, before 를."],
+      ["소가 음매 하고 울어요.", "The cow goes 'moo'.", "Animal cries use 울다; 음매 is the Korean 'moo'."]
     ],
-    "nuance": "소 is the animal cow or ox. Its meat is 소고기 (or 쇠고기), a separate word, so do not use 소 when you mean beef. Because 소 ends in a vowel it takes 가, and like other animals it is counted with 마리.",
-    "mistakes": ["Saying 소 when you mean beef — that is 소고기.", "Counting cows with 개 instead of 마리; say 소 한 마리."]
+    "nuance": "소 is the live animal — a cow or ox grazing in a field. The crucial trap for English speakers is that the meat is a completely different word: 소고기 (소 'cow' + 고기 'meat'), so ordering '소' at a restaurant sounds like you want a whole live animal. Compare 소 with the loanword 우유 territory — milk is 우유 (牛乳, 'cow-milk'), not 소 something. 소 is one syllable ending in a vowel, so it always takes the subject marker 가 (소가), and like every animal it is counted with 마리, never 개 (which is for inanimate objects). A second pitfall: the verb for the cow's sound is 울다 'to cry', the same verb used for nearly all animal noises, so 소가 울어요 is natural even though English would never say a cow 'cries'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "소 is the live animal — a cow or ox grazing in a field. It is one syllable ending in a vowel, so it always takes the subject marker 가 (소가), and like every animal it is counted with 마리, never 개 (which is for inanimate objects)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare 소 with the milk word: milk is 우유 (牛乳, 'cow-milk'), not 소 something."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The crucial trap is that the meat is a completely different word: 소고기 (소 'cow' + 고기 'meat'), so ordering '소' at a restaurant sounds like you want a whole live animal. A second pitfall: the verb for the cow's sound is 울다 'to cry', the same verb used for nearly all animal noises, so 소가 울어요 is natural even though English would never say a cow 'cries'."
+      }
+    ],
+    "mistakes": [
+      "Saying 소 주세요 to mean 'beef, please' — 소 is the live animal; the meat is 소고기, so say 소고기 주세요.",
+      "Counting cows with 개 (소 한 개). 개 is for objects; animals always take 마리, so say 소 한 마리.",
+      "Using 만들다 'make' for raising a cow. To keep/raise a live animal the verb is 키우다, so 소를 키워요."
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +49,34 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["쥐가 있어요", "There is a mouse", "쥐 + 가 (ends in a vowel)"],
-      ["쥐 한 마리", "one mouse", "animals use the counter 마리"],
-      ["쥐를 잡아요", "I catch a mouse", "쥐 + 를 + 잡다"],
-      ["쥐가 작아요", "The mouse is small", "쥐 + 가, 작다 = small"]
+      ["쥐가 있어요", "There is a mouse", "쥐 + 가 because 쥐 ends in a vowel"],
+      ["쥐 한 마리", "one mouse", "animals take the counter 마리"],
+      ["쥐를 잡아요", "I catch a mouse", "잡다 = to catch/trap, takes 를"],
+      ["쥐가 작아요", "The mouse is small", "작다 = small; describes size"]
     ],
     "examples": [
-      ["부엌에 쥐가 있어요.", "There is a mouse in the kitchen.", "쥐가 = subject"],
-      ["고양이가 쥐를 잡아요.", "The cat catches the mouse.", "쥐를 = object"],
-      ["쥐 한 마리가 숨었어요.", "One mouse hid.", "숨다 = hide"]
+      ["부엌에 쥐가 있어요!", "There's a mouse in the kitchen!", "Existence at a place: 부엌에 + 쥐가."],
+      ["고양이가 쥐를 잡았어요.", "The cat caught the mouse.", "Past tense 잡다 → 잡았어요; 쥐 is the object."],
+      ["쥐 한 마리가 벽 뒤로 숨었어요.", "A mouse hid behind the wall.", "숨다 = to hide; 마리 counts the one animal."]
     ],
-    "nuance": "쥐 covers both mouse and rat; Korean does not split the two the way English does. It is one syllable and ends in a vowel, so use 쥐가. A computer mouse is the loanword 마우스, not 쥐.",
-    "mistakes": ["Calling a computer mouse 쥐 — that is 마우스.", "Counting mice with 개; animals take 마리, so 쥐 한 마리."]
+    "nuance": "쥐 covers both 'mouse' and 'rat' — Korean does not lexically split the small one from the big one the way English does, so context (or 큰 쥐 'big rat') carries the difference. The number-one pitfall is the computer device: a computer mouse is the loanword 마우스, never 쥐, so 쥐 클릭 would baffle a listener. Culturally 쥐 carries a negative, dirty, sneaky image (it is also the first animal of the zodiac, 쥐띠 'born in the year of the Rat'). It is one syllable ending in a vowel, so it takes 가 (쥐가), and as an animal it is counted with 마리. Note the verb pairing: you 잡다 'catch/trap' a 쥐, and a cat 잡다 it too — the same verb works for the hunter and the trap.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "쥐 covers both 'mouse' and 'rat' — Korean does not lexically split the small one from the big one the way English does, so context (or 큰 쥐 'big rat') carries the difference. Culturally 쥐 carries a negative, dirty, sneaky image (it is also the first animal of the zodiac, 쥐띠 'born in the year of the Rat'). It is one syllable ending in a vowel, so it takes 가 (쥐가), and as an animal it is counted with 마리. Note the verb pairing: you 잡다 'catch/trap' a 쥐, and a cat 잡다 it too — the same verb works for the hunter and the trap."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The number-one pitfall is the computer device: a computer mouse is the loanword 마우스, never 쥐, so 쥐 클릭 would baffle a listener."
+      }
+    ],
+    "mistakes": [
+      "Calling a computer mouse 쥐. The device is the English loanword 마우스; 쥐 only means the live rodent.",
+      "Counting mice with 개 (쥐 한 개). Animals take 마리, so say 쥐 한 마리.",
+      "Trying to distinguish 'rat' with a separate base word. There is no everyday separate word — 쥐 is both; add 큰 'big' if size matters: 큰 쥐."
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +86,45 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["뱀이 있어요", "There is a snake", "뱀 + 이 (ends in ㅁ)"],
-      ["뱀 한 마리", "one snake", "animals use the counter 마리"],
-      ["뱀이 무서워요", "Snakes are scary", "뱀 + 이, 무섭다 = scary"],
-      ["뱀을 봤어요", "I saw a snake", "뱀 + 을 + 보다"]
+      ["뱀이 있어요", "There is a snake", "뱀 + 이 because 뱀 ends in the consonant ㅁ"],
+      ["뱀 한 마리", "one snake", "animals take the counter 마리"],
+      ["뱀이 무서워요", "Snakes are scary", "무섭다 (ㅂ-irregular) → 무서워요"],
+      ["뱀을 봤어요", "I saw a snake", "뱀 + 을 because it ends in a consonant"]
     ],
     "examples": [
-      ["산에서 뱀을 봤어요.", "I saw a snake on the mountain.", "뱀을 = object"],
-      ["뱀이 정말 길어요.", "The snake is really long.", "길다 = long"],
-      ["뱀 한 마리가 지나갔어요.", "One snake passed by.", "지나가다 = pass by"]
+      ["앗, 뱀이다!", "Whoa, a snake!", "Plain-form exclamation 이다 → 이다! after a consonant."],
+      ["산에서 뱀을 한 마리 봤어요.", "I saw a snake on the mountain.", "Object 뱀을; 한 마리 can float before the verb."],
+      ["뱀이 풀밭을 스르르 지나갔어요.", "The snake slithered through the grass.", "지나가다 = pass through; 스르르 mimics slithering."]
     ],
-    "nuance": "뱀 is a snake. It ends in the consonant ㅁ, so it takes the subject marker 이 (뱀이) and the object marker 을 (뱀을). It is counted with 마리 like other animals.",
-    "mistakes": ["Saying 뱀가 있어요 — after a consonant use 이, so 뱀이 있어요.", "Counting snakes with 개; use 마리, so 뱀 한 마리."]
+    "nuance": "뱀 is a snake, and for learners it is a perfect drill word for the consonant-ending particle rule: because 뱀 ends in ㅁ, the subject marker is 이 (뱀이, never 뱀가) and the object marker is 을 (뱀을, never 뱀를). This single word trips up beginners who default to 가/를 after every noun. There is no Sino-Korean layer here — 뱀 is pure native Korean. It is counted with 마리 like all animals. Watch the adjective 무섭다 'scary': it is ㅂ-irregular, so 'snakes are scary' becomes 뱀이 무서워요 (the ㅂ turns into 워), not 무섭어요. Snakes carry an ominous, sometimes sly cultural image, and 뱀 also names the zodiac sign 뱀띠 'year of the Snake'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "뱀 is a snake, and for learners it is a perfect drill word for the consonant-ending particle rule: because 뱀 ends in ㅁ, the subject marker is 이 (뱀이, never 뱀가) and the object marker is 을 (뱀을, never 뱀를). It is counted with 마리 like all animals. Snakes carry an ominous, sometimes sly cultural image, and 뱀 also names the zodiac sign 뱀띠 'year of the Snake'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "There is no Sino-Korean layer here — 뱀 is pure native Korean."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Watch the adjective 무섭다 'scary': it is ㅂ-irregular, so 'snakes are scary' becomes 뱀이 무서워요 (the ㅂ turns into 워), not 무섭어요.",
+        "chips": ["무섭다", "무서워요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "This single word trips up beginners who default to 가/를 after every noun — but after the final consonant ㅁ you must use 이 and 을."
+      }
+    ],
+    "mistakes": [
+      "Saying 뱀가 있어요 or 뱀를 봤어요. After the final consonant ㅁ you must use 이 and 을: 뱀이 있어요, 뱀을 봤어요.",
+      "Counting snakes with 개. Animals take 마리, so say 뱀 한 마리.",
+      "Conjugating 무섭다 as 무섭어요. It is ㅂ-irregular: 무섭다 → 무서워요, so 뱀이 무서워요."
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +134,34 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["개구리가 있어요", "There is a frog", "개구리 + 가 (ends in a vowel)"],
-      ["개구리 한 마리", "one frog", "animals use the counter 마리"],
-      ["개구리가 울어요", "The frog croaks", "개구리 + 가, 울다 = cry/croak"],
-      ["개구리가 뛰어요", "The frog jumps", "개구리 + 가, 뛰다 = jump"]
+      ["개구리가 있어요", "There is a frog", "개구리 + 가 because it ends in a vowel"],
+      ["개구리 한 마리", "one frog", "animals take the counter 마리"],
+      ["개구리가 울어요", "The frog croaks", "animal sounds use 울다, not 노래하다"],
+      ["개구리가 뛰어요", "The frog jumps", "뛰다 = to jump/leap"]
     ],
     "examples": [
-      ["논에 개구리가 많아요.", "There are many frogs in the rice paddy.", "개구리가 = subject"],
-      ["개구리 두 마리가 뛰어요.", "Two frogs are jumping.", "counter 마리"],
-      ["밤에 개구리가 울어요.", "Frogs croak at night.", "울다 for animal sounds"]
+      ["개구리가 폴짝 뛰어요.", "The frog hops.", "폴짝 is the mimetic word for a light hop."],
+      ["논에 개구리 두 마리가 있어요.", "There are two frogs in the rice paddy.", "논 = rice paddy; 마리 counts them."],
+      ["비가 오면 개구리가 개굴개굴 울어요.", "When it rains the frogs go 'ribbit'.", "개굴개굴 is the Korean frog sound + 울다."]
     ],
-    "nuance": "개구리 is a frog. The sound a frog makes uses the verb 울다 (to cry), the same verb used for many animal sounds, so 개구리가 울어요 means the frog croaks. A tadpole is 올챙이, a separate word.",
-    "mistakes": ["Saying 개구리가 노래해요 for its sound; animal cries use 울다.", "Dropping a syllable and writing 개구 instead of 개구리."]
+    "nuance": "개구리 is a frog, a four-syllable native word that learners must keep whole — dropping the final 리 to say 개구 is a common slip. The big pitfall is the verb for its sound: Korean uses 울다 'to cry' for almost every animal noise, so a frog 'croaks' as 개구리가 울어요, never 노래하다 'sing' and never 말하다. The onomatopoeia is 개굴개굴 (the English 'ribbit'). Distinguish the life stages: a tadpole is a separate word, 올챙이, and there is even a proverb 개구리 올챙이 적 생각 못 한다 ('the frog forgets its tadpole days', i.e. people forget their humble beginnings). It ends in a vowel so it takes 가 (개구리가), and it is counted with 마리.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "개구리 is a frog, a four-syllable native word that learners must keep whole — dropping the final 리 to say 개구 is a common slip. The onomatopoeia is 개굴개굴 (the English 'ribbit'). Distinguish the life stages: a tadpole is a separate word, 올챙이, and there is even a proverb 개구리 올챙이 적 생각 못 한다 ('the frog forgets its tadpole days', i.e. people forget their humble beginnings). It ends in a vowel so it takes 가 (개구리가), and it is counted with 마리."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall is the verb for its sound: Korean uses 울다 'to cry' for almost every animal noise, so a frog 'croaks' as 개구리가 울어요, never 노래하다 'sing' and never 말하다."
+      }
+    ],
+    "mistakes": [
+      "Saying 개구리가 노래해요 for the sound it makes. Animal cries use 울다, so 개구리가 울어요.",
+      "Dropping a syllable and writing 개구 instead of the full 개구리.",
+      "Calling a tadpole a 'baby 개구리'. The tadpole has its own word, 올챙이."
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +171,34 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["벌레가 있어요", "There is a bug", "벌레 + 가 (ends in a vowel)"],
-      ["벌레 한 마리", "one bug", "small creatures use 마리"],
-      ["벌레를 잡아요", "I catch a bug", "벌레 + 를 + 잡다"],
-      ["벌레가 무서워요", "Bugs are scary", "벌레 + 가, 무섭다 = scary"]
+      ["벌레가 있어요", "There is a bug", "벌레 + 가 because it ends in a vowel"],
+      ["벌레 한 마리", "one bug", "even tiny creatures take 마리"],
+      ["벌레를 잡아요", "I catch a bug", "잡다 = catch; 벌레 + 를"],
+      ["벌레가 무서워요", "Bugs are scary", "무섭다 (ㅂ-irregular) → 무서워요"]
     ],
     "examples": [
-      ["방에 벌레가 있어요.", "There is a bug in the room.", "벌레가 = subject"],
-      ["벌레를 밖으로 내보냈어요.", "I let the bug out.", "내보내다 = let out"],
-      ["작은 벌레 한 마리가 기어가요.", "A small bug is crawling.", "기어가다 = crawl"]
+      ["방에 벌레가 있어요.", "There's a bug in the room.", "Existence at a place: 방에 + 벌레가."],
+      ["벌레를 휴지로 잡아서 버렸어요.", "I caught the bug with a tissue and threw it out.", "잡다 + 버리다 chained with -아서."],
+      ["작은 벌레 한 마리가 스멀스멀 기어가요.", "A tiny bug is creeping along.", "기어가다 = crawl; 스멀스멀 = creepily."]
     ],
-    "nuance": "벌레 is the everyday general word for a bug, insect, or worm. It is broader than 곤충, which is the scientific term 'insect'. For tiny creatures Koreans still use the counter 마리, so 벌레 한 마리.",
-    "mistakes": ["Using the formal 곤충 in casual speech where 벌레 is natural.", "Counting bugs with 개; small creatures take 마리, so 벌레 한 마리."]
+    "nuance": "벌레 is the everyday, slightly negative catch-all for a creepy-crawly — a bug, insect, or worm you would rather not see. The sharp contrast learners need is 벌레 vs 곤충: 곤충 (昆蟲, the Sino-Korean term for 'insect') is the neutral, scientific six-legged classification you meet in textbooks and museums, while 벌레 is the casual spoken word loaded with a faint 'yuck'. So a child at a science class says 곤충, but the same child screaming in the bathroom says 벌레. 벌레 also extends figuratively to a person obsessed with something (공부벌레 'study-bug', i.e. a bookworm). It ends in a vowel, taking 가 (벌레가), and even the tiniest creature is counted with 마리, never 개.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "벌레 is the everyday, slightly negative catch-all for a creepy-crawly — a bug, insect, or worm you would rather not see. 벌레 also extends figuratively to a person obsessed with something (공부벌레 'study-bug', i.e. a bookworm). It ends in a vowel, taking 가 (벌레가), and even the tiniest creature is counted with 마리, never 개."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast learners need is 벌레 vs 곤충: 곤충 (昆蟲, the Sino-Korean term for 'insect') is the neutral, scientific six-legged classification you meet in textbooks and museums, while 벌레 is the casual spoken word loaded with a faint 'yuck'. So a child at a science class says 곤충, but the same child screaming in the bathroom says 벌레."
+      }
+    ],
+    "mistakes": [
+      "Using the textbook word 곤충 when you scream at a roach. In casual speech the natural word is 벌레; reserve 곤충 for scientific/neutral contexts.",
+      "Counting bugs with 개 (벌레 한 개). Small creatures still take 마리: 벌레 한 마리.",
+      "Assuming 벌레 means only 'worm'. It is a broad term covering bugs, insects and worms together; 'worm' alone in the ground is often 지렁이 (earthworm)."
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +208,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["모기가 있어요", "There is a mosquito", "모기 + 가 (ends in a vowel)"],
-      ["모기 한 마리", "one mosquito", "small creatures use 마리"],
-      ["모기에 물렸어요", "I got bitten by a mosquito", "모기 + 에 + 물리다 (passive)"],
-      ["모기가 물어요", "The mosquito bites", "모기 + 가 + 물다"]
+      ["모기가 있어요", "There is a mosquito", "모기 + 가 because it ends in a vowel"],
+      ["모기 한 마리", "one mosquito", "small creatures take 마리"],
+      ["모기에 물렸어요", "I got bitten by a mosquito", "passive 물리다 + agent particle 에"],
+      ["모기가 물어요", "The mosquito bites", "active 물다 = to bite; 모기 + 가"]
     ],
     "examples": [
-      ["여름에 모기가 많아요.", "There are many mosquitoes in summer.", "모기가 = subject"],
-      ["모기에 물려서 가려워요.", "I got bitten by a mosquito so it itches.", "모기에 물리다, 가렵다 = itchy"],
-      ["모기 한 마리가 날아다녀요.", "One mosquito is flying around.", "날아다니다 = fly around"]
+      ["여름에는 모기가 많아요.", "There are lots of mosquitoes in summer.", "Topic 여름에는 sets the season; 모기가 많다."],
+      ["모기에 물려서 너무 가려워요.", "I got a mosquito bite so it's really itchy.", "물리다 + -어서 + 가렵다 cause chain."],
+      ["밤새 모기 한 마리가 윙윙거려서 못 잤어요.", "One mosquito buzzed all night so I couldn't sleep.", "윙윙거리다 = to buzz; 마리 counts it."]
     ],
-    "nuance": "모기 is a mosquito. To say you were bitten, the natural phrase is 모기에 물렸어요, using the passive 물리다 with the particle 에. Mosquitoes are a common summer complaint, so this phrase comes up often.",
-    "mistakes": ["Saying 모기가 물렸어요 for being bitten — use 모기에 물렸어요.", "Counting mosquitoes with 개; use 마리, so 모기 한 마리."]
+    "nuance": "모기 is a mosquito, and the must-learn point is the bite construction. English says 'a mosquito bit me' (mosquito = subject), but the natural Korean is the passive: 모기에 물렸어요 'I was bitten by a mosquito', where 물리다 is the passive of 물다 'to bite' and the biter is marked with 에, not 가. Saying 모기가 물렸어요 wrongly makes the mosquito the one bitten. If you want the mosquito as the actor you must use active 물다: 모기가 나를 물었어요. The itch that follows is 가렵다 'itchy' (an adjective), and the buzzing is 윙윙. 모기 ends in a vowel, taking 가, and is counted with 마리. It is a constant Korean summer complaint, so this passive bite phrase is extremely high-frequency.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "모기 is a mosquito. The itch that follows a bite is 가렵다 'itchy' (an adjective), and the buzzing is 윙윙. 모기 ends in a vowel, taking 가, and is counted with 마리. It is a constant Korean summer complaint, so the passive bite phrase is extremely high-frequency."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The must-learn point is the bite construction. The natural Korean is the passive: 모기에 물렸어요 'I was bitten by a mosquito', where 물리다 is the passive of 물다 'to bite' and the biter is marked with 에, not 가. If you want the mosquito as the actor you must use active 물다: 모기가 나를 물었어요.",
+        "chips": ["물다", "물리다", "물렸어요", "물었어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English says 'a mosquito bit me' (mosquito = subject), but saying 모기가 물렸어요 wrongly makes the mosquito the one bitten. Use the passive 모기에 물렸어요 instead."
+      }
+    ],
+    "mistakes": [
+      "Saying 모기가 물렸어요 to mean 'a mosquito bit me'. That literally means the mosquito got bitten. Use the passive with 에: 모기에 물렸어요.",
+      "Treating 가렵다 'itchy' like a verb. It is an adjective, so 'it itches' is 가려워요 (ㅂ-irregular), not 가렵어요.",
+      "Counting mosquitoes with 개. They take 마리: 모기 한 마리."
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +251,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["나비가 있어요", "There is a butterfly", "나비 + 가 (ends in a vowel)"],
-      ["나비 한 마리", "one butterfly", "small creatures use 마리"],
-      ["나비가 날아요", "The butterfly flies", "나비 + 가, 날다 = fly"],
-      ["예쁜 나비", "a pretty butterfly", "adjective + 나비"]
+      ["나비가 있어요", "There is a butterfly", "나비 + 가 because it ends in a vowel"],
+      ["나비 한 마리", "one butterfly", "small creatures take 마리"],
+      ["나비가 날아요", "The butterfly flies", "날다 (ㄹ-irregular) → 날아요"],
+      ["꽃에 앉은 나비", "the butterfly perched on the flower", "앉다 = to perch/land; modifies 나비"]
     ],
     "examples": [
-      ["꽃에 나비가 앉았어요.", "A butterfly landed on the flower.", "앉다 = sit/land"],
-      ["나비 두 마리가 날아요.", "Two butterflies are flying.", "counter 마리"],
-      ["정원에 나비가 많아요.", "There are many butterflies in the garden.", "나비가 = subject"]
+      ["나비가 훨훨 날아요.", "The butterfly flutters by.", "훨훨 mimics light fluttering flight."],
+      ["꽃에 나비 한 마리가 살포시 앉았어요.", "A butterfly gently landed on the flower.", "앉다 for landing; 살포시 = softly."],
+      ["봄이 되니까 정원에 나비가 많아졌어요.", "Now that it's spring, there are more butterflies in the garden.", "-아지다 'become more' → 많아지다."]
     ],
-    "nuance": "나비 is a butterfly. It ends in a vowel, so it takes 가. The verb for flying is 날다, and for landing on a flower Koreans use 앉다 (to sit). A moth is 나방, a different word.",
-    "mistakes": ["Confusing 나비 (butterfly) with 나방 (moth).", "Counting butterflies with 개; small creatures take 마리, so 나비 한 마리."]
+    "nuance": "나비 is a butterfly — a pretty, positive native word, unlike most bug vocabulary. Two distinctions matter. First, a moth is 나방, a different (and far less charming) creature, so do not let the similar shapes 나비/나방 blur. Second, the verb for landing on a flower is 앉다 'to sit/perch', the same verb as sitting on a chair, so 꽃에 나비가 앉았어요 is the natural image, not 서다 'stand'. The flying verb 날다 is ㄹ-irregular, so 'it flies' is 날아요. 나비 ends in a vowel, taking 가, and is counted with 마리. The onomatopoeia for its flight is 훨훨. 나비 is also a beloved cat name in Korea, roughly the equivalent of 'Whiskers' or 'Kitty'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "나비 is a butterfly — a pretty, positive native word, unlike most bug vocabulary. The verb for landing on a flower is 앉다 'to sit/perch', the same verb as sitting on a chair, so 꽃에 나비가 앉았어요 is the natural image, not 서다 'stand'. 나비 ends in a vowel, taking 가, and is counted with 마리. The onomatopoeia for its flight is 훨훨. 나비 is also a beloved cat name in Korea, roughly the equivalent of 'Whiskers' or 'Kitty'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A moth is 나방, a different (and far less charming) creature, so do not let the similar shapes 나비/나방 blur."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The flying verb 날다 is ㄹ-irregular, so 'it flies' is 날아요.",
+        "chips": ["날다", "날아요"]
+      }
+    ],
+    "mistakes": [
+      "Confusing 나비 (butterfly) with 나방 (moth). They are separate words for separate insects.",
+      "Saying a butterfly 서다 'stands' on a flower. Use 앉다 'to perch/sit': 꽃에 나비가 앉았어요.",
+      "Counting butterflies with 개. Small creatures take 마리: 나비 한 마리."
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +294,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["거미가 있어요", "There is a spider", "거미 + 가 (ends in a vowel)"],
-      ["거미 한 마리", "one spider", "small creatures use 마리"],
-      ["거미가 무서워요", "Spiders are scary", "거미 + 가, 무섭다 = scary"],
-      ["거미줄", "spider web", "거미 + 줄 (line/thread)"]
+      ["거미가 있어요", "There is a spider", "거미 + 가 because it ends in a vowel"],
+      ["거미 한 마리", "one spider", "small creatures take 마리"],
+      ["거미가 무서워요", "Spiders are scary", "무섭다 (ㅂ-irregular) → 무서워요"],
+      ["거미줄을 치다", "to spin a web", "거미줄 = web; the set verb is 치다, not 만들다"]
     ],
     "examples": [
-      ["천장에 거미가 있어요.", "There is a spider on the ceiling.", "거미가 = subject"],
-      ["거미가 거미줄을 만들어요.", "The spider makes a web.", "거미줄 = spider web"],
-      ["거미 한 마리가 벽에 있어요.", "One spider is on the wall.", "counter 마리"]
+      ["천장에 거미가 있어요.", "There's a spider on the ceiling.", "천장 = ceiling; 거미 + 가 + 있어요."],
+      ["거미가 구석에 거미줄을 쳤어요.", "The spider spun a web in the corner.", "거미줄 + 치다 is the natural pairing."],
+      ["거미 한 마리가 스르르 내려왔어요.", "A spider crept down.", "내려오다 = come down; 스르르 = smoothly."]
     ],
-    "nuance": "거미 is a spider. Its web is 거미줄, a compound of 거미 + 줄 (line/thread). Like other small creatures it is counted with 마리, and it ends in a vowel so it takes 가.",
-    "mistakes": ["Calling the web 거미 — the web is 거미줄.", "Counting spiders with 개; use 마리, so 거미 한 마리."]
+    "nuance": "거미 is a spider, a native word ending in a vowel, so it takes 가 (거미가). The key collocation to learn as a chunk is the web: 거미줄 is a compound of 거미 'spider' + 줄 'line/thread', and the idiomatic verb for spinning one is 거미줄을 치다 'to set/string a web', not 만들다 'make' — using 치다 (the same verb as in 줄을 치다 'string a rope') marks you as natural. Note that, strictly, a spider is an arachnid, not a 곤충 'insect', but in everyday speech Koreans lump it in with 벌레 'bugs' anyway. It is counted with 마리. The adjective 무섭다 'scary' is ㅂ-irregular, so 거미가 무서워요, not 무섭어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "거미 is a spider, a native word ending in a vowel, so it takes 가 (거미가). The key collocation to learn as a chunk is the web: 거미줄 is a compound of 거미 'spider' + 줄 'line/thread', and the idiomatic verb for spinning one is 거미줄을 치다 'to set/string a web', not 만들다 'make' — using 치다 (the same verb as in 줄을 치다 'string a rope') marks you as natural. It is counted with 마리."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Strictly, a spider is an arachnid, not a 곤충 'insect', but in everyday speech Koreans lump it in with 벌레 'bugs' anyway."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The adjective 무섭다 'scary' is ㅂ-irregular, so 거미가 무서워요, not 무섭어요.",
+        "chips": ["무섭다", "무서워요"]
+      }
+    ],
+    "mistakes": [
+      "Calling the web 거미. The spider is 거미; its web is the compound 거미줄.",
+      "Saying 거미줄을 만들어요 'make a web'. The idiomatic verb is 치다: 거미줄을 쳐요.",
+      "Counting spiders with 개. They take 마리: 거미 한 마리."
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +337,39 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["땅이 넓어요", "The land is wide", "땅 + 이 (ends in ㅇ)"],
-      ["땅에 앉아요", "I sit on the ground", "땅 + 에 (location)"],
-      ["땅을 파요", "I dig the ground", "땅 + 을 + 파다"],
-      ["넓은 땅", "wide land", "adjective + 땅"]
+      ["땅이 넓어요", "The land is wide", "땅 + 이 because it ends in the consonant ㅇ"],
+      ["땅에 앉아요", "I sit on the ground", "땅 + 에 marks the location of resting"],
+      ["땅을 파요", "I dig the ground", "땅 + 을 + 파다 'to dig'"],
+      ["땅을 사다", "to buy land", "real-estate sense; 땅 + 을 + 사다"]
     ],
     "examples": [
-      ["아이가 땅에 앉았어요.", "The child sat on the ground.", "땅에 = location"],
-      ["여기 땅이 정말 넓어요.", "The land here is really wide.", "땅이 = subject"],
-      ["땅을 파서 나무를 심었어요.", "I dug the ground and planted a tree.", "파다 = dig"]
+      ["아이가 땅에 앉았어요.", "The child sat on the ground.", "땅에 marks where they sat."],
+      ["여기 땅이 정말 넓어요.", "The land here is really wide.", "땅이 = subject; 넓다 'spacious'."],
+      ["땅을 파서 작은 나무를 심었어요.", "I dug the ground and planted a small tree.", "파다 + -아서 + 심다 'plant'."]
     ],
-    "nuance": "땅 means the ground, land, or soil under our feet. It ends in the consonant ㅇ, so it takes 이 (땅이). For the planet Earth Koreans say 지구, not 땅, so keep the two ideas separate.",
-    "mistakes": ["Saying 땅가 넓어요 — after a consonant use 이, so 땅이 넓어요.", "Using 땅 for the planet Earth; that is 지구."]
+    "nuance": "땅 is the native word for the ground, land, or soil under our feet, and it stretches from the physical dirt you 파다 'dig' to the legal land you 사다 'buy'. The biggest English-speaker trap is 'Earth': the planet is 지구 (地球, 'earth-sphere'), never 땅, so '지구가 둥글다' (the Earth is round), not 땅. Distinguish three near-neighbors: 땅 = ground/land in general; 흙 = the soil/dirt as a substance you hold in your hand; 토지 (土地) = land as a formal real-estate/legal term. 땅 ends in the consonant ㅇ, so it takes 이 (땅이, never 땅가) and the object 을 (땅을). To sit or fall 'on' the ground, mark the spot with 에: 땅에 앉다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "땅 is the native word for the ground, land, or soil under our feet, and it stretches from the physical dirt you 파다 'dig' to the legal land you 사다 'buy'. 땅 ends in the consonant ㅇ, so it takes 이 (땅이, never 땅가) and the object 을 (땅을). To sit or fall 'on' the ground, mark the spot with 에: 땅에 앉다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish three near-neighbors: 땅 = ground/land in general; 흙 = the soil/dirt as a substance you hold in your hand; 토지 (土地) = land as a formal real-estate/legal term."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The biggest English-speaker trap is 'Earth': the planet is 지구 (地球, 'earth-sphere'), never 땅, so '지구가 둥글다' (the Earth is round), not 땅."
+      }
+    ],
+    "mistakes": [
+      "Using 땅 for the planet Earth. The planet is 지구; 땅 is only ground/land/soil here below.",
+      "Saying 땅가 넓어요. After the final consonant ㅇ you must use 이: 땅이 넓어요.",
+      "Blurring 땅 and 흙. 땅 is the ground/land; 흙 is the soil substance itself — you plant a seed 흙에 (in the soil) but you fall 땅에 (onto the ground)."
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +379,40 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["불이 나요", "A fire breaks out", "불 + 이 + 나다"],
-      ["불을 꺼요", "I put out the fire / turn off the light", "불 + 을 + 끄다"],
-      ["불을 켜요", "I turn on the light", "불 + 을 + 켜다"],
-      ["불이 뜨거워요", "The fire is hot", "불 + 이, 뜨겁다 = hot"]
+      ["불이 나다", "for a fire to break out", "set phrase; 불 + 이 + 나다, never 불이 시작하다"],
+      ["불을 끄다", "to put out a fire / turn off a light", "불 + 을 + 끄다 (ㅡ-irregular) → 꺼요"],
+      ["불을 켜다", "to light a fire / turn on a light", "불 + 을 + 켜다 = switch on"],
+      ["불이 뜨겁다", "the fire is hot", "불 + 이; 뜨겁다 (ㅂ-irregular) → 뜨거워요"]
     ],
     "examples": [
-      ["불을 꺼 주세요.", "Please turn off the light.", "끄다 = turn off / put out"],
-      ["방이 어두워요. 불을 켜요.", "The room is dark. I turn on the light.", "켜다 = turn on"],
-      ["부엌에서 불이 났어요.", "A fire broke out in the kitchen.", "불이 나다 = a fire starts"]
+      ["불 좀 꺼 주세요.", "Please turn off the light.", "끄다 → 꺼; 좀 softens the request."],
+      ["방이 어두워요. 불 켤게요.", "The room is dark. I'll turn on the light.", "켜다 → 켤게요 'I'll switch it on'."],
+      ["옆집 부엌에서 불이 났어요.", "A fire broke out in the neighbor's kitchen.", "불이 나다 → 났어요, the fixed 'fire starts' phrase."]
     ],
-    "nuance": "불 means fire, but it also means the light of a lamp, so 불을 켜다 / 불을 끄다 means to turn a light on/off. It ends in ㄹ, so it takes 이 (불이). To say a fire breaks out, use the set phrase 불이 나다.",
-    "mistakes": ["Saying 불가 났어요 — after a consonant use 이, so 불이 났어요.", "Using 열다/닫다 for a light; lights and fire use 켜다 (on) and 끄다 (off)."]
+    "nuance": "불 is a single native word covering two ideas English keeps apart: 'fire' (flames) and the 'light' of a lamp. So 불을 켜다 / 불을 끄다 means both 'light/extinguish a fire' and 'switch a light on/off' — context decides. The verb pair to memorize is 켜다 (on) / 끄다 (off); never use 열다 'open' / 닫다 'close' for lights, the way some learners do by analogy with English 'open the light'. For a fire breaking out, the fixed phrase is 불이 나다 'a fire occurs' (with 나다 'to come out'), not 불이 시작하다. 불 ends in ㄹ, so it takes 이 (불이, never 불가). Watch the irregulars: 끄다 is ㅡ-irregular (끄다 → 꺼요) and 뜨겁다 'hot' is ㅂ-irregular (뜨거워요). Related: 불꽃 = flame/spark, 모닥불 = campfire.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "불 is a single native word covering two ideas English keeps apart: 'fire' (flames) and the 'light' of a lamp. So 불을 켜다 / 불을 끄다 means both 'light/extinguish a fire' and 'switch a light on/off' — context decides. The verb pair to memorize is 켜다 (on) / 끄다 (off). For a fire breaking out, the fixed phrase is 불이 나다 'a fire occurs' (with 나다 'to come out'), not 불이 시작하다. 불 ends in ㄹ, so it takes 이 (불이, never 불가). Related: 불꽃 = flame/spark, 모닥불 = campfire."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Watch the irregulars: 끄다 is ㅡ-irregular (끄다 → 꺼요) and 뜨겁다 'hot' is ㅂ-irregular (뜨거워요).",
+        "chips": ["끄다", "꺼요", "뜨겁다", "뜨거워요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Never use 열다 'open' / 닫다 'close' for lights, the way some learners do by analogy with English 'open the light'."
+      }
+    ],
+    "mistakes": [
+      "Saying 불을 열다 / 불을 닫다 for a light. Korean uses 켜다 (on) and 끄다 (off); 열다/닫다 are only for doors and windows.",
+      "Saying 불가 났어요. After ㄹ the subject marker is 이: 불이 났어요.",
+      "Saying 불이 시작했어요 for a fire breaking out. The set phrase is 불이 나다: 불이 났어요."
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +422,39 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["공기가 맑아요", "The air is clear/fresh", "공기 + 가, 맑다 = clear"],
-      ["공기가 나빠요", "The air is bad", "공기 + 가, 나쁘다 = bad"],
-      ["맑은 공기", "fresh air", "adjective + 공기"],
-      ["공기를 마셔요", "I breathe the air", "공기 + 를 + 마시다"]
+      ["공기가 맑다", "the air is clear/fresh", "공기 + 가; 맑다 is the set adjective for clean air"],
+      ["공기가 나쁘다", "the air is bad", "공기 + 가; used for polluted/stuffy air"],
+      ["맑은 공기", "fresh air", "맑다 → 맑은 modifies 공기"],
+      ["공기를 마시다", "to breathe the air", "공기 + 를 + 마시다 (lit. 'drink' air)"]
     ],
     "examples": [
-      ["산 공기가 정말 맑아요.", "The mountain air is really fresh.", "공기가 = subject"],
-      ["창문을 열고 공기를 마셨어요.", "I opened the window and breathed the air.", "마시다 = breathe in"],
-      ["오늘은 공기가 나빠요.", "The air is bad today.", "공기가 나쁘다"]
+      ["산 공기가 정말 맑아요.", "The mountain air is so fresh.", "산 공기 = mountain air; 맑다 'clear'."],
+      ["창문을 열고 맑은 공기를 마셨어요.", "I opened the window and breathed in fresh air.", "마시다 used for inhaling air."],
+      ["요즘 미세먼지 때문에 공기가 너무 나빠요.", "The air is really bad these days because of fine dust.", "미세먼지 때문에 = because of fine dust."]
     ],
-    "nuance": "공기 is the air we breathe. For fresh air Koreans say 공기가 맑다 (clear), and for fresh air to breathe you can use 마시다 (literally drink/inhale). For air pollution specifically, the related word is 미세먼지 (fine dust).",
-    "mistakes": ["Confusing 공기 (air) with 날씨 (weather); they are different ideas.", "Saying 공기가 깨끗하다 is fine, but the more natural set phrase for air is 공기가 맑다."]
+    "nuance": "공기 is the air we breathe, a Sino-Korean word: 空氣 ('empty-energy/vapor'), the same 氣 'qi/energy' seen in 기분 'mood' and 날씨-adjacent 일기. Two boundaries matter. First, do not confuse 공기 'air' with 날씨 'weather' or 기후 'climate' — they are different concepts, and '오늘 공기 좋다' (good air today) is not the same as '오늘 날씨 좋다' (good weather today). Second, the natural collocation for clean air is 공기가 맑다 'the air is clear', slightly more idiomatic than 공기가 깨끗하다 'clean'; bad air is 공기가 나쁘다. Note that 공기 'to breathe' uses 마시다, literally 'to drink/inhale'. For pollution the everyday term is 미세먼지 'fine dust'. (Beware a homophone: 공기 also names a children's game of jacks and a bowl of rice — context separates them.)",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "공기 is the air we breathe. The natural collocation for clean air is 공기가 맑다 'the air is clear', slightly more idiomatic than 공기가 깨끗하다 'clean'; bad air is 공기가 나쁘다. Note that breathing the air uses 마시다, literally 'to drink/inhale'. For pollution the everyday term is 미세먼지 'fine dust'. (Beware a homophone: 공기 also names a children's game of jacks and a bowl of rice — context separates them.)"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Do not confuse 공기 'air' with 날씨 'weather' or 기후 'climate' — they are different concepts, and '오늘 공기 좋다' (good air today) is not the same as '오늘 날씨 좋다' (good weather today)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "공기 is a Sino-Korean word: 空氣 ('empty-energy/vapor'), the same 氣 'qi/energy' seen in 기분 'mood' and 날씨-adjacent 일기."
+      }
+    ],
+    "mistakes": [
+      "Confusing 공기 'air' with 날씨 'weather'. 공기가 좋다 is about clean air; 날씨가 좋다 is about sunny/nice weather.",
+      "Saying 공기를 숨 쉬다. To breathe air the verb is 마시다 (inhale) or just 숨을 쉬다 'to breathe'; you don't pair 공기 with 숨 쉬다 directly.",
+      "Always reaching for 깨끗하다 for clean air. The more idiomatic set phrase is 공기가 맑다 'the air is clear'."
+    ]
   },
   {
     "kind": "noun",
@@ -238,18 +464,34 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["오렌지가 있어요", "There is an orange", "오렌지 + 가 (ends in a vowel)"],
-      ["오렌지 하나", "one orange", "오렌지 + 하나 / 한 개"],
-      ["오렌지를 먹어요", "I eat an orange", "오렌지 + 를 + 먹다"],
-      ["오렌지 주스", "orange juice", "오렌지 + 주스"]
+      ["오렌지가 있어요", "There is an orange", "오렌지 + 가 because it ends in a vowel"],
+      ["오렌지 한 개", "one orange", "whole fruit is counted with 개, not 마리"],
+      ["오렌지를 먹다", "to eat an orange", "오렌지 + 를 + 먹다"],
+      ["오렌지 주스", "orange juice", "fixed compound; 주스 is also a loanword"]
     ],
     "examples": [
-      ["아침에 오렌지를 먹어요.", "I eat an orange in the morning.", "오렌지를 = object"],
-      ["오렌지 주스 한 잔 주세요.", "One glass of orange juice, please.", "잔 counts drinks"],
-      ["이 오렌지가 정말 달아요.", "This orange is really sweet.", "달다 = sweet"]
+      ["아침에 오렌지를 먹어요.", "I eat an orange in the morning.", "오렌지를 = object of 먹다."],
+      ["오렌지 주스 한 잔 주세요.", "One glass of orange juice, please.", "잔 counts glasses of liquid."],
+      ["이 오렌지는 새콤달콤해요.", "This orange is sweet and tangy.", "새콤달콤하다 = sweet-and-sour, classic for citrus."]
     ],
-    "nuance": "오렌지 is the imported orange and a loanword from English. The native Korean citrus 귤 (tangerine/mandarin) is smaller and far more common in homes, so do not mix the two. Count whole fruit with 개: 오렌지 한 개.",
-    "mistakes": ["Confusing 오렌지 (orange) with 귤 (tangerine/mandarin).", "Counting fruit with 마리; fruit uses 개, so 오렌지 한 개."]
+    "nuance": "오렌지 is the imported orange, written as a loanword straight from English. The essential contrast is with 귤 (gyul), the native Korean tangerine/mandarin: 귤 is the small, easy-peel, winter-staple citrus that Koreans actually eat by the boxful at home, while 오렌지 is the bigger, thicker-skinned imported fruit usually bought for juice. Calling a 귤 an 오렌지 (or vice versa) is a real giveaway. As a loanword its spelling is fixed — 오렌지, not 오린지 or 오랜지. Being inanimate fruit, it is counted with 개 (오렌지 한 개), never the animal counter 마리; a glass of its juice is counted with 잔. The taste vocabulary that pairs with it is 새콤달콤하다 'sweet and tangy' and 달다 'sweet'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "오렌지 is the imported orange, written as a loanword straight from English. As a loanword its spelling is fixed — 오렌지, not 오린지 or 오랜지. Being inanimate fruit, it is counted with 개 (오렌지 한 개), never the animal counter 마리; a glass of its juice is counted with 잔. The taste vocabulary that pairs with it is 새콤달콤하다 'sweet and tangy' and 달다 'sweet'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The essential contrast is with 귤 (gyul), the native Korean tangerine/mandarin: 귤 is the small, easy-peel, winter-staple citrus that Koreans actually eat by the boxful at home, while 오렌지 is the bigger, thicker-skinned imported fruit usually bought for juice. Calling a 귤 an 오렌지 (or vice versa) is a real giveaway."
+      }
+    ],
+    "mistakes": [
+      "Confusing 오렌지 (imported orange) with 귤 (Korean tangerine/mandarin). They are different fruits; 귤 is the small winter one eaten at home.",
+      "Counting fruit with 마리 (오렌지 한 마리). 마리 is only for animals; whole fruit takes 개: 오렌지 한 개.",
+      "Misspelling the loanword as 오린지 or 오랜지. The standard form is 오렌지."
+    ]
   },
   {
     "kind": "noun",
@@ -259,18 +501,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["고추가 매워요", "The chili pepper is spicy", "고추 + 가, 맵다 = spicy"],
-      ["고추 하나", "one chili pepper", "고추 + 하나 / 한 개"],
-      ["고추를 넣어요", "I add chili peppers", "고추 + 를 + 넣다"],
-      ["고춧가루", "chili powder", "고추 + 가루 (with 사이시옷)"]
+      ["고추가 맵다", "the chili pepper is spicy", "고추 + 가; 맵다 (ㅂ-irregular) → 매워요"],
+      ["고추 한 개", "one chili pepper", "vegetables are counted with 개"],
+      ["고추를 넣다", "to add chili peppers", "고추 + 를 + 넣다 'put in'"],
+      ["고춧가루", "chili powder", "고추 + 가루 with 사이시옷 (inserted ㅅ)"]
     ],
     "examples": [
-      ["이 고추가 너무 매워요.", "This chili pepper is too spicy.", "맵다 = spicy"],
-      ["찌개에 고추를 넣었어요.", "I added chili peppers to the stew.", "넣다 = put in"],
-      ["고춧가루로 김치를 만들어요.", "I make kimchi with chili powder.", "고춧가루 = chili powder"]
+      ["이 고추 진짜 매워요.", "This chili is really spicy.", "맵다 → 매워요; 진짜 'really' is casual."],
+      ["찌개에 고추를 송송 썰어 넣었어요.", "I sliced chili and added it to the stew.", "썰다 'slice' + 넣다; 송송 = finely."],
+      ["고춧가루를 넉넉히 넣어야 김치가 빨개요.", "You need plenty of chili powder for kimchi to turn red.", "고춧가루; 빨갛다 → 빨개요."]
     ],
-    "nuance": "고추 is the chili pepper, a key ingredient in Korean cooking. Ground into powder it becomes 고춧가루 (note the 사이시옷, the inserted ㅅ), and the red chili paste is 고추장. A green chili is 풋고추.",
-    "mistakes": ["Writing the powder as 고추가루; the standard spelling is 고춧가루.", "Confusing 고추 (chili pepper) with 후추 (black pepper)."]
+    "nuance": "고추 is the chili pepper, the backbone of Korean spice, and it spawns a small family you should keep straight: ground it becomes 고춧가루 'chili powder' (note the 사이시옷 — an inserted ㅅ for the compound, so 고춧가루, not 고추가루); the fermented red paste is 고추장; a fresh green chili is 풋고추. The sharpest pitfall is 고추 vs 후추: 후추 is black pepper, a totally different seasoning, so swapping them ruins a recipe. The adjective for its heat is 맵다 'spicy', which is ㅂ-irregular (맵다 → 매워요), not 매웠다-style regular. Inanimate, it is counted with 개. Culturally 고추 is loaded — its red color symbolized a baby boy, and it is also slang for a little boy's genitals, so the word carries a knowing double meaning adults will recognize.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "고추 is the chili pepper, the backbone of Korean spice, and it spawns a small family you should keep straight: ground it becomes 고춧가루 'chili powder' (note the 사이시옷 — an inserted ㅅ for the compound, so 고춧가루, not 고추가루); the fermented red paste is 고추장; a fresh green chili is 풋고추. Inanimate, it is counted with 개. Culturally 고추 is loaded — its red color symbolized a baby boy, and it is also slang for a little boy's genitals, so the word carries a knowing double meaning adults will recognize."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharpest pitfall is 고추 vs 후추: 후추 is black pepper, a totally different seasoning, so swapping them ruins a recipe."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The adjective for its heat is 맵다 'spicy', which is ㅂ-irregular (맵다 → 매워요), not 매웠다-style regular.",
+        "chips": ["맵다", "매워요"]
+      }
+    ],
+    "mistakes": [
+      "Writing the powder as 고추가루. The compound takes 사이시옷: the standard spelling is 고춧가루.",
+      "Confusing 고추 (chili pepper) with 후추 (black pepper). They are different seasonings.",
+      "Conjugating 맵다 as 맵어요. It is ㅂ-irregular: 맵다 → 매워요, so 고추가 매워요."
+    ]
   },
   {
     "kind": "noun",
@@ -280,18 +544,39 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["극장에 가요", "I go to the theater", "극장 + 에 (destination)"],
-      ["극장에서 영화를 봐요", "I watch a movie at the cinema", "극장 + 에서 (location)"],
-      ["극장이 커요", "The theater is big", "극장 + 이 (ends in ㅇ)"],
-      ["극장 앞", "in front of the theater", "극장 + 앞 (location word)"]
+      ["극장에 가다", "to go to the theater", "극장 + 에 marks the destination"],
+      ["극장에서 영화를 보다", "to watch a movie at the cinema", "극장 + 에서 marks where the action happens"],
+      ["극장이 크다", "the theater is big", "극장 + 이 because it ends in the consonant ㅇ"],
+      ["극장 앞에서 만나다", "to meet in front of the theater", "극장 앞 = place word + 에서"]
     ],
     "examples": [
-      ["주말에 극장에 가요.", "I go to the cinema on weekends.", "극장에 = destination"],
-      ["극장에서 영화를 봤어요.", "I watched a movie at the theater.", "극장에서 = where action happens"],
-      ["극장 앞에서 만나요.", "Let's meet in front of the theater.", "극장 앞 = location"]
+      ["주말에 극장에 가요.", "I go to the cinema on weekends.", "극장에 = where you go (destination)."],
+      ["극장에서 영화를 봤어요.", "I watched a movie at the theater.", "극장에서 = where the watching happened."],
+      ["극장 앞에서 7시에 만나요.", "Let's meet in front of the theater at 7.", "극장 앞 + 에서 marks the meeting spot."]
     ],
-    "nuance": "극장 is a movie theater or cinema, and also a theater for live performances. In daily speech many people say 영화관 specifically for movie theaters, but 극장 is the common older word and is widely understood. Use 에 to go there and 에서 for watching a film.",
-    "mistakes": ["Saying 극장에서 가요 for going there — use 극장에 가요.", "Saying 극장가 커요 — after a consonant use 이, so 극장이 커요."]
+    "nuance": "극장 is a place to watch a show — historically a live theater, today most often a movie cinema. It is Sino-Korean: 劇場 ('drama-place', 劇 'play/drama' + 場 'place/arena', the same 場 in 시장 'market' and 운동장 'sports field'). The register/usage contrast to know is 극장 vs 영화관: 영화관 (映畵館, 'movie-hall') specifically means a film cinema and sounds a touch more modern, while 극장 is the older, broader word that still covers cinemas and is universally understood — a multiplex like CGV is fine to call either. The grammar drill here is the 에 vs 에서 split: use 에 for the destination you go to (극장에 가다) but 에서 for the location where an action occurs (극장에서 영화를 보다). Because 극장 ends in ㅇ, it takes 이 (극장이, never 극장가).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "극장 is a place to watch a show — historically a live theater, today most often a movie cinema. The grammar drill here is the 에 vs 에서 split: use 에 for the destination you go to (극장에 가다) but 에서 for the location where an action occurs (극장에서 영화를 보다). Because 극장 ends in ㅇ, it takes 이 (극장이, never 극장가)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The register/usage contrast to know is 극장 vs 영화관: 영화관 (映畵館, 'movie-hall') specifically means a film cinema and sounds a touch more modern, while 극장 is the older, broader word that still covers cinemas and is universally understood — a multiplex like CGV is fine to call either."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is Sino-Korean: 劇場 ('drama-place', 劇 'play/drama' + 場 'place/arena', the same 場 in 시장 'market' and 운동장 'sports field')."
+      }
+    ],
+    "mistakes": [
+      "Saying 극장에서 가요 for 'I go to the theater'. Movement-toward takes 에: 극장에 가요. Use 에서 only for an action done there.",
+      "Saying 극장가 커요. After the final consonant ㅇ the subject marker is 이: 극장이 커요.",
+      "Assuming 극장 means only a live-play theater. In everyday Korean it usually means the movie cinema; the live-stage nuance is context-dependent."
+    ]
   },
   {
     "kind": "noun",
@@ -301,18 +586,39 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["서점에 가요", "I go to the bookstore", "서점 + 에 (destination)"],
-      ["서점에서 책을 사요", "I buy books at the bookstore", "서점 + 에서 (location)"],
-      ["서점이 있어요", "There is a bookstore", "서점 + 이 (ends in ㅁ)"],
-      ["큰 서점", "a big bookstore", "adjective + 서점"]
+      ["서점에 가다", "to go to the bookstore", "서점 + 에 marks the destination"],
+      ["서점에서 책을 사다", "to buy a book at the bookstore", "서점 + 에서 marks where you buy"],
+      ["서점이 있다", "there is a bookstore", "서점 + 이 because it ends in the consonant ㅁ"],
+      ["큰 서점", "a big bookstore", "크다 → 큰 modifies 서점"]
     ],
     "examples": [
-      ["서점에서 책을 샀어요.", "I bought a book at the bookstore.", "서점에서 = where action happens"],
-      ["학교 근처에 서점이 있어요.", "There is a bookstore near the school.", "서점이 = subject"],
-      ["서점에 같이 갈래요?", "Do you want to go to the bookstore together?", "서점에 = destination"]
+      ["서점에서 책을 한 권 샀어요.", "I bought a book at the bookstore.", "권 counts books; 서점에서 = where you bought."],
+      ["학교 근처에 서점이 있어요.", "There's a bookstore near the school.", "서점이 = subject of 있다."],
+      ["주말에 서점에 같이 갈래요?", "Want to go to the bookstore together this weekend?", "-(으)ㄹ래요? casual invitation."]
     ],
-    "nuance": "서점 is a bookstore. It ends in the consonant ㅁ, so it takes 이 (서점이). Use 에 to go there and 에서 to buy books there. A library, where you borrow books, is 도서관 — a different place.",
-    "mistakes": ["Confusing 서점 (bookstore, you buy) with 도서관 (library, you borrow).", "Saying 서점가 있어요 — after a consonant use 이, so 서점이 있어요."]
+    "nuance": "서점 is a bookstore, where you buy books. It is Sino-Korean: 書店 ('book-shop', 書 'book/writing' + 店 'store', the same 店 in 편의점 'convenience store' and 음식점 'restaurant'). The contrast every beginner must lock in is 서점 vs 도서관: a 서점 is a shop where you pay and own the book, whereas 도서관 (圖書館, 'library') is where you borrow and return — confusing them produces sentences like 'I bought a book at the library'. A nearly synonymous word is 책방, a warmer, more old-fashioned native-flavored term for a (often small) bookshop. The grammar point is the same 에/에서 contrast: 서점에 가다 (go to) but 서점에서 책을 사다 (buy at). Since 서점 ends in ㅁ, it takes 이 (서점이, never 서점가); books inside are counted with 권.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "서점 is a bookstore, where you buy books. The grammar point is the 에/에서 contrast: 서점에 가다 (go to) but 서점에서 책을 사다 (buy at). Since 서점 ends in ㅁ, it takes 이 (서점이, never 서점가); books inside are counted with 권."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast every beginner must lock in is 서점 vs 도서관: a 서점 is a shop where you pay and own the book, whereas 도서관 (圖書館, 'library') is where you borrow and return — confusing them produces sentences like 'I bought a book at the library'. A nearly synonymous word is 책방, a warmer, more old-fashioned native-flavored term for a (often small) bookshop."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is Sino-Korean: 書店 ('book-shop', 書 'book/writing' + 店 'store', the same 店 in 편의점 'convenience store' and 음식점 'restaurant')."
+      }
+    ],
+    "mistakes": [
+      "Confusing 서점 (bookstore — you buy) with 도서관 (library — you borrow). They are different places.",
+      "Saying 서점가 있어요. After the final consonant ㅁ the subject marker is 이: 서점이 있어요.",
+      "Counting books with 개. Books take the bound-volume counter 권: 책 한 권."
+    ]
   },
   {
     "kind": "noun",
@@ -322,17 +628,38 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["미용실에 가요", "I go to the hair salon", "미용실 + 에 (destination)"],
-      ["미용실에서 머리를 잘라요", "I get my hair cut at the salon", "미용실 + 에서 (location)"],
-      ["미용실이 있어요", "There is a hair salon", "미용실 + 이 (ends in ㄹ)"],
-      ["미용실 예약", "salon appointment", "미용실 + 예약"]
+      ["미용실에 가다", "to go to the hair salon", "미용실 + 에 marks the destination"],
+      ["미용실에서 머리를 자르다", "to get a haircut at the salon", "머리를 자르다 = cut one's hair"],
+      ["미용실이 있다", "there is a hair salon", "미용실 + 이 because it ends in the consonant ㄹ"],
+      ["미용실을 예약하다", "to book a salon appointment", "미용실 + 을 + 예약하다 'reserve'"]
     ],
     "examples": [
-      ["내일 미용실에 가요.", "I'm going to the hair salon tomorrow.", "미용실에 = destination"],
-      ["미용실에서 머리를 잘랐어요.", "I got my hair cut at the salon.", "머리를 자르다 = cut hair"],
-      ["집 앞에 미용실이 있어요.", "There is a hair salon in front of my house.", "미용실이 = subject"]
+      ["내일 미용실에 가요.", "I'm going to the hair salon tomorrow.", "미용실에 = destination."],
+      ["미용실에서 머리를 짧게 잘랐어요.", "I got my hair cut short at the salon.", "짧게 'short(ly)' + 자르다 → 잘랐어요."],
+      ["미용실 예약했는데 파마하려고요.", "I booked the salon — I'm going to get a perm.", "파마하다 'to perm'; -려고요 states intent."]
     ],
-    "nuance": "미용실 is a hair/beauty salon, where you cut, dye, or perm your hair. A barbershop for men is 이발소, a more old-fashioned place; many people of all genders now just use 미용실 or the loanword 헤어숍. Use 머리를 자르다 for getting a haircut.",
-    "mistakes": ["Confusing 미용실 (hair salon) with 이발소 (traditional barbershop).", "Saying 미용실가 있어요 — after a consonant use 이, so 미용실이 있어요."]
+    "nuance": "미용실 is a hair/beauty salon where you cut, dye, or perm your hair. It is Sino-Korean: 美容室 ('beauty-grooming-room', 美 'beauty' + 容 'appearance/grooming' + 室 'room', the same 室 in 교실 'classroom' and 화장실 'restroom'). The contrast to know is 미용실 vs 이발소: an 이발소 (理髮所, 'barbershop') is the traditional men's barber — think the spinning pole — and now sounds old-fashioned, while 미용실 serves everyone and is the default modern word; younger speakers also say the loanword 헤어숍 or just 미용실. The key collocation is 머리를 자르다 'to cut one's hair' (literally 'cut the head'), with 자르다 → 잘랐어요 in the past. Note 머리 here means 'hair', not 'head', in this context. Since 미용실 ends in ㄹ, it takes 이 (미용실이, never 미용실가).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "미용실 is a hair/beauty salon where you cut, dye, or perm your hair. The key collocation is 머리를 자르다 'to cut one's hair' (literally 'cut the head'), with 자르다 → 잘랐어요 in the past. Note 머리 here means 'hair', not 'head', in this context. Since 미용실 ends in ㄹ, it takes 이 (미용실이, never 미용실가)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to know is 미용실 vs 이발소: an 이발소 (理髮所, 'barbershop') is the traditional men's barber — think the spinning pole — and now sounds old-fashioned, while 미용실 serves everyone and is the default modern word; younger speakers also say the loanword 헤어숍 or just 미용실."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is Sino-Korean: 美容室 ('beauty-grooming-room', 美 'beauty' + 容 'appearance/grooming' + 室 'room', the same 室 in 교실 'classroom' and 화장실 'restroom')."
+      }
+    ],
+    "mistakes": [
+      "Confusing 미용실 (modern unisex hair salon) with 이발소 (traditional men's barbershop). 미용실 is the everyday default.",
+      "Saying 미용실가 있어요. After the final consonant ㄹ the subject marker is 이: 미용실이 있어요.",
+      "Saying 머리를 깎다 vs 자르다 incorrectly. For a normal salon haircut Koreans say 머리를 자르다; 깎다 sounds like shaving/clippers, more for very short or buzzed cuts."
+    ]
   }
 ]

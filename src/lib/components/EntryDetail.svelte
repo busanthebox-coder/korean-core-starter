@@ -51,6 +51,18 @@
   $: mistakes = entry.commonMistakes || [];
   $: related = (entry.relatedPatternIds || []).map(findEntry).filter(Boolean);
   $: grammarLinks = (entry.grammarIds || []).map(findGrammar).filter(Boolean);
+
+  // Nuance display: structured facets (핵심/비슷한말/활용/함정 …) when authored,
+  // else auto-format the long string into short 2-sentence paragraphs with a lead.
+  // Both highlight Korean terms via splitKo so the eye has anchors.
+  $: structuredNuance = Array.isArray(entry.structuredNuance) && entry.structuredNuance.length ? entry.structuredNuance : null;
+  function nuanceParagraphs(text) {
+    const ss = sentences(text);
+    const out = [];
+    for (let i = 0; i < ss.length; i += 2) out.push(ss.slice(i, i + 2).join(' '));
+    return out.length ? out : (text ? [text] : []);
+  }
+  $: nParas = !structuredNuance && entry.nuance ? nuanceParagraphs(entry.nuance) : [];
 </script>
 
 <article class="detail">
@@ -141,9 +153,30 @@
       <div><div class="callout-label">Conjugation tips</div><ul>{#each tips as t}<li>{tipText(t)}</li>{/each}</ul></div></div>
   {/if}
 
-  {#if entry.nuance}
+  {#if structuredNuance}
     <div class="callout nuance"><span class="ico">🔎</span>
-      <div><div class="callout-label">Nuance</div><p>{entry.nuance}</p></div></div>
+      <div class="nz"><div class="callout-label">Nuance</div>
+        <div class="facets">
+          {#each structuredNuance as f}
+            <div class="facet">
+              <div class="facet-tag"><span class="ft-ko">{f.k}</span>{#if f.e}<span class="ft-en">{f.e}</span>{/if}</div>
+              <div class="facet-body">
+                <p>{#each splitKo(f.t) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</p>
+                {#if f.chips && f.chips.length}<div class="cj">{#each f.chips as c}<span class="cjchip">{c}</span>{/each}</div>{/if}
+              </div>
+            </div>
+          {/each}
+        </div>
+      </div></div>
+  {:else if entry.nuance}
+    <div class="callout nuance"><span class="ico">🔎</span>
+      <div class="nz"><div class="callout-label">Nuance</div>
+        <div class="nuance-body">
+          {#each nParas as para, i}
+            <p class:lead={i === 0}>{#each splitKo(para) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</p>
+          {/each}
+        </div>
+      </div></div>
   {/if}
 
   {#if mistakes.length}
@@ -173,9 +206,9 @@
   .hero.t-pattern { --htype: var(--type-pattern); }
   .badge { justify-self: start; margin-top: 8px; font-size: 10px; font-weight: 750; text-transform: uppercase;
     letter-spacing: .18em; color: var(--htype, var(--ink-2)); }
-  .hero-ko { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 6px;
-    font-size: 46px; font-weight: 850; color: var(--ink); line-height: 1.04; letter-spacing: -.02em; }
-  .hero-en { margin: 5px 0 0; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 23px; color: var(--ink); }
+  .hero-ko { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 8px;
+    font-family: var(--serif-ko); font-size: 50px; font-weight: 600; color: var(--ink); line-height: 1.05; letter-spacing: -.01em; }
+  .hero-en { margin: 8px 0 0; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 24px; color: var(--ink); }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
   .chip { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: 3px 9px;
     border-radius: 999px; border: 1px solid var(--border); color: var(--ink-3); }
@@ -211,6 +244,26 @@
   .callout.warn { --cl: var(--accent); }
   .callout .ico { font-size: 16px; line-height: 1.5; flex: none; }
   .callout ul { margin: 4px 0 0; padding-left: 16px; display: grid; gap: 4px; }
+
+  /* Nuance — auto-formatted paragraphs (fallback) */
+  .nz { min-width: 0; flex: 1; }
+  .nuance-body p { margin: 0 0 9px; line-height: 1.66; color: var(--ink-2); }
+  .nuance-body p:last-child { margin-bottom: 0; }
+  .nuance-body p.lead { color: var(--ink); font-weight: 500; font-size: 1.02em; line-height: 1.55;
+    border-left: 2px solid var(--accent); padding-left: 11px; margin-bottom: 12px; }
+  /* Nuance — structured facets */
+  .facets { display: grid; gap: 13px; margin-top: 2px; }
+  .facet { display: grid; grid-template-columns: 86px 1fr; gap: 13px; }
+  .facet + .facet { border-top: 1px solid var(--border); padding-top: 13px; }
+  .facet-tag { display: flex; flex-direction: column; gap: 1px; padding-top: 1px; }
+  .ft-ko { font-family: var(--serif); font-size: 15px; font-weight: 600; color: var(--ink); line-height: 1.15; }
+  .ft-en { font-size: 9px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-ink); font-weight: 750; }
+  .facet-body p { margin: 0; line-height: 1.6; color: var(--ink-2); }
+  .cj { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+  .cjchip { background: var(--surface); border: 1px solid var(--ink); border-radius: 6px; padding: 4px 9px;
+    font-size: 13px; font-weight: 600; color: var(--ink); }
+  @media (max-width: 480px) { .facet { grid-template-columns: 1fr; gap: 4px; }
+    .facet-tag { flex-direction: row; align-items: baseline; gap: 8px; } }
 
   /* Form tiles — flat hairline */
   .forms { display: grid; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr)); gap: 8px; }

@@ -10,47 +10,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "도로",
-        "road",
-        "general word for a road that cars drive on"
-      ],
-      [
-        "넓은 도로",
-        "wide road",
-        "도로 + adjective describing the road"
-      ],
-      [
-        "도로가 막혀요",
-        "the road is jammed",
-        "common phrase about traffic"
-      ],
-      [
         "고속도로",
-        "highway",
-        "고속 (high speed) + 도로 = expressway"
+        "highway / expressway",
+        "고속 (high speed) + 도로 = the big inter-city expressway"
+      ],
+      [
+        "도로가 막히다",
+        "the road is jammed",
+        "fixed traffic phrase; 막히다 (be blocked) is intransitive, so use 가/이 not 을/를"
+      ],
+      [
+        "도로 공사",
+        "road construction / roadwork",
+        "공사 工事 = construction work; the sign you see when a lane is closed"
+      ],
+      [
+        "도로로 가다",
+        "go by this road / take this road",
+        "route-marking 로/으로, not 에서; tells which road you travel along"
       ]
     ],
     "examples": [
       [
         "이 도로는 넓어요.",
         "This road is wide.",
-        "describing a road with 넓다"
+        "simplest description; 넓다 (wide) takes the subject with 은/는 here"
       ],
       [
-        "도로에 차가 많아요.",
-        "There are many cars on the road.",
-        "도로에 = on the road"
+        "출근 시간이라 도로가 많이 막혀요.",
+        "It's rush hour, so the road is really jammed.",
+        "everyday complaint; 막히다 stays intransitive, so 도로'가' not 도로'를'"
       ],
       [
-        "이 도로로 가요.",
-        "Let's go by this road.",
-        "도로 + 로 to mark the route"
+        "내비가 이 도로로 가라고 했어요.",
+        "The GPS told me to take this road.",
+        "real driving situation; route particle 로 + indirect command 가라고 하다"
       ]
     ],
-    "nuance": "도로 is the everyday word for a road or street that vehicles use. It is bigger and more general than 골목 (alley). For a small neighborhood street you say 골목길, but for a main street you say 도로 or 큰길.",
+    "nuance": "도로 道路 (道 way + 路 path) is the neutral, infrastructure word for a paved road that cars drive on — what an engineer or a traffic report means by 'road'. The sharp contrast is with 거리: 도로 stresses the vehicle surface (도로가 막히다, 도로 공사), while 거리 is a shopping/walking street you stroll down; you would never say 거리가 막히다 about car traffic. It is also broader than 골목(길) (a narrow alley) and 차도 (the car-only carriageway as opposed to 인도, the sidewalk). Register is plain and works everywhere from signs to news. The English-speaker pitfall is the particle when you mean a route: 'go by this road' is 이 도로'로' 가요 (route-marking 로/으로), not 도로'에서' 가요, because 에서 marks where an action happens, while 로 marks the path you move along.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "도로 is the neutral, infrastructure word for a paved road that cars drive on — what an engineer or a traffic report means by 'road'. Register is plain and works everywhere from signs to news."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is with 거리: 도로 stresses the vehicle surface (도로가 막히다, 도로 공사), while 거리 is a shopping/walking street you stroll down; you would never say 거리가 막히다 about car traffic. It is also broader than 골목(길) (a narrow alley) and 차도 (the car-only carriageway as opposed to 인도, the sidewalk)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "道路 = 道 (way) + 路 (path)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is the particle when you mean a route: 'go by this road' is 이 도로'로' 가요 (route-marking 로/으로), not 도로'에서' 가요, because 에서 marks where an action happens, while 로 marks the path you move along."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 도로 (road) with 거리 (street); 도로 focuses on the driving surface for cars.",
-      "Do not say 도로에서 가요 for taking a route; use 도로로 가요."
+      "Saying 도로를 막혀요 — 막히다 (to be jammed/blocked) is intransitive, so the road is the subject: 도로'가' 막혀요.",
+      "Using 도로 for a lively shopping street: a street you walk and browse is 거리 (e.g. 가로수길 같은 거리), whereas 도로 sounds like an asphalt traffic artery.",
+      "Marking the route with 에서: to express 'let's take this road' say 이 도로'로' 가요, not 이 도로에서 가요 (에서 would mean an action performed on the road)."
     ]
   },
   {
@@ -64,47 +87,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "주유소",
-        "gas station",
-        "place where you put fuel in a car"
-      ],
-      [
-        "주유소에 가요",
+        "주유소에 가다",
         "go to the gas station",
-        "주유소 + 에 + 가다"
+        "destination 에 + 가다; 주유소 is a place you head to"
       ],
       [
-        "주유소에서 기름을 넣어요",
-        "put gas in at the gas station",
-        "주유소에서 = at the gas station"
+        "기름을 넣다",
+        "put in gas / fill up",
+        "the verb is 넣다 (put in); the object is 기름 (oil/fuel), not 주유소"
       ],
       [
-        "가까운 주유소",
-        "nearby gas station",
-        "가깝다 used to describe the station"
+        "셀프 주유소",
+        "self-service gas station",
+        "셀프 (self) + 주유소; you pump it yourself, very common in Korea"
+      ],
+      [
+        "기름값이 싸다",
+        "gas is cheap",
+        "기름값 = fuel price; describe the station's prices, not the station 'being cheap'"
       ]
     ],
     "examples": [
       [
-        "주유소가 어디예요?",
-        "Where is the gas station?",
-        "asking for a location"
+        "근처에 주유소가 있어요?",
+        "Is there a gas station nearby?",
+        "simple existence question; 있다 takes the subject with 가"
       ],
       [
-        "주유소에서 기름을 넣어요.",
-        "I put gas in at the gas station.",
-        "기름을 넣다 = to fill up"
+        "주유소에서 기름을 가득 넣었어요.",
+        "I filled the tank all the way up at the gas station.",
+        "everyday refueling; 에서 marks where the action happens, 가득 = full"
       ],
       [
-        "저 주유소는 싸요.",
-        "That gas station is cheap.",
-        "싸다 to talk about price"
+        "셀프 주유소라서 직접 넣어야 해요.",
+        "It's a self-service station, so you have to pump it yourself.",
+        "real situation; -아야 하다 (have to) + 직접 (in person/oneself)"
       ]
     ],
-    "nuance": "주유소 is where drivers refuel a car, made of 주유 (fueling) plus 소 (place). Koreans often pair it with 기름을 넣다 (to put in gas). It is a place noun, so it usually takes 에 (to go to) or 에서 (action at the place).",
+    "nuance": "주유소 注油所 literally stacks 注 (pour) + 油 (oil) + 所 (place) = 'a place where you pour oil', i.e. a fuel station. Because the 油 is 'oil/fuel', Koreans say 기름(을) 넣다 ('put in oil') even for gasoline — 기름 covers gasoline, diesel, everything in the tank. The natural verb is 넣다 (put in), so the object is 기름, never the station itself. As a 소(所) place-noun it behaves like other locations: 에 for going there (주유소에 가요), 에서 for the action done there (주유소에서 넣어요). The big English-speaker pitfall is importing 'gas': do not say 가스 — 가스 in Korean means cooking/LPG gas, and a fuel stop is 주유소. A second trap is making the station the grammatical object: you fill the car with 기름, so it's 기름을 넣다, not 주유소를 넣다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "주유소 is a fuel station. Because the 油 is 'oil/fuel', Koreans say 기름(을) 넣다 ('put in oil') even for gasoline — 기름 covers gasoline, diesel, everything in the tank. The natural verb is 넣다 (put in), so the object is 기름, never the station itself. As a 소(所) place-noun it behaves like other locations: 에 for going there (주유소에 가요), 에서 for the action done there (주유소에서 넣어요)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "注油所 literally stacks 注 (pour) + 油 (oil) + 所 (place) = 'a place where you pour oil'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big trap is importing 'gas': do not say 가스 — 가스 in Korean means cooking/LPG gas, and a fuel stop is 주유소. A second trap is making the station the grammatical object: you fill the car with 기름, so it's 기름을 넣다, not 주유소를 넣다."
+      }
+    ],
     "mistakes": [
-      "Do not say 가스 station; the Korean word is 주유소, even for gasoline.",
-      "Use 주유소에서 기름을 넣어요, not 주유소를 넣어요."
+      "Calling it a 가스 station — 가스 means household/LPG gas in Korean; the place to refuel a car is 주유소.",
+      "Saying 주유소를 넣어요 — the thing you put in is fuel, so it must be 주유소'에서' 기름'을' 넣어요.",
+      "Saying 주유소가 싸요 to mean fuel is cheap — describe the price: 그 주유소는 기름값이 싸요 (its gas price is cheap)."
     ]
   },
   {
@@ -118,47 +159,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "좌석",
-        "seat",
-        "an assigned or reserved seat on a vehicle"
-      ],
-      [
         "창가 좌석",
         "window seat",
-        "창가 (window side) + 좌석"
+        "창가 (window side) + 좌석; opposite is 통로 좌석 (aisle seat)"
       ],
       [
         "좌석 번호",
         "seat number",
-        "번호 = number printed on the ticket"
+        "번호 番號 = number; the figure printed on your ticket"
       ],
       [
-        "좌석을 예약해요",
+        "좌석을 예약하다",
         "reserve a seat",
-        "좌석 + 을 + 예약하다"
+        "예약하다 (book in advance); 좌석 is the object with 을"
+      ],
+      [
+        "좌석 등급",
+        "seat class / grade",
+        "등급 = class (e.g. 일반실/특실 on the KTX)"
       ]
     ],
     "examples": [
       [
         "제 좌석은 어디예요?",
         "Where is my seat?",
-        "asking on a train or plane"
+        "simple question on a train or plane; 은/는 marks 'my seat' as topic"
       ],
       [
-        "창가 좌석을 주세요.",
-        "Please give me a window seat.",
-        "polite request with 주세요"
+        "창가 좌석으로 주세요.",
+        "A window seat, please.",
+        "everyday booking line; 으로 = 'as/in the form of', i.e. choosing among options"
       ],
       [
-        "이 좌석은 비어 있어요.",
-        "This seat is empty.",
-        "비어 있다 = to be empty"
+        "예매한 좌석에 다른 사람이 앉아 있었어요.",
+        "Someone else was sitting in the seat I'd reserved.",
+        "real-trip trouble; 예매하다 (book a ticket) + 에 앉다 (sit in/at)"
       ]
     ],
-    "nuance": "좌석 is the formal word for a seat on a bus, train, or plane, often one with a number. In casual speech people also say 자리, but 좌석 is what you see on tickets and signs. It is common in travel situations like reserving 좌석 on the KTX.",
+    "nuance": "좌석 座席 (座 a seat + 席 a mat/place) is the formal, ticketed word for a numbered seat on a bus, train, plane, or in a theater. Its everyday near-synonym is 자리, and the dividing line is register and specificity: 자리 is the casual catch-all ('a spot/place to sit', also 'a vacant spot'), while 좌석 is what appears on tickets, signboards, and reservation screens — you reserve a 좌석, but you save someone a 자리. Natural partners are 창가/통로 좌석 (window/aisle), 좌석 번호, 좌석 예약. The English-speaker pitfalls are two: first, pick the verb by the surface — you 앉다 'on/at' a seat with 에 (좌석에 앉다), not 좌석을 앉다; second, watch the spelling, since 자석 (磁石) means 'magnet' and 좌석 is the seat — the ㅗ vs ㅏ vowel is the whole difference.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "좌석 is the formal, ticketed word for a numbered seat on a bus, train, plane, or in a theater. Natural partners are 창가/통로 좌석 (window/aisle), 좌석 번호, 좌석 예약."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its everyday near-synonym is 자리, and the dividing line is register and specificity: 자리 is the casual catch-all ('a spot/place to sit', also 'a vacant spot'), while 좌석 is what appears on tickets, signboards, and reservation screens — you reserve a 좌석, but you save someone a 자리."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "座席 = 座 (a seat) + 席 (a mat/place)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Two traps: first, pick the verb by the surface — you 앉다 'on/at' a seat with 에 (좌석에 앉다), not 좌석을 앉다; second, watch the spelling, since 자석 (磁石) means 'magnet' and 좌석 is the seat — the ㅗ vs ㅏ vowel is the whole difference."
+      }
+    ],
     "mistakes": [
-      "좌석 and 자리 both mean seat, but 좌석 is more formal and used for reserved transport seats.",
-      "Do not write 자석 (magnet); the correct spelling is 좌석."
+      "Using 좌석 in casual chat where 자리 fits — for 'save me a spot' say 자리 좀 맡아 줘, not 좌석; 좌석 sounds like a booked transport seat.",
+      "Saying 좌석을 앉아요 — you sit at a seat: 좌석'에' 앉아요 (place particle 에).",
+      "Misspelling it 자석 — that is 磁石 'magnet'; the seat is 좌석 with the ㅗ vowel."
     ]
   },
   {
@@ -172,47 +236,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "목적지",
-        "destination",
-        "the place you are traveling to"
-      ],
-      [
-        "목적지에 도착해요",
+        "목적지에 도착하다",
         "arrive at the destination",
-        "목적지 + 에 + 도착하다"
+        "goal-marking 에 + 도착하다; 에 is required, never 를"
       ],
       [
         "최종 목적지",
         "final destination",
-        "최종 (final) + 목적지"
+        "최종 最終 (final) + 목적지; the last stop when you have transfers"
       ],
       [
-        "목적지가 어디예요?",
-        "where is the destination?",
-        "asking the goal place"
+        "목적지를 입력하다",
+        "enter the destination",
+        "입력하다 (input) into a GPS; here 목적지 is the object with 를"
+      ],
+      [
+        "목적지까지",
+        "all the way to the destination",
+        "까지 = up to/as far as; marks the end point of the route"
       ]
     ],
     "examples": [
       [
         "목적지가 어디예요?",
-        "Where is your destination?",
-        "taxi driver may ask this"
+        "Where are you headed?",
+        "simple; a taxi driver's opening question, subject marked with 가"
       ],
       [
-        "목적지에 거의 도착했어요.",
-        "We almost arrived at the destination.",
-        "거의 = almost"
+        "목적지까지 한 시간쯤 걸려요.",
+        "It takes about an hour to the destination.",
+        "everyday travel time; 까지 (up to) + 걸리다 (take time)"
       ],
       [
-        "제 목적지는 부산이에요.",
-        "My destination is Busan.",
-        "stating where you go"
+        "내비게이션에 목적지를 입력했어요.",
+        "I entered the destination into the GPS.",
+        "real driving step; here 목적지 is the object you type in, so 를"
       ]
     ],
-    "nuance": "목적지 means the destination, the place you are heading to on a trip. Taxi drivers and navigation apps use it a lot. It pairs with 도착하다 (to arrive) and takes 에 to mark the goal you reach.",
+    "nuance": "목적지 目的地 stacks 目 (eye/aim) + 的 (target) + 地 (place/ground) = 'the targeted place', the spot you are traveling toward. The instructive contrast is with 도착지 and 출발지: 목적지 highlights intention ('where I aim to go'), 도착지 is the neutral 'arrival point', and its true opposite is 출발지 (departure point) — pairing 목적지 with 출발지 is the standard map/app framing. Do not confuse 목적지 (place) with 목적 alone (目的 = a purpose/aim, abstract), nor with 목표 (a goal you strive for). It is a slightly formal travel word used by taxi drivers and navigation apps. The English-speaker pitfall is the particle: you arrive 'at' it with 에 — 목적지'에' 도착하다 — never 목적지를 도착하다, because 도착하다 is intransitive; but when you type it into a GPS the verb is transitive, so it flips to 목적지'를' 입력하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "목적지 means 'the targeted place', the spot you are traveling toward. It is a slightly formal travel word used by taxi drivers and navigation apps."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The instructive contrast is with 도착지 and 출발지: 목적지 highlights intention ('where I aim to go'), 도착지 is the neutral 'arrival point', and its true opposite is 출발지 (departure point) — pairing 목적지 with 출발지 is the standard map/app framing. Do not confuse 목적지 (place) with 목적 alone (目的 = a purpose/aim, abstract), nor with 목표 (a goal you strive for)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "目的地 stacks 目 (eye/aim) + 的 (target) + 地 (place/ground) = 'the targeted place'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is the particle: you arrive 'at' it with 에 — 목적지'에' 도착하다 — never 목적지를 도착하다, because 도착하다 is intransitive; but when you type it into a GPS the verb is transitive, so it flips to 목적지'를' 입력하다."
+      }
+    ],
     "mistakes": [
-      "Use 목적지에 도착해요, not 목적지를 도착해요.",
-      "목적지 is the place you go to; do not confuse it with 출발지 (starting point)."
+      "Saying 목적지를 도착해요 — 도착하다 (to arrive) is intransitive and needs the goal particle: 목적지'에' 도착해요.",
+      "Confusing 목적지 (the place) with 목적 (the purpose) — 'my destination is Busan' is 목적지는 부산이에요, not 목적은 부산이에요 (that would mean 'my purpose is Busan').",
+      "Using 목적지 for a starting point — that is 출발지; 목적지 is only the place you are going to."
     ]
   },
   {
@@ -226,47 +313,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "거리",
-        "street",
-        "a street in town where people walk and shop"
-      ],
-      [
-        "거리가 복잡해요",
-        "the street is crowded",
-        "복잡하다 describing a busy street"
-      ],
-      [
-        "거리를 걸어요",
+        "거리를 걷다",
         "walk along the street",
-        "거리 + 를 + 걷다"
+        "거리 + 를 + 걷다; the path you walk takes 를 here"
       ],
       [
-        "조용한 거리",
-        "quiet street",
-        "조용하다 describing the street"
+        "거리가 복잡하다",
+        "the street is crowded/busy",
+        "복잡하다 (complicated/crowded) describing foot traffic and bustle"
+      ],
+      [
+        "거리 공연",
+        "street performance / busking",
+        "공연 公演 = performance; the kind done on a pedestrian street"
+      ],
+      [
+        "거리에 사람이 많다",
+        "there are many people on the street",
+        "location 에 + 있다-type existence; pedestrians, not cars"
       ]
     ],
     "examples": [
       [
         "이 거리는 사람이 많아요.",
-        "This street has many people.",
-        "describing a busy street"
+        "This street is busy with people.",
+        "simple description; topic 은/는 on the street, 많다 about people"
       ],
       [
-        "이 거리를 걸어요.",
-        "Let's walk down this street.",
-        "거리를 걷다 = walk a street"
+        "주말이라 거리가 사람들로 복잡해요.",
+        "It's the weekend, so the street is packed with people.",
+        "everyday scene; 로 = 'with (filled by)' + 복잡하다 (crowded)"
       ],
       [
-        "거리에 가게가 많아요.",
-        "There are many shops on the street.",
-        "거리에 = on the street"
+        "거리에서 버스킹 공연을 봤어요.",
+        "I watched a busking performance on the street.",
+        "real outing; 에서 marks where the watching happened"
       ]
     ],
-    "nuance": "거리 means a street in a town, the kind you walk along past shops and cafes. It feels more like a public walking area than 도로, which stresses car traffic. Note 거리 also means distance, so context tells you which meaning is intended.",
+    "nuance": "거리 (street) is a native Korean word — note it is NOT the Sino-Korean 距離 'distance', even though the two are spelled and written identically and are told apart only by context. As 'street' it means a public way lined with shops, cafes, and pedestrians that you stroll and browse (think 명동 거리, 가로수길). The sharp contrast is with 도로 道路: 거리 centers on people and street life (거리 공연, 거리가 복잡하다), while 도로 centers on the car surface (도로가 막히다) — Koreans say 도로가 막히다 for a traffic jam but never 거리가 막히다 in that sense. The English-speaker pitfall is exactly this homonym: 'the distance is far' is 거리가 멀다, but 'the street is busy' is 거리가 복잡하다 — same word, and only the predicate and situation tell you whether someone means a road you walk or a span you measure.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "거리 (street) is a native Korean word. As 'street' it means a public way lined with shops, cafes, and pedestrians that you stroll and browse (think 명동 거리, 가로수길)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is with 도로 道路: 거리 centers on people and street life (거리 공연, 거리가 복잡하다), while 도로 centers on the car surface (도로가 막히다) — Koreans say 도로가 막히다 for a traffic jam but never 거리가 막히다 in that sense."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Note it is NOT the Sino-Korean 距離 'distance', even though the two are spelled and written identically and are told apart only by context."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is exactly this homonym: 'the distance is far' is 거리가 멀다, but 'the street is busy' is 거리가 복잡하다 — same word, and only the predicate and situation tell you whether someone means a road you walk or a span you measure."
+      }
+    ],
     "mistakes": [
-      "거리 can mean street or distance; the meaning depends on context.",
-      "For a big car road, prefer 도로; 거리 sounds like a walking street."
+      "Using 거리 for a car-jammed highway — a traffic artery is 도로; 거리 evokes a walkable shopping street, so a jam is 도로가 막히다, not 거리가 막히다.",
+      "Forgetting the distance/street homonym — 거리가 멀어요 means 'the distance is far', not 'the street is far'; let context (멀다 vs 복잡하다) disambiguate.",
+      "Saying 거리를 걸어가요 vs 거리에서 — to 'walk along' the street the path can take 를 (거리를 걷다); 에서 is for an action located on the street (거리에서 공연을 보다)."
     ]
   },
   {
@@ -280,47 +390,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "승강장",
-        "platform",
-        "where you wait for a train or subway"
-      ],
-      [
-        "승강장에서 기다려요",
+        "승강장에서 기다리다",
         "wait on the platform",
-        "승강장 + 에서 + 기다리다"
+        "에서 + 기다리다; the place where the waiting happens"
       ],
       [
         "1번 승강장",
-        "platform number 1",
-        "number + 번 + 승강장"
+        "platform 1",
+        "number + 번 (counter) + 승강장; matches station signage"
       ],
       [
-        "승강장으로 가요",
+        "승강장으로 가다",
         "go to the platform",
-        "승강장 + 으로 + 가다"
+        "direction 으로 + 가다; head toward the platform"
+      ],
+      [
+        "안전선",
+        "the safety/yellow line",
+        "안전선 安全線 = safety line; '승강장 안전선 안쪽으로' is the classic announcement"
       ]
     ],
     "examples": [
       [
         "승강장에서 기차를 기다려요.",
-        "I wait for the train on the platform.",
-        "승강장에서 = on the platform"
+        "I'm waiting for the train on the platform.",
+        "simple; 에서 marks the location of waiting"
       ],
       [
-        "1번 승강장으로 가세요.",
-        "Please go to platform 1.",
-        "directing someone to a platform"
+        "3번 승강장으로 가세요.",
+        "Please go to platform 3.",
+        "everyday direction; 으로 (toward) + 가세요 (polite go)"
       ],
       [
-        "승강장이 사람으로 가득해요.",
-        "The platform is full of people.",
-        "가득하다 = to be full"
+        "승강장 안전선 안쪽으로 물러나 주세요.",
+        "Please step back behind the platform safety line.",
+        "real announcement you'll actually hear; 안쪽으로 (toward the inside) + 물러나다 (step back)"
       ]
     ],
-    "nuance": "승강장 is the platform where you wait to get on a train or subway. Station signs and announcements use 승강장 a lot. It is a place noun, so it takes 에서 for waiting and 으로 for moving toward it.",
+    "nuance": "승강장 乘降場 stacks 乘 (board/get on) + 降 (alight/get off) + 場 (place/field) = 'the place where you board and get off', i.e. the platform along the tracks. It is the formal term on signage and in announcements; the everyday spoken equivalent is 플랫폼 (the English loanword), and 타는 곳 ('boarding place') is the plain-Korean label posted in many stations — all three point to the same spot. The crucial contrast is with 정류장 停留場 (a bus/tram STOP at the roadside) and 역 (the whole STATION building): the 승강장 is the specific edge where you stand beside the train, inside the 역. As a 場 place-noun it takes 에서 for waiting (승강장에서 기다려요) and 으로 for moving toward it (승강장으로 가요). The English-speaker pitfall is treating the platform as something you wait 'for': you wait for the TRAIN on the platform, so it's 승강장에서 기차를 기다려요, never 승강장을 기다려요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "승강장 is the platform along the tracks. It is the formal term on signage and in announcements; the everyday spoken equivalent is 플랫폼 (the English loanword), and 타는 곳 ('boarding place') is the plain-Korean label posted in many stations — all three point to the same spot. As a 場 place-noun it takes 에서 for waiting (승강장에서 기다려요) and 으로 for moving toward it (승강장으로 가요)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial contrast is with 정류장 停留場 (a bus/tram STOP at the roadside) and 역 (the whole STATION building): the 승강장 is the specific edge where you stand beside the train, inside the 역."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "乘降場 stacks 乘 (board/get on) + 降 (alight/get off) + 場 (place/field) = 'the place where you board and get off'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is treating the platform as something you wait 'for': you wait for the TRAIN on the platform, so it's 승강장에서 기차를 기다려요, never 승강장을 기다려요."
+      }
+    ],
     "mistakes": [
-      "Use 승강장에서 기다려요 (wait on the platform), not 승강장을 기다려요.",
-      "승강장 is the platform; do not confuse it with 정류장, which is a bus stop."
+      "Saying 승강장을 기다려요 — you don't wait for the platform; you wait for the train there: 승강장'에서' 기차'를' 기다려요.",
+      "Mixing up 승강장 with 정류장 — 승강장 is the train/subway platform inside a station, while 정류장 is a roadside bus stop.",
+      "Confusing 승강장 with 역 — 역 is the entire station; the 승강장 is only the boarding strip beside the tracks."
     ]
   },
   {
@@ -334,47 +467,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "안전벨트",
-        "seatbelt",
-        "the safety belt in a car or plane"
-      ],
-      [
-        "안전벨트를 매요",
+        "안전벨트를 매다",
         "fasten the seatbelt",
-        "안전벨트 + 를 + 매다"
+        "the verb is 매다 (to tie/fasten), as with a tie or belt"
       ],
       [
-        "안전벨트를 풀어요",
+        "안전벨트를 풀다",
         "unfasten the seatbelt",
-        "풀다 = to loosen/undo"
+        "풀다 (to loosen/undo); the natural opposite of 매다"
       ],
       [
         "안전벨트 착용",
-        "wearing a seatbelt",
-        "착용 = wearing, seen on signs"
+        "seatbelt use (lit. wearing)",
+        "착용 着用 = wearing/putting on; the formal word on signs and laws"
+      ],
+      [
+        "안전벨트를 안 매면",
+        "if you don't wear a seatbelt",
+        "negation 안 + 매다 + 면 (if); used for warnings and fines"
       ]
     ],
     "examples": [
       [
         "안전벨트를 매세요.",
         "Please fasten your seatbelt.",
-        "common in cars and planes"
+        "simple polite command; the standard taxi/airplane line"
       ],
       [
-        "차에서 안전벨트를 꼭 매요.",
-        "I always fasten the seatbelt in the car.",
-        "꼭 = surely, always"
+        "차가 출발하기 전에 안전벨트를 꼭 매요.",
+        "I always buckle up before the car starts moving.",
+        "everyday habit; -기 전에 (before) + 꼭 (without fail)"
       ],
       [
-        "이제 안전벨트를 풀어도 돼요.",
-        "You may unfasten the seatbelt now.",
-        "풀다 = to undo"
+        "신호 대기 중이니까 잠깐 안전벨트를 풀어도 돼요.",
+        "We're stopped at the light, so you can unbuckle for a sec.",
+        "real moment; -아도 되다 (it's okay to) + 풀다 (undo)"
       ]
     ],
-    "nuance": "안전벨트 means seatbelt, made of 안전 (safety) plus 벨트 (belt). The verb you use is 매다 (to fasten) and 풀다 (to unfasten). You hear 안전벨트를 매세요 in taxis, buses, and airplanes.",
+    "nuance": "안전벨트 is a hybrid: Sino-Korean 안전 安全 (安 peace/safe + 全 complete) = 'safety' + the loanword 벨트 (belt) — so literally a 'safety belt'. A common everyday synonym is just 벨트 ('안전벨트 매', often shortened to '벨트 매'), and on signs/laws you meet 착용 (着用 'wearing'). The make-or-break point is the verb: Korean fastens a belt with 매다 (to tie/fasten, the same verb as a necktie) and undoes it with 풀다 (to loosen) — NOT 입다/벗다, which are for clothing you put on the body. That is the central English-speaker pitfall: English 'wear/put on a seatbelt' tempts learners toward 입다, but 안전벨트를 입다 is wrong; it must be 안전벨트를 매다. Likewise 'take it off' is 풀다 (undo), not 벗다 (which is for shoes/clothes/hats).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "안전벨트 is literally a 'safety belt'. The make-or-break point is the verb: Korean fastens a belt with 매다 (to tie/fasten, the same verb as a necktie) and undoes it with 풀다 (to loosen) — NOT 입다/벗다, which are for clothing you put on the body."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A common everyday synonym is just 벨트 ('안전벨트 매', often shortened to '벨트 매'), and on signs/laws you meet 착용 (着用 'wearing')."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "A hybrid: Sino-Korean 안전 安全 (安 peace/safe + 全 complete) = 'safety' + the loanword 벨트 (belt)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'wear/put on a seatbelt' tempts learners toward 입다, but 안전벨트를 입다 is wrong; it must be 안전벨트를 매다. Likewise 'take it off' is 풀다 (undo), not 벗다 (which is for shoes/clothes/hats)."
+      }
+    ],
     "mistakes": [
-      "Use 안전벨트를 매다 (fasten the seatbelt), not 안전벨트를 입다.",
-      "To take it off, say 안전벨트를 풀다, not 안전벨트를 벗다."
+      "Saying 안전벨트를 입다 — clothing verbs don't apply; a belt is fastened: 안전벨트를 '매다'.",
+      "Saying 안전벨트를 벗다 to take it off — 벗다 is for clothes/shoes; undo a belt with 안전벨트를 '풀다'.",
+      "Mixing up 매다 (fasten) with 메다 — 메다 means to sling a bag over the shoulder; the seatbelt verb is 매다."
     ]
   },
   {
@@ -388,47 +544,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "헬멧",
-        "helmet",
-        "protective hat for riding a bike or motorcycle"
-      ],
-      [
-        "헬멧을 써요",
+        "헬멧을 쓰다",
         "put on a helmet",
-        "헬멧 + 을 + 쓰다"
+        "head-gear verb 쓰다 (wear on the head), same as a hat/glasses"
       ],
       [
-        "헬멧을 벗어요",
+        "헬멧을 벗다",
         "take off a helmet",
-        "벗다 = to take off headwear"
+        "벗다 (take off); the opposite of 쓰다 for head items"
       ],
       [
         "자전거 헬멧",
-        "bike helmet",
-        "자전거 (bicycle) + 헬멧"
+        "bicycle helmet",
+        "자전거 (bicycle) + 헬멧; also 오토바이 헬멧 for motorcycles"
+      ],
+      [
+        "헬멧 착용 의무",
+        "mandatory helmet use",
+        "착용 着用 (wearing) + 의무 義務 (duty); legal phrasing for kickboards/bikes"
       ]
     ],
     "examples": [
       [
-        "자전거를 탈 때 헬멧을 써요.",
+        "자전거 탈 때 헬멧을 써요.",
         "I wear a helmet when I ride a bike.",
-        "헬멧을 쓰다 = wear a helmet"
+        "simple habit; -ㄹ 때 (when) + 쓰다 for head gear"
       ],
       [
-        "헬멧을 꼭 쓰세요.",
-        "Be sure to wear a helmet.",
-        "safety advice with 꼭"
+        "킥보드 탈 때도 헬멧을 꼭 써야 해요.",
+        "You have to wear a helmet on a kickboard too.",
+        "everyday rule; 꼭 (definitely) + -아야 하다 (must)"
       ],
       [
-        "헬멧이 좀 작아요.",
-        "The helmet is a bit small.",
-        "describing helmet size"
+        "헬멧이 좀 작아서 머리가 꽉 껴요.",
+        "The helmet's a bit small, so it squeezes my head.",
+        "real fitting issue; 꽉 (tightly) + 끼다 (be wedged/snug)"
       ]
     ],
-    "nuance": "헬멧 is a helmet, a loanword from English, worn for safety on bikes, motorcycles, and kickboards. The verb is 쓰다 (to put on the head) and 벗다 (to take off). It is essential vocabulary now that 전동킥보드 riding is common.",
+    "nuance": "헬멧 is a straight loanword from English 'helmet', with no hanja, used for the protective head shell worn on bikes, motorcycles, and especially 전동킥보드 (electric kickboards). A close native-ish synonym is 안전모 安全帽 (安全 safety + 帽 hat/cap), but 안전모 leans toward construction/industrial hard hats, while 헬멧 is the everyday sports/riding word — both can appear in safety rules. The decisive grammar point is the verb family for things worn on the HEAD: Korean uses 쓰다 to put on a helmet, hat, or glasses, and 벗다 to take them off. This is the key English-speaker pitfall — 'wear a helmet' invites 입다 (clothing) or even 풀다 (undo, from belts), but neither fits: it must be 헬멧을 쓰다 and 헬멧을 벗다. Note 쓰다 is a busy homonym (also 'to write', 'to use', 'to be bitter'), so context, not the verb alone, tells you it means 'wear on the head' here.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "헬멧 is a straight loanword from English 'helmet', used for the protective head shell worn on bikes, motorcycles, and especially 전동킥보드 (electric kickboards). The decisive grammar point is the verb family for things worn on the HEAD: Korean uses 쓰다 to put on a helmet, hat, or glasses, and 벗다 to take them off. Note 쓰다 is a busy homonym (also 'to write', 'to use', 'to be bitter'), so context, not the verb alone, tells you it means 'wear on the head' here."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A close native-ish synonym is 안전모 安全帽 (安全 safety + 帽 hat/cap), but 안전모 leans toward construction/industrial hard hats, while 헬멧 is the everyday sports/riding word — both can appear in safety rules."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "헬멧 is a straight loanword from English 'helmet', with no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Wear a helmet' invites 입다 (clothing) or even 풀다 (undo, from belts), but neither fits: it must be 헬멧을 쓰다 and 헬멧을 벗다."
+      }
+    ],
     "mistakes": [
-      "Use 헬멧을 쓰다 (wear a helmet), not 헬멧을 입다, since it goes on the head.",
-      "To remove it, say 헬멧을 벗다, not 헬멧을 풀다."
+      "Saying 헬멧을 입다 — 입다 is for body clothing; head gear uses 헬멧을 '쓰다'.",
+      "Saying 헬멧을 풀다 to remove it — 풀다 is for undoing belts/knots; take off head gear with 헬멧을 '벗다'.",
+      "Assuming 안전모 and 헬멧 are interchangeable — 안전모 sounds like an industrial hard hat, while a riding/cycling helmet is 헬멧."
     ]
   },
   {
@@ -442,47 +621,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "출발역",
-        "departure station",
-        "the station where your trip begins"
-      ],
-      [
-        "출발역이 어디예요?",
-        "where is the departure station?",
-        "asking the start station"
-      ],
-      [
-        "출발역에서 타요",
-        "get on at the departure station",
-        "출발역 + 에서 + 타다"
+        "출발역에서 타다",
+        "board at the departure station",
+        "에서 + 타다; the action of getting on happens there"
       ],
       [
         "출발역과 도착역",
         "departure and arrival stations",
-        "paired with 도착역"
+        "the natural pair; 과/와 links the two endpoints"
+      ],
+      [
+        "출발 시각",
+        "departure time",
+        "출발 出發 + 시각 時刻 (point in time); the time on your ticket"
+      ],
+      [
+        "출발역이 어디예요?",
+        "where's the departure station?",
+        "existence/identity question with 이/가"
       ]
     ],
     "examples": [
       [
         "출발역이 서울역이에요.",
         "The departure station is Seoul Station.",
-        "stating the start point"
+        "simple identity sentence; 이에요 (it is)"
       ],
       [
-        "출발역에서 기차를 타요.",
-        "I get on the train at the departure station.",
-        "출발역에서 타다"
+        "출발역에서 미리 표를 받았어요.",
+        "I picked up the ticket in advance at the departure station.",
+        "everyday step; 미리 (beforehand) + 에서 for the place of the action"
       ],
       [
-        "출발역이 어디예요?",
-        "Where is the departure station?",
-        "asking on the KTX"
+        "출발역을 잘못 알아서 다른 역으로 갔어요.",
+        "I had the wrong departure station, so I went to a different one.",
+        "real mistake; here 출발역 is the object of 알다 (know), so it takes 을"
       ]
     ],
-    "nuance": "출발역 means the departure station, made of 출발 (departure) plus 역 (station). It is the station where your train trip starts. It naturally pairs with 도착역 (arrival station) and uses 에서 for getting on there.",
+    "nuance": "출발역 出發驛 stacks 出 (go out) + 發 (set off/emit) + 驛 (station) = 'the station you set off from', the origin of a train trip. Its built-in opposite is 도착역 (arrival station, 到着驛), and the two are the standard pair on tickets and booking screens. Note the difference between 출발역 (the origin STATION) and 출발 (出發, the act of departing) and 출발지 (a more general 'departure point', not necessarily a rail station): for trains and subways you want 출발역. Register is plain and travel-flavored. The English-speaker pitfall is the boarding particle: you get on a train AT the station, so it's 출발역'에서' 타다 (action-location 에서), never 출발역을 타다 — 타다 takes the vehicle as its object (기차를 타다), while the station is just where that happens.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "출발역 means 'the station you set off from', the origin of a train trip. Register is plain and travel-flavored."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its built-in opposite is 도착역 (arrival station, 到着驛), and the two are the standard pair on tickets and booking screens. Note the difference between 출발역 (the origin STATION) and 출발 (出發, the act of departing) and 출발지 (a more general 'departure point', not necessarily a rail station): for trains and subways you want 출발역."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "出發驛 stacks 出 (go out) + 發 (set off/emit) + 驛 (station) = 'the station you set off from'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is the boarding particle: you get on a train AT the station, so it's 출발역'에서' 타다 (action-location 에서), never 출발역을 타다 — 타다 takes the vehicle as its object (기차를 타다), while the station is just where that happens."
+      }
+    ],
     "mistakes": [
-      "Use 출발역에서 타요 (get on at the departure station), not 출발역을 타요.",
-      "출발역 is where you start; do not confuse it with 도착역, where you get off."
+      "Saying 출발역을 타요 — you board the train, not the station: 출발역'에서' 기차'를' 타요.",
+      "Confusing 출발역 with 도착역 — 출발역 is where you start/board, 도착역 is where you end/get off; don't swap them on a booking.",
+      "Using 출발 (the departure event) where you need the station — 'my departure station is Seoul Station' is 출발역이 서울역이에요, not 출발이 서울역이에요."
     ]
   },
   {
@@ -496,47 +698,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "도착역",
-        "arrival station",
-        "the station where your trip ends"
-      ],
-      [
-        "도착역에서 내려요",
+        "도착역에서 내리다",
         "get off at the arrival station",
-        "도착역 + 에서 + 내리다"
+        "에서 + 내리다; the action of alighting happens there"
       ],
       [
-        "다음이 도착역이에요",
-        "the next stop is the arrival station",
-        "다음 = next"
+        "이번 역이 도착역이다",
+        "this stop is the arrival station",
+        "이번 역 (this stop) is the announcement framing for 'we're here'"
       ],
       [
-        "도착역이 어디예요?",
-        "where is the arrival station?",
-        "asking the end station"
+        "도착 시각",
+        "arrival time",
+        "도착 到着 + 시각 時刻; the ETA on your ticket"
+      ],
+      [
+        "도착역까지",
+        "all the way to the arrival station",
+        "까지 = up to; marks the trip's end point"
       ]
     ],
     "examples": [
       [
         "도착역에서 내려요.",
         "I get off at the arrival station.",
-        "도착역에서 내리다"
+        "simple; 에서 marks where the getting-off happens"
       ],
       [
-        "도착역이 부산역이에요.",
-        "The arrival station is Busan Station.",
-        "stating the end point"
+        "도착역이 부산역이라서 끝까지 가요.",
+        "The arrival station is Busan Station, so I ride to the very end.",
+        "everyday; 이라서 (because it is) + 끝까지 (to the end)"
       ],
       [
-        "다음이 도착역이에요.",
-        "The next stop is the arrival station.",
-        "announcing arrival soon"
+        "이번 역이 도착역이니까 짐 챙기세요.",
+        "This stop is your arrival station, so gather your things.",
+        "real announcement tone; -니까 (since) + 챙기다 (gather/pack up)"
       ]
     ],
-    "nuance": "도착역 means the arrival station, made of 도착 (arrival) plus 역 (station). It is the station where you get off at the end of your trip. It pairs with 내리다 (to get off) and uses 에서 to mark the place.",
+    "nuance": "도착역 到着驛 stacks 到 (reach) + 着 (attach/land) + 驛 (station) = 'the station you arrive at', the endpoint of a train trip. Its mirror-image partner is 출발역 (departure station), and the pair frames every ticket. Distinguish 도착역 (the arrival STATION) from 도착 (到着, the act/fact of arriving) and from 목적지 (your overall destination, which may be reached after leaving the station): on the train itself, the stop where you alight is your 도착역. The contrast with 종착역 (終着驛, the train's final terminus) also matters — your 도착역 is where YOU get off, which may come before the line's 종착역. The English-speaker pitfall is the alighting particle: you get off AT the station, so 도착역'에서' 내리다 (action-location 에서), not 도착역을 내리다 — 내리다 is intransitive here, taking the place with 에서, not the station as an object.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "도착역 means 'the station you arrive at', the endpoint of a train trip."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its mirror-image partner is 출발역 (departure station), and the pair frames every ticket. Distinguish 도착역 (the arrival STATION) from 도착 (到着, the act/fact of arriving) and from 목적지 (your overall destination, which may be reached after leaving the station): on the train itself, the stop where you alight is your 도착역. The contrast with 종착역 (終着驛, the train's final terminus) also matters — your 도착역 is where YOU get off, which may come before the line's 종착역."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "到着驛 stacks 到 (reach) + 着 (attach/land) + 驛 (station) = 'the station you arrive at'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is the alighting particle: you get off AT the station, so 도착역'에서' 내리다 (action-location 에서), not 도착역을 내리다 — 내리다 is intransitive here, taking the place with 에서, not the station as an object."
+      }
+    ],
     "mistakes": [
-      "Use 도착역에서 내려요 (get off at the arrival station), not 도착역을 내려요.",
-      "도착역 is where you get off; do not confuse it with 출발역, where you board."
+      "Saying 도착역을 내려요 — 내리다 (get off) takes the place with 에서: 도착역'에서' 내려요.",
+      "Confusing 도착역 with 출발역 — 도착역 is where you get off at the end; 출발역 is where you boarded.",
+      "Assuming 도착역 equals the line's last stop — your 도착역 is where you personally alight; the train's final terminus is 종착역."
     ]
   },
   {
@@ -550,47 +775,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "비행기표",
-        "plane ticket",
-        "a ticket for an airplane"
-      ],
-      [
-        "비행기표를 사요",
+        "비행기표를 사다",
         "buy a plane ticket",
-        "비행기표 + 를 + 사다"
+        "사다 (buy); the ticket is the object with 를, verb is not 하다"
       ],
       [
-        "비행기표를 예약해요",
-        "book a plane ticket",
-        "예약하다 = to reserve"
+        "비행기표를 예매하다",
+        "book a plane ticket in advance",
+        "예매하다 豫買 = reserve-and-buy ahead, the natural word for flights/trains"
       ],
       [
-        "비행기표가 비싸요",
+        "왕복 비행기표",
+        "round-trip plane ticket",
+        "왕복 往復 (going and returning) ↔ 편도 (one way)"
+      ],
+      [
+        "비행기표가 비싸다",
         "the plane ticket is expensive",
-        "비싸다 about price"
+        "비싸다 (expensive) describes the fare with 가/이"
       ]
     ],
     "examples": [
       [
         "비행기표를 샀어요.",
         "I bought a plane ticket.",
-        "past tense of 사다"
+        "simple past of 사다; ticket as object with 를"
       ],
       [
-        "비행기표가 너무 비싸요.",
-        "The plane ticket is too expensive.",
-        "비싸다 = expensive"
+        "성수기라 비행기표가 너무 비싸요.",
+        "It's peak season, so plane tickets are way too expensive.",
+        "everyday gripe; 성수기 (high season) + 비싸다 about the fare"
       ],
       [
-        "비행기표를 예약하고 싶어요.",
-        "I want to book a plane ticket.",
-        "-고 싶어요 = want to"
+        "왕복 비행기표를 미리 예매했어요.",
+        "I booked a round-trip plane ticket in advance.",
+        "real planning; 왕복 (round trip) + 예매하다 (book ahead)"
       ]
     ],
-    "nuance": "비행기표 means a plane ticket, made of 비행기 (airplane) plus 표 (ticket). You use it when buying or booking a flight. It pairs with 사다 (to buy) and 예약하다 (to reserve), like a train 표 but for flights.",
+    "nuance": "비행기표 is a transparent compound: 비행기 飛行機 (飛 fly + 行 go + 機 machine = 'flying machine', airplane) + 표 票 (ticket) = 'plane ticket'. A common synonym is 항공권 航空券 (航空 aviation + 券 ticket/voucher), which is the formal/written term you see on booking sites and itineraries, whereas 비행기표 is the everyday spoken version — same thing, different register. The bare 표 means any ticket (train, movie, concert), so 비행기 is what specifies a flight. The verbs are 사다 (buy) and especially 예매하다 (book ahead), with 예약하다 (reserve) also fine. The English-speaker pitfall is reaching for 하다: 'do/get a ticket' does not translate — you 'buy' or 'book' it, so say 비행기표를 사다 / 예매하다, not 비행기표를 하다. A second trap is dropping 비행기 and saying only 표, which is too vague when a flight is meant.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "비행기표 means 'plane ticket'. The bare 표 means any ticket (train, movie, concert), so 비행기 is what specifies a flight. The verbs are 사다 (buy) and especially 예매하다 (book ahead), with 예약하다 (reserve) also fine."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A common synonym is 항공권 航空券 (航空 aviation + 券 ticket/voucher), which is the formal/written term you see on booking sites and itineraries, whereas 비행기표 is the everyday spoken version — same thing, different register."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "A transparent compound: 비행기 飛行機 (飛 fly + 行 go + 機 machine = 'flying machine', airplane) + 표 票 (ticket) = 'plane ticket'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is reaching for 하다: 'do/get a ticket' does not translate — you 'buy' or 'book' it, so say 비행기표를 사다 / 예매하다, not 비행기표를 하다. A second trap is dropping 비행기 and saying only 표, which is too vague when a flight is meant."
+      }
+    ],
     "mistakes": [
-      "Use 비행기표를 사요 (buy a plane ticket), not 비행기표를 해요.",
-      "표 alone can mean any ticket; add 비행기 to specify a plane ticket."
+      "Saying 비행기표를 해요 — you don't 'do' a ticket; you 비행기표를 '사요' (buy) or '예매해요' (book).",
+      "Using bare 표 for a flight — 표 alone could be any ticket; specify with 비행기표 (or 항공권) for a plane.",
+      "Treating 항공권 and 비행기표 as different things — they're the same; 항공권 is just the formal/written term you meet on booking sites."
     ]
   }
 ]

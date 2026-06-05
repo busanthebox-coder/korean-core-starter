@@ -22,16 +22,46 @@
       "shallWe": "데려올까요?"
     },
     "usage": [
-      ["친구를 데려와요.", "I bring a friend.", "Bring a person here"],
-      ["동생을 집에 데려왔어요.", "I brought my sibling home.", "Past action"]
+      ["친구를 데려오다", "to bring a friend (here)", "The person is always marked with 를/을, never 와 'with'"],
+      ["집에 데려오다", "to bring (someone) home", "The destination takes 에; here it is the speaker's own side"],
+      ["데려와 주세요", "please bring (them)", "Adding -아 주다 turns it into a polite favor request"],
+      ["몰래 데려오다", "to bring (someone) secretly", "몰래 'secretly' is a natural adverb partner"]
     ],
     "examples": [
-      ["내일 친구를 파티에 데려올 거예요.", "I will bring a friend to the party tomorrow.", "Future plan"],
-      ["아이를 여기에 데려와 주세요.", "Please bring the child here.", "Polite request"],
-      ["강아지를 공원에 데려와도 돼요?", "May I bring my dog to the park?", "Asking permission"]
+      ["동생 데려와.", "Bring your sibling.", "Bare casual command between close family"],
+      ["내일 친구를 파티에 데려올 거예요.", "I'll bring a friend to the party tomorrow.", "를 marks the person, 에 marks the destination"],
+      ["입양한 강아지를 보호소에서 집으로 데려왔어요.", "We brought the adopted puppy home from the shelter.", "Real-life adoption context; works for animals too"]
     ],
-    "nuance": "데려오다 means bringing a person or animal toward where the speaker is. Use 데려가다 instead when you take them away from the speaker. For objects you use 가져오다, not 데려오다.",
-    "mistakes": ["Do not use 가져오다 for people; 가져오다 is only for objects."],
+    "nuance": "데려오다 = 데리다 (to have someone in one's charge) + 오다 (to come), so it literally means 'come having someone with you' — to bring a living being TOWARD the speaker's side. The pair to learn against it is 데려가다 (take a person away from here) and 데리고 오다, which is the looser two-word version with the same meaning. The decisive split is animacy: people and animals take 데려오다/데려가다, but objects take 가져오다/가져가다 — Korean grammaticalizes 'living vs non-living' where English just says 'bring' for everything, and this is the number-one trap. Because 오다 is built in, the conjugation follows 오다: 와요/왔어요, giving 데려와요, 데려왔어요. It is neutral in register and extremely common in everyday speech: 아이를 데려오다, 친구를 데려오다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "데려오다 literally means 'come having someone with you' — to bring a living being TOWARD the speaker's side. It is neutral in register and extremely common in everyday speech: 아이를 데려오다, 친구를 데려오다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The pair to learn against it is 데려가다 (take a person away from here), plus 데리고 오다, the looser two-word version with the same meaning. The decisive split is animacy: people and animals take 데려오다/데려가다, but objects take 가져오다/가져가다 — Korean grammaticalizes 'living vs non-living' where English just says 'bring' for everything."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "데려오다 = 데리다 (to have someone in one's charge) + 오다 (to come)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Because 오다 is built in, the conjugation follows 오다: 와요/왔어요.",
+        "chips": ["데려와요", "데려왔어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The animacy split is the number-one trap: English just says 'bring' for everything, but Korean forces 데려오다 for living beings and 가져오다 for objects."
+      }
+    ],
+    "mistakes": ["Saying 가방을 데려와요 for 'bring a bag' — 데려오다 is only for people/animals; an inanimate bag must be 가방을 가져와요.", "Marking the person with 와/과 as in 친구와 데려와요 by copying English 'come WITH a friend' — the person is the object and takes 를/을: 친구를 데려와요.", "Using 데려오다 when the movement is away from you (e.g. taking your kid to grandma's); that direction is 데려가다, not 데려오다."],
     "irregular": "오다 compound"
   },
   {
@@ -57,16 +87,41 @@
       "shallWe": "데려다줄까요?"
     },
     "usage": [
-      ["집까지 데려다줘요.", "I take you home.", "Escort someone home"],
-      ["역까지 데려다줬어요.", "I took them to the station.", "Past action"]
+      ["집까지 데려다주다", "to take (someone) all the way home", "까지 'as far as' marks the endpoint of the escort"],
+      ["차로 데려다주다", "to give (someone) a ride / drive them there", "차로 with the instrumental 로 = 'by car'"],
+      ["데려다줄게요", "I'll take you (offer)", "-ㄹ게요 makes it a warm spontaneous offer"],
+      ["바래다주다", "to walk/see (someone) off", "Near-synonym; 바래다주다 leans 'on foot, see off', 데려다주다 'deliver to a destination'"]
     ],
     "examples": [
-      ["비가 와서 집까지 데려다줄게요.", "It is raining so I will take you home.", "Offering help"],
-      ["아이를 학교에 데려다줘야 해요.", "I have to take the child to school.", "Expressing obligation"],
-      ["공항까지 데려다줄 수 있어요?", "Can you take me to the airport?", "Asking for help"]
+      ["내가 데려다줄게.", "I'll take you there.", "Casual offer to a friend; 내가 stresses 'I'll do it'"],
+      ["비가 와서 집까지 데려다줄게요.", "It's raining, so I'll take you home.", "-아서 gives the reason; 까지 marks the endpoint"],
+      ["아이를 매일 아침 학교에 데려다주고 회사에 가요.", "I drop my child at school every morning and then go to work.", "Real routine; 데려다주고 chains to the next action"]
     ],
-    "nuance": "데려다주다 means escorting a person to a place as a favor for them. It combines 데리다 with 주다, so the 주다 part shows the action benefits someone else. For only carrying objects, use 가져다주다 instead.",
-    "mistakes": ["Do not use 데려가다 when you mean kindly escorting someone for their sake; 데려다주다 adds the favor meaning."],
+    "nuance": "데려다주다 stacks three pieces: 데리다 (have in charge) + -다(가) (do, then) + 주다 (give/do for someone), so it means 'escort a person to a place AND it's a favor for them'. Contrast it sharply with bare 데려가다 (take someone along), which is neutral about whose benefit it is — 데려다주다 always frames the trip as a kindness done for the passenger, exactly the nuance English 'give a ride / drop off' carries. The closest synonym 바래다주다 emphasizes accompanying/seeing off (often walking), while 데려다주다 emphasizes delivering them to the destination. For objects the parallel word is 가져다주다 (bring/fetch a thing for someone), so keep the people/thing split. Conjugation rides on 주다: 줘요/줬어요 → 데려다줘요, 데려다줬어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "데려다주다 means 'escort a person to a place AND it's a favor for them'. It always frames the trip as a kindness done for the passenger, exactly the nuance English 'give a ride / drop off' carries."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it sharply with bare 데려가다 (take someone along), which is neutral about whose benefit it is. The closest synonym 바래다주다 emphasizes accompanying/seeing off (often walking), while 데려다주다 emphasizes delivering them to the destination. For objects the parallel word is 가져다주다 (bring/fetch a thing for someone), so keep the people/thing split."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "데려다주다 stacks three pieces: 데리다 (have in charge) + -다(가) (do, then) + 주다 (give/do for someone)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Conjugation rides on 주다: 줘요/줬어요.",
+        "chips": ["데려다줘요", "데려다줬어요"]
+      }
+    ],
+    "mistakes": ["Using 데려가다 to a friend you're kindly driving home — it loses the 'for your sake' warmth; 데려다주다 is the natural offer.", "Saying 가져다주다 for a person ('데려다주다' vs '가져다주다'): 가져다주다 fetches an object, so use 데려다주다 for people.", "Writing the request as 데려다 주세요 with a space and treating 주다 as separate is acceptable, but learners often drop 주다 entirely (데려다세요), which is ungrammatical — keep 주다."],
     "irregular": null
   },
   {
@@ -92,16 +147,41 @@
       "shallWe": "찾아갈까요?"
     },
     "usage": [
-      ["친구를 찾아가요.", "I go visit a friend.", "Visit a person"],
-      ["선생님을 찾아갔어요.", "I went to see the teacher.", "Past action"]
+      ["선생님을 찾아가다", "to go (and seek out) the teacher", "A person being visited takes 를/을"],
+      ["사무실로 찾아가다", "to go to the office (to reach someone)", "로 marks the place you head for"],
+      ["직접 찾아가다", "to go in person", "직접 'in person' is a very common partner adverb"],
+      ["물어물어 찾아가다", "to find one's way there by asking around", "Fixed expression for reaching a hard-to-find place"]
     ],
     "examples": [
-      ["주말에 할머니를 찾아갈 거예요.", "I will go visit grandmother this weekend.", "Future plan"],
-      ["문제가 있으면 사무실로 찾아가세요.", "If you have a problem, go to the office.", "Giving advice"],
-      ["오랜만에 옛 친구를 찾아가고 싶어요.", "I want to go visit an old friend after a long time.", "Expressing a wish"]
+      ["주말에 할머니 집에 찾아가요.", "I go visit grandma's place on the weekend.", "Everyday visit; 에 marks the destination"],
+      ["문제가 있으면 직접 사무실로 찾아가세요.", "If there's a problem, go to the office in person.", "직접 + 로 = head there yourself to sort it out"],
+      ["주소만 들고 처음 가는 동네를 물어물어 찾아갔어요.", "With only the address, I found my way to the unfamiliar neighborhood by asking around.", "Shows the 'seek out / track down' shade"]
     ],
-    "nuance": "찾아가다 means actively going to see a person or place, often making an effort to reach them. It moves away from the speaker, while 찾아오다 is when someone comes to the speaker. It is warmer than just 가다 because it implies seeking someone out.",
-    "mistakes": ["Use 찾아오다 when the visitor moves toward the speaker instead of away."],
+    "nuance": "찾아가다 = 찾다 (to look for/seek) + -아 + 가다 (to go), literally 'go seeking', so it is not plain 가다 'go' — it adds the sense of actively going TO reach a specific person or hard-to-find place, away from the speaker. Its mirror image is 찾아오다 (someone comes seeking YOU), and the direction (가 = away, 와 = toward) is the whole contrast. Beside neutral 방문하다 (Sino-Korean 訪問, 'visit', stiff/formal, used in writing and news), 찾아가다 is the warm spoken word that implies effort and intention to meet. It also has a second concrete sense: 찾아가다 = to go and collect/claim something (e.g. 택배를 찾아가다 'pick up your parcel'). It rides on 가다: 가요/갔어요 → 찾아가요, 찾아갔어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "찾아가다 literally means 'go seeking', so it is not plain 가다 'go' — it adds the sense of actively going TO reach a specific person or hard-to-find place, away from the speaker. It also has a second concrete sense: to go and collect/claim something (e.g. 택배를 찾아가다 'pick up your parcel')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its mirror image is 찾아오다 (someone comes seeking YOU), and the direction (가 = away, 와 = toward) is the whole contrast. Beside neutral 방문하다 (stiff/formal, used in writing and news), 찾아가다 is the warm spoken word that implies effort and intention to meet."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "찾아가다 = 찾다 (to look for/seek) + -아 + 가다 (to go). The formal synonym 방문하다 comes from Sino-Korean 訪問 'visit'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It rides on 가다: 가요/갔어요.",
+        "chips": ["찾아가요", "찾아갔어요"]
+      }
+    ],
+    "mistakes": ["Using 찾아오다 when YOU are the one travelling — 찾아오다 means the other person comes to you; if you go to them it's 찾아가다.", "Substituting plain 가다 for an effortful visit and losing the 'seek out' nuance — 친구를 가요 is wrong/odd; say 친구를 찾아가요 or 친구한테 가요.", "Forgetting the second meaning 'claim/pick up': students translate 택배 찾아가세요 as 'go visit the parcel'; it means 'come collect your parcel'."],
     "irregular": null
   },
   {
@@ -127,16 +207,41 @@
       "shallWe": "들어줄까요?"
     },
     "usage": [
-      ["부탁을 들어줘요.", "I grant a favor.", "Accept a request"],
-      ["소원을 들어줬어요.", "I granted the wish.", "Past action"]
+      ["부탁을 들어주다", "to grant a favor / say yes to a request", "부탁 is the most frequent object of this verb"],
+      ["소원을 들어주다", "to grant a wish", "Used of parents, Santa, genies; 소원 'wish' is fixed here"],
+      ["이야기를 들어주다", "to lend an ear to someone's story", "Here it means listening kindly, not granting"],
+      ["떼를 들어주다", "to give in to (a child's) whining", "Common parenting phrase"]
     ],
     "examples": [
-      ["제 부탁 하나만 들어주세요.", "Please grant me just one favor.", "Polite request"],
-      ["아이의 부탁을 다 들어줄 수는 없어요.", "I cannot grant all of the child's requests.", "Expressing limits"],
-      ["친구 이야기를 끝까지 들어줬어요.", "I listened to my friend's story to the end.", "Listening kindly"]
+      ["부탁 하나만 들어줘.", "Just do me one favor.", "Casual; 하나만 'just one' softens the ask"],
+      ["제 부탁을 들어주셔서 정말 감사합니다.", "Thank you so much for granting my request.", "Honorific -주시- thanks a superior for saying yes"],
+      ["아이의 부탁을 다 들어줄 수는 없지만 오늘은 들어줬어요.", "I can't grant the child's every request, but today I did.", "Real situation contrasting limits and an exception"]
     ],
-    "nuance": "들어주다 means accepting and fulfilling someones request or wish as a favor. It also means listening to someone attentively and supportively. The 주다 part shows the action is done for another persons benefit.",
-    "mistakes": ["Plain 듣다 just means to hear; 들어주다 adds the meaning of granting or kindly listening for someone."],
+    "nuance": "들어주다 = 듣다 (to hear/listen) + -어 + 주다 (do for someone), and crucially the ㄷ of 듣다 turns into ㄹ before a vowel (듣 → 들-), a regular ㄷ-irregular shift, giving 들어-. The 주다 adds 'as a favour for that person', so the whole verb means either (1) accept and fulfil a request/wish, or (2) listen attentively and supportively. Contrast it with plain 듣다, which is just neutral 'hear/listen' with no benefit attached — 음악을 들어요 'I listen to music' could never be 들어줘요 unless you mean you're doing it FOR someone. Its near-synonym 들어드리다 is the same verb made humble (드리다) for elders/customers. Habitual partners: 부탁을 들어주다, 소원을 들어주다, 이야기를 들어주다. Don't confuse it with 들다 'to lift/hold', a totally different verb.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The 주다 adds 'as a favour for that person', so the whole verb means either (1) accept and fulfil a request/wish, or (2) listen attentively and supportively. Habitual partners: 부탁을 들어주다, 소원을 들어주다, 이야기를 들어주다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it with plain 듣다, which is just neutral 'hear/listen' with no benefit attached — 음악을 들어요 'I listen to music' could never be 들어줘요 unless you mean you're doing it FOR someone. Its near-synonym 들어드리다 is the same verb made humble (드리다) for elders/customers. Don't confuse it with 들다 'to lift/hold', a totally different verb."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "들어주다 = 듣다 (to hear/listen) + -어 + 주다 (do for someone)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Crucially the ㄷ of 듣다 turns into ㄹ before a vowel (듣 → 들-), a regular ㄷ-irregular shift, giving 들어-.",
+        "chips": ["들어줘요", "들어줬어요", "들어주세요"]
+      }
+    ],
+    "mistakes": ["Using 듣다 alone to mean 'grant my request' — 제 부탁을 들어요 sounds like 'I hear my favor'; granting is 부탁을 들어줘요.", "Confusing 들어주다 (from 듣다, listen) with 들어주다 from 들다 (lift) for someone; for carrying a heavy thing for someone you'd say 들어 주다 (들다) — context and 짐 'load' vs 부탁 'request' disambiguate.", "Forgetting the ㄷ→ㄹ change and writing 듣어줘요; the correct conjugated stem is 들어-, so 들어줘요."],
     "irregular": null
   },
   {
@@ -162,16 +267,35 @@
       "shallWe": "챙길까요?"
     },
     "usage": [
-      ["우산을 챙겨요.", "I take an umbrella.", "Pack or grab a needed item"],
-      ["동생을 잘 챙겼어요.", "I took good care of my sibling.", "Looking after someone"]
+      ["짐을 챙기다", "to pack/gather one's things", "Grabbing the items you need before leaving"],
+      ["밥을 챙겨 먹다", "to make sure to eat properly", "챙겨 + 먹다; a super-common health/care phrase"],
+      ["건강을 챙기다", "to look after one's health", "Abstract object: take care OF something"],
+      ["생일을 챙기다", "to remember/celebrate someone's birthday", "챙기다 = not let an occasion slip by"]
     ],
     "examples": [
-      ["나갈 때 지갑을 꼭 챙기세요.", "Be sure to take your wallet when you go out.", "Reminder"],
-      ["엄마가 제 도시락을 챙겨 줬어요.", "Mom packed my lunch for me.", "Past kindness"],
-      ["바빠도 밥은 챙겨 먹어야 해요.", "Even if you are busy, you must eat properly.", "Caring advice"]
+      ["우산 챙겨!", "Grab an umbrella!", "Bare casual reminder; object 우산 with no particle"],
+      ["나갈 때 지갑이랑 열쇠를 꼭 챙기세요.", "Be sure to take your wallet and keys when you leave.", "꼭 'without fail' + 챙기다 = don't forget to grab"],
+      ["엄마가 매일 제 도시락을 챙겨 주시고 건강도 챙겨 주세요.", "Mom packs my lunch every day and looks after my health too.", "Shows both senses: pack things AND care for a person"]
     ],
-    "nuance": "챙기다 has two everyday meanings: gathering and packing things you need, and looking after a person warmly. With food it means to make sure someone eats. It is a very common, caring word in daily Korean life.",
-    "mistakes": ["Do not use 들다 (lift) when you mean packing or remembering to bring something; that is 챙기다."],
+    "nuance": "챙기다 is one of the most useful 'caring' verbs in daily Korean, with a cluster of related senses: (1) gather/pack the things you need (짐을 챙기다), (2) make sure not to skip something, especially food (밥 챙겨 먹어 'make sure you eat'), and (3) look after a person attentively (동생 좀 챙겨 'keep an eye on your sibling'). Set it against 돌보다 (care for over time, like nursing a child or the sick): 챙기다 is quicker, more about 'making sure / not letting slip', while 돌보다 is sustained nurturing. It also contrasts with 챙겨 주다, where adding 주다 makes the care explicitly a favour for someone. The English trap is reaching for 들다 'lift' or 가지다 'have' when you mean 'grab/remember to bring' — that everyday act is 챙기다. Native warmth: 잘 챙겨 먹어요 is a standard way to say 'take care of yourself'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "챙기다 is one of the most useful 'caring' verbs in daily Korean, with a cluster of related senses: (1) gather/pack the things you need (짐을 챙기다), (2) make sure not to skip something, especially food (밥 챙겨 먹어 'make sure you eat'), and (3) look after a person attentively (동생 좀 챙겨 'keep an eye on your sibling'). Native warmth: 잘 챙겨 먹어요 is a standard way to say 'take care of yourself'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Set it against 돌보다 (care for over time, like nursing a child or the sick): 챙기다 is quicker, more about 'making sure / not letting slip', while 돌보다 is sustained nurturing. It also contrasts with 챙겨 주다, where adding 주다 makes the care explicitly a favour for someone."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English trap is reaching for 들다 'lift' or 가지다 'have' when you mean 'grab/remember to bring' — that everyday act is 챙기다."
+      }
+    ],
+    "mistakes": ["Using 들다 'to lift' for 'remember to bring an umbrella' — 우산을 들어요 means physically holding it up; 'grab/take it along' is 우산을 챙겨요.", "Saying 밥을 먹어 to tell someone to take care of themselves, missing the nuance — Koreans say 밥 잘 챙겨 먹어 ('make sure you eat'), where 챙기다 carries the care.", "Treating 챙기다 as only 'pack objects' and never using it for people; 아이를 챙기다 / 동생을 챙기다 ('look after') is just as common."],
     "irregular": null
   },
   {
@@ -197,16 +321,46 @@
       "shallWe": "바래다줄까요?"
     },
     "usage": [
-      ["집까지 바래다줘요.", "I walk you home.", "Accompany someone home"],
-      ["역까지 바래다줬어요.", "I saw them off to the station.", "Past action"]
+      ["집까지 바래다주다", "to walk/see (someone) all the way home", "까지 marks how far you accompany them"],
+      ["역까지 바래다주다", "to see (someone) off to the station", "Classic endpoint for an on-foot send-off"],
+      ["바래다줄까요?", "shall I walk you (there)?", "-ㄹ까요 offers the kindness as a question"],
+      ["바래다줘서 고마워요", "thanks for seeing me off", "-아서 + 고맙다 thanks for the favor"]
     ],
     "examples": [
-      ["밤이 늦었으니 집까지 바래다줄게요.", "It is late so I will walk you home.", "Offering kindness"],
-      ["여자친구를 버스 정류장까지 바래다줬어요.", "I walked my girlfriend to the bus stop.", "Past action"],
-      ["멀지 않으니까 바래다주지 않아도 돼요.", "It is not far so you do not have to see me off.", "Declining politely"]
+      ["내가 정류장까지 바래다줄게.", "I'll walk you to the bus stop.", "Casual offer; 까지 = up to that point"],
+      ["밤이 늦었으니까 집까지 바래다줄게요.", "It's late, so I'll see you home.", "-니까 gives the reason for the offer"],
+      ["멀지 않으니까 바래다주지 않아도 돼요.", "It's not far, so you don't have to see me off.", "Politely declining with -지 않아도 돼요"]
     ],
-    "nuance": "바래다주다 means walking a person partway to their destination to send them off kindly. It is warmer and more personal than just saying goodbye at the door. The 주다 ending shows the act is a favor for the other person.",
-    "mistakes": ["Do not confuse 바래다주다 (walk someone off) with 바라다 (to wish); they are different verbs."],
+    "nuance": "바래다주다 = 바래다 (an old verb meaning to accompany/see off) + 주다 (do as a favour), so it means walking or going along with someone partway to send them off kindly — a small act of care, warmer than just waving goodbye at the door. Compare it with its close neighbour 데려다주다: 데려다주다 stresses DELIVERING the person to a destination (often by car, you're the one in charge), whereas 바래다주다 stresses ACCOMPANYING/seeing off, traditionally on foot and out of courtesy. The dangerous look-alike is 바라다 'to wish/hope' (바라요 'I hope') and the spelling slips 바래요 — they are unrelated verbs, so keep them apart. The 주다 ending again frames the act as for the other person's benefit. Conjugation follows 주다: 바래다줘요, 바래다줬어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "바래다주다 means walking or going along with someone partway to send them off kindly — a small act of care, warmer than just waving goodbye at the door. The 주다 ending frames the act as for the other person's benefit."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare it with its close neighbour 데려다주다: 데려다주다 stresses DELIVERING the person to a destination (often by car, you're the one in charge), whereas 바래다주다 stresses ACCOMPANYING/seeing off, traditionally on foot and out of courtesy."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "바래다주다 = 바래다 (an old verb meaning to accompany/see off) + 주다 (do as a favour)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Conjugation follows 주다.",
+        "chips": ["바래다줘요", "바래다줬어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The dangerous look-alike is 바라다 'to wish/hope' (바라요 'I hope') and the spelling slip 바래요 — they are unrelated verbs, so keep them apart."
+      }
+    ],
+    "mistakes": ["Confusing 바래다주다 (see someone off) with 바라다 (to wish); 'I hope you...' is 바라다, not 바래다주다.", "Using 데려가다 for a courteous send-off home; 데려가다 just means 'take along' — the kind 'walk you home' nuance needs 바래다주다.", "Dropping 주다 and saying 바래다 alone in modern speech — on its own 바래다 is dated; the living form is 바래다주다."],
     "irregular": null
   },
   {
@@ -232,16 +386,40 @@
       "shallWe": "인사드릴까요?"
     },
     "usage": [
-      ["선생님께 인사드려요.", "I greet the teacher respectfully.", "Greeting an elder"],
-      ["부모님께 인사드렸어요.", "I greeted my parents.", "Past action"]
+      ["선생님께 인사드리다", "to (humbly) greet the teacher", "The respected person takes 께, the honorific of 에게"],
+      ["새해 인사드리다", "to give a New Year greeting", "Seasonal set phrase to elders"],
+      ["인사드리러 가다", "to go (to pay one's) respects", "-(으)러 가다 = go in order to greet"],
+      ["먼저 인사드리다", "to greet (them) first", "먼저 'first' marks proper junior etiquette"]
     ],
     "examples": [
-      ["처음 뵙겠습니다, 인사드릴게요.", "Nice to meet you, let me introduce myself.", "Formal first meeting"],
-      ["할아버지께 새해 인사드리러 가요.", "I am going to give grandfather a New Year greeting.", "Holiday custom"],
-      ["사장님께 먼저 인사드려야 해요.", "You must greet the boss first.", "Workplace etiquette"]
+      ["사장님, 인사드리겠습니다.", "Sir, allow me to greet you.", "Formal self-introduction to a boss"],
+      ["할아버지께 새해 인사드리러 가요.", "I'm going to give Grandpa a New Year's greeting.", "께 honorific + -러 가다 purpose"],
+      ["입사 첫날이라 부서 분들께 한 분 한 분 인사드렸어요.", "It was my first day, so I greeted each member of the team.", "Workplace reality; humble form to all seniors"]
     ],
-    "nuance": "인사드리다 is the humble, respectful form of 인사하다, used when greeting someone older or of higher status. The 드리다 ending lowers yourself to honor the listener. Use plain 인사하다 with friends or people your own age.",
-    "mistakes": ["Do not use 인사드리다 with close friends; it sounds too formal, so use 인사하다 instead."],
+    "nuance": "인사드리다 is the humble (겸양) counterpart of 인사하다, built from 인사 (Sino-Korean 人事, literally 'person-affair', meaning a greeting/bow) + 드리다, the humble version of 주다 'to give'. 드리다 lowers the SPEAKER to raise the listener, so you use 인사드리다 when greeting someone older or higher in status (a teacher, boss, in-laws), whereas neutral 인사하다 is for peers and juniors. The sharp contrast is direction of respect: 인사하다 is plain, 인사드리다 humbles yourself, and there is NO 인사받다-style humble for receiving. English has no grammatical humility, so learners either over-use it with friends (sounds stiff/odd) or under-use it with elders (sounds rude). Note the natural particle is 께 ('to', honorific), not 에게/한테, when naming the respected person.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "인사드리다 is the humble (겸양) counterpart of 인사하다. 드리다 lowers the SPEAKER to raise the listener, so you use 인사드리다 when greeting someone older or higher in status (a teacher, boss, in-laws). Note the natural particle is 께 ('to', honorific), not 에게/한테, when naming the respected person."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Neutral 인사하다 is for peers and juniors. The sharp contrast is direction of respect: 인사하다 is plain, 인사드리다 humbles yourself, and there is NO 인사받다-style humble for receiving."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Built from 인사 (Sino-Korean 人事, literally 'person-affair', meaning a greeting/bow) + 드리다, the humble version of 주다 'to give'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English has no grammatical humility, so learners either over-use it with friends (sounds stiff/odd) or under-use it with elders (sounds rude)."
+      }
+    ],
+    "mistakes": ["Using 인사드리다 with close friends — it sounds overly formal/servile; among equals say 인사하다 (친구한테 인사했어).", "Marking the respected person with 한테/에게 (선생님한테 인사드려요) instead of the honorific 께 — say 선생님께 인사드려요.", "Assuming 인사 means only 'hello'; 인사 covers bows, greetings, and paying respects, so 인사드리다 can mean 'pay one's respects', not just 'say hi'."],
     "irregular": null
   },
   {
@@ -267,17 +445,47 @@
       "shallWe": "도와드릴까요?"
     },
     "usage": [
-      ["손님을 도와드려요.", "I help the customer.", "Helping a guest politely"],
-      ["할머니를 도와드렸어요.", "I helped the grandmother.", "Past action"]
+      ["무엇을 도와드릴까요?", "How may I help you?", "The standard customer-service opener"],
+      ["손님을 도와드리다", "to help a customer/guest", "Respected recipient; service register"],
+      ["도와드릴게요", "I'll help you (offer)", "-ㄹ게요 = warm spontaneous offer to a senior"],
+      ["기꺼이 도와드리다", "to help gladly", "기꺼이 'gladly' is a natural polite partner"]
     ],
     "examples": [
-      ["무엇을 도와드릴까요?", "How may I help you?", "Polite service phrase"],
-      ["짐이 무거우면 도와드릴게요.", "If the bags are heavy, I will help you.", "Offering help"],
-      ["어려운 일이 있으면 언제든지 도와드릴 수 있어요.", "If you have any trouble, I can help you anytime.", "Reassuring an elder"]
+      ["제가 도와드릴게요.", "Let me help you.", "Offering help to an elder/customer; 제가 = humble 'I'"],
+      ["짐이 무거우면 도와드릴까요?", "If your bags are heavy, shall I help?", "-ㄹ까요 politely offers without imposing"],
+      ["고객님, 무엇을 도와드릴까요?", "How may I help you, sir/ma'am?", "Verbatim shop/call-center phrase"]
     ],
-    "nuance": "도와드리다 is the humble form of 도와주다, used when helping someone older or a customer. The 드리다 ending shows respect toward the person you help. The phrase 무엇을 도와드릴까요? is the standard polite way to offer service.",
-    "mistakes": ["Do not say 도와주다 to a customer or elder when you want to sound polite; use 도와드리다."],
-    "irregular": null
+    "nuance": "도와드리다 is the humble form of 도와주다 ('help (as a favour)'), where 돕다 (to help) becomes 도와- by the ㅂ-irregular (돕 + 아 → 도와), and the helper-benefit 주다 is upgraded to its humble twin 드리다. So it literally means 'humbly do the favour of helping' — you lower yourself to help someone above you: a customer, elder, or guest. Contrast the three levels you must keep straight: 돕다 (bare dictionary 'help'), 도와주다 (help someone, neutral/friendly), 도와드리다 (help a superior, humble). English flattens all of these to 'help', so the pitfall is using 도와주다 with a customer (too casual for service) or, conversely, 도와드리다 with a buddy (oddly stiff). The phrase 무엇을 도와드릴까요? is the fixed, must-know service line. Conjugation follows 드리다: 도와드려요, 도와드렸어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "도와드리다 literally means 'humbly do the favour of helping' — you lower yourself to help someone above you: a customer, elder, or guest. The phrase 무엇을 도와드릴까요? is the fixed, must-know service line."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast the three levels you must keep straight: 돕다 (bare dictionary 'help'), 도와주다 (help someone, neutral/friendly), 도와드리다 (help a superior, humble). It is the humble form of 도와주다 ('help (as a favour)')."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "돕다 (to help) becomes 도와- by the ㅂ-irregular (돕 + 아 → 도와), and the helper-benefit 주다 is upgraded to its humble twin 드리다."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "돕다 takes the ㅂ-irregular (돕 + 아 → 도와), then conjugation follows 드리다.",
+        "chips": ["도와드려요", "도와드렸어요", "도와드릴까요?"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English flattens all of these to 'help', so the pitfall is using 도와주다 with a customer (too casual for service) or, conversely, 도와드리다 with a buddy (oddly stiff)."
+      }
+    ],
+    "mistakes": ["Saying 도와줄까요? to a customer or elder — it's too casual for service; the polite form is 도와드릴까요?.", "Forgetting the ㅂ-irregular and writing 돕아드려요; 돕다 + 아 becomes 도와-, so it's 도와드려요.", "Using 도와드리다 toward a younger friend; among peers 도와줄게 (도와주다) is natural and 도와드릴게 sounds over-formal."],
+    "irregular": "ㅂ irregular (돕다)"
   },
   {
     "hangul": "부탁드리다",
@@ -302,16 +510,46 @@
       "shallWe": "부탁드릴까요?"
     },
     "usage": [
-      ["선생님께 부탁드려요.", "I ask the teacher a favor.", "Polite request to an elder"],
-      ["도움을 부탁드렸어요.", "I asked for help politely.", "Past action"]
+      ["잘 부탁드립니다", "I look forward to working with you", "Set greeting when starting work or a relationship"],
+      ["선생님께 부탁드리다", "to ask the teacher a favor", "께 marks the respected person you request of"],
+      ["부탁드릴 게 있어요", "there's something I'd like to ask of you", "Polite preface before making the request"],
+      ["꼭 좀 부탁드리다", "to ask earnestly / please do (this for me)", "꼭 좀 softens and intensifies the plea"]
     ],
     "examples": [
-      ["잘 부탁드립니다.", "I look forward to your kind help.", "Standard polite greeting"],
-      ["이 일을 좀 부탁드려도 될까요?", "May I ask you to handle this task?", "Polite request"],
-      ["바쁘시겠지만 한 번만 부탁드릴게요.", "I know you are busy, but I will ask just once.", "Humble request"]
+      ["이거 좀 부탁드려도 될까요?", "May I ask you to handle this?", "-아도 될까요 = polite permission-style request"],
+      ["바쁘시겠지만 이 일을 부탁드립니다.", "I know you're busy, but I'm asking you to do this.", "Honorific -시- acknowledges the senior, then requests"],
+      ["앞으로 잘 부탁드리겠습니다.", "I look forward to your kind guidance from now on.", "Standard first-day/first-meeting line at work"]
     ],
-    "nuance": "부탁드리다 is the humble form of 부탁하다, used to politely ask a favor of someone older or in authority. The set phrase 잘 부탁드립니다 is said when starting work or meeting people you will rely on. The 드리다 ending honors the listener.",
-    "mistakes": ["Do not use 부탁하다 with a superior when you want to be polite; 부탁드리다 is the respectful choice."],
+    "nuance": "부탁드리다 is the humble form of 부탁하다 ('to request a favour'), from 부탁 (Sino-Korean 付託, 'entrust/commit to') + 드리다, the humble 'give'. You use it to ask something of a superior, client, or anyone you want to treat with deference, while 부탁하다 is the neutral version for peers and 부탁해 the casual one for friends. The must-memorize fixed expression is 잘 부탁드립니다 / 잘 부탁드려요 — said when you begin a job, join a group, or ask for ongoing cooperation; it has no clean English equivalent ('please treat me well / I look forward to working with you'). The English pitfall is twofold: treating it as one literal 'please' (it's really 'I humbly entrust this favour to you'), and using plain 부탁하다 with a boss, which reads as too blunt. Particle: the person asked takes honorific 께. Conjugates on 드리다: 부탁드려요, 부탁드렸어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "부탁드리다 is the humble form of 부탁하다 ('to request a favour'). You use it to ask something of a superior, client, or anyone you want to treat with deference. The must-memorize fixed expression is 잘 부탁드립니다 / 잘 부탁드려요 — said when you begin a job, join a group, or ask for ongoing cooperation; it has no clean English equivalent ('please treat me well / I look forward to working with you'). Particle: the person asked takes honorific 께."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "부탁하다 is the neutral version for peers and 부탁해 the casual one for friends."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From 부탁 (Sino-Korean 付託, 'entrust/commit to') + 드리다, the humble 'give'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Conjugates on 드리다.",
+        "chips": ["부탁드려요", "부탁드렸어요", "부탁드립니다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English pitfall is twofold: treating it as one literal 'please' (it's really 'I humbly entrust this favour to you'), and using plain 부탁하다 with a boss, which reads as too blunt."
+      }
+    ],
+    "mistakes": ["Using 부탁하다 to a superior to sound polite — it's too plain; choose 부탁드리다 (부장님, 부탁드립니다).", "Translating 잘 부탁드립니다 literally as 'please do well' and misusing it — it's a fixed social greeting meaning 'I look forward to your kind help'.", "Saying 부탁드려 to a close friend; casually you'd say 부탁해 / 부탁 좀 들어줘, and 부탁드려 sounds stiff."],
     "irregular": null
   },
   {
@@ -337,16 +575,41 @@
       "shallWe": "사귈까요?"
     },
     "usage": [
-      ["친구를 사귀어요.", "I make friends.", "Forming friendships"],
-      ["남자친구를 사귀었어요.", "I started dating a boyfriend.", "Dating meaning"]
+      ["친구를 사귀다", "to make friends", "With 친구, it means forming friendships"],
+      ["남자친구를 사귀다", "to date a boyfriend / be in a relationship", "With a person, often = dating"],
+      ["사귀자", "let's go out (together)", "The classic line that starts a romantic relationship"],
+      ["사귄 지 일 년", "(been) dating for a year", "사귄 지 + duration measures relationship length"]
     ],
     "examples": [
-      ["새 학교에서 친구를 많이 사귀었어요.", "I made many friends at the new school.", "Past action"],
-      ["좋은 사람을 사귀고 싶어요.", "I want to date a good person.", "Expressing a wish"],
-      ["두 사람은 일 년째 사귀고 있어요.", "The two have been dating for a year.", "Ongoing relationship"]
+      ["우리 사귀자.", "Let's go out.", "The standard casual confession/proposal to date"],
+      ["새 학교에서 친구를 많이 사귀었어요.", "I made lots of friends at the new school.", "friendship sense; 를 marks 친구"],
+      ["두 사람은 사귄 지 일 년 만에 결혼했어요.", "The two married a year after they started dating.", "사귄 지 measures how long the relationship has lasted"]
     ],
-    "nuance": "사귀다 means both making friends and dating someone romantically, and context tells you which. With 친구 it means becoming friends, and with a person it often means being in a relationship. Note the stem keeps ㅟ, so it is written 사귀어요, not 사겨요.",
-    "mistakes": ["Do not write 사겨요; the standard written form is 사귀어요."],
+    "nuance": "사귀다 covers BOTH platonic 'make friends' and romantic 'date / go out with', and only context (and the object) tells them apart: 친구를 사귀다 is befriending, 남자친구/여자친구를 사귀다 or just '두 사람이 사귀다' is dating. It contrasts with 만나다, which means 'meet/see' and is sometimes used loosely for dating too, but 사귀다 specifically marks an ongoing committed relationship, not a single meeting. The headline trap is spelling/conjugation: the stem ends in the vowel ㅟ, which does NOT contract in standard Korean, so the polite present is 사귀어요 — never the colloquial 사겨요 you'll hear spoken but mustn't write. The future/볼 forms do contract normally: 사귈 거예요, 사귈까요. Habitual partners: 친구를 사귀다, 오래 사귀다, 사귀자.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "사귀다 covers BOTH platonic 'make friends' and romantic 'date / go out with', and only context (and the object) tells them apart: 친구를 사귀다 is befriending, 남자친구/여자친구를 사귀다 or just '두 사람이 사귀다' is dating. Habitual partners: 친구를 사귀다, 오래 사귀다, 사귀자."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It contrasts with 만나다, which means 'meet/see' and is sometimes used loosely for dating too, but 사귀다 specifically marks an ongoing committed relationship, not a single meeting."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The stem ends in the vowel ㅟ, which does NOT contract in standard Korean, so the polite present is 사귀어요 — never the colloquial 사겨요 you'll hear spoken but mustn't write. The future/볼 forms do contract normally.",
+        "chips": ["사귀어요", "사귀었어요", "사귈 거예요", "사귈까요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The headline trap is spelling/conjugation: writing the polite present as the colloquial 사겨요 instead of the standard 사귀어요."
+      }
+    ],
+    "mistakes": ["Writing or spelling the polite present as 사겨요 — the ㅟ stem doesn't contract; the correct written form is 사귀어요.", "Using 만나다 when you mean a committed relationship — 만나다 can be a one-off meeting; for 'we're dating' say 사귀어요/사귀고 있어요.", "Marking the partner with 와/과 like English 'date WITH' (친구와 사귀어요 is fine for 'with', but the simple object pattern 친구를 사귀어요 is the default) — learners drop the object particle and say 친구 사귀어, which is casual-only."],
     "irregular": null
   },
   {
@@ -372,16 +635,46 @@
       "shallWe": "친해질까요?"
     },
     "usage": [
-      ["친구와 친해져요.", "I get close with a friend.", "Growing closer"],
-      ["동료와 친해졌어요.", "I became close with a coworker.", "Past action"]
+      ["친구와 친해지다", "to grow close with a friend", "The other person takes 와/과 'with'"],
+      ["금방 친해지다", "to hit it off quickly", "금방 'in no time' is a frequent partner"],
+      ["친해지고 싶다", "to want to get close (to someone)", "Common friendly opener"],
+      ["친해질 기회", "a chance to get closer", "기회 'opportunity' collocates naturally"]
     ],
     "examples": [
-      ["같이 운동하면서 친해졌어요.", "We became close while exercising together.", "Past action"],
-      ["반 친구들과 빨리 친해지고 싶어요.", "I want to become close with my classmates quickly.", "Expressing a wish"],
-      ["시간이 지나면 자연스럽게 친해질 거예요.", "As time passes, you will naturally become close.", "Reassurance"]
+      ["우리 빨리 친해지자.", "Let's get close quickly.", "Casual friendly invitation; -자 suggestion"],
+      ["같이 운동하면서 동료와 친해졌어요.", "I grew close to a coworker while exercising together.", "-(으)면서 'while' + 와 partner particle"],
+      ["처음엔 어색했지만 시간이 지나니까 자연스럽게 친해졌어요.", "It was awkward at first, but as time passed we naturally grew close.", "Real arc; 친해지다 = the gradual change"]
     ],
-    "nuance": "친해지다 means growing closer to someone over time, built from 친하다 (to be close) plus the change verb 지다. The 지다 part shows a gradual change of state. It describes the process of a friendship deepening.",
-    "mistakes": ["친하다 describes a state of already being close, while 친해지다 describes the change of becoming close."],
+    "nuance": "친해지다 = 친하다 (to be close/friendly, with 친 from Sino-Korean 親 'intimate/familial') + -어지다, the 'become' suffix that turns an adjective into a change-of-state verb. So the built-in contrast is adjective vs verb: 친하다 describes the STATE of already being close (우리는 친해요 'we're close'), while 친해지다 describes the PROCESS of becoming close (우리 친해졌어요 'we've grown close'). English uses 'close' for both, so learners wrongly say 친했어요 ('we were close') when they mean 'we became close'. Because the partner is someone you grow close WITH, the particle is 와/과 (or 하고/랑), not the object 를. Conjugation follows 지다: 친해져요, 친해졌어요. Natural partners: 빨리/금방 친해지다, 친해지고 싶다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "친해지다 describes the PROCESS of becoming close (우리 친해졌어요 'we've grown close'). Because the partner is someone you grow close WITH, the particle is 와/과 (or 하고/랑), not the object 를. Natural partners: 빨리/금방 친해지다, 친해지고 싶다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The built-in contrast is adjective vs verb: 친하다 describes the STATE of already being close (우리는 친해요 'we're close'), while 친해지다 describes the PROCESS of becoming close."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "친해지다 = 친하다 (to be close/friendly, with 친 from Sino-Korean 親 'intimate/familial') + -어지다, the 'become' suffix that turns an adjective into a change-of-state verb."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Conjugation follows 지다.",
+        "chips": ["친해져요", "친해졌어요", "친해질 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English uses 'close' for both, so learners wrongly say 친했어요 ('we were close') when they mean 'we became close'."
+      }
+    ],
+    "mistakes": ["Using 친하다 for the change and saying 친했어요 to mean 'we became close' — 친했어요 means 'we WERE close'; the becoming is 친해졌어요.", "Marking the other person with 를/을 (친구를 친해져요) — 친해지다 is intransitive, so use 친구와/친구랑 친해져요.", "Confusing 친해지다 with 사귀다; 친해지다 = grow closer (friends), 사귀다 = befriend or date — don't use 친해지다 for 'start dating'."],
     "irregular": null
   },
   {
@@ -407,16 +700,35 @@
       "shallWe": "어울릴까요?"
     },
     "usage": [
-      ["친구들과 어울려요.", "I hang out with friends.", "Spending time together"],
-      ["새 친구들과 잘 어울렸어요.", "I got along well with new friends.", "Past action"]
+      ["친구들과 어울리다", "to hang out / mingle with friends", "People take 와/과; the 'socialize' sense"],
+      ["잘 어울리다", "to suit well / get along well", "잘 + 어울리다 fits both senses"],
+      ["옷이 잘 어울리다", "the clothes suit (you) well", "Clothes/colors as subject = 'look good on'"],
+      ["분위기에 어울리다", "to fit the mood/atmosphere", "에 marks what something matches"]
     ],
     "examples": [
-      ["저는 동네 친구들과 자주 어울려요.", "I often hang out with neighborhood friends.", "Daily routine"],
-      ["그 색은 너한테 정말 잘 어울려.", "That color really suits you well.", "Suiting meaning"],
-      ["여러 사람과 어울리는 것을 좋아해요.", "I like mingling with many people.", "Expressing a preference"]
+      ["그 옷 너한테 잘 어울려.", "Those clothes really suit you.", "'suit/match' sense; 한테 = 'on you'"],
+      ["저는 동네 친구들과 자주 어울려요.", "I often hang out with the neighborhood friends.", "'socialize' sense; 와 marks the people"],
+      ["새 팀에 들어가서 사람들과 잘 어울리려고 노력했어요.", "After joining the new team, I tried hard to fit in with everyone.", "Real situation blending 'mingle' and 'fit in'"]
     ],
-    "nuance": "어울리다 has two everyday meanings: mingling and spending time with people, and matching or suiting well. With people it means to get along and hang out, and with clothes or colors it means to look good together. Context makes the meaning clear.",
-    "mistakes": ["Do not use 놀다 (play) in formal situations; 어울리다 is the natural word for socializing and getting along."],
+    "nuance": "어울리다 runs on two everyday senses you choose by context: (1) with people (와/과) it means to mingle, socialize, get along — 친구들과 어울리다; (2) with things, clothes, or colors it means to match / suit / look good together — 옷이 잘 어울려요 'that outfit suits you'. For the social sense, compare 놀다 'to play/hang out', which is more casual and child-/leisure-flavored, whereas 어울리다 adds 'blend in, get along, fit the group' and is safe in adult/formal talk. For the matching sense, its synonym is 맞다 'to fit', but 맞다 is about correct size/fit while 어울리다 is about aesthetic harmony. English keeps 'hang out' and 'suit' in totally separate words, so the pitfall is not realizing one Korean verb does both — and that the compliment 'it suits you' is 어울려요, not 좋아 보여요. Note: the subject of the 'suit' sense is the clothing, with the person in 한테/에게.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "어울리다 runs on two everyday senses you choose by context: (1) with people (와/과) it means to mingle, socialize, get along — 친구들과 어울리다; (2) with things, clothes, or colors it means to match / suit / look good together — 옷이 잘 어울려요 'that outfit suits you'. Note: the subject of the 'suit' sense is the clothing, with the person in 한테/에게."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "For the social sense, compare 놀다 'to play/hang out', which is more casual and child-/leisure-flavored, whereas 어울리다 adds 'blend in, get along, fit the group' and is safe in adult/formal talk. For the matching sense, its synonym is 맞다 'to fit', but 맞다 is about correct size/fit while 어울리다 is about aesthetic harmony."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English keeps 'hang out' and 'suit' in totally separate words, so the pitfall is not realizing one Korean verb does both — and that the compliment 'it suits you' is 어울려요, not 좋아 보여요."
+      }
+    ],
+    "mistakes": ["Using 놀다 in formal/adult contexts for socializing — 어울리다 sounds more mature ('mingle/get along'); 놀다 can sound childish at work.", "Translating 'it suits you' as 좋아 보여요 ('looks good') and missing the idiom — Koreans say 잘 어울려요.", "Marking the matching item with 를 (옷을 어울려요) — in the 'suit' sense the clothing is the subject: 옷이 어울려요."],
     "irregular": null
   },
   {
@@ -442,16 +754,41 @@
       "shallWe": "헤어질까요?"
     },
     "usage": [
-      ["친구와 헤어져요.", "I part from a friend.", "Saying goodbye"],
-      ["남자친구와 헤어졌어요.", "I broke up with my boyfriend.", "Breakup meaning"]
+      ["친구와 헤어지다", "to part from a friend", "The other person takes 와/과 'from/with'"],
+      ["남자친구와 헤어지다", "to break up with a boyfriend", "Romantic break-up sense"],
+      ["역 앞에서 헤어지다", "to say goodbye in front of the station", "에서 marks where you part"],
+      ["헤어진 후에", "after parting / after breaking up", "-(으)ㄴ 후에 = 'after' the separation"]
     ],
     "examples": [
-      ["역 앞에서 친구와 헤어졌어요.", "I parted from my friend in front of the station.", "Past action"],
-      ["우리는 늦은 밤에 헤어졌어요.", "We said goodbye late at night.", "Parting after time together"],
-      ["두 사람은 작년에 헤어졌어요.", "The two broke up last year.", "Romantic breakup"]
+      ["우리 여기서 헤어지자.", "Let's part ways here.", "Casual; -자 = 'let's', simply splitting up to go home"],
+      ["늦은 밤에 친구와 역 앞에서 헤어졌어요.", "I parted from my friend in front of the station late at night.", "와 marks the friend, 에서 the place"],
+      ["오래 사귀었지만 결국 작년에 헤어졌어요.", "We dated a long time but finally broke up last year.", "Romantic break-up; pairs naturally with 사귀다"]
     ],
-    "nuance": "헤어지다 means parting ways after being together, and it is also the standard word for a romantic breakup. With friends it simply means to say goodbye and go separate ways. It is the natural opposite of 만나다.",
-    "mistakes": ["Do not use 떠나다 (leave a place) when you mean two people parting; that is 헤어지다."],
+    "nuance": "헤어지다 means two (or more) people who were together separating and going their own ways, and it doubles as THE standard word for a romantic break-up — 남자친구와 헤어졌어요 'I broke up with my boyfriend'. It is the natural antonym of 만나다 'to meet'. Keep it apart from 떠나다 'to leave (a place/person behind)', which focuses on one person departing a location, and from 헤매다 'to wander/be lost', a similar-looking but unrelated verb. The particle for the other person is 와/과 (or 하고/랑) 'with', NOT the object 를, because both sides separate mutually — a key difference from English transitive 'I left him'. Built on -어지다, it conjugates as 헤어져요, 헤어졌어요. The everyday goodbye sense (그럼 여기서 헤어져요) is gentle and common; only context or a partner like 남자친구 signals the break-up reading.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "헤어지다 means two (or more) people who were together separating and going their own ways, and it doubles as THE standard word for a romantic break-up — 남자친구와 헤어졌어요 'I broke up with my boyfriend'. The particle for the other person is 와/과 (or 하고/랑) 'with', NOT the object 를, because both sides separate mutually. The everyday goodbye sense (그럼 여기서 헤어져요) is gentle and common; only context or a partner like 남자친구 signals the break-up reading."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is the natural antonym of 만나다 'to meet'. Keep it apart from 떠나다 'to leave (a place/person behind)', which focuses on one person departing a location, and from 헤매다 'to wander/be lost', a similar-looking but unrelated verb."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Built on -어지다, it conjugates regularly.",
+        "chips": ["헤어져요", "헤어졌어요", "헤어질 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The 와/과 'with' particle (not the object 를) is a key difference from English transitive 'I left him' — both sides separate mutually in Korean."
+      }
+    ],
+    "mistakes": ["Using 떠나다 for 'two people parting' — 떠나다 means leaving a place/person; mutual parting is 헤어지다.", "Marking the partner with 를 (남자친구를 헤어졌어요) — say 남자친구와/남자친구랑 헤어졌어요, since the particle is 'with', not the object.", "Confusing 헤어지다 with 헤매다 (to wander, be lost) because they look alike — they are unrelated verbs."],
     "irregular": null
   },
   {
@@ -477,16 +814,46 @@
       "shallWe": "돌볼까요?"
     },
     "usage": [
-      ["아이를 돌봐요.", "I take care of a child.", "Caring for a child"],
-      ["할머니를 돌봤어요.", "I looked after my grandmother.", "Past action"]
+      ["아이를 돌보다", "to take care of a child", "The cared-for one takes 를/을 (it's transitive)"],
+      ["환자를 돌보다", "to care for a patient", "Nursing/long-term care sense"],
+      ["돌봐 주다", "to look after (for someone)", "Adding 주다 frames the care as a favor"],
+      ["정성껏 돌보다", "to care for devotedly", "정성껏 'with all one's heart' is a natural partner"]
     ],
     "examples": [
-      ["부모님이 안 계실 때 동생을 돌봐요.", "I take care of my sibling when my parents are away.", "Daily routine"],
-      ["주말에 강아지를 돌봐 주세요.", "Please look after my dog this weekend.", "Polite request"],
-      ["아픈 친구를 돌봐야 해요.", "I have to take care of my sick friend.", "Expressing obligation"]
+      ["동생 좀 돌봐.", "Look after your sibling for a bit.", "Casual command; 좀 softens the request"],
+      ["주말에 우리 강아지 좀 돌봐 주세요.", "Please look after our puppy this weekend.", "돌봐 주다 = do the favor of caring; works for animals"],
+      ["할머니가 편찮으셔서 제가 돌봐 드리고 있어요.", "Grandma is unwell, so I'm taking care of her.", "Humble 돌봐 드리다 for an elder; sustained caregiving"]
     ],
-    "nuance": "돌보다 means looking after and caring for a person, child, animal, or even a plant over time. It carries warmth and responsibility, more than just watching. With babies and pets it is the everyday word for caregiving.",
-    "mistakes": ["Do not use 보다 (to see) alone for caregiving; 돌보다 means actively caring for someone."],
+    "nuance": "돌보다 = 돌(아) + 보다 ('look around and watch over'), meaning to actively look after and nurture a person, child, patient, animal, or even plants over time — it carries responsibility and warmth, well beyond plain 보다 'to see/look'. Set it against 챙기다, which is quicker 'make sure / don't let slip' care (밥 챙겨 먹어), whereas 돌보다 is sustained nurturing (아기를 돌보다 'raise/tend a baby'). It also contrasts with the Sino-Korean 보살피다 (a near-synonym, slightly more literary/tender 'tend, look after'), and with 키우다 'to raise/bring up', which stresses growing/rearing rather than day-to-day care. The cared-for one is the direct object with 를/을. The English trap is reaching for 보다 alone ('watch the kids' → not 아이를 봐요 in writing, which can sound like merely 'see'); proper caregiving is 돌보다, and the warm request form is 돌봐 주세요. Conjugation follows 보다: 봐요/봤어요 → 돌봐요, 돌봤어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "돌보다 means to actively look after and nurture a person, child, patient, animal, or even plants over time — it carries responsibility and warmth, well beyond plain 보다 'to see/look'. The cared-for one is the direct object with 를/을, and the warm request form is 돌봐 주세요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Set it against 챙기다, which is quicker 'make sure / don't let slip' care (밥 챙겨 먹어), whereas 돌보다 is sustained nurturing (아기를 돌보다 'raise/tend a baby'). It also contrasts with the Sino-Korean 보살피다 (a near-synonym, slightly more literary/tender 'tend, look after'), and with 키우다 'to raise/bring up', which stresses growing/rearing rather than day-to-day care."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "돌보다 = 돌(아) + 보다 ('look around and watch over')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Conjugation follows 보다: 봐요/봤어요.",
+        "chips": ["돌봐요", "돌봤어요", "돌볼 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English trap is reaching for 보다 alone ('watch the kids' → not 아이를 봐요 in writing, which can sound like merely 'see'); proper caregiving is 돌보다."
+      }
+    ],
+    "mistakes": ["Using 보다 'to see' alone for caregiving — 아이를 봐요 can read as merely 'I see the child'; full caregiving is 아이를 돌봐요.", "Confusing 돌보다 with 키우다; 키우다 = raise/bring up (long-term rearing), 돌보다 = look after/tend (ongoing care) — 'I'm babysitting today' is 돌봐요, not 키워요.", "Forgetting it's transitive and dropping the object particle in writing (아이 돌봐요 is casual-only); standard form is 아이를 돌봐요."],
     "irregular": null
   }
 ]

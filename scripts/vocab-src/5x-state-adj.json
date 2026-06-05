@@ -7,18 +7,25 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["디자인이 단순해요", "The design is simple", "praising a clean, minimal look"],
-      ["단순한 구조", "a simple structure", "noun-modifying form 단순한 + N"],
-      ["생각보다 단순하네요", "It's simpler than I thought", "react when something turns out easy"],
-      ["너무 단순하게 생각하지 마", "Don't think about it too simply", "단순하게 = adverb form, casual"]
+      ["디자인이 단순해요", "The design is simple", "praising a clean, minimal look; 하다-adjective, so 단순하 + 여요 → 단순해요"],
+      ["단순한 구조", "a simple structure", "noun-modifying form is 단순한 + N, never 단순하는"],
+      ["단순한 실수예요", "It's just a simple mistake", "단순한 = 'mere/plain', softening the error as not deep or malicious"],
+      ["너무 단순하게 생각하지 마", "Don't think about it too simply", "단순하게 = adverb; casual 반말 warning not to oversimplify"]
     ],
     "examples": [
-      ["이 앱은 기능이 단순해서 쓰기 편해요.", "This app is simple in features, so it's easy to use.", "단순해서 = 단순하다 + 아서/어서 (reason)"],
-      ["저는 성격이 단순한 편이라 뒤끝이 없어요.", "I have a pretty simple personality, so I don't hold grudges.", "단순하다 used for an easygoing, uncomplicated personality"],
-      ["문제가 단순하니까 금방 해결될 거예요.", "Since the problem is simple, it'll be solved quickly.", "단순하니까 = reason; common reassurance"]
+      ["이 앱은 화면이 단순해요.", "This app's screen is simple.", "plain statement; 단순하다 praises an uncluttered interface"],
+      ["저는 성격이 단순한 편이라 뒤끝이 없어요.", "I have a pretty simple personality, so I don't hold grudges.", "단순한 + 편이다 = 'on the simple side'; describes an easygoing, low-drama nature, not low intelligence"],
+      ["원인이 생각보다 단순해서 금방 고쳤어요.", "The cause was simpler than expected, so I fixed it quickly.", "단순해서 = 아서/어서 reason; real troubleshooting reassurance"]
     ],
-    "nuance": "단순하다 means simple in structure or design and is usually positive or neutral. Applied to a person it means easygoing and uncomplicated, not stupid. For 'simple = stupid/naive' Koreans say 단순무식하다 or 머리가 단순하다 with extra words.",
-    "mistakes": ["Using 간단하다 and 단순하다 interchangeably; 간단하다 is for quick/brief tasks (간단한 식사), 단순하다 is for plain/uncomplicated structure", "Saying 단순한 사람 to mean a dumb person; it actually sounds like an easygoing, low-drama person"]
+    "nuance": "단순(單純) literally combines 單 'single' + 純 'pure', so the core image is 'one pure thing, nothing extra'. It means simple, plain, or uncomplicated in structure or design and is normally positive or neutral. The near-synonym to keep apart is 간단하다(簡單): 간단하다 stresses that a task is quick and brief to do (간단한 점심, 간단히 설명하다), while 단순하다 stresses that a thing's makeup is plain with few parts (단순한 구조). It is a 하다-adjective, so the 요-form is 단순해요 and the modifier is 단순한. Applied to a person, 단순하다 means easygoing and uncomplicated, NOT dumb. The English-speaker pitfall is borrowing the English insult 'he's simple' to mean stupid: 단순한 사람 actually sounds like a refreshingly drama-free person; for 'dumb' Koreans add words and say 머리가 단순하다 or 단순무식하다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "It means simple, plain, or uncomplicated in structure or design, and is normally positive or neutral. Applied to a person, 단순하다 means easygoing and uncomplicated, NOT dumb."},
+      {"k": "비슷한 말", "e": "VS", "t": "The near-synonym to keep apart is 간단하다(簡單): 간단하다 stresses that a task is quick and brief to do (간단한 점심, 간단히 설명하다), while 단순하다 stresses that a thing's makeup is plain with few parts (단순한 구조)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "단순(單純) literally combines 單 'single' + 純 'pure', so the core image is 'one pure thing, nothing extra'."},
+      {"k": "활용", "e": "FORMS", "t": "It is a 하다-adjective, so the 요-form is 단순해요 and the modifier is 단순한.", "chips": ["단순해요", "단순한", "단순하게"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is borrowing the English insult 'he's simple' to mean stupid: 단순한 사람 actually sounds like a refreshingly drama-free person. For 'dumb' Koreans add words and say 머리가 단순하다 or 단순무식하다."}
+    ],
+    "mistakes": ["Swapping 간단하다 and 단순하다 freely. 간단한 식사 (a quick, light meal) cannot become 단순한 식사 without sounding odd, because 단순하다 describes plain structure, not brevity of effort. Use 간단하다 for quick/brief, 단순하다 for plain/uncomplicated.", "Saying 단순한 사람 to call someone stupid. To a Korean ear it praises an easygoing, grudge-free personality. For 'dumb' you must say 머리가 단순하다 or 단순무식하다.", "Conjugating it like a verb (단순하다고 생각하는 사람 is fine, but 단순하는 구조 is wrong). As an adjective the present modifier is 단순한, never 단순하는."]
   },
   {
     "kind": "adjective",
@@ -28,18 +35,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["촘촘한 빗", "a fine-toothed comb", "촘촘한 + N; teeth set close together"],
-      ["촘촘하게 짜다", "to weave it densely", "촘촘하게 = adverb form"],
-      ["그물이 촘촘해요", "The net is fine-meshed", "small gaps between threads"],
-      ["일정이 촘촘하다", "the schedule is packed tight", "figurative: tightly packed time slots"]
+      ["촘촘한 빗", "a fine-toothed comb", "촘촘한 + N; the teeth sit very close with tiny gaps"],
+      ["촘촘하게 짜다", "to weave it densely", "촘촘하게 = adverb; habitual partner of 짜다(weave/knit)"],
+      ["그물이 촘촘해요", "The net is fine-meshed", "small even gaps between threads; nothing slips through"],
+      ["촘촘하게 계획을 세우다", "to plan in fine detail", "figurative: a thorough plan with no loose gaps"]
     ],
     "examples": [
-      ["모기장 구멍이 촘촘해서 벌레가 안 들어와요.", "The mosquito net's holes are fine, so bugs can't get in.", "촘촘해서 = reason; classic summer-in-Korea use"],
-      ["이 니트는 촘촘하게 짜여서 따뜻해요.", "This knit is densely woven, so it's warm.", "촘촘하게 짜이다 = to be woven tightly"],
-      ["여행 일정을 너무 촘촘하게 짰더니 힘들었어요.", "I packed the travel schedule too tightly, so it was exhausting.", "figurative use for an over-packed plan"]
+      ["모기장 구멍이 촘촘해요.", "The mosquito net's holes are fine.", "plain description; tiny, evenly spaced gaps"],
+      ["이 니트는 촘촘하게 짜여서 따뜻해요.", "This knit is densely woven, so it's warm.", "촘촘하게 짜이다 = passive 'to be woven tightly'; classic clothing comment"],
+      ["계획을 너무 촘촘하게 세웠더니 쉴 틈이 없었어요.", "I planned things so tightly that there was no room to rest.", "figurative; -았더니 reports the consequence of an over-detailed plan"]
     ],
-    "nuance": "촘촘하다 describes things spaced very closely with tiny gaps: comb teeth, mesh, weaving, stitches, or even a tightly packed schedule. The opposite is 성기다 or 듬성듬성하다 (sparse). It carries a sense of fineness and thoroughness, often positive.",
-    "mistakes": ["Confusing with 빽빽하다; 빽빽하다 stresses crowdedness with no room, 촘촘하다 stresses fine, even spacing", "Using it for large objects packed together; 촘촘하다 fits small, repeated units like teeth, threads, dots"]
+    "nuance": "촘촘하다 is a native Korean (고유어) word, often felt as the doubled 촘촘 'close-close', describing units packed very near each other with tiny, EVEN gaps: comb teeth, mesh, knit stitches, dotted print, or a finely detailed plan. Its tone is usually positive, carrying a sense of fineness and thoroughness. The synonym to contrast is 빽빽하다: 빽빽하다 stresses crowded fullness with no room to breathe and is often slightly negative (빽빽한 지하철), whereas 촘촘하다 stresses small regular spacing and craftsmanship (촘촘한 그물). The opposite is 성기다 / 듬성듬성하다 (sparse, gappy). The English-speaker pitfall is reaching for 'dense' and landing on 빽빽하다 for everything: a fine-toothed comb or tightly knit fabric is 촘촘하다, not 빽빽하다, and big things crammed together (a packed train) are 빽빽하다, not 촘촘하다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Describes units packed very near each other with tiny, EVEN gaps: comb teeth, mesh, knit stitches, dotted print, or a finely detailed plan. Its tone is usually positive, carrying a sense of fineness and thoroughness. The opposite is 성기다 / 듬성듬성하다 (sparse, gappy)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym to contrast is 빽빽하다: 빽빽하다 stresses crowded fullness with no room to breathe and is often slightly negative (빽빽한 지하철), whereas 촘촘하다 stresses small regular spacing and craftsmanship (촘촘한 그물)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is a native Korean (고유어) word, often felt as the doubled 촘촘 'close-close'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is reaching for 'dense' and landing on 빽빽하다 for everything: a fine-toothed comb or tightly knit fabric is 촘촘하다, not 빽빽하다, and big things crammed together (a packed train) are 빽빽하다, not 촘촘하다."}
+    ],
+    "mistakes": ["Using 촘촘하다 for large objects crowded together, e.g. 사람이 촘촘하다 for a packed crowd. People packed in are 빽빽하다; 촘촘하다 fits small repeated units like teeth, threads, stitches, dots.", "Treating 촘촘하다 and 빽빽하다 as identical. 촘촘하다 = fine, even, often praised spacing; 빽빽하다 = crammed with no room, often a complaint. A tightly knit sweater is 촘촘한 니트, not 빽빽한 니트.", "Pairing it with the wrong verb. The natural collocation is 촘촘하게 짜다/심다 (weave/plant densely); 촘촘하게 많다 is unnatural."]
   },
   {
     "kind": "adjective",
@@ -49,18 +62,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["바지가 헐렁해요", "The pants are baggy", "fit is too loose"],
-      ["헐렁한 티셔츠", "a loose T-shirt", "헐렁한 + N; oversized style"],
-      ["헐렁하게 입다", "to wear it loose", "헐렁하게 = adverb form"],
-      ["나사가 헐렁하다", "the screw is loose", "also for loosened parts/fittings"]
+      ["바지가 헐렁해요", "The pants are baggy", "the fit is too loose around the body"],
+      ["헐렁한 티셔츠", "a loose T-shirt", "헐렁한 + N; can be an intentional oversized style"],
+      ["헐렁하게 입다", "to wear it loose", "헐렁하게 = adverb; a deliberate relaxed styling choice"],
+      ["나사가 헐렁하다", "the screw is loose", "non-clothing use for a fitting that has worked loose"]
     ],
     "examples": [
-      ["살이 빠져서 청바지가 헐렁해졌어요.", "I lost weight, so my jeans got baggy.", "헐렁해지다 = to become loose (change of state)"],
-      ["여름엔 헐렁한 옷이 시원해서 좋아요.", "In summer, loose clothes are nice because they're cool.", "common style preference"],
-      ["문고리가 헐렁해서 곧 빠질 것 같아요.", "The door handle is loose, so it looks like it'll fall off soon.", "non-clothing use: loose hardware"]
+      ["이 티셔츠는 좀 헐렁해요.", "This T-shirt is a bit loose.", "plain fit comment while trying clothes on"],
+      ["살이 빠져서 청바지가 헐렁해졌어요.", "I lost weight, so my jeans got baggy.", "헐렁해지다 = 'became loose'; -아지다 marks the change of state, not a permanent trait"],
+      ["문고리가 헐렁해서 곧 빠질 것 같아요.", "The door handle is loose, so it looks like it'll fall off soon.", "헐렁해서 = reason; shows the hardware sense beyond clothes"]
     ],
-    "nuance": "헐렁하다 means loose or baggy, mostly for clothes that don't fit snugly, but also for loosened screws, handles, or fittings. It is the opposite of 꽉 끼다 (too tight) and 빡빡하다 (stiff/tight). For people it can describe a careless, lax attitude (성격이 헐렁하다).",
-    "mistakes": ["Using 넓다 for loose clothes; 넓다 means wide in area, while 헐렁하다 means loose in fit", "Forgetting 헐렁해지다 for the change; saying just 헐렁했다 implies it was always baggy, not that it became baggy"]
+    "nuance": "헐렁하다 is a native Korean word for loose, baggy, or slack — mainly clothes that hang away from the body, but also screws, handles, or fittings that have lost their grip. It is the opposite of 꽉 끼다 (skin-tight) and 빡빡하다 (stiff/resistant). The synonym worth separating is 넉넉하다: 넉넉한 옷 is pleasantly roomy with comfortable margin (a compliment), while 헐렁한 옷 leans toward too-loose, sloppy, or oversized. Figuratively 헐렁하다 can paint a person as lax and careless (성격이 헐렁하다 = laid-back to the point of unreliable). The big English-speaker pitfall is using 넓다 for loose clothing because English 'wide/loose' blur together: 넓다 means wide in AREA (a wide road, a wide room), so 바지가 넓다 sounds like the trousers cover a large floor area; loose FIT is 헐렁하다. Also remember 헐렁해지다 for 'became loose' — bare 헐렁했다 implies it was always baggy.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A native Korean word for loose, baggy, or slack — mainly clothes that hang away from the body, but also screws, handles, or fittings that have lost their grip. It is the opposite of 꽉 끼다 (skin-tight) and 빡빡하다 (stiff/resistant). Figuratively 헐렁하다 can paint a person as lax and careless (성격이 헐렁하다 = laid-back to the point of unreliable)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym worth separating is 넉넉하다: 넉넉한 옷 is pleasantly roomy with comfortable margin (a compliment), while 헐렁한 옷 leans toward too-loose, sloppy, or oversized."},
+      {"k": "활용", "e": "FORMS", "t": "Remember 헐렁해지다 for 'became loose' — bare 헐렁했다 implies it was always baggy.", "chips": ["헐렁해요", "헐렁한", "헐렁해졌어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The big pitfall is using 넓다 for loose clothing because English 'wide/loose' blur together: 넓다 means wide in AREA (a wide road, a wide room), so 바지가 넓다 sounds like the trousers cover a large floor area; loose FIT is 헐렁하다."}
+    ],
+    "mistakes": ["Using 넓다 for loose clothes (바지가 넓어요). 넓다 = wide in area; loose in fit = 헐렁하다. A baggy shirt is 헐렁한 셔츠, never 넓은 셔츠.", "Dropping the change-of-state -아지다. Saying 청바지가 헐렁했다 to mean 'got loose' actually reads as 'the jeans were (always) baggy'; for 'became baggy' you need 헐렁해졌다.", "Treating 헐렁하다 as a pure compliment. For a flattering 'nicely roomy' fit, Koreans prefer 넉넉하다; 헐렁하다 often implies it's looser than ideal."]
   },
   {
     "kind": "adjective",
@@ -70,18 +89,23 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["일정이 빡빡해요", "The schedule is tight", "very common figurative use"],
-      ["문이 빡빡하다", "the door is stiff (hard to open)", "physical resistance when moving"],
-      ["빡빡한 하루", "a packed/hectic day", "빡빡한 + N"],
-      ["예산이 빡빡하다", "the budget is tight", "barely enough money"]
+      ["일정이 빡빡해요", "The schedule is tight", "the most common figurative use: no spare time"],
+      ["문이 빡빡하다", "the door is stiff (hard to open)", "physical resistance when you push or slide it"],
+      ["빡빡한 하루", "a packed/hectic day", "빡빡한 + N; back-to-back with no breaks"],
+      ["예산이 빡빡하다", "the budget is tight", "barely enough money to cover everything"]
     ],
     "examples": [
-      ["오늘 회의가 많아서 일정이 빡빡해요.", "I have lots of meetings today, so my schedule is packed.", "most frequent real-life usage"],
-      ["서랍이 빡빡해서 잘 안 열려요.", "The drawer is stiff, so it doesn't open well.", "physical sense: tight, resistant"],
-      ["월세 내고 나면 생활비가 빡빡해요.", "After paying rent, my living budget is tight.", "money sense; relatable for residents"]
+      ["서랍이 빡빡해서 잘 안 열려요.", "The drawer is stiff, so it doesn't open well.", "physical sense; 빡빡해서 = reason for the resistance"],
+      ["오늘 회의가 많아서 일정이 빡빡해요.", "I have lots of meetings today, so my schedule is packed.", "the everyday office use; 일정이 빡빡하다 is a fixed collocation"],
+      ["월세 내고 나면 생활비가 빡빡해요.", "After paying rent, my living budget is tight.", "money sense; -고 나면 = 'once I've done'; very relatable for residents"]
     ],
-    "nuance": "빡빡하다 covers two everyday meanings: physically tight/stiff (a drawer or screw that resists moving) and figuratively tight (a packed schedule or a barely-sufficient budget). In both senses it emphasizes having no slack or breathing room. It is colloquial and a touch stronger than 빠듯하다, which leans toward 'just barely enough'.",
-    "mistakes": ["Confusing with 빡세다; 빡세다 (slang) means physically/mentally hard or grueling, while 빡빡하다 means tight with no slack", "Using 좁다 for a tight schedule; 좁다 is narrow in space, 빡빡하다 is tight in time/money/resistance"]
+    "nuance": "빡빡하다 is a colloquial native word built on the tense, forceful sound 빡, and it splits into two everyday senses: physically tight and stiff (a drawer, screw, or door that RESISTS moving) and figuratively tight (a packed schedule or a barely-sufficient budget). In both, the core image is zero slack, no breathing room. The synonym to separate is 빠듯하다: 빠듯하다 leans on 'only just enough, cutting it close' (시간이 빠듯하다 = we'll barely make it), while 빡빡하다 adds a feeling of pressure, stiffness, and friction. Don't confuse it with the slang 빡세다, which means an activity is physically or mentally grueling/hardcore (운동이 빡세다), not 'tightly packed'. The English-speaker pitfall is mapping 'tight schedule' onto 좁다: 좁다 is narrow in physical SPACE (a narrow alley), so 일정이 좁다 is wrong; a tight schedule is 일정이 빡빡하다. Likewise a tight budget is 예산이 빡빡하다, not 예산이 좁다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A colloquial native word built on the tense, forceful sound 빡. It splits into two everyday senses: physically tight and stiff (a drawer, screw, or door that RESISTS moving) and figuratively tight (a packed schedule or a barely-sufficient budget). In both, the core image is zero slack, no breathing room."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym to separate is 빠듯하다: 빠듯하다 leans on 'only just enough, cutting it close' (시간이 빠듯하다 = we'll barely make it), while 빡빡하다 adds a feeling of pressure, stiffness, and friction. Don't confuse it with the slang 빡세다, which means an activity is physically or mentally grueling/hardcore (운동이 빡세다), not 'tightly packed'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is mapping 'tight schedule' onto 좁다: 좁다 is narrow in physical SPACE (a narrow alley), so 일정이 좁다 is wrong; a tight schedule is 일정이 빡빡하다. Likewise a tight budget is 예산이 빡빡하다, not 예산이 좁다."}
+    ],
+    "mistakes": ["Using 좁다 for a tight schedule or budget (일정이 좁아요 / 예산이 좁아요). 좁다 = narrow in space; tight in time/money = 빡빡하다 (or 빠듯하다).", "Mixing up 빡빡하다 and 빡세다. 빡세다 (slang) = grueling/hardcore (알바가 빡세다); 빡빡하다 = tight with no slack (스케줄이 빡빡하다). They are not interchangeable.", "Overusing it in very formal writing. 빡빡하다 is casual-to-neutral spoken Korean; in a stiff report you might prefer 빠듯하다 or 여유가 없다."]
   },
   {
     "kind": "adjective",
@@ -91,18 +115,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["피부가 매끄러워요", "The skin is smooth", "ㅂ-irregular: 매끄럽 + 어요 = 매끄러워요"],
-      ["매끄러운 표면", "a smooth surface", "매끄러운 + N (ㅂ-irregular)"],
-      ["매끄럽게 처리하다", "to handle it smoothly", "figurative: handle without friction"],
-      ["진행이 매끄럽다", "the flow goes smoothly", "of an event/process running well"]
+      ["피부가 매끄러워요", "The skin is smooth", "ㅂ-irregular: 매끄럽 + 어요 → 매끄러워요"],
+      ["매끄러운 표면", "a smooth surface", "매끄러운 + N; ㅂ → 우 before the modifier 운"],
+      ["매끄럽게 처리하다", "to handle it smoothly", "figurative: deal with something without friction or conflict"],
+      ["진행이 매끄럽다", "the flow goes smoothly", "of an event or process running without hitches"]
     ],
     "examples": [
-      ["로션을 발랐더니 피부가 매끄러워졌어요.", "After I put on lotion, my skin became smooth.", "매끄러워지다 = change of state; ㅂ-irregular"],
-      ["바닥이 매끄러우니까 미끄러지지 않게 조심하세요.", "The floor is slick, so be careful not to slip.", "매끄러우니까 = reason form"],
-      ["발표가 매끄럽게 끝나서 다행이에요.", "I'm relieved the presentation ended smoothly.", "figurative: a smooth, polished flow"]
+      ["이 종이는 표면이 매끄러워요.", "This paper has a smooth surface.", "plain touch description; note 매끄러워요, not 매끄럽어요"],
+      ["로션을 발랐더니 피부가 매끄러워졌어요.", "After I put on lotion, my skin became smooth.", "매끄러워지다 = change of state, still ㅂ-irregular; -았더니 reports the result"],
+      ["발표가 매끄럽게 끝나서 다행이에요.", "I'm relieved the presentation ended smoothly.", "figurative: a polished, hitch-free flow; 매끄럽게 = adverb"]
     ],
-    "nuance": "매끄럽다 is a ㅂ-irregular adjective for surfaces that feel smooth and frictionless: skin, paper, fabric, floors. Figuratively it describes a process or speech that flows without awkward bumps. Note the irregular forms: 매끄러워요, 매끄러운, 매끄러우니까.",
-    "mistakes": ["Conjugating regularly as 매끄럽어요; correct ㅂ-irregular form is 매끄러워요", "Confusing with 미끄럽다 (slippery); 매끄럽다 is smooth to the touch, 미끄럽다 emphasizes being slip-prone/dangerous"]
+    "nuance": "매끄럽다 is a ㅂ-irregular adjective: the ㅂ becomes 우/워, giving 매끄러워요, 매끄러운, 매끄러우니까, 매끄러워서 — memorize the 요-form 매끄러워요 and the rest follows. It means smooth and frictionless to the touch (skin, paper, fabric, a polished floor) and figuratively a process or speech that flows without awkward bumps. The crucial synonym contrast is 미끄럽다: both come from the same 'slip' family, but 매끄럽다 is the pleasant, sleek 'smooth to the touch' (a compliment for skin), while 미끄럽다 is the dangerous 'slippery, slip-prone' (a warning about a wet floor). Saying the bathroom floor is 매끄러워요 sounds like you admire its sleek finish; to warn someone they might slip you must say 미끄러워요. The English-speaker pitfall is the regular conjugation 매끄럽어요 — wrong; it must be 매끄러워요, because all ㅂ-irregular adjectives like 춥다→추워요 and 무겁다→무거워요 behave this way.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "It means smooth and frictionless to the touch (skin, paper, fabric, a polished floor) and figuratively a process or speech that flows without awkward bumps."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial contrast is 미끄럽다: both come from the same 'slip' family, but 매끄럽다 is the pleasant, sleek 'smooth to the touch' (a compliment for skin), while 미끄럽다 is the dangerous 'slippery, slip-prone' (a warning about a wet floor). Saying the bathroom floor is 매끄러워요 sounds like you admire its sleek finish; to warn someone they might slip you must say 미끄러워요."},
+      {"k": "활용", "e": "FORMS", "t": "A ㅂ-irregular adjective: the ㅂ becomes 우/워, giving 매끄러워요, 매끄러운, 매끄러우니까, 매끄러워서 — memorize the 요-form 매끄러워요 and the rest follows.", "chips": ["매끄러워요", "매끄러운", "매끄러워서", "매끄러우니까"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the regular conjugation 매끄럽어요 — wrong; it must be 매끄러워요, because all ㅂ-irregular adjectives like 춥다→추워요 and 무겁다→무거워요 behave this way."}
+    ],
+    "mistakes": ["Conjugating it regularly as 매끄럽어요 / 매끄럽은. As a ㅂ-irregular it is 매끄러워요 and 매끄러운, exactly like 춥다 → 추워요 → 추운.", "Confusing 매끄럽다 with 미끄럽다. 매끄럽다 = sleek/smooth to the touch (good); 미끄럽다 = slippery/slip-prone (danger). For 'careful, it's slippery' say 미끄러워요, not 매끄러워요.", "Using it only for physical surfaces. 매끄럽다 also describes a smooth process or delivery — 일을 매끄럽게 처리하다, 발표가 매끄럽다."]
   },
   {
     "kind": "adjective",
@@ -112,18 +142,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["손이 거칠어요", "The hands are rough", "ㄹ-stem: 거칠 + 어요 = 거칠어요"],
-      ["거친 표면", "a rough surface", "거친 + N (ㄹ drops before ㄴ)"],
-      ["말투가 거칠다", "the way of speaking is harsh", "figurative: blunt/rough manner"],
-      ["피부가 거칠어지다", "skin becomes rough", "change of state"]
+      ["손이 거칠어요", "The hands are rough", "ㄹ-stem: 거칠 + 어요 → 거칠어요 (ㄹ kept before 어)"],
+      ["거친 표면", "a rough surface", "거친 + N; the ㄹ DROPS before ㄴ → 거친, not 거칠은"],
+      ["말투가 거칠다", "the way of speaking is harsh", "figurative: blunt, rough manner of speech"],
+      ["피부가 거칠어지다", "skin becomes rough", "거칠어지다 = change of state from smooth to rough"]
     ],
     "examples": [
-      ["겨울이라 손이 거칠어져서 핸드크림을 자주 발라요.", "It's winter, so my hands get rough and I use hand cream often.", "거칠어지다 = becomes rough; seasonal reality"],
-      ["이 수건은 좀 거칠어서 얼굴 닦기엔 별로예요.", "This towel is a bit coarse, so it's not great for the face.", "texture sense"],
-      ["그 사람은 말투가 거칠지만 마음은 따뜻해요.", "That person speaks harshly, but has a warm heart.", "figurative: rough manner vs kind nature"]
+      ["이 수건은 좀 거칠어요.", "This towel is a bit coarse.", "plain texture comment; not soft against the skin"],
+      ["겨울이라 손이 거칠어져서 핸드크림을 자주 발라요.", "It's winter, so my hands get rough and I use hand cream often.", "거칠어지다 = becomes rough; -아서/어서 chains the reason"],
+      ["그 사람은 말투가 거칠지만 마음은 따뜻해요.", "That person speaks harshly, but has a warm heart.", "figurative; -지만 contrasts the rough manner with the kind nature"]
     ],
-    "nuance": "거칠다 means rough or coarse to the touch (skin, towels, surfaces) and figuratively harsh or rough in manner or speech (말투가 거칠다, 운전이 거칠다). It is the opposite of 매끄럽다/부드럽다. As a ㄹ-stem adjective the ㄹ drops before ㄴ: 거친 손.",
-    "mistakes": ["Writing the modifier as 거칠은; the ㄹ drops, so it is 거친", "Limiting it to texture only; 거칠다 also describes harsh speech and aggressive driving (난폭운전)"]
+    "nuance": "거칠다 is a native ㄹ-stem (ㄹ-탈락) adjective meaning rough or coarse to the touch (skin, towels, unfinished surfaces) and, figuratively, harsh or rough in manner (말투가 거칠다, 운전이 거칠다, 숨이 거칠다). It is the antonym of 매끄럽다 and 부드럽다. The synonym to contrast is 까칠하다: 까칠하다 is a smaller, prickly roughness — slightly stubbly skin, OR a person who is touchy and prickly in temperament (성격이 까칠하다) — whereas 거칠다 is broader and rougher, covering coarse texture and genuinely harsh, wild behavior. The grammar pitfall English speakers hit is the ㄹ-stem rule: the ㄹ DROPS before ㄴ, so the present modifier is 거친 손, never 거칠은 손; but it STAYS before 어, giving 거칠어요. A second pitfall is limiting it to texture — in English 'rough' splits into many words, but 거칠다 naturally also covers harsh speech and aggressive, reckless driving (난폭운전).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A native adjective meaning rough or coarse to the touch (skin, towels, unfinished surfaces) and, figuratively, harsh or rough in manner (말투가 거칠다, 운전이 거칠다, 숨이 거칠다). It is the antonym of 매끄럽다 and 부드럽다."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym to contrast is 까칠하다: 까칠하다 is a smaller, prickly roughness — slightly stubbly skin, OR a person who is touchy and prickly in temperament (성격이 까칠하다) — whereas 거칠다 is broader and rougher, covering coarse texture and genuinely harsh, wild behavior."},
+      {"k": "활용", "e": "FORMS", "t": "A ㄹ-stem (ㄹ-탈락) adjective: the ㄹ DROPS before ㄴ, so the present modifier is 거친 손, never 거칠은 손; but it STAYS before 어, giving 거칠어요.", "chips": ["거칠어요", "거친", "거칠어지다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Beyond the ㄹ-stem trap, a second pitfall is limiting it to texture — in English 'rough' splits into many words, but 거칠다 naturally also covers harsh speech and aggressive, reckless driving (난폭운전)."}
+    ],
+    "mistakes": ["Writing the modifier as 거칠은 (e.g. 거칠은 손). As a ㄹ-stem the ㄹ drops before ㄴ, so it must be 거친 손, like 길다 → 긴, 멀다 → 먼.", "Limiting 거칠다 to physical texture. It also describes harsh speech (말투가 거칠다) and rough/aggressive driving (운전이 거칠다); ignoring these misses common usage.", "Confusing 거칠다 with 까칠하다 for personality. 까칠하다 = touchy, prickly, hard to please; 거칠다 = harsh, wild, rough-mannered. They paint different characters."]
   },
   {
     "kind": "adjective",
@@ -133,18 +169,23 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["손이 끈적해요", "My hands are sticky", "after touching something sugary"],
-      ["끈적한 바닥", "a sticky floor", "끈적한 + N"],
-      ["끈적하게 남다", "to stay sticky", "끈적하게 = adverb form"],
-      ["날씨가 끈적하다", "the weather is muggy/sticky", "humid, clammy summer feel"]
+      ["손이 끈적해요", "My hands are sticky", "typically after touching something sugary or sweaty"],
+      ["끈적한 바닥", "a sticky floor", "끈적한 + N; tacky residue underfoot"],
+      ["끈적하게 남다", "to leave a sticky residue", "끈적하게 = adverb; partner of 남다(remain)"],
+      ["날씨가 끈적하다", "the weather is muggy/sticky", "humid, clammy summer air clinging to the skin"]
     ],
     "examples": [
-      ["음료수를 쏟아서 식탁이 끈적해요.", "I spilled a drink, so the table is sticky.", "everyday cleanup situation"],
-      ["여름엔 습해서 몸이 끈적해요.", "In summer it's humid, so my body feels sticky.", "끈적하다 for sweaty, clammy skin"],
-      ["이 로션은 발라도 안 끈적해서 좋아요.", "This lotion isn't sticky even after applying, so it's nice.", "common cosmetic review point"]
+      ["음료수를 쏟아서 식탁이 끈적해요.", "I spilled a drink, so the table is sticky.", "everyday cleanup scene; 끈적해서 also works for the reason"],
+      ["여름엔 습해서 몸이 끈적해요.", "In summer it's humid, so my body feels sticky.", "끈적하다 for sweaty, clammy skin — a core Korean-summer word"],
+      ["이 로션은 발라도 안 끈적해서 좋아요.", "This lotion isn't sticky even after applying, so it's nice.", "-아도 = 'even if'; a standard cosmetic-review point"]
     ],
-    "nuance": "끈적하다 (also 끈적거리다, 끈적이다) describes a sticky, tacky feel: spilled drinks, sweat on humid days, or gooey residue. For Korea's muggy summers it perfectly captures clammy skin. A heavier, syrupy stickiness can be 끈적끈적하다. The opposite clean/dry feel is 보송보송하다.",
-    "mistakes": ["Confusing with 미끄럽다; 끈적하다 grips and clings, 미끄럽다 slides away", "Using 달다 (sweet, taste) when you mean the sticky texture; texture is 끈적하다, taste is 달다"]
+    "nuance": "끈적하다 (and its lively variants 끈적거리다, 끈적이다, 끈적끈적하다) is a native word for a sticky, tacky, clinging feel: spilled drinks drying on a table, sweat on a humid day, gooey residue, or honey on the fingers. For Korea's muggy summers it perfectly captures clammy skin and 끈적한 날씨. The doubled 끈적끈적하다 amps up to a heavier, syrupy stickiness. The key synonym contrast is with 미끄럽다 (slippery): they are near-opposites in physics — 끈적하다 GRIPS and clings so things stick together, while 미끄럽다 is frictionless so things slide apart. The English-speaker pitfall is mixing texture with taste: English 'sweet and sticky' bundles them, but in Korean 끈적하다 is purely the sticky TEXTURE, and 달다 is the sweet TASTE — a honey-coated table is 끈적하다, the honey itself is 달다. Figuratively 끈적한 시선/관계 can also mean an uncomfortably clingy gaze or relationship.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A native word for a sticky, tacky, clinging feel: spilled drinks drying on a table, sweat on a humid day, gooey residue, or honey on the fingers. For Korea's muggy summers it perfectly captures clammy skin and 끈적한 날씨. The doubled 끈적끈적하다 amps up to a heavier, syrupy stickiness. Figuratively 끈적한 시선/관계 can also mean an uncomfortably clingy gaze or relationship. It has lively variants 끈적거리다, 끈적이다, 끈적끈적하다."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key contrast is with 미끄럽다 (slippery): they are near-opposites in physics — 끈적하다 GRIPS and clings so things stick together, while 미끄럽다 is frictionless so things slide apart."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is mixing texture with taste: English 'sweet and sticky' bundles them, but in Korean 끈적하다 is purely the sticky TEXTURE, and 달다 is the sweet TASTE — a honey-coated table is 끈적하다, the honey itself is 달다."}
+    ],
+    "mistakes": ["Confusing 끈적하다 with 미끄럽다. 끈적하다 clings and grips (sticky honey); 미끄럽다 slides away (slippery ice). They describe opposite surface behavior.", "Using 달다 (sweet) when you mean the sticky feel. Texture = 끈적하다; taste = 달다. Don't say 이 바닥이 달아요 for a sticky floor.", "Forgetting the colloquial -거리다/-이다 forms. In speech Koreans often say 손이 끈적거려요 / 끈적여요 for an ongoing sticky sensation; sticking only to 끈적하다 sounds a little flat."]
   },
   {
     "kind": "adjective",
@@ -154,18 +195,23 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["사람이 빽빽해요", "It's packed with people", "no room to move"],
-      ["빽빽한 숲", "a dense forest", "빽빽한 + N; trees close together"],
-      ["글씨가 빽빽하다", "the text is crammed", "tightly written, little spacing"],
-      ["빽빽하게 들어차다", "to be packed in tightly", "빽빽하게 = adverb form"]
+      ["사람이 빽빽해요", "It's packed with people", "crammed so there's no room to move"],
+      ["빽빽한 숲", "a dense forest", "빽빽한 + N; trees standing close together"],
+      ["글씨가 빽빽하다", "the text is crammed", "tightly written with little spacing between lines"],
+      ["빽빽하게 들어차다", "to be packed in tightly", "빽빽하게 = adverb; fixed pair with 들어차다(be filled)"]
     ],
     "examples": [
-      ["출근 시간 지하철은 사람이 빽빽해요.", "The subway at commute time is packed with people.", "very relatable Seoul commute"],
-      ["수첩에 일정이 빽빽하게 적혀 있어요.", "The planner is crammed full of appointments.", "figurative: a packed schedule written densely"],
-      ["나무가 빽빽해서 햇빛이 잘 안 들어와요.", "The trees are dense, so sunlight barely gets in.", "nature/forest sense"]
+      ["출근 시간 지하철은 사람이 빽빽해요.", "The subway at commute time is packed with people.", "a very relatable Seoul commute; 사람이 빽빽하다 is a set phrase"],
+      ["수첩에 일정이 빽빽하게 적혀 있어요.", "The planner is crammed full of appointments.", "빽빽하게 적히다 = densely written; figurative packed schedule"],
+      ["나무가 빽빽해서 햇빛이 잘 안 들어와요.", "The trees are dense, so sunlight barely gets in.", "빽빽해서 = reason; nature/forest sense"]
     ],
-    "nuance": "빽빽하다 means crammed full with almost no gaps: a packed subway, a dense forest, tightly written text. It stresses crowdedness and lack of room. Compare 촘촘하다 (fine, even spacing, often positive) and 빡빡하다 (tight schedule/stiff). The opposite is 한산하다 (empty/quiet) or 듬성듬성하다.",
-    "mistakes": ["Confusing with 복잡하다; 복잡하다 means complicated or chaotically busy, 빽빽하다 means physically densely packed", "Using 많다 alone for a crowd; 빽빽하다 adds the nuance of being packed with no space"]
+    "nuance": "빽빽하다 is a native word, felt through the tight, stuffed sound 빽, meaning crammed full with almost no gaps: a packed subway, a dense forest, lines of tiny text squeezed onto a page. Its emphasis is crowdedness and lack of room, and it often carries a slightly oppressive, uncomfortable tone. Contrast it carefully with 촘촘하다 and 복잡하다. Versus 촘촘하다: 촘촘하다 admires fine, even, deliberate spacing (a finely woven net), while 빽빽하다 just stresses 'stuffed full, no space' (a forest you can't walk through). Versus 복잡하다(複雜): 복잡하다 means complicated or chaotically busy in arrangement (복잡한 절차, 복잡한 길), whereas 빽빽하다 is specifically about physical density. The opposite is 한산하다 (deserted, sparse) or 듬성듬성하다. The English-speaker pitfall is using bare 많다 for a crowd: 사람이 많다 just says 'there are many people', while 빽빽하다 adds the crucial nuance of being packed in with no breathing space.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A native word, felt through the tight, stuffed sound 빽, meaning crammed full with almost no gaps: a packed subway, a dense forest, lines of tiny text squeezed onto a page. Its emphasis is crowdedness and lack of room, and it often carries a slightly oppressive, uncomfortable tone. The opposite is 한산하다 (deserted, sparse) or 듬성듬성하다."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast it carefully with 촘촘하다 and 복잡하다. Versus 촘촘하다: 촘촘하다 admires fine, even, deliberate spacing (a finely woven net), while 빽빽하다 just stresses 'stuffed full, no space' (a forest you can't walk through). Versus 복잡하다(複雜): 복잡하다 means complicated or chaotically busy in arrangement (복잡한 절차, 복잡한 길), whereas 빽빽하다 is specifically about physical density."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is using bare 많다 for a crowd: 사람이 많다 just says 'there are many people', while 빽빽하다 adds the crucial nuance of being packed in with no breathing space."}
+    ],
+    "mistakes": ["Confusing 빽빽하다 with 복잡하다. 복잡하다 = complicated/chaotic (복잡한 신청 절차); 빽빽하다 = physically densely packed (사람이 빽빽한 지하철). A crowded train is 빽빽하다; a confusing procedure is 복잡하다.", "Using 많다 alone where you need density. 사람이 많아요 = 'there are lots of people'; for 'packed tight with no room' add 빽빽해요.", "Applying 빽빽하다 to fine even spacing. A tightly knit fabric or fine-toothed comb is 촘촘하다; 빽빽하다 is for crowded fullness, not delicate spacing."]
   },
   {
     "kind": "adjective",
@@ -175,18 +221,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["방이 널찍해요", "The room is spacious", "pleasantly roomy"],
-      ["널찍한 거실", "a spacious living room", "널찍한 + N"],
-      ["널찍하게 자리잡다", "to settle into a roomy spot", "널찍하게 = adverb form"],
-      ["공간이 널찍하다", "the space is roomy", "comfortable amount of room"]
+      ["방이 널찍해요", "The room is spacious", "pleasantly roomy, with a positive feel"],
+      ["널찍한 거실", "a spacious living room", "널찍한 + N; sounds inviting and comfortable"],
+      ["널찍하게 자리잡다", "to settle into a roomy spot", "널찍하게 = adverb; spreading out comfortably"],
+      ["널찍한 주차장", "a roomy parking lot", "easy to park because there's plenty of space"]
     ],
     "examples": [
-      ["이 카페는 자리가 널찍해서 노트북 하기 좋아요.", "This cafe has roomy seating, so it's good for using a laptop.", "popular cafe-hunting criterion"],
-      ["원룸치고 화장실이 널찍해요.", "For a studio, the bathroom is quite spacious.", "house-hunting comment; -치고 = considering"],
-      ["주차장이 널찍해서 주차하기 편해요.", "The parking lot is roomy, so parking is easy.", "convenience comment"]
+      ["이 카페는 자리가 널찍해요.", "This cafe has roomy seating.", "plain praise; a popular cafe-hunting criterion in Korea"],
+      ["원룸치고 화장실이 널찍해요.", "For a studio, the bathroom is quite spacious.", "N치고 = 'considering it's a ~'; a house-hunting compliment"],
+      ["거실이 널찍해서 가구를 더 놓을 수 있어요.", "The living room is roomy, so I can fit more furniture.", "널찍해서 = reason; -을 수 있다 shows the practical payoff"]
     ],
-    "nuance": "널찍하다 means comfortably spacious and roomy, with a positive, pleasant tone. It is a step warmer than plain 넓다 (wide), implying the space feels generous and comfortable. The opposite is 비좁다 (cramped). Great for describing apartments, cafes, and parking when house- or seat-hunting.",
-    "mistakes": ["Using 넓다 when you want the cozy positive nuance; 널찍하다 conveys 'pleasantly roomy', not just measurably wide", "Misspelling as 넓직하다; the standard spelling is 널찍하다"]
+    "nuance": "널찍하다 is a native word derived from 넓다 (wide) plus the suffix -찍하다, which adds a warm, satisfied 'pleasantly so' nuance — so it means not just wide but comfortably, generously roomy, almost always a compliment. The synonym to keep distinct is plain 넓다: 넓다 is the neutral, measurable 'wide/large in area' (운동장이 넓다), while 널찍하다 layers on the feeling that the space is enjoyably spacious and comfortable. You'd use 널찍하다 when house- or seat-hunting to say a place feels nice and open, not merely big. Its direct opposite is 비좁다 (cramped). The English-speaker pitfall is defaulting to 넓다 for everything because English 'spacious' and 'wide' overlap: if you want the cozy, appreciative 'nice and roomy', 널찍하다 carries it, whereas 넓다 can sound flatly factual. Watch the spelling too — it is 널찍하다, not the common misspelling 넓직하다, even though it comes from 넓다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Means not just wide but comfortably, generously roomy, almost always a compliment. You'd use 널찍하다 when house- or seat-hunting to say a place feels nice and open, not merely big. Its direct opposite is 비좁다 (cramped)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym to keep distinct is plain 넓다: 넓다 is the neutral, measurable 'wide/large in area' (운동장이 넓다), while 널찍하다 layers on the feeling that the space is enjoyably spacious and comfortable."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "A native word derived from 넓다 (wide) plus the suffix -찍하다, which adds a warm, satisfied 'pleasantly so' nuance. Watch the spelling too — it is 널찍하다, not the common misspelling 넓직하다, even though it comes from 넓다."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is defaulting to 넓다 for everything because English 'spacious' and 'wide' overlap: if you want the cozy, appreciative 'nice and roomy', 널찍하다 carries it, whereas 넓다 can sound flatly factual."}
+    ],
+    "mistakes": ["Using plain 넓다 when you want the warm 'pleasantly roomy' nuance. 방이 넓어요 just states it's large; 방이 널찍해요 conveys it feels comfortably spacious — a nicer compliment when viewing a place.", "Misspelling it as 넓직하다 because it derives from 넓다. The standard spelling is 널찍하다 (the ㄼ is not written out).", "Applying it to abstract bigness. 널찍하다 is for physical, walk-around space (rooms, lots, seating); for a wide range of options or broad knowledge you'd use 넓다 (선택의 폭이 넓다), not 널찍하다."]
   },
   {
     "kind": "adjective",
@@ -196,18 +248,23 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["방이 비좁아요", "The room is cramped", "feels too small for its purpose"],
-      ["비좁은 골목", "a cramped alley", "비좁은 + N"],
-      ["비좁게 살다", "to live in cramped quarters", "비좁게 = adverb form"],
-      ["공간이 비좁다", "the space is too tight", "uncomfortably small"]
+      ["방이 비좁아요", "The room is cramped", "feels too small for what it's used for"],
+      ["비좁은 골목", "a cramped alley", "비좁은 + N; barely room to pass"],
+      ["비좁게 살다", "to live in cramped quarters", "비좁게 = adverb; squeezed into too little space"],
+      ["비좁은 좌석", "cramped seats", "uncomfortably tight, e.g. on a bus or plane"]
     ],
     "examples": [
-      ["짐이 많아서 원룸이 너무 비좁아요.", "I have a lot of stuff, so the studio feels really cramped.", "common renter complaint"],
-      ["엘리베이터가 비좁아서 한 번에 다 못 타요.", "The elevator is too cramped, so we can't all fit at once.", "everyday building situation"],
-      ["식당이 비좁아서 옆 사람이랑 부딪혔어요.", "The restaurant was so cramped I bumped into the person next to me.", "tight-space frustration"]
+      ["엘리베이터가 비좁아요.", "The elevator is cramped.", "plain complaint; everyday apartment-building scene"],
+      ["짐이 많아서 원룸이 너무 비좁아요.", "I have a lot of stuff, so the studio feels really cramped.", "비좁다 stresses 'uncomfortably tight', stronger than plain 좁다"],
+      ["식당이 비좁아서 옆 사람이랑 부딪혔어요.", "The restaurant was so cramped I bumped into the person next to me.", "비좁아서 = reason; concrete tight-space frustration"]
     ],
-    "nuance": "비좁다 means cramped or uncomfortably narrow, stronger and more negative than plain 좁다. The 비- prefix emphasizes that the space is too tight for comfort. It is the direct opposite of 널찍하다. Use it for small rooms, packed elevators, and tight restaurants.",
-    "mistakes": ["Treating 비좁다 as identical to 좁다; 비좁다 adds the nuance of 'too tight to be comfortable'", "Using it for a person being narrow-minded; that is 속이 좁다, not 비좁다"]
+    "nuance": "비좁다 is a native word: the intensifying prefix 비- attaches to 좁다 (narrow) and pushes it to 'so narrow it's uncomfortable', i.e. cramped. It is stronger and more clearly negative than plain 좁다, which can be a neutral statement of size (좁은 방 = a small room). Use 비좁다 for rooms stuffed with belongings, packed elevators, tight restaurant tables, or cramped seats. It is the direct antonym of 널찍하다. The English-speaker pitfall is twofold. First, treating 비좁다 and 좁다 as identical: 좁다 just says 'narrow/small', while 비좁다 adds 'too tight for comfort', so a tiny but tidy room can be 좁다 yet only an over-stuffed, uncomfortable one is really 비좁다. Second, borrowing the English metaphor 'narrow-minded' onto this word: a narrow-minded person is 속이 좁다 / 마음이 좁다, never 비좁다 — 비좁다 is strictly about physical space.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Means 'so narrow it's uncomfortable', i.e. cramped. It is stronger and more clearly negative than plain 좁다, which can be a neutral statement of size (좁은 방 = a small room). Use 비좁다 for rooms stuffed with belongings, packed elevators, tight restaurant tables, or cramped seats. It is the direct antonym of 널찍하다."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "A native word: the intensifying prefix 비- attaches to 좁다 (narrow) and pushes it to 'so narrow it's uncomfortable'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is twofold. First, treating 비좁다 and 좁다 as identical: 좁다 just says 'narrow/small', while 비좁다 adds 'too tight for comfort', so a tiny but tidy room can be 좁다 yet only an over-stuffed, uncomfortable one is really 비좁다. Second, borrowing the English metaphor 'narrow-minded' onto this word: a narrow-minded person is 속이 좁다 / 마음이 좁다, never 비좁다 — 비좁다 is strictly about physical space."}
+    ],
+    "mistakes": ["Treating 비좁다 as identical to 좁다. 좁다 = narrow/small (can be neutral); 비좁다 = cramped, too tight to be comfortable. A cozy small room is 좁다; a suffocatingly packed one is 비좁다.", "Using 비좁다 for a person being narrow-minded. That sense is 속이 좁다 or 마음이 좁다; 비좁다 only describes physical space.", "Applying it to a narrow long shape that isn't uncomfortable. A slim margin or thin strip is 좁다; reserve 비좁다 for spaces that feel oppressively tight to be in."]
   },
   {
     "kind": "adjective",
@@ -217,18 +274,23 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["침대가 푹신해요", "The bed is soft/cushiony", "comfortable to sink into"],
-      ["푹신한 소파", "a fluffy/cushiony sofa", "푹신한 + N"],
-      ["푹신푹신하다", "to be nice and fluffy", "doubled form = extra soft"],
-      ["푹신하게 만들다", "to make it cushiony", "푹신하게 = adverb form"]
+      ["침대가 푹신해요", "The bed is soft/cushiony", "comfortable to sink into with a springy give"],
+      ["푹신한 소파", "a cushiony sofa", "푹신한 + N; soft and inviting to sit on"],
+      ["푹신푹신하다", "to be nice and fluffy", "doubled form intensifies to extra-soft and bouncy"],
+      ["푹신한 운동화", "cushioned sneakers", "soft sole that absorbs impact when walking"]
     ],
     "examples": [
-      ["이 운동화는 밑창이 푹신해서 발이 편해요.", "These sneakers have a cushiony sole, so my feet are comfortable.", "common shoe-shopping comment"],
-      ["호텔 베개가 푹신해서 잘 잤어요.", "The hotel pillow was fluffy, so I slept well.", "soft-comfort context"],
-      ["새로 산 매트리스가 너무 푹신해서 허리가 좀 아파요.", "The new mattress is too soft, so my back hurts a bit.", "too-soft can be a downside"]
+      ["호텔 베개가 푹신해요.", "The hotel pillow is fluffy.", "plain comfort comment; soft with pleasant give"],
+      ["이 운동화는 밑창이 푹신해서 발이 편해요.", "These sneakers have a cushiony sole, so my feet are comfortable.", "밑창(sole) + 푹신하다; -아서 chains the reason — a common shoe-shopping line"],
+      ["새로 산 매트리스가 너무 푹신해서 허리가 좀 아파요.", "The new mattress is too soft, so my back hurts a bit.", "너무 푹신하다 shows over-softness can be a downside, not always praise"]
     ],
-    "nuance": "푹신하다 (often doubled as 푹신푹신하다) describes a soft, springy, cushiony feel: beds, sofas, pillows, shoe soles. It implies pleasant give when pressed. The opposite is 딱딱하다 (hard). For Koreans shopping for furniture or shoes, 푹신하다 is a key comfort word.",
-    "mistakes": ["Confusing with 부드럽다; 부드럽다 is smooth/gentle to the touch, 푹신하다 is springy and cushiony with give", "Assuming 푹신하다 is always good; an overly soft (너무 푹신한) mattress can be criticized for back pain"]
+    "nuance": "푹신하다 (often doubled to 푹신푹신하다 for emphasis) is a native word built on the soft, sinking sound 푹, describing a soft, springy, cushiony feel with pleasant GIVE when you press it: beds, sofas, pillows, thick cushions, padded shoe soles, fluffy bread. Its opposite is 딱딱하다 (hard/firm). The synonym to separate is 부드럽다: 부드럽다 is smooth and gentle to the touch — about surface softness (부드러운 천, 부드러운 머릿결) — whereas 푹신하다 is about volumetric springiness, how something cushions and bounces back when compressed. A silk scarf is 부드럽다 (smooth) but not 푹신하다; a marshmallow pillow is both. For Koreans shopping for furniture, bedding, or shoes, 푹신하다 is a go-to comfort word. The English-speaker pitfall is assuming 'soft = always good': a mattress described as 너무 푹신하다 (too soft) is a complaint, because excessive softness lacks support and can hurt your back — Koreans often prefer something 적당히 단단한 (moderately firm).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A native word built on the soft, sinking sound 푹, describing a soft, springy, cushiony feel with pleasant GIVE when you press it: beds, sofas, pillows, thick cushions, padded shoe soles, fluffy bread. Often doubled to 푹신푹신하다 for emphasis. Its opposite is 딱딱하다 (hard/firm). For Koreans shopping for furniture, bedding, or shoes, 푹신하다 is a go-to comfort word."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym to separate is 부드럽다: 부드럽다 is smooth and gentle to the touch — about surface softness (부드러운 천, 부드러운 머릿결) — whereas 푹신하다 is about volumetric springiness, how something cushions and bounces back when compressed. A silk scarf is 부드럽다 (smooth) but not 푹신하다; a marshmallow pillow is both."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is assuming 'soft = always good': a mattress described as 너무 푹신하다 (too soft) is a complaint, because excessive softness lacks support and can hurt your back — Koreans often prefer something 적당히 단단한 (moderately firm)."}
+    ],
+    "mistakes": ["Confusing 푹신하다 with 부드럽다. 부드럽다 = smooth/gentle to the touch (a soft fabric, smooth hair); 푹신하다 = springy and cushiony with give (a plush sofa). A smooth-but-firm leather seat is 부드럽다, not 푹신하다.", "Assuming 푹신하다 is always positive. 너무 푹신한 매트리스 is a criticism — too soft, no support, sore back. Context decides whether it's praise.", "Using it for a flat, firm surface. A thin yoga mat or hardwood floor is not 푹신하다; the word needs noticeable cushioning and bounce-back."]
   },
   {
     "kind": "adjective",
@@ -238,17 +300,22 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["과자가 눅눅해요", "The snack has gone soggy", "lost its crispness from humidity"],
-      ["눅눅한 빨래", "damp laundry", "눅눅한 + N; not fully dried"],
-      ["방이 눅눅하다", "the room is damp/muggy", "humid, clammy air"],
-      ["눅눅해지다", "to become damp/soggy", "change of state"]
+      ["과자가 눅눅해요", "The snack has gone soggy", "lost its crispness after absorbing humidity"],
+      ["눅눅한 빨래", "damp laundry", "눅눅한 + N; not fully dried, still clammy"],
+      ["방이 눅눅하다", "the room is damp/muggy", "humid, clammy air that clings"],
+      ["눅눅해지다", "to become damp/soggy", "눅눅해지다 = change of state from crisp/dry to damp"]
     ],
     "examples": [
-      ["장마철엔 빨래가 눅눅해서 잘 안 말라요.", "During the rainy season, laundry stays damp and won't dry well.", "classic Korean monsoon problem"],
-      ["과자 봉지를 안 닫아서 눅눅해졌어요.", "I didn't seal the snack bag, so it went soggy.", "눅눅해지다 = became soggy"],
-      ["지하라서 그런지 방이 좀 눅눅해요.", "Maybe because it's a basement, the room feels a bit damp.", "house-hunting red flag"]
+      ["과자가 눅눅해요.", "The crackers have gone soggy.", "plain statement; the crunch is gone"],
+      ["과자 봉지를 안 닫아서 눅눅해졌어요.", "I didn't seal the snack bag, so it went soggy.", "눅눅해지다 = 'became soggy'; -아서 chains the cause"],
+      ["장마철엔 빨래가 눅눅해서 잘 안 말라요.", "During the rainy season, laundry stays damp and won't dry well.", "장마철 context; 눅눅해서 = reason — a classic Korean monsoon problem"]
     ],
-    "nuance": "눅눅하다 describes things that have absorbed moisture and turned damp or soggy: crackers that lost their crunch, laundry that won't dry, a humid basement room. It is essential vocabulary for Korea's humid summers and 장마 (rainy season). The opposite crisp/dry feel is 바삭하다 or 보송보송하다.",
-    "mistakes": ["Confusing with 축축하다; 축축하다 is wet/moist to the touch (a wet towel), 눅눅하다 is damp-soggy with a stale, humidity-soaked feel", "Using 젖다 (to get wet) for soggy snacks; soggy-from-humidity is 눅눅해지다, not 젖다"]
+    "nuance": "눅눅하다 is a native word for things that have absorbed moisture and turned damp, soggy, or limp: crackers and seaweed (김) that lost their crunch, laundry that stubbornly won't dry, a humid basement room, a 장마철 (rainy-season) apartment. It is essential vocabulary for Korea's sticky summers. Its opposite is the crisp/dry 바삭하다 (crispy) for food and 보송보송하다 (dry and fluffy) for textiles. The synonym English speakers most often confuse it with is 축축하다: 축축하다 is actively WET to the touch — there is visible or palpable water, like a wet towel or rain-soaked socks — whereas 눅눅하다 is the subtler, stale 'humidity-soaked, limp, no longer crisp' state where nothing is dripping but everything feels clammy and soft. A second pitfall is reaching for 젖다 (to get wet): soggy-from-humidity crackers are 눅눅해졌다, not 젖었다, because 젖다 implies they got splashed or soaked in liquid, not slowly softened by moist air.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A native word for things that have absorbed moisture and turned damp, soggy, or limp: crackers and seaweed (김) that lost their crunch, laundry that stubbornly won't dry, a humid basement room, a 장마철 (rainy-season) apartment. It is essential vocabulary for Korea's sticky summers. Its opposite is the crisp/dry 바삭하다 (crispy) for food and 보송보송하다 (dry and fluffy) for textiles."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym most often confused with it is 축축하다: 축축하다 is actively WET to the touch — there is visible or palpable water, like a wet towel or rain-soaked socks — whereas 눅눅하다 is the subtler, stale 'humidity-soaked, limp, no longer crisp' state where nothing is dripping but everything feels clammy and soft."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A pitfall is reaching for 젖다 (to get wet): soggy-from-humidity crackers are 눅눅해졌다, not 젖었다, because 젖다 implies they got splashed or soaked in liquid, not slowly softened by moist air."}
+    ],
+    "mistakes": ["Confusing 눅눅하다 with 축축하다. 축축하다 = wet/moist to the touch (a wet towel, damp socks); 눅눅하다 = damp-soggy and stale from humidity (limp crackers, a muggy room). Nothing drips when it's merely 눅눅하다.", "Using 젖다 for soggy snacks. 젖다 = to get wet/soaked in liquid; humidity-softened food is 눅눅해지다, not 젖다. 과자가 젖었어요 sounds like water spilled on it.", "Applying 눅눅하다 to pleasant softness. It is negative — limp, stale, clammy. A nice springy pillow is 푹신하다, never 눅눅하다."]
   }
 ]

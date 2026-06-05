@@ -5,20 +5,27 @@
     "english": "Is it okay to talk (on the phone) right now?",
     "topic": "daily-life",
     "usage": [
-      ["통화 괜찮으세요?", "Is now a good time to talk?", "polite opener when YOU called someone"],
-      ["지금 통화 괜찮으세요?", "Are you free to talk right now?", "지금 = right now, makes timing explicit"],
-      ["잠깐 통화 괜찮으세요?", "Do you have a minute to talk?", "잠깐 = briefly, softens the request"],
-      ["통화 괜찮아요?", "You good to talk?", "casual 해요 version for friends/peers"]
+      ["통화 괜찮으세요?", "Is now a good time to talk?", "the standard polite opener AFTER you placed the call and they picked up"],
+      ["지금 통화 괜찮으세요?", "Are you free to talk right now?", "지금 = right now; pins the timing so they know you mean this moment"],
+      ["잠깐 통화 괜찮으세요?", "Do you have a minute to talk?", "잠깐 (briefly) shrinks the ask and makes it easy to say yes"],
+      ["통화 괜찮아?", "You good to talk?", "반말 해체; only with close friends/younger people"]
     ],
     "examples": [
-      ["여보세요, 김 대리님? 지금 통화 괜찮으세요?", "Hello, is this Mr. Kim? Is now a good time to talk?", "standard business call opener"],
-      ["바쁘신데 죄송해요. 잠깐 통화 괜찮으세요?", "Sorry to bother you when you're busy. Do you have a minute?", "apologetic, very polite"],
-      ["야, 지금 통화 괜찮아? 할 말 있어.", "Hey, can you talk now? I've got something to say.", "반말, between close friends"]
+      ["여보세요? 지금 통화 괜찮으세요?", "Hello? Is now a good time to talk?", "the bare minimum polite call opener — 여보세요 then the check"],
+      ["바쁘신데 죄송해요. 잠깐 통화 괜찮으세요?", "Sorry to bother you when you're busy. Do you have a minute?", "lead with 죄송해요 to soften before the request"],
+      ["야, 통화 괜찮아? 할 말 있어.", "Hey, can you talk? I've got something to say.", "반말 between close friends; note no -세요"]
     ],
-    "nuance": "The default phone courtesy line right after the other person picks up — you check whether they can actually talk before launching in. 괜찮으세요? is the safe polite form for anyone you'd use 존댓말 with; drop to 괜찮아? only with close friends. Koreans use this constantly, so saying it makes you sound considerate rather than abrupt.",
+    "nuance": "This is the reflexive courtesy line the CALLER says the instant the other person answers — you confirm they can actually talk before diving in, the way an English speaker says 'Is this a good time?' 통화(通話) is Sino-Korean, literally 通 'pass/connect' + 話 'speech', i.e. 'a connected conversation', and it always means a phone/voice call — never use it for chatting face-to-face, which is just 얘기/대화. 괜찮으세요? is the all-purpose honorific 'is it okay?'; it scales down to 괜찮아? only with intimates. The big English-speaker pitfall is direction: the person who PICKED UP does not ask this — only the one who dialed does — so don't say it after you answer a call. A second trap is dropping the honorific with a boss or client; 괜찮아? to a 부장님 sounds startlingly familiar, so default to 괜찮으세요?. The nearest rival phrase, 지금 시간 괜찮으세요? ('do you have time now?'), is more general and works off the phone too, whereas 통화 괜찮으세요? specifically asks about THIS call.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The reflexive courtesy line the CALLER says the instant the other person answers — you confirm they can actually talk before diving in, the way an English speaker says 'Is this a good time?' 괜찮으세요? is the all-purpose honorific 'is it okay?'; it scales down to 괜찮아? only with intimates."},
+      {"k": "비슷한 말", "e": "VS", "t": "The nearest rival phrase, 지금 시간 괜찮으세요? ('do you have time now?'), is more general and works off the phone too, whereas 통화 괜찮으세요? specifically asks about THIS call."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "통화(通話) is Sino-Korean, literally 通 'pass/connect' + 話 'speech', i.e. 'a connected conversation', and it always means a phone/voice call — never use it for chatting face-to-face, which is just 얘기/대화."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The big English-speaker pitfall is direction: the person who PICKED UP does not ask this — only the one who dialed does — so don't say it after you answer a call. A second trap is dropping the honorific with a boss or client; 괜찮아? to a 부장님 sounds startlingly familiar, so default to 괜찮으세요?."}
+    ],
     "mistakes": [
-      "Saying it when YOU received the call — the caller asks this, not the person who answered.",
-      "Using 괜찮아? with a boss or client; it sounds too familiar — use 괜찮으세요?."
+      "Asking it when YOU received the call. The caller initiates this check; if you answered, you just say 네, 여보세요? — the dialer is the one who confirms it's a good time.",
+      "Using 괜찮아? with a boss or client. It is 반말 and sounds too familiar with anyone you'd 존댓말 — the honorific 괜찮으세요? (괜찮- + 으시- + 어요) is the safe default.",
+      "Saying 통화 to mean an in-person chat. 통화 is strictly a phone call; a face-to-face conversation is 대화 or just 얘기 — '얘기 좀 괜찮아요?' for talking in person."
     ]
   },
   {
@@ -27,20 +34,27 @@
     "english": "Please hold (don't hang up), and wait a moment",
     "topic": "daily-life",
     "usage": [
-      ["끊지 말고 기다려 주세요", "Please don't hang up and hold on", "full polite form, said to a caller"],
-      ["끊지 마시고 잠시만 기다려 주세요", "Please stay on the line for a moment", "끊지 마시고 = extra-polite hold phrasing"],
-      ["끊지 말고 잠깐만요", "Hold on, don't hang up", "shorter, still polite-ish"],
-      ["끊지 말고 기다려", "Hold on, don't hang up", "반말 to a friend"]
+      ["끊지 말고 기다려 주세요", "Please don't hang up and hold on", "full polite form said to a caller you've put on hold"],
+      ["끊지 마시고 잠시만 기다려 주세요", "Please stay on the line for a moment", "끊지 마시고 inserts honorific -시-; the extra-polite call-center grade"],
+      ["끊지 말고 잠깐만요", "Hold on, don't hang up", "shorter and brisk; 잠깐만요 = 'just a sec'"],
+      ["끊지 말고 기다려", "Hold on, don't hang up", "반말 to a friend; note 주세요 is gone"]
     ],
     "examples": [
-      ["담당자 확인해 드릴게요. 끊지 말고 기다려 주세요.", "I'll check with the person in charge. Please hold.", "service/call-center line"],
-      ["끊지 마시고 잠시만 기다려 주세요. 바로 연결해 드리겠습니다.", "Please hold a moment; I'll connect you right away.", "formal customer service"],
-      ["엄마한테 물어볼게. 끊지 말고 기다려.", "I'll ask Mom. Don't hang up, hold on.", "casual, to a friend"]
+      ["담당자 확인해 드릴게요. 끊지 말고 기다려 주세요.", "I'll check with the person in charge. Please hold.", "service line; -아 드릴게요 = doing the favor for you"],
+      ["잠시만 기다려 주세요. 바로 연결해 드리겠습니다.", "Please hold a moment; I'll connect you right away.", "formal -겠습니다 raises the politeness one more notch"],
+      ["엄마한테 물어볼게. 끊지 말고 기다려.", "I'll ask Mom. Don't hang up, hold on.", "casual, at home — plain 기다려"]
     ],
-    "nuance": "What an agent or whoever answered says when they need to step away briefly but want you to stay on the line. 끊다 literally means 'to cut/sever,' which is how Korean expresses hanging up. The -지 말고 ('don't ~ and') warns against hanging up while 기다려 주세요 asks you to wait — together it's the standard 'please hold.'",
+    "nuance": "This is what the person holding the receiver says when they must step away briefly but want you to stay on the line — the Korean equivalent of 'please hold.' The grammar stacks two ideas: 끊다 literally means 'to cut/sever,' which is exactly how Korean conceives of hanging up (you 'cut' the call), and -지 말고 ('don't ~ and instead') warns you off doing it, while 기다려 주세요 ('please wait for me') uses the favor verb 주다 to make the wait a kindness you're granting. The classic English-speaker error is mixing 끊다 (hang up a call) with 끄다 (power off a device): phones are 끊어, but a TV or light is 꺼. A near-synonym hold-phrase is 잠시만 기다려 주세요 ('please wait a moment') — that one just asks you to wait, while 끊지 말고… specifically adds 'don't hang up,' so it's the right choice the moment there's a risk the caller gives up and ends the call. Note that to a customer you must keep 주세요; bare 끊지 말고 기다려 sounds like a barked order.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "What the person holding the receiver says when they must step away briefly but want you to stay on the line — the Korean equivalent of 'please hold.' Note that to a customer you must keep 주세요; bare 끊지 말고 기다려 sounds like a barked order."},
+      {"k": "비슷한 말", "e": "VS", "t": "A near-synonym hold-phrase is 잠시만 기다려 주세요 ('please wait a moment') — that one just asks you to wait, while 끊지 말고… specifically adds 'don't hang up,' so it's the right choice the moment there's a risk the caller gives up and ends the call."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "The grammar stacks two ideas: 끊다 literally means 'to cut/sever,' which is exactly how Korean conceives of hanging up (you 'cut' the call), and -지 말고 ('don't ~ and instead') warns you off doing it, while 기다려 주세요 ('please wait for me') uses the favor verb 주다 to make the wait a kindness you're granting."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic English-speaker error is mixing 끊다 (hang up a call) with 끄다 (power off a device): phones are 끊어, but a TV or light is 꺼."}
+    ],
     "mistakes": [
-      "Confusing 끊다 (hang up) with 끄다 (turn off) — phones get 끊어, devices get 꺼.",
-      "Dropping 주세요 and just saying 끊지 말고 기다려 to a customer — sounds like an order."
+      "Confusing 끊다 with 끄다. A phone call is hung up: 전화 끊어; a device is turned off: 불 꺼 / 휴대폰 꺼. Saying 전화 꺼 means 'turn the phone OFF,' a different action.",
+      "Dropping 주세요 with a customer. 끊지 말고 기다려 to a stranger sounds like an order; the favor verb 기다려 주세요 makes it a polite request.",
+      "Writing 끊지 as 끈지. The verb is 끊다 (with the ㄶ cluster); 끈 means 'a string,' so 끈지 말고 is a spelling slip."
     ]
   },
   {
@@ -49,20 +63,27 @@
     "english": "Shall I take a message (for them)?",
     "topic": "daily-life",
     "usage": [
-      ["메모 남겨 드릴까요?", "Would you like me to leave a message?", "offering to relay a message — humble"],
-      ["메모 남겨 드릴까요?", "Shall I take a message?", "common at an office reception"],
-      ["전하실 메모 있으세요?", "Is there a message you'd like to leave?", "alternative phrasing"],
-      ["메모 남겨 줄까?", "Want me to leave them a message?", "반말 version"]
+      ["메모 남겨 드릴까요?", "Would you like me to leave a message?", "humble offer to write down a message for the absent person"],
+      ["전하실 말씀 있으세요?", "Is there anything you'd like me to pass on?", "alternative; 전하다 = 'convey,' 말씀 = honorific 'words'"],
+      ["메시지 남기시겠어요?", "Would you like to leave a message?", "-시겠어요 puts the choice politely on the caller"],
+      ["메모 남겨 줄까?", "Want me to leave them a message?", "반말 version, e.g. at home"]
     ],
     "examples": [
-      ["지금 자리에 안 계세요. 메모 남겨 드릴까요?", "They're not at their desk right now. Shall I take a message?", "classic office phone answer"],
-      ["회의 중이신데, 메모 남겨 드릴까요?", "They're in a meeting — would you like to leave a message?", "polite, common at work"],
-      ["형 지금 없는데, 메모 남겨 줄까?", "Bro's not here — want me to pass on a message?", "casual, at home"]
+      ["지금 자리에 안 계세요. 메모 남겨 드릴까요?", "They're not at their desk right now. Shall I take a message?", "자리에 안 계세요 = honorific 'not at their seat'"],
+      ["회의 중이신데, 메모 남겨 드릴까요?", "They're in a meeting — would you like to leave a message?", "-신데 = honorific soft lead-in giving the reason"],
+      ["형 지금 없는데, 메모 남겨 줄까?", "Bro's not here — want me to pass on a message?", "casual at home; 줄까 instead of 드릴까요"]
     ],
-    "nuance": "Said by whoever answers when the person you want is unavailable, offering to write down a message. 드리다 is the humble verb for 'give/do for someone,' so 남겨 드릴까요? politely offers to do the favor of taking a note for the absent party. This is the natural service-register way to handle a missed connection.",
+    "nuance": "Said by whoever answers when the person the caller wants is unavailable, offering to write the message down. The engine is 드리다, the humble verb meaning 'to give / do for' a person you raise, so 남겨 드릴까요? politely volunteers to do you the favor of taking a note — by contrast, 남겨 줄까? (with plain 주다) is the casual version you'd use at home. Note 메모 here is from English 'memo' but in Korean it specifically means a short written message/note, not a corporate memorandum; 메시지 남기다 ('leave a message') is an equally natural near-synonym. The verb is 남기다 ('to leave behind'), and the conjugation trips people up: 남기- + -어 contracts to 남겨, so it's 남겨 (not 남겨다 or 남기어). The main English-speaker pitfall is register: offering 남겨 줄까요? to a customer feels a touch too plain — the humble 드릴까요? matches the service situation, since you're doing the favor for both the caller and the absent party.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Said by whoever answers when the person the caller wants is unavailable, offering to write the message down. The engine is 드리다, the humble verb meaning 'to give / do for' a person you raise, so 남겨 드릴까요? politely volunteers to do you the favor of taking a note — by contrast, 남겨 줄까? (with plain 주다) is the casual version you'd use at home. Note 메모 here is from English 'memo' but in Korean it specifically means a short written message/note, not a corporate memorandum."},
+      {"k": "비슷한 말", "e": "VS", "t": "메시지 남기다 ('leave a message') is an equally natural near-synonym."},
+      {"k": "활용", "e": "FORMS", "t": "The verb is 남기다 ('to leave behind'), and the conjugation trips people up: 남기- + -어 contracts to 남겨, so it's 남겨 (not 남겨다 or 남기어).", "chips": ["남기다", "남겨", "남겨 드릴까요?", "남겨 줄까?"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The main English-speaker pitfall is register: offering 남겨 줄까요? to a customer feels a touch too plain — the humble 드릴까요? matches the service situation, since you're doing the favor for both the caller and the absent party."}
+    ],
     "mistakes": [
-      "Using 남겨 줄까요? to a customer — 드릴까요? is more appropriately humble.",
-      "Writing 남기다 as 남끼다; the verb stem is 남기- (남겨 = 남기 + 어)."
+      "Using 남겨 줄까요? to a customer. The situation calls for the humble 드리다: 남겨 드릴까요?. Plain 주다 (줄까요) is fine at home but under-polite at a reception desk.",
+      "Writing 남기다 as 남끼다. The stem is 남기- (남겨 = 남기 + 어). 남끼다 is not a word.",
+      "Treating 메모 like an English 'memo' (a formal circular). On the phone 메모 = a quick message/note; the office document is 공지 or 회람, not 메모."
     ]
   },
   {
@@ -71,20 +92,27 @@
     "english": "I'll connect you (transfer your call)",
     "topic": "daily-life",
     "usage": [
-      ["연결해 드릴게요", "I'll put you through", "agent transferring your call — humble/polite"],
-      ["담당 부서로 연결해 드릴게요", "I'll connect you to the right department", "담당 부서 = department in charge"],
-      ["바로 연결해 드리겠습니다", "I'll connect you right away", "formal -겠습니다, call centers"],
-      ["연결해 줄게", "I'll connect you", "반말 / passing the phone to someone"]
+      ["연결해 드릴게요", "I'll put you through", "agent transferring your call to another line — humble -아 드릴게요"],
+      ["담당 부서로 연결해 드릴게요", "I'll connect you to the right department", "담당 부서 = 'department in charge'; -로 marks the destination"],
+      ["바로 연결해 드리겠습니다", "I'll connect you right away", "formal -겠습니다 grade heard in call centers"],
+      ["연결해 줄게", "I'll connect you", "반말, e.g. patching a friend through"]
     ],
     "examples": [
-      ["기술 지원팀으로 연결해 드릴게요. 잠시만요.", "I'll connect you to tech support. One moment.", "call-center transfer"],
-      ["제가 처리할 수 없는 건이라, 담당자에게 연결해 드릴게요.", "This isn't something I can handle, so I'll transfer you to the right person.", "polite escalation"],
-      ["아, 그건 누나가 알아. 연결해 줄게.", "Oh, my sister knows that. I'll put her on.", "casual, handing over the phone"]
+      ["기술 지원팀으로 연결해 드릴게요. 잠시만요.", "I'll connect you to tech support. One moment.", "-팀으로 marks the target team; 잠시만요 buys the pause"],
+      ["제가 처리할 수 없는 건이라, 담당자에게 연결해 드릴게요.", "I can't handle this, so I'll transfer you to the right person.", "-라 gives the reason for escalating"],
+      ["아, 그건 누나가 알아. 연결해 줄게.", "Oh, my sister knows that. I'll put her on.", "casual hand-off; plain 줄게"]
     ],
-    "nuance": "The phrase agents use to transfer your call to another line or department. 연결하다 = 'to connect/link'; 해 드릴게요 makes it a humble promise to do it for you. You'll hear 연결해 드리겠습니다 in the most formal call centers, while 연결해 줄게 works casually when you're just handing your phone to someone nearby.",
+    "nuance": "This is the agent's phrase for transferring your call to another extension or department. 연결(連結) is Sino-Korean, 連 'join' + 結 'tie', literally 'join-and-bind,' i.e. to link two points — so it fits a technical call transfer between lines. -아 드리다 again uses humble 드리다, making it a polite promise to do the routing for you; the most formal centers escalate to 연결해 드리겠습니다, while 연결해 줄게 works casually. The crucial near-synonym contrast English speakers must master is 연결 vs 연락: 연결 ('connect') is wiring two parties together in the moment (transfer the call), whereas 연락(連絡) ('get in touch / contact') is reaching out to someone later — '나중에 연락드릴게요' is 'I'll contact you later,' and you cannot swap in 연결 there. A second contrast is 연결 vs 바꾸다: 연결 is a system transfer to another line/department, while 바꿔 드릴게요 is simply handing the same phone to a person nearby. The common error is the redundant causative 연결시켜 드릴게요 — plain 연결해 already means 'connect (for you),' so 시키다 is unnecessary.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The agent's phrase for transferring your call to another extension or department. -아 드리다 again uses humble 드리다, making it a polite promise to do the routing for you; the most formal centers escalate to 연결해 드리겠습니다, while 연결해 줄게 works casually."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial near-synonym contrast English speakers must master is 연결 vs 연락: 연결 ('connect') is wiring two parties together in the moment (transfer the call), whereas 연락(連絡) ('get in touch / contact') is reaching out to someone later — '나중에 연락드릴게요' is 'I'll contact you later,' and you cannot swap in 연결 there. A second contrast is 연결 vs 바꾸다: 연결 is a system transfer to another line/department, while 바꿔 드릴게요 is simply handing the same phone to a person nearby."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "연결(連結) is Sino-Korean, 連 'join' + 結 'tie', literally 'join-and-bind,' i.e. to link two points — so it fits a technical call transfer between lines."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The common error is the redundant causative 연결시켜 드릴게요 — plain 연결해 already means 'connect (for you),' so 시키다 is unnecessary."}
+    ],
     "mistakes": [
-      "Saying 연결시켜 드릴게요 — the unnecessary causative 시키다 is over-used here; plain 연결해 is cleaner.",
-      "Confusing 연결 (connect a call) with 연락 (contact/get in touch) — different actions."
+      "Saying 연결시켜 드릴게요. The causative 시키다 is redundant here; 연결하다 already means to connect a call, so the natural form is 연결해 드릴게요.",
+      "Confusing 연결 with 연락. 연결 = link two parties right now (transfer); 연락 = contact someone (later). '담당자에게 연락해 주세요' means have them CALL you, not transfer you.",
+      "Using 연결해 드릴게요 to hand a phone to a family member. That household hand-off is 바꿔 드릴게요; 연결 implies a technical transfer to another line."
     ]
   },
   {
@@ -93,20 +121,26 @@
     "english": "They're not available / not in (missed call)",
     "topic": "daily-life",
     "usage": [
-      ["부재중이에요", "They're not in / unavailable", "saying someone is away"],
-      ["부재중 전화", "missed call", "fixed noun — what shows on your screen"],
-      ["부재중이세요", "They're currently out", "honorific about the absent person"],
-      ["지금 부재중입니다", "They are currently unavailable", "formal, voicemail-style"]
+      ["부재중이에요", "They're not in / unavailable", "plain polite statement that someone is away"],
+      ["부재중 전화", "missed call", "fixed compound noun — the label your phone screen shows"],
+      ["부재중이세요", "They're currently out", "honorific -세요 when the absent person outranks you"],
+      ["지금 부재중입니다", "They are currently unavailable", "formal -입니다, voicemail/announcement style"]
     ],
     "examples": [
-      ["부장님 지금 부재중이세요. 메모 남겨 드릴까요?", "The manager is out right now. Shall I take a message?", "office phone"],
-      ["부재중 전화가 세 통이나 와 있네.", "Whoa, I've got three missed calls.", "checking your phone"],
-      ["고객님, 담당자가 부재중입니다. 잠시 후 다시 연락드리겠습니다.", "Sir/Ma'am, the agent is unavailable. We'll contact you again shortly.", "formal service"]
+      ["부장님 지금 부재중이세요. 메모 남겨 드릴까요?", "The manager is out right now. Shall I take a message?", "office phone; 부재중이세요 raises the boss"],
+      ["부재중 전화가 세 통이나 와 있네.", "Whoa, I've got three missed calls.", "통 = counter for calls; -이나 conveys 'as many as'"],
+      ["담당자가 부재중입니다. 잠시 후 다시 연락드리겠습니다.", "The agent is unavailable. We'll contact you again shortly.", "formal -입니다 service announcement"]
     ],
-    "nuance": "A slightly formal word meaning 'absent / away from one's seat,' used both to explain that someone can't come to the phone and as the label 부재중 전화 for a missed call on your screen. 부재(不在) is Sino-Korean for 'not present,' so it sounds more official than the everyday 없어요. You'll see and hear it constantly in offices and on phones.",
+    "nuance": "A semi-formal word meaning 'absent / away from one's seat,' used both to explain that someone can't come to the phone and, as the set noun 부재중 전화, to label a missed call on your screen. The 한자 makes the register: 부재(不在) is 不 'not' + 在 'be present / exist,' literally 'not-present,' plus 중(中) 'in the middle of' — so 부재중 is 'in a state of being absent,' which sounds officeworthy and official, distinctly more buttoned-up than the everyday 없어요 ('isn't here'). That is the key synonym contrast: with a friend who just stepped out you'd say 잠깐 나갔어요 ('stepped out for a bit') or 자리 비웠어요, never the stiff 부재중이에요. English speakers also slip on 부재중 vs 통화 중: 부재중 means they're AWAY from the phone, while 통화 중 means they're THERE but already on another call — opposite situations. Note the honorific split: about a respected person it's 부재중이세요, but about a line or yourself you keep plain 부재중이에요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A semi-formal word meaning 'absent / away from one's seat,' used both to explain that someone can't come to the phone and, as the set noun 부재중 전화, to label a missed call on your screen. It sounds officeworthy and official, distinctly more buttoned-up than the everyday 없어요 ('isn't here'). Note the honorific split: about a respected person it's 부재중이세요, but about a line or yourself you keep plain 부재중이에요."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key synonym contrast: with a friend who just stepped out you'd say 잠깐 나갔어요 ('stepped out for a bit') or 자리 비웠어요, never the stiff 부재중이에요. English speakers also slip on 부재중 vs 통화 중: 부재중 means they're AWAY from the phone, while 통화 중 means they're THERE but already on another call — opposite situations."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "The 한자 makes the register: 부재(不在) is 不 'not' + 在 'be present / exist,' literally 'not-present,' plus 중(中) 'in the middle of' — so 부재중 is 'in a state of being absent.'"}
+    ],
     "mistakes": [
-      "Pronouncing it 부제중 — it's 부재중 (재, not 제).",
-      "Using it for a friend who just stepped out; 잠깐 나갔어요 is more natural casually."
+      "Pronouncing/spelling it 부제중. It is 부재중 — the 한자 is 在 (재 'present'), not 제. 부제 means a 'subtitle,' a totally different word.",
+      "Using it for a friend who just stepped out. 부재중 is office/formal; casually say 잠깐 나갔어요 or 자리 비웠어요.",
+      "Confusing 부재중 (away from the phone) with 통화 중 (on another call). They describe opposite reasons someone can't take your call."
     ]
   },
   {
@@ -115,20 +149,27 @@
     "english": "I'll get in touch with you later",
     "topic": "daily-life",
     "usage": [
-      ["나중에 연락드릴게요", "I'll contact you later", "humble promise to call/message back"],
-      ["이따가 연락드릴게요", "I'll reach out in a bit", "이따가 = a little later today"],
-      ["제가 다시 연락드리겠습니다", "I will get back to you", "formal -겠습니다"],
-      ["나중에 연락할게", "I'll hit you up later", "반말 version"]
+      ["나중에 연락드릴게요", "I'll contact you later", "humble promise to reach back out; -드릴게요 raises the listener"],
+      ["이따가 연락드릴게요", "I'll reach out in a bit", "이따가 = later TODAY (not 나중에, which can be open-ended)"],
+      ["제가 다시 연락드리겠습니다", "I will get back to you", "formal -겠습니다; business close"],
+      ["나중에 연락할게", "I'll hit you up later", "반말; plain 연락하다 + -ㄹ게"]
     ],
     "examples": [
-      ["지금 좀 바빠서요. 나중에 연락드릴게요.", "I'm a bit busy right now. I'll contact you later.", "politely ending a call"],
-      ["확인하고 나중에 연락드릴게요.", "I'll check and get back to you later.", "deferring a decision politely"],
-      ["나 지금 운전 중이야. 나중에 연락할게.", "I'm driving right now. I'll call you later.", "casual, to a friend"]
+      ["지금 좀 바빠서요. 나중에 연락드릴게요.", "I'm a bit busy right now. I'll contact you later.", "-아서요 trails off to soften the reason for ending"],
+      ["확인하고 나중에 연락드릴게요.", "I'll check and get back to you later.", "-고 chains 'check, then contact'"],
+      ["나 지금 운전 중이야. 나중에 연락할게.", "I'm driving right now. I'll call you later.", "casual; 운전 중 = mid-driving"]
     ],
-    "nuance": "The polite way to wrap up or postpone contact — you're promising to reach out again. 연락드리다 uses the humble 드리다 ('do for you'), so it raises the listener; with friends it drops to 연락할게. Note it covers both calling and texting, since 연락 means 'contact' in general, not specifically a phone call.",
+    "nuance": "The polite way to wrap up or postpone a conversation by promising to reach out again — it works to end a call gracefully or to defer a decision. 연락(連絡) is Sino-Korean, 連 'connect' + 絡 'tie/wrap,' literally 'connecting threads,' and crucially it means 'contact' in general: a call, a text, or a message all count, so don't read it as 'phone call' specifically. The honorific engine is 드리다, the humble 'do for you' verb, which raises the listener — with friends it relaxes to 연락할게. Two contrasts English speakers need: first, 연락 (get in touch later) vs 연결 (transfer a call right now) — never interchangeable; saying 연결드릴게요 to mean 'I'll contact you' is wrong. Second, the timing word: 나중에 means 'later' open-endedly (could be tomorrow), while 이따가 means 'a bit later today,' so promising 나중에 연락드릴게요 commits you to less than 이따가. One register caution: 드리다 raises whoever you're speaking to, so using 연락드릴게요 toward someone clearly junior to you can sound oddly over-deferential — plain 연락할게요 fits better there.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The polite way to wrap up or postpone a conversation by promising to reach out again — it works to end a call gracefully or to defer a decision. The honorific engine is 드리다, the humble 'do for you' verb, which raises the listener — with friends it relaxes to 연락할게."},
+      {"k": "비슷한 말", "e": "VS", "t": "Two contrasts English speakers need: first, 연락 (get in touch later) vs 연결 (transfer a call right now) — never interchangeable; saying 연결드릴게요 to mean 'I'll contact you' is wrong. Second, the timing word: 나중에 means 'later' open-endedly (could be tomorrow), while 이따가 means 'a bit later today,' so promising 나중에 연락드릴게요 commits you to less than 이따가."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "연락(連絡) is Sino-Korean, 連 'connect' + 絡 'tie/wrap,' literally 'connecting threads,' and crucially it means 'contact' in general: a call, a text, or a message all count, so don't read it as 'phone call' specifically."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "One register caution: 드리다 raises whoever you're speaking to, so using 연락드릴게요 toward someone clearly junior to you can sound oddly over-deferential — plain 연락할게요 fits better there."}
+    ],
     "mistakes": [
-      "Saying 연락드릴게요 to someone clearly below you in status — plain 연락할게요 fits better there.",
-      "Mixing up 연락 (contact) with 연결 (connect a call) — they are not interchangeable."
+      "Reading 연락 as 'phone call' only. 연락 = contact by any channel (call OR text). '연락 주세요' means 'get in touch,' not specifically 'phone me.'",
+      "Swapping in 연결 for 연락. 나중에 연결드릴게요 is wrong — 연결 is connecting a call now; later contact is 연락.",
+      "Using 드릴게요 to someone clearly below you in status. The humble 드리다 raises the listener; with a junior, plain 연락할게요 sounds more natural than over-deferential 연락드릴게요."
     ]
   },
   {
@@ -137,20 +178,26 @@
     "english": "I'll put them on / pass you over (to another person)",
     "topic": "daily-life",
     "usage": [
-      ["바꿔 드릴게요", "I'll put them on the line", "handing the call to the right person — humble"],
-      ["잠시만요, 바꿔 드릴게요", "One moment, I'll pass you over", "잠시만요 buys the moment"],
-      ["담당자 바꿔 드리겠습니다", "I'll put the person in charge on", "formal service register"],
-      ["바꿔 줄게", "I'll put them on", "반말 / at home"]
+      ["바꿔 드릴게요", "I'll put them on the line", "humble; handing the SAME phone to the person you want"],
+      ["잠시만요, 바꿔 드릴게요", "One moment, I'll pass you over", "잠시만요 buys the beat while you fetch them"],
+      ["담당자 바꿔 드리겠습니다", "I'll put the person in charge on", "formal -겠습니다 service grade"],
+      ["바꿔 줄게", "I'll put them on", "반말 / at home; plain 주다"]
     ],
     "examples": [
-      ["아, 사장님 찾으세요? 잠시만요, 바꿔 드릴게요.", "Oh, you're looking for the boss? One moment, I'll put them on.", "office phone hand-off"],
-      ["제가 잘 몰라서요. 아는 사람으로 바꿔 드릴게요.", "I'm not sure about this, so I'll put on someone who knows.", "polite hand-off"],
-      ["엄마 찾아? 잠깐만, 바꿔 줄게.", "Looking for Mom? Hold on, I'll put her on.", "casual, at home"]
+      ["사장님 찾으세요? 잠시만요, 바꿔 드릴게요.", "Looking for the boss? One moment, I'll put them on.", "찾으세요 = honorific 'are you looking for'"],
+      ["제가 잘 몰라서요. 아는 사람으로 바꿔 드릴게요.", "I'm not sure, so I'll put on someone who knows.", "-으로 marks who you're swapping TO"],
+      ["엄마 찾아? 잠깐만, 바꿔 줄게.", "Looking for Mom? Hold on, I'll put her on.", "casual at home; 줄게 not 드릴게요"]
     ],
-    "nuance": "Used when the person who answered hands the phone to whoever the caller actually wants. 바꾸다 literally means 'to change/swap,' and on the phone it means 'swap who's speaking.' This is the household/peer-level counterpart to 연결해 드릴게요: 바꿔 is for handing the same phone over, while 연결 is a technical call transfer.",
+    "nuance": "Used when the person who answered hands the receiver to whoever the caller actually wanted to reach. The verb is 바꾸다, literally 'to change / swap,' and on the phone it idiomatically means 'swap who is speaking' — so you're not 'changing' anything physical, you're exchanging the voice on the line. -아 드리다 (humble 드리다) makes it a polite favor; 바꿔 줄게 is the home/peer version. The single most useful contrast here is 바꾸다 vs 연결하다: 바꿔 드릴게요 is for handing over the SAME phone to a person right next to you (a family member, a colleague in the room), whereas 연결해 드릴게요 is a technical TRANSFER to another line or department. Use the wrong one and it sounds off — saying 연결해 드릴게요 at home to pass the phone to your mom is comically corporate. The conjugation also trips learners: the stem is 바꾸- and 바꾸- + -어 contracts to 바꿔 (not 바껴, which would come from a non-existent 바끼다).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Used when the person who answered hands the receiver to whoever the caller actually wanted to reach. The verb is 바꾸다, literally 'to change / swap,' and on the phone it idiomatically means 'swap who is speaking' — so you're not 'changing' anything physical, you're exchanging the voice on the line. -아 드리다 (humble 드리다) makes it a polite favor; 바꿔 줄게 is the home/peer version."},
+      {"k": "비슷한 말", "e": "VS", "t": "The single most useful contrast here is 바꾸다 vs 연결하다: 바꿔 드릴게요 is for handing over the SAME phone to a person right next to you (a family member, a colleague in the room), whereas 연결해 드릴게요 is a technical TRANSFER to another line or department. Use the wrong one and it sounds off — saying 연결해 드릴게요 at home to pass the phone to your mom is comically corporate."},
+      {"k": "활용", "e": "FORMS", "t": "The conjugation also trips learners: the stem is 바꾸- and 바꾸- + -어 contracts to 바꿔 (not 바껴, which would come from a non-existent 바끼다).", "chips": ["바꾸다", "바꿔", "바꿔 드릴게요", "바꿔 줄게"]}
+    ],
     "mistakes": [
-      "Using 연결해 드릴게요 at home when you're just handing the phone to a family member — 바꿔 드릴게요 is natural.",
-      "Writing 바꿔 as 바껴; the stem is 바꾸- (바꾸 + 어 = 바꿔)."
+      "Using 연결해 드릴게요 to hand the phone to a family member. At home it's 바꿔 드릴게요; 연결 implies a technical transfer to another line, not passing the same handset.",
+      "Writing 바꿔 as 바껴. The stem is 바꾸- (바꾸 + 어 = 바꿔). 바껴 wrongly assumes a stem 바끼-, which does not exist.",
+      "Confusing 바꾸다 (swap/change) with 바라다 (hope) or 비꾸다 (no such word). On the phone, 'put someone on' is strictly 바꾸다 → 바꿔."
     ]
   },
   {
@@ -159,20 +206,27 @@
     "english": "You've got the wrong number",
     "topic": "daily-life",
     "usage": [
-      ["전화 잘못 거셨어요", "You've dialed the wrong number", "polite, said to the caller"],
-      ["전화 잘못 거신 것 같은데요", "I think you have the wrong number", "softer, with -것 같다"],
-      ["여기 그런 사람 없는데요", "There's no one by that name here", "common follow-up line"],
-      ["전화 잘못 걸었어", "Wrong number / I misdialed", "반말 — see note on who's speaking"]
+      ["전화 잘못 거셨어요", "You've dialed the wrong number", "polite, said TO the caller; 거셨어요 = honorific past of 걸다"],
+      ["전화 잘못 거신 것 같은데요", "I think you have the wrong number", "-것 같다 hedges so you don't sound blunt"],
+      ["여기 그런 사람 없는데요", "There's no one by that name here", "the usual follow-up; -는데요 trails off softly"],
+      ["전화 잘못 걸었어", "Wrong number / I misdialed", "반말 — typically the CALLER admitting it"]
     ],
     "examples": [
-      ["김철수요? 전화 잘못 거셨어요. 그런 사람 없는데요.", "Kim Chul-su? You've got the wrong number — no one by that name here.", "answering a misdial"],
-      ["죄송하지만 전화 잘못 거신 것 같은데요.", "Sorry, but I think you've dialed the wrong number.", "softened, polite"],
-      ["어? 미안, 내가 전화 잘못 걸었어.", "Huh? Sorry, I dialed the wrong number.", "the caller admitting their own mistake"]
+      ["김철수요? 전화 잘못 거셨어요. 그런 사람 없는데요.", "Kim Chul-su? You've got the wrong number — no one by that name here.", "name + 요? echoes back what they asked"],
+      ["죄송하지만 전화 잘못 거신 것 같은데요.", "Sorry, but I think you've dialed the wrong number.", "죄송하지만 cushions before correcting them"],
+      ["어? 미안, 내가 전화 잘못 걸었어.", "Huh? Sorry, I dialed the wrong number.", "the caller owning the mistake; 내가 + 걸었어"]
     ],
-    "nuance": "What you say when someone reaches you by mistake — 거셨어요 is the honorific past of 걸다 ('to make a call'), so you're politely telling the caller they dialed wrong. Flip the subject and the caller says 제가 잘못 걸었어요 ('I misdialed'). 걸다 is the standard verb for placing a call (전화를 걸다).",
+    "nuance": "What you say when someone reaches you by mistake. The verb is 걸다, the standard word for placing a call (전화를 걸다, literally 'hang/put up a call'), and here it appears as the honorific past 거셨어요, so you're politely telling the CALLER that they dialed wrong — note you raise them with -시- even while correcting them. Flip the subject and the caller admits it as 제가 잘못 걸었어요 ('I misdialed'), so who 'owns' the error decides the wording: 거셨어요 (you) vs 걸었어요 (I). The headline English-speaker pitfall is the irregular conjugation: 걸다 is a ㄹ-stem verb, so before -시- the ㄹ drops — the honorific is 거시- → 거셨어요, NOT the over-regular 걸으셨어요. A second contrast is 걸다 (place a call) vs 받다 (receive/answer a call): you 전화를 걸다 to dial out and 전화를 받다 to pick up, so 'wrong number' attaches to 걸다, the dialing action. To soften the correction, Koreans love padding it: 잘못 거신 것 같은데요 ('seems you may have the wrong number').",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "What you say when someone reaches you by mistake. The verb is 걸다, the standard word for placing a call (전화를 걸다, literally 'hang/put up a call'), and here it appears as the honorific past 거셨어요, so you're politely telling the CALLER that they dialed wrong — note you raise them with -시- even while correcting them. To soften the correction, Koreans love padding it: 잘못 거신 것 같은데요 ('seems you may have the wrong number')."},
+      {"k": "비슷한 말", "e": "VS", "t": "A contrast is 걸다 (place a call) vs 받다 (receive/answer a call): you 전화를 걸다 to dial out and 전화를 받다 to pick up, so 'wrong number' attaches to 걸다, the dialing action."},
+      {"k": "활용", "e": "FORMS", "t": "걸다 is a ㄹ-stem verb, so before -시- the ㄹ drops — the honorific is 거시- → 거셨어요, NOT the over-regular 걸으셨어요. Flip the subject and the caller admits it as 제가 잘못 걸었어요 ('I misdialed'), so who 'owns' the error decides the wording: 거셨어요 (you) vs 걸었어요 (I).", "chips": ["걸다", "거셨어요", "걸었어요", "거신 것 같은데요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The headline English-speaker pitfall is the irregular conjugation: don't over-regularize the ㄹ-stem to 걸으셨어요 — the honorific past is 거셨어요."}
+    ],
     "mistakes": [
-      "Saying 전화 잘못 걸으셨어요 — 걸다 is a ㄹ-irregular: honorific is 거셨어요, not 걸으셨어요.",
-      "Using 거셨어요 about yourself; when YOU misdial, say 제가 잘못 걸었어요."
+      "Saying 전화 잘못 걸으셨어요. 걸다 is a ㄹ-irregular: the ㄹ drops before -시-, giving 거셨어요. 걸으셨어요 over-regularizes the stem.",
+      "Using 거셨어요 about yourself. When YOU misdial, the subject is 제가, so say 제가 잘못 걸었어요 — keep the honorific -시- only for the other person.",
+      "Mixing 걸다 (place a call) with 받다 (answer a call). You 전화를 걸다 to dial and 전화를 받다 to pick up; 'wrong number' is about 걸다, the dialing."
     ]
   },
   {
@@ -181,20 +235,27 @@
     "english": "Please call back in a little while",
     "topic": "daily-life",
     "usage": [
-      ["잠시 후에 다시 걸어 주세요", "Please call again shortly", "asking the caller to retry later"],
-      ["조금 이따 다시 걸어 주세요", "Call back in a bit, please", "조금 이따 = casual 'in a bit'"],
-      ["잠시 후 다시 걸어 주시겠어요?", "Could you call back shortly?", "extra-polite request form"],
-      ["이따 다시 걸어", "Call back later", "반말"]
+      ["잠시 후에 다시 걸어 주세요", "Please call again shortly", "asks the caller to retry later rather than wait on hold"],
+      ["조금 이따 다시 걸어 주세요", "Call back in a bit, please", "조금 이따 = casual 'in a little bit'"],
+      ["잠시 후 다시 걸어 주시겠어요?", "Could you call back shortly?", "-아 주시겠어요 = extra-polite request form"],
+      ["이따 다시 걸어", "Call back later", "반말; bare 걸어, no 주세요"]
     ],
     "examples": [
-      ["지금 회의 중이라, 잠시 후에 다시 걸어 주세요.", "I'm in a meeting now, so please call back in a little while.", "polite deferral"],
-      ["통화량이 많습니다. 잠시 후에 다시 걸어 주세요.", "Call volume is high. Please call again shortly.", "automated call-center message"],
-      ["나 밥 먹고 있어. 이따 다시 걸어.", "I'm eating. Call me back later.", "casual, to a friend"]
+      ["지금 회의 중이라, 잠시 후에 다시 걸어 주세요.", "I'm in a meeting now, so please call back in a little while.", "-이라 gives the reason; 회의 중 = mid-meeting"],
+      ["통화량이 많습니다. 잠시 후에 다시 걸어 주세요.", "Call volume is high. Please call again shortly.", "the exact automated message you hear when lines are busy"],
+      ["나 밥 먹고 있어. 이따 다시 걸어.", "I'm eating. Call me back later.", "casual; -고 있어 = in the middle of, 이따 = later today"]
     ],
-    "nuance": "A polite way to ask the caller to try again soon rather than waiting on the line. 잠시 후에 = 'after a short while,' and 다시 걸어 주세요 ('please dial again') uses the favor verb 주세요. You'll hear the exact phrase in automated messages when lines are busy, so it doubles as a recognizable system prompt.",
+    "nuance": "A polite way to ask the caller to try again soon instead of holding the line. It breaks into 잠시 후에 ('after a short while': 잠시 from 한자 暫時 'brief time,' + 후 後 'after') and 다시 걸어 주세요 ('please dial again'), where 걸다 is the verb for placing a call and 주세요 frames the redial as a favor you're requesting. This is famously the wording in automated busy-line announcements, so it doubles as a system prompt you'll recognize. Two pitfalls for English speakers: first, the voice — 'call back' is the ACTIVE 걸다 → 걸어 주세요, not the passive 걸리다; 다시 걸려 주세요 is wrong because 걸리다 means 'to be caught/take time,' not 'to dial.' Second, don't confuse 잠시 후에 ('after a moment,' a future time when you should ACT) with 잠시만요 ('hold on a sec,' said to freeze someone in the present) — different functions: one sends the caller away to retry, the other keeps them put. A natural near-synonym is 이따 다시 전화 주세요 ('phone again later'), slightly more colloquial than the formal 잠시 후에.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A polite way to ask the caller to try again soon instead of holding the line. 다시 걸어 주세요 ('please dial again'), where 걸다 is the verb for placing a call and 주세요 frames the redial as a favor you're requesting. This is famously the wording in automated busy-line announcements, so it doubles as a system prompt you'll recognize."},
+      {"k": "비슷한 말", "e": "VS", "t": "A natural near-synonym is 이따 다시 전화 주세요 ('phone again later'), slightly more colloquial than the formal 잠시 후에. Also don't confuse 잠시 후에 ('after a moment,' a future time when you should ACT) with 잠시만요 ('hold on a sec,' said to freeze someone in the present) — one sends the caller away to retry, the other keeps them put."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It breaks into 잠시 후에 ('after a short while': 잠시 from 한자 暫時 'brief time,' + 후 後 'after') and 다시 걸어 주세요 ('please dial again')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The voice trap: 'call back' is the ACTIVE 걸다 → 걸어 주세요, not the passive 걸리다; 다시 걸려 주세요 is wrong because 걸리다 means 'to be caught/take time,' not 'to dial.'"}
+    ],
     "mistakes": [
-      "Saying 다시 걸려 주세요 — the active verb is 걸다 (걸어), not the passive 걸리다.",
-      "Confusing 잠시 후에 (after a moment) with 잠시만요 (hold on a sec) — different functions."
+      "Saying 다시 걸려 주세요. The active verb is 걸다 (걸어 주세요 = 'please dial'). 걸리다 is passive ('be caught / take time'), so 걸려 주세요 is wrong here.",
+      "Confusing 잠시 후에 with 잠시만요. 잠시 후에 = 'after a short while' (go retry later); 잠시만요 = 'hold on a second' (stay put now). Opposite instructions.",
+      "Treating 잠시 후 and 잠깐 as fully interchangeable in formal speech. 잠시 후(에) is the standard announcement register; 잠깐만 is more casual and odd in an automated message."
     ]
   },
   {
@@ -203,20 +264,27 @@
     "english": "The signal is weak / poor reception",
     "topic": "daily-life",
     "usage": [
-      ["신호가 약해요", "The signal is weak", "explaining a bad connection"],
-      ["여기 신호가 약해서요", "It's because reception is weak here", "-아서 giving the reason a call cut out"],
-      ["신호가 잘 안 잡혀요", "I can't get a good signal", "잡히다 = signal is 'caught'/picked up"],
-      ["신호 약해", "Signal's weak", "반말"]
+      ["신호가 약해요", "The signal is weak", "states the reception problem; 신호 takes -가 as subject"],
+      ["여기 신호가 약해서요", "It's because reception is weak here", "-아서요 trails off, giving the reason a call dropped"],
+      ["신호가 잘 안 잡혀요", "I can't get a good signal", "잡히다 = the signal is 'caught'/picked up; very natural alt"],
+      ["신호 약해", "Signal's weak", "반말; particle 가 dropped"]
     ],
     "examples": [
-      ["여보세요? 여기 신호가 약해서 잘 안 들려요.", "Hello? Reception's weak here so I can't hear well.", "mid-call connection trouble"],
-      ["지하라서 신호가 약해요. 끊고 다시 걸게요.", "I'm underground so the signal's weak. Let me hang up and call back.", "explaining and proposing a fix"],
-      ["산속이라 신호 약해. 이따 통화하자.", "I'm in the mountains, signal's weak. Let's talk later.", "casual"]
+      ["여보세요? 여기 신호가 약해서 잘 안 들려요.", "Hello? Reception's weak here so I can't hear well.", "links cause (-아서) to effect (안 들려요)"],
+      ["지하라서 신호가 약해요. 끊고 다시 걸게요.", "I'm underground so the signal's weak. Let me hang up and call back.", "-라서 reason; proposes 끊고 다시 = hang up then redial"],
+      ["산속이라 신호 약해. 이따 통화하자.", "I'm in the mountains, signal's weak. Let's talk later.", "casual; -자 = let's; 통화하자 = let's talk (by phone)"]
     ],
-    "nuance": "The natural way to explain why a call sounds bad or keeps dropping — the cellular 신호 ('signal') is 약하다 ('weak'). Koreans also say 신호가 잘 안 잡혀요 ('the signal doesn't get picked up well') for the same idea. Pair it with 잘 안 들려요 to explain that poor reception is why you can't hear.",
+    "nuance": "The natural way to explain why a call sounds garbled or keeps dropping: the cellular 신호 is 약하다 ('weak'). 신호(信號) is Sino-Korean, 信 'trust/sign' + 號 'mark/signal,' literally a 'sign-mark,' and it covers signals broadly — also a traffic 신호(등) ('traffic light') — so context tells you it's reception. A frequent English-speaker trap is reaching for the loanword 사인 (sign) for 'signal'; on a phone the word is 신호, while 사인 in Korean usually means a 'signature' or a hand 'sign,' not cell reception. The other classic error is the adjective: signal strength is 약하다/세다 ('weak/strong'), NOT 작다/크다 ('small/big') — 신호가 작아요 sounds wrong the way 'the signal is small' does in English. A very common near-synonym is 신호가 잘 안 잡혀요 ('the signal doesn't get picked up well'), built on 잡히다 ('be caught'); Koreans use it interchangeably with 약해요. Pair any of these with 잘 안 들려요 ('I can't hear well') to connect the weak signal to the reason you keep saying 'what?'.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The natural way to explain why a call sounds garbled or keeps dropping: the cellular 신호 is 약하다 ('weak'). Pair any of these with 잘 안 들려요 ('I can't hear well') to connect the weak signal to the reason you keep saying 'what?'."},
+      {"k": "비슷한 말", "e": "VS", "t": "A very common near-synonym is 신호가 잘 안 잡혀요 ('the signal doesn't get picked up well'), built on 잡히다 ('be caught'); Koreans use it interchangeably with 약해요."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "신호(信號) is Sino-Korean, 信 'trust/sign' + 號 'mark/signal,' literally a 'sign-mark,' and it covers signals broadly — also a traffic 신호(등) ('traffic light') — so context tells you it's reception."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A frequent English-speaker trap is reaching for the loanword 사인 (sign) for 'signal'; on a phone the word is 신호, while 사인 in Korean usually means a 'signature' or a hand 'sign,' not cell reception. The other classic error is the adjective: signal strength is 약하다/세다 ('weak/strong'), NOT 작다/크다 ('small/big') — 신호가 작아요 sounds wrong the way 'the signal is small' does in English."}
+    ],
     "mistakes": [
-      "Using 사인(sign) for signal — the cell-reception word is 신호.",
-      "Saying 신호가 작아요 (small) — strength is 약하다/세다 (weak/strong), not 작다/크다."
+      "Using 사인 for 'signal.' Cell reception is 신호; 사인 in Korean means a signature or a hand sign, so '사인이 약해요' is wrong.",
+      "Saying 신호가 작아요/커요. Strength pairs with 약하다/세다 (weak/strong), not 작다/크다 (small/big). '신호가 세요' = 'the signal is strong.'",
+      "Confusing 신호 with 신호등. Bare 신호 on the phone = reception/signal; 신호등 specifically is a traffic light. Don't add 등 when talking about a call."
     ]
   },
   {
@@ -225,20 +293,26 @@
     "english": "Can you hear me okay?",
     "topic": "daily-life",
     "usage": [
-      ["잘 들리세요?", "Can you hear me all right?", "checking the other side mid-call — honorific"],
-      ["제 목소리 잘 들리세요?", "Can you hear my voice clearly?", "제 목소리 spells out what they should hear"],
-      ["지금 잘 들리세요?", "Is it clear now?", "after moving for better reception"],
-      ["잘 들려?", "Can you hear me?", "반말"]
+      ["잘 들리세요?", "Can you hear me all right?", "honorific check on the OTHER side mid-call; subject is them"],
+      ["제 목소리 잘 들리세요?", "Can you hear my voice clearly?", "제 목소리 spells out exactly what they should be hearing"],
+      ["지금은 잘 들리세요?", "Is it clear now?", "지금은 = 'now (as opposed to before)'; after fixing reception"],
+      ["잘 들려?", "Can you hear me?", "반말; 들리- + -어 = 들려"]
     ],
     "examples": [
-      ["여보세요? 제 목소리 잘 들리세요?", "Hello? Can you hear my voice okay?", "opening check when audio is shaky"],
-      ["여기로 옮겼는데 지금은 잘 들리세요?", "I moved over here — is it clear now?", "confirming after relocating"],
-      ["야, 잘 들려? 자꾸 끊기는 것 같은데.", "Hey, can you hear me? It keeps cutting out.", "casual"]
+      ["여보세요? 제 목소리 잘 들리세요?", "Hello? Can you hear my voice okay?", "opening check when the audio sounds shaky"],
+      ["여기로 옮겼는데 지금은 잘 들리세요?", "I moved over here — is it clear now?", "-는데 sets up the change before re-checking"],
+      ["야, 잘 들려? 자꾸 끊기는 것 같은데.", "Hey, can you hear me? It keeps cutting out.", "casual; 끊기다 = (the call) keeps dropping"]
     ],
-    "nuance": "The flip side of 잘 안 들려요 — instead of reporting your own trouble, you ask whether the other person can hear you. 들리다 is the intransitive 'to be heard,' and the honorific 들리세요? politely asks about their experience. It's the go-to reception check on calls and video meetings alike.",
+    "nuance": "The flip side of reporting 잘 안 들려요 ('I can't hear well'): instead of describing your own trouble, you ask whether the OTHER person can hear YOU, which is why it's phrased about them. The key grammar is voice: 들리다 is the intransitive/passive 'to be heard / be audible' (something reaches the ear on its own), so 잘 들리세요? literally asks 'does it come through to you well?' — the honorific -세요 raises the listener. English speakers must not confuse this with 듣다, the transitive 'to listen' that takes an object: asking 잘 듣고 있어요? means 'are you listening (paying attention)?', which sounds like you're scolding them, not checking reception — so the reception check is 들리세요?, never 듣다. A second look-alike trap is 들리다 (be audible) vs 들다 (to lift/hold, or 'cost/enter'): totally different verbs that only resemble each other on paper. Natural partners are 잘 (well) and 안 (not): 잘 들려요 / 잘 안 들려요 / 안 들려요. On video calls the same 들리세요? is the universal audio check.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The flip side of reporting 잘 안 들려요 ('I can't hear well'): instead of describing your own trouble, you ask whether the OTHER person can hear YOU, which is why it's phrased about them. The key grammar is voice: 들리다 is the intransitive/passive 'to be heard / be audible' (something reaches the ear on its own), so 잘 들리세요? literally asks 'does it come through to you well?' — the honorific -세요 raises the listener. Natural partners are 잘 (well) and 안 (not): 잘 들려요 / 잘 안 들려요 / 안 들려요. On video calls the same 들리세요? is the universal audio check."},
+      {"k": "비슷한 말", "e": "VS", "t": "A second look-alike trap is 들리다 (be audible) vs 들다 (to lift/hold, or 'cost/enter'): totally different verbs that only resemble each other on paper."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English speakers must not confuse this with 듣다, the transitive 'to listen' that takes an object: asking 잘 듣고 있어요? means 'are you listening (paying attention)?', which sounds like you're scolding them, not checking reception — so the reception check is 들리세요?, never 듣다."}
+    ],
     "mistakes": [
-      "Saying 잘 듣고 있어요? (are you listening?) when you mean 'can you hear me' — use 들리세요?, not 듣다.",
-      "Confusing 들리다 (be audible) with 들다 (lift/hold) — different verbs entirely."
+      "Saying 잘 듣고 있어요? to mean 'can you hear me.' That asks 'are you listening (paying attention)?' and sounds accusatory. The reception check is 잘 들리세요? with 들리다.",
+      "Confusing 들리다 (be audible) with 들다 (lift / cost / enter). Same-looking roots, unrelated meanings; the hearing verb is 들리다 → 들려요/들리세요.",
+      "Treating 들리다 as transitive with an object + 를. It's intransitive: the thing heard takes -가/-이 (제 목소리가 잘 들려요), not 제 목소리를 들려요."
     ]
   },
   {
@@ -247,20 +321,26 @@
     "english": "They're on another call right now",
     "topic": "daily-life",
     "usage": [
-      ["지금 통화 중이세요", "They're on the phone right now", "honorific, about the person sought"],
-      ["통화 중이에요", "The line's busy / on a call", "plain statement"],
-      ["계속 통화 중이네요", "The line's been busy", "계속 = still/keeps being busy"],
-      ["나 지금 통화 중이야", "I'm on the phone right now", "반말, about yourself"]
+      ["지금 통화 중이세요", "They're on the phone right now", "honorific -세요 about the person the caller wants"],
+      ["통화 중이에요", "The line's busy / on a call", "plain polite, about a line or neutral subject"],
+      ["계속 통화 중이네요", "The line's been busy", "계속 = still/keeps being; -네요 = noticing it"],
+      ["나 지금 통화 중이야", "I'm on the phone right now", "반말, about yourself; -이야"]
     ],
     "examples": [
-      ["부장님 지금 통화 중이세요. 잠시 후에 다시 걸어 주세요.", "The manager's on another call. Please call back shortly.", "office phone"],
-      ["몇 번을 걸어도 계속 통화 중이네요.", "No matter how many times I call, the line's still busy.", "frustrated caller"],
-      ["미안, 나 지금 통화 중이야. 이따 연락할게.", "Sorry, I'm on the phone. I'll get back to you.", "casual, about yourself"]
+      ["부장님 지금 통화 중이세요. 잠시 후에 다시 걸어 주세요.", "The manager's on another call. Please call back shortly.", "통화 중이세요 raises the boss; pairs with a redial request"],
+      ["몇 번을 걸어도 계속 통화 중이네요.", "No matter how many times I call, the line's still busy.", "-아도 = 'even if'; frustrated caller noticing it"],
+      ["미안, 나 지금 통화 중이야. 이따 연락할게.", "Sorry, I'm on the phone. I'll get back to you.", "casual about YOURSELF — plain, no -세요"]
     ],
-    "nuance": "Explains that someone's line is occupied — 통화 중 literally means 'in the middle of a call.' Add the honorific -세요 when it's about a person you respect (지금 통화 중이세요), but use plain 통화 중이에요 about a line or yourself. Distinct from 부재중이에요 (away from the phone): 통화 중 means they're there but already talking.",
+    "nuance": "Explains that a person's line is occupied because they're already talking to someone else. 통화 중 = 'in the middle of a call,' where 통화(通話) is 'a connected conversation' (通 'connect' + 話 'speech') and 중(中) is the 한자 'middle/in the midst of,' so the whole thing is 'mid-call.' The honorific is the subtle part English speakers miss: add -세요 only when it's ABOUT a person you respect (부장님 통화 중이세요), but keep plain 통화 중이에요 about a line, and 통화 중이야 about yourself — never raise your own status by saying 저 통화 중이세요. The essential synonym contrast is 통화 중 vs 부재중: 통화 중 means they ARE at the phone but already speaking, whereas 부재중 means they're AWAY from it entirely — so picking the wrong one tells the caller the opposite of the truth. Note 중 is a productive suffix you'll reuse everywhere: 회의 중 (in a meeting), 식사 중 (eating), 운전 중 (driving). A natural collocation is 계속 통화 중 ('the line stays busy') when repeated calls won't get through.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Explains that a person's line is occupied because they're already talking to someone else. 통화 중 = 'in the middle of a call.' The honorific is the subtle part English speakers miss: add -세요 only when it's ABOUT a person you respect (부장님 통화 중이세요), but keep plain 통화 중이에요 about a line, and 통화 중이야 about yourself — never raise your own status by saying 저 통화 중이세요. Note 중 is a productive suffix you'll reuse everywhere: 회의 중 (in a meeting), 식사 중 (eating), 운전 중 (driving). A natural collocation is 계속 통화 중 ('the line stays busy') when repeated calls won't get through."},
+      {"k": "비슷한 말", "e": "VS", "t": "The essential synonym contrast is 통화 중 vs 부재중: 통화 중 means they ARE at the phone but already speaking, whereas 부재중 means they're AWAY from it entirely — so picking the wrong one tells the caller the opposite of the truth."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "통화(通話) is 'a connected conversation' (通 'connect' + 話 'speech') and 중(中) is the 한자 'middle/in the midst of,' so the whole thing is 'mid-call.'"}
+    ],
     "mistakes": [
-      "Mixing up 통화 중 (on a call) with 부재중 (away/absent) — opposite situations.",
-      "Adding -세요 when talking about your own call; for yourself say 통화 중이에요/통화 중이야."
+      "Adding -세요 about your own call. For yourself say 통화 중이에요 / 통화 중이야; 저 통화 중이세요 wrongly honors yourself.",
+      "Confusing 통화 중 (on another call) with 부재중 (away/absent). They are opposite reasons someone can't take your call — 통화 중 = present but talking.",
+      "Saying 통화하고 있으세요? as the busy-signal explanation. To report the busy line you state 통화 중이세요; 통화하고 계세요? is a question, not the status label."
     ]
   }
 ]

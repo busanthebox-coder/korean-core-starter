@@ -1,0 +1,784 @@
+[
+  {
+    "hangul": "안녕하세요, ○○팀 ○○○입니다",
+    "english": "Hello, this is ○○○ from the ○○ team",
+    "topic": "work",
+    "usage": [
+      ["안녕하세요, 마케팅팀 김민수입니다", "Hello, this is Kim Minsu from the Marketing team", "The standard opening line of almost every work email"],
+      ["안녕하세요, ○○ 담당자 ○○○입니다", "Hello, this is ○○○, the person in charge of ○○", "When the reader may not know you; states your role"],
+      ["○○ 회사 ○○○ 대리입니다", "This is Assistant Manager ○○○ from ○○ Company", "To an external party; lead with company + title"],
+      ["안녕하십니까, ○○팀 ○○○입니다", "Good day, this is ○○○ from the ○○ team", "More formal 하십니까 for very senior or official mail"]
+    ],
+    "examples": [
+      ["안녕하세요, 김민수입니다.", "Hello, this is Kim Minsu.", "The minimum: greeting plus your name and -입니다"],
+      ["안녕하세요, 영업팀 김민수입니다. 어제 통화드린 건으로 메일 드립니다.", "Hello, this is Kim Minsu from Sales. I'm writing about the matter we discussed by phone yesterday.", "Greeting, then immediately state WHY you're writing"],
+      ["안녕하세요, ABC회사 영업팀 김민수 대리입니다. 다름이 아니라 견적 관련해서 연락드렸습니다.", "Hello, this is Assistant Manager Kim Minsu from ABC Company's Sales team. I'm contacting you regarding the quote.", "External, formal: company + team + name + title + reason"]
+    ],
+    "nuance": "Korean work emails almost always open with 안녕하세요 + your identity in the pattern [team/company] + [name] + [optional title] + 입니다. This is not optional fluff; jumping straight into the request feels abrupt and rude in Korean office culture. The verb 입니다 here means 'I am ~', and you state your OWN name plainly, never with honorific 님 attached to yourself (writing 김민수님입니다 about yourself is wrong — 님 honors others, not you). Note the title order differs from English: Koreans say 김민수 대리 (name THEN rank), not 대리 김민수. The nearest variant is 안녕하십니까, which is one notch more formal/official (used in announcements, to very senior people, or in 합쇼체 letters); everyday inter-office mail uses 안녕하세요. The classic English-speaker pitfall is translating 'My name is' as 제 이름은 ~예요, which sounds like a self-introduction in a textbook, not a professional email; the natural business form is simply [name]입니다. Also avoid 저는 ~입니다 with 저는 every time — Korean drops the 'I' once context is clear, so 김민수입니다 alone is cleaner than 저는 김민수입니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Korean work emails almost always open with 안녕하세요 + your identity in the pattern [team/company] + [name] + [optional title] + 입니다. This is not optional fluff; jumping straight into the request feels abrupt and rude in Korean office culture. The verb 입니다 here means 'I am ~', and you state your OWN name plainly. Note the title order differs from English: Koreans say 김민수 대리 (name THEN rank), not 대리 김민수."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The nearest variant is 안녕하십니까, which is one notch more formal/official (used in announcements, to very senior people, or in 합쇼체 letters); everyday inter-office mail uses 안녕하세요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic pitfall is translating 'My name is' as 제 이름은 ~예요, which sounds like a textbook self-introduction, not a professional email; the natural business form is simply [name]입니다. Also never attach honorific 님 to yourself (김민수님입니다 is wrong — 님 honors others, not you). And avoid 저는 every time: Korean drops the 'I' once context is clear, so 김민수입니다 alone is cleaner than 저는 김민수입니다."
+      }
+    ],
+    "mistakes": [
+      ["Writing 제 이름은 김민수예요 in a work email.", "That's a casual/textbook self-intro. Professional email states identity as 김민수입니다 (or 팀 + 이름 + 입니다), not '내 이름은 ~예요'."],
+      ["Attaching 님 to your own name: 김민수님입니다.", "님 is an honorific for OTHERS. Referring to yourself you drop it: 김민수입니다. Using 님 on yourself sounds self-elevating and wrong."],
+      ["Ordering title before name: 대리 김민수입니다.", "Korean puts rank AFTER the name: 김민수 대리입니다. The English order 'Assistant Manager Kim' reversed sounds off."]
+    ]
+  },
+  {
+    "hangul": "참고 부탁드립니다",
+    "english": "Please take note / for your reference",
+    "topic": "work",
+    "usage": [
+      ["참고 부탁드립니다", "Please take note of this", "Polite-formal; asks the reader to keep it in mind"],
+      ["참고하시기 바랍니다", "Please refer to this", "Slightly more formal/official written tone"],
+      ["참고만 해 주세요", "Just for your reference (no action needed)", "Signals it's FYI only, nothing to do"],
+      ["참고 바람", "For reference", "Curt note-style ending, internal memos/superiors to juniors"]
+    ],
+    "examples": [
+      ["아래 내용 참고 부탁드립니다.", "Please take note of the content below.", "Points the reader to information you've included"],
+      ["회의 전에 첨부 자료 참고 부탁드립니다.", "Please review the attached materials before the meeting.", "Combines 참고 with a deadline ('before the meeting')"],
+      ["지난번과 일정이 변경되었으니 참고 부탁드립니다.", "The schedule has changed from last time, so please take note.", "Used to flag a change the reader should be aware of"]
+    ],
+    "nuance": "참고 부탁드립니다 is 참고 ('reference/consultation', Sino-Korean 參考) + 부탁드립니다 ('I humbly request'), meaning 'please keep this in mind / for your reference'. It's a soft, information-sharing closer: you're not demanding an action, just asking the reader to be AWARE of something. The feeling is courteous and low-pressure. The crucial contrast is with 참조 (參照): in email, 참조 is the CC field ('참조: 박과장님') — it names who's copied — whereas 참고 means 'for your information/reference'. English speakers constantly confuse these because both translate loosely as 'reference'; if you write 참조 부탁드립니다 meaning 'please note this', it reads oddly like 'please CC this'. Another contrast: 참고하세요 (plain imperative 'refer to it') is fine to juniors/peers but can sound slightly directive to a superior; 참고 부탁드립니다 with 부탁드리다 is humbler and safer upward. The English-speaker pitfall is treating 'FYI' as needing a verb of command; in Korean the humble-request frame 부탁드립니다 carries the politeness, so don't stack it with a blunt 하세요. Note 참고 is a 하다-noun, so to make it a verb you need 참고하다 — never 참고 주세요 (you can't 'give' a reference).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "참고 부탁드립니다 means 'please keep this in mind / for your reference'. It's a soft, information-sharing closer: you're not demanding an action, just asking the reader to be AWARE of something. The feeling is courteous and low-pressure."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial contrast is with 참조 (參照): in email, 참조 is the CC field ('참조: 박과장님'), naming who's copied, whereas 참고 means 'for your information/reference'. Writing 참조 부탁드립니다 to mean 'please note this' reads oddly like 'please CC this'. Also, 참고하세요 (plain imperative) is fine to juniors/peers but can sound directive to a superior; 참고 부탁드립니다 with 부탁드리다 is humbler and safer upward."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "참고 is 참고 ('reference/consultation', Sino-Korean 參考) + 부탁드립니다 ('I humbly request')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't treat 'FYI' as needing a verb of command; in Korean the humble-request frame 부탁드립니다 carries the politeness, so don't stack it with a blunt 하세요. Note 참고 is a 하다-noun, so to make it a verb you need 참고하다 — never 참고 주세요 (you can't 'give' a reference)."
+      }
+    ],
+    "mistakes": [
+      ["Confusing 참고 with 참조.", "참조 is the email CC line ('참조: ~님'); 참고 means 'for your reference'. Writing 참조 부탁드립니다 to mean 'please note' sounds like 'please CC'. Use 참고 for FYI."],
+      ["Saying 참고 주세요.", "참고 is a 하다-noun; you can't 'give' it. The verb is 참고하다, so it's 참고해 주세요 or 참고 부탁드립니다, never 참고 주세요."],
+      ["Using bare 참고하세요 to a senior.", "The plain imperative can feel directive upward. To a superior, soften to 참고 부탁드립니다 or 참고하시기 바랍니다."]
+    ]
+  },
+  {
+    "hangul": "첨부했습니다",
+    "english": "I've attached it (please find attached)",
+    "topic": "work",
+    "usage": [
+      ["첨부했습니다", "I have attached it", "Polite-formal; states the file is attached"],
+      ["첨부해 드립니다", "I'm attaching it for you", "Adds 드리다 to sound a touch more courteous"],
+      ["첨부 파일 확인 부탁드립니다", "Please check the attached file", "Pairs the attachment with a request to open it"],
+      ["파일 첨부합니다", "Attaching the file", "Crisp present-tense form, common in quick mail"]
+    ],
+    "examples": [
+      ["요청하신 자료 첨부했습니다.", "I've attached the materials you requested.", "Links the attachment to what they asked for"],
+      ["견적서 첨부해 드리니 확인 부탁드립니다.", "I'm attaching the quote, so please review it.", "첨부 + a follow-up 확인 부탁드립니다 request"],
+      ["수정된 보고서를 다시 첨부드립니다. 이전 파일은 삭제해 주세요.", "I'm re-attaching the revised report. Please delete the previous file.", "Real situation: resending a corrected version"]
+    ],
+    "nuance": "첨부했습니다 is 첨부 ('attachment', Sino-Korean 添附) + 하다 in formal past, 'I have attached'. It's the standard line for 'please find attached'. The everyday options are 첨부했습니다 (I attached), 첨부합니다 (I'm attaching), and the slightly warmer 첨부해 드립니다 / 첨부드립니다, where 드리다 ('to do for someone, humbly') signals you're doing the reader a service — common and polite in Korean business mail. The key contrast: 첨부 (添附) is electronically attaching a FILE, while 동봉 (同封) is physically enclosing something in a paper envelope — don't write 동봉했습니다 for an email PDF. A frequent English-speaker pitfall is over-literal 'please find attached' rendered as 첨부된 것을 찾아 주세요 ('please go look for the attached thing'), which sounds like the file is lost; you simply state 첨부했습니다. Another trap is the particle: it's 파일을 첨부했습니다 (object 을/를), not 파일에 첨부 — the file is the thing being attached. Also, 첨부 is a 하다-noun: the verb is 첨부하다, so you never say 첨부 주세요; to ask THEM to attach, it's 첨부해 주세요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "첨부했습니다 means 'I have attached' — the standard line for 'please find attached'. The everyday options are 첨부했습니다 (I attached), 첨부합니다 (I'm attaching), and the slightly warmer 첨부해 드립니다 / 첨부드립니다, where 드리다 ('to do for someone, humbly') signals you're doing the reader a service — common and polite in Korean business mail."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast: 첨부 (添附) is electronically attaching a FILE, while 동봉 (同封) is physically enclosing something in a paper envelope — don't write 동봉했습니다 for an email PDF."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "첨부 is 첨부 ('attachment', Sino-Korean 添附) + 하다 in formal past."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A frequent pitfall is over-literal 'please find attached' rendered as 첨부된 것을 찾아 주세요 ('please go look for the attached thing'), which sounds like the file is lost; you simply state 첨부했습니다. Watch the particle: it's 파일을 첨부했습니다 (object 을/를), not 파일에 첨부. Also, 첨부 is a 하다-noun: the verb is 첨부하다, so you never say 첨부 주세요; to ask THEM to attach, it's 첨부해 주세요."
+      }
+    ],
+    "mistakes": [
+      ["Translating 'please find attached' as 첨부된 것을 찾아 주세요.", "찾다 ('to look for') makes it sound like the file is missing. Just state 첨부했습니다 or 첨부 파일 확인 부탁드립니다."],
+      ["Using 동봉 for an email file.", "동봉 (同封) is enclosing something in a physical envelope. For an emailed file use 첨부 (添附): 파일을 첨부했습니다."],
+      ["Saying 첨부 주세요 when asking someone to attach.", "첨부 is a 하다-noun; it can't be 'given'. Use the verb: 첨부해 주세요 ('please attach it')."]
+    ]
+  },
+  {
+    "hangul": "확인 부탁드립니다",
+    "english": "Please check / kindly confirm",
+    "topic": "work",
+    "usage": [
+      ["확인 부탁드립니다", "Please check / confirm", "The default polite-formal request to review something"],
+      ["확인 부탁드려요", "Please check, thanks", "Softer, slightly less stiff than 드립니다"],
+      ["확인해 주시기 바랍니다", "We ask that you confirm", "More formal/official written register"],
+      ["확인 후 회신 부탁드립니다", "Please confirm and then reply", "Adds an explicit reply step after checking"]
+    ],
+    "examples": [
+      ["내용 확인 부탁드립니다.", "Please check the content.", "Asks the reader to review what you wrote/sent"],
+      ["일정 가능하신지 확인 부탁드립니다.", "Please confirm whether the schedule works for you.", "확인 used for 'confirm if X is OK'"],
+      ["아래 금액에 이상 없는지 확인 부탁드리며, 문제 있으면 말씀 주세요.", "Please confirm the amounts below are correct; let me know if there's any issue.", "Real: asks to verify figures and invites a flag"]
+    ],
+    "nuance": "확인 부탁드립니다 is 확인 ('confirmation/checking', Sino-Korean 確認) + 부탁드립니다 ('I humbly ask'), the single most common closing request in Korean work email — 'please check/confirm this'. 확인 covers both 'verify it's correct' and 'acknowledge you've seen it', so it's wonderfully versatile. The politeness lives in 부탁드리다 (humble 'to request'), so this is safe to send upward to bosses and clients. The near-synonym contrast: 검토 (檢討) means a deeper REVIEW/examination (reading critically, giving feedback), while 확인 is a lighter 'check/confirm' — asking a senior to 확인 a number is fine, but if you want their considered opinion you'd say 검토 부탁드립니다. The English-speaker pitfall is reaching for 체크 (the loanword 'check') and writing 체크 부탁드립니다 — understandable but casual/Konglish; professional mail uses 확인. Another trap: 확인하세요 (plain imperative) can feel curt or even bossy to a superior, so default to 확인 부탁드립니다, which frames it as a humble request rather than an order. Note 확인 is a 하다-noun; to ask someone to do it personally it's 확인해 주세요, and you never say 확인 주세요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "확인 부탁드립니다 is the single most common closing request in Korean work email — 'please check/confirm this'. 확인 covers both 'verify it's correct' and 'acknowledge you've seen it', so it's wonderfully versatile. The politeness lives in 부탁드리다 (humble 'to request'), so this is safe to send upward to bosses and clients."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym contrast: 검토 (檢討) means a deeper REVIEW/examination (reading critically, giving feedback), while 확인 is a lighter 'check/confirm' — asking a senior to 확인 a number is fine, but if you want their considered opinion you'd say 검토 부탁드립니다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "확인 is 확인 ('confirmation/checking', Sino-Korean 確認) + 부탁드립니다 ('I humbly ask')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is reaching for 체크 (the loanword 'check') and writing 체크 부탁드립니다 — understandable but casual/Konglish; professional mail uses 확인. Another trap: 확인하세요 (plain imperative) can feel curt or even bossy to a superior, so default to 확인 부탁드립니다, which frames it as a humble request rather than an order. Note 확인 is a 하다-noun; to ask someone to do it personally it's 확인해 주세요, and you never say 확인 주세요."
+      }
+    ],
+    "mistakes": [
+      ["Writing 체크 부탁드립니다.", "체크 is casual Konglish. Professional Korean email uses 확인: 확인 부탁드립니다."],
+      ["Sending bare 확인하세요 to a boss or client.", "The plain imperative can sound like an order. Soften with the humble request frame: 확인 부탁드립니다 or 확인해 주시기 바랍니다."],
+      ["Using 확인 when you need a considered review.", "확인 is a light 'check/confirm'. If you want them to critically examine and give feedback, ask 검토 부탁드립니다 instead."]
+    ]
+  },
+  {
+    "hangul": "회신 부탁드립니다",
+    "english": "Please reply / awaiting your response",
+    "topic": "work",
+    "usage": [
+      ["회신 부탁드립니다", "Please reply", "Polite-formal; asks for a written response"],
+      ["답장 부탁드립니다", "Please reply (to my message)", "답장 is the everyday word for a reply/letter back"],
+      ["회신 주시면 감사하겠습니다", "I'd be grateful for your reply", "Softer, extra-courteous closing"],
+      ["○일까지 회신 부탁드립니다", "Please reply by the ○th", "Attaches a deadline to the reply request"]
+    ],
+    "examples": [
+      ["검토 후 회신 부탁드립니다.", "Please reply after reviewing.", "Asks them to review, then respond"],
+      ["바쁘시겠지만 금요일까지 회신 부탁드립니다.", "I know you're busy, but please reply by Friday.", "바쁘시겠지만 softens a deadline request"],
+      ["혹시 참석 가능하신지 회신 주시면 일정 잡겠습니다.", "If you could reply whether you can attend, I'll set the schedule.", "Real: reply ties directly to a next action"]
+    ],
+    "nuance": "회신 부탁드립니다 is 회신 ('reply/response', Sino-Korean 回信) + 부탁드립니다, asking the reader to write back — the formal email staple for 'please respond'. 회신 is the crisp, businesslike word for a reply, slightly more formal than the everyday 답장 ('a letter/message back'); both are correct, but 회신 dominates in professional mail and 답장 feels a touch more personal. The contrast to watch: 회신 (a reply, the act of writing back) vs. 답변 (答辯, the ANSWER itself to a specific question). If you posed a concrete question and want that answer, 답변 부탁드립니다 fits; for a general 'please get back to me', use 회신. The English-speaker pitfall is over-literal 'reply to me' as 저에게 회신해 주세요 — the 저에게 ('to me') is usually unnecessary and sounds heavy; 회신 부탁드립니다 already implies 'to me'. Another trap is treating 'respond' as 반응 (反應, a physical/emotional reaction) — 반응 부탁드립니다 sounds like asking for a like/reaction, not an email reply. Note 회신 is a 하다-noun; the verb is 회신하다, so 회신해 주세요 or 회신 주시면, never 회신 주세요 without the verb being implied (회신 주다 is idiomatically tolerated, but 회신해 주세요 is cleanest).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "회신 부탁드립니다 asks the reader to write back — the formal email staple for 'please respond'. 회신 is the crisp, businesslike word for a reply, slightly more formal than the everyday 답장 ('a letter/message back'); both are correct, but 회신 dominates in professional mail and 답장 feels a touch more personal."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to watch: 회신 (a reply, the act of writing back) vs. 답변 (答辯, the ANSWER itself to a specific question). If you posed a concrete question and want that answer, 답변 부탁드립니다 fits; for a general 'please get back to me', use 회신."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "회신 is 회신 ('reply/response', Sino-Korean 回信) + 부탁드립니다. Note it is a 하다-noun; the verb is 회신하다, so 회신해 주세요 or 회신 주시면 (회신 주다 is idiomatically tolerated, but 회신해 주세요 is cleanest)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is over-literal 'reply to me' as 저에게 회신해 주세요 — the 저에게 ('to me') is usually unnecessary and sounds heavy; 회신 부탁드립니다 already implies 'to me'. Another trap is treating 'respond' as 반응 (反應, a physical/emotional reaction) — 반응 부탁드립니다 sounds like asking for a like/reaction, not an email reply."
+      }
+    ],
+    "mistakes": [
+      ["Saying 반응 부탁드립니다 for 'please respond'.", "반응 is a reaction/response in a physical sense. For an email reply use 회신 부탁드립니다 or 답장 부탁드립니다."],
+      ["Adding unnecessary 저에게: 저에게 회신해 주세요.", "회신 부탁드립니다 already implies 'to me'. The explicit 저에게 is heavy and redundant in business mail; drop it."],
+      ["Mixing up 회신 and 답변.", "회신 = a reply/getting back to you; 답변 = an answer to a specific question. If you asked something concrete, 답변 부탁드립니다; for general 'reply', 회신 부탁드립니다."]
+    ]
+  },
+  {
+    "hangul": "검토 부탁드립니다",
+    "english": "Please review (and give feedback)",
+    "topic": "work",
+    "usage": [
+      ["검토 부탁드립니다", "Please review this", "Polite-formal; asks for a careful look + opinion"],
+      ["검토해 주시면 감사하겠습니다", "I'd appreciate it if you'd review it", "Extra-courteous, common upward to seniors"],
+      ["한번 검토해 봐 주세요", "Could you give it a look?", "Lighter spoken-ish variant to a peer"],
+      ["검토 후 의견 부탁드립니다", "Please review and share your feedback", "Explicitly asks for comments after review"]
+    ],
+    "examples": [
+      ["기획안 검토 부탁드립니다.", "Please review the proposal.", "Sends a document for the reader to examine"],
+      ["초안이라 부족한 부분이 많은데 검토 부탁드립니다.", "It's a draft with many rough spots, so please review it.", "초안 ('draft') framing invites correction"],
+      ["수정사항 반영했으니 다시 한번 검토 부탁드립니다.", "I've reflected the edits, so please review it once more.", "Real: asks for a re-review after changes"]
+    ],
+    "nuance": "검토 부탁드립니다 is 검토 ('review/examination', Sino-Korean 檢討) + 부탁드립니다, asking the reader to read something critically and weigh in. Unlike the lighter 확인 ('just check/confirm'), 검토 implies real scrutiny — reading a proposal, catching problems, forming an opinion — so you send it to someone whose judgment you want, often a senior, and you're implicitly inviting feedback or approval. That's the key contrast English speakers blur: 확인 부탁드립니다 = 'please confirm/glance', 검토 부탁드립니다 = 'please examine and judge'. Asking a boss to merely 확인 a strategy doc undersells what you need; 검토 is right. The register is humble (부탁드리다), suitable upward. The English-speaker pitfall is the loanword 리뷰 (리뷰 부탁드립니다) — fine in casual startup slang but reads as Konglish in formal mail; use 검토. Another trap: don't confuse 검토 with 검사 (檢査, an INSPECTION/test, e.g. medical or quality checks) — 검사 부탁드립니다 sounds like asking for a lab test, not a document review. Note 검토 is a 하다-noun: 검토하다, so 검토해 주세요 / 검토 부탁드립니다, never 검토 주세요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "검토 부탁드립니다 asks the reader to read something critically and weigh in. 검토 implies real scrutiny — reading a proposal, catching problems, forming an opinion — so you send it to someone whose judgment you want, often a senior, and you're implicitly inviting feedback or approval. The register is humble (부탁드리다), suitable upward."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast English speakers blur: 확인 부탁드립니다 = 'please confirm/glance', 검토 부탁드립니다 = 'please examine and judge'. Asking a boss to merely 확인 a strategy doc undersells what you need; 검토 is right. Also don't confuse 검토 with 검사 (檢査, an INSPECTION/test, e.g. medical or quality checks) — 검사 부탁드립니다 sounds like asking for a lab test, not a document review."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "검토 is 검토 ('review/examination', Sino-Korean 檢討) + 부탁드립니다. It's a 하다-noun: 검토하다, so 검토해 주세요 / 검토 부탁드립니다, never 검토 주세요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the loanword 리뷰 (리뷰 부탁드립니다) — fine in casual startup slang but reads as Konglish in formal mail; use 검토."
+      }
+    ],
+    "mistakes": [
+      ["Using 확인 when you need real review.", "확인 is a light check/confirm. For a critical read with feedback or approval, ask 검토 부탁드립니다, not 확인 부탁드립니다."],
+      ["Writing 리뷰 부탁드립니다.", "리뷰 is casual Konglish. Formal Korean business mail uses 검토 부탁드립니다."],
+      ["Confusing 검토 with 검사.", "검토 = reviewing/examining (a document, plan); 검사 = inspection/testing (quality, medical). 검사 부탁드립니다 sounds like requesting a test, not a document review."]
+    ]
+  },
+  {
+    "hangul": "확인 후 회신 주시면 감사하겠습니다",
+    "english": "I'd be grateful if you could check and reply",
+    "topic": "work",
+    "usage": [
+      ["확인 후 회신 주시면 감사하겠습니다", "I'd appreciate it if you'd check and reply", "Very polite, common professional closer"],
+      ["검토 후 회신 부탁드립니다", "Please review and then reply", "Slightly more direct request form"],
+      ["확인하시고 연락 주시면 감사하겠습니다", "I'd be grateful if you'd check and contact me", "연락 ('get in touch') instead of 회신"],
+      ["회신 주시면 바로 진행하겠습니다", "Once you reply, I'll proceed right away", "Ties the reply to your next action"]
+    ],
+    "examples": [
+      ["내용 확인 후 회신 주시면 감사하겠습니다.", "I'd be grateful if you'd check the content and reply.", "Polite two-step: review, then respond"],
+      ["견적서 확인 후 회신 주시면 감사하겠습니다.", "I'd appreciate it if you'd review the quote and get back to me.", "Common closing on a proposal/quote email"],
+      ["바쁘시겠지만 확인 후 회신 주시면 감사하겠습니다. 미리 감사드립니다.", "I know you're busy, but I'd be grateful for your check and reply. Thank you in advance.", "Real: softeners + advance thanks for a courteous close"]
+    ],
+    "nuance": "확인 후 회신 주시면 감사하겠습니다 stacks 확인 ('check') + 후 ('after') + 회신 ('reply') + 주시면 ('if you would give/do') + 감사하겠습니다 ('I would be grateful') — a polished, deferential closer meaning 'I'd appreciate it if you'd check and reply.' The -(으)면 감사하겠습니다 frame ('I'd be grateful IF you would…') is the gold-standard polite request in Korean business writing: it's softer than a direct 부탁드립니다 because it phrases your need as a conditional favor and thanks them in advance. Use it upward to clients and seniors where maximum courtesy helps. The contrast: 회신 부탁드립니다 is direct-polite ('please reply'), while …주시면 감사하겠습니다 is indirect-polite ('I'd be thankful if…') — the latter is gentler and a bit more formal. The English-speaker pitfall is mistranslating 'I would be grateful' as 저는 감사할 것입니다 (a flat future 'I will thank') — Korean uses the -겠- intention/conjecture form 감사하겠습니다 to convey 'I would be grateful', and the conditional 주시면 is essential; dropping it (회신 감사하겠습니다) breaks the logic into 'I'll be thankful for the reply' prematurely. Keep the 주시면 … 감사하겠습니다 pair intact.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "확인 후 회신 주시면 감사하겠습니다 is a polished, deferential closer meaning 'I'd appreciate it if you'd check and reply.' The -(으)면 감사하겠습니다 frame ('I'd be grateful IF you would…') is the gold-standard polite request in Korean business writing: it phrases your need as a conditional favor and thanks them in advance. Use it upward to clients and seniors where maximum courtesy helps."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 회신 부탁드립니다 is direct-polite ('please reply'), while …주시면 감사하겠습니다 is indirect-polite ('I'd be thankful if…') — the latter is gentler and a bit more formal."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It stacks 확인 ('check') + 후 ('after') + 회신 ('reply') + 주시면 ('if you would give/do') + 감사하겠습니다 ('I would be grateful')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is mistranslating 'I would be grateful' as 저는 감사할 것입니다 (a flat future 'I will thank') — Korean uses the -겠- intention/conjecture form 감사하겠습니다, and the conditional 주시면 is essential; dropping it (회신 감사하겠습니다) breaks the logic into 'I'll be thankful for the reply' prematurely. Keep the 주시면 … 감사하겠습니다 pair intact."
+      }
+    ],
+    "mistakes": [
+      ["Saying 저는 감사할 것입니다 for 'I would be grateful'.", "Korean uses 감사하겠습니다 (the -겠- form) for 'I would be grateful', tied to a conditional 주시면. The literal future 감사할 것입니다 sounds wrong here."],
+      ["Dropping 주시면: 확인 후 회신 감사하겠습니다.", "Without the conditional 주시면 ('if you would'), the sentence loses its logic. Keep the pair: 회신 주시면 감사하겠습니다."],
+      ["Stacking it with a blunt 빨리: 빨리 회신 주시면 감사하겠습니다.", "빨리 ('quickly') sounds pushy in a humble closer. If you need speed, use 가능한 한 빨리 or 바쁘시겠지만, not bare 빨리."]
+    ]
+  },
+  {
+    "hangul": "일정 조율이 필요할 것 같습니다",
+    "english": "I think we'll need to coordinate the schedule",
+    "topic": "work",
+    "usage": [
+      ["일정 조율이 필요할 것 같습니다", "I think we need to coordinate schedules", "Polite-formal; raises a scheduling issue gently"],
+      ["일정 조율 부탁드립니다", "Please help coordinate the schedule", "More direct request to align timing"],
+      ["일정을 한번 맞춰 봐야 할 것 같아요", "We should try to align our schedules", "Softer spoken-ish variant with 맞추다"],
+      ["가능한 시간 알려 주시면 일정 조율하겠습니다", "If you share your availability, I'll coordinate", "Offers to do the coordinating yourself"]
+    ],
+    "examples": [
+      ["회의 시간 관련해서 일정 조율이 필요할 것 같습니다.", "Regarding the meeting time, I think we'll need to coordinate.", "Flags that timing must be worked out"],
+      ["다들 시간이 달라서 일정 조율이 필요할 것 같습니다. 가능한 시간 알려 주세요.", "Everyone's times differ, so we'll need to coordinate. Please share your availability.", "Explains the reason and asks for free slots"],
+      ["담당자분들과 일정 조율 후 다시 안내드리겠습니다.", "I'll coordinate with the people in charge and inform you again.", "Real: promises to align internally then follow up"]
+    ],
+    "nuance": "일정 조율이 필요할 것 같습니다 is 일정 ('schedule', Sino-Korean 日程) + 조율 ('tuning/coordination', Sino-Korean 調律, originally 'tuning an instrument') + 이 필요하다 ('is needed') + -ㄹ 것 같다 ('seems/I think'). 조율 is the precise business word for negotiating and aligning times/terms among multiple people — richer than just 'scheduling'. The -ㄹ 것 같습니다 ('it seems / I think') is doing important politeness work: Korean business culture prefers hedged, indirect phrasing, so 'we WILL need to coordinate' (필요합니다, flat) sounds blunt, while 'I think we'll need to' (필요할 것 같습니다) is softer and more collaborative. The contrast: 조율 (coordinating among parties, give-and-take) vs. 조정 (調整, adjusting/modifying a plan more unilaterally) — for 'let's find a time that works for everyone', 조율 is the natural fit. The English-speaker pitfall is over-literal 'schedule' as 스케줄 (스케줄 조정해요) — fine casually but 일정 is the professional term — and forcing 'coordinate' as 협력하다 ('to cooperate'), which is about teamwork in general, not aligning times. Also note the particle: 일정 조율'이' 필요하다 (subject 이/가 marks what is needed), not 일정 조율을 필요하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "일정 조율이 필요할 것 같습니다 means 'I think we'll need to coordinate the schedule'. 조율 is the precise business word for negotiating and aligning times/terms among multiple people — richer than just 'scheduling'. The -ㄹ 것 같습니다 ('it seems / I think') does important politeness work: Korean business culture prefers hedged, indirect phrasing, so 'we WILL need to' (필요합니다, flat) sounds blunt, while 'I think we'll need to' (필요할 것 같습니다) is softer and more collaborative."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 조율 (coordinating among parties, give-and-take) vs. 조정 (調整, adjusting/modifying a plan more unilaterally) — for 'let's find a time that works for everyone', 조율 is the natural fit."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 일정 ('schedule', Sino-Korean 日程) + 조율 ('tuning/coordination', Sino-Korean 調律, originally 'tuning an instrument') + 이 필요하다 ('is needed') + -ㄹ 것 같다 ('seems/I think')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is over-literal 'schedule' as 스케줄 (스케줄 조정해요) — fine casually but 일정 is the professional term — and forcing 'coordinate' as 협력하다 ('to cooperate'), which is about teamwork in general, not aligning times. Also note the particle: 일정 조율'이' 필요하다 (subject 이/가 marks what is needed), not 일정 조율을 필요하다."
+      }
+    ],
+    "mistakes": [
+      ["Writing flat 일정 조율이 필요합니다 to a client.", "The bare assertion can feel blunt. Korean business prefers the hedged 필요할 것 같습니다 ('I think we'll need to'), which sounds more collaborative."],
+      ["Using 협력 for 'coordinate the schedule'.", "협력 ('cooperation') is about working together generally, not aligning times. For matching schedules, the word is 조율 (or 맞추다): 일정 조율."],
+      ["Wrong particle: 일정 조율을 필요합니다.", "필요하다 takes the subject marker 이/가 on what is needed: 일정 조율이 필요합니다, not 일정 조율을 필요합니다."]
+    ]
+  },
+  {
+    "hangul": "언제 시간 괜찮으세요?",
+    "english": "When would be a good time for you?",
+    "topic": "work",
+    "usage": [
+      ["언제 시간 괜찮으세요?", "When are you free?", "Polite; asks the other person's availability"],
+      ["언제가 편하세요?", "When is convenient for you?", "편하다 ('comfortable/convenient') variant"],
+      ["혹시 가능하신 시간이 언제일까요?", "May I ask what time would work for you?", "More formal/tentative with 혹시 + -ㄹ까요"],
+      ["○요일 어떠세요?", "How about ○day?", "Proposing a specific day to narrow it down"]
+    ],
+    "examples": [
+      ["혹시 다음 주에 언제 시간 괜찮으세요?", "Are you free sometime next week?", "혹시 softens the question; scopes to next week"],
+      ["미팅 잡으려고 하는데 언제 시간 괜찮으세요?", "I'd like to set up a meeting — when are you free?", "States the purpose, then asks availability"],
+      ["오전, 오후 중에 언제가 편하세요? 맞춰서 잡겠습니다.", "Do you prefer morning or afternoon? I'll book to fit.", "Real: offers options and promises to accommodate"]
+    ],
+    "nuance": "언제 시간 괜찮으세요? is 언제 ('when') + 시간 ('time') + 괜찮으세요 (honorific 'is it okay/fine for you?'). It's the polite, natural way to ask someone's availability when arranging a meeting — literally 'when is your time okay?'. The honorific -으세요 on 괜찮다 directs the politeness to the listener, so this is safe upward and to clients. A close variant is 언제가 편하세요? ('when is convenient?'), using 편하다 — slightly warmer/considerate, stressing their comfort. The contrast: asking about THEIR availability (괜찮으세요/편하세요, honorific 'you') vs. stating YOUR availability (저는 ~ 괜찮아요/가능해요) — keep the honorific only on the other person's side. The English-speaker pitfall is the direct calque 'when are you available?' as 언제 가능해요? aimed at a senior without honorific — 언제 가능하세요? is fine, but the warmer 시간 괜찮으세요 / 편하세요 sounds more considerate in Korean. Another trap: don't say 언제 자유로워요? (literal 'when are you free?' using 자유롭다 = 'free as in liberty') — that's the wrong 'free'; Korean uses 시간 괜찮다 / 시간 되다 / 한가하다 for being available. Also 시간 되세요? ('does the time work for you?') is a very common equivalent worth knowing.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "언제 시간 괜찮으세요? is the polite, natural way to ask someone's availability when arranging a meeting — literally 'when is your time okay?'. The honorific -으세요 on 괜찮다 directs the politeness to the listener, so this is safe upward and to clients."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A close variant is 언제가 편하세요? ('when is convenient?'), using 편하다 — slightly warmer/considerate, stressing their comfort. Contrast asking about THEIR availability (괜찮으세요/편하세요, honorific 'you') vs. stating YOUR availability (저는 ~ 괜찮아요/가능해요) — keep the honorific only on the other person's side. Also 시간 되세요? ('does the time work for you?') is a very common equivalent worth knowing."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the direct calque 'when are you available?' as 언제 가능해요? aimed at a senior without honorific — 언제 가능하세요? is fine, but the warmer 시간 괜찮으세요 / 편하세요 sounds more considerate. Another trap: don't say 언제 자유로워요? (literal 'when are you free?' using 자유롭다 = 'free as in liberty') — that's the wrong 'free'; Korean uses 시간 괜찮다 / 시간 되다 / 한가하다 for being available."
+      }
+    ],
+    "mistakes": [
+      ["Saying 언제 자유로워요? for 'when are you free?'.", "자유롭다 is 'free' as in liberty/freedom, not availability. Use 언제 시간 괜찮으세요? or 언제 시간 되세요?"],
+      ["Putting honorific on your own availability.", "Honor the other person: 언제 괜찮으세요? For your own time, plain 저는 ~ 괜찮아요/가능합니다. Don't say 저는 괜찮으세요."],
+      ["Dropping honorific to a senior: 언제 시간 괜찮아?", "괜찮아 is 반말. To a boss or client use 괜찮으세요? or 편하세요?, never the casual 괜찮아."]
+    ]
+  },
+  {
+    "hangul": "회의 일정을 잡고 싶습니다",
+    "english": "I'd like to set up a meeting",
+    "topic": "work",
+    "usage": [
+      ["회의 일정을 잡고 싶습니다", "I'd like to schedule a meeting", "Polite-formal; proposes setting a meeting"],
+      ["미팅 한번 잡으면 좋을 것 같습니다", "It'd be good to set up a meeting", "Softer, suggestion-framed"],
+      ["회의 일정 잡아도 될까요?", "May I set up a meeting?", "Asks permission, extra courteous"],
+      ["일정 잡아서 공유드리겠습니다", "I'll set the schedule and share it", "When YOU will arrange and circulate it"]
+    ],
+    "examples": [
+      ["이 건으로 회의 일정을 잡고 싶습니다.", "I'd like to set up a meeting about this matter.", "States the topic the meeting is for"],
+      ["관련해서 한번 모여서 논의하면 좋을 것 같아 회의 일정을 잡고 싶습니다.", "I think it'd help to gather and discuss, so I'd like to schedule a meeting.", "Gives the reason before proposing"],
+      ["가능하신 시간 몇 개 주시면 그에 맞춰 회의 일정을 잡겠습니다.", "If you give me a few possible times, I'll set the meeting to match.", "Real: invites slots, offers to finalize"]
+    ],
+    "nuance": "회의 일정을 잡고 싶습니다 is 회의 ('meeting', Sino-Korean 會議) + 일정 ('schedule') + 을 잡다 ('to grab/set') + -고 싶습니다 ('I would like to'). The verb 잡다 ('to catch/grab') is the idiomatic word for 'fix/set' an appointment in Korean — 일정을 잡다, 약속을 잡다, 미팅을 잡다 — and English speakers rarely guess it. The -고 싶습니다 ('I'd like to') keeps it as a polite proposal rather than a command. The contrast: 회의 (a formal meeting, internal/decision-making) vs. 미팅 (the loanword, often an external or more casual business meet-up) — both common, but 회의 sounds more formal/internal and 미팅 a bit more flexible. The English-speaker pitfall is translating 'set up / arrange' literally as 설치하다 ('to install') or 준비하다 ('to prepare') — 회의를 설치하다 is wrong (that's installing equipment), and while you can 회의를 준비하다 ('prepare a meeting'), to SCHEDULE one you 잡다. Another trap: the particle — 일정'을' 잡다 (object 을/를), not 일정에 잡다. Also note 싶습니다 marks YOUR desire, so don't attach it to the other person; to ask if THEY want to meet, you'd say 회의 잡으실까요? or 시간 되실까요?.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "회의 일정을 잡고 싶습니다 means 'I'd like to set up a meeting'. The verb 잡다 ('to catch/grab') is the idiomatic word for 'fix/set' an appointment in Korean — 일정을 잡다, 약속을 잡다, 미팅을 잡다 — and English speakers rarely guess it. The -고 싶습니다 ('I'd like to') keeps it as a polite proposal rather than a command."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 회의 (a formal meeting, internal/decision-making) vs. 미팅 (the loanword, often an external or more casual business meet-up) — both common, but 회의 sounds more formal/internal and 미팅 a bit more flexible."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 회의 ('meeting', Sino-Korean 會議) + 일정 ('schedule') + 을 잡다 ('to grab/set') + -고 싶습니다 ('I would like to')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is translating 'set up / arrange' literally as 설치하다 ('to install') or 준비하다 ('to prepare') — 회의를 설치하다 is wrong (that's installing equipment), and while you can 회의를 준비하다, to SCHEDULE one you 잡다. Another trap: the particle — 일정'을' 잡다 (object 을/를), not 일정에 잡다. Also 싶습니다 marks YOUR desire, so don't attach it to the other person; to ask if THEY want to meet, say 회의 잡으실까요? or 시간 되실까요?."
+      }
+    ],
+    "mistakes": [
+      ["Saying 회의를 설치하고 싶습니다.", "설치하다 is 'to install (equipment/software)'. To schedule a meeting, the verb is 잡다: 회의 일정을 잡고 싶습니다."],
+      ["Wrong particle: 일정에 잡고 싶습니다.", "잡다 takes the object marker: 일정을 잡다. The particle is 을/를, not 에."],
+      ["Attaching 싶다 to the other person.", "-고 싶다 expresses YOUR desire. To ask if they'd like to meet, use 회의 잡으실까요? or 시간 되실까요?, not '~고 싶으세요' phrased about them awkwardly."]
+    ]
+  },
+  {
+    "hangul": "일정이 변경되었습니다",
+    "english": "The schedule has changed",
+    "topic": "work",
+    "usage": [
+      ["일정이 변경되었습니다", "The schedule has been changed", "Polite-formal; announces a change neutrally"],
+      ["일정이 변경되어 안내드립니다", "I'm informing you the schedule has changed", "Adds the 'I'm letting you know' framing"],
+      ["부득이하게 일정을 변경하게 되었습니다", "We've unavoidably had to change the schedule", "부득이하게 ('unavoidably') softens/apologizes"],
+      ["일정 변경 가능할까요?", "Would it be possible to change the schedule?", "Asking, not announcing — requests a change"]
+    ],
+    "examples": [
+      ["회의 일정이 변경되었습니다.", "The meeting schedule has changed.", "Plain announcement of a changed time"],
+      ["사정이 생겨 일정이 변경되었습니다. 양해 부탁드립니다.", "Something came up and the schedule changed. Thank you for understanding.", "Pairs the change with 양해 부탁드립니다"],
+      ["내부 사정으로 발표 일정이 다음 주로 변경되었습니다. 변경된 시간 확인 부탁드립니다.", "Due to internal circumstances, the presentation moved to next week. Please check the new time.", "Real: states reason, new timing, and a check request"]
+    ],
+    "nuance": "일정이 변경되었습니다 is 일정 ('schedule') + 이 ('subject') + 변경되다 ('to be changed', Sino-Korean 變更 + passive 되다) in formal past. The passive 변경되었습니다 ('has been changed') is deliberate: it states the change as a neutral fact without pointing fingers, which Korean business culture favors for delivering inconvenient news. If you say 일정을 변경했습니다 (active, 'I changed the schedule'), you take direct ownership — sometimes appropriate, but the passive softens. The contrast: 변경 (變更, changing/altering a plan, formal) vs. 바꾸다 (the plain native 'to change/swap', more casual) — in email you write 일정이 변경되었습니다, not the casual 일정 바꿨어요. The English-speaker pitfall is the particle and voice: 일정'이' 변경되었습니다 needs the subject marker 이/가 with the passive, whereas the object marker 을/를 goes with the active 일정'을' 변경했습니다 — mixing them (일정을 변경되었습니다) is a classic grammar error. Another trap: don't translate 'change' as 바뀌었습니다 carelessly to a client for a schedule you yourself altered — 바뀌다 ('to get changed', also passive) is fine but feels a notch more colloquial than 변경되다. Pair changes with 양해 부탁드립니다 ('please understand') for courtesy.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "일정이 변경되었습니다 announces 'the schedule has been changed'. The passive 변경되었습니다 is deliberate: it states the change as a neutral fact without pointing fingers, which Korean business culture favors for delivering inconvenient news. If you say 일정을 변경했습니다 (active, 'I changed the schedule'), you take direct ownership — sometimes appropriate, but the passive softens. Pair changes with 양해 부탁드립니다 ('please understand') for courtesy."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 변경 (變更, changing/altering a plan, formal) vs. 바꾸다 (the plain native 'to change/swap', more casual) — in email you write 일정이 변경되었습니다, not the casual 일정 바꿨어요. Don't translate 'change' as 바뀌었습니다 carelessly to a client for a schedule you yourself altered — 바뀌다 ('to get changed', also passive) is fine but feels a notch more colloquial than 변경되다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 일정 ('schedule') + 이 ('subject') + 변경되다 ('to be changed', Sino-Korean 變更 + passive 되다) in formal past."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the particle and voice: 일정'이' 변경되었습니다 needs the subject marker 이/가 with the passive, whereas the object marker 을/를 goes with the active 일정'을' 변경했습니다 — mixing them (일정을 변경되었습니다) is a classic grammar error."
+      }
+    ],
+    "mistakes": [
+      ["Mixing voice/particle: 일정을 변경되었습니다.", "Passive 변경되다 takes the subject marker: 일정'이' 변경되었습니다. The object marker 을/를 goes with active 일정'을' 변경했습니다."],
+      ["Using casual 일정 바꿨어요 in formal mail.", "바꾸다 is the plain/casual 'to change'. Professional email uses 변경: 일정이 변경되었습니다."],
+      ["Announcing a change you caused with passive but no apology.", "If you changed it and it inconveniences others, soften with 부득이하게 변경하게 되었습니다 and add 양해 부탁드립니다, rather than a cold passive alone."]
+    ]
+  },
+  {
+    "hangul": "보고드리겠습니다",
+    "english": "I will report to you",
+    "topic": "work",
+    "usage": [
+      ["보고드리겠습니다", "I will report (to you)", "Humble-formal; you report up to a superior"],
+      ["보고드립니다", "I am reporting (this to you)", "Present form, heading a report email/message"],
+      ["진행 상황 보고드리겠습니다", "I'll report on the progress", "Common with 진행 상황 ('progress/status')"],
+      ["결과 나오면 바로 보고드리겠습니다", "I'll report as soon as results are in", "Promises a follow-up report"]
+    ],
+    "examples": [
+      ["회의 결과 보고드리겠습니다.", "I'll report the meeting results.", "Heads a message conveying outcomes upward"],
+      ["오늘까지 진행된 내용 보고드립니다. 검토 부탁드립니다.", "I'm reporting what's progressed so far today. Please review.", "Report + a review request to the boss"],
+      ["말씀하신 건 확인해서 내일 오전 중으로 보고드리겠습니다.", "I'll check the matter you mentioned and report by tomorrow morning.", "Real: acknowledges a request and commits a report time"]
+    ],
+    "nuance": "보고드리겠습니다 is 보고 ('report', Sino-Korean 報告) + 드리다 (the HUMBLE form of 주다 'to give', used when the recipient is your senior) + -겠습니다 ('I will'). The 드리다 is the heart of it: it lowers YOU relative to the person you're reporting to, so 보고드리다 inherently means reporting UPWARD to a boss, client, or senior — you'd never 보고드리다 to a junior. The contrast: 보고드리다 (humble, upward) vs. plain 보고하다 (neutral 'to report', e.g. describing the act objectively or to peers) vs. 알리다 ('to inform/notify', more horizontal). If a superior tells YOU something, you don't 보고드리다 to them about it incorrectly framed — direction matters. The English-speaker pitfall is using 보고하다 flatly to a boss (보고합니다 / 보고할게요) — not wrong, but the humble 보고드립니다 / 보고드리겠습니다 is the expected register upward, and missing 드리다 can feel slightly under-polite in hierarchical Korean offices. Another trap: 보고 is a 하다/드리다-noun, so you say 보고드리다 / 보고하다, never 보고 드리다 split as if 'giving a report object' (it's written together, and you don't say 보고를 드리다 commonly — 보고드리다 is the set form). Also don't confuse 보고 (報告, report) with 보고 (the 보다 connective '보고', as in 보고 싶다 'want to see') — context and Sino-root differ.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "보고드리겠습니다 means 'I will report (to you)'. The 드리다 is the heart of it: it lowers YOU relative to the person you're reporting to, so 보고드리다 inherently means reporting UPWARD to a boss, client, or senior — you'd never 보고드리다 to a junior. Direction matters."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 보고드리다 (humble, upward) vs. plain 보고하다 (neutral 'to report', e.g. describing the act objectively or to peers) vs. 알리다 ('to inform/notify', more horizontal)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 보고 ('report', Sino-Korean 報告) + 드리다 (the HUMBLE form of 주다 'to give', used when the recipient is your senior) + -겠습니다 ('I will'). Note it is a 하다/드리다-noun, so you say 보고드리다 / 보고하다, never 보고 드리다 split as if 'giving a report object' — 보고드리다 is the set form. Don't confuse 보고 (報告, report) with 보고 (the 보다 connective, as in 보고 싶다 'want to see')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is using 보고하다 flatly to a boss (보고합니다 / 보고할게요) — not wrong, but the humble 보고드립니다 / 보고드리겠습니다 is the expected register upward, and missing 드리다 can feel slightly under-polite in hierarchical Korean offices."
+      }
+    ],
+    "mistakes": [
+      ["Using plain 보고합니다 to a senior.", "To a boss/client the humble form 보고드립니다 / 보고드리겠습니다 (with 드리다) is expected. Plain 보고합니다 can feel under-polite upward."],
+      ["Saying 보고드리겠습니다 to a junior.", "드리다 lowers you toward a SENIOR. To a subordinate you wouldn't humble yourself; use 보고하다 or, depending on direction, just 알려 줄게요."],
+      ["Confusing 보고 (報告) with 보고 (보다).", "報告 = a report; 보고 in 보고 싶다 is the connective of 보다 ('see'). 보고드리겠습니다 means 'I'll report', not 'I want to see'."]
+    ]
+  },
+  {
+    "hangul": "확인 후 다시 연락드리겠습니다",
+    "english": "I'll check and get back to you",
+    "topic": "work",
+    "usage": [
+      ["확인 후 다시 연락드리겠습니다", "I'll check and contact you again", "Humble-formal; promises a follow-up"],
+      ["알아보고 연락드리겠습니다", "I'll look into it and get back to you", "알아보다 ('look into') for things you must research"],
+      ["확인되는 대로 연락드리겠습니다", "I'll contact you as soon as it's confirmed", "-는 대로 ('as soon as') for prompt follow-up"],
+      ["내부적으로 확인 후 회신드리겠습니다", "I'll confirm internally and reply", "Signals you must check with your team first"]
+    ],
+    "examples": [
+      ["담당자에게 확인 후 다시 연락드리겠습니다.", "I'll check with the person in charge and get back to you.", "Common when you must verify with someone else"],
+      ["지금 바로 답변드리기 어려워서, 확인 후 다시 연락드리겠습니다.", "It's hard to answer right now, so I'll check and contact you again.", "Polite way to defer an immediate answer"],
+      ["재고 상황 확인 후 오늘 중으로 다시 연락드리겠습니다.", "I'll check the stock and get back to you within today.", "Real: specific topic + a time commitment"]
+    ],
+    "nuance": "확인 후 다시 연락드리겠습니다 is 확인 ('check') + 후 ('after') + 다시 ('again') + 연락 ('contact', Sino-Korean 連絡) + 드리다 (humble 'give/do for a senior') + -겠습니다 ('I will'). It's the courteous, professional way to say 'let me look into this and get back to you' — invaluable when you can't answer on the spot. The humble 연락드리다 (vs. plain 연락하다) lowers you toward the client/senior, which is the expected register outward and upward. The contrast: 연락드리다 ('I'll contact you', humble, you reaching out) vs. 회신드리다 ('I'll reply', specifically responding to their message) — both work; 연락 is broader ('get in touch'), 회신 is 'a reply to your mail'. The English-speaker pitfall is the loan-feel calque 'get back to you' rendered as 돌아오겠습니다 ('I will return/come back', physically) — that sounds like you'll physically return, not follow up; the idiom is 다시 연락드리겠습니다. Another trap is dropping 드리다 to a client (다시 연락할게요 / 연락하겠습니다) — understandable but less polite; 연락드리겠습니다 is the safe business default. Also note 후 ('after') follows a noun directly: 확인 후, not 확인한 후에 being required — both exist (확인한 후에 is also correct), but 확인 후 is the crisp business form.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "확인 후 다시 연락드리겠습니다 is the courteous, professional way to say 'let me look into this and get back to you' — invaluable when you can't answer on the spot. The humble 연락드리다 (vs. plain 연락하다) lowers you toward the client/senior, which is the expected register outward and upward."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 연락드리다 ('I'll contact you', humble, you reaching out) vs. 회신드리다 ('I'll reply', specifically responding to their message) — both work; 연락 is broader ('get in touch'), 회신 is 'a reply to your mail'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 확인 ('check') + 후 ('after') + 다시 ('again') + 연락 ('contact', Sino-Korean 連絡) + 드리다 (humble 'give/do for a senior') + -겠습니다 ('I will'). Note 후 ('after') follows a noun directly: 확인 후, while 확인한 후에 is also correct — but 확인 후 is the crisp business form."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the calque 'get back to you' rendered as 돌아오겠습니다 ('I will return/come back', physically) — that sounds like you'll physically return, not follow up; the idiom is 다시 연락드리겠습니다. Another trap is dropping 드리다 to a client (다시 연락할게요 / 연락하겠습니다) — understandable but less polite; 연락드리겠습니다 is the safe business default."
+      }
+    ],
+    "mistakes": [
+      ["Saying 다시 돌아오겠습니다 for 'I'll get back to you'.", "돌아오다 is 'to physically return/come back'. To follow up, say 다시 연락드리겠습니다, not 돌아오겠습니다."],
+      ["Dropping 드리다 to a client: 다시 연락하겠습니다.", "To a client/senior the humble 연락드리겠습니다 is expected. Plain 연락하겠습니다 is fine internally but less courteous outward."],
+      ["Promising follow-up with no timeframe.", "다시 연락드리겠습니다 alone can feel vague. Add a window — 확인되는 대로 / 오늘 중으로 다시 연락드리겠습니다 — so the reader knows when to expect you."]
+    ]
+  },
+  {
+    "hangul": "확인 부탁드린 건 어떻게 되었을까요?",
+    "english": "May I ask how the matter I requested is going?",
+    "topic": "work",
+    "usage": [
+      ["확인 부탁드린 건 어떻게 되었을까요?", "How is the matter I asked about going?", "Polite follow-up/nudge on a pending item"],
+      ["혹시 진행 상황 여쭤봐도 될까요?", "May I ask about the progress?", "여쭤보다 (humble 'ask') for a gentle check-in"],
+      ["지난번 메일 관련 회신 가능하실까요?", "Would a reply on my previous email be possible?", "References the earlier mail directly"],
+      ["바쁘시겠지만 다시 한번 여쭤봅니다", "I know you're busy, but I'm asking once more", "Softener-led nudge for a slow reply"]
+    ],
+    "examples": [
+      ["저번에 확인 부탁드린 건 어떻게 되었을까요?", "How is the thing I asked you to check last time going?", "Gentle nudge on a forgotten request"],
+      ["바쁘신 와중에 죄송하지만, 확인 부탁드린 건 어떻게 되었을까요?", "Sorry to bother you when you're busy, but how is the matter I asked about going?", "Apology-softener before the follow-up"],
+      ["지난주에 보내드린 견적 관련해서 확인 부탁드린 건 어떻게 되었을까요? 일정이 있어 여쭤봅니다.", "Regarding the quote I sent last week, how is the matter going? I'm asking because there's a deadline.", "Real: ties the nudge to a reason (a deadline)"]
+    ],
+    "nuance": "확인 부탁드린 건 어떻게 되었을까요? is 확인 부탁드린 ('that I asked you to check', a relative clause) + 건 (contraction of 것은, 'the matter/thing') + 어떻게 ('how') + 되었을까요 ('I wonder how it turned out', the speculative -을까요 form). This is the diplomatic way to CHASE a pending request without sounding pushy — the soft -을까요 ('I wonder if…') and the indirect 어떻게 되었- ('how has it come along') let you nudge while saving the reader's face, which is essential in hierarchical Korean offices. The contrast: a blunt 왜 아직 확인 안 하셨어요? ('why haven't you checked yet?') is accusatory and damaging; 어떻게 되었을까요? frames it as innocent curiosity about status. Another contrast: 되었을까요 (speculative, gentle) vs. 됐어요? (flat 'is it done?', too direct upward). The English-speaker pitfall is the impatient calque 'any update?' as a bare 업데이트 있어요? — Konglish and curt; Korean wraps the nudge in indirectness. Another trap is omitting a face-saving softener (바쁘시겠지만 / 죄송하지만) before chasing a senior — going straight to the question can read as impatient. Note 건 = 것은 here ('the thing/matter'), not the counter 건 (件); both exist, so read by context.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "확인 부탁드린 건 어떻게 되었을까요? is the diplomatic way to CHASE a pending request without sounding pushy — the soft -을까요 ('I wonder if…') and the indirect 어떻게 되었- ('how has it come along') let you nudge while saving the reader's face, which is essential in hierarchical Korean offices."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast a blunt 왜 아직 확인 안 하셨어요? ('why haven't you checked yet?'), which is accusatory and damaging; 어떻게 되었을까요? frames it as innocent curiosity about status. Also 되었을까요 (speculative, gentle) vs. 됐어요? (flat 'is it done?', too direct upward)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 확인 부탁드린 ('that I asked you to check', a relative clause) + 건 (contraction of 것은, 'the matter/thing') + 어떻게 ('how') + 되었을까요 ('I wonder how it turned out', the speculative -을까요 form). Note 건 = 것은 here, not the counter 건 (件); both exist, so read by context."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the impatient calque 'any update?' as a bare 업데이트 있어요? — Konglish and curt; Korean wraps the nudge in indirectness. Another trap is omitting a face-saving softener (바쁘시겠지만 / 죄송하지만) before chasing a senior — going straight to the question can read as impatient."
+      }
+    ],
+    "mistakes": [
+      ["Chasing with 왜 아직 확인 안 하셨어요?", "That accuses the reader of failing to act. Use the face-saving 확인 부탁드린 건 어떻게 되었을까요? to nudge gently."],
+      ["Writing bare 업데이트 있어요? for 'any update?'.", "Konglish and curt. Korean phrases a status nudge indirectly: 진행 상황 여쭤봐도 될까요? or 어떻게 되었을까요?"],
+      ["Skipping a softener before nudging a senior.", "Going straight to the question can sound impatient. Lead with 바쁘시겠지만 or 죄송하지만 to cushion the follow-up."]
+    ]
+  },
+  {
+    "hangul": "검토 후 의견 주시면 반영하겠습니다",
+    "english": "If you review and share feedback, I'll incorporate it",
+    "topic": "work",
+    "usage": [
+      ["검토 후 의견 주시면 반영하겠습니다", "I'll incorporate your feedback after you review", "Polite; invites comments and promises to apply them"],
+      ["코멘트 주시면 수정하겠습니다", "I'll revise if you give comments", "코멘트 ('comments') variant, common in practice"],
+      ["피드백 반영해서 다시 공유드리겠습니다", "I'll apply the feedback and re-share", "When you'll send an updated version back"],
+      ["수정할 부분 알려 주시면 바로 반영하겠습니다", "Tell me what to fix and I'll apply it right away", "Asks for specific edit points"]
+    ],
+    "examples": [
+      ["초안입니다. 검토 후 의견 주시면 반영하겠습니다.", "This is a draft. I'll incorporate your feedback after you review.", "Sends a draft and invites input"],
+      ["부족한 부분 있으면 편하게 말씀해 주세요. 반영하겠습니다.", "If there are weak spots, feel free to let me know. I'll apply it.", "Humbly invites criticism on gaps"],
+      ["1차 기획안 공유드립니다. 검토 후 의견 주시면 반영해서 2차 안 준비하겠습니다.", "Sharing the first draft. After review, I'll incorporate feedback into a second version.", "Real: lays out the revision cycle clearly"]
+    ],
+    "nuance": "검토 후 의견 주시면 반영하겠습니다 is 검토 ('review') + 후 ('after') + 의견 ('opinion/feedback', Sino-Korean 意見) + 주시면 ('if you would give') + 반영하겠습니다 ('I will reflect/incorporate', Sino-Korean 反映 'reflect'). The standout vocab is 반영하다 — literally 'to reflect (as in a mirror)', it's THE business verb for 'to incorporate feedback/changes into a document', and English speakers almost never produce it naturally. The -주시면 … 반영하겠습니다 frame ('if you give … I'll incorporate') is polite and collaborative, positioning you as receptive. The contrast: 반영하다 ('incorporate/apply feedback into the work') vs. 수정하다 (修正, 'to revise/correct' the document itself) vs. 적용하다 (適用, 'to apply' a rule/setting) — for taking someone's comments and working them in, 반영 is the precise choice. The English-speaker pitfall is the literal 'incorporate' as 포함하다 ('to include') — 의견을 포함하겠습니다 sounds like you'll attach their opinion verbatim, not actually act on it; the right verb is 반영하다. Another trap: 의견 ('considered opinion/feedback') vs. 생각 ('thought', more casual) — in business you ask for 의견, not 생각. Note 반영 is a 하다-noun: 반영하다, and 의견을 반영하다 (object 을/를) is the collocation.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "검토 후 의견 주시면 반영하겠습니다 means 'after you review, if you share feedback I'll incorporate it'. The standout vocab is 반영하다 — literally 'to reflect (as in a mirror)', it's THE business verb for 'to incorporate feedback/changes into a document', and English speakers almost never produce it naturally. The -주시면 … 반영하겠습니다 frame is polite and collaborative, positioning you as receptive."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 반영하다 ('incorporate/apply feedback into the work') vs. 수정하다 (修正, 'to revise/correct' the document itself) vs. 적용하다 (適用, 'to apply' a rule/setting) — for taking someone's comments and working them in, 반영 is the precise choice. Also 의견 ('considered opinion/feedback') vs. 생각 ('thought', more casual) — in business you ask for 의견, not 생각."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 검토 ('review') + 후 ('after') + 의견 ('opinion/feedback', Sino-Korean 意見) + 주시면 ('if you would give') + 반영하겠습니다 ('I will reflect/incorporate', Sino-Korean 反映 'reflect'). Note 반영 is a 하다-noun: 반영하다, and 의견을 반영하다 (object 을/를) is the collocation."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the literal 'incorporate' as 포함하다 ('to include') — 의견을 포함하겠습니다 sounds like you'll attach their opinion verbatim, not actually act on it; the right verb is 반영하다."
+      }
+    ],
+    "mistakes": [
+      ["Saying 의견을 포함하겠습니다 for 'incorporate feedback'.", "포함하다 is 'to include/contain'. To actually work feedback into the document, the verb is 반영하다: 의견 주시면 반영하겠습니다."],
+      ["Asking for 생각 instead of 의견.", "생각 ('thought') is casual. In business you request 의견 ('considered opinion/feedback'): 의견 주시면 반영하겠습니다."],
+      ["Confusing 반영 with 수정.", "반영하다 = incorporate (their feedback into the work); 수정하다 = revise/correct (the document). They pair — you 반영 the 의견 by 수정하는 것 — but use 반영 for 'apply the feedback'."]
+    ]
+  },
+  {
+    "hangul": "바쁘신 와중에 죄송하지만",
+    "english": "I'm sorry to bother you when you're so busy, but…",
+    "topic": "work",
+    "usage": [
+      ["바쁘신 와중에 죄송하지만", "Sorry to trouble you while you're busy, but", "Polite softener before a request to a senior"],
+      ["바쁘시겠지만", "I know you must be busy, but", "Shorter, very common request-cushion"],
+      ["번거로우시겠지만", "I know it's a hassle, but", "Apologizes for the inconvenience of the ask"],
+      ["귀찮게 해 드려 죄송하지만", "Sorry to be a bother, but", "Warmer/more personal apology variant"]
+    ],
+    "examples": [
+      ["바쁘신 와중에 죄송하지만, 잠깐 확인 부탁드려도 될까요?", "Sorry to bother you while you're busy, but could I ask you to check quickly?", "Cushion + a small request"],
+      ["바쁘신 와중에 죄송하지만, 이 건만 먼저 처리해 주실 수 있을까요?", "Sorry to trouble you, but could you handle just this one first?", "Softener before asking for priority"],
+      ["바쁘신 와중에 죄송하지만, 내일 회의 자료 오늘까지 회신 가능하실까요?", "I'm sorry to bother you when you're busy, but could you reply with tomorrow's materials by today?", "Real: cushions a tight-deadline request"]
+    ],
+    "nuance": "바쁘신 와중에 죄송하지만 is 바쁘신 (honorific 'busy', describing the reader) + 와중에 ('in the midst of', Sino-Korean 渦中 'whirlpool/turmoil') + 죄송하지만 ('I'm sorry, but'). It's a face-saving CUSHION you place before asking a senior or client for something — Korean business etiquette strongly favors acknowledging the other person's burden before adding to it, so opening a request this way is courteous and expected, not groveling. The honorific 바쁘'신' is essential (you honor THEIR busyness). The contrast: 와중에 specifically implies a hectic/turbulent stretch, slightly stronger than the plain 바쁘시겠지만 ('you must be busy, but'); both work, with 와중에 a touch more deferential. Don't confuse 와중 with 도중 (途中, 'on the way/midway') — 와중 connotes commotion, 도중 just 'during/en route'. The English-speaker pitfall is omitting the cushion entirely and leading with the request, which sounds abrupt/demanding in Korean even if the request itself is polite — the softener does heavy social work. Another pitfall is over-apologizing by stacking too many (죄송하지만 미안하지만 실례지만 all at once); pick one. Also 죄송하지만 (more formal) outranks 미안하지만 (casual) for business — use 죄송하지만 upward.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "바쁘신 와중에 죄송하지만 is a face-saving CUSHION you place before asking a senior or client for something — Korean business etiquette strongly favors acknowledging the other person's burden before adding to it, so opening a request this way is courteous and expected, not groveling. The honorific 바쁘'신' is essential (you honor THEIR busyness)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast: 와중에 specifically implies a hectic/turbulent stretch, slightly stronger than the plain 바쁘시겠지만 ('you must be busy, but'); both work, with 와중에 a touch more deferential. Don't confuse 와중 with 도중 (途中, 'on the way/midway') — 와중 connotes commotion, 도중 just 'during/en route'. Also 죄송하지만 (more formal) outranks 미안하지만 (casual) for business — use 죄송하지만 upward."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 바쁘신 (honorific 'busy', describing the reader) + 와중에 ('in the midst of', Sino-Korean 渦中 'whirlpool/turmoil') + 죄송하지만 ('I'm sorry, but')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is omitting the cushion entirely and leading with the request, which sounds abrupt/demanding in Korean even if the request itself is polite — the softener does heavy social work. Another pitfall is over-apologizing by stacking too many (죄송하지만 미안하지만 실례지만 all at once); pick one."
+      }
+    ],
+    "mistakes": [
+      ["Leading straight with the request, no cushion.", "In Korean business, asking a senior bluntly feels demanding even if polite. Open with 바쁘신 와중에 죄송하지만 or 바쁘시겠지만 to soften."],
+      ["Dropping the honorific: 바쁜 와중에.", "You honor the reader's busyness: 바쁘'신' 와중에. Plain 바쁜 omits the respect due to a senior/client."],
+      ["Confusing 와중 with 도중.", "와중 (渦中) implies a hectic/turbulent stretch; 도중 (途中) just means 'midway/on the way'. For 'while you're busy', it's 바쁘신 와중에."]
+    ]
+  },
+  {
+    "hangul": "양해 부탁드립니다",
+    "english": "Thank you for your understanding",
+    "topic": "work",
+    "usage": [
+      ["양해 부탁드립니다", "Please understand / thank you for understanding", "Polite-formal; asks forbearance for an inconvenience"],
+      ["양해 부탁드려요", "Thanks for understanding", "Softer, slightly less stiff than 드립니다"],
+      ["양해해 주시면 감사하겠습니다", "I'd be grateful for your understanding", "Extra-courteous conditional form"],
+      ["널리 양해 부탁드립니다", "We ask for your kind understanding", "널리 ('broadly') for notices/announcements"]
+    ],
+    "examples": [
+      ["일정이 늦어진 점 양해 부탁드립니다.", "Please understand the delay in the schedule.", "Asks forbearance for being late"],
+      ["답변이 늦어 죄송합니다. 양해 부탁드립니다.", "Sorry for the late reply. Thank you for understanding.", "Pairs an apology with a request to understand"],
+      ["내부 사정으로 일부 변경된 점 양해 부탁드리며, 추후 다시 안내드리겠습니다.", "Please understand some changes due to internal circumstances; I'll inform you again later.", "Real: explains a change and asks understanding"]
+    ],
+    "nuance": "양해 부탁드립니다 is 양해 ('understanding/forbearance', Sino-Korean 諒解) + 부탁드립니다 ('I humbly ask'), used to ask someone to be UNDERSTANDING about an inconvenience you've caused — a delay, a change, a limitation. It's the courteous companion to an apology: you say 죄송합니다 (sorry) then 양해 부탁드립니다 (please bear with us). The key contrast English speakers miss is 양해 vs. 이해 (理解): 이해 is 'comprehension' (grasping a concept or instructions), while 양해 is 'forbearance/tolerance' for an inconvenience — so 이해 부탁드립니다 wrongly asks 'please comprehend', as if they might not follow your meaning, when you really mean 'please tolerate this hiccup'. Use 양해 when something went sideways. Another contrast: 양해 부탁드립니다 (asking forbearance AFTER/ABOUT an inconvenience) vs. 바쁘신 와중에 죄송하지만 (a cushion BEFORE making a request) — different jobs. The English-speaker pitfall is the literal 'thank you for your understanding' as 이해해 주셔서 감사합니다 — that's grammatical but means 'thanks for comprehending', subtly off; the set business phrase is 양해 부탁드립니다. Note 양해 is a 하다-noun: the verb is 양해하다, so 양해해 주세요 / 양해 부탁드립니다, never 양해 주세요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "양해 부탁드립니다 asks someone to be UNDERSTANDING about an inconvenience you've caused — a delay, a change, a limitation. It's the courteous companion to an apology: you say 죄송합니다 (sorry) then 양해 부탁드립니다 (please bear with us)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast English speakers miss is 양해 vs. 이해 (理解): 이해 is 'comprehension' (grasping a concept or instructions), while 양해 is 'forbearance/tolerance' for an inconvenience — so 이해 부탁드립니다 wrongly asks 'please comprehend', when you really mean 'please tolerate this hiccup'. Use 양해 when something went sideways. Another contrast: 양해 부탁드립니다 (asking forbearance AFTER/ABOUT an inconvenience) vs. 바쁘신 와중에 죄송하지만 (a cushion BEFORE making a request) — different jobs."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 양해 ('understanding/forbearance', Sino-Korean 諒解) + 부탁드립니다 ('I humbly ask'). Note 양해 is a 하다-noun: the verb is 양해하다, so 양해해 주세요 / 양해 부탁드립니다, never 양해 주세요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the literal 'thank you for your understanding' as 이해해 주셔서 감사합니다 — that's grammatical but means 'thanks for comprehending', subtly off; the set business phrase is 양해 부탁드립니다."
+      }
+    ],
+    "mistakes": [
+      ["Saying 이해 부탁드립니다 to mean 'please understand (bear with us)'.", "이해 is 'comprehension' (grasping meaning). For tolerating an inconvenience, use 양해: 양해 부탁드립니다."],
+      ["Saying 양해 주세요.", "양해 is a 하다-noun; you can't 'give' it. Use the verb: 양해해 주세요 or 양해 부탁드립니다."],
+      ["Using 양해 with no apology or reason.", "양해 asks forbearance for something. Pair it with a brief apology/reason — 늦어 죄송합니다, 양해 부탁드립니다 — or it sounds like asking a favor out of nowhere."]
+    ]
+  },
+  {
+    "hangul": "참조에 넣어 주세요",
+    "english": "Please CC them (add to the CC line)",
+    "topic": "work",
+    "usage": [
+      ["참조에 넣어 주세요", "Please add them to CC", "Polite; asks to copy someone on the email"],
+      ["참조에 넣어 주시겠어요?", "Could you CC them?", "More polite/formal with -주시겠어요"],
+      ["○○님도 참조로 넣었습니다", "I've also CC'd ○○", "Stating that you copied someone"],
+      ["다음부터는 저도 참조 부탁드립니다", "Please CC me from now on too", "Asking to be kept in the loop going forward"]
+    ],
+    "examples": [
+      ["박 과장님도 참조에 넣어 주세요.", "Please CC Manager Park as well.", "Asks to copy a specific colleague"],
+      ["이 건은 팀장님도 아셔야 해서 참조에 넣었습니다.", "The team lead should know about this, so I CC'd them.", "Explains WHY you copied someone"],
+      ["관련 부서도 함께 알아야 하니 다음 메일부터는 참조에 넣어 주세요.", "The related department should be in the loop, so please CC them from the next email.", "Real: requests CC for cross-team visibility"]
+    ],
+    "nuance": "참조에 넣어 주세요 is 참조 ('reference/CC', Sino-Korean 參照) + 에 ('into') + 넣다 ('to put in') + 주세요 ('please'). In Korean email, 참조 (參照) is literally the CC field, and 참조에 넣다 ('put into CC') means to copy someone — the everyday office phrase for keeping a colleague in the loop. This is the critical contrast that trips English speakers: 참조 (參照, the CC line) vs. 참고 (參考, 'for your reference/FYI'). They look and sound nearly identical and both gloss as 'reference' in English, but 참조 = the CC recipients, while 참고 = 'please take note'. Saying 참고에 넣어 주세요 is wrong — you don't 'put someone into FYI'. The other field words: 받는 사람 (To), 참조 (CC), 숨은 참조 (BCC). The English-speaker pitfall is using the loanword and writing 씨씨에 넣어 주세요 (CC as 씨씨) — understood in casual chat but not standard business Korean; use 참조. Another trap: the verb is 넣다 ('put in') with the particle 에 (참조'에' 넣다), not 참조를 넣다 in the sense of inserting a thing — you put the PERSON into the 참조 field. To say you copied someone, it's 참조로 넣었습니다 or 참조에 넣었습니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "In Korean email, 참조 (參照) is literally the CC field, and 참조에 넣다 ('put into CC') means to copy someone — the everyday office phrase for keeping a colleague in the loop. The other field words: 받는 사람 (To), 참조 (CC), 숨은 참조 (BCC)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The critical contrast that trips English speakers: 참조 (參照, the CC line) vs. 참고 (參考, 'for your reference/FYI'). They look and sound nearly identical and both gloss as 'reference', but 참조 = the CC recipients, while 참고 = 'please take note'. Saying 참고에 넣어 주세요 is wrong — you don't 'put someone into FYI'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is 참조 ('reference/CC', Sino-Korean 參照) + 에 ('into') + 넣다 ('to put in') + 주세요 ('please')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is using the loanword and writing 씨씨에 넣어 주세요 (CC as 씨씨) — understood in casual chat but not standard business Korean; use 참조. Another trap: the verb is 넣다 ('put in') with the particle 에 (참조'에' 넣다), not 참조를 넣다 — you put the PERSON into the 참조 field. To say you copied someone, it's 참조로 넣었습니다 or 참조에 넣었습니다."
+      }
+    ],
+    "mistakes": [
+      ["Confusing 참조 with 참고.", "참조 (參照) is the CC line; 참고 (參考) is 'for your reference/FYI'. 참고에 넣어 주세요 is wrong — to CC someone, say 참조에 넣어 주세요."],
+      ["Writing 씨씨에 넣어 주세요.", "씨씨 (CC) is casual/Konglish. Standard business Korean uses 참조: 참조에 넣어 주세요."],
+      ["Wrong particle: 참조를 넣어 주세요 (meaning to CC a person).", "You put the person INTO the CC field: 참조'에' 넣어 주세요. The location particle 에 marks where they go."]
+    ]
+  }
+]

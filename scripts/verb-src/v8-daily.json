@@ -22,16 +22,29 @@
       "shallWe": "요리할까요?"
     },
     "usage": [
-      ["저녁을 요리해요.", "I cook dinner.", "Cooking a meal"],
-      ["오늘은 제가 요리할게요.", "Today I will cook.", "Offering to cook"]
+      ["요리를 하다", "to do cooking", "요리(料理) is the noun 'a dish/cuisine'; 하다 makes it a verb, which is why the negative splits as 요리(를) 안 해요"],
+      ["집에서 요리하다", "to cook at home", "집에서 marks the location with -에서 (the place an action happens), not -에 — a very common particle slip"],
+      ["한식을 요리하다", "to cook Korean food", "the dish you make takes the object particle -을/를: 한식을 요리해요"],
+      ["요리를 잘하다", "to be good at cooking", "잘하다 ('do well') is written as one word; 요리를 잘해요 means 'I cook well'"]
     ],
     "examples": [
-      ["주말에는 집에서 직접 요리해요.", "On weekends I cook at home myself.", "Daily routine"],
-      ["같이 한국 음식을 요리할까요?", "Shall we cook Korean food together?", "Making a suggestion"],
-      ["오늘은 피곤해서 요리 못 해요.", "I am tired today so I cannot cook.", "Unable to do"]
+      ["엄마가 요리해요.", "Mom is cooking.", "Bare subject + verb — the simplest 요-form sentence, built on the stem 요리하 + 여요 → 요리해요"],
+      ["주말에는 집에서 직접 요리해요.", "On weekends I cook at home myself.", "직접 ('in person, oneself') stresses that you do it yourself rather than buying or ordering"],
+      ["오늘은 피곤해서 요리 못 해요.", "I am tired today, so I can't cook.", "Real-life excuse — note 못 splits the compound: 요리 못 해요, never 못 요리해요"]
     ],
-    "nuance": "요리하다 means to cook a dish, while just heating or boiling something simple is often said with 끓이다 or 데우다 instead.",
-    "mistakes": ["Do not write 요리 안 요리해요; say 요리 안 해요."],
+    "nuance": "요리하다 (料理하다, 料 'handle/measure' + 理 'arrange/manage') means to actually prepare a dish — chopping, seasoning, applying heat — so it carries a sense of real cooking, not just touching the stove. Contrast it with 끓이다 ('boil', e.g. 라면을 끓이다 for instant noodles) and 데우다 ('reheat'): a Korean would say 라면을 끓여요, not 라면을 요리해요, because boiling ramyeon barely counts as 요리. As a 하다-verb the stem 요리하 + 여요 contracts to 요리해요, and because 요리 is a separable noun the negative and 못 wedge between the two parts: 요리 안 해요, 요리 못 해요. The English-speaker trap is mirroring 'I cook dinner' as 저녁을 요리해요 (fine) but then saying 저녁 안 요리해요 — wrong; it must be 저녁 요리 안 해요 or 저녁을 안 만들어요. Also note that for a quick everyday meal Koreans very often just say 밥을 하다 ('do rice' = make a meal) rather than 요리하다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To actually prepare a dish — chopping, seasoning, applying heat — so it carries a sense of real cooking, not just touching the stove. For a quick everyday meal Koreans very often just say 밥을 하다 ('do rice' = make a meal) rather than 요리하다."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast it with 끓이다 ('boil', e.g. 라면을 끓이다 for instant noodles) and 데우다 ('reheat'): a Korean would say 라면을 끓여요, not 라면을 요리해요, because boiling ramyeon barely counts as 요리."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "料理하다 — 料 'handle/measure' + 理 'arrange/manage'."},
+      {"k": "활용", "e": "FORMS", "t": "As a 하다-verb the stem 요리하 + 여요 contracts to 요리해요, and because 요리 is a separable noun the negative and 못 wedge between the two parts: 요리 안 해요, 요리 못 해요.", "chips": ["요리해요", "요리 안 해요", "요리 못 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The trap is mirroring 'I cook dinner' as 저녁을 요리해요 (fine) but then saying 저녁 안 요리해요 — wrong; it must be 저녁 요리 안 해요 or 저녁을 안 만들어요."}
+    ],
+    "mistakes": [
+      "Saying 못 요리해요 for 'I can't cook' — 요리하다 is noun(요리)+하다, so 못 must go right before 하다: 요리 못 해요.",
+      "Using 요리하다 for boiling ramyeon or just reheating soup — Koreans use 끓이다 or 데우다; 요리하다 implies actually making a dish.",
+      "Writing the negative as 안 요리해요 — the standard split form is 요리 안 해요 (the noun, then 안, then 해요)."
+    ],
     "irregular": null
   },
   {
@@ -57,16 +70,28 @@
       "shallWe": "빨래할까요?"
     },
     "usage": [
-      ["주말에 빨래해요.", "I do laundry on weekends.", "Weekly routine"],
-      ["빨래한 옷을 널어요.", "I hang the washed clothes.", "After laundry"]
+      ["빨래를 하다", "to do the laundry", "빨래 is a pure-Korean noun meaning both 'the washing (action)' and 'the laundry (items)'; the verb is 빨래(를) 하다"],
+      ["빨래를 널다", "to hang up the laundry", "널다 ('hang out to dry') is the natural next step after washing; 빨래를 널어요"],
+      ["빨래를 개다", "to fold the laundry", "개다 means 'fold' for laundry/blankets — not 접다, which is for paper; 빨래를 개요"],
+      ["손빨래를 하다", "to hand-wash", "손(hand)+빨래 = washing by hand, as opposed to using the 세탁기 (washing machine)"]
     ],
     "examples": [
-      ["옷이 더러워서 오늘 빨래해야 해요.", "The clothes are dirty so I must do laundry today.", "Expressing obligation"],
-      ["날씨가 좋으니까 빨래할까요?", "The weather is nice so shall we do laundry?", "Making a suggestion"],
-      ["세탁기가 고장 나서 빨래 못 해요.", "The washer broke so I cannot do laundry.", "Unable to do"]
+      ["빨래해요.", "I'm doing laundry.", "Minimal sentence: stem 빨래하 + 여요 → 빨래해요, the everyday spoken form"],
+      ["날씨가 좋으니까 빨래할까요?", "The weather's nice, so shall we do laundry?", "-(으)니까 gives the reason for a suggestion; 빨래할까요? proposes doing it"],
+      ["세탁기가 고장 나서 빨래 못 해요.", "The washer broke, so I can't do laundry.", "고장 나다 = 'break down'; 못 splits the compound as 빨래 못 해요"]
     ],
-    "nuance": "빨래하다 means to wash clothes specifically, while washing dishes or your body uses 설거지하다 or 씻다 instead.",
-    "mistakes": ["Do not use 씻다 (wash body) for washing clothes."],
+    "nuance": "빨래하다 specifically means to wash clothes/fabric, and the noun 빨래 doubly refers to both the act and the pile of clothes themselves (빨래가 많아요 = 'there's a lot of laundry'). Don't confuse it with neighbors that all touch 'wash': 씻다 is washing your body or hands (손을 씻다), 설거지하다 is washing dishes, and 빨다 is the raw verb 'to scrub/wash (cloth)' from which 빨래 derives — so 양말을 빨다 ('wash socks') and 빨래하다 overlap, but 빨래하다 names the whole chore. As a noun+하다 compound, 안 and 못 insert before 하다: 빨래 안 해요, 빨래 못 해요. The classic English-speaker error is reaching for 씻다 because English says 'wash my clothes' the same way as 'wash my hands' — but 옷을 씻다 sounds wrong to Koreans; say 옷을 빨다 or 빨래해요. Habitual collocations: 빨래를 하다 → 널다(hang) → 개다(fold).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Specifically means to wash clothes/fabric, and the noun 빨래 doubly refers to both the act and the pile of clothes themselves (빨래가 많아요 = 'there's a lot of laundry'). Habitual collocations: 빨래를 하다 → 널다(hang) → 개다(fold)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse it with neighbors that all touch 'wash': 씻다 is washing your body or hands (손을 씻다), 설거지하다 is washing dishes, and 빨다 is the raw verb 'to scrub/wash (cloth)' from which 빨래 derives — so 양말을 빨다 ('wash socks') and 빨래하다 overlap, but 빨래하다 names the whole chore."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 compound, 안 and 못 insert before 하다: 빨래 안 해요, 빨래 못 해요.", "chips": ["빨래해요", "빨래 안 해요", "빨래 못 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic error is reaching for 씻다 because English says 'wash my clothes' the same way as 'wash my hands' — but 옷을 씻다 sounds wrong to Koreans; say 옷을 빨다 or 빨래해요."}
+    ],
+    "mistakes": [
+      "Saying 옷을 씻어요 for 'I wash my clothes' — 씻다 is for bodies/hands; clothes take 빨다 or the chore-verb 빨래하다.",
+      "Using 접다 to 'fold laundry' — paper is 접다, but clothes and blankets are 개다: 빨래를 개요.",
+      "Putting 못 first as 못 빨래해요 — the correct split is 빨래 못 해요 because 빨래+하다 is a separable compound."
+    ],
     "irregular": null
   },
   {
@@ -92,16 +117,28 @@
       "shallWe": "고칠까요?"
     },
     "usage": [
-      ["시계를 고쳐요.", "I fix the watch.", "Repairing an item"],
-      ["컴퓨터를 고쳤어요.", "I fixed the computer.", "Past action"]
+      ["고장 난 것을 고치다", "to fix something broken", "고장 나다 = 'break down'; the broken thing is the object: 시계를 고쳐요"],
+      ["버릇을 고치다", "to break/correct a habit", "고치다 reaches beyond objects to habits and faults — 나쁜 버릇을 고치다"],
+      ["틀린 것을 고치다", "to correct a mistake", "for errors in writing/answers, 고치다 means 'correct': 답을 고쳐요"],
+      ["병을 고치다", "to cure an illness", "고치다 even covers curing sickness; 의사가 병을 고쳐요 ('the doctor cures the illness')"]
     ],
     "examples": [
-      ["고장 난 의자를 직접 고쳤어요.", "I fixed the broken chair myself.", "Past action"],
-      ["이 가방 좀 고쳐 주세요.", "Please fix this bag.", "Polite request"],
-      ["오래된 자전거라서 못 고쳐요.", "It is an old bike so I cannot fix it.", "Unable to do"]
+      ["시계를 고쳐요.", "I fix the watch.", "Plain object + verb; stem 고치 + 어요 → 고쳐요 (이+어 contracts to 여)"],
+      ["고장 난 의자를 직접 고쳤어요.", "I fixed the broken chair myself.", "고장 난 is the past-modifier 'broken'; 고쳤어요 is the past tense"],
+      ["이 가방 좀 고쳐 주세요.", "Could you fix this bag for me?", "좀 softens the request and 고쳐 주세요 asks someone to do it for your benefit"]
     ],
-    "nuance": "고치다 covers repairing broken things and also correcting mistakes or habits, so it works for objects and behavior alike.",
-    "mistakes": ["Do not confuse 고치다 (fix) with 바꾸다 (change)."],
+    "nuance": "고치다 is wonderfully broad: it repairs broken objects (자전거를 고치다), corrects mistakes (답을 고치다), reforms bad habits (버릇을 고치다), and even cures illness (병을 고치다) — the unifying idea is 'restore something faulty to a good state'. The sharp line to learn is 고치다 vs 바꾸다: 고치다 keeps the SAME thing and makes it work again, while 바꾸다 swaps it for a DIFFERENT one. If your phone is buggy, 핸드폰을 고쳐요 means repair this phone, but 핸드폰을 바꿔요 means get a new phone. A more formal/technical synonym is 수리하다 (修理, used for appliances/cars on signs and receipts: 수리 센터), and for software/policy you'll hear 수정하다 (修正, 'revise'). The verb is regular: 고치 + 어요 → 고쳐요, past 고쳤어요. English-speaker pitfall: don't overextend the English 'fix' meaning 'arrange/decide' (as in 'fix a date') — that's 정하다, not 고치다. 날짜를 고치다 would mean 'change the already-set date', a different idea.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Wonderfully broad: it repairs broken objects (자전거를 고치다), corrects mistakes (답을 고치다), reforms bad habits (버릇을 고치다), and even cures illness (병을 고치다) — the unifying idea is 'restore something faulty to a good state'."},
+      {"k": "비슷한 말", "e": "VS", "t": "The sharp line to learn is 고치다 vs 바꾸다: 고치다 keeps the SAME thing and makes it work again, while 바꾸다 swaps it for a DIFFERENT one. If your phone is buggy, 핸드폰을 고쳐요 means repair this phone, but 핸드폰을 바꿔요 means get a new phone. A more formal/technical synonym is 수리하다 (修理, used for appliances/cars on signs and receipts: 수리 센터), and for software/policy you'll hear 수정하다 (修正, 'revise')."},
+      {"k": "활용", "e": "FORMS", "t": "The verb is regular: 고치 + 어요 → 고쳐요 (casual 고쳐), past 고쳤어요.", "chips": ["고쳐", "고쳐요", "고쳤어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Don't overextend the English 'fix' meaning 'arrange/decide' (as in 'fix a date') — that's 정하다, not 고치다. 날짜를 고치다 would mean 'change the already-set date', a different idea."}
+    ],
+    "mistakes": [
+      "Using 고치다 when you mean replacing with a new one — 'I'll get a new laptop' is 노트북을 바꿔요, not 고쳐요 (고치다 = repair the same item).",
+      "Saying 약속을 고치다 for 'set up an appointment' — to decide/arrange use 정하다; 고치다 would imply altering one already set.",
+      "Confusing it with the formal 수리하다 in casual speech is fine, but on official repair contexts (car, appliance) Koreans default to 수리하다, so recognize both."
+    ],
     "irregular": null
   },
   {
@@ -127,16 +164,28 @@
       "shallWe": "바꿀까요?"
     },
     "usage": [
-      ["돈을 바꿔요.", "I exchange money.", "Exchanging currency"],
-      ["약속 시간을 바꿨어요.", "I changed the meeting time.", "Past action"]
+      ["돈을 바꾸다", "to exchange money", "for currency exchange Koreans say 돈을 바꾸다 / 환전하다; 달러로 바꿔요 ('change into dollars')"],
+      ["자리를 바꾸다", "to switch seats", "바꾸다 covers swapping positions with someone: 저랑 자리 좀 바꿔 주세요"],
+      ["마음을 바꾸다", "to change one's mind", "the idiom for changing your decision/mind — 마음을 바꿨어요 ('I changed my mind')"],
+      ["A를 B로 바꾸다", "to change A into/for B", "the thing you get takes -(으)로: 큰 사이즈로 바꿔 주세요 ('change it to a large')"]
     ],
     "examples": [
-      ["사이즈가 안 맞아서 옷을 바꿨어요.", "The size did not fit so I exchanged the clothes.", "Past action"],
-      ["자리를 좀 바꿔 주세요.", "Please change my seat.", "Polite request"],
-      ["계획을 지금 바꿀 수 있어요?", "Can I change the plan now?", "Asking ability"]
+      ["이름을 바꿔요.", "I change my name.", "Simple object + verb; stem 바꾸 + 어요 → 바꿔요 (ㅜ+어 contracts to 워)"],
+      ["사이즈가 안 맞아서 옷을 바꿨어요.", "The size didn't fit, so I exchanged the clothes.", "-아서 gives the reason; the target size would take -(으)로"],
+      ["자리를 좀 바꿔 주세요.", "Could you switch seats with me?", "Real request on a train/plane; 바꿔 주세요 asks the other person to do the swap"]
     ],
-    "nuance": "바꾸다 means swapping one thing for another or changing a plan, while fixing something broken uses 고치다 instead.",
-    "mistakes": ["Do not confuse 바꾸다 (change) with 고치다 (fix)."],
+    "nuance": "바꾸다 means to replace one thing with another, or to alter something into a different state — money (돈을 바꾸다), seats (자리를 바꾸다), plans (계획을 바꾸다), even your mind (마음을 바꾸다). The dividing line from 고치다 is essential: 바꾸다 ends with a DIFFERENT thing, 고치다 keeps the SAME thing repaired. Returning a defective shirt for a new one is 옷을 바꾸다; mending the torn seam is 옷을 고치다. The destination of the change takes the particle -(으)로: 작은 걸로 바꿔 주세요 ('change it for the small one'). Note also 바뀌다, the intransitive twin: 바꾸다 is 'I change X' (transitive, takes 을/를), while 바뀌다 is 'X changes by itself' (신호등이 바뀌었어요 = 'the light changed') — mixing these up is a frequent error. Conjugation is regular: 바꾸 + 어요 → 바꿔요, past 바꿨어요. English-speaker pitfall: 'change my mind' is 마음을 바꾸다, not 생각을 고치다, and 'change clothes (get dressed)' is 옷을 갈아입다, not 옷을 바꾸다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To replace one thing with another, or to alter something into a different state — money (돈을 바꾸다), seats (자리를 바꾸다), plans (계획을 바꾸다), even your mind (마음을 바꾸다). The destination of the change takes the particle -(으)로: 작은 걸로 바꿔 주세요 ('change it for the small one')."},
+      {"k": "비슷한 말", "e": "VS", "t": "The dividing line from 고치다 is essential: 바꾸다 ends with a DIFFERENT thing, 고치다 keeps the SAME thing repaired. Returning a defective shirt for a new one is 옷을 바꾸다; mending the torn seam is 옷을 고치다. Note also 바뀌다, the intransitive twin: 바꾸다 is 'I change X' (transitive, takes 을/를), while 바뀌다 is 'X changes by itself' (신호등이 바뀌었어요 = 'the light changed') — mixing these up is a frequent error."},
+      {"k": "활용", "e": "FORMS", "t": "Conjugation is regular: 바꾸 + 어요 → 바꿔요 (casual 바꿔), past 바꿨어요.", "chips": ["바꿔", "바꿔요", "바꿨어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "'Change my mind' is 마음을 바꾸다, not 생각을 고치다, and 'change clothes (get dressed)' is 옷을 갈아입다, not 옷을 바꾸다."}
+    ],
+    "mistakes": [
+      "Using 바꾸다 for repairing — fixing the same broken item is 고치다; 바꾸다 means swapping it for a different one.",
+      "Confusing 바꾸다 with 바뀌다 — 바꾸다 needs an object (제가 약속을 바꿨어요), but 'it changed on its own' is 바뀌었어요 with no object.",
+      "Saying 옷을 바꾸다 for 'change clothes/get changed' — that's 옷을 갈아입다; 옷을 바꾸다 means exchange the garment at a store."
+    ],
     "irregular": null
   },
   {
@@ -162,16 +211,28 @@
       "shallWe": "그릴까요?"
     },
     "usage": [
-      ["그림을 그려요.", "I draw a picture.", "Drawing a picture"],
-      ["지도를 그려 주세요.", "Please draw a map.", "Polite request"]
+      ["그림을 그리다", "to draw a picture", "the cognate-object pattern: the noun 그림 ('picture') pairs with its verb 그리다 — 그림을 그려요"],
+      ["약도를 그리다", "to draw a rough map", "약도 = a quick hand-drawn map for directions; very common with 그리다"],
+      ["선을 그리다", "to draw a line", "그리다 covers lines and shapes by hand; 선을 그어요 with 긋다 is also used for ruling a straight line"],
+      ["그림을 잘 그리다", "to draw well", "잘 ('well') goes right before the verb: 그림을 잘 그려요 ('I draw well')"]
     ],
     "examples": [
-      ["아이가 강아지를 그렸어요.", "The child drew a puppy.", "Past action"],
-      ["여기에 간단한 약도를 그려 주세요.", "Please draw a simple map here.", "Polite request"],
-      ["저는 그림을 잘 못 그려요.", "I cannot draw well.", "Unable to do"]
+      ["그림을 그려요.", "I draw a picture.", "Core sentence; stem 그리 + 어요 → 그려요 (이+어 contracts to 여)"],
+      ["아이가 강아지를 그렸어요.", "The child drew a puppy.", "Past tense 그렸어요; the thing drawn takes -을/를"],
+      ["여기에 간단한 약도를 그려 주세요.", "Please draw a simple map here.", "여기에 marks the surface with -에 ('onto here'); 그려 주세요 requests the favor"]
     ],
-    "nuance": "그리다 means drawing pictures or lines by hand, while writing letters and words uses 쓰다 instead.",
-    "mistakes": ["Do not use 쓰다 (write) when you mean drawing."],
+    "nuance": "그리다 means to draw or depict by hand — pictures, sketches, lines, maps (그림을 그리다, 약도를 그리다), and figuratively even to picture something in your mind (미래를 그리다, 'envision the future'). Keep it apart from 쓰다, which is 'to write' letters, words, and text: 글씨를 쓰다 vs 그림을 그리다 — Koreans firmly split writing from drawing, whereas English 'draw' and 'write' both involve a pen. Also distinguish 칠하다 ('to color in / paint a surface', 색을 칠하다) and 긋다 ('to rule a straight line', 줄을 긋다, a ㅅ-irregular). 그리다 itself is a regular 이-stem verb: 그리 + 어요 contracts to 그려요, past 그렸어요. The main English-speaker pitfall is using 쓰다 by analogy for drawing a diagram or 그리다 for writing your name — write your name is 이름을 쓰다, draw a diagram is 그림을/도표를 그리다. Note a homophone caution: 그리다 also exists poetically meaning 'to long for/miss' (그리워하다 is the everyday form), but in daily life 그리다 = draw.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To draw or depict by hand — pictures, sketches, lines, maps (그림을 그리다, 약도를 그리다), and figuratively even to picture something in your mind (미래를 그리다, 'envision the future'). Homophone caution: 그리다 also exists poetically meaning 'to long for/miss' (그리워하다 is the everyday form), but in daily life 그리다 = draw."},
+      {"k": "비슷한 말", "e": "VS", "t": "Keep it apart from 쓰다, which is 'to write' letters, words, and text: 글씨를 쓰다 vs 그림을 그리다 — Koreans firmly split writing from drawing, whereas English 'draw' and 'write' both involve a pen. Also distinguish 칠하다 ('to color in / paint a surface', 색을 칠하다) and 긋다 ('to rule a straight line', 줄을 긋다, a ㅅ-irregular)."},
+      {"k": "활용", "e": "FORMS", "t": "그리다 is a regular 이-stem verb: 그리 + 어요 contracts to 그려요 (casual 그려), past 그렸어요.", "chips": ["그려", "그려요", "그렸어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The main pitfall is using 쓰다 by analogy for drawing a diagram or 그리다 for writing your name — write your name is 이름을 쓰다, draw a diagram is 그림을/도표를 그리다."}
+    ],
+    "mistakes": [
+      "Using 쓰다 ('write') to mean 'draw a picture/diagram' — pictures and maps take 그리다; 쓰다 is only for letters and text.",
+      "Saying 그림을 쓰다 — the fixed pairing is 그림을 그리다 (cognate object); 쓰다 never collocates with 그림.",
+      "Confusing 그리다 'draw' with 칠하다 'color/paint in' — outlining is 그리다, filling with color is 칠하다."
+    ],
     "irregular": null
   },
   {
@@ -197,16 +258,28 @@
       "shallWe": "부를까요?"
     },
     "usage": [
-      ["택시를 불러요.", "I call a taxi.", "Calling a taxi"],
-      ["노래를 불렀어요.", "I sang a song.", "Singing"]
+      ["택시를 부르다", "to call a taxi", "부르다 = summon someone/something to come; 택시를 불러 주세요 ('please call a taxi')"],
+      ["노래를 부르다", "to sing a song", "the fixed idiom for singing — never 노래를 하다 in this sense; 노래를 불러요"],
+      ["이름을 부르다", "to call someone's name", "to call out a name to get attention: 선생님이 이름을 불렀어요"],
+      ["배가 부르다", "to be full (stomach)", "a SEPARATE adjective 부르다 meaning 'full' — 배가 불러요 ('I'm full'), not the 'call' verb"]
     ],
     "examples": [
-      ["사람이 안 와서 큰 소리로 불렀어요.", "Nobody came so I called loudly.", "Past action"],
-      ["택시 좀 불러 주세요.", "Please call a taxi.", "Polite request"],
-      ["우리 같이 노래를 부를까요?", "Shall we sing a song together?", "Making a suggestion"]
+      ["택시를 불러요.", "I call a taxi.", "르-irregular in action: 부르 + 어요 drops ㅡ and doubles ㄹ → 불러요, never 부르어요"],
+      ["사람이 안 와서 큰 소리로 불렀어요.", "Nobody came, so I called out loudly.", "큰 소리로 ('in a loud voice') uses -(으)로 for manner; past 불렀어요"],
+      ["우리 같이 노래를 부를까요?", "Shall we sing a song together?", "부를까요? proposes singing; before 을 the stem stays 부르- (no doubling) → 부를"]
     ],
-    "nuance": "부르다 is a 르 irregular, so the stem changes before 아 or 어 endings and 부르 plus 어요 becomes 불러요, not 부르어요. It means both calling someone and singing.",
-    "mistakes": ["Saying 부르어요 instead of the correct 불러요."],
+    "nuance": "부르다 chiefly means to call/summon someone to come (택시를 부르다, 친구를 부르다), to call out a name (이름을 부르다), and — a key idiom — to sing (노래를 부르다, the standard phrase, not 노래를 하다). Don't confuse it with 전화하다, which is 'to phone': 친구를 불러요 means call your friend over to where you are, while 친구한테 전화해요 means ring them up. It's a textbook 르-irregular: before an 아/어 ending the final ㅡ drops and an extra ㄹ appears, so 부르 + 어요 → 불러요 and past → 불렀어요, but before consonant endings it stays whole (부르고, 부를 거예요, 부릅니다). Two traps: first, learners say 부르어요 — wrong, it must be 불러요. Second, beware the homonym 부르다 'to be full' (배가 부르다), a completely different adjective; 배가 불러요 means 'I'm full', not 'the stomach calls'. Also note honorific contexts: to summon a superior you'd soften with 모시다 ('escort/bring respectfully') rather than bluntly 부르다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Chiefly means to call/summon someone to come (택시를 부르다, 친구를 부르다), to call out a name (이름을 부르다), and — a key idiom — to sing (노래를 부르다, the standard phrase, not 노래를 하다). Beware the homonym 부르다 'to be full' (배가 부르다), a completely different adjective; 배가 불러요 means 'I'm full', not 'the stomach calls'."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse it with 전화하다, which is 'to phone': 친구를 불러요 means call your friend over to where you are, while 친구한테 전화해요 means ring them up. In honorific contexts, to summon a superior you'd soften with 모시다 ('escort/bring respectfully') rather than bluntly 부르다."},
+      {"k": "활용", "e": "FORMS", "t": "A textbook 르-irregular: before an 아/어 ending the final ㅡ drops and an extra ㄹ appears, so 부르 + 어요 → 불러요 and past → 불렀어요, but before consonant endings it stays whole (부르고, 부를 거예요, 부릅니다).", "chips": ["불러요", "불렀어요", "부를 거예요", "부릅니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Learners say 부르어요 — wrong, it must be 불러요."}
+    ],
+    "mistakes": [
+      "Saying 부르어요 — 부르다 is 르-irregular, so the 요-form is 불러요 (ㅡ drops, ㄹ doubles) and the past is 불렀어요.",
+      "Using 노래를 하다 for 'sing a song' — the fixed collocation is 노래를 부르다; 노래하다 exists but 노래를 하다 sounds off.",
+      "Mixing up 부르다 'call' with the adjective 부르다 'full' — 배가 불러요 ('I'm full') is unrelated to summoning someone."
+    ],
     "irregular": "르 irregular"
   },
   {
@@ -232,16 +305,28 @@
       "shallWe": "고를까요?"
     },
     "usage": [
-      ["선물을 골라요.", "I choose a gift.", "Choosing an item"],
-      ["메뉴를 골랐어요.", "I chose the menu.", "Past action"]
+      ["선물을 고르다", "to pick out a gift", "고르다 = pick one from several physical options; 선물을 골라요"],
+      ["마음에 드는 것을 고르다", "to choose the one you like", "마음에 들다 ('to be to one's liking') + 고르다 is a natural pair"],
+      ["메뉴를 고르다", "to choose from the menu", "deciding what to order: 메뉴를 골랐어요 ('I chose what to eat')"],
+      ["하나를 고르다", "to pick one", "the number/quantity you select takes -을/를: 둘 중에 하나를 골라요 ('pick one of the two')"]
     ],
     "examples": [
-      ["가게에서 예쁜 옷을 골랐어요.", "I chose pretty clothes at the store.", "Past action"],
-      ["마음에 드는 것을 골라 주세요.", "Please choose the one you like.", "Polite request"],
-      ["종류가 너무 많아서 못 골라요.", "There are too many types so I cannot choose.", "Unable to do"]
+      ["옷을 골라요.", "I choose clothes.", "르-irregular: 고르 + 아요 drops ㅡ and doubles ㄹ → 골라요, never 고르아요"],
+      ["가게에서 예쁜 옷을 골랐어요.", "I picked out pretty clothes at the store.", "가게에서 uses -에서 for the place of action; past 골랐어요"],
+      ["종류가 너무 많아서 못 골라요.", "There are too many kinds, so I can't choose.", "못 골라요 ('can't choose'); -아서 expresses the cause"]
     ],
-    "nuance": "고르다 is a 르 irregular, so the stem changes before 아 or 어 endings and 고르 plus 아요 becomes 골라요, not 고르아요. It means picking one from several options.",
-    "mistakes": ["Saying 고르아요 instead of the correct 골라요."],
+    "nuance": "고르다 means to choose by picking one (or some) out of a concrete set of options laid before you — clothes on a rack, gifts in a shop, items on a menu. The fine line versus 선택하다 (選擇, a Sino-Korean synonym) is register and abstraction: 고르다 is everyday and hands-on ('grab that one'), while 선택하다 is more formal/written and fits weighty or abstract choices (진로를 선택하다, 'choose a career path'). It also differs from 정하다/결정하다 ('decide, settle'): you 골라요 among visible things, but you 정해요 a date or a plan. As a 르-irregular, before 아/어 the ㅡ drops and ㄹ doubles: 고르 + 아요 → 골라요, past 골랐어요; before consonants it's intact (고르고, 고를게요, 고릅니다). The headline pitfall is 고르아요 (wrong) for 골라요. Also, English 'choose to do something' (a course of action) is NOT 고르다 — say -기로 하다/결정하다; 고르다 needs a tangible thing as its object.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To choose by picking one (or some) out of a concrete set of options laid before you — clothes on a rack, gifts in a shop, items on a menu."},
+      {"k": "비슷한 말", "e": "VS", "t": "The fine line versus 선택하다 (選擇, a Sino-Korean synonym) is register and abstraction: 고르다 is everyday and hands-on ('grab that one'), while 선택하다 is more formal/written and fits weighty or abstract choices (진로를 선택하다, 'choose a career path'). It also differs from 정하다/결정하다 ('decide, settle'): you 골라요 among visible things, but you 정해요 a date or a plan."},
+      {"k": "활용", "e": "FORMS", "t": "As a 르-irregular, before 아/어 the ㅡ drops and ㄹ doubles: 고르 + 아요 → 골라요, past 골랐어요; before consonants it's intact (고르고, 고를게요, 고릅니다).", "chips": ["골라요", "골랐어요", "고를게요", "고릅니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The headline pitfall is 고르아요 (wrong) for 골라요. Also, English 'choose to do something' (a course of action) is NOT 고르다 — say -기로 하다/결정하다; 고르다 needs a tangible thing as its object."}
+    ],
+    "mistakes": [
+      "Saying 고르아요 — as a 르-irregular it becomes 골라요 (ㅡ drops, ㄹ doubles), with past 골랐어요.",
+      "Using 고르다 for abstract decisions like a date or plan — use 정하다/결정하다; 고르다 needs concrete options (옷, 선물, 메뉴).",
+      "Translating 'choose to do' with 고르다 — 'I chose to stay' is 남기로 했어요, not a 고르다 sentence; 고르다 takes a noun object."
+    ],
     "irregular": "르 irregular"
   },
   {
@@ -267,16 +352,28 @@
       "shallWe": "자를까요?"
     },
     "usage": [
-      ["머리를 잘라요.", "I cut my hair.", "Cutting hair"],
-      ["종이를 잘랐어요.", "I cut the paper.", "Past action"]
+      ["머리를 자르다", "to cut/get a haircut", "머리를 잘라요 means cut your hair (often = get it cut at a salon)"],
+      ["반으로 자르다", "to cut in half", "the resulting portion takes -(으)로: 반으로 잘라 주세요 ('cut it in half')"],
+      ["종이를 자르다", "to cut paper", "자르다 is cutting through with a tool (scissors/knife); 가위로 종이를 잘라요"],
+      ["손톱을 자르다", "to cut/clip nails", "everyday grooming collocation: 손톱을 잘라요 ('I clip my nails')"]
     ],
     "examples": [
-      ["미용실에서 머리를 짧게 잘랐어요.", "I cut my hair short at the salon.", "Past action"],
-      ["이 케이크를 반으로 잘라 주세요.", "Please cut this cake in half.", "Polite request"],
-      ["칼이 무뎌서 잘 못 잘라요.", "The knife is dull so I cannot cut well.", "Unable to do"]
+      ["종이를 잘라요.", "I cut the paper.", "르-irregular: 자르 + 아요 drops ㅡ and doubles ㄹ → 잘라요, never 자르아요"],
+      ["미용실에서 머리를 짧게 잘랐어요.", "I got my hair cut short at the salon.", "짧게 ('short', adverb) describes how; past 잘랐어요"],
+      ["이 케이크를 반으로 잘라 주세요.", "Please cut this cake in half.", "반으로 uses -(으)로 for the result; 잘라 주세요 requests the favor"]
     ],
-    "nuance": "자르다 is a 르 irregular, so the stem changes before 아 or 어 endings and 자르 plus 아요 becomes 잘라요, not 자르아요. It means cutting with a tool like scissors or a knife.",
-    "mistakes": ["Saying 자르아요 instead of the correct 잘라요."],
+    "nuance": "자르다 means to cut THROUGH and separate something with a blade or scissors — paper, hair, cake, rope, nails — i.e. to sever into pieces. Distinguish it from 썰다, which is 'to slice' food into many pieces on a board (양파를 썰다, 'chop an onion'), and from 끊다, which is 'to cut off / break' a connection, line, or supply (전화를 끊다 'hang up', 담배를 끊다 'quit smoking') — note 머리를 자르다 (cut hair) but never 머리를 끊다. There's also 깎다 for shaving/peeling/paring (사과를 깎다 'peel an apple', 수염을 깎다 'shave'). It's a 르-irregular: 자르 + 아요 → 잘라요 (ㅡ drops, ㄹ doubles), past 잘랐어요, but consonant endings keep it whole (자르고, 자를게요, 자릅니다). The big pitfall is 자르아요 (wrong) instead of 잘라요. Also, English 'cut prices' or 'cut down' does not map to 자르다 — reducing an amount is 줄이다, and cutting off a service is 끊다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To cut THROUGH and separate something with a blade or scissors — paper, hair, cake, rope, nails — i.e. to sever into pieces."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it from 썰다, which is 'to slice' food into many pieces on a board (양파를 썰다, 'chop an onion'), and from 끊다, which is 'to cut off / break' a connection, line, or supply (전화를 끊다 'hang up', 담배를 끊다 'quit smoking') — note 머리를 자르다 (cut hair) but never 머리를 끊다. There's also 깎다 for shaving/peeling/paring (사과를 깎다 'peel an apple', 수염을 깎다 'shave')."},
+      {"k": "활용", "e": "FORMS", "t": "It's a 르-irregular: 자르 + 아요 → 잘라요 (ㅡ drops, ㄹ doubles), past 잘랐어요, but consonant endings keep it whole (자르고, 자를게요, 자릅니다).", "chips": ["잘라요", "잘랐어요", "자를게요", "자릅니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The big pitfall is 자르아요 (wrong) instead of 잘라요. Also, English 'cut prices' or 'cut down' does not map to 자르다 — reducing an amount is 줄이다, and cutting off a service is 끊다."}
+    ],
+    "mistakes": [
+      "Saying 자르아요 — being 르-irregular it becomes 잘라요 (ㅡ drops, ㄹ doubles), past 잘랐어요.",
+      "Using 자르다 for 'hang up the phone' or 'quit smoking' — severing a connection/habit is 끊다 (전화를 끊다, 담배를 끊다), not 자르다.",
+      "Confusing 자르다 with 썰다 when chopping food — slicing veggies on a board is 썰다 (양파를 썰다); 자르다 is a single cut-through."
+    ],
     "irregular": "르 irregular"
   },
   {
@@ -302,16 +399,29 @@
       "shallWe": "정할까요?"
     },
     "usage": [
-      ["날짜를 정해요.", "I decide the date.", "Setting a date"],
-      ["약속 장소를 정했어요.", "I decided the meeting place.", "Past action"]
+      ["날짜를 정하다", "to set a date", "정하다 fixes a concrete arrangement; 날짜를 정해요 ('let's decide the date')"],
+      ["약속 장소를 정하다", "to decide the meeting place", "장소(場所, 'place') + 정하다 is a standard pairing for planning"],
+      ["규칙을 정하다", "to set a rule", "정하다 also means 'establish/lay down' rules: 규칙을 정해요"],
+      ["마음을 정하다", "to make up one's mind", "the idiom for settling on a decision internally — 마음을 정했어요"]
     ],
     "examples": [
-      ["우리 만날 시간을 먼저 정해요.", "Let us decide our meeting time first.", "Suggestion"],
-      ["메뉴를 빨리 정해 주세요.", "Please decide the menu quickly.", "Polite request"],
-      ["아직 휴가 날짜를 못 정해요.", "I cannot decide the vacation date yet.", "Unable to do"]
+      ["시간을 정해요.", "I set the time.", "Single 하다-verb (no separable noun), so it's regular: 정하 + 여요 → 정해요"],
+      ["우리 만날 시간을 먼저 정해요.", "Let's decide our meeting time first.", "먼저 ('first') sequences the action; 만날 is the future-modifier 'to meet'"],
+      ["아직 휴가 날짜를 못 정했어요.", "I haven't been able to decide my vacation dates yet.", "아직 + past = 'not yet'; 못 정했어요 ('couldn't decide')"]
     ],
-    "nuance": "정하다 means to settle or fix a choice such as a date or place, while 결정하다 sounds a bit more formal for big decisions.",
-    "mistakes": ["Do not split 정하다; say 안 정해요, not 정 안 해요."],
+    "nuance": "정하다 (定하다, 定 'fix/settle') means to settle on and pin down a choice — a date, place, rule, or one's own mind — turning something open into something fixed. Its close synonym 결정하다 (決定, 'decide') leans more formal and weightier (회의에서 결정했어요, 'we decided in the meeting'), whereas 정하다 is the lighter everyday word for arranging plans (시간 정하자, 'let's set a time'). Don't confuse it with 고르다/선택하다 ('choose'): you 골라요 one item from several visible options, but you 정해요 an arrangement or commitment. Unlike the separable noun+하다 verbs (요리하다 → 요리 안 해요), here 정 is bound, so 안/못 go in FRONT: 안 정해요, 못 정해요 — saying 정 안 해요 is wrong. Conjugation: 정하 + 여요 → 정해요, past 정했어요. English-speaker pitfall: 'decide TO do something' is best rendered with -기로 하다 (가기로 했어요, 'decided to go'), not 정하다 alone; 정하다 wants a noun object like 날짜를/장소를.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To settle on and pin down a choice — a date, place, rule, or one's own mind — turning something open into something fixed."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its close synonym 결정하다 (決定, 'decide') leans more formal and weightier (회의에서 결정했어요, 'we decided in the meeting'), whereas 정하다 is the lighter everyday word for arranging plans (시간 정하자, 'let's set a time'). Don't confuse it with 고르다/선택하다 ('choose'): you 골라요 one item from several visible options, but you 정해요 an arrangement or commitment."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "定하다 — 定 'fix/settle'."},
+      {"k": "활용", "e": "FORMS", "t": "Unlike the separable noun+하다 verbs (요리하다 → 요리 안 해요), here 정 is bound, so 안/못 go in FRONT: 안 정해요, 못 정해요 — saying 정 안 해요 is wrong. Conjugation: 정하 + 여요 → 정해요, past 정했어요.", "chips": ["정해요", "정했어요", "안 정해요", "못 정해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "'Decide TO do something' is best rendered with -기로 하다 (가기로 했어요, 'decided to go'), not 정하다 alone; 정하다 wants a noun object like 날짜를/장소를."}
+    ],
+    "mistakes": [
+      "Splitting it as 정 안 해요 — unlike 요리하다, the 정 in 정하다 is a bound Sino-root, so the negative is 안 정해요 and 못 정해요.",
+      "Using 정하다 for 'choose an item' — picking one of several is 고르다/선택하다; 정하다 is for settling an arrangement (date, place, plan).",
+      "Saying 가기를 정했어요 for 'I decided to go' — the natural form is 가기로 했어요 (-기로 하다); 정하다 takes a noun, not this clause."
+    ],
     "irregular": null
   },
   {
@@ -337,16 +447,29 @@
       "shallWe": "신청할까요?"
     },
     "usage": [
-      ["수업을 신청해요.", "I apply for the class.", "Registering for a class"],
-      ["카드를 신청했어요.", "I applied for the card.", "Past action"]
+      ["수업을 신청하다", "to register for a class", "신청하다 = formally sign up/apply via a form or system; 수업을 신청해요"],
+      ["장학금을 신청하다", "to apply for a scholarship", "money/benefits you apply for take -을/를: 장학금을 신청했어요"],
+      ["인터넷으로 신청하다", "to apply online", "the means takes -(으)로: 인터넷으로 신청해요 ('apply via the internet')"],
+      ["신청서를 쓰다", "to fill out an application form", "신청서(申請書) is the form itself; you 써요(write) the 신청서 to 신청하다"]
     ],
     "examples": [
-      ["인터넷으로 장학금을 신청했어요.", "I applied for the scholarship online.", "Past action"],
-      ["이 강의를 같이 신청할까요?", "Shall we apply for this lecture together?", "Making a suggestion"],
-      ["기한이 지나서 지금은 신청 못 해요.", "The deadline passed so I cannot apply now.", "Unable to do"]
+      ["수업을 신청해요.", "I register for a class.", "Noun+하다 compound; the thing applied for takes -을/를, verb 신청해요"],
+      ["인터넷으로 장학금을 신청했어요.", "I applied for the scholarship online.", "-(으)로 for the method; past 신청했어요"],
+      ["기한이 지나서 지금은 신청 못 해요.", "The deadline passed, so I can't apply now.", "기한이 지나다 = 'deadline passes'; 못 splits as 신청 못 해요"]
     ],
-    "nuance": "신청하다 means to formally apply or sign up for something like a class or card, often through a form or website.",
-    "mistakes": ["Do not confuse 신청하다 (apply) with 부탁하다 (request a favor)."],
+    "nuance": "신청하다 (申請하다, 申 'state/report' + 請 'request') means to formally apply, sign up, or put in a request through a proper channel — a class, a card, a scholarship, a subsidy — usually involving a form (신청서) or an online system. Distinguish it carefully from 부탁하다 ('ask a personal favor', 친구한테 부탁해요) and from 지원하다 (志願/支援): 지원하다 is 'apply' for a job or school admission (회사에 지원하다, 'apply to a company'), with a sense of volunteering yourself, whereas 신청하다 is 'apply for / request' a service, slot, or benefit that's offered. As a separable noun+하다 verb, 안/못 wedge before 하다: 신청 안 해요, 신청 못 해요. Conjugation is regular: 신청하 + 여요 → 신청해요, past 신청했어요. English-speaker pitfall: don't use 신청하다 for applying to a job/university — Koreans say 지원하다 there; and don't confuse the everyday 'ask someone to do me a favor' (부탁하다) with the institutional 신청하다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To formally apply, sign up, or put in a request through a proper channel — a class, a card, a scholarship, a subsidy — usually involving a form (신청서) or an online system."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it carefully from 부탁하다 ('ask a personal favor', 친구한테 부탁해요) and from 지원하다 (志願/支援): 지원하다 is 'apply' for a job or school admission (회사에 지원하다, 'apply to a company'), with a sense of volunteering yourself, whereas 신청하다 is 'apply for / request' a service, slot, or benefit that's offered."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "申請하다 — 申 'state/report' + 請 'request'."},
+      {"k": "활용", "e": "FORMS", "t": "As a separable noun+하다 verb, 안/못 wedge before 하다: 신청 안 해요, 신청 못 해요. Conjugation is regular: 신청하 + 여요 → 신청해요, past 신청했어요.", "chips": ["신청해요", "신청했어요", "신청 안 해요", "신청 못 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Don't use 신청하다 for applying to a job/university — Koreans say 지원하다 there; and don't confuse the everyday 'ask someone to do me a favor' (부탁하다) with the institutional 신청하다."}
+    ],
+    "mistakes": [
+      "Using 신청하다 for a job or college application — that's 지원하다 (회사에 지원해요); 신청하다 is for services, classes, cards, benefits.",
+      "Confusing it with 부탁하다 — asking a friend for a favor is 부탁하다; 신청하다 is a formal request through a system or form.",
+      "Saying 못 신청해요 — as a noun+하다 compound the negative is 신청 못 해요 / 신청 안 해요 (the split goes before 하다)."
+    ],
     "irregular": null
   },
   {
@@ -372,16 +495,29 @@
       "shallWe": "확인할까요?"
     },
     "usage": [
-      ["이메일을 확인해요.", "I check my email.", "Checking messages"],
-      ["예약을 확인했어요.", "I confirmed the reservation.", "Past action"]
+      ["이메일을 확인하다", "to check email", "확인하다 = verify/confirm the content; 이메일을 확인해요"],
+      ["예약을 확인하다", "to confirm a reservation", "확인하다 covers 'confirm something is in order': 예약을 확인했어요"],
+      ["-는지 확인하다", "to check whether ...", "with an embedded question: 맞는지 확인해 주세요 ('check whether it's right')"],
+      ["다시 한번 확인하다", "to double-check", "다시 한번 ('once more') is a stock partner: 다시 한번 확인해 주세요"]
     ],
     "examples": [
-      ["출발하기 전에 시간을 확인해야 해요.", "I must check the time before leaving.", "Expressing obligation"],
-      ["이 주소가 맞는지 확인해 주세요.", "Please check whether this address is correct.", "Polite request"],
-      ["휴대폰이 없어서 지금 확인 못 해요.", "I do not have my phone so I cannot check now.", "Unable to do"]
+      ["이메일을 확인해요.", "I check my email.", "Noun+하다 compound, regular: stem 확인하 + 여요 → 확인해요"],
+      ["출발하기 전에 시간을 확인해야 해요.", "I have to check the time before leaving.", "-기 전에 ('before doing'); 확인해야 해요 expresses obligation"],
+      ["이 주소가 맞는지 확인해 주세요.", "Please check whether this address is correct.", "-는지 embeds the yes/no question; 확인해 주세요 requests the favor"]
     ],
-    "nuance": "확인하다 means to check or confirm that something is correct, covering facts, reservations, and messages alike.",
-    "mistakes": ["Do not confuse 확인하다 (check) with 찾다 (look for)."],
+    "nuance": "확인하다 (確認하다, 確 'certain/firm' + 認 'recognize') means to check, verify, or confirm that something is correct or true — facts, times, reservations, messages — making sure reality matches what you expect. The crucial contrast is with 찾다, which English 'check' can blur: 찾다 is 'to look FOR / search' something not yet located (열쇠를 찾다, 'look for the keys'), whereas 확인하다 is 'to verify' something you can already see (열쇠가 있는지 확인하다, 'check whether the keys are there'). It also differs from 알아보다 ('look into/inquire to find out', 가격을 알아보다). It's a regular noun+하다 verb: 확인하 + 여요 → 확인해요, past 확인했어요, with 안/못 splitting before 하다 (확인 안 해요, 확인 못 해요). English-speaker pitfall: 'check the box' or 'check off' is NOT 확인하다 — ticking a box is 체크하다/표시하다; and 'check out a book/check out (a hotel)' uses 빌리다 or 체크아웃하다, not 확인하다, which strictly means 'verify/confirm'.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To check, verify, or confirm that something is correct or true — facts, times, reservations, messages — making sure reality matches what you expect."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial contrast is with 찾다, which English 'check' can blur: 찾다 is 'to look FOR / search' something not yet located (열쇠를 찾다, 'look for the keys'), whereas 확인하다 is 'to verify' something you can already see (열쇠가 있는지 확인하다, 'check whether the keys are there'). It also differs from 알아보다 ('look into/inquire to find out', 가격을 알아보다)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "確認하다 — 確 'certain/firm' + 認 'recognize'."},
+      {"k": "활용", "e": "FORMS", "t": "It's a regular noun+하다 verb: 확인하 + 여요 → 확인해요, past 확인했어요, with 안/못 splitting before 하다 (확인 안 해요, 확인 못 해요).", "chips": ["확인해요", "확인했어요", "확인 안 해요", "확인 못 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "'Check the box' or 'check off' is NOT 확인하다 — ticking a box is 체크하다/표시하다; and 'check out a book/check out (a hotel)' uses 빌리다 or 체크아웃하다, not 확인하다, which strictly means 'verify/confirm'."}
+    ],
+    "mistakes": [
+      "Using 확인하다 for 'look for/search' — finding something lost is 찾다 (지갑을 찾다); 확인하다 verifies something you can already check.",
+      "Saying 확인하다 for 'check (tick) a box' — that's 체크하다/표시하다; 확인하다 means confirm/verify, not mark.",
+      "Splitting as 못 확인해요 — the standard negative for a noun+하다 verb is 확인 못 해요 / 확인 안 해요."
+    ],
     "irregular": null
   },
   {
@@ -407,16 +543,29 @@
       "shallWe": "취소할까요?"
     },
     "usage": [
-      ["예약을 취소해요.", "I cancel the reservation.", "Canceling a booking"],
-      ["주문을 취소했어요.", "I canceled the order.", "Past action"]
+      ["예약을 취소하다", "to cancel a reservation", "취소하다 undoes a booking/order; 예약을 취소해요"],
+      ["주문을 취소하다", "to cancel an order", "online shopping staple: 주문을 취소했어요 ('I canceled the order')"],
+      ["약속을 취소하다", "to cancel an appointment", "약속(promise/appointment) + 취소하다 — calling off a plan with someone"],
+      ["취소 수수료", "cancellation fee", "수수료('fee') pairs with 취소 as a noun phrase you'll meet when canceling bookings"]
     ],
     "examples": [
-      ["일이 생겨서 약속을 취소했어요.", "Something came up so I canceled the appointment.", "Past action"],
-      ["이 주문을 취소해 주세요.", "Please cancel this order.", "Polite request"],
-      ["이미 결제해서 지금은 취소 못 해요.", "I already paid so I cannot cancel now.", "Unable to do"]
+      ["예약을 취소해요.", "I cancel the reservation.", "Noun+하다 compound, regular: stem 취소하 + 여요 → 취소해요"],
+      ["일이 생겨서 약속을 취소했어요.", "Something came up, so I canceled the appointment.", "일이 생기다 = 'something comes up'; -아서 gives the reason; past 취소했어요"],
+      ["이미 결제해서 지금은 취소 못 해요.", "I already paid, so I can't cancel now.", "이미 ('already') + past reason; 못 splits as 취소 못 해요"]
     ],
-    "nuance": "취소하다 means to cancel a reservation, order, or plan, so it is the natural opposite of making or booking something.",
-    "mistakes": ["Do not confuse 취소하다 (cancel) with 그만두다 (quit)."],
+    "nuance": "취소하다 (取消하다, 取 'take' + 消 'extinguish/erase') means to cancel — to call off or undo something already arranged: a reservation, an order, an appointment, a plan. The neat way to remember it: it's the natural opposite of 예약하다/신청하다 (book/apply). Distinguish it from 그만두다, which is 'to quit/stop' an ongoing activity or job (회사를 그만두다, 'quit the company'; 운동을 그만두다, 'stop exercising'): you 취소해요 a future arrangement, but you 그만둬요 something already in progress. It also differs from 미루다 ('postpone', 약속을 미루다, push the appointment later rather than scrap it) — canceling removes it, postponing reschedules it. As a noun+하다 verb it's regular: 취소하 + 여요 → 취소해요, past 취소했어요, with 안/못 before 하다 (취소 안 해요, 취소 못 해요). English-speaker pitfall: 'cancel my subscription / unsubscribe' is more often 해지하다 (解止, end a contract) than 취소하다, and don't use 취소하다 for 'quit a job' — that's 그만두다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To cancel — to call off or undo something already arranged: a reservation, an order, an appointment, a plan. The neat way to remember it: it's the natural opposite of 예약하다/신청하다 (book/apply)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it from 그만두다, which is 'to quit/stop' an ongoing activity or job (회사를 그만두다, 'quit the company'; 운동을 그만두다, 'stop exercising'): you 취소해요 a future arrangement, but you 그만둬요 something already in progress. It also differs from 미루다 ('postpone', 약속을 미루다, push the appointment later rather than scrap it) — canceling removes it, postponing reschedules it."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "取消하다 — 取 'take' + 消 'extinguish/erase'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it's regular: 취소하 + 여요 → 취소해요, past 취소했어요, with 안/못 before 하다 (취소 안 해요, 취소 못 해요).", "chips": ["취소해요", "취소했어요", "취소 안 해요", "취소 못 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "'Cancel my subscription / unsubscribe' is more often 해지하다 (解止, end a contract) than 취소하다, and don't use 취소하다 for 'quit a job' — that's 그만두다."}
+    ],
+    "mistakes": [
+      "Using 취소하다 for 'quit a job/activity' — quitting something ongoing is 그만두다; 취소하다 calls off a future arrangement (booking, order, plan).",
+      "Confusing 취소하다 with 미루다 — canceling removes the plan, but 미루다 only postpones it: 약속을 미뤘어요 ('I pushed it back').",
+      "Saying 못 취소해요 — the noun+하다 negative is 취소 못 해요 / 취소 안 해요 (split goes before 하다)."
+    ],
     "irregular": null
   }
 ]

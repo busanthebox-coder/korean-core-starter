@@ -1,0 +1,160 @@
+[
+  {
+    "id": "convo-favor-close-friend",
+    "title": "Asking a close friend for a favor",
+    "situation": "Your phone is about to die and you forgot your charger. You text a close friend to borrow theirs, ask for yesterday's class notes, and sheepishly borrow a little cash for the bus.",
+    "setting": "texting",
+    "partner": "친구",
+    "tip": "With close friends, open with 부탁이 있는데 to flag the request, then soften with 미안한데 + a ~줄 수 있어? question. 반말 plus a casual 좀 makes it feel light, not demanding.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "어 왜? 무슨 일 있어?",
+        "en": "Oh hey, what's up? Something going on?"
+      },
+      {
+        "role": "you",
+        "prompt": "Flag that you have a favor to ask before getting into it.",
+        "choices": [
+          { "ko": "어 부탁이 있는데… 들어줄 수 있어?", "en": "Hey, I've got a favor to ask… could you do it for me?" },
+          { "ko": "부탁 하나 해라.", "en": "Do me a favor. (sounds like an order)" },
+          { "ko": "혹시 부탁 좀 드려도 될까요?", "en": "Might I trouble you for a favor? (too formal for a close friend)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "응 말해 봐, 뭔데?",
+        "en": "Sure, go ahead, what is it?"
+      },
+      {
+        "role": "you",
+        "prompt": "Explain your phone is dying and ask to borrow their charger, softening it.",
+        "choices": [
+          { "ko": "미안한데 폰이 거의 죽어가서… 충전기 좀 빌려줄 수 있어?", "en": "Sorry to ask, my phone's almost dead… could you lend me your charger?" },
+          { "ko": "충전기 내놔, 폰 죽어.", "en": "Hand over your charger, my phone's dying. (rude/demanding)" },
+          { "ko": "충전기 있어?", "en": "Do you have a charger? (abrupt, leaves out the actual request)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아 그럼! 내 가방에 보조배터리도 있어. 이따 만날 때 줄게. 또 필요한 거 없어?",
+        "en": "Oh, of course! I've got a power bank in my bag too. I'll give it to you when we meet. Anything else you need?"
+      },
+      {
+        "role": "you",
+        "prompt": "Ask them to also bring yesterday's class notes for you.",
+        "choices": [
+          { "ko": "오 진짜? 고마워!! 아 그리고 어제 수업 필기도 좀 갖다줄 수 있어?", "en": "Oh really? Thank you!! Oh and could you also bring yesterday's class notes?" },
+          { "ko": "당연히 필기도 가져와야지.", "en": "Obviously you have to bring the notes too. (entitled tone)" },
+          { "ko": "필기 안 가져오면 안 돼.", "en": "Don't you dare not bring the notes. (pushy)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋ 알겠어 필기도 챙겨 갈게. 진짜 다른 건 없고?",
+        "en": "Lol okay, I'll grab the notes too. You sure there's nothing else?"
+      },
+      {
+        "role": "you",
+        "prompt": "Sheepishly ask to borrow a little cash for the bus since you left your card at home, and promise to pay it back.",
+        "choices": [
+          { "ko": "헐 진짜 미안한데… 나 카드를 집에 두고 와서 버스비 만 원만 빌려줄 수 있어? 이따 바로 보낼게", "en": "Ugh I'm really sorry… I left my card at home, could you lend me just 10,000 won for the bus? I'll send it right back" },
+          { "ko": "돈 좀 빌려줘, 만 원.", "en": "Lend me some money, 10,000 won. (blunt, no softening)" },
+          { "ko": "만 원 있지? 그냥 줘.", "en": "You've got 10,000 won, right? Just give it to me. (demanding)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "괜찮아 ㅋㅋ 이따 보내. 만날 때 다 챙겨 갈게!",
+        "en": "It's fine lol, send it later. I'll bring everything when we meet!"
+      }
+    ],
+    "vocab": [
+      { "ko": "부탁", "en": "a favor / request" },
+      { "ko": "빌려주다", "en": "to lend" },
+      { "ko": "충전기", "en": "charger" },
+      { "ko": "보조배터리", "en": "power bank" },
+      { "ko": "필기", "en": "(class) notes" },
+      { "ko": "덕분에", "en": "thanks to (you)" }
+    ]
+  },
+  {
+    "id": "convo-favor-coworker-neighbor",
+    "title": "Politely asking a coworker a favor",
+    "situation": "You have to leave the office early for an appointment, so you politely ask a coworker if they could pass a document to the team lead and cover a client call while you're out.",
+    "setting": "in person",
+    "partner": "직장 동료",
+    "tip": "In 존댓말, lead with 혹시 부탁 좀 드려도 될까요? to ask permission first, then 죄송하지만 + ~해 주실 수 있을까요? for the actual request. 혹시 and 좀 are the magic softeners.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "네, 무슨 일 있으세요?",
+        "en": "Yes, is something the matter?"
+      },
+      {
+        "role": "you",
+        "prompt": "Politely ask permission to make a request before explaining.",
+        "choices": [
+          { "ko": "혹시 부탁 하나만 드려도 될까요?", "en": "Could I possibly ask you a favor?" },
+          { "ko": "부탁 하나 들어줘요.", "en": "Do me a favor. (too blunt for a coworker)" },
+          { "ko": "부탁이 있는데 들어줄 수 있어?", "en": "I've got a favor, can you do it? (반말 — too casual at work)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그럼요, 말씀하세요.",
+        "en": "Of course, go ahead."
+      },
+      {
+        "role": "you",
+        "prompt": "Explain you have to leave early and ask if they could pass a document to the team lead.",
+        "choices": [
+          { "ko": "제가 오늘 좀 일찍 나가야 해서요. 죄송하지만 이 서류를 팀장님께 좀 전달해 주실 수 있을까요?", "en": "I have to leave a bit early today. I'm sorry to ask, but could you pass this document to the team lead for me?" },
+          { "ko": "저 먼저 갈게요. 이거 팀장님 주세요.", "en": "I'm heading out first. Give this to the team lead. (curt, no softening)" },
+          { "ko": "이 서류 좀 전달해. 나 가야 돼.", "en": "Pass this document along. I gotta go. (반말, ordering)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아, 네. 그건 어렵지 않아요. 언제까지 드리면 될까요?",
+        "en": "Oh, sure. That's not hard at all. By when should I give it to them?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say before the 3 o'clock meeting is fine, and add a second small request to answer a call if a client phones.",
+        "choices": [
+          { "ko": "3시 회의 전에만 드리면 돼요. 그리고 혹시 거래처에서 전화 오면 대신 좀 받아 주실 수 있을까요?", "en": "Just before the 3 o'clock meeting is fine. And if a client happens to call, could you possibly answer it for me?" },
+          { "ko": "회의 전에. 전화도 네가 받아.", "en": "Before the meeting. You answer the phone too. (반말, bossy)" },
+          { "ko": "아무 때나요. 전화는 알아서 하세요.", "en": "Whenever. Just deal with the phone yourself. (dismissive)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "전화는 제가 받을게요. 그런데 거래처 건은 제가 내용을 잘 몰라서, 메모만 남겨 둬도 될까요?",
+        "en": "I'll take the call. But I don't really know the details of the client matter, so would it be okay if I just leave a note?"
+      },
+      {
+        "role": "you",
+        "prompt": "Graciously accept their limit, make it easy for them, and thank them sincerely.",
+        "choices": [
+          { "ko": "그럼요, 메모만 남겨 주셔도 충분해요. 무리한 부탁 드려서 죄송하고, 정말 감사합니다. 다음에 꼭 보답할게요!", "en": "Of course, just a note is more than enough. Sorry for asking so much, and thank you so much. I'll definitely return the favor next time!" },
+          { "ko": "아니요, 꼭 통화하고 처리해 주셔야 돼요.", "en": "No, you absolutely have to handle it on the call. (pushy, ignores their limit)" },
+          { "ko": "메모요? 그건 좀 곤란한데.", "en": "A note? That's kind of a problem. (ungracious)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아니에요, 이 정도는 괜찮아요. 일 잘 보고 오세요.",
+        "en": "Not at all, this much is fine. Take care of your appointment."
+      }
+    ],
+    "vocab": [
+      { "ko": "혹시", "en": "by any chance / possibly (softener)" },
+      { "ko": "전달하다", "en": "to pass on / deliver" },
+      { "ko": "거래처", "en": "client / business contact" },
+      { "ko": "무리한 부탁", "en": "an unreasonable / big favor" },
+      { "ko": "보답하다", "en": "to repay (a kindness)" },
+      { "ko": "다녀오다", "en": "to go and come back" }
+    ]
+  }
+]

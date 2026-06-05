@@ -5,20 +5,20 @@
     "romanization": "il, i, sam (Sino-Korean numbers)",
     "title": "Sino-Korean Numbers",
     "plainEnglish": "The number set borrowed from Chinese — used for dates, money, minutes, phone numbers, and most measured amounts.",
-    "whenToUse": "Use Sino-Korean numbers for dates (삼월 오일), money (오천 원), minutes (십 분), phone numbers, floors, bus numbers, and counting above 100. Example: 1,234 = 천이백삼십사.",
+    "whenToUse": "Reach for Sino-Korean numbers whenever you read something off a measured scale rather than counting items one by one: dates (삼월 오일 = March 5), money (오천 원 = 5,000 won), minutes (십 분 = 10 minutes), phone numbers (공일공 = 010), floors (삼 층), apartment/room numbers, bus and subway line numbers (이 호선 = Line 2), and any quantity in the hundreds, thousands, or above. The intent is 'I'm naming a number on a system,' not 'I'm tallying objects in front of me.' Mnemonic: if it's written on a price tag, a clock face's minute side, a calendar, or a sign, it's almost always Sino. Example: 1,234 = 천이백삼십사.",
     "attachmentRule": "0 영/공, 1 일, 2 이, 3 삼, 4 사, 5 오, 6 육, 7 칠, 8 팔, 9 구, 10 십, 100 백, 1,000 천, 10,000 만, 억 (100 million). Build by place value: 23 = 이십삼 (2·10 + 3), 405 = 사백오, 30,000 = 삼만. Korean groups large numbers by 10,000 (만), not 1,000.",
-    "contrastWith": "Do NOT mix with native numbers (하나, 둘…). Money, dates, and minutes are always Sino; hours and counting objects are native. So 7:07 is 일곱(native) 시 칠(Sino) 분.",
+    "contrastWith": "Sharp contrast vs NATIVE numbers (하나, 둘, 셋…): Sino numbers measure (money, dates, minutes, page/floor numbers), native numbers count discrete things and people. The dividing line is brutal inside one clock phrase — the HOUR takes native but the MINUTE takes Sino, so 7:07 is 일곱(native) 시 칠(Sino) 분, the SAME digit said two different ways. A second contrast: 영 vs 공 for zero — 영 is the abstract math/temperature zero (영 점 = zero point, 영하 = below zero), but in phone numbers and room numbers Koreans say 공 (공일공 = 010). Mixing these (saying 영일영 for a phone number) instantly marks you as a non-native.",
     "sentenceFrames": ["오늘은 ___월 ___일이에요.", "이거 ___ 원이에요.", "지금 ___시 ___분이에요."],
     "examples": [
+      { "ko": "이거 얼마예요? 오천 원이에요.", "romanization": "", "en": "How much is this? It's 5,000 won." },
       { "ko": "오늘은 삼월 십오일이에요.", "romanization": "", "en": "Today is March 15th." },
-      { "ko": "이거 얼마예요? 사천 원이에요.", "romanization": "", "en": "How much is this? It's 4,000 won." },
-      { "ko": "제 전화번호는 공일공에 이삼사오예요.", "romanization": "", "en": "My phone number is 010-2345..." },
-      { "ko": "시험이 십일월에 있어요.", "romanization": "", "en": "The exam is in November." }
+      { "ko": "제 전화번호는 공일공에 이삼사오 육칠팔구예요.", "romanization": "", "en": "My phone number is 010-2345-6789." },
+      { "ko": "다 합쳐서 천이백삼십사 원이에요.", "romanization": "", "en": "Altogether it's 1,234 won." }
     ],
     "commonMistakes": [
-      "Saying 십천 for 10,000 — it is 만 (or 일만).",
-      "Reading minutes with native numbers — minutes are Sino: 삼십 분, not 서른 분.",
-      "Forgetting that 6 (육) nasalizes after ㄴ/ㅁ and in 육월 → it becomes 유월 for June."
+      "Saying 십천 for 10,000 by translating 'ten-thousand' literally — wrong because Korean has a dedicated unit 만 for 10,000, so it is 만 (or 일만). Likewise 100,000 is 십만 (ten 만), not 백천.",
+      "Reading minutes with native numbers (서른 분 for 30 minutes) — wrong because 분 'minute' is a Sino counter; the correct form is 삼십 분. (Be careful: 분 meaning 'person/honorific' DOES take native — 두 분 — but the time-unit 분 is Sino.)",
+      "Saying 육월 for June and 십월 for October — wrong because of sound-erosion: 6 (육) loses its ㄱ before 월 to become 유월, and 10 (십) loses its ㅂ to become 시월. Every other month is regular (삼월, 칠월, 십일월)."
     ],
     "practiceItems": [
       { "prompt": "15 (Sino)", "ko": "십오", "answer": "십오" },
@@ -26,7 +26,7 @@
       { "prompt": "7,000 won", "ko": "칠천 원", "answer": "칠천 원" }
     ],
     "studyOrder": ["Memorize 일~십 plus 백·천·만", "Build tens and hundreds by place value", "Practice dates, money, and minutes", "Watch 만-grouping for big numbers"],
-    "beginnerExplanation": "Korean has TWO number systems, and this is the 'Chinese-origin' one. You will use it constantly: every price, date, minute, and phone number is read with these. Learn 일 to 십 first, then 백 (100), 천 (1,000), 만 (10,000). To say bigger numbers you just stack place values: 이십삼 is literally 'two-ten-three' = 23. One surprise for English speakers: Korean counts big numbers in groups of 10,000 (만), so 30,000 is 삼만, not 'thirty-thousand'."
+    "beginnerExplanation": "Korean has TWO number systems, and this is the 'Chinese-origin' one (한자어, literally 'Chinese-character words'). You will use it constantly: every price, date, minute, and phone number is read with these. Learn 일 to 십 first, then 백 (100), 천 (1,000), 만 (10,000). To say bigger numbers you just STACK place values like LEGO bricks: 이십삼 is literally 'two-ten-three' = 23, and 사백오 is 'four-hundred-five' = 405. One big surprise for English speakers: Korean counts large numbers in groups of 10,000 (만), not 1,000. So picture re-drawing the commas every FOUR digits instead of three — 30,000 becomes 삼만 (three 만), and 1,000,000 is 백만 (hundred 만), not 'a thousand thousands.'"
   },
   {
     "id": "grammar-foundation-numbers-native",
@@ -34,20 +34,20 @@
     "romanization": "hana, dul, set (native Korean numbers)",
     "title": "Native Korean Numbers",
     "plainEnglish": "The original Korean number set — used for counting things and people, ages, and the hour of the clock.",
-    "whenToUse": "Use native numbers to count objects (사과 세 개), people (두 명), animals (한 마리), age (스무 살), and hours (네 시). They are common from 1 to 99.",
+    "whenToUse": "Reach for native numbers whenever you are physically tallying discrete items or people in front of you, or stating an age or the hour: counting objects (사과 세 개 = three apples), people (두 명 = two people), animals (한 마리 = one animal), age (스무 살 = 20 years old), and the o'clock hour (네 시 = four o'clock). The intent is 'I'm counting these one, two, three,' not 'I'm reading a number off a scale.' They run 1 to 99 in daily speech; above about 100, even counting switches to Sino (백 개, 이백 명). Mnemonic: if you could point at each thing as you count, it's native.",
     "attachmentRule": "하나 1, 둘 2, 셋 3, 넷 4, 다섯 5, 여섯 6, 일곱 7, 여덟 8, 아홉 9, 열 10; 스물 20, 서른 30, 마흔 40, 쉰 50, 예순 60, 일흔 70, 여든 80, 아흔 90. IMPORTANT: before a counter, 1–4 and 20 shorten: 하나→한, 둘→두, 셋→세, 넷→네, 스물→스무. So 한 개, 두 명, 세 시, 네 살, 스무 살.",
-    "contrastWith": "vs Sino numbers (일, 이…). Hours use native (다섯 시) but minutes use Sino (오 분). Age uses native (스무 살); a year/date uses Sino. Above ~100, Korean switches to Sino.",
+    "contrastWith": "Sharp contrast vs SINO numbers (일, 이, 삼…): native = counting/age/hour, Sino = measuring/money/date/minute. The two collide most painfully on the clock: the HOUR is native (다섯 시 = five o'clock) but the MINUTE right after is Sino (오 분 = five minutes). A second contrast English speakers miss — AGE vs YEAR: your age is native (스무 살 = 20 years old) but a calendar year is Sino (이천이십오 년 = the year 2025). Same English word 'year,' two different number systems depending on whether you mean a duration-of-life count (살) or a point on the calendar (년).",
     "sentenceFrames": ["사과 ___ 개 주세요.", "저는 ___ 살이에요.", "지금 ___ 시예요."],
     "examples": [
       { "ko": "사과 세 개 주세요.", "romanization": "", "en": "Three apples, please." },
-      { "ko": "저는 스무 살이에요.", "romanization": "", "en": "I am twenty years old." },
-      { "ko": "지금 네 시예요.", "romanization": "", "en": "It's four o'clock now." },
-      { "ko": "고양이 두 마리 있어요.", "romanization": "", "en": "I have two cats." }
+      { "ko": "저는 올해 스무 살이에요.", "romanization": "", "en": "I'm twenty years old this year." },
+      { "ko": "지금 네 시예요. 곧 출발해요.", "romanization": "", "en": "It's four o'clock now. We leave soon." },
+      { "ko": "우리 집에 고양이 두 마리 있어요.", "romanization": "", "en": "There are two cats at my place." }
     ],
     "commonMistakes": [
-      "Not shortening before a counter: it's 한 개 (not 하나 개) and 세 시 (not 셋 시).",
-      "Using native numbers for minutes or money — those are Sino.",
-      "Using Sino numbers for age or the hour — those are native."
+      "Not shortening before a counter: saying 하나 개 or 셋 시 — wrong because 1–4 and 20 have a special pre-counter shape; the correct forms are 한 개 and 세 시 (and 두 명, 네 살, 스무 살).",
+      "Using native numbers for minutes or money (다섯 분, 다섯 원) — wrong because those units are Sino; say 오 분 and 오 원. Native is only for the HOUR (다섯 시), not the minute.",
+      "Using Sino for age or the o'clock hour (이십 살, 사 시) — wrong because age and the hour are native; say 스무 살 and 네 시. A learner who says 사 시 will be understood but sounds clearly textbook-wrong."
     ],
     "practiceItems": [
       { "prompt": "3 apples", "ko": "사과 세 개", "answer": "세 개" },
@@ -55,7 +55,7 @@
       { "prompt": "4 o'clock", "ko": "네 시", "answer": "네 시" }
     ],
     "studyOrder": ["Memorize 하나~열 then the tens 스물~아흔", "Learn the four shorteners 한·두·세·네 (+스무)", "Use for things, people, age, and hours", "Switch to Sino above ~100"],
-    "beginnerExplanation": "This is the 'home-grown' Korean number set, and the trickiest thing about it is that 1, 2, 3, 4 (and 20) change shape right before a counting word. You never say 하나 개 — you say 한 개. Memorize the four little shape-changers: 한, 두, 세, 네 (and 스무 for 20). You will use these for counting almost anything, for your age (스무 살), and for the hour on a clock (세 시 = three o'clock)."
+    "beginnerExplanation": "This is the 'home-grown' Korean number set (고유어, 'native words'), and the trickiest thing about it is that 1, 2, 3, 4 — and 20 — change shape right before a counting word. You never say 하나 개; you say 한 개. Think of it like English 'a/an': the number puts on a shorter 'hat' before a counter. Memorize the four little shape-changers as a chant: 한, 두, 세, 네 (and 스무 for 20). You'll use these for counting almost anything you can point at, for your age (스무 살 = 20 years old), and for the hour on a clock (세 시 = three o'clock). Just remember the minute that follows flips back to Sino — 세 시 오 분 (3:05)."
   },
   {
     "id": "grammar-foundation-time-date",
@@ -63,20 +63,20 @@
     "romanization": "___si ___bun / ___wol ___il",
     "title": "Telling Time & Dates",
     "plainEnglish": "How to read the clock and the calendar — which mixes BOTH number systems in one phrase.",
-    "whenToUse": "Use whenever you say a time or a date. The hour is a native number + 시; the minute is a Sino number + 분. Dates are Sino numbers + 년/월/일.",
+    "whenToUse": "Use this pattern any time you say a clock time or a calendar date. For TIME: the hour is a NATIVE number + 시 (時, 'hour'), the minute is a SINO number + 분 (分, 'minute'); add 반 for 'half past' (두 시 반 = 2:30) and 오전/오후 for a.m./p.m. (오후 세 시 = 3 p.m.). For DATES: year, month, day are all SINO + 년/월/일 (年/月/日), and weekday is 요일 (월요일 = Monday). Intent: you're locating a point on the clock or calendar. Example: 회의가 오후 두 시 반에 있어요 = The meeting is at 2:30 p.m.",
     "attachmentRule": "TIME: hour = NATIVE + 시, minute = SINO + 분. 7:07 = 일곱 시 칠 분. 3:30 = 세 시 삼십 분 (or 세 시 반, 'half'). DATE: year/month/day = SINO + 년/월/일. March 5 = 삼월 오일. Two month irregulars: June = 유월 (not 육월), October = 시월 (not 십월). Weekdays: 월·화·수·목·금·토·일 + 요일.",
-    "contrastWith": "The classic trap: in 일곱 시 칠 분, 시 takes a NATIVE number but 분 takes a SINO number — in the same breath. And 6월 = 유월, 10월 = 시월 each drop a sound.",
+    "contrastWith": "The classic trap is INSIDE one breath: in 일곱 시 칠 분, 시 (hour) takes a NATIVE number but 분 (minute) takes a SINO number — same digit '7,' two different words (일곱 vs 칠). Contrast also 분 the time-unit (Sino: 십 분 = 10 minutes) with 분 the honorific people-counter (native: 두 분 = two persons) — identical syllable, opposite number system. And note the sound-eroded months: 6월 → 유월 and 10월 → 시월 each drop a consonant, while every other month stays regular (삼월, 칠월). For 'o'clock' use 시; do not confuse it with 시간 which means a DURATION of hours (세 시간 = for three hours), not a clock time.",
     "sentenceFrames": ["지금 ___시 ___분이에요.", "___월 ___일이에요.", "오늘은 ___요일이에요."],
     "examples": [
-      { "ko": "지금 일곱 시 칠 분이에요.", "romanization": "", "en": "It's 7:07 now." },
-      { "ko": "회의가 두 시 반에 있어요.", "romanization": "", "en": "The meeting is at 2:30." },
+      { "ko": "지금 몇 시예요? 일곱 시 칠 분이에요.", "romanization": "", "en": "What time is it now? It's 7:07." },
+      { "ko": "회의가 오후 두 시 반에 있어요.", "romanization": "", "en": "The meeting is at 2:30 p.m." },
       { "ko": "제 생일은 유월 십일이에요.", "romanization": "", "en": "My birthday is June 10th." },
-      { "ko": "오늘은 금요일이에요.", "romanization": "", "en": "Today is Friday." }
+      { "ko": "오늘은 금요일이라서 사람이 많아요.", "romanization": "", "en": "It's Friday, so there are a lot of people." }
     ],
     "commonMistakes": [
-      "Saying 칠 시 — the hour must be native: 일곱 시.",
-      "Saying 육월 or 십월 — June is 유월, October is 시월.",
-      "Using native numbers for the minute (it's 칠 분, not 일곱 분)."
+      "Saying 칠 시 for 7 o'clock — wrong because the o'clock hour is native; say 일곱 시. (The minute, however, IS Sino: 칠 분.)",
+      "Saying 육월 / 십월 for June / October — wrong because these two months erode a sound: June is 유월, October is 시월. The day number stays regular, so June 6 is 유월 육일.",
+      "Using a native number for the minute (일곱 분 for '7 minutes') — wrong because 분 is a Sino counter; say 칠 분. Inside 일곱 시 칠 분 you literally switch systems mid-phrase."
     ],
     "practiceItems": [
       { "prompt": "7:07", "ko": "일곱 시 칠 분", "answer": "일곱 시 칠 분" },
@@ -84,7 +84,7 @@
       { "prompt": "2:30", "ko": "두 시 반", "answer": "두 시 반" }
     ],
     "studyOrder": ["Hour = native + 시", "Minute = Sino + 분", "Dates = Sino + 월/일", "Memorize 유월 & 시월"],
-    "beginnerExplanation": "Reading a clock in Korean is famously confusing because ONE phrase uses both number systems. The hour is a native number (일곱 시 = seven o'clock) and the minute right after it is a Sino number (칠 분 = seven minutes). So 7:07 is 일곱 시 칠 분 — same digit, two different words! Dates are all Sino (삼월 오일 = March 5). Just memorize two odd months: June is 유월 and October is 시월."
+    "beginnerExplanation": "Reading a clock in Korean is famously confusing because ONE phrase uses both number systems. The hour is a native number (일곱 시 = seven o'clock) and the minute right after it is a Sino number (칠 분 = seven minutes). So 7:07 is 일곱 시 칠 분 — same digit, two different words! A handy memory hook: the HOUR is the 'pointing/counting' side (native), the MINUTE is the 'measured scale' side (Sino). Dates are all Sino (삼월 오일 = March 5). Just memorize two odd months that swallow a sound: June is 유월 (not 육월) and October is 시월 (not 십월). One more bonus word: 반 means 'half,' so 두 시 반 is a quick way to say 2:30."
   },
   {
     "id": "grammar-foundation-counters",
@@ -92,20 +92,20 @@
     "romanization": "noun + number + counter",
     "title": "Counters (Measure Words)",
     "plainEnglish": "To count a noun you add a 'counter' word, like 'two CUPS of coffee' — and each counter picks native or Sino numbers.",
-    "whenToUse": "Use whenever you count a noun: NOUN + NUMBER + COUNTER. 커피 두 잔 = two cups of coffee.",
+    "whenToUse": "Use a counter whenever you put a number on a noun. The default order is NOUN + NUMBER + COUNTER: 커피 두 잔 = two cups of coffee, 표 세 장 = three tickets. The counter you choose depends on the noun's shape/type (flat things → 장, cups → 잔, animals → 마리, machines → 대), and that counter in turn fixes whether the number is native or Sino. In casual speech the all-purpose 개 covers most physical objects when you're unsure, but people, animals, and money each demand their own counter. Intent: you're quantifying a specific thing, so you bundle 'how many' with 'what kind of unit.'",
     "attachmentRule": "NATIVE-number counters: 개 (things), 명/분 (people; 분 is honorific), 마리 (animals), 살 (age), 시 (o'clock), 장 (sheets), 권 (books), 잔 (cups), 병 (bottles), 대 (cars/machines), 켤레 (pairs), 번 (times). SINO-number counters: 분 (minutes), 원 (money), 월/일/년 (date), 층 (floor), 호 (room), 인분 (food portions), 번 (number/order). Remember 1–4 shorten before native counters (한 개, 두 명, 세 잔).",
-    "contrastWith": "Watch the look-alikes: 분 = native 'people' (두 분) BUT Sino 'minutes' (이 분). 번 = native 'times' (세 번) BUT Sino 'order/number' (삼 번 버스).",
+    "contrastWith": "Sharp look-alike pairs to keep straight: 분 = native 'people/honorific' (두 분 = two persons) BUT Sino 'minutes' (이 분 = two minutes) — same syllable, opposite system. 번 = native 'times/occurrences' (세 번 = three times) BUT Sino 'order/number label' (삼 번 버스 = the No. 3 bus). Also contrast 명 vs 분 for people: 명 is the neutral count (학생 세 명 = three students), 분 is the polite/honorific count for respected adults (손님 세 분 = three guests) — using 명 for your boss's guests sounds cold. English has no counters at all, so the whole system is an added layer: 'two coffees' must become 커피 두 잔, never bare 커피 둘.",
     "sentenceFrames": ["커피 ___ 잔 주세요.", "표 ___ 장 주세요.", "강아지 ___ 마리 키워요."],
     "examples": [
       { "ko": "커피 두 잔 주세요.", "romanization": "", "en": "Two coffees, please." },
-      { "ko": "표 세 장 샀어요.", "romanization": "", "en": "I bought three tickets." },
-      { "ko": "강아지 한 마리 키워요.", "romanization": "", "en": "I have one puppy." },
-      { "ko": "삼 인분 주세요.", "romanization": "", "en": "Three portions, please." }
+      { "ko": "영화표 세 장 샀어요.", "romanization": "", "en": "I bought three movie tickets." },
+      { "ko": "저는 강아지 한 마리 키워요.", "romanization": "", "en": "I have one puppy." },
+      { "ko": "여기 삼 인분 주세요.", "romanization": "", "en": "Three portions, please." }
     ],
     "commonMistakes": [
-      "Dropping the counter — Korean needs one: 사과 셋 → 사과 세 개.",
-      "Using the wrong number system for the counter (e.g., minutes are Sino).",
-      "Forgetting to shorten 하나/둘/셋/넷 before native counters."
+      "Dropping the counter the way English does ('three apples' → 사과 셋) — wrong because a count needs a counter; say 사과 세 개. Bare 사과 셋 sounds incomplete to a Korean ear.",
+      "Using the wrong number system for the counter — e.g. 다섯 분 meaning '5 minutes' (that's the native people-counter); for minutes use Sino: 오 분. Match the system to the counter, not to your habit.",
+      "Forgetting to shorten 하나/둘/셋/넷 before native counters (둘 잔, 셋 명) — wrong because 1–4 take their short shape before a counter; say 두 잔, 세 명. This shortening is mandatory, not optional."
     ],
     "practiceItems": [
       { "prompt": "2 cups of coffee", "ko": "커피 두 잔", "answer": "커피 두 잔" },
@@ -113,6 +113,6 @@
       { "prompt": "1 dog", "ko": "강아지 한 마리", "answer": "강아지 한 마리" }
     ],
     "studyOrder": ["Learn the pattern NOUN + NUMBER + COUNTER", "Learn which counters take native vs Sino", "Memorize the most common: 개·명·마리·잔·장·번", "Always shorten 한·두·세·네 before native counters"],
-    "beginnerExplanation": "In English you can just say 'two coffees,' but Korean almost always slips a 'counter' word in: 커피 두 잔 (coffee two cups). Different nouns use different counters — 개 for general things, 명 for people, 마리 for animals, 잔 for cups. The counter also decides whether the number is native or Sino. Start with the everyday ones (개, 명, 마리, 잔, 장) and remember the native numbers shrink in front: 한 개, 두 명, 세 잔."
+    "beginnerExplanation": "In English you can just say 'two coffees,' but Korean almost always slips a 'counter' word in: 커피 두 잔 (coffee + two + cups). Think of it like the obligatory English 'two SHEETS of paper' or 'two HEADS of cattle' — except Korean does it for everything. Different nouns use different counters: 개 for general things, 명 for people, 마리 for animals, 잔 for cups, 장 for flat sheets. The counter also decides whether the number is native or Sino, so they always travel together. Start with the everyday five (개, 명, 마리, 잔, 장) and remember the native numbers shrink in front: 한 개, 두 명, 세 잔. When in doubt about a small object, 개 is your safe default."
   }
 ]

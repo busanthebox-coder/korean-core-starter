@@ -22,16 +22,45 @@
       "shallWe": "돌아갈까요?"
     },
     "usage": [
-      ["집에 돌아가요.", "I go back home.", "Returning to a place"],
-      ["다음 달에 돌아갈 거예요.", "I will go back next month.", "Future return"]
+      ["집에 돌아가요", "I go back home.", "Destination of return takes 에"],
+      ["고향으로 돌아가요", "I go back to my hometown.", "로 marks the direction returned toward"],
+      ["원래대로 돌아가요", "It goes back to how it was.", "Returning to a former state, not just a place"],
+      ["다음 달에 돌아갈 거예요", "I will go back next month.", "거예요 future for a planned return"]
     ],
     "examples": [
-      ["너무 피곤해서 호텔로 돌아가고 싶어요.", "I am tired so I want to go back to the hotel.", "Expressing a wish"],
-      ["길이 막혀서 아직 못 돌아가요.", "The road is blocked so I cannot go back yet.", "Unable to do"],
-      ["우리 이제 숙소로 돌아갈까요?", "Shall we go back to the lodging now?", "Making a suggestion"]
+      ["이제 집에 돌아가요.", "I'm going back home now.", "The 가 stem swallows the 아 ending, so it's 돌아가요, never 돌아가아요."],
+      ["너무 피곤해서 호텔로 돌아가고 싶어요.", "I'm so tired I want to go back to the hotel.", "고 싶어요 adds the wish; 로 points back toward the hotel."],
+      ["우리 이제 숙소로 돌아갈까요?", "Shall we head back to the lodging now?", "ㄹ까요 floats a gentle group suggestion."]
     ],
-    "nuance": "돌아가다 means going back to a place where you started, and the destination usually takes the particle 에 or 로.",
-    "mistakes": ["Do not confuse 돌아가다 (go back) with 돌아오다 (come back)."],
+    "nuance": "돌아가다 is literally 돌아(turn around) + 가다(go), so it paints you turning back and heading AWAY from the listener toward your origin — home, your country, a former state. The razor-sharp contrast is with 돌아오다(come back): direction is fixed by the speaker's standpoint, exactly like English go vs come, so a tourist phoning home says 한국에 돌아갈 거예요 (going back, away from here), but once landed says 집에 돌아왔어요 (came back). It also means revert: 원래대로 돌아가다 (go back to normal), even 돌아가시다 is the gentle euphemism for passing away, so tread carefully. As a 가다 compound it conjugates regularly and the 가 + 아 contracts to 가요. The English-speaker trap: do not force 에서 on the destination — you return TO a place with 에/로, never 집에서 돌아가요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "돌아가다 is literally 돌아(turn around) + 가다(go), so it paints you turning back and heading AWAY from the listener toward your origin — home, your country, a former state. It also means revert: 원래대로 돌아가다 (go back to normal). Even 돌아가시다 is the gentle euphemism for passing away, so tread carefully."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The razor-sharp contrast is with 돌아오다(come back): direction is fixed by the speaker's standpoint, exactly like English go vs come, so a tourist phoning home says 한국에 돌아갈 거예요 (going back, away from here), but once landed says 집에 돌아왔어요 (came back)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 가다 compound it conjugates regularly and the 가 + 아 contracts to 가요.",
+        "chips": ["돌아가요", "돌아갔어요", "돌아갈 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Do not force 에서 on the destination — you return TO a place with 에/로, never 집에서 돌아가요."
+      }
+    ],
+    "mistakes": [
+      "Saying 집에 돌아와요 when you're talking to someone back home about flying home — from your current spot the motion goes away, so it must be 돌아가요; 돌아오다 is only for motion toward where you are now.",
+      "Writing 돌아가아요 by adding the full 아요 ending — the 가 stem already ends in ㅏ, so it contracts to 돌아가요.",
+      "Using 에서 for the place you return to (집에서 돌아가요). Return destinations take 에 or 로; 에서 would mean you start FROM the house."
+    ],
     "irregular": null
   },
   {
@@ -57,16 +86,50 @@
       "shallWe": "출발할까요?"
     },
     "usage": [
-      ["기차가 곧 출발해요.", "The train departs soon.", "Scheduled departure"],
-      ["아침 일찍 출발했어요.", "I departed early in the morning.", "Past departure"]
+      ["기차가 곧 출발해요", "The train departs soon.", "Standard for scheduled transport leaving"],
+      ["서울에서 출발해요", "I depart from Seoul.", "에서 marks the starting point you leave from"],
+      ["정시에 출발해요", "It departs on time.", "정시에 = on the dot, a timetable collocation"],
+      ["출발 안 해요", "It's not departing.", "하다 splits so 안 sits between 출발 and 해요"]
     ],
     "examples": [
-      ["버스가 9시에 출발하니까 서둘러야 해요.", "The bus departs at nine so we must hurry.", "Expressing obligation"],
-      ["비가 와도 예정대로 출발할 거예요.", "We will depart on schedule even if it rains.", "Future plan"],
-      ["우리 지금 바로 출발할까요?", "Shall we depart right now?", "Making a suggestion"]
+      ["우리 이제 출발해요!", "Let's set off now!", "출발 + 하다, and 하 + 아 always fuses to 해, giving 출발해요."],
+      ["버스가 9시에 출발하니까 서둘러야 해요.", "The bus leaves at 9, so we'd better hurry.", "니까 gives the reason; time of departure takes 에."],
+      ["비가 와도 예정대로 출발할 거예요.", "Even if it rains, we'll depart as planned.", "아도 = even if; 예정대로 = as scheduled."]
     ],
-    "nuance": "출발하다 means setting off from a starting point, and the place you leave from usually takes the particle 에서.",
-    "mistakes": ["Do not confuse 출발하다 (depart) with 도착하다 (arrive)."],
+    "nuance": "출발하다 is Sino-Korean 出發(출발: 出 go out + 發 set off/shoot) plus 하다, the crisp word for a journey or vehicle SETTING OFF from a starting line. Contrast it with 떠나다(leave): 출발하다 is neutral and logistical, fixed on the departure point and time (기차가 출발하다), so a station announcer uses it; 떠나다 carries the emotional weight of leaving something or someone behind. The starting place takes 에서 (부산에서 출발해요) and the time takes 에 (3시에 출발해요). Because it's a 하다 verb the stem 하 + 아 fuses to 해, so present is 출발해요 and the negative splits as 출발 안 해요. English-speaker pitfall: don't mark the start point with 에 — you depart FROM somewhere, so it's 공항에서 출발해요, and the opposite endpoint verb is 도착하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "출발하다 is the crisp word for a journey or vehicle SETTING OFF from a starting line. It is neutral and logistical, fixed on the departure point and time (기차가 출발하다), so a station announcer uses it. The starting place takes 에서 (부산에서 출발해요) and the time takes 에 (3시에 출발해요)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it with 떠나다(leave): 출발하다 is neutral and logistical, whereas 떠나다 carries the emotional weight of leaving something or someone behind. The opposite endpoint verb is 도착하다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 出發 (출발: 出 go out + 發 set off/shoot) plus 하다."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Because it's a 하다 verb the stem 하 + 아 fuses to 해, so present is 출발해요 and the negative splits as 출발 안 해요.",
+        "chips": ["출발해요", "출발했어요", "출발 안 해요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't mark the start point with 에 — you depart FROM somewhere, so it's 공항에서 출발해요."
+      }
+    ],
+    "mistakes": [
+      "Marking the starting place with 에 (공항에 출발해요). The origin you leave from takes 에서; 에 would point at a destination, which belongs to 도착하다.",
+      "Saying 출발하지 않아요 / 출발해 안 해요 awkwardly — the clean short negative of a 하다 verb is 출발 안 해요, splitting the noun from 해요.",
+      "Treating it as emotional 'leave' for people (친구를 출발했어요). To leave a person or place behind you need 떠나다; 출발하다 is for setting off on a route or schedule."
+    ],
     "irregular": null
   },
   {
@@ -92,16 +155,50 @@
       "shallWe": "도착할까요?"
     },
     "usage": [
-      ["공항에 도착해요.", "I arrive at the airport.", "Reaching a place"],
-      ["방금 도착했어요.", "I just arrived.", "Past arrival"]
+      ["공항에 도착해요", "I arrive at the airport.", "Arrival point takes 에, never 에서"],
+      ["제시간에 도착해요", "I arrive on time.", "제시간에 = right on time, a fixed phrase"],
+      ["무사히 도착했어요", "I arrived safely.", "무사히 (safe and sound) is a warm reassurance collocation"],
+      ["방금 도착했어요", "I just arrived.", "방금 = a moment ago, pairs with the past 했어요"]
     ],
     "examples": [
-      ["비행기가 늦어서 밤늦게 도착했어요.", "The plane was late so I arrived late at night.", "Past arrival"],
-      ["역에 도착하면 전화해 주세요.", "Please call me when you arrive at the station.", "Polite request"],
-      ["길이 막혀서 제시간에 도착 못 해요.", "Traffic is bad so I cannot arrive on time.", "Unable to do"]
+      ["방금 역에 도착했어요.", "I just got to the station.", "Arrival point 역 takes 에; 도착 + 하 + 았 → 도착했어요."],
+      ["역에 도착하면 전화해 주세요.", "Call me once you arrive at the station.", "면 = when/once; 주세요 makes it a polite request."],
+      ["길이 막혀서 제시간에 도착 못 해요.", "Traffic's bad, so I can't make it on time.", "Inability splits as 도착 못 해요 around the noun."]
     ],
-    "nuance": "도착하다 means reaching a destination, and the place you arrive at takes the particle 에 rather than 에서.",
-    "mistakes": ["Do not use 에서 with 도착하다; use 에 instead."],
+    "nuance": "도착하다 is Sino-Korean 到着(도착: 到 reach + 着 attach/touch down) plus 하다 — the moment of REACHING and touching a destination. Its mirror is 출발하다(depart), and the key is the particle: you arrive AT a place with 에 (호텔에 도착해요), whereas 출발하다 leaves FROM a place with 에서. Don't confuse it with 들어가다/들어오다(enter): 도착하다 is reaching the destination's threshold, not stepping inside a building. As a 하다 verb, 하 + 아 fuses to 해 (도착해요) and the short negative and inability split the noun off: 도착 안 해요, 도착 못 해요. The classic English-speaker error is copying 'arrive at' as 에서 — 'at' here is the static endpoint 에, so 공항에 도착해요, and 공항에서 도착해요 is wrong.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "도착하다 is the moment of REACHING and touching a destination. You arrive AT a place with 에 (호텔에 도착해요)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its mirror is 출발하다(depart): 도착하다 arrives AT a place with 에, whereas 출발하다 leaves FROM a place with 에서. Don't confuse it with 들어가다/들어오다(enter) either: 도착하다 is reaching the destination's threshold, not stepping inside a building."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 到着 (도착: 到 reach + 着 attach/touch down) plus 하다."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 하다 verb, 하 + 아 fuses to 해 (도착해요), and the short negative and inability split the noun off: 도착 안 해요, 도착 못 해요.",
+        "chips": ["도착해요", "도착 안 해요", "도착 못 해요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic error is copying 'arrive at' as 에서 — 'at' here is the static endpoint 에, so 공항에 도착해요, and 공항에서 도착해요 is wrong."
+      }
+    ],
+    "mistakes": [
+      "Using 에서 for the arrival point (공항에서 도착했어요) by mapping English 'arrive at'. The destination reached takes 에; 에서 marks a source, which belongs to 출발/떠나다.",
+      "Mixing it up with 들어가다 (enter) — 도착하다 means you've reached the place, not that you've walked inside. To go in through the door, use 들어가다.",
+      "Forming inability as 못 도착해요 in this set — the natural split-negative for the 하다 verb is 도착 못 해요, keeping 못 right before 해요."
+    ],
     "irregular": null
   },
   {
@@ -127,16 +224,45 @@
       "shallWe": "떠날까요?"
     },
     "usage": [
-      ["내일 서울을 떠나요.", "I leave Seoul tomorrow.", "Leaving a place"],
-      ["친구가 어제 떠났어요.", "My friend left yesterday.", "Past departure"]
+      ["서울을 떠나요", "I leave Seoul.", "The place left behind takes 을/를, not 에서"],
+      ["여행을 떠나요", "I set off on a trip.", "여행을 떠나다 = embark on a journey, a set phrase"],
+      ["고향을 떠났어요", "I left my hometown.", "Carries emotional weight of leaving for good"],
+      ["곁을 떠나지 마", "Don't leave my side.", "곁을 떠나다 = leave someone's side, intimate register"]
     ],
     "examples": [
-      ["복잡한 도시를 잠시 떠나고 싶어요.", "I want to leave the busy city for a while.", "Expressing a wish"],
-      ["일이 많아서 지금은 못 떠나요.", "I have a lot of work so I cannot leave now.", "Unable to do"],
-      ["우리 함께 여행을 떠날까요?", "Shall we leave on a trip together?", "Making a suggestion"]
+      ["저 내일 떠나요.", "I'm leaving tomorrow.", "나 + 아 contracts, so it's 떠나요, never 떠나아요."],
+      ["복잡한 도시를 잠시 떠나고 싶어요.", "I want to get away from the busy city for a while.", "The place left takes 를; 고 싶어요 adds the wish."],
+      ["우리 함께 여행을 떠날까요?", "Shall we set off on a trip together?", "여행을 떠나다 is the idiom for embarking; ㄹ까요 suggests."]
     ],
-    "nuance": "떠나다 means leaving a place behind, and the place you leave often takes 을 or 를 instead of 에서.",
-    "mistakes": ["Do not confuse 떠나다 (leave) with 나가다 (go out)."],
+    "nuance": "떠나다 means to LEAVE a place, person, or situation behind, and unlike neutral 출발하다(depart) it carries feeling — separation, finality, the pull of moving on, which is why songs and goodbyes use it (곁을 떠나다 leave someone's side). The dividing line with 출발하다: a train 출발해요 (sets off on schedule) but a person 고향을 떠나요 (leaves home, emotionally). The thing left behind takes the object particle 을/를, not 에서 — this is the big surprise for English speakers, since you'd expect 'leave from'. So it's 한국을 떠나요 (I leave Korea), and 여행을 떠나다 idiomatically means to embark on a trip. It's a native verb; 나 + 아 contracts to 나, giving 떠나요 and past 떠났어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "떠나다 means to LEAVE a place, person, or situation behind, carrying feeling — separation, finality, the pull of moving on, which is why songs and goodbyes use it (곁을 떠나다 leave someone's side). Idiomatically 여행을 떠나다 means to embark on a trip."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Unlike neutral 출발하다(depart), 떠나다 carries feeling. The dividing line: a train 출발해요 (sets off on schedule) but a person 고향을 떠나요 (leaves home, emotionally)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It's a native verb; 나 + 아 contracts to 나, giving 떠나요 and past 떠났어요.",
+        "chips": ["떠나요", "떠났어요", "떠날 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The thing left behind takes the object particle 을/를, not 에서 — this is the big surprise for English speakers, since you'd expect 'leave from'. So it's 한국을 떠나요 (I leave Korea)."
+      }
+    ],
+    "mistakes": [
+      "Marking the place left with 에서 (서울에서 떠나요) on the model of 'leave from'. With 떠나다 the abandoned place is a direct object: 서울을 떠나요.",
+      "Swapping in 출발하다 for an emotional or final leaving (가족을 출발했어요). Leaving family/home/a person behind needs 떠나다; 출발하다 is only setting off on a route.",
+      "Writing 떠나아요 with the full 아요 ending — the stem 떠나 already ends in ㅏ, so it stays 떠나요 and the past is 떠났어요."
+    ],
     "irregular": null
   },
   {
@@ -162,16 +288,45 @@
       "shallWe": "멈출까요?"
     },
     "usage": [
-      ["차가 갑자기 멈췄어요.", "The car stopped suddenly.", "Past action"],
-      ["여기서 잠깐 멈춰요.", "We stop here for a moment.", "Pausing briefly"]
+      ["차가 멈춰요", "The car stops.", "Works for a vehicle halting on its own"],
+      ["발걸음을 멈춰요", "I halt my steps.", "발걸음을 멈추다 = stop in one's tracks, set phrase"],
+      ["갑자기 멈췄어요", "It stopped all at once.", "갑자기 (suddenly) is a frequent partner"],
+      ["멈추지 마세요", "Don't stop.", "지 마세요 tells someone not to halt"]
     ],
     "examples": [
-      ["빨간불이니까 여기서 멈춰야 해요.", "The light is red so we must stop here.", "Expressing obligation"],
-      ["저 앞에서 잠깐 멈춰 주세요.", "Please stop briefly up ahead.", "Polite request"],
-      ["엔진이 고장 나서 차가 안 멈춰요.", "The engine broke so the car does not stop.", "Stating a problem"]
+      ["차가 갑자기 멈췄어요.", "The car stopped all of a sudden.", "추 + 어 fuses to 춰, so past is 멈췄어요."],
+      ["저 앞에서 잠깐 멈춰 주세요.", "Please pull over briefly just ahead.", "춰 주세요 politely asks the driver to halt."],
+      ["빨간불이니까 여기서 멈춰야 해요.", "It's a red light, so we have to stop here.", "니까 gives the reason; 야 해요 = must."]
     ],
-    "nuance": "멈추다 means coming to a stop or halting motion, and it can describe both a person and a moving thing like a car.",
-    "mistakes": ["Do not confuse 멈추다 (stop) with 그만두다 (quit)."],
+    "nuance": "멈추다 means coming to a HALT — ceasing motion that was underway — and it covers a person freezing, a car braking, the rain letting up, even a clock stopping (시계가 멈췄어요). The fine contrast is with 서다: 서다 emphasizes the final standing-still snapshot (차가 섰다), while 멈추다 highlights the act of arresting the movement; in daily speech they overlap heavily for vehicles. Keep it apart from 그만두다(quit), which abandons an activity or job permanently — you 멈추다 your steps but 그만두다 your job. It also has a transitive use, to stop something: 울음을 멈추다 (stop crying). It's a regular ㅜ-stem verb, so 추 + 어 contracts to 춰, giving 멈춰요 and past 멈췄어요. Pitfall: don't reach for 그만두다 just to say a moving thing stopped.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "멈추다 means coming to a HALT — ceasing motion that was underway — and it covers a person freezing, a car braking, the rain letting up, even a clock stopping (시계가 멈췄어요). It also has a transitive use, to stop something: 울음을 멈추다 (stop crying)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The fine contrast is with 서다: 서다 emphasizes the final standing-still snapshot (차가 섰다), while 멈추다 highlights the act of arresting the movement; in daily speech they overlap heavily for vehicles. Keep it apart from 그만두다(quit), which abandons an activity or job permanently — you 멈추다 your steps but 그만두다 your job."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It's a regular ㅜ-stem verb, so 추 + 어 contracts to 춰, giving 멈춰요 and past 멈췄어요.",
+        "chips": ["멈춰요", "멈췄어요", "멈출 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't reach for 그만두다 just to say a moving thing stopped."
+      }
+    ],
+    "mistakes": [
+      "Using 그만두다 for a halting motion (버스가 그만뒀어요). 그만두다 means to quit/give up an activity; a bus coming to a stop is 버스가 멈췄어요.",
+      "Writing 멈추어요 / 멈추었어요 in full — natural speech contracts 추+어 to 춰, so it's 멈춰요 and 멈췄어요.",
+      "Assuming it's only intransitive — 멈추다 also takes an object (눈물을 멈추다, stop the tears), so you don't always need a separate causative."
+    ],
     "irregular": null
   },
   {
@@ -197,16 +352,50 @@
       "shallWe": "움직일까요?"
     },
     "usage": [
-      ["사람이 너무 많아서 못 움직여요.", "There are too many people so I cannot move.", "Unable to do"],
-      ["줄이 천천히 움직여요.", "The line moves slowly.", "Describing motion"]
+      ["몸을 움직여요", "I move my body.", "몸을 움직이다 = get the body moving, exercise nuance"],
+      ["조금씩 움직여요", "It moves bit by bit.", "조금씩 (little by little) suits gradual motion"],
+      ["꼼짝 안 움직여요", "It won't budge at all.", "꼼짝 + negative = not budge an inch"],
+      ["움직이지 마세요", "Please don't move.", "Frozen-pose request, e.g. for a photo"]
     ],
     "examples": [
-      ["사진 찍을 때 움직이지 마세요.", "Please do not move when I take the photo.", "Polite request"],
-      ["다리가 아파서 잘 못 움직여요.", "My leg hurts so I cannot move well.", "Unable to do"],
-      ["짐이 무거우니까 조심히 움직여야 해요.", "The bag is heavy so I must move carefully.", "Expressing obligation"]
+      ["사람이 너무 많아서 못 움직여요.", "There are so many people I can't move.", "못 + 움직여요 expresses physical inability."],
+      ["사진 찍을 때 움직이지 마세요.", "Don't move while I take the photo.", "지 마세요 asks someone to hold still."],
+      ["짐이 무거우니까 조심히 움직여야 해요.", "The luggage is heavy, so move carefully.", "조심히 = carefully; 야 해요 = must."]
     ],
-    "nuance": "움직이다 means to move or shift position, and it works for your own body, a crowd, or an object.",
-    "mistakes": ["Do not confuse 움직이다 (move) with 이사하다 (move house)."],
+    "nuance": "움직이다 is the broad word for MOVING or shifting position, and its range is wide: your own body (몸을 움직이다), a crowd inching forward, an object that budges, even an abstract heart being moved (마음이 움직이다 = to be swayed). Contrast it with 이사하다(move house), the Sino-Korean 移徙 word reserved for relocating your home — English 'move' covers both, but Korean splits them, so 'I'm moving next month' is 이사해요, never 움직여요. It also differs from 옮기다(transfer/relocate a thing), which is transitive and deliberate (책상을 옮기다, shift the desk). 움직이다 itself works both intransitively (안 움직여요, it won't move) and transitively (몸을 움직여요). It's a regular 이-stem verb: 이 + 어 fuses to 여, giving 움직여요 and 움직였어요. Pitfall: don't use it for changing residence.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "움직이다 is the broad word for MOVING or shifting position, and its range is wide: your own body (몸을 움직이다), a crowd inching forward, an object that budges, even an abstract heart being moved (마음이 움직이다 = to be swayed). It works both intransitively (안 움직여요, it won't move) and transitively (몸을 움직여요)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it with 이사하다(move house), the word reserved for relocating your home — English 'move' covers both, but Korean splits them, so 'I'm moving next month' is 이사해요, never 움직여요. It also differs from 옮기다(transfer/relocate a thing), which is transitive and deliberate (책상을 옮기다, shift the desk)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Its synonym 이사하다 is the Sino-Korean 移徙 word reserved for relocating your home."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It's a regular 이-stem verb: 이 + 어 fuses to 여, giving 움직여요 and 움직였어요.",
+        "chips": ["움직여요", "움직였어요", "움직일 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't use it for changing residence — that is 이사하다, not 움직이다."
+      }
+    ],
+    "mistakes": [
+      "Saying 다음 달에 움직여요 for changing homes. Relocating your residence is 이사하다 (이사해요); 움직이다 is physical motion, not moving house.",
+      "Confusing it with transitive 옮기다 for shifting a specific object (의자를 움직여 주세요 when you mean 'move it over there'). For deliberately relocating a thing, 옮기다 is more precise.",
+      "Writing 움직이어요 in full — the 이 stem plus 어 contracts to 여, so it's 움직여요 and past 움직였어요."
+    ],
     "irregular": null
   },
   {
@@ -232,16 +421,45 @@
       "shallWe": "건널까요?"
     },
     "usage": [
-      ["길을 건너요.", "I cross the street.", "Crossing a road"],
-      ["다리를 건넜어요.", "I crossed the bridge.", "Past action"]
+      ["길을 건너요", "I cross the street.", "The road crossed takes 을/를"],
+      ["횡단보도를 건너요", "I cross at the crosswalk.", "횡단보도 = crosswalk, the everyday partner noun"],
+      ["다리를 건넜어요", "I crossed the bridge.", "Bridges are crossed with 를"],
+      ["무사히 건넜어요", "I crossed safely.", "무사히 reassures about a risky crossing"]
     ],
     "examples": [
-      ["초록불일 때 길을 건너야 해요.", "You must cross the street when the light is green.", "Expressing obligation"],
-      ["차가 오니까 지금 건너지 마세요.", "A car is coming so do not cross now.", "Polite warning"],
-      ["저쪽으로 길을 건널까요?", "Shall we cross the street over there?", "Making a suggestion"]
+      ["여기서 길을 건너요.", "We cross the street here.", "너 + 어 contracts, so it's 건너요, never 건너어요."],
+      ["초록불일 때 길을 건너야 해요.", "You must cross when the light is green.", "ㄹ 때 = when; 야 해요 = must."],
+      ["차가 오니까 지금 건너지 마세요.", "A car's coming, so don't cross now.", "지 마세요 is a polite warning not to cross."]
     ],
-    "nuance": "건너다 means crossing from one side to the other, and the road or bridge you cross takes the particle 을 or 를.",
-    "mistakes": ["Do not confuse 건너다 (cross) with 넘다 (go over)."],
+    "nuance": "건너다 means crossing FROM one side TO the other — a street, a river, a bridge, the sea — picturing the whole traverse from edge to edge. The road or water you cross takes the object particle 을/를 (길을 건너요), which surprises English speakers who expect 'across' to be adverbial. The sharp contrast is with 넘다(go over): 넘다 stresses surmounting a high obstacle or boundary, going OVER a mountain pass, a wall, even a limit (산을 넘다, 한계를 넘다), whereas 건너다 is the flat side-to-side passage of a road or river. There's also the compound 건너가다/건너오다 when you want to add the go/come direction. It's a native verb whose stem 건너 ends in ㅓ, so 너 + 어 contracts to 너, giving 건너요 and past 건넜어요. Pitfall: don't use 넘다 for an ordinary crosswalk.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "건너다 means crossing FROM one side TO the other — a street, a river, a bridge, the sea — picturing the whole traverse from edge to edge. The road or water you cross takes the object particle 을/를 (길을 건너요). There's also the compound 건너가다/건너오다 when you want to add the go/come direction."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is with 넘다(go over): 넘다 stresses surmounting a high obstacle or boundary, going OVER a mountain pass, a wall, even a limit (산을 넘다, 한계를 넘다), whereas 건너다 is the flat side-to-side passage of a road or river."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It's a native verb whose stem 건너 ends in ㅓ, so 너 + 어 contracts to 너, giving 건너요 and past 건넜어요.",
+        "chips": ["건너요", "건넜어요", "건널 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The 을/를 particle surprises English speakers who expect 'across' to be adverbial, and don't use 넘다 for an ordinary crosswalk."
+      }
+    ],
+    "mistakes": [
+      "Marking the road with 에서 or no particle (길에서 건너요). The thing you cross is a direct object: 길을 건너요.",
+      "Using 넘다 for crossing a flat street (길을 넘어요). 넘다 means going over a height or limit; an ordinary road or river is 건너다.",
+      "Writing 건너어요 with the full ending — the ㅓ-final stem contracts, so the present is 건너요 and the past is 건넜어요."
+    ],
     "irregular": null
   },
   {
@@ -267,16 +485,45 @@
       "shallWe": "지나갈까요?"
     },
     "usage": [
-      ["버스가 방금 지나갔어요.", "The bus just passed by.", "Past action"],
-      ["은행 앞을 지나가요.", "I pass by the front of the bank.", "Passing a place"]
+      ["은행 앞을 지나가요", "I pass in front of the bank.", "앞을 지나가다 = pass in front of, with 을"],
+      ["버스가 지나갔어요", "The bus went past.", "For traffic going by without stopping"],
+      ["잠깐 지나갈게요", "Let me just squeeze past.", "Polite 'coming through' in a crowd"],
+      ["그냥 지나가는 말", "Just a passing remark.", "Figurative: an offhand, in-passing comment"]
     ],
     "examples": [
-      ["잠깐만요, 좀 지나가 주세요.", "Excuse me, please let me pass by.", "Polite request"],
-      ["사람이 많아서 쉽게 못 지나가요.", "There are many people so I cannot pass by easily.", "Unable to do"],
-      ["이 골목을 지나가면 시장이 나와요.", "If you pass this alley the market appears.", "Giving directions"]
+      ["방금 버스가 지나갔어요.", "The bus just went by.", "지나가 + 았 → 지나갔어요; 가 stem contracts."],
+      ["잠깐만요, 좀 지나가 주세요.", "Excuse me, please let me through.", "지나가 주세요 politely asks for room to pass."],
+      ["이 골목을 지나가면 시장이 나와요.", "Go past this alley and you'll hit the market.", "면 = if/when; handy for directions."]
     ],
-    "nuance": "지나가다 means moving past a spot without stopping, and the place you pass takes 을/를, or sometimes 앞을.",
-    "mistakes": ["Do not confuse 지나가다 (pass by) with 지나다 (elapse)."],
+    "nuance": "지나가다 is 지나(pass) + 가다(go) — moving PAST a point and continuing on, AWAY from the listener, without stopping; a bus goes by, you slip past someone, a season passes (여름이 지나가다). Distinguish it from plain 지나다, which leans toward time ELAPSING (3년이 지났어요, three years passed) and is less about physical motion through space. Its pair 지나오다 adds the come-this-way direction. The place you pass takes 을/를, often with 앞을 (은행 앞을 지나가요, pass in front of the bank). Figuratively 지나가는 말 means an offhand remark made in passing. As a 가다 compound it's regular and 가 + 았 contracts to 갔, giving past 지나갔어요. Pitfall: for 'three years have passed' don't say 지나가다; that physical-motion verb sounds odd for elapsed time — use 지나다 (지났어요).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "지나가다 is 지나(pass) + 가다(go) — moving PAST a point and continuing on, AWAY from the listener, without stopping; a bus goes by, you slip past someone, a season passes (여름이 지나가다). The place you pass takes 을/를, often with 앞을 (은행 앞을 지나가요, pass in front of the bank). Figuratively 지나가는 말 means an offhand remark made in passing."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it from plain 지나다, which leans toward time ELAPSING (3년이 지났어요, three years passed) and is less about physical motion through space. Its pair 지나오다 adds the come-this-way direction."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 가다 compound it's regular and 가 + 았 contracts to 갔, giving past 지나갔어요.",
+        "chips": ["지나가요", "지나갔어요", "지나갈 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "For 'three years have passed' don't say 지나가다; that physical-motion verb sounds odd for elapsed time — use 지나다 (지났어요)."
+      }
+    ],
+    "mistakes": [
+      "Using 지나가다 for elapsed time (3년이 지나갔어요 to mean 'three years passed'). For time passing, the natural verb is 지나다: 3년이 지났어요.",
+      "Marking the place passed with 에서 (가게에서 지나가요). The spot you go past takes 을/를, frequently 앞을: 가게 앞을 지나가요.",
+      "Confusing direction with 지나오다 — 지나가다 moves past and away from you; if something passed and is now coming toward you, use 지나오다."
+    ],
     "irregular": null
   },
   {
@@ -302,16 +549,45 @@
       "shallWe": "따라갈까요?"
     },
     "usage": [
-      ["가이드를 따라가요.", "I follow the guide.", "Following a person"],
-      ["친구를 따라갔어요.", "I followed my friend.", "Past action"]
+      ["가이드를 따라가요", "I follow the guide.", "The person followed takes 을/를"],
+      ["뒤를 따라가요", "I follow along behind.", "뒤를 따라가다 = trail behind someone"],
+      ["천천히 따라가요", "I follow slowly.", "천천히 pairs with keeping pace"],
+      ["못 따라가요", "I can't keep up.", "Also figurative: can't keep pace/catch up"]
     ],
     "examples": [
-      ["길을 모르니까 그냥 따라갈게요.", "I do not know the way so I will just follow.", "Stating intention"],
-      ["앞사람을 잘 따라가야 해요.", "You must follow the person ahead closely.", "Expressing obligation"],
-      ["다리가 아파서 빨리 못 따라가요.", "My leg hurts so I cannot follow fast.", "Unable to do"]
+      ["저 그냥 따라갈게요.", "I'll just follow along.", "ㄹ게요 states your own intention to tag along."],
+      ["길을 모르니까 가이드를 따라가야 해요.", "I don't know the way, so I have to follow the guide.", "Person followed takes 를; 야 해요 = must."],
+      ["다리가 아파서 빨리 못 따라가요.", "My leg hurts, so I can't keep up.", "못 따라가다 = can't keep pace, literal or figurative."]
     ],
-    "nuance": "따라가다 means going along behind someone, and the person you follow takes the particle 을 or 를.",
-    "mistakes": ["Do not confuse 따라가다 (follow) with 따라오다 (come along)."],
+    "nuance": "따라가다 is 따라(along/following) + 가다(go) — going ALONG behind someone or something, moving in the same direction AWAY from the listener; you trail a guide, tag after a friend, or figuratively 'keep up' (못 따라가요, can't keep pace). Its essential pair is 따라오다(come along/follow toward me): a leader walking ahead says 따라오세요 (follow me, toward where I'm going), but you describing yourself trailing them say 따라가요. The person or thing followed takes 을/를, not 에게 — a frequent English-speaker slip, since 'follow' feels like motion 'to' someone. Note 따라가다 is a 가다 compound, so despite the 라 it is NOT a 르-irregular; it conjugates regularly and 가 + 아 contracts to 가, giving 따라가요. It can also mean to copy/imitate (잘 따라 하다). Pitfall: don't mark the followed person with 에게.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "따라가다 is 따라(along/following) + 가다(go) — going ALONG behind someone or something, moving in the same direction AWAY from the listener; you trail a guide, tag after a friend, or figuratively 'keep up' (못 따라가요, can't keep pace). The person or thing followed takes 을/를. It can also mean to copy/imitate (잘 따라 하다)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its essential pair is 따라오다(come along/follow toward me): a leader walking ahead says 따라오세요 (follow me, toward where I'm going), but you describing yourself trailing them say 따라가요."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "따라가다 is a 가다 compound, so despite the 라 it is NOT a 르-irregular; it conjugates regularly and 가 + 아 contracts to 가, giving 따라가요.",
+        "chips": ["따라가요", "따라갔어요", "따라갈 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The person followed takes 을/를, not 에게 — a frequent slip, since 'follow' feels like motion 'to' someone. Don't mark the followed person with 에게."
+      }
+    ],
+    "mistakes": [
+      "Marking the person followed with 에게/한테 (친구에게 따라가요). The one you follow is a direct object: 친구를 따라가요.",
+      "Saying 따라오세요 when you mean to tell someone you'll go after them — from your viewpoint you move away, so it's 제가 따라갈게요; 따라오다 is for motion toward the speaker.",
+      "Over-applying 르 irregular logic to the 라 (expecting 따랄라 forms). 따라가다 is a compound of 가다 and conjugates regularly: 따라가요, 따라갔어요."
+    ],
     "irregular": null
   },
   {
@@ -337,16 +613,45 @@
       "shallWe": "데려갈까요?"
     },
     "usage": [
-      ["아이를 학교에 데려가요.", "I take the child to school.", "Taking a person"],
-      ["동생을 같이 데려갔어요.", "I took my sibling along.", "Past action"]
+      ["아이를 데려가요", "I take the child along.", "The person taken takes 을/를"],
+      ["병원에 데려가요", "I take them to the hospital.", "Destination takes 에"],
+      ["같이 데려가요", "I take them along with me.", "같이 stresses bringing them together"],
+      ["데려다 주세요", "Please take/drop me there.", "데려다주다 = escort/drop someone off"]
     ],
     "examples": [
-      ["저도 그 식당에 좀 데려가 주세요.", "Please take me to that restaurant too.", "Polite request"],
-      ["아이를 혼자 못 데려가요.", "I cannot take the child alone.", "Unable to do"],
-      ["주말에 부모님을 바다에 데려가고 싶어요.", "I want to take my parents to the sea this weekend.", "Expressing a wish"]
+      ["저도 그 식당에 좀 데려가 주세요.", "Please take me to that restaurant too.", "데려가 주세요 asks to be brought along; 에 marks where."],
+      ["아이를 학교에 데려가요.", "I take my child to school.", "Person 아이 takes 를, destination 학교 takes 에."],
+      ["주말에 부모님을 바다에 데려가고 싶어요.", "I want to take my parents to the sea this weekend.", "데려가다 for people; 가져가다 would be wrong here."]
     ],
-    "nuance": "데려가다 means taking a person or animal somewhere with you, while taking an object uses 가져가다 instead.",
-    "mistakes": ["Do not use 데려가다 for objects; use 가져가다."],
+    "nuance": "데려가다 is 데리다(accompany) + 가다(go) — taking a PERSON or animal along with you, moving AWAY from the listener to another place; you take a child to school, a friend to a restaurant, a dog to the vet. The crucial split is animacy: 데려가다 is ONLY for living beings, while 가져가다 is for objects — English 'take' blurs them, so 'take the kids' is 아이들을 데려가요 but 'take the bags' is 가방을 가져가요. Its directional pair is 데려오다(bring a person toward me). For someone older or deserving respect, the politer 모시고 가다 is used instead of 데려가다 (할머니를 모시고 가요). The person takes 을/를 and the destination 에. As a 가다 compound it conjugates regularly (데려가요, 데려갔어요). Related 데려다주다 means to escort/drop someone off. Pitfall: never use 데려가다 for things.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "데려가다 is 데리다(accompany) + 가다(go) — taking a PERSON or animal along with you, moving AWAY from the listener to another place; you take a child to school, a friend to a restaurant, a dog to the vet. The person takes 을/를 and the destination 에. Related 데려다주다 means to escort/drop someone off."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial split is animacy: 데려가다 is ONLY for living beings, while 가져가다 is for objects — 'take the kids' is 아이들을 데려가요 but 'take the bags' is 가방을 가져가요. Its directional pair is 데려오다(bring a person toward me). For someone older or deserving respect, the politer 모시고 가다 is used instead (할머니를 모시고 가요)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 가다 compound it conjugates regularly (데려가요, 데려갔어요).",
+        "chips": ["데려가요", "데려갔어요", "데려갈 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'take' blurs people and things, but never use 데려가다 for things — that is 가져가다."
+      }
+    ],
+    "mistakes": [
+      "Using 데려가다 for objects (우산을 데려가요). Living beings use 데려가다; for an umbrella or any thing use 가져가다.",
+      "Saying 데려가다 about an elder you respect (할아버지를 데려갔어요) can sound too plain or even rude. For seniors, use the honorific 모시고 가다: 할아버지를 모시고 갔어요.",
+      "Picking 데려오다 when the motion is away from you — taking someone elsewhere from here is 데려가요; 데려오다 is bringing a person toward your location."
+    ],
     "irregular": null
   },
   {
@@ -372,16 +677,45 @@
       "shallWe": "가져갈까요?"
     },
     "usage": [
-      ["우산을 가져가요.", "I take an umbrella.", "Taking an object"],
-      ["여권을 꼭 가져갔어요.", "I made sure to take my passport.", "Past action"]
+      ["우산을 가져가요", "I take an umbrella.", "The object taken takes 을/를"],
+      ["꼭 가져가요", "Be sure to take it.", "꼭 (without fail) stresses not forgetting"],
+      ["챙겨 가요", "I pack it and take it.", "챙겨 가다 = gather up and bring along"],
+      ["가져가도 돼요?", "May I take it?", "도 돼요 asks permission to take"]
     ],
     "examples": [
-      ["비가 오니까 우산을 가져가야 해요.", "It is raining so I must take an umbrella.", "Expressing obligation"],
-      ["이 짐은 무거워서 혼자 못 가져가요.", "This bag is heavy so I cannot take it alone.", "Unable to do"],
-      ["남은 음식은 집에 가져가도 돼요?", "May I take the leftover food home?", "Asking permission"]
+      ["이거 집에 가져가요.", "I'm taking this home.", "Object 이거 takes the spot of 을; 가 stem contracts in 가져가요."],
+      ["비가 오니까 우산을 가져가야 해요.", "It's raining, so I should take an umbrella.", "Thing 우산 takes 를; 야 해요 = must."],
+      ["남은 음식은 집에 가져가도 돼요?", "Can I take the leftovers home?", "도 돼요 politely asks permission."]
     ],
-    "nuance": "가져가다 means taking an object away to another place, while taking a person uses 데려가다 instead.",
-    "mistakes": ["Do not use 가져가다 for people; use 데려가다."],
+    "nuance": "가져가다 is 가지다(have/hold) + 가다(go) — taking an OBJECT away with you to another place, moving AWAY from the listener; you take an umbrella, a passport, leftovers. The animacy split is the heart of it: 가져가다 is strictly for things, while 데려가다 is for people and animals — since English 'take' covers both, learners wrongly say 가져가다 about a child. Its directional pair is 가져오다(bring a thing toward me): leaving the house you 우산을 가져가요, but asking a waiter you say 메뉴판 가져와 주세요. The object takes 을/를 and the destination 에. As a 가다 compound it's regular: 가 + 아 contracts, giving 가져가요 and 가져갔어요. Casual speech often shortens 가지고 to 갖고, and 가지고 가다 = 가져가다. Pitfall: don't use it for people, and don't flip the direction with 가져오다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "가져가다 is 가지다(have/hold) + 가다(go) — taking an OBJECT away with you to another place, moving AWAY from the listener; you take an umbrella, a passport, leftovers. The object takes 을/를 and the destination 에."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The animacy split is the heart of it: 가져가다 is strictly for things, while 데려가다 is for people and animals. Its directional pair is 가져오다(bring a thing toward me): leaving the house you 우산을 가져가요, but asking a waiter you say 메뉴판 가져와 주세요."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 가다 compound it's regular: 가 + 아 contracts, giving 가져가요 and 가져갔어요. Casual speech often shortens 가지고 to 갖고, and 가지고 가다 = 가져가다.",
+        "chips": ["가져가요", "가져갔어요", "갖고 가요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Since English 'take' covers both, learners wrongly say 가져가다 about a child. Don't use it for people, and don't flip the direction with 가져오다."
+      }
+    ],
+    "mistakes": [
+      "Using 가져가다 for a person or pet (동생을 가져가요). Things use 가져가다; people and animals use 데려가다: 동생을 데려가요.",
+      "Choosing 가져오다 when the motion is away from you — carrying something off from here is 가져가요; 가져오다 brings a thing toward where you are.",
+      "Writing it long as 가지어 가요 — the contracted compound is 가져가다 (가져가요), and the casual variant is 갖고 가요."
+    ],
     "irregular": null
   },
   {
@@ -407,16 +741,45 @@
       "shallWe": "가져올까요?"
     },
     "usage": [
-      ["물 한 잔 가져와요.", "I bring a glass of water.", "Bringing an object"],
-      ["선물을 가져왔어요.", "I brought a gift.", "Past action"]
+      ["물 좀 가져와요", "Bring some water.", "The object brought takes 을/를 (often dropped casually)"],
+      ["여기로 가져와요", "Bring it over here.", "로/에 marks toward the speaker's spot"],
+      ["가져와 주세요", "Please bring it.", "와 주세요 politely asks someone to bring it"],
+      ["변화를 가져와요", "It brings (about) change.", "Figurative: 가져오다 = bring about a result"]
     ],
     "examples": [
-      ["메뉴판 좀 가져와 주세요.", "Please bring me the menu.", "Polite request"],
-      ["여권을 안 가져와서 걱정이에요.", "I did not bring my passport so I am worried.", "Stating a problem"],
-      ["내일 모임에 무엇을 가져올까요?", "What shall I bring to the gathering tomorrow?", "Making a suggestion"]
+      ["물 한 잔 가져와요.", "Bring a glass of water.", "오 + 아 fuses to 와, so it's 가져와요, never 가져오아요."],
+      ["메뉴판 좀 가져와 주세요.", "Could you bring the menu, please?", "와 주세요 is the standard polite 'please bring' in a café."],
+      ["여권을 안 가져와서 걱정이에요.", "I'm worried because I didn't bring my passport.", "안 가져오다 negates; 아서 gives the reason."]
     ],
-    "nuance": "가져오다 means bringing an object toward the speaker, so it points here while 가져가다 points away.",
-    "mistakes": ["Do not confuse 가져오다 (bring thing) with 데려오다 (bring person)."],
+    "nuance": "가져오다 is 가지다(have/hold) + 오다(come) — bringing an OBJECT TOWARD the speaker's location, the mirror image of 가져가다(take away): here it points HERE, there it points away, exactly like English bring vs take keyed to where 'here' is. So in a restaurant you ask 메뉴판 가져와 주세요 (bring it to me), but leaving home you say 우산을 가져가요 (take it with me, away). The animacy rule still holds: things use 가져오다, whereas bringing a PERSON toward you is 데려오다 (아이를 데려와요). Figuratively it means to bring about (변화를 가져오다, bring about change). The object takes 을/를, often dropped in casual speech. As an 오다 compound it's regular and 오 + 아 fuses to 와, giving 가져와요 and 가져왔어요. Pitfall: don't aim the direction wrong with 가져가다, and don't use it for people.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "가져오다 is 가지다(have/hold) + 오다(come) — bringing an OBJECT TOWARD the speaker's location. Figuratively it means to bring about (변화를 가져오다, bring about change). The object takes 을/를, often dropped in casual speech."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is the mirror image of 가져가다(take away): here it points HERE, there it points away, exactly like English bring vs take keyed to where 'here' is. So in a restaurant you ask 메뉴판 가져와 주세요 (bring it to me), but leaving home you say 우산을 가져가요 (take it with me, away). The animacy rule still holds: things use 가져오다, whereas bringing a PERSON toward you is 데려오다 (아이를 데려와요)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As an 오다 compound it's regular and 오 + 아 fuses to 와, giving 가져와요 and 가져왔어요.",
+        "chips": ["가져와요", "가져왔어요", "가져올 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't aim the direction wrong with 가져가다, and don't use it for people (that is 데려오다)."
+      }
+    ],
+    "mistakes": [
+      "Using 가져가다 when something should come toward you — asking a waiter for water is 물 가져와 주세요 (bring it here); 가져가다 would send it away.",
+      "Using 가져오다 for a person (친구를 가져왔어요). Bringing a living being toward you is 데려오다: 친구를 데려왔어요.",
+      "Writing 가져오아요 with the full ending — the 오 stem plus 아 fuses to 와, so the present is 가져와요 and the past is 가져왔어요."
+    ],
     "irregular": null
   }
 ]

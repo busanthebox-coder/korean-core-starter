@@ -7,20 +7,43 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["사업을 하다", "to run a business", "사업하다 also works as one verb; 사업을 하다 splits it with the object marker"],
-      ["사업을 시작하다", "to start a business", "시작하다 = to begin; common with launching a venture"],
-      ["사업이 잘되다", "the business is going well", "잘되다 (one word) = to go well; 사업이 안되다 = to do badly"],
-      ["사업 계획", "business plan", "계획 = plan; 사업 모델, 사업 분야 also use 사업 as a modifier"]
+      ["사업을 하다", "to run a business", "사업하다 is also one verb; once you add the object marker 을 you must split it: 사업을 하다"],
+      ["사업을 시작하다", "to start a business", "시작하다 = to begin; 사업을 차리다 (to set up a business) is a more colloquial alternative"],
+      ["사업이 잘되다", "the business is going well", "잘되다 is one word and intransitive; the opposite is 사업이 안되다 (business is doing badly)"],
+      ["사업 계획", "business plan", "계획 = plan; 사업 모델, 사업 분야, 사업 자금 also use 사업 as a bare modifier (no 의)"]
     ],
     "examples": [
-      ["저는 작은 온라인 사업을 시작하려고 해요.", "I'm planning to start a small online business.", "V-(으)려고 하다 = intend to; 작은 modifies 사업"],
-      ["요즘 경기가 안 좋아서 사업이 잘 안돼요.", "Business isn't going well these days because the economy is bad.", "안돼요 = isn't going well; -아서/어서 gives the reason"],
-      ["그분은 사업으로 크게 성공한 사람이에요.", "He's someone who succeeded big in business.", "사업으로 = through/in business; 성공하다 = to succeed"]
+      ["저는 작은 사업을 하고 싶어요.", "I want to run a small business.", "Beginner frame: 사업을 하다 split by 을; 작은 modifies 사업"],
+      ["요즘 경기가 안 좋아서 사업이 잘 안돼요.", "Business isn't going well these days because the economy is bad.", "안돼요 = isn't going well; -아서 gives the reason and can't take a past tense before it"],
+      ["그분은 맨손으로 시작해서 사업으로 크게 성공한 분이에요.", "He started from nothing and made it big in business.", "사업으로 = through/in business; 맨손으로 = with bare hands, a real-life success-story phrase"]
     ],
-    "nuance": "사업 is business as an undertaking or venture — running a company, a commercial project, or being self-employed. It is broader and more concrete than 산업 (industry as a sector) and refers to what an individual or company actively does. A government or public project is also called 사업 (예: 복지 사업, welfare project).",
+    "nuance": "사업 (事業, literally 'affair-work') is business as an active undertaking — running a company, launching a commercial project, or being self-employed. The key boundary is against 산업 (産業, industry as a whole sector): 사업 is what one person or firm concretely does, while 산업 is the field that many businesses belong to (자동차 산업 = the auto industry, but 자동차 사업 = a particular auto-related business venture). It is also broader than the English word — a government or non-profit project is a 사업 too (복지 사업 = welfare project), so don't restrict it to 'for-profit'. Register is neutral; everyone from a small shop owner to a CEO uses it. The classic English-speaker pitfall is treating 사업하다 as a fixed block: the moment an object marker appears you must break it apart (사업을 하다, 사업을 시작하다), never 사업하다를. Also resist translating 'do business with someone' word-for-word — Koreans say 거래하다 (to trade/deal) for that, not 사업을 하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "사업 is business as an active undertaking — running a company, launching a commercial project, or being self-employed. It is also broader than the English word: a government or non-profit project is a 사업 too (복지 사업 = welfare project), so don't restrict it to 'for-profit'. Register is neutral; everyone from a small shop owner to a CEO uses it."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key boundary is against 산업 (industry as a whole sector): 사업 is what one person or firm concretely does, while 산업 is the field that many businesses belong to (자동차 산업 = the auto industry, but 자동차 사업 = a particular auto-related business venture)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "事業 literally means 'affair-work'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic pitfall is treating 사업하다 as a fixed block: the moment an object marker appears you must break it apart (사업을 하다, 사업을 시작하다), never 사업하다를. Also resist translating 'do business with someone' word-for-word — Koreans say 거래하다 (to trade/deal) for that, not 사업을 하다."
+      }
+    ],
     "mistakes": [
-      "Don't confuse 사업 (a business/venture you run) with 산업 (an industry sector like 자동차 산업).",
-      "사업하다 is one verb, but when you add an object marker you must split it: 사업을 하다, not 사업하다를."
+      "Don't confuse 사업 (a venture you actively run) with 산업 (an industry sector): say 자동차 산업이 발전했다 for the sector, but 그는 자동차 사업을 한다 for one person's business.",
+      "사업하다 is one verb, but adding the object marker forces a split: 사업을 하다, never 사업하다를.",
+      "'Do business with a partner' is not 그 사람과 사업을 하다 — Koreans say 그 사람과 거래하다 (to deal/trade with) for an ongoing commercial relationship."
     ]
   },
   {
@@ -31,20 +54,43 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["자동차 산업", "the automobile industry", "산업 follows the field as a modifier: 반도체 산업, 관광 산업"],
-      ["산업이 발전하다", "the industry develops", "발전하다 = to develop/advance; 산업이 성장하다 also common"],
-      ["산업 구조", "industrial structure", "구조 = structure; describes how an economy's sectors are organized"],
-      ["첨단 산업", "high-tech industry", "첨단 = cutting-edge; contrasts with 전통 산업 (traditional industry)"]
+      ["자동차 산업", "the automobile industry", "산업 follows the field as a bare modifier: 반도체 산업, 관광 산업, 게임 산업"],
+      ["산업이 발전하다", "the industry develops", "발전하다 = to develop/advance; 산업이 성장하다 (to grow) is an equally common partner"],
+      ["산업 구조", "industrial structure", "구조 = structure; describes how an economy's sectors are organized and is heavy news/policy vocabulary"],
+      ["첨단 산업", "high-tech industry", "첨단 = cutting-edge; the natural contrast is 전통 산업 (traditional industry) or 사양 산업 (declining industry)"]
     ],
     "examples": [
-      ["한국은 반도체 산업이 매우 발달해 있어요.", "Korea's semiconductor industry is very advanced.", "발달해 있다 = is (in a state of being) developed; V-아/어 있다 for resulting state"],
-      ["요즘은 인공지능 관련 산업이 빠르게 성장하고 있어요.", "These days AI-related industries are growing fast.", "관련 = related; -고 있다 for ongoing change"],
-      ["이 도시는 관광 산업으로 유명해요.", "This city is famous for its tourism industry.", "(으)로 유명하다 = famous for"]
+      ["한국은 반도체 산업이 발달해 있어요.", "Korea's semiconductor industry is well developed.", "Beginner frame: 발달해 있다 = is in a developed state; V-아/어 있다 marks a resulting condition"],
+      ["인공지능 관련 산업이 빠르게 성장하고 있어요.", "AI-related industries are growing fast.", "관련 = related (attached directly, no 의); -고 있다 here marks an ongoing change/trend"],
+      ["이 지역은 한때 조선 산업으로 먹고살았지만 지금은 관광에 의존해요.", "This region once lived off the shipbuilding industry but now depends on tourism.", "(으)로 먹고살다 = to make a living off; 의존하다 = to depend on — a real regional-economy sentence"]
     ],
-    "nuance": "산업 refers to an industry as a whole sector of the economy (manufacturing, tourism, IT), not a single company. Use it for macro-level talk about the economy. 사업 is what a specific business does; 산업 is the field that many businesses belong to. You will see it constantly in news and formal writing.",
+    "nuance": "산업 (産業, 'produce-work') is an industry as an entire economic sector — manufacturing, tourism, IT — never a single company. Use it for macro-level talk: news, government reports, and any discussion of how the economy is structured. The sharp dividing line is against 사업 (事業, business venture): many 사업체 (businesses) together make up one 산업. So 산업을 시작하다 is wrong for 'start a business' — a person cannot launch a whole sector; they start a 사업. A related near-synonym is 업종 (業種, line of business / business category), but 업종 is narrower and is used to classify an individual shop ('what 업종 is your store?'), whereas 산업 is the broad sector above it. Register is formal-to-neutral; you will rarely hear 산업 in casual chat about your own job, but constantly in writing. The English-speaker pitfall is letting the romanization blur it with 사업 — the 산(ㄴ받침) vs 사 distinction is the entire meaning, and the two are not interchangeable.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "산업 is an industry as an entire economic sector — manufacturing, tourism, IT — never a single company. Use it for macro-level talk: news, government reports, and any discussion of how the economy is structured. Register is formal-to-neutral; you will rarely hear 산업 in casual chat about your own job, but constantly in writing."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp dividing line is against 사업 (business venture): many 사업체 (businesses) together make up one 산업. So 산업을 시작하다 is wrong for 'start a business' — a person cannot launch a whole sector; they start a 사업. A related near-synonym is 업종 (line of business / business category), but 업종 is narrower and is used to classify an individual shop ('what 업종 is your store?'), whereas 산업 is the broad sector above it."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "産業 means 'produce-work'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is letting the romanization blur it with 사업 — the 산 (ㄴ받침) vs 사 distinction is the entire meaning, and the two are not interchangeable."
+      }
+    ],
     "mistakes": [
-      "산업 is a sector, so don't say 산업을 시작하다 to mean 'start a business' — use 사업을 시작하다.",
-      "Avoid the romanization-driven mix-up: 산업 = industry, 사업 = business; the 'ㄴ' vs 'ㅏ' difference matters."
+      "산업 is a sector, so 산업을 시작하다 cannot mean 'start a business' — use 사업을 시작하다; a person starts a venture, not a whole industry.",
+      "Don't let the similar sound merge 산업 (industry) and 사업 (business): the ㄴ batchim in 산 carries the entire meaning difference.",
+      "To say what field a small shop is in, Koreans usually ask 업종이 뭐예요? (what's the line of business?), not 산업이 뭐예요? — 산업 is too macro for one store."
     ]
   },
   {
@@ -55,20 +101,43 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["경력이 있다", "to have experience", "경력이 없다 = to have no experience; counts as professional track record"],
-      ["경력을 쌓다", "to build up one's career/experience", "쌓다 = to pile up/accumulate"],
-      ["경력 5년", "5 years of experience", "number + 년 after 경력 states length of career"],
-      ["경력직", "experienced hire (mid-career position)", "-직 = position; contrasts with 신입 (new graduate hire)"]
+      ["경력이 있다", "to have (professional) experience", "the opposite is 경력이 없다; this is a track record, not a one-off experience"],
+      ["경력을 쌓다", "to build up one's career", "쌓다 = to pile up/accumulate — the idiomatic verb; 경력을 만들다 sounds wrong"],
+      ["경력 5년", "5 years of experience", "number + 년 directly after 경력 states length; 경력 단절 = a career gap/break"],
+      ["경력직", "experienced (mid-career) hire", "-직 = position/post; the contrast term in hiring is 신입 (new-graduate hire)"]
     ],
     "examples": [
-      ["이 일은 관련 경력이 3년 이상 필요해요.", "This job requires at least 3 years of relevant experience.", "이상 = or more; 필요하다 = to be needed"],
-      ["저는 마케팅 분야에서 경력을 쌓고 싶어요.", "I want to build my career in the marketing field.", "분야에서 = in the field of; -고 싶다 = want to"],
-      ["경력이 많을수록 연봉도 높아져요.", "The more experience you have, the higher the salary gets.", "-(으)ㄹ수록 = the more...the more; 높아지다 = to become higher"]
+      ["저는 경력이 별로 없어요.", "I don't really have much (work) experience.", "Beginner frame: 경력이 없다; 별로 + negative = not really/much"],
+      ["마케팅 분야에서 경력을 더 쌓고 싶어요.", "I want to build up more experience in the marketing field.", "분야에서 = in the field of; 쌓다 is the fixed verb for accumulating a career"],
+      ["경력이 화려해도 인성이 안 좋으면 뽑지 않아요.", "Even with a dazzling résumé, we don't hire someone with poor character.", "경력이 화려하다 = to have an impressive career; -아도 = even if — a real hiring-panel remark"]
     ],
-    "nuance": "경력 means accumulated professional experience or work history — what goes on a résumé. It differs from 경험 (경험, any experience, including everyday or one-time experiences). For a job application, you list your 경력; a fun trip is a 경험, not 경력. 경력직 (experienced hire) is a key word in Korean hiring.",
+    "nuance": "경력 (經歷, 'pass-through + experience', i.e. things you have lived/worked through) means accumulated professional experience or work history — exactly what fills the career section of a résumé. The critical contrast is with 경험 (經驗): 경험 is experience of any kind, including a fun trip, a first kiss, or eating something new, whereas 경력 is specifically a documented work/professional track record. A backpacking trip is a great 경험 but is not 경력; three years at a company is both. Because it is a record, 경력 is counted in years with 년 (경력 3년), not with 번 (times) or 개 (items). High-frequency offshoots dominate Korean hiring: 경력직 (experienced hire) versus 신입 (new graduate), and 경력 단절 (a career break, often used for women returning to work). Register is neutral and shows up on every job posting. The English-speaker pitfall is using 경력 wherever English says 'experience' — for the broad sense ('It was a great experience'), you need 경험, and swapping them sounds odd to a Korean ear.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "경력 means accumulated professional experience or work history — exactly what fills the career section of a résumé. Because it is a record, 경력 is counted in years with 년 (경력 3년), not with 번 (times) or 개 (items). High-frequency offshoots dominate Korean hiring: 경력직 (experienced hire) versus 신입 (new graduate), and 경력 단절 (a career break, often used for women returning to work). Register is neutral and shows up on every job posting."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The critical contrast is with 경험: 경험 is experience of any kind, including a fun trip, a first kiss, or eating something new, whereas 경력 is specifically a documented work/professional track record. A backpacking trip is a great 경험 but is not 경력; three years at a company is both."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "經歷 means 'pass-through + experience', i.e. things you have lived/worked through."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is using 경력 wherever English says 'experience' — for the broad sense ('It was a great experience'), you need 경험, and swapping them sounds odd to a Korean ear."
+      }
+    ],
     "mistakes": [
-      "Don't swap 경력 with 경험: 경력 = professional track record, 경험 = experience in general (already in beginner vocab).",
-      "경력 is counted in years with 년 (경력 3년), not with 번 or 개."
+      "Don't use 경력 for general life experience: 'It was a good experience' is 좋은 경험이었어요, not 좋은 경력이었어요 — 경력 is only a professional track record.",
+      "경력 is counted in years with 년 (경력 5년), not with 번 (times) or 개 (pieces).",
+      "To build a career, use 경력을 쌓다 (accumulate); 경력을 만들다 (make a career) is unnatural in Korean."
     ]
   },
   {
@@ -79,20 +148,43 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["채용하다", "to hire/recruit", "직원을 채용하다 = to hire an employee"],
-      ["채용 공고", "job posting / recruitment notice", "공고 = public notice; where openings are announced"],
-      ["신입 채용", "new-graduate recruitment", "신입 = entry-level; 경력 채용 = experienced-hire recruitment"],
-      ["채용이 되다", "to get hired", "passive sense; 채용 과정 = hiring process"]
+      ["직원을 채용하다", "to hire an employee", "채용하다 is what the company does; the agent is the employer, not the applicant"],
+      ["채용 공고", "job posting / recruitment notice", "공고 = public notice; the place openings are announced (채용 공고를 보다 = to see a job ad)"],
+      ["신입 채용", "new-graduate recruitment", "신입 = entry-level; the partner term is 경력 채용 (experienced-hire recruitment)"],
+      ["채용 과정", "hiring process", "과정 = process; 채용이 되다 = to get hired (passive); 채용을 취소하다 = to cancel a hire"]
     ],
     "examples": [
-      ["그 회사는 올해 신입 사원을 많이 채용할 거예요.", "That company will hire a lot of new employees this year.", "V-(으)ㄹ 거예요 = will; 사원 = staff member"],
-      ["채용 공고를 보고 지원서를 냈어요.", "I saw the job posting and submitted an application.", "-고 = and then; 지원서를 내다 = to submit an application"],
-      ["요즘은 경력직 채용이 신입 채용보다 더 많아요.", "These days experienced-hire recruitment is more common than new-graduate recruitment.", "N보다 더 = more than"]
+      ["그 회사는 올해 신입을 많이 채용해요.", "That company is hiring a lot of new graduates this year.", "Beginner frame: 신입을 채용하다 — the company is the subject"],
+      ["채용 공고를 보고 지원서를 냈어요.", "I saw the job posting and submitted my application.", "-고 = and then; 지원서를 내다 = to hand in an application — note the applicant 지원한다, not 채용한다"],
+      ["요즘은 수시 채용이 늘어서 공채 시즌이 거의 사라졌어요.", "Open-ended hiring has grown lately, so the mass-recruitment season has nearly vanished.", "수시 채용 = rolling/as-needed hiring vs 공채 (公採, scheduled mass recruitment) — current job-market vocabulary"]
     ],
-    "nuance": "채용 is the formal word for recruitment/hiring used by companies — you see it in 채용 공고 (job postings) and 채용 과정 (hiring process). It is more institutional than the casual 뽑다 (to pick/select, already known). A company 채용한다; the applicant 지원한다 (applies). 입사하다 (already in vocab) is the applicant joining after being hired.",
+    "nuance": "채용 (採用, 'pick/gather + use', i.e. to select and put to use) is the formal, institutional word for recruitment and hiring that companies use — it dominates 채용 공고 (job postings) and 채용 과정 (the hiring process). The register contrast is against the everyday verb 뽑다 (to pick/select): a friend might casually say 회사에서 사람 뽑는대 (I hear the company is taking people on), but the official notice says 채용. The directional pitfall trips up English speakers constantly: the employer 채용한다 (hires/recruits), while the applicant 지원한다 (applies) — these are not interchangeable, so '저는 그 회사에 채용했어요' to mean 'I applied' is wrong; you 지원했어요 and were then 채용됐어요 (got hired). Note also that 입사하다 (to enter a company, already in vocab) is the later step of actually joining after the offer. Spelling matters: the first syllable is 채 (ㅐ), not 체. Worth knowing the modern split: 공채 (scheduled mass hiring) versus 수시 채용 (rolling hiring), a frequent news topic.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "채용 is the formal, institutional word for recruitment and hiring that companies use — it dominates 채용 공고 (job postings) and 채용 과정 (the hiring process). Note that 입사하다 (to enter a company) is the later step of actually joining after the offer. Worth knowing the modern split: 공채 (scheduled mass hiring) versus 수시 채용 (rolling hiring), a frequent news topic."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The register contrast is against the everyday verb 뽑다 (to pick/select): a friend might casually say 회사에서 사람 뽑는대 (I hear the company is taking people on), but the official notice says 채용."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "採用 means 'pick/gather + use', i.e. to select and put to use."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The directional pitfall trips up English speakers constantly: the employer 채용한다 (hires/recruits), while the applicant 지원한다 (applies) — these are not interchangeable, so '저는 그 회사에 채용했어요' to mean 'I applied' is wrong; you 지원했어요 and were then 채용됐어요 (got hired). Spelling matters too: the first syllable is 채 (ㅐ), not 체."
+      }
+    ],
     "mistakes": [
-      "채용하다 is what the company does (hires); the applicant 지원하다 (applies) — don't reverse them.",
-      "Don't write 채용 as 체용; the first syllable is 채 (ㅐ)."
+      "채용하다 is what the employer does; the applicant 지원하다 (applies). 'I applied to the company' is 그 회사에 지원했어요, never 그 회사에 채용했어요.",
+      "Don't write 채용 as 체용 — the first syllable is 채 (ㅐ).",
+      "Getting hired is the passive 채용되다 (저는 채용됐어요), not the active 채용하다, which would mean you did the hiring."
     ]
   },
   {
@@ -103,20 +195,43 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["수입이 많다", "to have a high income", "수입이 적다 = to have a low income"],
-      ["수입이 줄다", "income decreases", "줄다 = to decrease; 수입이 늘다 = income increases"],
-      ["한 달 수입", "monthly income", "한 달 = one month; states the period of income"],
-      ["수입과 지출", "income and expenditure", "지출 (already in vocab) = spending; common budgeting pair"]
+      ["수입이 많다", "to have a high income", "the opposite is 수입이 적다; describes how much money comes in"],
+      ["수입이 줄다", "income decreases", "줄다 = to decrease (intransitive); 수입이 늘다 = income increases"],
+      ["한 달 수입", "monthly income", "한 달 = one month; 고정 수입 = fixed/steady income, 부수입 = side income"],
+      ["수입과 지출", "income and expenditure", "지출 (already in vocab) = outgo; this is the standard budgeting pair (in vs out)"]
     ],
     "examples": [
-      ["프리랜서는 매달 수입이 일정하지 않아요.", "A freelancer's income isn't steady every month.", "일정하다 = to be fixed/steady; -지 않다 = negative"],
-      ["부수입을 올리려고 주말에 아르바이트를 해요.", "I work a part-time job on weekends to earn extra income.", "부수입 = side income; 올리다 = to raise/earn"],
-      ["수입보다 지출이 많으면 저축하기 어려워요.", "If spending exceeds income, it's hard to save.", "N보다 = than; -기 어렵다 = hard to do"]
+      ["저는 한 달 수입이 많지 않아요.", "My monthly income isn't very high.", "Beginner frame: 수입이 많다/적다; 많지 않다 = not much"],
+      ["프리랜서는 매달 수입이 일정하지 않아서 불안해요.", "A freelancer's income isn't steady month to month, so it's stressful.", "일정하다 = to be steady/fixed; -지 않아서 chains the negative reason"],
+      ["수입보다 지출이 많으면 적자가 나니까 가계부를 써 보세요.", "If spending exceeds income you run a deficit, so try keeping a budget book.", "적자가 나다 = to go into the red; N보다 = than — a practical money-management line"]
     ],
-    "nuance": "수입 most often means income or revenue (money coming in), contrasted with 지출 (spending). Note it is a homograph: 수입(輸入) also means imports (the opposite of 수출, exports), distinguished only by context. For personal money, think 수입 = earnings. 소득 (already in vocab) is a near-synonym for income, often used in formal/statistical contexts (예: 소득세, income tax).",
+    "nuance": "수입 for personal money means income or revenue — the money coming in — and lives in opposition to 지출 (spending going out). Crucially it is a homograph hiding two different hanja: 收入 ('gather + enter') is income, while 輸入 ('transport + enter') is imports, the opposite of 수출 (輸出, exports). Spoken aloud they are identical, so only context tells you whether 수입 means a paycheck or a shipment of foreign goods; in an economics lecture both senses can appear in one paragraph. The near-synonym for the income sense is 소득 (所得, already in vocab): 소득 is the more formal/statistical word (소득세 = income tax, 소득 수준 = income level), whereas 수입 feels closer to everyday earnings, especially 한 달 수입 (monthly take). The English-speaker pitfall is assuming 'income' maps only to one fixed word and then panicking when 수입 shows up meaning 'imports' — train yourself to read the surrounding sentence. Also note 수입 is a noun describing a state (수입이 많다), so you don't conjugate it like a verb.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "수입 for personal money means income or revenue — the money coming in — and lives in opposition to 지출 (spending going out). Note 수입 is a noun describing a state (수입이 많다), so you don't conjugate it like a verb."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym for the income sense is 소득: 소득 is the more formal/statistical word (소득세 = income tax, 소득 수준 = income level), whereas 수입 feels closer to everyday earnings, especially 한 달 수입 (monthly take). 수입 is also distinct from 수출 (輸出, exports), its economic opposite."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "수입 is a homograph hiding two different hanja: 收入 ('gather + enter') is income, while 輸入 ('transport + enter') is imports, the opposite of 수출 (輸出, exports). Spoken aloud they are identical, so only context tells you whether 수입 means a paycheck or a shipment of foreign goods; in an economics lecture both senses can appear in one paragraph."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is assuming 'income' maps only to one fixed word and then panicking when 수입 shows up meaning 'imports' — train yourself to read the surrounding sentence."
+      }
+    ],
     "mistakes": [
-      "수입 means both 'income' and 'imports' — context decides; don't assume one meaning without checking the sentence.",
-      "Don't confuse 수입 (income/imports) with 수출 (exports); 입 = enter, 출 = exit."
+      "수입 is a homograph: it means both 'income' (收入) and 'imports' (輸入). Context decides — don't assume the paycheck meaning when the sentence is about trade.",
+      "Don't confuse 수입 (income/imports, 入 = enter) with 수출 (exports, 出 = exit); they are economic opposites.",
+      "For formal or statistical 'income' (income tax, income bracket) Koreans prefer 소득 (소득세, 소득 수준), not 수입."
     ]
   },
   {
@@ -127,20 +242,43 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["손해를 보다", "to suffer a loss", "보다 here = to incur; the standard collocation"],
-      ["손해를 입다", "to sustain damage/loss", "입다 = to suffer (formal); 손해를 끼치다 = to cause loss to someone"],
-      ["손해가 크다", "the loss is big", "크다/적다 describe the size of the loss"],
-      ["손해 배상", "compensation for damages", "배상 = compensation; legal/business term"]
+      ["손해를 보다", "to suffer/incur a loss", "보다 here means 'to incur', not 'to see' — the single most important collocation to memorize"],
+      ["손해를 입다", "to sustain damage/loss", "입다 = to suffer (slightly more formal); 손해를 끼치다 = to cause a loss to someone else"],
+      ["손해가 크다", "the loss is big", "크다/적다 size the loss; 손해가 막심하다 = the loss is severe (set phrase)"],
+      ["손해 배상", "compensation for damages", "배상 = indemnity; 손해 배상을 청구하다 = to claim damages — legal/business register"]
     ],
     "examples": [
-      ["지금 팔면 손해를 볼 것 같아서 좀 더 기다리려고요.", "I think I'll lose money if I sell now, so I'm going to wait a bit longer.", "V-(으)ㄹ 것 같다 = seems like; -(으)려고요 = I intend to"],
-      ["회사가 이번 투자로 큰 손해를 입었어요.", "The company suffered a big loss from this investment.", "투자로 = from/through the investment; 입다 = to sustain"],
-      ["환불해 주지 않으면 소비자가 손해를 봐요.", "If they don't refund it, the consumer takes the loss.", "-아/어 주다 = do for someone; 소비자 = consumer"]
+      ["그렇게 하면 제가 손해예요.", "If we do it that way, I lose out.", "Beginner frame: noun-as-predicate 손해(이)다 = to be a loss/disadvantage to someone"],
+      ["지금 팔면 손해를 볼 것 같아서 조금 더 기다리려고요.", "I think I'll take a loss if I sell now, so I'll wait a bit longer.", "손해를 보다 = to incur a loss; -(으)ㄹ 것 같다 = it seems — note 보다 is NOT 'see' here"],
+      ["환불을 안 해 주면 결국 소비자만 손해를 보는 거잖아요.", "If they won't refund it, in the end it's only the consumer who loses out, right?", "결국 = in the end; -잖아요 = appeals to shared knowledge — a real complaint-line"]
     ],
-    "nuance": "손해 is a loss or damage, almost always financial or in terms of disadvantage — the opposite of 이익/이득 (profit/gain). The set phrase 손해를 보다 ('to take a loss') is essential and very frequent. Use 손해 for money lost or a deal where you come out worse; for physical breakage use 고장 or 피해 instead.",
+    "nuance": "손해 (損害, 'damage + harm') is a loss or disadvantage, almost always financial or in terms of coming out worse off — the direct opposite of 이익/이득 (profit/gain). Its make-or-break collocation is 손해를 보다, where 보다 does NOT mean 'to see' but 'to incur/take', so 손해를 보다 = 'to take a loss'; English speakers often mis-hear this and either mistranslate it or wrongly substitute 손해를 하다, which is simply not Korean. The boundary against 피해 (被害, harm/damage suffered) matters: 손해 leans toward monetary or deal-based disadvantage (a bad sale, an unfair trade), while 피해 covers broader harm including physical or disaster damage (태풍 피해 = typhoon damage, 피해자 = victim). For a machine breaking, use 고장 (malfunction), not 손해. Register is neutral and it even works conversationally as a predicate noun: 나만 손해야 (I'm the only one who loses out). The pitfall to drill is the verb pairing — 손해를 보다 / 입다, never 손해를 하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "손해 is a loss or disadvantage, almost always financial or in terms of coming out worse off — the direct opposite of 이익/이득 (profit/gain). Register is neutral and it even works conversationally as a predicate noun: 나만 손해야 (I'm the only one who loses out)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The boundary against 피해 (harm/damage suffered) matters: 손해 leans toward monetary or deal-based disadvantage (a bad sale, an unfair trade), while 피해 covers broader harm including physical or disaster damage (태풍 피해 = typhoon damage, 피해자 = victim). For a machine breaking, use 고장 (malfunction), not 손해."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "損害 means 'damage + harm'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Its make-or-break collocation is 손해를 보다, where 보다 does NOT mean 'to see' but 'to incur/take', so 손해를 보다 = 'to take a loss'; English speakers often mis-hear this and either mistranslate it or wrongly substitute 손해를 하다, which is simply not Korean. The pitfall to drill is the verb pairing — 손해를 보다 / 입다, never 손해를 하다."
+      }
+    ],
     "mistakes": [
-      "Use 손해를 보다 (with 보다) for 'to suffer a loss' — learners often wrongly say 손해를 하다.",
-      "손해 is about loss/disadvantage; don't use it for physical breakage (use 고장/피해)."
+      "Use 손해를 보다 (보다 = incur, not see) or 손해를 입다 for 'to suffer a loss'; 손해를 하다 is not Korean.",
+      "손해 is monetary/disadvantage loss; for broad harm — physical, disaster, victim — use 피해 (태풍 피해, 피해자), and for a device breaking use 고장.",
+      "손해 is the opposite of 이익 (profit), so don't mix it up with 손님 (guest/customer), which only looks similar."
     ]
   },
   {
@@ -151,20 +289,43 @@
     "chapterIds": ["chapter-10"],
     "grammarIds": [],
     "usage": [
-      ["가치가 있다", "to be worthwhile / have value", "가치가 없다 = to be worthless"],
-      ["가치가 오르다", "to rise in value", "오르다/떨어지다 for value going up/down (e.g., property, stocks)"],
-      ["V-(으)ㄹ 가치가 있다", "to be worth doing", "예: 볼 가치가 있다 = worth seeing"],
-      ["가치관", "set of values; worldview", "-관 = view; one's personal value system"]
+      ["가치가 있다", "to be worthwhile / have value", "the opposite is 가치가 없다 (worthless); covers both economic and abstract worth"],
+      ["가치가 오르다", "to rise in value", "오르다/떨어지다 for value going up/down (property, stocks, currency, a collectible)"],
+      ["V-(으)ㄹ 가치가 있다", "to be worth doing", "예: 볼 가치가 있다 (worth seeing), 도전해 볼 가치가 있다 (worth trying)"],
+      ["가치관", "set of values; worldview", "-관 (觀) = view; 가치관이 다르다 = to have different values — a very common relationship phrase"]
     ],
     "examples": [
-      ["이 경험은 돈으로 살 수 없는 가치가 있어요.", "This experience has a value that money can't buy.", "V-(으)ㄹ 수 없다 = cannot; 가치가 있다 = has value"],
-      ["그 그림은 시간이 지날수록 가치가 올라갔어요.", "That painting rose in value as time passed.", "-(으)ㄹ수록 = the more...; 올라가다 = to go up"],
-      ["저는 일을 고를 때 연봉보다 가치를 더 중요하게 생각해요.", "When I choose a job, I value meaning more than salary.", "고를 때 = when choosing; 중요하게 생각하다 = to consider important"]
+      ["이건 정말 가치가 있어요.", "This really has value / is worthwhile.", "Beginner frame: 가치가 있다 as a simple predicate of worth"],
+      ["그 그림은 시간이 지날수록 가치가 올라갔어요.", "That painting rose in value as time went by.", "-(으)ㄹ수록 = the more...; 가치가 오르다/올라가다 for appreciating value"],
+      ["저는 일을 고를 때 연봉보다 그 일의 가치를 더 중요하게 봐요.", "When I pick a job, I weigh the meaning of the work over the salary.", "고를 때 = when choosing; 중요하게 보다 = to regard as important — a real values-based statement"]
     ],
-    "nuance": "가치 means value or worth — both economic value (가치가 오르다, rises in value) and abstract worth (인생의 가치, the value of life). The pattern V-(으)ㄹ 가치가 있다 ('worth doing') is extremely useful. 가치관 (one's values/worldview) is a high-frequency derived word. Distinguish from 가격 (가격, price tag) and 값 (value/cost), which are concrete amounts.",
+    "nuance": "가치 (價値, 'price + value') means value or worth, spanning both economic value (가치가 오르다 = rises in value, of property or stocks) and abstract worth (인생의 가치 = the value of life, 일의 가치 = the worth of one's work). The most useful pattern built on it is V-(으)ㄹ 가치가 있다 ('worth doing': 볼 가치가 있다 = worth seeing), and the derived 가치관 (one's value system/worldview) is extremely high-frequency, especially 가치관이 다르다 when people clash. The dividing line is against the concrete-amount words 가격 (價格, the listed price/price tag) and 값 (the cost/amount you actually pay): 가치 is how much something is truly worth, which may diverge sharply from its 가격 — a cheap gift can have huge 가치 but a low 가격. Register is neutral-to-elevated. The English-speaker pitfall is forcing 가치 into the 'worth doing' slot with the wrong verb (가치가 하다 is wrong; it's 가치가 있다), and mixing it up with 가격 when you mean the sticker price rather than intrinsic worth.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "가치 means value or worth, spanning both economic value (가치가 오르다 = rises in value, of property or stocks) and abstract worth (인생의 가치 = the value of life, 일의 가치 = the worth of one's work). The most useful pattern built on it is V-(으)ㄹ 가치가 있다 ('worth doing': 볼 가치가 있다 = worth seeing), and the derived 가치관 (one's value system/worldview) is extremely high-frequency, especially 가치관이 다르다 when people clash. Register is neutral-to-elevated."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line is against the concrete-amount words 가격 (the listed price/price tag) and 값 (the cost/amount you actually pay): 가치 is how much something is truly worth, which may diverge sharply from its 가격 — a cheap gift can have huge 가치 but a low 가격."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "價値 means 'price + value'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is forcing 가치 into the 'worth doing' slot with the wrong verb (가치가 하다 is wrong; it's 가치가 있다), and mixing it up with 가격 when you mean the sticker price rather than intrinsic worth."
+      }
+    ],
     "mistakes": [
-      "Don't confuse 가치 (worth/value, abstract or economic) with 가격 (the listed price, already in vocab).",
-      "For 'worth doing', use V-(으)ㄹ 가치가 있다, not 가치가 하다."
+      "Don't confuse 가치 (intrinsic worth/value) with 가격 (the listed price): a discounted item has a low 가격 but can still hold high 가치.",
+      "For 'worth doing' use V-(으)ㄹ 가치가 있다 (볼 가치가 있다), never 가치가 하다.",
+      "To say people have clashing values, the idiom is 가치관이 다르다 (different value systems), not 가치가 다르다."
     ]
   },
   {
@@ -175,20 +336,43 @@
     "chapterIds": ["chapter-10"],
     "grammarIds": [],
     "usage": [
-      ["품질이 좋다", "to be of good quality", "품질이 나쁘다 / 떨어지다 = poor quality"],
-      ["품질을 높이다", "to improve quality", "높이다 = to raise; 품질을 관리하다 = to manage quality"],
-      ["품질 관리", "quality control", "관리 = management; standard business term"],
-      ["고품질 / 저품질", "high quality / low quality", "고-/저- prefixes attach to 품질"]
+      ["품질이 좋다", "to be of good quality", "the negatives are 품질이 나쁘다 and 품질이 떨어지다 (quality drops/is poor)"],
+      ["품질을 높이다", "to improve quality", "높이다 = to raise (transitive); 품질을 관리하다 = to manage/control quality"],
+      ["품질 관리", "quality control (QC)", "관리 = management; a standard business term, often abbreviated 품질 관리부 (QC department)"],
+      ["고품질 / 저품질", "high quality / low quality", "고- (高) / 저- (低) prefixes attach directly to 품질"]
     ],
     "examples": [
-      ["가격은 조금 비싸지만 품질이 정말 좋아요.", "It's a bit pricey, but the quality is really good.", "-지만 = but; 정말 = really"],
-      ["요즘 소비자들은 가격보다 품질을 더 따져요.", "These days consumers scrutinize quality more than price.", "따지다 (already in vocab) = to scrutinize; N보다 더 = more than"],
-      ["품질을 높이려면 생산 과정을 개선해야 해요.", "To improve quality, you need to improve the production process.", "-(으)려면 = if you want to; -아/어야 하다 = must"]
+      ["이 옷은 품질이 좋아요.", "This clothing is good quality.", "Beginner frame: 품질이 좋다 — 품질 is the subject, 좋다 the descriptive verb"],
+      ["가격은 조금 비싸지만 품질이 정말 좋아서 만족해요.", "It's a bit pricey, but the quality is so good that I'm satisfied.", "-지만 = but; -아서 chains the reason 'because the quality is good'"],
+      ["요즘 소비자들은 가격보다 품질을 더 꼼꼼하게 따져요.", "These days consumers scrutinize quality more carefully than price.", "따지다 (already in vocab) = to scrutinize; 꼼꼼하게 = meticulously — a market-trend sentence"]
     ],
-    "nuance": "품질 refers specifically to the quality of goods or products — how well-made something is. It is the standard word in 품질 관리 (quality control) and product reviews. Don't use 품질 for the quality of an abstract thing like life or sleep; for those Koreans say 삶의 질 or 수면의 질 (using 질, quality). 품(品) signals 'goods', so 품질 = goods-quality.",
+    "nuance": "품질 (品質, 'goods + substance/quality') refers specifically to the quality of goods or products — how well-made and reliable something is. It is THE word in commerce and reviews: 품질 관리 (quality control), 품질 보증 (quality guarantee), 품질이 떨어지다 (quality slips). The sharp restriction English speakers must learn is that 품질 only modifies products/goods, not abstract or experiential things: 'quality of life' is 삶의 질, 'quality of sleep' is 수면의 질, 'quality time' is not 품질 시간 — for all of those you drop the 품 and use bare 질 (質, quality/nature). So 품(品) literally pins it to merchandise. The near-synonym to keep separate is 성능 (性能, performance/specs of a device): a phone can have great 성능 (fast chip) but poor 품질 (cheap, breaks easily) — capability versus build quality. Register is neutral. The pitfall: 품질 is a noun naming a state, so you describe it with 좋다/나쁘다 (품질이 좋다), and you never say 품질을 잘하다, which treats it like an action.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "품질 refers specifically to the quality of goods or products — how well-made and reliable something is. It is THE word in commerce and reviews: 품질 관리 (quality control), 품질 보증 (quality guarantee), 품질이 떨어지다 (quality slips). Register is neutral."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym to keep separate is 성능 (performance/specs of a device): a phone can have great 성능 (fast chip) but poor 품질 (cheap, breaks easily) — capability versus build quality."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "品質 means 'goods + substance/quality', and 품(品) literally pins it to merchandise."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The sharp restriction is that 품질 only modifies products/goods, not abstract or experiential things: 'quality of life' is 삶의 질, 'quality of sleep' is 수면의 질, 'quality time' is not 품질 시간 — for all of those you drop the 품 and use bare 질 (質, quality/nature). Also, 품질 is a noun naming a state, so you describe it with 좋다/나쁘다 (품질이 좋다), and you never say 품질을 잘하다, which treats it like an action."
+      }
+    ],
     "mistakes": [
-      "Use 품질 for product quality, but 삶의 질 (not 삶의 품질) for 'quality of life'.",
-      "품질이 좋다/나쁘다 describes quality; 품질을 잘하다 is wrong (it's a noun state, not an action)."
+      "Use 품질 only for products. 'Quality of life' is 삶의 질, not 삶의 품질 — for abstract quality drop 품 and use bare 질.",
+      "품질이 좋다/나쁘다 describes the state; 품질을 잘하다 is wrong because 품질 is a noun, not an action you perform.",
+      "Don't equate 품질 (build quality) with 성능 (performance/specs): a gadget can have high 성능 but low 품질."
     ]
   },
   {
@@ -199,20 +383,43 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["생산하다", "to produce/manufacture", "제품을 생산하다 = to produce products"],
-      ["생산이 늘다", "production increases", "늘다/줄다 for output rising/falling"],
-      ["대량 생산", "mass production", "대량 = large quantity; 소량 생산 = small-batch production"],
-      ["생산 라인 / 생산 과정", "production line / production process", "라인, 과정 follow 생산 as compounds"]
+      ["제품을 생산하다", "to produce products", "생산하다 = to make/manufacture; the factory or firm is the agent"],
+      ["생산이 늘다", "production increases", "늘다/줄다 (intransitive) for output rising/falling; 생산을 늘리다 = to increase output (transitive)"],
+      ["대량 생산", "mass production", "대량 = large quantity; the contrast is 소량 생산 (small-batch) and 다품종 소량 생산 (high-mix low-volume)"],
+      ["생산 라인 / 생산 과정", "production line / production process", "라인, 과정 attach to 생산 as compounds; 생산성 = productivity"]
     ],
     "examples": [
-      ["이 공장에서는 하루에 자동차를 천 대 생산해요.", "This factory produces a thousand cars a day.", "에서는 = at (location, topic); 대 = counter for vehicles"],
-      ["원자재 가격이 올라서 생산 비용이 늘었어요.", "Production costs rose because raw material prices went up.", "원자재 = raw materials; 비용 (already in vocab) = cost"],
-      ["수요가 많아지면 생산을 더 늘려야 해요.", "When demand grows, you have to increase production.", "수요 = demand; 늘리다 = to increase (transitive)"]
+      ["이 공장은 자동차를 생산해요.", "This factory produces cars.", "Beginner frame: A를 생산하다; 공장 (factory) as the natural subject"],
+      ["원자재 가격이 올라서 생산 비용이 늘었어요.", "Production costs rose because raw-material prices went up.", "원자재 = raw materials; 비용 (already in vocab) = cost — 생산 as a compound modifier"],
+      ["수요가 갑자기 늘면 생산을 그만큼 늘려야 하는데 공장이 못 따라가요.", "If demand suddenly jumps you have to raise output to match, but the factory can't keep up.", "수요 = demand; 생산을 늘리다 (transitive); 따라가다 = to keep pace — a real supply-chain bind"]
     ],
-    "nuance": "생산 means production or manufacturing — making goods. It pairs naturally with 소비 (consumption) as the supply side of the economy (생산과 소비). Use 대량 생산 for mass production. The agent who produces is a 생산자 (producer), opposite of 소비자 (consumer). Keep 생산 (making things) distinct from 산업 (the industry sector) and 사업 (a business venture).",
+    "nuance": "생산 (生産, 'give birth/bring forth + produce') means production or manufacturing — the making of goods. It is the supply side of the economy and pairs naturally with 소비 (消費, consumption) as a set: 생산과 소비. The agent is a 생산자 (producer), the mirror of 소비자 (consumer). Keep three look-alike Sino-Korean economy words apart: 생산 (making things/output) vs 산업 (産業, the industry sector that does the making) vs 사업 (事業, a specific business venture) — they share syllables but mean output, sector, and enterprise respectively. The most common grammar pitfall is the transitivity pair English flattens into one verb 'increase': 생산이 늘다 is intransitive ('production increases', no object), but to actively raise output you need the transitive 생산을 늘리다 ('increase production'); using 생산을 늘다 is ungrammatical. Register is neutral-to-formal, standard in business and news. Note 대량 생산 (mass production) as a fixed term and 생산성 (productivity) as a high-value derivative.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "생산 means production or manufacturing — the making of goods. It is the supply side of the economy and pairs naturally with 소비 (consumption) as a set: 생산과 소비. The agent is a 생산자 (producer), the mirror of 소비자 (consumer). Register is neutral-to-formal, standard in business and news. Note 대량 생산 (mass production) as a fixed term and 생산성 (productivity) as a high-value derivative."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Keep three look-alike Sino-Korean economy words apart: 생산 (making things/output) vs 산업 (the industry sector that does the making) vs 사업 (a specific business venture) — they share syllables but mean output, sector, and enterprise respectively."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "生産 means 'give birth/bring forth + produce'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The most common grammar pitfall is the transitivity pair English flattens into one verb 'increase': 생산이 늘다 is intransitive ('production increases', no object), but to actively raise output you need the transitive 생산을 늘리다 ('increase production'); using 생산을 늘다 is ungrammatical."
+      }
+    ],
     "mistakes": [
-      "생산 is making/output; don't use it to mean 'industry' (산업) or 'business' (사업).",
-      "To increase production use 생산을 늘리다 (transitive 늘리다), not 생산을 늘다 (intransitive)."
+      "생산 is making/output; don't stretch it to mean 'industry' (use 산업) or 'business venture' (use 사업), even though all three share syllables.",
+      "Match transitivity: 생산이 늘다 (production rises, intransitive) vs 생산을 늘리다 (raise production, transitive). 생산을 늘다 is ungrammatical.",
+      "The person who produces is 생산자, not 생산가 — the agent suffix here is -자 (者), paralleling 소비자 (consumer)."
     ]
   },
   {
@@ -223,20 +430,43 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["소비하다", "to consume/spend", "에너지를 소비하다, 돈을 소비하다"],
-      ["소비가 늘다", "consumption increases", "늘다/줄다 for spending rising or falling"],
-      ["소비자", "consumer", "-자 = person; opposite of 생산자 (producer)"],
-      ["과소비", "overconsumption / overspending", "과- = excessive; 합리적 소비 = sensible consumption"]
+      ["돈을 소비하다", "to spend money", "소비하다 also takes 에너지를/자원을 소비하다 (consume energy/resources)"],
+      ["소비가 늘다", "consumption increases", "늘다/줄다 (intransitive) for spending rising or falling; 소비를 줄이다 = to cut spending (transitive)"],
+      ["소비자", "consumer", "-자 (者) = person; the mirror of 생산자 (producer); 소비자 보호 = consumer protection"],
+      ["과소비", "overconsumption / overspending", "과- (過) = excessive; the positive contrast is 합리적 소비 (sensible consumption)"]
     ],
     "examples": [
-      ["경기가 나빠지면 사람들은 소비를 줄여요.", "When the economy worsens, people cut back on spending.", "나빠지다 = to get worse; 줄이다 = to reduce"],
-      ["요즘 젊은 소비자들은 환경을 많이 생각해요.", "These days young consumers think a lot about the environment.", "소비자 = consumer; 생각하다 = to think about"],
-      ["과소비를 줄이려고 가계부를 쓰기 시작했어요.", "I started keeping a budget book to cut down on overspending.", "-(으)려고 = in order to; 가계부 (already in vocab) = budget book"]
+      ["요즘 소비를 줄이고 있어요.", "I'm cutting back on spending these days.", "Beginner frame: 소비를 줄이다 (transitive); -고 있다 for an ongoing effort"],
+      ["경기가 나빠지면 사람들이 소비를 줄여요.", "When the economy worsens, people reduce their spending.", "나빠지다 = to get worse; 줄이다 = to reduce — the cause–effect of a downturn"],
+      ["요즘 젊은 세대는 가치 소비를 중요하게 생각해서 비싸도 의미 있는 걸 사요.", "Young people today value 'ethical/meaningful consumption', so they buy meaningful things even if pricey.", "가치 소비 = value-driven consumption; -아도 = even if — a current consumer-culture trend"]
     ],
-    "nuance": "소비 means consumption or spending — using up money, goods, or resources. It is the demand-side counterpart to 생산 (production), and 소비자 (consumer) is one of the most useful derived words. Distinguish from 지출 (지출, an outlay/expenditure entry) and 낭비하다 (to waste, already in vocab): 소비 can be neutral or even necessary, while 낭비 is always negative.",
+    "nuance": "소비 (消費, 'dissolve/use up + spend') means consumption or spending — using up money, goods, or resources — and is the demand-side counterpart to 생산 (production), giving the staple pair 생산과 소비. Its standout derivative 소비자 (consumer) is one of the most useful economy words you can own (소비자 보호 = consumer protection). Two boundaries matter. First, against 지출 (支出, expenditure, already in vocab): 지출 is an accounting outflow — a line item in a budget — while 소비 is the broader economic act of consuming, including consuming non-money resources. Second, and the key value judgment, against 낭비 (浪費, waste): 소비 is neutral and often necessary (you must consume food and electricity), whereas 낭비 is always negative — money or resources thrown away pointlessly. So calling ordinary, reasonable spending 낭비 is an insult the speaker may not intend. Register is neutral. The grammar pitfall mirrors 생산: use the transitive 소비를 줄이다 to 'reduce spending', not the intransitive 소비를 줄다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "소비 means consumption or spending — using up money, goods, or resources — and is the demand-side counterpart to 생산 (production), giving the staple pair 생산과 소비. Its standout derivative 소비자 (consumer) is one of the most useful economy words you can own (소비자 보호 = consumer protection). Register is neutral."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two boundaries matter. First, against 지출 (expenditure): 지출 is an accounting outflow — a line item in a budget — while 소비 is the broader economic act of consuming, including consuming non-money resources. Second, and the key value judgment, against 낭비 (waste): 소비 is neutral and often necessary (you must consume food and electricity), whereas 낭비 is always negative — money or resources thrown away pointlessly. So calling ordinary, reasonable spending 낭비 is an insult the speaker may not intend."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "消費 means 'dissolve/use up + spend'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The grammar pitfall mirrors 생산: use the transitive 소비를 줄이다 to 'reduce spending', not the intransitive 소비를 줄다."
+      }
+    ],
     "mistakes": [
-      "소비 (consumption, can be neutral) is not the same as 낭비 (waste, always negative).",
-      "To reduce spending use 소비를 줄이다 (transitive 줄이다), not 소비를 줄다."
+      "소비 (consumption) is neutral and can be necessary; 낭비 (waste) is always negative. Don't label normal spending 낭비 unless you mean it was wasteful.",
+      "Match transitivity: 소비를 줄이다 (cut spending, transitive) vs 소비가 줄다 (spending falls, intransitive). 소비를 줄다 is wrong.",
+      "소비 is the broad act of consuming; an individual budget outflow/expense entry is 지출 — don't use 소비 where the accounting term 지출 is meant."
     ]
   },
   {
@@ -247,20 +477,43 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["예산을 짜다", "to draw up a budget", "짜다 = to put together/plan; the idiomatic verb for budgets"],
-      ["예산이 부족하다", "the budget is insufficient", "부족하다 = to be short; 예산이 남다 = budget is left over"],
-      ["예산을 세우다", "to set a budget", "세우다 = to set up; 예산을 초과하다 = to exceed the budget"],
-      ["예산 안에서", "within the budget", "안에서 = inside; 예산을 넘다 = to go over budget"]
+      ["예산을 짜다", "to draw up a budget", "짜다 = to put together/plan; the most natural verb (it's a structured plan you assemble)"],
+      ["예산이 부족하다", "the budget is insufficient", "부족하다 = to be short; the opposite is 예산이 남다 (budget left over)"],
+      ["예산을 세우다", "to set/establish a budget", "세우다 = to set up; 예산을 초과하다 = to exceed the budget"],
+      ["예산 안에서", "within budget", "안에서 = inside; the contrast is 예산을 넘다/초과하다 (to go over budget)"]
     ],
     "examples": [
-      ["이번 여행은 예산이 부족해서 호텔 대신 게스트하우스에 묵었어요.", "I was short on budget for this trip, so I stayed at a guesthouse instead of a hotel.", "대신 = instead of; 묵다 = to stay (lodge)"],
-      ["회사에서 내년 마케팅 예산을 줄이기로 했어요.", "The company decided to cut next year's marketing budget.", "-기로 하다 = to decide to; 줄이다 = to reduce"],
-      ["예산을 미리 짜 두면 돈을 더 잘 관리할 수 있어요.", "If you plan a budget in advance, you can manage money better.", "-아/어 두다 = do in advance; V-(으)ㄹ 수 있다 = can"]
+      ["이번 여행은 예산이 좀 부족해요.", "I'm a bit short on budget for this trip.", "Beginner frame: 예산이 부족하다; 좀 softens it"],
+      ["회사에서 내년 마케팅 예산을 줄이기로 했어요.", "The company decided to cut next year's marketing budget.", "-기로 하다 = to decide to; 예산을 줄이다 = to reduce the budget"],
+      ["예산을 미리 짜 두면 충동구매를 줄일 수 있어요.", "If you set a budget in advance, you can curb impulse buying.", "-아/어 두다 = do in advance and leave it; 충동구매 = impulse purchase — a practical money tip"]
     ],
-    "nuance": "예산 is a budget — a planned amount of money for a project, household, or organization. The collocation 예산을 짜다 ('to put a budget together') is the most natural verb; 예산을 세우다 also works. Distinguish from 가계부 (the actual record of what was spent) and 비용 (the cost incurred). 예산 is the plan; 지출 is what actually goes out.",
+    "nuance": "예산 (豫算, 'beforehand + calculate', i.e. money figured out in advance) is a budget — a planned amount of money set aside for a project, household, or organization before it is spent. The idiomatic verb is 예산을 짜다 ('to weave/assemble a budget'), reflecting that a budget is a structured plan you build; 예산을 세우다 (to set up) also works, but 예산을 만들다 (to make) sounds flat and unnatural. The defining contrast is the plan-versus-actual distinction English blurs under 'budget': 예산 is the forward-looking plan, whereas 지출 (expenditure, already in vocab) and 비용 (the cost incurred) are what actually leaves your pocket, and 가계부 is the record of what was spent. So you 예산을 짜다 first, then track your 지출 against it. Register is neutral and identical in households, companies, and government (국가 예산 = the national budget). The English-speaker pitfall is reaching for 만들다 to 'make a budget' and confusing the planned 예산 with already-spent 지출/비용 — keep 'plan' (예산) and 'spent' (지출) firmly apart.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "예산 is a budget — a planned amount of money set aside for a project, household, or organization before it is spent. The idiomatic verb is 예산을 짜다 ('to weave/assemble a budget'), reflecting that a budget is a structured plan you build; 예산을 세우다 (to set up) also works, but 예산을 만들다 (to make) sounds flat and unnatural. Register is neutral and identical in households, companies, and government (국가 예산 = the national budget)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The defining contrast is the plan-versus-actual distinction English blurs under 'budget': 예산 is the forward-looking plan, whereas 지출 (expenditure) and 비용 (the cost incurred) are what actually leaves your pocket, and 가계부 is the record of what was spent. So you 예산을 짜다 first, then track your 지출 against it."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "豫算 means 'beforehand + calculate', i.e. money figured out in advance."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is reaching for 만들다 to 'make a budget' and confusing the planned 예산 with already-spent 지출/비용 — keep 'plan' (예산) and 'spent' (지출) firmly apart."
+      }
+    ],
     "mistakes": [
-      "Use 예산을 짜다 or 예산을 세우다 for 'make a budget'; 예산을 만들다 sounds unnatural.",
-      "예산 is the planned amount (a plan), not the money already spent (지출/비용)."
+      "Use 예산을 짜다 or 예산을 세우다 for 'make a budget'; 예산을 만들다 sounds unnatural to Koreans.",
+      "예산 is the planned amount looking forward, not money already spent — that is 지출 (expenditure) or 비용 (cost).",
+      "To go over budget say 예산을 초과하다/넘다, not 예산을 지나다 (which means physically pass by)."
     ]
   },
   {
@@ -271,20 +524,43 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["자본이 부족하다", "to be short on capital", "부족하다 = to lack; common startup problem"],
-      ["자본을 투자하다", "to invest capital", "투자하다 = to invest; 자본을 모으다 = to raise capital"],
-      ["자본금", "capital funds; paid-in capital", "-금 = money/funds; the founding capital of a company"],
-      ["대기업 자본", "big-corporation capital", "자본주의 = capitalism (자본 + 주의)"]
+      ["자본이 부족하다", "to be short on capital", "부족하다 = to lack; the classic startup problem (initial capital shortfall)"],
+      ["자본을 투자하다", "to invest capital", "투자하다 = to invest; 자본을 모으다 = to raise/gather capital"],
+      ["자본금", "capital funds; paid-in capital", "-금 (金) = money/funds; the registered founding capital of a company"],
+      ["자본주의", "capitalism", "-주의 (主義) = -ism; 외국 자본 = foreign capital, 자본 시장 = capital market"]
     ],
     "examples": [
-      ["사업을 시작하려면 어느 정도 자본이 필요해요.", "To start a business, you need a certain amount of capital.", "-(으)려면 = if you want to; 어느 정도 = a certain degree"],
-      ["그들은 적은 자본으로 회사를 크게 키웠어요.", "They grew the company big with little capital.", "적은 = small/little; 키우다 = to grow (something)"],
-      ["외국 자본이 한국 시장에 많이 들어왔어요.", "A lot of foreign capital has entered the Korean market.", "들어오다 = to come in; 시장 (already in vocab) = market"]
+      ["사업을 하려면 자본이 필요해요.", "To run a business you need capital.", "Beginner frame: 자본이 필요하다; -(으)려면 = if you intend to"],
+      ["그들은 적은 자본으로 회사를 크게 키웠어요.", "They grew the company big on little capital.", "적은 = small/little; 키우다 = to grow (something) — 자본으로 = with/using capital"],
+      ["외국 자본이 한국 시장에 몰리면서 부동산 가격이 들썩였어요.", "As foreign capital poured into the Korean market, property prices got jittery.", "몰리다 = to flood/crowd in; 들썩이다 = to be unsettled — a real macroeconomic sentence"]
     ],
-    "nuance": "자본 is capital in the economic sense — the money and assets used to run or start a business. It is more abstract and formal than 돈 (money) or 자금 (funds for a specific purpose). 자본금 (paid-in capital) and 자본주의 (capitalism) are key derived terms. You need 자본 to start a 사업 (business); without enough, 자본이 부족하다.",
+    "nuance": "자본 (資本, 'resources + root/origin', i.e. the foundational resources of an enterprise) is capital in the economic sense — the money and assets used to start or run a business and to generate more wealth. It is more abstract and formal than plain 돈 (money), and it carries a structural, economy-level flavor: 자본주의 (capitalism), 자본 시장 (capital market), 외국 자본 (foreign capital). Two near-synonyms must be separated. 자금 (資金, funds) is money earmarked for a specific concrete purpose — 사업 자금 (operating funds), 자금이 돌다 (cash flows) — more hands-on than the foundational 자본. And 자산 (資産, assets) is the total of what you own (property, savings, stocks), the broadest of the three. So you might have plenty of 자산 (assets) but lack ready 자금 (working funds), while 자본 names the wealth deployed to do business. The key derivative 자본금 (paid-in capital) is the registered founding sum. The English-speaker pitfalls: don't use 자본 for everyday pocket cash (that's 돈) or for purpose-specific funds (that's 자금), and don't drop the final ㄴ — it is 자본, not 자보.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "자본 is capital in the economic sense — the money and assets used to start or run a business and to generate more wealth. It is more abstract and formal than plain 돈 (money), and it carries a structural, economy-level flavor: 자본주의 (capitalism), 자본 시장 (capital market), 외국 자본 (foreign capital). The key derivative 자본금 (paid-in capital) is the registered founding sum."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two near-synonyms must be separated. 자금 (funds) is money earmarked for a specific concrete purpose — 사업 자금 (operating funds), 자금이 돌다 (cash flows) — more hands-on than the foundational 자본. And 자산 (assets) is the total of what you own (property, savings, stocks), the broadest of the three. So you might have plenty of 자산 (assets) but lack ready 자금 (working funds), while 자본 names the wealth deployed to do business."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "資本 means 'resources + root/origin', i.e. the foundational resources of an enterprise."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't use 자본 for everyday pocket cash (that's 돈) or for purpose-specific funds (that's 자금), and don't drop the final ㄴ — it is 자본, not 자보."
+      }
+    ],
     "mistakes": [
-      "자본 is business capital/assets, not everyday cash — for general money use 돈, for earmarked funds use 자금.",
-      "Don't drop the final consonant: it's 자본 (with ㄴ), not 자보."
+      "자본 is business/economic capital, not everyday cash: for ordinary money use 돈, and for purpose-specific funds (operating money) use 자금.",
+      "Don't blur 자본 (capital deployed in business) with 자산 (total assets you own) — you can be asset-rich (자산이 많다) yet short on working capital.",
+      "Keep the final consonant: it's 자본 (with ㄴ), not 자보."
     ]
   }
 ]

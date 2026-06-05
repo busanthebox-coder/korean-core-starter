@@ -7,18 +7,28 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["스물", "twenty", "native-Korean number, used for age, counting people/things"],
-      ["스무 살", "twenty years old", "스물 → 스무 before a counter like 살"],
-      ["스물하나", "twenty-one", "스물 + 하나 to make 21"],
-      ["스무 명", "twenty people", "스물 → 스무 before the counter 명"]
+      ["스물", "twenty", "the plain, standalone form — used when no counter follows (e.g. counting out loud)"],
+      ["스무 살", "twenty years old", "스물 drops its final ㄹ and becomes 스무 before the counter 살"],
+      ["스물하나", "twenty-one", "compound number: tens word 스물 + ones word 하나, said as one breath"],
+      ["스무 명", "twenty people", "스물 → 스무 again; 명 is the polite counter for people"]
     ],
     "examples": [
-      ["저는 올해 스무 살이에요.", "I'm twenty years old this year.", "age uses 살; 스물 becomes 스무 before 살"],
-      ["사과가 스무 개 있어요.", "There are twenty apples.", "개 counts objects; 스물 → 스무 before a counter"],
-      ["반에 학생이 스무 명이에요.", "There are twenty students in the class.", "명 counts people; note 스무 not 스물"]
+      ["하나, 둘… 열아홉, 스물!", "One, two… nineteen, twenty!", "standalone counting keeps the full form 스물 with no shape change"],
+      ["저는 올해 스무 살이에요.", "I'm twenty years old this year.", "real age uses native numbers + 살, and 스물 becomes 스무 here"],
+      ["반에 학생이 스무 명 있어요.", "There are twenty students in the class.", "the counter 명 still triggers 스무, never 스물 명"]
     ],
-    "nuance": "스물 is the native-Korean word for twenty and is the standard way to say someone's age in everyday speech. Like 하나·둘·셋·넷, it changes shape before a counter: 스물 becomes 스무 (스무 살, 스무 개, 스무 명). For higher ages and counting people or objects, Koreans use these native numbers, not the Sino-Korean 이십.",
-    "mistakes": ["Saying '스물 살' instead of '스무 살' before the counter", "Using 스물 for things like phone numbers or dates, where Sino-Korean 이십 is needed"]
+    "nuance": "스물 is the native-Korean twenty (the 고유어 set 하나·둘…열·스물…), and it is the default for human age and for counting tangible people and things — Sino-Korean 이십 sounds clinical there. Like the low numbers, 스물 has a special pre-counter shape: it loses its final ㄹ to become 스무 directly before any counter (스무 살, 스무 개, 스무 명), which is the single biggest trap here. Crucially, 스물 is the LAST native ten to do this — 서른·마흔·쉰 and up never change. Standalone (counting aloud, or with 이/가) it stays 스물: '스물이 넘었어요'. English speakers also wrongly reach for 이십 when stating age; '저는 이십 살이에요' is ungrammatical, it must be 스무 살.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "스물 is the native-Korean twenty (the 고유어 set 하나·둘…열·스물…), and it is the default for human age and for counting tangible people and things."},
+      {"k": "비슷한 말", "e": "VS", "t": "Sino-Korean 이십 sounds clinical for age and tangible things, so 스물 is the natural choice there."},
+      {"k": "활용", "e": "FORMS", "t": "스물 has a special pre-counter shape: it loses its final ㄹ to become 스무 directly before any counter (스무 살, 스무 개, 스무 명), the single biggest trap here. Crucially, 스물 is the LAST native ten to do this — 서른·마흔·쉰 and up never change. Standalone (counting aloud, or with 이/가) it stays 스물: '스물이 넘었어요'.", "chips": ["스무 살", "스무 개", "스무 명", "스물이 넘었어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English speakers wrongly reach for 이십 when stating age; '저는 이십 살이에요' is ungrammatical, it must be 스무 살."}
+    ],
+    "mistakes": [
+      "Saying '스물 살' or '스물 개' — before a counter the ㄹ drops, so it must be 스무 살, 스무 개.",
+      "Using Sino-Korean 이십 for age ('이십 살'); native 스무 + 살 is the only natural form for a person's age.",
+      "Keeping 스무 when no counter follows, e.g. '나이가 스무예요' — standalone it returns to 스물: '스물이에요'."
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +38,28 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["서른", "thirty", "native-Korean number, often used for age"],
-      ["서른 살", "thirty years old", "age with the counter 살"],
-      ["서른두 살", "thirty-two years old", "서른 + 두 (둘 → 두 before 살)"],
-      ["서른 명", "thirty people", "with the counter 명"]
+      ["서른", "thirty", "the tens word itself never changes shape, even before a counter (서른 살)"],
+      ["서른 살", "thirty years old", "native number + 살 is the natural way to give an adult's age"],
+      ["서른두 살", "thirty-two years old", "only the ones digit shifts: 둘 → 두, so 서른두 not 서른둘"],
+      ["서른이 되다", "to turn thirty", "서른 + subject 이 + 되다 = reach the age of thirty"]
     ],
     "examples": [
-      ["우리 누나는 서른 살이에요.", "My older sister is thirty years old.", "common way to state age"],
-      ["서른 명이 모였어요.", "Thirty people gathered.", "명 counts people"],
-      ["올해 서른이 됐어요.", "I turned thirty this year.", "서른이 되다 = to turn thirty"]
+      ["하나씩 세면 스물아홉, 서른.", "Counting one by one: twenty-nine, thirty.", "standalone 서른 in plain counting"],
+      ["우리 누나는 서른 살이에요.", "My older sister is thirty.", "everyday age statement; 서른 stays whole before 살"],
+      ["저 올해 서른이 됐어요.", "I turned thirty this year.", "서른이 되다 marks crossing into a new decade of age"]
     ],
-    "nuance": "서른 is the native-Korean number for thirty, used most often when telling age. Unlike 하나~넷, 서른 itself does not change shape, but the small number after it does (서른한, 서른두, 서른세, 서른네 살). For ages from twenty up, native numbers like 스물, 서른, 마흔 are the natural choice in conversation.",
-    "mistakes": ["Mixing it up with Sino-Korean 삼십 when saying age", "Forgetting that the ones digit changes form, e.g. saying '서른둘 살' instead of '서른두 살'"]
+    "nuance": "서른 is the native-Korean thirty, used above all for telling an adult's age, where the Sino-Korean 삼십 feels like a statistic, not a person. A key relief: unlike 하나~넷 and 스물, the tens word 서른 itself does NOT change before a counter — you say 서른 살, 서른 명 with the full form. What changes is only the ones digit added on top: 서른한, 서른두, 서른세, 서른네 (from 하나·둘·셋·넷). The frequent English-speaker error is borrowing 둘/셋 unchanged — '서른둘 살' is wrong; the ones digit must take its pre-counter shape, giving 서른두 살. For round '30 years old' specifically, plain 서른 살 is what Koreans actually say.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "서른 is the native-Korean thirty, used above all for telling an adult's age. For round '30 years old' specifically, plain 서른 살 is what Koreans actually say."},
+      {"k": "비슷한 말", "e": "VS", "t": "The Sino-Korean 삼십 feels like a statistic, not a person, so 서른 is the everyday choice for age."},
+      {"k": "활용", "e": "FORMS", "t": "A key relief: unlike 하나~넷 and 스물, the tens word 서른 itself does NOT change before a counter — you say 서른 살, 서른 명 with the full form. What changes is only the ones digit added on top: 서른한, 서른두, 서른세, 서른네 (from 하나·둘·셋·넷).", "chips": ["서른 살", "서른한", "서른두", "서른세", "서른네"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The frequent English-speaker error is borrowing 둘/셋 unchanged — '서른둘 살' is wrong; the ones digit must take its pre-counter shape, giving 서른두 살."}
+    ],
+    "mistakes": [
+      "Saying Sino-Korean 삼십 for a person's age ('삼십 살'); native 서른 살 is the natural choice.",
+      "Leaving the ones digit unchanged: '서른둘 살', '서른셋 살' — it must be 서른두 살, 서른세 살.",
+      "Assuming 서른 itself shrinks like 스물 → 스무; it does not — 서른 살, never '서르 살'."
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +69,27 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["마흔", "forty", "native-Korean number, used for age"],
-      ["마흔 살", "forty years old", "age with the counter 살"],
-      ["마흔다섯 살", "forty-five years old", "마흔 + 다섯"],
-      ["마흔 명", "forty people", "with the counter 명"]
+      ["마흔", "forty", "native tens word; stays whole before a counter (마흔 살)"],
+      ["마흔 살", "forty years old", "native number + 살 = a person's age around forty"],
+      ["마흔다섯 살", "forty-five years old", "마흔 + 다섯; the ones digit 다섯 does not change before 살"],
+      ["마흔이 넘다", "to be over forty", "마흔 + 이 + 넘다 = to be past the age of forty"]
     ],
     "examples": [
-      ["아빠는 마흔 살이에요.", "My dad is forty years old.", "everyday age statement"],
-      ["마흔 명쯤 왔어요.", "About forty people came.", "쯤 means about/around"],
-      ["저는 마흔이 넘었어요.", "I'm over forty.", "마흔이 넘다 = to be past forty"]
+      ["서른아홉 다음은 마흔이에요.", "After thirty-nine comes forty.", "standalone 마흔 in counting order"],
+      ["아빠는 마흔 살이에요.", "My dad is forty.", "natural spoken age; 마흔 keeps its full form"],
+      ["저는 마흔이 넘었어요.", "I'm past forty.", "마흔이 넘다 expresses 'over' an age threshold"]
     ],
-    "nuance": "마흔 is the native-Korean number for forty and is the usual word for a person's age in that range. The number itself stays the same, but a following ones digit shifts form (마흔한, 마흔두, 마흔세, 마흔네 살). Native numbers run 스물·서른·마흔·쉰 for the tens, which beginners use mostly for age and counting.",
-    "mistakes": ["Saying Sino-Korean 사십 for someone's age instead of 마흔", "Mispronouncing it as '마은'; the ㅎ is written even if softly heard"]
+    "nuance": "마흔 is the native-Korean forty, the everyday word for someone's age in their forties — Koreans rarely say 사십 살 about a real person. Like 서른, the tens word stays intact before counters (마흔 살, 마흔 명); only an added ones digit changes (마흔한, 마흔두, 마흔세, 마흔네, from 하나·둘·셋·넷), while 다섯~아홉 stay the same (마흔다섯 살). Note the irregular sound of 마흔: it is spelled with ㅎ but pronounced as if [마흔], and many learners both mis-spell it '마은' and mishear it. Don't confuse it in writing with 만 (10,000); 마흔 is a native counting word for forty only, never used for prices or phone digits.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "마흔 is the native-Korean forty, the everyday word for someone's age in their forties. Note its irregular sound: it is spelled with ㅎ but pronounced as if [마흔], and many learners both mis-spell it '마은' and mishear it."},
+      {"k": "비슷한 말", "e": "VS", "t": "Koreans rarely say Sino-Korean 사십 살 about a real person; native 마흔 is the everyday word for age. Also don't confuse it in writing with 만 (10,000) — 마흔 is a native counting word for forty only, never used for prices or phone digits."},
+      {"k": "활용", "e": "FORMS", "t": "Like 서른, the tens word stays intact before counters (마흔 살, 마흔 명); only an added ones digit changes (마흔한, 마흔두, 마흔세, 마흔네, from 하나·둘·셋·넷), while 다섯~아홉 stay the same (마흔다섯 살).", "chips": ["마흔 살", "마흔한", "마흔두", "마흔세", "마흔다섯 살"]}
+    ],
+    "mistakes": [
+      "Using Sino-Korean 사십 for age ('사십 살') instead of native 마흔 살.",
+      "Spelling it '마은' by dropping the silent-seeming ㅎ; the correct spelling is 마흔.",
+      "Changing the ones digit when it shouldn't: '마흔다서 살' — 다섯 stays whole, so it's 마흔다섯 살."
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +99,28 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["쉰", "fifty", "native-Korean number, used for age"],
-      ["쉰 살", "fifty years old", "age with the counter 살"],
-      ["쉰여섯 살", "fifty-six years old", "쉰 + 여섯"],
-      ["쉰 명", "fifty people", "with the counter 명"]
+      ["쉰", "fifty", "one short syllable ending in ㄴ; stays whole before a counter"],
+      ["쉰 살", "fifty years old", "native number + 살 for a person around fifty"],
+      ["쉰여섯 살", "fifty-six years old", "쉰 + 여섯; the ones digit 여섯 keeps its form"],
+      ["쉰이 넘다", "to be over fifty", "쉰 + 이 + 넘다 = past the age of fifty"]
     ],
     "examples": [
-      ["할머니는 쉰 살이 넘으셨어요.", "Grandma is over fifty years old.", "넘다 = to exceed; 으셨 adds respect"],
-      ["손님이 쉰 명쯤 왔어요.", "About fifty guests came.", "명 counts people"],
-      ["엄마는 올해 쉰이에요.", "Mom is fifty this year.", "쉰이에요 states the age directly"]
+      ["마흔아홉, 쉰… 벌써 쉰이네요.", "Forty-nine, fifty… already fifty.", "standalone 쉰 with 이네요 marveling at the age"],
+      ["엄마는 올해 쉰이에요.", "Mom is fifty this year.", "쉰이에요 states age directly, no counter needed"],
+      ["할머니는 쉰 살이 넘으셨어요.", "Grandma is over fifty.", "honorific 으셨 raises 넘다 for an elder"]
     ],
-    "nuance": "쉰 is the native-Korean number for fifty and is used to talk about age in daily life. It is short but spelled with a final ㄴ. As with the other tens, the ones digit added after it changes form (쉰한, 쉰두, 쉰세, 쉰네 살). For round ages like fifty, 쉰 sounds far more natural than the Sino-Korean 오십.",
-    "mistakes": ["Confusing 쉰 (fifty) with 쉬다 (to rest), which sound similar", "Using 오십 for age when 쉰 is expected in conversation"]
+    "nuance": "쉰 is the native-Korean fifty — one compact syllable (ㅅ+ㅟ+ㄴ) that learners routinely under-pronounce. It is the natural word for a real person's age, where Sino-Korean 오십 feels like a number on a form. The dangerous confusion is purely auditory: 쉰 (fifty) sounds almost identical to 쉬다 'to rest' and its forms (쉰 [past-modifier of 쉬다] can even mean 'rested'), and to 쉰 as in 쉰 우유 'spoiled milk' — only context separates them. As with the upper tens, 쉰 itself never shrinks; the ones digit on top changes (쉰한, 쉰두, 쉰세, 쉰네), while 다섯~아홉 stay whole (쉰여섯 살). Don't reach for 오십 when you mean a person's age.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "쉰 is the native-Korean fifty — one compact syllable (ㅅ+ㅟ+ㄴ) that learners routinely under-pronounce. It is the natural word for a real person's age."},
+      {"k": "비슷한 말", "e": "VS", "t": "Sino-Korean 오십 feels like a number on a form, so don't reach for it when you mean a person's age — use native 쉰."},
+      {"k": "활용", "e": "FORMS", "t": "As with the upper tens, 쉰 itself never shrinks; the ones digit on top changes (쉰한, 쉰두, 쉰세, 쉰네), while 다섯~아홉 stay whole (쉰여섯 살).", "chips": ["쉰 살", "쉰한", "쉰두", "쉰세", "쉰여섯 살"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The dangerous confusion is purely auditory: 쉰 (fifty) sounds almost identical to 쉬다 'to rest' and its forms (쉰, the past-modifier of 쉬다, can even mean 'rested'), and to 쉰 as in 쉰 우유 'spoiled milk' — only context separates them."}
+    ],
+    "mistakes": [
+      "Using 오십 for a person's age ('오십 살') where conversational Korean wants 쉰 살.",
+      "Pronouncing/hearing it as 쉬다 'to rest' — listen for the final ㄴ that marks the number 쉰.",
+      "Expecting 쉰 to drop a sound before a counter; it stays 쉰 살, never '쉬 살'."
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +130,28 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["예순", "sixty", "native-Korean number, used for age"],
-      ["예순 살", "sixty years old", "age with the counter 살"],
-      ["예순한 살", "sixty-one years old", "예순 + 한 (하나 → 한)"],
-      ["예순 명", "sixty people", "with the counter 명"]
+      ["예순", "sixty", "native tens word; stays whole before a counter (예순 살)"],
+      ["예순 살", "sixty years old", "native number + 살, typical for an older relative"],
+      ["예순한 살", "sixty-one years old", "예순 + 한 (하나 → 한 before the counter 살)"],
+      ["예순이 다 되다", "to be almost sixty", "예순 + 이 + 다 되다 = nearly reaching sixty"]
     ],
     "examples": [
-      ["할아버지는 예순 살이에요.", "Grandpa is sixty years old.", "common age statement"],
-      ["예순이 다 되셨어요.", "He's almost sixty.", "다 되다 = to be nearly; 셨 adds respect"],
-      ["예순 명이 신청했어요.", "Sixty people applied.", "명 counts people"]
+      ["쉰아홉 다음이 예순이에요.", "After fifty-nine comes sixty.", "standalone 예순 in counting"],
+      ["할아버지는 예순 살이에요.", "Grandpa is sixty.", "everyday age; 예순 keeps its full form before 살"],
+      ["아버지가 예순이 다 되셨어요.", "Father is almost sixty.", "다 되다 = 'nearly become'; 셨 honors the elder"]
     ],
-    "nuance": "예순 is the native-Korean number for sixty, used mainly for age. It is easy to confuse in sound with 여섯 (six), so listen for the full word. Like the other tens, a following ones digit changes shape (예순한, 예순두, 예순세, 예순네 살). For an older person's age, 예순 is the natural spoken choice over 육십.",
-    "mistakes": ["Mixing up 예순 (sixty) with 여섯 (six) because they sound alike", "Saying 육십 for a person's age instead of native 예순"]
+    "nuance": "예순 is the native-Korean sixty, used overwhelmingly for age — for an elder, 예순 살 is warm and human while 육십 살 sounds like a database entry. The classic learner trap is acoustic: 예순 (sixty) vs 여섯 (six) differ only in the first vowel (예 vs 여), and rushed speech blurs them, so listen for the full two syllables. The tens word stays intact before counters (예순 살, 예순 명); only an added ones digit changes form (예순한, 예순두, 예순세, 예순네, from 하나·둘·셋·넷). Around sixty you'll also meet the milestone word 환갑/회갑 (60th birthday) — those are Sino-Korean nouns, but the plain age itself is the native 예순.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "예순 is the native-Korean sixty, used overwhelmingly for age — for an elder, 예순 살 is warm and human."},
+      {"k": "비슷한 말", "e": "VS", "t": "육십 살 sounds like a database entry, so native 예순 is the human choice. Around sixty you'll also meet the milestone word 환갑/회갑 (60th birthday) — those are Sino-Korean nouns, but the plain age itself is the native 예순."},
+      {"k": "활용", "e": "FORMS", "t": "The tens word stays intact before counters (예순 살, 예순 명); only an added ones digit changes form (예순한, 예순두, 예순세, 예순네, from 하나·둘·셋·넷).", "chips": ["예순 살", "예순한", "예순두", "예순세", "예순네"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic learner trap is acoustic: 예순 (sixty) vs 여섯 (six) differ only in the first vowel (예 vs 여), and rushed speech blurs them, so listen for the full two syllables."}
+    ],
+    "mistakes": [
+      "Confusing 예순 (sixty) with 여섯 (six); the difference is the opening vowel 예 vs 여.",
+      "Saying Sino-Korean 육십 for someone's age ('육십 살') instead of native 예순 살.",
+      "Leaving the ones digit unchanged: '예순하나 살' — before 살 it's 예순한 살."
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +161,28 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["일흔", "seventy", "native-Korean number, used for age"],
-      ["일흔 살", "seventy years old", "age with the counter 살"],
-      ["일흔두 살", "seventy-two years old", "일흔 + 두 (둘 → 두)"],
-      ["일흔 명", "seventy people", "with the counter 명"]
+      ["일흔", "seventy", "native tens word; written with ㅎ, stays whole before a counter"],
+      ["일흔 살", "seventy years old", "native number + 살 for a grandparent's age"],
+      ["일흔두 살", "seventy-two years old", "일흔 + 두 (둘 → 두 before 살)"],
+      ["일흔이 넘다", "to be over seventy", "일흔 + 이 + 넘다 = past the age of seventy"]
     ],
     "examples": [
-      ["할머니가 일흔 살이 되셨어요.", "Grandma turned seventy years old.", "되다 = to become; 셨 adds respect"],
-      ["일흔이 넘으셨어요.", "She is over seventy.", "넘다 = to pass/exceed"],
-      ["일흔 명 정도 모였어요.", "About seventy people gathered.", "정도 means about/around"]
+      ["예순아홉, 일흔… 세월 참 빠르네요.", "Sixty-nine, seventy… time really flies.", "standalone 일흔 in counting up"],
+      ["할머니가 일흔 살이 되셨어요.", "Grandma turned seventy.", "되다 = 'become'; 셨 raises it for an elder"],
+      ["일흔이 넘으셨는데 정정하세요.", "She's over seventy but still spry.", "는데 contrasts age with vigor"]
     ],
-    "nuance": "일흔 is the native-Korean number for seventy and is the everyday word for that age. Beginners rarely need to count this high for objects, but it is common when talking about grandparents. The ones digit added after it shifts form (일흔한, 일흔두, 일흔세, 일흔네 살), just like the lower tens.",
-    "mistakes": ["Confusing it with 일곱 (seven) since both start with 일", "Using Sino-Korean 칠십 for someone's age instead of 일흔"]
+    "nuance": "일흔 is the native-Korean seventy, the natural word for a grandparent's age; the Sino-Korean 칠십 is fine for statistics but cold for a beloved relative. The spelling carries a ㅎ that is barely audible, so beginners often mis-write it as '이른' or confuse it with 일곱 'seven' (both begin with 일) — distinguish by the second syllable 흔 vs 곱. As with all upper tens, the word never shrinks before a counter (일흔 살, 일흔 명); only an added ones digit changes form (일흔한, 일흔두, 일흔세, 일흔네). You'll rarely count seventy objects, so practice this one anchored on age. Note 70 also has the Sino-Korean milestone 고희 (古稀) for the 70th birthday, but the plain age stays 일흔.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "일흔 is the native-Korean seventy, the natural word for a grandparent's age. You'll rarely count seventy objects, so practice this one anchored on age."},
+      {"k": "비슷한 말", "e": "VS", "t": "The Sino-Korean 칠십 is fine for statistics but cold for a beloved relative. Note 70 also has the Sino-Korean milestone 고희 (古稀) for the 70th birthday, but the plain age stays 일흔."},
+      {"k": "활용", "e": "FORMS", "t": "As with all upper tens, the word never shrinks before a counter (일흔 살, 일흔 명); only an added ones digit changes form (일흔한, 일흔두, 일흔세, 일흔네).", "chips": ["일흔 살", "일흔한", "일흔두", "일흔세", "일흔네"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The spelling carries a ㅎ that is barely audible, so beginners often mis-write it as '이른' or confuse it with 일곱 'seven' (both begin with 일) — distinguish by the second syllable 흔 vs 곱."}
+    ],
+    "mistakes": [
+      "Confusing 일흔 (seventy) with 일곱 (seven); the second syllable differs, 흔 vs 곱.",
+      "Using Sino-Korean 칠십 for a person's age ('칠십 살') rather than native 일흔 살.",
+      "Mis-spelling it '이른' by dropping the ㅎ; the correct written form is 일흔."
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +192,28 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["여든", "eighty", "native-Korean number, used for age"],
-      ["여든 살", "eighty years old", "age with the counter 살"],
-      ["여든세 살", "eighty-three years old", "여든 + 세 (셋 → 세)"],
-      ["여든 명", "eighty people", "with the counter 명"]
+      ["여든", "eighty", "native tens word; stays whole before a counter (여든 살)"],
+      ["여든 살", "eighty years old", "native number + 살 for a very senior relative"],
+      ["여든세 살", "eighty-three years old", "여든 + 세 (셋 → 세 before 살)"],
+      ["여든이 넘다", "to be over eighty", "여든 + 이 + 넘다 = past the age of eighty"]
     ],
     "examples": [
-      ["증조할머니는 여든 살이세요.", "My great-grandmother is eighty years old.", "이세요 states age with respect"],
-      ["여든이 넘으셨는데 건강하세요.", "She's over eighty but healthy.", "는데 links two ideas"],
-      ["여든 명이 참석했어요.", "Eighty people attended.", "명 counts people"]
+      ["일흔아홉, 여든… 정말 오래 사셨네요.", "Seventy-nine, eighty… what a long life.", "standalone 여든 in counting"],
+      ["증조할머니는 여든 살이세요.", "My great-grandmother is eighty.", "이세요 states age with high respect"],
+      ["여든이 넘으셨는데 건강하세요.", "She's over eighty but healthy.", "는데 links the two facts smoothly"]
     ],
-    "nuance": "여든 is the native-Korean number for eighty, used chiefly to describe age. It can sound close to 여덟 (eight) and 여섯 (six), so context matters. As with all the tens, a following ones digit changes form (여든한, 여든두, 여든세, 여든네 살). For an elder's age, 여든 is preferred over the Sino-Korean 팔십.",
-    "mistakes": ["Mixing up 여든 (eighty) with 여덟 (eight)", "Saying 팔십 for a person's age where native 여든 is natural"]
+    "nuance": "여든 is the native-Korean eighty, used almost solely for age — and at that age a respectful frame like 여든 살이세요 or honorific verbs are expected. It sits in a cluster of look- and sound-alikes: 여든 (80), 여덟 (8), and 여섯 (6) all start with 여, so a learner must hear the full word (여든 ends in ㄴ, 여덟 ends in the ㄼ cluster, 여섯 ends in ㅅ). The tens word itself never shrinks before a counter (여든 살); only an added ones digit changes form (여든한, 여든두, 여든세, 여든네, from 하나·둘·셋·넷). Sino-Korean 팔십 exists but feels impersonal for someone's actual age; keep native 여든 for people.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "여든 is the native-Korean eighty, used almost solely for age — and at that age a respectful frame like 여든 살이세요 or honorific verbs are expected."},
+      {"k": "비슷한 말", "e": "VS", "t": "Sino-Korean 팔십 exists but feels impersonal for someone's actual age; keep native 여든 for people."},
+      {"k": "활용", "e": "FORMS", "t": "The tens word itself never shrinks before a counter (여든 살); only an added ones digit changes form (여든한, 여든두, 여든세, 여든네, from 하나·둘·셋·넷).", "chips": ["여든 살", "여든한", "여든두", "여든세", "여든네"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "It sits in a cluster of look- and sound-alikes: 여든 (80), 여덟 (8), and 여섯 (6) all start with 여, so a learner must hear the full word (여든 ends in ㄴ, 여덟 ends in the ㄼ cluster, 여섯 ends in ㅅ)."}
+    ],
+    "mistakes": [
+      "Mixing up 여든 (eighty) with 여덟 (eight) — listen for the ending: ㄴ vs the ㄼ cluster.",
+      "Saying 팔십 for a person's age ('팔십 살') where native 여든 살 is natural.",
+      "Leaving the ones digit unchanged: '여든셋 살' — before 살 it's 여든세 살."
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +223,28 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["아흔", "ninety", "native-Korean number, used for age"],
-      ["아흔 살", "ninety years old", "age with the counter 살"],
-      ["아흔네 살", "ninety-four years old", "아흔 + 네 (넷 → 네)"],
-      ["아흔 명", "ninety people", "with the counter 명"]
+      ["아흔", "ninety", "the last native tens word; stays whole before a counter"],
+      ["아흔 살", "ninety years old", "native number + 살 for a very elderly person"],
+      ["아흔네 살", "ninety-four years old", "아흔 + 네 (넷 → 네 before 살)"],
+      ["아흔이 다 되다", "to be almost ninety", "아흔 + 이 + 다 되다 = nearly reaching ninety"]
     ],
     "examples": [
-      ["증조할아버지는 아흔 살이세요.", "My great-grandfather is ninety years old.", "이세요 adds respect to age"],
-      ["아흔이 다 되셨어요.", "He's almost ninety.", "다 되다 = to be nearly"],
-      ["아흔 명쯤 왔어요.", "About ninety people came.", "쯤 means about/around"]
+      ["여든아홉, 아흔… 백 살까지 사세요!", "Eighty-nine, ninety… live to a hundred!", "standalone 아흔; note 100 jumps to Sino-Korean 백"],
+      ["증조할아버지는 아흔 살이세요.", "My great-grandfather is ninety.", "이세요 gives age with deep respect"],
+      ["할머니가 아흔이 다 되셨어요.", "Grandma is almost ninety.", "다 되다 = 'nearly become'; 셨 honors her"]
     ],
-    "nuance": "아흔 is the native-Korean number for ninety, used almost only for age. It is the last of the native tens (스물·서른·마흔·쉰·예순·일흔·여든·아흔), after which counting usually switches to Sino-Korean 백 for one hundred. The ones digit after it changes shape (아흔한, 아흔두, 아흔세, 아흔네 살).",
-    "mistakes": ["Confusing 아흔 (ninety) with 아홉 (nine) since both start with 아", "Trying to say a hundred as a native number; 백 (Sino-Korean) is used instead"]
+    "nuance": "아흔 is the native-Korean ninety and the final member of the native tens chain (스물·서른·마흔·쉰·예순·일흔·여든·아흔) — there is NO native word for one hundred, so counting flips to Sino-Korean 백 right after it, a hard stop learners must memorize. Like its neighbors it never shrinks before a counter (아흔 살, 아흔 명); only an added ones digit changes (아흔한, 아흔두, 아흔세, 아흔네). The sound trap is 아흔 (90) vs 아홉 (9): both open with 아, but the second syllable differs (흔 vs 홉). Because reaching ninety is notable, you'll often hear it with honorific verbs (되시다, 넘으시다) and warm idioms like 아흔이 다 되셨어요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "아흔 is the native-Korean ninety and the final member of the native tens chain (스물·서른·마흔·쉰·예순·일흔·여든·아흔). Because reaching ninety is notable, you'll often hear it with honorific verbs (되시다, 넘으시다) and warm idioms like 아흔이 다 되셨어요."},
+      {"k": "비슷한 말", "e": "VS", "t": "There is NO native word for one hundred, so counting flips to Sino-Korean 백 right after 아흔, a hard stop learners must memorize."},
+      {"k": "활용", "e": "FORMS", "t": "Like its neighbors it never shrinks before a counter (아흔 살, 아흔 명); only an added ones digit changes (아흔한, 아흔두, 아흔세, 아흔네).", "chips": ["아흔 살", "아흔한", "아흔두", "아흔세", "아흔네"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The sound trap is 아흔 (90) vs 아홉 (9): both open with 아, but the second syllable differs (흔 vs 홉)."}
+    ],
+    "mistakes": [
+      "Confusing 아흔 (ninety) with 아홉 (nine); distinguish by the second syllable, 흔 vs 홉.",
+      "Trying to keep counting natively past ninety; one hundred is Sino-Korean 백, not a native word.",
+      "Saying Sino-Korean 구십 for a person's age ('구십 살') instead of native 아흔 살."
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +254,27 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["한", "one (+ counter)", "the form of 하나 used before a counter word"],
-      ["한 개", "one (thing)", "개 is the general counter for objects"],
-      ["한 명", "one person", "명 counts people"],
-      ["한 시", "one o'clock", "시 marks the hour; uses native numbers"]
+      ["한", "one (+ counter)", "the bound pre-counter form of 하나; never used alone"],
+      ["한 개", "one (thing)", "개 is the all-purpose counter for objects"],
+      ["한 명", "one person", "명 is the neutral-polite counter for people"],
+      ["한 시", "one o'clock", "the clock HOUR uses native numbers, so 한 시 not 일 시"]
     ],
     "examples": [
-      ["커피 한 잔 주세요.", "One cup of coffee, please.", "잔 counts cups/glasses; 하나 → 한"],
-      ["사람이 한 명 왔어요.", "One person came.", "명 is the counter for people"],
-      ["한 시에 만나요.", "Let's meet at one o'clock.", "the hour uses native numbers, so 한 시"]
+      ["커피 한 잔 주세요.", "One cup of coffee, please.", "잔 counts cups/glasses; 하나 → 한 before it"],
+      ["사람이 한 명 왔어요.", "One person came.", "명 is the counter; the number sits as 한, not 하나"],
+      ["우리 한 시에 만나요.", "Let's meet at one o'clock.", "hours take native numbers, hence 한 시 (minutes would be Sino-Korean)"]
     ],
-    "nuance": "한 is the special form of 하나 (one) used right before a counter such as 개, 명, 잔, or 시. Korean almost always puts a counter after a number, and 하나 changes to 한 in that position. The same shift happens with 둘→두, 셋→세, 넷→네, and 스물→스무.",
-    "mistakes": ["Saying '하나 개' instead of '한 개' before a counter", "Forgetting a counter entirely, e.g. saying '커피 한' instead of '커피 한 잔'"]
+    "nuance": "한 is the special bound form of 하나 (one) that appears immediately before a counter (한 개, 한 명, 한 잔, 한 시) — it cannot stand alone the way 하나 can ('얼마예요?'-'하나요', never '한요'). Korean is a classifier language: a number almost always needs a counter, and the moment a counter follows, 하나 contracts to 한, mirroring 둘→두, 셋→세, 넷→네, 스물→스무. A subtle point for clocks: the HOUR is native (한 시, 두 시) but the MINUTE is Sino-Korean (일 분, 이 분), so '1:01' is 한 시 일 분 — mixing systems in one phrase. Beyond counting, 한 also means 'about/around' before some words (한 시간쯤, 한 십 분), and appears in 한번 'once', but those senses grow from this same 'one'.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "한 is the special bound form of 하나 (one) that appears immediately before a counter (한 개, 한 명, 한 잔, 한 시) — it cannot stand alone the way 하나 can ('얼마예요?'-'하나요', never '한요'). Beyond counting, 한 also means 'about/around' before some words (한 시간쯤, 한 십 분), and appears in 한번 'once', but those senses grow from this same 'one'."},
+      {"k": "활용", "e": "FORMS", "t": "Korean is a classifier language: a number almost always needs a counter, and the moment a counter follows, 하나 contracts to 한, mirroring 둘→두, 셋→세, 넷→네, 스물→스무.", "chips": ["한 개", "한 명", "한 잔", "한 시"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A subtle point for clocks: the HOUR is native (한 시, 두 시) but the MINUTE is Sino-Korean (일 분, 이 분), so '1:01' is 한 시 일 분 — mixing systems in one phrase."}
+    ],
+    "mistakes": [
+      "Saying '하나 개' before a counter; it must contract to 한 개, 한 명, 한 잔.",
+      "Dropping the counter, e.g. '커피 한' — Korean needs '커피 한 잔'.",
+      "Using Sino-Korean 일 for the clock hour ('일 시'); the hour is native, so 한 시."
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +284,27 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["두", "two (+ counter)", "the form of 둘 used before a counter word"],
-      ["두 개", "two (things)", "개 counts objects"],
-      ["두 명", "two people", "명 counts people"],
-      ["두 시", "two o'clock", "the hour uses native numbers"]
+      ["두", "two (+ counter)", "the bound pre-counter form of 둘; not used standalone"],
+      ["두 개", "two (things)", "개 counts general objects"],
+      ["두 명", "two people", "명 counts people in neutral-polite register"],
+      ["두 시", "two o'clock", "the hour is native, so 두 시 not 이 시"]
     ],
     "examples": [
-      ["물 두 병 주세요.", "Two bottles of water, please.", "병 counts bottles; 둘 → 두"],
-      ["친구 두 명이랑 갔어요.", "I went with two friends.", "명 counts people; 이랑 = with"],
-      ["두 시에 수업이 있어요.", "I have class at two o'clock.", "the hour uses native numbers, so 두 시"]
+      ["물 두 병 주세요.", "Two bottles of water, please.", "병 counts bottles; 둘 → 두 before it"],
+      ["친구 두 명이랑 갔어요.", "I went with two friends.", "명 counts people; 이랑 = 'with' in casual speech"],
+      ["오후 두 시에 수업이 있어요.", "I have class at two p.m.", "hour uses native 두 시; 오후 marks the afternoon"]
     ],
-    "nuance": "두 is the form of 둘 (two) that appears before a counter like 개, 명, 병, or 시. Whenever a counter follows, 둘 becomes 두. This pre-counter change is shared by 하나→한, 셋→세, 넷→네, and 스물→스무, and beginners hear it constantly when ordering or telling time.",
-    "mistakes": ["Saying '둘 개' instead of '두 개' before a counter", "Using Sino-Korean 이 for clock hours, e.g. '이 시' instead of '두 시'"]
+    "nuance": "두 is the bound form of 둘 (two) used directly before a counter (두 개, 두 명, 두 병, 두 시). The rule is mechanical: when a counter follows, 둘 always becomes 두 — there is no exception in standard speech — paralleling 하나→한, 셋→세, 넷→네, 스물→스무. The biggest English-speaker slip is system-mixing on the clock: hours are native (두 시) but minutes are Sino-Korean (이십 분), so '2:20' is 두 시 이십 분. Note also that 둘 is the standalone form ('둘 다' both, '둘이서' the two of us) and you cannot swap them: '두 다' or '둘 개' both sound wrong to a native ear. Practice 두 with high-frequency counters — 개, 명, 잔, 병, 시 — since these dominate ordering and scheduling.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "두 is the bound form of 둘 (two) used directly before a counter (두 개, 두 명, 두 병, 두 시). Practice it with high-frequency counters — 개, 명, 잔, 병, 시 — since these dominate ordering and scheduling. Note that 둘 is the standalone form ('둘 다' both, '둘이서' the two of us) and you cannot swap them: '두 다' or '둘 개' both sound wrong to a native ear."},
+      {"k": "활용", "e": "FORMS", "t": "The rule is mechanical: when a counter follows, 둘 always becomes 두 — there is no exception in standard speech — paralleling 하나→한, 셋→세, 넷→네, 스물→스무.", "chips": ["두 개", "두 명", "두 병", "두 시"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The biggest English-speaker slip is system-mixing on the clock: hours are native (두 시) but minutes are Sino-Korean (이십 분), so '2:20' is 두 시 이십 분."}
+    ],
+    "mistakes": [
+      "Saying '둘 개', '둘 명' before a counter; the bound form is 두 개, 두 명.",
+      "Using Sino-Korean 이 for the clock hour ('이 시') instead of native 두 시.",
+      "Writing 'both' as '두 다'; the standalone form is required, so 둘 다."
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +314,27 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["세", "three (+ counter)", "the form of 셋 used before a counter word"],
-      ["세 개", "three (things)", "개 counts objects"],
+      ["세", "three (+ counter)", "the bound pre-counter form of 셋; not used alone"],
+      ["세 개", "three (things)", "개 counts general objects"],
       ["세 명", "three people", "명 counts people"],
-      ["세 시", "three o'clock", "the hour uses native numbers"]
+      ["세 시", "three o'clock", "the hour is native, so 세 시 not 삼 시"]
     ],
     "examples": [
-      ["빵 세 개 주세요.", "Three pieces of bread, please.", "개 counts objects; 셋 → 세"],
-      ["가족이 세 명이에요.", "My family has three people.", "명 counts people"],
-      ["세 시에 끝나요.", "It ends at three o'clock.", "the hour uses native numbers, so 세 시"]
+      ["빵 세 개 주세요.", "Three pieces of bread, please.", "개 counts objects; 셋 → 세 before it"],
+      ["우리 가족은 세 명이에요.", "My family has three people.", "명 counts people; 은 marks the family as topic"],
+      ["수업이 세 시에 끝나요.", "Class ends at three o'clock.", "hour uses native 세 시; minutes would switch to Sino-Korean"]
     ],
-    "nuance": "세 is the form of 셋 (three) used directly before a counter such as 개, 명, 잔, or 시. Korean numbers from one to four change shape before counters, so 셋 becomes 세. Remember the set 한·두·세·네 together, because these four forms come up in nearly every shopping or time-telling sentence.",
-    "mistakes": ["Saying '셋 개' instead of '세 개' before a counter", "Using Sino-Korean 삼 for clock hours, e.g. '삼 시' instead of '세 시'"]
+    "nuance": "세 is the bound form of 셋 (three) that appears right before a counter (세 개, 세 명, 세 잔, 세 시). Remember 한·두·세·네 as one block, because all four low numbers contract before counters and they saturate everyday speech — ordering food, counting people, telling the hour. Watch the homophone risk: this 세 sounds like 새 'new', 세 (貰) 'rent/lease', and the verb stem 세- 'to count/to be strong', so meaning rides entirely on context and the following counter. As always, 셋 is the standalone form ('셋 다' all three, '셋이서' the three of us); you cannot say '세 다' or '셋 개'. For the clock, hours stay native (세 시) while minutes go Sino-Korean (삼십 분), giving '3:30' = 세 시 삼십 분.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "세 is the bound form of 셋 (three) that appears right before a counter (세 개, 세 명, 세 잔, 세 시). As always, 셋 is the standalone form ('셋 다' all three, '셋이서' the three of us); you cannot say '세 다' or '셋 개'."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Watch the homophone risk: this 세 sounds like 새 'new', 세 (貰) 'rent/lease', and the verb stem 세- 'to count/to be strong', so meaning rides entirely on context and the following counter."},
+      {"k": "활용", "e": "FORMS", "t": "Remember 한·두·세·네 as one block, because all four low numbers contract before counters and they saturate everyday speech — ordering food, counting people, telling the hour. For the clock, hours stay native (세 시) while minutes go Sino-Korean (삼십 분), giving '3:30' = 세 시 삼십 분.", "chips": ["세 개", "세 명", "세 잔", "세 시"]}
+    ],
+    "mistakes": [
+      "Saying '셋 개', '셋 명' before a counter; the bound form is 세 개, 세 명.",
+      "Using Sino-Korean 삼 for the clock hour ('삼 시') instead of native 세 시.",
+      "Saying 'all three' as '세 다'; the standalone form is needed, so 셋 다."
+    ]
   },
   {
     "kind": "noun",
@@ -238,18 +344,27 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["스무", "twenty (+ counter)", "the form of 스물 used before a counter word"],
-      ["스무 살", "twenty years old", "스물 → 스무 before the counter 살"],
-      ["스무 개", "twenty (things)", "개 counts objects"],
-      ["스무 명", "twenty people", "명 counts people"]
+      ["스무", "twenty (+ counter)", "the bound pre-counter form of 스물; the only native ten that shrinks"],
+      ["스무 살", "twenty years old", "스물 → 스무 before 살, the most common use"],
+      ["스무 개", "twenty (things)", "개 counts objects; never 스물 개"],
+      ["스무 명", "twenty people", "명 counts people; the ㄹ of 스물 still drops"]
     ],
     "examples": [
-      ["저는 스무 살이에요.", "I'm twenty years old.", "age with 살; 스물 → 스무"],
-      ["계란 스무 개 주세요.", "Twenty eggs, please.", "개 counts objects, not 스물 개"],
-      ["학생이 스무 명 왔어요.", "Twenty students came.", "명 counts people; note 스무 not 스물"]
+      ["저는 스무 살이에요.", "I'm twenty.", "age + 살; 스물 contracts to 스무"],
+      ["계란 스무 개 주세요.", "Twenty eggs, please.", "the counter 개 forces 스무, not 스물 개"],
+      ["신입생이 스무 명 왔어요.", "Twenty freshmen came.", "명 still triggers 스무; 신입생 = new student"]
     ],
-    "nuance": "스무 is the form of 스물 (twenty) used right before a counter such as 살, 개, or 명. Twenty is the one higher native number that still changes shape before a counter, joining 한·두·세·네. So you say 스무 살 and 스무 개, never 스물 살 or 스물 개, even though the plain number is 스물.",
-    "mistakes": ["Saying '스물 살' or '스물 개' instead of '스무 살' and '스무 개'", "Forgetting that only 스물 (not 서른, 마흔...) also drops its final sound before a counter"]
+    "nuance": "스무 is the bound, pre-counter shape of 스물 (twenty) — it drops the final ㄹ exactly the way 하나→한, 둘→두, 셋→세, 넷→네 lose or change their ending before a counter. The headline fact: among the native TENS, 스물 is the sole survivor of this contraction — 서른·마흔·쉰·예순·일흔·여든·아흔 all keep their full shape (서른 살, 마흔 개), so '스무' is special and not a pattern to over-apply. Use it before any counter (스무 살, 스무 개, 스무 명, 스무 시간), but the instant no counter follows you snap back to 스물 ('스물이 넘어요', counting '…열아홉, 스물'). The twin English-speaker errors are forgetting to contract ('스물 살') and over-contracting the higher tens (there is no '서르 살').",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "스무 is the bound, pre-counter shape of 스물 (twenty). Use it before any counter (스무 살, 스무 개, 스무 명, 스무 시간), but the instant no counter follows you snap back to 스물 ('스물이 넘어요', counting '…열아홉, 스물')."},
+      {"k": "활용", "e": "FORMS", "t": "스무 drops the final ㄹ exactly the way 하나→한, 둘→두, 셋→세, 넷→네 lose or change their ending before a counter. The headline fact: among the native TENS, 스물 is the sole survivor of this contraction — 서른·마흔·쉰·예순·일흔·여든·아흔 all keep their full shape (서른 살, 마흔 개), so '스무' is special and not a pattern to over-apply.", "chips": ["스무 살", "스무 개", "스무 명", "스무 시간"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The twin English-speaker errors are forgetting to contract ('스물 살') and over-contracting the higher tens (there is no '서르 살')."}
+    ],
+    "mistakes": [
+      "Saying '스물 살', '스물 개', '스물 명'; before a counter the ㄹ drops to give 스무.",
+      "Over-applying the rule to higher tens — there is no '서르 살' or '마으 개'; only 스물 → 스무.",
+      "Keeping 스무 with no counter, e.g. '스무가 넘어요'; standalone it returns to 스물이 넘어요."
+    ]
   },
   {
     "kind": "noun",
@@ -259,18 +374,27 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["몇", "how many / a few", "question word placed before a counter"],
-      ["몇 개", "how many (things)", "개 counts objects"],
+      ["몇", "how many / a few", "interrogative quantifier; sits in a number's slot before a counter"],
+      ["몇 개", "how many (things)", "개 counts objects; 몇 + 개 asks a quantity"],
       ["몇 명", "how many people", "명 counts people"],
-      ["몇 시", "what time", "literally 'how many o'clock,' uses native-number counters"]
+      ["몇 시", "what time", "literally 'how many o'clock'; the hour uses native counting"]
     ],
     "examples": [
-      ["지금 몇 시예요?", "What time is it now?", "몇 시 = what time, the most common use"],
-      ["가족이 몇 명이에요?", "How many people are in your family?", "몇 + 명 to ask a number of people"],
-      ["사과 몇 개 주세요.", "Please give me a few apples.", "here 몇 means 'a few,' not a question"]
+      ["지금 몇 시예요?", "What time is it now?", "몇 시 is the standard way to ask the hour"],
+      ["가족이 몇 명이에요?", "How many people are in your family?", "몇 + 명 asks number of people"],
+      ["사과 몇 개만 주세요.", "Just give me a few apples.", "non-question 몇 = 'a few'; 만 adds 'just'"]
     ],
-    "nuance": "몇 means 'how many' and goes right before a counter, just like a number does (몇 개, 몇 명, 몇 시). It pairs with native-number counters and is essential for asking the time and quantities. The same word can also mean 'a few' (몇 개 = a few) when it is not a question.",
-    "mistakes": ["Using 몇 without a counter, e.g. saying '몇이에요?' instead of '몇 개예요?'", "Confusing 몇 시 (what time, native numbers) with 며칠 (what date, Sino-Korean)"]
+    "nuance": "몇 means 'how many' and, grammatically, behaves like a number: it drops straight into the slot before a counter (몇 개, 몇 명, 몇 시, 몇 잔), and since it pairs with the native-number counters, it inherits their world (몇 시 'what time', 몇 살 'how old'). A defining subtlety is that the SAME 몇 also means 'a few / several' when it is not a question — '몇 개 샀어요' can be 'I bought a few' depending on intonation and context. Two boundaries trip English speakers: (1) 몇 almost always needs a counter, so 'how many?' about countable things is 몇 개/몇 명, not bare 몇; (2) don't confuse 몇 시 (what TIME, native + 시) with 며칠 (what DATE/how many days, which behaves on the Sino-Korean date system) — different question, different number family. Compare also 얼마나 'how much/to what extent', which asks degree rather than a countable number.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "몇 means 'how many' and, grammatically, behaves like a number: it drops straight into the slot before a counter (몇 개, 몇 명, 몇 시, 몇 잔), and since it pairs with the native-number counters, it inherits their world (몇 시 'what time', 몇 살 'how old'). A defining subtlety is that the SAME 몇 also means 'a few / several' when it is not a question — '몇 개 샀어요' can be 'I bought a few' depending on intonation and context."},
+      {"k": "비슷한 말", "e": "VS", "t": "Compare 얼마나 'how much/to what extent', which asks degree rather than a countable number."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Two boundaries trip English speakers: (1) 몇 almost always needs a counter, so 'how many?' about countable things is 몇 개/몇 명, not bare 몇; (2) don't confuse 몇 시 (what TIME, native + 시) with 며칠 (what DATE/how many days, which behaves on the Sino-Korean date system) — different question, different number family."}
+    ],
+    "mistakes": [
+      "Using bare 몇 for a countable amount, e.g. '몇이에요?' instead of '몇 개예요?'.",
+      "Confusing 몇 시 (what time, native + 시) with 며칠 (what date) — they ask different things.",
+      "Forcing 몇 onto the Sino-Korean date counter; you ask the day with 며칠, not '몇 일'."
+    ]
   },
   {
     "kind": "noun",
@@ -280,17 +404,27 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["첫째", "first / firstly", "the first one in order; also 'first of all'"],
-      ["첫째 아이", "first child", "the oldest child in a family"],
-      ["첫째 날", "the first day", "first day of a trip, class, etc."],
-      ["둘째", "second", "the next ordinal after 첫째, for comparison"]
+      ["첫째", "first / firstly", "native ordinal for #1; also 'first of all' when listing"],
+      ["첫째 아이", "first child", "the eldest child; 첫째 alone can mean 'the eldest'"],
+      ["첫째 날", "the first day", "first day of a trip, course, or job"],
+      ["둘째", "second", "the next native ordinal, used in the same series as 첫째"]
     ],
     "examples": [
-      ["저는 첫째예요.", "I'm the oldest (first child).", "common way to say birth order"],
-      ["여행 첫째 날에 바다에 갔어요.", "On the first day of the trip, we went to the sea.", "첫째 날 = the first day"],
-      ["첫째, 건강이 제일 중요해요.", "First of all, health is the most important.", "첫째 used to list points"]
+      ["저는 첫째예요.", "I'm the eldest (first child).", "첫째 alone names birth order in a family"],
+      ["여행 첫째 날에 바다에 갔어요.", "On the first day of the trip we went to the sea.", "첫째 날 = the first day in a sequence"],
+      ["첫째, 건강이 제일 중요해요.", "First of all, health matters most.", "첫째 opens a list, pairing with 둘째 next"]
     ],
-    "nuance": "첫째 means 'the first' and is the native-Korean ordinal for number one, built from the idea of 하나. It names the first child in a family (첫째, 둘째, 셋째) and the first day or item in a sequence. It also works like 'first of all' when listing reasons, paired with 둘째 (secondly).",
-    "mistakes": ["Mixing up 첫째 (first, native ordinal) with Sino-Korean 일 번 (number one) in lists", "Using 하나 to mean 'first'; ordinals use 첫째, 둘째, 셋째, not the plain numbers"]
+    "nuance": "첫째 is the native-Korean ordinal 'first', built from 첫 (the bound 'first' form of 하나) + the ordinal suffix -째; the rest of the family runs 둘째, 셋째, 넷째 'second/third/fourth'. It does three jobs: it names the eldest child (저는 첫째예요), it labels the first item in a sequence (첫째 날, 첫째 주 'first week'), and it works like 'firstly/first of all' to organize spoken or written points, almost always followed by 둘째. Don't confuse the ORDINAL system (첫째, 둘째 — order/rank) with the CARDINAL-plus-번/번째 way of listing (일 번, 1번째 'item no. 1'); 첫째 ranks, 일 번 labels. Also note the bound adjective 첫 'first' (첫사랑 first love, 첫날 first day, 첫인상 first impression) — same root, but 첫 attaches to a noun while 첫째 stands as the ordinal itself. A common slip is using the plain number 하나 to mean 'first'; ordering requires 첫째, never 하나.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "첫째 is the native-Korean ordinal 'first'. It does three jobs: it names the eldest child (저는 첫째예요), it labels the first item in a sequence (첫째 날, 첫째 주 'first week'), and it works like 'firstly/first of all' to organize spoken or written points, almost always followed by 둘째."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse the ORDINAL system (첫째, 둘째 — order/rank) with the CARDINAL-plus-번/번째 way of listing (일 번, 1번째 'item no. 1'); 첫째 ranks, 일 번 labels. Also note the bound adjective 첫 'first' (첫사랑 first love, 첫날 first day, 첫인상 first impression) — same root, but 첫 attaches to a noun while 첫째 stands as the ordinal itself."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is built from 첫 (the bound 'first' form of 하나) + the ordinal suffix -째; the rest of the family runs 둘째, 셋째, 넷째 'second/third/fourth'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A common slip is using the plain number 하나 to mean 'first'; ordering requires 첫째, never 하나."}
+    ],
+    "mistakes": [
+      "Using plain 하나 to mean 'first'; the ordinal is 첫째 (하나 is just the count 'one').",
+      "Mixing the ordinal 첫째 with the Sino-Korean label 일 번/1번 in a list — they aren't interchangeable.",
+      "Saying '첫 아이' and '첫째 아이' as if identical; both occur, but for birth-order 'the eldest' the noun is 첫째."
+    ]
   }
 ]

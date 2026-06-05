@@ -22,16 +22,24 @@
       "shallWe": "고장날까요?"
     },
     "usage": [
-      ["보일러가 고장났어요", "The boiler broke down", "Use this exact line when you call your landlord or 집주인 about heating"],
-      ["또 고장났어", "It broke again", "Casual gripe to a roommate; 또 = again, very common"]
+      ["보일러가 고장났어요", "The boiler broke down", "The exact line to open a call to your 집주인 (landlord) about heating"],
+      ["또 고장났어", "It broke again", "Casual gripe to a roommate; 또 = again, very common in real complaints"],
+      ["고장 난 것 같아요", "It seems to be broken", "고장 + 나다 written apart; -ㄴ 것 같다 hedges it as a guess, sounds polite"],
+      ["엘리베이터가 자주 고장나요", "The elevator breaks down often", "자주 = often; a recurring-problem report for the 관리실"]
     ],
     "examples": [
-      ["에어컨이 고장나서 너무 더워요.", "The AC broke down so it's really hot.", "고장나서 = because it broke; pairs with the result clause"],
-      ["세탁기가 고장난 것 같아요.", "I think the washing machine is broken.", "-ㄴ 것 같다 softens it to a guess, polite for reporting a problem"],
-      ["휴대폰이 갑자기 고장났어요.", "My phone suddenly broke.", "갑자기 = suddenly, natural with sudden malfunctions"]
+      ["에어컨이 고장나서 너무 더워요.", "The AC broke down so it's really hot.", "고장나서 = because it broke; the cause clause leads into the result"],
+      ["세탁기가 고장난 것 같아요.", "I think the washing machine is broken.", "-ㄴ 것 같다 softens it to a guess, polite for first reporting a problem"],
+      ["휴대폰이 갑자기 고장났어요.", "My phone suddenly broke.", "갑자기 = suddenly, the natural adverb for an out-of-nowhere malfunction"]
     ],
-    "nuance": "고장나다 is intransitive: the thing breaks on its own (machines, electronics, appliances). You say 'X이/가 고장나다', never 'X을/를 고장나다'. For a person breaking something on purpose or by accident, use 고장 내다 or 망가뜨리다 instead.",
-    "mistakes": ["Saying 'X을/를 고장났어요' — it takes 이/가, not 을/를, because the object is the subject that broke"],
+    "nuance": "고장나다 is built from the Sino-Korean noun 고장 (故障, 'breakdown/fault') plus native 나다 ('to occur'), so it literally means 'a fault arises' — which is why it is intransitive: the machine breaks on its own and takes 이/가, never 을/를 (보일러가 고장났어요, not 보일러를). Use it for things with a mechanism — appliances, electronics, cars, elevators — not for soft objects that simply tear or wear out (옷이 찢어지다, 신발이 닳다). The near-synonym 망가지다 is broader and casual ('get wrecked/ruined') and can cover a smashed toy or a crumpled box, whereas 고장나다 specifically implies the function stopped working. The English-speaker trap: English lets a person 'break' something, but you cannot make 고장나다 transitive — to say a PERSON broke it, switch to 고장 내다 or 망가뜨리다 (동생이 리모컨을 고장 냈어요).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "It literally means 'a fault arises', so it is intransitive: the machine breaks on its own and takes 이/가, never 을/를 (보일러가 고장났어요, not 보일러를). Use it for things with a mechanism — appliances, electronics, cars, elevators — not for soft objects that simply tear or wear out (옷이 찢어지다, 신발이 닳다)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Built from the Sino-Korean noun 고장 (故障, 'breakdown/fault') plus native 나다 ('to occur'), which is why it carries the sense of a fault occurring."},
+      {"k": "비슷한 말", "e": "VS", "t": "The near-synonym 망가지다 is broader and casual ('get wrecked/ruined') and can cover a smashed toy or a crumpled box, whereas 고장나다 specifically implies the function stopped working."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English lets a person 'break' something, but you cannot make 고장나다 transitive — to say a PERSON broke it, switch to 고장 내다 or 망가뜨리다 (동생이 리모컨을 고장 냈어요)."}
+    ],
+    "mistakes": ["Saying 'X을/를 고장났어요' — 고장나다 takes 이/가, not 을/를, because the broken thing is the subject that the fault 'arose in', not an object you act on.", "Using 고장나다 for a person breaking something on purpose — 'I broke the door' is 문을 고장 냈어요 or 문을 부쉈어요, since 고장나다 cannot take a doer.", "Stretching it to torn clothes or a ripped bag — those are 찢어지다, not 고장나다, which needs a working mechanism to fail."],
     "irregular": null
   },
   {
@@ -58,15 +66,23 @@
     },
     "usage": [
       ["수리해 주세요", "Please fix it", "What you say to a repair person or building manager (관리실)"],
-      ["수리 맡겼어요", "I sent it in for repair", "수리 맡기다 = drop off for repair, e.g. a phone at the 서비스센터"]
+      ["수리 맡겼어요", "I dropped it off for repair", "수리 맡기다 = leave it to be fixed, e.g. a phone at the 서비스센터"],
+      ["수리비가 얼마예요?", "How much is the repair cost?", "수리비 (修理費) = repair fee; the first question at any service counter"],
+      ["수리 받아야 돼요", "It needs to get repaired", "수리(를) 받다 = receive a repair; the appliance is treated as needing service"]
     ],
     "examples": [
-      ["보일러를 수리해야 돼요.", "I need to get the boiler repaired.", "Object takes 을/를; contrast with 고장나다 which takes 이/가"],
-      ["냉장고를 수리하는 데 얼마예요?", "How much to repair the fridge?", "-는 데 = the cost/effort of doing; useful for asking quotes"],
-      ["기사님이 내일 수리하러 오신대요.", "They say the technician is coming to repair it tomorrow.", "기사님 = the repair/service technician; -신대요 relays what the 관리실 told you"]
+      ["보일러를 수리해야 돼요.", "I need to get the boiler repaired.", "Object takes 을/를 here, unlike 고장나다 which takes 이/가"],
+      ["냉장고를 수리하는 데 얼마예요?", "How much does it cost to repair the fridge?", "-는 데 = the cost/effort of doing; the go-to frame for asking a quote"],
+      ["기사님이 내일 수리하러 오신대요.", "They say the technician is coming to repair it tomorrow.", "기사님 = service technician; -신대요 relays what the 관리실 told you"]
     ],
-    "nuance": "수리하다 is the formal word you see on signs and invoices (수리비 = repair cost). In everyday speech 고치다 is more common for small fixes, while 수리하다 sounds slightly more official and is used for appliances, cars, and buildings handled by a professional.",
-    "mistakes": ["Using 수리하다 for fixing a relationship or a plan — that's 풀다 or 해결하다; 수리하다 is only for physical objects"],
+    "nuance": "수리하다 comes from 수리 (修理, 'mend-manage') and is the formal, on-the-invoice word for repair — you see it on signs, receipts, and in 수리비 (repair cost) and 수리 기사 (repair technician). Its everyday near-synonym 고치다 is native Korean and warmer: a friend 고쳐 줄게 ('I'll fix it for you'), but a service center 수리합니다. The dividing line is register and scale: 고치다 covers a quick DIY tweak or even fixing a habit (버릇을 고치다), while 수리하다 implies a professional working on machinery, a car, or a building, and it stays strictly physical. The English-speaker trap: 'fix' in English also means to fix a plan, a date, or a relationship — none of those take 수리하다. A relationship or a problem is 관계를 회복하다 / 문제를 해결하다, and setting a date is 날짜를 정하다, so reserve 수리하다 for objects that physically broke.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The formal, on-the-invoice word for repair — you see it on signs, receipts, and in 수리비 (repair cost) and 수리 기사 (repair technician). It stays strictly physical."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Comes from 수리 (修理, 'mend-manage')."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its everyday near-synonym 고치다 is native Korean and warmer: a friend 고쳐 줄게 ('I'll fix it for you'), but a service center 수리합니다. The dividing line is register and scale: 고치다 covers a quick DIY tweak or even fixing a habit (버릇을 고치다), while 수리하다 implies a professional working on machinery, a car, or a building."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "'Fix' in English also means to fix a plan, a date, or a relationship — none of those take 수리하다. A relationship or a problem is 관계를 회복하다 / 문제를 해결하다, and setting a date is 날짜를 정하다, so reserve 수리하다 for objects that physically broke."}
+    ],
+    "mistakes": ["Using 수리하다 for fixing a relationship, a habit, or a plan — that is 해결하다/회복하다/고치다; 수리하다 only applies to physical objects and equipment.", "Treating it as intransitive like 고장나다 — you must say 무엇을 수리하다 (보일러를 수리해요); the broken thing is the object you act on, so it takes 을/를.", "Saying just 수리해 to a stranger technician — add 주세요 (수리해 주세요); the bare 해 form is reserved for close, casual relationships."],
     "irregular": null
   },
   {
@@ -93,15 +109,23 @@
     },
     "usage": [
       ["설치해 주세요", "Please install it", "Say this when a delivery crew brings an appliance or you order internet"],
-      ["설치 기사님 오셨어요", "The installation technician is here", "설치 기사 = install tech; very common with 인터넷/에어컨"]
+      ["설치 기사님 오셨어요", "The installation technician is here", "설치 기사 = install tech; constant with 인터넷/에어컨 setups"],
+      ["설치비 따로 있어요?", "Is there a separate installation fee?", "설치비 (設置費) = install charge; ask before the crew starts"],
+      ["앱 설치했어요", "I installed the app", "설치하다 covers software too; the casual chore-done report"]
     ],
     "examples": [
-      ["에어컨을 설치하러 왔어요.", "I came to install the air conditioner.", "Said by the technician; -러 오다 = come in order to"],
-      ["이 앱을 설치하면 가스비를 낼 수 있어요.", "If you install this app, you can pay the gas bill.", "Also used for software, not just physical equipment"],
-      ["인터넷을 언제 설치할 수 있어요?", "When can you install the internet?", "Key question when setting up a new apartment"]
+      ["에어컨을 설치하러 왔어요.", "I came to install the air conditioner.", "Said by the technician; -러 오다 = come in order to do"],
+      ["이 앱을 설치하면 가스비를 낼 수 있어요.", "If you install this app, you can pay the gas bill.", "Software sense; -면 = if/when you do, then the result follows"],
+      ["인터넷을 언제 설치할 수 있어요?", "When can you install the internet?", "The key question when setting up a brand-new apartment"]
     ],
-    "nuance": "설치하다 covers both physical installation (AC, shelves, washing machine) and installing software/apps. It implies setting something up so it's ready to use, unlike 놓다 (just placing). For uninstalling apps Koreans say 삭제하다 or 지우다, not 설치 취소.",
-    "mistakes": ["Confusing 설치하다 (install) with 설정하다 (configure settings) — you 설치 the app, then 설정 the options inside it"],
+    "nuance": "설치하다 is from 설치 (設置, 'set up-place') and means putting equipment in and making it ready to run — air conditioners, shelves, a washing machine, CCTV — as well as installing software and apps. The dividing line against the plain native verb 놓다 ('put/place') is readiness: 놓다 just sets an object somewhere, while 설치하다 implies mounting, wiring, or configuring it into working order. Watch the sibling word 설정하다 (設定, 'configure'): you 설치 the app or the router first, then 설정 the options inside it — English 'set up' blurs these two, but Korean keeps them apart. The other English-speaker trap is 'uninstall': there is no 설치 취소; Koreans say 삭제하다 ('delete') or 지우다 for software and 철거하다/떼다 for physically removing fixtures, so don't try to negate 설치하다 to undo it.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Means putting equipment in and making it ready to run — air conditioners, shelves, a washing machine, CCTV — as well as installing software and apps."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "From 설치 (設置, 'set up-place')."},
+      {"k": "비슷한 말", "e": "VS", "t": "The dividing line against the plain native verb 놓다 ('put/place') is readiness: 놓다 just sets an object somewhere, while 설치하다 implies mounting, wiring, or configuring it into working order. Also watch the sibling word 설정하다 (設定, 'configure'): you 설치 the app or the router first, then 설정 the options inside it — English 'set up' blurs these two, but Korean keeps them apart."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "For 'uninstall' there is no 설치 취소; Koreans say 삭제하다 ('delete') or 지우다 for software and 철거하다/떼다 for physically removing fixtures, so don't try to negate 설치하다 to undo it."}
+    ],
+    "mistakes": ["Confusing 설치하다 (install) with 설정하다 (configure settings) — you 설치 the app, then 설정 the options; using one for the other reverses the order of the task.", "Inventing 설치 취소 for 'uninstall' — that is not used; say 삭제하다/지우다 for apps or 철거하다 for physical fixtures.", "Using 놓다 when you mean a real installation — 에어컨을 놓다 sounds like you just set the unit on the floor, not that it was mounted and wired to work."],
     "irregular": null
   },
   {
@@ -128,15 +152,23 @@
     },
     "usage": [
       ["방 좀 정리해", "Tidy up your room a bit", "Classic line from a parent or roommate; 좀 softens the command"],
-      ["책상 정리했어요", "I organized my desk", "정리하다 + noun for arranging a specific space neatly"]
+      ["책상 정리했어요", "I organized my desk", "정리하다 + a space noun = arrange that specific area neatly"],
+      ["생각 좀 정리하고 올게요", "Let me gather my thoughts and come back", "생각을 정리하다 = sort out your thinking; works on abstract things too"],
+      ["짐 다 정리했어요", "I've sorted out all my stuff", "짐 = belongings/luggage; 다 = all of it, fully done"]
     ],
     "examples": [
-      ["주말에 옷장을 정리할 거예요.", "I'm going to organize my closet this weekend.", "Common weekend chore; 옷장 = wardrobe/closet"],
-      ["냉장고를 정리하니까 공간이 많아졌어요.", "After I organized the fridge, there's more space.", "-니까 here = after doing and noticing the result"],
-      ["짐을 다 정리하고 나서 쉬었어요.", "I rested after I finished sorting all my stuff.", "-고 나서 = after completely finishing; 짐 = belongings/luggage"]
+      ["주말에 옷장을 정리할 거예요.", "I'm going to organize my closet this weekend.", "A common weekend chore; 옷장 = wardrobe/closet"],
+      ["냉장고를 정리하니까 공간이 많아졌어요.", "After I organized the fridge, there's more space.", "-니까 here = doing it and then noticing the result that follows"],
+      ["짐을 다 정리하고 나서 쉬었어요.", "I rested after I finished sorting all my stuff.", "-고 나서 = after completely finishing the prior action"]
     ],
-    "nuance": "정리하다 means putting things in order so a space looks neat, while 치우다 emphasizes clearing things away. You can also 정리하다 abstract things: 생각을 정리하다 (gather your thoughts), 일정을 정리하다 (sort out a schedule). For sweeping/vacuuming dirt, use 청소하다 instead.",
-    "mistakes": ["Using 정리하다 when you mean wiping off dirt — that's 청소하다 or 닦다; 정리하다 is about arranging, not cleaning grime"],
+    "nuance": "정리하다 is from 정리 (整理, 'arrange-manage') and means putting things into order so a space (or even a thought) looks settled and neat. Compare three neighbors learners blur: 치우다 emphasizes clearing things AWAY/out of sight, 청소하다 (淸掃) is removing dirt by sweeping/wiping/vacuuming, and 정리하다 is arranging what stays into proper order. So you can have a 정리된 (well-arranged) desk that is still dusty, because 정리 is about order, not cleanliness. A real strength of 정리하다 is that it also takes abstract objects: 생각을 정리하다 (collect your thoughts), 일정을 정리하다 (sort out a schedule), 관계를 정리하다 (end/wrap up a relationship). The English-speaker trap is mapping 'clean up' straight onto 정리하다 — if you mean wiping grime or mopping, that is 청소하다/닦다, not 정리하다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Means putting things into order so a space (or even a thought) looks settled and neat. A real strength is that it also takes abstract objects: 생각을 정리하다 (collect your thoughts), 일정을 정리하다 (sort out a schedule), 관계를 정리하다 (end/wrap up a relationship)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "From 정리 (整理, 'arrange-manage')."},
+      {"k": "비슷한 말", "e": "VS", "t": "Compare three neighbors learners blur: 치우다 emphasizes clearing things AWAY/out of sight, 청소하다 (淸掃) is removing dirt by sweeping/wiping/vacuuming, and 정리하다 is arranging what stays into proper order. So you can have a 정리된 (well-arranged) desk that is still dusty, because 정리 is about order, not cleanliness."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Mapping 'clean up' straight onto 정리하다 — if you mean wiping grime or mopping, that is 청소하다/닦다, not 정리하다."}
+    ],
+    "mistakes": ["Using 정리하다 when you mean removing dirt — wiping or mopping grime is 청소하다 or 닦다; 정리하다 is about arranging, not cleaning surfaces.", "Confusing it with 치우다 — 정리하다 puts things in order in place, while 치우다 clears them away; '치워!' (get it out of here) is harsher than '정리해'.", "Assuming it is physical-only — 정리하다 also covers 생각/일정/관계, so 'I need to sort out my schedule' is 일정을 정리해야 돼요, not a cleaning verb."],
     "irregular": null
   },
   {
@@ -163,15 +195,23 @@
     },
     "usage": [
       ["문 잠갔어요?", "Did you lock the door?", "Daily check before leaving home; note the ㅡ drops: 잠그+았 → 잠갔"],
-      ["가스 밸브 잠가 주세요", "Please turn off the gas valve", "잠그다 also means shutting a valve/tap, not just doors"]
+      ["가스 밸브 잠가 주세요", "Please turn off the gas valve", "잠그다 also means shutting a valve/tap, not only doors"],
+      ["수도 잠가", "Turn off the water", "수도(꼭지) = the tap; the casual 'shut the water' between housemates"],
+      ["문 꼭 잠그고 나가세요", "Be sure to lock up before you leave", "꼭 = without fail; -고 나가다 = lock, then go out"]
     ],
     "examples": [
-      ["나갈 때 꼭 문을 잠그세요.", "Be sure to lock the door when you go out.", "꼭 = without fail; safety reminder for residents"],
-      ["수도꼭지를 안 잠가서 물이 계속 나왔어요.", "I didn't turn off the tap so water kept running.", "수도꼭지 = faucet; 잠그다 is the verb for taps"],
-      ["비밀번호로 폰을 잠갔어요.", "I locked my phone with a password.", "잠그다 also works for locking a phone/screen"]
+      ["나갈 때 꼭 문을 잠그세요.", "Be sure to lock the door when you go out.", "꼭 = without fail; a standard safety reminder for residents"],
+      ["수도꼭지를 안 잠가서 물이 계속 나왔어요.", "I didn't turn off the tap so water kept running.", "수도꼭지 = faucet; 잠그다 is the verb that pairs with taps"],
+      ["비밀번호로 폰을 잠갔어요.", "I locked my phone with a password.", "잠그다 extends to locking a phone/screen, not just physical locks"]
     ],
-    "nuance": "잠그다 has a ㅡ irregular: the 으 drops before 아/어 endings (잠가요, 잠갔어요), and it conjugates with 아 because the stem vowel ㅏ is bright. Beyond doors, it's the standard verb for shutting off water taps and gas valves. The opposite is 열다 (open) or 풀다 (unlock/release).",
-    "mistakes": ["Writing 잠궈요/잠궜어요 — the correct forms are 잠가요/잠갔어요 because the stem keeps ㅏ after the 으 drops"],
+    "nuance": "잠그다 follows the ㅡ (으-탈락) irregular: the stem vowel 으 disappears before an 아/어 ending, and because the remaining stem vowel ㅏ is 'bright', it joins with 아 — so 잠그 + 아 → 잠가요 and 잠그 + 았 → 잠갔어요 (the 요-form is your anchor: hear 잠가요 and the past, negative, and request forms all fall out). Beyond doors and padlocks it is the standard verb for shutting off water taps and gas valves (수도/가스를 잠그다), which English splits into 'lock' vs 'turn off' but Korean unifies under one image of sealing something closed. Its opposites split too: 열다 (open a door) versus 풀다 (unlock/undo a lock or release). The English-speaker trap is the conjugation: learners regularize it to 잠궈요/잠궜어요, but those are non-standard — the 으 simply drops and ㅏ stays.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Beyond doors and padlocks it is the standard verb for shutting off water taps and gas valves (수도/가스를 잠그다), which English splits into 'lock' vs 'turn off' but Korean unifies under one image of sealing something closed."},
+      {"k": "활용", "e": "FORMS", "t": "Follows the ㅡ (으-탈락) irregular: the stem vowel 으 disappears before an 아/어 ending, and because the remaining stem vowel ㅏ is 'bright', it joins with 아 — so 잠그 + 아 → 잠가요 and 잠그 + 았 → 잠갔어요. The 요-form is your anchor: hear 잠가요 and the past, negative, and request forms all fall out.", "chips": ["잠가요", "잠갔어요", "잠가 주세요"]},
+      {"k": "비슷한 말", "e": "VS", "t": "Its opposites split too: 열다 (open a door) versus 풀다 (unlock/undo a lock or release)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The conjugation: learners regularize it to 잠궈요/잠궜어요, but those are non-standard — the 으 simply drops and ㅏ stays."}
+    ],
+    "mistakes": ["Writing 잠궈요/잠궜어요 — the correct forms are 잠가요/잠갔어요, because after the 으 drops the stem keeps ㅏ and takes the 아 ending, not 워.", "Using 끄다 (switch off a device) for a water tap — a faucet or gas valve is 잠그다, while 끄다 is for lights, TVs, and powered machines.", "Saying 문을 닫다 when you mean lock — 닫다 only shuts the door; to actually engage the lock you need 잠그다."],
     "irregular": "eu"
   },
   {
@@ -197,16 +237,24 @@
       "shallWe": "샐까요?"
     },
     "usage": [
-      ["물이 새요", "Water is leaking", "First thing to say to the 관리실 about a leak"],
-      ["천장에서 물이 새요", "Water is leaking from the ceiling", "에서 marks where it leaks from; common in older 빌라"]
+      ["물이 새요", "Water is leaking", "The first thing to say to the 관리실 about a leak"],
+      ["천장에서 물이 새요", "Water is leaking from the ceiling", "에서 marks where it leaks from; common in older 빌라"],
+      ["가스가 새는 것 같아요", "I think gas is leaking", "An urgent line; -는 것 같다 reports a suspected leak you can smell"],
+      ["어디서 새는지 모르겠어요", "I can't tell where it's leaking from", "-는지 = the indirect 'where/whether'; useful when the source is unclear"]
     ],
     "examples": [
-      ["화장실에서 물이 새서 아래층에 피해가 갔어요.", "Water leaked from the bathroom and damaged the floor below.", "Reporting a serious leak; 아래층 = the floor below"],
-      ["가스가 새는 것 같아요. 냄새가 나요.", "I think gas is leaking. There's a smell.", "Urgent line; 새다 also used for gas leaks"],
-      ["지붕에서 비가 새요.", "Rain is leaking through the roof.", "비가 새다 = rain leaking in; classic monsoon-season problem"]
+      ["화장실에서 물이 새서 아래층에 피해가 갔어요.", "Water leaked from the bathroom and damaged the floor below.", "Reporting a serious leak; 아래층 = the floor below you"],
+      ["가스가 새는 것 같아요. 냄새가 나요.", "I think gas is leaking. There's a smell.", "An urgent pairing; 새다 covers gas leaks as well as water"],
+      ["지붕에서 비가 새요.", "Rain is leaking through the roof.", "비가 새다 = rain leaking in; the classic monsoon-season problem"]
     ],
-    "nuance": "새다 is intransitive — the liquid or gas is the subject (물이 새다, 가스가 새다). The vowel ㅐ stays and the ending fuses: 새 + 었 → 샜어요. Don't confuse it with the homophone 새다 meaning 'to stay up all night' (밤을 새다); context and the object make it clear.",
-    "mistakes": ["Saying 물을 새요 — leaks take 이/가 (물이 새요), never 을/를, since nothing is doing the leaking on purpose"],
+    "nuance": "새다 is intransitive — the liquid, gas, or light is the subject that escapes, so it always takes 이/가 (물이 새다, 가스가 새다, 불빛이 새다), never 을/를; nothing is leaking on purpose. Phonologically the stem vowel ㅐ does not add an extra vowel, it just fuses with the ending: 새 + 었 → 샜어요, 새 + 어요 → 새요. Be careful of the homophone 새다 meaning 'to stay up all night' (밤을 새다 / 밤새다) — that one takes the object 밤, while the leak sense never does, so the particle tells them apart. Compare 흐르다 ('to flow'), which describes liquid moving along a path normally (강물이 흐르다); 새다 specifically means escaping out through a crack, seam, or hole where it should not. The English-speaker trap is treating 'leak' as something you do to an object — in Korean the leaking substance is the grammatical subject.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Intransitive — the liquid, gas, or light is the subject that escapes, so it always takes 이/가 (물이 새다, 가스가 새다, 불빛이 새다), never 을/를; nothing is leaking on purpose. Be careful of the homophone 새다 meaning 'to stay up all night' (밤을 새다 / 밤새다) — that one takes the object 밤, while the leak sense never does, so the particle tells them apart."},
+      {"k": "활용", "e": "FORMS", "t": "Phonologically the stem vowel ㅐ does not add an extra vowel, it just fuses with the ending: 새 + 었 → 샜어요, 새 + 어요 → 새요.", "chips": ["새요", "샜어요", "샐 거예요"]},
+      {"k": "비슷한 말", "e": "VS", "t": "Compare 흐르다 ('to flow'), which describes liquid moving along a path normally (강물이 흐르다); 새다 specifically means escaping out through a crack, seam, or hole where it should not."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Treating 'leak' as something you do to an object — in Korean the leaking substance is the grammatical subject."}
+    ],
+    "mistakes": ["Saying 물을 새요 — leaks take 이/가 (물이 새요), never 을/를, because the leaking water is the subject, not a thing being acted on.", "Mixing it up with 흘리다 ('spill/let flow') — you 흘리다 something on purpose or by accident, but a pipe 새다 on its own; 'the pipe is leaking' is 파이프에서 물이 새요.", "Confusing the homophone — 밤을 새다 means staying up all night; a leak never takes 밤 or any object, so keep the particle 이/가."],
     "irregular": null
   },
   {
@@ -232,16 +280,24 @@
       "shallWe": "널까요?"
     },
     "usage": [
-      ["빨래 널었어요", "I hung up the laundry", "Standard chore report; 빨래 = laundry"],
-      ["빨래 좀 널어 줘", "Hang up the laundry, please", "Casual request to a roommate or partner"]
+      ["빨래 널었어요", "I hung up the laundry", "A standard chore report; 빨래 = laundry/the wash"],
+      ["빨래 좀 널어 줘", "Hang up the laundry, please", "A casual request to a roommate or partner; 좀 softens it"],
+      ["빨래 다 마르면 걷어 줘", "Take the laundry in once it's dry", "걷다 is the partner verb — bring dry laundry back down"],
+      ["햇볕에 널어 둬", "Hang it out in the sun (and leave it)", "햇볕에 = in the sunlight; -어 두다 = hang it and leave it there"]
     ],
     "examples": [
       ["빨래를 베란다에 널었어요.", "I hung the laundry on the balcony.", "베란다 = where most Koreans dry clothes; 에 marks the spot"],
       ["비가 와서 빨래를 못 널어요.", "It's raining so I can't hang the laundry out.", "못 + verb = unable to; rain blocks line-drying"],
       ["건조대에 수건을 널어 주세요.", "Please hang the towels on the drying rack.", "건조대 = clothes drying rack, a household staple"]
     ],
-    "nuance": "널다 is a ㄹ-irregular verb: the ㄹ drops before ㄴ, ㅂ, ㅅ endings (넙니다, 너세요, 너는). It specifically means spreading wet laundry out to dry on a line or rack. The opposite action, taking dry laundry down, is 걷다 (빨래를 걷다).",
-    "mistakes": ["Keeping the ㄹ in formal/honorific forms — it's 넙니다 and 너세요, not 널습니다 or 널으세요"],
+    "nuance": "널다 is a ㄹ-irregular (ㄹ-탈락) verb: the final ㄹ drops before endings beginning with ㄴ, ㅂ, or ㅅ, giving 넙니다 (formal), 너세요 (honorific request), and 너는 빨래 (the laundry being hung) — but it stays before vowel endings, so 너 + 어요 keeps it as 널어요. Its meaning is narrow and physical: spreading out WET laundry on a line, rack, or rail so it air-dries; the partner verb for taking the dry wash back down is 걷다 (빨래를 걷다). Don't confuse it with 말리다 ('to dry something'), which names the result/cause of drying (머리를 말리다 = dry your hair), or with 매달다 ('to hang up by suspending', like a picture or a sign) — 널다 implies laying cloth over something to dry, not hanging an object as decoration. The English-speaker trap is keeping the ㄹ in the formal/honorific forms by analogy with regular verbs.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Its meaning is narrow and physical: spreading out WET laundry on a line, rack, or rail so it air-dries; the partner verb for taking the dry wash back down is 걷다 (빨래를 걷다)."},
+      {"k": "활용", "e": "FORMS", "t": "A ㄹ-irregular (ㄹ-탈락) verb: the final ㄹ drops before endings beginning with ㄴ, ㅂ, or ㅅ, giving 넙니다 (formal), 너세요 (honorific request), and 너는 빨래 (the laundry being hung) — but it stays before vowel endings, so 너 + 어요 keeps it as 널어요.", "chips": ["널어요", "넙니다", "너세요"]},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse it with 말리다 ('to dry something'), which names the result/cause of drying (머리를 말리다 = dry your hair), or with 매달다 ('to hang up by suspending', like a picture or a sign) — 널다 implies laying cloth over something to dry, not hanging an object as decoration."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Keeping the ㄹ in the formal/honorific forms by analogy with regular verbs."}
+    ],
+    "mistakes": ["Keeping the ㄹ in formal/honorific forms — it is 넙니다 and 너세요, not 널습니다 or 널으세요, because ㄹ drops before ㄴ/ㅂ/ㅅ endings.", "Using 널다 to hang a picture or coat — that is 걸다 (그림을 걸다, 옷을 걸다); 널다 is specifically spreading wet laundry out to dry.", "Mixing it with 말리다 — 말리다 is 'to dry (something)'; you 널어서 말리다, hang it out so that it dries, so the two verbs are not interchangeable."],
     "irregular": "ㄹ"
   },
   {
@@ -268,15 +324,22 @@
     },
     "usage": [
       ["전자레인지에 데워 드세요", "Heat it in the microwave and eat", "What a host or convenience-store clerk might say"],
-      ["국 좀 데워 줄까?", "Shall I heat up the soup for you?", "Warm domestic offer; 국 = soup"]
+      ["국 좀 데워 줄까?", "Shall I heat up the soup for you?", "A warm domestic offer; 국 = soup"],
+      ["다시 데워 먹어", "Reheat it before you eat", "다시 데우다 = reheat; -어 먹다 = do it, then eat"],
+      ["우유 데워 줄게", "I'll warm the milk up for you", "-어 줄게 = I'll do it for you; a caring offer to a child or partner"]
     ],
     "examples": [
-      ["남은 밥을 전자레인지에 데웠어요.", "I heated up the leftover rice in the microwave.", "남은 밥 = leftover rice; 에 marks the appliance"],
-      ["우유를 따뜻하게 데워 주세요.", "Please warm the milk up nicely.", "따뜻하게 = so it's warm; common adverb with 데우다"],
-      ["찌개를 다시 데워 먹었어요.", "I reheated the stew and ate it.", "다시 데우다 = reheat; -어 먹다 = do and then eat"]
+      ["남은 밥을 전자레인지에 데웠어요.", "I heated up the leftover rice in the microwave.", "남은 밥 = leftover rice; 에 marks the appliance used"],
+      ["우유를 따뜻하게 데워 주세요.", "Please warm the milk up nicely.", "따뜻하게 = so that it's warm; a common adverb with 데우다"],
+      ["찌개를 다시 데워 먹었어요.", "I reheated the stew and ate it.", "다시 데우다 = reheat; -어 먹다 = do and then eat it"]
     ],
-    "nuance": "데우다 means warming up something that's already cooked or cooled, especially food and drinks. Don't confuse it with 덥다 (the weather/you feels hot) or 따뜻하다 (something is warm) — those are adjectives describing a state, while 데우다 is the action of heating. For cooking raw food from scratch you'd use 끓이다, 굽다, or 요리하다.",
-    "mistakes": ["Mixing up 데우다 (heat food) with 데다 (get burned) — 손을 데다 means you burned your hand"],
+    "nuance": "데우다 is the transitive 'warm something up' verb, used above all for food and drinks that are already cooked but went cold — leftover rice, soup, milk, a packed meal. Keep three look-alikes apart: 데우다 is the ACTION of heating, 따뜻하다 is an adjective for the resulting STATE ('it's warm'), and 덥다 is an adjective for the weather or your body feeling hot — so '국이 따뜻해요' (the soup is warm) is the result of '국을 데웠어요' (I heated the soup). For raising the food's heat further you choose by method: 끓이다 (boil), 굽다 (grill/roast), 볶다 (stir-fry), 요리하다 (cook generally); 데우다 only brings something back up to a comfortable temperature, it does not cook from raw. The big English-speaker trap is the near-homophone 데다 ('to get burned': 손을 데다 = I burned my hand) — drop one syllable and you change 'heat the food' into 'scald yourself'.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The transitive 'warm something up' verb, used above all for food and drinks that are already cooked but went cold — leftover rice, soup, milk, a packed meal. It only brings something back up to a comfortable temperature, it does not cook from raw."},
+      {"k": "비슷한 말", "e": "VS", "t": "Keep three look-alikes apart: 데우다 is the ACTION of heating, 따뜻하다 is an adjective for the resulting STATE ('it's warm'), and 덥다 is an adjective for the weather or your body feeling hot — so '국이 따뜻해요' (the soup is warm) is the result of '국을 데웠어요' (I heated the soup). For raising the food's heat further you choose by method: 끓이다 (boil), 굽다 (grill/roast), 볶다 (stir-fry), 요리하다 (cook generally)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The near-homophone 데다 ('to get burned': 손을 데다 = I burned my hand) — drop one syllable and you change 'heat the food' into 'scald yourself'."}
+    ],
+    "mistakes": ["Mixing up 데우다 (heat food) with 데다 (get burned) — 손을 데다 means you burned your hand; the two differ by a single syllable so keep them straight.", "Using 데우다 with an adjective slot — '음식이 데워요' is wrong for 'the food is warm'; the state is 음식이 따뜻해요, while 데우다 needs an object you heat (음식을 데워요).", "Reaching for 데우다 to cook raw ingredients — raw meat or eggs are 굽다/끓이다/요리하다; 데우다 only reheats something already cooked."],
     "irregular": null
   },
   {
@@ -302,16 +365,23 @@
       "shallWe": "비울까요?"
     },
     "usage": [
-      ["쓰레기통 좀 비워 줘", "Empty the trash can, please", "Everyday chore request; 쓰레기통 = trash bin"],
-      ["방을 비웠어요", "I cleared out / vacated the room", "Also means emptying a space when you move out"]
+      ["쓰레기통 좀 비워 줘", "Empty the trash can, please", "An everyday chore request; 쓰레기통 = trash bin"],
+      ["방을 비웠어요", "I cleared out / vacated the room", "Also emptying a space when you move out of it"],
+      ["자리 좀 비워 주세요", "Please clear the seat/spot", "자리를 비우다 = vacate a seat or step away from your place"],
+      ["마음을 비워", "Let it go / clear your mind", "마음을 비우다 = release expectations; the common figurative use"]
     ],
     "examples": [
       ["음식물 쓰레기통을 비워야 돼요.", "I have to empty the food-waste bin.", "음식물 쓰레기 = food waste, a separate bin in Korea"],
-      ["냉장고를 비우고 청소했어요.", "I emptied the fridge and cleaned it.", "-고 links the two chores in order"],
-      ["이삿날까지 집을 비워 주세요.", "Please vacate the apartment by moving day.", "집을 비우다 = move out / leave the place empty; 이삿날 = moving day"]
+      ["냉장고를 비우고 청소했어요.", "I emptied the fridge and cleaned it.", "-고 links the two chores in the order they happened"],
+      ["이삿날까지 집을 비워 주세요.", "Please vacate the apartment by moving day.", "집을 비우다 = move out / leave it empty; 이삿날 = moving day"]
     ],
-    "nuance": "비우다 is the causative/transitive partner of 비다 (to be empty). You 비우다 a container, room, or fridge — taking everything out of it. It also appears figuratively in 마음을 비우다 (let go / clear your mind). The opposite is 채우다 (to fill).",
-    "mistakes": ["Confusing 비우다 (empty it) with 버리다 (throw it away) — you 비워서 버리다: empty the bin, then throw the trash out"],
+    "nuance": "비우다 is the causative/transitive partner of the adjective-like verb 비다 ('to be empty'): 비다 describes the state (방이 비었어요 = the room is empty), and you 비우다 something to MAKE it empty (방을 비웠어요 = I emptied the room). So the doer takes the thing as object with 을/를 — a bin, a glass, a fridge, a room. It carries two everyday spins beyond literal emptying: 집을 비우다 / 자리를 비우다 = to be away from home or step away from your seat, and the figurative 마음을 비우다 = to let go of expectations and clear your mind. Its direct opposite is 채우다 ('to fill'). The English-speaker trap is collapsing 'empty the trash' and 'throw away the trash' into one verb: you 비우다 the CONTAINER and 버리다 the CONTENTS — 쓰레기통을 비워서 쓰레기를 버리다 (empty the bin, then throw the trash out), and saying 쓰레기를 비우다 sounds off.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The causative/transitive partner of the adjective-like verb 비다 ('to be empty'): 비다 describes the state (방이 비었어요 = the room is empty), and you 비우다 something to MAKE it empty (방을 비웠어요 = I emptied the room). So the doer takes the thing as object with 을/를 — a bin, a glass, a fridge, a room. It carries two everyday spins beyond literal emptying: 집을 비우다 / 자리를 비우다 = to be away from home or step away from your seat, and the figurative 마음을 비우다 = to let go of expectations and clear your mind."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its direct opposite is 채우다 ('to fill')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Collapsing 'empty the trash' and 'throw away the trash' into one verb: you 비우다 the CONTAINER and 버리다 the CONTENTS — 쓰레기통을 비워서 쓰레기를 버리다 (empty the bin, then throw the trash out), and saying 쓰레기를 비우다 sounds off."}
+    ],
+    "mistakes": ["Confusing 비우다 (empty the container) with 버리다 (throw the contents away) — you 비워서 버리다; 쓰레기통을 비우다 is fine, but 쓰레기를 비우다 sounds wrong.", "Swapping 비우다 and 비다 — 비다 is intransitive (방이 비다 = the room is empty), 비우다 is transitive (방을 비우다 = I empty the room); don't say 방을 비다.", "Reading 집을 비우다 only literally — it usually means 'be away from home', so '며칠 집을 비워요' means you'll be out for a few days, not that the house is gutted."],
     "irregular": null
   },
   {
@@ -338,15 +408,23 @@
     },
     "usage": [
       ["전구 갈아야 돼요", "I need to change the light bulb", "전구 = light bulb; 갈다 = swap out a worn part"],
-      ["필터 갈아 주세요", "Please replace the filter", "Common for 정수기 (water purifier) or AC filters"]
+      ["필터 갈아 주세요", "Please replace the filter", "Common for 정수기 (water purifier) or AC filters"],
+      ["건전지 갈아 줘", "Change the batteries", "건전지/배터리 = batteries; 갈다 is the verb for swapping them"],
+      ["새것으로 갈았어요", "I replaced it with a new one", "새것으로 갈다 = swap for a new one; 으로 marks what it becomes"]
     ],
     "examples": [
       ["화장실 전구를 갈았어요.", "I changed the bathroom light bulb.", "Object takes 을/를; 전구를 갈다 = replace a bulb"],
       ["정수기 필터를 6개월마다 갈아야 해요.", "You should change the water purifier filter every 6 months.", "마다 = every; routine home maintenance"],
       ["배터리를 새것으로 갈았어요.", "I replaced the battery with a new one.", "새것으로 갈다 = swap for a new one; 으로 marks the replacement"]
     ],
-    "nuance": "갈다 (ㄹ-irregular) here means replacing a consumable or worn part with a new one — bulbs, filters, batteries, blades. Don't confuse it with the identical-looking 갈다 meaning 'to grind/sharpen' (커피를 갈다, 칼을 갈다); the home-maintenance sense is 'swap out'. The ㄹ drops before ㄴ/ㅂ/ㅅ: 갑니다, 가세요.",
-    "mistakes": ["Saying 갈습니다 — the formal form is 갑니다 because the ㄹ drops before the ㅂ ending"],
+    "nuance": "갈다 is a ㄹ-irregular verb (ㄹ drops before ㄴ/ㅂ/ㅅ: 갑니다, 가세요, 가는), and in the home sense it means swapping a used-up or worn part for a fresh one — bulbs, filters, batteries, wiper blades, bedsheets (이불을 갈다). Two cautions. First, this 갈다 is a perfect homograph of two other verbs: 갈다 'to grind/whet' (커피를 갈다, 칼을 갈다 = grind coffee, sharpen a knife) and 갈다 'to plough' (밭을 갈다); only context separates them, since the conjugation is identical. Second, distinguish it from 바꾸다 ('to change/exchange'), which is broader and works for swapping anything including abstract things (계획을 바꾸다 = change the plan, 돈을 바꾸다 = exchange money); 갈다 specifically implies replacing a consumable component with an equivalent new one. The English-speaker trap is the ㄹ-irregular: learners write 갈습니다, but the formal form is 갑니다 because ㄹ drops before the ㅂ ending.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "In the home sense it means swapping a used-up or worn part for a fresh one — bulbs, filters, batteries, wiper blades, bedsheets (이불을 갈다). Note that this 갈다 is a perfect homograph of two other verbs: 갈다 'to grind/whet' (커피를 갈다, 칼을 갈다 = grind coffee, sharpen a knife) and 갈다 'to plough' (밭을 갈다); only context separates them, since the conjugation is identical."},
+      {"k": "활용", "e": "FORMS", "t": "A ㄹ-irregular verb: ㄹ drops before ㄴ/ㅂ/ㅅ, giving 갑니다, 가세요, 가는.", "chips": ["갈아요", "갑니다", "가세요"]},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it from 바꾸다 ('to change/exchange'), which is broader and works for swapping anything including abstract things (계획을 바꾸다 = change the plan, 돈을 바꾸다 = exchange money); 갈다 specifically implies replacing a consumable component with an equivalent new one."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The ㄹ-irregular: learners write 갈습니다, but the formal form is 갑니다 because ㄹ drops before the ㅂ ending."}
+    ],
+    "mistakes": ["Saying 갈습니다 — the formal form is 갑니다, because the stem ㄹ drops before the ㅂ ending in this ㄹ-irregular verb.", "Using 갈다 for changing a plan or appointment — that is 바꾸다 (계획을 바꾸다); 갈다 is for swapping worn physical parts like filters and bulbs.", "Confusing the home sense with 갈다 'grind/sharpen' — 칼을 갈다 means sharpen a knife, so rely on context, and prefer clear objects like 필터/전구 for the 'replace' meaning."],
     "irregular": "ㄹ"
   },
   {
@@ -372,16 +450,23 @@
       "shallWe": "뽑을까요?"
     },
     "usage": [
-      ["플러그 뽑았어요?", "Did you unplug it?", "Safety check before leaving; 플러그 뽑다 = unplug"],
-      ["콘센트에서 코드 좀 뽑아 줘", "Pull the cord out of the outlet, please", "콘센트 = wall outlet (Konglish); 코드 = cord"]
+      ["플러그 뽑았어요?", "Did you unplug it?", "A safety check before leaving; 플러그 뽑다 = unplug"],
+      ["콘센트에서 코드 좀 뽑아 줘", "Pull the cord out of the outlet, please", "콘센트 = wall outlet (Konglish); 코드 = cord"],
+      ["현금 좀 뽑아 올게", "I'll go take out some cash", "돈/현금을 뽑다 = withdraw cash from an ATM; very idiomatic"],
+      ["흰머리 뽑지 마", "Don't pull out your gray hairs", "뽑다 = pluck/pull out; works for hair and weeds too"]
     ],
     "examples": [
       ["외출할 때 가전제품 플러그를 뽑으세요.", "Unplug appliances when you go out.", "Energy-saving and fire-safety advice; 가전제품 = home appliances"],
-      ["충전기를 콘센트에서 뽑았어요.", "I unplugged the charger from the outlet.", "에서 marks where you pull it from"],
-      ["현금을 좀 뽑아야 돼요.", "I need to take out some cash.", "돈/현금을 뽑다 = withdraw cash from an ATM, very common usage"]
+      ["충전기를 콘센트에서 뽑았어요.", "I unplugged the charger from the outlet.", "에서 marks the place you pull it out of"],
+      ["현금을 좀 뽑아야 돼요.", "I need to take out some cash.", "돈/현금을 뽑다 = withdraw cash from an ATM, a very common usage"]
     ],
-    "nuance": "뽑다 means pulling something out from where it's inserted — plugs from outlets, but also withdrawing cash from an ATM (돈을 뽑다), pulling weeds, or even selecting/picking someone. For unplugging, Koreans often just say 플러그를 뽑다 or 코드를 뽑다. The opposite, plugging in, is 꽂다.",
-    "mistakes": ["Using 빼다 vs 뽑다 — both can mean 'take out', but for plugs and cash 뽑다 sounds the most natural and idiomatic"],
+    "nuance": "뽑다 means pulling something out from where it is set or embedded — a plug from an outlet, but also withdrawing cash from an ATM (돈을 뽑다), plucking a hair, pulling a weed, drawing a number in a lottery, or even selecting/recruiting a person (대표를 뽑다 = pick a representative). Its exact opposite is 꽂다 (to insert/plug in upright). The near-synonym to watch is 빼다 ('to take out/remove/subtract'): both can translate as 'take out', but 뽑다 implies a firm pull against resistance (something was inserted and you yank it free), while 빼다 is gentler removal or extraction (이를 빼다 = have a tooth pulled, 힘을 빼다 = relax/ease off). For plugs and ATM cash specifically, 뽑다 is the idiomatic choice. The English-speaker trap is over-relying on 빼다 for everything 'take out' — for a plug, 코드를 뽑다 sounds far more natural than 코드를 빼다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Means pulling something out from where it is set or embedded — a plug from an outlet, but also withdrawing cash from an ATM (돈을 뽑다), plucking a hair, pulling a weed, drawing a number in a lottery, or even selecting/recruiting a person (대표를 뽑다 = pick a representative). For plugs and ATM cash specifically, 뽑다 is the idiomatic choice."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its exact opposite is 꽂다 (to insert/plug in upright). The near-synonym to watch is 빼다 ('to take out/remove/subtract'): both can translate as 'take out', but 뽑다 implies a firm pull against resistance (something was inserted and you yank it free), while 빼다 is gentler removal or extraction (이를 빼다 = have a tooth pulled, 힘을 빼다 = relax/ease off)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Over-relying on 빼다 for everything 'take out' — for a plug, 코드를 뽑다 sounds far more natural than 코드를 빼다."}
+    ],
+    "mistakes": ["Defaulting to 빼다 for unplugging or cash — for plugs and ATM withdrawals, 뽑다 (플러그를 뽑다, 현금을 뽑다) is the natural, idiomatic verb.", "Forgetting the source particle — you pull a plug OUT OF the outlet with 에서: 콘센트에서 뽑다, not 콘센트를 뽑다, which would mean pulling out the outlet itself.", "Confusing 뽑다 with 꽂다 — they are opposites: 뽑다 pulls out, 꽂다 plugs in; mixing them reverses your meaning entirely."],
     "irregular": null
   },
   {
@@ -407,16 +492,23 @@
       "shallWe": "꽂을까요?"
     },
     "usage": [
-      ["플러그 꽂았어요?", "Did you plug it in?", "Check when an appliance won't turn on; opposite of 뽑다"],
-      ["콘센트에 꽂아 주세요", "Please plug it into the outlet", "콘센트 = wall outlet; 에 marks where it goes in"]
+      ["플러그 꽂았어요?", "Did you plug it in?", "Check when an appliance won't turn on; the opposite of 뽑다"],
+      ["콘센트에 꽂아 주세요", "Please plug it into the outlet", "콘센트 = wall outlet; 에 marks where it goes in"],
+      ["책 책꽂이에 꽂아 줘", "Put the book back on the shelf", "책꽂이 = bookshelf, literally a 'book-inserting' rack; same verb"],
+      ["충전기 꽂아 놨어", "I've left the charger plugged in", "-아 놓다/놨다 = did it and left it in that state"]
     ],
     "examples": [
-      ["충전기를 콘센트에 꽂았어요.", "I plugged the charger into the outlet.", "에 marks the destination; classic plug-in sentence"],
+      ["충전기를 콘센트에 꽂았어요.", "I plugged the charger into the outlet.", "에 marks the destination; the classic plug-in sentence"],
       ["USB를 노트북에 꽂으면 돼요.", "You can just plug the USB into the laptop.", "-으면 되다 = it's enough to / just do; 꽂다 fits USB sticks too"],
       ["꽃을 꽃병에 꽂았어요.", "I put the flowers in the vase.", "꽂다 also = stand something upright into; 꽃병 = vase"]
     ],
-    "nuance": "꽂다 means inserting something so it stands or stays in place — plugs into outlets, USB sticks into ports, flowers into a vase, a book into a shelf. It's the natural opposite of 뽑다 (pull out). Note the spelling keeps ㅈ: 꽂아요, 꽂습니다, and don't confuse the verb 꽂다 with the noun 꽃 (flower), which sound similar but differ.",
-    "mistakes": ["Spelling it 꼽다 — the standard verb is 꽂다 (꽂아요/꽂았어요), though 꼽다 is heard colloquially"],
+    "nuance": "꽂다 means inserting something so it stands or stays fixed in place — a plug into an outlet, a USB stick into a port, flowers into a vase, a book into a shelf (hence 책꽂이, 'bookshelf'). It is the natural opposite of 뽑다 (pull out), and it takes the destination particle 에: 콘센트에 꽂다 (into the outlet), versus 뽑다 which takes the source particle 에서. Distinguish it from the broader 넣다 ('to put in/insert'), which just means placing something inside a space (가방에 넣다 = put it in the bag) without the sense of standing it upright or seating it firmly; 꽂다 specifically implies a snug, upright insertion. Two spelling cautions: keep the ㅈ batchim (꽂아요, 꽂습니다 — not 꼽다, which is heard colloquially but is non-standard for this meaning), and don't let the verb 꽂다 blur with the noun 꽃 ('flower'), which sounds nearly the same but is a different word. The English-speaker trap is using 넣다 for plugging in — a plug 'goes into' the outlet, but the idiomatic verb is 꽂다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Means inserting something so it stands or stays fixed in place — a plug into an outlet, a USB stick into a port, flowers into a vase, a book into a shelf (hence 책꽂이, 'bookshelf'). It takes the destination particle 에: 콘센트에 꽂다 (into the outlet), versus 뽑다 which takes the source particle 에서."},
+      {"k": "비슷한 말", "e": "VS", "t": "It is the natural opposite of 뽑다 (pull out). Distinguish it from the broader 넣다 ('to put in/insert'), which just means placing something inside a space (가방에 넣다 = put it in the bag) without the sense of standing it upright or seating it firmly; 꽂다 specifically implies a snug, upright insertion."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Using 넣다 for plugging in — a plug 'goes into' the outlet, but the idiomatic verb is 꽂다. Two spelling cautions also: keep the ㅈ batchim (꽂아요, 꽂습니다 — not 꼽다, which is heard colloquially but is non-standard for this meaning), and don't let the verb 꽂다 blur with the noun 꽃 ('flower'), which sounds nearly the same but is a different word."}
+    ],
+    "mistakes": ["Spelling it 꼽다 — the standard verb is 꽂다 (꽂아요/꽂았어요); 꼽다 is heard colloquially but is not the correct written form for inserting.", "Using 넣다 for plugging in — 넣다 just puts something inside a space, while 꽂다 means a firm upright insertion, so a plug or USB is 꽂다.", "Choosing the wrong particle — it is 콘센트에 꽂다 (destination 에), the mirror of 콘센트에서 뽑다 (source 에서); swapping the particles breaks the in/out direction."],
     "irregular": null
   }
 ]

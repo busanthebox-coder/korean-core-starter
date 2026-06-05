@@ -7,18 +7,26 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["요가 수업", "yoga class", "수업 = class; how you'd refer to a studio session"],
-      ["요가를 하다", "to do yoga", "use 하다, not 운동하다; 요가하다 is also fine spoken"],
-      ["요가 매트", "yoga mat", "매트 is the standard loanword; you'll see it everywhere"],
-      ["요가원", "yoga studio", "-원 suffix marks a small studio/academy (cf. 학원)"]
+      ["요가를 하다", "to do yoga", "the default verb is 하다; spoken 요가하다 is fine, but never 운동하다"],
+      ["요가 수업", "yoga class", "수업 = a class/lesson; 요가 클래스 (loanword) is interchangeable at studios"],
+      ["요가 매트", "yoga mat", "매트 is the fixed loanword for the mat; 깔개 (a Korean word for 'mat') is wrong here"],
+      ["요가원", "yoga studio", "-원(院) marks a small academy/clinic; same suffix as 학원, 병원"]
     ],
     "examples": [
-      ["저는 일주일에 두 번 요가를 해요.", "I do yoga twice a week.", "일주일에 N 번 = N times a week, the natural frequency pattern"],
-      ["요가하면 몸이 진짜 유연해져요.", "Doing yoga really makes your body flexible.", "유연하다 = flexible; common reason people give"],
-      ["회사 근처에 요가원이 새로 생겼어요.", "A yoga studio newly opened near my work.", "생기다 = (a place) opens/appears, very common for new shops"]
+      ["저는 요가를 좋아해요.", "I like yoga.", "the simplest frame: noun + 를 + 좋아하다, treating 요가 as a plain object"],
+      ["저는 일주일에 두 번 요가를 해요.", "I do yoga twice a week.", "일주일에 N 번 = N times per week; 에 marks the time-span the count happens within"],
+      ["회사 근처에 요가원이 새로 생겼길래 등록했어요.", "A yoga studio newly opened near my office, so I signed up.", "생기다 = (a place) comes into being/opens; -길래 = 'since (I noticed)', a casual reason"]
     ],
-    "nuance": "Everyday loanword; everyone says 요가, never a Korean translation. Pair it with 하다 (요가를 하다 / 요가하다) rather than 운동하다. A studio is a 요가원 or 요가 스튜디오, and a single session is 요가 수업 or 요가 클래스.",
-    "mistakes": ["Saying 요가 운동해요 — redundant; just 요가 해요", "Calling the studio 요가집 — it's 요가원 or 요가 스튜디오"]
+    "nuance": "요가 is the universal loanword from English 'yoga' (via Sanskrit); no Korean ever translates it. The reflex error is treating it like exercise and saying 요가 운동을 하다 — that doubles 'exercise/do', so just use 요가를 하다 or, colloquially, 요가하다. Compare it with 스트레칭 (stretching): 요가 is a whole disciplined practice with poses (동작/자세) and breathing, while 스트레칭 is just loosening muscles, so they are not swappable. A studio is a 요가원 or 요가 스튜디오 — never 요가집, because the homey suffix -집 is for eateries and shops, not for a class venue. One session is a 요가 수업 / 요가 클래스, and the gear is a 요가 매트.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "요가 is the universal loanword from English 'yoga' (via Sanskrit); no Korean ever translates it. A studio is a 요가원 or 요가 스튜디오 — never 요가집, because the homey suffix -집 is for eateries and shops, not for a class venue. One session is a 요가 수업 / 요가 클래스, and the gear is a 요가 매트."},
+      {"k": "비슷한 말", "e": "VS", "t": "Compare it with 스트레칭 (stretching): 요가 is a whole disciplined practice with poses (동작/자세) and breathing, while 스트레칭 is just loosening muscles, so they are not swappable."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The reflex error is treating it like exercise and saying 요가 운동을 하다 — that doubles 'exercise/do', so just use 요가를 하다 or, colloquially, 요가하다."}
+    ],
+    "mistakes": [
+      ["요가 운동을 해요. → 요가를 해요.", "Adding 운동(을) 하다 ('to do exercise') after 요가 is redundant because 요가 already names the activity; the bare 요가를 하다 / 요가하다 is what Koreans say.", "Drop 운동: 요가를 해요 / 요가해요."],
+      ["요가집에 다녀요. → 요가원에 다녀요.", "The suffix -집 means a shop or eatery (e.g. 빵집, 고깃집), so 요가집 sounds wrong for a class venue; studios use the academy suffix -원.", "Use 요가원 or 요가 스튜디오."]
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +36,26 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["필라테스를 하다", "to do Pilates", "verb is 하다; 필테 is the texting abbreviation"],
-      ["기구 필라테스", "reformer (equipment) Pilates", "기구 = apparatus; vs 매트 필라테스 (mat)"],
-      ["필라테스 등록하다", "to sign up for Pilates", "등록하다 = register; classes are sold in packages"],
-      ["1:1 필라테스", "one-on-one Pilates", "read as 일대일; private lessons are common and pricey"]
+      ["필라테스를 하다", "to do Pilates", "the verb is 하다; 필테 is the chat abbreviation friends actually type"],
+      ["기구 필라테스", "reformer (equipment) Pilates", "기구(器具) = apparatus; contrasts with 매트 필라테스 done on a mat"],
+      ["필라테스 (수업을) 등록하다", "to sign up for Pilates (class)", "등록하다(登錄) = to register; classes are sold as prepaid packages"],
+      ["1:1 필라테스", "one-on-one Pilates", "read 일대일; a private lesson, much pricier than group (그룹) classes"]
     ],
     "examples": [
-      ["요즘 자세 교정하려고 필라테스 다녀요.", "I'm doing Pilates these days to fix my posture.", "다니다 = attend regularly; the verb for going to a gym/academy"],
-      ["필라테스는 요가보다 좀 더 힘들어요.", "Pilates is a bit harder than yoga.", "N보다 = than N; honest comparison locals make"],
-      ["10회권 끊었는데 벌써 다 썼어요.", "I bought a 10-session pass and already used it all.", "N회권 = N-session ticket; 끊다 = to buy (a pass)"]
+      ["저는 필라테스를 해요.", "I do Pilates.", "the basic frame, naming the activity with the all-purpose verb 하다"],
+      ["요즘 자세 교정하려고 필라테스 다녀요.", "I'm doing Pilates these days to fix my posture.", "다니다 = to attend regularly; -(으)려고 = 'in order to', stating your goal"],
+      ["10회권 끊었는데 벌써 다 썼어요.", "I bought a 10-session pass but I've already used it all.", "N회권(回券) = an N-session ticket; 끊다 = to buy (a ticketed pass), not 사다"]
     ],
-    "nuance": "Spelled 필라테스 and abbreviated 필테 in chat. Very popular with 20-30s women in Korea, often sold as session packages (회권). Distinguish 기구 필라테스 (machines/reformer) from 매트 필라테스; people will ask which you mean.",
-    "mistakes": ["Writing 필테스 or 파일라테스 — the correct form is 필라테스", "Using 사다 for buying a pass — locals say 회권 끊다"]
+    "nuance": "필라테스 transliterates the founder's name 'Pilates' and is abbreviated 필테 in texts; the standard spelling is 필라테스 (not 필테스 or 파일라테스). The big learner trap is contrasting it with 요가: people will ask 매트(예요), 기구(예요)? — 매트 필라테스 is floor work, 기구 필라테스 uses the reformer machine, and 필라테스 generally targets core strength and posture (자세) whereas 요가 emphasizes flexibility and breathing, so don't call one the other. Note the package culture: lessons come as a 회권 ('N-session ticket'), which you 끊다 — literally 'cut/tear', the same verb as buying a train ticket — never 사다. Sign-up is 등록하다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "필라테스 transliterates the founder's name 'Pilates' and is abbreviated 필테 in texts; the standard spelling is 필라테스 (not 필테스 or 파일라테스). 매트 필라테스 is floor work, 기구 필라테스 uses the reformer machine. Note the package culture: lessons come as a 회권 ('N-session ticket'), which you 끊다 — literally 'cut/tear', the same verb as buying a train ticket — never 사다. Sign-up is 등록하다."},
+      {"k": "비슷한 말", "e": "VS", "t": "The big learner trap is contrasting it with 요가: 필라테스 generally targets core strength and posture (자세) whereas 요가 emphasizes flexibility and breathing, so don't call one the other. People will ask 매트(예요), 기구(예요)?"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Lessons come as a 회권 ('N-session ticket'), which you 끊다 (literally 'cut/tear', the same verb as buying a train ticket), never 사다. Watch the spelling too: 필라테스, not 필테스 or 파일라테스."}
+    ],
+    "mistakes": [
+      ["10회권을 샀어요. → 10회권을 끊었어요.", "For ticketed passes (회권, 정기권) Koreans use 끊다 ('cut/tear off a ticket'), a fixed collocation; 사다 ('buy') sounds unnatural for a session pass.", "Say 회권(을) 끊다."],
+      ["필테스를 해요. → 필라테스를 해요.", "The correct transliteration keeps 라: 필라테스. Dropping it (필테스) or adding a vowel (파일라테스) are common spelling slips.", "Spell it 필라테스, abbreviate 필테."]
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +65,26 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["클라이밍을 하다", "to go climbing", "하다 is the verb; also 클라이밍 가다"],
-      ["실내 클라이밍", "indoor climbing", "실내 = indoor; most city climbing is indoor gyms"],
-      ["볼더링", "bouldering", "the short-wall, no-rope style; the most common type"],
-      ["클라이밍장", "climbing gym", "-장 marks a sports facility/venue"]
+      ["클라이밍을 하다", "to go climbing", "verb 하다; 클라이밍(을) 가다 ('go climbing') is just as common"],
+      ["실내 클라이밍", "indoor climbing", "실내(室內) = indoors; almost all city climbing is at indoor gyms"],
+      ["볼더링", "bouldering", "the short-wall, no-rope style most 20-30s actually do"],
+      ["클라이밍장", "climbing gym", "-장(場) marks a sports venue/ground; cf. 운동장, 수영장"]
     ],
     "examples": [
-      ["주말마다 친구랑 클라이밍 하러 가요.", "I go climbing with a friend every weekend.", "N마다 = every N; -하러 가다 = go in order to do"],
-      ["처음엔 손에 힘이 하나도 없었어요.", "At first I had no grip strength at all.", "힘이 없다 = to have no strength; what every beginner says"],
-      ["클라이밍장에 암벽화 빌려주는 데 있어요?", "Is there a place that rents climbing shoes at the gym?", "암벽화 = climbing shoes; 빌려주다 = to lend/rent out"]
+      ["저는 클라이밍을 해요.", "I do climbing.", "the plain frame; 클라이밍 takes 하다 as its activity verb"],
+      ["주말마다 친구랑 클라이밍 하러 가요.", "I go climbing with a friend every weekend.", "N마다 = every N; V-(으)러 가다 = go for the purpose of doing"],
+      ["클라이밍장에 암벽화 빌려주는 데 있어요?", "Is there somewhere that rents out climbing shoes at the gym?", "암벽화(巖壁靴) = climbing shoes; 빌려주다 = to lend out (vs 빌리다 = to borrow)"]
     ],
-    "nuance": "Said as 클라이밍; the trendy gym version most 20-30s do is 볼더링 (bouldering) at an indoor 클라이밍장. Climbing shoes are 암벽화 and grip chalk is 초크 — useful at the counter.",
-    "mistakes": ["Misspelling it 클라밍 by dropping the 이 — keep it 클라이밍", "Confusing 등산 (hiking a mountain) with 클라이밍 (sport climbing on walls)"]
+    "nuance": "클라이밍 is the English loanword 'climbing'; keep all four syllables — 클라밍 (dropping 이) is a frequent misspelling. The crucial distinction for an English speaker is 클라이밍 vs 등산(登山): 등산 is hiking/ascending an actual mountain on trails, while 클라이밍 is sport climbing up walls or rock faces — Koreans never mix them, so 'I went climbing this weekend' on a hiking trail should be 등산했어요. The trendy gym style is 볼더링 (bouldering: low walls, no rope, just 매트 below), done at an indoor 클라이밍장. Counter vocabulary that helps: 암벽화 (climbing shoes, which you can 빌리다) and 초크 (grip chalk). Beginners always confess 손에 힘이 없다 ('no grip strength').",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "클라이밍 is the English loanword 'climbing'; keep all four syllables — 클라밍 (dropping 이) is a frequent misspelling. The trendy gym style is 볼더링 (bouldering: low walls, no rope, just 매트 below), done at an indoor 클라이밍장. Counter vocabulary that helps: 암벽화 (climbing shoes, which you can 빌리다) and 초크 (grip chalk). Beginners always confess 손에 힘이 없다 ('no grip strength')."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial distinction for an English speaker is 클라이밍 vs 등산(登山): 등산 is hiking/ascending an actual mountain on trails, while 클라이밍 is sport climbing up walls or rock faces — Koreans never mix them."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "'I went climbing this weekend' on a hiking trail should be 등산했어요, not 클라이밍, since they are never mixed."}
+    ],
+    "mistakes": [
+      ["주말에 클라이밍 갔어요. (meaning a mountain hike) → 주말에 등산 갔어요.", "등산 is trail hiking up a mountain; 클라이밍 is technical wall/rock climbing. Using 클라이밍 for a casual mountain walk misdescribes the activity.", "Hiking a mountain = 등산; wall/rock climbing = 클라이밍."],
+      ["클라밍을 해요. → 클라이밍을 해요.", "The word transliterates 'climbing' with the 이 kept: 클라이밍. Omitting it is a spelling error.", "Keep all syllables: 클라이밍."]
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +94,25 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["볼링을 치다", "to bowl", "use 치다 (to strike), like other ball games"],
-      ["볼링장", "bowling alley", "-장 = venue; a standard hangout spot"],
-      ["한 게임 치다", "to play one game/round", "게임 is the counter for a round"],
-      ["볼링화", "bowling shoes", "-화 = shoes; you rent these at the counter"]
+      ["볼링을 치다", "to bowl", "use 치다 ('to strike'), the verb for ball/cue/racket games, not 하다"],
+      ["볼링장", "bowling alley", "-장(場) = venue; a classic group hangout, often with 당구장 nearby"],
+      ["한 게임 치다", "to play one game/round", "게임 is the counter for a round; you pay per 게임"],
+      ["볼링화", "bowling shoes", "-화(靴) = shoes (Sino-Korean); rent these at the counter"]
     ],
     "examples": [
-      ["우리 이따가 볼링 치러 갈래?", "Want to go bowling later?", "이따가 = later today; -ㄹ래? casual invitation"],
-      ["볼링 한 게임에 얼마예요?", "How much is one game of bowling?", "N에 얼마예요 = how much per N; counter pricing question"],
-      ["저 볼링 진짜 못 쳐요.", "I'm really bad at bowling.", "못 + verb = can't do well; humble self-deprecation"]
+      ["저는 볼링을 잘 못 쳐요.", "I'm not very good at bowling.", "the simple frame; note 치다 as the verb and 못 + verb = 'can't (do well)'"],
+      ["우리 이따가 볼링 치러 갈래?", "Want to go bowling later today?", "이따가 = later (within today); -(으)ㄹ래? = casual 'shall we / want to?'"],
+      ["볼링 한 게임에 얼마예요?", "How much is one game of bowling?", "N에 얼마예요? = how much per N; 에 distributes the price over each unit"]
     ],
-    "nuance": "Take the verb 치다 (볼링을 치다), the same verb used for ball/racket sports, never 하다 in careful speech. A 볼링장 is a classic group outing and 회식 alternative. You rent 볼링화 and pay per 게임.",
-    "mistakes": ["Saying 볼링을 하다 — natural Korean is 볼링을 치다", "Forgetting you must rent 볼링화 — street shoes aren't allowed on the lane"]
+    "nuance": "볼링 is the loanword 'bowling', but the verb is the native 치다 ('to strike/hit'), shared with 당구를 치다, 테니스를 치다 and other implement-and-ball sports — saying 볼링을 하다 marks you as a foreigner. The mental model is: anything you strike with a hand/cue/racket takes 치다, whereas sports you run/play take 하다 (축구를 하다). A 볼링장 (-장 = venue) is a staple group outing and a softer alternative to a drinking 회식. You pay by the 게임 (the counter for a round), and you must swap into rented 볼링화 — the suffix -화(靴) is the Sino-Korean for 'footwear', the same one in 운동화 (sneakers) and 등산화 (hiking boots).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "볼링 is the loanword 'bowling'. A 볼링장 (-장 = venue) is a staple group outing and a softer alternative to a drinking 회식. You pay by the 게임 (the counter for a round), and you must swap into rented 볼링화 — the suffix -화(靴) is the Sino-Korean for 'footwear', the same one in 운동화 (sneakers) and 등산화 (hiking boots)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The verb is the native 치다 ('to strike/hit'), shared with 당구를 치다, 테니스를 치다 and other implement-and-ball sports — saying 볼링을 하다 marks you as a foreigner. The mental model is: anything you strike with a hand/cue/racket takes 치다, whereas sports you run/play take 하다 (축구를 하다)."}
+    ],
+    "mistakes": [
+      ["볼링을 해요. → 볼링을 쳐요.", "Implement-and-ball games collocate with 치다 ('strike'); 하다 is the generic 'do' and sounds unnatural for bowling.", "Use 볼링을 치다."],
+      ["운동화 신고 쳐도 돼요? → 볼링화로 갈아 신어야 해요.", "Street/athletic shoes (운동화) damage and aren't allowed on the lane; you must change into rented 볼링화.", "Rent and wear 볼링화 on the lane."]
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +122,26 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["당구를 치다", "to play billiards", "verb is 치다, like other cue/ball games"],
-      ["당구장", "billiard hall", "-장 = venue; very common, often open late"],
-      ["포켓볼", "pool (pocket billiards)", "the version with pockets; 당구 often means 3-cushion"],
-      ["한 게임 치다", "to play one round", "게임 = round; loser usually pays the table fee"]
+      ["당구를 치다", "to play billiards", "verb 치다 ('strike'), like other cue/ball games; never 하다"],
+      ["당구장", "billiard hall", "-장(場) = venue; cheap and often open late into the night"],
+      ["포켓볼", "pool (pocket billiards)", "the pocketed version; plain 당구 usually means pocketless carom"],
+      ["시간당으로 계산하다", "to charge/pay by the hour", "시간당(時間當) = per hour; the loser often covers the fee"]
     ],
     "examples": [
-      ["오빠들이랑 당구 치러 갔어요.", "I went to play billiards with the guys.", "-(이)랑 = with (casual); -하러 가다 = go to do"],
-      ["당구장은 보통 시간당으로 계산해요.", "Billiard halls usually charge by the hour.", "시간당 = per hour; 계산하다 = to bill/pay"],
-      ["저는 당구 칠 줄 몰라요.", "I don't know how to play billiards.", "V-ㄹ 줄 모르다 = not know how to do something"]
+      ["저는 당구를 못 쳐요.", "I can't play billiards.", "the basic frame; 못 쳐요 = 'can't play (well)', with the proper verb 치다"],
+      ["친구들이랑 당구 치러 갔어요.", "I went to play billiards with friends.", "N(이)랑 = casual 'with'; V-(으)러 가다 = go in order to do"],
+      ["당구장은 보통 시간당으로 계산해요.", "Billiard halls usually charge by the hour.", "시간당 = per hour; 계산하다 = to bill/settle up, also 'to do the math'"]
     ],
-    "nuance": "Use 치다 (당구를 치다). A 당구장 is a cheap, late-night hangout, traditionally male-coded but increasingly mixed. Plain 당구 usually means the carom games (사구 four-ball or 쓰리쿠션 three-cushion) played on a pocketless table; the pocketed version is 포켓볼. Halls charge 시간당 (per hour), and the loser often pays.",
-    "mistakes": ["Saying 당구를 하다 instead of 당구를 치다", "Assuming 당구 = pool with pockets — that's 포켓볼; plain 당구 usually means a pocketless carom game (사구/쓰리쿠션)"]
+    "nuance": "당구(撞球) is Sino-Korean — 撞 'to strike' + 球 'ball', literally 'strike-ball' — and like other cue sports it takes the verb 치다, not 하다. The classic English-speaker trap is meaning: plain 당구 in Korea usually refers to the pocketless carom games 사구 (four-ball) and 쓰리쿠션 (three-cushion), played by bouncing balls off cushions, NOT the pool you know with six pockets — that pocketed version is specifically 포켓볼. So 'let's play pool' is safest as 당구 치자 only if you mean carom; otherwise specify 포켓볼. A 당구장 (-장 = venue) is a cheap, late-night hangout, traditionally male-coded but now mixed, billed 시간당 (per hour), and the loser customarily pays.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "당구 like other cue sports takes the verb 치다, not 하다. A 당구장 (-장 = venue) is a cheap, late-night hangout, traditionally male-coded but now mixed, billed 시간당 (per hour), and the loser customarily pays."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "당구(撞球) is Sino-Korean — 撞 'to strike' + 球 'ball', literally 'strike-ball'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic English-speaker trap is meaning: plain 당구 in Korea usually refers to the pocketless carom games 사구 (four-ball) and 쓰리쿠션 (three-cushion), played by bouncing balls off cushions, NOT the pool you know with six pockets — that pocketed version is specifically 포켓볼. So 'let's play pool' is safest as 당구 치자 only if you mean carom; otherwise specify 포켓볼."}
+    ],
+    "mistakes": [
+      ["당구를 해요. → 당구를 쳐요.", "Cue games collocate with 치다 ('strike'); 하다 is wrong for 당구 just as it is for 볼링.", "Use 당구를 치다."],
+      ["당구 = pool with pockets (assumed). → 포켓볼 for the pocketed game.", "Plain 당구 in Korea defaults to pocketless carom (사구/쓰리쿠션); calling the six-pocket game 당구 without specifying confuses Koreans.", "Say 포켓볼 when you mean pocket pool."]
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +151,25 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["보드게임을 하다", "to play a board game", "verb is 하다 for games"],
-      ["보드게임 카페", "board game cafe", "pay-per-hour cafe stocked with games; very common"],
-      ["보드게임 카페 = 보드카페", "board game cafe (short form)", "locals shorten it to 보드카페"],
-      ["룰 설명하다", "to explain the rules", "룰 = rules; staff often explains the game for you"]
+      ["보드게임을 하다", "to play a board game", "games take 하다 (to do/play), never 보다 ('watch')"],
+      ["보드게임 카페", "board game cafe", "a pay-by-time cafe stocked with games; locals shorten it to 보드카페"],
+      ["룰을 설명하다", "to explain the rules", "룰 = rules (loanword); staff often explain the game for you"],
+      ["넷이서 하다", "to play with four people", "N이서 = '(as a group) of N'; 둘이서, 셋이서, 넷이서 …"]
     ],
     "examples": [
-      ["비 오는 날엔 보드게임 카페 가는 게 최고예요.", "On rainy days, going to a board game cafe is the best.", "-는 게 최고다 = doing X is the best; natural recommendation"],
-      ["이 보드게임 룰이 좀 복잡해요.", "The rules of this board game are a bit complicated.", "복잡하다 = complicated; common complaint"],
-      ["넷이서 할 수 있는 보드게임 추천해 주세요.", "Please recommend a board game for four people.", "넷이서 = with four people; 추천하다 = to recommend"]
+      ["저는 보드게임을 좋아해요.", "I like board games.", "the simple frame; 보드게임 is a plain object of 좋아하다"],
+      ["이 보드게임 룰이 좀 복잡해요.", "The rules of this board game are a bit complicated.", "복잡하다(複雜) = complicated, the descriptive verb here; 좀 softens the complaint"],
+      ["넷이서 할 수 있는 보드게임 추천해 주세요.", "Please recommend a board game four people can play.", "V-(으)ㄹ 수 있는 = that can be done; 추천하다(推薦) = to recommend"]
     ],
-    "nuance": "Said 보드게임, with verb 하다. The cultural anchor is the 보드게임 카페 (often shortened 보드카페), where you pay by time and staff teach the 룰. A popular cheap date or group activity for 20-30s, especially on rainy days.",
-    "mistakes": ["Calling it 보드 게임판 — the game itself is just 보드게임", "Using 보다 for playing a game — games take 하다, not 보다"]
+    "nuance": "보드게임 is 'board game' (보드 + 게임). Like all games it takes the verb 하다 ('do/play'), and the trap for English speakers is the verb 'play': there is no all-purpose 'play' in Korean — you 하다 a board game but you 치다 ball games and 켜다/연주하다 instruments, so reaching for one English verb fails. The cultural anchor is the 보드게임 카페 (commonly shortened 보드카페), where you pay by time and staff teach the 룰. It's a cheap date or rainy-day group activity for 20-30s. Don't confuse the game with its parts: the physical board is a 게임판, while 보드게임 names the whole game, and 보드 alone can also mean a snowboard/skateboard, so keep the full 보드게임.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "보드게임 is 'board game' (보드 + 게임). Like all games it takes the verb 하다 ('do/play'). The cultural anchor is the 보드게임 카페 (commonly shortened 보드카페), where you pay by time and staff teach the 룰. It's a cheap date or rainy-day group activity for 20-30s. Don't confuse the game with its parts: the physical board is a 게임판, while 보드게임 names the whole game, and 보드 alone can also mean a snowboard/skateboard, so keep the full 보드게임."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The trap for English speakers is the verb 'play': there is no all-purpose 'play' in Korean — you 하다 a board game but you 치다 ball games and 켜다/연주하다 instruments, so reaching for one English verb fails."}
+    ],
+    "mistakes": [
+      ["보드게임을 봐요. → 보드게임을 해요.", "English 'play a game' tempts learners toward 보다 ('watch') or a literal calque; games are done with 하다.", "Use 보드게임을 하다."],
+      ["우리 보드 하자. → 우리 보드게임 하자.", "Bare 보드 is ambiguous (it can mean a snowboard/skateboard); say the full 보드게임 for the tabletop game.", "Keep the full word 보드게임."]
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +179,26 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
+      ["방탈출을 하다", "to do an escape room", "the activity verb is 하다; you 'do' a room, not 'watch' it"],
       ["방탈출 카페", "escape room (cafe)", "the full venue name; often shortened to 방탈"],
-      ["방탈출을 하다", "to do an escape room", "verb is 하다"],
-      ["테마", "theme/room", "each scenario room is a 테마; you pick one"],
-      ["힌트를 쓰다", "to use a hint", "쓰다 = to use; staff give hints when you're stuck"]
+      ["테마", "theme / scenario room", "테마 = each themed room you book; 공포 테마 = a horror room"],
+      ["힌트를 쓰다", "to use a hint", "쓰다 = to use; staff give 힌트 when you're stuck"]
     ],
     "examples": [
-      ["우리 이번 주말에 방탈출 하러 갈까?", "Shall we go do an escape room this weekend?", "-ㄹ까? = shall we?; soft suggestion to a friend"],
-      ["이 테마 너무 어려워서 결국 탈출 못 했어요.", "This room was so hard we couldn't escape in the end.", "결국 = in the end; 탈출하다 = to escape"],
-      ["공포 테마는 무서워서 못 하겠어요.", "I can't do horror themes because they're scary.", "V-겠다 here = I (don't think I) can; reluctance"]
+      ["저는 방탈출을 좋아해요.", "I like escape rooms.", "the basic frame; 방탈출 as a plain object of 좋아하다"],
+      ["우리 이번 주말에 방탈출 하러 갈까?", "Shall we go do an escape room this weekend?", "V-(으)러 가다 = go to do; -(으)ㄹ까? = soft 'shall we?' to a friend"],
+      ["이 테마 너무 어려워서 결국 탈출 못 했어요.", "This room was so hard we couldn't escape in the end.", "결국(結局) = in the end; 탈출(脫出)하다 = to escape; -아서 gives the reason"]
     ],
-    "nuance": "Spelled 방탈출 (literally 'room escape'), commonly shortened to 방탈. The venue is a 방탈출 카페, and each scenario is a 테마 you book in advance. You can request 힌트 when stuck; horror ones are 공포 테마. A staple group activity for young adults.",
-    "mistakes": ["Writing 방 탈출 with a space in the activity name — it's the set noun 방탈출", "Saying 방탈출을 보다 — you 하다 (do) an escape room, not watch it"]
+    "nuance": "방탈출 is a transparent compound: 방 'room' + 탈출(脫出) 'escape/break-out' (脫 'shed/escape' + 出 'go out'), i.e. 'room escape'. Write it solid as 방탈출 (the set activity noun), not 방 탈출 with a space, and it's commonly clipped to 방탈. The verb is 하다 — the pitfall is English 'do an escape room' vs the false friend 보다: you never 방탈출을 보다 ('watch'), you 하다 (participate in) it. Inside, each scenario is a 테마 you book ahead; you can request a 힌트 when stuck, and the scary ones are 공포 테마. Don't confuse the noun 탈출 (the act of escaping, used in 탈출하다) with the venue word 방탈출 (the game itself). A staple group outing for young adults.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "방탈출 means 'room escape'. Write it solid as 방탈출 (the set activity noun), not 방 탈출 with a space, and it's commonly clipped to 방탈. Inside, each scenario is a 테마 you book ahead; you can request a 힌트 when stuck, and the scary ones are 공포 테마. Don't confuse the noun 탈출 (the act of escaping, used in 탈출하다) with the venue word 방탈출 (the game itself). A staple group outing for young adults."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "방탈출 is a transparent compound: 방 'room' + 탈출(脫出) 'escape/break-out' (脫 'shed/escape' + 出 'go out')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The verb is 하다 — the pitfall is English 'do an escape room' vs the false friend 보다: you never 방탈출을 보다 ('watch'), you 하다 (participate in) it."}
+    ],
+    "mistakes": [
+      ["방탈출을 봤어요. → 방탈출을 했어요.", "It's a participatory game: you 하다 (do) it. 보다 ('watch') treats it like a show, which is wrong.", "Use 방탈출을 하다."],
+      ["방 탈출 하러 가자. → 방탈출 하러 가자.", "As the name of the activity it is one set word, 방탈출 (or clipped 방탈); inserting a space reads as the literal phrase 'escape the room'.", "Write it solid: 방탈출."]
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +208,26 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["뮤지컬을 보다", "to see a musical", "verb is 보다, like other performances"],
-      ["뮤지컬 공연", "musical performance", "공연 = (live) performance/show"],
-      ["예매하다", "to book (tickets) in advance", "예매 = advance ticketing, vs 예약 for reservations"],
-      ["뮤지컬 배우", "musical actor", "배우 = actor; fans follow specific performers"]
+      ["뮤지컬을 보다", "to see a musical", "performances take 보다 ('see/watch'), not 하다"],
+      ["뮤지컬 공연", "musical performance", "공연(公演) = a live performance/show"],
+      ["예매하다", "to book (tickets) in advance", "예매(豫買) = advance ticket purchase, distinct from 예약 (reservation)"],
+      ["뮤지컬 배우", "musical actor", "배우(俳優) = actor; fans choose shows by which performer is cast"]
     ],
     "examples": [
-      ["대학로에서 뮤지컬 한 편 봤어요.", "I saw a musical in Daehangno.", "대학로 = Seoul's theater district; 한 편 = one (work)"],
-      ["주말 공연은 표가 금방 매진돼요.", "Weekend shows sell out quickly.", "매진되다 = to sell out; 금방 = quickly/soon"],
-      ["이 뮤지컬 누가 나와요?", "Who's performing in this musical?", "나오다 = to appear/be cast; asking about the cast"]
+      ["저는 뮤지컬을 좋아해요.", "I like musicals.", "the simplest frame; 뮤지컬 as object of 좋아하다"],
+      ["대학로에서 뮤지컬 한 편 봤어요.", "I saw a musical in Daehangno.", "대학로 = Seoul's theater district; 편(編) is the counter for a work/show"],
+      ["주말 공연은 표가 금방 매진돼요.", "Weekend shows sell out fast.", "매진(賣盡)되다 = to sell out (lit. 'selling exhausted'); 금방 = soon/quickly"]
     ],
-    "nuance": "Said 뮤지컬, watched with 보다. Korea has a huge musical scene centered on 대학로 (Daehangno) and big theaters; fans pick shows by the 뮤지컬 배우 in the cast. Buy tickets with 예매하다 (advance ticketing), and popular dates 매진되다 (sell out) fast.",
-    "mistakes": ["Using 예약하다 (reserve) for show tickets — performances use 예매하다", "Confusing 뮤지컬 (sung-through theater) with 연극 (a straight play)"]
+    "nuance": "뮤지컬 is the loanword 'musical', watched with the verb 보다 ('see'), like 영화를 보다 or 공연을 보다 — never 하다 unless you mean performing in it. The sharp contrast to learn is 뮤지컬 vs 연극(演劇): 연극 is a straight (spoken) play, while a 뮤지컬 is sung-through with songs and dance, so don't translate English 'play/theater' as 뮤지컬 by default. Korea has a huge scene centered on 대학로 (Daehangno) and big theaters, and fans pick shows by the 뮤지컬 배우 in the cast. The ticketing pitfall: use 예매하다 — 豫 'in advance' + 買 'buy' — for buying show tickets, NOT 예약하다 (豫約 'reserve'), which is for tables and rooms. Hot dates 매진되다 (sell out) quickly.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "뮤지컬 is the loanword 'musical', watched with the verb 보다 ('see'), like 영화를 보다 or 공연을 보다 — never 하다 unless you mean performing in it. Korea has a huge scene centered on 대학로 (Daehangno) and big theaters, and fans pick shows by the 뮤지컬 배우 in the cast. Hot dates 매진되다 (sell out) quickly."},
+      {"k": "비슷한 말", "e": "VS", "t": "The sharp contrast to learn is 뮤지컬 vs 연극(演劇): 연극 is a straight (spoken) play, while a 뮤지컬 is sung-through with songs and dance, so don't translate English 'play/theater' as 뮤지컬 by default."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The ticketing pitfall: use 예매하다 — 豫 'in advance' + 買 'buy' — for buying show tickets, NOT 예약하다 (豫約 'reserve'), which is for tables and rooms."}
+    ],
+    "mistakes": [
+      ["뮤지컬을 예약했어요. → 뮤지컬을 예매했어요.", "Tickets you buy in advance use 예매(豫買, 'pre-buy'); 예약(豫約, 'reserve') is for restaurants/hotels, not performance tickets.", "Use 예매하다 for show tickets."],
+      ["연극이랑 뮤지컬은 같은 거예요. → 뮤지컬은 노래로 하는 공연이에요.", "연극 is a spoken play; a 뮤지컬 is sung-through with music and dance. Treating them as identical mislabels the genre.", "Distinguish 연극 (play) from 뮤지컬 (musical)."]
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +237,26 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["전시회에 가다", "to go to an exhibition", "the standard phrase for the outing"],
-      ["전시회를 보다", "to see an exhibition", "verb is 보다, like other things you view"],
-      ["사진전 / 미술전", "photo exhibition / art exhibition", "-전 is the suffix for a themed show"],
-      ["관람료", "admission fee", "관람료 = viewing fee; some shows are free (무료)"]
+      ["전시회에 가다", "to go to an exhibition", "the standard outing phrase; 에 marks the destination"],
+      ["전시회를 보다", "to see an exhibition", "verb 보다, like other things you view/watch"],
+      ["사진전 / 미술전", "photo exhibition / art exhibition", "-전(展) is the suffix for a themed show, shorter than -전시회"],
+      ["관람료", "admission/viewing fee", "관람료(觀覽料) = viewing fee; many shows are 무료 (free)"]
     ],
     "examples": [
-      ["주말에 친구랑 사진 전시회 보러 갔어요.", "I went to see a photo exhibition with a friend on the weekend.", "-하러 가다 = go in order to; popular low-key date"],
-      ["이 전시회는 무료라서 사람이 엄청 많아요.", "This exhibition is free, so there are tons of people.", "무료 = free of charge; 엄청 = a ton (casual intensifier)"],
-      ["전시회 도슨트 시간이 몇 시예요?", "What time is the exhibition docent tour?", "도슨트 = docent/guided tour; 몇 시 = what time"]
+      ["저는 전시회를 자주 봐요.", "I see exhibitions often.", "the basic frame; 전시회 as object of 보다, with 자주 = 'often'"],
+      ["주말에 친구랑 사진 전시회 보러 갔어요.", "I went to see a photo exhibition with a friend on the weekend.", "V-(으)러 가다 = go in order to see; a popular low-key date"],
+      ["이 전시회는 무료라서 사람이 엄청 많아요.", "This exhibition is free, so there are a ton of people.", "무료(無料) = free of charge; -라서 = 'because (it is)'; 엄청 = a ton (casual)"]
     ],
-    "nuance": "A 전시회 is a (usually temporary) exhibition you 보러 가다 — a go-to casual outing or date for 20-30s, especially popular as 사진전 or 미술전. Note the distinct -전 / -회 forms. Watch the 관람료, look for 무료 (free) shows, and many offer a 도슨트 guided tour.",
-    "mistakes": ["Confusing 전시회 (a temporary exhibition event) with 미술관 (the museum building itself)", "Using 입장료 loosely — for art shows the fee is usually called 관람료"]
+    "nuance": "전시회 is Sino-Korean — 展示 'display/exhibit' (展 'spread out' + 示 'show') + 會 'gathering/event' — i.e. a (usually temporary) exhibition event you 보러 가다, a go-to casual outing or date for 20-30s, especially as a 사진전 (photo show) or 미술전 (art show), where -전(展) is the compact suffix. The key learner pitfall is 전시회 vs 미술관(美術館): a 전시회 is the *event* (it opens and closes on dates), whereas a 미술관 is the *building/museum* that houses it — don't say 전시회 when you mean the institution. On fees, art shows usually charge a 관람료 ('viewing fee'), not the generic 입장료 ('entry fee') used at amusement parks; look for 무료 shows, and many offer a 도슨트 (docent-guided tour).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "전시회 is a (usually temporary) exhibition event you 보러 가다, a go-to casual outing or date for 20-30s, especially as a 사진전 (photo show) or 미술전 (art show), where -전(展) is the compact suffix. On fees, art shows usually charge a 관람료 ('viewing fee'), not the generic 입장료 ('entry fee') used at amusement parks; look for 무료 shows, and many offer a 도슨트 (docent-guided tour)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key learner pitfall is 전시회 vs 미술관(美術館): a 전시회 is the event (it opens and closes on dates), whereas a 미술관 is the building/museum that houses it — don't say 전시회 when you mean the institution."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "전시회 is Sino-Korean — 展示 'display/exhibit' (展 'spread out' + 示 'show') + 會 'gathering/event'."}
+    ],
+    "mistakes": [
+      ["미술관에서 새 전시회가 생겼어요 (meaning the museum). → 전시회 is the event, 미술관 is the building.", "전시회 names a temporary show with start/end dates; the permanent venue is a 미술관/갤러리. Swapping them confuses event with place.", "Event = 전시회; building = 미술관/갤러리."],
+      ["전시회 입장료가 얼마예요? → 전시회 관람료가 얼마예요?", "For art/photo shows the fee is idiomatically 관람료 ('viewing fee'); 입장료 ('entry fee') fits theme parks and venues, not exhibitions.", "Use 관람료 for exhibitions."]
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +266,26 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["노래방에 가다", "to go to a karaoke room", "the standard outing phrase"],
-      ["코인 노래방", "coin karaoke", "pay-per-song booth; 코노 for short, popular and cheap"],
-      ["노래 한 곡 부르다", "to sing one song", "곡 = counter for songs; 부르다 = to sing"],
-      ["서비스 시간", "bonus time (free extra minutes)", "the free minutes staff add at the end"]
+      ["노래방에 가다", "to go to a karaoke room", "the standard outing phrase; the venue takes 가다"],
+      ["코인 노래방", "coin karaoke", "a pay-per-song booth, shortened to 코노; cheap and solo-friendly"],
+      ["노래 한 곡 부르다", "to sing one song", "곡(曲) = the counter for songs; 부르다 = to sing, not 하다"],
+      ["서비스 시간", "bonus time (free extra minutes)", "the free minutes staff add at the end if you ask"]
     ],
     "examples": [
-      ["2차로 노래방 가자!", "Let's go to karaoke for round two!", "2차 = the next stop on a night out; classic after dinner/drinks"],
-      ["요즘은 혼자 코노 가서 스트레스 풀어요.", "These days I go to coin karaoke alone to de-stress.", "스트레스(를) 풀다 = to relieve stress; 코노 = 코인 노래방"],
-      ["서비스 시간 좀 넣어 주세요!", "Please add some bonus time!", "넣다 = to put in/add; what you call out to staff"]
+      ["저는 노래방을 좋아해요.", "I like karaoke rooms.", "the simple frame; the place 노래방 as object of 좋아하다"],
+      ["2차로 노래방 가자!", "Let's go to karaoke for round two!", "2차(次) = the next stop on a night out; 로 marks 노래방 as the chosen next venue"],
+      ["요즘은 혼자 코노 가서 스트레스 풀어요.", "These days I go to coin karaoke alone to de-stress.", "스트레스(를) 풀다 = to relieve stress; 코노 = 코인 노래방"]
     ],
-    "nuance": "A 노래방 is core Korean nightlife — the classic 2차 (second round) after dinner or drinks. The cheap solo-friendly version is 코인 노래방 (코노). Songs are counted with 곡, and you can beg staff for 서비스 시간 (free extra minutes). Distinct from a karaoke bar.",
-    "mistakes": ["Calling it 가라오케 — in Korea the room is a 노래방; 가라오케 sounds dated or refers to a hostess bar", "Using 하다 for singing a song — you 부르다 (sing) a 곡"]
+    "nuance": "노래방 is a pure Korean compound: 노래 'song' + 방 'room' = 'song room', a private karaoke booth that is core Korean nightlife and the classic 2차 ('second round') after dinner or drinks. The big pitfall is calling it 가라오케 (karaoke): in Korea 가라오케 sounds dated or implies a pricey hostess bar with staff, so the everyday booth you rent with friends is always 노래방, and the cheap solo version is 코인 노래방 (코노). Verb-wise, you don't 하다 a song — you 부르다 ('sing') a 곡, where 곡(曲) is the proper counter (한 곡, 두 곡). A nice extra to know: you can plead 서비스 시간 넣어 주세요 to get free bonus minutes from staff.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "노래방 is a pure Korean compound: 노래 'song' + 방 'room' = 'song room', a private karaoke booth that is core Korean nightlife and the classic 2차 ('second round') after dinner or drinks. The cheap solo version is 코인 노래방 (코노). A nice extra to know: you can plead 서비스 시간 넣어 주세요 to get free bonus minutes from staff."},
+      {"k": "비슷한 말", "e": "VS", "t": "The big pitfall is calling it 가라오케 (karaoke): in Korea 가라오케 sounds dated or implies a pricey hostess bar with staff, so the everyday booth you rent with friends is always 노래방."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Verb-wise, you don't 하다 a song — you 부르다 ('sing') a 곡, where 곡(曲) is the proper counter (한 곡, 두 곡)."}
+    ],
+    "mistakes": [
+      ["가라오케 가자. → 노래방 가자.", "In Korea 가라오케 is dated or refers to a hostess bar; the standard friends'-night booth is a 노래방.", "Use 노래방 (or 코노) for the ordinary karaoke room."],
+      ["노래 한 곡 했어요. → 노래 한 곡 불렀어요.", "Songs are sung with 부르다, not done with 하다; 곡 is the counter you pair with 부르다.", "Use 노래를 부르다 / 한 곡 부르다."]
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +295,25 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["찜질방에 가다", "to go to a jjimjilbang", "the standard phrase for the outing"],
-      ["찜질복", "jjimjilbang clothes", "the matching shirt-and-shorts set they hand you"],
-      ["식혜", "sweet rice drink", "the signature snack-bar drink, paired with 삶은 계란"],
-      ["수면실", "sleeping room", "수면 = sleep; you can stay overnight in many"]
+      ["찜질방에 가다", "to go to a jjimjilbang", "the standard outing phrase; the venue takes 가다"],
+      ["찜질복", "jjimjilbang clothes", "the matching shirt-and-shorts set they hand you to wear"],
+      ["수면실", "sleeping room", "수면(睡眠) = sleep + 실(室) = room; you can stay overnight in many"],
+      ["식혜", "sweet rice drink", "the signature snack-bar drink, paired with 삶은 계란 (boiled eggs)"]
     ],
     "examples": [
-      ["주말에 찜질방 가서 푹 쉬었어요.", "I went to a jjimjilbang on the weekend and rested deeply.", "푹 쉬다 = to rest fully/deeply; the whole point of going"],
-      ["찜질방에서 양머리 수건 만들 줄 알아요?", "Do you know how to make the 'sheep-head' towel?", "양머리 = the rolled-towel hat; V-ㄹ 줄 알다 = know how to"],
-      ["밤새 찜질방에서 자도 돼요?", "Is it okay to sleep at the jjimjilbang all night?", "밤새 = all night; V-아/어도 돼요? = is it okay to?"]
+      ["저는 찜질방을 좋아해요.", "I like jjimjilbang.", "the basic frame; the place as object of 좋아하다"],
+      ["주말에 찜질방 가서 푹 쉬었어요.", "I went to a jjimjilbang on the weekend and rested deeply.", "푹 쉬다 = to rest fully/deeply, the whole point of going; -아서 chains the two actions"],
+      ["밤새 찜질방에서 자도 돼요?", "Is it okay to sleep at the jjimjilbang all night?", "밤새 = all night long; V-아/어도 돼요? = 'is it okay to …?'"]
     ],
-    "nuance": "A 찜질방 is a 24-hour Korean sauna/spa where you wear a 찜질복, sweat in heated 한증막 rooms, and can sleep overnight in a 수면실. The iconic experience is the 양머리 towel and 식혜 with 삶은 계란. A cheap, very Korean way to relax or even crash for the night.",
-    "mistakes": ["Confusing 찜질방 (heated communal sauna complex) with 목욕탕 (plain public bathhouse)", "Wearing your own clothes in the common areas — you change into the provided 찜질복"]
+    "nuance": "찜질방 is a Korean compound: 찜질 'applying heat/a hot compress' + 방 'room' — a 24-hour heated sauna/spa complex where you change into a 찜질복, sweat in heated 한증막 rooms, snack on 식혜 with 삶은 계란, and can even sleep over in a 수면실. The pitfall is treating it as a synonym of 목욕탕(沐浴湯): a 목욕탕 is a plain public bathhouse for washing/soaking in hot tubs, whereas a 찜질방 adds the dry heated 찜질 rooms, communal lounge areas, food, and overnight sleeping — much bigger in scope. Also note 찜질방 (the venue) vs 사우나 (a sauna, which may be just a sweat room inside a 목욕탕 or hotel). A cheap, very Korean way to relax or crash for the night.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "찜질방 is a Korean compound: 찜질 'applying heat/a hot compress' + 방 'room' — a 24-hour heated sauna/spa complex where you change into a 찜질복, sweat in heated 한증막 rooms, snack on 식혜 with 삶은 계란, and can even sleep over in a 수면실. A cheap, very Korean way to relax or crash for the night."},
+      {"k": "비슷한 말", "e": "VS", "t": "The pitfall is treating it as a synonym of 목욕탕(沐浴湯): a 목욕탕 is a plain public bathhouse for washing/soaking in hot tubs, whereas a 찜질방 adds the dry heated 찜질 rooms, communal lounge areas, food, and overnight sleeping — much bigger in scope. Also note 찜질방 (the venue) vs 사우나 (a sauna, which may be just a sweat room inside a 목욕탕 or hotel)."}
+    ],
+    "mistakes": [
+      ["목욕탕에서 찜질하고 잘게요 (expecting a 찜질방). → 찜질방에 갈게요.", "A 목욕탕 is a wash-and-soak bathhouse; the heated 찜질 rooms, lounge, food and overnight sleeping are features of a 찜질방.", "Say 찜질방 when you want the sauna-spa complex."],
+      ["제 옷 입고 들어가도 돼요? → 찜질복으로 갈아입어야 해요.", "In the common areas you wear the provided matching 찜질복, not your own clothes.", "Change into the 찜질복."]
+    ]
   },
   {
     "kind": "noun",
@@ -238,17 +323,25 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["동호회에 가입하다", "to join a club", "가입하다 = to sign up/join (a group)"],
+      ["동호회에 가입하다", "to join a club", "가입하다(加入) = to sign up/join an organization; takes 에"],
       ["테니스 동호회", "tennis club", "any hobby + 동호회 names an adult interest group"],
-      ["정기 모임", "regular meetup", "정기 = regular/scheduled; clubs meet on a set day"],
-      ["회비", "membership/dues fee", "회비 = the fee members chip in for the group"]
+      ["정기 모임", "regular meetup", "정기(定期) = scheduled/regular; clubs gather on a set day"],
+      ["회비", "membership dues", "회비(會費) = the fee members chip in to run the group"]
     ],
     "examples": [
-      ["등산 동호회에 가입해서 사람 많이 사귀었어요.", "I joined a hiking club and made a lot of friends.", "사귀다 = to make/befriend; a top reason people join"],
-      ["동호회 회비가 한 달에 만 원이에요.", "The club dues are 10,000 won a month.", "한 달에 = per month; 회비 framed as monthly cost"],
-      ["이 동호회는 직장인들이 많아요.", "This club has a lot of working professionals.", "직장인 = office worker/professional; common club demographic"]
+      ["저는 등산 동호회에 가입했어요.", "I joined a hiking club.", "the basic frame; 동호회 + 에 + 가입하다, the fixed 'join' pattern"],
+      ["동호회 회비가 한 달에 만 원이에요.", "The club dues are 10,000 won a month.", "한 달에 = per month; 회비 framed as a recurring monthly cost"],
+      ["이 동호회는 직장인들이 많아요.", "This club has a lot of working professionals.", "직장인(職場人) = office worker/professional, a common club demographic"]
     ],
-    "nuance": "A 동호회 is an adult hobby/interest club (sports, photography, etc.) — the main way 20-30s residents meet people outside work and school. You 가입하다 (join), pay 회비 (dues), and attend the 정기 모임. Slightly more organized and lasting than a one-off 모임; a college version is the 동아리.",
-    "mistakes": ["Using 동아리 for an adult club — 동아리 is a school/university circle; adults join a 동호회", "Saying 동호회를 들어가다 literally — the natural verb is 가입하다"]
+    "nuance": "동호회(同好會) is Sino-Korean — 同 'same' + 好 'liking' + 會 'association', literally 'a society of people who like the same thing': an adult hobby/interest club (sports, photography, hiking) that is the main way working 20-30s meet people outside the office. The sharp contrast to learn is 동호회 vs 동아리: a 동아리 is a school/university circle for students, while adults join a 동호회, so don't use 동아리 for your office tennis group. Also distinguish the lasting, organized 동호회 from a one-off 모임 (a single get-together/meeting). Verb-wise you 가입하다 ('join/sign up', 加入) — not the literal 들어가다 ('go inside') — then pay 회비 (dues) and attend the 정기 모임.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "동호회 is an adult hobby/interest club (sports, photography, hiking) that is the main way working 20-30s meet people outside the office. Verb-wise you 가입하다 ('join/sign up', 加入) — not the literal 들어가다 ('go inside') — then pay 회비 (dues) and attend the 정기 모임."},
+      {"k": "비슷한 말", "e": "VS", "t": "The sharp contrast to learn is 동호회 vs 동아리: a 동아리 is a school/university circle for students, while adults join a 동호회, so don't use 동아리 for your office tennis group. Also distinguish the lasting, organized 동호회 from a one-off 모임 (a single get-together/meeting)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "동호회(同好會) is Sino-Korean — 同 'same' + 好 'liking' + 會 'association', literally 'a society of people who like the same thing'."}
+    ],
+    "mistakes": [
+      ["회사 동아리에 가입했어요 (an adult club). → 회사 동호회에 가입했어요.", "동아리 is specifically a school/college circle; adult interest clubs are 동호회. Using 동아리 for a grown-ups' group sounds off.", "Adults' club = 동호회; students' circle = 동아리."],
+      ["동호회를 들어갔어요. → 동호회에 가입했어요.", "Joining an organization uses 가입하다 with the particle 에; the literal 들어가다 ('enter a space') doesn't fit membership.", "Use 동호회에 가입하다."]
+    ]
   }
 ]

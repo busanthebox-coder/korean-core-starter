@@ -27,7 +27,7 @@
   .arr { color: var(--accent); font-size: 13px; opacity: 0; transform: translateX(-5px); transition: opacity .14s, transform .14s; }
   .entry:hover .arr { opacity: 1; transform: translateX(0); }
 
-  .ko { font-size: 26px; font-weight: 800; color: var(--ink); letter-spacing: -.015em; line-height: 1.1; margin-top: 7px; transition: color .12s; }
+  .ko { font-family: var(--serif-ko); font-size: 27px; font-weight: 600; color: var(--ink); letter-spacing: -.01em; line-height: 1.12; margin-top: 7px; transition: color .12s; }
   .entry:hover .ko { color: var(--accent-ink); }
   .en { color: var(--ink-2); font-size: 14px; margin-top: 3px; }
 </style>

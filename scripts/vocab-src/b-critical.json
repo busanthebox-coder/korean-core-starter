@@ -9,16 +9,43 @@
     "usage": [
       ["아파요", "it hurts / I'm sick", "ㅡ drops → 아파요"],
       ["머리가 아파요", "I have a headache", "body part + 이/가 + 아파요"],
-      ["많이 아파요", "I'm really sick", "많이 + 아파요"],
-      ["어디가 아파요?", "where does it hurt?", "asking about symptoms"]
+      ["많이 아파요", "I'm really sick", "많이 (a lot) intensifies degree"],
+      ["어디가 아파요?", "where does it hurt?", "어디가 asks the spot, the doctor's opener"]
     ],
     "examples": [
-      ["저 오늘 좀 아파요.", "I'm a little sick today.", "feeling unwell"],
-      ["배가 아파서 학교에 못 갔어요.", "My stomach hurt so I couldn't go to school.", "아파서 = because it hurts"],
-      ["목이 아파요. 약 있어요?", "My throat hurts. Do you have medicine?", "at the pharmacy"]
+      ["저 오늘 좀 아파요.", "I'm a little sick today.", "좀 softens it to 'a bit' — telling someone you feel off"],
+      ["배가 아파서 학교에 못 갔어요.", "My stomach hurt so I couldn't go to school.", "아파서 = the reason; pairs naturally with 못 갔어요"],
+      ["많이 아프시면 병원에 꼭 가 보세요.", "If it hurts a lot, please be sure to see a doctor.", "아프시면 adds 시 to respect the listener's body"]
     ],
-    "nuance": "아프다 means both 'to hurt' (a body part) and 'to be sick'. In Korean it is an adjective, so you say 아파요, not 아파해요. To say what hurts, use 부위 + 이/가 아파요, like 머리가 아파요.",
-    "mistakes": ["Saying 아프해요 — 아프다 is an adjective, so use 아파요.", "Forgetting the ㅡ drops: it is 아파요, not 아프어요."]
+    "nuance": "아프다 covers both a specific body part hurting (배가 아파요 = my stomach hurts) and the whole-body state of being unwell/sick. The crucial point for English speakers: it is a descriptive adjective, not an action verb, so you describe yourself as 아파요, never 아파해요 — that -해요 ending belongs to verbs like 좋아해요. To say WHAT hurts, the hurting part takes the subject particle 이/가, not 을/를: 머리가 아파요, never 머리를 아파요, because nothing is doing an action to the head; the head simply is in a hurting state. The stem 아프- is ㅡ-irregular: before the -아/어 ending the bare ㅡ drops and, because the remaining vowel ㅏ is bright, 아 is chosen, giving 아 + 아 → 아파요 (not 아프어요). Compare 아프다 with 슬프다 (sad): both are emotional/physical states ending in -프다 and both drop ㅡ the same way (슬퍼요), so once you master 아파요 the pattern transfers. Note the polite/respectful form for an elder is 편찮으세요, a separate honorific word you would use instead of 아프세요 for grandparents.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "아프다 covers both a specific body part hurting (배가 아파요 = my stomach hurts) and the whole-body state of being unwell/sick. The polite/respectful form for an elder is 편찮으세요, a separate honorific word you would use instead of 아프세요 for grandparents."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare 아프다 with 슬프다 (sad): both are emotional/physical states ending in -프다 and both drop ㅡ the same way (슬퍼요), so once you master 아파요 the pattern transfers."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The stem 아프- is ㅡ-irregular: before the -아/어 ending the bare ㅡ drops and, because the remaining vowel ㅏ is bright, 아 is chosen, giving 아 + 아 → 아파요 (not 아프어요).",
+        "chips": ["아파요", "아파서", "아파요(과거 아팠어요)"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "It is a descriptive adjective, not an action verb, so you describe yourself as 아파요, never 아파해요 — that -해요 ending belongs to verbs like 좋아해요. To say WHAT hurts, the hurting part takes the subject particle 이/가, not 을/를: 머리가 아파요, never 머리를 아파요, because nothing is doing an action to the head; the head simply is in a hurting state."
+      }
+    ],
+    "mistakes": [
+      "Saying 아파해요 — 아프다 is an adjective, so the plain polite form is 아파요. -해요 only attaches to verbs, so 아파해요 sounds like you are 'doing' hurt, which is wrong.",
+      "Marking the body part with 을/를, e.g. 머리를 아파요. The hurting part is the subject of the state, so it must be 머리가 아파요 with 이/가.",
+      "Writing 아프어요 by adding the ending mechanically. The ㅡ of 아프- drops before -아/어, and the bright vowel rule gives 아파요."
+    ]
   },
   {
     "kind": "adjective",
@@ -28,18 +55,45 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-irregular-stems"],
     "usage": [
-      ["더러워요", "it's dirty", "ㅂ-irregular → 더러워요"],
-      ["손이 더러워요", "my hands are dirty", "body part + 이/가"],
-      ["방이 너무 더러워요", "the room is so dirty", "너무 + 더러워요"],
-      ["더러운 옷", "dirty clothes", "modifier 더러운"]
+      ["더러워요", "it's dirty", "ㅂ-irregular: ㅂ → 우 → 더러워요"],
+      ["손이 더러워요", "my hands are dirty", "the dirty thing takes 이/가"],
+      ["너무 더러워요", "it's so dirty", "너무 marks an over-the-line degree"],
+      ["더러운 옷", "dirty clothes", "modifier form 더러운 + noun"]
     ],
     "examples": [
-      ["손이 더러워요. 씻고 오세요.", "Your hands are dirty. Go wash them.", "ㅂ-irregular 더러워요"],
-      ["바닥이 더러워서 청소했어요.", "The floor was dirty so I cleaned it.", "더러워서 = because it's dirty"],
-      ["이 컵은 더러우니까 다른 거 주세요.", "This cup is dirty, so please give me another one.", "더러우니까"]
+      ["손이 더러워요. 씻고 오세요.", "Your hands are dirty. Go wash them.", "everyday hygiene reminder; note 더러워요 not 더럽어요"],
+      ["바닥이 더러워서 청소했어요.", "The floor was dirty so I cleaned it.", "더러워서 gives the cause, leading to the action 청소했어요"],
+      ["이 컵은 더러우니까 다른 거 주세요.", "This cup is dirty, so please give me another one.", "더러우니까 = 'since it's dirty', justifying a request"]
     ],
-    "nuance": "더럽다 is a ㅂ-irregular adjective: the ㅂ turns into 우, giving 더러워요 and the modifier 더러운. Its opposite is 깨끗하다 (clean).",
-    "mistakes": ["Saying 더럽어요 — it is a ㅂ-irregular, so 더러워요.", "The modifier is 더러운 N, not 더럽은 N."]
+    "nuance": "더럽다 is the everyday word for physically dirty/filthy — a smudged hand, a grimy floor, an unwashed cup. Its clean opposite is 깨끗하다 (clean), and the near-synonym to keep apart is 지저분하다: 더럽다 stresses actual filth/grime (sticky, stained, germy), while 지저분하다 leans toward 'messy/cluttered/untidy' — a desk piled with papers is 지저분해요 even if nothing is grimy, whereas a toilet is 더러워요. 더럽다 is a ㅂ-irregular adjective: before a vowel ending the final ㅂ of the stem changes to 우, so 더럽- + -어요 → 더러워요, and the noun-modifying form is 더러운 N (더러운 옷), never 더럽은. Beyond the literal sense, Koreans also use 더럽다 figuratively for a 'foul/rotten' temper or situation — 성격이 더럽다 means someone has a nasty disposition — so context decides whether it is hygiene or attitude. The English-speaker pitfall is treating it like a regular stem and producing 더럽어요/더럽은; the ㅂ MUST soften to 우. Compare with 춥다 (cold) and 무겁다 (heavy), which conjugate identically (추워요, 무거워요), so the whole ㅂ-irregular family follows one rule.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "더럽다 is the everyday word for physically dirty/filthy — a smudged hand, a grimy floor, an unwashed cup. Beyond the literal sense, Koreans also use 더럽다 figuratively for a 'foul/rotten' temper or situation — 성격이 더럽다 means someone has a nasty disposition — so context decides whether it is hygiene or attitude."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its clean opposite is 깨끗하다 (clean), and the near-synonym to keep apart is 지저분하다: 더럽다 stresses actual filth/grime (sticky, stained, germy), while 지저분하다 leans toward 'messy/cluttered/untidy' — a desk piled with papers is 지저분해요 even if nothing is grimy, whereas a toilet is 더러워요."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "더럽다 is a ㅂ-irregular adjective: before a vowel ending the final ㅂ of the stem changes to 우, so 더럽- + -어요 → 더러워요, and the noun-modifying form is 더러운 N (더러운 옷), never 더럽은.",
+        "chips": ["더러워요", "더러워서", "더러우니까", "더러운"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is treating it like a regular stem and producing 더럽어요/더럽은; the ㅂ MUST soften to 우. Compare with 춥다 (cold) and 무겁다 (heavy), which conjugate identically (추워요, 무거워요), so the whole ㅂ-irregular family follows one rule."
+      }
+    ],
+    "mistakes": [
+      "Saying 더럽어요 — 더럽다 is a ㅂ-irregular, so the ㅂ becomes 우 and the form is 더러워요.",
+      "Using the modifier 더럽은 N. The correct noun-modifying form is 더러운 N, e.g. 더러운 옷.",
+      "Reaching for 더럽다 when you mean cluttered/messy. A room strewn with stuff but not grimy is better described as 지저분하다; reserve 더럽다 for genuine filth."
+    ]
   },
   {
     "kind": "adjective",
@@ -49,18 +103,44 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-modifier-nl"],
     "usage": [
-      ["재미있어요", "it's fun / interesting", "있다 → 있어요"],
-      ["정말 재미있어요", "it's really fun", "정말 + 재미있어요"],
-      ["재미있는 영화", "a fun movie", "modifier 재미있는"],
-      ["하나도 안 재미있어요", "it's not fun at all", "안 + 재미있어요"]
+      ["재미있어요", "it's fun / interesting", "conjugates like 있다 → 재미있어요"],
+      ["정말 재미있어요", "it's really fun", "정말 (really) boosts the degree"],
+      ["재미있는 영화", "a fun movie", "있다-type modifier is 재미있는, not 재미있은"],
+      ["하나도 안 재미있어요", "it's not fun at all", "하나도 + 안 = 'not even a bit'"]
     ],
     "examples": [
-      ["이 게임 진짜 재미있어요!", "This game is really fun!", "reacting"],
-      ["한국어 공부가 재미있어요.", "Studying Korean is fun.", "subject + 이/가"],
-      ["어제 본 영화가 재미있었어요.", "The movie I saw yesterday was fun.", "past 재미있었어요"]
+      ["이 게임 진짜 재미있어요!", "This game is really fun!", "casual reaction; 진짜 = 'for real' in speech"],
+      ["한국어 공부가 재미있어요.", "Studying Korean is fun.", "the thing judged fun takes 이/가, not 을/를"],
+      ["어제 본 영화가 재미있었어요.", "The movie I saw yesterday was fun.", "past tense 재미있었어요 from 재미있- + -었어요"]
     ],
-    "nuance": "재미있다 (fun/interesting) is 재미 (fun) + 있다 (to exist), so it conjugates like 있다: 재미있어요. The modifier is 재미있는 N, and the opposite is 재미없다 (boring).",
-    "mistakes": ["Saying 재미있다요 or 재미있아요 — it follows 있다, so 재미있어요.", "Confusing it with 재미없다, which is the opposite (boring)."]
+    "nuance": "재미있다 is literally 재미 (fun, enjoyment) + 있다 (to exist) — 'fun exists [in it]' — which is exactly why it conjugates like 있다 and gives 재미있어요, and why the noun-modifying form is the 있다-style 재미있는 N (재미있는 영화), never 재미있은. It spans both English 'fun' and 'interesting': a party, a game, or a class can all be 재미있어요, so let context choose the English. The near-synonym to separate is 재미있다 vs 흥미롭다: 재미있다 is the warm, everyday 'enjoyable/entertaining' you say about a movie or a friend, while 흥미롭다 is a cooler, more bookish 'intriguing/of interest' you might use for a research finding or a phenomenon — calling a thrilling roller coaster 흥미로워요 sounds oddly academic. Its direct opposite is the single word 재미없다 (재미 + 없다, 'fun does not exist') = boring; do not say 안 재미있다 as your default negative — 재미없어요 is the natural 'it's boring', and 안 재미있어요 reads more like 'it's not [particularly] fun'. The big English-speaker pitfall is the conjugation: because the headword ends in 있다, learners over-apply -하다 or vowel rules and produce 재미있다요 or 재미있아요; the only correct polite form is 재미있어요, with past 재미있었어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "It spans both English 'fun' and 'interesting': a party, a game, or a class can all be 재미있어요, so let context choose the English."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym to separate is 재미있다 vs 흥미롭다: 재미있다 is the warm, everyday 'enjoyable/entertaining' you say about a movie or a friend, while 흥미롭다 is a cooler, more bookish 'intriguing/of interest' you might use for a research finding or a phenomenon — calling a thrilling roller coaster 흥미로워요 sounds oddly academic. Its direct opposite is the single word 재미없다 (재미 + 없다, 'fun does not exist') = boring; do not say 안 재미있다 as your default negative — 재미없어요 is the natural 'it's boring', and 안 재미있어요 reads more like 'it's not [particularly] fun'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "재미있다 is literally 재미 (fun, enjoyment) + 있다 (to exist) — 'fun exists [in it]' — which is exactly why it conjugates like 있다 and gives 재미있어요, and why the noun-modifying form is the 있다-style 재미있는 N (재미있는 영화), never 재미있은."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big English-speaker pitfall is the conjugation: because the headword ends in 있다, learners over-apply -하다 or vowel rules and produce 재미있다요 or 재미있아요; the only correct polite form is 재미있어요, with past 재미있었어요."
+      }
+    ],
+    "mistakes": [
+      "Saying 재미있다요 or 재미있아요 — it inherits 있다's pattern, so the polite form is 재미있어요 and the past is 재미있었어요.",
+      "Forming the modifier as 재미있은 N. 있다-type stems take -는, so it is 재미있는 영화.",
+      "Defaulting to 안 재미있어요 for 'it's boring'. The natural, idiomatic word is the opposite 재미없어요; 안 재미있어요 is weaker and less common."
+    ]
   },
   {
     "kind": "noun",
@@ -70,17 +150,43 @@
     "chapterIds": ["chapter-02"],
     "grammarIds": [],
     "usage": [
-      ["나이가 어떻게 되세요?", "how old are you? (polite)", "polite way to ask age"],
-      ["나이가 많아요", "to be old (in age)", "나이 + 많다"],
-      ["나이가 같아요", "to be the same age", "나이 + 같다"],
-      ["제 나이는 스무 살이에요", "my age is twenty", "native number + 살"]
+      ["나이가 어떻게 되세요?", "how old are you? (polite)", "the safe, respectful way to ask an adult's age"],
+      ["나이가 많아요", "to be old (in age)", "age uses 많다/적다, never 크다"],
+      ["나이가 같아요", "to be the same age", "나이 + 같다 to compare peers"],
+      ["나이 차이", "age gap / difference", "나이 + 차이 (difference)"]
     ],
     "examples": [
-      ["나이가 어떻게 되세요?", "May I ask how old you are?", "polite question to an adult"],
-      ["우리는 나이가 같아요.", "We are the same age.", "나이가 같다"],
-      ["나이보다 어려 보여요.", "You look younger than your age.", "나이보다"]
+      ["나이가 어떻게 되세요?", "May I ask how old you are?", "polite question to an adult or stranger"],
+      ["우리는 나이가 같아서 말 편하게 해요.", "We're the same age, so we speak casually.", "same age (나이가 같다) often licenses 반말"],
+      ["나이보다 어려 보이세요.", "You look younger than your age.", "나이보다 = 'than [your] age', a common compliment"]
     ],
-    "nuance": "나이 means age. To ask politely, use 나이가 어떻게 되세요? rather than the blunt 몇 살이에요? (fine for kids or close friends). Korean age uses native numbers + 살, like 스무 살.",
-    "mistakes": ["Asking an elder 몇 살이에요? can sound rude — use 나이가 어떻게 되세요?.", "Age uses native numbers + 살: 스무 살, not 이십 살."]
+    "nuance": "나이 is the native Korean word for a person's age, and it sits at the center of Korean social life because age sets who speaks formally to whom. Register is everything: to an adult, an elder, or a stranger you ask 나이가 어떻게 되세요? (or even more deferential 연세가 어떻게 되세요?, using the honorific 연세 for grandparents), while the blunt 몇 살이에요? is reserved for children or close friends — asking your boss 몇 살이에요? sounds rude. The near-synonym pair is 나이 vs 연세: same meaning, but 연세 (年歲, Sino-Korean) is the respectful 'years' you grant to someone older, so you raise the register by swapping the word, not by adding an ending. Crucially, age is measured with 많다/적다, not size words: 나이가 많아요 = 'is old', 나이가 적어요 = 'is young' — never 나이가 커요, a direct-translation trap from English 'big'. When you state an actual number, age takes NATIVE numbers + the counter 살: 스무 살 (20), 서른 살 (30) — saying 이십 살 with Sino-Korean numbers is a classic beginner error. One more pitfall: the verb is 되세요 (from 되다, 'to become/amount to'), so 어떻게 되세요? literally asks 'how does it come to be?' — treat the whole phrase as a fixed polite formula rather than translating it word by word.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "나이 is the native Korean word for a person's age, and it sits at the center of Korean social life because age sets who speaks formally to whom. Register is everything: to an adult, an elder, or a stranger you ask 나이가 어떻게 되세요? (or even more deferential 연세가 어떻게 되세요?, using the honorific 연세 for grandparents), while the blunt 몇 살이에요? is reserved for children or close friends — asking your boss 몇 살이에요? sounds rude."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym pair is 나이 vs 연세: same meaning, but 연세 is the respectful 'years' you grant to someone older, so you raise the register by swapping the word, not by adding an ending."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "연세 is 年歲 (Sino-Korean), the honorific 'years' used for someone clearly older."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Age is measured with 많다/적다, not size words: 나이가 많아요 = 'is old', 나이가 적어요 = 'is young' — never 나이가 커요, a direct-translation trap from English 'big'. When you state an actual number, age takes NATIVE numbers + the counter 살: 스무 살 (20), 서른 살 (30) — saying 이십 살 with Sino-Korean numbers is a classic beginner error. One more pitfall: the verb is 되세요 (from 되다, 'to become/amount to'), so 어떻게 되세요? literally asks 'how does it come to be?' — treat the whole phrase as a fixed polite formula rather than translating it word by word."
+      }
+    ],
+    "mistakes": [
+      "Asking an elder or superior 몇 살이에요? — it sounds blunt or childish. Use 나이가 어떻게 되세요?, or 연세가 어떻게 되세요? for someone clearly older.",
+      "Saying 나이가 커요 to mean 'old'. Age pairs with 많다/적다, so it must be 나이가 많아요 (old) / 나이가 적어요 (young).",
+      "Counting age with Sino-Korean numbers, e.g. 이십 살. Korean age uses native numbers + 살: 스무 살, 서른 살."
+    ]
   }
 ]

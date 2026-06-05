@@ -10,47 +10,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "통장을 만들었어요",
-        "I opened a bank account",
-        "만들다 is used for opening an account"
+        "통장을 만들다",
+        "to open a bank account",
+        "Korean uses 만들다 (make), not 열다 (open), for accounts"
       ],
       [
-        "통장에 돈을 넣어요",
-        "I put money in the account",
-        "에 marks the destination"
+        "통장에 돈을 넣다",
+        "to put money in the account",
+        "에 marks the account as the destination of the money"
       ],
       [
         "월급 통장",
         "salary account",
-        "the account your pay lands in"
+        "the account your monthly pay lands in; a fixed compound"
       ],
       [
         "통장 사본",
         "a copy of the bankbook",
-        "often needed for paperwork"
+        "사본 (寫本) = duplicate copy, often required for paperwork"
       ]
     ],
     "examples": [
       [
-        "은행에서 통장을 새로 만들었어요.",
-        "I opened a new bank account at the bank.",
-        "외국인등록증이 있으면 가능해요"
+        "통장 하나 만들고 싶어요.",
+        "I'd like to open one bank account.",
+        "하나 + 만들다 is the plain counter way to say 'open one'"
       ],
       [
         "월급이 통장에 들어왔어요.",
         "My salary came into my account.",
-        "들어오다 for money arriving"
+        "들어오다 (come in) is the verb for money arriving"
       ],
       [
-        "회사에서 통장 사본을 달라고 했어요.",
-        "My company asked for a copy of my bankbook.",
-        "common for setting up payroll"
+        "회사에서 통장 사본을 달라고 했는데 어떻게 뽑아요?",
+        "My company asked for a copy of my bankbook — how do I print one?",
+        "real payroll-setup situation; 뽑다 = print out"
       ]
     ],
-    "nuance": "통장 literally means the little passbook but everyone uses it to mean a bank account in daily speech, as in 월급 통장 or 통장 잔액. The more formal word 계좌 shows up on official forms and in app menus, but in conversation 통장 is far more common.",
+    "nuance": "통장 (通帳, 'pass-through ledger') is literally the small paper passbook a bank prints transactions in, but in everyday speech it simply means your bank account — 월급 통장, 통장에 돈이 없어요. Its near-synonym 계좌 (口座) is the formal, technical word that appears on official forms and app menus; the dividing line is register, not meaning, and a crucial split shows up in compounds: the account NUMBER is always 계좌번호, never '통장번호'. Anyone, friend or banker, can say 통장 comfortably. The English-speaker pitfall is twofold: don't pair it with 열다 ('open') as English does — Koreans 만들다 (make) a 통장 — and don't import 어카운트 or 'account number'; reach for 통장 in chat and 계좌번호 when reading out the digits.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "통장 is literally the small paper passbook a bank prints transactions in, but in everyday speech it simply means your bank account — 월급 통장, 통장에 돈이 없어요. Anyone, friend or banker, can say 통장 comfortably."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its near-synonym 계좌 is the formal, technical word that appears on official forms and app menus; the dividing line is register, not meaning. A crucial split shows up in compounds: the account NUMBER is always 계좌번호, never '통장번호'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "通帳 means 'pass-through ledger'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is twofold: don't pair it with 열다 ('open') as English does — Koreans 만들다 (make) a 통장 — and don't import 어카운트 or 'account number'; reach for 통장 in chat and 계좌번호 when reading out the digits."
+      }
+    ],
     "mistakes": [
-      "Saying 통장 번호 when you mean the account number, which is properly 계좌 번호",
-      "Using 어카운트 in English instead of the natural 통장"
+      "Saying 통장 번호 for the account number — that slot belongs to 계좌, so the correct form is 계좌번호.",
+      "Using 통장을 열다 by analogy with English 'open an account'; Koreans say 통장을 만들다.",
+      "Reaching for English 어카운트; in both casual and formal Korean the native word 통장/계좌 is expected."
     ]
   },
   {
@@ -64,47 +87,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "체크카드로 결제해요",
-        "I pay with my debit card",
-        "로 marks the means of payment"
+        "체크카드로 결제하다",
+        "to pay by debit card",
+        "로 marks the card as the means of payment"
       ],
       [
-        "체크카드를 발급받았어요",
-        "I got a debit card issued",
-        "발급받다 for being issued a card"
+        "체크카드를 발급받다",
+        "to be issued a debit card",
+        "발급받다 (發給) is the set verb for being issued a card/document"
       ],
       [
         "체크카드 한도",
         "debit card limit",
-        "tied to your account balance"
+        "한도 (限度) here is capped by your balance, not by credit"
       ],
       [
-        "체크카드가 안 돼요",
-        "my debit card isn't working",
-        "when payment is declined"
+        "체크카드가 안 되다",
+        "for the debit card to not work",
+        "안 되다 is the everyday way to say a payment is declined"
       ]
     ],
     "examples": [
       [
         "저는 보통 체크카드로 계산해요.",
         "I usually pay with my debit card.",
-        "calmer on the budget than 신용카드"
+        "계산하다 (pay/settle) pairs naturally with 카드로"
       ],
       [
         "통장에 돈이 없어서 체크카드가 안 됐어요.",
         "My debit card was declined because my account was empty.",
-        "debit pulls straight from 통장"
+        "shows the cause-and-effect: 체크카드 draws straight from the 통장"
       ],
       [
-        "체크카드는 만들기 쉬워요.",
-        "A debit card is easy to get.",
-        "easier than a credit card for newcomers"
+        "외국인등록증만 있으면 체크카드는 바로 발급받을 수 있어요.",
+        "If you just have your residence card, you can get a debit card issued on the spot.",
+        "real bank-counter situation for newcomers; ~만 있으면 = 'as long as you have'"
       ]
     ],
-    "nuance": "체크카드 is a debit card that pulls money directly from your 통장 the moment you pay, so you can only spend what you have. For newcomers it is much easier to get than a 신용카드, which is why most foreigners start with one.",
+    "nuance": "체크카드 is a debit card: the instant you pay, the money is pulled straight out of your linked 통장, so you can never spend more than you actually have. Compare it sharply with its partner 신용카드 (credit card), which lets you spend now and pay the bill next month — the dividing line is timing of the money, immediate withdrawal versus deferred billing. The word is a Konglish coinage ('check' + 카드) and is the only natural name; Koreans rarely say 데빗카드. Because issuance only requires a balance and no credit check, banks hand 체크카드 to recent arrivals easily, which is why most foreigners start here. The pitfall for English speakers is assuming any card offers a credit buffer — a 체크카드 has none, so '잔액이 부족하면' it simply declines.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "체크카드 is a debit card: the instant you pay, the money is pulled straight out of your linked 통장, so you can never spend more than you actually have. Because issuance only requires a balance and no credit check, banks hand 체크카드 to recent arrivals easily, which is why most foreigners start here."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare it sharply with its partner 신용카드 (credit card), which lets you spend now and pay the bill next month — the dividing line is timing of the money, immediate withdrawal versus deferred billing."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The word is a Konglish coinage ('check' + 카드) and is the only natural name; Koreans rarely say 데빗카드."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is assuming any card offers a credit buffer — a 체크카드 has none, so '잔액이 부족하면' it simply declines."
+      }
+    ],
     "mistakes": [
-      "Calling it a 데빗카드, which Koreans rarely say; the normal word is 체크카드",
-      "Assuming 체크카드 lets you spend on credit like a 신용카드"
+      "Calling it a 데빗카드 from English 'debit card'; Koreans overwhelmingly say 체크카드.",
+      "Expecting a 체크카드 to let you overspend like a 신용카드 — it can only draw what's already in your 통장.",
+      "Saying 체크카드를 사다 ('buy a debit card'); a card is 발급받다 (issued), not bought."
     ]
   },
   {
@@ -118,47 +164,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "신용카드로 긁어요",
-        "I swipe with a credit card",
-        "긁다 is casual for paying by card"
+        "신용카드로 긁다",
+        "to swipe a credit card",
+        "긁다 (scratch) is the casual, slangy verb for paying by card"
       ],
       [
-        "신용카드를 신청했어요",
-        "I applied for a credit card",
-        "신청하다 for applying"
+        "신용카드를 신청하다",
+        "to apply for a credit card",
+        "신청하다 (申請) = formally apply, because issuance isn't automatic"
       ],
       [
         "신용카드 명세서",
         "credit card statement",
-        "the monthly bill"
+        "명세서 (明細書) is the itemized monthly bill"
       ],
       [
-        "신용카드 발급이 안 돼요",
-        "I can't get a credit card issued",
-        "common hurdle for newcomers"
+        "신용카드 할부",
+        "credit card installments",
+        "할부 (割賦) = splitting a payment over months, a credit-only feature"
       ]
     ],
     "examples": [
       [
+        "이건 신용카드로 살게요.",
+        "I'll buy this with a credit card.",
+        "~로 살게요 is the simple checkout line"
+      ],
+      [
         "신용카드는 다음 달에 결제돼요.",
         "The credit card gets charged next month.",
-        "spending now, paying later"
+        "결제되다 (be settled) captures the 'pay later' nature"
       ],
       [
-        "외국인은 신용카드 만들기가 좀 어려워요.",
-        "It's a bit hard for foreigners to get a credit card.",
-        "banks check 신용 history"
-      ],
-      [
-        "이건 신용카드 할부로 샀어요.",
-        "I bought this in installments on my credit card.",
-        "할부 means installment payment"
+        "외국인은 신용 기록이 없어서 신용카드 만들기가 좀 어려워요.",
+        "Since foreigners have no credit history, getting a credit card is a bit hard.",
+        "real newcomer hurdle; banks check your 신용 기록 (credit record)"
       ]
     ],
-    "nuance": "신용카드 lets you spend now and pay the bill next month, so it relies on your 신용, your credit standing. Banks often hesitate to issue one to recent arrivals, so many people use a 체크카드 until they build a record.",
+    "nuance": "신용카드 (信用카드, 'trust-card') literally builds on 신용 — your creditworthiness, the bank's trust that you'll repay. You spend now and the total is 결제 (settled) next month, which is exactly what separates it from a 체크카드: the credit card defers the bill and depends on your 신용 record, while the debit card deducts instantly and needs none. Because that trust takes time to establish, banks routinely decline recent arrivals, so many residents carry a 체크카드 until they build a history. Natural collocations include 신용카드 할부 (installments) and 신용카드 명세서 (statement). The English-speaker pitfall: don't say 크레딧카드 — the native compound 신용카드 is universal — and remember the verb to apply is 신청하다, since unlike a debit card it is never issued on demand.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "신용카드 literally builds on 신용 — your creditworthiness, the bank's trust that you'll repay. You spend now and the total is 결제 (settled) next month. Natural collocations include 신용카드 할부 (installments) and 신용카드 명세서 (statement)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "What separates it from a 체크카드: the credit card defers the bill and depends on your 신용 record, while the debit card deducts instantly and needs none. Because that trust takes time to establish, banks routinely decline recent arrivals, so many residents carry a 체크카드 until they build a history."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "信用카드 is a 'trust-card', built on 신용 (creditworthiness)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't say 크레딧카드 — the native compound 신용카드 is universal — and remember the verb to apply is 신청하다, since unlike a debit card it is never issued on demand."
+      }
+    ],
     "mistakes": [
-      "Mixing up 신용카드 with 체크카드; the credit card bills you later, the debit card deducts instantly",
-      "Saying 크레딧카드 in English instead of the natural 신용카드"
+      "Confusing 신용카드 with 체크카드 — the credit card bills you next month, the debit card deducts from your 통장 instantly.",
+      "Saying 크레딧카드 in English; the natural word is 신용카드.",
+      "Using 만들다 and assuming approval; a 신용카드 must be 신청하다 (applied for) and can be refused."
     ]
   },
   {
@@ -172,47 +241,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "송금했어요",
-        "I sent the money",
-        "송금하다 as a verb"
+        "송금하다",
+        "to send money",
+        "송금 + 하다 forms the verb; the object often takes 을/를 (돈을 송금하다)"
       ],
       [
         "해외 송금",
         "overseas remittance",
-        "sending money abroad"
-      ],
-      [
-        "송금이 안 돼요",
-        "the transfer won't go through",
-        "when it fails"
+        "해외 (海外) = abroad; the prototypical use of 송금"
       ],
       [
         "송금 수수료",
         "transfer fee",
-        "charged for sending"
+        "수수료 (手數料) is the service charge, steep on 해외 송금"
+      ],
+      [
+        "송금이 안 되다",
+        "for the transfer to fail",
+        "안 되다 covers any failure to go through"
       ]
     ],
     "examples": [
       [
         "친구한테 십만 원 송금했어요.",
         "I transferred 100,000 won to my friend.",
-        "한테 marks the recipient"
+        "한테 marks the human recipient of the money"
       ],
       [
-        "해외 송금은 수수료가 비싸요.",
-        "Overseas remittances have high fees.",
-        "sending money home costs extra"
+        "고향에 돈을 보내려면 해외 송금을 해야 해요.",
+        "To send money to my hometown, I have to do an overseas remittance.",
+        "~려면 = 'in order to'; pairs the casual 보내다 with the formal 송금"
       ],
       [
-        "계좌번호를 알려 주면 바로 송금할게요.",
-        "Give me the account number and I'll transfer it right away.",
-        "need 계좌번호 to send"
+        "계좌번호만 알려 주시면 오늘 바로 송금해 드릴게요.",
+        "If you just give me the account number, I'll transfer it to you today.",
+        "real situation; 송금하다 needs a 계좌번호, and ~해 드릴게요 is polite service speech"
       ]
     ],
-    "nuance": "송금 is the general act of sending money to someone, whether next door or overseas, and it works as a verb with 하다. In casual chat people often just say 보내다 for sending money domestically, but 송금 sounds right for bank transfers and anything 해외.",
+    "nuance": "송금 (送金, literally 'send-money') is the act of sending funds to someone, near or far, and works as a verb with 하다. Its near-synonym is 이체 (account-to-account transfer): the dividing line is focus — 송금 foregrounds sending TO a person (친구한테 송금), while 이체 foregrounds the mechanical move BETWEEN accounts (계좌 이체). In casual domestic chat people often just say 돈 보내다, but 송금 sounds correct for bank wires and is the standard term for anything 해외 (overseas). Collocations: 해외 송금, 송금 수수료, 송금 한도. The English-speaker pitfall is mixing direction — 송금 is money going OUT (you send), whereas 입금 is money coming IN — and overlooking that 해외 송금 normally demands ID and a hefty 수수료.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "송금 is the act of sending funds to someone, near or far, and works as a verb with 하다. In casual domestic chat people often just say 돈 보내다, but 송금 sounds correct for bank wires and is the standard term for anything 해외 (overseas). Collocations: 해외 송금, 송금 수수료, 송금 한도."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its near-synonym is 이체 (account-to-account transfer): the dividing line is focus — 송금 foregrounds sending TO a person (친구한테 송금), while 이체 foregrounds the mechanical move BETWEEN accounts (계좌 이체)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "送金 literally means 'send-money'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is mixing direction — 송금 is money going OUT (you send), whereas 입금 is money coming IN — and overlooking that 해외 송금 normally demands ID and a hefty 수수료."
+      }
+    ],
     "mistakes": [
-      "Confusing 송금 (sending money out) with 입금 (money coming in)",
-      "Forgetting that 해외 송금 usually needs ID and carries a 수수료"
+      "Confusing 송금 (sending money out) with 입금 (money coming into an account).",
+      "Forgetting that 해외 송금 usually requires your ID and carries a real 수수료 (fee).",
+      "Marking the human recipient with 에 (the place particle); a person takes 에게/한테 — say 친구한테 송금했어요."
     ]
   },
   {
@@ -226,47 +318,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "계좌 이체로 보냈어요",
-        "I sent it by bank transfer",
-        "계좌 이체 is the full phrase"
+        "계좌 이체",
+        "account transfer",
+        "the full set phrase you see on apps and ATMs"
       ],
       [
-        "이체했어요",
-        "I transferred it",
-        "이체하다 as a verb"
+        "이체하다",
+        "to transfer (between accounts)",
+        "이체 + 하다; 계좌에서 계좌로 이체하다"
       ],
       [
         "이체 한도",
         "transfer limit",
-        "daily cap on transfers"
+        "한도 (限度) = the daily cap on how much you can move"
       ],
       [
-        "이체가 완료됐어요",
-        "the transfer is complete",
-        "completion message in apps"
+        "이체가 완료되다",
+        "for the transfer to complete",
+        "완료 (完了) is the confirmation wording inside banking apps"
       ]
     ],
     "examples": [
       [
         "월세는 계좌 이체로 보내요.",
         "I send the rent by bank transfer.",
-        "common way to pay 월세"
+        "계좌 이체로 + 보내다 is the standard way to describe paying rent"
       ],
       [
-        "하루 이체 한도가 넘었어요.",
-        "I went over my daily transfer limit.",
-        "banks cap transfer amounts"
+        "하루 이체 한도가 넘어서 더는 못 보내요.",
+        "I've gone over my daily transfer limit, so I can't send more.",
+        "한도가 넘다 = exceed the cap; a very common banking snag"
       ],
       [
-        "앱에서 바로 이체할 수 있어요.",
-        "You can transfer right away in the app.",
-        "mobile banking is standard"
+        "공인인증서로 로그인하면 앱에서 바로 이체할 수 있어요.",
+        "Once you log in with your certificate, you can transfer right away in the app.",
+        "real mobile-banking flow; ~(으)면 sets the condition"
       ]
     ],
-    "nuance": "이체 is moving money from one account to another and almost always appears as 계좌 이체 on bank apps and ATMs. It overlaps with 송금, but 이체 stresses the account-to-account mechanics while 송금 stresses the act of sending to a person.",
+    "nuance": "이체 (移替, 'shift-replace') means moving money from one account to another and almost always appears as 계좌 이체 on bank apps and ATM screens. It overlaps heavily with 송금, and the sharp dividing line is perspective: 이체 stresses the account-to-account mechanics (the money relocates between 계좌), whereas 송금 stresses the act of remitting TO a person. Both take 하다. Do not, however, blur it with 입금 (depositing money INTO an account) — 이체 is the lateral move, 입금 is the inflow. Common collocations: 계좌 이체, 이체 한도, 자동이체. The English-speaker pitfall is treating 'transfer' as one undifferentiated word and forgetting the 이체 한도 — a daily ceiling banks set low on new accounts, which silently blocks a large one-time transfer until you raise it.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이체 means moving money from one account to another and almost always appears as 계좌 이체 on bank apps and ATM screens. It takes 하다. Common collocations: 계좌 이체, 이체 한도, 자동이체."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It overlaps heavily with 송금, and the sharp dividing line is perspective: 이체 stresses the account-to-account mechanics (the money relocates between 계좌), whereas 송금 stresses the act of remitting TO a person. Do not, however, blur it with 입금 (depositing money INTO an account) — 이체 is the lateral move, 입금 is the inflow."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "移替 means 'shift-replace'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is treating 'transfer' as one undifferentiated word and forgetting the 이체 한도 — a daily ceiling banks set low on new accounts, which silently blocks a large one-time transfer until you raise it."
+      }
+    ],
     "mistakes": [
-      "Treating 이체 and 입금 as the same; 이체 moves between accounts, 입금 is depositing in",
-      "Forgetting the 이체 한도 (transfer limit) that blocks large one-time transfers"
+      "Treating 이체 and 입금 as identical; 이체 moves money between accounts, 입금 puts money in.",
+      "Forgetting the 이체 한도 (daily transfer limit) that blocks large one-time transfers on new accounts.",
+      "Saying just 이체 to a person when you mean remitting to them; for a person, 송금/보내다 is more natural."
     ]
   },
   {
@@ -280,47 +395,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "환전했어요",
-        "I exchanged currency",
-        "환전하다 as a verb"
+        "환전하다",
+        "to exchange currency",
+        "환전 + 하다; the thing you swap into takes 로 (달러로 환전하다)"
       ],
       [
         "환전소",
         "currency exchange booth",
-        "where you exchange cash"
-      ],
-      [
-        "달러로 환전해요",
-        "I exchange into dollars",
-        "로 marks the target currency"
+        "소 (所) = place; the manned booth where you swap cash"
       ],
       [
         "환전 수수료",
         "exchange fee",
-        "charged on the exchange"
+        "수수료 (手數料) varies by booth, so it pays to compare"
+      ],
+      [
+        "환율이 좋다",
+        "the exchange rate is good",
+        "환율 (換率) is the rate; 좋다/나쁘다 describe a favorable/poor rate"
       ]
     ],
     "examples": [
       [
+        "여행 가기 전에 환전했어요.",
+        "I exchanged money before going on the trip.",
+        "simple time-clause ~기 전에 = 'before doing'"
+      ],
+      [
         "공항에서 환전하면 환율이 안 좋아요.",
-        "Exchanging at the airport gives a bad rate.",
-        "환율 means exchange rate"
+        "If you exchange at the airport, the rate is bad.",
+        "distinguishes 환전 (the act) from 환율 (the rate) in one breath"
       ],
       [
-        "은행에서 미리 환전해 두세요.",
-        "Exchange your money in advance at the bank.",
-        "아/어 두다 for doing ahead"
-      ],
-      [
-        "명동에 환전소가 많아요.",
-        "There are many exchange booths in Myeongdong.",
-        "known spot for good rates"
+        "명동 환전소가 은행보다 수수료가 싸다고 해서 거기서 바꿨어요.",
+        "I heard the Myeongdong booths charge lower fees than banks, so I changed it there.",
+        "real situation; note casual 바꾸다 standing in for 환전하다"
       ]
     ],
-    "nuance": "환전 is swapping one currency for another, like won into dollars before a trip home. The rate you get is the 환율, and banks or 환전소 booths each apply their own 수수료, so where you exchange genuinely matters.",
+    "nuance": "환전 (換錢, literally 'exchange-money') is swapping one currency for another — won into dollars before a trip home, say — and takes 하다, with the target currency marked by 로 (달러로 환전하다). Keep three look-alikes apart: 환전 is the ACT of changing currency, 환율 (換率) is the exchange RATE you get, and 환불 (還拂) is a totally separate word meaning a refund. In casual speech 돈을 바꾸다 ('change money') often substitutes for 환전하다. Collocations: 해외 환전, 환전 수수료, 환율이 좋다/나쁘다. The English-speaker pitfall is letting 'exchange' collapse 환전 and 환율 into one — and confusing 환전 with the unrelated 환불 — so anchor 환전 to the action and remember each bank or 환전소 sets its own 수수료, which is why where you exchange genuinely matters.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "환전 is swapping one currency for another — won into dollars before a trip home, say — and takes 하다, with the target currency marked by 로 (달러로 환전하다). In casual speech 돈을 바꾸다 ('change money') often substitutes for 환전하다. Collocations: 해외 환전, 환전 수수료, 환율이 좋다/나쁘다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Keep three look-alikes apart: 환전 is the ACT of changing currency, 환율 is the exchange RATE you get, and 환불 is a totally separate word meaning a refund."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "換錢 literally means 'exchange-money'; compare 환율 (換率, the rate) and 환불 (還拂, a refund)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is letting 'exchange' collapse 환전 and 환율 into one — and confusing 환전 with the unrelated 환불 — so anchor 환전 to the action and remember each bank or 환전소 sets its own 수수료, which is why where you exchange genuinely matters."
+      }
+    ],
     "mistakes": [
-      "Mixing up 환전 (changing currency) with 환불 (a refund)",
-      "Confusing 환전 the act with 환율, which is the exchange rate"
+      "Mixing up 환전 (changing currency) with 환불 (getting a refund) — different hanja, different meaning.",
+      "Confusing 환전, the act, with 환율, the exchange rate itself.",
+      "Marking the target currency with 에 instead of the instrumental 로; it's 달러로 환전하다 ('exchange into dollars')."
     ]
   },
   {
@@ -334,47 +472,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "잔액이 부족해요",
+        "잔액이 부족하다",
         "the balance is insufficient",
-        "common error message"
+        "부족하다 (不足) — the exact phrase on decline messages"
       ],
       [
-        "잔액을 확인해요",
-        "I check the balance",
-        "확인하다 for checking"
+        "잔액을 확인하다",
+        "to check the balance",
+        "확인하다 (確認) is the standard verb for checking a figure"
       ],
       [
         "통장 잔액",
         "account balance",
-        "balance in your bankbook"
+        "the amount sitting in your 통장"
       ],
       [
-        "잔액이 얼마예요?",
-        "what's the balance?",
-        "asking how much is left"
+        "잔액 조회",
+        "balance inquiry",
+        "조회 (照會) is the menu wording at ATMs and in apps"
       ]
     ],
     "examples": [
       [
-        "카드 결제가 안 돼요, 잔액이 부족해요.",
-        "The card won't go through; the balance is too low.",
-        "typical decline reason"
+        "지금 잔액이 얼마예요?",
+        "How much is the balance right now?",
+        "simple 얼마예요 question about an amount"
       ],
       [
-        "교통카드 잔액이 천 원 남았어요.",
-        "My transit card has 1,000 won left.",
-        "also used for transit cards"
+        "교통카드 잔액이 천 원밖에 안 남았어요.",
+        "My transit card only has 1,000 won left.",
+        "shows 잔액 used for a transit card; ~밖에 + negative = 'only'"
       ],
       [
-        "앱에서 잔액을 바로 확인할 수 있어요.",
-        "You can check your balance instantly in the app.",
-        "mobile banking"
+        "카드 결제가 안 돼요. 통장 잔액이 부족한가 봐요.",
+        "The card won't go through — I guess the account balance is low.",
+        "real checkout moment; ~(으)ㄴ가 봐요 = 'I guess/it seems'"
       ]
     ],
-    "nuance": "잔액 is the amount of money left, whether in your 통장, on a card, or on a 교통카드. You will hear 잔액이 부족합니다 constantly when a payment is declined, so it is worth knowing by ear.",
+    "nuance": "잔액 (殘額, 'remaining-amount') is the money left over — in your 통장, on a credit card, or on a 교통카드 (transit card) — and you'll hear the recorded line 잔액이 부족합니다 constantly when a payment is declined, so learn it by ear. Distinguish it crisply from 잔돈 (殘돈): 잔액 is the balance remaining in an account, while 잔돈 is the loose CHANGE handed back after you pay cash. The casual phrasing 남은 돈 ('money left') exists in speech, but formal banking contexts — ATMs, apps, tellers — expect 잔액. Collocations: 잔액 부족, 잔액 조회, 통장 잔액. The English-speaker pitfall is reaching for 잔돈 when you mean your account balance, and using conversational 남은 돈 on a form or to a banker where the precise term 잔액 is the natural choice.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "잔액 is the money left over — in your 통장, on a credit card, or on a 교통카드 (transit card) — and you'll hear the recorded line 잔액이 부족합니다 constantly when a payment is declined, so learn it by ear. The casual phrasing 남은 돈 ('money left') exists in speech, but formal banking contexts — ATMs, apps, tellers — expect 잔액. Collocations: 잔액 부족, 잔액 조회, 통장 잔액."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it crisply from 잔돈: 잔액 is the balance remaining in an account, while 잔돈 is the loose CHANGE handed back after you pay cash."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "殘額 means 'remaining-amount'; compare 잔돈 (殘돈)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is reaching for 잔돈 when you mean your account balance, and using conversational 남은 돈 on a form or to a banker where the precise term 잔액 is the natural choice."
+      }
+    ],
     "mistakes": [
-      "Confusing 잔액 (money remaining) with 잔돈 (small change you get back)",
-      "Using 남은 돈 in formal banking contexts where 잔액 is expected"
+      "Confusing 잔액 (money remaining in an account) with 잔돈 (the small change you get back in cash).",
+      "Using 남은 돈 in formal banking contexts where 잔액 is the expected term.",
+      "Saying 잔액이 없다 to mean 'a little low'; 없다 means literally zero — for low-but-not-empty use 부족하다."
     ]
   },
   {
@@ -388,47 +549,75 @@
     "grammarIds": [],
     "usage": [
       [
-        "입금했어요",
-        "I made the deposit",
-        "입금하다 as a verb"
+        "입금하다",
+        "to deposit / pay money in",
+        "입금 + 하다; you 입금하다 into an account marked with 에"
       ],
       [
         "입금 확인",
         "deposit confirmation",
-        "checking money arrived"
-      ],
-      [
-        "입금이 안 됐어요",
-        "the deposit didn't go through",
-        "when it fails"
+        "확인 (確認) — sellers ask for this to verify the money landed"
       ],
       [
         "무통장 입금",
-        "deposit without a bankbook",
-        "paying into an account by ATM"
+        "deposit without a passbook",
+        "무 (無) = without; paying into an account via ATM with no book"
+      ],
+      [
+        "입금이 되다",
+        "for a deposit to go through",
+        "되다 is intransitive — money arrives on its own (입금됐어요)"
       ]
     ],
     "examples": [
       [
-        "보증금을 어제 입금했어요.",
-        "I paid the deposit yesterday.",
-        "paying 보증금 for housing"
+        "방금 입금했어요.",
+        "I just made the deposit.",
+        "방금 (just now) + the past tense is the quick 'it's done' line"
       ],
       [
         "돈 보냈는데 입금 확인 좀 해 주세요.",
         "I sent the money, so please confirm the deposit.",
-        "asking a seller to check"
+        "exact phrase buyers say to sellers in online deals"
       ],
       [
-        "입금이 아직 안 됐어요.",
-        "The deposit hasn't gone through yet.",
-        "still waiting for funds"
+        "보증금은 계약하는 날 집주인 계좌로 입금하면 돼요.",
+        "You can pay the deposit into the landlord's account on the day you sign.",
+        "real housing situation; 계좌로 입금하다 + ~면 되다 ('it's fine to')"
       ]
     ],
-    "nuance": "입금 is money going into an account, the opposite of 출금. Sellers and landlords constantly ask for 입금 확인 to verify your payment landed, and 무통장 입금 (depositing without a passbook) is a normal phrase at ATMs.",
+    "nuance": "입금 (入金, literally 'enter-money') is money going INTO an account, the exact opposite of 출금 (出金, 'exit-money') — picture the 入 character as funds stepping in. It takes 하다 when you do it, but note the key voice split: 입금하다 is what YOU actively do, while 입금되다 (intransitive) is what happens when money arrives on its own. Sellers and landlords constantly request 입금 확인 to verify your payment landed, and 무통장 입금 ('passbook-less deposit') is the normal ATM phrase for paying into someone's account. Collocations: 입금 확인, 무통장 입금, 보증금 입금. The English-speaker pitfall is direction (입금 in vs 출금 out) and, above all, saying 입금받다 — for money simply arriving the natural form is 입금되다 (입금됐어요), reserving 받다 for receiving a physical thing.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "입금 is money going INTO an account, the exact opposite of 출금 — picture the 入 character as funds stepping in. Sellers and landlords constantly request 입금 확인 to verify your payment landed, and 무통장 입금 ('passbook-less deposit') is the normal ATM phrase for paying into someone's account. Collocations: 입금 확인, 무통장 입금, 보증금 입금."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "入金 literally means 'enter-money', the exact opposite of 출금 (出金, 'exit-money')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It takes 하다 when you do it, but note the key voice split: 입금하다 is what YOU actively do, while 입금되다 (intransitive) is what happens when money arrives on its own (입금됐어요).",
+        "chips": [
+          "입금하다",
+          "입금되다",
+          "입금됐어요"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is direction (입금 in vs 출금 out) and, above all, saying 입금받다 — for money simply arriving the natural form is 입금되다 (입금됐어요), reserving 받다 for receiving a physical thing."
+      }
+    ],
     "mistakes": [
-      "Reversing 입금 (money in) and 출금 (money out)",
-      "Saying 입금받다 when the natural phrase for money arriving is 입금되다"
+      "Reversing 입금 (money in) and 출금 (money out) — the 入 vs 出 hanja mark the direction.",
+      "Saying 입금받다 for money arriving; the natural intransitive is 입금되다 (입금됐어요).",
+      "Marking the account with 한테; an account takes 에/(으)로 — 계좌로 입금하다, not 계좌한테."
     ]
   },
   {
@@ -442,47 +631,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "출금했어요",
-        "I withdrew money",
-        "출금하다 as a verb"
+        "출금하다",
+        "to withdraw money",
+        "출금 + 하다; you 출금하다 from an account marked with 에서"
       ],
       [
         "출금 한도",
         "withdrawal limit",
-        "daily cap on withdrawals"
+        "한도 (限度) — the daily cap, set low on new accounts"
       ],
       [
         "현금 출금",
         "cash withdrawal",
-        "taking out cash"
+        "현금 (現金) = cash; the most common reason to 출금"
       ],
       [
-        "출금이 안 돼요",
-        "I can't withdraw",
-        "when it's blocked"
+        "출금이 안 되다",
+        "for a withdrawal to be blocked",
+        "안 되다 covers limits, fraud holds, or low balance"
       ]
     ],
     "examples": [
       [
         "ATM에서 오만 원 출금했어요.",
         "I withdrew 50,000 won from the ATM.",
-        "standard ATM use"
+        "ATM에서 marks the source point of the cash"
       ],
       [
-        "하루 출금 한도가 정해져 있어요.",
-        "There's a set daily withdrawal limit.",
-        "banks cap daily 출금"
+        "새 통장은 하루 출금 한도가 정해져 있어요.",
+        "A new account has a set daily withdrawal limit.",
+        "정해져 있다 = 'is set'; explains why big withdrawals get blocked"
       ],
       [
-        "밤에 출금하면 수수료가 붙어요.",
-        "Withdrawing at night adds a fee.",
-        "after-hours 수수료"
+        "밤 열한 시에 다른 은행 ATM에서 출금하면 수수료가 붙어요.",
+        "If you withdraw at 11 p.m. from another bank's ATM, a fee is added.",
+        "real after-hours scenario; 수수료가 붙다 = 'a fee attaches'"
       ]
     ],
-    "nuance": "출금 is taking money out of an account, the natural pair to 입금. It shows up on every ATM screen and in app menus, and new accounts often have a low 출금 한도 set for fraud protection until you raise it.",
+    "nuance": "출금 (出金, literally 'exit-money') is taking money OUT of an account, the natural pair to 입금 (入金, 'enter-money') — the 出 character even pictures funds leaving. It takes 하다, and the source account is marked with 에서 (통장에서 출금하다). It headlines every ATM screen and app menu. Crucially, fraud-protection rules give brand-new accounts a low 출금 한도, so a large withdrawal may be refused until you raise the cap at a branch. Collocations: 현금 출금, 출금 한도, 출금 수수료. The English-speaker pitfall is direction — don't swap 출금 (out) with 입금 (in) — and the particle: you withdraw FROM an account with 에서, not 에. Also budget for the fact that after-hours or rival-bank 출금 routinely '수수료가 붙어요' (adds a fee).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "출금 is taking money OUT of an account, the natural pair to 입금 — the 出 character even pictures funds leaving. It takes 하다, and the source account is marked with 에서 (통장에서 출금하다). It headlines every ATM screen and app menu. Crucially, fraud-protection rules give brand-new accounts a low 출금 한도, so a large withdrawal may be refused until you raise the cap at a branch. Collocations: 현금 출금, 출금 한도, 출금 수수료."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "出金 literally means 'exit-money', the natural pair to 입금 (入金, 'enter-money')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is direction — don't swap 출금 (out) with 입금 (in) — and the particle: you withdraw FROM an account with 에서, not 에. Also budget for the fact that after-hours or rival-bank 출금 routinely '수수료가 붙어요' (adds a fee)."
+      }
+    ],
     "mistakes": [
-      "Confusing 출금 (taking out) with 입금 (putting in)",
-      "Forgetting that after-hours or other-bank 출금 usually adds a 수수료"
+      "Confusing 출금 (taking money out) with 입금 (putting money in) — 出 vs 入 fixes the direction.",
+      "Marking the account with 에 for the source; withdrawals take 에서 — 통장에서 출금하다.",
+      "Forgetting that after-hours or other-bank 출금 usually attaches a 수수료 (fee)."
     ]
   },
   {
@@ -496,47 +703,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "자동이체를 신청해요",
-        "I sign up for auto-pay",
-        "신청하다 for registering"
+        "자동이체를 신청하다",
+        "to sign up for direct debit",
+        "신청하다 (申請) — you register it once at the bank or in the app"
       ],
       [
-        "자동이체로 빠져나가요",
-        "it goes out automatically",
-        "빠져나가다 for being auto-debited"
+        "자동이체로 빠져나가다",
+        "to go out by direct debit",
+        "빠져나가다 (slip out) is the idiomatic verb for money auto-leaving"
       ],
       [
         "자동이체 등록",
-        "auto-transfer registration",
-        "setting it up"
+        "direct-debit registration",
+        "등록 (登錄) = enrolling the payment instruction"
       ],
       [
-        "자동이체가 안 됐어요",
-        "the auto-payment failed",
-        "usually from low balance"
+        "자동이체가 안 되다",
+        "for the auto-payment to fail",
+        "안 되다 here usually means the balance was short on the due date"
       ]
     ],
     "examples": [
       [
         "월세를 자동이체로 설정했어요.",
         "I set the rent on automatic transfer.",
-        "handy for recurring 월세"
+        "자동이체로 설정하다 = 'set it on auto'; great for recurring bills"
       ],
       [
-        "통장에 돈이 없어서 자동이체가 안 됐어요.",
-        "The auto-payment failed because my account was empty.",
-        "needs enough 잔액"
+        "휴대폰 요금은 매달 자동이체로 빠져나가요.",
+        "My phone bill goes out by direct debit every month.",
+        "매달 (every month) underlines the recurring nature"
       ],
       [
-        "휴대폰 요금은 자동이체로 빠져나가요.",
-        "My phone bill is auto-debited.",
-        "common for utility and phone bills"
+        "통장에 돈이 없어서 어제 자동이체가 안 됐어요.",
+        "My auto-payment failed yesterday because my account was empty.",
+        "real consequence; the debit silently fails without enough 잔액"
       ]
     ],
-    "nuance": "자동이체 is a standing instruction that pulls a fixed amount from your account on schedule, used for 월세, phone, and utility bills. Just keep enough 잔액 in the account, because if it is short on the due date the 자동이체 simply fails.",
+    "nuance": "자동이체 (自動移替, literally 'self-moving transfer') is a standing instruction that pulls a fixed amount from your account on a set schedule — 월세, phone, utility bills — built from 자동 (自動, automatic) plus 이체 (移替, account transfer). That's the sharp contrast with a plain 이체: an 이체 is a single manual move you trigger each time, whereas 자동이체 runs by itself once registered. The idiomatic verb is 빠져나가다 ('slip out'), as in 자동이체로 빠져나가요. Collocations: 자동이체 신청/등록, 자동이체 설정. The English-speaker pitfall is assuming, as with a Western auto-pay, that the system covers a shortfall — it does not: if your 잔액 is short on the due date, the 자동이체 simply fails (안 됐어요) with no overdraft, so you must keep enough money in the account.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "자동이체 is a standing instruction that pulls a fixed amount from your account on a set schedule — 월세, phone, utility bills. The idiomatic verb is 빠져나가다 ('slip out'), as in 자동이체로 빠져나가요. Collocations: 자동이체 신청/등록, 자동이체 설정."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "That's the sharp contrast with a plain 이체: an 이체 is a single manual move you trigger each time, whereas 자동이체 runs by itself once registered."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "自動移替 literally means 'self-moving transfer', built from 자동 (自動, automatic) plus 이체 (移替, account transfer)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is assuming, as with a Western auto-pay, that the system covers a shortfall — it does not: if your 잔액 is short on the due date, the 자동이체 simply fails (안 됐어요) with no overdraft, so you must keep enough money in the account."
+      }
+    ],
     "mistakes": [
-      "Confusing 자동이체 (recurring auto-debit) with a one-time 이체",
-      "Forgetting it needs sufficient 잔액 on the payment date or it won't process"
+      "Confusing 자동이체 (recurring auto-debit) with a one-time manual 이체 you trigger yourself.",
+      "Assuming it overdraws to cover a shortfall; without enough 잔액 on the date it just fails.",
+      "Saying 자동이체를 보내다; you don't 'send' it — you 신청하다/설정하다 it, then money 빠져나가다."
     ]
   },
   {
@@ -550,47 +780,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "대출을 받아요",
-        "I take out a loan",
-        "받다 for receiving a loan"
+        "대출을 받다",
+        "to take out a loan",
+        "받다 (receive) is the verb for getting a loan, not 빌리다 directly"
       ],
       [
-        "대출을 갚아요",
-        "I pay back the loan",
-        "갚다 for repaying"
+        "대출을 갚다",
+        "to pay back a loan",
+        "갚다 is the dedicated verb for repaying a debt"
       ],
       [
         "전세 대출",
         "jeonse loan",
-        "loan for a 전세 deposit"
+        "a loan to cover a 전세 housing deposit; the most common kind"
       ],
       [
         "대출 이자",
         "loan interest",
-        "interest on the loan"
+        "이자 (利子) = interest, distinct from a one-off 수수료 fee"
       ]
     ],
     "examples": [
       [
-        "은행에서 전세 대출을 받았어요.",
-        "I took out a jeonse loan at the bank.",
-        "common for housing deposits"
+        "은행에서 대출을 받았어요.",
+        "I took out a loan at the bank.",
+        "은행에서 + 대출을 받다 is the basic frame"
       ],
       [
-        "대출 이자가 너무 높아요.",
-        "The loan interest is too high.",
-        "이자 means interest"
+        "대출 이자가 너무 높아서 부담돼요.",
+        "The loan interest is so high it's a burden.",
+        "이자가 높다 = 'interest is high'; 부담되다 = 'feels burdensome'"
       ],
       [
-        "매달 대출을 조금씩 갚고 있어요.",
-        "I'm paying back the loan bit by bit each month.",
-        "조금씩 means little by little"
+        "전세 대출을 받아서 보증금을 마련했고, 매달 조금씩 갚고 있어요.",
+        "I took out a jeonse loan to cover the deposit and pay it back bit by bit each month.",
+        "real housing situation; chains 받다 → 마련하다 → 갚다 across the loan's life"
       ]
     ],
-    "nuance": "대출 is a bank loan, and you 받다 (take out) one and later 갚다 (pay it back) along with 이자, the interest. For residents the most common kind is a 전세 대출 to cover a housing deposit, which banks advertise heavily.",
+    "nuance": "대출 (貸出, literally 'lend-out') is a bank loan: you 받다 (receive/take out) one and later 갚다 (pay it back) together with 이자 (利子), the interest. Mind two boundaries. First, against 대여 (貸與): 대출 is specifically borrowing MONEY from a financial institution, whereas 대여 leans toward lending or renting OBJECTS (책 대여, 장비 대여). Second, on the paperwork, keep 이자 (ongoing interest on the principal) apart from 수수료 (a one-time service charge). For residents the headline product is a 전세 대출, a loan covering a housing deposit, which banks advertise heavily. Collocations: 대출을 받다/갚다, 대출 이자, 전세 대출. The English-speaker pitfall is the verb: a loan is 받다 (received), and you don't '하다' a 대출 the way English 'take a loan' might tempt you — and never confuse 대출 with the object-renting 대여.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "대출 is a bank loan: you 받다 (receive/take out) one and later 갚다 (pay it back) together with 이자, the interest. For residents the headline product is a 전세 대출, a loan covering a housing deposit, which banks advertise heavily. Collocations: 대출을 받다/갚다, 대출 이자, 전세 대출."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Mind two boundaries. First, against 대여: 대출 is specifically borrowing MONEY from a financial institution, whereas 대여 leans toward lending or renting OBJECTS (책 대여, 장비 대여). Second, on the paperwork, keep 이자 (ongoing interest on the principal) apart from 수수료 (a one-time service charge)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "貸出 literally means 'lend-out'; compare 대여 (貸與)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the verb: a loan is 받다 (received), and you don't '하다' a 대출 the way English 'take a loan' might tempt you — and never confuse 대출 with the object-renting 대여."
+      }
+    ],
     "mistakes": [
-      "Confusing 대출 (a loan you receive) with 대여, which is more about renting or lending objects",
-      "Mixing up 이자 (interest) with 수수료 (a service fee) on loan paperwork"
+      "Confusing 대출 (borrowing money from a bank) with 대여, which leans toward renting or lending objects.",
+      "Mixing up 이자 (ongoing interest) with 수수료 (a one-off service fee) on loan paperwork.",
+      "Saying 대출하다 to mean 'take out a loan'; the natural phrase is 대출을 받다."
     ]
   }
 ]

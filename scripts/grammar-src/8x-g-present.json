@@ -5,19 +5,19 @@
     "romanization": "-a/eoyo",
     "title": "Present Tense (Polite)",
     "plainEnglish": "The everyday polite present tense — what is happening now or is generally true.",
-    "whenToUse": "Use V-아/어요 for almost everything in daily speech: current actions, habits, and general facts, e.g. 저는 커피를 마셔요 (I drink coffee). It is the safe default ending with most people.",
+    "whenToUse": "Reach for V-아/어요 in almost every ordinary spoken situation: an action happening right now (지금 비가 와요 — it's raining now), a daily habit (저는 매일 운동해요 — I exercise every day), and a general truth (물은 100도에서 끓어요 — water boils at 100 degrees). Korean has no separate present-continuous form, so this one ending covers both English 'I eat' and 'I am eating'; context and adverbs like 지금 (now) or 매일 (every day) tell you which. It is the friendly-polite '요-level' (해요체) you use with strangers, shopkeepers, coworkers, and older friends — polite enough to be safe, casual enough to be warm. Switch UP to the deferential -ㅂ니다/습니다 for formal announcements, the news, or a job interview (감사합니다, not 감사해요); switch DOWN to 반말 (drop 요: 먹어, 가) only with close friends, children, or people clearly younger. When unsure, 아/어요 is the default that rarely offends.",
     "attachmentRule": "Drop 다 from the stem. If the last stem vowel is ㅏ or ㅗ, add 아요 (좋다→좋아요). Otherwise add 어요 (먹다→먹어요, 읽다→읽어요). 하다 verbs become 해요 (공부하다→공부해요). Watch contractions: 가다→가요, 오다→와요, 마시다→마셔요, 주다→줘요, 보내다→보내요.",
-    "contrastWith": "The same stem rule builds the past tense — present 먹어요 (I eat) vs past 먹었어요 (I ate). Also don't confuse polite 아/어요 with casual 반말, which simply drops 요 (먹어, 가).",
+    "contrastWith": "Confused most often with two neighbors. (1) PAST tense -았/었어요: the very same vowel rule builds both, so the only difference is the extra ㅆ — present 먹어요 'I eat' vs past 먹었어요 'I ate'; present 가요 'I go' vs past 갔어요 'I went'. Master the present and the past is nearly free. (2) FORMAL -ㅂ니다/습니다: both are polite, but -ㅂ니다 is stiffer and more public — 어디 가요? sounds like a friendly 'Where are you off to?', while 어디 갑니까? sounds like a formal interview question. Mixing them in one breath (해요 then 합니다) sounds untrained, so pick one register and hold it. Don't confuse 아/어요 with bare 반말 either: 반말 is simply this form minus 요 (먹어, 가), which flips it from polite to intimate.",
     "sentenceFrames": ["저는 ___아/어요.", "지금 ___아/어요.", "매일 ___아/어요."],
     "examples": [
-      { "ko": "저는 매일 학교에 가요.", "romanization": "", "en": "I go to school every day." },
-      { "ko": "동생이 지금 밥을 먹어요.", "romanization": "", "en": "My sibling is eating now." },
-      { "ko": "주말에 보통 친구를 만나요.", "romanization": "", "en": "On weekends I usually meet friends." },
-      { "ko": "저는 한국어를 공부해요.", "romanization": "", "en": "I study Korean." }
+      { "ko": "저는 물을 마셔요.", "romanization": "", "en": "I drink water.", "note": "Simplest form: 마시다 contracts 시+어 → 셔, giving 마셔요 — never 마시어요. Object marked with 을." },
+      { "ko": "오빠가 지금 음악을 들어요.", "romanization": "", "en": "My older brother is listening to music now.", "note": "Same ending = present continuous here; the adverb 지금 (now) is what makes it 'is listening'. 듣다 is a ㄷ-irregular: ㄷ→ㄹ before 어 (들어요)." },
+      { "ko": "죄송한데요, 지하철역이 어디예요? 그쪽으로 어떻게 가요?", "romanization": "", "en": "Excuse me, where's the subway station? How do I get there?", "note": "Real street register: 가요? as a polite question to a stranger sounds natural and warm, where the formal 갑니까? would feel oddly stiff." }
     ],
     "commonMistakes": [
-      "Adding 아요 after a non-ㅏ/ㅗ vowel, e.g. saying 먹아요 instead of the correct 먹어요.",
-      "Forgetting the contraction: saying 가아요 instead of 가요, or 마시어요 instead of 마셔요."
+      "Picking the wrong vowel: saying 먹아요 instead of 먹어요. The stem 먹- ends in ㅓ (not ㅏ/ㅗ), so it must take 어요. Only bright vowels ㅏ/ㅗ (좋아요, 봐요) take 아요.",
+      "Failing to contract: saying 가아요 for 가다 or 마시어요 for 마시다. When the stem already ends in ㅏ, the 아 merges (가요); 시 + 어 fuses to 셔 (마셔요). Korean smooths these out automatically.",
+      "Using 아/어요 in a formal setting where -ㅂ니다 is expected — e.g. opening a presentation with 안녕하세요, 발표 시작해요 instead of 시작하겠습니다 / 시작합니다. 아/어요 is correct Korean but too casual for the podium."
     ],
     "practiceItems": [
       { "prompt": "가다 (to go) → polite present", "ko": "가요", "answer": "가요" },
@@ -29,6 +29,6 @@
       "Check the last stem vowel: ㅏ/ㅗ takes 아요, everything else takes 어요",
       "Apply 하다 → 해요 and watch for contractions (가요, 와요, 마셔요)"
     ],
-    "beginnerExplanation": "The 아/어요 ending is the workhorse of Korean — the polite, everyday present tense you will use more than any other form. To build it, take the dictionary verb, drop 다, and look at the last vowel of what is left. If that vowel is the bright ㅏ or ㅗ you add 아요; for everything else you add 어요; and 하다 verbs turn into 해요. A few combinations squeeze together to be easier to say, so 가다 becomes 가요, not 가아요. Make 아/어요 your default and you will sound natural in almost any polite situation."
+    "beginnerExplanation": "The 아/어요 ending is the workhorse of Korean — the polite, everyday present tense you will use more than any other form, and the one and only form for both 'I eat' and 'I am eating'. Here's the mnemonic: think of ㅏ and ㅗ as the two 'bright, smiley' vowels (their extra stroke points up and out, like a happy face), and they like to keep the family together by pairing with 아요 — 좋다 → 좋아요, 보다 → 봐요. Every other vowel is 'dark' and pairs with 어요 — 먹다 → 먹어요, 읽다 → 읽어요. The one rebel is 하다, which always becomes 해요 (memorize 공부해요, 사랑해요, 일해요 as a set). And whenever two same-ish vowels bump into each other they fuse so your mouth doesn't repeat itself — 가다 becomes 가요, not 가아요. Lock in 아/어요 first and you'll sound natural in nearly any polite conversation; the past tense (-았/었어요) is then just this form with a tiny ㅆ added."
   }
 ]

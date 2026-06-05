@@ -7,18 +7,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 회사원이에요.", "I am an office worker.", "이에요 after consonant"],
-      ["회사원이 많아요.", "There are many office workers.", "Subject with 이"],
-      ["회사원이 바빠요.", "The office worker is busy.", "Subject with 이"],
-      ["회사원이 되고 싶어요.", "I want to be an office worker.", "되다 means become"]
+      ["저는 회사원이에요.", "I am an office worker.", "이에요 after a final consonant (원)"],
+      ["회사원이 많아요.", "There are many office workers.", "subject 이 after consonant"],
+      ["평범한 회사원", "an ordinary office worker", "평범하다 = ordinary, a very common pairing"],
+      ["회사원이 되고 싶어요.", "I want to become an office worker.", "되다 takes 이/가, not 을/를"]
     ],
     "examples": [
-      ["저는 큰 회사에서 일하는 회사원이에요.", "I am an office worker at a big company.", "이에요 ends with consonant"],
-      ["우리 형은 은행에서 일하는 회사원이에요.", "My older brother is an office worker at a bank.", "에서 marks workplace"],
-      ["회사원이 아침마다 지하철을 타요.", "The office worker takes the subway every morning.", "마다 means every"]
+      ["저는 회사원이에요.", "I'm an office worker.", "the default polite way to state your job"],
+      ["우리 형은 은행에서 일하는 회사원이에요.", "My older brother is an office worker at a bank.", "에서 marks the workplace where the action happens"],
+      ["회사원들은 보통 아침 아홉 시까지 출근해요.", "Office workers usually clock in by nine in the morning.", "출근하다 'go to work' is the verb that lives with 회사원"]
     ],
-    "nuance": "회사원 means a regular company employee who works for a private business. It is the most common answer when Koreans state their job politely.",
-    "mistakes": ["Saying 회사원예요 instead of correct 회사원이에요"]
+    "nuance": "회사원 is 會社員 ('company-member'), literally a member of a company, and it is the neutral catch-all a salaried employee of a private firm gives when asked 무슨 일 하세요? Contrast it with 직장인, which means 'a working person' in general (anyone with a paid job, including teachers or nurses): every 회사원 is a 직장인, but not every 직장인 is a 회사원. Also separate it from 사업가, the owner who runs the business — a 회사원 is employed by someone else. The pitfall for English speakers is twofold: 회사원 ends in a consonant so the copula is 회사원이에요, never 'office worker'-style 회사원예요; and don't translate 'I work at a company' as a job title — to name the job you simply say 회사원이에요 rather than literally rendering the English sentence.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "회사원 literally a member of a company; it is the neutral catch-all a salaried employee of a private firm gives when asked 무슨 일 하세요?"},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast it with 직장인, 'a working person' in general (anyone with a paid job, including teachers or nurses): every 회사원 is a 직장인, but not every 직장인 is a 회사원. Also separate it from 사업가, the owner who runs the business — a 회사원 is employed by someone else."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "회사원 is 會社員 ('company-member'), literally a member of a company."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is twofold: 회사원 ends in a consonant so the copula is 회사원이에요, never 회사원예요; and don't translate 'I work at a company' as a job title — to name the job you simply say 회사원이에요 rather than literally rendering the English sentence."}
+    ],
+    "mistakes": [
+      "Saying 회사원예요 — wrong, because 원 ends in a consonant you must use 이에요: 회사원이에요.",
+      "Using 회사원 for a self-employed shop owner — that person is 자영업자 or 사장님; 회사원 is specifically a salaried employee of someone else's company.",
+      "Calling any working adult 회사원 — a nurse or teacher is a 직장인 but not a 회사원; 회사원 implies a typical office/company job."
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +38,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 공무원이에요.", "I am a civil servant.", "이에요 after consonant"],
-      ["공무원이 친절해요.", "The civil servant is kind.", "Subject with 이"],
-      ["공무원이 되고 싶어요.", "I want to be a civil servant.", "되다 means become"],
-      ["공무원 시험을 봐요.", "I take the civil service exam.", "시험 means exam"]
+      ["저는 공무원이에요.", "I am a civil servant.", "이에요 after the consonant ending 원"],
+      ["공무원이 친절해요.", "The civil servant is kind.", "subject 이 after consonant"],
+      ["공무원 시험을 보다", "to take the civil-service exam", "공무원 시험 is a fixed compound; 시험을 보다 = sit an exam"],
+      ["공무원이 되고 싶어요.", "I want to become a civil servant.", "되다 pairs with 이/가"]
     ],
     "examples": [
-      ["저는 시청에서 일하는 공무원이에요.", "I am a civil servant working at city hall.", "이에요 ends with consonant"],
-      ["많은 사람이 공무원이 되고 싶어 해요.", "Many people want to become civil servants.", "싶어 해요 third person"],
-      ["우리 누나는 공무원 시험을 준비해요.", "My older sister prepares for the civil service exam.", "준비하다 means prepare"]
+      ["저는 공무원이에요.", "I'm a civil servant.", "stated plainly, like any job"],
+      ["우리 누나는 시청에서 일하는 공무원이에요.", "My older sister is a civil servant working at city hall.", "시청 'city hall' is a typical 공무원 workplace"],
+      ["요즘 젊은 사람들이 공무원 시험을 많이 준비해요.", "These days many young people study for the civil-service exam.", "준비하다 'prepare for' is the verb that collocates with 시험"]
     ],
-    "nuance": "공무원 means a government employee who works for a public office or city hall. In Korea this job is popular because it offers strong stability.",
-    "mistakes": ["Confusing 공무원 with 회사원 the company worker"]
+    "nuance": "공무원 is 公務員 ('public-affairs-member'), one who handles 공무, the affairs of the state, so it covers anyone employed by the government — a ward office clerk, a public-school teacher, a tax officer. The key contrast is with 회사원: a 회사원 works for a private 회사, while a 공무원 works for the 나라 (state) and has 정년 (guaranteed tenure to retirement). Don't confuse it with 정치인 (a politician, who is elected) — a 공무원 is hired through the 공무원 시험 and is meant to be politically neutral. For learners the pitfalls are the copula (consonant ending → 공무원이에요, not 공무원예요) and the cultural weight: in Korea 공무원 is prized for 안정성 (stability), so saying 공무원이 되고 싶어요 carries a strong 'I want a secure life' overtone that the bare English 'civil servant' doesn't convey.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "공무원 is one who handles 공무, the affairs of the state, so it covers anyone employed by the government — a ward office clerk, a public-school teacher, a tax officer. In Korea 공무원 is prized for 안정성 (stability), so saying 공무원이 되고 싶어요 carries a strong 'I want a secure life' overtone that the bare English 'civil servant' doesn't convey."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key contrast is with 회사원: a 회사원 works for a private 회사, while a 공무원 works for the 나라 (state) and has 정년 (guaranteed tenure to retirement). Don't confuse it with 정치인 (a politician, who is elected) — a 공무원 is hired through the 공무원 시험 and is meant to be politically neutral."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "공무원 is 公務員 ('public-affairs-member'), one who handles 공무, the affairs of the state."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The copula pitfall: consonant ending → 공무원이에요, not 공무원예요."}
+    ],
+    "mistakes": [
+      "Saying 공무원예요 — wrong; 원 ends in a consonant, so it must be 공무원이에요.",
+      "Equating 공무원 with 정치인 — a 공무원 is an appointed/hired official, whereas a 정치인 is an elected politician; mixing them sounds confused.",
+      "Assuming 공무원 means only office desk staff — public-school teachers and firefighters are also 공무원, so the word is broader than English 'civil servant' feels."
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +69,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 주부예요.", "I am a homemaker.", "예요 after vowel"],
-      ["주부가 바빠요.", "The homemaker is busy.", "Subject with 가"],
-      ["우리 엄마는 주부예요.", "My mother is a homemaker.", "예요 after vowel"],
-      ["주부가 집안일을 해요.", "The homemaker does housework.", "집안일 means housework"]
+      ["저는 주부예요.", "I am a homemaker.", "예요 after the vowel ending 부"],
+      ["주부가 바빠요.", "The homemaker is busy.", "subject 가 after a vowel"],
+      ["전업주부", "full-time homemaker", "전업 'sole occupation' stresses it is full-time work"],
+      ["주부가 집안일을 해요.", "The homemaker does the housework.", "집안일 'household chores' is the typical object"]
     ],
     "examples": [
-      ["저는 아이를 키우는 주부예요.", "I am a homemaker who raises children.", "키우는 modifies 주부"],
-      ["주부가 아침마다 시장에 가요.", "The homemaker goes to the market every morning.", "마다 means every"],
-      ["우리 어머니는 부지런한 주부예요.", "My mother is a diligent homemaker.", "부지런하다 means diligent"]
+      ["우리 엄마는 주부예요.", "My mom is a homemaker.", "the most natural everyday sentence with 주부"],
+      ["저는 아이를 키우는 전업주부예요.", "I'm a full-time homemaker raising children.", "키우다 'raise (a child)' collocates with 주부"],
+      ["요즘은 주부도 부업으로 돈을 벌어요.", "These days homemakers also earn money with a side job.", "부업 'side work' shows 주부 is treated as real labor"]
     ],
-    "nuance": "주부 means a person who manages the home and family full time. The word 전업주부 stresses that homemaking is their only full time work.",
-    "mistakes": ["Saying 주부이에요 instead of correct 주부예요"]
+    "nuance": "주부 is 主婦 ('head-wife'), the person who is the 主 (head, manager) of household affairs; historically it implies a married woman running the home. The sharp modern contrast is 전업주부 (full-time homemaker, no outside job) versus 맞벌이 (a dual-income couple where both work) — and note the rising 주부 covers men too, though many will specify 전업주부 or use 살림하다 'to keep house' for the activity. Don't confuse 주부 (the person) with 가사 / 집안일 (the housework itself). The English-speaker pitfalls: 부 ends in a vowel, so the copula is 주부예요, never 주부이에요; and 'housewife' in English can sound dated, but 주부 in Korean is a perfectly neutral, respectable job answer — pair it warmly, e.g. 부지런한 주부 'a diligent homemaker'.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "주부 is the person who is the 主 (head, manager) of household affairs; historically it implies a married woman running the home. In Korean 주부 is a perfectly neutral, respectable job answer — pair it warmly, e.g. 부지런한 주부 'a diligent homemaker'."},
+      {"k": "비슷한 말", "e": "VS", "t": "The sharp modern contrast is 전업주부 (full-time homemaker, no outside job) versus 맞벌이 (a dual-income couple where both work) — and note the rising 주부 covers men too, though many will specify 전업주부 or use 살림하다 'to keep house' for the activity. Don't confuse 주부 (the person) with 가사 / 집안일 (the housework itself)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "주부 is 主婦 ('head-wife'), the person who is the 主 (head, manager) of household affairs."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "부 ends in a vowel, so the copula is 주부예요, never 주부이에요; and 'housewife' in English can sound dated, but 주부 in Korean is neutral and respectable."}
+    ],
+    "mistakes": [
+      "Saying 주부이에요 — wrong; 부 ends in a vowel, so use 주부예요.",
+      "Using 주부 to mean the chores — the chores are 집안일/가사; 주부 is the person who does them.",
+      "Assuming 주부 is always female or always married — modern usage allows men, and 전업주부 just marks that homemaking is the person's full-time role."
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +100,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 사업가예요.", "I am a businessperson.", "예요 after vowel"],
-      ["사업가가 바빠요.", "The businessperson is busy.", "Subject with 가"],
-      ["사업가가 되고 싶어요.", "I want to be a businessperson.", "되다 means become"],
-      ["성공한 사업가", "successful businessperson", "성공하다 means succeed"]
+      ["저는 사업가예요.", "I am a businessperson.", "예요 after the vowel ending 가"],
+      ["사업가가 바빠요.", "The businessperson is busy.", "subject 가 after a vowel"],
+      ["성공한 사업가", "a successful businessperson", "성공하다 'succeed' is the classic modifier"],
+      ["사업가가 되고 싶어요.", "I want to become a businessperson.", "되다 pairs with 이/가"]
     ],
     "examples": [
-      ["저는 작은 회사를 만든 사업가예요.", "I am a businessperson who started a small company.", "만든 modifies 사업가"],
-      ["그 사업가가 새 가게를 열었어요.", "That businessperson opened a new shop.", "열다 means open"],
-      ["우리 삼촌은 유명한 사업가예요.", "My uncle is a famous businessperson.", "예요 after vowel"]
+      ["우리 삼촌은 사업가예요.", "My uncle is a businessperson.", "stating someone's occupation plainly"],
+      ["그분은 작은 회사를 세운 사업가예요.", "He's a businessperson who founded a small company.", "세우다 'establish (a company)' collocates with 사업가"],
+      ["성공한 사업가가 되려면 위험을 감수해야 해요.", "To become a successful businessperson you have to take risks.", "위험을 감수하다 'bear risk' captures the core of 사업가"]
     ],
-    "nuance": "사업가 means a person who runs or owns a business and takes financial risks. It sounds bigger than a simple shop owner, who is often called 사장님.",
-    "mistakes": ["Confusing 사업가 the owner with 사업 the business"]
+    "nuance": "사업가 is 事業家 ('enterprise-expert'), where 가(家) is the suffix for a person skilled in a field (as in 작가, 화가, 음악가); it pictures someone who builds and runs an 사업 (a business venture) and shoulders its risk. Contrast three near words: 사업가 = the entrepreneur/operator with vision and risk; 사장(님) = the literal 'company president/boss' title you address people by; and 자영업자 = a small self-employed shop owner. So a corner-store owner is rarely called a 사업가 — that word sounds bigger, more ambitious. Don't mix 사업가 (the person) with 사업 (the business itself: 사업을 하다 'run a business'). Pitfalls: 가 ends in a vowel so it's 사업가예요, never 사업가이에요; and don't borrow English 'I do business' literally as a title — to name the job say 사업가예요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "사업가 pictures someone who builds and runs an 사업 (a business venture) and shoulders its risk; the entrepreneur/operator with vision and risk. The word sounds big and ambitious, so a corner-store owner is rarely called a 사업가."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast three near words: 사업가 = the entrepreneur/operator; 사장(님) = the literal 'company president/boss' title you address people by; and 자영업자 = a small self-employed shop owner. Don't mix 사업가 (the person) with 사업 (the business itself: 사업을 하다 'run a business')."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "사업가 is 事業家 ('enterprise-expert'), where 가(家) is the suffix for a person skilled in a field (as in 작가, 화가, 음악가)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "가 ends in a vowel so it's 사업가예요, never 사업가이에요; and don't borrow English 'I do business' literally as a title — to name the job say 사업가예요."}
+    ],
+    "mistakes": [
+      "Saying 사업가이에요 — wrong; 가 ends in a vowel, so it must be 사업가예요.",
+      "Confusing 사업가 (the owner/person) with 사업 (the business activity) — you run a 사업, you are a 사업가.",
+      "Calling a tiny shop owner a 사업가 — that everyday person is usually 자영업자 or 사장님; 사업가 implies a larger, risk-taking venture."
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +131,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 디자이너예요.", "I am a designer.", "예요 after vowel"],
-      ["디자이너가 멋있어요.", "The designer is cool.", "멋있다 means cool"],
-      ["옷 디자이너", "clothing designer", "옷 means clothes"],
-      ["디자이너가 되고 싶어요.", "I want to be a designer.", "되다 means become"]
+      ["저는 디자이너예요.", "I am a designer.", "예요 after the vowel ending 너"],
+      ["디자이너가 멋있어요.", "The designer is cool.", "멋있다 'stylish/cool' fits the creative field"],
+      ["옷 디자이너", "fashion designer", "the field word goes in front: 옷/웹/그래픽 디자이너"],
+      ["디자이너가 되고 싶어요.", "I want to become a designer.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 옷을 만드는 디자이너예요.", "I am a designer who makes clothes.", "만드는 modifies 디자이너"],
-      ["그 디자이너가 예쁜 가방을 만들었어요.", "That designer made a pretty bag.", "만들다 means make"],
-      ["제 친구는 회사에서 일하는 디자이너예요.", "My friend is a designer working at a company.", "에서 marks workplace"]
+      ["저는 디자이너예요.", "I'm a designer.", "the bare job statement"],
+      ["제 친구는 옷을 만드는 디자이너예요.", "My friend is a designer who makes clothes.", "the -는 clause 옷을 만드는 specifies the kind of designer"],
+      ["그 디자이너가 이번 시즌 신상품을 디자인했어요.", "That designer designed this season's new products.", "디자인하다 'to design' is the matching verb"]
     ],
-    "nuance": "디자이너 is the everyday borrowed word for a person who designs clothes, products, or graphics. Koreans add the field, like 옷 디자이너 or 웹 디자이너.",
-    "mistakes": ["Saying 디자이너이에요 instead of correct 디자이너예요"]
+    "nuance": "디자이너 is a direct loanword from English 'designer', written in 외래어 (foreign-loan) spelling, used for anyone who designs — clothes, graphics, web pages, products. Because the bare word is broad, Koreans almost always front a field: 옷 디자이너 (fashion), 웹 디자이너 (web), 그래픽 디자이너 (graphic). Be careful not to confuse 디자이너 with 디자인 (the design itself: 디자인이 예쁘다 'the design is pretty') — one is the person, one is the output. A nearby word is 설계자, but that leans toward technical/architectural 'designer-engineer', so for fashion or visual work stick with 디자이너. Pitfalls for English speakers: 너 ends in a vowel, so it's 디자이너예요, never 디자이너이에요; and the matching verb is 디자인하다, so 'I design clothes' is 옷을 디자인해요, not a literal word-by-word transfer of the English.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "디자이너 is used for anyone who designs — clothes, graphics, web pages, products. Because the bare word is broad, Koreans almost always front a field: 옷 디자이너 (fashion), 웹 디자이너 (web), 그래픽 디자이너 (graphic)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Be careful not to confuse 디자이너 with 디자인 (the design itself: 디자인이 예쁘다 'the design is pretty') — one is the person, one is the output. A nearby word is 설계자, but that leans toward technical/architectural 'designer-engineer', so for fashion or visual work stick with 디자이너."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "디자이너 is a direct loanword from English 'designer', written in 외래어 (foreign-loan) spelling."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "너 ends in a vowel, so it's 디자이너예요, never 디자이너이에요; and the matching verb is 디자인하다, so 'I design clothes' is 옷을 디자인해요, not a literal word-by-word transfer of the English."}
+    ],
+    "mistakes": [
+      "Saying 디자이너이에요 — wrong; 너 ends in a vowel, so use 디자이너예요.",
+      "Confusing 디자이너 (the person) with 디자인 (the design) — you do 디자인, you are a 디자이너.",
+      "Leaving the field off when it matters — 디자이너 alone is vague; specify 옷 디자이너, 웹 디자이너, etc., as Koreans naturally do."
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +162,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 프로그래머예요.", "I am a programmer.", "예요 after vowel"],
-      ["프로그래머가 많아요.", "There are many programmers.", "Subject with 가"],
-      ["프로그래머가 되고 싶어요.", "I want to be a programmer.", "되다 means become"],
-      ["프로그래머가 일해요.", "The programmer works.", "일하다 means work"]
+      ["저는 프로그래머예요.", "I am a programmer.", "예요 after the vowel ending 머"],
+      ["프로그래머가 많아요.", "There are many programmers.", "subject 가 after a vowel"],
+      ["실력 있는 프로그래머", "a skilled programmer", "실력 있다 'have skill' is the natural praise"],
+      ["프로그래머가 되고 싶어요.", "I want to become a programmer.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 게임을 만드는 프로그래머예요.", "I am a programmer who makes games.", "만드는 modifies 프로그래머"],
-      ["프로그래머가 매일 컴퓨터로 일해요.", "The programmer works on a computer every day.", "으로 marks means"],
-      ["제 동생은 프로그래머가 되고 싶어 해요.", "My younger sibling wants to be a programmer.", "싶어 해요 third person"]
+      ["저는 프로그래머예요.", "I'm a programmer.", "the plain job answer"],
+      ["제 동생은 게임을 만드는 프로그래머예요.", "My younger sibling is a programmer who makes games.", "만들다 'make' describes what they build"],
+      ["프로그래머가 밤늦게까지 코드를 짜요.", "The programmer writes code late into the night.", "코드를 짜다 'write/assemble code' is the insider collocation"]
     ],
-    "nuance": "프로그래머 means a person who writes computer programs and code for a living. The similar word 개발자 is also very common in Korean tech workplaces.",
-    "mistakes": ["Saying 프로그래머이에요 instead of correct 프로그래머예요"]
+    "nuance": "프로그래머 is the loanword 'programmer', the person who writes computer 프로그램 (programs). The most useful contrast is with 개발자 ('developer', 開發者 'one who develops'): in real Korean tech workplaces 개발자 is now the more common, broader title (covering design, building, and shipping software), while 프로그래머 highlights specifically the coding act and can sound slightly narrower or more old-school. Both are fine to say. Don't confuse 프로그래머 (the person) with 프로그램 (the program) — you make a 프로그램, you are a 프로그래머. The natural verb for the work is 코드를 짜다 or 개발하다, not a literal calque of English 'to program'. Pitfall: 머 ends in a vowel, so it must be 프로그래머예요, never 프로그래머이에요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "프로그래머 is the loanword 'programmer', the person who writes computer 프로그램 (programs). It highlights specifically the coding act and can sound slightly narrower or more old-school. The natural verb for the work is 코드를 짜다 or 개발하다, not a literal calque of English 'to program'."},
+      {"k": "비슷한 말", "e": "VS", "t": "The most useful contrast is with 개발자 ('developer'): in real Korean tech workplaces 개발자 is now the more common, broader title (covering design, building, and shipping software), while 프로그래머 is narrower. Both are fine to say. Don't confuse 프로그래머 (the person) with 프로그램 (the program) — you make a 프로그램, you are a 프로그래머."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "프로그래머 is the loanword 'programmer'; its rival 개발자 is 開發者 'one who develops'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "머 ends in a vowel, so it must be 프로그래머예요, never 프로그래머이에요."}
+    ],
+    "mistakes": [
+      "Saying 프로그래머이에요 — wrong; 머 ends in a vowel, so use 프로그래머예요.",
+      "Confusing 프로그래머 (the person) with 프로그램 (the software) — you build a 프로그램, you are a 프로그래머.",
+      "Assuming 프로그래머 is the only modern title — in Korean tech 개발자 'developer' is now more common and often preferred."
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +193,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 엔지니어예요.", "I am an engineer.", "예요 after vowel"],
-      ["엔지니어가 똑똑해요.", "The engineer is smart.", "똑똑하다 means smart"],
-      ["엔지니어가 되고 싶어요.", "I want to be an engineer.", "되다 means become"],
-      ["엔지니어가 일해요.", "The engineer works.", "일하다 means work"]
+      ["저는 엔지니어예요.", "I am an engineer.", "예요 after the vowel ending 니어"],
+      ["엔지니어가 똑똑해요.", "The engineer is smart.", "똑똑하다 'sharp/smart' is a common compliment"],
+      ["소프트웨어 엔지니어", "software engineer", "the field goes in front, like 소프트웨어/기계 엔지니어"],
+      ["엔지니어가 되고 싶어요.", "I want to become an engineer.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 자동차를 만드는 엔지니어예요.", "I am an engineer who makes cars.", "만드는 modifies 엔지니어"],
-      ["엔지니어가 기계를 고쳤어요.", "The engineer fixed the machine.", "고치다 means fix"],
-      ["우리 형은 공장에서 일하는 엔지니어예요.", "My older brother is an engineer at a factory.", "에서 marks workplace"]
+      ["저는 엔지니어예요.", "I'm an engineer.", "the plain occupation statement"],
+      ["우리 형은 자동차를 만드는 엔지니어예요.", "My older brother is an engineer who builds cars.", "만들다 'build/make' describes the work"],
+      ["엔지니어가 고장 난 기계를 직접 고쳤어요.", "The engineer fixed the broken machine himself.", "고치다 'repair' pairs with hands-on engineering"]
     ],
-    "nuance": "엔지니어 means a person who designs, builds, or fixes machines and systems. The native term 기술자 is close but can sound more like a hands on technician.",
-    "mistakes": ["Saying 엔지니어이에요 instead of correct 엔지니어예요"]
+    "nuance": "엔지니어 is the loanword 'engineer', someone who designs, builds, and maintains machines or systems. The instructive contrast is with the Sino-Korean 기술자 (技術者 'skill-person', a technician): 엔지니어 leans toward the degreed, design-and-theory professional, while 기술자 emphasizes a hands-on tradesperson who operates or repairs. So a factory line repairer might be a 기술자, whereas the person who designed the line is an 엔지니어 — though in casual speech they overlap. As with other fields, Koreans front the specialty: 기계 엔지니어, 소프트웨어 엔지니어. Pitfalls: 니어 ends in a vowel, so it's 엔지니어예요, never 엔지니어이에요; and don't reach for 'engineer' to mean a train driver (a false friend from older English) — that person is a 기관사.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "엔지니어 is the loanword 'engineer', someone who designs, builds, and maintains machines or systems. As with other fields, Koreans front the specialty: 기계 엔지니어, 소프트웨어 엔지니어."},
+      {"k": "비슷한 말", "e": "VS", "t": "The instructive contrast is with the Sino-Korean 기술자 (a technician): 엔지니어 leans toward the degreed, design-and-theory professional, while 기술자 emphasizes a hands-on tradesperson who operates or repairs. A factory line repairer might be a 기술자, whereas the person who designed the line is an 엔지니어 — though in casual speech they overlap."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "엔지니어 is the loanword 'engineer'; its contrast 기술자 is 技術者 'skill-person'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "니어 ends in a vowel, so it's 엔지니어예요, never 엔지니어이에요; and don't reach for 'engineer' to mean a train driver (a false friend from older English) — that person is a 기관사."}
+    ],
+    "mistakes": [
+      "Saying 엔지니어이에요 — wrong; the word ends in a vowel, so use 엔지니어예요.",
+      "Treating 엔지니어 and 기술자 as identical — 엔지니어 suggests a degreed design professional, 기술자 a hands-on technician.",
+      "Using 엔지니어 for a train operator — that is 기관사; the English 'engineer = train driver' sense does not transfer."
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +224,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 작가예요.", "I am a writer.", "예요 after vowel"],
-      ["작가가 유명해요.", "The writer is famous.", "유명하다 means famous"],
-      ["작가가 되고 싶어요.", "I want to be a writer.", "되다 means become"],
-      ["작가가 책을 써요.", "The writer writes a book.", "쓰다 means write"]
+      ["저는 작가예요.", "I am a writer.", "예요 after the vowel ending 가"],
+      ["작가가 유명해요.", "The writer is famous.", "유명하다 'famous' is the typical pairing"],
+      ["베스트셀러 작가", "a bestselling author", "베스트셀러 'bestseller' fronts the noun"],
+      ["작가가 되고 싶어요.", "I want to become a writer.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 소설을 쓰는 작가예요.", "I am a writer who writes novels.", "쓰는 modifies 작가"],
-      ["그 작가가 새 책을 냈어요.", "That writer published a new book.", "내다 means publish"],
-      ["저는 그 작가를 정말 좋아해요.", "I really like that writer.", "좋아하다 means like"]
+      ["저는 작가예요.", "I'm a writer.", "the bare job statement"],
+      ["그분은 소설을 쓰는 작가예요.", "She's a writer who writes novels.", "쓰다 'write' is the core verb of 작가"],
+      ["그 작가가 이번에 새 책을 냈어요.", "That author just put out a new book.", "책을 내다 'release a book' is the idiomatic phrase, not 만들다"]
     ],
-    "nuance": "작가 means an author who writes books, stories, or drama scripts as a profession. A news reporter is 기자 instead, so do not mix the two.",
-    "mistakes": ["Confusing 작가 the author with 기자 the reporter"]
+    "nuance": "작가 is 作家 ('make-house/expert' = one who creates works), used for authors of novels, essays, and also drama or film scripts (a 드라마 작가 is a screenwriter). The crucial contrast for learners is 기자 (記者, a news reporter who reports facts) — both write, but 작가 creates literary/creative work while 기자 gathers and reports news, so never swap them. A wider umbrella is 글쓴이/저자 'author of a specific text', but as a profession 작가 is the word. Note the suffix 가(家) marks 'a master of a field', the same one in 화가, 사업가, 음악가. Pitfalls: 가 ends in a vowel → 작가예요, never 작가이에요; and the idiom for publishing is 책을 내다 (literally 'put out a book'), so don't calque English 'make a book' as 책을 만들다, which sounds like physically manufacturing it.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "작가 is used for authors of novels, essays, and also drama or film scripts (a 드라마 작가 is a screenwriter). As a profession 작가 is the word, though a wider umbrella is 글쓴이/저자 'author of a specific text'."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial contrast for learners is 기자 (a news reporter who reports facts) — both write, but 작가 creates literary/creative work while 기자 gathers and reports news, so never swap them."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "작가 is 作家 ('make-house/expert' = one who creates works). The suffix 가(家) marks 'a master of a field', the same one in 화가, 사업가, 음악가; 기자 is 記者."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "가 ends in a vowel → 작가예요, never 작가이에요; and the idiom for publishing is 책을 내다 (literally 'put out a book'), so don't calque English 'make a book' as 책을 만들다, which sounds like physically manufacturing it."}
+    ],
+    "mistakes": [
+      "Saying 작가이에요 — wrong; 가 ends in a vowel, so use 작가예요.",
+      "Confusing 작가 with 기자 — a 작가 creates literary/creative writing, a 기자 reports the news; they are different jobs.",
+      "Saying 책을 만들었어요 for 'published a book' — to release a book the idiom is 책을 냈어요; 만들다 sounds like physically producing the object."
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +255,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 화가예요.", "I am a painter.", "예요 after vowel"],
-      ["화가가 유명해요.", "The painter is famous.", "유명하다 means famous"],
-      ["화가가 되고 싶어요.", "I want to be a painter.", "되다 means become"],
-      ["화가가 그림을 그려요.", "The painter draws a picture.", "그리다 means draw"]
+      ["저는 화가예요.", "I am a painter.", "예요 after the vowel ending 가"],
+      ["화가가 유명해요.", "The painter is famous.", "유명하다 'famous' pairs naturally"],
+      ["유명한 화가", "a famous painter", "유명하다 in its modifier form 유명한"],
+      ["화가가 되고 싶어요.", "I want to become a painter.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 그림을 그리는 화가예요.", "I am a painter who paints pictures.", "그리는 modifies 화가"],
-      ["그 화가가 아름다운 그림을 그렸어요.", "That painter painted a beautiful picture.", "아름답다 means beautiful"],
-      ["우리 이모는 유명한 화가예요.", "My aunt is a famous painter.", "예요 after vowel"]
+      ["우리 이모는 화가예요.", "My aunt is a painter.", "naming someone's profession"],
+      ["그분은 풍경을 그리는 화가예요.", "He's a painter who paints landscapes.", "그리다 'draw/paint' is the verb that lives with 화가"],
+      ["그 화가가 그린 그림이 비싸게 팔렸어요.", "The picture that painter made sold for a high price.", "그림 'picture' is the product; note 그리다 not 만들다"]
     ],
-    "nuance": "화가 means an artist who paints or draws pictures as their main work. The wider word 예술가 covers all artists, including musicians and dancers.",
-    "mistakes": ["Confusing 화가 the painter with 그림 the picture"]
+    "nuance": "화가 is 畵家 ('picture-expert'), a fine-art painter whose work is 그림 (pictures/paintings), again with the 가(家) 'master of a field' suffix. The contrast to keep clear: 화가 is one specific kind of 예술가 (藝術家, artist) — 예술가 is the umbrella that also includes musicians (음악가), dancers, and sculptors, so a 화가 is an 예술가 but not vice versa. Also distinguish 화가 (the person) from 그림 (the painting) and from 화백, a respectful term for a renowned master painter. The natural verb is 그림을 그리다 'paint a picture'. Pitfalls: 가 ends in a vowel → 화가예요, never 화가이에요; and don't say 그림을 만들다 for painting — 그리다 is the right verb, while 만들다 'make' would sound like constructing an object rather than painting.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "화가 is a fine-art painter whose work is 그림 (pictures/paintings). The natural verb is 그림을 그리다 'paint a picture'."},
+      {"k": "비슷한 말", "e": "VS", "t": "화가 is one specific kind of 예술가 (artist) — 예술가 is the umbrella that also includes musicians (음악가), dancers, and sculptors, so a 화가 is an 예술가 but not vice versa. Also distinguish 화가 (the person) from 그림 (the painting) and from 화백, a respectful term for a renowned master painter."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "화가 is 畵家 ('picture-expert'), again with the 가(家) 'master of a field' suffix; 예술가 is 藝術家."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "가 ends in a vowel → 화가예요, never 화가이에요; and don't say 그림을 만들다 for painting — 그리다 is the right verb, while 만들다 'make' would sound like constructing an object rather than painting."}
+    ],
+    "mistakes": [
+      "Saying 화가이에요 — wrong; 가 ends in a vowel, so use 화가예요.",
+      "Confusing 화가 (the painter) with 그림 (the painting) — the person paints the 그림.",
+      "Using 그림을 만들다 for 'to paint' — the correct verb is 그림을 그리다; 만들다 implies building an object, not painting."
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +286,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 교수예요.", "I am a professor.", "예요 after vowel"],
-      ["교수님이 오셨어요.", "The professor has come.", "님 and 오시다"],
-      ["교수님이 가르치세요.", "The professor teaches.", "Honorific 가르치시다"],
-      ["교수가 되고 싶어요.", "I want to be a professor.", "되다 means become"]
+      ["저는 교수예요.", "I am a professor.", "예요 after the vowel ending 수; said of oneself"],
+      ["교수님이 오셨어요.", "The professor has arrived.", "add 님 + honorific 오시다 when speaking about them"],
+      ["교수님께 여쭤보다", "to ask the professor (humbly)", "께 is the honorific 'to'; 여쭤보다 humbly = ask"],
+      ["교수가 되고 싶어요.", "I want to become a professor.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 대학교에서 가르치는 교수예요.", "I am a professor teaching at a university.", "가르치는 modifies 교수"],
-      ["교수님이 어려운 질문을 하셨어요.", "The professor asked a hard question.", "Honorific past"],
-      ["우리 교수님은 정말 친절하세요.", "Our professor is really kind.", "Honorific 하시다"]
+      ["저는 대학교에서 가르치는 교수예요.", "I'm a professor who teaches at a university.", "about yourself you may drop 님"],
+      ["우리 교수님은 정말 친절하세요.", "Our professor is really kind.", "친절하시다: the honorific -시- because they outrank you"],
+      ["교수님이 오늘 어려운 질문을 하셨어요.", "The professor asked a hard question today.", "하셨어요 = honorific past of 하다 for a respected person"]
     ],
-    "nuance": "교수 means a university professor who teaches and researches. When you speak to one you almost always add 님, because dropping it sounds rude.",
-    "mistakes": ["Confusing 교수 the professor with 선생님 the teacher"]
+    "nuance": "교수 is 敎授 ('teach-confer'), a university professor who both teaches and researches — note this is higher and narrower than 선생님, the general word for any teacher (and the polite word for a schoolteacher). A 선생님 may teach at any level; a 교수 specifically holds a university post, so don't call a professor 선생님 in a formal setting, nor a kindergarten teacher 교수. The huge register point: in real use you almost always attach 님 → 교수님, and you conjugate verbs about them with honorific -시- (가르치세요, 오셨어요). You may say plain 교수 when stating your own job humbly, but addressing or referring to someone else's professor without 님 sounds blunt to the point of rude. Pitfall: 수 ends in a vowel, so the copula is 교수예요, never 교수이에요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "교수 is a university professor who both teaches and researches. The huge register point: in real use you almost always attach 님 → 교수님, and you conjugate verbs about them with honorific -시- (가르치세요, 오셨어요). You may say plain 교수 when stating your own job humbly, but addressing or referring to someone else's professor without 님 sounds blunt to the point of rude."},
+      {"k": "비슷한 말", "e": "VS", "t": "This is higher and narrower than 선생님, the general word for any teacher (and the polite word for a schoolteacher). A 선생님 may teach at any level; a 교수 specifically holds a university post, so don't call a professor 선생님 in a formal setting, nor a kindergarten teacher 교수."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "교수 is 敎授 ('teach-confer')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "수 ends in a vowel, so the copula is 교수예요, never 교수이에요."}
+    ],
+    "mistakes": [
+      "Saying 교수이에요 — wrong; 수 ends in a vowel, so use 교수예요.",
+      "Dropping 님 when addressing or referring to someone's professor — say 교수님; bare 교수 there sounds disrespectful.",
+      "Using 선생님 and 교수 interchangeably — 교수 is specifically a university professor, while 선생님 is the general/school-level teacher term."
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +317,28 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 통역사예요.", "I am an interpreter.", "예요 after vowel"],
-      ["통역사가 필요해요.", "I need an interpreter.", "필요하다 means need"],
-      ["통역사가 되고 싶어요.", "I want to be an interpreter.", "되다 means become"],
-      ["통역사가 말해요.", "The interpreter speaks.", "말하다 means speak"]
+      ["저는 통역사예요.", "I am an interpreter.", "예요 after the vowel ending 사"],
+      ["통역사가 필요해요.", "We need an interpreter.", "필요하다 'be needed' takes 이/가, not 을/를"],
+      ["동시통역사", "a simultaneous interpreter", "동시 'simultaneous' marks the real-time specialty"],
+      ["통역사가 되고 싶어요.", "I want to become an interpreter.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 영어를 한국어로 옮기는 통역사예요.", "I am an interpreter who turns English into Korean.", "으로 marks target"],
-      ["회의에 통역사가 한 명 왔어요.", "One interpreter came to the meeting.", "명 counts people"],
-      ["통역사가 두 나라 말을 잘해요.", "The interpreter speaks two languages well.", "잘하다 means do well"]
+      ["저는 통역사예요.", "I'm an interpreter.", "the plain job answer"],
+      ["회의에 통역사가 한 명 왔어요.", "One interpreter came to the meeting.", "명 is the counter for people"],
+      ["그 통역사가 영어를 한국어로 통역했어요.", "That interpreter interpreted English into Korean.", "A를 B로 통역하다 'interpret A into B'"]
     ],
-    "nuance": "통역사 means a person who interprets spoken language between two languages in real time. A person who translates written text is called 번역사 instead.",
-    "mistakes": ["Confusing 통역사 spoken with 번역사 written"]
+    "nuance": "통역사 is 通譯士 ('through-translate-specialist'), where 士(사) is the dignified suffix for a licensed/qualified professional (also in 변호사 lawyer, 회계사 accountant). It means specifically an interpreter of spoken language in real time. The essential contrast is 번역사 (翻譯士), who translates written text: spoken = 통역, written = 번역, and the people and verbs differ (통역하다 vs 번역하다). Don't blur them — saying 번역사 for a conference interpreter is a clear error to Korean ears. Note also the verb 통역하다 takes the pattern A를 B(으)로 통역하다. Pitfalls: 사 ends in a vowel, so the copula is 통역사예요, never 통역사이에요; and the thing you 'need' takes 이/가 with 필요하다 (통역사가 필요해요), not the 을/를 an English speaker expects from 'need an interpreter'.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "통역사 means specifically an interpreter of spoken language in real time. Note also the verb 통역하다 takes the pattern A를 B(으)로 통역하다."},
+      {"k": "비슷한 말", "e": "VS", "t": "The essential contrast is 번역사, who translates written text: spoken = 통역, written = 번역, and the people and verbs differ (통역하다 vs 번역하다). Don't blur them — saying 번역사 for a conference interpreter is a clear error to Korean ears."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "통역사 is 通譯士 ('through-translate-specialist'), where 士(사) is the dignified suffix for a licensed/qualified professional (also in 변호사 lawyer, 회계사 accountant); its rival 번역사 is 翻譯士."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "사 ends in a vowel, so the copula is 통역사예요, never 통역사이에요; and the thing you 'need' takes 이/가 with 필요하다 (통역사가 필요해요), not the 을/를 an English speaker expects from 'need an interpreter'."}
+    ],
+    "mistakes": [
+      "Saying 통역사이에요 — wrong; 사 ends in a vowel, so use 통역사예요.",
+      "Confusing 통역사 (spoken) with 번역사 (written) — 통역 is live spoken interpreting, 번역 is text translation.",
+      "Saying 통역사를 필요해요 — 필요하다 marks the needed thing with 이/가, so it is 통역사가 필요해요."
+    ]
   },
   {
     "kind": "noun",
@@ -238,17 +348,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저는 운전사예요.", "I am a driver.", "예요 after vowel"],
-      ["운전사가 친절해요.", "The driver is kind.", "친절하다 means kind"],
-      ["버스 운전사", "bus driver", "버스 means bus"],
-      ["운전사가 되고 싶어요.", "I want to be a driver.", "되다 means become"]
+      ["저는 운전사예요.", "I am a driver.", "예요 after the vowel ending 사"],
+      ["버스 운전사", "bus driver", "the vehicle goes in front: 버스/택시/트럭 운전사"],
+      ["운전기사", "(polite) driver / chauffeur", "기사 is the more courteous term you call them by"],
+      ["운전사가 되고 싶어요.", "I want to become a driver.", "되다 takes 이/가"]
     ],
     "examples": [
-      ["저는 버스를 모는 운전사예요.", "I am a driver who drives a bus.", "모는 modifies 운전사"],
-      ["택시 운전사가 길을 잘 알아요.", "The taxi driver knows the roads well.", "알다 means know"],
-      ["우리 아버지는 트럭 운전사예요.", "My father is a truck driver.", "예요 after vowel"]
+      ["우리 아버지는 트럭 운전사예요.", "My father is a truck driver.", "the vehicle precedes 운전사"],
+      ["택시 운전사가 길을 정말 잘 알아요.", "The taxi driver really knows the roads well.", "길을 알다 'know the way' fits the job"],
+      ["기사님, 여기서 세워 주세요.", "Driver, please stop here.", "to the driver's face you say 기사님, not 운전사"]
     ],
-    "nuance": "운전사 means a person who drives a vehicle like a bus or taxi as their job. For a polite or professional tone Koreans often say 운전기사 instead.",
-    "mistakes": ["Confusing 운전사 the driver with 운전 the driving"]
+    "nuance": "운전사 is 運轉士 ('move-turn-specialist'), a person who drives a vehicle (bus, taxi, truck) for a living, with the professional suffix 士(사). The register point is the most important thing here: 운전사 is a neutral descriptive label, but to a driver's face — a taxi or bus driver — Koreans politely say 기사님 (기사 = 技士, with respectful 님), and 운전기사 is the courteous full form. Calling out 운전사! to address someone would sound curt. Distinguish 운전사 (the person) from 운전 (the act of driving: 운전을 하다 'to drive', 운전을 잘하다 'drive well'). Pitfalls: 사 ends in a vowel, so the copula is 운전사예요, never 운전사이에요; and for the activity 'I can drive' you say 운전할 수 있어요, using the verb 운전하다, not the job noun.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "운전사 is a person who drives a vehicle (bus, taxi, truck) for a living. The register point is the most important thing here: 운전사 is a neutral descriptive label, but to a driver's face — a taxi or bus driver — Koreans politely say 기사님 (with respectful 님), and 운전기사 is the courteous full form. Calling out 운전사! to address someone would sound curt."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish 운전사 (the person) from 운전 (the act of driving: 운전을 하다 'to drive', 운전을 잘하다 'drive well')."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "운전사 is 運轉士 ('move-turn-specialist'), with the professional suffix 士(사); the courteous 기사 is 技士."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "사 ends in a vowel, so the copula is 운전사예요, never 운전사이에요; and for the activity 'I can drive' you say 운전할 수 있어요, using the verb 운전하다, not the job noun."}
+    ],
+    "mistakes": [
+      "Saying 운전사이에요 — wrong; 사 ends in a vowel, so use 운전사예요.",
+      "Addressing a driver as 운전사 — to their face the polite form is 기사님; 운전사 used directly sounds blunt.",
+      "Confusing 운전사 (the person) with 운전 (the driving) — you do 운전, you are a 운전사."
+    ]
   }
 ]

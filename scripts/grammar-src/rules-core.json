@@ -5,19 +5,20 @@
     "romanization": "hana, dul, set",
     "title": "Native Korean Numbers",
     "plainEnglish": "The native number set (하나, 둘, 셋…) used to count things, people, animals, age, and the hour.",
-    "whenToUse": "Use native numbers to count objects, people, and animals, and to say age and o'clock: 사과 세 개 (three apples), 스무 살 (20 years old), 두 시 (two o'clock).",
+    "whenToUse": "Reach for native numbers whenever you are COUNTING something concrete you could point at, plus age and the o'clock hour. Ordering food: 사과 세 개 주세요 (three apples, please); talking about people or animals: 친구 두 명, 고양이 세 마리; giving your age in casual talk: 저는 스무 살이에요; saying the hour: 지금 두 시예요. The intent is 'how many of this thing?' — if you can imagine tallying them on your fingers, native numbers are almost always right. They pair with a COUNTER word (개 things, 명/분 people, 마리 animals, 살 years of age, 시 o'clock, 잔 cups, 권 books, 장 flat sheets); you rarely say a native number bare except when reciting 하나, 둘, 셋… out loud or counting reps.",
     "attachmentRule": "1–4 and 20 change shape right before a counter: 하나→한, 둘→두, 셋→세, 넷→네, 스물→스무 (한 개, 두 명, 세 시, 네 마리, 스무 살). From 5 up there is no change: 다섯 개, 열 명. Tens are their own words: 열(10), 스물(20), 서른(30), 마흔(40), 쉰(50), 예순(60), 일흔(70), 여든(80), 아흔(90). Native counting normally stops at 99; from 100 you switch to Sino 백.",
-    "contrastWith": "Contrast with Sino numbers (일, 이, 삼…), used for minutes, money, and dates. The clock mixes them: the HOUR is native (세 시) but the MINUTE is Sino (삼십 분).",
+    "contrastWith": "The sharp split is native vs SINO numbers (일, 이, 삼…). Native = things you count by hand + age + the hour; Sino = things you measure or label: money 삼천 원, minutes 삼십 분, dates 오월 오일, floors 삼 층, phone digits. The single trap that breaks everyone is the clock, which mixes both: the HOUR is native but the MINUTE is Sino — 7:30 is 일곱 시 (native) 삼십 분 (Sino), never 칠 시 삼십 분 and never 일곱 시 서른 분. Quick test: 'three o'clock' = 세 시 (native), but 'three minutes' = 삼 분 (Sino).",
     "sentenceFrames": ["___ 개 주세요.", "저는 ___ 살이에요.", "지금 ___ 시예요."],
     "examples": [
-      { "ko": "사과 세 개 주세요.", "romanization": "", "en": "Three apples, please." },
-      { "ko": "제 동생은 열 살이에요.", "romanization": "", "en": "My younger sibling is ten years old." },
-      { "ko": "고양이 두 마리를 키워요.", "romanization": "", "en": "I keep two cats." },
-      { "ko": "커피 네 잔 시켰어요.", "romanization": "", "en": "I ordered four cups of coffee." }
+      { "ko": "사과 세 개 주세요.", "romanization": "", "en": "Three apples, please.", "note": "셋 becomes 세 before a counter; 개 is the all-purpose counter for objects." },
+      { "ko": "제 동생은 열 살이에요.", "romanization": "", "en": "My younger sibling is ten years old.", "note": "From 다섯 up there is no shape change, so it stays 열, not a shortened form." },
+      { "ko": "고양이 두 마리를 키워요.", "romanization": "", "en": "I keep two cats.", "note": "Animals take the counter 마리; 둘 shortens to 두 right before it." },
+      { "ko": "친구들이랑 노래방에서 두 시간 동안 놀았어요.", "romanization": "", "en": "I hung out at karaoke with friends for two hours.", "note": "Real-life register: 시간 means a DURATION of hours (native number), distinct from 시 = the o'clock point." }
     ],
     "commonMistakes": [
-      "Using Sino numbers to count objects — 사과 삼 개 is wrong; say 사과 세 개.",
-      "Forgetting the shape change: it is 두 개 (not 둘 개) and 스무 살 (not 스물 살)."
+      "Using Sino numbers to count objects — 사과 삼 개 is wrong because counting tangible things is native territory; say 사과 세 개. The giveaway: a counter like 개/명/마리 almost always demands a native number.",
+      "Forgetting the shape change before a counter — 둘 개 and 스물 살 sound foreign; the number must shorten, so it is 두 개 and 스무 살. The rule fires for exactly 하나·둘·셋·넷·스물.",
+      "Mixing the hour with a Sino number — saying 칠 시 for 'seven o'clock' is wrong; the hour is the one everyday clock word that is native: 일곱 시."
     ],
     "practiceItems": [
       { "prompt": "3 apples (개)", "ko": "사과 세 개", "answer": "세 개" },
@@ -25,7 +26,7 @@
       { "prompt": "2 o'clock (시)", "ko": "두 시", "answer": "두 시" }
     ],
     "studyOrder": ["Memorize 하나~열 first", "Learn the 1–4 + 20 shape changes (한·두·세·네·스무)", "Practice with the counters 개·명·살·시"],
-    "beginnerExplanation": "Korean has two number systems, and this is the 'native' one. You use it to count things you can see and touch, plus age and the hour on a clock. The tricky part: 하나, 둘, 셋, 넷 and 스물 change to 한, 두, 세, 네, 스무 right before a counting word — so 'two cups' is 두 잔, not 둘 잔. From 다섯 (five) on, nothing changes."
+    "beginnerExplanation": "Korean has two number systems, and this is the 'native' one — think of it as your COUNTING-ON-FINGERS set: things you can see and touch, plus age and the hour on a clock. Mnemonic: if you could literally tally them one-by-one (one cat, two cats…), use native. The tricky part: 하나, 둘, 셋, 넷 and 스물 put on a shorter 'hat' right before a counting word — 하나→한, 둘→두, 셋→세, 넷→네, 스물→스무 — so 'two cups' is 두 잔, not 둘 잔. From 다섯 (five) on, nobody changes their hat; it stays 다섯 개, 열 명. Just those five shorten."
   },
   {
     "id": "grammar-numbers-sino",
@@ -33,19 +34,20 @@
     "romanization": "il, i, sam",
     "title": "Sino-Korean Numbers",
     "plainEnglish": "The Chinese-derived number set (일, 이, 삼…) used for minutes, money, dates, phone numbers, and large numbers.",
-    "whenToUse": "Use Sino numbers for minutes (삼십 분), money (천 원), dates (3월 5일), phone numbers, floors, and counting from the hundreds up.",
-    "attachmentRule": "일(1) 이(2) 삼(3) 사(4) 오(5) 육(6) 칠(7) 팔(8) 구(9) 십(10), then 백(100), 천(1,000), 만(10,000), 억(100,000,000). Combine the digits: 23 = 이십삼, 105 = 백오, 2024 = 이천이십사. Zero is 영 or 공 (공 in phone numbers). Sino numbers never change shape before a counter.",
-    "contrastWith": "Contrast with native numbers (하나, 둘…). The classic trap is the clock: the HOUR is native (일곱 시) but the MINUTE is Sino (칠 분), so 7:07 = 일곱 시 칠 분.",
+    "whenToUse": "Reach for Sino numbers when a number is MEASURED, labeled, or read off rather than tallied by hand. Money: 이건 천 원이에요 (this is 1,000 won); minutes: 십 분 걸려요 (it takes ten minutes); dates: 3월 5일 (March 5); phone and room numbers, bus lines, and floors: 삼 층, 백오 번 버스; and anything from the hundreds up. The intent is 'what value / which label is this?' If you are reading a price tag, a clock's minutes, a calendar, or a phone screen, you are in Sino territory. These are Sino-Korean, so each digit traces to a hanja: 일 一, 이 二, 삼 三, 사 四, 오 五, 육 六, 칠 七, 팔 八, 구 九, 십 十 — the very same roots Japanese and Chinese learners will recognize.",
+    "attachmentRule": "일(1) 이(2) 삼(3) 사(4) 오(5) 육(6) 칠(7) 팔(8) 구(9) 십(10), then 백(100), 천(1,000), 만(10,000), 억(100,000,000). Combine the digits: 23 = 이십삼, 105 = 백오, 2024 = 이천이십사. Zero is 영 or 공 (공 in phone numbers). Sino numbers never change shape before a counter. Note Korea groups large numbers by 만 (10,000), not by thousands: 십만 = 100,000, 백만 = 1,000,000.",
+    "contrastWith": "The sharp split is Sino vs NATIVE numbers (하나, 둘…). Sino = measured/labeled values (money 천 원, minutes 삼십 분, dates 삼월, floors 사 층); native = hand-counted things + age + the hour (사과 세 개, 스무 살, 두 시). The classic trap is the clock, which mixes them: the HOUR is native (일곱 시) but the MINUTE is Sino (칠 분), so 7:07 = 일곱 시 칠 분 — never 칠 시 일곱 분. Mini-contrast: 'five minutes' = 오 분 (Sino), but 'five o'clock' = 다섯 시 (native).",
     "sentenceFrames": ["___ 원이에요.", "___ 분 걸려요.", "오늘은 ___ 월 ___ 일이에요."],
     "examples": [
-      { "ko": "이건 삼천 원이에요.", "romanization": "", "en": "This is 3,000 won." },
-      { "ko": "십 분만 기다려 주세요.", "romanization": "", "en": "Please wait just ten minutes." },
-      { "ko": "제 생일은 오월 십일이에요.", "romanization": "", "en": "My birthday is May 10th." },
-      { "ko": "버스 백오 번을 타세요.", "romanization": "", "en": "Take bus number 105." }
+      { "ko": "이건 삼천 원이에요.", "romanization": "", "en": "This is 3,000 won.", "note": "Money is always Sino; 천 = 1,000, so 삼천 = 3,000." },
+      { "ko": "십 분만 기다려 주세요.", "romanization": "", "en": "Please wait just ten minutes.", "note": "Minutes take Sino + 분; 만 here means 'just/only', not the number 10,000." },
+      { "ko": "제 생일은 오월 십일이에요.", "romanization": "", "en": "My birthday is May 10th.", "note": "Dates are Sino + 월/일; spoken naturally as 오월 십일." },
+      { "ko": "택배 받을 주소가 삼 동 천이백오 호예요.", "romanization": "", "en": "The delivery address is Building 3, Unit 1205.", "note": "Real-life register: both the building (동) and the unit (호) are read as Sino numbers — 1205 = 천이백오." }
     ],
     "commonMistakes": [
-      "Reading minutes with native numbers — 삼십 분 is right, 서른 분 is wrong.",
-      "Forgetting that 6월 and 10월 are read 유월 and 시월 (not 육월/십월)."
+      "Reading minutes with native numbers — 삼십 분 is right, 서른 분 is wrong; minutes are a measured value, so they stay Sino even though the hour beside them is native.",
+      "Forgetting the two irregular months — 6월 and 10월 are read 유월 and 시월, not 육월/십월; the final consonant drops for smoother sound (육월→유월, 십월→시월).",
+      "Grouping big numbers by thousands like English — 100,000 is not '백천' but 십만 (ten-ten-thousands), because Korean counts large numbers in units of 만."
     ],
     "practiceItems": [
       { "prompt": "3,000 won", "ko": "삼천 원", "answer": "삼천 원" },
@@ -53,7 +55,7 @@
       { "prompt": "October 9 (date)", "ko": "시월 구일", "answer": "시월 구일" }
     ],
     "studyOrder": ["Memorize 일~십", "Learn 백·천·만 and how to combine digits", "Apply to money, minutes, and dates"],
-    "beginnerExplanation": "This is the second number system, borrowed from Chinese. You use it for things you measure or label rather than count by hand: money, minutes, dates, phone numbers, and big numbers. Unlike native numbers, these never change shape. Watch the calendar: 6월 is 유월 and 10월 is 시월."
+    "beginnerExplanation": "This is the second number system, borrowed from Chinese — think of it as your READING-OFF-A-SCREEN set: money, minutes, dates, phone numbers, addresses, and big numbers. Mnemonic: if the number is printed on a price tag, a clock face, or a calendar, read it Sino. Unlike native numbers, these NEVER change shape — 삼 is 삼 everywhere. Two calendar gotchas to memorize early: 6월 is 유월 and 10월 is 시월 (the consonant just falls off for smoother sound). And remember Korea chunks big numbers by 만 (10,000), so 100,000 is 십만, not '백천'."
   },
   {
     "id": "grammar-time-date",
@@ -61,19 +63,20 @@
     "romanization": "han si sip bun",
     "title": "Telling Time & Dates",
     "plainEnglish": "How to say clock times and calendar dates — which means mixing the two number systems.",
-    "whenToUse": "Use when telling the time (두 시 삼십 분 = 2:30) or giving a date (오월 오일 = May 5th, 금요일 = Friday).",
-    "attachmentRule": "TIME — the hour is a NATIVE number + 시 (한 시, 두 시 … 열두 시); the minute is a SINO number + 분 (오 분, 삼십 분). So 7:15 = 일곱 시 십오 분, and 'half past' is 반 (두 시 반). DATE — year, month, and day all use SINO + 년/월/일: 2024년 3월 5일 = 이천이십사 년 삼 월 오 일. Days of the week use 요일 (월요일, 화요일…). Note the irregular months: 6월 = 유월, 10월 = 시월.",
-    "contrastWith": "The hour is the ONE everyday time word that uses native numbers; minutes, dates, and years all use Sino. Mixing them up (일곱 분, 칠 시) is the most common beginner mistake.",
+    "whenToUse": "Use this whenever you set, ask, or confirm a time or a date — the bread-and-butter of making plans. Asking the time: 지금 몇 시예요?; arranging to meet: 우리 두 시 반에 만나요 (let's meet at 2:30); stating a deadline or a birthday: 마감은 오월 오일이에요, 제 생일은 시월 구일이에요; naming the weekday: 오늘은 금요일이에요. The 'at a time' particle is 에 — 세 시에 만나요 — and crucially 에 attaches to clock times and dates but NOT to 오늘/지금/어제 (you say 오늘 만나요, never 오늘에). The intent is pinning an event to the calendar or clock, so this pattern shows up in almost every appointment, reservation, and schedule you'll ever make.",
+    "attachmentRule": "TIME — the hour is a NATIVE number + 시 (한 시, 두 시 … 열두 시); the minute is a SINO number + 분 (오 분, 삼십 분). So 7:15 = 일곱 시 십오 분, and 'half past' is 반 (두 시 반). DATE — year, month, and day all use SINO + 년/월/일: 2024년 3월 5일 = 이천이십사 년 삼 월 오 일. Days of the week use 요일 (월요일, 화요일…). Note the irregular months: 6월 = 유월, 10월 = 시월. To say 'at' a time or date, add 에: 세 시에, 오일에.",
+    "contrastWith": "The point learners confuse is WHICH number system each slot takes. The hour is the ONE everyday time word that uses native numbers; minutes, years, months, and days all use Sino. Mini-contrast: 'seven o'clock' = 일곱 시 (native), but 'seven minutes' = 칠 분 (Sino), so 7:07 = 일곱 시 칠 분. A second confusion is the particle: use 에 for clock times and calendar dates (다섯 시에, 삼월에) but DROP it for the relative-time words 오늘·지금·어제·내일 — 'I'll come today' is 오늘 갈게요, never 오늘에 갈게요.",
     "sentenceFrames": ["지금 ___ 시 ___ 분이에요.", "오늘은 ___ 월 ___ 일이에요.", "우리 ___ 시에 만나요."],
     "examples": [
-      { "ko": "지금 일곱 시 칠 분이에요.", "romanization": "", "en": "It's 7:07 now." },
-      { "ko": "수업은 세 시 반에 끝나요.", "romanization": "", "en": "Class ends at 3:30." },
-      { "ko": "제 생일은 시월 구일이에요.", "romanization": "", "en": "My birthday is October 9th." },
-      { "ko": "오늘은 금요일이에요.", "romanization": "", "en": "Today is Friday." }
+      { "ko": "지금 일곱 시 칠 분이에요.", "romanization": "", "en": "It's 7:07 now.", "note": "Hour native (일곱), minute Sino (칠) — the core mix in one breath." },
+      { "ko": "수업은 세 시 반에 끝나요.", "romanization": "", "en": "Class ends at 3:30.", "note": "반 = 'half past'; the 에 marks the point in time the event happens." },
+      { "ko": "제 생일은 시월 구일이에요.", "romanization": "", "en": "My birthday is October 9th.", "note": "Dates are all Sino; 10월 is irregular — read 시월, not 십월." },
+      { "ko": "다음 주 금요일 저녁 일곱 시에 예약했어요.", "romanization": "", "en": "I made a reservation for next Friday at 7 p.m.", "note": "Real-life register: weekday + 저녁 + native-hour 시 + 에 is exactly how you'd book a table." }
     ],
     "commonMistakes": [
-      "Saying 칠 시 (Sino) for 'seven o'clock' — the hour is native: 일곱 시.",
-      "Saying 일곱 분 (native) for minutes — minutes are Sino: 칠 분."
+      "Saying 칠 시 (Sino) for 'seven o'clock' — the hour is the lone native slot on the clock, so it must be 일곱 시.",
+      "Saying 일곱 분 (native) for minutes — minutes are a measured value and stay Sino: 칠 분.",
+      "Adding 에 to relative-time words — 오늘에/지금에 are wrong; those words take no particle, so it is just 오늘 만나요 / 지금 가요 (but clock times do take 에: 두 시에)."
     ],
     "practiceItems": [
       { "prompt": "7:07", "ko": "일곱 시 칠 분", "answer": "일곱 시 칠 분" },
@@ -81,7 +84,7 @@
       { "prompt": "March 5", "ko": "삼월 오일", "answer": "삼월 오일" }
     ],
     "studyOrder": ["Hours = native number + 시", "Minutes = Sino number + 분", "Combine them: 일곱 시 칠 분", "Dates = Sino + 월/일"],
-    "beginnerExplanation": "Telling time in Korean uses BOTH number systems at once, which surprises everyone. The hour is a native number + 시 (일곱 시 = seven o'clock), but the minute is a Sino number + 분 (칠 분 = seven minutes). So 7:07 is 일곱 시 칠 분. Dates are all Sino: 삼월 오일 (March 5). Just remember: hour = native, everything else = Sino."
+    "beginnerExplanation": "Telling time in Korean uses BOTH number systems at once, which surprises everyone. Mnemonic: the HOUR is hand-counted, so it's native + 시 (일곱 시 = seven o'clock); the MINUTE is read off the clock face, so it's Sino + 분 (칠 분 = seven minutes). Put them together and 7:07 is 일곱 시 칠 분. Dates are read off the calendar, so they're all Sino: 삼월 오일 (March 5). To say something happens 'at' that time, tack on 에 — 두 시에 만나요 — but never glue 에 onto 오늘/지금. One line to remember: hour = native, everything else on the clock and calendar = Sino."
   },
   {
     "id": "grammar-eu-insertion",
@@ -89,19 +92,20 @@
     "romanization": "(eu) insertion",
     "title": "The (으) Insertion Rule",
     "plainEnglish": "When a verb/adjective stem ends in a consonant, you add 으 before many endings; vowel-ending stems skip it.",
-    "whenToUse": "This runs through all of Korean. Whenever an ending is written with (으) — like (으)면, (으)세요, (으)ㄹ 수 있다, (으)러, (으)니까 — you choose the form by the stem's last sound: 먹으면 vs 가면, 먹을 수 있다 vs 갈 수 있다.",
-    "attachmentRule": "Drop 다 to get the stem. If the stem ends in a VOWEL (no 받침), use the short form: -면, -세요, -ㄹ, -러, -니까, -ㄴ (가면, 가세요, 갈, 가러, 가니까). If the stem ends in a CONSONANT (받침 있음), insert 으: -으면, -으세요, -을, -으러, -으니까, -은 (먹으면, 먹으세요, 먹을, 먹으러, 먹으니까). ㄹ-final stems are special: the ㄹ stays for most endings (살면, 살아요) but DROPS before ㄴ/ㅂ/(으)-endings (살다 → 사세요, 사니까, 산).",
-    "contrastWith": "It is the SAME choice across many endings, so learn it once instead of memorizing each ending: 갈 거예요 / 먹을 거예요, 가면 / 먹으면, 가세요 / 먹으세요, 가니까 / 먹으니까.",
+    "whenToUse": "This rule fires the instant you meet an ending written with (으) in parentheses — and Korean has dozens: (으)면 'if', (으)세요 'please (do)', (으)ㄹ 수 있다 'can', (으)러 'in order to', (으)니까 'because', (으)ㄴ/(으)ㄹ noun-modifiers, (으)려고 'intending to'. Your job each time is to look at the stem's LAST sound and choose: vowel-ending stem takes the short form (가면, 가세요), consonant-ending stem takes the 으 form (먹으면, 먹으세요). The intent is purely phonetic — Korean inserts 으 as a buffer so two consonants don't crash together. Because the SAME yes/no choice repeats across all these endings, mastering it once quietly unlocks a huge slice of the grammar you'll keep meeting.",
+    "attachmentRule": "Drop 다 to get the stem. If the stem ends in a VOWEL (no 받침), use the short form: -면, -세요, -ㄹ, -러, -니까, -ㄴ (가면, 가세요, 갈, 가러, 가니까). If the stem ends in a CONSONANT (받침 있음), insert 으: -으면, -으세요, -을, -으러, -으니까, -은 (먹으면, 먹으세요, 먹을, 먹으러, 먹으니까). ㄹ-final stems are special: the ㄹ stays for most endings (살면, 살아요) but DROPS before ㄴ·ㅂ·ㅅ endings and the modifier -ㄹ (살다 → 사세요, 사니까, 산), and it never takes the 으 buffer.",
+    "contrastWith": "The thing to NOT confuse this with is the 아/어 vowel-harmony rule used for the 요-form and past tense (가요/먹어요, 갔어요/먹었어요). That rule picks 아 vs 어 by the stem vowel; THIS rule picks 으 vs nothing by whether there's a final consonant. Mini-contrast: from 먹다 you get 먹어요 (아/어 rule, present) but 먹으면 (으 rule, 'if'); from 가다 you get 가요 and 가면. They run on different triggers — vowel quality vs presence of a 받침 — so keep them in separate mental boxes. Within this rule, the everyday payoff is seeing it's one choice across many endings: 갈 거예요 / 먹을 거예요, 가세요 / 먹으세요, 가니까 / 먹으니까.",
     "sentenceFrames": ["(vowel) 가 + 면 → 가면   ·   (consonant) 먹 + 으면 → 먹으면", "갈 수 있어요  ·  먹을 수 있어요", "가세요  ·  읽으세요"],
     "examples": [
-      { "ko": "이거 먹을 수 있어요?", "romanization": "", "en": "Can I eat this?" },
-      { "ko": "저기로 가면 있어요.", "romanization": "", "en": "If you go over there, it's there." },
-      { "ko": "천천히 읽으세요.", "romanization": "", "en": "Please read slowly." },
-      { "ko": "밥 먹으러 가요.", "romanization": "", "en": "Let's go eat (in order to eat)." }
+      { "ko": "이거 먹을 수 있어요?", "romanization": "", "en": "Can I eat this?", "note": "먹- ends in a consonant, so (으)ㄹ becomes 을: 먹을 수 있어요." },
+      { "ko": "저기로 가면 있어요.", "romanization": "", "en": "If you go over there, it's there.", "note": "가- ends in a vowel, so (으)면 stays plain 면 — no 으." },
+      { "ko": "천천히 읽으세요.", "romanization": "", "en": "Please read slowly.", "note": "읽- ends in a consonant cluster, so the polite request adds 으: 읽으세요." },
+      { "ko": "여기서 오래 살면 길이 다 익숙해져요.", "romanization": "", "en": "If you live here a long time, all the streets become familiar.", "note": "Real-life ㄹ-stem: 살다 keeps its ㄹ before 면 (살면), but the same stem DROPS it in 사세요 — the special case to watch." }
     ],
     "commonMistakes": [
-      "Adding 으 after a vowel stem — 가으면 is wrong; it is 가면.",
-      "Forgetting 으 after a consonant stem — 먹면/먹세요 are wrong; it is 먹으면/먹으세요."
+      "Adding 으 after a vowel stem — 가으면/가으세요 are wrong because there's no consonant clash to buffer; vowel stems take the bare ending: 가면, 가세요.",
+      "Forgetting 으 after a consonant stem — 먹면/먹세요 are unpronounceable as intended; the consonant stem needs the buffer: 먹으면, 먹으세요.",
+      "Treating ㄹ-stems like normal consonant stems — 살다 does not become 살으세요; the ㄹ drops before ㄴ·ㅂ·ㅅ endings, giving 사세요, 사니까, 산 (and 살면 keeps the ㄹ with no 으)."
     ],
     "practiceItems": [
       { "prompt": "먹다 + (으)면", "ko": "먹으면", "answer": "먹으면" },
@@ -109,6 +113,6 @@
       { "prompt": "읽다 + (으)세요", "ko": "읽으세요", "answer": "읽으세요" }
     ],
     "studyOrder": ["Find the stem (drop 다)", "Check for a final consonant (받침)", "Consonant → add 으 (먹으면); vowel → skip it (가면)", "Watch ㄹ-stems: 살다 → 사세요"],
-    "beginnerExplanation": "This is maybe THE most useful rule in Korean. Many endings are written with (으) in front — like (으)면 'if', (으)세요 'please', (으)ㄹ 수 있다 'can'. The 으 is just a little buffer vowel. If the verb stem ends in a consonant (먹-), add 으: 먹으면, 먹으세요, 먹을 수 있어요. If it ends in a vowel (가-), skip it: 가면, 가세요, 갈 수 있어요. Learn it once and it unlocks dozens of endings at the same time."
+    "beginnerExplanation": "This is maybe THE most useful rule in Korean. Many endings are written with (으) in front — like (으)면 'if', (으)세요 'please', (으)ㄹ 수 있다 'can'. Think of 으 as a tiny stepping-stone: if the verb stem ends in a consonant (먹-), two consonants would crash, so you drop in 으 to step across — 먹으면, 먹으세요, 먹을 수 있어요. If the stem already ends in a vowel (가-), the path is smooth and you skip the stone — 가면, 가세요, 갈 수 있어요. Don't mix this up with the 아/어 rule that makes 가요/먹어요; that one's about vowel matching, this one's about whether there's a 받침. Learn this single yes/no once and dozens of endings fall into place at the same time."
   }
 ]

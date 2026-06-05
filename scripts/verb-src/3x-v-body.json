@@ -25,34 +25,63 @@
       [
         "어디 다쳤어요?",
         "Where did you get hurt?",
-        "First thing people ask if you limp in or hold an injured spot."
+        "The first thing people ask if you limp in or hold an injured spot; 어디 = 'where (on the body)'."
       ],
       [
         "다치지 않게 조심하세요",
         "Be careful not to get hurt",
-        "Standard warning at the gym, on icy streets, or near construction."
+        "다치지 않게 = 'so as not to get hurt'; standard warning at the gym, on icy streets, or near construction."
+      ],
+      [
+        "크게 다쳤어요",
+        "I got badly hurt",
+        "크게 다치다 = 'to be seriously injured'; 크게 (lit. 'big-ly') is the default adverb for the severity of an injury."
+      ],
+      [
+        "다친 데 없어요?",
+        "Are you not hurt anywhere?",
+        "다친 데 = 'the hurt spot'; the caring check-in right after someone trips, crashes, or gets in a fender-bender."
       ]
     ],
     "examples": [
       [
+        "손을 다쳤어요.",
+        "I hurt my hand.",
+        "Simplest frame: body part + 을/를 + 다치다. The hurt body part is the object, not the subject."
+      ],
+      [
         "축구하다가 무릎을 다쳤어요.",
         "I hurt my knee while playing soccer.",
-        "V-다가 = 'while doing X, (something happened)'; super common with injuries."
+        "V-다가 = 'while doing X, (something happened)'; the most common way to set up how an injury occurred."
       ],
       [
-        "넘어져서 손목을 좀 다쳤어요.",
-        "I fell and hurt my wrist a little.",
-        "손목 = wrist; useful to name the exact body part at a clinic (정형외과)."
-      ],
-      [
-        "크게 다친 건 아니에요.",
-        "It's not a serious injury.",
-        "크게 다치다 = 'to be badly hurt'; reassuring a worried friend or doctor."
+        "넘어져서 손목을 좀 다쳤는데 병원 가야 할까요?",
+        "I fell and hurt my wrist a bit — should I go to the hospital?",
+        "Real clinic-decision moment; 넘어지다 = to fall over, and naming 손목 (wrist) routes you to 정형외과 (orthopedics)."
       ]
     ],
-    "nuance": "다치다 covers any physical injury to yourself — bumps, cuts, sprains, breaks — and the body part takes 을/를 (무릎을 다쳤어요). It's intransitive in feel ('I got hurt'), not 'I hurt someone', so don't use it to describe injuring another person. At a hospital, pairing 다치다 with the exact body part (발목, 허리, 손목) gets you to the right department fast.",
+    "nuance": "다치다 is the everyday verb for getting physically injured — bumps, cuts, sprains, breaks — and crucially the injured body part takes 을/를, not 이/가 (무릎을 다쳤어요, not 무릎이). Although it translates as 'to hurt', it behaves like an intransitive 'to GET hurt' aimed at yourself, so you cannot use it to mean 'I hurt someone else' — that is 다치게 하다 or 상처를 입히다. The nearest neighbor is 아프다, and the dividing line matters: 다치다 is the one-time event of getting injured (넘어져서 다쳤어요), while 아프다 is the lingering pain or sickness that follows (지금도 아파요). It pairs habitually with 크게 다치다 (badly hurt), 살짝/조금 다치다 (slightly hurt), and 다친 데 (the injured spot). At a hospital, 다치다 plus the exact body part (발목, 허리, 손목) gets you to the right department fast.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "다치다 is the everyday verb for getting physically injured — bumps, cuts, sprains, breaks — and crucially the injured body part takes 을/를, not 이/가 (무릎을 다쳤어요, not 무릎이). It pairs habitually with 크게 다치다 (badly hurt), 살짝/조금 다치다 (slightly hurt), and 다친 데 (the injured spot). At a hospital, 다치다 plus the exact body part (발목, 허리, 손목) gets you to the right department fast."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The nearest neighbor is 아프다, and the dividing line matters: 다치다 is the one-time event of getting injured (넘어져서 다쳤어요), while 아프다 is the lingering pain or sickness that follows (지금도 아파요)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Although it translates as 'to hurt', it behaves like an intransitive 'to GET hurt' aimed at yourself, so you cannot use it to mean 'I hurt someone else' — that is 다치게 하다 or 상처를 입히다."
+      }
+    ],
     "mistakes": [
-      "Saying 아프다 when you mean an injury — 아프다 is 'it hurts / I'm sick', but 다치다 is the actual act of getting injured. '넘어져서 다쳤어요' (got hurt), then '지금도 아파요' (still hurts)."
+      "Using 아프다 when you mean an injury — 아프다 is 'it hurts / I'm sick' (a state), but 다치다 is the act of getting injured (an event). Say '넘어져서 다쳤어요' for the injury, then '지금도 아파요' for the pain that remains.",
+      "Marking the body part with 이/가 — it's 무릎을 다쳤어요 (object 을), not 무릎이 다쳤어요. The body part is what you injure, so it takes 을/를.",
+      "Trying to say 'I hurt my friend' with 다치다 — 친구를 다쳤어요 is wrong because 다치다 is about getting hurt yourself. Use 친구를 다치게 했어요 ('I caused my friend to get hurt')."
     ],
     "irregular": null
   },
@@ -82,34 +111,64 @@
       [
         "빨리 나으세요",
         "Get well soon",
-        "THE phrase to send a sick coworker or friend; warmer than 빨리 나아요."
+        "THE phrase to send a sick coworker or friend; the honorific 나으세요 is warmer and more polite than 빨리 나아요."
       ],
       [
         "감기 다 나았어요?",
         "Are you over your cold now?",
-        "다 낫다 = 'to be fully healed'; natural check-in after someone was sick."
+        "다 낫다 = 'to be fully healed'; 다 = 'all/completely', the natural check-in after someone was sick."
+      ],
+      [
+        "약을 먹어도 안 나아요",
+        "It won't get better even though I take medicine",
+        "Useful at a clinic to say a remedy isn't working; 안 나아요 keeps the ㅅ dropped before the vowel."
+      ],
+      [
+        "상처가 잘 나았어요",
+        "The wound healed well",
+        "상처가 낫다 = 'a wound heals'; 잘 = 'well/nicely', the reassuring report after a cut or surgery site closes up."
       ]
     ],
     "examples": [
       [
+        "감기가 나았어요.",
+        "My cold got better.",
+        "Core pattern: the illness is the SUBJECT (감기가) — you don't heal something, the sickness heals on its own."
+      ],
+      [
         "약 먹으니까 감기가 금방 나았어요.",
         "I took the medicine and the cold got better quickly.",
-        "ㅅ-irregular: 낫 + 았어요 → 나았어요 (the ㅅ drops). Don't write 낳았어요 — that's 'gave birth'."
+        "ㅅ-irregular in action: 낫 + 았어요 → 나았어요 (the ㅅ drops). 금방 = 'in no time'. Don't write 낳았어요 (gave birth)."
       ],
       [
-        "상처가 아직 안 나았어요.",
-        "The wound hasn't healed yet.",
-        "Works for cuts, scrapes, and surgery sites, not just illness."
-      ],
-      [
-        "푹 쉬면 곧 나을 거예요.",
-        "If you rest well, you'll get better soon.",
-        "푹 쉬다 = 'to rest fully'; the classic comforting line in Korea."
+        "푹 쉬면 곧 나을 거예요, 너무 무리하지 마세요.",
+        "If you rest well you'll soon get better, so don't overdo it.",
+        "푹 쉬다 = 'to rest fully'; the classic comforting send-off pairing 나을 거예요 with 무리하지 마세요."
       ]
     ],
-    "nuance": "낫다 ('heal') is a ㅅ-irregular verb: the ㅅ disappears before a vowel (나아요, 나았어요, 나을), but stays before a consonant (낫습니다, 낫고). It's intransitive — the illness or wound is the subject (감기가 나았어요), so you don't 'heal' something with it. Beware the homophone trap: 낫다 'heal' vs 낳다 'give birth' vs 났다 (from 나다) — they sound similar but are spelled differently.",
+    "nuance": "낫다 means an illness or wound heals, and it is a ㅅ-irregular verb: the ㅅ disappears before a vowel (나아요, 나았어요, 나을, 나으세요) but stays before a consonant (낫습니다, 낫고, 낫지). It is intransitive — the cold or the cut is the subject (감기가 나았어요, 상처가 나았어요) — so you never 'heal something' with it; for that you'd use 치료하다 (to treat) or 고치다 (to cure/fix). The big trap for everyone, native and learner alike, is the homophone cluster: 낫다 'heal', 낳다 'give birth', and 났다 (from 나다, 'broke out/occurred') all sound like [낟따] but mean totally different things, so 나았어요 (got better) must never be spelled 낳았어요 (gave birth). Note 낫다 also has a second meaning, 'to be better/preferable' (이게 더 나아요 = this one's better), which shares the exact same conjugation. It collocates with 빨리/금방/곧 낫다 (heal fast/soon) and 다 낫다 (fully heal).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "낫다 means an illness or wound heals. It is intransitive — the cold or the cut is the subject (감기가 나았어요, 상처가 나았어요) — so you never 'heal something' with it; for that you'd use 치료하다 (to treat) or 고치다 (to cure/fix). Note 낫다 also has a second meaning, 'to be better/preferable' (이게 더 나아요 = this one's better), which shares the exact same conjugation. It collocates with 빨리/금방/곧 낫다 (heal fast/soon) and 다 낫다 (fully heal)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㅅ-irregular verb: the ㅅ disappears before a vowel (나아요, 나았어요, 나을, 나으세요) but stays before a consonant (낫습니다, 낫고, 낫지).",
+        "chips": ["나아요", "나았어요", "나을", "나으세요", "낫습니다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big trap for everyone, native and learner alike, is the homophone cluster: 낫다 'heal', 낳다 'give birth', and 났다 (from 나다, 'broke out/occurred') all sound like [낟따] but mean totally different things, so 나았어요 (got better) must never be spelled 낳았어요 (gave birth)."
+      }
+    ],
     "mistakes": [
-      "Spelling the past as 낳았어요 (that means 'gave birth') instead of 나았어요 for 'got better'. The dictionary form is 낫다, not 낳다."
+      "Spelling the past as 낳았어요 (that means 'gave birth') instead of 나았어요 for 'got better'. The dictionary form is 낫다, not 낳다 — listen for the meaning, not just the sound.",
+      "Keeping the ㅅ before a vowel — it's 나아요/나았어요/나을, NOT 낫아요/낫았어요. The ㅅ only survives before consonants (낫습니다, 낫고).",
+      "Making it transitive like English 'heal it' — 감기를 나았어요 is wrong; the illness is the subject, so it's 감기가 나았어요. To 'cure' something actively, use 치료하다 or 고치다."
     ],
     "irregular": "ㅅ"
   },
@@ -139,34 +198,63 @@
       [
         "발목 삐었어요",
         "I sprained my ankle",
-        "The single most useful sprain phrase — say it at any 정형외과 or pharmacy."
+        "The single most useful sprain phrase — say it at any 정형외과 or pharmacy; 발목 (ankle) is the default body part."
       ],
       [
         "삐끗했어요",
         "I tweaked it / wrenched it slightly",
-        "삐끗하다 is the casual everyday word for a minor twist of the ankle or back."
+        "삐끗하다 is the casual everyday word for a minor twist of the ankle or back, lighter than a full 삐다."
+      ],
+      [
+        "발목이 부었어요",
+        "My ankle is swollen",
+        "붓다 (to swell) is the symptom that follows a sprain; '삐어서 부었어요' tells a doctor the whole story."
+      ],
+      [
+        "손목을 접질렸어요",
+        "I wrenched my wrist",
+        "접질리다 is a near-synonym for a wrenched/twisted joint; good to recognize when a Korean uses it instead of 삐다."
       ]
     ],
     "examples": [
       [
+        "발목을 삐었어요.",
+        "I sprained my ankle.",
+        "Bare-bones report; 삐다 almost always takes 발목 (ankle) or 손목 (wrist) as the object with 을/를."
+      ],
+      [
         "계단에서 내려오다가 발목을 삐었어요.",
         "I sprained my ankle coming down the stairs.",
-        "삐다 almost always takes 발목 (ankle) or 손목 (wrist) as the object with 을/를."
+        "V-다가 sets up the mid-action accident; 내려오다 = to come down. A textbook way to explain how it happened."
       ],
       [
-        "발목을 삐어서 파스를 붙였어요.",
-        "I sprained my ankle so I put on a pain patch.",
-        "파스 = medicated pain patch, sold at every 약국 (pharmacy); 붙이다 = to stick on."
-      ],
-      [
-        "삐었을 때는 얼음으로 찜질하세요.",
-        "When you sprain it, ice it.",
-        "찜질하다 = to apply a hot/cold compress; standard first-aid advice."
+        "어제 발목을 삐었는데 오늘 더 부어서 병원에 가려고요.",
+        "I sprained my ankle yesterday but it's more swollen today, so I'm going to the hospital.",
+        "Real decision moment chaining 삐다 + 붓다 + clinic; -(으)려고요 = 'I intend to', softens the announcement."
       ]
     ],
-    "nuance": "삐다 is the everyday verb for spraining a joint, overwhelmingly used with 발목 (ankle) and 손목 (wrist). It's most natural in the past/result form 삐었어요 because a sprain is a sudden event you report after it happens. The colloquial 삐끗하다 ('to tweak/wrench') covers milder twists. For a clinic visit, 발목을 삐었어요 plus '부었어요' (it's swollen) communicates the whole problem clearly.",
+    "nuance": "삐다 is the plain everyday verb for spraining a joint, overwhelmingly collocating with 발목 (ankle) and 손목 (wrist), with the joint as the object (발목을 삐다). Because a sprain is a sudden event you report after the fact, it lives most naturally in the past/result form 삐었어요 rather than the present. Mind the boundaries with its neighbors: 접질리다 also means to wrench/twist a joint and overlaps heavily, while the casual 삐끗하다 covers a milder 'tweak'; most importantly, 삐다 (a sprain — soft tissue) is NOT 부러지다 (a bone fracture), so a clinic needs to hear which one. There's no Sino-Korean root here — it's a native Korean word. For a doctor, 발목을 삐었어요 plus 부었어요 (it's swollen) communicates the whole problem; standard first-aid is to 얼음찜질하다 (ice it).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "삐다 is the plain everyday verb for spraining a joint, overwhelmingly collocating with 발목 (ankle) and 손목 (wrist), with the joint as the object (발목을 삐다). Because a sprain is a sudden event you report after the fact, it lives most naturally in the past/result form 삐었어요 rather than the present. For a doctor, 발목을 삐었어요 plus 부었어요 (it's swollen) communicates the whole problem; standard first-aid is to 얼음찜질하다 (ice it)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Mind the boundaries with its neighbors: 접질리다 also means to wrench/twist a joint and overlaps heavily, while the casual 삐끗하다 covers a milder 'tweak'; most importantly, 삐다 (a sprain — soft tissue) is NOT 부러지다 (a bone fracture), so a clinic needs to hear which one."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "There's no Sino-Korean root here — it's a native Korean word."
+      }
+    ],
     "mistakes": [
-      "Confusing 삐다 (sprain a joint) with 부러지다 (to break/fracture a bone). A sprain is 삐었어요; a broken bone is 뼈가 부러졌어요."
+      "Confusing 삐다 (sprain a joint — soft tissue) with 부러지다 (to break/fracture a bone). A sprain is 발목을 삐었어요; a broken bone is 뼈가 부러졌어요. The treatment differs, so don't swap them at a clinic.",
+      "Using the present tense 삐어요 to report an injury that already happened — say 삐었어요 (past), since you're describing a completed event. Present 삐어요 sounds like a general 'one tends to sprain it'.",
+      "Marking the joint with 이/가 — it's 발목을 삐었어요 (object 을), not 발목이 삐었어요. You sprain the ankle, so it takes 을/를."
     ],
     "irregular": null
   },
@@ -196,34 +284,63 @@
       [
         "긁지 마세요",
         "Don't scratch it",
-        "What the doctor says about a rash, bug bite, or healing wound."
+        "What the doctor says about a rash, bug bite, or healing wound; the most-heard form of this verb in a clinic."
       ],
       [
         "등 좀 긁어 줘",
         "Scratch my back a bit",
-        "긁어 주다 = to scratch (for someone); casual home/couple request."
+        "긁어 주다 = to scratch (for someone); a casual home/couple request, with 줘 the 반말 'do it for me'."
+      ],
+      [
+        "가려워서 긁었어요",
+        "It itched so I scratched it",
+        "The natural cause-and-effect pair: the adjective 가렵다 (itchy) feeds straight into 긁다 (scratch)."
+      ],
+      [
+        "긁으면 더 가려워요",
+        "It gets itchier if you scratch",
+        "긁으면 = 'if (you) scratch'; the warning that scratching backfires, said about eczema and bites."
       ]
     ],
     "examples": [
       [
+        "등을 긁었어요.",
+        "I scratched my back.",
+        "Basic frame: the itchy spot or body part takes 을/를 — 등을 긁다, 팔을 긁다."
+      ],
+      [
         "모기 물린 데를 자꾸 긁었어요.",
         "I kept scratching the mosquito bite.",
-        "물린 데 = the bitten spot; 자꾸 = 'keep (doing)', very natural for itch."
+        "물린 데 = 'the bitten spot' (물리다 = to get bitten); 자꾸 = 'keep (doing)', very natural for an itch you can't leave alone."
       ],
       [
-        "가려워도 긁으면 더 안 좋아요.",
-        "Even if it itches, scratching makes it worse.",
-        "가렵다 (to be itchy) almost always shows up next to 긁다."
-      ],
-      [
-        "피부를 너무 긁어서 상처가 났어요.",
-        "I scratched my skin so much it got a wound.",
-        "상처가 나다 = 'a wound forms'; consequence of over-scratching."
+        "가려워도 긁으면 흉터가 남으니까 참으세요.",
+        "Even if it itches, you'll get a scar if you scratch, so hold back.",
+        "Full real-life advice: 흉터가 남다 = 'a scar remains', 참다 = to endure; 가렵다 and 긁다 appear together as always."
       ]
     ],
-    "nuance": "긁다 is the physical act of scratching with nails or an object, and it pairs naturally with the adjective 가렵다 ('to be itchy'): 가려워서 긁어요 ('it itches so I scratch'). The body part or itchy spot takes 을/를. Don't confuse it with 긋다 (to draw a line) — different verb. In a medical context, the negative command 긁지 마세요 ('don't scratch') is what you'll hear most.",
+    "nuance": "긁다 is the physical act of scratching with fingernails or an object, and the itchy spot or body part takes 을/를 (등을 긁다). Its inseparable partner is the adjective 가렵다 ('to be itchy'): 가려워서 긁어요 ('it itches so I scratch') is the default chain, and the key learner distinction is exactly this — 가렵다 is the SENSATION (a descriptive adjective, 'it itches'), while 긁다 is the ACTION you take in response (a verb, 'I scratch'). Don't confuse 긁다 with the look-alike 긋다 ('to draw a line / strike a match'), a different verb entirely. Beyond skin, 긁다 has lively idioms: 복권을 긁다 (scratch a lottery ticket), 카드를 긁다 (swipe/charge a card), and 신경을 긁다 ('to get on someone's nerves', literally 'scratch the nerves'). In a medical context the negative command 긁지 마세요 ('don't scratch') is what you'll hear most.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "긁다 is the physical act of scratching with fingernails or an object, and the itchy spot or body part takes 을/를 (등을 긁다). Its inseparable partner is the adjective 가렵다 ('to be itchy'): 가려워서 긁어요 ('it itches so I scratch') is the default chain. Beyond skin, 긁다 has lively idioms: 복권을 긁다 (scratch a lottery ticket), 카드를 긁다 (swipe/charge a card), and 신경을 긁다 ('to get on someone's nerves', literally 'scratch the nerves'). In a medical context the negative command 긁지 마세요 ('don't scratch') is what you'll hear most."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Don't confuse 긁다 with the look-alike 긋다 ('to draw a line / strike a match'), a different verb entirely."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The key learner distinction is between 가렵다 and 긁다: 가렵다 is the SENSATION (a descriptive adjective, 'it itches'), while 긁다 is the ACTION you take in response (a verb, 'I scratch')."
+      }
+    ],
     "mistakes": [
-      "Mixing up 긁다 (scratch an itch) with 가렵다 (to be itchy) — 가렵다 describes the sensation, 긁다 is the action you take. '가려워서 긁었어요' uses both correctly."
+      "Mixing up 긁다 (the action of scratching) with 가렵다 (the feeling of itching) — 가렵다 describes the sensation, 긁다 is what you do about it. '가려워서 긁었어요' uses both correctly: feeling first, action second.",
+      "Saying 가려워요 to mean 'I scratch' — 가렵다 is an adjective ('it's itchy'), so it cannot describe the action. Use 긁다 for scratching: 손으로 긁어요.",
+      "Confusing 긁다 with 긋다 ('to draw a line') because they look similar — they are unrelated verbs. Scratching an itch is always 긁다."
     ],
     "irregular": null
   },
@@ -253,34 +370,69 @@
       [
         "추워서 떨었어요",
         "I was shivering because it was cold",
-        "Standard way to say your body shook from cold."
+        "The standard way to say your body shook from cold; 추워서 = 'because it's cold', the most common trigger."
       ],
       [
         "긴장하지 말고 떨지 마세요",
         "Don't be nervous, don't shake",
-        "떨다 also means trembling from nerves before a test or interview."
+        "떨다 also covers trembling from nerves before a test or interview; here it's the 'don't be jittery' pep talk."
+      ],
+      [
+        "손이 떨려요",
+        "My hands are trembling",
+        "The passive 떨리다 is what Koreans actually use for involuntary shaking — from cold, nerves, or low blood sugar."
+      ],
+      [
+        "덜덜 떨었어요",
+        "I was shivering hard",
+        "덜덜 떨다 = to shake violently; the mimetic 덜덜 (teeth-chattering) makes the shivering sound vivid and native."
       ]
     ],
     "examples": [
       [
-        "열이 나고 몸이 으슬으슬 떨려요.",
-        "I have a fever and my body is shivering with chills.",
-        "으슬으슬 = the shivery-chills mimetic word; 떨리다 (passive) is common for involuntary shaking."
+        "추워서 떨어요.",
+        "I'm shivering because it's cold.",
+        "Simplest form. 떨다 is the active verb for shaking your own body; the reason usually comes with -아서/-어서."
       ],
       [
-        "손이 떨려서 글씨를 못 쓰겠어요.",
-        "My hands are trembling so I can't write.",
-        "손이 떨리다 = hands shake; from cold, nerves, or low blood sugar."
+        "면접 보기 전에 너무 긴장해서 손이 떨렸어요.",
+        "I was so nervous before the interview that my hands were shaking.",
+        "Everyday nerves scenario; note the passive 떨리다 (손이 떨렸어요) for shaking you can't control — the natural choice here."
       ],
       [
-        "버스 정류장에서 추워서 덜덜 떨었어요.",
-        "I was shivering at the bus stop because it was so cold.",
-        "덜덜 떨다 = to shiver hard; 덜덜 is the classic teeth-chattering sound word."
+        "열이 나고 몸이 으슬으슬 떨려서 병원에 갔어요.",
+        "I had a fever and my body was shivering with chills, so I went to the hospital.",
+        "Real symptom report; 으슬으슬 = the shivery-chills mimetic, and 떨리다 conveys involuntary fever shakes."
       ]
     ],
-    "nuance": "떨다 is a ㄹ-irregular verb, so the ㄹ drops before ㅂ/ㄴ/ㅅ endings: formal 떱니다 (not 떨ㅂ니다). It covers shaking from cold, fear, or nerves. Note the closely related passive 떨리다 ('to be trembling / to quiver'), which Koreans use just as often for involuntary shaking — 손이 떨려요 ('my hands are shaking') is extremely natural. Pair 떨다 with mimetic words 덜덜 (hard shiver) or 으슬으슬 (chilly shiver) to sound native.",
+    "nuance": "떨다 means to shake or shiver — from cold, fear, or nerves — and it is a ㄹ-stem verb, so the ㄹ regularly drops before ㅂ/ㄴ/ㅅ endings: formal 떱니다 (never 떨습니다 or 떨ㅂ니다), and 떠세요. The single most important thing for a learner is the active/passive split: 떨다 is active ('to shake [something / oneself]', and you can even 떨다 your leg as a habit — 다리를 떨다), but for involuntary body shaking Koreans overwhelmingly reach for the passive 떨리다 — 손이 떨려요 ('my hands are shaking') and 몸이 떨려요 are far more natural than the active 떨어요 here. Compare with neighbors: 흔들리다 is 'to sway/wobble' (a tree, a building), while 떨다/떨리다 is fine, fast trembling of the body. To sound native, glue on mimetic adverbs — 덜덜 (hard, cold/fear shiver) and 으슬으슬 (the chilly shiver of an oncoming fever). Note the unrelated idiom 엄살 떨다 / 수선 떨다, where 떨다 means 'to make a fuss'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "떨다 means to shake or shiver — from cold, fear, or nerves. To sound native, glue on mimetic adverbs — 덜덜 (hard, cold/fear shiver) and 으슬으슬 (the chilly shiver of an oncoming fever). Note the unrelated idiom 엄살 떨다 / 수선 떨다, where 떨다 means 'to make a fuss'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare with neighbors: 흔들리다 is 'to sway/wobble' (a tree, a building), while 떨다/떨리다 is fine, fast trembling of the body."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㄹ-stem verb, so the ㄹ regularly drops before ㅂ/ㄴ/ㅅ endings: formal 떱니다 (never 떨습니다 or 떨ㅂ니다), and 떠세요.",
+        "chips": ["떱니다", "떠세요", "떨어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The single most important thing for a learner is the active/passive split: 떨다 is active ('to shake [something / oneself]', and you can even 떨다 your leg as a habit — 다리를 떨다), but for involuntary body shaking Koreans overwhelmingly reach for the passive 떨리다 — 손이 떨려요 ('my hands are shaking') and 몸이 떨려요 are far more natural than the active 떨어요 here."
+      }
+    ],
     "mistakes": [
-      "Forgetting the ㄹ drops in the formal form — it's 떱니다, not 떨습니다 or 떨ㅂ니다."
+      "Forgetting the ㄹ drops in the formal form — it's 떱니다, not 떨습니다 or 떨ㅂ니다. ㄹ-stems always lose the ㄹ before the ㅂ/ㄴ/ㅅ of an ending.",
+      "Using active 떨어요 for involuntary shaking — for hands or a body shaking on their own, the passive 떨려요 is the natural choice (손이 떨려요), not 손을 떨어요. Active 떨다 implies you're doing it (e.g., 다리를 떨다, jiggling your leg).",
+      "Confusing 떨다/떨리다 (fast body trembling) with 흔들리다 (to sway/wobble) — a shivering body is 떨려요, but a swaying tree or rocking boat is 흔들려요."
     ],
     "irregular": "ㄹ"
   },
@@ -310,34 +462,69 @@
       [
         "회의 중에 졸았어요",
         "I dozed off during the meeting",
-        "Relatable confession; 회의 중에 = 'in the middle of the meeting'."
+        "A relatable confession; 회의 중에 = 'in the middle of the meeting', the prototypical wrong place to nod off."
       ],
       [
         "운전 중에 졸지 마세요",
         "Don't doze off while driving",
-        "졸음운전 (drowsy driving) is a serious road-safety phrase in Korea."
+        "졸음운전 (drowsy driving) is a serious road-safety phrase in Korea; 졸지 마세요 is the warning."
+      ],
+      [
+        "깜빡 졸았어요",
+        "I dozed off for a second",
+        "깜빡 = 'for a brief moment / momentarily'; the everyday 'I nodded off just for a sec' on a couch or desk."
+      ],
+      [
+        "자꾸 졸려요",
+        "I keep feeling sleepy",
+        "졸리다 = 'to feel sleepy' (the sensation), the step BEFORE 졸다 (the act); 자꾸 = 'keep (being)'."
       ]
     ],
     "examples": [
       [
-        "점심 먹고 나서 자꾸 졸려서 졸았어요.",
-        "After lunch I kept feeling sleepy and dozed off.",
-        "Note 졸리다 = 'to feel sleepy' (the feeling) vs 졸다 = 'to nod off' (the act)."
+        "수업 시간에 졸았어요.",
+        "I dozed off in class.",
+        "Basic frame; 졸다 is intransitive and usually pinned to a place/time you shouldn't sleep (수업 시간에 = during class)."
       ],
       [
-        "지하철에서 졸다가 역을 지나쳤어요.",
-        "I dozed off on the subway and missed my stop.",
-        "지나치다 = to pass by; a very Seoul-commuter experience."
+        "점심 먹고 나서 자꾸 졸려서 결국 졸았어요.",
+        "After lunch I kept getting sleepy and ended up dozing off.",
+        "Shows the pair clearly: 졸리다 = 'to feel sleepy' (feeling) leads to 졸다 = 'to nod off' (act); 결국 = 'in the end'."
       ],
       [
-        "수업 시간에 졸면 안 돼요.",
-        "You shouldn't doze off during class.",
-        "V-(으)면 안 돼요 = 'must not'; gentle rule reminder."
+        "지하철에서 깜빡 졸다가 내릴 역을 지나쳤어요.",
+        "I dozed off for a moment on the subway and missed the stop I was supposed to get off at.",
+        "Quintessential Seoul-commuter story; V-다가 = mid-action interruption, 지나치다 = to pass by/overshoot."
       ]
     ],
-    "nuance": "졸다 is a ㄹ-irregular verb (formal 좁니다, with the ㄹ dropping before ㅂ). It means to nod off / fall into a light doze, usually somewhere you're not supposed to — meetings, class, the subway. Keep it distinct from the adjective 졸리다 ('to feel sleepy'): 졸려요 is the sensation, 졸아요 is actually drifting off. The compound 졸음운전 (drowsy driving) is everywhere on Korean highway signs.",
+    "nuance": "졸다 means to nod off or drift into a light doze — typically somewhere you're not supposed to, like a meeting, class, or the subway — and it is a ㄹ-stem verb, so the ㄹ drops before ㅂ/ㄴ/ㅅ: formal 좁니다 (not 졸습니다). The crucial learner distinction is between 졸다 and 졸리다: 졸리다 is the adjective-like state 'to feel sleepy' (졸려요 = 'I'm drowsy', the sensation), whereas 졸다 is the verb for actually drifting off (졸았어요 = 'I nodded off', the act). It's also distinct from 자다 ('to sleep' properly, lying down for real) — 졸다 is brief, upright, involuntary micro-sleep, while 자다 is full intentional sleep. There's no Sino-Korean root; it's native Korean. It collocates with 깜빡 졸다 (doze off for a second) and feeds the compound noun 졸음 ('drowsiness'), which builds 졸음운전 (drowsy driving), plastered on every Korean highway warning sign.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "졸다 means to nod off or drift into a light doze — typically somewhere you're not supposed to, like a meeting, class, or the subway. It collocates with 깜빡 졸다 (doze off for a second) and feeds the compound noun 졸음 ('drowsiness'), which builds 졸음운전 (drowsy driving), plastered on every Korean highway warning sign."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial learner distinction is between 졸다 and 졸리다: 졸리다 is the adjective-like state 'to feel sleepy' (졸려요 = 'I'm drowsy', the sensation), whereas 졸다 is the verb for actually drifting off (졸았어요 = 'I nodded off', the act). It's also distinct from 자다 ('to sleep' properly, lying down for real) — 졸다 is brief, upright, involuntary micro-sleep, while 자다 is full intentional sleep."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "There's no Sino-Korean root; it's native Korean."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㄹ-stem verb, so the ㄹ drops before ㅂ/ㄴ/ㅅ: formal 좁니다 (not 졸습니다).",
+        "chips": ["좁니다", "졸아요", "졸았어요"]
+      }
+    ],
     "mistakes": [
-      "Saying 졸려요 when you mean you actually nodded off — 졸리다 is 'I'm sleepy', but the act of dozing off is 졸다 (졸았어요)."
+      "Saying 졸려요 when you mean you actually nodded off — 졸리다 is the feeling 'I'm sleepy', but the act of dozing off is 졸다 (졸았어요). Don't report the nap with the sensation word.",
+      "Using 자다 for nodding off in a meeting — 자다 is real, intentional sleep lying down; the brief involuntary head-bob is 졸다. '회의 중에 잤어요' sounds like you full-on slept on purpose.",
+      "Forgetting the ㄹ drops in the formal form — it's 좁니다, not 졸습니다. ㄹ-stems lose the ㄹ before the ㅂ of -ㅂ니다."
     ],
     "irregular": "ㄹ"
   },
@@ -367,34 +554,63 @@
       [
         "토할 것 같아요",
         "I feel like I'm going to throw up",
-        "Crucial phrase for food poisoning, a hangover, or motion sickness."
+        "A crucial phrase for food poisoning, a hangover, or motion sickness; V-(으)ㄹ 것 같다 hedges 'I feel like I might'."
       ],
       [
         "어제 너무 마셔서 토했어요",
         "I drank too much yesterday and threw up",
-        "Honest morning-after admission; 너무 마시다 = to drink too much."
+        "An honest morning-after admission; 너무 마시다 = to drink too much, -아서 links cause to result."
+      ],
+      [
+        "속이 안 좋아요",
+        "My stomach is off / I feel queasy",
+        "속 = the stomach/gut; the softer way to say you're nauseous BEFORE you actually 토하다."
+      ],
+      [
+        "토하고 나니까 좀 나아요",
+        "I feel a bit better after throwing up",
+        "V-고 나니까 = 'now that I've done X'; the relief that follows once it's out."
       ]
     ],
     "examples": [
       [
-        "상한 걸 먹었는지 계속 토해요.",
-        "I think I ate something spoiled, I keep throwing up.",
-        "상하다 = to go bad/spoil; -았는지 = 'whether (I)... '. Key for a clinic visit."
+        "토할 것 같아요.",
+        "I think I'm going to throw up.",
+        "The bare warning you give while it's still coming on; learn this one cold for emergencies."
       ],
       [
-        "차멀미가 나서 버스에서 토할 뻔했어요.",
-        "I got carsick and almost threw up on the bus.",
-        "차멀미 = motion/car sickness; V-(으)ㄹ 뻔하다 = 'almost did'."
+        "버스에서 차멀미가 나서 토할 뻔했어요.",
+        "I got carsick on the bus and almost threw up.",
+        "차멀미 = motion/car sickness; V-(으)ㄹ 뻔하다 = 'almost did (but didn't)', a very common near-miss pattern."
       ],
       [
-        "토하고 나니까 속이 좀 편해졌어요.",
-        "After throwing up I felt a bit better in my stomach.",
-        "속이 편하다 = 'the stomach is at ease'; 속 = the stomach/gut feeling."
+        "상한 걸 먹었는지 어젯밤부터 계속 토하고 설사도 해요.",
+        "I think I ate something spoiled — since last night I keep vomiting and have diarrhea too.",
+        "Full food-poisoning report; 상하다 = to go bad, -았는지 = 'whether/maybe', 설사하다 = to have diarrhea. Clinic-ready."
       ]
     ],
-    "nuance": "토하다 is the direct verb for vomiting and is fine to use at a clinic or pharmacy. The hedged 토할 것 같아요 ('I feel like I might throw up') is what you say while it's still coming on. A softer, very common alternative is 게우다, and Koreans also describe nausea with 속이 안 좋다 ('my stomach is off') or 메스껍다 ('to feel queasy'). For a doctor, pairing 토하다 with 설사하다 (to have diarrhea) describes classic food-poisoning (식중독).",
+    "nuance": "토하다 is the direct, neutral verb for vomiting (Sino-Korean 吐 'spit out/vomit' + 하다, so literally 'to do a 吐'), and it's perfectly fine to use at a clinic or pharmacy. While it's already on the way up, you hedge with 토할 것 같아요 ('I feel like I might throw up'). Mind the register and the synonyms: the everyday softer alternative is 게우다, and for mere nausea where nothing has come out yet, Koreans say 속이 안 좋다 ('my stomach is off') or 메스껍다 / 메슥거리다 ('to feel queasy') — these describe the queasy sensation, not the act, so don't say 토해요 unless you actually vomited. (There's also the very blunt slang 게워내다/'우웩'; 토하다 itself is the safe standard.) For a doctor, pairing 토하다 with 설사하다 (diarrhea) and 열이 나다 (fever) paints the classic 식중독 (food poisoning) picture. Note the object marker: what you throw up takes 을/를 (먹은 걸 다 토했어요).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "토하다 is the direct, neutral verb for vomiting, and it's perfectly fine to use at a clinic or pharmacy. While it's already on the way up, you hedge with 토할 것 같아요 ('I feel like I might throw up'). For a doctor, pairing 토하다 with 설사하다 (diarrhea) and 열이 나다 (fever) paints the classic 식중독 (food poisoning) picture. Note the object marker: what you throw up takes 을/를 (먹은 걸 다 토했어요)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Mind the register and the synonyms: the everyday softer alternative is 게우다, and for mere nausea where nothing has come out yet, Koreans say 속이 안 좋다 ('my stomach is off') or 메스껍다 / 메슥거리다 ('to feel queasy') — these describe the queasy sensation, not the act, so don't say 토해요 unless you actually vomited. (There's also the very blunt slang 게워내다/'우웩'; 토하다 itself is the safe standard.)"
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 吐 'spit out/vomit' + 하다, so literally 'to do a 吐'."
+      }
+    ],
     "mistakes": [
-      "Overusing 토하다 for mild nausea — if you only feel queasy but haven't vomited, say 속이 안 좋아요 or 메스꺼워요, not 토해요."
+      "Overusing 토하다 for mild nausea — if you only feel queasy but haven't actually vomited, say 속이 안 좋아요 or 메스꺼워요, not 토해요. 토하다 means the vomiting actually happened.",
+      "Saying 토하고 싶어요 to mean 'I feel nauseous' — that literally means 'I want to vomit' (a desire), which sounds odd. Use 토할 것 같아요 ('I feel like I'm going to') for the urge.",
+      "Forgetting 토하다 is built on 하다 — the negative is 안 토해요 / 토하지 않아요 and the past is 토했어요, conjugating like every other 하다 verb (해요 → 토해요)."
     ],
     "irregular": null
   },
@@ -424,34 +640,63 @@
       [
         "며칠 동안 감기를 앓았어요",
         "I was down with a cold for a few days",
-        "앓다 takes the illness as object (감기를); sounds heavier than just 아팠어요."
+        "앓다 takes the illness as object (감기를); it sounds heavier and more drawn-out than just 아팠어요."
       ],
       [
         "혼자 끙끙 앓지 마세요",
         "Don't suffer alone in silence",
-        "끙끙 앓다 = to suffer/agonize quietly; also used for worries, not just illness."
+        "끙끙 앓다 = to agonize/groan quietly; the mimetic 끙끙 also extends to worries, not just illness."
+      ],
+      [
+        "병을 앓고 있어요",
+        "I'm suffering from a disease",
+        "병을 앓다 = 'to suffer from an illness'; -고 있다 marks an ongoing, chronic condition."
+      ],
+      [
+        "몸살을 앓았어요",
+        "I came down with body aches / the whole-body flu-ache",
+        "몸살(을) 앓다 is a fixed collocation for the achy, run-down sickness from overwork or a cold."
       ]
     ],
     "examples": [
       [
-        "독감을 심하게 앓아서 일주일 동안 쉬었어요.",
-        "I had a bad case of the flu and rested for a week.",
-        "독감 = influenza (worse than 감기); 심하게 = severely."
+        "감기를 앓았어요.",
+        "I was sick with a cold.",
+        "Core pattern: the illness is the OBJECT (감기를 앓다), unlike 아프다 which never takes an illness as object."
       ],
       [
-        "할머니는 오래 병을 앓으셨어요.",
-        "My grandmother suffered from an illness for a long time.",
-        "-(으)시- honorific for elders: 앓다 → 앓으셨어요. 병을 앓다 = to suffer from a disease."
+        "독감을 심하게 앓아서 일주일 동안 회사를 못 갔어요.",
+        "I had a bad case of the flu and couldn't go to work for a week.",
+        "독감 = influenza (worse than 감기); 심하게 = severely. The -아서 chains the heavy illness to its consequence."
       ],
       [
-        "스트레스 때문에 마음의 병을 앓고 있어요.",
-        "I'm suffering from a mental/emotional struggle because of stress.",
-        "마음의 병 = 'illness of the heart'; 앓다 extends to emotional suffering."
+        "할머니께서는 오래 병을 앓으셨지만 끝까지 의연하셨어요.",
+        "My grandmother suffered from an illness for a long time but stayed composed to the end.",
+        "Honorific -(으)시- for an elder (앓으셨다); 병을 앓다 = to suffer from a disease, a respectful, literary register."
       ]
     ],
-    "nuance": "앓다 means to be down with or suffer through an illness over a period, and it takes the sickness as a direct object (감기를 앓다, 독감을 앓다) — unlike 아프다, which just describes that something hurts. It carries a heavier, more drawn-out feeling, so it fits flu, chronic disease, or even emotional pain (마음의 병을 앓다). The reduplicated 끙끙 앓다 paints someone groaning or quietly agonizing. In casual daily talk people still say 아팠어요 more often; 앓다 sounds a notch more serious or literary.",
+    "nuance": "앓다 means to be laid low by, or suffer through, an illness over a stretch of time, and the defining grammar point is that it takes the sickness as a DIRECT OBJECT — 감기를 앓다, 독감을 앓다, 병을 앓다 — which is exactly where it parts ways with 아프다. The contrast is sharp: 아프다 is an adjective that just states something hurts or you're unwell (머리가 아파요, 몸이 아파요), whereas 앓다 is a verb meaning you actively 'go through' a named illness for a period. 앓다 also carries a heavier, more drawn-out, somewhat literary tone, so it readily extends to chronic disease and even emotional pain (마음의 병을 앓다 = 'to suffer a sickness of the heart'). The reduplicated 끙끙 앓다 paints someone groaning or quietly agonizing — over illness OR worries. Register-wise, in casual daily speech people far more often say 아팠어요; 앓다 sounds a notch more serious. It's native Korean (no hanja root). Note the modern slang 앓다 → '앓는 소리(를) 하다' meaning to whine/complain.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "앓다 means to be laid low by, or suffer through, an illness over a stretch of time, and the defining grammar point is that it takes the sickness as a DIRECT OBJECT — 감기를 앓다, 독감을 앓다, 병을 앓다. 앓다 also carries a heavier, more drawn-out, somewhat literary tone, so it readily extends to chronic disease and even emotional pain (마음의 병을 앓다 = 'to suffer a sickness of the heart'). The reduplicated 끙끙 앓다 paints someone groaning or quietly agonizing — over illness OR worries. Note the modern slang 앓다 → '앓는 소리(를) 하다' meaning to whine/complain."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It takes the sickness as a direct object, which is exactly where it parts ways with 아프다. The contrast is sharp: 아프다 is an adjective that just states something hurts or you're unwell (머리가 아파요, 몸이 아파요), whereas 앓다 is a verb meaning you actively 'go through' a named illness for a period. Register-wise, in casual daily speech people far more often say 아팠어요; 앓다 sounds a notch more serious."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It's native Korean (no hanja root)."
+      }
+    ],
     "mistakes": [
-      "Using the subject marker like 아프다 — it's 감기를 앓다 (object 를), not 감기가 앓다. The illness is what you 'suffer', so it takes 을/를."
+      "Using the subject marker like 아프다 does — it's 감기를 앓다 (object 를), not 감기가 앓다. The illness is what you 'suffer through', so it takes 을/를.",
+      "Reaching for 앓다 in light, casual talk — for an everyday 'I felt sick / I was unwell', 아팠어요 is far more natural. 앓다 sounds heavy and literary, fitting flu, chronic disease, or written notes.",
+      "Trying to make 앓다 mean a single spot hurting — you can't say 머리를 앓아요 for 'my head hurts'; that's 머리가 아파요. 앓다 is for going through a whole illness (병을 앓다), not localized pain."
     ],
     "irregular": null
   },
@@ -481,34 +726,63 @@
       [
         "건강을 회복했어요",
         "I've recovered my health",
-        "건강을 회복하다 = to get one's health back; common after illness or surgery."
+        "건강을 회복하다 = to get one's health back; the standard collocation after illness or surgery."
       ],
       [
         "회복하는 데 시간이 걸려요",
         "It takes time to recover",
-        "V-는 데 시간이 걸리다 = 'it takes time to'; honest, reassuring."
+        "V-는 데 시간이 걸리다 = 'it takes time to'; an honest, reassuring line about a recovery period."
+      ],
+      [
+        "컨디션을 회복했어요",
+        "I got my condition / energy back",
+        "컨디션을 회복하다 is the everyday phrase for bouncing back to feeling normal after being run-down."
+      ],
+      [
+        "빨리 회복하길 바라요",
+        "I hope you recover quickly",
+        "V-기(를) 바라다 = 'I hope that...'; a warmer, more formal get-well wish than 빨리 나으세요."
       ]
     ],
     "examples": [
       [
+        "건강을 회복했어요.",
+        "I recovered my health.",
+        "Core pattern: 회복하다 is transitive — you recover SOMETHING (건강을/체력을/컨디션을), which takes 을/를."
+      ],
+      [
         "수술 후에 빠르게 회복하고 있어요.",
         "I'm recovering quickly after the surgery.",
-        "수술 후에 = after surgery; -고 있다 shows ongoing recovery."
+        "수술 후에 = after surgery; -고 있다 shows the recovery is ongoing. The clinical register fits a medical context."
       ],
       [
-        "푹 쉬어야 빨리 회복할 수 있어요.",
-        "You can only recover fast if you rest well.",
-        "A-/V-아야 = 'only if'; the must-rest message Koreans repeat constantly."
-      ],
-      [
-        "체력을 회복하려고 영양제를 챙겨 먹어요.",
-        "I take supplements to get my stamina back.",
-        "체력 = stamina/physical strength; 영양제 = supplements; 챙겨 먹다 = to be sure to eat."
+        "푹 쉬고 영양제도 챙겨 먹으면서 체력을 회복하려고 해요.",
+        "I'm trying to get my stamina back by resting well and being sure to take supplements.",
+        "Real recovery plan; 체력 = stamina, 챙겨 먹다 = to make a point of eating, -(으)려고 하다 = 'intend to'."
       ]
     ],
-    "nuance": "회복하다 is the slightly formal verb for recovering — from illness, surgery, fatigue, or even a bad mood (기분을 회복하다 is rarer; 컨디션을 회복하다 is common). It takes what you regain as an object: 건강을/체력을/컨디션을 회복하다. For everyday 'I got better', Koreans more often say 나았어요 (from 낫다); 회복하다 sounds more clinical and fits doctors, recovery periods, and written notes. The noun 회복 ('recovery') shows up on hospital discharge papers and sick-leave messages.",
+    "nuance": "회복하다 is the somewhat formal/clinical verb for recovering, built on Sino-Korean 回復 (回 'return' + 復 'restore', i.e. 'to return-and-restore'). It is transitive — you recover a thing you had lost, taking 을/를: 건강을 회복하다 (health), 체력을 회복하다 (stamina), 컨디션을 회복하다 (condition). The register contrast with 낫다 is the key point: for an everyday 'I got better', Koreans say 나았어요 (from 낫다), which is intransitive and about an illness healing; 회복하다 sounds more clinical and suits doctors, formal recovery periods, and written sick-leave notes. When you want to say your body/condition recovered on its own without naming an object, use the passive 회복되다 (몸이 회복됐어요) rather than the active 몸이 회복했어요. Beyond the body, 회복하다 extends to non-medical comebacks — 신뢰를 회복하다 (restore trust), 경기가 회복되다 (the economy recovers). The bare noun 회복 (recovery) appears on hospital discharge papers.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "회복하다 is the somewhat formal/clinical verb for recovering. It is transitive — you recover a thing you had lost, taking 을/를: 건강을 회복하다 (health), 체력을 회복하다 (stamina), 컨디션을 회복하다 (condition). When you want to say your body/condition recovered on its own without naming an object, use the passive 회복되다 (몸이 회복됐어요) rather than the active 몸이 회복했어요. Beyond the body, 회복하다 extends to non-medical comebacks — 신뢰를 회복하다 (restore trust), 경기가 회복되다 (the economy recovers). The bare noun 회복 (recovery) appears on hospital discharge papers."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The register contrast with 낫다 is the key point: for an everyday 'I got better', Koreans say 나았어요 (from 낫다), which is intransitive and about an illness healing; 회복하다 sounds more clinical and suits doctors, formal recovery periods, and written sick-leave notes."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Built on Sino-Korean 回復 (回 'return' + 復 'restore', i.e. 'to return-and-restore')."
+      }
+    ],
     "mistakes": [
-      "Treating it as intransitive — you recover something: 건강을 회복하다 (object). Saying just 회복했어요 is fine in context, but '몸이 회복했어요' is better as '몸이 회복됐어요' (passive) or '컨디션을 회복했어요'."
+      "Treating it as intransitive like English 'recover' — you recover SOMETHING: 건강을 회복하다 (object). For 'my body recovered' without an object, prefer the passive 몸이 회복됐어요, not 몸이 회복했어요.",
+      "Using 회복하다 for a casual 'I'm over my cold' — that's more naturally 감기가 다 나았어요 (from 낫다). 회복하다 is clinical and fits surgery, formal notes, or regaining health/stamina, not light everyday recovery.",
+      "Forgetting it's a 하다 verb when negating — the natural negatives are 회복 안 해요 / 회복 못 해요 (splitting 회복 + 하다), conjugating just like other Sino-Korean + 하다 verbs."
     ],
     "irregular": null
   },
@@ -538,34 +812,63 @@
       [
         "약을 삼키기 힘들어요",
         "It's hard to swallow the pills",
-        "Tell a pharmacist this and they may suggest smaller pills or syrup."
+        "Tell a pharmacist this and they may suggest smaller pills or syrup; V-기 힘들다 = 'hard to do'."
       ],
       [
         "침을 삼킬 때 목이 아파요",
-        "It hurts to swallow (when I swallow saliva)",
-        "Classic sore-throat description; 침 = saliva, 삼킬 때 = when swallowing."
+        "It hurts when I swallow (saliva)",
+        "The classic sore-throat description; 침 = saliva, 삼킬 때 = 'when swallowing' — a precise symptom phrase."
+      ],
+      [
+        "물이랑 같이 삼키세요",
+        "Swallow it with water",
+        "The pharmacist's instruction for taking pills; 이랑 같이 = 'together with', casual but standard."
+      ],
+      [
+        "눈물을 삼켰어요",
+        "I held back my tears",
+        "눈물을 삼키다 = 'to swallow one's tears'; the common figurative use you'll hear in dramas and songs."
       ]
     ],
     "examples": [
       [
+        "약을 삼켰어요.",
+        "I swallowed the medicine.",
+        "Basic frame: what you swallow takes 을/를 — 약을/물을/음식을 삼키다."
+      ],
+      [
         "알약을 물이랑 같이 삼켜요.",
         "Swallow the tablet with water.",
-        "알약 = tablet/pill, 가루약 = powder medicine; 이랑 = casual 'with'."
+        "알약 = tablet/pill (vs 가루약 = powder medicine); the routine instruction for taking pills."
       ],
       [
-        "목이 부어서 음식을 삼키기 힘들어요.",
-        "My throat is swollen so it's hard to swallow food.",
-        "Ties to 붓다; 삼키기 힘들다 = 'hard to swallow', key symptom phrase."
-      ],
-      [
-        "사탕을 통째로 삼키지 마세요.",
-        "Don't swallow the candy whole.",
-        "통째로 = (swallow it) whole; safety warning, also said to kids."
+        "목이 부어서 음식을 삼키기가 너무 힘들어요.",
+        "My throat is swollen so it's really hard to swallow food.",
+        "Ties 삼키다 to 붓다 (to swell); 삼키기(가) 힘들다 = 'hard to swallow', a key symptom phrase for a clinic visit."
       ]
     ],
-    "nuance": "삼키다 is the verb for swallowing food, drink, pills, or saliva, and what you swallow takes 을/를. It's genuinely useful at a pharmacy or clinic — '약을 삼키기 힘들어요' (hard to swallow pills) or '침 삼킬 때 아파요' (hurts when I swallow) precisely describe throat problems. Figuratively it also means holding something back (눈물을 삼키다 = to swallow one's tears, 화를 삼키다 = to swallow one's anger), which you'll hear in dramas.",
+    "nuance": "삼키다 is the verb for swallowing — food, drink, pills, or saliva — and what goes down takes 을/를 (약을 삼키다, 침을 삼키다). It's genuinely practical at a pharmacy or clinic: 약을 삼키기 힘들어요 ('hard to swallow pills') or 침 삼킬 때 목이 아파요 ('it hurts when I swallow') pinpoint throat problems precisely. The crucial sequence partner is 씹다 ('to chew'): you 씹다 first, then 삼키다 — '씹어서 삼켜요' puts them in order — so don't use one for the other. Distinguish it also from 마시다 ('to drink/gulp a liquid continuously'); 삼키다 is the single act of sending something down the throat. It's a native Korean word (no hanja). Figuratively, 삼키다 is rich and very common: 눈물을 삼키다 (swallow one's tears), 화를 삼키다 (swallow one's anger), 비명을 삼키다 (stifle a scream) — all meaning to hold an emotion back. Safety warnings use it too: 통째로 삼키지 마세요 ('don't swallow it whole').",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "삼키다 is the verb for swallowing — food, drink, pills, or saliva — and what goes down takes 을/를 (약을 삼키다, 침을 삼키다). It's genuinely practical at a pharmacy or clinic: 약을 삼키기 힘들어요 ('hard to swallow pills') or 침 삼킬 때 목이 아파요 ('it hurts when I swallow') pinpoint throat problems precisely. Figuratively, 삼키다 is rich and very common: 눈물을 삼키다 (swallow one's tears), 화를 삼키다 (swallow one's anger), 비명을 삼키다 (stifle a scream) — all meaning to hold an emotion back. Safety warnings use it too: 통째로 삼키지 마세요 ('don't swallow it whole')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial sequence partner is 씹다 ('to chew'): you 씹다 first, then 삼키다 — '씹어서 삼켜요' puts them in order — so don't use one for the other. Distinguish it also from 마시다 ('to drink/gulp a liquid continuously'); 삼키다 is the single act of sending something down the throat."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It's a native Korean word (no hanja)."
+      }
+    ],
     "mistakes": [
-      "Confusing 삼키다 (to swallow) with 씹다 (to chew). You chew first (씹다) then swallow (삼키다); '씹어서 삼켜요' uses both in order."
+      "Confusing 삼키다 (to swallow) with 씹다 (to chew) — you chew first (씹다), then swallow (삼키다). '씹어서 삼켜요' uses both in the right order; don't say 씹다 when food goes down your throat.",
+      "Using 마시다 for swallowing a pill — 마시다 is 'to drink' a liquid; sending a tablet down is 약을 삼키다. Say 약을 물이랑 같이 삼켜요, not 약을 마셔요.",
+      "Marking what you swallow with 이/가 — it's 약을 삼키다 (object 을), not 약이 삼키다. You swallow the thing, so it takes 을/를."
     ],
     "irregular": null
   }

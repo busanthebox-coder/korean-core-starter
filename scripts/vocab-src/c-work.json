@@ -7,18 +7,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["직업이 뭐예요?", "What's your job?", "The most common way to ask someone's occupation."],
-      ["직업이 있어요", "to have a job", "있다 for having one."],
-      ["좋은 직업", "a good job", "Put 좋은 (good) in front."],
-      ["직업을 바꾸다", "to change one's occupation", "바꾸다 means change."]
+      ["직업이 뭐예요?", "What's your job?", "The standard polite way to ask someone's occupation; note the particle is 이, not 가."],
+      ["직업을 바꾸다", "to change one's occupation", "바꾸다 = swap one thing for another; use it for switching careers, not just today's task."],
+      ["전문 직업", "a professional occupation", "전문 (專門, specialty) marks a skilled profession like doctor or lawyer."],
+      ["직업이 없다", "to be without an occupation", "없다, not 안 있다; this is the natural way to say 'unemployed' softly."]
     ],
     "examples": [
-      ["직업이 뭐예요?", "What is your job?", "Standard polite question."],
-      ["제 직업은 선생님이에요.", "My job is a teacher.", "직업은 + job + 이에요."],
-      ["저는 직업이 두 개 있어요.", "I have two jobs.", "직업이 + counter + 있어요."]
+      ["직업이 뭐예요?", "What is your job?", "The go-to first-meeting question; the verb is hidden inside 뭐예요."],
+      ["제 직업은 간호사예요.", "My job is a nurse.", "Topic 직업은 + the profession + 예요; you name the job, you don't 'do' it."],
+      ["좋은 직업을 갖고 싶어요.", "I want to have a good occupation.", "갖다(가지다) 'to hold/have' pairs with 직업 when talking about aspirations."]
     ],
-    "nuance": "직업 is the general word for one's occupation or line of work, used when asking or stating what someone does for a living. To ask politely, say 직업이 뭐예요?, and to answer, name the job with 이에요/예요. It is more neutral and formal than the casual 무슨 일 해요? (what work do you do?).",
-    "mistakes": ["Confusing 직업 (occupation) with 일 (work/task); 직업 is the profession itself.", "Saying 직업을 해요 to mean 'I work'; instead name the job, like 선생님이에요."]
+    "nuance": "직업 (職業, 'duty-work') is the abstract category of one's profession or line of work — the answer to 'what do you do for a living,' not the daily grind itself. The dividing line you must feel: 직업 is the occupation as an identity (간호사, 교사), 직장 is the specific company you belong to, and 일/업무 is the actual work you perform. So 직업이 뭐예요? asks WHAT you are, while 무슨 일 해요? asks more casually what work you do day to day. Register is neutral-to-formal, perfect for a first meeting; among close friends 무슨 일 해? feels warmer. The classic English-speaker trap is 직업을 해요 to mean 'I work' — Korean never 'does' an occupation; you simply state it with 이에요/예요 (선생님이에요), and the particle after 직업 is 이 (직업이), since the word ends in a consonant.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "직업 is the abstract category of one's profession or line of work — the answer to 'what do you do for a living,' not the daily grind itself. Register is neutral-to-formal, perfect for a first meeting; among close friends 무슨 일 해? feels warmer."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line you must feel: 직업 is the occupation as an identity (간호사, 교사), 직장 is the specific company you belong to, and 일/업무 is the actual work you perform. So 직업이 뭐예요? asks WHAT you are, while 무슨 일 해요? asks more casually what work you do day to day."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "직업 = 職業, literally 'duty-work.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic English-speaker trap is 직업을 해요 to mean 'I work' — Korean never 'does' an occupation; you simply state it with 이에요/예요 (선생님이에요), and the particle after 직업 is 이 (직업이), since the word ends in a consonant."
+      }
+    ],
+    "mistakes": [
+      "Saying 직업을 해요 for 'I work' — you cannot 'do' an occupation in Korean. Name the job instead: 저는 요리사예요 (I'm a cook).",
+      "Confusing 직업 (the profession/identity) with 직장 (the workplace/company). '회사가 멀어요' uses 직장, but '의사예요' is your 직업.",
+      "Using 가 after 직업 (직업가) — because 직업 ends in a consonant, the subject particle is 이: 직업이 뭐예요?"
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +54,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["직원이에요", "to be an employee", "N + 이에요 states the role."],
-      ["회사 직원", "a company employee", "Put 회사 (company) in front."],
-      ["직원이 많다", "to have many employees", "많다 for a large number."],
-      ["직원한테 물어보다", "to ask a staff member", "한테 marks the person."]
+      ["회사 직원", "a company employee", "회사 sits in front as a noun modifier; no particle needed between them."],
+      ["직원한테 물어보다", "to ask a staff member", "한테 marks the human recipient of the question; 에게 is its formal twin."],
+      ["은행 직원", "a bank teller/clerk", "Place + 직원 names the staff of a specific business."],
+      ["직원을 뽑다", "to hire staff", "뽑다 literally 'to pull/pick out' is the everyday verb for hiring."]
     ],
     "examples": [
-      ["저는 은행 직원이에요.", "I am a bank employee.", "place + 직원 + 이에요."],
-      ["이 회사는 직원이 많아요.", "This company has many employees.", "직원이 + 많아요."],
-      ["직원한테 길을 물어봤어요.", "I asked a staff member for directions.", "직원한테 + 물어보다, past."]
+      ["저는 은행 직원이에요.", "I am a bank employee.", "Workplace + 직원 + 이에요 states your role simply."],
+      ["직원한테 물어보세요.", "Please ask a staff member.", "You hear this constantly in shops; 한테 + 물어보다 = ask (a person)."],
+      ["이 가게는 직원이 친절해요.", "The staff at this shop are kind.", "직원이 + adjective; Korean keeps it singular even for 'the staff' collectively."]
     ],
-    "nuance": "직원 means an employee or staff member, anyone who works at a company, shop, or office. You will hear it constantly in stores and offices, as in 직원한테 물어보세요 (ask a staff member). It is the plain word for a worker, while 사원 sounds more like a formal job title at the bottom rank.",
-    "mistakes": ["Confusing 직원 (a regular employee) with 사장 (the boss/owner).", "Calling a customer a 직원; 직원 is the person who works there, not the visitor."]
+    "nuance": "직원 (職員, 'duty-personnel') is the plain, everyday word for anyone who works at a company, shop, bank, or office — the person on the other side of the counter helping you. The synonym contrast to nail: 직원 is generic 'staff' regardless of rank, while 사원 (社員) specifically names the entry-level rung on the corporate ladder, and 종업원 sounds older/more clerical (waitstaff, hired help). In daily life 직원 is overwhelmingly the natural choice — 직원한테 물어보세요 (ask a staff member) is a sentence you'll use weekly. Register is neutral and safe for everyone. The English-speaker pitfall is twofold: first, don't call the customer a 직원 — the 직원 is the one who WORKS there, not the visitor (that's 손님); second, English says 'I asked the staff' with no particle, but Korean must mark the person with 한테/에게: 직원에게 물어봤어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "직원 is the plain, everyday word for anyone who works at a company, shop, bank, or office — the person on the other side of the counter helping you. In daily life 직원 is overwhelmingly the natural choice — 직원한테 물어보세요 (ask a staff member) is a sentence you'll use weekly. Register is neutral and safe for everyone."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym contrast to nail: 직원 is generic 'staff' regardless of rank, while 사원 (社員) specifically names the entry-level rung on the corporate ladder, and 종업원 sounds older/more clerical (waitstaff, hired help)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "직원 = 職員, literally 'duty-personnel.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is twofold: first, don't call the customer a 직원 — the 직원 is the one who WORKS there, not the visitor (that's 손님); second, English says 'I asked the staff' with no particle, but Korean must mark the person with 한테/에게: 직원에게 물어봤어요."
+      }
+    ],
+    "mistakes": [
+      "Calling a customer a 직원 — the 직원 is the worker; the customer is a 손님. Mixing these reverses who serves whom.",
+      "Dropping the particle: 직원 물어봤어요 is wrong. You must mark the person you asked with 한테/에게 → 직원한테 물어봤어요.",
+      "Assuming 직원 means a high-ranked person. It's rank-neutral; the boss is 사장 or 상사, not just 직원."
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +101,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["직장에 다니다", "to attend a workplace; to be employed", "다니다 means go to regularly."],
-      ["직장이 멀다", "the workplace is far", "멀다 for distance."],
-      ["새 직장", "a new job/workplace", "Put 새 (new) in front."],
-      ["직장 동료", "a coworker (at work)", "직장 + 동료 (colleague)."]
+      ["직장에 다니다", "to be employed; to go to work regularly", "다니다 'attend regularly' is the set verb; this whole phrase means 'have a job.'"],
+      ["직장 동료", "a coworker", "직장 + 동료 (同僚, fellow worker) — your colleague at the same company."],
+      ["직장을 구하다", "to look for / find a job", "구하다 'to seek/obtain' is the natural verb for job-hunting."],
+      ["직장 생활", "work life; life as an employee", "생활 (生活, daily life) added to mean the whole experience of being employed."]
     ],
     "examples": [
-      ["저는 직장에 다녀요.", "I have a job (I go to work).", "직장에 다니다 means be employed."],
-      ["직장이 집에서 멀어요.", "My workplace is far from home.", "직장이 + 멀어요."],
-      ["새 직장을 구하고 있어요.", "I'm looking for a new job.", "새 직장 + 구하다."]
+      ["저는 직장에 다녀요.", "I have a job (I go to work).", "직장에 다니다 = be employed; the 에 marks the place you regularly attend."],
+      ["직장이 집에서 멀어요.", "My workplace is far from home.", "직장이 + 멀다; here 직장 means the physical workplace."],
+      ["새 직장을 구하고 있어요.", "I'm looking for a new job.", "새 (new) directly modifies 직장; 구하다 = seek/find."]
     ],
-    "nuance": "직장 means one's workplace or the fact of having a job, so 직장에 다니다 (literally 'attend a workplace') is the everyday way to say 'I have a job.' It focuses on the company you belong to, while 직업 focuses on the profession itself. A person with a steady job is called a 직장인.",
-    "mistakes": ["Mixing up 직장 (your workplace/job) with 직업 (your occupation).", "Saying 직장에 가다 only for today's trip; 직장에 다니다 means being employed in general."]
+    "nuance": "직장 (職場, 'duty-place') literally means the 'place of one's work' and covers both the physical workplace and the broader fact of being employed. The crucial contrast: 직업 is your profession/identity (what you are — a teacher), while 직장 is the specific organization you belong to (where you work — Samsung). So 직장에 다니다, literally 'attend a workplace,' is THE idiomatic way to say 'I have a job,' built with 다니다 (to go regularly), the same verb used for 학교에 다니다 (attend school). A salaried worker is a 직장인. Register is neutral and extremely common. The big English-speaker pitfall is the verb: don't say 직장에 가다 to mean 'I'm employed' — 가다 only describes today's single trip to the office, whereas 다니다 captures the ongoing state of holding a job. Also resist the literal 'I have a job' = 직장을 가지다; Koreans say 직장에 다녀요 instead.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "직장 literally means the 'place of one's work' and covers both the physical workplace and the broader fact of being employed. So 직장에 다니다, literally 'attend a workplace,' is THE idiomatic way to say 'I have a job,' built with 다니다 (to go regularly), the same verb used for 학교에 다니다 (attend school). A salaried worker is a 직장인. Register is neutral and extremely common."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial contrast: 직업 is your profession/identity (what you are — a teacher), while 직장 is the specific organization you belong to (where you work — Samsung)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "직장 = 職場, literally 'duty-place.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall is the verb: don't say 직장에 가다 to mean 'I'm employed' — 가다 only describes today's single trip to the office, whereas 다니다 captures the ongoing state of holding a job. Also resist the literal 'I have a job' = 직장을 가지다; Koreans say 직장에 다녀요 instead."
+      }
+    ],
+    "mistakes": [
+      "Using 직장에 가다 to mean 'I have a job.' 가다 = today's trip; the state of being employed is 직장에 다니다.",
+      "Swapping 직장 (where you work) and 직업 (what you do). '의사예요' is 직업; '병원에 다녀요' is 직장.",
+      "Saying 직장을 가지다 ('have a workplace') by translating English literally. Natural Korean is 직장에 다녀요."
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +148,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["신입 사원", "a new employee", "신입 (newly entered) + 사원."],
-      ["사원이에요", "to be a (entry-level) employee", "N + 이에요."],
-      ["사원으로 시작하다", "to start as a staff member", "으로 marks the starting rank."],
-      ["정규 사원", "a regular (full-time) employee", "정규 means regular."]
+      ["신입 사원", "a new employee; new hire", "신입 (新入, newly entered) + 사원 — the fresh recruit, hired every spring."],
+      ["사원으로 입사하다", "to join as an entry-level employee", "으로 marks the rank you enter AT; 입사하다 = enter a company."],
+      ["정규 사원", "a regular/full-time employee", "정규 (正規, regular) contrasts with 계약직 (contract worker)."],
+      ["평사원", "an ordinary rank-and-file employee", "평 (平, plain/flat) stresses 'just a regular worker,' no title."]
     ],
     "examples": [
-      ["저는 신입 사원이에요.", "I am a new employee.", "신입 사원 + 이에요."],
-      ["우리 회사에 사원이 많아요.", "There are many staff at our company.", "사원이 + 많아요."],
-      ["사원으로 입사했어요.", "I joined as a staff member.", "사원으로 marks the entry rank."]
+      ["저는 신입 사원이에요.", "I am a new employee.", "신입 사원 is a fixed compound; + 이에요 states your level."],
+      ["사원으로 입사했어요.", "I joined as an entry-level employee.", "으로 marks the entering rank; 입사하다 = enter the company, past 입사했어요."],
+      ["대리로 승진하기 전에는 사원이었어요.", "Before being promoted to 대리, I was a 사원.", "Shows the rank ladder: 사원 → 대리; 이었어요 = was."]
     ],
-    "nuance": "사원 is the lowest formal job rank in a Korean company, the level a new hire starts at before 대리, 과장, and higher titles. You will hear 신입 사원 (new employee) a lot every spring when companies hire. In casual talk people often just say 직원 instead, but 사원 is the official title on the rank ladder.",
-    "mistakes": ["Confusing 사원 (a low-rank employee) with 사장 (the company owner).", "Thinking 사원 means any worker; it specifically points to the entry-level rank."]
+    "nuance": "사원 (社員, 'company-member') is specifically the BOTTOM formal rung on the Korean corporate title ladder — the rank a fresh hire holds before climbing to 대리 → 과장 → 차장 → 부장. The contrast you must internalize: 직원 is the generic, everyday word for 'staff' at any rank, whereas 사원 is a precise rank-title used mostly in HR and on org charts. So every 사원 is a 직원, but a 부장 (department head) is a 직원 and NOT a 사원. You'll hear 신입 사원 (new recruit) everywhere during 공채 (open hiring season). Register is formal/official. The English-speaker pitfall: don't reach for 사원 just because you mean 'an employee' in casual conversation — say 직원. And note the particle 으로 in 사원으로 입사하다 marks the rank you enter as, an 'as/in the capacity of' meaning English drops entirely.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "사원 is specifically the BOTTOM formal rung on the Korean corporate title ladder — the rank a fresh hire holds before climbing to 대리 → 과장 → 차장 → 부장. You'll hear 신입 사원 (new recruit) everywhere during 공채 (open hiring season). Register is formal/official."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast you must internalize: 직원 is the generic, everyday word for 'staff' at any rank, whereas 사원 is a precise rank-title used mostly in HR and on org charts. So every 사원 is a 직원, but a 부장 (department head) is a 직원 and NOT a 사원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "사원 = 社員, literally 'company-member.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't reach for 사원 just because you mean 'an employee' in casual conversation — say 직원. And note the particle 으로 in 사원으로 입사하다 marks the rank you enter as, an 'as/in the capacity of' meaning English drops entirely."
+      }
+    ],
+    "mistakes": [
+      "Using 사원 for any worker in casual speech. For generic 'staff' say 직원; 사원 is the specific entry rank.",
+      "Thinking a manager (부장/과장) is a 사원. Those are higher ranks; 사원 is the lowest rung only.",
+      "Saying 사원에 입사하다. The rank you enter AS takes 으로: 사원으로 입사했어요."
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +195,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["업무가 많다", "to have a lot of work", "많다 for a heavy load."],
-      ["업무를 하다", "to do one's work", "하다 for performing duties."],
-      ["업무 시간", "working hours", "업무 + 시간 (time)."],
-      ["오늘 업무", "today's tasks", "Put 오늘 (today) in front."]
+      ["업무를 보다", "to attend to / handle one's work", "보다 'to see/handle' is the set verb for processing duties, esp. office/admin work."],
+      ["업무 시간", "working hours; business hours", "업무 + 시간; the time block during which work or service is done."],
+      ["업무가 많다", "to have a heavy workload", "많다 describes the volume of duties; 바쁘다 describes you being busy."],
+      ["업무를 맡다", "to take charge of a task", "맡다 'to be entrusted with' = be assigned a duty or responsibility."]
     ],
     "examples": [
-      ["오늘은 업무가 너무 많아요.", "I have so much work today.", "업무가 + 많아요."],
-      ["업무 시간은 9시부터예요.", "Working hours start from 9.", "업무 시간 + 부터."],
-      ["새 업무를 배우고 있어요.", "I'm learning a new task.", "새 업무 + 배우다."]
+      ["오늘은 업무가 많아요.", "I have a lot of work today.", "업무가 + 많다; describes the amount of work, not your feelings."],
+      ["업무 시간은 9시부터 6시까지예요.", "Working hours are from 9 to 6.", "업무 시간 + 부터...까지 frames the start and end of the workday."],
+      ["새로운 업무를 맡게 됐어요.", "I've been assigned a new task.", "맡다 + 게 되다 = ended up being entrusted with; sounds natural for new duties."]
     ],
-    "nuance": "업무 means the specific work or duties you handle at a job, a bit more formal than the everyday word 일 (work/thing). You will see it in set phrases like 업무 시간 (working hours) and 업무 메일 (work email). When chatting casually with coworkers, many people still just say 일 instead of 업무.",
-    "mistakes": ["Using 업무 for general 'work' in casual talk where 일 is more natural.", "Saying 업무를 가다; you 업무를 하다 (do work), not 'go' work."]
+    "nuance": "업무 (業務, 'occupation-affairs') is the formal word for the specific duties, tasks, and functions tied to a job — the work content itself, especially in office and administrative settings. The synonym contrast to feel: 일 is the broad, native, casual word for 'work/thing/matter' you'd use with friends (일이 많아 = so much to do), while 업무 is its Sino-Korean, businesslike counterpart used in emails, reports, and with superiors (업무 협조 부탁드립니다). They overlap, but 업무 carries an official, structured tone; you would not say 업무 for chores at home. The fixed verb 업무를 보다 ('handle work') mirrors 일을 보다 and 볼일을 보다 (run an errand). The English-speaker pitfall: don't say 업무를 가다 — you 업무를 보다/하다 (handle/do work), never 'go' work; and in relaxed conversation reaching for 업무 instead of 일 can sound stiff and over-formal, like saying 'attend to my duties' to a buddy.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "업무 is the formal word for the specific duties, tasks, and functions tied to a job — the work content itself, especially in office and administrative settings. It carries an official, structured tone; you would not say 업무 for chores at home. The fixed verb 업무를 보다 ('handle work') mirrors 일을 보다 and 볼일을 보다 (run an errand)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym contrast to feel: 일 is the broad, native, casual word for 'work/thing/matter' you'd use with friends (일이 많아 = so much to do), while 업무 is its Sino-Korean, businesslike counterpart used in emails, reports, and with superiors (업무 협조 부탁드립니다). They overlap, but 업무 is the official one."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "업무 = 業務, literally 'occupation-affairs' — Sino-Korean, the businesslike counterpart to native 일."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't say 업무를 가다 — you 업무를 보다/하다 (handle/do work), never 'go' work; and in relaxed conversation reaching for 업무 instead of 일 can sound stiff and over-formal, like saying 'attend to my duties' to a buddy."
+      }
+    ],
+    "mistakes": [
+      "Saying 업무를 가다 to mean 'go to work.' You 업무를 보다/하다; 'going to work' is 출근하다 or 회사에 가다.",
+      "Using 업무 in casual chat where 일 fits. To a friend say 일이 많아, not 업무가 많아 — the latter sounds like a memo.",
+      "Confusing 업무 (the tasks/duties) with 직업 (the profession). Your 업무 is what you do daily; your 직업 is what you are."
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +242,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["회의실에서", "in the meeting room", "에서 marks where an action happens."],
-      ["회의실을 예약하다", "to book a meeting room", "예약하다 means reserve."],
-      ["회의실이 비다", "the meeting room is free", "비다 means empty/available."],
-      ["큰 회의실", "the big meeting room", "Put 큰 (big) in front."]
+      ["회의실에서", "in the meeting room", "에서 marks the LOCATION where an action takes place (a meeting happens there)."],
+      ["회의실을 예약하다", "to book a meeting room", "예약하다 (豫約, reserve in advance) — the verb for booking rooms, tables, tickets."],
+      ["회의실이 비어 있다", "the meeting room is free/empty", "비다 'be empty' + 어 있다 (resultant state) = currently available."],
+      ["대회의실", "the large conference room", "대 (大, big) prefixed; contrast 소회의실 (小, small room)."]
     ],
     "examples": [
-      ["회의실에서 회의가 있어요.", "There is a meeting in the meeting room.", "회의실에서 + 있어요."],
-      ["회의실을 예약했어요.", "I booked the meeting room.", "회의실을 + 예약하다, past."],
-      ["지금 회의실이 비어 있어요?", "Is the meeting room free right now?", "비어 있다 = is empty/available."]
+      ["회의실에서 회의가 있어요.", "There is a meeting in the meeting room.", "회의실에서 + 있다; the meeting (회의) happens IN the room (회의실)."],
+      ["회의실을 예약했어요.", "I booked the meeting room.", "회의실을 + 예약하다, past 예약했어요; 을 marks the room as the object reserved."],
+      ["지금 회의실이 비어 있어요?", "Is the meeting room free right now?", "비어 있다 = is (currently) empty/available — a natural way to check."]
     ],
-    "nuance": "회의실 is the meeting or conference room at work, made of 회의 (meeting) plus 실 (room). The same 실 ending appears in 사무실 (office) and 화장실 (restroom), so it is a useful building block. To say something happens inside it, use 회의실에서.",
-    "mistakes": ["Confusing 회의실 (the room) with 회의 (the meeting itself).", "Using 에 instead of 에서: an action happens 회의실에서, not 회의실에."]
+    "nuance": "회의실 (會議室, 'meeting-room') is built transparently from 회의 (a meeting) + 실 (room) — and that 실 is a powerful building block: once you know it, you recognize 사무실 (office), 화장실 (restroom), 교실 (classroom), and 연구실 (lab/study). The key contrast learners blur is 회의 vs 회의실: 회의 is the EVENT (the meeting), 회의실 is the PLACE (the room) — 회의실에서 회의를 해요 means 'we hold a meeting in the meeting room,' two different words. A near-synonym is 미팅룸 (a borrowed English term used in some modern offices), but 회의실 is the standard, safe word. Register is neutral/workplace. The sharpest English-speaker pitfall is the particle: an action OCCURS at 회의실에서 (dynamic location), not 회의실에 (static existence/destination). 회의실에 있어요 = 'it is IN the meeting room'; 회의실에서 일해요 = 'I work IN the meeting room.' Choosing 에 vs 에서 wrong is the classic beginner slip.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "회의실 is built transparently from 회의 (a meeting) + 실 (room). A near-synonym is 미팅룸 (a borrowed English term used in some modern offices), but 회의실 is the standard, safe word. Register is neutral/workplace."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast learners blur is 회의 vs 회의실: 회의 is the EVENT (the meeting), 회의실 is the PLACE (the room) — 회의실에서 회의를 해요 means 'we hold a meeting in the meeting room,' two different words."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "회의실 = 會議室, 'meeting-room.' That 실 (room) is a powerful building block: once you know it, you recognize 사무실 (office), 화장실 (restroom), 교실 (classroom), and 연구실 (lab/study)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The sharpest pitfall is the particle: an action OCCURS at 회의실에서 (dynamic location), not 회의실에 (static existence/destination). 회의실에 있어요 = 'it is IN the meeting room'; 회의실에서 일해요 = 'I work IN the meeting room.' Choosing 에 vs 에서 wrong is the classic beginner slip."
+      }
+    ],
+    "mistakes": [
+      "Confusing 회의 (the meeting event) with 회의실 (the meeting room). You attend a 회의 that takes place in a 회의실.",
+      "Using 에 for an action: 회의실에 회의해요 is wrong. Actions happen at 회의실에서; 에 is only for existence/destination.",
+      "Forgetting the 실 = room logic and inventing words. The pattern 회의+실, 사무+실, 화장+실 is consistent — lean on it."
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +289,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["직장 상사", "a workplace superior", "직장 (workplace) + 상사."],
-      ["상사한테 보고하다", "to report to one's boss", "한테 marks the person."],
-      ["상사가 무섭다", "the boss is scary", "무섭다 for a strict boss."],
-      ["좋은 상사", "a good boss", "Put 좋은 (good) in front."]
+      ["직장 상사", "a workplace superior", "직장 (workplace) + 상사; specifies a boss in the work context."],
+      ["상사한테 보고하다", "to report to one's superior", "보고하다 (報告, report) + 한테 marking the person you report TO."],
+      ["직속 상사", "one's immediate/direct superior", "직속 (直屬, directly attached) = the boss right above you in the chain."],
+      ["상사의 지시", "the boss's orders/instructions", "지시 (指示, directive); 의 links the superior to their command."]
     ],
     "examples": [
-      ["제 상사는 정말 친절해요.", "My boss is really kind.", "상사는 + adjective."],
-      ["상사한테 먼저 말해야 해요.", "I have to tell my boss first.", "상사한테 + 말하다."],
-      ["우리 상사는 회의를 좋아해요.", "Our boss likes meetings.", "상사는 + 좋아하다."]
+      ["제 상사는 정말 친절해요.", "My boss is really kind.", "상사는 + adjective; used when TALKING ABOUT the boss, not addressing them."],
+      ["상사한테 먼저 보고해야 해요.", "I have to report to my boss first.", "상사한테 + 보고하다; 한테 = to (a person); 야 하다 = have to."],
+      ["새 상사가 오셨어요.", "A new boss has arrived.", "Honorific 오시다→오셨어요 shows respect for the superior's action."]
     ],
-    "nuance": "상사 is the general word for a superior at work, anyone ranked above you, whatever their exact title. You usually talk about a 상사 rather than calling them '상사' to their face; instead you use their title plus 님, like 부장님. The opposite, a worker below you, is a 부하 (subordinate).",
-    "mistakes": ["Calling your boss '상사님' directly; address them by title + 님, like 팀장님.", "Confusing 상사 (a superior person) with 회사 (the company)."]
+    "nuance": "상사 (上司, 'upper-office/superior') is the general, descriptive term for anyone who outranks you at work, whatever their specific title. The vital register caution: 상사 is a word you use ABOUT your boss when describing them to others (우리 상사는…), almost never TO their face — addressing them directly, you must use their title + 님: 부장님, 팀장님, 과장님. Calling someone '상사님' to their face sounds odd, like addressing a teacher as 'Superior.' The opposite pole is 부하 ((部下), a subordinate), and a near-synonym 윗사람 ('person above') is softer/more general and can extend beyond work to any senior. Contrast also with 선배, who joined before you but isn't necessarily your boss. The English-speaker pitfall: English freely says 'my boss' and even addresses them by first name, but Korean hierarchy forbids both — you neither say 상사님 nor use their bare name; you use title + 님. Also mark the person you report to with 한테/에게, not just a bare noun.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "상사 is the general, descriptive term for anyone who outranks you at work, whatever their specific title. The vital register caution: 상사 is a word you use ABOUT your boss when describing them to others (우리 상사는…), almost never TO their face — addressing them directly, you must use their title + 님: 부장님, 팀장님, 과장님. Calling someone '상사님' to their face sounds odd, like addressing a teacher as 'Superior.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The opposite pole is 부하 (部下, a subordinate), and a near-synonym 윗사람 ('person above') is softer/more general and can extend beyond work to any senior. Contrast also with 선배, who joined before you but isn't necessarily your boss."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "상사 = 上司, literally 'upper-office/superior.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English freely says 'my boss' and even addresses them by first name, but Korean hierarchy forbids both — you neither say 상사님 nor use their bare name; you use title + 님. Also mark the person you report to with 한테/에게, not just a bare noun."
+      }
+    ],
+    "mistakes": [
+      "Addressing your boss as '상사님' to their face. Use their title + 님 instead: 부장님, 팀장님. 상사 is for describing them to others.",
+      "Calling your boss by their first name like in English. Korean requires title + 님; using the bare name is rude across rank.",
+      "Confusing 상사 (a superior person) with 회사 (the company). They sound similar but mean boss vs. corporation."
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +336,44 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["회사 선배", "a senior at work", "회사 (company) + 선배."],
-      ["선배님", "senior (polite address)", "Add 님 when speaking to them."],
-      ["선배한테 배우다", "to learn from a senior", "한테 marks the source."],
-      ["학교 선배", "a school senior", "학교 (school) + 선배."]
+      ["회사 선배", "a senior at work", "회사 (company) + 선배 — someone who joined before you, not necessarily your boss."],
+      ["선배님", "senior (polite direct address)", "Add 님 to address a 선배 respectfully to their face."],
+      ["선배한테 배우다", "to learn from a senior", "한테 marks the source you learn FROM; 배우다 = learn."],
+      ["대학 선배", "a university senior", "대학 (university) + 선배 — an older schoolmate from the same university."]
     ],
     "examples": [
-      ["회사 선배가 많이 도와줬어요.", "A senior at work helped me a lot.", "선배가 + 도와주다, past."],
-      ["선배님, 이거 좀 가르쳐 주세요.", "Senior, please teach me this.", "선배님 + polite request."],
-      ["저는 그 선배를 존경해요.", "I respect that senior.", "선배를 + 존경하다."]
+      ["회사 선배가 많이 도와줬어요.", "A senior at work helped me a lot.", "선배가 + 도와주다 (help, with benefit); past 도와줬어요."],
+      ["선배님, 이것 좀 알려 주세요.", "Senior, please show me this.", "Direct address 선배님 + 알려 주세요 (kindly tell/show me)."],
+      ["저는 그 선배를 정말 존경해요.", "I really respect that senior.", "선배를 + 존경하다 (respect); 를 marks the object of respect."]
     ],
-    "nuance": "선배 is someone senior to you who joined a school or company before you, and Koreans rely on this senior-junior relationship a lot. You add 님 to address them politely (선배님). The matching word for someone junior to you is 후배.",
-    "mistakes": ["Confusing 선배 (joined before you) with 후배 (joined after you).", "Using 선배 for an actual boss; a 선배 is senior but not necessarily your superior."]
+    "nuance": "선배 (先輩, 'earlier-generation/fellow') means someone senior to you who entered the same school, university, company, or field BEFORE you — a relationship that structures enormous amounts of Korean social life. The sharp contrast: a 선배 is defined by entering EARLIER, while a 상사 is defined by RANK — your 선배 may or may not be your boss, and your boss may not be your 선배 if they transferred in. Also distinguish 선배 from 어른 (an elder/adult by age generally). Unlike 상사, you CAN and do address a 선배 directly, adding 님 for politeness: 선배님. A 선배 traditionally looks after their 후배 (junior), often picking up the meal tab. Register: warm but respectful, deeply tied to hierarchy. The English-speaker pitfall: English has no real equivalent and learners default to 'senior' = 'boss' — but 선배 is about timing, not authority; treating every 선배 as a 상사 (or vice versa) misreads the relationship. Mark whom you learn from with 한테/에게.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "선배 means someone senior to you who entered the same school, university, company, or field BEFORE you — a relationship that structures enormous amounts of Korean social life. Unlike 상사, you CAN and do address a 선배 directly, adding 님 for politeness: 선배님. A 선배 traditionally looks after their 후배 (junior), often picking up the meal tab. Register: warm but respectful, deeply tied to hierarchy."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast: a 선배 is defined by entering EARLIER, while a 상사 is defined by RANK — your 선배 may or may not be your boss, and your boss may not be your 선배 if they transferred in. Also distinguish 선배 from 어른 (an elder/adult by age generally)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "선배 = 先輩, literally 'earlier-generation/fellow.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English has no real equivalent and learners default to 'senior' = 'boss' — but 선배 is about timing, not authority; treating every 선배 as a 상사 (or vice versa) misreads the relationship. Mark whom you learn from with 한테/에게."
+      }
+    ],
+    "mistakes": [
+      "Equating 선배 with 'boss.' A 선배 joined before you but may hold no authority; a boss with power is a 상사.",
+      "Confusing 선배 (joined before you) with 후배 (joined after you). They are mirror opposites — get the direction right.",
+      "Dropping 님 when speaking TO a senior. To their face it's 선배님; bare 선배 in direct address can sound too casual."
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +383,44 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["회사 후배", "a junior at work", "회사 (company) + 후배."],
-      ["후배를 가르치다", "to teach a junior", "가르치다 means teach."],
-      ["후배한테 사 주다", "to treat a junior", "한테 marks the receiver."],
-      ["학교 후배", "a school junior", "학교 (school) + 후배."]
+      ["회사 후배", "a junior at work", "회사 + 후배 — someone who joined the company after you."],
+      ["후배를 가르치다", "to teach/mentor a junior", "가르치다 = teach; seniors often guide their 후배."],
+      ["후배한테 사 주다", "to treat a junior (buy for them)", "한테 marks the receiver; 사 주다 = buy (for someone's benefit)."],
+      ["대학 후배", "a university junior", "대학 + 후배 — a younger schoolmate from the same university."]
     ],
     "examples": [
-      ["저는 후배가 한 명 있어요.", "I have one junior.", "후배가 + counter + 있어요."],
-      ["후배한테 커피를 사 줬어요.", "I bought my junior a coffee.", "후배한테 + 사 주다, past."],
-      ["그 후배는 일을 잘해요.", "That junior is good at work.", "후배는 + 잘하다."]
+      ["저는 후배가 한 명 있어요.", "I have one junior.", "후배가 + 한 명 (one person) + 있다; 명 is the counter for people."],
+      ["후배한테 커피를 사 줬어요.", "I bought my junior a coffee.", "후배한테 + 사 주다, past 사 줬어요; the 줬 shows you did it FOR them."],
+      ["그 후배는 일을 정말 잘해요.", "That junior is really good at their work.", "후배는 + 일을 잘하다 (be good at work)."]
     ],
-    "nuance": "후배 is someone junior to you who joined a school or company after you, the opposite of 선배. In Korea a 선배 often looks after a 후배, for example by treating them to a meal. You can address them by name, since you do not need to add 님 for someone junior.",
-    "mistakes": ["Mixing up 후배 (junior) with 선배 (senior).", "Adding 님 to 후배; the polite 님 is used for seniors, not juniors."]
+    "nuance": "후배 (後輩, 'later-generation/fellow') is the mirror image of 선배: someone who entered the same school, company, or field AFTER you, regardless of their age in some cases (entry timing usually outweighs age). The contrast to keep straight is purely directional — 선배 = earlier, 후배 = later — and neither word is about workplace RANK (that's 상사 vs 부하). Within Korea's senior-junior culture, the 선배 is expected to look after the 후배: guiding them at work, answering questions, and famously treating them to meals or coffee (후배한테 밥 사 주다). Register: friendly and caring, but still hierarchy-aware. The key English-speaker pitfall is honorifics: you do NOT attach 님 to 후배 — 님 elevates seniors, so '후배님' is unnatural; you address a junior by name or with 씨. Many learners over-apply 님 to everyone out of caution, which actually misfires here. Also, don't assume a 후배 is younger or lower-ranked — they're simply LATER to the group.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "후배 is the mirror image of 선배: someone who entered the same school, company, or field AFTER you, regardless of their age in some cases (entry timing usually outweighs age). Within Korea's senior-junior culture, the 선배 is expected to look after the 후배: guiding them at work, answering questions, and famously treating them to meals or coffee (후배한테 밥 사 주다). Register: friendly and caring, but still hierarchy-aware."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to keep straight is purely directional — 선배 = earlier, 후배 = later — and neither word is about workplace RANK (that's 상사 vs 부하)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "후배 = 後輩, literally 'later-generation/fellow.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The key pitfall is honorifics: you do NOT attach 님 to 후배 — 님 elevates seniors, so '후배님' is unnatural; you address a junior by name or with 씨. Many learners over-apply 님 to everyone out of caution, which actually misfires here. Also, don't assume a 후배 is younger or lower-ranked — they're simply LATER to the group."
+      }
+    ],
+    "mistakes": [
+      "Adding 님 to 후배 ('후배님'). 님 honors seniors; a junior is addressed by name or with ~씨, not 님.",
+      "Mixing up 후배 (joined after you) and 선배 (joined before you). They are exact opposites — direction matters.",
+      "Assuming 후배 means 'younger.' It marks LATER entry to the group, not necessarily a younger age."
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +430,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["출장을 가다", "to go on a business trip", "가다 for going."],
-      ["출장 중이다", "to be away on business", "중이다 means in progress."],
-      ["해외 출장", "an overseas business trip", "해외 (abroad) + 출장."],
-      ["출장이 잦다", "to have frequent business trips", "잦다 means frequent."]
+      ["출장을 가다", "to go on a business trip", "가다 is the set verb; you GO on a 출장, you don't 'do' one."],
+      ["출장 중이다", "to be away on business", "중 (中, in the middle of) + 이다 = currently on the trip."],
+      ["해외 출장", "an overseas business trip", "해외 (海外, overseas) + 출장 — a trip abroad for work."],
+      ["출장에서 돌아오다", "to return from a business trip", "에서 marks the place you come back FROM; 돌아오다 = come back."]
     ],
     "examples": [
-      ["내일 부산으로 출장을 가요.", "I'm going to Busan on a business trip tomorrow.", "place + 으로 + 출장 가다."],
-      ["부장님은 지금 출장 중이세요.", "The manager is away on business now.", "출장 중 + honorific 세요."],
-      ["이번 달에 해외 출장이 있어요.", "I have an overseas trip this month.", "해외 출장 + 있어요."]
+      ["내일 부산으로 출장을 가요.", "I'm going to Busan on a business trip tomorrow.", "Place + 으로 (toward) + 출장을 가다; 으로 marks the direction."],
+      ["부장님은 지금 출장 중이세요.", "The manager is away on business now.", "출장 중 + honorific 이세요 to respect the superior."],
+      ["이번 출장은 일정이 빡빡해요.", "This business trip has a tight schedule.", "일정 (schedule) + 빡빡하다 (tight/packed) — a real coworker's complaint."]
     ],
-    "nuance": "출장 is a business trip, traveling somewhere for work, often with an overnight stay. It differs from 외근 (off-site work within the same day) because 출장 usually means a longer, farther trip. Say 출장을 가다 to go on one and 출장 중이에요 to explain that someone is away for work.",
-    "mistakes": ["Confusing 출장 (a business trip) with 여행 (a leisure trip).", "Saying 출장을 하다 instead of the natural 출장을 가다."]
+    "nuance": "출장 (出張, 'go-out-stretch/dispatch') means being sent away from your usual workplace to do work elsewhere — typically a trip to another city or country, often with an overnight stay. The synonym contrast that matters: 출장 is travel FOR WORK, sharply distinct from 여행 (a leisure trip) — never call a vacation a 출장. Within work travel, contrast 출장 (a farther/longer dispatch, often overnight) with 외근 (外勤, off-site work done and returned within the same day, like visiting a client across town). The set verb is 가다 (출장을 가다, go on a trip) and the status phrase is 출장 중이에요 (away on business). Register: standard workplace vocabulary. The English-speaker pitfall is the verb choice — learners say 출장을 하다 ('do a business trip') by analogy with English 'take/do,' but Korean uses 가다 (go); and direction takes 으로 (부산으로 출장 가요), not just 에. Also don't confuse the noun-internal 장 here (dispatch) with the 장 in 직장/공장 (place).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "출장 means being sent away from your usual workplace to do work elsewhere — typically a trip to another city or country, often with an overnight stay. The set verb is 가다 (출장을 가다, go on a trip) and the status phrase is 출장 중이에요 (away on business). Register: standard workplace vocabulary."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym contrast that matters: 출장 is travel FOR WORK, sharply distinct from 여행 (a leisure trip) — never call a vacation a 출장. Within work travel, contrast 출장 (a farther/longer dispatch, often overnight) with 외근 (外勤, off-site work done and returned within the same day, like visiting a client across town)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "출장 = 出張, literally 'go-out-stretch/dispatch.' Don't confuse the noun-internal 장 here (dispatch) with the 장 in 직장/공장 (place)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is the verb choice — learners say 출장을 하다 ('do a business trip') by analogy with English 'take/do,' but Korean uses 가다 (go); and direction takes 으로 (부산으로 출장 가요), not just 에."
+      }
+    ],
+    "mistakes": [
+      "Saying 출장을 하다. The natural verb is 가다: 출장을 가다 (go on a business trip).",
+      "Confusing 출장 (work travel) with 여행 (leisure travel). A vacation is never a 출장.",
+      "Marking the destination with 에: 부산에 출장 가요 is awkward. Use 으로 for direction → 부산으로 출장 가요."
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +477,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["면접을 보다", "to have an interview", "보다 is the set verb here."],
-      ["면접에 합격하다", "to pass the interview", "합격하다 means pass."],
-      ["면접 준비", "interview preparation", "면접 + 준비 (preparation)."],
-      ["면접이 있다", "to have an interview", "있다 for being scheduled."]
+      ["면접을 보다", "to have a job interview", "보다 'to see' is the FIXED verb here, exactly like 시험을 보다 (take an exam)."],
+      ["면접에 합격하다", "to pass the interview", "합격하다 (合格, pass) + 에 marking the interview you pass; opposite is 떨어지다 (fail)."],
+      ["면접 준비", "interview preparation", "면접 + 준비 (準備, preparation) — getting ready for the interview."],
+      ["1차 면접", "the first-round interview", "1차 (1次, first round); Korean hiring often has 1차, 2차 면접 stages."]
     ],
     "examples": [
-      ["내일 면접을 봐요.", "I have a job interview tomorrow.", "면접을 보다 = take an interview."],
-      ["면접 준비를 열심히 했어요.", "I prepared hard for the interview.", "면접 준비 + 하다, past."],
-      ["면접에 합격해서 정말 기뻐요.", "I'm so happy I passed the interview.", "면접에 합격하다 + reason."]
+      ["내일 면접을 봐요.", "I have a job interview tomorrow.", "면접을 보다 → present 봐요; literally 'see an interview' = have one."],
+      ["면접 준비를 열심히 했어요.", "I prepared hard for the interview.", "면접 준비 + 하다, past 했어요; 열심히 = diligently."],
+      ["면접에 합격해서 정말 기뻐요.", "I'm so happy I passed the interview.", "면접에 합격하다 + ~아서 (reason) + 기쁘다 (glad)."]
     ],
-    "nuance": "면접 is a job interview, and the fixed verb is 보다, so 면접을 보다 literally 'see an interview' means 'have an interview.' This 보다 pattern also appears with 시험을 보다 (take an exam). After it you hope to 합격하다 (pass) rather than 떨어지다 (fail).",
-    "mistakes": ["Saying 면접을 하다 instead of the correct 면접을 보다.", "Confusing 면접 (interview) with 시험 (a written test/exam)."]
+    "nuance": "면접 (面接, 'face-contact/meet') literally means meeting face-to-face, and refers to the job interview where you sit before evaluators. The most important thing to lock in is the FIXED verb: 면접을 보다, literally 'to see an interview,' which uses the same 보다 as 시험을 보다 (take a test) — Korean treats undergoing an evaluation as 'seeing' it. The synonym contrast: 면접 is the oral, face-to-face interview, while 시험 (試驗) is a written test/exam, and 면담 (面談) is a softer counseling-style talk (e.g., with a professor), not a hiring screen. After a 면접 you hope to 합격하다 (pass) rather than 떨어지다 (fall/fail) or 불합격하다. Register: neutral, used in any job-search context. The English-speaker pitfall is reaching for 하다: 면접을 하다 sounds off from the candidate's side — you 면접을 보다 (take it); the company that conducts it may 면접을 진행하다. Also note you pass 면접에 (with 에), patterning like 시험에 합격하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "면접 literally means meeting face-to-face, and refers to the job interview where you sit before evaluators. The most important thing to lock in is the FIXED verb: 면접을 보다, literally 'to see an interview,' which uses the same 보다 as 시험을 보다 (take a test) — Korean treats undergoing an evaluation as 'seeing' it. After a 면접 you hope to 합격하다 (pass) rather than 떨어지다 (fall/fail) or 불합격하다. Register: neutral, used in any job-search context."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym contrast: 면접 is the oral, face-to-face interview, while 시험 (試驗) is a written test/exam, and 면담 (面談) is a softer counseling-style talk (e.g., with a professor), not a hiring screen."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "면접 = 面接, literally 'face-contact/meet' — meeting face-to-face."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is reaching for 하다: 면접을 하다 sounds off from the candidate's side — you 면접을 보다 (take it); the company that conducts it may 면접을 진행하다. Also note you pass 면접에 (with 에), patterning like 시험에 합격하다."
+      }
+    ],
+    "mistakes": [
+      "Saying 면접을 하다 as the candidate. The fixed verb is 면접을 보다 (just like 시험을 보다).",
+      "Confusing 면접 (oral, face-to-face interview) with 시험 (a written exam). Different formats, different prep.",
+      "Using 를 with 합격: 면접을 합격하다 is wrong. You pass INTO it with 에 → 면접에 합격하다."
+    ]
   },
   {
     "kind": "noun",
@@ -238,18 +524,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["이력서를 쓰다", "to write a resume", "쓰다 means write."],
-      ["이력서를 내다", "to submit a resume", "내다 means hand in."],
-      ["이력서에 적다", "to write on the resume", "에 marks where you write."],
-      ["이력서 사진", "the resume photo", "이력서 + 사진 (photo)."]
+      ["이력서를 쓰다", "to write a resume", "쓰다 'to write' is the natural verb; you write a resume, you don't 'make' it."],
+      ["이력서를 내다", "to submit a resume", "내다 'to put/hand out' = submit; 이력서를 제출하다 is its formal twin."],
+      ["이력서에 적다", "to write (entries) on the resume", "에 marks WHERE you write; 적다 = jot/note down onto the document."],
+      ["이력서 사진", "the resume photo", "이력서 + 사진 — the ID-style photo traditionally attached in Korea."]
     ],
     "examples": [
-      ["이력서를 쓰고 있어요.", "I'm writing my resume.", "이력서를 + 쓰다, ongoing."],
-      ["회사에 이력서를 냈어요.", "I submitted my resume to the company.", "회사에 + 이력서 내다, past."],
-      ["이력서에 경력을 적었어요.", "I wrote my work experience on the resume.", "이력서에 + 적다, past."]
+      ["이력서를 쓰고 있어요.", "I'm writing my resume.", "이력서를 + 쓰다 + 고 있다 (ongoing) → 쓰고 있어요."],
+      ["회사에 이력서를 냈어요.", "I submitted my resume to the company.", "회사에 (to the company) + 이력서를 내다, past 냈어요."],
+      ["이력서에 경력을 자세히 적었어요.", "I wrote my work experience on the resume in detail.", "이력서에 + 경력 (career) + 적다, past 적었어요."]
     ],
-    "nuance": "이력서 is a resume or CV, the document listing your education and work history when you apply for a job. You 쓰다 (write) it and then 내다 (submit) it to a company. In Korea a 이력서 traditionally includes a small ID-style photo, the 이력서 사진.",
-    "mistakes": ["Saying 이력서를 만들다 (craft) when 쓰다 (write) is more natural.", "Confusing 이력서 (resume) with 자기소개서, the longer self-introduction essay."]
+    "nuance": "이력서 (履歷書, 'tread-history-document') literally means a 'record-of-what-you've-walked' document — the page listing your education, work history, and qualifications when applying for a job. The key contrast to draw: 이력서 is the structured factual resume (dates, schools, jobs in fields), whereas 자기소개서 (自己紹介書), often shortened to 자소서, is the separate, longer SELF-INTRODUCTION essay where you narrate your motivation and personality — Korean applications almost always require BOTH, so never use them interchangeably. The verbs are 쓰다 (write it) then 내다/제출하다 (submit it). A culturally specific point: a traditional Korean 이력서 includes a small formal 이력서 사진 (ID photo). Register: neutral job-search vocabulary. The English-speaker pitfall: don't say 이력서를 만들다 ('make/craft a resume') — Korean uses 쓰다 (write), because a resume is conceived as written text, not a manufactured object; and remember that what English calls a 'cover letter' maps roughly onto 자기소개서, not 이력서.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이력서 literally means a 'record-of-what-you've-walked' document — the page listing your education, work history, and qualifications when applying for a job. The verbs are 쓰다 (write it) then 내다/제출하다 (submit it). A culturally specific point: a traditional Korean 이력서 includes a small formal 이력서 사진 (ID photo). Register: neutral job-search vocabulary."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast to draw: 이력서 is the structured factual resume (dates, schools, jobs in fields), whereas 자기소개서 (自己紹介書), often shortened to 자소서, is the separate, longer SELF-INTRODUCTION essay where you narrate your motivation and personality — Korean applications almost always require BOTH, so never use them interchangeably."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "이력서 = 履歷書, literally 'tread-history-document' — a record of what you've walked."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't say 이력서를 만들다 ('make/craft a resume') — Korean uses 쓰다 (write), because a resume is conceived as written text, not a manufactured object; and remember that what English calls a 'cover letter' maps roughly onto 자기소개서, not 이력서."
+      }
+    ],
+    "mistakes": [
+      "Saying 이력서를 만들다 ('make' a resume). The natural verb is 쓰다 (write); a resume is written, not crafted.",
+      "Confusing 이력서 (the factual resume) with 자기소개서/자소서 (the self-introduction essay). Korean jobs need both, separately.",
+      "Using 에서 instead of 에 for where you write: you write entries 이력서에 적다 (onto the resume), not 이력서에서."
+    ]
   },
   {
     "kind": "noun",
@@ -259,18 +571,44 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["연봉이 높다", "the annual salary is high", "높다 for a high figure."],
-      ["연봉을 올리다", "to raise one's salary", "올리다 means raise."],
-      ["연봉 협상", "salary negotiation", "연봉 + 협상 (negotiation)."],
-      ["연봉이 얼마예요?", "How much is the annual salary?", "얼마 asks the amount."]
+      ["연봉이 높다", "to have a high (annual) salary", "높다 'be high' is the adjective for salary level — NOT 비싸다 (expensive)."],
+      ["연봉을 올리다", "to raise one's salary", "올리다 'to raise' (transitive); the intransitive 'salary rises' is 연봉이 오르다."],
+      ["연봉 협상", "salary negotiation", "협상 (協商, negotiation) — the talk where you settle your yearly pay."],
+      ["연봉이 얼마예요?", "How much is the annual salary?", "얼마 asks the amount; a direct (somewhat blunt) money question."]
     ],
     "examples": [
-      ["이 회사는 연봉이 높아요.", "This company's salary is high.", "연봉이 + 높아요."],
-      ["올해 연봉이 조금 올랐어요.", "My salary went up a little this year.", "연봉이 + 오르다, past."],
-      ["연봉이 얼마예요?", "How much is the annual salary?", "Direct money question."]
+      ["이 회사는 연봉이 높아요.", "This company's salary is high.", "연봉이 + 높다; salary takes 높다/낮다 (high/low), not 비싸다."],
+      ["올해 연봉이 조금 올랐어요.", "My salary went up a little this year.", "연봉이 + 오르다 (rise, intransitive), past 올랐어요."],
+      ["입사할 때 연봉 협상을 했어요.", "I negotiated my salary when I joined.", "입사할 때 (when joining) + 연봉 협상을 하다, past 했어요."]
     ],
-    "nuance": "연봉 is your salary stated as a yearly total, which is how pay is normally discussed in Korea, rather than monthly. It is made of 연 (year) plus 봉 (pay). At a new job you may go through 연봉 협상 (salary negotiation), and the monthly take-home is the separate word 월급.",
-    "mistakes": ["Confusing 연봉 (yearly salary) with 월급 (monthly pay).", "Saying 연봉이 비싸다; for a high salary use 높다, not 비싸다."]
+    "nuance": "연봉 (年俸, 'year-stipend') is your pay expressed as a YEARLY total — and crucially, this is the default unit Koreans use to discuss and compare pay (연봉 3천 = 30 million won a year), unlike the English habit of quoting an hourly or monthly figure. The essential contrast: 연봉 is the annual gross figure used in offers and negotiations, while 월급 (月給, 'month-pay') is the monthly paycheck you actually take home each month — mixing them up distorts the numbers twelvefold. Related: 시급 (時給) is hourly wage (for part-timers), and 보너스/성과급 are bonuses on top. A new hire goes through 연봉 협상 (salary negotiation). Register: neutral, though asking 연봉이 얼마예요? directly can feel intrusive with someone you don't know well. The big English-speaker pitfall is the adjective: a high salary is 연봉이 높다 (high), and a low one 낮다 (low) — NEVER 연봉이 비싸다 ('expensive'), because 비싸다 is for the price of goods, not for amounts of money like wages.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "연봉 is your pay expressed as a YEARLY total — and crucially, this is the default unit Koreans use to discuss and compare pay (연봉 3천 = 30 million won a year), unlike the English habit of quoting an hourly or monthly figure. A new hire goes through 연봉 협상 (salary negotiation). Register: neutral, though asking 연봉이 얼마예요? directly can feel intrusive with someone you don't know well."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The essential contrast: 연봉 is the annual gross figure used in offers and negotiations, while 월급 (月給, 'month-pay') is the monthly paycheck you actually take home each month — mixing them up distorts the numbers twelvefold. Related: 시급 (時給) is hourly wage (for part-timers), and 보너스/성과급 are bonuses on top."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "연봉 = 年俸, literally 'year-stipend.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall is the adjective: a high salary is 연봉이 높다 (high), and a low one 낮다 (low) — NEVER 연봉이 비싸다 ('expensive'), because 비싸다 is for the price of goods, not for amounts of money like wages."
+      }
+    ],
+    "mistakes": [
+      "Saying 연봉이 비싸다 for a high salary. Use 높다 (high); 비싸다 (expensive) describes prices of things, not pay.",
+      "Confusing 연봉 (yearly salary) with 월급 (monthly paycheck). The figures differ by a factor of twelve.",
+      "Assuming Koreans quote monthly pay by default. Salaries are normally discussed as 연봉 (annual), so state the yearly amount."
+    ]
   },
   {
     "kind": "noun",
@@ -280,17 +618,43 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["승진을 하다", "to get a promotion", "하다 for the event."],
-      ["승진이 빠르다", "to be promoted quickly", "빠르다 for a fast pace."],
-      ["승진 축하해요", "congrats on the promotion", "A common greeting."],
-      ["부장으로 승진하다", "to be promoted to manager", "rank + 으로 + 승진하다."]
+      ["승진을 하다", "to get a promotion", "하다 turns the noun into the event; or just 승진하다 as one verb."],
+      ["부장으로 승진하다", "to be promoted to department head", "Rank + 으로 (to/as) + 승진하다 marks the rank you rise TO."],
+      ["승진이 빠르다", "to be promoted quickly", "빠르다 'be fast' describes the pace of climbing the ladder."],
+      ["승진 축하해요", "congrats on the promotion", "축하하다 (祝賀, congratulate); a set phrase when a coworker moves up."]
     ],
     "examples": [
-      ["이번에 승진을 했어요.", "I got promoted this time.", "승진을 하다, past."],
-      ["승진 축하해요!", "Congratulations on your promotion!", "Set congratulation phrase."],
-      ["과장으로 승진했어요.", "I was promoted to section chief.", "rank + 으로 + 승진하다."]
+      ["이번에 승진을 했어요.", "I got promoted this time.", "승진을 하다, past 했어요; 이번에 = this time/round."],
+      ["과장으로 승진했어요.", "I was promoted to section chief.", "Rank 과장 + 으로 + 승진하다, past 승진했어요."],
+      ["승진 축하해요!", "Congratulations on your promotion!", "Fixed congratulation; just 승진 + 축하해요, no particle needed."]
     ],
-    "nuance": "승진 means moving up to a higher rank or title at work, like going from 사원 to 대리. The verb form is 승진하다, and to say which rank you moved up to, use the rank plus 으로, as in 부장으로 승진하다. When a coworker is promoted, people say 승진 축하해요.",
-    "mistakes": ["Confusing 승진 (a promotion in rank) with 합격 (passing an exam/interview).", "Saying 승진을 받다; use 승진을 하다 or simply 승진하다."]
+    "nuance": "승진 (昇進, 'rise-advance') means moving UP to a higher rank or title at work — climbing the corporate ladder from 사원 to 대리 to 과장 and beyond. The contrasts to keep distinct: 승진 is rising in RANK within a workplace, different from 합격 (passing an exam or interview to get IN), from 취직/취업 (landing a job in the first place), and from 이직 (changing to a different company). The verb is 승진하다, and to name the rank you rose to, use rank + 으로: 부장으로 승진했어요 (promoted to department head), where 으로 carries an 'into/as' meaning. When a colleague is promoted, the ready-made phrase is 승진 축하해요. Register: neutral, congratulatory. The English-speaker pitfall: English says 'I GOT a promotion,' tempting learners into 승진을 받다 ('receive a promotion') — but Korean treats it as something you DO/achieve: 승진을 하다 or simply 승진하다, not 받다. Also don't mark the new rank with 에 (부장에 승진 is wrong); the directional 으로 is required.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "승진 means moving UP to a higher rank or title at work — climbing the corporate ladder from 사원 to 대리 to 과장 and beyond. The verb is 승진하다, and to name the rank you rose to, use rank + 으로: 부장으로 승진했어요 (promoted to department head), where 으로 carries an 'into/as' meaning. When a colleague is promoted, the ready-made phrase is 승진 축하해요. Register: neutral, congratulatory."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrasts to keep distinct: 승진 is rising in RANK within a workplace, different from 합격 (passing an exam or interview to get IN), from 취직/취업 (landing a job in the first place), and from 이직 (changing to a different company)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "승진 = 昇進, literally 'rise-advance.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English says 'I GOT a promotion,' tempting learners into 승진을 받다 ('receive a promotion') — but Korean treats it as something you DO/achieve: 승진을 하다 or simply 승진하다, not 받다. Also don't mark the new rank with 에 (부장에 승진 is wrong); the directional 으로 is required."
+      }
+    ],
+    "mistakes": [
+      "Saying 승진을 받다 ('receive a promotion') from English 'got a promotion.' Korean uses 승진을 하다 / 승진하다.",
+      "Confusing 승진 (rising in rank) with 합격 (passing an exam/interview) or 취직 (getting hired). Different stages entirely.",
+      "Marking the new rank with 에: 부장에 승진했어요 is wrong. Use 으로 → 부장으로 승진했어요."
+    ]
   }
 ]

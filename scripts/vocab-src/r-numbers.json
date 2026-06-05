@@ -13,45 +13,75 @@
     "usage": [
       [
         "한 개",
-        "one things",
-        "shortens to 한 before a counter"
+        "one item",
+        "하나 drops its 나 to become 한 right before a counter"
       ],
       [
         "한 시",
         "one o'clock",
-        "hours use native numbers"
+        "the HOUR is always native: 한 시, never 일 시"
       ],
       [
         "한 명",
-        "one people",
-        "counting people"
+        "one person",
+        "명 is the plain counter for people; 한 분 is the polite version"
       ],
       [
-        "하나",
-        "one (standalone)",
-        "the full form when not before a counter"
+        "하나만",
+        "just one",
+        "the full standalone 하나 takes particles like 만, 도, 를"
       ]
     ],
     "examples": [
       [
-        "사과 한 개 주세요.",
-        "Give me one apples.",
-        "counting things"
+        "하나, 둘, 셋!",
+        "One, two, three!",
+        "counting out loud (a countdown) uses the bare standalone forms"
       ],
       [
-        "지금 한 시예요.",
-        "It is one o'clock now.",
-        "telling the hour"
+        "사과 한 개만 주세요.",
+        "Please give me just one apple.",
+        "before the counter 개, 하나 must shrink to 한"
       ],
       [
-        "친구 한 명이 왔어요.",
-        "One friends came.",
-        "counting people"
+        "회의는 오후 한 시에 시작해요.",
+        "The meeting starts at one in the afternoon.",
+        "real scheduling: the clock hour is native (한 시) but you would say the minutes in Sino"
       ]
     ],
-    "nuance": "Native Korean number for \"one\". Use it for counting things, people, age, and the hour. Before a counter it shortens to 한 (e.g., 한 개).",
+    "nuance": "하나 is the native-Korean (고유어) word for \"one,\" the counting system Koreans use for tangible things, people, age, and the clock hour — as opposed to its Sino-Korean twin 일, which rules dates, money, minutes, and phone numbers. The single biggest fact to internalize: when 하나 sits directly in front of a counter (개, 명, 시, 살, 마리), it loses its last syllable and becomes 한 — 한 개, 한 명, 한 시 — while the full 하나 only stands alone (as in counting \"하나, 둘\" or taking a particle, 하나만). English speakers reliably trip here by saying 하나 개 or, worse, importing the Sino number and saying 일 개; both sound clearly wrong to a Korean ear. There is no hanja because it is purely native, so do not look for one.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "하나 is the native-Korean (고유어) word for \"one,\" the counting system Koreans use for tangible things, people, age, and the clock hour. The single biggest fact to internalize: when 하나 sits directly in front of a counter (개, 명, 시, 살, 마리), it loses its last syllable and becomes 한 — 한 개, 한 명, 한 시 — while the full 하나 only stands alone, as in counting \"하나, 둘\" or taking a particle, 하나만.",
+        "chips": [
+          "하나",
+          "한 개",
+          "한 시",
+          "하나만"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "하나 contrasts with its Sino-Korean twin 일, which rules dates, money, minutes, and phone numbers. Native 하나 is for the tangible-and-clock side; Sino 일 is for the measured-and-coded side."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "There is no hanja because it is purely native, so do not look for one."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers reliably trip here by saying 하나 개 or, worse, importing the Sino number and saying 일 개; both sound clearly wrong to a Korean ear."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Saying 하나 개 — before any counter the form must contract to 한, so it is 한 개. The full 하나 is only used standalone or with a particle.",
+      "Using the Sino 일 for the hour or for objects (일 시, 일 개). The clock hour and counting things are native territory, so it must be 한 시, 한 개.",
+      "Writing it solid as 한개 — Korean keeps a space between the number-word and the counter: 한 개."
     ]
   },
   {
@@ -68,45 +98,75 @@
     "usage": [
       [
         "두 개",
-        "two things",
-        "shortens to 두 before a counter"
+        "two items",
+        "둘 drops its 받침 ㄹ and becomes 두 before a counter"
       ],
       [
         "두 시",
         "two o'clock",
-        "hours use native numbers"
+        "the hour is native, so 두 시 (never 이 시)"
       ],
       [
         "두 명",
         "two people",
-        "counting people"
+        "두 명 for plain speech, 두 분 to be polite about the people counted"
       ],
       [
-        "둘",
-        "two (standalone)",
-        "the full form when not before a counter"
+        "둘 다",
+        "both / both of them",
+        "둘 다 is a fixed phrase meaning 'both'; uses the standalone 둘"
       ]
     ],
     "examples": [
       [
-        "사과 두 개 주세요.",
-        "Give me two apples.",
-        "counting things"
+        "둘 중에 뭐가 더 좋아요?",
+        "Which of the two do you like more?",
+        "standalone 둘 takes the particle 중에 ('among')"
       ],
       [
-        "지금 두 시예요.",
-        "It is two o'clock now.",
-        "telling the hour"
+        "커피 두 잔 주세요.",
+        "Two cups of coffee, please.",
+        "the counter for cups is 잔, and 둘 contracts to 두 in front of it"
       ],
       [
-        "친구 두 명이 왔어요.",
-        "Two friends came.",
-        "counting people"
+        "친구 두 명이랑 같이 영화를 봤어요.",
+        "I watched a movie with two friends.",
+        "real situation: 두 명 counts the people, and 이랑 links the companions"
       ]
     ],
-    "nuance": "Native Korean number for \"two\". Use it for counting things, people, age, and the hour. Before a counter it shortens to 두 (e.g., 두 개).",
+    "nuance": "둘 is native-Korean \"two,\" used for counting concrete things, people, and the clock hour, in contrast to Sino 이 which handles minutes, money, floors, and dates. Like 하나→한, 둘 contracts before a counter, dropping its final ㄹ to become 두: 두 개, 두 시, 두 명, 두 잔. The bare 둘 survives only when it stands alone or takes a particle — note the very common 둘 다 ('both') and 둘 중에 ('between the two'). English speakers often forget the contraction and say 둘 개, or reach for the Sino 이 (이 개), both of which sound off; they also tend to say 두 다 by mistake, but the fixed idiom is 둘 다. It is a pure native word, so it has no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "둘 is native-Korean \"two,\" used for counting concrete things, people, and the clock hour. Like 하나→한, 둘 contracts before a counter, dropping its final ㄹ to become 두: 두 개, 두 시, 두 명, 두 잔. The bare 둘 survives only when it stands alone or takes a particle — note the very common 둘 다 ('both') and 둘 중에 ('between the two').",
+        "chips": [
+          "둘",
+          "두 개",
+          "둘 다",
+          "둘 중에"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "둘 contrasts with Sino 이, which handles minutes, money, floors, and dates. Native 둘/두 is for tangible things, people, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is a pure native word, so it has no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers often forget the contraction and say 둘 개, or reach for the Sino 이 (이 개), both of which sound off; they also tend to say 두 다 by mistake, but the fixed idiom is 둘 다."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Saying 둘 개 — the form must contract to 두 before a counter, giving 두 개.",
+      "Saying 두 다 for 'both' — the idiom keeps the full form: it is 둘 다.",
+      "Using Sino 이 to count objects or tell the hour (이 시). The hour and tangible things are native: 두 시, 두 개."
     ]
   },
   {
@@ -123,45 +183,75 @@
     "usage": [
       [
         "세 개",
-        "three things",
-        "shortens to 세 before a counter"
+        "three items",
+        "셋 loses its ㅅ받침 and becomes 세 before a counter"
       ],
       [
         "세 시",
         "three o'clock",
-        "hours use native numbers"
+        "native for the hour: 세 시, not 삼 시"
       ],
       [
         "세 명",
         "three people",
-        "counting people"
+        "세 명 plain, 세 분 polite for the people"
       ],
       [
-        "셋",
-        "three (standalone)",
-        "the full form when not before a counter"
+        "셋이서",
+        "as a group of three",
+        "셋이서 / 셋이 means 'the three of us together'; keeps the full 셋"
       ]
     ],
     "examples": [
       [
-        "사과 세 개 주세요.",
-        "Give me three apples.",
-        "counting things"
+        "셋까지 셀게요. 하나, 둘, 셋!",
+        "I'll count to three. One, two, three!",
+        "standalone 셋 with 까지 ('up to'); counting aloud uses full forms"
       ],
       [
-        "지금 세 시예요.",
-        "It is three o'clock now.",
-        "telling the hour"
+        "공책 세 권 샀어요.",
+        "I bought three notebooks.",
+        "권 is the counter for books/notebooks; 셋 contracts to 세"
       ],
       [
-        "친구 세 명이 왔어요.",
-        "Three friends came.",
-        "counting people"
+        "우리 셋이서 같이 여행 가기로 했어요.",
+        "The three of us decided to travel together.",
+        "real situation: 셋이서 expresses doing something as a trio"
       ]
     ],
-    "nuance": "Native Korean number for \"three\". Use it for counting things, people, age, and the hour. Before a counter it shortens to 세 (e.g., 세 개).",
+    "nuance": "셋 is native-Korean \"three,\" the form used to count objects, people, and the clock hour, while Sino 삼 covers minutes, money, dates, and floors. Before a counter it contracts to 세 (세 개, 세 시, 세 명, 세 권), and the bare 셋 only appears standalone, with a particle, or in the social phrase 셋이서 ('as three people together'). A frequent English-speaker error is leaving it uncontracted as 셋 개 or borrowing Sino 삼 개; both are immediately wrong to natives. Another subtle pitfall: 세 (three) and 네 (four) look and sound similar, so learners mix them up — keep 세=3, 네=4 firmly apart. 셋 is purely native and has no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "셋 is native-Korean \"three,\" the form used to count objects, people, and the clock hour. Before a counter it contracts to 세 (세 개, 세 시, 세 명, 세 권), and the bare 셋 only appears standalone, with a particle, or in the social phrase 셋이서 ('as three people together').",
+        "chips": [
+          "셋",
+          "세 개",
+          "세 시",
+          "셋이서"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "셋 contrasts with Sino 삼, which covers minutes, money, dates, and floors. Native 셋/세 is for objects, people, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "셋 is purely native and has no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A frequent English-speaker error is leaving it uncontracted as 셋 개 or borrowing Sino 삼 개; both are immediately wrong to natives. Another subtle pitfall: 세 (three) and 네 (four) look and sound similar, so learners mix them up — keep 세=3, 네=4 firmly apart."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Saying 셋 개 — it contracts to 세 before a counter: 세 개.",
+      "Confusing 세 (three) with 네 (four). They rhyme but 세 개 = three items, 네 개 = four items.",
+      "Using Sino 삼 for the hour (삼 시) or for objects. The hour and things are native: 세 시, 세 개."
     ]
   },
   {
@@ -178,45 +268,75 @@
     "usage": [
       [
         "네 개",
-        "four things",
-        "shortens to 네 before a counter"
+        "four items",
+        "넷 loses its ㅅ받침 and becomes 네 before a counter"
       ],
       [
         "네 시",
         "four o'clock",
-        "hours use native numbers"
+        "the hour is native: 네 시, not 사 시"
       ],
       [
         "네 명",
         "four people",
-        "counting people"
+        "네 명 plain, 네 분 polite"
       ],
       [
-        "넷",
-        "four (standalone)",
-        "the full form when not before a counter"
+        "넷째",
+        "the fourth / fourth child",
+        "넷 + 째 makes the ordinal 'fourth'; keeps the full 넷"
       ]
     ],
     "examples": [
       [
-        "사과 네 개 주세요.",
-        "Give me four apples.",
-        "counting things"
+        "여기 의자가 넷 있어요.",
+        "There are four chairs here.",
+        "넷 can stand alone after the noun when no counter is attached"
       ],
       [
-        "지금 네 시예요.",
-        "It is four o'clock now.",
-        "telling the hour"
+        "표 네 장 주세요.",
+        "Four tickets, please.",
+        "장 is the counter for flat sheets/tickets; 넷 contracts to 네"
       ],
       [
-        "친구 네 명이 왔어요.",
-        "Four friends came.",
-        "counting people"
+        "오후 네 시에 카페에서 만나요.",
+        "Let's meet at the cafe at four in the afternoon.",
+        "real situation: the clock hour stays native (네 시) even in a precise plan"
       ]
     ],
-    "nuance": "Native Korean number for \"four\". Use it for counting things, people, age, and the hour. Before a counter it shortens to 네 (e.g., 네 개).",
+    "nuance": "넷 is native-Korean \"four,\" used for counting things, people, and the clock hour, as opposed to Sino 사 used for minutes, money, dates, and floors. Before a counter it contracts to 네 (네 개, 네 시, 네 명, 네 장); the bare 넷 stands alone or takes a particle, and forms ordinals like 넷째. Two pitfalls hit English speakers: forgetting the contraction (넷 개 instead of 네 개), and mixing up 네 (four) with 세 (three) since they look alike. Note that the Sino reading 사 sounds identical to 死 ('death'), so the number four carries a faint unlucky association in Korea — but that taboo attaches to the Sino 사, not to native 넷. 넷 itself is purely native with no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "넷 is native-Korean \"four,\" used for counting things, people, and the clock hour. Before a counter it contracts to 네 (네 개, 네 시, 네 명, 네 장); the bare 넷 stands alone or takes a particle, and forms ordinals like 넷째.",
+        "chips": [
+          "넷",
+          "네 개",
+          "네 시",
+          "넷째"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "넷 contrasts with Sino 사, used for minutes, money, dates, and floors. Native 넷/네 is for things, people, and the clock hour. Culturally, the Sino reading 사 sounds identical to 死 ('death'), so the number four carries a faint unlucky association in Korea — but that taboo attaches to the Sino 사, not to native 넷."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "넷 itself is purely native with no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Two pitfalls hit English speakers: forgetting the contraction (넷 개 instead of 네 개), and mixing up 네 (four) with 세 (three) since they look alike."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Saying 넷 개 — before a counter it must contract to 네: 네 개.",
+      "Confusing 네 (four) with 세 (three). 네 명 = four people, 세 명 = three people.",
+      "Using Sino 사 for the hour (사 시) or to count objects. The hour and things are native: 네 시, 네 개."
     ]
   },
   {
@@ -233,45 +353,75 @@
     "usage": [
       [
         "다섯 개",
-        "five things",
-        "before a counter"
+        "five items",
+        "from five up there is NO contraction — stays 다섯 개"
       ],
       [
         "다섯 시",
         "five o'clock",
-        "hours use native numbers"
+        "the hour is native: 다섯 시, not 오 시"
       ],
       [
         "다섯 명",
         "five people",
-        "counting people"
+        "다섯 명 plain, 다섯 분 polite"
       ],
       [
-        "다섯",
-        "five (standalone)",
-        "the full form when not before a counter"
+        "다섯 살",
+        "five years old",
+        "age of young children is native: 다섯 살"
       ]
     ],
     "examples": [
       [
-        "사과 다섯 개 주세요.",
-        "Give me five apples.",
-        "counting things"
+        "다섯까지 셀 수 있어요.",
+        "I can count to five.",
+        "standalone 다섯 with 까지; no shape change when alone"
       ],
       [
-        "지금 다섯 시예요.",
-        "It is five o'clock now.",
-        "telling the hour"
+        "귤 다섯 개 주세요.",
+        "Five tangerines, please.",
+        "unlike 하나~넷, 다섯 keeps its full form before 개"
       ],
       [
-        "친구 다섯 명이 왔어요.",
-        "Five friends came.",
-        "counting people"
+        "우리 아이는 다섯 살이에요.",
+        "My child is five years old.",
+        "real situation: a young child's age uses native numbers with the counter 살"
       ]
     ],
-    "nuance": "Native Korean number for \"five\". Use it for counting things, people, age, and the hour. It does not shorten before counters.",
+    "nuance": "다섯 is native-Korean \"five,\" used for counting things, people, age, and the clock hour, in contrast to Sino 오 (used for minutes, money, dates, floors). The crucial relief here: starting at five, the native numbers stop contracting — so it is simply 다섯 개, 다섯 시, 다섯 명, with no shortened variant the way 하나→한 or 둘→두 changed. English speakers, having just drilled the contractions for one through four, sometimes invent a shortened 다 개, which does not exist. The other classic error is using Sino 오 for the hour (오 시), but the clock hour is firmly native: 다섯 시. 다섯 is a pure native word with no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "다섯 is native-Korean \"five,\" used for counting things, people, age, and the clock hour. The crucial relief here: starting at five, the native numbers stop contracting — so it is simply 다섯 개, 다섯 시, 다섯 명, with no shortened variant the way 하나→한 or 둘→두 changed.",
+        "chips": [
+          "다섯 개",
+          "다섯 시",
+          "다섯 명",
+          "다섯 살"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "다섯 contrasts with Sino 오 (used for minutes, money, dates, floors). Native 다섯 is for things, people, age, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "다섯 is a pure native word with no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers, having just drilled the contractions for one through four, sometimes invent a shortened 다 개, which does not exist. The other classic error is using Sino 오 for the hour (오 시), but the clock hour is firmly native: 다섯 시."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Inventing a contracted form like 다 개 — from five upward there is no contraction, so it is 다섯 개.",
+      "Using Sino 오 to tell the hour (오 시) or to count objects. The hour and things are native: 다섯 시, 다섯 개.",
+      "Forgetting the space and writing 다섯개. Keep number and counter separate: 다섯 개."
     ]
   },
   {
@@ -288,45 +438,75 @@
     "usage": [
       [
         "여섯 개",
-        "six things",
-        "before a counter"
+        "six items",
+        "no contraction: stays 여섯 개"
       ],
       [
         "여섯 시",
         "six o'clock",
-        "hours use native numbers"
+        "the hour is native: 여섯 시, not 육 시"
       ],
       [
         "여섯 명",
         "six people",
-        "counting people"
+        "여섯 명 plain, 여섯 분 polite"
       ],
       [
-        "여섯",
-        "six (standalone)",
-        "the full form when not before a counter"
+        "여섯 살",
+        "six years old",
+        "young child's age uses native + 살"
       ]
     ],
     "examples": [
       [
-        "사과 여섯 개 주세요.",
-        "Give me six apples.",
-        "counting things"
+        "사탕이 여섯 개 있어요.",
+        "There are six pieces of candy.",
+        "여섯 keeps its full form in front of 개"
       ],
       [
-        "지금 여섯 시예요.",
-        "It is six o'clock now.",
-        "telling the hour"
+        "달걀 여섯 개 사 올게요.",
+        "I'll go buy six eggs.",
+        "everyday shopping: 여섯 개 with the all-purpose counter 개"
       ],
       [
-        "친구 여섯 명이 왔어요.",
-        "Six friends came.",
-        "counting people"
+        "매일 아침 여섯 시에 일어나요.",
+        "I get up at six every morning.",
+        "real routine: the wake-up hour is native (여섯 시)"
       ]
     ],
-    "nuance": "Native Korean number for \"six\". Use it for counting things, people, age, and the hour. It does not shorten before counters.",
+    "nuance": "여섯 is native-Korean \"six,\" used to count tangible things, people, age, and the clock hour, while Sino 육 takes minutes, money, dates, and floors. Like all native numbers from five up, it does not contract — say 여섯 개, 여섯 시, 여섯 명 in full, never a clipped form. A pronunciation note worth knowing: 여섯 개 naturally comes out sounding like [여섣 깨], with the final ㅅ tensing the following consonant; this is normal and you do not write it differently. The standard English-speaker slips are reaching for Sino 육 to tell the hour (육 시 is wrong; it must be 여섯 시) and mishearing the vowel as 여석. 여섯 is purely native and has no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "여섯 is native-Korean \"six,\" used to count tangible things, people, age, and the clock hour. Like all native numbers from five up, it does not contract — say 여섯 개, 여섯 시, 여섯 명 in full, never a clipped form. A pronunciation note worth knowing: 여섯 개 naturally comes out sounding like [여섣 깨], with the final ㅅ tensing the following consonant; this is normal and you do not write it differently.",
+        "chips": [
+          "여섯 개",
+          "여섯 시",
+          "여섯 명",
+          "여섯 살"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "여섯 contrasts with Sino 육, which takes minutes, money, dates, and floors. Native 여섯 is for tangible things, people, age, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "여섯 is purely native and has no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The standard English-speaker slips are reaching for Sino 육 to tell the hour (육 시 is wrong; it must be 여섯 시) and mishearing the vowel as 여석."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Using Sino 육 for the hour (육 시) or to count things. The hour and objects are native: 여섯 시, 여섯 개.",
+      "Spelling it 여석 — the correct form has ㅅ, 여섯, even though 여섯 개 is pronounced [여섣 깨].",
+      "Trying to contract it before a counter. There is no short form; it stays 여섯 개."
     ]
   },
   {
@@ -343,45 +523,75 @@
     "usage": [
       [
         "일곱 개",
-        "seven things",
-        "before a counter"
+        "seven items",
+        "no contraction: 일곱 개"
       ],
       [
         "일곱 시",
         "seven o'clock",
-        "hours use native numbers"
+        "the hour is native: 일곱 시, not 칠 시"
       ],
       [
         "일곱 명",
         "seven people",
-        "counting people"
+        "일곱 명 plain, 일곱 분 polite"
       ],
       [
-        "일곱",
-        "seven (standalone)",
-        "the full form when not before a counter"
+        "일곱 살",
+        "seven years old",
+        "young child's age uses native + 살"
       ]
     ],
     "examples": [
       [
-        "사과 일곱 개 주세요.",
-        "Give me seven apples.",
-        "counting things"
+        "무지개는 색깔이 일곱 개예요.",
+        "A rainbow has seven colors.",
+        "일곱 개 counts the colors; full form before 개"
       ],
       [
-        "지금 일곱 시예요.",
-        "It is seven o'clock now.",
-        "telling the hour"
+        "빵 일곱 개 포장해 주세요.",
+        "Please pack seven pieces of bread to go.",
+        "everyday bakery request with 개 and 포장하다 ('pack to go')"
       ],
       [
-        "친구 일곱 명이 왔어요.",
-        "Seven friends came.",
-        "counting people"
+        "저녁 일곱 시에 가게 문을 닫아요.",
+        "The shop closes at seven in the evening.",
+        "real situation: closing time, hour stays native (일곱 시)"
       ]
     ],
-    "nuance": "Native Korean number for \"seven\". Use it for counting things, people, age, and the hour. It does not shorten before counters.",
+    "nuance": "일곱 is native-Korean \"seven,\" the form for counting objects, people, age, and the clock hour, as opposed to Sino 칠 used for minutes, money, dates, and floors. It belongs to the no-contraction group (five and up), so it is always 일곱 개, 일곱 시, 일곱 명 in full. Watch a tricky overlap: the first syllable 일 looks exactly like the Sino number 일 ('one'), which can momentarily confuse beginners — but 일곱 is one whole native word meaning seven, unrelated to 일=one. The usual English-speaker error is using Sino 칠 to say the hour (칠 시 is wrong; the clock hour must be 일곱 시). 일곱 is a pure native word and has no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "일곱 is native-Korean \"seven,\" the form for counting objects, people, age, and the clock hour. It belongs to the no-contraction group (five and up), so it is always 일곱 개, 일곱 시, 일곱 명 in full.",
+        "chips": [
+          "일곱 개",
+          "일곱 시",
+          "일곱 명",
+          "일곱 살"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "일곱 contrasts with Sino 칠, used for minutes, money, dates, and floors. Native 일곱 is for objects, people, age, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "일곱 is a pure native word and has no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Watch a tricky overlap: the first syllable 일 looks exactly like the Sino number 일 ('one'), which can momentarily confuse beginners — but 일곱 is one whole native word meaning seven, unrelated to 일=one. The usual English-speaker error is using Sino 칠 to say the hour (칠 시 is wrong; the clock hour must be 일곱 시)."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Using Sino 칠 for the hour (칠 시) or to count objects. The hour and things are native: 일곱 시, 일곱 개.",
+      "Reading the first syllable as the Sino 일 ('one'). 일곱 is a single native word meaning seven, not 'one-something'.",
+      "Trying to shorten it before a counter. There is no contraction; it stays 일곱 개."
     ]
   },
   {
@@ -398,45 +608,75 @@
     "usage": [
       [
         "여덟 개",
-        "eight things",
-        "before a counter"
+        "eight items",
+        "no contraction: 여덟 개 (the ㅂ in ㄼ stays silent)"
       ],
       [
         "여덟 시",
         "eight o'clock",
-        "hours use native numbers"
+        "the hour is native: 여덟 시, not 팔 시"
       ],
       [
         "여덟 명",
         "eight people",
-        "counting people"
+        "여덟 명 plain, 여덟 분 polite"
       ],
       [
-        "여덟",
-        "eight (standalone)",
-        "the full form when not before a counter"
+        "여덟 살",
+        "eight years old",
+        "young child's age uses native + 살"
       ]
     ],
     "examples": [
       [
-        "사과 여덟 개 주세요.",
-        "Give me eight apples.",
-        "counting things"
+        "거미는 다리가 여덟 개예요.",
+        "A spider has eight legs.",
+        "여덟 개 counts the legs; full form before 개"
       ],
       [
-        "지금 여덟 시예요.",
-        "It is eight o'clock now.",
-        "telling the hour"
+        "물 여덟 잔을 마시면 좋아요.",
+        "It's good to drink eight glasses of water.",
+        "everyday health tip; 잔 is the counter for glasses/cups"
       ],
       [
-        "친구 여덟 명이 왔어요.",
-        "Eight friends came.",
-        "counting people"
+        "수업이 아침 여덟 시에 시작해요.",
+        "Class starts at eight in the morning.",
+        "real situation: class start time, hour stays native (여덟 시)"
       ]
     ],
-    "nuance": "Native Korean number for \"eight\". Use it for counting things, people, age, and the hour. It does not shorten before counters.",
+    "nuance": "여덟 is native-Korean \"eight,\" used to count things, people, age, and the clock hour, while Sino 팔 covers minutes, money, dates, and floors. It does not contract (it is in the five-and-up group), so always 여덟 개, 여덟 시, 여덟 명. The spelling deserves real attention: it ends in the double 받침 ㄼ, written 여덟, even though the ㅂ is silent and you only hear [여덜]. Learners very commonly misspell it 여덜 by writing what they hear — resist that; the correct written form keeps both consonants, 여덟. The other standard slip is using Sino 팔 for the hour (팔 시 is wrong; it must be 여덟 시). 여덟 is purely native and has no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "여덟 is native-Korean \"eight,\" used to count things, people, age, and the clock hour. It does not contract (it is in the five-and-up group), so always 여덟 개, 여덟 시, 여덟 명. The spelling deserves real attention: it ends in the double 받침 ㄼ, written 여덟, even though the ㅂ is silent and you only hear [여덜].",
+        "chips": [
+          "여덟 개",
+          "여덟 시",
+          "여덟 명",
+          "여덟 살"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "여덟 contrasts with Sino 팔, which covers minutes, money, dates, and floors. Native 여덟 is for things, people, age, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "여덟 is purely native and has no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Learners very commonly misspell it 여덜 by writing what they hear — resist that; the correct written form keeps both consonants, 여덟. The other standard slip is using Sino 팔 for the hour (팔 시 is wrong; it must be 여덟 시)."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Spelling it 여덜 — you only pronounce [여덜], but the correct spelling keeps the double 받침: 여덟.",
+      "Using Sino 팔 for the hour (팔 시) or to count objects. The hour and things are native: 여덟 시, 여덟 개.",
+      "Trying to contract it before a counter. There is no short form; it stays 여덟 개."
     ]
   },
   {
@@ -453,45 +693,75 @@
     "usage": [
       [
         "아홉 개",
-        "nine things",
-        "before a counter"
+        "nine items",
+        "no contraction: 아홉 개"
       ],
       [
         "아홉 시",
         "nine o'clock",
-        "hours use native numbers"
+        "the hour is native: 아홉 시, not 구 시"
       ],
       [
         "아홉 명",
         "nine people",
-        "counting people"
+        "아홉 명 plain, 아홉 분 polite"
       ],
       [
-        "아홉",
-        "nine (standalone)",
-        "the full form when not before a counter"
+        "아홉 살",
+        "nine years old",
+        "young child's age uses native + 살"
       ]
     ],
     "examples": [
       [
-        "사과 아홉 개 주세요.",
-        "Give me nine apples.",
-        "counting things"
+        "고양이가 아홉 마리 있어요.",
+        "There are nine cats.",
+        "마리 is the counter for animals; full form 아홉 마리"
       ],
       [
-        "지금 아홉 시예요.",
-        "It is nine o'clock now.",
-        "telling the hour"
+        "사과를 아홉 개나 먹었어요.",
+        "I ate as many as nine apples.",
+        "everyday surprise: 나 after the counter stresses 'as many as nine'"
       ],
       [
-        "친구 아홉 명이 왔어요.",
-        "Nine friends came.",
-        "counting people"
+        "은행은 아홉 시에 문을 열어요.",
+        "The bank opens at nine.",
+        "real situation: opening time, hour stays native (아홉 시)"
       ]
     ],
-    "nuance": "Native Korean number for \"nine\". Use it for counting things, people, age, and the hour. It does not shorten before counters.",
+    "nuance": "아홉 is native-Korean \"nine,\" the form for counting objects, people, age, and the clock hour, as opposed to Sino 구 used for minutes, money, dates, and floors. It is in the no-contraction set (five and up), so it stays full: 아홉 개, 아홉 시, 아홉 명. A natural pronunciation point: 아홉 개 comes out as [아홉 깨] with the ㅂ tensing the next sound, and 아홉이 links as [아호비] — normal liaison you do not spell out. The usual English-speaker error is using Sino 구 to tell the hour (구 시 is wrong; the hour must be 아홉 시). Also resist the urge to clip it before a counter — there is no short variant. 아홉 is purely native and has no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "아홉 is native-Korean \"nine,\" the form for counting objects, people, age, and the clock hour. It is in the no-contraction set (five and up), so it stays full: 아홉 개, 아홉 시, 아홉 명. A natural pronunciation point: 아홉 개 comes out as [아홉 깨] with the ㅂ tensing the next sound, and 아홉이 links as [아호비] — normal liaison you do not spell out.",
+        "chips": [
+          "아홉 개",
+          "아홉 시",
+          "아홉 명",
+          "아홉 마리"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "아홉 contrasts with Sino 구, used for minutes, money, dates, and floors. Native 아홉 is for objects, people, age, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "아홉 is purely native and has no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The usual English-speaker error is using Sino 구 to tell the hour (구 시 is wrong; the hour must be 아홉 시). Also resist the urge to clip it before a counter — there is no short variant."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Using Sino 구 for the hour (구 시) or to count objects. The hour and things are native: 아홉 시, 아홉 개.",
+      "Trying to shorten it before a counter. There is no contraction; it stays 아홉 개.",
+      "Forgetting the space and writing 아홉개. Number and counter stay separate: 아홉 개."
     ]
   },
   {
@@ -508,45 +778,75 @@
     "usage": [
       [
         "열 개",
-        "ten things",
-        "before a counter"
+        "ten items",
+        "no contraction: 열 개"
       ],
       [
         "열 시",
         "ten o'clock",
-        "hours use native numbers"
+        "the hour is native: 열 시, not 십 시"
       ],
       [
         "열 명",
         "ten people",
-        "counting people"
+        "열 명 plain, 열 분 polite"
       ],
       [
-        "열",
-        "ten (standalone)",
-        "the full form when not before a counter"
+        "열한 시",
+        "eleven o'clock",
+        "teens combine: 열 + 한 = 열한 (시), still native for the hour"
       ]
     ],
     "examples": [
       [
-        "사과 열 개 주세요.",
-        "Give me ten apples.",
-        "counting things"
+        "열까지 세고 눈을 떠요.",
+        "Count to ten and open your eyes.",
+        "standalone 열 with 까지; full form when alone"
       ],
       [
-        "지금 열 시예요.",
-        "It is ten o'clock now.",
-        "telling the hour"
+        "연필 열 자루 주세요.",
+        "Ten pencils, please.",
+        "자루 is the counter for pen-like objects; 열 자루"
       ],
       [
-        "친구 열 명이 왔어요.",
-        "Ten friends came.",
-        "counting people"
+        "밤 열한 시에 잠자리에 들어요.",
+        "I go to bed at eleven at night.",
+        "real situation: teens for the hour combine native pieces (열한 시)"
       ]
     ],
-    "nuance": "Native Korean number for \"ten\". Use it for counting things, people, age, and the hour. It does not shorten before counters.",
+    "nuance": "열 is native-Korean \"ten,\" used for counting things, people, age, and the clock hour, while Sino 십 takes minutes, money, dates, and floors. It does not contract by itself (열 개, 열 시, 열 명), and it is the building block for the native teens: eleven through nineteen are 열 plus the lower number, so 열하나/열한, 열둘/열두, 열셋/열세, and you still say the hour with these (열한 시 = eleven o'clock). Note the limit of the native system: it traditionally runs out around 아흔아홉 (99), and for hundreds you switch to Sino — but the clock hour only ever needs up to twelve, so native covers all twelve hours. The usual English-speaker error is using Sino 십 for the hour (십 시 is wrong; it is 열 시). 열 is purely native and has no hanja.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "열 is native-Korean \"ten,\" used for counting things, people, age, and the clock hour. It does not contract by itself (열 개, 열 시, 열 명), and it is the building block for the native teens: eleven through nineteen are 열 plus the lower number, so 열하나/열한, 열둘/열두, 열셋/열세, and you still say the hour with these (열한 시 = eleven o'clock). Note the limit of the native system: it traditionally runs out around 아흔아홉 (99), and for hundreds you switch to Sino — but the clock hour only ever needs up to twelve, so native covers all twelve hours.",
+        "chips": [
+          "열 개",
+          "열 시",
+          "열 명",
+          "열한 시"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "열 contrasts with Sino 십, which takes minutes, money, dates, and floors. Native 열 is for things, people, age, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "열 is purely native and has no hanja."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The usual English-speaker error is using Sino 십 for the hour (십 시 is wrong; it is 열 시)."
+      }
+    ],
     "mistakes": [
-      "Do not use the Sino number for hours, age, or counting objects — those take native numbers."
+      "Using Sino 십 for the hour (십 시) or to count objects. The hour and things are native: 열 시, 열 개.",
+      "Saying 열 한 시 as two separate words — the teen fuses into one word before the counter: 열한 시.",
+      "Trying to use native numbers for huge quantities. Native effectively stops near 99; above that switch to Sino."
     ]
   },
   {
@@ -563,45 +863,75 @@
     "usage": [
       [
         "일 분",
-        "one minutes",
-        "minutes use Sino numbers"
+        "one minute",
+        "MINUTES are Sino: 일 분 (the hour, by contrast, is native 한 시)"
       ],
       [
-        "일 원",
-        "one won",
-        "money uses Sino numbers"
+        "일월",
+        "January",
+        "month name = Sino number + 월; 일월 = the first month"
       ],
       [
         "일 층",
-        "one floor",
-        "floors use Sino numbers"
+        "first floor",
+        "floors are Sino: 일 층 = ground/first floor"
       ],
       [
         "일 번",
         "number one",
-        "order / line number also uses Sino"
+        "rank/line/bus numbers use Sino: 일 번"
       ]
     ],
     "examples": [
       [
-        "이거 일 원이에요.",
-        "This is one won.",
-        "price"
+        "제 번호는 공일공이에요.",
+        "My number starts with 010.",
+        "phone digits are read one by one in Sino (공=0, 일=1)"
       ],
       [
-        "지금 한 시 일 분이에요.",
-        "It is one one now.",
-        "minutes after the hour"
+        "버스 일 번을 타세요.",
+        "Take bus number one.",
+        "everyday transit: route numbers are Sino, 일 번"
       ],
       [
-        "일 층에 있어요.",
-        "It is on the one floor.",
-        "floor number"
+        "회의는 일월 일 일에 있어요.",
+        "The meeting is on January 1st.",
+        "real situation: both month and day are Sino — 일월(January) + 일 일(1st)"
       ]
     ],
-    "nuance": "Sino-Korean number for \"one\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "일 is the Sino-Korean (漢字語) number \"one,\" from the hanja 一 (a single horizontal stroke). It governs the abstract/measured world: dates, money (원), minutes, phone numbers, floors, bus and problem numbers, and any count from the hundreds up — the exact opposite of native 하나, which counts tangible things, people, and the clock hour. So one o'clock is 한 시 but one minute is 일 분; one apple is 사과 한 개 but one won is 일 원. English speakers, used to a single set of numbers, constantly blur the line — saying 일 시 for one o'clock or 하나 분 for one minute. A handy memory hook: anything that already feels like a 'code' or a 'measurement' (clock minutes, addresses, prices) is Sino 일.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "일 is the Sino-Korean number \"one.\" It governs the abstract/measured world: dates, money (원), minutes, phone numbers, floors, bus and problem numbers, and any count from the hundreds up. A handy memory hook: anything that already feels like a 'code' or a 'measurement' (clock minutes, addresses, prices) is Sino 일.",
+        "chips": [
+          "일 분",
+          "일월",
+          "일 층",
+          "일 번"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "일 is the exact opposite of native 하나, which counts tangible things, people, and the clock hour. So one o'clock is 한 시 but one minute is 일 분; one apple is 사과 한 개 but one won is 일 원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "일 is the Sino-Korean (漢字語) number, from the hanja 一 (a single horizontal stroke)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers, used to a single set of numbers, constantly blur the line — saying 일 시 for one o'clock or 하나 분 for one minute."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 일 시 for one o'clock — the hour is native, so it must be 한 시. Sino 일 is for the MINUTES: 일 분.",
+      "Using native 하나 for money, minutes, or floors (하나 원, 하나 분). Those are Sino: 일 원, 일 분.",
+      "Reading a phone number in native numbers. Each digit is Sino, so 010 is 공일공, not 영하나영."
     ]
   },
   {
@@ -619,44 +949,74 @@
       [
         "이 분",
         "two minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 이 분 (two o'clock, by contrast, is native 두 시)"
       ],
       [
-        "이 원",
-        "two won",
-        "money uses Sino numbers"
+        "이월",
+        "February",
+        "이 + 월 = the second month, February"
       ],
       [
         "이 층",
-        "two floor",
-        "floors use Sino numbers"
+        "second floor",
+        "floors are Sino: 이 층"
       ],
       [
-        "이 번",
-        "number two",
-        "order / line number also uses Sino"
+        "이천 원",
+        "two thousand won",
+        "money is Sino: 이천 원 = 2,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 이 원이에요.",
-        "This is two won.",
-        "price"
+        "이 더하기 이는 사예요.",
+        "Two plus two is four.",
+        "arithmetic is read in Sino numbers (이 + 이 = 사)"
       ],
       [
-        "지금 한 시 이 분이에요.",
-        "It is one two now.",
-        "minutes after the hour"
+        "이 층에서 내리세요.",
+        "Please get off on the second floor.",
+        "everyday directions: floor is Sino, 이 층"
       ],
       [
-        "이 층에 있어요.",
-        "It is on the two floor.",
-        "floor number"
+        "이 분만 기다려 주세요.",
+        "Please wait just two minutes.",
+        "real situation: the minutes/duration are Sino (이 분), not native"
       ]
     ],
-    "nuance": "Sino-Korean number for \"two\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "이 is the Sino-Korean number \"two,\" from the hanja 二 (two horizontal strokes). It runs dates, money, minutes, floors, math, and counts in the hundreds and up — versus native 둘/두, which counts physical things, people, and the clock hour. So two o'clock is 두 시 but two minutes is 이 분; two cups is 두 잔 but two won is 이 원. A real trap unique to 이: it is identical in sound to the demonstrative 이 ('this') and the subject/topic particle context around it, so 이 분 can mean either 'two minutes' or 'this person' (분 = honorific 'person') depending on context — listen carefully. English speakers also tend to use native 둘 for prices or floors (둘 층); those are Sino: 이 층. Treat measured, coded things as Sino 이.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이 is the Sino-Korean number \"two.\" It runs dates, money, minutes, floors, math, and counts in the hundreds and up. Treat measured, coded things as Sino 이.",
+        "chips": [
+          "이 분",
+          "이월",
+          "이 층",
+          "이천 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "이 is versus native 둘/두, which counts physical things, people, and the clock hour. So two o'clock is 두 시 but two minutes is 이 분; two cups is 두 잔 but two won is 이 원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "이 is the Sino-Korean number, from the hanja 二 (two horizontal strokes)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A real trap unique to 이: it is identical in sound to the demonstrative 이 ('this') and the subject/topic particle context around it, so 이 분 can mean either 'two minutes' or 'this person' (분 = honorific 'person') depending on context — listen carefully. English speakers also tend to use native 둘 for prices or floors (둘 층); those are Sino: 이 층."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 이 시 for two o'clock — the hour is native, so 두 시. Sino 이 is for minutes: 이 분.",
+      "Using native 둘/두 for money or floors (두 원, 두 층). Those are Sino: 이 원, 이 층.",
+      "Confusing 이 분 ('two minutes') with 이분 / 이 분 ('this person'). Context and the noun 분 decide; the number reading needs a measured noun like 분(minute)."
     ]
   },
   {
@@ -674,44 +1034,74 @@
       [
         "삼 분",
         "three minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 삼 분 (three o'clock is native 세 시)"
       ],
       [
-        "삼 원",
-        "three won",
-        "money uses Sino numbers"
+        "삼월",
+        "March",
+        "삼 + 월 = the third month, March"
       ],
       [
         "삼 층",
-        "three floor",
-        "floors use Sino numbers"
+        "third floor",
+        "floors are Sino: 삼 층"
       ],
       [
-        "삼 번",
-        "number three",
-        "order / line number also uses Sino"
+        "삼만 원",
+        "thirty thousand won",
+        "money is Sino: 삼만 원 = 30,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 삼 원이에요.",
-        "This is three won.",
-        "price"
+        "삼 곱하기 삼은 구예요.",
+        "Three times three is nine.",
+        "multiplication is read in Sino (삼 × 삼 = 구)"
       ],
       [
-        "지금 한 시 삼 분이에요.",
-        "It is one three now.",
-        "minutes after the hour"
+        "라면은 삼 분만 끓이면 돼요.",
+        "You only need to boil ramen for three minutes.",
+        "everyday cooking: the duration in minutes is Sino, 삼 분"
       ],
       [
-        "삼 층에 있어요.",
-        "It is on the three floor.",
-        "floor number"
+        "사무실은 삼 층에 있어요.",
+        "The office is on the third floor.",
+        "real situation: building floor is Sino (삼 층)"
       ]
     ],
-    "nuance": "Sino-Korean number for \"three\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "삼 is the Sino-Korean number \"three,\" from the hanja 三 (three horizontal strokes). It governs dates, money, minutes, floors, arithmetic, and larger counts — in contrast to native 셋/세, which counts tangible objects, people, and the clock hour. So three o'clock is 세 시 but three minutes is 삼 분; three notebooks is 세 권 but 30,000 won is 삼만 원. The recurring English-speaker mistake is using 삼 to tell the hour (삼 시) or reaching for native 세 in a price (세만 원). A useful anchor: cooking and timer durations in minutes are always Sino, so '3 minutes' on a ramen pack is 삼 분, never 세 분. Keep measured/coded contexts on the Sino side, 삼.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "삼 is the Sino-Korean number \"three.\" It governs dates, money, minutes, floors, arithmetic, and larger counts. A useful anchor: cooking and timer durations in minutes are always Sino, so '3 minutes' on a ramen pack is 삼 분, never 세 분. Keep measured/coded contexts on the Sino side, 삼.",
+        "chips": [
+          "삼 분",
+          "삼월",
+          "삼 층",
+          "삼만 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "삼 is in contrast to native 셋/세, which counts tangible objects, people, and the clock hour. So three o'clock is 세 시 but three minutes is 삼 분; three notebooks is 세 권 but 30,000 won is 삼만 원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "삼 is the Sino-Korean number, from the hanja 三 (three horizontal strokes)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The recurring English-speaker mistake is using 삼 to tell the hour (삼 시) or reaching for native 세 in a price (세만 원)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 삼 시 for three o'clock — the hour is native, so 세 시. Sino 삼 is for the minutes: 삼 분.",
+      "Using native 세 for money or duration in minutes (세 분 for '3 minutes'). Those are Sino: 삼 분, 삼만 원.",
+      "Confusing 삼 (three) with 사 (four) when speaking fast — keep 삼=3, 사=4 distinct, e.g. 삼 층 vs 사 층."
     ]
   },
   {
@@ -729,44 +1119,74 @@
       [
         "사 분",
         "four minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 사 분 (four o'clock is native 네 시)"
       ],
       [
-        "사 원",
-        "four won",
-        "money uses Sino numbers"
+        "사월",
+        "April",
+        "사 + 월 = the fourth month, April"
       ],
       [
         "사 층",
-        "four floor",
-        "floors use Sino numbers"
+        "fourth floor",
+        "Sino for floors; some buildings label it 'F' to avoid 사≈death"
       ],
       [
-        "사 번",
-        "number four",
-        "order / line number also uses Sino"
+        "사천 원",
+        "four thousand won",
+        "money is Sino: 사천 원 = 4,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 사 원이에요.",
-        "This is four won.",
-        "price"
+        "사월에 벚꽃이 펴요.",
+        "Cherry blossoms bloom in April.",
+        "month names are Sino + 월: 사월 = April"
       ],
       [
-        "지금 한 시 사 분이에요.",
-        "It is one four now.",
-        "minutes after the hour"
+        "사천 원이에요.",
+        "It's four thousand won.",
+        "everyday price: money is Sino, 사천 원"
       ],
       [
-        "사 층에 있어요.",
-        "It is on the four floor.",
-        "floor number"
+        "엘리베이터에 사 층 버튼이 없어요.",
+        "There's no fourth-floor button in the elevator.",
+        "real situation: 사 층 is Sino, and 사 sounds like 死, so some buildings skip it"
       ]
     ],
-    "nuance": "Sino-Korean number for \"four\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "사 is the Sino-Korean number \"four,\" from the hanja 四. It rules dates, money, minutes, floors, math, and larger counts — opposite native 넷/네, which counts physical things, people, and the clock hour. So four o'clock is 네 시 but four minutes is 사 분; four tickets is 네 장 but 4,000 won is 사천 원. The culturally important point: the Sino reading 사 is a homophone of 死 ('death'), so it is mildly taboo — hospitals and some buildings label the fourth floor 'F' instead of 사 층, and people avoid 4 in gift sets. That superstition rides only on Sino 사, not native 넷. The usual learner error is telling the hour with 사 (사 시) or putting native 네 on money (네천 원). Measured contexts stay Sino, 사.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "사 is the Sino-Korean number \"four.\" It rules dates, money, minutes, floors, math, and larger counts. The culturally important point: the Sino reading 사 is a homophone of 死 ('death'), so it is mildly taboo — hospitals and some buildings label the fourth floor 'F' instead of 사 층, and people avoid 4 in gift sets. That superstition rides only on Sino 사, not native 넷. Measured contexts stay Sino, 사.",
+        "chips": [
+          "사 분",
+          "사월",
+          "사 층",
+          "사천 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "사 is opposite native 넷/네, which counts physical things, people, and the clock hour. So four o'clock is 네 시 but four minutes is 사 분; four tickets is 네 장 but 4,000 won is 사천 원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "사 is the Sino-Korean number, from the hanja 四."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The usual learner error is telling the hour with 사 (사 시) or putting native 네 on money (네천 원)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 사 시 for four o'clock — the hour is native, so 네 시. Sino 사 is for minutes: 사 분.",
+      "Using native 네 for money or dates (네월, 네천 원). Those are Sino: 사월, 사천 원.",
+      "Confusing 사 (four) with 삼 (three). 사 층 = fourth floor, 삼 층 = third floor."
     ]
   },
   {
@@ -784,44 +1204,74 @@
       [
         "오 분",
         "five minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 오 분 (five o'clock is native 다섯 시)"
       ],
       [
-        "오 원",
-        "five won",
-        "money uses Sino numbers"
+        "오월",
+        "May",
+        "오 + 월 = the fifth month, May"
       ],
       [
         "오 층",
-        "five floor",
-        "floors use Sino numbers"
+        "fifth floor",
+        "floors are Sino: 오 층"
       ],
       [
-        "오 번",
-        "number five",
-        "order / line number also uses Sino"
+        "오천 원",
+        "five thousand won",
+        "money is Sino: 오천 원 = 5,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 오 원이에요.",
-        "This is five won.",
-        "price"
+        "오 더하기 오는 십이예요.",
+        "Five plus five is ten.",
+        "arithmetic in Sino: 오 + 오 = 십"
       ],
       [
-        "지금 한 시 오 분이에요.",
-        "It is one five now.",
-        "minutes after the hour"
+        "오 분 후에 출발해요.",
+        "We leave in five minutes.",
+        "everyday timing: the duration in minutes is Sino, 오 분"
       ],
       [
-        "오 층에 있어요.",
-        "It is on the five floor.",
-        "floor number"
+        "지금 다섯 시 오 분이에요.",
+        "It's five oh five now.",
+        "real situation: the HOUR is native (다섯 시), the MINUTES are Sino (오 분) — in one sentence"
       ]
     ],
-    "nuance": "Sino-Korean number for \"five\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "오 is the Sino-Korean number \"five,\" from the hanja 五. It handles dates, money, minutes, floors, math, and bigger counts — versus native 다섯, which counts things, people, age, and the clock hour. The single best sentence to remember the whole split is a clock reading: 다섯 시 오 분 ('5:05'), where the hour 다섯 is native and the minute 오 is Sino, side by side. English speakers blur this by saying 오 시 for five o'clock or 다섯 분 for five minutes — both wrong. Also note 오 is a homophone of the exclamation 오! ('oh!') and the hanja 午 (noon, as in 오후 'afternoon'), but as a number it always means five. Keep prices and minutes on the Sino side, 오.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "오 is the Sino-Korean number \"five.\" It handles dates, money, minutes, floors, math, and bigger counts. The single best sentence to remember the whole split is a clock reading: 다섯 시 오 분 ('5:05'), where the hour 다섯 is native and the minute 오 is Sino, side by side. Keep prices and minutes on the Sino side, 오.",
+        "chips": [
+          "오 분",
+          "오월",
+          "오 층",
+          "오천 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "오 is versus native 다섯, which counts things, people, age, and the clock hour."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "오 is the Sino-Korean number, from the hanja 五. Note 오 is also a homophone of the exclamation 오! ('oh!') and the hanja 午 (noon, as in 오후 'afternoon'), but as a number it always means five."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers blur this by saying 오 시 for five o'clock or 다섯 분 for five minutes — both wrong."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 오 시 for five o'clock — the hour is native, so 다섯 시. Sino 오 is for minutes: 오 분.",
+      "Using native 다섯 for money or minutes (다섯 원, 다섯 분). Those are Sino: 오 원, 오 분.",
+      "Forgetting that one clock time mixes systems: 5:05 is 다섯 시 오 분, not 다섯 시 다섯 분."
     ]
   },
   {
@@ -839,44 +1289,74 @@
       [
         "육 분",
         "six minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 육 분 (six o'clock is native 여섯 시)"
       ],
       [
-        "육 원",
-        "six won",
-        "money uses Sino numbers"
+        "유월",
+        "June",
+        "irregular: 육 + 월 drops the ㄱ → 유월, not 육월"
       ],
       [
         "육 층",
-        "six floor",
-        "floors use Sino numbers"
+        "sixth floor",
+        "floors are Sino: 육 층 (pronounced [육 층])"
       ],
       [
-        "육 번",
-        "number six",
-        "order / line number also uses Sino"
+        "육천 원",
+        "six thousand won",
+        "money is Sino: 육천 원 = 6,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 육 원이에요.",
-        "This is six won.",
-        "price"
+        "육 곱하기 이는 십이예요.",
+        "Six times two is twelve.",
+        "math in Sino: 육 × 이 = 십이"
       ],
       [
-        "지금 한 시 육 분이에요.",
-        "It is one six now.",
-        "minutes after the hour"
+        "육천 원만 내면 돼요.",
+        "You only need to pay six thousand won.",
+        "everyday price: money is Sino, 육천 원"
       ],
       [
-        "육 층에 있어요.",
-        "It is on the six floor.",
-        "floor number"
+        "방학은 유월에 시작해요.",
+        "The break starts in June.",
+        "real situation: June is the irregular 유월, dropping the ㄱ of 육"
       ]
     ],
-    "nuance": "Sino-Korean number for \"six\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "육 is the Sino-Korean number \"six,\" from the hanja 六. It governs dates, money, minutes, floors, math, and larger counts — opposite native 여섯, which counts tangible things, people, age, and the clock hour. So six o'clock is 여섯 시 but six minutes is 육 분. The must-know irregularity is the month: 'June' is not 육월 but 유월 — the ㄱ drops out for euphony (the same thing happens to 십월→시월 for October). English speakers regularly write 육월 by analogy and must memorize 유월 as an exception. The other usual slip is using 육 for the hour (육 시 instead of 여섯 시). Keep dates, prices, and floors on the Sino side, 육, but remember the 유월 twist.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "육 is the Sino-Korean number \"six.\" It governs dates, money, minutes, floors, math, and larger counts. The must-know irregularity is the month: 'June' is not 육월 but 유월 — the ㄱ drops out for euphony (the same thing happens to 십월→시월 for October). Keep dates, prices, and floors on the Sino side, 육, but remember the 유월 twist.",
+        "chips": [
+          "육 분",
+          "유월",
+          "육 층",
+          "육천 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "육 is opposite native 여섯, which counts tangible things, people, age, and the clock hour. So six o'clock is 여섯 시 but six minutes is 육 분."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "육 is the Sino-Korean number, from the hanja 六."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers regularly write 육월 by analogy and must memorize 유월 as an exception. The other usual slip is using 육 for the hour (육 시 instead of 여섯 시)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Writing 육월 for June — it is the irregular 유월 (the ㄱ drops). Compare 시월 for October.",
+      "Saying 육 시 for six o'clock — the hour is native, so 여섯 시. Sino 육 is for minutes: 육 분.",
+      "Using native 여섯 for money or floors (여섯 원, 여섯 층). Those are Sino: 육 원, 육 층."
     ]
   },
   {
@@ -894,44 +1374,74 @@
       [
         "칠 분",
         "seven minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 칠 분 (seven o'clock is native 일곱 시)"
       ],
       [
-        "칠 원",
-        "seven won",
-        "money uses Sino numbers"
+        "칠월",
+        "July",
+        "칠 + 월 = the seventh month, July"
       ],
       [
         "칠 층",
-        "seven floor",
-        "floors use Sino numbers"
+        "seventh floor",
+        "floors are Sino: 칠 층"
       ],
       [
-        "칠 번",
-        "number seven",
-        "order / line number also uses Sino"
+        "칠천 원",
+        "seven thousand won",
+        "money is Sino: 칠천 원 = 7,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 칠 원이에요.",
-        "This is seven won.",
-        "price"
+        "칠 빼기 이는 오예요.",
+        "Seven minus two is five.",
+        "subtraction in Sino: 칠 − 이 = 오"
       ],
       [
-        "지금 한 시 칠 분이에요.",
-        "It is one seven now.",
-        "minutes after the hour"
+        "칠천 원이에요.",
+        "It's seven thousand won.",
+        "everyday price: money is Sino, 칠천 원"
       ],
       [
-        "칠 층에 있어요.",
-        "It is on the seven floor.",
-        "floor number"
+        "여름 방학은 칠월에 시작해요.",
+        "Summer break starts in July.",
+        "real situation: month is Sino, 칠월 = July"
       ]
     ],
-    "nuance": "Sino-Korean number for \"seven\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "칠 is the Sino-Korean number \"seven,\" from the hanja 七. It rules dates, money, minutes, floors, math, and larger counts — versus native 일곱, which counts physical things, people, age, and the clock hour. So seven o'clock is 일곱 시 but seven minutes is 칠 분; seven tickets is 일곱 장 but 7,000 won is 칠천 원. Helpfully, 칠월 (July) is regular — no sound change — unlike its neighbor 유월. The usual English-speaker error is telling the hour with 칠 (칠 시 instead of 일곱 시) or pricing with native 일곱 (일곱천 원). Note 칠 also exists as a separate native word meaning 'paint/lacquer' (칠하다 'to paint'), but as a number it always means seven. Keep measured contexts on the Sino side, 칠.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "칠 is the Sino-Korean number \"seven.\" It rules dates, money, minutes, floors, math, and larger counts. Helpfully, 칠월 (July) is regular — no sound change — unlike its neighbor 유월. Keep measured contexts on the Sino side, 칠.",
+        "chips": [
+          "칠 분",
+          "칠월",
+          "칠 층",
+          "칠천 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "칠 is versus native 일곱, which counts physical things, people, age, and the clock hour. So seven o'clock is 일곱 시 but seven minutes is 칠 분; seven tickets is 일곱 장 but 7,000 won is 칠천 원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "칠 is the Sino-Korean number, from the hanja 七. Note 칠 also exists as a separate native word meaning 'paint/lacquer' (칠하다 'to paint'), but as a number it always means seven."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The usual English-speaker error is telling the hour with 칠 (칠 시 instead of 일곱 시) or pricing with native 일곱 (일곱천 원)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 칠 시 for seven o'clock — the hour is native, so 일곱 시. Sino 칠 is for minutes: 칠 분.",
+      "Using native 일곱 for money or dates (일곱월, 일곱천 원). Those are Sino: 칠월, 칠천 원.",
+      "Confusing the number 칠 (seven) with the verb 칠하다 ('to paint'). As a number it is always seven."
     ]
   },
   {
@@ -949,44 +1459,74 @@
       [
         "팔 분",
         "eight minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 팔 분 (eight o'clock is native 여덟 시)"
       ],
       [
-        "팔 원",
-        "eight won",
-        "money uses Sino numbers"
+        "팔월",
+        "August",
+        "팔 + 월 = the eighth month, August"
       ],
       [
         "팔 층",
-        "eight floor",
-        "floors use Sino numbers"
+        "eighth floor",
+        "floors are Sino: 팔 층"
       ],
       [
-        "팔 번",
-        "number eight",
-        "order / line number also uses Sino"
+        "팔천 원",
+        "eight thousand won",
+        "money is Sino: 팔천 원 = 8,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 팔 원이에요.",
-        "This is eight won.",
-        "price"
+        "팔 더하기 이는 십이예요.",
+        "Eight plus two is ten.",
+        "arithmetic in Sino: 팔 + 이 = 십"
       ],
       [
-        "지금 한 시 팔 분이에요.",
-        "It is one eight now.",
-        "minutes after the hour"
+        "팔천 원만 더 내세요.",
+        "Please pay eight thousand won more.",
+        "everyday payment: money is Sino, 팔천 원"
       ],
       [
-        "팔 층에 있어요.",
-        "It is on the eight floor.",
-        "floor number"
+        "광복절은 팔월 십오 일이에요.",
+        "Liberation Day is August 15th.",
+        "real situation: full date is Sino — 팔월(August) + 십오 일(15th)"
       ]
     ],
-    "nuance": "Sino-Korean number for \"eight\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "팔 is the Sino-Korean number \"eight,\" from the hanja 八. It governs dates, money, minutes, floors, math, and larger counts — opposite native 여덟, which counts tangible things, people, age, and the clock hour. So eight o'clock is 여덟 시 but eight minutes is 팔 분; 8,000 won is 팔천 원. Conveniently, 팔월 (August) is regular with no sound change. The standard English-speaker error is using 팔 for the hour (팔 시 instead of 여덟 시) or native 여덟 for prices (여덟천 원). Note 팔 is a homophone of the native noun 팔 ('arm'), but as a number it always means eight. Keep dates, money, and floors on the Sino side, 팔.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "팔 is the Sino-Korean number \"eight.\" It governs dates, money, minutes, floors, math, and larger counts. Conveniently, 팔월 (August) is regular with no sound change. Keep dates, money, and floors on the Sino side, 팔.",
+        "chips": [
+          "팔 분",
+          "팔월",
+          "팔 층",
+          "팔천 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "팔 is opposite native 여덟, which counts tangible things, people, age, and the clock hour. So eight o'clock is 여덟 시 but eight minutes is 팔 분; 8,000 won is 팔천 원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "팔 is the Sino-Korean number, from the hanja 八. Note 팔 is a homophone of the native noun 팔 ('arm'), but as a number it always means eight."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The standard English-speaker error is using 팔 for the hour (팔 시 instead of 여덟 시) or native 여덟 for prices (여덟천 원)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 팔 시 for eight o'clock — the hour is native, so 여덟 시. Sino 팔 is for minutes: 팔 분.",
+      "Using native 여덟 for money or dates (여덟월, 여덟천 원). Those are Sino: 팔월, 팔천 원.",
+      "Confusing the number 팔 (eight) with the noun 팔 ('arm'). As a number it is always eight."
     ]
   },
   {
@@ -1004,44 +1544,74 @@
       [
         "구 분",
         "nine minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 구 분 (nine o'clock is native 아홉 시)"
       ],
       [
-        "구 원",
-        "nine won",
-        "money uses Sino numbers"
+        "구월",
+        "September",
+        "구 + 월 = the ninth month, September"
       ],
       [
         "구 층",
-        "nine floor",
-        "floors use Sino numbers"
+        "ninth floor",
+        "floors are Sino: 구 층"
       ],
       [
-        "구 번",
-        "number nine",
-        "order / line number also uses Sino"
+        "구천 원",
+        "nine thousand won",
+        "money is Sino: 구천 원 = 9,000 won"
       ]
     ],
     "examples": [
       [
-        "이거 구 원이에요.",
-        "This is nine won.",
-        "price"
+        "구 더하기 일은 십이예요.",
+        "Nine plus one is ten.",
+        "arithmetic in Sino: 구 + 일 = 십"
       ],
       [
-        "지금 한 시 구 분이에요.",
-        "It is one nine now.",
-        "minutes after the hour"
+        "이건 구천 원이에요.",
+        "This is nine thousand won.",
+        "everyday price: money is Sino, 구천 원"
       ],
       [
-        "구 층에 있어요.",
-        "It is on the nine floor.",
-        "floor number"
+        "새 학기는 구월에 시작해요.",
+        "The new semester starts in September.",
+        "real situation: month is Sino, 구월 = September"
       ]
     ],
-    "nuance": "Sino-Korean number for \"nine\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "구 is the Sino-Korean number \"nine,\" from the hanja 九. It rules dates, money, minutes, floors, math, and larger counts — versus native 아홉, which counts physical things, people, age, and the clock hour. So nine o'clock is 아홉 시 but nine minutes is 구 분; 9,000 won is 구천 원. 구월 (September) is regular with no sound change. The usual English-speaker error is using 구 to tell the hour (구 시 instead of 아홉 시) or native 아홉 for prices (아홉천 원). Note 구 is also a homophone of common syllables like 구 in 구두 ('dress shoes') or 구경 ('sightseeing'), but as a standalone number it always means nine. Keep measured/coded contexts Sino, 구.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "구 is the Sino-Korean number \"nine.\" It rules dates, money, minutes, floors, math, and larger counts. 구월 (September) is regular with no sound change. Keep measured/coded contexts Sino, 구.",
+        "chips": [
+          "구 분",
+          "구월",
+          "구 층",
+          "구천 원"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "구 is versus native 아홉, which counts physical things, people, age, and the clock hour. So nine o'clock is 아홉 시 but nine minutes is 구 분; 9,000 won is 구천 원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "구 is the Sino-Korean number, from the hanja 九. Note 구 is also a homophone of common syllables like 구 in 구두 ('dress shoes') or 구경 ('sightseeing'), but as a standalone number it always means nine."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The usual English-speaker error is using 구 to tell the hour (구 시 instead of 아홉 시) or native 아홉 for prices (아홉천 원)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 구 시 for nine o'clock — the hour is native, so 아홉 시. Sino 구 is for minutes: 구 분.",
+      "Using native 아홉 for money or dates (아홉월, 아홉천 원). Those are Sino: 구월, 구천 원.",
+      "Confusing 구 (nine) with 육 (six) when listening fast — keep 구=9, 육=6 distinct, e.g. 구 층 vs 육 층."
     ]
   },
   {
@@ -1059,44 +1629,74 @@
       [
         "십 분",
         "ten minutes",
-        "minutes use Sino numbers"
+        "minutes are Sino: 십 분 (ten o'clock is native 열 시)"
       ],
       [
-        "십 원",
-        "ten won",
-        "money uses Sino numbers"
+        "시월",
+        "October",
+        "irregular: 십 + 월 drops the ㅂ → 시월, not 십월"
       ],
       [
         "십 층",
-        "ten floor",
-        "floors use Sino numbers"
+        "tenth floor",
+        "floors are Sino: 십 층"
       ],
       [
-        "십 번",
-        "number ten",
-        "order / line number also uses Sino"
+        "십이월",
+        "December",
+        "tens combine: 십 + 이 = 십이 (월) = the twelfth month"
       ]
     ],
     "examples": [
       [
-        "이거 십 원이에요.",
-        "This is ten won.",
-        "price"
+        "십까지 세어 볼까요?",
+        "Shall we count to ten?",
+        "Sino 십 used standalone in counting/math"
       ],
       [
-        "지금 한 시 십 분이에요.",
-        "It is one ten now.",
-        "minutes after the hour"
+        "십 분 후에 도착해요.",
+        "I'll arrive in ten minutes.",
+        "everyday timing: the duration in minutes is Sino, 십 분"
       ],
       [
-        "십 층에 있어요.",
-        "It is on the ten floor.",
-        "floor number"
+        "크리스마스는 십이월 이십오 일이에요.",
+        "Christmas is December 25th.",
+        "real situation: 십이월(December) + 이십오 일(25th), all Sino"
       ]
     ],
-    "nuance": "Sino-Korean number for \"ten\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "십 is the Sino-Korean number \"ten,\" from the hanja 十 (a vertical and horizontal cross). It is the engine of the Sino tens and the whole large-number system: dates, money, minutes, floors, phone numbers, and counts beyond what native can comfortably reach. So ten o'clock is 열 시 but ten minutes is 십 분; the tens stack as 십일(11), 십이(12), 이십(20), 삼십(30). The must-know irregularity is the month: 'October' is not 십월 but 시월 — the ㅂ drops (mirroring 육월→유월 for June). English speakers regularly write 십월 and must memorize 시월. The other usual slip is using 십 for the hour (십 시 instead of 열 시). Keep dates, money, and minutes on the Sino side, 십, but remember the 시월 exception.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "십 is the Sino-Korean number \"ten.\" It is the engine of the Sino tens and the whole large-number system: dates, money, minutes, floors, phone numbers, and counts beyond what native can comfortably reach. So ten o'clock is 열 시 but ten minutes is 십 분; the tens stack as 십일(11), 십이(12), 이십(20), 삼십(30). The must-know irregularity is the month: 'October' is not 십월 but 시월 — the ㅂ drops (mirroring 육월→유월 for June). Keep dates, money, and minutes on the Sino side, 십, but remember the 시월 exception.",
+        "chips": [
+          "십 분",
+          "시월",
+          "십 층",
+          "십이월"
+        ]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "십 versus native 열 (the clock hour): ten o'clock is 열 시 but ten minutes is 십 분."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "십 is the Sino-Korean number, from the hanja 十 (a vertical and horizontal cross)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers regularly write 십월 and must memorize 시월. The other usual slip is using 십 for the hour (십 시 instead of 열 시)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Writing 십월 for October — it is the irregular 시월 (the ㅂ drops). Compare 유월 for June.",
+      "Saying 십 시 for ten o'clock — the hour is native, so 열 시. Sino 십 is for minutes: 십 분.",
+      "Using native 열 for money or large counts (열 원 where a Sino reading is meant). Money and dates are Sino: 십 원, 시월."
     ]
   },
   {
@@ -1112,46 +1712,71 @@
     ],
     "usage": [
       [
-        "백 분",
-        "(one) hundred minutes",
-        "minutes use Sino numbers"
-      ],
-      [
         "백 원",
-        "(one) hundred won",
-        "money uses Sino numbers"
+        "one hundred won",
+        "money is Sino; note you say 백, never 일백, for a plain 100"
       ],
       [
-        "백 층",
-        "(one) hundred floor",
-        "floors use Sino numbers"
+        "백 명",
+        "a hundred people",
+        "from 100 up, even people are counted with Sino + counter: 백 명"
       ],
       [
-        "백 번",
-        "number (one) hundred",
-        "order / line number also uses Sino"
+        "백 점",
+        "a hundred points / perfect score",
+        "백 점 = full marks; a very common everyday phrase"
+      ],
+      [
+        "이백",
+        "two hundred",
+        "hundreds stack as 이백, 삼백, 사백 …"
       ]
     ],
     "examples": [
       [
-        "이거 백 원이에요.",
-        "This is (one) hundred won.",
-        "price"
+        "백 원짜리 동전 있어요?",
+        "Do you have a 100-won coin?",
+        "짜리 attaches to a price to mean 'worth ~': 백 원짜리"
       ],
       [
-        "지금 한 시 백 분이에요.",
-        "It is one (one) hundred now.",
-        "minutes after the hour"
+        "이 가게에 손님이 백 명쯤 왔어요.",
+        "About a hundred customers came to this shop.",
+        "everyday estimate: large counts of people use Sino 백 + 명, with 쯤 'about'"
       ],
       [
-        "백 층에 있어요.",
-        "It is on the (one) hundred floor.",
-        "floor number"
+        "시험에서 백 점을 받았어요!",
+        "I got a perfect score on the test!",
+        "real situation: 백 점 is the standard way to say 'full marks'"
       ]
     ],
-    "nuance": "Sino-Korean number for \"(one) hundred\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "백 is the Sino-Korean number \"(one) hundred,\" from the hanja 百. Crucially, a plain 100 is just 백 — Koreans do NOT say 일백 the way English forces 'one hundred'; you only add 일 inside bigger numbers (e.g., 천백 = 1,100 is read 천백, and 일백 only surfaces in very formal/legal writing). At and above 100 the native counting system effectively gives out, so everything — money, points, and even people — switches to Sino: 백 명, 백 원, 백 점. English speakers make two errors: inserting 일 (saying 일백 원 for 100 won) and trying to keep native numbers going past 99 (백 instead of a nonexistent native form). The set phrase 백 점 ('a perfect score') and 백 원짜리 ('a 100-won coin') are worth banking whole.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "백 is the Sino-Korean number \"(one) hundred.\" Crucially, a plain 100 is just 백 — Koreans do NOT say 일백 the way English forces 'one hundred'; you only add 일 inside bigger numbers (e.g., 천백 = 1,100 is read 천백, and 일백 only surfaces in very formal/legal writing). At and above 100 the native counting system effectively gives out, so everything — money, points, and even people — switches to Sino: 백 명, 백 원, 백 점. The set phrase 백 점 ('a perfect score') and 백 원짜리 ('a 100-won coin') are worth banking whole.",
+        "chips": [
+          "백 원",
+          "백 명",
+          "백 점",
+          "이백"
+        ]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "백 is the Sino-Korean number, from the hanja 百."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers make two errors: inserting 일 (saying 일백 원 for 100 won) and trying to keep native numbers going past 99 (백 instead of a nonexistent native form)."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 일백 for a plain 100 — Korean just says 백. 일백 only appears in formal/legal writing or inside compounds.",
+      "Trying to use a native number for 100. Native counting effectively stops near 99; 100 and up are Sino, so 백 명, not a native form.",
+      "Reading 100 minutes/points wrong system — points and money are Sino: 백 점, 백 원, never native equivalents."
     ]
   },
   {
@@ -1167,46 +1792,71 @@
     ],
     "usage": [
       [
-        "천 분",
-        "(one) thousand minutes",
-        "minutes use Sino numbers"
-      ],
-      [
         "천 원",
-        "(one) thousand won",
-        "money uses Sino numbers"
+        "one thousand won",
+        "money is Sino; a plain 1,000 is just 천, never 일천"
       ],
       [
-        "천 층",
-        "(one) thousand floor",
-        "floors use Sino numbers"
+        "이천 원",
+        "two thousand won",
+        "thousands stack as 이천, 삼천, 사천 …"
       ],
       [
-        "천 번",
-        "number (one) thousand",
-        "order / line number also uses Sino"
+        "천 명",
+        "a thousand people",
+        "big crowds are Sino + counter: 천 명"
+      ],
+      [
+        "천원짜리",
+        "a 1,000-won note",
+        "천원짜리 (often written solid) = the 1,000-won bill"
       ]
     ],
     "examples": [
       [
-        "이거 천 원이에요.",
-        "This is (one) thousand won.",
-        "price"
+        "천 원만 빌려줘.",
+        "Lend me just a thousand won.",
+        "casual 반말 favor; a plain 1,000 is 천, not 일천"
       ],
       [
-        "지금 한 시 천 분이에요.",
-        "It is one (one) thousand now.",
-        "minutes after the hour"
+        "물 한 병에 천오백 원이에요.",
+        "A bottle of water is 1,500 won.",
+        "everyday price: 천오백 = 1,000 + 500, read straight through in Sino"
       ],
       [
-        "천 층에 있어요.",
-        "It is on the (one) thousand floor.",
-        "floor number"
+        "콘서트에 사람이 삼천 명 넘게 왔어요.",
+        "More than three thousand people came to the concert.",
+        "real situation: large crowd count is Sino (삼천 명) with 넘게 'more than'"
       ]
     ],
-    "nuance": "Sino-Korean number for \"(one) thousand\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "천 is the Sino-Korean number \"(one) thousand,\" from the hanja 千. Like 백, a plain 1,000 is simply 천, never 일천 in everyday speech — you only get 일천 in formal documents. Prices live here constantly: 천 원 (1,000 won), 이천 원 (2,000), 천오백 원 (1,500), all read straight through with no 'and'. Because native numbers can't reach this range, money, crowds, and large quantities are all Sino: 천 명, 천 원. The key English-speaker errors are inserting 일 (saying 일천 원) and importing the English habit of 'one thousand five hundred' as separate chunks — in Korean it flows as 천오백, one continuous reading. Banking the bill name 천원짜리 ('a 1,000-won note') as a unit helps in real shops.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "천 is the Sino-Korean number \"(one) thousand.\" Like 백, a plain 1,000 is simply 천, never 일천 in everyday speech — you only get 일천 in formal documents. Prices live here constantly: 천 원 (1,000 won), 이천 원 (2,000), 천오백 원 (1,500), all read straight through with no 'and'. Because native numbers can't reach this range, money, crowds, and large quantities are all Sino: 천 명, 천 원. Banking the bill name 천원짜리 ('a 1,000-won note') as a unit helps in real shops.",
+        "chips": [
+          "천 원",
+          "이천 원",
+          "천 명",
+          "천원짜리"
+        ]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "천 is the Sino-Korean number, from the hanja 千."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The key English-speaker errors are inserting 일 (saying 일천 원) and importing the English habit of 'one thousand five hundred' as separate chunks — in Korean it flows as 천오백, one continuous reading."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Saying 일천 for a plain 1,000 — Korean just says 천. 일천 belongs to formal/legal writing only.",
+      "Chopping 1,500 into pieces like '천 그리고 오백' — it is read continuously as 천오백, with no word for 'and'.",
+      "Using a native number for amounts this large. Money and big counts are Sino: 천 원, 천 명, never native."
     ]
   },
   {
@@ -1222,46 +1872,71 @@
     ],
     "usage": [
       [
-        "만 분",
-        "ten thousand minutes",
-        "minutes use Sino numbers"
-      ],
-      [
         "만 원",
         "ten thousand won",
-        "money uses Sino numbers"
+        "the everyday banknote; a plain 10,000 is 만, but here Koreans DO often say 일만 원 for clarity"
       ],
       [
-        "만 층",
-        "ten thousand floor",
-        "floors use Sino numbers"
+        "십만",
+        "one hundred thousand",
+        "Korean groups by 만(10,000): 십만 = 100,000"
       ],
       [
-        "만 번",
-        "number ten thousand",
-        "order / line number also uses Sino"
+        "백만",
+        "one million",
+        "백만 = 100 × 만 = 1,000,000"
+      ],
+      [
+        "만 명",
+        "ten thousand people",
+        "huge crowd counts use 만 + counter: 만 명"
       ]
     ],
     "examples": [
       [
         "이거 만 원이에요.",
         "This is ten thousand won.",
-        "price"
+        "everyday price tag; 만 원 is the common bill"
       ],
       [
-        "지금 한 시 만 분이에요.",
-        "It is one ten thousand now.",
-        "minutes after the hour"
+        "한 달 용돈이 십만 원이에요.",
+        "My monthly allowance is a hundred thousand won.",
+        "everyday budgeting: 십만 = 100,000, grouped by 만"
       ],
       [
-        "만 층에 있어요.",
-        "It is on the ten thousand floor.",
-        "floor number"
+        "그 영상 조회수가 백만이 넘었어요.",
+        "That video passed a million views.",
+        "real situation: large counts group by 만 — 백만 = 1,000,000 (100만)"
       ]
     ],
-    "nuance": "Sino-Korean number for \"ten thousand\". Use it for dates, money, minutes, phone numbers, floors, and counting above 100.",
+    "nuance": "만 is the Sino-Korean number \"ten thousand,\" from the hanja 萬. The deep point for English speakers: Korean does NOT group large numbers by thousands the way English does — it groups by 만 (10,000). So 100,000 is 십만 (ten 만), 1,000,000 is 백만 (hundred 만), and 10,000,000 is 천만 (thousand 만). This 만-based grouping is the single hardest mental switch in Korean numbers, because you must constantly divide by ten-thousands rather than thousands. Unlike 백 and 천, the bill 만 원 is commonly said 일만 원 too, especially when writing checks or being precise. The classic mistake is calculating 'a million' as 천천 (thousand-thousand) — it does not exist; a million is 백만. Master the ladder 만 → 십만 → 백만 → 천만 → 억(100,000,000).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "만 is the Sino-Korean number \"ten thousand.\" The deep point for English speakers: Korean does NOT group large numbers by thousands the way English does — it groups by 만 (10,000). So 100,000 is 십만 (ten 만), 1,000,000 is 백만 (hundred 만), and 10,000,000 is 천만 (thousand 만). This 만-based grouping is the single hardest mental switch in Korean numbers, because you must constantly divide by ten-thousands rather than thousands. Unlike 백 and 천, the bill 만 원 is commonly said 일만 원 too, especially when writing checks or being precise. Master the ladder 만 → 십만 → 백만 → 천만 → 억(100,000,000).",
+        "chips": [
+          "만 원",
+          "십만",
+          "백만",
+          "만 명"
+        ]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "만 is the Sino-Korean number, from the hanja 萬."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic mistake is calculating 'a million' as 천천 (thousand-thousand) — it does not exist; a million is 백만."
+      }
+    ],
     "mistakes": [
-      "Do not use this for hours or age — those take native numbers (하나, 둘 …)."
+      "Grouping by thousands like English — Korean groups by 만(10,000). So 100,000 is 십만, not '백천'.",
+      "Saying 천천 for a million — that does not exist. A million is 백만 (100 × 만).",
+      "Forgetting that for the 10,000-won bill, 일만 원 is acceptable and common for clarity, unlike 백/천 where 일 is dropped."
     ]
   }
 ]

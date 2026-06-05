@@ -7,18 +7,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["삼겹살 2인분 주세요", "Two servings of pork belly, please", "Order at a Korean BBQ place; counted with 인분."],
-      ["삼겹살에 소주 한잔", "Pork belly with a shot of soju", "Classic combo; 에 links the food and drink."],
-      ["삼겹살 구워 먹어요", "We grill and eat pork belly", "굽다 → 구워; you grill it yourself at the table."],
-      ["삼겹살이 제일 인기 많아요", "Pork belly is the most popular", "The default meat most people order first."]
+      ["삼겹살 2인분 주세요", "Two servings of pork belly, please", "Meat is ordered by 인분 (serving), never by piece — this is the core ordering phrase."],
+      ["삼겹살에 소주 한잔", "Pork belly with a shot of soju", "에 here marks the food you pair a drink with; the most iconic Korean food-and-drink combo."],
+      ["삼겹살 구워 먹어요", "We grill and eat pork belly", "굽다 → 구워 (ㅂ-irregular); you cook it yourself at the table-top grill."],
+      ["기름이 쫙 빠져서 좋아요", "The fat renders right out, which is great", "쫙 빠지다 is the set phrase Koreans use to praise well-grilled 삼겹살."]
     ],
     "examples": [
-      ["오늘 회식인데 삼겹살 먹으러 가요.", "We have a work dinner today, so we're going for pork belly.", "삼겹살 is the go-to for casual group dinners."],
-      ["삼겹살 다 익었어요?", "Is the pork belly fully cooked?", "익다 = to be cooked; ask before eating off the grill."],
-      ["삼겹살은 쌈에 싸 먹는 게 맛있어요.", "Pork belly tastes great wrapped in lettuce.", "쌈 = lettuce wrap; 싸 먹다 = to wrap and eat."]
+      ["삼겹살 먹으러 갈래요?", "Want to go eat pork belly?", "The everyday casual invite; 먹으러 가다 = go in order to eat."],
+      ["삼겹살 다 익었어요?", "Is the pork belly fully cooked?", "익다 = (food) to be cooked through; ask before you pick a piece off the grill."],
+      ["삼겹살은 쌈에 싸서 먹어야 제맛이에요.", "Pork belly only tastes right wrapped in a lettuce leaf.", "쌈 = the lettuce/perilla wrap; -아야 제맛이다 = 'it's only truly good when…', a very natural food cliché."]
     ],
-    "nuance": "삼겹살 literally means 'three-layered flesh,' referring to the streaks of fat and meat. It's the single most iconic Korean BBQ meat and a default social meal, so knowing how to order it by 인분 is genuinely essential for daily life here.",
-    "mistakes": ["Saying 삼겹살 한 개 instead of 삼겹살 1인분 — meat is ordered by serving (인분), not by piece.", "Confusing 삼겹살 with 목살 (pork shoulder/neck); they're different cuts on the menu."]
+    "nuance": "삼겹살 literally breaks down as 삼(三, three) + 겹(layer) + 살(flesh) — 'three-layered meat' — naming the alternating stripes of fat and lean in pork belly, and it is the single most iconic Korean BBQ cut and a default casual group meal. Don't confuse it with 목살 (pork neck/collar, leaner) or 오겹살 (a five-layer belly cut with the skin on); waiters list these as separate menu lines. Register-wise the word itself is neutral, but the situation is firmly casual — friends, 회식 work dinners, late nights with soju — never a formal banquet. The pitfall for English speakers is the counter: 'a piece of pork belly' tempts you into 삼겹살 한 개, but you must order by 인분 (삼겹살 2인분), and you say 구워 먹다 (grill-and-eat) rather than the English 'have a barbecue,' because here you do the grilling yourself.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "삼겹살 names the alternating stripes of fat and lean in pork belly. It is the single most iconic Korean BBQ cut and a default casual group meal. The word itself is neutral in register, but the situation is firmly casual — friends, 회식 work dinners, late nights with soju — never a formal banquet."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse it with 목살 (pork neck/collar, leaner) or 오겹살 (a five-layer belly cut with the skin on). Waiters list these as separate menu lines.", "chips": ["목살", "오겹살"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It literally breaks down as 삼(三, three) + 겹(layer) + 살(flesh) — 'three-layered meat'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall for English speakers is the counter: 'a piece of pork belly' tempts you into 삼겹살 한 개, but you must order by 인분 (삼겹살 2인분). And you say 구워 먹다 (grill-and-eat) rather than the English 'have a barbecue,' because here you do the grilling yourself."}
+    ],
+    "mistakes": ["Saying 삼겹살 한 개 — meat is counted by 인분 (serving), so the correct order is 삼겹살 1인분 / 2인분.", "Calling any grilled pork 삼겹살 — 삼겹살 is specifically the belly cut; 목살 (neck) and 항정살 (jowl) are different lines on the menu.", "Using 만들다 ('make') for grilling at the table — Koreans say 삼겹살 구워 먹다 (grill and eat), not 삼겹살 만들다."]
   },
   {
     "kind": "noun",
@@ -28,18 +34,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["돼지갈비 vs 소갈비", "Pork ribs vs. beef ribs", "갈비 alone is ambiguous; menus specify 돼지/소."],
-      ["갈비 2인분 주세요", "Two servings of ribs, please", "Counted with 인분 like other BBQ meats."],
-      ["양념갈비로 할게요", "I'll go with marinated ribs", "양념 = seasoned/marinated; the sweet-savory version."],
-      ["갈비탕 한 그릇", "One bowl of rib soup", "갈비탕 is a popular beef-rib soup, not grilled."]
+      ["돼지갈비 vs 소갈비", "Pork ribs vs. beef ribs", "갈비 alone is ambiguous, so the species prefix 돼지/소 is almost always attached."],
+      ["양념갈비로 주세요", "I'll have the marinated ribs", "양념 = seasoning/marinade; -로 주세요 picks one option among several."],
+      ["갈비 2인분이요", "Two servings of ribs, please", "Grilled 갈비 is counted by 인분; ~이요 is the quick spoken order form."],
+      ["갈비탕 한 그릇 주세요", "One bowl of rib soup, please", "갈비탕 is a soup dish counted by 그릇 (bowl), not 인분 — a different format from grilled 갈비."]
     ],
     "examples": [
-      ["여기 양념갈비가 유명해요.", "The marinated ribs here are famous.", "양념갈비 is the sweet marinated style many foreigners love."],
-      ["갈비는 좀 비싸지만 가끔 먹을 만해요.", "Ribs are a bit pricey, but worth it once in a while.", "Beef 갈비 especially is a splurge meat."],
-      ["점심에 갈비탕 먹으러 갈래요?", "Want to go for rib soup at lunch?", "갈비탕 is a common, comforting lunch option."]
+      ["여기는 양념갈비가 유명해요.", "This place is famous for its marinated ribs.", "은/는 here flags 양념갈비 as the topic/specialty being contrasted."],
+      ["갈비는 좀 비싸지만 가끔 먹을 만해요.", "Ribs are a bit pricey, but worth it once in a while.", "-(으)ㄹ 만하다 = 'worth doing'; beef 갈비 especially reads as a splurge."],
+      ["점심에 갈비탕 먹으러 갈까요?", "Shall we go for rib soup at lunch?", "-(으)ㄹ까요? softly proposes a plan; 갈비탕 is a comforting everyday lunch."]
     ],
-    "nuance": "갈비 covers the rib cut and a whole family of dishes — grilled 갈비, marinated 양념갈비, and the soup 갈비탕. Because it can be beef or pork, locals always say 소갈비 or 돼지갈비 to be clear, and beef ribs read as a more special, costly meal.",
-    "mistakes": ["Assuming 갈비 always means beef — at many BBQ spots it defaults to pork (돼지갈비).", "Mixing up 갈비 (ribs) with 갈비탕 (rib soup); one is grilled, one is a soup dish."]
+    "nuance": "갈비 means the rib cut, and it heads a whole family of dishes: grilled plain 생갈비, sweet-marinated 양념갈비, the braised 갈비찜, and the soup 갈비탕. The crucial ambiguity for a learner is species — 갈비 can be beef or pork, so Koreans say 소갈비 or 돼지갈비 to be clear, and at many casual BBQ joints an unqualified '갈비' defaults to the cheaper 돼지갈비, while 소갈비 reads as a costly, special-occasion meal. Note the cut sits next to 삼겹살 and 등심 as a grilling option but, unlike them, has a famous sweet marinade tradition (soy, sugar, pear, garlic). The English-speaker trap is treating 갈비 as automatically 'beef ribs' and then conflating the grilled cut with the soup: 갈비 is the rib itself, whereas 갈비탕 (-탕 = clear soup) is a boiled dish — ordering one expecting the other is a common mix-up.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "갈비 means the rib cut, and it heads a whole family of dishes: grilled plain 생갈비, sweet-marinated 양념갈비, the braised 갈비찜, and the soup 갈비탕. It sits next to 삼겹살 and 등심 as a grilling option but, unlike them, has a famous sweet marinade tradition (soy, sugar, pear, garlic)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial ambiguity for a learner is species: 갈비 can be beef or pork, so Koreans say 소갈비 or 돼지갈비 to be clear. At many casual BBQ joints an unqualified '갈비' defaults to the cheaper 돼지갈비, while 소갈비 reads as a costly, special-occasion meal.", "chips": ["소갈비", "돼지갈비"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker trap is treating 갈비 as automatically 'beef ribs' and then conflating the grilled cut with the soup: 갈비 is the rib itself, whereas 갈비탕 (-탕 = clear soup) is a boiled dish. Ordering one expecting the other is a common mix-up."}
+    ],
+    "mistakes": ["Assuming 갈비 always means beef — at many BBQ spots an unmarked 갈비 defaults to pork (돼지갈비); specify 소갈비 for beef.", "Treating 갈비 and 갈비탕 as the same thing — 갈비 is the grilled rib; 갈비탕 (-탕 soup) is a boiled broth dish.", "Counting 갈비탕 by 인분 — soups are counted by 그릇 (bowl): 갈비탕 한 그릇, while grilled 갈비 uses 인분."]
   },
   {
     "kind": "noun",
@@ -49,18 +60,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["등심 1인분 주세요", "One serving of sirloin, please", "A leaner, premium beef cut at 소고기 restaurants."],
-      ["등심이 부드러워요", "The sirloin is tender", "부드럽다 = tender/soft, a key selling point."],
-      ["등심 vs 안심", "Sirloin vs. tenderloin", "Two common beef cuts often listed side by side."],
-      ["꽃등심으로 주세요", "Give me the ribeye (flower sirloin), please", "꽃등심 = marbled ribeye, a prized upgrade."]
+      ["등심 1인분 주세요", "One serving of sirloin, please", "A leaner premium beef cut at 소고기 (beef) restaurants, counted by 인분."],
+      ["등심이 부드러워요", "The sirloin is tender", "부드럽다 (ㅂ-irregular → 부드러워요) is the key praise word for a good cut."],
+      ["등심하고 안심 중에 뭐가 좋아요?", "Between sirloin and tenderloin, which is better?", "N하고 N 중에 = 'among A and B'; the two cuts are constantly compared."],
+      ["꽃등심으로 주세요", "I'll have the ribeye (marbled sirloin), please", "꽃등심 = the marbled 'flower' upgrade of 등심, a prized higher-grade cut."]
     ],
     "examples": [
-      ["소고깃집에서는 등심이 기본이에요.", "At a beef restaurant, sirloin is the standard order.", "등심 is the default beef cut for grilling."],
-      ["꽃등심은 마블링이 좋아서 더 비싸요.", "Ribeye has good marbling, so it's pricier.", "마블링 (marbling) drives the price of beef cuts."],
-      ["등심은 너무 익히면 질겨져요.", "If you overcook sirloin, it gets tough.", "질기다 = tough; lean cuts dry out when overcooked."]
+      ["소고깃집에서는 등심이 기본이에요.", "At a beef restaurant, sirloin is the standard order.", "기본 = the default/basic choice; -에서는 sets the location as the frame."],
+      ["꽃등심은 마블링이 좋아서 더 비싸요.", "Ribeye has good marbling, so it costs more.", "-아서 links cause→result; 마블링 (marbling) is the price driver for beef."],
+      ["등심은 너무 익히면 질겨져요.", "If you overcook sirloin, it turns tough.", "익히다 = to cook (transitive); 질겨지다 = to become chewy/tough — lean cuts dry out."]
     ],
-    "nuance": "등심 is the go-to grilling cut at beef-focused restaurants, prized for being relatively lean yet tender. You'll constantly see it next to 안심 and the upgraded 꽃등심 (ribeye) on menus, so recognizing the cut names helps you order beef confidently.",
-    "mistakes": ["Confusing 등심 (sirloin) with 안심 (tenderloin) — 안심 is leaner and more tender.", "Ordering 등심 expecting cheap pork; it's almost always a higher-priced beef cut."]
+    "nuance": "등심 is the loin/sirloin, the workhorse grilling cut at beef-focused restaurants — relatively lean yet tender, and the cut people mean by default when they say 'let's get 소고기.' It is a native Korean compound, 등 (back) + 심 (the core/inner flesh), not a Sino-Korean word, so don't go looking for a 한자 reading. The synonym boundary to nail is 등심 vs 안심: both are premium, but 등심 (sirloin, from the back) has a touch more fat and bite, while 안심 (tenderloin) is leaner and softer; menus list them side by side, and the marbled upgrade 꽃등심 ('flower sirloin' = ribeye) is the splurge tier above plain 등심. Collocations cluster around texture and grade: 등심이 부드럽다 (tender), 마블링이 좋다 (well-marbled), 질겨지다 (gets tough). The English-speaker pitfall is mapping 'sirloin/loin' loosely and ordering 등심 expecting cheap pork — it is almost always higher-priced beef — and overcooking it the way you might a steak, when Koreans grill these cuts only briefly to keep them 부드럽다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "등심 is the loin/sirloin, the workhorse grilling cut at beef-focused restaurants — relatively lean yet tender, and the cut people mean by default when they say 'let's get 소고기.' Collocations cluster around texture and grade: 등심이 부드럽다 (tender), 마블링이 좋다 (well-marbled), 질겨지다 (gets tough)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The synonym boundary to nail is 등심 vs 안심: both are premium, but 등심 (sirloin, from the back) has a touch more fat and bite, while 안심 (tenderloin) is leaner and softer. Menus list them side by side, and the marbled upgrade 꽃등심 ('flower sirloin' = ribeye) is the splurge tier above plain 등심.", "chips": ["안심", "꽃등심"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is a native Korean compound, 등 (back) + 심 (the core/inner flesh), not a Sino-Korean word, so don't go looking for a 한자 reading."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is mapping 'sirloin/loin' loosely and ordering 등심 expecting cheap pork — it is almost always higher-priced beef — and overcooking it the way you might a steak, when Koreans grill these cuts only briefly to keep them 부드럽다."}
+    ],
+    "mistakes": ["Confusing 등심 (sirloin, slightly fattier, more bite) with 안심 (tenderloin, leaner and softer) — they are adjacent but distinct menu cuts.", "Ordering 등심 expecting cheap pork — it is almost always a higher-priced beef cut at a 소고깃집.", "Grilling 등심 long like a well-done steak — overcooking makes it 질겨지다 (tough); Koreans sear it briefly."]
   },
   {
     "kind": "noun",
@@ -70,18 +87,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["안심 스테이크", "Tenderloin steak", "The leanest, most tender cut, popular for steak."],
-      ["안심이 더 부드러워요", "Tenderloin is more tender", "Compared to 등심, 안심 is softer."],
-      ["안심 1인분 주세요", "One serving of tenderloin, please", "Ordered by 인분 at beef restaurants."],
-      ["돼지 안심", "Pork tenderloin", "안심 exists for pork too, often used in cutlets."]
+      ["안심 스테이크로 주세요", "I'll have the tenderloin steak", "안심 is the leanest, most tender cut and the classic steak choice; -로 picks the option."],
+      ["안심이 등심보다 부드러워요", "Tenderloin is more tender than sirloin", "N보다 = 'than N'; the standard comparison that defines 안심."],
+      ["안심 1인분 주세요", "One serving of tenderloin, please", "Counted by 인분 at beef restaurants, like other grilling cuts."],
+      ["돼지 안심", "Pork tenderloin", "안심 exists for pork too and is the lean cut used in 돈가스 (cutlet)."]
     ],
     "examples": [
-      ["안심은 기름기가 적어서 담백해요.", "Tenderloin is low in fat, so it's mild and clean-tasting.", "담백하다 describes the lean, non-greasy flavor."],
-      ["스테이크는 안심으로 주문했어요.", "I ordered the steak with tenderloin.", "안심 is the classic choice for a tender steak."],
-      ["안심이라서 좀 더 비쌌어요.", "Because it was tenderloin, it was a bit more expensive.", "안심 is a premium, leaner cut."]
+      ["안심은 기름기가 적어서 담백해요.", "Tenderloin is low in fat, so it's clean and mild.", "기름기 = fattiness; 담백하다 = mild, non-greasy — the signature flavor note for lean cuts."],
+      ["스테이크는 안심으로 주문했어요.", "I ordered the steak as tenderloin.", "-(으)로 marks the material/choice the steak is made from."],
+      ["안심이라서 좀 더 비쌌어요.", "Because it was tenderloin, it was a bit pricier.", "N(이)라서 = 'because it is N'; 안심 is a premium lean cut."]
     ],
-    "nuance": "안심 is the tenderloin — the leanest and most tender cut, which is why it's the default for steaks. Note it's a homonym of the verb 안심하다 (to feel relieved), so context (a meat menu vs. a conversation) tells you which meaning is intended.",
-    "mistakes": ["Mixing up 안심 (tenderloin) with the verb 안심하다 (to be relieved) — same spelling, totally different meaning.", "Assuming 안심 is fattier than 등심; it's actually the leaner of the two."]
+    "nuance": "안심 is the tenderloin — the leanest, softest muscle (it does little work), which is why it is the go-to for 스테이크 and why people praise it as 담백하다 (mild and clean, not greasy) and 부드럽다 (tender). The key contrast is 안심 vs 등심: counter to English intuition, the 'tenderloin' 안심 is the leaner one, while 등심 (sirloin) carries a bit more fat and chew — learners often guess the opposite. The headache here is the homonym: 안심 the cut is spelled identically to the verb 안심하다 (安心하다, 'to feel relieved / at ease', literally 'settle the heart'), so 안심하세요 means 'don't worry,' not anything about meat — only context (a menu vs. a conversation) disambiguates. Collocations: 안심 스테이크, 기름기가 적다, 담백하다. The pitfall is twofold — reading the meat 안심 as the feeling-relieved word, and assuming the 'tender' cut must be the fattier one when it is actually the leanest.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "안심 is the tenderloin — the leanest, softest muscle (it does little work), which is why it is the go-to for 스테이크 and why people praise it as 담백하다 (mild and clean, not greasy) and 부드럽다 (tender). Collocations: 안심 스테이크, 기름기가 적다, 담백하다."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key contrast is 안심 vs 등심: counter to English intuition, the 'tenderloin' 안심 is the leaner one, while 등심 (sirloin) carries a bit more fat and chew — learners often guess the opposite.", "chips": ["등심"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "The cut 안심 is spelled identically to the verb 안심하다 (安心하다, 'to feel relieved / at ease', literally 'settle the heart'), so 안심하세요 means 'don't worry,' not anything about meat — only context (a menu vs. a conversation) disambiguates."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is twofold — reading the meat 안심 as the feeling-relieved word, and assuming the 'tender' cut must be the fattier one when it is actually the leanest."}
+    ],
+    "mistakes": ["Mixing up 안심 (tenderloin, the cut) with 안심하다 (安心 'to be relieved') — identical spelling, completely different meaning; only context tells them apart.", "Assuming 안심 is fattier than 등심 — it is the opposite: 안심 (tenderloin) is the leaner, more 담백한 cut.", "Describing 안심 as 느끼해요 (greasy) — lean cuts are 담백해요; 느끼하다 fits fatty foods, not tenderloin."]
   },
   {
     "kind": "noun",
@@ -91,18 +114,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["닭다리 하나 주세요", "Give me one chicken drumstick, please", "Counted with 개 or 하나 since it's a piece."],
-      ["닭다리 살", "Chicken thigh/leg meat", "살 = the meat; 닭다리살 is boneless leg meat."],
-      ["닭다리가 더 맛있어요", "The drumstick is tastier", "Many prefer leg meat over breast (가슴살)."],
-      ["닭다리 vs 닭가슴살", "Drumstick vs. chicken breast", "Leg is juicier; breast is leaner."]
+      ["닭다리 하나 주세요", "Give me one chicken drumstick, please", "It's a discrete piece, so it's counted with 하나/개, not 인분."],
+      ["닭다리살", "Boneless chicken-leg meat", "살 = the flesh; 닭다리살 is the de-boned thigh/leg meat used in bowls and lunchboxes."],
+      ["닭다리가 닭가슴살보다 촉촉해요", "Drumsticks are juicier than chicken breast", "촉촉하다 = moist/juicy; the standard leg-vs-breast contrast."],
+      ["저는 닭다리부터 먹어요", "I go for the drumstick first", "N부터 = 'starting from N'; signals the leg is your favorite piece."]
     ],
     "examples": [
-      ["치킨 시키면 저는 닭다리부터 먹어요.", "When we order fried chicken, I go for the drumstick first.", "닭다리 is the favorite piece for many people."],
-      ["닭다리살로 된 도시락 사 왔어요.", "I bought a lunchbox made with chicken leg meat.", "닭다리살 (boneless) is common in 도시락 and rice bowls."],
-      ["애들은 보통 닭다리를 더 좋아해요.", "Kids usually like the drumsticks more.", "닭다리 is the kid-friendly, easy-to-hold piece."]
+      ["치킨 시키면 저는 닭다리 먼저 먹어요.", "When we order fried chicken, I eat the drumstick first.", "시키다 = to order (food); 먼저 = first — the popular piece everyone reaches for."],
+      ["이건 닭다리살로 만든 도시락이에요.", "This is a lunchbox made with boneless chicken-leg meat.", "-(으)로 만들다 = 'made with'; 닭다리살 (de-boned) is common in 도시락."],
+      ["애들은 보통 닭다리를 더 좋아해요.", "Kids usually like the drumsticks more.", "보통 = usually; the leg is the easy-to-hold, kid-friendly piece."]
     ],
-    "nuance": "닭다리 is the drumstick/leg, widely seen as the juiciest part of the chicken and often the most fought-over piece when sharing 치킨. The boneless version 닭다리살 shows up in lunchboxes and rice bowls, contrasted with the leaner 닭가슴살 favored by dieters.",
-    "mistakes": ["Counting 닭다리 with 인분 — it's a piece, so use 개 or 하나.", "Confusing 닭다리 (leg) with 닭가슴살 (breast); they differ a lot in texture and fat."]
+    "nuance": "닭다리 is a transparent compound, 닭(chicken) + 다리(leg), meaning the drumstick/leg — widely considered the juiciest, most flavorful part and often the most fought-over piece when a group shares 치킨 (fried chicken). The useful derived form is 닭다리살, the boneless leg/thigh meat (살 = flesh) that fills 도시락 lunchboxes and rice bowls; contrast it with 닭가슴살 (breast meat), the leaner, drier cut that dieters and gym-goers eat. Texture words pair naturally: 닭다리는 촉촉하다 (juicy/moist) versus 닭가슴살은 퍽퍽하다 (dry/mealy). The counting pitfall matters: because 닭다리 is one bone-in piece, count it with 개/하나 (닭다리 하나), never 인분, which is for table-grilled meat by the portion. A second English-speaker trap is treating leg and breast as interchangeable 'chicken' — Koreans care about the cut, so 닭다리 vs 닭가슴살 is a real menu-and-preference distinction, not a throwaway detail.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "닭다리 means the drumstick/leg — widely considered the juiciest, most flavorful part and often the most fought-over piece when a group shares 치킨 (fried chicken). The useful derived form is 닭다리살, the boneless leg/thigh meat (살 = flesh) that fills 도시락 lunchboxes and rice bowls. Texture words pair naturally: 닭다리는 촉촉하다 (juicy/moist)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast 닭다리살 with 닭가슴살 (breast meat), the leaner, drier cut that dieters and gym-goers eat: 닭가슴살은 퍽퍽하다 (dry/mealy) versus the juicy leg.", "chips": ["닭가슴살"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is a transparent compound, 닭(chicken) + 다리(leg)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The counting pitfall matters: because 닭다리 is one bone-in piece, count it with 개/하나 (닭다리 하나), never 인분, which is for table-grilled meat by the portion. A second trap is treating leg and breast as interchangeable 'chicken' — Koreans care about the cut, so 닭다리 vs 닭가슴살 is a real menu-and-preference distinction, not a throwaway detail."}
+    ],
+    "mistakes": ["Counting 닭다리 with 인분 — it's a single piece, so use 개 or 하나 (닭다리 하나, 닭다리 두 개).", "Treating 닭다리 (leg, juicy) and 닭가슴살 (breast, lean/dry) as the same 'chicken' — they differ a lot in fat and texture.", "Saying 닭다리가 말랐어요 for 'the leg is dry' — use 퍽퍽하다 for dry meat; 마르다 means a body/object is thin or dried out."]
   },
   {
     "kind": "noun",
@@ -112,18 +141,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["새우 알레르기 있어요", "I'm allergic to shrimp", "Crucial phrase when ordering; 알레르기 = allergy."],
-      ["새우튀김", "Fried shrimp / shrimp tempura", "튀김 = deep-fried; a very common dish."],
-      ["새우 빼 주세요", "Please leave out the shrimp", "빼다 = to remove; useful for allergies or dislikes."],
-      ["새우 들어가요?", "Does it have shrimp in it?", "들어가다 here = to be included as an ingredient."]
+      ["새우 알레르기 있어요", "I'm allergic to shrimp", "N 알레르기(가) 있다 = 'have an N allergy'; a safety-critical phrase when ordering."],
+      ["새우튀김", "Fried shrimp / shrimp tempura", "튀김 = deep-fried dish; one of the most common 새우 preparations."],
+      ["새우 빼 주세요", "Please leave out the shrimp", "빼다 = to remove/omit; -아 주세요 politely requests it be taken out."],
+      ["여기 새우 들어가요?", "Does this have shrimp in it?", "들어가다 here = (an ingredient) to be included; the go-to question for allergies."]
     ],
     "examples": [
-      ["저 새우 알레르기 있어서 새우는 빼 주세요.", "I have a shrimp allergy, so please leave out the shrimp.", "Combine allergy + 빼 주세요 to order safely."],
-      ["이 볶음밥에 새우 들어가요?", "Does this fried rice have shrimp in it?", "들어가다 asks whether an ingredient is included."],
-      ["새우튀김이 바삭바삭하고 맛있어요.", "The fried shrimp is crispy and delicious.", "바삭바삭 describes the crunchy fried texture."]
+      ["새우 좋아해요?", "Do you like shrimp?", "A simple everyday preference question with the bare noun."],
+      ["이 볶음밥에 새우 들어가요?", "Does this fried rice have shrimp in it?", "들어가다 asks whether an ingredient is inside — essential for checking allergens."],
+      ["새우 알레르기가 있어서 새우는 꼭 빼 주세요.", "I have a shrimp allergy, so please be sure to leave the shrimp out.", "Chain allergy + 꼭(definitely) + 빼 주세요 to order safely in a real situation."]
     ],
-    "nuance": "새우 (shrimp/prawn) is everywhere in Korean cooking — fried, in fried rice, in stews — so being able to ask 새우 들어가요? and say 새우 빼 주세요 matters a lot for anyone with a shellfish allergy. The plump fried 새우튀김 is a particular favorite.",
-    "mistakes": ["Saying 새우 없어요 to mean 'I can't eat shrimp' — use 새우 빼 주세요 or 새우 알레르기 있어요 instead.", "Confusing 새우 (shrimp) with 게 (crab) or 가재 (crayfish); they're separate shellfish."]
+    "nuance": "새우 (shrimp/prawn) is one of the most ubiquitous proteins in Korean cooking — fried as 새우튀김, in 볶음밥 (fried rice), in stews, in 깐쇼새우 — so the words around it are practical survival vocabulary, especially 새우 알레르기 있어요 and 새우 빼 주세요 for anyone with a shellfish allergy. Watch the verb 들어가다 ('to go in', here 'to be an ingredient'): 새우 들어가요? literally 'does shrimp go in?' is exactly how you ask whether a dish contains it. Keep 새우 distinct from neighboring shellfish — 게 (crab), 가재 (crayfish/lobster), 조개 (clam) — since 'seafood' in English blurs them but Korean menus name each. The big English-speaker pitfall is the omission phrase: learners reach for 새우 없어요 ('there's no shrimp') to mean 'I can't eat shrimp,' which only states a fact about availability; to make a request you must say 새우 빼 주세요 (remove the shrimp) or state the allergy outright.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "새우 (shrimp/prawn) is one of the most ubiquitous proteins in Korean cooking — fried as 새우튀김, in 볶음밥 (fried rice), in stews, in 깐쇼새우 — so the words around it are practical survival vocabulary, especially 새우 알레르기 있어요 and 새우 빼 주세요 for anyone with a shellfish allergy. Watch the verb 들어가다 ('to go in', here 'to be an ingredient'): 새우 들어가요? literally 'does shrimp go in?' is exactly how you ask whether a dish contains it."},
+      {"k": "비슷한 말", "e": "VS", "t": "Keep 새우 distinct from neighboring shellfish — 게 (crab), 가재 (crayfish/lobster), 조개 (clam) — since 'seafood' in English blurs them but Korean menus name each.", "chips": ["게", "가재", "조개"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The big pitfall is the omission phrase: learners reach for 새우 없어요 ('there's no shrimp') to mean 'I can't eat shrimp,' which only states a fact about availability. To make a request you must say 새우 빼 주세요 (remove the shrimp) or state the allergy outright."}
+    ],
+    "mistakes": ["Saying 새우 없어요 to mean 'I can't have shrimp' — that just means 'there is no shrimp'; request it with 새우 빼 주세요 or state 새우 알레르기 있어요.", "Lumping 새우 with 게 (crab) or 가재 (crayfish) as one 'seafood' — Korean names each shellfish separately on menus.", "Using 있다/없다 to ask if a dish contains shrimp — the natural verb is 들어가다: 새우 들어가요?"]
   },
   {
     "kind": "noun",
@@ -133,18 +167,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["오징어볶음", "Stir-fried spicy squid", "볶음 = stir-fry; a popular spicy dish with rice."],
-      ["오징어가 질겨요", "The squid is chewy/tough", "질기다 = tough; squid can be rubbery if overcooked."],
-      ["마른 오징어", "Dried squid", "마르다 → 마른; a classic beer snack (안주)."],
-      ["오징어 한 마리", "One (whole) squid", "Counted with 마리 like other animals/seafood."]
+      ["오징어볶음", "Spicy stir-fried squid", "볶음 = stir-fry; a popular spicy dish eaten with rice."],
+      ["오징어가 질겨요", "The squid is chewy/rubbery", "질기다 = tough/chewy; squid turns rubbery when overcooked."],
+      ["마른 오징어", "Dried squid", "마르다 → 마른 (modifier); a classic 안주 (drinking snack) and beer companion."],
+      ["오징어 한 마리 주세요", "One whole squid, please", "Whole animals/seafood are counted with 마리, not 개."]
     ],
     "examples": [
-      ["오징어볶음은 밥이랑 먹으면 진짜 맛있어요.", "Spicy stir-fried squid is really good with rice.", "오징어볶음 is a staple spicy rice-pairing dish."],
-      ["맥주에는 마른 오징어가 최고죠.", "Dried squid is the best with beer.", "마른 오징어 is a beloved drinking snack."],
-      ["오징어를 너무 오래 익히면 질겨져요.", "If you cook squid too long, it gets rubbery.", "질겨지다 = to become tough; cook squid briefly."]
+      ["오징어 좋아하세요?", "Do you like squid?", "Polite everyday preference question with -세요."],
+      ["오징어볶음은 밥이랑 같이 먹으면 진짜 맛있어요.", "Spicy stir-fried squid is really good eaten with rice.", "N(이)랑 같이 = 'together with N'; a staple rice-pairing dish."],
+      ["오징어를 너무 오래 익히면 질겨져요.", "If you cook squid too long, it gets rubbery.", "익히다 = to cook (transitive); 질겨지다 = to turn tough — cook squid only briefly."]
     ],
-    "nuance": "오징어 (squid) appears as the spicy stir-fry 오징어볶음, as grilled or dried snacks, and on countless seafood menus. Locals know it turns rubbery when overcooked, and dried 마른 오징어 is a quintessential 안주 (drinking snack), so the word comes up in both restaurants and convenience stores.",
-    "mistakes": ["Counting 오징어 with 개 — use 마리 for whole squid (한 마리, 두 마리).", "Confusing 오징어 (squid) with 문어 (octopus) or 낙지 (small octopus); they're different on menus."]
+    "nuance": "오징어 (squid) is a native everyday word that shows up across the menu: the spicy stir-fry 오징어볶음 eaten over rice, grilled 오징어구이, and especially the dried 마른 오징어, a quintessential 안주 (drinking snack) sold in every convenience store. The texture vocabulary is central — 질기다 (chewy/rubbery) and its change form 질겨지다 (to become tough) — because Koreans know squid must be cooked briefly or it turns rubbery, the opposite of beef which can simmer. The counting pitfall is real: a whole squid is 한 마리 (마리 counts animals and seafood), never 한 개. The other English-speaker trap is lumping cephalopods together: 오징어 (squid), 문어 (octopus), and 낙지 (small/long-arm octopus) are three distinct items with different dishes and prices, so calling all of them 'squid' will get you the wrong thing — for example 낙지볶음 and 오징어볶음 are separate menu lines.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "오징어 (squid) is a native everyday word that shows up across the menu: the spicy stir-fry 오징어볶음 eaten over rice, grilled 오징어구이, and especially the dried 마른 오징어, a quintessential 안주 (drinking snack) sold in every convenience store. The texture vocabulary is central — 질기다 (chewy/rubbery) and its change form 질겨지다 (to become tough) — because Koreans know squid must be cooked briefly or it turns rubbery, the opposite of beef which can simmer."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't lump cephalopods together: 오징어 (squid), 문어 (octopus), and 낙지 (small/long-arm octopus) are three distinct items with different dishes and prices, so calling all of them 'squid' will get you the wrong thing — for example 낙지볶음 and 오징어볶음 are separate menu lines.", "chips": ["문어", "낙지"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The counting pitfall is real: a whole squid is 한 마리 (마리 counts animals and seafood), never 한 개."}
+    ],
+    "mistakes": ["Counting 오징어 with 개 — whole seafood takes 마리: 오징어 한 마리, 두 마리.", "Calling 문어 (octopus) or 낙지 (small octopus) '오징어' — they are different animals and different dishes on the menu.", "Using 딱딱하다 (hard, like a rock) for overcooked squid — the right word is 질기다 (chewy/rubbery)."]
   },
   {
     "kind": "noun",
@@ -154,18 +193,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["조개구이", "Grilled clams/shellfish", "구이 = grilled dish; a popular seaside meal."],
-      ["조개탕", "Clear clam soup", "탕 = soup; light, savory broth from clams."],
-      ["조개가 안 열렸어요", "The clam didn't open", "Unopened clams while cooking shouldn't be eaten."],
-      ["조개 칼국수", "Clam knife-cut noodle soup", "조개 deepens the broth of 칼국수."]
+      ["조개구이", "Grilled clams/shellfish", "구이 = grilled dish; a popular seaside meal where you grill them at the table."],
+      ["조개탕", "Clear clam soup", "탕 = clear soup; clams give it a clean, savory broth."],
+      ["조개가 안 열렸어요", "The clam didn't open", "Unopened clams during cooking are dead beforehand and shouldn't be eaten."],
+      ["국물이 시원해요", "The broth is clean and refreshing", "시원하다 of soup = savory and clean-tasting, NOT temperature-cold."]
     ],
     "examples": [
-      ["바닷가에서 조개구이 먹었어요.", "We had grilled clams at the seaside.", "조개구이 is a classic coastal restaurant order."],
-      ["이 칼국수는 조개를 많이 넣어서 국물이 시원해요.", "This noodle soup has lots of clams, so the broth is refreshing.", "시원하다 here describes a clean, savory broth."],
-      ["조개에서 모래가 나올 수 있으니까 잘 씻어요.", "Clams can have sand, so wash them well.", "해감 (purging sand) matters before cooking clams."]
+      ["바닷가에서 조개구이 먹었어요.", "We had grilled clams at the seaside.", "-에서 marks the place of the action; 조개구이 is a classic coastal order."],
+      ["이 칼국수는 조개를 많이 넣어서 국물이 시원해요.", "This noodle soup has lots of clams, so the broth is clean and savory.", "-아서 links cause→result; 시원하다 praises a clear, umami broth (not cold)."],
+      ["조개는 모래가 있을 수 있으니까 잘 씻어요.", "Clams can have sand, so wash them well.", "-(으)니까 gives the reason; 해감 (purging sand) is a real prep step before cooking."]
     ],
-    "nuance": "조개 is the general word for clams/shellfish and headlines dishes like 조개구이 (grilled clams) and 조개탕. The broth from clams is described as 시원하다 — a clean, savory 'refreshing' taste rather than cold — which is a very Korean way to praise soup.",
-    "mistakes": ["Translating 국물이 시원해요 as 'the broth is cold' — here 시원하다 means clean and savory.", "Using 조개 for a specific clam when the menu wants 바지락 (manila clam) or 홍합 (mussel)."]
+    "nuance": "조개 is the general native word for clams and bivalve shellfish, and it heads dishes like 조개구이 (grilled clams) and 조개탕 (-탕, clear soup). Because it is a category word, when a recipe or menu needs a specific shellfish you switch to the precise name — 바지락 (manila clam), 홍합 (mussel), 가리비 (scallop), 꼬막 (cockle) — so calling all of them just 조개 can be too vague. The flavor cliché to internalize is 국물이 시원하다: with seafood broth, 시원하다 does NOT mean 'cold' but 'clean, brisk, savory' — a deeply Korean way to praise soup, and the classic English-speaker mistranslation. A second pitfall is the safety note baked into 조개가 안 열렸어요: an unopened clam after cooking should be discarded, and Koreans routinely 해감 (soak to purge sand) before cooking, so 모래 (sand) and 씻다 (wash) are common partner words.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "조개 is the general native word for clams and bivalve shellfish, and it heads dishes like 조개구이 (grilled clams) and 조개탕 (-탕, clear soup). The flavor cliché to internalize is 국물이 시원하다: with seafood broth, 시원하다 does NOT mean 'cold' but 'clean, brisk, savory' — a deeply Korean way to praise soup. Note also the safety phrase 조개가 안 열렸어요: an unopened clam after cooking should be discarded, and Koreans routinely 해감 (soak to purge sand) before cooking, so 모래 (sand) and 씻다 (wash) are common partner words."},
+      {"k": "비슷한 말", "e": "VS", "t": "Because it is a category word, when a recipe or menu needs a specific shellfish you switch to the precise name — 바지락 (manila clam), 홍합 (mussel), 가리비 (scallop), 꼬막 (cockle) — so calling all of them just 조개 can be too vague.", "chips": ["바지락", "홍합", "가리비", "꼬막"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic English-speaker mistranslation is reading 국물이 시원하다 as 'the broth is cold' — with seafood soup it means clean, brisk, and savory, not low-temperature."}
+    ],
+    "mistakes": ["Translating 국물이 시원해요 as 'the broth is cold' — with seafood soup 시원하다 means clean, brisk, and savory, not low-temperature.", "Using 조개 when the dish needs a specific shellfish — say 바지락 (manila clam), 홍합 (mussel), or 가리비 (scallop) by name.", "Eating clams that 안 열렸어요 (didn't open) during cooking — those should be thrown out, not forced open."]
   },
   {
     "kind": "noun",
@@ -175,18 +219,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["고등어구이", "Grilled mackerel", "구이 = grilled; a staple home-style fish dish."],
-      ["고등어조림", "Braised mackerel", "조림 = braised in seasoned sauce, often spicy."],
-      ["고등어가 비려요", "The mackerel is fishy", "비리다 = fishy-smelling; common with oily fish."],
-      ["고등어 한 손", "A pair of mackerel", "손 = a counter for two fish sold together."]
+      ["고등어구이", "Grilled mackerel", "구이 = grilled; a staple home-style and 백반 set-meal fish dish."],
+      ["고등어조림", "Braised mackerel", "조림 = simmered in seasoned (often spicy) sauce, classically with radish (무)."],
+      ["고등어가 비려요", "The mackerel tastes/smells fishy", "비리다 = the specific fishy smell/taste of seafood, common with oily fish."],
+      ["고등어 한 손", "A pair of mackerel", "손 = a market counter meaning two fish sold as a set."]
     ],
     "examples": [
-      ["백반집에서 고등어구이가 자주 나와요.", "Grilled mackerel often comes with set-menu meals.", "백반 (home-style set meal) frequently includes 고등어구이."],
-      ["고등어조림은 무랑 같이 조리면 맛있어요.", "Braised mackerel is good simmered with radish.", "무 (radish) is a classic 조림 pairing."],
-      ["고등어는 구울 때 냄새가 좀 나요.", "Mackerel gives off a bit of a smell when grilled.", "Oily fish like 고등어 are aromatic while cooking."]
+      ["백반집에서 고등어구이가 자주 나와요.", "Grilled mackerel often comes out at home-style set-meal places.", "나오다 = (a dish) to be served/come out; 백반 meals frequently include 고등어구이."],
+      ["고등어조림은 무랑 같이 조리면 맛있어요.", "Braised mackerel is delicious simmered together with radish.", "N(이)랑 같이 = with N; 무 (radish) is the classic 조림 partner."],
+      ["고등어는 구울 때 냄새가 좀 나요.", "Mackerel gives off a bit of a smell when grilling.", "-(으)ㄹ 때 = 'when ~ing'; 냄새가 나다 = a smell arises — oily fish are aromatic while cooking."]
     ],
-    "nuance": "고등어 (mackerel) is an everyday, affordable fish that anchors home-style meals as 고등어구이 or 고등어조림. Because it's an oily fish, locals talk about it being 비리다 (fishy) if not fresh, and it's often sold by the 손 (a pair), which is a useful counter to recognize at the market.",
-    "mistakes": ["Calling 고등어 a 조개 or generic 생선 when a recipe specifically needs mackerel.", "Saying 고등어 냄새 나빠요 — use 비리다 for the specific fishy smell of seafood."]
+    "nuance": "고등어 (mackerel) is an everyday, cheap, oily fish that anchors home cooking and 백반 (home-style set-meal) tables as 고등어구이 (grilled) or 고등어조림 (braised with radish). The flavor word to learn precisely is 비리다 — the particular 'fishy' smell/taste of not-fresh seafood — which is its own adjective, distinct from generic 냄새가 나다 (to give off a smell): you say 고등어가 비려요, not 고등어 냄새 나빠요, which sounds unnatural. A practical market detail is the counter 손: fish like mackerel are often sold 한 손, meaning a pair (two fish), so 고등어 한 손 ≠ one fish. Keep 고등어 distinct from other common fish on a 생선 (fish) menu — 갈치 (hairtail), 삼치 (Spanish mackerel), 꽁치 (saury) — since a recipe asking for mackerel specifically won't accept a generic 생선. The English-speaker pitfall is reaching for 'bad smell' vocabulary when the precise, non-judgmental word 비리다 is what Koreans actually use for seafood.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "고등어 (mackerel) is an everyday, cheap, oily fish that anchors home cooking and 백반 (home-style set-meal) tables as 고등어구이 (grilled) or 고등어조림 (braised with radish). The flavor word to learn precisely is 비리다 — the particular 'fishy' smell/taste of not-fresh seafood — which is its own adjective, distinct from generic 냄새가 나다 (to give off a smell): you say 고등어가 비려요, not 고등어 냄새 나빠요, which sounds unnatural. A practical market detail is the counter 손: fish like mackerel are often sold 한 손, meaning a pair (two fish), so 고등어 한 손 ≠ one fish."},
+      {"k": "비슷한 말", "e": "VS", "t": "Keep 고등어 distinct from other common fish on a 생선 (fish) menu — 갈치 (hairtail), 삼치 (Spanish mackerel), 꽁치 (saury) — since a recipe asking for mackerel specifically won't accept a generic 생선.", "chips": ["갈치", "삼치", "꽁치"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is reaching for 'bad smell' vocabulary when the precise, non-judgmental word 비리다 is what Koreans actually use for seafood."}
+    ],
+    "mistakes": ["Saying 고등어 냄새가 나빠요 for the fishy smell — the natural, specific word is 비리다: 고등어가 비려요.", "Assuming 고등어 한 손 = one fish — 손 is a counter meaning a pair (two fish) at the market.", "Substituting a generic 생선 when a dish names 고등어 — mackerel's oily flavor differs from 갈치 (hairtail) or 삼치 (Spanish mackerel)."]
   },
   {
     "kind": "noun",
@@ -196,18 +245,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["연어 초밥", "Salmon sushi", "초밥 = sushi; 연어 is a top sushi choice in Korea."],
-      ["연어 덮밥", "Salmon rice bowl", "덮밥 = rice bowl topped with ingredients."],
-      ["연어 회", "Salmon sashimi", "회 = sliced raw fish; very popular as 연어회."],
-      ["연어가 신선해요", "The salmon is fresh", "신선하다 = fresh; key for raw salmon dishes."]
+      ["연어 초밥", "Salmon sushi", "초밥 = vinegared-rice sushi; 연어 is one of the most popular toppings in Korea."],
+      ["연어 덮밥", "Salmon rice bowl", "덮밥 = a bowl of rice covered with toppings; an easy everyday lunch."],
+      ["연어회", "Salmon sashimi", "회 = sliced raw fish; 연어회 is hugely popular, often all-you-can-eat (무한리필)."],
+      ["연어가 신선해요", "The salmon is fresh", "신선하다 = fresh; the key quality word for anything served raw."]
     ],
     "examples": [
-      ["저는 회 중에서 연어를 제일 좋아해요.", "Among sashimi, I like salmon the most.", "연어 is one of the most popular 회 options."],
-      ["연어 덮밥 하나랑 미소국 주세요.", "One salmon rice bowl and miso soup, please.", "연어 덮밥 is a common, easy lunch order."],
-      ["연어는 구워 먹어도 맛있어요.", "Salmon is also delicious grilled.", "연어 works raw or cooked (연어구이)."]
+      ["저는 회 중에서 연어를 제일 좋아해요.", "Among sashimi options, I like salmon the most.", "N 중에서 = 'among N'; 제일 = the most — 연어 is a top 회 pick."],
+      ["연어 덮밥 하나랑 미소국 주세요.", "One salmon rice bowl and a miso soup, please.", "N 하나랑 N = 'one N and N'; a very common lunch order."],
+      ["연어는 구워 먹어도 맛있어요.", "Salmon is also delicious grilled.", "-아도 = 'even if / also'; 연어 works raw or cooked as 연어구이."]
     ],
-    "nuance": "연어 (salmon) has become hugely popular in Korea, especially raw as 연어회 or 연어 초밥 and in 연어 덮밥 rice bowls. Unlike many native fish, it's a trendy, mild option newcomers often gravitate to, so it's worth knowing alongside the more traditional 회 fish.",
-    "mistakes": ["Confusing 연어 (salmon) with 송어 (trout); they look similar but are different fish.", "Expecting all 회 restaurants to feature 연어 — traditional 횟집 may focus on white fish like 광어."]
+    "nuance": "연어 (鰱魚, salmon) has surged in popularity in Korea, especially raw as 연어회 and 연어 초밥 and in 연어 덮밥 rice bowls, and it's a trendy, mild, fatty option that newcomers gravitate to before tackling more traditional fish. The contrast worth knowing is 연어 (salmon) vs 송어 (trout): they look similar and both appear raw, but they're different fish, and what budget all-you-can-eat 'salmon' spots serve is sometimes 송어 — so the names aren't interchangeable. Quality vocabulary centers on 신선하다 (fresh), essential since it's eaten raw. A cultural pitfall for English speakers: don't assume every traditional 횟집 (sashimi restaurant) features 연어 — long-established 횟집 often specialize in lean white fish like 광어 (flatfish) and 우럭 (rockfish), and 연어 is more a feature of modern, casual, or 무한리필 (all-you-can-eat) places. Also note 연어 is mild, so the 비리다 (fishy) complaint applies less to it than to oily fish like 고등어.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "연어 (salmon) has surged in popularity in Korea, especially raw as 연어회 and 연어 초밥 and in 연어 덮밥 rice bowls, and it's a trendy, mild, fatty option that newcomers gravitate to before tackling more traditional fish. Quality vocabulary centers on 신선하다 (fresh), essential since it's eaten raw. Note 연어 is mild, so the 비리다 (fishy) complaint applies less to it than to oily fish like 고등어."},
+      {"k": "비슷한 말", "e": "VS", "t": "The contrast worth knowing is 연어 (salmon) vs 송어 (trout): they look similar and both appear raw, but they're different fish, and what budget all-you-can-eat 'salmon' spots serve is sometimes 송어 — so the names aren't interchangeable.", "chips": ["송어"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "연어 is written 鰱魚 in 한자."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A cultural pitfall: don't assume every traditional 횟집 (sashimi restaurant) features 연어 — long-established 횟집 often specialize in lean white fish like 광어 (flatfish) and 우럭 (rockfish), and 연어 is more a feature of modern, casual, or 무한리필 (all-you-can-eat) places."}
+    ],
+    "mistakes": ["Confusing 연어 (salmon) with 송어 (trout) — they look alike and both appear raw, but they're different fish (some cheap buffets serve 송어).", "Assuming every 횟집 serves 연어 — traditional sashimi houses often focus on white fish like 광어 (flatfish) and 우럭 (rockfish).", "Calling raw salmon 초밥 — plain sliced raw salmon is 연어회; 초밥 specifically has the vinegared rice underneath."]
   },
   {
     "kind": "noun",
@@ -217,18 +272,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["곱창 1인분 주세요", "One serving of grilled intestines, please", "Ordered by 인분 at 곱창집."],
-      ["곱창에 소주", "Intestines with soju", "A beloved nighttime drinking combo."],
-      ["곱창 vs 막창 vs 대창", "Different cuts of offal", "곱창 (small intestine), 대창/막창 are other cuts."],
-      ["곱창 볶음밥", "Fried rice made after grilling intestines", "볶음밥 made in the leftover pan is a must."]
+      ["곱창 1인분 주세요", "One serving of grilled intestines, please", "Ordered by 인분 at a 곱창집; one serving is fairly small and pricey."],
+      ["곱창에 소주 한잔", "Intestines with a shot of soju", "에 pairs the food with the drink; a beloved late-night 술안주 combo."],
+      ["곱창 vs 막창 vs 대창", "Different cuts of offal", "곱창 = small intestine; 막창 (last stomach) and 대창 (large intestine) are distinct cuts."],
+      ["마지막에 볶음밥 주세요", "Fried rice at the end, please", "볶음밥 fried in the leftover 곱창 pan is the traditional finish to the meal."]
     ],
     "examples": [
-      ["오늘 곱창에 소주 한잔 어때요?", "How about grilled intestines and soju tonight?", "곱창 is a classic 술안주 (drinking food)."],
-      ["곱창은 호불호가 좀 갈려요.", "People are divided on grilled intestines.", "호불호가 갈리다 = opinions are split (love it or hate it)."],
-      ["곱창 먹고 마지막에 볶음밥 꼭 먹어요.", "After the intestines, we always get fried rice at the end.", "Pan-fried 볶음밥 is the traditional finish."]
+      ["오늘 곱창에 소주 한잔 어때요?", "How about grilled intestines and soju tonight?", "N 어때요? = 'how about N?'; 곱창 is a classic 술안주 (drinking food)."],
+      ["곱창은 호불호가 좀 갈려요.", "People are pretty divided on grilled intestines.", "호불호가 갈리다 = opinions split (love-it-or-hate-it); a very natural set phrase."],
+      ["곱창 다 먹고 마지막에 볶음밥 꼭 먹어요.", "After finishing the intestines, we always get fried rice at the end.", "다 먹다 = eat it all up; the pan-fried 볶음밥 finale is a must."]
     ],
-    "nuance": "곱창 is grilled beef or pork small intestine, a popular but polarizing 술안주 enjoyed late at night with soju. The whole experience usually ends with 볶음밥 fried in the leftover pan, and locals will warn you that 곱창 is a 호불호 food — you either love it or you don't.",
-    "mistakes": ["Lumping 곱창, 대창, and 막창 together — they're distinct cuts of offal with different textures.", "Assuming 곱창 is always beef; pork 곱창 (돼지곱창) is common and cheaper."]
+    "nuance": "곱창 is grilled small intestine (most often beef, but 돼지곱창 / pork is common and cheaper), a beloved but polarizing 술안주 (drinking food) eaten late at night with soju, and the meal traditionally ends with 볶음밥 fried in the rich leftover-fat pan. The vocabulary Koreans attach to it is telling: it's a 호불호(가) 갈리는 음식 — a 'love-it-or-hate-it' food (호불호 好不好 = liking/disliking) — so that phrase is worth memorizing here. The crucial distinction is among offal cuts: 곱창 (small intestine, chewy with creamy filling), 대창 (large intestine, fattier, richer), and 막창 (the fourth stomach chamber, common in Daegu) are three different things with different textures and prices, not synonyms. Register is firmly casual and nighttime — you wouldn't propose 곱창 for a formal lunch. The English-speaker pitfall is treating all 'intestines/offal' as one item (and overlooking that an unqualified 곱창 may be pork), plus expecting it cheap — by weight 곱창 is often pricier than 삼겹살.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "곱창 is grilled small intestine (most often beef, but 돼지곱창 / pork is common and cheaper), a beloved but polarizing 술안주 (drinking food) eaten late at night with soju, and the meal traditionally ends with 볶음밥 fried in the rich leftover-fat pan. Register is firmly casual and nighttime — you wouldn't propose 곱창 for a formal lunch. The vocabulary Koreans attach to it is telling: it's a 호불호(가) 갈리는 음식 — a 'love-it-or-hate-it' food — so that phrase is worth memorizing here."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial distinction is among offal cuts: 곱창 (small intestine, chewy with creamy filling), 대창 (large intestine, fattier, richer), and 막창 (the fourth stomach chamber, common in Daegu) are three different things with different textures and prices, not synonyms.", "chips": ["대창", "막창"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "호불호 is 好不好 (liking/disliking)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is treating all 'intestines/offal' as one item (and overlooking that an unqualified 곱창 may be pork), plus expecting it cheap — by weight 곱창 is often pricier than 삼겹살."}
+    ],
+    "mistakes": ["Lumping 곱창, 대창, and 막창 together — they are distinct offal cuts (small intestine / large intestine / fourth stomach) with different textures and prices.", "Assuming 곱창 is always beef — pork 곱창 (돼지곱창) is common and noticeably cheaper, so the species is worth confirming.", "Expecting 곱창 to be cheap because it's offal — per serving it's often pricier than 삼겹살; it's a treat, not a budget food."]
   },
   {
     "kind": "noun",
@@ -238,17 +299,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["회 먹으러 가요", "Let's go eat sashimi", "회 = raw sliced fish, eaten at a 횟집."],
-      ["모둠회", "Assorted sashimi platter", "모둠 = assorted; a mix of several fish."],
-      ["회 한 접시", "A plate of sashimi", "Counted with 접시 (plate) for a serving."],
-      ["회 못 먹어요", "I can't eat raw fish", "Useful if you don't eat raw seafood."]
+      ["회 먹으러 가요", "Let's go eat raw fish", "회 = sliced raw fish, eaten at a 횟집; -(으)러 가다 = go in order to do."],
+      ["모둠회 주세요", "An assorted sashimi platter, please", "모둠 = assorted; a mixed platter of several fish, great when undecided."],
+      ["회 한 접시", "One plate of sashimi", "Sashimi is counted by 접시 (plate), reflecting how it's served."],
+      ["저 회 잘 못 먹어요", "I'm not great with raw fish", "잘 못 먹다 = can't really eat / am not good with — a soft, polite decline."]
     ],
     "examples": [
-      ["바닷가 왔으니까 회 먹어야죠.", "Since we're at the coast, we should eat sashimi.", "회 is the signature thing to eat near the sea."],
-      ["모둠회 시키면 여러 종류 나와요.", "If you order the assorted platter, you get several kinds.", "모둠회 is great when you can't decide."],
-      ["저는 익힌 게 좋아서 회는 잘 안 먹어요.", "I prefer cooked food, so I don't really eat raw fish.", "Polite way to say you avoid 회."]
+      ["회 좋아하세요?", "Do you like sashimi?", "Polite preference question with -세요; a common ice-breaker by the coast."],
+      ["모둠회 시키면 여러 종류 나와요.", "If you order the assorted platter, several kinds come out.", "시키다 = to order; 나오다 = to be served — 모둠회 covers indecision."],
+      ["저는 익힌 게 좋아서 회는 잘 안 먹어요.", "I prefer cooked food, so I don't really eat raw fish.", "익힌 거 = cooked thing; a natural, non-awkward way to opt out of 회."]
     ],
-    "nuance": "회 means sliced raw fish (sashimi-style) and is a centerpiece of Korean coastal dining at a 횟집, usually shared as a 모둠회 platter with side dishes. It's deeply tied to seaside trips and drinking, so knowing how to say 회 먹으러 가요 or 회 못 먹어요 covers a very common social situation.",
-    "mistakes": ["Confusing 회 (raw fish) with 초밥 (sushi with rice) — 회 is just the sliced fish.", "Pronouncing/writing it as 회사 or other 회 homonyms; context (a 횟집) clarifies the food meaning."]
+    "nuance": "회 (膾, sliced raw fish) is the centerpiece of Korean coastal dining, served at a 횟집 (sashimi restaurant) and typically shared as a 모둠회 (assorted) platter with banchan and a follow-up 매운탕 (spicy fish stew) made from the bones. The boundary that trips up English speakers is 회 vs 초밥 (sushi): 회 is JUST the sliced raw fish — no rice — whereas 초밥 is the vinegared-rice nigiri; so '연어회' is plain salmon slices while '연어 초밥' sits on rice. Korean overwhelmingly borrows Japanese 'sashimi/sushi' concepts but keeps its own words and rituals (eaten with 초장 chili-vinegar sauce or 쌈, lots of soju). Counting is by 접시 (plate), not 인분. Register: 회 먹으러 가요 is a casual, social, often celebratory or seaside-trip invitation. The other pitfall is the homonym field — 회 also lives inside 회사 (company), 회의 (meeting), 회식 (work dinner) — but standalone 회 in a food/restaurant context unambiguously means the raw fish; context, especially the word 횟집, makes it clear.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "회 (sliced raw fish) is the centerpiece of Korean coastal dining, served at a 횟집 (sashimi restaurant) and typically shared as a 모둠회 (assorted) platter with banchan and a follow-up 매운탕 (spicy fish stew) made from the bones. Korean borrows Japanese 'sashimi/sushi' concepts but keeps its own words and rituals (eaten with 초장 chili-vinegar sauce or 쌈, lots of soju). Counting is by 접시 (plate), not 인분. Register: 회 먹으러 가요 is a casual, social, often celebratory or seaside-trip invitation."},
+      {"k": "비슷한 말", "e": "VS", "t": "The boundary that trips up English speakers is 회 vs 초밥 (sushi): 회 is JUST the sliced raw fish — no rice — whereas 초밥 is the vinegared-rice nigiri; so '연어회' is plain salmon slices while '연어 초밥' sits on rice.", "chips": ["초밥"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "회 is written 膾 in 한자. Note the homonym field — 회 also lives inside 회사 (company), 회의 (meeting), 회식 (work dinner)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Don't read standalone food-context 회 as 회사/회의 — in a food/restaurant context it unambiguously means the raw fish; context, especially the word 횟집, makes it clear."}
+    ],
+    "mistakes": ["Confusing 회 (raw sliced fish, no rice) with 초밥 (sushi on vinegared rice) — 회 is the fish alone; 초밥 includes the rice.", "Counting 회 by 인분 — sashimi is served and counted by 접시 (plate): 회 한 접시.", "Reading standalone food-context 회 as 회사/회의 (company/meeting) — in a 횟집 it unambiguously means raw fish."]
   }
 ]

@@ -7,18 +7,24 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["복숭아 한 알에 얼마예요?", "How much is one peach?", "알 is the natural counter for round fruit like peaches."],
-      ["복숭아 알레르기 있어요", "I'm allergic to peaches", "A common allergy in Korea; worth knowing this exact phrase."],
-      ["물복 vs 딱복", "Soft peach vs. firm peach", "물복숭아(juicy/soft) and 딱딱한 복숭아(firm); locals debate which is better."],
-      ["복숭아가 물렀어요", "The peach has gone soft/mushy", "무르다 → 물렀다; peaches bruise and spoil fast."]
+      ["복숭아 한 알에 얼마예요?", "How much is one peach?", "알 is the natural market counter for round fruit; 한 알 sounds more grocer-like than 한 개."],
+      ["복숭아 알레르기 있어요", "I'm allergic to peaches", "A genuinely common allergy here; memorize this exact phrase for restaurants and friends' homes."],
+      ["물복 사세요, 딱복 사세요?", "Do you buy soft peaches or firm ones?", "물복(물렁한 복숭아) vs 딱복(딱딱한 복숭아) — the camp question Koreans really ask each other."],
+      ["복숭아가 물렀어요", "The peach has gone soft/mushy", "Adjective 무르다 → past 물렀다; peaches bruise and over-soften fast, so this comes up often."]
     ],
     "examples": [
-      ["여름 되면 복숭아가 진짜 맛있어요.", "When summer comes, peaches are really delicious.", "복숭아 is a signature summer fruit here."],
-      ["저는 단단한 복숭아보다 물복이 좋아요.", "I prefer soft peaches over firm ones.", "물복 is the casual short form for the juicy type."],
-      ["복숭아는 금방 무르니까 빨리 먹어요.", "Peaches go soft quickly, so eat them fast.", "무르다 describes fruit getting overripe and mushy."]
+      ["복숭아 좋아해요?", "Do you like peaches?", "Simplest frame — just the noun + 좋아하다, no counter or particle traps yet."],
+      ["여름 되면 복숭아가 진짜 맛있어요.", "When summer comes, peaches are really delicious.", "되면 = 'when it becomes'; marks 복숭아 as a signature summer fruit."],
+      ["저는 딱복은 별로고 물복이 좋아요.", "I'm not big on firm peaches; I like the soft juicy ones.", "Real preference talk: 별로다 (not great) contrasted with 좋다, using the slang short forms."]
     ],
-    "nuance": "복숭아 is one of Korea's most beloved summer fruits, and people genuinely split into two camps: 물복 (soft, juicy) versus 딱복 (firm, crunchy). It's also one of the more common food allergies here, so being able to say 복숭아 알레르기 있어요 can actually matter at a restaurant or a friend's house.",
-    "mistakes": ["Counting 복숭아 with 개 sounds off for fruit — 한 알 or 한 개 are both heard, but 알 is more natural at a market.", "Saying 복숭아가 썩었어요 (rotten) when you just mean it's soft/overripe — that's 물렀어요."]
+    "nuance": "복숭아 is a native Korean word (no hanja) for one of the country's most beloved summer fruits, and it carries real cultural weight: people genuinely split into two camps, 물복 (soft, juicy 물렁복숭아) versus 딱복 (firm, crunchy 딱딱한 복숭아), and asking which someone prefers is small talk. The nearest confusion for learners is texture verbs: when a peach over-softens you say 물렀어요 (from 무르다, to go soft), NOT 썩었어요 (rotten) — mixing those up makes a perfectly good peach sound spoiled. It is also one of Korea's most common food allergies, so 복숭아 알레르기 있어요 is a high-value safety phrase. English speakers often reach for 개 as the counter, but at a fruit stand 한 알 (for one round piece) is far more natural; 개 isn't wrong, just less grocer-like.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "복숭아 is a native Korean word for one of the country's most beloved summer fruits, and it carries real cultural weight: people genuinely split into two camps, 물복 (soft, juicy 물렁복숭아) versus 딱복 (firm, crunchy 딱딱한 복숭아), and asking which someone prefers is small talk. It is also one of Korea's most common food allergies, so 복숭아 알레르기 있어요 is a high-value safety phrase.", "chips": ["물복", "딱복", "복숭아 알레르기 있어요"]},
+      {"k": "비슷한 말", "e": "VS", "t": "The nearest confusion is texture verbs: when a peach over-softens you say 물렀어요 (from 무르다, to go soft), NOT 썩었어요 (rotten) — mixing those up makes a perfectly good peach sound spoiled."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is a native Korean word with no hanja."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English speakers often reach for 개 as the counter, but at a fruit stand 한 알 (for one round piece) is far more natural; 개 isn't wrong, just less grocer-like."}
+    ],
+    "mistakes": ["Counting 복숭아 with 개 at a market — for round fruit a vendor expects 한 알; 개 sounds like you're counting generic objects, not produce.", "Saying 복숭아가 썩었어요 (rotten) when you only mean it's overripe and soft — the correct word is 물렀어요, from the adjective 무르다.", "Treating 물복/딱복 as childish slang to avoid — they're the standard everyday terms; using 물렁한 복숭아 every time sounds stiff."]
   },
   {
     "kind": "noun",
@@ -28,18 +34,23 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["참외 한 봉지 주세요", "One bag of Korean melons, please", "Often sold by the 봉지 (bag) at markets and marts."],
-      ["참외 깎아 먹어요", "We peel and eat Korean melon", "깎다 = to peel; the yellow skin is removed first."],
-      ["성주 참외", "Seongju chamoe", "성주 is the region famous for the best 참외."],
-      ["참외는 노란 게 맛있어요", "The yellow ones are the tasty ones", "Ripe 참외 turns bright yellow with white stripes."]
+      ["참외 한 봉지 주세요", "One bag of Korean melons, please", "Often priced by the 봉지 (mesh bag) at markets and marts, not by the single piece."],
+      ["참외 깎아 먹어요", "We peel and eat Korean melon", "깎다 = to peel/pare with a knife; the yellow skin comes off first."],
+      ["성주 참외가 제일 유명해요", "Seongju chamoe is the most famous", "성주 (a county in 경북) is the gold-standard growing region, like a brand of origin."],
+      ["참외는 노란 게 맛있어요", "The yellow ones are the tasty ones", "게 = 것이; ripe 참외 turns bright yellow with pale ridged stripes."]
     ],
     "examples": [
-      ["참외는 한국에만 있는 과일이라 외국인들이 신기해해요.", "Chamoe is a fruit found mainly in Korea, so foreigners find it novel.", "참외 rarely appears abroad, so it surprises newcomers."],
-      ["여름에 참외 깎아서 냉장고에 넣어 두면 시원해요.", "In summer, peel chamoe and keep it in the fridge for a cool treat.", "Chilled 참외 is a classic summer snack."],
-      ["이 참외 진짜 달다, 한번 먹어 봐.", "This chamoe is really sweet, try a piece.", "달다 = sweet; ripe 참외 is honey-sweet."]
+      ["참외 처음 봐요.", "I'm seeing chamoe for the first time.", "Beginner frame: 처음 보다 = to see for the first time, perfect for this very local fruit."],
+      ["여름에 참외 깎아서 냉장고에 넣어 두면 시원해요.", "In summer, peel chamoe and chill it in the fridge.", "넣어 두다 = put it in and leave it; -아 두다 means doing something in advance for later."],
+      ["이 참외 진짜 달다, 한번 먹어 봐.", "This chamoe is really sweet, try a piece.", "Casual 반말: plain 달다 + the offer 먹어 봐 (try eating), how you'd talk to a close friend."]
     ],
-    "nuance": "참외 is the bright-yellow Korean melon that's almost unknown outside Korea, so it's a fun, very local fruit to learn. It's a summer staple eaten peeled and chilled, and the variety from 성주 is treated as the gold standard the way certain regions are famous for specific produce.",
-    "mistakes": ["Translating 참외 as just 'melon' — that's 멜론, a different fruit; 참외 is its own thing.", "Eating 참외 with the peel on; Koreans peel off the yellow skin first (깎아 먹다)."]
+    "nuance": "참외 is the bright-yellow oriental melon that is almost unknown outside Korea, which makes it a delightfully local word to own. Etymology helps it stick: 참 means 'true/real' (as in 참기름 'real sesame oil') and 외 is the old word for melon/gourd, so 참외 is literally 'the genuine melon.' The single biggest learner trap is translating it as 'melon' and saying 멜론 — but 멜론 in Korean means the imported netted cantaloupe/honeydew, a totally different fruit; 참외 is its own category and should stay 참외. Unlike a watermelon you slice into wedges, 참외 is 깎아 먹는 (peeled) fruit: you pare off the yellow skin, and many people scoop out the soft seedy core too. The 성주 region functions like an origin label the way certain places are famous for specific produce, so '성주 참외' signals premium.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "참외 is the bright-yellow oriental melon that is almost unknown outside Korea, which makes it a delightfully local word to own. Unlike a watermelon you slice into wedges, 참외 is 깎아 먹는 (peeled) fruit: you pare off the yellow skin, and many people scoop out the soft seedy core too. The 성주 region functions like an origin label the way certain places are famous for specific produce, so '성주 참외' signals premium.", "chips": ["깎아 먹는", "성주 참외"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Etymology helps it stick: 참 means 'true/real' (as in 참기름 'real sesame oil') and 외 is the old word for melon/gourd, so 참외 is literally 'the genuine melon.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The single biggest learner trap is translating it as 'melon' and saying 멜론 — but 멜론 in Korean means the imported netted cantaloupe/honeydew, a totally different fruit; 참외 is its own category and should stay 참외."}
+    ],
+    "mistakes": ["Translating 참외 as 멜론 — 멜론 means the imported netted melon (cantaloupe/honeydew); 참외 is a separate fruit and keeps its own name.", "Eating 참외 with the peel on — Koreans pare off the yellow skin first (깎아 먹다); leaving it on reads as not knowing how to eat it.", "Saying 참외 한 개 at a market when it's bagged — it's commonly sold and counted by the 봉지 (bag), so 한 봉지 fits the real buying unit."]
   },
   {
     "kind": "noun",
@@ -49,18 +60,24 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["자두 한 알", "One plum", "Counted with 알 like other small round fruit."],
-      ["자두가 새콤해요", "The plum is tart/sour", "새콤하다 = pleasantly sour; plums are tangy."],
-      ["자두 제철이에요", "Plums are in season", "제철 = peak season, roughly early-mid summer."],
-      ["자두 씨", "Plum pit", "씨 = seed/pit; there's a hard stone in the center."]
+      ["자두 한 알 먹을래?", "Want to eat one plum?", "Counted with 알 like other small round fruit; -ㄹ래? is a casual offer/invitation."],
+      ["자두가 새콤해요", "The plum is tart/sour", "새콤하다 = pleasantly, refreshingly sour — a positive word, unlike harsh 시다."],
+      ["자두 지금 제철이에요", "Plums are in season right now", "제철 (제 + 철, 'its own season') = peak season, roughly June–July."],
+      ["자두 씨가 단단해요", "The plum pit is hard", "씨 = seed/pit; you bite the flesh around the hard central stone."]
     ],
     "examples": [
-      ["자두는 새콤달콤해서 여름에 자주 먹어요.", "Plums are sweet-and-sour, so I eat them often in summer.", "새콤달콤 captures the tart-sweet plum flavor."],
-      ["자두 씻어서 그냥 통째로 먹으면 돼요.", "Just wash the plums and eat them whole.", "통째로 = whole; you bite around the pit."],
-      ["마트에 자두 나온 거 보니까 여름이네요.", "Seeing plums at the mart, I can tell it's summer.", "Seasonal fruit appearing signals the season."]
+      ["자두 새콤해요.", "Plums are tart.", "Two-word frame fixing the core flavor adjective 새콤하다 to the fruit."],
+      ["자두는 씻어서 통째로 먹으면 돼요.", "Just wash the plums and eat them whole.", "통째로 = whole/in one piece; -으면 돼요 = 'it's fine if you just…', the easy default."],
+      ["마트에 자두 나온 거 보니까 여름 다 됐네.", "Seeing plums out at the mart, summer's basically here.", "-(으)니까 here = 'now that I see…, I realize'; 보니까 (from 보다) frames seasonal fruit as a season signal."]
     ],
-    "nuance": "자두 (plum) is a small, tart-sweet summer fruit you'll see piled up at markets from around June. Its flavor is described as 새콤달콤 (sweet-and-sour), and unlike 복숭아 you usually eat it whole and unpeeled, just biting around the central 씨 (pit).",
-    "mistakes": ["Confusing 자두 (plum) with 자몽 (grapefruit) — similar-sounding but completely different fruit.", "Trying to peel 자두 like a peach; the thin skin is eaten as-is."]
+    "nuance": "자두 is a small, tart-sweet stone fruit (native Korean word, no hanja) piled high at markets from around June, and the flavor Koreans reach for is 새콤달콤 — a fixed pair meaning 'pleasantly sour-and-sweet.' Note the synonym line in that word: 새콤하다 is the GOOD kind of sour (refreshing, appetizing), whereas plain 시다 is just 'sour' and can sound like a complaint, and 떫다 is the puckery astringency of unripe persimmon — don't swap them. Unlike 복숭아, you normally eat 자두 통째로 (whole, skin on), just biting around the hard central 씨 (pit), so peeling it like a peach marks you as unfamiliar with it. The classic learner mix-up is sound-based: 자두 (plum) vs 자몽 (grapefruit) — one syllable apart but entirely different fruit, so listen for the 두/몽 ending.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "자두 is a small, tart-sweet stone fruit (native Korean word) piled high at markets from around June, and the flavor Koreans reach for is 새콤달콤 — a fixed pair meaning 'pleasantly sour-and-sweet.' Unlike 복숭아, you normally eat 자두 통째로 (whole, skin on), just biting around the hard central 씨 (pit), so peeling it like a peach marks you as unfamiliar with it.", "chips": ["새콤달콤", "통째로"]},
+      {"k": "비슷한 말", "e": "VS", "t": "Note the synonym line: 새콤하다 is the GOOD kind of sour (refreshing, appetizing), whereas plain 시다 is just 'sour' and can sound like a complaint, and 떫다 is the puckery astringency of unripe persimmon — don't swap them."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is a native Korean word with no hanja."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic learner mix-up is sound-based: 자두 (plum) vs 자몽 (grapefruit) — one syllable apart but entirely different fruit, so listen for the 두/몽 ending."}
+    ],
+    "mistakes": ["Confusing 자두 (plum) with 자몽 (grapefruit) — they sound alike but are unrelated; the second syllable (두 vs 몽) is the whole difference.", "Peeling 자두 like a peach — the thin skin is eaten as-is; you simply wash it and eat it 통째로 (whole), biting around the pit.", "Using 시다 for the nice tang — for ripe plum say 새콤하다 (appetizingly sour); 시다 alone can sound like the fruit is too sour to enjoy."]
   },
   {
     "kind": "noun",
@@ -70,18 +87,24 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["단감 vs 홍시", "Firm sweet persimmon vs. soft ripe persimmon", "단감 is crunchy; 홍시 is soft and jelly-like."],
-      ["감이 떫어요", "The persimmon is astringent", "떫다 = astringent/puckery; unripe 감 is mouth-drying."],
-      ["곶감", "Dried persimmon", "곶감 is a chewy dried sweet, popular in winter."],
-      ["감 한 개", "One persimmon", "Counted with 개; an autumn fruit."]
+      ["단감 줄까, 홍시 줄까?", "Want a firm persimmon or a soft one?", "단감 (crunchy, eaten like an apple) vs 홍시 (soft, jelly-like, spooned) — name the type, not just 감."],
+      ["감이 떫어요", "The persimmon is astringent", "떫다 = puckery/mouth-drying — the signature word for an underripe 감, not 'bitter.'"],
+      ["곶감 하나 먹어요", "Have a dried persimmon", "곶감 = peeled, dried persimmon; a chewy, very sweet winter treat eaten as a snack."],
+      ["감 한 개 따 줄게", "I'll pick you one persimmon", "Counted with 개; 따다 = to pick from the tree, since 감 grows on backyard trees."]
     ],
     "examples": [
-      ["가을에는 감이 제철이라 엄청 달아요.", "In autumn persimmons are in season, so they're super sweet.", "감 is an iconic fall fruit."],
-      ["저는 딱딱한 단감을 더 좋아해요.", "I prefer the firm, crunchy persimmon.", "단감 is the crisp variety eaten like an apple."],
-      ["덜 익은 감은 떫어서 못 먹어요.", "Unripe persimmons are too astringent to eat.", "떫다 is the puckery taste of underripe 감."]
+      ["가을엔 감이 달아요.", "In autumn persimmons are sweet.", "Short seasonal frame: 가을엔 (in autumn) + 달다 (sweet)."],
+      ["저는 딱딱한 단감을 더 좋아해요.", "I prefer the firm, crunchy persimmon.", "더 좋아하다 = to prefer (like more); 단감 is the apple-crisp variety."],
+      ["덜 익은 감은 떫어서 입에 못 대요.", "Unripe persimmons are so astringent I can't touch them.", "입에 대다 = to put to one's mouth/taste; 못 대다 = can't even try it, vivid spoken phrasing."]
     ],
-    "nuance": "감 (persimmon) is a quintessential autumn fruit in Korea, sold as the crunchy 단감 or the soft, spoon-eaten 홍시, and dried into chewy 곶감 for winter. The key flavor word is 떫다 (astringent) — an unripe persimmon dries out your mouth, a sensation 20-30s here describe constantly.",
-    "mistakes": ["Using 감 by itself when you mean a specific type — at a market, specify 단감 (firm) or 홍시 (soft).", "Saying 감이 써요 (bitter) for an unripe one; the right word is 떫어요 (astringent)."]
+    "nuance": "감 is the quintessential autumn fruit (native Korean, no hanja), and crucially it is an umbrella word that splits into named forms: 단감 (literally 'sweet 감,' the firm crunchy kind eaten sliced like an apple), 홍시 (紅枾 'red persimmon,' the soft jelly-like ripe one you scoop with a spoon), and 곶감 (peeled and dried into a chewy sweet for winter). At a market, saying just 감 is vague — sellers and friends specify which. The flavor word every learner must nail is 떫다 (astringent): an unripe persimmon dries out your whole mouth, and English speakers wrongly call this 써요 (bitter) — but 쓰다 is coffee-bitter, while 떫다 is the puckery tannin sensation, a different word entirely. So 감이 떫어요, never 감이 써요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "감 is the quintessential autumn fruit (native Korean), and crucially it is an umbrella word that splits into named forms: 단감 (literally 'sweet 감,' the firm crunchy kind eaten sliced like an apple), 홍시 (the soft jelly-like ripe one you scoop with a spoon), and 곶감 (peeled and dried into a chewy sweet for winter). At a market, saying just 감 is vague — sellers and friends specify which.", "chips": ["단감", "홍시", "곶감"]},
+      {"k": "비슷한 말", "e": "VS", "t": "The flavor word every learner must nail is 떫다 (astringent): an unripe persimmon dries out your whole mouth. 쓰다 is coffee-bitter, while 떫다 is the puckery tannin sensation, a different word entirely. So 감이 떫어요, never 감이 써요."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "감 itself is native Korean with no hanja, but 홍시 comes from 紅枾 'red persimmon.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English speakers wrongly call the astringency 써요 (bitter) — but 쓰다 is coffee-bitter, while 떫다 is the puckery tannin sensation. So 감이 떫어요, never 감이 써요."}
+    ],
+    "mistakes": ["Using bare 감 when you mean a specific kind — at a market specify 단감 (firm) or 홍시 (soft); 감 alone is ambiguous about texture.", "Saying 감이 써요 (bitter) for an unripe one — the correct sensation is 떫다 (astringent); 쓰다 means bitter like coffee, a different taste.", "Assuming 곶감 is just 'dried fruit' — it specifically means peeled-and-dried persimmon and is treated as a sweet/snack, not a substitute for fresh 감."]
   },
   {
     "kind": "noun",
@@ -91,18 +114,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["망고 빙수", "Mango shaved ice (bingsu)", "망고 빙수 is a hugely popular summer café dessert."],
-      ["망고가 잘 익었어요", "The mango is nicely ripe", "익다 = to ripen; ripe mango is soft and fragrant."],
-      ["냉동 망고", "Frozen mango", "냉동 = frozen; sold in bags for smoothies and snacks."],
-      ["망고 주스", "Mango juice", "A common café and convenience-store drink flavor."]
+      ["망고 빙수 먹으러 가자", "Let's go eat mango bingsu", "망고 빙수 (mango shaved ice) is the flagship summer café dessert; -으러 가다 = go in order to."],
+      ["망고가 잘 익었어요", "The mango is nicely ripe", "익다 = to ripen; a ripe 망고 is soft to the touch and fragrant."],
+      ["냉동 망고로 살게요", "I'll go with frozen mango", "냉동 (冷凍 'cold-freeze') = frozen; the budget way to buy it, sold in bags for smoothies."],
+      ["애플망고는 좀 비싸요", "Apple mango is a bit pricey", "애플망고 = the small, deep-orange premium variety, sold and priced apart from regular 망고."]
     ],
     "examples": [
-      ["여름에 카페에서 망고 빙수 꼭 먹어요.", "In summer I always get mango bingsu at a café.", "망고 빙수 is a seasonal café must-have."],
-      ["망고는 좀 비싸지만 가끔 사 먹어요.", "Mango is a bit pricey, but I buy it once in a while.", "Imported 망고 reads as a small treat."],
-      ["냉동 망고로 스무디 만들어 먹어요.", "I make smoothies with frozen mango.", "냉동 망고 is a cheap, convenient option."]
+      ["망고 좋아해요?", "Do you like mango?", "Plain noun + 좋아하다, the simplest opener."],
+      ["망고는 좀 비싸지만 가끔 사 먹어요.", "Mango's a bit pricey, but I buy it once in a while.", "-지만 = 'but' (concession); 사 먹다 = buy-and-eat, the natural verb for treating yourself."],
+      ["여름에 카페에서 망고 빙수 한 그릇 먹으면 천국이에요.", "A bowl of mango bingsu at a café in summer is heaven.", "그릇 = bowl-counter for 빙수; -으면 …이에요 frames the payoff."]
     ],
-    "nuance": "망고 (mango) is an imported fruit that feels a little special and pricey in Korea, so it shows up most as a treat — above all the wildly popular 망고 빙수 (mango shaved ice) that defines summer café menus. Frozen 냉동 망고 is the budget-friendly way people enjoy it at home in smoothies.",
-    "mistakes": ["Assuming 망고 is cheap year-round like apples — fresh mango is often a pricier, occasional buy.", "Saying 애플망고 and 망고 interchangeably — 애플망고 is the small, sweeter premium type sold separately."]
+    "nuance": "망고 is a loanword (from English 'mango') and, importantly, it carries a 'special imported treat' connotation that the English word lacks — because it's pricier and not locally grown, it reads as an occasional indulgence rather than an everyday fruit like 사과 or 귤. Its single most famous form is 망고 빙수 (mango shaved ice), the dessert that defines summer café menus, so the collocation is worth memorizing as a unit. The key distinction learners miss: 망고 and 애플망고 are NOT interchangeable — 애플망고 is the smaller, sweeter, deep-orange premium type, separately labeled and noticeably more expensive, so don't expect them at the same price. For home use, 냉동 망고 (frozen, 冷凍) is the affordable everyday option people blend into smoothies, while fresh 망고 stays a small luxury.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "망고 carries a 'special imported treat' connotation that the English word lacks — because it's pricier and not locally grown, it reads as an occasional indulgence rather than an everyday fruit like 사과 or 귤. Its single most famous form is 망고 빙수 (mango shaved ice), the dessert that defines summer café menus, so the collocation is worth memorizing as a unit. For home use, 냉동 망고 (frozen) is the affordable everyday option people blend into smoothies, while fresh 망고 stays a small luxury.", "chips": ["망고 빙수", "냉동 망고"]},
+      {"k": "비슷한 말", "e": "VS", "t": "망고 and 애플망고 are NOT interchangeable — 애플망고 is the smaller, sweeter, deep-orange premium type, separately labeled and noticeably more expensive, so don't expect them at the same price."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "망고 is a loanword from English 'mango'; 냉동 (frozen) is from 冷凍 'cold-freeze.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Don't assume 망고 is cheap and year-round like apples — fresh mango is imported, pricier, and reads as an occasional treat, which changes how you'd talk about buying it."}
+    ],
+    "mistakes": ["Assuming 망고 is cheap and year-round like apples — fresh mango is imported, pricier, and reads as an occasional treat, which changes how you'd talk about buying it.", "Using 애플망고 and 망고 interchangeably — 애플망고 is a distinct, sweeter premium variety sold separately and at a higher price.", "Saying 망고 빙수 만들어요 to mean ordering it out — for café desserts you 먹으러 가다 (go to eat) or 시키다 (order); 만들다 implies making it yourself at home."]
   },
   {
     "kind": "noun",
@@ -112,18 +141,23 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["블루베리 한 팩", "One pack of blueberries", "Sold in small 팩 (packs/punnets), not loose."],
-      ["냉동 블루베리", "Frozen blueberries", "냉동 = frozen; a cheaper, year-round option."],
-      ["블루베리가 눈에 좋아요", "Blueberries are good for your eyes", "A widely repeated health belief in Korea."],
-      ["블루베리 요거트", "Blueberry yogurt", "A common flavor for yogurt and smoothies."]
+      ["블루베리 한 팩 주세요", "One pack of blueberries, please", "Sold in small 팩 (plastic punnets), never loose — so the buying unit is 한 팩, not 한 개."],
+      ["냉동 블루베리가 싸요", "Frozen blueberries are cheap", "냉동 (冷凍) = frozen; the cheaper, year-round option versus pricey fresh 생블루베리."],
+      ["블루베리가 눈에 좋아요", "Blueberries are good for your eyes", "눈에 좋다 = good for the eyes; a near-universal health belief you'll hear repeated constantly."],
+      ["블루베리 요거트 자주 먹어요", "I often eat blueberry yogurt", "A staple flavor for the yogurt bowls and smoothies popular with health-minded 20–30s."]
     ],
     "examples": [
-      ["아침에 요거트에 블루베리 넣어 먹어요.", "In the morning I add blueberries to my yogurt.", "A typical healthy-breakfast habit."],
-      ["블루베리는 눈 건강에 좋다고 해서 자주 사요.", "They say blueberries are good for eye health, so I buy them often.", "Reflects the common 눈에 좋다 belief."],
-      ["생블루베리가 비싸서 냉동으로 사요.", "Fresh blueberries are expensive, so I buy frozen.", "냉동 블루베리 is the practical choice."]
+      ["블루베리 좀 사 왔어요.", "I bought some blueberries.", "사 오다 = buy-and-bring(-back); the everyday 'I picked some up' verb."],
+      ["아침에 요거트에 블루베리 넣어 먹어요.", "In the morning I add blueberries to my yogurt.", "에 marks the destination (into the yogurt); 넣어 먹다 = add-and-eat, a habitual breakfast."],
+      ["생블루베리는 비싸서 그냥 냉동으로 사요.", "Fresh blueberries are pricey, so I just buy frozen.", "생- prefix = raw/fresh (생블루베리); -아서 gives the reason for the practical choice."]
     ],
-    "nuance": "블루베리 (blueberry) is marketed in Korea as a health food — you'll constantly hear 블루베리가 눈에 좋아요 (good for your eyes) — and it's a staple of yogurt bowls and smoothies among health-conscious 20-30s. Fresh ones come in small pricey 팩, so many people default to cheaper 냉동 (frozen) bags.",
-    "mistakes": ["Counting 블루베리 with 개 for the whole container — buy it as 한 팩 (one pack).", "Spelling it 블루베리 vs. 블루배리 — the correct loanword is 블루베리."]
+    "nuance": "블루베리 is a loanword (from English 'blueberry') that in Korea is framed above all as a health food, not just a fruit — you will constantly hear 블루베리가 눈에 좋아요 ('good for your eyes'), and it anchors the yogurt-bowl-and-smoothie routine of health-conscious 20–30s. Two practical things shape how you talk about it. First, the counter: it's bought in small pricey 팩 (punnets), so the unit is 한 팩, and counting the whole container with 개 sounds off. Second, the fresh-vs-frozen split: 생블루베리 (생- = raw/fresh) is expensive, so many default to cheaper 냉동 (冷凍, frozen) bags — naming which one you mean matters at the store. Spelling pitfall for English speakers: the standard transliteration is 블루베리, NOT 블루배리 — the third syllable is 베, mirroring 'berry,' even though Korean ㅔ/ㅐ sound nearly identical.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "블루베리 in Korea is framed above all as a health food, not just a fruit — you will constantly hear 블루베리가 눈에 좋아요 ('good for your eyes'), and it anchors the yogurt-bowl-and-smoothie routine of health-conscious 20–30s. On the counter: it's bought in small pricey 팩 (punnets), so the unit is 한 팩, and counting the whole container with 개 sounds off. On fresh-vs-frozen: 생블루베리 (raw/fresh) is expensive, so many default to cheaper 냉동 (frozen) bags — naming which one you mean matters at the store.", "chips": ["한 팩", "생블루베리", "냉동"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "블루베리 is a loanword from English 'blueberry'; 냉동 (frozen) is from 冷凍, and 생- means raw/fresh."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Spelling pitfall: the standard transliteration is 블루베리, NOT 블루배리 — the third syllable is 베, mirroring 'berry,' even though Korean ㅔ/ㅐ sound nearly identical."}
+    ],
+    "mistakes": ["Counting the container with 개 — buy it as 한 팩 (one punnet); 개 would mean individual berries, which isn't how it's sold.", "Spelling it 블루배리 — the correct loanword is 블루베리 (베, not 배); the ㅔ/ㅐ contrast is silent in speech but fixed in writing.", "Assuming fresh is the norm — many people buy 냉동 (frozen) because 생블루베리 is expensive, so specify 생 vs 냉동 when it matters."]
   },
   {
     "kind": "noun",
@@ -133,18 +167,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["골드키위 vs 그린키위", "Gold kiwi vs. green kiwi", "골드키위 is sweeter; 그린키위 is tarter."],
-      ["키위 한 개", "One kiwi", "Counted with 개; a small fuzzy fruit."],
-      ["키위 깎아 먹어요", "We peel and eat kiwi", "깎다 = to peel off the fuzzy brown skin."],
-      ["키위가 시큼해요", "The kiwi is sour", "시큼하다 = sour; unripe green kiwi is quite tart."]
+      ["골드키위가 더 달아요", "Gold kiwi is sweeter", "골드키위 (sweeter, premium) vs 그린키위 (tarter) — labeled and priced separately at the mart."],
+      ["키위 한 개 깎아 줄게", "I'll peel you one kiwi", "Counted with 개; 깎다 = to pare off the fuzzy brown skin with a knife."],
+      ["키위는 떠먹는 게 편해요", "Scooping kiwi out is the easy way", "떠먹다 (뜨다 'scoop' + 먹다) = halve it and spoon out the flesh — a very common local habit."],
+      ["덜 익은 키위는 시큼해요", "An underripe kiwi is sour", "시큼하다 = sharply sour; green kiwi that isn't ripe yet has a real tang."]
     ],
     "examples": [
-      ["골드키위가 그린키위보다 더 달아요.", "Gold kiwi is sweeter than green kiwi.", "골드키위 is the sweeter, premium type."],
-      ["키위는 반으로 잘라서 숟가락으로 떠먹어요.", "I cut the kiwi in half and scoop it with a spoon.", "떠먹다 = to scoop and eat; a common way to eat kiwi."],
-      ["덜 익은 키위는 좀 시큼해요.", "An underripe kiwi is a bit sour.", "시큼하다 describes the tartness of unripe kiwi."]
+      ["키위 맛있어요.", "Kiwi is tasty.", "Bare noun + 맛있다 — the no-frills starter sentence."],
+      ["키위는 반으로 잘라서 숟가락으로 떠먹어요.", "I halve the kiwi and scoop it with a spoon.", "반으로 자르다 = cut in half; -아서 chains the steps (cut, then scoop)."],
+      ["골드키위는 비싼데 그래도 그게 더 맛있어요.", "Gold kiwi's pricey, but still, it tastes better.", "-는데 sets up contrast; 그게 = 그것이, pointing back to the gold one."]
     ],
-    "nuance": "키위 (kiwi) is a popular everyday fruit in Korea, split into the sweeter 골드키위 and the tarter 그린키위 you'll see labeled separately at the mart. Beyond peeling it, a very common local habit is to halve it and 떠먹다 (scoop it out with a spoon), and unripe ones are described as 시큼하다 (sour).",
-    "mistakes": ["Eating the fuzzy brown skin — Koreans always peel 키위 or scoop it out with a spoon.", "Assuming all 키위 taste the same; 골드키위 (sweet) and 그린키위 (tart) are noticeably different."]
+    "nuance": "키위 is a loanword (from English 'kiwi') and an everyday, affordable fruit in Korea, but learners need to know it isn't one uniform thing: it splits into 골드키위 (gold, sweeter, premium, smoother-skinned) and 그린키위 (green, tarter), and these are shelved and priced as distinct items — assuming they taste the same is a real mistake. Two eating habits shape the vocabulary. You can 깎아 먹다 (peel and eat) like other fruit, but a signature Korean move is to halve it and 떠먹다 — 뜨다 'to scoop' + 먹다 — spooning the flesh straight out of the skin cup. The fuzzy brown skin is never eaten; reaching to eat it whole, skin and all, marks unfamiliarity. For flavor, underripe green kiwi is 시큼하다 (sharply sour) — distinguish this from 새콤하다, which is the pleasant refreshing sourness of ripe fruit.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "키위 is an everyday, affordable fruit in Korea, but it isn't one uniform thing: it splits into 골드키위 (gold, sweeter, premium, smoother-skinned) and 그린키위 (green, tarter), and these are shelved and priced as distinct items. Two eating habits shape the vocabulary: you can 깎아 먹다 (peel and eat) like other fruit, but a signature Korean move is to halve it and 떠먹다 (뜨다 'to scoop' + 먹다), spooning the flesh straight out of the skin cup. The fuzzy brown skin is never eaten.", "chips": ["골드키위", "그린키위", "떠먹다"]},
+      {"k": "비슷한 말", "e": "VS", "t": "For flavor, underripe green kiwi is 시큼하다 (sharply sour) — distinguish this from 새콤하다, which is the pleasant refreshing sourness of ripe fruit."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "키위 is a loanword from English 'kiwi'; 떠먹다 combines 뜨다 'to scoop' + 먹다."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Assuming both kinds taste the same is a real mistake — they're separately priced products. And reaching to eat the fuzzy brown skin whole, skin and all, marks unfamiliarity; the skin is never eaten."}
+    ],
+    "mistakes": ["Eating the fuzzy brown skin — Koreans always 깎다 (peel) it or 떠먹다 (scoop the inside out); the skin isn't eaten.", "Assuming all 키위 taste the same — 골드키위 (sweet) and 그린키위 (tart) are noticeably different and sold as separate, separately-priced products.", "Using 시다 flatly for unripe kiwi — 시큼하다 captures the sharp tang better; and don't confuse it with 새콤하다, the agreeable sourness of ripe fruit."]
   },
   {
     "kind": "noun",
@@ -154,18 +194,24 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["브로콜리 데쳐 먹어요", "We blanch and eat broccoli", "데치다 = to blanch briefly in boiling water."],
-      ["브로콜리 한 송이", "One head of broccoli", "송이 is the counter for a head/cluster."],
-      ["브로콜리 살짝 익혀요", "Cook the broccoli lightly", "살짝 = lightly; keeps it green and crunchy."],
-      ["브로콜리랑 초고추장", "Broccoli with chili-vinegar dip", "초고추장 is the standard dip for blanched veg."]
+      ["브로콜리 데쳐 먹어요", "We blanch and eat broccoli", "데치다 = to blanch briefly in boiling water (not fully boil) — the standard prep here."],
+      ["브로콜리 한 송이 사요", "I buy one head of broccoli", "송이 = the counter for a head/cluster/floret bunch; 개 doesn't fit a whole head."],
+      ["살짝만 익혀요", "Cook it just lightly", "살짝 = lightly/just a touch; keeps the broccoli green and crunchy instead of mushy."],
+      ["브로콜리는 초고추장에 찍어 먹어요", "We dip broccoli in chili-vinegar paste", "초고추장 (초 醋 'vinegar' + 고추장) = the sweet-tangy red dip standard for blanched veg."]
     ],
     "examples": [
-      ["브로콜리는 살짝 데쳐서 초고추장에 찍어 먹어요.", "Blanch the broccoli lightly and dip it in chili-vinegar sauce.", "데치다 + 초고추장 is the classic Korean way to eat it."],
-      ["다이어트할 때 브로콜리 많이 먹어요.", "When I'm dieting, I eat a lot of broccoli.", "브로콜리 is a go-to healthy/diet vegetable."],
-      ["브로콜리를 너무 오래 삶으면 물러져요.", "If you boil broccoli too long, it gets mushy.", "물러지다 = to turn soft/mushy from overcooking."]
+      ["브로콜리 안 좋아해요.", "I don't like broccoli.", "Negation 안 + 좋아하다 — the simplest way to state a dislike."],
+      ["브로콜리는 살짝 데쳐서 초고추장에 찍어 먹어요.", "Blanch broccoli lightly and dip it in chili-vinegar sauce.", "데치다 + 초고추장 is the classic combo; -아서 chains blanch → dip → eat."],
+      ["브로콜리를 너무 오래 삶으면 물러져요.", "If you boil broccoli too long, it gets mushy.", "삶다 (full boil) contrasts with 데치다 (blanch); 물러지다 = to turn soft/mushy."]
     ],
-    "nuance": "브로콜리 (broccoli) is firmly part of healthy and diet eating in Korea, often appearing on 닭가슴살 (chicken breast) diet plates. The very Korean way to serve it is lightly 데친 (blanched) and dipped in 초고추장 (sweet chili-vinegar paste), and locals warn that overboiling makes it 물러지다 (mushy).",
-    "mistakes": ["Counting 브로콜리 with 개 — a whole head is 한 송이.", "Serving 브로콜리 raw and plain; the expected style is blanched with 초고추장."]
+    "nuance": "브로콜리 is a loanword (from English 'broccoli') firmly tied to healthy and diet eating in Korea — it's a fixture on 닭가슴살 (chicken-breast) diet plates and 'clean eating' bowls, so the connotation leans 'health food,' not 'ordinary vegetable.' The most Korean way to serve it is 살짝 데친 (lightly blanched) and dipped in 초고추장, the sweet chili-vinegar paste; serving it raw and plain looks under-prepared by local norms. A crucial cooking-verb contrast for learners: 데치다 means to blanch briefly (just dunk it), while 삶다 means to fully boil — overdoing it (삶다 too long) makes the broccoli 물러지다 (go mushy), losing the crunch Koreans want. The counter trips people up too: a whole head is 한 송이 (the cluster counter), not 한 개, which would sound like you're tallying generic objects.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "브로콜리 is firmly tied to healthy and diet eating in Korea — it's a fixture on 닭가슴살 (chicken-breast) diet plates and 'clean eating' bowls, so the connotation leans 'health food,' not 'ordinary vegetable.' The most Korean way to serve it is 살짝 데친 (lightly blanched) and dipped in 초고추장, the sweet chili-vinegar paste; serving it raw and plain looks under-prepared by local norms. The counter also trips people up: a whole head is 한 송이 (the cluster counter), not 한 개.", "chips": ["살짝 데친", "초고추장", "한 송이"]},
+      {"k": "비슷한 말", "e": "VS", "t": "A crucial cooking-verb contrast: 데치다 means to blanch briefly (just dunk it), while 삶다 means to fully boil — overdoing it (삶다 too long) makes the broccoli 물러지다 (go mushy), losing the crunch Koreans want."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "브로콜리 is a loanword from English 'broccoli'; 초고추장 combines 초 醋 'vinegar' + 고추장."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Counting it with 한 개 would sound like you're tallying generic objects; a whole head is 한 송이. And serving it raw and plain looks under-prepared by local norms — the expected style is blanched and dipped."}
+    ],
+    "mistakes": ["Counting it with 개 — a whole head is 한 송이; 송이 is the counter for a cluster/bunch like broccoli or flowers.", "Serving 브로콜리 raw and plain — the expected style is 데친 (blanched) and dipped in 초고추장; raw looks under-prepared.", "Confusing 데치다 with 삶다 — 데치다 is a quick blanch to keep it crunchy, while 삶다 (long boil) makes it 물러지다 (mushy)."]
   },
   {
     "kind": "noun",
@@ -175,18 +221,24 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["빨간 파프리카", "Red bell pepper", "Sold in red, yellow, orange, and green colors."],
-      ["파프리카 한 개", "One bell pepper", "Counted with 개; firm and glossy."],
-      ["파프리카 썰어서 샐러드에", "Sliced bell pepper in a salad", "썰다 = to slice; common raw in salads."],
-      ["파프리카는 안 매워요", "Bell peppers aren't spicy", "Unlike 고추, 파프리카 is sweet, not hot."]
+      ["빨간 파프리카 주세요", "Red bell pepper, please", "Sold in red, yellow, orange, and green; red is the sweetest, green the least sweet."],
+      ["파프리카 한 개 썰어요", "I slice one bell pepper", "Counted with 개; 썰다 = to slice — it's firm and glossy, easy to cut into strips."],
+      ["파프리카는 안 매워요", "Bell peppers aren't spicy", "The headline fact: unlike 고추 (hot chili), 파프리카 is sweet and crunchy, zero heat."],
+      ["샐러드에 파프리카 넣어요", "I add bell pepper to salad", "에 넣다 = add into; raw 파프리카 is a standard colorful, crunchy salad component."]
     ],
     "examples": [
-      ["파프리카는 색깔별로 맛이 조금씩 달라요.", "Bell peppers taste slightly different by color.", "Red ones are sweeter than green ones."],
-      ["저는 파프리카 생으로 썰어서 그냥 먹어요.", "I just slice bell peppers and eat them raw.", "생으로 = raw; 파프리카 is crunchy and sweet."],
-      ["볶음 요리에 파프리카 넣으면 색이 예뻐요.", "Adding bell pepper to a stir-fry makes it colorful.", "Often added for color and crunch."]
+      ["파프리카 안 매워요.", "Bell peppers aren't spicy.", "Short reassurance frame fixing the single most important fact about 파프리카."],
+      ["저는 파프리카 생으로 썰어서 그냥 먹어요.", "I just slice bell peppers and eat them raw.", "생으로 = raw/uncooked; -아서 chains slice → eat; 그냥 = 'just (as is).'"],
+      ["볶음 요리에 파프리카 넣으면 색깔이 예뻐요.", "Adding bell pepper to a stir-fry makes the colors pretty.", "볶음 요리 = stir-fry dish; often added for color and crunch as much as flavor."]
     ],
-    "nuance": "파프리카 is the sweet bell pepper (from Dutch 'paprika'), totally distinct from the spicy 고추 — a distinction newcomers must learn. It's a colorful, crunchy vegetable Koreans eat raw in salads or sliced as a snack, and it's a major Korean export, so it's everywhere and quite affordable.",
-    "mistakes": ["Confusing 파프리카 (sweet bell pepper) with 고추 (hot chili) — 파프리카 is not spicy at all.", "Calling it 피망 in every case; 피망 is the smaller, slightly bitter green pepper, sold separately."]
+    "nuance": "파프리카 is a loanword — but from Dutch 'paprika' (Korea imports the seeds/produce heavily from the Netherlands), which is why it isn't the English 'bell pepper.' The number-one thing for English speakers: 파프리카 is the sweet, NON-spicy bell pepper, totally distinct from 고추, the hot chili — assuming 'pepper = spicy' leads to real confusion at the table. There's a second, finer distinction Koreans make that learners flatten: 파프리카 vs 피망. 파프리카 is the large, thick-walled, sweet, glossy one in bright colors; 피망 (from French/Japanese 'piment') is the smaller, thinner, slightly bitter green pepper used in stir-fries — they're sold as separate items, so calling everything 파프리카 will occasionally be wrong. It's a major Korean export crop, so it's everywhere, affordable, and eaten 생으로 (raw) in salads or as crunchy snack strips, as well as added to stir-fries for color.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "파프리카 is the sweet, NON-spicy bell pepper, totally distinct from 고추, the hot chili. It's a major Korean export crop, so it's everywhere, affordable, and eaten 생으로 (raw) in salads or as crunchy snack strips, as well as added to stir-fries for color.", "chips": ["생으로"]},
+      {"k": "비슷한 말", "e": "VS", "t": "There's a finer distinction Koreans make that learners flatten: 파프리카 vs 피망. 파프리카 is the large, thick-walled, sweet, glossy one in bright colors; 피망 is the smaller, thinner, slightly bitter green pepper used in stir-fries — they're sold as separate items, so calling everything 파프리카 will occasionally be wrong."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "파프리카 is a loanword from Dutch 'paprika' (Korea imports the seeds/produce heavily from the Netherlands), which is why it isn't the English 'bell pepper.' 피망 comes from French/Japanese 'piment.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The number-one thing for English speakers: assuming 'pepper = spicy' leads to real confusion at the table — 파프리카 has zero heat; the spicy one is 고추, an entirely different word and food."}
+    ],
+    "mistakes": ["Assuming 파프리카 is spicy because it's a 'pepper' — it has zero heat; the spicy one is 고추, an entirely different word and food.", "Calling every bell pepper 파프리카 — the smaller, thinner, slightly bitter green type is 피망, sold separately; the two aren't interchangeable.", "Spelling/saying it like English 'paprika' the spice — in Korean 파프리카 means the fresh sweet bell pepper, not the dried red powder (that's 파프리카 가루 or 고춧가루 depending)."]
   },
   {
     "kind": "noun",
@@ -196,18 +248,24 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["가지볶음", "Stir-fried eggplant", "볶음 = stir-fry; a common 반찬 (side dish)."],
-      ["가지나물", "Seasoned steamed eggplant", "나물 = seasoned vegetable side; soft and savory."],
-      ["가지 한 개", "One eggplant", "Counted with 개; long and purple in Korea."],
-      ["가지가 물컹해요", "The eggplant is mushy/soft", "물컹하다 = soft and squishy; its cooked texture."]
+      ["가지볶음 해 먹어요", "We make and eat stir-fried eggplant", "볶음 = stir-fry; 가지볶음 is a common 반찬 (side dish), 해 먹다 = make-and-eat at home."],
+      ["가지나물 좋아해요", "I like seasoned eggplant", "나물 = steamed-then-seasoned vegetable side; 가지나물 is soft, savory, sesame-dressed."],
+      ["가지 한 개만 사요", "I'll buy just one eggplant", "Counted with 개; Korean 가지 is the long, slender purple kind, not the round Western one."],
+      ["가지가 물컹해요", "The eggplant is mushy/soft", "물컹하다 = soft and squishy — the cooked texture that decides who likes it."]
     ],
     "examples": [
-      ["가지나물은 호불호가 좀 갈려요.", "Seasoned eggplant is a love-it-or-hate-it dish.", "호불호가 갈리다 = opinions are divided on it."],
-      ["가지를 기름에 볶으면 부드러워져요.", "When you stir-fry eggplant in oil, it gets soft.", "Eggplant soaks up oil and softens."],
-      ["저는 어릴 때 가지를 싫어했는데 지금은 좋아해요.", "I disliked eggplant as a kid but like it now.", "A common shift in taste for 가지."]
+      ["저는 가지 못 먹어요.", "I can't eat eggplant.", "못 먹다 = can't eat (it's not for me) — a very common kid-and-adult line about 가지."],
+      ["가지를 기름에 볶으면 부드러워져요.", "When you stir-fry eggplant in oil, it gets tender.", "기름에 볶다 = stir-fry in oil; -아지다 on 부드럽다 = 'becomes soft.'"],
+      ["가지나물은 호불호가 좀 갈려요.", "Seasoned eggplant is a love-it-or-hate-it dish.", "호불호가 갈리다 (好不好, 'like/dislike divides') = opinions split — a set idiom for polarizing foods."]
     ],
-    "nuance": "가지 (eggplant) in Korea is the long, slender purple type, eaten mainly as the side dishes 가지나물 (seasoned steamed) and 가지볶음 (stir-fried). Its soft, 물컹한 texture makes it a classic 호불호 (love-it-or-hate-it) vegetable, especially among kids, so it comes up a lot in conversations about food preferences.",
-    "mistakes": ["Note 가지 is also a counter/word for 'kind, type' (한 가지) — context tells you it's the vegetable.", "Expecting a round Western eggplant; Korean 가지 is long and thin."]
+    "nuance": "가지 in Korea means the long, slender, deep-purple eggplant, not the bulbous Western globe type, so picture a thinner shape. It's a native Korean word — and here's the pitfall that genuinely trips learners: 가지 is a homonym. The same 가지 also means 'kind/type/sort,' as in 한 가지 ('one kind'), 여러 가지 ('various kinds'), and it's even a noun for a tree branch — so context alone tells you whether someone means the vegetable or 'a type of.' As food, it lives mostly as two side dishes: 가지나물 (steamed then seasoned, soft) and 가지볶음 (stir-fried). Its soft 물컹한 texture makes it a textbook 호불호 (好不好, like-or-dislike) food, especially for kids, so it surfaces constantly in 'what foods do you hate?' conversations. Texture note: 물컹하다 (unpleasantly squishy) vs 부드럽다 (pleasantly tender) — same softness, opposite attitude, so choose by whether you mean it kindly.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "가지 in Korea means the long, slender, deep-purple eggplant, not the bulbous Western globe type, so picture a thinner shape. As food, it lives mostly as two side dishes: 가지나물 (steamed then seasoned, soft) and 가지볶음 (stir-fried). Its soft 물컹한 texture makes it a textbook 호불호 (like-or-dislike) food, especially for kids, so it surfaces constantly in 'what foods do you hate?' conversations.", "chips": ["가지나물", "가지볶음", "호불호"]},
+      {"k": "비슷한 말", "e": "VS", "t": "Texture note: 물컹하다 (unpleasantly squishy) vs 부드럽다 (pleasantly tender) — same softness, opposite attitude, so choose by whether you mean it kindly."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "가지 is a native Korean word; the set idiom 호불호 is from 好不好 'like-or-dislike.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall that genuinely trips learners: 가지 is a homonym. The same 가지 also means 'kind/type/sort,' as in 한 가지 ('one kind'), 여러 가지 ('various kinds'), and it's even a noun for a tree branch — so context alone tells you whether someone means the vegetable or 'a type of.'"}
+    ],
+    "mistakes": ["Forgetting 가지 is a homonym — it also means 'kind/type' (한 가지, 여러 가지) and 'branch'; context, not the word alone, signals the vegetable.", "Picturing a round Western eggplant — Korean 가지 is long and thin, which is why it's sliced into rounds or strips for 볶음 and 나물.", "Describing it only as 물컹하다 (squishy, negative) when you actually like it — say 부드럽다 (tender) for the pleasant version of the same softness."]
   },
   {
     "kind": "noun",
@@ -217,18 +275,24 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["군고구마", "Roasted sweet potato", "군- = roasted; a beloved winter street snack."],
-      ["고구마 하나 주세요", "Give me one sweet potato, please", "Counted with 개 or 하나."],
-      ["고구마 진짜 답답해", "This is so frustrating (lit. 'so sweet-potato')", "Slang: 고구마 = a frustrating, stifling situation."],
-      ["꿀고구마", "Honey sweet potato (extra-sweet type)", "꿀- = honey; a sweeter, moister variety."]
+      ["군고구마 사 먹자", "Let's buy roasted sweet potato", "군- (from 굽다 'to roast') = roasted; 군고구마 is the iconic winter street snack."],
+      ["고구마 하나 주세요", "Give me one sweet potato, please", "Counted with 개 or 하나; a everyday request at a stall or mart."],
+      ["이 드라마 진짜 고구마야", "This drama is so frustrating (lit. 'so sweet-potato')", "Slang: 고구마 = a stifling, no-payoff situation, like choking on dry sweet potato."],
+      ["꿀고구마가 더 달아요", "Honey sweet potato is sweeter", "꿀- ('honey') = the moister, extra-sweet variety, versus the drier 밤고구마 ('chestnut')."]
     ],
     "examples": [
-      ["겨울엔 길거리에서 군고구마 사 먹는 게 최고예요.", "In winter, buying roasted sweet potato on the street is the best.", "군고구마 is an iconic winter snack."],
-      ["고구마는 다이어트할 때 밥 대신 먹기도 해요.", "People sometimes eat sweet potato instead of rice when dieting.", "고구마 is a popular carb swap."],
-      ["그 드라마 진짜 고구마 같아서 답답했어.", "That drama was so 'sweet potato' — really frustrating.", "고구마 = a stifling, no-payoff plot or situation."]
+      ["고구마 좋아해요.", "I like sweet potatoes.", "Plain noun + 좋아하다 — and a word you'll hear daily in winter."],
+      ["고구마는 다이어트할 때 밥 대신 먹기도 해요.", "People sometimes eat sweet potato instead of rice when dieting.", "밥 대신 = instead of rice; -기도 하다 = 'also (sometimes) do.'"],
+      ["그 드라마 너무 고구마라서 보다가 껐어.", "That drama was so 'sweet potato' I turned it off mid-watch.", "Slang in action: 고구마 + -라서 (because it's…); 보다가 껐어 = was watching, then shut it off."]
     ],
-    "nuance": "고구마 (sweet potato) is both a beloved food — especially winter 군고구마 (roasted) and the diet-friendly carb swap for rice — and a piece of modern slang. Calling something 고구마 means it's frustrating and stifling (like eating dry sweet potato with no water), the opposite of the satisfying 사이다, so 20-30s use it constantly about dramas and annoying situations.",
-    "mistakes": ["Confusing 고구마 (sweet potato) with 감자 (regular potato) — different foods and different slang.", "Missing the slang: 고구마 같다 isn't about food, it means 'frustrating/stifling.'"]
+    "nuance": "고구마 (native Korean word) is two things at once, and you need both. Literally it's the sweet potato — beloved as winter 군고구마 (군- 'roasted', from 굽다), and a favorite diet carb eaten 밥 대신 (instead of rice). Figuratively it's living slang: calling a drama, story, or situation 고구마 means it's frustrating and STIFLING — the image is choking on dry sweet potato with no water. Its built-in antonym is 사이다 (lit. cider/soda), the refreshing 'satisfying, cathartic' payoff; 20–30s constantly contrast a 고구마 (maddening) stretch with a 사이다 (gratifying) moment. Two pitfalls: don't confuse 고구마 with 감자 (regular potato) — different food and different slang weight (감자 has no such meaning); and don't take 고구마 같다 literally as being about food — it's an emotion word meaning 'so frustrating I could scream.' Variety note: 꿀고구마 (honey, moist-sweet) vs 밤고구마 (chestnut, drier-fluffy) are the two types people actually choose between.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "고구마 is two things at once, and you need both. Literally it's the sweet potato — beloved as winter 군고구마 (roasted), and a favorite diet carb eaten 밥 대신 (instead of rice). Figuratively it's living slang: calling a drama, story, or situation 고구마 means it's frustrating and STIFLING — the image is choking on dry sweet potato with no water. Variety note: 꿀고구마 (honey, moist-sweet) vs 밤고구마 (chestnut, drier-fluffy) are the two types people actually choose between.", "chips": ["군고구마", "꿀고구마", "밤고구마"]},
+      {"k": "비슷한 말", "e": "VS", "t": "Its built-in antonym is 사이다 (lit. cider/soda), the refreshing 'satisfying, cathartic' payoff; 20–30s constantly contrast a 고구마 (maddening) stretch with a 사이다 (gratifying) moment. Don't confuse 고구마 with 감자 (regular potato) either — different food and different slang weight (감자 has no such meaning)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "고구마 is a native Korean word; 군- comes from 굽다 'to roast,' 꿀- means 'honey,' and 밤- means 'chestnut.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Don't take 고구마 같다 literally as being about food — it's an emotion word meaning 'so frustrating I could scream.'"}
+    ],
+    "mistakes": ["Confusing 고구마 (sweet potato) with 감자 (regular white potato) — different foods, and only 고구마 carries the 'frustrating' slang.", "Taking 고구마 같다 literally — it isn't about food; it means a situation/story is stifling and frustrating, opposite of 사이다 (satisfying).", "Treating all sweet potato as one — 꿀고구마 (moist, very sweet) and 밤고구마 (drier, fluffier like chestnut) are the named varieties Koreans pick between."]
   },
   {
     "kind": "noun",
@@ -238,17 +302,22 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["찐 옥수수", "Steamed corn (on the cob)", "찌다 → 찐; a popular summer street snack."],
-      ["옥수수 한 개", "One ear of corn", "Counted with 개 for a cob."],
-      ["옥수수 통조림", "Canned corn", "통조림 = canned; used in salads and on pizza."],
-      ["옥수수차", "Corn tea", "A common roasted-corn tea, drunk hot or cold."]
+      ["찐 옥수수 하나 사 먹어요", "I buy one steamed corn (on the cob)", "찌다 → 찐 (steamed); 찐 옥수수 is a popular warm-weather street snack."],
+      ["옥수수 한 개 주세요", "One ear of corn, please", "Counted with 개 for a cob — NOT 송이; 개 is the right counter here."],
+      ["옥수수 통조림 넣어요", "I add canned corn", "통조림 (통 'can' + 조림) = canned goods; canned corn goes in salads, on pizza, in 김밥."],
+      ["식당에서 옥수수차 줘요", "The restaurant serves corn tea", "옥수수차 = roasted-corn tea, a free table drink served hot or cold like 보리차."]
     ],
     "examples": [
-      ["여름에 길에서 찐 옥수수 사 먹어요.", "In summer I buy steamed corn from street stalls.", "찐 옥수수 is a classic warm-season snack."],
-      ["샐러드에 옥수수 통조림 넣으면 맛있어요.", "Adding canned corn to a salad makes it tasty.", "옥수수 통조림 is a convenient pantry staple."],
-      ["식당에서 물 대신 옥수수차 주는 데 많아요.", "Many restaurants give corn tea instead of water.", "옥수수차 (or 보리차) is a common free table drink."]
+      ["옥수수 맛있어요.", "Corn is tasty.", "Bare noun + 맛있다 — the minimal starter sentence."],
+      ["여름에 길에서 찐 옥수수 사 먹어요.", "In summer I buy steamed corn from street stalls.", "길에서 = on the street; 사 먹다 = buy-and-eat, the habitual snacking verb."],
+      ["여기는 물 대신 옥수수차를 주네요.", "Here they give corn tea instead of water.", "물 대신 = instead of water; -네요 = mild noticing/remark about the free table tea."]
     ],
-    "nuance": "옥수수 (corn) shows up in everyday Korean life in three big ways: 찐 옥수수 (steamed on the cob) as a summer street snack, canned 옥수수 통조림 sprinkled on salads and even pizza, and 옥수수차 (corn tea) served free at many restaurants. Recognizing all three covers where you'll actually meet the word.",
-    "mistakes": ["Counting 옥수수 with 송이 — a cob is 한 개, not 한 송이.", "Forgetting 옥수수차 is a tea, not a corn drink with kernels; it's a roasted-grain brew like 보리차."]
+    "nuance": "옥수수 (native Korean word) is corn, and the key for learners is that it reaches everyday life in three quite different forms, each with its own collocation: 찐 옥수수 (steamed on the cob, from 찌다 'to steam') as a summer street snack; 옥수수 통조림 (canned corn) sprinkled on salads, pizza, and into 김밥; and 옥수수차 (roasted-corn tea), poured free at many restaurants. That last one is the biggest trap: 옥수수차 is a brewed tea like 보리차 (barley tea), NOT a drink full of corn kernels — expecting kernels in your cup is the classic newcomer surprise. The counter also catches people: a cob is 한 개, never 한 송이 (송이 is for clusters/heads like broccoli or grapes), because a single cob counts as one object. So recognizing 찐 옥수수 / 옥수수 통조림 / 옥수수차 covers essentially everywhere you'll actually meet the word.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "옥수수 is corn, and the key is that it reaches everyday life in three quite different forms, each with its own collocation: 찐 옥수수 (steamed on the cob, from 찌다 'to steam') as a summer street snack; 옥수수 통조림 (canned corn) sprinkled on salads, pizza, and into 김밥; and 옥수수차 (roasted-corn tea), poured free at many restaurants. Recognizing 찐 옥수수 / 옥수수 통조림 / 옥수수차 covers essentially everywhere you'll actually meet the word.", "chips": ["찐 옥수수", "옥수수 통조림", "옥수수차"]},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "옥수수 is a native Korean word; 찐 comes from 찌다 'to steam,' and 통조림 combines 통 'can' + 조림."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The biggest trap is 옥수수차: it's a brewed tea like 보리차 (barley tea), NOT a drink full of corn kernels — expecting kernels in your cup is the classic newcomer surprise. The counter also catches people: a cob is 한 개, never 한 송이 (송이 is for clusters/heads like broccoli or grapes), because a single cob counts as one object."}
+    ],
+    "mistakes": ["Counting 옥수수 with 송이 — a cob is 한 개; 송이 is for clusters/heads (broccoli, grapes), which a corn cob isn't.", "Expecting kernels in 옥수수차 — it's a roasted-grain brew like 보리차 (barley tea), a clear table drink, not a corn drink with bits in it.", "Saying 삶은 옥수수 vs 찐 옥수수 carelessly — both exist (boiled vs steamed), but the street-snack default people name is 찐 옥수수 (steamed)."]
   }
 ]

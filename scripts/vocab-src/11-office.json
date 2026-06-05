@@ -7,18 +7,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-eseo"],
     "usage": [
-      ["회의가 있어요.", "There is a meeting.", "Subject with 이/가"],
-      ["회의에서 이야기했어요.", "We talked in the meeting.", "Location with 에서"],
-      ["회의가 길어요.", "The meeting is long.", "Common complaint"],
-      ["회의 시간이에요.", "It is meeting time.", "Time noun phrase"]
+      ["회의가 있어요.", "There is a meeting.", "Existence with 있다 plus subject 이/가 — the default way to announce a meeting on the calendar."],
+      ["회의에 들어가요.", "I go into the meeting.", "회의에 들어가다 'enter a meeting' is the set phrase; use 에 here, not 에서, because you are moving in."],
+      ["회의를 하다.", "to hold a meeting.", "회의 takes 하다 to become a verb; 회의하다 = the act of meeting, distinct from the event noun."],
+      ["회의 시간이에요.", "It is meeting time.", "Bare noun + 시간 forms a time phrase; no particle between 회의 and 시간."]
     ],
     "examples": [
-      ["오늘 회의가 두 개 있어요.", "I have two meetings today.", "Counting with 개"],
-      ["회의에서 새 계획을 정했어요.", "We decided a new plan in the meeting.", "Past tense"],
-      ["회의가 끝나고 점심을 먹어요.", "After the meeting we eat lunch.", "Sequence of events"]
+      ["오늘 회의가 두 개 있어요.", "I have two meetings today.", "Counts meetings with 개; 회의가 (subject) is what 있다 describes."],
+      ["회의에서 새 계획을 정했어요.", "We decided a new plan in the meeting.", "에서 marks the meeting as the place where the action happened — contrast with 에 for entering."],
+      ["부장님이 회의를 길게 끌어서 다들 지쳤어요.", "The manager dragged the meeting out, so everyone got worn out.", "Real-office register: 회의를 끌다 'drag a meeting out' is the natural complaint collocation."]
     ],
-    "nuance": "회의 means a formal work meeting, while a casual chat among friends is usually called 모임 instead.",
-    "mistakes": ["Do not confuse 회의 with 회사 company."]
+    "nuance": "회의 (漢字 會議, 會 'gather' + 議 'discuss') is a formal, work-style meeting where people gather to discuss and decide something — a board meeting, a team sync, a planning session. The near-synonym learners reach for is 모임, but 모임 is a social get-together (a dinner, a club, friends meeting up) with no agenda, so calling drinks with friends a 회의 sounds robotic; conversely calling a budget review a 모임 sounds too loose. It pairs naturally with 회의를 하다 (hold), 회의에 들어가다 (go into), 회의가 길어지다 (run long). The English-speaker pitfall is the particle: you are *in* a meeting as a location, so the action takes 회의에서, but you *enter* a meeting with 회의에 들어가다 — and never confuse 회의 with the look-alike 회사 (company) or 회비 (membership fee).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "회의 is a formal, work-style meeting where people gather to discuss and decide something — a board meeting, a team sync, a planning session. It pairs naturally with 회의를 하다 (hold), 회의에 들어가다 (go into), 회의가 길어지다 (run long).",
+        "chips": ["회의를 하다", "회의에 들어가다", "회의가 길어지다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym learners reach for is 모임, but 모임 is a social get-together (a dinner, a club, friends meeting up) with no agenda. Calling drinks with friends a 회의 sounds robotic; conversely calling a budget review a 모임 sounds too loose."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 會議: 會 'gather' + 議 'discuss'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The particle matters: you are *in* a meeting as a location, so the action takes 회의에서, but you *enter* a meeting with 회의에 들어가다. Never confuse 회의 with the look-alike 회사 (company) or 회비 (membership fee)."
+      }
+    ],
+    "mistakes": [
+      "Saying 친구하고 회의했어요 for hanging out with friends — 회의 implies a formal agenda; for a casual gathering say 친구하고 모였어요 or use 모임.",
+      "Using 회의에 for where talking happens, as in 회의에 이야기했어요 — the location of an action needs 에서: 회의에서 이야기했어요. Reserve 회의에 for 들어가다/참석하다.",
+      "Mixing up 회의 with 회사; 회사에 가요 means go to the company/office, while 회의에 가요 means go to the meeting."
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +55,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-eul-reul"],
     "usage": [
-      ["서류를 봐요.", "I look at the documents.", "Object with 를"],
-      ["서류가 많아요.", "There are many documents.", "Subject with 이/가"],
-      ["서류를 보내요.", "I send the documents.", "Common office action"],
-      ["서류가 어디 있어요?", "Where are the documents?", "Asking location"]
+      ["서류를 작성하다.", "to fill out / draw up a document.", "서류를 작성하다 is the formal verb for completing a form — more office-appropriate than just 쓰다."],
+      ["서류가 많아요.", "There is a lot of paperwork.", "서류 is treated as a mass noun here; 많다 describes the pile, no plural marker needed."],
+      ["서류를 제출하다.", "to submit documents.", "제출하다 'hand in/submit' is the set partner for official forms (applications, reports)."],
+      ["서류 한 부 주세요.", "Please give me one copy of the document.", "Counter for a set/copy of papers is 부, not 개 or 장."]
     ],
     "examples": [
-      ["부장님께 서류를 드렸어요.", "I gave the documents to the manager.", "Honorific 드리다"],
-      ["이 서류를 천천히 읽어요.", "I read this document slowly.", "Adverb 천천히"],
-      ["서류가 책상 위에 있어요.", "The documents are on the desk.", "Position phrase"]
+      ["이 서류 좀 봐 주세요.", "Please take a look at this document.", "Everyday polite request; 좀 softens the ask, 봐 주세요 = 'look at it for me'."],
+      ["부장님께 서류를 드렸어요.", "I gave the documents to the manager.", "Honorific recipient 께 + humble 드리다 because the boss outranks you."],
+      ["비자 신청 서류가 하나라도 빠지면 접수가 안 돼요.", "If even one visa application document is missing, they won't accept it.", "Real-life bureaucracy: 서류가 빠지다 'a document is missing' is the natural collocation."]
     ],
-    "nuance": "서류 refers to official paperwork or forms, so a personal book or notebook would not be called 서류 in Korean.",
-    "mistakes": ["서류 is usually plural, not one sheet."]
+    "nuance": "서류 (漢字 書類, 書 'write' + 類 'kind/category') means official paperwork — forms, applications, reports, contracts — the documents you submit, sign, and file at work or a government office. It is not a casual word for any paper; a personal notebook is 공책, a book is 책, and a single loose sheet is 종이 (one sheet = 종이 한 장). 서류 usually behaves as a collective even when grammatically singular, so 서류가 많다 means 'there's a lot of paperwork.' It rides with 작성하다 (fill out), 제출하다 (submit), 처리하다 (process), 빠지다 (be missing). The English-speaker pitfall is reaching for 개 to count it — use 부 for a copy/set (서류 한 부) or 장 for individual sheets, and don't translate 'do the documents' as 서류를 하다; you 작성하다 or 처리하다 them.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "서류 means official paperwork — forms, applications, reports, contracts — the documents you submit, sign, and file at work or a government office. It usually behaves as a collective even when grammatically singular, so 서류가 많다 means 'there's a lot of paperwork.' It rides with 작성하다 (fill out), 제출하다 (submit), 처리하다 (process), 빠지다 (be missing).",
+        "chips": ["서류를 작성하다", "서류를 제출하다", "서류를 처리하다", "서류가 빠지다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is not a casual word for any paper: a personal notebook is 공책, a book is 책, and a single loose sheet is 종이 (one sheet = 종이 한 장)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 書類: 書 'write' + 類 'kind/category'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't reach for 개 to count it — use 부 for a copy/set (서류 한 부) or 장 for individual sheets. And don't translate 'do the documents' as 서류를 하다; you 작성하다 or 처리하다 them."
+      }
+    ],
+    "mistakes": [
+      "Counting with 개 (서류 한 개) — papers are counted with 장 (sheets) or 부 (a copy/set of a document): 서류 한 부.",
+      "Calling a personal book or notebook 서류 — 서류 is strictly official paperwork; a notebook is 공책/노트 and a book is 책.",
+      "Saying 서류를 해요 to mean 'I do the paperwork' — there is no 서류하다; use 서류를 작성하다 (fill out) or 서류를 처리하다 (handle)."
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +103,40 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-eul-reul"],
     "usage": [
-      ["이메일을 써요.", "I write an email.", "Object with 을"],
-      ["이메일이 왔어요.", "An email arrived.", "Subject with 이/가"],
-      ["이메일을 확인해요.", "I check my email.", "Daily routine"],
-      ["이메일 주소가 뭐예요?", "What is your email address?", "Asking information"]
+      ["이메일을 보내다.", "to send an email.", "보내다 'send' is the core verb; the message takes 을/를 as the object."],
+      ["이메일이 오다.", "an email comes / arrives.", "Incoming mail is the subject of 오다; 이메일이 왔어요 = 'an email came.'"],
+      ["이메일을 확인하다.", "to check one's email.", "확인하다 'verify/check' is the standard verb for reading your inbox."],
+      ["이메일 주소", "email address.", "Compound noun; 주소 'address' attaches directly with no particle."]
     ],
     "examples": [
-      ["아침에 이메일을 먼저 확인해요.", "In the morning I check email first.", "Adverb 먼저"],
-      ["동료에게 이메일을 보냈어요.", "I sent an email to my coworker.", "Recipient with 에게"],
-      ["이메일이 너무 많아서 바빠요.", "I am busy because there are too many emails.", "Reason with 아서"]
+      ["이메일 주소가 뭐예요?", "What is your email address?", "Beginner exchange; 뭐예요? asks for the information directly."],
+      ["동료에게 이메일을 보냈어요.", "I sent an email to my coworker.", "Human recipient takes 에게 (written/neutral) — to a machine/place you'd use 에."],
+      ["참고로 아까 보낸 이메일에 자료 첨부했으니까 확인 부탁드려요.", "FYI, I attached the file to the email I sent earlier, so please check it.", "Workplace email register: 첨부하다 'attach', 확인 부탁드려요 'please check' are the real formulas."]
     ],
-    "nuance": "이메일 is the everyday borrowed word for electronic mail, and physical postal mail is called 우편 or 편지 instead.",
-    "mistakes": ["Do not say 이메일 for paper letters."]
+    "nuance": "이메일 is the everyday loanword (from English 'e-mail') for electronic mail, used freely at work and in daily life; the Sino alternative 전자우편 (電子郵便 'electronic post') exists but sounds stiff and bureaucratic, mostly seen on official forms. Crucially, 이메일 ≠ paper mail: a physical letter is 편지, and the postal-mail system is 우편, so 'I got your letter' about a posted envelope is 편지를 받았어요, not 이메일. It collocates with 보내다 (send), 받다 (receive), 확인하다 (check), 첨부하다 (attach a file), 답장하다 (reply). The English-speaker pitfall is the recipient particle — a person who receives mail takes 에게/한테 (동료에게 이메일을 보내요), and don't drag the English verb 'do' over: you 이메일을 보내다 or 쓰다, never 이메일하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이메일 is the everyday loanword (from English 'e-mail') for electronic mail, used freely at work and in daily life. It collocates with 보내다 (send), 받다 (receive), 확인하다 (check), 첨부하다 (attach a file), 답장하다 (reply).",
+        "chips": ["이메일을 보내다", "이메일을 확인하다", "이메일을 첨부하다", "답장하다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The Sino alternative 전자우편 (電子郵便 'electronic post') exists but sounds stiff and bureaucratic, mostly seen on official forms. Crucially, 이메일 ≠ paper mail: a physical letter is 편지, and the postal-mail system is 우편, so 'I got your letter' about a posted envelope is 편지를 받았어요, not 이메일."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The recipient particle: a person who receives mail takes 에게/한테 (동료에게 이메일을 보내요). And don't drag the English verb 'do' over — you 이메일을 보내다 or 쓰다, never 이메일하다."
+      }
+    ],
+    "mistakes": [
+      "Using 이메일 for a posted paper letter — that is 편지 (a letter) or 우편 (postal mail); 이메일 is only the electronic kind.",
+      "Marking the recipient with 을/를 (동료를 이메일 보냈어요) — the person gets 에게/한테 and the email is the object: 동료에게 이메일을 보냈어요.",
+      "Saying 이메일했어요 to mean 'I emailed' — Korean doesn't verb it that way; say 이메일을 보냈어요 or 이메일을 썼어요."
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +146,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["동료가 친절해요.", "My coworker is kind.", "Subject with 이/가"],
-      ["동료를 만나요.", "I meet my coworker.", "Object with 를"],
-      ["동료가 도와줬어요.", "My coworker helped me.", "Past help"],
-      ["동료가 몇 명이에요?", "How many coworkers are there?", "Counting people"]
+      ["회사 동료", "a company coworker.", "회사 modifies 동료 directly; a frequent full phrase for 'colleague at my company.'"],
+      ["동료와 함께", "together with a coworker.", "와/과 함께 'together with' is the bookish/neutral pairing; spoken Korean often uses 하고 같이."],
+      ["동료를 돕다.", "to help a coworker.", "돕다 (ㅂ-irregular: 도와요) takes the colleague as object with 을/를."],
+      ["직장 동료", "a workplace colleague.", "직장 'workplace' + 동료 is an extremely common fixed pairing, near-synonymous with 회사 동료."]
     ],
     "examples": [
-      ["새 동료가 오늘 출근했어요.", "A new coworker came to work today.", "With 출근"],
-      ["동료하고 같이 점심을 먹어요.", "I eat lunch together with a coworker.", "Particle 하고"],
-      ["동료가 일을 잘해서 편해요.", "It is easy because my coworker works well.", "Reason with 아서"]
+      ["동료가 참 친절해요.", "My coworker is really kind.", "Simple description; 참 'truly' adds warmth, 친절해요 describes character."],
+      ["동료하고 같이 점심을 먹어요.", "I eat lunch together with a coworker.", "Spoken pairing 하고 같이; the everyday equivalent of 와/과 함께."],
+      ["새로 온 동료가 일을 빨리 배워서 팀에 큰 도움이 돼요.", "The newly arrived coworker learns fast, so it's a big help to the team.", "Real-office framing; 도움이 되다 'be of help' is the natural result clause."]
     ],
-    "nuance": "동료 means a colleague at the same level, while a senior or junior at work is often addressed by title like 선배 instead.",
-    "mistakes": ["동료 is not used for school classmates."]
+    "nuance": "동료 (漢字 同僚, 同 'same' + 僚 'fellow official/colleague') means a colleague — someone you work alongside, typically at a comparable level, with a neutral, slightly formal tone. The line learners blur is with rank words: a work senior is 선배 (or 상사 for a superior/boss), a junior is 후배, so once status is in play Koreans name the rank rather than say 동료. It is also strictly a *work* word — classmates at school are 친구 or 동급생, never 동료. Natural partners: 회사 동료, 직장 동료, 동료와 협력하다 (cooperate), 동료를 돕다. The English-speaker pitfall: 'colleague' in English can loosely include your boss, but Korean 동료 implies a peer — don't call 부장님 your 동료. Also note 동료 is the person; the human-recipient/companion particle is 하고/와, not 를, when you do something *with* them.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "동료 means a colleague — someone you work alongside, typically at a comparable level, with a neutral, slightly formal tone. Natural partners: 회사 동료, 직장 동료, 동료와 협력하다 (cooperate), 동료를 돕다.",
+        "chips": ["회사 동료", "직장 동료", "동료와 협력하다", "동료를 돕다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The line learners blur is with rank words: a work senior is 선배 (or 상사 for a superior/boss), a junior is 후배, so once status is in play Koreans name the rank rather than say 동료. It is also strictly a *work* word — classmates at school are 친구 or 동급생, never 동료."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 同僚: 同 'same' + 僚 'fellow official/colleague'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Colleague' in English can loosely include your boss, but Korean 동료 implies a peer — don't call 부장님 your 동료. Also note 동료 is the person: the human-recipient/companion particle is 하고/와, not 를, when you do something *with* them."
+      }
+    ],
+    "mistakes": [
+      "Calling school classmates 동료 — that is 친구 (friend) or 동급생/반 친구; 동료 is specifically a work colleague.",
+      "Referring to your boss as 동료 — a superior is 상사 or by title (부장님); 동료 implies an equal-level peer.",
+      "Saying 동료를 점심 먹어요 for eating with a coworker — the companion takes 하고/와: 동료하고 같이 점심을 먹어요."
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +194,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["사장님이 오셨어요.", "The boss has come.", "Honorific 님 and 오시다"],
-      ["사장님을 만나요.", "I meet the boss.", "Object with 을"],
-      ["사장님이 바빠요.", "The boss is busy.", "Subject with 이/가"],
-      ["사장님이 어디 계세요?", "Where is the boss?", "Honorific 계시다"]
+      ["사장님이 오시다.", "the boss comes (honorific).", "사장 almost always carries 님; the verb takes 시 honorific: 오시다 → 오셨어요."],
+      ["사장님께", "to the boss (honorific).", "께 is the honorific replacement for 에게/한테 when the recipient outranks you."],
+      ["사장님을 모시다.", "to attend/escort the boss (humble).", "모시다 is the humble verb for serving a superior — far politer than 데리다."],
+      ["우리 사장님", "our boss / our company president.", "Koreans say 우리 ('our') even for one's own boss/company — a collective-belonging idiom."]
     ],
     "examples": [
-      ["사장님이 회의에서 말씀하셨어요.", "The boss spoke in the meeting.", "Honorific speech"],
-      ["우리 사장님은 아주 친절해요.", "Our boss is very kind.", "Topic with 은"],
-      ["사장님이 월급을 올려 주셨어요.", "The boss raised the salary.", "With 월급"]
+      ["사장님이 지금 안 계세요.", "The boss is not here right now.", "Honorific existence 계시다 → 계세요; negated for absence."],
+      ["우리 사장님은 직원들을 정말 아끼세요.", "Our boss really cares about the employees.", "아끼다 'treasure/care for' + 시 honorific; 우리 for one's own company."],
+      ["사장님께 직접 보고드려야 하는 사안이라 좀 긴장돼요.", "It's a matter I have to report directly to the boss, so I'm a bit nervous.", "Real-workplace register; 보고드리다 'humbly report' + 께 to a superior."]
     ],
-    "nuance": "사장 is the head of a company and is almost always said with the honorific 님 attached, since dropping it sounds rude at work.",
-    "mistakes": ["Always add 님 when speaking to the boss."]
+    "nuance": "사장 (漢字 社長, 社 'company' + 長 'chief/head') is the head/president/owner of a company. The crucial register fact: at work you virtually never say bare 사장 to or about your boss — it's 사장님, and the verbs go honorific (오시다, 계시다, 말씀하시다) while your own actions toward them go humble (드리다, 보고드리다, 모시다). Distinguish the rank ladder: 부장 is a department head (mid-level), 과장 a section chief, and 사장 sits at the top, with 회장 (chairman) above only in large groups. The English-speaker pitfall is dropping 님 (사장 said to their face sounds blunt to the point of rude) and using plain verbs — 사장님이 왔어요 should be 사장님이 오셨어요. Bare 사장 without 님 mainly appears in neutral writing or when referring to a small-shop owner in the third person.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "사장 is the head/president/owner of a company. The crucial register fact: at work you virtually never say bare 사장 to or about your boss — it's 사장님, and the verbs go honorific (오시다, 계시다, 말씀하시다) while your own actions toward them go humble (드리다, 보고드리다, 모시다). Bare 사장 without 님 mainly appears in neutral writing or when referring to a small-shop owner in the third person.",
+        "chips": ["사장님", "오시다", "계시다", "보고드리다", "모시다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish the rank ladder: 부장 is a department head (mid-level), 과장 a section chief, and 사장 sits at the top, with 회장 (chairman) above only in large groups."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 社長: 社 'company' + 長 'chief/head'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is dropping 님 (사장 said to their face sounds blunt to the point of rude) and using plain verbs — 사장님이 왔어요 should be 사장님이 오셨어요."
+      }
+    ],
+    "mistakes": [
+      "Addressing or referring to your own boss as plain 사장 — attach 님: 사장님. Bare 사장 to their face sounds disrespectful.",
+      "Using plain verbs for the boss (사장님이 말했어요) — superiors take honorific 시: 사장님이 말씀하셨어요 (말씀하시다 is the honorific of 말하다).",
+      "Saying 사장님에게 for 'to the boss' in polite speech — a superior takes the honorific particle 께: 사장님께."
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +242,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["월급이 들어왔어요.", "My salary came in.", "Money arriving"],
-      ["월급을 받아요.", "I receive my salary.", "Object with 을"],
-      ["월급이 적어요.", "The salary is small.", "Subject with 이/가"],
-      ["월급날이 언제예요?", "When is payday?", "Compound 월급날"]
+      ["월급을 받다.", "to receive a salary.", "받다 'receive' is the core verb; the pay is the object with 을/를."],
+      ["월급이 오르다.", "one's salary goes up.", "오르다 (르-irregular: 올라요) 'rise' takes the salary as subject — the happy collocation."],
+      ["월급날", "payday.", "월급 + 날 'day' forms one compound noun: the day salary lands."],
+      ["월급이 밀리다.", "salary is delayed / overdue.", "밀리다 'be pushed back/owed' is the standard verb when pay doesn't come on time."]
     ],
     "examples": [
-      ["매달 이십오일에 월급을 받아요.", "I get my salary on the 25th each month.", "Date with 에"],
-      ["월급이 올라서 정말 기뻐요.", "I am glad because my salary went up.", "Reason with 아서"],
-      ["첫 월급으로 부모님 선물을 샀어요.", "With my first salary I bought a parent gift.", "Means with 으로"]
+      ["오늘 월급 받았어요.", "I got paid today.", "Plain everyday line; 월급 받다 'get one's salary' as the natural unit."],
+      ["매달 이십오일에 월급이 들어와요.", "My salary comes in on the 25th every month.", "월급이 들어오다 'salary comes in (to the account)' + date with 에."],
+      ["첫 월급으로 부모님께 내복을 사 드렸어요.", "With my first paycheck I bought my parents long underwear.", "Cultural set phrase: 첫 월급으로 내복을 사 드리다 is a real Korean first-salary custom; 으로 = means."]
     ],
-    "nuance": "월급 specifically means pay received once a month, while an hourly wage is called 시급 and a yearly figure is called 연봉.",
-    "mistakes": ["월급 is monthly, not hourly 시급."]
+    "nuance": "월급 (漢字 月給, 月 'month' + 給 'pay/give') is pay received on a monthly cycle — the everyday word an ordinary worker uses for their paycheck. Distinguish the pay-period family sharply: 시급 (時給) is an hourly wage, 주급 (週給) weekly, and 연봉 (年俸) is annual salary — the figure you negotiate at hiring and quote when comparing jobs. So 'What's the salary?' for a part-time gig is 시급이 얼마예요?, but for a career offer it's 연봉이 얼마예요?; using 월급 there sounds slightly small-scale. Natural partners: 월급을 받다, 월급이 오르다, 월급이 밀리다 (be owed), 월급날, 월급이 들어오다. The English-speaker pitfall is treating 'salary' as one word — Korean splits it by period, so don't say 월급 when you mean the annual 연봉, and remember it's 받다 (receive), not 'earn-translated-literally.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "월급 is pay received on a monthly cycle — the everyday word an ordinary worker uses for their paycheck. Natural partners: 월급을 받다, 월급이 오르다, 월급이 밀리다 (be owed), 월급날, 월급이 들어오다.",
+        "chips": ["월급을 받다", "월급이 오르다", "월급이 밀리다", "월급날", "월급이 들어오다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish the pay-period family sharply: 시급 (時給) is an hourly wage, 주급 (週給) weekly, and 연봉 (年俸) is annual salary — the figure you negotiate at hiring and quote when comparing jobs. So 'What's the salary?' for a part-time gig is 시급이 얼마예요?, but for a career offer it's 연봉이 얼마예요?; using 월급 there sounds slightly small-scale."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 月給: 月 'month' + 給 'pay/give'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't treat 'salary' as one word — Korean splits it by period, so don't say 월급 when you mean the annual 연봉. And remember it's 받다 (receive), not 'earn-translated-literally.'"
+      }
+    ],
+    "mistakes": [
+      "Using 월급 for an hourly wage — a per-hour rate is 시급 (시급 만 원 = 10,000 won/hour); 월급 is strictly the monthly amount.",
+      "Quoting a job's pay as 월급 when you mean the yearly figure — career salaries are stated as 연봉 (annual): 연봉이 얼마예요?",
+      "Saying 월급을 벌어요 modeled on 'earn a salary' — the natural verb is 받다: 월급을 받아요. (벌다 fits 돈을 벌다 'make money' generally.)"
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +290,45 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": ["grammar-particle-e"],
     "usage": [
-      ["출근해요.", "I go to work.", "With 하다 verb"],
-      ["출근이 힘들어요.", "Commuting to work is hard.", "Subject with 이/가"],
-      ["아홉 시에 출근해요.", "I go to work at nine.", "Time with 에"],
-      ["출근 시간이에요.", "It is commute time.", "Noun phrase"]
+      ["출근하다", "to go to work / clock in.", "출근 + 하다 makes the verb; describes heading to and arriving at the workplace."],
+      ["아홉 시에 출근하다.", "to go to work at nine.", "Clock time takes 에; states your start hour."],
+      ["출근 시간", "commute time / start-of-work time.", "Bare compound; can mean rush hour or your designated start time."],
+      ["출근길", "the way to work / one's commute.", "출근 + 길 'road' = the journey in to work, as in 출근길에 'on the way to work.'"]
     ],
     "examples": [
-      ["보통 여덟 시에 출근해요.", "I usually go to work at eight.", "Adverb 보통"],
-      ["오늘은 비가 와서 출근이 늦었어요.", "Today work was late because it rained.", "Reason with 아서"],
-      ["지하철로 출근해요.", "I commute to work by subway.", "Means with 로"]
+      ["저는 보통 여덟 시에 출근해요.", "I usually go to work at eight.", "보통 'usually' sets a routine; 에 marks the clock time."],
+      ["오늘은 차가 막혀서 출근이 늦었어요.", "Today I was late to work because of traffic.", "출근이 늦다 'be late getting to work' + reason with 아서."],
+      ["내일 새벽같이 출근해야 해서 일찍 자려고요.", "I have to get to work at the crack of dawn tomorrow, so I plan to sleep early.", "새벽같이 출근하다 'go in at dawn' is a natural intensity collocation; ~려고요 states intention."]
     ],
-    "nuance": "출근 is the act of going to your workplace, and leaving at the end of the day is the opposite word 퇴근 instead.",
-    "mistakes": ["출근 means arriving, 퇴근 means leaving."]
+    "nuance": "출근 (漢字 出勤, 出 'go out' + 勤 'attend to duty') is going to / showing up for work — both the leaving-home-for-the-job and the arriving/clocking-in sense. Its exact opposite is 퇴근 (退勤, 'withdraw from duty') = leaving work at day's end; the two are a fixed pair Korean learners must keep straight. Don't confuse 출근 (reporting to your job) with 통근 (通勤, the commute itself) or with 등교 (登校, a student going to school) — a pupil 등교하지 출근하지 않아요. Natural partners: 출근하다, 출근 시간, 출근길, 출근이 늦다, 정시 출근 (on-time arrival). The English-speaker pitfall is the 하다 conjugation and particles: it's 출근해요 (not a separate verb 'go-work'), the time takes 에 (아홉 시에 출근해요), and the means of commuting takes (으)로 (지하철로 출근해요), never 'by'-translated-as-에서.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "출근 is going to / showing up for work — both the leaving-home-for-the-job and the arriving/clocking-in sense. Natural partners: 출근하다, 출근 시간, 출근길, 출근이 늦다, 정시 출근 (on-time arrival).",
+        "chips": ["출근하다", "출근 시간", "출근길", "출근이 늦다", "정시 출근"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its exact opposite is 퇴근 (退勤, 'withdraw from duty') = leaving work at day's end; the two are a fixed pair learners must keep straight. Don't confuse 출근 (reporting to your job) with 통근 (通勤, the commute itself) or with 등교 (登校, a student going to school) — a pupil 등교하지 출근하지 않아요."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 出勤: 出 'go out' + 勤 'attend to duty'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The 하다 conjugation and particles trip people up: it's 출근해요 (not a separate verb 'go-work'), the time takes 에 (아홉 시에 출근해요), and the means of commuting takes (으)로 (지하철로 출근해요), never 'by'-translated-as-에서."
+      }
+    ],
+    "mistakes": [
+      "Confusing 출근 with 퇴근 — 출근 is arriving at work (morning), 퇴근 is leaving work (evening); they are opposites, so 여섯 시에 출근해요 said for going home is wrong.",
+      "Using 출근 for a student going to school — pupils 등교하다 (登校), not 출근하다; 출근 is only for a job.",
+      "Marking the means of commute with 에서 (지하철에서 출근해요) — the vehicle/means takes (으)로: 지하철로 출근해요."
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +338,45 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": ["grammar-particle-e"],
     "usage": [
-      ["퇴근해요.", "I leave work.", "With 하다 verb"],
-      ["퇴근이 늦어요.", "Leaving work is late.", "Subject with 이/가"],
-      ["여섯 시에 퇴근해요.", "I leave work at six.", "Time with 에"],
-      ["퇴근 후에 만나요.", "Let us meet after work.", "With 후에"]
+      ["퇴근하다", "to leave work / clock out.", "퇴근 + 하다 makes the verb for finishing the day and heading home."],
+      ["퇴근 후에", "after work.", "Sino 후 'after' + 에 marks the time slot; the set phrase for evening plans."],
+      ["정시 퇴근", "leaving work on time.", "정시 (定時 'set time') + 퇴근 = clocking out exactly on schedule, a coveted thing."],
+      ["퇴근길", "the way home from work.", "퇴근 + 길 'road' = the commute home, as in 퇴근길에 'on the way home.'"]
     ],
     "examples": [
-      ["오늘은 일찍 퇴근하고 싶어요.", "Today I want to leave work early.", "Desire with 고 싶다"],
-      ["퇴근 후에 친구하고 저녁을 먹어요.", "After work I eat dinner with a friend.", "Sequence"],
-      ["일이 많아서 퇴근이 늦었어요.", "Work was much so leaving was late.", "Reason with 아서"]
+      ["오늘은 일찍 퇴근하고 싶어요.", "Today I want to leave work early.", "Desire with ~고 싶다; 일찍 퇴근하다 'leave early' is the everyday wish."],
+      ["퇴근 후에 동료들하고 한잔하기로 했어요.", "We decided to grab a drink with coworkers after work.", "퇴근 후에 + 한잔하다 'have a drink' — the classic after-work plan; ~기로 하다 'decide to.'"],
+      ["일이 산더미라 오늘도 칼퇴근은 글렀어요.", "Work is piled up, so leaving right on the dot is hopeless today too.", "Slang 칼퇴근 'knife-sharp on-time clock-out'; very natural colloquial office talk."]
     ],
-    "nuance": "퇴근 means heading home after finishing work, and the morning trip into work is the opposite word 출근 instead.",
-    "mistakes": ["Do not mix up 퇴근 with 출근."]
+    "nuance": "퇴근 (漢字 退勤, 退 'withdraw/retreat' + 勤 'duty') means leaving the workplace at the end of the working day — clocking out and heading home. Its hardwired opposite is 출근 (出勤) = going to work in the morning; the pair shares 勤 'duty,' with 出 'out (to)' versus 退 'withdraw (from).' Don't blur 퇴근 (going home after work today) with 퇴사 (退社, quitting the company for good) — 오늘 퇴근해요 means you're heading home, 회사를 퇴사해요 means you're resigning. Natural partners: 퇴근하다, 퇴근 후에, 퇴근길, 정시 퇴근, the slang 칼퇴근 (leaving exactly on time). The English-speaker pitfall: 'leave work' tempts a literal 일을 떠나요, but the single word is 퇴근하다; and the time still takes 에 (여섯 시에 퇴근해요), while 후에 attaches to 퇴근 for 'after work.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "퇴근 means leaving the workplace at the end of the working day — clocking out and heading home. Natural partners: 퇴근하다, 퇴근 후에, 퇴근길, 정시 퇴근, the slang 칼퇴근 (leaving exactly on time).",
+        "chips": ["퇴근하다", "퇴근 후에", "퇴근길", "정시 퇴근", "칼퇴근"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its hardwired opposite is 출근 (出勤) = going to work in the morning; the pair shares 勤 'duty,' with 出 'out (to)' versus 退 'withdraw (from).' Don't blur 퇴근 (going home after work today) with 퇴사 (退社, quitting the company for good) — 오늘 퇴근해요 means you're heading home, 회사를 퇴사해요 means you're resigning."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 退勤: 退 'withdraw/retreat' + 勤 'duty'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Leave work' tempts a literal 일을 떠나요, but the single word is 퇴근하다. And the time still takes 에 (여섯 시에 퇴근해요), while 후에 attaches to 퇴근 for 'after work.'"
+      }
+    ],
+    "mistakes": [
+      "Swapping 퇴근 and 출근 — 퇴근 is going home (evening), 출근 is arriving at work (morning); they are opposites.",
+      "Confusing 퇴근 with 퇴사 — 퇴근 = leaving for the day, 퇴사 (退社) = quitting/resigning from the company permanently.",
+      "Translating 'leave work' literally as 일을 떠나다 — Korean uses the one verb 퇴근하다; 일을 떠나다 sounds like abandoning a task."
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +386,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-e"],
     "usage": [
-      ["휴가예요.", "I am on vacation.", "Simple statement"],
-      ["휴가를 가요.", "I go on vacation.", "Object with 를"],
-      ["휴가가 끝났어요.", "The vacation ended.", "Subject with 이/가"],
-      ["휴가 때 쉬어요.", "I rest during vacation.", "Time with 때"]
+      ["휴가를 가다.", "to go on vacation.", "가다 'go' takes the leave as object with 을/를; the standard 'take a trip' framing."],
+      ["휴가를 내다.", "to take / request leave.", "내다 'put in/submit' is the office verb for filing for time off — 휴가를 내다 'put in for leave.'"],
+      ["휴가 중", "on vacation / during leave.", "中 'middle of' marks an ongoing state: 휴가 중이에요 'I'm on leave.'"],
+      ["여름 휴가", "summer vacation.", "여름 'summer' modifies 휴가 directly — the big annual leave most Koreans take."]
     ],
     "examples": [
-      ["다음 주에 휴가를 가요.", "I go on vacation next week.", "Time with 에"],
-      ["여름 휴가 때 바다에 가요.", "On summer vacation I go to the sea.", "Compound 여름 휴가"],
-      ["휴가가 짧아서 아쉬워요.", "I feel sad because the vacation is short.", "Reason with 아서"]
+      ["다음 주에 휴가를 가요.", "I'm going on vacation next week.", "Future-ish plan; 에 marks the time, 가요 the going."],
+      ["이번에 휴가 내고 제주도에 다녀오려고요.", "I'm taking leave this time and planning a trip to Jeju.", "휴가(를) 내다 'request leave' (office sense) + ~려고요 intention; 다녀오다 'go and come back.'"],
+      ["눈치 보여서 연차 휴가를 마음 편히 쓰기가 어려워요.", "I feel self-conscious, so it's hard to use my annual leave with peace of mind.", "Real workplace culture: 연차(휴가)를 쓰다 'use one's annual leave' + 눈치 보이다 'feel watched.'"]
     ],
-    "nuance": "휴가 is paid leave taken from a job, while a long school break is usually called 방학 instead in Korean.",
-    "mistakes": ["School break is 방학, not 휴가."]
+    "nuance": "휴가 (漢字 休暇, 休 'rest' + 暇 'leisure/free time') is leave taken from a job — paid annual leave (연차 휴가), summer vacation (여름 휴가), or military/special leave. The boundary learners must guard is against 방학: 방학 is a *school* break (winter/summer holidays for students and teachers), so a worker says 휴가 while a student says 방학 — 회사원은 휴가, 학생은 방학. Also distinguish 휴일 (a single day off / public holiday) from 휴가 (a stretch of personal leave). Natural partners: 휴가를 가다 (go on), 휴가를 내다/쓰다 (take, in the office sense), 휴가 중, 연차 휴가. The English-speaker pitfall is using 휴가 for a school vacation (that's 방학) and reaching only for 가다 — to *request* time off at work you 휴가를 내다 or 휴가를 쓰다, which 'go on vacation' alone doesn't capture.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "휴가 is leave taken from a job — paid annual leave (연차 휴가), summer vacation (여름 휴가), or military/special leave. Natural partners: 휴가를 가다 (go on), 휴가를 내다/쓰다 (take, in the office sense), 휴가 중, 연차 휴가.",
+        "chips": ["휴가를 가다", "휴가를 내다", "휴가를 쓰다", "휴가 중", "연차 휴가"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The boundary learners must guard is against 방학: 방학 is a *school* break (winter/summer holidays for students and teachers), so a worker says 휴가 while a student says 방학 — 회사원은 휴가, 학생은 방학. Also distinguish 휴일 (a single day off / public holiday) from 휴가 (a stretch of personal leave)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 休暇: 休 'rest' + 暇 'leisure/free time'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't use 휴가 for a school vacation (that's 방학), and don't reach only for 가다 — to *request* time off at work you 휴가를 내다 or 휴가를 쓰다, which 'go on vacation' alone doesn't capture."
+      }
+    ],
+    "mistakes": [
+      "Using 휴가 for a student's school break — that is 방학 (방학 때 'during the school holidays'); 휴가 is leave from a job.",
+      "Confusing 휴가 (a span of personal leave) with 휴일 (a single day off / public holiday) — '5 days off' is 휴가 5일, but a national holiday is a 휴일.",
+      "Only ever saying 휴가를 가다 — to file for leave at work the verb is 내다 or 쓰다: 휴가를 냈어요 'I requested leave.'"
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +434,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-eul-reul"],
     "usage": [
-      ["명함을 줘요.", "I give a business card.", "Object with 을"],
-      ["명함이 있어요?", "Do you have a card?", "Asking existence"],
-      ["명함을 받았어요.", "I received a business card.", "Past tense"],
-      ["명함 한 장 주세요.", "Please give one card.", "Counter 장"]
+      ["명함을 주고받다.", "to exchange business cards.", "주고받다 'give-and-take' is the set verb for the two-way card swap at first meetings."],
+      ["명함을 건네다.", "to hand over a business card.", "건네다 'pass/hand to' is more polished than 주다 for offering your card."],
+      ["명함 한 장", "one business card.", "Flat cards are counted with 장 (sheets), not 개: 명함 한 장."],
+      ["명함을 돌리다.", "to hand out one's cards around.", "돌리다 'pass around' = distributing cards to several people, e.g. around a table."]
     ],
     "examples": [
-      ["처음 만나서 명함을 주고받아요.", "We exchange cards at a first meeting.", "Verb 주고받다"],
-      ["명함에 전화번호가 있어요.", "The phone number is on the card.", "Location with 에"],
-      ["새 명함을 만들었어요.", "I made new business cards.", "Past with 만들다"]
+      ["명함 한 장 주세요.", "Please give me one of your cards.", "Polite request with counter 장; the everyday way to ask for someone's card."],
+      ["명함에 직책이 적혀 있어요.", "The job title is written on the card.", "Location with 에; 적혀 있다 'is written (and remains)' — passive resultative."],
+      ["처음 만나면 두 손으로 명함을 건네는 게 예의예요.", "When you first meet, handing your card with both hands is the polite thing.", "Cultural manners: 두 손으로 'with both hands' + 건네다; ~는 게 예의다 'it's etiquette to.'"]
     ],
-    "nuance": "명함 is a small printed work card with your name and title, and exchanging it politely is an important first meeting custom.",
-    "mistakes": ["Use counter 장 for cards, not 개."]
+    "nuance": "명함 (漢字 名銜, 名 'name' + 銜 'title/rank') is a printed business card carrying your name, company, position, and contacts. In Korean work culture the *exchange* is a small ritual — you offer and receive 두 손으로 (with both hands), read the card a beat before pocketing it, and never write on someone's card in front of them. Don't confuse 명함 with 카드 (a generic card / credit card) or 신분증 (an ID card): 명함 is specifically the work introduction card. Natural partners: 명함을 주고받다, 명함을 건네다, 명함을 돌리다, 명함을 받다, 명함에 (직책이) 적혀 있다. The English-speaker pitfall is the counter — flat printed cards take 장 (명함 한 장), not the all-purpose 개; and the polite verb for offering one is 건네다/드리다, while the whole social act is captured by 주고받다, with no real English one-word equivalent.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "명함 is a printed business card carrying your name, company, position, and contacts. In Korean work culture the *exchange* is a small ritual — you offer and receive 두 손으로 (with both hands), read the card a beat before pocketing it, and never write on someone's card in front of them. Natural partners: 명함을 주고받다, 명함을 건네다, 명함을 돌리다, 명함을 받다, 명함에 (직책이) 적혀 있다.",
+        "chips": ["명함을 주고받다", "명함을 건네다", "명함을 돌리다", "명함을 받다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Don't confuse 명함 with 카드 (a generic card / credit card) or 신분증 (an ID card): 명함 is specifically the work introduction card."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 名銜: 名 'name' + 銜 'title/rank'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The counter: flat printed cards take 장 (명함 한 장), not the all-purpose 개. The polite verb for offering one is 건네다/드리다, while the whole social act is captured by 주고받다, with no real English one-word equivalent."
+      }
+    ],
+    "mistakes": [
+      "Counting cards with 개 (명함 한 개) — thin flat cards use the counter 장: 명함 한 장.",
+      "Calling it 카드 — generic 카드 means a credit/ID/playing card; the work introduction card is specifically 명함.",
+      "Handing a card one-handed and saying 명함 줄게 to a senior — register and manners both matter; offer with both hands and the politer verb: 명함 드릴게요 / 명함 건네 드릴게요."
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +482,45 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-eseo"],
     "usage": [
-      ["사무실에 있어요.", "I am in the office.", "Location with 에"],
-      ["사무실에서 일해요.", "I work in the office.", "Action with 에서"],
-      ["사무실이 넓어요.", "The office is spacious.", "Subject with 이/가"],
-      ["사무실이 몇 층이에요?", "What floor is the office?", "Asking floor"]
+      ["사무실에 있다.", "to be in the office.", "Static location of existence takes 에 with 있다: 사무실에 있어요."],
+      ["사무실에서 일하다.", "to work in the office.", "An action's location takes 에서: 사무실에서 일해요 — contrast with 에 for mere existence."],
+      ["사무실을 옮기다.", "to move offices / relocate the office.", "옮기다 'move/relocate' takes the office as object; said when the workplace changes location."],
+      ["사무실 분위기", "the office atmosphere / mood.", "분위기 'mood' is a very common partner — 사무실 분위기가 좋다 'the office vibe is good.'"]
     ],
     "examples": [
-      ["우리 사무실은 삼 층에 있어요.", "Our office is on the third floor.", "Floor with 에"],
-      ["사무실에서 동료하고 일해요.", "I work with a coworker in the office.", "With 에서"],
-      ["사무실이 조용해서 일하기 좋아요.", "The office is quiet so it is good to work.", "Reason with 아서"]
+      ["우리 사무실은 삼 층에 있어요.", "Our office is on the third floor.", "Floor location with 에; 우리 'our' for one's own workplace."],
+      ["지금 사무실에서 회의 중이에요.", "I'm in a meeting at the office right now.", "Action-location 에서 + 중이다 'in the middle of'; natural status update."],
+      ["사무실이 조용해서 집중이 잘돼요.", "The office is quiet, so I can concentrate well.", "Reason with 아서; 집중이 잘되다 'concentration goes well' — natural result."]
     ],
-    "nuance": "사무실 is the room or space where desk work happens, while the whole organization that employs you is called 회사 instead.",
-    "mistakes": ["사무실 is the room, 회사 is the company."]
+    "nuance": "사무실 (漢字 事務室, 事 'affair' + 務 'duty/task' + 室 'room') is literally the 'task-duty room' — the physical room or space where desk/clerical work is done. Keep it apart from 회사 (會社), which is the *company* as an organization/employer: you work 사무실에서 (in the office room) but you belong to a 회사 (the firm). Also distinguish 사무실 from 사무소 (an office/agency open to clients, e.g. 부동산 사무소 'real-estate office') and from the casual loan 오피스. Natural partners: 사무실에서 일하다, 사무실에 있다, 사무실을 옮기다, 사무실 분위기. The English-speaker pitfall is the 에 vs 에서 split: use 에 for simply being there (사무실에 있어요) but 에서 for doing something there (사무실에서 일해요) — and don't substitute 사무실 when you mean the company itself; that's 회사.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "사무실 is literally the 'task-duty room' — the physical room or space where desk/clerical work is done. Natural partners: 사무실에서 일하다, 사무실에 있다, 사무실을 옮기다, 사무실 분위기.",
+        "chips": ["사무실에서 일하다", "사무실에 있다", "사무실을 옮기다", "사무실 분위기"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Keep it apart from 회사 (會社), which is the *company* as an organization/employer: you work 사무실에서 (in the office room) but you belong to a 회사 (the firm). Also distinguish 사무실 from 사무소 (an office/agency open to clients, e.g. 부동산 사무소 'real-estate office') and from the casual loan 오피스."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 事務室: 事 'affair' + 務 'duty/task' + 室 'room'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The 에 vs 에서 split: use 에 for simply being there (사무실에 있어요) but 에서 for doing something there (사무실에서 일해요). And don't substitute 사무실 when you mean the company itself; that's 회사."
+      }
+    ],
+    "mistakes": [
+      "Using 사무실 to mean the company/employer — the organization is 회사: 회사에 다녀요 'I work for a company,' but 사무실 is the physical room.",
+      "Saying 사무실에 일해요 for working there — an action's place takes 에서: 사무실에서 일해요. Reserve 사무실에 for 있다/가다.",
+      "Confusing 사무실 with 사무소 — 사무소 is a client-facing office/agency (e.g. 변호사 사무소 'law office'); 사무실 is an internal workroom."
+    ]
   },
   {
     "kind": "noun",
@@ -238,17 +530,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["부장님이 부르세요.", "The manager is calling me.", "Honorific 부르시다"],
-      ["부장님을 만나요.", "I meet the department head.", "Object with 을"],
-      ["부장님이 바쁘세요.", "The manager is busy.", "Honorific 바쁘시다"],
-      ["부장님이 어디 계세요?", "Where is the manager?", "Honorific 계시다"]
+      ["부장님이 부르시다.", "the department head calls/summons (honorific).", "Title + 님 + honorific 시: 부장님이 부르세요 'the manager is calling you.'"],
+      ["부장님께 보고하다.", "to report to the department head.", "Superior recipient takes 께; 보고하다 'report' often becomes humble 보고드리다."],
+      ["김 부장님", "Manager Kim / Department Head Kim.", "Surname + title + 님 is the standard way to address/refer to a ranked superior."],
+      ["부장님이 계시다.", "the department head is present (honorific).", "Existence of a superior uses honorific 계시다: 부장님이 계세요."]
     ],
     "examples": [
-      ["부장님께 서류를 드렸어요.", "I gave the documents to the manager.", "Honorific 께 and 드리다"],
-      ["우리 부장님은 정말 친절하세요.", "Our manager is really kind.", "Honorific 하시다"],
-      ["부장님이 회의를 시작하셨어요.", "The manager started the meeting.", "Honorific past"]
+      ["부장님이 지금 회의 중이세요.", "The department head is in a meeting right now.", "Honorific 중이시다; 시 attaches even to the status copula for a superior."],
+      ["이 서류 부장님께 갖다 드리세요.", "Please take this document to the department head.", "께 (to a superior) + humble 드리다 + 갖다 드리다 'take and give'; 으세요 command."],
+      ["부장님이 결재해 주셔야 다음 단계로 넘어갈 수 있어요.", "We can move to the next step only once the manager signs off.", "Workplace process: 결재하다 'approve/sign off' + 주시다 honorific benefactive; ~어야 'only if.'"]
     ],
-    "nuance": "부장 is a mid level department head ranked below 사장, and at work the title is nearly always said with 님 attached.",
-    "mistakes": ["Add 님 to 부장 when speaking politely."]
+    "nuance": "부장 (漢字 部長, 部 'department/division' + 長 'chief/head') is a department head — a senior manager who runs a 부서 (department), ranking above 과장 (section chief) and 대리, and below executives and the 사장 (company president). Like all Korean rank titles it functions as an honorific address: you say 부장님 (with 님), and you can prefix a surname — 김 부장님. The whole speech frame goes honorific around them (부르시다, 계시다, 결재해 주시다) while your own actions toward them turn humble (보고드리다, 갖다 드리다). Don't confuse the title-as-address with a name — Koreans routinely call the person 부장님 rather than by given name at work. The English-speaker pitfall mirrors 사장: dropping 님 (bare 부장 to their face is rude), using plain verbs instead of honorific 시, and marking the recipient with 에게 instead of the honorific 께.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "부장 is a department head — a senior manager who runs a 부서 (department). Like all Korean rank titles it functions as an honorific address: you say 부장님 (with 님), and you can prefix a surname — 김 부장님. The whole speech frame goes honorific around them (부르시다, 계시다, 결재해 주시다) while your own actions toward them turn humble (보고드리다, 갖다 드리다). Don't confuse the title-as-address with a name — Koreans routinely call the person 부장님 rather than by given name at work.",
+        "chips": ["부장님", "김 부장님", "부르시다", "계시다", "보고드리다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It ranks above 과장 (section chief) and 대리, and below executives and the 사장 (company president)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "漢字 部長: 部 'department/division' + 長 'chief/head'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap mirrors 사장: dropping 님 (bare 부장 to their face is rude), using plain verbs instead of honorific 시, and marking the recipient with 에게 instead of the honorific 께."
+      }
+    ],
+    "mistakes": [
+      "Addressing the department head as bare 부장 — attach 님: 부장님 (optionally 성 + 부장님, e.g. 김 부장님). Plain 부장 sounds curt.",
+      "Using plain verbs for a superior (부장님이 왔어요) — go honorific: 부장님이 오셨어요 / 부장님이 계세요.",
+      "Marking 'to the manager' with 에게/한테 (부장님에게 보고했어요) — a superior takes 께: 부장님께 보고드렸어요."
+    ]
   }
 ]

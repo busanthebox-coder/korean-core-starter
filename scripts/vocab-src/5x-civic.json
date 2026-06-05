@@ -7,19 +7,42 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["구청에 가다", "go to the district office", "구청 is the gu-level admin office; covers a whole district like 마포구, 강남구"],
-      ["구청에서 발급받다", "get issued at the district office", "for documents like 건축물대장 or 토지대장 you go to the 구청, while a simple 등본 is fine at the 동사무소"],
-      ["구청 민원실", "the district office civil-service desk", "민원실 is the help-desk floor where you take a number and wait"],
-      ["관할 구청", "the district office with jurisdiction", "관할 means the office responsible for your address; matters when filing complaints"]
+      ["구청에 가다", "go to the district office", "the destination always takes 에, never 에서, when you simply 'go there'"],
+      ["구청에서 발급받다", "get issued at the district office", "the place where an action happens takes 에서; for documents like 건축물대장 you go to 구청, a simple 등본 is fine at the 동사무소"],
+      ["구청 민원실", "the district office civil-service desk", "민원실 is the help-desk floor where you take a 번호표 and wait at a 창구"],
+      ["관할 구청", "the district office with jurisdiction", "관할 (管轄) is the office responsible for your registered address; it matters when filing complaints"]
     ],
     "examples": [
-      ["사업자등록은 구청 말고 세무서에서 해요.", "You register a business at the tax office, not the district office.", "common mix-up; 구청 handles residency/buildings, 세무서 handles taxes"],
-      ["전입신고는 가까운 동사무소나 구청에서 하면 돼요.", "You can file your move-in report at a nearby community office or the district office.", "동사무소 is usually closer and enough for this"],
-      ["구청 홈페이지에서 미리 예약하고 갔어요.", "I booked online on the district office website before going.", "many 구청 now take online reservations to cut waiting"]
+      ["우리 동네 구청은 지하철역 바로 앞에 있어요.", "Our neighborhood's district office is right in front of the subway station.", "simple location sentence; note 구청 takes the topic/subject naturally without a counter"],
+      ["주차 단속 때문에 구청에 민원을 넣었어요.", "I filed a complaint with the district office about parking enforcement.", "민원을 넣다 'put in a civil request' is the set collocation for lodging a complaint"],
+      ["사업자등록은 구청 말고 세무서에서 해요.", "You register a business at the tax office, not the district office.", "real mix-up: 구청 handles residency and buildings, 세무서 handles taxes — '말고' means 'not X (but)'"]
     ],
-    "nuance": "구청 is the borough-level government office serving an entire 구 (district), one tier above the neighborhood 동사무소. As a resident you mainly visit it for ID documents, building/property paperwork, and parking or noise complaints. For everyday certificates, the closer 동사무소 is usually enough.",
+    "nuance": "구청 (區廳, 區 'district' + 廳 'government office') is the borough-level city government serving an entire 구, one tier above the neighborhood 동사무소 and one tier below the city-wide 시청. As a resident you go there for ID and property documents, building paperwork, and parking or noise 민원. The dividing line learners blur is 구청 vs 시청 vs 동사무소: 시청 governs the whole city, 구청 one district inside it, 동사무소 one small neighborhood — so for an everyday 등본 the nearest 동사무소 is enough and you rarely need the 구청. The 廳 ending specifically marks a large administrative seat, which is why a small front desk is a 민원실, not a 구청. A pitfall for English speakers is treating 구청 like a generic 'city hall'; the precise English is 'district/borough office', and you must say 구청에 가다 (에, the goal), not 구청에서 가다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "구청 is the borough-level city government serving an entire 구, one tier above the neighborhood 동사무소 and one tier below the city-wide 시청. As a resident you go there for ID and property documents, building paperwork, and parking or noise 민원."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line learners blur is 구청 vs 시청 vs 동사무소: 시청 governs the whole city, 구청 one district inside it, 동사무소 one small neighborhood — so for an everyday 등본 the nearest 동사무소 is enough and you rarely need the 구청."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "區廳: 區 'district' + 廳 'government office'. The 廳 ending specifically marks a large administrative seat, which is why a small front desk is a 민원실, not a 구청."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A pitfall for English speakers is treating 구청 like a generic 'city hall'; the precise English is 'district/borough office', and you must say 구청에 가다 (에, the goal), not 구청에서 가다."
+      }
+    ],
     "mistakes": [
-      "Confusing 구청 with 시청: 시청 (city hall) governs the whole city, 구청 governs one district within it.",
+      "Confusing 구청 with 시청: 시청 (city hall) governs the whole city, 구청 governs just one district within it — saying 시청 for a district errand sends you to the wrong building.",
+      "Using 구청에서 가다 for 'go to the office'; the destination of 가다 takes 에 (구청에 가다). 에서 marks where an action is performed, e.g. 구청에서 서류를 떼다.",
       "Going to 구청 for taxes; income and business taxes are handled at the 세무서, not the 구청."
     ]
   },
@@ -31,20 +54,43 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["동사무소에 가다", "go to the neighborhood office", "동사무소 is the smallest admin office, one per 동 (neighborhood)"],
-      ["동사무소에서 떼다", "get (a document) issued at the dong office", "떼다 is the natural verb for pulling a certificate like 주민등록등본"],
-      ["가까운 동사무소", "the nearest neighborhood office", "most residents go to whichever 동사무소 is closest"],
-      ["동사무소 영업시간", "the dong office's open hours", "usually weekdays 9 to 6; closed weekends"]
+      ["동사무소에 가다", "go to the neighborhood office", "destination takes 에; 동사무소 is the smallest admin office, one per 동"],
+      ["동사무소에서 떼다", "get (a document) issued at the dong office", "떼다 'tear off / pull' is the everyday verb for getting a certificate like 주민등록등본; 발급받다 is its formal twin"],
+      ["가까운 동사무소", "the nearest neighborhood office", "가깝다 (ㅂ-irregular: 가까운, 가까워요) describes the closest branch most residents use"],
+      ["동사무소 영업시간", "the dong office's open hours", "usually weekdays 9 to 6; 영업시간 or 업무시간, closed weekends"]
     ],
     "examples": [
-      ["이사하면 14일 안에 동사무소에서 전입신고 하세요.", "When you move, file your move-in report at the dong office within 14 days.", "전입신고 is legally required; late filing can mean a small fine"],
-      ["요즘은 동사무소를 행정복지센터라고 불러요.", "These days the dong office is officially called an administrative welfare center.", "the modern name is 행정복지센터, but everyone still says 동사무소"],
-      ["등본은 동사무소 무인발급기에서 바로 뽑았어요.", "I printed my residence certificate right from the unmanned kiosk at the dong office.", "the self-service kiosk avoids waiting in line"]
+      ["등본 한 통만 떼러 동사무소에 잠깐 들렀어요.", "I dropped by the dong office just to get one copy of my residence certificate.", "통 is the counter for documents; 떼러 가다 'go in order to pull (a doc)' is the natural errand frame"],
+      ["요즘은 동사무소를 행정복지센터라고 불러요.", "These days the dong office is officially called an administrative welfare center.", "the modern name is 행정복지센터, but everyone still says 동사무소 — N(이)라고 부르다 'call it N'"],
+      ["이사하면 14일 안에 동사무소에서 전입신고 하세요.", "When you move, file your move-in report at the dong office within 14 days.", "전입신고 is legally required; late filing can mean a small fine"]
     ],
-    "nuance": "동사무소 is the neighborhood-level office where residents handle the most common errands: move-in reports, residence and family certificates, and ID-related paperwork. Its official name changed to 주민센터 and then 행정복지센터, but spoken Korean still overwhelmingly uses 동사무소. It is almost always closer and faster than the district 구청.",
+    "nuance": "동사무소 (洞事務所, 洞 'neighborhood' + 事務 'administrative affairs' + 所 'office') is the neighborhood-level office where residents handle the commonest errands: 전입신고 (move-in reports), 주민등록등본/가족관계증명서, and ID paperwork. Its official name was renamed 주민센터 and then 행정복지센터, yet spoken Korean overwhelmingly keeps 동사무소 — a good lesson that the textbook term and the street term diverge. The contrast to nail is 동사무소 vs 구청: the 동사무소 covers one 동 (neighborhood) and is closer and faster, the 구청 covers the whole 구 and handles weightier property/building matters. The 所 ending (also in 보건소, 파출소) marks a modest local 'station/post', unlike the grand 廳 of 구청. Pitfall: English speakers say 발급하다 ('to issue', what the office does) when they mean 발급받다 ('to be issued / receive'); a citizen 등본을 발급받다, the office 발급하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "동사무소 is the neighborhood-level office where residents handle the commonest errands: 전입신고 (move-in reports), 주민등록등본/가족관계증명서, and ID paperwork. Its official name was renamed 주민센터 and then 행정복지센터, yet spoken Korean overwhelmingly keeps 동사무소 — a good lesson that the textbook term and the street term diverge."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to nail is 동사무소 vs 구청: the 동사무소 covers one 동 (neighborhood) and is closer and faster, the 구청 covers the whole 구 and handles weightier property/building matters."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "洞事務所: 洞 'neighborhood' + 事務 'administrative affairs' + 所 'office'. The 所 ending (also in 보건소, 파출소) marks a modest local 'station/post', unlike the grand 廳 of 구청."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers say 발급하다 ('to issue', what the office does) when they mean 발급받다 ('to be issued / receive'); a citizen 등본을 발급받다, the office 발급하다."
+      }
+    ],
     "mistakes": [
-      "Assuming the kiosk needs a fee for everything; a 등본 print is cheap or free, but you still need your ID to use it.",
-      "Saying 동사무소 for the whole district; it only covers one 동 (neighborhood), not the entire 구."
+      "Saying 동사무소 for the whole district; it only covers one 동 (neighborhood), not the entire 구 — for district-wide matters you need the 구청.",
+      "Mixing up 발급하다 vs 발급받다: you, the citizen, 등본을 발급받다 (receive it); the office 발급하다 (issues it). Using 발급하다 about yourself sounds like you run the office.",
+      "Assuming the self-service kiosk (무인발급기) is always free; a 등본 print is cheap or free, but you still must scan your ID to use it."
     ]
   },
   {
@@ -55,20 +101,43 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["보건소에 가다", "go to the public health center", "보건소 is a government-run clinic, one per district"],
-      ["보건소에서 검사받다", "get tested at the health center", "common for free or low-cost health screenings and STI tests"],
-      ["보건소 예방접종", "vaccination at the health center", "flu and travel shots are often cheaper here than at a hospital"],
-      ["관할 보건소", "the health center for your area", "관할 means the one assigned to your district; matters for some free programs"]
+      ["보건소에 가다", "go to the public health center", "보건소 is a government-run clinic, typically one per district"],
+      ["보건소에서 검사받다", "get tested at the health center", "검사받다 'undergo a test'; common for free or low-cost screenings and STI tests"],
+      ["예방접종을 받다 / 주사를 맞다", "get a vaccination / get a shot", "the shot itself: 주사를 맞다 (lit. 'be struck by a shot') — never 주사를 받다"],
+      ["관할 보건소", "the health center for your area", "관할 (管轄) is the one assigned to your district; it matters for some free programs"]
     ],
     "examples": [
-      ["독감 예방접종은 동네 보건소가 병원보다 훨씬 싸요.", "The flu shot is much cheaper at the local health center than at a hospital.", "a big practical reason residents use 보건소"],
-      ["보건소에서 무료로 건강검진을 받을 수 있어요.", "You can get a free health check-up at the public health center.", "eligibility varies, but basic screenings are often free"],
-      ["해외여행 전에 보건소에서 필요한 주사를 맞았어요.", "Before traveling abroad I got the necessary shots at the health center.", "보건소 handles travel vaccines like 황열, hepatitis"]
+      ["독감 주사 맞으러 보건소에 가요.", "I'm going to the health center to get a flu shot.", "주사를 맞다 is the fixed verb for receiving an injection; 맞으러 가다 'go in order to get (a shot)'"],
+      ["보건소에서 무료로 건강검진을 받을 수 있어요.", "You can get a free health check-up at the public health center.", "건강검진을 받다 'receive a health screening'; eligibility varies but basic ones are often free"],
+      ["독감 예방접종은 동네 보건소가 병원보다 훨씬 싸요.", "The flu shot is much cheaper at the local health center than at a hospital.", "보건소 vs 병원 — the budget motive; 보다 here marks the comparison standard ('than')"]
     ],
-    "nuance": "보건소 is the district-run public health center, offering vaccinations, health screenings, and basic medical services at little or no cost. For a budget-conscious resident, it is the go-to for flu shots, travel vaccines, and routine check-ups that would be pricier at a private 병원. It is a public office, so it keeps standard weekday hours.",
+    "nuance": "보건소 (保健所, 保 'protect' + 健 'health' + 所 'office/station', literally a 'health-protection station') is the district-run public health center offering vaccinations, screenings, and basic care at little or no cost. The synonym line to learn is 보건소 vs 병원: a 병원 is a private hospital/clinic for diagnosis and treatment, while 보건소 is a public-budget facility for prevention and low-cost routine care — for a flu shot or travel vaccine you go to the 보건소, for a broken arm or surgery you go to a 병원. Its habitual partners are 예방접종, 건강검진, 무료, 검사. The register is neutral-administrative. Two pitfalls: (1) the shot collocation is 주사를 맞다 (passive 'be hit by an injection'), so the English 'get/receive a shot' must not become 주사를 받다; (2) don't confuse the local 보건소 with the national 보건복지부 (Health Ministry) — the ministry sets policy, the 보건소 is where you actually roll up your sleeve.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "보건소 is the district-run public health center offering vaccinations, screenings, and basic care at little or no cost. Its habitual partners are 예방접종, 건강검진, 무료, 검사. The register is neutral-administrative."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym line to learn is 보건소 vs 병원: a 병원 is a private hospital/clinic for diagnosis and treatment, while 보건소 is a public-budget facility for prevention and low-cost routine care — for a flu shot or travel vaccine you go to the 보건소, for a broken arm or surgery you go to a 병원."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "保健所: 保 'protect' + 健 'health' + 所 'office/station' — literally a 'health-protection station'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Two pitfalls: (1) the shot collocation is 주사를 맞다 (passive 'be hit by an injection'), so the English 'get/receive a shot' must not become 주사를 받다; (2) don't confuse the local 보건소 with the national 보건복지부 (Health Ministry) — the ministry sets policy, the 보건소 is where you actually roll up your sleeve."
+      }
+    ],
     "mistakes": [
-      "Treating 보건소 like a regular hospital for emergencies; for urgent care you still go to a 병원 or 응급실.",
-      "Confusing 보건소 (public health center) with 보건복지부 (the national Health Ministry); the latter is not a place you visit for shots."
+      "Saying 주사를 받다 for 'get a shot'; the set phrase is 주사를 맞다 (the body 'is struck' by the needle). 받다 ('receive') is wrong here even though English uses 'get/receive'.",
+      "Treating 보건소 like an ER for emergencies; for urgent care you go to a 병원 or 응급실 — the 보건소 keeps office hours and focuses on prevention.",
+      "Confusing 보건소 (local public health center) with 보건복지부 (the national Health & Welfare Ministry); the latter is a policy body, not a place you visit for shots."
     ]
   },
   {
@@ -80,19 +149,42 @@
     "grammarIds": [],
     "usage": [
       ["세무서에 가다", "go to the tax office", "세무서 is the local branch of the national tax service (국세청)"],
-      ["세무서에 신고하다", "file (a return) at the tax office", "신고 is the word for declaring income or registering a business"],
+      ["세무서에 신고하다", "file (a return) at the tax office", "신고하다 (申告) 'declare/report' is the verb for income or a business registration; 에 marks where you report"],
       ["관할 세무서", "the tax office with jurisdiction", "your 관할 세무서 is decided by your business or home address"],
-      ["세무서 직원", "a tax office staff member", "직원 can answer questions about filing in person"]
+      ["세금을 내다 / 신고하다", "pay / file taxes", "세금을 내다 'pay tax' vs 신고하다 'declare it' — declaring and paying are two separate steps"]
     ],
     "examples": [
-      ["프리랜서는 5월에 세무서에 종합소득세를 신고해야 해요.", "Freelancers must file comprehensive income tax at the tax office in May.", "May is 종합소득세 season; very relevant for freelancers"],
-      ["사업자등록증은 세무서에서 발급받았어요.", "I got my business registration certificate from the tax office.", "starting any business or side gig requires 사업자등록 at the 세무서"],
-      ["요즘은 세무서에 안 가도 홈택스에서 신고할 수 있어요.", "These days you can file on Hometax without going to the tax office.", "홈택스 is the online tax portal that replaces most visits"]
+      ["세무서가 어디에 있는지 아세요?", "Do you know where the tax office is?", "embedded question -는지; a gentle way to ask directions to the office"],
+      ["사업자등록증은 세무서에서 발급받았어요.", "I got my business registration certificate from the tax office.", "starting any business or side gig requires 사업자등록 at the 세무서; 발급받다 = receive (an issued doc)"],
+      ["프리랜서는 5월에 세무서에 종합소득세를 신고해야 해요.", "Freelancers must file comprehensive income tax at the tax office in May.", "May is 종합소득세 season; 신고하다 not 내다 — first you declare, then any tax due is paid"]
     ],
-    "nuance": "세무서 is the local tax office, the branch of the national tax service where you register a business and file income tax. It matters most to freelancers and small-business owners, especially during the May 종합소득세 season. Many tasks now happen online via 홈택스, but in-person help at the 세무서 is still available for complex cases.",
+    "nuance": "세무서 (稅務署, 稅 'tax' + 務 'affairs' + 署 'bureau') is the local tax office, the branch of the national 국세청 where you do 사업자등록 and file income tax. The most dangerous confusion is the near-homophone pair 세무서 vs 세무사 (稅務士): 세무서 is the government office, 세무사 is a licensed private tax accountant you hire — one letter changes a public building into a paid professional. A second line is 신고하다 vs 내다: 신고 means to *declare/report* your income, while 내다 means to *pay* the resulting tax; you can 신고 without immediately 내다. Habitual partners: 종합소득세, 부가세, 사업자등록, 홈택스. Pitfall for English speakers: 'file taxes' should be 세금을 신고하다, but learners often borrow 'pay' for everything and say 세금을 내다 even when they only mean to submit the return. Also, don't go to the 구청 to register a business — that is squarely the 세무서's job.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "세무서 is the local tax office, the branch of the national 국세청 where you do 사업자등록 and file income tax. Habitual partners: 종합소득세, 부가세, 사업자등록, 홈택스."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The most dangerous confusion is the near-homophone pair 세무서 vs 세무사 (稅務士): 세무서 is the government office, 세무사 is a licensed private tax accountant you hire — one letter changes a public building into a paid professional. A second line is 신고하다 vs 내다: 신고 means to declare/report your income, while 내다 means to pay the resulting tax; you can 신고 without immediately 내다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "稅務署: 稅 'tax' + 務 'affairs' + 署 'bureau'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'File taxes' should be 세금을 신고하다, but learners often borrow 'pay' for everything and say 세금을 내다 even when they only mean to submit the return. Also, don't go to the 구청 to register a business — that is squarely the 세무서's job."
+      }
+    ],
     "mistakes": [
-      "Confusing 세무서 (tax office) with 세무사 (a private tax accountant you hire); the office is government, the 세무사 is a paid professional.",
-      "Going to the 구청 to register a business or file taxes; that is the 세무서's job."
+      "Confusing 세무서 (tax office) with 세무사 (a private tax accountant you hire); the office is government and free to visit, the 세무사 is a paid professional. The single-syllable difference 서/사 matters.",
+      "Using 세금을 내다 ('pay tax') when you mean 신고하다 ('declare/file'); filing a return and paying the bill are distinct steps in Korean.",
+      "Going to the 구청 to register a business or file taxes; residency and buildings are the 구청's domain, but taxes belong to the 세무서."
     ]
   },
   {
@@ -103,20 +195,43 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["파출소에 가다", "go to the police box", "파출소 is the small neighborhood police station for minor matters"],
-      ["파출소에 신고하다", "report (something) at the police box", "for small incidents, lost items, or disputes"],
-      ["가까운 파출소", "the nearest police box", "they are scattered through neighborhoods, so one is usually close"],
-      ["파출소 경찰", "the officer at the police box", "경찰 here means the on-duty patrol officer"]
+      ["파출소에 가다", "go to the police box", "파출소 is the small neighborhood police post for minor matters"],
+      ["파출소에 신고하다", "report (something) at the police box", "신고하다 'report (a crime/incident)'; for small incidents, lost items, or disputes"],
+      ["가까운 파출소", "the nearest police box", "가깝다 → 가까운; they dot the neighborhoods, so one is usually close"],
+      ["파출소에 맡기다", "hand (something) in at the police box", "맡기다 'entrust/leave with' is the verb for turning in a found wallet"]
     ],
     "examples": [
-      ["지갑을 주워서 근처 파출소에 맡겼어요.", "I found a wallet and handed it in at the nearby police box.", "lost-and-found is a typical 파출소 errand"],
-      ["밤에 취객이 시끄러워서 파출소에 전화했어요.", "A drunk person was being loud at night, so I called the police box.", "for non-emergency neighborhood trouble"],
-      ["요즘은 파출소를 지구대로 합친 곳이 많아요.", "These days many police boxes have been merged into larger substations.", "지구대 is the newer, larger unit replacing some 파출소"]
+      ["길을 잃으면 파출소에 가서 물어보세요.", "If you get lost, go to the police box and ask.", "simple safety advice; 파출소 doubles as a place to ask directions"],
+      ["지갑을 주워서 근처 파출소에 맡겼어요.", "I found a wallet and handed it in at the nearby police box.", "줍다 (ㅂ-irregular: 주워서) 'pick up'; 맡기다 'leave in someone's care' — the standard lost-and-found frame"],
+      ["밤에 취객이 시끄러워서 파출소에 전화했어요.", "A drunk person was being loud at night, so I called the police box.", "for non-emergency neighborhood trouble; -아서 gives the reason"]
     ],
-    "nuance": "파출소 is the small neighborhood police post you go to for minor incidents, lost-and-found, and local disputes, as opposed to the larger 경찰서 that handles serious crime. For a true emergency you still dial 112, but for everyday matters the nearby 파출소 is the practical first stop. Many have been consolidated into bigger 지구대 units.",
+    "nuance": "파출소 (派出所, 派 'dispatch' + 出 'send out' + 所 'post', literally a 'dispatch post' from which officers are sent into the neighborhood) is the small local police box you use for minor incidents, lost-and-found, and neighborhood disputes. The contrast to fix is 파출소 vs 경찰서 (警察署): the 파출소 is the tiny front-line post for everyday small matters, while the 경찰서 is the full district police station that investigates and processes formal cases — and for a genuine emergency you skip both and dial 112. A further wrinkle is that many 파출소 have been merged into larger 지구대 (地區隊) units, so older speakers say 파출소 where the sign now reads 지구대. Natural partners: 신고하다, 맡기다, 분실물, 순찰. Pitfall: English speakers treat 'go to the police' as one phrase, but Korean distinguishes the small 파출소 (walk-in, minor) from the big 경찰서 (formal cases) — and reporting urgent danger should be a phone call to 112, not a walk to the 파출소.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "파출소 is the small local police box you use for minor incidents, lost-and-found, and neighborhood disputes. Natural partners: 신고하다, 맡기다, 분실물, 순찰. A further wrinkle is that many 파출소 have been merged into larger 지구대 (地區隊) units, so older speakers say 파출소 where the sign now reads 지구대."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to fix is 파출소 vs 경찰서 (警察署): the 파출소 is the tiny front-line post for everyday small matters, while the 경찰서 is the full district police station that investigates and processes formal cases — and for a genuine emergency you skip both and dial 112."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "派出所: 派 'dispatch' + 出 'send out' + 所 'post' — literally a 'dispatch post' from which officers are sent into the neighborhood."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers treat 'go to the police' as one phrase, but Korean distinguishes the small 파출소 (walk-in, minor) from the big 경찰서 (formal cases) — and reporting urgent danger should be a phone call to 112, not a walk to the 파출소."
+      }
+    ],
     "mistakes": [
-      "Going to the 파출소 for a real emergency instead of calling 112; the phone line dispatches help faster.",
-      "Confusing 파출소 (small police box) with 경찰서 (the district police station that handles formal cases)."
+      "Going to the 파출소 in a real emergency instead of calling 112; the phone line dispatches help far faster than walking to a post.",
+      "Confusing 파출소 (small neighborhood police box) with 경찰서 (the district police station that handles formal investigations and cases).",
+      "Saying 지갑을 파출소에 주다 ('give the wallet to the police box'); the correct verb is 맡기다 ('entrust/leave in their care'), since you are not gifting it."
     ]
   },
   {
@@ -128,19 +243,42 @@
     "grammarIds": [],
     "usage": [
       ["법원에 가다", "go to court", "법원 is the courthouse where legal cases are heard"],
-      ["법원에 신청하다", "file (a petition) with the court", "신청 covers filings like 지급명령 or 임차권등기"],
-      ["법원 판결", "a court ruling", "판결 is the formal decision a judge issues"],
-      ["관할 법원", "the court with jurisdiction", "which 법원 hears your case depends on the address or contract"]
+      ["소송을 내다 / 제기하다", "file a lawsuit", "소송을 내다 'put forth a suit' is the everyday phrase; 제기하다 is the formal twin"],
+      ["법원 판결", "a court ruling", "판결 (判決) is the formal decision a judge issues; cf. 선고하다 'to hand down'"],
+      ["관할 법원", "the court with jurisdiction", "which 법원 hears your case depends on the address or contract terms"]
     ],
     "examples": [
-      ["집주인이 보증금을 안 줘서 법원에 소송을 냈어요.", "The landlord wouldn't return the deposit, so I filed a lawsuit in court.", "deposit (보증금) disputes are a common reason renters use the 법원"],
-      ["소액 사건은 법원에서 비교적 빨리 처리돼요.", "Small-claims cases are handled relatively quickly by the court.", "소액심판 is a simpler track for smaller amounts"],
-      ["법원에서 보내온 서류는 꼭 기한 안에 답해야 해요.", "You must respond to documents sent by the court within the deadline.", "ignoring a 법원 notice can lead to losing by default"]
+      ["그 사건은 지금 법원에서 재판 중이에요.", "That case is currently on trial at the court.", "재판 중 'in the middle of trial'; 에서 marks where the proceeding happens"],
+      ["소액 사건은 법원에서 비교적 빨리 처리돼요.", "Small-claims cases are handled relatively quickly by the court.", "소액심판 is a simpler track; 처리되다 (passive) 'get processed'"],
+      ["집주인이 보증금을 안 줘서 법원에 소송을 냈어요.", "The landlord wouldn't return the deposit, so I filed a lawsuit in court.", "deposit (보증금) disputes are a common reason renters use the 법원; 소송을 내다 = file suit"]
     ],
-    "nuance": "법원 is the courthouse, where civil and criminal cases are decided by judges. For a resident the most likely contact is a civil matter, such as recovering an unreturned jeonse or monthly-rent deposit through a small-claims filing. Court documents carry strict deadlines, so any letter from the 법원 should be acted on promptly.",
+    "nuance": "법원 (法院, 法 'law' + 院 'institution/hall') is the courthouse where civil and criminal cases are decided by judges. For an ordinary resident the realistic contact is a civil matter — most often recovering an unreturned 전세 or 월세 보증금 through a small-claims (소액심판) filing. The contrast to keep straight is 법원 vs 경찰서: the 경찰 (police) *investigate* and gather evidence, while the 법원 *judges* and rules — police never issue a 판결. Note also that 법원's product is a 판결 (ruling), not the same as a 합의 (private settlement). Habitual partners: 소송을 내다, 판결, 재판, 출석, 기한. A real pitfall: court documents carry strict deadlines (기한), and the English instinct to 'deal with it later' is dangerous — ignoring a 법원 letter can mean losing 'by default' (궐석/무변론 패소). Also use 에 for going (법원에 가다) but 에서 for the trial happening there (법원에서 재판하다).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "법원 is the courthouse where civil and criminal cases are decided by judges. For an ordinary resident the realistic contact is a civil matter — most often recovering an unreturned 전세 or 월세 보증금 through a small-claims (소액심판) filing. Habitual partners: 소송을 내다, 판결, 재판, 출석, 기한."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to keep straight is 법원 vs 경찰서: the 경찰 (police) investigate and gather evidence, while the 법원 judges and rules — police never issue a 판결. Note also that 법원's product is a 판결 (ruling), not the same as a 합의 (private settlement)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "法院: 法 'law' + 院 'institution/hall'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A real pitfall: court documents carry strict deadlines (기한), and the English instinct to 'deal with it later' is dangerous — ignoring a 법원 letter can mean losing 'by default' (궐석/무변론 패소). Also use 에 for going (법원에 가다) but 에서 for the trial happening there (법원에서 재판하다)."
+      }
+    ],
     "mistakes": [
-      "Confusing 법원 (court) with 경찰서 (police station); the police investigate, the court rules.",
-      "Ignoring a deadline on a 법원 notice; missing it can mean an automatic loss in your case."
+      "Confusing 법원 (court) with 경찰서 (police station); the police investigate and arrest, the court judges and rules — they are different stages and different buildings.",
+      "Ignoring a deadline (기한) on a 법원 notice; missing it can mean an automatic loss in your case, unlike a casual letter you can answer whenever.",
+      "Saying 판결 for any decision; 판결 is specifically a judge's formal ruling. A privately agreed settlement is 합의, not 판결."
     ]
   },
   {
@@ -151,20 +289,43 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["체육관에 가다", "go to the gym", "체육관 is an indoor sports hall, often public and run by the district"],
-      ["구민체육관", "district residents' gymnasium", "구민 means district residents; these public gyms are cheap to use"],
-      ["체육관을 빌리다", "rent the gym", "groups rent court time for futsal, badminton, basketball"],
-      ["실내체육관", "indoor gymnasium", "실내 marks it as covered, usable year-round"]
+      ["체육관에 가다", "go to the gym/sports hall", "체육관 is an indoor sports hall, often public and run by the district"],
+      ["구민체육관", "district residents' gymnasium", "구민 (區民) 'district residents'; these public halls are cheap to use"],
+      ["체육관을 빌리다 / 대관하다", "rent the gym (book the hall)", "빌리다 'borrow' for casual use; 대관하다 (貸館) is the formal 'reserve the venue'"],
+      ["배드민턴을 치다", "play badminton", "racket/court sports take 치다 'hit'; 운동을 하다 for exercise generally"]
     ],
     "examples": [
-      ["구청에서 운영하는 체육관이라 이용료가 정말 싸요.", "It's a gym run by the district office, so the fee is really cheap.", "public 체육관 are far cheaper than private 헬스장"],
-      ["주말마다 친구들이랑 체육관에서 배드민턴을 쳐요.", "Every weekend I play badminton with friends at the sports hall.", "court sports are the typical use of a 체육관"],
-      ["체육관 수영장은 미리 예약해야 자리가 있어요.", "You have to book the gym's pool in advance to get a spot.", "popular public facilities fill up fast"]
+      ["주말마다 체육관에서 운동해요.", "I work out at the sports hall every weekend.", "마다 'every'; 에서 marks where the activity happens — a simple habit sentence"],
+      ["친구들이랑 체육관에서 배드민턴을 쳐요.", "I play badminton with friends at the sports hall.", "배드민턴/탁구/농구 take 치다; 이랑 'with' is the casual companion particle"],
+      ["구청에서 운영하는 체육관이라 이용료가 정말 싸요.", "It's run by the district office, so the fee is really cheap.", "public 체육관 vs private 헬스장 — the budget point; -(이)라(서) gives the reason"]
     ],
-    "nuance": "체육관 is an indoor gymnasium or sports hall, often a public facility run by the 구청 or city, used for court sports, swimming, and group exercise. For residents it is a budget-friendly alternative to a private 헬스장, though popular time slots require booking. Note it means the sports-hall building, not a personal weights gym.",
+    "nuance": "체육관 (體育館, 體育 'physical education' + 館 'hall/large building') is an indoor gymnasium or sports hall, usually a public facility run by the 구청 or city, used for court sports, swimming, and group classes. The synonym you must separate is 체육관 vs 헬스장: a 체육관 is the *building/hall* for badminton, basketball, volleyball or a pool, whereas a 헬스장 (or 피트니스) is a private *weights-and-treadmill gym* — the English word 'gym' covers both, which is exactly the trap. The 館 ending marks a sizeable public hall (cf. 도서관 library, 박물관 museum), reinforcing that it is a venue, not a membership fitness room. Natural partners: 구민체육관, 실내, 대관, 예약, 이용료. Two pitfalls: (1) calling your weights gym a 체육관 sounds like a school sports hall — say 헬스장; (2) court sports use 치다 (배드민턴을 치다), not 하다, so 'do badminton' as 배드민턴을 하다 is understandable but less idiomatic.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "체육관 is an indoor gymnasium or sports hall, usually a public facility run by the 구청 or city, used for court sports, swimming, and group classes. Natural partners: 구민체육관, 실내, 대관, 예약, 이용료."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym you must separate is 체육관 vs 헬스장: a 체육관 is the building/hall for badminton, basketball, volleyball or a pool, whereas a 헬스장 (or 피트니스) is a private weights-and-treadmill gym — the English word 'gym' covers both, which is exactly the trap."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "體育館: 體育 'physical education' + 館 'hall/large building'. The 館 ending marks a sizeable public hall (cf. 도서관 library, 박물관 museum), reinforcing that it is a venue, not a membership fitness room."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Two pitfalls: (1) calling your weights gym a 체육관 sounds like a school sports hall — say 헬스장; (2) court sports use 치다 (배드민턴을 치다), not 하다, so 'do badminton' as 배드민턴을 하다 is understandable but less idiomatic."
+      }
+    ],
     "mistakes": [
-      "Using 체육관 for a private weights gym; that is usually called a 헬스장 or 피트니스.",
-      "Assuming you can just walk in; many public 체육관 require reservations or a usage fee for facilities like the pool."
+      "Using 체육관 for a private weights gym; that is a 헬스장 or 피트니스. English 'gym' merges the two, but 체육관 specifically means a sports hall/venue.",
+      "Saying 배드민턴을 하다 instead of 배드민턴을 치다; racket and ball-court sports (배드민턴, 탁구, 농구) take 치다 'hit'.",
+      "Assuming you can just walk in; many public 체육관 require a reservation (예약) or 대관, and facilities like the pool charge a 이용료."
     ]
   },
   {
@@ -176,19 +337,42 @@
     "grammarIds": [],
     "usage": [
       ["민원실에 가다", "go to the public help desk", "민원실 is the front-desk office for residents' requests inside a public building"],
-      ["민원을 넣다", "file a complaint or request", "민원 is any formal request or complaint a citizen makes"],
-      ["민원실 창구", "the help-desk window", "창구 is the counter where you're served after taking a number"],
-      ["민원 처리", "handling of a civil request", "처리 means the office acting on your 민원"]
+      ["민원을 넣다 / 제기하다", "file a complaint or request", "민원을 넣다 'put in a civil request' is the everyday phrase; 제기하다 is formal"],
+      ["민원실 창구", "the help-desk window", "창구 (窓口) 'wicket/counter' is where you're served after taking a 번호표"],
+      ["민원을 처리하다", "handle a civil request", "처리하다 'process'; the office 처리하다, the citizen 넣다/제기하다"]
     ],
     "examples": [
-      ["서류 발급은 1층 민원실에서 번호표 뽑고 기다리세요.", "For document issuance, take a number at the first-floor help desk and wait.", "번호표 (number ticket) system is standard at 민원실"],
-      ["주차 문제는 구청 민원실에 민원을 넣었어요.", "I filed a complaint about parking with the district office help desk.", "민원 covers complaints, not just document requests"],
-      ["온라인으로 안 되는 건 직접 민원실에 가야 해요.", "For things you can't do online, you have to go to the help desk in person.", "some requests still need an in-person visit"]
+      ["민원실이 몇 층에 있어요?", "What floor is the help desk on?", "층 'floor' with the question word 몇; a basic in-building direction question"],
+      ["서류 발급은 1층 민원실에서 번호표 뽑고 기다리세요.", "For document issuance, take a number at the first-floor help desk and wait.", "번호표를 뽑다 'pull a number ticket' is the standard 민원실 routine"],
+      ["주차 문제는 구청 민원실에 민원을 넣었어요.", "I filed a complaint about parking with the district office help desk.", "민원 covers complaints, not just document requests; 민원을 넣다 = lodge a request"]
     ],
-    "nuance": "민원실 is the public-service desk inside a government building (구청, 동사무소, etc.) where residents request documents or file complaints. The word 민원 itself means a citizen's formal request or grievance, so 민원실 is literally the room that handles them. Expect a take-a-number 번호표 system and a 창구 (service window).",
+    "nuance": "민원실 (民願室, 民 'people' + 願 'wish/petition' + 室 'room', literally the 'room for citizens' petitions') is the public-service desk inside a government building — the 구청, 동사무소, 세무서 etc. — where residents request documents or file complaints. The key insight is the root word 민원: it means a citizen's *formal request or grievance* to a public office, covering both neutral asks (issuing a certificate) and complaints (noisy construction). So the contrast to draw is 민원실 vs the building itself: 구청/동사무소 is the whole agency, while 민원실 is merely the 室 ('room') inside it where the public is served — it is a desk/floor, not a standalone building. The collocation engine: 민원을 넣다/제기하다 (lodge), 처리하다 (the office processes), 번호표를 뽑다, 창구. Pitfall: English speakers narrow 민원 to 'complaint', but a request for a 등본 is also a 민원; and don't say 민원실에 가다 expecting a separate address — it lives inside a larger 관공서.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "민원실 is the public-service desk inside a government building — the 구청, 동사무소, 세무서 etc. — where residents request documents or file complaints. The key insight is the root word 민원: it means a citizen's formal request or grievance to a public office, covering both neutral asks (issuing a certificate) and complaints (noisy construction). The collocation engine: 민원을 넣다/제기하다 (lodge), 처리하다 (the office processes), 번호표를 뽑다, 창구."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to draw is 민원실 vs the building itself: 구청/동사무소 is the whole agency, while 민원실 is merely the 室 ('room') inside it where the public is served — it is a desk/floor, not a standalone building."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "民願室: 民 'people' + 願 'wish/petition' + 室 'room' — literally the 'room for citizens' petitions'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers narrow 민원 to 'complaint', but a request for a 등본 is also a 민원; and don't say 민원실에 가다 expecting a separate address — it lives inside a larger 관공서."
+      }
+    ],
     "mistakes": [
-      "Treating 민원실 as a specific building; it is a desk or office located inside a larger government building.",
-      "Using 민원 only for complaints; it also covers neutral requests like getting a certificate issued."
+      "Treating 민원실 as a standalone building; it is the 室 ('room/desk') for public service located inside a larger government building like a 구청.",
+      "Using 민원 only for complaints; it equally covers neutral requests such as getting a certificate issued — both are 민원 you 넣다 at the 민원실.",
+      "Mixing up who does what: the citizen 민원을 넣다/제기하다 (lodges), while the office 민원을 처리하다 (processes it). Saying you 처리하다 your own 민원 sounds like you work there."
     ]
   },
   {
@@ -200,19 +384,42 @@
     "grammarIds": [],
     "usage": [
       ["등기소에 가다", "go to the registry office", "등기소 handles official property and corporate registrations"],
-      ["등기부등본을 떼다", "pull a property register extract", "등기부등본 shows a property's ownership and any liens"],
-      ["부동산 등기", "real-estate registration", "등기 is the legal record of who owns a property"],
+      ["등기부등본을 떼다 / 발급받다", "pull a property register extract", "떼다 is the everyday verb; 등기부등본 shows ownership and any 근저당 (mortgage liens)"],
+      ["부동산 등기", "real-estate registration", "등기 (登記) is the legal record of who owns a property"],
       ["관할 등기소", "the registry office with jurisdiction", "which 등기소 you use depends on the property's location"]
     ],
     "examples": [
-      ["전세 계약 전에 등기부등본을 꼭 확인하세요.", "Be sure to check the property register before signing a jeonse contract.", "checking 등기부등본 reveals hidden mortgages before you pay a deposit"],
-      ["요즘은 등기소에 안 가도 인터넷등기소에서 열람할 수 있어요.", "These days you can view records on the internet registry without going to the office.", "인터넷등기소 is the online portal for 등기 records"],
-      ["전입신고 후에 확정일자를 받아 두는 게 안전해요.", "After your move-in report, it's safer to get a fixed date stamped.", "확정일자 plus 전입신고 protects your deposit priority"]
+      ["등기소는 보통 법원 근처에 있어요.", "The registry office is usually near the courthouse.", "true in practice (등기소 are tied to the court system); a simple location fact"],
+      ["요즘은 등기소에 안 가도 인터넷등기소에서 열람할 수 있어요.", "These days you can view records on the internet registry without going to the office.", "인터넷등기소 is the online portal; 열람하다 'inspect/browse (records)'"],
+      ["전세 계약 전에 등기부등본을 꼭 확인하세요.", "Be sure to check the property register before signing a jeonse contract.", "checking 등기부등본 reveals hidden mortgages before you pay a deposit; -기 전에 'before V-ing'"]
     ],
-    "nuance": "등기소 is the registry office that keeps official records of property ownership and company registrations. Its most practical product for a renter is the 등기부등본, the property register you must check before signing a jeonse or wolse contract to confirm the landlord's ownership and spot existing loans. Most people now access these records online via 인터넷등기소.",
+    "nuance": "등기소 (登記所, 登 'record/enter' + 記 'write down' + 所 'office', literally the 'recording office') is the registry that keeps official records of property ownership and company registration, administratively tied to the court (法院) system. Its single most practical product for a renter is the 등기부등본 — the property register you must read before signing a 전세 or 월세 contract to confirm the landlord truly owns the place and to spot existing loans (근저당권). The confusion to kill is the shared syllable 등기: 등기소/등기부 (property *registration*) is unrelated to 등기우편 (*registered* mail at the post office) — same 登記 'to record' but completely different services. Habitual partners: 등기부등본, 부동산 등기, 열람, 인터넷등기소, 근저당. Pitfall: English speakers skip the 등기부등본 check because 'the landlord seems nice', but verifying the register is the one concrete step that exposes a property already heavily mortgaged. Most people now 열람 online rather than visiting in person.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "등기소 is the registry that keeps official records of property ownership and company registration, administratively tied to the court (法院) system. Its single most practical product for a renter is the 등기부등본 — the property register you must read before signing a 전세 or 월세 contract to confirm the landlord truly owns the place and to spot existing loans (근저당권). Habitual partners: 등기부등본, 부동산 등기, 열람, 인터넷등기소, 근저당. Most people now 열람 online rather than visiting in person."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The confusion to kill is the shared syllable 등기: 등기소/등기부 (property registration) is unrelated to 등기우편 (registered mail at the post office) — same 登記 'to record' but completely different services."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "登記所: 登 'record/enter' + 記 'write down' + 所 'office' — literally the 'recording office'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers skip the 등기부등본 check because 'the landlord seems nice', but verifying the register is the one concrete step that exposes a property already heavily mortgaged."
+      }
+    ],
     "mistakes": [
-      "Skipping the 등기부등본 check before a lease; it is the key way to spot a property already heavily mortgaged.",
-      "Confusing 등기소 (property registry) with 등기우편 (registered mail at the post office); they are unrelated despite sharing 등기."
+      "Skipping the 등기부등본 check before a lease; it is the key way to spot a property already heavily mortgaged (근저당) and protect your deposit.",
+      "Confusing 등기소/등기 (property registry) with 등기우편 (registered mail at the post office); they share 등기 'to record' but are unrelated services.",
+      "Using 발급하다 about yourself for the extract; the office 발급하다 (issues) the 등기부등본 — you 떼다 or 발급받다 (receive) it."
     ]
   },
   {
@@ -224,19 +431,42 @@
     "grammarIds": [],
     "usage": [
       ["출입국사무소에 가다", "go to the immigration office", "출입국사무소 handles visas and foreign-resident registration"],
-      ["출입국사무소 예약", "an immigration office appointment", "you book a slot online via 하이코리아 before visiting"],
-      ["체류 연장", "extending one's stay", "체류 연장 is renewing the period you're allowed to stay"],
-      ["관할 출입국사무소", "the immigration office for your area", "your 관할 office is set by where you live"]
+      ["체류 기간을 연장하다", "extend one's period of stay", "체류 (滯留) 'stay/sojourn'; 연장하다 (延長) 'extend' — the core renewal phrase"],
+      ["외국인등록증을 발급받다", "get one's foreign resident card issued", "외국인등록증 (ARC) is issued here; 발급받다 = receive (an issued doc)"],
+      ["관할 출입국사무소", "the immigration office for your area", "your 관할 office is set by where you live; reservations via 하이코리아"]
     ],
     "examples": [
-      ["외국인등록증은 출입국사무소에서 발급받아요.", "You get your foreign resident card at the immigration office.", "the ARC (외국인등록증) is issued here, essential for living in Korea"],
-      ["비자 연장은 출입국사무소에 미리 예약하고 가야 해요.", "For a visa extension you must book an appointment at the immigration office in advance.", "walk-ins are hard; 하이코리아 reservations are expected"],
-      ["주소가 바뀌면 출입국사무소에도 신고해야 해요.", "If your address changes you must report it to the immigration office too.", "체류지 변경 신고 is required of foreign residents"]
+      ["출입국사무소는 예약하고 가야 해요.", "You have to make a reservation before going to the immigration office.", "예약하고 가다 'reserve and (then) go'; walk-ins are limited"],
+      ["주소가 바뀌면 출입국사무소에도 신고해야 해요.", "If your address changes you must report it to the immigration office too.", "체류지 변경 신고 is required of foreign residents; 에도 'also to (there)' marks the extra place"],
+      ["비자 연장은 출입국사무소에 미리 예약하고 가야 해요.", "For a visa extension you must book an appointment at the immigration office in advance.", "walk-ins are hard; 하이코리아 reservations are expected; 미리 'in advance'"]
     ],
-    "nuance": "출입국사무소 is the immigration office, the single most important government office for a foreign resident: it issues the 외국인등록증 (ARC), processes visa extensions and changes, and records address updates. Visits almost always require an online reservation through 하이코리아, since walk-in capacity is limited. Its formal name is 출입국·외국인청, but 출입국사무소 is the everyday term.",
+    "nuance": "출입국사무소 (出入國事務所, 出 'exit' + 入 'enter' + 國 'country' + 事務所 'office', literally the 'country-exit-and-entry affairs office') is the immigration office — the single most important 관공서 for a foreign resident. It issues the 외국인등록증 (ARC/foreign resident card), processes 비자 연장 (visa extensions) and changes of status, and records 체류지 변경 (address updates). Its formal current name is 출입국·외국인청 (the 廳-level seat), but the everyday term stays 출입국사무소. A useful pairing to know is 출입국사무소 vs 동사무소: when a foreign resident moves, the 동사무소 alone is not enough — the move must *also* be reported to 출입국, which is why Koreans say 출입국사무소'에도' 신고하다. Habitual partners: 예약, 하이코리아, 체류 연장, 외국인등록증, 발급받다. Pitfall: English speakers expect to walk in like at a US DMV, but most offices now require an online 하이코리아 reservation and may turn away walk-ins; and 비자 'visa' takes 연장하다 ('extend'), not the English-flavored 'renew' rendered literally.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "출입국사무소 is the immigration office — the single most important 관공서 for a foreign resident. It issues the 외국인등록증 (ARC/foreign resident card), processes 비자 연장 (visa extensions) and changes of status, and records 체류지 변경 (address updates). Its formal current name is 출입국·외국인청 (the 廳-level seat), but the everyday term stays 출입국사무소. Habitual partners: 예약, 하이코리아, 체류 연장, 외국인등록증, 발급받다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A useful pairing to know is 출입국사무소 vs 동사무소: when a foreign resident moves, the 동사무소 alone is not enough — the move must also be reported to 출입국, which is why Koreans say 출입국사무소'에도' 신고하다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "出入國事務所: 出 'exit' + 入 'enter' + 國 'country' + 事務所 'office' — literally the 'country-exit-and-entry affairs office'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers expect to walk in like at a US DMV, but most offices now require an online 하이코리아 reservation and may turn away walk-ins; and 비자 'visa' takes 연장하다 ('extend'), not the English-flavored 'renew' rendered literally."
+      }
+    ],
     "mistakes": [
-      "Reporting an address change only at the 동사무소; foreign residents must also report it to the 출입국사무소.",
-      "Showing up without a reservation; most immigration offices now require booking and may turn away walk-ins."
+      "Reporting an address change only at the 동사무소; foreign residents must ALSO report it to the 출입국사무소 (체류지 변경 신고) — hence 출입국사무소에도 신고하다.",
+      "Showing up without a reservation; most immigration offices now require booking through 하이코리아 and may turn away walk-ins.",
+      "Saying 외국인등록증을 발급하다 about yourself; the office 발급하다 (issues) the card, while you 발급받다 (receive) it."
     ]
   },
   {
@@ -247,20 +477,43 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["우편함을 확인하다", "check the mailbox", "우편함 is the box at your building where mail is delivered"],
-      ["우편함에 꽂히다", "be slipped into the mailbox", "꽂히다 describes mail tucked into the slot"],
-      ["공동 우편함", "shared mailboxes", "apartment lobbies have a wall of 공동 우편함, one per unit"],
-      ["우편함 비밀번호", "the mailbox combination", "many building 우편함 have a small dial lock"]
+      ["우편함을 확인하다", "check the mailbox", "우편함 is the box at your building where incoming mail lands"],
+      ["우편함에 꽂히다 / 들어오다", "be slipped into / arrive in the mailbox", "꽂히다 (passive) 'be stuck in' describes mail tucked into the slot"],
+      ["공동 우편함", "shared (bank of) mailboxes", "apartment lobbies have a wall of 공동 우편함, one slot per unit"],
+      ["우편함 비밀번호", "the mailbox combination", "many building 우편함 have a small dial/number lock"]
     ],
     "examples": [
-      ["고지서가 우편함에 며칠째 그대로 있었어요.", "The bill had been sitting in the mailbox for several days.", "고지서 (bills) and official notices arrive by mail"],
-      ["등기우편은 우편함에 안 넣고 직접 받아야 해요.", "Registered mail isn't left in the mailbox; you have to receive it in person.", "등기 requires a signature, unlike regular mail"],
-      ["관리비 고지서는 매달 우편함으로 와요.", "The maintenance-fee bill comes to the mailbox every month.", "관리비 notices are a routine piece of resident mail"]
+      ["우편함에 편지가 왔어요.", "A letter came in the mailbox.", "오다 'come' is natural for mail arriving; 에 marks the location it landed in"],
+      ["관리비 고지서는 매달 우편함으로 와요.", "The maintenance-fee bill comes to the mailbox every month.", "우편함으로 오다 '(come) by way of the mailbox' — 으로 marks the route/channel; 고지서 = bills"],
+      ["등기우편은 우편함에 안 넣고 직접 받아야 해요.", "Registered mail isn't left in the mailbox; you have to receive it in person.", "등기 requires a signature, unlike regular mail; -지 않고 → 안 넣고 'without putting it in'"]
     ],
-    "nuance": "우편함 is the mailbox where letters and official notices are delivered, typically a locked unit in an apartment lobby. As a resident you should check it regularly, since bills (고지서), tax notices, and government letters arrive this way and often carry deadlines. Note that registered mail (등기우편) is not left here but handed over in person against a signature.",
+    "nuance": "우편함 (郵便函, 郵便 'mail/post' + 函 'box/case') is the *incoming* mailbox where letters and official notices are delivered, usually a locked unit in an apartment lobby. The crucial contrast is 우편함 vs 우체통 (郵遞筒): the 우편함 is your private *receiving* box at home, while the red 우체통 on the street is the public *outgoing* box you drop letters into — confusing them is the classic learner slip because English 'mailbox' covers both directions. (And 우체국 is the post office building itself.) Note 函 means a case/box, distinct from 통 'cylinder/bin'. Habitual partners: 확인하다, 고지서, 등기우편, 공동 우편함, 비밀번호; mail 'comes' to it via 우편함으로 오다. Pitfall: check it regularly, because 고지서 (bills), tax notices, and government letters with deadlines arrive here — and don't expect 등기우편 (registered mail) in the box, since registered items need an in-person signature and are otherwise re-delivered (재배송).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "우편함 is the incoming mailbox where letters and official notices are delivered, usually a locked unit in an apartment lobby. Habitual partners: 확인하다, 고지서, 등기우편, 공동 우편함, 비밀번호; mail 'comes' to it via 우편함으로 오다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial contrast is 우편함 vs 우체통 (郵遞筒): the 우편함 is your private receiving box at home, while the red 우체통 on the street is the public outgoing box you drop letters into — confusing them is the classic learner slip because English 'mailbox' covers both directions. (And 우체국 is the post office building itself.) Note 函 means a case/box, distinct from 통 'cylinder/bin'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "郵便函: 郵便 'mail/post' + 函 'box/case'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Check it regularly, because 고지서 (bills), tax notices, and government letters with deadlines arrive here — and don't expect 등기우편 (registered mail) in the box, since registered items need an in-person signature and are otherwise re-delivered (재배송)."
+      }
+    ],
     "mistakes": [
-      "Confusing 우편함 (your delivery mailbox) with 우체통 (the red public postbox you drop outgoing letters into).",
-      "Expecting 등기우편 in the 우편함; registered items require an in-person handoff or a redelivery."
+      "Confusing 우편함 (your incoming home mailbox) with 우체통 (the red public postbox for outgoing letters); English 'mailbox' hides this in/out distinction.",
+      "Expecting 등기우편 to be left in the 우편함; registered mail requires an in-person handoff with a signature, or it is re-delivered.",
+      "Using 통 instead of 함: a home receiving box is 우편함 (函 'case'), while 우체통 (筒 'cylinder') is the street postbox — they are not interchangeable."
     ]
   },
   {
@@ -272,19 +525,42 @@
     "grammarIds": [],
     "usage": [
       ["관공서에 가다", "go to a government office", "관공서 is the umbrella term for any public office (구청, 세무서, etc.)"],
-      ["관공서 업무 시간", "government office hours", "usually weekdays 9 to 6, closed weekends and holidays"],
-      ["관공서 휴무", "government office closure", "휴무 on public holidays; plan errands around them"],
+      ["관공서 업무 시간", "government office hours", "업무 시간 (業務時間) usually weekdays 9 to 6, closed weekends and holidays"],
+      ["관공서가 문을 닫다", "the government office is closed", "문을 닫다 'close (its) door' = be shut, esp. on 공휴일"],
       ["관공서 서류", "official paperwork from a public office", "documents issued or required by a 관공서"]
     ],
     "examples": [
-      ["관공서는 평일에만 열어서 점심시간에 다녀와요.", "Government offices are only open on weekdays, so I run over during my lunch break.", "the weekday-only schedule is a real planning constraint"],
-      ["공휴일에는 관공서가 다 문을 닫아요.", "On public holidays all government offices are closed.", "공휴일 closures catch newcomers off guard"],
-      ["은행이랑 관공서 일은 오전에 미리 끝내는 게 좋아요.", "It's best to finish bank and government-office errands in the morning.", "lines grow in the afternoon"]
+      ["관공서는 주말에 문을 닫아요.", "Government offices are closed on weekends.", "문을 닫다 'shut the door' = be closed; a basic, high-frequency fact for newcomers"],
+      ["공휴일에는 관공서가 다 문을 닫아요.", "On public holidays all government offices are closed.", "공휴일 (public holiday) closures catch newcomers off guard; 다 'all'"],
+      ["관공서는 평일에만 열어서 점심시간에 다녀와요.", "Government offices only open on weekdays, so I run over during lunch.", "평일에만 'only on weekdays'; 다녀오다 'go and come back' for a quick errand"]
     ],
-    "nuance": "관공서 is the general term covering all government and public offices, the kind of place you go for official paperwork, from the 구청 to the 세무서. The practical thing to remember is their schedule: weekdays only, standard daytime hours, and closed on public holidays. Newcomers often plan an errand only to find the 관공서 shut for a holiday.",
+    "nuance": "관공서 (官公署, 官 'government/officialdom' + 公 'public' + 署 'bureau') is the general cover term for all government and public offices — the category that includes the 구청, 세무서, 동사무소, 보건소 and so on. The contrast to grasp is scope: 관공서 is the *umbrella word*, while 구청/세무서 are specific *instances* of it, so you use 관공서 when you mean 'public offices in general' (their hours, their closures) and the specific name when you mean one place. The practical knowledge baked into the word is the schedule: weekdays only, standard daytime hours (보통 9시–6시), and shut on 공휴일 — the set phrase being 관공서가 문을 닫다 ('the offices close their doors'). Habitual partners: 업무 시간, 공휴일, 휴무, 평일, 서류. Pitfall: English speakers assume offices keep bank-ATM-like evening or weekend access, but 관공서 generally close at 6 on weekdays and entirely on holidays — plan errands for a weekday morning, and use online services (정부24, 홈택스) when the office is shut.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "관공서 is the general cover term for all government and public offices — the category that includes the 구청, 세무서, 동사무소, 보건소 and so on. The practical knowledge baked into the word is the schedule: weekdays only, standard daytime hours (보통 9시–6시), and shut on 공휴일 — the set phrase being 관공서가 문을 닫다 ('the offices close their doors'). Habitual partners: 업무 시간, 공휴일, 휴무, 평일, 서류."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to grasp is scope: 관공서 is the umbrella word, while 구청/세무서 are specific instances of it, so you use 관공서 when you mean 'public offices in general' (their hours, their closures) and the specific name when you mean one place."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "官公署: 官 'government/officialdom' + 公 'public' + 署 'bureau'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers assume offices keep bank-ATM-like evening or weekend access, but 관공서 generally close at 6 on weekdays and entirely on holidays — plan errands for a weekday morning, and use online services (정부24, 홈택스) when the office is shut."
+      }
+    ],
     "mistakes": [
-      "Assuming 관공서 keep evening or weekend hours like banks' ATMs; they generally close at 6 on weekdays.",
-      "Trying to visit on a 공휴일 (public holiday); nearly all 관공서 are closed and you'll need to use online services instead."
+      "Assuming 관공서 keep evening or weekend hours like a bank's ATM; they generally close at 6 on weekdays and are shut on weekends.",
+      "Trying to visit on a 공휴일 (public holiday); nearly all 관공서 문을 닫다 (are closed) and you'll need online services like 정부24 instead.",
+      "Using 관공서 when you mean one specific office; 관공서 is the umbrella category — for a particular errand name the actual office (구청, 세무서)."
     ]
   }
 ]

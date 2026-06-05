@@ -1,0 +1,160 @@
+[
+  {
+    "id": "convo-open-bank-account",
+    "title": "Opening a bank account",
+    "situation": "You go to a bank in Korea to open your first account. You greet the teller, say what you need, and hand over your ID to fill out the form.",
+    "setting": "counter",
+    "partner": "은행원",
+    "tip": "At the counter, '계좌를 만들고 싶어요' or '계좌를 개설하려고 왔어요' both work. Foreigners usually need a 외국인등록증 (ARC) as 신분증.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "어서 오세요. 무엇을 도와드릴까요?",
+        "en": "Welcome. How can I help you?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you'd like to open a bank account.",
+        "choices": [
+          { "ko": "계좌를 만들고 싶어요.", "en": "I'd like to open an account." },
+          { "ko": "계좌 만들어.", "en": "Make me an account. (too casual/rude)" },
+          { "ko": "돈이 필요해요.", "en": "I need money. (wrong meaning)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네, 신분증 좀 보여 주시겠어요?",
+        "en": "Sure, could you show me your ID, please?"
+      },
+      {
+        "role": "you",
+        "prompt": "Hand over your ID and say 'here you are'. (You only have your foreigner ID card.)",
+        "choices": [
+          { "ko": "여기 외국인등록증이요.", "en": "Here's my foreigner registration card." },
+          { "ko": "신분증 없어요.", "en": "I don't have an ID. (then you can't open one)" },
+          { "ko": "여권 집에 있어요.", "en": "My passport is at home. (unhelpful)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "감사합니다. 그럼 이 신청서를 작성해 주세요.",
+        "en": "Thank you. Then please fill out this application form."
+      },
+      {
+        "role": "you",
+        "prompt": "Ask where you should write your phone number on the form.",
+        "choices": [
+          { "ko": "전화번호는 어디에 써요?", "en": "Where do I write my phone number?" },
+          { "ko": "전화번호 몰라요.", "en": "I don't know the phone number. (odd)" },
+          { "ko": "이거 다 써요?", "en": "Do I write all of this? (vague)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "여기 이름 옆에 적어 주시면 돼요. 체크카드도 함께 만들어 드릴까요?",
+        "en": "Just write it next to your name. Shall I make you a debit card too?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say yes, and ask if there's a fee.",
+        "choices": [
+          { "ko": "네, 만들어 주세요. 수수료가 있나요?", "en": "Yes, please make one. Is there a fee?" },
+          { "ko": "아니요, 통장만요. 카드 싫어요.", "en": "No, just the bankbook. I hate cards. (blunt)" },
+          { "ko": "카드가 뭐예요?", "en": "What's a card? (unnatural here)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "카드 발급 수수료는 무료예요. 통장과 카드는 잠시 후에 나옵니다.",
+        "en": "The card issuance fee is free. Your bankbook and card will be ready in a moment."
+      }
+    ],
+    "vocab": [
+      { "ko": "계좌", "en": "(bank) account" },
+      { "ko": "신분증", "en": "ID card" },
+      { "ko": "신청서", "en": "application form" },
+      { "ko": "통장", "en": "bankbook" },
+      { "ko": "체크카드", "en": "debit card" },
+      { "ko": "수수료", "en": "fee / charge" }
+    ]
+  },
+  {
+    "id": "convo-gu-office-document",
+    "title": "Getting a document at the district office",
+    "situation": "You visit the 구청 (district office) to apply for and pick up an official document. You take a number, submit your papers, and ask when it will be ready.",
+    "setting": "counter",
+    "partner": "직원",
+    "tip": "At a 구청 or immigration office, take a 번호표 first and wait for your number. Use '신청하다' to apply, '발급받다' to get a document issued, and '접수하다' for them processing/receiving it.",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "안녕하세요. 번호표 뽑고 잠시 기다려 주세요.",
+        "en": "Hello. Please take a number and wait a moment."
+      },
+      {
+        "role": "you",
+        "prompt": "Ask where the number-ticket machine is.",
+        "choices": [
+          { "ko": "번호표는 어디에서 뽑아요?", "en": "Where do I take a number ticket?" },
+          { "ko": "번호표 줘.", "en": "Give me a number. (too casual/rude)" },
+          { "ko": "번호가 뭐예요?", "en": "What's the number? (confusing)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "입구 오른쪽에 있어요. 다음 손님, 무엇을 도와드릴까요?",
+        "en": "It's on the right at the entrance. Next customer, how can I help you?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you came to apply for a certificate of residence (a document).",
+        "choices": [
+          { "ko": "서류를 발급받으러 왔어요.", "en": "I came to get a document issued." },
+          { "ko": "서류 주세요, 빨리요.", "en": "Give me the document, quickly. (impolite)" },
+          { "ko": "여기 서류 있어요?", "en": "Do you have documents here? (vague)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네, 신분증과 신청서를 주시겠어요?",
+        "en": "Sure, could you give me your ID and the application form?"
+      },
+      {
+        "role": "you",
+        "prompt": "Hand them over and say you've already filled out the form.",
+        "choices": [
+          { "ko": "여기 있어요. 신청서는 미리 작성했어요.", "en": "Here you are. I filled out the form in advance." },
+          { "ko": "신청서 안 썼어요, 그냥 주세요.", "en": "I didn't fill it out, just give it to me. (won't work)" },
+          { "ko": "이거 맞아요?", "en": "Is this right? (too vague)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "접수해 드렸습니다. 수수료는 천 원입니다.",
+        "en": "I've processed your application. The fee is 1,000 won."
+      },
+      {
+        "role": "you",
+        "prompt": "Pay, and ask when the document will be ready.",
+        "choices": [
+          { "ko": "여기요. 서류는 언제 나와요?", "en": "Here you go. When will the document be ready?" },
+          { "ko": "왜 이렇게 비싸요?", "en": "Why is it so expensive? (rude over 1,000 won)" },
+          { "ko": "지금 당장 주세요.", "en": "Give it to me right now. (demanding)" }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "십 분 정도 걸려요. 성함 부르면 이쪽으로 와 주세요.",
+        "en": "It takes about ten minutes. When I call your name, please come over here."
+      }
+    ],
+    "vocab": [
+      { "ko": "번호표", "en": "number ticket" },
+      { "ko": "서류", "en": "document(s)" },
+      { "ko": "신청하다", "en": "to apply" },
+      { "ko": "발급받다", "en": "to get (a document) issued" },
+      { "ko": "접수하다", "en": "to receive / process (an application)" },
+      { "ko": "수수료", "en": "fee / charge" }
+    ]
+  }
+]

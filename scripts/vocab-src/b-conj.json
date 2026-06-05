@@ -7,18 +7,23 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["그리고", "and / and then", "Most basic connector between two sentences."],
-      ["밥을 먹어요. 그리고 자요.", "I eat. And then I sleep.", "Links two actions in sequence."],
-      ["책을 읽어요. 그리고 음악을 들어요.", "I read a book. And I listen to music.", "Adds a second action."],
-      ["그리고 또?", "And then? / Anything else?", "Common short follow-up question."]
+      ["그리고", "and / and then", "Sentence-initial connector; never glues two nouns together."],
+      ["밥을 먹어요. 그리고 자요.", "I eat. And then I sleep.", "Lists two actions in the order they happen."],
+      ["그리고 또?", "And then? / Anything else?", "Tiny prompt that asks the speaker to keep going."],
+      ["그리고 나서 → 그러고 나서", "and after that (correct form)", "If you want 'and then after that', the verb-anchored form is 그러고 나서, not 그리고 나서."]
     ],
     "examples": [
-      ["저는 학생이에요. 그리고 한국어를 배워요.", "I'm a student. And I'm learning Korean.", "Two simple 요-form sentences joined."],
-      ["아침에 운동해요. 그리고 회사에 가요.", "I exercise in the morning. And then I go to work.", "Shows sequence of daily actions."],
-      ["저는 커피를 마셔요. 그리고 친구는 차를 마셔요.", "I drink coffee. And my friend drinks tea.", "Joins two simple sentences."]
+      ["저는 학생이에요. 그리고 한국어를 배워요.", "I'm a student. And I'm learning Korean.", "Two plain 요-form sentences simply stacked."],
+      ["아침에 운동하고 샤워해요. 그리고 회사에 가요.", "I work out and shower in the morning. And then I go to work.", "Note: inside one clause use connective -고; 그리고 starts the next sentence."],
+      ["커피랑 빵 주세요. 그리고 물도요.", "Coffee and bread, please. And water too.", "Real café add-on; 랑 joins the nouns, 그리고 adds a whole new request."]
     ],
-    "nuance": "그리고 is the simplest 'and' that connects two full sentences or actions in order. Beginners use it constantly to add a second thought. Unlike English 'and', it usually starts a new sentence rather than sitting in the middle.",
-    "mistakes": ["Trying to use 그리고 to join nouns inside one sentence — for nouns use 와/과 or 하고 instead.", "Putting 그리고 at the end of a sentence; it always goes at the start of the next one."]
+    "nuance": "그리고 is the plainest sentence-level 'and / and then', used to add a second thought or line up actions in sequence. The trap for English speakers is that English 'and' does double duty — it joins nouns ('coffee and tea') AND clauses ('I sat and ate') — but Korean splits those jobs. For nouns you must use 와/과, 하고, or 랑 (커피하고 차), and for two verbs inside one breath you use the connective ending -고 (먹고 자요). 그리고 belongs only at the head of a NEW sentence, like a fresh 'And then…'. Compare it with 그러고 나서 (after finishing that, then), which stresses that the first action is fully done before the next; 그리고 just adds, while 그러고 나서 sequences. Beginners lean on it heavily, which is fine, but stringing five sentences with 그리고…그리고…그리고 sounds childish — vary it with -고, 그다음에, or 그래서.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그리고 is the plainest sentence-level 'and / and then', used to add a second thought or line up actions in sequence. It belongs only at the head of a NEW sentence, like a fresh 'And then…'. Beginners lean on it heavily, which is fine, but stringing five sentences with 그리고…그리고…그리고 sounds childish — vary it with -고, 그다음에, or 그래서."},
+      {"k": "비슷한 말", "e": "VS", "t": "Compare it with 그러고 나서 (after finishing that, then), which stresses that the first action is fully done before the next; 그리고 just adds, while 그러고 나서 sequences."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The trap for English speakers is that English 'and' does double duty — it joins nouns ('coffee and tea') AND clauses ('I sat and ate') — but Korean splits those jobs. For nouns you must use 와/과, 하고, or 랑 (커피하고 차), and for two verbs inside one breath you use the connective ending -고 (먹고 자요)."}
+    ],
+    "mistakes": ["Saying 커피 그리고 차 to mean 'coffee and tea'. 그리고 cannot bind two nouns; the natural forms are 커피하고 차, 커피와 차, or 커피랑 차.", "Writing 밥을 먹어요 그리고 자요 as one run-on. 그리고 starts a fresh sentence, so it should be 밥을 먹어요. 그리고 자요 (or simply 밥을 먹고 자요).", "Spelling the sequencing form 그리고 나서. The verb-derived form is 그러고 나서 (from 그러다); 그리고 나서 is a very common but incorrect mix-up."]
   },
   {
     "kind": "adverb",
@@ -28,18 +33,23 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["그래서", "so / that's why", "Shows the result of the previous sentence."],
-      ["피곤해요. 그래서 일찍 자요.", "I'm tired. So I sleep early.", "Cause then result."],
-      ["그래서요?", "So? / And then?", "Casual prompt to continue."],
-      ["그래서 어떻게 됐어요?", "So what happened?", "Common conversational follow-up."]
+      ["그래서", "so / that's why", "Points back to the previous sentence and names its result."],
+      ["피곤해요. 그래서 일찍 자요.", "I'm tired. So I sleep early.", "Reason first, natural consequence second."],
+      ["그래서요?", "So? / And then?", "Casual nudge for the speaker to get to the point."],
+      ["그래서 어떻게 됐어요?", "So how did it turn out?", "Stock follow-up that asks for the outcome of a story."]
     ],
     "examples": [
-      ["비가 와요. 그래서 우산을 가져가요.", "It's raining. So I'm taking an umbrella.", "Result of the rain."],
-      ["배가 고파요. 그래서 밥을 먹어요.", "I'm hungry. So I eat.", "Simple cause and effect."],
-      ["오늘 바빠요. 그래서 못 가요.", "I'm busy today. So I can't go.", "Explains why something can't happen."]
+      ["비가 와요. 그래서 우산을 가져가요.", "It's raining. So I'm taking an umbrella.", "Plain cause → everyday result."],
+      ["어제 늦게 잤어요. 그래서 오늘 너무 피곤해요.", "I went to bed late yesterday. So I'm exhausted today.", "Past reason leading to a present state — both verbs carry their own tense."],
+      ["길이 막혔어요. 그래서 회의에 늦었어요. 죄송합니다.", "Traffic was jammed. So I was late to the meeting. I'm sorry.", "Real apology context — 그래서 supplies the excuse."]
     ],
-    "nuance": "그래서 connects a reason to its result, like 'so' or 'that's why'. It points back to the previous sentence and gives the natural consequence. It is one of the first cause-result words a beginner should master.",
-    "mistakes": ["Confusing 그래서 (so/result) with 그런데 (but/by the way).", "Using 그래서 to give a command — for commands use 그러니까 instead (그래서 + imperative sounds unnatural)."]
+    "nuance": "그래서 links a cause to its natural result — 'so / that's why' — and is the first cause-effect connector a beginner must own. It is the sentence-starting cousin of the clause ending -아서/-어서 (피곤해서 일찍 자요 = 피곤해요. 그래서 일찍 자요). The sharp boundary to learn is 그래서 vs 그러니까: both can mean 'so', but 그래서 reports a plain consequence, while 그러니까 pushes a conclusion onto the listener and is what you use before a command or suggestion (피곤하지? 그러니까 일찍 자 = so go to bed). Two real pitfalls: first, 그래서 cannot head an imperative or a let's-form — 그래서 일찍 자세요 sounds off, so switch to 그러니까. Second, English 'so' can also mean 'very' ('so tired'); that meaning is 너무/정말, never 그래서. Keep 그래서 strictly for result.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그래서 links a cause to its natural result — 'so / that's why' — and is the first cause-effect connector a beginner must own. It is the sentence-starting cousin of the clause ending -아서/-어서 (피곤해서 일찍 자요 = 피곤해요. 그래서 일찍 자요). Keep 그래서 strictly for result."},
+      {"k": "비슷한 말", "e": "VS", "t": "The sharp boundary to learn is 그래서 vs 그러니까: both can mean 'so', but 그래서 reports a plain consequence, while 그러니까 pushes a conclusion onto the listener and is what you use before a command or suggestion (피곤하지? 그러니까 일찍 자 = so go to bed)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Two real pitfalls: first, 그래서 cannot head an imperative or a let's-form — 그래서 일찍 자세요 sounds off, so switch to 그러니까. Second, English 'so' can also mean 'very' ('so tired'); that meaning is 너무/정말, never 그래서."}
+    ],
+    "mistakes": ["Using 그래서 before a command: 비가 와요. 그래서 우산 가져가세요. Result-into-an-order needs 그러니까 — 비가 와요. 그러니까 우산 가져가세요.", "Mixing it up with 그런데 (but / by the way). 그래서 = result; 그런데 = mild contrast or topic shift. They are not interchangeable.", "Translating 'so tired' as 그래서 피곤해요. There 'so' means 'very', so it should be 너무 피곤해요; 그래서 only means 'therefore'."]
   },
   {
     "kind": "adverb",
@@ -49,18 +59,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["그런데", "but / by the way", "Soft contrast or topic change."],
-      ["좋아요. 그런데 좀 비싸요.", "It's nice. But it's a bit expensive.", "Mild contrast."],
-      ["그런데 말이에요", "by the way / the thing is", "Starts a new topic gently."],
-      ["그런데 왜요?", "But why? / By the way, why?", "Casual question opener."]
+      ["그런데", "but / by the way", "Soft contrast OR a gentle pivot to a new topic."],
+      ["좋아요. 그런데 좀 비싸요.", "It's nice. But it's a bit pricey.", "Mild 'but' that softens the bad news."],
+      ["그런데 말이에요,", "by the way, here's the thing…", "Set phrase that eases you into a new subject."],
+      ["그런데 → 근데", "but (casual spoken form)", "In speech almost everyone shortens it to 근데."]
     ],
     "examples": [
-      ["이 식당 맛있어요. 그런데 사람이 많아요.", "This restaurant is tasty. But there are a lot of people.", "Soft 'but' between two facts."],
-      ["주말에 쉬어요. 그런데 일요일은 일해요.", "I rest on the weekend. But I work on Sunday.", "Gentle contrast in plans."],
-      ["그런데 이거 얼마예요?", "By the way, how much is this?", "Changing the topic to ask a question."]
+      ["이 식당 맛있어요. 그런데 사람이 너무 많아요.", "This place is tasty. But there are way too many people.", "Two facts, gently set against each other."],
+      ["잘 지냈어요? 그런데 그 얘기 들었어요?", "Have you been well? By the way, did you hear that news?", "Here it isn't 'but' at all — it just changes the subject."],
+      ["주문하려고 하는데요, 그런데 이거 매워요?", "I'd like to order — but is this spicy?", "Real ordering moment; softens straight into a question."]
     ],
-    "nuance": "그런데 is a very common, soft 'but' that can also mean 'by the way' to change the subject. It is gentler than 하지만 and feels natural in everyday chat. Koreans often use it just to ease into a new question or topic.",
-    "mistakes": ["Thinking 그런데 only means 'but' — it very often just means 'by the way'.", "Overusing it as a strong contrast; for a clear 'however' 하지만 is stronger."]
+    "nuance": "그런데 (spoken: 근데) is the soft, all-purpose 'but' that also works as 'by the way' to glide into a new topic — this double life surprises English speakers most. As contrast it is far gentler than 하지만 or 그렇지만; it doesn't slam two ideas together, it just notes that something slightly different follows. As a topic-changer it carries no contrast at all: 그런데, 우리 언제 만나요? simply means 'So/Anyway, when shall we meet?'. It is closely tied to the mid-sentence ending -는데, which sets background before a turn (비싼데 살까? = it's pricey, but shall I buy it?). The everyday pitfall is over-translating it as a strong 'however'; if you mean a firm, contrastive 'however', reach for 하지만. And don't write the long form in chat — Koreans type 근데.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그런데 (spoken: 근데) is the soft, all-purpose 'but' that also works as 'by the way' to glide into a new topic — this double life surprises English speakers most. As contrast it doesn't slam two ideas together, it just notes that something slightly different follows. As a topic-changer it carries no contrast at all: 그런데, 우리 언제 만나요? simply means 'So/Anyway, when shall we meet?'. It is closely tied to the mid-sentence ending -는데, which sets background before a turn (비싼데 살까? = it's pricey, but shall I buy it?). And don't write the long form in chat — Koreans type 근데."},
+      {"k": "비슷한 말", "e": "VS", "t": "As contrast it is far gentler than 하지만 or 그렇지만. If you mean a firm, contrastive 'however', reach for 하지만 instead."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The everyday pitfall is over-translating it as a strong 'however'; if you mean a firm, contrastive 'however', reach for 하지만."}
+    ],
+    "mistakes": ["Assuming 그런데 always means 'but'. Very often it just means 'by the way / so' and introduces zero contrast, as in 그런데 이거 얼마예요? (By the way, how much is this?).", "Using 그런데 where you need a strong, clear 'however'. For a firm contrast 하지만/그렇지만 is stronger; 그런데 stays soft.", "Saying 그런데 in fast casual speech. It's not wrong, but it sounds bookish — natural spoken Korean contracts it to 근데."]
   },
   {
     "kind": "adverb",
@@ -70,18 +85,23 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["하지만", "but / however", "Clear contrast between two sentences."],
-      ["맛있어요. 하지만 비싸요.", "It's tasty. But it's expensive.", "Direct contrast."],
-      ["하지만 괜찮아요.", "But it's okay.", "Softening a previous negative."],
-      ["좋아요. 하지만 시간이 없어요.", "It's good. But I don't have time.", "Stating an obstacle."]
+      ["하지만", "but / however", "Clean, direct contrast at the start of a sentence."],
+      ["맛있어요. 하지만 비싸요.", "It's tasty. But it's expensive.", "Plain head-on contrast."],
+      ["하지만 괜찮아요.", "But it's okay.", "Walks back a previous negative."],
+      ["하지만 ≈ 그렇지만", "but (near-twin)", "Interchangeable with 그렇지만 in almost every beginner sentence."]
     ],
     "examples": [
-      ["한국어는 어려워요. 하지만 재미있어요.", "Korean is hard. But it's fun.", "Classic contrast sentence for beginners."],
-      ["저는 가고 싶어요. 하지만 바빠요.", "I want to go. But I'm busy.", "Want versus reality."],
-      ["날씨가 추워요. 하지만 눈이 안 와요.", "The weather is cold. But it doesn't snow.", "Two weather facts contrasted."]
+      ["한국어는 어려워요. 하지만 정말 재미있어요.", "Korean is hard. But it's really fun.", "The classic learner contrast sentence."],
+      ["저도 가고 싶었어요. 하지만 시간이 없었어요.", "I wanted to go too. But I didn't have the time.", "Past wish vs past reality; both clauses keep their tense."],
+      ["발표는 떨렸어요. 하지만 끝까지 잘 해냈습니다.", "The presentation was nerve-wracking. However, I saw it through well.", "A notch more formal — fits a 합니다-style report."]
     ],
-    "nuance": "하지만 is the standard, clear 'but/however' used to contrast two full sentences. It is a little more formal and direct than 그런데. Beginners can safely use it whenever they mean a plain 'but'.",
-    "mistakes": ["Using 하지만 to mean 'by the way' — that nuance belongs to 그런데.", "Placing 하지만 in the middle of one sentence; it starts the contrasting sentence."]
+    "nuance": "하지만 is the standard, clear-cut 'but / however' for contrasting two full sentences, and it reads a touch more formal and decisive than 그런데/근데. The crucial contrast to internalize is 하지만 vs 그런데: 하지만 is purely contrastive — it never means 'by the way' and never changes the topic, whereas 그런데 is soft and frequently just pivots subjects. So if you only mean a plain 'but', 하지만 is the safe pick; if you're easing into a new question, you want 그런데. It is essentially the sentence-initial sibling of the connective -지만 (어렵지만 재미있어요 = 어려워요. 하지만 재미있어요). The pitfalls: never drop it into the middle of one sentence — it heads the contrasting sentence — and don't use it to mean 'by the way', which is 그런데's job, not 하지만's.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "하지만 is the standard, clear-cut 'but / however' for contrasting two full sentences, and it reads a touch more formal and decisive than 그런데/근데. It is essentially the sentence-initial sibling of the connective -지만 (어렵지만 재미있어요 = 어려워요. 하지만 재미있어요)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial contrast to internalize is 하지만 vs 그런데: 하지만 is purely contrastive — it never means 'by the way' and never changes the topic, whereas 그런데 is soft and frequently just pivots subjects. So if you only mean a plain 'but', 하지만 is the safe pick; if you're easing into a new question, you want 그런데."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfalls: never drop it into the middle of one sentence — it heads the contrasting sentence — and don't use it to mean 'by the way', which is 그런데's job, not 하지만's."}
+    ],
+    "mistakes": ["Using 하지만 to mean 'by the way' / to change topics. That nuance belongs only to 그런데; 하지만 is contrast and nothing else.", "Splicing it mid-sentence: 맛있어요 하지만 비싸요. It must open the contrasting sentence — 맛있어요. 하지만 비싸요 (or one clause: 맛있지만 비싸요).", "Stacking 하지만 with the clause ending -지만 at once: 어렵지만 하지만 재미있어요 is doubled-up. Pick one — either 어렵지만 재미있어요 or 어려워요. 하지만 재미있어요."]
   },
   {
     "kind": "adverb",
@@ -91,18 +111,23 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["또는", "or", "Gives an alternative choice."],
-      ["커피 또는 차", "coffee or tea", "Choice between two nouns."],
-      ["버스 또는 지하철로 가요.", "I go by bus or subway.", "Two transport options."],
-      ["월요일 또는 화요일", "Monday or Tuesday", "Choice between two days."]
+      ["또는", "or", "Offers an alternative; clean and slightly formal."],
+      ["커피 또는 차", "coffee or tea", "Sits cleanly between two nouns."],
+      ["버스 또는 지하철로 가요.", "Go by bus or subway.", "Two options; the particle 로 attaches to the whole choice."],
+      ["또는 ≈ 아니면", "or (casual equivalent)", "In speech Koreans usually say 아니면 instead."]
     ],
     "examples": [
-      ["주스 또는 물을 마셔요.", "I drink juice or water.", "Simple either-or with nouns."],
-      ["펜 또는 연필로 쓰세요.", "Write with a pen or a pencil.", "Offering two tools."],
-      ["오늘 또는 내일 만나요.", "Let's meet today or tomorrow.", "Two time options for a plan."]
+      ["주스 또는 물을 드릴까요?", "Shall I give you juice or water?", "Polite either/or offer with nouns."],
+      ["검은색 또는 흰색 중에서 고르세요.", "Choose between black or white.", "Pairs naturally with 중에서 ('among') when picking from a set."],
+      ["현금 또는 카드로 결제 가능합니다.", "Payment is possible by cash or card.", "Exactly the formal register you see on signs and notices."]
     ],
-    "nuance": "또는 means 'or' and is used to offer a choice between options, often nouns. It is the clear, slightly formal 'or' you see in writing and notices. In casual speech Koreans also say 아니면, but 또는 is the safe textbook choice.",
-    "mistakes": ["Confusing 또는 (or) with 또 (again/also).", "Using 또는 for 'either... or...' emphasis where casual speech prefers 아니면."]
+    "nuance": "또는 means 'or' and presents a choice between alternatives, most often nouns. It reads clean and a bit formal — the 'or' of written notices, menus, and instructions (현금 또는 카드 = cash or card). Two near-synonyms mark its boundaries: in everyday speech Koreans far more often say 아니면 ('or else / or'), which is the conversational default, while 혹은 is a near-twin of 또는 that is also written and even a shade more literary. The pitfall that trips English speakers is the false friend 또: 또는 = 'or', but 또 on its own means 'again' or 'also' (또 왔어요 = you came again). They look almost identical, so confusing them flips the meaning entirely. Also note 또는 is not used for 'either…or…' emphasis the way English doubles it up; Korean simply lists A 또는 B, or in casual speech A 아니면 B.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "또는 means 'or' and presents a choice between alternatives, most often nouns. It reads clean and a bit formal — the 'or' of written notices, menus, and instructions (현금 또는 카드 = cash or card). Note 또는 is not used for 'either…or…' emphasis the way English doubles it up; Korean simply lists A 또는 B, or in casual speech A 아니면 B."},
+      {"k": "비슷한 말", "e": "VS", "t": "Two near-synonyms mark its boundaries: in everyday speech Koreans far more often say 아니면 ('or else / or'), which is the conversational default, while 혹은 is a near-twin of 또는 that is also written and even a shade more literary."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall that trips English speakers is the false friend 또: 또는 = 'or', but 또 on its own means 'again' or 'also' (또 왔어요 = you came again). They look almost identical, so confusing them flips the meaning entirely."}
+    ],
+    "mistakes": ["Confusing 또는 (or) with 또 (again / also): 또 오세요 means 'come again', not 'or come'. Dropping the 는 changes the word completely.", "Forcing 또는 into casual chat: 밥 또는 라면 먹을래? sounds stiff. Spoken Korean prefers 밥 아니면 라면 먹을래?", "Trying to mirror English 'either…or…' with a doubled 또는. Korean just says A 또는 B (or 둘 중 하나 for 'one of the two'); there is no paired 'either' word."]
   },
   {
     "kind": "adverb",
@@ -112,18 +137,23 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["왜냐하면", "because / the reason is", "Introduces a reason, often paired with 거든요/때문이에요."],
-      ["왜냐하면 비싸거든요.", "Because it's expensive, you see.", "Reason ending with 거든요."],
-      ["왜냐하면 바쁘기 때문이에요.", "Because I'm busy.", "Reason ending with 때문이에요."],
-      ["왜냐하면 ~", "it's because ~", "Always starts the explaining sentence."]
+      ["왜냐하면", "because / the reason is", "Opens the explaining sentence; loves a 거든요/때문이에요 ending."],
+      ["왜냐하면 비싸거든요.", "Because, you see, it's expensive.", "Pairs with 거든요 to share a reason conversationally."],
+      ["왜냐하면 바쁘기 때문이에요.", "It's because I'm busy.", "Pairs with 때문이에요 for a tidy 'it is because'."],
+      ["왜냐하면 ~", "the reason is that ~", "Always begins a brand-new sentence after the result."]
     ],
     "examples": [
-      ["오늘 안 가요. 왜냐하면 아파요.", "I'm not going today. Because I'm sick.", "Gives the reason for not going."],
-      ["저는 한국이 좋아요. 왜냐하면 음식이 맛있어요.", "I like Korea. Because the food is delicious.", "Reason for liking Korea."],
-      ["창문을 열어요. 왜냐하면 너무 더워요.", "I open the window. Because it's too hot.", "Reason for an action."]
+      ["오늘은 못 가요. 왜냐하면 좀 아프거든요.", "I can't go today. Because, you see, I'm a bit sick.", "The natural 거든요 partner ending."],
+      ["저는 여름을 좋아해요. 왜냐하면 바다에 갈 수 있기 때문이에요.", "I love summer. Because I can go to the sea.", "Reason clause closes with -기 때문이에요."],
+      ["환불해 주세요. 왜냐하면 제품에 문제가 있어서요.", "Please refund this. Because there's a problem with the product.", "Real complaint; the reason trails off with -어서요."]
     ],
-    "nuance": "왜냐하면 means 'because' and starts the sentence that explains the reason for what was just said. It is often paired with endings like 거든요 or 때문이에요 in natural speech. It answers an implied 'why?'.",
-    "mistakes": ["Forgetting that 왜냐하면 starts a NEW sentence after the result, unlike English 'because' which can join one sentence.", "Leaving out the reason ending; natural Korean often pairs it with ~거든요 or ~때문이에요."]
+    "nuance": "왜냐하면 is built from 왜 ('why') + 냐 (question) + 하면 ('if one asks') — literally 'if you ask why' — so it answers an implied 'why?' by starting the sentence that gives the reason. Its defining feature is that it is bookended: it opens the explanation and almost always closes it with a reason ending such as 거든요, -기 때문이에요, or -어서(요). Leaving that ending off feels unfinished to Korean ears. The key contrast is structural, not lexical: English 'because' can sit mid-sentence and join one clause (I left because I was tired), but 왜냐하면 heads a SEPARATE second sentence after the result is already stated. The plain clause-internal 'because' is -아서/-어서 or -니까 (아파서 못 가요). So use those endings to fuse one sentence, and reserve 왜냐하면 for 'I'll tell you why:' as a fresh sentence — and remember to land the matching ending.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "왜냐하면 answers an implied 'why?' by starting the sentence that gives the reason. Its defining feature is that it is bookended: it opens the explanation and almost always closes it with a reason ending such as 거든요, -기 때문이에요, or -어서(요). Leaving that ending off feels unfinished to Korean ears. Reserve 왜냐하면 for 'I'll tell you why:' as a fresh sentence — and remember to land the matching ending."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "왜냐하면 is built from 왜 ('why') + 냐 (question) + 하면 ('if one asks') — literally 'if you ask why'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The key contrast is structural, not lexical: English 'because' can sit mid-sentence and join one clause (I left because I was tired), but 왜냐하면 heads a SEPARATE second sentence after the result is already stated. The plain clause-internal 'because' is -아서/-어서 or -니까 (아파서 못 가요). So use those endings to fuse one sentence."}
+    ],
+    "mistakes": ["Treating 왜냐하면 like English mid-sentence 'because': 저는 못 가요 왜냐하면 아파요. It must start a new sentence — 저는 못 가요. 왜냐하면 아프거든요 — or just fuse it: 아파서 못 가요.", "Dropping the reason ending: 왜냐하면 비싸요 sounds cut off. Natural Korean closes it with 비싸거든요 or 비싸기 때문이에요.", "Pairing it with 그래서: 왜냐하면 … 그래서 …. 그래서 means 'so/therefore' (result), the opposite direction, so it clashes with a 'because' clause."]
   },
   {
     "kind": "adverb",
@@ -133,18 +163,22 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["그래도", "still / even so", "Concedes the point but keeps a different result."],
-      ["비싸요. 그래도 사요.", "It's expensive. Even so, I'll buy it.", "Buying despite the price."],
-      ["힘들어요. 그래도 괜찮아요.", "It's hard. But still, it's okay.", "Accepting difficulty."],
-      ["그래도 고마워요.", "Still, thank you.", "Polite thanks despite something."]
+      ["그래도", "still / even so", "Grants the prior fact, then does the unexpected anyway."],
+      ["비싸요. 그래도 살래요.", "It's expensive. Even so, I'll buy it.", "Buying despite the price — perseverance."],
+      ["힘들어요. 그래도 괜찮아요.", "It's hard. But still, it's okay.", "Accepts the difficulty without giving up."],
+      ["그래도 고마워요.", "Still, thank you.", "Polite thanks despite whatever just happened."]
     ],
     "examples": [
-      ["날씨가 추워요. 그래도 산책해요.", "The weather is cold. Even so, I take a walk.", "Doing it anyway."],
-      ["바빠요. 그래도 운동해요.", "I'm busy. But still, I exercise.", "Keeping a habit despite being busy."],
-      ["조금 매워요. 그래도 맛있어요.", "It's a little spicy. Even so, it's delicious.", "Liking it despite the spice."]
+      ["날씨가 추워요. 그래도 산책할래요.", "It's cold out. Even so, I want to take a walk.", "Doing it anyway against expectation."],
+      ["많이 혼났어요. 그래도 후회는 안 해요.", "I got scolded a lot. But still, I don't regret it.", "Concedes the cost, holds the stance."],
+      ["바빠도 그래도 운동은 꼭 해요.", "Even when I'm busy, I still always work out.", "Reinforces the concessive ending -아도/-어도 with 그래도."]
     ],
-    "nuance": "그래도 means 'even so' or 'but still' — you accept the previous fact yet do the opposite of what's expected. It shows a contrast with a feeling of perseverance. It is very natural in daily conversation.",
-    "mistakes": ["Confusing 그래도 (even so) with 그래서 (so/therefore) — they look similar but mean opposites.", "Using 그래도 when there is no real contrast; it needs an 'expected vs. actual' gap."]
+    "nuance": "그래도 means 'even so / but still' — you fully accept the previous fact, yet what follows defies what that fact would predict, carrying a flavor of perseverance or resolve. It is the sentence-initial partner of the concessive ending -아도/-어도 ('even if'); 비싸요. 그래도 사요 mirrors 비싸도 사요. The dangerous look-alike is 그래서 ('so / therefore'): one letter apart, opposite meaning — 그래서 follows the expected result, 그래도 goes AGAINST it. So 피곤해요. 그래서 자요 (tired, so I sleep) vs 피곤해요. 그래도 안 자요 (tired, but still I won't sleep). It also differs from plain contrast words like 하지만: 하지만 just sets two ideas side by side, while 그래도 specifically concedes 'granting all that…' and pushes through. Don't use it where there's no 'expected-vs-actual' gap; without that tension it sounds illogical.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그래도 means 'even so / but still' — you fully accept the previous fact, yet what follows defies what that fact would predict, carrying a flavor of perseverance or resolve. It is the sentence-initial partner of the concessive ending -아도/-어도 ('even if'); 비싸요. 그래도 사요 mirrors 비싸도 사요. Don't use it where there's no 'expected-vs-actual' gap; without that tension it sounds illogical."},
+      {"k": "비슷한 말", "e": "VS", "t": "The dangerous look-alike is 그래서 ('so / therefore'): one letter apart, opposite meaning — 그래서 follows the expected result, 그래도 goes AGAINST it. So 피곤해요. 그래서 자요 (tired, so I sleep) vs 피곤해요. 그래도 안 자요 (tired, but still I won't sleep). It also differs from plain contrast words like 하지만: 하지만 just sets two ideas side by side, while 그래도 specifically concedes 'granting all that…' and pushes through."}
+    ],
+    "mistakes": ["Swapping it with 그래서: 피곤해요. 그래서 안 자요 is contradictory (tired, so I won't sleep?). To mean 'tired but still won't sleep' use 그래도 안 자요.", "Using 그래도 with no real contrast: 맛있어요. 그래도 또 먹어요 makes no sense (no concession). It needs an 'against expectation' gap — e.g. 배불러요. 그래도 또 먹어요.", "Stacking it redundantly with -아도: 추워도 그래도… is acceptable for emphasis but learners often double it wrongly. Either 추워도 산책해요 or 추워요. 그래도 산책해요 is cleaner."]
   },
   {
     "kind": "adverb",
@@ -154,18 +188,23 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["그러므로", "therefore / thus", "Formal cause-result, common in writing."],
-      ["그러므로 ~", "therefore ~", "Starts a logical conclusion."],
-      ["비가 와요. 그러므로 행사를 취소해요.", "It is raining. Therefore the event is canceled.", "Formal conclusion."],
-      ["그러므로 조심해야 해요.", "Therefore we must be careful.", "Drawing a careful conclusion."]
+      ["그러므로", "therefore / thus", "Formal cause→conclusion; lives in writing and speeches."],
+      ["그러므로 ~", "therefore ~", "Leads into a logical, deliberate conclusion."],
+      ["비가 와요. 그러므로 행사를 취소합니다.", "It is raining. Therefore the event is canceled.", "Notice the formal 합니다 ending it pairs with."],
+      ["그러므로 조심해야 합니다.", "Therefore we must be careful.", "Draws a careful, official conclusion."]
     ],
     "examples": [
-      ["길이 막혀요. 그러므로 지하철을 타요.", "The road is jammed. Therefore I take the subway.", "Logical decision from a fact."],
-      ["시간이 없어요. 그러므로 택시로 가요.", "There's no time. Therefore I go by taxi.", "Conclusion under time pressure."],
-      ["위험해요. 그러므로 뛰지 마세요.", "It's dangerous. Therefore don't run.", "Formal-sounding instruction."]
+      ["증거가 부족합니다. 그러므로 이 결론은 받아들이기 어렵습니다.", "The evidence is insufficient. Therefore this conclusion is hard to accept.", "Essay / argument register."],
+      ["모든 인간은 죽는다. 그러므로 소크라테스도 죽는다.", "All humans die. Therefore Socrates also dies.", "Textbook logical syllogism — its home turf."],
+      ["예산이 삭감되었습니다. 그러므로 사업을 축소하기로 결정했습니다.", "The budget was cut. Therefore we decided to scale the project down.", "Formal announcement of a decision."]
     ],
-    "nuance": "그러므로 means 'therefore' and is the more formal, written cousin of 그래서. You'll see it in notices, essays, and announcements rather than casual chat. Beginners should recognize it and use 그래서 for everyday speech.",
-    "mistakes": ["Using 그러므로 in casual conversation where it sounds stiff — say 그래서 instead.", "Confusing it with 그러면 (in that case/then), which sets a condition rather than a conclusion."]
+    "nuance": "그러므로 means 'therefore / thus' and is the formal, written, logical cousin of everyday 그래서. It frames a deliberate conclusion drawn from a premise, so it belongs to essays, reports, legal text, announcements, and speeches — pair it with 합니다/습니다 endings, never with casual 요 chat. It is the sentence-level twin of the bookish ending -(으)므로 (비가 오므로 = since it rains). Three near-relatives mark its edges: 그래서 is the neutral spoken 'so'; 따라서 ('accordingly / hence') is its closest formal synonym and often interchangeable in writing; and watch the look-alike 그러면 ('in that case / then'), which sets up a CONDITION-driven response, not a logical conclusion. The pitfall is register clash: drop 그러므로 into a chat with a friend and you sound like a courtroom — for everyday speech downgrade to 그래서.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그러므로 means 'therefore / thus' and is the formal, written, logical cousin of everyday 그래서. It frames a deliberate conclusion drawn from a premise, so it belongs to essays, reports, legal text, announcements, and speeches — pair it with 합니다/습니다 endings, never with casual 요 chat. It is the sentence-level twin of the bookish ending -(으)므로 (비가 오므로 = since it rains)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Three near-relatives mark its edges: 그래서 is the neutral spoken 'so'; 따라서 ('accordingly / hence') is its closest formal synonym and often interchangeable in writing; and watch the look-alike 그러면 ('in that case / then'), which sets up a CONDITION-driven response, not a logical conclusion."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is register clash: drop 그러므로 into a chat with a friend and you sound like a courtroom — for everyday speech downgrade to 그래서."}
+    ],
+    "mistakes": ["Using 그러므로 in casual conversation: 배고파. 그러므로 밥 먹자 sounds absurdly stiff. With friends say 배고파. 그래서 밥 먹자.", "Confusing it with 그러면 (then / in that case). 그러므로 = logical conclusion; 그러면 = response to a condition. 'If it's cheap, then I'll buy it' is 싸면 그러면 살게, not 그러므로.", "Pairing 그러므로 with a casual 요 ending: 그러므로 가요 mismatches register. Keep it with formal 그러므로 가야 합니다 / 갑니다."]
   },
   {
     "kind": "adverb",
@@ -175,18 +214,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["그렇지만", "but / however", "Clear contrast, slightly formal."],
-      ["좋아요. 그렇지만 비싸요.", "It's good. However, it's expensive.", "Direct contrast."],
-      ["그렇지만 괜찮아요.", "But it's okay.", "Softening with reassurance."],
-      ["바빠요. 그렇지만 만나요.", "I'm busy. But I'll meet you.", "Doing it despite a reason."]
+      ["그렇지만", "but / however", "Clear contrast, a touch more formal than 하지만."],
+      ["좋아요. 그렇지만 비싸요.", "It's good. However, it's expensive.", "Head-on, slightly weighty contrast."],
+      ["그렇지만 괜찮아요.", "But it's okay.", "Softens with reassurance after a downside."],
+      ["그렇지만 ≈ 하지만", "however (near-twin)", "Nearly interchangeable; 그렇지만 carries a faint 'that may be so, but…'"]
     ],
     "examples": [
-      ["한국어 시험이 어려워요. 그렇지만 열심히 공부해요.", "The Korean test is hard. However, I study hard.", "Effort despite difficulty."],
-      ["피곤해요. 그렇지만 영화를 봐요.", "I'm tired. But I watch a movie.", "Choosing to do it anyway."],
-      ["비싸요. 그렇지만 사고 싶어요.", "It's expensive. But I want to buy it.", "Desire against the price."]
+      ["한국어 시험이 어려웠어요. 그렇지만 끝까지 포기하지 않았어요.", "The Korean exam was hard. Nevertheless, I didn't give up to the end.", "Effort holding firm against difficulty."],
+      ["말씀은 감사합니다. 그렇지만 이번엔 사양하겠습니다.", "I appreciate the offer. However, I'll decline this time.", "Polite, formal refusal — register fits a workplace."],
+      ["증상은 가벼웠어요. 그렇지만 병원에 가 보기로 했어요.", "The symptoms were mild. But still, I decided to see a doctor.", "Acknowledges one fact, takes a cautious turn."]
     ],
-    "nuance": "그렇지만 means 'but/however' and is very close to 하지만, just a touch more formal and literally 'even though it is so'. It contrasts two full sentences clearly. Beginners can treat it as a polite, slightly stronger 'but'.",
-    "mistakes": ["Thinking 그렇지만 differs much from 하지만 — they are nearly interchangeable in most beginner sentences.", "Using it mid-sentence; like other conjunctions it starts the contrasting sentence."]
+    "nuance": "그렇지만 means 'but / however / nevertheless' and is the close sibling of 하지만 — in most beginner sentences they swap freely. It is literally 그렇- ('be so') + -지만 ('but'), so it carries a faint undertone of 'that may be true, but…', conceding the prior point a hair more than the flat 하지만. Register-wise it leans slightly more formal and polished, comfortable in writing or careful, polite speech (감사합니다. 그렇지만 사양하겠습니다). Set it against two neighbors: 그런데/근데 is the soft, casual 'but' that can also mean 'by the way', which 그렇지만 never does; and 그래도 is 'even so', a concessive 'I'll do it anyway' rather than a neutral 'however'. The pitfall is the same as for any of these connectors — it heads the contrasting sentence, so never bury it in the middle of one clause.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그렇지만 means 'but / however / nevertheless' and is the close sibling of 하지만 — in most beginner sentences they swap freely. Register-wise it leans slightly more formal and polished, comfortable in writing or careful, polite speech (감사합니다. 그렇지만 사양하겠습니다)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Set it against two neighbors: 그런데/근데 is the soft, casual 'but' that can also mean 'by the way', which 그렇지만 never does; and 그래도 is 'even so', a concessive 'I'll do it anyway' rather than a neutral 'however'."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is literally 그렇- ('be so') + -지만 ('but'), so it carries a faint undertone of 'that may be true, but…', conceding the prior point a hair more than the flat 하지만."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the same as for any of these connectors — it heads the contrasting sentence, so never bury it in the middle of one clause."}
+    ],
+    "mistakes": ["Burying it mid-sentence: 좋아요 그렇지만 비싸요. It opens the contrasting sentence — 좋아요. 그렇지만 비싸요 (or fuse to one clause: 좋지만 비싸요).", "Expecting it to mean 'by the way' like 그런데. 그렇지만 is contrast only; for a topic change you need 그런데/근데.", "Doubling it with -지만: 어렵지만 그렇지만 재미있어요 repeats the same 'but'. Use either 어렵지만 재미있어요 or 어려워요. 그렇지만 재미있어요."]
   },
   {
     "kind": "adverb",
@@ -196,18 +241,23 @@
     "chapterIds": ["chapter-10"],
     "grammarIds": [],
     "usage": [
-      ["그렇다면", "if so / in that case", "Responds to a stated condition."],
-      ["그렇다면 좋아요.", "If so, that's good.", "Accepting a condition."],
-      ["그렇다면 어떻게 해요?", "In that case, what do I do?", "Asking based on a premise."],
-      ["그렇다면 내일 만나요.", "Then let's meet tomorrow.", "Deciding based on a fact."]
+      ["그렇다면", "if so / in that case", "Takes a just-stated premise and builds a conclusion on it."],
+      ["그렇다면 좋아요.", "If so, that's fine.", "Accepts the condition and reacts to it."],
+      ["그렇다면 어떻게 해요?", "In that case, what do I do?", "Asks for a next step given the premise."],
+      ["그렇다면 ≈ 그럼", "then (casual form)", "In speech this shrinks to the breezy 그럼."]
     ],
     "examples": [
-      ["시간이 없어요? 그렇다면 택시를 타세요.", "You don't have time? In that case, take a taxi.", "Advice based on a situation."],
-      ["비가 와요? 그렇다면 집에 있어요.", "Is it raining? Then I'll stay home.", "Decision from a condition."],
-      ["이게 더 싸요? 그렇다면 이걸로 주세요.", "Is this cheaper? In that case, I'll take this one.", "Choosing based on info."]
+      ["시간이 없어요? 그렇다면 택시를 타세요.", "You're out of time? In that case, take a taxi.", "Advice keyed to a stated situation."],
+      ["다들 반대하시는군요. 그렇다면 다시 생각해 보겠습니다.", "So everyone's against it. In that case, I'll reconsider.", "Formal meeting register; responds to the room."],
+      ["이게 더 싸요? 그렇다면 이걸로 할게요.", "This one's cheaper? Then I'll take this one.", "Real shop decision built on new info."]
     ],
-    "nuance": "그렇다면 means 'if that's the case' or 'then', responding to something just said or asked. It sets up a conclusion that depends on the previous statement. It feels a bit more thoughtful or formal than the casual 그럼.",
-    "mistakes": ["Confusing 그렇다면 (if so) with 그래도 (even so) — one accepts the premise to act on it, the other contrasts it.", "Using it when there is no condition to respond to; it needs a 'given that' situation."]
+    "nuance": "그렇다면 means 'if that's the case / then', taking something just said or asked and setting up the conclusion that follows from it — 'given that, here's what I'll do'. It is the more deliberate, slightly formal counterpart of casual 그럼/그러면 (which contracts further to 그럼 in chat). The boundary to nail is 그렇다면 vs 그래도: both react to a prior statement, but 그렇다면 ACCEPTS the premise and acts on it ('it's cheaper? then I'll take it'), whereas 그래도 CONTRASTS it ('it's pricey, but I'll take it anyway'). It also differs from 그러므로: 그러므로 draws a fixed logical conclusion in writing, while 그렇다면 responds in real time to a condition or supposition, often a hypothetical ('if so'). The pitfall is using it with nothing to respond to — 그렇다면 needs a preceding 'given that' premise; dropped in cold, it sounds like an answer to a question nobody asked.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그렇다면 means 'if that's the case / then', taking something just said or asked and setting up the conclusion that follows from it — 'given that, here's what I'll do'. It is the more deliberate, slightly formal counterpart of casual 그럼/그러면 (which contracts further to 그럼 in chat)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The boundary to nail is 그렇다면 vs 그래도: both react to a prior statement, but 그렇다면 ACCEPTS the premise and acts on it ('it's cheaper? then I'll take it'), whereas 그래도 CONTRASTS it ('it's pricey, but I'll take it anyway'). It also differs from 그러므로: 그러므로 draws a fixed logical conclusion in writing, while 그렇다면 responds in real time to a condition or supposition, often a hypothetical ('if so')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is using it with nothing to respond to — 그렇다면 needs a preceding 'given that' premise; dropped in cold, it sounds like an answer to a question nobody asked."}
+    ],
+    "mistakes": ["Confusing 그렇다면 (if so → act on it) with 그래도 (even so → act against it). 'It's cheaper, then I'll buy it' is 그렇다면 살게요; 그래도 would mean 'pricey, but I'll buy it anyway'.", "Using it with no premise to respond to. 그렇다면 must follow a stated condition or supposition; starting a topic cold with it sounds unanchored.", "Mixing it with 그러므로 in a logical proof. 그렇다면 is conditional/hypothetical response; a firm written conclusion wants 그러므로/따라서."]
   },
   {
     "kind": "adverb",
@@ -217,18 +267,23 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["그러자", "and then / thereupon", "Used in past storytelling for the very next event."],
-      ["문을 열었어요. 그러자 고양이가 나왔어요.", "I opened the door. Then a cat came out.", "Immediate next event."],
-      ["제가 불렀어요. 그러자 친구가 왔어요.", "I called. And then my friend came.", "Reaction right after."],
-      ["불을 껐어요. 그러자 조용해졌어요.", "I turned off the light. And then it got quiet.", "Result that follows at once."]
+      ["그러자", "and then / thereupon", "Storytelling connector for the very next thing that happened."],
+      ["문을 열었어요. 그러자 고양이가 나왔어요.", "I opened the door. Thereupon a cat came out.", "Second clause is something ELSE's reaction."],
+      ["제가 불렀어요. 그러자 친구가 돌아봤어요.", "I called out. And then my friend turned around.", "Immediate response by another party."],
+      ["그러자 ↔ 과거형", "pairs with past tense only", "Both clauses are past-tense narration; never present/future."]
     ],
     "examples": [
-      ["비가 왔어요. 그러자 사람들이 우산을 썼어요.", "It rained. And then people put up umbrellas.", "People react to the rain."],
-      ["제가 인사했어요. 그러자 그분도 웃었어요.", "I said hello. And then that person smiled too.", "A response to a greeting."],
-      ["버튼을 눌렀어요. 그러자 문이 열렸어요.", "I pressed the button. And then the door opened.", "Action and immediate result."]
+      ["비가 쏟아졌어요. 그러자 사람들이 일제히 우산을 폈어요.", "Rain poured down. Thereupon everyone opened umbrellas at once.", "The crowd reacts right after the trigger."],
+      ["제가 먼저 인사했어요. 그러자 그분도 환하게 웃었어요.", "I greeted them first. And then they too smiled brightly.", "A response triggered by the speaker's action."],
+      ["버튼을 누르자 문이 스르륵 열렸어요.", "The moment I pressed the button, the door slid open.", "Shows the fused clause ending -자 that 그러자 is built from."]
     ],
-    "nuance": "그러자 means 'and then / just then' and is used when telling a past story, marking the event that happened right after another. The second event is usually someone or something else's reaction. It almost always appears with past-tense sentences.",
-    "mistakes": ["Using 그러자 with present or future sentences — it belongs to past-tense narration.", "Confusing it with 그래서 (so); 그러자 marks timing/reaction, not a logical cause."]
+    "nuance": "그러자 means 'and then / thereupon (just then)' and is a narrative connector: in a past-tense story it marks the event that occurred immediately after the previous one, where the second event is typically someone or something ELSE's reaction to the first (I called → 그러자 my friend turned). It is the sentence-level form of the clause ending -자 ('as soon as / upon'); 버튼을 누르자 문이 열렸다 = 버튼을 눌렀다. 그러자 문이 열렸다. The decisive contrast is 그러자 vs 그래서: 그래서 states a logical CAUSE ('so/therefore'), while 그러자 marks pure TIMING and reaction with no claim of causation — just 'and right then, this happened'. It also differs from 그러고 나서, which sequences two actions by the SAME subject who finishes one then does the next; 그러자's second clause usually has a different subject reacting. Big pitfall: it is locked to past-tense storytelling — pairing it with present or future is ungrammatical.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그러자 means 'and then / thereupon (just then)' and is a narrative connector: in a past-tense story it marks the event that occurred immediately after the previous one, where the second event is typically someone or something ELSE's reaction to the first (I called → 그러자 my friend turned). It is the sentence-level form of the clause ending -자 ('as soon as / upon'); 버튼을 누르자 문이 열렸다 = 버튼을 눌렀다. 그러자 문이 열렸다."},
+      {"k": "비슷한 말", "e": "VS", "t": "The decisive contrast is 그러자 vs 그래서: 그래서 states a logical CAUSE ('so/therefore'), while 그러자 marks pure TIMING and reaction with no claim of causation — just 'and right then, this happened'. It also differs from 그러고 나서, which sequences two actions by the SAME subject who finishes one then does the next; 그러자's second clause usually has a different subject reacting."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Big pitfall: it is locked to past-tense storytelling — pairing it with present or future is ungrammatical."}
+    ],
+    "mistakes": ["Using 그러자 with present or future: 문을 열어요. 그러자 고양이가 나와요 is wrong. It is past-tense narration only — 문을 열었어요. 그러자 고양이가 나왔어요.", "Treating it as 'so/therefore' like 그래서. 그러자 marks timing and reaction, not cause: 'I was tired, so I slept' is 그래서 잤어요, never 그러자 잤어요.", "Giving both clauses the same subject doing a planned next step. For 'I did X, then I did Y myself' use 그러고 나서; 그러자 expects a (usually different-subject) reaction."]
   },
   {
     "kind": "adverb",
@@ -238,18 +293,24 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["그러고 나서", "after that / and then", "Marks the next action in a sequence."],
-      ["밥을 먹어요. 그러고 나서 이를 닦아요.", "I eat. After that, I brush my teeth.", "Clear time order."],
-      ["청소해요. 그러고 나서 쉬어요.", "I clean. And then I rest.", "Two steps in order."],
-      ["그러고 나서 뭐 해요?", "After that, what do you do?", "Asking the next step."]
+      ["그러고 나서", "after that / and then", "First action fully finishes, THEN the next begins."],
+      ["밥을 먹어요. 그러고 나서 이를 닦아요.", "I eat. After that, I brush my teeth.", "Strict, explicit time order."],
+      ["청소해요. 그러고 나서 좀 쉬어요.", "I clean. And then I rest a bit.", "Two steps, clearly sequenced."],
+      ["그러고 나서 (NOT 그리고 나서)", "after that (correct spelling)", "It comes from 그러다, so it's 그러고, never 그리고."]
     ],
     "examples": [
-      ["아침에 운동해요. 그러고 나서 샤워해요.", "I exercise in the morning. After that, I shower.", "Daily routine order."],
-      ["숙제를 해요. 그러고 나서 게임을 해요.", "I do homework. And then I play games.", "Sequence of activities."],
-      ["커피를 마셔요. 그러고 나서 일을 시작해요.", "I drink coffee. After that, I start working.", "Morning sequence."]
+      ["아침에 가볍게 운동해요. 그러고 나서 샤워해요.", "I exercise lightly in the morning. After that, I shower.", "Routine in finish-then-start order."],
+      ["숙제를 다 끝냈어요. 그러고 나서 게임을 했어요.", "I finished all my homework. And then I played games.", "The -고 나서 ('after doing') logic, made explicit."],
+      ["서류에 서명하세요. 그러고 나서 여기 도장을 찍으시면 됩니다.", "Please sign the document. After that, just stamp it here.", "Step-by-step instructions at an office counter."]
     ],
-    "nuance": "그러고 나서 means 'after doing that, then' and clearly shows one action finishing before the next begins. It is stronger about order than plain 그리고. Beginners use it to describe routines step by step.",
-    "mistakes": ["Writing 그리고 나서 — the correct form is 그러고 나서 (from 그러고).", "Using it when the two actions happen at the same time; it specifically means one after the other."]
+    "nuance": "그러고 나서 means 'after doing that, then' and makes the sequence explicit: action one is COMPLETED, and only then does action two start. It is stronger about ordering than plain 그리고, which merely adds ('and') without insisting the first thing is done. It is the sentence-level form of the ending -고 나서 ('after doing'), built on the verb 그러다 ('to do so') — which is exactly why the spelling is 그러고, and the rampant 그리고 나서 is wrong. Contrast it with 그러자: 그러고 나서 sequences two actions by the SAME person who finishes one and then does the next deliberately, while 그러자 marks an immediate reaction, usually by someone else, in past narration. Use 그러고 나서 to lay out routines or instructions step by step. The pitfall is reaching for it when two actions happen simultaneously — that's 그러면서, not 그러고 나서.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그러고 나서 means 'after doing that, then' and makes the sequence explicit: action one is COMPLETED, and only then does action two start. It is stronger about ordering than plain 그리고, which merely adds ('and') without insisting the first thing is done. It is the sentence-level form of the ending -고 나서 ('after doing'). Use 그러고 나서 to lay out routines or instructions step by step."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast it with 그러자: 그러고 나서 sequences two actions by the SAME person who finishes one and then does the next deliberately, while 그러자 marks an immediate reaction, usually by someone else, in past narration."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "It is built on the verb 그러다 ('to do so') — which is exactly why the spelling is 그러고, and the rampant 그리고 나서 is wrong."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is reaching for it when two actions happen simultaneously — that's 그러면서, not 그러고 나서."}
+    ],
+    "mistakes": ["Spelling it 그리고 나서. The form derives from 그러다, so the only correct version is 그러고 나서; 그리고 나서 is a widespread error.", "Using it for simultaneous actions: 'I eat while watching TV' is 그러면서, not 그러고 나서. 그러고 나서 strictly means one finishes before the next starts.", "Confusing it with 그러자. 그러고 나서 = same subject, planned next step; 그러자 = immediate (often other-subject) reaction in past-tense storytelling."]
   },
   {
     "kind": "adverb",
@@ -259,18 +320,23 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["그리하여", "and so / thus", "Formal, written result connector."],
-      ["그리하여 ~", "and so ~", "Leads into an outcome in writing."],
-      ["열심히 공부했어요. 그리하여 합격했어요.", "I studied hard. And so I passed.", "Outcome of effort."],
-      ["그리하여 결정했어요.", "And so I decided.", "Concluding a story formally."]
+      ["그리하여", "and so / thus", "Formal, literary connector that leads into an outcome."],
+      ["그리하여 ~", "and so ~", "Ushers in the result at the end of a narrative."],
+      ["그는 열심히 공부했다. 그리하여 마침내 합격했다.", "He studied hard. And so he finally passed.", "Outcome of sustained effort, in the literary 했다 register it belongs to."],
+      ["그리하여 ≈ 그래서 (formal)", "thus (bookish equivalent)", "Same direction as 그래서 but storybook/speech register."]
     ],
     "examples": [
-      ["많이 연습했어요. 그리하여 잘하게 됐어요.", "I practiced a lot. And so I got good at it.", "Result of practice, formal tone."],
-      ["돈을 모았어요. 그리하여 여행을 갔어요.", "I saved money. And so I went on a trip.", "Outcome of saving."],
-      ["서로 도왔어요. 그리하여 일이 끝났어요.", "We helped each other. And so the work got done.", "Cooperative result."]
+      ["두 나라는 오랫동안 협상했다. 그리하여 마침내 조약을 맺었다.", "The two nations negotiated for a long time. Thus they finally concluded a treaty.", "Historical / written narration."],
+      ["그는 밤낮으로 노력했다. 그리하여 꿈을 이루었다.", "He strove day and night. And so he achieved his dream.", "Literary biography tone."],
+      ["사람들은 힘을 합쳤습니다. 그리하여 마을을 다시 일으켜 세웠습니다.", "The people joined forces. Consequently, they rebuilt the village.", "Formal speech / address register."]
     ],
-    "nuance": "그리하여 means 'and so / thus' and is a formal, literary way to lead into a result. You will meet it in stories, essays, and speeches rather than casual talk. Beginners should recognize it and prefer 그래서 in everyday speech.",
-    "mistakes": ["Using 그리하여 in casual conversation, where it sounds old-fashioned or bookish — use 그래서.", "Confusing it with 그러나 (but); 그리하여 gives a result, not a contrast."]
+    "nuance": "그리하여 means 'and so / thus / consequently' and is a formal, literary way to lead into a result, typically at the climax of a story, essay, history, or speech. It belongs to written and oratorical Korean and pairs with 한다/했다 or 합니다/했습니다 endings — never with casual 요 chatter. It is the elevated relative of everyday 그래서 ('so'): same forward, cause-to-result direction, just a far more bookish register, often coupled with 마침내 ('at last') for a sense of culmination. Distinguish it carefully from the look-alike 그러나, which means 'but / however' (contrast) — 그리하여 gives a RESULT, the opposite job. Two other formal result words sit nearby: 그러므로/따라서 ('therefore'), which feel logical and argumentative, versus 그리하여, which feels narrative and unfolding ('and thus it came to pass'). The pitfall is pure register: in normal conversation 그리하여 sounds antiquated, almost fairy-tale — downgrade to 그래서.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그리하여 means 'and so / thus / consequently' and is a formal, literary way to lead into a result, typically at the climax of a story, essay, history, or speech. It belongs to written and oratorical Korean and pairs with 한다/했다 or 합니다/했습니다 endings — never with casual 요 chatter, often coupled with 마침내 ('at last') for a sense of culmination."},
+      {"k": "비슷한 말", "e": "VS", "t": "It is the elevated relative of everyday 그래서 ('so'): same forward, cause-to-result direction, just a far more bookish register. Distinguish it carefully from the look-alike 그러나, which means 'but / however' (contrast) — 그리하여 gives a RESULT, the opposite job. Two other formal result words sit nearby: 그러므로/따라서 ('therefore'), which feel logical and argumentative, versus 그리하여, which feels narrative and unfolding ('and thus it came to pass')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is pure register: in normal conversation 그리하여 sounds antiquated, almost fairy-tale — downgrade to 그래서."}
+    ],
+    "mistakes": ["Using 그리하여 in casual speech: 배고팠어. 그리하여 라면 먹었어 sounds like a storybook. Everyday Korean wants 배고파서 라면 먹었어 / 그래서 라면 먹었어.", "Confusing it with 그러나 (but / however). 그리하여 leads to a result; 그러나 introduces a contrast — opposite functions despite the similar shape.", "Pairing 그리하여 with a 요-form ending: 그리하여 갔어요 clashes in register. Keep it formal/literary — 그리하여 갔다 / 그리하여 갔습니다."]
   },
   {
     "kind": "adverb",
@@ -280,17 +346,22 @@
     "chapterIds": ["chapter-11"],
     "grammarIds": [],
     "usage": [
-      ["그러면서", "while doing so / and meanwhile", "Two things happening together or said with another."],
-      ["웃어요. 그러면서 손을 흔들어요.", "She smiles. And at the same time waves her hand.", "Simultaneous actions."],
-      ["밥을 먹어요. 그러면서 텔레비전을 봐요.", "I eat. And while doing so, I watch TV.", "Doing two things at once."],
-      ["그러면서 말했어요.", "(He) said it while doing that.", "Adds a remark made during an action."]
+      ["그러면서", "while doing so / and meanwhile", "Two actions overlap, usually by the same person."],
+      ["웃어요. 그러면서 손을 흔들어요.", "She smiles. And at the same time waves.", "Simultaneous actions, one subject."],
+      ["밥을 먹어요. 그러면서 텔레비전을 봐요.", "I eat. And meanwhile I watch TV.", "Doing two things at once."],
+      ["그러면서 (NOT 그러면)", "while doing so", "The 서 makes it 'while'; 그러면 alone means 'if/then'."]
     ],
     "examples": [
-      ["음악을 들어요. 그러면서 공부해요.", "I listen to music. And at the same time I study.", "Two simultaneous activities."],
-      ["커피를 마셔요. 그러면서 책을 읽어요.", "I drink coffee. And meanwhile I read a book.", "Relaxed multitasking."],
-      ["친구가 웃어요. 그러면서 인사해요.", "My friend smiles. And while doing so, greets me.", "Smiling and greeting together."]
+      ["음악을 들어요. 그러면서 공부해요.", "I listen to music. And at the same time I study.", "Two overlapping activities."],
+      ["그분은 고맙다고 했어요. 그러면서 슬쩍 봉투를 건넸어요.", "They said thanks. And while doing so, quietly handed over an envelope.", "Says one thing while doing another — a very common nuance."],
+      ["자긴 안 한다면서, 그러면서 자기도 다 하더라고요.", "They said they wouldn't, yet meanwhile they did it all too.", "Carries a hint of 'and yet contradictorily' criticism."]
     ],
-    "nuance": "그러면서 means 'while doing that' and links two actions happening at the same time, often by the same person. It can also hint that someone says or does one thing while doing another. It connects back to the action in the previous sentence.",
-    "mistakes": ["Using 그러면서 for actions in sequence — for one-after-another use 그러고 나서.", "Confusing it with 그러면 (in that case); the 서 makes it 'while', not 'if/then'."]
+    "nuance": "그러면서 means 'while doing that / and at the same time' and ties two actions that overlap, usually performed by the same person (eats 그러면서 watches TV). Beyond plain simultaneity it often layers on a remark or gesture made DURING an action ('thanks,' they said, 그러면서 handing over an envelope), and in pointed speech it can imply a contradiction — 'they said they wouldn't, and yet meanwhile they did' — a flavor close to 'all the while'. It is the sentence-level form of the connective -(으)면서 ('while'); 먹으면서 봐요 = 먹어요. 그러면서 봐요. Two boundaries matter: against 그러고 나서, which is strictly sequential (finish one, then the next), 그러면서 is concurrent (both at once); and against the look-alike 그러면 ('in that case / then'), the extra 서 is everything — it converts 'if/then' into 'while'. The pitfall is dropping that 서 and accidentally setting a condition.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그러면서 means 'while doing that / and at the same time' and ties two actions that overlap, usually performed by the same person (eats 그러면서 watches TV). Beyond plain simultaneity it often layers on a remark or gesture made DURING an action ('thanks,' they said, 그러면서 handing over an envelope), and in pointed speech it can imply a contradiction — 'they said they wouldn't, and yet meanwhile they did' — a flavor close to 'all the while'. It is the sentence-level form of the connective -(으)면서 ('while'); 먹으면서 봐요 = 먹어요. 그러면서 봐요."},
+      {"k": "비슷한 말", "e": "VS", "t": "Two boundaries matter: against 그러고 나서, which is strictly sequential (finish one, then the next), 그러면서 is concurrent (both at once); and against the look-alike 그러면 ('in that case / then'), the extra 서 is everything — it converts 'if/then' into 'while'."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is dropping that 서 and accidentally setting a condition (turning 'while' back into 'if/then')."}
+    ],
+    "mistakes": ["Using 그러면서 for actions in sequence: for 'I ate, then brushed my teeth' use 그러고 나서. 그러면서 means the two happen at the same time.", "Confusing it with 그러면 (in that case / then). The 서 is decisive: 그러면 = 'if so, then'; 그러면서 = 'while doing so'. Dropping 서 flips the meaning.", "Missing its contradictory nuance in speech. 안 먹는다고 하면서, 그러면서 다 먹어요 isn't neutral — it pointedly means 'says they won't, yet eats it all', a mild reproach."]
   }
 ]

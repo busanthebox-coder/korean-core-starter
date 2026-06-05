@@ -14,44 +14,68 @@
       [
         "상점에서 옷을 사요.",
         "I buy clothes at the store.",
-        "place plus location particle"
+        "place + 에서 marks where an action happens"
       ],
       [
-        "이 상점은 작아요.",
-        "This store is small.",
-        "describing a store"
+        "상점을 운영해요.",
+        "I run a store.",
+        "상점 + 운영하다 is the set phrase for operating a shop"
       ],
       [
-        "상점이 문을 열었어요.",
-        "The store opened.",
-        "store as subject"
+        "상점 주인",
+        "store owner",
+        "주인 attaches with no particle to mean the shopkeeper"
       ],
       [
-        "새 상점에 갔어요.",
-        "I went to a new store.",
-        "with adjective new"
+        "동네 상점",
+        "neighborhood store",
+        "동네 (local area) is the most common modifier"
       ]
     ],
     "examples": [
       [
-        "저 상점은 친절해요.",
-        "That store is kind.",
-        "polite praise of shop"
+        "상점이 많아요.",
+        "There are many stores.",
+        "simple 이/가 subject statement; 많다 = to be many"
       ],
       [
         "상점 앞에서 만나요.",
-        "Let us meet in front of the store.",
-        "meeting spot"
+        "Let's meet in front of the store.",
+        "앞에서 (in front of + at) names a meeting spot"
       ],
       [
-        "상점에 사람이 많아요.",
-        "There are many people at the store.",
-        "describing crowd"
+        "그 상점은 물건이 좋아서 손님이 많아요.",
+        "That store has good goods, so it has many customers.",
+        "real situation: -아서 links cause (good goods) to result (many customers)"
       ]
     ],
-    "nuance": "A general word for a shop or store, slightly formal and broad in everyday Korean.",
+    "nuance": "상점 is the broad, slightly bookish word for a retail shop, built from the hanja 商店 (商 'commerce' + 店 'shop'), so it literally reads 'commerce-shop.' Its everyday rival is 가게, which is the warm, native-feeling word people actually say out loud ('동네 가게', the corner shop); 상점 sounds a notch more formal and is what you see on signs, in textbooks, and in writing. Compare also 매장, which is a brand's sales floor inside a bigger building. The English-speaker pitfall: do not stretch 상점 to cover a restaurant or a café — those are 식당 and 카페, never 상점. And because English says 'at the store,' learners reach for 에, but the location of an action takes 에서 (상점에서 사요), while 에 marks a destination or static existence (상점에 가요 / 상점에 있어요).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "상점 is the broad, slightly bookish word for a retail shop. It sounds a notch more formal and is what you see on signs, in textbooks, and in writing."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its everyday rival is 가게, the warm, native-feeling word people actually say out loud ('동네 가게', the corner shop). Compare also 매장, which is a brand's sales floor inside a bigger building."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Built from the hanja 商店 (商 'commerce' + 店 'shop'), so it literally reads 'commerce-shop.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Do not stretch 상점 to cover a restaurant or a café — those are 식당 and 카페, never 상점. And because English says 'at the store,' learners reach for 에, but the location of an action takes 에서 (상점에서 사요), while 에 marks a destination or static existence (상점에 가요 / 상점에 있어요)."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 상점 with 식당, which means restaurant."
+      "Saying '상점에 옷을 사요' for 'I buy clothes at the store.' Buying is an action performed there, so it needs the action-location particle: 상점에서 옷을 사요. 에 would only fit a verb of going or existing.",
+      "Calling a restaurant a 상점. 상점 sells goods, not meals; a place you eat at is 식당 (or 음식점), and a coffee place is 카페.",
+      "Treating 상점 and 가게 as interchangeable in casual speech. They overlap in meaning, but in spoken Korean 가게 is far more natural ('가게 가서 우유 사 와'), while 상점 can sound stiff."
     ]
   },
   {
@@ -67,46 +91,70 @@
     ],
     "usage": [
       [
-        "매장에서 신발을 봐요.",
-        "I look at shoes at the outlet.",
-        "browsing in a store"
+        "매장을 둘러봐요.",
+        "I look around the outlet.",
+        "둘러보다 (look around) takes 매장 as its object with 을"
       ],
       [
-        "이 매장은 넓어요.",
-        "This outlet is spacious.",
-        "describing the space"
+        "매장 직원",
+        "outlet staff",
+        "직원 attaches directly to mean the floor employee"
       ],
       [
-        "매장을 둘러봤어요.",
-        "I looked around the outlet.",
-        "with object particle"
+        "오프라인 매장",
+        "offline (physical) store",
+        "오프라인 distinguishes a real shop from an online one"
       ],
       [
-        "매장이 깨끗해요.",
-        "The outlet is clean.",
-        "outlet as subject"
+        "매장에 들르다",
+        "to drop by the outlet",
+        "들르다 (stop by) pairs with 에, the destination particle"
       ]
     ],
     "examples": [
       [
-        "매장 직원이 도와줬어요.",
-        "The store staff helped me.",
-        "staff inside outlet"
+        "매장이 넓어요.",
+        "The outlet is spacious.",
+        "simple description; 넓다 = to be wide/spacious"
       ],
       [
         "매장에서 옷을 입어 봐요.",
         "I try on clothes at the outlet.",
-        "trying clothes"
+        "입어 보다 = 'try wearing'; 에서 marks where you do it"
       ],
       [
-        "이 매장은 인기가 많아요.",
-        "This outlet is very popular.",
-        "describing popularity"
+        "이 브랜드는 백화점 안에 매장이 있어요.",
+        "This brand has an outlet inside the department store.",
+        "real situation: 안에 (inside) shows a 매장 nested in a bigger building"
       ]
     ],
-    "nuance": "Refers to a sales floor or branch outlet, often inside larger stores or brand shops.",
+    "nuance": "매장 comes from the hanja 賣場 (賣 'to sell' + 場 'place/floor'), literally 'selling-floor,' and that image is the key: it is the sales space of a brand or company, very often a counter or section housed inside a department store, mall, or large building. The near-synonym 가게 is a standalone little shop someone owns; 매장 is corporate and branch-like — Nike has 매장, your aunt has a 가게. 상점 is the generic textbook word, while 매장 specifically foregrounds the selling area itself. The English-speaker pitfall: 'outlet' in English can mean a discount store, but Korean 매장 has no discount sense at all — a discount mall is 아울렛 (a separate loanword). Also do not call a website a 매장; an online shop is 온라인 쇼핑몰 or just 쇼핑몰.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "매장 is the sales space of a brand or company, very often a counter or section housed inside a department store, mall, or large building. It specifically foregrounds the selling area itself."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym 가게 is a standalone little shop someone owns; 매장 is corporate and branch-like — Nike has 매장, your aunt has a 가게. 상점 is the generic textbook word."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 賣場 (賣 'to sell' + 場 'place/floor'), literally 'selling-floor,' and that image is the key."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Outlet' in English can mean a discount store, but Korean 매장 has no discount sense at all — a discount mall is 아울렛 (a separate loanword). Also do not call a website a 매장; an online shop is 온라인 쇼핑몰 or just 쇼핑몰."
+      }
+    ],
     "mistakes": [
-      "Do not use 매장 for an online shop."
+      "Using 매장 for an internet shop because English 'outlet' feels online-friendly. 매장 is a physical selling floor; an online store is 온라인 쇼핑몰 / 인터넷 쇼핑몰.",
+      "Assuming 매장 means a bargain/discount store like an English 'outlet.' A Korean discount mall is the loanword 아울렛; plain 매장 carries no cheap-price meaning.",
+      "Saying '매장에서 가요' for 'I go to the outlet.' Going is movement toward a destination, so use 에: 매장에 가요. Reserve 에서 for actions done inside it (매장에서 봐요)."
     ]
   },
   {
@@ -124,44 +172,68 @@
       [
         "영업시간을 확인해요.",
         "I check the business hours.",
-        "with object particle"
+        "확인하다 (check) takes 영업시간 as object with 을"
       ],
       [
-        "영업시간이 길어요.",
-        "The business hours are long.",
-        "hours as subject"
+        "영업시간 외",
+        "outside business hours",
+        "외 (outside of) marks times the shop is closed"
       ],
       [
-        "영업시간에 가요.",
-        "I go during business hours.",
-        "during open hours"
+        "영업시간이 끝나다",
+        "business hours end",
+        "끝나다 (to end) pairs with 이; the day's service is over"
       ],
       [
-        "영업시간이 끝났어요.",
-        "The business hours ended.",
-        "store now closed"
+        "영업시간 안내",
+        "business-hours notice",
+        "안내 (guidance/notice) is the posted sign of opening times"
       ]
     ],
     "examples": [
       [
-        "이 가게 영업시간이 어떻게 돼요?",
-        "What are this shop business hours?",
-        "polite question"
+        "영업시간이 길어요.",
+        "The business hours are long.",
+        "simple description with 이 + 길다 (to be long)"
       ],
       [
-        "영업시간은 아홉 시부터예요.",
-        "Business hours start at nine.",
-        "stating start time"
+        "주말 영업시간은 평일과 달라요.",
+        "Weekend business hours differ from weekdays.",
+        "everyday: 와/과 다르다 = 'differs from'; note 과 after 평일"
       ],
       [
-        "주말 영업시간이 달라요.",
-        "Weekend business hours are different.",
-        "weekend difference"
+        "여기 영업시간이 어떻게 되세요?",
+        "What are your business hours here?",
+        "real situation: 어떻게 되세요? is the polite set phrase to ask a shop's hours"
       ]
     ],
-    "nuance": "Means the open hours of a business, important when planning a visit to any shop.",
+    "nuance": "영업시간 is the stretch of time a business is open for service, from 영업 (營業, 'operate a business': 營 'manage' + 業 'enterprise') plus 시간 (時間, 'time-interval': 時 'hour' + 間 'gap'). So the whole word reads 'business-operating time-interval.' Distinguish it from plain 시간, which is just 'time/hours' in general; 영업시간 is specifically the open-for-customers window, and its opposite edge is marked by 영업 종료 ('closing') or 영업 시작 ('opening'). A related sign word is 휴무일, the regular day off when there are no 영업시간 at all. The English-speaker pitfall: to ask the hours, English logic tempts a literal '영업시간이 뭐예요?', but Koreans say 영업시간이 어떻게 되세요? (or 몇 시까지 해요?). Also note 영업시간 is the period; the act of being open is 영업하다 ('to be open for business'), so 'Are you open now?' is 지금 영업해요?, not 지금 영업시간이에요?.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "영업시간 is the stretch of time a business is open for service — specifically the open-for-customers window. Its opposite edge is marked by 영업 종료 ('closing') or 영업 시작 ('opening'), and a related sign word is 휴무일, the regular day off when there are no 영업시간 at all."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it from plain 시간, which is just 'time/hours' in general; 영업시간 is specifically the open-for-customers window."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From 영업 (營業, 'operate a business': 營 'manage' + 業 'enterprise') plus 시간 (時間, 'time-interval': 時 'hour' + 間 'gap'). So the whole word reads 'business-operating time-interval.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "To ask the hours, English logic tempts a literal '영업시간이 뭐예요?', but Koreans say 영업시간이 어떻게 되세요? (or 몇 시까지 해요?). Also note 영업시간 is the period; the act of being open is 영업하다, so 'Are you open now?' is 지금 영업해요?, not 지금 영업시간이에요?."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 영업시간 with 시간, plain time."
+      "Asking '영업시간이 뭐예요?' for 'What are your hours?' It is grammatical but unnatural; the idiomatic question is 영업시간이 어떻게 되세요? or simply 몇 시까지 해요?.",
+      "Using plain 시간 when you mean opening hours, e.g. '이 가게 시간이 어때요?' — that just asks about time vaguely. Specify 영업시간 to mean when the shop is open.",
+      "Saying '지금 영업시간이에요?' to ask if a shop is currently open. Use the verb: 지금 영업해요? ('Are you open now?'). 영업시간 names the window, not the live open/closed state."
     ]
   },
   {
@@ -177,46 +249,70 @@
     ],
     "usage": [
       [
-        "정가를 봐요.",
-        "I look at the list price.",
-        "with object particle"
+        "정가로 사다",
+        "to buy at list price",
+        "정가 + 로 means 'at the full price', no discount"
       ],
       [
-        "정가가 비싸요.",
-        "The list price is expensive.",
-        "price as subject"
+        "정가의 절반",
+        "half of the list price",
+        "의 links 정가 to 절반 (half) for '50% off' phrasing"
       ],
       [
-        "정가로 샀어요.",
-        "I bought it at list price.",
-        "without a discount"
+        "정가표",
+        "price list / price tag",
+        "정가 + 표 (table/tag) is the posted sheet of fixed prices"
       ],
       [
-        "정가가 적혀 있어요.",
-        "The list price is written.",
-        "shown on a tag"
+        "정가가 적혀 있다",
+        "the list price is written",
+        "적혀 있다 = 'is written (and stays so)' on the tag"
       ]
     ],
     "examples": [
       [
-        "이 책은 정가가 만 원이에요.",
-        "This book list price is ten thousand won.",
-        "stating the price"
+        "정가가 비싸요.",
+        "The list price is expensive.",
+        "simple 이/가 statement; 비싸다 = to be expensive"
       ],
       [
         "정가보다 싸게 샀어요.",
-        "I bought it cheaper than list price.",
-        "got a discount"
+        "I bought it cheaper than the list price.",
+        "everyday: 보다 = 'than'; 싸게 (cheaply) is the adverb form of 싸다"
       ],
       [
-        "정가는 바뀌지 않아요.",
-        "The list price does not change.",
-        "fixed price"
+        "이 책은 정가가 만 오천 원인데 할인해서 만 원에 샀어요.",
+        "This book's list price is 15,000 won, but with a discount I bought it for 10,000.",
+        "real situation: -는데 sets up contrast between 정가 and the price actually paid (에)"
       ]
     ],
-    "nuance": "The fixed or official price set by a seller before any discount is applied to it.",
+    "nuance": "정가 is the official, fixed, manufacturer-or-seller-set price printed on a product before any markdown — from the hanja 定價 (定 'to fix/decide' + 價 'price'), literally 'decided price.' Its sharp opposite within shopping is 할인가, the 'discount price,' and you will constantly hear them paired: '정가 30,000원 → 할인가 21,000원.' Do not confuse it with 가격, which is the neutral, general word for 'price' of anything; 정가 specifically claims 'this is the standard, undiscounted figure.' Related is 정찰제, a 'fixed-price system' where haggling isn't allowed. The English-speaker pitfall: 'list price' makes learners want to say 정가 is what you pay, but in Korea the figure on the receipt is often the 할인가 or 판매가 (selling price), not the 정가. Also remember to pay 'at' a price uses 로/으로 (정가로 샀어요), not 에서.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "정가 is the official, fixed, manufacturer-or-seller-set price printed on a product before any markdown. It specifically claims 'this is the standard, undiscounted figure.' Related is 정찰제, a 'fixed-price system' where haggling isn't allowed."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its sharp opposite within shopping is 할인가, the 'discount price,' and you will constantly hear them paired: '정가 30,000원 → 할인가 21,000원.' Do not confuse it with 가격, the neutral, general word for 'price' of anything; 정가 specifically means the fixed, official, undiscounted figure."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 定價 (定 'to fix/decide' + 價 'price'), literally 'decided price.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'List price' makes learners want to say 정가 is what you pay, but in Korea the figure on the receipt is often the 할인가 or 판매가 (selling price), not the 정가. Also remember to pay 'at' a price uses 로/으로 (정가로 샀어요), not 에서."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 정가 with 할인가, the discounted price."
+      "Treating 정가 as the price you actually pay. 정가 is the pre-discount sticker figure; what you hand over may be the 할인가 (discount price) or 판매가 (selling price).",
+      "Swapping 정가 for the all-purpose 가격. 가격 just means 'price' in general; choose 정가 only when you specifically mean the fixed, official, undiscounted price.",
+      "Saying '정가에서 샀어요' for 'I bought it at list price.' The price you transact at takes 로/으로: 정가로 샀어요. 에서 would wrongly mark a location."
     ]
   },
   {
@@ -232,46 +328,70 @@
     ],
     "usage": [
       [
-        "상품권을 받았어요.",
-        "I received a gift certificate.",
-        "with object particle"
+        "상품권으로 결제하다",
+        "to pay with a gift certificate",
+        "으로 marks the means of payment; 결제하다 = to settle payment"
       ],
       [
-        "상품권이 있어요.",
-        "I have a gift certificate.",
-        "certificate as subject"
+        "문화상품권",
+        "culture gift certificate",
+        "문화 (culture) + 상품권 is the popular book/media voucher brand type"
       ],
       [
-        "상품권으로 샀어요.",
-        "I bought it with a gift certificate.",
-        "as payment method"
+        "상품권을 선물하다",
+        "to give a gift certificate as a present",
+        "선물하다 (to gift) takes 상품권 as its object with 을"
       ],
       [
-        "상품권을 선물해요.",
-        "I give a gift certificate.",
-        "giving as a present"
+        "오만 원권 상품권",
+        "a 50,000-won certificate",
+        "권 here is the counter-suffix for the bill's face value"
       ]
     ],
     "examples": [
       [
-        "이 상품권은 오만 원이에요.",
-        "This gift certificate is fifty thousand won.",
-        "stating the value"
+        "상품권이 있어요.",
+        "I have a gift certificate.",
+        "simple existence with 이 + 있다"
       ],
       [
         "상품권으로 계산했어요.",
-        "I paid with a gift certificate.",
-        "paying at register"
+        "I paid with the gift certificate.",
+        "everyday: 으로 = 'by means of'; 계산하다 = to pay/check out"
       ],
       [
-        "상품권은 어디서 써요?",
-        "Where do I use the gift certificate?",
-        "polite question"
+        "백화점 상품권은 현금처럼 쓸 수 있어서 선물로 인기가 많아요.",
+        "Department-store gift certificates can be used like cash, so they're popular as gifts.",
+        "real situation: 처럼 (like) + -ㄹ 수 있다 (can) explain why it's a favored 선물"
       ]
     ],
-    "nuance": "A prepaid certificate used like money at shops, a very common gift in Korean culture.",
+    "nuance": "상품권 is a prepaid voucher you spend like cash at shops, from the hanja 商品券 (商品 'merchandise/goods' + 券 'ticket, certificate'), literally 'goods-ticket.' That final 권 (券) is the same 'ticket/coupon' morpheme in 입장권 (admission ticket) and 할인권 (discount coupon), so recognizing it unlocks a whole family of words. Distinguish 상품권 from 쿠폰, a coupon that knocks a percentage or amount off — a 상품권 carries real stored money you redeem, whereas a 쿠폰 just discounts. Culturally, gifting 상품권 (especially 백화점 상품권 and 문화상품권) is extremely common and not seen as impersonal. The English-speaker pitfall: don't confuse it with 영수증 (receipt) or 보증서 (warranty card); only 상품권 holds spendable value. And to pay with one, use 으로 (상품권으로 샀어요), the instrument particle — not 로 after a consonant-final noun mistakenly, since 상품권 ends in ㄴ and correctly takes 으로.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "상품권 is a prepaid voucher you spend like cash at shops. Culturally, gifting 상품권 (especially 백화점 상품권 and 문화상품권) is extremely common and not seen as impersonal."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 상품권 from 쿠폰, a coupon that knocks a percentage or amount off — a 상품권 carries real stored money you redeem, whereas a 쿠폰 just discounts."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 商品券 (商品 'merchandise/goods' + 券 'ticket, certificate'), literally 'goods-ticket.' That final 권 (券) is the same 'ticket/coupon' morpheme in 입장권 (admission ticket) and 할인권 (discount coupon), so recognizing it unlocks a whole family of words."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't confuse it with 영수증 (receipt) or 보증서 (warranty card); only 상품권 holds spendable value. And to pay with one, use 으로 (상품권으로 샀어요), the instrument particle — since 상품권 ends in ㄴ it correctly takes 으로, not 로."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 상품권 with 영수증, a receipt."
+      "Confusing 상품권 with 쿠폰. A 상품권 is prepaid money you redeem; a 쿠폰 merely discounts a purchase. 'I paid with a gift certificate' is 상품권으로 냈어요, not 쿠폰으로.",
+      "Writing '상품권로 샀어요.' Because 상품권 ends in the consonant ㄴ, the instrumental particle is 으로: 상품권으로 샀어요.",
+      "Mixing up 상품권 (a spendable voucher) with 영수증 (receipt) or 보증서 (warranty). Only 상품권 has cash value; the others are proof of purchase or a guarantee."
     ]
   },
   {
@@ -287,46 +407,70 @@
     ],
     "usage": [
       [
-        "교환을 원해요.",
-        "I want an exchange.",
-        "with object particle"
+        "교환하다",
+        "to exchange",
+        "교환 + 하다 turns the noun into the verb 'to swap an item'"
       ],
       [
-        "교환이 가능해요.",
-        "An exchange is possible.",
-        "exchange as subject"
+        "교환이 가능하다",
+        "an exchange is possible",
+        "가능하다 (be possible) pairs with 이; the standard shop phrasing"
       ],
       [
-        "교환을 신청했어요.",
-        "I requested an exchange.",
-        "asking for exchange"
+        "다른 사이즈로 교환",
+        "exchange for a different size",
+        "로 marks what you swap into (the target size)"
       ],
       [
-        "교환은 안 돼요.",
-        "An exchange is not allowed.",
-        "exchange refused"
+        "교환 및 환불",
+        "exchange and refund",
+        "및 (and, formal) is the set sign wording at counters"
       ]
     ],
     "examples": [
       [
-        "이 옷을 교환하고 싶어요.",
-        "I want to exchange this clothing.",
-        "polite request"
+        "교환이 돼요?",
+        "Can I exchange it?",
+        "simple: 되다 here means 'is allowed/possible'"
       ],
       [
-        "교환은 일주일 안에 돼요.",
-        "Exchange is possible within a week.",
-        "stating the period"
+        "이 옷을 큰 걸로 교환하고 싶어요.",
+        "I'd like to exchange this for a bigger one.",
+        "everyday: 걸로 (= 것으로) marks the replacement; -고 싶다 = 'want to'"
       ],
       [
-        "영수증이 있어야 교환해요.",
-        "You need a receipt to exchange.",
-        "exchange condition"
+        "영수증이 있어야 교환할 수 있어요.",
+        "You can exchange it only if you have the receipt.",
+        "real situation: -아야 (only if) states the condition for 교환"
       ]
     ],
-    "nuance": "Swapping a bought item for another size or color, common at clothing and shoe stores.",
+    "nuance": "교환 means swapping a purchased item for a different size, color, or model of the same kind of product, from the hanja 交換 (交 'to cross/mutual' + 換 'to change'), literally 'mutually change.' The crucial shopping contrast is with 반품, a 'return' that gives your money back: 교환 keeps the transaction (you walk out with goods), 반품 undoes it (you walk out with a refund). Counters typically post '교환·반품 안내' together. Note 교환 is also used more broadly than shopping — 의견 교환 (exchanging opinions), 정보 교환 (exchanging information) — so the word isn't shop-only, but here it's the item-swap sense. The English-speaker pitfall: English 'exchange money' tempts a literal 돈을 교환하다, but currency exchange is 환전 (a different word). To swap into the replacement item, use 로/으로 (큰 사이즈로 교환), and remember the verb is 교환하다, so 'I want to exchange' is 교환하고 싶어요, not 교환을 싶어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "교환 means swapping a purchased item for a different size, color, or model of the same kind of product. Note it is also used more broadly than shopping — 의견 교환 (exchanging opinions), 정보 교환 (exchanging information) — so the word isn't shop-only, but here it's the item-swap sense."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial shopping contrast is with 반품, a 'return' that gives your money back: 교환 keeps the transaction (you walk out with goods), 반품 undoes it (you walk out with a refund). Counters typically post '교환·반품 안내' together."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 交換 (交 'to cross/mutual' + 換 'to change'), literally 'mutually change.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'exchange money' tempts a literal 돈을 교환하다, but currency exchange is 환전 (a different word). To swap into the replacement item, use 로/으로 (큰 사이즈로 교환), and remember the verb is 교환하다, so 'I want to exchange' is 교환하고 싶어요, not 교환을 싶어요."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 교환 with 반품, returning for a refund."
+      "Confusing 교환 (swap for another item) with 반품 (return for a refund). If you want your money back, that's 반품; 교환 means you leave with replacement goods.",
+      "Saying 돈을 교환하다 for changing currency. Money exchange is 환전(하다); 교환 is for swapping purchased items or, figuratively, opinions/information.",
+      "Marking the replacement with the wrong particle: '큰 사이즈에 교환해요.' Use 로/으로 for what you swap into — 큰 사이즈로 교환해요."
     ]
   },
   {
@@ -342,46 +486,70 @@
     ],
     "usage": [
       [
-        "반품을 했어요.",
-        "I made a return.",
-        "with object particle"
+        "반품하다",
+        "to return (an item)",
+        "반품 + 하다 forms the verb 'to send goods back'"
       ],
       [
-        "반품이 가능해요.",
-        "A return is possible.",
-        "return as subject"
+        "반품이 가능하다",
+        "a return is possible",
+        "가능하다 pairs with 이; the policy-statement phrasing"
       ],
       [
-        "반품을 신청해요.",
-        "I request a return.",
-        "asking for return"
+        "반품 신청",
+        "return request",
+        "신청 (application) + 반품 is the online button to start a return"
       ],
       [
-        "반품은 어려워요.",
-        "A return is difficult.",
-        "return is hard"
+        "단순 변심 반품",
+        "return due to a change of mind",
+        "단순 변심 ('simple change of heart') is the fixed policy term"
       ]
     ],
     "examples": [
       [
-        "이 신발을 반품하고 싶어요.",
-        "I want to return these shoes.",
-        "polite request"
+        "반품이 돼요?",
+        "Can I return it?",
+        "simple: 되다 = 'is allowed', the quick counter question"
       ],
       [
-        "반품하면 돈을 돌려줘요.",
-        "If you return it, they refund money.",
-        "refund result"
+        "이 신발을 반품하고 환불받고 싶어요.",
+        "I'd like to return these shoes and get a refund.",
+        "everyday: -고 chains 반품하다 and 환불받다 (receive a refund)"
       ],
       [
-        "반품은 삼 일 안에 해요.",
-        "Return it within three days.",
-        "stating the period"
+        "택을 떼면 반품이 안 되니까 조심하세요.",
+        "If you remove the tag, a return isn't possible, so be careful.",
+        "real situation: -니까 gives the reason warning before acting"
       ]
     ],
-    "nuance": "Giving back a purchased item for a refund, distinct from simply exchanging the item.",
+    "nuance": "반품 is sending a purchased item back to the seller, normally to undo the sale and get a refund, from the hanja 返品 (返 'to send back/return' + 品 'goods'), literally 'return the goods.' The sharp pair is 교환 (swap for another item, transaction kept) versus 반품 (give it back, transaction reversed) — Korean shops list them side by side as '교환·반품.' Closely linked is 환불 (還拂, 'refund'): you do a 반품 in order to receive a 환불, so they often appear together (반품하고 환불받다). The English-speaker pitfall: English 'return to the store' can make learners think of going back to a place, but 반품 is about returning the goods, not yourself returning somewhere — physically going back is 돌아가다, while handing the item back is 반품하다. Also, 반품하다 already contains 하다, so don't add an extra verb: 'I returned it' is 반품했어요, not 반품을 했어요 in the sense of doing something else.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "반품 is sending a purchased item back to the seller, normally to undo the sale and get a refund."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp pair is 교환 (swap for another item, transaction kept) versus 반품 (give it back, transaction reversed) — Korean shops list them side by side as '교환·반품.' Closely linked is 환불 (還拂, 'refund'): you do a 반품 in order to receive a 환불, so they often appear together (반품하고 환불받다)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 返品 (返 'to send back/return' + 品 'goods'), literally 'return the goods.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'return to the store' can make learners think of going back to a place, but 반품 is about returning the goods, not yourself returning somewhere — physically going back is 돌아가다, while handing the item back is 반품하다. Also, 반품하다 already contains 하다, so don't add an extra verb: 'I returned it' is 반품했어요."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 반품 with 교환, swapping for another item."
+      "Mixing up 반품 (return for refund) and 교환 (swap for a different item). If you want money back, say 반품; 교환 leaves you with replacement goods.",
+      "Using 반품 for 'returning to a place.' 반품 means sending goods back; physically going back somewhere is 돌아가다. 'I'm going back to the store' is 가게에 다시 가요, not 가게에 반품해요.",
+      "Confusing 반품 with 환불. 반품 is the act of sending the item back; 환불 is getting the money. The sequence is 반품한 뒤에 환불받아요 — you return it, then you're refunded."
     ]
   },
   {
@@ -397,46 +565,70 @@
     ],
     "usage": [
       [
-        "품절이 됐어요.",
-        "It became sold out.",
-        "becoming sold out"
+        "품절되다",
+        "to be/become sold out",
+        "품절 + 되다 makes the passive 'to sell out' (no human agent)"
       ],
       [
-        "품절이에요.",
-        "It is sold out.",
-        "stating the state"
+        "품절 상품",
+        "a sold-out item",
+        "품절 modifies 상품 (product) directly, like an adjective"
       ],
       [
-        "품절을 확인했어요.",
-        "I checked the sold out status.",
-        "with object particle"
+        "일시 품절",
+        "temporarily sold out",
+        "일시 ('temporarily') softens it — restock expected"
       ],
       [
-        "인기 상품이 품절이에요.",
-        "The popular item is sold out.",
-        "popular item gone"
+        "품절 임박",
+        "almost sold out",
+        "임박 ('imminent') is the urgency tag on shopping sites"
       ]
     ],
     "examples": [
       [
-        "이 색깔은 품절이에요.",
-        "This color is sold out.",
-        "color unavailable"
+        "이거 품절이에요.",
+        "This is sold out.",
+        "simple 이에요 statement after a consonant-final noun"
       ],
       [
-        "벌써 품절이 됐어요.",
-        "It is already sold out.",
-        "sold out quickly"
+        "그 색깔은 벌써 품절됐어요.",
+        "That color is already sold out.",
+        "everyday: 품절되다 + 벌써 ('already') stresses how fast it went"
       ],
       [
-        "품절이라서 못 샀어요.",
-        "I could not buy it because it was sold out.",
-        "reason for failure"
+        "사고 싶었는데 품절이라서 못 샀어요.",
+        "I wanted to buy it, but it was sold out, so I couldn't.",
+        "real situation: -이라서 ('because it is') gives the reason for 못 사다"
       ]
     ],
-    "nuance": "Means a product is completely sold and no longer available for purchase at the moment.",
+    "nuance": "품절 describes a product that is completely sold out and currently unavailable, from the hanja 品切 (品 'goods' + 切 'cut off/run out'), literally 'goods cut off.' The natural opposites/relatives are 재고 ('stock on hand') and 입고 ('arrival of new stock'); a thing is 품절 precisely when the 재고 hits zero, and it returns when 재입고 (restock) happens. Distinguish 품절 from 매진 (賣盡, 'sold out'), which carries the same idea but is used for tickets and seats (콘서트 매진, a sold-out concert) rather than store merchandise — say 품절 for products, 매진 for tickets. The English-speaker pitfall: 품절 is a noun/state, and Koreans most often state it as 품절이에요 or with the verb 품절되다 (품절됐어요), so avoid forcing the English passive into something like 품절돼졌어요. Also, to say a specific variant is gone, name it as the subject: 이 사이즈는 품절이에요 ('this size is sold out'), not 품절이 이 사이즈예요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "품절 describes a product that is completely sold out and currently unavailable. The natural opposites/relatives are 재고 ('stock on hand') and 입고 ('arrival of new stock'); a thing is 품절 precisely when the 재고 hits zero, and it returns when 재입고 (restock) happens."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 품절 from 매진 (賣盡, 'sold out'), which carries the same idea but is used for tickets and seats (콘서트 매진, a sold-out concert) rather than store merchandise — say 품절 for products, 매진 for tickets."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 品切 (品 'goods' + 切 'cut off/run out'), literally 'goods cut off.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "품절 is a noun/state, and Koreans most often state it as 품절이에요 or with the verb 품절되다 (품절됐어요), so avoid forcing the English passive into something like 품절돼졌어요. Also, to say a specific variant is gone, name it as the subject: 이 사이즈는 품절이에요, not 품절이 이 사이즈예요."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 품절 with 재고, remaining stock."
+      "Using 품절 for tickets or seats. Sold-out tickets/concerts/seats are 매진 (매진됐어요); reserve 품절 for store products and merchandise.",
+      "Over-conjugating into '품절돼졌어요.' The natural forms are the noun statement 품절이에요 or the verb 품절됐어요. 되다 already supplies the passive sense.",
+      "Confusing 품절 (sold out, none left) with 재고 (stock available). 재고가 없어요 ('there's no stock') and 품절이에요 overlap, but 재고가 있어요 is the in-stock opposite of 품절."
     ]
   },
   {
@@ -452,46 +644,70 @@
     ],
     "usage": [
       [
-        "재고를 확인해요.",
-        "I check the stock.",
-        "with object particle"
+        "재고가 있다",
+        "to have stock / be in stock",
+        "있다 with 이 is the core 'we have it' phrase"
       ],
       [
-        "재고가 있어요.",
-        "There is stock.",
-        "stock as subject"
+        "재고를 확인하다",
+        "to check stock",
+        "확인하다 takes 재고 as object with 를; the staff's action"
       ],
       [
-        "재고가 없어요.",
-        "There is no stock.",
-        "out of stock"
+        "재고가 떨어지다",
+        "to run out of stock",
+        "떨어지다 ('fall/run out') idiomatically means stock is depleted"
       ],
       [
-        "재고를 물어봤어요.",
-        "I asked about the stock.",
-        "asking about stock"
+        "재고 정리 세일",
+        "clearance (stock-clearing) sale",
+        "정리 ('sorting out') + 세일 names an inventory-clearing sale"
       ]
     ],
     "examples": [
       [
-        "이 사이즈 재고가 있어요?",
-        "Is there stock of this size?",
-        "polite question"
+        "재고가 있어요.",
+        "It's in stock.",
+        "simple existence: 이 + 있다 = 'there is stock'"
       ],
       [
-        "재고가 많이 남았어요.",
-        "A lot of stock is left.",
-        "plenty remaining"
+        "이 사이즈 재고가 남아 있어요?",
+        "Is this size still in stock?",
+        "everyday: 남아 있다 ('remain') is how shoppers ask if any is left"
       ],
       [
-        "재고가 곧 떨어져요.",
-        "The stock will run out soon.",
-        "stock running low"
+        "창고에 재고가 없어서 주문해야 해요.",
+        "There's no stock in the warehouse, so we have to order it.",
+        "real situation: -아서 gives the reason; -아야 하다 = 'have to'"
       ]
     ],
-    "nuance": "The amount of goods a shop still has available to sell to customers right now.",
+    "nuance": "재고 is the quantity of goods a shop currently has on hand to sell, from the hanja 在庫 (在 'to exist/be present' + 庫 'storehouse'), literally 'present in the warehouse.' It is the direct counterpart of 품절: while stock 재고 remains, you can buy; when 재고 runs out, the item becomes 품절. Don't confuse 재고 with 창고 (倉庫, the physical 'warehouse' building) — they share the 庫 'storehouse' character, but 재고 is the inventory inside, 창고 is the room itself. A common collocation is the idiom 재고가 떨어지다 ('stock runs out,' literally 'falls'), the same 떨어지다 used for running out of supplies generally. The English-speaker pitfall: English says 'in stock,' tempting 재고에, but Korean uses existence — 재고가 있어요 ('there is stock') for in stock and 재고가 없어요 for out of stock. To ask a clerk, the idiomatic line is 이거 재고 있어요? rather than a literal translation of 'Do you have this in stock?'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "재고 is the quantity of goods a shop currently has on hand to sell. A common collocation is the idiom 재고가 떨어지다 ('stock runs out,' literally 'falls'), the same 떨어지다 used for running out of supplies generally."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is the direct counterpart of 품절: while stock 재고 remains, you can buy; when 재고 runs out, the item becomes 품절. Don't confuse 재고 with 창고 (倉庫, the physical 'warehouse' building) — they share the 庫 'storehouse' character, but 재고 is the inventory inside, 창고 is the room itself."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 在庫 (在 'to exist/be present' + 庫 'storehouse'), literally 'present in the warehouse.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English says 'in stock,' tempting 재고에, but Korean uses existence — 재고가 있어요 ('there is stock') for in stock and 재고가 없어요 for out of stock. To ask a clerk, the idiomatic line is 이거 재고 있어요? rather than a literal translation of 'Do you have this in stock?'."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 재고 with 품절, being sold out."
+      "Saying '재고에 있어요' to mean 'it's in stock.' Stock is expressed by existence: 재고가 있어요 (in stock) / 재고가 없어요 (out of stock). 에 would wrongly mark a location.",
+      "Confusing 재고 (the inventory) with 창고 (the warehouse building). 'There's no stock' is 재고가 없어요; 'it's in the warehouse' is 창고에 있어요.",
+      "Treating 재고 and 품절 as the same word. 재고가 없어요 (no stock) leads to 품절이에요 (sold out). When 재고가 있어요, the item is still buyable — the opposite of 품절."
     ]
   },
   {
@@ -509,44 +725,68 @@
       [
         "계산서를 주세요.",
         "Please give me the bill.",
-        "with object particle"
+        "를 + 주세요 is the polite 'please give me' request"
       ],
       [
-        "계산서가 나왔어요.",
-        "The bill came out.",
-        "bill as subject"
+        "계산서가 나오다",
+        "the bill comes out",
+        "나오다 ('come out') is how a bill is said to be issued"
       ],
       [
-        "계산서를 확인해요.",
-        "I check the bill.",
-        "checking the bill"
+        "계산서를 확인하다",
+        "to check the bill",
+        "확인하다 takes 계산서 as object; you verify the amounts"
       ],
       [
-        "계산서가 틀렸어요.",
-        "The bill is wrong.",
-        "bill has an error"
+        "계산서 좀 보여 주세요.",
+        "Please show me the bill.",
+        "좀 softens the request; 보여 주다 = 'show'"
       ]
     ],
     "examples": [
       [
-        "계산서 좀 보여 주세요.",
-        "Please show me the bill.",
-        "polite request"
+        "계산서 주세요.",
+        "The bill, please.",
+        "simple: drop the particle in casual speech for a quick ask"
       ],
       [
-        "계산서에 금액이 적혀 있어요.",
-        "The amount is written on the bill.",
-        "amount shown"
+        "계산서가 좀 이상해요.",
+        "The bill seems a bit off.",
+        "everyday: 좀 ('a bit') + 이상하다 (be strange) flags a possible error"
       ],
       [
-        "계산서를 받고 돈을 내요.",
-        "I get the bill and pay.",
-        "paying after bill"
+        "계산서를 보니까 음료가 두 번 찍혀 있었어요.",
+        "When I looked at the bill, the drink was rung up twice.",
+        "real situation: -니까 ('upon doing') leads into the discovery"
       ]
     ],
-    "nuance": "An itemized statement of what you owe, common at restaurants and larger shops.",
+    "nuance": "계산서 is the itemized statement of what you owe, from 계산 (計算, 'calculation/reckoning': 計 'to count' + 算 'to compute') plus the suffix 서 (書, 'written document'), so it reads 'a written reckoning.' That 서 (書) 'document' morpheme also forms 신청서 (application form) and 보증서 (warranty), a handy pattern to learn. The key contrast is with 영수증 (領收證, 'receipt'): a 계산서 is the request for payment showing the itemized total before/at paying, while 영수증 is the proof you already paid — at a restaurant you get the 계산서 to settle, then the 영수증 afterward. Note 계산서 also has a formal tax sense (세금계산서, 'tax invoice') in business. The English-speaker pitfall: 'bill' in English also means paper money, but Korean 계산서 never means a banknote — a bill/note of money is 지폐. And to ask for the check politely, Koreans say 계산서 주세요 or simply 계산할게요 ('I'll pay'), not a literal 'check, please.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "계산서 is the itemized statement of what you owe. Note it also has a formal tax sense (세금계산서, 'tax invoice') in business."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast is with 영수증 (領收證, 'receipt'): a 계산서 is the request for payment showing the itemized total before/at paying, while 영수증 is the proof you already paid — at a restaurant you get the 계산서 to settle, then the 영수증 afterward."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From 계산 (計算, 'calculation/reckoning': 計 'to count' + 算 'to compute') plus the suffix 서 (書, 'written document'), so it reads 'a written reckoning.' That 서 (書) 'document' morpheme also forms 신청서 (application form) and 보증서 (warranty), a handy pattern to learn."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Bill' in English also means paper money, but Korean 계산서 never means a banknote — a bill/note of money is 지폐. And to ask for the check politely, Koreans say 계산서 주세요 or simply 계산할게요 ('I'll pay'), not a literal 'check, please.'"
+      }
+    ],
     "mistakes": [
-      "Do not confuse 계산서 with 영수증, the proof of payment."
+      "Using 계산서 for paper money because English 'bill' is ambiguous. A banknote is 지폐 (or 돈); 계산서 is only the itemized statement of charges.",
+      "Confusing 계산서 (the bill/invoice you pay from) with 영수증 (the receipt proving you paid). Ask for 계산서 before paying; keep the 영수증 after.",
+      "Forcing a literal 'check please' as something like '체크 주세요.' At a restaurant, say 계산서 주세요 or 계산할게요 to ask for and settle the bill."
     ]
   },
   {
@@ -562,46 +802,65 @@
     ],
     "usage": [
       [
-        "봉지를 주세요.",
-        "Please give me a bag.",
-        "with object particle"
+        "봉지에 담다",
+        "to put into a bag",
+        "에 marks the destination; 담다 = to put/pack into a container"
       ],
       [
-        "봉지가 필요해요.",
-        "I need a bag.",
-        "bag as subject"
+        "비닐봉지",
+        "plastic bag",
+        "비닐 (vinyl) + 봉지 is the everyday convenience-store bag"
       ],
       [
-        "봉지에 넣어요.",
-        "I put it in a bag.",
-        "putting items inside"
+        "봉지 하나 주세요.",
+        "Please give me one bag.",
+        "하나 (one) + 주세요; you often pay extra for it"
       ],
       [
-        "봉지가 작아요.",
-        "The bag is small.",
-        "describing the bag"
+        "과자 한 봉지",
+        "one bag (packet) of snacks",
+        "봉지 doubles as a counter: 'a packet of'"
       ]
     ],
     "examples": [
       [
-        "봉지 하나 더 주세요.",
-        "Please give me one more bag.",
-        "asking for more"
+        "봉지 주세요.",
+        "A bag, please.",
+        "simple request; particle dropped in casual speech"
       ],
       [
-        "봉지는 돈을 내야 해요.",
-        "You must pay for a bag.",
-        "paying for bag"
+        "비닐봉지는 돈을 내야 해요.",
+        "You have to pay for a plastic bag.",
+        "everyday: -아야 하다 ('have to') reflects Korea's paid-bag rule"
       ],
       [
-        "과자를 봉지에 담아요.",
-        "I put the snacks in the bag.",
-        "filling the bag"
+        "산 물건을 봉지에 담아서 들고 갔어요.",
+        "I packed what I bought into a bag and carried it out.",
+        "real situation: 담아서 ('pack and then') chains into 들고 가다 (carry along)"
       ]
     ],
-    "nuance": "A thin plastic or paper bag for carrying goods, often charged for at Korean shops.",
+    "nuance": "봉지 is a thin plastic or paper bag for carrying purchases, and it doubles as a counter for packeted goods (과자 한 봉지, 'a bag of chips'). The most common compound is 비닐봉지 ('vinyl/plastic bag'). Crucially, distinguish 봉지 from 가방: a 가방 is a durable bag you own and reuse — a handbag, backpack, or suitcase — whereas a 봉지 is the flimsy throwaway sack the cashier gives you; calling your backpack a 봉지 sounds odd. Also nearby is 봉투, which is more for envelopes and sturdier paper/shopping bags (종이봉투), with some overlap. Culturally, Korean shops charge for 비닐봉지 by law, so 봉지 드릴까요? ('Shall I give you a bag?') usually implies a small fee. The English-speaker pitfall: English 'bag' covers everything, so learners over-apply 봉지; reserve it for disposable shopping sacks, and use 가방 for personal bags. To pack items 'into' it, use 에 with 담다 (봉지에 담다), the destination particle, not 에서.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "봉지 is a thin plastic or paper bag for carrying purchases, and it doubles as a counter for packeted goods (과자 한 봉지, 'a bag of chips'). The most common compound is 비닐봉지 ('vinyl/plastic bag'). Culturally, Korean shops charge for 비닐봉지 by law, so 봉지 드릴까요? ('Shall I give you a bag?') usually implies a small fee."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 봉지 from 가방: a 가방 is a durable bag you own and reuse — a handbag, backpack, or suitcase — whereas a 봉지 is the flimsy throwaway sack the cashier gives you; calling your backpack a 봉지 sounds odd. Also nearby is 봉투, which is more for envelopes and sturdier paper/shopping bags (종이봉투), with some overlap."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'bag' covers everything, so learners over-apply 봉지; reserve it for disposable shopping sacks, and use 가방 for personal bags. To pack items 'into' it, use 에 with 담다 (봉지에 담다), the destination particle, not 에서."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 봉지 with 가방, a handbag."
+      "Calling a backpack, purse, or suitcase a 봉지. Those reusable personal bags are 가방; 봉지 is the disposable shopping sack the store hands you.",
+      "Saying '봉지에서 담아요' for 'I put it in the bag.' 담다 packs into a destination, so use 에: 봉지에 담아요. 에서 marks where an action happens, not where things go in.",
+      "Forgetting 봉지 works as a counter and saying '과자 한 개' when you mean a packet. A packaged bag of snacks is 과자 한 봉지; 한 개 would suggest a single piece."
     ]
   },
   {
@@ -617,46 +876,70 @@
     ],
     "usage": [
       [
-        "거스름돈을 받아요.",
-        "I receive the change.",
-        "with object particle"
+        "거스름돈을 받다",
+        "to receive change",
+        "받다 takes 거스름돈 as object with 을; you get it back"
       ],
       [
-        "거스름돈이 없어요.",
-        "There is no change.",
-        "change as subject"
+        "거스름돈을 주다",
+        "to give change",
+        "주다 hands the change to the customer; the everyday verb pairing"
       ],
       [
-        "거스름돈을 줬어요.",
-        "I gave the change.",
-        "giving change back"
+        "거스름돈은 됐어요.",
+        "Keep the change.",
+        "됐어요 ('it's fine') politely declines the change"
       ],
       [
-        "거스름돈이 모자라요.",
-        "The change is short.",
-        "not enough change"
+        "잔돈",
+        "small change / coins",
+        "잔돈 is the shorter near-synonym, also meaning loose coins"
       ]
     ],
     "examples": [
       [
-        "거스름돈을 주세요.",
-        "Please give me the change.",
-        "polite request"
+        "거스름돈 주세요.",
+        "Please give me my change.",
+        "simple request; particle dropped casually"
       ],
       [
-        "거스름돈은 천 원이에요.",
-        "The change is one thousand won.",
-        "stating the amount"
+        "거스름돈이 모자라요.",
+        "The change is short.",
+        "everyday: 모자라다 ('be insufficient') flags a shortfall"
       ],
       [
-        "거스름돈을 안 받았어요.",
-        "I did not get the change.",
-        "missing the change"
+        "만 원을 냈는데 거스름돈을 안 줬어요.",
+        "I paid with 10,000 won, but they didn't give me the change.",
+        "real situation: -는데 contrasts paying with not receiving change"
       ]
     ],
-    "nuance": "The money returned after you pay with more than the exact price of an item.",
+    "nuance": "거스름돈 is the money handed back when you pay more than the exact price — pure native Korean, from the verb 거스르다 ('to give change back; to go against the flow') plus 돈 ('money'), so it pictures money 'flowing back' to you. Its close synonym is 잔돈, but the two differ: 거스름돈 is specifically the change returned from a payment, while 잔돈 more broadly means small coins/loose change you carry (잔돈 있어요? = 'Do you have small change?'). From a customer's side it pairs with 받다 (거스름돈을 받다, 'receive change'); from the cashier's side it pairs with 주다 (거스름돈을 줬어요, 'gave the change') — note you say 거스름돈을 주다, not the redundant 거스름돈을 거슬러 주다, since the noun and the verb 거슬러 주다 both come from 거스르다 and stacking them doubles the meaning. The English-speaker pitfall: English 'change' is overloaded, and learners confuse this money sense with 바꾸다 ('to change/alter') or 환전 (currency exchange) — 거스름돈 has nothing to do with those. Also beware 용돈, which sounds vaguely similar but means 'pocket money/allowance,' a completely different word. To say 'keep the change,' don't translate literally; Koreans say 거스름돈은 됐어요 or 그냥 가지세요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "거스름돈 is the money handed back when you pay more than the exact price; it pictures money 'flowing back' to you. From a customer's side it pairs with 받다 (거스름돈을 받다, 'receive change'); from the cashier's side it pairs with 주다 (거스름돈을 줬어요, 'gave the change') — note you say 거스름돈을 주다, not the redundant 거스름돈을 거슬러 주다, since the noun and the verb both come from 거스르다 and stacking them doubles the meaning."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its close synonym is 잔돈, but the two differ: 거스름돈 is specifically the change returned from a payment, while 잔돈 more broadly means small coins/loose change you carry (잔돈 있어요? = 'Do you have small change?'). Also beware 용돈, which sounds vaguely similar but means 'pocket money/allowance,' a completely different word."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Pure native Korean, from the verb 거스르다 ('to give change back; to go against the flow') plus 돈 ('money')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'change' is overloaded, and learners confuse this money sense with 바꾸다 ('to change/alter') or 환전 (currency exchange) — 거스름돈 has nothing to do with those. To say 'keep the change,' don't translate literally; Koreans say 거스름돈은 됐어요 or 그냥 가지세요."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 거스름돈 with 용돈, allowance money."
+      "Confusing 거스름돈 (change from a payment) with the verb 바꾸다 ('to change/swap') or 환전 (currency exchange). 거스름돈 is only the cash returned after overpaying.",
+      "Mixing up 거스름돈 with 용돈. They sound a little alike, but 용돈 is 'pocket money/allowance,' while 거스름돈 is the change a cashier gives back.",
+      "Translating 'keep the change' word-for-word. The natural phrasings are 거스름돈은 됐어요 or 그냥 가지세요 — a literal version sounds unnatural."
     ]
   }
 ]

@@ -7,18 +7,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["손목이 아파요", "My wrist hurts", "Go-to line at the clinic or pharmacy"],
-      ["손목을 삐었어요", "I sprained my wrist", "삐다 = to sprain a joint"],
-      ["손목시계", "wristwatch", "Written as one word — 손목 (wrist) + 시계 (watch)"],
-      ["손목이 시큰거려요", "My wrist aches/twinges", "시큰거리다 describes a dull joint ache"]
+      ["손목이 아파요", "My wrist hurts", "Subject particle 이 marks the body part that hurts — the default clinic line"],
+      ["손목을 삐다", "to sprain one's wrist", "삐다 takes 을/를: you sprain a specific joint"],
+      ["손목을 잡다", "to grab someone's wrist", "Romance-drama staple; note 을, you grab the wrist itself"],
+      ["손목시계", "wristwatch", "One word: 손목 + 시계 (時計, 'time-meter') — the watch, not the body part"]
     ],
     "examples": [
-      ["마우스를 오래 써서 손목이 너무 아파요.", "My wrist really hurts from using the mouse too long.", "The classic desk-job complaint"],
-      ["넘어지면서 손목을 짚어서 삐었어요.", "I sprained my wrist catching myself when I fell.", "짚다 = to brace/prop with your hand"],
-      ["손목에 무리가 가지 않게 보호대를 차세요.", "Wear a brace so you don't strain your wrist.", "무리가 가다 = to put strain on"]
+      ["손목이 좀 아파요.", "My wrist hurts a little.", "Simplest clinic sentence — body part + 이 + 아파요"],
+      ["마우스를 오래 써서 손목이 너무 시큰거려요.", "My wrist really aches from using the mouse too long.", "시큰거리다 = a dull, repetitive joint ache, the desk-job complaint"],
+      ["넘어질 때 손으로 바닥을 짚다가 손목을 삐었어요.", "I sprained my wrist when I braced my fall with my hand.", "real injury story: 짚다(brace) → 삐다(sprain), past 삐었어요"]
     ],
-    "nuance": "손목 is the joint where the hand (손) meets the arm. Korean stacks 손 + 목, so think 'hand-neck.' Office workers use it constantly to describe RSI-type pain from keyboards and phones, so it is genuinely useful at the doctor.",
-    "mistakes": ["Don't confuse 손목 (wrist) with 목 (neck) — 목 alone means your neck/throat.", "It's a body part, not the watch itself; the watch is 손목시계."]
+    "nuance": "손목 is the wrist joint, built transparently from 손(hand) + 목(neck) — Korean treats it as the 'neck of the hand,' the same logic behind 발목(ankle). The key contrast is with bare 손: 손 is the whole hand, so if you specifically twisted or strained the joint you must say 손목, not 손, or a Korean pictures the palm/fingers instead. Register is plain and neutral — fine for friends and equally fine at the 정형외과(orthopedic clinic), where 손목이 아파요 and 손목을 삐었어요 are everyday lines. Habitual collocations: 손목이 시큰거리다(aches), 손목에 무리가 가다(gets strained), 손목을 삐다/접질리다(sprain). The English-speaker pitfall is the particle on 삐다: English says 'sprain my wrist,' so learners reach for 손목에, but 삐다 takes the object marker — 손목을 삐었어요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "손목 is the wrist joint. Register is plain and neutral — fine for friends and equally fine at the 정형외과(orthopedic clinic), where 손목이 아파요 and 손목을 삐었어요 are everyday lines. Habitual collocations: 손목이 시큰거리다(aches), 손목에 무리가 가다(gets strained), 손목을 삐다/접질리다(sprain)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key contrast is with bare 손: 손 is the whole hand, so if you specifically twisted or strained the joint you must say 손목, not 손, or a Korean pictures the palm/fingers instead."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Built transparently from 손(hand) + 목(neck) — Korean treats it as the 'neck of the hand,' the same logic behind 발목(ankle)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the particle on 삐다: English says 'sprain my wrist,' so learners reach for 손목에, but 삐다 takes the object marker — 손목을 삐었어요."}
+    ],
+    "mistakes": ["Saying 손 아파요 when you actually hurt the joint — 손 is the whole hand; to be precise about the joint say 손목이 아파요.", "Using 에 with 삐다 by analogy to English ('sprain in my wrist'): it is 손목을 삐었어요 with the object marker 을, not 손목에 삐었어요.", "Calling the watch 손목 — the body part is 손목, the watch is 손목시계."]
   },
   {
     "kind": "noun",
@@ -28,18 +34,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["발목을 삐었어요", "I sprained my ankle", "The single most common ankle complaint"],
-      ["발목이 부었어요", "My ankle is swollen", "붓다 → 부었어요 (ㅅ irregular)"],
-      ["발목을 접질렸어요", "I twisted my ankle", "접질리다 = to twist/wrench a joint"],
-      ["발목까지 오는 바지", "ankle-length pants", "Useful when shopping for clothes"]
+      ["발목을 삐다", "to sprain one's ankle", "The #1 ankle complaint; object marker 을 on the joint"],
+      ["발목이 붓다", "for the ankle to swell", "붓다 is ㅅ-irregular → 부어요 / 부었어요"],
+      ["발목을 접질리다", "to twist/wrench one's ankle", "접질리다 = a sharper 'rolled it' nuance than 삐다"],
+      ["발목을 잡다", "to hold someone back", "Idiom: literally 'grab the ankle' = drag down / be a burden"]
     ],
     "examples": [
-      ["계단에서 발목을 삐어서 절뚝거리며 걸었어요.", "I sprained my ankle on the stairs and walked with a limp.", "절뚝거리다 = to limp"],
-      ["발목이 부어서 신발이 안 들어가요.", "My ankle is so swollen my shoe won't fit.", "Very real after a sprain"],
-      ["등산 갈 때는 발목을 잡아주는 신발을 신으세요.", "Wear shoes that support your ankle when you go hiking.", "잡아주다 = to support/hold"]
+      ["발목이 좀 부었어요.", "My ankle is a bit swollen.", "Note the ㅅ-irregular: 붓다 → 부었어요, never 붓었어요"],
+      ["계단에서 발목을 삐어서 절뚝거리며 걸었어요.", "I sprained my ankle on the stairs and walked with a limp.", "절뚝거리다 = to limp — a vivid everyday result of a sprain"],
+      ["내가 실수해서 괜히 팀 발목을 잡은 것 같아요.", "I feel like my mistake dragged the whole team down.", "발목을 잡다 used figuratively — to hold/hinder, not literal"]
     ],
-    "nuance": "발목 is 발 (foot) + 목 (neck), the joint above your foot. Ankle sprains are extremely common, so 발목을 삐다 is a phrase you'll hear and use at orthopedic clinics (정형외과) all the time. It also shows up when talking about pant length.",
-    "mistakes": ["Don't say 발 아파요 when you specifically twisted the ankle — use 발목 to be precise.", "Remember 붓다 is ㅅ-irregular: 부어요 / 부었어요, not 붓어요."]
+    "nuance": "발목 is the ankle, formed as 발(foot) + 목(neck) — the 'neck of the foot,' parallel to 손목. Distinguish it from bare 발(the whole foot): if you rolled the joint, 발목을 삐었어요 is precise, whereas 발 아파요 just means your foot hurts somewhere. It is plain, neutral register and the staple phrase at the 정형외과(整形外科, orthopedics): 발목을 삐다/접질리다, 발목이 붓다/시큰거리다. 발목까지 오는 바지 (ankle-length pants) shows the same word in clothes-shopping. Two English-speaker pitfalls: first, 붓다 is ㅅ-irregular, so it conjugates 부어요/부었어요 (drop the ㅅ), and learners wrongly write 붓어요. Second, the idiom 발목을 잡다 means to hold someone back or be a burden — don't read it literally.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "발목 is the ankle. It is plain, neutral register and the staple phrase at the 정형외과(整形外科, orthopedics): 발목을 삐다/접질리다, 발목이 붓다/시큰거리다. 발목까지 오는 바지 (ankle-length pants) shows the same word in clothes-shopping."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it from bare 발(the whole foot): if you rolled the joint, 발목을 삐었어요 is precise, whereas 발 아파요 just means your foot hurts somewhere."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Formed as 발(foot) + 목(neck) — the 'neck of the foot,' parallel to 손목."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Two pitfalls: first, 붓다 is ㅅ-irregular, so it conjugates 부어요/부었어요 (drop the ㅅ), and learners wrongly write 붓어요. Second, the idiom 발목을 잡다 means to hold someone back or be a burden — don't read it literally."}
+    ],
+    "mistakes": ["Saying 발 아파요 when you specifically twisted the ankle joint — use 발목 to be precise: 발목을 삐었어요.", "Conjugating 붓다 as 붓어요 — it is ㅅ-irregular, so the ㅅ drops: 부어요 / 부었어요.", "Reading 발목을 잡다 literally as physically grabbing — in most contexts it is the idiom 'to hold back / be a drag.'"]
   },
   {
     "kind": "noun",
@@ -49,18 +61,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["팔꿈치가 아파요", "My elbow hurts", "Standard clinic phrase"],
-      ["팔꿈치로 찌르다", "to nudge/poke with one's elbow", "찌르다 = to poke"],
-      ["팔꿈치를 괴다", "to rest on one's elbow", "괴다 = to prop up"],
-      ["팔꿈치가 까졌어요", "I scraped my elbow", "까지다 = to get scraped"]
+      ["팔꿈치가 아파요", "My elbow hurts", "Standard clinic phrase; 이 marks the aching joint"],
+      ["팔꿈치를 괴다", "to prop oneself on one's elbow", "괴다 = to prop up; classic bored-meeting posture"],
+      ["팔꿈치로 찌르다", "to nudge with one's elbow", "Instrument particle 로: '(by means of) the elbow'"],
+      ["팔꿈치가 까지다", "to scrape one's elbow", "까지다 = skin gets scraped off, intransitive"]
     ],
     "examples": [
-      ["테니스를 친 뒤로 팔꿈치가 계속 아파요.", "My elbow has been hurting ever since I played tennis.", "'Tennis elbow' is a real diagnosis here too"],
-      ["책상에 팔꿈치를 괴고 졸았어요.", "I dozed off propped up on my elbow on the desk.", "Common posture in a boring meeting"],
-      ["좁은 지하철에서 옆 사람 팔꿈치에 부딪혔어요.", "I bumped into the next person's elbow on the crowded subway.", "부딪히다 = to collide/bump"]
+      ["팔꿈치가 좀 아파요.", "My elbow hurts a bit.", "Simplest form — joint + 이 + 아파요"],
+      ["책상에 팔꿈치를 괴고 졸았어요.", "I dozed off propped up on my elbow on the desk.", "팔꿈치를 괴다 = the prop-your-chin posture; 에 marks where (책상에)"],
+      ["테니스를 친 뒤로 팔꿈치 바깥쪽이 계속 아파요.", "The outside of my elbow has hurt ever since I played tennis.", "real 'tennis elbow' description with location 바깥쪽(outer side)"]
     ],
-    "nuance": "팔꿈치 is the elbow joint. The spelling trips people up — it's 팔(arm) + 꿈치, written as one word with the double consonant ㄲ. You'll need it for joint pain, for describing crowded subway jostling, and for posture.",
-    "mistakes": ["A frequent misspelling is 팔꿉치 or 팔굼치 — the correct form is 팔꿈치.", "Don't drop the 팔 and just say 꿈치; the full word is 팔꿈치."]
+    "nuance": "팔꿈치 is the elbow joint, written as one word from 팔(arm) + 꿈치 with the tense consonant ㄲ. There is no everyday near-synonym — the medical term 주관절(肘關節, elbow joint) exists but nobody uses it in conversation, so 팔꿈치 covers all registers. Habitual collocations: 팔꿈치를 괴다(prop on), 팔꿈치로 찌르다(nudge with — note instrument 로), 팔꿈치가 까지다(scrape), 팔꿈치가 아프다(ache, e.g. tennis elbow). The biggest English-speaker pitfall here is spelling/pronunciation: learners write 팔꿉치 or 팔굼치, but only 팔꿈치 is correct, and you must keep the 팔 — bare 꿈치 is not a word. A second trap is the particle on 찌르다: you nudge 'with' the elbow, so it's 팔꿈치로, not 팔꿈치를.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "팔꿈치 is the elbow joint, covering all registers in everyday speech. Habitual collocations: 팔꿈치를 괴다(prop on), 팔꿈치로 찌르다(nudge with — note instrument 로), 팔꿈치가 까지다(scrape), 팔꿈치가 아프다(ache, e.g. tennis elbow)."},
+      {"k": "비슷한 말", "e": "VS", "t": "There is no everyday near-synonym — the medical term 주관절(肘關節, elbow joint) exists but nobody uses it in conversation, so 팔꿈치 covers all registers."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Written as one word from 팔(arm) + 꿈치 with the tense consonant ㄲ."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The biggest pitfall is spelling/pronunciation: learners write 팔꿉치 or 팔굼치, but only 팔꿈치 is correct, and you must keep the 팔 — bare 꿈치 is not a word. A second trap is the particle on 찌르다: you nudge 'with' the elbow, so it's 팔꿈치로, not 팔꿈치를."}
+    ],
+    "mistakes": ["Misspelling it as 팔꿉치 or 팔굼치 — the only correct form is 팔꿈치 (note ㄲ and ㅁ받침).", "Dropping 팔 and saying just 꿈치 — the full word is always 팔꿈치.", "Using 을/를 with 찌르다 for the nudging hand — it's the instrument particle: 팔꿈치로 찔렀어요."]
   },
   {
     "kind": "noun",
@@ -70,18 +88,24 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["발가락을 찧었어요", "I stubbed my toe", "찧다 = to bang/stub hard"],
-      ["새끼발가락", "pinky toe", "새끼 = the smallest one"],
-      ["엄지발가락", "big toe", "엄지 = the thumb/big one"],
-      ["발가락 사이", "between the toes", "Where athlete's foot starts"]
+      ["발가락을 찧다", "to stub one's toe", "찧다 = to bang hard against something; object marker 을"],
+      ["엄지발가락", "big toe", "엄지(the 'thumb/biggest one') + 발가락, one word"],
+      ["새끼발가락", "pinky toe", "새끼 = the smallest/baby one; the toe you stub at night"],
+      ["발가락 사이", "between the toes", "사이 = the gap; where 무좀(athlete's foot) starts"]
     ],
     "examples": [
-      ["밤에 문턱에 새끼발가락을 찧어서 너무 아팠어요.", "I stubbed my pinky toe on the door frame at night and it hurt so much.", "A universally painful experience"],
-      ["발가락 사이가 가려운 걸 보니 무좀인 것 같아요.", "It's itchy between my toes, so I think it's athlete's foot.", "무좀 = athlete's foot"],
-      ["신발이 작아서 발가락이 꽉 끼어요.", "The shoes are small so my toes feel cramped.", "꽉 끼다 = to be tight/cramped"]
+      ["발가락이 아파요.", "My toe hurts.", "Plain base sentence"],
+      ["신발이 작아서 발가락이 꽉 끼어요.", "The shoes are small so my toes feel cramped.", "꽉 끼다 = packed/cramped tight — shoe-fitting vocab"],
+      ["밤에 문턱에 새끼발가락을 찧어서 눈물이 났어요.", "I stubbed my pinky toe on the door frame at night and my eyes watered.", "real-situation: the universal night-time injury, 찧다 in past tense"]
     ],
-    "nuance": "발가락 means toe (발 foot + 가락 digit), parallel to 손가락 (finger). Use 엄지발가락 for the big toe and 새끼발가락 for the pinky toe. It's practical for shoe-fitting and for the very common foot issues like 무좀.",
-    "mistakes": ["Don't mix up 발가락 (toe) with 발톱 (toenail) — the nail is 발톱.", "It's 발가락, not 발까락; the spelling uses ㄱ not ㄲ."]
+    "nuance": "발가락 is a toe, built from 발(foot) + 가락(digit/strand), exactly parallel to 손가락(finger) — once you see the 가락 pattern both words click. Name individual toes with 엄지발가락(big toe, lit. 'thumb-toe') and 새끼발가락(pinky toe, lit. 'baby-toe'). Don't confuse 발가락(toe) with 발톱(toenail): 톱 is the nail, so 'I cut my toenails' is 발톱을 깎다, not 발가락. Register is fully neutral and casual-safe. Typical collocations: 발가락을 찧다(stub), 발가락이 꽉 끼다(toes feel cramped in shoes), 발가락 사이가 가렵다(itchy between the toes). The English-speaker pitfall is the verb for stubbing — English 'stub' has no direct cognate; Korean uses 찧다 (bang hard) with the object marker: 발가락을 찧었어요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "발가락 is a toe. Name individual toes with 엄지발가락(big toe, lit. 'thumb-toe') and 새끼발가락(pinky toe, lit. 'baby-toe'). Register is fully neutral and casual-safe. Typical collocations: 발가락을 찧다(stub), 발가락이 꽉 끼다(toes feel cramped in shoes), 발가락 사이가 가렵다(itchy between the toes)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse 발가락(toe) with 발톱(toenail): 톱 is the nail, so 'I cut my toenails' is 발톱을 깎다, not 발가락."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Built from 발(foot) + 가락(digit/strand), exactly parallel to 손가락(finger) — once you see the 가락 pattern both words click."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the verb for stubbing — English 'stub' has no direct cognate; Korean uses 찧다 (bang hard) with the object marker: 발가락을 찧었어요."}
+    ],
+    "mistakes": ["Confusing 발가락(toe) with 발톱(toenail) — the nail is 발톱, so trimming nails is 발톱을 깎다.", "Misspelling it 발까락 — it is 발가락 with plain ㄱ, even though it sounds tensed.", "Reaching for a word like 차다/때리다 to say 'stub' — the natural verb is 찧다: 발가락을 찧었어요."]
   },
   {
     "kind": "noun",
@@ -91,18 +115,23 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["허벅지가 굵다", "to have thick thighs", "Often said about muscular legs"],
-      ["허벅지 근육", "thigh muscles", "Gym vocabulary"],
-      ["허벅지 안쪽", "inner thigh", "안쪽 = inner side"],
-      ["허벅지가 당겨요", "My thighs feel tight", "당기다 = to feel tight/pulled"]
+      ["허벅지가 굵다", "to have thick thighs", "굵다 (thick in girth) for limbs — not 두껍다"],
+      ["허벅지 근육", "thigh muscles", "근육 (筋肉, 'muscle'); gym vocabulary"],
+      ["허벅지 안쪽", "inner thigh", "안쪽 = inner side; back of thigh is 허벅지 뒤"],
+      ["허벅지가 당기다", "for the thighs to feel tight", "당기다 = a pulled/stretched-tight sensation after exercise"]
     ],
     "examples": [
-      ["스쿼트를 했더니 허벅지가 너무 아파요.", "My thighs are so sore after doing squats.", "근육통 (muscle soreness) talk"],
-      ["청바지가 허벅지에서 꽉 껴요.", "The jeans are tight around the thighs.", "A real fitting problem"],
-      ["오래 앉아 있으면 허벅지가 저려요.", "My thighs go numb if I sit too long.", "저리다 = to go numb/tingle"]
+      ["허벅지가 아파요.", "My thighs are sore.", "Base sentence after any leg workout"],
+      ["청바지가 허벅지에서 꽉 껴요.", "The jeans are tight around the thighs.", "꽉 끼다 + location 에서 — a real fitting problem for muscular legs"],
+      ["스쿼트를 했더니 허벅지 안쪽이 너무 당겨요.", "After doing squats, my inner thighs feel really tight.", "당기다 = the post-workout pulled-tight feeling, with 안쪽(inner)"]
     ],
-    "nuance": "허벅지 is the thick upper part of the leg, the thigh. It comes up constantly at the gym (스쿼트, 런지) and when clothes don't fit right. For the inner thigh say 허벅지 안쪽, and for the back of the thigh 허벅지 뒤.",
-    "mistakes": ["Don't confuse 허벅지 (thigh) with 종아리 (calf) — the calf is the lower leg.", "허벅지 is informal-neutral; in a medical setting you might also hear 대퇴부, but 허벅지 is what people actually say."]
+    "nuance": "허벅지 is the thigh — the thick upper leg above the knee. The contrast to learn is register, not body part: 허벅지 is the normal spoken word, while 대퇴부(大腿部, 'big-leg region') is the clinical/anatomical term you'll only meet in a hospital or textbook — say 허벅지 in real life. Specify regions with 허벅지 안쪽(inner) and 허벅지 뒤(back/hamstring). A vocabulary pitfall for English speakers: 'thick thighs' uses 굵다 (thick in circumference, for cylindrical things like legs and arms), NOT 두껍다 (thick in flat thickness, for books/blankets) — 허벅지가 굵다 is right, 허벅지가 두껍다 sounds off. Other collocations: 허벅지가 당기다(feel tight/pulled), 허벅지가 저리다(go numb), 허벅지 근육(thigh muscle). Also keep it distinct from 종아리(calf), which is the lower leg.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "허벅지 is the thigh — the thick upper leg above the knee. Specify regions with 허벅지 안쪽(inner) and 허벅지 뒤(back/hamstring). Other collocations: 허벅지가 당기다(feel tight/pulled), 허벅지가 저리다(go numb), 허벅지 근육(thigh muscle)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The contrast to learn is register, not body part: 허벅지 is the normal spoken word, while 대퇴부(大腿部, 'big-leg region') is the clinical/anatomical term you'll only meet in a hospital or textbook — say 허벅지 in real life. Also keep it distinct from 종아리(calf), which is the lower leg."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A vocabulary pitfall: 'thick thighs' uses 굵다 (thick in circumference, for cylindrical things like legs and arms), NOT 두껍다 (thick in flat thickness, for books/blankets) — 허벅지가 굵다 is right, 허벅지가 두껍다 sounds off."}
+    ],
+    "mistakes": ["Using 두껍다 for thick thighs — limbs take 굵다 (girth): 허벅지가 굵다, not 허벅지가 두껍다.", "Reaching for 대퇴부 in casual talk — that is the clinical term; ordinary speech is 허벅지.", "Confusing 허벅지(thigh, upper leg) with 종아리(calf, lower leg)."]
   },
   {
     "kind": "noun",
@@ -112,18 +141,23 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["종아리가 뭉쳤어요", "My calf is knotted up", "뭉치다 = to knot/stiffen"],
-      ["종아리에 쥐가 났어요", "I got a calf cramp", "쥐가 나다 = to get a cramp"],
-      ["종아리가 두껍다", "to have thick calves", "두껍다 for thickness"],
-      ["종아리 마사지", "calf massage", "Common after a long day standing"]
+      ["종아리가 뭉치다", "for the calf to knot up", "뭉치다 = muscle stiffens into a knot"],
+      ["종아리에 쥐가 나다", "to get a calf cramp", "쥐가 나다 = idiom for a cramp; note 에 marks the spot"],
+      ["종아리가 굵다", "to have thick calves", "굵다 for limb girth, not 두껍다"],
+      ["종아리 알", "the calf bulge/muscle", "알 = the rounded muscle belly of the calf"]
     ],
     "examples": [
-      ["하이힐을 신었더니 종아리가 너무 뭉쳤어요.", "My calves got really tight from wearing high heels.", "Familiar end-of-day complaint"],
-      ["자다가 종아리에 쥐가 나서 깼어요.", "I woke up because I got a cramp in my calf.", "쥐가 나다 = sudden cramp"],
-      ["많이 걸어서 종아리가 퉁퉁 부었어요.", "My calves are all swollen from walking a lot.", "퉁퉁 붓다 = to swell up"]
+      ["종아리가 아파요.", "My calf hurts.", "Plain base sentence"],
+      ["하이힐을 신었더니 종아리가 너무 뭉쳤어요.", "My calves got really tight from wearing heels.", "뭉치다 = knotted/stiff; classic end-of-day complaint"],
+      ["자다가 종아리에 쥐가 나서 깼어요.", "I woke up because I got a cramp in my calf.", "쥐가 나다 in a real situation; 에 marks where the cramp struck"]
     ],
-    "nuance": "종아리 is the back muscle of the lower leg, the calf. You'll hear it for cramps (쥐가 나다), for tightness after standing or walking, and at massage shops. 종아리 알 refers specifically to the bulge of the calf muscle.",
-    "mistakes": ["Don't swap 종아리 (calf) and 정강이 (shin); the shin is the hard front bone.", "쥐가 나다 (to cramp) is idiomatic — don't translate 쥐 (mouse) literally."]
+    "nuance": "종아리 is the calf — the fleshy muscle on the BACK of the lower leg, the opposite face from 정강이(the bony shin in front); mixing those two is the most common confusion, so anchor it as 'calf = soft back, shin = hard front.' Register is plain and neutral. Its signature collocation is the idiom 쥐가 나다 — literally 'a mouse comes out,' meaning to get a sudden cramp; never translate 쥐(mouse) literally, and note it pairs with the location particle 에 (종아리에 쥐가 났어요). Other habitual phrases: 종아리가 뭉치다(knot up), 종아리가 퉁퉁 붓다(swell up), 종아리 알(the muscle bulge), 종아리 마사지(calf massage). Like other limbs, 'thick calves' is 종아리가 굵다 with 굵다(girth), not 두껍다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "종아리 is the calf — the fleshy muscle on the BACK of the lower leg. Register is plain and neutral. Its signature collocation is the idiom 쥐가 나다 — literally 'a mouse comes out,' meaning to get a sudden cramp; never translate 쥐(mouse) literally, and note it pairs with the location particle 에 (종아리에 쥐가 났어요). Other habitual phrases: 종아리가 뭉치다(knot up), 종아리가 퉁퉁 붓다(swell up), 종아리 알(the muscle bulge), 종아리 마사지(calf massage)."},
+      {"k": "비슷한 말", "e": "VS", "t": "종아리 is the opposite face from 정강이(the bony shin in front); mixing those two is the most common confusion, so anchor it as 'calf = soft back, shin = hard front.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Like other limbs, 'thick calves' is 종아리가 굵다 with 굵다(girth), not 두껍다."}
+    ],
+    "mistakes": ["Swapping 종아리(calf, soft back of lower leg) and 정강이(shin, hard front) — remember calf = back, shin = front.", "Translating 쥐가 나다 literally — 쥐 means 'mouse' but the phrase just means 'to cramp': 종아리에 쥐가 났어요.", "Using 두껍다 for thick calves — limbs use 굵다: 종아리가 굵다."]
   },
   {
     "kind": "noun",
@@ -133,18 +167,23 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["정강이를 부딪혔어요", "I banged my shin", "부딪히다 = to hit/collide"],
-      ["정강이가 까졌어요", "I scraped my shin", "까지다 = to get scraped"],
-      ["정강이뼈", "shinbone", "뼈 = bone"],
-      ["정강이를 차다", "to kick the shin", "차다 = to kick"]
+      ["정강이를 부딪히다", "to bang one's shin", "부딪히다 = to collide/knock against something"],
+      ["정강이를 차이다", "to get kicked in the shin", "차이다 = passive of 차다, '(I) get kicked'"],
+      ["정강이뼈", "shinbone (tibia)", "뼈 = bone; the hard ridge you feel up front"],
+      ["정강이가 까지다", "to scrape one's shin", "까지다 = skin gets scraped off"]
     ],
     "examples": [
-      ["침대 모서리에 정강이를 부딪혀서 멍이 들었어요.", "I banged my shin on the corner of the bed and got a bruise.", "멍이 들다 = to bruise"],
-      ["축구하다가 상대 선수한테 정강이를 차였어요.", "I got kicked in the shin by the opposing player during soccer.", "차이다 = to get kicked"],
-      ["정강이는 살이 없어서 부딪히면 정말 아파요.", "The shin has no padding, so it really hurts when you hit it.", "살이 없다 = to have no flesh/padding"]
+      ["정강이가 아파요.", "My shin hurts.", "Base sentence"],
+      ["침대 모서리에 정강이를 부딪혀서 멍이 들었어요.", "I banged my shin on the corner of the bed and got a bruise.", "멍이 들다 = to bruise; 에 marks what you hit (모서리에)"],
+      ["축구하다가 상대 선수한테 정강이를 차였어요.", "I got kicked in the shin by the opposing player during soccer.", "passive 차이다 with agent 한테 — you receive the kick, not give it"]
     ],
-    "nuance": "정강이 is the hard bony front of the lower leg, the shin — the opposite side from 종아리 (calf). Because it's all bone with little cushioning, hitting it on furniture is a sharp, memorable pain everyone relates to. The bone itself is 정강이뼈.",
-    "mistakes": ["Don't confuse 정강이 (front shin) with 종아리 (back calf).", "When you got hit, use the passive 차이다/부딪히다 (got kicked/bumped), not the active form."]
+    "nuance": "정강이 is the shin — the hard, bony front ridge of the lower leg, the exact opposite of 종아리(the soft calf at the back); fix them as 'shin = hard front, calf = soft back.' Because it is bone with almost no padding (살이 없다), knocking it on furniture is a uniquely sharp pain everyone relates to, which is why 부딪히다 collocations are so common. The bone itself is 정강이뼈. Register is plain and neutral. The standout English-speaker pitfall is voice: when something hits YOU, Korean uses the passive — 차이다('get kicked') and 부딪히다('get bumped/knock into'), so 'I got kicked in the shin' is 정강이를 차였어요, and the kicker is marked with 한테/에게. Beginners wrongly use the active 차다('I kick'), which reverses who did it. Note the particle: even in the passive, the shin is marked 을/를 (정강이를 차이다).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "정강이 is the shin — the hard, bony front ridge of the lower leg. Because it is bone with almost no padding (살이 없다), knocking it on furniture is a uniquely sharp pain everyone relates to, which is why 부딪히다 collocations are so common. The bone itself is 정강이뼈. Register is plain and neutral."},
+      {"k": "비슷한 말", "e": "VS", "t": "It is the exact opposite of 종아리(the soft calf at the back); fix them as 'shin = hard front, calf = soft back.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The standout pitfall is voice: when something hits YOU, Korean uses the passive — 차이다('get kicked') and 부딪히다('get bumped/knock into'), so 'I got kicked in the shin' is 정강이를 차였어요, and the kicker is marked with 한테/에게. Beginners wrongly use the active 차다('I kick'), which reverses who did it. Note the particle: even in the passive, the shin is marked 을/를 (정강이를 차이다)."}
+    ],
+    "mistakes": ["Confusing 정강이(shin, hard front) with 종아리(calf, soft back) — anchor: shin = front, calf = back.", "Using active 차다/부딪다 when you were the one hit — use the passive 차이다/부딪히다: 정강이를 차였어요.", "Marking the kicker with 이/가 — the agent of the passive takes 한테/에게: 상대 선수한테 차였어요."]
   },
   {
     "kind": "noun",
@@ -154,18 +193,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["뒤통수를 맞았어요", "I got hit on the back of the head", "Literal physical sense"],
-      ["뒤통수를 치다", "to betray/backstab someone", "Very common figurative idiom"],
-      ["뒤통수가 납작하다", "to have a flat back-of-head", "A common appearance remark"],
-      ["뒤통수가 따갑다", "to feel eyes on the back of one's head", "따갑다 = to sting/prickle"]
+      ["뒤통수를 맞다", "to get hit on the back of the head / to be betrayed", "Literal or figurative — context decides"],
+      ["뒤통수를 치다", "to backstab / betray someone", "Very common idiom; literally 'strike the back of the head'"],
+      ["뒤통수가 납작하다", "to have a flat back-of-head", "납작하다 = flat; a real Korean appearance remark"],
+      ["뒤통수가 따갑다", "to feel stares on the back of one's head", "따갑다 = to sting/prickle; idiom for being watched"]
     ],
     "examples": [
-      ["선반 모서리에 뒤통수를 부딪혀서 혹이 났어요.", "I hit the back of my head on the shelf corner and got a bump.", "혹이 나다 = to get a lump"],
-      ["믿었던 친구한테 뒤통수를 맞았어요.", "I got stabbed in the back by a friend I trusted.", "Figurative — betrayal"],
-      ["한국 사람들은 뒤통수가 예쁜 걸 신경 써요.", "Koreans care about having a nicely shaped back of the head.", "A real cultural beauty point"]
+      ["뒤통수가 아파요.", "The back of my head hurts.", "Plain literal base sentence"],
+      ["선반 모서리에 뒤통수를 부딪혀서 혹이 났어요.", "I hit the back of my head on the shelf corner and got a bump.", "literal physical use; 혹이 나다 = to get a lump"],
+      ["믿었던 친구한테 뒤통수를 맞았어요.", "I got stabbed in the back by a friend I trusted.", "figurative betrayal — the most common real use; agent takes 한테"]
     ],
-    "nuance": "뒤통수 literally means the back of the head (뒤 back + 통수). Beyond the physical sense, 뒤통수를 치다/맞다 is an extremely common idiom for betraying or being betrayed — worth knowing both meanings. Koreans also genuinely comment on whether someone's 뒤통수 is round or flat (납작하다).",
-    "mistakes": ["Don't take 뒤통수를 맞았어요 literally if the context is social — it usually means 'I got betrayed.'", "It's casual; in formal/medical speech you'd say 뒷머리 or 후두부 instead."]
+    "nuance": "뒤통수 is the back of the head, from 뒤(back) + 통수, and it lives a double life. Literally it is where you bump your head (뒤통수를 부딪히다, 혹이 나다). Figuratively, 뒤통수를 치다 / 뒤통수를 맞다 is an extremely common idiom for betraying or being betrayed behind one's back — so in any social context 뒤통수를 맞았어요 almost always means 'I got backstabbed,' not a literal blow. Register is casual; in formal or medical speech you'd switch to 뒷머리 or the Sino-Korean 후두부(後頭部, 'back-head region'). Note also that Koreans genuinely judge head shape — saying someone's 뒤통수가 납작하다(flat) vs round is normal small talk. The pitfall for English speakers is exactly that idiom: don't take 뒤통수를 맞다 literally when the topic is trust, and mark the betrayer with 한테/에게.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "뒤통수 is the back of the head, and it lives a double life. Literally it is where you bump your head (뒤통수를 부딪히다, 혹이 나다). Figuratively, 뒤통수를 치다 / 뒤통수를 맞다 is an extremely common idiom for betraying or being betrayed behind one's back — so in any social context 뒤통수를 맞았어요 almost always means 'I got backstabbed,' not a literal blow. Note also that Koreans genuinely judge head shape — saying someone's 뒤통수가 납작하다(flat) vs round is normal small talk."},
+      {"k": "비슷한 말", "e": "VS", "t": "Register is casual; in formal or medical speech you'd switch to 뒷머리 or the Sino-Korean 후두부(後頭部, 'back-head region')."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "From 뒤(back) + 통수."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is exactly that idiom: don't take 뒤통수를 맞다 literally when the topic is trust, and mark the betrayer with 한테/에게."}
+    ],
+    "mistakes": ["Taking 뒤통수를 맞았어요 literally in a social context — it almost always means 'I was betrayed.'", "Using 뒤통수 in formal or medical speech — there you'd say 뒷머리 or 후두부; 뒤통수 is casual.", "Marking the betrayer with 이/가 in the idiom — use 한테/에게: 친구한테 뒤통수를 맞았어요."]
   },
   {
     "kind": "noun",
@@ -175,18 +220,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["손바닥을 펴다", "to open one's palm", "펴다 = to spread/open"],
-      ["손바닥에 땀이 나다", "to get sweaty palms", "Nervous-hands phrase"],
-      ["손바닥만 하다", "to be tiny (palm-sized)", "Common size idiom"],
-      ["손바닥을 비비다", "to rub one's palms together", "비비다 = to rub"]
+      ["손바닥을 펴다", "to open one's palm", "펴다 = to spread/unfold open"],
+      ["손바닥에 땀이 나다", "to get sweaty palms", "에 marks the spot; 땀이 나다 = sweat comes out"],
+      ["손바닥만 하다", "to be tiny (palm-sized)", "만 하다 = 'only as big as' → idiom for very small"],
+      ["손바닥으로 하늘을 가리다", "to hide the sky with a palm", "Proverb: to try to cover up the obvious"]
     ],
     "examples": [
-      ["면접 때 너무 긴장해서 손바닥에 땀이 났어요.", "My palms got sweaty because I was so nervous at the interview.", "Relatable nerves"],
-      ["우리 집은 손바닥만 해서 짐 둘 데가 없어요.", "Our place is tiny (palm-sized), so there's nowhere to put stuff.", "손바닥만 하다 = very small"],
-      ["넘어질 때 손바닥으로 바닥을 짚었어요.", "I braced my fall with my palms.", "짚다 = to brace/prop"]
+      ["손바닥이 간지러워요.", "My palm is itchy.", "Base sentence; 손바닥이 + adjective"],
+      ["넘어질 때 손바닥으로 바닥을 짚었어요.", "I braced my fall with my palms.", "instrument 으로 = used the palm to brace; 짚다 = to prop"],
+      ["우리 집은 손바닥만 해서 짐 둘 데가 없어요.", "Our place is so tiny there's nowhere to put things.", "손바닥만 하다 used figuratively for 'tiny' — a cramped apartment"]
     ],
-    "nuance": "손바닥 is the palm, the inner surface of the hand (손 hand + 바닥 floor/flat surface). The opposite, the back of the hand, is 손등. 손바닥만 하다 ('palm-sized') is a handy idiom for describing something very small, like a cramped apartment.",
-    "mistakes": ["Don't confuse 손바닥 (palm) with 손등 (back of the hand).", "손바닥만 하다 is figurative for 'tiny' — not a literal measurement."]
+    "nuance": "손바닥 is the palm — the inner flat surface of the hand, from 손(hand) + 바닥(floor/flat bottom). Its built-in opposite is 손등(back of the hand), where 등 means 'back'; keep the pair 바닥(inner)↔등(outer) straight, since beginners mix them. Register is neutral. The standout idiom is 손바닥만 하다, literally 'only the size of a palm,' used to call something very small — most often a cramped apartment (집이 손바닥만 하다); treat it as figurative, not a real measurement. There's also a well-known proverb 손바닥으로 하늘을 가리다 ('cover the sky with your palm' = futilely hide what everyone can see). Typical collocations: 손바닥을 펴다(open the palm), 손바닥에 땀이 나다(sweaty palms from nerves), 손바닥으로 바닥을 짚다(brace with palms). The pitfall is the instrument particle: you brace 'with' the palm → 손바닥으로, not 손바닥을.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "손바닥 is the palm — the inner flat surface of the hand. Register is neutral. The standout idiom is 손바닥만 하다, literally 'only the size of a palm,' used to call something very small — most often a cramped apartment (집이 손바닥만 하다); treat it as figurative, not a real measurement. There's also a well-known proverb 손바닥으로 하늘을 가리다 ('cover the sky with your palm' = futilely hide what everyone can see). Typical collocations: 손바닥을 펴다(open the palm), 손바닥에 땀이 나다(sweaty palms from nerves), 손바닥으로 바닥을 짚다(brace with palms)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its built-in opposite is 손등(back of the hand), where 등 means 'back'; keep the pair 바닥(inner)↔등(outer) straight, since beginners mix them."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "From 손(hand) + 바닥(floor/flat bottom)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the instrument particle: you brace 'with' the palm → 손바닥으로, not 손바닥을."}
+    ],
+    "mistakes": ["Confusing 손바닥(palm, inner) with 손등(back of the hand) — 바닥 is the inner flat side, 등 is the outer back.", "Taking 손바닥만 하다 as a literal measurement — it is the idiom 'tiny / palm-sized.'", "Using 손바닥을 짚다 to mean 'brace with your palm' — the instrument particle is 으로: 손바닥으로 짚었어요."]
   },
   {
     "kind": "noun",
@@ -196,18 +247,24 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["발바닥이 아파요", "My soles hurt", "After a lot of walking"],
-      ["발바닥에 물집이 잡혔어요", "I got a blister on my sole", "물집이 잡히다 = to blister"],
-      ["발바닥이 간지럽다", "the sole is ticklish/itchy", "간지럽다 = ticklish"],
-      ["발바닥을 지압하다", "to do foot-sole acupressure", "지압 = acupressure"]
+      ["발바닥이 아파요", "My soles hurt", "After a long day of walking; 이 marks the sole"],
+      ["발바닥에 물집이 잡히다", "to get a blister on the sole", "물집이 잡히다 = a blister forms (set phrase)"],
+      ["발바닥에 불이 나다", "for the soles to burn", "Idiom: feel like they're on fire from walking"],
+      ["발바닥을 지압하다", "to do foot-sole acupressure", "지압 (指壓, 'finger-press') = acupressure"]
     ],
     "examples": [
-      ["하루 종일 걸었더니 발바닥이 불이 나는 것 같아요.", "After walking all day, my soles feel like they're on fire.", "불이 나다 = to burn (figurative)"],
-      ["새 구두를 신고 발바닥에 물집이 잡혔어요.", "I got blisters on my soles from new dress shoes.", "Break-in pain"],
-      ["발바닥 마사지를 받으니까 피로가 풀려요.", "A foot-sole massage relieves my fatigue.", "피로가 풀리다 = fatigue eases"]
+      ["발바닥이 간지러워요.", "The soles of my feet are itchy.", "Base sentence; 발바닥이 + adjective"],
+      ["새 구두를 신고 발바닥에 물집이 잡혔어요.", "I got blisters on my soles from new dress shoes.", "물집이 잡히다 = blister forms — never 물집을 만들다"],
+      ["하루 종일 걸었더니 발바닥에 불이 나는 것 같아요.", "After walking all day, my soles feel like they're on fire.", "불이 나다 used figuratively for burning fatigue"]
     ],
-    "nuance": "발바닥 is the sole, the bottom flat surface of the foot (발 foot + 바닥 flat surface), mirroring 손바닥. It comes up after long days of walking, with blisters (물집), and at foot-massage or 지압 shops, which are popular in Korea.",
-    "mistakes": ["Don't confuse 발바닥 (sole) with 발등 (top of the foot).", "물집이 잡히다 / 물집이 생기다 (to form a blister) is the natural collocation — not 물집을 만들다."]
+    "nuance": "발바닥 is the sole — the flat underside of the foot, from 발(foot) + 바닥(floor/flat bottom), mirroring 손바닥(palm). Its opposite is 발등(the top of the foot, where 등 = 'back/upper side'); don't confuse the underside 바닥 with the top 등. Register is neutral, and it shows up constantly after long walks, with blisters, and at the 지압(指壓, acupressure) and foot-massage shops that are popular in Korea. The crucial collocation pitfall for English speakers is blisters: a blister 'forms' or 'is caught' — 물집이 잡히다 / 물집이 생기다, with the blister as the SUBJECT (이/가) — so it's 발바닥에 물집이 잡혔어요, never the English-style 물집을 만들다('make a blister'). Other set phrases: 발바닥에 불이 나다(soles burning, figurative) and 발바닥이 화끈거리다(soles feel hot).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "발바닥 is the sole — the flat underside of the foot. Register is neutral, and it shows up constantly after long walks, with blisters, and at the 지압(指壓, acupressure) and foot-massage shops that are popular in Korea. Other set phrases: 발바닥에 불이 나다(soles burning, figurative) and 발바닥이 화끈거리다(soles feel hot)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its opposite is 발등(the top of the foot, where 등 = 'back/upper side'); don't confuse the underside 바닥 with the top 등."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "From 발(foot) + 바닥(floor/flat bottom), mirroring 손바닥(palm)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The crucial collocation pitfall is blisters: a blister 'forms' or 'is caught' — 물집이 잡히다 / 물집이 생기다, with the blister as the SUBJECT (이/가) — so it's 발바닥에 물집이 잡혔어요, never the English-style 물집을 만들다('make a blister')."}
+    ],
+    "mistakes": ["Confusing 발바닥(sole, underside) with 발등(top of the foot) — 바닥 is the bottom, 등 is the upper side.", "Saying 물집을 만들다 for getting a blister — the blister forms on its own: 물집이 잡히다 / 물집이 생기다.", "Using 손바닥 (palm) when you mean the foot — for the foot it is 발바닥."]
   },
   {
     "kind": "noun",
@@ -217,18 +274,23 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["겨드랑이에 땀이 나다", "to sweat under the arms", "Summer reality in Korea"],
-      ["겨드랑이 냄새", "body/armpit odor", "냄새 = smell"],
-      ["겨드랑이 제모", "armpit hair removal", "제모 = hair removal"],
-      ["겨드랑이가 간지럽다", "armpit is ticklish", "간지럽다 = ticklish"]
+      ["겨드랑이에 땀이 나다", "to sweat under the arms", "에 marks the spot; 땀이 나다 = sweat comes out"],
+      ["겨드랑이 냄새", "underarm odor", "냄새 = smell; 암내 is the blunter word for body odor"],
+      ["겨드랑이 제모", "underarm hair removal", "제모 (除毛, 'remove-hair') = hair removal"],
+      ["겨드랑이에 멍울이 잡히다", "to feel a lump in the armpit", "멍울 = lump (e.g. lymph node); 잡히다 = is felt"]
     ],
     "examples": [
-      ["여름엔 겨드랑이에 땀이 너무 많이 나요.", "My armpits sweat way too much in summer.", "Korea's humid summers"],
-      ["땀 냄새 때문에 겨드랑이에 데오드란트를 발라요.", "I put deodorant on my armpits because of sweat odor.", "데오드란트 = deodorant"],
-      ["겨드랑이에 멍울이 만져져서 병원에 갔어요.", "I felt a lump in my armpit so I went to the hospital.", "멍울 = lump (lymph node)"]
+      ["겨드랑이가 간지러워요.", "My armpit is itchy.", "Base sentence; 겨드랑이 + 가 + adjective"],
+      ["여름엔 겨드랑이에 땀이 너무 많이 나요.", "My armpits sweat way too much in summer.", "에(spot) + 땀이 나다 — Korea's humid summers make this daily"],
+      ["겨드랑이에 멍울이 만져져서 병원에 갔어요.", "I felt a lump in my armpit so I went to the hospital.", "real-situation health concern; 만져지다 = to be felt by touch"]
     ],
-    "nuance": "겨드랑이 is the armpit/underarm. It's very practical in Korea's hot, humid summers when talking about sweat (땀) and odor (냄새), and it also comes up with deodorant, hair removal (제모), and noticing lumps. The spelling with -랑이 is worth memorizing.",
-    "mistakes": ["A common misspelling is 겨드랑 or 겨드량이 — the standard form is 겨드랑이.", "For 'I sweat,' use 땀이 나다 (sweat comes out), not 땀을 하다."]
+    "nuance": "겨드랑이 is the armpit/underarm, a native Korean word with no everyday synonym — just memorize the ending -랑이. It is extremely practical in Korea's hot, humid summers for talking about sweat (땀이 나다) and odor; note that neutral 겨드랑이 냄새 is polite, while 암내 is a blunter, more loaded word for strong underarm B.O. that you should use cautiously. It also appears with 제모(除毛, hair removal), deodorant (데오드란트), and—seriously—with health checks, since a 멍울(lump) felt in the armpit can mean a swollen lymph node. The first English-speaker pitfall is spelling: people write 겨드랑or 겨드량이, but only 겨드랑이 is standard. The second is the sweat verb: 'I sweat' is 땀이 나다 (sweat comes out, sweat as subject), never 땀을 하다 — so 겨드랑이에 땀이 나요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "겨드랑이 is the armpit/underarm. It is extremely practical in Korea's hot, humid summers for talking about sweat (땀이 나다) and odor; note that neutral 겨드랑이 냄새 is polite, while 암내 is a blunter, more loaded word for strong underarm B.O. that you should use cautiously. It also appears with 제모(除毛, hair removal), deodorant (데오드란트), and—seriously—with health checks, since a 멍울(lump) felt in the armpit can mean a swollen lymph node."},
+      {"k": "비슷한 말", "e": "VS", "t": "A native Korean word with no everyday synonym — just memorize the ending -랑이."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The first pitfall is spelling: people write 겨드랑 or 겨드량이, but only 겨드랑이 is standard. The second is the sweat verb: 'I sweat' is 땀이 나다 (sweat comes out, sweat as subject), never 땀을 하다 — so 겨드랑이에 땀이 나요."}
+    ],
+    "mistakes": ["Misspelling it as 겨드랑 or 겨드량이 — the standard form is 겨드랑이.", "Saying 땀을 하다 for 'to sweat' — it is 땀이 나다 (sweat as the subject): 겨드랑이에 땀이 나요.", "Using the loaded word 암내 casually for any underarm smell — the neutral phrase is 겨드랑이 냄새."]
   },
   {
     "kind": "noun",
@@ -238,17 +300,22 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["엉덩이가 아파요", "My bottom hurts", "After long sitting"],
-      ["엉덩이를 붙이다", "to sit down and stay put", "Idiom: settle in to work/study"],
-      ["엉덩이가 무겁다", "to be slow to get up / a homebody", "무겁다 = heavy (figurative)"],
-      ["엉덩이 운동", "glute workout", "Common gym phrase"]
+      ["엉덩이가 아프다", "for one's bottom to hurt", "After long sitting; 이 marks the sore part"],
+      ["엉덩이를 붙이다", "to settle in and stick with it", "Idiom: 'plant your butt' = sit down and persevere"],
+      ["엉덩이가 무겁다", "to be slow to get going / a homebody", "무겁다(heavy) used figuratively"],
+      ["엉덩이 운동", "glute workout", "운동 (運動, 'exercise'); common gym phrase"]
     ],
     "examples": [
-      ["딱딱한 의자에 오래 앉아서 엉덩이가 아파요.", "My bottom hurts from sitting on a hard chair too long.", "Office-life complaint"],
-      ["공부 잘하려면 엉덩이를 오래 붙이고 있어야 해요.", "To study well you have to keep your butt in the chair a long time.", "엉덩이를 붙이다 = to sit and persevere"],
-      ["요즘 엉덩이 운동으로 스쿼트를 하고 있어요.", "I've been doing squats as a glute workout lately.", "Fitness context"]
+      ["엉덩이가 아파요.", "My bottom hurts.", "Base sentence after long sitting"],
+      ["딱딱한 의자에 오래 앉아 있었더니 엉덩이가 배겨요.", "My bottom is sore from sitting on a hard chair too long.", "배기다 = a hard surface presses into you — natural office complaint"],
+      ["공부 잘하려면 엉덩이를 오래 붙이고 있어야 해요.", "To study well you have to keep your butt in the chair a long time.", "엉덩이를 붙이다 = to sit and persevere — a very common idiom"]
     ],
-    "nuance": "엉덩이 is the buttocks/bottom and the general hip-seat area. It's an everyday, non-vulgar word used for sitting-related soreness, for fitness (엉덩이 운동), and in idioms like 엉덩이가 무겁다 (a homebody / slow to move) and 엉덩이를 붙이다 (to settle in and stick with a task).",
-    "mistakes": ["엉덩이 is neutral and fine in normal conversation; 궁둥이 is more casual/childish for the same area — stick with 엉덩이.", "Don't confuse it with 허리 (waist/lower back); back pain is 허리, seat soreness is 엉덩이."]
+    "nuance": "엉덩이 is the buttocks/bottom and the general seat-and-hip area. It is an everyday, non-vulgar word: fine in normal conversation, while 궁둥이 is the more childish/casual variant (often used with kids) and the clinical term 둔부(臀部) is hospital-only — default to 엉덩이. Keep it separate from 허리(waist/lower back): seat soreness is 엉덩이, but lower-back pain is 허리 아파요, and English 'I hurt my back/bottom' tempts learners to swap them. Idioms make this word punch above its weight: 엉덩이가 무겁다 ('heavy bottom') = slow to get up or a homebody, and 엉덩이를 붙이다 ('stick your butt down') = settle in and persevere at study or work. Collocations: 엉덩이가 배기다(sore from a hard seat), 엉덩이 운동(glute exercise). The pitfall is the idioms—don't read 엉덩이가 무겁다 as literal weight—and the 엉덩이 vs 허리 split for where it hurts.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "엉덩이 is the buttocks/bottom and the general seat-and-hip area. It is an everyday, non-vulgar word: fine in normal conversation. Idioms make this word punch above its weight: 엉덩이가 무겁다 ('heavy bottom') = slow to get up or a homebody, and 엉덩이를 붙이다 ('stick your butt down') = settle in and persevere at study or work. Collocations: 엉덩이가 배기다(sore from a hard seat), 엉덩이 운동(glute exercise)."},
+      {"k": "비슷한 말", "e": "VS", "t": "궁둥이 is the more childish/casual variant (often used with kids) and the clinical term 둔부(臀部) is hospital-only — default to 엉덩이. Keep it separate from 허리(waist/lower back): seat soreness is 엉덩이, but lower-back pain is 허리 아파요, and English 'I hurt my back/bottom' tempts learners to swap them."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the idioms—don't read 엉덩이가 무겁다 as literal weight—and the 엉덩이 vs 허리 split for where it hurts."}
+    ],
+    "mistakes": ["Confusing 엉덩이(bottom/seat) with 허리(waist/lower back) — back pain is 허리 아파요, seat soreness is 엉덩이.", "Reading 엉덩이가 무겁다 literally as physical weight — it is the idiom 'slow to move / homebody.'", "Defaulting to 궁둥이 or 둔부 — 궁둥이 is childish and 둔부 is clinical; the normal word is 엉덩이."]
   }
 ]

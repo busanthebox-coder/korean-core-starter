@@ -7,18 +7,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["사과가 빨개요", "The apple is red", "describing a fruit"],
-      ["빨간 옷을 좋아해요", "I like red clothes", "uses modifier form"],
-      ["얼굴이 빨개요", "The face is red", "with 이/가"],
-      ["불빛이 빨개요", "The light is red", "everyday color"]
+      ["사과가 빨개요", "The apple is red", "state with 이/가, not 을/를"],
+      ["빨간색을 좋아해요", "I like the color red", "빨간색 = the noun 'red color'"],
+      ["얼굴이 빨개지다", "to turn red / blush", "빨개지다 = become red, change of state"],
+      ["빨간 신호등", "a red traffic light", "빨간 = the modifier that sits before a noun"]
     ],
     "examples": [
-      ["이 꽃이 정말 빨개요", "This flower is really red", "polite everyday tone"],
-      ["하늘이 저녁에 빨갰어요", "The sky was red in the evening", "past tense form"],
-      ["이 가방은 안 빨개요", "This bag is not red", "negative form"]
+      ["이 사과가 빨개요", "This apple is red", "the most basic 요-form: 빨갛다 → 빨개요"],
+      ["저녁 하늘이 빨갛게 물들었어요", "The evening sky was dyed red", "빨갛게 = the adverb 'redly', + 물들다 'to be dyed'"],
+      ["부끄러워서 얼굴이 빨개졌어요", "I got embarrassed so my face turned red", "빨개지다 captures the change, not just the state"]
     ],
-    "nuance": "Describes the color red for objects, faces, and lights. The final ㅎ drops so the polite form becomes 빨개요 and the modifier becomes 빨간.",
-    "mistakes": ["Do not say 빨갛아요 for the polite form"],
+    "nuance": "빨갛다 is the vivid, pure 'red' of an apple, a stop light, or a blushing face. Among red words, contrast it with 붉다, which is the more literary, darker 'reddish/crimson' used for blood, sunsets, and emotion (붉은 노을), while 빨갛다 is the bright everyday red a child would point at. As an adjective it describes a STATE, so the thing that is red takes 이/가 (얼굴이 빨개요), never 을/를. The biggest trap for English speakers is the ㅎ-irregular: the stem-final ㅎ vanishes AND the vowel fuses, so it is never 빨갛아요 but 빨개요, and the noun-modifying form is 빨간 (빨간 사과), not 빨갛은. To say something 'turns red,' use 빨개지다, because 빨갛다 alone is a static quality, not a change. Note 빨간색 is the noun 'the color red.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "빨갛다 is the vivid, pure 'red' of an apple, a stop light, or a blushing face — the bright everyday red a child would point at. As an adjective it describes a STATE, so the thing that is red takes 이/가 (얼굴이 빨개요), never 을/를. Note 빨간색 is the noun 'the color red,' and to say something 'turns red,' use 빨개지다, because 빨갛다 alone is a static quality, not a change."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Among red words, contrast 빨갛다 with 붉다, which is the more literary, darker 'reddish/crimson' used for blood, sunsets, and emotion (붉은 노을), while 빨갛다 is the bright everyday red.",
+        "chips": ["붉다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The biggest trap for English speakers is the ㅎ-irregular: the stem-final ㅎ vanishes AND the vowel fuses, so it is never 빨갛아요 but 빨개요, and the noun-modifying form is 빨간 (빨간 사과), not 빨갛은."
+      }
+    ],
+    "mistakes": [
+      "Saying 빨갛아요 — the ㅎ-irregular deletes ㅎ and fuses the vowel, so the correct polite form is 빨개요.",
+      "Using the modifier 빨갛은 사과 — drop the ㅎ for the modifier too: it is 빨간 사과.",
+      "Saying 사과를 빨개요 with 을/를 — a color is a state, so use 이/가: 사과가 빨개요."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "빨개",
@@ -40,18 +62,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["하늘이 파래요", "The sky is blue", "classic blue thing"],
-      ["파란 바다를 봤어요", "I saw the blue sea", "uses modifier form"],
-      ["바다가 파래요", "The sea is blue", "with 이/가"],
-      ["파란 펜이 있어요", "I have a blue pen", "common object"]
+      ["하늘이 파래요", "The sky is blue", "the classic blue thing, state with 이/가"],
+      ["파란색 펜", "a blue pen", "파란색 = the noun 'blue', sits before another noun"],
+      ["파랗게 칠하다", "to paint (it) blue", "파랗게 = adverb 'bluely' + 칠하다 'paint'"],
+      ["새파랗다", "to be deep/vivid blue", "새- prefix intensifies the shade"]
     ],
     "examples": [
-      ["오늘 하늘이 정말 파래요", "Today the sky is really blue", "polite everyday tone"],
-      ["바다가 어제 파랬어요", "The sea was blue yesterday", "past tense form"],
-      ["이 컵은 안 파래요", "This cup is not blue", "negative form"]
+      ["오늘 하늘이 파래요", "The sky is blue today", "basic 요-form: 파랗다 → 파래요"],
+      ["바다가 정말 파랗네요", "The sea is really blue, isn't it", "-네요 adds a tone of fresh observation"],
+      ["입술이 파랗게 질렸어요", "My lips went blue (from cold/fear)", "파랗게 질리다 is a set phrase for going pale/blue"]
     ],
-    "nuance": "Describes the color blue for the sky, the sea, and objects. The final ㅎ drops so the polite form becomes 파래요 and the modifier becomes 파란.",
-    "mistakes": ["Do not say 파랗아요 for the polite form"],
+    "nuance": "파랗다 is the bright blue of a clear sky and the sea, and in Korean it famously also covers what English calls 'green' for traffic lights and fresh leaves (파란불 'the green light,' 파란 잔디 'green grass') — a real surprise for learners. The neighboring word 푸르다 is more poetic and leans 'verdant/azure,' used for 푸른 산 'green mountains' and 푸른 하늘 in songs, while 파랗다 is the plain everyday blue. Being an adjective, the blue thing takes 이/가 (하늘이 파래요), not 을/를. The ㅎ-irregular is the key pitfall: never 파랗아요 but 파래요, and the modifier is 파란 (파란 바다), not 파랗은. Use 파래지다 for 'turn blue,' and 파란색 for the noun 'the color blue.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "파랗다 is the bright blue of a clear sky and the sea, and in Korean it famously also covers what English calls 'green' for traffic lights and fresh leaves (파란불 'the green light,' 파란 잔디 'green grass') — a real surprise for learners. Being an adjective, the blue thing takes 이/가 (하늘이 파래요), not 을/를. Use 파래지다 for 'turn blue,' and 파란색 for the noun 'the color blue.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The neighboring word 푸르다 is more poetic and leans 'verdant/azure,' used for 푸른 산 'green mountains' and 푸른 하늘 in songs, while 파랗다 is the plain everyday blue.",
+        "chips": ["푸르다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The ㅎ-irregular is the key pitfall: never 파랗아요 but 파래요, and the modifier is 파란 (파란 바다), not 파랗은."
+      }
+    ],
+    "mistakes": [
+      "Saying 파랗아요 — the ㅎ deletes and the vowel fuses, giving 파래요 as the polite form.",
+      "Forming the modifier as 파랗은 바다 — it must be 파란 바다 with the ㅎ dropped.",
+      "Assuming 파랗다 only means 'blue' — for a traffic 'go' light Koreans say 파란불, so it can map to English 'green.'"
+    ],
     "forms": {
       "speechLevels": {
         "casual": "파래",
@@ -73,18 +117,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["바나나가 노래요", "The banana is yellow", "describing a fruit"],
-      ["노란 우산을 샀어요", "I bought a yellow umbrella", "uses modifier form"],
-      ["병아리가 노래요", "The chick is yellow", "with 이/가"],
-      ["은행잎이 노래요", "The ginkgo leaves are yellow", "autumn color"]
+      ["바나나가 노래요", "The banana is yellow", "state with 이/가, describing a fruit"],
+      ["노란색 우산", "a yellow umbrella", "노란색 = noun 'yellow' before another noun"],
+      ["노랗게 익다", "to ripen yellow", "노랗게 = adverb + 익다 'ripen', a natural pair"],
+      ["샛노랗다", "to be bright/vivid yellow", "샛- prefix intensifies the yellow"]
     ],
     "examples": [
-      ["이 꽃이 아주 노래요", "This flower is very yellow", "polite everyday tone"],
-      ["나뭇잎이 가을에 노랬어요", "The leaves were yellow in autumn", "past tense form"],
-      ["이 셔츠는 안 노래요", "This shirt is not yellow", "negative form"]
+      ["이 바나나가 노래요", "This banana is yellow", "basic 요-form: 노랗다 → 노래요"],
+      ["가을에 은행잎이 노랗게 물들어요", "In autumn the ginkgo leaves turn yellow", "노랗게 물들다 = 'be dyed yellow'"],
+      ["며칠 굶었더니 눈앞이 노래졌어요", "After starving for days my vision went yellow (I felt faint)", "눈앞이 노래지다 is an idiom for dizziness/despair"]
     ],
-    "nuance": "Describes the color yellow for fruit, flowers, and leaves. The final ㅎ drops so the polite form becomes 노래요 and the modifier becomes 노란.",
-    "mistakes": ["Do not say 노랗아요 for the polite form"],
+    "nuance": "노랗다 is the cheerful pure yellow of a banana, a chick, or a school bus. Korean color adjectives like this come in a 'bright vs dark' vowel-harmony pair: 노랗다 (bright, with ㅗ/ㅏ) feels light and vivid, while its darker partner 누렇다 (with ㅜ/ㅓ) means a dull, dingy, faded yellow like old paper or unhealthy skin — choosing the wrong one changes the whole feeling. As an adjective it takes 이/가 on the yellow thing (잎이 노래요), not 을/를. Watch the ㅎ-irregular: it is 노래요, never 노랗아요, and the modifier is 노란 (노란 우산), not 노랗은. There is also a vivid set phrase 눈앞이 노래지다 'to feel faint/hopeless,' literally 'the front of the eyes turns yellow.' The noun is 노란색.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "노랗다 is the cheerful pure yellow of a banana, a chick, or a school bus. As an adjective it takes 이/가 on the yellow thing (잎이 노래요), not 을/를. There is also a vivid set phrase 눈앞이 노래지다 'to feel faint/hopeless,' literally 'the front of the eyes turns yellow.' The noun is 노란색."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Korean color adjectives like this come in a 'bright vs dark' vowel-harmony pair: 노랗다 (bright, with ㅗ/ㅏ) feels light and vivid, while its darker partner 누렇다 (with ㅜ/ㅓ) means a dull, dingy, faded yellow like old paper or unhealthy skin — choosing the wrong one changes the whole feeling.",
+        "chips": ["누렇다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Watch the ㅎ-irregular: it is 노래요, never 노랗아요, and the modifier is 노란 (노란 우산), not 노랗은."
+      }
+    ],
+    "mistakes": [
+      "Saying 노랗아요 — ㅎ drops and the vowel fuses to 노래요 for the polite form.",
+      "Writing the modifier as 노랗은 우산 — the correct modifier is 노란 우산.",
+      "Mixing up 노랗다 and 누렇다 — 노랗다 is bright/fresh yellow, 누렇다 is dull/sickly yellow, so they are not interchangeable."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "노래",
@@ -106,18 +172,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["머리가 까매요", "The hair is black", "describing hair"],
-      ["까만 신발을 신어요", "I wear black shoes", "uses modifier form"],
-      ["고양이가 까매요", "The cat is black", "with 이/가"],
-      ["밤하늘이 까매요", "The night sky is black", "common scene"]
+      ["머리가 까매요", "The hair is black", "state with 이/가, describing hair"],
+      ["까만색 구두", "black dress shoes", "까만색 = noun 'black' before another noun"],
+      ["까맣게 타다", "to get tanned/burnt black", "까맣게 + 타다, a very common pair"],
+      ["까맣게 잊다", "to completely forget", "idiom: 'forget blackly' = forget utterly"]
     ],
     "examples": [
-      ["이 가방이 정말 까매요", "This bag is really black", "polite everyday tone"],
-      ["하늘이 밤에 까맸어요", "The sky was black at night", "past tense form"],
-      ["이 옷은 안 까매요", "This clothing is not black", "negative form"]
+      ["고양이가 까매요", "The cat is black", "basic 요-form: 까맣다 → 까매요"],
+      ["여름에 얼굴이 까맣게 탔어요", "My face got tanned dark in summer", "까맣게 타다 = 'get burnt/tanned black'"],
+      ["약속을 까맣게 잊고 있었어요", "I had completely forgotten the appointment", "까맣게 잊다 = forget utterly, a fixed expression"]
     ],
-    "nuance": "Describes the color black for hair, objects, and the night sky. The final ㅎ drops so the polite form becomes 까매요 and the modifier becomes 까만.",
-    "mistakes": ["Do not say 까맣아요 for the polite form"],
+    "nuance": "까맣다 is everyday black — black hair, a black cat, a dark night sky, or skin tanned by the sun. It is the 'bright/casual' vowel-harmony partner of 꺼멓다 (darker, grimier black) and is closely related to the Sino-flavored noun 검은색; the near-synonym adjective 검다 is slightly more formal/neutral ('to be black/dark'), while 까맣다 sounds more vivid and conversational. As a state adjective the black thing takes 이/가 (머리가 까매요), not 을/를. The ㅎ-irregular trap applies: it is 까매요, never 까맣아요, and the modifier is 까만 (까만 신발), not 까맣은. Korean also uses 까맣게 figuratively — 까맣게 잊다 'to forget completely' and 까맣게 타다 'to get a deep tan' — which do not translate word-for-word into English. The noun is 까만색 (or 검은색).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "까맣다 is everyday black — black hair, a black cat, a dark night sky, or skin tanned by the sun. As a state adjective the black thing takes 이/가 (머리가 까매요), not 을/를. Korean also uses 까맣게 figuratively — 까맣게 잊다 'to forget completely' and 까맣게 타다 'to get a deep tan' — which do not translate word-for-word into English. The noun is 까만색 (or 검은색)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "까맣다 is the 'bright/casual' vowel-harmony partner of 꺼멓다 (darker, grimier black) and is closely related to the Sino-flavored noun 검은색; the near-synonym adjective 검다 is slightly more formal/neutral ('to be black/dark'), while 까맣다 sounds more vivid and conversational.",
+        "chips": ["꺼멓다", "검다", "검은색"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The ㅎ-irregular trap applies: it is 까매요, never 까맣아요, and the modifier is 까만 (까만 신발), not 까맣은."
+      }
+    ],
+    "mistakes": [
+      "Saying 까맣아요 — the ㅎ-irregular gives 까매요 as the polite form.",
+      "Using the modifier 까맣은 신발 — it should be 까만 신발 with ㅎ dropped.",
+      "Translating 까맣게 잊다 literally as 'forget black' — it is an idiom meaning 'to forget completely.'"
+    ],
     "forms": {
       "speechLevels": {
         "casual": "까매",
@@ -139,18 +227,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["눈이 하얘요", "The snow is white", "describing snow"],
-      ["하얀 셔츠를 입어요", "I wear a white shirt", "uses modifier form"],
-      ["구름이 하얘요", "The clouds are white", "with 이/가"],
-      ["하얀 벽이 깨끗해요", "The white wall is clean", "common object"]
+      ["눈이 하얘요", "The snow is white", "state with 이/가, describing snow"],
+      ["하얀색 셔츠", "a white shirt", "하얀색 = noun 'white' before another noun"],
+      ["하얗게 변하다", "to turn white", "하얗게 + 변하다, change of color"],
+      ["새하얗다", "to be pure/snow white", "새- prefix = brilliant, spotless white"]
     ],
     "examples": [
-      ["이 종이가 아주 하얘요", "This paper is very white", "polite everyday tone"],
-      ["눈이 어제 하얬어요", "The snow was white yesterday", "past tense form"],
-      ["이 양말은 안 하얘요", "These socks are not white", "negative form"]
+      ["이 종이가 하얘요", "This paper is white", "basic 요-form: 하얗다 → 하얘요"],
+      ["눈이 와서 온 세상이 하얘졌어요", "It snowed and the whole world turned white", "하얘지다 = the change 'become white'"],
+      ["놀라서 얼굴이 하얗게 질렸어요", "She was so shocked her face went white", "하얗게 질리다 = go pale, a set phrase"]
     ],
-    "nuance": "Describes the color white for snow, clothes, and clouds. The final ㅎ drops so the polite form becomes 하얘요 and the modifier becomes 하얀.",
-    "mistakes": ["Do not say 하얗아요 for the polite form"],
+    "nuance": "하얗다 is bright, clean white — fresh snow, white paper, clouds, a crisp white shirt. It is the casual, vivid counterpart of the more neutral 희다 'to be white' (희다 sounds slightly bookish, e.g. 흰 눈 in writing), and the darker harmony partner 허옇다 means a dull, pale, washed-out white. As a state adjective the white thing takes 이/가 (눈이 하얘요), not 을/를. The ㅎ-irregular is the core pitfall: it is 하얘요, never 하얗아요, and the noun-modifier is 하얀 (하얀 셔츠), not 하얗은 — though note the related stem 희다 gives the very common modifier 흰 (흰색, 흰 눈). Use 하얘지다 for 'turn white' and the idiom 얼굴이 하얗게 질리다 'to go pale with shock.' The noun is 하얀색 (or 흰색).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "하얗다 is bright, clean white — fresh snow, white paper, clouds, a crisp white shirt. As a state adjective the white thing takes 이/가 (눈이 하얘요), not 을/를. Use 하얘지다 for 'turn white' and the idiom 얼굴이 하얗게 질리다 'to go pale with shock.' The noun is 하얀색 (or 흰색)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "하얗다 is the casual, vivid counterpart of the more neutral 희다 'to be white' (희다 sounds slightly bookish, e.g. 흰 눈 in writing), and the darker harmony partner 허옇다 means a dull, pale, washed-out white.",
+        "chips": ["희다", "허옇다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The ㅎ-irregular is the core pitfall: it is 하얘요, never 하얗아요, and the noun-modifier is 하얀 (하얀 셔츠), not 하얗은 — though note the related stem 희다 gives the very common modifier 흰 (흰색, 흰 눈)."
+      }
+    ],
+    "mistakes": [
+      "Saying 하얗아요 — the ㅎ-irregular produces 하얘요 for the polite form.",
+      "Forming the modifier as 하얗은 셔츠 — it is 하얀 셔츠 (or 흰 셔츠 from 희다).",
+      "Confusing 하얗다 and 노랗다-style endings — remember 하얗다 fuses to 얘 (하얘요), giving the distinctive ㅒ vowel."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "하얘",
@@ -172,18 +282,40 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["달이 동그래요", "The moon is round", "describing a shape"],
-      ["동그란 접시를 샀어요", "I bought a round plate", "uses modifier form"],
-      ["얼굴이 동그래요", "The face is round", "with 이/가"],
-      ["동그란 안경을 써요", "I wear round glasses", "common object"]
+      ["달이 동그래요", "The moon is round", "state with 이/가, describing a shape"],
+      ["동그란 접시", "a round plate", "동그란 = the modifier before a noun"],
+      ["눈을 동그랗게 뜨다", "to open one's eyes wide (round)", "동그랗게 뜨다, a vivid set phrase"],
+      ["동그라미", "a circle (the shape)", "the related noun built from the same root"]
     ],
     "examples": [
-      ["이 거울이 정말 동그래요", "This mirror is really round", "polite everyday tone"],
-      ["보름달이 어제 동그랬어요", "The full moon was round yesterday", "past tense form"],
-      ["이 탁자는 안 동그래요", "This table is not round", "negative form"]
+      ["이 거울이 동그래요", "This mirror is round", "basic 요-form: 동그랗다 → 동그래요"],
+      ["아이가 눈을 동그랗게 떴어요", "The child opened her eyes wide", "동그랗게 뜨다 shows surprise"],
+      ["반죽을 동그랗게 빚어 주세요", "Please shape the dough into rounds", "동그랗게 빚다 = 'mold into a round shape'"]
     ],
-    "nuance": "Describes a round circular shape for objects and faces. The final ㅎ drops so the polite form becomes 동그래요 and the modifier becomes 동그란.",
-    "mistakes": ["Do not say 동그랗아요 for the polite form"],
+    "nuance": "동그랗다 describes a small, neat, circular roundness — a coin, a plate, the full moon, wide-open eyes. Distinguish it from 둥글다, which is the broader, more neutral 'round/spherical' (a round table, a globe, a rounded character), and from 동그랗다's own darker harmony partner 둥그렇다 (a bigger, looser round). The diminutive 동- root makes 동그랗다 feel cute and compact, so it pairs naturally with 동그라미 'a (drawn) circle.' As a shape adjective the round thing takes 이/가 (달이 동그래요), not 을/를. The ㅎ-irregular is the trap: it is 동그래요, never 동그랗아요, and the modifier is 동그란 (동그란 접시), not 동그랗은. A favorite collocation is 눈을 동그랗게 뜨다 'to open the eyes wide (in surprise),' where 동그랗게 is the adverb form.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "동그랗다 describes a small, neat, circular roundness — a coin, a plate, the full moon, wide-open eyes. The diminutive 동- root makes 동그랗다 feel cute and compact, so it pairs naturally with 동그라미 'a (drawn) circle.' As a shape adjective the round thing takes 이/가 (달이 동그래요), not 을/를. A favorite collocation is 눈을 동그랗게 뜨다 'to open the eyes wide (in surprise),' where 동그랗게 is the adverb form."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 동그랗다 from 둥글다, which is the broader, more neutral 'round/spherical' (a round table, a globe, a rounded character), and from 동그랗다's own darker harmony partner 둥그렇다 (a bigger, looser round).",
+        "chips": ["둥글다", "둥그렇다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The ㅎ-irregular is the trap: it is 동그래요, never 동그랗아요, and the modifier is 동그란 (동그란 접시), not 동그랗은."
+      }
+    ],
+    "mistakes": [
+      "Saying 동그랗아요 — the ㅎ-irregular yields 동그래요 as the polite form.",
+      "Using the modifier 동그랗은 접시 — the correct form is 동그란 접시.",
+      "Treating 동그랗다 and 둥글다 as identical — 동그랗다 is small/cute round, 둥글다 is general round/spherical."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "동그래",
@@ -205,18 +337,41 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["강아지가 귀여워요", "The puppy is cute", "describing an animal"],
-      ["귀여운 인형을 샀어요", "I bought a cute doll", "uses modifier form"],
-      ["아기가 귀여워요", "The baby is cute", "with 이/가"],
-      ["귀여운 가방을 좋아해요", "I like the cute bag", "common object"]
+      ["강아지가 귀여워요", "The puppy is cute", "state with 이/가, describing an animal"],
+      ["귀여운 인형", "a cute doll", "귀여운 = the modifier before a noun"],
+      ["귀엽게 웃다", "to smile cutely", "귀엽게 = adverb form + 웃다"],
+      ["귀여워 죽겠다", "so cute I could die", "귀여워 + 죽겠다, a strong casual reaction"]
     ],
     "examples": [
-      ["이 고양이가 정말 귀여워요", "This cat is really cute", "polite everyday tone"],
-      ["그 아기가 너무 귀여웠어요", "That baby was so cute", "past tense form"],
-      ["이 신발은 안 귀여워요", "These shoes are not cute", "negative form"]
+      ["이 고양이가 귀여워요", "This cat is cute", "basic 요-form via ㅂ-irregular: 귀엽다 → 귀여워요"],
+      ["아기가 정말 귀엽게 생겼어요", "The baby is really cute(-looking)", "귀엽게 생기다 = 'be cute in looks'"],
+      ["강아지가 너무 귀여워서 계속 보게 돼요", "The puppy is so cute I keep looking", "-아서 links 'cute' to the result"]
     ],
-    "nuance": "Describes something cute or adorable like babies, animals, and items. The ㅂ changes to 워 so the polite form becomes 귀여워요 and the modifier becomes 귀여운.",
-    "mistakes": ["Do not say 귀엽어요 for the polite form"],
+    "nuance": "귀엽다 means 'cute, adorable, endearing' — the small-and-lovable charm of babies, animals, and round little objects, and it can also describe an older person's behavior as 'charmingly sweet.' Crucially it is NOT the same as 예쁘다 'pretty/beautiful': 귀엽다 is about lovable charm (a chubby puppy), while 예쁘다 is about visual prettiness (an elegant dress), so calling a grown adult only 귀엽다 can imply 'cute like a kid' rather than 'gorgeous.' As a state adjective the cute thing takes 이/가 (아기가 귀여워요), not 을/를. The grammar pitfall is the ㅂ-irregular: the stem-final ㅂ turns into 우/워 before a vowel, so it is 귀여워요, never 귀엽어요, and the modifier is 귀여운 (귀여운 인형), not 귀엽은. The past is 귀여웠어요. Beware: not every ㅂ word is irregular (좁다 → 좁아요), but 귀엽다 is.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "귀엽다 means 'cute, adorable, endearing' — the small-and-lovable charm of babies, animals, and round little objects, and it can also describe an older person's behavior as 'charmingly sweet.' As a state adjective the cute thing takes 이/가 (아기가 귀여워요), not 을/를."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Crucially 귀엽다 is NOT the same as 예쁘다 'pretty/beautiful': 귀엽다 is about lovable charm (a chubby puppy), while 예쁘다 is about visual prettiness (an elegant dress), so calling a grown adult only 귀엽다 can imply 'cute like a kid' rather than 'gorgeous.'",
+        "chips": ["예쁘다"]
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The grammar pitfall is the ㅂ-irregular: the stem-final ㅂ turns into 우/워 before a vowel, so it is 귀여워요, never 귀엽어요, and the modifier is 귀여운 (귀여운 인형), not 귀엽은. The past is 귀여웠어요. Beware: not every ㅂ word is irregular (좁다 → 좁아요), but 귀엽다 is.",
+        "chips": ["귀여워요", "귀여운", "귀여웠어요"]
+      }
+    ],
+    "mistakes": [
+      "Saying 귀엽어요 — 귀엽다 is ㅂ-irregular, so ㅂ becomes 워 and the polite form is 귀여워요.",
+      "Using the modifier 귀엽은 인형 — the ㅂ becomes 운, giving 귀여운 인형.",
+      "Calling an adult 귀여워요 to mean 'beautiful' — that conveys 'cute/endearing'; for 'pretty' use 예뻐요 instead."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "귀여워",
@@ -238,18 +393,46 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["저 차가 멋져요", "That car is cool", "describing an object"],
-      ["멋진 옷을 입었어요", "I wore cool clothes", "uses modifier form"],
-      ["경치가 멋져요", "The scenery is cool", "with 이/가"],
-      ["멋진 사람을 만났어요", "I met a cool person", "about a person"]
+      ["저 차가 멋져요", "That car is cool", "state with 이/가, describing an object"],
+      ["멋진 사람", "a cool/admirable person", "멋진 = the modifier before a noun"],
+      ["멋지게 차려입다", "to dress sharply", "멋지게 = adverb form + 차려입다"],
+      ["멋지다는 말을 듣다", "to be told one is cool", "멋지다 + quotative, a common compliment"]
     ],
     "examples": [
-      ["이 건물이 정말 멋져요", "This building is really cool", "polite everyday tone"],
-      ["어제 공연이 멋졌어요", "Yesterday the show was cool", "past tense form"],
-      ["이 디자인은 안 멋져요", "This design is not cool", "negative form"]
+      ["이 건물이 멋져요", "This building is cool", "basic 요-form: 멋지다 → 멋져요"],
+      ["오늘 정말 멋지게 차려입었네요", "You dressed really sharply today", "멋지게 차려입다 = dress stylishly"],
+      ["저렇게 어른답게 행동하다니, 정말 멋지다", "Behaving so maturely — that's really cool", "멋지다 here praises character, not looks"]
     ],
-    "nuance": "Means cool, stylish, or impressive for people, clothes, and scenery. It is a regular adjective, so the stem plus 어 becomes the polite form 멋져요.",
-    "mistakes": ["Do not say 멋지요 for the polite form"],
+    "nuance": "멋지다 means 'cool, stylish, splendid, impressive,' praising not just looks but admirable style or character — a sharp outfit, a stunning view, or someone who acts with class. Built from the native noun 멋 'style/flair/taste,' it is warmer and more sincere than the English loanword 쿨하다, which means 'cool' in the sense of laid-back/unbothered, not 'awesome.' Compare also 멋있다, a near-twin: 멋있다 and 멋지다 are nearly interchangeable, with 멋지다 sounding a touch more exclamatory/admiring. As a state adjective the impressive thing takes 이/가 (경치가 멋져요), not 을/를. Although it ends in 지, it is a fully REGULAR adjective: the stem 멋지- + 어 contracts to 멋져요 (never 멋지어요). The pitfall is leaving it bare as 멋지요 — that drops the required 어, so always use 멋져요; the modifier is 멋진 (멋진 옷) and the past is 멋졌어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "멋지다 means 'cool, stylish, splendid, impressive,' praising not just looks but admirable style or character — a sharp outfit, a stunning view, or someone who acts with class. As a state adjective the impressive thing takes 이/가 (경치가 멋져요), not 을/를."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is warmer and more sincere than the English loanword 쿨하다, which means 'cool' in the sense of laid-back/unbothered, not 'awesome.' Compare also 멋있다, a near-twin: 멋있다 and 멋지다 are nearly interchangeable, with 멋지다 sounding a touch more exclamatory/admiring.",
+        "chips": ["쿨하다", "멋있다"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Built from the native noun 멋 'style/flair/taste.'"
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Although it ends in 지, it is a fully REGULAR adjective: the stem 멋지- + 어 contracts to 멋져요 (never 멋지어요). The pitfall is leaving it bare as 멋지요 — that drops the required 어, so always use 멋져요; the modifier is 멋진 (멋진 옷) and the past is 멋졌어요.",
+        "chips": ["멋져요", "멋진", "멋졌어요"]
+      }
+    ],
+    "mistakes": [
+      "Saying 멋지요 for the polite form — the stem needs 어, contracting to 멋져요.",
+      "Writing 멋지어요 in full — 지 + 어 contracts, so the natural form is 멋져요.",
+      "Using 쿨하다 to mean 'awesome' — 쿨하다 means 'laid-back/unbothered'; for 'cool/impressive' use 멋지다."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "멋져",
@@ -271,18 +454,41 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["언니가 날씬해요", "My older sister is slim", "describing a person"],
-      ["날씬한 모델을 봤어요", "I saw a slim model", "uses modifier form"],
-      ["다리가 날씬해요", "The legs are slim", "with 이/가"],
-      ["날씬한 몸매를 원해요", "I want a slim figure", "common goal"]
+      ["언니가 날씬해요", "My older sister is slim", "state with 이/가, describing a person"],
+      ["날씬한 몸매", "a slim figure", "날씬한 = the modifier before a noun"],
+      ["날씬하게 보이다", "to look slim", "날씬하게 = adverb + 보이다 'appear'"],
+      ["날씬한 다리", "slim legs", "common body-part collocation"]
     ],
     "examples": [
-      ["그 배우가 정말 날씬해요", "That actor is really slim", "polite everyday tone"],
-      ["작년에 더 날씬했어요", "I was slimmer last year", "past tense form"],
-      ["저는 별로 안 날씬해요", "I am not very slim", "negative form"]
+      ["그 배우가 날씬해요", "That actor is slim", "basic 하다-form: 날씬하다 → 날씬해요"],
+      ["운동을 해서 다리가 날씬해졌어요", "I exercised so my legs got slimmer", "날씬해지다 = the change 'become slim'"],
+      ["이 옷을 입으면 더 날씬해 보여요", "You look slimmer in these clothes", "날씬해 보이다 = 'appear slim'"]
     ],
-    "nuance": "Means slim or slender in a positive way for a person or body shape. It follows the regular 하다 pattern, becoming 날씬해요 in polite speech.",
-    "mistakes": ["Do not say 날씬하요 for the polite form"],
+    "nuance": "날씬하다 is a flattering 'slim, slender, trim' — a fit, attractive thinness people aspire to, often paired with 몸매 'figure' (날씬한 몸매). It is firmly positive, unlike the plain near-synonym 마르다 'to be thin,' which is neutral-to-negative and can imply 'skinny/scrawny' or even unhealthily underweight (너무 말랐어요 'too skinny'); so complimenting someone, choose 날씬하다, not 마르다. Note 마르다 is also a르-irregular verb-like form, whereas 날씬하다 is a clean 하다 adjective. As a state adjective the slim person/part takes 이/가 (다리가 날씬해요), not 을/를. The 하다 pitfall: never 날씬하요 — the 하다 ending becomes 해요 (하 + 여 → 해), so it is 날씬해요. The modifier is 날씬한 (날씬한 모델), the adverb 날씬하게, and 'get slimmer' is 날씬해지다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "날씬하다 is a flattering 'slim, slender, trim' — a fit, attractive thinness people aspire to, often paired with 몸매 'figure' (날씬한 몸매). It is firmly positive. As a state adjective the slim person/part takes 이/가 (다리가 날씬해요), not 을/를."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Unlike the plain near-synonym 마르다 'to be thin,' which is neutral-to-negative and can imply 'skinny/scrawny' or even unhealthily underweight (너무 말랐어요 'too skinny'); so complimenting someone, choose 날씬하다, not 마르다. Note 마르다 is also a 르-irregular verb-like form, whereas 날씬하다 is a clean 하다 adjective.",
+        "chips": ["마르다"]
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 하다 pitfall: never 날씬하요 — the 하다 ending becomes 해요 (하 + 여 → 해), so it is 날씬해요. The modifier is 날씬한 (날씬한 모델), the adverb 날씬하게, and 'get slimmer' is 날씬해지다.",
+        "chips": ["날씬해요", "날씬한", "날씬하게", "날씬해지다"]
+      }
+    ],
+    "mistakes": [
+      "Saying 날씬하요 — every 하다 adjective conjugates to 해요, so it is 날씬해요.",
+      "Using 마르다 as a compliment — 마르다 can sound 'too skinny'; for an admiring 'slim' use 날씬하다.",
+      "Marking the body part with 을/를 (다리를 날씬해요) — it is a state, so use 이/가: 다리가 날씬해요."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "날씬해",
@@ -304,18 +510,41 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["고양이가 뚱뚱해요", "The cat is fat", "describing an animal"],
-      ["뚱뚱한 곰 인형이 있어요", "I have a fat teddy bear", "uses modifier form"],
-      ["배가 뚱뚱해요", "The belly is fat", "with 이/가"],
-      ["뚱뚱한 강아지가 귀여워요", "The fat puppy is cute", "common example"]
+      ["고양이가 뚱뚱해요", "The cat is fat", "state with 이/가, gentler on an animal"],
+      ["뚱뚱한 곰 인형", "a fat teddy bear", "뚱뚱한 = the modifier before a noun"],
+      ["뚱뚱해 보이다", "to look fat", "뚱뚱해 + 보이다, often a worry about clothes"],
+      ["뚱뚱한 체형", "a heavy build", "뚱뚱한 + 체형, describing body type"]
     ],
     "examples": [
-      ["이 펭귄이 좀 뚱뚱해요", "This penguin is a bit fat", "polite everyday tone"],
-      ["저 강아지가 예전에 뚱뚱했어요", "That puppy was fat before", "past tense form"],
-      ["이 인형은 안 뚱뚱해요", "This doll is not fat", "negative form"]
+      ["이 펭귄이 뚱뚱해요", "This penguin is fat", "basic 하다-form: 뚱뚱하다 → 뚱뚱해요"],
+      ["요즘 살이 쪄서 좀 뚱뚱해졌어요", "I gained weight lately so I got a bit fat", "뚱뚱해지다 = the change; 살이 찌다 = gain weight"],
+      ["이 옷을 입으면 뚱뚱해 보일까요?", "Will I look fat in these clothes?", "뚱뚱해 보이다, a typical self-conscious question"]
     ],
-    "nuance": "Means fat or chubby and can sound rude about people, so it is gentler for animals. It follows the regular 하다 pattern, becoming 뚱뚱해요 in polite speech.",
-    "mistakes": ["Do not say 뚱뚱하요 for the polite form"],
+    "nuance": "뚱뚱하다 is the blunt, plain word for 'fat/chubby,' and like English 'fat' it is sensitive: said straight to or about a person it sounds rude, so Koreans soften it about people and use it freely only for animals or stuffed toys. For people, the polite alternatives are 통통하다 'pleasantly plump/chubby' (cute, kind) and the gentle euphemism 살이 좀 있다 'to have a bit of weight'; the opposite is 날씬하다 'slim.' Note 뚱뚱하다 describes the standing state, while the verb 살이 찌다 'to gain weight' describes the process. As a state adjective the heavy thing takes 이/가 (배가 뚱뚱해요), not 을/를. The 하다 trap: never 뚱뚱하요 — it conjugates to 뚱뚱해요. The modifier is 뚱뚱한 (뚱뚱한 강아지), the adverb 뚱뚱하게, and 'get fat' is 뚱뚱해지다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "뚱뚱하다 is the blunt, plain word for 'fat/chubby,' and like English 'fat' it is sensitive: said straight to or about a person it sounds rude, so Koreans soften it about people and use it freely only for animals or stuffed toys. Note 뚱뚱하다 describes the standing state, while the verb 살이 찌다 'to gain weight' describes the process. As a state adjective the heavy thing takes 이/가 (배가 뚱뚱해요), not 을/를."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "For people, the polite alternatives are 통통하다 'pleasantly plump/chubby' (cute, kind) and the gentle euphemism 살이 좀 있다 'to have a bit of weight'; the opposite is 날씬하다 'slim.'",
+        "chips": ["통통하다", "살이 좀 있다", "날씬하다"]
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 하다 trap: never 뚱뚱하요 — it conjugates to 뚱뚱해요. The modifier is 뚱뚱한 (뚱뚱한 강아지), the adverb 뚱뚱하게, and 'get fat' is 뚱뚱해지다.",
+        "chips": ["뚱뚱해요", "뚱뚱한", "뚱뚱하게", "뚱뚱해지다"]
+      }
+    ],
+    "mistakes": [
+      "Saying 뚱뚱하요 — the 하다 ending becomes 해요, so the polite form is 뚱뚱해요.",
+      "Calling a person 뚱뚱해요 to their face — it sounds harsh; soften with 통통하다 or 살이 좀 있다.",
+      "Confusing the state with the action — 뚱뚱하다 is 'to be fat,' but 'to gain weight' is the verb 살이 찌다."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "뚱뚱해",
@@ -337,18 +566,46 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["할머니가 건강해요", "My grandmother is healthy", "describing a person"],
-      ["건강한 음식을 먹어요", "I eat healthy food", "uses modifier form"],
-      ["몸이 건강해요", "The body is healthy", "with 이/가"],
-      ["건강한 습관을 만들어요", "I make healthy habits", "common goal"]
+      ["할머니가 건강해요", "My grandmother is healthy", "state with 이/가, describing a person"],
+      ["건강한 음식", "healthy food", "건강한 = the modifier before a noun"],
+      ["건강하게 지내다", "to stay/keep well", "건강하게 + 지내다, a warm farewell phrase"],
+      ["건강을 챙기다", "to take care of one's health", "the noun 건강 + 챙기다"]
     ],
     "examples": [
-      ["우리 아버지는 아주 건강해요", "My father is very healthy", "polite everyday tone"],
-      ["작년에는 더 건강했어요", "I was healthier last year", "past tense form"],
-      ["요즘 별로 안 건강해요", "These days I am not very healthy", "negative form"]
+      ["우리 아버지는 건강해요", "My father is healthy", "basic 하다-form: 건강하다 → 건강해요"],
+      ["채소를 많이 먹어서 더 건강해졌어요", "I eat lots of vegetables so I got healthier", "건강해지다 = the change 'become healthy'"],
+      ["새해에도 건강하게 지내세요", "Stay healthy in the new year too", "건강하게 지내세요 is a common well-wish"]
     ],
-    "nuance": "Means healthy or in good condition for people, bodies, and habits. It follows the regular 하다 pattern, becoming 건강해요 in polite speech.",
-    "mistakes": ["Do not say 건강하요 for the polite form"],
+    "nuance": "건강하다 means 'to be healthy, in good physical condition' — strong, well, free of illness — for a person, a body, or by extension healthy food and habits. It is Sino-Korean: 健康 (健 'sturdy/robust' + 康 'at ease/well'), literally 'robust and well,' which is why the noun 건강 'health' shows up everywhere (건강 검진 'health checkup,' 건강을 챙기다 'mind one's health'). Distinguish it from 튼튼하다 'sturdy/robust,' which stresses physical toughness and durability and also describes objects (튼튼한 책상 'a sturdy desk'), whereas 건강하다 is about wellness and is normally for living things. As a state adjective the healthy one takes 이/가 (몸이 건강해요), not 을/를. The 하다 pitfall: never 건강하요 — it becomes 건강해요. The modifier is 건강한 (건강한 습관), and 건강하게 지내세요 is a standard 'take care / be well' wish.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "건강하다 means 'to be healthy, in good physical condition' — strong, well, free of illness — for a person, a body, or by extension healthy food and habits. As a state adjective the healthy one takes 이/가 (몸이 건강해요), not 을/를."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 건강하다 from 튼튼하다 'sturdy/robust,' which stresses physical toughness and durability and also describes objects (튼튼한 책상 'a sturdy desk'), whereas 건강하다 is about wellness and is normally for living things.",
+        "chips": ["튼튼하다"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is Sino-Korean: 健康 (健 'sturdy/robust' + 康 'at ease/well'), literally 'robust and well,' which is why the noun 건강 'health' shows up everywhere (건강 검진 'health checkup,' 건강을 챙기다 'mind one's health')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 하다 pitfall: never 건강하요 — it becomes 건강해요. The modifier is 건강한 (건강한 습관), and 건강하게 지내세요 is a standard 'take care / be well' wish.",
+        "chips": ["건강해요", "건강한", "건강하게"]
+      }
+    ],
+    "mistakes": [
+      "Saying 건강하요 — the 하다 ending conjugates to 해요, giving 건강해요.",
+      "Using 건강하다 for an object — for a sturdy thing like a desk use 튼튼하다; 건강하다 is for living bodies.",
+      "Saying 몸을 건강해요 with 을/를 — it is a state, so use 이/가: 몸이 건강해요."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "건강해",
@@ -370,18 +627,46 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": ["grammar-particle-i-ga"],
     "usage": [
-      ["날씨가 어때요", "How is the weather", "asking about a state"],
-      ["어떤 색을 좋아해요", "Which color do you like", "uses modifier form"],
-      ["기분이 어때요", "How do you feel", "with 이/가"],
-      ["맛이 어때요", "How is the taste", "common question"]
+      ["날씨가 어때요?", "How is the weather?", "asking about a state with 이/가"],
+      ["어떤 색", "which/what kind of color", "어떤 = the modifier 'what kind of'"],
+      ["어떻게 가요?", "How do I get there?", "어떻게 = the adverb 'how/in what way'"],
+      ["어떡해?", "What do I do?!", "어떻게 해 contracted, a panicked reaction"]
     ],
     "examples": [
-      ["이 옷이 어때요", "How is this clothing", "polite everyday tone"],
-      ["어제 영화가 어땠어요", "How was the movie yesterday", "past tense form"],
-      ["어떤 음식을 먹고 싶어요", "What kind of food do you want", "modifier form"]
+      ["이 옷 어때요?", "How's this outfit? / What do you think?", "어때요 also means 'how about it?' to suggest"],
+      ["어제 영화 어땠어요?", "How was the movie yesterday?", "past form: 어떻다 → 어땠어요"],
+      ["서울까지 어떻게 가요?", "How do you get to Seoul?", "어떻게 = the adverb for asking the manner"]
     ],
-    "nuance": "Used to ask how something is or what it is like, often as 어때요. The final ㅎ drops so it becomes 어때요 and the modifier becomes 어떤.",
-    "mistakes": ["Do not say 어떻아요 for the question form"],
+    "nuance": "어떻다 is the question-adjective 'to be how / to be what-like,' the root behind a whole family Koreans use constantly. Learn its three faces: 어때(요)? = 'How is it? / How about it?' (asking a state or making a soft suggestion — 이거 어때요?), 어떤 = the modifier 'what kind of' before a noun (어떤 음악 'what kind of music'), and 어떻게 = the adverb 'how / in what way' for asking method (어떻게 해요? 'how do you do it?'). Do not confuse 어떻다 with 어떡하다, the contraction of 어떻게 하다 'to do how,' which gives the very common cry 어떡해! 'what do I do?!' As an irregular ㅎ adjective, the polite/question form is 어때요, never 어떻아요, and the past is 어땠어요. The single most frequent learner error is choosing the wrong family member — using 어떤 where 어떻게 is needed, or vice versa.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "어떻다 is the question-adjective 'to be how / to be what-like,' the root behind a whole family Koreans use constantly. Learn its three faces: 어때(요)? = 'How is it? / How about it?' (asking a state or making a soft suggestion — 이거 어때요?), 어떤 = the modifier 'what kind of' before a noun (어떤 음악 'what kind of music'), and 어떻게 = the adverb 'how / in what way' for asking method (어떻게 해요? 'how do you do it?')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Do not confuse 어떻다 with 어떡하다, the contraction of 어떻게 하다 'to do how,' which gives the very common cry 어떡해! 'what do I do?!'",
+        "chips": ["어떡하다", "어떡해"]
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As an irregular ㅎ adjective, the polite/question form is 어때요, never 어떻아요, and the past is 어땠어요.",
+        "chips": ["어때요", "어땠어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The single most frequent learner error is choosing the wrong family member — using 어떤 where 어떻게 is needed, or vice versa."
+      }
+    ],
+    "mistakes": [
+      "Saying 어떻아요 — 어떻다 is ㅎ-irregular, so the question form is 어때요 (past 어땠어요).",
+      "Mixing 어떤 and 어떻게 — 어떤 + noun = 'what kind of' (어떤 색), but 어떻게 + verb = 'how' (어떻게 가요).",
+      "Writing 어떻해 for 'what do I do' — the set phrase is 어떡해 (from 어떻게 해), not 어떻해."
+    ],
     "forms": {
       "speechLevels": {
         "casual": "어때",

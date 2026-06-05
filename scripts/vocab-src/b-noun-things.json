@@ -13,14 +13,38 @@
       ["물건이 많아요", "There are a lot of things", "물건 + 이/가 많다"]
     ],
     "examples": [
-      ["이 물건은 뭐예요?", "What is this thing?", "Pointing at an unknown object"],
-      ["가방에 물건이 많아요.", "There are a lot of things in the bag.", "Describing contents"],
-      ["물건을 여기에 놓으세요.", "Please put your things here.", "Polite request, 놓으세요 = put down"]
+      ["이 물건은 뭐예요?", "What is this thing?", "Pointing at an unknown physical object"],
+      ["가방에 물건이 너무 많아요.", "There are too many things in the bag.", "에 marks the container; 물건이 많다 = lots of stuff"],
+      ["손님, 이 물건은 환불이 안 돼요.", "Sir/Ma'am, this item can't be refunded.", "Shop register: 물건 = the merchandise itself"]
     ],
-    "nuance": "물건 is the all-purpose word for a physical object or item, used when you do not know or do not need to name the exact thing. In shops it also means merchandise or goods. It is concrete: you cannot use 물건 for abstract things like ideas or feelings.",
+    "nuance": "물건 is the Sino-Korean 物件 (物 'thing' + 件 'item/case'), the catch-all word for a tangible, hold-in-your-hand object when you don't know or don't need its specific name, and in a store it shifts to mean the merchandise/goods. The sharp contrast is with 것 (and its spoken form 거): 것 is a grammatical 'thing' that can stand for anything at all, even abstractions or whole situations (좋은 것 = a good thing/one), whereas 물건 is strictly a concrete physical item you could pick up — you would never call an idea, a plan, or a feeling a 물건. It is neutral in register and safe with anyone. Common collocations: 물건을 사다/팔다 (buy/sell goods), 물건이 좋다 (the goods are good quality), 물건을 고르다 (pick out an item). The English-speaker pitfall is reaching for 물건 every time you'd say 'thing' in English; for 'I have a lot of things to do' you need 일 (work/matter), not 물건, and to count items you say 물건 다섯 개, never '다섯 물건'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "물건 is the catch-all word for a tangible, hold-in-your-hand object when you don't know or don't need its specific name, and in a store it shifts to mean the merchandise/goods. It is neutral in register and safe with anyone. Common collocations: 물건을 사다/팔다 (buy/sell goods), 물건이 좋다 (the goods are good quality), 물건을 고르다 (pick out an item)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is with 것 (and its spoken form 거): 것 is a grammatical 'thing' that can stand for anything at all, even abstractions or whole situations (좋은 것 = a good thing/one), whereas 물건 is strictly a concrete physical item you could pick up — you would never call an idea, a plan, or a feeling a 물건.",
+        "chips": ["것", "거"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "물건 is the Sino-Korean 物件 (物 'thing' + 件 'item/case')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is reaching for 물건 every time you'd say 'thing' in English; for 'I have a lot of things to do' you need 일 (work/matter), not 물건, and to count items you say 물건 다섯 개, never '다섯 물건'."
+      }
+    ],
     "mistakes": [
-      "Do not use 물건 for abstract 'things' like plans or feelings — use 일 or 것 instead.",
-      "물건 is a noun, not a counter; to count items use 개 (한 개, 두 개), not '한 물건'."
+      "Saying 할 물건이 많아요 for 'I have many things to do' — 물건 is only physical objects, so this must be 할 일이 많아요 (using 일 = task/matter).",
+      "Using 물건 as a counter, e.g. 한 물건 — 물건 is a noun, not a measure word, so count with 개: 물건 한 개, 물건 두 개.",
+      "Calling an abstract 'thing' like a good idea 좋은 물건 — for non-physical 'things' use 것: 좋은 것이에요 (it's a good thing)."
     ]
   },
   {
@@ -32,19 +56,43 @@
     "grammarIds": [],
     "usage": [
       ["상자가 있어요", "There is a box", "상자 + 이/가 있어요"],
-      ["상자 안에", "inside the box", "상자 + 안에 (location)"],
+      ["상자 안에", "inside the box", "상자 + 안에 (interior location)"],
       ["상자를 열어요", "I open the box", "상자 + 를 + 열다"],
-      ["큰 상자", "a big box", "adjective + 상자"]
+      ["큰 상자", "a big box", "adjective (큰) + 상자"]
     ],
     "examples": [
-      ["상자 안에 뭐가 있어요?", "What is inside the box?", "Asking about contents"],
-      ["이 상자는 너무 무거워요.", "This box is too heavy.", "무겁다 = heavy"],
-      ["택배 상자를 열었어요.", "I opened the delivery box.", "택배 = parcel/delivery"]
+      ["상자 안에 뭐가 있어요?", "What's inside the box?", "안에 = inside; asking about contents"],
+      ["이 상자는 너무 무거워서 못 들겠어요.", "This box is too heavy, I can't lift it.", "-아서 gives the reason; 들다 = lift"],
+      ["택배 상자를 칼로 뜯었어요.", "I cut open the delivery box with a knife.", "택배 = parcel; 뜯다 = rip/tear open"]
     ],
-    "nuance": "상자 is a box or carton, usually made of cardboard or hard material, used for holding or shipping things. The Sino-Korean 박스 (from English 'box') is also common in daily speech, but 상자 is the standard native-feeling word. Count boxes with 개: 상자 한 개.",
+    "nuance": "상자 is the Sino-Korean 箱子 (箱 'box/chest' + the noun-forming 子), the standard word for a rigid box or carton — cardboard moving boxes, gift boxes, shipping cartons. Its everyday rival is the loanword 박스 (from English 'box'); the two overlap heavily and a Korean might say 박스 하나 just as readily, but 상자 sounds a touch more proper/written while 박스 is breezier and dominates for things like a 'case' of bottled water (생수 한 박스). Contrast it with the soft containers it is NOT: 봉투 (a flat envelope or paper bag) and 봉지 (a flimsy plastic/paper sack) collapse and have no rigid walls. Count boxes with the generic 개 (상자 한 개) or, for full-box quantities, the loan counter 박스. The pitfall for English speakers is reaching for 상자 for a tiny rigid case — a jewelry or glasses case is usually 케이스 or 갑, not 상자.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "상자 is the standard word for a rigid box or carton — cardboard moving boxes, gift boxes, shipping cartons. Count boxes with the generic 개 (상자 한 개) or, for full-box quantities, the loan counter 박스."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its everyday rival is the loanword 박스 (from English 'box'); the two overlap heavily and a Korean might say 박스 하나 just as readily, but 상자 sounds a touch more proper/written while 박스 is breezier and dominates for things like a 'case' of bottled water (생수 한 박스). Contrast it with the soft containers it is NOT: 봉투 (a flat envelope or paper bag) and 봉지 (a flimsy plastic/paper sack) collapse and have no rigid walls.",
+        "chips": ["박스", "봉투", "봉지"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "상자 is the Sino-Korean 箱子 (箱 'box/chest' + the noun-forming 子)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is reaching for 상자 for a tiny rigid case — a jewelry or glasses case is usually 케이스 or 갑, not 상자."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 상자 (box) with 봉투 (envelope) or 봉지 (bag) — those are soft containers.",
-      "For a very small jewelry-type case Koreans often say 케이스 or 갑, not 상자."
+      "Calling a plastic shopping bag a 상자 — a bag that collapses is 봉지 (plastic) or 봉투 (paper/envelope); 상자 has rigid walls.",
+      "Using 상자 for a small hard case like a ring box or pencil case — Koreans say 케이스 or 갑 (반지 케이스, 필통), reserving 상자 for larger cartons.",
+      "Opening a sealed cardboard box with 열다 only — 열다 works for a lid, but to slit packing tape you naturally say 뜯다 (tear/cut open): 상자를 뜯다."
     ]
   },
   {
@@ -61,14 +109,38 @@
       ["종이를 접어요", "I fold the paper", "종이 + 를 + 접다"]
     ],
     "examples": [
-      ["종이 한 장 주세요.", "Please give me one sheet of paper.", "장 counts flat sheets"],
-      ["여기 종이에 이름을 써 주세요.", "Please write your name on this paper.", "Filling out a form"],
-      ["종이가 없어요. 어떡하죠?", "There's no paper. What should I do?", "어떡하죠 = what do I do"]
+      ["종이 한 장만 주세요.", "Just give me one sheet of paper, please.", "장 counts flat sheets; 만 = just/only"],
+      ["여기 종이에 이름하고 전화번호를 써 주세요.", "Please write your name and phone number on this paper here.", "종이에 = onto the paper, filling a form"],
+      ["프린터에 종이가 다 떨어졌어요.", "The printer is out of paper.", "다 떨어지다 = run out completely"]
     ],
-    "nuance": "종이 is paper as a material or a sheet. To count sheets use the counter 장 (한 장, 두 장), the same counter used for tickets and photos. Note that 신문 (newspaper) and 책 (book) are separate words even though they are made of 종이.",
+    "nuance": "종이 is a pure native Korean word for paper, both as the material (made from 나무/pulp) and as a sheet of it. The crucial point is its counter: flat, thin things are counted with 장 (종이 한 장, 두 장) — the same 장 used for tickets (표 한 장), photos (사진 한 장), and pizza slices, so learning 종이 anchors the whole 'flat-sheet' counter family. Distinguish the raw material 종이 from finished paper products that have their own names: a 신문 (newspaper), a 책 (book), a 공책/노트 (notebook), and a filled-out 서류 (document) are all made of 종이 but are never just called 종이. Useful collocations: 종이에 쓰다/적다 (write on paper), 종이를 접다 (fold paper), 종이를 자르다/찢다 (cut/tear paper). The English-speaker pitfall is twofold: defaulting to 개 instead of 장 to count sheets, and using 종이 for a form you must complete — that is 서류 (paperwork) or the document's specific name.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "종이 is paper, both as the material (made from 나무/pulp) and as a sheet of it. The crucial point is its counter: flat, thin things are counted with 장 (종이 한 장, 두 장) — the same 장 used for tickets (표 한 장), photos (사진 한 장), and pizza slices, so learning 종이 anchors the whole 'flat-sheet' counter family. Useful collocations: 종이에 쓰다/적다 (write on paper), 종이를 접다 (fold paper), 종이를 자르다/찢다 (cut/tear paper)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish the raw material 종이 from finished paper products that have their own names: a 신문 (newspaper), a 책 (book), a 공책/노트 (notebook), and a filled-out 서류 (document) are all made of 종이 but are never just called 종이.",
+        "chips": ["신문", "책", "공책/노트", "서류"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "종이 is a pure native Korean word for paper."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is twofold: defaulting to 개 instead of 장 to count sheets, and using 종이 for a form you must complete — that is 서류 (paperwork) or the document's specific name."
+      }
+    ],
     "mistakes": [
-      "Count paper with 장, not 개 — say 종이 한 장, not 종이 한 개.",
-      "Do not say 종이 for a document you fill out; that is 서류 or just the form name."
+      "Counting sheets with 개 — say 종이 한 장 (one sheet), not 종이 한 개; flat things take the counter 장.",
+      "Calling a form or official document 종이 — the paper you fill in is 서류 (paperwork) or the named form; 종이 is the blank material.",
+      "Writing 'on paper' with the wrong particle, e.g. 종이를 써요 for 'write on paper' — use the surface particle 에: 종이에 써요 (종이를 쓰다 would mean 'use up paper')."
     ]
   },
   {
@@ -79,20 +151,44 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["비닐봉지 주세요", "Please give me a plastic bag", "common shop request"],
+      ["비닐봉지 주세요", "Please give me a plastic bag", "common checkout request"],
       ["비닐봉지에 넣어요", "I put it in a plastic bag", "비닐봉지 + 에 + 넣다"],
       ["비닐봉지가 있어요?", "Do you have a plastic bag?", "비닐봉지 + 이/가 있어요?"],
       ["비닐봉지 하나", "one plastic bag", "비닐봉지 + 하나 / 한 개"]
     ],
     "examples": [
-      ["비닐봉지 하나 주세요.", "Please give me one plastic bag.", "At a convenience store"],
-      ["과일을 비닐봉지에 넣었어요.", "I put the fruit in a plastic bag.", "넣다 = put in"],
-      ["비닐봉지는 50원이에요.", "A plastic bag is 50 won.", "Bags are often paid for in Korea"]
+      ["비닐봉지 하나만 주세요.", "Just one plastic bag, please.", "At a convenience store checkout"],
+      ["과일이 무거우니까 비닐봉지에 따로 넣어 주세요.", "The fruit is heavy, so please put it in a separate plastic bag.", "-니까 gives the reason for a request"],
+      ["요즘은 마트에서 비닐봉지를 안 줘요.", "These days marts don't give out plastic bags.", "Reflects Korea's plastic-bag restrictions"]
     ],
-    "nuance": "비닐봉지 is a thin plastic (vinyl) bag, the kind you get at shops and markets. Koreans often shorten it to just 봉지 or even 비닐 in casual speech. Since plastic bags usually cost money in Korean stores, asking 비닐봉지 주세요 is a very common everyday phrase.",
+    "nuance": "비닐봉지 stitches together 비닐 (from English 'vinyl', here meaning thin plastic film) + 봉지 (a flimsy sack/pouch), i.e. the thin film bag you get at shops and markets. In fast casual speech Koreans clip it hard — to just 봉지 ('봉지 드려요?' = shall I give you a bag?) or even 비닐 ('비닐 주세요'). The contrast to nail down is the container family: 비닐봉지/봉지 is thin and flimsy, 봉투 is a paper bag or an envelope, and 가방 is a sturdy reusable bag/backpack you own. Because Korean stores charge for bags and supermarkets have largely stopped offering single-use ones, 비닐봉지 주세요 / 봉투 필요하세요? are bread-and-butter checkout lines. The big pitfall is the word 비닐 itself: it does NOT mean English 'vinyl' as in vinyl records (that's LP/레코드) or vinyl flooring siding — in Korean 비닐 just means cheap plastic sheeting/film. Also don't pluralize or count it oddly: 비닐봉지 한 장 (counted with 장, like other thin flat things) or 한 개 both work.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "비닐봉지 is the thin film bag you get at shops and markets. In fast casual speech Koreans clip it hard — to just 봉지 ('봉지 드려요?' = shall I give you a bag?) or even 비닐 ('비닐 주세요'). Because Korean stores charge for bags and supermarkets have largely stopped offering single-use ones, 비닐봉지 주세요 / 봉투 필요하세요? are bread-and-butter checkout lines. Count it with 장 (비닐봉지 한 장, like other thin flat things) or 한 개 — both work."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to nail down is the container family: 비닐봉지/봉지 is thin and flimsy, 봉투 is a paper bag or an envelope, and 가방 is a sturdy reusable bag/backpack you own.",
+        "chips": ["봉지", "봉투", "가방"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "비닐봉지 stitches together 비닐 (from English 'vinyl', here meaning thin plastic film) + 봉지 (a flimsy sack/pouch)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall is the word 비닐 itself: it does NOT mean English 'vinyl' as in vinyl records (that's LP/레코드) or vinyl flooring siding — in Korean 비닐 just means cheap plastic sheeting/film."
+      }
+    ],
     "mistakes": [
-      "비닐 here means 'plastic/vinyl', not the English 'vinyl' records — do not mix the meanings.",
-      "A paper or cloth shopping bag is 가방 or 봉투, not 비닐봉지."
+      "Hearing 비닐 and thinking 'vinyl records' — in Korean 비닐 means thin plastic film; a record is an LP, and the material is just 플라스틱/비닐, never the English music sense.",
+      "Using 비닐봉지 for a paper bag or a reusable tote — a paper bag/envelope is 봉투 and a carry-bag you own is 가방; 비닐봉지 is specifically the thin plastic one.",
+      "Saying 비닐봉지에 담아요 vs 넣어요 interchangeably for small items — for dropping items in you usually say 넣다 (put in); 담다 implies loading/filling a container and suits baskets or boxes better."
     ]
   },
   {
@@ -109,14 +205,38 @@
       ["바구니 하나", "one basket", "바구니 + 하나 / 한 개"]
     ],
     "examples": [
-      ["과일을 바구니에 담으세요.", "Please put the fruit in the basket.", "담다 = put/load in"],
-      ["빨래 바구니가 가득 찼어요.", "The laundry basket is full.", "가득 차다 = be full"],
-      ["마트에서 바구니를 들었어요.", "I picked up a basket at the mart.", "Shopping basket"]
+      ["과일을 바구니에 담으세요.", "Please put the fruit in the basket.", "담다 = load/put into an open container"],
+      ["빨래 바구니가 벌써 가득 찼어요.", "The laundry basket is already full.", "가득 차다 = be full to the brim"],
+      ["장바구니에 담아 두고 나중에 결제했어요.", "I added it to the cart and paid later.", "장바구니 = shopping cart, online or in-store"]
     ],
-    "nuance": "바구니 is a basket — an open container with handles for carrying or holding things, like a shopping basket or laundry basket. It is often combined with another noun: 빨래 바구니 (laundry basket), 장바구니 (shopping/grocery basket). For an online shopping cart, Koreans use 장바구니.",
+    "nuance": "바구니 is a native Korean word for a basket — an open-topped container, often with handles, that you carry or fill: a market basket, a laundry basket, a fruit basket. It is highly productive in compounds, and two are essential: 빨래 바구니 (laundry basket) and especially 장바구니, which means both the traditional grocery/shopping basket AND the 'cart' on an online store (장 = market shopping + 바구니). The verb that goes with it is 담다 — to load/put things into an open vessel — which is exactly the contrast to remember: you 담다 into a 바구니 (open) but you might 넣다 (insert) into a closed 상자 or 봉지. Distinguish 바구니 (open, often woven or plastic, hand-carried) from 상자 (a closed rigid box) and from 카트 (a wheeled trolley/cart): the hand basket you pick up at a mart is a 바구니, the big push-cart is a 카트. Count them with 개 (바구니 두 개). Pitfall: English 'shopping cart' maps to 카트 for the wheeled one but to 장바구니 for the website 'cart' — don't say 카트 for an online basket.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "바구니 is a basket — an open-topped container, often with handles, that you carry or fill: a market basket, a laundry basket, a fruit basket. It is highly productive in compounds, and two are essential: 빨래 바구니 (laundry basket) and especially 장바구니, which means both the traditional grocery/shopping basket AND the 'cart' on an online store (장 = market shopping + 바구니). The verb that goes with it is 담다 — to load/put things into an open vessel. Count them with 개 (바구니 두 개)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 바구니 (open, often woven or plastic, hand-carried) from 상자 (a closed rigid box) and from 카트 (a wheeled trolley/cart): the hand basket you pick up at a mart is a 바구니, the big push-cart is a 카트. The verb contrast: you 담다 into a 바구니 (open) but you might 넣다 (insert) into a closed 상자 or 봉지.",
+        "chips": ["상자", "카트", "장바구니"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "바구니 is a native Korean word."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'shopping cart' maps to 카트 for the wheeled one but to 장바구니 for the website 'cart' — don't say 카트 for an online basket."
+      }
+    ],
     "mistakes": [
-      "A shopping cart with wheels is 카트, while a hand-held basket is 바구니.",
-      "Do not confuse 바구니 (open basket) with 상자 (closed box)."
+      "Calling a wheeled shopping trolley a 바구니 — the push-cart with wheels is 카트; 바구니 is the hand-carried basket.",
+      "Saying 카트 for an online shopping cart — Korean websites use 장바구니 ('add to 장바구니'), not 카트.",
+      "Using 넣다 where 담다 is more natural — for filling an open basket Koreans prefer 바구니에 담다 (load into); 넣다 (insert) suits enclosed containers."
     ]
   },
   {
@@ -133,14 +253,33 @@
       ["물 양동이", "a bucket of water", "물 + 양동이"]
     ],
     "examples": [
-      ["양동이에 물을 받으세요.", "Please fill the bucket with water.", "받다 = catch/collect water"],
-      ["양동이가 무거워요.", "The bucket is heavy.", "무겁다 = heavy"],
-      ["청소할 때 양동이를 써요.", "I use a bucket when I clean.", "청소하다 = clean"]
+      ["양동이에 물 좀 받아 오세요.", "Please go fill the bucket with water.", "물을 받다 = collect/run water into"],
+      ["양동이가 물로 가득 차서 무거워요.", "The bucket is full of water, so it's heavy.", "-아서 = and so; reason + result"],
+      ["비가 새서 양동이를 받쳐 놨어요.", "The roof leaks, so I set a bucket under it.", "받쳐 놓다 = place underneath to catch"]
     ],
-    "nuance": "양동이 is a bucket or pail, typically used to hold water for cleaning. In everyday speech many Koreans just say 바께쓰 (a loanword) or 통, but 양동이 is the standard word and the safe one to learn. Use 담다 or 받다 with water going into it.",
+    "nuance": "양동이 is a bucket or pail — a deep, usually handled vessel for carrying or holding water, typical of cleaning and chores. It is one indivisible native word: do NOT split it into 양 + 동이. In real daily speech you will constantly hear the casual substitutes 통 (a generic tub/canister — 물통, 쓰레기통) and the older loanword 바께쓰 (from Japanese-via-Dutch 'bucket'), but 양동이 is the clean standard form to learn and say. The verbs that pair with water-into-bucket are 담다 (put/load in) and 받다 (catch/collect running water): 양동이에 물을 받다. Contrast it with smaller open vessels: a 그릇 is a bowl/dish for food, a 대야 is the wide shallow basin you wash your face or feet in, and a 양동이 is the tall bucket for hauling water. Pitfall: English 'a bucket of X' tempts a 의 ('of'), but Korean simply juxtaposes — 물 한 양동이 (one bucket of water), counting with the noun itself.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "양동이 is a bucket or pail — a deep, usually handled vessel for carrying or holding water, typical of cleaning and chores. It is one indivisible native word: do NOT split it into 양 + 동이. The verbs that pair with water-into-bucket are 담다 (put/load in) and 받다 (catch/collect running water): 양동이에 물을 받다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "In real daily speech you will constantly hear the casual substitutes 통 (a generic tub/canister — 물통, 쓰레기통) and the older loanword 바께쓰 (from Japanese-via-Dutch 'bucket'), but 양동이 is the clean standard form to learn and say. Contrast it with smaller open vessels: a 그릇 is a bowl/dish for food, a 대야 is the wide shallow basin you wash your face or feet in, and a 양동이 is the tall bucket for hauling water.",
+        "chips": ["통", "바께쓰", "그릇", "대야"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'a bucket of X' tempts a 의 ('of'), but Korean simply juxtaposes — 물 한 양동이 (one bucket of water), counting with the noun itself."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 양동이 (bucket) with 그릇 (bowl/dish) — a bucket is bigger and for carrying water.",
-      "양동이 is one word; do not split it into 양 동이."
+      "Splitting the word as 양 동이 — it is a single noun 양동이; never write or pause it as two words.",
+      "Confusing 양동이 (deep water bucket) with 대야 (wide shallow washbasin) or 그릇 (food bowl) — pick by shape and use, not size alone.",
+      "Forcing 의 for 'a bucket of water' — Korean stacks the nouns: 물 한 양동이 or 양동이 한가득 (a bucketful), not 물의 양동이."
     ]
   },
   {
@@ -157,14 +296,33 @@
       ["빈 깡통", "an empty can", "빈 + 깡통"]
     ],
     "examples": [
-      ["깡통을 따 주세요.", "Please open the can.", "따다 = open (a can/bottle)"],
-      ["빈 깡통을 버렸어요.", "I threw away the empty can.", "빈 = empty, 버리다 = throw away"],
-      ["깡통 안에 사탕이 있어요.", "There is candy inside the can.", "Describing contents"]
+      ["이 깡통 좀 따 주세요.", "Please open this can for me.", "따다 = pop/open a can or bottle"],
+      ["빈 깡통은 캔으로 분리해서 버리세요.", "Throw empty cans in the can recycling, separated out.", "분리하다 = sort/separate for recycling"],
+      ["깡통 안에 옛날 동전이 가득 들어 있었어요.", "The tin was full of old coins.", "들어 있다 = be (contained) inside"]
     ],
-    "nuance": "깡통 is a metal can or tin, like a drink can or a food tin. The verb for opening a can is 따다 (the same verb used for opening a bottle). Empty cans go in the 캔 recycling, and Koreans also use the loanword 캔 especially for drink cans (음료수 캔).",
+    "nuance": "깡통 is a metal can or tin — a food tin, a paint can, an old biscuit tin. The verb to open it is 따다 (to pop/pull open), the very same verb used for opening a bottle or popping a drink can, which is the key collocation to lock in: 깡통을 따다, 병을 따다, 캔을 따다. Here is the register/usage split learners miss: for a beverage can specifically (soda, beer, coffee), Koreans overwhelmingly say the loanword 캔 — 콜라 캔, 맥주 한 캔, 음료수 캔 — and 캔 is also the recycling category, while 깡통 leans toward food/industrial tins and can carry a slightly humble or old-timey flavor (깡통차 = a beat-up old car). So 캔 and 깡통 overlap but aren't identical: order a drink and it's a 캔; describe a dented food tin and it's a 깡통. Count both with 개 or 캔 (콜라 두 캔). Pitfall: opening a can with 열다 sounds off — 열다 is for doors, lids, and books; a sealed can is 따다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "깡통 is a metal can or tin — a food tin, a paint can, an old biscuit tin. 깡통 leans toward food/industrial tins and can carry a slightly humble or old-timey flavor (깡통차 = a beat-up old car). The verb to open it is 따다 (to pop/pull open), the very same verb used for opening a bottle or popping a drink can: 깡통을 따다, 병을 따다, 캔을 따다. Count both with 개 or 캔 (콜라 두 캔)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Here is the register/usage split learners miss: for a beverage can specifically (soda, beer, coffee), Koreans overwhelmingly say the loanword 캔 — 콜라 캔, 맥주 한 캔, 음료수 캔 — and 캔 is also the recycling category. So 캔 and 깡통 overlap but aren't identical: order a drink and it's a 캔; describe a dented food tin and it's a 깡통.",
+        "chips": ["캔"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Opening a can with 열다 sounds off — 열다 is for doors, lids, and books; a sealed can is 따다."
+      }
+    ],
     "mistakes": [
-      "Open a can with 따다, not 열다 (열다 is for doors and lids).",
-      "For a drink can specifically, 캔 is very common; 깡통 can sound a bit more general or old-fashioned."
+      "Opening a can with 열다 — use 따다 (깡통을 따다 / 캔을 따다); 열다 is for doors, drawers, and lids, not sealed cans.",
+      "Saying 깡통 for a soda or beer can — beverage cans are 캔 (맥주 한 캔, 콜라 캔); 깡통 fits food tins and can sound old-fashioned for drinks.",
+      "Treating 깡통 and 캔 as fully interchangeable in recycling — the bin/category is the 캔 (cans) section; saying 깡통 분리수거 is understood but 캔 is the standard label."
     ]
   },
   {
@@ -181,14 +339,38 @@
       ["자물쇠 열쇠", "the lock's key", "자물쇠 + 열쇠"]
     ],
     "examples": [
-      ["문에 자물쇠를 채웠어요.", "I put a lock on the door.", "채우다 = fasten/lock"],
-      ["자물쇠 열쇠가 어디 있어요?", "Where is the key for the lock?", "열쇠 = key"],
-      ["자물쇠가 안 열려요.", "The lock won't open.", "안 열리다 = doesn't open"]
+      ["사물함에 자물쇠를 채웠어요.", "I put a lock on the locker.", "채우다 = fasten/lock on; 사물함 = locker"],
+      ["자물쇠 열쇠를 잃어버려서 못 열어요.", "I lost the key to the lock, so I can't open it.", "열쇠 = key; -아서 = and so"],
+      ["창고 문은 항상 자물쇠로 잠가 두세요.", "Always keep the storeroom door locked with a padlock.", "잠그다 = to lock; -아 두다 = keep (in a state)"]
     ],
-    "nuance": "자물쇠 is a physical lock or padlock — the device itself, opened with a 열쇠 (key). For a digital door lock Koreans say 도어록 or 번호키. Use 채우다/잠그다 to lock and 풀다/열다 to unlock; 잠그다 is the verb for locking in general.",
+    "nuance": "자물쇠 is the physical lock device itself — a padlock or hasp lock — the native-Korean counterpart that forms a matched pair with 열쇠 (key): the 자물쇠 is what you lock, the 열쇠 is what opens it. Notice the shared 쇠 ('metal/iron') in both words, a nice memory hook that they're two halves of one metal pair. Mind the verbs, because Korean splits 'lock' across several: 잠그다 is the all-purpose verb 'to lock' (문을 잠그다 = lock the door); 채우다 is 'to fasten/put a lock on' something (자물쇠를 채우다); and to unlock you say 풀다 (undo) or 열다 (open). Contrast 자물쇠 with the modern keypad/smart lock on apartment doors, which Koreans call 도어록 or 번호키, not 자물쇠 — 자물쇠 evokes a key-and-shackle padlock. Pitfall: English 'lock' is both noun and verb, but in Korean the object 자물쇠 cannot be verbed — you can't '자물쇠 something'; you 자물쇠를 채우다 or simply 잠그다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "자물쇠 is the physical lock device itself — a padlock or hasp lock — which forms a matched pair with 열쇠 (key): the 자물쇠 is what you lock, the 열쇠 is what opens it. Mind the verbs, because Korean splits 'lock' across several: 잠그다 is the all-purpose verb 'to lock' (문을 잠그다 = lock the door); 채우다 is 'to fasten/put a lock on' something (자물쇠를 채우다); and to unlock you say 풀다 (undo) or 열다 (open)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast 자물쇠 with the modern keypad/smart lock on apartment doors, which Koreans call 도어록 or 번호키, not 자물쇠 — 자물쇠 evokes a key-and-shackle padlock.",
+        "chips": ["열쇠", "도어록", "번호키"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "자물쇠 is the native-Korean counterpart to 열쇠. Notice the shared 쇠 ('metal/iron') in both words, a nice memory hook that they're two halves of one metal pair."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'lock' is both noun and verb, but in Korean the object 자물쇠 cannot be verbed — you can't '자물쇠 something'; you 자물쇠를 채우다 or simply 잠그다."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 자물쇠 (lock) with 열쇠 (key) — they are opposite halves of the pair.",
-      "An apartment keypad lock is 도어록 or 번호키, not 자물쇠."
+      "Mixing up 자물쇠 (lock) and 열쇠 (key) — they're opposite halves; the 열쇠 opens the 자물쇠, so don't say 'lose the lock' when you mean the key.",
+      "Calling an apartment keypad lock a 자물쇠 — a digital door lock is 도어록 or 번호키; 자물쇠 is a key-operated padlock.",
+      "Using 자물쇠 as a verb for 'to lock' — the noun can't conjugate; use the verb 잠그다 (문을 잠그다) or 자물쇠를 채우다."
     ]
   },
   {
@@ -205,14 +387,38 @@
       ["손잡이를 돌려요", "I turn the handle/knob", "손잡이 + 를 + 돌리다"]
     ],
     "examples": [
-      ["문 손잡이를 돌리세요.", "Please turn the door handle.", "돌리다 = turn"],
-      ["버스에서 손잡이를 잡으세요.", "Please hold the handle on the bus.", "Safety announcement style"],
-      ["가방 손잡이가 끊어졌어요.", "The bag's handle broke.", "끊어지다 = snap/break off"]
+      ["문 손잡이를 돌려서 여세요.", "Turn the door handle and open it.", "돌리다 = turn (something); -아서 chains the actions"],
+      ["흔들리니까 손잡이를 꼭 잡으세요.", "Hold on tight to the handle, it's shaky.", "Bus/subway announcement style; 꼭 잡다 = grip firmly"],
+      ["쇼핑백 손잡이가 무게 때문에 끊어졌어요.", "The shopping bag's handle snapped from the weight.", "끊어지다 = snap off; 때문에 = because of"]
     ],
-    "nuance": "손잡이 literally combines 손 (hand) + 잡이 (the holding part), meaning the handle, knob, or grip you grab — on a door, bag, cup, or the strap/handle on a bus. It is very productive in compounds: 문 손잡이 (door handle), 컵 손잡이 (cup handle). Use 잡다 (hold) or 돌리다 (turn) with it.",
+    "nuance": "손잡이 is a transparent native compound — 손 (hand) + 잡이 (a holder/gripping part, from 잡다 'to grasp') — literally 'the hand-grab', i.e. any handle, knob, grip, or hold you take hold of: a door handle, a drawer knob, a mug's handle, a kettle grip, the strap/rail you hang onto in a bus or subway. Because it's built from 잡다, the natural partner verb is 잡다 (hold/grab) — 손잡이를 잡다 — and for a turning knob, 돌리다 (turn): 손잡이를 돌리다. It is extremely productive in compounds: 문 손잡이 (door handle), 컵 손잡이 (cup handle), 가방 손잡이 (bag handle), so you rarely need a separate word per object. Two contrasts help: 손잡이 is the grip you hold, whereas 자물쇠/도어록 is the lock mechanism, and 버튼 is a press-button — different parts of the same door. Pitfall: don't reach for 들다 ('lift the whole object') when you only mean grabbing the grip; you 잡다 a 손잡이. Also, the strap you hold standing on the subway is exactly 손잡이, not a borrowed English word.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "손잡이 is any handle, knob, grip, or hold you take hold of: a door handle, a drawer knob, a mug's handle, a kettle grip, the strap/rail you hang onto in a bus or subway. The natural partner verb is 잡다 (hold/grab) — 손잡이를 잡다 — and for a turning knob, 돌리다 (turn): 손잡이를 돌리다. It is extremely productive in compounds: 문 손잡이 (door handle), 컵 손잡이 (cup handle), 가방 손잡이 (bag handle), so you rarely need a separate word per object."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two contrasts help: 손잡이 is the grip you hold, whereas 자물쇠/도어록 is the lock mechanism, and 버튼 is a press-button — different parts of the same door.",
+        "chips": ["자물쇠/도어록", "버튼"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "손잡이 is a transparent native compound — 손 (hand) + 잡이 (a holder/gripping part, from 잡다 'to grasp') — literally 'the hand-grab'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't reach for 들다 ('lift the whole object') when you only mean grabbing the grip; you 잡다 a 손잡이. Also, the strap you hold standing on the subway is exactly 손잡이, not a borrowed English word."
+      }
+    ],
     "mistakes": [
-      "손잡이 covers many kinds of handles; do not search for a separate word for each object.",
-      "Hold a handle with 잡다, not 들다 (which means to lift the whole object)."
+      "Using 들다 for holding a handle — 들다 means to lift the entire object; to grip the handle you say 손잡이를 잡다.",
+      "Hunting for a unique word per object (door-knob, cup-handle, bag-strap) — Korean just compounds: 문 손잡이, 컵 손잡이, 가방 손잡이.",
+      "Calling the subway/bus hand-strap something else — that overhead strap or rail is 손잡이; 손잡이를 잡으세요 is the standard phrasing."
     ]
   },
   {
@@ -229,14 +435,33 @@
       ["끈을 풀어요", "I untie the string", "끈 + 을 + 풀다"]
     ],
     "examples": [
-      ["신발 끈을 묶으세요.", "Please tie your shoelaces.", "신발 끈 = shoelace"],
-      ["가방 끈이 너무 길어요.", "The bag's strap is too long.", "끈 also means strap"],
-      ["끈으로 상자를 묶었어요.", "I tied the box with string.", "끈으로 = with string"]
+      ["신발 끈이 풀렸어요.", "Your shoelace came undone.", "풀리다 = come untied (intransitive)"],
+      ["가방 끈이 너무 길어서 줄였어요.", "The bag strap was too long, so I shortened it.", "끈 = strap here; -아서 = and so"],
+      ["택배 상자를 끈으로 단단히 묶었어요.", "I tied the parcel box up tightly with string.", "끈으로 = with string (수단 'means'); 단단히 = firmly"]
     ],
-    "nuance": "끈 is a flexible string, cord, or strap used for tying or carrying — shoelaces (신발 끈), bag straps (가방 끈), apron ties. It is thicker than 실 (thread) and is what you use to bind or fasten. Pair it with 묶다 (tie) and 풀다 (untie).",
+    "nuance": "끈 is a one-syllable native word (note the double-consonant ㄲ onset and the ㄴ batchim) covering flexible string, cord, strap, or lace — anything you tie or carry with: shoelaces (신발 끈), bag straps (가방 끈), apron ties (앞치마 끈), a drawstring (끈). It sits in the middle of a thickness scale that learners should sort out: 실 is fine sewing thread, 끈 is a string/cord/strap you bind and fasten with, and 줄 is a thicker line/rope (and 줄 also means a 'line/queue' of people). Its bread-and-butter verbs are 묶다 (tie/bind) and 풀다 (untie/loosen), with 풀리다 as the 'comes undone by itself' intransitive. Useful collocations: 끈을 매다 (tie/do up a lace), 끈을 조이다 (tighten a cord), 끈을 묶다/풀다. Pitfall: English uses 'tie' for shoelaces, but watch the active/passive split — you 끈을 묶다 (you tie it), yet when it loosens on its own you say 끈이 풀렸다 (it came untied), not 끈을 풀었다 (which means you deliberately untied it).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "끈 is a one-syllable native word (note the double-consonant ㄲ onset and the ㄴ batchim) covering flexible string, cord, strap, or lace — anything you tie or carry with: shoelaces (신발 끈), bag straps (가방 끈), apron ties (앞치마 끈), a drawstring (끈). Its bread-and-butter verbs are 묶다 (tie/bind) and 풀다 (untie/loosen), with 풀리다 as the 'comes undone by itself' intransitive. Useful collocations: 끈을 매다 (tie/do up a lace), 끈을 조이다 (tighten a cord), 끈을 묶다/풀다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It sits in the middle of a thickness scale that learners should sort out: 실 is fine sewing thread, 끈 is a string/cord/strap you bind and fasten with, and 줄 is a thicker line/rope (and 줄 also means a 'line/queue' of people).",
+        "chips": ["실", "줄"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English uses 'tie' for shoelaces, but watch the active/passive split — you 끈을 묶다 (you tie it), yet when it loosens on its own you say 끈이 풀렸다 (it came untied), not 끈을 풀었다 (which means you deliberately untied it)."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 끈 (string/strap) with 실 (thin sewing thread) or 줄 (line/rope, also 'queue').",
-      "끈 is one syllable; remember the ㄲ double consonant and the ㄴ batchim."
+      "Confusing 끈 with 실 (fine sewing thread) or 줄 (thicker rope / a queue) — match by thickness and function: thread < string/strap < rope.",
+      "Saying 끈을 풀었어요 when a lace came undone by itself — that means you untied it on purpose; the accidental version is 끈이 풀렸어요 (passive).",
+      "Mispronouncing/spelling the single syllable — it is 끈 with the tense ㄲ and a final ㄴ, not 큰 (big) or 근; the double consonant matters."
     ]
   },
   {
@@ -253,14 +478,27 @@
       ["시계 바늘", "clock hand", "noun + 바늘 (compound)"]
     ],
     "examples": [
-      ["바늘에 실을 꿰어 주세요.", "Please thread the needle.", "꿰다 = thread/string"],
-      ["바늘이 너무 뾰족해요.", "The needle is very sharp/pointy.", "뾰족하다 = pointy"],
-      ["바늘로 단추를 달았어요.", "I sewed on a button with a needle.", "달다 = attach/sew on"]
+      ["바늘에 실 좀 꿰어 주세요.", "Could you thread the needle for me?", "꿰다 = pass thread through; 좀 softens the request"],
+      ["바늘이 너무 뾰족해서 조심해야 돼요.", "The needle is very sharp, so you have to be careful.", "뾰족하다 = pointy; -아서 = and so"],
+      ["시계의 긴 바늘이 12를 가리켜요.", "The clock's long hand points to 12.", "바늘 = clock hand; 가리키다 = point at"]
     ],
-    "nuance": "바늘 is a needle — a thin, sharp tool for sewing, used together with 실 (thread). The same word also means the hands of a clock (시계 바늘) and a syringe needle (주삿바늘). It is sharp, so it pairs naturally with 뾰족하다 (pointy).",
+    "nuance": "바늘 is a native word for a needle — the thin, sharp implement used with 실 (thread) for sewing; 바늘과 실 (needle and thread) is a set phrase, like English. Crucially, 바늘 stretches by metaphor to two other 'needle-shaped' things English keeps separate: the hands of a clock (시계 바늘 — the 긴 바늘 minute hand, 짧은 바늘 hour hand) and a hypodermic needle (주삿바늘), so the one Korean word spans sewing needle, clock hand, and syringe. The verb you must pair correctly is 꿰다 — to pass thread through the eye — 바늘에 실을 꿰다 (thread is threaded into the needle, marked with 에). Because it's sharp, it collocates with 뾰족하다 (pointy) and 찌르다 (prick/stab): 바늘에 찔리다 (get pricked by a needle). Pitfall: don't use 묶다 (tie) for threading — you 꿰다 the thread through; and English 'thread the needle' inverts the Korean direction, where the needle takes the 에 particle (into the needle) and the thread is the object.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "바늘 is a needle — the thin, sharp implement used with 실 (thread) for sewing; 바늘과 실 (needle and thread) is a set phrase, like English. Crucially, 바늘 stretches by metaphor to two other 'needle-shaped' things English keeps separate: the hands of a clock (시계 바늘 — the 긴 바늘 minute hand, 짧은 바늘 hour hand) and a hypodermic needle (주삿바늘), so the one Korean word spans sewing needle, clock hand, and syringe. The verb you must pair correctly is 꿰다 — to pass thread through the eye — 바늘에 실을 꿰다. Because it's sharp, it collocates with 뾰족하다 (pointy) and 찌르다 (prick/stab): 바늘에 찔리다 (get pricked by a needle)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't use 묶다 (tie) for threading — you 꿰다 the thread through; and English 'thread the needle' inverts the Korean direction, where the needle takes the 에 particle (into the needle) and the thread is the object."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 바늘 (needle) with 바늘구멍 (the eye/hole of a needle).",
-      "You thread 실 (thread) through a 바늘 — the verb is 꿰다, not 묶다."
+      "Using 묶다 (tie) for threading a needle — the verb is 꿰다 (pass through the eye): 바늘에 실을 꿰다.",
+      "Reaching for a different word for a clock's hands or a syringe needle — both are 바늘 (시계 바늘, 주삿바늘); the metaphor is built in.",
+      "Putting 실 in the 에 slot — it's the needle that takes 에 (바늘에 실을 꿰다); the thread (실) is the object marked with 을."
     ]
   },
   {
@@ -277,14 +515,33 @@
       ["실 한 가닥", "one strand of thread", "실 + 가닥 (counter for strands)"]
     ],
     "examples": [
-      ["바늘과 실 있어요?", "Do you have a needle and thread?", "Asking to borrow sewing tools"],
-      ["실이 끊어졌어요.", "The thread broke.", "끊어지다 = snap/break"],
-      ["빨간 실로 단추를 달았어요.", "I sewed the button on with red thread.", "단추를 달다 = sew on a button"]
+      ["바늘하고 실 있어요?", "Do you have a needle and thread?", "하고 = and (casual); asking to borrow"],
+      ["실이 자꾸 엉켜서 짜증나요.", "The thread keeps getting tangled, it's annoying.", "엉키다 = get tangled; 자꾸 = repeatedly"],
+      ["빨간 실 한 가닥으로 단추를 달았어요.", "I sewed the button on with a single strand of red thread.", "한 가닥 = one strand; 달다 = sew/attach on"]
     ],
-    "nuance": "실 is thread or yarn — the thin strand used for sewing or knitting, paired with 바늘 (needle). It is much finer than 끈 (string/cord). The natural counter for a single strand is 가닥 (한 가닥), and 실 is part of compounds like 실타래 (a skein of thread).",
+    "nuance": "실 is the native word for thread or yarn — the fine strand used for sewing and knitting, the lifelong partner of 바늘 in the set phrase 바늘과 실. The single most useful fact is its dedicated counter: a strand of thread is counted with 가닥 (실 한 가닥, 두 가닥), the same 가닥 used for a strand of hair (머리카락 한 가닥), so 실 teaches you a counter, not just a word. Sort it firmly from its thicker cousins: 실 is fine thread/yarn, 끈 is a string/cord/strap for tying, and 줄 is a rope or line — a gradient from thinnest to thickest. Natural collocations: 실을 꿰다 (thread it through a needle), 실이 엉키다/풀리다 (the thread tangles/unravels), 실이 끊어지다 (the thread snaps), and the compound 실타래 (a skein of yarn). Two pitfalls: first, don't borrow 끈 for sewing thread — that's too thick. Second, beware the homophone trap — the syllable 실 also appears as a Sino-Korean prefix 實 'real/actual' (실시간 'real-time', 실제 'actual') and as 室 'room' (교실 'classroom'); as a free-standing noun, though, 실 means 'thread'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "실 is the native word for thread or yarn — the fine strand used for sewing and knitting, the lifelong partner of 바늘 in the set phrase 바늘과 실. The single most useful fact is its dedicated counter: a strand of thread is counted with 가닥 (실 한 가닥, 두 가닥), the same 가닥 used for a strand of hair (머리카락 한 가닥), so 실 teaches you a counter, not just a word. Natural collocations: 실을 꿰다 (thread it through a needle), 실이 엉키다/풀리다 (the thread tangles/unravels), 실이 끊어지다 (the thread snaps), and the compound 실타래 (a skein of yarn)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Sort it firmly from its thicker cousins: 실 is fine thread/yarn, 끈 is a string/cord/strap for tying, and 줄 is a rope or line — a gradient from thinnest to thickest.",
+        "chips": ["끈", "줄"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Two pitfalls: first, don't borrow 끈 for sewing thread — that's too thick. Second, beware the homophone trap — the syllable 실 also appears as a Sino-Korean prefix 實 'real/actual' (실시간 'real-time', 실제 'actual') and as 室 'room' (교실 'classroom'); as a free-standing noun, though, 실 means 'thread'."
+      }
+    ],
     "mistakes": [
-      "Do not confuse 실 (sewing thread) with 끈 (thicker string/strap).",
-      "실 is also a prefix meaning 'real/actual' in other words (실시간); here it is the standalone noun 'thread'."
+      "Using 끈 (string/strap) where you mean sewing thread — sewing/knitting strand is 실; 끈 is thicker cord for tying.",
+      "Counting thread with 개 — a single strand takes 가닥: 실 한 가닥, not 실 한 개.",
+      "Confusing the noun 실 (thread) with the bound morphemes 實 'real' (실제, 실시간) or 室 'room' (교실) — those only exist inside other words; alone, 실 = thread."
     ]
   },
   {
@@ -301,14 +558,33 @@
       ["단추가 떨어졌어요", "A button fell off", "단추 + 이/가 + 떨어지다"]
     ],
     "examples": [
-      ["단추를 채우세요.", "Please button up.", "채우다 = fasten/button"],
-      ["셔츠 단추가 떨어졌어요.", "A button came off my shirt.", "떨어지다 = fall off"],
-      ["단추 하나가 없어요.", "One button is missing.", "없다 = missing/not there"]
+      ["단추를 끝까지 채우세요.", "Button it up all the way.", "채우다 = fasten; 끝까지 = to the very end"],
+      ["더우니까 맨 위 단추 하나만 풀었어요.", "It was hot, so I undid just the top button.", "풀다 = unbutton; -니까 = since"],
+      ["셔츠 단추가 떨어져서 다시 달아야 돼요.", "A shirt button came off, so I have to sew it back on.", "떨어지다 = fall off; 달다 = sew on"]
     ],
-    "nuance": "단추 is a clothing button — the kind you fasten and unfasten on a shirt or coat. Use 채우다 (or 잠그다) to button up and 풀다 to unbutton; 달다 to sew one on. Note this is the clothing button; a button you press on a machine is 버튼.",
+    "nuance": "단추 is specifically a clothing button — the disc you fasten on a shirt, blouse, or coat. The verbs are a tidy set worth memorizing together: 채우다 (or 잠그다) to button up, 풀다 to unbutton, and 달다 to sew a button on (with 떨어지다 for one falling off). The contrast that trips up every English speaker is 단추 vs 버튼: English uses 'button' for both clothing fasteners AND press-buttons on machines, but Korean splits them — a button on a remote, elevator, keyboard, or website is 버튼 (loanword), reserved for the press kind, while 단추 is strictly the sew-on clothing kind. So you press the 버튼 on the 엘리베이터 but fasten the 단추 on your 셔츠. (There is also the idiom 첫 단추를 잘못 끼우다 — 'fasten the first button wrong' = get off on the wrong foot, where buttoning is 끼우다.) Pitfall: never say 단추 for a device button (that's 버튼), and don't use 묶다 (tie) to button — buttons are 채우다/잠그다, not tied.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "단추 is specifically a clothing button — the disc you fasten on a shirt, blouse, or coat. The verbs are a tidy set worth memorizing together: 채우다 (or 잠그다) to button up, 풀다 to unbutton, and 달다 to sew a button on (with 떨어지다 for one falling off). There is also the idiom 첫 단추를 잘못 끼우다 — 'fasten the first button wrong' = get off on the wrong foot, where buttoning is 끼우다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast that trips up every English speaker is 단추 vs 버튼: English uses 'button' for both clothing fasteners AND press-buttons on machines, but Korean splits them — a button on a remote, elevator, keyboard, or website is 버튼 (loanword), reserved for the press kind, while 단추 is strictly the sew-on clothing kind. So you press the 버튼 on the 엘리베이터 but fasten the 단추 on your 셔츠.",
+        "chips": ["버튼"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Never say 단추 for a device button (that's 버튼), and don't use 묶다 (tie) to button — buttons are 채우다/잠그다, not tied."
+      }
+    ],
     "mistakes": [
-      "A press button on a device or remote is 버튼, not 단추 — 단추 is for clothing.",
-      "Button up with 채우다/잠그다, not 묶다."
+      "Calling a press-button on a remote, elevator, or app a 단추 — that is 버튼; 단추 is only a clothing fastener.",
+      "Buttoning up with 묶다 (tie) — use 채우다 or 잠그다 (단추를 채우다); 풀다 to unbutton.",
+      "Saying 단추를 떨어뜨렸어요 when a button simply fell off — for it dropping off by itself use the intransitive 단추가 떨어졌어요; the transitive 떨어뜨리다 means you dropped it."
     ]
   },
   {
@@ -325,14 +601,38 @@
       ["우산 하나", "one umbrella", "우산 + 하나 / 한 개"]
     ],
     "examples": [
-      ["비가 와요. 우산 있어요?", "It's raining. Do you have an umbrella?", "Everyday rainy-day phrase"],
-      ["우산을 안 가져왔어요.", "I didn't bring an umbrella.", "안 가져오다 = didn't bring"],
-      ["우산을 지하철에 놓고 내렸어요.", "I left my umbrella on the subway.", "놓고 내리다 = leave behind"]
+      ["비가 와요. 우산 있어요?", "It's raining. Do you have an umbrella?", "Everyday rainy-day check-in"],
+      ["우산을 안 가져와서 비를 다 맞았어요.", "I didn't bring an umbrella, so I got soaked.", "비를 맞다 = get rained on; -아서 = and so"],
+      ["우산을 지하철에 놓고 내렸어요.", "I left my umbrella on the subway (and got off).", "놓고 내리다 = leave behind on getting off"]
     ],
-    "nuance": "우산 is an umbrella for rain. The verb to put one up or use it is 쓰다 (the same verb as wearing a hat or glasses). A folding umbrella is 접는 우산 or 3단 우산, and a parasol for sun is 양산 — a different word.",
+    "nuance": "우산 is Sino-Korean 雨傘, literally 雨 'rain' + 傘 'umbrella/parasol' — so the word transparently means 'rain-umbrella', which is your built-in reminder it's for rain. The verb is the deceptively busy 쓰다: to put up/use an umbrella is 우산을 쓰다, the same 쓰다 that covers wearing a hat (모자를 쓰다) and glasses (안경을 쓰다) — Korean groups 'things over your head/face' under 쓰다, distinct from 입다 (clothes on the torso/legs) and 신다 (footwear). The contrast to file away is 우산 vs 양산: both are 傘, but 우산 (雨傘) is the rain umbrella while 양산 (陽傘, 'sun-shade') is a parasol against sunlight — different words for different weather. Useful collocations: 우산을 쓰다/접다/펴다 (put up / fold / open an umbrella), 우산을 챙기다 (remember to grab an umbrella), 우산을 깜빡하다 (forget the umbrella). A folding umbrella is 접는 우산 or 3단 우산, a long one 장우산. Pitfall: English 'wear/carry an umbrella' must become 쓰다 (use over the head), never 입다, and don't reuse 우산 for a sun parasol — that's 양산.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "우산 transparently means 'rain-umbrella', which is your built-in reminder it's for rain. The verb is the deceptively busy 쓰다: to put up/use an umbrella is 우산을 쓰다, the same 쓰다 that covers wearing a hat (모자를 쓰다) and glasses (안경을 쓰다) — Korean groups 'things over your head/face' under 쓰다, distinct from 입다 (clothes on the torso/legs) and 신다 (footwear). Useful collocations: 우산을 쓰다/접다/펴다 (put up / fold / open an umbrella), 우산을 챙기다 (remember to grab an umbrella), 우산을 깜빡하다 (forget the umbrella). A folding umbrella is 접는 우산 or 3단 우산, a long one 장우산."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to file away is 우산 vs 양산: both are 傘, but 우산 (雨傘) is the rain umbrella while 양산 (陽傘, 'sun-shade') is a parasol against sunlight — different words for different weather.",
+        "chips": ["양산"]
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "우산 is Sino-Korean 雨傘, literally 雨 'rain' + 傘 'umbrella/parasol'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'wear/carry an umbrella' must become 쓰다 (use over the head), never 입다, and don't reuse 우산 for a sun parasol — that's 양산. Also, saying 우산을 열다 to open it is unidiomatic; Koreans say 우산을 펴다/쓰다 (spread/put up) and 우산을 접다 (fold)."
+      }
+    ],
     "mistakes": [
-      "Put up / use an umbrella with 쓰다, not 입다 (which is for clothes you wear on the body).",
-      "A sun parasol is 양산, not 우산 — 우산 is specifically for rain."
+      "Putting up an umbrella with 입다 — 입다 is for clothing on the body; an umbrella (like a hat/glasses) goes with 쓰다: 우산을 쓰다.",
+      "Using 우산 for a sun parasol — sunshade is 양산 (陽傘); 우산 (雨傘) is specifically for rain.",
+      "Saying 우산을 열다 to open it — Koreans say 우산을 펴다/쓰다 (spread/put up) and 우산을 접다 (fold); 열다 (open like a door) is unidiomatic for an umbrella."
     ]
   }
 ]

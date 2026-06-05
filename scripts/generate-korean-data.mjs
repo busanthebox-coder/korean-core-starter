@@ -1017,18 +1017,23 @@ loadSeedDir('verb-src').forEach((o, i) => {
   const forms = formKeys.map(k => o.forms?.[k]);
   const rom = o.romanization || romanizeKorean(o.hangul);
   const seed = [o.hangul, rom, o.english, o.topic, forms, o.usage, o.examples, o.nuance, o.mistakes || [], o.irregular || null];
-  words.push(verbEntry(seed, verbSeeds.length + i));
+  const e = verbEntry(seed, verbSeeds.length + i);
+  if (o.structuredNuance) e.structuredNuance = o.structuredNuance;
+  words.push(e);
 });
 loadSeedDir('expr-src').forEach((o, i) => {
   const rom = o.romanization || romanizeKorean(o.hangul);
   const seed = [o.hangul, rom, o.english, o.topic, o.usage, o.examples, o.nuance, o.mistakes || []];
   const e = expressionEntry(seed, expressionSeeds.length + i);
   e.relatedPatternIds = expressionPatternLinks(e);
+  if (o.structuredNuance) e.structuredNuance = o.structuredNuance;
   expressions.push(e);
 });
 loadSeedDir('pattern-src').forEach((o, i) => {
   const seed = [o.hangul, o.romanization, o.english, o.usableWith || ['verb'], [o.tabs?.casual, o.tabs?.polite, o.tabs?.formal], o.formNote, o.usage, o.examples, o.mistakes || []];
-  patterns.push(patternEntry(seed, patternSeeds.length + i));
+  const e = patternEntry(seed, patternSeeds.length + i);
+  if (o.structuredNuance) e.structuredNuance = o.structuredNuance;
+  patterns.push(e);
 });
 
 const newcomerVocab = newcomerSeeds.map((seed, index) => {
@@ -1059,6 +1064,7 @@ const extendedVocab = loadExtendedSeeds().map((o, index) => {
   entry.sort = 700 + index + 1;
   entry.level = o.level || 'A2';
   entry.category = 'extended';
+  if (o.structuredNuance) entry.structuredNuance = o.structuredNuance;
   return entry;
 });
 

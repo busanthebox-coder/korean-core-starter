@@ -4,251 +4,1045 @@
     "hangul": "청소",
     "english": "cleaning",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-eseo"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-particle-eseo"
+    ],
     "usage": [
-      ["청소를 해요.", "I do the cleaning.", "Object with 를"],
-      ["청소해요.", "I clean.", "Compact 하다 form"],
-      ["방에서 청소해요.", "I clean in the room.", "Place with 에서"],
-      ["청소가 힘들어요.", "Cleaning is hard.", "Subject with 이/가"]
+      [
+        "청소를 하다",
+        "to do the cleaning",
+        "The default verb is 하다; 청소 is the object, so use 를."
+      ],
+      [
+        "방 청소",
+        "room cleaning",
+        "Put the place right before 청소 with no particle: 방 청소, 화장실 청소."
+      ],
+      [
+        "대청소",
+        "a big clean / spring cleaning",
+        "대(大) 'big' + 청소 = a thorough top-to-bottom clean."
+      ],
+      [
+        "청소기를 돌리다",
+        "to run the vacuum cleaner",
+        "청소기 (cleaner machine) is 'vacuum'; you 돌리다 (spin/run) it, not 하다."
+      ]
     ],
     "examples": [
-      ["주말마다 방 청소를 해요.", "I clean my room every weekend.", "Object with 를"],
-      ["거실에서 청소하고 쉬어요.", "I clean in the living room and rest.", "Place with 에서"],
-      ["청소가 끝나서 기분이 좋아요.", "I feel good because cleaning is done.", "Reason with 아서"]
+      [
+        "저는 청소를 해요.",
+        "I do the cleaning.",
+        "Simple frame: 청소 + 를 + 해요 is the core pattern to memorize."
+      ],
+      [
+        "주말마다 방을 청소해요.",
+        "I clean my room every weekend.",
+        "Everyday: 청소하다 can take a direct object (방을) without saying 청소를."
+      ],
+      [
+        "청소가 다 끝나서 집이 반짝반짝해요.",
+        "Cleaning is all done, so the house is sparkling.",
+        "Real life: here 청소 is the subject with 가, and 끝나다 means it 'finished'."
+      ]
     ],
-    "nuance": "청소 means cleaning a space such as a room or floor, and it almost always pairs with the verb 하다 in daily speech.",
-    "mistakes": ["Say 청소를 해요, not 청소가 해요, for the action."]
+    "nuance": "청소 is Sino-Korean, 清掃 (清 'clear' + 掃 'sweep'), so its core sense is sweeping a space clean — floors, rooms, a car, a screen. Its everyday verb is 하다 (청소하다 / 청소를 하다). Do not confuse it with 정리 (整理), which is tidying/arranging objects into order: you 청소 the dust and grime off a surface, but you 정리 the scattered books on a desk; a messy-but-clean desk needs 정리, a dusty floor needs 청소. Register is neutral — kids and adults all say 청소해요. The big English-speaker pitfall is the particle: 'I clean' tempts learners to make 청소 the subject (청소가 해요 ✗), but 청소 is the thing being done, so it must be the OBJECT — 청소를 해요 (○). Also note 청소기 is the vacuum, and you 돌리다 it, never 청소를 하다 the machine itself.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Its core sense is sweeping a space clean — floors, rooms, a car, a screen. Its everyday verb is 하다 (청소하다 / 청소를 하다). Register is neutral — kids and adults all say 청소해요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Do not confuse it with 정리 (整理), which is tidying/arranging objects into order: you 청소 the dust and grime off a surface, but you 정리 the scattered books on a desk. A messy-but-clean desk needs 정리, a dusty floor needs 청소."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "청소 is Sino-Korean, 清掃 (清 'clear' + 掃 'sweep')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big English-speaker pitfall is the particle: 'I clean' tempts learners to make 청소 the subject (청소가 해요 ✗), but 청소 is the thing being done, so it must be the OBJECT — 청소를 해요 (○). Also note 청소기 is the vacuum, and you 돌리다 it, never 청소를 하다 the machine itself."
+      }
+    ],
+    "mistakes": [
+      [
+        "청소가 해요. ✗ → 청소를 해요. ○",
+        "'Cleaning' is the action you perform, not the actor. With 하다 it is the object, so it takes 를, never 가.",
+        "Use 청소를 해요 or just 청소해요."
+      ],
+      [
+        "방을 정리해요 vs 방을 청소해요",
+        "Saying 청소 when you only put toys away is wrong — that is tidying. 청소 is for removing dirt/dust, 정리 is for arranging things.",
+        "Put-things-in-order = 정리; scrub/sweep dust = 청소."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "빨래",
     "english": "laundry",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-ending-want"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-ending-want"
+    ],
     "usage": [
-      ["빨래를 해요.", "I do the laundry.", "Object with 를"],
-      ["빨래해요.", "I do laundry.", "Compact 하다 form"],
-      ["빨래가 많아요.", "There is a lot of laundry.", "Subject with 이/가"],
-      ["빨래를 널어요.", "I hang up the laundry.", "Verb 널다"]
+      [
+        "빨래를 하다",
+        "to do the laundry",
+        "The washing action; 빨래 is the object so it takes 를."
+      ],
+      [
+        "빨래를 널다",
+        "to hang up the laundry",
+        "After washing you 널다 (spread out to dry) the wet clothes."
+      ],
+      [
+        "빨래를 개다",
+        "to fold the laundry",
+        "Dry clothes are 개다 (folded); note 개다, not 접다, for laundry."
+      ],
+      [
+        "빨래가 마르다",
+        "the laundry dries",
+        "Here 빨래 is the subject with 가; 마르다 = to dry out."
+      ]
     ],
     "examples": [
-      ["오늘 빨래를 하고 싶어요.", "Today I want to do laundry.", "Desire with 고 싶다"],
-      ["빨래가 많아서 바빠요.", "I am busy because there is much laundry.", "Reason with 아서"],
-      ["아침에 빨래를 널었어요.", "I hung the laundry in the morning.", "Past with 널다"]
+      [
+        "오늘 빨래를 해요.",
+        "I do the laundry today.",
+        "Simple frame: 빨래 + 를 + 해요, the basic chore pattern."
+      ],
+      [
+        "빨래가 많아서 세탁기를 두 번 돌렸어요.",
+        "There was a lot of laundry, so I ran the washer twice.",
+        "Everyday: 빨래 as subject (가) + 많다; the machine 세탁기 you 돌리다."
+      ],
+      [
+        "빨래를 다 널고 나서 커피 한잔하고 싶어요.",
+        "After hanging all the laundry, I want a coffee.",
+        "Real life: 널다 = hang to dry, and 고 나서 = 'after doing'."
+      ]
     ],
-    "nuance": "빨래 means both the washing of clothes and the laundry items themselves, and it commonly pairs with the verb 하다.",
-    "mistakes": ["Use 빨래를 해요, not 빨래를 만들어요, for doing wash."]
+    "nuance": "빨래 is a native Korean word (not Sino-Korean) and is genuinely double-sided: it means both the ACTIVITY of washing clothes (빨래를 하다) and the physical LAUNDRY ITEMS themselves (빨래가 많다 'there's a lot of wash'). Its root is the verb 빨다 'to wash by hand/rub'. The near-synonym is 세탁 (洗濯), the stiffer Sino-Korean word you see on signs and machines — 세탁기 (washer), 세탁소 (dry-cleaner's), 세탁 코스; in casual home talk Koreans say 빨래, in formal/written contexts 세탁. The big pitfall for English speakers is treating 'do the laundry' as making something: 빨래를 만들다 (✗) is nonsense — laundry is washed, so it is 빨래를 하다. Second, the drying chore is 널다 (널어요), not 걸다; and folding finished laundry is 개다, not 접다. Choose the verb to the stage: 하다 → 널다 → 개다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "빨래 is genuinely double-sided: it means both the ACTIVITY of washing clothes (빨래를 하다) and the physical LAUNDRY ITEMS themselves (빨래가 많다 'there's a lot of wash')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym is 세탁 (洗濯), the stiffer Sino-Korean word you see on signs and machines — 세탁기 (washer), 세탁소 (dry-cleaner's), 세탁 코스. In casual home talk Koreans say 빨래, in formal/written contexts 세탁."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "빨래 is a native Korean word (not Sino-Korean). Its root is the verb 빨다 'to wash by hand/rub'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall is treating 'do the laundry' as making something: 빨래를 만들다 (✗) is nonsense — laundry is washed, so it is 빨래를 하다. Second, the drying chore is 널다 (널어요), not 걸다; and folding finished laundry is 개다, not 접다. Choose the verb to the stage: 하다 → 널다 → 개다."
+      }
+    ],
+    "mistakes": [
+      [
+        "빨래를 만들어요. ✗ → 빨래를 해요. ○",
+        "'Make laundry' copies English literally; clothes are washed, not manufactured. The verb for the chore is 하다.",
+        "Use 빨래를 해요 or 빨래해요."
+      ],
+      [
+        "빨래를 걸어요. ✗ → 빨래를 널어요. ○",
+        "걸다 is hanging one item on a hook; spreading wet wash out to dry is its own verb, 널다.",
+        "Wet laundry to dry = 널다; fold dry laundry = 개다."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "설거지",
     "english": "dish washing",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-eseo"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-particle-eseo"
+    ],
     "usage": [
-      ["설거지를 해요.", "I wash the dishes.", "Object with 를"],
-      ["설거지해요.", "I do dishes.", "Compact 하다 form"],
-      ["설거지가 싫어요.", "I dislike dish washing.", "Subject with 이/가"],
-      ["부엌에서 설거지해요.", "I wash dishes in the kitchen.", "Place with 에서"]
+      [
+        "설거지를 하다",
+        "to wash the dishes",
+        "The chore takes 하다; 설거지 is the object with 를."
+      ],
+      [
+        "설거지가 쌓이다",
+        "the dishes pile up",
+        "설거지 as subject with 가; 쌓이다 = to accumulate."
+      ],
+      [
+        "설거지거리",
+        "dishes to be washed",
+        "거리 = 'stuff/material for'; 설거지거리 = the dirty-dish workload."
+      ],
+      [
+        "설거지 당번",
+        "the one on dish duty",
+        "당번 = person on rotation duty; common in homes and dorms."
+      ]
     ],
     "examples": [
-      ["저녁을 먹고 설거지를 해요.", "After dinner I wash the dishes.", "Sequence with 고"],
-      ["부엌에서 설거지하고 쉬어요.", "I do dishes in the kitchen and rest.", "Place with 에서"],
-      ["설거지가 많아서 힘들어요.", "It is hard because there are many dishes.", "Reason with 아서"]
+      [
+        "제가 설거지를 해요.",
+        "I wash the dishes.",
+        "Simple frame: 설거지 + 를 + 해요, the whole-meal cleanup."
+      ],
+      [
+        "밥 먹고 나서 바로 설거지해요.",
+        "Right after eating, I do the dishes.",
+        "Everyday: 고 나서 'after'; 설거지하다 written solid is most natural here."
+      ],
+      [
+        "설거지가 너무 많이 쌓여서 한숨이 나왔어요.",
+        "So many dishes piled up that I sighed.",
+        "Real life: 설거지 as subject + 쌓이다; 한숨이 나오다 = a sigh comes out."
+      ]
     ],
-    "nuance": "설거지 means washing used dishes after a meal, and it pairs with the verb 하다 rather than the verb 씻다 for the body.",
-    "mistakes": ["Say 설거지를 해요, not 설거지를 씻어요, for dishes."]
+    "nuance": "설거지 is a native Korean word for the specific chore of washing the dishes, pots, and utensils AFTER a meal — it bundles the whole task, not one plate. It always pairs with 하다 (설거지하다). The crucial contrast is with the verb 씻다 'to wash/rinse': you 씻다 an individual object or body part (사과를 씻다 'wash an apple', 손을 씻다 'wash hands'), but the household routine of clearing the table's dishes is the noun 설거지(를 하다). So '설거지를 씻다' (✗) sounds like washing the act itself. The English-speaker pitfall is exactly that overlap — English uses 'wash the dishes', tempting 접시를 씻다, which is acceptable for literally rinsing plates, but the everyday CHORE Koreans name is 설거지하다. Note also it is one fixed word: don't break it into pieces. Common partners: 설거지가 쌓이다 (pile up), 설거지 당번 (dish duty).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "설거지 is a native Korean word for the specific chore of washing the dishes, pots, and utensils AFTER a meal — it bundles the whole task, not one plate. It always pairs with 하다 (설거지하다). Note also it is one fixed word: don't break it into pieces. Common partners: 설거지가 쌓이다 (pile up), 설거지 당번 (dish duty)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial contrast is with the verb 씻다 'to wash/rinse': you 씻다 an individual object or body part (사과를 씻다 'wash an apple', 손을 씻다 'wash hands'), but the household routine of clearing the table's dishes is the noun 설거지(를 하다). So '설거지를 씻다' (✗) sounds like washing the act itself."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is exactly that overlap — English uses 'wash the dishes', tempting 접시를 씻다, which is acceptable for literally rinsing plates, but the everyday CHORE Koreans name is 설거지하다."
+      }
+    ],
+    "mistakes": [
+      [
+        "설거지를 씻어요. ✗ → 설거지를 해요. ○",
+        "씻다 takes a concrete thing (hands, fruit, a plate). 설거지 is the named chore, so its verb is 하다.",
+        "Chore = 설거지를 해요; rinse one item = 접시를 씻다."
+      ],
+      [
+        "설거지를 만들어요. ✗ → 설거지를 해요. ○",
+        "Like other chores, you don't 'make' dish-washing. 하다 is the verb that activates the chore noun.",
+        "Always 설거지하다 for the action."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "요리",
     "english": "cooking",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-ending-want"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-ending-want"
+    ],
     "usage": [
-      ["요리를 해요.", "I cook.", "Object with 를"],
-      ["요리해요.", "I cook.", "Compact 하다 form"],
-      ["요리가 재미있어요.", "Cooking is fun.", "Subject with 이/가"],
-      ["부엌에서 요리해요.", "I cook in the kitchen.", "Place with 에서"]
+      [
+        "요리를 하다",
+        "to cook",
+        "The action takes 하다; 요리 is the object with 를."
+      ],
+      [
+        "한국 요리",
+        "Korean cuisine/dish",
+        "요리 as the finished dish; nationality goes in front with no particle."
+      ],
+      [
+        "요리법 / 레시피",
+        "a recipe",
+        "요리법 (法 'method') is the native-style word; 레시피 is the loanword."
+      ],
+      [
+        "요리를 잘하다",
+        "to be good at cooking",
+        "잘하다 'do well' fused; 요리를 잘해요 = a good cook."
+      ]
     ],
     "examples": [
-      ["주말에 한국 요리를 하고 싶어요.", "On the weekend I want to cook Korean food.", "Desire with 고 싶다"],
-      ["엄마가 부엌에서 요리해요.", "Mom cooks in the kitchen.", "Place with 에서"],
-      ["요리가 어려워서 천천히 해요.", "Cooking is hard so I do it slowly.", "Reason with 아서"]
+      [
+        "저는 요리를 해요.",
+        "I cook.",
+        "Simple frame: 요리 + 를 + 해요, the basic 'I cook' sentence."
+      ],
+      [
+        "주말에 한국 요리를 만들어 보고 싶어요.",
+        "On weekends I want to try making Korean dishes.",
+        "Everyday: here 요리 = the dish, so 만들다 'make' is fine; 아 보다 = 'try doing'."
+      ],
+      [
+        "엄마 요리가 세상에서 제일 맛있어요.",
+        "Mom's cooking is the most delicious in the world.",
+        "Real life: 요리 as the result-food; 제일 = the most."
+      ]
     ],
-    "nuance": "요리 means both the act of cooking and the finished dish, and as an action it pairs with the verb 하다.",
-    "mistakes": ["Use 요리를 해요, not 요리를 먹어요, for the act."]
+    "nuance": "요리 is Sino-Korean, 料理 (料 'ingredients/measure' + 理 'manage/arrange'), literally 'managing ingredients', and it covers BOTH the act of cooking (요리를 하다) and the finished DISH/cuisine (한국 요리 'Korean cuisine', 엄마 요리 'mom's cooking'). Watch the verb split by meaning: for the ACTIVITY use 하다 (요리해요), but for producing a specific dish use 만들다 'make' (김치찌개를 만들어요). The near-synonym 음식 (飮食) means 'food' as a substance you eat or buy, while 요리 implies it was prepared/cooked with some skill — a bag of chips is 음식, not 요리. The English-speaker pitfall is saying 요리를 먹다 to mean 'I cook and eat': 요리를 먹다 actually means 'eat a dish', so for the act you need 요리를 하다. Also 요리사 (師 'master') is a professional chef. Common partners: 요리를 잘하다, 집밥 요리 (home-cooked food).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "요리 covers BOTH the act of cooking (요리를 하다) and the finished DISH/cuisine (한국 요리 'Korean cuisine', 엄마 요리 'mom's cooking'). Watch the verb split by meaning: for the ACTIVITY use 하다 (요리해요), but for producing a specific dish use 만들다 'make' (김치찌개를 만들어요). Also 요리사 (師 'master') is a professional chef. Common partners: 요리를 잘하다, 집밥 요리 (home-cooked food)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym 음식 (飮食) means 'food' as a substance you eat or buy, while 요리 implies it was prepared/cooked with some skill — a bag of chips is 음식, not 요리."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "요리 is Sino-Korean, 料理 (料 'ingredients/measure' + 理 'manage/arrange'), literally 'managing ingredients'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is saying 요리를 먹다 to mean 'I cook and eat': 요리를 먹다 actually means 'eat a dish', so for the act you need 요리를 하다."
+      }
+    ],
+    "mistakes": [
+      [
+        "요리를 먹어요 (meaning 'I cook'). ✗ → 요리를 해요. ○",
+        "요리 is two-sided; 먹다 only fits the dish-meaning ('eat a dish'). For the act of cooking the verb is 하다.",
+        "Cook the action = 요리를 해요; eat the dish = 요리를 먹다."
+      ],
+      [
+        "이 요리는 음식이에요 misuse",
+        "음식 = food generally; 요리 = a prepared dish. Calling instant snacks 요리 overstates the effort.",
+        "Prepared/cooked = 요리; food in general = 음식."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "쓰레기",
     "english": "trash",
     "topic": "home",
-    "chapterIds": ["chapter-06", "chapter-05"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-eseo"],
+    "chapterIds": [
+      "chapter-06",
+      "chapter-05"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-particle-eseo"
+    ],
     "usage": [
-      ["쓰레기를 버려요.", "I throw away the trash.", "Verb 버리다"],
-      ["쓰레기가 많아요.", "There is a lot of trash.", "Subject with 이/가"],
-      ["쓰레기통이 어디예요?", "Where is the trash can?", "Compound 쓰레기통"],
-      ["밖에서 쓰레기를 버려요.", "I throw out trash outside.", "Place with 에서"]
+      [
+        "쓰레기를 버리다",
+        "to throw away the trash",
+        "The core verb is 버리다 (discard), with 쓰레기 as object 를."
+      ],
+      [
+        "쓰레기통",
+        "trash can",
+        "통 = bin/container; 쓰레기통 is the can you throw trash into."
+      ],
+      [
+        "음식물 쓰레기",
+        "food waste",
+        "Korea sorts food waste separately; 음식물 (foodstuff) + 쓰레기."
+      ],
+      [
+        "쓰레기를 분리수거하다",
+        "to sort/separate recycling",
+        "분리수거 = sorted collection, the legally required recycling sort."
+      ]
     ],
     "examples": [
-      ["매일 저녁에 쓰레기를 버려요.", "Every evening I take out the trash.", "Verb 버리다"],
-      ["쓰레기가 많아서 냄새가 나요.", "It smells because there is much trash.", "Reason with 아서"],
-      ["쓰레기를 분리해서 버려요.", "I separate the trash and throw it out.", "Verb 분리하다"]
+      [
+        "쓰레기를 버려요.",
+        "I throw out the trash.",
+        "Simple frame: 쓰레기 + 를 + 버리다, the key verb that is NOT 하다."
+      ],
+      [
+        "오늘은 음식물 쓰레기 버리는 날이에요.",
+        "Today is the day to take out food waste.",
+        "Everyday: 버리는 날 = 'the day for throwing out'; food waste is its own category."
+      ],
+      [
+        "쓰레기를 아무 데나 버리면 안 돼요.",
+        "You mustn't throw trash just anywhere.",
+        "Real life: 면 안 되다 = 'must not'; 아무 데나 = 'just any place'."
+      ]
     ],
-    "nuance": "쓰레기 means garbage or waste, and unlike most chore words it usually pairs with the verb 버리다 to throw away.",
-    "mistakes": ["Say 쓰레기를 버려요, not 쓰레기를 해요, for trash."]
+    "nuance": "쓰레기 is a native Korean noun meaning garbage/waste, and unlike the chore nouns around it, its verb is NOT 하다 but 버리다 'to throw away/discard' (쓰레기를 버리다). The near-synonym 쓰레기 vs 폐기물 (廢棄物, formal 'waste matter') splits by register: 쓰레기 is the everyday spoken word, 폐기물 is industrial/legal (산업 폐기물 'industrial waste'). Used figuratively, 쓰레기 is also a harsh insult for a contemptible person ('that guy is 쓰레기' = scum), so be careful aiming it at people. The big English-speaker pitfall is overusing 하다: 쓰레기를 해요 (✗) is meaningless — trash is acted on with 버리다, or sorted with 분리수거하다. Second pitfall: 'take out the trash' should not become 쓰레기를 가지고 나가다 mechanically; the idiomatic phrase is just 쓰레기를 버리다 or 쓰레기를 내놓다 (put it out). Korea strictly sorts 음식물 쓰레기 (food waste) and recycling, so 분리수거 is an essential collocation.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "쓰레기 is a native Korean noun meaning garbage/waste, and unlike the chore nouns around it, its verb is NOT 하다 but 버리다 'to throw away/discard' (쓰레기를 버리다). Used figuratively, 쓰레기 is also a harsh insult for a contemptible person ('that guy is 쓰레기' = scum), so be careful aiming it at people. Korea strictly sorts 음식물 쓰레기 (food waste) and recycling, so 분리수거 is an essential collocation."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "쓰레기 vs 폐기물 (廢棄物, formal 'waste matter') splits by register: 쓰레기 is the everyday spoken word, 폐기물 is industrial/legal (산업 폐기물 'industrial waste')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall is overusing 하다: 쓰레기를 해요 (✗) is meaningless — trash is acted on with 버리다, or sorted with 분리수거하다. Second pitfall: 'take out the trash' should not become 쓰레기를 가지고 나가다 mechanically; the idiomatic phrase is just 쓰레기를 버리다 or 쓰레기를 내놓다 (put it out)."
+      }
+    ],
+    "mistakes": [
+      [
+        "쓰레기를 해요. ✗ → 쓰레기를 버려요. ○",
+        "쓰레기 is not a 하다-chore; you discard it. The verb is 버리다.",
+        "Throw out = 쓰레기를 버리다; sort = 분리수거하다."
+      ],
+      [
+        "사람한테 함부로 쓰레기라고 하기",
+        "Literally 'trash', but as slang it means 'scumbag', a strong insult, so don't apply it to people lightly.",
+        "For objects only unless you truly mean the insult."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "정리",
     "english": "tidying",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-eseo"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-particle-eseo"
+    ],
     "usage": [
-      ["정리를 해요.", "I tidy up.", "Object with 를"],
-      ["정리해요.", "I organize.", "Compact 하다 form"],
-      ["정리가 안 됐어요.", "It is not tidied.", "Negative with 안"],
-      ["방에서 정리해요.", "I tidy in the room.", "Place with 에서"]
+      [
+        "정리를 하다",
+        "to tidy/organize",
+        "The action takes 하다; 정리 is the object with 를."
+      ],
+      [
+        "방을 정리하다",
+        "to tidy the room",
+        "정리하다 can take a direct object (방을) — arrange that space."
+      ],
+      [
+        "정리정돈",
+        "neat-and-tidy order",
+        "Fixed 4-syllable pair 整理整頓; emphasizes everything in its place."
+      ],
+      [
+        "생각을 정리하다",
+        "to organize one's thoughts",
+        "정리 also works on abstractions — sorting ideas, plans, feelings."
+      ]
     ],
     "examples": [
-      ["책상 위를 정리해요.", "I tidy the top of the desk.", "Place with 위"],
-      ["방에서 옷을 정리하고 쉬어요.", "I organize clothes in the room and rest.", "Place with 에서"],
-      ["정리가 끝나서 방이 깨끗해요.", "The room is clean because tidying is done.", "Reason with 아서"]
+      [
+        "책상을 정리해요.",
+        "I tidy the desk.",
+        "Simple frame: object + 정리하다 = put that thing in order."
+      ],
+      [
+        "이사 가기 전에 짐을 정리하고 있어요.",
+        "I'm sorting my stuff before moving.",
+        "Everyday: 고 있다 = ongoing; 짐 = belongings/luggage to arrange."
+      ],
+      [
+        "회의 내용을 정리해서 메일로 보낼게요.",
+        "I'll summarize the meeting and email it.",
+        "Real life: here 정리 = 'summarize/compile' information, a common office sense."
+      ]
     ],
-    "nuance": "정리 means arranging or putting things in order, and as a chore it pairs with the verb 하다 in everyday talk.",
-    "mistakes": ["Use 정리를 해요, not 정리를 만들어요, for tidying."]
+    "nuance": "정리 is Sino-Korean, 整理 (整 'arrange/orderly' + 理 'manage'), meaning to put scattered things into order — and its scope is broad: physical stuff (책상을 정리하다 'tidy a desk'), abstract ideas (생각을 정리하다 'organize thoughts'), even finishing/winding up (관계를 정리하다 'end a relationship', 일을 정리하다 'wrap up affairs'). The verb is 하다. The sharp contrast is with 청소 (清掃): 정리 = arranging objects into their places; 청소 = removing dirt/dust by sweeping or wiping. A dusty but neat room needs 청소; a clean-floored but cluttered room needs 정리; Koreans often pair them — 청소하고 정리하다. The English-speaker pitfall is 정리를 만들다 (✗), copying 'make tidy'; the chore noun is activated by 하다 only. Also don't assume 정리 = mere cleaning — its summarize/conclude senses surprise learners, so 'I'll 정리 my notes' means compile/summarize them, not scrub them.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "정리 means to put scattered things into order — and its scope is broad: physical stuff (책상을 정리하다 'tidy a desk'), abstract ideas (생각을 정리하다 'organize thoughts'), even finishing/winding up (관계를 정리하다 'end a relationship', 일을 정리하다 'wrap up affairs'). The verb is 하다. Don't assume 정리 = mere cleaning — its summarize/conclude senses surprise learners, so 'I'll 정리 my notes' means compile/summarize them, not scrub them."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is with 청소 (清掃): 정리 = arranging objects into their places; 청소 = removing dirt/dust by sweeping or wiping. A dusty but neat room needs 청소; a clean-floored but cluttered room needs 정리; Koreans often pair them — 청소하고 정리하다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "정리 is Sino-Korean, 整理 (整 'arrange/orderly' + 理 'manage')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is 정리를 만들다 (✗), copying 'make tidy'; the chore noun is activated by 하다 only."
+      }
+    ],
+    "mistakes": [
+      [
+        "정리를 만들어요. ✗ → 정리를 해요. ○",
+        "'Make' doesn't apply; the chore/action noun pairs with 하다.",
+        "Always 정리하다 for the action."
+      ],
+      [
+        "방이 더러울 때 정리하다 vs 청소하다",
+        "If the floor is dirty, 정리 (arranging) doesn't help — you need 청소 (cleaning). Mixing them mislabels the task.",
+        "Arrange clutter = 정리; remove dirt = 청소."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "샤워",
     "english": "shower",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-eseo"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-particle-eseo"
+    ],
     "usage": [
-      ["샤워를 해요.", "I take a shower.", "Object with 를"],
-      ["샤워해요.", "I shower.", "Compact 하다 form"],
-      ["샤워가 시원해요.", "The shower is refreshing.", "Subject with 이/가"],
-      ["욕실에서 샤워해요.", "I shower in the bathroom.", "Place with 에서"]
+      [
+        "샤워를 하다",
+        "to take a shower",
+        "The action takes 하다; 샤워 is the object with 를."
+      ],
+      [
+        "샤워기",
+        "showerhead",
+        "기 (器 'device') turns the loanword into the fixture: the showerhead/handset."
+      ],
+      [
+        "찬물 샤워 / 찬물로 샤워하다",
+        "a cold shower / shower with cold water",
+        "Temperature goes in front, or the water as means with 로/으로."
+      ],
+      [
+        "샤워하고 나오다",
+        "to come out after showering",
+        "고 나오다 = 'after doing, come out'; the natural post-shower phrase."
+      ]
     ],
     "examples": [
-      ["아침마다 샤워를 해요.", "I take a shower every morning.", "Object with 를"],
-      ["운동하고 욕실에서 샤워해요.", "After exercise I shower in the bathroom.", "Place with 에서"],
-      ["샤워가 시원해서 기분이 좋아요.", "I feel good because the shower is cool.", "Reason with 아서"]
+      [
+        "저는 샤워를 해요.",
+        "I take a shower.",
+        "Simple frame: 샤워 + 를 + 해요, even though 'shower' is a loanword it still needs 하다."
+      ],
+      [
+        "아침마다 따뜻한 물로 샤워해요.",
+        "Every morning I shower with warm water.",
+        "Everyday: 로 marks the water as the means; 마다 = 'every'."
+      ],
+      [
+        "운동하고 땀이 나서 얼른 샤워하러 갔어요.",
+        "I sweated from exercise, so I quickly went to shower.",
+        "Real life: 으러 가다 = 'go in order to'; 땀이 나다 = to sweat."
+      ]
     ],
-    "nuance": "샤워 means a stand up shower with running water, and it pairs with the verb 하다 rather than 씻다 for the whole body.",
-    "mistakes": ["Say 샤워를 해요, not 샤워를 먹어요, for showering."]
+    "nuance": "샤워 is a loanword from English 'shower', and like other action loanwords it Koreanizes by attaching 하다 (샤워하다 / 샤워를 하다) — it specifically means standing under running water. Contrast it with 목욕 (沐浴), which is soaking/bathing in a tub or at a bathhouse (목욕탕): a quick rinse standing up is 샤워, a long soak is 목욕. Both differ from 세수 (洗手), which is washing only the face. Register is fully neutral. The biggest English-speaker pitfall is dropping 하다 because 'shower' already feels like a verb in English — but 샤워 alone is just the noun; you must say 샤워하다, never use 샤워 bare as a verb. Second pitfall: choosing the wrong washing word — for the whole body standing up it's 샤워, not 씻다 broadly (though 씻다 'wash up' is a loose casual cover term) and not 세수 (face only). The water you use takes 로/으로: 찬물로 샤워하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "샤워 specifically means standing under running water, Koreanizing by attaching 하다 (샤워하다 / 샤워를 하다). Register is fully neutral. The water you use takes 로/으로: 찬물로 샤워하다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it with 목욕 (沐浴), which is soaking/bathing in a tub or at a bathhouse (목욕탕): a quick rinse standing up is 샤워, a long soak is 목욕. Both differ from 세수 (洗手), which is washing only the face."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "샤워 is a loanword from English 'shower', and like other action loanwords it Koreanizes by attaching 하다."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The biggest pitfall is dropping 하다 because 'shower' already feels like a verb in English — but 샤워 alone is just the noun; you must say 샤워하다, never use 샤워 bare as a verb. Second pitfall: choosing the wrong washing word — for the whole body standing up it's 샤워, not 씻다 broadly (though 씻다 'wash up' is a loose casual cover term) and not 세수 (face only)."
+      }
+    ],
+    "mistakes": [
+      [
+        "저는 샤워. (used as a verb) ✗ → 저는 샤워해요. ○",
+        "샤워 is a noun even though English 'shower' is a verb; standing alone it can't conjugate. It needs 하다.",
+        "Always 샤워하다 / 샤워를 하다."
+      ],
+      [
+        "샤워를 먹어요. ✗ → 샤워를 해요. ○",
+        "먹다 'eat' never fits washing; the activating verb for the chore noun is 하다.",
+        "Use 샤워해요; whole-body soak = 목욕하다."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "세수",
     "english": "washing face",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-eseo"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-particle-eseo"
+    ],
     "usage": [
-      ["세수를 해요.", "I wash my face.", "Object with 를"],
-      ["세수해요.", "I wash up.", "Compact 하다 form"],
-      ["세수가 끝났어요.", "Washing my face is done.", "Subject with 이/가"],
-      ["욕실에서 세수해요.", "I wash my face in the bathroom.", "Place with 에서"]
+      [
+        "세수를 하다",
+        "to wash one's face",
+        "The action takes 하다; 세수 is the object with 를."
+      ],
+      [
+        "세수하고 로션을 바르다",
+        "wash up then apply lotion",
+        "고 = 'and then'; the natural morning sequence after washing the face."
+      ],
+      [
+        "고양이 세수",
+        "a quick splash ('cat wash')",
+        "Idiom for a too-hasty, barely-there face wash, like a cat's lick."
+      ],
+      [
+        "찬물로 세수하다",
+        "to wash the face with cold water",
+        "The water takes 로; common to wake oneself up."
+      ]
     ],
     "examples": [
-      ["일어나서 바로 세수를 해요.", "I wash my face right after waking.", "Object with 를"],
-      ["아침에 욕실에서 세수해요.", "In the morning I wash up in the bathroom.", "Place with 에서"],
-      ["세수하고 이를 닦아요.", "I wash my face and brush my teeth.", "Sequence with 고"]
+      [
+        "저는 세수를 해요.",
+        "I wash my face.",
+        "Simple frame: 세수 + 를 + 해요; remember it's the FACE only."
+      ],
+      [
+        "아침에 일어나서 세수부터 해요.",
+        "After waking, I wash my face first.",
+        "Everyday: 부터 = 'starting with/first'; the first thing in the routine."
+      ],
+      [
+        "어제는 피곤해서 세수도 안 하고 잤어요.",
+        "Yesterday I was so tired I slept without even washing my face.",
+        "Real life: 도 안 하고 = 'without even doing'; 피곤하다 = tired."
+      ]
     ],
-    "nuance": "세수 means washing only the face and hands, so washing the whole body would use 샤워 or 목욕 instead in Korean.",
-    "mistakes": ["Use 세수를 해요 for the face, not the body."]
+    "nuance": "세수 is Sino-Korean, 洗手 (洗 'wash' + 手 'hand'), and although it literally says 'wash hands', in modern usage it means washing the FACE (and hands) — the morning/evening face-wash, not the body. Its verb is 하다 (세수하다). Be careful with the three washing words: 세수 = face; 샤워 = whole-body standing rinse; 목욕 = soaking bath; and the plain verb 씻다 'wash' is the broad casual umbrella ('얼굴을 씻다' literally 'wash the face' is also said). Register is neutral and very everyday. The English-speaker pitfall comes straight from the hanja: learners read 洗手 and assume it means 'wash hands' for hygiene — but to say 'wash your hands' (before eating, after the toilet) Koreans use 손을 씻다, not 세수. Using 세수 for the whole body is also wrong (that's 샤워/목욕). A nice idiom to know: 고양이 세수, a 'cat wash', for splashing your face so quickly you barely cleaned it.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Although it literally says 'wash hands', in modern usage 세수 means washing the FACE (and hands) — the morning/evening face-wash, not the body. Its verb is 하다 (세수하다). Register is neutral and very everyday. A nice idiom to know: 고양이 세수, a 'cat wash', for splashing your face so quickly you barely cleaned it."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Be careful with the three washing words: 세수 = face; 샤워 = whole-body standing rinse; 목욕 = soaking bath; and the plain verb 씻다 'wash' is the broad casual umbrella ('얼굴을 씻다' literally 'wash the face' is also said)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "세수 is Sino-Korean, 洗手 (洗 'wash' + 手 'hand')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall comes straight from the hanja: learners read 洗手 and assume it means 'wash hands' for hygiene — but to say 'wash your hands' (before eating, after the toilet) Koreans use 손을 씻다, not 세수. Using 세수 for the whole body is also wrong (that's 샤워/목욕)."
+      }
+    ],
+    "mistakes": [
+      [
+        "밥 먹기 전에 세수하세요 (meaning 'wash hands'). ✗ → 손을 씻으세요. ○",
+        "Despite the 手 'hand' hanja, 세수 = washing the face. Hand-washing for hygiene is 손을 씻다.",
+        "Hands = 손을 씻다; face routine = 세수하다."
+      ],
+      [
+        "세수로 몸을 씻어요. ✗ → 샤워해요 / 목욕해요. ○",
+        "세수 covers only the face, never the body. Whole-body washing is 샤워 (rinse) or 목욕 (soak).",
+        "Body = 샤워/목욕; face = 세수."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "양치",
     "english": "brushing teeth",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-eseo"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-particle-eseo"
+    ],
     "usage": [
-      ["양치를 해요.", "I brush my teeth.", "Object with 를"],
-      ["양치해요.", "I brush teeth.", "Compact 하다 form"],
-      ["양치가 중요해요.", "Brushing teeth is important.", "Subject with 이/가"],
-      ["욕실에서 양치해요.", "I brush my teeth in the bathroom.", "Place with 에서"]
+      [
+        "양치를 하다 / 양치질을 하다",
+        "to brush one's teeth",
+        "Both work; 양치질 is the fuller noun, both take 하다 with 를."
+      ],
+      [
+        "밥 먹고 양치하다",
+        "to brush after eating",
+        "The default dental routine collocation; 고 = 'and then'."
+      ],
+      [
+        "양치 컵 / 양치 도구",
+        "rinse cup / brushing supplies",
+        "양치 modifies the cup and tools used for brushing/rinsing."
+      ],
+      [
+        "양치하고 가글하다",
+        "to brush then use mouthwash",
+        "가글(gargle) is the extra rinse step after 양치."
+      ]
     ],
     "examples": [
-      ["밥을 먹고 양치를 해요.", "After eating I brush my teeth.", "Sequence with 고"],
-      ["자기 전에 욕실에서 양치해요.", "Before sleeping I brush in the bathroom.", "Place with 에서"],
-      ["양치하고 물을 마셔요.", "I brush my teeth and drink water.", "Sequence with 고"]
+      [
+        "저는 양치를 해요.",
+        "I brush my teeth.",
+        "Simple frame: 양치 + 를 + 해요; or just 양치해요."
+      ],
+      [
+        "밥을 먹고 나서 꼭 양치해요.",
+        "I always brush right after meals.",
+        "Everyday: 고 나서 'after'; 꼭 = 'without fail'."
+      ],
+      [
+        "자기 전에 양치하는 거 잊지 마세요.",
+        "Don't forget to brush before bed.",
+        "Real life: 는 거 nominalizes the action; 잊지 마세요 = 'don't forget'."
+      ]
     ],
-    "nuance": "양치 means brushing the teeth and is short for 양치질, and the full action pairs with the verb 하다.",
-    "mistakes": ["Say 양치를 해요, not 양치를 먹어요, for teeth."]
+    "nuance": "양치 (often the fuller 양치질) means brushing the teeth; it derives from hanja 養齒 (養 'nurture/care for' + 齒 'tooth') — 'caring for the teeth' — with the native suffix 질 (a 'doing of') giving 양치질. Its verb is 하다 (양치하다 / 양치질하다). The near-synonym 이를 닦다 'to scrub the teeth' (이 'tooth' + 닦다 'wipe/polish') is fully interchangeable in daily speech — 양치하다 = 이를 닦다 — though 닦다 highlights the scrubbing motion while 양치 names the routine including rinsing. Register is neutral; parents say it to kids constantly. The English-speaker pitfall is reaching for 솔질 or inventing 'teeth-brushing' literally; just use 양치하다 or 이를 닦다. Another trap is forgetting it's a noun: 양치 standing alone isn't a verb, so you must add 하다. And don't say 양치를 먹다 (✗) — 먹다 'eat' has no place in a brushing phrase. The toothbrush itself is 칫솔, the toothpaste 치약.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "양치 (often the fuller 양치질) means brushing the teeth. Its verb is 하다 (양치하다 / 양치질하다). Register is neutral; parents say it to kids constantly. The toothbrush itself is 칫솔, the toothpaste 치약."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym 이를 닦다 'to scrub the teeth' (이 'tooth' + 닦다 'wipe/polish') is fully interchangeable in daily speech — 양치하다 = 이를 닦다 — though 닦다 highlights the scrubbing motion while 양치 names the routine including rinsing."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "양치 derives from hanja 養齒 (養 'nurture/care for' + 齒 'tooth') — 'caring for the teeth' — with the native suffix 질 (a 'doing of') giving 양치질."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is reaching for 솔질 or inventing 'teeth-brushing' literally; just use 양치하다 or 이를 닦다. Another trap is forgetting it's a noun: 양치 standing alone isn't a verb, so you must add 하다. And don't say 양치를 먹다 (✗) — 먹다 'eat' has no place in a brushing phrase."
+      }
+    ],
+    "mistakes": [
+      [
+        "양치를 먹어요. ✗ → 양치를 해요. ○",
+        "먹다 doesn't belong to brushing; the chore noun is activated by 하다.",
+        "Use 양치해요 or 이를 닦아요."
+      ],
+      [
+        "이빨을 닦다 in polite speech",
+        "이빨 is a coarse/animal word for teeth; in normal/polite speech use 이 or 치아. So 이를 닦다, not 이빨을 닦다.",
+        "Polite: 양치하다 / 이를 닦다; avoid 이빨."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "산책",
     "english": "a walk",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-ending-want"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-ending-want"
+    ],
     "usage": [
-      ["산책을 해요.", "I take a walk.", "Object with 를"],
-      ["산책해요.", "I go for a walk.", "Compact 하다 form"],
-      ["산책이 좋아요.", "A walk is nice.", "Subject with 이/가"],
-      ["공원에서 산책해요.", "I walk in the park.", "Place with 에서"]
+      [
+        "산책을 하다",
+        "to take a walk",
+        "The activity takes 하다; 산책 is the object with 를."
+      ],
+      [
+        "산책을 나가다",
+        "to go out for a walk",
+        "나가다 = go out; stresses leaving the house to stroll."
+      ],
+      [
+        "강아지 산책",
+        "a dog walk",
+        "산책 as the noun event; 강아지 산책(을) 시키다 = walk the dog."
+      ],
+      [
+        "공원에서 산책하다",
+        "to stroll in the park",
+        "Place of the stroll takes 에서 (action location)."
+      ]
     ],
     "examples": [
-      ["저녁에 산책을 하고 싶어요.", "In the evening I want to take a walk.", "Desire with 고 싶다"],
-      ["강아지하고 공원에서 산책해요.", "I walk with my dog in the park.", "Place with 에서"],
-      ["산책이 좋아서 매일 나가요.", "I go out daily because walks are nice.", "Reason with 아서"]
+      [
+        "저는 산책을 해요.",
+        "I take a walk.",
+        "Simple frame: 산책 + 를 + 해요, a leisurely stroll."
+      ],
+      [
+        "저녁 먹고 동네 한 바퀴 산책해요.",
+        "After dinner I stroll one loop around the neighborhood.",
+        "Everyday: 한 바퀴 = 'one lap'; 동네 = neighborhood."
+      ],
+      [
+        "날씨가 좋아서 강아지랑 천천히 산책하고 왔어요.",
+        "The weather was nice, so I went for a slow walk with my dog.",
+        "Real life: 랑 = 'with' (casual); 고 오다 = 'go do and come back'."
+      ]
     ],
-    "nuance": "산책 means a relaxed walk for pleasure, while walking somewhere as transport is usually said with the verb 걷다 instead.",
-    "mistakes": ["Use 산책을 해요, not 산책을 가요, for the act."]
+    "nuance": "산책 is Sino-Korean, 散策 (散 'scatter/disperse' + 策 'walking stick'), poetically 'wandering with a stick' — i.e. a relaxed, purpose-free stroll for pleasure or fresh air. Its verb is 하다 (산책하다 / 산책을 하다). The key contrast is with the plain verb 걷다 'to walk': 걷다 is the physical act of walking (to a destination, for transport, for exercise pace), while 산책 is the leisurely OUTING itself — you 산책하다 in a park to relax, but you 걷다 to the station because the bus didn't come. Also 산책 ≠ 등산 (登山 'climb a mountain', hiking). Register is neutral and pleasant. The English-speaker pitfall is 산책을 가다 (✗) modeled on 'go for a walk' — the chore/activity noun normally takes 하다, so use 산책하다; if you want the 'go out' nuance, say 산책(을) 나가다 or 산책하러 가다 'go in order to stroll'. Don't confuse it with simply 걷다 when the point is leisure.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "산책 is a relaxed, purpose-free stroll for pleasure or fresh air. Its verb is 하다 (산책하다 / 산책을 하다). Register is neutral and pleasant."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast is with the plain verb 걷다 'to walk': 걷다 is the physical act of walking (to a destination, for transport, for exercise pace), while 산책 is the leisurely OUTING itself — you 산책하다 in a park to relax, but you 걷다 to the station because the bus didn't come. Also 산책 ≠ 등산 (登山 'climb a mountain', hiking)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "산책 is Sino-Korean, 散策 (散 'scatter/disperse' + 策 'walking stick'), poetically 'wandering with a stick'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is 산책을 가다 (✗) modeled on 'go for a walk' — the chore/activity noun normally takes 하다, so use 산책하다; if you want the 'go out' nuance, say 산책(을) 나가다 or 산책하러 가다 'go in order to stroll'. Don't confuse it with simply 걷다 when the point is leisure."
+      }
+    ],
+    "mistakes": [
+      [
+        "산책을 가요. ✗ → 산책을 해요 / 산책하러 가요. ○",
+        "'Go for a walk' translated piece-by-piece is unnatural; the activity noun pairs with 하다, or use 하러 가다 for 'go to'.",
+        "Stroll = 산책하다; go to stroll = 산책하러 가다."
+      ],
+      [
+        "역까지 산책했어요 (meaning 'walked to the station'). ✗ → 역까지 걸어갔어요. ○",
+        "산책 is leisure, not getting somewhere. Walking to a destination is 걷다/걸어가다.",
+        "Leisure stroll = 산책; walk to a place = 걸어가다."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "휴식",
     "english": "rest",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-ending-want"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-ending-want"
+    ],
     "usage": [
-      ["휴식을 해요.", "I take a rest.", "Object with 를"],
-      ["휴식이 필요해요.", "I need rest.", "Subject with 이/가"],
-      ["휴식 시간이에요.", "It is break time.", "Noun phrase"],
-      ["집에서 휴식해요.", "I rest at home.", "Place with 에서"]
+      [
+        "휴식을 취하다",
+        "to take a rest",
+        "The idiomatic verb is 취하다 (take/assume), more than 하다: 휴식을 취하다."
+      ],
+      [
+        "휴식 시간",
+        "break time / rest period",
+        "휴식 modifies 시간; the scheduled break (class, work)."
+      ],
+      [
+        "잠깐 휴식",
+        "a short break",
+        "잠깐 = briefly; announced before a pause in meetings or workouts."
+      ],
+      [
+        "충분한 휴식이 필요하다",
+        "to need enough rest",
+        "휴식 as subject with 이; pairs with 필요하다 'be needed'."
+      ]
     ],
     "examples": [
-      ["주말에 푹 휴식을 하고 싶어요.", "On the weekend I want to rest fully.", "Desire with 고 싶다"],
-      ["일하고 집에서 휴식해요.", "After work I rest at home.", "Place with 에서"],
-      ["휴식이 필요해서 일찍 잤어요.", "I slept early because I needed rest.", "Reason with 아서"]
+      [
+        "휴식이 필요해요.",
+        "I need rest.",
+        "Simple frame: 휴식 + 이 + 필요해요; here it's the subject."
+      ],
+      [
+        "회의 중간에 십 분 동안 휴식 시간을 가졌어요.",
+        "We took a ten-minute break in the middle of the meeting.",
+        "Everyday: 휴식 시간을 가지다 = 'have a break'; 동안 = 'for (duration)'."
+      ],
+      [
+        "요즘 너무 무리해서 푹 휴식을 취하고 싶어요.",
+        "I've overdone it lately, so I want to rest fully.",
+        "Real life: 휴식을 취하다 (formal 'take rest'); 푹 = thoroughly/deeply."
+      ]
     ],
-    "nuance": "휴식 is a slightly formal noun for taking a break, and in casual speech people often use the plain verb 쉬다 instead.",
-    "mistakes": ["휴식 is a noun, so add 하다 for the action."]
+    "nuance": "휴식 is Sino-Korean, 休息 (休 'rest' + 息 'breathe/pause'), 'resting and catching one's breath', a somewhat formal/written noun for taking a break. Its most idiomatic verb is 휴식을 취하다 'to take rest' (취하다 = take/assume), and 휴식하다 also exists, but in casual conversation Koreans far more often use the plain native verb 쉬다 'to rest' — '집에서 쉬어요' sounds natural where '집에서 휴식해요' sounds stiff. So the contrast is register: 휴식 = formal/signage/health-advice tone (충분한 휴식, 휴식 시간), 쉬다 = everyday speech. The English-speaker pitfall is treating 휴식 like a casual verb and overusing 휴식하다 in chat — prefer 쉬다 there. Also, because it's a noun, you cannot leave it bare for the action: pair it with 취하다/하다, or switch to 쉬다. Common collocations: 휴식 시간, 휴식을 취하다, 충분한 휴식, 잠깐 휴식.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "휴식 is 'resting and catching one's breath', a somewhat formal/written noun for taking a break. Its most idiomatic verb is 휴식을 취하다 'to take rest' (취하다 = take/assume), and 휴식하다 also exists. Common collocations: 휴식 시간, 휴식을 취하다, 충분한 휴식, 잠깐 휴식."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "In casual conversation Koreans far more often use the plain native verb 쉬다 'to rest' — '집에서 쉬어요' sounds natural where '집에서 휴식해요' sounds stiff. So the contrast is register: 휴식 = formal/signage/health-advice tone (충분한 휴식, 휴식 시간), 쉬다 = everyday speech."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "휴식 is Sino-Korean, 休息 (休 'rest' + 息 'breathe/pause')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is treating 휴식 like a casual verb and overusing 휴식하다 in chat — prefer 쉬다 there. Also, because it's a noun, you cannot leave it bare for the action: pair it with 취하다/하다, or switch to 쉬다."
+      }
+    ],
+    "mistakes": [
+      [
+        "친구한테 '집에서 휴식해' (casual). △ → '집에서 쉬어'. ○",
+        "휴식하다 is stiff for casual talk; with friends the natural verb is 쉬다.",
+        "Casual rest = 쉬다; formal/written = 휴식(을 취하다)."
+      ],
+      [
+        "저는 휴식. (noun used as a sentence) ✗ → 휴식을 취해요 / 쉬어요. ○",
+        "휴식 is a noun and can't stand as the predicate. Add 취하다/하다, or use 쉬다.",
+        "Use 휴식을 취하다 or 쉬다."
+      ]
+    ]
   },
   {
     "kind": "noun",
     "hangul": "외출",
     "english": "going out",
     "topic": "home",
-    "chapterIds": ["chapter-05", "chapter-06"],
-    "grammarIds": ["grammar-particle-eul-reul", "grammar-ending-want"],
+    "chapterIds": [
+      "chapter-05",
+      "chapter-06"
+    ],
+    "grammarIds": [
+      "grammar-particle-eul-reul",
+      "grammar-ending-want"
+    ],
     "usage": [
-      ["외출을 해요.", "I go out.", "Object with 를"],
-      ["외출해요.", "I go out.", "Compact 하다 form"],
-      ["외출이 어려워요.", "Going out is hard.", "Subject with 이/가"],
-      ["외출 전에 씻어요.", "I wash up before going out.", "With 전에"]
+      [
+        "외출을 하다",
+        "to go out",
+        "The action takes 하다; 외출 is the object with 를."
+      ],
+      [
+        "외출 준비",
+        "getting ready to go out",
+        "준비 = preparation; 외출 준비(를) 하다 = prep before leaving."
+      ],
+      [
+        "외출 중",
+        "out / away (not in)",
+        "중 (中 'in the middle of') marks the away status: 외출 중이에요."
+      ],
+      [
+        "외출하기 싫다",
+        "to not feel like going out",
+        "기 싫다 = 'hate to do'; common homebody phrase."
+      ]
     ],
     "examples": [
-      ["오후에 잠깐 외출을 하고 싶어요.", "I want to go out briefly in the afternoon.", "Desire with 고 싶다"],
-      ["외출하고 저녁에 돌아와요.", "I go out and come back in the evening.", "Sequence with 고"],
-      ["비가 와서 외출이 어려워요.", "Going out is hard because it rains.", "Reason with 아서"]
+      [
+        "저는 외출을 해요.",
+        "I go out.",
+        "Simple frame: 외출 + 를 + 해요; leaving the house."
+      ],
+      [
+        "비가 와서 오늘은 외출 안 했어요.",
+        "It rained, so I didn't go out today.",
+        "Everyday: 안 + 했어요 negates; 와서 = 'because it came (rained)'."
+      ],
+      [
+        "외출하기 전에 가스 불을 껐는지 꼭 확인하세요.",
+        "Before going out, be sure to check you turned off the gas.",
+        "Real life: 기 전에 = 'before doing'; 는지 확인하다 = 'check whether'."
+      ]
     ],
-    "nuance": "외출 means leaving home for a short trip outside, and it pairs with the verb 하다 in everyday speech.",
-    "mistakes": ["Use 외출을 해요, not 외출을 가요, for going out."]
+    "nuance": "외출 is Sino-Korean, 外出 (外 'outside' + 出 'go out/exit'), 'going out of the house', and its verb is 하다 (외출하다 / 외출을 하다). It specifically means leaving home to go outside, often briefly. The near-synonym contrast: 외출 is leaving the HOUSE for a short while (외출 중 'stepped out'); 나가다 is the plain verb 'go out/exit' (any space); and 외박 (外泊) is the contrasting word for staying out OVERNIGHT (sleeping away from home) — useful so learners don't mix 외출 (out and back) with 외박 (out overnight). 외출 carries a slightly neutral-formal tone, common in notes ('외출 중입니다' 'I'm out'). The English-speaker pitfall is 외출을 가다 (✗), built from 'go out' — the activity noun takes 하다, so 외출하다; if you want a destination, name it with 가다 (시내에 가다 'go downtown') instead of forcing 외출 with 가다. Also remember it's a noun: don't use 외출 bare for the action. Collocations: 외출 준비, 외출 중, 외출 금지 (grounded/no-going-out).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "외출 means leaving home to go outside, often briefly, and its verb is 하다 (외출하다 / 외출을 하다). It carries a slightly neutral-formal tone, common in notes ('외출 중입니다' 'I'm out'). Collocations: 외출 준비, 외출 중, 외출 금지 (grounded/no-going-out)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "외출 is leaving the HOUSE for a short while (외출 중 'stepped out'); 나가다 is the plain verb 'go out/exit' (any space); and 외박 (外泊) is the contrasting word for staying out OVERNIGHT (sleeping away from home) — useful so learners don't mix 외출 (out and back) with 외박 (out overnight)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "외출 is Sino-Korean, 外出 (外 'outside' + 出 'go out/exit'), 'going out of the house'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is 외출을 가다 (✗), built from 'go out' — the activity noun takes 하다, so 외출하다; if you want a destination, name it with 가다 (시내에 가다 'go downtown') instead of forcing 외출 with 가다. Also remember it's a noun: don't use 외출 bare for the action."
+      }
+    ],
+    "mistakes": [
+      [
+        "외출을 가요. ✗ → 외출을 해요 / 외출해요. ○",
+        "'Go out' word-for-word doubles up; the activity noun pairs with 하다, not 가다.",
+        "Go out = 외출하다; to a place = (장소)에 가다."
+      ],
+      [
+        "밤새 친구 집에서 외출했어요 (meaning 'stayed over'). ✗ → 외박했어요. ○",
+        "외출 is out-and-back; sleeping away from home overnight is 외박.",
+        "Brief outing = 외출; overnight away = 외박."
+      ]
+    ]
   }
 ]

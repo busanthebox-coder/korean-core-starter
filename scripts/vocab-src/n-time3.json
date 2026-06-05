@@ -7,18 +7,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["평일에는 회사에 가요.", "On weekdays I go to work.", "Time word plus eun"],
-      ["평일 아침은 항상 바빠요.", "Weekday mornings are always busy.", "Modifies the next noun"],
-      ["평일부터 주말까지 일해요.", "I work from weekday to weekend.", "Buteo kkaji range"],
-      ["저는 평일이 더 좋아요.", "I like weekdays more.", "Subject with i"]
+      ["평일에", "on a weekday", "Add 에 for 'on'; 평일에 갔어요 = went on a weekday"],
+      ["평일 아침", "weekday morning", "No particle: 평일 sticks directly to the next noun to modify it"],
+      ["평일 낮", "weekday daytime", "Common slot for off-peak hours, doctor visits, quiet cafes"],
+      ["평일 저녁", "weekday evening", "After-work time; 평일 저녁에 운동해요 = I work out on weeknights"]
     ],
     "examples": [
-      ["평일에는 사람이 적어요.", "There are fewer people on weekdays.", "Common with eseo places"],
-      ["평일 점심에 만나요.", "Let us meet for weekday lunch.", "Casual plan making"],
-      ["평일에 병원에 갔어요.", "I went to the hospital on a weekday.", "Past tense gateoyo"]
+      ["평일은 학교에 가요.", "On weekdays I go to school.", "Topic 은 makes a 'weekdays, as for them' contrast with weekends"],
+      ["평일에는 사람이 적어요.", "On weekdays there are fewer people.", "에는 = 에(on) + 는(contrast), the natural way to set the scene"],
+      ["평일에 시간 내기가 어려워요.", "It's hard to make time on a weekday.", "Real-life 직장인 complaint: 시간(을) 내다 = to make/spare time"]
     ],
-    "nuance": "Pyeongil means Monday through Friday, the ordinary working days, and stands in contrast to weekends or holidays.",
-    "mistakes": ["Do not confuse it with 주말 weekend."]
+    "nuance": "평일 is Sino-Korean 平日 (平 'flat/ordinary' + 日 'day'), literally an 'ordinary day' — Monday through Friday, the regular working days, set against 주말 (weekend) and 휴일 (holiday/day off). The dividing line vs 주중 (週中, 'inside the week'): 평일 simply names the ordinary days as a category, while 주중 frames those same days as the span 'during the week' and pairs naturally with 주말 as a matched contrast (주중에는 바쁘고 주말에는 쉬어요). 평일 is neutral and used by everyone in any register, from a weather report to a friend's text. It habitually appears as 평일 + time-of-day (평일 아침/낮/저녁) and with 에/에는. The English-speaker pitfall: 'weekday' in English can mean 'any single working day' OR the whole work portion of the week, but in Korean 평일 leans toward the category of ordinary days, so for a duration like 'during the week I'm busy' Koreans more often say 주중에는 바빠요; also don't write the near-homophone 휴일 (rest day) by mistake.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "An 'ordinary day' — Monday through Friday, the regular working days, set against 주말 (weekend) and 휴일 (holiday/day off). 평일 is neutral and used by everyone in any register, from a weather report to a friend's text. It habitually appears as 평일 + time-of-day (평일 아침/낮/저녁) and with 에/에는."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line vs 주중 (週中, 'inside the week'): 평일 simply names the ordinary days as a category, while 주중 frames those same days as the span 'during the week' and pairs naturally with 주말 as a matched contrast (주중에는 바쁘고 주말에는 쉬어요)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 平日 (平 'flat/ordinary' + 日 'day'), literally an 'ordinary day'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Weekday' in English can mean 'any single working day' OR the whole work portion of the week, but in Korean 평일 leans toward the category of ordinary days, so for a duration like 'during the week I'm busy' Koreans more often say 주중에는 바빠요. Also don't write the near-homophone 휴일 (rest day) by mistake."
+      }
+    ],
+    "mistakes": [
+      "Saying 평일날 to mean 'on a weekday' is redundant — 일(日) already means 'day', so 날 doubles it; just say 평일에.",
+      "Writing 주말 (weekend) when you mean 평일 — they are exact opposites, so 평일에 일해요 (work on weekdays) vs 주말에 쉬어요 (rest on weekends).",
+      "Forgetting 에 in time phrases: not 평일 갔어요 but 평일에 갔어요, because a point-in-time noun needs the locative-time particle 에."
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +54,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["주중에는 시간이 없어요.", "I have no time during the week.", "Time word plus eun"],
-      ["주중부터 주말까지 바빠요.", "I am busy from weekday to weekend.", "Buteo kkaji range"],
-      ["주중에 약속이 있어요.", "I have an appointment midweek.", "Eun marks the time"],
-      ["주중 저녁에 운동해요.", "I exercise on weekday evenings.", "Modifies the next noun"]
+      ["주중에", "during the week", "Add 에; the default frame for 'on weekdays as a span'"],
+      ["주중에는", "during the week (as opposed to weekends)", "에는 sets up the 주중 vs 주말 contrast"],
+      ["주중 저녁", "weekday evening", "No particle before the noun it modifies"],
+      ["주중 내내", "all through the week", "내내 = 'the whole time'; 주중 내내 바빴어요 = busy the whole week"]
     ],
     "examples": [
-      ["주중에는 일찍 자요.", "During the week I sleep early.", "Daily routine talk"],
-      ["주중에 영화를 봤어요.", "I watched a movie midweek.", "Past tense bwasseoyo"],
-      ["주중이 빨리 지나가요.", "The weekdays pass quickly.", "Subject with i"]
+      ["주중에는 일해요.", "I work during the week.", "에는 frames the span and implies 'but on weekends I don't'"],
+      ["주중에 시간이 없어요.", "I have no time during the week.", "있다/없다 take 이/가 on the thing possessed: 시간이 없어요"],
+      ["주중에는 일하고 주말에는 쉬어요.", "I work on weekdays and rest on weekends.", "Real rhythm-of-life sentence pairing 주중 with 주말"]
     ],
-    "nuance": "Jujung points to the days inside one week, basically the weekday stretch, and is used much like pyeongil in casual speech.",
-    "mistakes": ["Do not write it as 주말 by mistake."]
+    "nuance": "주중 is Sino-Korean 週中 (週 'week' + 中 'middle/inside'), literally 'inside the week' — the Monday-to-Friday stretch viewed as a span of time. It overlaps heavily with 평일 (平日), but the dividing line is framing: 평일 names the ordinary days as a category, whereas 주중 emphasizes the duration 'during the week' and is the natural partner of 주말 (週末, 'week-end') in a balanced contrast — Koreans reflexively say 주중에는 ... 주말에는 .... Register is neutral and everyday. It collocates with 에/에는, with 내내 ('주중 내내', all week long), and with verbs of routine (일하다, 바쁘다). The English-speaker pitfall: 'midweek' in English often means specifically Tuesday–Thursday, but 주중 covers the whole working span, so don't narrow it to just the middle days; and because 주중 is a time-span noun it still needs 에 (주중에 바빠요), unlike a bare adverb.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'Inside the week' — the Monday-to-Friday stretch viewed as a span of time. Register is neutral and everyday. It collocates with 에/에는, with 내내 ('주중 내내', all week long), and with verbs of routine (일하다, 바쁘다)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It overlaps heavily with 평일 (平日), but the dividing line is framing: 평일 names the ordinary days as a category, whereas 주중 emphasizes the duration 'during the week' and is the natural partner of 주말 (週末, 'week-end') in a balanced contrast — Koreans reflexively say 주중에는 ... 주말에는 ...."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 週中 (週 'week' + 中 'middle/inside'), literally 'inside the week'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Midweek' in English often means specifically Tuesday–Thursday, but 주중 covers the whole working span, so don't narrow it to just the middle days. And because 주중 is a time-span noun it still needs 에 (주중에 바빠요), unlike a bare adverb."
+      }
+    ],
+    "mistakes": [
+      "Treating 주중 as 'Wednesday-ish only' the way English 'midweek' can — 주중 means the whole Mon–Fri span, so 주중에 바빠요 = busy all week, not just the middle.",
+      "Writing 주말 (weekend) when you mean 주중 — one letter (중 vs 말) flips the meaning to the opposite half of the week.",
+      "Dropping 에: not 주중 시간이 없어요 (ambiguous) but 주중에 시간이 없어요, since the time span needs the 에 particle to mean 'during'."
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +101,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["매주 도서관에 가요.", "I go to the library every week.", "Used like an adverb"],
-      ["매주 월요일에 회의해요.", "We meet every Monday.", "Add a specific day"],
-      ["매주 친구를 만나요.", "I meet my friend every week.", "No particle needed"],
-      ["매주 한 번 청소해요.", "I clean once every week.", "Pair with han beon"]
+      ["매주 월요일", "every Monday", "Add a specific day right after: 매주 월요일에 회의해요"],
+      ["매주 한 번", "once a week", "Pair with a frequency count; 매주 한 번 청소해요"],
+      ["매주 토요일마다", "every single Saturday", "마다 intensifies 'each and every'; optional but common"],
+      ["매주 꼬박꼬박", "faithfully every week", "꼬박꼬박 = without ever skipping; stresses regularity"]
     ],
     "examples": [
-      ["매주 한국어를 공부해요.", "I study Korean every week.", "Routine habit"],
-      ["매주 주말에 등산해요.", "I hike every weekend.", "Combine with jumal"],
-      ["매주 책을 한 권 읽어요.", "I read one book every week.", "Counting with gwon"]
+      ["매주 운동해요.", "I exercise every week.", "매주 sits right before the verb like an adverb — no particle"],
+      ["매주 도서관에 가요.", "I go to the library every week.", "에 attaches to the place 도서관, not to 매주"],
+      ["저는 매주 한국어 수업을 들어요.", "I take a Korean class every week.", "수업을 듣다 = to take/attend a class (literally 'listen to')"]
     ],
-    "nuance": "Maeju means each and every week without exception, and it usually sits right before the verb like an adverb of frequency.",
-    "mistakes": ["Do not add 에 after 매주 here."]
+    "nuance": "매주 is Sino-Korean 每週 (每 'each/every' + 週 'week'), literally 'each week' — every week without exception. The 每 prefix is the same building block in 매일 (every day), 매달/매월 (every month), 매년 (every year), so learning it once unlocks the whole set. Unlike a time-point noun, 매주 behaves as a frequency adverb and normally takes NO particle, sitting just before the verb (매주 만나요), though you can add 마다 for emphasis (매주마다). It collocates with a following day (매주 금요일), with counts (매주 두 번), and with 꼬박꼬박/규칙적으로 for 'regularly'. The English-speaker pitfall: learners copy the 'on weekdays → 평일에' habit and wrongly stick 에 onto 매주 (✗매주에); 매주 is already adverbial, so 매주 가요 is complete. Also distinguish 매주 (every week, recurring) from 이번 주 (this week, one specific week) — different concept entirely.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'Each week' — every week without exception. Unlike a time-point noun, 매주 behaves as a frequency adverb and normally takes NO particle, sitting just before the verb (매주 만나요), though you can add 마다 for emphasis (매주마다). It collocates with a following day (매주 금요일), with counts (매주 두 번), and with 꼬박꼬박/규칙적으로 for 'regularly'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 매주 (every week, recurring) from 이번 주 (this week, one specific week) — a different concept entirely."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 每週 (每 'each/every' + 週 'week'), literally 'each week'. The 每 prefix is the same building block in 매일 (every day), 매달/매월 (every month), 매년 (every year), so learning it once unlocks the whole set."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Learners copy the 'on weekdays → 평일에' habit and wrongly stick 에 onto 매주 (✗매주에); 매주 is already adverbial, so 매주 가요 is complete."
+      }
+    ],
+    "mistakes": [
+      "Adding 에: ✗매주에 만나요 → ✓매주 만나요, because 매(每) frequency words are adverbs and reject the time-particle 에.",
+      "Confusing 매주 (every week) with 일주일 (one week / a week long) — 매주 운동해요 = exercise weekly, but 일주일 동안 = for one week.",
+      "Saying ✗매주일 as one fused word; the word is 매주, and a day is added separately as 매주 + 월요일/화요일."
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +148,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["매달 월급을 받아요.", "I get my salary every month.", "Used like an adverb"],
-      ["매달 부모님을 만나요.", "I see my parents every month.", "No particle needed"],
-      ["매달 책을 사요.", "I buy books every month.", "Habit with sayo"],
-      ["매달 돈을 모아요.", "I save money every month.", "Routine saving"]
+      ["매달 초", "the start of every month", "초 = beginning; 매달 초에 월급을 받아요"],
+      ["매달 말", "the end of every month", "말 = end; 매달 말에 정산해요 = settle up at month-end"],
+      ["매달 한 번", "once a month", "Frequency count; 매달 한 번 모여요"],
+      ["매달 꼬박꼬박", "every month without fail", "Stresses you never skip a month (rent, savings)"]
     ],
     "examples": [
-      ["매달 방세를 내요.", "I pay rent every month.", "Common bill talk"],
-      ["매달 한 번 모여요.", "We gather once every month.", "Pair with han beon"],
-      ["매달 운동을 시작해요.", "I start exercising every month.", "Light humor possible"]
+      ["매달 책을 사요.", "I buy books every month.", "매달 is adverbial and takes no particle, like 매주"],
+      ["매달 방세를 내요.", "I pay rent every month.", "방세를 내다 = to pay rent; classic monthly-bill collocation"],
+      ["매달 십만 원씩 저금해요.", "I save 100,000 won each month.", "씩 = 'X each/per'; the everyday way to state a recurring amount"]
     ],
-    "nuance": "Maedal means each and every month and works as a frequency adverb, very common when talking about pay, bills, or regular plans.",
-    "mistakes": ["Do not say 매월일 as one word."]
+    "nuance": "매달 is a hybrid: 매(每, Sino 'every') + 달 (native Korean 'month/moon'), literally 'every month'. Its fully Sino twin 매월 (每月) means the same and is interchangeable, though 매월 feels a touch more formal/written (notices, contracts) while 매달 is the warmer spoken choice. Like all 매- words it works as a frequency adverb and takes NO particle (매달 내요), optionally 매달마다 for emphasis. It collocates heavily with money life — 월급(salary), 방세/월세(rent), 저금/적금(savings), 공과금(utility bills) — and with 초/말 (start/end of month). The English-speaker pitfall: don't fuse 월 and 일 into ✗매월일; and keep 매달 (every month, recurring) separate from 한 달 (one month, a single month's duration: 한 달 동안 = for a month). Because 달 also means 'moon', context disambiguates, but in time contexts 매달 is unambiguously 'monthly'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'Every month'. Like all 매- words it works as a frequency adverb and takes NO particle (매달 내요), optionally 매달마다 for emphasis. It collocates heavily with money life — 월급(salary), 방세/월세(rent), 저금/적금(savings), 공과금(utility bills) — and with 초/말 (start/end of month). Because 달 also means 'moon', context disambiguates, but in time contexts 매달 is unambiguously 'monthly'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its fully Sino twin 매월 (每月) means the same and is interchangeable, though 매월 feels a touch more formal/written (notices, contracts) while 매달 is the warmer spoken choice. Keep 매달 (every month, recurring) separate from 한 달 (one month, a single month's duration: 한 달 동안 = for a month)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "A hybrid: 매(每, Sino 'every') + 달 (native Korean 'month/moon'), literally 'every month'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't fuse 월 and 일 into ✗매월일."
+      }
+    ],
+    "mistakes": [
+      "Inventing ✗매월일 — the word is 매달 or 매월; 일(日) is for days, not months.",
+      "Adding 에: ✗매달에 저금해요 → ✓매달 저금해요, since 매- frequency words are already adverbs.",
+      "Mixing up 매달 (every month) with 한 달 (one month): 한 달에 한 번 = once per month uses 한 달 + 에 + 한 번, a different structure."
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +195,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["매년 고향에 가요.", "I go to my hometown every year.", "Used like an adverb"],
-      ["매년 여행을 해요.", "I travel every year.", "No particle needed"],
-      ["매년 시험을 봐요.", "I take an exam every year.", "Habit with bwayo"],
-      ["매년 봄에 꽃이 펴요.", "Flowers bloom every spring.", "Add a season word"]
+      ["매년 봄", "every spring", "Add a season directly: 매년 봄에 꽃이 펴요"],
+      ["매년 생일", "every birthday", "매년 생일에 케이크를 먹어요 = cake on each birthday"],
+      ["매년 초", "the beginning of every year", "초 = start; 매년 초에 계획을 세워요"],
+      ["매년 빠짐없이", "every year without missing one", "빠짐없이 = 'without omission'; stresses an unbroken streak"]
     ],
     "examples": [
-      ["매년 생일에 케이크를 먹어요.", "I eat cake on my birthday each year.", "Yearly event"],
-      ["매년 사람이 많아져요.", "The crowd grows every year.", "Gradual change"],
-      ["매년 새 계획을 세워요.", "I make new plans every year.", "New year talk"]
+      ["매년 여행해요.", "I travel every year.", "Adverbial 매년 needs no particle before the verb"],
+      ["매년 고향에 가요.", "I go to my hometown every year.", "에 attaches to 고향(hometown), the destination, not to 매년"],
+      ["매년 명절마다 가족이 모여요.", "The family gathers every holiday each year.", "Real-life 명절(traditional holiday) gathering; 마다 = 'on each'"]
     ],
-    "nuance": "Maenyeon means each and every year and acts as a frequency adverb, often paired with seasons, holidays, or yearly events.",
-    "mistakes": ["Do not pronounce it like 메년 instead."]
+    "nuance": "매년 is Sino-Korean 每年 (每 'every' + 年 'year'), literally 'each year' — every year without exception, the time-axis sibling of 매일/매주/매달. It functions as a frequency adverb and takes NO particle (매년 가요). Its near-synonym 해마다 (해 = native 'year' + 마다 'each') means exactly the same and is slightly warmer/more spoken; both are correct, so 매년 여행해요 = 해마다 여행해요. 매년 collocates with seasons (매년 봄/겨울), recurring events (매년 생일/명절/시험), and 초/말 (year's start/end). The English-speaker pitfall: pronunciation — 매년 is [매년], NOT [메년]; the vowel ㅐ should not collapse to ㅔ in careful speech. Also keep 매년 (every year, recurring) distinct from 작년 (last year) and 내년 (next year), which are single specific years, and from 일 년 (one year's duration: 일 년 동안 = for one year).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'Each year' — every year without exception, the time-axis sibling of 매일/매주/매달. It functions as a frequency adverb and takes NO particle (매년 가요). 매년 collocates with seasons (매년 봄/겨울), recurring events (매년 생일/명절/시험), and 초/말 (year's start/end)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its near-synonym 해마다 (해 = native 'year' + 마다 'each') means exactly the same and is slightly warmer/more spoken; both are correct, so 매년 여행해요 = 해마다 여행해요. Also keep 매년 (every year, recurring) distinct from 작년 (last year) and 내년 (next year), which are single specific years, and from 일 년 (one year's duration: 일 년 동안 = for one year)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 每年 (每 'every' + 年 'year'), literally 'each year'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Pronunciation — 매년 is [매년], NOT [메년]; the vowel ㅐ should not collapse to ㅔ in careful speech."
+      }
+    ],
+    "mistakes": [
+      "Adding 에: ✗매년에 가요 → ✓매년 가요, because 매- frequency words are adverbs that reject 에.",
+      "Confusing 매년 (every year) with 일 년 (one year long) — 매년 만나요 = meet yearly, but 일 년 동안 = for one whole year.",
+      "Sloppy vowel: pronouncing it [메년]; the first syllable is 매 [mæ], so keep the ㅐ distinct from ㅔ."
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +242,39 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["지금 십 분 남았어요.", "Ten minutes are left now.", "Use Sino number"],
-      ["오 분만 기다려 주세요.", "Please wait just five minutes.", "Add man for only"],
-      ["삼십 분부터 시작해요.", "We start from minute thirty.", "Buteo marks start"],
-      ["오 분 정도 걸려요.", "It takes about five minutes.", "Pair with jeongdo"]
+      ["오 분만", "just five minutes", "만 = 'only'; 오 분만 기다려 주세요 = please wait just five minutes"],
+      ["삼십 분 정도", "about thirty minutes", "정도 = 'about/approximately' for a soft estimate"],
+      ["십 분 후에", "in ten minutes / ten minutes later", "후에 = 'after'; counts forward from now"],
+      ["오 분 동안", "for five minutes", "동안 = 'during/for' a duration of minutes"]
     ],
     "examples": [
-      ["수업이 오 분 늦어요.", "Class is five minutes late.", "Sino number reading"],
-      ["여기서 십 분 걸어요.", "I walk ten minutes from here.", "Walking duration"],
-      ["이 분 후에 만나요.", "Let us meet in two minutes.", "Hu means after"]
+      ["십 분 남았어요.", "Ten minutes are left.", "분 always uses Sino numbers: 십 분, never ✗열 분"],
+      ["여기서 십 분 걸려요.", "It takes ten minutes from here.", "(시간이) 걸리다 = to take (time); the go-to duration verb"],
+      ["세 시 삼십 분에 만나요.", "Let's meet at 3:30.", "Mixed clock: native 세 시 (3 o'clock) + Sino 삼십 분 (30 min)"]
     ],
-    "nuance": "Bun is the time unit minute and always takes Sino Korean numbers like il and i, not the native counting numbers.",
-    "mistakes": ["Do not use native numbers like 하나 분."]
+    "nuance": "분 is the time unit 'minute', written with the hanja 分 (to divide/a part) — a minute being a division of the hour. The crucial rule: 분 ALWAYS takes Sino-Korean numbers (일·이·삼·사·오·...), so it's 오 분, 삼십 분, never the native 하나·둘·셋. This creates Korea's famous mixed clock, where the HOUR uses native numbers + 시 (한 시, 두 시) but the MINUTE uses Sino numbers + 분 (십 분, 삼십 분): 한 시 십 분 = 1:10. Note 분 also means 'a respected person' (한 분 = one person, honorific) and is the honorific counter for people — same syllable, totally different word, disambiguated by context. The English-speaker pitfall: applying the native numbers used for 시 to 분 as well (✗한 분 for one minute — that actually means 'one person, honorific'); the correct 'one minute' is 일 분. Collocates with 후/전 (after/before), 동안 (for), 정도 (about), 만 (only), and 걸리다 (to take).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The time unit 'minute' — a minute being a division of the hour. The crucial rule: 분 ALWAYS takes Sino-Korean numbers (일·이·삼·사·오·...), so it's 오 분, 삼십 분, never the native 하나·둘·셋. This creates Korea's famous mixed clock, where the HOUR uses native numbers + 시 (한 시, 두 시) but the MINUTE uses Sino numbers + 분 (십 분, 삼십 분): 한 시 십 분 = 1:10. Collocates with 후/전 (after/before), 동안 (for), 정도 (about), 만 (only), and 걸리다 (to take)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Written with the hanja 分 (to divide/a part). Note 분 also means 'a respected person' (한 분 = one person, honorific) and is the honorific counter for people — same syllable, totally different word, disambiguated by context."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Applying the native numbers used for 시 to 분 as well (✗한 분 for one minute — that actually means 'one person, honorific'); the correct 'one minute' is 일 분."
+      }
+    ],
+    "mistakes": [
+      "Using native numbers: ✗열 분, ✗다섯 분 → ✓십 분, ✓오 분, because 분 (minute) demands Sino-Korean numbers.",
+      "Carrying the hour pattern into minutes: 한 시 (1 o'clock, native) is right, but 'one minute' is 일 분, not ✗한 분 (which means 'one honored person').",
+      "Forgetting the mixed system in a full time: 1:30 is 한 시 삼십 분 — native hour + Sino minute — not all-native or all-Sino."
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +284,39 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["십 초만 기다려요.", "Wait just ten seconds.", "Use Sino number"],
-      ["삼 초 후에 출발해요.", "We leave in three seconds.", "Hu means after"],
-      ["일 초부터 세요.", "Count from one second.", "Buteo marks start"],
-      ["오 초 정도 걸려요.", "It takes about five seconds.", "Pair with jeongdo"]
+      ["십 초만", "just ten seconds", "만 = 'only'; 십 초만 기다려요"],
+      ["삼십 초 동안", "for thirty seconds", "동안 = 'for' a span; 삼십 초 동안 흔드세요 = shake for 30 sec"],
+      ["삼 초 후에", "in three seconds", "후에 = 'after'; 삼 초 후에 출발해요"],
+      ["몇 초", "how many seconds", "몇 = 'how many' with counters; 몇 초 걸려요? = how many seconds?"]
     ],
     "examples": [
-      ["라면은 삼 분 삼십 초예요.", "Ramyeon takes three minutes thirty seconds.", "Minutes and seconds"],
-      ["삼십 초 동안 흔드세요.", "Shake it for thirty seconds.", "Dongan means during"],
-      ["십 초 안에 답하세요.", "Answer within ten seconds.", "An e means within"]
+      ["십 초 세요.", "Count ten seconds.", "초 takes Sino numbers: 십 초, never ✗열 초"],
+      ["라면은 삼 분 삼십 초예요.", "Ramyeon takes 3 minutes 30 seconds.", "초 pairs with 분 for precise durations: 삼 분 삼십 초"],
+      ["십 초 안에 답하세요.", "Answer within ten seconds.", "(시간) 안에 = 'within' a time limit — quiz/game register"]
     ],
-    "nuance": "Cho is the time unit second and uses Sino Korean numbers, and it often appears together with bun when stating a precise duration.",
-    "mistakes": ["Do not use native numbers like 하나 초."]
+    "nuance": "초 is the time unit 'second', from the hanja 秒 (a tiny fraction of time). Like 분 (minute), it ALWAYS takes Sino-Korean numbers (일·이·삼·...), so it's 십 초, 삼십 초, never native 열·서른. It most often appears alongside 분 to give a precise duration (삼 분 삼십 초 = 3:30 of cooking time, lap times, countdowns) and with 동안 (for), 안에 (within), 후/전 (after/before). Beware: the syllable 초 is a homonym jungle — 초 also means 'candle' (촛불 = candlelight), 'vinegar' (식초), and 'the beginning of' a period (월초 = early month, 초반 = early stage); only context tells them apart. The English-speaker pitfall: again, do not import native numbers (✗열 초); and don't confuse the duration 초 (second) with 첫/처음 (first/at first) — 'the first second' is 첫 일 초, while 처음 means 'at first' in a sequence. For everyday speech Koreans round to 분 and rarely specify 초 except in cooking, sports, or countdowns.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The time unit 'second'. Like 분 (minute), it ALWAYS takes Sino-Korean numbers (일·이·삼·...), so it's 십 초, 삼십 초, never native 열·서른. It most often appears alongside 분 to give a precise duration (삼 분 삼십 초 = 3:30 of cooking time, lap times, countdowns) and with 동안 (for), 안에 (within), 후/전 (after/before). For everyday speech Koreans round to 분 and rarely specify 초 except in cooking, sports, or countdowns."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "From the hanja 秒 (a tiny fraction of time). Beware: the syllable 초 is a homonym jungle — 초 also means 'candle' (촛불 = candlelight), 'vinegar' (식초), and 'the beginning of' a period (월초 = early month, 초반 = early stage); only context tells them apart."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Again, do not import native numbers (✗열 초); and don't confuse the duration 초 (second) with 첫/처음 (first/at first) — 'the first second' is 첫 일 초, while 처음 means 'at first' in a sequence."
+      }
+    ],
+    "mistakes": [
+      "Using native numbers: ✗열 초, ✗스무 초 → ✓십 초, ✓이십 초, since 초 (second) requires Sino-Korean numbers.",
+      "Mixing up the homonyms: 초 here is 'second (time)'; 'candle' is also 초 but appears as 촛불/생일 초, and 'vinegar' is 식초 — context decides.",
+      "Saying ✗일 초 for 'at first' — that means 'one second'; 'at first/first of all' is 처음(에) or 우선, a different word."
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +326,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["출발 시각을 확인해요.", "I check the departure time.", "Often with verbs"],
-      ["도착 시각이 늦었어요.", "The arrival time was late.", "Subject with i"],
-      ["정확한 시각을 몰라요.", "I do not know the exact time.", "With jeonghwakhan"],
-      ["회의 시각부터 적어요.", "I note from the meeting time.", "Buteo marks start"]
+      ["출발 시각", "departure time", "Fixed compound on schedules: 출발 시각을 확인해요"],
+      ["도착 시각", "arrival time", "도착 시각이 늦었어요 = the arrival time was late"],
+      ["정확한 시각", "the exact time", "정확하다 → 정확한; 정확한 시각을 알려 주세요"],
+      ["현재 시각", "the current time", "Formal clock-reading, e.g. on a station display or news"]
     ],
     "examples": [
-      ["기차 시각을 알아봐요.", "I look up the train time.", "Travel context"],
-      ["약속 시각이 다가와요.", "The appointment time approaches.", "Formal feeling"],
-      ["출근 시각이 빨라요.", "My commute time is early.", "Daily schedule"]
+      ["기차 시각을 알아봐요.", "I look up the train time.", "알아보다 = to look into/check; travel-schedule register"],
+      ["회의 시각이 바뀌었어요.", "The meeting time has changed.", "바뀌다 = to change (intransitive); subject takes 이"],
+      ["탑승 시각은 오후 세 시입니다.", "Boarding time is 3 p.m.", "Airport/announcement tone — 시각 fits formal -습니다 speech"]
     ],
-    "nuance": "Sigak means a specific point on the clock such as a departure or arrival moment, and it sounds more formal than the everyday word sigan.",
-    "mistakes": ["Do not confuse 시각 with 시간 duration."]
+    "nuance": "시각 is Sino-Korean 時刻 (時 'time' + 刻 'a carved mark/notch') — literally a 'carved mark of time', i.e. one precise point on the clock, like a departure, arrival, or boarding moment. The all-important contrast is with its near-twin 시간 時間 (時 'time' + 間 'interval/space'): 시각 = a single instant ('at what moment'), whereas 시간 = a span/duration OR the general notion of 'time/hours' ('how long'). So 출발 시각 = the departure moment (e.g. 3:00), but 비행 시간 = the flight duration (e.g. 2 hours). 시각 carries a formal, schedule-board, announcement flavor — you meet it on tickets, timetables, and in news ('현재 시각'), but in casual chat people just say 시간 even for a point in time (몇 시에 만나? rather than 몇 시각에). The English-speaker pitfall: 'time' in English covers both, so learners reach for the familiar 시간 everywhere and never use 시각, or worse, swap them — saying ✗시각이 없어요 for 'I have no time' (that should be 시간이 없어요, a duration). Use 시각 only when you mean a pinpoint moment, usually formal.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "One precise point on the clock, like a departure, arrival, or boarding moment. 시각 carries a formal, schedule-board, announcement flavor — you meet it on tickets, timetables, and in news ('현재 시각'), but in casual chat people just say 시간 even for a point in time (몇 시에 만나? rather than 몇 시각에). Use 시각 only when you mean a pinpoint moment, usually formal."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The all-important contrast is with its near-twin 시간 時間 (時 'time' + 間 'interval/space'): 시각 = a single instant ('at what moment'), whereas 시간 = a span/duration OR the general notion of 'time/hours' ('how long'). So 출발 시각 = the departure moment (e.g. 3:00), but 비행 시간 = the flight duration (e.g. 2 hours)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 時刻 (時 'time' + 刻 'a carved mark/notch') — literally a 'carved mark of time'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Time' in English covers both, so learners reach for the familiar 시간 everywhere and never use 시각, or worse, swap them — saying ✗시각이 없어요 for 'I have no time' (that should be 시간이 없어요, a duration)."
+      }
+    ],
+    "mistakes": [
+      "Saying ✗시각이 없어요 for 'I have no time' — that needs 시간 (duration): 시간이 없어요. 시각 is a single clock point, which you can't 'lack'.",
+      "Using 시각 in casual speech for 'what time' — Koreans say 몇 시에 만나요?, not ✗몇 시각에; reserve 시각 for formal schedules.",
+      "Confusing 시각 (point in time) with the homonym 시각(視覺, 'eyesight/visual sense') — same sound, different hanja; context (clock vs senses) tells them apart."
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +373,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["시험 기간이 길어요.", "The exam period is long.", "Subject with i"],
-      ["방학 기간에 여행해요.", "I travel during the break period.", "Time word plus e"],
-      ["이 기간부터 시작해요.", "We start from this period.", "Buteo marks start"],
-      ["할인 기간을 놓쳤어요.", "I missed the discount period.", "Object with eul"]
+      ["시험 기간", "exam period", "시험 기간이 길어요 = the exam period is long"],
+      ["방학 기간", "vacation period", "방학 기간에 여행해요 = travel during the break"],
+      ["계약 기간", "contract period/term", "계약 기간은 일 년이에요 = the term is one year"],
+      ["할인 기간", "discount/sale period", "할인 기간을 놓쳤어요 = I missed the sale window"]
     ],
     "examples": [
-      ["접수 기간이 끝났어요.", "The application period ended.", "Official notice tone"],
-      ["계약 기간은 일 년이에요.", "The contract period is one year.", "State the length"],
-      ["짧은 기간에 배웠어요.", "I learned it in a short period.", "With jjalbeun"]
+      ["접수 기간이 끝났어요.", "The application period ended.", "Official-notice tone; 접수 = receiving applications"],
+      ["짧은 기간에 많이 배웠어요.", "I learned a lot in a short period.", "짧다 → 짧은; 기간 takes 에 to mean 'within that span'"],
+      ["공사 기간 동안 길이 막혀요.", "The road is blocked during the construction period.", "기간 동안 = 'for the duration of'; everyday signage Korean"]
     ],
-    "nuance": "Gigan means a stretch of time with a start and an end, like an exam season or a contract term, not a single clock moment.",
-    "mistakes": ["Do not confuse 기간 with 시간 hour."]
+    "nuance": "기간 is Sino-Korean 期間 (期 'a fixed term/appointed time' + 間 'interval') — a defined stretch of time with a clear START and END, such as an exam season, a vacation, a contract term, or a sale window. Contrast it sharply with 시간 時間: 시간 is generic 'time/hours/duration' you measure (세 시간 = three hours), while 기간 is a bounded named span you don't usually count in hours (시험 기간 = the exam period, not '×N hours'). Also distinguish 동안, which is the grammatical word for 'during/for' and attaches to spans (방학 동안), whereas 기간 is the noun naming the span itself (often combined: 방학 기간 동안). 기간 collocates with administrative life — 접수/신청 기간 (application period), 계약/임대 기간 (contract/lease term), 유효 기간 (validity period/expiry), 공사 기간 — and takes 에 ('within') or 동안 ('throughout'). The English-speaker pitfall: translating every 'time' as 시간 and saying ✗시험 시간이 길어요 to mean 'the exam season is long' — that actually reads as 'the exam's duration (one sitting) is long'; the season is 시험 기간.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "A defined stretch of time with a clear START and END, such as an exam season, a vacation, a contract term, or a sale window. 기간 collocates with administrative life — 접수/신청 기간 (application period), 계약/임대 기간 (contract/lease term), 유효 기간 (validity period/expiry), 공사 기간 — and takes 에 ('within') or 동안 ('throughout')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it sharply with 시간 時間: 시간 is generic 'time/hours/duration' you measure (세 시간 = three hours), while 기간 is a bounded named span you don't usually count in hours (시험 기간 = the exam period, not '×N hours'). Also distinguish 동안, which is the grammatical word for 'during/for' and attaches to spans (방학 동안), whereas 기간 is the noun naming the span itself (often combined: 방학 기간 동안)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 期間 (期 'a fixed term/appointed time' + 間 'interval')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Translating every 'time' as 시간 and saying ✗시험 시간이 길어요 to mean 'the exam season is long' — that actually reads as 'the exam's duration (one sitting) is long'; the season is 시험 기간."
+      }
+    ],
+    "mistakes": [
+      "Using 시간 for a bounded span: ✗계약 시간 → ✓계약 기간, because a contract has a term (기간), not a clock-duration (시간).",
+      "Saying ✗기간이 걸려요 for 'it takes time' — taking time is 시간이 걸려요; 기간 names a fixed span and doesn't go with 걸리다.",
+      "Confusing 'how long is the period' (기간) with 'how much time' (시간): 유효 기간이 언제까지예요? (until when is it valid) vs 시간이 얼마나 걸려요? (how long does it take)."
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +420,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["최근에 이사했어요.", "I moved recently.", "Usually takes e"],
-      ["최근 뉴스를 봤어요.", "I saw the recent news.", "Modifies the next noun"],
-      ["최근까지 일했어요.", "I worked until recently.", "Kkaji marks end"],
-      ["최근에 바빠졌어요.", "I got busy recently.", "Change with jyeosseoyo"]
+      ["최근에", "recently / lately", "최근에 이사했어요 = I moved recently — 에 needed for the time point"],
+      ["최근 뉴스", "recent news", "As a modifier, 최근 attaches directly: 최근 뉴스를 봤어요"],
+      ["최근까지", "until recently", "까지 = 'up to'; 최근까지 일했어요 = worked until lately"],
+      ["최근 들어", "lately / of late", "Set phrase 들어 = 'entering into'; 최근 들어 부쩍 추워졌어요"]
     ],
     "examples": [
-      ["최근에 책을 많이 읽어요.", "I read many books recently.", "Ongoing habit"],
-      ["최근 날씨가 추워요.", "The weather is cold lately.", "Modifies nalssi"],
-      ["최근에 친구를 만났어요.", "I met a friend recently.", "Past event"]
+      ["최근에 책을 많이 읽어요.", "I've been reading a lot of books lately.", "최근에 + present = an ongoing recent habit"],
+      ["최근에 친구를 만났어요.", "I met a friend recently.", "With past tense, 최근에 marks a recent completed event"],
+      ["최근 몇 년 동안 많이 변했어요.", "It has changed a lot over the past few years.", "최근 + 몇 년 동안 = 'over the recent few years', written/formal feel"]
     ],
-    "nuance": "Choegeun means the recent stretch close to now, and it usually pairs with e for time or directly modifies a following noun.",
-    "mistakes": ["Do not drop 에 in 최근에 갔어요."]
+    "nuance": "최근 is Sino-Korean 最近 (最 'most' + 近 'near') — literally 'most near (in time)', i.e. the recent stretch right up to now. Its near-synonym 요즘 (native, 'these days') overlaps but differs in register and shape: 최근 is more written/formal and works both as a noun-modifier (최근 동향 = recent trends) and, with 에, as a time adverb (최근에 = recently); 요즘 is purely casual-spoken and adverbial (요즘 바빠요), never a noun-modifier (✗요즘 뉴스 sounds off; 최근 뉴스 is right). A subtle nuance gap: 최근 can point to a recent completed event (최근에 갔어요 = I went recently), while 요즘 leans toward the ongoing present situation (요즘 가요 ≈ I go these days). 최근 collocates with 에, 까지, 들어, and number spans (최근 3년/몇 달). The English-speaker pitfall: 'recently' is a bare adverb in English, so learners drop the particle and say ✗최근 갔어요; as a time-point noun 최근 needs 최근에 갔어요. Conversely, when modifying a noun, you DON'T add 에 (최근 소식, not ✗최근에 소식).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'Most near (in time)', i.e. the recent stretch right up to now. 최근 is more written/formal and works both as a noun-modifier (최근 동향 = recent trends) and, with 에, as a time adverb (최근에 = recently). 최근 collocates with 에, 까지, 들어, and number spans (최근 3년/몇 달)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its near-synonym 요즘 (native, 'these days') overlaps but differs in register and shape: 요즘 is purely casual-spoken and adverbial (요즘 바빠요), never a noun-modifier (✗요즘 뉴스 sounds off; 최근 뉴스 is right). A subtle nuance gap: 최근 can point to a recent completed event (최근에 갔어요 = I went recently), while 요즘 leans toward the ongoing present situation (요즘 가요 ≈ I go these days)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 最近 (最 'most' + 近 'near') — literally 'most near (in time)'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Recently' is a bare adverb in English, so learners drop the particle and say ✗최근 갔어요; as a time-point noun 최근 needs 최근에 갔어요. Conversely, when modifying a noun, you DON'T add 에 (최근 소식, not ✗최근에 소식)."
+      }
+    ],
+    "mistakes": [
+      "Dropping 에 as a time adverb: ✗최근 이사했어요 → ✓최근에 이사했어요, because the recent time point takes the 에 particle.",
+      "Using 요즘 as a noun-modifier: ✗요즘 뉴스 → ✓최근 뉴스; 요즘 is adverb-only, while 최근 can sit before a noun.",
+      "Over-stretching 최근 to the distant past — 최근 means 'just lately'; for the remote past use 예전(에) or 옛날(에) instead."
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +467,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["요즘 한국어를 배워요.", "I am learning Korean these days.", "Used like an adverb"],
-      ["요즘 날씨가 좋아요.", "The weather is nice these days.", "No particle needed"],
-      ["요즘 바빠요?", "Are you busy these days?", "Simple question form"],
-      ["요즘부터 운동해요.", "I exercise starting these days.", "Buteo marks start"]
+      ["요즘 어때요?", "How are things these days?", "Stock friendly opener — no particle on 요즘"],
+      ["요즘 들어", "lately (of late)", "들어 = 'coming into'; 요즘 들어 자주 피곤해요 = tired often lately"],
+      ["요즘 같은", "like these days / nowadays", "요즘 같은 시대에 = 'in an age like today's'"],
+      ["요즘 유행", "the current trend", "요즘 유행이에요 = it's trendy these days (spoken)"]
     ],
     "examples": [
-      ["요즘 잠을 잘 못 자요.", "I do not sleep well these days.", "Ongoing situation"],
-      ["요즘 사람들이 바빠요.", "People are busy these days.", "General comment"],
-      ["요즘 뭐 해요?", "What are you up to these days?", "Friendly greeting"]
+      ["요즘 바빠요?", "Are you busy these days?", "요즘 needs no particle; it works straight as an adverb"],
+      ["요즘 잠을 잘 못 자요.", "I haven't been sleeping well lately.", "못 자다 = can't sleep; 요즘 frames an ongoing present state"],
+      ["요즘 뭐 하고 지내요?", "What have you been up to these days?", "지내다 = to get along/spend one's days — warm small-talk Korean"]
     ],
-    "nuance": "Yojeum means around the present period in casual speech and is one of the most common ways to open friendly small talk.",
-    "mistakes": ["Do not treat 요즘 as a past time."]
+    "nuance": "요즘 is a native Korean word (a contraction of 요사이 → 요즈음 → 요즘) meaning 'around now, these days, lately'. It is one of the single most common small-talk openers in Korean, the natural lead-in to 'how have you been?' Its near-synonym 최근(에) (最近, Sino 'most near') means roughly the same time but differs in register and grammar: 요즘 is warm, casual, spoken, strictly adverbial (요즘 바빠요) and CANNOT modify a noun (✗요즘 소식 → use 최근 소식); 최근 is more formal/written and can both modify nouns and, with 에, act as an adverb. Crucially 요즘 takes NO particle — it stands alone before the clause (요즘 어때요?). It pairs with 들어 ('요즘 들어' = of late), with present-tense verbs for ongoing situations, and with 같은 ('요즘 같은' = like nowadays). The English-speaker pitfall: treating 요즘 like a past-time word and saying ✗요즘 갔어요 ('I went these days'?) — 요즘 describes the ongoing present, so use present tense (요즘 가요 / 요즘 다녀요); for a finished recent event switch to 최근에 갔어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "A native Korean word meaning 'around now, these days, lately'. It is one of the single most common small-talk openers in Korean, the natural lead-in to 'how have you been?' Crucially 요즘 takes NO particle — it stands alone before the clause (요즘 어때요?). It pairs with 들어 ('요즘 들어' = of late), with present-tense verbs for ongoing situations, and with 같은 ('요즘 같은' = like nowadays)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its near-synonym 최근(에) (最近, Sino 'most near') means roughly the same time but differs in register and grammar: 요즘 is warm, casual, spoken, strictly adverbial (요즘 바빠요) and CANNOT modify a noun (✗요즘 소식 → use 최근 소식); 최근 is more formal/written and can both modify nouns and, with 에, act as an adverb."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "A native Korean word, a contraction of 요사이 → 요즈음 → 요즘."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Treating 요즘 like a past-time word and saying ✗요즘 갔어요 ('I went these days'?) — 요즘 describes the ongoing present, so use present tense (요즘 가요 / 요즘 다녀요); for a finished recent event switch to 최근에 갔어요."
+      }
+    ],
+    "mistakes": [
+      "Adding a particle: ✗요즘에 바빠요 → ✓요즘 바빠요, because 요즘 is already adverbial and rejects 에.",
+      "Pairing 요즘 with a one-off past event: ✗요즘 친구를 만났어요 (sounds like a habit) → for a single recent meeting say 최근에 친구를 만났어요.",
+      "Using 요즘 to modify a noun: ✗요즘 뉴스 → ✓요즘 나오는 뉴스 or simply 최근 뉴스; 요즘 can't directly precede a noun."
+    ]
   },
   {
     "kind": "noun",
@@ -238,17 +514,38 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": ["grammar-particle-buteo-kkaji"],
     "usage": [
-      ["예전에 여기 살았어요.", "I lived here in the past.", "Usually takes e"],
-      ["예전부터 알았어요.", "I have known it since before.", "Buteo means since"],
-      ["예전 사진을 봤어요.", "I looked at old photos.", "Modifies the next noun"],
-      ["예전보다 좋아졌어요.", "It got better than before.", "Compare with boda"]
+      ["예전에", "in the past / back then", "예전에 여기 살았어요 = I used to live here"],
+      ["예전부터", "since way back", "부터 = 'from/since'; 예전부터 알았어요 = I've known since long ago"],
+      ["예전보다", "than before", "보다 = 'than'; 예전보다 좋아졌어요 = better than before"],
+      ["예전 모습", "one's former appearance", "예전 모습 그대로예요 = just like you used to be"]
     ],
     "examples": [
-      ["예전에는 시간이 많았어요.", "In the past I had lots of time.", "Eun for contrast"],
-      ["예전 친구를 다시 만났어요.", "I met an old friend again.", "Modifies chingu"],
-      ["예전 노래를 좋아해요.", "I like old songs.", "Nostalgic tone"]
+      ["예전에는 시간이 많았어요.", "In the past I had lots of time.", "에는 (에+는) adds 'as for back then', contrasting with now"],
+      ["예전 친구를 다시 만났어요.", "I met an old friend again.", "예전 modifies 친구 directly — an old/former friend"],
+      ["예전만큼 자주 못 봐요.", "We don't see each other as often as we used to.", "예전만큼 = 'as much as before'; nostalgic, real-life tone"]
     ],
-    "nuance": "Yejeon refers to a fairly distant past time before now, often used with a slightly nostalgic feeling when looking back on earlier days.",
-    "mistakes": ["Do not use 예전 for the near past."]
+    "nuance": "예전 means 'the (fairly distant) past, the old days, a while back' and carries a gently nostalgic flavor, the feeling of looking back on how things used to be. Its near-synonyms map onto a distance scale: 옛날 (옛날, native 'olden times') is the most remote — fairy-tale 'once upon a time' (옛날 옛적에) or 'the old days' long gone; 예전 is past but within a person's own lived memory ('back when I was younger'); 최근 (最近) is the recent past close to now. So you'd say 예전에 여기 살았어요 (I used to live here, a few years back) but 옛날 사람들 for 'people of old'. 예전 works both as a time adverb with 에 (예전에) and as a noun-modifier (예전 사진 = old photos), and it loves 부터 (since), 보다/만큼 (than/as much as), and 그대로 (just as it was). The English-speaker pitfall: using 예전 for 'a moment ago / just now' — that's 아까 or 방금, not 예전; 예전 implies a meaningful gap of time, often months or years, viewed with hindsight, not 'earlier today'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'The (fairly distant) past, the old days, a while back', carrying a gently nostalgic flavor, the feeling of looking back on how things used to be. 예전 works both as a time adverb with 에 (예전에) and as a noun-modifier (예전 사진 = old photos), and it loves 부터 (since), 보다/만큼 (than/as much as), and 그대로 (just as it was)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its near-synonyms map onto a distance scale: 옛날 (native 'olden times') is the most remote — fairy-tale 'once upon a time' (옛날 옛적에) or 'the old days' long gone; 예전 is past but within a person's own lived memory ('back when I was younger'); 최근 (最近) is the recent past close to now. So you'd say 예전에 여기 살았어요 (I used to live here, a few years back) but 옛날 사람들 for 'people of old'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Using 예전 for 'a moment ago / just now' — that's 아까 or 방금, not 예전; 예전 implies a meaningful gap of time, often months or years, viewed with hindsight, not 'earlier today'."
+      }
+    ],
+    "mistakes": [
+      "Using 예전 for the very near past: ✗예전에 전화했어요 for 'I called a moment ago' → use 아까/방금 전화했어요; 예전 implies a long-ago time.",
+      "Dropping 에 as an adverb: ✗예전 살았어요 → ✓예전에 살았어요, since the past time point needs the 에 particle.",
+      "Treating 예전 and 옛날 as identical — 옛날 is the remote 'once upon a time / olden days', while 예전 is the nearer, personally-remembered past."
+    ]
   }
 ]

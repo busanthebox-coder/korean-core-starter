@@ -22,16 +22,24 @@
       "shallWe": "구울까요?"
     },
     "usage": [
-      ["고기를 굽다", "to grill meat", "The default verb for Korean BBQ — at a 고깃집 you 고기를 구워 먹어요 (grill and eat the meat yourself)."],
-      ["빵을 굽다", "to bake bread", "Same verb covers oven-baking: 빵을 굽다, 쿠키를 굽다. Korea doesn't split 'bake' vs 'grill' like English."]
+      ["고기를 굽다", "to grill meat", "The default verb at Korean BBQ — at a 고깃집 you 고기를 구워 먹어요 (grill it on the table and eat it yourself)."],
+      ["빵을 굽다", "to bake bread", "Same verb covers oven-baking: 빵을 굽다, 쿠키를 굽다, 케이크를 굽다. Korean doesn't split 'bake' from 'grill'."],
+      ["노릇노릇하게 굽다", "to grill until golden-brown", "노릇노릇하게 is the set onomatopoeic result-adverb for a nice browned surface — pairs almost only with 굽다/튀기다."],
+      ["석쇠에 굽다", "to grill over a wire rack", "Names the tool: 석쇠 (grill rack), 숯불에 굽다 (over charcoal). 직화로 굽다 = grill over an open flame."]
     ],
     "examples": [
-      ["삼겹살은 제가 구울게요.", "I'll grill the pork belly.", "구울게요 (ㅂ-irregular + 을게요) is what you say when you volunteer to man the grill."],
-      ["고기 다 구웠어요?", "Is the meat all grilled?", "Super common table question. 구웠어요 is the ㅂ-irregular past — note it's NOT 굽었어요."],
-      ["김 좀 더 구워 주세요.", "Please grill some more seaweed.", "구워 주세요 — asking staff or a friend to cook a bit more for you."]
+      ["빵 구워요.", "I'm baking bread.", "Simplest possible frame — note the form is 구워요, never 굽어요; the dictionary ㅂ is already gone."],
+      ["고기 다 구웠어요?", "Is the meat all grilled?", "The constant question at the table. 구웠어요 is the ㅂ-irregular past — it is NOT 굽었어요."],
+      ["삼겹살은 제가 구울게요, 앉아 계세요.", "I'll grill the pork belly, you stay seated.", "구울게요 (ㅂ→우 + ㄹ게요) volunteers you for grill duty; said warmly to elders so they don't work."]
     ],
-    "nuance": "굽다 is a ㅂ-irregular verb, so the ㅂ turns into 우 before vowel endings: 구워요, 구웠어요, 구울 거예요. It's the single most useful cooking verb for a foreigner in Korea because Korean BBQ (구이) is everywhere, and the same word also means oven-baking bread or roasting. Don't say 굽어요 — that's a classic learner error.",
-    "mistakes": ["Saying 굽어요/굽었어요 instead of the ㅂ-irregular 구워요/구웠어요.", "Using 굽다 for boiling or frying in oil — those are 삶다/끓이다 and 튀기다."],
+    "nuance": "굽다 is a ㅂ-irregular verb: the dictionary ㅂ becomes 우 before any vowel ending, so the 요-form is 구워요 (not the textbook-looking 굽어요), past 구웠어요, future 구울 거예요 — memorize the 요-form and the rest follows. Meaning-wise it is dry-heat cooking with direct radiant heat: grilling meat, roasting, AND oven-baking bread all fall under this one word, which surprises English speakers who keep three separate verbs. Contrast it sharply with its kitchen neighbours: 굽다 uses no water and little-to-no oil (just the surface), whereas 볶다 tosses food in a little oil and 튀기다 submerges it in lots of oil. It is the single most useful cooking verb for a foreigner here because 구이 (grilled dishes) and Korean BBQ are everywhere. The classic learner trap is writing 굽어요/굽었어요 by analogy with regular verbs — say 구워요/구웠어요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Dry-heat cooking with direct radiant heat: grilling meat, roasting, AND oven-baking bread all fall under this one word — 구이 (grilled dishes) and Korean BBQ are everywhere, making it the single most useful cooking verb for a foreigner here."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast it sharply with its kitchen neighbours: 굽다 uses no water and little-to-no oil (just the surface), whereas 볶다 tosses food in a little oil and 튀기다 submerges it in lots of oil."},
+      {"k": "활용", "e": "FORMS", "t": "굽다 is a ㅂ-irregular verb: the dictionary ㅂ becomes 우 before any vowel ending, so the 요-form is 구워요 (not the textbook-looking 굽어요), past 구웠어요, future 구울 거예요. Memorize the 요-form and the rest follows.", "chips": ["구워요", "구웠어요", "구울 거예요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "One word covers grill/roast/bake, which surprises English speakers who keep three separate verbs. The classic learner trap is writing 굽어요/굽었어요 by analogy with regular verbs — say 구워요/구웠어요."}
+    ],
+    "mistakes": ["Conjugating it as a regular verb: 굽어요/굽었어요. It's ㅂ-irregular, so the ㅂ→우 gives 구워요/구웠어요.", "Using 굽다 for boiling or deep-frying. Boiling a solid is 삶다, boiling a liquid is 끓이다, and deep-frying is 튀기다 — 굽다 is dry direct heat only.", "Forgetting the ㅂ drops before consonant endings too in the future/modifier: it's 구울 거예요 and 구운 고기, not 굽을 거예요/굽은 고기."],
     "irregular": "ㅂ"
   },
   {
@@ -57,16 +65,24 @@
       "shallWe": "볶을까요?"
     },
     "usage": [
-      ["김치를 볶다", "to stir-fry kimchi", "Stir-frying old kimchi (김치볶음밥, 볶음김치) is a staple home dish — 볶다 implies tossing in a hot pan with a bit of oil."],
-      ["야채를 볶다", "to stir-fry vegetables", "Use 볶다 for quick high-heat tossing; the noun form 볶음 names dishes like 제육볶음, 오징어볶음."]
+      ["김치를 볶다", "to stir-fry kimchi", "Stir-frying aged kimchi is a home staple (김치볶음밥, 볶음김치) — 볶다 implies tossing in a hot pan with a little oil."],
+      ["야채를 볶다", "to stir-fry vegetables", "Use 볶다 for quick high-heat tossing; the noun 볶음 then names dishes — 제육볶음, 오징어볶음, 낙지볶음."],
+      ["센 불에 볶다", "to stir-fry on high heat", "센 불 (strong flame) is the set partner: 볶다 is fast and hot, so 센 불에 빨리 볶다 is the natural phrasing."],
+      ["기름을 두르고 볶다", "to coat the pan with oil and stir-fry", "기름을 두르다 (drizzle/coat oil) is the step that always precedes 볶다 — a little oil, not a deep pool."]
     ],
     "examples": [
-      ["밥이랑 김치 넣고 같이 볶아요.", "Put in the rice and kimchi and stir-fry them together.", "Classic 김치볶음밥 instruction — 볶아요 for the tossing action."],
-      ["채소를 센 불에 빨리 볶았어요.", "I stir-fried the vegetables quickly on high heat.", "센 불 = high heat, the natural collocation with 볶다."],
-      ["기름 두르고 마늘부터 볶을까요?", "Shall we coat the pan with oil and stir-fry the garlic first?", "볶을까요? — suggesting a cooking step to someone cooking with you."]
+      ["채소 볶아요.", "I'm stir-frying vegetables.", "Bare-bones frame; 볶아요 keeps the bright ㅏ vowel because the stem vowel ㅗ is bright — never 볶어요."],
+      ["밥이랑 김치 넣고 같이 볶았어요.", "I put in the rice and kimchi and stir-fried them together.", "The 김치볶음밥 move; 같이 볶다 = toss everything together. Past 볶았어요."],
+      ["기름 두르고 마늘부터 볶을까요?", "Shall we coat the pan with oil and stir-fry the garlic first?", "볶을까요? proposes a cooking step to whoever is cooking with you; …부터 = 'starting with'."]
     ],
-    "nuance": "볶다 is a regular verb (볶아요, 볶았어요) and means stir-frying or pan-frying with a small amount of oil over high heat, constantly moving the food. It's distinct from 튀기다 (deep-frying in lots of oil) and 부치다 (pan-frying flat things like 전/jeon). Tons of restaurant dish names end in 볶음 (제육볶음, 낙지볶음), so recognizing this verb helps you read menus.",
-    "mistakes": ["Confusing 볶다 (stir-fry, little oil) with 튀기다 (deep-fry, lots of oil).", "Using 볶다 for pancake-style frying — that's 부치다 (e.g. 전을 부치다)."],
+    "nuance": "볶다 is a regular verb and, because its stem vowel ㅗ is 'bright', it takes 아 endings: 볶아요, 볶았어요, never 볶어요. It means stir-frying or pan-frying in a SMALL amount of oil over high heat while constantly moving the food, so picture a wok-style toss. The dividing lines learners blur: 볶다 = a little oil + tossing; 튀기다 = a deep pool of oil + submerging (deep-fry); 부치다 = a thin film of oil for flat foods like 전/jeon; 굽다 = dry direct heat, no real oil. Tons of restaurant dish names freeze the noun form 볶음 onto the end (제육볶음 stir-fried pork, 낙지볶음 stir-fried octopus), so recognizing this verb lets you decode menus. The English pitfall is mapping every 'fry' to one word — English 'fry' splits in Korean into 볶다/튀기다/부치다, and choosing wrong changes the whole dish.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Stir-frying or pan-frying in a SMALL amount of oil over high heat while constantly moving the food, so picture a wok-style toss. Tons of restaurant dish names freeze the noun form 볶음 onto the end (제육볶음 stir-fried pork, 낙지볶음 stir-fried octopus), so recognizing this verb lets you decode menus."},
+      {"k": "비슷한 말", "e": "VS", "t": "The dividing lines learners blur: 볶다 = a little oil + tossing; 튀기다 = a deep pool of oil + submerging (deep-fry); 부치다 = a thin film of oil for flat foods like 전/jeon; 굽다 = dry direct heat, no real oil."},
+      {"k": "활용", "e": "FORMS", "t": "볶다 is a regular verb and, because its stem vowel ㅗ is 'bright', it takes 아 endings: 볶아요, 볶았어요, never 볶어요.", "chips": ["볶아요", "볶았어요", "볶을까요?"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is mapping every 'fry' to one word — English 'fry' splits in Korean into 볶다/튀기다/부치다, and choosing wrong changes the whole dish."}
+    ],
+    "mistakes": ["Translating English 'fry' as 볶다 when you mean deep-fry. Deep-frying in lots of oil is 튀기다; 볶다 is only a little oil with tossing.", "Using 볶다 for pancake-style flat foods. Pan-frying 전/jeon or 부침개 is 부치다 (전을 부치다), not 볶다.", "Writing 볶어요. The stem vowel is bright (ㅗ), so the ending is 아 → 볶아요/볶았어요."],
     "irregular": null
   },
   {
@@ -92,16 +108,24 @@
       "shallWe": "삶을까요?"
     },
     "usage": [
-      ["계란을 삶다", "to boil an egg", "삶다 = cooking a solid food IN boiling water (eggs, noodles, potatoes), as opposed to 끓이다 (boiling a liquid/soup)."],
-      ["면을 삶다", "to boil noodles", "When you cook pasta or 칼국수, you 면을 삶아요. The pronunciation is [삼따] — the ㄹ in ㄻ is silent here."]
+      ["계란을 삶다", "to boil an egg", "삶다 = cooking a SOLID food submerged in boiling water (eggs, noodles, potatoes), versus 끓이다 (boil a liquid / make soup)."],
+      ["면을 삶다", "to boil noodles", "For pasta, 국수, or 칼국수 you 면을 삶아요. The word is pronounced [삼따] — the ㄹ of the ㄻ batchim is silent here."],
+      ["푹 삶다", "to boil until tender", "푹 (thoroughly, until soft) is the signature partner adverb: 푹 삶다 = simmer-boil until fork-tender."],
+      ["삶은 계란", "boiled egg", "The past-attributive 삶은 + noun labels the result: 삶은 계란, 삶은 감자, 삶은 면 — how menus and recipes name them."]
     ],
     "examples": [
-      ["계란 몇 분 삶아요?", "How many minutes do you boil the eggs?", "Everyday kitchen question; 삶아요 keeps the ㅏ vowel (NOT 삶어요)."],
-      ["감자를 푹 삶았어요.", "I boiled the potatoes until soft.", "푹 삶다 = boil thoroughly/until tender, a very natural collocation."],
-      ["국수 삶을게요, 양념장 만들어 주세요.", "I'll boil the noodles, please make the sauce.", "삶을게요 — splitting kitchen tasks with someone."]
+      ["계란 삶아요.", "I'm boiling eggs.", "Simplest frame; 삶아요 keeps the bright ㅏ vowel — it is NOT 삶어요."],
+      ["감자를 푹 삶았어요.", "I boiled the potatoes until soft.", "푹 삶다 = boil thoroughly until tender, a very natural collocation. Past 삶았어요."],
+      ["국수 삶을게요, 양념장 좀 만들어 주세요.", "I'll boil the noodles, please make the sauce.", "삶을게요 splits the kitchen tasks; …을게요 commits you to the noodle job."]
     ],
-    "nuance": "삶다 means to boil a solid food by submerging it in water — eggs, noodles, potatoes, vegetables, even towels for sanitizing. It contrasts with 끓이다, which is boiling a liquid or making soup/stew. The ㄻ batchim takes a vowel ending (삶아요, 삶았어요), and is pronounced [삼]. A frequent mistake is reaching for 끓이다 when you really mean 삶다.",
-    "mistakes": ["Using 끓이다 (boil a liquid/soup) when you mean 삶다 (boil a solid food in water).", "Writing 삶어요 — the verb stem vowel is bright (ㅏ), so it's 삶아요."],
+    "nuance": "삶다 means to cook a solid food by fully submerging it in boiling water — eggs, noodles, potatoes, greens, even towels for sanitizing. The stem vowel ㅏ is bright, so endings take 아: 삶아요, 삶았어요 (never 삶어요), and the ㄻ batchim is pronounced [삼], giving [삼따]/[살마]. The crucial, constantly-confused boundary is 삶다 vs 끓이다: 삶다 = put a solid INTO water to cook the solid (계란을 삶다); 끓이다 = boil the LIQUID itself or make a brothy dish (물을 끓이다, 찌개를 끓이다). English 'boil' covers both, which is exactly why learners misfire — they say 계란을 끓이다 (literally 'bring the egg to a boil') when they mean 계란을 삶다. Compare also 데치다, which is only a quick few-second blanch, whereas 삶다 is full cooking-through.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "To cook a solid food by fully submerging it in boiling water — eggs, noodles, potatoes, greens, even towels for sanitizing."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial, constantly-confused boundary is 삶다 vs 끓이다: 삶다 = put a solid INTO water to cook the solid (계란을 삶다); 끓이다 = boil the LIQUID itself or make a brothy dish (물을 끓이다, 찌개를 끓이다). Compare also 데치다, which is only a quick few-second blanch, whereas 삶다 is full cooking-through."},
+      {"k": "활용", "e": "FORMS", "t": "The stem vowel ㅏ is bright, so endings take 아: 삶아요, 삶았어요 (never 삶어요), and the ㄻ batchim is pronounced [삼], giving [삼따]/[살마].", "chips": ["삶아요", "삶았어요", "삶은 계란"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English 'boil' covers both 삶다 and 끓이다, which is exactly why learners misfire — they say 계란을 끓이다 (literally 'bring the egg to a boil') when they mean 계란을 삶다."}
+    ],
+    "mistakes": ["Saying 계란을 끓이다 for 'boil an egg'. Boiling a solid IN water is 삶다 → 계란을 삶다; 끓이다 is for boiling a liquid or making soup.", "Writing 삶어요. The stem vowel is bright (ㅏ), so the ending is 아 → 삶아요/삶았어요.", "Confusing it with 데치다. 삶다 cooks food fully through; 데치다 is only a brief blanch of a few seconds."],
     "irregular": null
   },
   {
@@ -127,16 +151,24 @@
       "shallWe": "찔까요?"
     },
     "usage": [
-      ["만두를 찌다", "to steam dumplings", "찐만두 (steamed mandu) vs 군만두 (fried) — the verb tells you the cooking method on the menu."],
-      ["고구마를 찌다", "to steam a sweet potato", "찐 고구마 is a beloved snack. 찌다 = cook with steam, keeping food moist."]
+      ["만두를 찌다", "to steam dumplings", "찐만두 (steamed mandu) vs 군만두 (pan-fried) — the verb on the menu tells you the cooking method."],
+      ["고구마를 찌다", "to steam a sweet potato", "찐 고구마 is a beloved winter snack. 찌다 = cook with steam, which keeps the food moist."],
+      ["찜기에 찌다", "to steam in a steamer", "Names the tool: 찜기 (steamer basket). Related is the dish-type 찜 (갈비찜, 아구찜) cooked by steaming/braising."],
+      ["찐 옥수수", "steamed corn", "The past-attributive 찐 + noun marks steamed foods: 찐빵, 찐 옥수수, 찐 감자 — recognizable street-snack vocabulary."]
     ],
     "examples": [
-      ["만두 좀 쪄 줄 수 있어요?", "Could you steam some dumplings?", "쪄 (찌다 contracts ㅣ+어 → ㅕ) is the form learners often get wrong."],
-      ["호박을 살짝 쪘어요.", "I lightly steamed the zucchini.", "쪘어요 = past of 찌다; 살짝 (lightly/briefly) pairs naturally with steaming."],
-      ["같이 떡 찔까요?", "Shall we steam rice cakes together?", "찔까요? — suggesting steaming as the cooking method."]
+      ["만두 쪄요.", "I'm steaming dumplings.", "Bare frame showing the contraction: 찌 + 어 → 쪄, never the spelled-out 찌어요."],
+      ["호박을 살짝 쪘어요.", "I lightly steamed the zucchini.", "쪘어요 is the past (찌 + 었 → 쪘); 살짝 (lightly/briefly) pairs naturally with gentle steaming."],
+      ["우리 같이 떡 찔까요?", "Shall we steam rice cakes together?", "찔까요? proposes steaming as the method; the stem is just 찌-, so the future modifier is 찔 (not 찌을)."]
     ],
-    "nuance": "찌다 contracts ㅣ + 어 into ㅕ, giving 쪄요 and 쪘어요 — a spot where beginners often write 찌어요 by mistake. It means cooking by steam, which keeps food moist; you'll see it as the 찐- prefix on menus (찐만두, 찐빵, 찐 옥수수). Note this is a homonym of the 찌다 in 살이 찌다 ('to gain weight'), so context matters.",
-    "mistakes": ["Writing 찌어요/찌었어요 instead of the contracted 쪄요/쪘어요.", "Confusing 찌다 (steam) with the identical-looking 찌다 in 살이 찌다 (gain weight)."],
+    "nuance": "찌다 is a single-syllable ㅣ-stem verb, so ㅣ + 어 contracts to ㅕ: the 요-form is 쪄요 and the past is 쪘어요 — a spot where beginners wrongly write 찌어요/찌었어요. It means cooking with steam (hot vapor rising through 찜기), which keeps food moist and soft, and you'll meet it as the 찐- prefix on snacks (찐만두, 찐빵, 찐 고구마) and in the related dish-name suffix 찜 (갈비찜). Distinguish it from its wet-heat neighbours: 삶다 submerges the food in water, 끓이다 boils a liquid, but 찌다 keeps the food ABOVE the water in vapor. The sharpest pitfall, though, is the homonym: this 찌다 is spelled and conjugated identically to the 찌다 in 살이 찌다 ('to gain weight'), so 쪘어요 could mean 'I steamed it' or 'I gained weight' — only context and an object (만두를 쪘어요 vs 살이 쪘어요) tell them apart.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Cooking with steam (hot vapor rising through 찜기), which keeps food moist and soft. You'll meet it as the 찐- prefix on snacks (찐만두, 찐빵, 찐 고구마) and in the related dish-name suffix 찜 (갈비찜)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it from its wet-heat neighbours: 삶다 submerges the food in water, 끓이다 boils a liquid, but 찌다 keeps the food ABOVE the water in vapor."},
+      {"k": "활용", "e": "FORMS", "t": "찌다 is a single-syllable ㅣ-stem verb, so ㅣ + 어 contracts to ㅕ: the 요-form is 쪄요 and the past is 쪘어요 — a spot where beginners wrongly write 찌어요/찌었어요.", "chips": ["쪄요", "쪘어요", "찔까요?"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The sharpest pitfall is the homonym: this 찌다 is spelled and conjugated identically to the 찌다 in 살이 찌다 ('to gain weight'), so 쪘어요 could mean 'I steamed it' or 'I gained weight' — only context and an object (만두를 쪘어요 vs 살이 쪘어요) tell them apart."}
+    ],
+    "mistakes": ["Writing 찌어요/찌었어요. The ㅣ-stem contracts: 찌 + 어 → 쪄요, and the past is 쪘어요.", "Forgetting the homonym: 쪘어요 with no object can read as 'gained weight' (살이 쪘어요). Keep the food object explicit — 만두를 쪘어요.", "Treating 찌다 like 삶다/끓이다. Steaming keeps food above the water in vapor; it does not submerge it."],
     "irregular": null
   },
   {
@@ -162,16 +194,24 @@
       "shallWe": "튀길까요?"
     },
     "usage": [
-      ["치킨을 튀기다", "to deep-fry chicken", "튀기다 = cook submerged in hot oil. The noun 튀김 names dishes like 새우튀김, 야채튀김."],
-      ["기름에 튀기다", "to fry in oil", "Always implies a lot of oil and high heat, unlike 볶다 (stir-fry with a little oil)."]
+      ["치킨을 튀기다", "to deep-fry chicken", "튀기다 = cook fully submerged in hot oil. The noun 튀김 then names dishes — 새우튀김, 야채튀김, 오징어튀김."],
+      ["기름에 튀기다", "to fry in oil", "Always implies a deep pool of oil at high heat, unlike 볶다 (stir-fry with just a little oil)."],
+      ["바삭하게 튀기다", "to fry until crispy", "바삭하게 (crisp/crunchy) is the signature result-adverb for 튀기다 — the whole point of deep-frying."],
+      ["튀김옷을 입히다", "to coat in batter", "튀김옷 (literally 'frying clothes' = batter/breading) is what you 입히다 (dress on) before you 튀기다."]
     ],
     "examples": [
-      ["새우를 바삭하게 튀겼어요.", "I deep-fried the shrimp until crispy.", "바삭하게 (until crispy) is the classic result phrase for 튀기다; past is 튀겼어요."],
-      ["감자튀김 직접 튀겨 먹어요.", "I deep-fry french fries myself.", "튀겨 먹다 = fry (something) and eat it; common 'cook-it-yourself' pattern."],
-      ["기름 뜨거우니까 튀길 때 조심하세요.", "The oil is hot, so be careful when deep-frying.", "튀길 때 = when deep-frying; a natural safety reminder."]
+      ["새우 튀겨요.", "I'm deep-frying shrimp.", "Simplest frame; the contracted form is 튀겨요, never the spelled-out 튀기어요."],
+      ["새우를 바삭하게 튀겼어요.", "I deep-fried the shrimp until crispy.", "바삭하게 = until crispy, the classic result phrase for 튀기다; past 튀겼어요."],
+      ["기름 뜨거우니까 튀길 때 조심하세요.", "The oil is hot, so be careful when deep-frying.", "튀길 때 = 'when deep-frying'; a natural safety reminder. …으니까 gives the reason."]
     ],
-    "nuance": "튀기다 is a regular verb (튀겨요, 튀겼어요) for cooking food submerged in plenty of hot oil. Keep it separate from 볶다 (stir-fry, little oil, constant tossing) and 부치다 (shallow pan-fry flat foods). The 튀김 noun form is everywhere in markets and 분식 shops, so recognizing the verb helps you order. It's also used for 'to bounce' a ball, but the cooking meaning dominates in daily life.",
-    "mistakes": ["Mixing up 튀기다 (deep-fry, lots of oil) with 볶다 (stir-fry, little oil).", "Spelling it 튀기다 but conjugating as 튀기어요 — the correct contracted form is 튀겨요."],
+    "nuance": "튀기다 is a regular ㅣ-stem verb where ㅣ + 어 contracts to ㅕ, so it is 튀겨요/튀겼어요, not 튀기어요/튀기었어요. It specifically means cooking food fully submerged in plenty of hot oil — deep-frying — and the noun form 튀김 plasters menus and 분식 stalls (새우튀김, 오징어튀김, 모둠튀김), so the verb is worth learning just to order. The lines English speakers smear together: 튀기다 = a deep pool of oil, food submerged; 볶다 = a little oil, food tossed (stir-fry); 부치다 = a thin film of oil for flat foods (전/jeon); 굽다 = dry heat, essentially no oil. Because English 'fry' alone is ambiguous, learners over-use 튀기다 for anything cooked in a pan when they often mean 볶다 or 부치다. One more note: 튀기다 also means 'to bounce/flick' (공을 튀기다), but in daily food talk the deep-fry sense dominates.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Cooking food fully submerged in plenty of hot oil — deep-frying. The noun form 튀김 plasters menus and 분식 stalls (새우튀김, 오징어튀김, 모둠튀김), so the verb is worth learning just to order. Note 튀기다 also means 'to bounce/flick' (공을 튀기다), but in daily food talk the deep-fry sense dominates."},
+      {"k": "비슷한 말", "e": "VS", "t": "The lines English speakers smear together: 튀기다 = a deep pool of oil, food submerged; 볶다 = a little oil, food tossed (stir-fry); 부치다 = a thin film of oil for flat foods (전/jeon); 굽다 = dry heat, essentially no oil."},
+      {"k": "활용", "e": "FORMS", "t": "튀기다 is a regular ㅣ-stem verb where ㅣ + 어 contracts to ㅕ, so it is 튀겨요/튀겼어요, not 튀기어요/튀기었어요.", "chips": ["튀겨요", "튀겼어요", "튀길 거예요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Because English 'fry' alone is ambiguous, learners over-use 튀기다 for anything cooked in a pan when they often mean 볶다 or 부치다."}
+    ],
+    "mistakes": ["Using 튀기다 for any pan-cooking. 튀기다 is a deep pool of oil; stir-frying with a little oil is 볶다 and pan-frying flat foods is 부치다.", "Writing 튀기어요/튀기었어요. The ㅣ-stem contracts: 튀기 + 어 → 튀겨요, past 튀겼어요.", "Forgetting the future/modifier drops the 이: it's 튀길 거예요 and 튀긴 새우, not 튀기을 거예요/튀기은 새우."],
     "irregular": null
   },
   {
@@ -197,16 +237,25 @@
       "shallWe": "끓일까요?"
     },
     "usage": [
-      ["라면을 끓이다", "to make ramyeon", "The set phrase for cooking instant ramyeon. Koreans never say 라면을 만들다 for cooking it — it's always 끓이다."],
-      ["물을 끓이다", "to boil water", "끓이다 = bring a liquid to a boil or simmer a soup/stew (찌개를 끓이다, 국을 끓이다)."]
+      ["라면을 끓이다", "to make ramyeon", "The fixed phrase for cooking instant ramyeon. Koreans never say 라면을 만들다 for cooking it — it's always 끓이다."],
+      ["물을 끓이다", "to boil water", "끓이다 = bring a liquid to a boil or simmer a brothy dish: 찌개를 끓이다, 국을 끓이다, 죽을 끓이다."],
+      ["팔팔 끓이다", "to boil hard / at a rolling boil", "팔팔 is the onomatopoeic adverb for a vigorous rolling boil — 팔팔 끓이다 / 물이 팔팔 끓다."],
+      ["국을 끓이다", "to make soup", "Any brothy 국/찌개/탕 is 끓이다, not 만들다 — the act of simmering IS the cooking, so the verb means 'make' here."]
     ],
     "examples": [
-      ["라면 끓여 줄까요?", "Shall I make you some ramyeon?", "끓여 줄까요? — offering to cook ramyeon, an extremely common everyday line."],
-      ["된장찌개를 끓였어요.", "I made soybean-paste stew.", "끓이다 is THE verb for making any 찌개/국; past 끓였어요."],
-      ["물 먼저 끓일게요.", "I'll boil the water first.", "끓일게요 — announcing your next cooking step."]
+      ["라면 끓여요.", "I'm making ramyeon.", "Bare everyday frame; the contracted form is 끓여요, never 끓이어요."],
+      ["된장찌개를 끓였어요.", "I made soybean-paste stew.", "끓이다 is THE verb for making any 찌개/국 — 만들다 sounds wrong here. Past 끓였어요."],
+      ["제가 라면 끓여 줄까요?", "Shall I make you some ramyeon?", "끓여 줄까요? offers to cook for someone — an extremely common, friendly line. …아/어 주다 = do it for you."]
     ],
-    "nuance": "끓이다 is the causative pair of 끓다 ('to be boiling'): you 끓이다 a liquid to make it 끓다. Use it for boiling water and, crucially, for making soups, stews, and ramyeon — 라면을 끓이다 is fixed usage. The key contrast for learners is 삶다 (boil a solid food in water) vs 끓이다 (boil a liquid / make a brothy dish). Conjugates regularly: 끓여요, 끓였어요.",
-    "mistakes": ["Saying 라면을 만들다 instead of the natural 라면을 끓이다.", "Using 끓이다 to boil eggs or noodles — that solid-in-water sense is 삶다."],
+    "nuance": "끓이다 is the causative/transitive partner of 끓다 ('to be boiling'): you 끓이다 a liquid so that it 끓다. As a ㅣ-stem it contracts ㅣ + 어 → ㅕ, giving 끓여요/끓였어요 (not 끓이어요). Use it for boiling water and, crucially, for MAKING any brothy dish — 찌개, 국, 탕, 죽, and famously 라면 (라면을 끓이다 is frozen usage; never 라면을 만들다). The boundary learners must nail is 끓이다 vs 삶다: 끓이다 acts on the LIQUID or the dish (물을 끓이다, 김치찌개를 끓이다), while 삶다 acts on a SOLID dropped into water (계란을 삶다, 면을 삶다). English 'boil' flattens this distinction, so beginners say 라면을 삶다 or 계란을 끓이다 and sound off. Picture it this way: if the water is the point, 끓이다; if a solid going INTO the water is the point, 삶다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Use it for boiling water and, crucially, for MAKING any brothy dish — 찌개, 국, 탕, 죽, and famously 라면 (라면을 끓이다 is frozen usage; never 라면을 만들다)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The boundary learners must nail is 끓이다 vs 삶다: 끓이다 acts on the LIQUID or the dish (물을 끓이다, 김치찌개를 끓이다), while 삶다 acts on a SOLID dropped into water (계란을 삶다, 면을 삶다). Picture it this way: if the water is the point, 끓이다; if a solid going INTO the water is the point, 삶다."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "끓이다 is the causative/transitive partner of 끓다 ('to be boiling'): you 끓이다 a liquid so that it 끓다."},
+      {"k": "활용", "e": "FORMS", "t": "As a ㅣ-stem it contracts ㅣ + 어 → ㅕ, giving 끓여요/끓였어요 (not 끓이어요).", "chips": ["끓여요", "끓였어요", "끓일 거예요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English 'boil' flattens the distinction between 끓이다 and 삶다, so beginners say 라면을 삶다 or 계란을 끓이다 and sound off."}
+    ],
+    "mistakes": ["Saying 라면을 만들다 for cooking ramyeon. The set verb is 끓이다 → 라면을 끓이다.", "Using 끓이다 to boil eggs or noodles. Boiling a solid in water is 삶다 → 계란을 삶다, 면을 삶다.", "Writing 끓이어요/끓이었어요. The ㅣ-stem contracts: 끓이 + 어 → 끓여요, past 끓였어요."],
     "irregular": null
   },
   {
@@ -232,16 +281,24 @@
       "shallWe": "데칠까요?"
     },
     "usage": [
-      ["시금치를 데치다", "to blanch spinach", "Step one of most 나물 side dishes: quickly boil greens, then drain and season (무치다)."],
-      ["살짝 데치다", "to blanch briefly", "데치다 always means a SHORT dunk in boiling water — 살짝 데치다 is almost redundant but very common."]
+      ["시금치를 데치다", "to blanch spinach", "Step one of most 나물 side dishes: a quick dunk in boiling water, then drain and season (무치다)."],
+      ["살짝 데치다", "to blanch briefly", "데치다 already means a SHORT dunk, so 살짝 데치다 ('blanch lightly') is almost redundant — yet extremely common and natural."],
+      ["끓는 물에 데치다", "to blanch in boiling water", "끓는 물에 (in boiling water) is the standard prepositional partner — the water must already be at a boil."],
+      ["데쳐서 무치다", "to blanch and then season", "데치다 + 무치다 is the frozen two-step recipe of Korean banchan: blanch the green, then dress it."]
     ],
     "examples": [
-      ["콩나물을 살짝 데쳤어요.", "I quickly blanched the bean sprouts.", "데쳤어요 = past of 데치다 (ㅣ+어 → ㅕ); pairs with 살짝."],
-      ["브로콜리는 끓는 물에 데쳐 주세요.", "Please blanch the broccoli in boiling water.", "끓는 물에 데치다 = the standard blanching instruction."],
-      ["나물 데칠까요?", "Shall I blanch the greens?", "데칠까요? — offering to do the blanching step."]
+      ["콩나물 데쳐요.", "I'm blanching bean sprouts.", "Simplest frame; the contraction is 데쳐요 (데치 + 어 → 데쳐), never 데치어요."],
+      ["시금치를 살짝 데쳤어요.", "I quickly blanched the spinach.", "데쳤어요 is the past; 살짝 (just briefly) is the signature partner for a short blanch."],
+      ["나물 같이 데칠까요?", "Shall I blanch the greens with you?", "데칠까요? offers to do the blanching step; the stem drops 이 in the modifier → 데칠 (not 데치을)."]
     ],
-    "nuance": "데치다 means a quick blanch — dropping vegetables (or sometimes squid) into boiling water for just seconds to soften them and lock in color, then draining. It's a prep step, not full cooking, and is the gateway to Korean 나물 banchan: 데치다 then 무치다 (season). Don't confuse it with 데우다 (to reheat already-cooked food), which sounds similar but is unrelated. Conjugates 데쳐요, 데쳤어요.",
-    "mistakes": ["Confusing 데치다 (blanch in boiling water) with 데우다 (reheat food).", "Treating 데치다 as full boiling — it's only a brief dunk; longer cooking is 삶다/끓이다."],
+    "nuance": "데치다 is a regular ㅣ-stem verb (데쳐요/데쳤어요, ㅣ + 어 → ㅕ) meaning a quick blanch: dropping vegetables (or sometimes squid, bean sprouts) into already-boiling water for just a handful of seconds to soften them and set their color, then immediately draining. It is a PREP step, not full cooking, which is the line that separates it from 삶다 (boil a solid all the way through) and 끓이다 (boil a liquid / simmer a dish). It is the gateway move of Korean 나물 banchan: 데치다 then 무치다 (season). The pitfall that trips English speakers is the near-twin 데우다 ('to reheat/warm up already-cooked food'): same friendly 데- start, totally different job — 국을 데우다 reheats yesterday's soup, while 시금치를 데치다 blanches raw spinach. Mixing them up makes a recipe nonsensical, so anchor 데치다 = raw → boiling water → quick dunk.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "A quick blanch: dropping vegetables (or sometimes squid, bean sprouts) into already-boiling water for just a handful of seconds to soften them and set their color, then immediately draining. It is a PREP step, not full cooking, and the gateway move of Korean 나물 banchan: 데치다 then 무치다 (season)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Being a prep step, not full cooking, is the line that separates 데치다 from 삶다 (boil a solid all the way through) and 끓이다 (boil a liquid / simmer a dish)."},
+      {"k": "활용", "e": "FORMS", "t": "데치다 is a regular ㅣ-stem verb (ㅣ + 어 → ㅕ): 데쳐요, 데쳤어요, and the stem drops 이 in the modifier → 데칠.", "chips": ["데쳐요", "데쳤어요", "데칠까요?"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall that trips English speakers is the near-twin 데우다 ('to reheat/warm up already-cooked food'): same friendly 데- start, totally different job — 국을 데우다 reheats yesterday's soup, while 시금치를 데치다 blanches raw spinach. Anchor 데치다 = raw → boiling water → quick dunk."}
+    ],
+    "mistakes": ["Confusing 데치다 with 데우다. 데치다 = blanch raw food in boiling water; 데우다 = reheat already-cooked food (국을 데우다).", "Treating 데치다 as full boiling. It's only a brief few-second dunk; cooking a solid all the way through is 삶다.", "Writing 데치어요/데치었어요. The ㅣ-stem contracts: 데치 + 어 → 데쳐요, past 데쳤어요."],
     "irregular": null
   },
   {
@@ -267,16 +324,24 @@
       "shallWe": "무칠까요?"
     },
     "usage": [
-      ["나물을 무치다", "to season namul", "The defining verb for Korean side dishes: mix blanched greens with 양념 by hand. 무침 (the noun) names dishes like 오이무침, 골뱅이무침."],
-      ["양념에 무치다", "to toss with seasoning", "무치다 means coating an ingredient evenly with sauce/seasoning, usually by hand or tongs."]
+      ["나물을 무치다", "to season namul", "The defining verb of Korean side dishes: mix blanched greens with 양념 by hand. The noun 무침 names dishes — 오이무침, 골뱅이무침."],
+      ["양념에 무치다", "to toss with seasoning", "무치다 means coating an ingredient evenly with seasoning/sauce, usually by hand or with tongs."],
+      ["조물조물 무치다", "to toss/massage by hand", "조물조물 is the onomatopoeic adverb for gently squeezing seasoning in by hand — almost exclusively paired with 무치다."],
+      ["새콤하게 무치다", "to dress tangy", "Taste-adverbs in -하게 are the natural partners: 새콤하게 (tangy), 매콤하게 (spicy), 짭짤하게 (savory-salty) 무치다."]
     ],
     "examples": [
-      ["시금치를 참기름에 무쳤어요.", "I dressed the spinach with sesame oil.", "무쳤어요 = past; 참기름에 무치다 is the quintessential namul finish."],
-      ["오이 좀 새콤하게 무쳐 주세요.", "Please dress the cucumber to be tangy.", "무쳐 주세요 — asking someone to season-toss it; 새콤하게 = tangy."],
-      ["콩나물 데쳐서 무칠까요?", "Shall we blanch the bean sprouts and then season them?", "데치다 + 무치다 = the standard two-step for banchan; 무칠까요? proposes the step."]
+      ["시금치 무쳐요.", "I'm seasoning the spinach.", "Bare frame; the contraction is 무쳐요 (무치 + 어 → 무쳐), never 무치어요."],
+      ["시금치를 참기름에 무쳤어요.", "I dressed the spinach with sesame oil.", "참기름에 무치다 is the quintessential namul finish; past 무쳤어요."],
+      ["콩나물 데쳐서 무칠까요?", "Shall we blanch the bean sprouts and then season them?", "데치다 + 무치다 = the standard banchan two-step; 무칠까요? proposes the dressing step."]
     ],
-    "nuance": "무치다 is the hands-on tossing that finishes most Korean banchan: you blanch (데치다) a vegetable, then 무치다 it with seasoning until evenly coated. The noun 무침 labels a whole category of cold seasoned dishes (무침류) on menus. Conjugates 무쳐요, 무쳤어요. Don't mix it up with 비비다 (to mix by stirring, like bibimbap) — 무치다 specifically means dressing/coating, often by hand.",
-    "mistakes": ["Confusing 무치다 (season/dress by tossing) with 비비다 (stir/mix together).", "Spelling it 뭍이다 or similar — the verb is 무치다, conjugated 무쳐요."],
+    "nuance": "무치다 is the hands-on tossing that FINISHES most Korean banchan: you blanch (데치다) a vegetable, then 무치다 it with 양념 — sesame oil, garlic, soy or gochujang — until every strand is evenly coated, traditionally squeezing it 조물조물 by hand. As a ㅣ-stem it contracts to 무쳐요/무쳤어요. The noun 무침 labels a whole menu category of cold seasoned dishes (오이무침, 골뱅이무침, 무생채). The contrast learners MUST keep straight is 무치다 vs 비비다: 무치다 means DRESSING/coating a single ingredient with seasoning so it absorbs the flavor (a side dish), whereas 비비다 means STIRRING many components together into one mixed dish (비빔밥, 비빔국수). They feel similar in English ('mix/toss'), but a Korean would never say 밥을 무치다 for bibimbap or 나물을 비비다 for seasoned spinach. Anchor it: 무치다 = season one thing; 비비다 = stir everything together.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "The hands-on tossing that FINISHES most Korean banchan: you blanch (데치다) a vegetable, then 무치다 it with 양념 — sesame oil, garlic, soy or gochujang — until every strand is evenly coated, traditionally squeezing it 조물조물 by hand. The noun 무침 labels a whole menu category of cold seasoned dishes (오이무침, 골뱅이무침, 무생채)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The contrast learners MUST keep straight is 무치다 vs 비비다: 무치다 means DRESSING/coating a single ingredient with seasoning so it absorbs the flavor (a side dish), whereas 비비다 means STIRRING many components together into one mixed dish (비빔밥, 비빔국수). A Korean would never say 밥을 무치다 for bibimbap or 나물을 비비다 for seasoned spinach. Anchor it: 무치다 = season one thing; 비비다 = stir everything together."},
+      {"k": "활용", "e": "FORMS", "t": "As a ㅣ-stem it contracts to 무쳐요/무쳤어요.", "chips": ["무쳐요", "무쳤어요", "무칠까요?"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "무치다 and 비비다 feel similar in English ('mix/toss'), so learners blur them — but each maps to a different action."}
+    ],
+    "mistakes": ["Confusing 무치다 with 비비다. 무치다 = dress/season one ingredient (나물을 무치다); 비비다 = stir several things together (밥을 비비다).", "Spelling it 뭍이다 or 무티다. The verb is 무치다, conjugated 무쳐요/무쳤어요.", "Using the wrong particle for the seasoning: it's 참기름에 무치다 (에 = with/in the seasoning), not 참기름을 무치다."],
     "irregular": null
   },
   {
@@ -302,16 +367,24 @@
       "shallWe": "썰까요?"
     },
     "usage": [
-      ["야채를 썰다", "to slice vegetables", "썰다 is the cooking-specific 'cut' — slicing food on a cutting board (도마). More natural than 자르다 in the kitchen."],
-      ["얇게 썰다", "to slice thinly", "Pairs with size adverbs: 얇게 썰다 (thinly), 어슷썰다 (on a diagonal), 송송 썰다 (into thin rounds)."]
+      ["야채를 썰다", "to slice vegetables", "썰다 is the kitchen-specific 'cut' — slicing food on a board (도마). Far more natural than 자르다 for prepping food."],
+      ["얇게 썰다", "to slice thinly", "Pairs with manner-adverbs: 얇게 (thinly), 두껍게 (thickly), 채 썰다 (julienne), 깍둑썰다 (dice into cubes)."],
+      ["송송 썰다", "to slice into thin rounds", "송송 is the onomatopoeic adverb for chopping scallions into little rounds — 대파를 송송 썰다 is a set phrase."],
+      ["어슷하게 썰다", "to slice on a diagonal", "어슷썰기 (diagonal slicing) is a standard recipe cut for 대파/고추 — 어슷하게 썰다 or just 어슷썰다."]
     ],
     "examples": [
-      ["대파를 송송 썰어 주세요.", "Please slice the green onion into thin rounds.", "송송 썰다 = mince into little rounds, a set kitchen phrase; 썰어 주세요 to ask for it."],
-      ["고기를 한입 크기로 썰었어요.", "I cut the meat into bite-sized pieces.", "썰었어요 = past (ㄹ stem keeps ㄹ before 어); 한입 크기 = bite-size."],
-      ["제가 양파 썰까요?", "Shall I slice the onions?", "썰까요? — the ㄹ drops before ㄹ/ㄴ/ㅂ/ㅅ, hence 썰까 (not 썰을까)."]
+      ["양파 썰어요.", "I'm slicing onions.", "Bare frame; the ㄹ stays before the vowel ending → 썰어요, not 써요."],
+      ["고기를 한입 크기로 썰었어요.", "I cut the meat into bite-sized pieces.", "썰었어요 keeps the ㄹ before 었; 한입 크기로 = into bite-size. …(으)로 marks the resulting shape."],
+      ["제가 대파 썰까요?", "Shall I slice the green onion?", "썰까요? — the ㄹ DROPS before the ㄲ of 까, so it's 썰까 (not 썰을까)."]
     ],
-    "nuance": "썰다 is a ㄹ-irregular verb: the ㄹ disappears before ㄴ/ㅂ/ㅅ endings (썹니다, 써세요) but stays before vowel endings (썰어요, 썰었어요). In the kitchen 썰다 is far more natural than the general 자르다 (already in your deck) for slicing food on a board. Learn it with the cutting adverbs — 얇게, 채 썰다 (julienne), 어슷, 송송 — which appear constantly in recipes.",
-    "mistakes": ["Keeping the ㄹ in front of ㅂ/ㅅ — it's 썹니다 and 써세요, not 썰습니다/썰으세요.", "Using 자르다 for everything; in cooking, slicing food is more naturally 썰다."],
+    "nuance": "썰다 is a ㄹ-irregular (ㄹ-dropping) verb: the stem ㄹ vanishes before endings starting with ㄴ/ㅂ/ㅅ and before the ㄹ of -(으)ㄹ, giving 썹니다, 써세요, 썰 거예요, 썰까요? — but the ㄹ STAYS before vowel endings, so 썰어요/썰었어요. In the kitchen 썰다 is the natural verb for slicing food on a 도마 (cutting board), much more idiomatic than the general-purpose 자르다, which you'd use for cutting paper, hair, or a rope. The dividing line: 자르다 = cut/sever anything into pieces (broad); 썰다 = rhythmically slice food with a knife on a board (specific). Learn it bundled with the cutting adverbs you'll meet in every recipe — 얇게, 채 썰다 (julienne), 어슷하게, 송송, 깍둑썰다 — because Korean encodes the cut SHAPE in these adverbs rather than in the verb. The English-speaker trap is leaning on 자르다 for all cutting; for food prep, 썰다 is what sounds like a cook.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "In the kitchen 썰다 is the natural verb for slicing food on a 도마 (cutting board), much more idiomatic than the general-purpose 자르다. Learn it bundled with the cutting adverbs you'll meet in every recipe — 얇게, 채 썰다 (julienne), 어슷하게, 송송, 깍둑썰다 — because Korean encodes the cut SHAPE in these adverbs rather than in the verb."},
+      {"k": "비슷한 말", "e": "VS", "t": "The dividing line: 자르다 = cut/sever anything into pieces (broad), used for paper, hair, or a rope; 썰다 = rhythmically slice food with a knife on a board (specific)."},
+      {"k": "활용", "e": "FORMS", "t": "썰다 is a ㄹ-irregular (ㄹ-dropping) verb: the stem ㄹ vanishes before endings starting with ㄴ/ㅂ/ㅅ and before the ㄹ of -(으)ㄹ, giving 썹니다, 써세요, 썰 거예요, 썰까요? — but the ㄹ STAYS before vowel endings, so 썰어요/썰었어요.", "chips": ["썰어요", "썰었어요", "썹니다", "썰까요?"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker trap is leaning on 자르다 for all cutting; for food prep, 썰다 is what sounds like a cook."}
+    ],
+    "mistakes": ["Keeping the ㄹ before ㅂ/ㅅ endings. It drops: 썹니다 and 써세요, not 썰습니다/썰으세요.", "Adding 을 in the future/proposal. The ㄹ-stem just takes ㄹ: 썰 거예요, 썰까요? — not 썰을 거예요/썰을까요.", "Using 자르다 for everything in the kitchen. Slicing food on a board is more naturally 썰다; save 자르다 for paper, hair, rope."],
     "irregular": "ㄹ"
   },
   {
@@ -337,16 +410,24 @@
       "shallWe": "다질까요?"
     },
     "usage": [
-      ["마늘을 다지다", "to mince garlic", "다진 마늘 (minced garlic) is in almost every Korean recipe; you can even buy it pre-minced at the mart."],
-      ["다진 고기", "minced/ground meat", "The past-attributive 다진 + noun is how you describe pre-minced ingredients: 다진 고기, 다진 양파, 다진 마늘."]
+      ["마늘을 다지다", "to mince garlic", "다진 마늘 (minced garlic) goes into nearly every Korean recipe; you can even buy it pre-minced at the mart."],
+      ["잘게 다지다", "to chop finely", "잘게 (into tiny pieces) is the natural partner adverb — finer than 썰다, almost to a paste."],
+      ["다진 고기", "minced / ground meat", "The past-attributive 다진 + noun names pre-minced ingredients: 다진 고기, 다진 양파, 다진 생강."],
+      ["곱게 다지다", "to mince very fine/smooth", "곱게 (smoothly/finely) is used when you want an even, almost-paste texture — 마늘을 곱게 다지다."]
     ],
     "examples": [
-      ["마늘이랑 양파를 잘게 다졌어요.", "I finely minced the garlic and onion.", "잘게 다지다 = mince finely; 다졌어요 is the past."],
-      ["생강도 좀 다져 주세요.", "Please mince some ginger too.", "다져 주세요 — asking for an ingredient to be minced."],
-      ["다진 고기로 동그랑땡 만들까요?", "Shall we make patties with the minced meat?", "다진 고기 = ground meat; shows the attributive form in real use."]
+      ["마늘 다져요.", "I'm mincing garlic.", "Bare frame; the contraction is 다져요 (다지 + 어 → 다져), never 다지어요."],
+      ["마늘이랑 양파를 잘게 다졌어요.", "I finely minced the garlic and onion.", "잘게 다지다 = mince finely; past 다졌어요. …이랑 = casual 'and'."],
+      ["생강도 좀 다져 주세요.", "Please mince some ginger too.", "다져 주세요 asks for an ingredient to be minced; …도 = 'too/also'."]
     ],
-    "nuance": "다지다 means chopping something into very fine pieces — finer than 썰다. It shows up constantly as the attributive 다진 (다진 마늘, 다진 고기) in recipes and on product labels, so it's worth recognizing even before you cook much. Conjugates regularly: 다져요, 다졌어요. The same verb metaphorically means 'to firm up / consolidate' (기초를 다지다), but the kitchen sense is what you'll use daily.",
-    "mistakes": ["Confusing 다지다 (mince, very fine) with 썰다 (slice into pieces).", "Forgetting the attributive 다진 — say 다진 마늘, not 다지는 마늘, for 'minced garlic'."],
+    "nuance": "다지다 means chopping something into very fine, near-uniform bits — distinctly finer than 썰다, often almost a paste. As a regular ㅣ-stem it contracts to 다져요/다졌어요. It shows up constantly as the past-attributive 다진 (다진 마늘, 다진 고기, 다진 파) on recipe cards and product labels, so it's worth recognizing even before you cook much — 다진 마늘 and ground meat (다진 고기) are pantry basics. The boundary with 썰다 is purely about FINENESS and motion: 썰다 is rhythmic slicing into visible pieces on a board, while 다지다 is repeated fine chopping until the pieces are tiny. Note the same verb has a vivid non-food sense, 'to firm up / consolidate' (기초를 다지다 'lay a firm foundation', 마음을 다지다 'steel one's resolve), but the kitchen meaning is what you'll use daily. English-speaker pitfall: don't reach for the present-participle 다지는 when you want the finished 'minced' — Korean uses the past-attributive 다진 for that already-minced state.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Chopping something into very fine, near-uniform bits — distinctly finer than 썰다, often almost a paste. It shows up constantly as the past-attributive 다진 (다진 마늘, 다진 고기, 다진 파) on recipe cards and product labels — 다진 마늘 and ground meat (다진 고기) are pantry basics. The same verb has a vivid non-food sense, 'to firm up / consolidate' (기초를 다지다 'lay a firm foundation', 마음을 다지다 'steel one's resolve), but the kitchen meaning is what you'll use daily."},
+      {"k": "비슷한 말", "e": "VS", "t": "The boundary with 썰다 is purely about FINENESS and motion: 썰다 is rhythmic slicing into visible pieces on a board, while 다지다 is repeated fine chopping until the pieces are tiny."},
+      {"k": "활용", "e": "FORMS", "t": "As a regular ㅣ-stem it contracts to 다져요/다졌어요.", "chips": ["다져요", "다졌어요", "다진 마늘"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Don't reach for the present-participle 다지는 when you want the finished 'minced' — Korean uses the past-attributive 다진 for that already-minced state."}
+    ],
+    "mistakes": ["Confusing 다지다 with 썰다. 다지다 = mince into tiny bits/near-paste; 썰다 = slice into visible pieces.", "Saying 다지는 마늘 for 'minced garlic'. The already-minced state uses the past-attributive → 다진 마늘.", "Writing 다지어요/다지었어요. The ㅣ-stem contracts: 다지 + 어 → 다져요, past 다졌어요."],
     "irregular": null
   },
   {
@@ -372,16 +453,24 @@
       "shallWe": "비빌까요?"
     },
     "usage": [
-      ["밥을 비비다", "to mix rice (into bibimbap)", "비비다 is the verb hiding in 비빔밥 — you 밥을 비벼 먹어요, stirring rice with toppings and gochujang."],
-      ["눈을 비비다", "to rub one's eyes", "Outside the kitchen, 비비다 means rubbing two surfaces together (눈을 비비다, 손을 비비다)."]
+      ["밥을 비비다", "to mix rice (into bibimbap)", "비비다 is the verb hiding inside 비빔밥 — you 밥을 비벼 먹어요, stirring rice with toppings and gochujang."],
+      ["눈을 비비다", "to rub one's eyes", "Outside the kitchen, 비비다 means rubbing two surfaces together: 눈을 비비다, 손을 비비다, 등을 비비다."],
+      ["골고루 비비다", "to mix evenly", "골고루 (evenly, all over) is the natural partner — the goal of 비비다 is even distribution: 양념이 골고루 비벼지게."],
+      ["고추장에 비비다", "to mix with gochujang", "The sauce takes 에: 고추장에/참기름에 비비다 = stir it together with gochujang/sesame oil."]
     ],
     "examples": [
-      ["고추장 넣고 잘 비벼서 드세요.", "Add gochujang and mix it well before eating.", "비벼서 드세요 = mix it and then eat; the standard bibimbap instruction."],
-      ["참기름 넣고 비볐어요.", "I added sesame oil and mixed it.", "비볐어요 = past of 비비다 (ㅣ+어 → ㅕ)."],
-      ["비빔국수 같이 비빌까요?", "Shall we mix the spicy noodles together?", "비빌까요? — proposing to do the mixing; note the pun-like 비빔/비비다 pairing."]
+      ["밥 비벼요.", "I'm mixing the rice.", "Bare bibimbap frame; the contraction is 비벼요 (비비 + 어 → 비벼), never 비비어요."],
+      ["고추장 넣고 잘 비벼서 드세요.", "Add gochujang and mix it well before eating.", "비벼서 드세요 = mix it, then eat — the standard table instruction. 잘 = well/thoroughly."],
+      ["우리 비빔국수 같이 비빌까요?", "Shall we mix the spicy noodles together?", "비빌까요? proposes the mixing; note the near-pun of 비빔(국수) and the verb 비비다."]
     ],
-    "nuance": "비비다 means mixing by stirring and tossing everything together — it's literally the root of 비빔밥 and 비빔국수. The key contrast for cooks is 비비다 (stir everything together evenly, like bibimbap) vs 무치다 (dress/coat an ingredient with seasoning, usually a side dish). It conjugates regularly (비벼요, 비볐어요) and also means 'to rub' (눈을 비비다) in non-food contexts. A super practical word at any Korean table.",
-    "mistakes": ["Confusing 비비다 (stir/mix together) with 무치다 (season/dress an ingredient).", "Writing 비비어요 instead of the contracted 비벼요."],
+    "nuance": "비비다 means mixing by stirring and tossing many things together until evenly combined — it is literally the root of 비빔밥 and 비빔국수 (비빔 = the noun 'mixing'). As a regular ㅣ-stem it contracts to 비벼요/비볐어요. The contrast cooks must keep straight is 비비다 vs 무치다: 비비다 STIRS several components into one mixed dish (rice + toppings + sauce → bibimbap), whereas 무치다 DRESSES a single ingredient with seasoning so it soaks in (a side dish like 나물). English 'mix/toss' covers both, so beginners blur them — but 밥을 무치다 or 나물을 비비다 both sound wrong to a Korean. Beyond food, the same verb means physically rubbing two surfaces (눈을 비비다 'rub your eyes', 손을 비비다 'rub your hands', often in a pleading gesture), which is a handy everyday extension. Anchor it: at the table, 비비다 = stir it all together and eat.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Mixing by stirring and tossing many things together until evenly combined — it is literally the root of 비빔밥 and 비빔국수 (비빔 = the noun 'mixing'). Beyond food, the same verb means physically rubbing two surfaces (눈을 비비다 'rub your eyes', 손을 비비다 'rub your hands', often in a pleading gesture), a handy everyday extension. Anchor it: at the table, 비비다 = stir it all together and eat."},
+      {"k": "비슷한 말", "e": "VS", "t": "The contrast cooks must keep straight is 비비다 vs 무치다: 비비다 STIRS several components into one mixed dish (rice + toppings + sauce → bibimbap), whereas 무치다 DRESSES a single ingredient with seasoning so it soaks in (a side dish like 나물). 밥을 무치다 or 나물을 비비다 both sound wrong to a Korean."},
+      {"k": "활용", "e": "FORMS", "t": "As a regular ㅣ-stem it contracts to 비벼요/비볐어요.", "chips": ["비벼요", "비볐어요", "비빌까요?"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English 'mix/toss' covers both 비비다 and 무치다, so beginners blur them."}
+    ],
+    "mistakes": ["Confusing 비비다 with 무치다. 비비다 = stir many things together (밥을 비비다); 무치다 = season/dress one ingredient (나물을 무치다).", "Writing 비비어요/비비었어요. The ㅣ-stem contracts: 비비 + 어 → 비벼요, past 비볐어요.", "Using the wrong particle for the sauce: it's 고추장에 비비다 (에 = with), not 고추장을 비비다."],
     "irregular": null
   },
   {
@@ -407,16 +496,25 @@
       "shallWe": "식힐까요?"
     },
     "usage": [
-      ["국을 식히다", "to cool the soup down", "식히다 is the causative of 식다 ('to cool off'): you 식히다 hot food so it 식다. Useful before serving kids or eating."],
-      ["뜨거우니까 식혀서 드세요", "it's hot, so let it cool before eating", "식혀서 먹다/드세요 is an everyday caretaking phrase you'll both hear and say."]
+      ["국을 식히다", "to cool the soup down", "식히다 is the causative of 식다 ('to cool off'): you 식히다 hot food so it 식다. Handy before serving kids or eating."],
+      ["식혀서 먹다", "to let it cool, then eat", "식혀서 먹다 / 식혀서 드세요 is an everyday caretaking phrase you'll both hear and say at the table."],
+      ["한 김 식히다", "to let the steam/heat off briefly", "한 김 식히다 (let one 'breath' of steam escape) = let it cool just a moment — a very natural set phrase."],
+      ["뜨거우니까 식히다", "to cool it because it's hot", "뜨겁다 → 뜨거우니까 식히다 is the habitual pairing: the reason (too hot) plus the action (cool it)."]
     ],
     "examples": [
-      ["국이 너무 뜨거우니까 좀 식혀서 드세요.", "The soup is too hot, so let it cool a bit before eating.", "식혀서 드세요 — telling someone to let it cool; pairs with 뜨겁다."],
-      ["빵을 한 김 식혔어요.", "I let the bread cool for a moment.", "한 김 식히다 = let the steam/heat off briefly; 식혔어요 is the past."],
-      ["커피 좀 식힐까요?", "Shall I cool the coffee down a bit?", "식힐까요? — offering to cool a hot drink before someone drinks it."]
+      ["국 좀 식혀요.", "Cool the soup down a bit.", "Bare frame; the contraction is 식혀요 (식히 + 어 → 식혀), never 식히어요. 좀 softens it to a request."],
+      ["빵을 한 김 식혔어요.", "I let the bread cool for a moment.", "한 김 식히다 = let the heat off briefly; past 식혔어요."],
+      ["커피 너무 뜨거우니까 좀 식혀서 드세요.", "The coffee's too hot, so let it cool a bit before drinking.", "식혀서 드세요 tells someone to let it cool first — caring and natural; …으니까 gives the reason."]
     ],
-    "nuance": "식히다 is the causative/transitive partner of 식다: 식다 means food cools by itself, while 식히다 means you actively cool it (blowing on it, leaving it out, fanning it). It conjugates regularly (식혀요, 식혔어요) and is genuinely useful at the table — telling someone 식혀서 드세요 ('let it cool before eating') is caring and natural. Don't mix it with 식다, which can't take an object.",
-    "mistakes": ["Using intransitive 식다 with an object — say 국을 식히다, not 국을 식다.", "Confusing 식히다 (cool down) with 시키다 (to order food / make someone do) — similar sound, totally different meaning."],
+    "nuance": "식히다 is the causative/transitive partner of intransitive 식다: 식다 means food cools off BY ITSELF (국이 식다 'the soup goes cold'), while 식히다 means YOU actively cool it — blowing on it, fanning it, leaving it out. The -히- is the causative infix, and as a ㅣ-stem it contracts to 식혀요/식혔어요. The key grammatical pitfall is transitivity: 식히다 takes an object (국을 식히다), whereas 식다 cannot, so '국을 식다' is ungrammatical — if there's a thing being cooled, you need 식히다. It's genuinely warm, useful table language: telling someone 식혀서 드세요 ('let it cool before eating') shows care. The other trap is the sound-alike 시키다, which means 'to order (food)' or 'to make someone do something' (숙제를 시키다); 식히다 and 시키다 are pronounced very similarly but are unrelated — 음식을 식히다 cools the food, 음식을 시키다 orders the food.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "식히다 means YOU actively cool food — blowing on it, fanning it, leaving it out. It's genuinely warm, useful table language: telling someone 식혀서 드세요 ('let it cool before eating') shows care."},
+      {"k": "비슷한 말", "e": "VS", "t": "식히다 is the causative/transitive partner of intransitive 식다: 식다 means food cools off BY ITSELF (국이 식다 'the soup goes cold'), while 식히다 means you actively cool it."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "The -히- is the causative infix that turns intransitive 식다 into transitive 식히다."},
+      {"k": "활용", "e": "FORMS", "t": "As a ㅣ-stem it contracts to 식혀요/식혔어요. The key grammatical point is transitivity: 식히다 takes an object (국을 식히다), whereas 식다 cannot, so '국을 식다' is ungrammatical — if there's a thing being cooled, you need 식히다.", "chips": ["식혀요", "식혔어요", "식힐 거예요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The trap is the sound-alike 시키다, which means 'to order (food)' or 'to make someone do something' (숙제를 시키다); 식히다 and 시키다 are pronounced very similarly but are unrelated — 음식을 식히다 cools the food, 음식을 시키다 orders the food."}
+    ],
+    "mistakes": ["Using intransitive 식다 with an object. If you're cooling a thing, use the causative → 국을 식히다, not 국을 식다.", "Confusing 식히다 with 시키다. 식히다 = cool something down; 시키다 = order food / make someone do something (음식을 시키다).", "Writing 식히어요/식히었어요. The ㅣ-stem contracts: 식히 + 어 → 식혀요, past 식혔어요."],
     "irregular": null
   }
 ]

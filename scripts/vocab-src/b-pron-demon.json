@@ -10,47 +10,71 @@
     "grammarIds": [],
     "usage": [
       [
-        "이것",
-        "this thing",
-        "Points to something near the speaker. Written/formal form of 이거."
+        "이것은",
+        "this (as topic)",
+        "이것 + 은. Sets 'this' as what the sentence is about; contracts to 이건 when spoken."
       ],
       [
         "이것이",
-        "this (subject)",
-        "이것 + 이. In speech this often becomes 이게."
+        "this (as subject)",
+        "이것 + 이. Marks 'this' as the doer/identity; in speech almost always becomes 이게."
       ],
       [
         "이것을",
-        "this (object)",
-        "이것 + 을. In speech this often becomes 이걸."
+        "this (as object)",
+        "이것 + 을. Marks 'this' as what the verb acts on; spoken form is 이걸."
       ],
       [
-        "이것은",
-        "this (topic)",
-        "이것 + 은. In speech this often becomes 이건."
+        "이것 좀",
+        "this, please / look at this",
+        "이것 + 좀 softens a request when you hand over or point at a nearby object."
       ]
     ],
     "examples": [
       [
-        "이것은 제 가방이에요.",
-        "This is my bag.",
-        "이것 marks something close to the speaker."
+        "이것은 책이에요.",
+        "This is a book.",
+        "이것은 names something near you; the 은 frames it as the topic."
       ],
       [
-        "이것이 뭐예요?",
-        "What is this?",
-        "Formal way to ask about a nearby object."
+        "이것을 어디에서 샀어요?",
+        "Where did you buy this?",
+        "이것을 is the object form — note the 을 marks what was bought."
       ],
       [
-        "이것 좀 보세요.",
-        "Please look at this.",
-        "Pointing at something right in front of you."
+        "고객님, 이것이 신상품입니다.",
+        "Sir/Ma'am, this is the new product.",
+        "Polished service register; 이것이 (not 이거) suits a clerk speaking formally."
       ]
     ],
-    "nuance": "이것 means 'this thing' and refers to an object close to the speaker. It is the fuller, slightly more formal form, while 이거 is the everyday spoken version. In writing or polite situations you will see 이것, but in casual talk Koreans usually say 이거.",
+    "nuance": "이것 is the full, written-leaning form of 'this thing,' pointing to an object physically close to the speaker (이/그/저 = here/by-you/yonder). Its everyday spoken twin is 이거; the meaning is identical, but the dividing line is register — 이것 belongs to writing, announcements, and polite service speech, while 이거 dominates casual talk. It pairs with particles to make 이것은/이것이/이것을, and a native ear expects those to shrink to 이건/이게/이걸 the moment the situation turns conversational. The classic English-speaker trap is reaching for 이것 to mean 'this' before a noun — but as a determiner you need 이 (이 책 'this book'); 이것 already bakes in '것/thing,' so 이것 책 is wrong. Also never use 이것 for a person; a human is 이분/이 사람, never a 'thing.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이것 is the full, written-leaning form of 'this thing,' pointing to an object physically close to the speaker (이/그/저 = here/by-you/yonder)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its everyday spoken twin is 이거; the meaning is identical, but the dividing line is register — 이것 belongs to writing, announcements, and polite service speech, while 이거 dominates casual talk."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It pairs with particles to make 이것은/이것이/이것을, and a native ear expects those to shrink to 이건/이게/이걸 the moment the situation turns conversational.",
+        "chips": ["이것은 → 이건", "이것이 → 이게", "이것을 → 이걸"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic English-speaker trap is reaching for 이것 to mean 'this' before a noun — but as a determiner you need 이 (이 책 'this book'); 이것 already bakes in '것/thing,' so 이것 책 is wrong. Also never use 이것 for a person; a human is 이분/이 사람, never a 'thing.'"
+      }
+    ],
     "mistakes": [
-      "Using 이것 for a person — for people use a name or 이분/이 사람, not 이것.",
-      "Forgetting that 이것이/이것을/이것은 contract to 이게/이걸/이건 in everyday speech."
+      "Saying 이것 책 for 'this book' — 이것 already means 'this thing,' so before a noun use the determiner 이: 이 책.",
+      "Using 이것 to point at a person ('this is my friend') — for people say 이분/이 사람 (이분이 제 친구예요), because 것 literally means 'thing.'",
+      "Forcing the full 이것이/이것을 in casual chat where Koreans naturally contract to 이게/이걸."
     ]
   },
   {
@@ -64,47 +88,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "그것",
-        "that thing",
-        "Points to something near the listener, or something already mentioned."
+        "그것은",
+        "that (as topic)",
+        "그것 + 은. Frames a thing by the listener, or one already mentioned, as the topic; spoken 그건."
       ],
       [
         "그것이",
-        "that (subject)",
-        "그것 + 이. Often becomes 그게 in speech."
+        "that (as subject)",
+        "그것 + 이. Marks it as subject; in speech becomes 그게."
       ],
       [
         "그것을",
-        "that (object)",
-        "그것 + 을. Often becomes 그걸 in speech."
+        "that (as object)",
+        "그것 + 을. The object form; spoken 그걸."
       ],
       [
-        "그것은",
-        "that (topic)",
-        "그것 + 은. Often becomes 그건 in speech."
+        "그것 때문에",
+        "because of that",
+        "그것 + 때문에. Refers back to a thing or fact just raised as the cause."
       ]
     ],
     "examples": [
       [
-        "그것은 얼마예요?",
-        "How much is that?",
-        "Asking about something near the listener."
+        "그것은 제 거예요.",
+        "That is mine.",
+        "그것 points to a thing nearer the listener than to you."
       ],
       [
-        "그것이 좋아요.",
-        "I like that one.",
-        "그것 can point to a thing the listener has."
+        "그것을 좀 설명해 주세요.",
+        "Please explain that.",
+        "Here 그것 refers back to something already mentioned, not a physical object."
       ],
       [
-        "그것 좀 주세요.",
-        "Please give me that.",
-        "Asking for an item close to the other person."
+        "바로 그것이 문제입니다.",
+        "That is exactly the problem.",
+        "Formal/written tone; 그것이 (not 그게) fits a serious or business register."
       ]
     ],
-    "nuance": "그것 means 'that thing' and points to something near the listener, or to something both people already talked about. The spoken form is 그거. Korean splits 'that' into 그것 (near you / already mentioned) and 저것 (far from both of us), so picking the right one depends on distance.",
+    "nuance": "그것 is 'that thing,' and Korean splits English 'that' by distance: 그것 covers what is near the listener OR what both speakers have already talked about, while 저것 is reserved for what is far from everyone. Its casual mouth-form is 그거 (그게/그걸/그건). The near-synonym to keep straight is 저것 — the test is location of the referent, not just 'farther than this.' A huge use of 그것 that English speakers miss is the abstract 'that': referring back to a previous idea or statement (그것은 사실이 아니에요 'that isn't true') rather than a visible object. As with 이것, do not stick it before a noun — 'that book' is 그 책, never 그것 책 — and never use it for a person, who takes 그분/그 사람.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "그것 is 'that thing,' and Korean splits English 'that' by distance: 그것 covers what is near the listener OR what both speakers have already talked about, while 저것 is reserved for what is far from everyone. Its casual mouth-form is 그거 (그게/그걸/그건)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym to keep straight is 저것 — the test is location of the referent, not just 'farther than this.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A huge use of 그것 that English speakers miss is the abstract 'that': referring back to a previous idea or statement (그것은 사실이 아니에요 'that isn't true') rather than a visible object. As with 이것, do not stick it before a noun — 'that book' is 그 책, never 그것 책 — and never use it for a person, who takes 그분/그 사람."
+      }
+    ],
     "mistakes": [
-      "Using 그것 for something far from both speakers — that situation needs 저것.",
-      "Saying 그것이 in casual conversation where 그게 sounds far more natural."
+      "Using 그것 for an object far from both of you — if neither person is near it, use 저것.",
+      "Saying 그것 책 for 'that book'; before a noun use the determiner 그 (그 책).",
+      "Overusing the full 그것이/그것을 in casual speech where 그게/그걸 sound far more natural."
     ]
   },
   {
@@ -118,47 +160,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "저것",
-        "that thing over there",
-        "Points to something far from both speaker and listener."
+        "저것은",
+        "that over there (as topic)",
+        "저것 + 은. Frames a far-off thing as the topic; spoken 저건."
       ],
       [
         "저것이",
-        "that (subject)",
-        "저것 + 이. Often becomes 저게 in speech."
+        "that over there (as subject)",
+        "저것 + 이. The subject form; in speech becomes 저게."
       ],
       [
         "저것을",
-        "that (object)",
-        "저것 + 을. Often becomes 저걸 in speech."
+        "that over there (as object)",
+        "저것 + 을. The object form; spoken 저걸."
       ],
       [
-        "저것은",
-        "that (topic)",
-        "저것 + 은. Often becomes 저건 in speech."
+        "저것 봐",
+        "look at that!",
+        "저것 + 봐. Casual exclamation drawing eyes to something distant."
       ]
     ],
     "examples": [
       [
-        "저것은 뭐예요?",
-        "What is that over there?",
-        "Both people are looking at something far away."
+        "저것은 산이에요.",
+        "That over there is a mountain.",
+        "Both of you look at something far away — only 저것 fits this distance."
       ],
       [
-        "저것이 더 예뻐요.",
-        "That one over there is prettier.",
-        "Comparing with a distant item."
+        "저것을 좀 보여 주세요.",
+        "Please show me that one over there.",
+        "저것을 is the object form; you point across a counter at a distant item."
       ],
       [
-        "저것 좀 보세요.",
-        "Please look at that over there.",
-        "Pointing at a far object."
+        "저 멀리 보이는 저것이 남산타워예요.",
+        "That thing visible far away is Namsan Tower.",
+        "저것이 (subject) naming a landmark in the distance."
       ]
     ],
-    "nuance": "저것 means 'that thing over there' and points to something far from both the speaker and the listener. The casual spoken form is 저거. Remember the three-way set: 이것 (here), 그것 (near you), 저것 (over there) — Korean is more precise about distance than English 'this/that'.",
+    "nuance": "저것 means 'that thing over there,' reserved for what is far from BOTH the speaker and the listener — the third slot in the 이것/그것/저것 set (here / by-you / yonder). Its casual spoken form is 저거 (저게/저걸/저건). The synonym you must contrast is 그것: the choice is purely spatial — if the listener is close to the object, it is 그것, but if it is off in the distance for everyone, it becomes 저것. English collapses both into 'that,' which is exactly why learners overuse 그것 and under-use 저것; train yourself to ask 'is it near the other person, or genuinely far away?' Also keep 저것 (a thing) apart from 저기 (a place): 저것은 뭐예요? asks 'what is that object?', while 저기 뭐 있어요? asks 'what's over there (in that spot)?'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "저것 means 'that thing over there,' reserved for what is far from BOTH the speaker and the listener — the third slot in the 이것/그것/저것 set (here / by-you / yonder). Its casual spoken form is 저거 (저게/저걸/저건)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym you must contrast is 그것: the choice is purely spatial — if the listener is close to the object, it is 그것, but if it is off in the distance for everyone, it becomes 저것."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English collapses both into 'that,' which is exactly why learners overuse 그것 and under-use 저것; train yourself to ask 'is it near the other person, or genuinely far away?' Also keep 저것 (a thing) apart from 저기 (a place): 저것은 뭐예요? asks 'what is that object?', while 저기 뭐 있어요? asks 'what's over there (in that spot)?'"
+      }
+    ],
     "mistakes": [
-      "Using 저것 for something the listener is holding — that is 그것, not 저것.",
-      "Confusing 저것 (object) with 저기 (place over there)."
+      "Using 저것 for something the listener is holding or standing next to — that is 그것, since 저것 needs distance from everyone.",
+      "Confusing 저것 (an object 'that thing') with 저기 (a place 'over there'); 것 = thing, 기 = location.",
+      "Putting 저것 before a noun for 'that ... over there'; use the determiner 저 (저 건물 'that building over there')."
     ]
   },
   {
@@ -173,46 +233,70 @@
     "usage": [
       [
         "이거",
-        "this thing",
-        "Everyday spoken form of 이것. Use this in normal conversation."
+        "this thing (casual)",
+        "Everyday spoken contraction of 이것. The form you actually use when shopping or chatting."
       ],
       [
         "이게",
-        "this (subject)",
-        "Contraction of 이거 + 가. Very common in speech."
+        "this (as subject)",
+        "이거 + 가 fused into 이게. You almost never say 이거가."
       ],
       [
         "이걸",
-        "this (object)",
-        "Contraction of 이거 + 를."
+        "this (as object)",
+        "이거 + 를 fused into 이걸. Smoother than the full 이거를."
       ],
       [
-        "이건",
-        "this (topic)",
-        "Contraction of 이거 + 는."
+        "이거 주세요",
+        "I'll take this",
+        "이거 + 주세요. The default way to order or buy a nearby item."
       ]
     ],
     "examples": [
       [
-        "이거 주세요.",
-        "I'll take this, please.",
-        "Pointing at an item when shopping or ordering."
+        "이거 뭐예요?",
+        "What's this?",
+        "Bare 이거 with no particle — totally natural in casual speech."
       ],
       [
-        "이거 얼마예요?",
-        "How much is this?",
-        "The most natural way to ask a price."
+        "이거 진짜 맛있어요!",
+        "This is really tasty!",
+        "이거 stands in for 'this dish/thing' right in front of you."
       ],
       [
-        "이게 맛있어요.",
-        "This one is delicious.",
-        "이게 is 이거 + subject marker."
+        "이게 더 싸니까 이걸로 할게요.",
+        "This one's cheaper, so I'll go with this.",
+        "Shows 이게 (subject) and 이걸로 (이거 + 로, 'with/by this') in one breath."
       ]
     ],
-    "nuance": "이거 is the casual, everyday version of 이것 and means 'this thing' near the speaker. This is the form you will actually hear and use most in daily life — shopping, ordering food, pointing at things. It contracts to 이게 (subject), 이걸 (object), and 이건 (topic) in fast speech.",
+    "nuance": "이거 is the casual, mouth-friendly version of 이것 — 'this thing' near the speaker — and it is overwhelmingly the form you HEAR and USE in real life: shopping, ordering food, pointing things out. Meaning is identical to 이것; the only difference is register, with 이거 being conversational and 이것 belonging to writing or formal speech. It contracts naturally with particles into 이게 (subject), 이걸 (object), 이건 (topic), and 이걸로 ('with this'). The number-one English-speaker error is grafting English particle habits onto it: 이거가 sounds clumsy because Koreans fuse it to 이게, and the same goes for 이거를 → 이걸. Like 이것, it cannot sit before a noun (that job belongs to 이: 이 가방), and it should never label a person.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이거 is the casual, mouth-friendly version of 이것 — 'this thing' near the speaker — and it is overwhelmingly the form you HEAR and USE in real life: shopping, ordering food, pointing things out."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Meaning is identical to 이것; the only difference is register, with 이거 being conversational and 이것 belonging to writing or formal speech."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It contracts naturally with particles into 이게 (subject), 이걸 (object), 이건 (topic), and 이걸로 ('with this').",
+        "chips": ["이게", "이걸", "이건", "이걸로"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The number-one English-speaker error is grafting English particle habits onto it: 이거가 sounds clumsy because Koreans fuse it to 이게, and the same goes for 이거를 → 이걸. Like 이것, it cannot sit before a noun (that job belongs to 이: 이 가방), and it should never label a person."
+      }
+    ],
     "mistakes": [
-      "Writing 이거 in formal documents — formal writing prefers 이것.",
-      "Saying 이거가 instead of the natural contraction 이게."
+      "Saying 이거가 for the subject — Koreans contract 이거 + 가 to 이게.",
+      "Writing 이거 in an essay, report, or formal notice where 이것 is expected.",
+      "Using 이거 to refer to a person standing nearby; for people use 이분/이 사람, since 거(것) means 'thing.'"
     ]
   },
   {
@@ -227,46 +311,70 @@
     "usage": [
       [
         "그거",
-        "that thing",
-        "Everyday spoken form of 그것."
+        "that thing (casual)",
+        "Spoken form of 그것: near the listener, or the thing you both already know about."
       ],
       [
         "그게",
-        "that (subject)",
-        "Contraction of 그거 + 가."
+        "that (as subject)",
+        "그거 + 가 fused into 그게. The natural subject form."
       ],
       [
-        "그걸",
-        "that (object)",
-        "Contraction of 그거 + 를."
+        "그거 말고",
+        "not that one",
+        "그거 + 말고. Waving off one option to point at another."
       ],
       [
-        "그건",
-        "that (topic)",
-        "Contraction of 그거 + 는."
+        "그게 아니라",
+        "it's not that, but...",
+        "Set phrase for correcting what the other person just assumed."
       ]
     ],
     "examples": [
       [
-        "그거 주세요.",
-        "Please give me that.",
-        "Asking for something near the listener."
+        "그거 좀 줘.",
+        "Pass me that.",
+        "Plain 반말; 그거 points at something by the listener."
       ],
       [
-        "그거 뭐예요?",
-        "What is that?",
-        "Casual question about a thing close to you."
+        "아, 그거? 나도 봤어.",
+        "Oh, that? I saw it too.",
+        "그거 refers to a thing/topic you've both already mentioned."
       ],
       [
-        "그게 좋아요.",
-        "I like that one.",
-        "그게 is 그거 + subject marker."
+        "그게 무슨 말이에요?",
+        "What do you mean by that?",
+        "그게 (subject) points back to what was just said, not a physical object."
       ]
     ],
-    "nuance": "그거 is the casual form of 그것 and points to something near the listener or already mentioned. It is extremely common in conversation and contracts to 그게, 그걸, 그건. Koreans also use 그거 to mean 'that thing we talked about' when both people already know what it is.",
+    "nuance": "그거 is the casual spoken form of 그것 and does double duty: it points to a thing near the LISTENER, and — very commonly — to 'that thing we both already know about,' a shared reference floating in the conversation (아 그거! 'oh, that!'). It contracts to 그게/그걸/그건. The synonym boundary to guard is 저거: if the object is off in the distance for everyone it flips to 저거, whereas 그거 stays tied to the listener or to shared knowledge. English speakers stumble in two places: they over-pick 그거 for far-away things (should be 저거), and they miss the abstract, fill-in-the-gap use where 그거 means 'that matter/topic' rather than a visible item — 그거 어떻게 됐어? 'how did that (thing) turn out?' Set phrases worth memorizing whole: 그게 아니라 and 그거 말고.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "그거 is the casual spoken form of 그것 and does double duty: it points to a thing near the LISTENER, and — very commonly — to 'that thing we both already know about,' a shared reference floating in the conversation (아 그거! 'oh, that!'). Set phrases worth memorizing whole: 그게 아니라 and 그거 말고."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym boundary to guard is 저거: if the object is off in the distance for everyone it flips to 저거, whereas 그거 stays tied to the listener or to shared knowledge."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It contracts to 그게 (subject), 그걸 (object), and 그건 (topic).",
+        "chips": ["그게", "그걸", "그건"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers stumble in two places: they over-pick 그거 for far-away things (should be 저거), and they miss the abstract, fill-in-the-gap use where 그거 means 'that matter/topic' rather than a visible item — 그거 어떻게 됐어? 'how did that (thing) turn out?'"
+      }
+    ],
     "mistakes": [
-      "Using 그거 for a distant object that the listener is not near — use 저거 there.",
-      "Saying 그거를 in casual speech where 그걸 sounds more natural."
+      "Using 그거 for a distant object neither of you is near — use 저거 when it's truly over there.",
+      "Saying 그거가 for the subject; the natural contraction is 그게.",
+      "Forgetting 그거 can mean 'that topic/matter,' not just a physical thing (그거 어떻게 됐어요? 'how did that turn out?')."
     ]
   },
   {
@@ -281,46 +389,70 @@
     "usage": [
       [
         "저거",
-        "that thing over there",
-        "Everyday spoken form of 저것."
+        "that thing over there (casual)",
+        "Spoken form of 저것: far from both speaker and listener."
       ],
       [
         "저게",
-        "that (subject)",
-        "Contraction of 저거 + 가."
+        "that over there (as subject)",
+        "저거 + 가 fused into 저게."
       ],
       [
-        "저걸",
-        "that (object)",
-        "Contraction of 저거 + 를."
+        "저거 봐",
+        "look at that!",
+        "저거 + 봐. Calling attention to something distant."
       ],
       [
-        "저건",
-        "that (topic)",
-        "Contraction of 저거 + 는."
+        "저거 뭐지?",
+        "what's that over there?",
+        "저거 + 뭐지. Half to-yourself wondering about a far object."
       ]
     ],
     "examples": [
       [
-        "저거 뭐예요?",
-        "What is that over there?",
-        "Both people look at a far object."
+        "저거 봐, 무지개야!",
+        "Look at that — a rainbow!",
+        "저거 for something far up in the sky that you both see."
       ],
       [
-        "저거 주세요.",
-        "I'll take that one over there.",
-        "Pointing at something on a far shelf."
+        "저거 주세요, 맨 위에 있는 거요.",
+        "I'll take that one, the one on the top.",
+        "Pointing across a shop at an item on a far, high shelf."
       ],
       [
-        "저게 더 커요.",
-        "That one over there is bigger.",
-        "저게 is 저거 + subject marker."
+        "저게 우리 학교예요.",
+        "That over there is our school.",
+        "저게 (subject) names a building in the distance."
       ]
     ],
-    "nuance": "저거 is the casual form of 저것 and points to something far from both speaker and listener. Together with 이거 and 그거 it completes the everyday 'this/that' set. When you point across a room or a store at something distant, 저거 is the word you reach for.",
+    "nuance": "저거 is the casual spoken form of 저것 — 'that thing over there,' far from both the speaker and the listener — completing the everyday trio 이거/그거/저거. It contracts to 저게/저걸/저건. The synonym you constantly trade it against is 그거: 저거 requires real distance from everyone, while 그거 ties to the listener or to a shared topic. Because English uses one word 'that' for both the near-listener and the far-away cases, learners reflexively say 그거 even when pointing across a street, where a native would say 저거. A separate, very common slip is mixing 저거 (a thing yonder) with 저기 (a place yonder): 저거 뭐예요? asks about the object, 저기 뭐예요? asks about the location. When you physically point at something distant, 저거 is almost always the right reach.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "저거 is the casual spoken form of 저것 — 'that thing over there,' far from both the speaker and the listener — completing the everyday trio 이거/그거/저거. When you physically point at something distant, 저거 is almost always the right reach."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym you constantly trade it against is 그거: 저거 requires real distance from everyone, while 그거 ties to the listener or to a shared topic."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It contracts to 저게 (subject), 저걸 (object), and 저건 (topic).",
+        "chips": ["저게", "저걸", "저건"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Because English uses one word 'that' for both the near-listener and the far-away cases, learners reflexively say 그거 even when pointing across a street, where a native would say 저거. A separate, very common slip is mixing 저거 (a thing yonder) with 저기 (a place yonder): 저거 뭐예요? asks about the object, 저기 뭐예요? asks about the location."
+      }
+    ],
     "mistakes": [
-      "Mixing up 저거 (a thing over there) and 저기 (a place over there).",
-      "Using 저거 for an item the listener is holding — that should be 그거."
+      "Saying 그거 while pointing at a distant object across the room — once it's far from both of you, use 저거.",
+      "Mixing up 저거 (a thing over there) and 저기 (a place over there); 거(것)=thing, 기=spot.",
+      "Using 저거 for an item the listener is holding — that's 그거, since 저거 needs distance from everyone."
     ]
   },
   {
@@ -336,45 +468,63 @@
       [
         "저기",
         "over there",
-        "A place far from both speaker and listener."
+        "A place far from both speaker and listener (여기/거기/저기 = here/there/yonder)."
       ],
       [
         "저기에",
-        "to/at over there",
-        "저기 + 에 for location or destination."
+        "at/to over there",
+        "저기 + 에 for a static location or a destination."
       ],
       [
         "저기요",
         "excuse me",
-        "Used to politely get a stranger's or a server's attention."
+        "Politely flags down a stranger or server without knowing their name."
       ],
       [
-        "저기 있어요",
-        "it's over there",
-        "Telling someone where something is located."
+        "저기 있잖아",
+        "you know, um...",
+        "Soft conversational opener / hesitation filler before a delicate topic."
       ]
     ],
     "examples": [
       [
-        "화장실은 저기예요.",
+        "화장실이 저기 있어요.",
         "The restroom is over there.",
-        "Pointing to a far location."
+        "저기 names a spot far from both of you; pair with 있어요 to locate things."
       ],
       [
-        "저기요, 여기 물 좀 주세요.",
-        "Excuse me, water please.",
-        "저기요 calls a server politely."
+        "저기요, 메뉴판 좀 주세요.",
+        "Excuse me, could I get a menu?",
+        "저기요 is the standard polite way to call a server."
       ],
       [
-        "저기 가게가 있어요.",
-        "There's a shop over there.",
-        "저기 marks a distant place."
+        "저기… 잠깐 얘기 좀 할 수 있을까요?",
+        "Um... could we talk for a moment?",
+        "Sentence-initial 저기 cushions a hesitant or awkward request."
       ]
     ],
-    "nuance": "저기 means 'over there,' a place far from both people, completing the set 여기 (here) / 거기 (there, near you) / 저기 (over there). It doubles as a soft attention-getter: 저기요 is how Koreans politely say 'excuse me' to a stranger or call a waiter. The filler 저기... also works like English 'um' when you hesitate.",
+    "nuance": "저기 is the 'place' member of the 이/그/저 family — 'over there,' far from both people — completing 여기 (here) / 거기 (there, by you) / 저기 (yonder). Beyond location it has two social jobs English keeps separate: 저기요 is the go-to polite 'excuse me' for hailing a stranger or a waiter when you don't know their name, and a sentence-opening 저기… works like 'um / you know,' softening the ground before a request or bad news. The synonym to separate is 저거 — 저기 is a SPOT, 저거 is a THING, so 저기 뭐 있어요? ('what's over there?') versus 저거 뭐예요? ('what is that object?'). One register caution: in a restaurant, 저기요 is gentler and safer than the blunter 여기요, and calling a stranger 아저씨/아주머니 can sound abrupt, so 저기요 is the diplomatic choice.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "저기 is the 'place' member of the 이/그/저 family — 'over there,' far from both people — completing 여기 (here) / 거기 (there, by you) / 저기 (yonder). Beyond location it has two social jobs English keeps separate: 저기요 is the go-to polite 'excuse me' for hailing a stranger or a waiter when you don't know their name, and a sentence-opening 저기… works like 'um / you know,' softening the ground before a request or bad news."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym to separate is 저거 — 저기 is a SPOT, 저거 is a THING, so 저기 뭐 있어요? ('what's over there?') versus 저거 뭐예요? ('what is that object?')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "One register caution: in a restaurant, 저기요 is gentler and safer than the blunter 여기요, and calling a stranger 아저씨/아주머니 can sound abrupt, so 저기요 is the diplomatic choice."
+      }
+    ],
     "mistakes": [
-      "Using 저기 for a place near the listener — that is 거기.",
-      "Forgetting that 저기요 (excuse me) is more polite than just shouting 여기요 in some settings."
+      "Using 저기 for a place near the listener — that spot is 거기 (여기/거기/저기 track distance).",
+      "Confusing 저기 (a place) with 저거 (a thing): 저기 있어요 'it's over there' vs 저거예요 'it's that one.'",
+      "Saying just 여기 to flag a server when 저기요 would sound more polite and natural."
     ]
   },
   {
@@ -390,45 +540,63 @@
       [
         "무엇",
         "what",
-        "Question word for things. The fuller form of 뭐."
-      ],
-      [
-        "무엇이",
-        "what (subject)",
-        "무엇 + 이. Often spoken as 뭐가."
+        "Question word for things, the full form of spoken 뭐."
       ],
       [
         "무엇을",
-        "what (object)",
-        "무엇 + 을. Often spoken as 뭘 or 뭐."
+        "what (as object)",
+        "무엇 + 을. Spoken form contracts to 뭘 or drops to 뭐."
       ],
       [
-        "무엇이에요?",
-        "what is it?",
-        "Polite question; in speech usually 뭐예요?"
+        "무엇이",
+        "what (as subject)",
+        "무엇 + 이. In speech becomes 뭐가."
+      ],
+      [
+        "무엇보다",
+        "more than anything",
+        "무엇 + 보다. Set adverbial meaning 'above all, most of all.'"
       ]
     ],
     "examples": [
       [
-        "이것은 무엇이에요?",
-        "What is this?",
-        "Formal version of 이거 뭐예요?"
+        "이름이 무엇입니까?",
+        "What is your name?",
+        "무엇입니까 is a formal/written register; speech would say 이름이 뭐예요?"
       ],
       [
-        "무엇을 좋아해요?",
-        "What do you like?",
-        "무엇을 is the object form."
+        "무엇을 도와드릴까요?",
+        "How may I help you?",
+        "A polished service phrase; 무엇을 (object) keeps it courteous."
       ],
       [
-        "무엇이 필요해요?",
-        "What do you need?",
-        "무엇이 is the subject form."
+        "무엇보다 건강이 중요해요.",
+        "Health matters more than anything.",
+        "무엇보다 is a fixed expression — note it's one set phrase, not free 'what + than.'"
       ]
     ],
-    "nuance": "무엇 means 'what' and is the full form used in writing and polite or formal speech. In everyday conversation Koreans almost always shorten it to 뭐 (and 뭘, 뭐가). Learning both matters: textbooks and signs use 무엇, but real talk uses 뭐.",
+    "nuance": "무엇 means 'what' (asking about things) and is the full, dictionary form that lives in writing, exam questions, signage, and formal speech (무엇입니까?). Its everyday spoken reduction is 뭐, with 무엇을 → 뭘 and 무엇이 → 뭐가; the meaning never changes, only the register, so the dividing line between 무엇 and 뭐 is exactly formal-vs-casual. The near neighbor to contrast is 무슨, which is NOT interchangeable: 무엇/뭐 is a standalone pronoun ('what?'), whereas 무슨 always modifies a following noun and asks 'what kind of' (무슨 책? 'what book?'). English speakers, used to one word 'what,' wrongly say 무엇 책 — but you must choose 무슨 책. Memorize the frozen idiom 무엇보다 ('above all'), where 무엇 fuses with 보다 and does not mean a literal comparison.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "무엇 means 'what' (asking about things) and is the full, dictionary form that lives in writing, exam questions, signage, and formal speech (무엇입니까?). Its everyday spoken reduction is 뭐, with 무엇을 → 뭘 and 무엇이 → 뭐가; the meaning never changes, only the register, so the dividing line between 무엇 and 뭐 is exactly formal-vs-casual."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near neighbor to contrast is 무슨, which is NOT interchangeable: 무엇/뭐 is a standalone pronoun ('what?'), whereas 무슨 always modifies a following noun and asks 'what kind of' (무슨 책? 'what book?')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers, used to one word 'what,' wrongly say 무엇 책 — but you must choose 무슨 책. Memorize the frozen idiom 무엇보다 ('above all'), where 무엇 fuses with 보다 and does not mean a literal comparison."
+      }
+    ],
     "mistakes": [
-      "Using 무엇 in very casual chat where 뭐 sounds far more natural.",
-      "Saying 무엇을 좋아해요 fine, but dropping the marker as 뭐 좋아해요 in speech — both occur, just keep them consistent."
+      "Saying 무엇 책 for 'what book' — 무엇 is a standalone pronoun; to modify a noun use 무슨 (무슨 책).",
+      "Using 무엇 in casual chat, where 뭐 (and 뭘/뭐가) sounds far more natural.",
+      "Treating 무엇보다 as literal 'than what'; it's a fixed phrase meaning 'more than anything.'"
     ]
   },
   {
@@ -442,47 +610,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "어느",
-        "which",
-        "Comes before a noun: 어느 + noun. Picks one out of several."
-      ],
-      [
         "어느 것",
         "which one",
-        "어느 + 것. The spoken form is 어느 거."
+        "어느 + 것 (spoken 어느 거). Picks one item out of a known set."
       ],
       [
         "어느 나라",
         "which country",
-        "A very common 어느 + noun phrase."
+        "어느 + 나라. Extremely common in 'where are you from?' questions."
       ],
       [
         "어느 쪽",
-        "which side/way",
-        "Asking about direction or choice between two."
+        "which side / way",
+        "어느 + 쪽. Choosing between directions or two options."
+      ],
+      [
+        "어느 정도",
+        "to what extent / about how much",
+        "어느 + 정도. Set phrase asking degree or rough amount."
       ]
     ],
     "examples": [
       [
-        "어느 나라 사람이에요?",
+        "어느 것이 더 좋아요?",
+        "Which one is better?",
+        "어느 needs a following noun (것 here) — it can't stand alone."
+      ],
+      [
+        "어느 나라에서 왔어요?",
         "What country are you from?",
-        "어느 + 나라 asks which country."
+        "어느 나라 is the natural Korean framing of 'where from.'"
       ],
       [
-        "어느 것이 좋아요?",
-        "Which one do you like?",
-        "Choosing among several items."
-      ],
-      [
-        "버스가 어느 쪽이에요?",
-        "Which way is the bus?",
-        "어느 쪽 asks about direction."
+        "한국어 어느 정도 해요?",
+        "How much Korean can you speak?",
+        "어느 정도 asks degree — a fixed, very useful collocation."
       ]
     ],
-    "nuance": "어느 means 'which' and always sits in front of a noun, helping you choose one option out of several (어느 나라, 어느 것, 어느 쪽). It is different from 무슨, which asks 'what kind of' rather than picking from a known set. Use 어느 when the choices are limited and visible.",
+    "nuance": "어느 means 'which' and is a determiner: it ALWAYS sits in front of a noun and selects one option from a limited, often visible set (어느 것, 어느 나라, 어느 쪽). The synonym you must not blur is 무슨: 어느 chooses from a known, bounded group ('which of these?'), while 무슨 asks 'what kind of' from an open field (무슨 음악 좋아해요? 'what kind of music?'). So 어느 영화 leans toward 'which (of the movies we're choosing among)?' and 무슨 영화 toward 'what (kind of) movie?' The English-speaker pitfall is using 어느 like the pronoun 'which one' on its own — but it cannot stand alone; you must attach a noun, and for 'which one' specifically you say 어느 것/어느 거. Learn 어느 정도 as a unit; it idiomatically means 'to what extent / roughly how much.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "어느 means 'which' and is a determiner: it ALWAYS sits in front of a noun and selects one option from a limited, often visible set (어느 것, 어느 나라, 어느 쪽). Learn 어느 정도 as a unit; it idiomatically means 'to what extent / roughly how much.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym you must not blur is 무슨: 어느 chooses from a known, bounded group ('which of these?'), while 무슨 asks 'what kind of' from an open field (무슨 음악 좋아해요? 'what kind of music?'). So 어느 영화 leans toward 'which (of the movies we're choosing among)?' and 무슨 영화 toward 'what (kind of) movie?'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is using 어느 like the pronoun 'which one' on its own — but it cannot stand alone; you must attach a noun, and for 'which one' specifically you say 어느 것/어느 거."
+      }
+    ],
     "mistakes": [
-      "Using 어느 alone like a pronoun — it needs a following noun (say 어느 것, not just 어느).",
-      "Confusing 어느 (which, from a set) with 무슨 (what kind of)."
+      "Using 어느 alone as 'which one' — it must precede a noun; say 어느 것/어느 거.",
+      "Confusing 어느 (which, from a set) with 무슨 (what kind of): 어느 나라 'which country' vs 무슨 일 'what kind of matter.'",
+      "Reading 어느 정도 word-for-word; treat it as a set phrase meaning 'to what degree / about how much.'"
     ]
   },
   {
@@ -498,45 +684,68 @@
       [
         "자기",
         "oneself",
-        "Refers back to the subject of the sentence."
+        "Reflexive pronoun pointing back to the sentence's subject."
       ],
       [
-        "자기 집",
-        "one's own house",
-        "자기 (+의) 집. The 의 is usually dropped, so people just say 자기 집."
+        "자기 일",
+        "one's own business/work",
+        "자기 (+의) 일. The 의 usually drops, so people say plain 자기 일."
       ],
       [
         "자기가",
-        "oneself (subject)",
-        "자기 + 가 in a subordinate clause."
+        "oneself (as subject)",
+        "자기 + 가, typically inside a subordinate clause referring back to the main subject."
       ],
       [
         "자기야",
-        "honey / sweetie",
-        "Affectionate way couples address each other."
+        "honey / babe",
+        "Affectionate address between romantic partners (자기 + 야)."
       ]
     ],
     "examples": [
       [
-        "자기 일은 자기가 해요.",
-        "Do your own work yourself.",
-        "자기 refers back to the doer."
+        "자기 일은 자기가 해야 해요.",
+        "You should do your own work yourself.",
+        "Both 자기 (one's own) and 자기가 (the doer) loop back to the subject."
       ],
       [
-        "자기 방을 청소해요.",
-        "(She) cleans her own room.",
-        "자기 방 = one's own room."
+        "그는 자기 잘못을 인정했어요.",
+        "He admitted his own fault.",
+        "자기 = 'his own,' bound to the third-person subject 그."
       ],
       [
-        "자기야, 어디예요?",
-        "Honey, where are you?",
-        "자기야 between a couple."
+        "자기야, 오늘 몇 시에 끝나?",
+        "Babe, what time do you finish today?",
+        "자기야 is intimate couple-speak — only for a partner, never coworkers."
       ]
     ],
-    "nuance": "자기 has two common everyday uses: it is a reflexive pronoun meaning 'oneself' (자기 일 = one's own work), and it is also a sweet way couples call each other, like 'honey' (자기야). Context makes the meaning clear. As a reflexive, it points back to the subject already mentioned in the sentence.",
+    "nuance": "자기 (Sino-Korean 自己, literally 'self-self,' 自 'self' + 己 'oneself') has two everyday lives. As a reflexive pronoun it points back to the subject already named in the sentence, usually third person — 그는 자기 방에 있어요 'he is in his (own) room' — and pairs habitually with 자기 일, 자기 잘못, 자기 자신. Separately, 자기(야) is a tender way couples address each other, like English 'honey/babe.' The synonym to contrast is 자신, which also means 'oneself' but is more formal/emphatic and combines into 자기 자신 ('one's very own self') or 자신감 ('self-confidence'). The sharp English-speaker pitfall is translating reflexive 자기 as 'myself': it almost never means the speaker — it tracks the grammatical subject, so it usually lands as 'himself/herself/themselves.' And socially, never aim 자기야 at a stranger, friend, or colleague; it reads as romantic and will feel jarring.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "자기 has two everyday lives. As a reflexive pronoun it points back to the subject already named in the sentence, usually third person — 그는 자기 방에 있어요 'he is in his (own) room' — and pairs habitually with 자기 일, 자기 잘못, 자기 자신. Separately, 자기(야) is a tender way couples address each other, like English 'honey/babe.'"
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 自己, literally 'self-self': 自 'self' + 己 'oneself.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym to contrast is 자신, which also means 'oneself' but is more formal/emphatic and combines into 자기 자신 ('one's very own self') or 자신감 ('self-confidence')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The sharp English-speaker pitfall is translating reflexive 자기 as 'myself': it almost never means the speaker — it tracks the grammatical subject, so it usually lands as 'himself/herself/themselves.' And socially, never aim 자기야 at a stranger, friend, or colleague; it reads as romantic and will feel jarring."
+      }
+    ],
     "mistakes": [
-      "Using 자기야 with strangers or coworkers — it is intimate and only for close partners.",
-      "Translating reflexive 자기 as 'myself' when it actually refers to the sentence's subject (often 'himself/herself')."
+      "Translating reflexive 자기 as 'myself' — it refers to the sentence's subject, normally 'himself/herself,' not the speaker.",
+      "Calling a coworker, friend, or stranger 자기(야) — it's intimate couple-language and sounds like flirting otherwise.",
+      "Forgetting that 자기 일 means 'one's OWN business'; mistaking it for a generic 'job' loses the reflexive 'own.'"
     ]
   },
   {
@@ -550,47 +759,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "남",
-        "other people / a stranger",
-        "Someone who is not you or your group."
-      ],
-      [
         "남의",
         "someone else's",
-        "남 + 의 = belonging to another person."
+        "남 + 의. 'Belonging to another person,' as in 남의 물건 'others' belongings.'"
       ],
       [
         "남이",
-        "another person (subject)",
-        "남 + 이."
+        "others (as subject)",
+        "남 + 이. 'Other people' acting as the subject."
       ],
       [
         "남한테",
         "to another person",
-        "남 + 한테 = to someone else."
+        "남 + 한테. 'To someone outside your circle' (남에게 in writing)."
+      ],
+      [
+        "남 얘기",
+        "talk about others / gossip",
+        "남 + 얘기. Chatter concerning other people."
       ]
     ],
     "examples": [
       [
-        "남의 물건을 만지지 마세요.",
-        "Don't touch other people's things.",
-        "남의 = someone else's."
+        "남의 일에 신경 쓰지 마세요.",
+        "Don't worry about other people's business.",
+        "남의 = 'someone else's'; a very common warning-style phrase."
       ],
       [
-        "남이 어떻게 생각해요?",
-        "What do others think?",
-        "남 = other people in general."
+        "이제 우리는 남이에요.",
+        "We're strangers now.",
+        "남 as 'outsider' — emotionally loaded, said after a falling-out."
       ],
       [
-        "남한테 말하지 마세요.",
-        "Don't tell anyone else.",
-        "남한테 = to other people."
+        "남한테 함부로 말하지 마세요.",
+        "Don't speak carelessly to others.",
+        "남한테 = 'to other people'; note 한테 for a person target."
       ]
     ],
-    "nuance": "남 means 'another person' or 'others' — people outside your own group or family. It often carries the nuance of 'a stranger' or 'someone unrelated to me,' as in 남의 물건 (someone else's belongings). It contrasts with 자기 (oneself) and 우리 (we/us), drawing a line between insiders and outsiders.",
+    "nuance": "남 is a native Korean word for 'another person / others' — people OUTSIDE your own circle — and it carries a real emotional charge of 'an outsider, someone unrelated to me,' not just a neutral 'other.' It sits in a pointed contrast with 자기 (oneself) and especially 우리 (us): saying 이제 남이야 ('we're strangers now') means an intimate bond has been severed, which is far heavier than English 'we're not close anymore.' Habitual collocations include 남의 일 ('someone else's affair'), 남의 시선 ('other people's gaze/judgment'), and 남 얘기 ('gossip'). The first English-speaker pitfall is confusing 남 with 남자 ('a man') — they overlap on screen but are unrelated in meaning. The second is using 남 for your own family or close friends; by definition 남 draws the insider/outsider line, so applying it to your inner circle either is wrong or signals a painful estrangement.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "남 is a native Korean word for 'another person / others' — people OUTSIDE your own circle — and it carries a real emotional charge of 'an outsider, someone unrelated to me,' not just a neutral 'other.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It sits in a pointed contrast with 자기 (oneself) and especially 우리 (us): saying 이제 남이야 ('we're strangers now') means an intimate bond has been severed, which is far heavier than English 'we're not close anymore.' Habitual collocations include 남의 일 ('someone else's affair'), 남의 시선 ('other people's gaze/judgment'), and 남 얘기 ('gossip')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The first English-speaker pitfall is confusing 남 with 남자 ('a man') — they overlap on screen but are unrelated in meaning. The second is using 남 for your own family or close friends; by definition 남 draws the insider/outsider line, so applying it to your inner circle either is wrong or signals a painful estrangement."
+      }
+    ],
     "mistakes": [
-      "Confusing 남 (another person) with 남자 (a man) — they look similar but mean different things.",
-      "Using 남 for your own family or close friends; 남 implies someone outside your circle."
+      "Confusing 남 (another person/outsider) with 남자 (a man) — similar shape, unrelated meaning.",
+      "Calling your own family or close friends 남 — it marks outsiders, so it either misfires or implies a serious rift.",
+      "Missing the weight of 이제 남이야 ('we're strangers now'); it signals a broken relationship, not mild distance."
     ]
   },
   {
@@ -606,45 +833,63 @@
       [
         "우리",
         "we / us / our",
-        "First-person plural. Also used for 'my' in close relationships."
+        "First-person plural; also stands in for 'my' with family and in-group nouns."
       ],
       [
         "우리가",
-        "we (subject)",
-        "우리 + 가."
-      ],
-      [
-        "우리를",
-        "us (object)",
-        "우리 + 를."
+        "we (as subject)",
+        "우리 + 가. Marks 'we' as the doer."
       ],
       [
         "우리 집",
-        "our house / my home",
-        "Koreans say 우리 집 even for their own family home."
+        "our/my home",
+        "우리 + 집. Koreans say this even for their own household."
+      ],
+      [
+        "저희",
+        "we (humble)",
+        "Humble equivalent of 우리, lowering the speaker's group toward a listener."
       ]
     ],
     "examples": [
       [
         "우리 같이 가요.",
         "Let's go together.",
-        "우리 = we, including the listener."
+        "우리 here includes the listener — an invitation."
       ],
       [
-        "우리 집에 오세요.",
-        "Come to our house.",
-        "우리 집 means 'my/our home.'"
+        "우리 엄마는 요리를 잘하세요.",
+        "My mom cooks well.",
+        "우리 엄마 is 'my mom' in English, even though it literally says 'our.'"
       ],
       [
-        "우리가 도와줄게요.",
-        "We'll help you.",
-        "우리가 is the subject form."
+        "저희가 준비하겠습니다.",
+        "We will prepare it.",
+        "Humble 저희 toward a customer/superior; use it instead of 우리 when deferring."
       ]
     ],
-    "nuance": "우리 means 'we / us / our,' but Koreans use it far more often than English 'our.' They say 우리 집 (our house), 우리 엄마 (our mom), even 우리 나라 (our country), where English would say 'my.' This reflects a culture that frames family and group as shared. The humble form 저희 is used in polite speech.",
+    "nuance": "우리 is 'we / us / our,' but it ranges far wider than English 'our' because Korean frames family and group as shared property: 우리 집 ('my home'), 우리 엄마 ('my mom'), 우리 학교, even 우리 나라 — places English would render with 'my.' The crucial register partner is 저희, the humble form: when speaking to a customer, an elder, or anyone you defer to, you lower your own side by switching 우리 → 저희 (저희 회사, 저희가 하겠습니다). The dividing line is politeness/deference, not number. The biggest English-speaker pitfall is over-translating: 우리 엄마 almost always means 'MY mom,' not literally 'our mom,' so rendering it as 'our' sounds odd. A subtle second point: you cannot humble-shift 우리 나라 to 저희 나라 when speaking to fellow citizens, since the nation isn't 'lowered' between insiders.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "우리 is 'we / us / our,' but it ranges far wider than English 'our' because Korean frames family and group as shared property: 우리 집 ('my home'), 우리 엄마 ('my mom'), 우리 학교, even 우리 나라 — places English would render with 'my.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial register partner is 저희, the humble form: when speaking to a customer, an elder, or anyone you defer to, you lower your own side by switching 우리 → 저희 (저희 회사, 저희가 하겠습니다). The dividing line is politeness/deference, not number."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The biggest English-speaker pitfall is over-translating: 우리 엄마 almost always means 'MY mom,' not literally 'our mom,' so rendering it as 'our' sounds odd. A subtle second point: you cannot humble-shift 우리 나라 to 저희 나라 when speaking to fellow citizens, since the nation isn't 'lowered' between insiders."
+      }
+    ],
     "mistakes": [
-      "Translating 우리 엄마 as 'our mom' when it usually just means 'my mom.'",
-      "Using 우리 in very polite situations where the humble 저희 is expected."
+      "Translating 우리 엄마/우리 집 literally as 'our mom/our house' — in most contexts it just means 'my mom/my home.'",
+      "Using plain 우리 toward a customer or superior where the humble 저희 is expected (저희 회사, 저희가).",
+      "Over-applying humility as 저희 나라 to fellow Koreans; 우리 나라 is the natural form among insiders."
     ]
   },
   {
@@ -660,45 +905,58 @@
       [
         "이쪽",
         "this way / this side",
-        "Direction or side near the speaker."
+        "Direction or side near the speaker (이쪽/그쪽/저쪽)."
       ],
       [
         "이쪽으로",
         "this way (toward)",
-        "이쪽 + 으로 to show direction of movement."
+        "이쪽 + 으로. Shows direction of movement — the guiding phrase."
       ],
       [
         "이쪽에",
         "on this side",
-        "이쪽 + 에 for location."
+        "이쪽 + 에. Marks a static location near the speaker."
       ],
       [
-        "이쪽이에요",
-        "it's this way",
-        "Pointing out a direction politely."
+        "이쪽은",
+        "this is... (introducing someone)",
+        "이쪽 + 은. Polite way to present a person: '이쪽은 김 부장님이세요.'"
       ]
     ],
     "examples": [
       [
         "이쪽으로 오세요.",
         "Come this way.",
-        "이쪽으로 shows the direction to move."
+        "이쪽으로 (direction) is the standard phrase for guiding someone."
       ],
       [
-        "화장실은 이쪽이에요.",
-        "The restroom is this way.",
-        "Giving directions to someone."
+        "출구는 이쪽이에요.",
+        "The exit is this way.",
+        "Giving directions; 이쪽 points along a path, not at an object."
       ],
       [
-        "이쪽에 앉으세요.",
-        "Please sit on this side.",
-        "이쪽에 marks a location near the speaker."
+        "이쪽은 제 동료 박지민 씨예요.",
+        "This is my colleague, Ms. Park Jimin.",
+        "이쪽은 politely introduces a person — softer than pointing with 이 사람."
       ]
     ],
-    "nuance": "이쪽 means 'this way' or 'this side,' the direction near the speaker. It belongs to the set 이쪽 / 그쪽 / 저쪽 (this way / that way near you / that way over there), matching the 이/그/저 pattern. It is very handy for giving directions and guiding people, especially with 이쪽으로 오세요.",
+    "nuance": "이쪽 means 'this way / this side,' the direction or area near the speaker, and belongs to the directional set 이쪽 / 그쪽 / 저쪽 (this way / your way / yonder way), mirroring the 이/그/저 system. Its workhorse collocation is 이쪽으로 오세요 ('come this way') for guiding people, plus 이쪽에 앉으세요 for seating them. A refined, very Korean use English lacks: 이쪽 politely points to a PERSON when making introductions — 이쪽은 ~예요 ('this is ~') — which sounds more courteous than bluntly indicating someone with 이 사람. The synonym/confusion to separate is 이것: 쪽 is about WHICH DIRECTION or side, while 것 is a thing, so 이쪽이에요 ('it's this way') is not 이거예요 ('it's this one'). Also note 그쪽 can mean 'you/your side' as a slightly distancing way to address someone, so the set carries social nuance beyond literal direction.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이쪽 means 'this way / this side,' the direction or area near the speaker, and belongs to the directional set 이쪽 / 그쪽 / 저쪽 (this way / your way / yonder way), mirroring the 이/그/저 system. Its workhorse collocation is 이쪽으로 오세요 ('come this way') for guiding people, plus 이쪽에 앉으세요 for seating them. A refined, very Korean use English lacks: 이쪽 politely points to a PERSON when making introductions — 이쪽은 ~예요 ('this is ~') — which sounds more courteous than bluntly indicating someone with 이 사람. Also note 그쪽 can mean 'you/your side' as a slightly distancing way to address someone, so the set carries social nuance beyond literal direction."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym/confusion to separate is 이것: 쪽 is about WHICH DIRECTION or side, while 것 is a thing, so 이쪽이에요 ('it's this way') is not 이거예요 ('it's this one')."
+      }
+    ],
     "mistakes": [
-      "Mixing up 이쪽 (direction/side) with 이것 (a thing) — 쪽 is about which way.",
-      "Using 이쪽 for a far direction; for 'over there' use 저쪽."
+      "Confusing 이쪽 (a direction/side) with 이것/이거 (a thing): 이쪽이에요 'it's this way' vs 이거예요 'it's this one.'",
+      "Using 이쪽 for a far-off direction — for 'that way over there' use 저쪽 (and 그쪽 for the listener's side).",
+      "Pointing out a person bluntly with 이 사람 in a polite introduction where 이쪽은 ~예요 is more courteous."
     ]
   }
 ]

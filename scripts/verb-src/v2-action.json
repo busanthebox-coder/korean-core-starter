@@ -22,16 +22,28 @@
       "shallWe": "걸을까요?"
     },
     "usage": [
-      ["공원을 걸어요", "I walk in the park", "path takes 을"],
-      ["천천히 걸어요", "I walk slowly", "common phrase"]
+      ["공원을 걸어요", "I walk in/through the park", "the route or space you cover takes 을/를, not 에"],
+      ["천천히 걸어요", "I walk slowly", "걷다 pairs naturally with speed adverbs 천천히·빨리"],
+      ["걸어서 가요", "I go on foot", "걸어서 = 'by walking', the standard way to say 'on foot'"],
+      ["한 시간 동안 걸었어요", "I walked for an hour", "duration uses 동안; the walking distance itself can drop the particle"]
     ],
     "examples": [
-      ["저는 매일 공원을 걸어요.", "I walk in the park every day.", "habit"],
-      ["우리 같이 걸을까요?", "Shall we walk together?", "suggestion"],
-      ["어제는 한 시간 걸었어요.", "I walked for an hour yesterday.", "past"]
+      ["저는 매일 공원을 걸어요.", "I walk in the park every day.", "걷다 is intransitive but the park you traverse takes 을 as the path"],
+      ["역까지 걸어서 십 분 걸려요.", "It takes ten minutes on foot to the station.", "걸어서 'on foot' is the everyday answer to how you get somewhere"],
+      ["다리를 다쳐서 지금은 잘 못 걸어요.", "I hurt my leg, so I can't walk well right now.", "못 걸어요 uses the ㄷ→ㄹ vowel form; 못 걷어요 is wrong"]
     ],
-    "nuance": "걷다 is a ㄷ irregular verb, so the ㄷ changes to ㄹ before vowel endings, giving 걸어요 and 걸었어요. Consonant endings keep the ㄷ, so the formal form is still 걷습니다, not 걸습니다.",
-    "mistakes": ["Keeping the ㄷ and saying 걷어요 instead of the correct 걸어요"],
+    "nuance": "걷다 means to walk on foot and is a ㄷ irregular verb: before a vowel ending the final ㄷ softens to ㄹ, so the 요-form is 걸어요 (not 걷어요) and the past is 걸었어요. Before a consonant ending the ㄷ stays put, so the formal form remains 걷습니다 and you say 걷지 마세요, 걷고 싶어요. The nearest relative is 산책하다 ('take a stroll'): 걷다 is the raw act of walking anywhere, while 산책하다 implies a leisurely walk for pleasure, so 'I walk to work' is 걸어서 출근해요, never 산책해서 출근해요. The trap for English speakers is that 걷다 doesn't take an object the way 'walk the dog' does — Korean uses 산책시키다 for that, and the path you walk takes 을/를 (공원을 걸어요), so don't reach for 에. Also remember 걸어서 ('on foot') is one fixed chunk for describing how you travel.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "걷다 means to walk on foot. Remember 걸어서 ('on foot') is one fixed chunk for describing how you travel."},
+      {"k": "비슷한 말", "e": "VS", "t": "The nearest relative is 산책하다 ('take a stroll'): 걷다 is the raw act of walking anywhere, while 산책하다 implies a leisurely walk for pleasure, so 'I walk to work' is 걸어서 출근해요, never 산책해서 출근해요."},
+      {"k": "활용", "e": "FORMS", "t": "걷다 is a ㄷ irregular verb: before a vowel ending the final ㄷ softens to ㄹ, so the 요-form is 걸어요 (not 걷어요) and the past is 걸었어요. Before a consonant ending the ㄷ stays put, so the formal form remains 걷습니다 and you say 걷지 마세요, 걷고 싶어요.", "chips": ["걸어요", "걸었어요", "걷습니다", "걷지 마세요", "걷고 싶어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "걷다 doesn't take an object the way 'walk the dog' does — Korean uses 산책시키다 for that. The path you walk takes 을/를 (공원을 걸어요), so don't reach for 에."}
+    ],
+    "mistakes": [
+      "Keeping the ㄷ and saying 걷어요/걷었어요 — because 걷다 is a ㄷ irregular, the ㄷ becomes ㄹ before vowels, so the correct forms are 걸어요/걸었어요 (the ㄷ only survives before consonants, as in 걷습니다).",
+      "Saying 공원에 걸어요 to mean 'I walk in the park' — the space you walk through is the path/object and takes 을/를, so it must be 공원을 걸어요; 에 would wrongly mark a destination.",
+      "Translating 'walk the dog' literally as 개를 걸어요 — 걷다 can't take a creature as its object that way; Korean says 개를 산책시켜요 ('make the dog stroll')."
+    ],
     "irregular": "ㄷ irregular"
   },
   {
@@ -57,16 +69,28 @@
       "shallWe": "뛸까요?"
     },
     "usage": [
-      ["빨리 뛰어요", "I run fast", "common phrase"],
-      ["같이 뛸까요?", "shall we run together?", "suggestion"]
+      ["빨리 뛰어요", "I run fast", "뛰다 pairs with speed adverbs 빨리·열심히"],
+      ["버스를 향해 뛰어요", "I run toward the bus", "직역 'rush toward' — 뛰다 covers dashing, not just sport"],
+      ["제자리에서 뛰어요", "I jump on the spot", "same verb means 'jump'; 제자리 = in place"],
+      ["뛰지 마세요", "Please don't run", "the standard sign/warning in stations and hallways"]
     ],
     "examples": [
-      ["저는 아침마다 뛰어요.", "I run every morning.", "habit"],
-      ["버스를 타려고 뛰었어요.", "I ran to catch the bus.", "past"],
-      ["여기서 뛰지 마세요.", "Please do not run here.", "warning"]
+      ["아이들이 운동장에서 뛰어요.", "The kids run around the playground.", "everyday running/dashing about, not timed sport"],
+      ["지각할까 봐 역까지 뛰었어요.", "I ran to the station because I was afraid of being late.", "뛰다 = rushing to make it on time"],
+      ["여기는 병원이니까 뛰지 마세요.", "This is a hospital, so please don't run.", "뛰지 마세요 keeps ㅁ before the consonant ending"]
     ],
-    "nuance": "뛰다 ends in the vowel 위, and before the 어요 ending it stays as 뛰어요 without contracting. Korean often pairs it with 달리다 for sport running, while 뛰다 also covers jumping and rushing in everyday speech.",
-    "mistakes": ["Confusing 뛰다 with 띄다 to be visible, which is spelled differently"],
+    "nuance": "뛰다 is a regular verb whose stem ends in the vowel 위, so it simply adds 어 without contracting: 뛰어요, 뛰었어요. Before the formal ㅂ/ㄴ endings the stem shortens in the usual way to 뜁니다 and 뛸 거예요. Its key synonym is 달리다: 달리다 is the neutral, 'sporty' word for running over distance (마라톤을 달리다, 100미터를 달리다), while 뛰다 is the everyday word for dashing, rushing, or even jumping, so a child rushing across a room 뛰어다녀요 rather than 달려다녀요. Crucially 뛰다 also means 'to jump/leap' (제자리에서 뛰다 = jump in place; 심장이 뛰다 = the heart beats/pounds), so context decides between 'run' and 'jump'. The English-speaker pitfall is spelling: don't confuse 뛰다 (run) with 띄다 ('be visible / catch the eye', as in 눈에 띄다) — they sound close but are different verbs. Also note the polite-warning 뛰지 마세요 is the fixed phrase you'll see posted everywhere.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "뛰다 is the everyday word for dashing or rushing, and crucially it also means 'to jump/leap' (제자리에서 뛰다 = jump in place; 심장이 뛰다 = the heart beats/pounds), so context decides between 'run' and 'jump'. The polite-warning 뛰지 마세요 is the fixed phrase you'll see posted everywhere."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its key synonym is 달리다: 달리다 is the neutral, 'sporty' word for running over distance (마라톤을 달리다, 100미터를 달리다), while 뛰다 is the everyday word for dashing, rushing, or even jumping, so a child rushing across a room 뛰어다녀요 rather than 달려다녀요."},
+      {"k": "활용", "e": "FORMS", "t": "뛰다 is a regular verb whose stem ends in the vowel 위, so it simply adds 어 without contracting: 뛰어요, 뛰었어요. Before the formal ㅂ/ㄴ endings the stem shortens in the usual way to 뜁니다 and 뛸 거예요.", "chips": ["뛰어요", "뛰었어요", "뜁니다", "뛸 거예요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is spelling: don't confuse 뛰다 (run) with 띄다 ('be visible / catch the eye', as in 눈에 띄다) — they sound close but are different verbs."}
+    ],
+    "mistakes": [
+      "Confusing 뛰다 with 띄다 — 띄다 means 'to be noticeable / catch the eye' (눈에 띄다), so writing 눈에 뛰다 is wrong; keep the two verbs separate.",
+      "Assuming 뛰다 only means timed/sport running and switching to 달리다 for a quick dash — for rushing to catch a bus or train, natural Korean is 버스를 타려고 뛰었어요, not 달렸어요.",
+      "Forgetting the stem-shortening in the formal form and saying 뛰읍니다 — the correct formal present is 뜁니다 (and the future is 뛸 거예요)."
+    ],
     "irregular": null
   },
   {
@@ -92,16 +116,28 @@
       "shallWe": "설까요?"
     },
     "usage": [
-      ["여기 서요", "I stand here", "place takes 에"],
-      ["줄을 서요", "I stand in line", "common phrase"]
+      ["여기 서 주세요", "Please stand here", "the spot where you stand takes 에 (여기에), often dropped in speech"],
+      ["줄을 서요", "I line up / stand in line", "fixed collocation 줄(을) 서다 = 'form a line'"],
+      ["버스가 섰어요", "The bus stopped", "for vehicles 서다 = come to a stop"],
+      ["똑바로 서요", "Stand up straight", "서다 pairs with posture adverbs 똑바로·가만히"]
     ],
     "examples": [
-      ["문 앞에 서 주세요.", "Please stand in front of the door.", "request"],
-      ["사람들이 줄을 섰어요.", "People stood in line.", "past"],
-      ["버스가 정류장에 섰어요.", "The bus stopped at the stop.", "vehicle stopping"]
+      ["문 앞에 서 주세요.", "Please stand in front of the door.", "place + 에 marks where you take your standing position"],
+      ["사람들이 길게 줄을 섰어요.", "People formed a long line.", "줄을 서다 is the set phrase for queuing; 섰어요 is the contracted past"],
+      ["택시가 우리 앞에 갑자기 섰어요.", "The taxi suddenly stopped in front of us.", "same verb = a vehicle coming to a halt"]
     ],
-    "nuance": "서다 already ends in 어, so when 어요 attaches the two merge into a single 서요 rather than 서어요. The same verb also means to stop for vehicles, as in 버스가 섰어요, so context tells you which meaning is intended.",
-    "mistakes": ["Writing the doubled 서어요 instead of the contracted 서요"],
+    "nuance": "서다 means to stand or, for vehicles, to come to a stop. Because the stem already ends in 어, the 요-ending merges instead of doubling: you get 서요 and the past 섰어요, never 서어요 or 서었어요. Watch the two sister verbs: 서다 is the plain state/result 'to be standing / take a standing position', while 일어서다 ('rise to one's feet') stresses the motion of getting up from sitting — so 'please stand up (from your seat)' is 일어서 주세요, but 'please stand here' is 여기 서 주세요. For vehicles 서다 overlaps with 멈추다 ('to halt'); 멈추다 is more general and can describe machines or actions stopping, while 서다 is the everyday word for a bus or car pulling up. The English-speaker pitfall is the particle: the location where you stand takes 에 (여기에 서다), not the object marker, and don't say 줄에 서다 — the idiom is 줄을 서다, treating the line as something you 'do'. Korean also has no separate verb for 'stand something up'; that meaning needs the causative 세우다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "서다 means to stand or, for vehicles, to come to a stop. Korean also has no separate verb for 'stand something up'; that meaning needs the causative 세우다."},
+      {"k": "비슷한 말", "e": "VS", "t": "Watch the two sister verbs: 서다 is the plain state/result 'to be standing / take a standing position', while 일어서다 ('rise to one's feet') stresses the motion of getting up from sitting — so 'please stand up (from your seat)' is 일어서 주세요, but 'please stand here' is 여기 서 주세요. For vehicles 서다 overlaps with 멈추다 ('to halt'); 멈추다 is more general and can describe machines or actions stopping, while 서다 is the everyday word for a bus or car pulling up."},
+      {"k": "활용", "e": "FORMS", "t": "Because the stem already ends in 어, the 요-ending merges instead of doubling: you get 서요 and the past 섰어요, never 서어요 or 서었어요.", "chips": ["서요", "섰어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the particle: the location where you stand takes 에 (여기에 서다), not the object marker, and don't say 줄에 서다 — the idiom is 줄을 서다, treating the line as something you 'do'."}
+    ],
+    "mistakes": [
+      "Writing the doubled 서어요/서었어요 — since the stem ends in 어, it contracts with the ending, so the correct forms are 서요 and 섰어요.",
+      "Saying 줄에 서요 for 'stand in line' — the natural idiom treats the line as an object, so it must be 줄을 서요/줄을 섰어요.",
+      "Using 서다 to mean 'stand something upright' (e.g., 'I stood the bottle on the table') — 서다 is intransitive; for that you need the causative 세우다, as in 병을 세웠어요."
+    ],
     "irregular": null
   },
   {
@@ -127,16 +163,28 @@
       "shallWe": "누울까요?"
     },
     "usage": [
-      ["침대에 누워요", "I lie on the bed", "place takes 에"],
-      ["잠깐 누워요", "I lie down for a bit", "common phrase"]
+      ["침대에 누워요", "I lie down on the bed", "surface you lie on takes 에"],
+      ["잠깐 누워요", "I lie down for a bit", "눕다 pairs with 잠깐·좀 for a short rest"],
+      ["똑바로 누워요", "I lie down flat/straight", "posture adverbs 똑바로·옆으로 go with 눕다"],
+      ["누워서 책을 읽어요", "I read lying down", "누워서 + verb = doing something while lying down"]
     ],
     "examples": [
-      ["저는 침대에 누워요.", "I lie down on the bed.", "rest"],
-      ["피곤해서 소파에 누웠어요.", "I was tired, so I lay on the sofa.", "past"],
-      ["여기 잠깐 누워 보세요.", "Please lie down here for a moment.", "request"]
+      ["저는 침대에 누워요.", "I lie down on the bed.", "the bed (place) takes 에; 누워요 is the ㅂ→우 vowel form"],
+      ["너무 피곤해서 소파에 누웠어요.", "I was so tired that I lay on the sofa.", "누웠어요 keeps the 우 from the irregular stem"],
+      ["여기 잠깐 누워 보세요.", "Please lie down here for a moment.", "누워 보세요 = 'try lying down', a gentle suggestion"]
     ],
-    "nuance": "눕다 is a ㅂ irregular verb, so the ㅂ turns into a 우 sound before vowel endings, giving 누워요 and 누웠어요. The plain consonant form keeps the ㅂ, so the formal style stays 눕습니다, not 누웁니다.",
-    "mistakes": ["Keeping the ㅂ and saying 눕어요 instead of the correct 누워요"],
+    "nuance": "눕다 means to lie down and is a ㅂ irregular verb: before a vowel ending the ㅂ turns into a 우/워 sound, giving 누워요 and 누웠어요, while before a consonant the ㅂ stays, so the formal is 눕습니다 and you say 눕지 마세요, 눕고 싶어요. Don't confuse it with two neighbors: 눕다 is intransitive ('I lie down'), whereas the causative 눕히다 means 'lay someone/something down' (아기를 눕혀요 = lay the baby down), and 기대다 means 'to lean/recline' rather than fully lying flat. There's also a posture pair to keep straight: 눕다 (lie) vs 앉다 (sit) vs 서다 (stand). The English-speaker pitfall is that English 'lie down' has no object but learners still want to add 를; in Korean the surface takes 에 (침대에 눕다), and reaching for 눕어요 by analogy with regular verbs is the classic error — it must be 누워요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "눕다 means to lie down. There's a posture pair to keep straight: 눕다 (lie) vs 앉다 (sit) vs 서다 (stand)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse it with two neighbors: 눕다 is intransitive ('I lie down'), whereas the causative 눕히다 means 'lay someone/something down' (아기를 눕혀요 = lay the baby down), and 기대다 means 'to lean/recline' rather than fully lying flat."},
+      {"k": "활용", "e": "FORMS", "t": "눕다 is a ㅂ irregular verb: before a vowel ending the ㅂ turns into a 우/워 sound, giving 누워요 and 누웠어요, while before a consonant the ㅂ stays, so the formal is 눕습니다 and you say 눕지 마세요, 눕고 싶어요.", "chips": ["누워요", "누웠어요", "눕습니다", "눕지 마세요", "눕고 싶어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English 'lie down' has no object but learners still want to add 를; in Korean the surface takes 에 (침대에 눕다), and reaching for 눕어요 by analogy with regular verbs is the classic error — it must be 누워요."}
+    ],
+    "mistakes": [
+      "Keeping the ㅂ and saying 눕어요/눕었어요 — 눕다 is ㅂ irregular, so before a vowel the ㅂ becomes 우/워, giving 누워요/누웠어요 (the ㅂ only survives before consonants, as in 눕습니다).",
+      "Using 눕다 to mean 'lay someone down' — 눕다 is intransitive; to lay a baby or object down you need the causative 눕히다, as in 아기를 침대에 눕혔어요.",
+      "Marking the surface with 를 (침대를 누워요) — the place you lie on takes 에, so it must be 침대에 누워요."
+    ],
     "irregular": "ㅂ irregular"
   },
   {
@@ -162,16 +210,28 @@
       "shallWe": "들까요?"
     },
     "usage": [
-      ["가방을 들어요", "I hold the bag", "object takes 을"],
-      ["손을 들어요", "I raise my hand", "common phrase"]
+      ["가방을 들어요", "I hold/carry the bag", "what you lift or carry takes 을/를"],
+      ["손을 들어요", "I raise my hand", "fixed phrase 손(을) 들다 = raise one's hand"],
+      ["무거운 짐을 들어요", "I lift heavy luggage", "pairs with 무겁다 for weight"],
+      ["들어 주세요", "Please hold this for me", "the everyday way to ask someone to carry something briefly"]
     ],
     "examples": [
-      ["이 가방 좀 들어 주세요.", "Please hold this bag for me.", "request"],
-      ["무거운 상자를 들었어요.", "I lifted a heavy box.", "past"],
-      ["질문 있으면 손을 들어요.", "If you have a question, raise your hand.", "instruction"]
+      ["이 가방 좀 들어 주세요.", "Please hold this bag for me.", "좀 + 들어 주세요 softens the request"],
+      ["혼자서 무거운 상자를 들었어요.", "I lifted the heavy box by myself.", "들었어요 keeps the ㄹ before a vowel"],
+      ["질문이 있으면 손을 드세요.", "If you have a question, raise your hand.", "드세요 — the ㄹ drops before the honorific 세요"]
     ],
-    "nuance": "들다 is a ㄹ irregular, so the ㄹ drops before ㅂ and ㄴ endings, giving 듭니다 and 드세요. Before a vowel the ㄹ stays, so the polite present is 들어요, and the same verb also means to hold or carry an item.",
-    "mistakes": ["Keeping the ㄹ before ㅂ and saying 들읍니다 instead of 듭니다"],
+    "nuance": "들다 here means to lift or hold something up in your hand, and it is a ㄹ irregular verb: the stem ㄹ drops before endings beginning with ㅂ, ㄴ, or ㅅ, so you get 듭니다, 드세요, and 드는 — but the ㄹ stays before a plain vowel, giving 들어요 and 들었어요. Note the future is simply 들 거예요 (the ㄹ survives before ㄱ). Its near-synonym 올리다 means 'to raise/put up' and stresses upward movement to a higher place (가격을 올리다 = raise the price), while 들다 is about taking the weight in your hand or holding it, and 나르다 (also ㄹ-irregular: 날라요) means 'transport/haul' over a distance. Beware: 들다 is a famously overloaded verb — it also means 'to enter' (방에 들다), 'to cost/take' (돈이 들다, 시간이 들다), and 'to like the taste' in 마음에 들다. The English-speaker pitfall is conjugation: by analogy with regular verbs people write 들읍니다, but the ㄹ must drop, so it's 듭니다; and 'raise your hand' is 손을 들다, not 손을 올리다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "들다 here means to lift or hold something up in your hand. Beware: 들다 is a famously overloaded verb — it also means 'to enter' (방에 들다), 'to cost/take' (돈이 들다, 시간이 들다), and 'to like the taste' in 마음에 들다."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its near-synonym 올리다 means 'to raise/put up' and stresses upward movement to a higher place (가격을 올리다 = raise the price), while 들다 is about taking the weight in your hand or holding it, and 나르다 (also ㄹ-irregular: 날라요) means 'transport/haul' over a distance."},
+      {"k": "활용", "e": "FORMS", "t": "들다 is a ㄹ irregular verb: the stem ㄹ drops before endings beginning with ㅂ, ㄴ, or ㅅ, so you get 듭니다, 드세요, and 드는 — but the ㄹ stays before a plain vowel, giving 들어요 and 들었어요. Note the future is simply 들 거예요 (the ㄹ survives before ㄱ).", "chips": ["들어요", "들었어요", "듭니다", "드세요", "들 거예요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is conjugation: by analogy with regular verbs people write 들읍니다, but the ㄹ must drop, so it's 듭니다; and 'raise your hand' is 손을 들다, not 손을 올리다."}
+    ],
+    "mistakes": [
+      "Keeping the ㄹ before ㅂ and saying 들읍니다/들으세요 — 들다 is ㄹ irregular, so the ㄹ drops there, giving 듭니다 and 드세요.",
+      "Using 올리다 for 'raise your hand' — Korean fixes this as 손을 들다, so 'raise your hand' is 손을 들어요, while 올리다 fits raising a price or volume.",
+      "Forgetting 들다's idiomatic meanings and translating 마음에 들다 word-for-word — it doesn't mean 'lift the heart'; it's the set phrase for 'to like (it suits my taste)', as in 이거 마음에 들어요."
+    ],
     "irregular": "ㄹ irregular"
   },
   {
@@ -197,16 +257,28 @@
       "shallWe": "놓을까요?"
     },
     "usage": [
-      ["책을 놓아요", "I put down the book", "object takes 을"],
-      ["여기에 놓아요", "I put it here", "place takes 에"]
+      ["책을 놓아요", "I put down the book", "what you set down takes 을/를"],
+      ["여기에 놓아요", "I put it here", "the spot where you place it takes 에"],
+      ["손을 놓아요", "I let go / release my grip", "놓다 also = 'let go of', 손을 놓다"],
+      ["놓아 주세요 / 놔 주세요", "Please put it down / let go", "놔 주세요 is the natural contracted form in speech"]
     ],
     "examples": [
-      ["가방을 의자에 놓았어요.", "I put the bag on the chair.", "past"],
-      ["컵을 여기에 놓아 주세요.", "Please put the cup here.", "request"],
-      ["짐을 바닥에 놓으세요.", "Please set the luggage on the floor.", "instruction"]
+      ["가방을 의자에 놓았어요.", "I put the bag on the chair.", "object + 를, place + 에: the basic 놓다 pattern"],
+      ["컵을 여기에 놓아 주세요.", "Please put the cup here.", "놓아 주세요 = a polite request to set something down"],
+      ["뜨거우니까 그 냄비 그냥 놓으세요.", "It's hot, so just put that pot down.", "놓으세요 with 으 before the honorific after a consonant stem"]
     ],
-    "nuance": "놓다 means to set an object down somewhere, and the spot where you place it takes the marker 에, as in 책상에 놓아요. In fast speech 놓아요 is often shortened to 놔요, but the full 놓아요 is clearer for beginners.",
-    "mistakes": ["Confusing 놓다 to put down with 넣다 to put inside"],
+    "nuance": "놓다 means to set an object down onto a surface, and the place where you put it takes 에 (책상에 놓다 = put it on the desk). It's a regular verb, so the ㅎ stays in writing and you add 아: 놓아요, 놓았어요; in fast speech 놓아요 routinely contracts to 놔요 and 놓았어요 to 놨어요, but the full forms are clearer to learn first. The crucial contrast is with 넣다 ('put inside / insert'): 놓다 places something ON a surface, while 넣다 puts it INTO a container (가방에 넣다 = put it in the bag) — choosing the wrong one changes the meaning entirely. Compare too 두다 ('leave/keep something in a place', often longer-term: 여기 두세요 = leave it here). 놓다 also means 'to let go / release' (손을 놓다) and appears in helpful patterns like -아 놓다 ('do and leave it done', 켜 놓다 = leave it switched on). The English-speaker pitfall: English 'put' covers both 'on' and 'in', so learners overuse 놓다 where 넣다 is needed, and they mark the surface with 를 instead of the correct 에.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "놓다 means to set an object down onto a surface, and the place where you put it takes 에 (책상에 놓다 = put it on the desk). 놓다 also means 'to let go / release' (손을 놓다) and appears in helpful patterns like -아 놓다 ('do and leave it done', 켜 놓다 = leave it switched on)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The crucial contrast is with 넣다 ('put inside / insert'): 놓다 places something ON a surface, while 넣다 puts it INTO a container (가방에 넣다 = put it in the bag) — choosing the wrong one changes the meaning entirely. Compare too 두다 ('leave/keep something in a place', often longer-term: 여기 두세요 = leave it here)."},
+      {"k": "활용", "e": "FORMS", "t": "It's a regular verb, so the ㅎ stays in writing and you add 아: 놓아요, 놓았어요; in fast speech 놓아요 routinely contracts to 놔요 and 놓았어요 to 놨어요, but the full forms are clearer to learn first.", "chips": ["놓아요", "놓았어요", "놔요", "놨어요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English 'put' covers both 'on' and 'in', so learners overuse 놓다 where 넣다 is needed, and they mark the surface with 를 instead of the correct 에."}
+    ],
+    "mistakes": [
+      "Confusing 놓다 (set ON a surface) with 넣다 (put INTO something) — to put a wallet in a bag you say 가방에 넣어요, not 가방에 놓아요; 놓다 only works for placing on top of a surface.",
+      "Marking the destination with 를 (책상을 놓아요) — the spot where you set it down takes 에, so it must be 책상에 놓아요.",
+      "Writing the contraction 놔요 as if it were a different verb — 놔요/놨어요 are just spoken contractions of 놓아요/놓았어요, so the dictionary form is still 놓다."
+    ],
     "irregular": null
   },
   {
@@ -232,16 +304,28 @@
       "shallWe": "입을까요?"
     },
     "usage": [
-      ["코트를 입어요", "I wear a coat", "object takes 를"],
-      ["옷을 입어요", "I put on clothes", "common phrase"]
+      ["코트를 입어요", "I wear a coat", "garments worn on the torso/legs take 을/를 with 입다"],
+      ["옷을 입어요", "I put on clothes", "옷(을) 입다 is the generic 'get dressed'"],
+      ["교복을 입어요", "I wear a school uniform", "uniforms and formal wear use 입다"],
+      ["입어 보세요", "Try it on", "입어 보다 = 'try on (clothing)' in a shop"]
     ],
     "examples": [
-      ["오늘은 따뜻한 옷을 입어요.", "Today I wear warm clothes.", "weather"],
-      ["저는 청바지를 자주 입어요.", "I often wear jeans.", "habit"],
-      ["이 코트 한번 입어 보세요.", "Try on this coat.", "suggestion"]
+      ["오늘은 따뜻한 옷을 입어요.", "Today I'm wearing warm clothes.", "weather-driven clothing choice; 옷을 입다 generic"],
+      ["면접이라서 정장을 입었어요.", "I wore a suit because it was an interview.", "정장을 입다 = wear a suit; 입었어요 regular past"],
+      ["이 코트 한번 입어 보세요.", "Try this coat on.", "입어 보세요 is what a shop clerk says"]
     ],
-    "nuance": "입다 is used for clothing worn on the body or legs, like shirts, coats, and pants. Korean uses different wearing verbs for other items, so shoes take 신다 and hats or glasses take 쓰다, not 입다.",
-    "mistakes": ["Using 입다 for shoes instead of the correct verb 신다"],
+    "nuance": "입다 is a regular verb (입어요, 입었어요, 입습니다) meaning to put on or wear clothing on the torso and legs — shirts, coats, dresses, trousers, uniforms. The thing English speakers must internalize is that Korean has no single verb for 'wear'; it splits the action by body part: 입다 for body clothes, 신다 for footwear (shoes, socks), 쓰다 for things on the head/face (hats, glasses), 끼다 for snug items (gloves, rings), 차다 for things you strap on (watch, belt), and 매다 for ties/scarves you knot. So 'wear shoes' is never 신발을 입다 — it must be 신발을 신다. A second nuance is aspect: 입다 is the action of putting on, while the resulting state 'be wearing' is 입고 있다 (티셔츠를 입고 있어요 = is wearing a T-shirt). The opposite, for taking off any of these, is the single verb 벗다. The pitfall is simply over-extending 입다 to cover everything 'wear' covers in English.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "입다 means to put on or wear clothing on the torso and legs — shirts, coats, dresses, trousers, uniforms. A second nuance is aspect: 입다 is the action of putting on, while the resulting state 'be wearing' is 입고 있다 (티셔츠를 입고 있어요 = is wearing a T-shirt). The opposite, for taking off any of these, is the single verb 벗다."},
+      {"k": "비슷한 말", "e": "VS", "t": "Korean has no single verb for 'wear'; it splits the action by body part: 입다 for body clothes, 신다 for footwear (shoes, socks), 쓰다 for things on the head/face (hats, glasses), 끼다 for snug items (gloves, rings), 차다 for things you strap on (watch, belt), and 매다 for ties/scarves you knot. So 'wear shoes' is never 신발을 입다 — it must be 신발을 신다."},
+      {"k": "활용", "e": "FORMS", "t": "입다 is a regular verb: 입어요, 입었어요, 입습니다.", "chips": ["입어요", "입었어요", "입습니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is simply over-extending 입다 to cover everything 'wear' covers in English."}
+    ],
+    "mistakes": [
+      "Using 입다 for shoes or socks — footwear takes 신다, so it must be 신발을 신어요, never 신발을 입어요.",
+      "Using 입다 for a hat or glasses — head/face items take 쓰다, so 'wear a hat' is 모자를 써요 and 'wear glasses' is 안경을 써요, not 입다.",
+      "Saying 옷을 입고 있어요 when you mean the action of getting dressed right now — 입고 있다 is ambiguous toward the state 'am wearing'; to stress the ongoing action of dressing, context or 입는 중이에요 is clearer."
+    ],
     "irregular": null
   },
   {
@@ -267,16 +351,28 @@
       "shallWe": "벗을까요?"
     },
     "usage": [
-      ["코트를 벗어요", "I take off my coat", "object takes 를"],
-      ["신발을 벗어요", "I take off my shoes", "common phrase"]
+      ["코트를 벗어요", "I take off my coat", "the garment removed takes 을/를"],
+      ["신발을 벗어요", "I take off my shoes", "벗다 covers footwear too, unlike the put-on side"],
+      ["안경을 벗어요", "I take off my glasses", "head/face items also use 벗다"],
+      ["신발 벗고 들어오세요", "Come in after taking off your shoes", "벗고 + verb sequences the action; common at the door"]
     ],
     "examples": [
-      ["집에서는 신발을 벗어요.", "At home we take off our shoes.", "custom"],
-      ["더워서 외투를 벗었어요.", "It was hot, so I took off my coat.", "past"],
-      ["여기서는 모자를 벗어 주세요.", "Please take off your hat here.", "request"]
+      ["집에서는 신발을 벗어요.", "At home we take off our shoes.", "Korean custom; 신발을 벗다 even though putting on is 신다"],
+      ["너무 더워서 외투를 벗었어요.", "It was so hot that I took off my coat.", "벗었어요 regular past"],
+      ["실내에서는 모자를 벗어 주세요.", "Please take off your hat indoors.", "벗어 주세요 polite request"]
     ],
-    "nuance": "벗다 is the single verb for taking off almost anything you are wearing, whether clothes, shoes, a hat, or glasses. This is simpler than the put on side, where Korean splits the action into 입다, 신다, and 쓰다 by item.",
-    "mistakes": ["Adding 안 plus a wearing verb instead of using the natural 벗다"],
+    "nuance": "벗다 is the single, regular verb (벗어요, 벗었어요, 벗습니다) for taking off almost anything you wear — clothes, shoes, socks, a hat, glasses, gloves. This is the great convenience of Korean: the 'put on' side fragments into 입다/신다/쓰다/끼다/차다 by body part, but the 'take off' side collapses into just 벗다, so you don't have to match the item to a special remover. (Two small exceptions: accessories you fasten — a watch, a ring, a tie — are usually 풀다 'undo/untie' or 빼다 'pull out', so 시계를 풀다, 반지를 빼다 sound more natural than 벗다.) The everyday context is the Korean custom of removing shoes at the door: 신발을 벗고 들어오세요. The English-speaker pitfall is over-thinking it: learners who learned that shoes need 신다 sometimes invent a matching remover, but for taking off you simply use 벗다 for clothes, shoes, and hats alike. Don't say 안 신어요 to mean 'take off shoes' — that just means 'don't wear shoes'.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "벗다 is the single verb for taking off almost anything you wear — clothes, shoes, socks, a hat, glasses, gloves. The everyday context is the Korean custom of removing shoes at the door: 신발을 벗고 들어오세요."},
+      {"k": "비슷한 말", "e": "VS", "t": "This is the great convenience of Korean: the 'put on' side fragments into 입다/신다/쓰다/끼다/차다 by body part, but the 'take off' side collapses into just 벗다, so you don't have to match the item to a special remover. Two small exceptions: accessories you fasten — a watch, a ring, a tie — are usually 풀다 'undo/untie' or 빼다 'pull out', so 시계를 풀다, 반지를 빼다 sound more natural than 벗다."},
+      {"k": "활용", "e": "FORMS", "t": "벗다 is a regular verb: 벗어요, 벗었어요, 벗습니다.", "chips": ["벗어요", "벗었어요", "벗습니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is over-thinking it: learners who learned that shoes need 신다 sometimes invent a matching remover, but for taking off you simply use 벗다 for clothes, shoes, and hats alike. Don't say 안 신어요 to mean 'take off shoes' — that just means 'don't wear shoes'."}
+    ],
+    "mistakes": [
+      "Inventing item-specific 'take off' verbs to mirror 입다/신다/쓰다 — for taking off clothes, shoes, or a hat the verb is the same: 벗다 (신발을 벗다, 모자를 벗다).",
+      "Using 안 + a wearing verb to mean 'take off' — 신발을 안 신어요 means 'I don't wear shoes', not 'I take off my shoes'; the action of removing is 신발을 벗어요.",
+      "Saying 시계를 벗다 for taking off a watch — a fastened watch is more naturally 시계를 풀다, and a ring is 반지를 빼다; 벗다 is for clothes, shoes, and hats."
+    ],
     "irregular": null
   },
   {
@@ -302,16 +398,28 @@
       "shallWe": "씻을까요?"
     },
     "usage": [
-      ["손을 씻어요", "I wash my hands", "object takes 을"],
-      ["얼굴을 씻어요", "I wash my face", "common phrase"]
+      ["손을 씻어요", "I wash my hands", "body parts you wash take 을/를"],
+      ["얼굴을 씻어요", "I wash my face", "씻다 fits hands, face, and food"],
+      ["과일을 씻어요", "I wash the fruit", "rinsing food with water uses 씻다"],
+      ["깨끗이 씻어요", "I wash it clean", "씻다 pairs with 깨끗이 'cleanly'"]
     ],
     "examples": [
-      ["밥 먹기 전에 손을 씻어요.", "I wash my hands before eating.", "habit"],
-      ["저는 아침에 얼굴을 씻어요.", "I wash my face in the morning.", "routine"],
-      ["과일을 깨끗이 씻으세요.", "Please wash the fruit clean.", "instruction"]
+      ["밥 먹기 전에 손을 씻어요.", "I wash my hands before eating.", "habit; 손을 씻다 fixed collocation"],
+      ["저는 아침마다 찬물로 얼굴을 씻어요.", "I wash my face with cold water every morning.", "with-instrument 찬물로; 씻어요 regular"],
+      ["딸기를 흐르는 물에 깨끗이 씻으세요.", "Wash the strawberries clean under running water.", "씻으세요 with 으 before the honorific after a consonant stem"]
     ],
-    "nuance": "씻다 looks like it might be irregular, but it is a regular verb, so the ㅅ stays in every form, giving 씻어요 and 씻습니다. It covers washing hands, face, and food, while washing hair usually uses 감다 instead.",
-    "mistakes": ["Dropping the ㅅ and saying 씨어요 instead of the correct 씻어요"],
+    "nuance": "씻다 means to wash with water and, despite the tense-looking ㅅ, is a perfectly regular verb: the ㅅ stays in every form, giving 씻어요, 씻었어요, 씻습니다 (the ㅅ never drops the way it does in true ㅅ-irregular verbs like 짓다→지어요). It covers washing hands, face, body, and rinsing food. Korean, however, distributes 'wash/clean' across several verbs you must keep apart: 씻다 is for rinsing body parts and food; 감다 is reserved for washing hair (머리를 감다, never 머리를 씻다); 닦다 is 'wipe/scrub/polish' and is what you use for brushing teeth (이를 닦다) and wiping surfaces; and 빨다 is for washing laundry (빨래를 빨다), often replaced by 세탁하다 for machine washing 빨래하다. The whole-body version is 씻다 generically, or the Sino-Korean 샤워하다 'shower'. The English-speaker pitfall is that English 'wash' is one word, so learners say 머리를 씻다 for 'wash my hair' (wrong → 감다) or 이를 씻다 for 'brush teeth' (wrong → 닦다).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "씻다 means to wash with water. It covers washing hands, face, body, and rinsing food. The whole-body version is 씻다 generically, or the Sino-Korean 샤워하다 'shower'."},
+      {"k": "비슷한 말", "e": "VS", "t": "Korean distributes 'wash/clean' across several verbs you must keep apart: 씻다 is for rinsing body parts and food; 감다 is reserved for washing hair (머리를 감다, never 머리를 씻다); 닦다 is 'wipe/scrub/polish' and is what you use for brushing teeth (이를 닦다) and wiping surfaces; and 빨다 is for washing laundry (빨래를 빨다), often replaced by 세탁하다 for machine washing 빨래하다."},
+      {"k": "활용", "e": "FORMS", "t": "Despite the tense-looking ㅅ, 씻다 is a perfectly regular verb: the ㅅ stays in every form, giving 씻어요, 씻었어요, 씻습니다 (the ㅅ never drops the way it does in true ㅅ-irregular verbs like 짓다→지어요).", "chips": ["씻어요", "씻었어요", "씻습니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English 'wash' is one word, so learners say 머리를 씻다 for 'wash my hair' (wrong → 감다) or 이를 씻다 for 'brush teeth' (wrong → 닦다)."}
+    ],
+    "mistakes": [
+      "Using 씻다 for hair — washing hair has its own verb 감다, so 'I wash my hair' is 머리를 감아요, not 머리를 씻어요.",
+      "Using 씻다 for teeth — brushing teeth is 이를 닦다 (a wiping/scrubbing action), so it must be 이를 닦아요, not 이를 씻어요.",
+      "Dropping the ㅅ like an irregular verb (씨어요) — 씻다 is regular, so the ㅅ stays: 씻어요, 씻었어요."
+    ],
     "irregular": null
   },
   {
@@ -337,16 +445,28 @@
       "shallWe": "신을까요?"
     },
     "usage": [
-      ["신발을 신어요", "I wear shoes", "object takes 을"],
-      ["양말을 신어요", "I put on socks", "common phrase"]
+      ["신발을 신어요", "I put on shoes", "footwear takes 을/를 with 신다"],
+      ["양말을 신어요", "I put on socks", "socks and stockings also use 신다"],
+      ["구두를 신어요", "I wear dress shoes", "all foot coverings → 신다"],
+      ["신어 보세요", "Try them on", "신어 보다 = 'try on (footwear)' in a shoe shop"]
     ],
     "examples": [
-      ["저는 운동화를 신어요.", "I wear sneakers.", "footwear"],
-      ["추워서 두꺼운 양말을 신었어요.", "It was cold, so I wore thick socks.", "past"],
-      ["이 신발 한번 신어 보세요.", "Try on these shoes.", "suggestion"]
+      ["저는 보통 운동화를 신어요.", "I usually wear sneakers.", "운동화를 신다; 신어요 regular"],
+      ["추워서 두꺼운 양말을 신었어요.", "It was cold, so I put on thick socks.", "양말을 신다 — socks use 신다, not 입다"],
+      ["이 신발 한번 신어 보세요.", "Try these shoes on.", "신어 보세요 is what a clerk says in a shoe store"]
     ],
-    "nuance": "신다 is the special wearing verb for footwear like shoes and socks, things you put on your feet. For clothes on the body you use 입다 instead, so Korean chooses the wearing verb by the body part.",
-    "mistakes": ["Using 입다 for shoes instead of the correct verb 신다"],
+    "nuance": "신다 is the dedicated, regular verb (신어요, 신었어요, 신습니다) for putting on or wearing anything on the feet — shoes, sneakers, dress shoes, boots, socks, stockings. It exists because Korean assigns wearing verbs by body part rather than using one word like English 'wear': 입다 covers body clothes, 쓰다 the head and face, 끼다 snug items like gloves and rings, 차다 strapped items like watches, and 신다 specifically the feet. So 'wear sneakers' must be 운동화를 신다 and 'put on socks' is 양말을 신다 — using 입다 here is a clear error a native speaker would immediately notice. The matching state 'have on / be wearing' is 신고 있다 (장화를 신고 있어요 = is wearing boots), and the opposite is the all-purpose 벗다 (신발을 벗다). The English-speaker pitfall is defaulting to 입다 for everything wearable; remember the foot-specific 신다 and that socks, not just shoes, belong to it.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "신다 is the dedicated verb for putting on or wearing anything on the feet — shoes, sneakers, dress shoes, boots, socks, stockings. The matching state 'have on / be wearing' is 신고 있다 (장화를 신고 있어요 = is wearing boots), and the opposite is the all-purpose 벗다 (신발을 벗다)."},
+      {"k": "비슷한 말", "e": "VS", "t": "신다 exists because Korean assigns wearing verbs by body part rather than using one word like English 'wear': 입다 covers body clothes, 쓰다 the head and face, 끼다 snug items like gloves and rings, 차다 strapped items like watches, and 신다 specifically the feet. So 'wear sneakers' must be 운동화를 신다 and 'put on socks' is 양말을 신다 — using 입다 here is a clear error a native speaker would immediately notice."},
+      {"k": "활용", "e": "FORMS", "t": "신다 is a regular verb: 신어요, 신었어요, 신습니다.", "chips": ["신어요", "신었어요", "신습니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is defaulting to 입다 for everything wearable; remember the foot-specific 신다 and that socks, not just shoes, belong to it."}
+    ],
+    "mistakes": [
+      "Using 입다 for shoes or socks — feet take 신다, so it must be 신발을 신어요 and 양말을 신어요, never 신발을 입어요.",
+      "Pairing 신다 with non-foot items — gloves are 끼다 (장갑을 끼다) and a hat is 쓰다 (모자를 쓰다); 신다 is feet only.",
+      "Saying 신발을 신어요 to mean you took them off — to remove footwear you switch to 벗다 (신발을 벗어요); 안 신어요 only means 'I don't wear shoes'."
+    ],
     "irregular": null
   },
   {
@@ -372,16 +492,28 @@
       "shallWe": "웃을까요?"
     },
     "usage": [
-      ["크게 웃어요", "I laugh loudly", "common phrase"],
-      ["같이 웃어요", "we laugh together", "shared moment"]
+      ["크게 웃어요", "I laugh out loud", "웃다 pairs with size adverbs 크게·활짝"],
+      ["활짝 웃어요", "I smile broadly", "활짝 웃다 = beam/grin; 웃다 covers smiling too"],
+      ["웃어 주세요", "Please smile", "the standard phrase when taking a photo"],
+      ["웃기지 마세요", "Don't make me laugh", "웃기다 = 'be funny / make laugh', the causative of 웃다"]
     ],
     "examples": [
-      ["그 이야기를 듣고 크게 웃었어요.", "I laughed loudly at that story.", "past"],
-      ["아기가 환하게 웃어요.", "The baby smiles brightly.", "third person"],
-      ["사진 찍을 때 웃어 주세요.", "Please smile for the photo.", "request"]
+      ["그 이야기를 듣고 크게 웃었어요.", "I laughed out loud at that story.", "웃었어요 regular past; 크게 웃다 collocation"],
+      ["아기가 저를 보고 활짝 웃어요.", "The baby smiles brightly at me.", "보고 웃다 = smile at (seeing); 웃다 = smile here"],
+      ["사진 찍을게요, 웃어 주세요!", "I'll take the photo, smile please!", "웃어 주세요 is exactly what a Korean says with a camera"]
     ],
-    "nuance": "웃다 is a regular verb, so the ㅅ stays in every form, giving 웃어요 and 웃습니다. It covers both laughing and smiling, and the photo phrase 웃어 주세요 is the everyday way to ask someone to smile.",
-    "mistakes": ["Confusing 웃다 to laugh with the opposite verb 울다 to cry"],
+    "nuance": "웃다 is a regular verb (웃어요, 웃었어요, 웃습니다 — the ㅅ stays) covering BOTH laughing and smiling; Korean doesn't force the English split. Context and adverbs do the work: 크게 웃다 / 깔깔 웃다 lean toward audible laughing, while 빙긋 웃다 / 미소를 짓다 lean toward a quiet smile. The near-synonym 미소(를) 짓다 ('make a smile', literally) is more written/formal and only means smiling, whereas plain 웃다 is the everyday word for both. A related verb to keep distinct is the causative 웃기다 ('to be funny / make someone laugh', 웃기다 ≠ 웃다): 그 사람 진짜 웃겨요 = 'that person is really funny'. Naturally its opposite is 울다 ('to cry'). The English-speaker pitfall is twofold: (1) hunting for a separate verb for 'smile' when 웃다 already does it — 웃어 주세요 is the photo phrase, not 미소해 주세요; and (2) spelling/meaning confusion with 울다 (cry), which differs by a single jamo.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "웃다 covers BOTH laughing and smiling; Korean doesn't force the English split. Context and adverbs do the work: 크게 웃다 / 깔깔 웃다 lean toward audible laughing, while 빙긋 웃다 / 미소를 짓다 lean toward a quiet smile. Naturally its opposite is 울다 ('to cry')."},
+      {"k": "비슷한 말", "e": "VS", "t": "The near-synonym 미소(를) 짓다 ('make a smile', literally) is more written/formal and only means smiling, whereas plain 웃다 is the everyday word for both. A related verb to keep distinct is the causative 웃기다 ('to be funny / make someone laugh', 웃기다 ≠ 웃다): 그 사람 진짜 웃겨요 = 'that person is really funny'."},
+      {"k": "활용", "e": "FORMS", "t": "웃다 is a regular verb (the ㅅ stays): 웃어요, 웃었어요, 웃습니다.", "chips": ["웃어요", "웃었어요", "웃습니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is twofold: (1) hunting for a separate verb for 'smile' when 웃다 already does it — 웃어 주세요 is the photo phrase, not 미소해 주세요; and (2) spelling/meaning confusion with 울다 (cry), which differs by a single jamo."}
+    ],
+    "mistakes": [
+      "Searching for a distinct 'smile' verb — 웃다 already covers smiling, so 'smile for the photo' is 웃어 주세요, and you only reach for 미소를 짓다 in more formal/written contexts.",
+      "Confusing 웃다 (laugh/smile) with 울다 (cry) — they differ by one jamo; 웃었어요 means 'laughed', 울었어요 means 'cried'.",
+      "Mixing up 웃다 and 웃기다 — 웃기다 is the causative 'to be funny/make laugh', so 'you're funny' is 웃겨요, not 웃어요 (which would mean 'you laugh')."
+    ],
     "irregular": null
   },
   {
@@ -407,16 +539,28 @@
       "shallWe": "울까요?"
     },
     "usage": [
-      ["아기가 울어요", "the baby cries", "subject takes 가"],
-      ["울지 마세요", "please do not cry", "comfort phrase"]
+      ["아기가 울어요", "the baby cries", "the crier is the subject and takes 이/가"],
+      ["울지 마세요", "please don't cry", "the standard comforting phrase"],
+      ["펑펑 울어요", "I cry my eyes out", "mimetic 펑펑 + 울다 = sob hard"],
+      ["울고 싶어요", "I feel like crying", "울고 싶다 expresses the urge to cry"]
     ],
     "examples": [
-      ["아기가 밤에 많이 울어요.", "The baby cries a lot at night.", "habit"],
-      ["슬픈 영화를 보고 울었어요.", "I cried watching a sad movie.", "past"],
-      ["울지 마세요, 괜찮아요.", "Please do not cry, it is okay.", "comfort"]
+      ["아기가 밤에 자주 울어요.", "The baby often cries at night.", "subject 아기가; 울어요 keeps ㄹ before a vowel"],
+      ["슬픈 영화를 보고 펑펑 울었어요.", "I sobbed watching a sad movie.", "펑펑 울다 intensifies; 울었어요 past"],
+      ["울지 마세요, 다 괜찮아질 거예요.", "Don't cry, everything will be okay.", "울지 마세요 — ㄹ stays before 지; comforting register"]
     ],
-    "nuance": "울다 is a ㄹ irregular, so the ㄹ drops before ㅂ and ㄴ, giving 웁니다 and 우세요. Before a vowel the ㄹ stays, so the polite present is 울어요, and its natural opposite is 웃다 to laugh.",
-    "mistakes": ["Keeping the ㄹ before ㅂ and saying 울읍니다 instead of 웁니다"],
+    "nuance": "울다 means to cry and is a ㄹ irregular verb: the stem ㄹ drops before endings starting with ㅂ, ㄴ, or ㅅ, so the formal present is 웁니다 (not 울습니다) and the honorific is 우세요; before a plain vowel the ㄹ stays, giving 울어요 and 울었어요, and the future keeps it too in 울 거예요. The crier is the subject and takes 이/가 (아기가 울어요), unlike English where 'cry' can feel transitive. Its natural opposite is 웃다 (laugh), and its near-synonyms split by intensity and register: 눈물을 흘리다 ('shed tears', literally, more composed/quiet) describes tears running down without sobbing, while 흐느끼다 ('to sob') is heavier and more literary; plain 울다 is the everyday all-purpose word, often boosted by mimetics like 펑펑 울다 (bawl) or 엉엉 울다. Note 울다 also describes animals making their cry/call (새가 울다 = a bird sings/cries) and even a phone or alarm 'ringing/sounding'. The English-speaker pitfall is the conjugation — writing 울습니다 by habit when the ㄹ must drop to 웁니다 — plus confusing 울다 with 웃다, which differ by a single jamo.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "울다 means to cry. The crier is the subject and takes 이/가 (아기가 울어요), unlike English where 'cry' can feel transitive. Note 울다 also describes animals making their cry/call (새가 울다 = a bird sings/cries) and even a phone or alarm 'ringing/sounding'. Its natural opposite is 웃다 (laugh)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its near-synonyms split by intensity and register: 눈물을 흘리다 ('shed tears', literally, more composed/quiet) describes tears running down without sobbing, while 흐느끼다 ('to sob') is heavier and more literary; plain 울다 is the everyday all-purpose word, often boosted by mimetics like 펑펑 울다 (bawl) or 엉엉 울다."},
+      {"k": "활용", "e": "FORMS", "t": "울다 is a ㄹ irregular verb: the stem ㄹ drops before endings starting with ㅂ, ㄴ, or ㅅ, so the formal present is 웁니다 (not 울습니다) and the honorific is 우세요; before a plain vowel the ㄹ stays, giving 울어요 and 울었어요, and the future keeps it too in 울 거예요.", "chips": ["울어요", "울었어요", "웁니다", "우세요", "울 거예요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The pitfall is the conjugation — writing 울습니다 by habit when the ㄹ must drop to 웁니다 — plus confusing 울다 with 웃다, which differ by a single jamo."}
+    ],
+    "mistakes": [
+      "Keeping the ㄹ before ㅂ and saying 울습니다 — 울다 is ㄹ irregular, so the ㄹ drops there, giving 웁니다 (and the honorific 우세요).",
+      "Confusing 울다 (cry) with 웃다 (laugh) — they differ by one jamo, so 울었어요 means 'cried' while 웃었어요 means 'laughed'.",
+      "Marking the crier with 을/를 (아기를 울어요) — 울다 is intransitive, so the one crying is the subject: 아기가 울어요 (to MAKE someone cry, use the causative 울리다, as in 동생을 울렸어요)."
+    ],
     "irregular": "ㄹ irregular"
   }
 ]

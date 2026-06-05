@@ -7,18 +7,41 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["장바구니에 담다", "to add to the cart", "the standard verb is 담다, not 넣다, for online carts"],
-      ["장바구니에 넣어 놨어요", "I've put it in the cart", "넣어 놓다 = saved it there for later"],
-      ["장바구니 비우기", "empty the cart", "the literal button text on most shopping apps"],
-      ["장바구니에 3개 있어요", "there are 3 items in the cart", "counting items waiting to be bought"]
+      ["장바구니에 담다", "to add to the cart", "the standard verb is 담다 (to put into a container), not 사다 or 넣다, for online carts"],
+      ["장바구니에 담아 두다", "to keep it saved in the cart", "-아 두다 = leave it there for later, classic 'wishlist' behavior"],
+      ["장바구니 비우기", "empty the cart", "비우다 = empty out; the literal button text on most shopping apps"],
+      ["장바구니에 담겨 있다", "to be (sitting) in the cart", "passive 담기다 describes items already waiting to be bought"]
     ],
     "examples": [
-      ["일단 장바구니에 담아 놓고 월급날에 살게요.", "I'll just add it to the cart for now and buy it on payday.", "very common 'window shopping' behavior phrasing"],
-      ["장바구니에 담아만 놓고 결제는 안 했어요.", "I only added it to the cart but never checked out.", "shows 담다 vs 결제 distinction"],
-      ["할인 시작하면 바로 사려고 장바구니에 미리 담아 뒀어요.", "I added it to the cart in advance to buy the moment the sale starts.", "담아 두다 = keep saved"]
+      ["이거 장바구니에 담을게요.", "I'll add this to the cart.", "the bare beginner pattern: object + 장바구니에 담다"],
+      ["일단 장바구니에 담아 놓고 월급날에 살게요.", "I'll just add it to the cart for now and buy it on payday.", "담아 놓다 captures 'saved for later'; very common window-shopping phrasing"],
+      ["할인 시작하면 바로 사려고 장바구니에 미리 담아 뒀어요.", "I added it to the cart in advance to buy the moment the sale starts.", "real-situation: 미리 담아 두다 = pre-load the cart before a sale"]
     ],
-    "nuance": "온라인 쇼핑에서는 거의 항상 '담다' 동사를 써요 ('장바구니에 담다'). '넣다'도 통하지만 앱 버튼에는 '담기'라고 쓰여 있어요. 실제 마트의 바구니와 인터넷 카트 둘 다 같은 단어라 일상에서 정말 자주 들립니다.",
-    "mistakes": ["Saying 장바구니에 사다 — 사다 is for the final purchase; you 담다 (add) to a cart, then 결제 (check out)", "Confusing it with 바구니 alone — 바구니 is just any basket, 장바구니 specifically implies shopping"]
+    "nuance": "'장바구니'는 마트의 손바구니와 인터넷 쇼핑몰의 카트를 둘 다 가리키는 한 단어라 일상에서 정말 자주 들립니다. 구성은 '장'(market/shopping)+'바구니'(basket)예요. 핵심은 동사 선택: 카트에는 '담다'(put into a container)를 쓰고, '넣다'(put in)도 통하지만 앱 버튼에는 거의 항상 '담기'로 표기됩니다. 영어 화자가 흔히 하는 실수는 'add to cart'를 직역해 '장바구니에 더하다'라고 하거나, 최종 구매 동사 '사다'를 카트 단계에 써 버리는 것 — 담는 것(담다)과 결제하는 것(결제하다)은 분리된 두 단계예요. 비슷해 보이는 '바구니'는 그냥 아무 바구니지만, '장바구니'는 반드시 '쇼핑'을 함의합니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'장바구니'는 마트의 손바구니와 인터넷 쇼핑몰의 카트를 둘 다 가리키는 한 단어라 일상에서 정말 자주 들립니다. 핵심은 동사 선택: 카트에는 '담다'(put into a container)를 쓰고, '넣다'(put in)도 통하지만 앱 버튼에는 거의 항상 '담기'로 표기됩니다.",
+        "chips": ["담다", "넣다", "담기"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "비슷해 보이는 '바구니'는 그냥 아무 바구니지만, '장바구니'는 반드시 '쇼핑'을 함의합니다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "구성은 '장'(market/shopping)+'바구니'(basket)예요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "영어 화자가 흔히 하는 실수는 'add to cart'를 직역해 '장바구니에 더하다'라고 하거나, 최종 구매 동사 '사다'를 카트 단계에 써 버리는 것 — 담는 것(담다)과 결제하는 것(결제하다)은 분리된 두 단계예요."
+      }
+    ],
+    "mistakes": ["Saying 장바구니에 사다 — 사다 is the final purchase; you 담다 (add) to a cart first, then 결제 (check out). The cart stage and the buy stage are separate.", "Direct-translating 'add to cart' as 장바구니에 더하다 — 더하다 means mathematical addition; the real verb is 담다.", "Confusing it with bare 바구니 — 바구니 is any basket (laundry, picnic), while 장바구니 specifically implies shopping."]
   },
   {
     "kind": "noun",
@@ -28,18 +51,35 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["배송이 빠르다", "the shipping is fast", "the #1 thing Koreans praise sellers for"],
-      ["배송 받다", "to receive a delivery", "받다 pairs naturally with 배송"],
-      ["배송 조회", "delivery tracking", "the menu label for tracking your parcel"],
-      ["배송이 늦어지다", "the delivery gets delayed", "늦어지다 = becomes late"]
+      ["배송이 빠르다", "the shipping is fast", "빠르다 (르 irregular) — the #1 thing Koreans praise sellers for"],
+      ["배송을 받다", "to receive a delivery", "받다 pairs naturally with 배송 for ordered products"],
+      ["배송 조회", "delivery tracking", "조회 = look-up; the menu label for tracking your parcel"],
+      ["배송이 늦어지다", "the delivery gets delayed", "늦어지다 = (gradually) becomes late, beyond the promised date"]
     ],
     "examples": [
-      ["주문한 지 이틀 됐는데 아직 배송 안 왔어요.", "It's been two days since I ordered but the delivery still hasn't come.", "배송이 오다/안 오다 is everyday spoken usage"],
-      ["여기 배송이 진짜 빨라서 자주 시켜요.", "Shipping here is really fast so I order often.", "배송 빠르다 is the key selling point in Korea"],
-      ["배송 조회해 보니까 지금 터미널에 있대요.", "I checked the tracking and it says it's at the terminal now.", "links to delivery-tracking workflow"]
+      ["배송이 빨라요.", "The shipping is fast.", "beginner: 배송 + 빠르다, the single most common review phrase"],
+      ["주문한 지 이틀 됐는데 아직 배송 안 왔어요.", "It's been two days since I ordered but the delivery still hasn't come.", "everyday: 배송이 오다/안 오다 is how spoken Korean treats it, as if it 'comes'"],
+      ["배송 조회해 보니까 지금 터미널에 있대요.", "I checked the tracking and it says it's at the terminal now.", "real-situation: -대요 reports the tracking screen's info secondhand"]
     ],
-    "nuance": "'배송'은 파는 사람 입장의 '보내는' 과정 전체를 가리키고, '택배'는 그걸 운반하는 서비스/물건을 뜻해요. 한국 온라인 쇼핑에서 '배송 빠르다'는 거의 칭찬의 기본값이라 후기에 정말 많이 나옵니다. 회화에서는 '배송이 왔다/안 왔다'처럼 자연스럽게 써요.",
-    "mistakes": ["Using 배달 instead of 배송 for shopping parcels — 배달 is for food/restaurant delivery, 배송 is for ordered products", "Saying 배송을 받다 vs 배달을 받다 inconsistently; for online orders stick with 배송"]
+    "nuance": "'배송' 配送 은 한자 그대로 '나누어(配) 보내다(送)', 즉 파는 사람 쪽에서 주문품을 보내는 과정 전체를 뜻해요. 가장 헷갈리는 짝은 '택배'(宅配, home-delivery): '배송'은 보내는 행위/서비스 단계를 가리키고, '택배'는 그것을 실어 나르는 운송 서비스나 도착한 물건 자체(예: '택배 왔어요')를 말합니다. 또 음식점·치킨처럼 즉시 가져다주는 건 '배달'(配達)이라 영역이 달라요 — 쇼핑몰 상품엔 '배송', 짜장면엔 '배달'. 회화에서는 '배송이 왔다/안 왔다'처럼 마치 배송이 스스로 오는 것처럼 자연스럽게 쓰고, 후기에서 '배송 빠르다'는 거의 칭찬의 기본값입니다. 발음은 [배ː송].",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'배송'은 파는 사람 쪽에서 주문품을 보내는 과정 전체를 뜻해요. 회화에서는 '배송이 왔다/안 왔다'처럼 마치 배송이 스스로 오는 것처럼 자연스럽게 쓰고, 후기에서 '배송 빠르다'는 거의 칭찬의 기본값입니다. 발음은 [배ː송]."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "가장 헷갈리는 짝은 '택배'(宅配, home-delivery): '배송'은 보내는 행위/서비스 단계를 가리키고, '택배'는 그것을 실어 나르는 운송 서비스나 도착한 물건 자체(예: '택배 왔어요')를 말합니다. 또 음식점·치킨처럼 즉시 가져다주는 건 '배달'(配達)이라 영역이 달라요 — 쇼핑몰 상품엔 '배송', 짜장면엔 '배달'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'배송' 配送 은 한자 그대로 '나누어(配) 보내다(送)'예요."
+      }
+    ],
+    "mistakes": ["Using 배달 instead of 배송 for shopping parcels — 배달 is for food/restaurant delivery (피자 배달), while ordered products from a store use 배송.", "Equating 배송 and 택배 — 배송 is the shipping process, 택배 is the courier service or the arrived box itself; '택배 왔어요' (the parcel came) cannot become '배송 왔어요' as naturally for the physical box.", "Saying 배송을 보내다 about your own received item — as the buyer you 배송을 받다 (receive); the seller is the one who 배송을 보내다."]
   },
   {
     "kind": "noun",
@@ -49,18 +89,40 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["송장 번호", "tracking (waybill) number", "the number printed on the parcel label"],
-      ["송장이 등록되다", "the tracking number is registered", "means the seller has shipped it"],
-      ["송장 번호 좀 알려 주세요", "please tell me the tracking number", "asking a seller after purchase"],
-      ["송장 입력", "enter the waybill number", "field label when reporting a return"]
+      ["송장 번호", "tracking (waybill) number", "almost always said as a set phrase, not 송장 alone"],
+      ["송장이 등록되다", "the tracking number is registered", "등록되다 = gets entered, meaning the seller has shipped it"],
+      ["송장이 뜨다", "the waybill number shows up", "뜨다 = pop up on screen, spoken shorthand for 'it's been issued'"],
+      ["송장 입력", "enter the waybill number", "입력 = input; the field label when reporting a return"]
     ],
     "examples": [
-      ["송장 번호 뜨면 배송 조회 한번 해 보세요.", "Once the tracking number appears, try tracking the delivery.", "송장 번호 뜨다 = the number shows up"],
-      ["판매자가 송장 등록을 안 해서 아직 발송이 안 됐나 봐요.", "The seller hasn't registered the waybill, so it seems it hasn't shipped yet.", "common buyer complaint phrasing"],
-      ["반송할 때 송장 번호를 꼭 사진 찍어 두세요.", "When you send it back, be sure to photograph the waybill number.", "practical return tip"]
+      ["송장 번호 좀 알려 주세요.", "Please tell me the tracking number.", "beginner: a polite request you send a seller after buying"],
+      ["판매자가 송장 등록을 안 해서 아직 발송이 안 됐나 봐요.", "The seller hasn't registered the waybill, so it seems it hasn't shipped yet.", "everyday: 송장 등록 = the act that flips a parcel to 'shipped'"],
+      ["반송할 때 송장 번호를 꼭 사진 찍어 두세요.", "When you send it back, be sure to photograph the waybill number.", "real-situation: practical return tip; -아 두다 = do it and keep it for safety"]
     ],
-    "nuance": "'송장'은 택배 상자에 붙은 운송장(라벨)과 그 번호를 뜻해요. 회화에서는 보통 '송장 번호'라고 붙여서 말하고, '송장 떴어요?'(번호 나왔어요?)처럼 줄여 쓰기도 합니다. 발음이 [송짱]에 가깝게 들릴 수 있어요.",
-    "mistakes": ["Confusing 송장 with 영수증 — 영수증 is a payment receipt, 송장 is the shipping/tracking label", "Pronouncing it like 손장; the first syllable is 송 (song)"]
+    "nuance": "'송장' 送狀 은 한자로 '보내는(送) 문서(狀)', 곧 택배 상자에 붙은 운송장(라벨)과 거기에 적힌 번호를 뜻해요. 가장 가까운 혼동어는 '영수증'인데, '영수증'은 돈을 냈다는 결제 증빙이고 '송장'은 어디로 어떻게 보내는지를 적은 배송 라벨이라 기능이 완전히 다릅니다. 회화에서는 거의 항상 '송장 번호'로 붙여 말하고, '송장 떴어요?'(번호 나왔어요?)처럼 줄여 쓰기도 해요. 영어 화자의 함정은 영어 invoice를 떠올려 '대금 청구서'로 오해하는 것 — 한국 쇼핑 맥락의 송장은 청구서가 아니라 추적용 운송 라벨/번호입니다. 발음은 적힌 그대로 [송장]이고(앞 받침 ㅇ 뒤라 된소리가 나지 않아요), 같은 소리의 동음이의어 '송장'(시체)과는 맥락으로 구별됩니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'송장'은 택배 상자에 붙은 운송장(라벨)과 거기에 적힌 번호를 뜻해요. 회화에서는 거의 항상 '송장 번호'로 붙여 말하고, '송장 떴어요?'(번호 나왔어요?)처럼 줄여 쓰기도 해요. 발음은 적힌 그대로 [송장]이고(앞 받침 ㅇ 뒤라 된소리가 나지 않아요), 같은 소리의 동음이의어 '송장'(시체)과는 맥락으로 구별됩니다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "가장 가까운 혼동어는 '영수증'인데, '영수증'은 돈을 냈다는 결제 증빙이고 '송장'은 어디로 어떻게 보내는지를 적은 배송 라벨이라 기능이 완전히 다릅니다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'송장' 送狀 은 한자로 '보내는(送) 문서(狀)'예요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "영어 invoice를 떠올려 '대금 청구서'로 오해하는 것 — 한국 쇼핑 맥락의 송장은 청구서가 아니라 추적용 운송 라벨/번호입니다."
+      }
+    ],
+    "mistakes": ["Confusing 송장 with 영수증 — 영수증 is a payment receipt proving you paid; 송장 is the shipping/tracking label proving how it's sent.", "Assuming 송장 = invoice (a bill to pay) because of the English cognate — in shopping it's the waybill/tracking number, not a charge.", "Over-tensifying it to [송짱] — there is no 경음화 after the ㅇ batchim here, so 송장 is simply read [송장] as written."]
   },
   {
     "kind": "noun",
@@ -70,18 +132,40 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["포인트 적립", "earning points", "the most common collocation"],
-      ["적립금", "accumulated point balance (as money)", "the spendable balance built from 적립"],
-      ["적립이 되다", "points get accrued", "되다 makes it happen automatically"],
-      ["적립해 드릴까요?", "shall I add the points (to your account)?", "what a cashier asks"]
+      ["포인트 적립", "earning points", "the most common collocation; 적립 needs an object like 포인트/마일리지"],
+      ["적립금", "accumulated point balance (as money)", "-금 (sum of money) = the spendable balance built up from 적립"],
+      ["적립이 되다", "points get accrued", "되다 frames it as happening automatically at checkout"],
+      ["적립해 드릴까요?", "shall I add the points (to your account)?", "-아 드리다 = the humble service form a cashier uses"]
     ],
     "examples": [
-      ["전화번호 입력하시면 포인트 적립돼요.", "If you enter your phone number, you earn points.", "spoken at almost every Korean checkout"],
-      ["적립금 5천 원 있어서 그걸로 결제했어요.", "I had 5,000 won in points so I paid with that.", "적립금 used as currency"],
-      ["여기는 적립이 잘돼서 자주 와요.", "They give good points here so I come often.", "적립이 잘되다 = generous point rate"]
+      ["전화번호 입력하시면 포인트 적립돼요.", "If you enter your phone number, you earn points.", "beginner: heard at almost every Korean checkout, 입력하다 + 적립되다"],
+      ["적립금 5천 원 있어서 그걸로 결제했어요.", "I had 5,000 won in points so I paid with that.", "everyday: 적립금 is treated like real currency you can spend"],
+      ["여기는 적립이 잘돼서 자주 와요.", "They give good points here so I come often.", "real-situation: 적립이 잘되다 = the point rate is generous"]
     ],
-    "nuance": "'적립'은 결제할 때 포인트나 마일리지를 '쌓는' 걸 말하고, 쌓인 돈은 '적립금'이라고 해요. 매장 계산대에서 '적립하시겠어요? 전화번호 뒷자리 불러 주세요'를 거의 매번 듣게 됩니다. '할인'과는 달라요 — 할인은 즉시 깎는 거고 적립은 다음에 쓸 포인트를 모으는 거예요.",
-    "mistakes": ["Mixing up 적립 (accruing points) and 할인 (an immediate discount) — they are different mechanics", "Saying 적립금을 적립하다 redundantly; you 포인트를 적립하다 or use 적립금 to pay"]
+    "nuance": "'적립' 積立 은 한자로 '쌓아(積) 세우다(立)', 즉 결제할 때마다 포인트나 마일리지를 차곡차곡 모으는 걸 말하고, 그렇게 쌓인 돈은 '적립금'이라고 해요. 반드시 구별해야 할 짝은 '할인'입니다 — '할인'은 지금 이 결제에서 값을 즉시 깎아 주는 거고, '적립'은 다음에 쓸 포인트를 모아 두는 거라 시점이 다릅니다(지금 vs 나중). 매장 계산대에서 '적립하시겠어요? 전화번호 뒷자리 불러 주세요'를 거의 매번 듣게 돼요. 영어 화자의 함정은 'save money'의 save를 떠올려 적립을 곧장 '돈 절약'으로 이해하는 것인데, 적립은 절약이 아니라 미래에 쓸 포인트 적립이에요. 또 '적립금을 적립하다'는 겹말이라 어색합니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'적립'은 결제할 때마다 포인트나 마일리지를 차곡차곡 모으는 걸 말하고, 그렇게 쌓인 돈은 '적립금'이라고 해요. 매장 계산대에서 '적립하시겠어요? 전화번호 뒷자리 불러 주세요'를 거의 매번 듣게 돼요. 또 '적립금을 적립하다'는 겹말이라 어색합니다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "반드시 구별해야 할 짝은 '할인'입니다 — '할인'은 지금 이 결제에서 값을 즉시 깎아 주는 거고, '적립'은 다음에 쓸 포인트를 모아 두는 거라 시점이 다릅니다(지금 vs 나중)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'적립' 積立 은 한자로 '쌓아(積) 세우다(立)'예요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'save money'의 save를 떠올려 적립을 곧장 '돈 절약'으로 이해하는 것인데, 적립은 절약이 아니라 미래에 쓸 포인트 적립이에요."
+      }
+    ],
+    "mistakes": ["Mixing up 적립 (accruing points for later) and 할인 (an immediate price cut) — different mechanics and different timing.", "Saying 적립금을 적립하다 redundantly — you 포인트를 적립하다 to build the balance, then use 적립금 to pay.", "Translating 적립 as plain 'save money' — it is earning reward points, not cutting the price you pay now."]
   },
   {
     "kind": "noun",
@@ -91,18 +175,40 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["무료배송", "free shipping", "written as one word on product pages"],
-      ["무료배송이다", "to be free shipping", "describing a listing"],
-      ["무료배송 기준", "the free-shipping threshold", "the minimum spend to qualify"],
-      ["무료배송 받으려고", "in order to get free shipping", "the motive behind adding more items"]
+      ["무료배송이다", "to be free shipping", "describing a listing; written as one word on product pages"],
+      ["무료배송 기준", "the free-shipping threshold", "기준 = standard/baseline, the minimum spend to qualify"],
+      ["무료배송 받으려고", "in order to get free shipping", "-으려고 = with the intent to; the motive for adding more"],
+      ["배송비 무료", "shipping fee free", "the inverted phrasing; 배송비 = the shipping charge itself"]
     ],
     "examples": [
-      ["3만 원 넘게 사면 무료배송이에요.", "If you spend over 30,000 won it's free shipping.", "넘게 사다 = spend more than"],
-      ["무료배송 채우려고 안 살 것까지 담았어요.", "I added stuff I didn't even need just to hit free shipping.", "extremely relatable shopper behavior"],
-      ["이 가게는 조건 없이 무료배송이라 좋아요.", "This shop has free shipping with no conditions, which is nice.", "조건 없이 = no minimum"]
+      ["이거 무료배송이에요.", "This one is free shipping.", "beginner: noun + 이다, straight off a product page"],
+      ["3만 원 넘게 사면 무료배송이에요.", "If you spend over 30,000 won it's free shipping.", "everyday: 넘게 사다 = buy more than (the threshold)"],
+      ["무료배송 채우려고 안 살 것까지 담았어요.", "I added stuff I didn't even need just to hit free shipping.", "real-situation: 채우다 = fill up to the threshold; extremely relatable shopper behavior"]
     ],
-    "nuance": "'무료배송'은 보통 한 단어로 붙여 쓰고, '배송비 무료'라고도 해요. 한국 쇼핑몰은 보통 '○○원 이상 무료배송' 기준이 있어서, 그 금액을 채우려고 물건을 더 담는 게 흔한 풍경입니다. 반대말은 '배송비 별도'(shipping charged separately)예요.",
-    "mistakes": ["Writing 공짜배송 — 공짜 is too casual; the standard term is 무료배송", "Forgetting the threshold exists; many beginners assume all shipping is free when it usually needs a minimum spend"]
+    "nuance": "'무료배송' 無料配送 은 한자로 '요금(料)이 없는(無) 배송(配送)', 곧 배송비를 안 받는다는 뜻이고 보통 한 단어로 붙여 씁니다. 같은 의미를 '배송비 무료'로 뒤집어 말하기도 해요. 가장 가까운 혼동 개념은 '조건부 무료배송'인데, 한국 쇼핑몰은 대개 'O만 원 이상 무료배송'처럼 최소 구매 '기준'을 두기 때문에 그 금액을 채우려고 물건을 더 담는 게 흔한 풍경입니다. 반대말은 '배송비 별도'(shipping charged separately)예요. 영어 화자의 함정은 두 가지 — (1) '공짜배송'이라고 말하는 것: '공짜'는 너무 구어/낮은말이라 표준 표기는 '무료'입니다. (2) free라는 단어만 보고 모든 배송이 무료라고 가정하는 것인데, 거의 항상 최소 주문 기준이 붙습니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'무료배송'은 배송비를 안 받는다는 뜻이고 보통 한 단어로 붙여 씁니다. 같은 의미를 '배송비 무료'로 뒤집어 말하기도 해요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "가장 가까운 혼동 개념은 '조건부 무료배송'인데, 한국 쇼핑몰은 대개 'O만 원 이상 무료배송'처럼 최소 구매 '기준'을 두기 때문에 그 금액을 채우려고 물건을 더 담는 게 흔한 풍경입니다. 반대말은 '배송비 별도'(shipping charged separately)예요."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'무료배송' 無料配送 은 한자로 '요금(料)이 없는(無) 배송(配送)'이에요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "함정은 두 가지 — (1) '공짜배송'이라고 말하는 것: '공짜'는 너무 구어/낮은말이라 표준 표기는 '무료'입니다. (2) free라는 단어만 보고 모든 배송이 무료라고 가정하는 것인데, 거의 항상 최소 주문 기준이 붙습니다."
+      }
+    ],
+    "mistakes": ["Writing 공짜배송 — 공짜 is too casual/colloquial; the standard, neutral term is 무료배송 (or 배송비 무료).", "Assuming all shipping is free — most Korean shops require a minimum spend (무료배송 기준), so check the threshold.", "Confusing 무료배송 with 배송비 별도 — the latter means the shipping fee is charged on top, the opposite of free."]
   },
   {
     "kind": "noun",
@@ -112,18 +218,40 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["당일배송", "same-day delivery", "order today, arrives today"],
-      ["당일배송 되다", "to be eligible for same-day delivery", "되다 marks availability"],
-      ["당일배송 마감", "same-day delivery cutoff (time)", "order before this to qualify"],
-      ["당일배송으로 받다", "to receive it via same-day delivery", "-으로 marks the method"]
+      ["당일배송 되다", "to be eligible for same-day delivery", "되다 marks availability for a given item"],
+      ["당일배송 마감", "same-day delivery cutoff (time)", "마감 = closing/deadline; order before it to qualify"],
+      ["당일배송으로 받다", "to receive it via same-day delivery", "-으로 marks the delivery method"],
+      ["당일배송 되는 걸로", "the same-day-eligible option", "-는 걸로 = '(I'll take) the one that...', picking by feature"]
     ],
     "examples": [
-      ["오전에 주문하면 당일배송으로 받을 수 있어요.", "If you order in the morning you can get it same-day.", "morning cutoff is typical"],
-      ["급해서 당일배송 되는 걸로 골랐어요.", "I was in a hurry so I picked one with same-day delivery.", "당일배송 되는 것 = a same-day-eligible option"],
-      ["당일배송 마감이 2시라서 지금 시키면 내일 와요.", "The same-day cutoff is 2 p.m., so if you order now it comes tomorrow.", "real cutoff logic"]
+      ["이거 당일배송 돼요?", "Does this come same-day?", "beginner: the single question shoppers ask most, 되다 = is it available"],
+      ["오전에 주문하면 당일배송으로 받을 수 있어요.", "If you order in the morning you can get it same-day.", "everyday: -으로 marks the method; a morning cutoff is typical"],
+      ["당일배송 마감이 2시라서 지금 시키면 내일 와요.", "The same-day cutoff is 2 p.m., so if you order now it comes tomorrow.", "real-situation: shows the 마감(cutoff) logic that actually governs it"]
     ],
-    "nuance": "'당일배송'은 주문한 그날 받는 걸 말하고, '새벽배송'(dawn delivery, 자정~새벽 도착)과 함께 한국 빠른 배송 문화의 핵심이에요. 보통 '마감 시간' 전에 주문해야 적용돼서 'O시 전 주문 시 당일배송'을 잘 확인해야 합니다. '익일배송'은 다음 날 받는 거예요.",
-    "mistakes": ["Confusing 당일배송 (same day) with 익일배송 (next day) or 새벽배송 (dawn delivery)", "Assuming it applies anytime — it almost always requires ordering before a cutoff time (마감)"]
+    "nuance": "'당일배송' 當日配送 은 한자로 '바로 그날(當日) 배송(配送)', 즉 주문한 그 날 안에 받는 걸 말해요. 한국의 빠른 배송 문화에서 형제 같은 말들과 구별이 중요합니다 — '익일배송'(翌日, next-day)은 다음 날, '새벽배송'(자정~이른 아침 도착)은 밤새 배송해 아침에 받는 것, '로켓배송/총알배송'은 업체 브랜드식 빠른 배송이에요. 핵심 함정은 '마감 시간(cutoff)': 당일배송은 거의 항상 'O시 전 주문 시'라는 조건이 붙어, 그 시간을 넘기면 다음 날로 넘어갑니다. 영어 화자는 same-day를 '아무 때나 주문해도 그날 온다'로 오해하기 쉬운데, 반드시 마감 전 주문이라는 전제를 확인해야 해요. '당일'은 '오늘'보다 문어적·약관적인 어감이라 안내문에 잘 쓰입니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'당일배송'은 주문한 그 날 안에 받는 걸 말해요. '당일'은 '오늘'보다 문어적·약관적인 어감이라 안내문에 잘 쓰입니다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "한국의 빠른 배송 문화에서 형제 같은 말들과 구별이 중요합니다 — '익일배송'(翌日, next-day)은 다음 날, '새벽배송'(자정~이른 아침 도착)은 밤새 배송해 아침에 받는 것, '로켓배송/총알배송'은 업체 브랜드식 빠른 배송이에요."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'당일배송' 當日配送 은 한자로 '바로 그날(當日) 배송(配送)'이에요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "핵심 함정은 '마감 시간(cutoff)': 당일배송은 거의 항상 'O시 전 주문 시'라는 조건이 붙어, 그 시간을 넘기면 다음 날로 넘어갑니다. 영어 화자는 same-day를 '아무 때나 주문해도 그날 온다'로 오해하기 쉬운데, 반드시 마감 전 주문이라는 전제를 확인해야 해요."
+      }
+    ],
+    "mistakes": ["Confusing 당일배송 (same day) with 익일배송 (next day) or 새벽배송 (overnight/dawn delivery) — they sound similar but land on different days.", "Assuming it applies whenever you order — it almost always requires ordering before a cutoff time (마감), or it slips to tomorrow.", "Saying 오늘배송 — the fixed, listing-standard term is 당일배송; 당일 is the formal counterpart of 오늘."]
   },
   {
     "kind": "noun",
@@ -133,18 +261,40 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["직거래 하다", "to do a direct trade", "meet in person to hand over goods/cash"],
-      ["직거래 가능", "direct trade available", "common tag in secondhand listings"],
-      ["직거래 장소", "the meetup spot for a direct trade", "usually a subway exit"],
-      ["직거래만 해요", "I only do in-person trades", "seller refusing shipping"]
+      ["직거래 하다", "to do a direct trade", "거래 is Sino-Korean, so it takes 하다 to become a verb"],
+      ["직거래 가능", "direct trade available", "가능 = possible; a common tag in secondhand listings"],
+      ["직거래 장소", "the meetup spot for a direct trade", "장소 = place; usually a subway exit or convenience store"],
+      ["직거래만 해요", "I only do in-person trades", "보조사 -만 = only; a seller refusing to ship"]
     ],
     "examples": [
-      ["당근에서 직거래로 의자 하나 샀어요.", "I bought a chair through an in-person trade on Karrot.", "당근(마켓) is the dominant 직거래 app"],
-      ["택배는 안 하고 직거래만 한다고 하시네요.", "They say they don't ship and only do in-person trades.", "reported speech, very natural"],
-      ["직거래 장소는 보통 지하철역 앞에서 정해요.", "We usually set the meetup spot at a subway station entrance.", "real-world meetup norm"]
+      ["직거래도 가능해요?", "Is in-person trade also possible?", "beginner: a buyer's quick yes/no question to a seller"],
+      ["당근에서 직거래로 의자 하나 샀어요.", "I bought a chair through an in-person trade on Karrot.", "everyday: 직거래로 사다 = buy via meeting up; 당근(마켓) is the dominant app"],
+      ["택배는 안 하고 직거래만 한다고 하시네요.", "They say they don't ship and only do in-person trades.", "real-situation: -다고 하다 reports the seller's stated rule"]
     ],
-    "nuance": "'직거래'는 중개나 택배 없이 사는 사람과 파는 사람이 직접 만나 물건과 돈을 주고받는 거예요. 당근마켓 같은 중고 거래에서 안전을 위해 사람 많은 지하철역이나 편의점 앞에서 만나는 게 보통입니다. 반대로 멀리 있으면 '택배 거래'를 해요.",
-    "mistakes": ["Thinking 직거래 means a discount — it refers to the in-person method, not the price", "Confusing it with 직구 (직접 구매, overseas direct purchase); 직거래 is local face-to-face trade"]
+    "nuance": "'직거래' 直去來 는 한자로 '곧바로(直) 오가며(去來) 거래한다', 곧 중개나 택배 없이 사는 사람과 파는 사람이 직접 만나 물건과 돈을 주고받는 걸 뜻해요. 헷갈리기 쉬운 짝은 발음이 비슷한 '직구'(直購, 직접 구매)인데, '직구'는 해외 사이트에서 중간상 없이 사들이는 해외 직접구매고, '직거래'는 보통 국내 중고 거래에서 얼굴 보고 만나는 방식이에요 — 하나는 해외 온라인, 하나는 국내 대면이라 방향이 정반대입니다. 또 영어 화자가 자주 빠지는 함정은 'direct'를 '직접 깎아 주는 직거래가니까 싸다'처럼 가격 개념으로 오해하는 것인데, 직거래는 가격이 아니라 '거래 방식'(대면)을 가리킵니다. 안전을 위해 사람 많은 지하철역·편의점 앞에서 만나는 게 보통이고, 멀면 '택배 거래'를 해요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'직거래'는 중개나 택배 없이 사는 사람과 파는 사람이 직접 만나 물건과 돈을 주고받는 걸 뜻해요. 안전을 위해 사람 많은 지하철역·편의점 앞에서 만나는 게 보통이고, 멀면 '택배 거래'를 해요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "헷갈리기 쉬운 짝은 발음이 비슷한 '직구'(直購, 직접 구매)인데, '직구'는 해외 사이트에서 중간상 없이 사들이는 해외 직접구매고, '직거래'는 보통 국내 중고 거래에서 얼굴 보고 만나는 방식이에요 — 하나는 해외 온라인, 하나는 국내 대면이라 방향이 정반대입니다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'직거래' 直去來 는 한자로 '곧바로(直) 오가며(去來) 거래한다'예요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "영어 화자가 자주 빠지는 함정은 'direct'를 '직접 깎아 주는 직거래가니까 싸다'처럼 가격 개념으로 오해하는 것인데, 직거래는 가격이 아니라 '거래 방식'(대면)을 가리킵니다."
+      }
+    ],
+    "mistakes": ["Thinking 직거래 means a discount — it refers to the in-person method, not the price; a 직거래 can cost the same as shipping.", "Confusing it with 직구 (직접 구매, overseas direct purchase) — 직구 is buying from foreign sites, 직거래 is local face-to-face trade.", "Saying 직거래를 하다 with 을/를 then dropping 하다 — 거래 is a noun that needs 하다 (직거래하다) to act as a verb."]
   },
   {
     "kind": "noun",
@@ -154,18 +304,40 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["후기를 보다", "to read reviews", "what you do before buying"],
-      ["후기를 남기다", "to leave a review", "남기다 is the standard verb"],
-      ["후기가 좋다", "the reviews are good", "shorthand for highly rated"],
-      ["솔직 후기", "an honest review", "a buzzword promising no sugar-coating"]
+      ["후기를 보다", "to read reviews", "보다 (read/look at) is the verb for consuming reviews before buying"],
+      ["후기를 남기다", "to leave a review", "남기다 (leave behind) is the idiomatic verb for posting one"],
+      ["후기가 좋다", "the reviews are good", "shorthand for a product being highly rated"],
+      ["솔직 후기", "an honest review", "솔직 = candid; a buzzword promising no sugar-coating"]
     ],
     "examples": [
-      ["살 때 후기 꼭 읽어 보고 사요.", "I always read the reviews before buying.", "core Korean shopping habit"],
-      ["후기 보니까 사이즈가 작게 나온대요.", "From the reviews, it runs small.", "후기 보니까 = judging from reviews"],
-      ["후기 남기면 적립금 준대서 하나 썼어요.", "They said they'd give points for a review, so I wrote one.", "ties 후기 to 적립금"]
+      ["후기 좋아요?", "Are the reviews good?", "beginner: 후기 + 좋다, the fastest way to ask if something's worth buying"],
+      ["후기 보니까 사이즈가 작게 나온대요.", "From the reviews, it runs small.", "everyday: 후기 보니까 = judging from the reviews; -대요 relays what they say"],
+      ["후기 남기면 적립금 준대서 하나 썼어요.", "They said they'd give points for a review, so I wrote one.", "real-situation: 남기다 for posting; -ㄴ대서 = because they said they would"]
     ],
-    "nuance": "'후기'는 직접 써 보고 남기는 사용 후기/리뷰예요. '리뷰'도 똑같이 쓰지만 '후기'가 더 한국적이고 흔합니다. '별점'(star rating)과 짝을 이루고, '솔직 후기'나 '내돈내산 후기'(bought-with-my-own-money review)처럼 진정성을 강조하는 표현이 인기예요.",
-    "mistakes": ["Using 후기 for a future plan — 후기 is strictly an after-the-fact write-up", "Saying 후기를 쓰다 is fine, but the more idiomatic verb for posting one is 남기다 (leave)"]
+    "nuance": "'후기' 後記 는 한자로 '나중에(後) 적은 글(記)', 곧 직접 써 보고 남기는 사용 후기/리뷰예요. 외래어 '리뷰'와 거의 같은 뜻이지만 '후기'가 더 한국적이고 일상에서 흔하며, 식당·숙소·제품 어디에나 붙습니다. 짝을 이루는 말은 '별점'(star rating)이고, 진정성을 강조하는 '솔직 후기'·'내돈내산 후기'(내 돈으로 내가 산, 협찬 아님) 같은 표현이 인기예요. 핵심 함정은 시점: '후기'의 '후'가 '나중/이후'라서 반드시 경험한 뒤에 쓰는 글이며, 사기 전 기대나 계획을 '후기'라 부르면 안 됩니다(그건 그냥 '후기'가 아니에요). 또 영어 화자는 동사로 '후기를 쓰다'를 떠올리기 쉬운데, 더 자연스러운 짝은 '후기를 남기다'입니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'후기'는 직접 써 보고 남기는 사용 후기/리뷰예요. 짝을 이루는 말은 '별점'(star rating)이고, 진정성을 강조하는 '솔직 후기'·'내돈내산 후기'(내 돈으로 내가 산, 협찬 아님) 같은 표현이 인기예요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "외래어 '리뷰'와 거의 같은 뜻이지만 '후기'가 더 한국적이고 일상에서 흔하며, 식당·숙소·제품 어디에나 붙습니다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'후기' 後記 는 한자로 '나중에(後) 적은 글(記)'이에요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "핵심 함정은 시점: '후기'의 '후'가 '나중/이후'라서 반드시 경험한 뒤에 쓰는 글이며, 사기 전 기대나 계획을 '후기'라 부르면 안 됩니다. 또 영어 화자는 동사로 '후기를 쓰다'를 떠올리기 쉬운데, 더 자연스러운 짝은 '후기를 남기다'입니다."
+      }
+    ],
+    "mistakes": ["Using 후기 for a future plan or pre-purchase expectation — the 後(after) in 후기 means it is strictly an after-the-fact write-up.", "Defaulting to 후기를 쓰다 — it's understandable, but the idiomatic verb for posting one online is 후기를 남기다 (leave a review).", "Treating 후기 and 예고/기대평 as interchangeable — 후기 is the experience report, not a preview or hype before use."]
   },
   {
     "kind": "noun",
@@ -175,18 +347,40 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["결제하다", "to pay / check out", "the act of finalizing payment"],
-      ["결제가 안 되다", "the payment won't go through", "frequent checkout error"],
-      ["결제 수단", "payment method", "card, transfer, etc."],
-      ["결제 완료", "payment complete", "the confirmation message"]
+      ["결제하다", "to pay / check out", "결제 is Sino-Korean and takes 하다 to become a verb"],
+      ["결제가 안 되다", "the payment won't go through", "안 되다 = fails to process; a frequent checkout error"],
+      ["결제 수단", "payment method", "수단 = means; card, transfer, simple-pay, etc."],
+      ["간편결제", "simple (one-tap) pay", "간편 = easy; 카카오페이·네이버페이-style PIN payments"]
     ],
     "examples": [
-      ["카드 결제하려는데 자꾸 오류가 떠요.", "I'm trying to pay by card but an error keeps popping up.", "오류가 뜨다 = an error appears"],
-      ["결제는 했는데 아직 배송 준비 중이래요.", "I've paid but they say it's still being prepared for shipping.", "결제 vs 배송 sequence"],
-      ["간편결제로 하면 비밀번호만 누르면 돼요.", "With simple-pay you just enter your PIN.", "간편결제 = one-tap pay like 카카오페이"]
+      ["결제 다 했어요.", "I've finished paying.", "beginner: 결제하다 in the past, confirming checkout is done"],
+      ["카드 결제하려는데 자꾸 오류가 떠요.", "I'm trying to pay by card but an error keeps popping up.", "everyday: 오류가 뜨다 = an error pops up on screen"],
+      ["결제는 했는데 아직 배송 준비 중이래요.", "I've paid but they say it's still being prepared for shipping.", "real-situation: shows the 결제 → 배송 sequence; -대요 relays the status"]
     ],
-    "nuance": "'결제'는 돈을 실제로 내는 과정 전체를 말하고, '계산'(주로 오프라인 계산대)과 비슷하지만 온라인/카드 맥락에서는 '결제'가 기본이에요. '간편결제'(카카오페이·네이버페이 등)는 한국에서 거의 필수라 꼭 알아 두세요. 발음은 [결쩨]에 가깝습니다.",
-    "mistakes": ["Confusing 결제 with 계산 — 계산 leans offline/in-store; for app/card payments use 결제", "Spelling it 결재 — 결재 means a manager's sign-off/approval, a totally different word"]
+    "nuance": "'결제' 決濟 는 한자로 '셈을 매듭지어(決) 치르다(濟)', 곧 돈을 실제로 내어 거래를 끝맺는 과정 전체를 말해요. 가장 가까운 혼동어가 둘 있습니다. 첫째 '계산': 오프라인 계산대에서 값을 치를 땐 '계산'을 많이 쓰지만, 온라인·카드·앱 맥락에서는 '결제'가 기본입니다. 둘째이자 더 위험한 것은 동음이의 '결재' 決裁 — 이건 상사가 서류를 '승인/재가'한다는 완전히 다른 단어라, 쇼핑 글에서 '결재'로 쓰면 틀립니다(받침 ㅔ vs ㅐ 주의). 한국에서는 '간편결제'(카카오페이·네이버페이 등)가 거의 필수라 꼭 알아 두세요. 영어 화자의 함정은 pay를 그냥 '내다'로만 옮겨 '돈을 내다'에 머무는 것인데, 체크아웃 단계 전체는 '결제하다'가 가장 정확합니다. 발음은 [결쩨].",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'결제'는 돈을 실제로 내어 거래를 끝맺는 과정 전체를 말해요. 한국에서는 '간편결제'(카카오페이·네이버페이 등)가 거의 필수라 꼭 알아 두세요. 발음은 [결쩨]."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "가장 가까운 혼동어가 둘 있습니다. 첫째 '계산': 오프라인 계산대에서 값을 치를 땐 '계산'을 많이 쓰지만, 온라인·카드·앱 맥락에서는 '결제'가 기본입니다. 둘째이자 더 위험한 것은 동음이의 '결재' 決裁 — 이건 상사가 서류를 '승인/재가'한다는 완전히 다른 단어라, 쇼핑 글에서 '결재'로 쓰면 틀립니다(받침 ㅔ vs ㅐ 주의)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'결제' 決濟 는 한자로 '셈을 매듭지어(決) 치르다(濟)'예요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "pay를 그냥 '내다'로만 옮겨 '돈을 내다'에 머무는 것인데, 체크아웃 단계 전체는 '결제하다'가 가장 정확합니다."
+      }
+    ],
+    "mistakes": ["Spelling it 결재 — 결재 means a manager's sign-off/approval (a document being authorized), a completely different word from 결제 (payment).", "Confusing 결제 with 계산 — 계산 leans offline/in-store; for app and card payments use 결제.", "Stopping at 돈을 내다 for online checkout — 결제하다 is the precise verb for finalizing a purchase, errors and all."]
   },
   {
     "kind": "noun",
@@ -196,18 +390,40 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["정품이다", "to be genuine", "the basic assertion of authenticity"],
-      ["정품 인증", "authenticity verification", "proof a brand item is real"],
-      ["정품 맞아요?", "is it genuine?", "the question buyers ask sellers"],
-      ["정품 보장", "guaranteed authentic", "a seller's promise"]
+      ["정품이다", "to be genuine", "the basic noun + 이다 assertion of authenticity"],
+      ["정품 인증", "authenticity verification", "인증 = certification; proof a brand item is real"],
+      ["정품 맞아요?", "is it genuine?", "맞다 = to be correct/right; the question buyers ask sellers"],
+      ["정품 보장", "guaranteed authentic", "보장 = guarantee; a seller's promise"]
     ],
     "examples": [
-      ["이거 정품 맞아요? 박스랑 보증서 있어요?", "Is this genuine? Does it have the box and warranty card?", "standard authenticity check"],
-      ["가격이 너무 싸서 정품인지 의심돼요.", "The price is so cheap I doubt it's authentic.", "정품인지 의심되다 = suspect it's not real"],
-      ["정품이라길래 샀는데 알고 보니 짝퉁이었어요.", "I bought it because they said it was genuine, but it turned out to be a fake.", "정품 vs 짝퉁 contrast"]
+      ["이거 정품이에요?", "Is this genuine?", "beginner: 정품 + 이다 question, the core authenticity check"],
+      ["가격이 너무 싸서 정품인지 의심돼요.", "The price is so cheap I doubt it's authentic.", "everyday: 정품인지 의심되다 = suspect it might not be real"],
+      ["정품이라길래 샀는데 알고 보니 짝퉁이었어요.", "I bought it because they said it was genuine, but it turned out to be a fake.", "real-situation: 정품 vs 짝퉁 contrast; -라길래 = because (they) said it was"]
     ],
-    "nuance": "'정품'은 가짜(짝퉁)가 아닌 진짜 정식 제품을 뜻해요. 명품이나 전자기기를 중고로 살 때 '정품 맞아요?', '정품 인증해 주세요'를 꼭 물어봅니다. 반대말은 '짝퉁'(가품, 위조품)이고, 정식 수입품을 강조할 때는 '정식 발매품'이라고도 해요.",
-    "mistakes": ["Confusing 정품 (authentic) with 정가 (the list/retail price) — they sound similar but mean different things", "Using 진품 interchangeably without nuance — 진품 leans toward art/antiques being real; for retail goods use 정품"]
+    "nuance": "'정품' 正品 은 한자로 '바른(正) 물건(品)', 곧 가짜가 아닌 진짜 정식 제품을 뜻해요. 직접적인 반대말은 '짝퉁'(구어, 가짜)이며 격식체로는 '가품'(假品)·'위조품'이라 합니다. 헷갈리기 쉬운 짝이 둘 있어요. (1) 발음이 비슷한 '정가'(正價, the list/retail price): 하나는 진품 여부, 다른 하나는 정해진 가격이라 뜻이 전혀 다릅니다. (2) '진품'(眞品): '진품'은 주로 미술품·골동품이 진짜라는 맥락에 쓰고, 시중 브랜드 상품의 진위에는 '정품'이 자연스러워요. 명품·전자기기를 중고로 살 때 '정품 맞아요?', '정품 인증해 주세요'를 거의 반드시 묻습니다. 영어 화자의 함정은 genuine을 막연히 '진짜'로만 옮겨 '진짜예요?'라고 묻는 것인데, 상거래에서는 '정품이에요?'가 의도를 더 정확히 전달해요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'정품'은 가짜가 아닌 진짜 정식 제품을 뜻해요. 직접적인 반대말은 '짝퉁'(구어, 가짜)이며 격식체로는 '가품'(假品)·'위조품'이라 합니다. 명품·전자기기를 중고로 살 때 '정품 맞아요?', '정품 인증해 주세요'를 거의 반드시 묻습니다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "헷갈리기 쉬운 짝이 둘 있어요. (1) 발음이 비슷한 '정가'(正價, the list/retail price): 하나는 진품 여부, 다른 하나는 정해진 가격이라 뜻이 전혀 다릅니다. (2) '진품'(眞品): '진품'은 주로 미술품·골동품이 진짜라는 맥락에 쓰고, 시중 브랜드 상품의 진위에는 '정품'이 자연스러워요."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'정품' 正品 은 한자로 '바른(正) 물건(品)'이에요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "genuine을 막연히 '진짜'로만 옮겨 '진짜예요?'라고 묻는 것인데, 상거래에서는 '정품이에요?'가 의도를 더 정확히 전달해요."
+      }
+    ],
+    "mistakes": ["Confusing 정품 (authentic product) with 정가 (the fixed retail price) — they sound alike but one is about realness, the other about price.", "Using 진품 for retail goods — 진품 fits art/antiques being real; for brand-name market items the natural word is 정품.", "Asking only 진짜예요? when you mean 'is it authentic?' — in a buying context 정품이에요? is the precise question."]
   },
   {
     "kind": "noun",
@@ -217,18 +433,40 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["중고로 사다", "to buy secondhand", "-로 marks the condition/route"],
-      ["중고 거래", "secondhand trading", "the whole used-market activity"],
-      ["중고 물건", "used goods", "물건 = item/stuff"],
-      ["중고나라", "Joonggonara (a major used-market site)", "a proper noun every resident hears"]
+      ["중고로 사다", "to buy secondhand", "-로 marks the condition/route the item comes in"],
+      ["중고 거래", "secondhand trading", "거래 = transaction; the whole used-market activity"],
+      ["중고폰", "used phone", "중고 attaches directly in front of a noun (중고차, 중고폰)"],
+      ["중고치고", "for a used item / considering it's used", "-치고 = 'for a ...', sets a lenient standard"]
     ],
     "examples": [
-      ["새것은 비싸서 중고로 샀어요.", "New ones are expensive so I bought it secondhand.", "the core reason for buying 중고"],
-      ["중고치고는 상태가 진짜 깨끗하네요.", "For a used item, the condition is really clean.", "중고치고는 = considering it's used"],
-      ["중고 거래할 때는 사기 조심해야 해요.", "When trading secondhand you have to watch out for scams.", "사기 = fraud, real concern"]
+      ["이거 중고예요.", "This is secondhand.", "beginner: 중고 + 이다, plainly stating the condition"],
+      ["새것은 비싸서 중고로 샀어요.", "New ones are expensive so I bought it secondhand.", "everyday: 중고로 사다 vs 새것; the core reason people go used"],
+      ["중고치고는 상태가 진짜 깨끗하네요.", "For a used item, the condition is really clean.", "real-situation: 중고치고는 = considering it's used, it exceeds expectations"]
     ],
-    "nuance": "'중고'는 한 번 이상 쓰인 물건을 말하고, 한국은 당근마켓·중고나라 등 중고 거래 문화가 아주 활발해요. 반대말은 '새것/새 상품'이고, 거의 안 쓴 물건은 'S급'이나 '미개봉'(unopened)이라고 표시합니다. '중고차', '중고폰'처럼 명사 앞에 붙여 쓰는 일이 많아요.",
-    "mistakes": ["Treating 중고 as an adjective that conjugates — it's a noun; say 중고로 사다 or 중고 물건, not 중고하다", "Confusing 중고 (secondhand) with 중간 (middle); different words despite both starting with 중"]
+    "nuance": "'중고' 中古 는 한자로 '가운데쯤(中) 오래된(古)', 곧 한 번 이상 쓰인 물건을 말해요. 명확한 반대말은 '새것/새 상품'이고, 거의 안 쓴 물건은 'S급'이나 '미개봉'(unopened)으로 따로 표시합니다. 핵심 문법 함정은 품사: '중고'는 명사라서 형용사처럼 활용하지 않아요 — '중고하다'(X)는 없고, '중고로 사다'·'중고 물건'·'중고폰'처럼 명사 앞이나 조사 -로와 함께 씁니다. 또 발음·표기가 비슷한 '중간'(中間, middle)과 헷갈리지 마세요. 한국은 당근마켓·중고나라 등 중고 거래 문화가 매우 활발해 '중고 거래'라는 말이 일상적이며, 영어의 'second hand'를 직역해 두 단어로 떼어 쓰거나 '두 번째 손'식으로 풀어 말하면 어색합니다 — 그냥 명사 '중고' 한 단어예요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'중고'는 한 번 이상 쓰인 물건을 말해요. 명확한 반대말은 '새것/새 상품'이고, 거의 안 쓴 물건은 'S급'이나 '미개봉'(unopened)으로 따로 표시합니다. 한국은 당근마켓·중고나라 등 중고 거래 문화가 매우 활발해 '중고 거래'라는 말이 일상적이에요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "발음·표기가 비슷한 '중간'(中間, middle)과 헷갈리지 마세요."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "'중고' 中古 는 한자로 '가운데쯤(中) 오래된(古)'이에요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "핵심 문법 함정은 품사: '중고'는 명사라서 형용사처럼 활용하지 않아요 — '중고하다'(X)는 없고, '중고로 사다'·'중고 물건'·'중고폰'처럼 명사 앞이나 조사 -로와 함께 씁니다. 또 영어의 'second hand'를 직역해 두 단어로 떼어 쓰거나 '두 번째 손'식으로 풀어 말하면 어색합니다 — 그냥 명사 '중고' 한 단어예요."
+      }
+    ],
+    "mistakes": ["Treating 중고 as a verb/adjective that conjugates — it's a noun; say 중고로 사다 or 중고 물건, never 중고하다.", "Confusing 중고 (secondhand) with 중간 (middle) — different words despite both starting with 中(중).", "Splitting or literalizing 'second hand' — Korean uses the single noun 중고, not a two-word or 'second hand' calque."]
   },
   {
     "kind": "noun",
@@ -238,17 +476,34 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["쿠폰을 쓰다", "to use a coupon", "쓰다 = apply/use"],
-      ["쿠폰 적용", "applying a coupon", "the checkout step"],
-      ["쿠폰 받다", "to get/claim a coupon", "downloading it to your account"],
-      ["할인 쿠폰", "a discount coupon", "the most common type"]
+      ["쿠폰을 쓰다", "to use a coupon", "쓰다 = apply/use it at the buying moment"],
+      ["쿠폰 적용", "applying a coupon", "적용 = application; the actual checkout step that activates it"],
+      ["쿠폰 받다 / 다운받다", "to claim / download a coupon", "the separate first step of getting it to your account"],
+      ["할인 쿠폰", "a discount coupon", "할인 = discount; the most common type of coupon"]
     ],
     "examples": [
-      ["쿠폰 적용했더니 5천 원 더 싸졌어요.", "After applying the coupon it got 5,000 won cheaper.", "쿠폰 적용하다 = apply at checkout"],
-      ["첫 구매 쿠폰 있으니까 지금 사는 게 이득이에요.", "There's a first-purchase coupon, so buying now is a better deal.", "이득 = a gain/worth it"],
-      ["쿠폰 다운받는 거 깜빡해서 그냥 결제했어요.", "I forgot to download the coupon and just checked out.", "common regret moment"]
+      ["쿠폰 있어요.", "I have a coupon.", "beginner: 쿠폰 + 있다, the simplest way to say you've got one"],
+      ["쿠폰 적용했더니 5천 원 더 싸졌어요.", "After applying the coupon it got 5,000 won cheaper.", "everyday: 쿠폰 적용하다 → 싸지다; -았더니 = once I did X, then Y happened"],
+      ["쿠폰 다운받는 거 깜빡해서 그냥 결제했어요.", "I forgot to download the coupon and just checked out.", "real-situation: a common regret; claiming and applying are separate"]
     ],
-    "nuance": "'쿠폰'은 가격을 깎아 주는 할인권이에요. 한국 앱들은 '쿠폰 다운받기'(claim) → 결제 때 '쿠폰 적용'(apply) 순서라, 받기만 하고 적용을 깜빡하면 할인이 안 됩니다. '적립'(포인트 쌓기)과 달리 쿠폰은 그 자리에서 바로 깎아 줘요.",
-    "mistakes": ["Forgetting that claiming (받다) and applying (적용) a coupon are two separate steps in most Korean apps", "Mixing up 쿠폰 (instant discount voucher) with 적립금/포인트 (saved-up points for later)"]
+    "nuance": "'쿠폰'은 영어 coupon에서 온 외래어로, 가격을 그 자리에서 깎아 주는 할인권이에요. 반드시 구별할 짝은 '적립'(포인트 쌓기): 쿠폰은 지금 결제에서 즉시 값을 깎지만, 적립은 나중에 쓸 포인트를 모아 두는 거라 효과 시점이 정반대입니다. 또 '쿠폰'은 깎아 주는 '권리/수단'이고, 그렇게 실제로 깎인 액수는 '할인'이라 층위가 달라요. 한국 앱의 핵심 함정은 절차가 두 단계라는 점 — 먼저 '쿠폰 다운받기/받기'(claim)로 내 계정에 담고, 결제 화면에서 '쿠폰 적용'(apply)을 눌러야 비로소 깎입니다. 받기만 하고 적용을 깜빡하면 할인이 안 돼요. 영어 화자는 'I have a coupon'처럼 받은 것만으로 끝났다고 생각하기 쉬운데, 적용 버튼까지 눌러야 실제 할인이 들어갑니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "'쿠폰'은 영어 coupon에서 온 외래어로, 가격을 그 자리에서 깎아 주는 할인권이에요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "반드시 구별할 짝은 '적립'(포인트 쌓기): 쿠폰은 지금 결제에서 즉시 값을 깎지만, 적립은 나중에 쓸 포인트를 모아 두는 거라 효과 시점이 정반대입니다. 또 '쿠폰'은 깎아 주는 '권리/수단'이고, 그렇게 실제로 깎인 액수는 '할인'이라 층위가 달라요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "한국 앱의 핵심 함정은 절차가 두 단계라는 점 — 먼저 '쿠폰 다운받기/받기'(claim)로 내 계정에 담고, 결제 화면에서 '쿠폰 적용'(apply)을 눌러야 비로소 깎입니다. 받기만 하고 적용을 깜빡하면 할인이 안 돼요. 영어 화자는 'I have a coupon'처럼 받은 것만으로 끝났다고 생각하기 쉬운데, 적용 버튼까지 눌러야 실제 할인이 들어갑니다."
+      }
+    ],
+    "mistakes": ["Forgetting that claiming (받다/다운받다) and applying (적용) a coupon are two separate steps — having it isn't using it.", "Mixing up 쿠폰 (instant discount voucher) with 적립금/포인트 (saved-up points for later) — opposite timing of the benefit.", "Saying 쿠폰을 적립하다 — you 쿠폰을 받다/적용하다; 적립 is for points, not coupons."]
   }
 ]

@@ -4,251 +4,927 @@
     "hangul": "회계사",
     "english": "accountant (certified)",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 회계사예요.", "I'm an accountant.", "예요 after vowel"],
-      ["회계사한테 맡기다", "to leave it to an accountant", "한테 marks the person"],
-      ["회계사 자격증", "the accountant license (CPA)", "자격증 means certificate"],
-      ["회계사가 되다", "to become an accountant", "되다 means become"]
+      [
+        "저는 회계사예요.",
+        "I'm an accountant.",
+        "예요 attaches after the vowel-final 사"
+      ],
+      [
+        "회계사한테 맡기다",
+        "to leave it to an accountant",
+        "한테 marks the person you hand a task to"
+      ],
+      [
+        "회계사 자격증",
+        "the CPA license",
+        "자격증 (資格證) = qualification certificate"
+      ],
+      [
+        "회계 법인",
+        "an accounting firm",
+        "the big firm a 회계사 works at, not the person"
+      ]
     ],
     "examples": [
-      ["연말정산은 회계사한테 맡기는 게 편해요.", "It's easier to leave the year-end tax settlement to an accountant.", "맡기다 means entrust"],
-      ["회계사 시험은 합격하기 정말 어려워요.", "The CPA exam is really hard to pass.", "합격하다 means pass"],
-      ["회사에 회계사가 한 명 있어서 든든해요.", "We have an accountant at the company, so it's reassuring.", "명 counts people"]
+      [
+        "저는 회계사예요.",
+        "I'm an accountant.",
+        "the plain self-introduction; note 예요, never 이에요, after 사"
+      ],
+      [
+        "연말정산은 회계사한테 맡기는 게 편해요.",
+        "It's easier to leave the year-end tax settlement to an accountant.",
+        "맡기다 = entrust; 한테 marks the recipient of the work"
+      ],
+      [
+        "회계사 시험은 합격률이 낮아서 몇 년씩 준비해요.",
+        "The CPA exam has a low pass rate, so people prep for years.",
+        "합격률 = pass rate; 몇 년씩 = years on end, real exam-talk"
+      ]
     ],
-    "nuance": "회계사 means a certified public accountant who handles a company's books, audits, and taxes, and it carries the prestige of a hard licensing exam. For a tax-specialist you visit at filing time, Koreans more often say 세무사 instead.",
-    "mistakes": ["Saying 회계사이에요 instead of correct 회계사예요", "Confusing 회계사 the person with 회계 the accounting itself"]
+    "nuance": "회계사 (會計士) literally stacks 會計 'accounting' (lit. 'gather + calculate') with 士 'certified professional', the same dignifying 士 you see in 변호사 lawyer or 약사 pharmacist — so the word itself signals a hard licensing exam and real prestige. The nearest neighbor is 세무사 (tax accountant): a 회계사 audits books, signs off on financial statements, and advises broadly, whereas a 세무사 is narrowly the tax-filing specialist freelancers visit each spring; in casual life ordinary people meet a 세무사 far more often than a 회계사. Keep the person (회계사) distinct from the activity 회계 'accounting' and the firm 회계 법인 — English lets 'accounting/accountant' blur, Korean does not. The biggest English-speaker trap is the copula: because 회계사 ends in a vowel it is 회계사예요, and 회계사이에요 is wrong; also resist saying 회계사를 만나다 for a professional appointment when 회계사한테 맡기다/물어보다 (entrust/ask) is what Koreans actually say.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The certified accountant — the word signals a hard licensing exam and real prestige. Keep the person (회계사) distinct from the activity 회계 'accounting' and the firm 회계 법인: English lets 'accounting/accountant' blur, but Korean does not."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The nearest neighbor is 세무사 (tax accountant): a 회계사 audits books, signs off on financial statements, and advises broadly, whereas a 세무사 is narrowly the tax-filing specialist freelancers visit each spring. In casual life ordinary people meet a 세무사 far more often than a 회계사."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "회계사 (會計士) literally stacks 會計 'accounting' (lit. 'gather + calculate') with 士 'certified professional' — the same dignifying 士 you see in 변호사 lawyer or 약사 pharmacist."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The biggest trap is the copula: because 회계사 ends in a vowel it is 회계사예요, and 회계사이에요 is wrong. Also resist saying 회계사를 만나다 for a professional appointment when 회계사한테 맡기다/물어보다 (entrust/ask) is what Koreans actually say."
+      }
+    ],
+    "mistakes": [
+      "Saying 회계사이에요 — because the stem ends in a vowel the contracted 회계사예요 is required; 이에요 only follows a final consonant.",
+      "Using 회계 (the accounting work) when you mean 회계사 (the person): 회계가 도와줬어요 should be 회계사가 도와줬어요.",
+      "Calling a tax-filing helper a 회계사 — for someone who just files your spring tax return the right word is 세무사."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "세무사",
     "english": "tax accountant; tax advisor",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["세무사한테 물어보다", "to ask a tax accountant", "한테 marks the person"],
-      ["세무사 사무실", "a tax accountant's office", "사무실 means office"],
-      ["세무사에게 맡기다", "to leave it to a tax accountant", "에게 marks recipient"],
-      ["세무사가 되다", "to become a tax accountant", "되다 means become"]
+      [
+        "세무사한테 물어보다",
+        "to ask a tax accountant",
+        "한테 marks the person you direct the question to"
+      ],
+      [
+        "세무사 사무실",
+        "a tax accountant's office",
+        "사무실 = office; where you go to file"
+      ],
+      [
+        "세무사에게 맡기다",
+        "to leave it to a tax accountant",
+        "에게 = the writing-style equivalent of 한테"
+      ],
+      [
+        "세금 신고",
+        "tax filing / tax return",
+        "신고 (申告) = the official report you submit"
+      ]
     ],
     "examples": [
-      ["사업자라서 세무사한테 세금 신고를 맡겨요.", "Since I'm self-employed, I leave the tax filing to a tax accountant.", "맡기다 means entrust"],
-      ["종합소득세 신고 전에 세무사를 만났어요.", "I met a tax accountant before filing my income tax.", "전에 means before"],
-      ["세무사 비용이 생각보다 안 비싸요.", "A tax accountant's fee is cheaper than I thought.", "비싸다 means expensive"]
+      [
+        "세무사한테 물어봤어요.",
+        "I asked a tax accountant.",
+        "한테 marks the person; 물어보다 = ask and see"
+      ],
+      [
+        "사업자라서 종합소득세는 세무사한테 맡겨요.",
+        "Being self-employed, I leave the income-tax return to a tax accountant.",
+        "맡기다 = entrust; 종합소득세 = the comprehensive income tax freelancers file"
+      ],
+      [
+        "세무사 비용이 생각보다 안 비싸서 그냥 맡겼어요.",
+        "The tax accountant's fee was cheaper than expected, so I just handed it over.",
+        "비용 = fee; ~서 그냥 ~했다 is natural 'so I just went ahead and'"
+      ]
     ],
-    "nuance": "세무사 means a licensed tax specialist who files returns and advises on taxes, the person freelancers and small-business owners hire every spring. Unlike 회계사, who covers broad accounting and audits, the 세무사 focuses specifically on taxes.",
-    "mistakes": ["Confusing 세무사 the tax advisor with 회계사 the broader accountant", "Saying 세금사, which is not a real word; the correct term is 세무사"]
+    "nuance": "세무사 (稅務士) is built from 稅務 'tax affairs' (稅 tax + 務 duty/affairs) plus the professional 士, so it literally means 'tax-affairs certified professional' — the licensed expert who prepares and files returns and advises on tax. The sharp contrast is with 회계사: think of 회계사 as the broad accountant who audits and signs financial statements, while 세무사 is the narrow tax specialist most freelancers and small-business owners actually hire (the two licenses are separate exams). Habitual collocations are 세무사한테 맡기다 'entrust to a tax accountant', 세무사한테 물어보다 'ask a tax accountant', and 세무사 사무실 'tax office'. Two pitfalls for English speakers: there is no word 세금사 — the morpheme is 세무, so it must be 세무사; and as with all 사-ending titles the copula is 세무사예요, not 세무사이에요. Don't reach for 만나다 'meet' for a routine filing; 맡기다 (hand the work over) is the verb that fits the relationship.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The licensed expert who prepares and files tax returns and advises on tax. Habitual collocations: 세무사한테 맡기다 'entrust to a tax accountant', 세무사한테 물어보다 'ask a tax accountant', and 세무사 사무실 'tax office'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is with 회계사: think of 회계사 as the broad accountant who audits and signs financial statements, while 세무사 is the narrow tax specialist most freelancers and small-business owners actually hire (the two licenses are separate exams)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "세무사 (稅務士) is built from 稅務 'tax affairs' (稅 tax + 務 duty/affairs) plus the professional 士 — literally 'tax-affairs certified professional'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "There is no word 세금사 — the morpheme is 세무, so it must be 세무사. As with all 사-ending titles the copula is 세무사예요, not 세무사이에요. And don't reach for 만나다 'meet' for a routine filing; 맡기다 (hand the work over) is the verb that fits the relationship."
+      }
+    ],
+    "mistakes": [
+      "Inventing 세금사 from 세금 'tax' — the fixed term uses the Sino-root 세무, giving 세무사; 세금사 is not a word.",
+      "Treating 세무사 and 회계사 as interchangeable — a 세무사 files taxes; a 회계사 does broad accounting and audits. Hire a 세무사 for your annual return.",
+      "Saying 세무사이에요 instead of the contracted 세무사예요, which the vowel-final stem requires."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "개발자",
     "english": "developer (software)",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 개발자예요.", "I'm a developer.", "예요 after vowel"],
-      ["앱 개발자", "an app developer", "앱 means app"],
-      ["개발자로 일하다", "to work as a developer", "로 marks role"],
-      ["개발자가 되다", "to become a developer", "되다 means become"]
+      [
+        "저는 개발자예요.",
+        "I'm a developer.",
+        "예요 after the vowel-final 자"
+      ],
+      [
+        "앱 개발자",
+        "an app developer",
+        "name the domain in front: 앱/웹/백엔드 개발자"
+      ],
+      [
+        "개발자로 일하다",
+        "to work as a developer",
+        "로 marks the role/capacity"
+      ],
+      [
+        "개발자로 이직하다",
+        "to switch jobs into development",
+        "이직하다 = change companies, hot career-talk word"
+      ]
     ],
     "examples": [
-      ["저는 스타트업에서 일하는 개발자예요.", "I'm a developer working at a startup.", "에서 marks workplace"],
-      ["요즘 개발자 연봉이 많이 올랐어요.", "Developer salaries have gone up a lot lately.", "연봉 means annual salary"],
-      ["개발자로 이직하려고 코딩 공부 중이에요.", "I'm studying coding to switch jobs to a developer role.", "이직하다 means change jobs"]
+      [
+        "저는 개발자예요.",
+        "I'm a developer.",
+        "the bare intro; vowel-final stem so 예요"
+      ],
+      [
+        "요즘 개발자 연봉이 많이 올랐어요.",
+        "Developer salaries have risen a lot lately.",
+        "연봉 = annual salary; 오르다 = go up"
+      ],
+      [
+        "비전공자였는데 학원 다니면서 개발자로 이직했어요.",
+        "I wasn't a CS major but switched into development while attending a coding academy.",
+        "비전공자 = non-major; 이직하다 = change jobs — a very common real story"
+      ]
     ],
-    "nuance": "개발자 is the everyday Korean word for a software developer and is far more common in tech workplaces than the older 프로그래머. People specify the field, like 앱 개발자, 웹 개발자, or 백엔드 개발자.",
-    "mistakes": ["Saying 개발자이에요 instead of correct 개발자예요", "Confusing 개발자 the person with 개발 the development work"]
+    "nuance": "개발자 fuses the Sino-root 개발 (開發) 'to develop/open up' (開 open + 發 issue forth) with the agent suffix ~자 (者) 'person who', so morphologically it is simply 'one who develops' — the same ~자 in 소비자 consumer or 기술자 technician. In today's tech workplaces 개발자 has decisively replaced the older 프로그래머 'programmer', which now sounds slightly dated or narrowly code-only; people almost always pin down the field with a modifier — 앱 개발자, 웹 개발자, 백엔드/프론트엔드 개발자. Natural collocations: 개발자로 일하다 'work as a developer', 개발자로 이직하다 'switch jobs into dev', 개발자 연봉 'dev salary'. For English speakers two snags recur: keep the person 개발자 distinct from the activity 개발 'development' (개발이 재밌어요 vs 저는 개발자예요), and use 예요 not 이에요 after the vowel ending. Note ~자 here is neutral-professional; it is not the casual English 'dev' slang, though spoken Korean does clip it to 개발 팀, 개발 직군 in context.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The software developer. ~자 here is neutral-professional, not the casual English 'dev' slang. People almost always pin down the field with a modifier — 앱 개발자, 웹 개발자, 백엔드/프론트엔드 개발자. Natural collocations: 개발자로 일하다 'work as a developer', 개발자로 이직하다 'switch jobs into dev', 개발자 연봉 'dev salary'. Spoken Korean does clip it to 개발 팀, 개발 직군 in context."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "In today's tech workplaces 개발자 has decisively replaced the older 프로그래머 'programmer', which now sounds slightly dated or narrowly code-only."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "개발자 fuses the Sino-root 개발 (開發) 'to develop/open up' (開 open + 發 issue forth) with the agent suffix ~자 (者) 'person who' — morphologically simply 'one who develops', the same ~자 in 소비자 consumer or 기술자 technician."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Keep the person 개발자 distinct from the activity 개발 'development' (개발이 재밌어요 vs 저는 개발자예요), and use 예요 not 이에요 after the vowel ending."
+      }
+    ],
+    "mistakes": [
+      "Saying 개발자이에요 — the vowel-final stem contracts to 개발자예요; 이에요 is for consonant endings.",
+      "Defaulting to 프로그래머 to sound technical — in real Korean workplaces 개발자 is the standard, neutral term and prog­rammer can feel dated.",
+      "Confusing 개발 (the development work) with 개발자 (the person): 저는 개발이에요 is wrong; say 저는 개발자예요."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "프리랜서",
     "english": "freelancer",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 프리랜서예요.", "I'm a freelancer.", "예요 after vowel"],
-      ["프리랜서로 일하다", "to work as a freelancer", "로 marks role"],
-      ["프리랜서 디자이너", "a freelance designer", "names the field"],
-      ["프리랜서가 되다", "to become a freelancer", "되다 means become"]
+      [
+        "저는 프리랜서예요.",
+        "I'm a freelancer.",
+        "예요 after the vowel-final 서"
+      ],
+      [
+        "프리랜서로 일하다",
+        "to work freelance",
+        "로 marks the working mode"
+      ],
+      [
+        "프리랜서 디자이너",
+        "a freelance designer",
+        "put the freelance label before the job"
+      ],
+      [
+        "프리랜서로 전향하다",
+        "to go freelance / switch to freelancing",
+        "전향하다 = convert one's career path"
+      ]
     ],
     "examples": [
-      ["회사를 그만두고 프리랜서로 일해요.", "I quit my company and now work as a freelancer.", "그만두다 means quit"],
-      ["프리랜서는 일정을 자유롭게 정할 수 있어요.", "Freelancers can set their schedule freely.", "자유롭다 means free"],
-      ["프리랜서라서 수입이 매달 달라요.", "Since I'm a freelancer, my income differs every month.", "수입 means income"]
+      [
+        "저는 프리랜서예요.",
+        "I'm a freelancer.",
+        "vowel-final stem, so 프리랜서예요"
+      ],
+      [
+        "프리랜서라서 일정을 자유롭게 정해요.",
+        "Being a freelancer, I set my own schedule freely.",
+        "~라서 = since (after a noun); 자유롭게 = freely"
+      ],
+      [
+        "프리랜서로 일하면 수입이 매달 달라서 불안할 때도 있어요.",
+        "Working freelance, income varies month to month, so it can feel unstable.",
+        "수입 = income; 다르다 = differ — captures the real upside/downside"
+      ]
     ],
-    "nuance": "프리랜서 is the borrowed word for someone who works independently for various clients instead of one employer, very common among designers, writers, and translators. It often pairs with the upside of freedom and the downside of unstable income.",
-    "mistakes": ["Saying 프리랜서이에요 instead of correct 프리랜서예요", "Spelling it 프리랜셔; the standard form is 프리랜서"]
+    "nuance": "프리랜서 is a direct loanword from English 'freelancer' (한국식 외래어), so unlike the Sino-Korean job titles here it has no 한자 and no ~사/~자 suffix — that very form tells you it names modern, flexible, often creative work (designers, writers, translators, photographers, developers) rather than a licensed profession. Its connotation is double-edged and Koreans voice both sides: the freedom of 자유로운 일정 'a free schedule' against the precarity of 불안정한 수입 'unstable income'. Compare it with 자영업자 'self-employed business owner': a 프리랜서 typically sells their own skill or labor to various clients with no shop or staff, while a 자영업자 runs a registered business such as a café or store. Common patterns: 프리랜서로 일하다 'work freelance', 프리랜서로 전향하다/나오다 'go freelance'. English-speaker pitfalls: spell it 프리랜서, not 프리랜셔 (no palatal -셔), and after the vowel ending it is 프리랜서예요, never 프리랜서이에요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Names modern, flexible, often creative work (designers, writers, translators, photographers, developers) rather than a licensed profession. Its connotation is double-edged and Koreans voice both sides: the freedom of 자유로운 일정 'a free schedule' against the precarity of 불안정한 수입 'unstable income'. Common patterns: 프리랜서로 일하다 'work freelance', 프리랜서로 전향하다/나오다 'go freelance'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare it with 자영업자 'self-employed business owner': a 프리랜서 typically sells their own skill or labor to various clients with no shop or staff, while a 자영업자 runs a registered business such as a café or store."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "프리랜서 is a direct loanword from English 'freelancer' (한국식 외래어), so unlike the Sino-Korean job titles here it has no 한자 and no ~사/~자 suffix — that very form is what tells you it names modern, flexible work."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Spell it 프리랜서, not 프리랜셔 (no palatal -셔), and after the vowel ending it is 프리랜서예요, never 프리랜서이에요."
+      }
+    ],
+    "mistakes": [
+      "Misspelling it 프리랜셔 — the standard Korean transcription is 프리랜서, ending in -서.",
+      "Saying 프리랜서이에요 instead of the contracted 프리랜서예요 that the vowel ending requires.",
+      "Equating it with 자영업자 — a 프리랜서 sells their own skill client-to-client; a 자영업자 runs a registered shop/business."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "자영업자",
     "english": "self-employed person; small-business owner",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 자영업자예요.", "I'm self-employed.", "예요 after vowel"],
-      ["자영업자가 많다", "there are many self-employed people", "많다 means many"],
-      ["자영업자로 살다", "to live as a self-employed person", "로 marks status"],
-      ["자영업자가 되다", "to become self-employed", "되다 means become"]
+      [
+        "저는 자영업자예요.",
+        "I'm self-employed.",
+        "예요 after the vowel-final 자"
+      ],
+      [
+        "자영업자가 많다",
+        "there are many self-employed people",
+        "많다 = be many/numerous"
+      ],
+      [
+        "장사가 안되다",
+        "business is slow / not doing well",
+        "the verb 자영업자 use for a bad stretch"
+      ],
+      [
+        "가게를 운영하다",
+        "to run a shop",
+        "운영하다 = operate/manage a business"
+      ]
     ],
     "examples": [
-      ["저는 작은 카페를 하는 자영업자예요.", "I'm a small-business owner running a little café.", "하다 here means run"],
-      ["자영업자는 경기에 영향을 많이 받아요.", "Self-employed owners are heavily affected by the economy.", "영향을 받다 means be affected"],
-      ["한국에는 자영업자가 정말 많아요.", "There are really a lot of self-employed people in Korea.", "정말 means really"]
+      [
+        "저는 자영업자예요.",
+        "I'm self-employed.",
+        "vowel-final stem → 자영업자예요"
+      ],
+      [
+        "작은 카페를 하는 자영업자예요.",
+        "I'm a small-business owner running a little café.",
+        "가게를 하다 = run a place; 하다 here = operate"
+      ],
+      [
+        "요즘 경기가 안 좋아서 자영업자들이 정말 힘들어요.",
+        "The economy is bad lately, so the self-employed are really struggling.",
+        "경기 = the economy/business cycle; ~들 pluralizes the group — common news framing"
+      ]
     ],
-    "nuance": "자영업자 means someone who runs their own small business, like a café, shop, or restaurant, rather than working for a company. It is a big social group in Korea and often appears in news about the economy and small-business hardship.",
-    "mistakes": ["Saying 자영업자이에요 instead of correct 자영업자예요", "Confusing 자영업자 the owner with 자영업 the self-employment itself"]
+    "nuance": "자영업자 (自營業者) reads transparently from its hanja: 自 'self' + 營 'manage/operate' + 業 'business' + 者 'person' — literally 'a person who self-operates a business', i.e. an owner-operator. In Korea this is a huge, socially charged category (café, chicken shop, convenience-store, restaurant owners) that dominates headlines about 경기 'the economy' and small-business hardship, so the word carries an undertone of risk and grind, not glamour. Draw the line against 프리랜서: a 자영업자 typically holds a 사업자 등록 (business registration) and runs a fixed shop, often with rent and staff, whereas a 프리랜서 sells personal skills client-by-client with no storefront; and against 사장님, the warm address-term you call the owner to their face — 자영업자 is the descriptive census-style label, 사장님 is how you'd actually greet them. Natural verbs: 장사가 잘되다/안되다 'business is good/slow', 가게를 운영하다 'run a shop'. English-speaker traps: keep the person 자영업자 apart from the field 자영업 'self-employment' (자영업이 힘들어요 vs 저는 자영업자예요), and use 예요 not 이에요 after the vowel.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "An owner-operator. In Korea this is a huge, socially charged category (café, chicken shop, convenience-store, restaurant owners) that dominates headlines about 경기 'the economy' and small-business hardship, so the word carries an undertone of risk and grind, not glamour. Natural verbs: 장사가 잘되다/안되다 'business is good/slow', 가게를 운영하다 'run a shop'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Draw the line against 프리랜서: a 자영업자 typically holds a 사업자 등록 (business registration) and runs a fixed shop, often with rent and staff, whereas a 프리랜서 sells personal skills client-by-client with no storefront. And against 사장님, the warm address-term you call the owner to their face — 자영업자 is the descriptive census-style label, 사장님 is how you'd actually greet them."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "자영업자 (自營業者) reads transparently from its hanja: 自 'self' + 營 'manage/operate' + 業 'business' + 者 'person' — literally 'a person who self-operates a business'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Keep the person 자영업자 apart from the field 자영업 'self-employment' (자영업이 힘들어요 vs 저는 자영업자예요), and use 예요 not 이에요 after the vowel."
+      }
+    ],
+    "mistakes": [
+      "Saying 자영업자이에요 — the vowel-final stem contracts to 자영업자예요; 이에요 follows consonants only.",
+      "Confusing 자영업 (the self-employment / the sector) with 자영업자 (the individual owner): 저는 자영업이에요 should be 저는 자영업자예요.",
+      "Using 자영업자 to a shop owner's face — that descriptive label sounds clinical; address them as 사장님."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "배달원",
     "english": "delivery worker; delivery rider",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["배달원이 오다", "the delivery worker comes", "오다 means come"],
-      ["배달원이 친절하다", "the delivery worker is kind", "친절하다 means kind"],
-      ["음식 배달원", "a food delivery worker", "음식 means food"],
-      ["배달원으로 일하다", "to work as a delivery rider", "으로 marks role"]
+      [
+        "음식 배달원",
+        "a food delivery worker",
+        "음식 = food; name what's delivered in front"
+      ],
+      [
+        "배달 기사님",
+        "the delivery driver (polite address)",
+        "기사님 is how you'd actually speak to/of them"
+      ],
+      [
+        "배달원으로 일하다",
+        "to work as a delivery rider",
+        "으로 (after consonant ㄴ) marks the role"
+      ],
+      [
+        "문 앞에 놓다",
+        "to leave it at the door",
+        "the standard 비대면 'contactless' drop-off phrase"
+      ]
     ],
     "examples": [
-      ["배달원이 음식을 문 앞에 놓고 갔어요.", "The delivery worker left the food at the door.", "놓고 가다 means leave and go"],
-      ["비 오는 날엔 배달원이 정말 고생해요.", "On rainy days delivery riders really have a hard time.", "고생하다 means struggle"],
-      ["요즘 배달원으로 부업하는 사람이 많아요.", "Many people do delivery work as a side gig these days.", "부업 means side job"]
+      [
+        "배달원이 음식을 문 앞에 놓고 갔어요.",
+        "The delivery worker left the food at the door and went.",
+        "놓고 가다 = set down and leave — the contactless-delivery norm"
+      ],
+      [
+        "비 오는 날엔 배달원이 정말 고생해요.",
+        "On rainy days delivery riders really have it rough.",
+        "고생하다 = toil/struggle; ~엔 = ~에는 contracted (on ~ days)"
+      ],
+      [
+        "요즘 퇴근하고 배달원으로 부업하는 사람이 많아요.",
+        "Lots of people do delivery as a side gig after work these days.",
+        "부업 = side job; 으로 marks capacity — reflects Korea's gig culture"
+      ]
     ],
-    "nuance": "배달원 means a person who delivers food or packages, usually by motorcycle, and it is a very visible job in Korea's huge delivery culture. In casual speech people also say 배달 기사님 or just 라이더 for app-based riders.",
-    "mistakes": ["Confusing 배달원 the person with 배달 the delivery service", "Calling them 배달부, which sounds dated; 배달원 or 배달 기사님 is natural now"]
+    "nuance": "배달원 (配達員) combines the Sino-root 배달 (配達) 'delivery' (配 distribute + 達 reach/deliver) with the suffix ~원 (員) 'staff member/worker', the same ~원 in 회사원 office worker or 점원 shop clerk — so it is the neutral, descriptive label for someone whose job is delivering food or parcels, usually by motorcycle. Register matters a lot here: 배달원 is fine for describing the role in writing or in the third person, but to or about the actual person Koreans say the more respectful 배달 기사님 (driver + honorific 님), and app-based riders are widely called 라이더 (from 'rider'). The dated 배달부 (with ~부, an old male-laborer suffix) now sounds condescending — avoid it. Contrast with 택배 기사님: 배달원 leans toward hot-food delivery (배달의민족-style), while 택배 is courier parcels. Habitual phrases: 음식 배달원, 문 앞에 놓다 'leave at the door', 비대면 배달 'contactless delivery'. English-speaker pitfall: don't say 배달 'the delivery (service)' when you mean the person — 배달이 친절했어요 should be 배달원이/기사님이 친절했어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The neutral, descriptive label for someone whose job is delivering food or parcels, usually by motorcycle. Register matters a lot: 배달원 is fine for describing the role in writing or in the third person, but to or about the actual person Koreans say the more respectful 배달 기사님 (driver + honorific 님), and app-based riders are widely called 라이더 (from 'rider'). Habitual phrases: 음식 배달원, 문 앞에 놓다 'leave at the door', 비대면 배달 'contactless delivery'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dated 배달부 (with ~부, an old male-laborer suffix) now sounds condescending — avoid it. Contrast also with 택배 기사님: 배달원 leans toward hot-food delivery (배달의민족-style), while 택배 is courier parcels."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "배달원 (配達員) combines the Sino-root 배달 (配達) 'delivery' (配 distribute + 達 reach/deliver) with the suffix ~원 (員) 'staff member/worker' — the same ~원 in 회사원 office worker or 점원 shop clerk."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't say 배달 'the delivery (service)' when you mean the person — 배달이 친절했어요 should be 배달원이/기사님이 친절했어요."
+      }
+    ],
+    "mistakes": [
+      "Using the old word 배달부 — the ~부 suffix sounds dated and demeaning today; use 배달원 to describe the role or 배달 기사님 to address/refer to the person.",
+      "Confusing 배달 (the delivery / the service) with 배달원 (the worker): 배달이 늦었어요 means the delivery was late, but for a kind rider say 배달원이 친절했어요.",
+      "Calling a parcel courier a 배달원 — for box couriers Koreans say 택배 기사님; 배달원 leans toward hot-food delivery."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "영업사원",
     "english": "salesperson; sales rep",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 영업사원이에요.", "I'm a salesperson.", "이에요 after consonant"],
-      ["영업사원이 찾아오다", "a sales rep comes to visit", "찾아오다 means come visit"],
-      ["자동차 영업사원", "a car salesperson", "자동차 means car"],
-      ["영업사원이 되다", "to become a sales rep", "되다 means become"]
+      [
+        "저는 영업사원이에요.",
+        "I'm a salesperson.",
+        "이에요 because 사원 ends in the consonant ㄴ"
+      ],
+      [
+        "자동차 영업사원",
+        "a car salesperson",
+        "name the product line: 자동차/보험/화장품 영업사원"
+      ],
+      [
+        "실적을 올리다",
+        "to raise one's sales numbers",
+        "실적 (實績) = performance figures, the rep's lifeline"
+      ],
+      [
+        "영업직",
+        "the sales track / sales position",
+        "the job field in general, vs the individual 영업사원"
+      ]
     ],
     "examples": [
-      ["저는 화장품 회사 영업사원이에요.", "I'm a salesperson at a cosmetics company.", "이에요 ends with consonant"],
-      ["영업사원은 실적이 정말 중요해요.", "For a salesperson, performance numbers really matter.", "실적 means performance"],
-      ["친절한 영업사원 덕분에 차를 샀어요.", "Thanks to a kind sales rep, I bought a car.", "덕분에 means thanks to"]
+      [
+        "저는 영업사원이에요.",
+        "I'm a salesperson.",
+        "consonant-final 사원, so 이에요 — a key exception in this set"
+      ],
+      [
+        "영업사원은 실적이 정말 중요해요.",
+        "For a salesperson, the numbers really matter.",
+        "실적 = sales performance; ~은 marks the topic 'as for'"
+      ],
+      [
+        "친절한 영업사원 덕분에 차를 좋은 조건으로 샀어요.",
+        "Thanks to a kind sales rep, I bought the car on good terms.",
+        "덕분에 = thanks to (positive cause); 조건 = terms/conditions"
+      ]
     ],
-    "nuance": "영업사원 means a company salesperson who meets customers and sells products, judged largely by their 실적, or sales numbers. The shorter 영업직 refers to the sales position or field in general, while 영업사원 is the individual person.",
-    "mistakes": ["Saying 영업사원예요 instead of correct 영업사원이에요", "Confusing 영업사원 the person with 영업 the sales activity"]
+    "nuance": "영업사원 (營業社員) layers 영업 (營業) 'business/sales operations' (營 manage + 業 business) onto 사원 (社員) 'company staff' (社 company + 員 member) — so literally 'sales-operations company staff', a salaried rep who meets customers and moves product, perpetually measured by 실적 'sales results'. Crucially, unlike most 사-titles here it ends in a consonant (사원), so the copula is 영업사원이에요, NOT 영업사원예요 — this is the one entry where 이에요 is correct, and English speakers who over-apply the 예요 rule slip here. Distinguish three layers people confuse: 영업 is the activity (sales), 영업직 is the position/track in general, and 영업사원 is the specific human doing it; a near word 세일즈맨 (loanword) exists but sounds informal/older, while 영업 담당자 'the person in charge of sales' is the polite business-card phrasing. Natural collocations: 실적을 올리다 'boost sales figures', 영업사원이 찾아오다 'a rep comes calling', 자동차/보험 영업사원. Pitfall: 덕분에 (positive 'thanks to') vs 때문에 (neutral/blame) — pair a helpful rep with 덕분에.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "A salaried rep who meets customers and moves product, perpetually measured by 실적 'sales results'. Natural collocations: 실적을 올리다 'boost sales figures', 영업사원이 찾아오다 'a rep comes calling', 자동차/보험 영업사원."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish three layers people confuse: 영업 is the activity (sales), 영업직 is the position/track in general, and 영업사원 is the specific human doing it. A near word 세일즈맨 (loanword) exists but sounds informal/older, while 영업 담당자 'the person in charge of sales' is the polite business-card phrasing."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "영업사원 (營業社員) layers 영업 (營業) 'business/sales operations' (營 manage + 業 business) onto 사원 (社員) 'company staff' (社 company + 員 member) — literally 'sales-operations company staff'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Crucially, unlike most 사-titles here it ends in a consonant (사원), so the copula is 영업사원이에요, NOT 영업사원예요 — this is the one entry where 이에요 is correct.",
+        "chips": [
+          "영업사원이에요",
+          "영업사원예요 (wrong)"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers who over-apply the 예요 rule slip here and say 영업사원예요. Also watch 덕분에 (positive 'thanks to') vs 때문에 (neutral/blame) — pair a helpful rep with 덕분에."
+      }
+    ],
+    "mistakes": [
+      "Saying 영업사원예요 — 사원 ends in the consonant ㄴ, so the correct copula is 영업사원이에요; the 예요 form is only for vowel endings.",
+      "Confusing 영업 (the sales activity) or 영업직 (the position) with 영업사원 (the person): 저는 영업이에요 should be 저는 영업사원이에요.",
+      "Reaching for 세일즈맨 in a workplace — it sounds informal/dated; the neutral terms are 영업사원 or 영업 담당자."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "강사",
     "english": "instructor; lecturer (private/academy)",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 강사예요.", "I'm an instructor.", "예요 after vowel"],
-      ["영어 강사", "an English instructor", "영어 means English"],
-      ["강사로 일하다", "to work as an instructor", "로 marks role"],
-      ["강사가 되다", "to become an instructor", "되다 means become"]
+      [
+        "저는 강사예요.",
+        "I'm an instructor.",
+        "예요 after the vowel-final 사"
+      ],
+      [
+        "영어 강사",
+        "an English instructor",
+        "name the subject in front: 영어/요가/헬스 강사"
+      ],
+      [
+        "강사로 일하다",
+        "to work as an instructor",
+        "로 marks the role"
+      ],
+      [
+        "강의를 하다",
+        "to give a lecture / teach a class",
+        "강의 (講義) = the lecture a 강사 delivers"
+      ]
     ],
     "examples": [
-      ["저는 학원에서 가르치는 영어 강사예요.", "I'm an English instructor who teaches at an academy.", "학원 means private academy"],
-      ["헬스장 강사가 운동 자세를 고쳐 줬어요.", "The gym instructor corrected my exercise posture.", "자세 means posture"],
-      ["요가 강사로 일한 지 3년 됐어요.", "It's been three years working as a yoga instructor.", "ㄴ 지 됐다 means it's been since"]
+      [
+        "저는 강사예요.",
+        "I'm an instructor.",
+        "vowel-final stem → 강사예요"
+      ],
+      [
+        "학원에서 영어를 가르치는 강사예요.",
+        "I'm an instructor who teaches English at an academy.",
+        "학원 = private academy; ~는 + 강사 relative clause 'an instructor who...'"
+      ],
+      [
+        "요가 강사로 일한 지 3년 됐어요.",
+        "It's been three years working as a yoga instructor.",
+        "~ㄴ 지 N년 됐다 = it's been N years since — a key duration pattern"
+      ]
     ],
-    "nuance": "강사 means an instructor or lecturer who teaches at a private academy, gym, or culture center, distinct from 선생님 used for a schoolteacher. You usually name the subject, like 영어 강사, 요가 강사, or 헬스 강사.",
-    "mistakes": ["Saying 강사이에요 instead of correct 강사예요", "Confusing 강사 the academy instructor with 교수 the university professor"]
+    "nuance": "강사 (講師) joins 講 'lecture/expound' with the professional 師 'teacher/master' (the dignified 師 also in 의사 doctor, 교사 schoolteacher) — literally 'a lecture-master', i.e. someone who teaches courses. The sharp boundary is the venue and status: 강사 teaches at a 학원 (cram school/academy), gym, or culture center and is hired class-by-class or on contract, whereas 선생님 is the warm catch-all for a schoolteacher you address directly, and 교수(님) is specifically a tenured-track university professor — calling a professor merely 강사 can sound dismissive, since at universities 시간강사 (part-time lecturer) is a precarious lower rank. Subject + 강사 is the default frame: 영어 강사, 수학 강사, 요가 강사, 헬스 강사. Verbs: 강의를 하다 'give a lecture', 가르치다 'teach', 강사로 일하다. English-speaker pitfalls: don't equate 강사 with 교수 (professor) — the academy instructor and the university professor are different ranks; and after the vowel ending it is 강사예요, not 강사이에요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Someone who teaches courses. The sharp boundary is the venue and status: 강사 teaches at a 학원 (cram school/academy), gym, or culture center and is hired class-by-class or on contract. Subject + 강사 is the default frame: 영어 강사, 수학 강사, 요가 강사, 헬스 강사. Verbs: 강의를 하다 'give a lecture', 가르치다 'teach', 강사로 일하다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "선생님 is the warm catch-all for a schoolteacher you address directly, and 교수(님) is specifically a tenured-track university professor — calling a professor merely 강사 can sound dismissive, since at universities 시간강사 (part-time lecturer) is a precarious lower rank."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "강사 (講師) joins 講 'lecture/expound' with the professional 師 'teacher/master' (the dignified 師 also in 의사 doctor, 교사 schoolteacher) — literally 'a lecture-master'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't equate 강사 with 교수 (professor) — the academy instructor and the university professor are different ranks. And after the vowel ending it is 강사예요, not 강사이에요."
+      }
+    ],
+    "mistakes": [
+      "Saying 강사이에요 — the vowel-final stem contracts to 강사예요; 이에요 is for consonant endings.",
+      "Using 강사 for a university professor — that's 교수(님); 강사 implies an academy/gym instructor or a part-time 시간강사, a different and lower rank.",
+      "Calling a regular schoolteacher 강사 — for school staff use 선생님/교사; 강사 specifically evokes private-academy or culture-center teaching."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "상담사",
     "english": "counselor; advisor",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 상담사예요.", "I'm a counselor.", "예요 after vowel"],
-      ["상담사와 이야기하다", "to talk with a counselor", "와 means with"],
-      ["심리 상담사", "a psychological counselor", "심리 means psychology"],
-      ["상담사가 되다", "to become a counselor", "되다 means become"]
+      [
+        "저는 상담사예요.",
+        "I'm a counselor.",
+        "예요 after the vowel-final 사"
+      ],
+      [
+        "심리 상담사",
+        "a psychological counselor",
+        "심리 (心理) = psychology; names the type"
+      ],
+      [
+        "상담을 받다",
+        "to receive counseling / have a session",
+        "받다 from the client's side"
+      ],
+      [
+        "상담을 하다",
+        "to give counseling / hold a session",
+        "하다 from the counselor's side"
+      ]
     ],
     "examples": [
-      ["힘들 때 상담사와 이야기하면 도움이 돼요.", "Talking with a counselor when things are hard helps.", "도움이 되다 means be helpful"],
-      ["저는 학교에서 일하는 상담사예요.", "I'm a counselor working at a school.", "에서 marks workplace"],
-      ["전화 상담사가 친절하게 설명해 줬어요.", "The phone counselor explained kindly.", "설명하다 means explain"]
+      [
+        "저는 상담사예요.",
+        "I'm a counselor.",
+        "vowel-final stem → 상담사예요"
+      ],
+      [
+        "힘들 때 상담사와 이야기하면 도움이 돼요.",
+        "When things are hard, talking with a counselor helps.",
+        "와 = with; 도움이 되다 = be of help"
+      ],
+      [
+        "카드값 문의는 전화 상담사가 친절하게 안내해 줬어요.",
+        "For the card-bill query, the phone counselor guided me kindly.",
+        "안내하다 = guide/inform — note 상담사 covers call-center reps too"
+      ]
     ],
-    "nuance": "상담사 means a professional who gives advice or counseling, from mental-health counselors to career or call-center advisors, depending on the field named in front. For a licensed mental-health specialist, the fuller term 상담 심리사 is also used.",
-    "mistakes": ["Saying 상담사이에요 instead of correct 상담사예요", "Confusing 상담사 the counselor with 상담 the consultation session"]
+    "nuance": "상담사 (相談士) builds on 상담 (相談) 'consultation' (相 mutual + 談 talk — literally 'talking things over together') plus the certified ~사 士, so it spans a wide range set by the word in front: 심리 상담사 mental-health counselor, 진로 상담사 career counselor, and the everyday 전화 상담사 / 고객 상담사 (call-center agent). That breadth is the trap — English 'counselor' may evoke only therapy, but Korean 상담사 routinely means the customer-service rep on the phone, so context decides. Distinguish the side of the desk with the verb: the client 상담을 받다 'receives counseling', the counselor 상담을 하다 'does counseling'; and keep the person 상담사 apart from the session 상담 itself (상담이 도움이 됐어요 vs 상담사가 친절했어요). For a clinically licensed therapist the fuller 상담 심리사 or 임상심리사 is used. Also note 상담사 the helper vs 상담원, a near-identical word that leans specifically toward call-center/service agents. English-speaker pitfall: vowel ending means 상담사예요, never 상담사이에요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Spans a wide range set by the word in front: 심리 상담사 mental-health counselor, 진로 상담사 career counselor, and the everyday 전화 상담사 / 고객 상담사 (call-center agent). Distinguish the side of the desk with the verb: the client 상담을 받다 'receives counseling', the counselor 상담을 하다 'does counseling'. For a clinically licensed therapist the fuller 상담 심리사 or 임상심리사 is used."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Note 상담사 the helper vs 상담원, a near-identical word that leans specifically toward call-center/service agents."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "상담사 (相談士) builds on 상담 (相談) 'consultation' (相 mutual + 談 talk — literally 'talking things over together') plus the certified ~사 士."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'counselor' may evoke only therapy, but Korean 상담사 routinely means the customer-service rep on the phone, so context decides. Keep the person 상담사 apart from the session 상담 itself (상담이 도움이 됐어요 vs 상담사가 친절했어요). The vowel ending means 상담사예요, never 상담사이에요."
+      }
+    ],
+    "mistakes": [
+      "Assuming 상담사 always means a therapist — it commonly denotes a 전화/고객 상담사 (call-center agent) too; let the modifier (심리/고객) tell you which.",
+      "Confusing 상담 (the consultation/session) with 상담사 (the person): 상담이 친절했어요 should be 상담사가 친절했어요.",
+      "Saying 상담사이에요 instead of the contracted 상담사예요 required by the vowel ending."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "공인중개사",
     "english": "licensed real estate agent",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["공인중개사한테 묻다", "to ask a licensed agent", "한테 marks the person"],
-      ["공인중개사 사무소", "a licensed agent's office", "사무소 means office"],
-      ["공인중개사 자격증", "the real estate agent license", "자격증 means certificate"],
-      ["공인중개사가 되다", "to become a licensed agent", "되다 means become"]
+      [
+        "공인중개사한테 묻다",
+        "to ask a licensed agent",
+        "한테 marks the person you direct the question to"
+      ],
+      [
+        "부동산에 가다",
+        "to go to the real estate office",
+        "casually 부동산 = the office, where the 공인중개사 sits"
+      ],
+      [
+        "집을 구하다",
+        "to look for a place to live",
+        "구하다 = seek/secure a home — the core errand"
+      ],
+      [
+        "전세 / 월세 계약",
+        "a jeonse / monthly-rent contract",
+        "the two lease types the agent arranges"
+      ]
     ],
     "examples": [
-      ["집 구할 때 공인중개사한테 도움을 받았어요.", "I got help from a licensed agent when finding a place.", "집을 구하다 means find a home"],
-      ["계약은 공인중개사 사무소에서 했어요.", "We did the contract at the real estate office.", "계약 means contract"],
-      ["요즘 공인중개사 시험 준비하는 사람이 많아요.", "Many people are preparing for the agent license exam now.", "준비하다 means prepare"]
+      [
+        "집 구할 때 공인중개사한테 도움을 많이 받았어요.",
+        "I got a lot of help from a licensed agent when finding a place.",
+        "집을 구하다 = find a home; 한테 도움을 받다 = get help from"
+      ],
+      [
+        "계약은 부동산에서 공인중개사랑 같이 썼어요.",
+        "We did the contract at the real estate office together with the agent.",
+        "계약서를 쓰다 = sign a contract; 랑 = casual 'with'"
+      ],
+      [
+        "요즘 공인중개사 시험을 준비하는 사람이 많아요.",
+        "Lots of people are prepping for the realtor licensing exam these days.",
+        "준비하다 = prepare; reflects its popularity as a 자격증"
+      ]
     ],
-    "nuance": "공인중개사 is the licensed real estate agent who arranges 전세, 월세, and home sales, and you will deal with one whenever you rent in Korea. People casually call the office 부동산, so 부동산 가다 means going to the agent's office.",
-    "mistakes": ["Calling the person 부동산; 부동산 is the office or property, the person is 공인중개사", "Dropping the 공인 and saying just 중개사 in formal contexts"]
+    "nuance": "공인중개사 (公認仲介士) is a long but transparent compound: 公認 'officially recognized' (公 public + 認 acknowledge) + 仲介 'mediation/brokerage' (仲 go-between + 介 intermediary) + 士 certified professional — so literally 'an officially-licensed brokerage professional', the agent who arranges 전세, 월세, and home sales, and the person you inevitably deal with when renting in Korea. The number-one English-speaker confusion is place vs person: 부동산 (不動産, lit. 'immovable property') colloquially names the agent's office or the property itself, so 부동산에 가다 = 'go to the agent's office', but the human is the 공인중개사 — never call the person 부동산. The 공인 'officially licensed' prefix matters in formal/contractual contexts; dropping it to just 중개사 is loose. In everyday speech people also warmly say 중개사님 or 사장님 to the agent's face. Collocations: 공인중개사 사무소 'realtor office', 공인중개사 자격증 'realtor license', 집을 구하다 'find a home'. Note 공인중개사 ends in a vowel, so it would be 공인중개사예요, not 공인중개사이에요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The agent who arranges 전세, 월세, and home sales, and the person you inevitably deal with when renting in Korea. The 공인 'officially licensed' prefix matters in formal/contractual contexts; dropping it to just 중개사 is loose. In everyday speech people also warmly say 중개사님 or 사장님 to the agent's face. Collocations: 공인중개사 사무소 'realtor office', 공인중개사 자격증 'realtor license', 집을 구하다 'find a home'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "공인중개사 (公認仲介士) is a long but transparent compound: 公認 'officially recognized' (公 public + 認 acknowledge) + 仲介 'mediation/brokerage' (仲 go-between + 介 intermediary) + 士 certified professional — literally 'an officially-licensed brokerage professional'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The number-one confusion is place vs person: 부동산 (不動産, lit. 'immovable property') colloquially names the agent's office or the property itself, so 부동산에 가다 = 'go to the agent's office', but the human is the 공인중개사 — never call the person 부동산. Note 공인중개사 ends in a vowel, so it would be 공인중개사예요, not 공인중개사이에요."
+      }
+    ],
+    "mistakes": [
+      "Calling the person 부동산 — 부동산 is the office/property; the licensed human is the 공인중개사 (or politely 중개사님/사장님 to their face).",
+      "Dropping 공인 to say just 중개사 in formal or contract settings — the official title is 공인중개사; 중개사 alone is loose.",
+      "Saying 공인중개사이에요 instead of the contracted 공인중개사예요, which the vowel ending requires."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "약사",
     "english": "pharmacist",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 약사예요.", "I'm a pharmacist.", "예요 after vowel"],
-      ["약사한테 물어보다", "to ask the pharmacist", "한테 marks the person"],
-      ["약사가 설명하다", "the pharmacist explains", "설명하다 means explain"],
-      ["약사가 되다", "to become a pharmacist", "되다 means become"]
+      [
+        "저는 약사예요.",
+        "I'm a pharmacist.",
+        "예요 after the vowel-final 사"
+      ],
+      [
+        "약사한테 물어보다",
+        "to ask the pharmacist",
+        "한테 marks the person; the normal first step for minor symptoms"
+      ],
+      [
+        "약국에 가다",
+        "to go to the pharmacy",
+        "약국 (藥局) = the pharmacy where the 약사 works"
+      ],
+      [
+        "약을 짓다",
+        "to prepare/fill a prescription",
+        "짓다 = compound medicine — the verb for filling 처방"
+      ]
     ],
     "examples": [
-      ["약사한테 두통약을 추천받았어요.", "I got a headache medicine recommended by the pharmacist.", "추천받다 means be recommended"],
-      ["약사가 약 먹는 방법을 알려 줬어요.", "The pharmacist told me how to take the medicine.", "방법 means method"],
-      ["우리 누나는 약국에서 일하는 약사예요.", "My older sister is a pharmacist working at a pharmacy.", "약국 means pharmacy"]
+      [
+        "저는 약사예요.",
+        "I'm a pharmacist.",
+        "vowel-final stem → 약사예요"
+      ],
+      [
+        "약사한테 두통약을 추천받았어요.",
+        "I got a headache medicine recommended by the pharmacist.",
+        "추천받다 = be recommended; 한테 marks the source — note pharmacists actively advise"
+      ],
+      [
+        "감기 기운이 있어서 약국에서 약사한테 약을 지어 왔어요.",
+        "I felt a cold coming on, so I had the pharmacist fill some medicine.",
+        "감기 기운 = a touch of a cold; 약을 짓다 = fill/compound medicine"
+      ]
     ],
-    "nuance": "약사 means a licensed pharmacist who dispenses medicine and advises on dosage at a 약국. In Korea pharmacists actively recommend over-the-counter medicine, so asking the 약사 directly is a normal first step for minor symptoms.",
-    "mistakes": ["Saying 약사이에요 instead of correct 약사예요", "Confusing 약사 the pharmacist with 의사 the doctor"]
+    "nuance": "약사 (藥師) combines 藥 'medicine/drug' with the professional 師 'master' (the same dignified 師 in 의사 doctor, 교사 teacher) — literally 'a medicine-master', the licensed pharmacist who dispenses drugs and counsels on dosage at a 약국 (藥局, 'medicine bureau'). A culturally important point for English speakers: in Korea the 약사 actively recommends over-the-counter remedies, so walking into a 약국 and asking the 약사 directly is a normal first move for a headache, cold, or upset stomach — you don't always need a doctor. Keep the obvious pairs straight: 의사 (醫師) diagnoses and writes the 처방전 'prescription', then the 약사 fills it; both share 師 but they are different jobs. Also distinguish the person 약사 from 약 'medicine' and 약국 'pharmacy'. Habitual verbs: 약을 짓다 'fill/compound medicine', 약을 추천받다 'get a medicine recommended', 약사한테 물어보다. English-speaker pitfall: the vowel-final stem takes 약사예요, not 약사이에요; and don't say 약사를 만나다 for routine advice — 약사한테 물어보다 (ask the pharmacist) is the natural collocation.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The licensed pharmacist who dispenses drugs and counsels on dosage at a 약국 (藥局, 'medicine bureau'). A culturally important point: in Korea the 약사 actively recommends over-the-counter remedies, so walking into a 약국 and asking the 약사 directly is a normal first move for a headache, cold, or upset stomach — you don't always need a doctor. Habitual verbs: 약을 짓다 'fill/compound medicine', 약을 추천받다 'get a medicine recommended', 약사한테 물어보다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Keep the obvious pairs straight: 의사 (醫師) diagnoses and writes the 처방전 'prescription', then the 약사 fills it; both share 師 but they are different jobs."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "약사 (藥師) combines 藥 'medicine/drug' with the professional 師 'master' (the same dignified 師 in 의사 doctor, 교사 teacher) — literally 'a medicine-master'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Distinguish the person 약사 from 약 'medicine' and 약국 'pharmacy'. The vowel-final stem takes 약사예요, not 약사이에요. And don't say 약사를 만나다 for routine advice — 약사한테 물어보다 (ask the pharmacist) is the natural collocation."
+      }
+    ],
+    "mistakes": [
+      "Saying 약사이에요 — the vowel-final stem contracts to 약사예요; 이에요 follows consonants only.",
+      "Confusing 약사 (pharmacist) with 의사 (doctor): the 의사 diagnoses and prescribes, the 약사 dispenses; they aren't interchangeable.",
+      "Mixing up the person and the place — 약사 is the pharmacist, 약국 is the pharmacy: 약국한테 물어봤어요 should be 약사한테 물어봤어요."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "사회복지사",
     "english": "social worker",
     "topic": "work",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["저는 사회복지사예요.", "I'm a social worker.", "예요 after vowel"],
-      ["사회복지사로 일하다", "to work as a social worker", "로 marks role"],
-      ["사회복지사 자격증", "the social worker license", "자격증 means certificate"],
-      ["사회복지사가 되다", "to become a social worker", "되다 means become"]
+      [
+        "저는 사회복지사예요.",
+        "I'm a social worker.",
+        "예요 after the vowel-final 사"
+      ],
+      [
+        "사회복지사로 일하다",
+        "to work as a social worker",
+        "로 marks the role"
+      ],
+      [
+        "자격증을 따다",
+        "to get the license",
+        "따다 = obtain (a certificate) — 사회복지사 is a licensed job"
+      ],
+      [
+        "복지관에서 근무하다",
+        "to work at a welfare center",
+        "복지관 (福祉館) = community welfare center"
+      ]
     ],
     "examples": [
-      ["저는 복지관에서 일하는 사회복지사예요.", "I'm a social worker at a welfare center.", "복지관 means welfare center"],
-      ["사회복지사가 어르신들을 도와드려요.", "The social worker helps the elderly.", "도와드리다 is humble help"],
-      ["사회복지사 자격증을 따려고 공부해요.", "I'm studying to get the social worker license.", "자격증을 따다 means get a license"]
+      [
+        "저는 사회복지사예요.",
+        "I'm a social worker.",
+        "vowel-final stem → 사회복지사예요"
+      ],
+      [
+        "복지관에서 일하는 사회복지사예요.",
+        "I'm a social worker at a welfare center.",
+        "에서 marks the workplace; ~는 relative clause 'who works at...'"
+      ],
+      [
+        "사회복지사 자격증을 따려고 야간 대학에 다녀요.",
+        "I attend night classes to earn the social-worker license.",
+        "자격증을 따다 = get a license; ~려고 = in order to — a real career-change route"
+      ]
     ],
-    "nuance": "사회복지사 means a social worker who supports vulnerable people such as the elderly, children, or low-income families, usually at a 복지관 or public office. It is a licensed job, so people talk about earning the 자격증 to enter the field.",
-    "mistakes": ["Saying 사회복지사이에요 instead of correct 사회복지사예요", "Shortening it to 복지사 in formal contexts; the full term is 사회복지사"]
+    "nuance": "사회복지사 (社會福祉士) is a four-part Sino-Korean compound: 社會 'society' + 福祉 'welfare' (福 blessing + 祉 happiness) + 士 certified professional — literally 'a society-welfare certified professional', the licensed worker who supports vulnerable people (the elderly, children, the disabled, low-income families) at a 복지관 'welfare center' or public office. Because it is a 자격증-based occupation, Koreans naturally talk about 자격증을 따다 'earning the license' as the gateway, and many enter mid-career via night or cyber universities. Don't shorten it: 복지사 alone is loose/incomplete in formal contexts — the standard title is the full 사회복지사. Nearby words to keep separate: 자원봉사자 is an unpaid 'volunteer', not a professional 사회복지사; and 요양보호사 (caregiver for the elderly/ill) is a different, more hands-on care license. Collocations: 사회복지사로 일하다, 어르신을 돕다/도와드리다 'help the elderly' (use the humble 도와드리다 for elders), 복지관에서 근무하다. English-speaker pitfall: the vowel ending requires 사회복지사예요, not 사회복지사이에요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The licensed worker who supports vulnerable people (the elderly, children, the disabled, low-income families) at a 복지관 'welfare center' or public office. Because it is a 자격증-based occupation, Koreans naturally talk about 자격증을 따다 'earning the license' as the gateway, and many enter mid-career via night or cyber universities. Collocations: 사회복지사로 일하다, 어르신을 돕다/도와드리다 'help the elderly' (use the humble 도와드리다 for elders), 복지관에서 근무하다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Keep nearby words separate: 자원봉사자 is an unpaid 'volunteer', not a professional 사회복지사; and 요양보호사 (caregiver for the elderly/ill) is a different, more hands-on care license."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "사회복지사 (社會福祉士) is a four-part Sino-Korean compound: 社會 'society' + 福祉 'welfare' (福 blessing + 祉 happiness) + 士 certified professional — literally 'a society-welfare certified professional'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't shorten it: 복지사 alone is loose/incomplete in formal contexts — the standard title is the full 사회복지사. And the vowel ending requires 사회복지사예요, not 사회복지사이에요."
+      }
+    ],
+    "mistakes": [
+      "Shortening it to 복지사 in formal contexts — the full, standard title is 사회복지사; 복지사 alone is loose.",
+      "Confusing 사회복지사 (a paid, licensed professional) with 자원봉사자 (an unpaid volunteer) — they are different roles.",
+      "Saying 사회복지사이에요 instead of the contracted 사회복지사예요 that the vowel ending requires."
+    ]
   }
 ]

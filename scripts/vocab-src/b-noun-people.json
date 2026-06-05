@@ -7,20 +7,49 @@
     "chapterIds": ["chapter-02"],
     "grammarIds": [],
     "usage": [
-      ["남자", "man, male", "basic noun for a male person"],
-      ["남자예요", "He is a man.", "noun + 이에요/예요; 남자 ends in a vowel, so 예요"],
-      ["남자가", "the man (subject)", "with subject marker 가 after a vowel"],
-      ["남자 친구", "male friend", "남자 + 친구; with a space it means a friend who is male, while 남자친구 (one word) means boyfriend"]
+      ["남자", "man, male", "the plain, neutral noun for a male person"],
+      ["남자예요", "He is a man.", "noun + 이에요/예요; 남자 ends in a vowel, so the contracted 예요"],
+      ["남자 화장실", "men's restroom", "남자 used as a modifier in front of another noun, no particle needed"],
+      ["남자 친구", "male friend", "with a space it is a friend who happens to be male; 남자친구 written solid means boyfriend"]
     ],
     "examples": [
-      ["저 남자는 키가 커요.", "That man is tall.", "남자 as the topic with 는"],
-      ["남자 화장실은 어디예요?", "Where is the men's restroom?", "남자 modifying another noun"],
-      ["키 큰 남자가 우리 오빠예요.", "The tall man is my older brother.", "남자 as the subject with 가"]
+      ["저 사람은 남자예요.", "That person is a man.", "the simplest A는 B예요 identity sentence"],
+      ["남자 화장실은 2층에 있어요.", "The men's restroom is on the second floor.", "남자 glued to 화장실 acts like an adjective 'men's'"],
+      ["키 큰 남자가 우리 오빠예요.", "The tall man is my older brother.", "real situation: a modifier clause 키 큰 plus subject 남자가"]
     ],
-    "nuance": "남자 is the everyday word for a man or male and is neutral in tone. It is also used as a modifier, as in 남자 화장실 (men's restroom) or 남자 친구 (boyfriend). Be careful with spacing: 남자친구 written as one word often means a romantic boyfriend, while 남자 친구 with a space can just mean a friend who is male.",
+    "nuance": "남자 (Sino-Korean 男子, literally 'male-person') is the flat, everyday noun for a man or male, with no warmth or rudeness built in — it simply states the category, the way 'male' does on a form. Its mirror word is 여자 (woman), and the dividing line you must keep straight is 남자 = any male in general versus 남편 (husband, 男便) = the specific man a woman is married to; an English speaker who reaches for 'my man' and says 내 남자 sounds like a song lyric, not 'my husband'. As a noun it takes 이에요/예요 and the subject marker 가 because it ends in a vowel (남자예요, 남자가), and it loves to sit in front of other nouns with no particle at all: 남자 화장실, 남자 옷, 남자 목소리. The notorious trap is spacing — 남자 친구 with a space is just a friend who is male, while 남자친구 squeezed into one word is a romantic boyfriend, so a stray space can change your whole sentence.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "남자 is the flat, everyday noun for a man or male, with no warmth or rudeness built in — it simply states the category, the way 'male' does on a form."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its mirror word is 여자 (woman). The dividing line to keep straight is 남자 = any male in general versus 남편 (husband) = the specific man a woman is married to. An English speaker who reaches for 'my man' and says 내 남자 sounds like a song lyric, not 'my husband'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 男子, literally 'male-person'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a noun it takes 이에요/예요 and the subject marker 가 because it ends in a vowel (남자예요, 남자가), and it loves to sit in front of other nouns with no particle at all: 남자 화장실, 남자 옷, 남자 목소리.",
+        "chips": ["남자예요", "남자가", "남자 화장실"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The notorious trap is spacing — 남자 친구 with a space is just a friend who is male, while 남자친구 squeezed into one word is a romantic boyfriend, so a stray space can change your whole sentence."
+      }
+    ],
     "mistakes": [
-      "Saying 남자이에요 after the vowel — it should be 남자예요.",
-      "Confusing 남자 (man) with 남편 (husband); a husband is 남편, not just any 남자."
+      "Saying 남자이에요 — because 남자 ends in the vowel ㅏ, the 이에요 contracts and the correct form is 남자예요.",
+      "Calling a husband 남자; a husband is 남편, and 남자 alone just means 'a male', so 우리 남자 for 'my husband' sounds wrong.",
+      "Writing 남자친구 (solid) when you only mean a buddy who is male — that solid form reads as 'boyfriend'; keep the space: 남자 친구."
     ]
   },
   {
@@ -31,20 +60,49 @@
     "chapterIds": ["chapter-02"],
     "grammarIds": [],
     "usage": [
-      ["여자", "woman, female", "basic noun for a female person"],
-      ["여자예요", "She is a woman.", "noun + 예요 after the vowel"],
-      ["여자가", "the woman (subject)", "with subject marker 가 after a vowel"],
-      ["여자 친구", "female friend", "여자 + 친구; with a space it means a friend who is female, while 여자친구 (one word) means girlfriend"]
+      ["여자", "woman, female", "the plain, neutral noun for a female person"],
+      ["여자예요", "She is a woman.", "noun + 예요 because 여자 ends in a vowel"],
+      ["여자 화장실", "women's restroom", "여자 used as a modifier before another noun"],
+      ["여자 친구", "female friend", "with a space, a friend who is female; 여자친구 solid means girlfriend"]
     ],
     "examples": [
-      ["저 여자는 제 친구예요.", "That woman is my friend.", "여자 as the topic with 는"],
-      ["여자 옷 가게가 2층에 있어요.", "The women's clothing store is on the second floor.", "여자 modifying 옷"],
-      ["예쁜 여자가 노래해요.", "A pretty woman is singing.", "여자 as the subject with 가"]
+      ["저 사람은 여자예요.", "That person is a woman.", "the basic identity pattern A는 B예요"],
+      ["여자 옷 가게가 1층에 있어요.", "The women's clothing store is on the first floor.", "여자 stacked in front of 옷 to mean 'women's'"],
+      ["빨간 옷을 입은 여자가 제 친구예요.", "The woman in red is my friend.", "real situation: a modifier clause describing which 여자"]
     ],
-    "nuance": "여자 is the neutral everyday word for a woman or female and pairs with 남자 (man). Like 남자, it often works as a modifier: 여자 화장실 (women's restroom), 여자 친구 (girlfriend). Spacing matters: 여자친구 as one word usually means a romantic girlfriend, while 여자 친구 with a space can simply be a friend who is female.",
+    "nuance": "여자 (Sino-Korean 女子, literally 'female-person') is the neutral, all-purpose noun for a woman or female and is the exact counterpart of 남자 (man); like 남자 it carries no built-in politeness or insult, it just names the category. The boundary to memorize is 여자 = any female in general versus 아내 (wife) = the specific woman a man is married to, so saying 내 여자 for 'my wife' sounds like a possessive movie line rather than 아내. Because it ends in a vowel it takes 예요 and 가 (여자예요, 여자가), and it pairs effortlessly as a modifier: 여자 화장실, 여자 목소리, 여자 옷. Two spacing pitfalls follow the same rule as 남자: 여자 친구 with a space is a platonic friend who is female, but 여자친구 written solid is a girlfriend — and unlike English, you cannot stick 'a' or 'the' in front; the bare noun already covers both.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "여자 is the neutral, all-purpose noun for a woman or female; like 남자 it carries no built-in politeness or insult, it just names the category."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is the exact counterpart of 남자 (man). The boundary to memorize is 여자 = any female in general versus 아내 (wife) = the specific woman a man is married to, so saying 내 여자 for 'my wife' sounds like a possessive movie line rather than 아내."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 女子, literally 'female-person'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Because it ends in a vowel it takes 예요 and 가 (여자예요, 여자가), and it pairs effortlessly as a modifier: 여자 화장실, 여자 목소리, 여자 옷.",
+        "chips": ["여자예요", "여자가", "여자 화장실"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Two spacing pitfalls follow the same rule as 남자: 여자 친구 with a space is a platonic friend who is female, but 여자친구 written solid is a girlfriend. And unlike English, you cannot stick 'a' or 'the' in front; the bare noun already covers both."
+      }
+    ],
     "mistakes": [
-      "Writing 여자이에요 instead of the correct 여자예요.",
-      "Using 여자 when you mean 아내 (wife); a wife is 아내, not just any 여자."
+      "Writing 여자이에요 instead of 여자예요 — after the vowel ㅏ the copula contracts.",
+      "Using 여자 to mean 'wife'; a wife is 아내 (or 와이프 in casual speech), while 여자 alone just means 'a female'.",
+      "Saying 여자친구 (solid) for a casual female friend — that reads as 'girlfriend'; keep the space for a plain friend: 여자 친구."
     ]
   },
   {
@@ -55,20 +113,49 @@
     "chapterIds": ["chapter-03"],
     "grammarIds": [],
     "usage": [
-      ["어른", "adult, grown-up", "a fully grown person"],
-      ["어른이에요", "He/She is an adult.", "noun + 이에요 after the consonant ㄴ"],
-      ["어른이", "the adult (subject)", "with subject marker 이 after a consonant"],
-      ["어른들", "adults", "plural with 들"]
+      ["어른", "adult, grown-up", "a fully grown person; also one's elders"],
+      ["어른이에요", "He/She is an adult.", "noun + 이에요 after the final consonant ㄴ"],
+      ["어른이", "the adult (subject)", "subject marker 이 because 어른 ends in a consonant"],
+      ["어른들", "adults / one's elders", "plural with 들, often the seniors you must respect"]
     ],
     "examples": [
-      ["저는 이제 어른이에요.", "I am an adult now.", "어른 with 이에요"],
-      ["어른은 만 19세부터예요.", "You are an adult from age 19.", "어른 as the topic with 은"],
-      ["어른들이 아이를 도와줬어요.", "The adults helped the child.", "어른들 as the subject"]
+      ["저는 이제 어른이에요.", "I am an adult now.", "어른 + 이에요 after the consonant ㄴ"],
+      ["어른한테는 존댓말을 써요.", "We use polite speech to adults/elders.", "everyday: shows the respect sense, 어른 = elder"],
+      ["어른들이 아이를 도와줬어요.", "The grown-ups helped the child.", "real situation: 어른 contrasted directly with 아이 (child)"]
     ],
-    "nuance": "어른 means an adult or grown-up, the opposite of 아이 (child). In Korean culture it also carries a sense of respect, so 어른 can refer to one's elders or seniors whom you should treat politely. You will often hear 어른스럽다 (to be mature) built from this word.",
+    "nuance": "어른 is a native Korean word (no hanja) that covers two linked ideas: an adult as opposed to 아이 (child), and, just as importantly, one's elders — the older people a Korean is socially obliged to treat with respect. That second sense is where English speakers slip: 'adult' in English is a neutral age category, but 어른 often means 'a senior I must bow and use 존댓말 to', so 어른을 공경하다 (respect your elders) is a core phrase. Compare it with three neighbors — 성인 (成人, the legal/clinical 'adult' on documents and age ratings, e.g. 성인 영화), 노인 (an elderly person), and 아이 (child): 어른 is the warm, relational everyday word, 성인 is the bureaucratic one. It ends in the consonant ㄴ, so it takes 이에요 and 이 (어른이에요, 어른이). The adjective 어른스럽다 (to be mature, grown-up in manner) is built straight from it.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "어른 is a native Korean word covering two linked ideas: an adult as opposed to 아이 (child), and, just as importantly, one's elders — the older people a Korean is socially obliged to treat with respect. The adjective 어른스럽다 (to be mature, grown-up in manner) is built straight from it."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare it with three neighbors — 성인 (the legal/clinical 'adult' on documents and age ratings, e.g. 성인 영화), 노인 (an elderly person), and 아이 (child): 어른 is the warm, relational everyday word, 성인 is the bureaucratic one."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is a native Korean word with no hanja of its own (its bureaucratic cousin 성인 is 成人)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It ends in the consonant ㄴ, so it takes 이에요 and 이 (어른이에요, 어른이).",
+        "chips": ["어른이에요", "어른이", "어른들"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'adult' in English is a neutral age category, but 어른 often means 'a senior I must bow and use 존댓말 to', so 어른을 공경하다 (respect your elders) is a core phrase."
+      }
+    ],
     "mistakes": [
-      "Saying 어른예요 — after the consonant ㄴ it must be 어른이에요.",
-      "Confusing 어른 (adult) with 노인 (elderly person); not every adult is old."
+      "Saying 어른예요 — because 어른 ends in the consonant ㄴ, the full form 어른이에요 is required.",
+      "Treating 어른 as a pure age label like English 'adult'; on official forms and age ratings the word is 성인 (e.g. 성인 인증), while 어른 carries the 'respect your elders' nuance.",
+      "Confusing 어른 with 노인 — every 노인 is an 어른, but most 어른 are not 노인 (elderly); don't call a 30-year-old 노인."
     ]
   },
   {
@@ -79,20 +166,39 @@
     "chapterIds": ["chapter-02"],
     "grammarIds": [],
     "usage": [
-      ["아기", "baby, infant", "a very young child"],
-      ["아기예요", "It is a baby.", "noun + 예요 after the vowel"],
-      ["아기가", "the baby (subject)", "with subject marker 가 after a vowel"],
-      ["아기 옷", "baby clothes", "아기 modifying 옷"]
+      ["아기", "baby, infant", "a very young child; also a term of endearment"],
+      ["아기예요", "It is a baby.", "noun + 예요 because 아기 ends in a vowel"],
+      ["아기가", "the baby (subject)", "subject marker 가 after a vowel"],
+      ["아기 옷", "baby clothes", "아기 modifying 옷 with no particle"]
     ],
     "examples": [
-      ["아기가 자요.", "The baby is sleeping.", "아기 as the subject with 가"],
-      ["아기가 정말 귀여워요.", "The baby is really cute.", "아기 with the adjective 귀여워요"],
-      ["우리 아기는 지금 돌이에요.", "Our baby is one year old now.", "아기 as the topic with 는"]
+      ["아기가 자요.", "The baby is sleeping.", "simplest 아기 + 가 + verb"],
+      ["아기가 정말 귀여워요.", "The baby is really cute.", "everyday: pairs with the adjective 귀엽다"],
+      ["우리 아기는 지금 돌이에요.", "Our baby is one year old now.", "real situation: 돌 = first birthday; 우리 아기 as endearment"]
     ],
-    "nuance": "아기 means a baby or infant and is a warm, affectionate word. It is sometimes shortened to 애기 in casual speech, though 아기 is the standard spelling. Parents also use 우리 아기 (our baby) as a term of endearment even for slightly older children.",
+    "nuance": "아기 is a native, affectionate word for a baby or infant — soft and warm in a way the clinical term 아이(아이 = child, broader and older) is not. The boundary to hold: 아기 is roughly 'baby/infant' (newborn up to toddler), 아이 covers any child up through about pre-teen, and 어린이 (children) is the formal/institutional word you see on signs (어린이 보호구역 = school zone). In casual speech 아기 is very often softened to 애기, and shortened further to 애 in fast talk, though 아기 is the textbook spelling. The endearment use matters culturally: parents say 우리 아기 ('our baby') even to a grown child the way English speakers say 'my baby'. Because it ends in a vowel it takes 예요 and 가 (아기예요, 아기가), and as a modifier it needs no particle: 아기 옷, 아기 침대, 아기 손.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "아기 is a native, affectionate word for a baby or infant — soft and warm in a way the clinical term 아이 (child, broader and older) is not. In casual speech it is very often softened to 애기, and shortened further to 애 in fast talk, though 아기 is the textbook spelling. The endearment use matters culturally: parents say 우리 아기 ('our baby') even to a grown child the way English speakers say 'my baby'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The boundary to hold: 아기 is roughly 'baby/infant' (newborn up to toddler), 아이 covers any child up through about pre-teen, and 어린이 (children) is the formal/institutional word you see on signs (어린이 보호구역 = school zone)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Because it ends in a vowel it takes 예요 and 가 (아기예요, 아기가), and as a modifier it needs no particle: 아기 옷, 아기 침대, 아기 손.",
+        "chips": ["아기예요", "아기가", "아기 옷"]
+      }
+    ],
     "mistakes": [
-      "Writing 아기이에요 instead of the correct 아기예요.",
-      "Mixing up 아기 (baby) with 아이 (child); 아이 covers a wider age range than 아기."
+      "Writing 아기이에요 instead of 아기예요 — after the vowel ㅣ the copula contracts to 예요.",
+      "Treating 아기 and 아이 as interchangeable; 아기 is a baby/infant, while 아이 is a child of a much wider age range.",
+      "Assuming 애기 is wrong — it is the very common spoken form, but in writing the standard spelling is 아기."
     ]
   },
   {
@@ -103,20 +209,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["청년", "young person, youth", "a young adult, usually in their 20s-30s"],
+      ["청년", "young person, youth", "a young adult, roughly in their 20s-30s"],
       ["청년이에요", "He/She is a young adult.", "noun + 이에요 after the consonant ㄴ"],
-      ["청년이", "the young person (subject)", "with subject marker 이 after a consonant"],
-      ["청년들", "young people", "plural with 들"]
+      ["청년이", "the young person (subject)", "subject marker 이 after a consonant"],
+      ["청년 정책", "youth policy", "common policy/news collocation; also 청년 일자리 (youth jobs)"]
     ],
     "examples": [
-      ["저 청년은 아주 성실해요.", "That young man is very diligent.", "청년 as the topic with 은"],
-      ["요즘 청년들이 일자리를 찾아요.", "These days young people look for jobs.", "청년들 as the subject"],
-      ["그 청년이 제 동생이에요.", "That young man is my younger sibling.", "청년 with 이"]
+      ["저 청년은 아주 성실해요.", "That young man is very diligent.", "청년 + 은 as topic; here it leans toward a young man"],
+      ["요즘 청년들이 취업 때문에 힘들어요.", "These days young people struggle because of finding jobs.", "everyday: 청년들 as a social group in the news"],
+      ["정부가 청년 일자리 정책을 발표했어요.", "The government announced a youth-jobs policy.", "real situation: the bureaucratic register 청년 lives in"]
     ],
-    "nuance": "청년 refers to a young adult, typically someone in their twenties or thirties, and sounds a bit more formal than just 젊은 사람. It often appears in news and government programs like 청년 정책 (youth policy) or 청년 일자리 (youth jobs). It can describe a young man specifically, but is also used for young people in general.",
+    "nuance": "청년 (Sino-Korean 靑年, literally 'green/blue-years', i.e. the fresh years of life) means a young adult, typically someone in their twenties to thirties, and it sits at a noticeably more formal, public register than the plain 젊은 사람 ('a young person') you'd use chatting with friends. This is the word of news headlines and government programs — 청년 정책 (youth policy), 청년 일자리 (youth jobs), 청년 실업 (youth unemployment) — so it feels institutional, not chatty. Mind two boundaries: a teenager is 청소년 (靑少年, adolescent), not 청년, and a literal child is 아이/어린이; 청년 starts after the teens. It can specifically evoke a young man (as in older praise like 참 좋은 청년 = 'a fine young man'), but in modern policy language it covers young people of any gender. Ending in ㄴ, it takes 이에요 and 이 (청년이에요, 청년이).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "청년 means a young adult, typically someone in their twenties to thirties, and it sits at a noticeably more formal, public register than the plain 젊은 사람 ('a young person') you'd use chatting with friends. This is the word of news headlines and government programs — 청년 정책 (youth policy), 청년 일자리 (youth jobs), 청년 실업 (youth unemployment) — so it feels institutional, not chatty. It can specifically evoke a young man (as in older praise like 참 좋은 청년 = 'a fine young man'), but in modern policy language it covers young people of any gender."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Mind two boundaries: a teenager is 청소년 (adolescent), not 청년, and a literal child is 아이/어린이; 청년 starts after the teens."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 靑年, literally 'green/blue-years', i.e. the fresh years of life."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Ending in ㄴ, it takes 이에요 and 이 (청년이에요, 청년이).",
+        "chips": ["청년이에요", "청년이", "청년들"]
+      }
+    ],
     "mistakes": [
-      "Saying 청년예요 — after the consonant ㄴ it must be 청년이에요.",
-      "Using 청년 for a teenager; teenagers are usually called 청소년, not 청년."
+      "Saying 청년예요 — after the consonant ㄴ the correct copula is 청년이에요.",
+      "Using 청년 for a teenager; teens are 청소년 (middle/high-school age), while 청년 means a young adult in their 20s-30s.",
+      "Dropping 청년 into casual chat about a friend; among friends 젊은 사람 or just a name is natural — 청년 sounds like a news anchor."
     ]
   },
   {
@@ -127,20 +257,49 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["노인", "elderly person, senior", "an old person"],
+      ["노인", "elderly person, senior", "an old person; neutral in writing, blunt to the face"],
       ["노인이에요", "He/She is an elderly person.", "noun + 이에요 after the consonant ㄴ"],
-      ["노인이", "the elderly person (subject)", "with subject marker 이 after a consonant"],
-      ["노인들", "elderly people", "plural with 들"]
+      ["노인이", "the elderly person (subject)", "subject marker 이 after a consonant"],
+      ["노인 복지", "welfare for the elderly", "policy collocation; also 노인 인구 (elderly population)"]
     ],
     "examples": [
-      ["그 노인은 공원에서 운동해요.", "That elderly person exercises in the park.", "노인 as the topic with 은"],
-      ["노인들이 버스를 기다려요.", "The elderly people are waiting for the bus.", "노인들 as the subject"],
-      ["이 자리는 노인을 위한 자리예요.", "This seat is a seat for the elderly.", "노인 with 을"]
+      ["그 노인은 공원에서 운동해요.", "That elderly person exercises in the park.", "노인 + 은 as topic, third-person description"],
+      ["버스에서 어르신께 자리를 양보했어요.", "I gave up my seat to an elderly person on the bus.", "everyday: note the POLITE 어르신, not 노인, when showing respect"],
+      ["우리나라는 노인 인구가 빠르게 늘고 있어요.", "Our country's elderly population is growing fast.", "real situation: 노인 in its neutral statistical/news sense"]
     ],
-    "nuance": "노인 is the standard word for an elderly person and is neutral in writing, such as 노인 복지 (welfare for the elderly). When speaking directly to or about an older person politely, Koreans usually prefer 어르신, which is more respectful than 노인. Use 노인 for general reference rather than as a direct form of address.",
+    "nuance": "노인 (Sino-Korean 老人, literally 'old-person') is the standard, neutral word for an elderly person in writing and statistics — 노인 복지 (elderly welfare), 노인 인구 (elderly population), 노인정 (senior center). The critical register catch for English speakers: 노인 is fine on paper but feels blunt, even cold, when used to or about a specific older person in front of them; the respectful word is 어르신, which adds deference the way 'esteemed elder' would. So you describe the demographic as 노인 but address grandma's friend as 어르신. Distinguish it from 어른 (an adult / one's elder, any grown person) and 할아버지·할머니 (grandfather/grandmother, also used warmly for unrelated old people). Ending in ㄴ, it takes 이에요 and 이 (노인이에요, 노인이). Default to 어르신 whenever politeness or face-to-face contact is involved.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "노인 is the standard, neutral word for an elderly person in writing and statistics — 노인 복지 (elderly welfare), 노인 인구 (elderly population), 노인정 (senior center)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it from 어른 (an adult / one's elder, any grown person) and 할아버지·할머니 (grandfather/grandmother, also used warmly for unrelated old people). The respectful word for an older person to their face is 어르신, which adds deference the way 'esteemed elder' would — so you describe the demographic as 노인 but address grandma's friend as 어르신."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 老人, literally 'old-person'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Ending in ㄴ, it takes 이에요 and 이 (노인이에요, 노인이).",
+        "chips": ["노인이에요", "노인이", "노인 복지"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "노인 is fine on paper but feels blunt, even cold, when used to or about a specific older person in front of them. Default to 어르신 whenever politeness or face-to-face contact is involved."
+      }
+    ],
     "mistakes": [
       "Saying 노인예요 — after the consonant ㄴ it must be 노인이에요.",
-      "Calling an older person 노인 to their face; use 어르신 to be polite."
+      "Calling an older person 노인 to their face; it sounds blunt — use the respectful 어르신 when addressing or referring to them politely.",
+      "Assuming 노인 and 어른 are the same; 어른 is any grown adult/elder, whereas 노인 specifically means someone who is old."
     ]
   },
   {
@@ -153,18 +312,42 @@
     "usage": [
       ["주인", "owner, host", "the person who owns something or runs a place"],
       ["주인이에요", "He/She is the owner.", "noun + 이에요 after the consonant ㄴ"],
-      ["주인이", "the owner (subject)", "with subject marker 이 after a consonant"],
-      ["가게 주인", "shop owner", "가게 + 주인"]
+      ["주인이", "the owner (subject)", "subject marker 이 after a consonant"],
+      ["집주인", "landlord", "집 (house) + 주인, written solid as one word"]
     ],
     "examples": [
-      ["이 가게 주인이 친절해요.", "The owner of this shop is kind.", "가게 주인 as the subject"],
-      ["이 가방 주인이 누구예요?", "Who is the owner of this bag?", "주인 with 이 in a question"],
-      ["집주인한테 전화했어요.", "I called the landlord.", "집주인 (landlord) + 한테"]
+      ["이 가게 주인이 친절해요.", "The owner of this shop is kind.", "가게 주인 = shop owner, simple A 주인 pattern"],
+      ["이 가방 주인이 누구예요?", "Who is the owner of this bag?", "everyday: asking whose something is, 주인 + 이"],
+      ["집주인한테 보증금을 돌려받았어요.", "I got the deposit back from the landlord.", "real situation: 집주인 + 한테, the rental context"]
     ],
-    "nuance": "주인 means an owner or the person in charge of a place, like a 가게 주인 (shop owner). Combined with 집 it becomes 집주인, the standard word for a landlord. It can also mean host, and a pet's owner is often called 주인 by the pet's perspective, as in 강아지 주인 (the dog's owner).",
+    "nuance": "주인 (Sino-Korean 主人, literally 'master/main-person') means the owner of a thing or the person running a place — 가게 주인 (shop owner), 식당 주인 (restaurant owner) — and by extension a 'host' or a master to a pet (강아지가 주인을 따라가요 = the dog follows its owner). The combination you must know is 집 + 주인 → 집주인, the standard word for a landlord, written solid as one word; leaving a space (집 주인) reads literally as 'the owner of the house' and feels off for the rental sense. Distinguish 주인 from 사장(님) (社長, the boss/CEO you address staff-side, common for any shop boss) and from 손님 (a guest/customer — the opposite role to 주인-as-host). It ends in ㄴ, so 이에요 and 이 (주인이에요, 주인이). Note the proverb-like phrase 주인 의식 ('ownership mindset'), where 주인 means taking responsibility as if you owned it.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "주인 means the owner of a thing or the person running a place — 가게 주인 (shop owner), 식당 주인 (restaurant owner) — and by extension a 'host' or a master to a pet (강아지가 주인을 따라가요 = the dog follows its owner). Note the proverb-like phrase 주인 의식 ('ownership mindset'), where 주인 means taking responsibility as if you owned it. The combination you must know is 집 + 주인 → 집주인, the standard word for a landlord, written solid as one word; leaving a space (집 주인) reads literally as 'the owner of the house' and feels off for the rental sense."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish 주인 from 사장(님) (the boss/CEO you address staff-side, common for any shop boss) and from 손님 (a guest/customer — the opposite role to 주인-as-host)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 主人, literally 'master/main-person'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It ends in ㄴ, so 이에요 and 이 (주인이에요, 주인이).",
+        "chips": ["주인이에요", "주인이", "집주인"]
+      }
+    ],
     "mistakes": [
-      "Saying 주인예요 — after the consonant ㄴ it must be 주인이에요.",
-      "Writing 집 주인 with a space when you mean landlord; the common word 집주인 is written together."
+      "Saying 주인예요 — after the consonant ㄴ the form is 주인이에요.",
+      "Writing 집 주인 with a space for 'landlord'; the established word is the solid 집주인 — a space makes it read as 'the house's owner' generically.",
+      "Using 주인 where Korean expects 사장님; to a shop boss you usually say 사장님, reserving 주인 for describing who owns the place."
     ]
   },
   {
@@ -175,20 +358,44 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["부부", "married couple", "a husband and wife together"],
-      ["부부예요", "They are a married couple.", "noun + 예요 after the vowel"],
-      ["부부가", "the couple (subject)", "with subject marker 가 after a vowel"],
-      ["신혼부부", "newlyweds", "신혼 + 부부"]
+      ["부부", "married couple", "a husband and wife together as a unit"],
+      ["부부예요", "They are a married couple.", "noun + 예요 because 부부 ends in a vowel"],
+      ["부부가", "the couple (subject)", "subject marker 가 after a vowel"],
+      ["신혼부부", "newlyweds", "신혼 (new marriage) + 부부, one word; cf. 노부부 (elderly couple)"]
     ],
     "examples": [
-      ["저 두 사람은 부부예요.", "Those two people are a married couple.", "부부 with 예요"],
-      ["그 부부가 카페를 같이 해요.", "That couple runs a cafe together.", "부부 as the subject with 가"],
-      ["신혼부부가 새집으로 이사했어요.", "The newlyweds moved to a new house.", "신혼부부 as the subject"]
+      ["저 두 분은 부부예요.", "Those two people are a married couple.", "부부 + 예요; 두 분 is the polite counter for people"],
+      ["그 부부가 카페를 같이 운영해요.", "That couple runs a cafe together.", "everyday: a married pair doing something jointly"],
+      ["신혼부부가 새 아파트로 이사했어요.", "The newlyweds moved into a new apartment.", "real situation: the set word 신혼부부"]
     ],
-    "nuance": "부부 specifically means a married couple, a husband and wife as a unit. It is different from 커플, which is a borrowed word for a dating couple who are not necessarily married. Common combinations include 신혼부부 (newlyweds) and 노부부 (an elderly couple).",
+    "nuance": "부부 (Sino-Korean 夫婦, literally 'husband-wife') means specifically a married couple — the husband and wife taken together as one social unit. The boundary English speakers must respect is 부부 (married) versus 커플 (a loanword from 'couple', a dating pair who may not be married at all); calling your boyfriend-and-yourself 부부 implies you are actually married. It is a dignified, neutral word that combines readily: 신혼부부 (newlyweds), 노부부 (an elderly couple), 잉꼬부부 (a lovebird couple who get along beautifully), 부부 싸움 (a marital spat). Because it ends in a vowel it takes 예요 and 가 (부부예요, 부부가). One more nuance: 부부 names the relationship/unit, not the individuals, so you don't use it to point at one person — for that you'd say 남편 (husband) or 아내 (wife).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "부부 means specifically a married couple — the husband and wife taken together as one social unit. It is a dignified, neutral word that combines readily: 신혼부부 (newlyweds), 노부부 (an elderly couple), 잉꼬부부 (a lovebird couple who get along beautifully), 부부 싸움 (a marital spat). One more nuance: 부부 names the relationship/unit, not the individuals, so you don't use it to point at one person — for that you'd say 남편 (husband) or 아내 (wife)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The boundary English speakers must respect is 부부 (married) versus 커플 (a loanword from 'couple', a dating pair who may not be married at all); calling your boyfriend-and-yourself 부부 implies you are actually married."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 夫婦, literally 'husband-wife'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Because it ends in a vowel it takes 예요 and 가 (부부예요, 부부가).",
+        "chips": ["부부예요", "부부가", "신혼부부"]
+      }
+    ],
     "mistakes": [
-      "Writing 부부이에요 instead of the correct 부부예요.",
-      "Using 부부 for a dating couple; an unmarried pair is 커플, while 부부 implies marriage."
+      "Writing 부부이에요 instead of 부부예요 — after the vowel ㅜ the copula contracts.",
+      "Using 부부 for a dating couple; an unmarried pair is 커플, while 부부 specifically implies marriage.",
+      "Applying 부부 to one individual; 부부 is the pair as a unit — a single spouse is 남편 (husband) or 아내 (wife)."
     ]
   },
   {
@@ -199,20 +406,49 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["본인", "oneself, the person themselves", "refers back to the person being discussed"],
+      ["본인", "oneself, the person themselves", "refers back to the very person being discussed"],
       ["본인이에요", "It is the person themselves.", "noun + 이에요 after the consonant ㄴ"],
-      ["본인이", "the person himself/herself (subject)", "with subject marker 이"],
-      ["본인 확인", "identity verification", "본인 + 확인; very common on forms"]
+      ["본인이", "the person himself/herself (subject)", "subject marker 이 after a consonant"],
+      ["본인 확인", "identity verification", "ubiquitous on forms; also 본인 서명 (one's own signature)"]
     ],
     "examples": [
-      ["본인이 직접 오셔야 해요.", "The person must come in person.", "본인 as the subject with 이"],
-      ["여기에 본인 이름을 쓰세요.", "Write your own name here.", "본인 modifying 이름"],
-      ["이건 본인만 할 수 있어요.", "Only the person themselves can do this.", "본인 with 만"]
+      ["본인이 직접 오셔야 해요.", "The person must come in person.", "본인 + 이; classic counter/office phrasing"],
+      ["여기에 본인 이름을 쓰세요.", "Write your own name here.", "everyday: 본인 modifying 이름 = 'your own'"],
+      ["이 일은 본인만 결정할 수 있어요.", "Only the person themselves can decide this.", "real situation: 본인 + 만 = 'only oneself'"]
     ],
-    "nuance": "본인 is a slightly formal word meaning oneself or the person in question, and it shows up constantly on official forms and at counters, as in 본인 확인 (identity check) or 본인 서명 (the person's own signature). It can mean my own self or that specific person, depending on context. In everyday casual talk people more often say 자기 or just use a name.",
+    "nuance": "본인 (Sino-Korean 本人, literally 'origin/root-person', i.e. the actual person concerned) is a formal-leaning word meaning 'oneself' or 'the very person in question'. Its natural home is officialdom — counters, banks, forms, hospitals: 본인 확인 (identity check), 본인 서명 (sign it yourself), 본인 부담금 (the portion the patient pays). The trap for English speakers is two-fold. First, register: in friendly conversation 본인 sounds stiff and bureaucratic, so for 'myself' say 저/나 and for 'yourself' use the person's name or title — overusing 본인 with friends is like saying 'the undersigned' at a coffee shop. Second, reference: 본인 always points back to the relevant person, not necessarily the speaker, so 본인이 오세요 means 'have the person themselves come', whereas to volunteer yourself you'd say 제가 갈게요. Compare 자기 (a casual 'oneself', and also a sweetheart's 'honey') and 스스로 (an adverb, 'by oneself / of one's own accord'). Ending in ㄴ, it takes 이에요 and 이.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "본인 is a formal-leaning word meaning 'oneself' or 'the very person in question'. Its natural home is officialdom — counters, banks, forms, hospitals: 본인 확인 (identity check), 본인 서명 (sign it yourself), 본인 부담금 (the portion the patient pays)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare 자기 (a casual 'oneself', and also a sweetheart's 'honey') and 스스로 (an adverb, 'by oneself / of one's own accord')."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 本人, literally 'origin/root-person', i.e. the actual person concerned."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Ending in ㄴ, it takes 이에요 and 이 (본인이에요, 본인이).",
+        "chips": ["본인이에요", "본인이", "본인 확인"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The trap is two-fold. First, register: in friendly conversation 본인 sounds stiff and bureaucratic, so for 'myself' say 저/나 and for 'yourself' use the person's name or title — overusing 본인 with friends is like saying 'the undersigned' at a coffee shop. Second, reference: 본인 always points back to the relevant person, not necessarily the speaker, so 본인이 오세요 means 'have the person themselves come', whereas to volunteer yourself you'd say 제가 갈게요."
+      }
+    ],
     "mistakes": [
       "Saying 본인예요 — after the consonant ㄴ it must be 본인이에요.",
-      "Overusing 본인 in casual chat; it sounds stiff, so use 저 or names with friends."
+      "Using 본인 to mean 'I' in casual chat; it sounds stiff and official — say 저 or 나 among friends, and use names for 'you'.",
+      "Assuming 본인 always means the speaker; it means 'the person concerned', so 본인이 직접 means 'that very person in person', not automatically 'I'."
     ]
   },
   {
@@ -223,20 +459,49 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["누군가", "someone, somebody", "an unspecified person"],
-      ["누군가가", "someone (subject)", "누군가 + 가; the subject marker is often added"],
-      ["누군가를", "someone (object)", "누군가 + 를 as the object"],
-      ["누군가에게", "to someone", "누군가 + 에게 (to a person)"]
+      ["누군가", "someone, somebody", "an unspecified, unknown person (a statement word)"],
+      ["누군가가", "someone (subject)", "누군가 + 가; the subject marker is commonly added"],
+      ["누군가를", "someone (object)", "누군가 + 를 as the object of a verb"],
+      ["누군가에게", "to/from someone", "누군가 + 에게, the person something is directed to"]
     ],
     "examples": [
-      ["밖에 누군가 있어요.", "Someone is outside.", "누군가 used without an extra particle"],
-      ["누군가가 문을 두드려요.", "Someone is knocking on the door.", "누군가가 as the subject"],
-      ["누군가에게 도움을 받고 싶어요.", "I want to get help from someone.", "누군가에게 meaning from/to someone"]
+      ["밖에 누군가 있어요.", "Someone is outside.", "누군가 can stand bare before 있어요"],
+      ["누군가가 문을 두드렸어요.", "Someone knocked on the door.", "everyday: 누군가가 with the subject marker for clarity"],
+      ["힘들 때 누군가에게 기대고 싶어요.", "When it's hard, I want to lean on someone.", "real situation: 누군가에게 = 'on/to someone'"]
     ],
-    "nuance": "누군가 means someone or somebody, an unknown or unspecified person. It comes from 누구 (who) plus 가, and unlike plain 누구 it is a statement word, not a question. You can attach particles to it, as in 누군가가 (someone, subject) or 누군가에게 (to someone).",
+    "nuance": "누군가 is a native indefinite pronoun meaning 'someone / somebody' — an unknown or unspecified person. It is built from 누구 ('who') plus the bound 가, and the single most important fact about it is that, unlike bare 누구, it is a STATEMENT word, not a question; 누군가 왔어요 is 'someone came', never 'who came?'. This is exactly the trap for English speakers, because English 'who' and the indefinite blur together — in Korean you must switch words: question → 누구 (누구예요? = who is it?), indefinite → 누군가 (someone). Although the 가 inside it looks like a subject marker, it is fused into the word, so you still add fresh particles freely: 누군가가 (someone, subject), 누군가를 (someone, object), 누군가에게/한테 (to someone). Compare its relatives 아무 ('anyone', needs 도/나) and 어떤 사람 ('a certain person'); 누군가 is the warm, vague 'somebody out there' of songs and wishes.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "누군가 is a native indefinite pronoun meaning 'someone / somebody' — an unknown or unspecified person. The single most important fact about it is that, unlike bare 누구, it is a STATEMENT word, not a question; 누군가 왔어요 is 'someone came', never 'who came?'. It is the warm, vague 'somebody out there' of songs and wishes."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare its relatives 아무 ('anyone', needs 도/나) and 어떤 사람 ('a certain person')."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is built from 누구 ('who') plus the bound 가."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Although the 가 inside it looks like a subject marker, it is fused into the word, so you still add fresh particles freely: 누군가가 (someone, subject), 누군가를 (someone, object), 누군가에게/한테 (to someone).",
+        "chips": ["누군가가", "누군가를", "누군가에게"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'who' and the indefinite blur together, but in Korean you must switch words: question → 누구 (누구예요? = who is it?), indefinite → 누군가 (someone)."
+      }
+    ],
     "mistakes": [
-      "Using 누군가 to ask a question; for questions use 누구 (Who is it? = 누구예요?).",
-      "Forgetting that you can still add 가/를; 누군가가 and 누군가를 are both correct."
+      "Using 누군가 to ask a question; for 'who?' use 누구 (누구예요? / 누가 왔어요?), since 누군가 only states 'someone'.",
+      "Thinking the built-in 가 is the subject marker and refusing to add particles; you still say 누군가가 (subj.) and 누군가를 (obj.) normally.",
+      "Confusing 누군가 with 아무; 누군가 = 'some specific-but-unknown person', while 아무(나/도) = 'any/no person' and needs 나 or 도."
     ]
   },
   {
@@ -247,20 +512,44 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["아무", "anyone, any", "used with 도 or 나 to mean nobody / anybody"],
-      ["아무도", "nobody, not anyone", "아무 + 도; always with a negative verb"],
-      ["아무나", "anyone (at all)", "아무 + 나; anyone will do"],
-      ["아무 데나", "anywhere", "아무 + 데(place) + 나"]
+      ["아무", "anyone, any", "almost never stands alone — needs 도 or 나"],
+      ["아무도", "nobody, not anyone", "아무 + 도; always paired with a NEGATIVE verb"],
+      ["아무나", "anyone (at all)", "아무 + 나; 'anyone will do', with a positive verb"],
+      ["아무 데나", "anywhere", "아무 + 데 (place) + 나; cf. 아무거나 (anything), 아무 때나 (anytime)"]
     ],
     "examples": [
-      ["집에 아무도 없어요.", "There is no one at home.", "아무도 with the negative 없어요"],
-      ["이건 아무나 할 수 있어요.", "Anyone can do this.", "아무나 meaning anyone at all"],
-      ["아무 말도 하지 마세요.", "Don't say anything.", "아무 ... 도 with a negative command"]
+      ["집에 아무도 없어요.", "There's no one at home.", "아무도 with the negative 없어요 = 'nobody'"],
+      ["이건 아무나 할 수 있어요.", "Anyone can do this.", "everyday: 아무나 + positive = 'anyone at all'"],
+      ["아무 말도 하지 마세요.", "Don't say anything.", "real situation: 아무 N 도 + negative command = 'not any'"]
     ],
-    "nuance": "아무 means anyone or any, but it almost never stands alone; it needs a partner particle. With 도 and a negative verb it means nobody or nothing (아무도 없어요 = no one is here), and with 나 it means anyone or anything at all (아무나 = anyone). Learn the set phrases 아무도, 아무나, 아무거나, and 아무 데나 together.",
+    "nuance": "아무 is a native word meaning 'any (person/thing)', but its defining feature is that it almost never stands alone — it lives only with a partner particle, and which partner you choose flips the meaning, which is the core hurdle for English speakers used to one word 'any'. With 도 plus a NEGATIVE verb it means nobody/nothing: 아무도 없어요 ('no one is here'), 아무것도 몰라요 ('I know nothing'). With 나 plus a POSITIVE verb it means 'anyone/anything at all, no preference': 아무나 와도 돼요 ('anyone may come'), 아무거나 주세요 ('give me anything'). So the polarity of the verb must match the particle: 도 ↔ negative, 나 ↔ positive. Memorize the family as fixed sets — 아무도 (nobody), 아무나 (anybody), 아무것도/아무거나 (nothing/anything), 아무 데도/아무 데나 (nowhere/anywhere), 아무 때나 (anytime). Compare 누군가 ('a certain someone'), which is positive and specific-ish, against 아무 which is sweepingly general.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "아무 is a native word meaning 'any (person/thing)', but its defining feature is that it almost never stands alone — it lives only with a partner particle, and which partner you choose flips the meaning. Memorize the family as fixed sets — 아무도 (nobody), 아무나 (anybody), 아무것도/아무거나 (nothing/anything), 아무 데도/아무 데나 (nowhere/anywhere), 아무 때나 (anytime)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare 누군가 ('a certain someone'), which is positive and specific-ish, against 아무 which is sweepingly general."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "With 도 plus a NEGATIVE verb it means nobody/nothing: 아무도 없어요 ('no one is here'), 아무것도 몰라요 ('I know nothing'). With 나 plus a POSITIVE verb it means 'anyone/anything at all, no preference': 아무나 와도 돼요 ('anyone may come'), 아무거나 주세요 ('give me anything'). So the polarity of the verb must match the particle: 도 ↔ negative, 나 ↔ positive.",
+        "chips": ["아무도", "아무나", "아무거나"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The core hurdle for English speakers used to one word 'any' is that the partner particle flips the meaning and must match the verb's polarity (도 ↔ negative, 나 ↔ positive)."
+      }
+    ],
     "mistakes": [
-      "Using 아무도 with a positive verb; 아무도 must go with a negative like 없어요 or 안 와요.",
-      "Saying 아무 alone to mean anyone; you need 아무나 or 아무도 to complete the meaning."
+      "Using 아무도 with a positive verb; 아무도 must pair with a negative — 아무도 없어요 / 아무도 안 와요, never 아무도 있어요.",
+      "Saying 아무 alone to mean 'anyone'; it is incomplete — you need 아무나 (anyone) or 아무도 (no one) to finish the meaning.",
+      "Mixing the particles: 'anyone CAN come' is 아무나 와도 돼요 (positive→나), not 아무도, which would force a negative and mean 'no one'."
     ]
   },
   {
@@ -271,20 +560,44 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["아저씨", "middle-aged man, mister", "an adult man, also used to address one"],
-      ["아저씨예요", "He is a middle-aged man.", "noun + 예요 after the vowel"],
-      ["아저씨가", "the man (subject)", "with subject marker 가 after a vowel"],
-      ["아저씨!", "Excuse me, sir!", "used to call a male worker or older man"]
+      ["아저씨", "middle-aged man, mister", "an adult/older man; also a way to address one"],
+      ["아저씨예요", "He is a middle-aged man.", "noun + 예요 because 아저씨 ends in a vowel"],
+      ["아저씨가", "the man (subject)", "subject marker 가 after a vowel"],
+      ["아저씨!", "Excuse me, sir!", "calling out to a male worker, driver, or older man"]
     ],
     "examples": [
-      ["택시 아저씨가 친절해요.", "The taxi driver (mister) is kind.", "아저씨 referring to a male worker"],
-      ["아저씨, 이거 얼마예요?", "Mister, how much is this?", "아저씨 as a form of address"],
-      ["저 아저씨가 길을 알려 줬어요.", "That man told me the way.", "아저씨 as the subject with 가"]
+      ["저 아저씨가 길을 알려 줬어요.", "That man showed me the way.", "아저씨 + 가, describing an older man"],
+      ["아저씨, 이거 얼마예요?", "Mister, how much is this?", "everyday: 아저씨 as a direct form of address to a vendor"],
+      ["택시 아저씨가 아주 친절하셨어요.", "The taxi driver was very kind.", "real situation: 택시 아저씨 = the (male) taxi driver"]
     ],
-    "nuance": "아저씨 is the everyday word for a middle-aged or grown man, and it doubles as a friendly way to address a male stranger, shopkeeper, or driver, similar to mister. It is informal and warm, but calling a man who feels too young an 아저씨 can sound rude. Its female counterpart is 아주머니.",
+    "nuance": "아저씨 is a native word for a middle-aged or grown man, and it does double duty as a friendly way to flag down a male stranger — a shopkeeper, a taxi driver, a delivery man — much like English 'mister' or 'sir', but warmer and more casual. The cultural pitfall for English speakers is age sensitivity: because 아저씨 implies 'middle-aged', calling a man in his twenties or early thirties 아저씨 can sting, since you're effectively saying he looks past his youth; for a younger-looking man people hedge with 저기요 ('excuse me') or 선생님. Its female counterpart is 아주머니 (and casual 아줌마), and the younger-male equivalents are 오빠/형 (for someone close) or 청년 in formal description. It ends in a vowel, so it takes 예요 and 가 (아저씨예요, 아저씨가). Note that 아저씨 is informal — in a business or polite setting you'd upgrade to 선생님 or 사장님 rather than 아저씨.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "아저씨 is a native word for a middle-aged or grown man, and it does double duty as a friendly way to flag down a male stranger — a shopkeeper, a taxi driver, a delivery man — much like English 'mister' or 'sir', but warmer and more casual. Note that 아저씨 is informal — in a business or polite setting you'd upgrade to 선생님 or 사장님 rather than 아저씨."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its female counterpart is 아주머니 (and casual 아줌마), and the younger-male equivalents are 오빠/형 (for someone close) or 청년 in formal description."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It ends in a vowel, so it takes 예요 and 가 (아저씨예요, 아저씨가).",
+        "chips": ["아저씨예요", "아저씨가"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The cultural pitfall is age sensitivity: because 아저씨 implies 'middle-aged', calling a man in his twenties or early thirties 아저씨 can sting, since you're effectively saying he looks past his youth; for a younger-looking man people hedge with 저기요 ('excuse me') or 선생님."
+      }
+    ],
     "mistakes": [
-      "Writing 아저씨이에요 instead of the correct 아저씨예요.",
-      "Calling a young man 아저씨; he may feel offended since it implies he looks middle-aged."
+      "Writing 아저씨이에요 instead of 아저씨예요 — after the vowel ㅣ the copula contracts.",
+      "Calling a young man 아저씨; it implies he looks middle-aged and can offend — use 저기요 or 선생님 for a younger-looking man.",
+      "Using 아저씨 in a formal/business setting; there it sounds too casual — switch to 선생님 or 사장님."
     ]
   },
   {
@@ -295,20 +608,44 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["아주머니", "middle-aged woman, ma'am", "an adult woman, also used to address one"],
-      ["아주머니예요", "She is a middle-aged woman.", "noun + 예요 after the vowel"],
-      ["아주머니가", "the woman (subject)", "with subject marker 가 after a vowel"],
-      ["아줌마", "ma'am (casual)", "the casual shortened form of 아주머니"]
+      ["아주머니", "middle-aged woman, ma'am", "an adult/older woman; also a way to address one"],
+      ["아주머니예요", "She is a middle-aged woman.", "noun + 예요 because it ends in a vowel"],
+      ["아주머니가", "the woman (subject)", "subject marker 가 after a vowel"],
+      ["아줌마", "ma'am (casual)", "the shortened, blunter spoken form of 아주머니"]
     ],
     "examples": [
-      ["식당 아주머니가 친절해요.", "The restaurant lady is kind.", "아주머니 referring to a female worker"],
-      ["아주머니, 물 좀 주세요.", "Ma'am, please give me some water.", "아주머니 as a form of address"],
-      ["저 아주머니가 우리 이웃이에요.", "That lady is our neighbor.", "아주머니 as the subject with 가"]
+      ["저 아주머니가 우리 이웃이에요.", "That lady is our neighbor.", "아주머니 + 가, describing an older woman"],
+      ["아주머니, 물 좀 주세요.", "Ma'am, could I get some water?", "everyday: 아주머니 as polite direct address"],
+      ["식당 아주머니께서 반찬을 더 주셨어요.", "The restaurant lady kindly gave us more side dishes.", "real situation: 식당 아주머니 with honorific 께서/주셨어요"]
     ],
-    "nuance": "아주머니 is the everyday word for a middle-aged woman and a polite way to address a female stranger or shop worker, like ma'am. The shortened form 아줌마 is very common in speech but sounds more casual and can feel blunt, so 아주머니 is the safer choice. Its male counterpart is 아저씨.",
+    "nuance": "아주머니 is a native word for a middle-aged woman and the polite, standard way to address a female stranger or worker — a restaurant server, a shop owner, a neighbor — roughly 'ma'am'. Its shortened form 아줌마 is extremely common in speech but distinctly more casual and can sound blunt or even slightly stereotyped (the brash-auntie image), so 아주머니 is the safer, more respectful choice with someone you don't know. The same age caution as 아저씨 applies and trips up English speakers: labelling a young woman 아주머니/아줌마 implies she looks middle-aged and may offend — for a younger-looking woman use 저기요 ('excuse me') or 선생님. Its male counterpart is 아저씨, and for an elderly woman the warm word is 할머니. It ends in a vowel, so it takes 예요 and 가 (아주머니예요, 아주머니가). In polite reference you can raise it with 께서 and honorific verbs, as in the example.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "아주머니 is a native word for a middle-aged woman and the polite, standard way to address a female stranger or worker — a restaurant server, a shop owner, a neighbor — roughly 'ma'am'. Its shortened form 아줌마 is extremely common in speech but distinctly more casual and can sound blunt or even slightly stereotyped (the brash-auntie image), so 아주머니 is the safer, more respectful choice with someone you don't know."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its male counterpart is 아저씨, and for an elderly woman the warm word is 할머니."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It ends in a vowel, so it takes 예요 and 가 (아주머니예요, 아주머니가). In polite reference you can raise it with 께서 and honorific verbs, as in the example.",
+        "chips": ["아주머니예요", "아주머니가", "아주머니께서"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The same age caution as 아저씨 applies: labelling a young woman 아주머니/아줌마 implies she looks middle-aged and may offend — for a younger-looking woman use 저기요 ('excuse me') or 선생님."
+      }
+    ],
     "mistakes": [
-      "Writing 아주머니이에요 instead of the correct 아주머니예요.",
-      "Calling a young woman 아주머니 or 아줌마; it implies she looks middle-aged and may offend."
+      "Writing 아주머니이에요 instead of 아주머니예요 — after the vowel ㅣ the copula contracts.",
+      "Calling a young woman 아주머니 or 아줌마; it implies she looks middle-aged and can offend — use 저기요 or 선생님 for someone younger.",
+      "Defaulting to 아줌마 with a stranger; the clipped form is casual and can sound rude — the polite full form is 아주머니."
     ]
   },
   {
@@ -319,20 +656,44 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["이웃", "neighbor", "a person living nearby"],
-      ["이웃이에요", "He/She is a neighbor.", "noun + 이에요 after the consonant ㅅ"],
-      ["이웃이", "the neighbor (subject)", "with subject marker 이 after a consonant"],
-      ["옆집 이웃", "next-door neighbor", "옆집 (the house next door) + 이웃"]
+      ["이웃", "neighbor", "a person living nearby; also neighbors collectively"],
+      ["이웃이에요", "He/She is a neighbor.", "noun + 이에요 after the final consonant ㅅ"],
+      ["이웃이", "the neighbor (subject)", "subject marker 이 after a consonant"],
+      ["옆집 이웃", "next-door neighbor", "옆집 (the house next door) + 이웃; cf. 이웃 사람 (a neighbor)"]
     ],
     "examples": [
-      ["우리 이웃은 아주 친절해요.", "Our neighbor is very kind.", "이웃 as the topic with 은"],
-      ["이웃이 떡을 나눠 줬어요.", "The neighbor shared rice cakes with us.", "이웃 as the subject with 이"],
-      ["저는 이웃과 사이가 좋아요.", "I get along well with my neighbors.", "이웃과 meaning with the neighbor"]
+      ["우리 이웃은 아주 친절해요.", "Our neighbor is very kind.", "이웃 + 은 as topic; can be one person or 'the neighbors'"],
+      ["이웃이 떡을 나눠 줬어요.", "A neighbor shared rice cakes with us.", "everyday: note the liaison — 이웃이 sounds like 이우시"],
+      ["저는 옆집 이웃과 사이가 좋아요.", "I get along well with my next-door neighbor.", "real situation: 이웃과 = 'with the neighbor', 사이가 좋다 idiom"]
     ],
-    "nuance": "이웃 means a neighbor, a person who lives close to you. It can refer to one person or neighbors in general, and you will see it in phrases like 이웃 사람 (neighbor) or 좋은 이웃 (a good neighbor). When you move in, greeting your 이웃 with 옆집 (the house next door) is a common cultural courtesy.",
+    "nuance": "이웃 is a native word (no hanja) for a neighbor — someone who lives close by — and it flexibly means either one specific neighbor or neighbors as a group, depending on context: 좋은 이웃 (a good neighbor), 이웃 사람 (the people next door), 이웃 나라 (a neighboring country). Two practical points for English speakers. First, pronunciation: the final ㅅ is unreleased and sounds like a ㄷ-stop when alone (이웃 ≈ '이욷'), but before a vowel-initial particle it links and softens, so 이웃이 comes out like '이우시' and 이웃을 like '이우슬' — getting this liaison right is what makes it sound natural. Second, it ends in a consonant, so it takes 이에요 and 이 (이웃이에요, 이웃이), not 예요. Culturally, the phrase 이웃사촌 ('a neighbor as close as a cousin') captures how a good 이웃 is valued, and greeting your 옆집 (next door) when you move in is a normal courtesy.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이웃 is a native word for a neighbor — someone who lives close by — and it flexibly means either one specific neighbor or neighbors as a group, depending on context: 좋은 이웃 (a good neighbor), 이웃 사람 (the people next door), 이웃 나라 (a neighboring country). Culturally, the phrase 이웃사촌 ('a neighbor as close as a cousin') captures how a good 이웃 is valued, and greeting your 옆집 (next door) when you move in is a normal courtesy."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is a native word with no hanja."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It ends in a consonant, so it takes 이에요 and 이 (이웃이에요, 이웃이), not 예요.",
+        "chips": ["이웃이에요", "이웃이", "이웃과"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Mind the pronunciation: the final ㅅ is unreleased and sounds like a ㄷ-stop when alone (이웃 ≈ '이욷'), but before a vowel-initial particle it links and softens, so 이웃이 comes out like '이우시' and 이웃을 like '이우슬' — getting this liaison right is what makes it sound natural."
+      }
+    ],
     "mistakes": [
-      "Saying 이웃예요 — after the consonant ㅅ it must be 이웃이에요.",
-      "Pronouncing the final ㅅ as a clear s; before a vowel it links, so 이웃이 sounds like 이우시."
+      "Saying 이웃예요 — after the final consonant ㅅ it must be 이웃이에요.",
+      "Pronouncing the final ㅅ as a clear English 's'; alone it is a stopped 'ㄷ' sound, and before a vowel it links — 이웃이 → '이우시'.",
+      "Forcing a plural 's'; 이웃 already serves for one neighbor or many, so 우리 이웃 can mean 'our neighbor(s)' without 들."
     ]
   }
 ]

@@ -7,20 +7,27 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["많이 먹어요", "I eat a lot", "Goes right before the verb; the most basic way to say 'a lot'"],
-      ["많이 주세요", "Please give me a lot", "Handy when ordering food or asking for more"],
-      ["많이 바빠요", "I'm very busy", "With adjectives 많이 can mean 'very', like 'a lot busy'"],
-      ["너무 많이", "too much", "너무 많이 마셨어요 = I drank too much"]
+      ["많이 먹어요", "I eat a lot", "Sits directly before the verb; the default way to mark a large amount"],
+      ["많이 주세요", "Please give me a lot", "Handy when ordering food or asking a server for more"],
+      ["많이 바빠요", "I'm very busy", "Before an adjective 많이 shifts from 'a lot' to a degree word, 'very'"],
+      ["너무 많이", "too much", "너무 많이 마셨어요 = I drank too much; 너무 adds the 'over the line' feeling"]
     ],
     "examples": [
-      ["오늘 비가 많이 와요.", "It's raining a lot today.", "비가 오다 = it rains; 많이 shows the amount"],
-      ["한국 음식을 많이 좋아해요.", "I like Korean food a lot.", "Put 많이 before 좋아해요 to say 'like a lot'"],
-      ["많이 드세요.", "Please eat a lot / Enjoy your meal.", "A warm, common thing hosts say at the table"]
+      ["오늘 비가 많이 와요.", "It's raining a lot today.", "비가 오다 is the set verb for 'it rains'; 많이 measures the quantity"],
+      ["한국 음식을 많이 좋아해요.", "I really like Korean food.", "With 좋아하다, 많이 means the feeling is strong, like 'a lot'"],
+      ["많이 드세요.", "Please help yourself / enjoy your meal.", "드세요 is the honorific of 먹다; this is what a host warmly says at the table"]
     ],
-    "nuance": "많이 is the everyday word for 'a lot/much' and sits right in front of the verb it describes, such as 많이 먹어요 or 많이 자요. With feelings or states it can also mean 'very', so 많이 아파요 means 'it hurts a lot'. It is one of the first adverbs a beginner should learn because it works for both amount and degree.",
+    "nuance": "많이 is the adverb form of the adjective 많다 ('to be many/much') and is the everyday word for 'a lot/much', sitting right in front of the verb it modifies (많이 먹어요, 많이 자요). Its near-synonym is 너무: 많이 just states a large amount neutrally, while 너무 carries an 'excessive, over the line' feeling, so 많이 매워요 is 'quite spicy' but 너무 매워요 is 'too spicy (uncomfortably)'. With feeling-verbs and adjectives 많이 stretches to mean 'very/badly', as in 많이 아파요 ('it hurts a lot'). The classic English-speaker pitfall is reaching for the adjective 많다 directly before a verb — you must use the adverb 많이 (많이 먹어요, never 많다 먹어요) — and remembering that, like all Korean adverbs, it comes before the verb, not after it.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "많이 is the everyday word for 'a lot/much', sitting right in front of the verb it modifies (많이 먹어요, 많이 자요). With feeling-verbs and adjectives it stretches to mean 'very/badly', as in 많이 아파요 ('it hurts a lot')."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its near-synonym is 너무: 많이 just states a large amount neutrally, while 너무 carries an 'excessive, over the line' feeling. So 많이 매워요 is 'quite spicy' but 너무 매워요 is 'too spicy (uncomfortably)'."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "많이 is the adverb form of the adjective 많다 ('to be many/much')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic English-speaker pitfall is reaching for the adjective 많다 directly before a verb — you must use the adverb 많이 (많이 먹어요, never 많다 먹어요). And remember that, like all Korean adverbs, it comes before the verb, not after it."}
+    ],
     "mistakes": [
-      "Using the adjective 많다 where you need the adverb 많이; before a verb you say 많이 먹어요, not 많다 먹어요.",
-      "Putting 많이 after the verb; in Korean the adverb comes before the verb, so 먹어요 많이 sounds wrong."
+      "Using the adjective 많다 where the verb needs the adverb: before a verb it is 많이 먹어요, not 많다 먹어요. 많다 can only sit at the end as a predicate (책이 많아요).",
+      "Putting 많이 after the verb on the English word order: 먹어요 많이 sounds broken; Korean adverbs go before the verb (많이 먹어요).",
+      "Treating 많이 and 너무 as interchangeable: 너무 implies 'too much/excessive', so 너무 좋아요 ('I like it so much') and 많이 좋아요 carry slightly different feelings."
     ]
   },
   {
@@ -31,20 +38,26 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["조금 주세요", "Please give me a little", "The opposite of 많이; asks for a small amount"],
-      ["조금 매워요", "It's a little spicy", "With adjectives it softens the degree to 'a bit'"],
-      ["조금만", "just a little", "조금만 기다려 주세요 = please wait just a moment"],
-      ["조금 전", "a little while ago", "Means 'a moment ago', a fixed time phrase"]
+      ["조금 주세요", "Please give me a little", "The exact opposite of 많이; requests a small amount"],
+      ["조금 매워요", "It's a little spicy", "Before an adjective it softens the degree to 'a bit'"],
+      ["조금만", "just a little", "조금만 기다려 주세요 = please wait just a moment; 만 ('only') caps it small"],
+      ["조금 전", "a little while ago", "A fixed time phrase meaning 'a moment ago'"]
     ],
     "examples": [
-      ["한국어를 조금 해요.", "I speak a little Korean.", "Perfect modest answer for a beginner"],
-      ["물을 조금 마셨어요.", "I drank a little water.", "조금 before the verb shows a small amount"],
-      ["오늘은 조금 피곤해요.", "I'm a little tired today.", "조금 softens 피곤해요 to 'a bit tired'"]
+      ["한국어를 조금 해요.", "I speak a little Korean.", "The perfect modest answer for a beginner; 조금 lowers the claim"],
+      ["물을 조금 마셨어요.", "I drank a little water.", "조금 before the verb marks a small quantity of the object"],
+      ["오늘은 조금 피곤해요.", "I'm a little tired today.", "조금 softens 피곤하다 so you don't overstate it"]
     ],
-    "nuance": "조금 means 'a little / a bit' and is the natural partner to 많이 for small amounts or mild degrees. In fast speech it very often shrinks to 좀, so 조금만요 and 좀만요 are the same idea. It is gentle and polite, which makes it useful for softening requests and modest answers like 조금 해요.",
+    "nuance": "조금 means 'a little / a bit / a few' and is the natural counterweight to 많이 for small amounts or mild degrees. Its closest relative is its own contracted form 좀: 조금 is the full, slightly more careful version you can write and say, while 좀 is the quick spoken reduction (조금만요 ↔ 좀만요 are the same idea). Compared with the noun-ish 약간 ('slightly', a touch more formal/written), 조금 is the warm conversational choice. It naturally collocates with quantities and gentle states — 조금 더 ('a little more'), 조금 있다가 ('in a little while') — and its softness makes it ideal for modest answers and polite requests. The English-speaker pitfall is hearing 좀 in speech and not realizing it is just 조금 reduced, and over-stacking it with big-amount words: 조금 많이 is self-contradictory because 조금 only ever points to a small degree.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "조금 means 'a little / a bit / a few' and is the natural counterweight to 많이 for small amounts or mild degrees. It naturally collocates with quantities and gentle states — 조금 더 ('a little more'), 조금 있다가 ('in a little while') — and its softness makes it ideal for modest answers and polite requests."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its closest relative is its own contracted form 좀: 조금 is the full, slightly more careful version you can write and say, while 좀 is the quick spoken reduction (조금만요 ↔ 좀만요 are the same idea). Compared with the noun-ish 약간 ('slightly', a touch more formal/written), 조금 is the warm conversational choice."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is hearing 좀 in speech and not realizing it is just 조금 reduced, and over-stacking it with big-amount words: 조금 많이 is self-contradictory because 조금 only ever points to a small degree."}
+    ],
     "mistakes": [
-      "Forgetting that 조금 usually becomes 좀 in casual speech; both are correct, but 좀 sounds more conversational.",
-      "Using 조금 for large amounts; it only ever means a small degree, so 조금 많이 is contradictory."
+      "Not recognizing that 조금 usually contracts to 좀 in casual speech; both are correct, but learners who only study 조금 get lost when they hear 좀.",
+      "Pairing 조금 with large amounts: 조금 많이 contradicts itself; 조금 is strictly a small degree, so use 많이 or 너무 for big quantities.",
+      "Confusing 조금 with 잠깐/잠시 for time: 조금만 means a small amount, while 잠깐만 specifically means 'for a short moment' of time."
     ]
   },
   {
@@ -55,20 +68,26 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["좀 비싸요", "It's a bit pricey", "The short, spoken form of 조금"],
-      ["좀 도와주세요", "Please help me a little", "좀 also softens requests, like a gentle 'please'"],
-      ["이거 좀 주세요", "Could I have this, please", "Very common when ordering or asking for things"],
-      ["잠깐만요 / 좀만요", "just a sec", "좀만 = 조금만, a tiny wait"]
+      ["좀 비싸요", "It's a bit pricey", "The short, spoken reduction of 조금"],
+      ["좀 도와주세요", "Please help me a little", "Here 좀 is a softener, not really an amount, like a gentle 'please'"],
+      ["이거 좀 주세요", "Could I have this, please", "Extremely common when ordering or asking for things at a shop"],
+      ["저기요, 잠깐만요", "Excuse me, just a sec", "잠깐만요 buys a moment of time; pairs naturally with 좀 in requests"]
     ],
     "examples": [
-      ["여기 좀 추워요.", "It's a bit cold in here.", "좀 makes the comment sound soft and casual"],
-      ["물 좀 주세요.", "Some water, please.", "Adding 좀 makes a request more polite and natural"],
-      ["오늘은 좀 바빠요.", "I'm a little busy today.", "좀 softens the refusal so it sounds friendly"]
+      ["여기 좀 추워요.", "It's a bit cold in here.", "좀 makes the comment sound soft and offhand rather than a complaint"],
+      ["물 좀 주세요.", "Some water, please.", "Slipping in 좀 makes the request friendlier and more natural than 물 주세요"],
+      ["오늘은 좀 바빠요.", "I'm a little busy today.", "좀 cushions a refusal so it lands gently"]
     ],
-    "nuance": "좀 is the shortened, spoken version of 조금 and is everywhere in daily conversation. Besides meaning 'a little', it works as a softener that makes requests gentler and more polite, much like adding 'please' in English. So 물 주세요 is fine, but 물 좀 주세요 sounds warmer and more natural.",
+    "nuance": "좀 is the contracted, spoken form of 조금 and is everywhere in daily conversation. Its key second life — the part that trips up English speakers — is as a request softener: in 물 좀 주세요 or 좀 도와주세요, 좀 is not measuring a 'little' amount at all but functioning like 'please/if you would', taking the bluntness off a command. So 물 주세요 is grammatically fine but can feel abrupt, whereas 물 좀 주세요 sounds warm and natural. Compared with the full 조금, 좀 is purely conversational and a touch more casual; in formal writing or stiff announcements you revert to 조금 or a fuller polite request form. Collocates constantly with request verbs (좀 주세요, 좀 해 주세요, 좀 보여 주세요) and with mild complaints (좀 춥다, 좀 그렇다). The pitfall is over-literal reading: don't try to translate the 'softener' 좀 as 'a little', and don't drop it from requests — Koreans add it precisely to sound polite.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "좀 is the contracted, spoken form of 조금 and is everywhere in daily conversation. Its key second life is as a request softener: in 물 좀 주세요 or 좀 도와주세요, 좀 is not measuring a 'little' amount at all but functioning like 'please/if you would', taking the bluntness off a command. So 물 주세요 is grammatically fine but can feel abrupt, whereas 물 좀 주세요 sounds warm and natural. Collocates constantly with request verbs (좀 주세요, 좀 해 주세요, 좀 보여 주세요) and with mild complaints (좀 춥다, 좀 그렇다)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Compared with the full 조금, 좀 is purely conversational and a touch more casual; in formal writing or stiff announcements you revert to 조금 or a fuller polite request form."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The part that trips up English speakers is over-literal reading: don't try to translate the 'softener' 좀 as 'a little', and don't drop it from requests — Koreans add it precisely to sound polite."}
+    ],
     "mistakes": [
-      "Thinking 좀 only means 'a little'; in requests it mainly works as a politeness softener, not an amount.",
-      "Using 좀 in very formal writing, where the full 조금 or a polite request form fits better."
+      "Thinking 좀 always means 'a little': in 좀 도와주세요 it works as a politeness softener ('please'), not a quantity. Translating it as 'help me a little' misses the tone.",
+      "Dropping 좀 from requests to be 'cleaner': bare commands like 물 주세요 can sound blunt; native speakers add 좀 (물 좀 주세요) to soften them.",
+      "Using 좀 in formal writing or speeches, where it reads as too casual; switch to 조금 or a full polite form there."
     ]
   },
   {
@@ -79,20 +98,26 @@
     "chapterIds": ["chapter-04"],
     "grammarIds": [],
     "usage": [
-      ["다 먹었어요", "I ate it all", "Right before the verb; means the action is complete"],
-      ["다 좋아요", "Everything is good / I like it all", "Means 'all of it' is fine"],
-      ["다 했어요", "I did it all / I'm done", "Very common to report finishing a task"],
-      ["거의 다", "almost all", "거의 다 왔어요 = we're almost there"]
+      ["다 먹었어요", "I ate it all", "Right before the verb; signals the action is complete or the whole thing covered"],
+      ["다 좋아요", "Everything is fine / I'm good with all of it", "Means 'all of it' is acceptable"],
+      ["다 했어요", "I did it all / I'm done", "The natural way to report finishing a task"],
+      ["거의 다", "almost all", "거의 다 왔어요 = we're almost there; 거의 ('nearly') tempers 다"]
     ],
     "examples": [
-      ["숙제를 다 했어요.", "I finished all my homework.", "다 + 했어요 means the whole thing is done"],
-      ["밥을 다 먹었어요.", "I ate all my food.", "Common at the table when your plate is empty"],
-      ["친구들이 다 왔어요.", "All my friends came.", "Here 다 means 'all of them'"]
+      ["숙제를 다 했어요.", "I finished all my homework.", "다 + 했어요 says the whole thing is complete"],
+      ["밥을 다 먹었어요.", "I ate all my food.", "What you say when your plate is empty"],
+      ["친구들이 다 왔어요.", "All my friends came.", "Here 다 covers 'all of them', the people, not completion"]
     ],
-    "nuance": "다 is a small but powerful word meaning 'all / everything / completely', placed right before the verb. It can describe finishing an action fully (다 했어요 = all done) or covering everyone or everything (다 왔어요 = everyone came). Because it is short and extremely frequent, beginners hear it constantly in everyday speech.",
+    "nuance": "다 is a small but powerful native word meaning 'all / everything / completely', placed directly before the verb. It carries two senses that context separates: completion of an action (다 했어요 = 'all done', the task is finished) and total coverage of a group (다 왔어요 = 'everyone came'). Its near-synonym is the fuller 모두; 다 is the short, ultra-frequent spoken default, while 모두 is a touch more deliberate and can also stand alone as a noun ('everyone'). A subtle bonus sense is 'about to be used up/finished' — 시간 다 됐어요 ('time's up'). The classic English-speaker pitfalls are mixing the look-alike one-syllable adverbs (다 'all' vs 또 'again' vs 더 'more'), and English word order: 다 must precede the verb (다 먹었어요), never follow it.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "다 is a small but powerful native word meaning 'all / everything / completely', placed directly before the verb. It carries two senses that context separates: completion of an action (다 했어요 = 'all done', the task is finished) and total coverage of a group (다 왔어요 = 'everyone came'). A subtle bonus sense is 'about to be used up/finished' — 시간 다 됐어요 ('time's up')."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its near-synonym is the fuller 모두; 다 is the short, ultra-frequent spoken default, while 모두 is a touch more deliberate and can also stand alone as a noun ('everyone')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic English-speaker pitfalls are mixing the look-alike one-syllable adverbs (다 'all' vs 또 'again' vs 더 'more'), and English word order: 다 must precede the verb (다 먹었어요), never follow it."}
+    ],
     "mistakes": [
-      "Confusing the adverb 다 (all) with 또 (again); they look short but mean different things.",
-      "Forgetting 다 goes before the verb; you say 다 먹었어요, not 먹었어요 다."
+      "Confusing the short adverbs by shape: 다 (all), 또 (again), and 더 (more) are all one syllable but mean different things — 다 먹었어요 ('ate it all') vs 또 먹었어요 ('ate again').",
+      "Placing 다 after the verb: it goes before, so 다 먹었어요, not 먹었어요 다.",
+      "Reading every 다 as 'completely' when it often means 'all of them (people/things)': 친구들이 다 왔어요 is about everyone, not about thoroughness."
     ]
   },
   {
@@ -103,20 +128,26 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["모두 모였어요", "Everyone gathered", "A slightly fuller, clearer 'all/everyone' than 다"],
-      ["모두 합쳐서", "all together (in total)", "모두 합쳐서 얼마예요? = how much for everything?"],
-      ["여러분 모두", "all of you", "여러분 모두 환영해요 = welcome, everyone"],
-      ["모두 다", "every single one", "모두 다 means 'all of them' with extra emphasis"]
+      ["모두 모였어요", "Everyone gathered", "A clearer, fuller 'all/everyone' than the terse 다"],
+      ["모두 합쳐서", "all together (in total)", "모두 합쳐서 얼마예요? = how much for everything together?"],
+      ["여러분 모두", "all of you", "여러분 모두 환영해요 = welcome, everyone; 모두 trails the noun as 'all'"],
+      ["모두 다", "every single one", "Stacking 모두 + 다 adds emphasis: 'all of it, the whole lot'"]
     ],
     "examples": [
-      ["우리 가족은 모두 네 명이에요.", "My family is four people in all.", "모두 sums up a total number"],
-      ["여러분, 모두 안녕하세요!", "Hello, everyone!", "A friendly greeting to a group"],
-      ["친구들이 모두 한국 사람이에요.", "All my friends are Korean.", "모두 means 'all of them' here"]
+      ["우리 가족은 모두 네 명이에요.", "There are four of us in my family.", "모두 sums up a total head count, 'in all'"],
+      ["여러분, 모두 안녕하세요!", "Hello, everyone!", "모두 as a noun addressing the whole group"],
+      ["친구들이 모두 한국 사람이에요.", "All my friends are Korean.", "모두 here covers 'all of them' as an adverb"]
     ],
-    "nuance": "모두 means 'all / everyone / in total' and feels a touch fuller and clearer than the very short 다. It can be a noun ('everyone': 모두 환영해요) or an adverb ('all': 모두 모였어요), so it is flexible. Use it when you want to address or count a whole group, like 가족이 모두 네 명 or 여러분 모두.",
+    "nuance": "모두 means 'all / everyone / in total' and feels a notch fuller, clearer, and slightly more formal than the very short native 다. Its distinctive trait — and the reason to learn it alongside 다 — is its flexibility of part of speech: it can be a noun ('everyone': 모두 환영해요, 모두의 꿈 'everyone's dream') or an adverb ('all': 모두 모였어요), whereas 다 leans adverbial. Near-synonyms split by feel: 다 is the quick everyday choice, 모두 is the cleaner one for counting or addressing a whole group, and 전부 ('the entirety/the whole') stresses 'every last bit' and pairs well with things and totals. It collocates with gatherings, totals, and greetings (모두 모이다, 모두 합쳐서, 여러분 모두). The English-speaker pitfall is assuming 모두 is only an adverb and only for people; it also stands as a noun and freely covers things and sums (모두 합쳐서).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "모두 means 'all / everyone / in total' and feels a notch fuller, clearer, and slightly more formal than the very short native 다. Its distinctive trait is its flexibility of part of speech: it can be a noun ('everyone': 모두 환영해요, 모두의 꿈 'everyone's dream') or an adverb ('all': 모두 모였어요), whereas 다 leans adverbial. It collocates with gatherings, totals, and greetings (모두 모이다, 모두 합쳐서, 여러분 모두)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Near-synonyms split by feel: 다 is the quick everyday choice, 모두 is the cleaner one for counting or addressing a whole group, and 전부 ('the entirety/the whole') stresses 'every last bit' and pairs well with things and totals."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is assuming 모두 is only an adverb and only for people; it also stands as a noun and freely covers things and sums (모두 합쳐서)."}
+    ],
     "mistakes": [
-      "Assuming 모두 only works as an adverb; it can also stand as a noun meaning 'everyone'.",
-      "Using 모두 only for people; it also works for things and totals, like 모두 합쳐서 (all together)."
+      "Assuming 모두 is only an adverb: it can stand as a noun meaning 'everyone' (모두 안녕하세요, 모두의 의견 'everyone's opinion').",
+      "Restricting 모두 to people: it equally covers things and totals, as in 모두 합쳐서 ('all together in total') or 짐을 모두 챙겼어요 ('I packed all the bags').",
+      "Treating 모두 and 다 as identical in register: 다 is the casual spoken default, while 모두 sounds a touch fuller and fits writing or addressing a crowd."
     ]
   },
   {
@@ -127,20 +158,26 @@
     "chapterIds": ["chapter-05"],
     "grammarIds": [],
     "usage": [
-      ["함께 가요", "Let's go together", "A clear, slightly polite way to say 'together'"],
-      ["함께 먹어요", "Let's eat together", "Common invitation for a meal"],
-      ["N와/과 함께", "together with N", "친구와 함께 = together with a friend"],
-      ["다 함께", "all together", "다 함께 노래해요 = let's all sing together"]
+      ["함께 가요", "Let's go together", "A clear, slightly polished way to say 'together'"],
+      ["함께 먹어요", "Let's eat together", "A common, warm invitation to share a meal"],
+      ["N와/과 함께", "together with N", "친구와 함께 = together with a friend; needs the 와/과 particle"],
+      ["다 함께", "all together", "다 함께 노래해요 = let's all sing together; 다 + 함께 = everyone, together"]
     ],
     "examples": [
       ["주말에 함께 영화 봐요.", "Let's watch a movie together this weekend.", "함께 before the verb means 'do it together'"],
-      ["가족과 함께 저녁을 먹었어요.", "I had dinner together with my family.", "N과 함께 = together with N"],
-      ["우리 함께 공부해요.", "Let's study together.", "A friendly suggestion to a classmate"]
+      ["가족과 함께 저녁을 먹었어요.", "I had dinner with my family.", "The pattern is N과 함께 = 'together with N'"],
+      ["우리 함께 공부해요.", "Let's study together.", "A friendly suggestion to a classmate; 함께 sounds inclusive and warm"]
     ],
-    "nuance": "함께 means 'together' and is a slightly warmer, more polished partner to the casual 같이. It often pairs with 와/과 to say 'together with someone', as in 친구와 함께. Both 함께 and 같이 are common, but 함께 sounds a touch softer and shows up often in invitations and announcements.",
+    "nuance": "함께 means 'together / along with' and is the slightly warmer, more polished sibling of the everyday 같이. The two overlap almost completely in meaning, but they differ in feel and grammar habits: 같이 is the casual spoken default and also doubles as 'like/as' with 처럼-style nouns (눈같이 'like snow'), whereas 함께 is purely 'together', sounds a touch softer and more heartfelt, and shows up in invitations, slogans, and announcements (함께 가요, 함께 만들어요 'let's build it together'). Both commonly take the particle 와/과 (or casual 하고/랑) to name the companion: 친구와 함께, 가족과 함께. The English-speaker pitfall is dropping that particle — 'with my friend' must be 친구와 함께, not 친구 함께 — and assuming 함께 and 같이 are sharply different when they are really register twins, with 함께 just sounding a shade more polished.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "함께 means 'together / along with' and is the slightly warmer, more polished sibling of the everyday 같이. It shows up in invitations, slogans, and announcements (함께 가요, 함께 만들어요 'let's build it together'). It commonly takes the particle 와/과 (or casual 하고/랑) to name the companion: 친구와 함께, 가족과 함께."},
+      {"k": "비슷한 말", "e": "VS", "t": "함께 and 같이 overlap almost completely in meaning, but they differ in feel and grammar habits: 같이 is the casual spoken default and also doubles as 'like/as' with 처럼-style nouns (눈같이 'like snow'), whereas 함께 is purely 'together' and sounds a touch softer and more heartfelt. They are really register twins, with 함께 just sounding a shade more polished."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is dropping the particle — 'with my friend' must be 친구와 함께, not 친구 함께 — and assuming 함께 and 같이 are sharply different when they are really register twins."}
+    ],
     "mistakes": [
-      "Thinking 함께 and 같이 are totally different; they overlap closely, with 함께 just sounding a bit softer.",
-      "Forgetting the particle 와/과 before 함께 when naming the person, as in 친구와 함께."
+      "Treating 함께 and 같이 as sharply different words: they overlap closely; 함께 just sounds a bit softer and more polished, 같이 a bit more casual.",
+      "Omitting the particle 와/과 before 함께 when naming the companion: it is 친구와 함께, not 친구 함께.",
+      "Forgetting 같이 has an extra 'like/as' meaning that 함께 lacks: 별같이 빛나다 ('shine like a star') cannot use 함께."
     ]
   },
   {
@@ -151,20 +188,26 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["그냥 집에 있어요", "I'm just staying home", "Means 'simply' doing something, nothing special"],
-      ["그냥 좀 그래요", "I just feel kind of off", "A vague, soft way to dodge a full explanation"],
-      ["그냥 주세요", "Just give it as is", "Means 'plain / without changes'"],
-      ["왜? 그냥", "Why? No reason", "그냥 alone answers 'just because'"]
+      ["그냥 집에 있어요", "I'm just staying home", "Means 'simply' doing something, nothing special going on"],
+      ["그냥 좀 그래요", "I just feel kind of off", "A vague, soft way to avoid a full explanation"],
+      ["그냥 주세요", "Just give it as is", "Here it means 'plain / without changes / as-is'"],
+      ["왜? 그냥", "Why? No reason", "그냥 standing alone answers 'just because'"]
     ],
     "examples": [
-      ["오늘은 그냥 쉬고 싶어요.", "I just want to rest today.", "그냥 softens it to 'simply rest'"],
-      ["그냥 물어봤어요.", "I just asked (no special reason).", "Very common casual phrase"],
-      ["커피는 그냥 아메리카노 주세요.", "For coffee, just an americano, please.", "그냥 = 'just the plain one'"]
+      ["오늘은 그냥 쉬고 싶어요.", "I just want to rest today.", "그냥 softens it to 'simply rest, nothing planned'"],
+      ["그냥 물어봤어요.", "I just asked, no special reason.", "A very common casual cushion for a question"],
+      ["커피는 그냥 아메리카노 주세요.", "For coffee, just a plain americano, please.", "그냥 = 'just the basic/default one'"]
     ],
-    "nuance": "그냥 means 'just / simply / for no particular reason' and is one of the most useful filler-style words in casual Korean. It can soften a statement (그냥 좀 그래요), mean 'plain/as-is' (그냥 주세요), or answer 'why?' with a light 'no reason' (그냥). Beginners hear it constantly, so recognizing it makes everyday speech much easier to follow.",
+    "nuance": "그냥 means 'just / simply / for no particular reason' and is one of the most useful filler-style words in casual Korean, prized because it lets you decline to over-explain. Its sense flexes with context: 'simply, with no agenda' (그냥 집에 있어요), 'plain / as it is, unchanged' (그냥 주세요, 그냥 아메리카노), and the stand-alone 'no reason' reply (왜? 그냥). Its near-neighbor 그저 ('merely, simply') is more literary and emphatic, while 막 ('just, randomly/recklessly') is rougher and busier — so 그냥 is the gentle, neutral middle. It collocates with low-key states and soft hedges (그냥 좀 그래요, 그냥 그래요 'it's so-so', 그냥 한번 'just once for the heck of it'). The English-speaker pitfall is hunting for one fixed translation — 'just' won't always fit — and over-using it in formal or business contexts, where its vagueness can read as evasive or unpolished.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "그냥 means 'just / simply / for no particular reason' and is one of the most useful filler-style words in casual Korean, prized because it lets you decline to over-explain. Its sense flexes with context: 'simply, with no agenda' (그냥 집에 있어요), 'plain / as it is, unchanged' (그냥 주세요, 그냥 아메리카노), and the stand-alone 'no reason' reply (왜? 그냥). It collocates with low-key states and soft hedges (그냥 좀 그래요, 그냥 그래요 'it's so-so', 그냥 한번 'just once for the heck of it')."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its near-neighbor 그저 ('merely, simply') is more literary and emphatic, while 막 ('just, randomly/recklessly') is rougher and busier — so 그냥 is the gentle, neutral middle."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is hunting for one fixed translation — 'just' won't always fit — and over-using it in formal or business contexts, where its vagueness can read as evasive or unpolished."}
+    ],
     "mistakes": [
-      "Treating 그냥 as having one fixed translation; its meaning shifts with context between 'just', 'plain', and 'no reason'.",
-      "Overusing it in formal settings; 그냥 is casual and can sound too vague in business writing."
+      "Pinning 그냥 to one English word: it slides between 'just', 'plain/as-is', and 'no reason' depending on context — 그냥 주세요 ('as is') vs 그냥 물어봤어요 ('no special reason').",
+      "Over-using 그냥 in formal or business settings: it is casual and its vagueness can sound evasive; a fuller explanation fits there.",
+      "Confusing 그냥 with 그래서 ('so/therefore') because both start with 그: they are unrelated — 그냥 means 'just', 그래서 links cause and result."
     ]
   },
   {
@@ -175,20 +218,26 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["꼭 갈게요", "I'll definitely go", "Adds a strong promise to the verb"],
-      ["꼭 오세요", "Please be sure to come", "A warm, firm invitation"],
-      ["꼭 필요해요", "It's absolutely necessary", "Stresses that something is essential"],
-      ["꼭 기억하세요", "Be sure to remember", "Common in reminders and instructions"]
+      ["꼭 갈게요", "I'll definitely go", "Adds a firm, sincere promise to the verb"],
+      ["꼭 오세요", "Please be sure to come", "A warm but insistent invitation"],
+      ["꼭 필요해요", "It's absolutely necessary", "Stresses that something is genuinely essential"],
+      ["꼭 기억하세요", "Be sure to remember", "Standard in reminders and instructions"]
     ],
     "examples": [
-      ["내일 꼭 전화할게요.", "I'll be sure to call tomorrow.", "꼭 makes the promise sound firm"],
-      ["약을 꼭 드세요.", "Make sure to take your medicine.", "Caring reminder; 꼭 = without fail"],
-      ["다음에 꼭 같이 가요.", "Let's definitely go together next time.", "Friendly, sincere suggestion"]
+      ["내일 꼭 전화할게요.", "I'll be sure to call tomorrow.", "꼭 makes the promise sound committed, not casual"],
+      ["약을 꼭 드세요.", "Make sure to take your medicine.", "A caring reminder; 꼭 = without fail"],
+      ["다음에 꼭 같이 가요.", "Let's definitely go together next time.", "Sincere, friendly suggestion"]
     ],
-    "nuance": "꼭 means 'definitely / without fail' and adds strong intention or a firm request to a sentence. With promises it sounds sincere (꼭 갈게요), and with requests it makes them warm but firm (꼭 오세요). It can also mean 'exactly/just like', as in 꼭 엄마 같아요, though the 'for sure' meaning is what beginners use most.",
+    "nuance": "꼭 means 'definitely / for sure / without fail' and injects strong intention or a firm request into a sentence: with promises it sounds sincere and committed (꼭 갈게요), and with requests it makes them warm but insistent (꼭 오세요). Its near-synonym 반드시 carries the same 'without fail' core but is more formal, rule-like, and written (regulations and warnings favor 반드시 …해야 한다), whereas 꼭 is the warmer, more personal everyday choice; 절대 is its negative-side cousin ('absolutely not', 절대 안 돼요). 꼭 also has a secondary 'exactly/just like' sense (꼭 엄마 같아요 'just like Mom'), though learners use the 'for sure' meaning most. The English-speaker pitfall is the look-alike/sound-alike 곧 ('soon'): 꼭 갈게요 ('I'll definitely go') is a promise of certainty, while 곧 갈게요 ('I'll go soon') is about timing — keep the tense 꼭 distinct from the timing 곧.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "꼭 means 'definitely / for sure / without fail' and injects strong intention or a firm request into a sentence: with promises it sounds sincere and committed (꼭 갈게요), and with requests it makes them warm but insistent (꼭 오세요). 꼭 also has a secondary 'exactly/just like' sense (꼭 엄마 같아요 'just like Mom'), though learners use the 'for sure' meaning most."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its near-synonym 반드시 carries the same 'without fail' core but is more formal, rule-like, and written (regulations and warnings favor 반드시 …해야 한다), whereas 꼭 is the warmer, more personal everyday choice; 절대 is its negative-side cousin ('absolutely not', 절대 안 돼요)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is the look-alike/sound-alike 곧 ('soon'): 꼭 갈게요 ('I'll definitely go') is a promise of certainty, while 곧 갈게요 ('I'll go soon') is about timing — keep the tense 꼭 distinct from the timing 곧."}
+    ],
     "mistakes": [
-      "Confusing 꼭 (for sure) with 곧 (soon); they look and sound similar but mean different things.",
-      "Using 꼭 for casual maybes; it implies real certainty or a firm wish, not 'perhaps'."
+      "Confusing 꼭 (for sure) with 곧 (soon): they look and sound close but differ — 꼭 갈게요 is certainty, 곧 갈게요 is timing.",
+      "Using 꼭 for casual maybes: it asserts real certainty or a firm wish, so it clashes with '아마' ('probably') — say 아마 갈 거예요 for a tentative plan.",
+      "Reaching for 꼭 in stiff regulations: rules and official warnings prefer the formal 반드시 (반드시 착용해야 합니다), while 꼭 stays personal and warm."
     ]
   },
   {
@@ -199,20 +248,26 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["바로 가요", "I'll go right away", "Means immediately, with no delay"],
-      ["바로 여기예요", "It's right here", "Points to an exact spot"],
-      ["바로 앞", "right in front", "바로 앞에 있어요 = it's right in front"],
-      ["바로 그거예요", "That's exactly it", "Confirms 'yes, precisely that'"]
+      ["바로 가요", "I'll go right away", "The time sense: immediately, with no delay"],
+      ["바로 여기예요", "It's right here", "The location sense: points to an exact spot"],
+      ["바로 앞", "right in front", "바로 앞에 있어요 = it's right in front; 바로 pins the position"],
+      ["바로 그거예요", "That's exactly it", "Confirms 'yes, precisely that one'"]
     ],
     "examples": [
-      ["지금 바로 갈게요.", "I'll go right now.", "지금 바로 = right this moment"],
-      ["학교가 집 바로 옆에 있어요.", "The school is right next to my house.", "바로 옆 = right beside"],
-      ["바로 출발해요.", "Let's leave right away.", "바로 before the verb means immediately"]
+      ["지금 바로 갈게요.", "I'll go right now.", "지금 바로 = right this very moment, no waiting"],
+      ["학교가 집 바로 옆에 있어요.", "The school is right next to my house.", "바로 옆 = directly beside"],
+      ["바로 출발해요.", "Let's leave right away.", "바로 before the verb signals immediacy"]
     ],
-    "nuance": "바로 has two everyday meanings: 'right away / immediately' with actions (바로 가요), and 'exactly / right (there)' with places and identifications (바로 여기, 바로 그거예요). For location it stresses something is directly next to or in front of a point, like 바로 옆 or 바로 앞. Context makes clear which meaning is intended, and both are very common for beginners.",
+    "nuance": "바로 carries two everyday senses split by context: 'right away / immediately' with actions (바로 가요, 바로 출발해요) and 'exactly / right (there)' with places and identifications (바로 여기, 바로 앞, 바로 그거예요). For the time sense, its near-synonym 곧 means 'soon / shortly' — a small gap remains — while 바로 means truly 'this instant, with zero delay', so 바로 가요 is more immediate than 곧 가요. For the location/identification sense, 바로 tightens 'next to/in front of' into 'directly, precisely' and has no single English twin; it behaves like 'right' in 'right next to'. It collocates tightly with position words (바로 옆/앞/뒤/위) and with emphatic confirmations (바로 그거, 바로 너 'you, exactly'). The English-speaker pitfall is assuming 바로 only means 'immediately' and missing its 'exactly/right-there' use, plus stranding it from the word it marks — keep 바로 hugging the verb or noun (바로 앞, not 앞 바로).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "바로 carries two everyday senses split by context: 'right away / immediately' with actions (바로 가요, 바로 출발해요) and 'exactly / right (there)' with places and identifications (바로 여기, 바로 앞, 바로 그거예요). For the location/identification sense, 바로 tightens 'next to/in front of' into 'directly, precisely' and has no single English twin; it behaves like 'right' in 'right next to'. It collocates tightly with position words (바로 옆/앞/뒤/위) and with emphatic confirmations (바로 그거, 바로 너 'you, exactly')."},
+      {"k": "비슷한 말", "e": "VS", "t": "For the time sense, its near-synonym 곧 means 'soon / shortly' — a small gap remains — while 바로 means truly 'this instant, with zero delay', so 바로 가요 is more immediate than 곧 가요."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is assuming 바로 only means 'immediately' and missing its 'exactly/right-there' use, plus stranding it from the word it marks — keep 바로 hugging the verb or noun (바로 앞, not 앞 바로)."}
+    ],
     "mistakes": [
-      "Assuming 바로 only means 'immediately'; it also means 'exactly/right' for places and things.",
-      "Placing 바로 far from the word it modifies; keep it right before the verb or noun, as in 바로 앞."
+      "Assuming 바로 only means 'immediately': it equally means 'exactly/right (there)' for places and things, as in 바로 여기 and 바로 그거예요.",
+      "Separating 바로 from the word it modifies: it must hug the verb or noun — 바로 앞, not 앞 바로; 바로 가요, not 가요 바로.",
+      "Swapping 바로 and 곧 for the time sense: 바로 가요 ('go this instant') is more immediate than 곧 가요 ('go soon'), which leaves a short gap."
     ]
   },
   {
@@ -223,20 +278,28 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": [],
     "usage": [
-      ["빨리 가요", "Let's go quickly", "The basic word for doing something fast"],
-      ["빨리빨리", "hurry hurry", "Repeated for emphasis; a famous Korean phrase"],
-      ["빨리 오세요", "Please come quickly", "Urging someone to hurry, politely"],
-      ["더 빨리", "faster", "더 빨리 해 주세요 = please do it faster"]
+      ["빨리 가요", "Let's go quickly", "The default word for doing an action fast"],
+      ["빨리빨리", "hurry hurry", "Doubled for emphasis; a famous shorthand for the Korean pace of life"],
+      ["빨리 오세요", "Please come quickly", "Politely urging someone to hurry"],
+      ["더 빨리", "faster", "더 빨리 해 주세요 = please do it faster; 더 ('more') raises the speed"]
     ],
     "examples": [
-      ["빨리 오세요, 버스 와요!", "Hurry up, the bus is coming!", "Everyday urging when in a rush"],
-      ["밥을 빨리 먹었어요.", "I ate quickly.", "빨리 before the verb means 'fast'"],
-      ["빨리 나으세요.", "Get well soon.", "A caring set phrase to a sick person"]
+      ["빨리 오세요, 버스 와요!", "Hurry up, the bus is coming!", "Everyday urging when you're in a rush"],
+      ["밥을 빨리 먹었어요.", "I ate quickly.", "빨리 before the verb describes the speed of the action"],
+      ["빨리 나으세요.", "Get well soon.", "A caring set phrase to someone who is sick; 낫다 ('heal') is ㅅ-irregular"]
     ],
-    "nuance": "빨리 means 'quickly / fast' and is among the first action adverbs beginners need. Doubled as 빨리빨리, it captures the well-known Korean 'hurry, hurry' spirit and adds urgency. It pairs with almost any action verb (빨리 가요, 빨리 먹어요) and appears in warm set phrases like 빨리 나으세요 (get well soon).",
+    "nuance": "빨리 means 'quickly / fast', the adverb derived from the adjective 빠르다 ('to be fast'), and is among the first action adverbs a beginner needs. Doubled as 빨리빨리, it famously captures the Korean 'hurry, hurry' tempo and adds real urgency. Watch the synonym line with 일찍: 빨리 is about speed ('do it fast'), while 일찍 is about an early point in time ('early'), so 빨리 일어났어요 means 'I got up fast' but 일찍 일어났어요 means 'I got up early' — English 'quick/early' blurs this. The deeper pitfall is the adverb-vs-adjective split: from the stem 빠르- you use the adverb 빨리 before a verb (빨리 먹어요), but to describe a noun you must switch to the adjective form 빠른 (빠른 차 'a fast car') — never 빨리 차. 빠르다 is a 르-irregular, so its polite form is 빨라요. It collocates with motion and effort verbs (빨리 가다/오다/하다) and warm wishes (빨리 나으세요).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "빨리 means 'quickly / fast' and is among the first action adverbs a beginner needs. Doubled as 빨리빨리, it famously captures the Korean 'hurry, hurry' tempo and adds real urgency. It collocates with motion and effort verbs (빨리 가다/오다/하다) and warm wishes (빨리 나으세요)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Watch the synonym line with 일찍: 빨리 is about speed ('do it fast'), while 일찍 is about an early point in time ('early'), so 빨리 일어났어요 means 'I got up fast' but 일찍 일어났어요 means 'I got up early' — English 'quick/early' blurs this."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "빨리 is the adverb derived from the adjective 빠르다 ('to be fast')."},
+      {"k": "활용", "e": "FORMS", "t": "The adverb-vs-adjective split: from the stem 빠르- you use the adverb 빨리 before a verb (빨리 먹어요), but to describe a noun you must switch to the adjective form 빠른 (빠른 차 'a fast car') — never 빨리 차. 빠르다 is a 르-irregular, so its polite form is 빨라요.", "chips": ["빨리", "빠른", "빠르다", "빨라요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The deeper pitfall is the adverb-vs-adjective split: don't use 빨리 to describe a noun — 'a fast car' is 빠른 차, never 빨리 차."}
+    ],
     "mistakes": [
-      "Mixing up the adverb 빨리 (quickly) with the adjective 빠르다 (to be fast); before a verb you use 빨리.",
-      "Using 빨리 to describe a noun; for 'a fast car' you need 빠른 차, not 빨리 차."
+      "Mixing up the adverb 빨리 (quickly) with the adjective 빠르다 (to be fast): before a verb use 빨리 (빨리 먹어요); as a sentence predicate use 빨라요 (차가 빨라요).",
+      "Using 빨리 to describe a noun: 'a fast car' is 빠른 차, never 빨리 차 — noun-modifying needs the adjective form 빠른.",
+      "Confusing 빨리 (fast, speed) with 일찍 (early, time): 빨리 와요 ('come quickly') is about pace, 일찍 와요 ('come early') is about the hour."
     ]
   },
   {
@@ -247,20 +310,26 @@
     "chapterIds": ["chapter-08"],
     "grammarIds": [],
     "usage": [
-      ["더욱 좋아요", "It's even better", "A bit fuller and warmer than plain 더"],
-      ["더욱 노력할게요", "I'll try even harder", "Common in sincere promises"],
-      ["더욱더", "even more so", "더욱더 emphasizes the increase strongly"],
-      ["더욱 건강하세요", "Stay even healthier", "A kind wish, slightly formal tone"]
+      ["더욱 좋아요", "It's even better", "Fuller and warmer than the plain 더"],
+      ["더욱 노력할게요", "I'll try even harder", "A staple of sincere promises"],
+      ["더욱더", "even more so", "Doubling to 더욱더 pushes the increase strongly"],
+      ["더욱 건강하세요", "Stay even healthier", "A kind, slightly formal good wish"]
     ],
     "examples": [
-      ["앞으로 더욱 열심히 할게요.", "I'll work even harder from now on.", "Polished, sincere promise"],
-      ["날씨가 더우니 물을 더욱 많이 마셔요.", "Since it's hot, drink even more water.", "더욱 강조 = stresses 'even more'"],
-      ["연습하니까 더욱 좋아졌어요.", "After practicing, it got even better.", "더욱 shows a further improvement"]
+      ["앞으로 더욱 열심히 할게요.", "I'll work even harder from now on.", "A polished, sincere commitment"],
+      ["날씨가 더우니까 물을 더욱 많이 마셔요.", "Since it's hot, drink even more water.", "더욱 강조 = stresses 'even more so'"],
+      ["연습하니까 더욱 좋아졌어요.", "After practicing, it got even better.", "더욱 marks a further step up from before"]
     ],
-    "nuance": "더욱 means 'even more / all the more' and is a slightly fuller, warmer version of the basic 더. It often appears in sincere statements and good wishes, like 더욱 노력할게요 or 더욱 건강하세요, and the doubled 더욱더 adds extra emphasis. In very casual chat people just say 더, so save 더욱 for heartfelt or polished sentences.",
+    "nuance": "더욱 means 'even more / all the more' and is the fuller, warmer, slightly more formal cousin of the basic comparative adverb 더 ('more'). The two share a core, but they split by register and rhythm: 더 is the plain everyday workhorse (더 주세요 'give me more'), while 더욱 adds a literary, heartfelt lift and shows up in earnest statements, speeches, and good wishes (더욱 노력할게요, 더욱 건강하세요), with the reduplicated 더욱더 cranking the emphasis higher still. A neighboring word, 한층 ('a notch more'), is similarly elevated and written. 더욱 collocates with effort, improvement, and wishes (더욱 열심히, 더욱 좋아지다, 더욱 발전하다). The English-speaker pitfall is over-using 더욱 in casual chat or texting, where it sounds stiff — there you just say 더 — and assuming it is a wholly separate word from 더 rather than its more polished register-partner.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "더욱 means 'even more / all the more' and adds a literary, heartfelt lift, showing up in earnest statements, speeches, and good wishes (더욱 노력할게요, 더욱 건강하세요), with the reduplicated 더욱더 cranking the emphasis higher still. It collocates with effort, improvement, and wishes (더욱 열심히, 더욱 좋아지다, 더욱 발전하다)."},
+      {"k": "비슷한 말", "e": "VS", "t": "더욱 is the fuller, warmer, slightly more formal cousin of the basic comparative adverb 더 ('more'). The two share a core, but they split by register and rhythm: 더 is the plain everyday workhorse (더 주세요 'give me more'), while 더욱 adds a literary lift. A neighboring word, 한층 ('a notch more'), is similarly elevated and written."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is over-using 더욱 in casual chat or texting, where it sounds stiff — there you just say 더 — and assuming it is a wholly separate word from 더 rather than its more polished register-partner."}
+    ],
     "mistakes": [
-      "Assuming 더욱 is totally different from 더; they overlap, with 더욱 sounding fuller and a bit more formal.",
-      "Using 더욱 in very casual texting, where the shorter 더 sounds more natural."
+      "Assuming 더욱 is unrelated to 더: they share the 'more' meaning; 더욱 is just fuller and more formal, 더 is the plain everyday form.",
+      "Using 더욱 in casual texting or chit-chat: it sounds stiff and literary there — say 더 instead (더 좋아 rather than 더욱 좋아).",
+      "Forgetting 더욱 leans toward earnest, positive contexts: it fits 더욱 발전하다 / 더욱 건강하세요, but a neutral 'a bit more please' is just 더 주세요, not 더욱 주세요."
     ]
   },
   {
@@ -272,19 +341,25 @@
     "grammarIds": [],
     "usage": [
       ["참 좋아요", "It's really nice", "A warm, gentle 'really', softer than 너무"],
-      ["참 예뻐요", "It's truly pretty", "Sincere compliment with a kind tone"],
+      ["참 예뻐요", "It's truly pretty", "A sincere compliment with a kind tone"],
       ["참 맛있어요", "It's really tasty", "Everyday warm praise for food"],
-      ["참!", "Oh, by the way!", "참 alone signals a sudden 'oh, that reminds me'"]
+      ["참!", "Oh, by the way!", "참 standing alone flags a sudden 'oh, that reminds me'"]
     ],
     "examples": [
-      ["오늘 날씨가 참 좋아요.", "The weather is really nice today.", "참 gives a soft, sincere feeling"],
-      ["한국어 발음이 참 좋네요.", "Your Korean pronunciation is really good.", "Warm, genuine compliment"],
-      ["참, 내일 약속 있어요?", "Oh, by the way, are you free tomorrow?", "참 as a 'that reminds me' opener"]
+      ["오늘 날씨가 참 좋아요.", "The weather is really lovely today.", "참 lends a soft, sincere, almost admiring feeling"],
+      ["한국어 발음이 참 좋네요.", "Your Korean pronunciation is really good.", "A warm, genuine compliment; pairs well with 네요"],
+      ["참, 내일 약속 있어요?", "Oh, by the way, are you free tomorrow?", "참 as a 'that just reminded me' opener"]
     ],
-    "nuance": "참 means 'really / truly' with a gentle, sincere warmth, making it lovely for heartfelt compliments like 참 좋아요 or 참 예뻐요. It feels softer and kinder than the strong 너무 or 정말. As a standalone exclamation, 참! also works as 'oh, by the way!' when you suddenly remember something, so context tells you which sense applies.",
+    "nuance": "참 means 'really / truly / quite' but with a gentle, sincere, faintly admiring warmth that makes it lovely for heartfelt compliments (참 좋아요, 참 예뻐요, 참 착하다 'so kind'). Its register is the dividing line against its near-synonyms: 너무 is strong and can tip into 'too much', 정말/진짜 are emphatic 'really!', while 참 is the soft, warm, slightly old-fashioned 'really' that sounds caring rather than intense — elders use it often. A completely separate, very common use is the stand-alone interjection 참! meaning 'oh, that reminds me!' when something pops into your head mid-conversation. It collocates with gentle praise and pleasant states (참 좋다, 참 예쁘다, 참 잘했어요 'well done'). The English-speaker pitfall is expecting 참 to hit hard like 너무 and being puzzled by its softness, and reading the interjection 참! as an intensifier when it actually signals a sudden memory.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "참 means 'really / truly / quite' but with a gentle, sincere, faintly admiring warmth that makes it lovely for heartfelt compliments (참 좋아요, 참 예뻐요, 참 착하다 'so kind'). A completely separate, very common use is the stand-alone interjection 참! meaning 'oh, that reminds me!' when something pops into your head mid-conversation. It collocates with gentle praise and pleasant states (참 좋다, 참 예쁘다, 참 잘했어요 'well done')."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its register is the dividing line against its near-synonyms: 너무 is strong and can tip into 'too much', 정말/진짜 are emphatic 'really!', while 참 is the soft, warm, slightly old-fashioned 'really' that sounds caring rather than intense — elders use it often."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is expecting 참 to hit hard like 너무 and being puzzled by its softness, and reading the interjection 참! as an intensifier when it actually signals a sudden memory."}
+    ],
     "mistakes": [
-      "Reading every 참 as an intensifier; standing alone it often means 'oh, that reminds me!'.",
-      "Expecting 참 to sound strong; it is a soft, warm 'really', not a heavy emphasis like 너무."
+      "Reading every 참 as an intensifier: standing alone, 참! means 'oh, that reminds me!', a discourse marker, not 'really'.",
+      "Expecting 참 to sound strong: it is a soft, warm 'really' (참 좋아요), unlike the heavier 너무 or emphatic 진짜/정말.",
+      "Confusing 참 with 잘 ('well'): 참 잘했어요 stacks both — 참 ('really') intensifies 잘 ('well') — so they are not the same word."
     ]
   },
   {
@@ -295,20 +370,26 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["가득 채우다", "to fill it full", "Describes filling something to the top"],
+      ["가득 채우다", "to fill it full", "Describes filling a container right to the top"],
       ["가득 차다", "to be full", "방이 사람으로 가득 찼어요 = the room is packed with people"],
-      ["가득 담다", "to pile it full", "가득 담아 주세요 = please fill it up"],
-      ["가득이요", "Fill it up, please", "Common when getting gas: 가득이요 = full tank"]
+      ["가득 담다", "to pile/load it full", "가득 담아 주세요 = please fill it right up"],
+      ["가득이요", "Fill it up, please", "Standard at a gas station: 가득이요 = full tank"]
     ],
     "examples": [
-      ["컵에 물을 가득 따랐어요.", "I poured the cup full of water.", "가득 = up to the brim"],
-      ["마트에 사람이 가득해요.", "The mart is full of people.", "가득하다 = to be full/packed"],
-      ["가득 넣어 주세요.", "Please fill it up.", "Useful at a gas station or when ordering"]
+      ["컵에 물을 가득 따랐어요.", "I poured the cup full of water.", "가득 = right up to the brim"],
+      ["마트에 사람이 가득해요.", "The mart is packed with people.", "가득하다 = to be full/packed; 가득 + 하다"],
+      ["가득 넣어 주세요.", "Please fill it all the way.", "Useful at a gas station or when asking for a full serving"]
     ],
-    "nuance": "가득 means 'fully / full to the brim' and describes a container, space, or feeling being completely filled. It pairs naturally with verbs like 채우다, 차다, 담다, and the form 가득하다 means 'to be full'. A handy real-life use is at the gas station, where 가득이요 means 'fill the tank, please'.",
+    "nuance": "가득 means 'fully / full to the brim' and specifically describes a container, space, or even a feeling being filled completely — its meaning is about capacity reached, not just quantity. This is the key line against its near-synonym 많이: 많이 marks 'a large amount' in general (많이 먹어요 'eat a lot'), while 가득 says 'filled to the limit', so 컵에 물이 가득 means the cup is brimming, not merely that there is much water around. It pairs habitually with filling verbs — 채우다 ('fill'), 차다 ('become full'), 담다 ('put in'), 넣다 ('insert') — and the bound form 가득하다 means 'to be full/packed' (사람으로 가득하다). It also extends to emotion (행복이 가득하다 'full of happiness'). A handy real-life anchor is the gas station, where 가득이요 means 'fill the tank'. The English-speaker pitfall is using 가득 as a general 'a lot' with any verb; it only fits filling/packing situations, so 가득 먹어요 sounds odd where you want 많이 먹어요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "가득 means 'fully / full to the brim' and specifically describes a container, space, or even a feeling being filled completely — its meaning is about capacity reached, not just quantity. It pairs habitually with filling verbs — 채우다 ('fill'), 차다 ('become full'), 담다 ('put in'), 넣다 ('insert') — and the bound form 가득하다 means 'to be full/packed' (사람으로 가득하다). It also extends to emotion (행복이 가득하다 'full of happiness'). A handy real-life anchor is the gas station, where 가득이요 means 'fill the tank'."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key line against its near-synonym 많이: 많이 marks 'a large amount' in general (많이 먹어요 'eat a lot'), while 가득 says 'filled to the limit', so 컵에 물이 가득 means the cup is brimming, not merely that there is much water around."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is using 가득 as a general 'a lot' with any verb; it only fits filling/packing situations, so 가득 먹어요 sounds odd where you want 많이 먹어요."}
+    ],
     "mistakes": [
-      "Using 가득 for general 'a lot' with any verb; it specifically means 'filled full', so it fits filling and packing.",
-      "Mixing up 가득 (full to the brim) with 많이 (a lot in amount); they overlap but are not identical."
+      "Using 가득 as a general 'a lot' with any verb: it means 'filled full', so 가득 먹어요 is odd — say 많이 먹어요 for 'eat a lot'.",
+      "Treating 가득 and 많이 as identical: 많이 is plain quantity ('much'), 가득 is 'to the brim/capacity' — 물이 많아요 vs 컵에 물이 가득 차 있어요.",
+      "Forgetting 가득 wants a filling verb: it naturally needs 채우다/차다/담다/넣다 or the form 가득하다, not just any action verb."
     ]
   },
   {
@@ -319,20 +400,27 @@
     "chapterIds": ["chapter-09"],
     "grammarIds": [],
     "usage": [
-      ["푹 쉬다", "to rest well/fully", "푹 쉬세요 = rest up well, a caring phrase"],
-      ["푹 자다", "to sleep soundly", "푹 잤어요 = I slept deeply"],
-      ["푹 끓이다", "to simmer thoroughly", "Cooking: boil slowly until soft"],
-      ["푹 빠지다", "to fall deeply (into)", "드라마에 푹 빠졌어요 = I'm hooked on the drama"]
+      ["푹 쉬다", "to rest fully", "푹 쉬세요 = rest up well, a caring set phrase"],
+      ["푹 자다", "to sleep soundly", "푹 잤어요 = I slept deeply and well"],
+      ["푹 끓이다", "to simmer thoroughly", "In cooking: boil slowly until soft and rich"],
+      ["푹 빠지다", "to fall deeply (into)", "드라마에 푹 빠졌어요 = I'm totally hooked on the drama"]
     ],
     "examples": [
-      ["오늘은 집에서 푹 쉬세요.", "Please rest up well at home today.", "A warm thing to say to a tired person"],
-      ["어제 푹 자서 개운해요.", "I slept soundly yesterday, so I feel refreshed.", "푹 자다 = sleep deeply"],
-      ["감기에는 푹 쉬는 게 좋아요.", "For a cold, resting well is best.", "Common caring advice"]
+      ["오늘은 집에서 푹 쉬세요.", "Please rest up well at home today.", "A warm thing to say to someone who's tired or unwell"],
+      ["어제 푹 자서 개운해요.", "I slept soundly yesterday, so I feel refreshed.", "푹 자다 = sleep deeply; pairs with feeling 개운하다"],
+      ["감기에는 푹 쉬는 게 좋아요.", "For a cold, resting well is best.", "Standard caring advice"]
     ],
-    "nuance": "푹 means doing something deeply and thoroughly, and it shows up most in 푹 쉬다 (rest well) and 푹 자다 (sleep soundly), which beginners hear all the time as caring wishes. In cooking it means simmering thoroughly until soft, and figuratively 푹 빠지다 means 'to be totally hooked'. It is a vivid, friendly word that adds a sense of 'completely and comfortably'.",
+    "nuance": "푹 is a vivid native mimetic adverb (의태어) meaning doing something deeply, soundly, and thoroughly, and it lives most in the caring collocations 푹 쉬다 ('rest well') and 푹 자다 ('sleep soundly'), which beginners hear constantly as warm wishes. Unlike a general intensifier such as 많이 ('a lot') or 잘 ('well'), 푹 adds a specific texture of 'completely, comfortably, all the way down' — 푹 자다 isn't just sleeping much, it's sleeping deep and restoring. It splits into a few homes: rest/sleep (푹 쉬다/자다), slow cooking ('simmer until tender', 푹 끓이다/삶다), and the figurative 푹 빠지다 ('be totally absorbed/hooked'). It also describes sinking softly into something (소파에 푹 파묻히다). The English-speaker pitfall is treating 푹 as an all-purpose 'very'; it is not — it specifically means 'deeply/soundly/thoroughly' and only suits resting, sleeping, simmering, and being absorbed. Above all, memorize the everyday set phrase 푹 쉬세요, the natural way to tell someone to rest up.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "푹 means doing something deeply, soundly, and thoroughly, and it lives most in the caring collocations 푹 쉬다 ('rest well') and 푹 자다 ('sleep soundly'), which beginners hear constantly as warm wishes. It splits into a few homes: rest/sleep (푹 쉬다/자다), slow cooking ('simmer until tender', 푹 끓이다/삶다), and the figurative 푹 빠지다 ('be totally absorbed/hooked'). It also describes sinking softly into something (소파에 푹 파묻히다). Above all, memorize the everyday set phrase 푹 쉬세요, the natural way to tell someone to rest up."},
+      {"k": "비슷한 말", "e": "VS", "t": "Unlike a general intensifier such as 많이 ('a lot') or 잘 ('well'), 푹 adds a specific texture of 'completely, comfortably, all the way down' — 푹 자다 isn't just sleeping much, it's sleeping deep and restoring."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "푹 is a vivid native mimetic adverb (의태어)."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English-speaker pitfall is treating 푹 as an all-purpose 'very'; it is not — it specifically means 'deeply/soundly/thoroughly' and only suits resting, sleeping, simmering, and being absorbed."}
+    ],
     "mistakes": [
-      "Treating 푹 as a general 'very'; it specifically means deeply/soundly and fits resting, sleeping, and simmering.",
-      "Forgetting the very common set phrase 푹 쉬세요, the natural way to tell someone to rest up."
+      "Treating 푹 as a general 'very': it specifically means deeply/soundly/thoroughly and fits resting, sleeping, simmering, and being absorbed — not any adjective.",
+      "Forgetting the high-frequency set phrase 푹 쉬세요: this is the natural caring way to tell someone to rest, and learners often reach for a clunkier phrase instead.",
+      "Swapping 푹 for 잘 carelessly: 잘 자요 ('sleep well') is the everyday goodnight, while 푹 자다 stresses deep, sound sleep — close but 푹 adds the 'all the way down' texture."
     ]
   }
 ]

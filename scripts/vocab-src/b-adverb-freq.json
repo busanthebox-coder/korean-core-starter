@@ -10,47 +10,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "매일",
-        "every day",
-        "Time word; usually goes before the verb."
-      ],
-      [
         "매일 아침",
         "every morning",
-        "Combine with a time word to be specific."
+        "매(每) 'each' stacks before a time word: 매일 아침, 매일 밤, 매주 월요일."
       ],
       [
         "매일매일",
-        "every single day",
-        "Doubling it adds emphasis, like 'day after day'."
+        "day after day, every single day",
+        "Reduplicating it adds warmth/emphasis, common in songs and encouragement."
       ],
       [
         "거의 매일",
         "almost every day",
-        "거의 (almost) softens it."
+        "거의 (almost) is the natural softener when it isn't literally 100% of days."
+      ],
+      [
+        "매일같이",
+        "every single day (emphatic)",
+        "Write it closed (매일같이, not 매일 같이) — it stresses how relentlessly often, sometimes with mild complaint."
       ]
     ],
     "examples": [
       [
         "저는 매일 한국어를 공부해요.",
         "I study Korean every day.",
-        "Basic habit sentence; 매일 before the object is fine too."
+        "Core habit pattern; 매일 sits right before the verb phrase."
       ],
       [
-        "매일 아침 커피를 마셔요.",
-        "I drink coffee every morning.",
-        "매일 + time word 아침."
+        "매일 아침 일곱 시에 일어나요.",
+        "I get up at seven every morning.",
+        "Here the clock time takes 에 (일곱 시에), but 매일 itself never does."
       ],
       [
-        "우리 강아지는 매일 산책해요.",
-        "Our dog goes for a walk every day.",
-        "Works with any daily routine verb."
+        "요즘 거의 매일 비가 와서 힘들어요.",
+        "Lately it rains almost every day, so it's tough.",
+        "거의 매일 + a real complaint; shows the word in a fuller, lived-in sentence."
       ]
     ],
-    "nuance": "매일 means 'every day' and is one of the most common time words for talking about routines. It almost always comes before the verb. For other intervals you swap the first part: 매주 (every week), 매달 (every month), 매년 (every year).",
+    "nuance": "매일 means 'every day' and is the default word for habits and routines. The 매 is Sino-Korean 每 'each/every', and 일 is 日 'day', so it literally reads 'each-day'; swap the second half for 매주 每週 'every week', 매월/매달 'every month', 매년 每年 'every year'. Crucially 매일 is an adverb of frequency, so unlike clock times it takes NO 에 — say 매일 운동해요, never 매일에. English speakers also confuse it with 하루, which is the counter 'one day / a day' (하루 종일 'all day long'); 매일 is the recurring habit, 하루 is a single day. A near rival is 날마다 'each day', which is interchangeable in meaning but feels a touch more literary/measured, while 매일 is the plain everyday choice. It almost always comes before the verb and pairs happily with 거의, 아침/밤, and the emphatic 매일같이.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "매일 means 'every day' and is the default word for habits and routines. It almost always comes before the verb and pairs happily with 거의, 아침/밤, and the emphatic 매일같이. Crucially 매일 is an adverb of frequency, so unlike clock times it takes NO 에 — say 매일 운동해요, never 매일에."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A near rival is 날마다 'each day', which is interchangeable in meaning but feels a touch more literary/measured, while 매일 is the plain everyday choice."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The 매 is Sino-Korean 每 'each/every', and 일 is 日 'day', so it literally reads 'each-day'; swap the second half for 매주 每週 'every week', 매월/매달 'every month', 매년 每年 'every year'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers confuse it with 하루, which is the counter 'one day / a day' (하루 종일 'all day long'); 매일 is the recurring habit, 하루 is a single day."
+      }
+    ],
     "mistakes": [
-      "Saying 매일에 — 매일 does not take 에. Just say 매일.",
-      "Confusing 매일 (every day) with 하루 (one day / a day) — they are different."
+      "Saying 매일에 공부해요 — frequency adverbs take no particle. Drop 에: 매일 공부해요. (The 에 belongs only on the clock time, e.g. 일곱 시에.)",
+      "Using 하루 where you mean a repeated habit, e.g. ✗ 하루 운동해요 for 'I exercise every day'. 하루 = one single day; the habit is 매일 운동해요.",
+      "Writing the verb 늘다-style 매일다 or treating it as a noun with 을/를. 매일 is purely an adverb — it modifies the verb directly."
     ]
   },
   {
@@ -64,47 +87,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "나중에",
-        "later (some unspecified time)",
-        "Vague 'later', not necessarily today."
-      ],
-      [
         "나중에 봐요",
         "see you later",
-        "Common casual goodbye."
+        "Standard friendly sign-off when you'll meet again at no fixed time."
       ],
       [
         "나중에 연락할게요",
         "I'll contact you later",
-        "Polite way to put something off."
+        "Polite way to defer without committing to when; 연락하다 = to get in touch."
       ],
       [
         "나중에 다시",
         "later, again",
-        "Often paired with 다시 (again)."
+        "Frequently paired with 다시 (again) for 'I'll try again later'."
+      ],
+      [
+        "나중에 후회해요",
+        "you'll regret it later",
+        "Common warning frame: 나중에 + a future consequence."
       ]
     ],
     "examples": [
       [
-        "나중에 다시 전화할게요.",
-        "I'll call you again later.",
-        "Putting off a call politely."
-      ],
-      [
         "그건 나중에 이야기해요.",
         "Let's talk about that later.",
-        "Deferring a topic."
+        "Gently deferring a topic right now; 나중에 before the verb."
       ],
       [
-        "숙제는 나중에 할게요.",
-        "I'll do the homework later.",
-        "Everyday procrastination sentence."
+        "지금 바쁘니까 나중에 다시 전화할게요.",
+        "I'm busy now, so I'll call back later.",
+        "Pairs 지금 (now) against 나중에 (later) — the contrast that defines the word."
+      ],
+      [
+        "이거 지금 안 하면 나중에 후회할 거예요.",
+        "If you don't do this now, you'll regret it later.",
+        "Real-situation warning; shows 나중에 reaching into an indefinite future."
       ]
     ],
-    "nuance": "나중에 means 'later' at some vague, unspecified future time, not necessarily the same day. If you mean 'a little later today', use 이따가 instead. 나중에 is great for politely deferring something without committing to a time.",
+    "nuance": "나중에 means 'later' at some vague, unspecified future point — possibly today, possibly next week, the time is deliberately left open. That open-endedness is exactly why it's so handy for politely putting things off (나중에 할게요 'I'll do it later'). The sharp contrast to learn is 나중에 vs 이따가: 이따가 means 'a little later but still TODAY', whereas 나중에 carries no same-day promise and can mean any future time. Don't reach for English 'after' here — 나중에 is a standalone time adverb, not the connector '-(으)ㄴ 후에/다음에' you use to say 'after doing X'. Note the fixed 에 is baked in: the word is 나중에, and bare 나중 sounds incomplete in speech. It naturally collocates with 봐요, 연락하다, 다시, and 후회하다, and its opposite pole is 먼저/지금 (first/now).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "나중에 means 'later' at some vague, unspecified future point — possibly today, possibly next week, the time is deliberately left open. That open-endedness is exactly why it's so handy for politely putting things off (나중에 할게요 'I'll do it later'). Note the fixed 에 is baked in: the word is 나중에, and bare 나중 sounds incomplete in speech. It naturally collocates with 봐요, 연락하다, 다시, and 후회하다, and its opposite pole is 먼저/지금 (first/now)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast to learn is 나중에 vs 이따가: 이따가 means 'a little later but still TODAY', whereas 나중에 carries no same-day promise and can mean any future time."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't reach for English 'after' here — 나중에 is a standalone time adverb, not the connector '-(으)ㄴ 후에/다음에' you use to say 'after doing X'."
+      }
+    ],
     "mistakes": [
-      "Using 나중에 when you mean 'in a little while today' — that is 이따가.",
-      "Dropping 에: the adverb is 나중에, not just 나중."
+      "Using 나중에 for 'in a little while today', e.g. ✗ 나중에 점심 먹어요 meaning soon. For same-day soon use 이따가 점심 먹어요.",
+      "Dropping the 에 and saying just 나중 — the adverb is 나중에. Bare 나중 only survives in compounds like 나중 일 (a later matter).",
+      "Translating English 'after' with 나중에, e.g. ✗ 밥을 먹고 나중에 for 'after eating'. 'After doing X' is 밥을 먹은 후에 / 먹고 나서; 나중에 is just 'later' on its own."
     ]
   },
   {
@@ -118,47 +159,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "이따가",
-        "in a little while (today)",
-        "Short time later, but still today."
-      ],
-      [
-        "이따가 봐요",
-        "see you in a bit",
-        "Casual; you expect to meet again soon."
-      ],
-      [
         "이따 봐요",
-        "see you later",
-        "이따 is the common shortened form."
+        "see you in a bit",
+        "이따 is the everyday clipped form of 이따가; both are fine in speech."
       ],
       [
         "이따가 전화할게요",
         "I'll call you in a bit",
-        "Promising to call soon, same day."
+        "Promising a call soon, still within today."
+      ],
+      [
+        "이따가 만나요",
+        "let's meet a little later",
+        "Same-day plan that's close but not right now."
+      ],
+      [
+        "이따 봬요",
+        "see you shortly (polite)",
+        "봬요 (from 뵈다) lifts the register when speaking to someone you respect."
       ]
     ],
     "examples": [
       [
         "이따가 같이 점심 먹어요.",
         "Let's have lunch together in a bit.",
-        "Same-day near-future plan."
+        "Simple same-day near-future plan; 이따가 up front."
       ],
       [
-        "이따가 다시 올게요.",
-        "I'll come back in a little while.",
-        "Stepping out briefly."
+        "지금 회의 중이라서 이따가 답장할게요.",
+        "I'm in a meeting now, so I'll reply a bit later.",
+        "Contrasts 지금 (now) with 이따가 (soon, today) — the heart of the word."
       ],
       [
-        "이따가 카페에서 봐요.",
-        "See you at the cafe in a bit.",
-        "Casual meet-up."
+        "이따가 다섯 시쯤에 카페에서 봐요.",
+        "Let's meet at the cafe around five later.",
+        "Real plan: 이따가 sets 'later today' and 다섯 시쯤에 pins the rough clock time."
       ]
     ],
-    "nuance": "이따가 means 'a little later today' — a short gap that is still within the same day. Compare with 나중에 (vague 'later', maybe another day) and 이제 (now/from now). In speech people very often shorten 이따가 to 이따.",
+    "nuance": "이따가 means 'a little later, but still today' — a short gap measured in hours, never days. The defining contrast is 이따가 vs 나중에: 나중에 is open-ended 'later' (maybe another day), while 이따가 firmly stays within the current day, so 이따가 봐요 implies you'll genuinely see them again today. It's casual, conversational, and in fast speech almost always clipped to 이따 (이따 봐요). The notorious English-speaker trap is the homophone 있다가, which sounds identical but is 있다 'to stay/be' + '-다가' and means 'after staying/being a while' (여기 좀 있다가 가요 'stay here a bit then go'); the time adverb meaning 'in a bit' is spelled 이따가 with ㅇ, not 있다가. Like other frequency/time adverbs it takes no particle, sits before the verb, and collocates with 봐요, 전화하다, 만나요, and a soft 쯤에 clock time.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이따가 means 'a little later, but still today' — a short gap measured in hours, never days. It's casual, conversational, and in fast speech almost always clipped to 이따 (이따 봐요). Like other frequency/time adverbs it takes no particle, sits before the verb, and collocates with 봐요, 전화하다, 만나요, and a soft 쯤에 clock time."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The defining contrast is 이따가 vs 나중에: 나중에 is open-ended 'later' (maybe another day), while 이따가 firmly stays within the current day, so 이따가 봐요 implies you'll genuinely see them again today."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The notorious English-speaker trap is the homophone 있다가, which sounds identical but is 있다 'to stay/be' + '-다가' and means 'after staying/being a while' (여기 좀 있다가 가요 'stay here a bit then go'); the time adverb meaning 'in a bit' is spelled 이따가 with ㅇ, not 있다가."
+      }
+    ],
     "mistakes": [
-      "Using 이따가 for next week or 'someday' — for that use 나중에.",
-      "Confusing 이따가 (later today) with 있다가 (after staying/being) — different words, same sound."
+      "Using 이따가 for next week or 'someday', e.g. ✗ 이따가 여행 가요 for a trip days away. Beyond today use 나중에.",
+      "Spelling it 있다가 when you mean 'in a bit'. 있다가 = 'after staying'; the time word is 이따가. Same sound, different word and meaning.",
+      "Saying 이따가에 — no particle. Just 이따가, or add a real clock time like 이따가 세 시에."
     ]
   },
   {
@@ -172,47 +231,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "늘",
-        "always, all the time",
-        "Native Korean word, same idea as 항상."
-      ],
-      [
         "늘 그래요",
         "it's always like that",
-        "Common set phrase."
+        "Set phrase for a constant pattern; resigned or matter-of-fact."
+      ],
+      [
+        "늘 행복하세요",
+        "may you always be happy",
+        "늘 shines in warm wishes — softer and kinder than a flat 항상."
       ],
       [
         "늘 고마워요",
-        "thank you, always",
-        "Warm, slightly soft tone."
+        "thank you, as always",
+        "Conveys ongoing, heartfelt gratitude rather than a one-time thanks."
       ],
       [
-        "언제나 / 늘",
-        "always (interchangeable)",
-        "언제나 and 늘 are close synonyms."
+        "언제나 = 늘",
+        "always (near-twins)",
+        "언제나 ('whenever it is, always') overlaps fully; pick by rhythm/feel."
       ]
     ],
     "examples": [
       [
         "저는 늘 아침을 먹어요.",
         "I always eat breakfast.",
-        "Habit; 늘 before the verb."
+        "Plain habit; 늘 sits right before the verb, no particle."
       ],
       [
         "그 식당은 늘 사람이 많아요.",
         "That restaurant always has a lot of people.",
-        "Describing a constant situation."
+        "Describes a constant state, not a one-off."
       ],
       [
-        "늘 건강하세요.",
-        "Stay healthy always.",
-        "Warm closing wish."
+        "도와주셔서 감사해요. 늘 건강하세요.",
+        "Thank you for your help. Please always stay healthy.",
+        "Real closing wish — the warm register where 늘 outshines 항상."
       ]
     ],
-    "nuance": "늘 means 'always' and is almost interchangeable with 항상. 늘 feels a touch softer and warmer, so it is common in friendly wishes like 늘 행복하세요. Both go right before the verb.",
+    "nuance": "늘 means 'always / all the time' and is a pure native-Korean word (no hanja), which gives it a softer, warmer color than its Sino-Korean twin 항상 恒常 'constant-ever'. In meaning they're interchangeable and both sit right before the verb, but 늘 feels gentle and affectionate, so it's the natural pick in heartfelt wishes like 늘 행복하세요 / 늘 건강하세요, while 항상 leans slightly more neutral or formal. A third near-synonym, 언제나, literally 'whenever-it-is' and so 'always', is also swappable. The big spelling pitfall for English speakers: 늘 (the adverb) versus 늘다 (the verb 'to increase/grow'), e.g. 실력이 늘다 'one's skill improves' — never tack a verb ending onto the adverb. And like all such adverbs it refuses particles: write 늘 웃어요, never 늘에 or 늘은. It collocates with state verbs and warm imperatives (그래요, 고마워요, 건강하세요).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "늘 means 'always / all the time' and is a pure native-Korean word, which gives it a softer, warmer color, so it's the natural pick in heartfelt wishes like 늘 행복하세요 / 늘 건강하세요. Like all such adverbs it refuses particles: write 늘 웃어요, never 늘에 or 늘은. It collocates with state verbs and warm imperatives (그래요, 고마워요, 건강하세요)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its Sino-Korean twin is 항상 恒常 'constant-ever'. In meaning they're interchangeable and both sit right before the verb, but 늘 feels gentle and affectionate while 항상 leans slightly more neutral or formal. A third near-synonym, 언제나, literally 'whenever-it-is' and so 'always', is also swappable."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big spelling pitfall for English speakers: 늘 (the adverb) versus 늘다 (the verb 'to increase/grow'), e.g. 실력이 늘다 'one's skill improves' — never tack a verb ending onto the adverb."
+      }
+    ],
     "mistakes": [
-      "Spelling it 늘다 — that is a verb ('to increase'). The adverb is just 늘.",
-      "Trying to add a particle (늘에/늘은) — adverbs like 늘 take no particle."
+      "Writing 늘다 or 늘어요 for the adverb. 늘다 is a separate verb 'to increase' (살이 늘다 'to gain weight'). The frequency adverb is just 늘.",
+      "Adding a particle: ✗ 늘은 / ✗ 늘에. Adverbs like 늘 attach to nothing — 늘 + verb directly.",
+      "Reaching for stiff 항상 in a tender wish. 항상 행복하세요 isn't wrong, but native speakers more often warm it to 늘 행복하세요."
     ]
   },
   {
@@ -226,47 +303,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "이제",
-        "now (with a sense of change)",
-        "Marks a shift from before to now."
-      ],
-      [
         "이제 괜찮아요",
         "I'm okay now",
-        "Implies 'not before, but now'."
+        "Implies 'not before, but now' — the recovery is the point."
       ],
       [
         "이제 가야 해요",
         "I have to go now",
-        "Time to leave."
+        "Marks that the moment to leave has finally arrived."
       ],
       [
         "이제부터",
         "from now on",
-        "Add 부터 for 'starting now'."
+        "Add 부터 'starting from' for a fresh-start resolution."
+      ],
+      [
+        "이제 그만",
+        "that's enough now / stop now",
+        "Set phrase: enough of what was happening up to this point."
       ]
     ],
     "examples": [
       [
         "이제 집에 가요.",
         "I'm going home now.",
-        "Signals the moment to leave."
+        "Signals the turning point — time to wrap up and leave."
       ],
       [
-        "이제 한국어를 조금 알아요.",
-        "I know a little Korean now.",
-        "Now, unlike before."
+        "한국어를 일 년 배워서 이제 조금 알아요.",
+        "I studied Korean a year, so now I know a little.",
+        "The 'now, unlike before' change is explicit — perfect home for 이제, not 지금."
       ],
       [
         "이제부터 매일 운동할 거예요.",
         "From now on I'll exercise every day.",
-        "이제부터 = from now on."
+        "Real resolution; 이제부터 draws a line between the old me and the new."
       ]
     ],
-    "nuance": "이제 means 'now', but with the nuance of a change from a previous state ('not until now, but now'). Plain 지금 just points to the present moment with no such contrast. Use 이제 when something is finally different than before.",
+    "nuance": "이제 means 'now', but with a built-in sense of CHANGE from a previous state — 'not until now, but now'. That's the whole game: the sharp contrast is 이제 vs 지금. 지금 is a neutral pointer at the present moment ('right now', as on a clock: 지금 몇 시예요?), whereas 이제 frames the present against a different past, so 이제 알아요 means 'now I get it (I didn't before)'. Choose 이제 whenever something has finally turned a corner, and 지금 for a plain timestamp. Add 부터 for 이제부터 'from now on', the go-to phrase for resolutions, and note the fixed expressions 이제 그만 ('enough now') and 이제야 ('only now, at last'). English 'now' covers both Korean words, which is exactly why learners overuse 지금 where the feeling of change calls for 이제. As an adverb it takes no particle (✗ 이제에) and sits before the verb; it commonly pairs with 괜찮다, 가다, 그만, and 부터.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이제 means 'now', but with a built-in sense of CHANGE from a previous state — 'not until now, but now'. Choose 이제 whenever something has finally turned a corner. Add 부터 for 이제부터 'from now on', the go-to phrase for resolutions, and note the fixed expressions 이제 그만 ('enough now') and 이제야 ('only now, at last'). As an adverb it takes no particle (✗ 이제에) and sits before the verb; it commonly pairs with 괜찮다, 가다, 그만, and 부터."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is 이제 vs 지금. 지금 is a neutral pointer at the present moment ('right now', as on a clock: 지금 몇 시예요?), whereas 이제 frames the present against a different past, so 이제 알아요 means 'now I get it (I didn't before)'. Use 지금 for a plain timestamp."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'now' covers both Korean words, which is exactly why learners overuse 지금 where the feeling of change calls for 이제."
+      }
+    ],
     "mistakes": [
-      "Treating 이제 and 지금 as identical — 지금 is neutral 'right now', 이제 implies a change.",
-      "Saying 이제에 — no 에. Just 이제 or 이제부터."
+      "Treating 이제 and 지금 as identical. 지금 = neutral 'right now' (clock time); 이제 = 'now, in contrast to before'. Say 지금 몇 시예요?, but 이제 다 나았어요 ('I'm all better now').",
+      "Saying 이제에 — no particle. Use bare 이제, or 이제부터 for 'from now on'.",
+      "Using 지금부터 when you mean a life-change resolution. 지금부터 is fine for 'starting this second', but the 'turn over a new leaf' feel is 이제부터."
     ]
   },
   {
@@ -280,47 +375,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "매번",
-        "every time, each time",
-        "About repeated occasions."
-      ],
-      [
         "매번 고마워요",
         "thank you every time",
-        "Common appreciative phrase."
+        "Warm appreciation for help that keeps recurring."
       ],
       [
         "매번 그래요",
         "it happens every time",
-        "Describing a pattern."
+        "Describes a recurring pattern, often with a sigh."
       ],
       [
         "거의 매번",
         "almost every time",
-        "거의 softens it."
+        "거의 softens it when it isn't literally every single occasion."
+      ],
+      [
+        "매번 똑같아요",
+        "it's the same every time",
+        "Common complaint frame: 똑같다 'be identical' + the repetition."
       ]
     ],
     "examples": [
       [
         "매번 늦어서 미안해요.",
         "Sorry for being late every time.",
-        "Apologizing for a pattern."
+        "Apologizing for a repeated occasion, not a calendar day."
       ],
       [
-        "그 가게는 매번 문을 닫았어요.",
-        "That store was closed every time.",
-        "Repeated bad luck."
+        "그 식당은 갈 때마다 매번 줄을 서야 해요.",
+        "Every time I go to that restaurant, I have to line up.",
+        "Pairs 갈 때마다 ('each time I go') with 매번 — both stress the recurring occasion."
       ],
       [
-        "매번 도와줘서 고마워요.",
-        "Thank you for helping me every time.",
-        "Warm thanks for repeated help."
+        "항상 도와줘서, 정말 매번 고마워요.",
+        "You always help me — honestly, thank you every time.",
+        "Real thanks; 매번 ties the gratitude to each separate instance of help."
       ]
     ],
-    "nuance": "매번 means 'every time / each time' an event happens, focusing on repeated occasions rather than calendar days. Use 매일 for 'every day' (calendar), but 매번 when something recurs each time a situation comes up.",
+    "nuance": "매번 means 'every time / each time an occasion arises', and the key is that it counts OCCASIONS, not calendar days. The 매 is Sino-Korean 每 'each/every' (same as in 매일), and 번 is 番 'a time/turn' (as in 한 번 'once', 두 번 'twice'), so it literally reads 'each-turn'. That's the dividing line from 매일 每日 'each-day': use 매일 for things tied to the daily calendar (매일 운동해요), but 매번 when something recurs every time a particular situation comes up (그 사람은 매번 늦어요 'he's late every time'). A close cousin is the suffix '-(으)ㄹ 때마다' '(each) time when', often used right alongside it for emphasis (갈 때마다 매번). English 'every time' as a sentence connector ('every time I see her...') is usually that '-(으)ㄹ 때마다', not bare 매번 — 매번 is the standalone adverb. No particle (✗ 매번에), placed before the verb; it collocates with 고맙다, 그래요, 똑같다, and 늦다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "매번 means 'every time / each time an occasion arises', and the key is that it counts OCCASIONS, not calendar days. No particle (✗ 매번에), placed before the verb; it collocates with 고맙다, 그래요, 똑같다, and 늦다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line from 매일 每日 'each-day': use 매일 for things tied to the daily calendar (매일 운동해요), but 매번 when something recurs every time a particular situation comes up (그 사람은 매번 늦어요 'he's late every time'). A close cousin is the suffix '-(으)ㄹ 때마다' '(each) time when', often used right alongside it for emphasis (갈 때마다 매번)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The 매 is Sino-Korean 每 'each/every' (same as in 매일), and 번 is 番 'a time/turn' (as in 한 번 'once', 두 번 'twice'), so it literally reads 'each-turn'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'every time' as a sentence connector ('every time I see her...') is usually that '-(으)ㄹ 때마다', not bare 매번 — 매번 is the standalone adverb."
+      }
+    ],
     "mistakes": [
-      "Using 매번 to mean 'every day' — that calendar meaning is 매일.",
-      "Adding a particle (매번에) — none is needed."
+      "Using 매번 to mean 'every day' on the calendar, e.g. ✗ 매번 운동해요 for a daily habit. Calendar 'every day' is 매일; 매번 is 'each occasion'.",
+      "Adding a particle: ✗ 매번에. None is needed — 매번 + verb directly.",
+      "Rendering the connector 'every time I (do)…' as just 매번, e.g. ✗ 매번 그 사람을 봐요 for 'every time I see him'. Use 그 사람을 볼 때마다 (optionally 볼 때마다 매번)."
     ]
   },
   {
@@ -334,47 +452,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "금방",
-        "in a moment / very soon",
-        "Future: something will happen quickly."
-      ],
-      [
         "금방 올게요",
         "I'll be right back",
-        "Promise to return quickly."
+        "Future use: promising a very quick return."
       ],
       [
         "금방 끝나요",
-        "it'll be done soon",
-        "Reassuring it won't take long."
+        "it'll be done in no time",
+        "Reassuring someone the wait is short."
       ],
       [
         "금방 왔어요",
         "I just got here",
-        "Past: a moment ago."
+        "Past use: it happened a moment ago."
+      ],
+      [
+        "금방 갈게요",
+        "I'm coming right away",
+        "On the phone, 'I'll be there in a sec'."
       ]
     ],
     "examples": [
       [
         "금방 갈게요.",
         "I'll be there in a moment.",
-        "Telling someone you'll arrive soon."
+        "Simple future 'soon'; reassuring you'll arrive quickly."
       ],
       [
-        "밥이 금방 돼요.",
-        "The food will be ready soon.",
-        "Reassuring a short wait."
+        "라면은 금방 되니까 조금만 기다려요.",
+        "Ramyeon cooks fast, so just wait a little.",
+        "금방 + 되다 ('be ready') — the everyday 'ready in no time' collocation."
       ],
       [
-        "그 사람 금방 갔어요.",
-        "That person left just now.",
-        "Past meaning: a moment ago."
+        "방금 전화한 사람, 금방 나갔어요.",
+        "The person who just called left a moment ago.",
+        "Past 금방 = 'just now'; note 방금 nearby — both can be past, but only 금방 also reaches forward."
       ]
     ],
-    "nuance": "금방 can mean both 'in a moment / very soon' (looking forward) and 'just now / a moment ago' (looking back), depending on the verb tense. With a future verb it means 'soon'; with a past verb it means 'just now'. It is very common and casual.",
+    "nuance": "금방 is a two-faced time word: with a FUTURE verb it means 'in a moment / very soon' (금방 올게요 'I'll be right back'), and with a PAST verb it means 'just now / a moment ago' (금방 갔어요 'left just now'). The tense of the verb decides which reading you get, so the same word swings both ways around the present — that's the thing to internalize. The sharp contrast is 금방 vs 방금: 방금 'just now' is strictly PAST (방금 도착했어요 'I just arrived') and cannot mean 'soon', whereas 금방 covers both directions. Origin-wise 금방 is Sino-Korean 今方 'now-just', and it's thoroughly casual, everyday speech. The classic English-speaker error is forcing 방금 into a future sentence or assuming 금방 only means 'soon' and missing its 'a moment ago' use. It takes no particle, sits before the verb, and habitually pairs with 오다/가다, 되다 ('be ready'), and 끝나다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "금방 is a two-faced time word: with a FUTURE verb it means 'in a moment / very soon' (금방 올게요 'I'll be right back'), and with a PAST verb it means 'just now / a moment ago' (금방 갔어요 'left just now'). The tense of the verb decides which reading you get, so the same word swings both ways around the present — that's the thing to internalize. It's thoroughly casual, everyday speech. It takes no particle, sits before the verb, and habitually pairs with 오다/가다, 되다 ('be ready'), and 끝나다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is 금방 vs 방금: 방금 'just now' is strictly PAST (방금 도착했어요 'I just arrived') and cannot mean 'soon', whereas 금방 covers both directions."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Origin-wise 금방 is Sino-Korean 今方 'now-just'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic English-speaker error is forcing 방금 into a future sentence or assuming 금방 only means 'soon' and missing its 'a moment ago' use."
+      }
+    ],
     "mistakes": [
-      "Confusing 금방 (soon / just now) with 방금 (just now, only past). 방금 is strictly past.",
-      "Adding 에 — 금방 takes no particle."
+      "Using 방금 for the future, e.g. ✗ 방금 갈게요 for 'I'll go soon'. 방금 is past-only; the forward-looking 'soon' is 금방 갈게요.",
+      "Assuming 금방 only means 'soon' and missing its past sense. With a past verb, 금방 왔어요 = 'I just got here a moment ago', not 'I'll come soon'.",
+      "Adding 에: ✗ 금방에. No particle — 금방 attaches straight to the verb."
     ]
   },
   {
@@ -388,47 +529,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "계속",
-        "continuously, the whole time",
-        "Action keeps going without stopping."
-      ],
-      [
         "계속하세요",
         "please continue",
-        "계속 + 하다 as a command."
-      ],
-      [
-        "계속 그래요",
-        "it keeps being like that",
-        "An ongoing situation."
+        "계속 + 하다 fused as a verb; common when telling someone to carry on."
       ],
       [
         "계속해서",
         "continuously, one after another",
-        "Connected form for 'keep on'."
+        "Connected -아서 form for 'keep on (doing)' without a break."
+      ],
+      [
+        "계속 그래요",
+        "it keeps being like that",
+        "An ongoing, unchanging situation."
+      ],
+      [
+        "계속 가다",
+        "keep going (straight on)",
+        "Useful in directions: 계속 직진하세요 'keep going straight'."
       ]
     ],
     "examples": [
       [
         "비가 계속 와요.",
         "It keeps raining.",
-        "Ongoing weather."
+        "Ongoing, unbroken action; 계속 before the verb."
       ],
       [
-        "아기가 계속 울어요.",
-        "The baby keeps crying.",
-        "Continuous action."
+        "여기서 계속 직진하면 지하철역이 나와요.",
+        "If you keep going straight here, you'll reach the subway station.",
+        "계속 + 직진하다 in real directions — 'continuously, without turning'."
       ],
       [
-        "계속 공부했어요.",
-        "I kept studying / studied the whole time.",
-        "Sustained effort."
+        "아기가 자꾸 깨서 밤새 계속 안아 줬어요.",
+        "The baby kept waking up, so I held her all night long.",
+        "Contrasts 자꾸 (over and over, intermittently) with 계속 (the whole time, unbroken)."
       ]
     ],
-    "nuance": "계속 means an action keeps going without stopping ('continuously / keep ~ing'). It goes before the verb. Compare 자꾸, which means 'repeatedly / again and again' and often carries mild annoyance, while 계속 is just 'nonstop'.",
+    "nuance": "계속 means an action or state keeps going WITHOUT a break — 'continuously / the whole time / keep ~ing'. It's Sino-Korean 繼續 'connect-continue', which is exactly the image: things joined end to end with no gap. It can fuse with 하다 into the verb 계속하다 'to continue (something)' and appears as the connector 계속해서 'on and on'. The contrast to nail is 계속 vs 자꾸: 계속 is unbroken duration (비가 계속 와요 'it rains nonstop'), while 자꾸 is 'again and again, repeatedly' with gaps between tries, and usually carries a tinge of annoyance (자꾸 전화가 와요 'calls keep coming, ugh'). So 'the baby cried the whole time' is 계속 울었어요, but 'the baby kept waking up (on and off)' leans 자꾸 깼어요. Also distinguish the durative '-고 있다' (in progress right now) — 계속 stresses unbroken continuation over a stretch. No particle, before the verb; collocates with 오다, 가다, 하다, and direction verbs like 직진하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "계속 means an action or state keeps going WITHOUT a break — 'continuously / the whole time / keep ~ing'. It can fuse with 하다 into the verb 계속하다 'to continue (something)' and appears as the connector 계속해서 'on and on'. No particle, before the verb; collocates with 오다, 가다, 하다, and direction verbs like 직진하다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to nail is 계속 vs 자꾸: 계속 is unbroken duration (비가 계속 와요 'it rains nonstop'), while 자꾸 is 'again and again, repeatedly' with gaps between tries, and usually carries a tinge of annoyance (자꾸 전화가 와요 'calls keep coming, ugh'). So 'the baby cried the whole time' is 계속 울었어요, but 'the baby kept waking up (on and off)' leans 자꾸 깼어요. Also distinguish the durative '-고 있다' (in progress right now) — 계속 stresses unbroken continuation over a stretch."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It's Sino-Korean 繼續 'connect-continue', which is exactly the image: things joined end to end with no gap."
+      }
+    ],
     "mistakes": [
-      "Using 계속 (nonstop) when you mean 'over and over' with a slight complaint — that nuance is 자꾸.",
-      "Saying 계속에 — no particle is used."
+      "Using 계속 (nonstop, unbroken) when you mean 'over and over' with mild irritation, e.g. on-and-off pestering. That intermittent, annoyed nuance is 자꾸: 자꾸 물어봐요 'they keep asking (and it's bugging me)'.",
+      "Saying 계속에 — no particle. Use bare 계속, or the verb 계속하다 / connector 계속해서.",
+      "Forgetting 계속 can take an object via 계속하다, e.g. 'continue the meeting' is 회의를 계속하다, not ✗ 회의를 계속 (adverb alone needs a following verb)."
     ]
   },
   {
@@ -443,46 +602,69 @@
     "usage": [
       [
         "평소에",
-        "usually, normally",
-        "Most natural with 에 attached."
+        "usually, in normal times",
+        "The natural adverbial form — 평소 almost always wears 에 here."
       ],
       [
         "평소처럼",
-        "as usual",
-        "처럼 = like; 'like usual'."
+        "as usual, like always",
+        "처럼 'like' + 평소 = behaving the same as on an ordinary day."
       ],
       [
         "평소보다",
         "than usual",
-        "보다 = than; for comparisons."
+        "보다 'than' makes it a comparison against your normal baseline."
       ],
       [
-        "평소 생활",
-        "everyday life",
-        "Used before a noun too."
+        "평소 실력",
+        "one's usual ability",
+        "Used attributively before a noun: 평소 실력대로 'as per usual form'."
       ]
     ],
     "examples": [
       [
         "평소에 일찍 자요.",
         "I usually go to bed early.",
-        "Describing a normal habit."
+        "Plain habit; the 에 is essential here for the 'usually' sense."
       ],
       [
-        "평소보다 사람이 많아요.",
-        "There are more people than usual.",
-        "Comparison with 보다."
+        "오늘은 평소보다 사람이 훨씬 많아요.",
+        "Today there are far more people than usual.",
+        "평소보다 comparison; 오늘 (today) is implicitly measured against the normal baseline."
       ],
       [
-        "오늘은 평소처럼 출근했어요.",
-        "Today I went to work as usual.",
-        "평소처럼 = as usual."
+        "긴장했지만 평소처럼 침착하게 발표했어요.",
+        "I was nervous but presented calmly, as usual.",
+        "Real situation; 평소처럼 means 'the same way I normally do'."
       ]
     ],
-    "nuance": "평소 means 'usual / normal times', and in everyday speech it is most often used as 평소에 ('usually') or in comparisons like 평소보다 ('than usual'). It describes your normal baseline, against which you can contrast today. 보통 is a close synonym for 'usually'.",
+    "nuance": "평소 is a Sino-Korean noun, 平素 'level-plain / ordinary times', meaning your normal, everyday baseline — the way things usually are when nothing special is going on. Because it's fundamentally a noun, it leans on particles: in conversation it's overwhelmingly 평소에 'usually', or comparative 평소보다 'than usual', or 평소처럼 'as usual'. Its job is to set a default against which you contrast today (평소보다 많아요 'more than usual'). The near-synonym 보통 普通 also means 'usually/ordinarily' and overlaps heavily; the subtle feel is that 평소 points to 'one's ordinary times/baseline' while 보통 states 'as a general rule', so 평소에 운동해요 and 보통 운동해요 are both fine. The English-speaker trap is treating 평소 like a bare adverb such as 항상 and dropping the particle — 'I usually...' wants 평소에, not lonely 평소. It's also not a verb, so never conjugate it; pair it with 에, 보다, 처럼, and attributive nouns (실력, 생활).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "평소 is a noun meaning your normal, everyday baseline — the way things usually are when nothing special is going on. Because it's fundamentally a noun, it leans on particles: in conversation it's overwhelmingly 평소에 'usually', or comparative 평소보다 'than usual', or 평소처럼 'as usual'. Its job is to set a default against which you contrast today (평소보다 많아요 'more than usual'). It's also not a verb, so never conjugate it; pair it with 에, 보다, 처럼, and attributive nouns (실력, 생활)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym 보통 普通 also means 'usually/ordinarily' and overlaps heavily; the subtle feel is that 평소 points to 'one's ordinary times/baseline' while 보통 states 'as a general rule', so 평소에 운동해요 and 보통 운동해요 are both fine."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "평소 is a Sino-Korean noun, 平素 'level-plain / ordinary times'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker trap is treating 평소 like a bare adverb such as 항상 and dropping the particle — 'I usually...' wants 평소에, not lonely 평소."
+      }
+    ],
     "mistakes": [
-      "Forgetting the particle: for 'usually' the natural form is 평소에, not bare 평소.",
-      "Treating 평소 as a verb — it is a noun/time word, not an action."
+      "Dropping the particle for 'usually', e.g. ✗ 평소 일찍 자요. The idiomatic adverbial is 평소에 일찍 자요. (Bare 평소 survives mainly before a noun, like 평소 생활.)",
+      "Treating 평소 as a verb or conjugating it (✗ 평소해요). It's a noun/time word; the action comes from a separate verb after 평소에.",
+      "Forcing a 평소보다 comparison without the thing compared, e.g. ✗ 평소보다요 alone. You need both sides: 평소보다 사람이 많아요 ('more people than usual')."
     ]
   },
   {
@@ -498,45 +680,63 @@
       [
         "어서 오세요",
         "welcome (come on in)",
-        "Standard shop/host greeting."
-      ],
-      [
-        "어서",
-        "hurry, go ahead",
-        "Gentle urging to do something."
+        "The standard shop/host greeting — you'll hear it everywhere in Korea."
       ],
       [
         "어서 드세요",
         "please go ahead and eat",
-        "Urging a guest warmly."
+        "Warmly urging a guest to start their meal."
+      ],
+      [
+        "어서 들어오세요",
+        "please come on in",
+        "Inviting someone inside with welcoming haste."
       ],
       [
         "어서요",
-        "please, go on",
-        "Softened with 요."
+        "go on, please",
+        "Standalone, softened with 요 when nudging someone to proceed."
       ]
     ],
     "examples": [
       [
         "어서 오세요.",
         "Welcome! / Come on in.",
-        "You will hear this in every shop."
+        "The all-purpose greeting in every store and restaurant."
       ],
       [
-        "어서 들어오세요.",
-        "Please come in.",
-        "Welcoming someone inside."
+        "추운데 어서 들어오세요.",
+        "It's cold, so please come on in.",
+        "어서 + a caring reason; the urging is warm, not bossy."
       ],
       [
-        "시간 없어요, 어서 가요.",
-        "We have no time, let's hurry and go.",
-        "Urging speed kindly."
+        "시간 없어요, 어서 서두르세요.",
+        "We're out of time, please hurry up.",
+        "Even when rushing, 어서 keeps a polite tone — paired with 서두르다 'to hurry'."
       ]
     ],
-    "nuance": "어서 urges someone to do something soon, but in a warm, welcoming way rather than a harsh 'hurry up'. You will hear 어서 오세요 ('welcome') constantly in stores and restaurants. It pairs naturally with polite commands like 오세요 and 드세요.",
+    "nuance": "어서 urges someone to do something soon, but its color is WARM and welcoming rather than the brusque 'hurry up!' of English. That register is everything: it lives almost entirely with polite imperatives, above all the ubiquitous 어서 오세요 'welcome', plus 어서 드세요 / 어서 들어오세요. The sharp contrast is 어서 vs 빨리: 빨리 is plain, neutral-to-blunt 'fast/quickly' and can sound impatient or commanding (빨리 와! 'come fast!'), whereas 어서 hospitably invites and would feel odd shouted in irritation. So a host says 어서 오세요, but a stressed coach barks 빨리빨리. A close, even gentler relative is 어여/얼른 in casual speech ('quick, come on'). The English-speaker pitfall is using 어서 as a sharp command or sticking it on blunt forms — keep it with warm 세요-imperatives. It takes no particle and stands before the verb; alone it softens to 어서요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "어서 urges someone to do something soon, but its color is WARM and welcoming rather than the brusque 'hurry up!' of English. That register is everything: it lives almost entirely with polite imperatives, above all the ubiquitous 어서 오세요 'welcome', plus 어서 드세요 / 어서 들어오세요. It takes no particle and stands before the verb; alone it softens to 어서요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast is 어서 vs 빨리: 빨리 is plain, neutral-to-blunt 'fast/quickly' and can sound impatient or commanding (빨리 와! 'come fast!'), whereas 어서 hospitably invites and would feel odd shouted in irritation. So a host says 어서 오세요, but a stressed coach barks 빨리빨리. A close, even gentler relative is 어여/얼른 in casual speech ('quick, come on')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is using 어서 as a sharp command or sticking it on blunt forms — keep it with warm 세요-imperatives. Also don't confuse the adverb 어서 with the connector ending '-아서/어서' (because/and-then): 어서 'go ahead, quickly' is one word; 먹어서 'because (I) ate' is a verb stem + ending — totally different."
+      }
+    ],
     "mistakes": [
-      "Using 어서 as a sharp 'hurry up!' — it is gentle/welcoming; for blunt urgency use 빨리.",
-      "Confusing 어서 with 어서요 — add 요 only when used alone as a soft 'please go on'."
+      "Using 어서 as an impatient 'hurry up!', e.g. snapping ✗ 어서! at someone you're annoyed with. For blunt urgency use 빨리; 어서 is welcoming, not scolding.",
+      "Pairing it with a cold command form, e.g. ✗ 어서 가 (blunt). It belongs with polite imperatives: 어서 가세요 / 어서 오세요.",
+      "Confusing the adverb 어서 with the connector ending '-아서/어서' (because/and-then). 어서 'go ahead, quickly' is one word; 먹어서 'because (I) ate' is a verb stem + ending — totally different."
     ]
   },
   {
@@ -550,47 +750,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "잠깐",
-        "for a moment, briefly",
-        "A very short amount of time."
-      ],
-      [
         "잠깐만요",
         "just a moment, please",
-        "Asking someone to wait briefly."
+        "Super useful for asking someone to hold on a sec; 만 'just' + 요."
       ],
       [
         "잠깐만",
         "hold on (casual)",
-        "Casual 'wait a sec'."
+        "Same idea among friends — 'wait a sec'."
       ],
       [
         "잠깐 시간 있어요?",
         "do you have a moment?",
-        "Polite way to ask for time."
+        "Polite opener when you want a brief word with someone."
+      ],
+      [
+        "잠깐 동안",
+        "for a brief while",
+        "동안 'during' frames the short span of time."
       ]
     ],
     "examples": [
       [
         "잠깐 기다려 주세요.",
         "Please wait a moment.",
-        "Common polite request."
+        "Everyday polite request; 잠깐 sets the short duration."
       ],
       [
-        "잠깐 쉬어요.",
-        "Let's take a short break.",
-        "Suggesting a quick rest."
+        "잠깐만요, 지갑을 안 가져왔어요.",
+        "Hold on a sec — I didn't bring my wallet.",
+        "잠깐만요 as a real-life 'wait!' interjection mid-situation."
       ],
       [
-        "잠깐 이야기 좀 해요.",
-        "Let's talk for a moment.",
-        "Asking for a brief chat."
+        "우리 여기서 잠깐 쉬었다 가요.",
+        "Let's rest here a bit before we go.",
+        "잠깐 + 쉬다 ('rest'); the natural way to suggest a quick breather."
       ]
     ],
-    "nuance": "잠깐 means 'for a short moment / briefly'. It is everyday and conversational, and 잠깐만요 is one of the most useful phrases for asking someone to hold on. 잠시 is a slightly more formal synonym you will hear in announcements.",
+    "nuance": "잠깐 means 'for a short moment / briefly', a span felt in seconds to a few minutes — never a long stretch. It's everyday, conversational, and the derived 잠깐만요 is one of the single most useful phrases a learner can own: it's how you say 'wait a sec / excuse me, hold on' to stop someone politely. The near-twin to contrast is 잠시: 잠시 means the same 'briefly' but sounds a touch more formal and refined, so you hear 잠시 후에 ('shortly') and 잠시만 기다려 주세요 in announcements, whereas 잠깐 dominates casual speech. Both are essentially native-flavored time words taking no particle. The English-speaker pitfall is stretching 잠깐 to cover a genuinely long wait ('I waited a while' that lasted an hour isn't 잠깐) and adding 에 (✗ 잠깐에). Place it before the verb; it collocates with 기다리다, 쉬다, 시간 있다, and the attention-getting 잠깐만(요).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "잠깐 means 'for a short moment / briefly', a span felt in seconds to a few minutes — never a long stretch. It's everyday, conversational, and the derived 잠깐만요 is one of the single most useful phrases a learner can own: it's how you say 'wait a sec / excuse me, hold on' to stop someone politely. It's a native-flavored time word taking no particle. Place it before the verb; it collocates with 기다리다, 쉬다, 시간 있다, and the attention-getting 잠깐만(요)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-twin to contrast is 잠시: 잠시 means the same 'briefly' but sounds a touch more formal and refined, so you hear 잠시 후에 ('shortly') and 잠시만 기다려 주세요 in announcements, whereas 잠깐 dominates casual speech."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is stretching 잠깐 to cover a genuinely long wait ('I waited a while' that lasted an hour isn't 잠깐) and adding 에 (✗ 잠깐에)."
+      }
+    ],
     "mistakes": [
-      "Adding 에 (잠깐에) — it is an adverb and takes no particle.",
-      "Using 잠깐 for a long wait — it specifically means a very short time."
+      "Using 잠깐 for a long wait, e.g. ✗ 한 시간 잠깐 기다렸어요. 잠깐 means a very short moment; an hour is 한참/오래, not 잠깐.",
+      "Adding a particle: ✗ 잠깐에. None needed — 잠깐 + verb, or 잠깐 동안 for 'for a brief while'.",
+      "Reaching for stiff 잠시 with close friends. 잠시만요 isn't wrong but can sound formal; among friends 잠깐만 is more natural."
     ]
   },
   {
@@ -604,47 +822,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "잠시",
-        "for a moment, briefly",
-        "Slightly more formal than 잠깐."
-      ],
-      [
         "잠시만요",
         "one moment, please",
-        "Polite 'hold on'."
+        "Polite 'hold on'; a notch more formal than 잠깐만요."
       ],
       [
         "잠시 후에",
-        "after a short while",
-        "Common in announcements."
+        "after a short while, shortly",
+        "Stock announcement phrase: 잠시 후에 출발합니다."
       ],
       [
         "잠시 동안",
         "for a short while",
-        "동안 = during/for."
+        "동안 'during' marks the brief span."
+      ],
+      [
+        "잠시 실례하겠습니다",
+        "excuse me for a moment (formal)",
+        "Polite set phrase for stepping away briefly."
       ]
     ],
     "examples": [
       [
         "잠시만 기다려 주세요.",
         "Please wait just a moment.",
-        "Polite, slightly formal."
+        "Polite and slightly formal; common at counters and on the phone."
       ],
       [
-        "잠시 후에 출발해요.",
-        "We'll leave in a short while.",
-        "잠시 후에 = after a bit."
+        "열차가 잠시 후에 도착하겠습니다.",
+        "The train will arrive shortly.",
+        "잠시 후에 in its natural habitat — public announcements."
       ],
       [
-        "여기서 잠시 쉬어요.",
-        "Let's rest here for a moment.",
-        "Suggesting a brief stop."
+        "회의 중에 잠시 실례하겠습니다.",
+        "Excuse me for a moment during the meeting.",
+        "Formal register; 잠시 + 실례하다 to step out politely."
       ]
     ],
-    "nuance": "잠시 means 'for a brief moment', very close to 잠깐 but a little more formal and polite. You hear it in public announcements (잠시 후에, 잠시만 기다려 주세요). In casual speech, 잠깐 is more common; 잠시 sounds a touch more refined.",
+    "nuance": "잠시 means 'for a brief moment', essentially the same duration as 잠깐, but the register is the whole difference: 잠시 is more formal, polished, and public, which is why it owns announcements and signage — 잠시 후에 도착합니다 ('arriving shortly'), 잠시만 기다려 주세요. The contrast to learn is exactly 잠시 vs 잠깐: identical meaning, but 잠깐 is casual everyday talk while 잠시 is the refined, written-or-announced choice (think 'one moment' on a PA system vs 'hold on a sec' to a friend). 잠시 is Sino-Korean 暫時 'briefly-time', which fits its tidier feel. The English-speaker pitfall is assuming the two words differ in length of time — they don't; only the politeness/formality differs — and as usual not adding 에 to the bare adverb (✗ 잠시에; instead 잠시 후에 / 잠시 동안). Place it before the verb; it collocates with 기다리다, 후에, 동안, and formal 실례하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "잠시 means 'for a brief moment', and the register is the whole difference: 잠시 is more formal, polished, and public, which is why it owns announcements and signage — 잠시 후에 도착합니다 ('arriving shortly'), 잠시만 기다려 주세요. Place it before the verb; it collocates with 기다리다, 후에, 동안, and formal 실례하다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to learn is exactly 잠시 vs 잠깐: essentially the same duration and identical meaning, but 잠깐 is casual everyday talk while 잠시 is the refined, written-or-announced choice (think 'one moment' on a PA system vs 'hold on a sec' to a friend)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "잠시 is Sino-Korean 暫時 'briefly-time', which fits its tidier feel."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is assuming the two words differ in length of time — they don't; only the politeness/formality differs — and as usual not adding 에 to the bare adverb (✗ 잠시에; instead 잠시 후에 / 잠시 동안)."
+      }
+    ],
     "mistakes": [
-      "Thinking 잠시 and 잠깐 differ in meaning — they are the same; 잠시 is just more formal.",
-      "Saying 잠시에 — no particle; use 잠시 후에 or 잠시 동안 instead."
+      "Thinking 잠시 and 잠깐 differ in actual duration. They mean the same brief span; the difference is register — 잠시 formal, 잠깐 casual.",
+      "Saying 잠시에 — no particle on the bare adverb. Use 잠시 후에 ('shortly') or 잠시 동안 ('for a short while').",
+      "Using formal 잠시 in very casual chat where 잠깐 fits better, e.g. to a close friend 잠깐만! sounds more natural than a stiff 잠시만."
     ]
   },
   {
@@ -658,47 +899,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "처음",
-        "the first time / the beginning",
-        "Can act as a noun or time word."
-      ],
-      [
         "처음에",
         "at first, in the beginning",
-        "With 에 for 'at the start'."
+        "With 에 for 'at the start', usually setting up a later contrast."
       ],
       [
         "처음으로",
         "for the first time",
-        "으로 marks the firstness."
+        "으로 marks the 'firstness' of an experience."
       ],
       [
         "처음 뵙겠습니다",
-        "nice to meet you (first time)",
-        "Set greeting on first meeting."
+        "nice to meet you (first meeting)",
+        "Fixed formal greeting the very first time you meet someone."
+      ],
+      [
+        "처음부터",
+        "from the (very) beginning",
+        "부터 'from' = right from the start, often 'do it over from scratch'."
       ]
     ],
     "examples": [
       [
         "한국에 처음 왔어요.",
         "I came to Korea for the first time.",
-        "First-time experience."
+        "Plain first-experience sentence; 처음 right before the verb."
       ],
       [
-        "처음에는 한국어가 어려웠어요.",
-        "At first Korean was hard.",
-        "처음에는 = at first (topic)."
+        "처음에는 어려웠는데 지금은 괜찮아요.",
+        "At first it was hard, but now it's fine.",
+        "처음에 sets up the classic 'at first... but now' contrast with 지금."
       ],
       [
-        "이 음식은 처음 먹어요.",
-        "I'm eating this food for the first time.",
-        "Trying something new."
+        "만나서 반갑습니다. 처음 뵙겠습니다.",
+        "Glad to meet you. It's the first time meeting you.",
+        "Real-situation set phrase for a first introduction — memorize as a unit."
       ]
     ],
-    "nuance": "처음 means 'the first time' or 'the beginning'. As a time word it often appears as 처음에 ('at first') to contrast with how things are later, or as 처음으로 ('for the first time'). Its opposite is 마지막 (the last). You will meet it early in 처음 뵙겠습니다.",
+    "nuance": "처음 means 'the first time' or 'the beginning', and it flexibly works as both a noun and a time adverb. As a time word it most often appears as 처음에 'at first' — typically to contrast the early state with how things turn out later (처음에는 어려웠어요 'at first it was hard') — or as 처음으로 'for the first time' for a brand-new experience. Its opposite is 마지막 'the last/final'. The sharp contrast to master is 처음 vs 먼저: 처음 is 'the first TIME / the beginning' (a point in time), whereas 먼저 is 'first in ORDER / ahead of others, beforehand' (먼저 가세요 'go ahead first', 먼저 손을 씻으세요 'wash your hands first'). So 'I'll do this first (before that)' is 먼저, but 'I did this for the first time' is 처음. English 'first' blurs both, which is the trap. You'll meet 처음 early in the set greeting 처음 뵙겠습니다. It pairs with 에, 으로, 부터, and 뵙다/오다/먹다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "처음 means 'the first time' or 'the beginning', and it flexibly works as both a noun and a time adverb. As a time word it most often appears as 처음에 'at first' — typically to contrast the early state with how things turn out later (처음에는 어려웠어요 'at first it was hard') — or as 처음으로 'for the first time' for a brand-new experience. Its opposite is 마지막 'the last/final'. You'll meet 처음 early in the set greeting 처음 뵙겠습니다. It pairs with 에, 으로, 부터, and 뵙다/오다/먹다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast to master is 처음 vs 먼저: 처음 is 'the first TIME / the beginning' (a point in time), whereas 먼저 is 'first in ORDER / ahead of others, beforehand' (먼저 가세요 'go ahead first', 먼저 손을 씻으세요 'wash your hands first'). So 'I'll do this first (before that)' is 먼저, but 'I did this for the first time' is 처음."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'first' blurs both 처음 and 먼저, which is the trap."
+      }
+    ],
     "mistakes": [
-      "Confusing 처음 (first / at first) with 먼저 (first in order, 'go ahead first'). They are not the same.",
-      "Forgetting 에 when you mean 'at first' — that nuance comes from 처음에."
+      "Confusing 처음 (first time / at first) with 먼저 (first in order, beforehand). 'Go ahead first' is 먼저 가세요, NOT ✗ 처음 가세요.",
+      "Forgetting 에 when you mean 'at first', e.g. ✗ 처음 어려웠어요 for the contrastive 'at first'. Use 처음에(는) 어려웠어요.",
+      "Breaking up the fixed greeting, e.g. ✗ 처음에 뵙겠습니다. It's the set phrase 처음 뵙겠습니다 — learn it whole, no particle."
     ]
   }
 ]

@@ -7,20 +7,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["결혼식에 가다", "go to a wedding", "Most common verb pairing; the ceremony is an event you attend"],
-      ["결혼식을 올리다", "hold a wedding", "Set phrase for the couple holding/having their wedding; sounds more natural than 결혼식을 하다"],
-      ["결혼식장", "wedding hall / venue", "Add -장 for the physical venue; also called 예식장"],
-      ["결혼식에 초대받다", "be invited to a wedding", "You receive a 청첩장 (invitation) for this"]
+      ["결혼식에 가다", "go to a wedding", "Take the particle 에 (destination/event), never 을 — you go TO the event"],
+      ["결혼식을 올리다", "hold a wedding", "Set idiom for the couple having their ceremony; 올리다 (lit. 'raise/offer up') sounds more elevated than 하다"],
+      ["결혼식장 / 예식장", "wedding hall / venue", "Add 場 (-장, 'place') for the building; 예식장 (禮式場) is the equally common synonym"],
+      ["결혼식에 초대받다", "be invited to a wedding", "You receive a 청첩장 (invitation); 초대받다 = 'be invited' in passive"]
     ],
     "examples": [
-      ["다음 주 토요일에 친구 결혼식이 있어서 못 가요.", "I can't go because I have a friend's wedding next Saturday.", "Weekend weddings are the norm in Korea, so this is a very common excuse"],
-      ["결혼식은 보통 30분에서 1시간이면 끝나요.", "Weddings usually end in 30 minutes to an hour.", "Korean weddings are short; the meal afterward matters more socially"],
-      ["결혼식 끝나고 식당에서 밥 먹고 가세요.", "After the wedding, please eat at the dining hall before you leave.", "The buffet/meal after is expected; your 축의금 covers it"]
+      ["다음 주에 결혼식이 있어요.", "There's a wedding next week.", "Simple 있다 existence sentence — note 결혼식이, the subject marker, not 결혼식을"],
+      ["주말마다 결혼식이 많아서 좀 부담돼요.", "There are so many weddings every weekend that it's a bit of a financial burden.", "마다 = 'every'; weekend weddings + 축의금 are a real money pressure Koreans joke about"],
+      ["부장님 딸 결혼식이라 회사 사람들이 다 같이 갔어요.", "It was our manager's daughter's wedding, so everyone from the office went together.", "Shows the workplace-obligation register: attending a boss's family wedding is near-mandatory"]
     ],
-    "nuance": "결혼식 is the ceremony itself, while 결혼 is the marriage/getting married. In Korea the ceremony is often surprisingly brief and the real social event is the meal afterward, which your cash gift (축의금) pays toward. Saying 결혼식에 가요 signals you're attending as a guest.",
+    "nuance": "결혼식 is the wedding CEREMONY (식 = 式 'ceremony/rite'), as opposed to 결혼 (結婚, 'tie + marry'), which is the marriage or the act of getting married — so 결혼했어요 means 'I got married,' while 결혼식에 갔어요 means 'I attended a wedding.' That 결혼/결혼식 split is the #1 trap for English speakers, since English 'wedding' blurs both. Compared with the everyday synonym 예식 (禮式, 'ceremony of courtesy'), 결혼식 is the plain default and 예식 sounds slightly more formal/venue-flavored (hence 예식장). The ceremony itself is famously short (30–60 minutes); the socially weighty part is the buffet meal afterward, which your cash gift 축의금 helps cover. Habitual collocations: 결혼식에 가다/참석하다, 결혼식을 올리다, 결혼식장. Take 에 for attendance — 결혼식을 가다 is a common particle error.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "결혼식 is the wedding CEREMONY (식 = 式 'ceremony/rite'). The ceremony itself is famously short (30–60 minutes); the socially weighty part is the buffet meal afterward, which your cash gift 축의금 helps cover. Habitual collocations: 결혼식에 가다/참석하다, 결혼식을 올리다, 결혼식장."},
+      {"k": "비슷한 말", "e": "VS", "t": "결혼 (結婚, 'tie + marry') is the marriage or the act of getting married — 결혼했어요 means 'I got married,' while 결혼식에 갔어요 means 'I attended a wedding.' Compared with the everyday synonym 예식 (禮式, 'ceremony of courtesy'), 결혼식 is the plain default and 예식 sounds slightly more formal/venue-flavored (hence 예식장)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "식 = 式 'ceremony/rite'; 결혼 = 結婚 'tie + marry'; 예식 = 禮式 'ceremony of courtesy.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The 결혼/결혼식 split is the #1 trap for English speakers, since English 'wedding' blurs both. Take 에 for attendance — 결혼식을 가다 is a common particle error."}
+    ],
     "mistakes": [
-      "Don't confuse 결혼식 (the ceremony) with 결혼 (marriage); '결혼했어요' means you got married, not that you attended a wedding.",
-      "Avoid 결혼식을 가다; the natural particle is 에 — 결혼식에 가다."
+      "Don't confuse 결혼식 (the ceremony you attend) with 결혼 (the marriage): '결혼했어요' means YOU got married, so saying it when you only went to a friend's wedding wrongly announces your own marriage. Use 결혼식에 갔어요.",
+      "Avoid 결혼식을 가다 — 'go' targets a destination, so the natural particle is 에: 결혼식에 가다. The 을/를 here sounds like you're somehow 'doing' the wedding.",
+      "Don't say 결혼식을 하다 for the couple holding it; the idiomatic verb is 올리다 (결혼식을 올리다) or simply 결혼하다."
     ]
   },
   {
@@ -31,20 +38,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["장례식에 가다", "go to a funeral", "Standard verb; you attend to pay respects"],
-      ["장례식장", "funeral hall", "Often inside or attached to a hospital; where the wake is held"],
-      ["장례식에 참석하다", "attend a funeral", "More formal than 가다; common in workplace contexts"],
-      ["장례를 치르다", "carry out a funeral", "Said of the bereaved family holding the funeral (drop -식)"]
+      ["장례식에 가다", "go to a funeral", "Particle 에 for attendance; you go to pay respects (조문하다)"],
+      ["장례식장 / 빈소", "funeral hall / wake room", "장례식장 (場) is the building, often inside a hospital; 빈소 (殯所) is the specific mourning room"],
+      ["장례식에 참석하다", "attend a funeral", "參席 'take part'; more formal than 가다, standard in workplace announcements"],
+      ["장례를 치르다", "carry out a funeral", "Said of the bereaved family holding it; drop 식 and use 치르다 ('go through / carry out')"]
     ],
     "examples": [
-      ["부장님 아버님 장례식에 다 같이 갔어요.", "We all went together to our manager's father's funeral.", "Attending a coworker's family funeral is a strong workplace obligation in Korea"],
-      ["장례식장에서는 보통 검은 옷을 입어요.", "People usually wear black clothes at the funeral hall.", "Dark, plain clothing is expected; bright colors are inappropriate"],
-      ["장례식에 가서 조의금을 냈어요.", "I went to the funeral and gave a condolence gift.", "Cash in a white envelope (조의금) is the customary gesture"]
+      ["장례식에 검은 옷을 입고 갔어요.", "I wore black clothes to the funeral.", "Basic 입고 가다 ('wear and go'); dark, plain clothing is expected"],
+      ["부장님 아버님 장례식이라 부서 사람들이 다 조문하러 갔어요.", "It was our manager's father's funeral, so the whole team went to pay respects.", "조문하러 가다 = 'go in order to pay condolences'; teaches the -러 purpose ending in a real obligation context"],
+      ["갑작스러운 부고라 장례식장에 바로 달려갔어요.", "It was such sudden news that I rushed straight to the funeral hall.", "Real-situation register; 달려가다 ('run/rush to') conveys urgency and closeness to the bereaved"]
     ],
-    "nuance": "Korean funerals (장례식) typically run three days and are held at a 장례식장, frequently located within a hospital. Attending the wake of a colleague's or friend's family member is a significant social duty, and you bring 조의금 in a plain white envelope. Wear muted, dark clothing.",
+    "nuance": "장례식 is a funeral — 葬 'bury' + 禮 'rite' + 式 'ceremony,' literally the 'burial-rite ceremony.' Distinguish it from the act-focused 장례 (葬禮, the funeral proceedings the family 치르다 'carries out') and from 조문/문상 (弔問/問喪), which is what a GUEST does — paying condolences. So the family 장례를 치르다, while you 장례식에 가서 조문하다. Korean funerals typically run three days at a 장례식장 frequently attached to a hospital, with the 빈소 (殯所, wake room) as the core space. Attending a colleague's or friend's family wake is a heavy social duty; you bring 조의금 in a plain white envelope and wear muted dark clothing. English speakers wrongly carry over 'congratulations'-type warmth — the funeral register is solemn and understated, and bright clothing or cheerful words badly misfire.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "장례식 is a funeral, literally the 'burial-rite ceremony.' Korean funerals typically run three days at a 장례식장 frequently attached to a hospital, with the 빈소 (殯所, wake room) as the core space. Attending a colleague's or friend's family wake is a heavy social duty; you bring 조의금 in a plain white envelope and wear muted dark clothing."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it from the act-focused 장례 (葬禮, the funeral proceedings the family 치르다 'carries out') and from 조문/문상 (弔問/問喪), which is what a GUEST does — paying condolences. So the family 장례를 치르다, while you 장례식에 가서 조문하다."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "葬 'bury' + 禮 'rite' + 式 'ceremony'; 장례 = 葬禮; 조문/문상 = 弔問/問喪; 빈소 = 殯所 'wake room.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "English speakers wrongly carry over 'congratulations'-type warmth — the funeral register is solemn and understated, and bright clothing or cheerful words badly misfire."}
+    ],
     "mistakes": [
-      "Don't bring or say 축하 (congratulations) anything; the correct sentiment is 삼가 고인의 명복을 빕니다 or simply offering condolences.",
-      "Don't confuse the white-envelope 조의금 (funeral) with the wedding 축의금; mixing them up is a serious faux pas."
+      "Don't say or bring anything 축하 (congratulatory): the correct sentiment is 삼가 고인의 명복을 빕니다 ('I humbly pray for the deceased's peace') or a quiet word of condolence. 축하 at a funeral is a severe register error.",
+      "Don't confuse the white-envelope 조의금 (funeral) with the wedding 축의금; using the wrong word or a colored envelope is a serious faux pas.",
+      "Don't mix up 장례식 (the ceremony/event) with 장례 (the family's act of holding it): a guest goes to the 장례식, but it's the family that 장례를 치르다."
     ]
   },
   {
@@ -55,20 +69,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["돌잔치를 하다", "hold a first-birthday party", "Said of the parents throwing the party"],
-      ["돌잔치에 초대받다", "be invited to a doljanchi", "You may get invited by coworkers or friends with a baby"],
-      ["돌잔치 답례품", "doljanchi return gift", "Small gift the parents give guests in thanks (떡, towels, etc.)"],
-      ["돌잡이", "doljabi (the grabbing ritual)", "The highlight where the baby picks an object predicting its future"]
+      ["돌잔치를 하다", "hold a first-birthday party", "Said of the parents throwing it; 하다 is natural here"],
+      ["돌잔치에 초대받다", "be invited to a doljanchi", "Coworkers/friends with a baby invite you; implies a gift or cash"],
+      ["돌잡이", "doljabi (the grabbing ritual)", "The highlight: the baby grabs an object said to foretell its future"],
+      ["돌 답례품 / 답례떡", "first-birthday return gift", "答禮 'gift in return'; parents give guests 떡, towels, etc. in thanks"]
     ],
     "examples": [
-      ["동료 아기 돌잔치에 초대받아서 갔어요.", "I was invited to my coworker's baby's first-birthday party, so I went.", "A common reason to give a baby gift or cash"],
-      ["돌잔치에서 아기가 돌잡이로 마이크를 잡았어요.", "At the doljanchi the baby grabbed the microphone in the doljabi.", "Guests cheer for whichever object the baby picks"],
-      ["요즘은 돌잔치를 작게 가족끼리만 하기도 해요.", "These days some people hold the doljanchi small, just with family.", "Lavish hall parties are declining; intimate ones are trendy now"]
+      ["다음 달에 조카 돌잔치가 있어요.", "My niece's first-birthday party is next month.", "Simple 있다 sentence; 돌잔치 takes the subject marker 가"],
+      ["돌잔치에서 아기가 돌잡이로 마이크를 잡았어요.", "At the doljanchi the baby grabbed the microphone in the doljabi.", "에서 marks the location of the action; guests cheer whichever object the baby picks"],
+      ["요즘은 돌잔치를 작게 가족끼리만 하는 집도 많아요.", "These days many families hold the doljanchi small, just among relatives.", "끼리 = 'among (only)'; reflects the real shift from lavish halls to intimate gatherings"]
     ],
-    "nuance": "돌 is a baby's first birthday, historically a milestone because infant mortality was high, and 돌잔치 is the celebration. The signature moment is 돌잡이, where the baby grabs an object said to foretell its future. As a guest you typically give cash or a gift, and lavish hall-style parties have become more low-key recently.",
+    "nuance": "돌잔치 = 돌 (native Korean for a baby's first birthday) + 잔치 (native Korean for 'feast/celebration'), so unlike most life-event words here it is NOT Sino-Korean — there's no hanja. 돌 historically marked surviving the dangerous first year when infant mortality was high, which is why it's celebrated rather than treated like an ordinary 생일. Keep that contrast sharp: 돌잔치 is ONLY the first birthday; every later birthday is 생일, and the polite/honorific 생신 is for elders. The signature ritual is 돌잡이, where the baby grabs an object (money, thread, pencil, mic…) believed to predict its future. As a guest you give cash or a baby gift and may receive a 답례품 in return. Watch the spelling: 돌잔치 is one word, not 돌 잔치.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "돌잔치 is a baby's first-birthday celebration. 돌 historically marked surviving the dangerous first year when infant mortality was high, which is why it's celebrated rather than treated like an ordinary 생일. The signature ritual is 돌잡이, where the baby grabs an object (money, thread, pencil, mic…) believed to predict its future. As a guest you give cash or a baby gift and may receive a 답례품 in return."},
+      {"k": "비슷한 말", "e": "VS", "t": "Keep the contrast sharp: 돌잔치 is ONLY the first birthday; every later birthday is 생일, and the polite/honorific 생신 is for elders."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "돌잔치 = 돌 (native Korean for a baby's first birthday) + 잔치 (native Korean for 'feast/celebration'), so unlike most life-event words here it is NOT Sino-Korean — there's no hanja."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Watch the spelling: 돌잔치 is one word, not 돌 잔치."}
+    ],
     "mistakes": [
-      "돌잔치 is specifically the FIRST birthday; don't use it for ordinary birthdays — that's just 생일.",
-      "Note the spelling 돌잔치 (one word), not 돌 잔치 with a space."
+      "돌잔치 is specifically the FIRST birthday — don't use it for a 5th or 30th birthday. Any ordinary birthday is 생일 (and 생신 for an elder).",
+      "Write it as one word, 돌잔치, not 돌 잔치 with a space; 잔치 ('feast') is fused onto 돌.",
+      "Don't call it 첫 번째 생일 파티 as a literal translation of 'first birthday party' — Koreans have the dedicated word 돌잔치, and the calque sounds foreign."
     ]
   },
   {
@@ -79,20 +100,26 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["환갑을 맞다", "reach one's 60th birthday", "맞다 = to greet/reach a milestone date"],
-      ["환갑잔치", "60th-birthday banquet", "The celebration party; add -잔치"],
-      ["환갑 선물", "60th-birthday gift", "Family often gives a trip or money rather than a big party now"],
-      ["올해 환갑이세요", "they turn 60 this year", "Use honorific 이세요 since it's about an elder"]
+      ["환갑을 맞다", "reach one's 60th birthday", "맞다 = 'greet/meet' a milestone date; 환갑을 맞이하다 is the fuller form"],
+      ["환갑잔치", "60th-birthday banquet", "Add 잔치 ('feast'); the traditional celebration party"],
+      ["환갑이세요 / 환갑이시다", "they turn 60 (honorific)", "Use 시 honorific because it concerns an elder"],
+      ["진갑", "61st birthday", "進甲; the year after 환갑, sometimes also marked"]
     ],
     "examples": [
-      ["올해 아버지가 환갑이셔서 가족 여행을 가요.", "My father turns 60 this year, so we're taking a family trip.", "Trips have largely replaced big banquets for hwangap"],
-      ["예전에는 환갑잔치를 크게 했어요.", "In the past people held big 60th-birthday banquets.", "When life expectancy was shorter, reaching 60 was a major event"],
-      ["할머니 환갑 때 가족이 다 모였어요.", "The whole family gathered for grandmother's 60th birthday.", "환갑 is a key family milestone that brings relatives together"]
+      ["올해 아버지가 환갑이세요.", "My father turns 60 this year.", "Honorific 이세요 because it's about a parent — never the plain 환갑이에요 for an elder"],
+      ["예전에는 환갑잔치를 크게 했는데 요즘은 잘 안 해요.", "People used to hold big 60th banquets, but these days they often don't.", "-는데 sets up the past-vs-now contrast; longer lifespans made 60 less momentous"],
+      ["할머니 환갑이라 온 가족이 호텔에서 식사를 했어요.", "It was grandmother's 60th, so the whole family had a meal at a hotel.", "Real-situation use; shows the modern trend of a family meal/trip replacing a banquet"]
     ],
-    "nuance": "환갑 (also written 회갑) marks turning 60, the completion of the traditional 60-year zodiac cycle, once a rare and celebrated age. Today, with longer lifespans, the big 환갑잔치 banquet has faded and families more often mark it with a trip or gift. Always refer to an elder's 환갑 with honorifics.",
+    "nuance": "환갑 (還甲, 'return + sexagenary-cycle') literally means the 갑(甲) has come full circle: traditional Korea counts years on a 60-term zodiac cycle (干支), so turning 60 'returns' you to the cycle's start — hence also written 회갑 (回甲, 'revolve + cycle'), the more formal variant. Don't confuse it with the milestone above it, 칠순/고희 (70th, 古稀 'rare since old times'), or with 진갑 (進甲, the 61st). Because life expectancy was once short, reaching 환갑 was a rare achievement worthy of a big 환갑잔치; today, with people routinely living far longer, families more often mark it with a trip or gift than a banquet. Crucial register point: 환갑 always concerns an elder, so use honorifics — 환갑이세요, 환갑을 맞으셨어요 — and pair it with 생신 (not 생일) when naming the birthday itself.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "환갑 is the 60th birthday: the 갑(甲) has come full circle, so turning 60 'returns' you to the start of the 60-term zodiac cycle. Because life expectancy was once short, reaching 환갑 was a rare achievement worthy of a big 환갑잔치; today, with people routinely living far longer, families more often mark it with a trip or gift than a banquet. Crucial register point: 환갑 always concerns an elder, so use honorifics — 환갑이세요, 환갑을 맞으셨어요 — and pair it with 생신 (not 생일) when naming the birthday itself."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse it with the milestone above it, 칠순/고희 (70th, 古稀 'rare since old times'), or with 진갑 (進甲, the 61st)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "還甲 = 'return + sexagenary-cycle'; traditional Korea counts years on a 60-term zodiac cycle (干支). Also written 회갑 (回甲, 'revolve + cycle'), the more formal variant."}
+    ],
     "mistakes": [
-      "Because it concerns an elder, use honorific forms: 환갑이세요, not the plain 환갑이에요.",
-      "환갑 is the 60th by Korean age counting tied to the zodiac cycle; don't assume it maps exactly onto a Western 'turning 60' in every context."
+      "Because it concerns an elder, use honorific forms: 환갑이세요 / 환갑이시다, not the plain 환갑이에요. Dropping the 시 honorific about a parent or grandparent sounds disrespectful.",
+      "Don't equate 환갑 with simply 'turning 60' in a Western sense — it's tied to the 60-year 干支 cycle and Korean age reckoning, so the cultural weight (and sometimes the exact year) differs.",
+      "Don't reach for 생일 when speaking of the elder's day; pair 환갑 with the honorific 생신 (e.g. 환갑 생신)."
     ]
   },
   {
@@ -103,20 +130,26 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["청첩장을 주다", "give a wedding invitation", "The couple hands or sends it to you"],
-      ["청첩장을 받다", "receive a wedding invitation", "Implies you're expected to attend or send 축의금"],
-      ["모바일 청첩장", "mobile (digital) wedding invitation", "Sent via KakaoTalk link; now extremely common"],
-      ["청첩장 돌리다", "pass out / distribute invitations", "Casual phrase for handing them around to friends and coworkers"]
+      ["청첩장을 주다 / 받다", "give / receive a wedding invitation", "받다 implies a soft obligation to attend or send 축의금"],
+      ["모바일 청첩장", "mobile (digital) wedding invitation", "Sent as a KakaoTalk link; now the default, bundling a map and account number"],
+      ["청첩장을 돌리다", "pass out / distribute invitations", "돌리다 ('send around') = casually handing them to friends and coworkers"],
+      ["청첩장 문구", "the wording on the invitation", "文句 'phrasing'; the formal text announcing the couple and date"]
     ],
     "examples": [
-      ["어제 친구한테 모바일 청첩장 받았어요.", "I got a mobile wedding invitation from my friend yesterday.", "KakaoTalk links have largely replaced paper invitations"],
-      ["청첩장 주려고 일부러 만났어요.", "We met up on purpose so they could give me the invitation.", "Handing a paper 청첩장 in person is a courteous gesture"],
-      ["청첩장에 식장 위치랑 시간이 다 적혀 있어요.", "The venue location and time are all written on the invitation.", "Mobile ones include a map link and account number for 축의금"]
+      ["어제 청첩장을 받았어요.", "I received a wedding invitation yesterday.", "Basic 받다 sentence; 청첩장 takes 을 as the object"],
+      ["친구가 청첩장 주려고 일부러 만나자고 했어요.", "My friend asked to meet up on purpose just to give me the invitation.", "-(으)려고 = 'in order to'; handing a paper 청첩장 in person is a courteous gesture"],
+      ["모바일 청첩장에 계좌번호랑 오시는 길이 다 들어 있더라고요.", "The mobile invitation had the bank account number and directions all included.", "-더라고요 reports a fresh discovery; reflects how digital invites bundle 축의금 transfer info"]
     ],
-    "nuance": "청첩장 is the wedding invitation, increasingly sent as a 모바일 청첩장 (KakaoTalk link) rather than printed paper. Receiving one signals you're expected either to attend or to send 축의금. The mobile version usually bundles a map, schedule, and the couple's bank account number for transferring the cash gift.",
+    "nuance": "청첩장 (請牒狀) breaks down as 請 'request/invite' + 牒 'official note' + 狀 'document/letter' — a 'letter requesting your presence,' specifically for a WEDDING. Keep it apart from the general 초대장 (招待狀, any invitation card to a party/event): every 청첩장 is a 초대장, but you only call it 청첩장 for a wedding. Increasingly it arrives as a 모바일 청첩장, a KakaoTalk link that bundles a map, schedule, and the couple's bank account number for transferring 축의금. Receiving one carries a quiet obligation: you're expected either to attend or to send the cash gift, and ignoring a close friend's or coworker's 청첩장 can genuinely strain the relationship. Habitual verbs: 청첩장을 주다/받다/돌리다. The hanja is opaque even to many Koreans, so just learn it as a fixed word.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "청첩장 is a 'letter requesting your presence,' specifically for a WEDDING. Increasingly it arrives as a 모바일 청첩장, a KakaoTalk link that bundles a map, schedule, and the couple's bank account number for transferring 축의금. Receiving one carries a quiet obligation: you're expected either to attend or to send the cash gift, and ignoring a close friend's or coworker's 청첩장 can genuinely strain the relationship. Habitual verbs: 청첩장을 주다/받다/돌리다."},
+      {"k": "비슷한 말", "e": "VS", "t": "Keep it apart from the general 초대장 (招待狀, any invitation card to a party/event): every 청첩장 is a 초대장, but you only call it 청첩장 for a wedding."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "請牒狀 breaks down as 請 'request/invite' + 牒 'official note' + 狀 'document/letter.' The hanja is opaque even to many Koreans, so just learn it as a fixed word."}
+    ],
     "mistakes": [
-      "Don't confuse 청첩장 (wedding invitation) with 초대장 (a general invitation card); 청첩장 is specifically for weddings.",
-      "Getting a 청첩장 carries a soft obligation — ignoring it from a close friend or coworker can strain the relationship."
+      "Don't substitute 초대장 (general invitation card) for 청첩장: 초대장 covers any party/event, while 청첩장 is the wedding-specific term. Calling a wedding invite a 초대장 sounds slightly off.",
+      "Don't treat a received 청첩장 as optional info — from a close friend or coworker it's a soft social obligation; silence (no attendance and no 축의금) can damage the relationship.",
+      "Don't say 청첩장을 보내다 only for paper — these days 청첩장을 보내다 most often means sending the KakaoTalk 모바일 청첩장 link, so don't picture an envelope by default."
     ]
   },
   {
@@ -127,20 +160,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["축의금을 내다", "give/pay the cash gift", "내다 is the standard verb at the reception desk"],
-      ["축의금을 보내다", "send the cash gift", "Used when you can't attend and transfer it instead"],
-      ["축의금 봉투", "money envelope", "White envelope you write your name on at the desk"],
-      ["축의금 5만 원", "50,000 won as a gift", "A common baseline amount; closer relationships give more"]
+      ["축의금을 내다", "give/pay the cash gift", "내다 ('hand in / pay') is the standard verb at the 접수처 (reception desk)"],
+      ["축의금을 보내다", "send the cash gift", "보내다 = transfer it to their account when you can't attend"],
+      ["축의금 봉투", "money envelope", "封套 'envelope'; a white envelope you sign your name on at the desk"],
+      ["축의금 5만 원 / 10만 원", "50,000 / 100,000 won as a gift", "Common baseline amounts; closer relationships and elders give more"]
     ],
     "examples": [
-      ["결혼식에 못 가서 축의금만 계좌로 보냈어요.", "I couldn't make the wedding, so I just sent the cash gift to their account.", "Sending it by bank transfer is fully acceptable if you can't attend"],
-      ["축의금은 보통 5만 원이나 10만 원 내요.", "People usually give 50,000 or 100,000 won.", "Amount depends on closeness; odd-numbered bills are traditional"],
-      ["접수처에서 축의금 봉투에 이름 적어서 냈어요.", "I wrote my name on the envelope and handed it in at the reception desk.", "You sign the envelope so the couple knows who gave it"]
+      ["축의금으로 5만 원을 냈어요.", "I gave 50,000 won as the gift.", "(으)로 = 'as/by means of'; 5만 원 is the common baseline amount"],
+      ["접수처에서 봉투에 이름 적고 축의금을 냈어요.", "I wrote my name on the envelope at the reception desk and handed in the gift.", "You sign so the couple can record who gave what — teaches the desk routine"],
+      ["결혼식에 못 가서 축의금만 계좌로 보냈어요.", "I couldn't make the wedding, so I just sent the gift to their account.", "Real situation; -만 ('only') + 계좌로 ('by account') shows transfer is fully acceptable"]
     ],
-    "nuance": "축의금 is the cash you give at a wedding, placed in a white envelope and handed in at the 접수처 (reception desk), where you sign so the couple can record it. Amounts run roughly 50,000 won and up depending on closeness, traditionally in odd denominations. If you can't attend, transferring it to their account is perfectly normal.",
+    "nuance": "축의금 (祝儀金) = 祝 'congratulate' + 儀 'ceremony/propriety' + 金 'money' — literally 'money for a congratulatory ceremony,' the cash you give at HAPPY events, above all weddings. Its exact mirror image is 조의금 (弔儀金, 'condolence-ceremony money') for funerals: same 儀金 ending, opposite first character (祝 'congratulate' vs 弔 'mourn'), and opposite occasions — confusing the two, or reusing the wrong envelope, is a real and embarrassing error. You place 축의금 in a WHITE envelope, sign it, and hand it in at the 접수처 (reception desk) so the couple can record who gave it. Amounts start around 50,000 won and rise with closeness, traditionally in odd denominations (5/7/10만). The English word 'gift' misleads here — this is specifically cash, not a wrapped present, and a 선물 (a physical gift) is a different thing you generally don't substitute.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "축의금 is literally 'money for a congratulatory ceremony,' the cash you give at HAPPY events, above all weddings. You place it in a WHITE envelope, sign it, and hand it in at the 접수처 (reception desk) so the couple can record who gave it. Amounts start around 50,000 won and rise with closeness, traditionally in odd denominations (5/7/10만)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its exact mirror image is 조의금 (弔儀金, 'condolence-ceremony money') for funerals: same 儀金 ending, opposite first character (祝 'congratulate' vs 弔 'mourn'), and opposite occasions — confusing the two, or reusing the wrong envelope, is a real and embarrassing error."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "祝儀金 = 祝 'congratulate' + 儀 'ceremony/propriety' + 金 'money.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English word 'gift' misleads here — this is specifically cash, not a wrapped present, and a 선물 (a physical gift) is a different thing you generally don't substitute."}
+    ],
     "mistakes": [
-      "Don't mix up 축의금 (weddings/happy events) with 조의금 (funerals); using the wrong word or envelope is a real social error.",
-      "Avoid even-numbered amounts like 60,000 or 80,000; odd amounts (50,000 / 70,000 / 100,000) are customary."
+      "Don't mix up 축의금 (weddings / happy events, 祝) with 조의금 (funerals, 弔): the first characters are opposites, and using the wrong word or a white-vs-decorated envelope at the wrong event is a serious social mistake.",
+      "Don't give even-numbered amounts like 60,000 or 80,000 won; odd numbers (50,000 / 70,000 / 100,000) are customary, as even amounts traditionally suggest 'splitting.'",
+      "Don't translate it as a 선물 ('gift/present') — 축의금 is specifically cash in an envelope; bringing a wrapped object instead can look like you missed the custom."
     ]
   },
   {
@@ -151,20 +191,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["조의금을 내다", "give condolence money", "내다 at the funeral reception desk"],
-      ["조의금 봉투", "white condolence envelope", "Plain white envelope, no decoration"],
-      ["조의금을 전하다", "convey condolence money", "전하다 sounds respectful and formal"],
-      ["부의금", "alternate word for condolence money", "부의금 and 조의금 are used interchangeably"]
+      ["조의금을 내다", "give condolence money", "내다 ('hand in') at the 장례식장 reception desk"],
+      ["조의금 봉투", "white condolence envelope", "Plain undecorated white envelope, often with 부의 written on it"],
+      ["조의금을 전하다", "convey condolence money", "전하다 ('convey/deliver') sounds respectful and appropriately solemn"],
+      ["부의금", "alternate word for condolence money", "賻儀金; used interchangeably with 조의금, and 부의 is what you write on the envelope"]
     ],
     "examples": [
-      ["회사 동료 부모님 장례식에 조의금을 냈어요.", "I gave condolence money at my coworker's parent's funeral.", "A standard workplace courtesy in Korea"],
-      ["조의금 봉투에는 보통 부의라고 써요.", "On the condolence envelope you usually write 부의.", "부의 or 조의 is written on the front, unlike a wedding envelope"],
-      ["멀어서 못 가고 조의금만 동료 편에 보냈어요.", "I couldn't go because it was far, so I sent the condolence money with a coworker.", "Sending it with someone attending is common when you can't go"]
+      ["조의금을 냈어요.", "I gave condolence money.", "Basic 내다 sentence; the solemn counterpart to 축의금을 내다"],
+      ["조의금 봉투에는 보통 '부의'라고 써요.", "On the condolence envelope you usually write '부의.'", "Teaches the fixed envelope wording, unlike a wedding envelope"],
+      ["멀어서 못 가고 조의금만 동료 편에 보냈어요.", "I couldn't go because it was far, so I sent the condolence money with a coworker.", "편에 = 'by way of (a person)'; sending it with someone attending is common when you can't go"]
     ],
-    "nuance": "조의금 (also 부의금) is the cash given to a bereaved family, placed in a plain white envelope, often with 부의 written on the front. It's offered at the 장례식장 reception desk and, like 축의금, is a near-obligatory gesture for coworkers' family funerals. The envelope and occasion are solemn, so keep everything understated.",
+    "nuance": "조의금 (弔儀金) = 弔 'mourn/condole' + 儀 'ceremony/propriety' + 金 'money,' the cash given to a bereaved family — the exact dark twin of 축의금 (祝儀金), which swaps in 祝 'congratulate.' The freely interchangeable synonym is 부의금 (賻儀金, 賻 = 'goods given to help with a funeral'), and confusingly the word you actually write on the envelope is usually 부의 or 조의, not 조의금. It goes in a PLAIN WHITE, undecorated envelope handed in at the 장례식장 reception desk, and like 축의금 it's a near-obligatory courtesy for a coworker's family funeral. Because the occasion is solemn, every cue stays understated — no color, no flourish, quiet delivery (전하다). The cardinal English-speaker error is treating any envelope of money as interchangeable; the 祝/弔 distinction and the white envelope are non-negotiable.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "조의금 is the cash given to a bereaved family. It goes in a PLAIN WHITE, undecorated envelope handed in at the 장례식장 reception desk, and like 축의금 it's a near-obligatory courtesy for a coworker's family funeral. Because the occasion is solemn, every cue stays understated — no color, no flourish, quiet delivery (전하다)."},
+      {"k": "비슷한 말", "e": "VS", "t": "The exact dark twin of 축의금 (祝儀金), which swaps in 祝 'congratulate.' The freely interchangeable synonym is 부의금 (賻儀金, 賻 = 'goods given to help with a funeral'), and confusingly the word you actually write on the envelope is usually 부의 or 조의, not 조의금."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "弔儀金 = 弔 'mourn/condole' + 儀 'ceremony/propriety' + 金 'money.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The cardinal English-speaker error is treating any envelope of money as interchangeable; the 祝/弔 distinction and the white envelope are non-negotiable."}
+    ],
     "mistakes": [
-      "Never reuse a colorful or wedding-style envelope; 조의금 requires a plain white one.",
-      "Don't confuse 조의금 (funerals) with 축의금 (weddings); the contexts are opposite and the mistake is serious."
+      "Never reuse a colorful or wedding-style envelope: 조의금 requires a plain white one. A decorated envelope at a funeral reads as a painful mistake.",
+      "Don't confuse 조의금 (funerals, 弔) with 축의금 (weddings, 祝); the occasions are opposite and the error is serious. Remember 弔 = mourn vs 祝 = congratulate.",
+      "Don't write 조의금 ON the envelope — the conventional wording is 부의 (賻儀) or 조의, written vertically on the front."
     ]
   },
   {
@@ -175,20 +222,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["신혼여행을 가다", "go on a honeymoon", "Standard verb pairing"],
-      ["신혼여행지", "honeymoon destination", "Add -지 for the place; e.g. 하와이, 몰디브"],
-      ["신혼여행 다녀오다", "go and come back from a honeymoon", "다녀오다 = the round trip is done"],
-      ["신혼", "newlywed (period)", "신혼 alone refers to the early-married phase; 신혼집 = newlywed home"]
+      ["신혼여행을 가다", "go on a honeymoon", "Standard verb; particle 을 for the trip you take, 에 for the destination"],
+      ["신혼여행을 다녀오다", "go and come back from a honeymoon", "다녀오다 = 'go and return'; implies the round trip is complete"],
+      ["신혼여행지", "honeymoon destination", "Add 地 (-지, 'place/land'); e.g. 하와이, 발리, 몰디브"],
+      ["신혼집", "newlyweds' (first) home", "신혼 + 집; the place the couple sets up after marrying"]
     ],
     "examples": [
-      ["결혼식 끝나고 바로 신혼여행을 떠났어요.", "Right after the wedding they left for their honeymoon.", "Couples often fly out the same day or next day"],
-      ["신혼여행은 발리로 갔다 왔어요.", "We went to Bali for our honeymoon.", "Southeast Asian beach resorts are popular choices"],
-      ["신혼여행 다녀와서 집들이를 했어요.", "After the honeymoon we held a housewarming.", "Ties naturally to 집들이, another life-event word"]
+      ["신혼여행은 어디로 가요?", "Where are you going for your honeymoon?", "어디로 ('to where') with directional 로; a natural question to a couple"],
+      ["신혼여행으로 발리에 갔다 왔어요.", "We went to Bali for our honeymoon.", "(으)로 = 'as/for'; Southeast Asian beach resorts are typical 신혼여행지"],
+      ["결혼식 끝나고 바로 신혼여행 다녀와서 집들이를 했어요.", "Right after the wedding we went on the honeymoon and then held a housewarming.", "Real timeline chaining 결혼식 → 신혼여행 → 집들이, three life-event words in sequence"]
     ],
-    "nuance": "신혼여행 is the honeymoon, literally the 'newlywed trip,' usually taken right after the 결혼식. Beach resorts in Southeast Asia and longer-haul spots like Hawaii or Europe are typical 신혼여행지. The root 신혼 covers the broader newlywed period, as in 신혼집 (the couple's first home).",
+    "nuance": "신혼여행 (新婚旅行) = 新 'new' + 婚 'marriage' + 旅行 'travel,' literally the 'new-marriage trip,' i.e. the honeymoon taken right after the 결혼식. The root 신혼 (新婚, 'newlywed') names the broader early-married phase and lives in compounds like 신혼집 (first home) and 신혼부부 (newlywed couple). Don't reduce it to plain 여행 (旅行, any trip) — that loses the 'newlywed' meaning entirely, the way English 'trip' wouldn't tell anyone it's a honeymoon. Typical 신혼여행지 are Southeast-Asian beach resorts (발리, 다낭) and longer-haul spots (하와이, 유럽). Note the verb pair: 신혼여행을 가다 to go, 신혼여행을 다녀오다 / 갔다 오다 once you're back. Watch the spacing — 신혼여행 is one word, not 신혼 여행.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "신혼여행 is literally the 'new-marriage trip,' i.e. the honeymoon taken right after the 결혼식. The root 신혼 (新婚, 'newlywed') names the broader early-married phase and lives in compounds like 신혼집 (first home) and 신혼부부 (newlywed couple). Typical 신혼여행지 are Southeast-Asian beach resorts (발리, 다낭) and longer-haul spots (하와이, 유럽). Note the verb pair: 신혼여행을 가다 to go, 신혼여행을 다녀오다 / 갔다 오다 once you're back."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't reduce it to plain 여행 (旅行, any trip) — that loses the 'newlywed' meaning entirely, the way English 'trip' wouldn't tell anyone it's a honeymoon."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "新婚旅行 = 新 'new' + 婚 'marriage' + 旅行 'travel'; 신혼 = 新婚 'newlywed.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Watch the spacing — 신혼여행 is one word, not 신혼 여행."}
+    ],
     "mistakes": [
-      "Don't shorten it to just 여행 when you mean the honeymoon specifically; 여행 is any trip.",
-      "신혼여행 is one word — avoid writing 신혼 여행 with a space."
+      "Don't shorten it to plain 여행 when you mean the honeymoon specifically: 여행 is any trip, so '여행 갔다 왔어요' just means you traveled, losing the newlywed meaning.",
+      "Write it as one word, 신혼여행, not 신혼 여행 with a space; the 신혼 + 여행 compound is fused.",
+      "Don't say 허니문 reflexively just because English does — while 허니문 exists as a loanword, the natural everyday word is 신혼여행."
     ]
   },
   {
@@ -199,20 +253,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["약혼하다", "get engaged", "Verb form; 약혼했어요 = got engaged"],
-      ["약혼자", "fiancé / fiancée", "Your engaged partner; gender-neutral"],
-      ["약혼반지", "engagement ring", "반지 = ring; the ring exchanged at engagement"],
-      ["파혼하다", "break off an engagement", "Antonym verb worth knowing (파혼 = broken engagement)"]
+      ["약혼하다", "get engaged", "Verb form; 약혼했어요 = 'got engaged'"],
+      ["약혼자", "fiancé / fiancée", "者 'person'; your engaged partner, gender-neutral (no separate male/female word)"],
+      ["약혼반지", "engagement ring", "반지 = 'ring'; the ring exchanged at engagement"],
+      ["파혼하다", "break off an engagement", "破婚 'break + marriage'; the antonym verb worth knowing"]
     ],
     "examples": [
-      ["저희 언니가 지난달에 약혼했어요.", "My older sister got engaged last month.", "약혼하다 is the natural way to announce it"],
-      ["약혼자랑 같이 상견례를 준비하고 있어요.", "I'm preparing the family meeting with my fiancé.", "Links to 상견례, the families' introductory meal"],
-      ["요즘은 약혼식을 따로 안 하는 사람도 많아요.", "These days many people don't hold a separate engagement ceremony.", "Formal engagement ceremonies are less common now"]
+      ["저희 언니가 약혼했어요.", "My older sister got engaged.", "약혼하다 as a plain past-tense announcement; the most natural way to report it"],
+      ["약혼자랑 같이 상견례를 준비하고 있어요.", "I'm preparing the family meeting together with my fiancé.", "랑 = casual 'with'; links naturally to 상견례, the families' first meal"],
+      ["요즘은 약혼식을 따로 안 하고 바로 결혼 준비하는 사람도 많아요.", "These days many people skip a separate engagement ceremony and go straight into wedding prep.", "Real-situation contrast; reflects that formal 약혼식 ceremonies are fading"]
     ],
-    "nuance": "약혼 is the formal engagement, with the verb 약혼하다 and your partner called 약혼자. In modern Korea a separate 약혼식 (engagement ceremony) is increasingly skipped; couples often move straight from agreeing to marry into the 상견례 and wedding prep. The opposite, calling it off, is 파혼.",
+    "nuance": "약혼 (約婚) = 約 'promise/pledge' + 婚 'marriage,' literally 'pledging to marry' — the formal engagement, with verb 약혼하다 and partner 약혼자 (約婚者, gender-neutral, so no fiancé/fiancée split to memorize). Keep it firmly distinct from 결혼 (結婚, 'tie + marry'): 약혼한 사이 means 'an engaged couple,' NOT married, and the English speaker's instinct to treat engagement as nearly-married can mislead. The 約 here is the same 約 as in 약속 (約束, 'bind a promise'), a useful memory hook. Its opposite is 파혼 (破婚, 'break the marriage-pledge'), to call the engagement off. In modern Korea a standalone 약혼식 (engagement ceremony) is increasingly skipped; couples often go from agreeing to marry straight into the 상견례 and wedding prep, so 약혼 today is often a status more than an event.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "약혼 is literally 'pledging to marry' — the formal engagement, with verb 약혼하다 and partner 약혼자 (約婚者, gender-neutral, so no fiancé/fiancée split to memorize). Its opposite is 파혼 (破婚, 'break the marriage-pledge'), to call the engagement off. In modern Korea a standalone 약혼식 (engagement ceremony) is increasingly skipped; couples often go from agreeing to marry straight into the 상견례 and wedding prep, so 약혼 today is often a status more than an event."},
+      {"k": "비슷한 말", "e": "VS", "t": "Keep it firmly distinct from 결혼 (結婚, 'tie + marry'): 약혼한 사이 means 'an engaged couple,' NOT married."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "約婚 = 約 'promise/pledge' + 婚 'marriage.' The 約 here is the same 約 as in 약속 (約束, 'bind a promise'), a useful memory hook."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English speaker's instinct to treat engagement as nearly-married can mislead — 약혼한 사이 is engaged, not married."}
+    ],
     "mistakes": [
-      "Don't confuse 약혼 (engagement) with 결혼 (marriage); 약혼한 사이 means engaged, not married.",
-      "약혼자 covers both fiancé and fiancée — there's no separate gendered word to memorize."
+      "Don't confuse 약혼 (engagement, 約 'pledge') with 결혼 (marriage, 結 'tie'): 약혼한 사이 means engaged, not married. Treating an engaged couple as already married is a meaning error.",
+      "Don't hunt for a separate feminine word — 약혼자 covers both fiancé and fiancée; Korean doesn't gender it.",
+      "Don't assume there's always an 약혼식 to attend; many couples skip the ceremony entirely, so 약혼 may be just an announced status."
     ]
   },
   {
@@ -223,20 +284,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["상견례를 하다", "hold the family meeting", "Said of the two families meeting"],
-      ["상견례 자리", "the occasion/setting of the meeting", "자리 = the formal gathering/seat"],
-      ["상견례 장소", "venue for the meeting", "Usually a quiet, nice restaurant"],
-      ["양가 부모님", "both sets of parents", "The people 상견례 brings together (양가 = both houses)"]
+      ["상견례를 하다", "hold the family meeting", "Said of the two families formally meeting"],
+      ["상견례 자리", "the occasion/setting of the meeting", "자리 ('seat/occasion') = the formal gathering itself"],
+      ["상견례 장소", "venue for the meeting", "場所 'place'; usually a quiet, refined restaurant"],
+      ["양가 부모님", "both sets of parents", "兩家 'both houses'; the people 상견례 brings together"]
     ],
     "examples": [
-      ["다음 주에 양가 부모님 상견례가 있어요.", "Next week the parents of both families are meeting.", "A major step toward the wedding"],
-      ["상견례는 조용한 한정식집에서 했어요.", "We held the family meeting at a quiet Korean-set-menu restaurant.", "Calm, upscale restaurants are typical venues"],
-      ["상견례 때 너무 긴장돼서 말을 별로 못 했어요.", "I was so nervous at the family meeting I could barely talk.", "It's a formal, slightly tense occasion"]
+      ["다음 주에 상견례가 있어요.", "The family meeting is next week.", "Simple 있다 sentence; 상견례 takes the subject marker 가"],
+      ["상견례는 조용한 한정식집에서 했어요.", "We held the family meeting at a quiet Korean set-menu restaurant.", "에서 marks the location of the event; calm upscale restaurants are the norm"],
+      ["상견례 때 너무 긴장돼서 말을 거의 못 했어요.", "I was so nervous at the family meeting that I could barely speak.", "때 = 'at the time of'; conveys the genuinely formal, tense register of the occasion"]
     ],
-    "nuance": "상견례 is the formal first meeting between the two families before a wedding, where both sets of parents (양가 부모님) are introduced over a meal. It's a significant, somewhat formal milestone usually held at a quiet, refined restaurant, and going smoothly signals the families approve of the union.",
+    "nuance": "상견례 (相見禮) = 相 'mutually' + 見 'see/meet' + 禮 'rite/courtesy,' literally 'the courtesy of meeting one another' — specifically the formal first meeting of the two families (양가, 兩家) before a wedding, usually over a meal. Don't generalize it: despite the literal 'mutual meeting,' it does NOT mean any first introduction between strangers — that's just 첫 만남 or 인사. It also isn't 맞선/소개팅 (a matchmaking date between the would-be couple themselves); 상견례 is the PARENTS being introduced once marriage is essentially decided. It's a significant, somewhat stiff milestone held at a quiet, refined restaurant (often a 한정식집), where things going smoothly signals both families approve. Because it's formal, dress and speech stay polite (존댓말 throughout) — treating it casually can offend the in-laws-to-be.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "상견례 is literally 'the courtesy of meeting one another' — specifically the formal first meeting of the two families (양가, 兩家) before a wedding, usually over a meal. It's a significant, somewhat stiff milestone held at a quiet, refined restaurant (often a 한정식집), where things going smoothly signals both families approve. Because it's formal, dress and speech stay polite (존댓말 throughout)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Despite the literal 'mutual meeting,' it does NOT mean any first introduction between strangers — that's just 첫 만남 or 인사. It also isn't 맞선/소개팅 (a matchmaking date between the would-be couple themselves); 상견례 is the PARENTS being introduced once marriage is essentially decided."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "相見禮 = 相 'mutually' + 見 'see/meet' + 禮 'rite/courtesy'; 양가 = 兩家 'both houses.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Treating it casually can offend the in-laws-to-be — dress and speech stay polite (존댓말 throughout)."}
+    ],
     "mistakes": [
-      "상견례 specifically means the two families meeting before marriage — don't use it for any general first meeting between people.",
-      "It's a formal occasion, so dress and speak politely; treating it casually can offend the in-laws-to-be."
+      "Don't use 상견례 for any general first meeting of two people: it specifically means the two FAMILIES meeting before a marriage, not a casual or business first encounter (that's 첫 만남 / 첫 대면).",
+      "Don't confuse it with 맞선 or 소개팅 (a setup date between the prospective couple); 상견례 is about the parents/families, after the couple has decided to marry.",
+      "Don't treat it casually — it's a formal occasion, so dress neatly and use 존댓말; an offhand tone can insult the prospective in-laws."
     ]
   },
   {
@@ -248,19 +316,26 @@
     "grammarIds": [],
     "usage": [
       ["집들이를 하다", "have a housewarming", "Said of the host throwing the party"],
-      ["집들이에 가다", "go to a housewarming", "As a guest"],
-      ["집들이 선물", "housewarming gift", "Detergent or toilet paper are classic choices"],
-      ["집들이 초대하다", "invite (someone) to a housewarming", "Host inviting friends to the new place"]
+      ["집들이에 가다", "go to a housewarming", "Particle 에 for the event; you attend as a guest"],
+      ["집들이 선물", "housewarming gift", "Classic choices: 휴지 (toilet paper) and 세제 (detergent)"],
+      ["집들이에 초대하다", "invite (someone) to a housewarming", "The host inviting friends over to the new place"]
     ],
     "examples": [
-      ["이사하고 나서 친구들 불러서 집들이를 했어요.", "After moving I invited friends over for a housewarming.", "집들이 usually follows soon after 이사 (moving)"],
-      ["집들이 갈 때 보통 휴지나 세제를 사 가요.", "When going to a housewarming people usually bring toilet paper or detergent.", "These gifts symbolize wishes for the household's prosperity"],
-      ["주말에 새집 집들이에 초대받았어요.", "I was invited to a housewarming at their new place this weekend.", "A common, relaxed social gathering among friends"]
+      ["주말에 집들이가 있어요.", "There's a housewarming this weekend.", "Basic 있다 sentence; 집들이 takes the subject marker 가"],
+      ["집들이에 갈 때 보통 휴지나 세제를 사 가요.", "When going to a housewarming, people usually buy toilet paper or detergent to bring.", "사 가다 = 'buy and bring'; these gifts carry traditional good-luck meaning"],
+      ["이사하고 친구들 불러서 집들이를 했는데 분위기가 정말 좋았어요.", "After moving I invited friends over for a housewarming, and the mood was really nice.", "Real situation; -는데 links the setup to the warm, casual atmosphere of the event"]
     ],
-    "nuance": "집들이 is the housewarming party thrown after moving into a new home (이사). The classic gifts are toilet paper (휴지) and laundry detergent (세제): the paper symbolizes things unrolling smoothly, the detergent's bubbles symbolize prosperity bubbling up. It's a warm, casual event where the host usually cooks or orders in for friends.",
+    "nuance": "집들이 is a pure native-Korean word (no hanja): 집 'house' + 들이 (from 들이다, 'to bring/take in'), so it literally evokes 'bringing people into the house' — the housewarming party thrown after an 이사 (移徙, moving). Don't confuse the event with the move itself: you do 이사 first (the act of relocating), THEN 집들이 (the celebration). Also distinguish it from 집들이 선물 vs a generic 선물 — the classic gifts are pointed: 휴지 (toilet paper), because it 'unrolls smoothly' (everything in the new home going smoothly), and 세제 (laundry detergent), whose bubbles symbolize prosperity 'bubbling up.' These are warm, traditional choices, not cheap ones — an English speaker may misread practical household items as an awkward gift. It's a relaxed gathering where the host usually cooks or orders in for friends.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "집들이 literally evokes 'bringing people into the house' — the housewarming party thrown after an 이사 (移徙, moving). The classic gifts are pointed: 휴지 (toilet paper), because it 'unrolls smoothly' (everything in the new home going smoothly), and 세제 (laundry detergent), whose bubbles symbolize prosperity 'bubbling up.' It's a relaxed gathering where the host usually cooks or orders in for friends."},
+      {"k": "비슷한 말", "e": "VS", "t": "Don't confuse the event with the move itself: you do 이사 first (the act of relocating), THEN 집들이 (the celebration)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "집들이 is a pure native-Korean word (no hanja): 집 'house' + 들이 (from 들이다, 'to bring/take in')."},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The classic gifts (휴지, 세제) are warm, traditional choices, not cheap ones — an English speaker may misread practical household items as an awkward gift."}
+    ],
     "mistakes": [
-      "Bringing 휴지 or 세제 is a kind, traditional gesture, not a cheap one — don't assume it's an odd gift.",
-      "집들이 is the party; don't confuse it with 이사 (the act of moving) — you do 이사 first, then 집들이."
+      "Don't read 휴지 or 세제 as a cheap or odd gift — they're traditional, well-wishing choices (smooth unrolling / bubbling prosperity), and bringing them is the thoughtful, expected move.",
+      "Don't confuse 집들이 (the party) with 이사 (the act of moving): the sequence is 이사 first, then 집들이. Saying 집들이 when you mean the move itself is wrong.",
+      "Don't take the particle 을 for attendance — you 집들이에 가다 (go TO it); 집들이를 하다 is only for the host throwing it."
     ]
   },
   {
@@ -271,20 +346,27 @@
     "chapterIds": ["chapter-06"],
     "grammarIds": [],
     "usage": [
-      ["부고를 받다", "receive a death notice", "Often arrives via KakaoTalk or workplace message"],
-      ["부고를 전하다", "deliver/share a death notice", "전하다 sounds appropriately solemn"],
+      ["부고를 받다", "receive a death notice", "받다 ('receive'); often arrives via KakaoTalk or a workplace message"],
+      ["부고를 전하다", "deliver/share a death notice", "전하다 ('convey') sounds appropriately solemn and respectful"],
       ["부고 문자", "death-notice text message", "The text giving the deceased's name, 빈소, and funeral times"],
-      ["부고가 오다", "a death notice comes/arrives", "Used when one is received"]
+      ["부고가 오다", "a death notice comes/arrives", "오다 ('come') as an intransitive arrival; used when one is received"]
     ],
     "examples": [
-      ["오늘 아침에 부장님 어머님 부고를 받았어요.", "This morning I received notice of our manager's mother's passing.", "Workplace 부고 messages circulate quickly and call for attendance"],
-      ["부고 문자에 장례식장 위치가 적혀 있었어요.", "The death-notice text had the funeral hall's location written on it.", "The message bundles 빈소 location and visiting hours"],
-      ["부고를 듣고 바로 조의금을 준비했어요.", "On hearing of the death I prepared condolence money right away.", "Receiving a 부고 prompts 조의금 and a visit if you're close"]
+      ["부고를 받았어요.", "I received a death notice.", "Basic 받다 sentence; note the solemn register the word carries"],
+      ["부고 문자에 장례식장 위치가 적혀 있었어요.", "The death-notice text had the funeral hall's location written on it.", "적혀 있다 = 'is written (and remains so)'; the message bundles 빈소 location and visiting hours"],
+      ["부고를 듣고 바로 조의금을 준비해서 조문하러 갔어요.", "On hearing of the death I prepared condolence money right away and went to pay respects.", "Real timeline -고 ('and then'); a 부고 prompts 조의금 and a visit if you're close"]
     ],
-    "nuance": "부고 is the formal notification that someone has died, typically circulated by family or coworkers as a 부고 문자 listing the deceased, the 빈소 (wake location), and visiting times. In a workplace, receiving a colleague's family 부고 effectively signals that attending the funeral and giving 조의금 is expected. The word and tone are solemn.",
+    "nuance": "부고 (訃告) = 訃 'announcement of a death' + 告 'tell/notify,' literally 'notifying of a death' — the formal notice that someone has died, not the funeral itself. Distinguish it sharply from 장례식 (葬禮式, the funeral ceremony) and 빈소 (殯所, the wake room): you first RECEIVE a 부고, which then leads you to attend the 장례식 at the 빈소. The near-synonym 부음 (訃音, 'news of a death') means the same message but sounds more literary; 부고 is the everyday word, today usually circulated as a 부고 문자 listing the deceased, the 빈소, and visiting times. In a workplace, getting a colleague's family 부고 effectively signals that attending and giving 조의금 is expected. Both word and tone are solemn — the English habit of a quick 'thanks for letting me know' reply misfires; respond soberly with condolences, never an emoji or light remark.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "부고 is literally 'notifying of a death' — the formal notice that someone has died, not the funeral itself. Today it is usually circulated as a 부고 문자 listing the deceased, the 빈소, and visiting times. In a workplace, getting a colleague's family 부고 effectively signals that attending and giving 조의금 is expected. Both word and tone are solemn."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it sharply from 장례식 (葬禮式, the funeral ceremony) and 빈소 (殯所, the wake room): you first RECEIVE a 부고, which then leads you to attend the 장례식 at the 빈소. The near-synonym 부음 (訃音, 'news of a death') means the same message but sounds more literary; 부고 is the everyday word."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "訃告 = 訃 'announcement of a death' + 告 'tell/notify.'"},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The English habit of a quick 'thanks for letting me know' reply misfires; respond soberly with condolences, never an emoji or light remark."}
+    ],
     "mistakes": [
-      "부고 is the death NOTICE, not the funeral itself (that's 장례식); you receive a 부고 and then attend the 장례식.",
-      "Respond to a 부고 soberly — no emoji or light replies in the KakaoTalk thread; a simple condolence message is right."
+      "Don't use 부고 for the funeral itself — 부고 is the death NOTICE (訃告), while the funeral is 장례식. You receive a 부고, then attend the 장례식.",
+      "Don't respond to a 부고 lightly: no emoji or breezy replies in the KakaoTalk thread. A sober condolence message (e.g. 삼가 고인의 명복을 빕니다) is the correct register.",
+      "Don't say 부고를 하다; the natural verbs are 부고를 받다/전하다 or 부고가 오다 — 부고 is something received or conveyed, not 'done.'"
     ]
   }
 ]

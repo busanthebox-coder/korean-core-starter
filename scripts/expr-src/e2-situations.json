@@ -5,18 +5,39 @@
     "english": "Enjoy your meal",
     "topic": "food",
     "usage": [
-      ["맛있게 드세요", "Enjoy your meal", "Said to others before eating"],
-      ["많이 드세요", "Please eat a lot", "Warm host phrase"],
-      ["맛있게 드셨어요?", "Did you enjoy your meal?", "Asking afterward"],
-      ["천천히 드세요", "Please eat slowly", "Polite caring add-on"]
+      ["맛있게 드세요", "Enjoy your meal", "Said to others, never about your own plate"],
+      ["많이 드세요", "Please eat a lot", "Warm host phrase urging seconds"],
+      ["맛있게 드셨어요?", "Did you enjoy your meal?", "Asked afterward, past honorific 드셨-"],
+      ["천천히 드세요", "Please eat slowly", "Caring add-on, no rush"]
     ],
     "examples": [
-      ["주문하신 음식 나왔습니다. 맛있게 드세요.", "Here is your food. Enjoy your meal.", "Server to customer"],
-      ["이거 제가 만들었어요. 맛있게 드세요.", "I made this. Enjoy your meal.", "Host to guest"],
-      ["맛있게 드세요. 저는 먼저 갈게요.", "Enjoy your meal. I will go first.", "Leaving the table"]
+      ["맛있게 드세요.", "Enjoy your meal.", "Bare minimum a server says setting down a plate"],
+      ["이거 제가 직접 만들었어요. 맛있게 드세요.", "I made this myself. Enjoy your meal.", "Host adds 직접 (in person) to show effort"],
+      ["주문하신 음식 다 나왔습니다. 맛있게 드세요.", "All your dishes are out. Please enjoy.", "Real restaurant line; 나왔습니다 = the food has come out"]
     ],
-    "nuance": "A warm phrase you say to other people before they eat, not about yourself. Servers and hosts use it constantly in everyday Korean dining situations.",
-    "mistakes": ["Do not say it about your own meal."]
+    "nuance": "맛있게 드세요 literally stacks 맛있게 'deliciously' + 드세요, the honorific imperative of 들다/먹다 'to eat', so it means 'please eat (this) deliciously' — an invitation aimed at the other person, never a comment on your own food. The dividing line from plain 드세요 ('please eat') is the adverb 맛있게: it adds the warm wish that the food taste good, the way English 'enjoy your meal' adds feeling to 'eat'. 드세요 is the polite honorific of 먹어요; you use 드세요 to guests, customers and elders, but 먹어 to a child or close friend. It collocates with 많이 (a lot), 천천히 (slowly), 따뜻할 때 (while it's warm). English speakers wrongly say it about themselves before digging in — but you can't wish yourself a good meal; if you're the one eating, say 잘 먹겠습니다 instead.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "맛있게 드세요 literally stacks 맛있게 'deliciously' + 드세요, the honorific imperative of 들다/먹다 'to eat', so it means 'please eat (this) deliciously' — an invitation aimed at the other person, never a comment on your own food. It collocates with 많이 (a lot), 천천히 (slowly), 따뜻할 때 (while it's warm)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line from plain 드세요 ('please eat') is the adverb 맛있게: it adds the warm wish that the food taste good, the way English 'enjoy your meal' adds feeling to 'eat'. 드세요 is the polite honorific of 먹어요; you use 드세요 to guests, customers and elders, but 먹어 to a child or close friend."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers wrongly say it about themselves before digging in — but you can't wish yourself a good meal; if you're the one eating, say 잘 먹겠습니다 instead."
+      }
+    ],
+    "mistakes": [
+      ["Saying 맛있게 드세요 about your own meal before you eat.", "The phrase is a wish directed at others; you cannot tell yourself to enjoy. Say 잘 먹겠습니다 ('I will eat well') to your host instead."],
+      ["Using 먹으세요 to a guest or elder.", "먹다 is the plain verb; to someone you respect the honorific 들다 is expected, so 드세요, not 먹으세요, sounds properly polite."],
+      ["Treating 맛있게 as optional filler and dropping it.", "Bare 드세요 just means 'eat'; the warmth and the 'enjoy' meaning live entirely in 맛있게, so omitting it changes the tone."]
+    ]
   },
   {
     "hangul": "잘 부탁드려요",
@@ -24,18 +45,44 @@
     "english": "I look forward to working with you",
     "topic": "daily-life",
     "usage": [
-      ["잘 부탁드려요", "Please take good care of it", "Polite request closing"],
-      ["잘 부탁드립니다", "I look forward to working with you", "More formal version"],
-      ["앞으로 잘 부탁드려요", "Please treat me well going forward", "First meeting phrase"],
-      ["이거 좀 잘 부탁드려요", "Please handle this well", "Handing over a task"]
+      ["잘 부탁드려요", "Please take good care of it / me", "Standard polite closing"],
+      ["잘 부탁드립니다", "I look forward to working with you", "More formal 합쇼체 register"],
+      ["앞으로 잘 부탁드려요", "Please treat me well going forward", "First-meeting set phrase"],
+      ["이거 좀 잘 부탁드려요", "Please handle this for me", "Handing over a task"]
     ],
     "examples": [
-      ["오늘부터 일하게 됐어요. 잘 부탁드려요.", "I start working today. I look forward to it.", "New coworker greeting"],
-      ["서류 좀 잘 부탁드려요.", "Please take care of the documents.", "Asking a favor"],
-      ["우리 아이 잘 부탁드려요.", "Please take good care of my child.", "Parent to teacher"]
+      ["잘 부탁드려요.", "I look forward to working with you.", "On its own, ending a first greeting"],
+      ["오늘부터 같이 일하게 됐어요. 잘 부탁드려요.", "I start working with you today. Please treat me kindly.", "New coworker; 게 됐어요 = it came to be"],
+      ["우리 아이 잘 부탁드리겠습니다.", "Please take good care of my child.", "Parent to teacher; 드리겠습니다 is the humblest level"]
     ],
-    "nuance": "A polite set phrase used when asking someone to take care of something or when starting a new relationship. It builds goodwill and has no exact one-word English match.",
-    "mistakes": ["It is not literally a request for help."]
+    "nuance": "부탁 is Sino-Korean 付託 'to entrust/commit (a request) to someone', and 드리다 is the humble 'to give (upward to a superior)', so 부탁드려요 literally means 'I humbly hand you my request' — far more deferential than plain 부탁해요. Add 잘 ('well') and it becomes the all-purpose Korean phrase for 'please look after this/me kindly', said at first meetings, when joining a team, or when entrusting any task. It has no clean English equivalent: depending on context it covers 'nice to meet you', 'I look forward to working with you', and 'please take care of it'. The near-synonym 도와주세요 ('please help me') is a concrete request for assistance, while 잘 부탁드려요 is a softer, relationship-building bow that asks for general goodwill, not a specific action. English speakers misread it as a literal plea for help and look for what task to do; really it is social glue, so you simply receive it warmly. Never answer a polite 부탁드려요 with the casual 부탁해 back to a senior.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "부탁드려요 literally means 'I humbly hand you my request'. Add 잘 ('well') and it becomes the all-purpose Korean phrase for 'please look after this/me kindly', said at first meetings, when joining a team, or when entrusting any task. It has no clean English equivalent: depending on context it covers 'nice to meet you', 'I look forward to working with you', and 'please take care of it'. It is social glue, so you simply receive it warmly."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "부탁드려요 is far more deferential than plain 부탁해요. The near-synonym 도와주세요 ('please help me') is a concrete request for assistance, while 잘 부탁드려요 is a softer, relationship-building bow that asks for general goodwill, not a specific action."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "부탁 is Sino-Korean 付託 'to entrust/commit (a request) to someone', and 드리다 is the humble 'to give (upward to a superior)'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers misread it as a literal plea for help and look for what task to do; really it is just goodwill. And never answer a polite 부탁드려요 with the casual 부탁해 back to a senior."
+      }
+    ],
+    "mistakes": [
+      ["Reading it as a concrete request and asking 'help with what?'", "잘 부탁드려요 is a relationship phrase, not a task order; it asks for general goodwill, so just reply 네, 저도 잘 부탁드려요 rather than hunting for a chore."],
+      ["Saying 부탁해 to a boss or someone older.", "부탁해 is casual 반말; upward you need the humble 드리다 form 부탁드려요/부탁드립니다, or it sounds presumptuous."],
+      ["Pairing it with 주세요 as 부탁드려 주세요.", "부탁드리다 already contains the giving verb; stacking 주세요 is redundant. Use 부탁드려요 or 부탁드립니다 by itself."]
+    ]
   },
   {
     "hangul": "조심하세요",
@@ -44,17 +91,43 @@
     "topic": "daily-life",
     "usage": [
       ["조심하세요", "Be careful", "General polite warning"],
-      ["조심히 가세요", "Go home safely", "Said when parting"],
-      ["발 조심하세요", "Watch your step", "Pointing at danger"],
-      ["감기 조심하세요", "Take care of your cold", "Caring seasonal phrase"]
+      ["조심히 가세요", "Get home safely", "Parting phrase, 조심히 = carefully"],
+      ["발 조심하세요", "Watch your step", "Noun + 조심 names the hazard"],
+      ["감기 조심하세요", "Don't catch a cold", "Seasonal caring phrase"]
     ],
     "examples": [
-      ["바닥이 미끄러워요. 조심하세요.", "The floor is slippery. Be careful.", "Warning a passerby"],
-      ["밤길 조심하세요.", "Be careful on the night road.", "Caring goodbye"],
-      ["계단 조심하세요.", "Be careful on the stairs.", "Pointing out steps"]
+      ["조심하세요!", "Be careful!", "Quick shout when someone's about to trip"],
+      ["바닥이 미끄러우니까 조심하세요.", "The floor's slippery, so be careful.", "Reason + warning with -으니까"],
+      ["밤늦었는데 조심히 들어가세요.", "It's late, so get home safe.", "Warm goodbye; 들어가다 = go in(home)"]
     ],
-    "nuance": "A caring polite phrase used both as a real safety warning and as a friendly farewell. Koreans often add a noun in front to specify what to watch out for.",
-    "mistakes": ["Drop the polite ending only with close friends."]
+    "nuance": "조심하세요 is built on Sino-Korean 操心 ('to manage/hold the heart-mind'), literally 'keep your mind on guard', and the 하다 verb takes the honorific imperative 하세요, so it means 'please be careful'. Korean splits two ideas English merges: 조심하다 (verb, 'to take care/be cautious') versus the adverb 조심히/조심해서 ('carefully') that modifies another verb — hence 조심하세요 'be careful' but 조심히 가세요 'go carefully'. It works both as a genuine safety warning and, very commonly, as a caring farewell, so it overlaps with 잘 가세요 but adds the nuance of 'mind yourself'. A signature pattern is NOUN + 조심하세요, where the noun names the danger: 발 조심 (your feet), 계단 조심 (the stairs), 감기 조심 (catching cold), 차 조심 (cars). English speakers wrongly tack on 조심 with the object particle as 발을 조심하세요 — natural Korean usually drops the particle here, just 발 조심하세요. Drop the honorific to 조심해 only with close friends or juniors.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "조심하세요 means 'please be careful'. It works both as a genuine safety warning and, very commonly, as a caring farewell, so it overlaps with 잘 가세요 but adds the nuance of 'mind yourself'. A signature pattern is NOUN + 조심하세요, where the noun names the danger: 발 조심 (your feet), 계단 조심 (the stairs), 감기 조심 (catching cold), 차 조심 (cars). Drop the honorific to 조심해 only with close friends or juniors."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Korean splits two ideas English merges: 조심하다 (verb, 'to take care/be cautious') versus the adverb 조심히/조심해서 ('carefully') that modifies another verb — hence 조심하세요 'be careful' but 조심히 가세요 'go carefully'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "조심하세요 is built on Sino-Korean 操心 ('to manage/hold the heart-mind'), literally 'keep your mind on guard', and the 하다 verb takes the honorific imperative 하세요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers wrongly tack on 조심 with the object particle as 발을 조심하세요 — natural Korean usually drops the particle here, just 발 조심하세요."
+      }
+    ],
+    "mistakes": [
+      ["Using 조심하세요 to mean 'go carefully' before a verb of motion.", "As a standalone it means 'be careful', but to modify 가다 you need the adverb form: 조심히 가세요 / 조심해서 가세요, not 조심하세요 가세요."],
+      ["Forcing the object particle in NOUN+조심: 계단을 조심하세요.", "Fixed warnings drop the particle: 계단 조심하세요, 발 조심하세요. Adding 을/를 sounds stiff and textbook-like."],
+      ["Saying 조심해 to a stranger or elder.", "조심해 is bare 반말 and can sound like an order; to anyone you don't know well use the honorific 조심하세요."]
+    ]
   },
   {
     "hangul": "모르겠어요",
@@ -62,18 +135,39 @@
     "english": "I do not know",
     "topic": "daily-life",
     "usage": [
-      ["모르겠어요", "I do not know", "Polite uncertain answer"],
-      ["잘 모르겠어요", "I really do not know", "Softer and humbler"],
-      ["아직 모르겠어요", "I do not know yet", "Decision still pending"],
-      ["왜 그런지 모르겠어요", "I do not know why", "About a reason"]
+      ["모르겠어요", "I'm not sure", "Polite, softened 'I don't know'"],
+      ["잘 모르겠어요", "I really don't know", "잘 makes it humbler, not 'know well'"],
+      ["아직 모르겠어요", "I don't know yet", "Decision still pending"],
+      ["왜 그런지 모르겠어요", "I don't know why", "-ㄴ지 embeds the question"]
     ],
     "examples": [
-      ["저도 잘 모르겠어요. 다시 알아볼게요.", "I am not sure either. I will check again.", "Honest reply"],
-      ["이 단어 뜻을 모르겠어요.", "I do not know this words meaning.", "Studying together"],
-      ["언제 끝날지 모르겠어요.", "I do not know when it will end.", "Uncertain timing"]
+      ["글쎄요, 잘 모르겠어요.", "Hmm, I'm really not sure.", "글쎄요 cushions the uncertainty"],
+      ["이 단어 뜻을 모르겠어요.", "I don't know what this word means.", "뜻 = meaning; object + 모르겠어요"],
+      ["언제 끝날지 아직 모르겠어요.", "I still don't know when it'll finish.", "-ㄹ지 for an unknown future fact"]
     ],
-    "nuance": "The natural everyday way to say you do not know something. The 겠 part softens it, making it sound more humble and polite than the blunt form 몰라요.",
-    "mistakes": ["몰라요 can sound a bit curt."]
+    "nuance": "모르다 is the standalone verb 'to not know' (the opposite of 알다 'to know'), and 모르겠어요 adds -겠- before the polite 어요 ending. That -겠- is not future tense here; it softens the assertion into 'I'm not sure / I can't seem to tell', so 모르겠어요 sounds more tentative and humble than the flat 몰라요. The contrast matters: 몰라요 is a blunt fact ('I don't know'), even slightly curt or dismissive, while 모르겠어요 hedges politely and is what you'd say to a customer, teacher, or stranger. Adding 잘 in front (잘 모르겠어요) does NOT mean 'I know well' — counterintuitively it intensifies the not-knowing into 'I really have no idea', a common trap for English speakers who read 잘 as 'well'. It frequently embeds a question with -ㄴ지/-ㄹ지: 어디인지 모르겠어요 (I don't know where), 맞는지 모르겠어요 (I'm not sure if it's right). Because Korean rarely uses subject pronouns, you usually drop 저는 and just say 모르겠어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "모르다 is the standalone verb 'to not know' (the opposite of 알다 'to know'), and 모르겠어요 adds -겠- before the polite 어요 ending. That -겠- is not future tense here; it softens the assertion into 'I'm not sure / I can't seem to tell', so 모르겠어요 sounds more tentative and humble than the flat 몰라요. It frequently embeds a question with -ㄴ지/-ㄹ지: 어디인지 모르겠어요 (I don't know where), 맞는지 모르겠어요 (I'm not sure if it's right). Because Korean rarely uses subject pronouns, you usually drop 저는 and just say 모르겠어요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast matters: 몰라요 is a blunt fact ('I don't know'), even slightly curt or dismissive, while 모르겠어요 hedges politely and is what you'd say to a customer, teacher, or stranger."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Adding 잘 in front (잘 모르겠어요) does NOT mean 'I know well' — counterintuitively it intensifies the not-knowing into 'I really have no idea', a common trap for English speakers who read 잘 as 'well'."
+      }
+    ],
+    "mistakes": [
+      ["Reading 잘 모르겠어요 as 'I know it well'.", "잘 here intensifies the negative verb, so it means 'I really don't know', the opposite of what 잘 ('well') suggests in English."],
+      ["Defaulting to 몰라요 with strangers or superiors.", "몰라요 sounds blunt, even cold; the -겠- in 모르겠어요 adds politeness and humility, which is safer in service or formal settings."],
+      ["Saying 안 알아요 for 'I don't know'.", "Korean does not negate 알다 with 안; the dedicated antonym verb is 모르다. Use 몰라요 / 모르겠어요, never 안 알아요."]
+    ]
   },
   {
     "hangul": "잠깐만요",
@@ -81,18 +175,39 @@
     "english": "Hold on a sec",
     "topic": "daily-life",
     "usage": [
-      ["잠깐만요", "Hold on a sec", "Asking for a pause"],
-      ["잠시만요", "Just a moment", "Slightly more polite"],
-      ["잠깐만 기다려 주세요", "Please wait a moment", "Full polite form"],
-      ["잠깐만요, 지나갈게요", "Excuse me, coming through", "In a crowd"]
+      ["잠깐만요", "Hold on a sec", "Asking for a brief pause"],
+      ["잠시만요", "Just a moment", "Slightly more formal twin"],
+      ["잠깐만 기다려 주세요", "Please wait a moment", "Full polite request form"],
+      ["잠깐만요, 지나갈게요", "Excuse me, coming through", "Squeezing past in a crowd"]
     ],
     "examples": [
-      ["잠깐만요, 전화 좀 받을게요.", "Hold on, let me take this call.", "Pausing a chat"],
-      ["잠깐만요, 곧 갈게요.", "Just a sec, I am coming.", "Replying to a call"],
-      ["잠깐만요, 길 좀 비켜 주세요.", "Excuse me, please make way.", "Moving through people"]
+      ["아, 잠깐만요!", "Oh, hold on a sec!", "Stopping someone mid-action"],
+      ["잠깐만요, 전화 좀 받을게요.", "One sec, let me grab this call.", "-ㄹ게요 announces your own next move"],
+      ["잠깐만요, 좀 지나갈게요.", "Excuse me, let me get past.", "Polite way through a packed subway"]
     ],
-    "nuance": "A very common short phrase to ask someone to wait briefly or to politely get past them. It is friendly and casual yet still polite enough for strangers.",
-    "mistakes": ["Use 잠시만요 in very formal settings."]
+    "nuance": "잠깐 means 'a brief moment, a short while', 만 is the particle 'only/just', and the 요 makes it polite — so 잠깐만요 is literally 'just a brief moment, please', i.e. 'hold on a sec'. It does double duty: asking someone to wait, and politely getting their attention or asking them to make way, much like English 'excuse me' / 'one second'. Its near-twin 잠시만요 is essentially the same but a touch more formal and softer-sounding (잠시 is the more literary word for 'a moment'), so you'd lean to 잠시만요 with customers or in announcements, 잠깐만요 in everyday speech. It contrasts with 기다려요 ('wait'), which is a direct command to wait; 잠깐만요 is gentler because 만 frames it as 'only a tiny bit'. English speakers often over-formalize and say 잠깐만 기다려 주세요 every time, but in fast daily life the clipped 잠깐만요 is what natives actually use. Drop the 요 to 잠깐만 only with friends.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "잠깐 means 'a brief moment, a short while', 만 is the particle 'only/just', and the 요 makes it polite — so 잠깐만요 is literally 'just a brief moment, please', i.e. 'hold on a sec'. It does double duty: asking someone to wait, and politely getting their attention or asking them to make way, much like English 'excuse me' / 'one second'. Drop the 요 to 잠깐만 only with friends."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its near-twin 잠시만요 is essentially the same but a touch more formal and softer-sounding (잠시 is the more literary word for 'a moment'), so you'd lean to 잠시만요 with customers or in announcements, 잠깐만요 in everyday speech. It also contrasts with 기다려요 ('wait'), which is a direct command to wait; 잠깐만요 is gentler because 만 frames it as 'only a tiny bit'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers often over-formalize and say 잠깐만 기다려 주세요 every time, but in fast daily life the clipped 잠깐만요 is what natives actually use."
+      }
+    ],
+    "mistakes": [
+      ["Dropping the 요 with strangers: just 잠깐만.", "잠깐만 alone is 반말 and can sound abrupt or even rude to someone you don't know; keep the polite 요 — 잠깐만요."],
+      ["Confusing it with 잠깐 as a noun meaning 'briefly'.", "잠깐 by itself is the adverb/noun 'for a moment' (그는 잠깐 왔어요); 잠깐만요 is the fixed interjection 'hold on'. They aren't interchangeable in a sentence."],
+      ["Using 잠깐만요 to make someone wait a long time.", "It promises only a tiny pause (만 = just); for a real wait, say 조금만 기다려 주세요 or give a time, or it feels misleading."]
+    ]
   },
   {
     "hangul": "천만에요",
@@ -100,18 +215,44 @@
     "english": "You are welcome",
     "topic": "daily-life",
     "usage": [
-      ["천만에요", "You are welcome", "Replying to thanks"],
-      ["천만의 말씀이에요", "Not at all", "Fuller polite version"],
-      ["아니에요, 천만에요", "No, you are welcome", "Modest double reply"],
-      ["천만에요, 당연한 거예요", "Of course, no problem", "Warm reassurance"]
+      ["천만에요", "You're welcome", "Reply to thanks, slightly formal"],
+      ["천만의 말씀이에요", "Not at all", "Fuller, more deferential version"],
+      ["아니에요, 천만에요", "No, you're welcome", "Modest double-deflection"],
+      ["뭘요, 천만에요", "Oh it's nothing, welcome", "Casual softener up front"]
     ],
     "examples": [
-      ["도와주셔서 감사해요. 천만에요.", "Thanks for helping. You are welcome.", "Polite exchange"],
-      ["천만에요, 또 필요하면 말씀하세요.", "Welcome, ask me again anytime.", "Offering more help"],
-      ["천만에요, 별거 아니에요.", "You are welcome, it was nothing.", "Downplaying the favor"]
+      ["천만에요.", "You're welcome.", "Stock reply right after 감사합니다"],
+      ["도와주셔서 감사해요. — 천만에요.", "Thanks for helping. — You're welcome.", "The classic thanks/answer pair"],
+      ["천만에요, 별거 아니에요.", "You're welcome, it was nothing.", "별거 아니에요 downplays the favor"]
     ],
-    "nuance": "A polite reply to thank you, similar to you are welcome. It sounds a little formal, so close friends often use lighter replies like 응 or 별말씀을 instead.",
-    "mistakes": ["Younger people may find it slightly stiff."]
+    "nuance": "천만에요 comes from 천만 (Sino-Korean 千萬 'ten million') + 에요, an idiom meaning roughly 'not in ten million (ways)' — i.e. 'don't even think of it', hence 'you're welcome / not at all'. It is the textbook reply to 감사합니다, but in real life it sounds a bit formal and even slightly old-fashioned, so younger Koreans more often deflect with 아니에요 ('no, no'), 별말씀을요, or a casual 뭘요. Compare the registers: 아니에요 is the everyday warm 'oh it was nothing', 별말씀을요 is humbly brushing off thanks or praise, and 천만에요 is the dictionary-perfect but stiffer 'you're welcome'. English speakers, mapping 'you're welcome' one-to-one, overuse 천만에요 and can sound textbook-ish; among friends a simple 응 or 아니야 fits better. Note 천만에요 only answers thanks, whereas 별말씀을요 also deflects compliments, so they aren't fully interchangeable. Keep the 요 ending; 천만에 alone is rarely said.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "천만에요 is an idiom meaning roughly 'not in ten million (ways)' — i.e. 'don't even think of it', hence 'you're welcome / not at all'. It is the textbook reply to 감사합니다, but in real life it sounds a bit formal and even slightly old-fashioned, so younger Koreans more often deflect with 아니에요 ('no, no'), 별말씀을요, or a casual 뭘요. Note it only answers thanks. Keep the 요 ending; 천만에 alone is rarely said."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare the registers: 아니에요 is the everyday warm 'oh it was nothing', 별말씀을요 is humbly brushing off thanks or praise, and 천만에요 is the dictionary-perfect but stiffer 'you're welcome'. 천만에요 only answers thanks, whereas 별말씀을요 also deflects compliments, so they aren't fully interchangeable."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "천만에요 comes from 천만 (Sino-Korean 千萬 'ten million') + 에요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers, mapping 'you're welcome' one-to-one, overuse 천만에요 and can sound textbook-ish; among friends a simple 응 or 아니야 fits better."
+      }
+    ],
+    "mistakes": [
+      ["Using 천만에요 constantly because it's the 'textbook' answer.", "It sounds formal and a bit dated; natives more often say 아니에요 or 뭘요 in casual situations, so reserve 천만에요 for politer moments."],
+      ["Treating 천만에요 and 별말씀을요 as identical.", "천만에요 answers thanks only; 별말씀을요 also deflects compliments ('you flatter me'). Swapping them in a compliment context feels off."],
+      ["Parsing 천만 literally as 'ten million'.", "Here it's a frozen idiom 千萬 meaning 'by no means / not at all'. Trying to translate the number word-for-word misses that it's a set expression."]
+    ]
   },
   {
     "hangul": "별말씀을요",
@@ -119,18 +260,44 @@
     "english": "Dont mention it",
     "topic": "daily-life",
     "usage": [
-      ["별말씀을요", "Dont mention it", "Humble reply to thanks"],
-      ["별말씀을 다 하세요", "You flatter me", "Brushing off praise"],
-      ["아니에요, 별말씀을요", "No, dont mention it", "Modest double reply"],
-      ["별말씀을요, 제가 좋아서 한 거예요", "Not at all, I gladly did it", "Warm follow-up"]
+      ["별말씀을요", "Don't mention it", "Humble reply to thanks or praise"],
+      ["별말씀을 다 하세요", "You flatter me", "Brushing off a compliment"],
+      ["아니에요, 별말씀을요", "No, don't mention it", "Modest double reply"],
+      ["별말씀을요, 당연한 거예요", "Not at all, of course", "Reassuring follow-up"]
     ],
     "examples": [
-      ["덕분에 잘 됐어요. 별말씀을요.", "It went well thanks to you. Dont mention it.", "Polite modesty"],
-      ["정말 친절하시네요. 별말씀을요.", "You are so kind. Dont mention it.", "Deflecting a compliment"],
-      ["별말씀을요, 당연히 도와드려야죠.", "Not at all, of course I should help.", "Reassuring reply"]
+      ["별말씀을요.", "Don't mention it.", "Quiet, humble deflection on its own"],
+      ["덕분에 잘 끝났어요. — 별말씀을요.", "It went well thanks to you. — Don't mention it.", "덕분에 = thanks to (you)"],
+      ["정말 친절하시네요. — 별말씀을요.", "You're so kind. — Oh, you flatter me.", "Here it deflects praise, not thanks"]
     ],
-    "nuance": "A humble polite reply used to brush off thanks or compliments, much like dont mention it. It signals modesty and is common among adults in courteous everyday conversation.",
-    "mistakes": ["It also deflects praise, not just thanks."]
+    "nuance": "별말씀을요 breaks down as 별 ('special, out of the ordinary', Sino-Korean 別) + 말씀 (the humble/honorific word for 'words, what you say') + 을 (object particle) + 요, literally 'such special words (you say)!' — an idiom that humbly waves away thanks or praise, like English 'don't mention it' or 'you flatter me'. Its register is courteous and a touch humble, common among adults in polite exchanges; it's softer and more self-effacing than the brisk dictionary reply 천만에요. The key distinction from 천만에요 is range: 천만에요 only answers 감사합니다, but 별말씀을요 also deflects compliments ('you're too kind'), because you're literally protesting the 'special words' someone offered. The full form 별말씀을 다 하세요 ('you say all sorts of flattering things') leans even more into brushing off praise. English speakers stumble on the spelling and pronunciation — it's 말씀 (honorific) not 말 — and on the liaison, where 을요 links into [으료]. Don't reduce it to 별말 (that means 'a strange remark'), and keep 말씀, the respectful form.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "별말씀을요 literally means 'such special words (you say)!' — an idiom that humbly waves away thanks or praise, like English 'don't mention it' or 'you flatter me'. Its register is courteous and a touch humble, common among adults in polite exchanges. The full form 별말씀을 다 하세요 ('you say all sorts of flattering things') leans even more into brushing off praise."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It's softer and more self-effacing than the brisk dictionary reply 천만에요. The key distinction from 천만에요 is range: 천만에요 only answers 감사합니다, but 별말씀을요 also deflects compliments ('you're too kind'), because you're literally protesting the 'special words' someone offered."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "별말씀을요 breaks down as 별 ('special, out of the ordinary', Sino-Korean 別) + 말씀 (the humble/honorific word for 'words, what you say') + 을 (object particle) + 요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers stumble on the spelling and pronunciation — it's 말씀 (honorific) not 말 — and on the liaison, where 을요 links into [으료]. Don't reduce it to 별말 (that means 'a strange remark'), and keep 말씀, the respectful form."
+      }
+    ],
+    "mistakes": [
+      ["Shortening it to 별말요 or 별말씀요 and dropping the object particle.", "The set phrase keeps 말씀 plus 을: 별말씀을요. 별말alone means 'an odd remark', which changes the meaning entirely."],
+      ["Assuming it only answers thanks like 천만에요.", "별말씀을요 also deflects compliments ('you flatter me'). Using it after praise is correct and natural, which 천만에요 can't always cover."],
+      ["Using plain 말 instead of the honorific 말씀.", "The humility of the phrase depends on 말씀, the respectful word for someone's speech; 별말 sounds wrong and even slightly negative."]
+    ]
   },
   {
     "hangul": "다음에 또 오세요",
@@ -138,18 +305,44 @@
     "english": "Please come again",
     "topic": "shopping",
     "usage": [
-      ["다음에 또 오세요", "Please come again", "Shop owner farewell"],
-      ["또 오세요", "Come again", "Shorter friendly version"],
-      ["다음에 또 뵐게요", "See you next time", "Mutual polite goodbye"],
-      ["조심히 가시고 또 오세요", "Go safely and come again", "Warm send-off"]
+      ["다음에 또 오세요", "Please come again", "Shop/restaurant staff farewell"],
+      ["또 오세요", "Come again", "Shorter, friendly version"],
+      ["다음에 또 뵐게요", "See you next time", "Mutual goodbye, 뵙다 = humbly meet"],
+      ["조심히 가시고 또 오세요", "Get home safe and come again", "Warm layered send-off"]
     ],
     "examples": [
-      ["감사합니다. 다음에 또 오세요.", "Thank you. Please come again.", "Cashier to customer"],
-      ["맛있게 드셨어요? 다음에 또 오세요.", "Did you enjoy it? Come again.", "Restaurant farewell"],
-      ["다음에 또 오세요. 안녕히 가세요.", "Come again. Goodbye.", "Closing greeting"]
+      ["안녕히 가세요, 또 오세요!", "Goodbye, come again!", "Cheery shout as you leave a shop"],
+      ["맛있게 드셨어요? 다음에 또 오세요.", "Did you enjoy it? Please come again.", "Restaurant owner's farewell"],
+      ["감사합니다. 다음에 또 오세요.", "Thank you. Please come again.", "Cashier's standard closing line"]
     ],
-    "nuance": "A warm farewell that shop and restaurant staff say to invite customers back. As a customer you usually just reply 네, 감사합니다 rather than repeating it.",
-    "mistakes": ["Staff say it, customers rarely do."]
+    "nuance": "다음에 ('next time', 다음 'next' + 에 'at') + 또 ('again') + 오세요 (honorific imperative of 오다 'to come') = 'please come again next time' — the warm send-off shop and restaurant staff give customers. The pivotal verb is 오다 'to come', NOT 가다 'to go': from the staff's standpoint the customer returns toward them, so it must be 오세요; saying 가세요 ('go') would be a logical error. Note the difference from 다음에 봐요 ('see you next time'), which is a casual mutual goodbye between friends, whereas 다음에 또 오세요 flows one way, host inviting guest back. The little word 또 is doing the 'again' work; 다시 also means 'again' but leans toward 'redo/once more', while 또 fits 'come back another time'. The big pitfall for English speakers is using it the wrong direction: customers almost never say it back — you simply reply 네, 감사합니다 or 잘 먹었습니다. Only the one staying behind (the host) issues the invitation to return.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "다음에 또 오세요 means 'please come again next time' — the warm send-off shop and restaurant staff give customers. The pivotal verb is 오다 'to come', NOT 가다 'to go': from the staff's standpoint the customer returns toward them, so it must be 오세요; saying 가세요 ('go') would be a logical error. Only the one staying behind (the host) issues the invitation to return."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Note the difference from 다음에 봐요 ('see you next time'), which is a casual mutual goodbye between friends, whereas 다음에 또 오세요 flows one way, host inviting guest back. The little word 또 is doing the 'again' work; 다시 also means 'again' but leans toward 'redo/once more', while 또 fits 'come back another time'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It builds from 다음에 ('next time', 다음 'next' + 에 'at') + 또 ('again') + 오세요 (honorific imperative of 오다 'to come')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall for English speakers is using it the wrong direction: customers almost never say it back — you simply reply 네, 감사합니다 or 잘 먹었습니다."
+      }
+    ],
+    "mistakes": [
+      ["Saying 다음에 또 가세요 to invite someone back.", "From the host's view the customer comes toward them, so the verb is 오다 → 오세요. 가세요 ('go') reverses the direction and sounds wrong."],
+      ["A customer repeating 또 오세요 to the staff.", "This is the host's line; customers reply with 네, 감사합니다 or 잘 먹었습니다, not by inviting the staff to 'come again'."],
+      ["Swapping 또 for 다시 as 다음에 다시 오세요.", "다시 nudges toward 'redo/once more'; for 'come another time' natives say 또. 다시 오세요 can hint you did something wrong the first time."]
+    ]
   },
   {
     "hangul": "여기 있어요",
@@ -157,18 +350,39 @@
     "english": "Here it is",
     "topic": "shopping",
     "usage": [
-      ["여기 있어요", "Here it is", "Handing something over"],
-      ["여기 있습니다", "Here you are", "More formal version"],
-      ["여기요", "Over here", "Calling staff attention"],
-      ["여기 있어요, 받으세요", "Here it is, take it", "With a small gesture"]
+      ["여기 있어요", "Here it is / here you go", "Handing something over"],
+      ["여기 있습니다", "Here you are", "More formal 합쇼체 service form"],
+      ["여기요", "Excuse me! / over here", "Calling a server's attention"],
+      ["여기 있어요, 받으세요", "Here it is, take it", "With a handing gesture"]
     ],
     "examples": [
-      ["주문하신 커피 여기 있어요.", "Here is the coffee you ordered.", "Server handing a drink"],
-      ["제 신분증 여기 있어요.", "Here is my ID card.", "Showing a document"],
-      ["거스름돈 여기 있어요.", "Here is your change.", "Returning money"]
+      ["여기 있어요.", "Here you go.", "Said while passing an item across"],
+      ["주문하신 커피 여기 있어요.", "Here's the coffee you ordered.", "Server placing the drink down"],
+      ["거스름돈 여기 있어요.", "Here's your change.", "거스름돈 = change; returning money"]
     ],
-    "nuance": "Used when physically handing something to someone, like here you go. Note that 여기요 alone is the common way to call a server, so context decides the meaning.",
-    "mistakes": ["여기요 alone means excuse me, server."]
+    "nuance": "여기 있어요 = 여기 ('here', this place) + 있어요, the polite form of 있다 'to exist / to be (located)', so literally 'it is here' — used the moment you physically hand something over, like English 'here you go / here it is'. 있다 is the existence-and-location verb (the opposite of 없다 'to not exist'); don't confuse it with 이다 'to be (X)', so 'here it is' is 여기 있어요, never 여기 이에요. A crucial context split: the clipped 여기요 (just 'here' + 요) is the standard way to call a server or get attention in a restaurant ('excuse me, over here!'), so the same root can mean either 'here you go' or 'waiter!' depending on situation and whether you're holding something out. The fuller, more formal 여기 있습니다 is what polished service staff say. Near-synonym 여기 있어요 vs 드릴게요 ('I'll give it to you'): the latter announces the giving, while 여기 있어요 presents the thing as already in hand. English speakers sometimes use 여기요 trying to say 'here you go' when handing an item — but bare 여기요 reads as 'excuse me, server', so add 있어요 when you mean 'here it is'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "여기 있어요 means literally 'it is here' — used the moment you physically hand something over, like English 'here you go / here it is'. A crucial context split: the clipped 여기요 (just 'here' + 요) is the standard way to call a server or get attention in a restaurant ('excuse me, over here!'), so the same root can mean either 'here you go' or 'waiter!' depending on situation and whether you're holding something out. The fuller, more formal 여기 있습니다 is what polished service staff say."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "있다 is the existence-and-location verb (the opposite of 없다 'to not exist'); don't confuse it with 이다 'to be (X)', so 'here it is' is 여기 있어요, never 여기 이에요. Compare 여기 있어요 vs 드릴게요 ('I'll give it to you'): the latter announces the giving, while 여기 있어요 presents the thing as already in hand."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers sometimes use 여기요 trying to say 'here you go' when handing an item — but bare 여기요 reads as 'excuse me, server', so add 있어요 when you mean 'here it is'."
+      }
+    ],
+    "mistakes": [
+      ["Using bare 여기요 to mean 'here you go' when handing something over.", "여기요 alone is the call for a server ('excuse me!'). To present an item, say the full 여기 있어요, or the listener hears 'waiter, over here'."],
+      ["Saying 여기 이에요 instead of 여기 있어요.", "Location/existence uses 있다 (있어요), not the identifying copula 이다 (이에요). 여기 이에요 is ungrammatical for 'it's here'."],
+      ["Negating with 여기 안 있어요 for 'it's not here'.", "있다 has its own antonym 없다; 'it's not here' is 여기 없어요, not 안 있어요."]
+    ]
   },
   {
     "hangul": "얼마나 걸려요?",
@@ -177,17 +391,38 @@
     "topic": "travel",
     "usage": [
       ["얼마나 걸려요?", "How long does it take?", "Asking about duration"],
-      ["시간이 얼마나 걸려요?", "How much time does it take?", "Explicit about time"],
-      ["여기서 얼마나 걸려요?", "How long from here?", "Starting point given"],
-      ["걸어서 얼마나 걸려요?", "How long on foot?", "Specifying by walking"]
+      ["시간이 얼마나 걸려요?", "How much time does it take?", "시간 makes 'time' explicit"],
+      ["여기서 얼마나 걸려요?", "How long from here?", "여기서 = from here, sets origin"],
+      ["걸어서 얼마나 걸려요?", "How long on foot?", "걸어서 = by walking, the method"]
     ],
     "examples": [
-      ["공항까지 얼마나 걸려요?", "How long to the airport?", "Asking a taxi driver"],
-      ["지하철로 얼마나 걸려요?", "How long by subway?", "Planning a trip"],
-      ["배송이 얼마나 걸려요?", "How long does delivery take?", "Online shopping question"]
+      ["얼마나 걸려요?", "How long does it take?", "Bare core question, very common"],
+      ["공항까지 얼마나 걸려요?", "How long to the airport?", "-까지 = up to/as far as the airport"],
+      ["택배로 얼마나 걸려요?", "How long by courier?", "-로 marks the means of delivery"]
     ],
-    "nuance": "A key travel phrase for asking how much time something needs. Add a method like 버스로 or a place with 까지 in front to make your question more specific.",
-    "mistakes": ["얼마예요 asks price, not duration."]
+    "nuance": "얼마나 걸려요? combines 얼마나 ('how much / to what extent') with 걸리다 'to take (time), to be required', in the polite form 걸려요 — so it asks 'how much (time) does it take?'. The headword 걸리다 here means 'to take time'; the same verb also means 'to be caught/hung' or 'to catch (an illness)', so context disambiguates (시간이 걸리다 = takes time vs 감기에 걸리다 = catch a cold). The big trap for English speakers is mixing it up with 얼마예요? — that asks PRICE ('how much is it?'), while 얼마나 걸려요? asks DURATION; the extra 나 and the verb 걸리다 are what flip 'how much money' into 'how much time'. You sharpen the question with front modifiers: a destination with -까지 (집까지 'to home'), a means with -로 (지하철로 'by subway', 걸어서 'on foot'), or a start point with -에서/서 (여기서 'from here'). Korean puts the time word 시간이 optionally before 걸려요; you can drop it because 걸리다 already implies time. Answer with a duration like 30분쯤 걸려요 ('about 30 minutes').",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "얼마나 걸려요? combines 얼마나 ('how much / to what extent') with 걸리다 'to take (time), to be required', in the polite form 걸려요 — so it asks 'how much (time) does it take?'. You sharpen the question with front modifiers: a destination with -까지 (집까지 'to home'), a means with -로 (지하철로 'by subway', 걸어서 'on foot'), or a start point with -에서/서 (여기서 'from here'). Korean puts the time word 시간이 optionally before 걸려요; you can drop it because 걸리다 already implies time. Answer with a duration like 30분쯤 걸려요 ('about 30 minutes')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The headword 걸리다 here means 'to take time'; the same verb also means 'to be caught/hung' or 'to catch (an illness)', so context disambiguates (시간이 걸리다 = takes time vs 감기에 걸리다 = catch a cold)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big trap for English speakers is mixing it up with 얼마예요? — that asks PRICE ('how much is it?'), while 얼마나 걸려요? asks DURATION; the extra 나 and the verb 걸리다 are what flip 'how much money' into 'how much time'."
+      }
+    ],
+    "mistakes": [
+      ["Asking 얼마예요? when you mean 'how long does it take?'", "얼마예요? asks the price; duration needs the verb 걸리다 → 얼마나 걸려요? Mixing them gets you a cost, not a time."],
+      ["Marking the destination with -에 instead of -까지.", "For 'how long TO a place', the goal-of-extent particle is -까지: 공항까지 얼마나 걸려요? -에 marks a static location, not the endpoint of travel time."],
+      ["Saying 얼마나 시간 걸려요 with no particle on 시간.", "If you state the time noun, mark it as subject: 시간이 얼마나 걸려요? Or just drop 시간 entirely — 얼마나 걸려요? already means 'how long'."]
+    ]
   },
   {
     "hangul": "이거 뭐예요?",
@@ -195,18 +430,44 @@
     "english": "What is this?",
     "topic": "shopping",
     "usage": [
-      ["이거 뭐예요?", "What is this?", "Pointing at an item"],
-      ["이게 뭐예요?", "What is this?", "Slightly more careful form"],
-      ["저거 뭐예요?", "What is that?", "Object farther away"],
-      ["이거 뭐 하는 거예요?", "What is this for?", "Asking its purpose"]
+      ["이거 뭐예요?", "What is this?", "Pointing at an item, casual-polite"],
+      ["이게 뭐예요?", "What is this?", "이게 = 이것이, with subject particle"],
+      ["저거 뭐예요?", "What is that?", "저거 for something farther off"],
+      ["이거 뭐 하는 거예요?", "What's this for?", "Asking the purpose/function"]
     ],
     "examples": [
-      ["이거 뭐예요? 처음 봐요.", "What is this? I have never seen it.", "Curious at a market"],
-      ["이거 뭐예요? 매워요?", "What is this? Is it spicy?", "Asking about food"],
-      ["이 버튼 뭐예요?", "What is this button?", "Pointing at a machine"]
+      ["이거 뭐예요?", "What is this?", "Bare question while pointing"],
+      ["이거 뭐예요? 매워요?", "What's this? Is it spicy?", "Follow-up at a food stall"],
+      ["이 버튼 뭐예요?", "What's this button?", "이 + noun directly; pointing at a machine"]
     ],
-    "nuance": "The most basic everyday way to ask what an object is while pointing at it. 이거 is the casual spoken form of 이것, so it sounds natural and friendly.",
-    "mistakes": ["For people use 누구예요 not 뭐예요."]
+    "nuance": "이거 뭐예요? = 이거 (the casual spoken contraction of 이것 'this thing') + 뭐 (the colloquial form of 무엇 'what') + 예요 (polite copula) — the everyday 'what is this?' you say while pointing. Three contraction layers trip up learners: 이것 → 이거 in speech; 이것이 (with subject particle) → 이게; and 무엇이에요 → 뭐예요. So 이거 뭐예요? and 이게 뭐예요? are both fine, the second just adds the subject marker and sounds a touch more careful. The distance set is 이거 (this, near me) / 그거 (that, near you) / 저거 (that, away from both) — pick by where the object is. The headword 뭐 is for THINGS; the crucial pitfall is using it for PEOPLE — 'who is this?' must be 누구예요?, never 뭐예요?, which would sound rude about a person. Also keep the copula attached: 뭐예요 fuses 뭐 + 이에요; writing 뭐 이에요 separately is unnatural. For an object's purpose rather than identity, switch to 이거 뭐 하는 거예요? ('what does this do?').",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이거 뭐예요? is the everyday 'what is this?' you say while pointing. The distance set is 이거 (this, near me) / 그거 (that, near you) / 저거 (that, away from both) — pick by where the object is. For an object's purpose rather than identity, switch to 이거 뭐 하는 거예요? ('what does this do?')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The headword 뭐 is for THINGS, the colloquial form of 무엇 'what'. For PEOPLE you must switch words — 'who is this?' is 누구예요?, never 뭐예요?."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Three contraction layers trip up learners: 이것 → 이거 in speech; 이것이 (with subject particle) → 이게; and 무엇이에요 → 뭐예요. So 이거 뭐예요? and 이게 뭐예요? are both fine, the second just adds the subject marker and sounds a touch more careful. 이거 itself is the casual spoken contraction of 이것 'this thing', and 예요 is the polite copula."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The crucial pitfall is using 뭐 for PEOPLE — 'who is this?' must be 누구예요?, never 뭐예요?, which would sound rude about a person. Also keep the copula attached: 뭐예요 fuses 뭐 + 이에요; writing 뭐 이에요 separately is unnatural."
+      }
+    ],
+    "mistakes": [
+      ["Using 이거 뭐예요? about a person.", "뭐 (what) is for things only; asking 'who is this?' takes 누구 → 이분 누구세요? Using 뭐예요 for a person is grammatically wrong and sounds rude."],
+      ["Writing 이것이에요 / 무엇이에요 in casual speech.", "Spoken Korean contracts these to 이게 / 뭐예요. The full forms are correct but sound stiff and written; natives say 이거 뭐예요?"],
+      ["Mixing up the distance words 이거/그거/저거.", "이거 = near me, 그거 = near you, 저거 = away from both. Pointing at a far object but saying 이거 confuses the listener about which thing you mean."]
+    ]
   },
   {
     "hangul": "화장실 좀 쓸게요",
@@ -214,17 +475,43 @@
     "english": "I will use the restroom",
     "topic": "daily-life",
     "usage": [
-      ["화장실 좀 쓸게요", "I will use the restroom", "Polite heads-up"],
-      ["화장실 어디예요?", "Where is the restroom?", "Asking location"],
-      ["화장실 좀 써도 돼요?", "May I use the restroom?", "Asking permission"],
-      ["잠깐 화장실 좀 다녀올게요", "I will pop to the restroom", "Stepping away briefly"]
+      ["화장실 좀 쓸게요", "I'll use the restroom", "Polite heads-up about your own move"],
+      ["화장실 어디예요?", "Where's the restroom?", "Asking the location"],
+      ["화장실 좀 써도 돼요?", "May I use the restroom?", "Asking permission, -아도 돼요?"],
+      ["잠깐 화장실 좀 다녀올게요", "I'll pop to the restroom", "다녀오다 = go and come back"]
     ],
     "examples": [
-      ["화장실 좀 쓸게요. 금방 올게요.", "I will use the restroom. Back soon.", "Excusing yourself"],
-      ["저기요, 화장실 좀 써도 돼요?", "Excuse me, may I use the restroom?", "Asking in a cafe"],
-      ["밥 먹기 전에 화장실 좀 쓸게요.", "I will use the restroom before eating.", "Before a meal"]
+      ["화장실 좀 쓸게요.", "I'll just use the restroom.", "Excusing yourself with a soft 좀"],
+      ["저기요, 화장실 좀 써도 돼요?", "Excuse me, may I use the restroom?", "Asking in a cafe; permission form"],
+      ["밥 먹기 전에 화장실 좀 다녀올게요.", "I'll hit the restroom before we eat.", "-기 전에 = before doing"]
     ],
-    "nuance": "A polite casual way to announce you are stepping away to the restroom. The word 좀 softens it, and 쓸게요 signals your own intention rather than asking permission.",
-    "mistakes": ["Add 써도 돼요 when permission is needed."]
+    "nuance": "화장실 좀 쓸게요 = 화장실 (Sino-Korean 化粧室, literally 'makeup/grooming room', the standard polite word for toilet) + 좀 (softener, a worn-down 조금 'a little') + 쓸게요, the -ㄹ게요 form of 쓰다 'to use'. The -ㄹ게요 ending is the key: it announces YOUR OWN intention/plan, as a courteous heads-up ('I'm going to use it, just letting you know'), not a request for permission. That separates it sharply from 화장실 좀 써도 돼요? ('may I use the restroom?'), which uses -아도 돼요 to actually ASK permission — say 쓸게요 in your own home or where it's obviously fine, but 써도 돼요? in someone's house or a shop where you need an OK. The little 좀 isn't 'a little' literally; it lubricates the sentence, making any request gentler. On vocabulary, 화장실 (the room) is the polite term, not the blunt 변소; and to ask its location it's 화장실 어디예요?. English speakers wrongly use the announcing 쓸게요 when they should be asking — if permission is in doubt, switch to 써도 돼요?. Also note 쓰다 'to use' is a separate verb from 쓰다 'to write', distinguished by context.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "화장실 좀 쓸게요 uses the -ㄹ게요 ending as the key: it announces YOUR OWN intention/plan, as a courteous heads-up ('I'm going to use it, just letting you know'), not a request for permission. The little 좀 isn't 'a little' literally; it lubricates the sentence, making any request gentler. On vocabulary, 화장실 (the room) is the polite term, not the blunt 변소; and to ask its location it's 화장실 어디예요?."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "-ㄹ게요 separates 쓸게요 sharply from 화장실 좀 써도 돼요? ('may I use the restroom?'), which uses -아도 돼요 to actually ASK permission — say 쓸게요 in your own home or where it's obviously fine, but 써도 돼요? in someone's house or a shop where you need an OK. Also note 쓰다 'to use' is a separate verb from 쓰다 'to write', distinguished by context."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "화장실 is Sino-Korean 化粧室, literally 'makeup/grooming room', the standard polite word for toilet; 좀 is a softener, a worn-down 조금 'a little'; and 쓸게요 is the -ㄹ게요 form of 쓰다 'to use'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers wrongly use the announcing 쓸게요 when they should be asking — if permission is in doubt, switch to 써도 돼요?."
+      }
+    ],
+    "mistakes": [
+      ["Using 쓸게요 when you actually need permission.", "-ㄹ게요 announces your own plan, not a request. In someone's home or a shop, ask 화장실 좀 써도 돼요? with the permission ending -아도 돼요."],
+      ["Treating 좀 as the literal 'a little'.", "Here 좀 is a politeness softener that smooths the request, not a quantity. 화장실 좀 쓸게요 doesn't mean 'use the restroom a little'."],
+      ["Calling the room 변소 or asking 화장실 있어요? to find it.", "변소 is crude/dated; the neutral polite word is 화장실. To locate it, ask 화장실 어디예요?, not just 'is there a restroom?'"]
+    ]
   }
 ]

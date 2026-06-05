@@ -5,18 +5,72 @@
     "english": "Hello (on the phone)",
     "topic": "daily-life",
     "usage": [
-      ["여보세요?", "Hello?", "Said when you answer"],
-      ["여보세요, 안녕하세요.", "Hello, hi there.", "Polite phone greeting"],
-      ["여보세요, 들리세요?", "Hello, can you hear me?", "Checking the connection"],
-      ["여보세요, 누구 찾으세요?", "Hello, who are you looking for?", "Asking the caller"]
+      [
+        "여보세요?",
+        "Hello?",
+        "Rising tone when you pick up an unknown call"
+      ],
+      [
+        "여보세요, 안녕하세요.",
+        "Hello, hi there.",
+        "여보세요 opens the line, 안녕하세요 is the real greeting"
+      ],
+      [
+        "여보세요, 들리세요?",
+        "Hello, can you hear me?",
+        "Re-used mid-call to check a silent line"
+      ],
+      [
+        "여보세요, 거기 한국식당이죠?",
+        "Hello, is that the Korean restaurant?",
+        "Confirming you reached the right place"
+      ]
     ],
     "examples": [
-      ["여보세요? 김민수 씨 계세요?", "Hello? Is Mr. Kim Minsu there?", "Asking for a person"],
-      ["여보세요, 잠깐만 기다리세요.", "Hello, please wait a moment.", "Holding the call"],
-      ["여보세요, 잘 안 들려요.", "Hello, I cannot hear you well.", "Bad connection"]
+      [
+        "여보세요?",
+        "Hello?",
+        "The bare one-word answer when your phone rings"
+      ],
+      [
+        "여보세요, 김민수 씨 휴대폰 맞으세요?",
+        "Hello, is this Kim Minsu's phone?",
+        "Everyday check that you got the right number"
+      ],
+      [
+        "여보세요? 여보세요? 소리가 끊겨요.",
+        "Hello? Hello? You're cutting out.",
+        "Repeated when the line drops and you're reconnecting"
+      ]
     ],
-    "nuance": "This word is used only on the phone, never face to face. It works both when you answer and when you start speaking to check the line.",
-    "mistakes": ["Do not use it when greeting someone in person"]
+    "nuance": "여보세요 is the dedicated telephone 'hello' and is almost never used face to face — saying it to someone in front of you sounds like a joke or a way to snap a daydreamer back to attention ('hello? anybody home?'). It comes from 여기 보세요 ('look here / over here'), literally a call for attention, which is why it also works mid-call to test a quiet line. The everyday in-person greeting is 안녕하세요, and the two are not interchangeable: 안녕하세요 means 'are you at peace', a wellbeing greeting, while 여보세요 just opens a voice channel. Register is neutral-polite (the 세요 ending), fine for strangers, customer service, and elders alike; the blunt 반말 version 여보 has drifted into meaning 'honey/darling' between spouses, so never shorten 여보세요 to 여보 with a stranger. The English-speaker trap is using it like 'hi' when you meet someone — keep it strictly for phones and for getting a distracted person's attention.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "여보세요 is the dedicated telephone 'hello' and is almost never used face to face — saying it to someone in front of you sounds like a joke or a way to snap a daydreamer back to attention ('hello? anybody home?'). It also works mid-call to test a quiet line. Register is neutral-polite (the 세요 ending), fine for strangers, customer service, and elders alike."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The everyday in-person greeting is 안녕하세요, and the two are not interchangeable: 안녕하세요 means 'are you at peace', a wellbeing greeting, while 여보세요 just opens a voice channel. The blunt 반말 version 여보 has drifted into meaning 'honey/darling' between spouses, so never shorten 여보세요 to 여보 with a stranger."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It comes from 여기 보세요 ('look here / over here'), literally a call for attention, which is why it also works mid-call to test a quiet line."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker trap is using it like 'hi' when you meet someone — keep it strictly for phones and for getting a distracted person's attention."
+      }
+    ],
+    "mistakes": [
+      "Using 여보세요 to greet someone in person — it only works on the phone or to grab a spaced-out person's attention; for meeting people say 안녕하세요.",
+      "Shortening it to 여보 to sound casual — 여보 alone means 'dear/honey' between a married couple, so to a stranger it's bizarre; keep the full 여보세요.",
+      "Treating it as a full greeting and stopping there on a polite call — after 여보세요 you still add 안녕하세요 or state who you are."
+    ]
   },
   {
     "hangul": "누구세요?",
@@ -24,18 +78,72 @@
     "english": "Who is this?",
     "topic": "daily-life",
     "usage": [
-      ["누구세요?", "Who is this?", "Asking the caller politely"],
-      ["실례지만 누구세요?", "Excuse me, who is this?", "More polite version"],
-      ["누구세요? 안 들려요.", "Who is this? I cannot hear.", "Unknown caller"],
-      ["전화 누구세요?", "Who is on the phone?", "Asking another person"]
+      [
+        "누구세요?",
+        "Who is it?",
+        "Standard polite 'who's calling' on an unknown number"
+      ],
+      [
+        "실례지만 누구세요?",
+        "Excuse me, who is this?",
+        "실례지만 softens a direct identity question"
+      ],
+      [
+        "전화 누구셨어요?",
+        "Who was that on the phone?",
+        "Past tense, asking a family member after they hang up"
+      ],
+      [
+        "혹시 누구세요?",
+        "Might I ask who this is?",
+        "혹시 makes it tentative and extra gentle"
+      ]
     ],
     "examples": [
-      ["여보세요? 누구세요?", "Hello? Who is this?", "Answering an unknown number"],
-      ["죄송하지만 누구세요?", "Sorry, but who is this?", "Polite and soft"],
-      ["누구세요? 성함이 어떻게 되세요?", "Who is this? What is your name?", "Asking the name"]
+      [
+        "여보세요? 누구세요?",
+        "Hello? Who's calling?",
+        "The basic pairing when you don't recognize the number"
+      ],
+      [
+        "죄송하지만 누구세요? 잘 못 들었어요.",
+        "Sorry, who is this? I didn't catch it.",
+        "Everyday follow-up when a name was unclear"
+      ],
+      [
+        "누구세요? 성함이 어떻게 되세요?",
+        "Who is this? May I have your name?",
+        "At a desk, asking a caller to identify themselves"
+      ]
     ],
-    "nuance": "This polite phrase asks the identity of the caller without sounding rude. It is the standard way to find out who is speaking on the phone.",
-    "mistakes": ["Do not drop the honorific and say nuguya to strangers"]
+    "nuance": "누구세요? is the polite way to ask a caller's identity, built from 누구 ('who') plus the honorific 이세요 — so literally it honors the unknown person while you find out who they are. The crucial contrast for learners is against 누구야? and 누구냐?: those are 반말/blunt and sound suspicious or hostile ('who the heck are you?'), fine only with close friends, never with a stranger on the line. For maximum politeness Koreans upgrade to 누구시죠? or 어디세요? (the latter literally 'where are you from?', i.e. which company/office), which is the norm in business calls. Note the particle trap: it stands alone, so don't bolt on 가/이 as in 누구가세요 — that's ungrammatical. Another pitfall is answering your own phone with 누구세요?; if you placed the call, you say who YOU are first (저는 ...예요), and 누구세요? is reserved for when you RECEIVE a call from someone unknown. Pair it naturally with a soft opener like 실례지만 or 죄송하지만 so it doesn't sound like an interrogation.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "누구세요? is the polite way to ask a caller's identity, so literally it honors the unknown person while you find out who they are. For maximum politeness Koreans upgrade to 누구시죠? or 어디세요? (the latter literally 'where are you from?', i.e. which company/office), which is the norm in business calls. Pair it naturally with a soft opener like 실례지만 or 죄송하지만 so it doesn't sound like an interrogation."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial contrast for learners is against 누구야? and 누구냐?: those are 반말/blunt and sound suspicious or hostile ('who the heck are you?'), fine only with close friends, never with a stranger on the line."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is built from 누구 ('who') plus the honorific 이세요."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Note the particle trap: it stands alone, so don't bolt on 가/이 as in 누구가세요 — that's ungrammatical. Another pitfall is answering your own phone with 누구세요?; if you placed the call, you say who YOU are first (저는 ...예요), and 누구세요? is reserved for when you RECEIVE a call from someone unknown."
+      }
+    ],
+    "mistakes": [
+      "Saying 누구야? or 누구냐? to a stranger — these are blunt 반말 and sound like a challenge; the honorific 누구세요? is required with anyone you don't know.",
+      "Adding a subject particle: 누구가세요/누구이세요 is wrong — it's simply 누구 + 세요, with no 가/이 between them.",
+      "Using 누구세요? on a call you yourself made — the caller introduces themselves first (저 민수예요); you only ask 누구세요? when answering an unknown caller."
+    ]
   },
   {
     "hangul": "통화 괜찮아요?",
@@ -43,18 +151,72 @@
     "english": "Can you talk now?",
     "topic": "daily-life",
     "usage": [
-      ["지금 통화 괜찮아요?", "Is it okay to talk now?", "Checking before talking"],
-      ["통화 괜찮아요?", "Can you talk now?", "Short polite check"],
-      ["잠깐 통화 괜찮아요?", "Can you talk for a moment?", "Asking for brief time"],
-      ["통화 괜찮으세요?", "Is it okay to talk?", "More polite version"]
+      [
+        "지금 통화 괜찮아요?",
+        "Is now okay to talk?",
+        "지금 ('now') pins it to this moment"
+      ],
+      [
+        "잠깐 통화 괜찮아요?",
+        "Got a minute to talk?",
+        "잠깐 signals you'll be brief"
+      ],
+      [
+        "통화 괜찮으세요?",
+        "Is it all right to talk?",
+        "괜찮으세요 lifts it to a more deferential level"
+      ],
+      [
+        "나중에 통화 괜찮아요?",
+        "Would later be okay to talk?",
+        "Offering to call back at a better time"
+      ]
     ],
     "examples": [
-      ["여보세요, 지금 통화 괜찮아요?", "Hello, can you talk now?", "Opening a call politely"],
-      ["바쁘세요? 통화 괜찮아요?", "Are you busy? Can you talk?", "Showing consideration"],
-      ["잠깐 통화 괜찮아요? 할 말이 있어요.", "Can you talk briefly? I have something to say.", "Stating the reason"]
+      [
+        "여보세요, 지금 통화 괜찮아요?",
+        "Hello, is now a good time to talk?",
+        "The polite opener right after the greeting"
+      ],
+      [
+        "혹시 바쁘세요? 잠깐 통화 괜찮아요?",
+        "Are you busy by chance? Got a moment to talk?",
+        "Everyday check before launching in"
+      ],
+      [
+        "회의 중이세요? 그럼 끝나고 통화 괜찮으세요?",
+        "Are you in a meeting? Then is after it okay to talk?",
+        "Negotiating a better time at work"
+      ]
     ],
-    "nuance": "Koreans often ask this at the start of a call to show respect for the other person time. It checks whether the moment is convenient before continuing.",
-    "mistakes": ["Do not skip this when calling someone at work"]
+    "nuance": "통화 괜찮아요? literally asks 'is the phone-call okay?' — 통화 is Sino-Korean 通話 ('通 pass-through' + '話 talk'), i.e. a connected voice conversation, distinct from 전화 (電話 'electric-talk', the call/the phone as a device or the act of phoning). So you ask 통화 괜찮아요?, not 전화 괜찮아요?, because you're asking about the act of conversing, not the device. 괜찮아요 itself is the all-purpose 'it's fine / no problem', and here it means 'is it a convenient moment'. The near-synonym is 시간 괜찮아요? ('do you have time?'), which is broader and works for in-person meetings too, whereas 통화 괜찮아요? is specifically about taking THIS call right now. Register: the 요-ending is polite-casual and standard among colleagues and acquaintances; bump to 통화 괜찮으세요? for clients or elders. The English-speaker pitfall is translating 'can you talk?' as 말할 수 있어요? — that asks about physical ability to speak and sounds odd; the idiomatic frame is the convenience check 통화 괜찮아요?.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "통화 괜찮아요? literally asks 'is the phone-call okay?'. 괜찮아요 itself is the all-purpose 'it's fine / no problem', and here it means 'is it a convenient moment'. Register: the 요-ending is polite-casual and standard among colleagues and acquaintances; bump to 통화 괜찮으세요? for clients or elders."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym is 시간 괜찮아요? ('do you have time?'), which is broader and works for in-person meetings too, whereas 통화 괜찮아요? is specifically about taking THIS call right now."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "통화 is Sino-Korean 通話 ('通 pass-through' + '話 talk'), i.e. a connected voice conversation, distinct from 전화 (電話 'electric-talk', the call/the phone as a device or the act of phoning). So you ask 통화 괜찮아요?, not 전화 괜찮아요?, because you're asking about the act of conversing, not the device."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is translating 'can you talk?' as 말할 수 있어요? — that asks about physical ability to speak and sounds odd; the idiomatic frame is the convenience check 통화 괜찮아요?."
+      }
+    ],
+    "mistakes": [
+      "Saying 말할 수 있어요? for 'can you talk?' — that literally asks if you're capable of speaking; the natural phone phrase asks about convenience: 통화 괜찮아요?",
+      "Swapping in 전화 괜찮아요? — 전화 (電話) is the device/the call; the connected conversation is 통화 (通話), so the act of talking takes 통화.",
+      "Dropping the courtesy on a work call and just talking — Koreans almost always check 통화 괜찮으세요? first to respect the other person's time."
+    ]
   },
   {
     "hangul": "잘 안 들려요",
@@ -62,18 +224,78 @@
     "english": "I cannot hear you well",
     "topic": "daily-life",
     "usage": [
-      ["잘 안 들려요.", "I cannot hear you well.", "Reporting bad sound"],
-      ["소리가 잘 안 들려요.", "The sound is not clear.", "Pointing to volume"],
-      ["여보세요? 잘 안 들려요.", "Hello? I cannot hear.", "During a bad call"],
-      ["다시 말해 주세요, 잘 안 들려요.", "Please say it again, I cannot hear.", "Asking to repeat"]
+      [
+        "잘 안 들려요.",
+        "I can't hear you well.",
+        "잘 = 'well', so literally 'doesn't reach me well'"
+      ],
+      [
+        "소리가 잘 안 들려요.",
+        "The sound isn't coming through.",
+        "소리가 names the subject doing the not-reaching"
+      ],
+      [
+        "뚝뚝 끊겨서 잘 안 들려요.",
+        "It's choppy so I can't hear.",
+        "뚝뚝 끊기다 = a breaking-up line"
+      ],
+      [
+        "조금만 크게요, 잘 안 들려요.",
+        "A bit louder please, I can't hear.",
+        "Polite nudge for more volume"
+      ]
     ],
     "examples": [
-      ["여보세요? 잘 안 들려요. 크게 말해 주세요.", "Hello? I cannot hear well. Please speak louder.", "Asking for volume"],
-      ["미안해요, 잘 안 들려요. 다시 걸게요.", "Sorry, I cannot hear. I will call again.", "Ending a bad call"],
-      ["여기 신호가 약해서 잘 안 들려요.", "The signal is weak here so I cannot hear.", "Explaining the cause"]
+      [
+        "여보세요? 잘 안 들려요.",
+        "Hello? I can't hear you well.",
+        "First sign the line is bad"
+      ],
+      [
+        "미안해요, 잘 안 들려요. 크게 말해 줄래요?",
+        "Sorry, I can't hear well. Could you speak up?",
+        "Everyday request for volume"
+      ],
+      [
+        "여기 지하라서 신호가 약해요. 잘 안 들려요.",
+        "I'm in a basement so the signal's weak. I can't hear.",
+        "Explaining the cause on a dropping call"
+      ]
     ],
-    "nuance": "This phrase politely tells the other person that the connection or volume is poor. It signals a problem without blaming anyone for the bad call.",
-    "mistakes": ["Do not say an deulyeo without the polite ending"]
+    "nuance": "잘 안 들려요 is built on 들리다, the INTRANSITIVE/potential 'to be heard / be audible' — not 듣다 'to listen'. This is the key learner trap: 듣다 is what YOU actively do (저는 음악을 들어요 'I listen to music'), while 들리다 is what the sound DOES on its own ('it reaches the ear'). So a bad line is 안 들려요 ('[your voice] isn't getting through'), never 안 들어요 (which would mean 'I'm not listening', implying you're ignoring them — rude on a call!). The 려 comes from the 리 of 들리- meeting the 어요 ending: 들리+어요 → 들려요. Add 잘 ('well') and the negative 안 and you get 'doesn't come through well'. A close cousin is 안 들렸어요 (past, 'I didn't catch that') versus the present 안 들려요 ('I can't hear you [ongoing]'). Phrase it with 소리가 (the sound as subject) or 신호가 약하다 ('the signal is weak') for natural collocation. Register: the 요-form is polite and perfectly normal with anyone; just don't clip it to 안 들려 with strangers.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "잘 안 들려요 means a bad line — 'doesn't come through well'. A close cousin is 안 들렸어요 (past, 'I didn't catch that') versus the present 안 들려요 ('I can't hear you [ongoing]'). Phrase it with 소리가 (the sound as subject) or 신호가 약하다 ('the signal is weak') for natural collocation. Register: the 요-form is polite and perfectly normal with anyone; just don't clip it to 안 들려 with strangers."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is built on 들리다, the INTRANSITIVE/potential 'to be heard / be audible' — not 듣다 'to listen'. 듣다 is what YOU actively do (저는 음악을 들어요 'I listen to music'), while 들리다 is what the sound DOES on its own ('it reaches the ear')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 려 comes from the 리 of 들리- meeting the 어요 ending: 들리+어요 → 들려요. Add 잘 ('well') and the negative 안 and you get 'doesn't come through well'. The present is 안 들려요 and the past is 안 들렸어요.",
+        "chips": [
+          "들려요",
+          "안 들려요",
+          "안 들렸어요",
+          "잘 안 들려요"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A bad line is 안 들려요 ('[your voice] isn't getting through'), never 안 들어요 (which would mean 'I'm not listening', implying you're ignoring them — rude on a call!)."
+      }
+    ],
+    "mistakes": [
+      "Saying 안 들어요 instead of 안 들려요 — 안 들어요 means 'I'm not listening' (you're ignoring them); the line being bad uses the passive/potential 들리다 → 안 들려요.",
+      "Marking yourself as subject: 저는 안 들려요 sounds off — it's the SOUND that fails, so use 소리가 잘 안 들려요 or just 잘 안 들려요.",
+      "Clipping to 안 들려 with someone you should be polite to — keep the 요 ending: 잘 안 들려요."
+    ]
   },
   {
     "hangul": "다시 걸게요",
@@ -81,18 +303,72 @@
     "english": "I will call you back",
     "topic": "daily-life",
     "usage": [
-      ["다시 걸게요.", "I will call back.", "Promising to redial"],
-      ["이따 다시 걸게요.", "I will call back later.", "Calling after a while"],
-      ["제가 다시 걸게요.", "I will call you back.", "Taking responsibility"],
-      ["조금 후에 다시 걸게요.", "I will call back soon.", "Short delay promised"]
+      [
+        "다시 걸게요.",
+        "I'll call back.",
+        "걸다 = to place a call; 다시 = again"
+      ],
+      [
+        "이따 다시 걸게요.",
+        "I'll call back in a bit.",
+        "이따 = a little later today"
+      ],
+      [
+        "제가 다시 걸게요.",
+        "I'll be the one to call back.",
+        "제가 stresses YOU will redial, not them"
+      ],
+      [
+        "끊고 다시 걸게요.",
+        "Let me hang up and call again.",
+        "Common fix for a glitchy connection"
+      ]
     ],
     "examples": [
-      ["지금 바빠서 이따 다시 걸게요.", "I am busy now so I will call back later.", "Postponing the call"],
-      ["소리가 안 들려요. 다시 걸게요.", "I cannot hear. I will call back.", "Fixing a bad line"],
-      ["회의 끝나고 다시 걸게요.", "I will call back after the meeting.", "Giving a time"]
+      [
+        "미안, 지금 바빠서 이따 다시 걸게요.",
+        "Sorry, I'm busy now so I'll call back later.",
+        "Politely postponing"
+      ],
+      [
+        "소리가 자꾸 끊겨요. 끊고 다시 걸게요.",
+        "It keeps cutting out. I'll hang up and redial.",
+        "Fixing a bad line"
+      ],
+      [
+        "회의 끝나고 30분 후에 다시 걸게요.",
+        "I'll call back 30 minutes after the meeting.",
+        "Giving a concrete time"
+      ]
     ],
-    "nuance": "Use this when you must end a call but plan to phone again yourself. The ending shows a friendly promise rather than a simple statement.",
-    "mistakes": ["Do not use this if the other person should call"]
+    "nuance": "다시 걸게요 hinges on two things English speakers stumble over. First, the verb: Korean 'to make a phone call' is 전화를 걸다 — 걸다 literally 'to hang/hook', a relic of old hook-and-cradle phones — so you 'hook' a call, and 다시 걸다 = 'call again'. Don't use 부르다 ('to call out a name / summon'), which never means telephoning. Second, the ending -ㄹ게요 (걸+게요) is a SPEAKER'S PROMISE/INTENTION: it commits ME to the action and softly implies it's for your sake, unlike the plain future -ㄹ 거예요 ('I will [just a prediction]'). So 다시 걸게요 = 'I'll redial (you can count on me to)', warmer than 다시 걸 거예요. Crucially, -ㄹ게요 can only take a FIRST-PERSON subject — you can't say 그 사람이 다시 걸게요 about someone else. The natural opposite is 다시 걸어 주세요 ('please call me back'), which you say when THEY should redial. Pair with 이따 / 나중에 / 끊고 for timing. Register: polite-casual, fine for friends and coworkers; for a client use the deferential 다시 연락드리겠습니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "다시 걸게요 = 'I'll redial (you can count on me to)'. The natural opposite is 다시 걸어 주세요 ('please call me back'), which you say when THEY should redial. Pair with 이따 / 나중에 / 끊고 for timing. Register: polite-casual, fine for friends and coworkers; for a client use the deferential 다시 연락드리겠습니다."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Korean 'to make a phone call' is 전화를 걸다 — 걸다 literally 'to hang/hook', a relic of old hook-and-cradle phones — so you 'hook' a call, and 다시 걸다 = 'call again'. Don't use 부르다 ('to call out a name / summon'), which never means telephoning."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The ending -ㄹ게요 (걸+게요) is a SPEAKER'S PROMISE/INTENTION: it commits ME to the action and softly implies it's for your sake, unlike the plain future -ㄹ 거예요 ('I will [just a prediction]'), so 다시 걸게요 is warmer than 다시 걸 거예요. Crucially, -ㄹ게요 can only take a FIRST-PERSON subject — you can't say 그 사람이 다시 걸게요 about someone else.",
+        "chips": [
+          "다시 걸게요",
+          "다시 걸 거예요",
+          "다시 걸어 주세요"
+        ]
+      }
+    ],
+    "mistakes": [
+      "Using 부르다 for phoning (다시 불러요) — 부르다 is calling someone's name or summoning them; a phone call is 전화를 걸다, so 'call back' is 다시 걸게요.",
+      "Saying 다시 걸게요 when the OTHER person should redial — -ㄹ게요 promises that YOU will act; if they should call, it's 다시 걸어 주세요.",
+      "Confusing it with the flat prediction 다시 걸 거예요 — that just forecasts a fact; -ㄹ게요 makes it a personal commitment to the listener."
+    ]
   },
   {
     "hangul": "문자 보낼게요",
@@ -100,18 +376,77 @@
     "english": "I will send a text",
     "topic": "daily-life",
     "usage": [
-      ["문자 보낼게요.", "I will send a text.", "Promising a message"],
-      ["주소 문자 보낼게요.", "I will text the address.", "Sending information"],
-      ["이따 문자 보낼게요.", "I will text later.", "After some time"],
-      ["나중에 문자 보낼게요.", "I will text you later.", "Friendly promise"]
+      [
+        "문자 보낼게요.",
+        "I'll text you.",
+        "문자(를) 보내다 = to send a text"
+      ],
+      [
+        "주소 문자로 보낼게요.",
+        "I'll send the address by text.",
+        "문자로 = 'by text' as the channel"
+      ],
+      [
+        "이따 문자 보낼게요.",
+        "I'll text in a bit.",
+        "이따 sets a soon-ish time"
+      ],
+      [
+        "확인하고 문자 보낼게요.",
+        "I'll check and then text you.",
+        "Promising a follow-up after checking"
+      ]
     ],
     "examples": [
-      ["전화 안 되면 문자 보낼게요.", "If the call fails I will text you.", "Backup plan"],
-      ["시간하고 장소 문자 보낼게요.", "I will text the time and place.", "Sharing details"],
-      ["지금 통화 어려우니까 문자 보낼게요.", "It is hard to talk now so I will text.", "Choosing text instead"]
+      [
+        "전화 안 받으면 문자 보낼게요.",
+        "If you don't pick up, I'll text you.",
+        "Backup plan if the call fails"
+      ],
+      [
+        "시간하고 장소는 문자 보낼게요.",
+        "I'll text you the time and place.",
+        "Sending details to keep on record"
+      ],
+      [
+        "지금 통화 어려우니까 문자 보낼게요.",
+        "It's hard to talk now, so I'll text instead.",
+        "Choosing text over a call"
+      ]
     ],
-    "nuance": "This is a common polite way to say you will follow up with a text message. The ending makes it sound like a warm promise to the listener.",
-    "mistakes": ["Do not confuse munja with jeonhwa meaning a call"]
+    "nuance": "문자 보낼게요 = 'I'll send a text'. 문자 is Sino-Korean 文字 ('文 writing' + '字 character'), so literally 'written characters' — short for 문자 메시지 (SMS). The big learner contrast is 문자 vs 카톡 vs 메시지: 문자 is specifically a phone SMS, 카톡 (KakaoTalk) is the messenger app most Koreans actually use day to day, and 메시지 is the generic 'message'; younger people often say 카톡 보낼게요 in real life. Don't confuse 문자 with 전화 (a call) — 문자 is text, 전화 is voice; mixing them changes what you promise to do. The verb is 보내다 ('to send'), and note the channel particle: 문자로 보내다 = 'send BY text', where 로 marks the means. The ending -ㄹ게요 again makes it a personal promise to the listener (first-person only, warmer than the bare future). A subtle trap: 보내 줄게요 (with 주다) adds a nuance of 'I'll send it FOR you / as a favor', slightly more considerate than plain 보낼게요. Collocations: 주소/시간/사진/링크를 문자로 보내다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "문자 보낼게요 = 'I'll send a text'. The verb is 보내다 ('to send'), and note the channel particle: 문자로 보내다 = 'send BY text', where 로 marks the means. Collocations: 주소/시간/사진/링크를 문자로 보내다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The big learner contrast is 문자 vs 카톡 vs 메시지: 문자 is specifically a phone SMS, 카톡 (KakaoTalk) is the messenger app most Koreans actually use day to day, and 메시지 is the generic 'message'; younger people often say 카톡 보낼게요 in real life. Don't confuse 문자 with 전화 (a call) — 문자 is text, 전화 is voice; mixing them changes what you promise to do."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "문자 is Sino-Korean 文字 ('文 writing' + '字 character'), so literally 'written characters' — short for 문자 메시지 (SMS)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The ending -ㄹ게요 again makes it a personal promise to the listener (first-person only, warmer than the bare future). A subtle trap: 보내 줄게요 (with 주다) adds a nuance of 'I'll send it FOR you / as a favor', slightly more considerate than plain 보낼게요.",
+        "chips": [
+          "보낼게요",
+          "보내 줄게요",
+          "문자로 보내다"
+        ]
+      }
+    ],
+    "mistakes": [
+      "Mixing up 문자 (a text message) with 전화 (a phone call) — promising 전화 보낼게요 is wrong; you send (보내다) a 문자 but you place (걸다) a 전화.",
+      "Using the wrong particle for the channel — it's 문자로 보내다 ('send by text'); 로 marks the means, so don't say 문자를 보내다 when you mean 'via text'.",
+      "Forgetting -ㄹ게요 is first-person — you can't say 그 사람이 문자 보낼게요; for others use 보낼 거예요 or 보낸대요."
+    ]
   },
   {
     "hangul": "메모 남겨 주세요",
@@ -119,18 +454,77 @@
     "english": "Please leave a message",
     "topic": "daily-life",
     "usage": [
-      ["메모 남겨 주세요.", "Please leave a message.", "Asking for a note"],
-      ["여기 메모 남겨 주세요.", "Please leave a message here.", "Pointing to a place"],
-      ["짧게 메모 남겨 주세요.", "Please leave a short message.", "Asking for brevity"],
-      ["성함하고 메모 남겨 주세요.", "Please leave your name and message.", "Requesting details"]
+      [
+        "메모 남겨 주세요.",
+        "Please leave a message.",
+        "남기다 = to leave (something) behind"
+      ],
+      [
+        "성함하고 연락처 남겨 주세요.",
+        "Please leave your name and number.",
+        "Standard office intake phrasing"
+      ],
+      [
+        "삐 소리 후에 남겨 주세요.",
+        "Please leave it after the beep.",
+        "Classic voicemail prompt"
+      ],
+      [
+        "용건 간단히 남겨 주세요.",
+        "Please leave a brief message of your business.",
+        "용건 = the matter/purpose"
+      ]
     ],
     "examples": [
-      ["지금 안 계세요. 메모 남겨 주세요.", "She is not here now. Please leave a message.", "Person is away"],
-      ["삐 소리 후에 메모 남겨 주세요.", "Please leave a message after the beep.", "Voicemail prompt"],
-      ["제가 전할게요. 메모 남겨 주세요.", "I will pass it on. Please leave a message.", "Offering to relay"]
+      [
+        "지금 자리에 안 계세요. 메모 남겨 주세요.",
+        "He's not at his desk now. Please leave a message.",
+        "Reception relaying that someone's away"
+      ],
+      [
+        "연결이 안 되네요. 메모 남겨 주시면 전해 드릴게요.",
+        "I can't reach them. If you leave a message I'll pass it on.",
+        "Offering to relay"
+      ],
+      [
+        "삐 소리 후에 성함과 메모 남겨 주세요.",
+        "After the beep, please leave your name and message.",
+        "Full voicemail greeting"
+      ]
     ],
-    "nuance": "Use this when the person being called is unavailable and you want the caller to leave details. It is polite and common in offices and voicemail.",
-    "mistakes": ["Do not omit juseyo or it sounds like a command"]
+    "nuance": "메모 남겨 주세요 = 'please leave a message (for me to give them)'. 메모 is the loanword 'memo', here meaning a phone message/note; 남기다 is the TRANSITIVE 'to leave (something) behind, to make remain' — distinct from 떠나다 ('to leave / depart a place'). English 'leave a message' uses one word for both senses, so the trap is reaching for 떠나다: you'd never say 메시지를 떠나다 — a left-behind note is 남기다. The construction -아/어 주세요 ('please do X for me') makes it a polite request done as a favor; dropping 주세요 leaves the bare command 남겨 ('leave it!'), which sounds curt. Near-synonyms: 전할 말씀 있으세요? ('do you have something to relay?') is what a secretary asks, and 메시지 남겨 주세요 (with the English-derived 메시지) is interchangeable, slightly more modern. In office/voicemail register the whole phrase is polite-formal and very common. Collocations: 성함/연락처/용건을 남기다 ('leave your name/contact/business'). A finer point: 메모를 남기다 = leave a written note; 음성 메시지를 남기다 = leave a voice message.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "메모 남겨 주세요 = 'please leave a message (for me to give them)'. 메모 is the loanword 'memo', here meaning a phone message/note. In office/voicemail register the whole phrase is polite-formal and very common. Collocations: 성함/연락처/용건을 남기다 ('leave your name/contact/business'). A finer point: 메모를 남기다 = leave a written note; 음성 메시지를 남기다 = leave a voice message."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Near-synonyms: 전할 말씀 있으세요? ('do you have something to relay?') is what a secretary asks, and 메시지 남겨 주세요 (with the English-derived 메시지) is interchangeable, slightly more modern."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "남기다 is the TRANSITIVE 'to leave (something) behind, to make remain'. The construction -아/어 주세요 ('please do X for me') makes it a polite request done as a favor; dropping 주세요 leaves the bare command 남겨 ('leave it!'), which sounds curt.",
+        "chips": [
+          "남기다",
+          "남겨 주세요",
+          "남겨"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "남기다 is distinct from 떠나다 ('to leave / depart a place'). English 'leave a message' uses one word for both senses, so the trap is reaching for 떠나다: you'd never say 메시지를 떠나다 — a left-behind note is 남기다."
+      }
+    ],
+    "mistakes": [
+      "Reaching for 떠나다 because English says 'leave' — 떠나다 is leaving a PLACE; leaving a note/message behind is 남기다, so it's 메모 남겨 주세요.",
+      "Dropping 주세요 and saying just 메모 남겨 — that's a blunt command; the -어 주세요 frame makes it a polite request.",
+      "Calling the message 편지 — 편지 is a posted letter; a phone message is 메모 / 메시지."
+    ]
   },
   {
     "hangul": "끊지 마세요",
@@ -138,18 +532,72 @@
     "english": "Please do not hang up",
     "topic": "daily-life",
     "usage": [
-      ["끊지 마세요.", "Please do not hang up.", "Keeping the line open"],
-      ["잠깐만, 끊지 마세요.", "Wait, please do not hang up.", "Asking to wait"],
-      ["전화 끊지 마세요.", "Please do not hang up the phone.", "Clear request"],
-      ["아직 끊지 마세요.", "Please do not hang up yet.", "Not finished talking"]
+      [
+        "끊지 마세요.",
+        "Please don't hang up.",
+        "전화를 끊다 = to hang up; -지 마세요 = don't"
+      ],
+      [
+        "잠깐만요, 끊지 마세요.",
+        "One sec, please don't hang up.",
+        "Buying a moment to check something"
+      ],
+      [
+        "아직 끊지 마세요.",
+        "Don't hang up yet.",
+        "아직 = 'not yet', more is coming"
+      ],
+      [
+        "바로 바꿔 드릴 테니 끊지 마세요.",
+        "I'll transfer you right away, so don't hang up.",
+        "Reassuring before a transfer"
+      ]
     ],
     "examples": [
-      ["잠깐만요, 끊지 마세요. 확인할게요.", "One moment, do not hang up. I will check.", "Checking something"],
-      ["끊지 마세요, 담당자 바꿔 드릴게요.", "Do not hang up, I will transfer you.", "Transferring a call"],
-      ["아직 할 말 있어요. 끊지 마세요.", "I still have something to say. Do not hang up.", "More to discuss"]
+      [
+        "잠깐만요, 끊지 마세요. 확인해 볼게요.",
+        "One moment, don't hang up. Let me check.",
+        "Pausing to look something up"
+      ],
+      [
+        "끊지 마세요, 담당자 바꿔 드릴게요.",
+        "Don't hang up, I'll put you through to the right person.",
+        "Transferring a call"
+      ],
+      [
+        "아직 할 얘기가 남았어요. 끊지 마세요.",
+        "I still have things to say. Don't hang up.",
+        "Keeping a personal call going"
+      ]
     ],
-    "nuance": "This phrase asks the other person to stay on the line while you do something. The polite ending keeps it firm but courteous during the call.",
-    "mistakes": ["Do not say kkeunchi ma which is too casual"]
+    "nuance": "끊지 마세요 = 'please don't hang up'. The verb 끊다 means 'to cut / sever' and is exactly how Korean conceptualizes ending a call (전화를 끊다 = 'cut the phone'), the natural opposite of 걸다 ('hook/place a call'). The grammar to master is the negative command -지 말다 → -지 마세요 ('please don't ~'): you attach -지 마세요 to the dictionary stem, so 끊다 → 끊지 마세요. The classic learner error is mixing this up with 안: 안 끊어요 just states 'I'm not hanging up', it does NOT tell the other person to stop — prohibitions need -지 마세요, not 안. Politeness ladder: 끊지 마 (반말, only with close friends), 끊지 마세요 (polite, default), 끊지 마십시오 (formal announcements). Note 끊다 also covers 'quit/cut off' more broadly — 담배를 끊다 ('quit smoking'), 연락을 끊다 ('cut off contact') — so context tells you it's the phone. Collocates with 잠깐만요 ('just a sec') and 바꿔 드릴게요 ('I'll transfer you'), the two things most often said right before it.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "끊지 마세요 = 'please don't hang up'. The verb 끊다 means 'to cut / sever' and is exactly how Korean conceptualizes ending a call (전화를 끊다 = 'cut the phone'), the natural opposite of 걸다 ('hook/place a call'). Note 끊다 also covers 'quit/cut off' more broadly — 담배를 끊다 ('quit smoking'), 연락을 끊다 ('cut off contact') — so context tells you it's the phone. Collocates with 잠깐만요 ('just a sec') and 바꿔 드릴게요 ('I'll transfer you'), the two things most often said right before it."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The grammar to master is the negative command -지 말다 → -지 마세요 ('please don't ~'): you attach -지 마세요 to the dictionary stem, so 끊다 → 끊지 마세요. Politeness ladder: 끊지 마 (반말, only with close friends), 끊지 마세요 (polite, default), 끊지 마십시오 (formal announcements).",
+        "chips": [
+          "끊지 마",
+          "끊지 마세요",
+          "끊지 마십시오"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic learner error is mixing this up with 안: 안 끊어요 just states 'I'm not hanging up', it does NOT tell the other person to stop — prohibitions need -지 마세요, not 안."
+      }
+    ],
+    "mistakes": [
+      "Saying 안 끊어요 to mean 'don't hang up' — that only describes your own action; a command not to do something needs -지 마세요, i.e. 끊지 마세요.",
+      "Using 끄다 instead of 끊다 — 끄다 is 'to turn off (a device/light)'; ending a call is 끊다, so 'don't hang up' is 끊지 마세요, not 끄지 마세요.",
+      "Clipping to 끊지 마 with someone you owe politeness — keep the 세요: 끊지 마세요."
+    ]
   },
   {
     "hangul": "잠깐 기다리세요",
@@ -157,18 +605,77 @@
     "english": "Please wait a moment",
     "topic": "daily-life",
     "usage": [
-      ["잠깐 기다리세요.", "Please wait a moment.", "Short polite hold"],
-      ["잠깐만 기다리세요.", "Please wait just a moment.", "Softer version"],
-      ["여기서 잠깐 기다리세요.", "Please wait here a moment.", "Telling a place"],
-      ["잠깐 기다려 주세요.", "Please wait a moment.", "Even more polite"]
+      [
+        "잠깐 기다리세요.",
+        "Please wait a moment.",
+        "잠깐 = a brief moment; 기다리다 = to wait"
+      ],
+      [
+        "잠깐만 기다리세요.",
+        "Just one moment, please.",
+        "잠깐만 (with 만 'only') feels softer and shorter"
+      ],
+      [
+        "잠깐 기다려 주세요.",
+        "Please wait a moment (for me).",
+        "-어 주세요 adds a favor nuance, gentler"
+      ],
+      [
+        "여기서 잠깐 기다리세요.",
+        "Please wait here a moment.",
+        "여기서 marks the place to wait"
+      ]
     ],
     "examples": [
-      ["잠깐 기다리세요. 자리에 안 계세요.", "Please wait. He is not at his desk.", "Looking for someone"],
-      ["네, 잠깐 기다리세요. 바꿔 드릴게요.", "Yes, please wait. I will transfer you.", "Before transfer"],
-      ["잠깐 기다리세요. 메모 찾을게요.", "Please wait. I will find the note.", "Searching something"]
+      [
+        "잠깐 기다리세요. 자리에 안 계세요.",
+        "Please hold. He's not at his desk.",
+        "Reception checking availability"
+      ],
+      [
+        "네, 잠깐만 기다리세요. 바로 바꿔 드릴게요.",
+        "Yes, one moment, I'll put you right through.",
+        "Before a transfer"
+      ],
+      [
+        "잠깐 기다려 주세요. 메모 좀 찾을게요.",
+        "Please wait a sec, let me find the note.",
+        "Searching for something mid-call"
+      ]
     ],
-    "nuance": "This is a gentle way to ask someone to hold on briefly during a call or in person. It buys you a short moment without sounding abrupt.",
-    "mistakes": ["Do not drop seyo when speaking to elders"]
+    "nuance": "잠깐 기다리세요 = 'please wait a moment'. 잠깐 is an adverb meaning 'briefly, for a short while' — its near-twin 잠시 means the same but is a touch more formal/written (잠시만 기다려 주십시오 is the announcement-style version you hear at counters), while 잠깐 is the everyday spoken choice. The verb 기다리다 'to wait' is a 르-irregular only in some forms but regular here (기다리+세요). The honorific request ending -(으)세요 makes it a polite instruction. A key nuance for learners: 잠깐 기다리세요 (-세요) is a polite COMMAND, whereas 잠깐 기다려 주세요 (-어 주세요) frames it as a favor and sounds warmer/more considerate — in service settings the 주세요 version is preferred for customers. Don't confuse 기다리다 ('wait') with 기대하다 ('to expect/look forward to') — similar opening syllable, totally different meaning. Also avoid the English calque 'hold on' as 잡으세요 (잡다 = physically grab); Korean 'hold the line' is simply 기다리세요 or 끊지 마세요. Collocates with 잠깐만요 ('just a sec!'), the interjection Koreans throw out to freeze the moment.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "잠깐 기다리세요 = 'please wait a moment'. 잠깐 is an adverb meaning 'briefly, for a short while'. The honorific request ending -(으)세요 makes it a polite instruction. Collocates with 잠깐만요 ('just a sec!'), the interjection Koreans throw out to freeze the moment."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "잠깐's near-twin 잠시 means the same but is a touch more formal/written (잠시만 기다려 주십시오 is the announcement-style version you hear at counters), while 잠깐 is the everyday spoken choice. Don't confuse 기다리다 ('wait') with 기대하다 ('to expect/look forward to') — similar opening syllable, totally different meaning."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The verb 기다리다 'to wait' is a 르-irregular only in some forms but regular here (기다리+세요). A key nuance: 잠깐 기다리세요 (-세요) is a polite COMMAND, whereas 잠깐 기다려 주세요 (-어 주세요) frames it as a favor and sounds warmer/more considerate — in service settings the 주세요 version is preferred for customers.",
+        "chips": [
+          "기다리세요",
+          "기다려 주세요",
+          "잠깐만 기다리세요"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Avoid the English calque 'hold on' as 잡으세요 (잡다 = physically grab); Korean 'hold the line' is simply 기다리세요 or 끊지 마세요."
+      }
+    ],
+    "mistakes": [
+      "Translating 'hold on' literally as 잡으세요 — 잡다 is to physically grab; to make someone wait on the line it's 잠깐 기다리세요 (or 끊지 마세요).",
+      "Mixing 기다리다 (wait) with 기대하다 (expect/look forward to) — they sound alike but 'please wait' is only 기다리세요.",
+      "Dropping the ending to 잠깐 기다려 with an elder or customer — keep -세요 or upgrade to 잠깐 기다려 주세요."
+    ]
   },
   {
     "hangul": "연락해 주세요",
@@ -176,18 +683,82 @@
     "english": "Please contact me",
     "topic": "daily-life",
     "usage": [
-      ["연락해 주세요.", "Please contact me.", "General request"],
-      ["나중에 연락해 주세요.", "Please contact me later.", "Asking for later"],
-      ["꼭 연락해 주세요.", "Please be sure to contact me.", "Stronger request"],
-      ["도착하면 연락해 주세요.", "Please contact me when you arrive.", "Setting a condition"]
+      [
+        "연락해 주세요.",
+        "Please get in touch.",
+        "연락하다 = to make contact (call/text/etc.)"
+      ],
+      [
+        "도착하면 연락해 주세요.",
+        "Please contact me when you arrive.",
+        "-(으)면 sets the trigger condition"
+      ],
+      [
+        "꼭 연락해 주세요.",
+        "Please be sure to reach out.",
+        "꼭 ('without fail') strengthens the request"
+      ],
+      [
+        "편하실 때 연락해 주세요.",
+        "Please contact me whenever's convenient.",
+        "Deferential, leaves timing to them"
+      ]
     ],
     "examples": [
-      ["시간 되면 연락해 주세요.", "Please contact me when you are free.", "When available"],
-      ["결정하면 저한테 연락해 주세요.", "Please contact me once you decide.", "After a decision"],
-      ["문제 있으면 언제든 연락해 주세요.", "Please contact me anytime there is a problem.", "Open invitation"]
+      [
+        "시간 되면 연락해 주세요.",
+        "Get in touch when you have time.",
+        "Casual-polite open invitation"
+      ],
+      [
+        "결정하시면 저한테 연락해 주세요.",
+        "Once you decide, please contact me.",
+        "저한테 marks 'to me' as the destination"
+      ],
+      [
+        "문제 생기면 언제든지 연락해 주세요.",
+        "If any problem comes up, contact me anytime.",
+        "Reassuring availability"
+      ]
     ],
-    "nuance": "Use this to politely ask someone to reach out to you by phone or message. It covers calls and texts and sounds warm and open.",
-    "mistakes": ["Do not confuse this with yeollak hasipsio which is formal"]
+    "nuance": "연락해 주세요 = 'please contact me'. 연락 is Sino-Korean 連絡 ('連 connect/link' + '絡 entwine/tie'), literally 'making a link', so it covers ALL channels — call, text, email, messenger — and is broader than 전화하다 ('to phone specifically'). That breadth is the point: when you don't care HOW they reach you, 연락하다 is the word. The verb is a 하다-verb (연락 + 하다 → 연락해요), and 연락해 주세요 = 연락해 + 주세요 ('do the contacting for me'), a polite favor request. Watch the destination particle: 'contact ME' is 저한테/저에게 연락해 주세요, not 저를 — 연락하다 takes 한테/에게 (the 'to' marker), so 저를 연락하다 is wrong. Register: this 주세요 form is polite-standard for peers and most situations; to a client or superior, upgrade to the humble 연락 주시면 감사하겠습니다 or 연락 부탁드립니다. Note the very common clipped collocation 연락 주세요 (dropping 하), which natives say constantly and means the same. Don't confuse 연락 with 약속 ('a promised appointment') — 연락 is just reaching out, no commitment to meet.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "연락해 주세요 = 'please contact me'. It covers ALL channels — call, text, email, messenger. That breadth is the point: when you don't care HOW they reach you, 연락하다 is the word. Register: this 주세요 form is polite-standard for peers and most situations; to a client or superior, upgrade to the humble 연락 주시면 감사하겠습니다 or 연락 부탁드립니다. Note the very common clipped collocation 연락 주세요 (dropping 하), which natives say constantly and means the same."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "연락 is broader than 전화하다 ('to phone specifically'). Don't confuse 연락 with 약속 ('a promised appointment') — 연락 is just reaching out, no commitment to meet."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "연락 is Sino-Korean 連絡 ('連 connect/link' + '絡 entwine/tie'), literally 'making a link', so it covers all channels of reaching out."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The verb is a 하다-verb (연락 + 하다 → 연락해요), and 연락해 주세요 = 연락해 + 주세요 ('do the contacting for me'), a polite favor request.",
+        "chips": [
+          "연락해요",
+          "연락해 주세요",
+          "연락 주세요"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Watch the destination particle: 'contact ME' is 저한테/저에게 연락해 주세요, not 저를 — 연락하다 takes 한테/에게 (the 'to' marker), so 저를 연락하다 is wrong."
+      }
+    ],
+    "mistakes": [
+      "Marking the person with 를: 저를 연락해 주세요 is wrong — 연락하다 takes 한테/에게, so it's 저한테 연락해 주세요.",
+      "Using 전화해 주세요 when you mean any channel — 전화하다 is specifically 'to phone'; 연락하다 covers call/text/email, so for general 'reach out' use 연락해 주세요.",
+      "Forgetting it's a 하다-verb when conjugating — the polite form is 연락해(요), not 연락하어요."
+    ]
   },
   {
     "hangul": "바꿔 주세요",
@@ -195,18 +766,77 @@
     "english": "Please put them on",
     "topic": "daily-life",
     "usage": [
-      ["김 선생님 바꿔 주세요.", "Please put Mr. Kim on.", "Asking for a person"],
-      ["사장님 바꿔 주세요.", "Please put the boss on.", "Reaching someone senior"],
-      ["담당자 바꿔 주세요.", "Please put the person in charge on.", "Reaching staff"],
-      ["민수 씨 좀 바꿔 주세요.", "Please put Minsu on.", "Softer with jom"]
+      [
+        "김민수 씨 바꿔 주세요.",
+        "Please put Kim Minsu on.",
+        "[name] 바꿔 주세요 = ask for that person"
+      ],
+      [
+        "담당자 좀 바꿔 주세요.",
+        "Could you put the person in charge on?",
+        "좀 softens the request"
+      ],
+      [
+        "과장님 계시면 바꿔 주세요.",
+        "If the manager's there, please put him on.",
+        "계시면 = 'if (he) is in', honorific"
+      ],
+      [
+        "내선 203번 바꿔 주세요.",
+        "Please connect me to extension 203.",
+        "Asking a switchboard for an extension"
+      ]
     ],
     "examples": [
-      ["여보세요, 박 과장님 바꿔 주세요.", "Hello, please put Manager Park on.", "Office call"],
-      ["엄마 계시면 바꿔 주세요.", "If mom is there please put her on.", "Calling family"],
-      ["죄송하지만 책임자 바꿔 주세요.", "Sorry, please put the manager on.", "Polite request"]
+      [
+        "여보세요, 박 과장님 바꿔 주세요.",
+        "Hello, please put Manager Park on.",
+        "Standard office request"
+      ],
+      [
+        "엄마 집에 계시면 바꿔 주세요.",
+        "If mom's home, please put her on.",
+        "Calling a family landline"
+      ],
+      [
+        "죄송하지만 책임자 바꿔 주시겠어요?",
+        "Sorry, could you put the supervisor on?",
+        "Extra-polite -시겠어요 version"
+      ]
     ],
-    "nuance": "On the phone this asks the person who answered to hand the call to someone else. The verb here means to switch the speaker, not to exchange goods.",
-    "mistakes": ["Do not think bakkwo only means exchange items"]
+    "nuance": "바꿔 주세요 on the phone means 'please switch the call over to ___ / put them on'. The verb 바꾸다 'to change, switch, swap' is the same word used for exchanging goods (옷을 바꾸다 'exchange clothes') — and THAT overlap is the trap: on a call, 바꿔 주세요 isn't asking to trade anything, it's asking the answerer to hand the receiver to someone else, i.e. swap who's speaking. So 김 선생님 바꿔 주세요 = 'change [the speaker] to Mr. Kim', not 'exchange Mr. Kim'. Form: 바꾸+어 주세요 → 바꿔 주세요 (the ㅜ+어 contracts to 워), with -어 주세요 making it a polite favor. The pattern is simply [person/extension] + 바꿔 주세요. A near-synonym in formal/business contexts is 연결해 주세요 ('please connect me'), which a switchboard operator expects; 바꿔 주세요 is what you say when a human picked up and you want a different person. Don't reach for the English calque 'put on' literally — there's no 놓다/올리다 here; the idiom is 바꾸다. For extra courtesy, 바꿔 주시겠어요? ('would you put them on?') is softer than the plain request.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "바꿔 주세요 on the phone means 'please switch the call over to ___ / put them on' — asking the answerer to hand the receiver to someone else, i.e. swap who's speaking. So 김 선생님 바꿔 주세요 = 'change [the speaker] to Mr. Kim', not 'exchange Mr. Kim'. The pattern is simply [person/extension] + 바꿔 주세요. For extra courtesy, 바꿔 주시겠어요? ('would you put them on?') is softer than the plain request."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A near-synonym in formal/business contexts is 연결해 주세요 ('please connect me'), which a switchboard operator expects; 바꿔 주세요 is what you say when a human picked up and you want a different person."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Form: 바꾸+어 주세요 → 바꿔 주세요 (the ㅜ+어 contracts to 워), with -어 주세요 making it a polite favor.",
+        "chips": [
+          "바꾸어",
+          "바꿔 주세요",
+          "바꿔 주시겠어요?"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The verb 바꾸다 'to change, switch, swap' is the same word used for exchanging goods (옷을 바꾸다 'exchange clothes') — and THAT overlap is the trap: on a call it isn't asking to trade anything. Also don't reach for the English calque 'put on' literally — there's no 놓다/올리다 here; the idiom is 바꾸다."
+      }
+    ],
+    "mistakes": [
+      "Reading 바꿔 주세요 as 'exchange' on a call — here 바꾸다 means switch WHO is on the line; [name] 바꿔 주세요 = 'please put that person on', no goods involved.",
+      "Calquing English 'put on' with 놓다/올리다 — there's no such verb here; the set phrase is [person] 바꿔 주세요.",
+      "Mis-contracting the verb: it's 바꿔 (from 바꾸+어), not 바꾸어 주세요 in speech, and never 바껴 주세요."
+    ]
   },
   {
     "hangul": "전화 잘못 걸었어요",
@@ -214,17 +844,71 @@
     "english": "I dialed the wrong number",
     "topic": "daily-life",
     "usage": [
-      ["전화 잘못 걸었어요.", "I dialed the wrong number.", "Admitting the mistake"],
-      ["죄송해요, 전화 잘못 걸었어요.", "Sorry, I dialed the wrong number.", "Apologizing first"],
-      ["제가 전화 잘못 걸었어요.", "I dialed the wrong number.", "Taking the blame"],
-      ["아, 전화 잘못 걸었어요.", "Oh, I dialed the wrong number.", "Noticing suddenly"]
+      [
+        "전화 잘못 걸었어요.",
+        "I dialed the wrong number.",
+        "잘못 (adverb) = 'wrongly, by mistake'"
+      ],
+      [
+        "죄송해요, 전화 잘못 걸었어요.",
+        "Sorry, wrong number.",
+        "Apology-first, the polite reflex"
+      ],
+      [
+        "제가 번호를 잘못 눌렀어요.",
+        "I pressed the wrong number.",
+        "누르다 = 'press', another natural verb"
+      ],
+      [
+        "전화 잘못 거셨어요.",
+        "You've got the wrong number.",
+        "거셨어요 = honorific, telling the CALLER they erred"
+      ]
     ],
     "examples": [
-      ["죄송합니다, 전화 잘못 걸었어요.", "I am sorry, I dialed the wrong number.", "Polite apology"],
-      ["어, 전화 잘못 걸었어요. 끊을게요.", "Oh, wrong number. I will hang up.", "Ending quickly"],
-      ["미안해요, 번호를 잘못 봐서 전화 잘못 걸었어요.", "Sorry, I misread the number and dialed wrong.", "Explaining why"]
+      [
+        "죄송합니다, 전화 잘못 걸었어요.",
+        "I'm sorry, I dialed the wrong number.",
+        "Polite apology before hanging up"
+      ],
+      [
+        "어, 전화 잘못 걸었어요. 끊을게요.",
+        "Oh, wrong number. I'll hang up.",
+        "Realizing and bowing out fast"
+      ],
+      [
+        "번호를 잘못 봐서 전화 잘못 걸었어요.",
+        "I misread the number, so I dialed wrong.",
+        "Explaining the slip"
+      ]
     ],
-    "nuance": "Say this when you realize you have called the wrong person, usually with an apology. It politely closes the awkward moment before you hang up.",
-    "mistakes": ["Do not blame the listener for your own dialing error"]
+    "nuance": "전화 잘못 걸었어요 = 'I called the wrong number'. The load-bearing word is 잘못, an ADVERB meaning 'mistakenly, wrongly' — and learners must not confuse it with the NOUN 잘못 ('a fault/wrongdoing', as in 제 잘못이에요 'it's my fault'). As an adverb it sits right before the verb: 잘못 걸다 ('dial wrongly'), 잘못 보다 ('misread'), 잘못 듣다 ('mishear'). Don't fuse it as 잘못걸다 — keep 잘못 as a separate word modifying the verb. The verb 걸다 here is the same 'place a call' (전화를 걸다); the past 걸었어요 comes from 걸+었어요. A frequent mix-up is 잘못 vs 못: 못 걸었어요 means 'I COULDN'T place the call' (inability), while 잘못 걸었어요 means 'I placed it WRONGLY' (wrong number) — totally different, so the spacing and word choice matter. Etiquette/register: Koreans almost always lead with 죄송해요/죄송합니다 and a quick 끊을게요 ('I'll hang up') rather than just silently dropping; the 요-ending here is polite and appropriate to a stranger you've accidentally dialed. If you RECEIVE such a call, you tell them 전화 잘못 거셨어요 (honorific, 'you've dialed wrong').",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "전화 잘못 걸었어요 = 'I called the wrong number'. The verb 걸다 here is the same 'place a call' (전화를 걸다); the past 걸었어요 comes from 걸+었어요. Etiquette/register: Koreans almost always lead with 죄송해요/죄송합니다 and a quick 끊을게요 ('I'll hang up') rather than just silently dropping; the 요-ending here is polite and appropriate to a stranger you've accidentally dialed. If you RECEIVE such a call, you tell them 전화 잘못 거셨어요 (honorific, 'you've dialed wrong')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The load-bearing word is 잘못, an ADVERB meaning 'mistakenly, wrongly'. As an adverb it sits right before the verb: 잘못 걸다 ('dial wrongly'), 잘못 보다 ('misread'), 잘못 듣다 ('mishear'). Don't fuse it as 잘못걸다 — keep 잘못 as a separate word modifying the verb.",
+        "chips": [
+          "잘못 걸다",
+          "잘못 보다",
+          "잘못 듣다"
+        ]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Learners must not confuse the adverb 잘못 with the NOUN 잘못 ('a fault/wrongdoing', as in 제 잘못이에요 'it's my fault'). A frequent mix-up is 잘못 vs 못: 못 걸었어요 means 'I COULDN'T place the call' (inability), while 잘못 걸었어요 means 'I placed it WRONGLY' (wrong number) — totally different, so the spacing and word choice matter."
+      }
+    ],
+    "mistakes": [
+      "Confusing 잘못 (adverb 'mistakenly') with 못 — 못 걸었어요 = 'I couldn't call' (inability), but a wrong number is 잘못 걸었어요 ('called wrongly').",
+      "Treating 잘못 as the noun 'fault' here — in this phrase it's an adverb modifying 걸다; keep it as a separate word: 전화 잘못 걸었어요, not 잘못걸었어요.",
+      "Hanging up in silence — Korean etiquette expects 죄송해요, 전화 잘못 걸었어요 plus 끊을게요 before you go."
+    ]
   }
 ]

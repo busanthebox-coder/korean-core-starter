@@ -6161,6 +6161,606 @@
         "적당히",
         "튀다"
       ]
+    },
+    {
+      "id": "convo-favor-close-friend",
+      "title": "Asking a close friend for a favor",
+      "situation": "Your phone is about to die and you forgot your charger. You text a close friend to borrow theirs, ask for yesterday's class notes, and sheepishly borrow a little cash for the bus.",
+      "setting": "texting",
+      "partner": "친구",
+      "tip": "With close friends, open with 부탁이 있는데 to flag the request, then soften with 미안한데 + a ~줄 수 있어? question. 반말 plus a casual 좀 makes it feel light, not demanding.",
+      "turns": [
+        {
+          "ko": "어 왜? 무슨 일 있어?",
+          "romanization": "eo wae? museun il isseo?",
+          "role": "partner",
+          "en": "Oh hey, what's up? Something going on?"
+        },
+        {
+          "role": "you",
+          "prompt": "Flag that you have a favor to ask before getting into it.",
+          "choices": [
+            {
+              "ko": "어 부탁이 있는데… 들어줄 수 있어?",
+              "romanization": "eo butagi inneunde… deureojul su isseo?",
+              "en": "Hey, I've got a favor to ask… could you do it for me?"
+            },
+            {
+              "ko": "부탁 하나 해라.",
+              "romanization": "buta kana haera.",
+              "en": "Do me a favor. (sounds like an order)"
+            },
+            {
+              "ko": "혹시 부탁 좀 드려도 될까요?",
+              "romanization": "hoksi butak jom deuryeodo doelkkayo?",
+              "en": "Might I trouble you for a favor? (too formal for a close friend)"
+            }
+          ]
+        },
+        {
+          "ko": "응 말해 봐, 뭔데?",
+          "romanization": "eung malhae bwa, mwonde?",
+          "role": "partner",
+          "en": "Sure, go ahead, what is it?"
+        },
+        {
+          "role": "you",
+          "prompt": "Explain your phone is dying and ask to borrow their charger, softening it.",
+          "choices": [
+            {
+              "ko": "미안한데 폰이 거의 죽어가서… 충전기 좀 빌려줄 수 있어?",
+              "romanization": "mianhande poni geoui jugeogaseo… chungjeongi jom billyeojul su isseo?",
+              "en": "Sorry to ask, my phone's almost dead… could you lend me your charger?"
+            },
+            {
+              "ko": "충전기 내놔, 폰 죽어.",
+              "romanization": "chungjeongi naenwa, pon jugeo.",
+              "en": "Hand over your charger, my phone's dying. (rude/demanding)"
+            },
+            {
+              "ko": "충전기 있어?",
+              "romanization": "chungjeongi isseo?",
+              "en": "Do you have a charger? (abrupt, leaves out the actual request)"
+            }
+          ]
+        },
+        {
+          "ko": "아 그럼! 내 가방에 보조배터리도 있어. 이따 만날 때 줄게. 또 필요한 거 없어?",
+          "romanization": "a geureom! nae gabange bojobaeteorido isseo. itta mannal ttae julge. tto piryohan geo eopseo?",
+          "role": "partner",
+          "en": "Oh, of course! I've got a power bank in my bag too. I'll give it to you when we meet. Anything else you need?"
+        },
+        {
+          "role": "you",
+          "prompt": "Ask them to also bring yesterday's class notes for you.",
+          "choices": [
+            {
+              "ko": "오 진짜? 고마워!! 아 그리고 어제 수업 필기도 좀 갖다줄 수 있어?",
+              "romanization": "o jinjja? gomawo!! a geurigo eoje sueop pilgido jom gatdajul su isseo?",
+              "en": "Oh really? Thank you!! Oh and could you also bring yesterday's class notes?"
+            },
+            {
+              "ko": "당연히 필기도 가져와야지.",
+              "romanization": "dangyeonhi pilgido gajyeowayaji.",
+              "en": "Obviously you have to bring the notes too. (entitled tone)"
+            },
+            {
+              "ko": "필기 안 가져오면 안 돼.",
+              "romanization": "pilgi an gajyeoomyeon an dwae.",
+              "en": "Don't you dare not bring the notes. (pushy)"
+            }
+          ]
+        },
+        {
+          "ko": "ㅋㅋ 알겠어 필기도 챙겨 갈게. 진짜 다른 건 없고?",
+          "romanization": "kk algesseo pilgido chaenggyeo galge. jinjja dareun geon eopsgo?",
+          "role": "partner",
+          "en": "Lol okay, I'll grab the notes too. You sure there's nothing else?"
+        },
+        {
+          "role": "you",
+          "prompt": "Sheepishly ask to borrow a little cash for the bus since you left your card at home, and promise to pay it back.",
+          "choices": [
+            {
+              "ko": "헐 진짜 미안한데… 나 카드를 집에 두고 와서 버스비 만 원만 빌려줄 수 있어? 이따 바로 보낼게",
+              "romanization": "heol jinjja mianhande… na kadeureul jibe dugo waseo beoseubi man wonman billyeojul su isseo? itta baro bonaelge",
+              "en": "Ugh I'm really sorry… I left my card at home, could you lend me just 10,000 won for the bus? I'll send it right back"
+            },
+            {
+              "ko": "돈 좀 빌려줘, 만 원.",
+              "romanization": "don jom billyeojwo, man won.",
+              "en": "Lend me some money, 10,000 won. (blunt, no softening)"
+            },
+            {
+              "ko": "만 원 있지? 그냥 줘.",
+              "romanization": "man won itji? geunyang jwo.",
+              "en": "You've got 10,000 won, right? Just give it to me. (demanding)"
+            }
+          ]
+        },
+        {
+          "ko": "괜찮아 ㅋㅋ 이따 보내. 만날 때 다 챙겨 갈게!",
+          "romanization": "gwaenchana kk itta bonae. mannal ttae da chaenggyeo galge!",
+          "role": "partner",
+          "en": "It's fine lol, send it later. I'll bring everything when we meet!"
+        }
+      ],
+      "vocab": [
+        {
+          "ko": "부탁",
+          "en": "a favor / request"
+        },
+        {
+          "ko": "빌려주다",
+          "en": "to lend"
+        },
+        {
+          "ko": "충전기",
+          "en": "charger"
+        },
+        {
+          "ko": "보조배터리",
+          "en": "power bank"
+        },
+        {
+          "ko": "필기",
+          "en": "(class) notes"
+        },
+        {
+          "ko": "덕분에",
+          "en": "thanks to (you)"
+        }
+      ]
+    },
+    {
+      "id": "convo-favor-coworker-neighbor",
+      "title": "Politely asking a coworker a favor",
+      "situation": "You have to leave the office early for an appointment, so you politely ask a coworker if they could pass a document to the team lead and cover a client call while you're out.",
+      "setting": "in person",
+      "partner": "직장 동료",
+      "tip": "In 존댓말, lead with 혹시 부탁 좀 드려도 될까요? to ask permission first, then 죄송하지만 + ~해 주실 수 있을까요? for the actual request. 혹시 and 좀 are the magic softeners.",
+      "turns": [
+        {
+          "ko": "네, 무슨 일 있으세요?",
+          "romanization": "ne, museun il isseuseyo?",
+          "role": "partner",
+          "en": "Yes, is something the matter?"
+        },
+        {
+          "role": "you",
+          "prompt": "Politely ask permission to make a request before explaining.",
+          "choices": [
+            {
+              "ko": "혹시 부탁 하나만 드려도 될까요?",
+              "romanization": "hoksi buta kanaman deuryeodo doelkkayo?",
+              "en": "Could I possibly ask you a favor?"
+            },
+            {
+              "ko": "부탁 하나 들어줘요.",
+              "romanization": "buta kana deureojwoyo.",
+              "en": "Do me a favor. (too blunt for a coworker)"
+            },
+            {
+              "ko": "부탁이 있는데 들어줄 수 있어?",
+              "romanization": "butagi inneunde deureojul su isseo?",
+              "en": "I've got a favor, can you do it? (반말 — too casual at work)"
+            }
+          ]
+        },
+        {
+          "ko": "그럼요, 말씀하세요.",
+          "romanization": "geureomyo, malsseumhaseyo.",
+          "role": "partner",
+          "en": "Of course, go ahead."
+        },
+        {
+          "role": "you",
+          "prompt": "Explain you have to leave early and ask if they could pass a document to the team lead.",
+          "choices": [
+            {
+              "ko": "제가 오늘 좀 일찍 나가야 해서요. 죄송하지만 이 서류를 팀장님께 좀 전달해 주실 수 있을까요?",
+              "romanization": "jega oneul jom iljjing nagaya haeseoyo. joesonghajiman i seoryureul timjangnimkke jom jeondalhae jusil su isseulkkayo?",
+              "en": "I have to leave a bit early today. I'm sorry to ask, but could you pass this document to the team lead for me?"
+            },
+            {
+              "ko": "저 먼저 갈게요. 이거 팀장님 주세요.",
+              "romanization": "jeo meonjeo galgeyo. igeo timjangnim juseyo.",
+              "en": "I'm heading out first. Give this to the team lead. (curt, no softening)"
+            },
+            {
+              "ko": "이 서류 좀 전달해. 나 가야 돼.",
+              "romanization": "i seoryu jom jeondalhae. na gaya dwae.",
+              "en": "Pass this document along. I gotta go. (반말, ordering)"
+            }
+          ]
+        },
+        {
+          "ko": "아, 네. 그건 어렵지 않아요. 언제까지 드리면 될까요?",
+          "romanization": "a, ne. geugeon eoryeopji anayo. eonjekkaji deurimyeon doelkkayo?",
+          "role": "partner",
+          "en": "Oh, sure. That's not hard at all. By when should I give it to them?"
+        },
+        {
+          "role": "you",
+          "prompt": "Say before the 3 o'clock meeting is fine, and add a second small request to answer a call if a client phones.",
+          "choices": [
+            {
+              "ko": "3시 회의 전에만 드리면 돼요. 그리고 혹시 거래처에서 전화 오면 대신 좀 받아 주실 수 있을까요?",
+              "romanization": "3si hoeui jeoneman deurimyeon dwaeyo. geurigo hoksi georaecheoeseo jeonhwa omyeon daesin jom bada jusil su isseulkkayo?",
+              "en": "Just before the 3 o'clock meeting is fine. And if a client happens to call, could you possibly answer it for me?"
+            },
+            {
+              "ko": "회의 전에. 전화도 네가 받아.",
+              "romanization": "hoeui jeone. jeonhwado nega bada.",
+              "en": "Before the meeting. You answer the phone too. (반말, bossy)"
+            },
+            {
+              "ko": "아무 때나요. 전화는 알아서 하세요.",
+              "romanization": "amu ttaenayo. jeonhwaneun araseo haseyo.",
+              "en": "Whenever. Just deal with the phone yourself. (dismissive)"
+            }
+          ]
+        },
+        {
+          "ko": "전화는 제가 받을게요. 그런데 거래처 건은 제가 내용을 잘 몰라서, 메모만 남겨 둬도 될까요?",
+          "romanization": "jeonhwaneun jega badeulgeyo. geureonde georaecheo geoneun jega naeyongeul jal mollaseo, memoman namgyeo dwodo doelkkayo?",
+          "role": "partner",
+          "en": "I'll take the call. But I don't really know the details of the client matter, so would it be okay if I just leave a note?"
+        },
+        {
+          "role": "you",
+          "prompt": "Graciously accept their limit, make it easy for them, and thank them sincerely.",
+          "choices": [
+            {
+              "ko": "그럼요, 메모만 남겨 주셔도 충분해요. 무리한 부탁 드려서 죄송하고, 정말 감사합니다. 다음에 꼭 보답할게요!",
+              "romanization": "geureomyo, memoman namgyeo jusyeodo chungbunhaeyo. murihan butak deuryeoseo joesonghago, jeongmal gamsahamnida. daeume kkok bodapalgeyo!",
+              "en": "Of course, just a note is more than enough. Sorry for asking so much, and thank you so much. I'll definitely return the favor next time!"
+            },
+            {
+              "ko": "아니요, 꼭 통화하고 처리해 주셔야 돼요.",
+              "romanization": "aniyo, kkok tonghwahago cheorihae jusyeoya dwaeyo.",
+              "en": "No, you absolutely have to handle it on the call. (pushy, ignores their limit)"
+            },
+            {
+              "ko": "메모요? 그건 좀 곤란한데.",
+              "romanization": "memoyo? geugeon jom gollanhande.",
+              "en": "A note? That's kind of a problem. (ungracious)"
+            }
+          ]
+        },
+        {
+          "ko": "아니에요, 이 정도는 괜찮아요. 일 잘 보고 오세요.",
+          "romanization": "anieyo, i jeongdoneun gwaenchanayo. il jal bogo oseyo.",
+          "role": "partner",
+          "en": "Not at all, this much is fine. Take care of your appointment."
+        }
+      ],
+      "vocab": [
+        {
+          "ko": "혹시",
+          "en": "by any chance / possibly (softener)"
+        },
+        {
+          "ko": "전달하다",
+          "en": "to pass on / deliver"
+        },
+        {
+          "ko": "거래처",
+          "en": "client / business contact"
+        },
+        {
+          "ko": "무리한 부탁",
+          "en": "an unreasonable / big favor"
+        },
+        {
+          "ko": "보답하다",
+          "en": "to repay (a kindness)"
+        },
+        {
+          "ko": "다녀오다",
+          "en": "to go and come back"
+        }
+      ]
+    },
+    {
+      "id": "convo-open-bank-account",
+      "title": "Opening a bank account",
+      "situation": "You go to a bank in Korea to open your first account. You greet the teller, say what you need, and hand over your ID to fill out the form.",
+      "setting": "counter",
+      "partner": "은행원",
+      "tip": "At the counter, '계좌를 만들고 싶어요' or '계좌를 개설하려고 왔어요' both work. Foreigners usually need a 외국인등록증 (ARC) as 신분증.",
+      "turns": [
+        {
+          "ko": "어서 오세요. 무엇을 도와드릴까요?",
+          "romanization": "eoseo oseyo. mueoseul dowadeurilkkayo?",
+          "role": "partner",
+          "en": "Welcome. How can I help you?"
+        },
+        {
+          "role": "you",
+          "prompt": "Say you'd like to open a bank account.",
+          "choices": [
+            {
+              "ko": "계좌를 만들고 싶어요.",
+              "romanization": "gyejwareul mandeulgo sipeoyo.",
+              "en": "I'd like to open an account."
+            },
+            {
+              "ko": "계좌 만들어.",
+              "romanization": "gyejwa mandeureo.",
+              "en": "Make me an account. (too casual/rude)"
+            },
+            {
+              "ko": "돈이 필요해요.",
+              "romanization": "doni piryohaeyo.",
+              "en": "I need money. (wrong meaning)"
+            }
+          ]
+        },
+        {
+          "ko": "네, 신분증 좀 보여 주시겠어요?",
+          "romanization": "ne, sinbunjeung jom boyeo jusigesseoyo?",
+          "role": "partner",
+          "en": "Sure, could you show me your ID, please?"
+        },
+        {
+          "role": "you",
+          "prompt": "Hand over your ID and say 'here you are'. (You only have your foreigner ID card.)",
+          "choices": [
+            {
+              "ko": "여기 외국인등록증이요.",
+              "romanization": "yeogi oegugindeungnokjeungiyo.",
+              "en": "Here's my foreigner registration card."
+            },
+            {
+              "ko": "신분증 없어요.",
+              "romanization": "sinbunjeung eopseoyo.",
+              "en": "I don't have an ID. (then you can't open one)"
+            },
+            {
+              "ko": "여권 집에 있어요.",
+              "romanization": "yeogwon jibe isseoyo.",
+              "en": "My passport is at home. (unhelpful)"
+            }
+          ]
+        },
+        {
+          "ko": "감사합니다. 그럼 이 신청서를 작성해 주세요.",
+          "romanization": "gamsahamnida. geureom i sincheongseoreul jakseonghae juseyo.",
+          "role": "partner",
+          "en": "Thank you. Then please fill out this application form."
+        },
+        {
+          "role": "you",
+          "prompt": "Ask where you should write your phone number on the form.",
+          "choices": [
+            {
+              "ko": "전화번호는 어디에 써요?",
+              "romanization": "jeonhwabeonhoneun eodie sseoyo?",
+              "en": "Where do I write my phone number?"
+            },
+            {
+              "ko": "전화번호 몰라요.",
+              "romanization": "jeonhwabeonho mollayo.",
+              "en": "I don't know the phone number. (odd)"
+            },
+            {
+              "ko": "이거 다 써요?",
+              "romanization": "igeo da sseoyo?",
+              "en": "Do I write all of this? (vague)"
+            }
+          ]
+        },
+        {
+          "ko": "여기 이름 옆에 적어 주시면 돼요. 체크카드도 함께 만들어 드릴까요?",
+          "romanization": "yeogi ireum yeope jeogeo jusimyeon dwaeyo. chekeukadeudo hamkke mandeureo deurilkkayo?",
+          "role": "partner",
+          "en": "Just write it next to your name. Shall I make you a debit card too?"
+        },
+        {
+          "role": "you",
+          "prompt": "Say yes, and ask if there's a fee.",
+          "choices": [
+            {
+              "ko": "네, 만들어 주세요. 수수료가 있나요?",
+              "romanization": "ne, mandeureo juseyo. susuryoga innayo?",
+              "en": "Yes, please make one. Is there a fee?"
+            },
+            {
+              "ko": "아니요, 통장만요. 카드 싫어요.",
+              "romanization": "aniyo, tongjangmanyo. kadeu sireoyo.",
+              "en": "No, just the bankbook. I hate cards. (blunt)"
+            },
+            {
+              "ko": "카드가 뭐예요?",
+              "romanization": "kadeuga mwoyeyo?",
+              "en": "What's a card? (unnatural here)"
+            }
+          ]
+        },
+        {
+          "ko": "카드 발급 수수료는 무료예요. 통장과 카드는 잠시 후에 나옵니다.",
+          "romanization": "kadeu balgeup susuryoneun muryoyeyo. tongjanggwa kadeuneun jamsi hue naomnida.",
+          "role": "partner",
+          "en": "The card issuance fee is free. Your bankbook and card will be ready in a moment."
+        }
+      ],
+      "vocab": [
+        {
+          "ko": "계좌",
+          "en": "(bank) account"
+        },
+        {
+          "ko": "신분증",
+          "en": "ID card"
+        },
+        {
+          "ko": "신청서",
+          "en": "application form"
+        },
+        {
+          "ko": "통장",
+          "en": "bankbook"
+        },
+        {
+          "ko": "체크카드",
+          "en": "debit card"
+        },
+        {
+          "ko": "수수료",
+          "en": "fee / charge"
+        }
+      ]
+    },
+    {
+      "id": "convo-gu-office-document",
+      "title": "Getting a document at the district office",
+      "situation": "You visit the 구청 (district office) to apply for and pick up an official document. You take a number, submit your papers, and ask when it will be ready.",
+      "setting": "counter",
+      "partner": "직원",
+      "tip": "At a 구청 or immigration office, take a 번호표 first and wait for your number. Use '신청하다' to apply, '발급받다' to get a document issued, and '접수하다' for them processing/receiving it.",
+      "turns": [
+        {
+          "ko": "안녕하세요. 번호표 뽑고 잠시 기다려 주세요.",
+          "romanization": "annyeonghaseyo. beonhopyo ppopgo jamsi gidaryeo juseyo.",
+          "role": "partner",
+          "en": "Hello. Please take a number and wait a moment."
+        },
+        {
+          "role": "you",
+          "prompt": "Ask where the number-ticket machine is.",
+          "choices": [
+            {
+              "ko": "번호표는 어디에서 뽑아요?",
+              "romanization": "beonhopyoneun eodieseo ppobayo?",
+              "en": "Where do I take a number ticket?"
+            },
+            {
+              "ko": "번호표 줘.",
+              "romanization": "beonhopyo jwo.",
+              "en": "Give me a number. (too casual/rude)"
+            },
+            {
+              "ko": "번호가 뭐예요?",
+              "romanization": "beonhoga mwoyeyo?",
+              "en": "What's the number? (confusing)"
+            }
+          ]
+        },
+        {
+          "ko": "입구 오른쪽에 있어요. 다음 손님, 무엇을 도와드릴까요?",
+          "romanization": "ipgu oreunjjoge isseoyo. daeum sonnim, mueoseul dowadeurilkkayo?",
+          "role": "partner",
+          "en": "It's on the right at the entrance. Next customer, how can I help you?"
+        },
+        {
+          "role": "you",
+          "prompt": "Say you came to apply for a certificate of residence (a document).",
+          "choices": [
+            {
+              "ko": "서류를 발급받으러 왔어요.",
+              "romanization": "seoryureul balgeupbadeureo wasseoyo.",
+              "en": "I came to get a document issued."
+            },
+            {
+              "ko": "서류 주세요, 빨리요.",
+              "romanization": "seoryu juseyo, ppalliyo.",
+              "en": "Give me the document, quickly. (impolite)"
+            },
+            {
+              "ko": "여기 서류 있어요?",
+              "romanization": "yeogi seoryu isseoyo?",
+              "en": "Do you have documents here? (vague)"
+            }
+          ]
+        },
+        {
+          "ko": "네, 신분증과 신청서를 주시겠어요?",
+          "romanization": "ne, sinbunjeunggwa sincheongseoreul jusigesseoyo?",
+          "role": "partner",
+          "en": "Sure, could you give me your ID and the application form?"
+        },
+        {
+          "role": "you",
+          "prompt": "Hand them over and say you've already filled out the form.",
+          "choices": [
+            {
+              "ko": "여기 있어요. 신청서는 미리 작성했어요.",
+              "romanization": "yeogi isseoyo. sincheongseoneun miri jakseonghaesseoyo.",
+              "en": "Here you are. I filled out the form in advance."
+            },
+            {
+              "ko": "신청서 안 썼어요, 그냥 주세요.",
+              "romanization": "sincheongseo an sseosseoyo, geunyang juseyo.",
+              "en": "I didn't fill it out, just give it to me. (won't work)"
+            },
+            {
+              "ko": "이거 맞아요?",
+              "romanization": "igeo majayo?",
+              "en": "Is this right? (too vague)"
+            }
+          ]
+        },
+        {
+          "ko": "접수해 드렸습니다. 수수료는 천 원입니다.",
+          "romanization": "jeopsuhae deuryeotseumnida. susuryoneun cheon wonimnida.",
+          "role": "partner",
+          "en": "I've processed your application. The fee is 1,000 won."
+        },
+        {
+          "role": "you",
+          "prompt": "Pay, and ask when the document will be ready.",
+          "choices": [
+            {
+              "ko": "여기요. 서류는 언제 나와요?",
+              "romanization": "yeogiyo. seoryuneun eonje nawayo?",
+              "en": "Here you go. When will the document be ready?"
+            },
+            {
+              "ko": "왜 이렇게 비싸요?",
+              "romanization": "wae ireoke bissayo?",
+              "en": "Why is it so expensive? (rude over 1,000 won)"
+            },
+            {
+              "ko": "지금 당장 주세요.",
+              "romanization": "jigeum dangjang juseyo.",
+              "en": "Give it to me right now. (demanding)"
+            }
+          ]
+        },
+        {
+          "ko": "십 분 정도 걸려요. 성함 부르면 이쪽으로 와 주세요.",
+          "romanization": "sip bun jeongdo geollyeoyo. seongham bureumyeon ijjogeuro wa juseyo.",
+          "role": "partner",
+          "en": "It takes about ten minutes. When I call your name, please come over here."
+        }
+      ],
+      "vocab": [
+        {
+          "ko": "번호표",
+          "en": "number ticket"
+        },
+        {
+          "ko": "서류",
+          "en": "document(s)"
+        },
+        {
+          "ko": "신청하다",
+          "en": "to apply"
+        },
+        {
+          "ko": "발급받다",
+          "en": "to get (a document) issued"
+        },
+        {
+          "ko": "접수하다",
+          "en": "to receive / process (an application)"
+        },
+        {
+          "ko": "수수료",
+          "en": "fee / charge"
+        }
+      ]
     }
   ]
 }

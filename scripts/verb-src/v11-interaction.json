@@ -22,16 +22,45 @@
       "shallWe": "만질까요?"
     },
     "usage": [
-      ["이 천을 만져요.", "I touch this fabric.", "Touching an object"],
-      ["뜨거우니까 만지지 마세요.", "It is hot so do not touch it.", "Polite warning"]
+      ["손으로 만지다", "to touch with one's hand", "The default instrument: 손으로 (with the hand) is the most common partner phrase."],
+      ["만지지 마세요", "please do not touch", "The single most common form you will see on signs in museums and shops."],
+      ["살짝 만지다", "to touch lightly", "살짝 (lightly, gently) softens the action; pairs naturally with delicate things."],
+      ["만져 보다", "to try touching / feel it", "만지다 + 보다 = touch in order to check texture or temperature, like 'have a feel'."]
     ],
     "examples": [
-      ["전시품은 손으로 만지지 마세요.", "Please do not touch the exhibits with your hands.", "Polite warning"],
-      ["강아지를 만져 봐도 돼요?", "May I try touching the puppy?", "Asking permission"],
-      ["페인트가 안 말라서 만지면 안 돼요.", "The paint is not dry so you must not touch it.", "Stating a rule"]
+      ["이 천을 한번 만져 보세요.", "Try touching this fabric.", "만지다 + 보다 = touch to check the texture; 한번 means 'go ahead and give it a try'."],
+      ["강아지를 만져 봐도 돼요?", "May I try touching the puppy?", "-아도 돼요? asks permission; the object 강아지 takes 를."],
+      ["페인트가 안 말라서 만지면 안 돼요.", "The paint is not dry, so you must not touch it.", "-(으)면 안 되다 states a prohibition stronger than a gentle warning."]
     ],
-    "nuance": "만지다 means touching something with your hand, and the thing you touch takes the particle 을 or 를.",
-    "mistakes": ["Do not confuse 만지다 (touch) with 만나다 (meet)."],
+    "nuance": "만지다 is the plain verb for touching something with your hand to feel its texture, temperature, or shape; the thing touched takes 을/를 (천을 만지다). The 요-form is regular: stem 만지- + -어요 contracts 지+어 into 져, giving 만져요 / past 만졌어요. The nearest neighbor is 건드리다, but the dividing line is intent: 만지다 is neutral, even affectionate exploration ('feel, handle'), while 건드리다 carries 'mess with / disturb / poke' and often a nuisance nuance (남의 물건을 건드리다 = mess with someone's stuff). The classic English-speaker pitfall is reaching for 'touch' emotionally: 'that movie touched me' is NOT 만지다 but 감동받다 / 감동적이다 — 만지다 is strictly physical contact. Also keep 만지다 (touch) apart from the look-alike 만나다 (meet); they share only the first syllable.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "만지다 is the plain verb for touching something with your hand to feel its texture, temperature, or shape; the thing touched takes 을/를 (천을 만지다)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 요-form is regular: stem 만지- + -어요 contracts 지+어 into 져, giving 만져요 / past 만졌어요.",
+        "chips": ["만져요", "만졌어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The nearest neighbor is 건드리다, but the dividing line is intent: 만지다 is neutral, even affectionate exploration ('feel, handle'), while 건드리다 carries 'mess with / disturb / poke' and often a nuisance nuance (남의 물건을 건드리다 = mess with someone's stuff)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic English-speaker pitfall is reaching for 'touch' emotionally: 'that movie touched me' is NOT 만지다 but 감동받다 / 감동적이다 — 만지다 is strictly physical contact. Also keep 만지다 (touch) apart from the look-alike 만나다 (meet); they share only the first syllable."
+      }
+    ],
+    "mistakes": [
+      "Using 만지다 for 'be touched/moved' emotionally. 'The story touched me' is 그 이야기에 감동받았어요, not 만졌어요 — 만지다 is only physical hand contact.",
+      "Dropping the object particle and saying 천 만져요. A direct object needs 을/를: 천을 만져요 ('I touch the fabric').",
+      "Confusing 만지다 with 만나다. 친구를 만지다 means 'touch a friend (physically)', not 'meet a friend' — say 친구를 만나요."
+    ],
     "irregular": null
   },
   {
@@ -57,16 +86,45 @@
       "shallWe": "보일까요?"
     },
     "usage": [
-      ["바다가 잘 보여요.", "The sea is seen well.", "Something is visible"],
-      ["글씨가 안 보여요.", "The letters are not visible.", "Cannot see something"]
+      ["잘 보이다", "to be clearly visible", "잘 (well) is the habitual partner for visibility; opposite is 안 보이다."],
+      ["보여 주다", "to show (to someone)", "보이다 + 주다 turns 'be seen' into 'let someone see / show it'."],
+      ["눈에 보이다", "to be visible to the eye", "눈에 (to the eye) is a fixed phrase, often for things suddenly noticed."],
+      ["~처럼 보이다", "to look like / appear as", "After a noun + 처럼 or an adjective stem, 보이다 means 'seems, looks'."]
     ],
     "examples": [
-      ["여기서 산이 아주 잘 보여요.", "The mountain is seen very well from here.", "Describing a view"],
-      ["표를 좀 보여 주세요.", "Please show me your ticket.", "Polite request"],
-      ["안경이 없어서 칠판이 안 보여요.", "I have no glasses so the board is not visible.", "Stating a problem"]
+      ["여기서 바다가 아주 잘 보여요.", "The sea is very visible from here.", "The thing seen takes 이/가 (바다가), not 을/를 — this is intransitive."],
+      ["표를 좀 보여 주세요.", "Please show me your ticket.", "보여 주다 = 'show'; here it IS transitive because of 주다, so 표를 takes 를."],
+      ["피곤해 보여요. 좀 쉬세요.", "You look tired. Get some rest.", "Adjective stem 피곤하- + 보여요 = 'looks ~', a hugely common everyday use."]
     ],
-    "nuance": "보이다 means something appears to your eyes by itself, while 보다 means you actively look at something.",
-    "mistakes": ["Do not confuse 보이다 (be seen) with 보다 (look at)."],
+    "nuance": "보이다 is the passive/spontaneous counterpart of 보다 (to look): something enters your field of vision on its own, so the thing seen takes 이/가 (산이 보여요 = 'the mountain is visible'), NOT 을/를. The 요-form contracts 보이-+-어요 → 보여요 (past 보였어요). The sharp contrast learners need is 보이다 vs 보다: 보다 is an active choice ('I look at / watch'), 보이다 is involuntary ('it is seen / comes into view'). A second, very frequent meaning is 'to look/seem' — adjective stem + 보이다 (행복해 보여요 'you look happy'; 비싸 보여요 'it looks expensive'); here English 'looks' maps cleanly. With 주다 it flips to active 'show' (보여 주다). The English-speaker pitfall: saying 산을 보여요 to mean 'I see the mountain' — that is wrong; use 산이 보여요 (it is visible) or 산을 봐요 (I look at it).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "보이다 is the passive/spontaneous counterpart of 보다 (to look): something enters your field of vision on its own, so the thing seen takes 이/가 (산이 보여요 = 'the mountain is visible'), NOT 을/를. A second, very frequent meaning is 'to look/seem' — adjective stem + 보이다 (행복해 보여요 'you look happy'; 비싸 보여요 'it looks expensive'); here English 'looks' maps cleanly. With 주다 it flips to active 'show' (보여 주다)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 요-form contracts 보이-+-어요 → 보여요 (past 보였어요).",
+        "chips": ["보여요", "보였어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast learners need is 보이다 vs 보다: 보다 is an active choice ('I look at / watch'), 보이다 is involuntary ('it is seen / comes into view')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Saying 산을 보여요 to mean 'I see the mountain' is wrong; use 산이 보여요 (it is visible) or 산을 봐요 (I look at it)."
+      }
+    ],
+    "mistakes": [
+      "Marking the seen thing with 을/를: 글씨를 안 보여요 is wrong. Because 보이다 is intransitive, say 글씨가 안 보여요 ('the letters aren't visible').",
+      "Confusing 보이다 with 보다. 'I can see it' for involuntary vision is 보여요, but 'I look at it / watch it' is 봐요 — don't use 보여요 for deliberate watching.",
+      "Forgetting the 'looks like' meaning. 'You look tired' is 피곤해 보여요, not 피곤한 것을 봐요 — adjective stem + 보이다 carries the 'seems' sense."
+    ],
     "irregular": null
   },
   {
@@ -92,16 +150,45 @@
       "shallWe": "들릴까요?"
     },
     "usage": [
-      ["음악이 들려요.", "Music is heard.", "A sound is audible"],
-      ["소리가 안 들려요.", "The sound is not audible.", "Cannot hear something"]
+      ["잘 들리다", "to be heard clearly", "잘 들려요 / 안 들려요 is the everyday pair for sound clarity, e.g. on calls."],
+      ["소리가 들리다", "a sound is heard", "소리가 (a sound) is the typical subject; the sound takes 이/가."],
+      ["들려 주다", "to play/let someone hear", "들리다 + 주다 = 'let someone hear it', e.g. play a song for someone."],
+      ["~게 들리다", "to sound ~ (a certain way)", "Adverb form + 들리다 = 'sounds ~', e.g. 이상하게 들려요 'sounds strange'."]
     ],
     "examples": [
-      ["옆방에서 노랫소리가 들려요.", "A singing sound is heard from the next room.", "Describing a sound"],
-      ["전화가 멀어서 잘 안 들려요.", "The call is far so it is not heard well.", "Stating a problem"],
-      ["밖에서 이상한 소리가 들렸어요.", "A strange sound was heard from outside.", "Past event"]
+      ["옆방에서 노랫소리가 들려요.", "Singing is heard from the next room.", "Source takes 에서 (옆방에서); the sound 노랫소리가 takes 가."],
+      ["전화가 멀어서 잘 안 들려요.", "The call is far, so I can't hear well.", "-아서 gives the cause; 안 들리다 is the standard 'can't hear you' on a call."],
+      ["그 말이 좀 이상하게 들렸어요.", "That remark sounded a bit strange.", "Adverb 이상하게 + 들리다 = 'sounded ~', mirroring English 'sounds'."]
     ],
-    "nuance": "들리다 means a sound reaches your ears by itself, while 듣다 means you actively listen to something.",
-    "mistakes": ["Do not confuse 들리다 (be heard) with 듣다 (listen)."],
+    "nuance": "들리다 is the passive/spontaneous partner of 듣다 (to listen): a sound reaches your ears without effort, so what is heard takes 이/가 (음악이 들려요 = 'music is audible'), not 을/를. Note 들리다 is a regular -이다 derived verb, NOT the ㄷ-irregular 듣다 — the 요-form is 들려요 (듣-+-이-+-어요 → 들려요), and crucially it never becomes 들어요 (that would collide with 듣다's own form 들어요). The dividing line is 듣다 vs 들리다: 듣다 is deliberate ('I listen to / hear it on purpose'), 들리다 is involuntary ('it is heard, it comes through'). A second common sense is 'to sound (a certain way)': adverb + 들리다 (좋게 들려요 'sounds good'). With 주다 it means 'let/make someone hear' (노래를 들려 주다). The pitfall for English speakers: 소리를 안 들려요 — wrong particle; the sound is the subject, so 소리가 안 들려요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "들리다 is the passive/spontaneous partner of 듣다 (to listen): a sound reaches your ears without effort, so what is heard takes 이/가 (음악이 들려요 = 'music is audible'), not 을/를. A second common sense is 'to sound (a certain way)': adverb + 들리다 (좋게 들려요 'sounds good'). With 주다 it means 'let/make someone hear' (노래를 들려 주다)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "들리다 is a regular -이다 derived verb, NOT the ㄷ-irregular 듣다 — the 요-form is 들려요 (듣-+-이-+-어요 → 들려요), and crucially it never becomes 들어요 (that would collide with 듣다's own form 들어요).",
+        "chips": ["들려요", "들렸어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line is 듣다 vs 들리다: 듣다 is deliberate ('I listen to / hear it on purpose'), 들리다 is involuntary ('it is heard, it comes through')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "소리를 안 들려요 uses the wrong particle; the sound is the subject, so 소리가 안 들려요."
+      }
+    ],
+    "mistakes": [
+      "Using 을/를 for the sound: 음악을 들려요 is wrong. 들리다 is intransitive, so 음악이 들려요. (Use 듣다 if you mean active 'I listen to music' = 음악을 들어요.)",
+      "Collapsing 들리다 into 들어요. 'It's audible' is 들려요; 들어요 belongs to 듣다 ('I listen'). Keep the 려 vs 어 distinction.",
+      "Missing the 'sounds ~' usage. 'That sounds weird' is 이상하게 들려요, not 이상한 것을 들어요 — use adverb + 들리다."
+    ],
     "irregular": null
   },
   {
@@ -127,16 +214,45 @@
       "shallWe": "가리킬까요?"
     },
     "usage": [
-      ["손가락으로 가리켜요.", "I point with my finger.", "Pointing at something"],
-      ["지도에서 여기를 가리켜요.", "I point here on the map.", "Indicating a spot"]
+      ["손가락으로 가리키다", "to point with one's finger", "손가락으로 (with the finger) is the instrument; also 손으로 (with the hand)."],
+      ["방향을 가리키다", "to point out a direction", "방향 (direction) is a frequent abstract object, e.g. a compass needle."],
+      ["손가락질하다", "to point at (accusingly)", "Related noun-verb: 손가락질 is pointing as blame/scorn, harsher than neutral 가리키다."],
+      ["시계가 ~를 가리키다", "the clock points to ~", "Clock hands 'point to' a time: 시계가 세 시를 가리켜요."]
     ],
     "examples": [
-      ["저 건물을 손으로 가리켜 주세요.", "Please point at that building with your hand.", "Polite request"],
-      ["사람을 손가락으로 가리키지 마세요.", "Please do not point at people with your finger.", "Polite warning"],
-      ["가고 싶은 곳을 지도에서 가리켜요.", "I point on the map at the place I want to go.", "Indicating a spot"]
+      ["저 건물을 손으로 가리켜 주세요.", "Please point at that building with your hand.", "Instrument takes 으로 (손으로); target 건물을 takes 를."],
+      ["사람을 손가락으로 가리키지 마세요.", "Don't point at people with your finger.", "-지 마세요 = polite prohibition; pointing at people is rude in Korea too."],
+      ["시계가 정확히 열두 시를 가리켰어요.", "The clock pointed exactly to twelve.", "Inanimate subjects (clocks, needles) also use 가리키다 for 'indicate'."]
     ],
-    "nuance": "가리키다 means showing a direction or thing with your finger, and the target takes the particle 을 or 를.",
-    "mistakes": ["Do not confuse 가리키다 (point at) with 가르치다 (teach)."],
+    "nuance": "가리키다 means to indicate a direction, place, or thing — typically with a finger or hand — so the target takes 을/를 (저기를 가리키다 = 'point over there'). The 요-form contracts 가리키-+-어요 → 가리켜요 (past 가리켰어요). The number-one trap is the near-homophone 가르치다 'to teach': beginners constantly swap them. Mnemonic — 가리KIcida points (KI = 'key' you point with), 가르CHIcida teaches (the 르치 in the middle, like a 'lecture'). Mixing them yields comic errors: 학생을 가리켜요 literally 'I point at the student' instead of 학생을 가르쳐요 'I teach the student'. A second nuance: 가리키다 also covers inanimate 'indicating' — clock hands, arrows, a needle 'point to' something (바늘이 북쪽을 가리켜요). If the pointing is accusatory ('point fingers at'), Koreans prefer the noun-verb 손가락질하다, which carries blame, whereas plain 가리키다 stays neutral.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "가리키다 means to indicate a direction, place, or thing — typically with a finger or hand — so the target takes 을/를 (저기를 가리키다 = 'point over there'). A second nuance: it also covers inanimate 'indicating' — clock hands, arrows, a needle 'point to' something (바늘이 북쪽을 가리켜요)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 요-form contracts 가리키-+-어요 → 가리켜요 (past 가리켰어요).",
+        "chips": ["가리켜요", "가리켰어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "If the pointing is accusatory ('point fingers at'), Koreans prefer the noun-verb 손가락질하다, which carries blame, whereas plain 가리키다 stays neutral."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The number-one trap is the near-homophone 가르치다 'to teach': beginners constantly swap them. Mnemonic — 가리KIcida points (KI = 'key' you point with), 가르CHIcida teaches (the 르치 in the middle, like a 'lecture'). Mixing them yields comic errors: 학생을 가리켜요 literally 'I point at the student' instead of 학생을 가르쳐요 'I teach the student'."
+      }
+    ],
+    "mistakes": [
+      "Confusing 가리키다 (point) with 가르치다 (teach). 길을 가리켜 주세요 = 'point out the way', but 가르쳐 주세요 = 'teach me' — pick by meaning, not by sound.",
+      "Using 가리키다 for accusatory finger-pointing. 'Don't point fingers at me (blame me)' is better as 손가락질하지 마세요; plain 가리키다 just means neutral indication.",
+      "Marking the target with 에: 건물에 가리켜요 is wrong. The thing pointed at is a direct object: 건물을 가리켜요."
+    ],
     "irregular": null
   },
   {
@@ -162,16 +278,45 @@
       "shallWe": "흔들까요?"
     },
     "usage": [
-      ["손을 흔들어요.", "I wave my hand.", "Waving a hand"],
-      ["병을 잘 흔들어요.", "I shake the bottle well.", "Shaking an object"]
+      ["손을 흔들다", "to wave one's hand", "The idiom for waving hello/goodbye; 손을 흔들며 인사하다 'wave in greeting'."],
+      ["고개를 흔들다", "to shake one's head", "고개 (the head/neck) is the body part used; means 'shake the head' (to say no or in disbelief)."],
+      ["병을 흔들다", "to shake the bottle", "Common instruction on drinks/medicine: 잘 흔들어 드세요 'shake well before use'."],
+      ["흔들어 주다", "to shake (for someone)", "흔들다 + 주다, e.g. shaking a juice carton or rocking something for another."]
     ],
     "examples": [
-      ["마시기 전에 병을 잘 흔들어 주세요.", "Please shake the bottle well before drinking.", "Polite request"],
-      ["친구가 멀리서 손을 흔들었어요.", "My friend waved a hand from far away.", "Past action"],
-      ["위험하니까 사다리를 흔들지 마세요.", "It is dangerous so do not shake the ladder.", "Polite warning"]
+      ["마시기 전에 병을 잘 흔들어 주세요.", "Please shake the bottle well before drinking.", "잘 흔들다 'shake well' is the fixed collocation on labels; 병을 takes 를."],
+      ["친구가 멀리서 손을 흔들었어요.", "My friend waved from far away.", "손을 흔들다 = 'wave the hand'; past 흔들었어요 keeps the ㄹ before a vowel."],
+      ["위험하니까 사다리를 흔들지 마세요.", "It's dangerous, so don't shake the ladder.", "-(으)니까 gives a reason; ㄹ drops before -지? No — 흔들지 keeps ㄹ (ㅈ is not ㅂ/ㄴ/ㅅ)."]
     ],
-    "nuance": "흔들다 is a ㄹ irregular, so the ㄹ drops before ㅂ and ㄴ, giving 흔듭니다 and 흔드세요, but it stays before a vowel as in 흔들어요.",
-    "mistakes": ["Keeping the ㄹ before ㅂ and saying 흔들습니다 instead of 흔듭니다."],
+    "nuance": "흔들다 means to shake, wave, or rock something back and forth — a hand (손을 흔들다 'wave'), a head (고개를 흔들다 'shake one's head'), a bottle, a tree in the wind. It is a ㄹ-irregular (ㄹ-탈락) verb: the stem ㄹ DROPS before the consonants ㅂ, ㄴ, ㅅ and before the noun-modifier ㄴ — hence 흔듭니다 (not 흔들습니다), 흔드세요, 흔드는 — but the ㄹ STAYS before a vowel, giving the regular 흔들어요 / 흔들었어요. The closest synonym is 떨다 'to tremble/shiver', but the line is who controls it: 흔들다 is transitive and deliberate ('I shake X'), while 떨다 is usually involuntary trembling (추워서 떨어요 'shiver from cold'). The English-speaker pitfall: a 'handshake' as a greeting is NOT 손을 흔들다 (that is waving) — to shake hands you say 악수하다 (握手, 'grasp-hand'). Also remember the ㄹ-drop only before ㅂ/ㄴ/ㅅ, so 흔들지 마세요 and 흔들고 keep their ㄹ.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "흔들다 means to shake, wave, or rock something back and forth — a hand (손을 흔들다 'wave'), a head (고개를 흔들다 'shake one's head'), a bottle, a tree in the wind."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㄹ-irregular (ㄹ-탈락) verb: the stem ㄹ DROPS before the consonants ㅂ, ㄴ, ㅅ and before the noun-modifier ㄴ — hence 흔듭니다 (not 흔들습니다), 흔드세요, 흔드는 — but the ㄹ STAYS before a vowel, giving the regular 흔들어요 / 흔들었어요. Remember the ㄹ-drop only before ㅂ/ㄴ/ㅅ, so 흔들지 마세요 and 흔들고 keep their ㄹ.",
+        "chips": ["흔듭니다", "흔드세요", "흔드는", "흔들어요", "흔들었어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The closest synonym is 떨다 'to tremble/shiver', but the line is who controls it: 흔들다 is transitive and deliberate ('I shake X'), while 떨다 is usually involuntary trembling (추워서 떨어요 'shiver from cold')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A 'handshake' as a greeting is NOT 손을 흔들다 (that is waving) — to shake hands you say 악수하다 (握手, 'grasp-hand')."
+      }
+    ],
+    "mistakes": [
+      "Keeping the ㄹ before ㅂ: 흔들습니다 is wrong. In a ㄹ-irregular verb the ㄹ drops before ㅂ/ㄴ/ㅅ, so the formal form is 흔듭니다.",
+      "Using 손을 흔들다 to mean 'shake hands'. Waving is 손을 흔들다, but shaking hands in greeting is 악수하다 — different action entirely.",
+      "Dropping the ㄹ everywhere. Before a vowel it stays: the present is 흔들어요, not 흔어요; only ㅂ/ㄴ/ㅅ trigger the drop."
+    ],
     "irregular": "ㄹ irregular"
   },
   {
@@ -197,16 +342,45 @@
       "shallWe": "안을까요?"
     },
     "usage": [
-      ["아기를 안아요.", "I hug the baby.", "Holding in arms"],
-      ["엄마를 꼭 안았어요.", "I hugged my mother tightly.", "Past action"]
+      ["꼭 안다", "to hug tightly", "꼭 (firmly, tightly) is the emotional intensifier: 꼭 안아 주세요 'hold me tight'."],
+      ["아기를 안다", "to hold a baby (in arms)", "Holding a baby in your arms is 안다, the prototypical use."],
+      ["품에 안다", "to hold in one's bosom/arms", "품 (the chest/embrace) names the space: 강아지를 품에 안다."],
+      ["안아 주다", "to give a hug", "안다 + 주다 = offer a hug to comfort someone; 'give someone a hug'."]
     ],
     "examples": [
-      ["아기가 울어서 꼭 안아 줬어요.", "The baby cried so I hugged it tightly.", "Past action"],
-      ["헤어질 때 친구를 한 번 안아요.", "I hug my friend once when we part.", "Habit"],
-      ["강아지를 품에 안고 싶어요.", "I want to hug the puppy in my arms.", "Expressing a wish"]
+      ["아기가 울어서 꼭 안아 줬어요.", "The baby cried, so I held it tightly.", "안아 주다 = hug for someone's benefit; 꼭 adds warmth/tightness."],
+      ["헤어질 때 친구를 한 번 안아요.", "I hug my friend once when we part.", "Hugging in greeting/parting; person takes 를, action is deliberate."],
+      ["강아지를 품에 안고 자고 싶어요.", "I want to fall asleep holding the puppy.", "품에 안다 = hold in the arms; -고 links to the next clause."]
     ],
-    "nuance": "안다 means holding someone in your arms, and because the stem vowel is ㅏ the polite present becomes 안아요.",
-    "mistakes": ["Do not confuse 안다 (hug) with 알다 (know)."],
+    "nuance": "안다 means to hold someone or something in your arms — a hug, cradling a baby, clasping a pet to your chest; the one embraced takes 을/를 (아기를 안다). Because the stem vowel is bright ㅏ (안-), the 요-form is 안아요 (past 안았어요) and the formal is 안습니다. The trap is the spelling twins: 안다 (hug) vs 알다 (know) vs the negative adverb 안. Watch 안 안아요 — the first 안 is 'not', the second is the verb stem, so the whole thing means 'I do not hug'. A useful synonym contrast is 안다 vs 껴안다 / 끌어안다: plain 안다 is neutral 'hold in arms', while 껴안다 (꼭 껴안다) and 끌어안다 stress a tighter, more enveloping embrace ('clutch, hug close'). The English-speaker pitfall: 'hug' as a casual social gesture is far less frequent in Korea than in the West, so 안다 most often appears with babies, family, romantic partners, or comfort — not as a default greeting between acquaintances; a bow or handshake (악수) is more typical.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "안다 means to hold someone or something in your arms — a hug, cradling a baby, clasping a pet to your chest; the one embraced takes 을/를 (아기를 안다)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Because the stem vowel is bright ㅏ (안-), the 요-form is 안아요 (past 안았어요) and the formal is 안습니다. The trap is the spelling twins: 안다 (hug) vs 알다 (know) vs the negative adverb 안. Watch 안 안아요 — the first 안 is 'not', the second is the verb stem, so the whole thing means 'I do not hug'.",
+        "chips": ["안아요", "안았어요", "안습니다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A useful synonym contrast is 안다 vs 껴안다 / 끌어안다: plain 안다 is neutral 'hold in arms', while 껴안다 (꼭 껴안다) and 끌어안다 stress a tighter, more enveloping embrace ('clutch, hug close')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Hug' as a casual social gesture is far less frequent in Korea than in the West, so 안다 most often appears with babies, family, romantic partners, or comfort — not as a default greeting between acquaintances; a bow or handshake (악수) is more typical."
+      }
+    ],
+    "mistakes": [
+      "Confusing 안다 (hug) with 알다 (know). 친구를 안아요 = 'I hug my friend'; 'I know my friend' is 친구를 알아요 — only the ㄴ vs ㄹ differs.",
+      "Mishandling negation. 'I don't hug' is 안 안아요 (adverb 안 + verb 안아요); writing a single 안아요 loses the negation, and 안안아요 with no space is incorrect.",
+      "Assuming 안다 works like a Western 'hug everyone hello'. Socially, default greetings are bows or 악수하다; reserve 안다 for close, affectionate, or comforting contexts."
+    ],
     "irregular": null
   },
   {
@@ -232,16 +406,45 @@
       "shallWe": "밀까요?"
     },
     "usage": [
-      ["문을 밀어요.", "I push the door.", "Pushing an object"],
-      ["수레를 천천히 밀어요.", "I push the cart slowly.", "Pushing an object"]
+      ["문을 밀다", "to push a door", "The classic door sign pair with 당기다 (pull): 미시오 'push' / 당기시오 'pull'."],
+      ["수레를 밀다", "to push a cart", "수레/카트 (cart) is a frequent object; 천천히 밀다 'push slowly'."],
+      ["뒤에서 밀다", "to push from behind", "뒤에서 (from behind) is a common direction phrase, e.g. a stuck car."],
+      ["밀어 주다", "to give a push (help)", "밀다 + 주다 = push for someone, e.g. help a stalled car or a swing."]
     ],
     "examples": [
-      ["이 문은 당기지 말고 밀어 주세요.", "Please push this door instead of pulling it.", "Polite request"],
-      ["사람이 많아도 밀지 마세요.", "Even if it is crowded do not push.", "Polite warning"],
-      ["짐이 무거워서 같이 밀어야 해요.", "The bag is heavy so we must push together.", "Expressing obligation"]
+      ["이 문은 당기지 말고 밀어 주세요.", "Push this door, don't pull it.", "Directly contrasts 밀다 vs 당기다; -지 말고 = 'don't ~, instead'."],
+      ["사람이 많아도 밀지 마세요.", "Even when it's crowded, don't push.", "밀지 마세요 keeps the ㄹ (ㅈ doesn't trigger the drop); subway-etiquette phrase."],
+      ["짐이 무거워서 같이 밀어야 해요.", "The load is heavy, so we have to push together.", "-아서 cause + -아야 해요 obligation; 밀어야 keeps ㄹ before a vowel."]
     ],
-    "nuance": "밀다 is a ㄹ irregular, so the ㄹ drops before ㅂ and ㄴ, giving 밉니다 and 미세요, but it stays before a vowel as in 밀어요.",
-    "mistakes": ["Do not confuse 밀다 (push) with 당기다 (pull)."],
+    "nuance": "밀다 means to push — to apply force so something moves away from you (a door, a cart, a person in a crowd). It is a ㄹ-irregular: the stem ㄹ DROPS before ㅂ, ㄴ, ㅅ and the modifier ㄴ, so 밉니다 (not 밀습니다), 미세요, 미는 문 ('the door you push'); but it STAYS before a vowel, giving 밀어요 / 밀었어요. The obvious antonym is 당기다 'to pull', and the two define the universal Korean door signs 미시오 / 당기시오. A subtler synonym contrast is 밀다 vs 누르다: 밀다 moves an object across space ('push the cart'), whereas 누르다 presses straight down in place ('push/press a button' = 버튼을 누르다). The English-speaker pitfall is exactly that 'push a button' — never 버튼을 밀다, always 버튼을 누르다. Also note 밀다's idiomatic life: 면도하다 aside, 수염을 밀다 means 'shave off a beard', and 밀어주다 figuratively means 'to back/support someone'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "밀다 means to push — to apply force so something moves away from you (a door, a cart, a person in a crowd). Note its idiomatic life too: 면도하다 aside, 수염을 밀다 means 'shave off a beard', and 밀어주다 figuratively means 'to back/support someone'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㄹ-irregular: the stem ㄹ DROPS before ㅂ, ㄴ, ㅅ and the modifier ㄴ, so 밉니다 (not 밀습니다), 미세요, 미는 문 ('the door you push'); but it STAYS before a vowel, giving 밀어요 / 밀었어요.",
+        "chips": ["밉니다", "미세요", "미는", "밀어요", "밀었어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The obvious antonym is 당기다 'to pull', and the two define the universal Korean door signs 미시오 / 당기시오. A subtler synonym contrast is 밀다 vs 누르다: 밀다 moves an object across space ('push the cart'), whereas 누르다 presses straight down in place ('push/press a button' = 버튼을 누르다)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is exactly that 'push a button' — never 버튼을 밀다, always 버튼을 누르다."
+      }
+    ],
+    "mistakes": [
+      "Saying 버튼을 밀다 for 'press a button'. Pressing down is 누르다 (버튼을 눌러요); 밀다 is for sliding/pushing an object across space.",
+      "Keeping the ㄹ before ㅂ: 밀습니다 is wrong. ㄹ drops before ㅂ/ㄴ/ㅅ, so the formal form is 밉니다.",
+      "Mixing up 밀다 (push) and 당기다 (pull) on door signs. 미시오 means push and 당기시오 means pull — reversing them sends people the wrong way."
+    ],
     "irregular": "ㄹ irregular"
   },
   {
@@ -267,16 +470,45 @@
       "shallWe": "당길까요?"
     },
     "usage": [
-      ["문을 당겨요.", "I pull the door.", "Pulling an object"],
-      ["줄을 세게 당겨요.", "I pull the rope hard.", "Pulling an object"]
+      ["문을 당기다", "to pull a door", "Door-sign partner of 밀다: 당기시오 'pull'."],
+      ["줄을 당기다", "to pull a rope/cord", "줄/끈 (rope, cord) is a frequent object; 세게 당기다 'pull hard'."],
+      ["의자를 당기다", "to pull a chair (closer)", "Pulling furniture toward you to adjust position: 앞으로 당기다."],
+      ["입맛이 당기다", "to have an appetite / crave", "Idiom: food 'pulls' your appetite — 입맛이 당겨요 'I feel like eating'."]
     ],
     "examples": [
-      ["이 문은 밀지 말고 당겨 주세요.", "Please pull this door instead of pushing it.", "Polite request"],
-      ["의자를 조금 앞으로 당겨요.", "I pull the chair forward a little.", "Adjusting position"],
-      ["줄이 약하니까 너무 세게 당기지 마세요.", "The rope is weak so do not pull too hard.", "Polite warning"]
+      ["이 문은 밀지 말고 당겨 주세요.", "Pull this door, don't push it.", "Mirror of 밀다; 당겨 주세요 is the polite 'please pull'."],
+      ["의자를 조금 앞으로 당겨요.", "I pull the chair forward a little.", "Direction 앞으로 (toward the front); object 의자를 takes 를."],
+      ["요즘 매운 음식이 자꾸 당겨요.", "These days I keep craving spicy food.", "Idiomatic 당기다 = 'crave'; the food takes 이/가 (음식이 당겨요)."]
     ],
-    "nuance": "당기다 means pulling something toward you, and it is the natural opposite of 밀다 to push.",
-    "mistakes": ["Do not confuse 당기다 (pull) with 밀다 (push)."],
+    "nuance": "당기다 means to pull — to draw something toward yourself (a door, a rope, a chair). Unlike its ㄹ-irregular antonym 밀다, 당기다 is a regular ㅣ-stem verb, so the 요-form simply contracts 당기-+-어요 → 당겨요 (past 당겼어요, formal 당깁니다) with no ㄹ-drop. Its straight opposite is 밀다 'push', and together they label every Korean door (밀다 미시오 / 당기다 당기시오). A useful synonym contrast is 당기다 vs 끌다: 당기다 is a short pull toward you ('tug, draw'), while 끌다 is to drag something along the ground over distance (가방을 끌다 'drag a bag', 차를 끌다 'tow a car'). Watch a high-frequency idiom that surprises learners: 입맛이 당기다 / 음식이 당기다 means 'to crave food, feel an appetite' — the food is the subject (이/가), not the object. The English-speaker pitfall: do not force 'pull' into this idiom with 를 — it is 매운 게 당겨요 ('I'm craving something spicy'), never 매운 걸 당겨요 in that sense.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "당기다 means to pull — to draw something toward yourself (a door, a rope, a chair). Its straight opposite is 밀다 'push', and together they label every Korean door (밀다 미시오 / 당기다 당기시오). Watch a high-frequency idiom that surprises learners: 입맛이 당기다 / 음식이 당기다 means 'to crave food, feel an appetite' — the food is the subject (이/가), not the object."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Unlike its ㄹ-irregular antonym 밀다, 당기다 is a regular ㅣ-stem verb, so the 요-form simply contracts 당기-+-어요 → 당겨요 (past 당겼어요, formal 당깁니다) with no ㄹ-drop.",
+        "chips": ["당겨요", "당겼어요", "당깁니다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A useful synonym contrast is 당기다 vs 끌다: 당기다 is a short pull toward you ('tug, draw'), while 끌다 is to drag something along the ground over distance (가방을 끌다 'drag a bag', 차를 끌다 'tow a car')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Do not force 'pull' into the craving idiom with 를 — it is 매운 게 당겨요 ('I'm craving something spicy'), never 매운 걸 당겨요 in that sense."
+      }
+    ],
+    "mistakes": [
+      "Reversing 당기다 (pull) and 밀다 (push) on doors. 당기시오 = pull, 미시오 = push; swapping them is a classic foreigner error.",
+      "Using the object particle in the craving idiom. 'I'm craving spicy food' is 매운 음식이 당겨요 (subject 이/가), not 매운 음식을 당겨요.",
+      "Choosing 당기다 to mean 'drag along the ground'. Dragging over distance is 끌다 (가방을 끌어요); 당기다 is a short pull toward yourself."
+    ],
     "irregular": null
   },
   {
@@ -302,16 +534,45 @@
       "shallWe": "두드릴까요?"
     },
     "usage": [
-      ["문을 두드려요.", "I knock on the door.", "Knocking on a door"],
-      ["어깨를 가볍게 두드려요.", "I tap the shoulder lightly.", "Tapping something"]
+      ["문을 두드리다", "to knock on a door", "The prototypical use; 노크하다 (from English 'knock') is a casual synonym."],
+      ["어깨를 두드리다", "to pat/tap the shoulder", "A gesture of comfort or to get attention; 가볍게 두드리다 'tap lightly'."],
+      ["등을 두드리다", "to pat someone on the back", "등을 토닥토닥 두드리다 = pat the back soothingly, to console."],
+      ["키보드를 두드리다", "to tap away at a keyboard", "Repeated striking of keys; vivid for typing busily."]
     ],
     "examples": [
-      ["들어가기 전에 문을 먼저 두드려요.", "I knock on the door first before going in.", "Habit"],
-      ["자는 사람을 깨우려고 어깨를 두드렸어요.", "I tapped the shoulder to wake the sleeping person.", "Past action"],
-      ["벨이 고장 났으니 문을 두드려 주세요.", "The bell is broken so please knock on the door.", "Polite request"]
+      ["들어가기 전에 문을 먼저 두드리세요.", "Knock on the door first before going in.", "두드리다 = repeated light striking to signal; 먼저 'first'."],
+      ["자는 친구의 어깨를 살짝 두드렸어요.", "I lightly tapped my sleeping friend's shoulder.", "어깨를 두드리다 = tap a shoulder; 살짝 'gently' suits the soft action."],
+      ["벨이 고장 났으니 문을 두드려 주세요.", "The bell is broken, so please knock.", "-(으)니 gives a reason; 두드려 주세요 polite request."]
     ],
-    "nuance": "두드리다 means hitting a surface lightly and repeatedly, such as a door or a shoulder, to make a sound or get attention.",
-    "mistakes": ["Do not confuse 두드리다 (knock) with 때리다 (hit hard)."],
+    "nuance": "두드리다 means to strike a surface lightly and repeatedly — knock on a door, pat a shoulder or back, tap a keyboard — to make a sound or get attention. The 요-form contracts 두드리-+-어요 → 두드려요 (past 두드렸어요). The key synonym contrast is force and repetition: 두드리다 is gentle, rhythmic tapping, whereas 치다 is a single firm strike ('hit, strike' — 공을 치다 'hit a ball') and 때리다 is to hit hard, usually a person, with a violent or punishing nuance (사람을 때리다 'beat someone'). So 어깨를 두드리다 comforts, but 어깨를 때리다 would mean to hit someone's shoulder hard. For doors specifically, casual speakers also borrow 노크하다 (from English 'knock'). The English-speaker pitfall: don't reach for 때리다 just because English 'knock' and 'hit' overlap — knocking on a door is always 두드리다 (or 노크하다), never 문을 때려요, which sounds like you are violently banging/attacking the door.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "두드리다 means to strike a surface lightly and repeatedly — knock on a door, pat a shoulder or back, tap a keyboard — to make a sound or get attention. For doors specifically, casual speakers also borrow 노크하다 (from English 'knock')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 요-form contracts 두드리-+-어요 → 두드려요 (past 두드렸어요).",
+        "chips": ["두드려요", "두드렸어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key synonym contrast is force and repetition: 두드리다 is gentle, rhythmic tapping, whereas 치다 is a single firm strike ('hit, strike' — 공을 치다 'hit a ball') and 때리다 is to hit hard, usually a person, with a violent or punishing nuance (사람을 때리다 'beat someone'). So 어깨를 두드리다 comforts, but 어깨를 때리다 would mean to hit someone's shoulder hard."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't reach for 때리다 just because English 'knock' and 'hit' overlap — knocking on a door is always 두드리다 (or 노크하다), never 문을 때려요, which sounds like you are violently banging/attacking the door."
+      }
+    ],
+    "mistakes": [
+      "Using 때리다 for knocking. 문을 때려요 means 'I beat/bang the door (violently)'; to knock politely say 문을 두드려요 or 노크해요.",
+      "Choosing 두드리다 for a single hard hit. A one-off strike is 치다 (공을 쳐요 'I hit the ball'); 두드리다 implies light, repeated tapping.",
+      "Marking the surface with 에: 문에 두드려요 is awkward. The thing struck is a direct object: 문을 두드려요."
+    ],
     "irregular": null
   },
   {
@@ -337,16 +598,45 @@
       "shallWe": "막을까요?"
     },
     "usage": [
-      ["길을 막아요.", "I block the road.", "Blocking a path"],
-      ["귀를 손으로 막아요.", "I cover my ears with my hands.", "Blocking something"]
+      ["길을 막다", "to block a road/path", "Roads, entrances, exits: 길이 막히다 (passive) 'the road is jammed'."],
+      ["귀를 막다", "to cover one's ears", "Body openings: 귀를 막다 'cover ears', 코를 막다 'plug the nose'."],
+      ["입구를 막다", "to block the entrance", "입구 (entrance) is a frequent object, e.g. blocking a doorway."],
+      ["사고를 막다", "to prevent an accident", "Abstract: 막다 also means 'prevent, avert' a problem or danger."]
     ],
     "examples": [
-      ["여기 입구를 막지 마세요.", "Please do not block the entrance here.", "Polite warning"],
-      ["찬 바람을 막으려고 창문을 닫았어요.", "I closed the window to block the cold wind.", "Past action"],
-      ["사고가 나서 경찰이 길을 막았어요.", "There was an accident so the police blocked the road.", "Past event"]
+      ["여기 입구를 막지 마세요.", "Don't block the entrance here.", "막다 = obstruct a passage; -지 마세요 polite prohibition."],
+      ["찬 바람을 막으려고 창문을 닫았어요.", "I shut the window to block the cold wind.", "-(으)려고 'in order to'; 막다 here = keep out / shield against."],
+      ["사고가 나서 경찰이 길을 막았어요.", "There was an accident, so the police closed the road.", "막다 = block off a road; contrast with 닫다 = shut a door."]
     ],
-    "nuance": "막다 means stopping something from passing or covering an opening, and the thing you block takes 을 or 를.",
-    "mistakes": ["Do not confuse 막다 (block) with 닫다 (close)."],
+    "nuance": "막다 means to block, obstruct, or stop something from passing — a road (길을 막다), an entrance, ears or nose (귀를 막다 'cover the ears') — and by extension to prevent or avert a problem (사고를 막다 'prevent an accident', 출혈을 막다 'stop the bleeding'). The 요-form is regular: bright ㅏ stem gives 막아요 (past 막았어요, formal 막습니다). The synonym contrast to nail is 막다 vs 닫다: 닫다 is to close a thing that has its own hinge or lid (문을 닫다 'close the door', 뚜껑을 닫다 'put the lid on'), while 막다 is to obstruct an opening or flow so nothing gets through (구멍을 막다 'plug a hole'). There is also a related passive 막히다 'to be blocked/jammed' (코가 막혔어요 'my nose is stuffed', 길이 막혀요 'traffic is jammed'). The English-speaker pitfall: don't use 닫다 for blocking a road — a road has no door to 'close', so it is 길을 막다, and traffic congestion is 길이 막히다, never 길이 닫혀요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "막다 means to block, obstruct, or stop something from passing — a road (길을 막다), an entrance, ears or nose (귀를 막다 'cover the ears') — and by extension to prevent or avert a problem (사고를 막다 'prevent an accident', 출혈을 막다 'stop the bleeding'). There is also a related passive 막히다 'to be blocked/jammed' (코가 막혔어요 'my nose is stuffed', 길이 막혀요 'traffic is jammed')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 요-form is regular: bright ㅏ stem gives 막아요 (past 막았어요, formal 막습니다).",
+        "chips": ["막아요", "막았어요", "막습니다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym contrast to nail is 막다 vs 닫다: 닫다 is to close a thing that has its own hinge or lid (문을 닫다 'close the door', 뚜껑을 닫다 'put the lid on'), while 막다 is to obstruct an opening or flow so nothing gets through (구멍을 막다 'plug a hole')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't use 닫다 for blocking a road — a road has no door to 'close', so it is 길을 막다, and traffic congestion is 길이 막히다, never 길이 닫혀요."
+      }
+    ],
+    "mistakes": [
+      "Using 닫다 to block a road. 길을 닫아요 is unnatural; obstructing a road is 길을 막아요, and 'traffic is jammed' is 길이 막혀요.",
+      "Forgetting the passive 막히다 for 'be blocked/stuffed'. 'My nose is stuffed' is 코가 막혔어요, not 코를 막았어요 (which means 'I plugged my nose' on purpose).",
+      "Overlooking the 'prevent' sense. 'To prevent an accident' is 사고를 막다; learners often hunt for a separate word, but 막다 already covers averting danger."
+    ],
     "irregular": null
   },
   {
@@ -372,16 +662,45 @@
       "shallWe": "숨을까요?"
     },
     "usage": [
-      ["아이가 문 뒤에 숨어요.", "The child hides behind the door.", "Hiding oneself"],
-      ["고양이가 침대 밑에 숨었어요.", "The cat hid under the bed.", "Past action"]
+      ["뒤에 숨다", "to hide behind", "Position word + 에: 문 뒤에 숨다 'hide behind the door'."],
+      ["밑에 숨다", "to hide underneath", "침대 밑에 숨다 'hide under the bed'; place takes 에."],
+      ["숨어 있다", "to be hiding / stay hidden", "숨다 + 있다 expresses the ongoing hidden state, not just the act."],
+      ["숨바꼭질하다", "to play hide-and-seek", "The game name 숨바꼭질 comes from 숨다; a natural cultural collocation."]
     ],
     "examples": [
-      ["놀랄 때 아이가 엄마 뒤로 숨어요.", "When surprised the child hides behind the mother.", "Habit"],
-      ["비를 피하려고 가게 안으로 숨었어요.", "I hid inside a shop to avoid the rain.", "Past action"],
-      ["여기는 위험하니까 저기에 숨을까요?", "Here is dangerous so shall we hide over there?", "Making a suggestion"]
+      ["놀랄 때 아이가 엄마 뒤로 숨어요.", "When startled, the child hides behind mom.", "Direction 뒤로 (to behind) for the movement of hiding; subject is the hider."],
+      ["비를 피하려고 가게 안으로 숨었어요.", "I ducked into a shop to escape the rain.", "안으로 'into'; 숨다 here = duck/take cover, intransitive."],
+      ["여기는 위험하니까 저기에 숨을까요?", "It's dangerous here, so shall we hide over there?", "Place 저기에 (at over there); -(으)ㄹ까요? suggestion."]
     ],
-    "nuance": "숨다 means hiding yourself so others cannot see you, and the place you hide takes 에 with a position word.",
-    "mistakes": ["Do not confuse 숨다 (hide oneself) with 숨기다 (hide a thing)."],
+    "nuance": "숨다 is INTRANSITIVE 'to hide oneself' — you make yourself unseen, so the subject is the person hiding and the hiding place takes 에/뒤에/밑에 (책상 밑에 숨어요 'I hide under the desk'); there is no direct object. The 요-form is regular: 숨어요 (past 숨었어요, formal 숨습니다). The single most important contrast is 숨다 vs 숨기다: 숨다 = 'I hide (myself)' (intransitive), while the causative 숨기다 = 'I hide SOMETHING' (transitive, takes 을/를) — 돈을 숨기다 'hide money', 비밀을 숨기다 'conceal a secret'. English 'hide' is both, which is exactly why learners stumble. A near-synonym is 피하다 'to avoid/dodge', but 피하다 is to steer clear of something (사람을 피하다 'avoid a person'), whereas 숨다 is specifically to conceal your body from view. The English-speaker pitfall: 'I hid the key' must be 열쇠를 숨겼어요 (숨기다), NOT 열쇠를 숨었어요 — using 숨다 with an object is ungrammatical.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "숨다 is INTRANSITIVE 'to hide oneself' — you make yourself unseen, so the subject is the person hiding and the hiding place takes 에/뒤에/밑에 (책상 밑에 숨어요 'I hide under the desk'); there is no direct object."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 요-form is regular: 숨어요 (past 숨었어요, formal 숨습니다).",
+        "chips": ["숨어요", "숨었어요", "숨습니다"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The single most important contrast is 숨다 vs 숨기다: 숨다 = 'I hide (myself)' (intransitive), while the causative 숨기다 = 'I hide SOMETHING' (transitive, takes 을/를) — 돈을 숨기다 'hide money', 비밀을 숨기다 'conceal a secret'. English 'hide' is both, which is exactly why learners stumble. A near-synonym is 피하다 'to avoid/dodge', but 피하다 is to steer clear of something (사람을 피하다 'avoid a person'), whereas 숨다 is specifically to conceal your body from view."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'I hid the key' must be 열쇠를 숨겼어요 (숨기다), NOT 열쇠를 숨었어요 — using 숨다 with an object is ungrammatical."
+      }
+    ],
+    "mistakes": [
+      "Giving 숨다 a direct object. 'I hid the money' is 돈을 숨겼어요 (transitive 숨기다); 돈을 숨었어요 is wrong because 숨다 is intransitive.",
+      "Confusing 숨다 (hide oneself) with 숨기다 (hide a thing). 아이가 숨어요 = 'the child hides'; 아이를 숨겨요 = 'I hide the child away'.",
+      "Marking the hiding place with 를: 침대 밑을 숨어요 is wrong. Use 에 for the location: 침대 밑에 숨어요."
+    ],
     "irregular": null
   },
   {
@@ -407,16 +726,45 @@
       "shallWe": "빠질까요?"
     },
     "usage": [
-      ["발이 구멍에 빠져요.", "My foot falls into the hole.", "Falling into something"],
-      ["열쇠가 물에 빠졌어요.", "The key fell into the water.", "Past action"]
+      ["물에 빠지다", "to fall into water / drown", "물에 빠지다 is the set phrase; the place fallen into takes 에."],
+      ["사랑에 빠지다", "to fall in love", "Idiom mirroring English: 사랑에 빠지다 'fall in love' — note 에, not 를."],
+      ["살이 빠지다", "to lose weight", "살(이) 빠지다 = body fat 'comes out' → lose weight; opposite 살이 찌다."],
+      ["~에 빠지다", "to be absorbed/addicted in", "게임에 빠지다 'get hooked on games'; deep immersion sense."]
     ],
     "examples": [
-      ["조심하세요, 여기 구덩이에 빠질 수 있어요.", "Be careful, you can fall into the pit here.", "Polite warning"],
-      ["휴대폰이 강물에 빠져서 고장 났어요.", "My phone fell into the river so it broke.", "Past event"],
-      ["길에 큰 웅덩이가 있으니 빠지지 마세요.", "There is a big puddle on the road so do not fall in.", "Polite warning"]
+      ["조심하세요, 여기 구덩이에 빠질 수 있어요.", "Careful, you could fall into the pit here.", "Place takes 에 (구덩이에); -(으)ㄹ 수 있다 = possibility/risk."],
+      ["휴대폰이 강물에 빠져서 고장 났어요.", "My phone fell into the river and broke.", "빠지다 = drop into; -아서 links cause to result."],
+      ["요즘 그 드라마에 완전히 빠졌어요.", "I'm totally hooked on that drama these days.", "Idiomatic 빠지다 = be absorbed/addicted; takes 에 (드라마에)."]
     ],
-    "nuance": "빠지다 means dropping into a hole or water by accident, and the place you fall into takes the particle 에.",
-    "mistakes": ["Do not confuse 빠지다 (fall into) with 넘어지다 (fall over)."],
+    "nuance": "빠지다 literally means to fall/drop into something — a hole, water, mud — by accident, with the place taking 에 (웅덩이에 빠지다 'fall into a puddle'). It is intransitive and spontaneous; the 요-form contracts 빠지-+-어요 → 빠져요 (past 빠졌어요). Beyond the literal sense it is enormously idiomatic, almost always with 에: 사랑에 빠지다 'fall in love', 게임에 빠지다 'get addicted to games', 살이 빠지다 'lose weight', and even 'be missing/left out' (명단에서 빠지다 'be dropped from the list'). The synonym contrast learners need is 빠지다 vs 넘어지다: 빠지다 is sinking/dropping DOWN INTO something, whereas 넘어지다 is toppling OVER, losing your balance on a flat surface (길에서 넘어지다 'fall over on the road'). The English-speaker pitfall: 'fall in love' tempts 를, but it is 사랑에 빠지다 with 에 (you fall INTO love); likewise weight loss is 살이 빠지다 (subject 이/가), never 살을 빠지다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "빠지다 literally means to fall/drop into something — a hole, water, mud — by accident, with the place taking 에 (웅덩이에 빠지다 'fall into a puddle'). It is intransitive and spontaneous. Beyond the literal sense it is enormously idiomatic, almost always with 에: 사랑에 빠지다 'fall in love', 게임에 빠지다 'get addicted to games', 살이 빠지다 'lose weight', and even 'be missing/left out' (명단에서 빠지다 'be dropped from the list')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The 요-form contracts 빠지-+-어요 → 빠져요 (past 빠졌어요).",
+        "chips": ["빠져요", "빠졌어요"]
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The synonym contrast learners need is 빠지다 vs 넘어지다: 빠지다 is sinking/dropping DOWN INTO something, whereas 넘어지다 is toppling OVER, losing your balance on a flat surface (길에서 넘어지다 'fall over on the road')."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'Fall in love' tempts 를, but it is 사랑에 빠지다 with 에 (you fall INTO love); likewise weight loss is 살이 빠지다 (subject 이/가), never 살을 빠지다."
+      }
+    ],
+    "mistakes": [
+      "Confusing 빠지다 (fall into) with 넘어지다 (fall over). Tripping on flat ground is 넘어졌어요; dropping into a hole/water is 빠졌어요.",
+      "Using 를 in idioms. 'Fall in love' is 사랑에 빠지다 and 'lose weight' is 살이 빠지다 — both use 에 or 이/가, never 사랑을/살을 빠지다.",
+      "Forgetting the location particle 에. 'My foot fell into the hole' is 발이 구멍에 빠졌어요; 구멍을 빠졌어요 is ungrammatical."
+    ],
     "irregular": null
   }
 ]

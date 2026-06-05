@@ -4,251 +4,913 @@
     "hangul": "세금",
     "english": "tax",
     "topic": "money",
-    "chapterIds": ["chapter-08"],
+    "chapterIds": [
+      "chapter-08"
+    ],
     "grammarIds": [],
     "usage": [
-      ["세금을 내다", "to pay tax", "내다 is the standard verb for paying taxes, bills, fees"],
-      ["세금이 붙다", "tax is added on", "붙다 (to stick) is how Koreans say tax/fees are tacked onto a price"],
-      ["세금 신고", "tax filing / tax report", "신고 = official declaration; 종합소득세 신고 is the yearly income-tax filing"],
-      ["세금 환급", "tax refund", "환급 is the refund you get back, e.g. 연말정산 환급 at year-end"]
+      [
+        "세금을 내다",
+        "to pay tax",
+        "내다 is the standard verb for paying out taxes, bills and fees; never 사다 or 주다"
+      ],
+      [
+        "세금이 붙다",
+        "tax is added on",
+        "붙다 (to stick) is how Koreans say a tax or fee gets tacked onto a price"
+      ],
+      [
+        "세금 신고",
+        "tax filing / tax report",
+        "신고 申告 = official declaration; 종합소득세 신고 is the yearly income-tax filing"
+      ],
+      [
+        "세금 환급",
+        "tax refund",
+        "환급 還給 = money returned to you, e.g. the 연말정산 환급 at year-end"
+      ]
     ],
     "examples": [
-      ["월급에서 세금이 자동으로 빠져요.", "Tax comes out of my paycheck automatically.", "빠지다 here = to be deducted; common for 4대보험·세금"],
-      ["이 가격에 세금이 포함돼 있나요?", "Is tax included in this price?", "Useful when a quote looks suspiciously low; 부가세 별도 means VAT not included"],
-      ["프리랜서는 세금을 직접 신고해야 돼요.", "Freelancers have to file taxes themselves.", "Relevant for foreigners doing 3.3% 사업소득 work"]
+      [
+        "월급에서 세금이 자동으로 빠져요.",
+        "Tax comes out of my paycheck automatically.",
+        "에서 marks the source it leaves from; 빠지다 here = to be deducted"
+      ],
+      [
+        "이 가격에 세금이 포함돼 있나요?",
+        "Is tax included in this price?",
+        "포함되다 = to be included; ask this when a quote looks suspiciously low"
+      ],
+      [
+        "프리랜서는 세금을 직접 신고해야 돼요.",
+        "Freelancers have to file taxes themselves.",
+        "직접 = in person/by yourself; relevant for 3.3% 사업소득 work"
+      ]
     ],
-    "nuance": "세금 is the general word covering income tax, VAT, property tax and more. In daily life you mostly hear it about your paycheck (소득세 빠진다) or when checking if 부가세 is included in a price. For the once-a-year reckoning, people say 연말정산 (year-end settlement) rather than 세금 itself.",
-    "mistakes": ["Saying 세금을 사다 — you 내다 (pay) tax, never 사다.", "Confusing 세금 (tax) with 요금 (a usage fee/fare); your phone bill is 요금, not 세금."]
+    "nuance": "세금 is Sino-Korean 稅金, literally 'tax-money', the umbrella term covering income tax (소득세), VAT (부가세), property tax and the rest. The near-synonym to keep separate is 요금 料金, a usage charge or fare: your phone, gas and subway are 요금, while money owed to the government is 세금. Register is neutral and everyday; you 세금을 내다 (pay), and a tax can 붙다 (get stuck onto a price). The classic English-speaker trap is the verb: English 'buy' tempts learners into 세금을 사다, which is nonsense — tax is something you 내다, never 사다 or 주다. Also note 세금이 비싸다 sounds odd; Koreans say 세금이 많다/높다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "세금 is the umbrella term covering income tax (소득세), VAT (부가세), property tax and the rest. Register is neutral and everyday: you 세금을 내다 (pay), and a tax can 붙다 (get stuck onto a price)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonym to keep separate is 요금 料金, a usage charge or fare: your phone, gas and subway are 요금, while money owed to the government is 세금."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 稅金, literally 'tax-money'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic trap is the verb: English 'buy' tempts learners into 세금을 사다, which is nonsense — tax is something you 내다, never 사다 or 주다. Also note 세금이 비싸다 sounds odd; Koreans say 세금이 많다/높다."
+      }
+    ],
+    "mistakes": [
+      "Saying 세금을 사다 because English uses no special verb — you 내다 (pay out) tax, never 사다 (buy) or 주다 (give).",
+      "Calling your phone or electricity bill 세금 — a usage charge is 요금; 세금 is specifically money owed to the state.",
+      "Saying 세금이 비싸다 — prices are 비싸다, but a tax amount is described with 많다 or 높다: 세금이 많아요."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "연금",
     "english": "pension",
     "topic": "money",
-    "chapterIds": ["chapter-08"],
+    "chapterIds": [
+      "chapter-08"
+    ],
     "grammarIds": [],
     "usage": [
-      ["국민연금", "national pension", "The mandatory state pension; foreigners on certain visas pay in too"],
-      ["연금을 받다", "to receive a pension", "받다 for the money you collect after retirement"],
-      ["연금에 가입하다", "to enroll in a pension", "가입하다 is the verb for joining/signing up for any scheme"],
-      ["개인연금", "private/personal pension", "개인 = personal; a voluntary retirement savings product from a bank or insurer"]
+      [
+        "국민연금",
+        "national pension",
+        "The mandatory state pension 國民年金; foreigners on certain visas pay in too"
+      ],
+      [
+        "연금을 받다",
+        "to receive a pension",
+        "받다 for the money you collect after retirement, not 사다 or 가지다"
+      ],
+      [
+        "연금에 가입하다",
+        "to enroll in a pension",
+        "가입하다 + 에 is the verb for joining/signing up for any scheme"
+      ],
+      [
+        "개인연금",
+        "private/personal pension",
+        "개인 個人 = personal; a voluntary retirement product from a bank or insurer"
+      ]
     ],
     "examples": [
-      ["국민연금은 월급에서 매달 빠져나가요.", "National pension is taken out of my salary every month.", "빠져나가다 = to be withdrawn/deducted automatically"],
-      ["저는 노후를 위해 개인연금도 들었어요.", "I also signed up for a private pension for my old age.", "들다 (to sign up) is colloquial for joining insurance/pension; 노후 = later life"],
-      ["연금을 언제부터 받을 수 있어요?", "From when can I start receiving the pension?", "Practical question about the payout age (currently rising past 60)"]
+      [
+        "국민연금은 월급에서 매달 빠져나가요.",
+        "National pension is taken out of my salary every month.",
+        "빠져나가다 = to be withdrawn automatically; 매달 = every month"
+      ],
+      [
+        "저는 노후를 위해 개인연금도 들었어요.",
+        "I also signed up for a private pension for my old age.",
+        "들다 (to sign up) is colloquial for joining insurance/pension; 노후 = later life"
+      ],
+      [
+        "연금을 언제부터 받을 수 있어요?",
+        "From when can I start receiving the pension?",
+        "언제부터 = from when; a real question about payout age (now rising past 60)"
+      ]
     ],
-    "nuance": "연금 usually means 국민연금, the compulsory national pension deducted from your pay. Some foreigners can claim a lump-sum refund (반환일시금) when they leave Korea, depending on their country's agreement. 개인연금/퇴직연금 are extra retirement products you choose yourself.",
-    "mistakes": ["Mixing up 연금 (pension) and 연봉 (annual salary) — they look similar but mean very different things.", "Using 연금 for any monthly payment; it specifically means retirement income, not a subscription or installment."]
+    "nuance": "연금 is Sino-Korean 年金, literally 'year-money' — income paid out yearly/regularly in retirement. In daily speech it almost always means 국민연금, the compulsory national pension deducted from your pay; 개인연금 and 퇴직연금 (severance pension) are the extra products you choose yourself. The dangerous look-alike is 연봉 年俸 (annual salary): 연금 is retirement income while 연봉 is what you earn now, so swapping the two in a sentence is a real beginner slip. Register is neutral/official. The English-speaker pitfall is treating 연금 like any recurring 'monthly payment'; a subscription or installment is never 연금 — it specifically denotes old-age income. Foreigners can sometimes claim a lump-sum refund (반환일시금) on leaving Korea.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Income paid out yearly/regularly in retirement. In daily speech it almost always means 국민연금, the compulsory national pension deducted from your pay; 개인연금 and 퇴직연금 (severance pension) are the extra products you choose yourself. Register is neutral/official. Foreigners can sometimes claim a lump-sum refund (반환일시금) on leaving Korea."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dangerous look-alike is 연봉 年俸 (annual salary): 연금 is retirement income while 연봉 is what you earn now, so swapping the two in a sentence is a real beginner slip."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 年金, literally 'year-money'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is treating 연금 like any recurring 'monthly payment'; a subscription or installment is never 연금 — it specifically denotes old-age income."
+      }
+    ],
+    "mistakes": [
+      "Mixing up 연금 (pension, retirement income) with 연봉 (annual salary) — they look alike but one is money for old age, the other is your current yearly pay.",
+      "Calling any recurring monthly charge 연금 — a subscription is 구독, an installment is 할부; 연금 is strictly retirement income.",
+      "Saying 연금을 사다 — you 받다 (receive) a pension or 가입하다 (enroll), you never 'buy' it."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "물가",
     "english": "cost of living / prices",
     "topic": "money",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["물가가 오르다", "prices go up / inflation rises", "오르다 is the default verb; 물가가 올랐어요 is everyday small talk"],
-      ["물가가 비싸다", "the cost of living is high", "Koreans say 물가가 비싸다, treating overall prices as a thing that can be expensive"],
-      ["물가 상승", "rise in prices / inflation", "상승 = a rise; you'll see 물가 상승률 (inflation rate) in the news"],
-      ["물가가 안정되다", "prices stabilize", "안정되다 = to become stable; the opposite of runaway inflation"]
+      [
+        "물가가 오르다",
+        "prices go up / inflation rises",
+        "오르다 is the default verb; 물가가 올랐어요 is everyday small talk"
+      ],
+      [
+        "물가가 비싸다",
+        "the cost of living is high",
+        "Koreans treat overall prices as one thing that can be 비싸다"
+      ],
+      [
+        "물가 상승",
+        "rise in prices / inflation",
+        "상승 上昇 = a rise; you'll see 물가 상승률 (inflation rate) in the news"
+      ],
+      [
+        "물가가 안정되다",
+        "prices stabilize",
+        "안정되다 安定 = to become stable, the opposite of runaway inflation"
+      ]
     ],
     "examples": [
-      ["요즘 물가가 너무 올라서 장 보기 무서워요.", "Prices have gone up so much lately that I'm scared to go grocery shopping.", "장 보다 = to do grocery shopping; very common complaint among young residents"],
-      ["서울은 물가가 비싸지만 살기 편해요.", "Seoul is expensive but convenient to live in.", "Typical way to describe a city's cost of living"],
-      ["월급은 그대로인데 물가만 올라요.", "My salary stays the same but only prices keep rising.", "그대로 = unchanged; a relatable money gripe"]
+      [
+        "요즘 물가가 너무 올라서 장 보기 무서워요.",
+        "Prices have risen so much lately that I'm scared to grocery shop.",
+        "장 보다 = to do grocery shopping; -아서 gives the reason"
+      ],
+      [
+        "서울은 물가가 비싸지만 살기 편해요.",
+        "Seoul is expensive but convenient to live in.",
+        "-지만 = but; the standard way to describe a city's cost of living"
+      ],
+      [
+        "월급은 그대로인데 물가만 올라요.",
+        "My salary stays the same but only prices keep rising.",
+        "그대로 = unchanged; -만 (only) highlights what is moving"
+      ]
     ],
-    "nuance": "물가 refers to the general price level of goods and services, not the price tag on one item (that's 가격 or 값). When friends complain about inflation, they say 물가가 올랐다 rather than naming specific prices. It is one of the most-used words in casual money conversations in Korea right now.",
-    "mistakes": ["Saying 이 물가가 비싸요 about a single product — use 가격/값 for one item, 물가 only for overall prices.", "Writing 물까 or 물카 — it is 물가, and the 가 is pronounced tense (mulkka) but still spelled 가."]
+    "nuance": "물가 is Sino-Korean 物價, literally 'thing-price' — the general price level of goods and services across the economy, not the tag on one item. That is exactly where it splits from its near-synonyms 가격 價格 and 값: 가격/값 is the price of a single product, while 물가 is the aggregate cost of living. So '이 물가가 비싸요' about one coffee is wrong; you mean 가격 or 값. When friends gripe about inflation they say 물가가 올랐다, never 가격이 다 올랐다. Register is fully casual and it is one of the most-used money words in Korea right now. Pronunciation trap: the 가 is tensed (sounds like mulkka) but is still spelled 가, so don't write 물까.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The general price level of goods and services across the economy, not the tag on one item. Register is fully casual and it is one of the most-used money words in Korea right now. When friends gripe about inflation they say 물가가 올랐다, never 가격이 다 올랐다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It splits from its near-synonyms 가격 價格 and 값: 가격/값 is the price of a single product, while 물가 is the aggregate cost of living. So '이 물가가 비싸요' about one coffee is wrong; you mean 가격 or 값."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 物價, literally 'thing-price'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Pronunciation trap: the 가 is tensed (sounds like mulkka) but is still spelled 가, so don't write 물까."
+      }
+    ],
+    "mistakes": [
+      "Saying 이 물가가 비싸요 about a single product — use 가격 or 값 for one item's price; 물가 is only the overall price level.",
+      "Spelling it 물까 or 물카 because of the tense pronunciation — it is always 물가.",
+      "Using 물가 for an exchange rate or stock — 물가 is consumer prices; market quotes are 시세 and rates are 환율/금리."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "환율",
     "english": "exchange rate",
     "topic": "money",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["환율이 오르다", "the exchange rate rises", "When 환율 rises, the won is weaker — bad for sending money home, good for incoming foreign cash"],
-      ["환율을 확인하다", "to check the exchange rate", "확인하다 — what you do before remitting or exchanging cash"],
-      ["환율이 좋다", "the rate is good / favorable", "좋다 here means favorable for you specifically"],
-      ["오늘 환율", "today's exchange rate", "Phrase you'll type into a search before sending money abroad"]
+      [
+        "환율이 오르다",
+        "the exchange rate rises",
+        "When 환율 rises the won is weaker — costlier to buy dollars, but good for incoming foreign cash"
+      ],
+      [
+        "환율을 확인하다",
+        "to check the exchange rate",
+        "확인하다 確認 — what you do before remitting or exchanging cash"
+      ],
+      [
+        "환율이 좋다",
+        "the rate is good / favorable",
+        "좋다 here means favorable for you specifically, not high"
+      ],
+      [
+        "환율 우대",
+        "preferential exchange rate",
+        "우대 優待 = a discount on the spread your bank or app offers"
+      ]
     ],
     "examples": [
-      ["오늘 환율이 좋아서 본국으로 송금했어요.", "The rate was good today so I sent money back home.", "Very practical for foreign residents; 송금 = remittance"],
-      ["환율 때문에 해외 직구가 비싸졌어요.", "Overseas online shopping got expensive because of the exchange rate.", "해외 직구 = direct overseas purchase, hugely popular in Korea"],
-      ["달러 환율이 1,400원을 넘었어요.", "The dollar exchange rate passed 1,400 won.", "Numbers like this come up constantly in 2020s Korea"]
+      [
+        "오늘 환율이 좋아서 본국으로 송금했어요.",
+        "The rate was good today so I sent money home.",
+        "송금 = remittance; -아서 links the good rate to the action"
+      ],
+      [
+        "환율 때문에 해외 직구가 비싸졌어요.",
+        "Overseas online shopping got expensive because of the exchange rate.",
+        "때문에 = because of; 해외 직구 = direct overseas purchase"
+      ],
+      [
+        "달러 환율이 1,400원을 넘었어요.",
+        "The dollar exchange rate passed 1,400 won.",
+        "넘다 = to exceed; numbers like this come up constantly in 2020s Korea"
+      ]
     ],
-    "nuance": "환율 is the rate between the won and a foreign currency, central to anyone who sends money abroad or shops on overseas sites. Saying 환율이 올랐다 means the foreign currency got more expensive in won, so it costs you more to buy dollars. Apps like Wise or your bank's 환율 우대 (rate discount) come up a lot.",
-    "mistakes": ["Confusing 환율 (exchange rate) with 환전 (the act of exchanging cash) — you 환전하다 at a rate, the rate itself is 환율.", "Assuming 환율이 올랐다 is always good; for sending money home a higher won-per-dollar rate means you pay more."]
+    "nuance": "환율 is Sino-Korean 換率, literally 'exchange-rate' (換 swap + 率 ratio) — the price of one currency in terms of another, central to anyone who remits money or shops abroad. The crucial near-synonym to separate is 환전 換錢, 'exchanging the actual cash': 환율 is the rate, 환전 is the act of swapping money at that rate, so you 환전하다 at a given 환율. Register is neutral. Two pitfalls bite English speakers: first, 환율이 좋다 means favorable-for-you, not numerically high; second, English makes 'the rate went up' sound positive, but 환율이 올랐다 means the foreign currency got more expensive in won, so sending money home actually costs you more. Watch for 환율 우대 (rate discount) on bank and Wise/Toss apps.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The price of one currency in terms of another, central to anyone who remits money or shops abroad. Register is neutral. Watch for 환율 우대 (rate discount) on bank and Wise/Toss apps."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The crucial near-synonym to separate is 환전 換錢, 'exchanging the actual cash': 환율 is the rate, 환전 is the act of swapping money at that rate, so you 환전하다 at a given 환율."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 換率, literally 'exchange-rate' (換 swap + 率 ratio)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Two pitfalls bite English speakers: first, 환율이 좋다 means favorable-for-you, not numerically high; second, English makes 'the rate went up' sound positive, but 환율이 올랐다 means the foreign currency got more expensive in won, so sending money home actually costs you more."
+      }
+    ],
+    "mistakes": [
+      "Confusing 환율 (the exchange rate) with 환전 (the act of changing cash) — you 환전하다 your money at a 환율; the rate itself is never 환전.",
+      "Assuming 환율이 올랐다 is good news — a higher won-per-dollar rate means dollars cost more, so remittances and overseas shopping get pricier.",
+      "Reading 환율이 좋다 as 'high' — it means favorable to you, which for a buyer of foreign currency is actually a lower rate."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "이자",
     "english": "interest (on money)",
     "topic": "money",
-    "chapterIds": ["chapter-08"],
+    "chapterIds": [
+      "chapter-08"
+    ],
     "grammarIds": [],
     "usage": [
-      ["이자가 붙다", "interest accrues / is added", "붙다 (to stick) is the natural verb — your savings earn 이자가 붙어요"],
-      ["이자를 내다", "to pay interest", "내다 when you owe it, e.g. on a loan (대출 이자)"],
-      ["이자율", "interest rate", "율 = rate; also 금리 in formal/news contexts"],
-      ["이자가 높다", "the interest is high", "높다/낮다 describe how much; high is great for savings, painful for loans"]
+      [
+        "이자가 붙다",
+        "interest accrues / is added",
+        "붙다 (to stick) is the natural verb — your savings earn 이자가 붙어요"
+      ],
+      [
+        "이자를 내다",
+        "to pay interest",
+        "내다 when you owe it, e.g. on a loan: 대출 이자를 내다"
+      ],
+      [
+        "이자율",
+        "interest rate",
+        "율 率 = rate; the more formal/news word is 금리 金利"
+      ],
+      [
+        "이자가 높다",
+        "the interest is high",
+        "높다/낮다 describe the amount — great for savings, painful for loans"
+      ]
     ],
     "examples": [
-      ["이 적금은 이자가 높은 편이에요.", "This installment savings account has relatively high interest.", "적금 = installment savings; -은 편이다 = relatively/on the higher side"],
-      ["대출 이자가 매달 나가서 부담돼요.", "The loan interest goes out every month and it's a burden.", "부담되다 = to feel like a financial burden, very common"],
-      ["요즘 금리가 올라서 이자가 늘었어요.", "Rates went up lately so the interest increased.", "Distinguishes 금리 (the rate) from 이자 (the actual money)"]
+      [
+        "이 적금은 이자가 높은 편이에요.",
+        "This installment savings account has relatively high interest.",
+        "적금 = installment savings; -은 편이다 = on the higher side"
+      ],
+      [
+        "대출 이자가 매달 나가서 부담돼요.",
+        "The loan interest goes out every month and it's a burden.",
+        "부담되다 = to feel like a financial burden; 나가다 = to go out (be paid)"
+      ],
+      [
+        "요즘 금리가 올라서 이자가 늘었어요.",
+        "Rates went up lately so the interest increased.",
+        "Note 금리 (the rate) drives 이자 (the actual money); 늘다 = to increase"
+      ]
     ],
-    "nuance": "이자 is the actual money — what your savings earn or what you owe on a loan. The rate itself is 이자율 or, more formally, 금리. Whether 이자 is good or bad depends entirely on which side you're on: 예금 이자 (deposit interest) is welcome, 대출 이자 (loan interest) hurts.",
-    "mistakes": ["Using 이자 for the rate — the percentage is 이자율/금리; 이자 is the won amount.", "Saying 이자를 받다 about a loan you owe — you 내다 (pay) loan interest; you 받다 (receive) interest only on your own deposits."]
+    "nuance": "이자 is Sino-Korean 利子, literally 'profit-child' — money that 'breeds' from a sum, i.e. the actual won your savings earn or that you owe on a loan. The line to draw is 이자 (the money) versus 이자율 / 금리 (the rate, a percentage): 금리가 3%면 이자가 3만 원 — the rate produces the interest. Register is everyday. Whether 이자 is welcome depends entirely on your side of the table: 예금 이자 (deposit interest) is income you 받다, while 대출 이자 (loan interest) is a cost you 내다. The English-speaker pitfall is double: don't use 이자 for the percentage (that's 이자율/금리), and don't say 이자를 받다 about a loan you owe — you only 받다 interest on your own deposits; on a loan you 내다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Money that 'breeds' from a sum, i.e. the actual won your savings earn or that you owe on a loan. Register is everyday. Whether 이자 is welcome depends entirely on your side of the table: 예금 이자 (deposit interest) is income you 받다, while 대출 이자 (loan interest) is a cost you 내다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The line to draw is 이자 (the money) versus 이자율 / 금리 (the rate, a percentage): 금리가 3%면 이자가 3만 원 — the rate produces the interest."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 利子, literally 'profit-child'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is double: don't use 이자 for the percentage (that's 이자율/금리), and don't say 이자를 받다 about a loan you owe — you only 받다 interest on your own deposits; on a loan you 내다."
+      }
+    ],
+    "mistakes": [
+      "Using 이자 for the percentage rate — the rate is 이자율 or 금리; 이자 is the actual won amount that results from it.",
+      "Saying 이자를 받다 about a loan you took out — you 내다 (pay) loan interest; you 받다 (receive) interest only on your own savings.",
+      "Treating 이자 and 금리 as fully interchangeable — 금리 is the abstract rate (used in news/policy), 이자 is the concrete money on your account."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "원금",
     "english": "principal (original amount)",
     "topic": "money",
-    "chapterIds": ["chapter-08"],
+    "chapterIds": [
+      "chapter-08"
+    ],
     "grammarIds": [],
     "usage": [
-      ["원금을 갚다", "to repay the principal", "갚다 = to pay back a debt; loan repayment is 원금 + 이자"],
-      ["원금 보장", "principal guaranteed", "보장 = guarantee; a key phrase when choosing safe vs. risky products"],
-      ["원금 손실", "loss of principal", "손실 = loss; the risk warning on funds and stocks"],
-      ["원금과 이자", "principal and interest", "The two parts of any loan or deposit payout"]
+      [
+        "원금을 갚다",
+        "to repay the principal",
+        "갚다 = to pay back a debt; loan repayment is 원금 + 이자"
+      ],
+      [
+        "원금 보장",
+        "principal guaranteed",
+        "보장 保障 = guarantee; the key phrase separating safe from risky products"
+      ],
+      [
+        "원금 손실",
+        "loss of principal",
+        "손실 損失 = loss; the risk warning on funds and stocks"
+      ],
+      [
+        "원금과 이자",
+        "principal and interest",
+        "The two parts of any loan or deposit payout"
+      ]
     ],
     "examples": [
-      ["이 상품은 원금이 보장돼요.", "This product guarantees your principal.", "보장되다 = to be guaranteed; reassuring for cautious savers"],
-      ["주식은 원금 손실 위험이 있어요.", "Stocks carry the risk of losing your principal.", "위험 = risk; standard disclaimer young investors hear"],
-      ["매달 원금이랑 이자를 같이 갚고 있어요.", "I'm paying back the principal and interest together every month.", "원금이랑 이자 = principal and interest, casual -이랑 connector"]
+      [
+        "이 상품은 원금이 보장돼요.",
+        "This product guarantees your principal.",
+        "보장되다 = to be guaranteed; reassuring for cautious savers"
+      ],
+      [
+        "주식은 원금 손실 위험이 있어요.",
+        "Stocks carry the risk of losing your principal.",
+        "위험이 있다 = there is a risk; standard disclaimer for new investors"
+      ],
+      [
+        "매달 원금이랑 이자를 같이 갚고 있어요.",
+        "I'm repaying the principal and interest together every month.",
+        "-이랑 = casual 'and'; 같이 = together"
+      ]
     ],
-    "nuance": "원금 is the original sum you put in or borrowed, separate from the 이자 (interest) on top. 원금 보장 (principal protected) vs. 원금 손실 가능 (principal may be lost) is the single most important distinction when a bank or app offers you an investment. Watch for it whenever 펀드 or 주식 are involved.",
-    "mistakes": ["Confusing 원금 (principal) with 현금 (cash) — they sound a bit alike but are unrelated.", "Thinking 원금 보장 means profit is guaranteed; it only means you won't lose your initial amount, not that you'll gain."]
+    "nuance": "원금 is Sino-Korean 元金, literally 'origin-money' — the original sum you deposited or borrowed, kept separate from the 이자 (interest) layered on top. The pairing 원금 vs 이자 is the backbone of every loan and savings calculation. Beware the look-alike 현금 現金 (cash on hand): they share 金 but 원금 is a principal balance, not physical money. Register is neutral, common in bank apps and contracts. The most damaging English-speaker misreading is 원금 보장 (principal protected): it guarantees only that you won't lose your initial amount — it does NOT promise any profit. So a 펀드 that is not 원금 보장 can drop below what you put in (원금 손실), which is precisely the warning attached to 주식 and 펀드.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The original sum you deposited or borrowed, kept separate from the 이자 (interest) layered on top. The pairing 원금 vs 이자 is the backbone of every loan and savings calculation. Register is neutral, common in bank apps and contracts."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Beware the look-alike 현금 現金 (cash on hand): they share 金 but 원금 is a principal balance, not physical money."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 元金, literally 'origin-money'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The most damaging misreading is 원금 보장 (principal protected): it guarantees only that you won't lose your initial amount — it does NOT promise any profit. So a 펀드 that is not 원금 보장 can drop below what you put in (원금 손실), which is precisely the warning attached to 주식 and 펀드."
+      }
+    ],
+    "mistakes": [
+      "Confusing 원금 (the principal balance) with 현금 (physical cash) — they share the character 金 but mean different things.",
+      "Reading 원금 보장 as 'profit guaranteed' — it only means you won't lose your initial amount; gains are never guaranteed by that phrase.",
+      "Saying 원금을 내다 for repaying a loan — you 갚다 (pay back) the principal of a debt; 내다 fits taxes and fees, not loan principal."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "펀드",
     "english": "investment fund",
     "topic": "money",
-    "chapterIds": ["chapter-08"],
+    "chapterIds": [
+      "chapter-08"
+    ],
     "grammarIds": [],
     "usage": [
-      ["펀드에 가입하다", "to sign up for a fund", "가입하다 — the verb for buying into a fund at a bank/app"],
-      ["펀드에 투자하다", "to invest in a fund", "투자하다 = to invest; the general action"],
-      ["펀드 수익률", "fund return rate", "수익률 = rate of return; what you check to see if you're up or down"],
-      ["적립식 펀드", "regular-installment fund", "적립식 = paying in a fixed amount each month, popular for beginners"]
+      [
+        "펀드에 가입하다",
+        "to sign up for a fund",
+        "가입하다 + 에 — the verb for buying into a fund at a bank/app"
+      ],
+      [
+        "펀드에 투자하다",
+        "to invest in a fund",
+        "투자하다 投資 = to invest; the general action, also takes 에"
+      ],
+      [
+        "펀드 수익률",
+        "fund return rate",
+        "수익률 收益率 = rate of return; what you check to see if you're up or down"
+      ],
+      [
+        "적립식 펀드",
+        "regular-installment fund",
+        "적립식 積立式 = paying a fixed amount monthly, popular for beginners"
+      ]
     ],
     "examples": [
-      ["은행에서 펀드를 추천받았는데 좀 고민돼요.", "The bank recommended a fund but I'm a bit torn.", "추천받다 = to get recommended; 고민되다 = to feel torn/unsure"],
-      ["저는 매달 조금씩 펀드에 넣고 있어요.", "I put a little into a fund each month.", "넣다 (to put in) is the everyday verb for contributing money"],
-      ["펀드는 원금을 잃을 수도 있어요.", "With a fund you could lose your principal.", "Important risk reminder linking back to 원금"]
+      [
+        "은행에서 펀드를 추천받았는데 좀 고민돼요.",
+        "The bank recommended a fund but I'm a bit torn.",
+        "추천받다 = to get recommended; -는데 sets up the hesitation that follows"
+      ],
+      [
+        "저는 매달 조금씩 펀드에 넣고 있어요.",
+        "I put a little into a fund each month.",
+        "넣다 (to put in) + 에 is the everyday verb for contributing money"
+      ],
+      [
+        "펀드는 원금을 잃을 수도 있어요.",
+        "With a fund you could lose your principal.",
+        "-(으)ㄹ 수도 있다 = it's possible that; links back to 원금"
+      ]
     ],
-    "nuance": "펀드 is a pooled investment product (mutual fund) you usually buy through a bank app or securities account. Unlike a 예금/적금, a 펀드 has no guaranteed return and your 원금 is at risk. Many 20-30s start with an 적립식 펀드 or jump to 주식/ETF on apps like 토스증권 or 키움.",
-    "mistakes": ["Spelling it 펀트 — it is 펀드, from English 'fund'.", "Assuming a 펀드 works like a savings account; it is not 원금 보장, so returns can be negative."]
+    "nuance": "펀드 is a loanword from English 'fund' (write 펀드, never 펀트), meaning a pooled investment product — a mutual fund you buy through a bank app or securities account. The defining contrast is with 예금/적금 (bank deposit/installment savings): those are 원금 보장 with fixed 이자, whereas a 펀드 has no guaranteed return and your 원금 is genuinely at risk. Note also 펀드 vs 주식 株式 (individual stocks): a 펀드 is a managed basket, 주식 is buying one company directly. Register is neutral, very common among 20–30s who start with an 적립식 펀드 before moving to 주식/ETF on apps like 토스증권 or 키움. The English-speaker pitfall is assuming a 펀드 behaves like a savings account — it does not; returns can be negative, so you 잃다 (lose), not just earn.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "A pooled investment product — a mutual fund you buy through a bank app or securities account. Register is neutral, very common among 20–30s who start with an 적립식 펀드 before moving to 주식/ETF on apps like 토스증권 or 키움."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The defining contrast is with 예금/적금 (bank deposit/installment savings): those are 원금 보장 with fixed 이자, whereas a 펀드 has no guaranteed return and your 원금 is genuinely at risk. Note also 펀드 vs 주식 株式 (individual stocks): a 펀드 is a managed basket, 주식 is buying one company directly."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "A loanword from English 'fund' — write 펀드, never 펀트."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is assuming a 펀드 behaves like a savings account — it does not; returns can be negative, so you 잃다 (lose), not just earn."
+      }
+    ],
+    "mistakes": [
+      "Spelling it 펀트 — the loanword is 펀드, from English 'fund' with a final ㄷ.",
+      "Assuming a 펀드 works like a savings account — it is not 원금 보장, so the value can drop below what you paid in.",
+      "Treating 펀드 and 주식 as the same — 펀드 is a managed pool of many assets, 주식 is buying shares of one company yourself."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "가계부",
     "english": "household account book / budget tracker",
     "topic": "money",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["가계부를 쓰다", "to keep a household budget", "쓰다 (to write) is the set verb — 가계부 쓰다 = to track spending"],
-      ["가계부 앱", "budgeting app", "Most people now use a 가계부 앱 like 뱅크샐러드 instead of paper"],
-      ["가계부를 정리하다", "to tidy up / review the budget", "정리하다 = to organize, e.g. at month's end"],
-      ["가계부에 적다", "to write down in the budget", "적다 = to jot down each expense"]
+      [
+        "가계부를 쓰다",
+        "to keep a household budget",
+        "쓰다 (to write) is the set verb — 가계부 쓰다 = to track spending, not 만들다"
+      ],
+      [
+        "가계부 앱",
+        "budgeting app",
+        "Most people now use a 가계부 앱 like 뱅크샐러드 instead of paper"
+      ],
+      [
+        "가계부를 정리하다",
+        "to tidy up / review the budget",
+        "정리하다 整理 = to organize, e.g. at month's end"
+      ],
+      [
+        "가계부에 적다",
+        "to write down in the budget",
+        "적다 = to jot down each expense; takes 에 for the place written into"
+      ]
     ],
     "examples": [
-      ["이번 달부터 가계부를 쓰기 시작했어요.", "I started keeping a budget this month.", "Common New-Year/new-month resolution"],
-      ["가계부를 보니까 배달 음식에 돈을 너무 많이 썼어요.", "Looking at my budget, I spent way too much on delivery food.", "Very relatable for young Koreans; 배달 음식 = delivery food"],
-      ["저는 가계부 앱으로 카드 내역을 자동으로 관리해요.", "I manage my card history automatically with a budgeting app.", "내역 = transaction history; apps auto-import it"]
+      [
+        "이번 달부터 가계부를 쓰기 시작했어요.",
+        "I started keeping a budget this month.",
+        "-부터 = starting from; -기 시작하다 = to begin doing"
+      ],
+      [
+        "가계부를 보니까 배달 음식에 돈을 너무 많이 썼어요.",
+        "Looking at my budget, I spent way too much on delivery food.",
+        "-(으)니까 here = upon doing and discovering; 배달 음식 = delivery food"
+      ],
+      [
+        "저는 가계부 앱으로 카드 내역을 자동으로 관리해요.",
+        "I manage my card history automatically with a budgeting app.",
+        "-(으)로 = by means of; 내역 = transaction history"
+      ]
     ],
-    "nuance": "가계부 literally means household-account book, but today it almost always refers to a budgeting app that auto-syncs your cards and accounts. Writing one (가계부 쓰다) is a classic money-saving habit, especially when people realize how much goes to 배달 and 카페. It pairs naturally with 지출 and 절약.",
-    "mistakes": ["Saying 가계부를 만들다 for daily tracking — the habitual verb is 가계부를 쓰다.", "Confusing 가계부 (your personal budget) with 영수증 (receipt) or 명세서 (statement) — those are inputs to the 가계부."]
+    "nuance": "가계부 is Sino-Korean 家計簿, literally 'household-finance ledger' (家 home + 計 reckoning + 簿 register), but today it almost always means a budgeting app that auto-syncs your cards and accounts. The fixed collocation is 가계부를 쓰다 (write/keep), so 가계부를 만들다 sounds off for daily tracking — that would imply building the ledger itself. Don't confuse the 가계부 (your running budget) with its inputs: a 영수증 領收證 is one receipt and a 명세서 明細書 is a statement, both of which feed into the 가계부. Register is casual and warm; keeping one is a classic money-saving habit, especially when people see how much goes to 배달 and 카페. It pairs naturally with 지출 and 절약.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Today it almost always means a budgeting app that auto-syncs your cards and accounts. Register is casual and warm; keeping one is a classic money-saving habit, especially when people see how much goes to 배달 and 카페. It pairs naturally with 지출 and 절약. The fixed collocation is 가계부를 쓰다 (write/keep), so 가계부를 만들다 sounds off for daily tracking — that would imply building the ledger itself."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Don't confuse the 가계부 (your running budget) with its inputs: a 영수증 領收證 is one receipt and a 명세서 明細書 is a statement, both of which feed into the 가계부."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 家計簿, literally 'household-finance ledger' (家 home + 計 reckoning + 簿 register)."
+      }
+    ],
+    "mistakes": [
+      "Saying 가계부를 만들다 for daily expense tracking — the habitual verb is 가계부를 쓰다; 만들다 suggests creating the ledger, not using it.",
+      "Confusing 가계부 (your personal budget record) with 영수증 (a single receipt) or 명세서 (a statement) — those are inputs, not the budget itself.",
+      "Dropping the 에 in 가계부 적다 — you write 가계부에 적다 (jot down into the budget); the place you record into needs 에."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "비상금",
     "english": "emergency fund / rainy-day money",
     "topic": "money",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["비상금을 모으다", "to build up an emergency fund", "모으다 = to gather/save up over time"],
-      ["비상금을 쓰다", "to dip into the emergency fund", "쓰다 when an emergency finally forces you to use it"],
-      ["비상금을 숨기다", "to hide some stash money", "숨기다 = to hide; jokingly, money hidden from a partner"],
-      ["비상금 통장", "emergency-fund account", "A separate 통장 (account) people keep just for emergencies"]
+      [
+        "비상금을 모으다",
+        "to build up an emergency fund",
+        "모으다 = to gather/save up over time, bit by bit"
+      ],
+      [
+        "비상금을 쓰다",
+        "to dip into the emergency fund",
+        "쓰다 when an emergency finally forces you to use it"
+      ],
+      [
+        "비상금을 숨기다",
+        "to hide some stash money",
+        "숨기다 = to hide; jokingly, money kept secret from a partner"
+      ],
+      [
+        "비상금 통장",
+        "emergency-fund account",
+        "통장 通帳 = bankbook/account; a separate one kept just for emergencies"
+      ]
     ],
     "examples": [
-      ["갑자기 병원비가 나와서 비상금을 썼어요.", "I had a sudden hospital bill so I used my emergency fund.", "병원비 = medical costs; classic emergency-fund use"],
-      ["매달 조금씩 비상금을 모으고 있어요.", "I'm saving up a little emergency money each month.", "조금씩 = little by little, the realistic approach"],
-      ["비상금은 따로 통장에 넣어 두세요.", "Keep your emergency fund in a separate account.", "따로 = separately; -어 두다 = do in advance and keep that way"]
+      [
+        "갑자기 병원비가 나와서 비상금을 썼어요.",
+        "I had a sudden hospital bill so I used my emergency fund.",
+        "병원비 = medical costs; 나오다 here = (a bill) comes up"
+      ],
+      [
+        "매달 조금씩 비상금을 모으고 있어요.",
+        "I'm saving up a little emergency money each month.",
+        "조금씩 = little by little; -고 있다 = ongoing habit"
+      ],
+      [
+        "비상금은 따로 통장에 넣어 두세요.",
+        "Keep your emergency fund in a separate account.",
+        "따로 = separately; -어 두다 = do in advance and leave it that way"
+      ]
     ],
-    "nuance": "비상금 is money set aside for emergencies — sudden medical bills, job loss, a broken phone. It carries a slightly playful second meaning too: secret stash money hidden from a spouse or partner, which shows up in dramas and memes. Financial-advice content for 20-30s constantly recommends building a 비상금 first.",
-    "mistakes": ["Confusing 비상금 (emergency savings) with 용돈 (allowance/pocket money) — 용돈 is for everyday spending, 비상금 is untouched until an emergency.", "Treating 비상금 as investment money; the point is that it stays safe and instantly accessible, not that it grows."]
+    "nuance": "비상금 is Sino-Korean 非常金, literally 'non-ordinary money' (非常 emergency + 金 money) — cash set aside for the unexpected: a sudden 병원비, job loss, a broken phone. It carries a fun second life too: secret stash money hidden from a spouse, a staple gag in dramas and memes. The contrast to nail is 비상금 vs 용돈 (allowance / spending money): 용돈 is for everyday spending and is meant to be used up, while 비상금 stays untouched until a real emergency. Register is casual. The English-speaker pitfall is treating 비상금 like investment money — the whole point is that it stays safe and instantly accessible (in a 통장, not a 펀드), so it should NOT be exposed to 원금 손실. Finance content for 20–30s always says build a 비상금 first.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Cash set aside for the unexpected: a sudden 병원비, job loss, a broken phone. It carries a fun second life too: secret stash money hidden from a spouse, a staple gag in dramas and memes. Register is casual. Finance content for 20–30s always says build a 비상금 first."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to nail is 비상금 vs 용돈 (allowance / spending money): 용돈 is for everyday spending and is meant to be used up, while 비상금 stays untouched until a real emergency."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 非常金, literally 'non-ordinary money' (非常 emergency + 金 money)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is treating 비상금 like investment money — the whole point is that it stays safe and instantly accessible (in a 통장, not a 펀드), so it should NOT be exposed to 원금 손실."
+      }
+    ],
+    "mistakes": [
+      "Confusing 비상금 (untouched emergency savings) with 용돈 (allowance for everyday spending) — 용돈 is meant to be spent, 비상금 is reserved for emergencies.",
+      "Treating 비상금 as investment money — its purpose is safety and instant access, so it belongs in a 통장, not a risky 펀드.",
+      "Saying 비상금을 내다 — you 모으다 (save up) or 쓰다 (use) emergency money; 내다 is for paying taxes and fees."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "소득",
     "english": "income / earnings",
     "topic": "money",
-    "chapterIds": ["chapter-08"],
+    "chapterIds": [
+      "chapter-08"
+    ],
     "grammarIds": [],
     "usage": [
-      ["소득이 늘다", "income increases", "늘다/줄다 for income going up or down"],
-      ["소득세", "income tax", "세 = tax; the tax levied on your 소득"],
-      ["소득 증명", "proof of income", "증명 = proof; 소득 증명서 is needed for visas, loans, leases"],
-      ["고정 소득", "fixed/steady income", "고정 = fixed; a regular salary vs. irregular freelance income"]
+      [
+        "소득이 늘다",
+        "income increases",
+        "늘다/줄다 for income going up or down; not 오르다 for income itself"
+      ],
+      [
+        "소득세",
+        "income tax",
+        "세 稅 = tax; the tax levied specifically on your 소득"
+      ],
+      [
+        "소득 증명",
+        "proof of income",
+        "증명 證明 = proof; 소득 증명서 is needed for visas, loans, leases"
+      ],
+      [
+        "고정 소득",
+        "fixed/steady income",
+        "고정 固定 = fixed; a regular salary vs. irregular freelance income"
+      ]
     ],
     "examples": [
-      ["대출을 받으려면 소득 증명이 필요해요.", "You need proof of income to take out a loan.", "Very practical; also required for some visa renewals"],
-      ["부업으로 소득을 조금 늘렸어요.", "I increased my income a bit with a side job.", "부업 = side job; the side-hustle trend is big among 20-30s"],
-      ["소득이 일정하지 않아서 저축이 어려워요.", "My income isn't steady so saving is hard.", "일정하다 = to be regular/consistent; the freelancer's struggle"]
+      [
+        "대출을 받으려면 소득 증명이 필요해요.",
+        "You need proof of income to take out a loan.",
+        "-(으)려면 = if you want to; also required for some visa renewals"
+      ],
+      [
+        "부업으로 소득을 조금 늘렸어요.",
+        "I increased my income a bit with a side job.",
+        "부업 = side job; -(으)로 = by means of; the side-hustle trend is big"
+      ],
+      [
+        "소득이 일정하지 않아서 저축이 어려워요.",
+        "My income isn't steady so saving is hard.",
+        "일정하다 = to be regular/consistent; -지 않다 = negation"
+      ]
     ],
-    "nuance": "소득 is the formal word for income or earnings, used in official contexts — taxes (소득세), loan and visa paperwork (소득 증명), and statistics. In casual chat about your paycheck people often just say 월급, but the moment documents or taxes are involved it becomes 소득. It's the natural counterpart to 지출.",
-    "mistakes": ["Using 소득 only for salary — it covers all earnings including freelance, rental, and investment income.", "Confusing 소득 (income you earn) with 수익 (profit/return from an investment); they overlap but 수익 implies a gain on something invested."]
+    "nuance": "소득 is Sino-Korean 所得, literally 'that which is obtained' (所 that-which + 得 gain) — the formal word for income or earnings used in official contexts: taxes (소득세), loan and visa paperwork (소득 증명), statistics. It covers ALL earnings, not just salary — freelance, rental and investment income are equally 소득. The near-synonyms to separate are 월급 月給 (your monthly paycheck, what people say in casual chat) and 수익 收益 (profit/return on something invested): 소득 is your total earned income, while 수익 implies a gain produced by an investment. Register is formal/documentary; in everyday talk people just say 월급, switching to 소득 the moment documents or taxes appear. It is the natural counterpart to 지출.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The formal word for income or earnings used in official contexts: taxes (소득세), loan and visa paperwork (소득 증명), statistics. It covers ALL earnings, not just salary — freelance, rental and investment income are equally 소득. Register is formal/documentary; in everyday talk people just say 월급, switching to 소득 the moment documents or taxes appear. It is the natural counterpart to 지출."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The near-synonyms to separate are 월급 月給 (your monthly paycheck, what people say in casual chat) and 수익 收益 (profit/return on something invested): 소득 is your total earned income, while 수익 implies a gain produced by an investment."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 所得, literally 'that which is obtained' (所 that-which + 得 gain)."
+      }
+    ],
+    "mistakes": [
+      "Using 소득 only for salary — it covers all earnings, including freelance, rental and investment income, not just your paycheck.",
+      "Confusing 소득 (income you earn) with 수익 (profit/return from an investment) — they overlap, but 수익 implies a gain on something you put money into.",
+      "Saying 소득이 올랐다 — income goes 늘다 (increases) or 줄다 (decreases); 오르다 fits prices (물가) and rates, not income."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "지출",
     "english": "spending / expenditure",
     "topic": "money",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["지출을 줄이다", "to cut spending", "줄이다 = to reduce; the core money-saving move"],
-      ["고정 지출", "fixed expenses", "고정 = fixed; rent, 관리비, subscriptions that recur each month"],
-      ["지출이 많다", "spending is high", "많다/적다 to describe how much you spend"],
-      ["지출 내역", "spending history / breakdown", "내역 = itemized record, what a 가계부 app shows you"]
+      [
+        "지출을 줄이다",
+        "to cut spending",
+        "줄이다 = to reduce; the core money-saving move"
+      ],
+      [
+        "고정 지출",
+        "fixed expenses",
+        "고정 固定 = fixed; rent, 관리비, subscriptions that recur each month"
+      ],
+      [
+        "지출이 많다",
+        "spending is high",
+        "많다/적다 to describe how much you spend, not 비싸다"
+      ],
+      [
+        "지출 내역",
+        "spending history / breakdown",
+        "내역 內譯 = itemized record, what a 가계부 app shows you"
+      ]
     ],
     "examples": [
-      ["이번 달은 지출이 너무 많았어요.", "I spent way too much this month.", "Typical end-of-month reflection"],
-      ["고정 지출부터 줄여 보세요.", "Try cutting your fixed expenses first.", "Standard budgeting advice; -어 보다 = give it a try"],
-      ["수입과 지출을 비교해 봤어요.", "I compared my income and spending.", "수입과 지출 (income and spending) is a very common pairing"]
+      [
+        "이번 달은 지출이 너무 많았어요.",
+        "I spent way too much this month.",
+        "이번 달 = this month; 많다 describes the amount of spending"
+      ],
+      [
+        "고정 지출부터 줄여 보세요.",
+        "Try cutting your fixed expenses first.",
+        "-부터 = starting from; -어 보다 = give it a try"
+      ],
+      [
+        "수입과 지출을 비교해 봤어요.",
+        "I compared my income and spending.",
+        "수입과 지출 (income and spending) is the very common fixed pairing"
+      ]
     ],
-    "nuance": "지출 means money going out — your spending or expenses — and is the natural opposite of 소득/수입. Budgeting talk constantly contrasts 수입 vs 지출, and the first advice is always 고정 지출 (fixed costs) 줄이기. It feels a touch more formal than just 돈 쓰다 but is completely normal in everyday money conversations.",
-    "mistakes": ["Confusing 지출 (money going out) with 지급 (a payment being made/disbursed) — they look similar but 지급 is about issuing payment, often from an institution.", "Pairing it as 소득과 지출 only; the very common everyday pairing is 수입과 지출."]
+    "nuance": "지출 is Sino-Korean 支出, literally 'pay-out' (支 disburse + 出 go-out) — money flowing out, your spending or expenses, and the natural opposite of 소득/수입. Budgeting talk constantly contrasts 수입 vs 지출, and the first advice is always 고정 지출 (fixed costs) 줄이기. Two distinctions matter: the everyday pairing is 수입과 지출 (not 소득과 지출, which sounds technical), and 지출 (money you spend) must not be confused with the look-alike 지급 支給 (a payment being issued/disbursed, usually by an institution to someone). Register is mildly formal but completely normal in money conversations; it feels a notch more precise than just 돈을 쓰다. The English-speaker pitfall is describing it with 비싸다 — spending is 많다/적다 (high/low in amount), never 비싸다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Money flowing out, your spending or expenses, and the natural opposite of 소득/수입. Budgeting talk constantly contrasts 수입 vs 지출, and the first advice is always 고정 지출 (fixed costs) 줄이기. Register is mildly formal but completely normal in money conversations; it feels a notch more precise than just 돈을 쓰다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two distinctions matter: the everyday pairing is 수입과 지출 (not 소득과 지출, which sounds technical), and 지출 (money you spend) must not be confused with the look-alike 지급 支給 (a payment being issued/disbursed, usually by an institution to someone)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 支出, literally 'pay-out' (支 disburse + 出 go-out)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is describing it with 비싸다 — spending is 많다/적다 (high/low in amount), never 비싸다."
+      }
+    ],
+    "mistakes": [
+      "Confusing 지출 (money you spend, going out) with 지급 (a payment being issued, often by an institution) — they look alike but flow in opposite directions.",
+      "Pairing it as 소득과 지출 in casual speech — the natural everyday pairing is 수입과 지출; 소득 is the documentary/tax word.",
+      "Saying 지출이 비싸다 — spending is described with 많다/적다 (a lot/a little); 비싸다 applies to prices of items, not to expenditure."
+    ]
   },
   {
     "kind": "noun",
     "hangul": "절약",
     "english": "saving / thrift / economizing",
     "topic": "money",
-    "chapterIds": ["chapter-06"],
+    "chapterIds": [
+      "chapter-06"
+    ],
     "grammarIds": [],
     "usage": [
-      ["절약하다", "to save / economize", "Add 하다 to make it a verb; 전기를 절약하다 = save electricity"],
-      ["에너지 절약", "energy saving", "Also seen on appliances and public-campaign signs"],
-      ["절약 정신", "a thrifty mindset", "정신 = spirit/mindset; praising someone's frugal habits"],
-      ["시간 절약", "saving time", "절약 isn't only money — 시간 절약 = time-saving"]
+      [
+        "절약하다",
+        "to save / economize",
+        "Add 하다 to make it a verb; 전기를 절약하다 = save electricity"
+      ],
+      [
+        "에너지 절약",
+        "energy saving",
+        "Seen on appliances and public-campaign signs; 절약 isn't only about money"
+      ],
+      [
+        "절약 정신",
+        "a thrifty mindset",
+        "정신 精神 = spirit/mindset; praising someone's frugal habits"
+      ],
+      [
+        "시간 절약",
+        "saving time",
+        "절약 covers time too — 시간 절약 = time-saving"
+      ]
     ],
     "examples": [
-      ["요즘 돈을 아끼려고 외식을 줄이고 절약하고 있어요.", "Lately I'm cutting eating out and economizing to save money.", "아끼다 = to use sparingly; pairs naturally with 절약"],
-      ["전기를 절약하면 관리비가 줄어요.", "If you save electricity, your maintenance fee goes down.", "관리비 = building maintenance fee, a real monthly cost"],
-      ["대중교통을 이용하면 교통비를 절약할 수 있어요.", "Using public transport lets you save on transport costs.", "교통비 = transport expenses; classic 절약 example"]
+      [
+        "요즘 돈을 아끼려고 외식을 줄이고 절약하고 있어요.",
+        "Lately I'm cutting eating out and economizing to save money.",
+        "아끼다 = to use sparingly; -(으)려고 = in order to"
+      ],
+      [
+        "전기를 절약하면 관리비가 줄어요.",
+        "If you save electricity, your maintenance fee goes down.",
+        "-(으)면 = if; 관리비 = building maintenance fee"
+      ],
+      [
+        "대중교통을 이용하면 교통비를 절약할 수 있어요.",
+        "Using public transport lets you save on transport costs.",
+        "교통비 = transport expenses; -(으)ㄹ 수 있다 = to be able to"
+      ]
     ],
-    "nuance": "절약 is the noun for thrift or economizing, turned into a verb with 하다 (절약하다). It applies to money, energy, and time alike, and carries a positive, virtuous tone — being good at 절약 is a compliment. It often appears alongside 아끼다 (to use sparingly) and is the goal behind keeping a 가계부.",
-    "mistakes": ["Confusing 절약 (deliberate, sensible saving) with 저축 (putting money into savings) — 절약 is spending less, 저축 is stashing money away.", "Using 절약 to mean stingy in a negative way; that's 인색하다 or 짠돌이 — 절약 itself is positive."]
+    "nuance": "절약 is Sino-Korean 節約, literally 'to moderate and bind' (節 temperance + 約 restrain) — deliberate, sensible economizing, turned into a verb with 하다 (절약하다). It applies to money, energy and time alike and carries a positive, virtuous tone: being good at 절약 is a compliment. Two contrasts clarify it. First, 절약 vs 저축 貯蓄: 절약 is spending less in the first place, while 저축 is putting money aside into savings — you 절약해서 저축한다. Second, 절약 vs 인색 吝嗇 (stinginess): 절약 is admirable thrift, but 인색하다 or 짠돌이 is the negative 'cheapskate' sense. Register is positive and everyday; it pairs with 아끼다 (use sparingly) and is the goal behind keeping a 가계부. The English-speaker pitfall is using 절약 to mean 'stingy' — that crosses into 인색, a different, unflattering word.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Deliberate, sensible economizing, turned into a verb with 하다 (절약하다). It applies to money, energy and time alike and carries a positive, virtuous tone: being good at 절약 is a compliment. Register is positive and everyday; it pairs with 아끼다 (use sparingly) and is the goal behind keeping a 가계부."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two contrasts clarify it. First, 절약 vs 저축 貯蓄: 절약 is spending less in the first place, while 저축 is putting money aside into savings — you 절약해서 저축한다. Second, 절약 vs 인색 吝嗇 (stinginess): 절약 is admirable thrift, but 인색하다 or 짠돌이 is the negative 'cheapskate' sense."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 節約, literally 'to moderate and bind' (節 temperance + 約 restrain)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The pitfall is using 절약 to mean 'stingy' — that crosses into 인색, a different, unflattering word."
+      }
+    ],
+    "mistakes": [
+      "Confusing 절약 (spending less, economizing) with 저축 (putting money into savings) — they work together but 절약 cuts outflow while 저축 builds a stash.",
+      "Using 절약 to call someone stingy — 절약 is praise for sensible thrift; the negative 'cheapskate' meaning is 인색하다 or 짠돌이.",
+      "Saying 절약을 하다 about money you simply didn't have to spend — 절약 implies a deliberate choice to economize, not an accidental non-expense."
+    ]
   }
 ]

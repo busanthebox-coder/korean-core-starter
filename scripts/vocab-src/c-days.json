@@ -10,47 +10,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "월요일",
-        "Monday",
-        "Made of 월 (moon) + 요일 (day of the week)."
-      ],
-      [
         "월요일에",
         "on Monday",
-        "Use the particle 에 for the day something happens."
+        "Time particle 에 marks the day an event happens; this is the form you reach for most."
       ],
       [
         "월요일부터",
         "from Monday",
-        "부터 marks the starting day."
+        "부터 marks the starting point of a stretch of time (vs 까지 for the end)."
       ],
       [
-        "다음 월요일",
+        "다음 주 월요일",
         "next Monday",
-        "Put 다음 (next) in front of the day."
+        "Korean prefers 다음 주 월요일 (next week's Monday); bare 다음 월요일 sounds incomplete."
+      ],
+      [
+        "월요일 아침",
+        "Monday morning",
+        "The day comes first, then the time-of-day word: 월요일 아침, 월요일 저녁."
       ]
     ],
     "examples": [
       [
-        "월요일에 학교에 가요.",
-        "I go to school on Monday.",
-        "Day + 에 marks when."
-      ],
-      [
         "오늘은 월요일이에요.",
         "Today is Monday.",
-        "N + 이에요 says what today is."
+        "이에요 simply states what day it is; 오늘 (today) needs no 에."
       ],
       [
-        "월요일은 너무 바빠요.",
-        "Mondays are so busy.",
-        "은 marks Monday as the topic."
+        "월요일에 학교에 가요.",
+        "I go to school on Monday.",
+        "Both 월요일 (when) and 학교 (where) take 에 — 에 covers time and destination."
+      ],
+      [
+        "월요일부터 다시 바빠질 것 같아요.",
+        "It looks like I'll get busy again from Monday.",
+        "Real-life grumble: 부터 sets the day the busy stretch starts."
       ]
     ],
-    "nuance": "월요일 is the start of the work and school week in Korea, just like in English. The part 요일 means 'day of the week,' so all seven days end with it. When you say what day something happens, attach 에, as in 월요일에.",
+    "nuance": "월요일 is the start of the Korean work and school week, just as in English, and it carries the same slightly heavy 'back to the grind' feeling captured in 월요병 ('Monday sickness,' the Monday blues). It is Sino-Korean: 月 (moon/month) + 曜 (the celestial-body element shared by all weekday names) + 日 (day) — the seven days are literally named after the moon, fire, water, wood, metal, earth, and sun. The single biggest English-speaker pitfall is the preposition: English 'on Monday' makes you want a word, but Korean glues the time particle 에 to the noun (월요일에), and dropping it (월요일 가요) sounds broken. Note also that days are NOT capitalized concepts in Korean and never take a plural — '월요일은' with topic 은 is how you say 'Mondays (as a rule)'.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "월요일 is the start of the Korean work and school week, just as in English, and it carries the same slightly heavy 'back to the grind' feeling captured in 월요병 ('Monday sickness,' the Monday blues). Days are NOT capitalized concepts in Korean and never take a plural — '월요일은' with topic 은 is how you say 'Mondays (as a rule)'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is Sino-Korean: 月 (moon/month) + 曜 (the celestial-body element shared by all weekday names) + 日 (day). The seven days are literally named after the moon, fire, water, wood, metal, earth, and sun."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The single biggest English-speaker pitfall is the preposition: English 'on Monday' makes you want a word, but Korean glues the time particle 에 to the noun (월요일에), and dropping it (월요일 가요) sounds broken."
+      }
+    ],
     "mistakes": [
-      "Saying '월요일 가요' without 에 — for a day, you usually need 월요일에.",
-      "Writing it as two words '월 요일'; it is one word, 월요일."
+      "Saying '월요일 가요' without the particle. A specific day of the week needs the time marker, so it must be 월요일에 가요.",
+      "Writing it as two words '월 요일'. It is one fused noun, 월요일, with no space.",
+      "Saying '다음 월요일' for 'next Monday'. Koreans normally say 다음 주 월요일 (next week's Monday)."
     ]
   },
   {
@@ -64,47 +82,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "화요일",
-        "Tuesday",
-        "화 comes from 화(火), and 요일 means day of the week."
-      ],
-      [
         "화요일에",
         "on Tuesday",
-        "Add 에 to say when."
+        "Attach 에 to state the day something is scheduled."
       ],
       [
         "화요일까지",
-        "until/by Tuesday",
-        "까지 marks the ending day or deadline."
+        "until / by Tuesday",
+        "까지 marks an end point or deadline (the partner of 부터)."
       ],
       [
-        "지난 화요일",
+        "지난주 화요일",
         "last Tuesday",
-        "Put 지난 (last) before the day."
+        "Pair the day with 지난주 to point back into the past week."
+      ],
+      [
+        "매주 화요일",
+        "every Tuesday",
+        "매주 ('every week') + the day expresses a weekly routine."
       ]
     ],
     "examples": [
       [
-        "화요일에 약속이 있어요.",
-        "I have an appointment on Tuesday.",
-        "Day + 에 marks when."
-      ],
-      [
-        "화요일은 한국어 수업이 있어요.",
-        "There is a Korean class on Tuesday.",
-        "은 sets the topic."
-      ],
-      [
         "내일은 화요일이에요.",
         "Tomorrow is Tuesday.",
-        "N + 이에요 states the day."
+        "이에요 states the day; 내일 (tomorrow) takes no 에."
+      ],
+      [
+        "화요일에 약속이 있어요.",
+        "I have plans on Tuesday.",
+        "약속 here means a set appointment with someone, very common with days."
+      ],
+      [
+        "매주 화요일마다 한국어 수업이 있어요.",
+        "I have Korean class every Tuesday.",
+        "마다 ('each') stacks with 매주 화요일 to stress a recurring slot."
       ]
     ],
-    "nuance": "화요일 is the second day of the week, the day after 월요일. The first syllable 화 comes from a Chinese character, but you do not need to know that to use the word. Like the other days, add 에 when you say something happens on Tuesday.",
+    "nuance": "화요일 is the second day of the week, the day after 월요일. The 화 is Sino-Korean 火 'fire' (the same 화 in 화산 'volcano' and 화재 'fire/blaze'), following the East Asian seven-luminaries naming system; you don't need the hanja to use the word, but knowing it helps you keep the order straight. Learners most often confuse 화요일 (Tuesday) with 수요일 (Wednesday) and 토요일 (Saturday) because the syllables 화/수/토 look short and similar — anchor them by their hanja meanings (fire/water/earth). As with every weekday, English speakers tend to omit the particle; 'on Tuesday' must become 화요일에, and 'until Tuesday' is 화요일까지, not a separate preposition word.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "화요일 is the second day of the week, the day after 월요일."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The 화 is Sino-Korean 火 'fire' (the same 화 in 화산 'volcano' and 화재 'fire/blaze'), following the East Asian seven-luminaries naming system. You don't need the hanja to use the word, but knowing it helps you keep the order straight."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Learners most often confuse 화요일 (Tuesday) with 수요일 (Wednesday) and 토요일 (Saturday) because the syllables 화/수/토 look short and similar — anchor them by their hanja meanings (fire/water/earth)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "As with every weekday, English speakers tend to omit the particle; 'on Tuesday' must become 화요일에, and 'until Tuesday' is 화요일까지, not a separate preposition word."
+      }
+    ],
     "mistakes": [
-      "Confusing 화요일 (Tuesday) with 수요일 (Wednesday); 화 comes before 수.",
-      "Dropping 에: say 화요일에 와요, not 화요일 와요."
+      "Confusing 화요일 (Tuesday) with 수요일 (Wednesday). Remember the fixed order: 화 (fire) comes before 수 (water).",
+      "Dropping the particle: it should be 화요일에 와요, not 화요일 와요.",
+      "Saying '화요일에까지'. Stack only one particle — for a deadline it is just 화요일까지."
     ]
   },
   {
@@ -118,47 +159,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "수요일",
-        "Wednesday",
-        "수 + 요일; the middle day of the work week."
-      ],
-      [
         "수요일에",
         "on Wednesday",
-        "에 marks the day of the event."
+        "에 marks the day of the event — the default form."
       ],
       [
         "수요일 오후",
         "Wednesday afternoon",
-        "Put the day before 오후 (afternoon)."
+        "Day first, then 오후 (afternoon); good for pinning down a meeting time."
       ],
       [
-        "이번 수요일",
-        "this Wednesday",
-        "이번 (this) + the day."
+        "이번 주 수요일",
+        "this (coming) Wednesday",
+        "이번 주 + the day specifies which Wednesday you mean."
+      ],
+      [
+        "수요일쯤",
+        "around Wednesday",
+        "쯤 ('about') softens it to an approximate day."
       ]
     ],
     "examples": [
       [
-        "수요일에 시간 있어요?",
-        "Do you have time on Wednesday?",
-        "Day + 에 asks about when."
-      ],
-      [
-        "수요일은 좀 한가해요.",
-        "Wednesday is a bit free.",
-        "은 marks the topic."
-      ],
-      [
         "오늘이 수요일이에요?",
         "Is today Wednesday?",
-        "이에요? makes it a question."
+        "이에요? turns it into a question; subject 이 (오늘이) checks the fact."
+      ],
+      [
+        "수요일에 시간 있어요?",
+        "Do you have time on Wednesday?",
+        "A natural way to propose meeting; 시간 있어요? = 'are you free?'"
+      ],
+      [
+        "수요일쯤에 다시 연락할게요.",
+        "I'll get in touch again around Wednesday.",
+        "쯤 + 에 keeps the day vague; 연락할게요 promises future action."
       ]
     ],
-    "nuance": "수요일 sits in the middle of the work week, between 화요일 and 목요일. Many people feel it is the halfway point of a busy week. As with every day of the week, use 에 to mark the time when something happens.",
+    "nuance": "수요일 sits in the middle of the work week, between 화요일 and 목요일, so it often feels like the 'hump' or halfway mark of a busy week. The 수 is Sino-Korean 水 'water' (the same 수 in 수영 'swimming' and 홍수 'flood'), part of the fixed fire-water-wood-metal-earth ordering of the weekday names. Because 수요일 and 목요일 both start with quiet single syllables, beginners swap them — lock 수 (water) before 목 (wood). The classic English-speaker error is using the wrong particle: to say 'on Wednesday' you mark time with 에 (수요일에), never the subject marker, so '수요일이 있어요' (literally 'Wednesday exists') is wrong for 'there is something on Wednesday' — that is 수요일에 있어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "수요일 sits in the middle of the work week, between 화요일 and 목요일, so it often feels like the 'hump' or halfway mark of a busy week."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The 수 is Sino-Korean 水 'water' (the same 수 in 수영 'swimming' and 홍수 'flood'), part of the fixed fire-water-wood-metal-earth ordering of the weekday names."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Because 수요일 and 목요일 both start with quiet single syllables, beginners swap them — lock 수 (water) before 목 (wood)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic English-speaker error is using the wrong particle: to say 'on Wednesday' you mark time with 에 (수요일에), never the subject marker, so '수요일이 있어요' (literally 'Wednesday exists') is wrong for 'there is something on Wednesday' — that is 수요일에 있어요."
+      }
+    ],
     "mistakes": [
-      "Mixing up 수요일 (Wed) and 목요일 (Thu); 수 comes before 목.",
-      "Saying '수요일이 있어요' to mean 'on Wednesday'; use 수요일에 있어요."
+      "Mixing up 수요일 (Wed) and 목요일 (Thu). The fixed order is 수 (water) before 목 (wood).",
+      "Saying '수요일이 있어요' to mean 'on Wednesday'. The time marker is 에, so it is 수요일에 있어요.",
+      "Treating 수요일 as a verb-like word; it is a plain noun, so events attach with 에, not by conjugating the day."
     ]
   },
   {
@@ -172,47 +236,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "목요일",
-        "Thursday",
-        "목 + 요일; the day before Friday."
-      ],
-      [
         "목요일에",
         "on Thursday",
-        "에 marks when."
+        "에 marks when the event happens."
       ],
       [
         "목요일 저녁",
         "Thursday evening",
-        "Day + 저녁 (evening)."
+        "Day + 저녁; 저녁 covers both 'evening' and the evening meal."
       ],
       [
-        "다음 목요일",
+        "다음 주 목요일",
         "next Thursday",
-        "다음 (next) + the day."
+        "Use 다음 주 목요일 rather than bare 다음 목요일."
+      ],
+      [
+        "목요일까지",
+        "by Thursday",
+        "까지 sets Thursday as the deadline."
       ]
     ],
     "examples": [
       [
-        "목요일에 친구를 만나요.",
-        "I meet a friend on Thursday.",
-        "Day + 에 marks when."
-      ],
-      [
-        "목요일은 회의가 있어요.",
-        "There is a meeting on Thursday.",
-        "은 marks the topic."
-      ],
-      [
         "모레가 목요일이에요.",
         "The day after tomorrow is Thursday.",
-        "N + 이에요 states the day."
+        "모레가 ... 이에요 identifies the day; no 에 on 모레."
+      ],
+      [
+        "목요일에 친구를 만나요.",
+        "I'm meeting a friend on Thursday.",
+        "만나다 takes the object marker 를 (친구를) — you meet a person, not 'with' one here."
+      ],
+      [
+        "목요일까지 보고서를 끝내야 해요.",
+        "I have to finish the report by Thursday.",
+        "Workplace reality: 까지 = the hard deadline, 해야 해요 = obligation."
       ]
     ],
-    "nuance": "목요일 is the fourth day of the week and the day right before 금요일. People often start looking forward to the weekend on this day. Just like the other days, attach 에 when you say something happens on Thursday.",
+    "nuance": "목요일 is the fourth day of the week, right before 금요일, and people often start eyeing the weekend from here (the cheerful '불목' — 'fire Thursday,' a night out — plays on this). It is Sino-Korean 木 'wood/tree' (the same 목 in 목재 'lumber'; note it is a different 목 from 目 'eye' or 목 'neck' — context and the 요일 ending keep it clear). Learners confuse 목요일 (Thu) with 금요일 (Fri); fix the order as 목 (wood) before 금 (metal/gold). A frequent English-speaker slip is with 만나다: English says 'meet WITH a friend,' but Korean treats the person as a direct object, so it is 친구를 만나요, and the day still needs its own particle, 목요일에.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "목요일 is the fourth day of the week, right before 금요일, and people often start eyeing the weekend from here (the cheerful '불목' — 'fire Thursday,' a night out — plays on this)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is Sino-Korean 木 'wood/tree' (the same 목 in 목재 'lumber'; note it is a different 목 from 目 'eye' or 목 'neck' — context and the 요일 ending keep it clear)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Learners confuse 목요일 (Thu) with 금요일 (Fri); fix the order as 목 (wood) before 금 (metal/gold)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A frequent English-speaker slip is with 만나다: English says 'meet WITH a friend,' but Korean treats the person as a direct object, so it is 친구를 만나요, and the day still needs its own particle, 목요일에."
+      }
+    ],
     "mistakes": [
-      "Confusing 목요일 (Thu) with 금요일 (Fri); 목 comes before 금.",
-      "Forgetting 에: use 목요일에 만나요, not 목요일 만나요."
+      "Confusing 목요일 (Thu) with 금요일 (Fri). Keep the order 목 (wood) before 금 (metal).",
+      "Forgetting the particle: it is 목요일에 만나요, not 목요일 만나요.",
+      "Saying '친구하고 만나요' and then '친구를 만나요' interchangeably and getting the particle wrong; the plain 'meet someone' pattern is 친구를 만나다."
     ]
   },
   {
@@ -226,47 +313,65 @@
     "grammarIds": [],
     "usage": [
       [
-        "금요일",
-        "Friday",
-        "금 + 요일; the last weekday before the weekend."
-      ],
-      [
         "금요일에",
         "on Friday",
-        "에 marks when."
+        "에 marks when; the most common form."
       ],
       [
         "금요일 밤",
         "Friday night",
-        "Day + 밤 (night)."
+        "Day + 밤; 금요일 밤 is the prime time for going out."
       ],
       [
-        "이번 금요일",
+        "이번 주 금요일",
         "this Friday",
-        "이번 (this) + the day."
+        "이번 주 + the day pins down which Friday."
+      ],
+      [
+        "불금",
+        "TGIF / wild Friday",
+        "Slang clipping of 불타는 금요일 ('burning Friday'); casual speech only."
       ]
     ],
     "examples": [
       [
-        "금요일에 영화를 봐요.",
-        "I watch a movie on Friday.",
-        "Day + 에 marks when."
-      ],
-      [
-        "금요일은 정말 좋아요.",
-        "Friday is really nice.",
-        "은 marks the topic."
-      ],
-      [
         "오늘은 금요일이에요.",
         "Today is Friday.",
-        "N + 이에요 states the day."
+        "이에요 states the day; the topic 은 frames 오늘."
+      ],
+      [
+        "금요일에 영화를 봐요.",
+        "I'm watching a movie on Friday.",
+        "보다 here means 'watch'; 영화를 보다 is the set collocation for seeing a film."
+      ],
+      [
+        "드디어 금요일이네요! 오늘은 불금이에요.",
+        "Finally Friday! Today's a wild Friday.",
+        "드디어 ('finally') + ~네요 (realization) capture the relief; 불금 is friendly slang."
       ]
     ],
-    "nuance": "금요일 is the last day of the work week, so many people feel happy and relaxed. The evening, 금요일 밤, is a popular time to go out. As with every day, add 에 when you say something happens on Friday.",
+    "nuance": "금요일 is the last workday before the weekend, so it carries a light, celebratory mood — Koreans cheer 불금 (from 불타는 금요일, 'burning Friday') the way English says TGIF, but keep that slang for friends, not your boss. The 금 is Sino-Korean 金 'metal/gold' (the same 금 in 금메달 'gold medal' and 황금 'gold'), continuing the fixed weekday order. Watch a film/movie is 영화를 보다, where 보다 means 'watch/see' — don't reach for an English-style 'look at.' The recurring English-speaker mistake stays the same: 'on Friday' is 금요일에, never a bare 금요일 before the verb, and 'this Friday' is more naturally 이번 주 금요일 than 이번 금요일.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "금요일 is the last workday before the weekend, so it carries a light, celebratory mood — Koreans cheer 불금 (from 불타는 금요일, 'burning Friday') the way English says TGIF, but keep that slang for friends, not your boss."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The 금 is Sino-Korean 金 'metal/gold' (the same 금 in 금메달 'gold medal' and 황금 'gold'), continuing the fixed weekday order."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Watch a film/movie is 영화를 보다, where 보다 means 'watch/see' — don't reach for an English-style 'look at.' The recurring English-speaker mistake stays the same: 'on Friday' is 금요일에, never a bare 금요일 before the verb, and 'this Friday' is more naturally 이번 주 금요일 than 이번 금요일."
+      }
+    ],
     "mistakes": [
-      "Confusing 금요일 (Fri) with 토요일 (Sat); 금 comes before 토.",
-      "Saying '금요일 봐요' without 에; the natural form is 금요일에 봐요."
+      "Confusing 금요일 (Fri) with 토요일 (Sat). Keep the order 금 (metal) before 토 (earth).",
+      "Saying '금요일 봐요' without the particle. The natural form is 금요일에 봐요.",
+      "Using 불금 in formal or work settings. It is casual slang; in polite contexts just say 금요일."
     ]
   },
   {
@@ -280,47 +385,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "토요일",
-        "Saturday",
-        "토 + 요일; the first day of the weekend."
-      ],
-      [
         "토요일에",
         "on Saturday",
-        "에 marks when."
+        "에 marks when something happens."
       ],
       [
         "토요일 아침",
         "Saturday morning",
-        "Day + 아침 (morning)."
+        "Day + 아침; 아침 also means breakfast, so context decides."
       ],
       [
-        "다음 토요일",
-        "next Saturday",
-        "다음 (next) + the day."
+        "이번 주 토요일",
+        "this Saturday",
+        "이번 주 + the day to specify which Saturday."
+      ],
+      [
+        "토요일하고 일요일",
+        "Saturday and Sunday",
+        "하고 ('and') links the two weekend days in speech."
       ]
     ],
     "examples": [
       [
-        "토요일에 집에서 쉬어요.",
-        "I rest at home on Saturday.",
-        "Day + 에 marks when."
-      ],
-      [
-        "토요일은 보통 늦게 일어나요.",
-        "On Saturday I usually wake up late.",
-        "은 marks the topic."
-      ],
-      [
         "내일은 토요일이에요.",
         "Tomorrow is Saturday.",
-        "N + 이에요 states the day."
+        "이에요 states the day; 내일 needs no 에."
+      ],
+      [
+        "토요일에 집에서 쉬어요.",
+        "I rest at home on Saturday.",
+        "Place uses 에서 (집에서) for an action's location, while the day uses 에."
+      ],
+      [
+        "토요일은 보통 늦잠을 자요.",
+        "On Saturdays I usually sleep in.",
+        "Topic 은 = 'as for Saturdays'; 늦잠을 자다 is the set phrase for sleeping late."
       ]
     ],
-    "nuance": "토요일 is the first day of the weekend in Korea, so most people do not work or go to school. It is a common day to rest, meet friends, or travel. Like the other days, attach 에 when you say something happens on Saturday.",
+    "nuance": "토요일 is the first day of the Korean weekend (주말 = Saturday + Sunday), so most people are off work or school and it reads as a relaxed, do-something day. The 토 is Sino-Korean 土 'earth/soil' (the same 토 in 토지 'land' and 영토 'territory'), the sixth of the seven luminaries. A subtle trap here is that the DAY of an action takes 에 (토요일에) but the PLACE of the action takes 에서 (집에서 쉬어요) — English 'at home on Saturday' uses one preposition each, but Korean splits time vs. dynamic location across two particles. Beginners also mix 토요일 (Sat) with 일요일 (Sun); fix it as 토 (earth) before 일 (sun).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "토요일 is the first day of the Korean weekend (주말 = Saturday + Sunday), so most people are off work or school and it reads as a relaxed, do-something day."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The 토 is Sino-Korean 土 'earth/soil' (the same 토 in 토지 'land' and 영토 'territory'), the sixth of the seven luminaries."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Beginners also mix 토요일 (Sat) with 일요일 (Sun); fix it as 토 (earth) before 일 (sun)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "A subtle trap here is that the DAY of an action takes 에 (토요일에) but the PLACE of the action takes 에서 (집에서 쉬어요) — English 'at home on Saturday' uses one preposition each, but Korean splits time vs. dynamic location across two particles."
+      }
+    ],
     "mistakes": [
-      "Mixing up 토요일 (Sat) and 일요일 (Sun); 토 comes before 일.",
-      "Dropping 에: say 토요일에 쉬어요, not 토요일 쉬어요."
+      "Mixing up 토요일 (Sat) and 일요일 (Sun). The order is 토 (earth) before 일 (sun).",
+      "Dropping the particle: it should be 토요일에 쉬어요, not 토요일 쉬어요.",
+      "Using 에 for the place of an action: rest happens 집에서, not 집에 — 'rest at home' is 집에서 쉬어요."
     ]
   },
   {
@@ -334,47 +462,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "일요일",
-        "Sunday",
-        "일 + 요일; the second weekend day."
-      ],
-      [
         "일요일에",
         "on Sunday",
-        "에 marks when."
+        "에 marks when something happens."
       ],
       [
         "일요일 오전",
-        "Sunday morning",
-        "Day + 오전 (morning/a.m.)."
+        "Sunday morning / a.m.",
+        "오전 (a.m./forenoon) is the clock-based partner of 오후 (p.m.)."
       ],
       [
-        "이번 일요일",
+        "이번 주 일요일",
         "this Sunday",
-        "이번 (this) + the day."
+        "이번 주 + the day to make clear which Sunday."
+      ],
+      [
+        "일요일마다",
+        "every Sunday",
+        "마다 ('each') turns the day into a weekly habit."
       ]
     ],
     "examples": [
       [
-        "일요일에 교회에 가요.",
-        "I go to church on Sunday.",
-        "Day + 에 marks when."
-      ],
-      [
-        "일요일은 가족하고 시간을 보내요.",
-        "On Sunday I spend time with my family.",
-        "은 marks the topic."
-      ],
-      [
         "오늘이 일요일이에요?",
         "Is today Sunday?",
-        "이에요? makes it a question."
+        "이에요? asks; subject 이 (오늘이) checks the fact of the day."
+      ],
+      [
+        "일요일에 교회에 가요.",
+        "I go to church on Sunday.",
+        "교회 takes 에 as a destination — same particle as the day, different role."
+      ],
+      [
+        "일요일마다 가족하고 시간을 보내요.",
+        "I spend time with my family every Sunday.",
+        "가족하고 = 'with family'; 시간을 보내다 is the set phrase 'spend time.'"
       ]
     ],
-    "nuance": "일요일 is the last day of the weekend, when many people relax at home or rest before the new week. Calendars in Korea often show 일요일 as the first column in red. As with every day, add 에 to mark when something happens.",
+    "nuance": "일요일 is the last day of the weekend, a rest-and-recharge day before the new week, and on most Korean calendars it sits in the first column printed in red as a public holiday. The 일 is Sino-Korean 日 'sun/day' (the same 日 that ends every weekday name and appears in 일기 'diary'), so 일요일 literally reads 'sun-day' — a neat parallel to English. Don't confuse the standalone word 요일, which only means 'day of the week' (used in the question 무슨 요일이에요? 'what day is it?'), with 일요일 'Sunday'. As always for English speakers, 'on Sunday' is 일요일에, and 'spend time WITH family' is 가족하고/가족과 시간을 보내요, where 하고 carries the 'with.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "일요일 is the last day of the weekend, a rest-and-recharge day before the new week, and on most Korean calendars it sits in the first column printed in red as a public holiday."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "The 일 is Sino-Korean 日 'sun/day' (the same 日 that ends every weekday name and appears in 일기 'diary'), so 일요일 literally reads 'sun-day' — a neat parallel to English."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Don't confuse the standalone word 요일, which only means 'day of the week' (used in the question 무슨 요일이에요? 'what day is it?'), with 일요일 'Sunday'."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "As always for English speakers, 'on Sunday' is 일요일에, and 'spend time WITH family' is 가족하고/가족과 시간을 보내요, where 하고 carries the 'with.'"
+      }
+    ],
     "mistakes": [
-      "Confusing 일요일 (Sunday) with 요일 alone, which just means 'day of the week.'",
-      "Saying '일요일 가요' without 에; use 일요일에 가요."
+      "Confusing 일요일 (Sunday) with the bare word 요일, which just means 'day of the week.'",
+      "Saying '일요일 가요' without the particle. Use 일요일에 가요.",
+      "Forgetting the 'with' particle: it is 가족하고 시간을 보내요, not 가족 시간을 보내요."
     ]
   },
   {
@@ -388,47 +539,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "공휴일",
-        "public holiday",
-        "An official day off, like New Year or 추석."
-      ],
-      [
         "공휴일에",
         "on a public holiday",
-        "에 marks the day off."
+        "에 marks the day off when something happens (or doesn't)."
       ],
       [
-        "공휴일이에요",
-        "it is a public holiday",
-        "N + 이에요 states the fact."
+        "공휴일이라서",
+        "because it's a public holiday",
+        "이라서 ('because it is') gives the reason offices are closed."
       ],
       [
-        "내일은 공휴일이에요",
-        "tomorrow is a public holiday",
-        "Topic + 이에요."
+        "법정 공휴일",
+        "statutory public holiday",
+        "법정 ('legally fixed') stresses it is an official, mandated day off."
+      ],
+      [
+        "대체 공휴일",
+        "substitute holiday",
+        "대체 ('replacement') — a make-up day off when a holiday falls on a weekend."
       ]
     ],
     "examples": [
       [
         "내일은 공휴일이에요.",
         "Tomorrow is a public holiday.",
-        "N + 이에요 states the day."
+        "이에요 states the fact; 내일 needs no 에."
       ],
       [
         "공휴일에는 은행이 문을 닫아요.",
-        "Banks are closed on public holidays.",
-        "에는 marks the day plus contrast."
+        "On public holidays, banks are closed.",
+        "에는 = 에 + 는, adding a 'as for that day' contrast; 문을 닫다 = 'close (shop).'"
       ],
       [
         "오늘은 공휴일이라서 학교에 안 가요.",
         "Today is a holiday, so I don't go to school.",
-        "Reason + so."
+        "이라서 links cause to result; 안 가요 negates the verb."
       ]
     ],
-    "nuance": "공휴일 is an official national day off when most offices, banks, and schools are closed. It is different from a personal vacation day; everyone gets a 공휴일 at the same time. Big examples are 설날 (Lunar New Year) and 추석 (Chuseok).",
+    "nuance": "공휴일 is an official, calendar-fixed day off when offices, banks, schools, and public services close for everyone at once — think 설날 (Lunar New Year) or 추석 (Chuseok). It is fully Sino-Korean: 公 'public' + 休 'rest' + 日 'day,' literally 'public rest day.' The key contrast for learners is 공휴일 vs. 휴가: 휴가 (休暇) is YOUR personal leave/vacation that you request and take individually, whereas 공휴일 is a national day off no one schedules. Also distinguish 휴일 (any non-work day, including weekends) from 공휴일 (specifically an official public holiday). The usual English-speaker pitfall returns with the particle — 'on a holiday' is 공휴일에 (often 공휴일에는 for contrast), and 'closed' is the idiom 문을 닫다, not a literal translation of 'be closed.'",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "공휴일 is an official, calendar-fixed day off when offices, banks, schools, and public services close for everyone at once — think 설날 (Lunar New Year) or 추석 (Chuseok)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is fully Sino-Korean: 公 'public' + 休 'rest' + 日 'day,' literally 'public rest day.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast for learners is 공휴일 vs. 휴가: 휴가 (休暇) is YOUR personal leave/vacation that you request and take individually, whereas 공휴일 is a national day off no one schedules. Also distinguish 휴일 (any non-work day, including weekends) from 공휴일 (specifically an official public holiday)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The usual English-speaker pitfall returns with the particle — 'on a holiday' is 공휴일에 (often 공휴일에는 for contrast), and 'closed' is the idiom 문을 닫다, not a literal translation of 'be closed.'"
+      }
+    ],
     "mistakes": [
-      "Confusing 공휴일 (official national holiday) with 휴가 (personal vacation).",
-      "Saying '공휴일 닫아요' without 에; use 공휴일에 닫아요."
+      "Confusing 공휴일 (official national holiday) with 휴가 (your personal vacation/leave). You take 휴가; everyone shares a 공휴일.",
+      "Saying '공휴일 닫아요' without the particle. Use 공휴일에 닫아요 (or 공휴일에는).",
+      "Translating 'is closed' word for word. Korean says 문을 닫아요 ('closes its door'), not a passive 'be closed.'"
     ]
   },
   {
@@ -442,47 +616,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "이번 주",
-        "this week",
-        "이번 (this time) + 주 (week)."
-      ],
-      [
         "이번 주에",
         "this week",
-        "Add 에 to say when."
+        "Add 에 to mark the time frame of an event."
       ],
       [
         "이번 주말",
         "this weekend",
-        "이번 + 주말 (weekend)."
+        "이번 + 주말 (weekend); note 주말 is one word."
       ],
       [
         "이번 주 금요일",
         "this Friday",
-        "이번 주 + a specific day."
+        "이번 주 + a specific day narrows it down."
+      ],
+      [
+        "이번 주 내내",
+        "all this week / the whole week",
+        "내내 ('throughout') stresses the entire span."
       ]
     ],
     "examples": [
       [
         "이번 주에 시험이 있어요.",
         "I have an exam this week.",
-        "이번 주 + 에 marks when."
+        "이번 주 + 에 sets the time; 시험이 있다 = 'there is an exam.'"
       ],
       [
         "이번 주는 너무 바빠요.",
         "This week is so busy.",
-        "는 marks the topic."
+        "Topic 는 frames the week; 바쁘다 is a descriptive verb (adjective), so no object."
       ],
       [
-        "이번 주말에 뭐 해요?",
-        "What are you doing this weekend?",
-        "이번 주말 + 에."
+        "이번 주말에 시간 괜찮으면 같이 밥 먹어요.",
+        "If you're free this weekend, let's eat together.",
+        "이번 주말에 + a soft invitation; 밥 먹다 ('eat a meal') doubles as 'grab food.'"
       ]
     ],
-    "nuance": "이번 주 means the week we are in right now. It pairs with 지난주 (last week) and 다음 주 (next week). Note the spacing: 이번 주 is written as two words, while 지난주 is written as one.",
+    "nuance": "이번 주 means the week we are currently in, the now-frame for plans and schedules. 이번 is native-Korean-style 'this (time/occasion)' and 주 is Sino-Korean 週 'week,' so the phrase is a hybrid 'this week.' It belongs to a tidy set: 지난주 (last week), 이번 주 (this week), 다음 주 (next week). The spacing trips up nearly every learner: 이번 주 and 다음 주 are written as TWO words (a space before 주), but 지난주 is fused into ONE word — a real inconsistency you simply memorize. As with all time nouns, 'this week' as a when-phrase takes 에 (이번 주에), and note that 바쁘다 ('busy') is an adjective-type verb, so you say 이번 주는 바빠요, never add an object to it.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "이번 주 means the week we are currently in, the now-frame for plans and schedules."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "이번 is native-Korean-style 'this (time/occasion)' and 주 is Sino-Korean 週 'week,' so the phrase is a hybrid 'this week.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It belongs to a tidy set: 지난주 (last week), 이번 주 (this week), 다음 주 (next week). The spacing trips up nearly every learner: 이번 주 and 다음 주 are written as TWO words (a space before 주), but 지난주 is fused into ONE word — a real inconsistency you simply memorize."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "As with all time nouns, 'this week' as a when-phrase takes 에 (이번 주에), and note that 바쁘다 ('busy') is an adjective-type verb, so you say 이번 주는 바빠요, never add an object to it."
+      }
+    ],
     "mistakes": [
-      "Writing 이번주 as one word; the standard spelling is 이번 주 with a space.",
-      "Forgetting 에: say 이번 주에 있어요, not 이번 주 있어요."
+      "Writing 이번주 as one word. The standard spelling is 이번 주 with a space before 주.",
+      "Forgetting the particle: say 이번 주에 있어요, not 이번 주 있어요.",
+      "Mismatching the set: 지난주 is one word but 이번 주 / 다음 주 take a space — don't apply one rule to all three."
     ]
   },
   {
@@ -496,47 +693,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "다음 주",
-        "next week",
-        "다음 (next) + 주 (week)."
-      ],
-      [
         "다음 주에",
         "next week",
-        "Add 에 to say when."
+        "Add 에 to mark the future time frame."
       ],
       [
         "다음 주말",
         "next weekend",
-        "다음 + 주말 (weekend)."
+        "다음 + 주말 (weekend), written as one word 주말."
       ],
       [
         "다음 주 월요일",
         "next Monday",
-        "다음 주 + a specific day."
+        "다음 주 + a specific day — the natural way to say 'next Monday.'"
+      ],
+      [
+        "다음 주쯤",
+        "around next week",
+        "쯤 ('about') leaves the timing approximate."
       ]
     ],
     "examples": [
       [
         "다음 주에 여행을 가요.",
         "I'm going on a trip next week.",
-        "다음 주 + 에 marks when."
+        "다음 주 + 에 sets future time; 여행을 가다 = 'go on a trip.'"
       ],
       [
         "다음 주는 좀 한가해요.",
         "Next week is a bit free.",
-        "는 marks the topic."
+        "Topic 는 frames the week; 한가하다 ('be free/relaxed') is descriptive."
       ],
       [
-        "다음 주 월요일에 만나요.",
-        "Let's meet next Monday.",
-        "다음 주 + day + 에."
+        "다음 주 월요일에 다시 회의하기로 했어요.",
+        "We decided to meet again next Monday.",
+        "다음 주 월요일에 + ~기로 하다 ('decide to') for a settled plan."
       ]
     ],
-    "nuance": "다음 주 means the week that comes after this one. Use it to talk about plans you have not done yet. Like 이번 주, it is written as two words with a space, and you add 에 to mark the time.",
+    "nuance": "다음 주 means the week that follows this one, so it naturally pairs with future plans and future-leaning verbs. 다음 ('next') + 주 (週 'week') mirrors the structure of 이번 주, and the trio 지난주 / 이번 주 / 다음 주 should be learned together. The contrast to watch is 다음 ('next in a sequence') versus 내년·내일 style words: for weeks you use 다음 주, not a single fused word, and 'next Monday' is idiomatically 다음 주 월요일, not 다음 월요일. Spacing again matters — 다음 주 takes a space like 이번 주, while only 지난주 is written solid. And the time particle holds: a when-phrase is 다음 주에, so 'I'm going next week' is 다음 주에 가요, never bare 다음 주 가요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "다음 주 means the week that follows this one, so it naturally pairs with future plans and future-leaning verbs."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "다음 ('next') + 주 (週 'week') mirrors the structure of 이번 주, and the trio 지난주 / 이번 주 / 다음 주 should be learned together."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to watch is 다음 ('next in a sequence') versus 내년·내일 style words: for weeks you use 다음 주, not a single fused word, and 'next Monday' is idiomatically 다음 주 월요일, not 다음 월요일. Spacing again matters — 다음 주 takes a space like 이번 주, while only 지난주 is written solid."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The time particle holds: a when-phrase is 다음 주에, so 'I'm going next week' is 다음 주에 가요, never bare 다음 주 가요."
+      }
+    ],
     "mistakes": [
-      "Writing 다음주 as one word; the standard spelling is 다음 주 with a space.",
-      "Dropping 에: say 다음 주에 가요, not 다음 주 가요."
+      "Writing 다음주 as one word. The standard spelling is 다음 주 with a space before 주.",
+      "Dropping the particle: say 다음 주에 가요, not 다음 주 가요.",
+      "Saying '다음 월요일' for 'next Monday'. The natural phrase is 다음 주 월요일."
     ]
   },
   {
@@ -550,47 +770,70 @@
     "grammarIds": [],
     "usage": [
       [
-        "지난주",
-        "last week",
-        "지난 (past) + 주 (week), written as one word."
-      ],
-      [
         "지난주에",
         "last week",
-        "Add 에 to say when."
+        "Add 에 to mark when; almost always with past tense."
       ],
       [
         "지난 주말",
         "last weekend",
-        "지난 + 주말 (weekend)."
+        "Here 지난 + 주말 takes a space (지난 주말), unlike solid 지난주."
       ],
       [
         "지난주 금요일",
         "last Friday",
-        "지난주 + a specific day."
+        "지난주 + a specific day points back into the past week."
+      ],
+      [
+        "지난주 내내",
+        "all last week",
+        "내내 ('throughout') stresses the whole past span."
       ]
     ],
     "examples": [
       [
         "지난주에 부산에 갔어요.",
         "I went to Busan last week.",
-        "지난주 + 에, past tense."
+        "지난주 + 에 with past 갔어요 — 지난주 forces past tense."
       ],
       [
         "지난주는 정말 힘들었어요.",
         "Last week was really hard.",
-        "는 marks the topic, past tense."
+        "Topic 는 frames it; 힘들다 ('be tough') in past 힘들었어요."
       ],
       [
         "지난주 금요일에 친구를 만났어요.",
         "I met a friend last Friday.",
-        "지난주 + day + 에."
+        "지난주 금요일에 + past 만났어요; 친구를 만나다 takes object 를."
       ]
     ],
-    "nuance": "지난주 means the week that just finished, so you usually use it with past tense. It pairs with 이번 주 (this week) and 다음 주 (next week). Watch the spacing: 지난주 is one word, but 이번 주 and 다음 주 take a space.",
+    "nuance": "지난주 means the week that just ended, so it lives in the past and pulls past-tense verbs with it (갔어요, 만났어요). 지난 is the adnominal form of 지나다 'to pass,' literally 'the week that has passed,' and 주 is 週 'week.' It is the past member of the set 지난주 / 이번 주 / 다음 주. The most notorious detail is spacing: 지난주 ('last week') is written as ONE word, but 이번 주 and 다음 주 take a space — and confusingly, 지난 주말 ('last weekend') splits back into two words because 주말 is its own noun. The English-speaker pitfall is twofold: keep the time particle (지난주에) and don't use present tense — 'I went last week' must be 지난주에 갔어요, not 지난주에 가요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "지난주 means the week that just ended, so it lives in the past and pulls past-tense verbs with it (갔어요, 만났어요)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "지난 is the adnominal form of 지나다 'to pass,' literally 'the week that has passed,' and 주 is 週 'week.'"
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "It is the past member of the set 지난주 / 이번 주 / 다음 주. The most notorious detail is spacing: 지난주 ('last week') is written as ONE word, but 이번 주 and 다음 주 take a space — and confusingly, 지난 주말 ('last weekend') splits back into two words because 주말 is its own noun."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is twofold: keep the time particle (지난주에) and don't use present tense — 'I went last week' must be 지난주에 갔어요, not 지난주에 가요."
+      }
+    ],
     "mistakes": [
-      "Writing it as two words '지난 주'; the standard spelling is one word, 지난주.",
-      "Using present tense; 지난주 usually goes with past, like 지난주에 갔어요."
+      "Writing it as two words '지난 주'. For 'last week' the standard spelling is one solid word, 지난주.",
+      "Using present tense. 지난주 refers to the past, so it pairs with past tense: 지난주에 갔어요.",
+      "Spelling 'last weekend' as 지난주말. It is 지난 주말 (two words), because 주말 is a separate noun."
     ]
   },
   {
@@ -606,45 +849,68 @@
       [
         "모레",
         "the day after tomorrow",
-        "Two days from today."
+        "A pure adverbial time word; usually stands alone with no particle."
       ],
       [
         "모레까지",
         "by the day after tomorrow",
-        "까지 marks a deadline."
+        "까지 attaches for a deadline (one of the few particles 모레 takes)."
       ],
       [
         "모레 아침",
         "the morning of the day after tomorrow",
-        "모레 + 아침."
+        "모레 + 아침 stacks the time-of-day after the day word."
       ],
       [
         "모레가 ~이에요",
         "the day after tomorrow is ~",
-        "Use 가 because 모레 acts as the subject."
+        "When 모레 is the subject of an 'is' sentence, use 가: 모레가 토요일이에요."
       ]
     ],
     "examples": [
       [
         "모레 시험이 있어요.",
         "I have an exam the day after tomorrow.",
-        "모레 marks the time."
+        "모레 sits bare as the time; no 에 needed."
       ],
       [
         "모레가 토요일이에요.",
         "The day after tomorrow is Saturday.",
-        "모레가 + day + 이에요."
+        "Here 모레 is the subject, so it takes 가, then 이에요 names the day."
       ],
       [
-        "모레까지 숙제를 내야 해요.",
-        "I have to turn in the homework by the day after tomorrow.",
-        "모레까지 = by then."
+        "모레까지 숙제를 꼭 내야 해요.",
+        "I absolutely have to hand in the homework by the day after tomorrow.",
+        "모레까지 = the deadline; 꼭 ('for sure') + 내야 해요 stresses obligation."
       ]
     ],
-    "nuance": "모레 means two days from now, one day past 내일 (tomorrow). Time words like 모레, 내일, and 오늘 usually do not need the 에 particle. It is a handy word for making near-future plans.",
+    "nuance": "모레 means two days from today, one step past 내일 (tomorrow): the sequence runs 어제 (yesterday) → 오늘 (today) → 내일 (tomorrow) → 모레 → 글피 (three days out). Unlike the Sino-Korean day-of-week names, 모레 is a native Korean word and a bare time adverb. The crucial English-speaker pitfall is the particle: relative time words like 모레, 내일, 오늘, 어제 normally take NO 에 — 'I'll meet you the day after tomorrow' is 모레 만나요, and adding 에 (모레에) sounds wrong. The exceptions are clear: deadline 까지 (모레까지) and subject 가 (모레가 토요일이에요) do attach. Don't confuse 모레 with 내일 (only one day off) or stretch it to mean any vague 'in a couple of days' — it is exactly the day after tomorrow.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "모레 means two days from today, one step past 내일 (tomorrow): the sequence runs 어제 (yesterday) → 오늘 (today) → 내일 (tomorrow) → 모레 → 글피 (three days out)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Unlike the Sino-Korean day-of-week names, 모레 is a native Korean word and a bare time adverb."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Don't confuse 모레 with 내일 (only one day off) or stretch it to mean any vague 'in a couple of days' — it is exactly the day after tomorrow."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The crucial English-speaker pitfall is the particle: relative time words like 모레, 내일, 오늘, 어제 normally take NO 에 — 'I'll meet you the day after tomorrow' is 모레 만나요, and adding 에 (모레에) sounds wrong. The exceptions are clear: deadline 까지 (모레까지) and subject 가 (모레가 토요일이에요) do attach."
+      }
+    ],
     "mistakes": [
-      "Adding 에: say 모레 만나요, not 모레에 만나요 — time words like 모레 skip 에.",
-      "Confusing 모레 (day after tomorrow) with 내일 (tomorrow)."
+      "Adding 에: say 모레 만나요, not 모레에 만나요. Relative time words like 모레/내일/오늘 skip 에.",
+      "Confusing 모레 (the day after tomorrow) with 내일 (tomorrow). 모레 is one day further out.",
+      "Using 모레 loosely for 'in a few days'. It means exactly two days from now; for three days out use 글피."
     ]
   }
 ]

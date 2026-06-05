@@ -22,16 +22,50 @@
       "shallWe": "이해할까요?"
     },
     "usage": [
-      ["이해해요", "I understand", "Common reassuring reply"],
-      ["이해가 안 돼요", "I dont get it", "Very natural phrasing"]
+      ["이해해요", "I understand", "Warm reassuring reply, like 'I get it, it's okay'"],
+      ["이해가 안 돼요", "I don't get it", "Note the 가-subject: comprehension fails on its own, no 를"],
+      ["이해해 주세요", "Please understand (forgive me)", "Asking someone to be understanding of your situation"],
+      ["이해가 빨라요", "He catches on fast", "이해 as a noun with 빠르다, describing a quick mind"]
     ],
     "examples": [
-      ["선생님 말을 이해했어요", "I understood the teacher", "Past tense"],
-      ["저는 한국어를 조금 이해해요", "I understand a little Korean", "Polite present"],
-      ["이 문제를 이해해야 해요", "I must understand this problem", "Must form"]
+      ["선생님 말을 이해했어요", "I understood the teacher", "Object + 를 when YOU actively grasp something"],
+      ["저는 한국어를 조금 이해해요", "I understand a little Korean", "조금 softens it to 'a bit', very humble and natural"],
+      ["네 마음 충분히 이해해", "I totally understand how you feel", "Casual 반말 to a close friend; 마음 = feelings, not 'mind'"]
     ],
-    "nuance": "이해하다 means grasping meaning or sympathizing with someone, often softening conflicts.",
-    "mistakes": ["Saying 알다 when you mean grasp"],
+    "nuance": "이해하다 is Sino-Korean: 理解 means 'untie/loosen (解) the logic (理)', so it pictures a tangled idea coming apart in your head — it covers both intellectual comprehension AND emotional sympathy ('I understand how you feel'). The dividing line versus 알다 is crucial: 알다 is to KNOW a fact ('I know his name', 이름을 알아요), while 이해하다 is to make sense of WHY or HOW something works. As a 하다-verb it conjugates regularly (이해해요, past 이해했어요). The big English-speaker pitfall is the particle in the negative: 'I don't understand' is almost always 이해가 안 돼요 (subject 가 + 되다, lit. 'understanding doesn't form'), not the literal 이해를 안 해요, which sounds like you're refusing to understand on purpose. Also resist translating 'understand my feelings' as 내 감정 — Koreans say 내 마음을 이해하다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "It covers both intellectual comprehension AND emotional sympathy ('I understand how you feel') — making sense of why or how something works."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line versus 알다 is crucial: 알다 is to KNOW a fact ('I know his name', 이름을 알아요), while 이해하다 is to make sense of WHY or HOW something works."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean 理解 means 'untie/loosen (解) the logic (理)', so it pictures a tangled idea coming apart in your head."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 하다-verb it conjugates regularly: 이해해요, past 이해했어요.",
+        "chips": ["이해해요", "이해했어요", "이해가 안 돼요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big pitfall is the particle in the negative: 'I don't understand' is almost always 이해가 안 돼요 (subject 가 + 되다, lit. 'understanding doesn't form'), not the literal 이해를 안 해요, which sounds like you're refusing to understand on purpose. Also resist translating 'understand my feelings' as 내 감정 — Koreans say 내 마음을 이해하다."
+      }
+    ],
+    "mistakes": [
+      "Saying 알아요 when you mean 'I grasp/follow it' — 알다 is to know a fact, 이해하다 is to comprehend the reasoning; for 'I get why' use 이해해요.",
+      "Translating 'I don't understand' literally as 이해를 안 해요. That implies willful refusal. The natural form is 이해가 안 돼요 with 가, treating understanding as something that fails to occur.",
+      "Saying 내 감정을 이해해 주세요 for 'understand my feelings'. The idiomatic collocation is 마음 (heart): 내 마음을 이해해 주세요."
+    ],
     "irregular": null
   },
   {
@@ -57,16 +91,45 @@
       "shallWe": "믿을까요?"
     },
     "usage": [
-      ["저를 믿어요", "Believe me", "Asking for trust"],
-      ["안 믿어요", "I dont believe it", "Short denial"]
+      ["저를 믿어요", "Trust me", "Asking someone to put their faith in you"],
+      ["안 믿어요", "I don't buy it", "Short, blunt denial of a claim"],
+      ["믿어 주세요", "Please believe me", "Pleading to be trusted; 주다 adds the favor nuance"],
+      ["믿거나 말거나", "Believe it or not", "Fixed idiom prefacing something hard to believe"]
     ],
     "examples": [
-      ["저는 친구를 믿어요", "I trust my friend", "Polite present"],
-      ["그 말을 믿었어요", "I believed those words", "Past tense"],
-      ["서로 믿어야 해요", "We must trust each other", "Must form"]
+      ["저는 친구를 믿어요", "I trust my friend", "Person + 를 = trust that person"],
+      ["그 말을 믿었어요", "I believed those words", "Statement + 를 = believe a claim"],
+      ["나는 너를 믿어", "I believe in you", "Casual 반말; warm encouragement before a challenge"]
     ],
-    "nuance": "믿다 covers both believing facts and trusting people, central to close relationships.",
-    "mistakes": ["Confusing 믿다 with 밀다 push"],
+    "nuance": "믿다 is a single native word that spans two English verbs at once: to BELIEVE a fact/claim (그 말을 믿어요 'I believe that') and to TRUST a person (친구를 믿어요 'I trust my friend') — context, not a different word, tells them apart. The closest relatives are 믿음 (the noun, 'faith/trust') and the compound 신뢰하다 (信賴, the formal 'to have confidence in', used in business or writing); 믿다 is the warm, everyday spoken choice. Crucially, 믿다 keeps its ㄷ in the stem (믿어요, 믿었어요) — it is NOT a ㄷ-irregular like 듣다→들어요, so it never becomes *밀어요. Watch the homophone trap: that wrong *밀어요 collides head-on with the real verb 밀다 'to push' (밀어요), so one careless slip doesn't just misconjugate — it accidentally says 'push' instead of 'believe'. English 'believe in (a god/religion)' transfers fine: 신을 믿어요, 종교를 믿어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "A single native word that spans two English verbs at once: to BELIEVE a fact/claim (그 말을 믿어요 'I believe that') and to TRUST a person (친구를 믿어요 'I trust my friend') — context, not a different word, tells them apart. It is the warm, everyday spoken choice. English 'believe in (a god/religion)' transfers fine: 신을 믿어요, 종교를 믿어요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The closest relatives are 믿음 (the noun, 'faith/trust') and the compound 신뢰하다 (信賴, the formal 'to have confidence in', used in business or writing); 믿다 is the warm, everyday spoken choice."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Crucially, 믿다 keeps its ㄷ in the stem — it is NOT a ㄷ-irregular like 듣다→들어요, so it never becomes *밀어요.",
+        "chips": ["믿어요", "믿었어요", "믿습니다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Watch the homophone trap: the wrong *밀어요 collides head-on with the real verb 밀다 'to push' (밀어요), so one careless slip doesn't just misconjugate — it accidentally says 'push' instead of 'believe'."
+      }
+    ],
+    "mistakes": [
+      "Conjugating it like a ㄷ-irregular and changing ㄷ→ㄹ: *밀어요. 믿다 is regular, so the stem ㄷ stays put — 믿어요, past 믿었어요. (듣다 does change: 듣다→들어요, but 믿다 does not.)",
+      "Confusing 믿다 (believe, 믿어요) with the look-alike 밀다 (push, 밀어요). They share a frame but are unrelated verbs — keep the ㄷ in 믿어요, or you literally say 'push'.",
+      "Using formal 신뢰하다 in casual speech with friends. Among friends, 너를 믿어 sounds natural; 너를 신뢰해 sounds like a corporate report."
+    ],
     "irregular": null
   },
   {
@@ -92,16 +155,45 @@
       "shallWe": "바랄까요?"
     },
     "usage": [
-      ["행복을 바라요", "I wish you happiness", "Warm closing line"],
-      ["많이 바라지 않아요", "I dont expect much", "Humble tone"]
+      ["행복을 바라요", "I wish you happiness", "Warm closing line in a card or message"],
+      ["많이 바라지 않아요", "I don't ask for much", "Humble, self-effacing tone"],
+      ["-기를 바라요", "I hope that...", "The key pattern: verb + 기를 바라요 to hope a whole event happens"],
+      ["바라는 게 있어요", "There's something I wish for", "바라다 + 는 게 to nominalize 'the thing I hope'"]
     ],
     "examples": [
-      ["저는 좋은 결과를 바라요", "I hope for a good result", "Polite present"],
-      ["빨리 낫기를 바랐어요", "I hoped you recover soon", "Past tense"],
-      ["우리는 평화를 바라요", "We wish for peace", "Polite present"]
+      ["저는 좋은 결과를 바라요", "I hope for a good result", "Noun + 를; hoping for an outcome"],
+      ["빨리 낫기를 바랐어요", "I hoped you'd recover soon", "Verb + 기를 바라다 = hope an action happens"],
+      ["네가 잘되길 바라", "I hope things go well for you", "Casual; 잘되길 is 잘되기를 shortened in speech"]
     ],
-    "nuance": "바라다 expresses heartfelt hopes for others, warmer than simply wanting an object.",
-    "mistakes": ["Writing 바래요 in formal text"],
+    "nuance": "바라다 is to HOPE or WISH FOR something, especially good things for other people, which gives it a warmer, more selfless feel than 원하다 ('to want' for yourself). The sharp contrast learners need: 바라다 leans toward outcomes beyond your control that you wish would happen (평화를 바라요 'I hope for peace'), while 원하다 names a concrete desire you intend to get (돈을 원해요 'I want money'). Its signature grammar is verb-기를 바라다 ('I hope that ~ happens'): 합격하기를 바라요. THE famous pitfall: the present polite form is 바라요, but almost every Korean accidentally says/writes 바래요 — that 바래다 actually means 'to fade in color'! The textbook-correct form is 바라요 / past 바랐어요, even though 바래요 dominates casual texting. Don't confuse 바라다 (hope) with 바라보다 (to gaze at).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "To HOPE or WISH FOR something, especially good things for other people, which gives it a warmer, more selfless feel. It leans toward outcomes beyond your control that you wish would happen (평화를 바라요 'I hope for peace'). Don't confuse 바라다 (hope) with 바라보다 (to gaze at)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp contrast learners need: 바라다 leans toward outcomes beyond your control that you wish would happen (평화를 바라요 'I hope for peace'), while 원하다 names a concrete desire you intend to get (돈을 원해요 'I want money')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Its signature grammar is verb-기를 바라다 ('I hope that ~ happens'): 합격하기를 바라요. The textbook-correct present polite form is 바라요, past 바랐어요.",
+        "chips": ["바라요", "바랐어요", "합격하기를 바라요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "THE famous pitfall: the present polite form is 바라요, but almost every Korean accidentally says/writes 바래요 — that 바래다 actually means 'to fade in color'! The textbook-correct form is 바라요 / past 바랐어요, even though 바래요 dominates casual texting."
+      }
+    ],
+    "mistakes": [
+      "Writing the polite form as 바래요. That belongs to 바래다 'to fade/discolor'. The standard form of 바라다 is 바라요, and the past is 바랐어요, not 바랬어요.",
+      "Using 바라다 for a selfish concrete want like 'I want this phone'. For tangible personal desires use 원하다 (이 폰을 원해요); 바라다 fits wishes for good outcomes, often for others.",
+      "Forgetting the 기를 frame for events: saying 빨리 낫고 바라요. The correct nominalizer is 낫기를 바라요 ('I hope you get well')."
+    ],
     "irregular": null
   },
   {
@@ -127,16 +219,44 @@
       "shallWe": "원할까요?"
     },
     "usage": [
-      ["뭘 원해요?", "What do you want?", "Polite question"],
-      ["저는 휴식을 원해요", "I want rest", "Stating a desire"]
+      ["뭘 원해요?", "What do you want?", "뭘 = 무엇을 shortened; direct but polite question"],
+      ["저는 휴식을 원해요", "I want rest", "Noun + 를; stating a clear desire"],
+      ["원하는 대로", "As you wish / however you want", "원하다 + 는 대로 = 'in the way one wants'"],
+      ["원하면 말해요", "Tell me if you want", "원하다 + 면 conditional, offering something"]
     ],
     "examples": [
-      ["저는 새 직업을 원해요", "I want a new job", "Polite present"],
-      ["그들은 변화를 원했어요", "They wanted change", "Past tense"],
-      ["당신이 원하는 걸 말해 주세요", "Please tell what you want", "Please form"]
+      ["저는 새 직업을 원해요", "I want a new job", "Want a NOUN (a thing) + 를"],
+      ["그들은 변화를 원했어요", "They wanted change", "Past tense; abstract noun as object"],
+      ["당신이 원하는 걸 말해 주세요", "Please tell me what you want", "원하는 걸 = 원하는 것을, 'the thing you want'"]
     ],
-    "nuance": "원하다 names a concrete desire for a thing or outcome, more formal than 싶다 endings.",
-    "mistakes": ["Using 원하다 for verb actions"],
+    "nuance": "원하다 is Sino-Korean (願 'wish/desire' + 하다) and means to WANT a thing or outcome — it takes a NOUN object (커피를 원해요 'I want coffee'). The critical contrast for English speakers is with -고 싶다: to want to DO an action, you cannot use 원하다, you must use the verb stem + 고 싶다 (가고 싶어요 'I want to go'), never 가는 것을 원해요, which sounds stiff and translated. Compared with 바라다 ('hope'), 원하다 is more direct, concrete, and self-centered — a desire you mean to fulfill, not a gentle wish. It also feels a touch more formal and forceful than 갖고 싶다 ('want to have'); a waiter or a contract uses 원하다. Pitfall: English 'I want to eat' tempts you to reach for 원하다, but the natural Korean is 먹고 싶어요. Reserve 원하다 for noun objects.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Means to WANT a thing or outcome — it takes a NOUN object (커피를 원해요 'I want coffee'). It feels a touch more formal and forceful than 갖고 싶다 ('want to have'); a waiter or a contract uses 원하다. Reserve 원하다 for noun objects."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compared with 바라다 ('hope'), 원하다 is more direct, concrete, and self-centered — a desire you mean to fulfill, not a gentle wish."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean: 願 'wish/desire' + 하다."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The critical contrast with -고 싶다: to want to DO an action, you cannot use 원하다, you must use the verb stem + 고 싶다 (가고 싶어요 'I want to go'), never 가는 것을 원해요, which sounds stiff and translated. English 'I want to eat' tempts you to reach for 원하다, but the natural Korean is 먹고 싶어요."
+      }
+    ],
+    "mistakes": [
+      "Using 원하다 to want an ACTION: 가는 것을 원해요 for 'I want to go'. Korean uses verb + 고 싶다 instead: 가고 싶어요.",
+      "Treating 원하다 like gentle 바라다. 원하다 is a firm, concrete desire (돈을 원해요); for warm wishes toward others use 바라다 (행복을 바라요).",
+      "Dropping the object particle in writing: 저는 휴식 원해요. In full sentences attach 를: 휴식을 원해요 (the 를 may drop only in very casual speech)."
+    ],
     "irregular": null
   },
   {
@@ -162,16 +282,45 @@
       "shallWe": "걱정할까요?"
     },
     "usage": [
-      ["걱정하지 마세요", "Dont worry", "Very common comfort"],
-      ["너무 걱정해요", "I worry too much", "Admitting anxiety"]
+      ["걱정하지 마세요", "Don't worry", "Extremely common comfort phrase"],
+      ["걱정 마", "No worries / don't worry", "Casual clipped form (하 dropped) to a friend"],
+      ["걱정이 돼요", "I'm worried", "Subject 이 + 되다: worry arises by itself, no 를"],
+      ["걱정을 끼치다", "to cause (someone) worry", "Fixed collocation: 걱정을 끼쳐 드려서 죄송해요"]
     ],
     "examples": [
-      ["엄마가 저를 걱정해요", "My mom worries about me", "Polite present"],
-      ["시험을 많이 걱정했어요", "I worried much about the exam", "Past tense"],
-      ["건강을 걱정해야 해요", "I must worry about health", "Must form"]
+      ["엄마가 저를 걱정해요", "My mom worries about me", "Person worried about + 를"],
+      ["시험을 많이 걱정했어요", "I worried a lot about the exam", "많이 modifies the worrying; past tense"],
+      ["걱정하지 마, 다 잘될 거야", "Don't worry, it'll all work out", "Casual reassurance pairing the negative with 잘되다"]
     ],
-    "nuance": "걱정하다 shows caring concern for someone or something, and the negative form reassures.",
-    "mistakes": ["Adding 을 before 안 해요"],
+    "nuance": "걱정하다 (걱정 = 'worry/anxiety' + 하다) is the everyday verb for being anxious or concerned about someone or something. Distinguish it sharply from 고민하다: 걱정하다 is feeling ANXIOUS about how things will turn out ('I'm worried about my grades'), whereas 고민하다 is actively DELIBERATING over a hard choice ('I'm agonizing over which job to take'). As a 하다-verb it splits in the negative — 걱정 안 해요 (separating the noun) or 걱정하지 않아요 — and the favor form 걱정해 주다 means 'to worry on someone's behalf', a kind gesture. The natural way to say 'I feel worried' is 걱정이 돼요 (걱정 + 이 + 되다), not 걱정을 해요, which sounds like deliberate worrying. The single most useful phrase in the whole language family is 걱정하지 마세요 ('don't worry') — memorize it. English 'I'm worried about you' is 네가 걱정돼 or 너를 걱정해, not 너에 대해 걱정해.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The everyday verb for being anxious or concerned about someone or something. The single most useful phrase in the whole language family is 걱정하지 마세요 ('don't worry') — memorize it."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it sharply from 고민하다: 걱정하다 is feeling ANXIOUS about how things will turn out ('I'm worried about my grades'), whereas 고민하다 is actively DELIBERATING over a hard choice ('I'm agonizing over which job to take')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 하다-verb it splits in the negative — 걱정 안 해요 (separating the noun) or 걱정하지 않아요 — and the favor form 걱정해 주다 means 'to worry on someone's behalf', a kind gesture. The natural way to say 'I feel worried' is 걱정이 돼요 (걱정 + 이 + 되다), not 걱정을 해요.",
+        "chips": ["걱정 안 해요", "걱정하지 않아요", "걱정이 돼요", "걱정해 주다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'I'm worried about you' is 네가 걱정돼 or 너를 걱정해, not 너에 대해 걱정해. Also, 걱정을 해요 sounds like deliberate worrying — for the spontaneous feeling use 걱정이 돼요."
+      }
+    ],
+    "mistakes": [
+      "Saying 걱정을 해요 for the feeling 'I'm worried'. Korean prefers 걱정이 돼요 (worry arises) for the spontaneous emotion.",
+      "Confusing 걱정하다 (anxious feeling) with 고민하다 (mulling over a decision). 'Worried about the result' = 결과를 걱정해요; 'agonizing over the choice' = 선택을 고민해요.",
+      "Over-attaching ~에 대해: 너에 대해 걱정해요. Natural Korean is 너를 걱정해요 or 네가 걱정돼요."
+    ],
     "irregular": null
   },
   {
@@ -197,16 +346,45 @@
       "shallWe": "놀랄까요?"
     },
     "usage": [
-      ["깜짝 놀랐어요", "I was startled", "Sudden shock"],
-      ["놀라지 마세요", "Dont be alarmed", "Calming phrase"]
+      ["깜짝 놀랐어요", "I was startled", "깜짝 is the mimetic adverb for a sudden jolt of shock"],
+      ["놀라지 마세요", "Don't be alarmed", "Calming phrase before delivering surprising news"],
+      ["놀랄 일이 아니에요", "It's nothing to be surprised about", "놀랄 + 일 = 'a thing to be surprised at'"],
+      ["깜짝 놀라게 하다", "to startle / surprise someone", "Causative: 깜짝 놀라게 해 줄게 'I'll surprise you'"]
     ],
     "examples": [
-      ["소식을 듣고 놀랐어요", "I was surprised at the news", "Past tense"],
-      ["저는 가격에 놀랐어요", "I was surprised by the price", "Past tense"],
-      ["갑자기 놀랄 수 있어요", "You may get startled suddenly", "Can form"]
+      ["소식을 듣고 놀랐어요", "I was surprised to hear the news", "-고 links the trigger (hearing) to the reaction"],
+      ["저는 가격에 놀랐어요", "I was surprised by the price", "Cause takes 에: 'surprised AT the price'"],
+      ["야, 깜짝이야! 놀랐잖아", "Hey, you scared me! I got startled", "Casual; 놀랐잖아 nudges 'see, you made me jump'"]
     ],
-    "nuance": "놀라다 captures sudden surprise or shock, usually used in the past tense after the event.",
-    "mistakes": ["Using present for a past shock"],
+    "nuance": "놀라다 is to BE SURPRISED, STARTLED, or SHOCKED — a sudden involuntary reaction, so it lives mostly in the past tense (놀랐어요 'I was surprised') because by the time you speak, the jolt already happened. Although it ends in 라, it is NOT a 르-irregular like 빠르다→빨라요; it conjugates straightforwardly: 놀라 + 았어요 → 놀랐어요. The cause of the surprise takes the particle 에 (가격에 놀랐어요 'surprised at the price') or the connector -고 (듣고 놀랐어요 'heard and was surprised'). Distinguish it from 놀다 'to play' — one extra ㄹ-syllable apart but utterly different. Its constant companion is the mimetic word 깜짝 ('with a start'): 깜짝 놀랐어요 is the default phrase. To say something IS surprising/amazing, switch to the adjective 놀랍다 (놀라워요). English speakers wrongly mark the cause with 를; remember the trigger gets 에, not the object particle.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "To BE SURPRISED, STARTLED, or SHOCKED — a sudden involuntary reaction, so it lives mostly in the past tense (놀랐어요 'I was surprised') because by the time you speak, the jolt already happened. Its constant companion is the mimetic word 깜짝 ('with a start'): 깜짝 놀랐어요 is the default phrase."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it from 놀다 'to play' — one extra ㄹ-syllable apart but utterly different. To say something IS surprising/amazing, switch to the adjective 놀랍다 (놀라워요)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Although it ends in 라, it is NOT a 르-irregular like 빠르다→빨라요; it conjugates straightforwardly: 놀라 + 았어요 → 놀랐어요. The cause of the surprise takes the particle 에 (가격에 놀랐어요) or the connector -고 (듣고 놀랐어요).",
+        "chips": ["놀라요", "놀랐어요", "가격에 놀랐어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English speakers wrongly mark the cause with 를; remember the trigger gets 에, not the object particle (가격에 놀랐어요, not 가격을)."
+      }
+    ],
+    "mistakes": [
+      "Marking the cause with 를: 가격을 놀랐어요. The thing that surprises you takes 에 — 가격에 놀랐어요 — because 놀라다 is intransitive.",
+      "Using the present 놀라요 for a past shock. Since surprise is instantaneous, use the past: 놀랐어요 ('I was surprised').",
+      "Mixing up 놀라다 (be surprised, 놀라요) with 놀다 (to play, 놀아요). To say something is amazing, use the adjective 놀랍다 → 놀라워요."
+    ],
     "irregular": null
   },
   {
@@ -232,16 +410,45 @@
       "shallWe": "즐길까요?"
     },
     "usage": [
-      ["주말을 즐겨요", "I enjoy the weekend", "Casual lifestyle"],
-      ["맛있게 즐기세요", "Enjoy your meal", "Polite wish"]
+      ["주말을 즐겨요", "I enjoy the weekend", "Object + 를; savoring a stretch of time"],
+      ["맛있게 드세요", "Enjoy your meal", "Note: for food Koreans say 맛있게 드세요, NOT 즐기세요"],
+      ["즐겨 듣다", "to enjoy listening to (habitually)", "즐겨 + verb = 'habitually & with pleasure do': 즐겨 봐요"],
+      ["인생을 즐기다", "to enjoy life", "Common collocation, a YOLO-ish life motto"]
     ],
     "examples": [
-      ["저는 음악을 즐겨요", "I enjoy music", "Polite present"],
-      ["여행을 정말 즐겼어요", "I really enjoyed the trip", "Past tense"],
-      ["인생을 즐기고 싶어요", "I want to enjoy life", "Want form"]
+      ["저는 음악을 즐겨요", "I enjoy music", "Enjoy a NOUN directly; no extra verb needed"],
+      ["여행을 정말 즐겼어요", "I really enjoyed the trip", "정말 intensifies; past tense after the event"],
+      ["우리 그냥 이 순간을 즐기자", "Let's just enjoy this moment", "Casual 자-suggestion; 순간 = moment"]
     ],
-    "nuance": "즐기다 means actively savoring an activity, stronger and more deliberate than just liking it.",
-    "mistakes": ["Confusing 즐기다 with 좋아하다"],
+    "nuance": "즐기다 means to ENJOY in the sense of actively savoring or relishing an activity — it is more deliberate and engaged than 좋아하다 ('to like'). The sharp distinction: 좋아하다 states a preference ('I like coffee', 커피를 좋아해요) and can apply to people you fancy, while 즐기다 means you actively partake in and take pleasure FROM something (커피를 즐겨요 'I enjoy/savor coffee', as a hobby or ritual). A very useful construction is 즐겨 + verb, meaning 'to habitually do X with pleasure': 즐겨 보다 ('enjoy watching, watch regularly'), 즐겨 듣다 ('enjoy listening to'). The biggest pitfall is English 'Enjoy your meal!' — do NOT say 식사를 즐기세요; the idiomatic phrase is 맛있게 드세요/잡수세요 ('eat deliciously'). Also note 즐기다 takes a noun object with 를, so 'enjoy reading' becomes 독서를 즐기다 or 책 읽는 걸 즐기다, not a bare verb.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "To ENJOY in the sense of actively savoring or relishing an activity — more deliberate and engaged than 좋아하다 ('to like'). Note 즐기다 takes a noun object with 를, so 'enjoy reading' becomes 독서를 즐기다 or 책 읽는 걸 즐기다, not a bare verb."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The sharp distinction: 좋아하다 states a preference ('I like coffee', 커피를 좋아해요) and can apply to people you fancy, while 즐기다 means you actively partake in and take pleasure FROM something (커피를 즐겨요 'I enjoy/savor coffee', as a hobby or ritual)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "A very useful construction is 즐겨 + verb, meaning 'to habitually do X with pleasure': 즐겨 보다 ('enjoy watching, watch regularly'), 즐겨 듣다 ('enjoy listening to').",
+        "chips": ["즐겨요", "즐겼어요", "즐겨 보다", "즐겨 듣다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The biggest pitfall is English 'Enjoy your meal!' — do NOT say 식사를 즐기세요; the idiomatic phrase is 맛있게 드세요/잡수세요 ('eat deliciously')."
+      }
+    ],
+    "mistakes": [
+      "Saying 식사를 즐기세요 for 'Enjoy your meal'. The natural phrase is 맛있게 드세요 (or 맛있게 잡수세요 to elders); 즐기다 isn't used as a meal greeting.",
+      "Treating 즐기다 and 좋아하다 as identical. 좋아하다 = like/prefer (and is used for crushes); 즐기다 = actively savor an activity. 'I like you' is 좋아해요, never 즐겨요.",
+      "Attaching a bare verb: 읽다를 즐겨요. Nominalize first — 읽는 걸 즐겨요 or 독서를 즐겨요 ('enjoy reading')."
+    ],
     "irregular": null
   },
   {
@@ -267,16 +474,50 @@
       "shallWe": "후회할까요?"
     },
     "usage": [
-      ["후회 안 해요", "I have no regrets", "Firm statement"],
-      ["나중에 후회해요", "You regret it later", "Warning tone"]
+      ["후회 안 해요", "I have no regrets", "Firm, often defiant statement (noun split by 안)"],
+      ["나중에 후회해요", "You'll regret it later", "Warning tone; 나중에 = later"],
+      ["-(으)ㄴ 걸 후회해요", "I regret having done...", "Past action + 걸 후회하다 to regret a deed"],
+      ["후회막심이에요", "I deeply regret it", "후회막심 (後悔莫甚), an idiom for overwhelming regret"]
     ],
     "examples": [
-      ["저는 그 선택을 후회해요", "I regret that choice", "Polite present"],
-      ["말을 너무 많이 해서 후회했어요", "I regretted talking too much", "Past tense"],
-      ["지금 안 하면 후회할 거예요", "You will regret not doing it", "Future form"]
+      ["저는 그 선택을 후회해요", "I regret that choice", "Object + 를; the thing you regret"],
+      ["말을 너무 많이 해서 후회했어요", "I regretted talking too much", "-아서 gives the reason for the regret"],
+      ["지금 안 하면 나중에 후회할 거야", "If you don't do it now, you'll regret it later", "Casual; conditional 면 + future warning"]
     ],
-    "nuance": "후회하다 expresses regret over a past decision, often paired with a reason clause.",
-    "mistakes": ["Using future when regret is now"],
+    "nuance": "후회하다 is Sino-Korean — 後悔 literally stacks 後 'after' + 悔 'regret/remorse', i.e. the regret that comes AFTER the deed — and names the painful wish that you had chosen differently. It typically points backward (그 결정을 후회해요 'I regret that decision') and frequently pairs with a reason clause in -아서/어서 or with a past-action nominalizer -(으)ㄴ 걸: 그렇게 말한 걸 후회해. Distinguish it from 아쉽다, which is a milder 'it's a shame / I wish it were a bit different' about things often outside your control, whereas 후회하다 carries genuine self-reproach over your own past action. Also separate it from 미안하다 ('to be sorry' TO someone) — 후회하다 is regret felt inside, not an apology directed at another person. Pitfall: 'I regret to inform you' has no 후회하다 equivalent; that polite-letter formula becomes 안타깝게도 or 죄송하지만. Keep the object with 를, and remember the negative splits as 후회 안 해요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "Names the painful wish that you had chosen differently. It typically points backward (그 결정을 후회해요 'I regret that decision')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it from 아쉽다, a milder 'it's a shame / I wish it were a bit different' about things often outside your control, whereas 후회하다 carries genuine self-reproach over your own past action. Also separate it from 미안하다 ('to be sorry' TO someone) — 후회하다 is regret felt inside, not an apology directed at another person."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean: 後悔 literally stacks 後 'after' + 悔 'regret/remorse', i.e. the regret that comes AFTER the deed."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It frequently pairs with a reason clause in -아서/어서 or with a past-action nominalizer -(으)ㄴ 걸: 그렇게 말한 걸 후회해. Keep the object with 를, and remember the negative splits as 후회 안 해요.",
+        "chips": ["후회해요", "후회했어요", "후회 안 해요", "한 걸 후회해"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "'I regret to inform you' has no 후회하다 equivalent; that polite-letter formula becomes 안타깝게도 or 죄송하지만."
+      }
+    ],
+    "mistakes": [
+      "Using 후회하다 as an apology to someone: 너한테 후회해. To apologize you need 미안하다/죄송하다 (미안해); 후회하다 is internal regret, not 'sorry to you'.",
+      "Confusing it with mild 아쉽다. 'It's a shame the trip ended' = 여행이 끝나서 아쉬워요; deep self-blame over your decision = 그 결정을 후회해요.",
+      "Saying 후회를 안 해요 awkwardly in speech — fine, but the more idiomatic split is 후회 안 해요, and 'I'll regret it' is 후회할 거예요, not 후회겠어요."
+    ],
     "irregular": null
   },
   {
@@ -302,16 +543,44 @@
       "shallWe": "고민할까요?"
     },
     "usage": [
-      ["혼자 고민해요", "I worry over it alone", "Inner struggle"],
-      ["뭘 그렇게 고민해요?", "What are you pondering?", "Curious question"]
+      ["혼자 고민해요", "I agonize over it alone", "혼자 = by oneself; the lonely, brooding nuance"],
+      ["뭘 그렇게 고민해요?", "What are you mulling over so hard?", "Curious, slightly teasing question"],
+      ["고민 중이에요", "I'm thinking it over", "고민 + 중 = 'in the middle of deliberating'"],
+      ["고민을 들어주다", "to listen to someone's troubles", "들어주다 = lend an ear to a worry"]
     ],
     "examples": [
-      ["저는 진로를 고민해요", "I ponder my career path", "Polite present"],
-      ["오래 고민했어요", "I pondered for a long time", "Past tense"],
-      ["천천히 고민해 주세요", "Please think it over slowly", "Please form"]
+      ["저는 진로를 고민해요", "I'm mulling over my career path", "진로 (career direction) is a classic object of 고민하다"],
+      ["오래 고민했어요", "I deliberated for a long time", "오래 = for a long while; past tense"],
+      ["살까 말까 고민 중이야", "I'm torn over whether to buy it or not", "Casual; 살까 말까 = 'to buy or not', the agonizing-choice frame"]
     ],
-    "nuance": "고민하다 means turning a hard choice over in your mind, mixing worry with deliberation.",
-    "mistakes": ["Treating it as light thinking"],
+    "nuance": "고민하다 is Sino-Korean: 苦悶 fuses 苦 'bitter/painful' + 悶 'anguish/stuffiness', so it literally paints a bitter, stuffy churning in the chest — it means to AGONIZE OVER or deeply DELIBERATE a hard problem or choice, heavier than plain 생각하다 ('to think'). The key contrast is with 걱정하다: 걱정하다 is anxious WORRY about an uncertain outcome, while 고민하다 is wrestling with a DECISION or a problem you're trying to solve (어느 대학에 갈지 고민해요 'I'm agonizing over which university to attend'). It also outweighs 생각하다, which is neutral thinking; 고민하다 implies the matter weighs on you. As a noun, 고민 means 'a worry/dilemma' (고민이 있어요 'I have something troubling me'), and 고민 중이에요 is the natural 'I'm still deciding'. Pitfall: don't use 고민하다 for light, pleasant pondering like daydreaming — that's just 생각하다. And it's a problem you mull, not a person.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "To AGONIZE OVER or deeply DELIBERATE a hard problem or choice, heavier than plain 생각하다 ('to think'). As a noun, 고민 means 'a worry/dilemma' (고민이 있어요 'I have something troubling me'), and 고민 중이에요 is the natural 'I'm still deciding'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The key contrast is with 걱정하다: 걱정하다 is anxious WORRY about an uncertain outcome, while 고민하다 is wrestling with a DECISION or a problem you're trying to solve (어느 대학에 갈지 고민해요). It also outweighs 생각하다, which is neutral thinking; 고민하다 implies the matter weighs on you."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Sino-Korean: 苦悶 fuses 苦 'bitter/painful' + 悶 'anguish/stuffiness', so it literally paints a bitter, stuffy churning in the chest."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't use 고민하다 for light, pleasant pondering like daydreaming — that's just 생각하다. And it's a problem you mull, not a person."
+      }
+    ],
+    "mistakes": [
+      "Using 고민하다 for casual everyday thinking: 점심 뭐 먹을지 고민해요 for a trivial 'what's for lunch' overstates it (though Koreans do joke this way). Neutral thought is 생각해요.",
+      "Confusing 고민하다 (wrestling with a decision/problem) with 걱정하다 (anxious about an outcome). 'Worried about the result' = 결과를 걱정해요; 'agonizing over which to choose' = 뭘 고를지 고민해요.",
+      "Saying 고민이 해요. The noun pattern is 고민이 있어요 ('I have a worry') or 고민 중이에요 ('I'm deliberating'); the verb is 고민해요."
+    ],
     "irregular": null
   },
   {
@@ -337,16 +606,45 @@
       "shallWe": "참을까요?"
     },
     "usage": [
-      ["조금만 참아요", "Hold on a little", "Encouragement"],
-      ["더는 못 참아요", "I cant take it anymore", "Limit reached"]
+      ["조금만 참아요", "Hold on just a little", "조금만 = just a bit; encouragement to bear with it"],
+      ["더는 못 참아요", "I can't take it anymore", "못 + 참다 = unable to endure; the breaking point"],
+      ["참을성이 있다", "to be patient", "참을성 = patience (the noun derived from 참다)"],
+      ["눈물을 참다", "to hold back tears", "Classic collocation with 눈물; also 웃음을 참다 'stifle a laugh'"]
     ],
     "examples": [
-      ["저는 화를 참았어요", "I held back my anger", "Past tense"],
-      ["아픈 걸 참아야 해요", "I must endure the pain", "Must form"],
-      ["눈물을 참을 수 없어요", "I cannot hold back tears", "Cannot form"]
+      ["저는 화를 참았어요", "I held back my anger", "화를 참다 = suppress anger, a very common pairing"],
+      ["아픈 걸 참아야 해요", "I have to endure the pain", "아픈 걸 = 아픈 것을, 'the painful thing'"],
+      ["웃음을 참을 수 없었어", "I couldn't hold back my laughter", "Casual past; 웃음 = laughter, with the cannot form"]
     ],
-    "nuance": "참다 means holding back an urge or enduring discomfort, valued highly in Korean patience.",
-    "mistakes": ["Saying 참어요 instead of 참아요"],
+    "nuance": "참다 is a native verb meaning to ENDURE, BEAR, or HOLD BACK — both physical discomfort (아픔을 참다 'endure pain') and inner urges you suppress (화를 참다 'hold back anger', 눈물을 참다 'hold back tears', 웃음을 참다 'stifle a laugh'). The stem ends in ㅁ, so it is a REGULAR verb: add 아 → 참아요, past 참았어요 — never 참어요 (the bright ㅏ vowel governs the ending). Contrast it with 견디다, which is to withstand a prolonged hardship or pressure over time (고통을 견디다 'endure suffering', 더위를 견디다 'bear the heat'); 참다 leans toward actively restraining a momentary impulse, while 견디다 leans toward holding up under sustained strain. 참다 carries cultural weight — patience and self-restraint (참을성) are prized virtues. Pitfall: choose 참아요 not 참어요, and for an ongoing battle against hardship 견디다 often fits better than 참다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "A native verb meaning to ENDURE, BEAR, or HOLD BACK — both physical discomfort (아픔을 참다 'endure pain') and inner urges you suppress (화를 참다 'hold back anger', 눈물을 참다 'hold back tears', 웃음을 참다 'stifle a laugh'). It carries cultural weight — patience and self-restraint (참을성) are prized virtues."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it with 견디다, which is to withstand a prolonged hardship or pressure over time (고통을 견디다 'endure suffering', 더위를 견디다 'bear the heat'); 참다 leans toward actively restraining a momentary impulse, while 견디다 leans toward holding up under sustained strain. For an ongoing battle against hardship 견디다 often fits better."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The stem ends in ㅁ, so it is a REGULAR verb: add 아 → 참아요, past 참았어요 — never 참어요 (the bright ㅏ vowel governs the ending).",
+        "chips": ["참아요", "참았어요", "못 참아요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Choose 참아요 not 참어요, and for an ongoing battle against hardship 견디다 often fits better than 참다."
+      }
+    ],
+    "mistakes": [
+      "Conjugating it as 참어요. The stem vowel ㅏ is bright, so it takes 아: 참아요, past 참았어요.",
+      "Using 참다 for long-term withstanding: 일 년 동안 참았어요 for 'endured for a year' is better as 견뎠어요. 참다 = restrain a momentary urge; 견디다 = hold up under sustained hardship.",
+      "Forgetting 못 for the 'can't bear it' meaning: saying 안 참아요 ('I choose not to endure') when you mean 못 참아요 ('I can't endure it'). 못 marks inability."
+    ],
     "irregular": null
   },
   {
@@ -372,16 +670,44 @@
       "shallWe": "화낼까요?"
     },
     "usage": [
-      ["화내지 마세요", "Please dont be angry", "Calming request"],
-      ["왜 화내요?", "Why are you angry?", "Direct question"]
+      ["화내지 마세요", "Please don't be angry", "Calming request; very common"],
+      ["왜 화내요?", "Why are you mad?", "Direct question; the person showing anger is the subject"],
+      ["나한테 화내지 마", "Don't take it out on me", "한테 marks the target of the anger; casual"],
+      ["버럭 화내다", "to flare up / snap angrily", "버럭 is the mimetic adverb for a sudden outburst"]
     ],
     "examples": [
-      ["아버지가 화냈어요", "My father got angry", "Past tense"],
-      ["저한테 화내지 마세요", "Please dont get angry at me", "Please form"],
-      ["작은 일에 화내요", "He gets angry over small things", "Polite present"]
+      ["아버지가 화냈어요", "My father got angry", "Subject + 가 shows/expresses anger outwardly"],
+      ["저한테 화내지 마세요", "Please don't get angry at me", "한테 = at/to me; the recipient of the anger"],
+      ["작은 일에 화내요", "He gets angry over small things", "작은 일에 = at small matters; 에 marks the trigger"]
     ],
-    "nuance": "화내다 means showing anger outwardly, while 화나다 describes the feeling rising inside you.",
-    "mistakes": ["Mixing up 화내다 and 화나다"],
+    "nuance": "화내다 literally combines 화 (火, Sino-Korean 'fire' = anger) + 내다 ('to put out, let out'), so it pictures LETTING THE FIRE OUT — to OUTWARDLY SHOW or express anger (raising your voice, scolding). The essential contrast is with 화나다 (화 + 나다 'to arise'): 화나다 is the anger RISING inside you, an involuntary feeling ('I'm angry / I got mad', 화났어요), while 화내다 is the active VENTING of it toward someone ('he got angry at me', 나한테 화냈어요). So 화났어요 = 'I feel angry' (inner state), but 화냈어요 = 'I lashed out' (outward act). The target of 화내다 takes 한테/에게 (나한테 화내다), and the trigger takes 에 (작은 일에 화내다). Pitfall: English 'I'm angry' is the feeling — use 화났어요, NOT 화냈어요, which would mean you displayed anger at someone. Keep 내다 (let out) and 나다 (arise) straight; one letter flips agent vs experiencer.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "To OUTWARDLY SHOW or express anger (raising your voice, scolding). The target of 화내다 takes 한테/에게 (나한테 화내다), and the trigger takes 에 (작은 일에 화내다)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The essential contrast is with 화나다 (화 + 나다 'to arise'): 화나다 is the anger RISING inside you, an involuntary feeling ('I'm angry / I got mad', 화났어요), while 화내다 is the active VENTING of it toward someone ('he got angry at me', 나한테 화냈어요). So 화났어요 = 'I feel angry' (inner state), but 화냈어요 = 'I lashed out' (outward act). Keep 내다 (let out) and 나다 (arise) straight; one letter flips agent vs experiencer."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Literally combines 화 (火, Sino-Korean 'fire' = anger) + 내다 ('to put out, let out'), so it pictures LETTING THE FIRE OUT."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "English 'I'm angry' is the feeling — use 화났어요, NOT 화냈어요, which would mean you displayed anger at someone."
+      }
+    ],
+    "mistakes": [
+      "Saying 화냈어요 for 'I am/was angry' (the feeling). The feeling rising in you is 화나다 → 화났어요; 화내다 (화냈어요) means you actively vented anger at someone.",
+      "Marking the person you're mad at with 를: 너를 화내요. The target takes 한테/에게 — 너한테 화내요.",
+      "Confusing 내다 (let out) and 나다 (arise): 화내다 = show anger outward; 화나다 = anger wells up inside. Mixing the stems reverses who is doing what."
+    ],
     "irregular": null
   },
   {
@@ -407,16 +733,44 @@
       "shallWe": "무서워할까요?"
     },
     "usage": [
-      ["무서워하지 마세요", "Dont be scared", "Reassuring phrase"],
-      ["개를 무서워해요", "I am afraid of dogs", "Stating a fear"]
+      ["무서워하지 마세요", "Don't be scared", "Reassuring phrase to someone in fear"],
+      ["개를 무서워해요", "He's afraid of dogs", "Object of fear + 를; describing another's fear"],
+      ["무서워하는 표정", "a frightened look", "무서워하다 + 는 modifying a noun (expression)"],
+      ["벌레를 무서워하다", "to be scared of bugs", "Common everyday collocation with 벌레"]
     ],
     "examples": [
-      ["아이가 어둠을 무서워해요", "The child fears the dark", "Polite present"],
-      ["저는 높은 곳을 무서워했어요", "I was afraid of heights", "Past tense"],
-      ["귀신을 무서워하지 마세요", "Please dont fear ghosts", "Please form"]
+      ["아이가 어둠을 무서워해요", "The child is afraid of the dark", "Object + 를; the child fears the dark"],
+      ["저는 높은 곳을 무서워했어요", "I was afraid of heights", "높은 곳 = high places; past tense"],
+      ["뱀? 나 그거 진짜 무서워해", "Snakes? I'm seriously scared of those", "Casual; 진짜 intensifies the fear"]
     ],
-    "nuance": "무서워하다 describes someone showing fear of a thing, while 무섭다 says the thing is scary.",
-    "mistakes": ["Using 무섭다 for a persons fear"],
+    "nuance": "무서워하다 is the VERB form built from the adjective 무섭다 ('scary/frightening') plus -어하다, the suffix that turns a feeling-adjective into 'to show/display that feeling'. This is the heart of the matter for English speakers: 무섭다 describes the OBJECT — 'X is scary' (개가 무서워요 'dogs are scary TO ME', expressing the speaker's own fear) — whereas 무서워하다 describes a PERSON outwardly being afraid of something and takes a 를-object: 개를 무서워해요 ('he is afraid of dogs'). Korean grammar reserves bare adjectives like 무섭다 mainly for the speaker's own felt state, so to report a THIRD person's fear you must use 무서워하다 (동생이 개를 무서워해요), not 동생이 개가 무서워요. The same -어하다 pattern drives 좋아하다 (from 좋다), 싫어하다 (from 싫다), 예뻐하다 (from 예쁘다). Pitfall: don't put 를 on 무섭다 (개를 무서워요 is wrong) — 무섭다 takes 가 for the scary thing; only 무서워하다 takes 를.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "The VERB form that describes a PERSON outwardly being afraid of something and takes a 를-object: 개를 무서워해요 ('he is afraid of dogs'). Korean grammar reserves bare adjectives like 무섭다 mainly for the speaker's own felt state, so to report a THIRD person's fear you must use 무서워하다 (동생이 개를 무서워해요), not 동생이 개가 무서워요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The heart of the matter for English speakers: 무섭다 describes the OBJECT — 'X is scary' (개가 무서워요 'dogs are scary TO ME', expressing the speaker's own fear) — whereas 무서워하다 describes a PERSON outwardly being afraid of something."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Built from the adjective 무섭다 ('scary/frightening') plus -어하다, the suffix that turns a feeling-adjective into 'to show/display that feeling'. The same -어하다 pattern drives 좋아하다 (from 좋다), 싫어하다 (from 싫다), 예뻐하다 (from 예쁘다)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Don't put 를 on 무섭다 (개를 무서워요 is wrong) — 무섭다 takes 가 for the scary thing; only 무서워하다 takes 를."
+      }
+    ],
+    "mistakes": [
+      "Saying 동생이 개가 무서워요 to mean 'my sibling is afraid of dogs'. Bare 무섭다 expresses the speaker's OWN fear; for a third person's fear use the verb: 동생이 개를 무서워해요.",
+      "Putting 를 on the adjective: 개를 무서워요. 무섭다 takes 가 (개가 무서워요 'dogs are scary'); only the verb 무서워하다 takes the 를-object.",
+      "Forgetting the -어하다 logic across feelings: by the same rule, a third person 'likes/dislikes' uses 좋아하다/싫어하다, not bare 좋다/싫다."
+    ],
     "irregular": null
   }
 ]

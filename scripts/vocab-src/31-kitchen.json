@@ -7,18 +7,39 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-i-ga"],
     "usage": [
-      ["그릇을 씻어요.", "I wash the bowl.", "Object with 을"],
-      ["그릇이 깨끗해요.", "The bowl is clean.", "Subject with 이"],
-      ["밥그릇에 밥을 담아요.", "I put rice in the rice bowl.", "Compound 밥그릇"],
-      ["그릇으로 국을 떠요.", "I scoop soup with a bowl.", "Tool with 으로"]
+      ["그릇을 씻다", "to wash a bowl", "Pairs with 씻다 (rinse with water), the default verb for dishes — not 닦다."],
+      ["밥그릇", "rice bowl", "그릇 is a productive suffix: 밥그릇 (rice), 국그릇 (soup), 개밥그릇 (dog's bowl)."],
+      ["그릇에 담다", "to put/serve into a bowl", "Use the location particle 에 plus 담다 (to put food in) — the natural pair for filling a bowl."],
+      ["그릇을 깨다", "to break a bowl", "그릇 is the typical thing you 깨다 (break/smash); 깨진 그릇 = a broken bowl."]
     ],
     "examples": [
-      ["식탁에 그릇을 놓아요.", "I place the bowl on the table.", "Object with 을"],
-      ["이 그릇이 너무 작아요.", "This bowl is too small.", "Subject with 이"],
-      ["국을 그릇에 담아 주세요.", "Please put the soup in a bowl.", "Place with 에"]
+      ["그릇이 예뻐요.", "The bowl is pretty.", "Simplest frame: subject 이 + descriptive adjective 예쁘다."],
+      ["밥을 그릇에 담아 주세요.", "Please serve the rice into a bowl.", "Everyday request: location 에 + 담다, the verb for putting food in."],
+      ["설거지할 때 깨지기 쉬운 그릇은 따로 씻으세요.", "When you do the dishes, wash fragile bowls separately.", "Real situation: 깨지기 쉽다 (easy to break) modifying 그릇 in a kitchen instruction."]
     ],
-    "nuance": "그릇 is the general word for a bowl or dish that holds rice, soup, or side dishes in a Korean meal.",
-    "mistakes": ["Say 그릇을 씻어요, not 그릇을 닦아요, for washing."]
+    "nuance": "그릇 is the broad native-Korean word for a vessel that holds food — most often the deeper, rounded bowl that rice, soup, or 반찬 sit in, but it also works as the generic cover term for 'dishes/dishware' (그릇을 닦다 = do the dishes). The dividing line you must feel is 그릇 vs 접시: 그릇 is deep and holds something pourable or piled, while 접시 is the flat plate you lay food onto. Note the everyday verb is 씻다 (rinse), not the English-driven 닦다 (wipe) — 닦다 is for wiping a surface dry, not washing dishes. The big English-speaker pitfall is the particle: you serve food 그릇에 담다 (into the bowl, location 에), so saying 그릇을 담다 is wrong because 담다 needs the destination, not the food, marked. Common collocations: 그릇을 씻다, 그릇에 담다, 그릇을 깨다, 밥그릇.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "그릇 is the broad native-Korean word for a vessel that holds food — most often the deeper, rounded bowl that rice, soup, or 반찬 sit in, but it also works as the generic cover term for 'dishes/dishware' (그릇을 닦다 = do the dishes). Note the everyday verb is 씻다 (rinse), not the English-driven 닦다 (wipe) — 닦다 is for wiping a surface dry, not washing dishes."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The dividing line you must feel is 그릇 vs 접시: 그릇 is deep and holds something pourable or piled, while 접시 is the flat plate you lay food onto."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The big English-speaker pitfall is the particle: you serve food 그릇에 담다 (into the bowl, location 에), so saying 그릇을 담다 is wrong because 담다 needs the destination, not the food, marked. Common collocations: 그릇을 씻다, 그릇에 담다, 그릇을 깨다, 밥그릇."
+      }
+    ],
+    "mistakes": [
+      "Don't say 그릇을 닦아요 for washing dishes. 닦다 means to wipe (a table, a window) — washing dishes with water is 그릇을 씻어요 / 설거지를 해요.",
+      "Don't say 밥을 그릇을 담아요. The bowl is the destination, so it takes 에: 밥을 그릇에 담아요. Marking the bowl with 을 makes the sentence ungrammatical.",
+      "Don't reach for 보울 (a borrowed 'bowl'). Korean uses the native 그릇; the loanword sounds unnatural for a normal eating bowl."
+    ]
   },
   {
     "kind": "noun",
@@ -28,18 +49,39 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-i-ga"],
     "usage": [
-      ["접시를 씻어요.", "I wash the plate.", "Object with 를"],
-      ["접시가 더러워요.", "The plate is dirty.", "Subject with 이"],
-      ["접시에 과일을 담아요.", "I put fruit on the plate.", "Place with 에"],
-      ["접시로 빵을 옮겨요.", "I move the bread with a plate.", "Tool with 로"]
+      ["접시에 담다", "to plate / put onto a plate", "Location 에 + 담다; food lands ON a flat 접시, so 에 is required, never 를."],
+      ["접시 한 장", "one plate", "Flat dishes are counted with 장 (sheet-counter) as well as 개; 종이 한 장 uses the same counter."],
+      ["앞접시", "individual serving plate", "앞 (front) + 접시 = the small plate set in front of each diner to take shared food onto."],
+      ["접시를 치우다", "to clear the plates", "치우다 (clear away) is the natural verb for taking dirty 접시 off the table after a meal."]
     ],
     "examples": [
-      ["접시에 고기를 놓아요.", "I put the meat on the plate.", "Place with 에"],
-      ["이 접시가 정말 예뻐요.", "This plate is really pretty.", "Subject with 이"],
-      ["접시를 두 개 주세요.", "Please give me two plates.", "Counting with 개"]
+      ["접시가 더러워요.", "The plate is dirty.", "Simple frame: subject 이 + adjective 더럽다."],
+      ["과일을 접시에 예쁘게 담았어요.", "I arranged the fruit nicely on the plate.", "Everyday: location 에 + 담다 with the adverb 예쁘게."],
+      ["손님이 오시니까 앞접시도 함께 놓아 주세요.", "Since guests are coming, please also set out individual plates.", "Real situation: hosting context introducing 앞접시 and honorific 오시다."]
     ],
-    "nuance": "접시 is a flat plate for food such as fruit, meat, or side dishes, while 그릇 is a deeper bowl shape.",
-    "mistakes": ["Use 접시에 담아요, not 접시를 담아요, for placing."]
+    "nuance": "접시 is a flat, shallow plate — the dish you LAY food onto (fruit, grilled meat, a slice of cake) rather than pour into. The contrast to lock in is 접시 vs 그릇: shape decides it, not the food itself. A flat dish is 접시 even for soup-adjacent food, while anything deep and rounded is 그릇. A useful sub-word is 앞접시, the small personal plate each diner pulls shared dishes onto — a normal part of Korean table manners. Because food sits ON the surface, the particle is 접시에 담다 / 접시에 놓다 (location 에); the classic English-speaker error is 접시를 담다, treating the plate as the object. Note plates can be counted with 장 (the sheet-counter, reflecting their flatness) as well as the all-purpose 개. Habitual collocations: 접시에 담다, 접시를 치우다, 접시를 깨다, 앞접시.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "접시 is a flat, shallow plate — the dish you LAY food onto (fruit, grilled meat, a slice of cake) rather than pour into. A useful sub-word is 앞접시, the small personal plate each diner pulls shared dishes onto — a normal part of Korean table manners. Note plates can be counted with 장 (the sheet-counter, reflecting their flatness) as well as the all-purpose 개."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The contrast to lock in is 접시 vs 그릇: shape decides it, not the food itself. A flat dish is 접시 even for soup-adjacent food, while anything deep and rounded is 그릇."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Because food sits ON the surface, the particle is 접시에 담다 / 접시에 놓다 (location 에); the classic English-speaker error is 접시를 담다, treating the plate as the object. Habitual collocations: 접시에 담다, 접시를 치우다, 접시를 깨다, 앞접시."
+      }
+    ],
+    "mistakes": [
+      "Don't say 과일을 접시를 담아요. The plate is where the fruit goes, so use 에: 과일을 접시에 담아요.",
+      "Don't assume soup goes on a 접시. Liquid or piled food needs the deeper 그릇; a flat 접시 is for things you lay flat, like meat or fruit.",
+      "Don't always default to 개 when counting. Flat plates are often counted with 장 — 접시 두 장 — which sounds more natural to many speakers."
+    ]
   },
   {
     "kind": "noun",
@@ -49,18 +91,34 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-eul-reul", "grammar-particle-ro-euro"],
     "usage": [
-      ["컵을 씻어요.", "I wash the cup.", "Object with 을"],
-      ["컵이 있어요.", "There is a cup.", "Subject with 이"],
-      ["컵으로 물을 마셔요.", "I drink water from a cup.", "Tool with 으로"],
-      ["컵에 우유를 따라요.", "I pour milk into the cup.", "Place with 에"]
+      ["컵에 따르다", "to pour into a cup", "Location 에 + 따르다 (pour); the liquid's destination is the cup, marked with 에."],
+      ["종이컵", "paper cup", "컵 compounds freely: 종이컵 (paper), 머그컵 (mug), 텀블러 is separate but related."],
+      ["컵 한 잔", "a cup(ful)", "When measuring a drink, the counter is 잔 (glass/cupful): 물 한 잔, 커피 두 잔."],
+      ["컵을 헹구다", "to rinse a cup", "헹구다 (rinse out) is the precise verb for quickly washing a drinking cup with water."]
     ],
     "examples": [
-      ["컵으로 주스를 마셔요.", "I drink juice from a cup.", "Tool with 으로"],
-      ["식탁에 컵이 있어요.", "There is a cup on the table.", "Subject with 이"],
-      ["컵에 물을 담아 주세요.", "Please put water in the cup.", "Place with 에"]
+      ["컵이 깨끗해요.", "The cup is clean.", "Simplest frame: subject 이 + adjective 깨끗하다."],
+      ["컵에 물을 따라 주세요.", "Please pour water into the cup.", "Everyday request: destination 에 + 따르다 for pouring a drink."],
+      ["뜨거우니까 종이컵 말고 머그컵에 드릴게요.", "Since it's hot, I'll give it to you in a mug, not a paper cup.", "Real situation: contrasting 종이컵/머그컵 with 말고 (not ~ but) and honorific 드리다."]
     ],
-    "nuance": "컵 is a cup or glass for drinks, and a hot mug for coffee or tea is also called 머그컵 in everyday speech.",
-    "mistakes": ["Say 컵으로 마셔요, not 컵에 마셔요, for drinking."]
+    "nuance": "컵 is a loanword (from English 'cup') covering both cups and drinking glasses for any beverage — there is no everyday split between 'cup' and 'glass' the way English makes one; a glass tumbler and a coffee cup are both 컵 in normal speech, with 머그컵 (mug) and 종이컵 (paper cup) as specific compounds. Watch the difference between the OBJECT and the MEASURE: 컵 is the physical cup, but when you order or count a serving of a drink you switch to the counter 잔 — 커피 한 잔, not 커피 한 컵 in a café. The English-speaker pitfall is the particle with pouring: you pour a drink 컵에 따르다 (into the cup, location 에), so 컵을 따르다 is wrong. Also use 따르다 (pour) rather than the English-shaped 붓다, which sounds like dumping a large amount. Frequent collocations: 컵에 따르다, 컵을 헹구다, 종이컵, 머그컵.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "컵 is a loanword (from English 'cup') covering both cups and drinking glasses for any beverage — there is no everyday split between 'cup' and 'glass' the way English makes one; a glass tumbler and a coffee cup are both 컵 in normal speech, with 머그컵 (mug) and 종이컵 (paper cup) as specific compounds. Watch the difference between the OBJECT and the MEASURE: 컵 is the physical cup, but when you order or count a serving of a drink you switch to the counter 잔 — 커피 한 잔, not 커피 한 컵 in a café."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is the particle with pouring: you pour a drink 컵에 따르다 (into the cup, location 에), so 컵을 따르다 is wrong. Also use 따르다 (pour) rather than the English-shaped 붓다, which sounds like dumping a large amount. Frequent collocations: 컵에 따르다, 컵을 헹구다, 종이컵, 머그컵."
+      }
+    ],
+    "mistakes": [
+      "Don't order 커피 한 컵 in a café. Servings of drinks use the counter 잔: 커피 한 잔. 컵 names the object, not the portion.",
+      "Don't say 물을 컵을 따라요. The cup is the destination of the pour, so it takes 에: 물을 컵에 따라요.",
+      "Don't worry about 'cup vs glass.' Korean 컵 covers both; you don't need a separate word for a drinking glass in everyday speech."
+    ]
   },
   {
     "kind": "noun",
@@ -70,18 +128,39 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-ro-euro", "grammar-particle-eul-reul"],
     "usage": [
-      ["숟가락으로 먹어요.", "I eat with a spoon.", "Tool with 으로"],
-      ["숟가락을 줘요.", "I give a spoon.", "Object with 을"],
-      ["숟가락이 없어요.", "There is no spoon.", "Subject with 이"],
-      ["숟가락으로 국을 떠요.", "I scoop soup with a spoon.", "Tool with 으로"]
+      ["숟가락으로 뜨다", "to scoop with a spoon", "Instrument 으로 + 뜨다 (scoop up); the spoon is the tool, so 으로 is required."],
+      ["수저", "spoon-and-chopsticks set", "숟가락 + 젓가락 together = 수저, the standard table-setting pair Koreans lay out."],
+      ["숟가락을 놓다", "to set down / lay out a spoon", "놓다 = set the spoon on the table; idiomatically 숟가락을 놓다 can also mean 'finish eating.'"],
+      ["밥숟가락", "rice spoon / spoonful of rice", "밥 + 숟가락; also used figuratively for a mouthful, as in 한 숟가락만 더."]
     ],
     "examples": [
-      ["밥을 숟가락으로 먹어요.", "I eat rice with a spoon.", "Tool with 으로"],
-      ["숟가락 하나 주세요.", "Please give me one spoon.", "Counting with 하나"],
-      ["식탁에 숟가락이 있어요.", "There is a spoon on the table.", "Subject with 이"]
+      ["숟가락이 없어요.", "There's no spoon.", "Simplest frame: subject 이 + existence verb 없다."],
+      ["국을 숟가락으로 떠서 먹어요.", "I scoop the soup with a spoon and eat it.", "Everyday: instrument 으로 + 뜨다, linked to 먹다 with -서."],
+      ["밥 다 먹었으면 숟가락 놓고 잠깐 쉬자.", "If you're done eating, put down your spoon and rest a bit.", "Real situation: casual 반말 with the idiom 숟가락(을) 놓다 = stop eating."]
     ],
-    "nuance": "숟가락 is the spoon Koreans use for rice and soup, and it usually comes as a set with 젓가락 called 수저.",
-    "mistakes": ["Say 숟가락으로 먹어요, not 숟가락에 먹어요, for eating."]
+    "nuance": "숟가락 is the deep-bowled metal spoon at the heart of a Korean table — Koreans eat rice and especially soup/stew with it, unlike many cultures that treat the spoon as secondary to the fork. Pair it with the verb 뜨다 (to scoop up a liquid or rice), the precise partner verb. Crucially, 숟가락 + 젓가락 combine into 수저, the everyday word for the whole utensil set you lay out — if someone says 수저 놓아 줘, they mean set out both. A spelling trap: it's 숟가락 with ㄷ (a historical 술 'spoon' + 가락), even though 젓가락 takes ㅅ — learners often wrongly write 숫가락. The English-speaker pitfall is the particle: you eat 숟가락으로 (with a spoon, instrument 으로), never 숟가락에. Watch the idiom 숟가락을 놓다 — literally 'put down the spoon,' it commonly means to finish a meal. Collocations: 숟가락으로 뜨다, 숟가락을 놓다, 수저, 밥숟가락.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "숟가락 is the deep-bowled metal spoon at the heart of a Korean table — Koreans eat rice and especially soup/stew with it, unlike many cultures that treat the spoon as secondary to the fork. Pair it with the verb 뜨다 (to scoop up a liquid or rice), the precise partner verb. Crucially, 숟가락 + 젓가락 combine into 수저, the everyday word for the whole utensil set you lay out — if someone says 수저 놓아 줘, they mean set out both. Watch the idiom 숟가락을 놓다 — literally 'put down the spoon,' it commonly means to finish a meal."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "A spelling trap: it's 숟가락 with ㄷ (a historical 술 'spoon' + 가락), even though 젓가락 takes ㅅ — learners often wrongly write 숫가락."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is the particle: you eat 숟가락으로 (with a spoon, instrument 으로), never 숟가락에. Collocations: 숟가락으로 뜨다, 숟가락을 놓다, 수저, 밥숟가락."
+      }
+    ],
+    "mistakes": [
+      "Don't write 숫가락. The correct spelling is 숟가락 with ㄷ; only 젓가락 uses ㅅ. They differ on purpose.",
+      "Don't say 숟가락에 먹어요. The spoon is the instrument, so it takes 으로: 숟가락으로 먹어요.",
+      "Don't take 숟가락을 놓다 literally every time. Beyond 'set the spoon down,' it idiomatically means 'finish eating,' so context matters."
+    ]
   },
   {
     "kind": "noun",
@@ -91,18 +170,39 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-ro-euro", "grammar-particle-eul-reul"],
     "usage": [
-      ["젓가락으로 먹어요.", "I eat with chopsticks.", "Tool with 으로"],
-      ["젓가락을 써요.", "I use chopsticks.", "Object with 을"],
-      ["젓가락이 어려워요.", "Chopsticks are hard.", "Subject with 이"],
-      ["젓가락으로 면을 먹어요.", "I eat noodles with chopsticks.", "Tool with 으로"]
+      ["젓가락으로 집다", "to pick up with chopsticks", "Instrument 으로 + 집다 (grasp/pick up) — the precise verb for what chopsticks do."],
+      ["젓가락질", "the act/skill of using chopsticks", "Noun + 질 (doing-an-action) = handling chopsticks; 젓가락질이 서툴다 = clumsy with chopsticks."],
+      ["나무젓가락", "wooden/disposable chopsticks", "나무 (wood) + 젓가락; the throwaway kind from a 분식집, vs everyday metal ones."],
+      ["젓가락 한 벌", "one pair/set of chopsticks", "Paired utensils take the counter 벌 (set); 한 짝 = just one stick of the pair."]
     ],
     "examples": [
-      ["반찬을 젓가락으로 먹어요.", "I eat side dishes with chopsticks.", "Tool with 으로"],
-      ["젓가락 사용이 아직 서툴러요.", "I am still clumsy with chopsticks.", "Noun phrase"],
-      ["식탁에 젓가락이 있어요.", "There are chopsticks on the table.", "Subject with 이"]
+      ["젓가락이 어려워요.", "Chopsticks are hard.", "Simplest frame: subject 이 + adjective 어렵다."],
+      ["반찬을 젓가락으로 집어서 먹어요.", "I pick up side dishes with chopsticks and eat them.", "Everyday: instrument 으로 + 집다, chained to 먹다 with -서."],
+      ["젓가락질이 아직 서툴러서 면이 자꾸 미끄러져요.", "My chopstick skill is still clumsy, so the noodles keep slipping.", "Real situation: 젓가락질 + 서투르다 (르-irregular), explaining a genuine struggle."]
     ],
-    "nuance": "젓가락 means chopsticks, which in Korea are usually flat metal ones rather than the wooden chopsticks common elsewhere.",
-    "mistakes": ["Say 젓가락으로 먹어요, not 젓가락에 먹어요, for eating."]
+    "nuance": "젓가락 is chopsticks — and Korean chopsticks are distinctively flat, heavy METAL ones, harder for beginners than the rounded wooden chopsticks of Japan or China. The partner verb is 집다 (to grasp/pick up), the action chopsticks perform; for noodles 면을 집다 is natural. A high-value derived word is 젓가락질, 'the skill/act of using chopsticks' (the 질 suffix = doing an action), so 젓가락질이 서툴다 = to be clumsy with chopsticks. Remember 젓가락 takes ㅅ while its partner 숟가락 takes ㄷ — don't cross them. Together they form 수저, the utensil set. The English-speaker pitfalls are two: the particle is 젓가락으로 (instrument 으로), not 젓가락에; and because the word is already plural in meaning, you don't pluralize it — to count, use 벌 for a pair (한 벌) or 짝 for a single stick. Collocations: 젓가락으로 집다, 젓가락질, 나무젓가락, 젓가락 한 벌.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "젓가락 is chopsticks — and Korean chopsticks are distinctively flat, heavy METAL ones, harder for beginners than the rounded wooden chopsticks of Japan or China. The partner verb is 집다 (to grasp/pick up), the action chopsticks perform; for noodles 면을 집다 is natural. A high-value derived word is 젓가락질, 'the skill/act of using chopsticks' (the 질 suffix = doing an action), so 젓가락질이 서툴다 = to be clumsy with chopsticks. Together with 숟가락 they form 수저, the utensil set."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Remember 젓가락 takes ㅅ while its partner 숟가락 takes ㄷ — don't cross them."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfalls are two: the particle is 젓가락으로 (instrument 으로), not 젓가락에; and because the word is already plural in meaning, you don't pluralize it — to count, use 벌 for a pair (한 벌) or 짝 for a single stick. Collocations: 젓가락으로 집다, 젓가락질, 나무젓가락, 젓가락 한 벌."
+      }
+    ],
+    "mistakes": [
+      "Don't write 젇가락 or 저가락. The standard spelling is 젓가락 with ㅅ; pair it correctly against 숟가락 (ㄷ).",
+      "Don't say 젓가락에 먹어요. Chopsticks are the instrument: 젓가락으로 먹어요.",
+      "Don't count chopsticks with 개 as if singular. A usable pair is 한 벌; a single stick is 한 짝 — 개 sounds off for paired utensils."
+    ]
   },
   {
     "kind": "noun",
@@ -112,18 +212,39 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-ro-euro", "grammar-particle-eul-reul"],
     "usage": [
-      ["포크로 먹어요.", "I eat with a fork.", "Tool with 로"],
-      ["포크를 줘요.", "I give a fork.", "Object with 를"],
-      ["포크가 없어요.", "There is no fork.", "Subject with 이"],
-      ["포크로 과일을 찍어요.", "I stab fruit with a fork.", "Tool with 로"]
+      ["포크로 찍다", "to spear with a fork", "Instrument 으로 + 찍다 (stab/spear) — the signature fork action for fruit or cake."],
+      ["포크 하나", "one fork", "Loanword counted simply with 개/하나; 포크 하나 주세요 = please give me one fork."],
+      ["포크와 나이프", "fork and knife", "In Western-dining contexts the knife is the loanword 나이프, paired with 포크 (vs native 칼)."],
+      ["일회용 포크", "disposable fork", "일회용 (single-use) + 포크; the plastic kind handed out with takeout food."]
     ],
     "examples": [
-      ["케이크를 포크로 먹어요.", "I eat cake with a fork.", "Tool with 로"],
-      ["포크 하나 주세요.", "Please give me one fork.", "Counting with 하나"],
-      ["식탁에 포크가 있어요.", "There is a fork on the table.", "Subject with 이"]
+      ["포크가 없어요.", "There's no fork.", "Simplest frame: subject 이 + existence verb 없다."],
+      ["케이크를 포크로 찍어서 먹어요.", "I spear the cake with a fork and eat it.", "Everyday: instrument 으로 + 찍다, the natural verb for forking cake."],
+      ["아이는 아직 젓가락이 서툴러서 포크로 먹는 게 편해요.", "The child is still clumsy with chopsticks, so eating with a fork is easier.", "Real situation: contrasting 젓가락/포크 with the nominalizer -는 게."]
     ],
-    "nuance": "포크 is a loanword for a fork, mainly used for cake, fruit, or Western food rather than for everyday rice.",
-    "mistakes": ["Say 포크로 먹어요, not 포크에 먹어요, for eating."]
+    "nuance": "포크 is a loanword (English 'fork') and in Korea is a SECONDARY, situational utensil — used for cake, fruit, salad, and Western food, while everyday rice and soup go with 숟가락 and 젓가락. Its natural partner verb is 찍다 (to stab/spear), as in 과일을 포크로 찍다; this 찍다 also means 'to stamp/take a photo,' so context disambiguates. In a Western place-setting the fork pairs with the loanword 나이프, whereas the all-purpose Korean kitchen knife is the native 칼 — so 포크와 나이프 (table setting) but 칼 (cooking). The English-speaker pitfall is, as with all tools, the particle: 포크로 먹다 (instrument 으로), never 포크에. Don't over-use 포크 — defaulting to a fork at a Korean meal of rice and 반찬 reads as foreign; reach for 젓가락 instead. Collocations: 포크로 찍다, 포크와 나이프, 일회용 포크, 포크 하나.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "포크 is a loanword (English 'fork') and in Korea is a SECONDARY, situational utensil — used for cake, fruit, salad, and Western food, while everyday rice and soup go with 숟가락 and 젓가락. Its natural partner verb is 찍다 (to stab/spear), as in 과일을 포크로 찍다; this 찍다 also means 'to stamp/take a photo,' so context disambiguates. Don't over-use 포크 — defaulting to a fork at a Korean meal of rice and 반찬 reads as foreign; reach for 젓가락 instead."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "In a Western place-setting the fork pairs with the loanword 나이프, whereas the all-purpose Korean kitchen knife is the native 칼 — so 포크와 나이프 (table setting) but 칼 (cooking)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is, as with all tools, the particle: 포크로 먹다 (instrument 으로), never 포크에. Collocations: 포크로 찍다, 포크와 나이프, 일회용 포크, 포크 하나."
+      }
+    ],
+    "mistakes": [
+      "Don't say 포크에 먹어요. The fork is the instrument: 포크로 먹어요.",
+      "Don't pair 포크 with native 칼 in a table setting. Western place settings say 포크와 나이프; 칼 is the cooking knife.",
+      "Don't default to 포크 for a Korean rice meal. Rice and side dishes are eaten with 숟가락/젓가락; a fork there sounds foreign."
+    ]
   },
   {
     "kind": "noun",
@@ -133,18 +254,39 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-ro-euro", "grammar-particle-eul-reul"],
     "usage": [
-      ["칼로 잘라요.", "I cut with a knife.", "Tool with 로"],
-      ["칼을 써요.", "I use a knife.", "Object with 을"],
-      ["칼이 날카로워요.", "The knife is sharp.", "Subject with 이"],
-      ["칼로 채소를 썰어요.", "I slice vegetables with a knife.", "Tool with 로"]
+      ["칼로 썰다", "to slice with a knife", "Instrument 으로 + 썰다 (slice into pieces) — the core knife action in cooking."],
+      ["칼이 잘 들다", "the knife cuts well / is sharp", "Idiom: 들다 here means 'cuts well'; 안 든다 = it's dull. Not the 들다 'to hold.'"],
+      ["과도", "fruit/paring knife", "과도 (果刀, fruit-knife) is the small knife for peeling fruit, a specific type of 칼."],
+      ["칼을 갈다", "to sharpen a knife", "갈다 (grind/sharpen) is the verb for putting an edge back on a dull blade."]
     ],
     "examples": [
-      ["과일을 칼로 잘라요.", "I cut the fruit with a knife.", "Tool with 로"],
-      ["이 칼이 잘 안 들어요.", "This knife does not cut well.", "Subject with 이"],
-      ["칼을 조심해서 써요.", "I use the knife carefully.", "Object with 을"]
+      ["칼이 날카로워요.", "The knife is sharp.", "Simplest frame: subject 이 + adjective 날카롭다 (ㅂ-irregular)."],
+      ["채소를 칼로 얇게 썰어요.", "I slice the vegetables thinly with a knife.", "Everyday: instrument 으로 + 썰다 with the adverb 얇게."],
+      ["이 칼은 잘 안 드니까 한번 갈아야겠어요.", "This knife doesn't cut well, so I'd better sharpen it.", "Real situation: the idiom 안 들다 (dull) + resolve ending -아야겠다."]
     ],
-    "nuance": "칼 means a kitchen knife, and the same word also covers blades like a pocketknife depending on the context.",
-    "mistakes": ["Say 칼로 잘라요, not 칼에 잘라요, for cutting."]
+    "nuance": "칼 is the native, all-purpose Korean word for a knife — above all the kitchen knife, but the SAME word covers any blade: a pocketknife, a sword, a box cutter, all 칼. So unlike English, you don't switch words by type; you specify with a modifier (부엌칼 kitchen, 과도 fruit knife, 맥가이버 칼 Swiss-army). Two idioms are essential: 칼이 잘 들다 means 'the knife cuts well / is sharp' — here 들다 is NOT 'to hold' but 'to cut/take effect,' so 칼이 안 들어요 = it's dull; and 칼을 갈다 = to sharpen. The partner cutting verbs are 썰다 (slice into pieces) and 자르다 (cut through). The English-speaker pitfall is the particle: 칼로 썰다 (instrument 으로), never 칼에. Note that in a Western table setting the table knife is the loanword 나이프, not 칼. Collocations: 칼로 썰다, 칼이 들다, 칼을 갈다, 과도.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "칼 is the native, all-purpose Korean word for a knife — above all the kitchen knife, but the SAME word covers any blade: a pocketknife, a sword, a box cutter, all 칼. So unlike English, you don't switch words by type; you specify with a modifier (부엌칼 kitchen, 과도 fruit knife, 맥가이버 칼 Swiss-army). Two idioms are essential: 칼이 잘 들다 means 'the knife cuts well / is sharp' — here 들다 is NOT 'to hold' but 'to cut/take effect,' so 칼이 안 들어요 = it's dull; and 칼을 갈다 = to sharpen. The partner cutting verbs are 썰다 (slice into pieces) and 자르다 (cut through)."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Note that in a Western table setting the table knife is the loanword 나이프, not 칼."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is the particle: 칼로 썰다 (instrument 으로), never 칼에. Collocations: 칼로 썰다, 칼이 들다, 칼을 갈다, 과도."
+      }
+    ],
+    "mistakes": [
+      "Don't say 칼에 잘라요. The knife is the instrument: 칼로 잘라요 / 칼로 썰어요.",
+      "Don't read 칼이 잘 들어요 as 'the knife holds well.' Here 들다 means 'cuts well / is sharp'; the opposite is 칼이 안 들어요 (dull).",
+      "Don't expect a different word for sword vs kitchen knife. Korean uses 칼 for both and adds a modifier (부엌칼, 과도) when the type matters."
+    ]
   },
   {
     "kind": "noun",
@@ -154,18 +296,39 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-ro-euro", "grammar-particle-i-ga"],
     "usage": [
-      ["냄비로 끓여요.", "I boil it in a pot.", "Tool with 로"],
-      ["냄비가 뜨거워요.", "The pot is hot.", "Subject with 이"],
-      ["냄비에 물을 넣어요.", "I put water in the pot.", "Place with 에"],
-      ["냄비로 라면을 끓여요.", "I cook ramen in a pot.", "Tool with 로"]
+      ["냄비에 끓이다", "to boil/cook in a pot", "Location 에 + 끓이다; the cooking happens IN the pot, so 에 marks it, not 를."],
+      ["냄비 받침", "pot stand / trivet", "받침 (support) — the mat you rest a hot 냄비 on so it doesn't burn the table."],
+      ["압력솥", "pressure cooker", "Note: a rice/pressure cooker is 솥, a different (heavier, lidded) vessel from 냄비."],
+      ["냄비가 눌어붙다", "for food to scorch onto the pot", "눌어붙다 = stick-and-burn to the bottom; a common kitchen mishap with 냄비."]
     ],
     "examples": [
-      ["국을 냄비에 끓여요.", "I boil the soup in a pot.", "Place with 에"],
-      ["이 냄비가 너무 커요.", "This pot is too big.", "Subject with 이"],
-      ["냄비가 뜨거우니까 조심해요.", "Be careful because the pot is hot.", "Reason with 니까"]
+      ["냄비가 뜨거워요.", "The pot is hot.", "Simplest frame: subject 이 + adjective 뜨겁다 (ㅂ-irregular)."],
+      ["라면은 작은 냄비에 끓이면 더 맛있어요.", "Ramen tastes better cooked in a small pot.", "Everyday: location 에 + 끓이다 with the conditional -면."],
+      ["냄비가 뜨거우니까 꼭 받침 위에 올려놓으세요.", "Since the pot is hot, be sure to set it on a trivet.", "Real situation: reason -니까 + 냄비 받침 in a safety instruction."]
     ],
-    "nuance": "냄비 is a cooking pot for soup, stew, or ramen, while a heavy flat frying pan is called 프라이팬 instead.",
-    "mistakes": ["Say 냄비로 끓여요, not 냄비를 끓여요, for cooking."]
+    "nuance": "냄비 is a relatively light cooking pot or saucepan — the everyday vessel for boiling soup, simmering 찌개, or making ramen. Two contrasts matter: 냄비 vs 솥 — 솥 is the heavier, deep, lidded cauldron/cooker (think 가마솥, 압력솥 for rice), so don't call a rice cooker a 냄비; and 냄비 vs 프라이팬 — the flat frying pan is its own loanword. The partner verb is 끓이다 (to boil/cook by boiling), and food that scorches onto the bottom 눌어붙다. The English-speaker pitfall is the particle: you cook 냄비에 끓이다 (location 에) — saying 냄비를 끓이다 literally means 'boil the pot itself,' which is wrong; the pot is where it happens, the food is the object (라면을 냄비에 끓이다). Culturally note 냄비 근성 ('a pot temperament') — a set phrase for quick-to-boil, quick-to-cool enthusiasm. Collocations: 냄비에 끓이다, 냄비 받침, 냄비가 눌어붙다, 냄비 뚜껑.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "냄비 is a relatively light cooking pot or saucepan — the everyday vessel for boiling soup, simmering 찌개, or making ramen. The partner verb is 끓이다 (to boil/cook by boiling), and food that scorches onto the bottom 눌어붙다. Culturally note 냄비 근성 ('a pot temperament') — a set phrase for quick-to-boil, quick-to-cool enthusiasm."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two contrasts matter: 냄비 vs 솥 — 솥 is the heavier, deep, lidded cauldron/cooker (think 가마솥, 압력솥 for rice), so don't call a rice cooker a 냄비; and 냄비 vs 프라이팬 — the flat frying pan is its own loanword."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is the particle: you cook 냄비에 끓이다 (location 에) — saying 냄비를 끓이다 literally means 'boil the pot itself,' which is wrong; the pot is where it happens, the food is the object (라면을 냄비에 끓이다). Collocations: 냄비에 끓이다, 냄비 받침, 냄비가 눌어붙다, 냄비 뚜껑."
+      }
+    ],
+    "mistakes": [
+      "Don't say 냄비를 끓여요 to mean 'cook in the pot.' That reads as boiling the pot itself; say 냄비에 (라면을) 끓여요 — food is the object, the pot the location.",
+      "Don't call a rice cooker a 냄비. A deep lidded cooker is 솥 (압력솥, 전기밥솥); 냄비 is the lighter open saucepan.",
+      "Don't use 냄비 for a flat frying pan. That's 프라이팬 — different shape, different word."
+    ]
   },
   {
     "kind": "noun",
@@ -175,18 +338,44 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-i-ga", "grammar-particle-eul-reul"],
     "usage": [
-      ["식탁이 있어요.", "There is a dining table.", "Subject with 이"],
-      ["식탁을 닦아요.", "I wipe the table.", "Object with 을"],
-      ["식탁 위에 있어요.", "It is on the table.", "Place with 위"],
-      ["식탁에서 밥을 먹어요.", "I eat at the table.", "Action place with 에서"]
+      ["식탁에서 먹다", "to eat at the table", "Action location 에서 + 먹다; an action happens AT the table, so 에서, not 에."],
+      ["식탁을 차리다", "to set the table", "차리다 = lay out a meal/setting; 식탁을 차리다 / 밥상을 차리다 = prepare the table."],
+      ["식탁 위", "on the table (surface)", "위 (top) pins location to the surface: 식탁 위에 그릇이 있다."],
+      ["식탁보", "tablecloth", "식탁 + 보 (cloth wrap) = the cloth spread over the dining table."]
     ],
     "examples": [
-      ["식탁 위에 그릇이 있어요.", "There is a bowl on the table.", "Place with 위"],
-      ["가족이 식탁에서 같이 먹어요.", "The family eats together at the table.", "Action place with 에서"],
-      ["식탁을 깨끗하게 닦아요.", "I wipe the table clean.", "Object with 을"]
+      ["식탁이 커요.", "The dining table is big.", "Simplest frame: subject 이 + adjective 크다."],
+      ["가족이 식탁에 둘러앉아서 밥을 먹어요.", "The family sits around the table and eats.", "Everyday: 둘러앉다 (sit around) + the action verb 먹다."],
+      ["저녁 다 됐으니까 얼른 식탁 좀 차려 줄래?", "Dinner's ready, so could you set the table quickly?", "Real situation: casual request -어 줄래? with 식탁을 차리다."]
     ],
-    "nuance": "식탁 is a table for eating meals, while 책상 is a desk for studying or working at home or school.",
-    "mistakes": ["Use 식탁에서 먹어요, not 식탁에 먹어요, for eating."]
+    "nuance": "식탁 is Sino-Korean, 食卓 — 食 'eat/food' + 卓 'table,' literally an 'eating-table,' i.e. the dining table. Distinguish it from 책상 (a desk, 冊床 'book-table' for study/work) and from 밥상, the lower, often portable meal-table (and by extension the whole spread of food) of more traditional dining — 밥상 emphasizes the laid meal, 식탁 the piece of furniture. The everyday verb is 식탁을 차리다 (set/lay the table). The number-one English-speaker pitfall is the particle: an ACTION done at the table uses 에서, so 식탁에서 밥을 먹다 — using 식탁에 먹다 is wrong because 에 marks static location/existence (식탁에 그릇이 있다), while 에서 marks where an action occurs. To pin something to the surface, add 위: 식탁 위에 놓다. Collocations: 식탁에서 먹다, 식탁을 차리다, 식탁 위, 식탁보.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "식탁 is the dining table. The everyday verb is 식탁을 차리다 (set/lay the table). To pin something to the surface, add 위: 식탁 위에 놓다. Collocations: 식탁에서 먹다, 식탁을 차리다, 식탁 위, 식탁보."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Distinguish it from 책상 (a desk, 冊床 'book-table' for study/work) and from 밥상, the lower, often portable meal-table (and by extension the whole spread of food) of more traditional dining — 밥상 emphasizes the laid meal, 식탁 the piece of furniture."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "식탁 is Sino-Korean, 食卓 — 食 'eat/food' + 卓 'table,' literally an 'eating-table,' i.e. the dining table."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The number-one English-speaker pitfall is the particle: an ACTION done at the table uses 에서, so 식탁에서 밥을 먹다 — using 식탁에 먹다 is wrong because 에 marks static location/existence (식탁에 그릇이 있다), while 에서 marks where an action occurs."
+      }
+    ],
+    "mistakes": [
+      "Don't say 식탁에 밥을 먹어요. Eating is an action, so it needs 에서: 식탁에서 밥을 먹어요. Reserve 에 for existence: 식탁에 그릇이 있어요.",
+      "Don't confuse 식탁 with 책상. 식탁 (食卓) is for meals; 책상 (冊床) is the desk for studying or working.",
+      "Don't say 식탁을 만들어요 to mean 'set the table.' Use 차리다: 식탁을 차려요. 만들다 = build the furniture, not lay the meal."
+    ]
   },
   {
     "kind": "noun",
@@ -196,18 +385,44 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-i-ga", "grammar-particle-eul-reul"],
     "usage": [
-      ["주방이 넓어요.", "The kitchen is spacious.", "Subject with 이"],
-      ["주방을 청소해요.", "I clean the kitchen.", "Object with 을"],
-      ["주방에 있어요.", "It is in the kitchen.", "Location with 에"],
-      ["주방에서 요리해요.", "I cook in the kitchen.", "Action place with 에서"]
+      ["주방에서 요리하다", "to cook in the kitchen", "Action location 에서 + 요리하다; cooking is an action, so 에서, not 에."],
+      ["주방 용품", "kitchenware", "용품 (goods/supplies) — 주방 용품 = the pots, knives, and tools of a kitchen."],
+      ["오픈 주방", "open kitchen", "Real-estate/café term for a kitchen open to the dining area; 주방 takes many such modifiers."],
+      ["주방장", "head chef", "주방 + 장 (長, head) = the chef in charge of a restaurant kitchen."]
     ],
     "examples": [
-      ["엄마가 주방에서 요리해요.", "Mom cooks in the kitchen.", "Action place with 에서"],
-      ["우리 집 주방이 작아요.", "Our home kitchen is small.", "Subject with 이"],
-      ["주방을 매일 청소해요.", "I clean the kitchen every day.", "Object with 을"]
+      ["주방이 넓어요.", "The kitchen is spacious.", "Simplest frame: subject 이 + adjective 넓다."],
+      ["엄마가 주방에서 저녁을 만들고 계세요.", "Mom is making dinner in the kitchen.", "Everyday: action location 에서 + honorific progressive -고 계시다."],
+      ["식당 주방은 위생이 생명이라 늘 깨끗하게 관리해요.", "A restaurant kitchen lives or dies by hygiene, so it's always kept clean.", "Real situation: 주방 in a professional sense with 위생/관리하다."]
     ],
-    "nuance": "주방 means a kitchen and sounds a little more formal, while 부엌 is the warmer everyday word for the same room.",
-    "mistakes": ["Use 주방에서 요리해요, not 주방에 요리해요, for cooking."]
+    "nuance": "주방 is Sino-Korean, 廚房 — 廚 'kitchen' + 房 'room,' literally the 'kitchen room.' The register contrast you should feel is 주방 vs 부엌: both name the cooking room, but 주방 is the slightly more formal, modern, and PROFESSIONAL-leaning word (a restaurant kitchen, kitchenware ads, 주방장 head chef, an apartment's '오픈 주방'), while 부엌 is the warm, homey native word for the kitchen at home — many speakers use them interchangeably for a home kitchen, but you'd never say a restaurant's 부엌 in a business context. The English-speaker pitfall is the particle: cooking is an action, so 주방에서 요리하다 (action location 에서), not 주방에 요리하다 — 에 is only for existence (주방에 냉장고가 있다). Useful derivations: 주방 용품 (kitchenware), 주방장 (head chef). Collocations: 주방에서 요리하다, 주방 용품, 오픈 주방, 주방장.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "주방 is the cooking room — the slightly more formal, modern, and PROFESSIONAL-leaning word (a restaurant kitchen, kitchenware ads, 주방장 head chef, an apartment's '오픈 주방'). Useful derivations: 주방 용품 (kitchenware), 주방장 (head chef). Collocations: 주방에서 요리하다, 주방 용품, 오픈 주방, 주방장."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The register contrast you should feel is 주방 vs 부엌: both name the cooking room, but 주방 is the more formal, professional-leaning word, while 부엌 is the warm, homey native word for the kitchen at home — many speakers use them interchangeably for a home kitchen, but you'd never say a restaurant's 부엌 in a business context."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "주방 is Sino-Korean, 廚房 — 廚 'kitchen' + 房 'room,' literally the 'kitchen room.'"
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is the particle: cooking is an action, so 주방에서 요리하다 (action location 에서), not 주방에 요리하다 — 에 is only for existence (주방에 냉장고가 있다)."
+      }
+    ],
+    "mistakes": [
+      "Don't say 주방에 요리해요. Cooking is an action, so use 에서: 주방에서 요리해요. Keep 에 for existence: 주방에 냉장고가 있어요.",
+      "Don't treat 주방 and 부엌 as fully identical. For a home kitchen either works, but a restaurant's cooking area is 주방, not 부엌, in formal/business use.",
+      "Don't write the hanja-based word as if native. 주방 (廚房) is Sino-Korean; if you want the cozy home word, that's the native 부엌."
+    ]
   },
   {
     "kind": "noun",
@@ -217,18 +432,34 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-ro-euro", "grammar-particle-i-ga"],
     "usage": [
-      ["도마로 썰어요.", "I cut on the cutting board.", "Tool with 로"],
-      ["도마가 있어요.", "There is a cutting board.", "Subject with 이"],
-      ["도마 위에서 잘라요.", "I cut on the cutting board.", "Place with 위"],
-      ["도마를 씻어요.", "I wash the cutting board.", "Object with 를"]
+      ["도마 위에서 썰다", "to cut on the cutting board", "위 + action location 에서; you cut ON TOP of the board, so 위에서, not bare 에."],
+      ["도마를 행주로 닦다", "to wipe the board with a cloth", "Here 닦다 (wipe) is right — wiping the board's surface, vs 씻다 for rinsing it."],
+      ["나무 도마", "wooden cutting board", "나무 (wood) vs 플라스틱 도마 (plastic); material modifiers are common with 도마."],
+      ["도마 소리", "the sound of chopping (on the board)", "도마 소리 evokes the rhythmic knock of cooking; a vivid everyday collocation."]
     ],
     "examples": [
-      ["도마 위에서 채소를 썰어요.", "I slice vegetables on the cutting board.", "Place with 위"],
-      ["새 도마가 깨끗해요.", "The new cutting board is clean.", "Subject with 이"],
-      ["고기를 도마에서 잘라요.", "I cut the meat on the cutting board.", "Action place with 에서"]
+      ["도마가 깨끗해요.", "The cutting board is clean.", "Simplest frame: subject 이 + adjective 깨끗하다."],
+      ["채소를 도마 위에서 썰어요.", "I slice the vegetables on the cutting board.", "Everyday: 도마 위에서 + 썰다, the standard chopping frame."],
+      ["고기랑 채소는 도마를 따로 써야 위생적이에요.", "It's more hygienic to use separate boards for meat and vegetables.", "Real situation: 따로 쓰다 (use separately) + 위생적이다 in a kitchen-safety tip."]
     ],
-    "nuance": "도마 is the board you place food on for chopping, and Koreans often keep separate ones for meat and vegetables.",
-    "mistakes": ["Use 도마 위에서 썰어요 for cutting, not just 도마에."]
+    "nuance": "도마 is the cutting board — the flat surface you set food on to chop with a 칼. There isn't a tricky near-synonym; the value is in the GRAMMAR and collocations. Because cutting happens on top of the board's surface, the natural frame is 도마 위에서 썰다 (위 'top' + action-location 에서) — bare 도마에 썰다 sounds incomplete, since 에 marks static existence, not where an action plays out. Note the two cleaning verbs split by sense: 도마를 씻다 = rinse it with water; 도마를 닦다 = wipe its surface — both valid, unlike with dishes where 닦다 was wrong. Korean kitchens commonly keep separate boards (고기용/채소용) for hygiene, so 도마를 따로 쓰다 is a natural phrase. Material modifiers abound: 나무 도마, 플라스틱 도마. The English-speaker pitfall is dropping 위에서 and using 도마에, or marking the board as the object of 썰다. Collocations: 도마 위에서 썰다, 나무 도마, 도마를 씻다, 도마 소리.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "도마 is the cutting board — the flat surface you set food on to chop with a 칼. There isn't a tricky near-synonym; the value is in the GRAMMAR and collocations. Note the two cleaning verbs split by sense: 도마를 씻다 = rinse it with water; 도마를 닦다 = wipe its surface — both valid, unlike with dishes where 닦다 was wrong. Korean kitchens commonly keep separate boards (고기용/채소용) for hygiene, so 도마를 따로 쓰다 is a natural phrase. Material modifiers abound: 나무 도마, 플라스틱 도마."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Because cutting happens on top of the board's surface, the natural frame is 도마 위에서 썰다 (위 'top' + action-location 에서) — bare 도마에 썰다 sounds incomplete, since 에 marks static existence, not where an action plays out. The English-speaker pitfall is dropping 위에서 and using 도마에, or marking the board as the object of 썰다. Collocations: 도마 위에서 썰다, 나무 도마, 도마를 씻다, 도마 소리."
+      }
+    ],
+    "mistakes": [
+      "Don't say 도마에 썰어요. Cutting happens on the surface, so use 도마 위에서 썰어요 — 위 + the action particle 에서.",
+      "Don't mark the board as the object of cutting: 도마를 썰어요 means 'cut the board.' The food is the object; the board is the place (도마 위에서).",
+      "Don't assume one cleaning verb. 도마를 씻다 = rinse with water, 도마를 닦다 = wipe the surface; choose by what you actually do."
+    ]
   },
   {
     "kind": "noun",
@@ -238,17 +469,49 @@
     "chapterIds": ["chapter-07"],
     "grammarIds": ["grammar-particle-ro-euro", "grammar-particle-eul-reul"],
     "usage": [
-      ["국자로 떠요.", "I scoop with a ladle.", "Tool with 로"],
-      ["국자를 써요.", "I use a ladle.", "Object with 를"],
-      ["국자가 있어요.", "There is a ladle.", "Subject with 이"],
-      ["국자로 국을 떠요.", "I scoop soup with a ladle.", "Tool with 로"]
+      ["국자로 뜨다", "to ladle/scoop with a ladle", "Instrument 으로 + 뜨다 (scoop up liquid) — the exact partner verb for a ladle."],
+      ["국자로 푸다", "to dish out with a ladle", "푸다 (scoop and serve out) is also natural: 국을 국자로 퍼서 담다."],
+      ["국을 국자로 담다", "to ladle soup (into a bowl)", "The chain 뜨다/푸다 → 그릇에 담다 is how you serve soup with 국자."],
+      ["국자 하나", "one ladle", "Counted simply with 개/하나; 국자 하나 주세요 = please give me a ladle."]
     ],
     "examples": [
-      ["국을 국자로 떠요.", "I scoop the soup with a ladle.", "Tool with 로"],
-      ["국자로 찌개를 그릇에 담아요.", "I ladle the stew into a bowl.", "Tool with 로"],
-      ["주방에 국자가 있어요.", "There is a ladle in the kitchen.", "Subject with 이"]
+      ["국자가 어디 있어요?", "Where's the ladle?", "Simplest frame: subject 이 + location question 어디 있다."],
+      ["찌개를 국자로 떠서 그릇에 담아요.", "I ladle the stew and serve it into a bowl.", "Everyday: instrument 으로 + 뜨다, chained to 담다 with -서."],
+      ["국이 모자라면 국자로 더 퍼서 드세요.", "If there isn't enough soup, ladle out more and help yourself.", "Real situation: conditional -면 + 푸다 (ㅜ-irregular) with honorific 드시다."]
     ],
-    "nuance": "국자 is a long handled ladle for serving soup or stew, and it pairs naturally with the verb 뜨다 to scoop.",
-    "mistakes": ["Say 국자로 떠요, not 국자에 떠요, for scooping."]
+    "nuance": "국자 is the long-handled ladle for serving soup or stew — native Korean, built transparently from 국 'soup' + 자 (a tool suffix seen in 주걱 'rice paddle' family of kitchen tools). Its dedicated partner verbs are 뜨다 (to scoop up a liquid) and 푸다 (to scoop-and-serve out), so a full serving action is 국을 국자로 떠서/퍼서 그릇에 담다. Don't confuse 국자 with 주걱, the flat rice paddle for scooping cooked rice — different shape, different food. Note 푸다 is a ㅜ-irregular verb: its 요-form is 퍼요 (not 푸어요), a small trap when you describe ladling. The English-speaker pitfall is the particle: you scoop 국자로 (instrument 으로), never 국자에. Collocations: 국자로 뜨다, 국자로 푸다, 국을 국자로 담다, 국자 하나.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "국자 is the long-handled ladle for serving soup or stew. Its dedicated partner verbs are 뜨다 (to scoop up a liquid) and 푸다 (to scoop-and-serve out), so a full serving action is 국을 국자로 떠서/퍼서 그릇에 담다."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Don't confuse 국자 with 주걱, the flat rice paddle for scooping cooked rice — different shape, different food."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "Native Korean, built transparently from 국 'soup' + 자 (a tool suffix seen in 주걱 'rice paddle' family of kitchen tools)."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "Note 푸다 is a ㅜ-irregular verb: its 요-form is 퍼요 (not 푸어요), a small trap when you describe ladling.",
+        "chips": ["푸다", "퍼요", "국을 퍼요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is the particle: you scoop 국자로 (instrument 으로), never 국자에. Collocations: 국자로 뜨다, 국자로 푸다, 국을 국자로 담다, 국자 하나."
+      }
+    ],
+    "mistakes": [
+      "Don't say 국자에 떠요. The ladle is the instrument: 국자로 떠요.",
+      "Don't confuse 국자 (soup ladle) with 주걱 (flat rice paddle). They scoop different things and look different.",
+      "Don't write the verb 푸다 as 푸어요. It's ㅜ-irregular: the form is 퍼요 (국을 퍼요), so ladling out is 국자로 퍼요."
+    ]
   }
 ]

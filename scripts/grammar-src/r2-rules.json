@@ -5,20 +5,20 @@
     "romanization": "the (eu) helper-vowel rule",
     "title": "The (으) Rule: Consonant vs Vowel Stems",
     "plainEnglish": "Dozens of endings add an extra 으 (or use 을/ㄹ) only when the stem ends in a consonant (받침).",
-    "whenToUse": "Apply it every time you attach an ending written with (으): -(으)면, -(으)세요, -(으)ㄹ 수 있다, -(으)ㄴ/ㄹ, -(으)니까, -(으)러, -(으)려고, -(으)ㄹ게요.",
+    "whenToUse": "Reach for this rule the instant you attach any ending printed with (으) in a textbook — the parentheses are a signal, not decoration. It governs the whole everyday toolkit: conditionals -(으)면 (먹으면 'if I eat'), polite commands -(으)세요 (앉으세요 'please sit'), ability -(으)ㄹ 수 있다 (읽을 수 있어요 'I can read'), the modifiers -(으)ㄴ/-(으)ㄹ (받은 선물 'a gift I got'), reasons -(으)니까 (늦으니까 'since it's late'), purpose -(으)러/-(으)려고 (먹으러 가요 'I go to eat'), and promises -(으)ㄹ게요 (읽을게요 'I'll read it'). The decision is always the same one keystroke: glance at the stem's final syllable and ask 'consonant or vowel?'",
     "attachmentRule": "Look at the stem's last syllable. HAS a 받침 (consonant ending) → use the 으 form: 먹다 → 먹을 수 있다, 먹으면, 먹으세요, 먹은. NO 받침 (vowel ending) → drop the 으: 가다 → 갈 수 있다, 가면, 가세요, 간. The 으 is just a helper so two consonants don't crash together. Exception: ㄹ-stems (살다) drop their ㄹ before ㄴ/ㅂ/ㅅ endings (사세요, 사니까, 삽니다).",
-    "contrastWith": "This is exactly the 갈 수 있다 (vowel stem 가-) vs 먹을 수 있다 (consonant stem 먹-) difference. Same ending, but 먹- needs the 으/을 helper and 가- does not.",
+    "contrastWith": "Don't confuse this single phonetic helper-rule with the separate 받침 question for 은/는, 이/가, 을/를. Those are PARTICLE pairs that attach to NOUNS (책은 vs 사과는, 책을 vs 사과를); the (으) rule attaches to VERB/ADJECTIVE STEMS. The same yes/no 받침 test drives both, but mixing them up — saying 먹는 수 있어요 (borrowing the topic particle 는) instead of 먹을 수 있어요 — is a classic slip. Concretely: 갈 수 있다 (vowel stem 가-, no 으) vs 먹을 수 있다 (consonant stem 먹-, +을). Same ending 수 있다, but only 먹- pulls in the 으/을 cushion.",
     "sentenceFrames": ["가다 → 갈 수 있어요", "먹다 → 먹___ 수 있어요", "읽다 → 읽___면"],
     "examples": [
-      { "ko": "오다 → 올 수 있어요", "romanization": "", "en": "come → can come (vowel stem, no 으)" },
-      { "ko": "받다 → 받을 수 있어요", "romanization": "", "en": "receive → can receive (consonant stem, +을)" },
-      { "ko": "보다 → 보면", "romanization": "", "en": "see → if (you) see (vowel stem)" },
-      { "ko": "앉다 → 앉으면", "romanization": "", "en": "sit → if (you) sit (consonant stem, +으)" }
+      { "ko": "오다 → 올 수 있어요", "romanization": "", "en": "come → can come. Vowel stem 오-, so just ㄹ, no 으 — the simplest case." },
+      { "ko": "받다 → 받을 수 있어요", "romanization": "", "en": "receive → can receive. Consonant stem 받-, so the helper 을 appears before 수 있어요." },
+      { "ko": "시간이 있으면 같이 가요.", "romanization": "", "en": "If you have time, let's go together. 있- ends in ㅆ받침, so -(으)면 surfaces as 있으면, not 있면." },
+      { "ko": "여기 앉으세요.", "romanization": "", "en": "Please sit here. 앉- ends in the double 받침 ㄵ, a consonant ending, so the polite -(으)세요 takes the helper 으 and becomes 앉으세요." }
     ],
     "commonMistakes": [
-      "Adding 으 to a vowel stem: 가으면 is wrong → 가면.",
-      "Dropping 으 from a consonant stem: 먹면 is wrong → 먹으면.",
-      "Forgetting ㄹ-stems are special: 살다 → 사세요 (the ㄹ disappears)."
+      "Adding 으 to a vowel stem: writing 가으면 — wrong, because 가- already ends in a vowel and needs no cushion. The correct form is 가면. Same error: 보으세요 → must be 보세요.",
+      "Dropping the 으 from a consonant stem: 먹면 or 먹세요 sound truncated to a Korean ear because the consonants ㄱ+ㅁ/ㅅ collide. Insert the helper: 먹으면, 먹으세요.",
+      "Forgetting ㄹ-stems are special: 살다 looks like a consonant stem, so learners write 살세요. But ㄹ vanishes before ㄴ/ㅂ/ㅅ, giving 사세요 (and 사니까, 삽니다) — and crucially it takes NO 으."
     ],
     "practiceItems": [
       { "prompt": "먹다 + (으)ㄹ 수 있다", "ko": "먹을 수 있다", "answer": "먹을 수 있다" },
@@ -26,7 +26,7 @@
       { "prompt": "읽다 + (으)세요", "ko": "읽으세요", "answer": "읽으세요" }
     ],
     "studyOrder": ["Find the stem (drop 다)", "Check: does it end in a 받침?", "Yes → add 으/을; No → skip the 으", "Remember ㄹ-stem exceptions"],
-    "beginnerExplanation": "This one rule answers your 갈 수 vs 먹을 수 question — and it controls dozens of endings. When an ending is written with (으) in parentheses, you only use that 으 if the verb stem ends in a consonant (a 받침). 먹- ends in ㄱ, so you say 먹을 수 있어요 and 먹으면. 가- ends in a vowel, so you just say 갈 수 있어요 and 가면. Think of 으 as a tiny cushion that keeps two consonants from colliding. Master this and half of Korean conjugation suddenly makes sense."
+    "beginnerExplanation": "This one rule answers your 갈 수 vs 먹을 수 question — and it controls dozens of endings. Picture 으 as a tiny shock-absorbing cushion: Korean dislikes slamming two consonants together, so when a consonant-ending stem meets a consonant-starting ending, it slips 으 between them. 먹- ends in ㄱ, so you say 먹을 수 있어요 and 먹으면. 가- ends in a vowel — nothing to cushion — so you just say 갈 수 있어요 and 가면. Mnemonic: 'consonant calls for the cushion, vowel waves it away.' The only oddball is the ㄹ-stem (살다), which is so slippery it drops its own ㄹ rather than take a cushion: 사세요. Master this and half of Korean conjugation suddenly clicks into place."
   },
   {
     "id": "grammar-foundation-liaison",
@@ -34,19 +34,20 @@
     "romanization": "yeoneum (liaison)",
     "title": "Liaison: Linking 받침 to the Next Vowel",
     "plainEnglish": "A final consonant (받침) slides over to start the next syllable when that syllable begins with a vowel.",
-    "whenToUse": "It happens automatically in pronunciation whenever a 받침 is followed by a syllable that starts with ㅇ (a vowel sound).",
+    "whenToUse": "This is a pronunciation habit you apply constantly, not a written change you ever type. It fires automatically every time a 받침 is immediately followed by a syllable beginning with ㅇ (the silent consonant that signals a bare vowel) — which is most of Korean, because particles like 이/은/을/에 and verb endings like -아/어요 all start with vowels. So 책이, 밥을, 집에, 읽어요, 좋아요, 한국어 all link. The moment you see a 받침 butting up against an ㅇ-syllable, your mouth should glide them together rather than stop between blocks.",
     "attachmentRule": "받침 + ㅇ-vowel → the 받침 becomes the next syllable's first sound. 꽃이 sounds like 꼬치, 한국어 like 한구거, 음악 like 으막, 옷을 like 오슬. With a double 받침, only the SECOND consonant moves over: 읽어 sounds like 일거.",
-    "contrastWith": "The spelling never changes — only the sound links. This is why 읽어요 (written) is pronounced 일거요. Learners who read block-by-block sound robotic; linking makes you sound natural.",
+    "contrastWith": "Keep liaison (연음) distinct from nasalization and tensification, which also reshape sound across a 받침 boundary but in different conditions. Liaison happens only before a VOWEL (ㅇ): 옷이 → [오시], a pure hand-off with no change to the consonant's identity. Nasalization happens before a NASAL (ㄴ/ㅁ) and actually mutates the consonant: 옷만 → [온만]. Tensification happens before another STOP and tightens it: 옷장 → [옫짱]. Same word-family, three different next-sounds, three different outcomes. The shared lesson: the written spelling never changes — only the sound links. That is why 읽어요 (written) is pronounced 일거요, and why reading block-by-block makes you sound robotic.",
     "sentenceFrames": ["꽃이 → [꼬치]", "한국어 → [한구거]", "옷을 → [오슬]"],
     "examples": [
-      { "ko": "한국어", "romanization": "", "en": "Korean language — sounds like 한구거" },
-      { "ko": "꽃이 예뻐요", "romanization": "", "en": "The flower is pretty — 꽃이 sounds like 꼬치" },
-      { "ko": "책을 읽어요", "romanization": "", "en": "I read a book — sounds like 채글 일거요" },
-      { "ko": "집에 가요", "romanization": "", "en": "I go home — 집에 sounds like 지베" }
+      { "ko": "한국어 공부해요.", "romanization": "", "en": "I study Korean. 한국어 links across two boundaries to sound like 한구거 — the ㄱ and ㄱ each hop right." },
+      { "ko": "이 꽃이 정말 예뻐요.", "romanization": "", "en": "This flower is really pretty. The subject particle 이 pulls the ㅊ of 꽃 over: 꽃이 → 꼬치." },
+      { "ko": "책을 읽어요.", "romanization": "", "en": "I read a book. Two liaisons in a row: 책을 → 채글 and the double-받침 word 읽어 → 일거 (only the ㄱ moves)." },
+      { "ko": "지금 집에 가요.", "romanization": "", "en": "I'm going home now. The locative 에 grabs the ㅂ of 집: 집에 → 지베, a tiny everyday link learners often skip." }
     ],
     "commonMistakes": [
-      "Pronouncing each block separately (꽃#이) instead of linking to 꼬치.",
-      "Moving the wrong consonant in a double 받침 — only the second one links."
+      "Pronouncing each block separately (꽃#이) with a little stop between them. Korean has no such gap before a vowel; you must run them together as 꼬치, or you sound textbook-stiff.",
+      "Moving the wrong consonant in a double 받침: saying 익어 (ㄱ stays, ㄹ moves) for 읽어. Only the SECOND consonant of the cluster links, so 읽어 → 일거.",
+      "Over-linking before a real consonant: 옷도 is NOT 오스도. Liaison needs a following vowel (ㅇ); before ㄷ it instead becomes [옫또] by tensification."
     ],
     "practiceItems": [
       { "prompt": "꽃이 sounds like", "ko": "꼬치", "answer": "꼬치" },
@@ -54,7 +55,7 @@
       { "prompt": "옷이 sounds like", "ko": "오시", "answer": "오시" }
     ],
     "studyOrder": ["Spot a 받침 followed by a ㅇ-vowel syllable", "Slide the 받침 into that syllable", "For double 받침, move only the second one", "Read whole words, not block-by-block"],
-    "beginnerExplanation": "Korean words flow together. When a syllable ends in a consonant and the next one starts with a vowel (the silent ㅇ), that consonant hops over and is pronounced at the start of the next syllable. So 한국어 is written in three blocks but sounds like 한구거, and 꽃이 sounds like 꼬치. The spelling stays put; only your mouth links them. This single habit is the biggest step from sounding like a textbook to sounding like a person."
+    "beginnerExplanation": "Korean words flow together like cursive handwriting. When a syllable ends in a consonant and the next one starts with a vowel (the silent ㅇ), that consonant hops over and is pronounced at the start of the next syllable — think of the ㅇ as an empty chair the 받침 happily slides into. So 한국어 is written in three blocks but sounds like 한구거, and 꽃이 sounds like 꼬치. With a stacked double 받침 (읽-), only the back consonant takes the seat: 읽어 → 일거. The spelling stays put; only your mouth links them. This single habit is the biggest leap from sounding like a textbook to sounding like a person."
   },
   {
     "id": "grammar-foundation-nasalization",
@@ -62,19 +63,20 @@
     "romanization": "bieumhwa (nasalization)",
     "title": "Nasalization",
     "plainEnglish": "The stop sounds ㄱ/ㄷ/ㅂ turn into the nasal sounds ㅇ/ㄴ/ㅁ when followed by ㄴ or ㅁ.",
-    "whenToUse": "It happens automatically when a ㄱ/ㄷ/ㅂ-type 받침 meets a following ㄴ or ㅁ — extremely common in -습니다/-ㅂ니다 verbs.",
+    "whenToUse": "Apply this in pronunciation (never in spelling) the moment a ㄱ/ㄷ/ㅂ-family 받침 collides with a following ㄴ or ㅁ. The single highest-value place is the formal polite ending -습니다/-ㅂ니다, which you'll use in every interview, announcement, and respectful conversation: 감사합니다, 입니다, 먹습니다 all nasalize. It also hits the very common present-modifier -는 (먹는, 닫는) and countless Sino-Korean compounds (국내, 작년). If a 'hard' stop sits right before a nose-sound, your mouth should already be humming.",
     "attachmentRule": "Before ㄴ or ㅁ: ㄱ(ㅋ,ㄲ) → ㅇ(ng); ㄷ(ㅅ,ㅆ,ㅈ,ㅊ,ㅌ) → ㄴ; ㅂ(ㅍ) → ㅁ. So 학년 → 항년, 입니다 → 임니다, 닫는 → 단는, 먹는 → 멍는, 끝나다 → 끈나다.",
-    "contrastWith": "Like liaison, it is a SOUND change only; spelling is unchanged. It's why polite 합니다 sounds like 함니다.",
+    "contrastWith": "Contrast nasalization with liaison, its quieter cousin at the same 받침 boundary. Liaison needs a following VOWEL and merely relocates the consonant unchanged (밥이 → [바비], the ㅂ survives as ㅂ). Nasalization needs a following NASAL (ㄴ/ㅁ) and actually transforms the consonant's identity (밥만 → [밤만], the ㅂ becomes ㅁ). So the same word 밥 behaves differently depending on the next sound: [바비] vs [밤만]. Both are sound-only — the spelling 밥 never moves — which is exactly why polite 합니다 is heard as 함니다 yet still written with ㅂ + ㄴ.",
     "sentenceFrames": ["학년 → [항년]", "입니다 → [임니다]", "먹는 → [멍는]"],
     "examples": [
-      { "ko": "감사합니다", "romanization": "", "en": "Thank you — sounds like 감사함니다" },
-      { "ko": "한국말", "romanization": "", "en": "Korean (language) — sounds like 한궁말" },
-      { "ko": "끝나요", "romanization": "", "en": "It ends — sounds like 끈나요" },
-      { "ko": "먹는 사람", "romanization": "", "en": "a person who eats — 먹는 sounds like 멍는" }
+      { "ko": "정말 감사합니다.", "romanization": "", "en": "Thank you very much. The workhorse ending -ㅂ니다 nasalizes: 합니다 → 함니다 (ㅂ→ㅁ before ㄴ)." },
+      { "ko": "저는 한국말을 배워요.", "romanization": "", "en": "I'm learning Korean. 한국말 → 한궁말: the ㄱ받침 of 국 turns to ㅇ before the ㅁ of 말." },
+      { "ko": "수업이 곧 끝나요.", "romanization": "", "en": "Class ends soon. 끝나 → 끈나: ㅌ(a ㄷ-type 받침) becomes ㄴ before the ㄴ of 나." },
+      { "ko": "밥 먹는 사람이 많아요.", "romanization": "", "en": "Lots of people are eating. The modifier 먹는 → 멍는: ㄱ→ㅇ before ㄴ — listen for the soft 'ng'." }
     ],
     "commonMistakes": [
-      "Saying 학년 literally instead of 항년.",
-      "Missing it in -ㅂ니다/-습니다 endings (입니다 → 임니다)."
+      "Pronouncing 학년 literally as 'hak-nyeon' with a crisp ㄱ. Before ㄴ the ㄱ must go nasal: 항년. Same for 국내 → 궁내.",
+      "Missing it inside -ㅂ니다/-습니다: saying 'ip-ni-da' for 입니다. It is heard as 임니다 (ㅂ→ㅁ); failing to nasalize is the #1 giveaway of a beginner's formal speech.",
+      "Forgetting that ㅅ/ㅈ/ㅌ count as ㄷ-type: 닫는 → 단는, 있는 → 인는. Learners often nasalize ㄱ and ㅂ but leave these stops un-changed."
     ],
     "practiceItems": [
       { "prompt": "학년 sounds like", "ko": "항년", "answer": "항년" },
@@ -82,7 +84,7 @@
       { "prompt": "먹는 sounds like", "ko": "멍는", "answer": "멍는" }
     ],
     "studyOrder": ["Spot a ㄱ/ㄷ/ㅂ 받침 before ㄴ or ㅁ", "ㄱ→ㅇ, ㄷ→ㄴ, ㅂ→ㅁ", "Apply it to every -습니다/-ㅂ니다", "Trust your ears over the spelling"],
-    "beginnerExplanation": "When a 'hard stop' consonant (ㄱ, ㄷ, ㅂ) bumps into a nasal sound (ㄴ or ㅁ), it 'goes nasal' to match: ㄱ→ㅇ, ㄷ→ㄴ, ㅂ→ㅁ. The most useful place to notice this is the polite ending: 합니다 is pronounced 함니다, and 입니다 is 임니다. It's the same reason 학년 (school year) sounds like 항년. You don't change the spelling — your mouth just smooths the two sounds together."
+    "beginnerExplanation": "When a 'hard stop' consonant (ㄱ, ㄷ, ㅂ) bumps into a nose-sound (ㄴ or ㅁ), it 'catches the cold' and goes nasal to match its neighbor: ㄱ→ㅇ, ㄷ→ㄴ, ㅂ→ㅁ. Mnemonic — same place in the mouth, just routed through the nose: ㄱ and ㅇ are both back, ㄷ and ㄴ both at the ridge, ㅂ and ㅁ both at the lips. The most useful place to hear it is the polite ending: 합니다 is said 함니다, and 입니다 is 임니다. It's the same reason 학년 (school year) sounds like 항년. You never change the spelling — your mouth just smooths the two sounds together so it doesn't have to stop and restart."
   },
   {
     "id": "grammar-foundation-palatalization",
@@ -90,19 +92,20 @@
     "romanization": "gugaeeumhwa (palatalization)",
     "title": "Palatalization",
     "plainEnglish": "A 받침 ㄷ or ㅌ becomes a ㅈ/ㅊ sound when the next syllable is 이 (or 히).",
-    "whenToUse": "It happens when ㄷ/ㅌ at the end of a stem meets 이 or 히 — common in 같이, 굳이, 붙이다, and 닫히다.",
+    "whenToUse": "Use it in pronunciation whenever a stem-final ㄷ or ㅌ meets the vowel 이 or the syllable 히 — and ONLY then. This is a narrow rule, but it lands on some of the most frequent words a learner says daily: 같이 ('together,' said constantly when inviting someone), 굳이 ('needlessly/if you insist'), 해돋이 ('sunrise'), and the verb pair 붙이다 ('to attach') / 닫히다 ('to be shut'). If you see ㄷ/ㅌ + 이/히 across a boundary, slide the tongue forward to ㅈ/ㅊ.",
     "attachmentRule": "ㄷ + 이 → 지 (ji): 굳이 → 구지, 해돋이 → 해도지. ㅌ + 이 → 치 (chi): 같이 → 가치, 붙이다 → 부치다. ㄷ + 히 → 치: 닫히다 → 다치다. It only triggers before 이/히 — not before other vowels.",
-    "contrastWith": "Only before 이/히. 같이 is 가치, but 같아 is just 가타 (no change). This is why romanizing 같이 as 'gati' is wrong — it's gachi.",
+    "contrastWith": "Contrast this with plain liaison, which would simply carry the ㄷ/ㅌ over unchanged. If palatalization did NOT exist, 같이 would link to [가티] the way 같아 honestly does link to [가타]. The difference is the trigger vowel: before 이 the tongue is already up at the hard palate, so ㄷ/ㅌ shifts to ㅈ/ㅊ ([가치]); before any other vowel (ㅏ/ㅓ/ㅜ…) no shift happens and you get clean liaison ([가타]). So 같이 = 가치 but 같아 = 가타 — one word, two pronunciations depending purely on whether 이 follows. This is exactly why romanizing 같이 as 'gati' is wrong; it is gachi.",
     "sentenceFrames": ["같이 → [가치]", "굳이 → [구지]", "해돋이 → [해도지]"],
     "examples": [
-      { "ko": "같이 가요", "romanization": "", "en": "Let's go together — 같이 sounds like 가치" },
-      { "ko": "굳이 안 해도 돼요", "romanization": "", "en": "You don't have to bother — 굳이 sounds like 구지" },
-      { "ko": "스티커를 붙이다", "romanization": "", "en": "to stick a sticker — 붙이다 sounds like 부치다" },
-      { "ko": "문이 닫히다", "romanization": "", "en": "the door closes — 닫히다 sounds like 다치다" }
+      { "ko": "우리 같이 가요!", "romanization": "", "en": "Let's go together! 같이, the most common palatalization word, is said 가치 — ㅌ + 이 → 치." },
+      { "ko": "굳이 안 와도 돼요.", "romanization": "", "en": "You needn't bother coming. 굳이 → 구지: ㄷ + 이 → 지. Note 굳이 also carries the nuance 'if you really insist.'" },
+      { "ko": "벽에 사진을 붙여요.", "romanization": "", "en": "I'm putting a photo on the wall. The stem 붙이- palatalizes (붙이다 → 부치다) before it even conjugates." },
+      { "ko": "바람에 문이 닫혔어요.", "romanization": "", "en": "The door shut from the wind. 닫히- → 다치: here the ㄷ first aspirates with ㅎ, then lands on 이 as ㅊ." }
     ],
     "commonMistakes": [
-      "Saying 가티 for 같이 — it's 가치.",
-      "Applying it before other vowels: 같아 stays 가타, not 가차."
+      "Saying 가티 for 같이. The ㅌ does not survive before 이 — it must shift to ㅊ, giving 가치. Romanizing it 'gati' bakes the error in.",
+      "Over-applying it before other vowels: pronouncing 같아 as 가차. Palatalization needs 이/히; before ㅏ it's plain liaison, so 같아 stays 가타.",
+      "Treating 잔디 or 느티나무 as palatalizing. The rule only fires across a morpheme boundary (stem + 이/히); inside a single root like 잔디, ㄷ + 이 stays [잔디], not [잔지]."
     ],
     "practiceItems": [
       { "prompt": "같이 sounds like", "ko": "가치", "answer": "가치" },
@@ -110,7 +113,7 @@
       { "prompt": "맏이 sounds like", "ko": "마지", "answer": "마지" }
     ],
     "studyOrder": ["Spot a ㄷ/ㅌ 받침 right before 이 or 히", "ㄷ→ㅈ(지), ㅌ→ㅊ(치)", "Only before 이/히, no other vowel", "Apply to 같이, 굳이, 붙이다…"],
-    "beginnerExplanation": "When a ㄷ or ㅌ at the end of a syllable runs into the vowel 이, your tongue is already near the roof of your mouth, so the sound shifts to ㅈ/ㅊ. That's why the very common word 같이 ('together') is pronounced 가치, not 'ga-ti.' Likewise 굳이 sounds like 구지. It only happens before 이 (or 히) — 같아 is still 가타. Once you know this, those 'why does it sound like that?' moments disappear."
+    "beginnerExplanation": "When a ㄷ or ㅌ at the end of a syllable runs into the vowel 이, your tongue is already pressed near the roof of your mouth getting ready for 이 — so the sound naturally slides forward into ㅈ/ㅊ. Mnemonic: 'ㅣ pulls ㄷ/ㅌ toward the palate.' That's why the everyday word 같이 ('together') is pronounced 가치, not 'ga-ti,' and 굳이 sounds like 구지. The catch is that it ONLY happens before 이 (or 히): 같아 is still plain 가타. Once you internalize this, all those 'wait, why does it sound like that?' moments with 같이 finally make sense."
   },
   {
     "id": "grammar-foundation-aspiration",
@@ -118,19 +121,20 @@
     "romanization": "gyeogeumhwa (aspiration)",
     "title": "Aspiration",
     "plainEnglish": "ㅎ merges with a neighboring ㄱ/ㄷ/ㅂ/ㅈ to form the breathy ㅋ/ㅌ/ㅍ/ㅊ.",
-    "whenToUse": "When a 받침 ㅎ meets ㄱ/ㄷ/ㅈ, or when a 받침 ㄱ/ㄷ/ㅂ meets ㅎ — common in 좋다, 축하, 못하다, 입학.",
+    "whenToUse": "Apply it in speech whenever ㅎ touches a ㄱ/ㄷ/ㅂ/ㅈ — in EITHER order, which is what makes it sneaky. Order 1, ㅎ받침 + plain consonant: the ㅎ-final adjectives 좋다 → 조타, 놓고 → 노코, 많지 → 만치. Order 2, plain 받침 + ㅎ: 축하 → 추카, 입학 → 이팍, 못하다 → 모타다, 백화점 → 배콰점. You meet this in congratulations (축하해요), school words (입학/졸업), and the hugely common 'can't' verb 못하다, so it pays to drill both directions.",
     "attachmentRule": "받침 ㅎ + ㄱ/ㄷ/ㅈ → ㅋ/ㅌ/ㅊ: 좋다 → 조타, 놓고 → 노코, 많지 → 만치. 받침 ㄱ/ㄷ/ㅂ + ㅎ → aspirated: 축하 → 추카, 입학 → 이팍, 못하다 → 모타다, 백화점 → 배콰점.",
-    "contrastWith": "It's a merge, not a drop — the ㅎ doesn't vanish silently, it 'aspirates' the other consonant. So 좋다 is 조타 (with a strong t), not 조다.",
+    "contrastWith": "Don't picture the ㅎ as silently DROPPING the way it does in liaison-style ㅎ-weakening (e.g. casual 좋아요 → [조아요], where ㅎ between vowels just disappears). In aspiration the ㅎ does not vanish — it MERGES, donating its breath to harden the neighbor into a single aspirated consonant. So 좋다 is 조타 with a strong puffed t, not a soft 조다, and not two separate sounds 'jo-h-da.' Compare the pair directly: 좋다 → [조타] (ㅎ + ㄷ merge) but 좋아 → [조아] (ㅎ between vowels weakens to nothing). Same stem 좋-, opposite fate for the ㅎ depending on what follows.",
     "sentenceFrames": ["좋다 → [조타]", "축하 → [추카]", "못해요 → [모태요]"],
     "examples": [
-      { "ko": "좋다", "romanization": "", "en": "to be good — sounds like 조타" },
-      { "ko": "축하해요", "romanization": "", "en": "Congratulations — sounds like 추카해요" },
-      { "ko": "입학 시험", "romanization": "", "en": "entrance exam — 입학 sounds like 이팍" },
-      { "ko": "저는 못해요", "romanization": "", "en": "I can't do it — 못해요 sounds like 모태요" }
+      { "ko": "날씨가 좋다!", "romanization": "", "en": "The weather's nice! Dictionary-form 좋다 is said 조타 — the ㅎ받침 fuses with ㄷ into a breathy ㅌ." },
+      { "ko": "생일 축하해요!", "romanization": "", "en": "Happy birthday! 축하 → 추카: the ㄱ받침 of 축 merges with the following ㅎ into ㅋ." },
+      { "ko": "다음 달에 입학해요.", "romanization": "", "en": "I enter school next month. 입학 → 이팍: ㅂ + ㅎ aspirate to ㅍ — a key word every spring." },
+      { "ko": "저는 수영을 못해요.", "romanization": "", "en": "I can't swim. The everyday 못하다 → 모타다: ㅅ(a ㄷ-type 받침) + ㅎ → ㅌ, so 못해요 is 모태요." }
     ],
     "commonMistakes": [
-      "Saying 조다 for 좋다 — it's 조타.",
-      "Saying 축하 block-by-block instead of 추카."
+      "Saying a soft 조다 for 좋다. The ㅎ doesn't disappear before a consonant — it aspirates, so you need the puffed 조타.",
+      "Pronouncing 축하 block-by-block as 'chuk-ha' with a separate ㅎ. It is one merged sound: 추카. Likewise 백화점 is 배콰점, not 'baek-hwa-jeom.'",
+      "Forgetting 못하다 aspirates: learners say 'mot-hae-yo' with a clear ㅎ. Because ㅅ acts as a ㄷ-stop, it fuses with ㅎ to ㅌ → 모태요."
     ],
     "practiceItems": [
       { "prompt": "좋다 sounds like", "ko": "조타", "answer": "조타" },
@@ -138,7 +142,7 @@
       { "prompt": "못하다 sounds like", "ko": "모타다", "answer": "모타다" }
     ],
     "studyOrder": ["Spot ㅎ next to ㄱ/ㄷ/ㅂ/ㅈ (either order)", "They merge into ㅋ/ㅌ/ㅍ/ㅊ", "Apply to 좋다, 축하, 못하다", "Listen for the puff of air"],
-    "beginnerExplanation": "The letter ㅎ is friendly — it merges with a neighbor instead of staying separate. When ㅎ touches ㄱ/ㄷ/ㅂ/ㅈ (in either order), the pair becomes one breathy consonant: ㅋ/ㅌ/ㅍ/ㅊ. So 좋다 is 조타, 축하 is 추카, and 못해요 is 모태요. The air 'puffs' out. This is why congratulations (축하) never sounds like 'chuk-ha' — it's 추카."
+    "beginnerExplanation": "The letter ㅎ is generous — instead of standing apart, it gives its breath to a neighbor and merges. When ㅎ touches ㄱ/ㄷ/ㅂ/ㅈ (in EITHER order), the pair fuses into one breathy consonant: ㅋ/ㅌ/ㅍ/ㅊ. Mnemonic: 'ㅎ is the puff of air that turns a plain consonant into its breathy twin.' So 좋다 is 조타, 축하 is 추카, and 못해요 is 모태요 — hold your hand in front of your mouth and you'll feel the air push out. This is why 'congratulations' (축하) never sounds like 'chuk-ha'; it's a single, breathy 추카. (Note: between two vowels, as in casual 좋아요 → 조아요, the ㅎ instead goes quiet — that's a different situation.)"
   },
   {
     "id": "grammar-foundation-tensification",
@@ -146,19 +150,20 @@
     "romanization": "gyeongeumhwa (tensification)",
     "title": "Tensification",
     "plainEnglish": "Plain consonants ㄱ/ㄷ/ㅂ/ㅅ/ㅈ become the tense ㄲ/ㄸ/ㅃ/ㅆ/ㅉ right after a stop 받침.",
-    "whenToUse": "After a ㄱ/ㄷ/ㅂ-type 받침, a following plain consonant tightens — very common in everyday words like 학교, 식당, 숙제.",
+    "whenToUse": "Apply it in pronunciation whenever a ㄱ/ㄷ/ㅂ-family 받침 (a closed 'stop' sound) is immediately followed by a plain ㄱ/ㄷ/ㅂ/ㅅ/ㅈ. This is everywhere in beginner vocabulary — 학교, 식당, 숙제, 박수, 입국, 듣기, 잡지 — so it is one of the first ear-training habits to build. It also surfaces after the future/prospective -(으)ㄹ for grammatical reasons: the intention ending -ㄹ게요 (갈게요 → 갈께요) and the -(으)ㄹ 거예요 / -(으)ㄹ 수 있다 constructions, where the plain consonant after ㄹ tightens even though it is spelled plain — 갈 거예요 → [갈 꺼예요], 할 수 있어요 → [할 쑤 이써요]. If a stop slams shut right before a plain consonant, tighten that consonant.",
     "attachmentRule": "받침 ㄱ/ㄷ/ㅂ (and family) + ㄱ/ㄷ/ㅂ/ㅅ/ㅈ → tense: 학교 → 학꾜, 먹다 → 먹따, 식당 → 식땅, 숙제 → 숙쩨, 입국 → 입꾹. It also appears after some ㄴ/ㄹ endings (갈게요 → 갈께요).",
-    "contrastWith": "Spelling shows the plain consonant, but you pronounce the tense one. 학교 is written with ㄱ but said with ㄲ (학꾜).",
+    "contrastWith": "Tensification (된소리, tense) is one of three ways a stop 받침 reshapes the NEXT sound — contrast all three so you pick the right one. Before another STOP (ㄱ/ㄷ/ㅂ/ㅅ/ㅈ) → tensify: 학교 → [학꾜]. Before a NASAL (ㄴ/ㅁ) → nasalize instead: 학년 → [항년]. Before ㅎ → aspirate instead: 축하 → [추카]. Take one root, 먹-: 먹고 → [먹꼬] (tense), 먹는 → [멍는] (nasal), and with ㅎ 먹히다 → [머키다] (aspirated). Same 받침, three different next-sounds, three different rules. As always the spelling shows the PLAIN consonant; only the sound tightens, which is why 학교 is written with ㄱ but said 학꾜.",
     "sentenceFrames": ["학교 → [학꾜]", "식당 → [식땅]", "숙제 → [숙쩨]"],
     "examples": [
-      { "ko": "학교에 가요", "romanization": "", "en": "I go to school — 학교 sounds like 학꾜" },
-      { "ko": "식당에서 먹어요", "romanization": "", "en": "I eat at a restaurant — 식당 sounds like 식땅" },
-      { "ko": "숙제 했어요?", "romanization": "", "en": "Did you do the homework? — 숙제 sounds like 숙쩨" },
-      { "ko": "제가 갈게요", "romanization": "", "en": "I'll go — 갈게요 sounds like 갈께요" }
+      { "ko": "학교에 가요.", "romanization": "", "en": "I go to school. The very first vocab word tensifies: 학교 → 학꾜 (ㄱ받침 tightens the next ㄱ to ㄲ)." },
+      { "ko": "이 식당 음식이 맛있어요.", "romanization": "", "en": "This restaurant's food is good. 식당 → 식땅: the ㄱ받침 of 식 squeezes ㄷ into ㄸ." },
+      { "ko": "숙제 다 했어요?", "romanization": "", "en": "Did you finish the homework? 숙제 → 숙쩨: ㄱ받침 + ㅈ → ㅉ. The whole sentence is casual 반말 to a friend." },
+      { "ko": "제가 갈게요.", "romanization": "", "en": "I'll go. Grammatical tensification: the intention ending -ㄹ게요 is heard as 갈께요 even though it's spelled with a plain ㄱ." }
     ],
     "commonMistakes": [
-      "Saying a soft 학교 instead of the tense 학꾜.",
-      "Expecting the spelling to show ㄲ/ㄸ — it doesn't; only the sound is tense."
+      "Saying a gentle 'hak-gyo' for 학교. After the ㄱ받침 the next consonant must tense: 학꾜. A soft second ㄱ marks you instantly as a beginner.",
+      "Expecting the spelling to show the tense letter. You write 학교, 식당, 갈게요 with PLAIN consonants but pronounce ㄲ/ㄸ — never 'fix' the spelling to 학꾜 or 갈께요.",
+      "Tensing after the WRONG environment: 안과 ('eye clinic') is [안꽈] for a grammatical reason, but a plain vowel + consonant like 가게 is just [가게], not [가께]. Tensification needs a stop 받침 (or specific ㄴ/ㄹ endings) before it."
     ],
     "practiceItems": [
       { "prompt": "학교 sounds like", "ko": "학꾜", "answer": "학꾜" },
@@ -166,7 +171,7 @@
       { "prompt": "숙제 sounds like", "ko": "숙쩨", "answer": "숙쩨" }
     ],
     "studyOrder": ["Spot a ㄱ/ㄷ/ㅂ 받침 before a plain consonant", "Tighten it: ㄱ→ㄲ, ㄷ→ㄸ, ㅂ→ㅃ, ㅅ→ㅆ, ㅈ→ㅉ", "Apply to 학교, 식당, 숙제", "Trust the sound, not the spelling"],
-    "beginnerExplanation": "After a hard stop (ㄱ, ㄷ, ㅂ at the end of a syllable), the next plain consonant gets 'squeezed' into a tense one. So 학교 sounds like 학꾜, 식당 like 식땅, and 숙제 like 숙쩨. The spelling still shows the soft consonant, but native speakers say the tense version automatically. You'll do it naturally once your ear gets used to it — for now, just know that 'school' is 학꾜, not a gentle 'hak-gyo.'"
+    "beginnerExplanation": "After a hard stop (ㄱ, ㄷ, ㅂ shutting off a syllable), the air is momentarily blocked — so when it bursts open into the next plain consonant, that consonant comes out 'squeezed' and tense. Mnemonic: 'the stop holds the air back, and it pops out tense.' So 학교 sounds like 학꾜, 식당 like 식땅, and 숙제 like 숙쩨. The spelling keeps the soft consonant, but native speakers tighten it automatically; you'll do the same once your ear adjusts. For now, just lock in that 'school' is a punchy 학꾜, not a gentle 'hak-gyo' — and remember the grammar cases too, like 갈게요 said 갈께요."
   },
   {
     "id": "grammar-irregular-verbs-catalog",
@@ -174,20 +179,20 @@
     "romanization": "irregular conjugations",
     "title": "Irregular Verb Types",
     "plainEnglish": "Seven groups of verbs/adjectives whose stem changes before certain endings instead of staying fixed.",
-    "whenToUse": "Recognize the type from the stem's last letter, then apply its change when adding vowel endings like -아/어요 or -(으) endings.",
+    "whenToUse": "Run this check every time you conjugate a verb or adjective into the 요-form or attach a -(으) ending: first read the stem's LAST letter, then decide whether it belongs to one of the seven shifting groups. The change almost always shows up before a VOWEL ending (-아/어요, -았/었어요, -(으)면, -(으)니까) — that is the trigger — while plain consonant endings like -고, -지, -습니다 often leave the stem alone. So 듣다 is innocent in 듣고 but transforms in 들어요. Build the habit: stem-final letter first, ending-type second.",
     "attachmentRule": "ㅂ-irregular: 덥다 → 더워요, 돕다 → 도와요. ㄷ-irregular: 듣다 → 들어요, 걷다 → 걸어요. ㅅ-irregular: 짓다 → 지어요, 낫다 → 나아요. 르-irregular: 빠르다 → 빨라요, 모르다 → 몰라요. ㅡ-drop: 쓰다 → 써요, 바쁘다 → 바빠요. ㄹ-irregular: 살다 → 살아요 but 사세요/삽니다 (ㄹ drops before ㄴ/ㅂ/ㅅ). ㅎ-irregular (adjectives): 빨갛다 → 빨개요, 어떻다 → 어때요.",
-    "contrastWith": "Regular verbs keep the stem (먹다 → 먹어요). Irregulars change it (듣다 → 들어요, not 듣어요). The trigger is usually a vowel ending; before consonant endings many stay regular.",
+    "contrastWith": "The sharp line to learn is irregular vs REGULAR look-alikes that share the same final letter. Not every ㅂ/ㄷ/ㅅ verb bends: 받다 ('receive') is regular → 받아요, but 듣다 ('hear') is irregular → 들어요; 입다 ('wear') is regular → 입어요, but 덥다 ('hot') is irregular → 더워요; 웃다 ('laugh') is regular → 웃어요, but 짓다 ('build') is irregular → 지어요. You simply have to learn the category WITH the word. Also contrast the two 르-ish situations people merge: the 르-irregular doubles the ㄹ (빠르다 → 빨라요), whereas a plain ㅡ-drop like 크다 just deletes the ㅡ (크다 → 커요). And note the ㅎ-irregular touches ADJECTIVES of color/manner (빨갛다 → 빨개요), not the verb 좋다, which stays regular → 좋아요.",
     "sentenceFrames": ["덥다 → 더___요", "듣다 → 들___요", "빠르다 → 빨___요"],
     "examples": [
-      { "ko": "날씨가 너무 더워요.", "romanization": "", "en": "The weather is so hot. (ㅂ: 덥다→더워요)" },
-      { "ko": "음악을 들어요.", "romanization": "", "en": "I listen to music. (ㄷ: 듣다→들어요)" },
-      { "ko": "발이 빨라요.", "romanization": "", "en": "He's fast. (르: 빠르다→빨라요)" },
-      { "ko": "편지를 써요.", "romanization": "", "en": "I write a letter. (ㅡ: 쓰다→써요)" }
+      { "ko": "오늘 날씨가 너무 더워요.", "romanization": "", "en": "The weather is so hot today. ㅂ-irregular: 덥다 → 더워요 (the ㅂ melts into 우/워 before a vowel)." },
+      { "ko": "저는 음악을 자주 들어요.", "romanization": "", "en": "I often listen to music. ㄷ-irregular: 듣다 → 들어요 (ㄷ turns to ㄹ) — but careful, 받다 stays 받아요." },
+      { "ko": "동생이 저보다 발이 빨라요.", "romanization": "", "en": "My sibling is faster on foot than me. 르-irregular: 빠르다 → 빨라요, the 르 doubling the ㄹ." },
+      { "ko": "지금 편지를 써요.", "romanization": "", "en": "I'm writing a letter right now. ㅡ-drop: 쓰다 → 써요, the bare ㅡ simply vanishes before -어요." }
     ],
     "commonMistakes": [
-      "Treating an irregular like a regular: 듣어요 → it's 들어요.",
-      "Over-applying: not every ㅂ/ㄷ/ㅅ verb is irregular (받다 → 받아요 is regular).",
-      "Forgetting ㄹ-stems drop ㄹ before ㄴ/ㅂ/ㅅ (살다 → 삽니다)."
+      "Treating an irregular like a regular: writing 듣어요 / 덥어요. The vowel ending forces the shift, so it must be 들어요 and 더워요.",
+      "Over-applying the irregularity: assuming every ㅂ/ㄷ/ㅅ verb bends. 받다 → 받아요, 입다 → 입어요, 웃다 → 웃어요 are all REGULAR; only specific verbs (듣다, 덥다, 짓다) are irregular.",
+      "Forgetting ㄹ-stems drop their ㄹ before ㄴ/ㅂ/ㅅ: 살다 → 삽니다 / 사세요 (not 살습니다 / 살으세요), even though 살다 keeps ㄹ in 살아요."
     ],
     "practiceItems": [
       { "prompt": "춥다 → 아/어요", "ko": "추워요", "answer": "추워요" },
@@ -195,6 +200,6 @@
       { "prompt": "모르다 → 아/어요", "ko": "몰라요", "answer": "몰라요" }
     ],
     "studyOrder": ["Identify the stem's last letter", "Match it to one of the 7 irregular types", "Apply the change before vowel endings", "Memorize which common verbs are exceptions"],
-    "beginnerExplanation": "Most Korean verbs are predictable, but seven small groups bend their stem before certain endings. For example, ㄷ-verbs like 듣다 (to hear) turn the ㄷ into ㄹ before a vowel: 들어요, not 듣어요. ㅂ-verbs like 덥다 (hot) become 더워요. 르-verbs like 빠르다 (fast) become 빨라요. Don't try to memorize all at once — learn the type when you meet a common verb, and soon you'll feel the pattern. Watch out: not every verb that ends in ㅂ/ㄷ/ㅅ is irregular (받다 is regular: 받아요)."
+    "beginnerExplanation": "Most Korean verbs are loyal and keep their stem, but seven small clubs bend it right before a vowel ending. ㄷ-verbs like 듣다 ('hear') flip the ㄷ to ㄹ: 들어요, not 듣어요. ㅂ-verbs like 덥다 ('hot') melt the ㅂ into a round 우/워: 더워요. 르-verbs like 빠르다 ('fast') sprout an extra ㄹ: 빨라요. ㅡ-stems like 쓰다 just drop the ㅡ: 써요. Mnemonic: 'the vowel ending is a magnet that pulls the stem out of shape.' Don't memorize all seven at once — learn each type when you meet a common verb in it, and the pattern will start to feel automatic. One warning that saves real errors: NOT every verb ending in ㅂ/ㄷ/ㅅ is irregular — 받다 is perfectly regular (받아요), so always learn the verb together with its club."
   }
 ]

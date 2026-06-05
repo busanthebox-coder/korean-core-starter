@@ -22,16 +22,45 @@
       "shallWe": "좋아할까요?"
     },
     "usage": [
-      ["커피를 좋아해요", "I like coffee", "object takes 를"],
-      ["저도 좋아해요", "I like it too", "도 means also"]
+      ["커피를 좋아해요", "I like coffee", "the thing liked takes the object marker 을/를, not 이/가"],
+      ["저도 좋아해요", "I like it too", "도 'also' replaces 은/는 here; never say 저도는"],
+      ["정말 좋아해요", "I really like it", "정말 or 진짜 in front turns up the warmth"],
+      ["별로 안 좋아해요", "I don't really like it", "별로 + negative is the gentle way to refuse a preference"]
     ],
     "examples": [
-      ["저는 한국 음식을 좋아해요.", "I like Korean food.", "preference"],
-      ["우리 강아지가 산책을 좋아해요.", "Our puppy likes walks.", "third person"],
-      ["저는 매운 음식을 안 좋아해요.", "I do not like spicy food.", "negative form"]
+      ["저는 한국 음식을 좋아해요.", "I like Korean food.", "the bare polite present states a steady, ongoing preference"],
+      ["우리 강아지가 산책을 정말 좋아해요.", "Our puppy really loves walks.", "third-person liker takes 이/가 (강아지가), the liked thing still takes 을/를"],
+      ["저는 매운 음식은 별로 안 좋아해요.", "I don't really like spicy food.", "real refusal: 은 marks the contrast topic, 별로...안 softens the no"]
     ],
-    "nuance": "좋아하다 is a verb and takes the object marker 을 or 를, but the adjective 좋다 takes the subject marker 이 or 가. So you say 커피를 좋아해요 but 커피가 좋아요.",
-    "mistakes": ["Saying 커피가 좋아해요 with the subject marker instead of 커피를 좋아해요"],
+    "nuance": "좋아하다 is an action verb meaning 'to like / be fond of', so it describes a person actively having a preference and takes the object marker 을/를: 커피를 좋아해요. Contrast it with the adjective 좋다 ('to be good/nice'), which describes the thing itself and takes 이/가: 커피가 좋아요 ('coffee is nice / I feel good about coffee'). The dividing line is who is in the spotlight — 좋아하다 puts the liker on stage, 좋다 puts the liked thing on stage. Be careful with 사랑하다 ('to love'): Koreans reserve it for deep romantic or familial love and rarely say it about food or hobbies, where English happily uses 'love' — so 'I love coffee' is 커피를 좋아해요, not 커피를 사랑해요. As a 하다 verb it conjugates regularly: 하다 → 해요, giving 좋아해요 / 좋아합니다 / 좋아했어요. The classic English-speaker pitfall is copying English subject logic and saying 커피가 좋아해요 with 이/가; once it is a 좋아하다 sentence, the food must take 을/를.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "좋아하다 is an action verb meaning 'to like / be fond of', so it describes a person actively having a preference and takes the object marker 을/를: 커피를 좋아해요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it with the adjective 좋다 ('to be good/nice'), which describes the thing itself and takes 이/가: 커피가 좋아요 ('coffee is nice / I feel good about coffee'). The dividing line is who is in the spotlight — 좋아하다 puts the liker on stage, 좋다 puts the liked thing on stage. Be careful with 사랑하다 ('to love'): Koreans reserve it for deep romantic or familial love and rarely say it about food or hobbies, where English happily uses 'love' — so 'I love coffee' is 커피를 좋아해요, not 커피를 사랑해요."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 하다 verb it conjugates regularly: 하다 → 해요, giving 좋아해요 / 좋아합니다 / 좋아했어요.",
+        "chips": ["좋아해요", "좋아합니다", "좋아했어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The classic English-speaker pitfall is copying English subject logic and saying 커피가 좋아해요 with 이/가; once it is a 좋아하다 sentence, the food must take 을/를."
+      }
+    ],
+    "mistakes": [
+      "Saying 커피가 좋아해요 with the subject marker — because the verb 좋아하다 needs an object, the food must take 을/를: 커피를 좋아해요.",
+      "Using 사랑하다 for liking food or pastimes (커피를 사랑해요) — 사랑하다 sounds like deep romantic/familial love in Korean; for everyday fondness use 좋아하다.",
+      "Confusing it with the adjective 좋다 and saying 저는 커피를 좋아요 — if you use the object 를 you must use the verb 좋아해요, not 좋아요."
+    ],
     "irregular": null
   },
   {
@@ -57,16 +86,45 @@
       "shallWe": "싫어할까요?"
     },
     "usage": [
-      ["벌레를 싫어해요", "I dislike bugs", "object takes 를"],
-      ["저는 안 싫어해요", "I do not dislike it", "soft no"]
+      ["벌레를 싫어해요", "I dislike bugs", "the disliked thing takes the object marker 을/를"],
+      ["저는 안 싫어해요", "I don't dislike it", "안 + 싫어해요 is a mild 'it's fine with me'"],
+      ["정말 싫어해요", "I really hate it", "정말/진짜 makes it strong and blunt — use with care"],
+      ["별로 안 좋아해요", "I don't really like it", "the polite escape hatch: prefer this over a blunt 싫어해요"]
     ],
     "examples": [
-      ["저는 추운 날씨를 싫어해요.", "I dislike cold weather.", "preference"],
-      ["제 동생은 야채를 싫어해요.", "My younger sibling dislikes vegetables.", "third person"],
-      ["저는 그 영화를 별로 안 싫어해요.", "I do not really dislike that movie.", "softened"]
+      ["저는 추운 날씨를 싫어해요.", "I dislike cold weather.", "object 를 on the disliked thing; plain steady aversion"],
+      ["제 동생은 야채를 싫어해요.", "My younger sibling dislikes vegetables.", "third-person disliker takes 은/는 or 이/가, the food keeps 을/를"],
+      ["그 영화는 별로 안 좋아해요.", "I don't really like that movie.", "polite real-life softening — Koreans dodge 싫어해요 in front of others"]
     ],
-    "nuance": "싫어하다 is the verb form and takes 을 or 를, while the adjective 싫다 takes 이 or 가. 싫어하다 is fairly strong, so Koreans often soften it with 별로 or use 안 좋아해요 instead.",
-    "mistakes": ["Using 싫어하다 too bluntly when 별로 안 좋아해요 sounds gentler"],
+    "nuance": "싫어하다 is the action verb 'to dislike / hate' and, like its opposite 좋아하다, takes the object marker 을/를: 벌레를 싫어해요. Its adjective partner is 싫다 ('to be unpleasant / not want to'), which takes 이/가 and points at the thing or the feeling itself: 벌레가 싫어요. The verb describes a person's standing dislike, while 싫다 often voices an in-the-moment 'ugh, I don't want to'. The near-synonym to watch is 미워하다, which is 'to resent/hate a person' with an emotional, almost grudge-like color — you 미워하다 someone who hurt you, but you 싫어하다 cold weather or homework. Register matters most here: 싫어해요 is socially strong, so saying 그 사람을 싫어해요 to someone's face is quite blunt; Koreans habitually soften with 별로 ('not really') or simply switch to 별로 안 좋아해요. As a 하다 verb it is regular: 하다 → 해요 (싫어해요 / 싫어합니다 / 싫어했어요). Pitfall: marking the object with 이/가 (벌레가 싫어해요) by mirroring English — keep 을/를 with the verb.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "싫어하다 is the action verb 'to dislike / hate' and, like its opposite 좋아하다, takes the object marker 을/를: 벌레를 싫어해요. Register matters most here: 싫어해요 is socially strong, so saying 그 사람을 싫어해요 to someone's face is quite blunt; Koreans habitually soften with 별로 ('not really') or simply switch to 별로 안 좋아해요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Its adjective partner is 싫다 ('to be unpleasant / not want to'), which takes 이/가 and points at the thing or the feeling itself: 벌레가 싫어요. The verb describes a person's standing dislike, while 싫다 often voices an in-the-moment 'ugh, I don't want to'. The near-synonym to watch is 미워하다, which is 'to resent/hate a person' with an emotional, almost grudge-like color — you 미워하다 someone who hurt you, but you 싫어하다 cold weather or homework."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 하다 verb it is regular: 하다 → 해요 (싫어해요 / 싫어합니다 / 싫어했어요).",
+        "chips": ["싫어해요", "싫어합니다", "싫어했어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "Marking the object with 이/가 (벌레가 싫어해요) by mirroring English — keep 을/를 with the verb."
+      }
+    ],
+    "mistakes": [
+      "Marking the disliked thing with 이/가 (벌레가 싫어해요) — the verb 싫어하다 needs an object, so it must be 벌레를 싫어해요; 이/가 belongs with the adjective 싫다 (벌레가 싫어요).",
+      "Using 싫어해요 bluntly about a present person (그 사람을 싫어해요) in front of others — it sounds harsh; soften to 별로 안 좋아해요 or 별로예요.",
+      "Reaching for 미워하다 for things like weather or food — 미워하다 is resentment aimed at a person; for objects and situations use 싫어하다."
+    ],
     "irregular": null
   },
   {
@@ -92,16 +150,45 @@
       "shallWe": "알까요?"
     },
     "usage": [
-      ["저 사람을 알아요", "I know that person", "object takes 를"],
-      ["답을 알았어요", "I figured out the answer", "past tense"]
+      ["저 사람을 알아요", "I know that person", "the thing/person known takes 을/를"],
+      ["답을 알았어요", "I figured out the answer", "past 알았어요 often means 'I came to know / realized'"],
+      ["잘 알아요", "I know it well", "잘 'well' is the natural intensifier with 알다"],
+      ["알겠어요", "I see / got it", "알겠어요 acknowledges new info; 알아요 claims you already knew"]
     ],
     "examples": [
-      ["저는 그 식당을 잘 알아요.", "I know that restaurant well.", "familiarity"],
-      ["이 단어 뜻을 알아요?", "Do you know what this word means?", "question"],
-      ["그분 전화번호를 알아요.", "I know that person phone number.", "possession of info"]
+      ["저는 그 식당을 잘 알아요.", "I know that restaurant well.", "잘 알아요 = solid familiarity; object 를 on 식당"],
+      ["이 단어 뜻을 알아요?", "Do you know what this word means?", "rising-intonation question; 뜻을 알다 'know the meaning'"],
+      ["아, 이제 알겠어요. 가르쳐 줘서 고마워요.", "Ah, I get it now. Thanks for explaining.", "real moment of understanding uses 알겠어요, not 알아요"]
     ],
-    "nuance": "알다 is a ㄹ irregular verb, so the ㄹ drops before consonant endings like 압니다 and 아세요. Its natural opposite is not 안 알아요 but the separate verb 모르다, so say 몰라요 to mean I do not know.",
-    "mistakes": ["Saying 안 알아요 for I do not know instead of the correct 몰라요"],
+    "nuance": "알다 means 'to know / be aware of / be acquainted with' and takes the object marker 을/를: 저 사람을 알아요. It is a ㄹ-irregular verb: the stem ㄹ drops before ㅂ, ㄴ, and the honorific ㅅ, giving 압니다 (not 알습니다) and 아세요 (not 알으세요), but the ㄹ stays before vowel endings, so the everyday polite form is 알아요. Two contrasts are essential. First, its opposite is not the negative 안 알아요 — that is wrong — but the separate verb 모르다, so 'I don't know' is 몰라요. Second, 알다 vs 알겠다: 알아요 claims knowledge you already hold ('I know that'), while 알겠어요 signals you have just understood or accepted something ('I see / got it / will do'), which is why a polite 'understood' is 알겠습니다, never 압니다. The English-speaker pitfall is twofold: forming 'don't know' as 안 알아요 instead of 몰라요, and keeping the ㄹ to say 알습니다 instead of 압니다.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "알다 means 'to know / be aware of / be acquainted with' and takes the object marker 을/를: 저 사람을 알아요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two contrasts are essential. First, its opposite is not the negative 안 알아요 — that is wrong — but the separate verb 모르다, so 'I don't know' is 몰라요. Second, 알다 vs 알겠다: 알아요 claims knowledge you already hold ('I know that'), while 알겠어요 signals you have just understood or accepted something ('I see / got it / will do'), which is why a polite 'understood' is 알겠습니다, never 압니다."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㄹ-irregular verb: the stem ㄹ drops before ㅂ, ㄴ, and the honorific ㅅ, giving 압니다 (not 알습니다) and 아세요 (not 알으세요), but the ㄹ stays before vowel endings, so the everyday polite form is 알아요.",
+        "chips": ["알아요", "압니다", "아세요", "알았어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is twofold: forming 'don't know' as 안 알아요 instead of 몰라요, and keeping the ㄹ to say 알습니다 instead of 압니다."
+      }
+    ],
+    "mistakes": [
+      "Saying 안 알아요 for 'I don't know' — Korean uses the dedicated verb 모르다, so the correct form is 몰라요.",
+      "Keeping the ㄹ before consonant endings and saying 알습니다 / 알으세요 — as a ㄹ-irregular it drops: 압니다 and 아세요.",
+      "Using 알아요 to say 'understood/got it' — that claims prior knowledge; to acknowledge something new, say 알겠어요 (formal 알겠습니다)."
+    ],
     "irregular": "ㄹ irregular"
   },
   {
@@ -127,16 +214,45 @@
       "shallWe": "모를까요?"
     },
     "usage": [
-      ["길을 몰라요", "I do not know the way", "object takes 를"],
-      ["저도 잘 몰라요", "I do not really know either", "softened"]
+      ["길을 몰라요", "I don't know the way", "the thing not known takes 을/를, like 알다"],
+      ["저도 잘 몰라요", "I don't really know either", "잘 몰라요 softens an outright 'I don't know'"],
+      ["잘 모르겠어요", "I'm not quite sure", "겠 adds tentative politeness — the most natural soft 'no idea'"],
+      ["모르는 게 많아요", "There's a lot I don't know", "모르는 + noun is the relative-clause form 'things (I) don't know'"]
     ],
     "examples": [
-      ["죄송해요, 저는 길을 잘 몰라요.", "Sorry, I do not really know the way.", "polite apology"],
-      ["그 사람 이름을 몰랐어요.", "I did not know that person name.", "past tense"],
-      ["이 문제는 답을 모르겠어요.", "I do not know the answer to this problem.", "thinking aloud"]
+      ["죄송해요, 저는 길을 잘 몰라요.", "Sorry, I don't really know the way.", "polite apology + 잘 몰라요 to be gentle"],
+      ["그 사람 이름을 몰랐어요.", "I didn't know that person's name.", "past 몰랐어요 from the 르-irregular stem"],
+      ["글쎄요, 저도 잘 모르겠어요. 같이 찾아볼까요?", "Hmm, I'm not sure either. Shall we look it up together?", "real fumble: 모르겠어요 sounds far softer than a flat 몰라요"]
     ],
-    "nuance": "모르다 is a 르 irregular, so the stem changes before 아 or 어 endings: 모르 plus 아요 becomes 몰라요, not 모르아요. Adding 겠 as in 모르겠어요 sounds softer and more natural than a flat 몰라요 in many situations.",
-    "mistakes": ["Saying 모르아요 instead of the correct 르 irregular form 몰라요"],
+    "nuance": "모르다 is the standalone verb 'to not know / be unaware of', the lexical opposite of 알다, and it likewise takes the object marker 을/를: 길을 몰라요. It is a 르-irregular: when an 아/어 ending attaches, the 르 stem doubles the ㄹ and the vowel drops, so 모르 + 아요 → 몰라요 (never 모르아요) and the past is 몰랐어요. The crucial register tool is 겠: 잘 모르겠어요 ('I'm not quite sure') is markedly softer and more natural than a blunt 몰라요, which can sound curt or even dismissive depending on tone, so Koreans lean on the 겠 form constantly when admitting ignorance politely. Compare 모르다 with 헷갈리다 ('to be confused / mix things up'): 모르다 is having no information at all, while 헷갈리다 is having information but getting it tangled. The English-speaker pitfall is the conjugation — applying a regular pattern to get 모르아요 instead of the irregular 몰라요 — and forgetting that the smooth, courteous version is 잘 모르겠어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "모르다 is the standalone verb 'to not know / be unaware of', the lexical opposite of 알다, and it likewise takes the object marker 을/를: 길을 몰라요. The crucial register tool is 겠: 잘 모르겠어요 ('I'm not quite sure') is markedly softer and more natural than a blunt 몰라요, which can sound curt or even dismissive depending on tone, so Koreans lean on the 겠 form constantly when admitting ignorance politely."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Compare 모르다 with 헷갈리다 ('to be confused / mix things up'): 모르다 is having no information at all, while 헷갈리다 is having information but getting it tangled."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a 르-irregular: when an 아/어 ending attaches, the 르 stem doubles the ㄹ and the vowel drops, so 모르 + 아요 → 몰라요 (never 모르아요) and the past is 몰랐어요.",
+        "chips": ["몰라요", "몰랐어요", "모릅니다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is the conjugation — applying a regular pattern to get 모르아요 instead of the irregular 몰라요 — and forgetting that the smooth, courteous version is 잘 모르겠어요."
+      }
+    ],
+    "mistakes": [
+      "Conjugating it regularly as 모르아요 — 모르다 is a 르-irregular, so 모르 + 아요 becomes 몰라요 (past 몰랐어요).",
+      "Blurting a bare 몰라요 when asked something — it can sound curt; soften with 잘 모르겠어요 to stay polite.",
+      "Using 모르다 when you mean you mixed two things up — that is 헷갈리다 (e.g. 이름이 헷갈려요 'I keep confusing the names'), not 몰라요."
+    ],
     "irregular": "르 irregular"
   },
   {
@@ -162,16 +278,45 @@
       "shallWe": "살까요?"
     },
     "usage": [
-      ["서울에 살아요", "I live in Seoul", "place takes 에"],
-      ["혼자 살아요", "I live alone", "common phrase"]
+      ["서울에 살아요", "I live in Seoul", "the place of residence takes 에 (static location), not 에서"],
+      ["혼자 살아요", "I live alone", "혼자 'alone' sits right before the verb"],
+      ["한국에서 살고 싶어요", "I want to live in Korea", "with 살다 about an active life-experience, 에서 is also used"],
+      ["부모님은 부산에 사세요", "My parents live in Busan", "honorific 사세요 (ㄹ drops before 시)"]
     ],
     "examples": [
-      ["저는 지금 서울에 살아요.", "I live in Seoul now.", "residence"],
-      ["부모님은 부산에 사세요.", "My parents live in Busan.", "honorific"],
-      ["저는 한국에서 살고 싶어요.", "I want to live in Korea.", "desire"]
+      ["저는 지금 서울에 살아요.", "I live in Seoul now.", "residence with 에; 지금 'now' marks current address"],
+      ["부모님은 부산에 사세요.", "My parents live in Busan.", "honorific 사세요 for elders — note the ㄹ has dropped"],
+      ["저는 언젠가 제주도에서 살고 싶어요.", "Someday I want to live on Jeju.", "future hope; 에서 + 살다 frames it as a life to be lived there"]
     ],
-    "nuance": "살다 is a ㄹ irregular, so the ㄹ disappears before ㅂ or ㄴ and the honorific 시: 삽니다 and 사세요, not 살읍니다 or 살으세요. For where you live, use the place plus 에 with 살다, as in 서울에 살아요.",
-    "mistakes": ["Keeping the ㄹ and saying 살읍니다 instead of the correct 삽니다"],
+    "nuance": "살다 means 'to live' in two senses — to reside somewhere and to be alive — and is a ㄹ-irregular verb. The stem ㄹ disappears before ㅂ, ㄴ, and the honorific 시, producing 삽니다 (not 살읍니다), 사세요 (not 살으세요), and 사니까; before vowel endings the ㄹ stays, so the polite present is 살아요. For where you live, the default particle is the static-location 에: 서울에 살아요. Interestingly, because living is an activity carried out over time, the dynamic-location 에서 is also acceptable and common, especially with hopes and experiences (한국에서 살고 싶어요) — this is one of the few cases where both 에 and 에서 work with the same verb. Contrast 살다 with 거주하다 (居住하다, Sino-Korean 'to reside'), a stiff, formal/written word used on official forms (거주지 'place of residence'); in speech you always say 살다. The English-speaker pitfall is keeping the ㄹ to say 살읍니다 instead of 삽니다, and reflexively choosing 에서 for every location when plain residence prefers 에.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "살다 means 'to live' in two senses — to reside somewhere and to be alive. For where you live, the default particle is the static-location 에: 서울에 살아요. Interestingly, because living is an activity carried out over time, the dynamic-location 에서 is also acceptable and common, especially with hopes and experiences (한국에서 살고 싶어요) — this is one of the few cases where both 에 and 에서 work with the same verb."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast 살다 with 거주하다 (居住하다, Sino-Korean 'to reside'), a stiff, formal/written word used on official forms (거주지 'place of residence'); in speech you always say 살다."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "살다 is a ㄹ-irregular verb. The stem ㄹ disappears before ㅂ, ㄴ, and the honorific 시, producing 삽니다 (not 살읍니다), 사세요 (not 살으세요), and 사니까; before vowel endings the ㄹ stays, so the polite present is 살아요.",
+        "chips": ["살아요", "삽니다", "사세요", "사니까"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is keeping the ㄹ to say 살읍니다 instead of 삽니다, and reflexively choosing 에서 for every location when plain residence prefers 에."
+      }
+    ],
+    "mistakes": [
+      "Keeping the ㄹ before consonant endings and saying 살읍니다 / 살으세요 — as a ㄹ-irregular it drops: 삽니다 and 사세요.",
+      "Always using 에서 for the place you live — for stating a plain address, the static 에 is standard: 서울에 살아요 (에서 leans toward an active life-experience).",
+      "Using the formal 거주하다 in casual conversation — it sounds like a government form; everyday speech uses 살다."
+    ],
     "irregular": "ㄹ irregular"
   },
   {
@@ -197,16 +342,45 @@
       "shallWe": "만들까요?"
     },
     "usage": [
-      ["음식을 만들어요", "I make food", "object takes 을"],
-      ["같이 만들까요?", "shall we make it together?", "suggestion"]
+      ["음식을 만들어요", "I make food", "the thing created takes the object marker 을/를"],
+      ["같이 만들까요?", "shall we make it together?", "ㄹ stays before 까요 — 만들까요, not 만ㄹ까요"],
+      ["직접 만들어요", "I make it myself", "직접 'in person/by oneself' is a common partner of 만들다"],
+      ["만들어 주세요", "please make it for me", "만들어 + 주세요 asks someone to make it on your behalf"]
     ],
     "examples": [
-      ["저는 주말에 빵을 만들어요.", "I make bread on weekends.", "hobby"],
-      ["엄마가 김치를 만들어요.", "Mom makes kimchi.", "cooking"],
-      ["우리 같이 케이크를 만들어요.", "Let us make a cake together.", "invitation"]
+      ["저는 주말에 빵을 만들어요.", "I make bread on weekends.", "vowel ending keeps the ㄹ: 만들어요"],
+      ["엄마가 김치를 직접 만드세요.", "Mom makes kimchi herself.", "honorific 만드세요 — ㄹ drops before 시"],
+      ["우리 같이 케이크를 만들까요?", "Shall we make a cake together?", "invitation; ㄹ survives before 까요"]
     ],
-    "nuance": "만들다 is a ㄹ irregular, so the ㄹ drops before ㅂ and ㄴ, giving 만듭니다 and 만드세요. Before vowel endings the ㄹ stays, so the polite present is 만들어요, not 만드러요.",
-    "mistakes": ["Dropping the ㄹ before a vowel and saying 만드러요 instead of 만들어요"],
+    "nuance": "만들다 means 'to make / create / build' something concrete or abstract (food, objects, plans, rules) and takes the object marker 을/를: 음식을 만들어요. It is a ㄹ-irregular verb, so the stem ㄹ drops before ㅂ, ㄴ, and 시 — 만듭니다, 만드세요, 만드니까 — but the ㄹ stays before vowel endings, giving the polite present 만들어요 (never 만드러요) and the suggestion 만들까요. A key contrast is 만들다 vs 하다: both can translate as 'make/do', but 만들다 implies producing a tangible result that did not exist before (케이크를 만들다 'make a cake'), whereas 하다 is to perform an activity (요리를 하다 'do cooking'). Also distinguish 짓다 ('to build/construct' houses, and to compose names/poems, 집을 짓다) from 만들다, which is the broad everyday 'make'. The English-speaker pitfall is mishandling the irregular in both directions: dropping the ㄹ before a vowel (만드러요) or keeping it before a consonant (만들습니다 instead of 만듭니다).",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "만들다 means 'to make / create / build' something concrete or abstract (food, objects, plans, rules) and takes the object marker 을/를: 음식을 만들어요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "A key contrast is 만들다 vs 하다: both can translate as 'make/do', but 만들다 implies producing a tangible result that did not exist before (케이크를 만들다 'make a cake'), whereas 하다 is to perform an activity (요리를 하다 'do cooking'). Also distinguish 짓다 ('to build/construct' houses, and to compose names/poems, 집을 짓다) from 만들다, which is the broad everyday 'make'."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㄹ-irregular verb, so the stem ㄹ drops before ㅂ, ㄴ, and 시 — 만듭니다, 만드세요, 만드니까 — but the ㄹ stays before vowel endings, giving the polite present 만들어요 (never 만드러요) and the suggestion 만들까요.",
+        "chips": ["만들어요", "만듭니다", "만드세요", "만들까요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is mishandling the irregular in both directions: dropping the ㄹ before a vowel (만드러요) or keeping it before a consonant (만들습니다 instead of 만듭니다)."
+      }
+    ],
+    "mistakes": [
+      "Dropping the ㄹ before a vowel ending and writing 만드러요 — the ㄹ only drops before ㅂ/ㄴ/시, so the polite present is 만들어요.",
+      "Keeping the ㄹ before consonant endings (만들습니다) — as a ㄹ-irregular it must drop: 만듭니다, 만드세요.",
+      "Using 만들다 for building a house — Korean prefers 짓다 (집을 짓다); 만들다 is the general 'make' for food, objects, and plans."
+    ],
     "irregular": "ㄹ irregular"
   },
   {
@@ -232,16 +406,45 @@
       "shallWe": "배울까요?"
     },
     "usage": [
-      ["한국어를 배워요", "I learn Korean", "object takes 를"],
-      ["배우고 싶어요", "I want to learn", "expressing desire"]
+      ["한국어를 배워요", "I learn Korean", "the subject/skill learned takes the object marker 을/를"],
+      ["배우고 싶어요", "I want to learn", "배우고 싶다 expresses the wish to learn"],
+      ["선생님한테 배워요", "I learn from a teacher", "the source person takes 한테/에게서, not 에서"],
+      ["새로 배워요", "I'm learning it newly", "새로 'newly/afresh' pairs naturally with 배우다"]
     ],
     "examples": [
-      ["저는 한국어를 배워요.", "I learn Korean.", "study"],
-      ["요즘 기타를 배우고 있어요.", "I am learning guitar these days.", "ongoing"],
-      ["저는 운전을 배우고 싶어요.", "I want to learn to drive.", "desire"]
+      ["저는 한국어를 배워요.", "I learn Korean.", "two vowels contract: 배우 + 어요 → 배워요"],
+      ["요즘 친구한테 기타를 배우고 있어요.", "These days I'm learning guitar from a friend.", "source person takes 한테; 고 있다 = ongoing"],
+      ["저는 운전을 배워서 회사에 차로 가고 싶어요.", "I want to learn to drive and go to work by car.", "real goal-linked sentence; 배워서 connects reason to plan"]
     ],
-    "nuance": "배우다 ends in the vowel 우, so when 어요 attaches the two vowels contract into 워요, giving 배워요 rather than 배우어요. Korean uses 배우다 for skills and subjects you study, while 가르치다 is the matching verb for teaching them.",
-    "mistakes": ["Writing the uncontracted 배우어요 instead of the natural 배워요"],
+    "nuance": "배우다 means 'to learn / acquire a skill or subject' and takes the object marker 을/를: 한국어를 배워요. It is a regular verb, but the stem ends in the vowel 우, so when 어요 attaches the two vowels contract into 워 — 배우 + 어요 → 배워요 (not 배우어요), past 배웠어요. The natural partner verb is 가르치다 ('to teach'), the giving side of the same act; and the person you learn from takes 한테/에게서 (사람) — 선생님한테 배워요 — never the place particle 에서 for the source. Contrast 배우다 with 공부하다 (工夫하다, 'to study'): 공부하다 is the effort of studying (sitting down, reviewing, hitting the books), while 배우다 is the result of acquiring a skill or being taught it, often from someone. So you 공부하다 for an exam at your desk but 배우다 the piano from a teacher. The English-speaker pitfall is writing the uncontracted 배우어요, and saying 학원에서 배우다 to mean 'learn from the academy' — 에서 marks where, while the human source must take 한테/에게서.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "배우다 means 'to learn / acquire a skill or subject' and takes the object marker 을/를: 한국어를 배워요. The natural partner verb is 가르치다 ('to teach'), the giving side of the same act; and the person you learn from takes 한테/에게서 (사람) — 선생님한테 배워요 — never the place particle 에서 for the source."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast 배우다 with 공부하다 (工夫하다, 'to study'): 공부하다 is the effort of studying (sitting down, reviewing, hitting the books), while 배우다 is the result of acquiring a skill or being taught it, often from someone. So you 공부하다 for an exam at your desk but 배우다 the piano from a teacher."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a regular verb, but the stem ends in the vowel 우, so when 어요 attaches the two vowels contract into 워 — 배우 + 어요 → 배워요 (not 배우어요), past 배웠어요.",
+        "chips": ["배워요", "배웠어요", "배웁니다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is writing the uncontracted 배우어요, and saying 학원에서 배우다 to mean 'learn from the academy' — 에서 marks where, while the human source must take 한테/에게서."
+      }
+    ],
+    "mistakes": [
+      "Writing the uncontracted 배우어요 — the 우 + 어요 contracts, so the polite present is 배워요 (past 배웠어요).",
+      "Confusing 배우다 with 공부하다 — 공부하다 is the act of studying/reviewing; 배우다 is acquiring or being taught a skill. Use 시험공부를 해요 for exam prep, 피아노를 배워요 for taking lessons.",
+      "Marking the person you learn from with 에서 — a human source takes 한테/에게서: 선생님한테 배워요, not 선생님에서."
+    ],
     "irregular": null
   },
   {
@@ -267,16 +470,45 @@
       "shallWe": "가르칠까요?"
     },
     "usage": [
-      ["영어를 가르쳐요", "I teach English", "object takes 를"],
-      ["가르쳐 주세요", "please teach me", "polite request"]
+      ["영어를 가르쳐요", "I teach English", "the subject taught takes the object marker 을/를"],
+      ["가르쳐 주세요", "please teach me", "가르쳐 + 주세요 asks someone to teach you as a favor"],
+      ["학생들에게 가르쳐요", "I teach the students", "the learner takes 에게/한테 (the recipient)"],
+      ["천천히 가르쳐 주세요", "please teach me slowly", "천천히 'slowly' is a polite softener in requests"]
     ],
     "examples": [
-      ["선생님이 한국어를 가르쳐요.", "The teacher teaches Korean.", "school"],
-      ["저는 학생들에게 영어를 가르쳐요.", "I teach English to students.", "with 에게"],
-      ["이 단어 좀 가르쳐 주세요.", "Please teach me this word.", "request"]
+      ["선생님이 한국어를 가르쳐요.", "The teacher teaches Korean.", "치 + 어요 contracts to 쳐요"],
+      ["저는 학생들에게 영어를 가르쳐요.", "I teach English to students.", "double object pattern: 에게 = learner, 을 = subject"],
+      ["이 한자 좀 가르쳐 주세요. 발음을 모르겠어요.", "Could you teach me this character? I don't know how it's read.", "real request with a reason; 좀 softens it"]
     ],
-    "nuance": "가르치다 contracts 치 plus 어요 into 쳐요, so the polite present is 가르쳐요. The learner you teach takes 에게 or the more casual 한테, as in 학생에게 가르쳐요. Do not confuse it with 가리키다, which means to point at.",
-    "mistakes": ["Mixing up 가르치다 (to teach) with the similar verb 가리키다 (to point)"],
+    "nuance": "가르치다 means 'to teach / instruct' and is the giving counterpart of 배우다 ('to learn'). It is a regular verb whose stem ends in 치, so 치 + 어요 contracts to 쳐요 — the polite present is 가르쳐요, past 가르쳤어요. Its argument structure is the classic give-pattern: the learner (recipient) takes 에게 or casual 한테, and the subject taught takes 을/를 — 학생들에게 영어를 가르쳐요. The single most important caution is the look-alike 가리키다 ('to point at / indicate', 시계를 가리키다 'point at the clock'): the two verbs sound close and even native speakers occasionally slip, but 가르치다 is teaching and 가리키다 is pointing — never swap them. Compare also with the honorific 가르침 ('teachings/guidance', a noun) and the polite request 가르쳐 주세요, which is how you say 'please show/tell me'. The English-speaker pitfall is mixing up 가르치다 with 가리키다, and forgetting that the person taught takes 에게/한테 (not 을/를), so 'teach the students' is 학생들에게 가르쳐요, with the lesson, not the student, as the 를-object.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "가르치다 means 'to teach / instruct' and is the giving counterpart of 배우다 ('to learn'). Its argument structure is the classic give-pattern: the learner (recipient) takes 에게 or casual 한테, and the subject taught takes 을/를 — 학생들에게 영어를 가르쳐요. Compare also with the honorific 가르침 ('teachings/guidance', a noun) and the polite request 가르쳐 주세요, which is how you say 'please show/tell me'."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The single most important caution is the look-alike 가리키다 ('to point at / indicate', 시계를 가리키다 'point at the clock'): the two verbs sound close and even native speakers occasionally slip, but 가르치다 is teaching and 가리키다 is pointing — never swap them."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a regular verb whose stem ends in 치, so 치 + 어요 contracts to 쳐요 — the polite present is 가르쳐요, past 가르쳤어요.",
+        "chips": ["가르쳐요", "가르쳤어요", "가르칩니다"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is mixing up 가르치다 with 가리키다, and forgetting that the person taught takes 에게/한테 (not 을/를), so 'teach the students' is 학생들에게 가르쳐요, with the lesson, not the student, as the 를-object."
+      }
+    ],
+    "mistakes": [
+      "Mixing up 가르치다 (to teach) with the near-identical 가리키다 (to point at) — keep them apart: 한국어를 가르쳐요 vs 손가락으로 가리켜요.",
+      "Marking the learner with the object 를 (학생을 가르쳐요 to mean 'teach to the student') — the recipient takes 에게/한테: 학생에게 가르쳐요, and the lesson takes 를.",
+      "Leaving 가르치 + 어요 uncontracted as 가르치어요 — it contracts to 가르쳐요 (past 가르쳤어요)."
+    ],
     "irregular": null
   },
   {
@@ -302,16 +534,50 @@
       "shallWe": "도와줄까요?"
     },
     "usage": [
-      ["친구를 도와줘요", "I help a friend", "object takes 를"],
-      ["도와주세요", "please help me", "key survival phrase"]
+      ["친구를 도와줘요", "I help a friend", "the person helped takes the object marker 을/를"],
+      ["도와주세요", "please help me", "key survival phrase — already polite, no extra 주세요 needed"],
+      ["좀 도와주세요", "please help me a bit", "좀 softens the request and sounds more natural"],
+      ["도와줄까요?", "shall I help you?", "offering help; the 르 stem of 주다 keeps ㄹ before 까요"]
     ],
     "examples": [
-      ["제가 도와줄게요.", "I will help you.", "offer"],
-      ["친구가 저를 많이 도와줬어요.", "My friend helped me a lot.", "past gratitude"],
-      ["짐 좀 도와주세요.", "Please help me with the luggage.", "request"]
+      ["제가 도와줄게요.", "I'll help you.", "줄게요 = a friendly promise to help; spoken offer"],
+      ["친구가 저를 많이 도와줬어요.", "My friend helped me a lot.", "past 도와줬어요; the helper takes 이/가, helped person 를"],
+      ["짐이 무거운데 좀 도와주세요.", "The luggage is heavy, so please help me.", "real request: 는데 gives the reason, 좀 softens it"]
     ],
-    "nuance": "도와주다 already contains 주다 (to give), which adds the warm sense of doing the help for someone else. The polite request form is the short 도와주세요, not 도와줘 주세요, because the 주다 is already inside the verb.",
-    "mistakes": ["Adding a second 주세요 and saying 도와줘 주세요 instead of 도와주세요"],
+    "nuance": "도와주다 means 'to help (for someone's benefit)' and is built from 돕다 ('to help') + 주다 ('to give'), so the 주다 already bakes in the warm sense of doing the help for another person. The base 돕다 is a ㅂ-irregular (돕 + 아요 → 도와요), which is why the compound surfaces as 도와- and the polite present is 도와줘요, past 도와줬어요. The person helped takes the object marker 을/를: 친구를 도와줘요. The most useful register fact is the request form: because 주다 is inside the verb, 'please help me' is simply 도와주세요 — adding a second giving verb to make 도와줘 주세요 is redundant and wrong. Contrast plain 돕다 (which feels more neutral/written, 어려운 이웃을 돕다 'help a struggling neighbor') with 도와주다 (the warm, conversational everyday form). The English-speaker pitfall is exactly that double 주세요, plus marking the helped person with 에게 by analogy to 'give to' — but help is done to a person directly, so it is 저를 도와줘요, not 저에게 도와줘요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "도와주다 means 'to help (for someone's benefit)', and the 주다 already bakes in the warm sense of doing the help for another person. The person helped takes the object marker 을/를: 친구를 도와줘요. The most useful register fact is the request form: because 주다 is inside the verb, 'please help me' is simply 도와주세요 — adding a second giving verb to make 도와줘 주세요 is redundant and wrong."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast plain 돕다 (which feels more neutral/written, 어려운 이웃을 돕다 'help a struggling neighbor') with 도와주다 (the warm, conversational everyday form)."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "도와주다 is built from 돕다 ('to help') + 주다 ('to give')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "The base 돕다 is a ㅂ-irregular (돕 + 아요 → 도와요), which is why the compound surfaces as 도와- and the polite present is 도와줘요, past 도와줬어요.",
+        "chips": ["도와줘요", "도와줬어요", "도와주세요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is exactly that double 주세요, plus marking the helped person with 에게 by analogy to 'give to' — but help is done to a person directly, so it is 저를 도와줘요, not 저에게 도와줘요."
+      }
+    ],
+    "mistakes": [
+      "Adding a second giving verb and saying 도와줘 주세요 — 주다 is already inside 도와주다, so 'please help me' is just 도와주세요.",
+      "Marking the helped person with 에게/한테 (저에게 도와줘요) — the person helped is the direct object: 저를 도와줘요.",
+      "Treating the stem as regular — it comes from the ㅂ-irregular 돕다 (돕 + 아 → 도와), so the forms are 도와줘요 / 도와줬어요, not 도우어요-style errors."
+    ],
     "irregular": null
   },
   {
@@ -337,16 +603,50 @@
       "shallWe": "시작할까요?"
     },
     "usage": [
-      ["일을 시작해요", "I start work", "object takes 을"],
-      ["이제 시작할까요?", "shall we start now?", "suggestion"]
+      ["일을 시작해요", "I start work", "with an object (transitive) the thing started takes 을/를"],
+      ["수업이 시작해요", "the class starts", "without a doer (intransitive) the thing takes 이/가"],
+      ["이제 시작할까요?", "shall we start now?", "이제 'now' marks the kickoff moment"],
+      ["다시 시작해요", "I start again / let's start over", "다시 'again' is a frequent partner"]
     ],
     "examples": [
-      ["수업이 아홉 시에 시작해요.", "Class starts at nine.", "time"],
-      ["저는 새 일을 시작했어요.", "I started a new job.", "past"],
-      ["우리 이제 시작할까요?", "Shall we start now?", "suggestion"]
+      ["수업이 아홉 시에 시작해요.", "Class starts at nine.", "time at 에; intransitive, so 수업이"],
+      ["저는 지난달에 새 일을 시작했어요.", "I started a new job last month.", "transitive past; 일을 시작했어요"],
+      ["준비됐어요? 그럼 이제 시작할까요?", "Ready? Then shall we start now?", "real suggestion before an activity"]
     ],
-    "nuance": "시작하다 is a 하다 verb, so 하다 becomes 해요 in the polite present, giving 시작해요 and the formal 시작합니다. It can be used both with an object, as in 일을 시작해요, and on its own when something begins, as in 수업이 시작해요.",
-    "mistakes": ["Conjugating the 하다 as 시작하요 instead of the correct 시작해요"],
+    "nuance": "시작하다 means 'to start / begin' and is a Sino-Korean 하다 verb — 시작 (始作, literally 始 'begin' + 作 'make/do', i.e. 'set in motion') plus 하다. As a 하다 verb it conjugates regularly with 하다 → 해요: 시작해요 / 시작합니다 / 시작했어요. A point that trips learners is that 시작하다 works both transitively and intransitively: with a doer it takes an object (저는 일을 시작해요 'I start work', 을/를), and with no doer the thing simply begins and takes the subject marker (수업이 시작해요 'class starts', 이/가). Contrast it with the pure intransitive 시작되다 (始作되다, 'to be started/begin'), which is more formal and never takes an object — 회의가 시작됐어요 'the meeting began'. Its natural opposite is 끝나다 ('to end'). The English-speaker pitfalls are (1) conjugating the 하다 wrongly as 시작하요 instead of 시작해요, and (2) forcing an object onto the no-doer case (수업을 시작해요 when you simply mean class begins) — when nothing actively starts it, use 수업이 시작해요 or the passive 시작돼요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "시작하다 means 'to start / begin'. A point that trips learners is that 시작하다 works both transitively and intransitively: with a doer it takes an object (저는 일을 시작해요 'I start work', 을/를), and with no doer the thing simply begins and takes the subject marker (수업이 시작해요 'class starts', 이/가). Its natural opposite is 끝나다 ('to end')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Contrast it with the pure intransitive 시작되다 (始作되다, 'to be started/begin'), which is more formal and never takes an object — 회의가 시작됐어요 'the meeting began'."
+      },
+      {
+        "k": "한자·어원",
+        "e": "ORIGIN",
+        "t": "It is a Sino-Korean 하다 verb — 시작 (始作, literally 始 'begin' + 作 'make/do', i.e. 'set in motion') plus 하다."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "As a 하다 verb it conjugates regularly with 하다 → 해요: 시작해요 / 시작합니다 / 시작했어요.",
+        "chips": ["시작해요", "시작합니다", "시작했어요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfalls are (1) conjugating the 하다 wrongly as 시작하요 instead of 시작해요, and (2) forcing an object onto the no-doer case (수업을 시작해요 when you simply mean class begins) — when nothing actively starts it, use 수업이 시작해요 or the passive 시작돼요."
+      }
+    ],
+    "mistakes": [
+      "Conjugating the 하다 as 시작하요 — every 하다 verb becomes 해요, so it is 시작해요 (formal 시작합니다, past 시작했어요).",
+      "Forcing an object when there is no doer (수업을 시작해요 to mean 'class begins') — use the intransitive 수업이 시작해요, or 시작돼요.",
+      "Using the formal passive 시작되다 in casual speech where active 시작하다 fits — keep 시작되다 for announcements/writing (회의가 시작됩니다)."
+    ],
     "irregular": null
   },
   {
@@ -372,16 +672,39 @@
       "shallWe": "끝날까요?"
     },
     "usage": [
-      ["수업이 끝나요", "the class ends", "subject takes 이"],
-      ["일이 끝났어요", "work has ended", "past tense"]
+      ["수업이 끝나요", "the class ends", "intransitive: the thing that ends takes 이/가"],
+      ["일이 끝났어요", "work has ended", "past 끝났어요 (끝나 + 았어요)"],
+      ["다 끝났어요", "it's all finished", "다 'all/completely' is the natural partner of 끝나다"],
+      ["일을 끝내요", "I finish the work", "contrast: with an object use the transitive 끝내다, not 끝나다"]
     ],
     "examples": [
-      ["수업이 세 시에 끝나요.", "Class ends at three.", "time"],
-      ["오늘 일이 일찍 끝났어요.", "Work ended early today.", "past"],
-      ["영화가 언제 끝나요?", "When does the movie end?", "question"]
+      ["수업이 세 시에 끝나요.", "Class ends at three.", "time at 에; intransitive 수업이"],
+      ["오늘 일이 일찍 끝났어요.", "Work ended early today.", "the event ends on its own, so 일이 (이/가)"],
+      ["이 일만 끝내면 집에 갈 수 있어요.", "Once I finish just this task I can go home.", "real plan: a doer finishes it, so the transitive 끝내다"]
     ],
-    "nuance": "끝나다 is intransitive, so the thing that ends takes the subject marker 이 or 가, as in 수업이 끝나요. To say a person finishes something with an object, use the separate transitive verb 끝내다, as in 일을 끝내요.",
-    "mistakes": ["Using 끝나다 with an object instead of the transitive 끝내다"],
+    "nuance": "끝나다 means 'to end / be over / finish' as something that happens by itself — it is intransitive, so the thing that ends takes the subject marker 이/가: 수업이 끝나요, past 끝났어요 (끝나 + 았어요). The essential pairing is with its transitive twin 끝내다 ('to finish/end something'), used when a person actively brings an action to a close with an object: 저는 일을 끝내요 ('I finish the work', 을/를). This 끝나다 (happens) vs 끝내다 (someone does it) split mirrors 시작하다 family logic and is one of Korean's classic intransitive/transitive verb pairs (like 켜지다/켜다, 열리다/열다). The natural opposite is 시작하다 ('to begin'). A nuance of completion: 다 끝났어요 ('it's all done') is the everyday way to announce something is finished, and 끝 alone is an interjection meaning 'the end'. The English-speaker pitfall is using 끝나다 with an object — saying 일을 끝나요 by analogy to English 'I end the work' — when an actor finishes something it must be the transitive 일을 끝내요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "끝나다 means 'to end / be over / finish' as something that happens by itself — it is intransitive, so the thing that ends takes the subject marker 이/가: 수업이 끝나요, past 끝났어요 (끝나 + 았어요). A nuance of completion: 다 끝났어요 ('it's all done') is the everyday way to announce something is finished, and 끝 alone is an interjection meaning 'the end'. The natural opposite is 시작하다 ('to begin')."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "The essential pairing is with its transitive twin 끝내다 ('to finish/end something'), used when a person actively brings an action to a close with an object: 저는 일을 끝내요 ('I finish the work', 을/를). This 끝나다 (happens) vs 끝내다 (someone does it) split mirrors 시작하다 family logic and is one of Korean's classic intransitive/transitive verb pairs (like 켜지다/켜다, 열리다/열다)."
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is using 끝나다 with an object — saying 일을 끝나요 by analogy to English 'I end the work' — when an actor finishes something it must be the transitive 일을 끝내요."
+      }
+    ],
+    "mistakes": [
+      "Using 끝나다 with an object (일을 끝나요) — 끝나다 is intransitive; when a person finishes something, use the transitive 끝내다: 일을 끝내요.",
+      "Marking the thing that ends with 을/를 (수업을 끝나요) — it takes the subject marker: 수업이 끝나요.",
+      "Mixing up the past forms — 끝나다 → 끝났어요 (it ended on its own) vs 끝내다 → 끝냈어요 (I finished it); pick the one that matches whether there is a doer."
+    ],
     "irregular": null
   },
   {
@@ -407,16 +730,45 @@
       "shallWe": "물을까요?"
     },
     "usage": [
-      ["길을 물어요", "I ask for directions", "object takes 을"],
-      ["하나만 물어볼게요", "let me ask just one thing", "common phrase"]
+      ["길을 물어요", "I ask for directions", "the thing asked about takes the object marker 을/를"],
+      ["하나만 물어볼게요", "let me ask just one thing", "물어보다 'ask and see' is the everyday spoken form"],
+      ["선생님께 물어요", "I ask the teacher", "an honored person takes 께 (honorific of 에게)"],
+      ["물어봐도 돼요?", "may I ask?", "물어봐도 돼요 politely requests permission to ask"]
     ],
     "examples": [
-      ["저는 모르는 것을 선생님께 물어요.", "I ask the teacher about things I do not know.", "with 께"],
-      ["모르면 저한테 물어보세요.", "If you do not know, ask me.", "offer"],
-      ["길을 몰라서 경찰에게 물었어요.", "I did not know the way, so I asked a police officer.", "past"]
+      ["저는 모르는 것을 선생님께 물어요.", "I ask the teacher about things I don't know.", "honorific recipient 께; thing asked 것을"],
+      ["모르면 저한테 물어보세요.", "If you don't know, ask me.", "casual recipient 한테; 물어보다 is warmer than plain 묻다"],
+      ["길을 몰라서 경찰관에게 물어봤어요.", "I didn't know the way, so I asked a police officer.", "past of 물어보다; 에게 marks the person asked"]
     ],
-    "nuance": "묻다 is a ㄷ irregular, so before vowel endings the ㄷ changes to ㄹ, giving 물어요 and 물었어요, but consonant forms keep the ㄷ as in 묻습니다. In daily speech Koreans usually say 물어보다, literally ask and see, more than plain 묻다.",
-    "mistakes": ["Keeping the ㄷ and saying 묻어요 instead of the correct 물어요"],
+    "nuance": "묻다 means 'to ask (a question / inquire)' and takes the object marker 을/를 for the thing asked about: 길을 물어요. It is a ㄷ-irregular verb: before a vowel ending the stem ㄷ changes to ㄹ, giving 물어요 and 물었어요 and 물을 거예요, but before consonant endings the ㄷ stays — 묻습니다, 묻고, 묻지 마세요. The person you ask takes 에게/한테, or honorific 께 for someone of higher status: 선생님께 물어요. In real speech Koreans far more often say 물어보다 ('ask and see', literally 묻다 + 보다), which sounds softer and more tentative than the bare, slightly abrupt 묻다 — so 물어보세요 ('please ask') is the natural request, not 물으세요. Two contrasts: do not confuse this 묻다 with the homograph 묻다 meaning 'to bury' (regular: 땅에 묻다), and distinguish 묻다 ('ask a question') from 부탁하다 ('to request a favor'). The English-speaker pitfall is keeping the ㄷ before a vowel to say 묻어요 (which actually reads as the 'bury' verb) instead of the irregular 물어요.",
+    "structuredNuance": [
+      {
+        "k": "핵심 의미",
+        "e": "MEANING",
+        "t": "묻다 means 'to ask (a question / inquire)' and takes the object marker 을/를 for the thing asked about: 길을 물어요. The person you ask takes 에게/한테, or honorific 께 for someone of higher status: 선생님께 물어요. In real speech Koreans far more often say 물어보다 ('ask and see', literally 묻다 + 보다), which sounds softer and more tentative than the bare, slightly abrupt 묻다 — so 물어보세요 ('please ask') is the natural request, not 물으세요."
+      },
+      {
+        "k": "비슷한 말",
+        "e": "VS",
+        "t": "Two contrasts: do not confuse this 묻다 with the homograph 묻다 meaning 'to bury' (regular: 땅에 묻다), and distinguish 묻다 ('ask a question') from 부탁하다 ('to request a favor')."
+      },
+      {
+        "k": "활용",
+        "e": "FORMS",
+        "t": "It is a ㄷ-irregular verb: before a vowel ending the stem ㄷ changes to ㄹ, giving 물어요 and 물었어요 and 물을 거예요, but before consonant endings the ㄷ stays — 묻습니다, 묻고, 묻지 마세요.",
+        "chips": ["물어요", "물었어요", "묻습니다", "물을 거예요"]
+      },
+      {
+        "k": "영어권 함정",
+        "e": "PITFALL",
+        "t": "The English-speaker pitfall is keeping the ㄷ before a vowel to say 묻어요 (which actually reads as the 'bury' verb) instead of the irregular 물어요."
+      }
+    ],
+    "mistakes": [
+      "Keeping the ㄷ before a vowel ending and saying 묻어요 — as a ㄷ-irregular the ㄷ becomes ㄹ, so 'I ask' is 물어요 (past 물었어요). (묻어요 is the unrelated verb 'to bury'.)",
+      "Using bare 묻다 where it sounds blunt — everyday Korean prefers 물어보다: 좀 물어볼게요 / 물어봐도 돼요? rather than a flat 묻겠어요.",
+      "Marking the person asked with the object 를 (선생님을 물어요) — the recipient takes 에게/한테/께: 선생님께 물어요, and the question content takes 를."
+    ],
     "irregular": "ㄷ irregular"
   }
 ]

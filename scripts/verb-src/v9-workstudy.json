@@ -22,16 +22,29 @@
       "shallWe": "출근할까요?"
     },
     "usage": [
-      ["매일 아침에 출근해요.", "I go to work every morning.", "Daily routine"],
-      ["오늘은 일찍 출근했어요.", "I went to work early today.", "Past action"]
+      ["회사에 출근하다", "to go in to the company / office", "회사에 takes 에 (destination), not 에서; this is the default partner phrase"],
+      ["제시간에 출근하다", "to clock in on time", "제시간에 = at the appointed time; the everyday opposite is 지각하다 (be late)"],
+      ["일찍 출근하다", "to come in to work early", "일찍 (early) pairs naturally; its opposite 늦게 출근하다 means come in late"],
+      ["재택근무 대신 출근하다", "to come into the office instead of working from home", "재택근무 = working from home; shows 출근 = physically going IN, not just 'working'"]
     ],
     "examples": [
-      ["저는 보통 아홉 시까지 출근해요.", "I usually go to work by nine.", "Daily routine"],
-      ["주말에는 출근 안 해요.", "I do not go to work on weekends.", "Negative form"],
-      ["몸이 아파서 오늘 출근 못 해요.", "I am sick so I cannot go to work today.", "Unable to do"]
+      ["저는 회사에 출근해요.", "I go to work (to the company).", "Plain daily statement; note 회사에 with 에, marking where you head TO"],
+      ["보통 아홉 시까지 출근해요.", "I usually get to work by nine.", "아홉 시까지 = 'by nine'; 까지 sets the deadline you must arrive within"],
+      ["몸이 너무 아파서 오늘은 출근 못 해요.", "I'm so sick I can't come in to work today.", "Negative-ability 못 해요 splits as 출근 못 해요, never 못 출근해요"]
     ],
-    "nuance": "출근하다 means to head to your workplace at the start of a shift, while 퇴근하다 is its opposite for leaving after work.",
-    "mistakes": ["Do not write 출근 안 출근해요; say 출근 안 해요."],
+    "nuance": "출근하다 is Sino-Korean 出勤 — 出 'go out' + 勤 'duty/diligence' — so literally 'go out to your duty', i.e. physically travel to your workplace and start your shift. Its exact opposite is 퇴근하다 (退勤, leave work). Do not confuse 출근하다 with plain 일하다 'to work': 출근하다 is the act of arriving/clocking in, while 일하다 is the doing of work itself — 회사에 출근해서 여덟 시간 일해요 (I go in and then work eight hours). Because it is a noun(출근) + 하다 verb, every form built off the 하다 part: dictionary 출근하다, 요-form 출근해요 (하 + 여 contracts to 해), past 출근했어요, formal 출근합니다. The English-speaker pitfall is twofold: first, the negative and impossible forms split the noun off — 출근 안 해요 and 출근 못 해요, never 안 출근해요; second, the place takes 에 (destination) not 에서, so 회사에 출근해요 is right and 회사에서 출근해요 (which would mean leaving from the company) is wrong.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Physically travel to your workplace and start your shift. The act of arriving/clocking in, not the work itself."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its exact opposite is 퇴근하다 (退勤, leave work). Do not confuse 출근하다 with plain 일하다 'to work': 출근하다 is arriving/clocking in, while 일하다 is the doing of work itself — 회사에 출근해서 여덟 시간 일해요 (I go in and then work eight hours)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 出勤 — 出 'go out' + 勤 'duty/diligence' — so literally 'go out to your duty'."},
+      {"k": "활용", "e": "FORMS", "t": "Because it is a noun (출근) + 하다 verb, every form builds off the 하다 part: dictionary 출근하다, 요-form 출근해요 (하 + 여 contracts to 해), past 출근했어요, formal 출근합니다.", "chips": ["출근하다", "출근해요", "출근했어요", "출근합니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Twofold. First, the negative and impossible forms split the noun off — 출근 안 해요 and 출근 못 해요, never 안 출근해요. Second, the place takes 에 (destination) not 에서, so 회사에 출근해요 is right and 회사에서 출근해요 (which would mean leaving from the company) is wrong."}
+    ],
+    "mistakes": [
+      "Saying 회사에서 출근해요 to mean 'I go to work at the company' — 에서 marks the location an action happens IN, but 출근하다 needs the destination particle 에: 회사에 출근해요.",
+      "Forming the negative as 안 출근해요 — with noun+하다 verbs 안 must split the noun off: 출근 안 해요. Likewise the impossible form is 출근 못 해요, not 못 출근해요.",
+      "Using 출근하다 for the general idea of 'working'. To go in is 출근하다; to actually do the work is 일하다."
+    ],
     "irregular": null
   },
   {
@@ -57,16 +70,29 @@
       "shallWe": "퇴근할까요?"
     },
     "usage": [
-      ["저녁 여섯 시에 퇴근해요.", "I leave work at six in the evening.", "Daily routine"],
-      ["어제는 늦게 퇴근했어요.", "I left work late yesterday.", "Past action"]
+      ["제시간에 퇴근하다", "to leave work on time / clock out on time", "제시간에 = on the dot; the dreaded opposite is 야근하다 (work overtime)"],
+      ["칼퇴근하다", "to leave work right on the dot (not a minute over)", "칼 'knife' + 퇴근 = a sharp, exactly-on-time exit; very common casual slang"],
+      ["일찍 퇴근하다", "to leave work early", "일찍 pairs naturally; opposite 늦게 퇴근하다 = leave late"],
+      ["퇴근하고 한잔하다", "to grab a drink after leaving work", "the 하고 here means 'and then'; 한잔하다 = have a drink, the classic after-work plan"]
     ],
     "examples": [
-      ["오늘은 일이 많아서 늦게 퇴근해요.", "I have a lot of work today so I leave late.", "Daily routine"],
-      ["우리 같이 퇴근할까요?", "Shall we leave work together?", "Making a suggestion"],
-      ["회의 때문에 제시간에 퇴근 못 해요.", "I cannot leave work on time because of a meeting.", "Unable to do"]
+      ["여섯 시에 퇴근해요.", "I leave work at six.", "Clock time of a one-moment event takes 에: 여섯 시에"],
+      ["오늘은 일이 많아서 늦게 퇴근해요.", "There's a lot of work today, so I'm leaving late.", "~아서 gives the reason; 늦게 = late (adverb)"],
+      ["우리 같이 퇴근할까요?", "Shall we head out together?", "~ㄹ까요? proposes; coworkers say this to walk out together"]
     ],
-    "nuance": "퇴근하다 means to finish work and head home, so it is the natural opposite of 출근하다 for starting the workday.",
-    "mistakes": ["Do not confuse 퇴근하다 (leave work) with 출근하다 (go to work)."],
+    "nuance": "퇴근하다 is Sino-Korean 退勤 — 退 'withdraw/retreat' + 勤 'duty' — literally 'withdraw from your duty', i.e. finish the workday and head home. It is the precise mirror of 출근하다 (出勤). Don't confuse it with 끝나다 'to end' or 쉬다 'to rest': 퇴근하다 specifically means YOU leave the workplace, whereas 일이 끝나다 means the work is finished and 쉬다 means to take a break. As a noun+하다 verb it conjugates entirely on 하다: 퇴근해요, 퇴근했어요, formal 퇴근합니다. The English-speaker pitfall is the same family of splits — the negative is 퇴근 안 해요 and the impossible form 퇴근 못 해요, never 안 퇴근해요. A second trap: English 'get off work' tempts learners to invent a particle, but 퇴근하다 takes no object at all; the time is enough — 여섯 시에 퇴근해요. Beware the very common slang 칼퇴근(하다), 'knife clock-out', meaning you leave at the exact end time without a second of overtime.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Finish the workday and head home — YOU leave the workplace. Watch the very common slang 칼퇴근(하다), 'knife clock-out', meaning you leave at the exact end time without a second of overtime."},
+      {"k": "비슷한 말", "e": "VS", "t": "It is the precise mirror of 출근하다 (出勤). Don't confuse it with 끝나다 'to end' or 쉬다 'to rest': 퇴근하다 specifically means YOU leave the workplace, whereas 일이 끝나다 means the work is finished and 쉬다 means to take a break."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 退勤 — 退 'withdraw/retreat' + 勤 'duty' — literally 'withdraw from your duty'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates entirely on 하다: 퇴근해요, 퇴근했어요, formal 퇴근합니다.", "chips": ["퇴근해요", "퇴근했어요", "퇴근합니다"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The same family of splits — the negative is 퇴근 안 해요 and the impossible form 퇴근 못 해요, never 안 퇴근해요. A second trap: English 'get off work' tempts learners to invent a particle, but 퇴근하다 takes no object at all; the time is enough — 여섯 시에 퇴근해요."}
+    ],
+    "mistakes": [
+      "Translating 'I'm done with work' as 퇴근했어요 when the work itself ended but you're still there — that's 일이 끝났어요. 퇴근하다 means you physically left the workplace.",
+      "Adding an object like 회사를 퇴근해요 — 퇴근하다 is intransitive; just say 퇴근해요 with only a time word if needed.",
+      "Forming the negative as 안 퇴근해요 — split the noun: 퇴근 안 해요 (and impossible = 퇴근 못 해요)."
+    ],
     "irregular": null
   },
   {
@@ -92,16 +118,29 @@
       "shallWe": "졸업할까요?"
     },
     "usage": [
-      ["내년에 대학교를 졸업해요.", "I graduate from college next year.", "Future plan"],
-      ["고등학교를 졸업했어요.", "I graduated from high school.", "Past action"]
+      ["대학교를 졸업하다", "to graduate (from) university", "the school takes 를/을 (object), NOT 에서 — 대학교를 졸업해요"],
+      ["우수한 성적으로 졸업하다", "to graduate with excellent grades", "성적으로 = 'with grades'; 으로 marks the manner/standing you finish in"],
+      ["졸업한 후에", "after graduating", "~ㄴ 후에 = after; the past-modifier 졸업한 attaches to 후"],
+      ["졸업을 앞두다", "to be on the verge of graduating", "앞두다 = to have something just ahead; 졸업을 앞둔 학생 = a soon-to-graduate student"]
     ],
     "examples": [
-      ["언니는 작년에 대학을 졸업했어요.", "My sister graduated from university last year.", "Past action"],
-      ["저는 올해 졸업하고 싶어요.", "I want to graduate this year.", "Expressing a wish"],
-      ["학점이 모자라서 올해 졸업 못 해요.", "I lack credits so I cannot graduate this year.", "Unable to do"]
+      ["언니는 대학을 졸업했어요.", "My older sister graduated from university.", "School = direct object with 를/을: 대학을 졸업했어요"],
+      ["저는 올해 졸업하고 싶어요.", "I want to graduate this year.", "~고 싶어요 expresses your own wish; 올해 = this year"],
+      ["학점이 모자라서 올해는 졸업 못 해요.", "I'm short on credits, so I can't graduate this year.", "학점 = course credits; impossible form splits as 졸업 못 해요"]
     ],
-    "nuance": "졸업하다 means to finish a school and receive a diploma, while starting a school is the opposite verb 입학하다 instead.",
-    "mistakes": ["Do not confuse 졸업하다 (graduate) with 입학하다 (enroll)."],
+    "nuance": "졸업하다 is Sino-Korean 卒業 — 卒 'finish/complete' + 業 'studies/work' — so 'complete one's studies' and receive a diploma. Its exact opposite is 입학하다 (入學, enter a school); a softer related word is 끝나다 'to end', but a course 끝나다, whereas a person 졸업하다. The crucial English-speaker pitfall is the particle: English 'graduate FROM university' makes learners reach for 에서, but Korean treats the school as a direct OBJECT — 대학교를 졸업하다, never 대학교에서 졸업하다. As a noun+하다 verb it conjugates on 하다 (졸업해요, 졸업했어요, formal 졸업합니다), and the negative/impossible forms split the noun (졸업 안 해요, 졸업 못 해요). Note Koreans very often state it in the past about themselves — 저 작년에 졸업했어요 — because graduating is a completed life event; the present 졸업해요 usually means a scheduled near-future ('I graduate this year').",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Complete one's studies and receive a diploma. Koreans very often state it in the past about themselves — 저 작년에 졸업했어요 — because graduating is a completed life event; the present 졸업해요 usually means a scheduled near-future ('I graduate this year')."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its exact opposite is 입학하다 (入學, enter a school); a softer related word is 끝나다 'to end', but a course 끝나다, whereas a person 졸업하다."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 卒業 — 卒 'finish/complete' + 業 'studies/work' — so 'complete one's studies'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (졸업해요, 졸업했어요, formal 졸업합니다), and the negative/impossible forms split the noun (졸업 안 해요, 졸업 못 해요).", "chips": ["졸업해요", "졸업했어요", "졸업합니다", "졸업 안 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The particle: English 'graduate FROM university' makes learners reach for 에서, but Korean treats the school as a direct OBJECT — 대학교를 졸업하다, never 대학교에서 졸업하다."}
+    ],
+    "mistakes": [
+      "Saying 대학교에서 졸업했어요 because English uses 'from' — wrong; the school is a direct object: 대학교를 졸업했어요.",
+      "Using the plain present 졸업해요 to mean 'I have graduated' — for a finished event Koreans use the past 졸업했어요; the present implies a scheduled upcoming graduation.",
+      "Building the negative as 안 졸업해요 — split it: 졸업 안 해요 (and 졸업 못 해요 for 'can't graduate')."
+    ],
     "irregular": null
   },
   {
@@ -127,16 +166,29 @@
       "shallWe": "입학할까요?"
     },
     "usage": [
-      ["올해 대학교에 입학해요.", "I enroll in college this year.", "Future plan"],
-      ["초등학교에 입학했어요.", "I enrolled in elementary school.", "Past action"]
+      ["대학교에 입학하다", "to enter / enroll in university", "the school takes 에 (entered-into), NOT 를: 대학교에 입학해요"],
+      ["입학 시험을 보다", "to take the entrance exam", "입학 here is a noun modifying 시험; 시험을 보다 = sit an exam"],
+      ["새 학기에 입학하다", "to start school in the new term", "새 학기 = new semester; 에 marks the time you enter"],
+      ["입학을 축하하다", "to congratulate someone on starting school", "축하하다 = congratulate; 입학 축하해요! is the set phrase"]
     ],
     "examples": [
-      ["동생이 올봄에 중학교에 입학해요.", "My younger sibling enrolls in middle school this spring.", "Future plan"],
-      ["저는 좋은 대학에 입학하고 싶어요.", "I want to enroll in a good university.", "Expressing a wish"],
-      ["성적이 낮아서 그 학교에 입학 못 해요.", "My grades are low so I cannot enroll in that school.", "Unable to do"]
+      ["동생이 중학교에 입학해요.", "My younger sibling is starting middle school.", "School entered = 에: 중학교에 입학해요"],
+      ["저는 좋은 대학에 입학하고 싶어요.", "I want to get into a good university.", "~고 싶어요 = want to; 좋은 대학 = a good university"],
+      ["성적이 낮아서 그 학교에 입학 못 해요.", "My grades are low, so I can't get into that school.", "Reason ~아서 + impossible form split: 입학 못 해요"]
     ],
-    "nuance": "입학하다 means to start attending a school after admission, so it is the opposite of 졸업하다 for finishing school.",
-    "mistakes": ["Do not confuse 입학하다 (enroll) with 졸업하다 (graduate)."],
+    "nuance": "입학하다 is Sino-Korean 入學 — 入 'enter' + 學 'learning/school' — literally 'enter into learning', i.e. be admitted to and begin a school. Its exact opposite is 졸업하다 (卒業). Here is a beautiful particle trap that mirrors its opposite: 입학하다 uses 에 ('enter INTO' a school — 대학에 입학하다), whereas 졸업하다 uses 를 (대학을 졸업하다). English 'enroll IN' luckily matches the 에 here, but learners who memorized 졸업하다's 를 wrongly carry it over. Don't confuse 입학하다 with 등록하다 'to register': 입학하다 is the once-in-a-school-career act of being admitted, while 등록하다 is the recurring paperwork of signing up (for a term, a course). As a noun+하다 verb it conjugates on 하다 (입학해요, 입학했어요, formal 입학합니다); negative and impossible split the noun (입학 안 해요, 입학 못 해요). Note the pronunciation: 입학 sounds like [이팍], the ㅂ and ㅎ fusing to ㅍ.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Be admitted to and begin a school — 'enter into learning'."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its exact opposite is 졸업하다 (卒業). Don't confuse 입학하다 with 등록하다 'to register': 입학하다 is the once-in-a-school-career act of being admitted, while 등록하다 is the recurring paperwork of signing up (for a term, a course)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 入學 — 入 'enter' + 學 'learning/school' — literally 'enter into learning'. Note the pronunciation: 입학 sounds like [이팍], the ㅂ and ㅎ fusing to ㅍ."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (입학해요, 입학했어요, formal 입학합니다); negative and impossible split the noun (입학 안 해요, 입학 못 해요).", "chips": ["입학해요", "입학했어요", "입학합니다", "입학 안 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A particle trap that mirrors its opposite: 입학하다 uses 에 ('enter INTO' a school — 대학에 입학하다), whereas 졸업하다 uses 를 (대학을 졸업하다). English 'enroll IN' luckily matches the 에 here, but learners who memorized 졸업하다's 를 wrongly carry it over."}
+    ],
+    "mistakes": [
+      "Saying 대학교를 입학해요 by analogy with 대학교를 졸업해요 — the two opposites take opposite particles: enter uses 에 (대학교에 입학해요), graduate uses 를.",
+      "Using 입학하다 for re-registering each semester — that is 등록하다. 입학하다 is the one-time admission/start.",
+      "Writing the negative as 안 입학해요 — split: 입학 안 해요 (impossible = 입학 못 해요)."
+    ],
     "irregular": null
   },
   {
@@ -162,16 +214,29 @@
       "shallWe": "합격할까요?"
     },
     "usage": [
-      ["시험에 합격해요.", "I pass the exam.", "Passing a test"],
-      ["면접에 합격했어요.", "I passed the interview.", "Past action"]
+      ["시험에 합격하다", "to pass the exam / make the cut", "what you pass takes 에: 시험에 합격해요 (NOT 시험을)"],
+      ["대학에 합격하다", "to get accepted into a university", "에 again; this is 'be admitted', the result of passing entrance screening"],
+      ["면접에 합격하다", "to pass the interview", "면접 = job/admission interview; 에 marks the hurdle you clear"],
+      ["합격을 기원하다", "to wish someone success / a pass", "기원하다 = pray for; 합격 기원! is what you write on a good-luck gift"]
     ],
     "examples": [
-      ["열심히 공부해서 시험에 합격했어요.", "I studied hard so I passed the exam.", "Past action"],
-      ["이번에는 꼭 합격하고 싶어요.", "I really want to pass this time.", "Expressing a wish"],
-      ["공부를 안 하면 합격 못 해요.", "If I do not study I cannot pass.", "Unable to do"]
+      ["시험에 합격했어요!", "I passed the exam!", "Use 에 for the thing passed; the past 합격했어요 reports the result"],
+      ["이번에는 꼭 합격하고 싶어요.", "This time I really want to pass.", "꼭 = for sure/without fail; 이번에는 = this time around"],
+      ["공부를 안 하면 합격 못 해요.", "If you don't study, you can't pass.", "~면 = if; impossible form splits: 합격 못 해요"]
     ],
-    "nuance": "합격하다 means to pass a test or interview successfully, so it is the opposite of 떨어지다 which means to fail or be rejected.",
-    "mistakes": ["Do not confuse 합격하다 (pass) with 떨어지다 (fail)."],
+    "nuance": "합격하다 is Sino-Korean 合格 — 合 'meet/match' + 格 'standard' — literally 'meet the standard', i.e. clear a cut-off and pass a test, interview, or admissions screen. Its opposite is 불합격하다 (不合格) or, much more colloquially, 떨어지다 'to fall/drop' (시험에 떨어졌어요 = I failed/flunked). Don't confuse 합격하다 with 통과하다 'to pass through': 통과하다 is moving past a checkpoint or a bill passing, while 합격하다 specifically means meeting a qualifying standard. The headline English-speaker pitfall is the particle: English 'pass THE exam' (object) makes learners write 시험을 합격하다, but Korean uses 에 — 시험에 합격하다 — because you're 'matching up TO the standard'. Note also 합격하다 (verb) vs 합격 (the noun, 'a pass/acceptance'): the noun is what you put on banners — 합격 축하해! As a noun+하다 verb it conjugates on 하다 (합격해요, 합격했어요, formal 합격합니다); negative/impossible split the noun (합격 안 해요, 합격 못 해요).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Clear a cut-off and pass a test, interview, or admissions screen — 'meet the standard'. Note 합격하다 (verb) vs 합격 (the noun, 'a pass/acceptance'): the noun is what you put on banners — 합격 축하해!"},
+      {"k": "비슷한 말", "e": "VS", "t": "Its opposite is 불합격하다 (不合格) or, much more colloquially, 떨어지다 'to fall/drop' (시험에 떨어졌어요 = I failed/flunked). Don't confuse 합격하다 with 통과하다 'to pass through': 통과하다 is moving past a checkpoint or a bill passing, while 합격하다 specifically means meeting a qualifying standard."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 合格 — 合 'meet/match' + 格 'standard' — literally 'meet the standard'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (합격해요, 합격했어요, formal 합격합니다); negative/impossible split the noun (합격 안 해요, 합격 못 해요).", "chips": ["합격해요", "합격했어요", "합격합니다", "합격 안 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The particle: English 'pass THE exam' (object) makes learners write 시험을 합격하다, but Korean uses 에 — 시험에 합격하다 — because you're 'matching up TO the standard'."}
+    ],
+    "mistakes": [
+      "Saying 시험을 합격했어요 because English treats the exam as a direct object — Korean marks it with 에: 시험에 합격했어요.",
+      "Using 합격하다 to mean a course or class 'passed' in the sense of finishing it — for clearing a checkpoint generally use 통과하다; 합격하다 = meeting a qualifying standard.",
+      "Forming 'I failed' as 합격 안 했어요, which sounds oddly neutral ('didn't pass') — the natural opposite Koreans say is 떨어졌어요 (시험에 떨어졌어요)."
+    ],
     "irregular": null
   },
   {
@@ -197,16 +262,29 @@
       "shallWe": "연습할까요?"
     },
     "usage": [
-      ["매일 한국어를 연습해요.", "I practice Korean every day.", "Daily routine"],
-      ["발음을 연습했어요.", "I practiced pronunciation.", "Past action"]
+      ["발음을 연습하다", "to practice pronunciation", "the skill drilled takes 을/를: 발음을 연습해요"],
+      ["피아노를 연습하다", "to practice the piano", "instruments and skills are objects of 연습하다; 를 marks them"],
+      ["열심히 연습하다", "to practice hard / diligently", "열심히 = hard, with effort; the most natural adverb partner"],
+      ["연습 문제를 풀다", "to work through practice problems", "연습 modifies 문제 (problem); 문제를 풀다 = solve problems"]
     ],
     "examples": [
-      ["저는 아침마다 말하기를 연습해요.", "I practice speaking every morning.", "Daily routine"],
-      ["우리 같이 노래를 연습할까요?", "Shall we practice singing together?", "Making a suggestion"],
-      ["시간이 없어서 오늘은 연습 못 해요.", "I have no time so I cannot practice today.", "Unable to do"]
+      ["저는 매일 한국어를 연습해요.", "I practice Korean every day.", "What you drill is the object: 한국어를 연습해요"],
+      ["우리 같이 노래를 연습할까요?", "Shall we practice the song together?", "~ㄹ까요? suggests doing it together; 같이 = together"],
+      ["시간이 없어서 오늘은 연습 못 해요.", "I have no time, so I can't practice today.", "~아서 reason + impossible split: 연습 못 해요"]
     ],
-    "nuance": "연습하다 means to repeat an activity to improve a skill, while 공부하다 focuses more on learning knowledge from study materials.",
-    "mistakes": ["Do not confuse 연습하다 (practice) with 공부하다 (study)."],
+    "nuance": "연습하다 is Sino-Korean 練習 — 練 'train/temper (as in tempering metal)' + 習 'repeatedly do/learn' — so 'train by repetition', i.e. drill a skill until it improves. The key contrast is with 공부하다 'to study': 공부하다 is taking in knowledge (grammar, facts, theory), whereas 연습하다 is repeated hands-on doing to build a SKILL — you 공부해 grammar but 연습해 speaking and piano. A closely related word is 훈련하다 (訓練, 'train'), which is more systematic/physical (soldiers, athletes), while 연습하다 is everyday practice. The thing practiced is a direct OBJECT with 을/를: 발음을 연습하다. The English-speaker pitfall is twofold: don't say 발음에 연습하다 (no 에), and don't reach for 공부하다 when you mean drilling a skill. As a noun+하다 verb it conjugates on 하다 (연습해요, 연습했어요, formal 연습합니다); negative/impossible split the noun (연습 안 해요, 연습 못 해요).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Drill a skill until it improves — 'train by repetition'. The thing practiced is a direct OBJECT with 을/를: 발음을 연습하다."},
+      {"k": "비슷한 말", "e": "VS", "t": "The key contrast is with 공부하다 'to study': 공부하다 is taking in knowledge (grammar, facts, theory), whereas 연습하다 is repeated hands-on doing to build a SKILL — you 공부해 grammar but 연습해 speaking and piano. A closely related word is 훈련하다 (訓練, 'train'), which is more systematic/physical (soldiers, athletes), while 연습하다 is everyday practice."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 練習 — 練 'train/temper (as in tempering metal)' + 習 'repeatedly do/learn' — so 'train by repetition'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (연습해요, 연습했어요, formal 연습합니다); negative/impossible split the noun (연습 안 해요, 연습 못 해요).", "chips": ["연습해요", "연습했어요", "연습합니다", "연습 안 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Twofold: don't say 발음에 연습하다 (no 에) — the practiced thing is a direct object with 을/를; and don't reach for 공부하다 when you mean drilling a skill."}
+    ],
+    "mistakes": [
+      "Choosing 공부하다 for skill drills — 'I study speaking every day' as 말하기를 공부해요 sounds off; repeated skill practice is 연습하다: 말하기를 연습해요.",
+      "Marking the practiced thing with 에 (발음에 연습해요) — it is a direct object: 발음을 연습해요.",
+      "Writing the negative as 안 연습해요 — split it: 연습 안 해요 (impossible = 연습 못 해요)."
+    ],
     "irregular": null
   },
   {
@@ -232,16 +310,29 @@
       "shallWe": "외울까요?"
     },
     "usage": [
-      ["단어를 외워요.", "I memorize words.", "Memorizing vocabulary"],
-      ["전화번호를 외웠어요.", "I memorized the phone number.", "Past action"]
+      ["단어를 외우다", "to memorize vocabulary", "what you commit to memory is an object with 를: 단어를 외워요"],
+      ["통째로 외우다", "to memorize whole / by rote", "통째로 = in one whole chunk; the classic adverb for rote learning"],
+      ["줄줄 외우다", "to rattle (it) off from memory", "줄줄 = fluently, in a flowing stream; 줄줄 외워요 = knows it cold"],
+      ["외워서 시험을 보다", "to take a test from memory", "외워서 = having memorized; ~서 chains 'memorize and then…'"]
     ],
     "examples": [
-      ["매일 새 단어를 열 개씩 외워요.", "I memorize ten new words every day.", "Daily routine"],
-      ["이 문장을 다 외워야 해요.", "I must memorize all of this sentence.", "Expressing obligation"],
-      ["단어가 너무 많아서 다 못 외워요.", "There are too many words so I cannot memorize them all.", "Unable to do"]
+      ["저는 단어를 외워요.", "I memorize words.", "Note the stem 외우- + 어요 contracts 우+어 → 워: 외워요"],
+      ["이 문장을 다 외워야 해요.", "I have to memorize this whole sentence.", "다 = all; obligation ~아야 해요 → 외워야 해요"],
+      ["단어가 너무 많아서 다 못 외워요.", "There are too many words, so I can't memorize them all.", "Native verb: impossible form is just 못 외워요 (no splitting)"]
     ],
-    "nuance": "외우다 means to commit something to memory by heart, while 기억하다 means to recall or keep something already in your memory.",
-    "mistakes": ["Do not confuse 외우다 (memorize) with 기억하다 (remember)."],
+    "nuance": "외우다 is a NATIVE Korean verb (no hanja), meaning to commit something to memory deliberately — to get it 'by heart' through effort. Contrast it sharply with 기억하다 (記憶, 'remember/recall'): 외우다 is the act of putting info IN ('I'll memorize these words tonight'), while 기억하다 is having or pulling it back OUT ('Do you remember my number?'). Mixing them is the #1 English-speaker error, because English 'remember' blurs both. A near-synonym 암기하다 (暗記) means the same as 외우다 but sounds more bookish/formal. Crucially, because 외우다 is native (not noun+하다), its conjugation differs from every other verb on this list: the stem 외우- meets 어요 and the 우 + 어 fuse to 워 → 외워요, past 외웠어요; the negative is the simple 안 외워요 and impossible 못 외워요 — there is NO noun to split off. Common collocations: 단어를 외우다, 통째로 외우다, 줄줄 외우다.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Commit something to memory deliberately — to get it 'by heart' through effort. Common collocations: 단어를 외우다, 통째로 외우다, 줄줄 외우다."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast it sharply with 기억하다 (記憶, 'remember/recall'): 외우다 is the act of putting info IN ('I'll memorize these words tonight'), while 기억하다 is having or pulling it back OUT ('Do you remember my number?'). A near-synonym 암기하다 (暗記) means the same as 외우다 but sounds more bookish/formal."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "외우다 is a NATIVE Korean verb (no hanja)."},
+      {"k": "활용", "e": "FORMS", "t": "Because 외우다 is native (not noun+하다), its conjugation differs from every other verb on this list: the stem 외우- meets 어요 and the 우 + 어 fuse to 워 → 외워요, past 외웠어요; the negative is the simple 안 외워요 and impossible 못 외워요 — there is NO noun to split off.", "chips": ["외워요", "외웠어요", "안 외워요", "못 외워요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "Mixing 외우다 and 기억하다 is the #1 English-speaker error, because English 'remember' blurs both — putting IN vs pulling back OUT."}
+    ],
+    "mistakes": [
+      "Using 기억하다 where 외우다 is meant: 'I need to memorize these words' is 단어를 외워야 해요, not 기억해야 해요 (which leans toward 'recall'). 외우다 = put into memory; 기억하다 = recall from memory.",
+      "Mis-contracting the 요-form as 외우어요 or 외우요 — the 우 + 어 must fuse to 워: 외워요, past 외웠어요.",
+      "Splitting the negative like a 하다 verb (외우 안 해요) — 외우다 is one native verb, so it's simply 안 외워요 / 못 외워요."
+    ],
     "irregular": null
   },
   {
@@ -267,16 +358,28 @@
       "shallWe": "복습할까요?"
     },
     "usage": [
-      ["수업 후에 복습해요.", "I review after class.", "Study routine"],
-      ["어제 배운 것을 복습했어요.", "I reviewed what I learned yesterday.", "Past action"]
+      ["배운 내용을 복습하다", "to review what you learned", "배운 내용 = the learned content; takes 을 as the object reviewed"],
+      ["수업 후에 복습하다", "to review after class", "수업 후에 = after class; 후에 marks the time you do it"],
+      ["꼼꼼하게 복습하다", "to review thoroughly", "꼼꼼하게 = meticulously; natural adverb for careful review"],
+      ["복습과 예습", "review and preview", "the standard paired phrase contrasting after-study and before-study"]
     ],
     "examples": [
-      ["저는 자기 전에 항상 복습해요.", "I always review before sleeping.", "Daily routine"],
-      ["시험 전에 같이 복습할까요?", "Shall we review together before the exam?", "Making a suggestion"],
-      ["너무 졸려서 오늘은 복습 못 해요.", "I am too sleepy so I cannot review today.", "Unable to do"]
+      ["저는 자기 전에 복습해요.", "I review before going to bed.", "자기 전에 = before sleeping; ~기 전에 = before doing"],
+      ["시험 전에 같이 복습할까요?", "Shall we review together before the exam?", "~ㄹ까요? proposes; 같이 = together"],
+      ["너무 졸려서 오늘은 복습 못 해요.", "I'm too sleepy to review today.", "~아서 reason + impossible split: 복습 못 해요"]
     ],
-    "nuance": "복습하다 means to study again what you already learned, while 예습하다 means to study a lesson in advance before class.",
-    "mistakes": ["Do not confuse 복습하다 (review) with 예습하다 (prepare ahead)."],
+    "nuance": "복습하다 is Sino-Korean 復習 — 復 'again/repeat' + 習 'study' — literally 'study again', i.e. go back over material you've already learned to lock it in. Its mirror-image partner is 예습하다 (豫習, 豫 'in advance' + 習 'study'), meaning to study a lesson BEFORE class; Koreans habitually pair them as 예습과 복습. Don't confuse 복습하다 with 연습하다 (練習): both end in 습(習), but 복습하다 is re-studying KNOWLEDGE you covered, while 연습하다 is drilling a SKILL by repetition — you 복습해 yesterday's grammar but 연습해 your pronunciation. Note the 復 here is read 복 (not 부 as in 부활); the whole word is pronounced [복씁하다] with a tensed ㅆ. As a noun+하다 verb it conjugates entirely on 하다 (복습해요, 복습했어요, formal 복습합니다); the negative and impossible forms split the noun (복습 안 해요, 복습 못 해요), never 안 복습해요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Go back over material you've already learned to lock it in — 'study again'."},
+      {"k": "비슷한 말", "e": "VS", "t": "Its mirror-image partner is 예습하다 (豫習, 'study in advance'), meaning to study a lesson BEFORE class; Koreans habitually pair them as 예습과 복습. Don't confuse 복습하다 with 연습하다 (練習): both end in 습(習), but 복습하다 is re-studying KNOWLEDGE you covered, while 연습하다 is drilling a SKILL by repetition — you 복습해 yesterday's grammar but 연습해 your pronunciation."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 復習 — 復 'again/repeat' + 習 'study' — literally 'study again'. The 復 here is read 복 (not 부 as in 부활); the whole word is pronounced [복씁하다] with a tensed ㅆ."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates entirely on 하다 (복습해요, 복습했어요, formal 복습합니다); the negative and impossible forms split the noun (복습 안 해요, 복습 못 해요), never 안 복습해요.", "chips": ["복습해요", "복습했어요", "복습합니다", "복습 안 해요"]}
+    ],
+    "mistakes": [
+      "Confusing 복습하다 (review what's already learned) with 예습하다 (study ahead before class) — they are opposites: 복습 = after, 예습 = before.",
+      "Using 복습하다 for drilling a skill — re-studying knowledge is 복습하다, but repeated skill practice is 연습하다 (e.g. 발음을 연습하다, not 복습하다).",
+      "Writing the negative as 안 복습해요 — split the noun: 복습 안 해요 (impossible = 복습 못 해요)."
+    ],
     "irregular": null
   },
   {
@@ -302,16 +405,29 @@
       "shallWe": "발표할까요?"
     },
     "usage": [
-      ["수업에서 발표해요.", "I present in class.", "Giving a presentation"],
-      ["회의에서 결과를 발표했어요.", "I presented the results at the meeting.", "Past action"]
+      ["결과를 발표하다", "to announce the results", "결과 = results; what you make public takes 을/를"],
+      ["수업에서 발표하다", "to give a presentation in class", "in this 'do a presentation' sense, the place takes 에서: 수업에서 발표해요"],
+      ["발표 자료를 만들다", "to make presentation slides/materials", "발표 modifies 자료 (materials); 자료를 만들다 = prepare materials"],
+      ["합격자를 발표하다", "to announce who passed", "합격자 = those who passed; the 'officially make public' sense"]
     ],
     "examples": [
-      ["내일 수업에서 제가 발표해요.", "I present in class tomorrow.", "Future plan"],
-      ["이 자료를 같이 발표할까요?", "Shall we present this material together?", "Making a suggestion"],
-      ["너무 긴장해서 발표 못 해요.", "I am too nervous so I cannot present.", "Unable to do"]
+      ["내일 수업에서 제가 발표해요.", "I'm presenting in class tomorrow.", "Doing a presentation IN a place = 에서: 수업에서 발표해요"],
+      ["이 자료를 같이 발표할까요?", "Shall we present this material together?", "~ㄹ까요? proposes; 자료 = the material shown"],
+      ["너무 긴장해서 발표 못 해요.", "I'm so nervous I can't present.", "긴장하다 = be nervous; impossible split: 발표 못 해요"]
     ],
-    "nuance": "발표하다 means to present or announce something in front of others, often at a class or meeting, with prepared content.",
-    "mistakes": ["Do not confuse 발표하다 (present) with 설명하다 (explain)."],
+    "nuance": "발표하다 is Sino-Korean 發表 — 發 'issue/emit' + 表 'express/show outwardly' — so 'issue something into the open'. It has two senses: (1) give a presentation/talk in front of an audience (수업에서 발표하다), and (2) officially announce/release information (정부가 결과를 발표하다 — the government announced the results). Contrast it with 설명하다 (說明, 'explain'): 설명하다 is clarifying so someone understands a point, while 발표하다 is the public act of presenting or announcing as a whole. Also distinguish 발표하다 from 말하다 'to say' — 발표하다 implies prepared, formal, to-an-audience delivery. A particle nuance: in the 'present' sense the location uses 에서 (수업에서), but the content shown is an object (자료를 발표하다). As a noun+하다 verb it conjugates on 하다 (발표해요, 발표했어요, formal 발표합니다); negative/impossible split the noun (발표 안 해요, 발표 못 해요).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "'Issue something into the open', with two senses: (1) give a presentation/talk in front of an audience (수업에서 발표하다), and (2) officially announce/release information (정부가 결과를 발표하다 — the government announced the results)."},
+      {"k": "비슷한 말", "e": "VS", "t": "Contrast it with 설명하다 (說明, 'explain'): 설명하다 is clarifying so someone understands a point, while 발표하다 is the public act of presenting or announcing as a whole. Also distinguish 발표하다 from 말하다 'to say' — 발표하다 implies prepared, formal, to-an-audience delivery."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 發表 — 發 'issue/emit' + 表 'express/show outwardly' — so 'issue something into the open'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (발표해요, 발표했어요, formal 발표합니다); negative/impossible split the noun (발표 안 해요, 발표 못 해요).", "chips": ["발표해요", "발표했어요", "발표합니다", "발표 안 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "A particle nuance: in the 'present' sense the location uses 에서 (수업에서), but the content shown is an object (자료를 발표하다)."}
+    ],
+    "mistakes": [
+      "Using 설명하다 when you mean giving a presentation — 설명하다 = explain a point for understanding; the public/prepared delivery is 발표하다.",
+      "Marking the venue with 에 instead of 에서 in the 'present' sense — an action you perform IN a place uses 에서: 수업에서 발표해요.",
+      "Forming the negative as 안 발표해요 — split it: 발표 안 해요 (impossible = 발표 못 해요)."
+    ],
     "irregular": null
   },
   {
@@ -337,16 +453,29 @@
       "shallWe": "제출할까요?"
     },
     "usage": [
-      ["서류를 제출해요.", "I submit the documents.", "Handing in papers"],
-      ["보고서를 제출했어요.", "I submitted the report.", "Past action"]
+      ["서류를 제출하다", "to submit documents", "서류 = documents/papers; the thing handed in takes 을/를"],
+      ["보고서를 제출하다", "to turn in a report", "보고서 = report; the classic workplace collocation"],
+      ["기한 안에 제출하다", "to submit within the deadline", "기한 안에 = within the deadline; 안에 = inside (a time limit)"],
+      ["제출 서류를 준비하다", "to prepare the documents to be submitted", "제출 modifies 서류; 준비하다 = get ready"]
     ],
     "examples": [
-      ["오늘까지 숙제를 제출해야 해요.", "I must submit the homework by today.", "Expressing obligation"],
-      ["이 신청서를 여기에 제출해 주세요.", "Please submit this application here.", "Polite request"],
-      ["서류가 부족해서 지금 제출 못 해요.", "I lack documents so I cannot submit now.", "Unable to do"]
+      ["오늘까지 숙제를 제출해야 해요.", "I have to hand in the homework by today.", "오늘까지 = by today (deadline with 까지); obligation 제출해야 해요"],
+      ["이 신청서를 여기에 제출해 주세요.", "Please submit this application here.", "여기에 = to here; ~아 주세요 = please do (for me)"],
+      ["서류가 부족해서 지금 제출 못 해요.", "I'm missing documents, so I can't submit now.", "부족하다 = be lacking; impossible split: 제출 못 해요"]
     ],
-    "nuance": "제출하다 means to hand in a document or assignment to an office or teacher, so it sounds more formal than just 내다.",
-    "mistakes": ["Do not confuse 제출하다 (submit) with 받다 (receive)."],
+    "nuance": "제출하다 is Sino-Korean 提出 — 提 'lift/raise up' + 出 'out' — so 'put forward, hand out', i.e. formally submit a document, application, or assignment to an authority. Its register is the key point: 제출하다 is the formal, official word, while everyday speech often just uses 내다 'to put out/hand in' — students say 숙제를 냈어요 casually but write 과제를 제출했습니다 formally. The opposite side of the transaction is 받다 'to receive'/접수하다 'to accept (a submission)'. The English-speaker pitfall: 'submit TO the office' tempts an English-style structure, but the destination simply takes 에 (사무실에 제출하다) and the document is a direct object (서류를 제출하다). As a noun+하다 verb it conjugates on 하다 (제출해요, 제출했어요, formal 제출합니다); negative/impossible split the noun (제출 안 해요, 제출 못 해요). Note pronunciation [제출하다] is straightforward, but watch the polite request form 제출해 주세요.",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Formally submit a document, application, or assignment to an authority — 'put forward, hand out'. Its register is the key point: 제출하다 is the formal, official word, while everyday speech often just uses 내다 'to put out/hand in' — students say 숙제를 냈어요 casually but write 과제를 제출했습니다 formally."},
+      {"k": "비슷한 말", "e": "VS", "t": "The opposite side of the transaction is 받다 'to receive' / 접수하다 'to accept (a submission)'."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 提出 — 提 'lift/raise up' + 出 'out' — so 'put forward, hand out'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (제출해요, 제출했어요, formal 제출합니다); negative/impossible split the noun (제출 안 해요, 제출 못 해요). Pronunciation [제출하다] is straightforward, but watch the polite request form 제출해 주세요.", "chips": ["제출해요", "제출했어요", "제출합니다", "제출해 주세요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "'submit TO the office' tempts an English-style structure, but the destination simply takes 에 (사무실에 제출하다) and the document is a direct object (서류를 제출하다)."}
+    ],
+    "mistakes": [
+      "Using 제출하다 in casual chat where it sounds stiff — among friends, handing in homework is naturally 숙제 냈어? 제출하다 is the formal/written register.",
+      "Confusing it with 받다 (receive) — you 제출하다 (submit) papers TO an office, which then 받다/접수하다 (receives) them; they are opposite ends.",
+      "Writing the negative as 안 제출해요 — split it: 제출 안 해요 (impossible = 제출 못 해요)."
+    ],
     "irregular": null
   },
   {
@@ -372,16 +501,29 @@
       "shallWe": "참석할까요?"
     },
     "usage": [
-      ["회의에 참석해요.", "I attend the meeting.", "Attending an event"],
-      ["결혼식에 참석했어요.", "I attended the wedding.", "Past action"]
+      ["회의에 참석하다", "to attend a meeting", "the event takes 에 (NOT 를): 회의에 참석해요"],
+      ["결혼식에 참석하다", "to attend a wedding", "ceremonies are classic partners; 에 marks the event joined"],
+      ["꼭 참석하다", "to attend without fail", "꼭 = for sure; 꼭 참석해 주세요 = please be sure to come (formal invite)"],
+      ["참석 여부를 알리다", "to let (someone) know whether you'll attend", "참석 여부 = attendance-or-not (RSVP); 알리다 = inform"]
     ],
     "examples": [
-      ["내일 오후 회의에 참석해야 해요.", "I must attend the meeting tomorrow afternoon.", "Expressing obligation"],
-      ["이번 모임에 같이 참석할까요?", "Shall we attend this gathering together?", "Making a suggestion"],
-      ["일정이 겹쳐서 행사에 참석 못 해요.", "My schedule overlaps so I cannot attend the event.", "Unable to do"]
+      ["내일 회의에 참석해야 해요.", "I have to attend the meeting tomorrow.", "Event attended = 에: 회의에 참석해요 (never 회의를)"],
+      ["이번 모임에 같이 참석할까요?", "Shall we attend this gathering together?", "모임 = get-together; ~ㄹ까요? proposes going together"],
+      ["일정이 겹쳐서 행사에 참석 못 해요.", "My schedule clashes, so I can't attend the event.", "겹치다 = overlap; impossible split: 참석 못 해요"]
     ],
-    "nuance": "참석하다 means to take part in a formal event like a meeting or ceremony, sounding more formal than the everyday verb 가다.",
-    "mistakes": ["Do not confuse 참석하다 (attend) with 참가하다 (participate)."],
+    "nuance": "참석하다 is Sino-Korean 參席 — 參 'take part' + 席 'seat' — literally 'take one's seat (and take part)', i.e. attend a formal event like a meeting, ceremony, or banquet. Its register is more formal than just 가다 'to go'; you 결혼식에 가요 casually but 결혼식에 참석합니다 in polite/written contexts. Distinguish it from its close cousin 참가하다 (參加, 'participate/enter'): 참석하다 emphasizes being PRESENT and seated at a gathering, while 참가하다 emphasizes actively TAKING PART (참가하다 fits a contest, race, or program — 대회에 참가하다). The big English-speaker pitfall is the particle: English 'attend THE meeting' (object) drives learners to 회의를 참석하다, but Korean uses 에 — 회의에 참석하다 — because you 'join INTO' the event. As a noun+하다 verb it conjugates on 하다 (참석해요, 참석했어요, formal 참석합니다); negative/impossible split the noun (참석 안 해요, 참석 못 해요).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Attend a formal event like a meeting, ceremony, or banquet — 'take one's seat (and take part)'. Its register is more formal than just 가다 'to go'; you 결혼식에 가요 casually but 결혼식에 참석합니다 in polite/written contexts."},
+      {"k": "비슷한 말", "e": "VS", "t": "Distinguish it from its close cousin 참가하다 (參加, 'participate/enter'): 참석하다 emphasizes being PRESENT and seated at a gathering, while 참가하다 emphasizes actively TAKING PART (참가하다 fits a contest, race, or program — 대회에 참가하다)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 參席 — 參 'take part' + 席 'seat' — literally 'take one's seat (and take part)'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (참석해요, 참석했어요, formal 참석합니다); negative/impossible split the noun (참석 안 해요, 참석 못 해요).", "chips": ["참석해요", "참석했어요", "참석합니다", "참석 안 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The particle: English 'attend THE meeting' (object) drives learners to 회의를 참석하다, but Korean uses 에 — 회의에 참석하다 — because you 'join INTO' the event."}
+    ],
+    "mistakes": [
+      "Saying 회의를 참석해요 because English makes the meeting an object — Korean marks the event with 에: 회의에 참석해요.",
+      "Using 참석하다 for a contest or competition — being present at a gathering is 참석하다, but actively competing/taking part is 참가하다: 대회에 참가하다.",
+      "Forming the negative as 안 참석해요 — split it: 참석 안 해요 (impossible = 참석 못 해요)."
+    ],
     "irregular": null
   },
   {
@@ -407,16 +549,29 @@
       "shallWe": "취직할까요?"
     },
     "usage": [
-      ["좋은 회사에 취직해요.", "I get a job at a good company.", "Getting employed"],
-      ["은행에 취직했어요.", "I got a job at a bank.", "Past action"]
+      ["회사에 취직하다", "to get a job at a company", "the employer takes 에: 회사에 취직해요 (NOT 회사를)"],
+      ["대기업에 취직하다", "to land a job at a big conglomerate", "대기업 = large corporation; the aspirational collocation"],
+      ["취직 준비를 하다", "to prepare for getting a job (job-hunt)", "취직 준비 = job-search prep; overlaps with 취업 준비"],
+      ["취직이 잘 되다", "for job-hunting to go well", "잘 되다 = to go well; 요즘 취직이 잘 안 돼요 = jobs are hard to get these days"]
     ],
     "examples": [
-      ["저는 큰 회사에 취직하고 싶어요.", "I want to get a job at a big company.", "Expressing a wish"],
-      ["형은 작년에 병원에 취직했어요.", "My older brother got a job at a hospital last year.", "Past action"],
-      ["경력이 없어서 아직 취직 못 해요.", "I have no experience so I cannot get a job yet.", "Unable to do"]
+      ["저는 큰 회사에 취직하고 싶어요.", "I want to get a job at a big company.", "Employer = 에: 회사에 취직하다; ~고 싶어요 = want to"],
+      ["형은 작년에 병원에 취직했어요.", "My older brother got a job at a hospital last year.", "Completed event → past 취직했어요; 병원에 = at a hospital"],
+      ["경력이 없어서 아직 취직 못 해요.", "I have no experience, so I can't get a job yet.", "경력 = work experience; impossible split: 취직 못 해요"]
     ],
-    "nuance": "취직하다 means to find and start a job at a company, while 일하다 simply means to be working in general.",
-    "mistakes": ["Do not confuse 취직하다 (get a job) with 일하다 (work)."],
+    "nuance": "취직하다 is Sino-Korean 就職 — 就 'take up/settle into' + 職 'a post/position' — literally 'take up a post', i.e. get hired and start a job. It nearly overlaps with 취업하다 (就業, 'take up work'): in daily speech they're interchangeable, but 취직 leans toward landing a specific job/post at a company, while 취업 is the broader 'entering employment' (you'll see 취업률 'employment rate', 취업 준비생 'job seeker'). Don't confuse 취직하다 with 일하다 'to work': 취직하다 is the one-time event of GETTING the job, while 일하다 is the ongoing doing of work — 좋은 데 취직해서 열심히 일해요 (I got a good job and work hard). The English-speaker pitfall is the particle: 'get a job AT a company' makes learners write 회사를 취직하다, but the employer takes 에 — 회사에 취직하다. As a noun+하다 verb it conjugates on 하다 (취직해요, 취직했어요, formal 취직합니다); negative/impossible split the noun (취직 안 해요, 취직 못 해요).",
+    "structuredNuance": [
+      {"k": "핵심 의미", "e": "MEANING", "t": "Get hired and start a job — 'take up a post'. It is the one-time event of GETTING the job."},
+      {"k": "비슷한 말", "e": "VS", "t": "It nearly overlaps with 취업하다 (就業, 'take up work'): in daily speech they're interchangeable, but 취직 leans toward landing a specific job/post at a company, while 취업 is the broader 'entering employment' (you'll see 취업률 'employment rate', 취업 준비생 'job seeker'). Don't confuse 취직하다 with 일하다 'to work': 취직하다 is the one-time event of GETTING the job, while 일하다 is the ongoing doing of work — 좋은 데 취직해서 열심히 일해요 (I got a good job and work hard)."},
+      {"k": "한자·어원", "e": "ORIGIN", "t": "Sino-Korean 就職 — 就 'take up/settle into' + 職 'a post/position' — literally 'take up a post'."},
+      {"k": "활용", "e": "FORMS", "t": "As a noun+하다 verb it conjugates on 하다 (취직해요, 취직했어요, formal 취직합니다); negative/impossible split the noun (취직 안 해요, 취직 못 해요).", "chips": ["취직해요", "취직했어요", "취직합니다", "취직 안 해요"]},
+      {"k": "영어권 함정", "e": "PITFALL", "t": "The particle: 'get a job AT a company' makes learners write 회사를 취직하다, but the employer takes 에 — 회사에 취직하다."}
+    ],
+    "mistakes": [
+      "Saying 회사를 취직했어요 because English uses 'a company' as an object — the employer takes 에: 회사에 취직했어요.",
+      "Using 취직하다 for the act of working day-to-day — getting hired is 취직하다 (a one-time event), but doing the work is 일하다.",
+      "Forming the negative as 안 취직해요 — split the noun: 취직 안 해요 (impossible = 취직 못 해요)."
+    ],
     "irregular": null
   }
 ]
