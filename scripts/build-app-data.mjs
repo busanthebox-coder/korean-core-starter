@@ -1,10 +1,26 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 
 // Emits korean/data/app-data.json: a single slim bundle for the Svelte app.
 // The full per-file JSON stays for the legacy app + audit; here we drop fields the
 // new UI never renders (notably the large per-entry `lesson` block) to shrink the build.
 const dir = new URL('../korean/data/', import.meta.url);
 const read = (f) => JSON.parse(readFileSync(new URL(f, dir), 'utf8'));
+
+// Merge rich chapter data from scripts/rich-chapters/*.json into course chapters.
+// Rich chapters add teaching sections (hook, grammarNotes, extendedVocabulary, etc.)
+// without replacing existing course structure.
+const richDir = new URL('../scripts/rich-chapters/', import.meta.url);
+const richChapters = new Map();
+if (existsSync(richDir)) {
+  for (const f of readdirSync(richDir).filter(f => f.endsWith('.json'))) {
+    const data = JSON.parse(readFileSync(new URL(f, richDir), 'utf8'));
+    if (data.id) richChapters.set(data.id, data);
+  }
+}
+const mergeRich = (chapter) => {
+  const rich = richChapters.get(chapter.id);
+  return rich ? { ...chapter, ...rich } : chapter;
+};
 
 // Fields the Svelte UI never reads (verified by grep over src/). Dropping them shrinks the build.
 const STRIP = ['lesson', 'formGroupInfo', 'formLinks', 'contextHint', 'learnerPriority', 'activityTags', 'speechLevels', 'adjectiveForms', 'chapterIds', 'category', 'patternInfo', 'studyGuide', 'relatedWordIds'];
@@ -55,7 +71,11 @@ const out = {
   extendedVocab: read('vocab-extended.json').entries.map(slim),
   expressions: dedupExpr,
   patterns: read('patterns.json').entries.map(slim),
-  course: read('course.json'),
+  course: (() => {
+    const c = read('course.json');
+    c.chapters = (c.chapters || []).map(mergeRich);
+    return c;
+  })(),
   grammar: read('grammar.json'),
   activities: read('activities.json'),
   guide: read('guide.json'),

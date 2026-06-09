@@ -11,6 +11,7 @@
   import RomanizationLine from '../lib/components/RomanizationLine.svelte';
   import HangulTrainer from '../lib/components/HangulTrainer.svelte';
   import GrammarReference from '../lib/components/GrammarReference.svelte';
+  import RichChapterSections from '../lib/components/RichChapterSections.svelte';
 
   let view = 'path';
   let chapter = null;
@@ -142,6 +143,10 @@
     {#if gram.length}
       <div class="block"><div class="sec-head"><span class="dot g" />Grammar focus</div>
         <div class="gfocus">{#each gram as g}<div class="gf"><strong>{g.hangul}</strong><span>{g.plainEnglish}</span></div>{/each}</div></div>
+    {/if}
+
+    {#if chapter.hook || chapter.grammarNotes?.length || chapter.extendedVocabulary?.length}
+      <RichChapterSections {chapter} />
     {/if}
 
     <div class="ch-actions">
