@@ -1,6 +1,6 @@
 <script>
   import { conversations } from '../lib/data.js';
-  import { normalizeKo } from '../lib/quiz.js';
+  import { normalizeKo, shuffle } from '../lib/quiz.js';
   import AudioButton from '../lib/components/AudioButton.svelte';
   import RomanizationLine from '../lib/components/RomanizationLine.svelte';
   import ChatBubble from '../lib/components/ChatBubble.svelte';
@@ -62,6 +62,8 @@
   $: active = turns[cursor] || null;
   $: done = !!selected && cursor >= turns.length;
   $: youTotal = turns.filter((t) => t.role === 'you').length;
+  // Shuffle choices once per turn so the correct answer isn't always first
+  $: shuffledChoices = active?.choices ? shuffle([...active.choices]) : [];
 </script>
 
 {#if !selected}
@@ -121,7 +123,7 @@
 
           {#if mode === 'roleplay'}
             <div class="choices">
-              {#each active.choices as ch, ci}
+              {#each shuffledChoices as ch, ci}
                 {@const isPicked = picked && picked.ko === ch.ko}
                 {@const isWrong = wrong.includes(ch.ko)}
                 <button class="choice" class:correct={isPicked && ch.correct} class:bad={isWrong}
