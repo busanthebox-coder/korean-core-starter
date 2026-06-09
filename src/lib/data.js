@@ -10,9 +10,39 @@ export const entries = [
 ].sort((a, b) => (a.sort ?? 0) - (b.sort ?? 0));
 
 const byId = new Map(entries.map((e) => [e.id, e]));
+// Deduped expressions carry the ids of their dropped duplicates as `aliasIds`,
+// so cross-links pointing at any duplicate resolve to the kept (richest) entry.
+for (const e of entries) {
+  if (e.aliasIds) for (const a of e.aliasIds) if (!byId.has(a)) byId.set(a, e);
+}
 export const findEntry = (id) => byId.get(id) || null;
 
 export const chapters = (data.course.chapters || []).slice().sort((a, b) => a.number - b.number);
+
+// ── Truthful B1 tagging ──────────────────────────────────────────────────
+// The dataset ships only A1/A2 levels, yet chapters 12–16 are a real B1 track
+// (reported speech, guessing, abstract society/work vocabulary). A word or
+// pattern that is FIRST taught (core) in a B1 chapter is genuinely B1, so we
+// promote it here — derived from chapter.level, so it survives regeneration and
+// never inflates B1 with guesses. Items reused from an earlier A1/A2 chapter are
+// left untouched.
+(function tagB1() {
+  const earlierCore = new Set();
+  const b1Core = new Set();
+  for (const ch of chapters) {
+    const ids = [...(ch.coreVocabularyIds || []), ...(ch.patternIds || [])];
+    for (const id of ids) (/B1/i.test(ch.level || '') ? b1Core : earlierCore).add(id);
+  }
+  for (const id of b1Core) {
+    if (earlierCore.has(id)) continue;          // taught earlier → keep its level
+    const e = byId.get(id);
+    if (e && e.level !== 'B1') e.level = 'B1';
+  }
+})();
+
+// Levels actually present in the data, low→high, for filter UIs.
+const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1'];
+export const levels = LEVEL_ORDER.filter((l) => entries.some((e) => e.level === l));
 export const curriculumGuide = data.course.curriculumGuide || [];
 export const functionTags = data.course.functionTags || [];
 export const grammar = [...(data.grammar.grammarItems || []), ...(data.grammar.endingItems || [])];

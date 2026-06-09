@@ -44,6 +44,21 @@ export function summarize(state, now = Date.now()) {
   };
 }
 
+// Mastery over a specific set of item ids (e.g. one chapter's vocabulary).
+// An item counts as mastered once it has reached box 3 (survived several
+// spaced reviews). Items never added to the deck count as not-yet-mastered.
+export function masteryOf(state, ids = []) {
+  const total = ids.length;
+  let started = 0, mastered = 0;
+  for (const id of ids) {
+    const c = state[id];
+    if (!c) continue;
+    started += 1;
+    if (c.box >= 3) mastered += 1;
+  }
+  return { total, started, mastered, pct: total ? Math.round((mastered / total) * 100) : 0 };
+}
+
 function read() {
   try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; }
 }

@@ -3,7 +3,7 @@
   import RomanizationLine from './RomanizationLine.svelte';
   import { findEntry, findGrammar } from '../data.js';
   import { romanizeKorean } from '../romanize.js';
-  import { explainForm } from '../conjugation.js';
+  import { explainForm, conjugate } from '../conjugation.js';
   import { reviews } from '../srs.js';
 
   export let entry;
@@ -44,7 +44,16 @@
     text.split(/(\p{sc=Hangul}+)/u).filter((s) => s !== '').map((s) => ({ s, ko: /\p{sc=Hangul}/u.test(s) }));
 
   $: base = (entry.english || '').replace(/^to /, '');
-  $: forms = entry.forms ? FORM_ORDER.filter((k) => entry.forms[k]) : [];
+  // Forms: prefer the curated set; otherwise generate them on demand for 다-final
+  // verbs/adjectives. conjugate() is conservative and returns null when unsure,
+  // so we never show a guessed irregular.
+  $: generated = !entry.forms && /^(verb|adjective)$/.test(entry.partOfSpeech || '') && /다$/.test(entry.hangul || '')
+    ? conjugate(entry.hangul, { partOfSpeech: entry.partOfSpeech, irregular: entry.irregular })
+    : null;
+  $: formsObj = entry.forms || generated || null;
+  $: formsGenerated = !entry.forms && !!generated;
+  $: formsEntry = formsObj ? { ...entry, forms: formsObj } : entry;
+  $: forms = formsObj ? FORM_ORDER.filter((k) => formsObj[k]) : [];
   $: usage = entry.usagePhrases || [];
   $: examples = entry.examples || [];
   $: tips = entry.conjugationTips || [];
@@ -94,25 +103,26 @@
 
   {#if forms.length}
     <section>
-      <div class="sec-head"><span class="dot" />Forms</div>
+      <div class="sec-head"><span class="dot" />Forms{#if formsGenerated}<span class="auto-tag" title="Built from regular + irregular conjugation rules">auto</span>{/if}</div>
       <div class="forms">
         {#each forms as k}
-          {@const sf = splitForm(entry.forms[k])}
+          {@const sf = splitForm(formsObj[k])}
           <div class="form-tile" class:open={openForm === k} role="button" tabindex="0"
             on:click={() => (openForm = openForm === k ? null : k)}
             on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openForm = openForm === k ? null : k; } }}>
             <div class="ft-top"><span class="flabel">{FORM_META[k].label}</span><span class="chev">{openForm === k ? '▾' : '▸'}</span></div>
-            <span class="fko"><span class="fstem">{sf.stem}</span><span class="fend">{sf.end}</span><AudioButton text={entry.forms[k]} size={26} /></span>
-            <RomanizationLine text={romanizeKorean(entry.forms[k])} />
+            <span class="fko"><span class="fstem">{sf.stem}</span><span class="fend">{sf.end}</span><AudioButton text={formsObj[k]} size={26} /></span>
+            <RomanizationLine text={romanizeKorean(formsObj[k])} />
             {#if openForm === k}
               <div class="ft-detail">
                 <div class="ft-gloss">"{FORM_META[k].gloss(base)}"</div>
-                <p class="ft-why">{explainForm(entry, k) || FORM_META[k].why}</p>
+                <p class="ft-why">{explainForm(formsEntry, k) || FORM_META[k].why}</p>
               </div>
             {/if}
           </div>
         {/each}
       </div>
+      {#if formsGenerated}<p class="auto-note">These forms are generated from regular and irregular conjugation rules. The polite form is your safe default.</p>{/if}
     </section>
   {/if}
 
@@ -224,6 +234,9 @@
     text-transform: uppercase; color: var(--ink-3); }
   .sec-head::after { content: ''; flex: 1; height: 1px; background: var(--border); }
   .dot { display: none; }
+  .auto-tag { font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3);
+    border: 1px solid var(--border); border-radius: 999px; padding: 2px 7px; }
+  .auto-note { margin: 4px 0 0; font-size: 12px; color: var(--ink-3); line-height: 1.5; }
 
   /* How to use */
   .callout p { margin: 0; color: var(--ink); }

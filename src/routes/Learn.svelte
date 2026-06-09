@@ -1,6 +1,8 @@
 <script>
   import { chapters, findEntry, findGrammar } from '../lib/data.js';
   import { lessonProgress, markLessonDone } from '../lib/stores.js';
+  import { reviews, masteryOf } from '../lib/srs.js';
+  import { study, streak } from '../lib/progress.js';
   import { push } from 'svelte-spa-router';
   import EntryCard from '../lib/components/EntryCard.svelte';
   import EntryDetail from '../lib/components/EntryDetail.svelte';
@@ -25,8 +27,21 @@
   $: pats = chapter ? patternsOf(chapter) : [];
   $: gram = chapter ? grammarOf(chapter) : [];
 
+  // Prev/next pager so learners advance straight to the adjacent chapter instead
+  // of bouncing back to the top of the lesson list.
+  $: chIndex = chapter ? chapters.findIndex((c) => c.id === chapter.id) : -1;
+  $: prevCh = chIndex > 0 ? chapters[chIndex - 1] : null;
+  $: nextCh = chIndex >= 0 && chIndex < chapters.length - 1 ? chapters[chIndex + 1] : null;
+
   $: doneCount = chapters.filter((c) => $lessonProgress.has(c.id)).length;
   $: pct = chapters.length ? Math.round((doneCount / chapters.length) * 100) : 0;
+
+  // Real mastery, derived from spaced-repetition boxes (not self-reported).
+  const chapterItemIds = (ch) => [...new Set([...(ch.coreVocabularyIds || []), ...(ch.linkedEntryIds || []), ...(ch.patternIds || [])])];
+  $: allItemIds = [...new Set(chapters.flatMap(chapterItemIds))];
+  $: courseMastery = masteryOf($reviews, allItemIds);
+  $: chMastery = (ch) => masteryOf($reviews, chapterItemIds(ch));
+  $: streakDays = streak($study);
 </script>
 
 {#if view === 'path'}
@@ -38,8 +53,12 @@
     </div>
 
     <div class="progress-card">
-      <div class="pc-top"><span class="pc-label">Your progress</span><span class="pc-count">{doneCount} / {chapters.length} chapters</span></div>
-      <div class="pc-bar"><span class="pc-fill" style="width:{pct}%"></span></div>
+      <div class="pc-top"><span class="pc-label">Course mastery</span><span class="pc-count">{courseMastery.mastered} / {courseMastery.total} words mastered</span></div>
+      <div class="pc-bar"><span class="pc-fill" style="width:{courseMastery.pct}%"></span></div>
+      <div class="pc-meta">
+        <span>🔥 {streakDays}-day streak</span>
+        <span>{doneCount}/{chapters.length} chapters marked done · {courseMastery.pct}% mastered</span>
+      </div>
     </div>
 
     <button class="big-card" on:click={() => { view = 'hangul'; window.scrollTo(0, 0); }}>
@@ -50,10 +69,17 @@
 
     <div class="path">
       {#each chapters as ch}
+        {@const m = chMastery(ch)}
         {#if ch.number === 12}<div class="path-divider"><span>Intermediate · B1</span></div>{/if}
         <button class="node" on:click={() => openChapter(ch)}>
           <span class="num" class:done={$lessonProgress.has(ch.id)}>{$lessonProgress.has(ch.id) ? '✓' : ch.number}</span>
           <span class="node-main"><strong>{ch.title}</strong><span>{ch.goal}</span></span>
+          {#if m.started}
+            <span class="node-mast" title="{m.mastered} of {m.total} mastered">
+              <span class="nm-bar"><span style="width:{m.pct}%"></span></span>
+              <span class="nm-pct">{m.pct}%</span>
+            </span>
+          {/if}
           <span class="chev">▸</span>
         </button>
       {/each}
@@ -122,6 +148,21 @@
       <button class="btn3d" on:click={() => push('/practice')}>Practice this chapter</button>
       <button class="ghost" on:click={() => markLessonDone(chapter.id)}>{$lessonProgress.has(chapter.id) ? '✓ Completed' : 'Mark complete'}</button>
     </div>
+
+    <nav class="pager">
+      {#if prevCh}
+        <button class="pg" on:click={() => openChapter(prevCh)}>
+          <span class="pg-dir">← Previous</span>
+          <span class="pg-title">{prevCh.number}. {prevCh.title}</span>
+        </button>
+      {:else}<span class="pg-spacer"></span>{/if}
+      {#if nextCh}
+        <button class="pg next" on:click={() => openChapter(nextCh)}>
+          <span class="pg-dir">Next →</span>
+          <span class="pg-title">{nextCh.number}. {nextCh.title}</span>
+        </button>
+      {:else}<span class="pg-spacer"></span>{/if}
+    </nav>
   </section>
 {/if}
 
@@ -143,6 +184,7 @@
   .pc-count { font-weight: 800; color: var(--green-dark); font-size: 14px; }
   .pc-bar { height: 12px; border-radius: 999px; background: #fff; border: 1px solid var(--border); overflow: hidden; }
   .pc-fill { display: block; height: 100%; border-radius: 999px; background: var(--accent); transition: width .4s var(--bounce); }
+  .pc-meta { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; font-weight: 700; color: var(--ink-3); }
 
   .big-card { display: flex; align-items: center; gap: 14px; text-align: left; padding: 16px 18px; border-radius: var(--radius);
     background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-1); }
@@ -167,6 +209,10 @@
   .node-main { display: grid; gap: 2px; flex: 1; }
   .node-main strong { font-family: var(--serif-ko); font-size: 17px; font-weight: 600; }
   .node-main span { color: var(--ink-2); font-size: 13px; }
+  .node-mast { display: grid; justify-items: end; gap: 3px; flex: none; width: 64px; }
+  .nm-bar { width: 100%; height: 6px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); overflow: hidden; }
+  .nm-bar span { display: block; height: 100%; border-radius: 999px; background: var(--type-word); }
+  .nm-pct { font-size: 11px; font-weight: 800; color: var(--ink-3); }
 
   .back { align-self: start; padding: 7px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; }
   .back:hover { background: var(--border); }
@@ -198,4 +244,13 @@
 
   .ch-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
   .ghost { padding: 12px 18px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; }
+
+  .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  .pg { display: grid; gap: 3px; text-align: left; padding: 14px 16px; border-radius: var(--radius); background: var(--surface);
+    border: 1px solid var(--border); box-shadow: var(--shadow-1); transition: transform .1s var(--bounce), border-color .1s; }
+  .pg:hover { transform: translateY(-2px); border-color: var(--ink); box-shadow: var(--shadow-2); }
+  .pg.next { text-align: right; }
+  .pg-dir { font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }
+  .pg-title { font-family: var(--serif-ko); font-size: 15px; font-weight: 600; color: var(--ink); }
+  @media (max-width: 520px) { .pager { grid-template-columns: 1fr; } .pg-spacer { display: none; } }
 </style>

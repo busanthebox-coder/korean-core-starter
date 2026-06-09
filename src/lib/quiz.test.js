@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { shuffle, makeMCQuestion, makeMatch, buildQuiz } from './quiz.js';
+import { shuffle, makeMCQuestion, makeMatch, buildQuiz, normalizeKo, buildWriteQuiz, buildSentenceQuiz } from './quiz.js';
 
 // deterministic rng for stable tests
 function seeded(seed = 42) {
@@ -59,5 +59,51 @@ describe('makeMatch', () => {
     const m = makeMatch(POOL, seeded(5), 4);
     expect(m.pairs.length).toBe(4);
     expect(m.pairs.every((p) => p.ko && p.en)).toBe(true);
+  });
+});
+
+describe('normalizeKo', () => {
+  it('ignores spaces, punctuation and case', () => {
+    expect(normalizeKo(' 먹어요. ')).toBe('먹어요');
+    expect(normalizeKo('밥을  먹어요!')).toBe(normalizeKo('밥을먹어요'));
+    expect(normalizeKo('An-nyeong')).toBe('annyeong');
+  });
+  it('grades a typed answer regardless of trailing punctuation', () => {
+    expect(normalizeKo('가다') === normalizeKo('가다.')).toBe(true);
+  });
+});
+
+describe('buildWriteQuiz', () => {
+  it('produces type questions whose answer is the hangul', () => {
+    const qs = buildWriteQuiz(POOL, { count: 3, rng: seeded(3) });
+    expect(qs.length).toBe(3);
+    for (const q of qs) {
+      expect(q.type).toBe('type');
+      expect(POOL.map((e) => e.hangul)).toContain(q.answer);
+      expect(POOL.map((e) => e.english)).toContain(q.prompt);
+    }
+  });
+  it('uses distinct targets (no repeats within a round)', () => {
+    const qs = buildWriteQuiz(POOL, { count: 5, rng: seeded(11) });
+    expect(new Set(qs.map((q) => q.answer)).size).toBe(qs.length);
+  });
+});
+
+describe('buildSentenceQuiz', () => {
+  const EX_POOL = [
+    { id: 'x', hangul: '먹다', english: 'to eat', examples: [{ ko: '밥을 먹어요', en: 'I eat rice', romanization: 'babeul meogeoyo' }] },
+    { id: 'y', hangul: '가다', english: 'to go', examples: [{ ko: '학교에 가요', en: 'I go to school' }] },
+  ];
+  it('makes build questions with scrambled tokens that reorder to the answer', () => {
+    const qs = buildSentenceQuiz(EX_POOL, { count: 2, rng: seeded(5) });
+    expect(qs.length).toBeGreaterThan(0);
+    for (const q of qs) {
+      expect(q.type).toBe('build');
+      expect([...q.scrambled].sort()).toEqual([...q.tokens].sort());
+      expect(q.tokens.join(' ')).toBe(q.answer);
+    }
+  });
+  it('returns empty when no entry has a multi-word example', () => {
+    expect(buildSentenceQuiz([{ id: 'z', hangul: '책', english: 'book', examples: [] }], {})).toEqual([]);
   });
 });

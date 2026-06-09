@@ -10,37 +10,43 @@
       ["회원 등록하고 싶어요", "I want to become a member", "회원 ('member') makes the membership explicit"]
     ],
     "examples": [
-      ["안녕하세요, 헬스장 등록하려고요.", "Hi, I'd like to sign up for the gym.", "Open with a greeting, then state your purpose right away"],
-      ["저기요, 헬스 등록하려고 하는데 가격이 어떻게 돼요?", "Excuse me, I want to sign up — how much is it?", "Pair the intent with 가격이 어떻게 돼요 to ask the price"],
-      ["3개월 등록하려고요. 할인 되는 거 있어요?", "I'd like to register for 3 months. Any discounts?", "State the period first, then ask about deals"]
+      ["안녕하세요, 헬스장 등록하려고요.", "Hi, I'd like to sign up for the gym.", "Open with a greeting, then state your purpose — staff will take it from there"],
+      ["A: 어떻게 오셨어요? / B: 헬스장 등록하려고요. 가격 좀 알 수 있을까요?", "A: What can I do for you? / B: I'd like to sign up. Could I get the pricing?", "Real front-desk exchange: staff opens, you state your intent and pivot to price"],
+      ["3개월 등록하려고요. 할인되는 거 있어요?", "I'd like to register for 3 months. Any discounts?", "State the period first, then ask about deals — the bundled question staff expect"]
     ],
-    "nuance": "헬스장 등록하려고요 is 헬스장 ('gym' — Korean uses the loanword 헬스 'health' for weight-training gyms, plus 장 'place') + 등록하다 ('to register', Sino-Korean 登錄) + -려고요, an ending that announces your intention ('I'm intending to…') as a soft opener. Note the big false-friend trap: 헬스 in Korean does NOT mean 'health' the way English speakers expect — 헬스장 / 헬스클럽 specifically means a weight/fitness gym, and 헬스 알아보다 means 'to look into joining a gym', not 'to check on health'. The -려고요 ending is gentler than a flat 등록할게요 ('I'll register') because it frames the visit as 'I'm here intending to sign up', inviting the staff to walk you through plans before you commit. The dividing line from 등록했어요 (past, 'I registered') is tense — many learners blur intention and completion. The English-speaker pitfall is saying 가입하다 ('to join/subscribe', used for clubs, memberships, insurance) and producing 헬스장 가입하려고요 — understandable, but for a gym the natural verb is 등록하다; 가입 sounds more like joining an organization or signing a contract. Also don't say 헬스 하려고요 if you mean signing up — that means 'I'm going to work out'.",
+    "nuance": "헬스장 등록하려고요 breaks down as 헬스장 (헬스 'health/fitness' loanword + 장 'place', so 'fitness place' = gym) + 등록하다 (Sino-Korean 登錄, 'to register') + -려고요, the ender that announces intention as a soft opener. The loanword trap: 헬스 in Korean is narrowly a weight-training gym context, NOT health in general — 건강 is 'health' as a concept. So 헬스 하다 = 'go to the gym / work out', and 헬스장 알아보다 = 'to look into joining a gym', nothing to do with checking your health. The -려고요 ending frames this as 'I'm here intending to sign up', warmly inviting staff to walk you through options before you commit — softer than the declarative 등록할게요 ('I'll register'). The key verb dividing line: the natural verb for a gym sign-up is 등록하다; using 가입하다 ('to join a club/organization/insurance') is understandable but sounds like signing a formal institutional membership, not a gym card. And 헬스 하려고요 with no 장/등록 means 'I'm going to work out', a totally different meaning. When you're already a member: 연장하려고요 ('I'd like to renew').",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "헬스장 ('gym' — Korean uses the loanword 헬스 'health' for weight-training gyms, plus 장 'place') + 등록하다 ('to register') + -려고요, an ending that announces your intention ('I'm intending to…') as a soft opener. The -려고요 ending is gentler than a flat 등록할게요 ('I'll register') because it frames the visit as 'I'm here intending to sign up', inviting the staff to walk you through plans before you commit."
+        "t": "헬스장 ('fitness gym', 헬스 loanword + 장 'place') + 등록하다 (Sino-Korean 登錄, 'to register') + -려고요 ('I'm intending to…'). The -려고요 ending announces your purpose as an opener, inviting the staff to explain options — much softer than the flat 등록할게요 ('I'll register'). Literal read: 'I'm intending to register at the gym.'"
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Said at the gym front desk to any staff member; polite-neutral register fits perfectly. With friends: 헬스 등록하려고 (반말). If you want softer hedging before committing: 등록 좀 하려고 하는데요 ('I was thinking of signing up…') invites the staff to present plans first."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line from 등록했어요 (past, 'I registered') is tense — many learners blur intention and completion. Also don't say 헬스 하려고요 if you mean signing up — that means 'I'm going to work out'."
+        "t": "등록하다 vs 가입하다: 가입하다 fits joining an organization, club, or insurance policy — for a gym the idiomatic verb is 등록하다. Don't confuse with 헬스 하려고요 ('I'm going to work out') — that's a totally different sentence meaning you're about to exercise, not sign up."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "등록하다 is Sino-Korean 登錄. 헬스장 combines the loanword 헬스 ('health') with 장 ('place')."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Scale the commitment: 등록 좀 하려고 하는데요 (soft, hedged) → 헬스장 등록하려고요 (standard) → 바로 등록할게요 ('I'll sign up right now', direct). For renewal: 연장하려고요. For cancellation: 해지하려고요.",
+        "chips": ["등록 좀 하려고 하는데요", "바로 등록할게요", "연장하려고요", "해지하려고요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The big false-friend trap: 헬스 does NOT mean 'health' the way English speakers expect — 헬스장 / 헬스클럽 specifically means a weight/fitness gym, and 헬스 알아보다 means 'to look into joining a gym', not 'to check on health'. Another pitfall is saying 가입하다 ('to join/subscribe', used for clubs, memberships, insurance) and producing 헬스장 가입하려고요 — for a gym the natural verb is 등록하다; 가입 sounds more like joining an organization or signing a contract."
+        "t": "Two traps: (1) 헬스 ≠ 'health' — 헬스장 is a fitness/weight gym, not a health clinic; 건강 is 'health' as a concept. (2) Using 가입하다 in 헬스장 가입하려고요 — grammatically passable but sounds like joining a formal organization; 등록하다 is the gym-natural verb."
       }
     ],
     "mistakes": [
-      ["Thinking 헬스 means 'health'.", "헬스 in Korean is a loanword meaning a weight-training gym (헬스장). 'Health' as a concept is 건강. So 헬스 하다 = 'to work out at the gym', not 'to do health'."],
-      ["Saying 헬스장 가입하려고요.", "가입하다 is for joining clubs/memberships/insurance. For a gym the idiomatic verb is 등록하다: 헬스장 등록하려고요."],
-      ["Using past 등록했어요 when you mean to sign up now.", "등록했어요 means 'I (already) registered'. To state you want to join now, use the intention form: 등록하려고요."]
+      "Thinking 헬스 means 'health' in a general sense. 헬스 in Korean is a loanword used specifically for a weight-training gym (헬스장). 'Health' as a concept is 건강. So 헬스 하다 = 'to work out at the gym', not 'to do health'.",
+      "Saying 헬스장 가입하려고요. 가입하다 is for joining clubs, memberships, or insurance. For a gym sign-up the idiomatic verb is 등록하다: 헬스장 등록하려고요.",
+      "Using past tense 등록했어요 when you mean to sign up now. 등록했어요 means 'I (already) registered'. To state your current intention, use the intention form: 등록하려고요."
     ]
   },
   {
@@ -54,37 +60,43 @@
       ["3개월 끊으면 얼마예요?", "How much if I get 3 months?", "끊다 ('to buy a pass') for a multi-month deal"]
     ],
     "examples": [
-      ["한 달에 얼마예요?", "How much is it per month?", "The basic question once you're at the desk"],
-      ["등록하면 한 달에 얼마예요? 운동복도 포함이에요?", "If I sign up, how much per month? Is gym wear included?", "Add 포함 ('included') to ask what's bundled"],
-      ["6개월 끊으면 한 달에 얼마 정도 나와요?", "If I buy 6 months, about how much per month?", "정도 ('about') + 나오다 ('comes out to') asks the effective rate"]
+      ["A: 어떻게 도와드릴까요? / B: 한 달에 얼마예요?", "A: How can I help you? / B: How much is it per month?", "The most natural first question at the desk — staff will then walk through the plans"],
+      ["등록하면 한 달에 얼마예요? 운동복도 포함이에요?", "If I sign up, how much per month? Is gym wear included?", "Add 포함 ('included') to pin down what comes with the fee"],
+      ["6개월 끊으면 한 달에 얼마 정도 나와요?", "If I buy 6 months, about how much per month?", "정도 ('about') + 나오다 ('comes out to') asks the effective per-month rate"]
     ],
-    "nuance": "한 달에 얼마예요? is 한 달 ('one month') + 에 (the particle marking rate/per) + 얼마 ('how much') + 예요, literally 'per one month, how much is it?'. The load-bearing piece is the particle 에, which here means 'per' — 한 달에 = 'per month', 한 명에 = 'per person', 하나에 = 'each'. English speakers very often drop it or replace it, saying 한 달 얼마예요 (understandable but missing the 'per' feel) or wrongly 한 달로 얼마예요. For gyms, Koreans frequently use 끊다 ('to cut/buy a pass') for multi-month memberships — 3개월 끊다 = 'to buy a 3-month pass' — and 회비 ('dues', Sino-Korean 會費) for the recurring fee, so 한 달 회비 is crisper than the generic 가격. The dividing line from 얼마예요? alone is scope: bare 얼마예요 asks the price of a single thing in front of you, while 한 달에 얼마예요 specifically asks the monthly rate. The English-speaker pitfall is calculating with 'cost' verbs and saying 한 달에 비용이 들어요? ('does it cost per month?'), which sounds like a yes/no feasibility question rather than asking the amount — just ask 얼마예요. Numbers for the answer come in 원 (won), and 만 원 ('ten-thousand won') is the everyday unit.",
+    "nuance": "한 달에 얼마예요? is 한 달 ('one month') + 에 (particle marking 'per / rate') + 얼마 ('how much') + 예요. The load-bearing word is the particle 에: in Korean, 에 after a time or quantity unit signals 'per' — 한 달에 = 'per month', 한 명에 = 'per person', 하나에 = 'each one'. Drop it or swap it and the sentence breaks: 한 달 얼마예요 is understood but feels incomplete, and 한 달로 얼마예요 is wrong because 로 marks means or direction, not rate. In gym talk, Koreans often use 끊다 ('to cut / buy a pass') for committing to a multi-month block — 3개월 끊다 = 'buy a 3-month pass' — and 회비 (Sino-Korean 會費, 'dues') for the recurrent fee; 한 달 회비 is crisper than the generic 가격 when asking about membership. The dividing line from bare 얼마예요? is scope: without a time unit it asks the one-off price of something in front of you; 한 달에 얼마예요 pins the question to the monthly rate. The English-speaker pitfall is reaching for a 'cost' verb: 한 달에 비용이 들어요? sounds like a yes/no feasibility question ('does it incur cost?'), not a price inquiry — just ask 얼마예요. Prices come back in 원, with 만 원 (10,000 won) as the everyday unit.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "한 달 ('one month') + 에 (the particle marking rate/per) + 얼마 ('how much') + 예요, literally 'per one month, how much is it?'. The load-bearing piece is the particle 에, which here means 'per' — 한 달에 = 'per month', 한 명에 = 'per person', 하나에 = 'each'. For gyms, Koreans frequently use 끊다 ('to cut/buy a pass') for multi-month memberships — 3개월 끊다 = 'to buy a 3-month pass' — and 회비 ('dues') for the recurring fee, so 한 달 회비 is crisper than the generic 가격. Numbers for the answer come in 원 (won), and 만 원 ('ten-thousand won') is the everyday unit."
+        "t": "한 달 ('one month') + 에 (rate particle, 'per') + 얼마 ('how much') + 예요. Literal: 'Per one month, how much is it?' The 에 is doing all the work — 한 달에 = 'per month', 한 명에 = 'per person'. Without 에 the 'per' meaning disappears."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite-neutral register; right for any staff member at the front desk. To a friend who's a member: 한 달에 얼마야? (반말). The precise variant: 한 달 회비가 얼마예요? ('What's the monthly dues?') uses 회비 ('dues', 會費) and sounds slightly more exact."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line from 얼마예요? alone is scope: bare 얼마예요 asks the price of a single thing in front of you, while 한 달에 얼마예요 specifically asks the monthly rate."
+        "t": "한 달에 얼마예요? (monthly rate) vs 얼마예요? alone (one-off price of something in front of you). Also: 6개월 끊으면 한 달에 얼마 나와요? ('how does it work out per month for a 6-month pass?') — 끊다 ('to buy/cut a pass') is the gym-native verb for buying a multi-month block, more natural than 구매하다."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "회비 ('dues') is Sino-Korean 會費."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Scale the ask: 한 달에 얼마예요? → 3개월 끊으면 얼마예요? → 6개월 끊으면 한 달에 얼마 나와요? — each version asks increasingly about bulk pricing. 회비 variants: 한 달 회비가 얼마예요? / 월 회비 얼마예요?",
+        "chips": ["3개월 끊으면 얼마예요?", "한 달 회비가 얼마예요?", "월 회비 얼마예요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers very often drop the 에 or replace it, saying 한 달 얼마예요 (understandable but missing the 'per' feel) or wrongly 한 달로 얼마예요. Another pitfall is calculating with 'cost' verbs and saying 한 달에 비용이 들어요? ('does it cost per month?'), which sounds like a yes/no feasibility question rather than asking the amount — just ask 얼마예요."
+        "t": "Two traps: (1) dropping 에 — 한 달 얼마예요 is understood but misses the 'per' nuance; (2) using a cost verb: 한 달에 비용이 들어요? sounds like asking 'does it cost money?' (yes/no), not asking the amount. Just ask 얼마예요."
       }
     ],
     "mistakes": [
-      ["Dropping the particle 에 in 한 달 얼마예요.", "에 carries the 'per' meaning. 한 달에 얼마예요 = 'how much per month'; without 에 it sounds incomplete. Keep 한 달에."],
-      ["Using 로 as in 한 달로 얼마예요.", "로 marks means/direction, not rate. For 'per month' it's the locative-rate 에: 한 달에 얼마예요."],
-      ["Saying 비용이 들어요? to ask the amount.", "비용이 들다 means 'it costs (money)' as a yes/no statement, not 'how much'. To ask the figure, use 얼마예요: 한 달에 얼마예요?"]
+      "Dropping the particle 에 in 한 달 얼마예요. The 에 carries the 'per' meaning — without it the question feels incomplete. Keep 한 달에 얼마예요?",
+      "Using 로 as in 한 달로 얼마예요. 로 marks means or direction, not rate. For 'per month' use the locative-rate 에: 한 달에 얼마예요.",
+      "Saying 비용이 들어요? to ask the price. 비용이 들다 means 'it costs (money)' as a yes/no statement, not a price inquiry. To ask the figure, just use 얼마예요: 한 달에 얼마예요?"
     ]
   },
   {
@@ -98,37 +110,43 @@
       ["옷 갈아입고 와도 돼요?", "Can I go change first?", "Asking permission to change before starting"]
     ],
     "examples": [
-      ["운동복 갈아입을 데 있어요?", "Is there somewhere to change into gym clothes?", "Asked on your first visit before working out"],
-      ["탈의실이랑 샤워실 어디예요?", "Where are the changing room and showers?", "Bundle 탈의실 with 샤워실 ('shower room') in one ask"],
-      ["락커 쓰려면 따로 신청해야 돼요?", "Do I need to sign up separately to use a locker?", "락커 ('locker') + 신청하다 to check if it's extra"]
+      ["A: 처음 오셨어요? / B: 네, 운동복 갈아입을 데 있어요?", "A: Is this your first time? / B: Yes — is there somewhere to change?", "Classic first-visit exchange; staff will point you to 탈의실"],
+      ["탈의실이랑 샤워실 어디예요?", "Where are the changing room and showers?", "Bundle 탈의실 with 샤워실 ('shower room') in one question — natural on a tour"],
+      ["락커 쓰려면 따로 신청해야 돼요?", "Do I need to sign up separately to use a locker?", "락커 ('locker') + 신청하다 to check if it costs extra or needs registration"]
     ],
-    "nuance": "운동복 갈아입을 데 있어요? is 운동복 ('workout clothes' = 운동 'exercise' + 복 'clothing') + 갈아입다 ('to change clothes') in the future-modifier form 갈아입을 + 데 ('place') + 있어요 ('is there?'). The key verb is 갈아입다 — a compound of 갈다 ('to swap') + 입다 ('to wear') meaning specifically 'change one's clothes'; learners wrongly say 옷을 바꾸다 ('to exchange/swap clothes for different ones', like at a store) when they mean changing into what they brought. Also note 데 here is a bound noun meaning 'place/spot', interchangeable with 곳 but more colloquial; 갈아입을 데 = 'a spot to change'. The direct noun is 탈의실 ('changing room', Sino-Korean), which is crisper if you just want the room. The dividing line: 갈아입을 데 있어요 asks whether a changing spot exists at all, while 탈의실 어디예요 assumes there is one and asks WHERE. The English-speaker pitfall is the 직역 'changing room' → 바꾸는 방, which is meaningless in Korean; use 탈의실 or 갈아입는 곳. Another trap: 운동복 is the clothes themselves, while 운동화 ('athletic shoes') is footwear — don't confuse 복 (clothing) with 화 (shoes).",
+    "nuance": "운동복 갈아입을 데 있어요? is 운동복 (운동 'exercise' + 복 'clothes') + 갈아입다 ('to change clothes', compound: 갈다 'swap' + 입다 'wear') in the future-modifier form 갈아입을 + 데 ('place', a bound noun) + 있어요. The critical verb to get right is 갈아입다 — it specifically means changing one's clothes, not swapping for a different item as in a shop exchange (that would be 바꾸다). 데 here is interchangeable with 곳 ('place/spot') but is more colloquial; 갈아입을 데 = 'somewhere to change'. The formal noun for the room itself is 탈의실 (Sino-Korean, '脫衣室', 'clothes-removal room') — shorter and crisper once you know the word exists. Dividing line: 갈아입을 데 있어요 asks IF a changing spot exists, while 탈의실 어디예요 assumes it does and asks WHERE. The English-speaker pitfall is the direct translation 'changing room' → 바꾸는 방, which is meaningless in Korean; use 탈의실 or 갈아입는 곳. A second pitfall: 운동복 (workout clothing, 복 = garment) vs 운동화 (athletic shoes, 화 = footwear) — the 복/화 distinction is important at the front desk.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "운동복 ('workout clothes' = 운동 'exercise' + 복 'clothing') + 갈아입다 ('to change clothes') in the future-modifier form 갈아입을 + 데 ('place') + 있어요 ('is there?'). The key verb is 갈아입다 — a compound of 갈다 ('to swap') + 입다 ('to wear') meaning specifically 'change one's clothes'. 데 here is a bound noun meaning 'place/spot', interchangeable with 곳 but more colloquial; 갈아입을 데 = 'a spot to change'. The direct noun is 탈의실 ('changing room'), which is crisper if you just want the room."
+        "t": "운동복 ('workout clothes') + 갈아입다 ('change clothes', compound of 갈다 swap + 입다 wear) in modifier form 갈아입을 + 데 ('place', bound noun) + 있어요 ('is there?'). Literal: 'Is there a place to change into workout clothes?' The dedicated room noun is 탈의실."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite-neutral; said to any gym staff on a first visit. 반말 to a friend: 갈아입을 데 어디야? Once you know the room exists, upgrade to the direct 탈의실 어디예요? — shorter and more confident-sounding."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: 갈아입을 데 있어요 asks whether a changing spot exists at all, while 탈의실 어디예요 assumes there is one and asks WHERE. Another contrast: 운동복 is the clothes themselves, while 운동화 ('athletic shoes') is footwear — don't confuse 복 (clothing) with 화 (shoes)."
+        "t": "갈아입을 데 있어요 (asking IF a spot exists) vs 탈의실 어디예요 (assuming it exists, asking WHERE). Note 탈의실 is standard; 갈아입는 곳 is a plain-Korean alternative. Neither 바꾸는 방 nor 바꾸는 곳 works — 바꾸다 is for swapping/exchanging things, not for changing clothes."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "탈의실 ('changing room') is Sino-Korean."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Once inside: 탈의실 어디예요? (where is it) → 락커 따로 써야 돼요? (do I need a separate locker) → 샤워실도 같이 있어요? (is the shower room there too). The suffix 실 (室, 'room') builds this whole cluster: 탈의실 / 샤워실 / 휴게실.",
+        "chips": ["탈의실 어디예요?", "락커 따로 써야 돼요?", "샤워실도 같이 있어요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "Learners wrongly say 옷을 바꾸다 ('to exchange/swap clothes for different ones', like at a store) when they mean changing into what they brought. Another trap is the 직역 'changing room' → 바꾸는 방, which is meaningless in Korean; use 탈의실 or 갈아입는 곳."
+        "t": "Translating 'changing room' literally as 바꾸는 방 is meaningless in Korean — 바꾸다 is for swapping/exchanging items, not for dressing. Use 탈의실 or 갈아입는 곳. Also: 운동복 (clothes, 복) ≠ 운동화 (shoes, 화) — mixing them up at the desk is a common beginner error."
       }
     ],
     "mistakes": [
-      ["Saying 옷을 바꾸다 for changing clothes.", "바꾸다 means 'to exchange/swap for something different'. Changing into your gym clothes is 갈아입다: 운동복으로 갈아입다."],
-      ["Translating 'changing room' literally as 바꾸는 방.", "That's not a real Korean phrase. The room is 탈의실, or describe it as 갈아입는 곳."],
-      ["Confusing 운동복 and 운동화.", "운동복 is workout clothing; 운동화 is athletic shoes. 복 = clothes, 화 = footwear. Don't mix them up at the desk."]
+      "Saying 옷을 바꾸다 for changing clothes. 바꾸다 means 'to swap/exchange for something different' (like exchanging an item in a store). Changing into the clothes you brought is 갈아입다: 운동복으로 갈아입다.",
+      "Translating 'changing room' literally as 바꾸는 방. That phrase doesn't exist in Korean. The room is 탈의실, or describe it descriptively as 갈아입는 곳.",
+      "Confusing 운동복 and 운동화. 운동복 is workout clothing; 운동화 is athletic shoes. 복 = garments, 화 = footwear. Asking for 운동화 갈아입을 데 when you mean clothes will confuse staff."
     ]
   },
   {
@@ -138,41 +156,47 @@
     "usage": [
       ["오늘은 유산소만 할 거예요", "Today I'll just do cardio", "Polite; telling a trainer or friend your plan"],
       ["오늘은 유산소만 할 거야", "Today I'm just doing cardio", "반말, to a workout buddy"],
-      ["유산소 위주로 할게요", "I'll focus mainly on cardio", "위주로 ('mainly/centered on') for your emphasis"],
-      ["오늘은 가볍게 유산소만 뛸게요", "Today I'll just do a light cardio run", "가볍게 ('lightly') softens it to an easy session"]
+      ["유산소 위주로 할게요", "I'll focus mainly on cardio", "위주로 ('mainly/centered on') for a cardio-heavy session"],
+      ["오늘은 가볍게 유산소만 뛸게요", "Today I'll just do a light cardio run", "가볍게 ('lightly') softens it to an easy recovery session"]
     ],
     "examples": [
-      ["오늘은 유산소만 할 거예요.", "Today I'll just do cardio.", "Telling the trainer you're skipping weights today"],
-      ["몸이 좀 무거워서 오늘은 유산소만 할게요.", "I feel sluggish, so today I'll just do cardio.", "몸이 무겁다 ('body feels heavy') gives a natural reason"],
-      ["다리 운동 한 날이라 오늘은 유산소 위주로 할게요.", "I did leg day, so today I'll focus on cardio.", "Explain yesterday's workout to justify today's plan"]
+      ["오늘은 유산소만 할 거예요.", "Today I'll just do cardio.", "Telling the trainer you're skipping weights — the contrast particle 은 signals 'today, unlike other days'"],
+      ["몸이 좀 무거워서 오늘은 유산소만 할게요.", "I feel sluggish, so today I'll just do cardio.", "몸이 무겁다 ('body feels heavy/sluggish') is the go-to reason for a light day"],
+      ["A: 오늘 웨이트 안 해요? / B: 네, 오늘은 유산소만 할 거예요. 다리가 아직 풀리지 않아서요.", "A: Not lifting today? / B: No, just cardio today — my legs haven't recovered yet.", "Real training-partner exchange; 풀리지 않다 = 'hasn't loosened/recovered'"]
     ],
-    "nuance": "오늘은 유산소만 할 거예요 is 오늘 ('today') + 은 (topic/contrast particle) + 유산소 ('aerobic/cardio', Sino-Korean 有酸素, lit. 'with oxygen') + 만 ('only') + 할 거예요 ('will do'). The two particles do real work: 은 here is contrastive ('today, as opposed to other days'), and 만 means 'only/just'. 유산소 (운동) is the standard gym word for cardio — treadmill, cycle, running — and its opposite is 무산소 (無酸素) or, more commonly in gym talk, 근력 운동 / 웨이트 ('weight/strength training'). The dividing line: 유산소 = cardio for endurance/fat-burn, while 웨이트/근력 = lifting for muscle; saying 유산소 when you mean lifting confuses a trainer. The English-speaker pitfall is the loanword reflex — saying 카디오, which Koreans don't really use; the native gym term is 유산소. Another particle trap: putting 만 in the wrong slot, e.g. 오늘만 유산소 할 거예요 means 'only today (and never again) I'll do cardio', a totally different meaning from 오늘은 유산소만 ('today I'll do only cardio'). Keep 만 attached to 유산소 to limit the activity, not the day.",
+    "nuance": "오늘은 유산소만 할 거예요 is 오늘 ('today') + 은 (contrast topic particle) + 유산소 (Sino-Korean 有酸素, 'with oxygen' = aerobic/cardio) + 만 ('only/just') + 할 거예요 ('will do'). Both particles do real work: 은 is contrastive ('today as opposed to other days'), and 만 limits the activity ('only cardio, nothing else'). The placement of 만 matters enormously: 오늘만 유산소 할 거예요 means 'only today (uniquely, never again) I'll do cardio', while 오늘은 유산소만 할 거예요 means 'today I'll do only cardio' — keep 만 attached to the activity. 유산소(운동) is the universal gym term for cardio — treadmill, cycling, running — while its pair is 무산소(운동) or, more often in daily gym speech, 근력 운동 / 웨이트 for weight training. The English-speaker loanword reflex is to say 카디오, which Koreans essentially don't use — use 유산소. When you want to describe the ratio rather than exclude weights entirely: 유산소 위주로 할게요 ('I'll focus mainly on cardio').",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "오늘 ('today') + 은 (topic/contrast particle) + 유산소 ('aerobic/cardio') + 만 ('only') + 할 거예요 ('will do'). The two particles do real work: 은 here is contrastive ('today, as opposed to other days'), and 만 means 'only/just'. 유산소 (운동) is the standard gym word for cardio — treadmill, cycle, running."
+        "t": "오늘 ('today') + 은 (contrast particle) + 유산소 (Sino-Korean 有酸素, aerobic/cardio) + 만 ('only') + 할 거예요 ('will do'). Literal: 'Today I will do only cardio.' Both particles carry weight: 은 contrasts today from other days, 만 limits the activity to cardio only."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; said to a trainer or gym buddy. 반말: 오늘은 유산소만 할 거야. Use this on recovery days, when you feel sluggish (몸이 무겁다), or to adjust after leg day. Softer variant for partial cardio: 유산소 위주로 할게요 ('mainly cardio')."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "유산소's opposite is 무산소 or, more commonly in gym talk, 근력 운동 / 웨이트 ('weight/strength training'). The dividing line: 유산소 = cardio for endurance/fat-burn, while 웨이트/근력 = lifting for muscle; saying 유산소 when you mean lifting confuses a trainer."
+        "t": "유산소(운동) = cardio (endurance, fat-burn); 근력 운동 / 웨이트 = weight/strength training; 무산소(운동) is the technical opposite but 웨이트 is what people say at the gym. Telling a trainer 유산소 할게요 when you meant lifting sends you straight to the treadmill."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "유산소 is Sino-Korean 有酸素, lit. 'with oxygen'; its opposite 무산소 is 無酸素."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Intensity scale: 가볍게 유산소만 뛸게요 (light jog) → 오늘은 유산소만 할 거예요 (cardio only) → 유산소 위주로 할게요 (cardio-heavy but not exclusive). For specific machines: 러닝머신 할게요 (treadmill) / 싸이클 할게요 (stationary bike).",
+        "chips": ["유산소 위주로 할게요", "가볍게 유산소만 뛸게요", "러닝머신 할게요", "싸이클 할게요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The loanword reflex — saying 카디오, which Koreans don't really use; the native gym term is 유산소. Another particle trap: putting 만 in the wrong slot, e.g. 오늘만 유산소 할 거예요 means 'only today (and never again) I'll do cardio', a totally different meaning from 오늘은 유산소만 ('today I'll do only cardio'). Keep 만 attached to 유산소 to limit the activity, not the day."
+        "t": "Two traps: (1) saying 카디오 — Koreans don't use this loanword; the correct gym term is 유산소(운동). (2) placing 만 on the wrong word: 오늘만 유산소 할 거예요 = 'only on today (uniquely) I'll do cardio' — a very different meaning. Attach 만 to 유산소 to limit the activity."
       }
     ],
     "mistakes": [
-      ["Saying 카디오 instead of 유산소.", "Koreans use the Sino-Korean 유산소(운동) for cardio, not the English loanword 카디오. Say 유산소 할게요."],
-      ["Misplacing 만 as 오늘만 유산소 할 거예요.", "오늘만 = 'only today (uniquely)'. To mean 'today I'll do only cardio', attach 만 to the activity: 오늘은 유산소만 할 거예요."],
-      ["Confusing 유산소 with 근력/웨이트.", "유산소 is cardio; lifting is 근력 운동 or 웨이트. Telling a trainer 유산소 할게요 when you want to lift will send you to the treadmill."]
+      "Saying 카디오 instead of 유산소. Koreans use the Sino-Korean 유산소(운동) for cardio, not the English loanword 카디오. Say 유산소 할게요.",
+      "Misplacing 만 as 오늘만 유산소 할 거예요. 오늘만 = 'only today (uniquely)'. To mean 'today I'll do only cardio', attach 만 to the activity: 오늘은 유산소만 할 거예요.",
+      "Confusing 유산소 with 근력/웨이트. 유산소 is cardio; lifting is 근력 운동 or 웨이트. Telling a trainer 유산소 할게요 when you want to lift will send you to the treadmill."
     ]
   },
   {
@@ -182,36 +206,47 @@
     "usage": [
       ["스트레칭 먼저 하고 할게요", "I'll stretch first, then go", "Polite; telling a trainer your warm-up plan"],
       ["스트레칭 먼저 하고 할게", "I'll stretch first", "반말, to a friend"],
-      ["몸 좀 풀고 시작할게요", "Let me loosen up, then start", "몸을 풀다 ('to loosen the body') = warm up"],
+      ["몸 좀 풀고 시작할게요", "Let me loosen up, then start", "몸을 풀다 ('to loosen the body') is the native warm-up idiom"],
       ["준비운동부터 할게요", "I'll start with a warm-up", "준비운동 ('warm-up exercise') as the formal term"]
     ],
     "examples": [
-      ["스트레칭 먼저 하고 할게요.", "I'll stretch first, then start.", "Said before jumping into the main workout"],
-      ["허리가 좀 뻐근해서 스트레칭 먼저 하고 할게요.", "My back's a bit stiff, so I'll stretch first.", "뻐근하다 ('stiff/tight') explains why you warm up"],
-      ["가볍게 몸 좀 풀고 본운동 시작할게요.", "I'll loosen up lightly, then start the main workout.", "본운동 ('main workout') contrasts with the warm-up"]
+      ["스트레칭 먼저 하고 할게요.", "I'll stretch first, then start.", "Said before a heavy set — -ㄹ게요 frames it as a courteous heads-up to the trainer"],
+      ["허리가 좀 뻐근해서 스트레칭 먼저 하고 할게요.", "My back's a bit stiff, so I'll stretch first.", "뻐근하다 ('stiff/tight') is the exact word for that tight pre-workout feeling"],
+      ["A: 시작할까요? / B: 잠깐만요, 몸 좀 풀고 시작할게요.", "A: Shall we start? / B: One moment — let me loosen up first.", "Real trainer-client exchange; 잠깐만요 buys time before the session begins"]
     ],
-    "nuance": "스트레칭 먼저 하고 할게요 is 스트레칭 ('stretching', loanword) + 먼저 ('first') + 하고 ('do, and then…') + 할게요 ('I'll do'). The grammar hinge is -고, the connective meaning 'and then' in sequence: A 하고 B = 'do A, then B'. A very natural Korean alternative to 스트레칭 is the idiom 몸을 풀다 — literally 'to loosen/untie the body', meaning to warm up; Koreans say 몸 좀 풀고 ('after loosening up') constantly. The dividing line: 스트레칭 is the specific stretching motion, while 몸을 풀다 / 준비운동 covers the whole warm-up including light cardio — use 몸 풀다 for the general idea. The English-speaker pitfall is the 직역 of 'warm up' as 따뜻하게 하다 ('to make warm'), which is nonsense in this context; warming up the body is 몸을 풀다 or 준비운동(을) 하다. Another trap: the second 할게요 ('I'll do [it]') refers back to the main workout — learners sometimes leave the sentence dangling without the follow-on verb, so it's clearer to name it: 스트레칭 먼저 하고 운동 시작할게요. Also note -ㄹ게요 here signals YOUR own plan as a courteous heads-up, which is exactly the right register with a trainer.",
+    "nuance": "스트레칭 먼저 하고 할게요 is 스트레칭 ('stretching', loanword) + 먼저 ('first') + 하고 (connective 'do A, then…') + 할게요 ('I'll do [it]'). The grammar hinge is -고: V하고 chains actions in sequence — 스트레칭 하고 운동 시작하다 = 'stretch, then start working out'. Don't use 그리고 to chain two actions within one flow; -고 is the within-sentence connector. The native Korean equivalent of warming up is the idiom 몸을 풀다 — literally 'to untie/loosen the body' — and Koreans use it constantly: 몸 좀 풀고 시작할게요. The scope difference: 스트레칭 is the specific act of stretching your muscles; 몸을 풀다 / 준비운동 covers any warm-up including light jogging or joint mobility work. -ㄹ게요 is the right ender because you're announcing YOUR own plan as a heads-up, not giving the trainer an instruction. The English-speaker pitfall is the 직역 of 'warm up' as 따뜻하게 하다 ('to heat/warm something up'), which is meaningless in a gym context — warm-up here is 몸을 풀다 or 준비운동을 하다. Also, 본운동 ('main workout') is the gym term for the core session that follows warm-up.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "스트레칭 ('stretching', loanword) + 먼저 ('first') + 하고 ('do, and then…') + 할게요 ('I'll do'). The grammar hinge is -고, the connective meaning 'and then' in sequence: A 하고 B = 'do A, then B'. -ㄹ게요 here signals YOUR own plan as a courteous heads-up, which is exactly the right register with a trainer. A very natural Korean alternative to 스트레칭 is the idiom 몸을 풀다 — literally 'to loosen/untie the body', meaning to warm up; Koreans say 몸 좀 풀고 ('after loosening up') constantly."
+        "t": "스트레칭 ('stretching') + 먼저 ('first') + 하고 ('do and then') + 할게요 ('I'll do it'). The -고 chains the actions in sequence; -ㄹ게요 announces YOUR plan as a courteous heads-up. Literal: 'I'll do stretching first, then do [the main workout].' The native warm-up idiom is 몸을 풀다 ('to loosen/untie the body')."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; said to a trainer or buddy before a session. 반말: 스트레칭 먼저 하고 할게. -ㄹ게요 is exactly the right ending here — it's a heads-up ('I'll do this, for your info'), not a command. The whole utterance says: 'FYI I'm warming up first before we go into the main stuff.'"
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: 스트레칭 is the specific stretching motion, while 몸을 풀다 / 준비운동 covers the whole warm-up including light cardio — use 몸 풀다 for the general idea."
+        "t": "스트레칭 = specifically stretching muscles; 몸을 풀다 / 준비운동 = any warm-up (light jog, joint mobility, stretching). Use 몸 풀다 for the general idea. The follow-on term is 본운동 ('main workout') — 몸 풀고 본운동 시작할게요 ('loosen up then start the main session')."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "더 가볍게: 잠깐 몸만 풀게요 ('I'll just do a quick warm-up') / 더 격식체: 준비운동부터 하겠습니다. After warming up: 이제 본운동 시작할게요. Stiffness triggers: 허리가 뻐근하다 / 몸이 굳었다 ('my body is stiff').",
+        "chips": ["몸 좀 풀고 시작할게요", "준비운동부터 할게요", "이제 본운동 시작할게요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The 직역 of 'warm up' as 따뜻하게 하다 ('to make warm') is nonsense in this context; warming up the body is 몸을 풀다 or 준비운동(을) 하다. Another trap: the second 할게요 ('I'll do [it]') refers back to the main workout — learners sometimes leave the sentence dangling without the follow-on verb, so it's clearer to name it: 스트레칭 먼저 하고 운동 시작할게요."
+        "t": "Two traps: (1) translating 'warm up' as 따뜻하게 하다 ('to heat something up') — that's nonsense in this context; warming up the body is 몸을 풀다 or 준비운동(을) 하다. (2) using 그리고 to chain the actions: 스트레칭 해요 그리고 할게요 sounds like two separate sentences; use the connective -고 within one sentence."
       }
     ],
     "mistakes": [
-      ["Translating 'warm up' as 따뜻하게 하다.", "That means 'to make (something) warm'. Warming up the body is 몸을 풀다 or 준비운동을 하다."],
-      ["Using 그리고 instead of -고 to chain the actions.", "그리고 ('and') links separate sentences; within one flow use the connective -고: 스트레칭 하고 할게요, not 스트레칭 해요 그리고…"],
-      ["Leaving 할게요 with no clear object.", "The trailing 할게요 needs to point at the main workout. Make it explicit: 스트레칭 먼저 하고 운동(을) 할게요."]
+      "Translating 'warm up' as 따뜻하게 하다. That means 'to heat/warm something (physically)'. Warming up your body before exercise is 몸을 풀다 or 준비운동을 하다.",
+      "Using 그리고 instead of -고 to chain the actions. 그리고 ('and') links separate sentences; within one sequential flow use the connective -고: 스트레칭 하고 할게요, not 스트레칭 해요 그리고 할게요.",
+      "Leaving 할게요 with no clear object. The trailing 할게요 refers to the main workout. Make it explicit so it's clear: 스트레칭 먼저 하고 운동(을) 할게요."
     ]
   },
   {
@@ -222,40 +257,46 @@
       ["이 기구 어떻게 쓰는 거예요?", "How do you use this machine?", "Polite; asking a trainer about equipment"],
       ["이거 어떻게 쓰는 거야?", "How do you use this?", "반말, asking a friend"],
       ["이 기구 사용법 좀 알려 주세요", "Please show me how to use this", "사용법 ('usage method') + 알려 주세요 to request a demo"],
-      ["이거 자세 이게 맞아요?", "Is this the right form?", "Checking your posture once you're on it"]
+      ["이 자세 맞아요?", "Is this the right form?", "Checking your posture once you're already on the machine"]
     ],
     "examples": [
-      ["이 기구 어떻게 쓰는 거예요?", "How do you use this machine?", "Pointing at a weight machine you don't know"],
-      ["저기요, 이 기구 어떻게 쓰는 거예요? 처음 써 봐서요.", "Excuse me, how do I use this? It's my first time.", "처음 써 보다 ('first time trying') invites a full demo"],
-      ["이 기구 어디 근육 운동이에요? 어떻게 쓰는 거예요?", "What muscle does this work? How do I use it?", "Ask the target muscle and the method together"]
+      ["이 기구 어떻게 쓰는 거예요?", "How do you use this machine?", "Pointing at an unfamiliar weight machine — gesture + question covers the ambiguity"],
+      ["저기요, 이 기구 어떻게 쓰는 거예요? 처음 써 봐서요.", "Excuse me, how do I use this? It's my first time.", "처음 써 보다 ('first time trying') naturally invites the trainer to give a full demo"],
+      ["A: 이 기구 어떻게 쓰는 거예요? / B: 이렇게 등받이 조절하고 여기 잡고 당기면 돼요.", "A: How do I use this machine? / B: Adjust the backrest like this, grip here, and pull.", "Real equipment-demo exchange — the answer always involves a physical demo"]
     ],
-    "nuance": "이 기구 어떻게 쓰는 거예요? is 이 ('this') + 기구 ('apparatus/equipment', Sino-Korean 器具) + 어떻게 ('how') + 쓰는 거예요 ('is the way of using'). The natural gym word for a weight/exercise machine is 기구 or 운동 기구; 머신 (the loanword 'machine') is heard among hardcore lifters but 기구 is the safe everyday term. The grammar to notice is -는 거예요, the '-는 것이에요' pattern that turns 'use' into 'the act/way of using' and makes the question sound like a genuine 'how is this done?' rather than a blunt command. English speakers often produce the flat 어떻게 써요? ('how do you use it?'), which is fine but a touch more abrupt; the -는 거예요 framing is softer and very common when you want someone to explain. The verb is 쓰다 ('to use') — careful, 쓰다 also means 'to write' and 'to be bitter', so context carries it. The English-speaker pitfall is the 직역 'use this machine' → 이 기계를 사용하다 with the stiff Sino verb 사용하다 in casual speech — 사용하다 is fine in writing, but spoken Korean prefers 쓰다. Another trap: 기구 vs 기계 — 기계 is a 'machine' in the industrial sense (engines, factory machines), while gym equipment is 기구; calling a leg-press a 기계 sounds slightly off.",
+    "nuance": "이 기구 어떻게 쓰는 거예요? is 이 ('this') + 기구 (Sino-Korean 器具, 'apparatus/equipment') + 어떻게 ('how') + 쓰는 거예요 ('-는 것이에요', 'the way of using'). The grammar pattern -는 거예요 turns the action 'use' into 'the way/act of using it', making the question sound like a genuine 'how does this work?' rather than an abrupt command. A flatter alternative is 어떻게 써요? — grammatically fine but a touch more blunt; the -는 거예요 framing is softer and more common when you want someone to explain. Key vocabulary: gym equipment is 기구 or 운동 기구; the loanword 머신 is heard among dedicated lifters but 기구 is safer. Never say 기계 for gym equipment — 기계 (機械) is industrial machinery (engines, factory). The verb is 쓰다 ('to use') — remember it also means 'to write' and 'to be bitter', so context disambiguates. The English-speaker pitfall is reaching for the formal Sino verb 사용하다 in speech: 어떻게 사용해요? is understandable but bookish — conversational Korean prefers 쓰다. You can also ask the muscle targeted: 이 기구 어디 근육 운동이에요? ('what muscle does this work?').",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "이 ('this') + 기구 ('apparatus/equipment') + 어떻게 ('how') + 쓰는 거예요 ('is the way of using'). The natural gym word for a weight/exercise machine is 기구 or 운동 기구; 머신 (the loanword 'machine') is heard among hardcore lifters but 기구 is the safe everyday term. The grammar to notice is -는 거예요, the '-는 것이에요' pattern that turns 'use' into 'the act/way of using' and makes the question sound like a genuine 'how is this done?' rather than a blunt command — softer and very common when you want someone to explain. The verb is 쓰다 ('to use') — careful, 쓰다 also means 'to write' and 'to be bitter', so context carries it."
+        "t": "이 ('this') + 기구 (器具, 'apparatus') + 어떻게 ('how') + 쓰는 거예요 ('is the way of using'). The -는 거예요 pattern turns the verb into a noun-like explanation-request: 'how is this thing used?' — softer than the bare 어떻게 써요? The verb 쓰다 = 'to use' (also: to write, to be bitter — context resolves)."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite-neutral; directed at any trainer or gym floor staff. 반말 to a friend: 이거 어떻게 쓰는 거야? Always gesture at the machine when asking — without pointing, 어떻게 쓰는 거예요 is ambiguous. The more direct request for a demo: 이 기구 사용법 좀 알려 주세요."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "English speakers often produce the flat 어떻게 써요? ('how do you use it?'), which is fine but a touch more abrupt than the -는 거예요 framing. Another contrast: 기구 vs 기계 — 기계 is a 'machine' in the industrial sense (engines, factory machines), while gym equipment is 기구; calling a leg-press a 기계 sounds slightly off."
+        "t": "어떻게 쓰는 거예요? (explanation-seeking, softer) vs 어떻게 써요? (direct how-to, slightly blunter). 기구 (gym equipment, 器具) vs 기계 (industrial machine, 機械) — a leg press is 기구, a factory engine is 기계. The loanword 머신 is used by gym insiders but 기구 is always safe."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "기구 ('apparatus/equipment') is Sino-Korean 器具."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Upgrade to a demo request: 이 기구 사용법 좀 알려 주세요. Ask the target muscle: 이 기구 어디 근육 운동이에요? Check form while on it: 이 자세 맞아요? / 허리 안 굽었어요?",
+        "chips": ["이 기구 사용법 좀 알려 주세요", "이 기구 어디 근육 운동이에요?", "이 자세 맞아요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The 직역 'use this machine' → 이 기계를 사용하다 with the stiff Sino verb 사용하다 in casual speech — 사용하다 is fine in writing, but spoken Korean prefers 쓰다."
+        "t": "Two traps: (1) using 기계 for gym equipment — 기계 is industrial machinery; gym equipment is 기구. (2) using the formal 사용하다 in casual speech: 어떻게 사용해요? is bookish; conversational Korean prefers 쓰다: 어떻게 쓰는 거예요?"
       }
     ],
     "mistakes": [
-      ["Calling gym equipment 기계.", "기계 is an industrial/mechanical machine. Exercise equipment is 기구 or 운동 기구: 이 기구 어떻게 써요?"],
-      ["Over-using 사용하다 in speech.", "사용하다 is bookish. Spoken Korean uses 쓰다: 이거 어떻게 쓰는 거예요?, not 어떻게 사용해요? in a casual gym chat."],
-      ["Dropping 이/이거 so it's unclear what you mean.", "Without pointing, 어떻게 쓰는 거예요 is ambiguous. Gesture and say 이 기구 / 이거 to specify the machine."]
+      "Calling gym equipment 기계. 기계 (機械) is an industrial or mechanical machine. Exercise equipment is 기구 (器具) or 운동 기구: 이 기구 어떻게 써요?",
+      "Over-using 사용하다 in casual speech. 사용하다 is formal/written. Spoken Korean uses 쓰다: 이거 어떻게 쓰는 거예요?, not 어떻게 사용해요? at the gym.",
+      "Dropping 이/이거 so it's unclear what you're asking about. Without a pointer, 어떻게 쓰는 거예요 is ambiguous. Gesture and say 이 기구 / 이거 to make the machine clear."
     ]
   },
   {
@@ -263,38 +304,49 @@
     "english": "I'd like to try some personal training",
     "topic": "health",
     "usage": [
-      ["PT 받아 보고 싶은데요", "I'd like to try PT", "Polite; expressing interest in personal training"],
+      ["PT 받아 보고 싶은데요", "I'd like to try PT", "Polite; expressing interest in personal training at the desk"],
       ["나 피티 받아 볼까 봐", "I'm thinking of trying PT", "반말, musing to a friend"],
-      ["PT 상담 좀 받을 수 있어요?", "Can I get a PT consultation?", "상담 ('consultation') to ask about it first"],
-      ["개인 레슨 받고 싶어요", "I want personal lessons", "개인 ('individual/personal') makes it explicit"]
+      ["PT 상담 좀 받을 수 있어요?", "Can I get a PT consultation?", "상담 ('consultation') to ask about pricing/structure first"],
+      ["개인 레슨 받고 싶어요", "I want personal lessons", "개인 ('individual/personal') frames it more explicitly"]
     ],
     "examples": [
-      ["PT 받아 보고 싶은데요.", "I'd like to try personal training.", "Said at the desk to express interest"],
-      ["혼자 하니까 잘 안 돼서 PT 받아 보고 싶은데요.", "Working out alone isn't working, so I'd like to try PT.", "혼자 하다 ('do it alone') gives the reason"],
-      ["PT 한 번 체험으로 받아 볼 수 있어요?", "Can I try one PT session as a trial?", "체험 ('trial') asks for a single sample session"]
+      ["PT 받아 보고 싶은데요.", "I'd like to try personal training.", "Said at the front desk to express interest — -는데요 invites staff to respond with options"],
+      ["혼자 하니까 잘 안 돼서 PT 받아 보고 싶은데요.", "Working out alone isn't working, so I'd like to try PT.", "혼자 하다 ('do it alone') gives the natural reason — staff hear this constantly"],
+      ["A: PT 받아 보고 싶은데요. 체험 가능해요? / B: 네, 1회 체험 수업이 있어요.", "A: I'd like to try PT. Is a trial session possible? / B: Yes, we have a one-session trial.", "Pair the interest with 체험 가능해요 to ask directly for a trial"]
     ],
-    "nuance": "PT 받아 보고 싶은데요 is PT (an English initialism for 'personal training' that Koreans say as 피티, fully read 퍼스널 트레이닝) + 받다 ('to receive') + -아 보다 ('to try doing') + -고 싶다 ('want to') + -는데요 (soft, inviting ender). Two crucial points: first, the verb for taking a lesson/training/treatment is 받다 ('to receive'), NOT 하다 — you 받다 PT just as you 받다 마사지 (a massage) or 받다 수업 (a class); English speakers wrongly say PT 하다, which sounds like YOU are the one providing the training. Second, -아 보다 adds 'give it a try', so 받아 보다 = 'try receiving (it)', which softens the commitment — perfect when you're testing the waters. The trailing -는데요 again signals 'I'm thinking…, what do you say?', inviting the staff to respond. The dividing line: PT 받다 = take personal training; PT 하다 would (wrongly) imply coaching others. The English-speaker pitfall, beyond 하다, is over-formalizing with 개인 트레이닝을 받고 싶습니다 — correct but stiff; in a gym 피티 받아 보고 싶은데요 is the natural register. Also distinguish 상담 ('consultation', a sit-down chat) from 체험 ('a trial session you actually do').",
+    "nuance": "PT 받아 보고 싶은데요 is PT (read 피티 in Korean, short for personal training) + 받다 ('to receive') + -아 보다 ('to try doing') + -고 싶다 ('want to') + -는데요 (soft inviting ender). The critical verb is 받다: in Korean you receive a lesson, a massage, training, medical treatment — you never 하다 a service someone else provides to you. PT 하고 싶어요 sounds like YOU are the trainer about to coach someone. The -아 보다 adds the nuance 'give it a try/see how it goes', making 받아 보다 = 'try getting (training)' — exactly right when you're exploring rather than committing. The trailing -는데요 is the soft, open-ended ender that signals 'I'm in this state of mind… what can you offer?' — much more natural than the blunt PT 받고 싶습니다. Practical distinction: 상담 is a sit-down consultation (talking about cost and structure); 체험 is an actual trial session (you physically do it). Ask 상담 받을 수 있어요? to find out about pricing, and 체험 수업 있어요? to actually try it. The English-speaker's biggest error is using 하다 instead of 받다 for receiving services.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "PT (an English initialism for 'personal training' that Koreans say as 피티, fully read 퍼스널 트레이닝) + 받다 ('to receive') + -아 보다 ('to try doing') + -고 싶다 ('want to') + -는데요 (soft, inviting ender). The verb for taking a lesson/training/treatment is 받다 ('to receive'), NOT 하다 — you 받다 PT just as you 받다 마사지 (a massage) or 받다 수업 (a class). -아 보다 adds 'give it a try', so 받아 보다 = 'try receiving (it)', which softens the commitment — perfect when you're testing the waters. The trailing -는데요 signals 'I'm thinking…, what do you say?', inviting the staff to respond."
+        "t": "PT (피티, personal training) + 받다 ('to receive') + -아 보다 ('try doing') + -고 싶다 ('want to') + -는데요 (soft open ender). Literal: 'I'd like to try receiving personal training.' The -는데요 invites the staff to respond with what's available — it's not a full sentence, it's an opener."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; said at the front desk or to a trainer directly. 반말 to a friend: 나 피티 받아 볼까 봐. The -는데요 ender is specifically right here — avoid the stiff 받고 싶습니다 unless writing a formal inquiry. Social note: approach any trainer; they usually commission on PT sales and are very happy to talk."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: PT 받다 = take personal training; PT 하다 would (wrongly) imply coaching others. Also distinguish 상담 ('consultation', a sit-down chat) from 체험 ('a trial session you actually do')."
+        "t": "PT 받아 보고 싶은데요 (expressing interest, soft) vs PT 받고 싶어요 (firmer want) vs PT 신청하고 싶어요 ('I want to apply/sign up for PT', most committed). Also: 상담 받다 (talk about it) vs 체험하다 (actually try a session) — don't conflate them."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Softer: PT 상담 좀 받을 수 있어요? (can I get info first?) / Firmer: PT 등록하고 싶어요 (I want to sign up). For a trial: PT 체험 수업 있어요? / 1회 체험 가능해요? After committing: 트레이너 배정은 어떻게 돼요? ('how does trainer assignment work?').",
+        "chips": ["PT 상담 좀 받을 수 있어요?", "PT 체험 수업 있어요?", "PT 등록하고 싶어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers wrongly say PT 하다, which sounds like YOU are the one providing the training — use 받다. Beyond that, over-formalizing with 개인 트레이닝을 받고 싶습니다 is correct but stiff; in a gym 피티 받아 보고 싶은데요 is the natural register."
+        "t": "The biggest trap: PT 하고 싶어요 sounds like YOU are going to coach someone — you receive a service with 받다, not 하다. A secondary trap: saying 개인 트레이닝을 받고 싶습니다 — correct but stiff; 피티 받아 보고 싶은데요 is the natural spoken register."
       }
     ],
     "mistakes": [
-      ["Saying PT 하고 싶어요.", "하다 makes it sound like you'll be the trainer. You receive training: PT 받고 싶어요 / 받아 보고 싶어요."],
-      ["Using 가르치다 to mean 'be taught'.", "가르치다 is 'to teach (someone)'. To be taught/trained, use 배우다 ('learn') or 받다 (for PT/lessons): PT 받다, 수업 받다."],
-      ["Confusing 상담 and 체험.", "상담 is a consultation (talking about it); 체험 is a trial session (actually doing it). Ask 상담 받을 수 있어요? to chat, 체험 가능해요? to try."]
+      "Saying PT 하고 싶어요. 하다 makes it sound like you'll be the trainer. You receive training: PT 받고 싶어요 / 받아 보고 싶어요.",
+      "Using 가르치다 to mean 'be taught'. 가르치다 is 'to teach (someone)'. To be trained/taught, use 배우다 ('learn') or 받다 (for PT/lessons): PT 받다, 수업 받다.",
+      "Confusing 상담 and 체험. 상담 is a consultation (talking about it); 체험 is a trial session (actually doing it). Ask 상담 받을 수 있어요? to chat about pricing, 체험 가능해요? to try."
     ]
   },
   {
@@ -303,37 +355,48 @@
     "topic": "health",
     "usage": [
       ["운동한 지 얼마나 되셨어요?", "How long have you been working out?", "Polite-honorific; asking a trainer or older gym-goer"],
-      ["운동한 지 얼마나 됐어?", "How long have you worked out?", "반말, to a friend"],
+      ["운동한 지 얼마나 됐어?", "How long have you worked out?", "반말, asking a workout friend"],
       ["운동 시작한 지 얼마나 되셨어요?", "How long since you started exercising?", "시작하다 ('start') makes the starting point explicit"],
       ["헬스 한 지 오래되셨어요?", "Have you been going to the gym for a long time?", "헬스 하다 ('do the gym') as the casual phrasing"]
     ],
     "examples": [
-      ["운동한 지 얼마나 되셨어요?", "How long have you been working out?", "Small talk with a regular or your trainer"],
-      ["몸 좋으시네요. 운동한 지 얼마나 되셨어요?", "You're in great shape — how long have you been at it?", "몸 좋다 ('be in good shape') as a friendly opener"],
-      ["저는 한 달 됐어요. 운동한 지 얼마나 되셨어요?", "I'm one month in. How long for you?", "Share your own duration first, then ask back"]
+      ["몸이 정말 좋으시네요. 운동한 지 얼마나 되셨어요?", "You're in great shape — how long have you been working out?", "몸이 좋다 ('be in good shape') as a genuine compliment opener"],
+      ["저는 딱 한 달 됐어요. 운동한 지 얼마나 되셨어요?", "I'm exactly one month in. How long have you been at it?", "Share your own duration first with 됐어요, then ask back"],
+      ["A: 운동한 지 얼마나 되셨어요? / B: 한 3년 됐어요. 꾸준히 해 왔어요.", "A: How long have you been working out? / B: About three years. I've kept at it consistently.", "Real small-talk exchange; 꾸준히 ('consistently') is the key adverb gym veterans use"]
     ],
-    "nuance": "운동한 지 얼마나 되셨어요? is 운동하다 ('to exercise') in the past-modifier 운동한 + 지 (a bound noun marking elapsed time SINCE an action) + 얼마나 ('how much/long') + 되셨어요 (honorific 되다 'to become', + -시- honorific + past). The make-or-break grammar is the 지 of duration: V-(으)ㄴ 지 + 되다 = 'it has become [time] since V-ing'. Learners constantly confuse this 지 with the connective -지 of 운동하지 않다 ('don't exercise') — totally different; the duration 지 is a noun, spaced separately (한 지), and always pairs with 되다/지나다. The honorific 되셨어요 (with -시-) is right when asking someone you respect — a trainer, an older member; drop to 됐어요 with a peer. The dividing line from 얼마나 운동했어요? ('how much did you exercise?') is meaning: 운동한 지 얼마나 되셨어요 asks the TIME ELAPSED since you started the habit, while 얼마나 운동했어요 asks the AMOUNT/length of a workout. The English-speaker pitfall is the 직역 'since' as 부터 — 운동부터… is wrong here; elapsed-time 'since' is the 지 + 되다 construction. Also remember to answer with 되다 too: 한 달 됐어요 ('it's been a month'), not 한 달 했어요.",
+    "nuance": "운동한 지 얼마나 되셨어요? is 운동하다 ('to exercise') in the past-modifier form 운동한 + 지 (bound noun marking elapsed time since an action) + 얼마나 ('how much/long') + 되셨어요 (honorific 되다 'become', past). The grammar is the 지 of elapsed duration: V-(으)ㄴ 지 + 되다/지나다 = 'it has been [time] since doing V'. This 지 is a noun spaced separately from the verb stem (운동한 지), and it always pairs with 되다 or 지나다 — never with 하다. Learners constantly confuse it with the negative connective -지 of 운동하지 않다 ('not exercise'), where -지 is a grammar suffix attached to the stem. The honorific -시- in 되셨어요 is correct when asking someone you respect — a trainer, an older member. Peers: 됐어요, friends: 됐어? The dividing line from 얼마나 운동했어요?: that asks the amount/length of a recent session ('how much did you work out today?'), not the duration of your habit. The answer must also use 되다: 한 달 됐어요 ('it's been a month'), NOT 한 달 했어요 ('I did one month of it').",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "운동하다 ('to exercise') in the past-modifier 운동한 + 지 (a bound noun marking elapsed time SINCE an action) + 얼마나 ('how much/long') + 되셨어요 (honorific 되다 'to become', + -시- honorific + past). The make-or-break grammar is the 지 of duration: V-(으)ㄴ 지 + 되다 = 'it has become [time] since V-ing'. The honorific 되셨어요 (with -시-) is right when asking someone you respect — a trainer, an older member; drop to 됐어요 with a peer."
+        "t": "운동한 ('having exercised', past modifier) + 지 (bound noun: elapsed time since) + 얼마나 ('how long') + 되셨어요 (honorific 되다, past). Literal: 'How long has it become since you exercised (started)?' The 지 + 되다 construction is THE Korean way to ask elapsed duration."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "되셨어요 (with honorific -시-) is right for a trainer, a senior member, or anyone you show respect to. Peers: 됐어요. Friends (반말): 됐어? Social context: this is gym small-talk gold — asking someone who looks fit, right after a set, is natural and flattering."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line from 얼마나 운동했어요? ('how much did you exercise?') is meaning: 운동한 지 얼마나 되셨어요 asks the TIME ELAPSED since you started the habit, while 얼마나 운동했어요 asks the AMOUNT/length of a workout."
+        "t": "운동한 지 얼마나 되셨어요 (how long as a habit, elapsed since you started) vs 얼마나 운동했어요 (how much did you work out — amount/length of a session). The 지 + 되다 frame always points to the START of a habit and asks how much time has passed since then."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "More specific: 헬스 시작한 지 얼마나 되셨어요? / 운동 경력이 어떻게 되세요? ('what's your training background?'). The answer pattern: 한 달 됐어요 / 두 달 됐어요 / 한 3년 됐어요. Follow-up: 어떻게 관리하세요? ('how do you maintain it?').",
+        "chips": ["헬스 시작한 지 얼마나 되셨어요?", "운동 경력이 어떻게 되세요?", "한 달 됐어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "Learners constantly confuse the duration 지 with the connective -지 of 운동하지 않다 ('don't exercise') — totally different; the duration 지 is a noun, spaced separately (한 지), and always pairs with 되다/지나다. Also the 직역 'since' as 부터 — 운동부터… is wrong here; elapsed-time 'since' is the 지 + 되다 construction. And remember to answer with 되다 too: 한 달 됐어요 ('it's been a month'), not 한 달 했어요."
+        "t": "Two traps: (1) confusing elapsed-time 지 (spaced, bound noun: 운동한 지) with negative-connective -지 (attached, grammar suffix: 운동하지 않다). (2) answering with 했어요 — 한 달 했어요 sounds like 'I did one month of it (as a task)'; elapsed time uses 되다: 한 달 됐어요."
       }
     ],
     "mistakes": [
-      ["Confusing duration 지 with negative -지.", "V-(으)ㄴ 지 (spaced, a noun) = 'since doing'; V-지 않다 (attached) = negation. 운동한 지 됐어요 (elapsed) vs 운동하지 않아요 (don't do)."],
-      ["Saying 운동부터 얼마나 됐어요 for 'since'.", "부터 marks a starting point in a range, not elapsed time. Use the 지 + 되다 pattern: 운동한 지 얼마나 됐어요?"],
-      ["Answering with 했어요 instead of 됐어요.", "Duration answers use 되다: 한 달 됐어요 ('it's been a month'). 한 달 했어요 sounds like 'I did one month (of something)'."]
+      "Confusing duration 지 with negative -지. V-(으)ㄴ 지 (spaced, a bound noun) = 'since doing V'; V-지 않다 (attached) = negation. 운동한 지 됐어요 (elapsed time) vs 운동하지 않아요 (don't do it).",
+      "Saying 운동부터 얼마나 됐어요 for 'since'. 부터 marks a starting point in a range, not elapsed time. Use the 지 + 되다 pattern: 운동한 지 얼마나 됐어요?",
+      "Answering with 했어요 instead of 됐어요. Duration answers use 되다: 한 달 됐어요 ('it's been a month'). 한 달 했어요 sounds like 'I did one month (of some task)'."
     ]
   },
   {
@@ -341,43 +404,49 @@
     "english": "My muscle soreness is really bad",
     "topic": "health",
     "usage": [
-      ["근육통이 너무 심해요", "My muscles are really sore", "Polite; describing post-workout soreness"],
+      ["근육통이 너무 심해요", "My muscles are really sore", "Polite; describing post-workout soreness to a trainer or friend"],
       ["근육통 너무 심해", "I'm so sore", "반말, complaining to a friend"],
-      ["알이 제대로 배겼어요", "I'm super sore (muscles knotted up)", "알이 배기다, the colloquial idiom for soreness"],
+      ["알이 제대로 배겼어요", "I'm super sore (muscles knotted up)", "알이 배기다, the colloquial everyday idiom for DOMS"],
       ["온몸이 다 쑤셔요", "My whole body aches", "쑤시다 ('to ache/throb') for all-over soreness"]
     ],
     "examples": [
-      ["어제 운동했더니 근육통이 너무 심해요.", "I worked out yesterday and now I'm so sore.", "-더니 ('and as a result') links cause to the soreness"],
-      ["다리에 알 배겨서 계단도 못 내려가겠어요.", "My legs are so sore I can barely go down stairs.", "알 배기다 + a vivid consequence makes it natural"],
-      ["근육통 심할 때는 좀 쉬는 게 나아요?", "When the soreness is bad, is it better to rest?", "Ask the trainer for advice using 심하다 ('be severe')"]
+      ["어제 운동했더니 근육통이 너무 심해요.", "I worked out yesterday and now I'm so sore.", "-더니 ('and as a result') naturally links yesterday's workout to today's soreness"],
+      ["A: 오늘 운동 왜 안 해? / B: 다리에 알 배겨서 계단도 못 내려가겠어.", "A: Why aren't you working out today? / B: My legs are so sore I can barely go downstairs.", "알 배기다 + a concrete consequence (stairs) makes the soreness vivid and real"],
+      ["근육통 심할 때는 좀 쉬는 게 나아요?", "When the soreness is bad, is it better to rest?", "Ask the trainer for advice — 심하다 ('be severe') is the right adjective for intensity"]
     ],
-    "nuance": "근육통이 너무 심해요 is 근육통 ('muscle pain' = 근육 'muscle' + 통 '-ache', Sino-Korean 筋肉痛) + 이 (subject particle) + 너무 ('too/really') + 심하다 ('to be severe') conjugated 심해요. Pedagogically the most useful thing here is the everyday idiom Koreans actually use for post-exercise soreness: 알이 배기다 — literally 'eggs/knots form (in the muscle)', meaning DOMS, that stiff next-day ache. 근육통 is the clinical word (you'd see it on medicine), while 알 배기다 is what friends say: 다리에 알 배겼어 ('my legs are sore'). The dividing line: 근육통 = the medical noun for muscle ache; 알 배기다 = the colloquial 'I'm sore from working out'. Note the subject particle 이 attaches to 근육통 because the soreness is the subject of 심하다. The English-speaker pitfall is the 직역 of 'sore' as 아프다 ('to hurt/be sick') used too broadly — 아프다 covers general pain or illness, but for the specific gym-soreness Koreans prefer 근육통이 있다 / 알이 배기다 / 쑤시다. Another trap: 너무 in standard grammar means 'too (excessively)', but colloquially it's used like 'really/very' — 너무 심해요 reads as 'it's really bad', which is fine and natural in speech.",
+    "nuance": "근육통이 너무 심해요 is 근육통 (Sino-Korean 筋肉痛, 'muscle pain' = 근육 'muscle' + 통 'ache/pain') + 이 (subject particle) + 너무 ('really/very', colloquially) + 심하다 ('to be severe') conjugated 심해요. The most valuable thing to know is the colloquial idiom Koreans actually use for DOMS: 알이 배기다 — literally 'eggs/knots form (in the muscle)', referring to that hard, knotted next-day soreness. 근육통 is clinical (you see it on medicine labels and in medical contexts), while 알 배기다 is what friends and gym-goers say: 다리에 알 배겼어 ('my legs knotted up', i.e. they're sore). The subject particle 이 attaches to 근육통 because the soreness itself is the grammatical subject of 심하다. The adjective 심하다 ('to be severe') is the right modifier for intensity of pain, illness, or discomfort — 근육통이 심하다, 감기가 심하다. The English-speaker pitfall is using bare 아프다 ('to hurt/be ill') for workout soreness — 아프다 covers general pain or illness, but gym-specific soreness is more precisely 근육통이 있다 / 알이 배기다 / 쑤시다 (throb/ache). Note 너무 is technically 'too/excessively' in standard grammar, but colloquially it functions as 'really/very' — both readings are natural in 너무 심해요.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "근육통 ('muscle pain' = 근육 'muscle' + 통 '-ache') + 이 (subject particle) + 너무 ('too/really') + 심하다 ('to be severe') conjugated 심해요. The subject particle 이 attaches to 근육통 because the soreness is the subject of 심하다. The most useful thing pedagogically is the everyday idiom Koreans actually use for post-exercise soreness: 알이 배기다 — literally 'eggs/knots form (in the muscle)', meaning DOMS, that stiff next-day ache: 다리에 알 배겼어 ('my legs are sore'). Note: 너무 in standard grammar means 'too (excessively)', but colloquially it's used like 'really/very' — 너무 심해요 reads as 'it's really bad', which is fine and natural in speech."
+        "t": "근육통 (筋肉痛, 'muscle ache') + 이 (subject particle) + 너무 ('really/very') + 심해요 ('is severe'). Literal: 'The muscle ache is very severe.' 근육통 is the clinical term; the colloquial DOMS expression is 알이 배기다 ('knots form in the muscle'). 너무 colloquially = 'really', not just 'too/excessively'."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; said to a trainer explaining why you're going light, or to a friend. 반말: 근육통 너무 심해 / 알 배겨 죽겠어. 알이 배기다 is the casual register — use it with friends. 근육통이 심해요 works with a trainer or doctor."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: 근육통 = the medical/clinical noun for muscle ache (you'd see it on medicine); 알 배기다 = the colloquial 'I'm sore from working out', what friends say."
+        "t": "근육통이 심해요 (clinical, formal-ish) vs 알이 배겼어요 (colloquial, friends) vs 온몸이 쑤셔요 (all-over throbbing ache). 아프다 covers general pain/illness — too broad for specific post-workout soreness. Use the specific terms above for gym context."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "근육통 is Sino-Korean 筋肉痛."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Intensity scale: 좀 뻐근해요 (mildly stiff) → 근육통이 심해요 (clinical soreness) → 알이 제대로 배겼어요 ('seriously knotted up') → 움직이기도 힘들어요 ('can barely move'). Location: 다리에 알 배겼어요 / 어깨가 쑤셔요.",
+        "chips": ["좀 뻐근해요", "알이 배겼어요", "온몸이 쑤셔요", "움직이기도 힘들어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The 직역 of 'sore' as 아프다 ('to hurt/be sick') used too broadly — 아프다 covers general pain or illness, but for the specific gym-soreness Koreans prefer 근육통이 있다 / 알이 배기다 / 쑤시다."
+        "t": "Using bare 아파요 for gym soreness is too vague — 아프다 covers illness and general pain. For post-workout soreness be specific: 근육통이 있어요, 알이 배겼어요, or 쑤셔요. Never 부드럽다 for sore — that means 'soft/tender in texture'."
       }
     ],
     "mistakes": [
-      ["Just saying 아파요 for muscle soreness.", "아프다 is general 'hurt/be ill'. For workout soreness be specific: 근육통이 있어요, 알이 배겼어요, or 쑤셔요."],
-      ["Saying 근육 아파요 without the 통.", "The noun for muscle ache is 근육통. 근육 아파요 sounds incomplete; say 근육통이 심해요 or 근육이 쑤셔요."],
-      ["Translating 'sore' as 부드럽다 because of a dictionary.", "부드럽다 means 'soft/tender (texture)', not painful. 'Sore' here is 쑤시다 / 결리다 / 근육통, never 부드럽다."]
+      "Just saying 아파요 for muscle soreness. 아프다 is general 'hurt/be ill'. For workout soreness be specific: 근육통이 있어요, 알이 배겼어요, or 쑤셔요.",
+      "Saying 근육 아파요 without the 통. The noun for muscle ache is 근육통. 근육 아파요 sounds incomplete; say 근육통이 심해요 or 근육이 쑤셔요.",
+      "Translating 'sore' as 부드럽다 from a dictionary. 부드럽다 means 'soft/tender in texture', not painful. 'Sore' here is 쑤시다 / 결리다 / 근육통이 있다, never 부드럽다."
     ]
   },
   {
@@ -391,32 +460,43 @@
       ["오늘은 하체 하는 날이에요?", "Is today a leg day?", "하체 ('lower body') to confirm the focus"]
     ],
     "examples": [
-      ["쌤, 오늘 무슨 운동해요?", "Coach, what are we doing today?", "쌤 (casual for 선생님) is how people address a trainer"],
-      ["오늘 무슨 운동해요? 어제 가슴 했으니까 오늘은 등이에요?", "What today? We did chest yesterday, so back today?", "Reference yesterday's split to anticipate today"],
-      ["오늘 무슨 운동해요? 저 다리가 아직 좀 뻐근해서요.", "What's today? My legs are still a bit stiff.", "Flag lingering soreness so the plan can adjust"]
+      ["쌤, 오늘 무슨 운동해요?", "Coach, what are we doing today?", "쌤 (casual for 선생님) is how people address a PT — NOT 코치"],
+      ["A: 오늘 무슨 운동해요? / B: 오늘은 가슴이랑 삼두 해요.", "A: What are we working on today? / B: Today's chest and triceps.", "Real trainer-client exchange; body part answers (가슴/삼두) are what you'll get"],
+      ["오늘 무슨 운동해요? 저 다리가 아직 좀 뻐근해서요.", "What's today? My legs are still a bit stiff.", "Flag lingering soreness before the session so the trainer can adjust the plan"]
     ],
-    "nuance": "오늘 무슨 운동해요? is 오늘 ('today') + 무슨 ('what kind of') + 운동 ('exercise') + 해요 ('do'). The word to nail is 무슨 vs 어떤 vs 뭐: 무슨 운동 asks 'what (kind of) exercise' expecting a category answer (가슴/등/하체 — chest/back/legs); 어떤 운동 leans toward 'what sort/which' among known options; bare 뭐 운동 is ungrammatical (뭐 can't directly modify a noun like this). Gym culture in Korea is split-routine heavy, so the answer is usually a body part: 부위 ('body part') is the operative noun, and people say 오늘 어디 (부위) 해요? Common parts: 가슴 (chest), 등 (back), 어깨 (shoulders), 하체 (lower body/legs), 팔 (arms), 복근 (abs). The dividing line: 무슨 운동 asks the activity, 어디 (부위) asks the body region — both natural. The English-speaker pitfall is addressing the trainer wrong: a personal trainer is your 트레이너 or, address-wise, 쌤/선생님 — NOT 코치 (used more for sports team coaches) and never by bare name. Another trap: 운동하다 is one word/verb, so don't insert a particle as 운동을 해요 in this quick question — 운동해요 flows better, though 운동을 해요 isn't wrong.",
+    "nuance": "오늘 무슨 운동해요? is 오늘 ('today') + 무슨 ('what kind of') + 운동 ('exercise') + 해요 ('do'). The question word 무슨 is a noun-modifying determiner that asks 'what kind of' — it expects a category answer like a body part (가슴, 등, 하체) or a training type (유산소, 웨이트). Do not replace 무슨 with bare 뭐 in noun position: 뭐 운동해요 is ungrammatical because 뭐 cannot directly modify a noun this way; 무슨 is the correct form. Korean gym culture is heavily split-routine oriented, so the answer is almost always a body part: 부위 ('body part/region') is the operative noun. Common body parts in gym talk: 가슴 (chest), 등 (back), 어깨 (shoulders), 하체/다리 (lower body/legs), 팔 (arms), 복근 (abs). The dividing line: 무슨 운동 asks the TYPE of activity; 어디 (부위) 해요 asks the body REGION — both questions are natural, and the latter is actually more common in split-routine gyms. Social note: address a personal trainer as 쌤 or 선생님 in Korean; 코치 is for sports-team coaches, not gym PTs.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "오늘 ('today') + 무슨 ('what kind of') + 운동 ('exercise') + 해요 ('do'). Gym culture in Korea is split-routine heavy, so the answer is usually a body part: 부위 ('body part') is the operative noun, and people say 오늘 어디 (부위) 해요? Common parts: 가슴 (chest), 등 (back), 어깨 (shoulders), 하체 (lower body/legs), 팔 (arms), 복근 (abs). Note: 운동하다 is one word/verb, so don't insert a particle as 운동을 해요 in this quick question — 운동해요 flows better, though 운동을 해요 isn't wrong."
+        "t": "오늘 ('today') + 무슨 ('what kind of', noun-modifying) + 운동 ('exercise') + 해요 ('do'). Literal: 'Today, what-kind-of exercise do you do?' 무슨 is a determiner — it expects a category answer. In a split-routine gym, the answer is always a body part."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; directed at a trainer or workout partner. 반말: 오늘 뭐 해? Address a trainer as 쌤 or 선생님, not 코치 (which is for sports coaches). This question is the standard session-opener between trainer and client."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The word to nail is 무슨 vs 어떤 vs 뭐: 무슨 운동 asks 'what (kind of) exercise' expecting a category answer (가슴/등/하체); 어떤 운동 leans toward 'what sort/which' among known options; bare 뭐 운동 is ungrammatical (뭐 can't directly modify a noun like this). Also 무슨 운동 asks the activity, while 어디 (부위) asks the body region — both natural."
+        "t": "무슨 운동해요? (what type of workout) vs 어디 부위 해요? (which body part). In split-routine gyms 어디 부위 해요 is arguably more common because the answer is a body region, not a generic activity. Common body parts: 가슴, 등, 어깨, 하체, 팔, 복근."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Body-part confirmation: 오늘은 하체 하는 날이에요? (is it leg day?) / 오늘 가슴 해요? (chest today?). Clarify rest days: 오늘은 쉬는 날이에요? After hearing the plan: 어떤 순서로 해요? ('what order do we do them in?').",
+        "chips": ["어디 부위 해요?", "오늘은 하체 하는 날이에요?", "어떤 순서로 해요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "Addressing the trainer wrong: a personal trainer is your 트레이너 or, address-wise, 쌤/선생님 — NOT 코치 (used more for sports team coaches) and never by bare name."
+        "t": "Two traps: (1) 뭐 운동해요 — 뭐 cannot directly modify a noun; use 무슨: 무슨 운동해요? (2) addressing the trainer as 코치 — that title fits sports-team coaches, not gym PTs; say 쌤 or 선생님."
       }
     ],
     "mistakes": [
-      ["Using 뭐 to modify 운동.", "뭐 can't directly modify a noun. Use 무슨: 무슨 운동해요?, not 뭐 운동해요."],
-      ["Calling a gym trainer 코치.", "코치 fits sports-team coaches. A gym PT is your 트레이너; address them as 쌤 or 선생님."],
-      ["Asking 어디 운동해요 to mean which body part.", "어디 운동해요 sounds like 'where do you exercise (which gym)'. For body part say 어디 부위 해요 or name it: 오늘 하체 해요?"]
+      "Using 뭐 to modify 운동 directly. 뭐 can't directly modify a noun. Use 무슨: 무슨 운동해요?, not 뭐 운동해요.",
+      "Calling a gym trainer 코치. 코치 fits sports-team coaches. A gym PT is your 트레이너; address them as 쌤 or 선생님.",
+      "Asking 어디 운동해요 to mean 'which body part'. 어디 운동해요 sounds like 'where do you exercise (which gym)'. For body part say 어디 부위 해요? or name it directly: 오늘 하체 해요?"
     ]
   },
   {
@@ -424,43 +504,49 @@
     "english": "I'm on a diet these days",
     "topic": "health",
     "usage": [
-      ["요즘 다이어트 중이에요", "I'm dieting these days", "Polite; explaining you're cutting/losing weight"],
+      ["요즘 다이어트 중이에요", "I'm dieting these days", "Polite; explaining you're in weight-loss mode"],
       ["나 요즘 다이어트 중이야", "I'm on a diet right now", "반말, to a friend"],
-      ["살 빼는 중이에요", "I'm trying to lose weight", "살 빼다 ('shed fat/weight') as the plain phrasing"],
-      ["식단 관리 중이에요", "I'm watching my diet", "식단 ('meal plan') stresses controlled eating"]
+      ["살 빼는 중이에요", "I'm trying to lose weight", "살 빼다 ('shed fat/weight') as plain direct phrasing"],
+      ["식단 관리 중이에요", "I'm watching my diet", "식단 ('meal plan') stresses controlled eating habits"]
     ],
     "examples": [
-      ["저 요즘 다이어트 중이에요.", "I'm on a diet these days.", "Explaining why you're declining snacks or beer"],
-      ["다이어트 중이라 저녁은 가볍게 먹어요.", "I'm dieting, so I eat light at dinner.", "-라 ('because') links the diet to the behavior"],
-      ["여름 전에 살 좀 빼려고 다이어트 중이에요.", "I'm dieting to lose a bit before summer.", "살 빼다 + a goal makes the reason concrete"]
+      ["저 요즘 다이어트 중이에요.", "I'm on a diet these days.", "Explaining why you're passing on snacks, drinks, or second helpings"],
+      ["다이어트 중이라 저녁은 가볍게 먹어요.", "I'm dieting, so I eat light at dinner.", "-라 ('because') naturally links the diet to the behavior change"],
+      ["A: 요즘 왜 이렇게 살 빠졌어? / B: 여름 전에 살 좀 빼려고 다이어트 중이에요.", "A: Why have you lost so much weight lately? / B: I'm dieting to slim down before summer.", "Real conversation: compliment on weight loss → explain the goal"]
     ],
-    "nuance": "요즘 다이어트 중이에요 is 요즘 ('these days') + 다이어트 (loanword 'diet') + 중 ('in the middle of', Sino-Korean 中) + 이에요. The crucial false-friend: in Korean 다이어트 almost always means 'losing weight / a weight-loss regimen', NOT merely 'the food you eat' as English 'diet' can. So 다이어트 중이에요 = 'I'm in weight-loss mode', and 다이어트 하다 = 'to be on a diet (to slim down)'. If you mean the composition of meals (a controlled eating plan, what a clinician calls your diet), that's 식단 ('meal plan'), e.g. 식단 관리하다. The grammar piece is N + 중이다 ('to be in the middle of N'), a handy 'currently doing' frame: 운동 중, 회의 중, 다이어트 중. The plain-Korean equivalent of dieting is 살(을) 빼다 ('to take off flesh/weight'); its opposite is 살이 찌다 ('to gain weight'). The English-speaker pitfall is the 직역 'I'm on a diet' → 다이어트 위에 있어요 ('I'm on top of a diet'), which is meaningless — Korean uses 중이다, not the spatial 'on'. Another trap: 다이어트 하다 implies trying to LOSE weight; if you actually need to GAIN, you wouldn't say 다이어트 — you'd say 살 찌우다 ('to put on weight').",
+    "nuance": "요즘 다이어트 중이에요 is 요즘 ('these days') + 다이어트 (loanword, 'diet/weight-loss regimen') + 중 (Sino-Korean 中, 'in the middle of') + 이에요. The false friend: in Korean 다이어트 almost always means a weight-loss program or regimen, not simply 'the food you eat' as it can in English. So 다이어트 중이에요 = 'I'm in weight-loss mode', not 'I'm eating'. If you mean the composition of your meals (a meal plan, clinical diet), that's 식단 ('meal plan') or 식단 관리 ('meal management'). The grammar frame N + 중이다 ('currently in the middle of N') is a very versatile in-progress marker: 운동 중이에요 (working out), 회의 중이에요 (in a meeting), 다이어트 중이에요. The everyday lexical pair: 살(을) 빼다 ('to take off flesh/weight', lose weight) vs 살이 찌다 ('flesh piles on', gain weight). The English-speaker pitfall is the 직역 'I'm on a diet' → 다이어트 위에 있어요 — spatial 위에 ('on top of') is meaningless here; Korean uses 중이다 for ongoing states. Another trap: using 다이어트 하다 when you need to gain weight; 다이어트 always implies losing weight — to gain say 살 찌우다 or 벌크업 중이에요.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "요즘 ('these days') + 다이어트 (loanword 'diet') + 중 ('in the middle of') + 이에요. The grammar piece is N + 중이다 ('to be in the middle of N'), a handy 'currently doing' frame: 운동 중, 회의 중, 다이어트 중. So 다이어트 중이에요 = 'I'm in weight-loss mode', and 다이어트 하다 = 'to be on a diet (to slim down)'. The plain-Korean equivalent of dieting is 살(을) 빼다 ('to take off flesh/weight'); its opposite is 살이 찌다 ('to gain weight')."
+        "t": "요즘 ('these days') + 다이어트 (loanword: weight-loss regimen) + 중 (中, 'in the middle of') + 이에요. Literal: 'These days I am in the middle of (a) diet.' 중이다 = an ongoing state: 운동 중 / 다이어트 중. 다이어트 in Korean = weight-loss program, not just 'the food you eat'."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; said to anyone who offers food, comments on your eating, or asks why you're training. 반말: 나 요즘 다이어트 중이야. Using 다이어트 중이에요 at the gym signals you want a fat-loss plan, so trainers will adjust their recommendations."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "If you mean the composition of meals (a controlled eating plan, what a clinician calls your diet), that's 식단 ('meal plan'), e.g. 식단 관리하다. Also 다이어트 하다 implies trying to LOSE weight; if you actually need to GAIN, you wouldn't say 다이어트 — you'd say 살 찌우다 ('to put on weight')."
+        "t": "다이어트 중이에요 (in weight-loss mode, common casual term) vs 살 빼는 중이에요 (plain, 'shedding weight') vs 식단 관리 중이에요 ('managing my meal plan', stresses eating control). For the opposite — gaining weight — use 벌크업 중이에요 or 살 찌우는 중이에요."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "중 ('in the middle of') is Sino-Korean 中."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Detail your goal: 살 5킬로 빼려고요 ('trying to lose 5 kg') / 몸매 만들려고 해요 ('trying to shape up'). Method: 식단 조절이랑 운동 같이 해요 ('combining diet control and exercise'). Outcome: 요즘 살이 좀 빠진 것 같아요 ('I think I've been losing a bit lately').",
+        "chips": ["살 빼는 중이에요", "식단 관리 중이에요", "벌크업 중이에요", "살 찌우는 중이에요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The crucial false-friend: in Korean 다이어트 almost always means 'losing weight / a weight-loss regimen', NOT merely 'the food you eat' as English 'diet' can. And the 직역 'I'm on a diet' → 다이어트 위에 있어요 ('I'm on top of a diet') is meaningless — Korean uses 중이다, not the spatial 'on'."
+        "t": "Two traps: (1) 다이어트 위에 있어요 — 위에 ('on top of') is spatial; Korean uses 중이다 for ongoing states. (2) 다이어트 ≠ the food you eat in general; it means a weight-loss regimen. For meal composition say 식단."
       }
     ],
     "mistakes": [
-      ["Translating 'on a diet' as 다이어트 위에 있어요.", "위에 있다 means 'physically on top of'. 'On a diet (currently)' is 다이어트 중이에요."],
-      ["Using 다이어트 to mean your meal composition.", "다이어트 means weight-loss in Korean. For 'my diet/meal plan' (what you eat) use 식단: 식단 관리해요."],
-      ["Saying 다이어트 to mean gaining weight.", "다이어트 implies slimming down. To gain (e.g. muscle/weight) say 살(을) 찌우다 or 벌크업, not 다이어트."]
+      "Translating 'on a diet' as 다이어트 위에 있어요. 위에 있다 means 'physically on top of something'. 'Currently on a diet' is 다이어트 중이에요.",
+      "Using 다이어트 to mean your meal composition. 다이어트 means weight-loss in Korean. For 'my diet/what I eat' (meal plan) use 식단: 식단 관리해요.",
+      "Saying 다이어트 to mean gaining weight. 다이어트 implies slimming down. To gain weight say 살(을) 찌우다 or 벌크업, not 다이어트."
     ]
   },
   {
@@ -468,38 +554,49 @@
     "english": "Where do I get a locker key?",
     "topic": "health",
     "usage": [
-      ["락커 키 어디서 받아요?", "Where do I get a locker key?", "Polite-neutral; asking at the front desk"],
+      ["락커 키 어디서 받아요?", "Where do I get a locker key?", "Polite-neutral; asking at the front desk on arrival"],
       ["락커 키 어디서 받아?", "Where do you get the locker key?", "반말, to a friend who's a member"],
-      ["사물함 어떻게 써요?", "How do I use a locker?", "사물함 ('locker/cubby') is the native term"],
-      ["락커 따로 신청해야 돼요?", "Do I have to sign up for a locker?", "신청하다 to check if it costs extra"]
+      ["사물함 어떻게 써요?", "How do I use a locker?", "사물함 ('locker/cubby') is the native Korean term"],
+      ["락커 따로 신청해야 돼요?", "Do I have to sign up for a locker?", "신청하다 to check if a locker costs extra or needs registration"]
     ],
     "examples": [
-      ["락커 키 어디서 받아요?", "Where do I get a locker key?", "Asked on the way in to stash your bag"],
-      ["락커 쓰려면 어디서 키 받아요? 보증금 있어요?", "Where's the key for a locker? Is there a deposit?", "보증금 ('deposit') is often required for gym lockers"],
-      ["사물함은 비밀번호예요, 아니면 키예요?", "Is the locker code-based or key-based?", "Many lockers use a 비밀번호 instead of a physical key"]
+      ["락커 키 어디서 받아요?", "Where do I get a locker key?", "The first thing many first-timers ask before getting changed"],
+      ["락커 쓰려면 어디서 키 받아요? 보증금 있어요?", "Where's the key for a locker? Is there a deposit?", "보증금 ('deposit') is commonly required and returned when you leave"],
+      ["A: 락커 키 어디서 받아요? / B: 프런트에서 신청하시면 돼요. 열쇠 말고 비밀번호예요.", "A: Where do I get a locker key? / B: Apply at the front desk. It's a code, not a physical key.", "Real front-desk exchange — clarifies the common code vs key ambiguity"]
     ],
-    "nuance": "락커 키 어디서 받아요? is 락커 (loanword 'locker') + 키 (loanword 'key') + 어디서 ('from where') + 받아요 ('do I receive'). Vocabulary first: a gym locker is commonly called 락커 (also spelled 라커) or, in pure Korean, 사물함 ('personal-belongings box'); both are fine, 사물함 a touch more standard/formal. The verb is again 받다 ('to receive') for getting the key handed to you. The grammar nugget is 어디서 — the contraction of 어디(에)서, the particle 서 marking the LOCATION OF AN ACTION ('at/from where do you DO this?'). Learners often wrongly use 어디 (location of existence, for 있다) and say 락커 키 어디 받아요 — you need 어디서 because 받다 is an action: 어디서 받아요. The dividing line: 어디예요 (where IS it) vs 어디서 해요/받아요 (where do you DO/get it). The English-speaker pitfall, beyond the particle, is the 직역 'locker key' word order being fine, but assuming a physical key — many Korean gym lockers use a 비밀번호 (door code) or a wristband, so it's smart to ask 키예요, 비밀번호예요? Also note 보증금 ('deposit') may apply, returned when you leave.",
+    "nuance": "락커 키 어디서 받아요? is 락커 (loanword 'locker') + 키 (loanword 'key') + 어디서 ('from where', = 어디에서 contracted) + 받아요 ('do I receive'). Vocabulary: a gym locker is 락커 (also spelled 라커) or, in native Korean, 사물함 ('personal-belongings box', Sino-Korean); both are understood, 사물함 slightly more standard in formal settings. The critical grammar point is the particle 서 in 어디서: because 받다 is an ACTION verb ('to receive'), it requires the action-location marker 에서 contracted to 서 — 어디서 received, 어디서 먹다, 어디서 해요. Learners wrongly use 어디 (location of existence, for 있다) and say 락커 키 어디 받아요, which sounds incomplete. Dividing line: 어디예요 (where IS it, for a static location) vs 어디서 해요/받아요 (where do you DO/get it). Practical note: many Korean gym lockers use a 비밀번호 (door code) or a wristband rather than a physical key, so it's worth asking 키예요, 비밀번호예요? A 보증금 ('deposit') is often required and returned when your membership ends.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "락커 (loanword 'locker') + 키 (loanword 'key') + 어디서 ('from where') + 받아요 ('do I receive'). A gym locker is commonly called 락커 (also spelled 라커) or, in pure Korean, 사물함 ('personal-belongings box'); both are fine, 사물함 a touch more standard/formal. The verb is 받다 ('to receive') for getting the key handed to you. The grammar nugget is 어디서 — the contraction of 어디(에)서, the particle 서 marking the LOCATION OF AN ACTION ('at/from where do you DO this?'). Also note 보증금 ('deposit') may apply, returned when you leave."
+        "t": "락커 ('locker') + 키 ('key') + 어디서 ('from where', action-location particle 에서) + 받아요 ('receive'). Literal: 'Where do I receive the locker key?' The particle 서 (from 에서) is crucial — 받다 is an action, so it needs 에서, not plain 에."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite-neutral; said to front-desk staff when you arrive. 반말 to a member friend: 락커 키 어디서 받아? Note: many gyms use 비밀번호 (code) or wristbands instead of physical keys — worth clarifying before assuming there's a key at all."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: 어디예요 (where IS it) vs 어디서 해요/받아요 (where do you DO/get it)."
+        "t": "어디서 받아요 (where do you get it — action) vs 어디예요 (where is it — existence). 락커 (loanword, casual) vs 사물함 (native Korean, standard). To ask if a locker costs extra: 락커 따로 신청해야 돼요? / 사물함 유료예요?"
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Follow-up questions: 보증금 있어요? (is there a deposit?) / 사물함 번호 어떻게 정해요? (how do I set the locker number?) / 열쇠예요, 비밀번호예요? (key or code?). Return the key: 키 여기 반납하면 돼요?",
+        "chips": ["보증금 있어요?", "열쇠예요, 비밀번호예요?", "사물함 유료예요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "Learners often wrongly use 어디 (location of existence, for 있다) and say 락커 키 어디 받아요 — you need 어디서 because 받다 is an action: 어디서 받아요. Beyond the particle, the 직역 'locker key' word order is fine, but don't assume a physical key — many Korean gym lockers use a 비밀번호 (door code) or a wristband, so it's smart to ask 키예요, 비밀번호예요?"
+        "t": "Using 어디 instead of 어디서 with action verbs: 어디 받아요 sounds incomplete because 어디 marks existence (있다), while 받다 is an action needing 에서/서. Always 어디서 받아요."
       }
     ],
     "mistakes": [
-      ["Using 어디 instead of 어디서 with 받다.", "받다 is an action verb, so it needs the action-location 어디서: 키 어디서 받아요? 어디 받아요 is incomplete."],
-      ["Assuming every locker has a physical key.", "Korean gym lockers often use a 비밀번호 (code) or band. Ask 키예요, 비밀번호예요? rather than just 키."],
-      ["Saying 가방함 or 옷함 for a locker.", "Those aren't words. A locker is 사물함 (or the loanword 락커). Use 사물함 어디 있어요?"]
+      "Using 어디 instead of 어디서 with 받다. 받다 is an action verb, so it needs the action-location marker 어디서: 키 어디서 받아요? 어디 받아요 is incomplete.",
+      "Assuming every locker has a physical key. Korean gym lockers often use a 비밀번호 (code) or a wristband. Ask 키예요, 비밀번호예요? rather than assuming.",
+      "Saying 가방함 or 옷함 for a locker. Those aren't real words. A locker is 사물함 (native) or the loanword 락커. Use 사물함 어디 있어요?"
     ]
   },
   {
@@ -507,43 +604,49 @@
     "english": "Where are the showers?",
     "topic": "health",
     "usage": [
-      ["샤워실은 어디예요?", "Where's the shower room?", "Polite-neutral; asking about the showers"],
+      ["샤워실은 어디예요?", "Where's the shower room?", "Polite-neutral; asking about the showers after your workout"],
       ["샤워실 어디야?", "Where's the shower?", "반말, to a friend"],
       ["샤워실 안에 수건 있어요?", "Are there towels in the showers?", "수건 ('towel') to check what's provided"],
-      ["샤워하고 가도 돼요?", "Can I shower before I leave?", "Confirming you may use it post-workout"]
+      ["샤워하고 가도 돼요?", "Can I shower before I leave?", "Confirming you're allowed to use it post-workout"]
     ],
     "examples": [
-      ["샤워실은 어디예요?", "Where are the showers?", "Asked after working out, looking to clean up"],
-      ["샤워실은 어디예요? 수건은 따로 가져와야 돼요?", "Where are the showers? Do I bring my own towel?", "따로 가져오다 ('bring separately') asks about towels"],
-      ["탈의실 안에 샤워실도 같이 있어요?", "Is the shower inside the changing room too?", "Check if 샤워실 and 탈의실 are combined"]
+      ["샤워실은 어디예요?", "Where are the showers?", "Asked after working out — the topic particle 은 contrasts with earlier questions (탈의실은…? 샤워실은…?)"],
+      ["샤워실은 어디예요? 수건은 따로 가져와야 돼요?", "Where are the showers? Do I bring my own towel?", "따로 가져오다 ('bring separately') efficiently asks whether towels are provided"],
+      ["A: 탈의실 안에 샤워실도 같이 있어요? / B: 네, 탈의실 왼쪽에 있어요.", "A: Is the shower inside the changing room too? / B: Yes, it's on the left side of the changing room.", "Real first-visit exchange; confirms room layout so you don't wander"]
     ],
-    "nuance": "샤워실은 어디예요? is 샤워실 ('shower room' = 샤워 loanword + 실 'room', Sino-Korean 室) + 은 (topic particle) + 어디 ('where') + 예요. The teaching point is the topic particle 은 vs the subject particle 이/가 in a 'where is X' question. With 은/는 (샤워실은 어디예요) you gently TOPICALIZE — 'as for the showers, where are they?' — which is natural when you've been talking about the gym and now single one thing out. With 이/가 (샤워실이 어디예요) you neutrally ask the location. Both are correct; 은 adds a faint 'and the showers?' contrast that fits a string of questions (탈의실은…? 샤워실은…?). The dividing line is subtle but real: overusing 이/가 for every where-question sounds list-like, while 은/는 connects your questions conversationally. Note the suffix 실 ('room') builds many gym words: 탈의실 (changing room), 샤워실 (shower room), 휴게실 (lounge). The English-speaker pitfall is dropping the particle entirely (샤워실 어디예요) — acceptable in fast speech but flatter; and the 직역 'shower' alone (샤워) means the act of showering, while the ROOM is 샤워실. Don't say 샤워 어디예요 for the room.",
+    "nuance": "샤워실은 어디예요? is 샤워실 ('shower room' = 샤워 loanword + 실 室 'room') + 은 (topic particle) + 어디 ('where') + 예요. The topic particle 은 vs subject particle 이/가: with 은/는 you topicalize — 'as for the shower room, where is it?' — which sounds natural when you're continuing a series of questions about the gym (탈의실은…? 샤워실은…? 휴게실은…?). With 이/가, the question is neutral and factual. Both are correct; 은/는 threads the questions together conversationally, while 이/가 for every question sounds more like a list. A useful vocabulary cluster built on the suffix 실 (Sino-Korean 室, 'room'): 탈의실 (changing room), 샤워실 (shower room), 휴게실 (lounge/rest room). The English-speaker pitfall is saying 샤워 어디예요 — 샤워 alone means the act of showering ('a shower'), not the room; the room is 샤워실. Dropping the particle entirely (샤워실 어디예요) is heard in fast speech but sounds flatter. Also note: some gyms charge separately for towels (수건 유료), so asking upfront saves awkwardness.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "샤워실 ('shower room' = 샤워 loanword + 실 'room') + 은 (topic particle) + 어디 ('where') + 예요. The teaching point is the topic particle 은 vs the subject particle 이/가 in a 'where is X' question. With 은/는 (샤워실은 어디예요) you gently TOPICALIZE — 'as for the showers, where are they?' — natural when you've been talking about the gym and now single one thing out. With 이/가 (샤워실이 어디예요) you neutrally ask the location. Both are correct; 은 adds a faint 'and the showers?' contrast that fits a string of questions (탈의실은…? 샤워실은…?). Note the suffix 실 ('room') builds many gym words: 탈의실 (changing room), 샤워실 (shower room), 휴게실 (lounge)."
+        "t": "샤워실 ('shower room', 샤워 loanword + 실 室 'room') + 은 (topic particle) + 어디 ('where') + 예요. Literal: 'As for the shower room, where is it?' The suffix 실 builds a cluster: 탈의실 / 샤워실 / 휴게실 — knowing the pattern helps you navigate any gym."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite-neutral; directed at any staff member after finishing your workout. 반말: 샤워실 어디야? The 은 topic particle is natural when you're asking about multiple facilities in sequence — 탈의실은 여기고, 샤워실은 어디예요? flows more smoothly than repeating 이/가."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line is subtle but real: overusing 이/가 for every where-question sounds list-like, while 은/는 connects your questions conversationally."
+        "t": "샤워실은 어디예요? (where is the room, topic 은) vs 샤워실이 어디예요? (neutral subject particle). The dividing line is subtle: 은 connects the question conversationally; 이/가 is more neutral/independent. Both correct. Don't say 샤워 어디예요 — 샤워 is the act, 샤워실 is the room."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "The suffix 실 ('room') is Sino-Korean 室, and it builds 탈의실/샤워실/휴게실."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Follow-up bundle: 수건 따로 있어요? (are towels available?) / 샤워 용품은 구비돼 있어요? (are toiletries provided?) / 사용료 따로 있어요? (extra charge?). Also: 샤워하고 나서 바로 가도 돼요? (can I leave right after showering?).",
+        "chips": ["수건 따로 있어요?", "샤워 용품 구비돼 있어요?", "샤워하고 가도 돼요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "Dropping the particle entirely (샤워실 어디예요) is acceptable in fast speech but flatter. And the 직역 'shower' alone (샤워) means the act of showering, while the ROOM is 샤워실 — don't say 샤워 어디예요 for the room."
+        "t": "Saying 샤워 어디예요 for the shower room: 샤워 alone is the act of showering, not the room. The room is 샤워실: 샤워실은 어디예요? Also: dropping the particle (샤워실 어디예요) is fine in fast speech but 은 makes it more natural in a sequence of questions."
       }
     ],
     "mistakes": [
-      ["Saying 샤워 어디예요 for the shower room.", "샤워 is the act of showering. The room is 샤워실: 샤워실은 어디예요?"],
-      ["Always using 이/가 for where-questions.", "이/가 is neutral; 은/는 topicalizes and links questions naturally. In a series, 샤워실은 어디예요 flows better than another 이가."],
-      ["Confusing 실 (room) suffix words.", "실 builds 탈의실/샤워실/휴게실. Mixing them up (asking 휴게실 when you want showers) sends you to the lounge, not the showers."]
+      "Saying 샤워 어디예요 for the shower room. 샤워 is the act of showering. The room is 샤워실: 샤워실은 어디예요?",
+      "Always using 이/가 for where-questions. 이/가 is neutral; 은/는 topicalizes and links questions naturally. In a series of facility questions, 샤워실은 어디예요 flows better.",
+      "Confusing 실-suffix room words. 실 builds 탈의실/샤워실/휴게실. Mixing them up (asking for 휴게실 when you want showers) sends you to the lounge."
     ]
   },
   {
@@ -551,43 +654,49 @@
     "english": "Could you check my form?",
     "topic": "health",
     "usage": [
-      ["자세 좀 봐 주세요", "Please check my form", "Polite; asking a trainer to watch your posture"],
+      ["자세 좀 봐 주세요", "Please check my form", "Polite; asking a trainer to watch your posture/technique"],
       ["자세 좀 봐 줘", "Check my form", "반말, to a workout buddy"],
-      ["이 자세 맞아요?", "Is this form right?", "Quick check while you're mid-rep"],
-      ["허리 안 굽었어요?", "Is my back not rounding?", "Naming the body part you're worried about"]
+      ["이 자세 맞아요?", "Is this form right?", "Quick mid-rep check while you're already doing the movement"],
+      ["허리 안 굽었어요?", "Is my back not rounding?", "Name the specific body part you're worried about"]
     ],
     "examples": [
-      ["쌤, 자세 좀 봐 주세요.", "Coach, could you check my form?", "Ask the trainer to watch before a heavy set"],
-      ["스쿼트 자세 좀 봐 주세요. 무릎이 자꾸 앞으로 나가는 것 같아서요.", "Check my squat form — my knees keep going forward.", "Name the lift + the specific issue you feel"],
-      ["이 무게로 해도 돼요? 자세 좀 봐 주세요.", "Is this weight okay? Please check my form.", "Combine a weight question with a form check"]
+      ["쌤, 자세 좀 봐 주세요.", "Coach, could you check my form?", "Said to the trainer before a heavy working set — best to ask before, not after an injury"],
+      ["스쿼트 자세 좀 봐 주세요. 무릎이 자꾸 안으로 들어가는 것 같아서요.", "Check my squat form — my knees keep caving in.", "Name the lift + the specific issue you feel; 무릎이 안으로 들어가다 = 'knees cave in'"],
+      ["A: 데드리프트 자세 좀 봐 주세요. / B: 허리 좀 더 펴시고, 엉덩이 뒤로 빼세요.", "A: Please check my deadlift form. / B: Straighten your back more and push your hips back.", "Real correction exchange — trainer feedback always involves a body cue"]
     ],
-    "nuance": "자세 좀 봐 주세요 is 자세 ('posture/form', Sino-Korean 姿勢) + 좀 (politeness softener) + 봐 주세요 (보다 'to look' + 주다 favor + 주세요), i.e. 'please look at (it) for me'. 자세 is exactly the gym word for 'form' — squat form, deadlift form — so 자세를 보다 ('to check form') and 자세가 좋다/나쁘다 ('good/bad form') are the natural collocations; learners reaching for 'form' as 폼 (the loanword) will be half-understood (폼 exists in slang like 폼 난다 'looks cool') but 자세 is correct for technique. The 좀 here is the softener (not 'a little'), and 봐 주세요 with the favor verb 주다 makes it a request for the trainer's help rather than a command to merely look. The dividing line: 자세 봐 주세요 ('check my form for me') vs the bare 자세 보세요 ('you, look at the posture') — the latter sounds like ordering them around; keep 주세요 with the favor 주다. The English-speaker pitfall is the 직역 'check' as 체크하다 (자세 체크해 주세요) — understandable but the idiomatic verb is 보다 ('look at'); and confusing 자세 ('posture') with 자세히 ('in detail', an adverb) — 자세히 봐 주세요 means 'please look closely/in detail', a different nuance from 자세(를) 봐 주세요 ('check my form').",
+    "nuance": "자세 좀 봐 주세요 is 자세 (Sino-Korean 姿勢, 'posture/form') + 좀 (softening particle) + 봐 주세요 (보다 'to look/see' + 주다 as favor verb + 주세요request). 자세 is the correct gym term for exercise form/technique — 자세를 보다 ('to check form'), 자세가 좋다/나쁘다 ('good/bad form'). Learners might reach for 폼 (the loanword 'form') but 폼 in Korean is slang for looking stylish or cool (폼 난다 = 'that looks cool'), not exercise technique. The 좀 here is the politeness softener, not 'a little'. The key grammatical structure is 봐 주세요 with the favor verb 주다: 보다 + 아주다 = 'look at it for me (as a favor)'. The bare 자세 보세요 omits the favor verb and sounds like a command directed at someone — keep the 주다. The crucial distinction: 자세 (姿勢, noun, 'posture/form') vs 자세히 ('in detail', adverb) — 자세히 봐 주세요 = 'look closely/carefully', while 자세(를) 봐 주세요 = 'check my form'. Saying 자세히 when you mean 자세 sends the trainer a completely different message.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "자세 ('posture/form') + 좀 (politeness softener) + 봐 주세요 (보다 'to look' + 주다 favor + 주세요), i.e. 'please look at (it) for me'. 자세 is exactly the gym word for 'form' — squat form, deadlift form — so 자세를 보다 ('to check form') and 자세가 좋다/나쁘다 ('good/bad form') are the natural collocations. The 좀 here is the softener (not 'a little'), and 봐 주세요 with the favor verb 주다 makes it a request for the trainer's help rather than a command to merely look."
+        "t": "자세 (姿勢, 'posture/form') + 좀 (politeness softener) + 봐 주세요 ('look for me', 보다 + favor verb 주다). Literal: 'Please look at (my) form for me.' 봐 주세요 is a request for a favor, not just 'please look' — the 주다 makes it personal and polite."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; directed at a trainer or knowledgeable gym buddy. 반말: 자세 좀 봐 줘. Best asked before a working set, not during. Adding the specific lift (스쿼트/데드리프트 자세 좀 봐 주세요) helps the trainer know exactly what to watch for."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "Learners reaching for 'form' as 폼 (the loanword) will be half-understood (폼 exists in slang like 폼 난다 'looks cool') but 자세 is correct for technique. The dividing line: 자세 봐 주세요 ('check my form for me') vs the bare 자세 보세요 ('you, look at the posture') — the latter sounds like ordering them around; keep 주세요 with the favor 주다. Also confusing 자세 ('posture', noun) with 자세히 ('in detail', adverb) — 자세히 봐 주세요 means 'please look closely', a different nuance from 자세(를) 봐 주세요."
+        "t": "자세 봐 주세요 ('check my form for me', favor) vs 자세 보세요 ('look at the posture', commands them — too direct). Also: 폼 vs 자세 — 폼 is slang for 'looking cool' (폼 난다), not technique; 자세 is always correct for exercise form."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "자세 ('posture/form') is Sino-Korean 姿勢."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "While doing the movement: 이 자세 맞아요? (is this right?). Specific body part: 허리 안 굽었어요? (back not rounding?) / 무릎 방향 맞아요? (knee direction okay?). Ask for a demo: 어떻게 하면 돼요? / 한 번 봐 주시겠어요?",
+        "chips": ["이 자세 맞아요?", "허리 안 굽었어요?", "무릎 방향 맞아요?", "어떻게 하면 돼요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The 직역 'check' as 체크하다 (자세 체크해 주세요) is understandable but the idiomatic verb is 보다 ('look at')."
+        "t": "Two traps: (1) 폼 for exercise form — 폼 means 'looking cool/stylish' in Korean slang; exercise technique is 자세. (2) confusing 자세 (posture, noun) with 자세히 (in detail, adverb): 자세히 봐 주세요 = 'look closely', not 'check my form'."
       }
     ],
     "mistakes": [
-      ["Using 폼 for exercise form.", "폼 is slang for 'looking cool/stylish'. Exercise technique is 자세: 자세 좀 봐 주세요."],
-      ["Saying 자세 보세요 without 주다.", "보세요 commands them to look. The polite favor request is 봐 주세요 ('look for me'): 자세 좀 봐 주세요."],
-      ["Confusing 자세 with 자세히.", "자세 = posture (noun); 자세히 = in detail (adverb). 자세히 봐 주세요 = 'look closely', not 'check my form'. For form, say 자세(를) 봐 주세요."]
+      "Using 폼 for exercise form. 폼 is slang for 'looking cool/stylish'. Exercise technique is 자세: 자세 좀 봐 주세요.",
+      "Saying 자세 보세요 without 주다. 보세요 commands them to look. The polite favor request is 봐 주세요 ('look for me'): 자세 좀 봐 주세요.",
+      "Confusing 자세 with 자세히. 자세 = posture (noun); 자세히 = in detail (adverb). 자세히 봐 주세요 = 'look carefully', not 'check my form'. For form say 자세(를) 봐 주세요."
     ]
   },
   {
@@ -595,43 +704,49 @@
     "english": "What's the refund policy?",
     "topic": "health",
     "usage": [
-      ["환불 규정이 어떻게 돼요?", "What's the refund policy?", "Polite; asking before signing a contract"],
+      ["환불 규정이 어떻게 돼요?", "What's the refund policy?", "Polite; the essential question to ask BEFORE signing up"],
       ["환불 규정이 어떻게 돼?", "What's the refund deal?", "반말, asking a friend who's a member"],
-      ["중간에 그만두면 환불돼요?", "If I quit midway, can I get a refund?", "중간에 그만두다 ('quit partway') for the real worry"],
-      ["환불 받을 수 있어요?", "Can I get a refund?", "The direct ask once you want out"]
+      ["중간에 그만두면 환불돼요?", "If I quit midway, can I get a refund?", "중간에 그만두다 ('quit partway') addresses the real worry"],
+      ["환불 받을 수 있어요?", "Can I get a refund?", "The direct ask once you've decided you want out"]
     ],
     "examples": [
-      ["등록 전에 환불 규정이 어떻게 돼요?", "Before I sign up, what's the refund policy?", "Ask BEFORE registering, not after"],
-      ["혹시 이사 가면 환불돼요? 환불 규정이 어떻게 돼요?", "If I move, can I get a refund? What's the policy?", "이사 가다 ('move house') is a common reason to ask"],
-      ["3개월 중에 한 달만 쓰고 환불하면 얼마 돌려받아요?", "If I use one of three months and refund, how much back?", "돌려받다 ('get back') asks the actual refund amount"]
+      ["등록 전에 환불 규정이 어떻게 돼요?", "Before I sign up, what's the refund policy?", "Ask BEFORE handing over money — Korean gym refund calculations often favor the gym"],
+      ["A: 혹시 이사 가면 환불돼요? / B: 네, 잔여 일수만큼 돌려받으시는데 위약금이 있어요.", "A: If I move, can I get a refund? / B: Yes, you get back the remaining days but there's a penalty fee.", "Real refund inquiry — 잔여 일수 ('remaining days') and 위약금 ('penalty fee') are the key terms"],
+      ["3개월 중에 한 달만 쓰고 환불하면 얼마 돌려받아요?", "If I use one of three months and refund, how much do I get back?", "돌려받다 ('get back') asks the actual refund amount — the answer involves proration calculations"]
     ],
-    "nuance": "환불 규정이 어떻게 돼요? is 환불 ('refund', Sino-Korean 還拂) + 규정 ('rules/policy', 規定) + 이 (subject particle) + 어떻게 돼요 ('how does it work / what is it'). The high-value chunk is the set phrase 어떻게 돼요? — literally 'how does it become?', but idiomatically 'what is it / how does it work', used to ask about systems, prices, schedules, names: 가격이 어떻게 돼요? (what's the price), 성함이 어떻게 되세요? (what's your name), 환불 규정이 어떻게 돼요? (what's the refund policy). It's softer and more native than the blunt 환불 규정이 뭐예요? ('what IS the refund rule'), which sounds like demanding a definition. The dividing line: 어떻게 돼요 asks how something is set up/configured; 뭐예요 asks for a flat identification. The English-speaker pitfall is the 직역 'policy' as 정책 — 정책 means policy in the governmental/corporate-strategy sense; a shop's refund RULES are 규정 or 환불 정책 (정책 is okay here too but 규정 is more common for terms). Also crucial: Korean gyms are notorious for prorating refunds unfavorably (charging the higher daily 'walk-in' rate for days used), so ask BEFORE you pay; and the verb to GET a refund is 환불(을) 받다 or 환불되다, while 환불하다 can sound like YOU issuing the refund.",
+    "nuance": "환불 규정이 어떻게 돼요? is 환불 (Sino-Korean 還拂, 'refund') + 규정 (規定, 'rules/policy') + 이 (subject particle) + 어떻게 돼요 ('how does it work / what is it'). The high-value phrase is 어떻게 돼요?: literally 'how does it become?', idiomatically 'what is it / how does it work?' — used for systems, prices, schedules, names: 가격이 어떻게 돼요? (what's the price?), 성함이 어떻게 되세요? (what's your name?). It's softer than the blunt 뭐예요? and invites an explanation rather than a definition. The dividing line: 어떻게 돼요 asks how something is structured/configured; 뭐예요 asks for a flat identification. Practical note: Korean gyms are notorious for calculating refunds at the higher daily 'drop-in rate' for days already used, often surprising members — ask before you pay. The verb to RECEIVE a refund is 환불(을) 받다 or 환불되다; 환불하다 sounds like YOU are issuing the refund. For a policy noun, both 규정 (regular rules, 規定) and 정책 (strategy/policy, 政策) are used, but 규정 is more common for in-house terms and conditions.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "환불 ('refund') + 규정 ('rules/policy') + 이 (subject particle) + 어떻게 돼요 ('how does it work / what is it'). The high-value chunk is the set phrase 어떻게 돼요? — literally 'how does it become?', but idiomatically 'what is it / how does it work', used to ask about systems, prices, schedules, names: 가격이 어떻게 돼요? (what's the price), 성함이 어떻게 되세요? (what's your name). Practical note: Korean gyms are notorious for prorating refunds unfavorably (charging the higher daily 'walk-in' rate for days used), so ask BEFORE you pay; and the verb to GET a refund is 환불(을) 받다 or 환불되다, while 환불하다 can sound like YOU issuing the refund."
+        "t": "환불 (還拂, 'refund') + 규정 (規定, 'rules/policy') + 이 (subject particle) + 어떻게 돼요 ('how does it work'). Literal: 'How is the refund policy set up?' 어떻게 돼요 is the idiom for 'how does it work/what is it' — far more natural than 뭐예요 for asking about systems."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; ask this BEFORE signing the contract, not after you've paid. With a friend: 환불 규정이 어떻게 돼? (반말). Practical reality: Korean gym refunds prorate remaining days at the daily drop-in rate, which usually favors the gym — knowing this makes the question urgent."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "어떻게 돼요? is softer and more native than the blunt 환불 규정이 뭐예요? ('what IS the refund rule'), which sounds like demanding a definition. The dividing line: 어떻게 돼요 asks how something is set up/configured; 뭐예요 asks for a flat identification."
+        "t": "어떻게 돼요? (how does it work — soft, explains structure) vs 뭐예요? (what is it — blunt, demands definition). For the specific refund scenario: 중간에 그만두면 환불돼요? ('If I quit partway, do I get a refund?'). For the amount: 얼마 돌려받아요? ('How much do I get back?')."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "환불 is Sino-Korean 還拂; 규정 is 規定."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Follow-up questions: 위약금 있어요? (is there a penalty fee?) / 잔여 일수 환불돼요? (are remaining days refunded?) / 이사 가면 환불돼요? (refund if I move?). The refund verb: 환불 받다 (receive a refund) / 환불되다 (a refund is processed) — not 환불하다.",
+        "chips": ["중간에 그만두면 환불돼요?", "위약금 있어요?", "얼마 돌려받아요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The 직역 'policy' as 정책 — 정책 means policy in the governmental/corporate-strategy sense; a shop's refund RULES are 규정 or 환불 정책 (정책 is okay here too but 규정 is more common for terms)."
+        "t": "Two traps: (1) 환불하고 싶어요 can read as 'I want to issue a refund' — to RECEIVE one say 환불 받고 싶어요 or 환불되나요? (2) 정책 (政策) is policy in the government/strategy sense; shop/gym terms are better described as 규정 (rules), though 환불 정책 is also used."
       }
     ],
     "mistakes": [
-      ["Asking 환불 규정이 뭐예요 bluntly.", "뭐예요 demands a definition and sounds curt. The natural ask is 환불 규정이 어떻게 돼요?"],
-      ["Using 정책 for a refund policy.", "정책 is policy in the political/corporate-strategy sense. Store refund terms are 규정 (or 환불 정책): 환불 규정이 어떻게 돼요?"],
-      ["Saying 환불하고 싶어요 expecting to receive money.", "환불하다 can read as 'I will issue a refund'. To RECEIVE one, say 환불 받고 싶어요 or 환불되나요?"]
+      "Asking 환불 규정이 뭐예요 bluntly. 뭐예요 demands a definition and sounds curt. The natural question is 환불 규정이 어떻게 돼요?",
+      "Using 정책 for a gym's refund rules. 정책 is policy in the political/corporate-strategy sense. Shop or gym refund terms are 규정: 환불 규정이 어떻게 돼요?",
+      "Saying 환불하고 싶어요 expecting to receive money. 환불하다 can sound like 'I will issue a refund'. To RECEIVE one, say 환불 받고 싶어요 or 환불되나요?"
     ]
   },
   {
@@ -639,43 +754,49 @@
     "english": "I think I overdid it a bit today",
     "topic": "health",
     "usage": [
-      ["오늘은 무리했나 봐요", "I think I overdid it today", "Polite; admitting you pushed too hard"],
-      ["오늘 좀 무리했나 봐", "Guess I overdid it today", "반말, to a friend"],
-      ["무리하지 마세요", "Don't overdo it", "What a trainer says to YOU; the caring warning"],
-      ["살살 할게요", "I'll take it easy", "살살 ('gently') = ease off, dial it down"]
+      ["오늘은 무리했나 봐요", "I think I overdid it today", "Polite; admitting you pushed too hard — to a trainer or friend"],
+      ["오늘 좀 무리했나 봐", "Guess I overdid it today", "반말, complaining to a gym buddy"],
+      ["무리하지 마세요", "Don't overdo it", "What a trainer or doctor says to YOU — the caring standard warning"],
+      ["살살 할게요", "I'll take it easy", "살살 ('gently/softly') = dial it down, used as reassurance"]
     ],
     "examples": [
-      ["오늘은 좀 무리했나 봐요. 어깨가 너무 아파요.", "I think I overdid it today — my shoulder really hurts.", "Pair 무리하다 with the resulting pain"],
-      ["욕심내다가 무리했나 봐요. 내일은 쉬어야겠어요.", "Got greedy and overdid it. I should rest tomorrow.", "욕심내다 ('to be greedy/push') as the cause"],
-      ["처음부터 너무 무리하지 말고 살살 하세요.", "Don't overdo it from the start — take it easy.", "Advice form: 무리하지 말고 + 살살 하다"]
+      ["오늘은 좀 무리했나 봐요. 어깨가 너무 아파요.", "I think I overdid it today — my shoulder really hurts.", "Pair 무리하다 with the resulting pain to give the trainer a full picture"],
+      ["A: 왜 얼굴이 안 좋아요? / B: 욕심냈다가 무리했나 봐요. 내일은 쉬어야겠어요.", "A: You don't look well — what's wrong? / B: Got greedy and pushed too hard, I think. I'll rest tomorrow.", "욕심내다 ('be greedy/push beyond') as the cause; 내일은 쉬어야겠어요 signals the recovery plan"],
+      ["처음부터 너무 무리하지 말고 살살 하세요.", "Don't overdo it from the start — take it easy.", "Standard trainer advice combining 무리하지 말고 + 살살 하다"]
     ],
-    "nuance": "오늘은 무리했나 봐요 is 오늘 ('today') + 은 (contrast topic) + 무리하다 ('to overdo / push beyond one's limit', Sino-Korean 無理 'unreasonable' + 하다) + -았/었나 봐요 ('I guess/seems that…'). Two rich pieces: first, 무리하다 is THE word for overexerting — pushing past what your body can handle — and its standard caution is 무리하지 마세요 ('don't overdo it'), which trainers, doctors, and friends say constantly; English speakers reach for the 직역 'too much exercise' → 너무 많이 운동했어요 ('I exercised too much'), which is fine but flatter than the idiomatic 무리했어요. Second, -나 보다 is the inferential 'it seems / I guess', used when you conclude something from evidence (the soreness tells you): 무리했나 봐요 = 'seems I overdid it'. The opposite advice is 살살 하다 ('to go gently/easy'); 살살 is a great mimetic adverb meaning 'softly, gradually'. The dividing line: 무리하다 (overexert beyond limits) vs 많이 하다 (just do a lot — neutral). The English-speaker pitfall, beyond the 직역, is misreading 무리 — it's NOT 'a group/herd' (무리 also means 'a crowd', a homonym); in 무리하다 it's the 無理 'pushing the unreasonable'. Also -나 봐요 attaches to the past stem here (했나 봐요) because you're inferring about a completed action.",
+    "nuance": "오늘은 좀 무리했나 봐요 is 오늘 ('today') + 은 (contrast topic) + 좀 ('a bit') + 무리하다 (Sino-Korean 無理 'unreasonable' + 하다, 'to push beyond one's limit') + -았나 봐요 ('-나 보다' inferential past). Two rich pieces: first, 무리하다 is THE word for overexerting — pushing your body past what it can handle. Its standard caution form 무리하지 마세요 is said by trainers, doctors, parents, anyone who cares about you; the English-speaker's 직역 reflex of 너무 많이 운동했어요 ('exercised too much') is correct but much flatter. Second, -나 보다 is the inferential 'it seems/I guess', used when you conclude something from physical evidence (your current pain tells you what happened): 무리했나 봐요 = 'it seems I overdid it'. The past form 했나 봐요 (not 하나 봐요) is required because you're inferring about a completed action. The opposite advice is 살살 하다 — 살살 is a mimetic adverb meaning 'softly, gradually, gently'. Pitfall: 무리 is a homonym — 무리1 = 'a crowd/herd', 무리2 = 無理 'the unreasonable'; in 무리하다 it is always the second meaning.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "오늘 ('today') + 은 (contrast topic) + 무리하다 ('to overdo / push beyond one's limit') + -았/었나 봐요 ('I guess/seems that…'). 무리하다 is THE word for overexerting — pushing past what your body can handle — and its standard caution is 무리하지 마세요 ('don't overdo it'), which trainers, doctors, and friends say constantly. -나 보다 is the inferential 'it seems / I guess', used when you conclude something from evidence (the soreness tells you): 무리했나 봐요 = 'seems I overdid it'; it attaches to the past stem here (했나 봐요) because you're inferring about a completed action. The opposite advice is 살살 하다 ('to go gently/easy'); 살살 is a great mimetic adverb meaning 'softly, gradually'."
+        "t": "무리하다 (無理 'unreasonable' + 하다, 'to overexert') + -았나 봐요 (inferential past, 'it seems that'). Literal: 'It seems I pushed [myself] unreasonably today.' -나 봐요 signals you're concluding from evidence (pain, exhaustion), not stating a fact. Past stem 했나 봐요 is required for a completed action."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; said to a trainer or gym friend after a hard session. 반말: 오늘 좀 무리했나 봐. The trainer's response: 무리하지 마세요 / 살살 하세요. This phrase signals to a trainer that you may need reduced intensity tomorrow — a useful communication cue."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: 무리하다 (overexert beyond limits) vs 많이 하다 (just do a lot — neutral)."
+        "t": "무리하다 (overexert, push beyond limit — always negative) vs 많이 하다 ('do a lot' — neutral, no judgment). 무리했나 봐요 (-나 보다: inference from evidence) vs 무리한 것 같아요 (-는 것 같다: softer, 'I feel like'). Both work but -나 봐요 is more grounded in the physical evidence of your pain."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "무리하다 is Sino-Korean 無理 ('unreasonable') + 하다, i.e. 'pushing the unreasonable'."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Scale: 조금 무리한 것 같아요 (slight overexertion) → 좀 무리했나 봐요 (standard) → 완전히 무리했어요 (really overdid it). Resulting state: 근육통이 너무 심해요 / 몸살이 날 것 같아요 ('feel like I might get bodyache-sick'). Advice: 살살 할게요 / 내일은 쉬어야겠어요.",
+        "chips": ["무리하지 마세요", "살살 할게요", "내일은 쉬어야겠어요", "몸살이 날 것 같아요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers reach for the 직역 'too much exercise' → 너무 많이 운동했어요 ('I exercised too much'), which is fine but flatter than the idiomatic 무리했어요. Another pitfall is misreading 무리 — it's NOT 'a group/herd' (무리 also means 'a crowd', a homonym); in 무리하다 it's the 無理 'pushing the unreasonable'."
+        "t": "Two traps: (1) 너무 많이 운동했어요 is literally 'exercised a lot' — neutral; the idiomatic 'overexerted' is 무리했어요. (2) confusing 무리 (homonym: 'crowd/herd' OR '無理 the unreasonable'); in 무리하다 it always means overdoing/pushing the unreasonable."
       }
     ],
     "mistakes": [
-      ["Saying 너무 많이 운동했어요 for 'overdid it'.", "That's literally 'exercised a lot' — neutral. The idiomatic 'overexerted/pushed too hard' is 무리했어요."],
-      ["Reading 무리 as 'a group'.", "무리 is a homonym: 'a crowd/herd' AND, in 무리하다, '(doing) the unreasonable = overexerting'. Here it means overdoing it, not a group."],
-      ["Using -ㄴ 것 같다 where -나 보다 fits better.", "Both express guessing, but -나 보다 stresses inference from evidence. Given the soreness, 무리했나 봐요 sounds natural; 무리한 것 같아요 also works but is more 'I feel'."]
+      "Saying 너무 많이 운동했어요 for 'overdid it'. That is literally 'exercised a lot' — neutral. The idiomatic 'overexerted/pushed too hard' is 무리했어요.",
+      "Reading 무리 as 'a group'. 무리 is a homonym: 'a crowd/herd' AND, in 무리하다, '(doing) the unreasonable = overexerting'. Here it means overdoing it, not a group.",
+      "Using -ㄴ 것 같다 where -나 보다 fits better. Both express guessing, but -나 보다 stresses inference from physical evidence. Given the soreness, 무리했나 봐요 sounds more natural; 무리한 것 같아요 works but is more 'I feel'."
     ]
   },
   {
@@ -683,38 +804,49 @@
     "english": "How many sets of this?",
     "topic": "health",
     "usage": [
-      ["이거 몇 세트 해요?", "How many sets of this?", "Polite; asking a trainer the prescribed sets"],
+      ["이거 몇 세트 해요?", "How many sets of this?", "Polite; asking a trainer the prescribed number of sets"],
       ["이거 몇 세트야?", "How many sets is this?", "반말, to a workout buddy"],
-      ["한 세트에 몇 개씩 해요?", "How many reps per set?", "개 ('reps') + 씩 ('each') asks reps-per-set"],
-      ["세 세트만 더 할게요", "I'll just do three more sets", "Announcing how many sets you have left"]
+      ["한 세트에 몇 개씩 해요?", "How many reps per set?", "개 ('reps') + 씩 ('each') asks the reps-per-set count"],
+      ["세 세트만 더 할게요", "I'll just do three more sets", "Announcing your remaining sets before finishing"]
     ],
     "examples": [
-      ["이거 몇 세트 해요?", "How many sets of this?", "Asking before starting an exercise the trainer set"],
-      ["이거 몇 세트 해요? 한 세트에 열다섯 개씩이요?", "How many sets? Fifteen reps each?", "Confirm sets AND reps (개) in one breath"],
-      ["세 세트 했는데 한 세트 더 할까요?", "I did three sets — should I do one more?", "Report what you've done, then ask to add a set"]
+      ["이거 몇 세트 해요?", "How many sets of this?", "Asked before starting an exercise the trainer prescribed"],
+      ["이거 몇 세트 해요? 한 세트에 몇 개씩이에요?", "How many sets? And how many reps each?", "Bundle sets and reps in one breath — trainers expect both questions together"],
+      ["A: 벤치프레스 몇 세트 해요? / B: 세 세트에 열두 개씩 해요.", "A: How many sets of bench press? / B: Three sets of twelve reps.", "Real trainer-client exchange; note 세 세트 (native number) and 열두 개씩 (native number + 씩)"]
     ],
-    "nuance": "이거 몇 세트 해요? is 이거 ('this') + 몇 ('how many') + 세트 (loanword 'set') + 해요 ('do'). Gym counting in Korea splits into two loanword units: 세트 ('set') and, for the individual repetitions, 개 ('count/piece') — so '3 sets of 15 reps' is 세 세트에 열다섯 개씩 (개 is the everyday counter people use for reps, more than the technical 회). The make-or-break point is the NUMBER SYSTEM: counters like 세트, 개, 회 take NATIVE Korean numbers (한, 두, 세, 네, 다섯…), so it's 세 세트 ('three sets'), 열 개 ('ten reps') — NOT Sino-Korean 삼 세트 / 십 개, the single most common English-speaker error with counters. The little word 씩 means 'each/per' and distributes the count: 열 개씩 = 'ten each (per set)'. The dividing line: 세트 = a set; 개 (or 회) = a single rep within it; mixing them ('몇 개 해요' when you mean sets) confuses the trainer. The English-speaker pitfall, beyond Sino numbers, is the 직역 of 'rep' — there's no need for a fancy word; Koreans just say 개 (or 회). Also 몇 ('how many') here triggers a counter, so don't drop it: 몇 세트, not just 세트 해요 (which would mean 'do you do sets?').",
+    "nuance": "이거 몇 세트 해요? is 이거 ('this') + 몇 ('how many') + 세트 (loanword 'set') + 해요 ('do'). Gym counting in Korea divides into two units: 세트 (sets) and, for individual repetitions, 개 — 3 sets of 12 reps = 세 세트에 열두 개씩. The make-or-break rule is NUMBER SELECTION: the counters 세트, 개, and 회 all take NATIVE Korean numbers, not Sino-Korean: 세 세트 ('three sets'), 열다섯 개 ('fifteen reps') — NOT 삼 세트 or 십오 개. This is the single most common English-speaker error with Korean counters. The distributor 씩 means 'each/per set' — 열두 개씩 = 'twelve per set'; without 씩 the number sounds like a total across all sets. The dividing line: 몇 세트 = how many sets; 한 세트에 몇 개씩 = how many reps per set — keep them separate. The word 몇 must be present before the counter: 세트 해요 alone means 'do you do sets?' (yes/no), not 'how many'. Also: the counter 회 (Sino-Korean 回) is sometimes used for reps in more technical contexts, but 개 is what people actually say at the gym.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "이거 ('this') + 몇 ('how many') + 세트 (loanword 'set') + 해요 ('do'). Gym counting in Korea splits into two loanword units: 세트 ('set') and, for the individual repetitions, 개 ('count/piece') — so '3 sets of 15 reps' is 세 세트에 열다섯 개씩 (개 is the everyday counter people use for reps, more than the technical 회). The little word 씩 means 'each/per' and distributes the count: 열 개씩 = 'ten each (per set)'. Note: 몇 ('how many') here triggers a counter, so don't drop it: 몇 세트, not just 세트 해요 (which would mean 'do you do sets?')."
+        "t": "이거 ('this') + 몇 ('how many', required before a counter) + 세트 ('set', loanword) + 해요 ('do'). Literal: 'This, how many sets do you do?' 몇 must precede the counter — 세트 해요 alone is a yes/no question. Reps per set: 한 세트에 몇 개씩 해요?"
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; asked before starting each exercise in a trainer-led session. 반말: 이거 몇 세트야? Bundle both questions: 몇 세트에 몇 개씩이에요? — trainers expect this and always answer with both numbers."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: 세트 = a set; 개 (or 회) = a single rep within it; mixing them ('몇 개 해요' when you mean sets) confuses the trainer."
+        "t": "몇 세트 해요 (sets) vs 한 세트에 몇 개씩 해요 (reps per set). 세트 = a set (the group); 개 or 회 = an individual rep. Mixing them up (몇 개 when you mean sets) confuses the answer. The distributor 씩 turns a total into a per-set count: 열두 개 (twelve total) vs 열두 개씩 (twelve per set)."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "Progress reports: 두 세트 했어요 ('I did two sets') / 한 세트 남았어요 ('one set left'). Rest between sets: 쉬는 시간이 얼마나 돼요? ('how long is the rest?'). Warm-up set: 워밍업 세트도 포함이에요? ('does that include the warm-up set?').",
+        "chips": ["한 세트에 몇 개씩이에요?", "쉬는 시간이 얼마나 돼요?", "두 세트 했어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The make-or-break point is the NUMBER SYSTEM: counters like 세트, 개, 회 take NATIVE Korean numbers (한, 두, 세, 네, 다섯…), so it's 세 세트 ('three sets'), 열 개 ('ten reps') — NOT Sino-Korean 삼 세트 / 십 개, the single most common English-speaker error with counters. Beyond Sino numbers, the 직역 of 'rep' is a trap — there's no need for a fancy word; Koreans just say 개 (or 회)."
+        "t": "The number rule: counters 세트/개/회 take NATIVE Korean numbers, not Sino-Korean. Say 세 세트, not 삼 세트; 열 개, not 십 개. Using Sino numbers with these counters is the top error English speakers make with gym counting."
       }
     ],
     "mistakes": [
-      ["Using Sino-Korean numbers with 세트/개.", "Counters take native numbers: 세 세트, 열 개 — not 삼 세트, 십 개. So 'three sets' is 세 세트, never 삼 세트."],
-      ["Confusing 세트 and 개/회 for reps.", "세트 is a set; an individual rep is 개 (or 회). Asking 몇 개 해요 asks reps, 몇 세트 해요 asks sets. Use the right one for what you mean."],
-      ["Dropping 씩 when distributing reps.", "씩 means 'each/per'. '10 reps each set' is 한 세트에 열 개씩. Without 씩 it sounds like a single total, not per-set."]
+      "Using Sino-Korean numbers with 세트/개. Counters take native numbers: 세 세트, 열 개 — not 삼 세트, 십 개. 'Three sets' is 세 세트, never 삼 세트.",
+      "Confusing 세트 and 개/회 for reps. 세트 is a set; an individual rep is 개 (or 회). Asking 몇 개 해요 asks reps, 몇 세트 해요 asks sets. Use the right one for what you mean.",
+      "Dropping 씩 when distributing reps. 씩 means 'each/per'. '10 reps each set' is 한 세트에 열 개씩. Without 씩 it sounds like 10 total across all sets, not per-set."
     ]
   },
   {
@@ -723,42 +855,48 @@
     "topic": "health",
     "usage": [
       ["회원권 잠깐 정지할 수 있어요?", "Can I freeze my membership briefly?", "Polite; asking to pause/hold your membership"],
-      ["회원권 좀 정지할 수 있어?", "Can I put my membership on hold?", "반말, to a friend who works there"],
-      ["홀딩 돼요?", "Can I put it on hold?", "홀딩 (loanword 'holding') = the casual gym term for a freeze"],
-      ["정지하면 기간 그만큼 늘어나요?", "If I freeze it, does the period extend?", "Confirm the days get added back"]
+      ["회원권 좀 정지할 수 있어?", "Can I put my membership on hold?", "반말, to a friend who works at the gym"],
+      ["홀딩 돼요?", "Can I put it on hold?", "홀딩 (loanword 'holding') = the casual everyday gym term for a freeze"],
+      ["정지하면 기간 그만큼 늘어나요?", "If I freeze it, does the period extend?", "Confirm the frozen days get added back to the end"]
     ],
     "examples": [
-      ["회원권 잠깐 정지할 수 있어요?", "Can I freeze my membership for a bit?", "Asked when you'll be away and can't come"],
-      ["다음 달에 출장 가서 회원권 좀 정지하고 싶은데요.", "I'm traveling next month, so I'd like to freeze it.", "출장 가다 ('go on a business trip') gives the reason"],
-      ["2주만 홀딩하면 끝나는 날도 2주 밀리는 거죠?", "If I hold it 2 weeks, the end date pushes back 2 weeks, right?", "밀리다 ('to be pushed back') confirms how holding works"]
+      ["회원권 잠깐 정지할 수 있어요?", "Can I freeze my membership for a bit?", "Said when you're going away and can't come — the question signals temporary absence, not cancellation"],
+      ["다음 달에 출장 가서 회원권 좀 정지하고 싶은데요.", "I'm traveling next month, so I'd like to freeze it.", "출장 가다 ('go on a business trip') is a natural and accepted reason staff hear constantly"],
+      ["A: 2주만 홀딩하면 끝나는 날도 2주 밀리는 거죠? / B: 네, 그렇습니다.", "A: If I hold it for 2 weeks, the end date pushes back 2 weeks, right? / B: Yes, that's correct.", "밀리다 ('to be pushed back') confirms exactly how the freeze works — the key term to know"]
     ],
-    "nuance": "회원권 잠깐 정지할 수 있어요? is 회원권 ('membership (pass)' = 회원 'member' + 권 'ticket/right', Sino-Korean 會員券) + 잠깐 ('for a moment/briefly') + 정지하다 ('to suspend/halt', 停止) + -ㄹ 수 있어요 ('can I…?'). Two practical things: first, the right noun for the membership itself is 회원권 (the pass/right), distinct from 등록 (the ACT of registering) — you 정지 the 회원권, you don't 정지 the 등록. Second, gyms universally also use the loanword 홀딩 ('holding') for freezing a membership — 홀딩 돼요? ('can I hold it?') is what regulars actually say, often more than 정지. The grammar 잠깐 ('briefly') flags it's temporary, important because a permanent stop would be 해지/탈퇴 ('cancellation/withdrawal') — a totally different action; freezing keeps the membership but pauses the clock, and the days usually get added to the end (기간이 밀리다 / 늘어나다). The dividing line: 정지/홀딩 = temporary pause (you'll return); 해지/환불 = ending it for good. The English-speaker pitfall is the 직역 'freeze' as 얼리다 ('to freeze (into ice)') — 회원권을 얼리다 is nonsense in Korean; the term is 정지하다 or 홀딩하다. Another trap is 정지 ('suspend') vs 중지 ('stop/discontinue') — both exist, but for a membership pause 정지(홀딩) is standard. Also keep 회원권 as the object: 회원권(을) 정지하다.",
+    "nuance": "회원권 잠깐 정지할 수 있어요? is 회원권 (Sino-Korean 會員券, 'membership pass') + 잠깐 ('briefly') + 정지하다 (停止, 'to suspend/halt') + -ㄹ 수 있어요 ('can I?'). The noun to use as the object is 회원권 (the membership card/pass), not 등록 (the act of registering) — you pause the pass, not the act. Two vocabulary tracks for the same thing: the formal 정지하다 ('to suspend') and the widely-used loanword 홀딩하다 / 홀딩 돼요 ('holding', from English). In daily gym interactions, 홀딩 돼요 is actually more common than 정지할 수 있어요. The 잠깐 ('for a moment/briefly') signals temporary intent — crucial because permanent ending is 해지하다 / 탈퇴하다 ('to cancel/withdraw'), a completely different action. When you freeze: the membership clock pauses, and the remaining days get added to the end (기간이 밀리다 or 늘어나다). The English-speaker pitfall is the 직역 of 'freeze': 얼리다 means to freeze water into ice — 회원권을 얼리다 is nonsense; the term is 정지하다 or 홀딩하다. Another trap is 중지 ('stop/discontinue') vs 정지 ('suspend') — both exist, but 정지/홀딩 is standard for a membership hold.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
+        "k": "핵심·직역 vs 뜻",
         "e": "MEANING",
-        "t": "회원권 ('membership (pass)' = 회원 'member' + 권 'ticket/right') + 잠깐 ('for a moment/briefly') + 정지하다 ('to suspend/halt') + -ㄹ 수 있어요 ('can I…?'). The right noun for the membership itself is 회원권 (the pass/right), distinct from 등록 (the ACT of registering) — you 정지 the 회원권, you don't 정지 the 등록; keep 회원권 as the object: 회원권(을) 정지하다. Gyms universally also use the loanword 홀딩 ('holding') for freezing a membership — 홀딩 돼요? ('can I hold it?') is what regulars actually say, often more than 정지. 잠깐 ('briefly') flags it's temporary; freezing keeps the membership but pauses the clock, and the days usually get added to the end (기간이 밀리다 / 늘어나다)."
+        "t": "회원권 (會員券, 'membership pass') + 잠깐 ('briefly') + 정지하다 (停止, 'to suspend') + -ㄹ 수 있어요 ('can I?'). Literal: 'Can I briefly suspend my membership pass?' 잠깐 signals temporary; the equivalent daily gym word is 홀딩 (loanword). The frozen days are added to the end: 기간이 밀리다."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "CONTEXT",
+        "t": "Polite; said to front-desk staff when you'll be away. 반말 to a friend who works there: 회원권 좀 정지할 수 있어? The loanword 홀딩 돼요? is informal but standard in gyms and often faster to say. Mention your reason (출장, 여행, 부상) — staff appreciate it."
+      },
+      {
+        "k": "비슷한 표현",
         "e": "VS",
-        "t": "The dividing line: 정지/홀딩 = temporary pause (you'll return); 해지/탈퇴/환불 = ending it for good. A permanent stop would be 해지/탈퇴 ('cancellation/withdrawal'), a totally different action. Another trap is 정지 ('suspend') vs 중지 ('stop/discontinue') — both exist, but for a membership pause 정지(홀딩) is standard."
+        "t": "정지/홀딩 (temporary freeze — you'll return) vs 해지/탈퇴 (permanent cancellation — you're done) vs 환불 (get money back). These are three distinct outcomes; mixing them up causes real problems at the desk. Also: 정지 (停止, suspend) vs 중지 (中止, stop) — for a membership hold, 정지 is standard."
       },
       {
-        "k": "한자·어원",
-        "e": "ORIGIN",
-        "t": "회원권 is Sino-Korean 會員券; 정지하다 is 停止."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "After freezing: 언제부터 정지돼요? (when does the freeze start?) / 최대 몇 주까지 홀딩 돼요? (how many weeks max?) / 정지 기간 끝나면 자동으로 재개돼요? (does it restart automatically?). To unfreeze early: 정지 해제하고 싶어요.",
+        "chips": ["홀딩 돼요?", "언제부터 정지돼요?", "최대 몇 주까지 홀딩 돼요?", "정지 해제하고 싶어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The 직역 'freeze' as 얼리다 ('to freeze (into ice)') — 회원권을 얼리다 is nonsense in Korean; the term is 정지하다 or 홀딩하다."
+        "t": "Two traps: (1) 얼리다 = 'freeze (into ice)'; membership freezing is 정지하다 or 홀딩하다 — 회원권을 얼리다 is nonsense. (2) confusing 정지/홀딩 (pause, temporary) with 해지/탈퇴 (cancel, permanent) — say 정지 when you plan to come back."
       }
     ],
     "mistakes": [
-      ["Translating 'freeze' as 얼리다.", "얼리다 means to freeze into ice. Freezing a membership is 정지하다 or the loanword 홀딩하다: 회원권 정지할 수 있어요?"],
-      ["Confusing a freeze (정지/홀딩) with cancellation (해지/환불).", "정지/홀딩 temporarily pauses the membership; 해지/탈퇴 ends it. If you only want a pause, say 정지/홀딩, not 환불 or 해지."],
-      ["Saying 등록 정지 instead of 회원권 정지.", "등록 is the act of registering; the thing you pause is the membership 회원권. Say 회원권(을) 정지하다 or 홀딩하다."]
+      "Translating 'freeze' as 얼리다. 얼리다 means to freeze into ice. Freezing a membership is 정지하다 or the loanword 홀딩하다: 회원권 정지할 수 있어요?",
+      "Confusing a freeze (정지/홀딩) with cancellation (해지/환불). 정지/홀딩 temporarily pauses the membership; 해지/탈퇴 ends it permanently. If you only want a pause, say 정지/홀딩, not 환불 or 해지.",
+      "Saying 등록 정지 instead of 회원권 정지. 등록 is the act of registering; the thing you pause is the membership pass 회원권. Say 회원권(을) 정지하다 or 홀딩하다."
     ]
   }
 ]

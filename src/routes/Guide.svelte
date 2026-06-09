@@ -16,6 +16,13 @@
   function back() { unit = null; window.scrollTo(0, 0); }
   function pickTrack(id) { trackId = id; }
   $: vocab = unit ? vocabOf(unit) : [];
+
+  // Prev/next pager within the current track so learners move straight to the
+  // adjacent unit instead of bouncing back to the unit list.
+  $: unitList = track ? (track.units || []) : [];
+  $: uIndex = unit ? unitList.indexOf(unit) : -1;
+  $: prevUnit = uIndex > 0 ? unitList[uIndex - 1] : null;
+  $: nextUnit = uIndex >= 0 && uIndex < unitList.length - 1 ? unitList[uIndex + 1] : null;
 </script>
 
 {#if !unit}
@@ -90,6 +97,21 @@
           <a class="link" href={l.url} target="_blank" rel="noopener noreferrer">{l.label}{#if l.note} — <em>{l.note}</em>{/if}</a>
         {/each}</div></div>
     {/if}
+
+    <nav class="pager">
+      {#if prevUnit}
+        <button class="pg" on:click={() => openUnit(prevUnit)}>
+          <span class="pg-dir">← Previous</span>
+          <span class="pg-title">{prevUnit.title}</span>
+        </button>
+      {:else}<span class="pg-spacer"></span>{/if}
+      {#if nextUnit}
+        <button class="pg next" on:click={() => openUnit(nextUnit)}>
+          <span class="pg-dir">Next →</span>
+          <span class="pg-title">{nextUnit.title}</span>
+        </button>
+      {:else}<span class="pg-spacer"></span>{/if}
+    </nav>
   </section>
 {/if}
 
@@ -144,4 +166,13 @@
   .links { display: grid; gap: 8px; }
   .link { display: inline-block; padding: 11px 14px; border-radius: 12px; background: var(--green-soft); color: var(--green-dark); font-weight: 800; }
   .link em { font-style: normal; font-weight: 600; color: var(--ink-2); }
+
+  .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 6px; padding-top: 18px; border-top: 1px solid var(--border); }
+  .pg { display: grid; gap: 3px; text-align: left; padding: 14px 16px; border-radius: var(--radius); background: var(--surface);
+    border: 1px solid var(--border); box-shadow: var(--shadow-1); transition: transform .1s var(--bounce), border-color .1s; }
+  .pg:hover { transform: translateY(-2px); border-color: var(--green); }
+  .pg.next { text-align: right; }
+  .pg-dir { font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--green-dark); }
+  .pg-title { font-size: 15px; font-weight: 700; color: var(--ink); }
+  @media (max-width: 520px) { .pager { grid-template-columns: 1fr; } .pg-spacer { display: none; } }
 </style>

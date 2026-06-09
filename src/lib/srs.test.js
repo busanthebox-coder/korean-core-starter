@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { addCard, gradeCard, dueIds, summarize } from './srs.js';
+import { addCard, gradeCard, dueIds, summarize, masteryOf } from './srs.js';
 
 const DAY = 24 * 60 * 60 * 1000;
 const T0 = 1_000_000_000_000;
@@ -45,5 +45,23 @@ describe('srs', () => {
     const sum = summarize(s, T0);
     expect(sum.total).toBe(2);
     expect(sum.learned).toBe(1);
+  });
+
+  it('masteryOf reports mastered/total/pct over a given id set', () => {
+    let s = {};
+    s = addCard(s, 'a', T0);
+    s = addCard(s, 'b', T0);
+    s = gradeCard(s, 'a', 'easy', T0); // box 2
+    s = gradeCard(s, 'a', 'good', T0); // box 3 → mastered
+    // chapter has 4 items: a (mastered), b (started, not mastered), c & d (never added)
+    const m = masteryOf(s, ['a', 'b', 'c', 'd']);
+    expect(m.total).toBe(4);
+    expect(m.started).toBe(2);
+    expect(m.mastered).toBe(1);
+    expect(m.pct).toBe(25); // 1 of 4
+  });
+  it('masteryOf is 0% for an empty/unknown set', () => {
+    expect(masteryOf({}, []).pct).toBe(0);
+    expect(masteryOf({}, ['x']).mastered).toBe(0);
   });
 });

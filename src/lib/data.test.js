@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { entries, findEntry, chapters, dialogues, guideTracks, grammar } from './data.js';
+import { entries, findEntry, chapters, dialogues, guideTracks, grammar, levels } from './data.js';
 
 describe('data layer', () => {
   it('loads a large vocabulary pool', () => {
@@ -24,5 +24,27 @@ describe('data layer', () => {
   it('exposes dialogues and guide tracks', () => {
     expect(dialogues.length).toBeGreaterThanOrEqual(8);
     expect(guideTracks.length).toBe(4);
+  });
+
+  describe('truthful B1 tagging', () => {
+    it('promotes the vocabulary first taught in B1 chapters', () => {
+      const b1 = entries.filter((e) => e.level === 'B1');
+      expect(b1.length).toBeGreaterThan(0);
+      // The advertised "A1–B1" range is now real.
+      expect(levels).toContain('B1');
+    });
+    it('only promotes items that are core to a B1 chapter (not reused earlier)', () => {
+      const b1ChapterCore = new Set();
+      const earlierCore = new Set();
+      for (const ch of chapters) {
+        const ids = [...(ch.coreVocabularyIds || []), ...(ch.patternIds || [])];
+        for (const id of ids) (/B1/i.test(ch.level || '') ? b1ChapterCore : earlierCore).add(id);
+      }
+      for (const e of entries) {
+        if (e.level !== 'B1') continue;
+        expect(b1ChapterCore.has(e.id)).toBe(true);
+        expect(earlierCore.has(e.id)).toBe(false);
+      }
+    });
   });
 });

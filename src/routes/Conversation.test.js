@@ -23,11 +23,27 @@ test('roleplay: open a scenario and pick the natural reply', async () => {
   expect(container.querySelector('.chat .row.right')).not.toBeNull();
 });
 
-test('respond mode reveals a model answer', async () => {
+test('respond mode: giving up reveals the model answer (no credit)', async () => {
   const { container } = render(Conversation);
   await fireEvent.click(await screen.findByText('Making weekend plans'));
   await fireEvent.click(screen.getByText('받아치기'));        // switch mode
   expect(container.querySelector('textarea.respond')).not.toBeNull();
-  await fireEvent.click(screen.getByText(/Show a natural reply/));
+  await fireEvent.click(screen.getByText(/Show answer/));
   expect(container.querySelector('.model')).not.toBeNull();   // model answer revealed
+  expect(container.querySelector('.verdict')).toBeNull();     // not graded → no verdict banner
+});
+
+test('respond mode: a correct typed reply is graded ✓', async () => {
+  const { container } = render(Conversation);
+  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await fireEvent.click(screen.getByText('받아치기'));
+
+  // The model (correct) reply for the first you-turn, typed verbatim, should grade as correct.
+  const model = container.querySelector('textarea.respond');
+  // Mirror the app's first model reply; spacing/punctuation are normalized away.
+  await fireEvent.input(model, { target: { value: ' 별거 없는데, 왜? ' } });
+  await fireEvent.click(screen.getByText(/Check/));
+  const verdict = container.querySelector('.verdict');
+  expect(verdict).not.toBeNull();
+  expect(verdict.classList.contains('ok')).toBe(true);
 });

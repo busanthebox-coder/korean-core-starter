@@ -1,5 +1,5 @@
 <script>
-  import { entries } from '../lib/data.js';
+  import { entries, levels } from '../lib/data.js';
   import { filters } from '../lib/stores.js';
   import { filterEntries, facetValues } from '../lib/search.js';
   import EntryCard from '../lib/components/EntryCard.svelte';
@@ -7,7 +7,7 @@
   import Sheet from '../lib/components/Sheet.svelte';
 
   const TYPES = [['word', 'Words'], ['expression', 'Expressions'], ['pattern', 'Patterns']];
-  const LEVELS = ['A1', 'A2'];
+  const LEVELS = levels;
   const POS = facetValues(entries, (e) => e.partOfSpeech).map((f) => f.value);
   const TOPICS = facetValues(entries, (e) => e.topic).slice(0, 10).map((f) => f.value);
 

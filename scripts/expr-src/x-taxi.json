@@ -29,35 +29,47 @@
       [
         "기사님, 이 주소로 가 주세요.",
         "Driver, please take me to this address.",
-        "기사님 is the standard polite way to address a taxi driver"
+        "기사님 is the standard respectful way to address a taxi driver — never 아저씨"
       ],
       [
-        "이 주소로 가 주세요. 내비에 찍어 주시면 돼요.",
-        "Please go to this address. You can just put it in the GPS.",
-        "내비 = navigation/GPS; offering to let the driver enter it"
+        "A: 이 주소로 가 주세요. 내비에 찍어 주시면 돼요. / B: 네, 알겠습니다.",
+        "A: Please take me to this address — you can just put it in the GPS. / B: Got it.",
+        "내비 is the everyday word for car navigation/GPS; offering to let the driver input it is a thoughtful move"
       ],
       [
         "이 주소로 가 주세요. 영어로 되어 있는데 제가 읽어 드릴게요.",
         "Please take me to this address. It's in English, but I'll read it for you.",
-        "Real situation when your address is only in English on a booking app"
+        "Real situation when your booking confirmation shows only a romanized or English address"
       ]
     ],
-    "nuance": "This is the opening line you say to a taxi driver as you get in and show or read an address, customer-to-driver, and the politeness is plain 존댓말 (가 주세요 = 'please go'), which is exactly right for any stranger providing a service. To sound warmer or more formal add 기사님 ('driver, sir/ma'am') at the front and use 가 주시겠어요? The 반말 form 가 줘 is only for a friend who happens to be driving you. The nearest alternative is 여기로 가 주세요 ('go to here'), which you use when pointing at a map pin rather than reading out a full street address — 이 주소 names the written address, 여기 points at a spot. The classic English-speaker mistake is dropping the helper verb and saying 이 주소 가요, which sounds like you are narrating your own plan ('I'm going to this address') rather than requesting the driver to take you there; the 주세요 ('do it for me') is what makes it a polite request.",
+    "nuance": "This is the opening line you say to a taxi driver the moment you get in, showing or reading a written destination — customer-to-driver, always 존댓말, never 반말 to a stranger. The structure is [destination] + 로/으로 + 가 주세요: the particle 로 marks the direction, and 가 주세요 (가다 + 주세요) is the polite request form meaning 'please do the going for me'. To sound warmer or more formal, prefix with 기사님 and upgrade to 가 주시겠어요? The 반말 form 가 줘 is exclusively for a friend at the wheel. The dividing line with 여기로 가 주세요 is what you're handing over: 이 주소 names a typed or written address, while 여기 points at a map spot — if you're reading out numbers use 이 주소로; if you're tapping a pin use 여기로. An English speaker's first instinct is to drop the helper verb and say 이 주소 가요, which sounds like you're narrating your own movement ('I'm going to this address') rather than asking the driver to take you; the 주세요 is the crucial request morpheme.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "The opening line you say to a taxi driver as you get in and show or read an address, customer-to-driver. The politeness is plain 존댓말 (가 주세요 = 'please go'), exactly right for any stranger providing a service. To sound warmer or more formal add 기사님 ('driver, sir/ma'am') at the front and use 가 주시겠어요? The 반말 form 가 줘 is only for a friend who happens to be driving you."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "이 주소로 가 주세요 breaks down as: 이 주소 'this address' + 로 (direction particle) + 가다 'go' + 주세요 'please do it for me'. The literal sense and the real sense match — it IS a polite direction command — but the 주세요 is not optional courtesy fluff; it's what grammatically converts the statement into a request.",
+        "chips": ["이 주소로", "가 주세요", "가 주시겠어요?"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternative is 여기로 가 주세요 ('go to here'), which you use when pointing at a map pin rather than reading out a full street address. 이 주소 names the written address; 여기 points at a spot."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver, the moment you board. Plain 존댓말 (가 주세요) is exactly right; upgrade to 가 주시겠어요? if you want extra warmth. Prefix with 기사님 to address the driver respectfully. The 반말 가 줘 is only for a friend driving you — never to a professional driver."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "여기로 가 주세요 is the nearest alternative. The dividing line: 이 주소 refers to a typed or written street address you read aloud, whereas 여기 points at a visual map location. If you're showing a pinned map use 여기로; if you're reading out numbers or showing text use 이 주소로."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "기사님, 이 주소로 가 주세요 (warmest); 이 주소로 가 주시겠어요? (softest/most formal); 이 주소로 가 줘 (반말, friend only); 이 주소 아세요? (checking before departure).",
+        "chips": ["가 주세요", "가 주시겠어요?", "가 줘"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The classic English-speaker mistake is dropping the helper verb and saying 이 주소 가요, which sounds like you are narrating your own plan ('I'm going to this address') rather than requesting the driver to take you there. The 주세요 ('do it for me') is what makes it a polite request."
+        "t": "Dropping 주세요 and saying 이 주소 가요 — that reads as 'I'm going to this address', a self-report, not a request. The entire politeness and the grammatical direction of the action hinge on 가 주세요. Another trap: using the topic particle 는 (이 주소는 가 주세요) which breaks the syntax — keep 이 주소로 as a directional phrase."
       }
     ],
     "mistakes": [
@@ -96,35 +108,47 @@
       [
         "여기로 가 주세요.",
         "Please take me here.",
-        "The bare request while tapping a location on the screen"
+        "The bare request while tapping a location on the screen — the visual gesture replaces the need for an address"
       ],
       [
-        "여기로 가 주세요. 지도에 표시해 놨어요.",
-        "Please take me here. I've marked it on the map.",
-        "표시하다 = to mark; you've pinned the spot in advance"
+        "A: 여기로 가 주세요. 지도에 표시해 놨어요. / B: 아, 이쪽이요? 알겠습니다.",
+        "A: Please take me here — I've marked it on the map. / B: Ah, this direction? Got it.",
+        "표시하다 = to mark; confirming the spot before driving prevents ending up at the wrong entrance"
       ],
       [
         "여기로 가 주세요. 큰길 말고 골목 안쪽이에요.",
-        "Please take me here. It's not on the main road, it's inside the alley.",
-        "Helping the driver who might stop at the wrong, easier spot"
+        "Please take me here. It's not on the main road — it's inside the alley.",
+        "Real situation: the destination is set back from the road; without this note the driver stops short"
       ]
     ],
-    "nuance": "You say this to a driver while physically showing a point — a dropped pin, a photo of a place, a spot on a paper map — customer-to-driver, in plain 존댓말, which suits any service stranger. Make it gentler with 가 주시겠어요?; drop to 반말 가 줘 only with a friend at the wheel. The dividing line with 이 주소로 가 주세요 is what you're pointing at: 여기 ('here') points at a location or pin, while 이 주소 names a written street address you read aloud — if you're holding up a map you want 여기, if you're reading numbers you want 이 주소. The English-speaker error is to say 여기 가 주세요 without the 로 particle; while Koreans do drop it casually, the clean, taught form marks the destination with 로/으로, so 여기로 가 주세요. Another trap is using 이리 (a stiff, literary 'this way') instead of the everyday 여기.",
+    "nuance": "You say this when you physically show the driver a point — a dropped pin, a screenshot, a paper map — rather than reading out a street address. The 로 particle marks the direction ('toward here'), and 가 주세요 is the polite 존댓말 request form. Upgrade to 가 주시겠어요? for extra courtesy; drop to 반말 가 줘 only with a friend behind the wheel. The key dividing line with 이 주소로 가 주세요 is what you're presenting: 여기 is a deictic pointer ('this spot right here'), while 이 주소 names a written address. In practice: map pin → 여기로, written text → 이 주소로. Be careful not to drop the 로 particle; while Koreans do omit it in very casual speech, the clean learner form is 여기로 가 주세요, and the particle makes the destination role unambiguous. Also avoid substituting 이리 ('this way'), which is stiff and literary — 여기 is the everyday word. An English speaker's trap is inverting the word order to sound like English ('가 주세요 여기로') — Korean keeps the destination phrase before the verb.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this to a driver while physically showing a point — a dropped pin, a photo of a place, a spot on a paper map — customer-to-driver, in plain 존댓말, which suits any service stranger. Make it gentler with 가 주시겠어요?; drop to 반말 가 줘 only with a friend at the wheel."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "여기로 가 주세요 = 'toward here, please go (for me)'. The literal and real meanings align — it is a direction command — but the deictic 여기 does real work: it means 'this exact spot I am pointing at', not just 'here' in the abstract. Without a physical gesture (phone screen, map, pointed finger) the sentence is incomplete.",
+        "chips": ["여기로", "가 주세요", "가 주시겠어요?"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The dividing line with 이 주소로 가 주세요 is what you're pointing at: 여기 ('here') points at a location or pin, while 이 주소 names a written street address you read aloud. If you're holding up a map you want 여기; if you're reading numbers you want 이 주소. Also avoid 이리, a stiff, literary 'this way', instead of the everyday 여기."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver while showing a location — 존댓말 throughout; add 기사님 to open respectfully. Soften with 가 주시겠어요?. 반말 가 줘 is only for a friend. This is more visual/gestural than 이 주소로 가 주세요, so it works best when you can show the screen."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "이 주소로 가 주세요 vs 여기로 가 주세요: the first is for a written address you read; the second is for a visual pin you show. Also avoid 이리 가 주세요 ('please go this way') — 이리 sounds formal/literary; 여기로 is everyday Korean."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "여기로 가 주시겠어요? (softest); 여기로 가 줘 (반말); 여기 어떻게 가요? (asking the route). If the pin is far ahead and you want to note it's inside an area: 여기 안쪽으로 가 주세요.",
+        "chips": ["여기로 가 주세요", "여기로 가 주시겠어요?", "여기 안쪽으로"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker error is to say 여기 가 주세요 without the 로 particle. While Koreans do drop it casually, the clean, taught form marks the destination with 로/으로, so 여기로 가 주세요."
+        "t": "Dropping the 로 particle: saying 여기 가 주세요 is commonly heard but the standard taught form includes 로. A bigger trap is using 이리 instead of 여기 — 이리 is literary and sounds stiff. Also note 여기에서 가 주세요 is wrong: 에서 marks the origin ('from here'), not the destination — for a destination use 여기로."
       }
     ],
     "mistakes": [
@@ -163,41 +187,47 @@
       [
         "여기서 세워 주세요.",
         "Please stop here.",
-        "The bare instruction as you arrive"
+        "The bare instruction as you recognize your destination — 세워 주세요 is all you need; no extra words required"
       ],
       [
-        "아, 여기서 세워 주세요. 다 왔어요.",
-        "Oh, stop here please. We're here.",
-        "아 signals you just recognized the spot"
+        "A: 아, 여기서 세워 주세요. 다 왔어요. / B: 네, 잠깐만요.",
+        "A: Oh, stop here please — we're here. / B: Sure, just a moment.",
+        "아 signals the moment you spot your stop; pairing 다 왔어요 confirms it for the driver"
       ],
       [
         "저기 신호등 지나서 바로 여기서 세워 주세요.",
         "Right after that traffic light, please stop here.",
-        "Giving the driver a landmark so he slows in time"
+        "Real situation: giving the driver a landmark so he starts slowing in time — critical on fast roads"
       ]
     ],
-    "nuance": "This tells the driver to pull over and stop where you are now, customer-to-driver, in plain 존댓말 (세워 주세요 = 'please make it stop for me'). Soften it with 좀 and 세워 주시겠어요?; the 반말 세워 줘 is for a friend. Note the causative verb: 서다 means 'to stop (oneself)', but you need 세우다 ('to bring to a stop'), because you are asking the driver to stop the car, not asking the car to halt on its own. The nearest alternatives are 저 앞에서 내릴게요 ('I'll get off up ahead'), which announces where you'll exit rather than commanding a stop, and 여기 세워 주세요 without 서 — Koreans say both 여기서 and 여기에서, and 여기서 is the natural contraction. The English-speaker mistake is saying 여기서 서 주세요 with the intransitive 서다, which sounds like you're telling the driver to stand still personally; use the causative 세워 주세요.",
+    "nuance": "This tells a taxi driver to pull over right where you are, customer-to-driver, in plain 존댓말. The key verb is the causative 세우다 — not the intransitive 서다. 서다 means 'the car/person stops on its own', but you are asking the driver to bring the vehicle to a stop, so you need the causative: 세우다 ('to make [it] stand still'). 세워 주세요 = 'please make it stop for me'. For extra softness add 좀 or switch to 세워 주시겠어요?; 반말 is 세워 줘. The nearest alternative is 저 앞에서 내릴게요 ('I'll get off up ahead'), which announces your own exit rather than commanding a stop — the dividing line is agency: 세워 주세요 orders the driver's action; 내릴게요 describes your own. Koreans also say 여기 세워 주세요 (without 서), which is the contracted form of 여기에서 — both are natural. The English-speaker's error is reaching for 서다 and saying 여기서 서 주세요; that sounds like you're telling the driver to stand up personally. Another mistake is 멈춰 주세요, which fits stopping any action or machine in general but is not the idiomatic taxi phrase.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Tells the driver to pull over and stop where you are now, customer-to-driver, in plain 존댓말 (세워 주세요 = 'please make it stop for me'). Soften it with 좀 and 세워 주시겠어요?; the 반말 세워 줘 is for a friend."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "여기서 세워 주세요 = 'at/from here, please make (it) stand still for me'. The literal causative sense is transparent: you are directing the driver to halt the vehicle. The verb choice — 세우다 (causative) not 서다 (intransitive) — is not optional; it is grammatically required because you are causing the car to stop, not waiting for it to stop itself.",
+        "chips": ["세우다 (causative)", "서다 (intransitive — wrong)", "세워 주세요"]
       },
       {
-        "k": "활용",
-        "e": "FORMS",
-        "t": "Note the causative verb: 서다 means 'to stop (oneself)', but you need 세우다 ('to bring to a stop'), because you are asking the driver to stop the car, not asking the car to halt on its own.",
-        "chips": ["세우다", "세워 주세요", "세워 줘", "세워 주시겠어요?"]
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver as you approach or reach your stop — 존댓말 throughout. Add 좀 or upgrade to 세워 주시겠어요? to soften; 반말 세워 줘 is for a friend only. If you want to signal ahead of time, tack on a landmark: 저기 신호등 지나서 세워 주세요."
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternatives are 저 앞에서 내릴게요 ('I'll get off up ahead'), which announces where you'll exit rather than commanding a stop, and 여기 세워 주세요 without 서 — Koreans say both 여기서 and 여기에서, and 여기서 is the natural contraction."
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "저 앞에서 내릴게요 ('I'll get off up ahead') announces your own exit — softer and less commanding. 세워 주세요 commands the driver directly. 멈춰 주세요 is technically correct but feels like stopping a machine mid-action; 세워 주세요 is the fixed taxi phrase. 여기서 = 여기에서 (contracted); both are heard."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "여기서 좀 세워 주시겠어요? (politest); 여기서 잠깐 세워 주세요 (brief stop); 저기서 세워 주세요 (stop over there); 여기서 세워 줘 (반말).",
+        "chips": ["세워 주세요", "세워 주시겠어요?", "잠깐 세워 주세요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is saying 여기서 서 주세요 with the intransitive 서다, which sounds like you're telling the driver to stand still personally; use the causative 세워 주세요."
+        "t": "Saying 여기서 서 주세요 (using intransitive 서다) — 서다 means the subject stops itself; to make the car stop you need the causative 세우다. Also, 멈춰 주세요 is not the idiomatic phrase for pulling over a taxi — 세워 주세요 is."
       }
     ],
     "mistakes": [
@@ -236,41 +266,47 @@
       [
         "저 앞에서 내릴게요.",
         "I'll get off up ahead.",
-        "The bare announcement pointing forward"
+        "The bare announcement pointing forward — the -ㄹ게요 ending signals your own intention, which is softer than a command"
       ],
       [
-        "저 앞에서 내릴게요. 거기 편의점 앞에요.",
-        "I'll get off up ahead, in front of that convenience store there.",
-        "Pinpointing with a visible shop"
+        "저 앞에서 내릴게요. 거기 편의점 앞이에요.",
+        "I'll get off up ahead, in front of that convenience store.",
+        "Pinpointing with a visible landmark so the driver doesn't overshoot"
       ],
       [
-        "지금 세우긴 좀 그렇고, 저 앞에서 내릴게요.",
-        "It's a bit awkward to stop now, so I'll get off just ahead.",
-        "Real situation when the current spot is a no-stopping zone"
+        "A: 지금 세우긴 좀 그렇고, 저 앞에서 내릴게요. / B: 네, 저기 편의점 앞에요?",
+        "A: It's a bit awkward to stop now, so I'll get off just ahead. / B: Sure, in front of that convenience store?",
+        "Real situation when the current spot is a no-stopping zone — the driver confirms the landmark"
       ]
     ],
-    "nuance": "You say this to tell the driver where you intend to get out, customer-to-driver, in plain 존댓말. The -ㄹ게요 ending signals your own intention/decision ('I'll go ahead and get off'), which is softer and more natural here than barking a command. The 반말 form is 내릴게; the formal/격식 form 내리겠습니다 suits a very stiff or business-car setting. The dividing line with 여기서 세워 주세요 is who the verb is about: 세워 주세요 commands the driver to stop the car, while 내릴게요 describes your own action of getting off — Koreans often pair them ('저 앞에서 세워 주세요' to command, '저 앞에서 내릴게요' to announce). The English-speaker mistake is translating 'I want to get off' as 내리고 싶어요, which is grammatically fine but sounds like a child stating a desire; the adult, situation-appropriate form is the intention ending 내릴게요. Also note 저 앞 ('that spot ahead, away from us') versus 이 앞 ('right in front of us') — 저 is what you point to a short distance forward.",
+    "nuance": "You use this to tell the driver you'll be getting out at a spot a short distance ahead, rather than commanding a stop with 세워 주세요. The verb is 내리다 ('to get off/alight'), and the -ㄹ게요 ending (volitional intention) signals your own decision — 'I'll go ahead and get off there' — which is naturally polite and non-confrontational. Formal/격식 is 내리겠습니다; 반말 is 내릴게. The critical distance word is 저 앞 ('that spot ahead, away from us') — 저 points to something visible but not immediately beside you, like a crosswalk or a shop sign you can see from the cab. Use 이 앞 only if the spot is right in front of your current position. The dividing line with 여기서 세워 주세요 is agency: 세워 주세요 commands the driver to stop the car; 내릴게요 declares your own action of exiting, leaving the driver to choose how and where to slow. An English speaker's instinct is to say 내리고 싶어요 ('I want to get off'), but this sounds tentative like a child expressing a preference; the adult, situation-natural form is the volitional -ㄹ게요. Another trap is using 타다 ('to board') or 내려가다 ('to go down') — exiting a vehicle is simply 내리다.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this to tell the driver where you intend to get out, customer-to-driver, in plain 존댓말. Also note 저 앞 ('that spot ahead, away from us') versus 이 앞 ('right in front of us') — 저 is what you point to a short distance forward."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "저 앞에서 내릴게요 = 'at that spot up ahead, I will get off'. 저 앞 means a visible but not-immediate point in the near distance. The -ㄹ게요 ending marks a personal intention/decision ('I will go ahead and ~'), not a command — this is what makes it feel cooperative and gentle rather than demanding.",
+        "chips": ["-ㄹ게요 (intention)", "내리다", "저 앞 vs 이 앞"]
       },
       {
-        "k": "활용",
-        "e": "FORMS",
-        "t": "The -ㄹ게요 ending signals your own intention/decision ('I'll go ahead and get off'), which is softer and more natural here than barking a command. The 반말 form is 내릴게; the formal/격식 form 내리겠습니다 suits a very stiff or business-car setting.",
-        "chips": ["내릴게요", "내릴게", "내리겠습니다"]
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver as you're nearing your stop — 존댓말 throughout. Upgrade to 내리겠습니다 for very formal situations (business car). 반말 내릴게 only with a friend. Pair with a landmark (편의점, 횡단보도) so the driver can plan the stop safely."
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The dividing line with 여기서 세워 주세요 is who the verb is about: 세워 주세요 commands the driver to stop the car, while 내릴게요 describes your own action of getting off. Koreans often pair them ('저 앞에서 세워 주세요' to command, '저 앞에서 내릴게요' to announce)."
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "여기서 세워 주세요 commands the driver to stop; 저 앞에서 내릴게요 announces your own exit — the latter is softer and often used when you're still moving and just signaling intent. 저 앞에서 세워 주세요 (stop command) vs 저 앞에서 내릴게요 (exit announcement) — both are natural but carry different perspectives."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "저 앞 횡단보도에서 내릴게요 (named landmark); 저기 편의점 앞에서 내릴게요 (shop reference); 거의 다 왔어요, 저 앞에서 내릴게요 (paired with arrival signal); 내리겠습니다 (격식).",
+        "chips": ["내릴게요", "내리겠습니다", "내릴게"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is translating 'I want to get off' as 내리고 싶어요, which is grammatically fine but sounds like a child stating a desire; the adult, situation-appropriate form is the intention ending 내릴게요."
+        "t": "Saying 내리고 싶어요 ('I want to get off') — this sounds like expressing a wish rather than stating a plan; use -ㄹ게요 for a here-and-now intention. Also, confusing 저 앞 (visible ahead) with 이 앞 (right in front of you now) — pick based on actual distance."
       }
     ],
     "mistakes": [
@@ -307,37 +343,49 @@
     ],
     "examples": [
       [
-        "거기까지 얼마나 걸려요?",
-        "How long does it take to get there?",
-        "까지 = 'up to/to', marking the destination"
+        "공항까지 얼마나 걸려요?",
+        "How long does it take to the airport?",
+        "까지 = 'up to/as far as'; 공항까지 pins the destination precisely — always more natural than 공항에"
       ],
       [
-        "공항까지 얼마나 걸려요? 비행기 시간이 좀 빠듯해서요.",
-        "How long to the airport? My flight time is a bit tight.",
-        "Explaining why you're anxious about the time"
+        "A: 공항까지 얼마나 걸려요? 비행기 시간이 좀 빠듯해서요. / B: 지금 막히면 40분, 안 막히면 25분이요.",
+        "A: How long to the airport? My flight time is a bit tight. / B: With traffic maybe 40 mins, without 25.",
+        "Explaining your time pressure prompts the driver to give a more useful range estimate"
       ],
       [
         "이 시간에 강남까지 얼마나 걸려요? 차 많이 막혀요?",
         "How long to Gangnam at this hour? Is there a lot of traffic?",
-        "Real situation asking about time plus traffic together"
+        "Real situation: 이 시간에 ('at this hour') signals you're worried about rush-hour — the follow-up question is natural"
       ]
     ],
-    "nuance": "This asks the driver how much time the ride will take, customer-to-driver, in plain 존댓말. The verb 걸리다 here means 'to take (time)' and is the fixed phrase for durations — 얼마나 걸려요? is THE way to ask 'how long'. Make it tentative with 얼마나 걸릴까요? (inviting a guess); 반말 is 얼마나 걸려? Do not confuse this with 얼마예요? ('how much is it?'), which asks about money — 걸려요 is time, 예요 is price. The English-speaker mistake is mapping 'how long' onto length and saying 얼마나 길어요?, which literally asks about physical length and is wrong for duration; time always pairs with 걸리다. Another trap is 시간 얼마나 있어요?, which asks 'how much time do you have', a totally different meaning. Add the destination with 까지 (e.g. 공항까지 얼마나 걸려요?).",
+    "nuance": "This asks the taxi driver how long the ride will take, customer-to-driver, in plain 존댓말. The verb 걸리다 means 'to take (time/effort)' — it is the dedicated Korean verb for duration and has no English cognate, so it must be learned as a fixed collocation: 시간이 얼마나 걸려요? or just 얼마나 걸려요?. Make it more tentative and polite with 얼마나 걸릴까요? (inviting the driver's estimate); 반말 is 얼마나 걸려?. Pin the destination with the particle 까지: 공항까지 얼마나 걸려요?. The dividing line to watch carefully: 얼마예요? (얼마 alone) asks about MONEY (price), while 얼마나 걸려요? asks about TIME (duration) — the presence of 나 and 걸리다 is what fixes this as a time question. The English-speaker's most common error is reaching for 길다 (physical length) and asking 얼마나 길어요? — this literally asks 'how long (in size) is it?' and makes no sense for a trip duration. Another trap is 시간이 얼마나 있어요?, which turns the question around and asks 'how much time do you have?', a completely different and confusing meaning.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "This asks the driver how much time the ride will take, customer-to-driver, in plain 존댓말. The verb 걸리다 here means 'to take (time)' and is the fixed phrase for durations — 얼마나 걸려요? is THE way to ask 'how long'. Make it tentative with 얼마나 걸릴까요? (inviting a guess); 반말 is 얼마나 걸려? Add the destination with 까지 (e.g. 공항까지 얼마나 걸려요?)."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "얼마나 걸려요? = literally 'how much does it hang/take?'. 걸리다 originally means 'to hang/be suspended', but in time expressions it is a fixed idiom meaning 'to take (time)'. There is no structural transparency here — English speakers must simply memorize 걸리다 as the time-duration verb.",
+        "chips": ["걸리다 = take (time)", "얼마나 = how much", "까지 = up to/as far as"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "Do not confuse this with 얼마예요? ('how much is it?'), which asks about money — 걸려요 is time, 예요 is price. Another trap is 시간 얼마나 있어요?, which asks 'how much time do you have', a totally different meaning."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver in 존댓말 at the start of the ride. Add 공항까지, 강남까지 etc. to pin the endpoint. Soften with 얼마나 걸릴까요? when you want to invite an estimate rather than demand a number. 반말 얼마나 걸려? to a friend."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "얼마예요? = asks price (money). 얼마나 걸려요? = asks duration (time). They are easy to confuse because 얼마 appears in both — the presence of 나 and 걸리다 signals time. 시간이 얼마나 있어요? = 'how much time do you have?' — a completely different question directed at the other person's schedule, not your trip."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "공항까지 얼마나 걸려요? (with destination); 얼마나 걸릴까요? (softer estimate request); 얼마나 걸릴 것 같아요? (asking the driver's guess); 보통 얼마나 걸려요? (asking the usual/average time).",
+        "chips": ["얼마나 걸려요?", "얼마나 걸릴까요?", "까지 얼마나 걸려요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is mapping 'how long' onto length and saying 얼마나 길어요?, which literally asks about physical length and is wrong for duration; time always pairs with 걸리다."
+        "t": "Saying 얼마나 길어요? — 길다 is physical length ('how long is this rope?'), not duration. Time duration always uses 걸리다. Another error: using 에 instead of 까지 for the destination (공항에 얼마나 걸려요?) — idiomatic Korean pairs 까지 with 걸리다 for 'how long to [place]'."
       }
     ],
     "mistakes": [
@@ -374,37 +422,49 @@
     ],
     "examples": [
       [
-        "좀 빨리 가 주세요.",
-        "Please hurry a little.",
-        "The bare urgent request — note 좀 keeps it polite"
-      ],
-      [
         "죄송한데 좀 빨리 가 주세요. 시간이 없어서요.",
         "Sorry, but please hurry. I'm short on time.",
-        "죄송한데 apologizes in advance for pressing him"
+        "죄송한데 apologizes before the imposition; always adding a reason makes this polite rather than rude"
       ],
       [
-        "기차 시간이 다 돼서요, 좀 빨리 가 주실 수 있을까요?",
-        "My train's about to leave, so could you possibly go a bit faster?",
-        "Real situation — softening a hurry request with a reason and 수 있을까요"
+        "A: 기차 시간이 다 돼서요, 좀 빨리 가 주실 수 있을까요? / B: 최대한 해 볼게요.",
+        "A: My train's about to leave, could you possibly go a bit faster? / B: I'll do my best.",
+        "수 있을까요? is the softest possible form; the driver's reply 최대한 해 볼게요 is the natural response"
+      ],
+      [
+        "좀 빨리 가 주세요. 지금 막히면 비행기 놓칠 것 같아요.",
+        "Please hurry a bit. If we hit traffic now I might miss my flight.",
+        "Real situation: giving a concrete consequence (missing a flight) frames it as urgency, not rudeness"
       ]
     ],
-    "nuance": "You say this to urge the driver to speed up, customer-to-driver, in 존댓말, and the little word 좀 ('a bit/please') is essential — without it 빨리 가 주세요 can sound like a curt order. For extra courtesy use 서둘러 주시겠어요? or attach a reason ('시간이 없어서요'); 반말 is 빨리 가 줘. The nearest alternative is 서둘러 주세요 ('please hurry'), which focuses on haste in general, while 빨리 가 주세요 specifically means drive faster — both are fine, but Koreans soften either with 좀. The English-speaker mistake is the bare imperative 빨리 가요 or even 빨리!, which to a stranger is rude; you need 좀 ... 주세요 to make it a polite request, and prefacing with 죄송한데 makes pressing him feel considerate. Be aware drivers can only do so much in traffic, so Koreans frame it as a request, not a demand.",
+    "nuance": "You say this to ask the driver to increase speed, customer-to-driver, in 존댓말, and the word 좀 ('a little / please') is essential — it converts what would otherwise be a curt order (빨리 가 주세요) into a polite request. Without 좀 the phrase can feel demanding to Korean ears. For maximum courtesy, use 서둘러 주시겠어요? or attach a reason (시간이 없어서요, 비행기가 있어서요); 반말 is 빨리 가 줘. The dividing line with 서둘러 주세요 is nuance: 빨리 가 주세요 specifically targets driving speed, while 서둘러 주세요 ('please hurry') covers haste more generally — Koreans often soften both with 좀. An English-speaker's first move is the bare imperative 빨리! or 빨리 가요, both of which land abruptly to a stranger; 좀 ... 주세요 is the politeness wrapper you cannot skip. Prefacing with 죄송한데 ('sorry, but') is a cultural nicety — acknowledging that pressing someone is slightly burdensome — and makes the request feel considerate. Note: Korean drivers are constrained by traffic and law, so Koreans always frame urgency as a polite request, never a demand.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this to urge the driver to speed up, customer-to-driver, in 존댓말, and the little word 좀 ('a bit/please') is essential — without it 빨리 가 주세요 can sound like a curt order. For extra courtesy use 서둘러 주시겠어요? or attach a reason ('시간이 없어서요'); 반말 is 빨리 가 줘. Be aware drivers can only do so much in traffic, so Koreans frame it as a request, not a demand."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "좀 빨리 가 주세요 = 'please go a little quickly (for me)'. The literal meaning is close to the real one, but 좀 does double duty: it means 'a little' (softening the degree) AND functions as a politeness marker similar to 'please'. Remove 좀 and the same request becomes noticeably more blunt.",
+        "chips": ["좀 (softener + please)", "빨리 (quickly)", "가 주세요 (please go for me)"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternative is 서둘러 주세요 ('please hurry'), which focuses on haste in general, while 빨리 가 주세요 specifically means drive faster. Both are fine, but Koreans soften either with 좀."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver mid-ride when you're running late — 존댓말 always, with 좀 mandatory. Add 죄송한데 (sorry, but) as a cultural opening. Give a reason (시간이 없어서요) to make it feel like information rather than a demand. 반말 빨리 가 줘 only with a friend."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "서둘러 주세요 = 'please hurry' (general haste); 빨리 가 주세요 = specifically drive faster. Both are fine but need 좀. 최대한 빨리 가 주세요 escalates the urgency for real emergencies (hospital, flight). 천천히 가 주세요 ('please go slowly') is the opposite."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "죄송한데 좀 빨리 가 주시겠어요? (politest); 최대한 빨리 가 주세요 (most urgent); 조금만 서둘러 주세요 (gentle alternative); 빨리 가 줘 (반말).",
+        "chips": ["좀 빨리 가 주세요", "최대한 빨리", "서둘러 주시겠어요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is the bare imperative 빨리 가요 or even 빨리!, which to a stranger is rude; you need 좀 ... 주세요 to make it a polite request, and prefacing with 죄송한데 makes pressing him feel considerate."
+        "t": "Saying just 빨리! or 빨리 가요 to a stranger — these read as blunt commands. The full polite form 좀 빨리 가 주세요 is required. Using 빠르게 instead of 빨리 is also off — 빠르게 is formal/written; the everyday spoken adverb is 빨리."
       }
     ],
     "mistakes": [
@@ -443,35 +503,47 @@
       [
         "카드 돼요?",
         "Can I pay by card?",
-        "The bare two-word check before the ride or at the end"
+        "The complete two-word check — 카드 돼요? is a full, polite sentence; nothing more is needed"
       ],
       [
-        "현금이 없는데 카드 돼요?",
-        "I don't have cash — does card work?",
-        "Explaining why you're asking"
+        "A: 현금이 없는데 카드 돼요? / B: 네, 카드 되세요.",
+        "A: I don't have cash — does card work? / B: Yes, card is fine.",
+        "Explaining why you're asking removes any awkwardness; the driver's 되세요 is the honorific-elevated response form"
       ],
       [
         "카드 돼요? 아니면 계좌이체라도 될까요?",
         "Can I pay by card? Or could I even do a bank transfer?",
-        "Real situation offering a backup payment method"
+        "Real situation offering a backup: 계좌이체 (bank transfer) is increasingly used via KakaoBank/Toss for taxi fares"
       ]
     ],
-    "nuance": "This asks whether the taxi takes card payment, customer-to-driver, in casual 존댓말. The verb 되다 here means 'to be possible/to work', so 카드 돼요? literally is 'does card work?' — a very common, idiomatic way to ask if something is accepted. The fuller polite version is 카드 결제 가능할까요?; 반말 is 카드 돼?. The nearest alternative is 카드로 계산해도 돼요? ('may I pay by card?'), which is more explicit but longer — in a quick taxi exchange the short 카드 돼요? is what Koreans actually say. The English-speaker mistake is translating 'can I' as 할 수 있어요 and producing 카드 할 수 있어요?, which sounds like 'am I able to do card' and is unnatural; the idiom uses 되다, not 할 수 있다. Also avoid 카드 받아요? ('do you receive card?') — understandable but the native phrasing is 돼요?.",
+    "nuance": "This asks whether the cab accepts card payment, customer-to-driver, in casual 존댓말. The verb is 되다 ('to work / to be possible'), not 할 수 있다 — 카드 돼요? literally means 'does card work (here)?', which is exactly how Koreans ask if something is accepted or feasible. The fuller polite form is 카드 결제 가능할까요?; 반말 is 카드 돼?. The most explicit alternative is 카드로 계산해도 돼요? ('may I settle up by card?'), but in the speed of a taxi exit the clipped 카드 돼요? is what you'll hear and use. Note: while all Korean taxis are legally required to accept cards, in practice some older drivers or certain cabs may have faulty readers — so this question remains relevant. The English-speaker's trap is mapping 'can I' onto 할 수 있다 and producing 카드 할 수 있어요?, which sounds like asking about your own ability to do card-related actions, not whether the service accepts it. Also watch spelling: the correct form is 돼요 (되+어요 contracted), not 되요, which is one of the most common native-speaker typos.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "This asks whether the taxi takes card payment, customer-to-driver, in casual 존댓말. The verb 되다 here means 'to be possible/to work', so 카드 돼요? literally is 'does card work?' — a very common, idiomatic way to ask if something is accepted. The fuller polite version is 카드 결제 가능할까요?; 반말 is 카드 돼?."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "카드 돼요? literally = 'does card become/work?'. 되다 in this usage means 'to be feasible / to be accepted'. The phrase skips the subject (카드로 결제가) and the verb complement (가능해요?) entirely — context (a taxi, end of ride) makes it unambiguous. This radical compression is normal in spoken Korean.",
+        "chips": ["되다 = be possible/work", "카드로 = by card (method)", "돼요 not 되요"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternative is 카드로 계산해도 돼요? ('may I pay by card?'), which is more explicit but longer — in a quick taxi exchange the short 카드 돼요? is what Koreans actually say. Also avoid 카드 받아요? ('do you receive card?') — understandable but the native phrasing is 돼요?."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver, ideally before you board or at the end of the ride. 존댓말 카드 돼요? is exactly right. For formal or written contexts use 카드 결제 가능한지 확인하고 싶습니다. 반말 카드 돼? only with a friend in a shared ride."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "카드 돼요? vs 카드 받아요? — 받아요 ('do you receive') is understandable but less native; 돼요? is what Koreans actually say. vs 카드로 계산해도 돼요? — same meaning but longer and more explicit, suited when you want to be very clear or if the driver seems uncertain."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "카드로 해도 돼요? (explicit method); 카드 결제 가능할까요? (formal); 카드 돼요, 현금도 돼요? (asking both at once); 삼성페이/카카오페이 돼요? (asking about mobile pay apps).",
+        "chips": ["카드 돼요?", "카드로 해도 돼요?", "카드 결제 가능할까요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is translating 'can I' as 할 수 있어요 and producing 카드 할 수 있어요?, which sounds like 'am I able to do card' and is unnatural; the idiom uses 되다, not 할 수 있다."
+        "t": "Saying 카드 할 수 있어요? — this asks about your own ability, not the service's acceptance. The idiom uses 되다: 카드 돼요?. Also, the most common spelling error even among native speakers: 되요 is wrong; always write 돼요 (되+어요 contracted)."
       }
     ],
     "mistakes": [
@@ -510,35 +582,47 @@
       [
         "잔돈은 괜찮아요.",
         "Keep the change.",
-        "The bare phrase as you hand over a bill"
+        "The bare phrase as you hand over a bill — the topic particle 은 ('as for the change') frames the decision neatly"
       ],
       [
-        "9,500원이요? 잔돈은 괜찮아요.",
-        "9,500 won? Keep the change.",
-        "Rounding up a fare to the nearest bill"
+        "A: 9,500원이에요. / B: 여기 만 원이요. 잔돈은 괜찮아요.",
+        "A: It's 9,500 won. / B: Here's 10,000 won — keep the change.",
+        "Real scenario: 500원 (one coin) is a common amount people wave off; not a tip, just sparing the coin-return"
       ],
       [
         "감사합니다. 잔돈은 괜찮으니까 그냥 받으세요.",
-        "Thank you. Keep the change, please just take it.",
-        "Real situation insisting when the driver hesitates"
+        "Thank you. The change is fine — just take it, please.",
+        "괜찮으니까 ('since it's fine') + 받으세요 ('please take it') is used when the driver hesitates to keep the coins"
       ]
     ],
-    "nuance": "You say this to let the driver keep the leftover change, customer-to-driver, in 존댓말. 잔돈 = 'change/small money', and 괜찮아요 here means 'it's fine (don't bother returning it)'. The topic particle 은 on 잔돈 nicely sets 'as for the change...'. Formal is 괜찮습니다; 반말 잔돈은 됐어. The nearest alternative is 그냥 가지세요 ('just keep it'), which is more direct, while 잔돈은 괜찮아요 is the softer, indirect way Koreans usually phrase a tip. Note tipping is NOT customary in Korean taxis — this is mainly used to round up a fare or skip tiny coins, not to add a percentage. The English-speaker mistake is inventing a literal 'keep the change' as 변화를 지켜요, mistranslating 'change' as 변화 (transformation) and 'keep' as 지키다 (guard) — the money sense is 잔돈, and you decline it with 괜찮아요. Another error is using 거스름돈 wrongly; 거스름돈 is fine too but 잔돈 is the everyday word.",
+    "nuance": "You say this when handing over a bill and telling the driver not to bother returning the small change, customer-to-driver, in 존댓말. 잔돈 (殘돈) = 'remaining money / change', and 괜찮아요 here means 'it's fine / no need to return it' — the same 괜찮아요 used for 'no thank you' or 'it's okay'. The topic particle 은 on 잔돈 works like 'as for the change — (don't worry)'. Formal version: 괜찮습니다; 반말: 잔돈은 됐어. The more direct alternative is 그냥 가지세요 ('just keep it'), which is a clear directive; 잔돈은 괜찮아요 is softer and more indirect, the way Koreans usually wave off a tip. A cultural note: tipping in Korean taxis is NOT customary — this phrase is used only for small rounding (a few hundred won of coins), not a percentage-based tip. Saying it for a large amount would feel strange. The English-speaker's most spectacular error is a literal translation of 'keep the change': mapping 'change' to 변화 (transformation) and 'keep' to 지키다 (guard), producing 변화를 지켜요 — this is completely nonsensical. The money sense of 'change' is 잔돈 (or 거스름돈), and you wave it off with 괜찮아요.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this to let the driver keep the leftover change, customer-to-driver, in 존댓말. 잔돈 = 'change/small money', and 괜찮아요 here means 'it's fine (don't bother returning it)'. The topic particle 은 on 잔돈 nicely sets 'as for the change...'. Formal is 괜찮습니다; 반말 잔돈은 됐어. Note tipping is NOT customary in Korean taxis — this is mainly used to round up a fare or skip tiny coins, not to add a percentage."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "잔돈은 괜찮아요 = 'as for the change, it is fine'. 괜찮아요 in this context means 'no need / don't bother', not 'I'm okay'. The topic particle 은 does real work: it isolates 잔돈 as the subject of your reassurance — 'the change specifically is what I'm saying is fine'.",
+        "chips": ["잔돈 = change (coins)", "괜찮아요 = no need / it's fine", "은 = as for (topic)"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternative is 그냥 가지세요 ('just keep it'), which is more direct, while 잔돈은 괜찮아요 is the softer, indirect way Koreans usually phrase a tip. Another option is 거스름돈; it is fine too but 잔돈 is the everyday word."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver as you pay — 존댓말 throughout. Use 괜찮습니다 for extra formality. 반말 잔돈은 됐어 is very casual. Only use this for small coin amounts (hundreds of won); for a large amount it would feel odd in the Korean context where taxi tipping is not expected."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "잔돈은 그냥 가지세요 ('just keep it') is more direct and explicit — used when the driver starts looking for change to return. 잔돈은 괜찮아요 is softer and more common as a casual wave-off. 거스름돈 and 잔돈 are both correct; 잔돈 is the everyday word."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "잔돈은 괜찮으니까 받으세요 (when the driver hesitates); 잔돈은 그냥 가지세요 (explicit command to keep); 잔돈은 괜찮습니다 (격식); 잔돈은 됐어 (반말).",
+        "chips": ["잔돈은 괜찮아요", "잔돈은 그냥 가지세요", "괜찮습니다"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is inventing a literal 'keep the change' as 변화를 지켜요, mistranslating 'change' as 변화 (transformation) and 'keep' as 지키다 (guard) — the money sense is 잔돈, and you decline it with 괜찮아요."
+        "t": "Literal-translating 'keep the change' as 변화를 지켜요 — 변화 is 'transformation/change (abstract)' and 지키다 is 'to guard/protect'. Money change is 잔돈; the verb is not 'keep (hold)' but 괜찮아요 (it's fine, no need to return). An entirely different sentence is needed."
       }
     ],
     "mistakes": [
@@ -577,35 +661,47 @@
       [
         "트렁크 좀 열어 주세요.",
         "Please open the trunk.",
-        "The bare request as you approach with a suitcase"
+        "The complete bare request as you approach with a suitcase — 좀 is doing the politeness work"
       ],
       [
-        "캐리어가 있어서요, 트렁크 좀 열어 주세요.",
-        "I have a suitcase, so please open the trunk.",
-        "캐리어 = rolling suitcase; giving the reason"
+        "A: 캐리어가 있어서요, 트렁크 좀 열어 주세요. / B: 네, 잠깐요.",
+        "A: I have a suitcase, so please open the trunk. / B: Sure, just a moment.",
+        "캐리어 = rolling suitcase (loanword); leading with the reason (있어서요) is the natural Korean way to frame a request"
       ],
       [
         "기사님, 짐이 좀 많은데 트렁크 좀 열어 주시겠어요?",
         "Driver, I have quite a bit of luggage — could you open the trunk?",
-        "Real situation with several bags, extra polite"
+        "Real situation at an airport with multiple bags; 기사님 + 주시겠어요? gives the politest version"
       ]
     ],
-    "nuance": "You say this so the driver pops the trunk for your luggage, customer-to-driver, in 존댓말, and 좀 ('a bit/please') softens the imperative into a courteous request. The fuller polite form is 열어 주시겠어요?; 반말 is 열어 줘. 트렁크 is the standard loanword for a car trunk/boot; the verb is 열다 ('open'), with 열어 주세요 = 'open it for me'. There isn't a close competing phrase — this is simply the fixed taxi request — but you can lead with the reason (짐이 있어서요 / 캐리어가 있어서요) to make it feel natural. The English-speaker mistake is using the British word literally or saying 트렁크 열어 ('open trunk') with no helper verb, which sounds like a bare command; you need 좀 ... 주세요. Another error is the causative confusion — say 열어 주세요 ('open it for me'), not 열려 주세요, since 열리다 is the intransitive 'to be opened'.",
+    "nuance": "You say this so the driver pops the boot for your luggage, customer-to-driver, in 존댓말 with 좀 softening the imperative. 트렁크 is the universally understood Korean loanword for a car's storage compartment (British 'boot', American 'trunk' — both are expressed as 트렁크). The verb is 열다 ('to open [something]'), and 열어 주세요 = 'please open it for me'. Upgrade to 열어 주시겠어요? for the fullest courtesy; 반말 is 열어 줘. There is no real competing phrase — this is the only natural way to make this request — but leading with context (캐리어가 있어서요, 짐이 있어서요) before the request sounds more conversational than the bare 열어 주세요. The English-speaker's most common grammatical error is the intransitive/transitive confusion: 열리다 is the intransitive 'to be opened (on its own)', while 열다 is the transitive 'to open (something)'. You need the driver to actively open it, so use 열다 → 열어 주세요. Using 열려 주세요 sounds like you're asking the trunk to open itself. Another error is reaching for 문 ('door') and asking 문 열어 주세요, which would be the door to the passenger compartment — specify 트렁크 clearly.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this so the driver pops the trunk for your luggage, customer-to-driver, in 존댓말, and 좀 ('a bit/please') softens the imperative into a courteous request. The fuller polite form is 열어 주시겠어요?; 반말 is 열어 줘. 트렁크 is the standard loanword for a car trunk/boot; the verb is 열다 ('open'), with 열어 주세요 = 'open it for me'."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "트렁크 좀 열어 주세요 = 'please open the trunk a little for me'. 좀 here is not actually about degree ('a little') — it's a softener that makes the command courteous. 열어 주세요 combines 열다 (to open) + 주다 (to do for me) + 세요 (polite ending).",
+        "chips": ["열다 (transitive)", "열리다 (intransitive — wrong)", "좀 = polite softener"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "There isn't a close competing phrase — this is simply the fixed taxi request — but you can lead with the reason (짐이 있어서요 / 캐리어가 있어서요) to make it feel natural."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver before you get in or when you've arrived and need luggage out — 존댓말 always. Soften further with 주시겠어요?. Give a reason (캐리어가 있어서요) to make the request feel natural. 반말 열어 줘 only with a friend."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "짐 좀 실을게요, 트렁크 열어 주세요 — the extended version leading with your intention to load. This is actually more natural in conversation. There is no competing phrase for this specific request; 트렁크 열어 주세요 is the fixed form."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "트렁크 좀 열어 주시겠어요? (politest); 트렁크 닫아 주세요 (close the trunk); 캐리어 트렁크에 넣어 주시겠어요? (asking the driver to load it too); 트렁크 좀 열어 줘 (반말).",
+        "chips": ["열어 주세요", "열어 주시겠어요?", "닫아 주세요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is using the British word literally or saying 트렁크 열어 ('open trunk') with no helper verb, which sounds like a bare command; you need 좀 ... 주세요. Another error is the causative confusion — say 열어 주세요 ('open it for me'), not 열려 주세요, since 열리다 is the intransitive 'to be opened'."
+        "t": "Saying 트렁크 열려 주세요 — 열리다 is intransitive ('to be opened'); you need 열다 (transitive) → 열어 주세요. Also, dropping 좀 and 주세요 leaves 트렁크 열어, which is a blunt command to a stranger."
       }
     ],
     "mistakes": [
@@ -644,35 +740,47 @@
       [
         "안전벨트 매 주세요.",
         "Please put on your seatbelt.",
-        "The bare reminder as the cab pulls out"
+        "The bare reminder as the cab pulls out — 매 주세요 is the complete, natural form; nothing else is needed"
       ],
       [
         "손님, 뒷자리도 안전벨트 매 주세요.",
         "Sir/ma'am, please buckle up in the back seat too.",
-        "손님 = 'customer'; drivers must remind back-seat riders by law"
+        "손님 = 'customer/passenger'; Korean law requires drivers to remind back-seat passengers — this is a genuine, frequent phrase"
       ],
       [
-        "출발하겠습니다. 안전벨트 매 주세요.",
-        "I'll get going now. Please fasten your seatbelt.",
-        "Real situation — the driver announcing departure"
+        "A: 출발하겠습니다. 안전벨트 매 주세요. / B: 네, 맸어요.",
+        "A: I'll get going now. Please fasten your seatbelt. / B: Yes, I've buckled up.",
+        "Real situation: the driver announces departure and reminds you; 맸어요 (past tense of 매다) confirms it's done"
       ]
     ],
-    "nuance": "In a taxi this most often runs driver-to-customer ('please buckle up'), but you'd use the same line for anyone in your car; it's plain 존댓말. The verb for putting on a seatbelt is 매다 ('to tie/fasten'), so 안전벨트 매 주세요 = 'please fasten the seatbelt'. The official/격식 wording on signs and announcements is 착용해 주세요 (착용하다 = 'to wear/don'); 반말 is 안전벨트 매. The dividing line is register only: 매다 is the everyday spoken verb, 착용하다 is formal/written. The English-speaker mistake is reaching for 입다 ('to wear clothes') or 하다 and saying 안전벨트 입어요 / 안전벨트 해요 — a seatbelt is fastened (매다) or worn (착용하다), never 입다, which is only for garments you put your body into. Another trap is 묶다 ('to tie up a bundle'), which is wrong for a belt; the collocation is 벨트를 매다.",
+    "nuance": "In a taxi this is most often spoken by the driver to the passenger ('please buckle up'), but you could say it to any passenger in your own car. The register is plain 존댓말. The key verb choice is 매다 ('to tie/fasten') — Korean has a specific and non-obvious verb for putting on a seatbelt: you 매다 (fasten/tie) a belt, not 입다 (wear clothes) or 하다 (do). 안전벨트 매 주세요 = 'please fasten the seatbelt for me'. The formal/격식 equivalent heard on public transport announcements is 착용해 주세요 (착용하다 = 'to wear/don'); in everyday spoken Korean 매다 is the natural choice. 반말 is just 안전벨트 매. The English speaker's deepest trap is reaching for 입다 ('to put on clothing') — a seatbelt is not a garment you step into; you fasten (매다) it. Another common error is 묶다 ('to tie up/bundle'), which is used for tying shoelaces or ropes, not belts; the fixed collocation is 벨트를 매다. Note also 안전벨트 and 좌석벨트 are both used; 안전벨트 is more common in daily speech.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "In a taxi this most often runs driver-to-customer ('please buckle up'), but you'd use the same line for anyone in your car; it's plain 존댓말. The verb for putting on a seatbelt is 매다 ('to tie/fasten'), so 안전벨트 매 주세요 = 'please fasten the seatbelt'."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "안전벨트 매 주세요 = 'please tie/fasten the safety belt for me'. 안전벨트 (安全belt) is a Sino-Korean + English hybrid noun. 매다 originally means 'to tie' (as in tying a knot), and from that it extended to fastening anything with a strap — seatbelt, tie, bow. The literal sense is transparent once you know 매다.",
+        "chips": ["매다 = fasten/tie", "안전벨트 = seatbelt", "착용하다 = wear (formal)"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The official/격식 wording on signs and announcements is 착용해 주세요 (착용하다 = 'to wear/don'); 반말 is 안전벨트 매. The dividing line is register only: 매다 is the everyday spoken verb, 착용하다 is formal/written."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Driver-to-passenger as the car starts — 존댓말 매 주세요. In formal public-transport announcements: 착용해 주세요. To a child or friend: 반말 안전벨트 매. Note this is also a legal requirement in Korea (all seats), so drivers say it routinely."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "안전벨트 착용해 주세요 vs 안전벨트 매 주세요 — both mean the same thing, but 착용하다 is the formal/official/written verb, while 매다 is everyday spoken Korean. On a bus announcement you'll hear 착용; in a taxi you'll hear 매다."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "안전벨트 착용해 주세요 (formal); 안전벨트 매 주셨어요? (checking if they've buckled); 벨트 매 (반말); 안전벨트 풀어도 돼요? (may I unbuckle?).",
+        "chips": ["매 주세요", "착용해 주세요", "안전벨트 매"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is reaching for 입다 ('to wear clothes') or 하다 and saying 안전벨트 입어요 / 안전벨트 해요 — a seatbelt is fastened (매다) or worn (착용하다), never 입다, which is only for garments you put your body into. Another trap is 묶다 ('to tie up a bundle'), which is wrong for a belt; the collocation is 벨트를 매다."
+        "t": "Saying 안전벨트 입어 주세요 — 입다 is only for clothing you put your body through; a seatbelt is fastened with 매다. Saying 묶어 주세요 is also wrong — 묶다 ties a bundle or parcel, not a belt."
       }
     ],
     "mistakes": [
@@ -711,35 +819,47 @@
       [
         "미터기 켜 주세요.",
         "Please turn on the meter.",
-        "The bare request if the driver hasn't started it"
+        "The bare request — firm but polite; this alone is enough; no elaborate sentence needed"
       ],
       [
-        "미터기 켜 주세요. 미터기로 가는 게 맞죠?",
-        "Please turn on the meter. We go by the meter, right?",
-        "Politely asserting the legal metered fare"
+        "A: 미터기 켜 주세요. 미터기로 가는 게 맞죠? / B: 아, 네, 켤게요.",
+        "A: Please turn on the meter. We go by the meter, right? / B: Oh, yes, I'll turn it on.",
+        "Following up with a confirmation question is a polite way to insist without being confrontational"
       ],
       [
         "저, 미터기 켜 주세요. 정찰제 아니고 미터기로요.",
-        "Um, please turn on the meter. Not a flat rate, by the meter.",
-        "Real situation refusing a quoted flat price for a metered ride"
+        "Um, please turn on the meter. Not a flat rate — by the meter.",
+        "Real situation at an airport taxi stand where drivers sometimes quote flat fares; 정찰제 = fixed-rate pricing"
       ]
     ],
-    "nuance": "You say this to insist the driver run the fare meter rather than quote a flat price, customer-to-driver, in firm but plain 존댓말. 미터기 = 'the (fare) meter', and the verb for switching a device on is 켜다, so 켜 주세요 = 'please turn it on'. You can sharpen it with 미터기로 가 주세요 ('go by the meter'); 반말 isn't really used toward a real driver. The dividing line: 켜 주세요 turns the machine on, while 미터기로 가 주세요 states you want the metered method overall — both push back on an off-meter deal. The English-speaker mistake is using 열다 ('open') or 시작하다 ('start') and saying 미터기 열어 주세요 / 시작해 주세요; a device is turned ON with 켜다 (its opposite is 끄다, 'turn off'). Another error is 틀어 주세요, which fits playing music/video, not a meter. This phrase is genuinely useful at airports and tourist areas where flat quotes happen.",
+    "nuance": "You say this to insist the driver activate the fare meter rather than accept a quoted flat price, customer-to-driver, in firm but plain 존댓말. 미터기 is the Korean loanword for a taxi meter (from English 'meter' + 기器), and the verb for switching any device on is 켜다 — not 열다 ('open'), not 시작하다 ('start'), but 켜다 (its opposite is 끄다, 'turn off'). 켜 주세요 = 'please turn it on for me'. The nearby expression 미터기로 가 주세요 ('please go by the meter') asserts the payment method overall, while 켜 주세요 specifically activates the device — in practice both push back against off-meter deals. In Korea, all licensed taxis are metered and the driver is legally required to run it; this phrase is most useful at airports, tourist zones, and late-night stands where unregistered or unmetered flat-price offers sometimes occur. An English speaker's first verb instinct is 열다 ('open'), producing 미터기 열어 주세요, which sounds like opening a lid; a second mistake is 틀어 주세요, which is correct for turning on audio/video equipment (radio, TV) but not for a fare meter — 켜다 is the right verb here.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this to insist the driver run the fare meter rather than quote a flat price, customer-to-driver, in firm but plain 존댓말. 미터기 = 'the (fare) meter', and the verb for switching a device on is 켜다, so 켜 주세요 = 'please turn it on'. 반말 isn't really used toward a real driver. This phrase is genuinely useful at airports and tourist areas where flat quotes happen."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "미터기 켜 주세요 = 'please turn on the meter (for me)'. 켜다 means 'to turn on (a device/light)'. The semantics are fully transparent — this is a literal instruction — but the verb choice (켜다 not 열다, not 시작하다) is the key learnable fact.",
+        "chips": ["켜다 = turn on (device)", "끄다 = turn off", "틀다 = turn on (audio/video — wrong here)"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "You can sharpen it with 미터기로 가 주세요 ('go by the meter'). The dividing line: 켜 주세요 turns the machine on, while 미터기로 가 주세요 states you want the metered method overall — both push back on an off-meter deal."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver at the start of a ride — 존댓말, no 반말 to a professional driver. Most useful at airports, tourist taxi stands, and late nights when flat-fare offers appear. Pair with 미터기로 가는 거죠? to make it a question rather than a pure command."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "미터기 켜 주세요 (turn on the device) vs 미터기로 가 주세요 (go by metered method). The first is about activating hardware; the second is about insisting on the pricing system. Use 켜 주세요 when the meter is visibly off; use 미터기로 가 주세요 when the driver is proposing a flat price before moving."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "미터기 켜고 가 주세요 (turn on and go); 미터기로 가는 거죠? (confirming the method); 미터기로 가 주세요 (asserting metered travel); 미터기 켰어요? (checking if it's running).",
+        "chips": ["켜 주세요", "미터기로 가 주세요", "켰어요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is using 열다 ('open') or 시작하다 ('start') and saying 미터기 열어 주세요 / 시작해 주세요; a device is turned ON with 켜다 (its opposite is 끄다, 'turn off'). Another error is 틀어 주세요, which fits playing music/video, not a meter."
+        "t": "Saying 미터기 열어 주세요 — 열다 is for opening doors or lids, not activating a device. Saying 틀어 주세요 is also wrong here — 틀다 is specifically for audio/video devices. Devices with on/off switches use 켜다/끄다."
       }
     ],
     "mistakes": [
@@ -778,40 +898,53 @@
       [
         "기본요금이 얼마예요?",
         "How much is the base fare?",
-        "The bare question about the starting fare"
+        "The bare question — 이 (subject particle) marks 기본요금 as the thing being asked about; do not drop it"
       ],
       [
-        "여기 택시 기본요금이 얼마예요?",
-        "What's the taxi base fare here?",
-        "Asking because it differs by city/region"
+        "여기 택시 기본요금이 얼마예요? 서울이랑 다를 것 같아서요.",
+        "What's the taxi base fare here? I think it might differ from Seoul.",
+        "Base fares vary by city (서울 / 부산 / 경기도 등); asking is always valid"
       ],
       [
-        "심야에는 기본요금이 얼마예요? 할증 붙죠?",
-        "What's the base fare late at night? There's a surcharge, right?",
-        "Real situation checking the night surcharge (할증)"
+        "A: 심야에는 기본요금이 얼마예요? 할증 붙죠? / B: 야간 할증 20% 붙어서 4,800원이에요.",
+        "A: What's the base fare late at night? There's a surcharge, right? / B: There's a 20% nighttime surcharge, so it's 4,800 won.",
+        "Real situation: 야간 할증 (nighttime surcharge) is a key taxi vocabulary item; knowing this question will save you surprises"
       ]
     ],
-    "nuance": "This asks the starting/flag-fall fare of the taxi, customer-to-driver (or anyone), in plain 존댓말. 기본요금 = 'base/basic fare' (기본 'basic' + 요금 'fee'), and you pair it with 얼마예요? ('how much is it?'). The subject particle 이 ('기본요금이') is correct because 기본요금 is the thing being asked about; softer is 얼마인가요?, 반말 is 얼마야?. The dividing line with 얼마나 걸려요? is meaning: 얼마예요/얼마 is MONEY, 얼마나 걸려요 is TIME — don't swap them. The English-speaker mistake is saying 기본요금이 얼마나 걸려요?, accidentally asking how long the fare 'takes'; price uses 얼마예요, not 걸리다. Another error is dropping the particle and over-relying on word order; while casual speech can drop 이, the clean form is 기본요금이 얼마예요? Note Korean taxis post the base fare on the door/window, so this is also a way to confirm what you see.",
+    "nuance": "This asks the flag-fall (starting/minimum) fare — the amount the meter begins at before any distance is covered — customer-to-driver or anyone, in plain 존댓말. The compound 기본요금 is built from 기본 (基本, 'basic/base') + 요금 (料金, 'fee/fare'), both Sino-Korean. You pair it with 얼마예요? ('how much is it?'). The subject particle 이 after 기본요금 is correct and should not be dropped — it marks the fare as what is being assessed. Softer form: 얼마인가요?; 반말: 얼마야?. Korean taxis post the base fare on the door or window, so in practice this question often confirms what you see. The critical dividing line: 얼마예요? (and 얼마) = MONEY; 얼마나 걸려요? = TIME. English speakers with both patterns fresh in memory often cross them and ask 기본요금이 얼마나 걸려요?, accidentally asking how long the fare 'takes' — the 걸리다 verb is time-only, never money. Another trap is 얼마에요 (with 에요) — after 얼마 the correct copula question form is 예요, giving 얼마예요?, not 얼마에요?",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "This asks the starting/flag-fall fare of the taxi, customer-to-driver (or anyone), in plain 존댓말. You pair 기본요금 with 얼마예요? ('how much is it?'). The subject particle 이 ('기본요금이') is correct because 기본요금 is the thing being asked about; softer is 얼마인가요?, 반말 is 얼마야?. Note Korean taxis post the base fare on the door/window, so this is also a way to confirm what you see."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "기본요금이 얼마예요? = 'as for the base fare, how much is it?'. 기본요금 (基本料金) is fully transparent Sino-Korean: 기본 'basic/base' + 요금 'fee/charge'. The meaning is literal with no idiom layer.",
+        "chips": ["기본 = base/basic (基本)", "요금 = fee/fare (料金)", "얼마 = how much (money)"]
+      },
+      {
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver before boarding or while checking the meter at ride-start — 존댓말. Softer version: 기본요금이 얼마인가요?. Often asked when moving between cities (base fares vary by region). Korean taxis display the base fare on the vehicle door."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "얼마예요? (MONEY) vs 얼마나 걸려요? (TIME) — both use 얼마 but the structure is different: money uses the copula 예요, time uses the verb 걸리다. Also, 요금이 얼마예요? is slightly broader ('what's the fare?') while 기본요금이 얼마예요? specifically asks the starting flag-fall."
       },
       {
         "k": "한자·어원",
         "e": "ORIGIN",
-        "t": "기본요금 = 'base/basic fare' (기본 'basic' + 요금 'fee')."
+        "t": "기본 (基本) = base, foundation; 요금 (料金) = fee, charge. Both are Sino-Korean. Knowing the 한자 meaning helps distinguish 기본요금 (base fare) from 추가요금 (追加料金, additional/extra charge) and 할증요금 (割增料金, surcharge).",
+        "chips": ["기본요금 = base fare", "추가요금 = extra charge", "할증 = surcharge"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The dividing line with 얼마나 걸려요? is meaning: 얼마예요/얼마 is MONEY, 얼마나 걸려요 is TIME — don't swap them."
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "기본요금이 얼마인가요? (softest, slightly more formal); 기본요금 얼마야? (반말); 야간 기본요금이 얼마예요? (asking the nighttime base fare, which includes the 할증 surcharge); 기본요금에서 얼마나 더 나와요? (asking how much beyond the base — useful when estimating total cost). Note: Seoul taxis post the base fare on the door, so this question often confirms a posted amount.",
+        "chips": ["기본요금이 얼마예요?", "기본요금이 얼마인가요?", "야간 기본요금"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is saying 기본요금이 얼마나 걸려요?, accidentally asking how long the fare 'takes'; price uses 얼마예요, not 걸리다. Another error is dropping the particle and over-relying on word order; while casual speech can drop 이, the clean form is 기본요금이 얼마예요?."
+        "t": "Saying 기본요금이 얼마나 걸려요? — 걸리다 is for time duration, never for prices. Price questions use 얼마예요?. Also, writing 얼마에요 instead of 얼마예요 — after 얼마, the question copula must be 예요 (contracted from 이에요)."
       }
     ],
     "mistakes": [
@@ -850,35 +983,47 @@
       [
         "돌아가지 말아 주세요.",
         "Please don't take the long way.",
-        "The bare polite request not to detour"
+        "The bare polite prohibition — -지 말아 주세요 is the correct negative-request structure, not 안 돌아가 주세요"
       ],
       [
         "여기 길 잘 아니까 돌아가지 말아 주세요.",
         "I know this area well, so please don't go the long way.",
-        "Signaling you'll notice a detour, said gently"
+        "Signaling you will notice a detour — said gently but the implication is clear; this framing is culturally normal"
       ],
       [
-        "내비대로만 가 주세요. 돌아가지 말고요.",
-        "Please just follow the GPS, and don't take a detour.",
-        "Real situation asking him to stick to the navigation route"
+        "A: 내비대로만 가 주세요. 돌아가지 말고요. / B: 네, 당연하죠.",
+        "A: Please just follow the GPS, and no detours. / B: Of course.",
+        "Real situation: telling him to follow the navigation removes ambiguity; 당연하죠 ('of course') is the driver's polite reassurance"
       ]
     ],
-    "nuance": "You say this to ask the driver not to pad the route (and the fare) by going the long way, customer-to-driver, in careful 존댓말. The verb 돌아가다 means 'to go around / take a roundabout way', and 말아 주세요 is the polite negative request ('please don't ~'). Softer is 말아 주시겠어요?; 반말 is 돌아가지 마. A more tactful positive alternative is 지름길로 가 주세요 ('take the shortcut') or 내비대로 가 주세요 ('go by the GPS'), which make the same point without sounding accusatory — the dividing line is tone: the negative 돌아가지 마세요 implies suspicion, the positive versions are friendlier. The English-speaker mistake is forming the negative as 안 돌아가 주세요, which is ungrammatical for a request; the prohibitive uses -지 말다, so 돌아가지 말아 주세요. Also note 돌아가다 can mean 'to return/go back' or even 'to pass away', so context (a taxi route) is what fixes the 'detour' reading.",
+    "nuance": "You say this to tell the driver not to take a longer route than necessary — either because you want to save money or because you know the area and will notice. Customer-to-driver, in careful 존댓말. The verb 돌아가다 means 'to go around/take a roundabout path', and the negative polite request structure is -지 말아 주세요 ('please don't ~'). Softer: -지 말아 주시겠어요?; 반말: 돌아가지 마. Note that 돌아가다 is polysemous: it can mean (1) to take a detour/go around, (2) to return/go back, and (3) in a poetic register, to pass away — context (inside a moving taxi) unambiguously picks meaning (1). A tactful alternative is to make the same request positively: 지름길로 가 주세요 ('take the shortcut') or 내비대로 가 주세요 ('follow the GPS'). The dividing line in tone: 돌아가지 말아 주세요 implies suspicion (I know you might try), while 내비대로 가 주세요 is neutral instruction. The English-speaker's grammar error is using the 안 negation: 안 돌아가 주세요 is ungrammatical as a prohibition request — Korean prohibitions use -지 말다, so 돌아가지 말아 주세요.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this to ask the driver not to pad the route (and the fare) by going the long way, customer-to-driver, in careful 존댓말. The verb 돌아가다 means 'to go around / take a roundabout way', and 말아 주세요 is the polite negative request ('please don't ~'). Softer is 말아 주시겠어요?; 반말 is 돌아가지 마. Note 돌아가다 can also mean 'to return/go back' or even 'to pass away', so context (a taxi route) is what fixes the 'detour' reading."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "돌아가지 말아 주세요 = 'please don't go around (for me)'. 돌아가다 literally means 'to go around/circle', extended to 'take a roundabout route'. The -지 말아 주세요 structure is the fixed Korean form for 'please don't [verb]'.",
+        "chips": ["돌아가다 = go around/detour", "-지 말아 주세요 = please don't", "안 ~ 주세요 = WRONG for prohibitions"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "A more tactful positive alternative is 지름길로 가 주세요 ('take the shortcut') or 내비대로 가 주세요 ('go by the GPS'), which make the same point without sounding accusatory. The dividing line is tone: the negative 돌아가지 마세요 implies suspicion, the positive versions are friendlier."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver, especially at airports, tourist areas, and at night when detour risks are higher. 존댓말 throughout. The phrase implies mild suspicion, so Koreans often soften it with 여기 좀 아니까 ('I know the area a bit') or flip to the positive 내비대로 가 주세요."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "지름길로 가 주세요 ('take the shortcut') makes the same request positively and sounds less accusatory. 내비대로 가 주세요 ('follow the GPS') is the most neutral option — it delegates the route decision to a third party (the app). Use 돌아가지 말아 주세요 only when you have reason to be firm."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "돌아가지 말아 주시겠어요? (softest); 지름길로 가 주세요 (positive alternative); 내비대로만 가 주세요 (neutral GPS-based); 돌아가지 마 (반말).",
+        "chips": ["-지 말아 주세요", "지름길로 가 주세요", "내비대로 가 주세요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is forming the negative as 안 돌아가 주세요, which is ungrammatical for a request; the prohibitive uses -지 말다, so 돌아가지 말아 주세요."
+        "t": "Forming the negative request as 안 돌아가 주세요 — 안 negation cannot combine with -아/어 주세요 to make a prohibition. Prohibitions use -지 말다: 돌아가지 말아 주세요. This is one of the most common grammatical errors English speakers make with Korean requests."
       }
     ],
     "mistakes": [
@@ -917,35 +1062,47 @@
       [
         "다 왔어요. 여기서 세워 주세요.",
         "We're here. Please stop here.",
-        "Pairing arrival with the stop request"
+        "The natural pair — 다 왔어요 signals arrival, then 세워 주세요 gives the action; in practice these two are said together"
       ],
       [
         "손님, 다 왔습니다. 14,200원입니다.",
         "Sir/ma'am, we've arrived. That'll be 14,200 won.",
-        "How a driver announces arrival and the fare"
+        "How a driver announces arrival and transitions to payment — 손님 is the polite customer address"
       ],
       [
-        "다 왔어요. 저기 건물 앞에 잠깐 세워 주시면 돼요.",
-        "We're here. You can just pull up in front of that building.",
-        "Real situation directing the final stop on arrival"
+        "A: 거의 다 왔어요. 저기 건물 앞에 잠깐 세워 주시면 돼요. / B: 네, 알겠습니다.",
+        "A: We're nearly here. You can pull up in front of that building. / B: Got it.",
+        "Real situation: 거의 다 왔어요 (almost there) used while still moving, then directing the exact stopping spot"
       ]
     ],
-    "nuance": "This announces that the trip has reached (or nearly reached) the destination; in a taxi either the driver says it to you or you say it to signal 'this is the place', in plain 존댓말. Literally 다 ('all') + 왔어요 ('have come') = 'we've come all the way', i.e. arrived — note it uses 오다 (come) in the past, a fixed expression, even though you might expect 가다 (go). Formal/격식 is 다 왔습니다; 반말 is 다 왔어; not-quite-there is 거의 다 왔어요. The nearest alternative is 도착했어요 ('have arrived'), which is more neutral/formal, while 다 왔어요 is the warm, everyday spoken version. The English-speaker mistake is using the present 와요 or saying 다 가요 — arrival is expressed with the past 왔어요 (the coming is completed), and the verb is 오다 here, not 가다. Another trap is treating it as literally 'all came' for people; it's an idiom for 'we've arrived'.",
+    "nuance": "This announces that the taxi ride has reached (or nearly reached) its destination — said by either driver or passenger, in plain 존댓말. The phrase is grammatically past tense: 다 + 왔어요 (past of 오다, 'to come'). 다 ('all/completely') + 왔어요 = 'have come all the way' → 'we've arrived'. Note the counterintuitive verb: although you have been going somewhere (가다), the idiom uses 오다 (come), treating the destination as the reference point now that you are there. This is a fixed expression — do not swap 오다 for 가다. Formal is 다 왔습니다; 반말 is 다 왔어; not-quite-there is 거의 다 왔어요. The nearest neutral-formal alternative is 도착했어요 ('have arrived'), which is more written/impersonal; 다 왔어요 is warmer and is the everyday spoken choice. English-speaker errors fall into two categories: (1) using the wrong tense — 다 와요 (present) sounds odd, because arrival is a completed action; use past 왔어요. (2) using the wrong verb — 다 갔어요 means 'we've gone (away/all gone)', not 'we've arrived'. The deictic shift that makes 오다 correct here is a genuine Korean/English difference.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "This announces that the trip has reached (or nearly reached) the destination; in a taxi either the driver says it to you or you say it to signal 'this is the place', in plain 존댓말. Literally 다 ('all') + 왔어요 ('have come') = 'we've come all the way', i.e. arrived — note it uses 오다 (come) in the past, a fixed expression, even though you might expect 가다 (go). Formal/격식 is 다 왔습니다; 반말 is 다 왔어; not-quite-there is 거의 다 왔어요. Don't treat it as literally 'all came' for people; it's an idiom for 'we've arrived'."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "다 왔어요 = 'all came (arrived)'. 다 acts as 'completely/all the way', and 왔어요 is past tense of 오다 ('to come'). The idiom treats the destination as the viewpoint — you have 'come' to the place that is now 'here'. This is idiomatic: English says 'we're here' (present), Korean says 'we've come' (past-completed).",
+        "chips": ["오다 (not 가다)", "다 = completely", "왔어요 = past, completed arrival"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternative is 도착했어요 ('have arrived'), which is more neutral/formal, while 다 왔어요 is the warm, everyday spoken version."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Driver-to-passenger or passenger-to-driver as the cab arrives — 존댓말 throughout. 다 왔습니다 is the driver's more formal announcement. 거의 다 왔어요 is used while still moving (not quite there). 반말 다 왔어 to a friend."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "도착했어요 ('we have arrived') is the more neutral/formal alternative — suitable for announcements or writing. 다 왔어요 is the warm, everyday spoken version. 거의 다 왔어요 specifically means 'almost there (not yet)' — use this while still moving."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "거의 다 왔어요 (almost there); 다 왔습니다 (driver's formal); 도착했어요 (neutral formal); 다 왔어 (반말); 이제 다 왔네요 (expressing a mild sense of relief or note on arrival).",
+        "chips": ["다 왔어요", "거의 다 왔어요", "도착했어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is using the present 와요 or saying 다 가요 — arrival is expressed with the past 왔어요 (the coming is completed), and the verb is 오다 here, not 가다."
+        "t": "Saying 다 갔어요 — 갔어요 is past tense of 가다 ('to go away') and means 'we have gone (away)' or 'it's all gone', not 'we've arrived'. Saying 다 와요 (present) is also wrong — arrival is treated as a completed past action in Korean: 왔어요."
       }
     ],
     "mistakes": [
@@ -984,35 +1141,47 @@
       [
         "감사합니다, 수고하세요.",
         "Thank you, take care.",
-        "The bare parting line as you step out"
+        "The complete set farewell as you step out — these two phrases are said together as one breath; neither alone is wrong but the pair is warmer"
       ],
       [
         "잘 왔습니다. 감사합니다, 수고하세요.",
-        "Got here well. Thank you, take care.",
-        "Adding 'we arrived fine' before the goodbye"
+        "Got here safely. Thank you, keep it up.",
+        "잘 왔습니다 ('came well / arrived safely') is an optional warm opener before the goodbye"
       ],
       [
-        "카드 결제됐어요? 네, 감사합니다. 수고하세요!",
-        "Did the card go through? Yes, thank you. Take care!",
-        "Real situation closing out the payment then leaving"
+        "A: 카드 결제됐어요? / B: 네, 됐습니다. / A: 감사합니다, 수고하세요!",
+        "A: Did the card go through? / B: Yes, it did. / A: Thank you, take care!",
+        "Real situation: closing out the payment, then leaving — the natural sequence shows how this phrase bookends the ride"
       ]
     ],
-    "nuance": "This is the set farewell you give a taxi driver (and many service workers) as you get out, customer-to-worker, in 존댓말. 감사합니다 = 'thank you', and 수고하세요 literally tells someone 'keep up the hard work / take care with your labor' — a uniquely Korean send-off acknowledging their job. The completed-action formal version 수고하셨습니다 ('you've worked hard') is said when THEY finish for you; while you leave mid-shift, 수고하세요 (ongoing) is the right pick. A warm alternative is 안전 운전하세요 ('drive safe'). The key cultural/English-speaker mistake is saying 수고하세요 to someone OF HIGHER STATUS (a boss, a much older person, a professor) — it can sound condescending, as if praising their effort from above; with a driver it's perfectly normal, but never say it to your superior. Also, don't translate 'take care' as 조심하세요 ('be careful'), which warns of danger rather than thanking effort.",
+    "nuance": "This is the set farewell phrase you give a taxi driver — and broadly any service worker — as you finish and leave, customer-to-worker, in 존댓말. 감사합니다 = 'thank you', and 수고하세요 literally means 'please continue your effort/labor' — it is a uniquely Korean acknowledgment of someone's ongoing work, without a clean English equivalent. The tense distinction matters: 수고하세요 (present-habitual, 'keep at it') is correct when the driver is still on shift; 수고하셨습니다 (past-respectful, 'you have labored') is correct when a task is fully completed for you — at the end of a service you received, e.g. a long delivery is done. In a taxi you leave mid-shift, so 수고하세요 is the right pick. A warm variant is 안전 운전하세요 ('drive safely'), which works perfectly here. The central cultural trap for English speakers is hierarchical register: 수고하세요 is said downward or laterally — to someone doing work on your behalf, a peer, or a service worker. Saying it to a superior (boss, professor, much older elder) implies you are evaluating their effort from above, which is patronizing in Korean culture. Never say 수고하세요 to your senior; use 감사합니다 or 안녕히 계세요 instead.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "This is the set farewell you give a taxi driver (and many service workers) as you get out, customer-to-worker, in 존댓말. 감사합니다 = 'thank you', and 수고하세요 literally tells someone 'keep up the hard work / take care with your labor' — a uniquely Korean send-off acknowledging their job. The completed-action formal version 수고하셨습니다 ('you've worked hard') is said when THEY finish for you; while you leave mid-shift, 수고하세요 (ongoing) is the right pick."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "수고하세요 literally = 'please undergo labor/effort (honorific)'. The real meaning is a warm send-off acknowledging the other person's work — closest to 'take care' or 'keep it up', but richer. It cannot be translated word-for-word; it must be understood as a culturally embedded expression of appreciation for effort.",
+        "chips": ["수고하세요 = keep at it (mid-shift)", "수고하셨습니다 = you've done well (task complete)", "안전 운전하세요 = drive safely"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "A warm alternative is 안전 운전하세요 ('drive safe'). Also, don't translate 'take care' as 조심하세요 ('be careful'), which warns of danger rather than thanking effort."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer leaving a taxi, delivery person finishing a drop-off, shop assistant after a transaction — always customer/peer TO service worker, in 존댓말. Never say this upward in hierarchy (to a boss or professor). 반말 version: 수고해 (to a friend doing a favor)."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "수고하세요 (still working → keep going) vs 수고하셨습니다 (done for you → you've worked hard). 안전 운전하세요 is a warm driver-specific alternative. 조심하세요 ('be careful') warns of danger — it does NOT convey thanks for effort, and substituting it loses the warmth entirely."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "감사합니다, 수고하셨습니다 (격식, when the task is done); 감사합니다, 안전 운전하세요 (driver-specific warmth); 수고해요 (slightly informal but still polite); 고생하셨어요 (acknowledged a harder job).",
+        "chips": ["수고하세요", "수고하셨습니다", "안전 운전하세요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The key cultural/English-speaker mistake is saying 수고하세요 to someone OF HIGHER STATUS (a boss, a much older person, a professor) — it can sound condescending, as if praising their effort from above; with a driver it's perfectly normal, but never say it to your superior."
+        "t": "Translating English 'take care' as 조심하세요 — 조심하세요 warns of an imminent danger or asks for caution; it does not acknowledge effort or say goodbye warmly. Also, using 수고하세요 with a superior is the most serious cultural mistake — it is condescending in Korean hierarchy."
       }
     ],
     "mistakes": [
@@ -1051,35 +1220,47 @@
       [
         "택시 좀 불러 주세요.",
         "Please call a taxi for me.",
-        "The bare request to a front-desk clerk"
+        "The bare request to a front-desk clerk — 좀 is essential; without it the request sounds abrupt"
       ],
       [
-        "죄송한데 택시 좀 불러 주세요. 비가 와서요.",
-        "Sorry, could you call me a taxi? It's raining.",
-        "죄송한데 + reason makes the ask gracious"
+        "죄송한데 택시 좀 불러 주세요. 비가 와서 잡기가 힘들어서요.",
+        "Sorry to trouble you, but could you call me a taxi? It's raining and I can't hail one.",
+        "죄송한데 + reason is the natural Korean way to open a favor-request; explaining why you can't do it yourself is considerate"
       ],
       [
-        "체크아웃하는데 공항 가는 택시 좀 불러 주시겠어요?",
-        "I'm checking out — could you call a taxi to the airport?",
-        "Real situation at a hotel checkout"
+        "A: 체크아웃하는데 공항 가는 택시 좀 불러 주시겠어요? / B: 네, 잠깐만요. 예약해 드릴게요.",
+        "A: I'm checking out — could you call a taxi to the airport? / B: Sure, just a moment. I'll arrange one for you.",
+        "Real situation at hotel checkout — 예약해 드릴게요 ('I'll book/arrange it for you') is the staff's natural response"
       ]
     ],
-    "nuance": "You say this to ask a staff member (hotel desk, restaurant, building security) to phone for a taxi on your behalf, customer-to-staff, in 존댓말 with softening 좀. 부르다 here means 'to call/summon', so 택시 불러 주세요 = 'please summon a taxi for me'. More formal is 택시 한 대 불러 주시겠어요?; 반말 is 불러 줘. The nearest alternative is 택시 잡아 주세요, where 잡다 ('to catch/grab') means flagging one down on the street — the dividing line is method: 부르다 = phone/app a cab to come, 잡다 = hail a passing one. The English-speaker mistake is translating 'call' as 전화하다 and saying 택시한테 전화해 주세요 ('please phone to the taxi'), which is odd because you summon the service, not ring a specific cab; the verb is 부르다. Another trap is omitting 좀, which makes the request feel curt.",
+    "nuance": "You say this to a third party — hotel front desk, restaurant host, building security — asking them to phone for a taxi on your behalf, customer-to-staff, in 존댓말 with 좀. 부르다 means 'to call/summon' and is the correct verb when you ask someone to arrange transportation: 택시를 부르다 = 'to summon/call a taxi'. More formal is 한 대 ('one vehicle') + 불러 주시겠어요?; 반말 is 불러 줘. The critical distinction against 잡아 주세요: 부르다 involves calling or app-booking a cab to come to you, while 잡다 ('to catch/grab') means physically flagging down a passing taxi on the street — the dividing line is method. In modern Korea 부르다 increasingly implies calling via app (카카오택시, etc.), while 잡다 is for the roadside scenario. An English speaker's first instinct is to map 'call' onto 전화하다 ('to telephone') and say 택시한테 전화해 주세요, but this wrongly suggests phoning the taxi cab directly; you summon a taxi service with 부르다. Omitting 좀 makes the request noticeably abrupt to a staff member.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You say this to ask a staff member (hotel desk, restaurant, building security) to phone for a taxi on your behalf, customer-to-staff, in 존댓말 with softening 좀. 부르다 here means 'to call/summon', so 택시 불러 주세요 = 'please summon a taxi for me'. More formal is 택시 한 대 불러 주시겠어요?; 반말 is 불러 줘. Another trap is omitting 좀, which makes the request feel curt."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "택시 좀 불러 주세요 = 'please call/summon a taxi a little for me'. 부르다 spans 'to call out, to summon, to order [a service]'. Here the meaning is to arrange for a taxi to come — by phone or app — not to shout at one. 좀 softens the request.",
+        "chips": ["부르다 = call/summon (by phone/app)", "잡다 = hail (on street)", "좀 = softener, mandatory here"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternative is 택시 잡아 주세요, where 잡다 ('to catch/grab') means flagging one down on the street — the dividing line is method: 부르다 = phone/app a cab to come, 잡다 = hail a passing one."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-service-staff (hotel, restaurant, office building) — 존댓말 with 좀 always. More formal: 택시 한 대 불러 주시겠어요?. Lead with 죄송한데 if asking someone to go out of their way. 반말 불러 줘 only to a friend doing you a favor."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "부르다 (call/summon via phone or app) vs 잡다 (hail on the road). When it's raining or late and no taxis are visible, you want 불러 주세요 (arranged pickup). When a staff member is standing at a roadside and you want them to flag one, 잡아 주세요 fits. In daily practice 부르다 increasingly dominates as app-based rides grow."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "택시 한 대 불러 주시겠어요? (more formal, explicit count); 카카오택시 불러 주실 수 있어요? (app-specific); 택시 좀 잡아 주세요 (hail version); 택시 예약해 주실 수 있어요? (asking for a pre-booked cab).",
+        "chips": ["불러 주세요 (call/summon)", "잡아 주세요 (hail)", "예약해 주세요 (book)"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is translating 'call' as 전화하다 and saying 택시한테 전화해 주세요 ('please phone to the taxi'), which is odd because you summon the service, not ring a specific cab; the verb is 부르다."
+        "t": "Saying 택시한테 전화해 주세요 — 전화하다 ('to telephone') targets a person, not a service; you use 부르다 to summon a taxi. Also, confusing 부르다 (summon) with 잡다 (hail) — pick based on whether it involves a phone/app or flagging on the street."
       }
     ],
     "mistakes": [
@@ -1090,7 +1271,7 @@
   },
   {
     "hangul": "기사님, 여기 어떻게 가요?",
-    "english": "Driver, how do we get here?",
+    "english": "Driver, how do I get there?",
     "topic": "transport",
     "usage": [
       [
@@ -1118,35 +1299,47 @@
       [
         "기사님, 여기 어떻게 가요?",
         "Driver, how do we get here?",
-        "The bare route question, showing your phone"
+        "The bare route question while tapping the location on your phone — 기사님 upfront is courteous and signals you want his expertise"
       ],
       [
         "여기 어떻게 가요? 골목이 복잡해서 잘 모르겠어요.",
         "How do we get here? The alleys are confusing and I'm not sure.",
-        "Admitting you don't know the maze of streets"
+        "Admitting uncertainty (잘 모르겠어요) naturally invites the driver's help rather than sounding like a test"
       ],
       [
-        "여기 어떻게 가요? 빠른 길로 가면 좋겠는데요.",
-        "How do we get here? I'd prefer the quickest route.",
-        "Real situation asking for the route and hinting at the fast one"
+        "A: 기사님, 여기 어떻게 가요? 빠른 길로 가면 좋겠는데요. / B: 낮에는 강변 타는 게 제일 빨라요.",
+        "A: Driver, how do we get here? The quickest way would be great. / B: During the day the riverside road is fastest.",
+        "Real situation: adding 빠른 길로 ('the fast way') shapes the answer you want; the driver's local knowledge response is the pay-off"
       ]
     ],
-    "nuance": "You ask this to a driver about the route to a place you're showing, customer-to-driver, in plain 존댓말, often opening with 기사님 to address him respectfully. 어떻게 = 'how', 가요 = 'do (we) go', so 여기 어떻게 가요? = 'how do we get here?'. A softer, indirect version is 여기 어떻게 가는지 아세요? ('do you know how to get here?'); 반말 is 여기 어떻게 가?. The nearest alternative is 여기 가는 길 좀 알려 주세요 ('please tell me the way'), which directly requests directions, whereas 어떻게 가요? asks the method more openly — both are natural. The English-speaker mistake is calquing 'how can I get there' as 어떻게 갈 수 있어요?, which over-uses the ability form and sounds stilted; Koreans simply say 어떻게 가요? Another error is 어디 가요? ('where are we going?'), which asks the destination, not the route.",
+    "nuance": "You ask this to a driver when you know the destination but not the route — especially useful when the GPS is unavailable, the address is confusing, or you want the driver's local knowledge. Customer-to-driver, plain 존댓말, typically opening with 기사님 to address him respectfully. 어떻게 = 'how', 가요 = '(do we/you) go', and 여기 points at the visible destination on your screen: 여기 어떻게 가요? = 'how do we go here?'. A softer, face-saving indirect version is 여기 어떻게 가는지 아세요? ('do you know how to get here?'), which lets the driver say 'I'll look it up' without losing face. 반말 is 여기 어떻게 가?. The nearest alternative with a different framing is 여기 가는 길 좀 알려 주세요 ('please tell me the way'), which directly requests directions, while 어떻게 가요? asks how more openly. The English-speaker's grammatical error is using the ability construction: 어떻게 갈 수 있어요? ('how am I able to go?') over-formalizes the question with an unneeded 수 있다 — Koreans simply say 어떻게 가요?. Another trap is 어디 가요? ('where are we going?'), which asks for the destination, not the route, and confuses the driver if you already have a pin showing.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "You ask this to a driver about the route to a place you're showing, customer-to-driver, in plain 존댓말, often opening with 기사님 to address him respectfully. 어떻게 = 'how', 가요 = 'do (we) go', so 여기 어떻게 가요? = 'how do we get here?'. A softer, indirect version is 여기 어떻게 가는지 아세요? ('do you know how to get here?'); 반말 is 여기 어떻게 가?."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL VS REAL",
+        "t": "여기 어떻게 가요? = 'here, how does one go?' The literal and real meanings are the same — a route question. 여기 in this context means 'this place I'm showing you' (the destination on the screen), not 'here where we currently are'. The deictic shift is important: 여기 = the destination, not the current location.",
+        "chips": ["어떻게 = how (route)", "어디 = where (destination — different!)", "가요 = do we/you go"]
       },
       {
-        "k": "비슷한 말",
-        "e": "VS",
-        "t": "The nearest alternative is 여기 가는 길 좀 알려 주세요 ('please tell me the way'), which directly requests directions, whereas 어떻게 가요? asks the method more openly — both are natural. Another contrast is 어디 가요? ('where are we going?'), which asks the destination, not the route."
+        "k": "상황과 격식",
+        "e": "SITUATION & REGISTER",
+        "t": "Customer-to-driver while showing a location — 존댓말, with 기사님 as a respectful opener. Soften with 가는지 아세요? when you want to give the driver room to look it up. 반말 어떻게 가? to a friend. Add context (빠른 길, 경치 좋은 길) to shape the answer."
+      },
+      {
+        "k": "비슷한 표현과의 차이",
+        "e": "VS SIMILAR",
+        "t": "어떻게 가요? (how to get there — route) vs 어디 가요? (where are we going — destination). Very different meanings; mixing them is a common beginner slip. 여기 가는 길 좀 알려 주세요 is more direct ('please tell me the way') and is used when you want step-by-step directions rather than an open route question."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "VARIANTS",
+        "t": "여기 어떻게 가는지 아세요? (softest, indirect); 여기 가는 길 좀 알려 주세요 (direct directions request); 빠른 길로 가면 어떻게 가요? (fastest route); 이 근처 어떻게 가요? (asking about an area, not a pin).",
+        "chips": ["어떻게 가요?", "가는지 아세요?", "가는 길 알려 주세요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker mistake is calquing 'how can I get there' as 어떻게 갈 수 있어요?, which over-uses the ability form and sounds stilted; Koreans simply say 어떻게 가요?."
+        "t": "Saying 어떻게 갈 수 있어요? — the ability form is unneeded and sounds stilted; the natural everyday form is just 어떻게 가요?. Also, using 오다 (여기 어떻게 와요?) when you mean traveling to the destination — use 가다 for going to a place."
       }
     ],
     "mistakes": [

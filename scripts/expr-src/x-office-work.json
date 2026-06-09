@@ -7,57 +7,69 @@
       [
         "회의가 있어요.",
         "I have a meeting.",
-        "Neutral-polite, telling a coworker why you're stepping away"
+        "Neutral-polite (해요체), telling a coworker why you're stepping away"
       ],
       [
         "회의 있어.",
         "I've got a meeting.",
-        "반말, to a same-age colleague or close junior"
+        "반말, to a same-age colleague or close junior — particle 가 is often dropped in casual speech"
       ],
       [
         "회의가 있습니다.",
         "I have a meeting.",
-        "격식체, reporting your schedule to a boss or in a formal setting"
+        "격식체 (합쇼체), reporting your schedule to a boss or in a formal setting such as a briefing"
       ],
       [
         "이따 3시에 회의가 있어요.",
         "I have a meeting at 3 later.",
-        "Extension: add a time so people know when you're unavailable"
+        "Extension: adding a time signals exactly when you'll be unavailable, so colleagues can plan around you"
       ]
     ],
     "examples": [
       [
         "지금 회의가 있어요.",
         "I have a meeting right now.",
-        "The bare reason given when you can't talk this second"
+        "The bare, single-sentence reason given when you can't talk this second — short and natural"
       ],
       [
-        "죄송한데 회의가 있어서 이만 가 볼게요.",
-        "Sorry, I have a meeting so I should get going.",
-        "Everyday exit line that politely cuts a chat short"
+        "A: 잠깐 얘기할 수 있어요? / B: 죄송한데 지금 회의가 있어서요. 끝나고 연락드릴게요.",
+        "A: Can we talk for a second? / B: Sorry, I have a meeting right now. I'll reach out after it's done.",
+        "Real two-person exchange: B uses the polite reason clause -아/어서요 to soften the refusal without full explanation"
       ],
       [
         "오후에 팀 회의가 있어서 보고서는 그 전에 끝낼게요.",
         "There's a team meeting this afternoon, so I'll finish the report before then.",
-        "A fuller work plan built around the meeting time"
+        "Shows 있다 used inside a causal clause (-아서), linking the meeting's existence to a plan — common in real work scheduling"
       ]
     ],
-    "nuance": "회의가 있어요 is the everyday office way to say a meeting is on your schedule, said coworker-to-coworker or up to a boss; it uses 있다 ('to exist/have'), so Korean treats the meeting as something that 'exists,' marked by the subject particle 가, not the object particle 를. Drop to 회의 있어 only with peers or juniors you're close with, and lift to 회의가 있습니다 in formal reports or to senior management. The nearest alternative is 회의에 들어가요 ('I'm going into the meeting'), which stresses that you're physically attending right now rather than that one is scheduled — use 있어요 for the calendar fact, 들어가요 for the act of joining. The classic English-speaker mistake is 회의를 있어요, copying the English 'have a meeting' as a direct object; 있다 never takes 를, so it must be 회의가 있어요.",
+    "nuance": "회의가 있어요 is the everyday office phrase for 'a meeting is on my schedule.' Korean uses 있다 ('to exist/have') with the subject particle 가, treating the meeting as a thing that exists on your calendar — crucially, this is NOT 회의를 있어요 (있다 never takes the object particle 를). Drop to 회의 있어 with same-rank friends or juniors; rise to 회의가 있습니다 when briefing management or making a formal declaration. The closest alternative, 회의에 들어가요, means you are physically going into the meeting right now, whereas 있어요 is simply the schedule fact. A second comparison: 회의를 해요 ('I'm having / conducting a meeting') frames you as an active participant hosting it, not merely as an attendee — use 있어요 to announce your schedule, 해요 when you're running the meeting itself. English speakers almost always say 회의를 있어요 by copying the direct-object structure of 'have a meeting,' but 있다 in Korean always needs 이/가.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "The everyday office way to say a meeting is on your schedule, said coworker-to-coworker or up to a boss. It uses 있다 ('to exist/have'), so Korean treats the meeting as something that 'exists,' marked by the subject particle 가, not the object particle 를. Drop to 회의 있어 only with peers or juniors you're close with, and lift to 회의가 있습니다 in formal reports or to senior management."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "'A meeting exists (on my schedule).' Korean uses 있다 ('to exist') with subject particle 가, not the object-verb structure English uses. The meeting is a thing that exists, not something you 'have' as a possession."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "회의가 있어요 is polite-neutral (해요체) — safe for coworkers at the same or higher level. Use 있습니다 when reporting to senior management or in any formal announcement. Use 있어 only with close peers or juniors.",
+        "chips": ["있어요 (해요체)", "있습니다 (격식)", "있어 (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative is 회의에 들어가요 ('I'm going into the meeting'), which stresses that you're physically attending right now rather than that one is scheduled. Use 있어요 for the calendar fact, 들어가요 for the act of joining."
+        "t": "회의에 들어가요 = physically going into the meeting right now (in-progress action). 회의를 해요 = actively conducting/hosting the meeting. 회의가 있어요 = the calendar fact: a meeting is scheduled. Pick 있어요 for the 'I'm busy / I have one booked' message."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "Add time: 3시에 회의가 있어요. Add a causal clause: 회의가 있어서 못 가요 ('I can't go because I have a meeting'). Pair with 이따 ('later today') for advance notice.",
+        "chips": ["회의가 있어서", "이따 [시간]에", "회의가 있습니다"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The classic English-speaker mistake is 회의를 있어요, copying the English 'have a meeting' as a direct object. 있다 never takes 를, so it must be 회의가 있어요."
+        "t": "회의를 있어요 — copying English 'have a meeting' as object + 있다 is the #1 mistake. 있다 takes 이/가, never 을/를. Also: don't say 회의를 해요 when you simply mean 'I have one booked'; 해요 implies you're running it."
       }
     ],
     "mistakes": [
@@ -74,57 +86,69 @@
       [
         "자리에 안 계세요.",
         "He's/She's not at their desk.",
-        "Honorific 계세요, said about a senior who stepped away — to a caller or visitor"
+        "Honorific 계시다, said ABOUT a senior to a caller or visitor — never about yourself"
       ],
       [
         "자리에 없어.",
-        "They're not at their desk.",
-        "반말/plain, about a peer to another peer"
+        "They're not around.",
+        "반말/plain, talking about a peer to another peer — 없다 because no honorific is needed"
       ],
       [
         "지금 자리에 안 계십니다.",
         "He/She is not at their desk at the moment.",
-        "격식체, answering an outside business call"
+        "격식체, answering an outside business call or speaking to a high superior"
       ],
       [
         "잠깐 자리 비우셨어요.",
         "He/She has just stepped away.",
-        "Softer extension implying they'll be right back"
+        "Softer extension implying a brief, temporary absence — suggests they'll be back soon"
       ]
     ],
     "examples": [
       [
-        "김 과장님 자리에 안 계세요.",
-        "Manager Kim isn't at his desk.",
-        "The bare report when someone asks for a colleague"
+        "김 과장님은 자리에 안 계세요.",
+        "Manager Kim isn't at her desk.",
+        "Bare third-person report when someone asks for a colleague — note honorific 계시다 for the absent senior"
       ],
       [
-        "지금 자리에 안 계신데, 메모 남겨 드릴까요?",
-        "He's not at his desk right now — shall I take a message?",
-        "Everyday phone handling when the person is out"
+        "A: 이 팀장님 좀 바꿔 주시겠어요? / B: 지금 자리에 안 계신데, 메모 남겨 드릴까요?",
+        "A: Could I speak to Team Leader Lee? / B: He's not at his desk right now — shall I take a message?",
+        "Classic phone-handling exchange: 계신데 ('not in, but…') naturally leads to an offer to help"
       ],
       [
         "부장님은 외근 중이라 자리에 안 계세요. 들어오시면 전화드리라고 할게요.",
         "The director is out on business, so he's not in. I'll have him call you when he's back.",
-        "A fuller answer that explains the absence and offers a callback"
+        "Fuller answer explaining the absence and offering a callback — 외근 (outside-work errand) adds context"
       ]
     ],
-    "nuance": "자리에 안 계세요 is what you say about a colleague — usually a senior — who isn't at their desk, to a caller, visitor, or anyone asking for them; 계시다 is the honorific of 있다, so you use it to RAISE the absent person, never about yourself. The location particle is 에 (자리에), marking where they aren't. For a same-rank peer you'd say 자리에 없어요 with plain 없다; reserve 안 계세요 for someone you should honor. The nearest alternative, 잠시 자리 비웠어요 ('stepped away for a moment'), implies a short, temporary absence and a quick return, whereas 자리에 안 계세요 is the neutral 'not here right now' without that promise. English speakers wrongly say 자리에 안 있어요 about a boss — using plain 있다 about a senior is a register error; honor them with 안 계세요.",
+    "nuance": "자리에 안 계세요 is what you say ABOUT a senior colleague who isn't at their desk, to a caller, visitor, or anyone asking for them. 계시다 is the honorific equivalent of 있다, and its entire job here is to raise the absent person — you never use 계세요 about yourself. Location is marked with 에 (자리에, 'at the desk'), not 를. When the absent person is a peer, drop to 없어요 or 없어; save 계세요 for someone you owe deference. The close neighbor 잠시 자리 비웠어요 ('stepped away for a moment') promises a quick return and is said ABOUT a peer by a third party or about yourself when you come back; 안 계세요 is the neutral 'not here right now' with no return-time implied. The trap for English speakers: saying 자리에 안 있어요 about a boss uses plain 있다, which strips the honorific and comes across as rude or at least careless in a Korean office context.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "What you say about a colleague — usually a senior — who isn't at their desk, to a caller, visitor, or anyone asking for them. 계시다 is the honorific of 있다, so you use it to RAISE the absent person, never about yourself. The location particle is 에 (자리에), marking where they aren't. For a same-rank peer you'd say 자리에 없어요 with plain 없다; reserve 안 계세요 for someone you should honor."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'At the desk, [they] do not honorably-exist.' 실제: '[They are] not at their desk right now' — a standard third-party message relayed to a caller or visitor on behalf of the absent senior."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "Used only about a third person (a senior), never yourself. 계시다 is always for someone you're honoring. For a peer, use 없어요/없어. For a formal phone call, upgrade to 안 계십니다. Never say 저는 자리에 안 계세요 — you cannot honorific-raise yourself.",
+        "chips": ["안 계세요 (senior)", "없어요 (peer)", "안 계십니다 (formal call)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative, 잠시 자리 비웠어요 ('stepped away for a moment'), implies a short, temporary absence and a quick return, whereas 자리에 안 계세요 is the neutral 'not here right now' without that promise."
+        "t": "잠시 자리 비우셨어요 = stepped away briefly, implies they'll be right back. 자리에 안 계세요 = neutral 'not here right now,' no return promise. 외출하셨어요 = went out (outside the building), a longer absence."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "자리에 안 계신데 ('not in, but…') is the natural lead-in to an offer: 메모 남겨 드릴까요? ('Shall I take a message?'). Add 잠시 for a softer tone: 잠시 자리에 안 계세요.",
+        "chips": ["안 계신데 + [offer]", "잠시 자리에 안 계세요", "안 계십니다 (formal)"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers wrongly say 자리에 안 있어요 about a boss. Using plain 있다 about a senior is a register error; honor them with 안 계세요."
+        "t": "자리에 안 있어요 about a boss — plain 있다 fails to honor them; 안 계세요 is required. Also: 자리를 안 계세요 is wrong — location takes 에, not 를."
       }
     ],
     "mistakes": [
@@ -141,7 +165,7 @@
       [
         "잠시 자리 비웠어요.",
         "I stepped away for a bit.",
-        "Polite, explaining your own brief absence when you return"
+        "Polite (해요체), explaining your own brief absence when you return and find you missed someone"
       ],
       [
         "잠깐 자리 비웠어.",
@@ -151,53 +175,59 @@
       [
         "잠시 자리를 비웠습니다.",
         "I stepped away for a moment.",
-        "격식체, apologizing in a formal reply or email"
+        "격식체, in a formal reply or email apology for a missed call or message"
       ],
       [
         "잠깐 자리 비우셨어요.",
-        "He/She stepped away for a moment.",
-        "Honorific extension, said ABOUT a senior who's briefly out"
+        "He/She stepped away briefly.",
+        "Honorific past, said ABOUT a senior by a third party — note 비우셨어요, not 비웠어요, for the raised subject"
       ]
     ],
     "examples": [
       [
         "죄송해요, 잠시 자리 비웠어요.",
         "Sorry, I stepped away for a moment.",
-        "The bare apology when you missed someone at your desk"
+        "The bare apology when you missed someone at your desk — -었어요 past tense marks it as completed"
       ],
       [
-        "전화 못 받아서 죄송해요. 잠시 자리 비웠었어요.",
-        "Sorry I missed your call — I'd stepped away for a bit.",
-        "Everyday explanation for a missed call at work"
+        "A: 아까 전화했는데 못 받으셨어요? / B: 네, 잠시 자리 비웠었어요. 무슨 일이세요?",
+        "A: I called earlier — did you miss it? / B: Yes, I'd stepped away for a bit. What's up?",
+        "Two-person exchange: 비웠었어요 (past-perfect) signals the absence is fully over before the conversation"
       ],
       [
-        "아까 찾으셨다면서요? 잠시 자리 비웠어요. 무슨 일이세요?",
-        "I heard you were looking for me? I'd stepped out. What's up?",
-        "A fuller exchange picking up after you were away"
+        "아까 찾으셨다면서요? 잠시 자리 비웠어요. 지금 바로 도와드릴게요.",
+        "I heard you were looking for me? I had stepped out — I can help you right now.",
+        "Fuller exchange: returning, acknowledging the visit, and immediately offering to help"
       ]
     ],
-    "nuance": "잠시 자리 비웠어요 explains your OWN short absence from your desk, said when you come back and find you missed a call or visitor; 비우다 means 'to empty/vacate,' so you literally 'emptied your seat' for a moment. 잠시 and 잠깐 both mean 'briefly' and are interchangeable here. Use plain past 비웠어요 for casual 'I was away'; the past-perfect 비웠었어요 stresses it's already over. The close pair is 자리에 안 계세요, but that is said ABOUT someone else (usually a senior) by a third person, while 자리 비웠어요 is first-person about yourself — mixing them up makes you accidentally honorific-raise yourself. English speakers often translate 'I was out' as 나갔어요 ('I left/went out'), which sounds like you left the building entirely; for a quick step away from the desk, 자리 비웠어요 is the natural fit.",
+    "nuance": "잠시 자리 비웠어요 explains YOUR OWN brief absence from your desk, said when you return and find you missed a call, visitor, or message. 비우다 literally means 'to empty / vacate,' so you 'emptied your seat' for a short time. 잠시 and 잠깐 are both 'briefly/momentarily' and interchangeable here. Use past 비웠어요 for 'I was away'; past-perfect 비웠었어요 emphasizes it's fully over before this moment. The key distinction from 자리에 안 계세요: that phrase is said by a THIRD PARTY about a senior, while 자리 비웠어요 is first-person about yourself — swapping them accidentally applies honorific speech to yourself, which sounds strange. A second neighbor, 나갔어요 ('I went out'), implies leaving the building entirely, whereas 자리 비웠어요 covers any brief step away from the desk — a bathroom break, a hallway chat, a short errand — without suggesting you left. English speakers consistently reach for 나갔어요 as a translation of 'I was out,' which overextends the absence.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Explains your OWN short absence from your desk, said when you come back and find you missed a call or visitor. 비우다 means 'to empty/vacate,' so you literally 'emptied your seat' for a moment. 잠시 and 잠깐 both mean 'briefly' and are interchangeable here."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'I briefly emptied my seat (비우다 = empty/vacate).' 실제: 'I stepped away from my desk for a moment' — a natural explanation given when returning to find a missed caller or visitor."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "First-person only: said by YOU about your own absence. 비웠어요 (해요체) for coworkers; 비웠습니다 (격식) in email or formal settings; 비웠어 (반말) to peers. The honorific form 비우셨어요 belongs ONLY when talking about a senior third party, never yourself.",
+        "chips": ["비웠어요 (해요체)", "비웠습니다 (격식)", "비웠어 (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The close pair is 자리에 안 계세요, but that is said ABOUT someone else (usually a senior) by a third person, while 자리 비웠어요 is first-person about yourself. Mixing them up makes you accidentally honorific-raise yourself."
+        "t": "자리에 안 계세요 = third-person, about a senior (someone else). 나갔어요 = left the building/premises. 잠시 자리 비웠어요 = you personally stepped away from the desk briefly — doesn't imply leaving the office."
       },
       {
-        "k": "활용",
+        "k": "변형·확장형",
         "e": "FORMS",
-        "t": "Use plain past 비웠어요 for casual 'I was away'; the past-perfect 비웠었어요 stresses it's already over.",
-        "chips": ["비웠어요", "비웠었어요"]
+        "t": "비웠어요 (past, simple) vs 비웠었어요 (past-perfect, fully over). Combine with reason: 잠깐 화장실 갔다 왔어요 ('I went to the bathroom quickly') is more specific but 자리 비웠어요 is the polite, neutral default.",
+        "chips": ["비웠어요", "비웠었어요", "잠시 자리 비웠습니다"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers often translate 'I was out' as 나갔어요 ('I left/went out'), which sounds like you left the building entirely. For a quick step away from the desk, 자리 비웠어요 is the natural fit."
+        "t": "'I was out' → 나갔어요 sounds like you left the building entirely. For a quick desk break, 자리 비웠어요 is correct. Also: never use 비우셨어요 to describe your own absence — that honorific form is for others."
       }
     ],
     "mistakes": [
@@ -214,12 +244,12 @@
       [
         "확인해 보겠습니다.",
         "I'll look into it.",
-        "격식체, to a client or boss — the standard business 'let me check'"
+        "격식체 (합쇼체), to a client or boss — the standard business 'let me check'"
       ],
       [
         "확인해 볼게요.",
         "I'll check.",
-        "Polite-casual, to a coworker you're comfortable with"
+        "Polite-casual (해요체), to a coworker — slightly warmer and less stiff than 보겠습니다"
       ],
       [
         "확인해 볼게.",
@@ -229,42 +259,54 @@
       [
         "확인하고 다시 말씀드리겠습니다.",
         "I'll check and get back to you.",
-        "Extension promising a follow-up after you verify"
+        "Extension pairing verification with a follow-up promise — common in customer service and formal calls"
       ]
     ],
     "examples": [
       [
         "네, 확인해 보겠습니다.",
         "Yes, I'll check on it.",
-        "The bare professional reply to a request or question"
+        "The bare professional reply to a request — 네 at the front signals you've received and accepted the task"
       ],
       [
-        "재고가 있는지 확인해 보겠습니다. 잠시만요.",
-        "I'll check whether we have it in stock. One moment.",
-        "Everyday use handling a query at work"
+        "재고가 있는지 확인해 보겠습니다. 잠시만 기다려 주세요.",
+        "I'll check whether we have it in stock. Please wait a moment.",
+        "Everyday customer-service use: stating what you'll verify, then asking them to hold"
       ],
       [
-        "말씀하신 부분은 담당자에게 확인해 보고 오늘 안으로 답변드리겠습니다.",
-        "I'll check the point you raised with the person in charge and reply by end of day.",
-        "A fuller business commitment to verify and respond"
+        "A: 계약서 내용이 맞는지 확인해 주실 수 있어요? / B: 네, 확인해 보고 오늘 안으로 답변드리겠습니다.",
+        "A: Can you verify that the contract details are correct? / B: Yes, I'll check and get back to you by end of day.",
+        "Two-person exchange showing -아/어 보다 softening the action and -겠습니다 committing to a follow-up"
       ]
     ],
-    "nuance": "확인해 보겠습니다 is the workhorse business phrase for 'let me look into it,' said to a client, boss, or anyone you owe a professional answer; the -아/어 보다 pattern adds a 'give it a try / see' nuance, and -겠- signals your polite intention to do it. Step down to 확인해 볼게요 with a familiar coworker, or 확인해 볼게 with a peer. The nearest alternative is 알아보겠습니다 ('I'll find out / look into it'), which is for information you don't yet have, whereas 확인하다 is to VERIFY something specific (a fact, a status, a number) — the line is 'check/confirm' vs. 'investigate/find out.' English speakers often say just 확인하겠습니다 without 보다; that's grammatical but blunter and more like 'I will confirm (it for certain),' so adding 보다 keeps the softer, service-minded 'let me check' tone Koreans expect.",
+    "nuance": "확인해 보겠습니다 is the workhorse business phrase for 'let me check/verify that.' 확인하다 means to confirm or check a known, specific thing — a fact, a status, a number — so this phrase is for verification, not research. The -아/어 보다 construction adds a 'give it a try / I'll go and see' nuance that softens the commitment: you're not declaring certainty, you're promising the attempt. -겠습니다 marks a polite statement of intention, essential in formal speech. The nearest phrase is 알아보겠습니다 ('I'll find out / investigate'), used when the information is unknown and needs to be discovered rather than confirmed — saying 알아보겠습니다 when the fact already exists but just needs checking can suggest you're less capable than expected. Dropping 보다 (saying just 확인하겠습니다) is grammatical but sounds blunter and more like a certainty claim; the softer 확인해 보겠습니다 is the professional default, especially in service interactions.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "The workhorse business phrase for 'let me look into it,' said to a client, boss, or anyone you owe a professional answer. The -아/어 보다 pattern adds a 'give it a try / see' nuance, and -겠- signals your polite intention to do it. Step down to 확인해 볼게요 with a familiar coworker, or 확인해 볼게 with a peer."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'I will try checking/verifying.' 실제: 'I'll look into it / let me confirm that' — a polite commitment to verify a specific thing, with -아/어 보다 softening from certainty to a promise to try."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "확인해 보겠습니다 (합쇼체) for clients and bosses. 확인해 볼게요 (해요체) for coworkers. 확인해 볼게 (반말) for peers. Use this phrase whenever someone asks you to verify a specific fact, figure, or status.",
+        "chips": ["보겠습니다 (격식)", "볼게요 (해요체)", "볼게 (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative is 알아보겠습니다 ('I'll find out / look into it'), which is for information you don't yet have, whereas 확인하다 is to VERIFY something specific (a fact, a status, a number). The line is 'check/confirm' vs. 'investigate/find out.'"
+        "t": "확인해 보겠습니다 = verify something specific that exists (a document, a figure, an order status). 알아보겠습니다 = investigate or find out something unknown. Choosing wrong signals you don't know whether the info exists — use 확인 when you just need to check."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "Chain into a follow-up: 확인하고 다시 말씀드리겠습니다 / 확인 후 연락드리겠습니다. For a question: 확인해 드릴까요? ('Shall I check for you?'). For casual team chat: 확인해 볼게요.",
+        "chips": ["확인해 보겠습니다", "확인하고 연락드리겠습니다", "확인해 드릴까요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers often say just 확인하겠습니다 without 보다. That's grammatical but blunter and more like 'I will confirm (it for certain),' so adding 보다 keeps the softer, service-minded 'let me check' tone Koreans expect."
+        "t": "Dropping 보다: 확인하겠습니다 sounds curt and overconfident ('I will confirm it') rather than the softer service-minded 'let me check.' Also: using 알아보겠습니다 when the info exists — that phrase implies it's unknown and you must hunt for it."
       }
     ],
     "mistakes": [
@@ -281,57 +323,69 @@
       [
         "메일 보내 드렸어요.",
         "I sent you the email.",
-        "Polite, humble 드리다 because you're sending to someone above you"
+        "Polite with humble 드리다 — appropriate when the recipient outranks or is a client"
       ],
       [
         "메일 보냈어.",
         "I sent the email.",
-        "반말, to a peer or junior"
+        "반말, to a peer or junior — plain 보내다 with no humility"
       ],
       [
         "메일 보내 드렸습니다.",
         "I have sent the email.",
-        "격식체, to a client or in formal reporting"
+        "격식체, to a client, external partner, or in formal reporting"
       ],
       [
         "방금 메일 보내 드렸어요. 확인 부탁드려요.",
-        "I just emailed you — please take a look.",
-        "Extension nudging the reader to check"
+        "I just emailed you — please check.",
+        "Extension: '방금 (just now)' makes the notification timely and nudges the reader to look"
       ]
     ],
     "examples": [
       [
-        "메일 보내 드렸어요.",
-        "I've sent you the email.",
-        "The bare notice that the email is on its way"
-      ],
-      [
         "요청하신 자료 메일로 보내 드렸어요.",
         "I've emailed you the materials you requested.",
-        "Everyday delivery of files someone asked for"
+        "Bare delivery notice for a specific request — 로 ('by email') specifies the channel"
+      ],
+      [
+        "A: 파일 아직 못 받았어요. / B: 방금 다시 보내 드렸습니다. 혹시 스팸함 확인해 주시겠어요?",
+        "A: I haven't received the file yet. / B: I just resent it. Could you check your spam folder?",
+        "Two-person exchange: 드렸습니다 is the formal delivery notice; suggesting spam-check is practical follow-through"
       ],
       [
         "회의록은 참석자분들께 메일 보내 드렸으니, 못 받으신 분은 말씀해 주세요.",
         "I've emailed the minutes to all attendees — please let me know if you didn't receive them.",
-        "A fuller workplace announcement after distributing a document"
+        "Broader announcement to a group: 분들께 ('to all of you') and 보내 드렸으니 (causal, 'since I've sent') are natural in post-meeting messages"
       ]
     ],
-    "nuance": "메일 보내 드렸어요 means 'I have sent you the email,' with the humble 드리다 ('give, for someone above') marking that the recipient outranks or deserves deference from you — a boss, client, or senior. Plain 보냈어요 just states the action neutrally; 보내 드렸어요 adds the polite 'did it FOR you' nuance, which is why it's standard in service and reporting. Koreans say 메일 ('mail,' from English) far more than the formal 이메일 or the Sino-Korean 전자우편. The nearest alternative, 전달해 드렸어요 ('I forwarded/passed it on'), specifically means relaying something from a third party, whereas 보내 드렸어요 is sending it yourself. The English-speaker trap is overusing 드리다 — saying 친구한테 메일 보내 드렸어요 about a friend sounds oddly servile; with peers, plain 보냈어요 is correct, and 드리다 is reserved for someone you're honoring.",
+    "nuance": "메일 보내 드렸어요 means 'I've sent you the email,' and the key is 드리다 — the humble form of 주다 meaning 'to give to someone above you.' When you send something to a boss, client, or senior, 보내 드리다 frames the act as 'doing it FOR them,' which is the expected register in Korean work culture. Using plain 보냈어요 to the same person sounds abrupt and slightly disrespectful. Koreans use the loanword 메일 in everyday speech far more than formal 이메일 or Sino-Korean 전자우편 — the latter appears mainly in legal or government documents. The nearest neighbor 전달해 드렸어요 means 'I forwarded/passed on' (from someone else), not 'I personally composed and sent'; use 보내 드렸어요 for original sends. The English-speaker trap is applying 드리다 with peers or friends, which sounds oddly servile — reserve it for someone you actually owe deference.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Means 'I have sent you the email,' with the humble 드리다 ('give, for someone above') marking that the recipient outranks or deserves deference from you — a boss, client, or senior. Plain 보냈어요 just states the action neutrally; 보내 드렸어요 adds the polite 'did it FOR you' nuance, which is why it's standard in service and reporting. Koreans say 메일 ('mail,' from English) far more than the formal 이메일 or the Sino-Korean 전자우편."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'I sent [it] giving it to you (보내 + 드리다).' 실제: 'I've sent you the email' with built-in deference — 드리다 marks the recipient as outranking you, signaling 'I did this for your benefit.'"
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "보내 드렸어요 (해요체 + humble) for coworkers above you and clients. 보내 드렸습니다 (격식체 + humble) in formal emails or when reporting to senior management. 보냈어요 (no humble) for a same-rank colleague. 보냈어 (반말) for a peer or junior. Never use 드리다 for a friend or equal.",
+        "chips": ["보내 드렸어요 (senior/client)", "보내 드렸습니다 (격식)", "보냈어요 (동료)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative, 전달해 드렸어요 ('I forwarded/passed it on'), specifically means relaying something from a third party, whereas 보내 드렸어요 is sending it yourself."
+        "t": "전달해 드렸어요 = forwarded from a third party. 보내 드렸어요 = you personally composed/sent it. 공유해 드렸어요 = shared to a group channel or shared drive (not a direct send)."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "방금 보내 드렸어요 (just sent). 다시 보내 드릴게요 (I'll resend). 첨부해서 보내 드렸어요 (sent with attachments). 확인 부탁드려요 or 확인해 주시겠어요? follows naturally to prompt the reader.",
+        "chips": ["방금 보내 드렸어요", "다시 보내 드릴게요", "첨부해서 보내 드렸어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker trap is overusing 드리다 — saying 친구한테 메일 보내 드렸어요 about a friend sounds oddly servile. With peers, plain 보냈어요 is correct, and 드리다 is reserved for someone you're honoring."
+        "t": "Overusing 드리다 with peers or friends ('친구한테 보내 드렸어요') — sounds oddly formal and obsequious. 드리다 is for genuine upward deference. Conversely, forgetting 드리다 with a boss ('메일 보냈어요') comes across as flat or rude."
       }
     ],
     "mistakes": [
@@ -348,12 +402,12 @@
       [
         "다시 연락드리겠습니다.",
         "I'll contact you again.",
-        "격식체, the standard business 'I'll get back to you' to a client or senior"
+        "격식체, the standard business 'I'll get back to you' — obligatory when speaking to a client or senior"
       ],
       [
         "다시 연락드릴게요.",
         "I'll get back to you.",
-        "Polite-casual, to a coworker or a softer business tone"
+        "Polite-casual (해요체), to a coworker — same meaning, warmer and less stiff"
       ],
       [
         "다시 연락할게.",
@@ -363,42 +417,54 @@
       [
         "확인하고 다시 연락드리겠습니다.",
         "I'll check and get back to you.",
-        "Extension pairing it with a reason for the delay"
+        "Extension pairing the promise with a clear reason for the wait — the most common full-sentence form in Korean business"
       ]
     ],
     "examples": [
       [
         "확인 후 다시 연락드리겠습니다.",
         "I'll get back to you after I check.",
-        "The bare close to a call when you can't answer yet"
+        "The standard close to a business call when you can't answer immediately — brief and complete"
       ],
       [
-        "지금 자료가 없어서요, 확인하고 다시 연락드릴게요.",
-        "I don't have the data on hand, so I'll check and get back to you.",
-        "Everyday way to buy time politely on a work call"
+        "A: 납기일 조정이 가능한가요? / B: 지금 바로 말씀드리기 어려워서요, 내부 확인 후 다시 연락드리겠습니다.",
+        "A: Is it possible to adjust the delivery date? / B: I can't say right now — I'll check internally and get back to you.",
+        "Real business exchange: B gracefully buys time and commits to a follow-up without overpromising"
       ],
       [
-        "담당 부서와 논의한 뒤에 늦어도 내일 오전까지 다시 연락드리겠습니다.",
+        "담당 부서와 논의한 뒤 늦어도 내일 오전까지는 다시 연락드리겠습니다.",
         "After discussing with the relevant department, I'll get back to you by tomorrow morning at the latest.",
-        "A fuller business commitment with a clear deadline"
+        "Fuller professional commitment with a deadline — 늦어도 ('at the latest') sets a firm upper bound"
       ]
     ],
-    "nuance": "다시 연락드리겠습니다 is the polished business phrase for 'I'll get back to you,' said to a client, customer, or senior; 연락드리다 uses humble 드리다 to honor the person you'll contact, and -겠- expresses your firm intention. Soften to 다시 연락드릴게요 with a coworker, or 다시 연락할게 with a peer. The nearest alternative is 다시 전화드리겠습니다 ('I'll call you back'), which commits specifically to a phone call, whereas 연락 covers any channel — call, text, or email — so use 연락 when you're not promising a specific method. English speakers wrongly drop the humble form and say 다시 연락하겠습니다 to a client; while grammatical, it skips the deference, so in customer-facing situations 연락드리겠습니다 is expected. Also avoid the over-literal 당신에게 다시 연락하겠습니다 — naming 당신 ('you') sounds confrontational in Korean; the listener is understood without it.",
+    "nuance": "다시 연락드리겠습니다 is the polished business phrase for 'I'll get back to you,' said to a client, customer, or senior. 연락드리다 fuses 연락하다 ('to contact') with humble 드리다, lowering yourself to honor the recipient, and -겠- signals a firm stated intention. The result is the single most expected phrase to close a Korean business call when you can't answer immediately. Drop the humility for peers (연락할게, 연락할게요) but never drop 드리다 toward a customer-facing situation. 다시 전화드리겠습니다 ('I'll call you back') is the nearest neighbor but pins you to a phone call; 연락 covers any contact channel — phone, text, email — so 연락드리겠습니다 is safer when you haven't decided the method. The name particle for the recipient is 께 when mentioned (부장님께 연락드리겠습니다), not 한테/에게 — that distinction is a register marker native speakers notice immediately.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "The polished business phrase for 'I'll get back to you,' said to a client, customer, or senior. 연락드리다 uses humble 드리다 to honor the person you'll contact, and -겠- expresses your firm intention. Soften to 다시 연락드릴게요 with a coworker, or 다시 연락할게 with a peer."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'I will humbly contact [you] again (다시 + 연락드리다 + -겠-).' 실제: 'I'll get back to you' — a polite commitment to follow up, with 드리다 built in to honor the listener."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "연락드리겠습니다 (격식 + humble) for clients and senior managers — this is the expected professional closure. 연락드릴게요 (해요체 + humble) with familiar coworkers. 연락할게 (반말) with peers. For the senior's name, always use 께: 부장님께 연락드리겠습니다, not 부장님한테.",
+        "chips": ["연락드리겠습니다 (격식)", "연락드릴게요 (해요체)", "연락할게 (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative is 다시 전화드리겠습니다 ('I'll call you back'), which commits specifically to a phone call, whereas 연락 covers any channel — call, text, or email — so use 연락 when you're not promising a specific method."
+        "t": "다시 전화드리겠습니다 = I will call you back (phone only). 다시 연락드리겠습니다 = I will contact you again (any channel). 말씀드리겠습니다 = I will tell/inform you (one-directional message, not a return contact)."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "확인 후 연락드리겠습니다 (after checking). 오늘 안으로 연락드리겠습니다 (by end of day). 메일로 연락드리겠습니다 (will contact by email). Adding the channel or deadline makes the commitment concrete.",
+        "chips": ["확인 후 연락드리겠습니다", "오늘 안으로 연락드리겠습니다", "메일로 연락드리겠습니다"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers wrongly drop the humble form and say 다시 연락하겠습니다 to a client; while grammatical, it skips the deference, so in customer-facing situations 연락드리겠습니다 is expected. Also avoid the over-literal 당신에게 다시 연락하겠습니다 — naming 당신 ('you') sounds confrontational in Korean; the listener is understood without it."
+        "t": "Saying 다시 연락하겠습니다 to a customer skips the deference — 드리다 is not optional here in client-facing Korean. Also: 당신에게 다시 연락하겠습니다 — using 당신 ('you') sounds confrontational; the listener is already implied, so omit it."
       }
     ],
     "mistakes": [
@@ -415,57 +481,69 @@
       [
         "고생하셨습니다.",
         "Thank you for your hard work.",
-        "격식체 honorific, to a senior or to acknowledge effort formally"
+        "격식체 honorific — said at the end of a task, project, or meeting to acknowledge effort"
       ],
       [
         "고생했어.",
         "Good job / Nice work.",
-        "반말, said DOWN to a junior or to a peer"
+        "반말, said DOWN to a junior or to a close peer at the same level"
       ],
       [
         "고생 많으셨어요.",
-        "You worked really hard.",
-        "Warmer polite version, adds 많다 ('to be much') for extra appreciation"
+        "You really worked hard.",
+        "Warmer polite version — 많다 ('much/a lot') amplifies the acknowledgment; natural in conversation"
       ],
       [
         "오늘도 고생하셨습니다.",
         "Thanks for your hard work today too.",
-        "Extension, the daily end-of-work sign-off"
+        "Extension: 오늘도 ('today too') marks it as a recurring daily appreciation, standard at close of day"
       ]
     ],
     "examples": [
       [
-        "고생하셨습니다.",
-        "Thank you for your hard work.",
-        "The bare end-of-day or end-of-project send-off"
+        "오늘 정말 고생 많으셨습니다. 덕분에 잘 마무리됐어요.",
+        "You really worked hard today. Thanks to you it wrapped up well.",
+        "Standard end-of-project send-off with a follow-up: 덕분에 ('thanks to you') adds warm credit and is a natural companion to the acknowledgment"
       ],
       [
-        "다들 고생 많으셨어요. 내일 봬요.",
-        "Everyone worked so hard — see you tomorrow.",
-        "Everyday team sign-off when leaving the office"
+        "다들 고생 많으셨어요. 오늘은 여기서 마무리하죠.",
+        "Everyone worked really hard today — let's wrap it up here.",
+        "Everyday team close at end of day: 다들 ('everyone') + 고생 많으셨어요 + wrap-up suggestion"
       ],
       [
-        "이번 프로젝트 마무리하느라 정말 고생 많으셨습니다. 덕분에 잘 끝났어요.",
-        "You really worked hard wrapping up this project — thanks to you it went well.",
-        "A fuller appreciation after a big task is finished"
+        "A: 발표 잘 하셨어요. / B: 감사합니다. 팀원들이 도와줘서 잘됐어요. / A: 다들 고생하셨습니다.",
+        "A: You presented well. / B: Thank you — the team helped a lot. / A: Great work everyone.",
+        "A/B exchange after a presentation: shows how 고생하셨습니다 wraps the thread naturally, crediting all participants"
       ]
     ],
-    "nuance": "고생하셨습니다 acknowledges someone's effort and roughly means 'you've worked hard / thanks for your trouble,' the standard Korean way to close a workday, meeting, or project; 고생 means 'hardship/toil,' so you're recognizing the effort it cost them, with honorific -셨- and formal -습니다. To a junior or peer it becomes 고생했어. The crucial rule: this is a peer-to-peer or senior-to-junior phrase, so it can sound presumptuous said UP to a much higher boss — to a CEO, 수고하셨습니다 or simply 감사합니다 is safer, since 고생/수고 carries a faint 'I'm evaluating your labor' tone that juniors shouldn't aim at top superiors. The nearest alternative 수고하셨습니다 is near-identical but slightly lighter and even more common at clock-out. English speakers misuse it as a plain 'thank you' for a gift or favor — for that, say 감사합니다; 고생하셨습니다 specifically credits effort/labor, not kindness.",
+    "nuance": "고생하셨습니다 recognizes someone's effort and toil, and is the standard Korean sign-off after a workday, meeting, or completed project. 고생 (苦生) literally means 'bitter/hard life' or 'hardship,' so you're acknowledging the cost the effort had for them — it's more empathetic than simple 'well done.' The honorific -셨- with formal -습니다 makes it appropriate for peers and juniors; importantly, the direction of politeness in Korean means this phrase is most natural from peer-to-peer or senior-to-junior. Said to a company president or very senior executive, it can carry an unintended 'I'm evaluating your labor' tone, so upward to the very top, 감사합니다 is safer. The near-twin 수고하셨습니다 is slightly lighter — 수고 shares the hanja 受苦 but has shifted in modern usage to the lighter sense of 'effort / trouble taken,' without 고생's connotation of real hardship — and is arguably more common as a universal clock-out phrase. Don't use 고생하셨습니다 as a substitute for 감사합니다 ('thank you') after receiving a gift or kindness — it credits labor, not generosity.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Acknowledges someone's effort and roughly means 'you've worked hard / thanks for your trouble,' the standard Korean way to close a workday, meeting, or project. 고생 means 'hardship/toil,' so you're recognizing the effort it cost them, with honorific -셨- and formal -습니다. To a junior or peer it becomes 고생했어."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'You (honorably) underwent hardship (고생 + -셨-).' 실제: 'Thank you for your hard work' — an empathetic acknowledgment of the effort something cost the other person, not just a cheerleader's 'well done.'"
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "고생하셨습니다 (격식, honorific) for peers and juniors in formal/professional settings. 고생 많으셨어요 (해요체 + warmer) in conversation. 고생했어 (반말) downward to juniors or close friends. With a very high superior, skip it and say 감사합니다.",
+        "chips": ["고생하셨습니다 (격식)", "고생 많으셨어요 (해요체)", "고생했어 (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The crucial rule: this is a peer-to-peer or senior-to-junior phrase, so it can sound presumptuous said UP to a much higher boss — to a CEO, 수고하셨습니다 or simply 감사합니다 is safer, since 고생/수고 carries a faint 'I'm evaluating your labor' tone that juniors shouldn't aim at top superiors. The nearest alternative 수고하셨습니다 is near-identical but slightly lighter and even more common at clock-out."
+        "t": "수고하셨습니다 = near-identical but lighter in feel; 수고 implies 'effort' without the 'hardship' weight. 고생하셨습니다 has more emotional acknowledgment. Both should not be directed upward to a CEO or top executive — use 감사합니다 in those cases."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "오늘도 고생하셨습니다 (daily close). 정말 고생 많으셨습니다 (stronger: 'you really worked hard'). 고생하셨어요 (spoken/casual polite). Combine with a reason: 이번 프로젝트 마무리하시느라 고생 많으셨습니다.",
+        "chips": ["오늘도 고생하셨습니다", "정말 고생 많으셨습니다", "고생하셨어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers misuse it as a plain 'thank you' for a gift or favor — for that, say 감사합니다. 고생하셨습니다 specifically credits effort/labor, not kindness."
+        "t": "Using it as 'thank you' for a gift or favor — 고생하셨습니다 credits labor, not kindness; for a gift say 감사합니다. Also: 고생하셨어 to a senior mixes 반말 with the wrong direction — honorific form required."
       }
     ],
     "mistakes": [
@@ -482,57 +560,69 @@
       [
         "먼저 들어가 보겠습니다.",
         "I'll head out first.",
-        "격식체, the polite way to leave the office before seniors do"
+        "격식체, the correct phrase to leave before seniors — 들어가다 ('go in/home') + 먼저 ('ahead of you') + humble softener"
       ],
       [
         "먼저 들어가 볼게요.",
         "I'm going to head out first.",
-        "Polite-casual, to coworkers you're close with"
+        "Polite-casual (해요체), to coworkers you're close with — still deferential but warmer"
       ],
       [
         "먼저 갈게.",
         "I'm off first.",
-        "반말, to peers"
+        "반말, to peers — 갈게 instead of 들어갈게 is common in casual use"
       ],
       [
         "오늘 먼저 들어가 보겠습니다. 내일 뵙겠습니다.",
         "I'll head out first today. See you tomorrow.",
-        "Extension pairing the exit with a farewell"
+        "Extension pairing the exit with a formal farewell — the complete, culturally correct office departure"
       ]
     ],
     "examples": [
       [
-        "그럼 먼저 들어가 보겠습니다.",
-        "Well then, I'll head out first.",
-        "The bare line for leaving work ahead of others"
+        "그럼 먼저 들어가 보겠습니다. 수고하세요.",
+        "Well then, I'll head out first. Keep up the good work.",
+        "Standard departure formula: the exit phrase + 수고하세요 to those still working — both parts together are the expected pair"
       ],
       [
-        "일이 끝나서 먼저 들어가 보겠습니다. 고생하셨습니다.",
-        "I'm done, so I'll head out first. Thanks for your hard work.",
-        "Everyday leaving-the-office routine with a sign-off"
+        "A: 일 끝났어요? / B: 네, 오늘 약속이 있어서요. 먼저 들어가 보겠습니다. 고생하셨습니다.",
+        "A: Done for the day? / B: Yes, I have plans. I'll head out first — thanks for your hard work.",
+        "A/B exchange: B gives a brief reason and closes with 고생하셨습니다 — the natural, complete Korean office-exit sequence"
       ],
       [
-        "부장님, 오늘 약속이 있어서 먼저 들어가 보겠습니다. 남은 일은 내일 처리하겠습니다.",
-        "Director, I have plans today so I'll head out first. I'll handle the rest tomorrow.",
-        "A fuller, deferential early-departure when the boss is still working"
+        "부장님, 오늘 집안일이 있어서 먼저 들어가 보겠습니다. 남은 업무는 내일 처리하겠습니다.",
+        "Director, I have a family matter today so I'll head out first. I'll take care of the remaining work tomorrow.",
+        "Fuller, deferential request when leaving early while the boss is still working — brief reason + reassurance"
       ]
     ],
-    "nuance": "먼저 들어가 보겠습니다 is how you announce leaving the office before your colleagues — especially seniors — still at their desks; 들어가다 ('go in,' i.e., go home) is the idiomatic Korean for heading home, and 먼저 ('first/ahead') signals you're departing before them, which is a politeness gesture in Korea's stay-till-the-boss-leaves culture. The -아/어 보다 + -겠습니다 softens it to a humble 'I'll be heading off.' Step down to 먼저 들어가 볼게요 with close coworkers or 먼저 갈게 with peers. The nearest alternative 먼저 가 보겠습니다 is the same idea with 가다 instead of 들어가다; 들어가다 specifically evokes 'going home/inside,' so it's the warmer office-exit choice. English speakers literally translate 'I'm leaving now' as 지금 떠나요, which sounds dramatic, like leaving for good; the natural daily phrase is 먼저 들어가 보겠습니다.",
+    "nuance": "먼저 들어가 보겠습니다 is how you formally announce leaving the office before colleagues — especially seniors — who are still at their desks. 들어가다 literally means 'to go in/inside,' and in the context of commuting, it idiomatically means going home (returning inside one's own space). 먼저 ('first / before others') is the politeness signal: you're acknowledging that you're breaking ranks from the group, and the -아/어 보다 + -겠습니다 frame softens it to 'I'll be going ahead.' This phrase is essential in Korean office culture where leaving before the boss is socially sensitive. Without 먼저, you lose the deference that signals you know others are still working. The near-equivalent 먼저 가 보겠습니다 uses 가다 ('go away'); 들어가다 is warmer because it implies 'heading home,' whereas 가다 is more directionally neutral. The English-speaker error is 지금 떠나요 ('I'm leaving now'), which uses 떠나다, a verb for permanent or emotional departures — it's dramatic and sounds odd as a daily work exit.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "How you announce leaving the office before your colleagues — especially seniors — still at their desks. 들어가다 ('go in,' i.e., go home) is the idiomatic Korean for heading home, and 먼저 ('first/ahead') signals you're departing before them, which is a politeness gesture in Korea's stay-till-the-boss-leaves culture. The -아/어 보다 + -겠습니다 softens it to a humble 'I'll be heading off.' Step down to 먼저 들어가 볼게요 with close coworkers or 먼저 갈게 with peers."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'I will first try going in/home.' 실제: 'I'm heading out before everyone else' — 들어가다 is the idiomatic 'go home (go back inside),' and 먼저 marks the politeness of departing before others."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "Use this whenever you leave before colleagues, especially seniors. 먼저 들어가 보겠습니다 (격식) is mandatory with a boss. 먼저 들어가 볼게요 (해요체) with close coworkers. 먼저 갈게 (반말) with peers. Always pair with 수고하세요 (to those still working) or 고생하셨습니다 (if they're done).",
+        "chips": ["보겠습니다 (격식)", "볼게요 (해요체)", "갈게 (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative 먼저 가 보겠습니다 is the same idea with 가다 instead of 들어가다. 들어가다 specifically evokes 'going home/inside,' so it's the warmer office-exit choice."
+        "t": "먼저 가 보겠습니다 = same meaning with 가다 ('go') instead of 들어가다 ('go in/home'). 들어가다 is the preferred choice because it idiomatically evokes going home, making it warmer and more specific. 지금 떠나요 sounds dramatic, like a permanent farewell."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "Pair it with a reason: 약속이 있어서 먼저 들어가 보겠습니다. Close with 내일 뵙겠습니다 ('See you tomorrow'). For email/chat: 먼저 퇴근하겠습니다 ('I'll clock out first') is more formal.",
+        "chips": ["먼저 들어가 보겠습니다", "먼저 퇴근하겠습니다 (formal)", "내일 뵙겠습니다"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers literally translate 'I'm leaving now' as 지금 떠나요, which sounds dramatic, like leaving for good. The natural daily phrase is 먼저 들어가 보겠습니다."
+        "t": "지금 떠나요 — 떠나다 means leaving permanently or dramatically, not going home from work. The natural exit is 먼저 들어가 보겠습니다. Also: omitting 먼저 removes the courtesy signal — without it, it sounds like an abrupt announcement, not a respectful heads-up."
       }
     ],
     "mistakes": [
@@ -549,7 +639,7 @@
       [
         "잠깐 시간 괜찮으세요?",
         "Do you have a moment?",
-        "Honorific 괜찮으세요, to a senior or someone you're approaching politely"
+        "Honorific 괜찮으세요, approaching a senior or anyone you want to address politely"
       ],
       [
         "잠깐 시간 괜찮아?",
@@ -559,47 +649,59 @@
       [
         "잠시 시간 괜찮으십니까?",
         "Might you have a moment?",
-        "격식체, very formal, to a high superior or client"
+        "격식체, very formal — appropriate to a high superior or an important external meeting"
       ],
       [
         "혹시 잠깐 시간 괜찮으세요?",
         "Do you happen to have a moment?",
-        "혹시 softens the request and makes it easier to decline"
+        "혹시 ('by any chance') softens the request and makes it easy for the other person to decline without awkwardness"
       ]
     ],
     "examples": [
       [
-        "잠깐 시간 괜찮으세요?",
-        "Do you have a moment?",
-        "The bare opener before asking someone something"
-      ],
-      [
         "과장님, 잠깐 시간 괜찮으세요? 여쭤볼 게 있어서요.",
         "Manager, do you have a moment? I have something to ask.",
-        "Everyday approach to a senior before a question"
+        "Everyday approach to a senior before a question — 여쭤보다 (humble form of 묻다) is the correct verb when asking a senior"
       ],
       [
-        "지금 바쁘시면 나중에 다시 올게요. 잠깐 시간 괜찮으세요?",
-        "If you're busy now I'll come back later — do you have a moment?",
-        "A fuller, considerate approach that offers an out"
+        "A: 지금 바쁘세요? / B: 왜요? / A: 혹시 잠깐 시간 괜찮으세요? 회의 일정 관련해서 여쭤볼 게 있어서요.",
+        "A: Are you busy right now? / B: What is it? / A: Do you happen to have a moment? I wanted to ask about the meeting schedule.",
+        "Two-person exchange: 혹시 softens the ask, and giving a topic upfront is the polite Korean way to 'prepare' the listener"
+      ],
+      [
+        "지금 바쁘시면 이따 다시 올게요. 혹시 잠깐 시간 괜찮으세요?",
+        "If you're busy now I'll come back later — do you by any chance have a moment?",
+        "Shows the considerate add-on: offering to return later makes the question easier to answer, reducing pressure"
       ]
     ],
-    "nuance": "잠깐 시간 괜찮으세요? is the standard polite way to ask if someone is free to talk for a minute, said before pulling a colleague or senior aside; 괜찮다 ('to be okay') with honorific -으세요 checks their availability, and 잠깐 ('briefly') reassures them it won't take long. To a peer it's 잠깐 시간 괜찮아?, and to a high superior or client 잠시 시간 괜찮으십니까? The nearest alternative is 시간 있으세요? ('do you have time?'); 괜찮으세요? is gentler because it asks if NOW is convenient rather than bluntly whether time EXISTS, so it's the safer office choice. English speakers literally render 'Can I talk to you?' as 얘기할 수 있어요?, which sounds oddly like asking permission to be able to speak; Koreans instead check the timing with 시간 괜찮으세요? Adding 혹시 at the front makes refusal easy and is very natural.",
+    "nuance": "잠깐 시간 괜찮으세요? is the standard polite opener for pulling someone aside for a conversation; 괜찮다 ('to be okay/fine') with honorific -으세요 asks whether now is convenient, and 잠깐 ('briefly') reassures them it won't take much time. The question checks timing and willingness — much gentler than 얘기 좀 해요 ('let's talk'), which assumes they're free. Adding 혹시 at the front makes it even more deferential by framing the approach as a tentative 'by any chance,' which is natural and expected in Korean workplaces. To a very high superior or external client, 잠시 시간 괜찮으십니까? with the formal -십니까 ending is the safest register. The closest neighbor 시간 있으세요? ('do you have time?') is more blunt, asking whether time EXISTS rather than whether NOW is convenient — 괜찮으세요? is the softer, more face-saving choice. English speakers often translate 'Can I talk to you?' as 얘기할 수 있어요?, which in Korean sounds like asking permission to literally be capable of speech, rather than checking availability.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "The standard polite way to ask if someone is free to talk for a minute, said before pulling a colleague or senior aside. 괜찮다 ('to be okay') with honorific -으세요 checks their availability, and 잠깐 ('briefly') reassures them it won't take long. To a peer it's 잠깐 시간 괜찮아?, and to a high superior or client 잠시 시간 괜찮으십니까? Adding 혹시 at the front makes refusal easy and is very natural."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'Is [your] time briefly okay?' 실제: 'Do you have a moment?' — 괜찮다 checks whether NOW is convenient rather than directly demanding attention; it's a face-saving opener, not an interrogation."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "괜찮으세요? (honorific, 해요체) for any senior or equal colleague. 괜찮으십니까? (격식) for very high superiors or formal external meetings. 괜찮아? (반말) for peers/juniors. Add 혹시 at the front to make declining even easier — this is expected and natural in Korean workplaces.",
+        "chips": ["괜찮으세요? (honorific)", "괜찮으십니까? (격식)", "괜찮아? (반말)", "혹시 잠깐 시간 괜찮으세요?"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative is 시간 있으세요? ('do you have time?'). 괜찮으세요? is gentler because it asks if NOW is convenient rather than bluntly whether time EXISTS, so it's the safer office choice."
+        "t": "시간 있으세요? = 'Do you have time?' — more direct, asks about the existence of free time. 잠깐 시간 괜찮으세요? = 'Is now convenient for a moment?' — softer, checks willingness and timing. 얘기 좀 해요 = 'Let's talk' — assumes they're free and sounds more assertive."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "혹시 지금 잠깐 시간 괜찮으세요? (now specifically). 잠깐 시간 내 주실 수 있어요? (slightly more deferential: 'could you spare a moment?'). Add a topic: 잠깐 시간 괜찮으세요? ___에 대해 여쭤볼 게 있어서요.",
+        "chips": ["혹시 잠깐 시간 괜찮으세요?", "시간 내 주실 수 있어요?", "+ 여쭤볼 게 있어서요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers literally render 'Can I talk to you?' as 얘기할 수 있어요?, which sounds oddly like asking permission to be able to speak. Koreans instead check the timing with 시간 괜찮으세요?"
+        "t": "얘기할 수 있어요? — sounds like asking permission to physically speak. 시간 있어요? to a senior — skips the softening 괜찮다 and sounds blunt. Always use 잠깐 to reassure the person it'll be brief."
       }
     ],
     "mistakes": [
@@ -616,57 +718,69 @@
       [
         "마감이 언제예요?",
         "When's the deadline?",
-        "Polite, to a coworker or someone managing the task"
+        "Polite (해요체), to a coworker, manager, or whoever owns the schedule — subject particle 이 marks the deadline as the topic"
       ],
       [
         "마감 언제야?",
         "When's it due?",
-        "반말, to a peer or junior"
+        "반말, to a peer or junior — particle often dropped in casual speech"
       ],
       [
         "마감이 언제입니까?",
         "When is the deadline?",
-        "격식체, formal, to a client or in a meeting"
+        "격식체, in a formal meeting, email, or when addressing a client"
       ],
       [
         "마감이 언제까지예요?",
         "By when is the deadline?",
-        "Extension with 까지 ('by/until') stressing the cutoff point"
+        "Extension with 까지 ('by/until') — emphasizes the hard cutoff point rather than the named date"
       ]
     ],
     "examples": [
       [
         "이거 마감이 언제예요?",
         "When's the deadline for this?",
-        "The bare question about a task's due date"
+        "The direct question about a specific task — 이거 ('this') pinpoints which task without extra context"
       ],
       [
-        "보고서 마감이 언제예요? 오늘까지인가요?",
-        "When's the report due? Is it by today?",
-        "Everyday check on a specific assignment"
+        "A: 기획서 마감이 언제예요? / B: 이번 주 금요일 오후 5시까지예요.",
+        "A: When's the deadline for the proposal? / B: By 5 PM this Friday.",
+        "Two-person exchange: B's answer uses 까지예요 ('by …') — the natural complete answer to a 마감 question"
       ],
       [
-        "이 건은 마감이 언제예요? 일정이 빠듯하면 미리 말씀해 주세요.",
-        "When's the deadline on this? If the schedule's tight, please let me know in advance.",
-        "A fuller work exchange negotiating timing"
+        "이 건은 마감이 언제예요? 일정이 빠듯하면 미리 말씀해 주시면 조정해 볼게요.",
+        "When's the deadline on this? If the schedule's tight, let me know in advance and I'll try to adjust.",
+        "Fuller exchange proactively offering flexibility — shows 마감이 언제예요? naturally opens a scheduling negotiation"
       ]
     ],
-    "nuance": "마감이 언제예요? asks when something is due, said to a coworker, manager, or whoever owns the timeline; 마감 means 'closing/deadline,' marked here by the subject particle 이, and 언제예요 ('when is it') uses the polite copula. Drop to 마감 언제야? with peers, lift to 마감이 언제입니까? in formal settings. The nearest alternative is 언제까지예요? ('by when?'), which focuses on the cutoff you must finish BY, whereas 마감이 언제예요? names the deadline as a point in time — Koreans often blend them as 마감이 언제까지예요? English speakers sometimes use the loanword 데드라인, which exists but sounds less natural in everyday Korean office talk than 마감. A particle slip to watch: it's 마감이 언제예요?, not 마감을 언제예요? — 언제예요 is a copula 'when is it,' so the topic takes 이/가, never the object 을.",
+    "nuance": "마감이 언제예요? asks when a task or submission is due. 마감 is a native Korean word derived from the verb 막다 ('to close / block') and literally means 'closing / cutoff' — it is the natural everyday Korean word for deadline in both work and academic contexts. The subject particle 이 marks 마감 as the topic of the copula 언제예요 ('when is it') — this is why the particle must be 이/가, not 을/를, and the question is 마감이 언제예요? not 마감을 언제예요?. Drop to 마감 언제야? with peers. The close neighbor 언제까지예요? ('by when?') shifts focus to the final allowed moment rather than the named date; blending them as 마감이 언제까지예요? is very natural. The English loanword 데드라인 (deadline) exists in Korean but sounds imported and less natural in everyday office talk — Koreans say 마감. Adding 까지 after the answer (금요일까지예요 — 'by Friday') is the standard form for the reply, so learning both question and answer together helps.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Asks when something is due, said to a coworker, manager, or whoever owns the timeline. 마감 means 'closing/deadline,' marked here by the subject particle 이, and 언제예요 ('when is it') uses the polite copula. Drop to 마감 언제야? with peers, lift to 마감이 언제입니까? in formal settings."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'The closing/cutoff (마감) — when is it?' 실제: 'When's the deadline?' — 마감 is the precise Korean word for a closing or cutoff point, used for work tasks, applications, and publications alike."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "마감이 언제예요? (해요체) for coworkers and managers. 마감이 언제입니까? (격식) in formal meetings or with clients. 마감 언제야? (반말) with peers. Use to clarify your own deadlines or negotiate when taking on a new task.",
+        "chips": ["마감이 언제예요? (해요체)", "마감이 언제입니까? (격식)", "마감 언제야? (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative is 언제까지예요? ('by when?'), which focuses on the cutoff you must finish BY, whereas 마감이 언제예요? names the deadline as a point in time. Koreans often blend them as 마감이 언제까지예요? The loanword 데드라인 exists but sounds less natural in everyday Korean office talk than 마감."
+        "t": "마감이 언제예요? = names the deadline date ('when is the cutoff?'). 언제까지예요? = 'by when?' — focuses on the latest acceptable moment. 제출 기한이 언제예요? = 'When is the submission period?' — more formal, used for official submissions."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "마감이 언제까지예요? (adds 까지 for emphasis on the cutoff). 마감일이 언제예요? (마감일 = deadline date, more noun-explicit). The standard reply: [day/time] + 까지예요 ('by [day/time]').",
+        "chips": ["마감이 언제까지예요?", "마감일이 언제예요?", "[date] + 까지예요 (answer)"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "A particle slip to watch: it's 마감이 언제예요?, not 마감을 언제예요? — 언제예요 is a copula 'when is it,' so the topic takes 이/가, never the object 을."
+        "t": "마감을 언제예요? — 언제예요 is a copula ('when is it'), so the subject needs 이/가, never 을/를. Also: 데드라인이 언제예요? is understood but sounds borrowed; 마감 is the natural Korean word."
       }
     ],
     "mistakes": [
@@ -683,57 +797,69 @@
       [
         "회의실 잡을게요.",
         "I'll book the meeting room.",
-        "Polite, volunteering to a team or coworker"
+        "Polite (해요체), volunteering to a team or coworker — the casual-professional way to offer"
       ],
       [
         "회의실 잡을게.",
-        "I'll grab a meeting room.",
+        "I'll grab a room.",
         "반말, to peers or juniors"
       ],
       [
         "회의실 예약하겠습니다.",
         "I'll reserve the meeting room.",
-        "격식체, more formal 예약하다 in a written/official tone"
+        "격식체, using the official verb 예약하다 — more formal, suitable for written communication"
       ],
       [
         "회의실 잡아 둘게요.",
-        "I'll have the meeting room reserved.",
-        "Extension with -아 두다, 'reserve it in advance and keep it'"
+        "I'll have the meeting room reserved in advance.",
+        "Extension with -아 두다 ('do it and keep it ready') — stresses that you'll hold it ahead of time"
       ]
     ],
     "examples": [
       [
-        "제가 회의실 잡을게요.",
-        "I'll book the meeting room.",
-        "The bare offer to handle the room"
+        "제가 회의실 잡을게요. 몇 시로 할까요?",
+        "I'll book the room — what time shall I put it down for?",
+        "Natural volunteer offer followed by a practical follow-up question — the combo is common in team coordination"
       ],
       [
-        "그럼 3시에 회의실 잡을게요. 자리 채워 주세요.",
-        "I'll book the room for 3 then — please come fill the seats.",
-        "Everyday coordination setting up a meeting"
+        "A: 내일 3시에 회의 어때요? / B: 좋아요. 제가 회의실 잡을게요. / A: 감사합니다, 큰 방으로 부탁해요.",
+        "A: How about a meeting at 3 tomorrow? / B: Sounds good. I'll book the room. / A: Thanks — please get a big one.",
+        "A/B exchange showing how the phrase naturally fits in meeting-setup coordination"
       ],
       [
-        "참석 인원이 많으니 큰 회의실로 잡을게요. 프로젝터도 확인해 둘게요.",
-        "Since there are a lot of attendees, I'll book the big room — I'll check the projector too.",
-        "A fuller logistics message arranging the meeting space"
+        "참석 인원이 많으니 큰 회의실로 잡을게요. 프로젝터도 미리 확인해 두겠습니다.",
+        "Since there are a lot of attendees, I'll book the big room — I'll check the projector in advance too.",
+        "Fuller logistics message: room booking + equipment prep, showing how 잡을게요 anchors a practical action chain"
       ]
     ],
-    "nuance": "회의실 잡을게요 means 'I'll book/grab the meeting room,' said when you volunteer to reserve a space for a meeting; 잡다 literally 'to grab/catch' is the casual, everyday verb for securing a room, time slot, or appointment, and -ㄹ게요 expresses your own willing intention. To peers it's 회의실 잡을게; in formal writing 회의실 예약하겠습니다 with the proper verb 예약하다. The dividing line: 잡다 is conversational ('grab us a room'), 예약하다 is the official 'make a reservation,' so spoken office Korean overwhelmingly prefers 잡다. The English-speaker trap is forcing 예약하다 everywhere — saying 회의실을 예약할게요 in casual chat isn't wrong but sounds stiff; coworkers say 회의실 잡을게요. Note -ㄹ게요 is for YOUR own intention/promise, so don't use it to tell someone else to book it — for that you'd say 회의실 잡아 주세요.",
+    "nuance": "회의실 잡을게요 means 'I'll book/grab the meeting room' and uses 잡다, which literally means 'to grab/catch' but has become the natural conversational verb for securing a room, time slot, or table. -ㄹ게요 expresses your own voluntary commitment — it's 'I'll do it' as a promise to the listener, not an instruction to someone else. To direct another person to book it, say 회의실 잡아 주세요. In formal writing or email, 예약하다 ('to reserve') is the correct official verb: 회의실 예약하겠습니다. In speech, 잡다 is overwhelmingly preferred in Korean offices — saying 회의실을 예약할게요 in a casual team chat is grammatically fine but sounds stiff. The variant 잡아 두다 (-아 두다 = 'do and keep') adds the sense of holding it in advance, useful when you're booking ahead of time to secure it. Object particle 을 (회의실을) can be added but is often dropped in natural speech.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Means 'I'll book/grab the meeting room,' said when you volunteer to reserve a space for a meeting. 잡다 literally 'to grab/catch' is the casual, everyday verb for securing a room, time slot, or appointment, and -ㄹ게요 expresses your own willing intention. To peers it's 회의실 잡을게; in formal writing 회의실 예약하겠습니다 with the proper verb 예약하다. Note -ㄹ게요 is for YOUR own intention/promise, so don't use it to tell someone else to book it — for that you'd say 회의실 잡아 주세요."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'I'll grab/catch the meeting room.' 실제: 'I'll book/reserve the meeting room.' 잡다 ('grab') has become the idiomatic conversational verb for securing any bookable slot or space — room, table, seat, or appointment."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "잡을게요 (해요체) for spoken team coordination and chat messages. 잡을게 (반말) with close peers. 예약하겠습니다 (격식) in formal written communication. The -ㄹ게요 ending marks this as YOUR own promise; to ask someone else, use 잡아 주세요.",
+        "chips": ["잡을게요 (해요체)", "잡을게 (반말)", "예약하겠습니다 (격식)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The dividing line: 잡다 is conversational ('grab us a room'), 예약하다 is the official 'make a reservation,' so spoken office Korean overwhelmingly prefers 잡다."
+        "t": "회의실 잡을게요 = conversational 'I'll grab a room' (spoken). 회의실 예약하겠습니다 = official 'I will make a reservation' (written/formal). 회의실 잡아 두겠습니다 = 'I'll reserve it in advance and hold it' (-아 두다 = proactive, advance preparation)."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "잡아 둘게요 (hold in advance). 잡아 놓을게요 (reserve ahead and leave it). 잡았어요 (I booked it — done). Time/size: 2시로 / 큰 방으로 잡을게요.",
+        "chips": ["잡아 둘게요", "잡아 놓을게요", "잡았어요 (done)"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "The English-speaker trap is forcing 예약하다 everywhere — saying 회의실을 예약할게요 in casual chat isn't wrong but sounds stiff. Coworkers say 회의실 잡을게요."
+        "t": "Using 예약하다 in casual spoken chat — it's correct but sounds stiff; 잡다 is what coworkers say. Also: 회의실 잡을게요 to someone you want to ask (not volunteer) — -ㄹ게요 means YOU will do it; to request someone else say 잡아 주세요."
       }
     ],
     "mistakes": [
@@ -750,7 +876,7 @@
       [
         "자료 공유해 주세요.",
         "Please share the materials.",
-        "Polite request, to a coworker"
+        "Polite (해요체) request, to a coworker — standard for casual internal requests"
       ],
       [
         "자료 공유해 줘.",
@@ -759,48 +885,60 @@
       ],
       [
         "자료 공유 부탁드립니다.",
-        "I'd appreciate it if you could share the materials.",
-        "격식체, the standard polite-formal email phrasing"
+        "I would appreciate you sharing the materials.",
+        "격식체, the standard polite-formal email phrasing — noun 공유 + 부탁드립니다 ('I request') is the email default"
       ],
       [
         "자료 좀 공유해 주시겠어요?",
         "Could you share the materials?",
-        "Extension with -주시겠어요, even softer and more deferential"
+        "-주시겠어요? is even softer and more deferential than -주세요 — use when making a favor-like request of a senior"
       ]
     ],
     "examples": [
       [
-        "회의 자료 공유해 주세요.",
-        "Please share the meeting materials.",
-        "The bare request for documents"
+        "회의 자료 공유해 주세요. 메일로 주시면 돼요.",
+        "Please share the meeting materials — email is fine.",
+        "Practical request specifying the channel so the recipient knows exactly how to fulfill it"
       ],
       [
-        "아까 보여 주신 자료 공유해 주세요. 메일로 주시면 돼요.",
-        "Please share the materials you showed earlier — email is fine.",
-        "Everyday follow-up asking for files after a meeting"
+        "A: 오늘 발표 자료 있어요? / B: 네, 지금 공유해 드릴게요.",
+        "A: Do you have today's presentation materials? / B: Yes, I'll share them with you now.",
+        "A/B exchange: B uses 공유해 드릴게요 (humble 드리다) to honor A, showing how register shifts when offering to share upward"
       ],
       [
         "다음 회의 전에 관련 자료 미리 공유해 주시면 검토하고 가겠습니다.",
         "If you could share the relevant materials before the next meeting, I'll review them beforehand.",
-        "A fuller professional request with a reason"
+        "Fuller professional request with a clear purpose — the conditional -면 ('if you…') is a polite non-demanding frame"
       ]
     ],
-    "nuance": "자료 공유해 주세요 means 'please share the materials/data,' an everyday office request for documents, files, or info; 자료 covers any 'materials/reference data,' 공유하다 ('to share') is the standard verb, and -아/어 주세요 makes it a polite 'do it for me' request. To peers it's 공유해 줘; in email the noun form 자료 공유 부탁드립니다 is extremely common and slightly more formal. The nearest alternative is 보내 주세요 ('please send it'), but 공유하다 implies making something accessible to a group (shared drive, group chat, distribution), while 보내다 is sending directly to one person — pick 공유 for team-wide access. English speakers sometimes say 자료를 나눠 주세요 by translating 'share' as 나누다 ('divide/split'); that means physically dividing/distributing portions, not sharing information, so for data it's 공유해 주세요, not 나눠 주세요.",
+    "nuance": "자료 공유해 주세요 means 'please share the materials/data' and is the go-to office request for documents, files, or reference information. 자료 covers materials, data, and reference documents of any kind. 공유하다 ('to share') is the standard verb, carrying the sense of making something accessible to others — implying a shared channel, drive, or group chat rather than a one-on-one file transfer. -아/어 주세요 makes it a polite 'please do this for me' request. The nearest alternative 보내 주세요 ('please send it') is person-to-person sending; 공유하다 implies broader, group-wide access — pick 공유 for team distributions or shared-drive uploads, and 보내다 for one-to-one delivery. In email, the noun form 자료 공유 부탁드립니다 is more common and natural than the verb form. The critical English-speaker trap: 나누다 ('divide/split') is the Korean word for the action of physically splitting something into portions; translating 'share information' as 자료를 나눠 주세요 suggests you want the documents cut in half, not distributed.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Means 'please share the materials/data,' an everyday office request for documents, files, or info. 자료 covers any 'materials/reference data,' 공유하다 ('to share') is the standard verb, and -아/어 주세요 makes it a polite 'do it for me' request. To peers it's 공유해 줘; in email the noun form 자료 공유 부탁드립니다 is extremely common and slightly more formal."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'Please share (make common/공유하다) the materials for me.' 실제: 'Please share the files/data' — 공유하다 (共有, 'co-possess') implies making something available to a group, not just handing one copy to one person."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "공유해 주세요 (해요체) for spoken or chat requests. 공유 부탁드립니다 (격식 noun form) for email — this is the most common email phrasing. 공유해 줘 (반말) for peers. 공유해 주시겠어요? for a more deferential ask of a senior.",
+        "chips": ["공유해 주세요 (해요체)", "공유 부탁드립니다 (email)", "공유해 주시겠어요? (deferential)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative is 보내 주세요 ('please send it'), but 공유하다 implies making something accessible to a group (shared drive, group chat, distribution), while 보내다 is sending directly to one person — pick 공유 for team-wide access."
+        "t": "공유해 주세요 = share to a group or make accessible broadly. 보내 주세요 = send directly to one person. 전달해 주세요 = pass on/forward (from a third party to others). Choose by distribution scope: one-to-one → 보내다; one-to-many → 공유하다."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "공유해 드릴게요 (I will share it with/for you — humble). 공유받았어요 (I received the shared file). 미리 공유해 주세요 (please share in advance). In email sign-offs: 확인 부탁드립니다 naturally follows 공유해 드렸습니다.",
+        "chips": ["공유해 드릴게요", "미리 공유해 주세요", "공유 부탁드립니다"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers sometimes say 자료를 나눠 주세요 by translating 'share' as 나누다 ('divide/split'); that means physically dividing/distributing portions, not sharing information, so for data it's 공유해 주세요, not 나눠 주세요."
+        "t": "나눠 주세요 — 나누다 means 'divide/split into portions,' not share information. 자료를 나눠 주세요 sounds like you want the files cut up. For sharing information, always 공유해 주세요."
       }
     ],
     "mistakes": [
@@ -817,57 +955,69 @@
       [
         "점심 같이 드실래요?",
         "Would you like to have lunch together?",
-        "Honorific 드시다, inviting a senior or coworker politely"
+        "Honorific 드시다, to a senior or coworker you want to address politely — the standard workplace invite"
       ],
       [
         "점심 같이 먹을래?",
         "Wanna grab lunch?",
-        "반말, to a peer or junior"
+        "반말, to a peer or junior — 먹다 with plain -ㄹ래?"
       ],
       [
         "점심 같이 하시겠어요?",
         "Would you care to have lunch together?",
-        "격식체, a more formal lunch invitation"
+        "격식체, more formal invitation — 하다 is less direct about eating and sounds slightly elevated"
       ],
       [
         "이따 점심 같이 드실래요?",
         "Want to have lunch together later?",
-        "Extension with 이따 ('later') to set it up in advance"
+        "Extension with 이따 ('later') to set it up in advance — natural when planning mid-morning"
       ]
     ],
     "examples": [
       [
-        "점심 같이 드실래요?",
-        "Want to grab lunch together?",
-        "The bare lunch invite to a colleague"
+        "점심 드셨어요? 아직이면 같이 드실래요?",
+        "Have you had lunch? If not, want to eat together?",
+        "Shows the difference between 드셨어요? (care question: 'have you eaten?') and 드실래요? (invitation: 'want to eat together?') in the same breath"
       ],
       [
-        "오늘 점심 약속 없으시면 같이 드실래요?",
-        "If you don't have lunch plans today, want to eat together?",
-        "Everyday invite that checks they're free first"
+        "A: 오늘 점심 계획 있어요? / B: 아직 없는데요. / A: 그럼 같이 드실래요? 근처에 새로 생긴 데 가 보려고요.",
+        "A: Any lunch plans today? / B: Not yet. / A: Want to join then? I was going to try that new place nearby.",
+        "Natural two-person exchange: checking availability first before the actual invite is the polite Korean sequence"
       ],
       [
-        "새로 생긴 식당 가 보려고 하는데, 점심 같이 드실래요?",
-        "I'm thinking of trying the new restaurant — want to come for lunch?",
-        "A fuller invitation with a specific plan"
+        "새로 생긴 식당 가 보려고 하는데, 점심 같이 드실래요? 좋은 분들이랑 가면 더 좋을 것 같아서요.",
+        "I'm thinking of trying the new restaurant — want to come for lunch? It'd be nicer to go with good company.",
+        "Fuller invitation giving a reason and a social reason — 분들이랑 ('with [honorific] people') is a warm, natural add-on"
       ]
     ],
-    "nuance": "점심 같이 드실래요? invites a coworker or senior to have lunch together; 드시다 is the honorific of 먹다 ('eat'), so it respectfully includes the listener, and -ㄹ래요? makes it a friendly 'would you like to?' invitation rather than a command. To a peer it drops to 점심 같이 먹을래?, and more formally 점심 같이 하시겠어요? The nearest alternative 점심 드셨어요? ('have you eaten lunch?') is a greeting/care question, NOT an invitation — confusing the two is common, so use 드실래요? when you actually want to eat together. English speakers often mis-conjugate by using plain 먹다 with an honorific listener (점심 같이 먹을래요? to a boss); -ㄹ래요? is fine, but the verb should honor them, so 드실래요? is the respectful choice. Also avoid 점심을 같이 먹기 원해요? — that's a textbook-literal 'do you want to eat,' which sounds stiff and unnatural; the casual invite is 드실래요?",
+    "nuance": "점심 같이 드실래요? invites a colleague or senior to eat lunch together. The key grammar: 드시다 is the honorific form of 먹다 ('eat'), and -ㄹ래요? is the friendly 'would you like to?' — the combination shows both deference and warmth. The most important distinction to know: 점심 드셨어요? ('have you eaten?') is a Korean greeting expression, NOT an invitation to eat together — it means 'I care about whether you've had lunch' and does not mean 'let's eat.' Confusing them is very common among English speakers. Use 드실래요? when you actually want to share a meal. With a peer, drop to 먹을래? For extra formality, 같이 하시겠어요? (using 하다 instead of the eating verb) is slightly elevated. English speakers wrongly use plain 먹다 with an honorific listener ('점심 같이 먹을래요?' to a boss) — the verb needs to honor them, so 드실래요? is required. Textbook Korean 먹기 원해요? ('do you want to eat?') sounds unnatural; no Korean adult uses it for a lunch invite.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Invites a coworker or senior to have lunch together. 드시다 is the honorific of 먹다 ('eat'), so it respectfully includes the listener, and -ㄹ래요? makes it a friendly 'would you like to?' invitation rather than a command. To a peer it drops to 점심 같이 먹을래?, and more formally 점심 같이 하시겠어요?"
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'Would [you] honorably eat lunch together?' 실제: 'Want to grab lunch together?' — 드시다 (honorific 먹다) + -ㄹ래요? makes this a warm, respectful invitation, not a command."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "드실래요? (honorific + 해요체) for any senior or colleague you address politely. 같이 하시겠어요? (more formal) for a business associate or high superior. 먹을래? (반말) for peers or friends. Adding the person's name/title upfront (과장님, 같이 드실래요?) sounds more natural and inviting.",
+        "chips": ["드실래요? (polite)", "하시겠어요? (격식)", "먹을래? (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative 점심 드셨어요? ('have you eaten lunch?') is a greeting/care question, NOT an invitation — confusing the two is common, so use 드실래요? when you actually want to eat together."
+        "t": "점심 드셨어요? = 'Have you eaten?' — a care/greeting question, NOT an invitation. 점심 같이 드실래요? = an actual invitation to eat together. Never use 드셨어요? when you mean to invite; use 드실래요? Mixing these is the #1 mistake."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "오늘 점심 약속 없으시면 같이 드실래요? ('If you don't have plans…'). 이따 점심 같이 드실래요? (advance invite). After acceptance: 어디 가실래요? ('Where would you like to go?').",
+        "chips": ["약속 없으시면 같이 드실래요?", "이따 점심 같이 드실래요?", "어디 가실래요?"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers often mis-conjugate by using plain 먹다 with an honorific listener (점심 같이 먹을래요? to a boss); -ㄹ래요? is fine, but the verb should honor them, so 드실래요? is the respectful choice. Also avoid 점심을 같이 먹기 원해요? — that's a textbook-literal 'do you want to eat,' which sounds stiff and unnatural; the casual invite is 드실래요?"
+        "t": "점심 같이 먹을래요? to a boss — plain 먹다 fails to honor the senior; use 드시다. Saying 점심을 같이 먹기 원해요? — textbook but unnatural; no Korean says this as a lunch invite."
       }
     ],
     "mistakes": [
@@ -884,57 +1034,69 @@
       [
         "좀 도와주실 수 있을까요?",
         "Could you help me out a bit?",
-        "Honorific, a soft polite request to a coworker or senior"
+        "Honorific + tentative (-을까요?), the most polite and face-saving way to ask for a favor at work"
       ],
       [
         "좀 도와줄 수 있어?",
         "Can you help me out?",
-        "반말, to a peer or junior"
+        "반말, to a peer or junior — plain -ㄹ 수 있어?"
       ],
       [
         "좀 도와주실 수 있으신가요?",
         "Might you be able to help?",
-        "격식체, very formal/deferential — -신가요? softens the formal ask"
+        "격식체, very formal/deferential — double honorific -시- + -신가요? for high superiors or clients"
       ],
       [
         "혹시 이것 좀 도와주실 수 있을까요?",
-        "Could you maybe help me with this?",
-        "혹시 + 이것 makes the ask gentler and specific"
+        "Could you perhaps help me with this?",
+        "혹시 ('by any chance') + 이것 pinpoints the specific task and gives the person an easy out"
       ]
     ],
     "examples": [
       [
-        "이것 좀 도와주실 수 있을까요?",
-        "Could you help me with this?",
-        "The bare polite request for a hand"
+        "바쁘실 텐데, 혹시 이것 좀 도와주실 수 있을까요?",
+        "You must be busy, but could you perhaps help me with this?",
+        "The most natural considerate form: acknowledging their busyness upfront softens the ask considerably"
       ],
       [
-        "엑셀이 잘 안 돼서요, 좀 도와주실 수 있을까요?",
-        "I'm having trouble with Excel — could you help me out?",
-        "Everyday workplace ask for assistance"
+        "A: 엑셀 수식이 잘 안 되는데, 좀 도와주실 수 있을까요? / B: 네, 잠깐 볼게요. 어디서 막히셨어요?",
+        "A: I'm having trouble with an Excel formula — could you help me out? / B: Sure, let me take a look. Where are you stuck?",
+        "Real exchange: B accepts with 볼게요 and immediately asks a clarifying question — the natural helpful response pattern"
       ],
       [
         "바쁘신데 죄송하지만, 자료 정리 좀 도와주실 수 있을까요? 혼자 하기엔 양이 많아서요.",
-        "Sorry to bother you when you're busy, but could you help me organize the materials? It's a lot to do alone.",
-        "A fuller, considerate request acknowledging their time"
+        "Sorry to bother you when you're busy, but could you help me organize the materials? There's too much for me alone.",
+        "Fuller considerate request: apology up front, request, reason — the complete polite Korean help-request formula"
       ]
     ],
-    "nuance": "좀 도와주실 수 있을까요? is a soft, polite way to ask for help, common when you approach a coworker or senior for a hand; 도와주다 ('help, for someone') plus the honorific -시-, the ability frame -ㄹ 수 있다, and the tentative -을까요? all stack to make it gentle and easy to refuse. To a peer it's 좀 도와줄 수 있어? The little word 좀 (a softened 조금, 'a bit') is essential — it downgrades the imposition and is what makes the request sound considerate rather than demanding. The nearest alternative, the blunt imperative 도와주세요 ('help me'), is direct and fine in urgent or simple cases, but for a favor that costs the other person effort, the -ㄹ 수 있을까요? frame is more courteous. English speakers literally translate 'Can you help me?' as 도와줄 수 있어요? to a senior, which is too flat in register; honor them and soften it with 도와주실 수 있을까요? Dropping 좀 also makes it abrupt.",
+    "nuance": "좀 도와주실 수 있을까요? is the most polite way to ask a coworker or senior for help, and every element is load-bearing: 좀 (shortened 조금, 'a bit') downgrades the imposition; 도와주다 ('help, do it for the listener'); -시- honorific raises the subject; -ㄹ 수 있다 frames it as ability rather than demand; and -을까요? is the gentlest possible sentence-end ('I wonder if…'). Remove any one of these and the request immediately sounds blunter. The nearest alternative 도와주세요 ('help me') is a direct imperative — fine in urgent or simple cases, but for a favor that costs effort or time, the -ㄹ 수 있을까요? frame is far more considerate. A slightly softer variant is 도와주실 수 있으실까요? (double -시-), but that can sound over-formal. The English pitfall: saying 도와줄 수 있어요? to a senior uses plain stem rather than the honorific -시- and sounds too direct. Dropping 좀 also makes the request feel abrupt, as if you're owed the help.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "A soft, polite way to ask for help, common when you approach a coworker or senior for a hand. 도와주다 ('help, for someone') plus the honorific -시-, the ability frame -ㄹ 수 있다, and the tentative -을까요? all stack to make it gentle and easy to refuse. To a peer it's 좀 도와줄 수 있어? The little word 좀 (a softened 조금, 'a bit') is essential — it downgrades the imposition and is what makes the request sound considerate rather than demanding."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'A bit (좀), help-give me (도와주다), would [you] honorably be able to (수 있을까요)?' 실제: 'Could you help me out a bit?' — every softening layer is intentional; together they make the request easy to decline without embarrassment."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "도와주실 수 있을까요? (honorific + tentative) for seniors and anyone you need to address politely. 도와줄 수 있어? (반말) for peers. 도와주실 수 있으신가요? (격식, double honorific) for very formal situations or high superiors. Never omit 좀 — it's the main politeness softener.",
+        "chips": ["도와주실 수 있을까요? (standard polite)", "도와주실 수 있으신가요? (격식)", "도와줄 수 있어? (반말)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative, the blunt imperative 도와주세요 ('help me'), is direct and fine in urgent or simple cases, but for a favor that costs the other person effort, the -ㄹ 수 있을까요? frame is more courteous."
+        "t": "도와주세요 = direct imperative 'help me' — fine for quick, easy requests. 좀 도와주실 수 있을까요? = face-saving tentative request — better for larger favors that take the other person's time. 혹시 도움이 필요하시면 말씀해 주세요 = 'Let me know if you need help' — offering help rather than requesting it."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "혹시 [task] 좀 도와주실 수 있을까요? adds 혹시 for extra tentativeness. Add context: [reason] + 도와주실 수 있을까요? — a reason acknowledges the imposition. After: 감사합니다 / 덕분에 잘 됐어요 ('Thanks to you it worked out well').",
+        "chips": ["혹시 + [task] + 도와주실 수 있을까요?", "[reason] + 도와주실 수 있을까요?", "도와주세요 (urgent/simple)"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers literally translate 'Can you help me?' as 도와줄 수 있어요? to a senior, which is too flat in register; honor them and soften it with 도와주실 수 있을까요? Dropping 좀 also makes it abrupt."
+        "t": "도와줄 수 있어요? to a senior — plain stem instead of honorific -시- sounds flat. Dropping 좀 — the request immediately sounds blunt and entitled. 도와주세요 for a big favor — that's the imperative; use the tentative -을까요? frame instead."
       }
     ],
     "mistakes": [
@@ -951,57 +1113,69 @@
       [
         "보고드리겠습니다.",
         "I'll report to you.",
-        "격식체, humble 드리다 to a boss — the standard reporting phrase"
+        "격식체, humble 드리다 to a boss — the mandatory form in any upward reporting situation"
       ],
       [
         "보고드릴게요.",
         "I'll report it to you.",
-        "Polite-casual, to a senior you're comfortable with"
+        "Polite-casual (해요체), to a senior you're comfortable with — still humble, but softer"
       ],
       [
         "보고할게.",
         "I'll report it.",
-        "반말, to a peer (e.g., who'll relay it up)"
+        "반말, to a peer (e.g., who will relay it upward) — humble 드리다 removed"
       ],
       [
         "결과 나오면 바로 보고드리겠습니다.",
         "I'll report as soon as the results are in.",
-        "Extension tying the report to a trigger event"
+        "Extension with a trigger condition — 나오면 ('when/if results come out') is a natural lead-in for standing commitments"
       ]
     ],
     "examples": [
       [
-        "네, 보고드리겠습니다.",
-        "Yes, I'll report on it.",
-        "The bare reply accepting a task to report"
+        "네, 바로 보고드리겠습니다.",
+        "Yes, I'll report on it right away.",
+        "Bare acceptance when a boss assigns a task — 바로 ('right away') shows urgency and commitment"
       ],
       [
-        "진행 상황은 매주 금요일에 보고드리겠습니다.",
-        "I'll report on the progress every Friday.",
-        "Everyday commitment to regular updates"
+        "A: 이번 건 어떻게 됐어요? / B: 아직 진행 중인데, 정리되면 보고드리겠습니다.",
+        "A: How's that matter going? / B: Still in progress — I'll report once it's sorted out.",
+        "Real exchange: B buys time politely while committing to a defined trigger for the report"
       ],
       [
-        "이번 건은 우선 부장님께 보고드리고, 승인되면 진행하겠습니다.",
-        "For this matter I'll first report to the director, and proceed once it's approved.",
-        "A fuller workflow showing the chain of reporting"
+        "이번 건은 우선 부장님께 보고드리고, 승인이 떨어지면 바로 진행하겠습니다.",
+        "For this matter I'll first report to the director, and proceed immediately once approval is given.",
+        "Fuller workflow showing the chain: 보고드리다 upward + approval gate + action — typical Korean decision-making sequence"
       ]
     ],
-    "nuance": "보고드리겠습니다 means 'I'll report (to you),' the formal phrase a subordinate uses toward a boss or higher-up; 보고하다 ('to report') becomes humble 보고드리다 with 드리다, lowering yourself to elevate the recipient, and -겠- states your firm intention. To a peer it's 보고할게. The recipient is marked with the honorific particle 께 (부장님께 보고드리다), not 한테/에게, when they outrank you. The nearest alternative 말씀드리겠습니다 ('I'll tell/inform you') is broader, for conveying any information, whereas 보고드리다 specifically frames it as an official report up the hierarchy — use 보고 for formal status/results reporting, 말씀 for general 'letting you know.' English speakers wrongly pick plain 보고하겠습니다 toward a boss; it's grammatical but skips the deference baked into office culture, where 보고드리겠습니다 is expected. Using 한테 instead of 께 for a senior is another giveaway of non-native register.",
+    "nuance": "보고드리겠습니다 means 'I'll report to you (or to them),' the standard formal phrase used by a subordinate toward a superior when delivering status updates or results. It fuses 보고하다 ('to report') with humble 드리다, lowering yourself to raise the recipient, and -겠- marks a firm stated intention. The recipient takes the honorific particle 께 (부장님께 보고드리겠습니다), not 한테 or 에게 — using 한테 with a senior is a register marker that reveals non-native habits. The nearest neighbor 말씀드리겠습니다 ('I will tell/inform you') is broader, covering any one-way message to a superior; 보고드리다 specifically frames the communication as an official status report within a hierarchy, not just a casual update. English speakers often default to plain 보고하겠습니다 with a boss — grammatically fine but missing the deference that Korean office culture expects. 드리다 here is not optional politeness; it's the socially required form.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Means 'I'll report (to you),' the formal phrase a subordinate uses toward a boss or higher-up. 보고하다 ('to report') becomes humble 보고드리다 with 드리다, lowering yourself to elevate the recipient, and -겠- states your firm intention. To a peer it's 보고할게. The recipient is marked with the honorific particle 께 (부장님께 보고드리다), not 한테/에게, when they outrank you."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'I will humbly report (보고 + 드리다 + -겠-).' 실제: 'I'll report to you' — a formal upward communication framed as a service act (드리다), signaling the speaker is lower in the hierarchy."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "보고드리겠습니다 (격식 + humble) for bosses and senior management — this is the obligatory form in hierarchical Korean workplaces. 보고드릴게요 (해요체 + humble) with a familiar senior. 보고할게 (반말) with a peer. The person reported to takes 께: 팀장님께 보고드리겠습니다.",
+        "chips": ["보고드리겠습니다 (격식)", "보고드릴게요 (해요체)", "보고할게 (반말)", "부장님께 (particle 께)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "The nearest alternative 말씀드리겠습니다 ('I'll tell/inform you') is broader, for conveying any information, whereas 보고드리다 specifically frames it as an official report up the hierarchy — use 보고 for formal status/results reporting, 말씀 for general 'letting you know.'"
+        "t": "보고드리겠습니다 = official status/results report up the chain. 말씀드리겠습니다 = general 'I'll inform you' — any upward communication, not necessarily a formal report. 알려 드리겠습니다 = 'I'll let you know' — more casual notification, less of a formal report."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "결과 나오면 바로 보고드리겠습니다 (trigger-based). 매주 금요일에 보고드리겠습니다 (standing schedule). 보고드릴 사항이 있습니다 ('I have something to report' — opens a reporting session formally).",
+        "chips": ["결과 나오면 바로 보고드리겠습니다", "보고드릴 사항이 있습니다", "매주 보고드리겠습니다"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "English speakers wrongly pick plain 보고하겠습니다 toward a boss; it's grammatical but skips the deference baked into office culture, where 보고드리겠습니다 is expected. Using 한테 instead of 께 for a senior is another giveaway of non-native register."
+        "t": "보고하겠습니다 to a boss skips the deference — 드리다 is required in upward reporting. 부장님한테 보고드리겠습니다 — the particle 한테 is for peers; for a senior use 께: 부장님께 보고드리겠습니다."
       }
     ],
     "mistakes": [
@@ -1018,57 +1192,69 @@
       [
         "수고하셨습니다.",
         "Thank you for your hard work.",
-        "격식체 honorific, the standard end-of-work sign-off to coworkers"
+        "격식체 honorific — the most common end-of-work or end-of-task line; said to peers and juniors, or from a senior to a subordinate"
       ],
       [
         "수고했어.",
         "Good job.",
-        "반말, said DOWN to a junior or to a peer"
+        "반말, said DOWN to a junior or to a close peer"
       ],
       [
         "수고 많으셨어요.",
-        "You've worked hard.",
-        "Warmer polite version with 많다 ('to be much')"
+        "You really worked hard.",
+        "Warmer polite version in conversation — 많다 ('a lot') amplifies the appreciation"
       ],
       [
         "수고하세요.",
         "Keep up the good work.",
-        "Present tense, said to someone who's STILL working as you leave"
+        "PRESENT tense — said to someone who is STILL working as you leave; not interchangeable with past 수고하셨습니다"
       ]
     ],
     "examples": [
       [
-        "수고하셨습니다.",
-        "Good work today.",
-        "The bare sign-off when leaving or finishing"
+        "오늘 정말 수고하셨습니다.",
+        "You really worked hard today.",
+        "Simple closing acknowledgment — 정말 ('really') adds warmth without changing register"
       ],
       [
-        "오늘 회의 수고하셨습니다. 정리해서 공유드릴게요.",
-        "Thanks for your work in today's meeting — I'll write it up and share it.",
-        "Everyday close to a meeting"
+        "A: 회의 자료 정리 다 했어요. / B: 수고하셨습니다. 공유해 주시면 검토할게요.",
+        "A: I've finished organizing the meeting materials. / B: Thanks for the effort — please share them so I can review.",
+        "A/B exchange: 수고하셨습니다 functions here as both acknowledgment and a natural segue to the next request"
       ],
       [
-        "다들 늦게까지 수고하셨습니다. 오늘은 여기까지 하고 마무리하시죠.",
-        "Thank you all for working so late. Let's wrap up here for today.",
-        "A fuller end-of-day acknowledgment to a team"
+        "다들 늦게까지 수고하셨습니다. 덕분에 프로젝트가 잘 마무리됐어요. 오늘은 일찍 들어가시죠.",
+        "Thank you all for staying so late. Thanks to everyone the project wrapped up well — let's call it an early night today.",
+        "Fuller end-of-project team message: 덕분에 ('thanks to you/everyone') + wrap-up + suggestion to go home early"
       ]
     ],
-    "nuance": "수고하셨습니다 thanks someone for their effort and is the most common Korean clock-out / end-of-task line among coworkers; 수고 means 'effort/trouble' and with honorific -셨- + -습니다 it respectfully credits their work. Crucially, present 수고하세요 ('keep it up') is for someone STILL working as you go, while past 수고하셨습니다 is for work already done — mixing the tenses is a frequent error. Down to a junior it's 수고했어. It's nearly identical to 고생하셨습니다; the subtle line is that 고생 ('hardship') frames the work as harder/more grueling, so 수고 is the lighter, more neutral default, while both should be aimed sideways or downward, not at a very high superior (use 감사합니다 upward). A real pitfall: saying 수고하세요 to a senior as you leave can sound like you're patronizing them ('carry on, then'), so to a clear superior 먼저 들어가 보겠습니다 or 감사합니다 is safer.",
+    "nuance": "수고하셨습니다 thanks someone for the effort of a task or day's work and is the most common Korean clock-out phrase. 수고 (受苦) shares the same hanja as 고생 (苦生) but in modern usage 수고 has shifted to the lighter sense of 'effort / trouble taken,' while 고생 retains the heavier connotation of 'bitter hardship / toil.' This makes 수고하셨습니다 the neutral default and 고생하셨습니다 the more emphatic, empathetic form. The most important tense rule in office Korean: past 수고하셨습니다 is for effort that's done; present 수고하세요 is for someone still working as you leave ('keep it up'). Confusing them sends the wrong signal entirely. Both 수고 and 고생 should be aimed sideways (peer-to-peer) or downward (to a junior), not upward to a very high superior — saying 수고하셨습니다 to the CEO can imply you're appraising their labor, which is presumptuous; 감사합니다 is safer there. A specific pitfall: 수고하세요 to a clear superior as you leave sounds patronizing in Korean, like 'carry on then' — use 먼저 들어가 보겠습니다 or 감사합니다 when leaving in their presence.",
     "structuredNuance": [
       {
-        "k": "핵심 의미",
-        "e": "MEANING",
-        "t": "Thanks someone for their effort and is the most common Korean clock-out / end-of-task line among coworkers. 수고 means 'effort/trouble' and with honorific -셨- + -습니다 it respectfully credits their work. Crucially, present 수고하세요 ('keep it up') is for someone STILL working as you go, while past 수고하셨습니다 is for work already done — mixing the tenses is a frequent error. Down to a junior it's 수고했어."
+        "k": "직역 vs 실제 뜻",
+        "e": "LITERAL→REAL",
+        "t": "직역: 'You (honorably) bore the effort (수고 + -셨-).' 실제: 'Good work / thank you for your effort' — a respectful close that acknowledges the work cost the person something, without the heavier 'hardship' weight of 고생."
       },
       {
-        "k": "비슷한 말",
+        "k": "상황과 격식",
+        "e": "REGISTER",
+        "t": "수고하셨습니다 (격식, honorific) — peer-to-peer or senior-to-junior at work, end of task/day. 수고 많으셨어요 (해요체 + warmer) for conversation. 수고했어 (반말) downward. For a very high superior: say 감사합니다 instead, not 수고하셨습니다.",
+        "chips": ["수고하셨습니다 (격식)", "수고 많으셨어요 (해요체)", "수고했어 (반말)", "감사합니다 (toward CEO)"]
+      },
+      {
+        "k": "비슷한 표현과의 차이",
         "e": "VS",
-        "t": "It's nearly identical to 고생하셨습니다; the subtle line is that 고생 ('hardship') frames the work as harder/more grueling, so 수고 is the lighter, more neutral default, while both should be aimed sideways or downward, not at a very high superior (use 감사합니다 upward)."
+        "t": "수고하셨습니다 vs 고생하셨습니다: 수고 = lighter 'effort,' the neutral default. 고생 = heavier 'hardship/toil,' more empathetic. Both are peer-or-downward, not upward. 수고하세요 (present) = for someone STILL working, not interchangeable with past 수고하셨습니다."
+      },
+      {
+        "k": "변형·확장형",
+        "e": "FORMS",
+        "t": "오늘도 수고하셨습니다 (daily close: 'today too'). 정말 수고 많으셨습니다 (stronger). 수고하셨어요 (spoken/casual polite). 덕분에 잘 됐습니다 ('It went well thanks to you') pairs naturally as a fuller thanks.",
+        "chips": ["오늘도 수고하셨습니다", "정말 수고 많으셨습니다", "수고하셨어요"]
       },
       {
         "k": "영어권 함정",
         "e": "PITFALL",
-        "t": "A real pitfall: saying 수고하세요 to a senior as you leave can sound like you're patronizing them ('carry on, then'), so to a clear superior 먼저 들어가 보겠습니다 or 감사합니다 is safer."
+        "t": "수고하세요 to someone who just finished (should be 수고하셨습니다) or 수고하셨습니다 to someone still working (should be 수고하세요) — tense mismatch is the most common error. Also: 수고하세요 to a superior as you leave sounds patronizing; say 먼저 들어가 보겠습니다."
       }
     ],
     "mistakes": [

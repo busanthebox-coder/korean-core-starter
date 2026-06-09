@@ -1,5 +1,6 @@
 <script>
   import { conversations } from '../lib/data.js';
+  import { normalizeKo } from '../lib/quiz.js';
   import AudioButton from '../lib/components/AudioButton.svelte';
   import RomanizationLine from '../lib/components/RomanizationLine.svelte';
   import ChatBubble from '../lib/components/ChatBubble.svelte';
@@ -19,6 +20,8 @@
   let firstTry = true;
   let typed = '';        // respond: user input
   let revealed = false;  // respond: model answer shown
+  let graded = false;    // respond: did the user submit for grading (vs. give up)
+  let respondOK = false; // respond: was the graded reply correct
   let correctCount = 0;
 
   const correctOf = (t) => (t.choices || []).find((c) => c.correct) || (t.choices || [])[0];
@@ -32,7 +35,7 @@
     cursor = firstYou(selected.turns);
     results = {}; picked = null; wrong = []; firstTry = true; typed = ''; revealed = false; correctCount = 0;
   }
-  function clearTurnState() { picked = null; wrong = []; firstTry = true; typed = ''; revealed = false; }
+  function clearTurnState() { picked = null; wrong = []; firstTry = true; typed = ''; revealed = false; graded = false; respondOK = false; }
 
   function advance(answerChoice) {
     results = { ...results, [cursor]: answerChoice };
@@ -45,7 +48,14 @@
     if (choice.correct) { if (firstTry) correctCount += 1; }
     else { firstTry = false; if (!wrong.includes(choice.ko)) wrong = [...wrong, choice.ko]; }
   }
-  function reveal() { revealed = true; }
+  function reveal() { revealed = true; }   // give up: show the model, no credit
+  function checkReply() {
+    if (revealed || !typed.trim()) return;
+    const model = correctOf(active);
+    respondOK = normalizeKo(typed) === normalizeKo(model.ko);
+    graded = true; revealed = true;
+    if (respondOK) correctCount += 1;
+  }
 
   $: turns = selected ? selected.turns : [];
   $: thread = turns.slice(0, cursor);
@@ -133,9 +143,17 @@
           {:else}
             <textarea class="respond" bind:value={typed} rows="2" placeholder="Type your reply in Korean (반말)…" disabled={revealed}></textarea>
             {#if !revealed}
-              <button class="cont" on:click={reveal}>정답 보기 · Show a natural reply</button>
+              <div class="respond-actions">
+                <button class="cont" disabled={!typed.trim()} on:click={checkReply}>Check · 확인</button>
+                <button class="giveup" on:click={reveal}>모르겠어요 · Show answer</button>
+              </div>
             {:else}
               {@const model = correctOf(active)}
+              {#if graded}
+                <div class="verdict" class:ok={respondOK}>
+                  {#if respondOK}✓ 자연스러워요! That works.{:else}거의 다 왔어요 — compare with a natural reply below.{/if}
+                </div>
+              {/if}
               <div class="model">
                 <div class="model-label">A natural reply</div>
                 <div class="bko">{model.ko}<AudioButton text={model.ko} size={22} /></div>
@@ -153,7 +171,7 @@
         <div class="finish">
           <div class="fin-emoji">🎉</div>
           <h2>Nice chatting!</h2>
-          {#if mode === 'roleplay' && youTotal}<p class="score">Natural replies on the first try: <strong>{correctCount}/{youTotal}</strong></p>{/if}
+          {#if youTotal}<p class="score">{mode === 'roleplay' ? 'Natural replies on the first try' : 'Correct replies'}: <strong>{correctCount}/{youTotal}</strong></p>{/if}
           {#if selected.tip}<div class="tip"><span class="ico">💡</span><p>{selected.tip}</p></div>{/if}
           <div class="fin-actions">
             <button class="btn3d" on:click={restart}>Try again</button>
@@ -224,6 +242,13 @@
   .respond { width: 100%; padding: 11px 13px; border-radius: 12px; border: 1.5px solid var(--border); background: var(--surface);
     font: inherit; font-size: 16px; resize: vertical; }
   .respond:focus { border-color: var(--green); outline: none; }
+  .respond-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .giveup { padding: 10px 16px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; font-size: 13px; }
+  .giveup:hover { background: var(--border); }
+  .verdict { padding: 9px 13px; border-radius: 10px; font-weight: 800; font-size: 14px;
+    background: #fdf0f0; color: #c0392b; border: 1px solid #f0b6b6; }
+  .verdict.ok { background: #f1fae6; color: var(--green-dark); border-color: #cdebac; }
+  .cont:disabled { opacity: .5; pointer-events: none; }
   .model { display: grid; gap: 2px; padding: 12px 14px; border-radius: 13px; background: #f1fae6; border: 1px solid var(--border); }
   .model-label { font-size: 11px; font-weight: 850; text-transform: uppercase; letter-spacing: .05em; color: var(--green-dark); }
   .fb.ok { color: var(--green-dark); margin-top: 4px; }
