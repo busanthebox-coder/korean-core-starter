@@ -1,0 +1,490 @@
+{
+  "id": "chapter-11",
+  "hook": {
+    "situation": "You're texting a Korean colleague to explain why you can't come to dinner. You type '바빠 못 가요' — and it works, but it sounds choppy, like two separate broken sentences. Korean has elegant connectors that glue ideas together in one breath: 바빠서 못 가요. One sentence. One smooth thought.",
+    "objectives": [
+      "Use 아서/어서 to connect a reason to its result in a single sentence",
+      "Use 고 to chain two actions or descriptions without repeating the subject",
+      "Use 면 to express conditions ('if/when'), and ㄹ/을게요 to make a speaker's promise"
+    ],
+    "whyItMatters": "Native Korean sounds like a flowing chain of connected thoughts, not isolated flashcards. Once you have 아서/어서, 고, 면, and ㄹ/을게요, you stop sounding like a beginner who pauses between every idea. These four connectors appear in virtually every real Korean conversation."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-aseo-eoseo",
+      "title": "아서/어서 — Because / So (Reason → Result)",
+      "mentalModel": "Think of 아서/어서 as a DOMINO PUSH. The first domino (reason) falls and knocks over the second (result). The push is one-directional — cause comes first, effect follows automatically. You can't flip the dominoes: 못 가요 바빠서 ❌ never works the way English 'can't go because I'm busy' does.",
+      "formation": "Verb/Adjective stem + 아서 (if last vowel is ㅏ or ㅗ) / 어서 (all others) / 해서 (하다 verbs)",
+      "examples": [
+        {
+          "ko": "바빠서 못 가요.",
+          "romanization": "bappaseo mot gayo.",
+          "en": "I'm busy, so I can't go.",
+          "note": "바쁘다 → stem 바쁘 → last vowel is ㅡ → 어서 → but 바쁘 + 어서 contracts to 바빠서 (ㅡ drops before 아/어)"
+        },
+        {
+          "ko": "아파서 병원에 가요.",
+          "romanization": "apaseo byeongwone gayo.",
+          "en": "I'm sick, so I go to the hospital.",
+          "note": "아프다 → stem 아프 → ㅡ drops → 아파 + 서 = 아파서; the reason (sick) pushes the result (going to hospital)"
+        },
+        {
+          "ko": "배가 고파서 밥을 먹어요.",
+          "romanization": "baega gopaseo babeul meogeoyo.",
+          "en": "I'm hungry, so I eat.",
+          "note": "고프다 → 고파서; the hunger is the domino that topples eating"
+        },
+        {
+          "ko": "늦어서 죄송합니다.",
+          "romanization": "neujeoseo joesonghamnida.",
+          "en": "I'm sorry for being late.",
+          "note": "늦다 → stem 늦 → consonant-final + 어서 = 늦어서; reason (lateness) produces result (apology)"
+        },
+        {
+          "ko": "비싸서 안 샀어요.",
+          "romanization": "bissaseo an sasseoyo.",
+          "en": "It was expensive, so I didn't buy it.",
+          "note": "비싸다 → stem 비싸 → 아서 attaches directly; the price was the domino that stopped the purchase"
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "피곤해서 일찍 잤어요.", "en": "I was tired, so I went to sleep early." },
+          "b": { "ko": "피곤하지만 일찍 안 잤어요.", "en": "I was tired, but I didn't go to sleep early." },
+          "explanation": "아서/어서 means the first clause CAUSES or leads to the second. 지만 means 'but' — the second clause contradicts the first. The domino push of 아서/어서 can never contradict; 지만 always does."
+        },
+        {
+          "a": { "ko": "시간이 없어서 못 만나요.", "en": "I don't have time, so I can't meet." },
+          "b": { "ko": "시간이 없으면 못 만나요.", "en": "If I don't have time, I can't meet." },
+          "explanation": "아서/어서 states a real current reason (the domino is already falling). 면 sets a hypothetical condition (IF the domino falls). Use 아서/어서 for actual situations; use 면 for 'if' scenarios."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "못 가요 바빠서.",
+        "right": "바빠서 못 가요.",
+        "explanation": "English allows 'I can't go because I'm busy' — the reason can come at the end after 'because'. Korean 아서/어서 MUST come first: reason clause + 아서/어서, THEN result clause. The domino must be placed before it can push. Putting 아서/어서 at the end is the most common English-speaker error with this pattern."
+      },
+      "exceptions": [
+        "아서/어서 cannot be used before commands or suggestions: 바빠서 가세요 ❌ (can't say 'because you're busy, please go'). Use 니까/으니까 instead for commands: 바쁘니까 먼저 가세요 ✅",
+        "하다 verbs use 해서 (not 하아서 or 하어서): 공부해서, 일해서, 전화해서",
+        "있다/없다 use 있어서/없어서 — treat them like normal verbs here"
+      ]
+    },
+    {
+      "id": "gn-go-myeon-lgeyo",
+      "title": "고 / 면 / ㄹ을게요 — And, If/When, I Promise",
+      "mentalModel": "Picture a TRAIN with three cars: 고 is the COUPLING HOOK between cars — it just links them, with no reason or condition. 면 is a SWITCH TRACK — the train only goes down that path IF the switch is set. ㄹ/을게요 is the ENGINEER'S ANNOUNCEMENT — 'I, the speaker, will do this' — it can only describe the speaker's own decision, never someone else's.",
+      "formation": "고: Verb/Adj stem + 고 (no vowel harmony) | 면: stem + 으면 (consonant-final) / 면 (vowel-final or ㄹ-final) | ㄹ/을게요: stem + ㄹ게요 (vowel/ㄹ-final) / 을게요 (consonant-final)",
+      "examples": [
+        {
+          "ko": "밥을 먹고 가요.",
+          "romanization": "babeul meokgo gayo.",
+          "en": "I eat and then go.",
+          "note": "고 as coupling hook: eating and going are linked sequentially. The hook has no direction — it just connects."
+        },
+        {
+          "ko": "이 카페는 싸고 맛있어요.",
+          "romanization": "i kaepeneun ssago massisseoyo.",
+          "en": "This café is cheap and delicious.",
+          "note": "고 linking two adjectives (descriptions), not actions — the coupling hook works for both verbs and adjectives"
+        },
+        {
+          "ko": "시간이 있으면 전화해 주세요.",
+          "romanization": "sigani isseumyeon jeonhwahae juseyo.",
+          "en": "If you have time, please call.",
+          "note": "있다 (consonant-final ㅅ removed in this form) + 으면 = 있으면; the switch track — call only IF the condition is met"
+        },
+        {
+          "ko": "비싸면 안 사요.",
+          "romanization": "bissamyeon an sayo.",
+          "en": "If it's expensive, I don't buy it.",
+          "note": "비싸다 ends in vowel → attach 면 directly: 비싸 + 면 = 비싸면; the switch determines buying behavior"
+        },
+        {
+          "ko": "제가 할게요.",
+          "romanization": "jega halgeyo.",
+          "en": "I'll do it. (speaker's decision)",
+          "note": "하다 → stem 하 → vowel-final → 할게요; the engineer announces: I, the speaker, will handle this"
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "씻고 자요.", "en": "I wash up and then sleep." },
+          "b": { "ko": "씻어서 잠이 잘 와요.", "en": "Because I wash up, I sleep well." },
+          "explanation": "고 is a neutral coupling hook — it just sequences two actions with no causal link. 아서/어서 is the domino push — washing CAUSES the good sleep. If the second action results FROM the first, use 아서/어서. If they're just two things that happen in order, use 고."
+        },
+        {
+          "a": { "ko": "나중에 전화할게요.", "en": "I'll call later. (my own promise)" },
+          "b": { "ko": "나중에 전화할 거예요.", "en": "I'll call later. (neutral future plan)" },
+          "explanation": "ㄹ/을게요 is exclusively the speaker's decision or promise, made in response to the current situation. ㄹ/을 거예요 is a general future statement that could describe anyone. Use ㄹ/을게요 when you're the one committing to do something."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "시간이 있으면 전화할게요. (said about someone else)",
+        "right": "시간이 있으면 전화해요. / 시간이 있으면 전화할 거예요.",
+        "explanation": "ㄹ/을게요 can ONLY describe the SPEAKER's own first-person decision. English 'he'll call if he has time' cannot use ㄹ/을게요. If you're talking about what someone else will do, use 거예요 or the plain verb form. Using ㄹ/을게요 for a third person is a very common mistake."
+      },
+      "exceptions": [
+        "ㄹ-final verb stems drop the ㄹ before 면: 알다 → 알면 ✅ (not 알으면 ❌), 만들다 → 만들면",
+        "고 does NOT change based on tense in the first clause: 먹고 가요 (eat then go) and 먹었고 갔어요 (ate and went) — beginners often incorrectly add past tense to the first clause unnecessarily",
+        "ㄹ/을게요 is only 1st-person: 갈게요 (I'll go) ✅ but you cannot use it for 2nd or 3rd person"
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "바쁘다",
+      "romanization": "bappeuda",
+      "english": "to be busy",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "요즘 너무 바빠서 쉬고 싶어요.",
+        "en": "I've been so busy lately that I want to rest.",
+        "note": "아서/어서 reason → result: the busyness causes the desire to rest"
+      },
+      "collocations": ["바빠서 못 가요", "바쁜 하루", "바쁘게 살다"]
+    },
+    {
+      "hangul": "아프다",
+      "romanization": "apeuda",
+      "english": "to be sick / to hurt",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "머리가 아파서 병원에 갔어요.",
+        "en": "My head hurt, so I went to the hospital.",
+        "note": "아서/어서 domino: the pain is the cause that pushes the result (hospital visit)"
+      },
+      "collocations": ["아파서 쉬어요", "머리가 아프다", "배가 아프다"]
+    },
+    {
+      "hangul": "피곤하다",
+      "romanization": "pigonhada",
+      "english": "to be tired",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "피곤해서 일찍 잘게요.",
+        "en": "I'm tired, so I'll go to sleep early.",
+        "note": "해서 (하다 verb → 해서) + ㄹ게요 (speaker's first-person decision): double connector usage"
+      },
+      "collocations": ["피곤해서 자요", "많이 피곤하다", "피곤한 하루"]
+    },
+    {
+      "hangul": "늦다",
+      "romanization": "neutda",
+      "english": "to be late",
+      "partOfSpeech": "verb/adjective",
+      "exampleSentence": {
+        "ko": "늦어서 죄송해요.",
+        "en": "I'm sorry for being late.",
+        "note": "늦다 (consonant-final 다 → 어서): lateness is the reason for the apology"
+      },
+      "collocations": ["늦어서 미안해요", "늦으면 연락해요", "늦게 오다"]
+    },
+    {
+      "hangul": "비싸다",
+      "romanization": "bissada",
+      "english": "to be expensive",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "비싸면 안 사요.",
+        "en": "If it's expensive, I don't buy it.",
+        "note": "면 (condition/switch): buying decision depends on the price condition being met"
+      },
+      "collocations": ["비싸서 안 사요", "너무 비싸다", "비싸고 좋다"]
+    },
+    {
+      "hangul": "싸다",
+      "romanization": "ssada",
+      "english": "to be cheap / inexpensive",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "이 식당은 싸고 맛있어요.",
+        "en": "This restaurant is cheap and delicious.",
+        "note": "고 as coupling hook between two adjectives — just linking, no causal relationship between them"
+      },
+      "collocations": ["싸고 좋다", "값이 싸다", "싸게 사다"]
+    },
+    {
+      "hangul": "연락하다",
+      "romanization": "yeollakada",
+      "english": "to contact / get in touch",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "도착하면 연락할게요.",
+        "en": "When I arrive, I'll contact you.",
+        "note": "면 (when/if condition) + 할게요 (speaker's promise): the connector and promise form working together"
+      },
+      "collocations": ["연락할게요", "연락해 주세요", "연락이 안 돼요"]
+    },
+    {
+      "hangul": "도착하다",
+      "romanization": "dochakada",
+      "english": "to arrive",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "도착하면 문자 보낼게요.",
+        "en": "When I arrive, I'll send a text.",
+        "note": "하다 verb + 면 (condition): 도착하 + 면 = 도착하면; paired with ㄹ게요 promise"
+      },
+      "collocations": ["도착하면 연락해요", "이미 도착했어요", "곧 도착할게요"]
+    },
+    {
+      "hangul": "시간",
+      "romanization": "sigan",
+      "english": "time / hour",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "시간이 있으면 같이 밥 먹어요.",
+        "en": "If you have time, let's eat together.",
+        "note": "있으면 = 있다 + 으면 (consonant-final): the condition is whether time exists"
+      },
+      "collocations": ["시간이 있으면", "시간이 없어서", "시간이 많다"]
+    },
+    {
+      "hangul": "이유",
+      "romanization": "iyu",
+      "english": "reason",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이유가 있어서 못 가요.",
+        "en": "I have a reason, so I can't go.",
+        "note": "있어서 (있다 + 어서): having a reason is the domino that causes not being able to go"
+      },
+      "collocations": ["이유가 있다", "이유가 없다", "무슨 이유예요?"]
+    },
+    {
+      "hangul": "약속",
+      "romanization": "yakssok",
+      "english": "appointment / promise / plans",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "약속이 있어서 일찍 가야 해요.",
+        "en": "I have plans, so I have to leave early.",
+        "note": "있어서 reason: having plans (약속) is the cause for needing to leave early"
+      },
+      "collocations": ["약속이 있어서", "약속을 지키다", "약속을 잡다"]
+    },
+    {
+      "hangul": "괜찮다",
+      "romanization": "gwaenchantta",
+      "english": "to be okay / fine / alright",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "괜찮으면 같이 가요.",
+        "en": "If it's okay with you, let's go together.",
+        "note": "괜찮다 (consonant-final 다 after ㅎ drop → 괜찮 + 으면): switch track — only proceed together if condition of okayness is met"
+      },
+      "collocations": ["괜찮으면 가요", "괜찮아요?", "다 괜찮아요"]
+    },
+    {
+      "hangul": "나중에",
+      "romanization": "najunge",
+      "english": "later",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "나중에 전화할게요.",
+        "en": "I'll call later.",
+        "note": "나중에 + ㄹ게요: a complete speaker's promise anchored in time; this exact phrase appears in the chapter dialogue"
+      },
+      "collocations": ["나중에 전화할게요", "나중에 만나요", "나중에 얘기해요"]
+    },
+    {
+      "hangul": "먼저",
+      "romanization": "meonjeo",
+      "english": "first / ahead",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "저는 먼저 갈게요.",
+        "en": "I'll go first.",
+        "note": "먼저 + 갈게요: classic speaker's promise/decision — the engineer announces departure first"
+      },
+      "collocations": ["먼저 갈게요", "먼저 드세요", "먼저 해요"]
+    },
+    {
+      "hangul": "그럼",
+      "romanization": "geureom",
+      "english": "then / in that case / well then",
+      "partOfSpeech": "conjunction",
+      "exampleSentence": {
+        "ko": "그럼 내일 만나면 얘기할게요.",
+        "en": "Well then, if we meet tomorrow, I'll talk about it.",
+        "note": "그럼 as discourse opener + 면 condition + 게요 promise: three connective tools in one natural sentence"
+      },
+      "collocations": ["그럼 갈게요", "그럼 나중에요", "그럼 됐어요"]
+    },
+    {
+      "hangul": "문자",
+      "romanization": "munja",
+      "english": "text message",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "전화 못 하면 문자 보낼게요.",
+        "en": "If I can't call, I'll send a text.",
+        "note": "못 하면 (못 + 하다 + 면): double negative condition — the inability to call triggers the text promise"
+      },
+      "collocations": ["문자 보내다", "문자 받다", "문자 확인하다"]
+    },
+    {
+      "hangul": "설명하다",
+      "romanization": "seolmyeonghada",
+      "english": "to explain",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "나중에 만나면 제가 설명할게요.",
+        "en": "If we meet later, I'll explain it.",
+        "note": "면 condition + 제가 설명할게요 (first-person promise): the engineer announces what they'll do when the switch is set"
+      },
+      "collocations": ["설명할게요", "설명해 주세요", "설명이 필요해요"]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "Minjun texts his friend Yuna to explain why he can't make it to their group dinner and makes promises about what he'll do instead",
+    "lines": [
+      {
+        "speaker": "유나",
+        "ko": "민준아, 오늘 저녁 같이 먹을 수 있어요?",
+        "romanization": "Minjuna, oneul jeonyeok gachi meogeul su isseoyo?",
+        "en": "Minjun, can you eat dinner together tonight?",
+        "grammarNote": "ㄹ 수 있어요 (ability) — 먹다 + 을 수 있어요 because 먹 is consonant-final; sets up the situation Minjun needs to respond to with connectors"
+      },
+      {
+        "speaker": "민준",
+        "ko": "미안해요. 오늘 너무 바빠서 못 가요.",
+        "romanization": "Mianhaeyo. Oneul neomu bappaseo mot gayo.",
+        "en": "I'm sorry. I'm too busy today, so I can't go.",
+        "grammarNote": "아서/어서 domino push: 바쁘다 → 바빠서 (ㅡ drops before 어) causes the result 못 가요. The busyness is the falling domino."
+      },
+      {
+        "speaker": "유나",
+        "ko": "왜요? 무슨 일이 있어요?",
+        "romanization": "Waeyo? Museun iri isseoyo?",
+        "en": "Why? Is something going on?",
+        "grammarNote": "있어요 = static existence without a connector; Yuna is asking for the domino (reason)"
+      },
+      {
+        "speaker": "민준",
+        "ko": "회사 일이 많아서 늦게까지 일해야 해요.",
+        "romanization": "Hoesa iri manaseo neutgekkaji ilhaeya haeyo.",
+        "en": "There's a lot of work, so I have to work until late.",
+        "grammarNote": "많아서 (많다 → 많 + 아서, ㅏ vowel → 아서): too much work is domino 1, must-work-late is the result. Two clauses linked by one push."
+      },
+      {
+        "speaker": "유나",
+        "ko": "알겠어요. 그럼 다음에 같이 먹어요.",
+        "romanization": "Algeseoyo. Geureom daeume gachi meogeoyo.",
+        "en": "Understood. Then let's eat together next time.",
+        "grammarNote": "그럼 is a soft conditional ('in that case then'); suggests an alternative without a hard connector"
+      },
+      {
+        "speaker": "민준",
+        "ko": "고마워요! 다음 주에 시간이 있으면 제가 살게요.",
+        "romanization": "Gomawoyo! Daeum jue sigani isseumyeon jega salgeyo.",
+        "en": "Thank you! If I have time next week, I'll treat you.",
+        "grammarNote": "있으면 (있다 + 으면, consonant-final 다 takes 으면): switch track condition. 살게요 = speaker's first-person promise/decision — the engineer announces treating."
+      },
+      {
+        "speaker": "유나",
+        "ko": "와, 정말요? 그럼 기다릴게요.",
+        "romanization": "Wa, jeongmalyo? Geureom gidarilgeyo.",
+        "en": "Wow, really? Then I'll wait.",
+        "grammarNote": "기다릴게요 = 기다리다 + ㄹ게요 (vowel-final 리 → 릴게요): Yuna's own speaker's promise to wait. ㄹ/을게요 is first-person only — Yuna can say it about herself."
+      },
+      {
+        "speaker": "민준",
+        "ko": "일 끝나면 바로 연락할게요. 오늘 저녁 맛있게 드세요!",
+        "romanization": "Il kkeutnnamyeon baro yeollakhalgeyo. Oneul jeonyeok masitge deuseyo!",
+        "en": "When I finish work, I'll contact you right away. Enjoy dinner tonight!",
+        "grammarNote": "끝나면 (끝나다 + 면, vowel-final): condition 'when work ends'. 연락할게요: speaker's promise (하다 verb → 할게요). Two connectors in one message."
+      }
+    ]
+  },
+  "readingText": {
+    "type": "sms",
+    "title": "지연 씨의 문자 대화 (Jiyeon's Text Exchange)",
+    "body": "지연: 오빠, 오늘 약속 괜찮아요? 저 요즘 좀 바빠서요.\n수호: 아, 그래요? 많이 바빠요?\n지연: 네, 이번 주에 시험이 있어서 공부해야 해요.\n수호: 알겠어요. 그럼 시험 끝나면 만나요.\n지연: 좋아요! 시험이 목요일이에요. 금요일에 시간 있어요?\n수호: 금요일은 괜찮아요. 제가 예약할게요.\n지연: 감사해요! 시험 잘 보고 연락할게요.",
+    "bodyTranslation": "Jiyeon: Oppa, is our plan for today okay? I've been a bit busy lately.\nSuho: Oh, is that so? Are you very busy?\nJiyeon: Yes, I have an exam this week so I have to study.\nSuho: I see. Then let's meet when the exam is over.\nJiyeon: Sounds good! The exam is Thursday. Do you have time Friday?\nSuho: Friday is fine. I'll make the reservation.\nJiyeon: Thank you! I'll finish the exam and then contact you.",
+    "comprehensionQuestions": [
+      {
+        "question": "Why can't Jiyeon meet today?",
+        "answer": "바빠서 — she's busy, and specifically 시험이 있어서 (because she has an exam this week so she has to study)"
+      },
+      {
+        "question": "What does Suho promise to do?",
+        "answer": "예약할게요 — he promises to make the reservation (a first-person speaker's decision using ㄹ/을게요)"
+      },
+      {
+        "question": "Find every connector (아서/어서, 고, 면, 게요) in the text. For each one, explain why that specific connector was chosen over the others.",
+        "answer": "바빠서요 — 아서/어서 because being busy is the stated REASON (domino) for the uncertainty about the plan. 있어서 — 아서/어서 because having an exam CAUSES the need to study. 공부해야 해요 — no connector; standalone result clause. 끝나면 — 면 because this is a CONDITION ('when/if the exam ends') not a reason. 예약할게요 — ㄹ/을게요 because Suho is making a first-person promise/decision. 연락할게요 — ㄹ/을게요 because Jiyeon is making her own first-person promise. 잘 보고 — 고 as a simple coupling hook: do well on the exam AND THEN contact (sequence, no causal push needed)."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "바빠서 못 가요 — The Korean art of the soft no",
+    "body": "Koreans rarely say a blunt '안 가요' (I'm not going) without offering a reason. The 아서/어서 connector does vital social work: it softens a refusal by giving a cause. 바빠서 못 가요 (I'm busy, so I can't go) sounds warmer and less abrupt than just 못 가요. Similarly, making a 게요 promise — 다음에 살게요 (I'll treat you next time) — is a culturally expected gesture when you decline something. It signals that the relationship matters even if you can't make it this time. Native Korean speakers are highly attuned to whether you're giving reasons and making promises, or just flatly refusing. Learning 아서/어서 and ㄹ/을게요 together gives you the social toolkit to say no in a way that Koreans appreciate."
+  },
+  "inlineExercises": [
+    {
+      "type": "fillBlank",
+      "prompt": "배가 고파___ 밥을 먹었어요. (I was hungry, so I ate.)",
+      "options": ["서", "고", "면"],
+      "correct": "서",
+      "explanation": "This is a cause-result relationship: hunger caused the eating. 아서/어서 (고파서) is the domino push connector. 고 would just link the two states without showing cause ('hungry and ate' — but that doesn't explain WHY). 면 is for hypothetical conditions, not real past causes."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "씻___ 자요. (I wash up and then sleep.)",
+      "options": ["아서", "고", "으면"],
+      "correct": "고",
+      "explanation": "씻다 ends in a consonant (ㅅ). 고 is the neutral coupling hook: wash → sleep is a simple sequence, not a causal relationship. 아서 would imply washing causes sleeping (not the intended meaning). 으면 would make it conditional ('if I wash, I sleep'), which is too hypothetical for a daily routine."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "시간이 있___ 전화해 주세요. (If you have time, please call.)",
+      "options": ["어서", "고", "으면"],
+      "correct": "으면",
+      "explanation": "있다 (consonant-final) + 으면 = 있으면. This is a condition (switch track): the call should only happen IF time exists. 어서 would state having time as a reason for calling, which works grammatically but changes the nuance to 'because you have time, please call' — less natural. 고 would link having-time and calling as sequential actions, which doesn't make logical sense here."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "다음 문장에서 틀린 것을 찾아보세요: '못 가요 바빠서.'",
+      "correct": "바빠서 못 가요.",
+      "explanation": "아서/어서 MUST come first in Korean. The reason clause with 아서/어서 always precedes the result clause — the domino must be placed before it can push. This is the opposite of English where 'because' can come at the end. Putting 바빠서 at the end is the most common error English speakers make."
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate: 'It's expensive, so I won't buy it. I'll buy a cheaper one.'",
+      "correct": "비싸서 안 살게요. 더 싼 거 살게요.",
+      "hint": "비싸다 → reason connector → then use the speaker's promise form for both decisions"
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Your friend says she'll treat you. You want to respond 'Then I'll choose the restaurant!' Which is correct?",
+      "options": [
+        "그럼 제가 식당을 고를게요.",
+        "그럼 제가 식당을 고릴게요.",
+        "그럼 제가 식당을 고를 거예요."
+      ],
+      "correct": "그럼 제가 식당을 고를게요.",
+      "explanation": "고르다 (to choose) → stem 고르 → ㄹ-final stem takes ㄹ게요 (not 을게요): 고를게요. This is correct ㄹ/을게요 usage — the speaker is making a first-person decision. 고릴게요 (option 2) is wrong spelling. 고를 거예요 (option 3) is grammatically fine but sounds like a neutral future plan rather than an in-the-moment promise/decision in response to your friend's offer."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "You want to say 'I'm tired, so let's rest.' Which connector is correct?",
+      "options": [
+        "피곤해면 쉬어요.",
+        "피곤해서 쉬어요.",
+        "피곤하고 쉬어요."
+      ],
+      "correct": "피곤해서 쉬어요.",
+      "explanation": "Being tired is the CAUSE of resting — a domino push — so 아서/어서 (해서 for 하다 verbs) is correct. 해면 (option 1) makes it a condition ('if tired, rest') rather than stating the actual reason. 하고 (option 3) just sequences the states ('tired and rest') without showing that tiredness is WHY you're resting."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "아서/어서 = DOMINO PUSH: reason clause comes FIRST, result follows. Cannot be used before commands. (바빠서 못 가요)",
+      "고 = COUPLING HOOK: neutral link between actions or descriptions, no cause needed (먹고 가요 / 싸고 맛있어요)",
+      "면 = SWITCH TRACK: hypothetical condition before the result (시간이 있으면 전화해요) | ㄹ/을게요 = ENGINEER'S ANNOUNCEMENT: first-person speaker's promise only (전화할게요)"
+    ],
+    "nextChapterTeaser": "Next up: Chapter 12 introduces 을/ㄹ 수 있다/없다 (ability and possibility) and 아/어야 하다 (obligation) — the grammar that lets you say what you can do, what you can't, and what you must. Combined with the connectors from Chapter 11, you'll express complex situations with ease."
+  }
+}

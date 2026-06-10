@@ -1,0 +1,478 @@
+{
+  "id": "chapter-04",
+  "hook": {
+    "situation": "You arrive at a restaurant in Seoul. The host asks '예약이 있으세요?' (Do you have a reservation?) — you freeze. You know 있어요 means something like 'there is' or 'have', but why does 예약이 have that 이 on it? And how do you say you DON'T have one? This chapter gives you the two sentences that unlock dozens of real situations.",
+    "objectives": [
+      "Use 있어요 and 없어요 to express existence ('there is / there isn't') and possession ('I have / I don't have')",
+      "Attach the subject particle 이/가 correctly to the noun that exists or is possessed",
+      "Avoid the #1 beginner error: using 을/를 (object marker) instead of 이/가 with 있어요/없어요"
+    ],
+    "whyItMatters": "있어요 and 없어요 are two of the most-used words in Korean. They cover 'is there a bathroom?', 'do you have time?', 'no problem', 'no money' — the building blocks of travel, small talk, and daily life. The subject particle 이/가 that comes with them is equally essential: nearly every Korean sentence uses it. Master these now and half of Chapter 5 and 6 becomes review."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-isseo-eopseo",
+      "title": "있어요 / 없어요 — Existence and Possession",
+      "mentalModel": "Think of 있어요 as a PRESENCE LAMP and 없어요 as the lamp being OFF. The noun before 이/가 is the thing you're checking: is the lamp on or off for this noun? 시간이 있어요 — is time present? Lamp ON. 시간이 없어요 — lamp OFF. One switch, two possible states, any noun you like.",
+      "formation": "[Noun]이/가 있어요 → [Noun] exists / I have [Noun]\n[Noun]이/가 없어요 → [Noun] doesn't exist / I don't have [Noun]\n\n이 after a final consonant (시간이, 문제가 → wait, 문제 ends in a vowel so → 문제가)\n가 after a final vowel (친구가, 예약이 → 예약 ends in ㄱ so → 예약이)",
+      "examples": [
+        {
+          "ko": "시간이 있어요?",
+          "romanization": "sigani isseoyo?",
+          "en": "Do you have time?",
+          "note": "시간 ends in consonant ㄴ → subject particle 이. The question asks if the 'presence lamp' for time is on."
+        },
+        {
+          "ko": "예약이 있어요.",
+          "romanization": "yeyagi isseoyo.",
+          "en": "I have a reservation.",
+          "note": "예약 ends in consonant ㄱ → particle 이. This sentence doubles as 'there is a reservation' depending on context."
+        },
+        {
+          "ko": "돈이 없어요.",
+          "romanization": "doni eopseoyo.",
+          "en": "I don't have money.",
+          "note": "돈 ends in consonant ㄴ → particle 이. Lamp is OFF for money."
+        },
+        {
+          "ko": "문제가 없어요.",
+          "romanization": "munjega eopseoyo.",
+          "en": "There is no problem.",
+          "note": "문제 ends in vowel 에 → particle 가. A very natural reassurance phrase."
+        },
+        {
+          "ko": "화장실이 있어요?",
+          "romanization": "hwajangsiri isseoyo?",
+          "en": "Is there a bathroom?",
+          "note": "화장실 ends in consonant ㄹ → particle 이. One of the most essential travel questions."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "시간이 있어요.", "en": "I have time. (lamp ON)" },
+          "b": { "ko": "시간이 없어요.", "en": "I don't have time. (lamp OFF)" },
+          "explanation": "The noun (시간이) and particle stay exactly the same — only the verb flips between 있어요 (present) and 없어요 (absent). Swapping the verb is all you need to move from yes to no."
+        },
+        {
+          "a": { "ko": "예약이 있어요.", "en": "I have a reservation." },
+          "b": { "ko": "예약이 없어요.", "en": "I don't have a reservation." },
+          "explanation": "Same structure, same particle 이, opposite meaning. At a hotel or restaurant you'll use both — the first when you've planned ahead, the second when you're hoping for a walk-in."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "시간을 있어요.",
+        "right": "시간이 있어요.",
+        "explanation": "In English 'I have time' uses 'have' as a transitive verb with an object ('time'), so learners instinctively reach for the object marker 을/를. But 있어요 is NOT a transitive verb in Korean — it means 'exists' or 'is present.' The noun is the SUBJECT of existence, so it takes the subject particle 이/가. Never pair 있어요 or 없어요 with 을/를."
+      },
+      "exceptions": [
+        "있다 can also mean 'to stay' or 'to remain' (as an action): 잠깐 있어요 — 'stay for a moment.' In that case no 이/가 is needed because there's no subject noun for existence.",
+        "In colloquial speech the subject 이/가 is often dropped when context is clear: '있어요?' (Do you have it?) with no noun is natural when the topic has already been mentioned.",
+        "제가 (not 저가) is the irregular form of 저 + 가: 제가 없어요 (I don't have it). This is the one common irregular with 가."
+      ]
+    },
+    {
+      "id": "gn-i-ga",
+      "title": "이 / 가 — The Subject Particle",
+      "mentalModel": "Think of 이/가 as a SPOTLIGHT. It shines directly on one noun and says: 'This specific thing — right here — is the one that exists, hurts, appears, or matters right now.' When the spotlight hits a word, 이/가 is attached. 이 goes after a dark (consonant-ending) sound; 가 goes after a bright (vowel-ending) sound.",
+      "formation": "Noun ending in consonant + 이: 시간이, 화장실이, 예약이\nNoun ending in vowel + 가: 친구가, 문제가, 커피가\n\nSpecial: 나 → 내가, 저 → 제가 (irregular, must be memorized)",
+      "examples": [
+        {
+          "ko": "친구가 있어요.",
+          "romanization": "chinguga isseoyo.",
+          "en": "I have a friend. / A friend is here.",
+          "note": "친구 ends in vowel 구 → particle 가. The spotlight is on 친구 — that's the thing that exists."
+        },
+        {
+          "ko": "머리가 아파요.",
+          "romanization": "meoriga apayo.",
+          "en": "My head hurts.",
+          "note": "머리 ends in vowel 리 → particle 가. The spotlight is on 머리 as the thing experiencing pain."
+        },
+        {
+          "ko": "누가 왔어요?",
+          "romanization": "nuga wasseoyo?",
+          "en": "Who came?",
+          "note": "누구 + 가 = 누가 (contracted). The spotlight asks: which person specifically appeared?"
+        },
+        {
+          "ko": "제가 한국어를 공부해요.",
+          "romanization": "jega hangugeoreul gongbuhaeyo.",
+          "en": "I study Korean.",
+          "note": "저 + 가 = 제가 (irregular). Spotlight on 'I' as the subject — used when introducing yourself or clarifying who does the action."
+        },
+        {
+          "ko": "비가 와요.",
+          "romanization": "biga wayo.",
+          "en": "It's raining. (Rain is coming.)",
+          "note": "비 ends in vowel → 가. 비가 와요 is a set phrase — the spotlight identifies rain as the thing arriving."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "저는 학생이에요.", "en": "As for me, I'm a student. (topic — background info)" },
+          "b": { "ko": "제가 학생이에요.", "en": "I am the student. (subject — specific, important)" },
+          "explanation": "은/는 sets the topic — it's like a soft background frame. 이/가 puts a spotlight on the noun — it's highlighting or specifying. When answering '누가 학생이에요?' (Who is the student?), you must say 제가 학생이에요, not 저는."
+        },
+        {
+          "a": { "ko": "커피는 좋아요.", "en": "Coffee is good. (general opinion about coffee as a topic)" },
+          "b": { "ko": "커피가 좋아요.", "en": "I like coffee. / Coffee is the good thing. (spotlight on coffee as the object of liking)" },
+          "explanation": "좋아요 (to like, to be good) uses 이/가 for the thing liked: N이/가 좋아요. Using 은/는 instead shifts it to a general statement about a topic. Both are grammatically possible but carry subtly different meaning."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "저가 없어요.",
+        "right": "제가 없어요.",
+        "explanation": "저 (polite 'I') contracts with 가 to form 제가 — this is an irregular form that must be memorized. Saying 저가 is not natural Korean. Similarly, 나 + 가 = 내가 in casual speech. These two pronouns are the only common irregulars with 이/가."
+      },
+      "exceptions": [
+        "나 → 내가 (casual I + subject), 저 → 제가 (polite I + subject) — both are contractions, not the regular rule",
+        "누구 → 누가 when asking 'who' as a subject: 누가 왔어요? (not 누구가)",
+        "이/가 is often omitted in casual speech when the subject is obvious from context — this is normal and natural, not a mistake"
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "시간",
+      "romanization": "sigan",
+      "english": "time",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "지금 시간이 있어요?",
+        "en": "Do you have time right now?",
+        "note": "시간 ends in consonant ㄴ → 시간이. The presence lamp: is time available?"
+      },
+      "collocations": ["시간이 있다", "시간이 없다", "시간이 많다", "시간이 없어요 (I'm busy)"]
+    },
+    {
+      "hangul": "예약",
+      "romanization": "yeyak",
+      "english": "reservation / booking",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "예약이 있어요?",
+        "en": "Do you have a reservation?",
+        "note": "예약 ends in consonant ㄱ → 예약이. Essential phrase at hotels and restaurants."
+      },
+      "collocations": ["예약이 있다", "예약이 없다", "예약하다 (to book)", "예약을 취소하다 (cancel)"]
+    },
+    {
+      "hangul": "돈",
+      "romanization": "don",
+      "english": "money",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "지금 돈이 없어요.",
+        "en": "I don't have money right now.",
+        "note": "돈 ends in consonant ㄴ → 돈이. A survival phrase for daily life."
+      },
+      "collocations": ["돈이 있다", "돈이 없다", "돈이 많다", "돈을 내다 (pay)"]
+    },
+    {
+      "hangul": "문제",
+      "romanization": "munje",
+      "english": "problem / issue",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "문제가 없어요.",
+        "en": "There is no problem.",
+        "note": "문제 ends in vowel 에 → 문제가. A very common reassurance phrase."
+      },
+      "collocations": ["문제가 있다", "문제가 없다", "문제가 생기다 (a problem arises)"]
+    },
+    {
+      "hangul": "화장실",
+      "romanization": "hwajangsil",
+      "english": "bathroom / restroom",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "여기 화장실이 있어요?",
+        "en": "Is there a bathroom here?",
+        "note": "화장실 ends in consonant ㄹ → 화장실이. One of the most important travel questions."
+      },
+      "collocations": ["화장실이 있다", "화장실이 어디예요?", "화장실을 찾다 (look for bathroom)"]
+    },
+    {
+      "hangul": "친구",
+      "romanization": "chingu",
+      "english": "friend",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "여기에 친구가 있어요.",
+        "en": "My friend is here.",
+        "note": "친구 ends in vowel 구 → 친구가. Spotlight on the friend as the one who exists/is present."
+      },
+      "collocations": ["친구가 있다", "친구가 없다", "친구를 만나다 (meet a friend)"]
+    },
+    {
+      "hangul": "방",
+      "romanization": "bang",
+      "english": "room",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "빈 방이 있어요?",
+        "en": "Is there a vacant room?",
+        "note": "방 ends in consonant ㅇ → 방이. Essential hotel check-in phrase."
+      },
+      "collocations": ["방이 있다", "빈 방 (empty room)", "방을 예약하다 (book a room)"]
+    },
+    {
+      "hangul": "자리",
+      "romanization": "jari",
+      "english": "seat / spot / space",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "자리가 있어요?",
+        "en": "Is there a seat available?",
+        "note": "자리 ends in vowel 리 → 자리가. Used at restaurants, cafés, cinemas."
+      },
+      "collocations": ["자리가 있다", "자리가 없다", "자리를 잡다 (grab a seat)"]
+    },
+    {
+      "hangul": "물",
+      "romanization": "mul",
+      "english": "water",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "물이 없어요.",
+        "en": "There is no water.",
+        "note": "물 ends in consonant ㄹ → 물이. Works for 'there is no water' or 'I don't have water.'"
+      },
+      "collocations": ["물이 있다", "물이 없다", "물을 마시다 (drink water)"]
+    },
+    {
+      "hangul": "시간이 있다",
+      "romanization": "sigani itda",
+      "english": "to have time / be available",
+      "partOfSpeech": "expression",
+      "exampleSentence": {
+        "ko": "내일 시간이 있어요?",
+        "en": "Are you free tomorrow?",
+        "note": "시간이 있다 is the go-to way to ask if someone is available — more natural than direct schedule questions."
+      },
+      "collocations": ["시간이 있을 때 (when you have time)", "시간이 있으면 (if you have time)"]
+    },
+    {
+      "hangul": "있어요",
+      "romanization": "isseoyo",
+      "english": "there is / have / exists (polite)",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "냉장고에 우유가 있어요.",
+        "en": "There is milk in the fridge.",
+        "note": "있어요 checks the presence lamp: is milk in the fridge? Yes. Note 에 for the location and 이/가 for the thing that exists."
+      },
+      "collocations": ["N이/가 있어요", "N에 있어요 (something IS at a place)", "있어요? (do you have it?)"]
+    },
+    {
+      "hangul": "없어요",
+      "romanization": "eopseoyo",
+      "english": "there isn't / don't have / absent (polite)",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "오늘은 시간이 없어요.",
+        "en": "I don't have time today.",
+        "note": "없어요 is the lamp-OFF version. 오늘은 sets the time as topic with 은/는; 시간이 is the subject of non-existence."
+      },
+      "collocations": ["N이/가 없어요", "없어요? (do you not have it?)", "아무것도 없어요 (nothing at all)"]
+    },
+    {
+      "hangul": "많다",
+      "romanization": "manta",
+      "english": "to be a lot / many",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "오늘 사람이 많아요.",
+        "en": "There are a lot of people today.",
+        "note": "사람이 많아요 uses 이/가 — the spotlight is on 사람 as the thing that is plentiful. 많다 often pairs with 이/가."
+      },
+      "collocations": ["N이/가 많다", "시간이 많다", "돈이 많다"]
+    },
+    {
+      "hangul": "예약하다",
+      "romanization": "yeyakada",
+      "english": "to reserve / book",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "식당을 예약했어요.",
+        "en": "I made a restaurant reservation.",
+        "note": "When 예약 is used as a verb (예약하다), the restaurant is the object → 을/를. Compare: 예약이 있어요 (the reservation exists → 이/가)."
+      },
+      "collocations": ["N을 예약하다", "예약해요 (polite present)", "예약했어요 (past)"]
+    },
+    {
+      "hangul": "아프다",
+      "romanization": "apeuda",
+      "english": "to hurt / be sick / be in pain",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "배가 아파요.",
+        "en": "My stomach hurts.",
+        "note": "배 ends in vowel 배 → 배가. The body part that hurts takes 이/가 — this is a core pattern for describing symptoms."
+      },
+      "collocations": ["머리가 아프다", "배가 아프다", "다리가 아프다"]
+    },
+    {
+      "hangul": "좋다",
+      "romanization": "jota",
+      "english": "to be good / to like",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "커피가 좋아요.",
+        "en": "I like coffee. / Coffee is good.",
+        "note": "In the 'I like X' pattern, X takes 이/가, not 을/를. The spotlight (이/가) is on the thing liked, not the object of an action."
+      },
+      "collocations": ["N이/가 좋다", "뭐가 좋아요? (what do you like?)", "다 좋아요 (everything is fine)"]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "Minji and Junho are checking in at a hotel in Busan",
+    "lines": [
+      {
+        "speaker": "직원",
+        "ko": "어서 오세요. 예약이 있으세요?",
+        "romanization": "Eoseo oseyo. Yeyagi isseuseyo?",
+        "en": "Welcome. Do you have a reservation?",
+        "grammarNote": "예약이 있으세요? — 예약 ends in ㄱ → 이. 있으세요 is the honorific form of 있어요, used to a customer."
+      },
+      {
+        "speaker": "민지",
+        "ko": "네, 예약이 있어요. 민지로 예약했어요.",
+        "romanization": "Ne, yeyagi isseoyo. Minjiro yeyakhaesseoyo.",
+        "en": "Yes, I have a reservation. I booked it under Minji.",
+        "grammarNote": "예약이 있어요 — presence lamp ON for the reservation. 민지로 = 'under (the name) Minji' (로 = direction/means)."
+      },
+      {
+        "speaker": "직원",
+        "ko": "잠깐만요... 죄송합니다, 예약이 없어요.",
+        "romanization": "Jamkkanmanyo... Joesonghamnida, yeyagi eopseoyo.",
+        "en": "Just a moment... I'm sorry, there is no reservation.",
+        "grammarNote": "예약이 없어요 — same noun + particle, opposite verb. Lamp OFF. The contrast shows how the same frame flips with 있어요/없어요."
+      },
+      {
+        "speaker": "준호",
+        "ko": "어, 문제가 있어요! 분명히 예약했어요.",
+        "romanization": "Eo, munjega isseoyo! Bunmyeonghi yeyakhaesseoyo.",
+        "en": "Hey, there's a problem! I definitely made a reservation.",
+        "grammarNote": "문제가 있어요 — 문제 ends in vowel 에 → 가. Notice 문제가 있어요 (there IS a problem) vs. 문제가 없어요 (no problem)."
+      },
+      {
+        "speaker": "직원",
+        "ko": "다시 확인할게요. 혹시 빈 방이 있어요.",
+        "romanization": "Dasi hwaginhalgeyo. Hoksi bin bangi isseoyo.",
+        "en": "Let me check again. There is a vacant room available.",
+        "grammarNote": "방이 있어요 — 방 ends in consonant ㅇ → 이. 빈 방 = vacant room (빈 is an adjective modifying 방)."
+      },
+      {
+        "speaker": "민지",
+        "ko": "정말요? 자리가 있어요?",
+        "romanization": "Jeongmalyo? Jariga isseoyo?",
+        "en": "Really? Is there space?",
+        "grammarNote": "자리가 있어요 — 자리 ends in vowel 리 → 가. Here 자리 means 'spot/room available' in a broader sense."
+      },
+      {
+        "speaker": "직원",
+        "ko": "네, 2층에 방이 있어요. 문제가 없어요.",
+        "romanization": "Ne, i-cheunge bangi isseoyo. Munjega eopseoyo.",
+        "en": "Yes, there's a room on the 2nd floor. No problem.",
+        "grammarNote": "방이 있어요 (room exists → 이/가) + 에 for location on the floor. 문제가 없어요 = classic reassurance phrase."
+      },
+      {
+        "speaker": "준호",
+        "ko": "감사해요! 그리고 화장실이 있어요?",
+        "romanization": "Gamsahaeyo! Geurigo hwajangsiri isseoyo?",
+        "en": "Thank you! And is there a bathroom?",
+        "grammarNote": "화장실이 있어요? — 화장실 ends in consonant ㄹ → 이. The question form of 있어요 is simply 있어요 with rising intonation."
+      }
+    ]
+  },
+  "readingText": {
+    "type": "sms",
+    "title": "호텔 예약 문자 (Hotel Booking Text Exchange)",
+    "body": "유나: 오빠, 내일 시간이 있어요?\n준서: 네, 시간이 있어요. 왜요?\n유나: 부산에 같이 가요! 호텔 예약이 있어요?\n준서: 아직 예약이 없어요. 지금 바로 예약할게요.\n유나: 빈 방이 있어요?\n준서: 네, 바다 뷰 방이 있어요. 문제가 없어요!\n유나: 완전 좋아요! 돈이 있어요?\n준서: 네, 돈이 있어요. 걱정하지 마세요.",
+    "bodyTranslation": "Yuna: Oppa, do you have time tomorrow?\nJunseo: Yes, I have time. Why?\nYuna: Let's go to Busan together! Do you have a hotel reservation?\nJunseo: Not yet, there's no reservation. I'll book it right now.\nYuna: Is there a vacant room?\nJunseo: Yes, there's a room with an ocean view. No problem!\nYuna: That's great! Do you have money?\nJunseo: Yes, I have money. Don't worry.",
+    "comprehensionQuestions": [
+      {
+        "question": "Does Junseo already have a hotel reservation when the conversation starts?",
+        "answer": "No. He says 아직 예약이 없어요 (Not yet, there is no reservation). He books one during the conversation."
+      },
+      {
+        "question": "What kind of room does Junseo find?",
+        "answer": "바다 뷰 방 — a room with an ocean view."
+      },
+      {
+        "question": "Find every instance of 이/가 있어요 or 이/가 없어요 in the text. For each, identify the noun, explain why 이 or 가 was chosen, and state whether it expresses existence or possession.",
+        "answer": "1) 시간이 있어요 (×2) — 시간 ends in ㄴ → 이; possession (I have time). 2) 예약이 있어요 — 예약 ends in ㄱ → 이; possession (has a reservation). 3) 예약이 없어요 — same noun + particle, reversed meaning; absence. 4) 방이 있어요 — 방 ends in ㅇ → 이; existence (a room exists). 5) 문제가 없어요 — 문제 ends in vowel 에 → 가; absence (no problem). 6) 돈이 있어요 — 돈 ends in ㄴ → 이; possession (has money). Pattern: every time, the particle choice follows the consonant/vowel rule — not the meaning."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "문제가 없어요 — The Korean 'No Problem'",
+    "body": "You'll hear 문제가 없어요 constantly in Korean service situations — at hotels, restaurants, customer service lines, and repair shops. It functions just like 'no problem' or 'all good' in English, and it always brings a sense of relief. The reverse, 문제가 있어요, is softer than it sounds: Koreans tend to say it matter-of-factly rather than dramatically. A related phrase you'll encounter is 괜찮아요 (it's okay / I'm fine), which overlaps in meaning. But when a Korean staff member says 문제가 없어요 after checking something for you, you can relax — that's their professional 'everything checks out.'"
+  },
+  "inlineExercises": [
+    {
+      "type": "fillBlank",
+      "prompt": "시간___ 있어요? (Do you have time?)",
+      "options": ["이", "가", "을"],
+      "correct": "이",
+      "explanation": "시간 ends in consonant ㄴ → subject particle 이. You cannot use 을 (object marker) with 있어요 — that is the most common beginner mistake. 가 would be wrong here because 가 attaches after vowels only."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "문제___ 없어요. (There is no problem.)",
+      "options": ["이", "가", "를"],
+      "correct": "가",
+      "explanation": "문제 ends in vowel 에 → subject particle 가. 이 would be wrong because 이 only follows consonant-final nouns. 를 (object marker) is never used with 없어요 — absence is not an action performed on an object."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "다음 문장에서 틀린 것을 찾아보세요: '예약을 없어요.'",
+      "correct": "예약이 없어요.",
+      "explanation": "없어요 means 'does not exist / do not have' — the noun is the SUBJECT of non-existence, so it needs the subject particle 이/가, not the object marker 을/를. 예약 ends in consonant ㄱ → 예약이."
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate: 'Is there a bathroom here?'",
+      "correct": "여기 화장실이 있어요?",
+      "hint": "화장실 ends in a consonant. Which particle follows a consonant-final noun? The question form of 있어요 uses rising intonation — the word order stays the same."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "You want to say 'I like coffee.' Which is correct?",
+      "options": [
+        "커피를 좋아요.",
+        "커피가 좋아요.",
+        "커피는 좋아요."
+      ],
+      "correct": "커피가 좋아요.",
+      "explanation": "좋아요 (to be good/to like) uses 이/가, not 을/를. The thing you like is the subject of being-good, so it takes the subject spotlight particle 이/가. 커피를 좋아요 is ungrammatical. 커피는 좋아요 is possible but shifts meaning to a general topic statement ('Coffee, in general, is good') rather than expressing personal preference."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "배___ 아파요. (My stomach hurts.)",
+      "options": ["이", "가", "을"],
+      "correct": "가",
+      "explanation": "배 ends in vowel 배 → particle 가. The body part that hurts takes 이/가 in Korean — this is the same spotlight pattern as with 있어요/없어요. Never use 을 for a body part with 아프다."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "The hotel receptionist has found your reservation. Which sentence would they say?",
+      "options": [
+        "예약이 없어요.",
+        "예약을 있어요.",
+        "예약이 있어요."
+      ],
+      "correct": "예약이 있어요.",
+      "explanation": "예약이 있어요 — reservation exists → lamp ON → correct. 예약이 없어요 is the opposite (no reservation found). 예약을 있어요 is ungrammatical — 있어요 can never take 을/를."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "PRESENCE LAMP: 있어요 = lamp ON (exists / have), 없어요 = lamp OFF (doesn't exist / don't have)",
+      "SPOTLIGHT particle 이/가: attaches to the noun that exists — 이 after consonant (시간이, 예약이), 가 after vowel (문제가, 친구가)",
+      "Never use 을/를 with 있어요 or 없어요 — the thing that exists is a SUBJECT, not an object"
+    ],
+    "nextChapterTeaser": "Next up: Chapter 5 introduces daily action verbs and 을/를 (object markers) — now you'll finally get to use 을/를, but with action verbs like 먹다 and 마시다, not with 있어요/없어요."
+  }
+}

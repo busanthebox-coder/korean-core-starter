@@ -1,0 +1,416 @@
+{
+  "id": "chapter-07",
+  "hook": {
+    "situation": "You're at a Korean café. You want water, a croissant, and you want to pay by card. You manage to say '물 주세요' — but then you freeze. How do you add 'and the croissant too'? How do you ask if card payment is okay? You need three small but powerful particles: 도 (also), 만 (only), and 로/으로 (by means of).",
+    "objectives": [
+      "Use 도 to add one more item to an order ('and this too, please')",
+      "Use 만 to set a limit ('only this, nothing else')",
+      "Use 로/으로 to express payment method, transport, or language ('by card', 'in Korean')"
+    ],
+    "whyItMatters": "These three particles unlock real transactions. 도, 만, and 로/으로 are used in every café, restaurant, and convenience store interaction in Korea. Without them, every order is a single isolated item — with them, you can build natural, flexible requests that sound like a real customer, not a tourist reading a phrasebook."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-do-man",
+      "title": "도 vs. 만 — Adding vs. Limiting",
+      "mentalModel": "Think of 도 as a SHOPPING CART and 만 as a SPOTLIGHT. 도 throws one more thing into the cart — it adds to what already exists. 만 shines a spotlight on one single item and says everything else is in the dark. Same menu, opposite choices.",
+      "formation": "Noun + 도 (also/too) | Noun + 만 (only/just)",
+      "examples": [
+        {
+          "ko": "이것도 주세요.",
+          "romanization": "igeotdo juseyo.",
+          "en": "This too, please.",
+          "note": "도 follows the item being added — 이것 gets tossed into the cart alongside whatever was ordered before"
+        },
+        {
+          "ko": "물만 주세요.",
+          "romanization": "mulman juseyo.",
+          "en": "Only water, please.",
+          "note": "만 follows 물 — the spotlight is on water alone; no food, no other drinks"
+        },
+        {
+          "ko": "저도 주문할게요.",
+          "romanization": "jeodo jumunhalgeyo.",
+          "en": "I'll order too.",
+          "note": "도 after a pronoun — the speaker is adding themselves to the group of people ordering"
+        },
+        {
+          "ko": "오늘만 할인돼요.",
+          "romanization": "oneulman harinwaeyo.",
+          "en": "There's a discount only today.",
+          "note": "만 after a time word — the discount spotlight shines on today only, not tomorrow"
+        },
+        {
+          "ko": "커피도 마셔요?",
+          "romanization": "keopido masyeoyo?",
+          "en": "Do you drink coffee too?",
+          "note": "도 in a question — asking whether coffee joins the list of drinks the person has"
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "이것도 주세요.", "en": "This too, please. (I want this in addition to what I already ordered.)" },
+          "b": { "ko": "이것만 주세요.", "en": "Only this, please. (Just this. Nothing else at all.)" },
+          "explanation": "Same object (이것), completely different meaning. 도 = add to the order. 만 = limit the order to just this. In a convenience store, 이것도 주세요 means 'and this on top'; 이것만 주세요 means 'cancel everything else, just give me this.'"
+        },
+        {
+          "a": { "ko": "저도 먹어요.", "en": "I eat too. (Other people eat, and so do I.)" },
+          "b": { "ko": "저만 먹어요.", "en": "Only I eat. (Nobody else eats — just me.)" },
+          "explanation": "도 makes you part of the group. 만 isolates you as the sole person. The verb is identical; the particle creates the entire contrast."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "저는도 가고 싶어요.",
+        "right": "저도 가고 싶어요.",
+        "explanation": "English speakers try to keep 는 (the topic marker) and add 도 on top of it, but 도 replaces subject and topic particles — not joins them. Say 저도, never 저는도. The same rule applies to 만: 물만 주세요, never 물을만 주세요."
+      },
+      "exceptions": [
+        "도 and 만 can follow location particles in special cases: 학교에서도 (at school too), 서울에서만 (only in Seoul) — here 도/만 follow 에서, not replace it",
+        "만 can attach to time expressions naturally: 한 번만 (just once), 5분만 (just five minutes)"
+      ]
+    },
+    {
+      "id": "gn-ro-euro",
+      "title": "로 / 으로 — Method, Means, and Direction",
+      "mentalModel": "Think of 로/으로 as a CHANNEL SELECTOR. You're pointing at the channel through which the action flows: pay through the card channel, travel through the subway channel, speak through the Korean channel. Whatever you attach 로/으로 to is the channel being selected.",
+      "formation": "Noun + 로 (after vowel or ㄹ) | Noun + 으로 (after most consonants)",
+      "examples": [
+        {
+          "ko": "카드로 결제할 수 있어요?",
+          "romanization": "kadeuro gyeoljehal su isseoyo?",
+          "en": "Can I pay by card?",
+          "note": "카드 ends in a vowel (드) → 로. Payment flows through the card channel."
+        },
+        {
+          "ko": "지하철로 가요.",
+          "romanization": "jihacheollo gayo.",
+          "en": "I go by subway.",
+          "note": "지하철 ends in ㄹ → 로 (the ㄹ rule). Transit flows through the subway channel."
+        },
+        {
+          "ko": "한국어로 말해요.",
+          "romanization": "hangugeoro malhaeyo.",
+          "en": "I speak in Korean.",
+          "note": "Language use: the communication flows through the Korean-language channel. 어 ends in a vowel → 로."
+        },
+        {
+          "ko": "펜으로 써요.",
+          "romanization": "peneuro sseoyo.",
+          "en": "I write with a pen.",
+          "note": "펜 ends in a consonant (ㄴ) → 으로. Writing flows through the pen channel."
+        },
+        {
+          "ko": "현금으로 낼게요.",
+          "romanization": "hyeongeumeuro naelgeyo.",
+          "en": "I'll pay in cash.",
+          "note": "현금 ends in a consonant (ㅁ) → 으로. Paying flows through the cash channel."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "지하철에 가요.", "en": "I go to the subway. (destination: I'm heading TO the subway station.)" },
+          "b": { "ko": "지하철로 가요.", "en": "I go by subway. (method: I use the subway to get there.)" },
+          "explanation": "에 marks the destination of movement. 로/으로 marks the channel/method used. 지하철에 가요 means you're going to the subway (maybe to pick someone up); 지하철로 가요 means the subway is your transport method."
+        },
+        {
+          "a": { "ko": "카드로 사요.", "en": "I buy it by card. (method of payment)" },
+          "b": { "ko": "카드를 사요.", "en": "I buy a card. (card is the object being bought)" },
+          "explanation": "로/으로 = the card is the payment method. 를 = the card is what you're purchasing. Same noun, different particles, completely different shopping situation."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "카드에 결제해요.",
+        "right": "카드로 결제해요.",
+        "explanation": "English 'pay by card' uses 'by', but learners often reach for 에 (which marks locations/times). 에 would suggest you're paying AT the card, as if the card were a place. 로/으로 is the method particle. Whenever you'd say 'by', 'with', 'using', or 'in (a language)' — that's 로/으로 territory."
+      },
+      "exceptions": [
+        "After ㄹ endings, use 로 not 으로: 서울로 가요 (not 서울으로), 지하철로 (not 지하철으로)",
+        "Direction meaning (toward): 집으로 가요 can also mean 'heading toward home' — context usually makes it clear whether it's method or direction"
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "주세요",
+      "romanization": "juseyo",
+      "english": "please give me / please do",
+      "partOfSpeech": "verb ending",
+      "exampleSentence": { "ko": "아메리카노 두 잔 주세요.", "en": "Two Americanos, please.", "note": "N + 주세요 = the single most useful ordering pattern in Korea" },
+      "collocations": ["N 주세요", "N 좀 주세요", "영수증 주세요"]
+    },
+    {
+      "hangul": "얼마예요",
+      "romanization": "eolmayeyo",
+      "english": "how much is it?",
+      "partOfSpeech": "expression",
+      "exampleSentence": { "ko": "이거 얼마예요?", "en": "How much is this?", "note": "이거 (this) + 얼마예요 — the go-to price question in any market, convenience store, or café" },
+      "collocations": ["이거 얼마예요?", "다 해서 얼마예요?", "할인하면 얼마예요?"]
+    },
+    {
+      "hangul": "카드",
+      "romanization": "kadeu",
+      "english": "card (credit/debit)",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "카드로 결제할 수 있어요?", "en": "Can I pay by card?", "note": "카드 ends in a vowel → 로 (not 으로)" },
+      "collocations": ["카드로 결제하다", "카드로 내다", "카드 돼요?"]
+    },
+    {
+      "hangul": "현금",
+      "romanization": "hyeongeum",
+      "english": "cash",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "현금으로 낼게요.", "en": "I'll pay in cash.", "note": "현금 ends in a consonant (ㅁ) → 으로" },
+      "collocations": ["현금으로 내다", "현금 없어요", "현금만 돼요"]
+    },
+    {
+      "hangul": "결제하다",
+      "romanization": "gyeoljekhada",
+      "english": "to pay / to process payment",
+      "partOfSpeech": "verb",
+      "exampleSentence": { "ko": "카드로 결제하면 돼요?", "en": "Is it okay to pay by card?", "note": "결제하다 is the formal word for payment processing; 내다 or 계산하다 are more casual" },
+      "collocations": ["카드로 결제하다", "결제 되다", "결제 안 되다"]
+    },
+    {
+      "hangul": "영수증",
+      "romanization": "yeongsujeung",
+      "english": "receipt",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "영수증 주세요.", "en": "Receipt, please.", "note": "Direct N 주세요 request — no extra particles needed" },
+      "collocations": ["영수증 주세요", "영수증 필요해요", "영수증 없어요"]
+    },
+    {
+      "hangul": "주문하다",
+      "romanization": "jumunhada",
+      "english": "to order",
+      "partOfSpeech": "verb",
+      "exampleSentence": { "ko": "주문해도 돼요?", "en": "May I order now?", "note": "주문하다 + 아/어도 돼요? = polite permission request; 받다 (receive) is often said by staff: 주문받겠습니다" },
+      "collocations": ["주문하다", "주문받다", "주문 취소하다"]
+    },
+    {
+      "hangul": "메뉴",
+      "romanization": "menyu",
+      "english": "menu",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "메뉴 주세요.", "en": "Menu, please.", "note": "메뉴 is a loanword from English; in practice many Korean cafés have menus only on boards, so this is more useful than it sounds" },
+      "collocations": ["메뉴 주세요", "메뉴 보다", "메뉴 있어요?"]
+    },
+    {
+      "hangul": "하나",
+      "romanization": "hana",
+      "english": "one (native Korean number)",
+      "partOfSpeech": "number",
+      "exampleSentence": { "ko": "아메리카노 하나 주세요.", "en": "One Americano, please.", "note": "Quantities in ordering use native Korean numbers (하나, 둘, 셋), not Sino-Korean (일, 이, 삼)" },
+      "collocations": ["하나 주세요", "하나만 주세요", "한 개"]
+    },
+    {
+      "hangul": "좀",
+      "romanization": "jom",
+      "english": "a little / please (softener)",
+      "partOfSpeech": "adverb",
+      "exampleSentence": { "ko": "물 좀 주세요.", "en": "Some water, please.", "note": "좀 softens the request; 좀 주세요 sounds more polite and natural than 주세요 alone" },
+      "collocations": ["좀 주세요", "좀 천천히", "좀 싸게 해 주세요"]
+    },
+    {
+      "hangul": "더",
+      "romanization": "deo",
+      "english": "more",
+      "partOfSpeech": "adverb",
+      "exampleSentence": { "ko": "물 좀 더 주세요.", "en": "A little more water, please.", "note": "더 = more quantity; often combined with 좀 for a polite, natural request for a refill" },
+      "collocations": ["더 주세요", "좀 더", "더 있어요?"]
+    },
+    {
+      "hangul": "됩니다 / 돼요",
+      "romanization": "doemnida / dwaeyo",
+      "english": "it's okay / it works / available",
+      "partOfSpeech": "verb",
+      "exampleSentence": { "ko": "카드 돼요?", "en": "Is card okay?", "note": "카드 돼요? is a spoken shortcut — grammatically incomplete but perfectly natural in shops" },
+      "collocations": ["카드 돼요?", "현금만 돼요", "안 돼요"]
+    },
+    {
+      "hangul": "이거 / 이것",
+      "romanization": "igeo / igeot",
+      "english": "this (one)",
+      "partOfSpeech": "pronoun",
+      "exampleSentence": { "ko": "이것도 주세요.", "en": "This too, please.", "note": "이거 is the spoken form, 이것 is written/formal; both work at a café or shop counter" },
+      "collocations": ["이거 주세요", "이것도 주세요", "이것만 주세요"]
+    },
+    {
+      "hangul": "포장",
+      "romanization": "pojang",
+      "english": "takeout / to go",
+      "partOfSpeech": "noun / verb stem",
+      "exampleSentence": { "ko": "포장해 주세요.", "en": "To go, please.", "note": "포장 (packing) = takeout in Korean. 포장이요? is how staff ask if you want it to go" },
+      "collocations": ["포장해 주세요", "포장이에요", "포장 돼요?"]
+    },
+    {
+      "hangul": "추천",
+      "romanization": "chucheon",
+      "english": "recommendation",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "추천 메뉴가 뭐예요?", "en": "What's the recommended menu item?", "note": "추천 없어요? or 추천 메뉴요? are very natural ways to ask a café or restaurant what's good" },
+      "collocations": ["추천하다", "추천 메뉴", "추천해 주세요"]
+    },
+    {
+      "hangul": "할인",
+      "romanization": "halin",
+      "english": "discount",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "학생 할인 돼요?", "en": "Is there a student discount?", "note": "할인 + 돼요? is the pattern to ask about discounts; 학생 할인, 앱 할인, 포인트 할인 all work the same way" },
+      "collocations": ["할인 돼요?", "할인 받다", "할인 카드"]
+    },
+    {
+      "hangul": "맵다",
+      "romanization": "maepda",
+      "english": "to be spicy",
+      "partOfSpeech": "adjective",
+      "exampleSentence": { "ko": "안 맵게 해 주세요.", "en": "Please make it not spicy.", "note": "맵게 is the adverbial form (spicily); 안 맵게 해 주세요 = make it in a not-spicy way — practical for dietary restrictions" },
+      "collocations": ["많이 매워요", "안 맵게", "조금 맵게"]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "Minjun and his coworker Yuna go to a café. Minjun orders for both of them.",
+    "lines": [
+      {
+        "speaker": "직원",
+        "ko": "어서 오세요! 뭐 드릴까요?",
+        "romanization": "Eoseo oseyo! Mwo deurilkkayo?",
+        "en": "Welcome! What can I get you?",
+        "grammarNote": "뭐 드릴까요? — the polite 'what shall I offer you?' form staff use in Korean cafés; 드리다 is the honorific of 주다"
+      },
+      {
+        "speaker": "민준",
+        "ko": "아메리카노 두 잔 주세요.",
+        "romanization": "Amerik'ano du jan juseyo.",
+        "en": "Two Americanos, please.",
+        "grammarNote": "N 주세요 ordering pattern; 두 잔 = two cups using native Korean number 두 + counter 잔"
+      },
+      {
+        "speaker": "직원",
+        "ko": "다른 거 더 필요하세요?",
+        "romanization": "Dareun geo deo piryohaseyo?",
+        "en": "Do you need anything else?",
+        "grammarNote": "더 (more/else) here asks if there's anything to add — functions like 도 in a question context"
+      },
+      {
+        "speaker": "민준",
+        "ko": "크루아상도 하나 주세요.",
+        "romanization": "Keuroasangdo hana juseyo.",
+        "en": "One croissant too, please.",
+        "grammarNote": "크루아상 + 도 = adding the croissant to the cart (SHOPPING CART rule); 하나 = one (native Korean number)"
+      },
+      {
+        "speaker": "유나",
+        "ko": "저는 케이크만 주세요. 커피는 안 마셔요.",
+        "romanization": "Jeoneun keikuman juseyo. Keopineun an masyeoyo.",
+        "en": "Just cake for me, please. I don't drink coffee.",
+        "grammarNote": "케이크 + 만 = spotlight on cake alone (SPOTLIGHT rule); this is 만 as a dietary/preference restriction"
+      },
+      {
+        "speaker": "직원",
+        "ko": "알겠습니다. 결제는 어떻게 하시겠어요?",
+        "romanization": "Algesseumnida. Gyeoljeineun eotteoke hashigeseoyo?",
+        "en": "Got it. How would you like to pay?",
+        "grammarNote": "어떻게 (how) + 하시겠어요? is the polite 'how will you do X?' frame — staff asking the payment method opens the 로/으로 response"
+      },
+      {
+        "speaker": "민준",
+        "ko": "카드로 결제할게요. 카드 되죠?",
+        "romanization": "Kadeuro gyeoljehalgeyo. Kadeu doejyo?",
+        "en": "I'll pay by card. Card is okay, right?",
+        "grammarNote": "카드 + 로 = the CHANNEL SELECTOR (method particle); 카드 ends in vowel 드 → 로, not 으로"
+      },
+      {
+        "speaker": "직원",
+        "ko": "네, 카드로 돼요. 영수증은 필요하세요?",
+        "romanization": "Ne, kadeuro dwaeyo. Yeongsujeungeun piryohaseyo?",
+        "en": "Yes, card is fine. Do you need a receipt?",
+        "grammarNote": "카드로 돼요 — 로/으로 again confirming payment method; 영수증 주세요 is the natural follow-up if you want the receipt"
+      }
+    ]
+  },
+  "readingText": {
+    "type": "sms",
+    "title": "편의점에서 (At the Convenience Store)",
+    "body": "오늘 퇴근 후에 편의점에 들렀어요. 직원한테 '이거 얼마예요?' 라고 물었어요. 삼천 원이라고 했어요. 현금이 없어서 카드로 계산했어요. 영수증도 받았어요. 친구한테 선물로 과자를 사서 이것만 담았어요. 다음에는 카드 할인도 확인해야겠어요.",
+    "bodyTranslation": "After work today I stopped by a convenience store. I asked the staff 'How much is this?' They said it was 3,000 won. I didn't have cash so I paid by card. I got a receipt too. I bought snacks as a gift for my friend, so I put only those in the basket. Next time I should check for card discounts too.",
+    "comprehensionQuestions": [
+      {
+        "question": "How did the speaker pay, and why?",
+        "answer": "카드로 계산했어요 — they paid by card because they had no cash (현금이 없어서)"
+      },
+      {
+        "question": "What did the speaker buy, and for whom?",
+        "answer": "친구한테 선물로 과자를 샀어요 — they bought snacks as a gift (선물로 = using the gift channel/purpose) for a friend"
+      },
+      {
+        "question": "Find every 도 and 만 in the text. For each one, explain whether it is adding something or limiting something.",
+        "answer": "영수증도 받았어요 — 도 adds the receipt to the list of things that happened (CART: one more item); 이것만 담았어요 — 만 limits the basket contents to only the snacks (SPOTLIGHT: nothing else); 카드 할인도 확인해야겠어요 — 도 adds checking discounts to next time's plan (CART: another thing to do)"
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "카드 돼요? — Why Korean shops sometimes say no",
+    "body": "In Korea, the question '카드 돼요?' (Is card okay?) is completely natural and expected. Unlike many countries where card payment is assumed, some Korean small businesses — street food stalls, traditional markets, very small local cafés — are cash-only. The reason is often the transaction fee the business pays to the card company. When you hear '현금만 돼요' (cash only), don't be surprised. It's also common to see signs like '카드 최소 금액 3,000원' (minimum card purchase 3,000 won). Having small bills (천 원, 오천 원) on hand is still a practical tip for exploring traditional markets like Gwangjang or Namdaemun."
+  },
+  "inlineExercises": [
+    {
+      "type": "fillBlank",
+      "prompt": "아메리카노 주세요. 케이크___ 주세요. (I want an Americano. Cake too, please.)",
+      "options": ["도", "만"],
+      "correct": "도",
+      "explanation": "도 adds the cake to the order (SHOPPING CART — one more item). If you used 만, the sentence would mean 'only cake, please' — cancelling the Americano you just ordered."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "저는 물___ 마셔요. 다른 건 필요 없어요. (I drink only water. I don't need anything else.)",
+      "options": ["도", "만"],
+      "correct": "만",
+      "explanation": "만 is the SPOTLIGHT — it limits the sentence to water and excludes everything else. 도 would mean 'I drink water too (among other things)', which contradicts '다른 건 필요 없어요'."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "카드___ 결제할 수 있어요? (Can I pay by card?)",
+      "options": ["에", "로"],
+      "correct": "로",
+      "explanation": "로/으로 marks the method (CHANNEL SELECTOR). 카드에 would mean 'on the card' or 'at the card' as if the card were a location, which makes no sense. The payment flows through the card channel → 카드로."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "다음 문장에서 틀린 것을 찾아보세요: '저는도 주문할게요.'",
+      "correct": "저도 주문할게요.",
+      "explanation": "도 replaces subject and topic particles — it does not sit after them. 저는 + 도 is a double-particle error; drop 는 and say 저도. The same principle applies to 만: never 이것을만, always 이것만."
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate: 'I'll pay in cash. Receipt too, please.'",
+      "correct": "현금으로 낼게요. 영수증도 주세요.",
+      "hint": "현금 ends in a consonant → which form? And are you adding the receipt (CART) or limiting to only the receipt (SPOTLIGHT)?"
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "The staff asks how you want to pay. You want to ask 'Is it okay if I pay by card?' Which is the most natural?",
+      "options": [
+        "카드에 결제해도 돼요?",
+        "카드로 결제해도 돼요?",
+        "카드를 결제해도 돼요?"
+      ],
+      "correct": "카드로 결제해도 돼요?",
+      "explanation": "로/으로 marks the method of payment — the card is the CHANNEL. 카드에 would mean 'at the card' (card as a location — doesn't work). 카드를 would mean 'pay the card' — as if the card itself is the thing being paid, not the payment method."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "배고파요? 이거___ 드세요. 다른 건 없어요. (Are you hungry? Have just this. There's nothing else.)",
+      "options": ["도", "만"],
+      "correct": "만",
+      "explanation": "만 is the SPOTLIGHT — the context confirms there's nothing else ('다른 건 없어요'), so 만 is correct. 도 would imply there are other options too, which contradicts the sentence."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "도 = SHOPPING CART: adds one more item or person to what already exists. Replaces 은/는, 이/가, 을/를 — never stacks on top of them.",
+      "만 = SPOTLIGHT: limits the sentence to exactly one thing, excluding everything else. Place it directly after the word you want to isolate.",
+      "로/으로 = CHANNEL SELECTOR: marks the method, means, or tool of an action. Use 로 after vowels or ㄹ; use 으로 after other consonants."
+    ],
+    "nextChapterTeaser": "Next up: Chapter 8 builds on ordering and transactions by introducing time expressions and scheduling — how to say 'at what time', 'from when to when', and 'how long'."
+  }
+}
