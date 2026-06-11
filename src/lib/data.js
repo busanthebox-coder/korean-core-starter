@@ -1,5 +1,6 @@
 // Single slim bundle built by scripts/build-app-data.mjs (run after generate-korean-data.mjs).
 import data from '../../korean/data/app-data.json';
+import { curriculumSortValue } from './curriculumStructure.js';
 
 export const entries = [
   ...data.words,
@@ -17,7 +18,9 @@ for (const e of entries) {
 }
 export const findEntry = (id) => byId.get(id) || null;
 
-export const chapters = (data.course.chapters || []).slice().sort((a, b) => a.number - b.number);
+export const chapters = (data.course.chapters || []).slice().sort((a, b) =>
+  curriculumSortValue(a) - curriculumSortValue(b) || a.number - b.number
+);
 
 // ── Truthful B1 tagging ──────────────────────────────────────────────────
 // The dataset ships only A1/A2 levels, yet chapters 12–16 are a real B1 track

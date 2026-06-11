@@ -1,0 +1,1613 @@
+[
+  {
+    "number": 1,
+    "goal": "Get comfortable seeing Hangul as sound blocks, not English letters in disguise.",
+    "scenario": "A first quiet study session where the learner reads one block, hears it, and repeats it back.",
+    "dialogue": [
+      {
+        "speaker": "Tutor",
+        "ko": "오늘은 한 글자만 볼게요. 한이에요.",
+        "romanization": "oneureun han geuljaman bolgeyo. hanieyo.",
+        "en": "Today we'll look at just one character. It's 한."
+      },
+      {
+        "speaker": "Learner",
+        "ko": "한... 천천히 한 번만 더 말해 주세요.",
+        "romanization": "han... cheoncheonhi han beonman deo malhae juseyo.",
+        "en": "Han... please say it slowly one more time."
+      },
+      {
+        "speaker": "Tutor",
+        "ko": "좋아요. 한은 ㅎ, ㅏ, ㄴ이 같이 있어요.",
+        "romanization": "joayo. haneun hieut, a, nieuni gachi isseoyo.",
+        "en": "Good. 한 has ㅎ, ㅏ, and ㄴ together."
+      },
+      {
+        "speaker": "Learner",
+        "ko": "아, 이제 한글로 먼저 볼게요.",
+        "romanization": "a, ije hangeullo meonjeo bolgeyo.",
+        "en": "Ah, now I'll look at the Hangul first."
+      }
+    ],
+    "realLifeTask": "Ask someone to say one Korean word slowly, then read the Hangul before checking romanization.",
+    "checkpoints": [
+      "I can see 한 as ㅎ + ㅏ + ㄴ.",
+      "I can ask 천천히 한 번만 더 말해 주세요.",
+      "I check Hangul first and use romanization only as backup."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "천천히 한 번만 더 말해 주세요.",
+        "romanization": "cheoncheonhi han beonman deo malhae juseyo.",
+        "en": "Please say it slowly one more time."
+      }
+    }
+  },
+  {
+    "number": 2,
+    "goal": "Start a first meeting politely and say your name without freezing.",
+    "scenario": "A language exchange table where two people meet for the first time.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "안녕하세요. 처음 뵙겠습니다.",
+        "romanization": "annyeonghaseyo. cheoeum boepgetseumnida.",
+        "en": "Hello. Nice to meet you for the first time."
+      },
+      {
+        "speaker": "B",
+        "ko": "안녕하세요. 저는 하나예요.",
+        "romanization": "annyeonghaseyo. jeoneun hanayeyo.",
+        "en": "Hello. I'm Hana."
+      },
+      {
+        "speaker": "A",
+        "ko": "저는 민준이에요. 만나서 반가워요.",
+        "romanization": "jeoneun minjunieyo. mannaseo bangawoyo.",
+        "en": "I'm Minjun. Nice to meet you."
+      },
+      {
+        "speaker": "B",
+        "ko": "저도 반가워요. 잘 부탁드려요.",
+        "romanization": "jeodo bangawoyo. jal butakdeuryeoyo.",
+        "en": "Nice to meet you too. I look forward to studying together."
+      }
+    ],
+    "realLifeTask": "Say hello, give your name, and close with one polite friendly line.",
+    "checkpoints": [
+      "I can say 안녕하세요 without looking at English.",
+      "I can say 저는 ___예요 with my own name.",
+      "I can close a first meeting with 만나서 반가워요 or 잘 부탁드려요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "안녕하세요. 저는 하나예요. 만나서 반가워요.",
+        "romanization": "annyeonghaseyo. jeoneun hanayeyo. mannaseo bangawoyo.",
+        "en": "Hello. I'm Hana. Nice to meet you."
+      }
+    }
+  },
+  {
+    "number": 3,
+    "goal": "Point at people and things around you and say what they are.",
+    "scenario": "A cafe table with a menu, a notebook, and two people introducing themselves.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "이건 뭐예요?",
+        "romanization": "igeon mwoyeyo?",
+        "en": "What is this?"
+      },
+      {
+        "speaker": "B",
+        "ko": "이건 메뉴예요. 저건 제 노트예요.",
+        "romanization": "igeon menyuyeyo. jeogeon je noteyeyo.",
+        "en": "This is a menu. That is my notebook."
+      },
+      {
+        "speaker": "A",
+        "ko": "저는 학생이에요. 하나 씨는요?",
+        "romanization": "jeoneun haksaengieyo. hana ssineunyo?",
+        "en": "I'm a student. What about you, Hana?"
+      },
+      {
+        "speaker": "B",
+        "ko": "저는 회사원이에요.",
+        "romanization": "jeoneun hoesawonieyo.",
+        "en": "I'm an office worker."
+      }
+    ],
+    "realLifeTask": "Use 이건/저는 and say two noun sentences about your table or yourself.",
+    "checkpoints": [
+      "I can ask 이건 뭐예요?",
+      "I can choose 이에요 or 예요 from the noun ending.",
+      "I can use 저는 to set myself as the topic."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "이건 메뉴예요. 저는 학생이에요.",
+        "romanization": "igeon menyuyeyo. jeoneun haksaengieyo.",
+        "en": "This is a menu. I'm a student."
+      }
+    }
+  },
+  {
+    "number": 4,
+    "goal": "Ask what exists, say what you have, and say what is missing.",
+    "scenario": "A small restaurant visit where the learner asks about seats and reservations.",
+    "dialogue": [
+      {
+        "speaker": "Staff",
+        "ko": "예약이 있으세요?",
+        "romanization": "yeyagi isseuseyo?",
+        "en": "Do you have a reservation?"
+      },
+      {
+        "speaker": "Learner",
+        "ko": "아니요, 예약이 없어요. 자리 있어요?",
+        "romanization": "aniyo, yeyagi eopseoyo. jari isseoyo?",
+        "en": "No, I don't have a reservation. Is there a seat?"
+      },
+      {
+        "speaker": "Staff",
+        "ko": "네, 창가 자리가 있어요.",
+        "romanization": "ne, changga jariga isseoyo.",
+        "en": "Yes, there is a seat by the window."
+      },
+      {
+        "speaker": "Learner",
+        "ko": "좋아요. 시간도 있어요.",
+        "romanization": "joayo. sigando isseoyo.",
+        "en": "Great. I have time too."
+      }
+    ],
+    "realLifeTask": "Ask whether there is a seat, bathroom, or reservation, then answer with 있어요 or 없어요.",
+    "checkpoints": [
+      "I can ask 자리 있어요? or 화장실 있어요?",
+      "I can say 예약이 없어요 without using 을/를.",
+      "I can use 이/가 for the thing that exists or is missing."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "예약이 없어요. 자리 있어요?",
+        "romanization": "yeyagi eopseoyo. jari isseoyo?",
+        "en": "I don't have a reservation. Is there a seat?"
+      }
+    }
+  },
+  {
+    "number": 5,
+    "goal": "Talk about simple daily actions and the thing you do them to.",
+    "scenario": "A morning check-in about breakfast, coffee, studying, and reading.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "오늘 아침 먹어요?",
+        "romanization": "oneul achim meogeoyo?",
+        "en": "Are you eating breakfast today?"
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 아침을 먹고 커피를 마셔요.",
+        "romanization": "ne, achimeul meokgo keopireul masyeoyo.",
+        "en": "Yes, I eat breakfast and drink coffee."
+      },
+      {
+        "speaker": "A",
+        "ko": "오늘도 한국어 공부해요?",
+        "romanization": "oneuldo hangugeo gongbuhaeyo?",
+        "en": "Are you studying Korean again today?"
+      },
+      {
+        "speaker": "B",
+        "ko": "네. 밤에는 책을 조금 읽어요.",
+        "romanization": "ne. bameneun chaegeul jogeum ilgeoyo.",
+        "en": "Yes. At night I read a little."
+      }
+    ],
+    "realLifeTask": "Say two things you do today and one object you use with 을/를.",
+    "checkpoints": [
+      "I can say 먹어요, 마셔요, 공부해요, and 읽어요.",
+      "I can add 을/를 when the action has an object.",
+      "I can connect two daily actions with 고."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "아침을 먹고 커피를 마셔요.",
+        "romanization": "achimeul meokgo keopireul masyeoyo.",
+        "en": "I eat breakfast and drink coffee."
+      }
+    }
+  },
+  {
+    "number": 6,
+    "goal": "Say where you go and where something happens without mixing up 에 and 에서.",
+    "scenario": "A simple plan to go to a cafe and meet a friend there.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "오늘 어디에 가요?",
+        "romanization": "oneul eodie gayo?",
+        "en": "Where are you going today?"
+      },
+      {
+        "speaker": "B",
+        "ko": "카페에 가요.",
+        "romanization": "kape-e gayo.",
+        "en": "I'm going to a cafe."
+      },
+      {
+        "speaker": "A",
+        "ko": "카페에서 뭐 해요?",
+        "romanization": "kape-eseo mwo haeyo?",
+        "en": "What are you doing at the cafe?"
+      },
+      {
+        "speaker": "B",
+        "ko": "카페에서 친구를 만나요.",
+        "romanization": "kape-eseo chingureul mannayo.",
+        "en": "I'm meeting a friend at the cafe."
+      }
+    ],
+    "realLifeTask": "Say one place you go to and one thing you do there.",
+    "checkpoints": [
+      "I can use 에 for the destination: 카페에 가요.",
+      "I can use 에서 for the action place: 카페에서 만나요.",
+      "I can avoid 카페에서 가요 when I mean going to the cafe."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "카페에 가요. 카페에서 친구를 만나요.",
+        "romanization": "kape-e gayo. kape-eseo chingureul mannayo.",
+        "en": "I'm going to a cafe. I'm meeting a friend at the cafe."
+      }
+    }
+  },
+  {
+    "number": 7,
+    "goal": "Order something small and pay without overthinking the sentence.",
+    "scenario": "A cafe counter where the learner orders a drink and asks about card payment.",
+    "dialogue": [
+      {
+        "speaker": "Staff",
+        "ko": "주문하시겠어요?",
+        "romanization": "jumunhasigesseoyo?",
+        "en": "Would you like to order?"
+      },
+      {
+        "speaker": "Learner",
+        "ko": "아메리카노 한 잔 주세요.",
+        "romanization": "amerikano han jan juseyo.",
+        "en": "One Americano, please."
+      },
+      {
+        "speaker": "Staff",
+        "ko": "따뜻한 걸로 드릴까요?",
+        "romanization": "ttatteutan geollo deurilkkayo?",
+        "en": "Would you like it hot?"
+      },
+      {
+        "speaker": "Learner",
+        "ko": "네. 그리고 카드 돼요?",
+        "romanization": "ne. geurigo kadeu dwaeyo?",
+        "en": "Yes. And is card payment okay?"
+      },
+      {
+        "speaker": "Staff",
+        "ko": "네, 카드 됩니다.",
+        "romanization": "ne, kadeu doemnida.",
+        "en": "Yes, card is okay."
+      }
+    ],
+    "realLifeTask": "Order one drink or food item and ask if card payment is okay.",
+    "checkpoints": [
+      "I can order with N 주세요.",
+      "I can use one counter like 한 잔 or 하나.",
+      "I can ask 카드 돼요? in a simple shop situation."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "아메리카노 한 잔 주세요. 카드 돼요?",
+        "romanization": "amerikano han jan juseyo. kadeu dwaeyo?",
+        "en": "One Americano, please. Is card payment okay?"
+      }
+    }
+  },
+  {
+    "number": 8,
+    "goal": "Say what you want, what you can do, and what you cannot do today.",
+    "scenario": "Two friends trying to choose food and make a small plan.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "오늘 뭐 먹고 싶어요?",
+        "romanization": "oneul mwo meokgo sipeoyo?",
+        "en": "What do you want to eat today?"
+      },
+      {
+        "speaker": "B",
+        "ko": "비빔밥을 먹고 싶어요.",
+        "romanization": "bibimbabeul meokgo sipeoyo.",
+        "en": "I want to eat bibimbap."
+      },
+      {
+        "speaker": "A",
+        "ko": "그럼 지금 갈 수 있어요?",
+        "romanization": "geureom jigeum gal su isseoyo?",
+        "en": "Then can you go now?"
+      },
+      {
+        "speaker": "B",
+        "ko": "지금은 못 가요. 한 시간 후에 갈 수 있어요.",
+        "romanization": "jigeumeun mot gayo. han sigan hue gal su isseoyo.",
+        "en": "I can't go now. I can go in an hour."
+      }
+    ],
+    "realLifeTask": "Say one thing you want to do, one thing you can do, and one thing you cannot do today.",
+    "checkpoints": [
+      "I can say V고 싶어요 for something I want.",
+      "I can say Vㄹ/을 수 있어요 for something possible.",
+      "I can use 못 for a real limitation, not just preference."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "비빔밥을 먹고 싶어요. 지금은 못 가요.",
+        "romanization": "bibimbabeul meokgo sipeoyo. jigeumeun mot gayo.",
+        "en": "I want to eat bibimbap. I can't go now."
+      }
+    }
+  },
+  {
+    "number": 9,
+    "goal": "Ask for help, ask permission, and understand a polite no.",
+    "scenario": "A museum or store where the learner wants help and asks whether photos are okay.",
+    "dialogue": [
+      {
+        "speaker": "Learner",
+        "ko": "죄송한데, 좀 도와주세요.",
+        "romanization": "joesonghande, jom dowajuseyo.",
+        "en": "Excuse me, please help me a little."
+      },
+      {
+        "speaker": "Staff",
+        "ko": "네, 어떤 걸 도와드릴까요?",
+        "romanization": "ne, eotteon geol dowadeurilkkayo?",
+        "en": "Sure, what can I help you with?"
+      },
+      {
+        "speaker": "Learner",
+        "ko": "여기에서 사진 찍어도 돼요?",
+        "romanization": "yeogieseo sajin jjigeodo dwaeyo?",
+        "en": "Is it okay to take photos here?"
+      },
+      {
+        "speaker": "Staff",
+        "ko": "죄송하지만 여기에서는 사진 찍지 마세요.",
+        "romanization": "joesonghajiman yeogieseo-neun sajin jjikji maseyo.",
+        "en": "Sorry, but please don't take photos here."
+      }
+    ],
+    "realLifeTask": "Ask for help, ask if one action is okay, and respond politely if the answer is no.",
+    "checkpoints": [
+      "I can soften a request with 죄송한데.",
+      "I can ask permission with 아/어도 돼요?",
+      "I can recognize 지 마세요 as a polite prohibition."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "죄송한데, 여기에서 사진 찍어도 돼요?",
+        "romanization": "joesonghande, yeogieseo sajin jjigeodo dwaeyo?",
+        "en": "Excuse me, is it okay to take photos here?"
+      }
+    }
+  },
+  {
+    "number": 10,
+    "goal": "Ask for directions or repetition when you are lost or missed something.",
+    "scenario": "A station or hotel lobby where the learner needs one clear answer.",
+    "dialogue": [
+      {
+        "speaker": "Learner",
+        "ko": "죄송한데, 화장실이 어디예요?",
+        "romanization": "joesonghande, hwajangsiri eodiyeyo?",
+        "en": "Excuse me, where is the bathroom?"
+      },
+      {
+        "speaker": "Staff",
+        "ko": "저기 오른쪽에 있어요.",
+        "romanization": "jeogi oreunjjoge isseoyo.",
+        "en": "It's over there on the right."
+      },
+      {
+        "speaker": "Learner",
+        "ko": "다시 한 번만 천천히 말해 주세요.",
+        "romanization": "dasi han beonman cheoncheonhi malhae juseyo.",
+        "en": "Please say it slowly one more time."
+      },
+      {
+        "speaker": "Staff",
+        "ko": "네. 저기 오른쪽이에요.",
+        "romanization": "ne. jeogi oreunjjogiyeyo.",
+        "en": "Sure. It's over there on the right."
+      },
+      {
+        "speaker": "Learner",
+        "ko": "알겠어요. 감사합니다.",
+        "romanization": "algesseoyo. gamsahamnida.",
+        "en": "I understand. Thank you."
+      }
+    ],
+    "realLifeTask": "Ask where something is, then ask the person to repeat slowly.",
+    "checkpoints": [
+      "I can begin politely with 죄송한데.",
+      "I can ask 어디예요? for a place I need.",
+      "I can ask 다시 한 번만 천천히 말해 주세요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "화장실이 어디예요? 다시 한 번만 천천히 말해 주세요.",
+        "romanization": "hwajangsiri eodiyeyo? dasi han beonman cheoncheonhi malhae juseyo.",
+        "en": "Where is the bathroom? Please say it slowly one more time."
+      }
+    }
+  },
+  {
+    "number": 11,
+    "goal": "Connect two small ideas so your Korean sounds like a real short explanation.",
+    "scenario": "Two friends changing plans because one person is busy.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "오늘 왜 못 와요?",
+        "romanization": "oneul wae mot wayo?",
+        "en": "Why can't you come today?"
+      },
+      {
+        "speaker": "B",
+        "ko": "일이 있어서 못 가요.",
+        "romanization": "iri isseoseo mot gayo.",
+        "en": "I can't go because I have work."
+      },
+      {
+        "speaker": "A",
+        "ko": "그럼 시간이 있으면 내일 만날까요?",
+        "romanization": "geureom sigani isseumyeon naeil mannalkkayo?",
+        "en": "Then if you have time, shall we meet tomorrow?"
+      },
+      {
+        "speaker": "B",
+        "ko": "좋아요. 끝나고 전화할게요.",
+        "romanization": "joayo. kkeunnago jeonhwahalgeyo.",
+        "en": "Sounds good. I'll call after I finish."
+      }
+    ],
+    "realLifeTask": "Explain why you cannot do something today, then make one simple next plan.",
+    "checkpoints": [
+      "I can connect a reason with 아서/어서.",
+      "I can make a simple condition with 면.",
+      "I can promise the next action with ㄹ/을게요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "일이 있어서 못 가요. 끝나고 전화할게요.",
+        "romanization": "iri isseoseo mot gayo. kkeunnago jeonhwahalgeyo.",
+        "en": "I can't go because I have work. I'll call after I finish."
+      }
+    }
+  },
+  {
+    "number": 12,
+    "goal": "Say what you think without sounding too blunt.",
+    "scenario": "A friend asks what you thought of a movie, cafe, class, or app.",
+    "realLifeTask": "Give one opinion, add a reason, and soften it with 제 생각에는, 좀, or 것 같아요.",
+    "checkpoints": [
+      "I can start softly with 제 생각에는 or 저는.",
+      "I can give a reason with -거든요 or -아서/어서.",
+      "I can use 것 같아요 when I want the opinion to feel less direct."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "제 생각에는 조금 비싸지만 괜찮은 것 같아요.",
+        "en": "I think it is a little expensive, but it seems okay."
+      }
+    }
+  },
+  {
+    "number": 13,
+    "goal": "Talk about a cultural or social topic and report what someone said.",
+    "scenario": "You read a short post about Korean culture and tell a friend the main point.",
+    "realLifeTask": "Report one thing you heard, read, or learned using -다고 해요 or -라고 해요.",
+    "checkpoints": [
+      "I can report a noun sentence with -이라고/라고 해요.",
+      "I can report an adjective or verb sentence with -다고 해요.",
+      "I can keep my own opinion separate from what someone else said."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "한국에서는 약속 시간을 지키는 게 중요하다고 해요.",
+        "en": "They say keeping appointment times is important in Korea."
+      }
+    }
+  },
+  {
+    "number": 14,
+    "goal": "Talk through a work or money decision in a realistic, cautious way.",
+    "scenario": "A friend is deciding whether to start a job, buy something, or try a side project.",
+    "realLifeTask": "Say one decision you made and one worry you still have.",
+    "checkpoints": [
+      "I can use -기로 했어요 for a decision.",
+      "I can use -ㄹ까 봐 걱정돼요 for a worry.",
+      "I can add 그래도 when I will try anyway."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "이번 달에는 돈을 조금 아끼기로 했어요. 그래도 한국어 수업은 계속하려고요.",
+        "en": "I decided to save a little money this month. Still, I plan to continue Korean class."
+      }
+    }
+  },
+  {
+    "number": 15,
+    "goal": "Describe feelings with a little more honesty and nuance.",
+    "scenario": "After a presentation, test, date, or awkward message, you tell a friend how it felt.",
+    "realLifeTask": "Describe one feeling, then add what you pretended or almost did.",
+    "checkpoints": [
+      "I can use -는 척했어요 when I acted differently from how I felt.",
+      "I can use -ㄹ 뻔했어요 for something that almost happened.",
+      "I can soften emotional sentences with 좀 or 사실."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "사실 좀 떨렸는데 괜찮은 척했어요.",
+        "en": "Honestly, I was a little nervous, but I pretended I was okay."
+      }
+    }
+  },
+  {
+    "number": 16,
+    "goal": "Make one longer sentence that still feels easy to follow.",
+    "scenario": "You explain why you practiced, what your purpose was, and what changed after that.",
+    "realLifeTask": "Connect cause, purpose, and result in two short Korean sentences.",
+    "checkpoints": [
+      "I can use -길래 for a reason I reacted to.",
+      "I can use -기 위해서 for purpose.",
+      "I can use -ㄹ수록 when something changes more and more."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "발표가 있어서 집에서 연습했어요. 연습할수록 조금 더 자연스러워져요.",
+        "en": "I practiced at home because I had a presentation. The more I practice, the more natural it gets."
+      }
+    }
+  },
+  {
+    "number": 17,
+    "goal": "Answer what you did yesterday with one clean past-tense sentence.",
+    "scenario": "A friend asks about yesterday's evening, weekend, or class.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "어제 뭐 했어요?",
+        "romanization": "eoje mwo haesseoyo?",
+        "en": "What did you do yesterday?"
+      },
+      {
+        "speaker": "B",
+        "ko": "어제 친구랑 영화 봤어요.",
+        "romanization": "eoje chingurang yeonghwa bwasseoyo.",
+        "en": "Yesterday I watched a movie with a friend."
+      },
+      {
+        "speaker": "A",
+        "ko": "어땠어요?",
+        "romanization": "eottaesseoyo?",
+        "en": "How was it?"
+      },
+      {
+        "speaker": "B",
+        "ko": "재미있었어요. 근데 날씨가 좀 추웠어요.",
+        "romanization": "jaemiisseosseoyo. geunde nalssiga jom chuwosseoyo.",
+        "en": "It was fun. But the weather was a bit cold."
+      }
+    ],
+    "realLifeTask": "Answer 어제 뭐 했어요? with one real past-tense action and one short feeling.",
+    "checkpoints": [
+      "I can make 봤어요, 먹었어요, 갔어요, 왔어요, and 했어요.",
+      "I can add one feeling such as 좋았어요 or 재미있었어요.",
+      "I can catch common irregular mistakes like 춥었어요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "어제 친구랑 저녁을 먹었어요. 정말 좋았어요.",
+        "en": "Yesterday I ate dinner with a friend. It was really nice."
+      }
+    },
+    "naturalWhy": {
+      "title": "Why past tense sounds natural here",
+      "todayScene": "Someone asks 어제 뭐 했어요? The time word 어제 already tells the listener the event is finished.",
+      "lessNatural": {
+        "ko": "어제 영화를 봐요.",
+        "en": "Yesterday I watch a movie."
+      },
+      "natural": {
+        "ko": "어제 영화를 봤어요.",
+        "en": "Yesterday I watched a movie."
+      },
+      "why": "어제 points to a finished time, so Korean expects the verb ending to match that finished feeling. 봐요 sounds like now, usually, or a future plan. 봤어요 closes the event and matches 어제.",
+      "koreanSense": [
+        "오늘 봐요 feels present or scheduled.",
+        "어제 봤어요 feels finished and easy to understand.",
+        "내일 볼 거예요 points forward, so it should not use past tense."
+      ],
+      "nativeCorrections": [
+        {
+          "from": "어제 영화를 봐요.",
+          "to": "어제 영화를 봤어요."
+        },
+        {
+          "from": "어제 카페에 가요.",
+          "to": "어제 카페에 갔어요."
+        },
+        {
+          "from": "어제 친구를 만나요.",
+          "to": "어제 친구를 만났어요."
+        }
+      ],
+      "practiceFrame": "어제 ___을/를 ___었어요.",
+      "practiceExamples": [
+        "어제 커피를 마셨어요.",
+        "어제 친구를 만났어요.",
+        "어제 한국어를 공부했어요."
+      ],
+      "askNative": [
+        "이 문장 자연스러워요?",
+        "한국인은 더 짧게 어떻게 말해요?",
+        "카톡으로 말하면 어떻게 말해요?"
+      ]
+    }
+  },
+  {
+    "number": 18,
+    "goal": "Say a real future plan, not just a grammar example.",
+    "scenario": "You are making a weekend or evening plan with someone.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "주말에 뭐 할 거예요?",
+        "romanization": "jumare mwo hal geoyeyo?",
+        "en": "What are you going to do this weekend?"
+      },
+      {
+        "speaker": "B",
+        "ko": "친구를 만나서 카페에 갈 거예요.",
+        "romanization": "chingureul mannaseo kape-e gal geoyeyo.",
+        "en": "I am going to meet a friend and go to a cafe."
+      },
+      {
+        "speaker": "A",
+        "ko": "비가 오면요?",
+        "romanization": "biga omyeonyo?",
+        "en": "What if it rains?"
+      },
+      {
+        "speaker": "B",
+        "ko": "비가 오면 집에서 공부할 거예요.",
+        "romanization": "biga omyeon jibeseo gongbuhal geoyeyo.",
+        "en": "If it rains, I am going to study at home."
+      }
+    ],
+    "realLifeTask": "Answer 주말에 뭐 할 거예요? and add what you will do if the plan changes.",
+    "checkpoints": [
+      "I can use -(으)ㄹ 거예요 for a plan or prediction.",
+      "I can use -면 for a simple condition.",
+      "I can tell apart 할 거예요 from 할게요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "주말에는 카페에서 공부할 거예요. 비가 오면 집에서 할 거예요.",
+        "en": "This weekend I am going to study at a cafe. If it rains, I will do it at home."
+      }
+    }
+  },
+  {
+    "number": 19,
+    "goal": "Ask better follow-up questions so the conversation does not stop.",
+    "scenario": "You are getting to know a classmate, tutor, or language partner.",
+    "realLifeTask": "Ask three follow-up questions using 어디, 언제, 왜, 어떻게, or 누구.",
+    "checkpoints": [
+      "I can pick the question word that matches the missing answer.",
+      "I can keep the question word in the Korean answer slot.",
+      "I can ask a short follow-up like 왜요? or 언제부터요?"
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "언제부터 한국어를 공부했어요? 보통 어떻게 연습해요?",
+        "en": "Since when have you studied Korean? How do you usually practice?"
+      }
+    }
+  },
+  {
+    "number": 20,
+    "goal": "Use numbers for real times, prices, ages, and counts.",
+    "scenario": "You set a meeting time and check a price before buying something.",
+    "realLifeTask": "Say one time, one price, and one count from your actual day.",
+    "checkpoints": [
+      "I can use native Korean numbers for hours and counters.",
+      "I can use Sino-Korean numbers for minutes, dates, and prices.",
+      "I can avoid mixing 세 시 and 삼 분 the wrong way."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "세 시 십 분에 만나요. 커피 두 잔은 오천 원이에요.",
+        "en": "Let's meet at 3:10. Two cups of coffee are 5,000 won."
+      }
+    }
+  },
+  {
+    "number": 21,
+    "goal": "Describe the exact person or thing you mean.",
+    "scenario": "You are pointing out the right bag, person, app, or place.",
+    "realLifeTask": "Make two noun phrases before a noun, like 자주 쓰는 앱 or 작은 가방.",
+    "checkpoints": [
+      "I can put adjective descriptions before nouns.",
+      "I can use V-는 N for present or habitual action descriptions.",
+      "I can turn a full sentence into a useful noun phrase."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "제가 자주 쓰는 앱이에요. 화면이 깔끔한 앱이라서 좋아요.",
+        "en": "It is an app I use often. I like it because the screen is clean."
+      }
+    }
+  },
+  {
+    "number": 22,
+    "goal": "Compare two choices and say what fits your taste.",
+    "scenario": "You are choosing food, drinks, movies, hobbies, or study methods.",
+    "realLifeTask": "Compare two real options and say which one you like more.",
+    "checkpoints": [
+      "I can use 보다 더 for a simple comparison.",
+      "I can use 만큼 when two things are similar in degree.",
+      "I can use 제 취향에 맞아요 for taste and preference."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "저는 차보다 커피를 더 좋아해요. 이 카페가 제 취향에 맞아요.",
+        "en": "I like coffee more than tea. This cafe fits my taste."
+      }
+    }
+  },
+  {
+    "number": 23,
+    "goal": "Explain where to go and how to get there.",
+    "scenario": "You ask for a subway exit, direction, or transport choice.",
+    "realLifeTask": "Give one short route using 로/으로 for direction or transport.",
+    "checkpoints": [
+      "I can use 로/으로 for direction, route, and transport method.",
+      "I can use -(으)러 가요 for going to do something.",
+      "I can ask 몇 번 출구로 가요? when I need an exit."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "지하철로 가세요. 삼 번 출구로 나가서 오른쪽으로 가세요.",
+        "en": "Go by subway. Go out exit three and go to the right."
+      }
+    }
+  },
+  {
+    "number": 24,
+    "goal": "Suggest trying something without sounding pushy.",
+    "scenario": "You suggest food, clothing, an app, or a study method to a friend.",
+    "realLifeTask": "Make one gentle suggestion with 한번 -아/어 보세요 or -아/어 볼까요?",
+    "checkpoints": [
+      "I can use -아/어 보다 for trying an action.",
+      "I can use -아/어 보세요 as a gentle suggestion.",
+      "I can use -ㄹ까요? when deciding together."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "이 앱 한번 써 보세요. 단어 복습하기 좋아요.",
+        "en": "Try this app once. It is good for reviewing vocabulary."
+      }
+    }
+  },
+  {
+    "number": 25,
+    "goal": "Say 'but' and 'even though' with the right amount of contrast.",
+    "scenario": "A plan is good but expensive, rainy but still worth doing, or hard but useful.",
+    "realLifeTask": "Describe one mixed situation using -지만, 그런데, or -아/어도.",
+    "checkpoints": [
+      "I can use -지만 inside one sentence.",
+      "I can use 그런데 when the next sentence changes direction.",
+      "I can use -아/어도 when the problem does not stop the result."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "이 식당은 조금 비싸지만 맛있어요. 사람이 많아도 기다릴 만해요.",
+        "en": "This restaurant is a little expensive, but it is tasty. Even if there are many people, it is worth waiting."
+      }
+    }
+  },
+  {
+    "number": 26,
+    "goal": "Make a careful guess from what you can see or hear.",
+    "scenario": "You infer why someone is late, tired, busy, or quiet.",
+    "realLifeTask": "Look at one situation and make a soft guess using -나 봐요 or 것 같아요.",
+    "checkpoints": [
+      "I can use -나 봐요 when I infer from a clue.",
+      "I can use 것 같아요 for a softer guess or opinion.",
+      "I can avoid using a guess form when I already know the fact."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "비가 많이 와서 길이 막히나 봐요. 조금 늦을 것 같아요.",
+        "en": "It looks like traffic is bad because it is raining a lot. I think I will be a little late."
+      }
+    }
+  },
+  {
+    "number": 27,
+    "goal": "Say what is happening right now or what you are in the middle of doing.",
+    "scenario": "Someone texts while you are studying, cooking, commuting, or waiting.",
+    "realLifeTask": "Reply to 지금 뭐 해요? with one ongoing action.",
+    "checkpoints": [
+      "I can use -고 있어요 for an action in progress.",
+      "I can add 지금, 아직, or 계속 to clarify timing.",
+      "I can choose 있다/없다 carefully when the verb already includes a state."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "지금 카페에서 한국어를 공부하고 있어요.",
+        "en": "I am studying Korean at a cafe right now."
+      }
+    }
+  },
+  {
+    "number": 28,
+    "goal": "Tell a simple sequence without making the listener guess the order.",
+    "scenario": "You explain what you did before class, after work, or right after arriving.",
+    "realLifeTask": "Tell three small steps using -고 나서, -자마자, or -기 전에.",
+    "checkpoints": [
+      "I can use -고 나서 after one action is complete.",
+      "I can use -자마자 for immediately after.",
+      "I can use -기 전에 for before doing something."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "수업 전에 커피를 샀어요. 집에 오자마자 복습했어요.",
+        "en": "Before class I bought coffee. As soon as I came home, I reviewed."
+      }
+    }
+  },
+  {
+    "number": 29,
+    "goal": "Explain when an action changed, got interrupted, or ended in a new state.",
+    "scenario": "You started one plan, but something happened while you were doing it.",
+    "realLifeTask": "Describe one interrupted or changed plan using -다가 or -아/어 있다.",
+    "checkpoints": [
+      "I can use -다가 when one action is interrupted or changes.",
+      "I can use -아/어 있다 for a state that remains after an action.",
+      "I can keep the before-and-after order clear."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "공부하다가 친구 전화를 받았어요. 노트북은 아직 켜져 있어요.",
+        "en": "I was studying and then got a call from a friend. The laptop is still on."
+      }
+    }
+  },
+  {
+    "number": 30,
+    "goal": "Explain a cause and an unexpected result naturally.",
+    "scenario": "Weather, traffic, mistakes, or sudden plans changed what happened.",
+    "realLifeTask": "Say one thing that happened because of a problem using -아서/어서 or -는 바람에.",
+    "checkpoints": [
+      "I can use -아서/어서 for ordinary cause and result.",
+      "I can use -는 바람에 for an unwanted or unexpected result.",
+      "I can avoid using -아서/어서 with commands or suggestions."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "비가 많이 오는 바람에 약속에 늦었어요.",
+        "en": "Because it rained a lot, I was late for the appointment."
+      }
+    }
+  },
+  {
+    "number": 31,
+    "goal": "Talk about purpose and time span in one clear plan.",
+    "scenario": "You study for a test, save money for a trip, or work from one time to another.",
+    "realLifeTask": "Say what you are doing for a purpose and from when to when.",
+    "checkpoints": [
+      "I can use -기 위해서 for purpose.",
+      "I can use 전에 and 후에 around events.",
+      "I can use 부터 and 까지 for a time or place range."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "시험을 위해서 월요일부터 금요일까지 공부할 거예요.",
+        "en": "For the test, I will study from Monday to Friday."
+      }
+    }
+  },
+  {
+    "number": 32,
+    "goal": "Describe decisions and changes that happened over time.",
+    "scenario": "You decided to start a habit, changed a plan, or something became easier.",
+    "realLifeTask": "Say one decision and one change using -기로 했어요 and -게 됐어요.",
+    "checkpoints": [
+      "I can use -기로 했어요 for a decision.",
+      "I can use -게 됐어요 for a change that came to happen.",
+      "I can use -아/어지다 for becoming a new state."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "매일 십 분씩 듣기로 했어요. 그래서 조금 익숙해졌어요.",
+        "en": "I decided to listen for ten minutes every day. So I became a little more used to it."
+      }
+    }
+  },
+  {
+    "number": 33,
+    "goal": "Choose a speech level that fits the person in front of you.",
+    "scenario": "You switch between a friend, a teacher, a customer, and a text chat.",
+    "realLifeTask": "Rewrite one idea in polite, formal, and casual styles.",
+    "checkpoints": [
+      "I can use 해요체 as the safe everyday default.",
+      "I can recognize formal -습니다 style.",
+      "I can avoid using 반말 unless the relationship clearly allows it."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "지금 가요. 지금 갑니다. 지금 가.",
+        "en": "I'm going now. I am going now. I'm going."
+      }
+    }
+  },
+  {
+    "number": 34,
+    "goal": "Show respect without making every sentence overly formal.",
+    "scenario": "You talk about a teacher, boss, parent, or older customer.",
+    "realLifeTask": "Make one sentence about a respected person using -(으)시- and one honorific word.",
+    "checkpoints": [
+      "I can add -(으)시- when the subject deserves respect.",
+      "I can use words like 드시다, 계시다, 말씀하시다, and 댁.",
+      "I can separate subject honorifics from listener politeness."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "선생님께서 지금 사무실에 계세요.",
+        "en": "The teacher is in the office now."
+      }
+    }
+  },
+  {
+    "number": 35,
+    "goal": "Bring up background information without sounding abrupt.",
+    "scenario": "A file is late, a plan changed, or you need to disagree gently.",
+    "realLifeTask": "Write a short message using 사실은 plus -는데요, -거든요, or -잖아요.",
+    "checkpoints": [
+      "I can use -는데요 to open background softly.",
+      "I can use -거든요 for new background the listener may not know.",
+      "I can use -잖아요 only when the listener likely knows or agrees."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "사실은 자료가 아직 안 끝났는데요. 어제 갑자기 일이 생겼거든요.",
+        "en": "Actually, the materials are not finished yet. Something suddenly came up yesterday."
+      }
+    }
+  },
+  {
+    "number": 36,
+    "goal": "Report what you personally saw or noticed changing.",
+    "scenario": "You watched something happen and now explain what changed after that.",
+    "realLifeTask": "Describe one thing you directly saw, heard, or noticed using -더라고요 or -더니.",
+    "checkpoints": [
+      "I can use -더라고요 for something I personally observed.",
+      "I can use -더니 when one observed situation led to a change.",
+      "I can avoid using plain -더니 for my own neutral actions."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "아까는 사람이 별로 없더라고요. 그런데 조금 지나더니 줄이 길어졌어요.",
+        "en": "Earlier there were not many people. But after a bit, the line got long."
+      }
+    }
+  },
+  {
+    "number": 37,
+    "goal": "Pass along what someone said without making it sound like your own words.",
+    "scenario": "You tell a coworker, classmate, or friend what another person said or asked.",
+    "realLifeTask": "Report one statement and one question from someone else.",
+    "checkpoints": [
+      "I can use -다고 했어요 for reported statements.",
+      "I can use -냐고 했어요 for reported questions.",
+      "I can keep tense and speaker perspective clear."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "민수 씨가 오늘 늦는다고 했어요. 몇 시에 시작하냐고도 물어봤어요.",
+        "en": "Minsu said he will be late today. He also asked what time it starts."
+      }
+    }
+  },
+  {
+    "number": 38,
+    "goal": "Build longer noun phrases and describe passive situations clearly.",
+    "scenario": "A door is closed, a file was uploaded, or a thing you found needs description.",
+    "realLifeTask": "Describe one object with a modifier and one passive result.",
+    "checkpoints": [
+      "I can make a noun phrase before the noun.",
+      "I can use passive forms when the subject receives the action.",
+      "I can avoid mixing passive and causative meanings."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "어제 받은 파일이 열리지 않아요.",
+        "en": "The file I received yesterday will not open."
+      }
+    }
+  },
+  {
+    "number": 39,
+    "goal": "Say something almost happened, or that there is no choice but to do it.",
+    "scenario": "You nearly missed a train, almost made a mistake, or have only one option.",
+    "realLifeTask": "Describe one almost-happened situation and one unavoidable action.",
+    "checkpoints": [
+      "I can use -ㄹ 뻔했어요 for almost happened.",
+      "I can use -ㄹ 수밖에 없어요 for no real choice.",
+      "I can use 만 to narrow the option or limit."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "지하철을 놓칠 뻔했어요. 그래서 택시를 탈 수밖에 없었어요.",
+        "en": "I almost missed the subway. So I had no choice but to take a taxi."
+      }
+    }
+  },
+  {
+    "number": 40,
+    "goal": "Hedge a guess or regret so it sounds socially natural.",
+    "scenario": "You are not fully sure, or you wish you had done something differently.",
+    "realLifeTask": "Make one soft guess and one small regret.",
+    "checkpoints": [
+      "I can use 것 같아요 and -나 봐요 with different levels of evidence.",
+      "I can use -ㄹ걸요 for a careful prediction.",
+      "I can use -ㄹ걸 그랬어요 for regret."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "오늘 사람이 많을 것 같아요. 예약할걸 그랬어요.",
+        "en": "I think there will be many people today. I should have made a reservation."
+      }
+    }
+  },
+  {
+    "number": 41,
+    "goal": "Notice irregular verbs before they surprise you in real sentences.",
+    "scenario": "You describe weather, walking, listening, and helping while forms change.",
+    "realLifeTask": "Make three short sentences with irregular forms you actually need.",
+    "checkpoints": [
+      "I can recognize ㅂ, ㄷ, 르, and ㅎ irregular patterns.",
+      "I can say 추워요, 걸어요, 들어요, and 빨라요 naturally.",
+      "I can check the stem before adding an ending."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "오늘은 추워요. 그래서 빨리 걸었어요.",
+        "en": "It is cold today. So I walked quickly."
+      }
+    }
+  },
+  {
+    "number": 42,
+    "goal": "Use small particles to show who, for whom, only, also, and whose.",
+    "scenario": "You talk about gifts, messages, belongings, and limits.",
+    "realLifeTask": "Write one sentence with 에게/한테 and one with 도 or 만.",
+    "checkpoints": [
+      "I can use 에게/한테 for a person receiving something.",
+      "I can use 도 for also and 만 for only.",
+      "I can use 의 carefully for possession or noun-to-noun links."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "친구한테 메시지를 보냈어요. 저는 커피만 마셨어요.",
+        "en": "I sent a message to my friend. I only drank coffee."
+      }
+    }
+  },
+  {
+    "number": 43,
+    "goal": "Use counters in the places where Koreans expect them.",
+    "scenario": "You buy drinks, count people, book tickets, or ask for quantity.",
+    "realLifeTask": "Say three real quantities using counters like 잔, 명, 개, 번, or 장.",
+    "checkpoints": [
+      "I can pair native numbers with common counters.",
+      "I can choose 잔, 명/분, 개, 장, 번, and 시간.",
+      "I can avoid translating English plurals directly."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "커피 두 잔하고 티켓 세 장 주세요.",
+        "en": "Please give me two cups of coffee and three tickets."
+      }
+    }
+  },
+  {
+    "number": 44,
+    "goal": "Hear why Korean spelling and sound do not always match.",
+    "scenario": "You listen to common words like 한국어, 같이, 국밥, and 학교.",
+    "realLifeTask": "Pick three words from the chapter and read them aloud once from spelling, once from sound.",
+    "checkpoints": [
+      "I can notice liaison when a final consonant moves before a vowel.",
+      "I can recognize common nasalization, aspiration, and tensification.",
+      "I can keep the original spelling even when the sound changes."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "한국어는 한구거처럼 들리고, 같이라는 단어는 가치처럼 들려요.",
+        "en": "한국어 sounds like 한구거, and the word 같이 sounds like 가치."
+      }
+    }
+  },
+  {
+    "number": 45,
+    "goal": "Choose the right kind of negative sentence for the situation.",
+    "scenario": "You decline, say you cannot do something, or explain that something is not true.",
+    "realLifeTask": "Make one 안 sentence, one 못 sentence, and one noun/adjective negative.",
+    "checkpoints": [
+      "I can use 안 for not doing by choice or fact.",
+      "I can use 못 for cannot because of ability or situation.",
+      "I can use 아니에요 and -지 않아요 where short negation is not natural."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "오늘은 못 가요. 시간이 없어서 공부도 많이 못 했어요.",
+        "en": "I cannot go today. Because I do not have time, I also could not study much."
+      }
+    }
+  },
+  {
+    "number": 46,
+    "goal": "Use 이다 forms when the sentence ends in a noun.",
+    "scenario": "You explain identity, reason, contrast, or condition with noun sentences.",
+    "realLifeTask": "Make one noun sentence, one reason clause, and one condition with 이다.",
+    "checkpoints": [
+      "I can use 이에요/예요 after nouns.",
+      "I can use 이라서/라서 for because it is a noun.",
+      "I can use 이면/면 and 이고/고 with noun predicates."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "오늘은 휴일이라서 사람이 많아요. 학생이면 할인이 돼요.",
+        "en": "There are many people because today is a holiday. If you are a student, you get a discount."
+      }
+    }
+  },
+  {
+    "number": 47,
+    "goal": "Talk about family and older relatives with the right respect.",
+    "scenario": "You introduce family members or ask about someone else's family politely.",
+    "realLifeTask": "Introduce one family member and say one respectful sentence about them.",
+    "checkpoints": [
+      "I can choose family words like 어머니, 아버지, 부모님, and 동생.",
+      "I can use honorific forms when talking about older or respected family members.",
+      "I can avoid overusing casual family terms in polite situations."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "저희 어머니는 부산에 사세요.",
+        "en": "My mother lives in Busan."
+      }
+    }
+  },
+  {
+    "number": 48,
+    "goal": "Explain symptoms and ask for help in a clinic or pharmacy.",
+    "scenario": "You have a headache, stomachache, cold, or injury and need simple help.",
+    "realLifeTask": "Say where it hurts, since when, and what you need.",
+    "checkpoints": [
+      "I can use 아파요 with body parts.",
+      "I can use -부터 for when the symptom started.",
+      "I can make a polite request at a clinic or pharmacy."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "어제부터 목이 아파요. 감기약이 필요해요.",
+        "en": "My throat has hurt since yesterday. I need cold medicine."
+      }
+    }
+  },
+  {
+    "number": 49,
+    "goal": "Talk about home problems and daily living needs.",
+    "scenario": "Something in your room, apartment, or dorm is broken, missing, or hard to use.",
+    "realLifeTask": "Describe one housing problem and ask someone to check or fix it.",
+    "checkpoints": [
+      "I can name common home items and rooms.",
+      "I can use 고장 났어요, 안 돼요, and 필요해요.",
+      "I can ask politely for checking, repair, or help."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "방에 불이 안 켜져요. 한번 확인해 주실 수 있어요?",
+        "en": "The light in my room will not turn on. Could you check it once?"
+      }
+    }
+  },
+  {
+    "number": 50,
+    "goal": "Talk about weather in a way that connects to plans.",
+    "scenario": "The weather changes what you wear, where you go, or whether you meet.",
+    "realLifeTask": "Say today's weather and how it changes your plan.",
+    "checkpoints": [
+      "I can describe weather with 덥다, 춥다, 흐리다, 비가 오다, and 눈이 오다.",
+      "I can connect weather to a result with -아서/어서 or -면.",
+      "I can use 것 같아요 for weather predictions."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "오늘은 비가 올 것 같아요. 그래서 우산을 가져갈 거예요.",
+        "en": "I think it will rain today. So I will bring an umbrella."
+      }
+    }
+  },
+  {
+    "number": 51,
+    "goal": "Describe clothes and appearance without sounding too blunt.",
+    "scenario": "You choose clothes, compliment a friend, or explain what someone is wearing.",
+    "realLifeTask": "Describe one outfit and add one soft opinion or compliment.",
+    "checkpoints": [
+      "I can use 입다, 신다, 쓰다, and 끼다 with the right item.",
+      "I can describe color, size, and fit before the noun.",
+      "I can soften appearance comments with 잘 어울려요 or 괜찮은 것 같아요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "오늘 입은 셔츠가 잘 어울려요. 색도 깔끔한 것 같아요.",
+        "en": "The shirt you are wearing today suits you well. I think the color is clean too."
+      }
+    }
+  },
+  {
+    "number": 52,
+    "goal": "Order and talk about Korean food beyond one-word menu names.",
+    "scenario": "You choose a dish, ask about spice, and explain taste.",
+    "realLifeTask": "Order one food and describe taste, spice, or preference.",
+    "checkpoints": [
+      "I can ask if a food is spicy or contains an ingredient.",
+      "I can describe taste with 맵다, 짜다, 달다, 싱겁다, and 고소하다.",
+      "I can use 덜 or 빼 주세요 when ordering."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "김치찌개 하나 주세요. 너무 매우면 고추를 조금만 넣어 주세요.",
+        "en": "One kimchi stew, please. If it is too spicy, please add only a little chili."
+      }
+    }
+  },
+  {
+    "number": 53,
+    "goal": "Talk about shows, music, games, and online life naturally.",
+    "scenario": "You recommend content, explain what you watched, or talk about an app.",
+    "realLifeTask": "Recommend one piece of content and say why someone might like it.",
+    "checkpoints": [
+      "I can say 보다, 듣다, 올리다, 공유하다, and 추천하다 in digital contexts.",
+      "I can describe a show, song, or game with a noun modifier.",
+      "I can explain a recommendation with -아서/어서 or -거든요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "이 드라마 한번 봐 보세요. 대사가 쉬워서 한국어 공부에 좋아요.",
+        "en": "Try watching this drama. The lines are easy, so it is good for studying Korean."
+      }
+    }
+  },
+  {
+    "number": 54,
+    "goal": "Talk about school life, assignments, and study plans.",
+    "scenario": "You ask about homework, deadlines, classes, and exams.",
+    "realLifeTask": "Say what you need to study, by when, and what you will ask the teacher.",
+    "checkpoints": [
+      "I can use 숙제, 시험, 수업, 발표, and 과제 in real sentences.",
+      "I can use -까지 for deadlines.",
+      "I can ask for explanation or feedback politely."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "금요일까지 발표를 준비해야 해요. 선생님께 피드백을 부탁드릴 거예요.",
+        "en": "I have to prepare the presentation by Friday. I will ask the teacher for feedback."
+      }
+    }
+  },
+  {
+    "number": 55,
+    "goal": "Handle transport problems and route choices in more detail.",
+    "scenario": "A bus is late, the subway is crowded, or you need to transfer.",
+    "realLifeTask": "Explain one route, one problem, and one backup plan.",
+    "checkpoints": [
+      "I can use 갈아타다, 내리다, 타다, 막히다, and 늦다.",
+      "I can use 로/으로 for route and transport.",
+      "I can explain delays with -아서/어서 or -는 바람에."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "버스가 막혀서 늦을 것 같아요. 지하철로 갈아탈게요.",
+        "en": "I think I will be late because the bus is stuck in traffic. I will transfer to the subway."
+      }
+    }
+  },
+  {
+    "number": 56,
+    "goal": "Navigate Korean social habits without sounding rude or too casual.",
+    "scenario": "You accept, decline, apologize, thank, or explain manners in a social setting.",
+    "realLifeTask": "Write one polite acceptance, refusal, or apology for a real social situation.",
+    "checkpoints": [
+      "I can use 죄송하지만 and 괜찮으시면 to soften a social sentence.",
+      "I can choose a polite expression for gifts, meals, or invitations.",
+      "I can explain a custom without overgeneralizing."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "초대해 주셔서 감사해요. 그런데 오늘은 일이 있어서 못 갈 것 같아요.",
+        "en": "Thank you for inviting me. But I think I cannot go today because I have work."
+      }
+    }
+  },
+  {
+    "number": 57,
+    "goal": "Say who makes, lets, or has someone do something.",
+    "scenario": "A parent feeds a child, a teacher has students read, or a manager seats guests.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "오늘 조카를 봐 줬어요?",
+        "romanization": "oneul jokareul bwa jwosseoyo?",
+        "en": "Did you look after your niece or nephew today?"
+      },
+      {
+        "speaker": "B",
+        "ko": "네. 밥을 먹이고 낮잠도 재웠어요.",
+        "romanization": "ne. babeul meogigo natjamdo jaewosseoyo.",
+        "en": "Yes. I fed them and put them down for a nap too."
+      },
+      {
+        "speaker": "A",
+        "ko": "밖에 나갈 때는 코트도 입혔어요?",
+        "romanization": "bakke nagal ttaeneun koteudo iphyeosseoyo?",
+        "en": "When you went outside, did you put a coat on them too?"
+      },
+      {
+        "speaker": "B",
+        "ko": "네, 입혔어요. 장난감이 아이를 웃겼어요.",
+        "romanization": "ne, iphyeosseoyo. jangnangami aireul utgyeosseoyo.",
+        "en": "Yes, I did. The toy made the child laugh."
+      },
+      {
+        "speaker": "A",
+        "ko": "이렇게 보면 누가 누구에게 무엇을 하게 했는지가 보이네요.",
+        "romanization": "ireoke bomyeon nuga nuguege mueoseul hage haenneunjiga boineyo.",
+        "en": "Seen this way, you can tell who made someone do what."
+      }
+    ],
+    "realLifeTask": "Describe one scene with a causative verb, then rewrite it with -게 하다.",
+    "checkpoints": [
+      "I can find the person causing the action and the person doing it.",
+      "I can use common causatives like 먹이다, 입히다, 앉히다, 웃기다, and 울리다.",
+      "I can compare a built-in causative with V-게 하다."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "선생님이 학생들에게 문장을 읽혔어요. 학생들이 문장을 읽게 했어요.",
+        "en": "The teacher had the students read the sentence. The teacher made the students read the sentence."
+      }
+    }
+  },
+  {
+    "number": 58,
+    "goal": "Use 겠 for formal intention, careful guessing, or polite softening.",
+    "scenario": "You promise to handle something, infer a result, or politely decline.",
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "ko": "주문 확인 부탁드려도 될까요?",
+        "romanization": "jumun hwagin butakdeuryeodo doelkkayo?",
+        "en": "Could you check my order, please?"
+      },
+      {
+        "speaker": "Staff",
+        "ko": "네, 제가 바로 확인하겠습니다.",
+        "romanization": "ne, jega baro hwaginhagetseumnida.",
+        "en": "Yes, I will check it right away."
+      },
+      {
+        "speaker": "Customer",
+        "ko": "사람이 많아서 시간이 좀 걸리겠네요.",
+        "romanization": "sarami manaseo sigani jom geolligetneyo.",
+        "en": "There are many people, so it looks like it will take some time."
+      },
+      {
+        "speaker": "Staff",
+        "ko": "네, 십 분 정도 걸리겠습니다.",
+        "romanization": "ne, sip bun jeongdo geolligetseumnida.",
+        "en": "Yes, it will take about ten minutes."
+      },
+      {
+        "speaker": "Customer",
+        "ko": "그럼 여기서 기다리겠습니다.",
+        "romanization": "geureom yeogiseo gidarigetseumnida.",
+        "en": "Then I will wait here."
+      },
+      {
+        "speaker": "Staff",
+        "ko": "준비되면 바로 알려드리겠습니다.",
+        "romanization": "junbidoemyeon baro allyeodeurigetseumnida.",
+        "en": "I will let you know as soon as it is ready."
+      }
+    ],
+    "realLifeTask": "Make one sentence with -겠습니다 and one guess with -겠네요.",
+    "checkpoints": [
+      "I can use -겠습니다 for a formal promise or service action.",
+      "I can use -겠네요 when I infer from evidence.",
+      "I can choose between 겠, -(으)ㄹ 거예요, and 것 같아요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "제가 확인하겠습니다. 자료를 보니 시간이 좀 걸리겠네요.",
+        "en": "I will check it. Looking at the materials, it looks like it will take some time."
+      }
+    }
+  },
+  {
+    "number": 59,
+    "goal": "Talk about a past choice that could have gone differently.",
+    "scenario": "You missed a bus, found out too late, or wish you had said something earlier.",
+    "dialogue": [
+      {
+        "speaker": "A",
+        "ko": "어제 면접에 늦었다면서요?",
+        "romanization": "eoje myeonjeobe neujeotdamyeonseoyo?",
+        "en": "I heard you were late for the interview yesterday?"
+      },
+      {
+        "speaker": "B",
+        "ko": "네. 버스를 놓치지 않았더라면 늦지 않았을 텐데요.",
+        "romanization": "ne. beoseureul nochiji anatdeoramyeon neutji anasseul tende-yo.",
+        "en": "Yes. If I had not missed the bus, I would not have been late."
+      },
+      {
+        "speaker": "A",
+        "ko": "미리 알았으면 택시를 탔을 거예요?",
+        "romanization": "miri arasseumyeon taeksireul tasseul geoyeyo?",
+        "en": "If you had known in advance, would you have taken a taxi?"
+      },
+      {
+        "speaker": "B",
+        "ko": "네. 조금만 일찍 나왔으면 좋았을 텐데요.",
+        "romanization": "ne. jogeumman iljjik nawasseumyeon joasseul tende-yo.",
+        "en": "Yes. It would have been nice if I had left just a little earlier."
+      },
+      {
+        "speaker": "A",
+        "ko": "다음엔 전날에 길을 확인해 두면 좋겠어요.",
+        "romanization": "daeumen jeonnare gireul hwaginhae dumyeon jokesseoyo.",
+        "en": "Next time, it would be good to check the route the day before."
+      }
+    ],
+    "realLifeTask": "Turn one real regret into an unreal conditional sentence.",
+    "checkpoints": [
+      "I can use -았/었으면 for a soft regret or wish.",
+      "I can use -았/었더라면 for an unreal past condition.",
+      "I can pair the condition with -았/었을 텐데요 or -았/었을 거예요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "미리 알았더라면 더 일찍 출발했을 거예요.",
+        "en": "If I had known in advance, I would have left earlier."
+      }
+    }
+  },
+  {
+    "number": 60,
+    "goal": "Turn actions into nouns without making the sentence heavy.",
+    "scenario": "You talk about studying, habits, goals, and things you saw someone do.",
+    "realLifeTask": "Say one habit with -기 and one concrete action with -는 것.",
+    "checkpoints": [
+      "I can use -기 for activities, goals, difficulty, and fixed forms.",
+      "I can use -는 것/거 for a specific action, fact, or event.",
+      "I can keep fixed expressions like -기로 했어요 and -기 전에."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "매일 듣기가 어려워요. 그래도 문장을 따라 말하는 것이 도움이 돼요.",
+        "en": "Listening every day is hard. Still, repeating sentences helps."
+      }
+    }
+  },
+  {
+    "number": 61,
+    "goal": "Add the speaker's reaction at the end of the sentence.",
+    "scenario": "You notice something, feel surprise, make a careful prediction, or express regret.",
+    "realLifeTask": "React to one real situation with -네요, -군요, -ㄹ걸요, or -았/었을 텐데요.",
+    "checkpoints": [
+      "I can use -네요 for a fresh realization.",
+      "I can use -군요 for a stronger or more formal realization.",
+      "I can use -ㄹ걸요 for a careful prediction and -았/었을 텐데요 for regret."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "생각보다 어렵네요. 어제 조금 더 연습했으면 좋았을 텐데요.",
+        "en": "It is harder than I expected. It would have been nice if I had practiced a little more yesterday."
+      }
+    }
+  },
+  {
+    "number": 62,
+    "goal": "Choose 은/는 or 이/가 based on what the listener needs to notice.",
+    "scenario": "You introduce new information, continue a topic, or contrast two people or things.",
+    "realLifeTask": "Describe one real message or event using both 은/는 and 이/가.",
+    "checkpoints": [
+      "I can use 이/가 for new or focused information.",
+      "I can use 은/는 for topic, contrast, or continuation.",
+      "I can build sentences like 이 문제는 이유가 중요해요."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "친구가 연락했어요. 그 친구는 보통 메시지를 보내는데 오늘은 전화했어요.",
+        "en": "A friend contacted me. That friend usually sends messages, but today they called."
+      }
+    }
+  },
+  {
+    "number": 63,
+    "goal": "Make formal writing easier to follow with clear connectors.",
+    "scenario": "You write a short report, complaint, summary, or project update.",
+    "realLifeTask": "Write four formal sentences using two connectors such as 따라서, 그러나, 즉, or 결국.",
+    "checkpoints": [
+      "I can choose a connector that matches the relationship between sentences.",
+      "I can keep formal connectors and formal endings in the same register.",
+      "I can revise a paragraph so the reader can follow the claim and reason."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "자료가 부족합니다. 따라서 결론을 다시 검토해야 합니다. 그러나 핵심 주장은 유지할 수 있습니다.",
+        "en": "The data is insufficient. Therefore, the conclusion must be reviewed again. However, the main claim can be maintained."
+      }
+    }
+  },
+  {
+    "number": 64,
+    "goal": "Read casual Korean online without carrying it into formal writing.",
+    "scenario": "You read comments, KakaoTalk messages, live chat, or social posts.",
+    "realLifeTask": "Sort three expressions into friend chat, polite chat, and formal writing.",
+    "checkpoints": [
+      "I can recognize ㅋㅋ, ㅠㅠ, ㅇㅇ, ㄹㅇ, and ㅇㅈ.",
+      "I can use casual intensifiers like 완전, 진짜, 대박, and 레전드 with the right people.",
+      "I can remove internet markers from formal email or school writing."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "친구한테는 '완전 웃겨 ㅋㅋ'라고 해도 되지만, 공식 글에는 '재미있었습니다'라고 써야 해요.",
+        "en": "To a friend, '완전 웃겨 ㅋㅋ' is okay, but in an official post, you should write 'it was interesting.'"
+      }
+    }
+  },
+  {
+    "number": 65,
+    "goal": "Put the whole course together in one message that fits the situation.",
+    "scenario": "You switch between an interview answer, a formal email, coworker chat, and a KakaoTalk reply.",
+    "realLifeTask": "Rewrite one idea for two different listeners, then check register, particles, tense, connectors, and closing.",
+    "checkpoints": [
+      "I can choose the register before choosing vocabulary or endings.",
+      "I can check particles, tense, honorifics, connector, and closing in one pass.",
+      "I can rewrite the same meaning for formal email and casual chat."
+    ],
+    "exitTask": {
+      "sampleAnswer": {
+        "ko": "메일에서는 '확인해 주셔서 감사합니다'라고 쓰고, 친구에게는 '확인해 줘서 고마워'라고 할게요.",
+        "en": "In an email I will write 'thank you for checking,' and to a friend I will say 'thanks for checking.'"
+      }
+    }
+  }
+]

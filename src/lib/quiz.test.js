@@ -42,6 +42,34 @@ describe('makeMCQuestion', () => {
     expect(q.type).toBe('listen');
     expect(q.audio).toBeTruthy();
   });
+  it('deduplicates options by visible answer text, not only entry id', () => {
+    const duplicateGlossPool = [
+      { id: 'a', hangul: '일어나다', romanization: 'ireonada', english: 'to get up' },
+      { id: 'b', hangul: '깨다', romanization: 'kkaeda', english: 'to get up' },
+      { id: 'c', hangul: '자다', romanization: 'jada', english: 'to sleep' },
+      { id: 'd', hangul: '먹다', romanization: 'meokda', english: 'to eat' },
+      { id: 'e', hangul: '가다', romanization: 'gada', english: 'to go' },
+    ];
+    const q = makeMCQuestion(duplicateGlossPool, { direction: 'koToEn' }, () => 0.999);
+
+    expect(q.options).toHaveLength(4);
+    expect(new Set(q.options).size).toBe(q.options.length);
+    expect(q.options).toContain(q.answer);
+  });
+  it('deduplicates Korean options for enToKo questions', () => {
+    const duplicateHangulPool = [
+      { id: 'a', hangul: '택시', romanization: 'taeksi', english: 'taxi' },
+      { id: 'b', hangul: '택시', romanization: 'taeksi', english: 'cab' },
+      { id: 'c', hangul: '버스', romanization: 'beoseu', english: 'bus' },
+      { id: 'd', hangul: '기차', romanization: 'gicha', english: 'train' },
+      { id: 'e', hangul: '지하철', romanization: 'jihacheol', english: 'subway' },
+    ];
+    const q = makeMCQuestion(duplicateHangulPool, { direction: 'enToKo' }, () => 0.999);
+
+    expect(q.options).toHaveLength(4);
+    expect(new Set(q.options).size).toBe(q.options.length);
+    expect(q.options).toContain(q.answer);
+  });
 });
 
 describe('buildQuiz', () => {

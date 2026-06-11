@@ -13,9 +13,21 @@ export function shuffle(arr, rng = Math.random) {
 export function makeMCQuestion(pool, { direction = 'koToEn' } = {}, rng = Math.random) {
   const shuffled = shuffle(pool, rng);
   const target = shuffled[0];
-  const distractors = shuffled.slice(1, 4);
-  const choices = shuffle([target, ...distractors], rng);
   const optionText = (e) => (direction === 'koToEn' ? e.english : e.hangul);
+  const answer = optionText(target);
+  const seen = new Set([answer]);
+  const distractors = [];
+
+  for (const candidate of shuffled.slice(1)) {
+    const text = optionText(candidate);
+    if (!text || seen.has(text)) continue;
+    seen.add(text);
+    distractors.push(candidate);
+    if (distractors.length === 3) break;
+  }
+
+  const choices = shuffle([target, ...distractors], rng);
+
   return {
     entryId: target.id,
     type: direction === 'listen' ? 'listen' : 'mc',
@@ -24,7 +36,7 @@ export function makeMCQuestion(pool, { direction = 'koToEn' } = {}, rng = Math.r
     promptRomanization: direction === 'koToEn' ? target.romanization : '',
     audio: target.hangul,
     options: choices.map(optionText),
-    answer: optionText(target),
+    answer,
     reason: target.shortExplanation || `${target.hangul} (${target.romanization}) = ${target.english}`,
   };
 }

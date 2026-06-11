@@ -6,11 +6,13 @@
   import { dueIds, reviews, masteryOf } from '../lib/srs.js';
   import { study, streak } from '../lib/progress.js';
   import { mistakes } from '../lib/mistakes.js';
+  import { isTrackStart } from '../lib/curriculumStructure.js';
   import { buildTodayMission, chapterItemIds } from '../lib/studyLinks.js';
   import { push } from 'svelte-spa-router';
   import EntryCard from '../lib/components/EntryCard.svelte';
   import EntryDetail from '../lib/components/EntryDetail.svelte';
   import Sheet from '../lib/components/Sheet.svelte';
+  import ChapterCurriculumPanel from '../lib/components/ChapterCurriculumPanel.svelte';
   import LearnMissionPanel from '../lib/components/LearnMissionPanel.svelte';
   import AudioButton from '../lib/components/AudioButton.svelte';
   import RomanizationLine from '../lib/components/RomanizationLine.svelte';
@@ -72,6 +74,7 @@
   $: courseMastery = masteryOf($reviews, allItemIds);
   $: chMastery = (ch) => masteryOf($reviews, chapterItemIds(ch));
   $: currentIds = chapter ? chapterItemIds(chapter) : [];
+  $: prerequisites = chapter ? (chapter.prerequisiteChapterIds || []).map((id) => chapters.find((item) => item.id === id)).filter(Boolean) : [];
   $: currentMastery = chapter ? masteryOf($reviews, currentIds) : { total: 0, started: 0, mastered: 0, pct: 0 };
   $: allDueIds = dueIds($reviews);
   $: dueSet = new Set(allDueIds);
@@ -128,9 +131,9 @@
     </button>
 
     <div class="path">
-      {#each chapters as ch}
+      {#each chapters as ch, i}
         {@const m = chMastery(ch)}
-        {#if ch.number === 12}<div class="path-divider"><span>Intermediate · B1</span></div>{/if}
+        {#if isTrackStart(ch, chapters[i - 1])}<div class="path-divider"><span>{ch.curriculumTrack.label}</span></div>{/if}
         <button class="node" on:click={() => openChapter(ch)}>
           <span class="num" class:done={$lessonProgress.has(ch.id)}>{$lessonProgress.has(ch.id) ? '✓' : ch.number}</span>
           <span class="node-main"><strong>{ch.title}</strong><span>{ch.goal}</span></span>
@@ -200,6 +203,8 @@
         </button>
       </div>
     </div>
+
+    <ChapterCurriculumPanel {chapter} {prerequisites} />
 
     {#if (chapter.dialogue || []).length}
       <div class="block">

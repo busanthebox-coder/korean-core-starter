@@ -23,8 +23,32 @@ describe('data layer', () => {
   });
   it('exposes dialogues and guide tracks', () => {
     expect(dialogues.length).toBeGreaterThanOrEqual(8);
-    expect(guideTracks.length).toBeGreaterThanOrEqual(5);
+    expect(guideTracks.length).toBeGreaterThanOrEqual(6);
     expect(guideTracks.some((track) => track.id === 'track-emergency-work')).toBe(true);
+    expect(guideTracks.some((track) => track.id === 'track-life-apps')).toBe(true);
+  });
+  it('keeps the Korean life apps guide practical and linked to study items', () => {
+    const appTrack = guideTracks.find((track) => track.id === 'track-life-apps');
+    const unitIds = new Set((appTrack?.units || []).map((unit) => unit.id));
+
+    expect(appTrack?.units?.length).toBe(5);
+    expect(unitIds).toEqual(
+      new Set([
+        'guide-f-naver-map',
+        'guide-f-baemin',
+        'guide-f-kakao-t',
+        'guide-f-verification',
+        'guide-f-translation-dictionary',
+      ]),
+    );
+
+    for (const unit of appTrack?.units || []) {
+      expect(unit.keyPhrases?.length, unit.id).toBeGreaterThanOrEqual(5);
+      expect(unit.beginnerGuide?.length, unit.id).toBeGreaterThanOrEqual(3);
+      expect(unit.steps?.length, unit.id).toBeGreaterThanOrEqual(5);
+      expect(unit.deepLinks?.length, unit.id).toBeGreaterThanOrEqual(1);
+      expect(unit.linkedEntryIds?.every((id) => !!findEntry(id)), unit.id).toBe(true);
+    }
   });
 
   describe('truthful B1 tagging', () => {

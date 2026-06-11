@@ -1,0 +1,266 @@
+[
+  {
+    "id": "grammar-question-words",
+    "type": "question",
+    "hangul": "의문사",
+    "romanization": "uimunsa",
+    "title": "Question words",
+    "plainEnglish": "누구, 어디, 언제, 뭐, 왜, 어떻게 turn a sentence into an open question.",
+    "whenToUse": "Use these when a yes/no answer is not enough and you need one missing detail.",
+    "attachmentRule": "Put the question word where the answer would normally appear: 누가 왔어요?, 어디에 가요?, 왜 못 가요?",
+    "contrastWith": "A plain rising tone makes a yes/no question. A question word asks for specific missing information.",
+    "sentenceFrames": ["누가 ___해요?", "어디에 가요?", "왜 ___해요?"],
+    "examples": [
+      { "ko": "누가 왔어요?", "romanization": "nuga wasseoyo?", "en": "Who came?" },
+      { "ko": "어디에 가요?", "romanization": "eodie gayo?", "en": "Where are you going?" },
+      { "ko": "왜 못 가요?", "romanization": "wae mot gayo?", "en": "Why can't you go?" }
+    ],
+    "commonMistakes": ["Do not place every question word at the front as if it were English.", "Do not answer 왜 with a place or 어디 with a reason."],
+    "practiceItems": [
+      { "prompt": "Ask who came.", "ko": "누가 왔어요?", "answer": "누가 왔어요?" },
+      { "prompt": "Ask where someone is going.", "ko": "어디에 가요?", "answer": "어디에 가요?" }
+    ],
+    "beginnerExplanation": "Korean question words usually stay inside the normal sentence slot. If the missing answer is a person, use 누구/누가; if it is a place, use 어디; if it is a reason, use 왜.",
+    "studyOrder": ["Pick the missing information.", "Choose the matching Korean question word.", "Place it in the answer slot.", "Keep the ending polite unless the context is casual."]
+  },
+  {
+    "id": "grammar-speech-levels",
+    "type": "ending",
+    "hangul": "말체",
+    "romanization": "malche",
+    "title": "Speech levels",
+    "plainEnglish": "Korean endings change by situation: 해요체 for everyday politeness, 합쇼체 for formal settings, and 반말 only with close permission.",
+    "whenToUse": "Use 해요체 as the safe default for adult everyday speech. Use formal forms for announcements, service, interviews, and presentations.",
+    "attachmentRule": "Keep the same stem and change the ending/register: 가요, 갑니다, 가.",
+    "contrastWith": "Honorific 시 respects the person in the sentence; speech level manages your relationship with the listener.",
+    "sentenceFrames": ["___해요.", "___합니다.", "___해."],
+    "examples": [
+      { "ko": "지금 가요.", "romanization": "jigeum gayo.", "en": "I'm going now." },
+      { "ko": "지금 갑니다.", "romanization": "jigeum gamnida.", "en": "I am going now. (formal)" },
+      { "ko": "지금 가.", "romanization": "jigeum ga.", "en": "I'm going now. (casual)" }
+    ],
+    "commonMistakes": ["Do not switch to 반말 just because the sentence is short.", "Do not use formal 합쇼체 everywhere; it can sound stiff in close everyday talk."],
+    "practiceItems": [
+      { "prompt": "Make 가다 safe and polite.", "ko": "가요.", "answer": "가요." },
+      { "prompt": "Make 하다 formal.", "ko": "합니다.", "answer": "합니다." }
+    ],
+    "beginnerExplanation": "Speech level is not just grammar decoration; it tells the listener how formal, close, or careful the situation is. When unsure, 해요체 is the safest spoken default.",
+    "studyOrder": ["Identify the listener.", "Choose safe politeness first.", "Add honorific 시 only when the subject needs respect.", "Check whether the situation is casual, service, or formal."]
+  },
+  {
+    "id": "grammar-particle-ui",
+    "type": "particle",
+    "hangul": "N의",
+    "romanization": "N-ui",
+    "title": "Possession / genitive",
+    "plainEnglish": "Use 의 to mark possession or a noun-to-noun relationship, especially in written or careful Korean.",
+    "whenToUse": "Use 의 for my/your/someone's things, institutional names, and careful noun phrases.",
+    "attachmentRule": "Attach 의 after the owner or first noun: 친구의 가방, 한국의 날씨.",
+    "contrastWith": "In fast spoken Korean, 의 is often dropped or pronounced like 에, but written Korean usually keeps it.",
+    "sentenceFrames": ["N의 N", "제 N", "한국의 ___"],
+    "examples": [
+      { "ko": "제 이름은 하나예요.", "romanization": "je ireumeun hanayeyo.", "en": "My name is Hana." },
+      { "ko": "친구의 가방이에요.", "romanization": "chingu-ui gabang-ieyo.", "en": "It is my friend's bag." },
+      { "ko": "한국의 날씨가 좋아요.", "romanization": "hangug-ui nalssiga joayo.", "en": "Korea's weather is nice." }
+    ],
+    "commonMistakes": ["Do not attach 의 after the possessed noun.", "Do not overuse 의 in every spoken noun phrase when natural Korean would omit it."],
+    "practiceItems": [
+      { "prompt": "Say 'my book' carefully.", "ko": "제 책", "answer": "제 책" },
+      { "prompt": "Say 'friend's house'.", "ko": "친구의 집", "answer": "친구의 집" }
+    ],
+    "beginnerExplanation": "의 links two nouns. The first noun owns, labels, or narrows the second noun. 제 is the common reduced form for 저의.",
+    "studyOrder": ["Find the owner or first noun.", "Attach 의 to that noun.", "Put the main noun after it.", "Decide whether spoken Korean would naturally shorten it."]
+  },
+  {
+    "id": "grammar-copula-ida",
+    "type": "ending",
+    "hangul": "이다",
+    "romanization": "ida",
+    "title": "The copula 이다",
+    "plainEnglish": "이다 turns a noun into a sentence and changes shape in past, reason, background, and contrast clauses.",
+    "whenToUse": "Use 이다 when the predicate is a noun: student, doctor, plan, problem, reason.",
+    "attachmentRule": "After consonants use 이에요, after vowels often use 예요. In clauses it becomes 이라서, 이고, 이면, 이었어요/였어요.",
+    "contrastWith": "Adjectives and verbs do not need 이다. 학생이에요 is right, but 가다이에요 is not.",
+    "sentenceFrames": ["N이에요/예요.", "N이었어요/였어요.", "N이라서 ___."],
+    "examples": [
+      { "ko": "학생이에요.", "romanization": "haksaeng-ieyo.", "en": "I am a student." },
+      { "ko": "의사였어요.", "romanization": "uisayeosseoyo.", "en": "I was a doctor." },
+      { "ko": "친구라서 도와줬어요.", "romanization": "chinguraseo dowajwosseoyo.", "en": "Because they are my friend, I helped." }
+    ],
+    "commonMistakes": ["Do not add 이다 after a verb stem.", "Do not forget the noun-final consonant/vowel split for 이에요/예요."],
+    "practiceItems": [
+      { "prompt": "Say 'It is a book.'", "ko": "책이에요.", "answer": "책이에요." },
+      { "prompt": "Say 'It was coffee.'", "ko": "커피였어요.", "answer": "커피였어요." }
+    ],
+    "beginnerExplanation": "이다 is the noun sentence-maker. If the last meaningful word is a noun, Korean needs a copula shape to finish the sentence.",
+    "studyOrder": ["Check whether the predicate is a noun.", "Choose 이에요/예요 in polite speech.", "Change 이다 when connecting clauses.", "Do not attach it to action verbs."]
+  },
+  {
+    "id": "grammar-advanced-get",
+    "type": "ending",
+    "hangul": "겠",
+    "romanization": "get",
+    "title": "Volition, inference, and softening with 겠",
+    "plainEnglish": "겠 can show the speaker will do something, infer something from evidence, or soften formal speech.",
+    "whenToUse": "Use 겠 for formal willingness, careful guesses, empathy, and service-style polite statements.",
+    "attachmentRule": "Attach 겠 to a verb or adjective stem before the final ending: 하겠습니다, 맛있겠어요, 힘드시겠어요.",
+    "contrastWith": "Plain future -(으)ㄹ 거예요 predicts or plans. 겠 often sounds more formal, inferential, or service-oriented.",
+    "sentenceFrames": ["제가 하겠습니다.", "맛있겠어요.", "바쁘시겠어요."],
+    "examples": [
+      { "ko": "제가 예약하겠습니다.", "romanization": "jega yeyakagesseumnida.", "en": "I will make the reservation." },
+      { "ko": "비가 오겠어요.", "romanization": "biga ogesseoyo.", "en": "It looks like it will rain." },
+      { "ko": "많이 힘드시겠어요.", "romanization": "mani himdeusigesseoyo.", "en": "That must be very hard for you." }
+    ],
+    "commonMistakes": ["Do not treat 겠 as the only future tense.", "Do not use service-style 겠 forms in every casual sentence."],
+    "practiceItems": [
+      { "prompt": "Say formally: 'I will check.'", "ko": "확인하겠습니다.", "answer": "확인하겠습니다." },
+      { "prompt": "Guess: 'It looks delicious.'", "ko": "맛있겠어요.", "answer": "맛있겠어요." }
+    ],
+    "beginnerExplanation": "겠 is a control knob for stance. It can mean 'I will', 'it looks like', or 'that must be', depending on who controls the action and what evidence the speaker has.",
+    "studyOrder": ["Decide whether this is will, guess, or empathy.", "Attach 겠 to the stem.", "Choose the right politeness ending.", "Compare with -(으)ㄹ 거예요 before using it as future."]
+  },
+  {
+    "id": "grammar-counterfactual-conditionals",
+    "type": "connector",
+    "hangul": "-았/었더라면",
+    "romanization": "-at/eotdeoramyeon",
+    "title": "Unreal conditionals",
+    "plainEnglish": "Use past conditional frames to talk about unreal results, regrets, and imagined alternatives.",
+    "whenToUse": "Use this when the condition did not happen and you are imagining a different result.",
+    "attachmentRule": "Attach 았/었더라면 to the past stem, then state the imagined result with -(으)ㄹ 텐데요 or -(으)ㄹ 거예요.",
+    "contrastWith": "Plain -(으)면 can be real or future. -았/었더라면 strongly points to an unreal past condition.",
+    "sentenceFrames": ["V-았/었더라면 ___을/를 텐데요.", "N이었다면 ___.", "A/V-았/었으면 좋았을 텐데요."],
+    "examples": [
+      { "ko": "일찍 왔더라면 만났을 텐데요.", "romanization": "iljjik watdeoramyeon mannasseul tendeyo.", "en": "If I had come early, I would have met them." },
+      { "ko": "시간이 있었다면 갔을 거예요.", "romanization": "sigani isseotdamyeon gasseul geoyeyo.", "en": "If I had had time, I would have gone." },
+      { "ko": "공부했으면 좋았을 텐데요.", "romanization": "gongbuhaesseumyeon joasseul tendeyo.", "en": "It would have been good if I had studied." }
+    ],
+    "commonMistakes": ["Do not use this for a simple future condition.", "Do not forget that the condition is already unreal or regretted."],
+    "practiceItems": [
+      { "prompt": "Say: If I had known, I would have gone.", "ko": "알았더라면 갔을 거예요.", "answer": "알았더라면 갔을 거예요." },
+      { "prompt": "Say: If I had time, I would have helped.", "ko": "시간이 있었다면 도와줬을 거예요.", "answer": "시간이 있었다면 도와줬을 거예요." }
+    ],
+    "beginnerExplanation": "This form is for a path that did not happen. It often carries regret, relief, or reflection about a different possible outcome.",
+    "studyOrder": ["Confirm the condition did not happen.", "Make the condition past.", "Attach 더라면 or use 있었다면/이었다면.", "Make the result imagined, not factual."]
+  },
+  {
+    "id": "grammar-nominalization-gi-geot",
+    "type": "modifier",
+    "hangul": "기 / 는 것",
+    "romanization": "gi / neun geot",
+    "title": "Nominalisation contrast",
+    "plainEnglish": "기 names an action as an abstract activity; 는 것 packages a more specific event or fact.",
+    "whenToUse": "Use 기 for general activities and evaluation. Use 는 것 when describing an event, fact, habit, or thing someone does.",
+    "attachmentRule": "Attach 기 directly to the verb stem. For 는 것, use the present modifier before 것.",
+    "contrastWith": "기 is compact and activity-like; 는 것 is heavier and more event-like.",
+    "sentenceFrames": ["V-기 쉽다/어렵다", "V-는 것이 중요하다", "A/V-다는 것"],
+    "examples": [
+      { "ko": "한국어 읽기가 어려워요.", "romanization": "hangugeo ilgiga eoryeowoyo.", "en": "Reading Korean is difficult." },
+      { "ko": "매일 듣는 것이 중요해요.", "romanization": "maeil deutneun geosi jungyohaeyo.", "en": "Listening every day is important." },
+      { "ko": "늦었다는 걸 몰랐어요.", "romanization": "neujeotdaneun geol mollasseoyo.", "en": "I didn't know that it was late." }
+    ],
+    "commonMistakes": ["Do not use 기 for every English gerund.", "Do not forget 것 when packaging a full clause as a noun."],
+    "practiceItems": [
+      { "prompt": "Say: Speaking is hard.", "ko": "말하기가 어려워요.", "answer": "말하기가 어려워요." },
+      { "prompt": "Say: Resting is important.", "ko": "쉬는 것이 중요해요.", "answer": "쉬는 것이 중요해요." }
+    ],
+    "beginnerExplanation": "Both forms let a verb behave like a noun. 기 feels like naming an activity; 는 것 feels like pointing to a specific thing, fact, or event.",
+    "studyOrder": ["Ask whether you mean an activity or a fact/event.", "Use 기 for activity labels.", "Use 는 것 for packaged clauses.", "Check the particle after the nominalized phrase."]
+  },
+  {
+    "id": "grammar-written-connectors",
+    "type": "connector",
+    "hangul": "따라서 / 그러나 / 즉",
+    "romanization": "ttaraseo / geureona / jeuk",
+    "title": "Formal written connectors",
+    "plainEnglish": "Formal Korean writing uses connectors like 따라서, 그러나, 반면에, 즉, and 결국 to organise argument flow.",
+    "whenToUse": "Use these in essays, notices, reports, news-style writing, and structured explanations.",
+    "attachmentRule": "Use them at the beginning of the next sentence or clause to show the relationship to the previous idea.",
+    "contrastWith": "Spoken connectors like 그래서 and 근데 are natural in conversation but often too casual for formal writing.",
+    "sentenceFrames": ["따라서 ___입니다.", "그러나 ___입니다.", "즉, ___입니다."],
+    "examples": [
+      { "ko": "비가 왔습니다. 따라서 경기가 취소됐습니다.", "romanization": "biga watseumnida. ttaraseo gyeonggiga chwiso dwaetseumnida.", "en": "It rained. Therefore, the game was canceled." },
+      { "ko": "값은 비쌉니다. 그러나 품질이 좋습니다.", "romanization": "gapseun bissamnida. geureona pumjiri jotseumnida.", "en": "The price is high. However, the quality is good." },
+      { "ko": "즉, 다시 확인해야 합니다.", "romanization": "jeuk, dasi hwaginhaeya hamnida.", "en": "In other words, we need to check again." }
+    ],
+    "commonMistakes": ["Do not mix very casual endings with formal written connectors.", "Do not use 따라서 when the second sentence is not a result."],
+    "practiceItems": [
+      { "prompt": "Connect: It snowed. Therefore, school is closed.", "ko": "눈이 왔습니다. 따라서 학교가 쉽니다.", "answer": "눈이 왔습니다. 따라서 학교가 쉽니다." },
+      { "prompt": "Start a contrast sentence with 그러나.", "ko": "그러나 시간이 부족합니다.", "answer": "그러나 시간이 부족합니다." }
+    ],
+    "beginnerExplanation": "These words are road signs for written logic. They tell the reader whether the next sentence is a result, contrast, summary, or conclusion.",
+    "studyOrder": ["Name the logic relation.", "Choose the connector.", "Keep the sentence ending formal enough.", "Check whether the previous sentence really supports the connector."]
+  },
+  {
+    "id": "grammar-internet-language",
+    "type": "register",
+    "hangul": "ㅋㅋ / ㅠㅠ / 대박",
+    "romanization": "keukeu / yuyu / daebak",
+    "title": "Internet language and intensifiers",
+    "plainEnglish": "Korean digital language uses consonant emoticons, shortenings, and casual intensifiers that must stay in informal contexts.",
+    "whenToUse": "Use these in chats with friends, comments, memes, or casual texting, not in formal writing.",
+    "attachmentRule": "Place them like tone markers around short casual sentences: ㅋㅋ, ㅠㅠ, 진짜, 완전, 대박.",
+    "contrastWith": "Polite email, school writing, workplace notices, and customer messages need standard vocabulary instead.",
+    "sentenceFrames": ["진짜 ___", "완전 ___", "ㅋㅋ / ㅠㅠ"],
+    "examples": [
+      { "ko": "이거 진짜 대박이에요.", "romanization": "igeo jinjja daebagieyo.", "en": "This is really amazing." },
+      { "ko": "오늘 완전 힘들어요 ㅠㅠ.", "romanization": "oneul wanjeon himdeureoyo yuyu.", "en": "Today is so hard." },
+      { "ko": "ㅋㅋ 알겠어.", "romanization": "keukeu algesseo.", "en": "Haha, got it." }
+    ],
+    "commonMistakes": ["Do not use ㅋㅋ or ㅠㅠ in formal assignments or business messages.", "Do not assume every internet expression is safe with older or unfamiliar listeners."],
+    "practiceItems": [
+      { "prompt": "Make a casual chat reaction: That's amazing.", "ko": "대박이에요.", "answer": "대박이에요." },
+      { "prompt": "Make a friend-chat laugh response.", "ko": "ㅋㅋ 알겠어.", "answer": "ㅋㅋ 알겠어." }
+    ],
+    "beginnerExplanation": "Internet Korean is mostly about register. The words may be simple, but the social setting matters more than the literal meaning.",
+    "studyOrder": ["Identify the channel.", "Check your relationship with the reader.", "Choose casual or standard wording.", "Remove internet markers before formal writing."]
+  },
+  {
+    "id": "grammar-production-checklist",
+    "type": "production",
+    "hangul": "통합 산출 점검",
+    "romanization": "tonghap sanchul jeomgeom",
+    "title": "Integrated production checklist",
+    "plainEnglish": "Before producing Korean, check purpose, listener, register, particles, verb shape, tense, connector, and closing.",
+    "whenToUse": "Use this before a final speaking or writing task, especially when combining several grammar points.",
+    "attachmentRule": "Run the checks in order: purpose, listener, register, sentence core, particles, tense, connector, ending.",
+    "contrastWith": "Do not only translate English word by word. Korean output needs sentence role, listener relationship, and ending choice.",
+    "sentenceFrames": ["누구에게 말해요?", "무슨 목적이에요?", "끝맺음은 맞아요?"],
+    "examples": [
+      { "ko": "저는 내일 회의에 갈 수 있어요.", "romanization": "jeoneun naeil hoeuie gal su isseoyo.", "en": "I can go to the meeting tomorrow." },
+      { "ko": "비가 와서 조금 늦을 것 같아요.", "romanization": "biga waseo jogeum neujeul geot gatayo.", "en": "I think I will be a little late because it is raining." },
+      { "ko": "확인해 주셔서 감사합니다.", "romanization": "hwaginhae jusyeoseo gamsahamnida.", "en": "Thank you for checking." }
+    ],
+    "commonMistakes": ["Do not stop checking after vocabulary is correct.", "Do not mix casual slang with formal closings unless the task asks for register contrast."],
+    "practiceItems": [
+      { "prompt": "Say one polite sentence about tomorrow's plan.", "ko": "내일 친구를 만날 거예요.", "answer": "내일 친구를 만날 거예요." },
+      { "prompt": "Write a formal thank-you closing.", "ko": "감사합니다.", "answer": "감사합니다." }
+    ],
+    "beginnerExplanation": "This card is a final quality gate. It helps you catch the things learners miss after they already know the words: particles, endings, tense, connectors, and social tone.",
+    "studyOrder": ["State the communicative purpose.", "Choose the listener/register.", "Build the Korean sentence core.", "Check particles and endings.", "Read it aloud once before submitting."]
+  },
+  {
+    "id": "grammar-sound-tensification",
+    "type": "sound",
+    "hangul": "경음화",
+    "romanization": "gyeongeumhwa",
+    "title": "Tensification",
+    "plainEnglish": "Some consonants become tense after blocked final consonants, so written Korean and spoken Korean may differ.",
+    "whenToUse": "Use this when a following consonant sounds stronger than its spelling after a 받침.",
+    "attachmentRule": "Notice the 받침 before ㄱ, ㄷ, ㅂ, ㅅ, or ㅈ; the next sound may tighten in pronunciation.",
+    "contrastWith": "Liaison carries a final consonant into a vowel. Tensification strengthens the next consonant instead.",
+    "sentenceFrames": ["국밥 -> 국빱", "학교 -> 학꾜", "읽다 -> 익따"],
+    "examples": [
+      { "ko": "국밥", "romanization": "gukbap [gukppap]", "en": "rice soup, often pronounced with a tense pp sound" },
+      { "ko": "학교", "romanization": "hakgyo [hakkyo]", "en": "school, often pronounced with a tense kk sound" },
+      { "ko": "읽다", "romanization": "ikda [iktta]", "en": "to read, often pronounced with a tense tt sound" }
+    ],
+    "commonMistakes": ["Do not expect spelling and sound to match perfectly.", "Do not add an extra vowel between the two consonants."],
+    "practiceItems": [
+      { "prompt": "Read 국밥 with the common tense sound.", "ko": "국빱", "answer": "국빱" },
+      { "prompt": "Read 학교 with the common tense sound.", "ko": "학꾜", "answer": "학꾜" }
+    ],
+    "beginnerExplanation": "Korean spelling keeps word history visible, but speech often tightens the next consonant after a final consonant. Recognising the pattern makes listening less surprising.",
+    "studyOrder": ["Find the 받침.", "Look at the next consonant.", "Listen for a tighter sound.", "Keep the original spelling when writing."]
+  }
+]

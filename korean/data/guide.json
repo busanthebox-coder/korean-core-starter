@@ -2243,6 +2243,550 @@
           "notes": "For immediate danger, do not use 120 first — call 112 or 119. Use 120 for city-service questions, living information, or non-emergency complaints."
         }
       ]
+    },
+    {
+      "id": "track-life-apps",
+      "letter": "F",
+      "title": "Korean Life Apps",
+      "summary": "The app layer of daily life in Korea: Naver Map for places, Baemin for food delivery, Kakao T for taxis, identity verification for Korean services, and Papago/Naver Dictionary for checking Korean fast.",
+      "units": [
+        {
+          "id": "guide-f-naver-map",
+          "title": "Use Naver Map for Directions and Places",
+          "situation": "You need to find a cafe, hospital, station exit, bus route, or walking direction in a Korean map app.",
+          "goal": "I can search a Korean place name, ask for the address, check a route, and show a saved location to a driver or staff member.",
+          "keyPhrases": [
+            {
+              "ko": "네이버 지도에서 찾아볼게요.",
+              "romanization": "neibeo jidoeseo chajabolgeyo.",
+              "en": "I will look it up on Naver Map.",
+              "note": "지도 = map. -에서 marks the app or place where the action happens."
+            },
+            {
+              "ko": "주소를 보내 주세요.",
+              "romanization": "jusoreul bonae juseyo.",
+              "en": "Please send me the address.",
+              "note": "주소 is safer than only a building name, especially for taxis and delivery."
+            },
+            {
+              "ko": "여기 몇 번 출구예요?",
+              "romanization": "yeogi myeot beon chulguyeyo?",
+              "en": "Which exit is this?",
+              "note": "Subway exits matter in Korea. The same station can have many exits."
+            },
+            {
+              "ko": "걸어서 얼마나 걸려요?",
+              "romanization": "georeoseo eolmana geollyeoyo?",
+              "en": "How long does it take on foot?",
+              "note": "걸어서 = by walking. 얼마나 걸려요? asks duration."
+            },
+            {
+              "ko": "이 주소로 가 주세요.",
+              "romanization": "i jusoro ga juseyo.",
+              "en": "Please take me to this address.",
+              "note": "Show the Korean address on your phone if pronunciation is hard."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "You",
+              "ko": "여기 주소 좀 보내 주세요.",
+              "romanization": "yeogi juso jom bonae juseyo.",
+              "en": "Please send me the address here."
+            },
+            {
+              "speaker": "Friend",
+              "ko": "네이버 지도 링크 보낼게요.",
+              "romanization": "neibeo jido linkeu bonaelgeyo.",
+              "en": "I will send a Naver Map link."
+            },
+            {
+              "speaker": "You",
+              "ko": "고마워요. 몇 번 출구로 가면 돼요?",
+              "romanization": "gomawoyo. myeot beon chulguro gamyeon dwaeyo?",
+              "en": "Thanks. Which exit should I go to?"
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "Search in Korean first",
+              "body": "Korean place names often work better in Hangul than in English. If you only know the English name, copy the Korean name from the business card, website, or chat message."
+            },
+            {
+              "title": "Save the address line",
+              "body": "For taxis, deliveries, clinics, and appointments, keep the Korean address and building name ready. A screenshot can be faster than trying to pronounce it."
+            },
+            {
+              "title": "Check exit and floor",
+              "body": "Many places are near a specific subway exit or inside a building. Look for 출구 (exit), 층 (floor), and 호 (unit number)."
+            }
+          ],
+          "checkpoints": [
+            "I can ask someone to send a Korean address or map link.",
+            "I can ask which subway exit to use.",
+            "I can show a saved address to a taxi driver or staff member.",
+            "I know that Korean names usually search better than English names."
+          ],
+          "linkedEntryIds": [
+            "word-ext-159",
+            "word-noun-022",
+            "word-ext-631",
+            "expr-372",
+            "expr-384",
+            "expr-393",
+            "expr-790",
+            "expr-791",
+            "word-verb-449",
+            "word-verb-450"
+          ],
+          "steps": [
+            "Copy or type the Korean place name into Naver Map.",
+            "Check the subway exit, bus stop, walking time, and building floor.",
+            "Save or screenshot the Korean address before you leave.",
+            "If you take a taxi, show the address and say 이 주소로 가 주세요.",
+            "If you get lost, ask 여기가 어디예요? and show the map screen."
+          ],
+          "deepLinks": [
+            {
+              "label": "Naver Map",
+              "url": "https://map.naver.com/",
+              "note": "Map, place search, public transit, walking, and driving directions."
+            }
+          ],
+          "costs": "Using the map is free. Data charges depend on your mobile plan.",
+          "notes": "KakaoMap and Google Maps can also help, but Naver Map often has stronger Korean local search and place details."
+        },
+        {
+          "id": "guide-f-baemin",
+          "title": "Order Food on Baemin",
+          "situation": "You want food delivered to your home, office, dorm, or hotel and need to read common order and delivery words.",
+          "goal": "I can find a menu item, check delivery fee and minimum order, write a delivery memo, and respond if the rider calls.",
+          "keyPhrases": [
+            {
+              "ko": "배민으로 주문할게요.",
+              "romanization": "baemineuro jumunhalgeyo.",
+              "en": "I will order through Baemin.",
+              "note": "배민 is the common short name for 배달의민족."
+            },
+            {
+              "ko": "문 앞에 놔 주세요.",
+              "romanization": "mun ape nwa juseyo.",
+              "en": "Please leave it at the door.",
+              "note": "A common delivery memo for contactless drop-off."
+            },
+            {
+              "ko": "일회용 수저 빼 주세요.",
+              "romanization": "irhoeyong sujeo ppae juseyo.",
+              "en": "Please leave out disposable spoons and chopsticks.",
+              "note": "Useful if you do not need utensils."
+            },
+            {
+              "ko": "주소가 맞아요.",
+              "romanization": "jusoga majayo.",
+              "en": "The address is correct.",
+              "note": "Say this if the rider calls to confirm."
+            },
+            {
+              "ko": "배달이 얼마나 걸려요?",
+              "romanization": "baedari eolmana geollyeoyo?",
+              "en": "How long will delivery take?",
+              "note": "얼마나 걸려요? asks duration."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "Rider",
+              "ko": "주소가 여기 맞나요?",
+              "romanization": "jusoga yeogi mannayo?",
+              "en": "Is this the right address?"
+            },
+            {
+              "speaker": "You",
+              "ko": "네, 맞아요. 문 앞에 놔 주세요.",
+              "romanization": "ne, majayo. mun ape nwa juseyo.",
+              "en": "Yes, that is right. Please leave it at the door."
+            },
+            {
+              "speaker": "Rider",
+              "ko": "알겠습니다.",
+              "romanization": "algesseumnida.",
+              "en": "Understood."
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "Read the four money lines",
+              "body": "Before ordering, check 배달비 (delivery fee), 최소주문금액 (minimum order), 예상 시간 (estimated time), and 결제금액 (total payment)."
+            },
+            {
+              "title": "Delivery memo matters",
+              "body": "Use 요청사항 or 배달 요청사항 for notes like 문 앞에 놔 주세요. Keep it short and polite."
+            },
+            {
+              "title": "Be ready for a phone call",
+              "body": "Riders may call if the entrance, gate code, or address is unclear. Practice 주소가 맞아요, 문 앞에 놔 주세요, and 잠시만요."
+            }
+          ],
+          "checkpoints": [
+            "I can recognize delivery fee, minimum order, estimated time, and total payment.",
+            "I can write a simple delivery memo.",
+            "I can confirm my address if the rider calls.",
+            "I can request no disposable utensils."
+          ],
+          "linkedEntryIds": [
+            "word-ext-159",
+            "word-verb-028",
+            "word-ext-587",
+            "word-ext-551",
+            "word-ext-558",
+            "word-ext-561",
+            "word-ext-594",
+            "word-ext-759",
+            "expr-470",
+            "expr-710"
+          ],
+          "steps": [
+            "Set your delivery address in Korean and check the building name.",
+            "Pick the restaurant and menu, then check 배달비 and 최소주문금액.",
+            "Add options and coupons before payment.",
+            "Write a short delivery memo if needed.",
+            "Keep your phone nearby until the food arrives."
+          ],
+          "deepLinks": [
+            {
+              "label": "Baemin",
+              "url": "https://www.baemin.com/",
+              "note": "Korean food delivery service."
+            }
+          ],
+          "costs": "Delivery fee, small-order fee, and menu prices vary by restaurant, distance, time, and promotion.",
+          "notes": "If you do not have a Korean card or phone verification yet, delivery apps may be limited. In that case, ask a friend or order directly by phone from places that accept it."
+        },
+        {
+          "id": "guide-f-kakao-t",
+          "title": "Call a Taxi with Kakao T",
+          "situation": "You need a taxi late at night, with luggage, in the rain, or when the subway route is hard.",
+          "goal": "I can set pickup and destination, confirm the fare range, message the driver, and say the destination politely.",
+          "keyPhrases": [
+            {
+              "ko": "카카오택시 부를게요.",
+              "romanization": "kakaotaeksi bureulgeyo.",
+              "en": "I will call a Kakao taxi.",
+              "note": "부르다 = to call, often used for taxis."
+            },
+            {
+              "ko": "여기로 와 주세요.",
+              "romanization": "yeogiro wa juseyo.",
+              "en": "Please come here.",
+              "note": "Useful if pickup location is slightly confusing."
+            },
+            {
+              "ko": "이 주소로 가 주세요.",
+              "romanization": "i jusoro ga juseyo.",
+              "en": "Please go to this address.",
+              "note": "Show the app screen or Korean address."
+            },
+            {
+              "ko": "트렁크 열어 주세요.",
+              "romanization": "teureongkeu yeoreo juseyo.",
+              "en": "Please open the trunk.",
+              "note": "Useful with luggage."
+            },
+            {
+              "ko": "카드로 결제할게요.",
+              "romanization": "kadeuro gyeoljehalgeyo.",
+              "en": "I will pay by card.",
+              "note": "카드로 = by card."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "Driver",
+              "ko": "어디로 가세요?",
+              "romanization": "eodiro gaseyo?",
+              "en": "Where are you going?"
+            },
+            {
+              "speaker": "You",
+              "ko": "이 주소로 가 주세요.",
+              "romanization": "i jusoro ga juseyo.",
+              "en": "Please go to this address."
+            },
+            {
+              "speaker": "Driver",
+              "ko": "네, 알겠습니다.",
+              "romanization": "ne, algesseumnida.",
+              "en": "Okay, understood."
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "Set pickup carefully",
+              "body": "Pickup location is the common failure point. Check the side of the road, building entrance, and nearby landmark before calling."
+            },
+            {
+              "title": "Show the address, not your pronunciation",
+              "body": "If the destination name is hard, show the Korean address and say 이 주소로 가 주세요."
+            },
+            {
+              "title": "Fare is not always final",
+              "body": "Taxi apps can show estimated fare, but traffic, route, tolls, late-night surcharge, or taxi type can change the final amount."
+            }
+          ],
+          "checkpoints": [
+            "I can say I will call a taxi.",
+            "I can ask the driver to come here or go to this address.",
+            "I can ask for the trunk to be opened.",
+            "I know the estimated fare may change."
+          ],
+          "linkedEntryIds": [
+            "word-newcomer-009",
+            "word-ext-ch23-taeksi",
+            "word-verb-477",
+            "word-ext-154",
+            "word-ext-482",
+            "word-ext-558",
+            "expr-805",
+            "expr-790",
+            "expr-791"
+          ],
+          "steps": [
+            "Set pickup and destination before calling.",
+            "Check the taxi type and estimated fare.",
+            "Stay near the pickup point and watch the car number.",
+            "If the driver calls, say 여기로 와 주세요 or 잠시만요.",
+            "When you get in, show the destination and say 이 주소로 가 주세요."
+          ],
+          "deepLinks": [
+            {
+              "label": "Kakao T",
+              "url": "https://www.kakaomobility.com/service-kakaot/",
+              "note": "Taxi and mobility service information."
+            }
+          ],
+          "costs": "Taxi fare depends on distance, time, route, taxi type, traffic, and possible surcharges.",
+          "notes": "If you feel unsafe or the destination is wrong, ask to stop in a clear public place and call 112 for immediate danger."
+        },
+        {
+          "id": "guide-f-verification",
+          "title": "Sign Up, Verify Yourself, and Use Korean Services",
+          "situation": "A Korean app asks for 회원가입, 로그인, 본인 인증, phone verification, card registration, or a public-service login.",
+          "goal": "I can recognize the login and verification steps, ask for help, and know when a Korean phone number or ARC may be required.",
+          "keyPhrases": [
+            {
+              "ko": "회원가입 해야 해요?",
+              "romanization": "hoewongaip haeya haeyo?",
+              "en": "Do I need to sign up?",
+              "note": "회원가입 = first-time account creation."
+            },
+            {
+              "ko": "로그인이 안 돼요.",
+              "romanization": "logeu-ini an dwaeyo.",
+              "en": "I cannot log in.",
+              "note": "안 돼요 = it does not work / I cannot."
+            },
+            {
+              "ko": "본인 인증 어떻게 해요?",
+              "romanization": "bonin injeung eotteoke haeyo?",
+              "en": "How do I verify my identity?",
+              "note": "본인 인증 is a frequent gate in Korean apps."
+            },
+            {
+              "ko": "인증번호가 안 와요.",
+              "romanization": "injeungbeonhoga an wayo.",
+              "en": "The verification code is not coming.",
+              "note": "인증번호 = verification code."
+            },
+            {
+              "ko": "외국인등록증이 필요해요?",
+              "romanization": "oegugindeungnokjeungi piryohaeyo?",
+              "en": "Do I need an Alien Registration Card?",
+              "note": "Some services require a Korean identity record or phone plan tied to your name."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "You",
+              "ko": "본인 인증 어떻게 해요?",
+              "romanization": "bonin injeung eotteoke haeyo?",
+              "en": "How do I verify my identity?"
+            },
+            {
+              "speaker": "Staff",
+              "ko": "휴대폰 번호로 인증하시면 돼요.",
+              "romanization": "hyudaepon beonhoro injeunghasimyeon dwaeyo.",
+              "en": "You can verify with your mobile phone number."
+            },
+            {
+              "speaker": "You",
+              "ko": "인증번호가 안 와요.",
+              "romanization": "injeungbeonhoga an wayo.",
+              "en": "The verification code is not coming."
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "회원가입 and 로그인 are different",
+              "body": "회원가입 is creating the account for the first time. 로그인 is entering an account you already made."
+            },
+            {
+              "title": "Name matching matters",
+              "body": "Korean verification often checks whether your name, birthdate, phone number, and ID record match. If your phone plan is not in your name, verification may fail."
+            },
+            {
+              "title": "Public services need extra patience",
+              "body": "Government, bank, and telecom services may require ARC information, certificates, or phone verification. Do not assume a social login is enough."
+            }
+          ],
+          "checkpoints": [
+            "I can tell 회원가입 from 로그인.",
+            "I can ask how to complete identity verification.",
+            "I can explain that the verification code is not arriving.",
+            "I know some Korean services may require an ARC or Korean phone number in my name."
+          ],
+          "linkedEntryIds": [
+            "word-ext-1087",
+            "word-ext-1088",
+            "word-ext-1089",
+            "word-ext-1090",
+            "word-ext-1091",
+            "word-ext-616",
+            "expr-561",
+            "expr-623",
+            "word-ext-558",
+            "word-noun-016"
+          ],
+          "steps": [
+            "Check whether the screen says 회원가입 or 로그인.",
+            "Keep your passport name, ARC name, and phone-plan name consistent when possible.",
+            "If a code does not arrive, check the phone number and spam-blocking settings.",
+            "For government services, start from the official site rather than a random search result.",
+            "Ask a staff member: 본인 인증 어떻게 해요?"
+          ],
+          "deepLinks": [
+            {
+              "label": "GOV.KR for foreigners",
+              "url": "https://www.gov.kr/portal/foreigner/en",
+              "note": "Official Korean government service portal for foreigners."
+            },
+            {
+              "label": "Hi Korea",
+              "url": "https://www.hikorea.go.kr/",
+              "note": "Immigration-related official portal."
+            }
+          ],
+          "costs": "Most sign-up and verification steps are free. Phone plans, certificates, banking, or document issuance can have separate fees.",
+          "notes": "Never share verification codes with strangers. If someone asks for an 인증번호 outside the app flow, treat it as suspicious."
+        },
+        {
+          "id": "guide-f-translation-dictionary",
+          "title": "Use Papago and Naver Dictionary Without Getting Misled",
+          "situation": "You need to understand a sign, menu, text message, app screen, or grammar explanation quickly.",
+          "goal": "I can translate for rough meaning, check key words in a dictionary, and ask a native speaker a better follow-up question.",
+          "keyPhrases": [
+            {
+              "ko": "이거 무슨 뜻이에요?",
+              "romanization": "igeo museun tteusieyo?",
+              "en": "What does this mean?",
+              "note": "The fastest question when showing a word, sign, or screenshot."
+            },
+            {
+              "ko": "이 표현 자연스러워요?",
+              "romanization": "i pyohyeon jayeonseureowoyo?",
+              "en": "Does this expression sound natural?",
+              "note": "Ask this after machine translation, because meaning and naturalness are different."
+            },
+            {
+              "ko": "더 쉬운 말로 어떻게 말해요?",
+              "romanization": "deo swiun mallo eotteoke marhaeyo?",
+              "en": "How do you say it in easier words?",
+              "note": "Good when a dictionary answer is too formal."
+            },
+            {
+              "ko": "카톡으로는 어떻게 말해요?",
+              "romanization": "katogeuro-neun eotteoke marhaeyo?",
+              "en": "How would you say it on KakaoTalk?",
+              "note": "Register check: spoken chat can be very different from textbook Korean."
+            },
+            {
+              "ko": "사진 찍어서 번역할게요.",
+              "romanization": "sajin jjigeoseo beonyeokalgeyo.",
+              "en": "I will take a photo and translate it.",
+              "note": "Useful for signs, menus, and notices."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "You",
+              "ko": "이 표현 자연스러워요?",
+              "romanization": "i pyohyeon jayeonseureowoyo?",
+              "en": "Does this expression sound natural?"
+            },
+            {
+              "speaker": "Native",
+              "ko": "뜻은 맞는데 조금 딱딱해요.",
+              "romanization": "tteuseun manneunde jogeum ttakttakhaeyo.",
+              "en": "The meaning is right, but it is a little stiff."
+            },
+            {
+              "speaker": "You",
+              "ko": "그럼 카톡으로는 어떻게 말해요?",
+              "romanization": "geureom katogeuro-neun eotteoke marhaeyo?",
+              "en": "Then how would you say it on KakaoTalk?"
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "Translate for meaning, not final wording",
+              "body": "Machine translation is useful for rough meaning, but it may sound stiff, too formal, or too direct. Always check naturalness for messages you will send."
+            },
+            {
+              "title": "Dictionary before guessing",
+              "body": "If one word controls the whole sentence, check that word in a dictionary. Menus, forms, and notices often turn on one key noun or verb."
+            },
+            {
+              "title": "Ask better native questions",
+              "body": "Instead of asking 'Is this right?', ask 이 표현 자연스러워요?, 더 쉬운 말로 어떻게 말해요?, or 카톡으로는 어떻게 말해요?"
+            }
+          ],
+          "checkpoints": [
+            "I can ask what a word or expression means.",
+            "I can check whether a translated expression sounds natural.",
+            "I can ask for a simpler or more KakaoTalk-like version.",
+            "I know not to send machine translation blindly in sensitive messages."
+          ],
+          "linkedEntryIds": [
+            "word-ext-159",
+            "word-ext-120",
+            "word-ext-1940",
+            "expr-678",
+            "expr-807",
+            "expr-553",
+            "expr-559"
+          ],
+          "steps": [
+            "Use Papago or a camera translation feature for rough meaning.",
+            "Pick the words that seem important and check them in a dictionary.",
+            "If you will send the sentence, ask a native whether it sounds natural.",
+            "Ask for a shorter KakaoTalk version when the result sounds too formal.",
+            "Save useful corrected sentences into your review deck."
+          ],
+          "deepLinks": [
+            {
+              "label": "Naver Papago",
+              "url": "https://papago.naver.com/",
+              "note": "Translation helper for text and images."
+            },
+            {
+              "label": "Naver Dictionary",
+              "url": "https://en.dict.naver.com/",
+              "note": "Dictionary lookup and examples."
+            }
+          ],
+          "costs": "Basic translation and dictionary lookup are free online. Data charges depend on your mobile plan.",
+          "notes": "For medical, legal, immigration, or money issues, use translation as a helper, not as the final authority."
+        }
+      ]
     }
   ]
 }
