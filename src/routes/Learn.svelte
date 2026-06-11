@@ -1,7 +1,7 @@
 <script>
   import { chapters, findEntry, findGrammar } from '../lib/data.js';
-  import { lessonProgress, markLessonDone } from '../lib/stores.js';
-  import { reviews, masteryOf } from '../lib/srs.js';
+  import { lessonProgress, resetLessonProgress, toggleLessonDone } from '../lib/stores.js';
+  import { dueIds, reviews, masteryOf } from '../lib/srs.js';
   import { study, streak } from '../lib/progress.js';
   import { push } from 'svelte-spa-router';
   import EntryCard from '../lib/components/EntryCard.svelte';
@@ -26,6 +26,14 @@
 
   function openChapter(ch) { chapter = ch; view = 'chapter'; window.scrollTo(0, 0); }
   function back() { view = 'path'; chapter = null; window.scrollTo(0, 0); }
+  function resetCompleted() {
+    if (confirm('Reset completed chapters?')) resetLessonProgress();
+  }
+  function practiceChapter(ch) { push(`/practice?deck=${encodeURIComponent(ch.id)}`); }
+  function addChapterDeck(ch) { reviews.addMany(chapterItemIds(ch)); }
+  function scrollToDialogue() {
+    document.querySelector('.dlg')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 
   $: vocab = chapter ? vocabOf(chapter) : [];
   $: pats = chapter ? patternsOf(chapter) : [];
@@ -45,6 +53,11 @@
   $: allItemIds = [...new Set(chapters.flatMap(chapterItemIds))];
   $: courseMastery = masteryOf($reviews, allItemIds);
   $: chMastery = (ch) => masteryOf($reviews, chapterItemIds(ch));
+  $: currentIds = chapter ? chapterItemIds(chapter) : [];
+  $: currentMastery = chapter ? masteryOf($reviews, currentIds) : { total: 0, started: 0, mastered: 0, pct: 0 };
+  $: dueSet = new Set(dueIds($reviews));
+  $: currentDue = chapter ? currentIds.filter((id) => dueSet.has(id)).length : 0;
+  $: currentDeckReady = currentIds.length > 0 && currentIds.every((id) => $reviews[id]);
   $: streakDays = streak($study);
 </script>
 
@@ -63,6 +76,9 @@
         <span>🔥 {streakDays}-day streak</span>
         <span>{doneCount}/{chapters.length} chapters marked done · {courseMastery.pct}% mastered</span>
       </div>
+      {#if doneCount}
+        <button class="pc-reset" type="button" on:click={resetCompleted}>Reset completed</button>
+      {/if}
     </div>
 
     <button class="big-card" on:click={() => { view = 'hangul'; window.scrollTo(0, 0); }}>
@@ -120,6 +136,30 @@
       {#if chapter.scenario}<p class="scenario">{chapter.scenario}</p>{/if}
     </div>
 
+    <div class="today-plan">
+      <div class="tp-top">
+        <div>
+          <span class="tp-label">Today plan</span>
+          <strong>{currentMastery.mastered}/{currentMastery.total} mastered</strong>
+        </div>
+        <span class="tp-due">{currentDue ? `${currentDue} due now` : 'Review clear'}</span>
+      </div>
+      <div class="tp-steps">
+        <button class="tp-step" type="button" on:click={scrollToDialogue}>
+          <span class="tp-num">1</span><span>Dialogue</span>
+        </button>
+        <button class="tp-step" type="button" class:done={currentDeckReady} on:click={() => addChapterDeck(chapter)}>
+          <span class="tp-num">2</span><span>{currentDeckReady ? 'Deck ready' : `Add ${currentIds.length}`}</span>
+        </button>
+        <button class="tp-step primary" type="button" on:click={() => practiceChapter(chapter)}>
+          <span class="tp-num">3</span><span>Practice</span>
+        </button>
+        <button class="tp-step" type="button" class:done={$lessonProgress.has(chapter.id)} aria-pressed={$lessonProgress.has(chapter.id)} on:click={() => toggleLessonDone(chapter.id)}>
+          <span class="tp-num">4</span><span>{$lessonProgress.has(chapter.id) ? 'Completed' : 'Complete'}</span>
+        </button>
+      </div>
+    </div>
+
     {#if (chapter.dialogue || []).length}
       <div class="block">
         <div class="sec-head"><span class="dot" />Warm-up dialogue</div>
@@ -158,8 +198,8 @@
     {/if}
 
     <div class="ch-actions">
-      <button class="btn3d" on:click={() => push('/practice')}>Practice this chapter</button>
-      <button class="ghost" on:click={() => markLessonDone(chapter.id)}>{$lessonProgress.has(chapter.id) ? '✓ Completed' : 'Mark complete'}</button>
+      <button class="btn3d" on:click={() => practiceChapter(chapter)}>Practice this chapter</button>
+      <button class="ghost" aria-pressed={$lessonProgress.has(chapter.id)} on:click={() => toggleLessonDone(chapter.id)}>{$lessonProgress.has(chapter.id) ? '✓ Completed' : 'Mark complete'}</button>
     </div>
 
     <nav class="pager">
@@ -198,6 +238,9 @@
   .pc-bar { height: 12px; border-radius: 999px; background: #fff; border: 1px solid var(--border); overflow: hidden; }
   .pc-fill { display: block; height: 100%; border-radius: 999px; background: var(--accent); transition: width .4s var(--bounce); }
   .pc-meta { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; font-weight: 700; color: var(--ink-3); }
+  .pc-reset { justify-self: start; padding: 6px 10px; border-radius: 999px; border: 1px solid var(--border);
+    background: #fff; color: var(--ink-3); font-size: 12px; font-weight: 800; }
+  .pc-reset:hover { border-color: var(--ink-3); color: var(--ink); }
 
   .big-card { display: flex; align-items: center; gap: 14px; text-align: left; padding: 16px 18px; border-radius: var(--radius);
     background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-1); }
@@ -233,6 +276,25 @@
   .ch-head { display: grid; gap: 3px; }
   .goal { margin: 2px 0 0; color: var(--ink); font-weight: 600; }
   .scenario { margin: 0; color: var(--ink-3); font-size: 14px; }
+
+  .today-plan { display: grid; gap: 12px; padding: 14px; border-radius: var(--radius); background: var(--surface);
+    border: 1px solid var(--border); border-left: 4px solid var(--green); box-shadow: var(--shadow-1); }
+  .tp-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .tp-top > div { display: grid; gap: 2px; }
+  .tp-label { font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; color: var(--green-dark); }
+  .tp-top strong { font-size: 18px; line-height: 1.1; }
+  .tp-due { padding: 6px 10px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-size: 12px; font-weight: 850; white-space: nowrap; }
+  .tp-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+  .tp-step { min-height: 56px; display: flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 10px; border-radius: 11px; border: 1px solid var(--border); background: #fff; color: var(--ink);
+    font-size: 13px; font-weight: 850; transition: transform .1s var(--bounce), border-color .1s, background .1s; }
+  .tp-step:hover { transform: translateY(-1px); border-color: var(--ink-3); }
+  .tp-step.primary { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .tp-step.done { background: #eef7e9; border-color: rgba(36, 119, 68, .24); color: var(--green-dark); }
+  .tp-num { width: 23px; height: 23px; display: grid; place-items: center; border-radius: 999px; background: var(--surface-2);
+    color: var(--ink-2); font-size: 12px; font-weight: 900; flex: none; }
+  .tp-step.primary .tp-num { background: rgba(255,255,255,.18); color: #fff; }
+  .tp-step.done .tp-num { background: var(--green); color: #fff; }
 
   .block { display: grid; gap: 10px; }
   .sec-head { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 750;
@@ -308,6 +370,7 @@
 
   .ch-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
   .ghost { padding: 12px 18px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; }
+  .ghost[aria-pressed='true'] { background: var(--ink); color: #fff; }
 
   .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--rule); }
   .pg { display: grid; gap: 3px; text-align: left; padding: 14px 16px; border-radius: var(--radius); background: var(--surface);
@@ -317,6 +380,8 @@
   .pg-dir { font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }
   .pg-title { font-family: var(--serif-ko); font-size: 15px; font-weight: 600; color: var(--ink); }
   @media (max-width: 520px) {
+    .tp-top { align-items: flex-start; flex-direction: column; }
+    .tp-steps { grid-template-columns: 1fr 1fr; }
     .pager { grid-template-columns: 1fr; }
     .pg-spacer { display: none; }
     .dbubble,

@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte';
   import { entries, chapters, findEntry } from '../lib/data.js';
   import { buildQuiz, makeMatch, buildWriteQuiz, buildSentenceQuiz } from '../lib/quiz.js';
   import ExerciseHost from '../lib/components/ExerciseHost.svelte';
@@ -14,6 +15,18 @@
   let result = null;
   let sessionCards = [];
   let added = false;
+
+  function syncDeckFromUrl() {
+    const query = (window.location.hash.split('?')[1] || '').split('#')[0];
+    const requested = new URLSearchParams(query).get('deck');
+    if (chapters.some((c) => c.id === requested)) deck = requested;
+  }
+
+  onMount(() => {
+    syncDeckFromUrl();
+    window.addEventListener('hashchange', syncDeckFromUrl);
+    return () => window.removeEventListener('hashchange', syncDeckFromUrl);
+  });
 
   $: dueCards = dueIds($reviews).map(findEntry).filter(Boolean).slice(0, 40);
   $: deckSize = Object.keys($reviews).length;

@@ -23,5 +23,21 @@ export function toggleRomanization() { romanizationVisible.update((v) => !v); }
 
 export const lessonProgress = persistedSet('kcs.progress');
 export function markLessonDone(id) { lessonProgress.update((s) => new Set(s).add(id)); }
+export function unmarkLessonDone(id) {
+  lessonProgress.update((s) => {
+    const next = new Set(s);
+    next.delete(id);
+    return next;
+  });
+}
+export function toggleLessonDone(id) {
+  lessonProgress.update((s) => {
+    const next = new Set(s);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    return next;
+  });
+}
+export function resetLessonProgress() { lessonProgress.set(new Set()); }
 
 export const filters = writable({ search: '', type: new Set(), level: new Set(), topic: new Set(), pos: new Set() });
