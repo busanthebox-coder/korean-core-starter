@@ -18,7 +18,7 @@
       "examples": [
         {
           "ko": "저 이번에 새 사업을 시작하기로 했어요.",
-          "romanization": "jeo ibeone sae saeobeul sijakagiro haesseoyo.",
+          "romanization": "jeo ibeone sae saeobeul sijakhagiro haesseoyo.",
           "en": "I have decided to start a new business this time.",
           "note": "시작하다 → 시작하기로 했어요: the contract is signed — this is an announcement of a settled plan, not a new promise"
         },
@@ -90,7 +90,7 @@
         },
         {
           "ko": "실수할까 봐 두 번 확인했어요.",
-          "romanization": "silsuhalkka bwa du beon hwagilhaesseoyo.",
+          "romanization": "silsuhalkka bwa du beon hwaginhaesseoyo.",
           "en": "I double-checked because I was afraid I might make a mistake.",
           "note": "실수하다 → 실수할까 봐: fear of making a mistake led to the action of double-checking"
         },
@@ -129,6 +129,66 @@
         "No subject needed: Korean often drops the subject — 질까 봐 (afraid [they/I] might lose) is perfectly natural",
         "Standalone: 걱정했어요 alone (without -(으)ㄹ까 봐) just says you were worried; -(으)ㄹ까 봐 + 걱정했어요 specifies exactly WHAT you were worried about"
       ]
+    },
+    {
+      "id": "gn-ge-doeda",
+      "title": "-게 되다 — How Things Came To Happen",
+      "mentalModel": "Think of -게 되다 as the ROAD that brought you somewhere. You may have walked part of it yourself, but the sentence puts the spotlight on the path, timing, opportunity, or circumstances that led to the result. That is why Koreans use -게 됐어요 so often for work, life changes, and good news: it sounds less like 'I grabbed this result' and more like 'this is how things came to be.'",
+      "formation": "Verb stem + 게 되다 → past: -게 됐어요 (ended up / came to). Future or prediction: -게 될 것 같아요. With gradual change, 하다 보니까 + -게 됐어요 is very natural.",
+      "examples": [
+        {
+          "ko": "이번에 좋은 기회를 잡게 됐어요.",
+          "romanization": "ibeone joheun gihoereul japge dwaesseoyo.",
+          "en": "I ended up getting a good opportunity this time.",
+          "note": "잡게 됐어요 frames the opportunity as something that came about through circumstances, not something the speaker forced."
+        },
+        {
+          "ko": "그 회사에 입사하게 됐어요.",
+          "romanization": "geu hoesae ipsahage dwaesseoyo.",
+          "en": "I ended up joining that company.",
+          "note": "입사했어요 is plain fact. 입사하게 됐어요 sounds more modest and natural when announcing job news."
+        },
+        {
+          "ko": "계속 공부하다 보니까 한국어를 이해하게 됐어요.",
+          "romanization": "gyesok gongbuhada bonikka hangugeoreul ihaehage dwaesseoyo.",
+          "en": "As I kept studying, I came to understand Korean.",
+          "note": "하다 보니까 + 게 됐어요 shows a gradual result that came from repeated effort."
+        },
+        {
+          "ko": "일정이 바뀌어서 다음 주에 만나게 됐어요.",
+          "romanization": "iljeongi bakkwieoseo daeum jue mannage dwaesseoyo.",
+          "en": "The schedule changed, so we ended up meeting next week.",
+          "note": "The meeting time changed because of circumstances; -게 됐어요 fits better than a strong decision form."
+        },
+        {
+          "ko": "열심히 하다 보니까 새 프로젝트를 맡게 됐어요.",
+          "romanization": "yeolsimhi hada bonikka sae peurojekteureul matge dwaesseoyo.",
+          "en": "As I worked hard, I ended up taking charge of a new project.",
+          "note": "The speaker still worked hard, but -게 됐어요 presents the result modestly instead of bragging."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "사업을 시작하기로 했어요.", "en": "I decided to start a business." },
+          "b": { "ko": "사업을 시작하게 됐어요.", "en": "I ended up starting a business." },
+          "explanation": "기로 했어요 highlights a deliberate decision. 시작하게 됐어요 highlights how circumstances led to the result. Both can be true, but the emotional posture is different."
+        },
+        {
+          "a": { "ko": "서울로 이사하기로 했어요.", "en": "I decided to move to Seoul." },
+          "b": { "ko": "서울로 이사하게 됐어요.", "en": "I ended up moving to Seoul." },
+          "explanation": "이사하기로 했어요 sounds like a chosen plan. 이사하게 됐어요 can include work, family, housing, or timing that pushed the move along."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "좋은 회사에 취직했어요!",
+        "right": "좋은 회사에 취직하게 됐어요.",
+        "explanation": "취직했어요 is grammatically correct, but in Korean it can sound a little direct when announcing good news. 취직하게 됐어요 gives the same news with a softer, more socially natural frame: circumstances, luck, and effort all led here."
+      },
+      "exceptions": [
+        "-게 되다 is not passive by itself. It often includes your effort; it just frames the result as something that came about over time.",
+        "For a decision you made clearly and intentionally, -기로 했어요 is usually sharper than -게 됐어요.",
+        "Do not use -게 되다 for a promise you are making to the listener right now. For that, use -(으)ㄹ게요."
+      ]
     }
   ],
   "extendedVocabulary": [
@@ -142,7 +202,7 @@
     },
     {
       "hangul": "시작하다",
-      "romanization": "sijakada",
+      "romanization": "sijakhada",
       "english": "to start / begin",
       "partOfSpeech": "verb",
       "exampleSentence": { "ko": "새 프로젝트를 시작하게 됐어요.", "en": "I ended up starting a new project.", "note": "게 됐어요 — the project arose through circumstances, not purely personal choice" },
@@ -174,7 +234,7 @@
     },
     {
       "hangul": "결정하다",
-      "romanization": "gyeoljeongada",
+      "romanization": "gyeoljeonghada",
       "english": "to decide",
       "partOfSpeech": "verb",
       "exampleSentence": { "ko": "이미 결정했어요. 기로 했어요.", "en": "I've already decided. I've made up my mind.", "note": "결정했어요 and 기로 했어요 both express decisions, but 기로 했어요 attaches to the specific action decided upon" },
@@ -214,7 +274,7 @@
     },
     {
       "hangul": "퇴직하다",
-      "romanization": "toejikada",
+      "romanization": "toejikhada",
       "english": "to retire / resign",
       "partOfSpeech": "verb",
       "exampleSentence": { "ko": "내년에 퇴직하게 될 것 같아요.", "en": "It looks like I'll end up retiring next year.", "note": "게 될 것 같아요 — future form of 게 되다: circumstances will likely lead to retirement" },
@@ -281,17 +341,17 @@
       },
       {
         "speaker": "현우",
-        "ko": "정말요? 왜요? 갑자기 너무 놀랐어요.",
-        "romanization": "jeongmaryo? waeyo? gapjagi neomu nollaasseoyo.",
-        "en": "Really? Why? I'm totally surprised.",
-        "grammarNote": "No special grammar pattern here — 갑자기 (suddenly) and 놀라다 (to be surprised) express natural reaction"
+        "ko": "정말요? 왜요? 갑자기라서 좀 놀랐어요.",
+        "romanization": "jeongmallyo? waeyo? gapjagiraseo jom nollaasseoyo.",
+        "en": "Really? Why? It's sudden, so I'm a bit surprised.",
+        "grammarNote": "갑자기라서 좀 놀랐어요 sounds more conversational than a flat 'I'm totally surprised' and keeps the reason-result feel."
       },
       {
         "speaker": "지은",
-        "ko": "사실 오래전부터 사업을 해보고 싶었는데, 이번에 좋은 기회가 생기게 됐어요.",
-        "romanization": "sasil oraejeonbuteo saeobeul haebogo sipeotnneunde, ibeone joheun gihwaga saengigige dwaesseoyo.",
-        "en": "Actually I've wanted to try a business for a long time, and this time a good opportunity came about.",
-        "grammarNote": "생기게 됐어요: the opportunity arose through circumstances — -게 됐어요 frames it as something that happened TO her, not something she forced"
+        "ko": "사실 오래전부터 사업을 해 보고 싶었는데, 이번에 좋은 기회를 잡게 됐어요.",
+        "romanization": "sasil oraejeonbuteo saeobeul hae bogo sipeonneunde, ibeone joheun gihoereul japge dwaesseoyo.",
+        "en": "Actually I've wanted to try running a business for a long time, and this time I ended up getting a good opportunity.",
+        "grammarNote": "잡게 됐어요 frames the opportunity as something that came about through circumstances, while still sounding like natural business talk."
       },
       {
         "speaker": "현우",
@@ -302,22 +362,22 @@
       },
       {
         "speaker": "지은",
-        "ko": "솔직히 실패할까 봐 두려운 건 사실이에요. 그래도 해보기로 했어요.",
-        "romanization": "soljiki silpaehalkka bwa duryeoun geon sasirieyo. geuraedo haebogiro haesseoyo.",
+        "ko": "솔직히 실패할까 봐 두려운 건 사실이에요. 그래도 해 보기로 했어요.",
+        "romanization": "soljiki silpaehalkka bwa duryeoun geon sasilieyo. geuraedo hae bogiro haesseoyo.",
         "en": "Honestly, I'm afraid it might fail — that's true. But I decided to try anyway.",
-        "grammarNote": "실패할까 봐 — fear of failure as a worst-case window; 해보기로 했어요 — despite the fear, the decision-contract is signed"
+        "grammarNote": "실패할까 봐 — fear of failure as a worst-case window; 해 보기로 했어요 — despite the fear, the decision-contract is signed"
       },
       {
         "speaker": "현우",
-        "ko": "용기 있네요! 처음에 저도 이 회사에 오게 됐을 때 많이 떨렸어요.",
-        "romanization": "yongi innneyo! cheoeuMe jeodo i hoesae oge dwaessseul ttae mani tteollyeosseoyo.",
+        "ko": "용기 있네요! 저도 이 회사에 처음 오게 됐을 때 많이 떨렸어요.",
+        "romanization": "yongi inneyo! jeodo i hoesae cheoeum oge dwaesseul ttae mani tteollyeosseoyo.",
         "en": "That takes courage! When I first ended up coming to this company, I was really nervous too.",
         "grammarNote": "오게 됐을 때: past circumstantial form — 'when it came to be that I arrived here' — Hyunwoo frames his own job as something circumstances led him into, not a pure choice"
       },
       {
         "speaker": "지은",
-        "ko": "그 말 들으니까 위로가 되네요. 잘 될지 모르지만 일단 시작하기로 마음먹었어요.",
-        "romanization": "geu mal deureunikka wiroga doeNeyo. jal doelji moreutjiman ildan sijakagiro maeumeogeosseoyo.",
+        "ko": "그 말 들으니까 위로가 되네요. 잘될지는 모르지만 일단 시작하기로 마음먹었어요.",
+        "romanization": "geu mal deureunikka wiroga doeneyo. jaldoeljineun moreujiman ildan sijakhagiro maeumeogeosseoyo.",
         "en": "Hearing that is reassuring. I don't know if it'll go well, but I've made up my mind to start at least.",
         "grammarNote": "시작하기로 마음먹었어요: stronger form of 기로 하다 — literally 'ate the decision in my heart' — expressing firm resolve"
       },
@@ -394,21 +454,21 @@
     },
     {
       "type": "multipleChoice",
-      "prompt": "Your Korean friend asks why you moved to Seoul. Which answer sounds most natural and culturally appropriate?",
+      "prompt": "Your Korean friend asks why you moved to Seoul. Which answer gives a natural reason and uses -게 됐어요 well?",
       "options": [
-        "저는 서울로 이사했어요. 제가 결정했어요.",
-        "서울로 이사하게 됐어요.",
+        "제가 결정해서 서울로 이사했어요.",
+        "일 때문에 서울로 이사하게 됐어요.",
         "서울로 이사하기로 했어요."
       ],
-      "correct": "서울로 이사하게 됐어요.",
-      "explanation": "Option 1 (제가 결정했어요) is correct but blunt — it emphasizes that YOU made the choice, which can sound slightly self-important in casual Korean conversation. Option 3 (이사하기로 했어요) implies you made a deliberate personal decision — fine, but implies strong agency. Option 2 (이사하게 됐어요) is the culturally natural answer: 'it came to be that I moved' — modest, implying life circumstances led you there, which is the preferred Korean register for explaining personal life changes."
+      "correct": "일 때문에 서울로 이사하게 됐어요.",
+      "explanation": "The friend asked why, so the best answer includes a reason: 일 때문에. -게 됐어요 then frames the move as a life circumstance that came about naturally. Option 1 over-emphasizes personal choice, and option 3 only says you decided to move, without answering the why."
     },
     {
       "type": "fillBlank",
-      "prompt": "열심히 하다 보니까 팀장이 ___됐어요. (As I worked hard, I ended up becoming team leader.)",
-      "options": ["되기로", "되게", "될까 봐"],
-      "correct": "되게",
-      "explanation": "This is a positive outcome that came about through circumstance — the grammar for that is -게 됐어요. 되게 됐어요 = 'ended up becoming.' 되기로 했어요 would mean 'I decided to become team leader' — implying you chose it deliberately (unusual!). 될까 봐 (afraid of becoming) would make no sense here since becoming team leader is a good outcome."
+      "prompt": "계속 공부하다 보니까 한국어를 이해하___ 됐어요. (As I kept studying, I came to understand Korean.)",
+      "options": ["기로", "게", "ㄹ까 봐"],
+      "correct": "게",
+      "explanation": "This is a gradual result that came about through repeated effort — the grammar for that is -게 됐어요. 이해하게 됐어요 = 'came to understand.' 이해하기로 했어요 would mean 'decided to understand,' which is not natural, and 이해할까 봐 would mean being afraid you might understand."
     }
   ],
   "summaryCard": {

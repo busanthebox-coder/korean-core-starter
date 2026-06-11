@@ -1,7 +1,7 @@
 {
   "id": "chapter-04",
   "hook": {
-    "situation": "You arrive at a restaurant in Seoul. The host asks '예약이 있으세요?' (Do you have a reservation?) — you freeze. You know 있어요 means something like 'there is' or 'have', but why does 예약이 have that 이 on it? And how do you say you DON'T have one? This chapter gives you the two sentences that unlock dozens of real situations.",
+    "situation": "You arrive at a hotel front desk in Busan. The staff member asks '예약이 있으세요?' (Do you have a reservation?) — you freeze. You know 있어요 means something like 'there is' or 'have', but why does 예약이 have that 이 on it? And how do you say you DON'T have one? This chapter gives you the two sentences that unlock dozens of real situations.",
     "objectives": [
       "Use 있어요 and 없어요 to express existence ('there is / there isn't') and possession ('I have / I don't have')",
       "Attach the subject particle 이/가 correctly to the noun that exists or is possessed",
@@ -14,7 +14,7 @@
       "id": "gn-isseo-eopseo",
       "title": "있어요 / 없어요 — Existence and Possession",
       "mentalModel": "Think of 있어요 as a PRESENCE LAMP and 없어요 as the lamp being OFF. The noun before 이/가 is the thing you're checking: is the lamp on or off for this noun? 시간이 있어요 — is time present? Lamp ON. 시간이 없어요 — lamp OFF. One switch, two possible states, any noun you like.",
-      "formation": "[Noun]이/가 있어요 → [Noun] exists / I have [Noun]\n[Noun]이/가 없어요 → [Noun] doesn't exist / I don't have [Noun]\n\n이 after a final consonant (시간이, 문제가 → wait, 문제 ends in a vowel so → 문제가)\n가 after a final vowel (친구가, 예약이 → 예약 ends in ㄱ so → 예약이)",
+      "formation": "[Noun]이/가 있어요 → [Noun] exists / I have [Noun]\n[Noun]이/가 없어요 → [Noun] does not exist / I do not have [Noun]\n\nUse 이 after a consonant-ending noun: 시간이, 예약이, 화장실이\nUse 가 after a vowel-ending noun: 문제가, 친구가, 자리가",
       "examples": [
         {
           "ko": "시간이 있어요?",
@@ -73,7 +73,7 @@
     {
       "id": "gn-i-ga",
       "title": "이 / 가 — The Subject Particle",
-      "mentalModel": "Think of 이/가 as a SPOTLIGHT. It shines directly on one noun and says: 'This specific thing — right here — is the one that exists, hurts, appears, or matters right now.' When the spotlight hits a word, 이/가 is attached. 이 goes after a dark (consonant-ending) sound; 가 goes after a bright (vowel-ending) sound.",
+      "mentalModel": "Think of 이/가 as a SPOTLIGHT. It shines directly on one noun and says: 'This specific thing — right here — is the one that exists, hurts, appears, or matters right now.' When the spotlight hits a word, 이/가 is attached. Use 이 after a consonant-ending noun and 가 after a vowel-ending noun.",
       "formation": "Noun ending in consonant + 이: 시간이, 화장실이, 예약이\nNoun ending in vowel + 가: 친구가, 문제가, 커피가\n\nSpecial: 나 → 내가, 저 → 제가 (irregular, must be memorized)",
       "examples": [
         {
@@ -337,10 +337,10 @@
       },
       {
         "speaker": "민지",
-        "ko": "네, 예약이 있어요. 민지로 예약했어요.",
-        "romanization": "Ne, yeyagi isseoyo. Minjiro yeyakhaesseoyo.",
-        "en": "Yes, I have a reservation. I booked it under Minji.",
-        "grammarNote": "예약이 있어요 — presence lamp ON for the reservation. 민지로 = 'under (the name) Minji' (로 = direction/means)."
+        "ko": "네, 예약이 있어요. 이름은 민지예요.",
+        "romanization": "Ne, yeyagi isseoyo. Ireumeun minjiyeyo.",
+        "en": "Yes, I have a reservation. The name is Minji.",
+        "grammarNote": "예약이 있어요 — presence lamp ON for the reservation. 이름은 민지예요 reuses the noun-sentence frame from Chapter 3."
       },
       {
         "speaker": "직원",
@@ -351,24 +351,24 @@
       },
       {
         "speaker": "준호",
-        "ko": "어, 문제가 있어요! 분명히 예약했어요.",
-        "romanization": "Eo, munjega isseoyo! Bunmyeonghi yeyakhaesseoyo.",
-        "en": "Hey, there's a problem! I definitely made a reservation.",
-        "grammarNote": "문제가 있어요 — 문제 ends in vowel 에 → 가. Notice 문제가 있어요 (there IS a problem) vs. 문제가 없어요 (no problem)."
+        "ko": "어? 예약이 있어요. 이름을 다시 확인해 주세요.",
+        "romanization": "Eo? Yeyagi isseoyo. Ireumeul dasi hwaginhae juseyo.",
+        "en": "Oh? We do have a reservation. Please check the name again.",
+        "grammarNote": "예약이 있어요 repeats the existence frame with a consonant-ending noun. 다시 확인해 주세요 is the natural request when the staff cannot find it."
       },
       {
         "speaker": "직원",
-        "ko": "다시 확인할게요. 혹시 빈 방이 있어요.",
-        "romanization": "Dasi hwaginhalgeyo. Hoksi bin bangi isseoyo.",
-        "en": "Let me check again. There is a vacant room available.",
-        "grammarNote": "방이 있어요 — 방 ends in consonant ㅇ → 이. 빈 방 = vacant room (빈 is an adjective modifying 방)."
+        "ko": "다시 확인할게요. 아, 예약이 있어요.",
+        "romanization": "Dasi hwaginhalgeyo. A, yeyagi isseoyo.",
+        "en": "Let me check again. Ah, there is a reservation.",
+        "grammarNote": "다시 확인할게요 is a normal staff response. 예약이 있어요 confirms that the reservation exists."
       },
       {
         "speaker": "민지",
-        "ko": "정말요? 자리가 있어요?",
-        "romanization": "Jeongmalyo? Jariga isseoyo?",
-        "en": "Really? Is there space?",
-        "grammarNote": "자리가 있어요 — 자리 ends in vowel 리 → 가. Here 자리 means 'spot/room available' in a broader sense."
+        "ko": "다행이에요. 방이 있어요?",
+        "romanization": "Dahaengieyo. Bangi isseoyo?",
+        "en": "That's a relief. Is there a room?",
+        "grammarNote": "방이 있어요? — 방 ends in consonant ㅇ → 이. At a hotel, 방 is the natural noun for the room."
       },
       {
         "speaker": "직원",
@@ -379,10 +379,10 @@
       },
       {
         "speaker": "준호",
-        "ko": "감사해요! 그리고 화장실이 있어요?",
-        "romanization": "Gamsahaeyo! Geurigo hwajangsiri isseoyo?",
-        "en": "Thank you! And is there a bathroom?",
-        "grammarNote": "화장실이 있어요? — 화장실 ends in consonant ㄹ → 이. The question form of 있어요 is simply 있어요 with rising intonation."
+        "ko": "감사합니다! 여기 화장실이 있어요?",
+        "romanization": "Gamsahamnida! Yeogi hwajangsiri isseoyo?",
+        "en": "Thank you! Is there a bathroom here?",
+        "grammarNote": "화장실이 있어요? — 화장실 ends in consonant ㄹ → 이. 여기 adds the place without changing the existence pattern."
       }
     ]
   },

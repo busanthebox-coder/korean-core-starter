@@ -36,7 +36,7 @@
         },
         {
           "ko": "오늘만 할인돼요.",
-          "romanization": "oneulman harinwaeyo.",
+          "romanization": "oneulman harindwaeyo.",
           "en": "There's a discount only today.",
           "note": "만 after a time word — the discount spotlight shines on today only, not tomorrow"
         },
@@ -279,10 +279,10 @@
       },
       {
         "speaker": "민준",
-        "ko": "아메리카노 두 잔 주세요.",
-        "romanization": "Amerik'ano du jan juseyo.",
-        "en": "Two Americanos, please.",
-        "grammarNote": "N 주세요 ordering pattern; 두 잔 = two cups using native Korean number 두 + counter 잔"
+        "ko": "아메리카노 한 잔 주세요.",
+        "romanization": "Amerikano han jan juseyo.",
+        "en": "One Americano, please.",
+        "grammarNote": "N 주세요 ordering pattern; 한 잔 = one cup using native Korean number 한 + counter 잔"
       },
       {
         "speaker": "직원",
@@ -293,72 +293,72 @@
       },
       {
         "speaker": "민준",
-        "ko": "크루아상도 하나 주세요.",
-        "romanization": "Keuroasangdo hana juseyo.",
-        "en": "One croissant too, please.",
-        "grammarNote": "크루아상 + 도 = adding the croissant to the cart (SHOPPING CART rule); 하나 = one (native Korean number)"
+        "ko": "빵도 하나 주세요.",
+        "romanization": "Ppangdo hana juseyo.",
+        "en": "Bread too, please.",
+        "grammarNote": "빵 + 도 = adding the bread to the cart (SHOPPING CART rule); 하나 = one (native Korean number)"
       },
       {
         "speaker": "유나",
-        "ko": "저는 케이크만 주세요. 커피는 안 마셔요.",
-        "romanization": "Jeoneun keikuman juseyo. Keopineun an masyeoyo.",
-        "en": "Just cake for me, please. I don't drink coffee.",
-        "grammarNote": "케이크 + 만 = spotlight on cake alone (SPOTLIGHT rule); this is 만 as a dietary/preference restriction"
+        "ko": "저는 물만 주세요. 커피는 안 마셔요.",
+        "romanization": "Jeoneun mulman juseyo. Keopineun an masyeoyo.",
+        "en": "Just water for me, please. I don't drink coffee.",
+        "grammarNote": "물 + 만 = spotlight on water alone (SPOTLIGHT rule); this is 만 as a preference restriction"
       },
       {
         "speaker": "직원",
         "ko": "알겠습니다. 결제는 어떻게 하시겠어요?",
-        "romanization": "Algesseumnida. Gyeoljeineun eotteoke hashigeseoyo?",
+        "romanization": "Algesseumnida. Gyeoljeneun eotteoke hashigesseoyo?",
         "en": "Got it. How would you like to pay?",
         "grammarNote": "어떻게 (how) + 하시겠어요? is the polite 'how will you do X?' frame — staff asking the payment method opens the 로/으로 response"
       },
       {
         "speaker": "민준",
-        "ko": "카드로 결제할게요. 카드 되죠?",
-        "romanization": "Kadeuro gyeoljehalgeyo. Kadeu doejyo?",
-        "en": "I'll pay by card. Card is okay, right?",
-        "grammarNote": "카드 + 로 = the CHANNEL SELECTOR (method particle); 카드 ends in vowel 드 → 로, not 으로"
+        "ko": "카드로 결제해도 돼요?",
+        "romanization": "Kadeuro gyeoljehaedo dwaeyo?",
+        "en": "Can I pay by card?",
+        "grammarNote": "카드 + 로 = the CHANNEL SELECTOR (method particle); 카드 ends in vowel 드 → 로, not 으로. 결제해도 돼요? is the polite permission question."
       },
       {
         "speaker": "직원",
-        "ko": "네, 카드로 돼요. 영수증은 필요하세요?",
-        "romanization": "Ne, kadeuro dwaeyo. Yeongsujeungeun piryohaseyo?",
+        "ko": "네, 카드 됩니다. 영수증은 필요하세요?",
+        "romanization": "Ne, kadeu doemnida. Yeongsujeungeun piryohaseyo?",
         "en": "Yes, card is fine. Do you need a receipt?",
-        "grammarNote": "카드로 돼요 — 로/으로 again confirming payment method; 영수증 주세요 is the natural follow-up if you want the receipt"
+        "grammarNote": "카드 됩니다 is the staff-side confirmation; 영수증 주세요 or 영수증도 주세요 is the natural follow-up if you want the receipt"
       }
     ]
   },
   "readingText": {
     "type": "sms",
     "title": "편의점에서 (At the Convenience Store)",
-    "body": "오늘 퇴근 후에 편의점에 들렀어요. 직원한테 '이거 얼마예요?' 라고 물었어요. 삼천 원이라고 했어요. 현금이 없어서 카드로 계산했어요. 영수증도 받았어요. 친구한테 선물로 과자를 사서 이것만 담았어요. 다음에는 카드 할인도 확인해야겠어요.",
-    "bodyTranslation": "After work today I stopped by a convenience store. I asked the staff 'How much is this?' They said it was 3,000 won. I didn't have cash so I paid by card. I got a receipt too. I bought snacks as a gift for my friend, so I put only those in the basket. Next time I should check for card discounts too.",
+    "body": "오늘 편의점에 가요. 과자를 하나 사요. 직원에게 '이거 얼마예요?'라고 물어요. 삼천 원이에요. 현금이 없어요. 그래서 카드로 결제해요. 영수증도 받아요. 음료는 안 사요. 이것만 사요. 다음에는 할인도 확인해요.",
+    "bodyTranslation": "Today I go to a convenience store. I buy one snack. I ask the staff, 'How much is this?' It is 3,000 won. I don't have cash, so I pay by card. I get a receipt too. I don't buy a drink. I buy only this. Next time I check discounts too.",
     "comprehensionQuestions": [
       {
         "question": "How did the speaker pay, and why?",
-        "answer": "카드로 계산했어요 — they paid by card because they had no cash (현금이 없어서)"
+        "answer": "카드로 결제해요 — they pay by card because they have no cash (현금이 없어요. 그래서...)"
       },
       {
-        "question": "What did the speaker buy, and for whom?",
-        "answer": "친구한테 선물로 과자를 샀어요 — they bought snacks as a gift (선물로 = using the gift channel/purpose) for a friend"
+        "question": "What does the speaker buy, and what do they not buy?",
+        "answer": "과자를 하나 사요. 음료는 안 사요 — they buy one snack and do not buy a drink."
       },
       {
         "question": "Find every 도 and 만 in the text. For each one, explain whether it is adding something or limiting something.",
-        "answer": "영수증도 받았어요 — 도 adds the receipt to the list of things that happened (CART: one more item); 이것만 담았어요 — 만 limits the basket contents to only the snacks (SPOTLIGHT: nothing else); 카드 할인도 확인해야겠어요 — 도 adds checking discounts to next time's plan (CART: another thing to do)"
+        "answer": "영수증도 받아요 — 도 adds the receipt to the list of things that happen (CART: one more item); 이것만 사요 — 만 limits the purchase to only this item (SPOTLIGHT: nothing else); 할인도 확인해요 — 도 adds checking discounts to the plan (CART: another thing to do)"
       }
     ]
   },
   "culturalNote": {
     "title": "카드 돼요? — Why Korean shops sometimes say no",
-    "body": "In Korea, the question '카드 돼요?' (Is card okay?) is completely natural and expected. Unlike many countries where card payment is assumed, some Korean small businesses — street food stalls, traditional markets, very small local cafés — are cash-only. The reason is often the transaction fee the business pays to the card company. When you hear '현금만 돼요' (cash only), don't be surprised. It's also common to see signs like '카드 최소 금액 3,000원' (minimum card purchase 3,000 won). Having small bills (천 원, 오천 원) on hand is still a practical tip for exploring traditional markets like Gwangjang or Namdaemun."
+    "body": "In Korea, '카드 돼요?' (Is card okay?) is a completely natural counter question. In most cafés and convenience stores, card payment is normal, but at street stalls, traditional markets, or very small shops you may still hear '현금만 돼요' (cash only) or see staff point you toward a different payment method. The useful learner move is simple: ask once, then answer with 카드로 할게요 or 현금으로 할게요. Carrying a few small bills is still practical when you explore markets or small food stalls."
   },
   "inlineExercises": [
     {
       "type": "fillBlank",
-      "prompt": "아메리카노 주세요. 케이크___ 주세요. (I want an Americano. Cake too, please.)",
+      "prompt": "아메리카노 한 잔 주세요. 빵___ 하나 주세요. (One Americano, please. Bread too, please.)",
       "options": ["도", "만"],
       "correct": "도",
-      "explanation": "도 adds the cake to the order (SHOPPING CART — one more item). If you used 만, the sentence would mean 'only cake, please' — cancelling the Americano you just ordered."
+      "explanation": "도 adds the bread to the order (SHOPPING CART — one more item). If you used 만, the sentence would mean 'only bread, please' — cancelling the Americano you just ordered."
     },
     {
       "type": "fillBlank",

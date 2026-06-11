@@ -1,0 +1,600 @@
+{
+  "id": "chapter-53",
+  "hook": {
+    "situation": "You recommend a drama in KakaoTalk, react to comments, report what a friend said about subtitles, share a video, and troubleshoot a stream that keeps cutting out.",
+    "objectives": [
+      "Ask about watching experience with V(으)ㄴ 적이 있어요.",
+      "React naturally to dramas, comments, idols, and shared videos.",
+      "Explain streaming problems with 영상이 끊기다 and suggest reconnecting Wi-Fi."
+    ],
+    "whyItMatters": "Entertainment talk in Korean is fast, casual, and full of short reactions. Digital-life Korean also needs practical verbs like 공유하다, 누르다, 끊기다, and 연결하다."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-085",
+      "title": "V(으)ㄴ 적이 있어요 — have done it before",
+      "mentalModel": "Use this when asking whether someone has the experience of watching, using, or trying content before.",
+      "formation": "Add -ㄴ 적이 있어요 after a vowel stem and -은 적이 있어요 after a consonant stem. 보다 becomes 본 적이 있어요. 쓰다 becomes 쓴 적이 있어요. Use 없어요 for no experience.",
+      "examples": [
+        {
+          "ko": "이 드라마 본 적 있어요?",
+          "romanization": "i deurama bon jeok isseoyo?",
+          "en": "Have you watched this drama before?",
+          "note": "A natural recommendation opener."
+        },
+        {
+          "ko": "이 배우 나온 영화 본 적 있어요?",
+          "romanization": "i baeu naon yeonghwa bon jeok isseoyo?",
+          "en": "Have you watched a movie with this actor before?",
+          "note": "Experience with an actor's work."
+        },
+        {
+          "ko": "이 앱 써 본 적 있어요?",
+          "romanization": "i aep sseo bon jeok isseoyo?",
+          "en": "Have you used this app before?",
+          "note": "Digital-life version."
+        },
+        {
+          "ko": "자막 없이 본 적은 없어요.",
+          "romanization": "jamak eopsi bon jeogeun eopseoyo.",
+          "en": "I have never watched it without subtitles.",
+          "note": "없어요 negates the experience."
+        }
+      ],
+      "exceptions": [
+        "Use 봤어요 for a dated past event: 어제 봤어요. Use 본 적 있어요 for experience."
+      ]
+    },
+    {
+      "id": "gn-pattern-031",
+      "title": "A/V-는 것 같아요 — soft opinion or impression",
+      "mentalModel": "Use this when you want to recommend or judge content without sounding too absolute.",
+      "formation": "Present verbs use -는 것 같아요, adjectives use -(으)ㄴ 것 같아요, and future guesses use -(으)ㄹ 것 같아요. In speech, 것 often becomes 거.",
+      "examples": [
+        {
+          "ko": "이 드라마 재미있는 것 같아요.",
+          "romanization": "i deurama jaemiinneun geot gatayo.",
+          "en": "I think this drama is fun.",
+          "note": "Soft recommendation."
+        },
+        {
+          "ko": "영상이 계속 끊기는 것 같아요.",
+          "romanization": "yeongsangi gyesok kkeunhgineun geot gatayo.",
+          "en": "It seems like the video keeps cutting out.",
+          "note": "Softly describes a tech problem."
+        },
+        {
+          "ko": "자막이 조금 안 맞는 것 같아요.",
+          "romanization": "jamagi jogeum an manneun geot gatayo.",
+          "en": "I think the subtitles are a little off.",
+          "note": "A careful complaint."
+        },
+        {
+          "ko": "이 아이돌 무대가 대박인 것 같아요.",
+          "romanization": "i aidol mudaega daebagin geot gatayo.",
+          "en": "I think this idol's stage is amazing.",
+          "note": "Entertainment reaction with a hedge."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-035",
+      "title": "V/A-다고 했어요 — said that...",
+      "mentalModel": "Use this to pass along a friend's opinion, recommendation, or warning about content.",
+      "formation": "Adjectives take -다고 했어요: 좋다고 했어요, 재미있다고 했어요. Present action verbs take -ㄴ다고/-는다고 했어요. Nouns use (이)라고 했어요.",
+      "examples": [
+        {
+          "ko": "친구가 이 드라마 재미있다고 했어요.",
+          "romanization": "chinguga i deurama jaemiitdago haesseoyo.",
+          "en": "My friend said this drama is fun.",
+          "note": "Reported recommendation."
+        },
+        {
+          "ko": "친구가 자막이 좋다고 했어요.",
+          "romanization": "chinguga jamagi jotago haesseoyo.",
+          "en": "My friend said the subtitles are good.",
+          "note": "Reported opinion."
+        },
+        {
+          "ko": "댓글에서 영상이 자주 끊긴다고 했어요.",
+          "romanization": "daetgeureseo yeongsangi jaju kkeunhgindago haesseoyo.",
+          "en": "The comments said the video cuts out often.",
+          "note": "Reported digital problem."
+        },
+        {
+          "ko": "친구가 그 아이돌 무대가 대박이라고 했어요.",
+          "romanization": "chinguga geu aidol mudaega daebagirago haesseoyo.",
+          "en": "My friend said that idol's stage was amazing.",
+          "note": "Noun/expression plus (이)라고 했어요."
+        }
+      ],
+      "exceptions": [
+        "Questions use -냐고 했어요, not -다고 했어요."
+      ]
+    },
+    {
+      "id": "gn-pattern-096",
+      "title": "A/V-지만 — clean contrast",
+      "mentalModel": "Use this when two opinions pull against each other: one good point, one problem, or one comparison.",
+      "formation": "Attach -지만 directly to the adjective or verb stem. For nouns, use N이지만/지만.",
+      "examples": [
+        {
+          "ko": "배우도 좋지만 댓글이 더 재미있어요.",
+          "romanization": "baeudo jojiman daetgeuri deo jaemiisseoyo.",
+          "en": "The actor is good too, but the comments are more fun.",
+          "note": "Content contrast."
+        },
+        {
+          "ko": "드라마는 재미있지만 영상이 자주 끊겨요.",
+          "romanization": "deuramaneun jaemiitjiman yeongsangi jaju kkeunhgyeoyo.",
+          "en": "The drama is fun, but the video cuts out often.",
+          "note": "Good content, bad streaming."
+        },
+        {
+          "ko": "자막은 좋지만 글자가 조금 작아요.",
+          "romanization": "jamageun jojiman geuljjaga jogeum jagayo.",
+          "en": "The subtitles are good, but the text is a little small.",
+          "note": "Usability contrast."
+        },
+        {
+          "ko": "아이돌은 잘 모르지만 이 노래는 좋아요.",
+          "romanization": "aidoreun jal moreujiman i noraeneun joayo.",
+          "en": "I do not know idols well, but I like this song.",
+          "note": "Safe K-pop conversation line."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-022",
+      "title": "V/A-거든요 — here's the reason/background",
+      "mentalModel": "Use this when you add the reason behind your recommendation or reaction.",
+      "formation": "Attach -거든요 to the stem: 재미있거든요, 좋거든요, 끊기거든요. It gives background the listener may not know yet.",
+      "examples": [
+        {
+          "ko": "댓글이 진짜 재미있거든요.",
+          "romanization": "daetgeuri jinjja jaemiitgeodeunyo.",
+          "en": "The comments are really fun, you know.",
+          "note": "Reason for recommending the drama."
+        },
+        {
+          "ko": "이 배우가 좋거든요.",
+          "romanization": "i baeuga jokeodeunyo.",
+          "en": "I like this actor, you see.",
+          "note": "Personal reason."
+        },
+        {
+          "ko": "영상이 계속 끊기거든요.",
+          "romanization": "yeongsangi gyesok kkeunhgigeodeunyo.",
+          "en": "The video keeps cutting out, you see.",
+          "note": "Background before asking for help."
+        },
+        {
+          "ko": "자막이 좋아서 계속 보거든요.",
+          "romanization": "jamagi joaseo gyesok bogeodeunyo.",
+          "en": "I keep watching because the subtitles are good, you know.",
+          "note": "Why the learner keeps watching."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-025",
+      "title": "V/A-는데요 — soft setup or problem raising",
+      "mentalModel": "Use this to bring up a problem gently and leave space for the other person to respond.",
+      "formation": "Action verbs and 있다/없다 take -는데요. Adjectives take -ㄴ/은데요. In tech support, it often sounds like 'the thing is...'.",
+      "examples": [
+        {
+          "ko": "영상이 계속 끊기는데요.",
+          "romanization": "yeongsangi gyesok kkeunhgineundeyo.",
+          "en": "The video keeps cutting out, though.",
+          "note": "Softly raises a problem."
+        },
+        {
+          "ko": "자막이 안 나오는데요.",
+          "romanization": "jamagi an naoneundeyo.",
+          "en": "The subtitles are not showing, though.",
+          "note": "Streaming app problem."
+        },
+        {
+          "ko": "공유했는데요, 친구가 못 봤대요.",
+          "romanization": "gongyuhaenneundeyo, chinguga mot bwatdaeyo.",
+          "en": "I shared it, but my friend says they couldn't see it.",
+          "note": "Past action plus unresolved issue."
+        },
+        {
+          "ko": "좋아요를 눌렀는데요.",
+          "romanization": "joayoreul nulleonneundeyo.",
+          "en": "I did hit like, though.",
+          "note": "Soft pushback or setup."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-074",
+      "title": "V아/어 보세요 — try doing it",
+      "mentalModel": "Use this for troubleshooting advice: try reconnecting, try opening again, try checking settings.",
+      "formation": "Make the 아/어 form and add 보세요. 연결하다 becomes 연결해 보세요. 누르다 becomes 눌러 보세요.",
+      "examples": [
+        {
+          "ko": "와이파이를 다시 연결해 보세요.",
+          "romanization": "waipaireul dasi yeongyeolhae boseyo.",
+          "en": "Try reconnecting the Wi-Fi.",
+          "note": "Core streaming fix."
+        },
+        {
+          "ko": "좋아요를 눌러 보세요.",
+          "romanization": "joayoreul nulleo boseyo.",
+          "en": "Try pressing like.",
+          "note": "누르다 becomes 눌러."
+        },
+        {
+          "ko": "자막 설정을 다시 확인해 보세요.",
+          "romanization": "jamak seoljeongeul dasi hwaginhae boseyo.",
+          "en": "Try checking the subtitle settings again.",
+          "note": "Troubleshooting with settings."
+        },
+        {
+          "ko": "영상을 다시 공유해 보세요.",
+          "romanization": "yeongsangeul dasi gongyuhae boseyo.",
+          "en": "Try sharing the video again.",
+          "note": "Digital action plus try."
+        }
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "드라마",
+      "romanization": "deurama",
+      "english": "TV drama; series",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 드라마 본 적 있어요?",
+        "en": "Have you watched this drama before?",
+        "note": "Linked to chapter card word-ext-ch53-deurama."
+      },
+      "collocations": [
+        "드라마를 보다",
+        "드라마를 추천하다",
+        "드라마가 재미있다"
+      ]
+    },
+    {
+      "hangul": "배우",
+      "romanization": "baeu",
+      "english": "actor",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 배우가 좋거든요.",
+        "en": "I like this actor, you see.",
+        "note": "Linked to dictionary card word-ext-102."
+      },
+      "collocations": [
+        "배우가 좋다",
+        "배우가 나오다",
+        "좋아하는 배우"
+      ]
+    },
+    {
+      "hangul": "재미있다",
+      "romanization": "jaemiitda",
+      "english": "to be fun; interesting",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "이 드라마 재미있는 것 같아요.",
+        "en": "I think this drama is fun.",
+        "note": "Linked to dictionary card word-ext-1328."
+      },
+      "collocations": [
+        "진짜 재미있다",
+        "재미있는 드라마",
+        "댓글이 재미있다"
+      ]
+    },
+    {
+      "hangul": "댓글",
+      "romanization": "daetgeul",
+      "english": "comment",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "댓글이 진짜 재미있거든요.",
+        "en": "The comments are really fun, you know.",
+        "note": "Linked to chapter card word-ext-ch53-daetgeul."
+      },
+      "collocations": [
+        "댓글을 달다",
+        "댓글이 재미있다",
+        "댓글을 읽다"
+      ]
+    },
+    {
+      "hangul": "자막",
+      "romanization": "jamak",
+      "english": "subtitles; captions",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "친구가 자막이 좋다고 했어요.",
+        "en": "My friend said the subtitles are good.",
+        "note": "Linked to chapter card word-ext-ch53-jamak."
+      },
+      "collocations": [
+        "자막이 나오다",
+        "자막이 좋다",
+        "자막 설정"
+      ]
+    },
+    {
+      "hangul": "영상",
+      "romanization": "yeongsang",
+      "english": "video",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "영상이 계속 끊기는데요.",
+        "en": "The video keeps cutting out, though.",
+        "note": "Linked to dictionary card word-ext-163."
+      },
+      "collocations": [
+        "영상을 보다",
+        "영상을 공유하다",
+        "영상이 끊기다"
+      ]
+    },
+    {
+      "hangul": "공유하다",
+      "romanization": "gongyuhada",
+      "english": "to share",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "영상도 공유했어요?",
+        "en": "Did you share the video too?",
+        "note": "Linked to chapter card word-ext-ch53-gongyuhada and expression expr-565."
+      },
+      "collocations": [
+        "영상을 공유하다",
+        "링크를 공유하다",
+        "친구한테 공유하다"
+      ]
+    },
+    {
+      "hangul": "끊기다",
+      "romanization": "kkeunhgida",
+      "english": "to cut out; disconnect; buffer",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "영상이 계속 끊기는데요.",
+        "en": "The video keeps cutting out, though.",
+        "note": "Linked to chapter card word-ext-ch53-kkeunhgida."
+      },
+      "collocations": [
+        "영상이 끊기다",
+        "와이파이가 끊기다",
+        "계속 끊기다"
+      ]
+    },
+    {
+      "hangul": "와이파이",
+      "romanization": "waipai",
+      "english": "Wi-Fi",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "와이파이를 다시 연결해 보세요.",
+        "en": "Try reconnecting the Wi-Fi.",
+        "note": "Linked to dictionary card word-ext-162."
+      },
+      "collocations": [
+        "와이파이를 연결하다",
+        "와이파이가 끊기다",
+        "와이파이가 느리다"
+      ]
+    },
+    {
+      "hangul": "연결하다",
+      "romanization": "yeongyeolhada",
+      "english": "to connect",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "와이파이를 다시 연결해 보세요.",
+        "en": "Try reconnecting the Wi-Fi.",
+        "note": "Linked to chapter card word-ext-ch53-yeongyeolhada."
+      },
+      "collocations": [
+        "와이파이를 연결하다",
+        "다시 연결하다",
+        "연결해 보다"
+      ]
+    },
+    {
+      "hangul": "누르다",
+      "romanization": "nureuda",
+      "english": "to press; push",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "좋아요도 눌렀어요?",
+        "en": "Did you hit like too?",
+        "note": "Linked to dictionary card word-verb-108 and expression expr-549."
+      },
+      "collocations": [
+        "좋아요를 누르다",
+        "버튼을 누르다",
+        "눌러 보세요"
+      ]
+    },
+    {
+      "hangul": "ㅋㅋ",
+      "romanization": "kk",
+      "english": "haha; lol",
+      "partOfSpeech": "expression",
+      "exampleSentence": {
+        "ko": "댓글에 ㅋㅋ가 많아요.",
+        "en": "There is a lot of lol in the comments.",
+        "note": "Linked to expression card expr-031."
+      },
+      "collocations": [
+        "ㅋㅋ",
+        "ㅋㅋㅋ 진짜?",
+        "댓글에 ㅋㅋ"
+      ]
+    },
+    {
+      "hangul": "대박",
+      "romanization": "daebak",
+      "english": "awesome; wow; no way",
+      "partOfSpeech": "expression",
+      "exampleSentence": {
+        "ko": "그 아이돌 무대가 대박이라고 했어요.",
+        "en": "They said that idol's stage was amazing.",
+        "note": "Linked to expression card expr-646."
+      },
+      "collocations": [
+        "대박",
+        "대박이다",
+        "대박이라고 하다"
+      ]
+    },
+    {
+      "hangul": "헐",
+      "romanization": "heol",
+      "english": "whoa; OMG; no way",
+      "partOfSpeech": "expression",
+      "exampleSentence": {
+        "ko": "헐, 영상이 또 끊겼어요.",
+        "en": "Whoa, the video cut out again.",
+        "note": "Linked to expression card expr-647."
+      },
+      "collocations": [
+        "헐",
+        "헐 대박",
+        "헐 진짜?"
+      ]
+    },
+    {
+      "hangul": "아이돌",
+      "romanization": "aidol",
+      "english": "idol; K-pop idol",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "어떤 아이돌 좋아해요?",
+        "en": "Which idol do you like?",
+        "note": "Linked to chapter card word-ext-ch53-aidol."
+      },
+      "collocations": [
+        "아이돌 무대",
+        "아이돌 그룹",
+        "아이돌을 좋아하다"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "Two friends chat about a drama and fix a streaming problem.",
+    "lines": [
+      {
+        "speaker": "민서",
+        "ko": "이 드라마 본 적 있어요?",
+        "romanization": "i deurama bon jeok isseoyo?",
+        "en": "Have you watched this drama before?",
+        "grammarNote": "-ㄴ 적이 있어요 asks about experience."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "네. 배우도 좋지만 댓글이 진짜 재미있거든요.",
+        "romanization": "ne. baeudo jojiman daetgeuri jinjja jaemiitgeodeunyo.",
+        "en": "Yes. The actor is good too, but the comments are really fun, you know.",
+        "grammarNote": "-지만 contrasts two good points; -거든요 gives the reason."
+      },
+      {
+        "speaker": "민서",
+        "ko": "친구가 자막이 좋다고 했어요. 영상도 공유했어요?",
+        "romanization": "chinguga jamagi jotago haesseoyo. yeongsangdo gongyuhaesseoyo?",
+        "en": "My friend said the subtitles are good. Did you share the video too?",
+        "grammarNote": "-다고 했어요 reports someone else's opinion."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "공유했는데요, 영상이 계속 끊겨요.",
+        "romanization": "gongyuhaenneundeyo, yeongsangi gyesok kkeunhgyeoyo.",
+        "en": "I shared it, but the video keeps cutting out.",
+        "grammarNote": "-는데요 raises a problem softly."
+      },
+      {
+        "speaker": "민서",
+        "ko": "와이파이를 다시 연결해 보세요. 좋아요도 눌렀어요?",
+        "romanization": "waipaireul dasi yeongyeolhae boseyo. joayodo nulleosseoyo?",
+        "en": "Try reconnecting the Wi-Fi. Did you hit like too?",
+        "grammarNote": "-아/어 보세요 gives troubleshooting advice."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "영상이 계속 끊기는데요",
+    "body": "민서는 친구에게 새 드라마를 추천했어요. 먼저 '이 드라마 본 적 있어요?'라고 물었어요. 친구는 배우도 좋지만 댓글이 진짜 재미있다고 했어요. 또 자막이 좋아서 한국어 공부에도 도움이 되는 것 같다고 했어요. 민서는 영상을 공유했지만, 친구는 영상이 계속 끊긴다고 했어요. 그래서 민서는 와이파이를 다시 연결해 보라고 했어요. 마지막에는 좋아요도 눌렀는지 물었어요.",
+    "bodyTranslation": "Minseo recommended a new drama to a friend. First, Minseo asked whether the friend had watched it before. The friend said the actor was good, but the comments were really fun. The friend also said the subtitles were good and seemed helpful for Korean study. Minseo shared the video, but the friend said the video kept cutting out. So Minseo told the friend to try reconnecting the Wi-Fi. At the end, Minseo asked whether the friend had also hit like.",
+    "comprehensionQuestions": [
+      {
+        "question": "민서는 친구에게 무엇을 추천했어요?",
+        "answer": "새 드라마를 추천했어요."
+      },
+      {
+        "question": "친구는 무엇이 재미있다고 했어요?",
+        "answer": "댓글이 진짜 재미있다고 했어요."
+      },
+      {
+        "question": "영상이 끊길 때 민서는 무엇을 해 보라고 했어요?",
+        "answer": "와이파이를 다시 연결해 보라고 했어요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Short reactions carry the mood",
+    "body": "Korean entertainment chats often mix content words with quick reactions. A natural message may be short: 이 드라마 본 적 있어요? 댓글이 진짜 재미있거든요. ㅋㅋ, 헐, and 대박 can make a chat feel natural, but only when they respond to something specific.",
+    "tip": "Keep digital verbs clear: 댓글을 달다, 좋아요를 누르다, 영상을 공유하다, 와이파이를 연결하다, 영상이 끊기다."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence asks about experience with a drama?",
+      "options": [
+        "이 드라마 본 적 있어요?",
+        "이 드라마 볼 수밖에 없어요?",
+        "이 드라마 보고 있겠어요?"
+      ],
+      "correct": "이 드라마 본 적 있어요?",
+      "explanation": "-ㄴ 적이 있어요 asks whether someone has done something before."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence reports a friend's opinion?",
+      "options": [
+        "친구가 자막이 좋다고 했어요.",
+        "친구가 자막을 좋아요 했어요.",
+        "친구가 자막이 좋은데 누르세요."
+      ],
+      "correct": "친구가 자막이 좋다고 했어요.",
+      "explanation": "Adjectives use -다고 했어요 in reported speech."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence naturally describes buffering?",
+      "options": [
+        "영상이 계속 끊기는데요.",
+        "영상을 계속 끊는데요.",
+        "영상이 계속 공유하는데요."
+      ],
+      "correct": "영상이 계속 끊기는데요.",
+      "explanation": "끊기다 describes the video or connection cutting out."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Complete: 와이파이를 다시 ___ 보세요.",
+      "answer": "연결해",
+      "explanation": "연결해 보세요 means 'try connecting/reconnecting.'"
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Core flow: ask if someone has watched a drama, react to comments, report subtitle opinions, share a video, and fix buffering.",
+      "Use 본 적 있어요 for experience and -다고 했어요 to report someone else's opinion.",
+      "댓글을 달다, 좋아요를 누르다, 영상을 공유하다, and 와이파이를 연결하다 are the key digital action chunks.",
+      "영상이 끊기다 describes buffering or cutting out; do not use active 끊다 for that problem."
+    ],
+    "nextChapterTeaser": "Chapter 54 moves from digital entertainment into travel and transportation planning."
+  }
+}

@@ -78,7 +78,7 @@
       "examples": [
         {
           "ko": "여기서 뛰지 마세요.",
-          "romanization": "yeogiseo dwiji maseyo.",
+          "romanization": "yeogiseo ttwiji maseyo.",
           "en": "Please do not run here.",
           "note": "뛰다 (run) + 지 마세요 = RED X SIGN — prohibition you'll see in museums and schools"
         },
@@ -95,9 +95,9 @@
           "note": "가다 (go) + 아야 해요 — MUST-DO CHECKLIST: this is non-negotiable"
         },
         {
-          "ko": "표를 사야 해요.",
-          "romanization": "pyoreul saya haeyo.",
-          "en": "I have to buy a ticket.",
+          "ko": "입장권을 사야 해요.",
+          "romanization": "ipjanggwoneul saya haeyo.",
+          "en": "I have to buy an admission ticket.",
           "note": "사다 (buy) + 아야 해요 — obligation, something required before entering"
         },
         {
@@ -206,7 +206,7 @@
     },
     {
       "hangul": "뛰다",
-      "romanization": "dwida",
+      "romanization": "ttwida",
       "english": "to run",
       "partOfSpeech": "verb",
       "exampleSentence": { "ko": "복도에서 뛰지 마세요.", "en": "Please do not run in the hallway.", "note": "뛰다 + 지 마세요 — common school/museum prohibition sign" },
@@ -245,12 +245,12 @@
       "collocations": ["죄송하지만 안 돼요", "죄송하지만 지 마세요", "죄송합니다"]
     },
     {
-      "hangul": "표",
-      "romanization": "pyo",
-      "english": "ticket",
+      "hangul": "입장권",
+      "romanization": "ipjanggwon",
+      "english": "admission ticket",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "표를 사야 해요.", "en": "I have to buy a ticket.", "note": "표 + 아야 해요 — obligation before entry; common at tourist sites, transit, museums" },
-      "collocations": ["표를 사다", "표를 보여주다", "표가 있어야 해요"]
+      "exampleSentence": { "ko": "입장권을 보여줘야 해요.", "en": "You have to show your admission ticket.", "note": "입장권 + 어야 해요 — obligation before entry at museums and event spaces" },
+      "collocations": ["입장권을 사다", "입장권을 보여주다", "입장권이 있어야 해요"]
     },
     {
       "hangul": "음식",
@@ -282,7 +282,7 @@
       {
         "speaker": "소라",
         "ko": "저도 잘 모르겠어요. 직원한테 물어봐요.",
-        "romanization": "Jeodo jal moreugeseoyo. Jigoenhante mureobwayo.",
+        "romanization": "Jeodo jal moreugesseoyo. Jigwonhante mureobwayo.",
         "en": "I'm not sure either. Let's ask a staff member.",
         "grammarNote": "직원한테 물어봐요 — 한테 is the spoken-language form of 에게 (to/from a person): asking 'to/at the staff member'"
       },
@@ -296,14 +296,14 @@
       {
         "speaker": "직원",
         "ko": "죄송하지만 이 구역에서는 사진 찍지 마세요. 저쪽은 괜찮아요.",
-        "romanization": "Joesonghajiman i guyeogeseo-neun sajin jjikji maseyo. Jeotjjogeun gwaenchana-yo.",
+        "romanization": "Joesonghajiman i guyeogeseoneun sajin jjikji maseyo. Jeotjjogeun gwaenchanayo.",
         "en": "I'm sorry, but please do not take photos in this section. That area over there is fine.",
         "grammarNote": "찍지 마세요 — RED X SIGN: prohibition on photo-taking in this zone; 괜찮아요 = it's okay (implicit permission for the other area)"
       },
       {
         "speaker": "소라",
         "ko": "알겠어요. 그리고 저 전시품 만져도 돼요?",
-        "romanization": "Algeseoyo. Geurigo jeo jeonsipm manjyeodo dwaeyo?",
+        "romanization": "Algesseoyo. Geurigo jeo jeonsipum manjyeodo dwaeyo?",
         "en": "Got it. And may I touch that exhibit?",
         "grammarNote": "만져도 돼요? — TRAFFIC LIGHT: 만지다 + 어도 돼요? asking permission to touch"
       },
@@ -316,17 +316,17 @@
       },
       {
         "speaker": "지훈",
-        "ko": "감사해요. 저기 사진 구역에서 사진 찍어 주세요!",
-        "romanization": "Gamsahaeyo. Jeogi sajin guyeogeseo sajin jjigeo juseyo!",
-        "en": "Thank you. Please take a photo of me in that photo zone!",
+        "ko": "감사합니다. 소라 씨, 저기 사진 구역에서 사진 찍어 주세요!",
+        "romanization": "Gamsahamnida. Sora ssi, jeogi sajin guyeogeseo sajin jjigeo juseyo!",
+        "en": "Thank you. Sora, please take a photo of me in that photo zone!",
         "grammarNote": "사진 찍어 주세요 — HANDOFF: now asking Sora to perform the action of taking the photo for him"
       },
       {
         "speaker": "소라",
-        "ko": "네, 찍어 드릴게요! 여기 서 주세요.",
-        "romanization": "Ne, jjigeo deurilgeyo! Yeogi seo juseyo.",
-        "en": "Sure, I'll take it for you! Please stand here.",
-        "grammarNote": "찍어 드릴게요 — polite form of 찍어 줄게요 (I'll take it for you); 서 주세요 = please stand (서다 + 아 주세요) — another HANDOFF request"
+        "ko": "네, 찍어 줄게요! 여기 서 보세요.",
+        "romanization": "Ne, jjigeo julgeyo! Yeogi seo boseyo.",
+        "en": "Sure, I'll take it for you! Try standing here.",
+        "grammarNote": "찍어 줄게요 is a natural promise between classmates/friends; 서 보세요 gently suggests a position for the photo"
       }
     ]
   },
@@ -394,10 +394,10 @@
     },
     {
       "type": "fillBlank",
-      "prompt": "내일까지 보고서를 제출하___ 해요. (I have to submit the report by tomorrow.)",
+      "prompt": "입장권을 사___ 해요. (I have to buy an admission ticket.)",
       "options": ["아야", "지 않아도", "지 마세요"],
       "correct": "아야",
-      "explanation": "아야 해요 = MUST-DO CHECKLIST — a non-negotiable obligation. 지 않아도 돼요 would mean 'you don't have to submit it' (opposite meaning). 지 마세요 would mean 'please do not submit it' — completely wrong here. Only 아야 해요 expresses the requirement."
+      "explanation": "아야 해요 = MUST-DO CHECKLIST — a non-negotiable obligation. 지 않아도 돼요 would mean 'you don't have to buy it' (opposite meaning). 지 마세요 would mean 'please do not buy it' — completely wrong here. Only 아야 해요 expresses the requirement."
     },
     {
       "type": "multipleChoice",

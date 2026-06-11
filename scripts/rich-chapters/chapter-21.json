@@ -1,0 +1,589 @@
+{
+  "id": "chapter-21",
+  "hook": {
+    "situation": "Pointing out the exact item, place, food, book, or person you mean by putting a description before the noun.",
+    "objectives": [
+      "Use A-ㄴ/은 N for adjective descriptions: 작은 가방, 조용한 카페.",
+      "Use V-는 N for present or habitual action descriptions: 손님이 찾는 모델, 제가 읽는 책.",
+      "Recognize completed action modifiers that appear in real shopping talk: 어제 본 가방, 새로 들어온 물건."
+    ],
+    "whyItMatters": "Korean descriptions come before the noun. Once learners can build 작은 가방 and 어제 본 가방, they can identify the right thing without making several short disconnected sentences."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-075",
+      "title": "A-ㄴ/은 N - an adjective describing a noun",
+      "mentalModel": "Use the adjective modifier to make one noun precise enough for the listener to pick the right item.",
+      "formation": "Put the adjective form directly before the noun. Vowel-ending adjective stems usually take ㄴ: 예쁘다 becomes 예쁜 가방. Consonant-ending adjective stems take 은: 작다 becomes 작은 가방. 하다 adjectives become 한: 조용하다 becomes 조용한 카페.",
+      "examples": [
+        {
+          "ko": "예쁜 가방",
+          "romanization": "yeppeun gabang",
+          "en": "a pretty bag",
+          "note": "예쁘다 becomes 예쁜 before a noun."
+        },
+        {
+          "ko": "작은 지갑",
+          "romanization": "jageun jigap",
+          "en": "a small wallet",
+          "note": "작다 has a consonant stem, so it takes 은."
+        },
+        {
+          "ko": "조용한 카페",
+          "romanization": "joyonghan kape",
+          "en": "a quiet cafe",
+          "note": "하다 adjectives attach as 한."
+        },
+        {
+          "ko": "바쁜 사람",
+          "romanization": "bappeun saram",
+          "en": "a busy person",
+          "note": "바쁘다 becomes 바쁜, not 바쁘은."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "가방이 작아요.",
+            "en": "The bag is small."
+          },
+          "b": {
+            "ko": "작은 가방을 찾고 있어요.",
+            "en": "I am looking for a small bag."
+          },
+          "explanation": "작아요 is a full sentence ending. 작은 is a modifier that must stand before a noun."
+        },
+        {
+          "a": {
+            "ko": "좋은 카페",
+            "en": "a good cafe"
+          },
+          "b": {
+            "ko": "좋아하는 카페",
+            "en": "a cafe that I like"
+          },
+          "explanation": "좋다 describes a state, so it becomes 좋은. 좋아하다 is a verb, so it becomes 좋아하는."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "가방 작은 찾고 있어요.",
+        "right": "작은 가방을 찾고 있어요.",
+        "explanation": "Do not put the adjective after the noun as in English. Korean modifiers come before the noun."
+      },
+      "exceptions": [
+        "있다/없다-type descriptive words often use 는: 맛있는 음식, 재미없는 영화.",
+        "ㅂ irregular adjectives change before 은: 춥다 becomes 추운, 가볍다 becomes 가벼운.",
+        "Several modifiers can stack before one noun: 어제 본 작은 가방."
+      ]
+    },
+    {
+      "id": "gn-pattern-076",
+      "title": "V-는 N - a present or habitual action describing a noun",
+      "mentalModel": "Use V-는 N when the noun is identified by an action someone or something does.",
+      "formation": "Attach 는 to the verb stem before the noun: 찾다 becomes 찾는 모델, 읽다 becomes 읽는 책, 먹다 becomes 먹는 음식. For ㄹ stems, drop ㄹ before 는: 살다 becomes 사는 곳.",
+      "examples": [
+        {
+          "ko": "손님이 많이 찾는 모델",
+          "romanization": "sonnimi manhi channeun model",
+          "en": "a model customers ask for a lot",
+          "note": "찾는 describes the model by a repeated action."
+        },
+        {
+          "ko": "제가 요즘 읽는 책",
+          "romanization": "jega yojeum ingneun chaek",
+          "en": "the book I am reading these days",
+          "note": "읽는 gives a current action."
+        },
+        {
+          "ko": "친구가 사는 동네",
+          "romanization": "chinguga saneun dongne",
+          "en": "the neighborhood where my friend lives",
+          "note": "살다 drops ㄹ before 는."
+        },
+        {
+          "ko": "제가 자주 먹는 음식",
+          "romanization": "jega jaju meongneun eumsik",
+          "en": "food I often eat",
+          "note": "먹는 can describe habitual action."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "읽는 책",
+            "en": "the book someone is reading"
+          },
+          "b": {
+            "ko": "읽은 책",
+            "en": "the book someone read"
+          },
+          "explanation": "V-는 is present or habitual. Completed actions use V-(으)ㄴ."
+        },
+        {
+          "a": {
+            "ko": "사는 곳",
+            "en": "the place where someone lives"
+          },
+          "b": {
+            "ko": "살는 곳",
+            "en": "incorrect"
+          },
+          "explanation": "ㄹ stems drop ㄹ before 는: 살다 becomes 사는."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "제가 읽어요 책",
+        "right": "제가 읽는 책",
+        "explanation": "A full sentence ending like 읽어요 cannot directly modify a noun. Change the verb into a noun modifier first."
+      },
+      "exceptions": [
+        "V-는 N does not automatically mean future. For future or intended action, Korean uses V-(으)ㄹ N: 읽을 책.",
+        "Past/completed action modifiers use V-(으)ㄴ N: 어제 본 가방, 지난주에 만난 사람.",
+        "Korean relative clauses stand before the noun, even when the English translation comes after it."
+      ]
+    },
+    {
+      "id": "gn-completed-modifier-preview",
+      "title": "Completed action modifiers - 어제 본 가방",
+      "mentalModel": "When the action already happened, Korean uses a completed modifier before the noun. This is why shop talk often says 어제 본 가방, 새로 들어온 물건, 지난주에 만난 사람.",
+      "formation": "For many verb stems, use ㄴ after a vowel and 은 after a consonant: 보다 becomes 본, 만나다 becomes 만난, 먹다 becomes 먹은. Irregulars and tense details expand later, but the key idea is completed action before the noun.",
+      "examples": [
+        {
+          "ko": "어제 본 작은 가방",
+          "romanization": "eoje bon jageun gabang",
+          "en": "the small bag I saw yesterday",
+          "note": "본 is a completed action modifier, and 작은 is an adjective modifier."
+        },
+        {
+          "ko": "새로 들어온 물건",
+          "romanization": "saero deureoon mulgeon",
+          "en": "an item that newly came in",
+          "note": "들어온 describes a completed arrival."
+        },
+        {
+          "ko": "지난주에 만난 사람",
+          "romanization": "jinanjue mannan saram",
+          "en": "the person I met last week",
+          "note": "만난 describes a completed meeting."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "요즘 읽는 책",
+            "en": "the book I am reading these days"
+          },
+          "b": {
+            "ko": "어제 읽은 책",
+            "en": "the book I read yesterday"
+          },
+          "explanation": "Use 는 for current or habitual action, and 은/ㄴ for completed action."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "어제 봤어요 작은 가방",
+        "right": "어제 본 작은 가방",
+        "explanation": "봤어요 is a full sentence ending. To place the action before a noun, use the modifier 본."
+      },
+      "exceptions": [
+        "This chapter introduces completed modifiers only as a practical preview because they appear naturally with 어제 본 and 새로 들어온.",
+        "If the main focus is present habit, stay with V-는 N: 자주 가는 카페."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "예쁜",
+      "romanization": "yeppeun",
+      "english": "pretty; beautiful (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "예쁜 가방을 찾고 있어요.",
+        "en": "I am looking for a pretty bag.",
+        "note": "예쁘다 becomes 예쁜 before a noun."
+      },
+      "collocations": [
+        "예쁜 가방",
+        "예쁜 색",
+        "예쁜 디자인"
+      ]
+    },
+    {
+      "hangul": "큰",
+      "romanization": "keun",
+      "english": "big; large (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "큰 가방은 여행할 때 편해요.",
+        "en": "A big bag is convenient when traveling.",
+        "note": "크다 becomes 큰 before a noun."
+      },
+      "collocations": [
+        "큰 가방",
+        "큰 문제",
+        "큰 방"
+      ]
+    },
+    {
+      "hangul": "작은",
+      "romanization": "jageun",
+      "english": "small (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "작은 지갑을 찾고 있어요.",
+        "en": "I am looking for a small wallet.",
+        "note": "작다 becomes 작은 before a noun."
+      },
+      "collocations": [
+        "작은 가방",
+        "작은 집",
+        "작은 지갑"
+      ]
+    },
+    {
+      "hangul": "새로운",
+      "romanization": "saeroun",
+      "english": "new (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "새로운 디자인이 마음에 들어요.",
+        "en": "I like the new design.",
+        "note": "새롭다 becomes 새로운; 새 is also common before nouns."
+      },
+      "collocations": [
+        "새로운 디자인",
+        "새로운 방법",
+        "새로운 가게"
+      ]
+    },
+    {
+      "hangul": "좋은",
+      "romanization": "joeun",
+      "english": "good (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "출근할 때 들기 좋은 가방이에요.",
+        "en": "It is a good bag to carry to work.",
+        "note": "좋다 becomes 좋은; do not confuse it with 좋아하는."
+      },
+      "collocations": [
+        "좋은 가방",
+        "좋은 사람",
+        "좋은 방법"
+      ]
+    },
+    {
+      "hangul": "나쁜",
+      "romanization": "nappeun",
+      "english": "bad (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "나쁜 습관은 조금씩 고치고 있어요.",
+        "en": "I am fixing bad habits little by little.",
+        "note": "나쁘다 becomes 나쁜 before a noun."
+      },
+      "collocations": [
+        "나쁜 습관",
+        "나쁜 날씨",
+        "나쁜 방법"
+      ]
+    },
+    {
+      "hangul": "찾는",
+      "romanization": "channeun",
+      "english": "that someone looks for / asks for",
+      "partOfSpeech": "verb modifier",
+      "exampleSentence": {
+        "ko": "손님이 많이 찾는 모델이에요.",
+        "en": "It is a model customers ask for a lot.",
+        "note": "찾다 becomes 찾는 before a noun."
+      },
+      "collocations": [
+        "찾는 모델",
+        "찾는 물건",
+        "찾는 사람"
+      ]
+    },
+    {
+      "hangul": "본",
+      "romanization": "bon",
+      "english": "that someone saw",
+      "partOfSpeech": "completed verb modifier",
+      "exampleSentence": {
+        "ko": "어제 본 가방이 아직 있어요?",
+        "en": "Do you still have the bag I saw yesterday?",
+        "note": "보다 becomes 본 when it modifies a noun as a completed action."
+      },
+      "collocations": [
+        "어제 본 가방",
+        "지난주에 본 영화",
+        "전에 본 사람"
+      ]
+    },
+    {
+      "hangul": "사는",
+      "romanization": "saneun",
+      "english": "who lives; where someone lives",
+      "partOfSpeech": "verb modifier",
+      "exampleSentence": {
+        "ko": "친구가 사는 동네는 조용해요.",
+        "en": "The neighborhood where my friend lives is quiet.",
+        "note": "살다 drops ㄹ before 는."
+      },
+      "collocations": [
+        "서울에 사는 사람",
+        "혼자 사는 친구",
+        "사는 동네"
+      ]
+    },
+    {
+      "hangul": "입는",
+      "romanization": "imneun",
+      "english": "that someone wears",
+      "partOfSpeech": "verb modifier",
+      "exampleSentence": {
+        "ko": "면접 때 입는 옷은 단정해야 해요.",
+        "en": "The clothes you wear for an interview should be neat.",
+        "note": "입다 becomes 입는 before a noun."
+      },
+      "collocations": [
+        "자주 입는 옷",
+        "면접 때 입는 옷",
+        "겨울에 입는 코트"
+      ]
+    },
+    {
+      "hangul": "읽는",
+      "romanization": "ingneun",
+      "english": "that someone reads / is reading",
+      "partOfSpeech": "verb modifier",
+      "exampleSentence": {
+        "ko": "이건 제가 요즘 읽는 책이에요.",
+        "en": "This is the book I am reading these days.",
+        "note": "읽다 becomes 읽는; pronunciation changes to ingneun."
+      },
+      "collocations": [
+        "읽는 책",
+        "요즘 읽는 소설",
+        "학생이 읽는 글"
+      ]
+    },
+    {
+      "hangul": "먹는",
+      "romanization": "meongneun",
+      "english": "that someone eats / is eating",
+      "partOfSpeech": "verb modifier",
+      "exampleSentence": {
+        "ko": "제가 자주 먹는 음식은 비빔밥이에요.",
+        "en": "The food I often eat is bibimbap.",
+        "note": "먹다 becomes 먹는 before a noun."
+      },
+      "collocations": [
+        "자주 먹는 음식",
+        "아이가 먹는 간식",
+        "한국에서 먹는 음식"
+      ]
+    },
+    {
+      "hangul": "조용한",
+      "romanization": "joyonghan",
+      "english": "quiet (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "조용한 카페에서 공부하고 싶어요.",
+        "en": "I want to study at a quiet cafe.",
+        "note": "조용하다 becomes 조용한."
+      },
+      "collocations": [
+        "조용한 곳",
+        "조용한 카페",
+        "조용한 사람"
+      ]
+    },
+    {
+      "hangul": "바쁜",
+      "romanization": "bappeun",
+      "english": "busy (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "바쁜 사람에게는 짧게 말하는 게 좋아요.",
+        "en": "It is good to speak briefly to a busy person.",
+        "note": "바쁘다 becomes 바쁜 before a noun."
+      },
+      "collocations": [
+        "바쁜 사람",
+        "바쁜 날",
+        "바쁜 시간"
+      ]
+    },
+    {
+      "hangul": "친절한",
+      "romanization": "chinjeolhan",
+      "english": "kind; friendly (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "친절한 직원이 설명해 줬어요.",
+        "en": "A kind staff member explained it to me.",
+        "note": "친절하다 becomes 친절한."
+      },
+      "collocations": [
+        "친절한 사람",
+        "친절한 직원",
+        "친절한 설명"
+      ]
+    },
+    {
+      "hangul": "필요한",
+      "romanization": "piryohan",
+      "english": "necessary; needed (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "필요한 물건만 살게요.",
+        "en": "I will buy only the things I need.",
+        "note": "필요하다 becomes 필요한 before a noun."
+      },
+      "collocations": [
+        "필요한 물건",
+        "필요한 서류",
+        "도움이 필요한 사람"
+      ]
+    },
+    {
+      "hangul": "중요한",
+      "romanization": "jungyohan",
+      "english": "important (modifier)",
+      "partOfSpeech": "adjective modifier",
+      "exampleSentence": {
+        "ko": "중요한 서류는 가방 안에 넣었어요.",
+        "en": "I put the important documents inside the bag.",
+        "note": "중요하다 becomes 중요한 before a noun."
+      },
+      "collocations": [
+        "중요한 일",
+        "중요한 서류",
+        "중요한 약속"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A customer identifies the exact bag in a shop by using adjective and verb modifiers.",
+    "lines": [
+      {
+        "speaker": "직원",
+        "ko": "어떤 가방을 찾으세요?",
+        "romanization": "eotteon gabangeul chajeuseyo?",
+        "en": "What kind of bag are you looking for?",
+        "grammarNote": "어떤 asks for a description before the noun."
+      },
+      {
+        "speaker": "민서",
+        "ko": "어제 본 작은 가방을 찾고 있어요.",
+        "romanization": "eoje bon jageun gabangeul chatgo isseoyo.",
+        "en": "I am looking for the small bag I saw yesterday.",
+        "grammarNote": "본 and 작은 both stand before 가방."
+      },
+      {
+        "speaker": "직원",
+        "ko": "손님들이 많이 찾는 새로운 모델이에요.",
+        "romanization": "sonnimdeuri manhi channeun saeroun moderieyo.",
+        "en": "It is a new model that customers ask for a lot.",
+        "grammarNote": "찾는 is a verb modifier; 새로운 is an adjective modifier."
+      },
+      {
+        "speaker": "민서",
+        "ko": "출근할 때 들기 좋은 가방인가요?",
+        "romanization": "chulgeunhal ttae deulgi joheun gabangingayo?",
+        "en": "Is it a good bag to carry to work?",
+        "grammarNote": "좋은 modifies 가방, and the phrase explains the purpose."
+      },
+      {
+        "speaker": "직원",
+        "ko": "네, 필요한 물건도 많이 들어가요.",
+        "romanization": "ne, piryohan mulgeondo manhi deureogayo.",
+        "en": "Yes, many necessary things fit inside too.",
+        "grammarNote": "필요한 modifies 물건."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "Finding the right bag",
+    "body": "민서는 출근할 때 들기 좋은 가방을 찾고 있었어요. 직원에게 어제 본 작은 가방이 아직 있는지 물어봤어요. 직원은 그 가방이 손님들이 많이 찾는 새로운 모델이라고 설명했어요. 안에는 필요한 물건이 꽤 많이 들어가고, 디자인도 예뻤어요. 민서는 바쁜 아침에도 들고 다니기 편한 가방이 필요했기 때문에 그 가방을 다시 한번 확인했어요.",
+    "bodyTranslation": "Minseo was looking for a bag that would be good to carry to work. She asked whether the small bag she saw yesterday was still available. The staff explained that it was a new model customers often ask for, and Minseo checked it again because she needed a comfortable bag for busy mornings.",
+    "comprehensionQuestions": [
+      {
+        "question": "민서는 어떤 가방을 찾고 있었어요?",
+        "answer": "출근할 때 들기 좋은 가방을 찾고 있었어요."
+      },
+      {
+        "question": "직원은 그 가방을 어떤 모델이라고 설명했어요?",
+        "answer": "손님들이 많이 찾는 새로운 모델이라고 설명했어요."
+      },
+      {
+        "question": "민서는 왜 그 가방을 다시 확인했어요?",
+        "answer": "바쁜 아침에도 들고 다니기 편한 가방이 필요했기 때문이에요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Descriptions make requests sound clear and polite",
+    "body": "In shops, offices, and meet-up situations, Korean often avoids a long chain of short sentences by placing the description before the noun. 어제 봤어요. 작은 가방이에요. 그거 찾고 있어요 can become 어제 본 작은 가방을 찾고 있어요, which is clearer and more natural.",
+    "tip": "When the listener has several possible items in mind, build one precise noun phrase: 조용한 카페, 제가 읽는 책, 어제 본 작은 가방."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "In a shop, which phrase identifies the item most clearly?",
+      "options": [
+        "어제 본 작은 가방",
+        "어제 봐요 가방",
+        "가방 작은 어제"
+      ],
+      "correct": "어제 본 작은 가방",
+      "explanation": "Korean modifiers come before the noun they describe."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which phrase uses V-는 N correctly?",
+      "options": [
+        "손님이 많이 찾는 모델",
+        "손님이 많이 찾아요 모델",
+        "모델 손님이 많이 찾는"
+      ],
+      "correct": "손님이 많이 찾는 모델",
+      "explanation": "찾는 modifies 모델 with an action-based description."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Change 조용하다 + 카페 into a noun phrase.",
+      "answer": "조용한 카페",
+      "explanation": "하다 adjectives become 한 before a noun."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Change 읽다 + 책 into 'the book I am reading.'",
+      "answer": "읽는 책",
+      "explanation": "A present or habitual verb modifier uses 는."
+    },
+    {
+      "type": "errorCorrection",
+      "prompt": "Fix the phrase: 제가 읽어요 책",
+      "answer": "제가 읽는 책",
+      "explanation": "읽어요 is a sentence ending; 읽는 modifies 책."
+    },
+    {
+      "type": "errorCorrection",
+      "prompt": "Fix the phrase: 가방 작은",
+      "answer": "작은 가방",
+      "explanation": "Adjective modifiers come before the noun."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Adjective descriptions use A-ㄴ/은 N: 예쁜 가방, 작은 지갑, 조용한 카페.",
+      "Present or habitual action descriptions use V-는 N: 찾는 모델, 읽는 책, 사는 동네.",
+      "Completed action descriptions point to a noun already affected by an action: 어제 본 가방, 새로 들어온 물건.",
+      "Best check: if the word ends like a sentence, change it before placing it in front of a noun."
+    ],
+    "nextChapterTeaser": "Chapter 22 uses 좋아해요, 보다 더, and 만큼 to compare choices like food, movies, and hobbies."
+  }
+}

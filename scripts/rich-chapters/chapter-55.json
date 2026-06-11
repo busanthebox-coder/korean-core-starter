@@ -1,0 +1,614 @@
+{
+  "id": "chapter-55",
+  "hook": {
+    "situation": "You are starting at Hongik University Station, transferring to Seoul Station, booking a KTX ticket to Busan, and explaining a delay to a friend. Every word in this chapter should help with that trip.",
+    "objectives": [
+      "Ask and answer subway transfer questions with 호선, 환승, 갈아타다, and 승강장.",
+      "Book a KTX ticket with 예매하다, 표, 편도, 왕복, and 매진.",
+      "Explain transport problems with 지연 때문에, V면, and 택시로."
+    ],
+    "whyItMatters": "Transportation Korean is built from small practical frames. Learners need to know which line to take, where to transfer, how to name a ticket type, and how to give a fallback plan when a bus or train is delayed."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-072",
+      "title": "N(으)로 가요 - by, toward, or as the route",
+      "mentalModel": "In transit Korean, (으)로 often points to the route, line, direction, means, or ticket type you choose.",
+      "formation": "Attach 로 after a vowel or ㄹ, and 으로 after other consonants: 택시로, 2호선으로, 승강장으로. In this chapter, 에 usually marks the place you arrive at, while (으)로 marks the way, line, or means: 서울역에 가요 but 택시로 가요, 1호선으로 갈아타요. The same particle can mark a ticket choice: 편도로 예매할게요 means 'I will book it as one-way.'",
+      "examples": [
+        {
+          "ko": "1호선으로 갈아타세요.",
+          "romanization": "il hoseoneuro garataseyo.",
+          "en": "Transfer to Line 1.",
+          "note": "Line number plus 으로 marks the line you change to."
+        },
+        {
+          "ko": "버스 지연 때문에 택시로 갈게요.",
+          "romanization": "beoseu jiyeon ttaemune taeksiro galgeyo.",
+          "en": "Because of the bus delay, I will go by taxi.",
+          "note": "택시로 marks the backup transport."
+        },
+        {
+          "ko": "3번 승강장으로 가세요.",
+          "romanization": "sam beon seunggangjangeuro gaseyo.",
+          "en": "Please go to platform 3.",
+          "note": "승강장으로 marks the direction."
+        },
+        {
+          "ko": "부산 표는 편도로 예매할게요.",
+          "romanization": "busan pyoneun pyeondoro yemaehalgeyo.",
+          "en": "I will book the Busan ticket one-way.",
+          "note": "편도로 marks the ticket type."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-073",
+      "title": "V(으)러 가요 - go to do a travel task",
+      "mentalModel": "Use (으)러 only when someone physically goes or comes somewhere for a purpose.",
+      "formation": "Attach 러 after a vowel stem and 으러 after a consonant stem, then finish with a motion verb such as 가다 or 오다: 예매하러 가요, 찾으러 가요, 충전하러 가요. This is different from V(으)려고 해요: 예매하러 가요 means the trip itself is for booking; 예매하려고 해요 simply states your intention.",
+      "examples": [
+        {
+          "ko": "KTX 표 예매하러 매표소에 가요.",
+          "romanization": "KTX pyo yemaehareo maepyoso-e gayo.",
+          "en": "I am going to the ticket counter to book a KTX ticket.",
+          "note": "The destination and purpose belong together."
+        },
+        {
+          "ko": "교통카드 충전하러 편의점에 가요.",
+          "romanization": "gyotongkadeu chungjeonhareo pyeonuijeome gayo.",
+          "en": "I am going to the convenience store to top up my transit card.",
+          "note": "A real pre-ride errand."
+        },
+        {
+          "ko": "표 찾으러 매표소에 갈게요.",
+          "romanization": "pyo chajeureo maepyoso-e galgeyo.",
+          "en": "I will go to the ticket counter to pick up the ticket.",
+          "note": "찾다 here means retrieve/pick up."
+        },
+        {
+          "ko": "친구 만나러 부산에 가요.",
+          "romanization": "chingu mannareo busane gayo.",
+          "en": "I am going to Busan to meet a friend.",
+          "note": "The purpose of the trip is meeting the friend."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-081",
+      "title": "V(으)려고 해요 - state your travel intention",
+      "mentalModel": "Use V(으)려고 해요 when you are about to do something or explaining what you plan to do next.",
+      "formation": "Attach 려고 해요 after a vowel stem and 으려고 해요 after a consonant stem. In transport scenes, it is useful before asking for help: 예매하려고 해요, 확인하려고 해요, 충전하려고 해요. It sounds softer than a fixed future because the plan is still being arranged.",
+      "examples": [
+        {
+          "ko": "부산 가는 KTX 표를 예매하려고 해요.",
+          "romanization": "busan ganeun KTX pyoreul yemaeharyeogo haeyo.",
+          "en": "I am trying to book a KTX ticket to Busan.",
+          "note": "Natural before a ticket question."
+        },
+        {
+          "ko": "막차 시간을 확인하려고 해요.",
+          "romanization": "makcha siganeul hwaginharyeogo haeyo.",
+          "en": "I am going to check the last-train time.",
+          "note": "The intention is to check before deciding."
+        },
+        {
+          "ko": "교통카드를 충전하려고 해요.",
+          "romanization": "gyotongkadeureul chungjeonharyeogo haeyo.",
+          "en": "I am trying to top up my transit card.",
+          "note": "Useful at a station or convenience store."
+        },
+        {
+          "ko": "배차 간격을 확인하려고 해요.",
+          "romanization": "baecha gangyeogeul hwaginharyeogo haeyo.",
+          "en": "I am trying to check the service interval.",
+          "note": "Map-app or bus-stop context."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-020",
+      "title": "V면 - if a route condition happens",
+      "mentalModel": "V면 lets you build a fallback plan: if this happens, I will do that.",
+      "formation": "Attach 면 to the verb or adjective stem. For nouns and noun-like states, use 이면/면: 매진이면, 지연이면. This chapter uses it to react to sold-out tickets, delays, long intervals, and missed last trains.",
+      "examples": [
+        {
+          "ko": "표가 매진되면 다음 기차로 예매하세요.",
+          "romanization": "pyoga maejindoemyeon daeum gicharo yemaehaseyo.",
+          "en": "If the tickets are sold out, book the next train.",
+          "note": "Condition plus fallback."
+        },
+        {
+          "ko": "버스가 지연되면 택시로 갈게요.",
+          "romanization": "beoseuga jiyeondoemyeon taeksiro galgeyo.",
+          "en": "If the bus is delayed, I will go by taxi.",
+          "note": "Service delay, not the person's lateness."
+        },
+        {
+          "ko": "막차를 놓치면 첫차를 타야 해요.",
+          "romanization": "makchareul notchimyeon cheotchareul taya haeyo.",
+          "en": "If you miss the last train, you have to take the first train.",
+          "note": "Classic late-night consequence."
+        },
+        {
+          "ko": "배차 간격이 길면 택시가 나아요.",
+          "romanization": "baecha gangyeogi gilmyeon taeksiga naayo.",
+          "en": "If the service interval is long, a taxi is better.",
+          "note": "Adjective stem 길- plus 면."
+        }
+      ],
+      "exceptions": [
+        "For the noun state 매진, both 표가 매진되면 and 매진이면 are natural. 매진되면 emphasizes the sold-out event; 매진이면 treats it as the current ticket status."
+      ]
+    },
+    {
+      "id": "gn-pattern-086",
+      "title": "N 때문에 - because of a transport cause",
+      "mentalModel": "Use N 때문에 when a noun names the reason a plan changed.",
+      "formation": "Place the cause noun directly before 때문에: 지연 때문에, 배차 간격 때문에, 막차 때문에. Do not insert 이/가 or 을/를 before 때문에. This form often explains an unwanted result, so it fits delays, missed rides, and schedule changes.",
+      "examples": [
+        {
+          "ko": "버스 지연 때문에 약속에 늦었어요.",
+          "romanization": "beoseu jiyeon ttaemune yaksoge neujeosseoyo.",
+          "en": "I was late to the appointment because of a bus delay.",
+          "note": "지연 is the noun cause."
+        },
+        {
+          "ko": "배차 간격 때문에 택시로 갈게요.",
+          "romanization": "baecha gangyeok ttaemune taeksiro galgeyo.",
+          "en": "Because of the service interval, I will go by taxi.",
+          "note": "The route comes too rarely."
+        },
+        {
+          "ko": "교통카드 잔액 부족 때문에 못 탔어요.",
+          "romanization": "gyotongkadeu janaek bujok ttaemune mot tasseoyo.",
+          "en": "I could not ride because the transit card balance was low.",
+          "note": "잔액 부족 is the noun phrase cause."
+        },
+        {
+          "ko": "막차 때문에 지금 출발해야 해요.",
+          "romanization": "makcha ttaemune jigeum chulbalhaeya haeyo.",
+          "en": "Because of the last train, we have to leave now.",
+          "note": "The schedule pressure is the cause."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-094",
+      "title": "V(으)ㄹ 때 - at the moment you transfer, book, or ride",
+      "mentalModel": "V(으)ㄹ 때 names the moment when a travel action happens.",
+      "formation": "Attach ㄹ 때 after a vowel stem and 을 때 after a consonant stem: 갈 때, 예매할 때, 놓칠 때. Use it for practical warnings and habits: when transferring, when booking, when topping up, when taking the last train.",
+      "examples": [
+        {
+          "ko": "환승할 때 출구 번호도 확인하세요.",
+          "romanization": "hwanseunghal ttae chulgu beonhodo hwaginhaseyo.",
+          "en": "When you transfer, check the exit number too.",
+          "note": "A real subway-navigation warning."
+        },
+        {
+          "ko": "KTX 표를 예매할 때 편도인지 왕복인지 확인하세요.",
+          "romanization": "KTX pyoreul yemaehal ttae pyeondoinji wangboginji hwaginhaseyo.",
+          "en": "When booking a KTX ticket, check whether it is one-way or round-trip.",
+          "note": "Ticket type check."
+        },
+        {
+          "ko": "교통카드를 충전할 때 잔액을 같이 확인해요.",
+          "romanization": "gyotongkadeureul chungjeonhal ttae janaegeul gachi hwaginhaeyo.",
+          "en": "When topping up a transit card, I check the balance too.",
+          "note": "A useful station habit."
+        },
+        {
+          "ko": "막차 탈 때는 시간을 꼭 확인해야 해요.",
+          "romanization": "makcha tal ttaeneun siganeul kkok hwaginhaeya haeyo.",
+          "en": "When taking the last train, you really have to check the time.",
+          "note": "때 can take 는 for topic contrast."
+        }
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "환승",
+      "romanization": "hwanseung",
+      "english": "transfer",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "서울역에 가려면 어디서 환승해요?",
+        "en": "Where do I transfer if I want to get to Seoul Station?",
+        "note": "Official transit noun; 갈아타다 is the everyday action verb."
+      },
+      "collocations": [
+        "환승하다",
+        "환승역",
+        "환승할 때"
+      ]
+    },
+    {
+      "hangul": "갈아타다",
+      "romanization": "garatada",
+      "english": "to transfer / change vehicles",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "시청역에서 1호선으로 갈아타세요.",
+        "en": "Transfer to Line 1 at City Hall Station.",
+        "note": "Linked to verb card word-verb-378."
+      },
+      "collocations": [
+        "지하철을 갈아타다",
+        "버스로 갈아타다",
+        "어디서 갈아타요?"
+      ]
+    },
+    {
+      "hangul": "호선",
+      "romanization": "hoseon",
+      "english": "subway line number",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "서울역에 가려면 몇 호선으로 갈아타요?",
+        "en": "Which line do I transfer to if I want to get to Seoul Station?",
+        "note": "Chapter card word-ext-ch55-hoseon."
+      },
+      "collocations": [
+        "1호선",
+        "2호선",
+        "몇 호선"
+      ]
+    },
+    {
+      "hangul": "승강장",
+      "romanization": "seunggangjang",
+      "english": "platform",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "3번 승강장으로 가세요.",
+        "en": "Please go to platform 3.",
+        "note": "Linked to dictionary card word-ext-1597."
+      },
+      "collocations": [
+        "승강장에서 기다리다",
+        "1번 승강장",
+        "승강장 안전선"
+      ]
+    },
+    {
+      "hangul": "노선",
+      "romanization": "noseon",
+      "english": "route, transit line",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 노선은 배차 간격이 길어요.",
+        "en": "This route has a long service interval.",
+        "note": "Linked to dictionary card word-ext-631."
+      },
+      "collocations": [
+        "버스 노선",
+        "노선도",
+        "노선을 확인하다"
+      ]
+    },
+    {
+      "hangul": "교통카드",
+      "romanization": "gyotongkadeu",
+      "english": "transit card",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "교통카드를 충전하려고 해요.",
+        "en": "I am trying to top up my transit card.",
+        "note": "Linked to dictionary card word-ext-622."
+      },
+      "collocations": [
+        "교통카드를 찍다",
+        "교통카드를 충전하다",
+        "교통카드 잔액"
+      ]
+    },
+    {
+      "hangul": "충전",
+      "romanization": "chungjeon",
+      "english": "top-up / charge",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "교통카드에 만 원 충전해 주세요.",
+        "en": "Please top up my transit card with 10,000 won.",
+        "note": "Transit-card top-up phrase; the card takes 에 when money is added."
+      },
+      "collocations": [
+        "충전해 주세요",
+        "만 원 충전",
+        "어디서 충전해요?"
+      ]
+    },
+    {
+      "hangul": "KTX",
+      "romanization": "KTX",
+      "english": "KTX high-speed train",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "서울에서 부산까지 KTX로 가요.",
+        "en": "I go from Seoul to Busan by KTX.",
+        "note": "Linked to dictionary card word-ext-993."
+      },
+      "collocations": [
+        "KTX 표",
+        "KTX 예매",
+        "KTX로 가다"
+      ]
+    },
+    {
+      "hangul": "표",
+      "romanization": "pyo",
+      "english": "ticket",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "부산 가는 표 있어요?",
+        "en": "Are there tickets to Busan?",
+        "note": "General ticket word for KTX, buses, movies, and events."
+      },
+      "collocations": [
+        "표 한 장",
+        "표를 예매하다",
+        "표가 매진이다"
+      ]
+    },
+    {
+      "hangul": "매표소",
+      "romanization": "maepyoso",
+      "english": "ticket counter / ticket office",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "KTX 표 예매하러 매표소에 가요.",
+        "en": "I am going to the ticket counter to book a KTX ticket.",
+        "note": "Chapter card word-ext-ch55-maepyoso."
+      },
+      "collocations": [
+        "매표소에 가다",
+        "매표소에서 예매하다",
+        "역 매표소"
+      ]
+    },
+    {
+      "hangul": "예매하다",
+      "romanization": "yemaehada",
+      "english": "to book a ticket in advance",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "부산 가는 KTX 표를 예매하려고 해요.",
+        "en": "I am trying to book a KTX ticket to Busan.",
+        "note": "Chapter card word-ext-ch55-yemaehada."
+      },
+      "collocations": [
+        "KTX 표를 예매하다",
+        "앱에서 예매하다",
+        "왕복으로 예매하다"
+      ]
+    },
+    {
+      "hangul": "편도",
+      "romanization": "pyeondo",
+      "english": "one-way",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "부산 표는 편도로 예매할게요.",
+        "en": "I will book the Busan ticket one-way.",
+        "note": "Chapter card word-ext-ch55-pyeondo."
+      },
+      "collocations": [
+        "편도 한 장",
+        "편도예요",
+        "편도로 예매하다"
+      ]
+    },
+    {
+      "hangul": "왕복",
+      "romanization": "wangbok",
+      "english": "round trip",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "돌아오는 시간도 정했으면 왕복으로 예매하세요.",
+        "en": "If you have decided the return time too, book it round-trip.",
+        "note": "Chapter card word-ext-ch55-wangbok."
+      },
+      "collocations": [
+        "왕복 표",
+        "왕복으로 예매하다",
+        "편도예요, 왕복이에요?"
+      ]
+    },
+    {
+      "hangul": "매진",
+      "romanization": "maejin",
+      "english": "sold out for tickets/seats",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "KTX 표가 매진이면 다음 기차로 예매하세요.",
+        "en": "If the KTX tickets are sold out, book the next train.",
+        "note": "Chapter card word-ext-ch55-maejin."
+      },
+      "collocations": [
+        "표가 매진이다",
+        "매진되다",
+        "매진이면"
+      ]
+    },
+    {
+      "hangul": "지연",
+      "romanization": "jiyeon",
+      "english": "delay",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "버스 지연 때문에 약속에 늦었어요.",
+        "en": "I was late to the appointment because of a bus delay.",
+        "note": "Chapter card word-ext-ch55-jiyeon."
+      },
+      "collocations": [
+        "버스 지연",
+        "기차가 지연되다",
+        "지연 때문에"
+      ]
+    },
+    {
+      "hangul": "배차 간격",
+      "romanization": "baecha gangyeok",
+      "english": "service interval",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 노선은 배차 간격이 길어서 택시로 갈게요.",
+        "en": "This route has a long service interval, so I will go by taxi.",
+        "note": "Chapter card word-ext-ch55-baecha-gangyeok."
+      },
+      "collocations": [
+        "배차 간격이 길다",
+        "배차 간격을 확인하다",
+        "배차 간격 때문에"
+      ]
+    },
+    {
+      "hangul": "택시",
+      "romanization": "taeksi",
+      "english": "taxi",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "버스가 지연되면 택시로 갈게요.",
+        "en": "If the bus is delayed, I will go by taxi.",
+        "note": "Method phrase with 로: 택시로 가다."
+      },
+      "collocations": [
+        "택시로 가다",
+        "택시를 부르다",
+        "택시가 안 잡히다"
+      ]
+    },
+    {
+      "hangul": "막차",
+      "romanization": "makcha",
+      "english": "last train or bus",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "막차를 놓치면 첫차를 타야 해요.",
+        "en": "If you miss the last train, you have to take the first train.",
+        "note": "Linked to dictionary card word-ext-624."
+      },
+      "collocations": [
+        "막차 시간",
+        "막차를 놓치다",
+        "막차가 끊기다"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A Kakao-style travel chat while Minseo transfers to Seoul Station and books a KTX ticket.",
+    "lines": [
+      {
+        "speaker": "민서",
+        "ko": "지금 홍대입구역인데 서울역 가려면 어디서 환승해?",
+        "romanization": "jigeum hongdaeipguyeoginde seouryeok garyeomyeon eodiseo hwanseunghae?",
+        "en": "I am at Hongik University Station now. Where do I transfer to get to Seoul Station?",
+        "grammarNote": "-려면 sets the route goal before the question."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "2호선 타고 시청역에서 1호선으로 갈아타. 승강장은 오른쪽이야.",
+        "romanization": "i hoseon tago sicheongyeogeseo il hoseoneuro garata. seunggangjangeun oreunjjogiya.",
+        "en": "Take Line 2 and transfer to Line 1 at City Hall. The platform is on the right.",
+        "grammarNote": "에서 marks the transfer station; 으로 marks the line."
+      },
+      {
+        "speaker": "민서",
+        "ko": "고마워. 부산 가는 KTX 표를 예매하려고 하는데 편도면 돼?",
+        "romanization": "gomawo. busan ganeun KTX pyoreul yemaeharyeogo haneunde pyeondomyeon dwae?",
+        "en": "Thanks. I am trying to book a KTX ticket to Busan. Is one-way okay?",
+        "grammarNote": "-려고 해요 gives the intention before asking for advice."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "응, 돌아오는 시간 안 정했으면 편도로 해. 매진이면 다음 기차 확인하고.",
+        "romanization": "eung, doraoneun sigan an jeonghaesseumyeon pyeondoro hae. maejinimyeon daeum gicha hwaginhago.",
+        "en": "Yes, if you have not set the return time, book it one-way. If it is sold out, check the next train.",
+        "grammarNote": "편도로 marks ticket type; 매진이면 sets a ticket-status condition."
+      },
+      {
+        "speaker": "민서",
+        "ko": "버스 지연 때문에 조금 늦으면 택시로 갈게.",
+        "romanization": "beoseu jiyeon ttaemune jogeum neujeumyeon taeksiro galge.",
+        "en": "If I am a little late because of the bus delay, I will go by taxi.",
+        "grammarNote": "N 때문에 gives the cause and V면 gives the condition."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "괜찮아. 환승할 때 출구 번호도 같이 확인해.",
+        "romanization": "gwaenchana. hwanseunghal ttae chulgu beonhodo gachi hwaginhae.",
+        "en": "No problem. When you transfer, check the exit number too.",
+        "grammarNote": "V(으)ㄹ 때 names the moment to check something."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "서울역에서 부산까지 가는 길",
+    "body": "민서는 홍대입구역에서 서울역으로 가려고 해요. 먼저 2호선을 타고 시청역에서 1호선으로 갈아타야 해요. 환승할 때는 승강장 방향과 출구 번호를 같이 확인하면 헷갈리지 않아요. 서울역에 도착하면 부산 가는 KTX 표를 예매할 거예요. 돌아오는 시간이 아직 정해지지 않아서 편도로 예매하려고 해요. 만약 표가 매진이면 다음 기차를 확인하면 돼요. 친구에게는 버스 지연 때문에 늦으면 택시로 가겠다고 메시지를 보냈어요.",
+    "bodyTranslation": "Minseo is planning to go from Hongik University Station to Seoul Station. First, Minseo takes Line 2 and transfers to Line 1 at City Hall Station. When transferring, checking both the platform direction and exit number helps avoid confusion. After arriving at Seoul Station, Minseo will book a KTX ticket to Busan. Since the return time is not set yet, Minseo plans to book one-way. If the tickets are sold out, Minseo can check the next train. Minseo also messaged a friend that if they are late because of a bus delay, they will go by taxi.",
+    "comprehensionQuestions": [
+      {
+        "question": "민서는 어디에서 1호선으로 갈아타야 해요?",
+        "answer": "시청역에서 갈아타야 해요."
+      },
+      {
+        "question": "돌아오는 시간이 정해지지 않았으면 어떤 표로 예매해요?",
+        "answer": "편도로 예매해요."
+      },
+      {
+        "question": "버스 지연 때문에 늦으면 무엇으로 가겠다고 했어요?",
+        "answer": "택시로 가겠다고 했어요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Transfer Words People Actually Use",
+    "body": "In subway directions, Koreans often say 환승 for the transfer event or transfer system and 갈아타다 for the physical action of changing lines or vehicles. Station signs may say 승강장 or 타는 곳; both point you to the platform area. For KTX, the natural verb is 예매하다 because tickets are usually booked with a seat and time. If tickets are gone, say 매진, not 품절. If a service is delayed, announcements and apps use 지연, while a person says 늦었어요.",
+    "tip": "When you build a route sentence, check three particles first: 에서 for the transfer place, 으로/로 for the new line or means, and 때문에 for the cause of a delay."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence gives a natural subway transfer instruction?",
+      "options": [
+        "시청역에서 1호선으로 갈아타세요.",
+        "시청역에게 1호선을 갈아타세요.",
+        "시청역을 1호선에 갈아타세요."
+      ],
+      "correct": "시청역에서 1호선으로 갈아타세요.",
+      "explanation": "Use 에서 for the transfer station and 으로 for the line you change to."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which word is natural when KTX tickets are sold out?",
+      "options": [
+        "매진",
+        "품절",
+        "고장"
+      ],
+      "correct": "매진",
+      "explanation": "매진 is for tickets and seats; 품절 is usually for store products."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence explains a delay cause correctly?",
+      "options": [
+        "버스 지연 때문에 늦었어요.",
+        "버스 지연이 때문에 늦었어요.",
+        "버스 지연을 때문에 늦었어요."
+      ],
+      "correct": "버스 지연 때문에 늦었어요.",
+      "explanation": "Put the noun cause directly before 때문에 with no extra particle."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Subway route: 어디서 환승해요? -> 시청역에서 1호선으로 갈아타세요.",
+      "Platform and route words: 호선 names subway lines, 노선 names routes, 승강장 is the platform area.",
+      "Ticket flow: KTX 표를 예매하다, 편도/왕복을 choose, 매진이면 다음 기차를 확인하다.",
+      "Delay flow: 지연 is for services; 늦다 is for people. 버스 지연 때문에 늦으면 택시로 갈게요."
+    ],
+    "nextChapterTeaser": "Chapter 56 moves from getting around Korea into workplace and office communication."
+  }
+}

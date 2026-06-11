@@ -17,7 +17,10 @@
   let chapter = null;
   let selected = null;
 
-  const vocabOf = (ch) => [...new Set([...(ch.coreVocabularyIds || []), ...(ch.linkedEntryIds || [])])].map(findEntry).filter(Boolean);
+  const vocabOf = (ch) =>
+    [...new Set([...(ch.coreVocabularyIds || []), ...(ch.linkedEntryIds || [])])]
+      .map(findEntry)
+      .filter((entry) => entry && entry.type !== 'pattern');
   const patternsOf = (ch) => (ch.patternIds || []).map(findEntry).filter(Boolean);
   const grammarOf = (ch) => (ch.grammarFocus || []).map(findGrammar).filter(Boolean);
 
@@ -122,9 +125,14 @@
         <div class="sec-head"><span class="dot" />Warm-up dialogue</div>
         <div class="dlg">
           {#each chapter.dialogue as line}
-            <div class="dline"><span class="spk">{line.speaker}</span>
-              <div><div class="dko">{line.ko} <AudioButton text={line.ko} size={24} /></div>
-                <RomanizationLine text={line.romanization} /><div class="den">{line.en}</div></div></div>
+            <div class="dline" class:right={line.speaker !== chapter.dialogue[0].speaker}>
+              <span class="spk">{line.speaker}</span>
+              <div class="dbubble">
+                <div class="dko">{line.ko} <AudioButton text={line.ko} size={24} /></div>
+                <RomanizationLine text={line.romanization} />
+                <div class="den">{line.en}</div>
+              </div>
+            </div>
           {/each}
         </div>
       </div>
@@ -234,11 +242,62 @@
   .dot.v { background: var(--type-word); }
   .dot.p { background: var(--type-pattern); }
   .dot.g { background: var(--type-grammar); }
-  .dlg { display: grid; gap: 10px; }
-  .dline { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
-  .spk { font-size: 11px; font-weight: 800; padding: 3px 9px; border-radius: 999px; background: var(--green-soft); color: var(--green-dark); white-space: nowrap; }
-  .dko { font-size: 18px; font-weight: 720; display: flex; align-items: center; gap: 7px; }
-  .den { color: var(--ink-2); }
+  .dlg {
+    display: grid;
+    gap: 12px;
+    padding: 16px;
+    border: 1px solid #97b3c7;
+    border-radius: var(--radius);
+    background:
+      linear-gradient(rgba(255,255,255,.16) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px),
+      #b9cfde;
+    background-size: 28px 28px;
+  }
+  .dline {
+    display: grid;
+    justify-items: start;
+    gap: 5px;
+  }
+  .dline.right { justify-items: end; }
+  .spk {
+    max-width: min(78%, 620px);
+    padding: 0 4px;
+    color: rgba(28,45,57,.72);
+    font-size: 11px;
+    font-weight: 850;
+    white-space: nowrap;
+  }
+  .dline.right .spk { text-align: right; }
+  .dbubble {
+    max-width: min(78%, 620px);
+    display: grid;
+    gap: 3px;
+    padding: 11px 13px 12px;
+    border-radius: 15px;
+    border-top-left-radius: 6px;
+    background: #fff;
+    border: 1px solid rgba(70, 91, 105, .12);
+    box-shadow: 0 2px 8px rgba(37, 56, 68, .08);
+  }
+  .dline.right .dbubble {
+    background: #fee95d;
+    border-color: #efcf2f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 6px;
+  }
+  .dko {
+    color: #181818;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 760;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+  .dline.right .dko { justify-content: flex-end; }
+  .den { color: rgba(24,24,24,.68); font-size: 13px; line-height: 1.45; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); column-gap: 26px; row-gap: 0;
     border-bottom: 1px solid var(--border); }
   .gfocus { display: grid; gap: 8px; }
@@ -257,5 +316,10 @@
   .pg.next { text-align: right; }
   .pg-dir { font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }
   .pg-title { font-family: var(--serif-ko); font-size: 15px; font-weight: 600; color: var(--ink); }
-  @media (max-width: 520px) { .pager { grid-template-columns: 1fr; } .pg-spacer { display: none; } }
+  @media (max-width: 520px) {
+    .pager { grid-template-columns: 1fr; }
+    .pg-spacer { display: none; }
+    .dbubble,
+    .spk { max-width: 92%; }
+  }
 </style>

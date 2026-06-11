@@ -36,7 +36,7 @@
         },
         {
           "ko": "걔 다 알면서 모르는 척하잖아요.",
-          "romanization": "gyae da almyeonseo moreuneun cheokajana yo.",
+          "romanization": "gyae da almyeonseo moreuneun cheokhajanayo.",
           "en": "She totally knows but acts like she doesn't.",
           "note": "모르다 = action verb (not knowing = an active state of ignorance) → present -는 척; -잖아요 expresses mild exasperation"
         },
@@ -78,7 +78,7 @@
       "examples": [
         {
           "ko": "길이 미끄러워서 넘어질 뻔했어요.",
-          "romanization": "giri mikkeureoweoseo neomeoijil ppeonhaesseoyo.",
+          "romanization": "giri mikkeureoweoseo neomeojil ppeonhaesseoyo.",
           "en": "The road was slippery so I almost fell.",
           "note": "넘어지다 ends in a vowel → -ㄹ 뻔했어요; -아서 gives the cause that nearly triggered the disaster"
         },
@@ -129,6 +129,66 @@
         "Not used with adjectives: 피곤할 뻔했어요 (almost tired?) doesn't make sense — only with event verbs",
         "Can be positive: 상을 받을 뻔했어요 (I almost won a prize) — though most near-misses described this way are negative (disasters avoided)"
       ]
+    },
+    {
+      "id": "gn-nabwa",
+      "title": "-나 보다 / -(으)ㄴ가 보다 — Guessing From Evidence",
+      "mentalModel": "Think of -나 보다 as a DETECTIVE LINE. You see a clue — no reply, a bad expression, an empty desk, a shaking voice — and you make a careful guess. It is not random guessing, and it is not your own direct feeling. It means 'from what I can see/hear, it looks like...'",
+      "formation": "Action verb / 있다 / 없다: stem + -나 봐요 (일하다 → 일하나 봐요, 있다 → 있나 봐요). Adjective: stem + -(으)ㄴ가 봐요 (바쁘다 → 바쁜가 봐요, 신중하다 → 신중한가 봐요). Noun + 이다: -(이)ㄴ가 봐요 / 인가 봐요 (불만인가 봐요). Past: -았/었나 봐요 (화났나 봐요, 끝났나 봐요). Honorific: -시나 봐요.",
+      "examples": [
+        {
+          "ko": "답장이 없는 걸 보니까 바쁜가 봐요.",
+          "romanization": "dapjangi eomneun geol bonikka bappeunga bwayo.",
+          "en": "Seeing that there is no reply, I guess they are busy.",
+          "note": "바쁘다 is an adjective → 바쁜가 봐요. The missing reply is the evidence."
+        },
+        {
+          "ko": "표정이 안 좋은 걸 보니까 화났나 봐요.",
+          "romanization": "pyojeongi an joeun geol bonikka hwanannabwayo.",
+          "en": "Judging from their expression, I guess they got angry.",
+          "note": "화나다 in past → 화났나 봐요. You are reading a visible clue, not stating a confirmed fact."
+        },
+        {
+          "ko": "팀장님이 스트레스를 많이 받으시나 봐요.",
+          "romanization": "timjangnimi seuteureseureul mani badeusinabwayo.",
+          "en": "It looks like the team lead is under a lot of stress.",
+          "note": "받다 is an action verb, and the subject is respected → 받으시나 봐요."
+        },
+        {
+          "ko": "회의가 끝났나 봐요. 사람들이 나오네요.",
+          "romanization": "hoeuiga kkeunnannabwayo. saramdeuri naoneyo.",
+          "en": "I guess the meeting ended. People are coming out.",
+          "note": "끝나다 in past → 끝났나 봐요. The people coming out are the clue."
+        },
+        {
+          "ko": "그분은 정말 신중한가 봐요.",
+          "romanization": "geubuneun jeongmal sinjunghanga bwayo.",
+          "en": "It seems that person is really cautious.",
+          "note": "신중하다 is an adjective → 신중한가 봐요. Use it when you infer personality from behavior."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": { "ko": "바쁜 것 같아요.", "en": "I think they seem busy. (soft impression)" },
+          "b": { "ko": "바쁜가 봐요.", "en": "I guess they are busy from the evidence." },
+          "explanation": "-것 같아요 can be a general soft opinion. -(으)ㄴ가 봐요 leans more on evidence: no reply, rushed behavior, a closed door, or someone else's clue."
+        },
+        {
+          "a": { "ko": "아픈 척해요.", "en": "They are pretending to be sick." },
+          "b": { "ko": "아픈가 봐요.", "en": "I guess they are sick." },
+          "explanation": "척하다 means you think the performance is fake. -나/-(으)ㄴ가 보다 means you are making an honest inference from clues. Do not swap them."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "저는 슬픈가 봐요.",
+        "right": "저는 슬퍼요. / 제가 좀 슬픈가 봐요.",
+        "explanation": "For your own obvious feeling, state it directly: 슬퍼요, 피곤해요, 긴장돼요. Use -나 보다 about yourself only when you are discovering it indirectly from signs, like 'I guess I must be sad; I keep crying.'"
+      },
+      "exceptions": [
+        "In casual speech, adjectives sometimes take -나 봐요 too, but -(으)ㄴ가 봐요 is the clearer learning target for adjectives.",
+        "Use -나 봐요 for evidence-based inference, not for wild guesses with no clue.",
+        "For direct confirmed information, use a plain statement or reported speech instead: 팀장님이 아프다고 하셨어요."
+      ]
     }
   ],
   "extendedVocabulary": [
@@ -150,9 +210,9 @@
       "english": "fear; dread",
       "partOfSpeech": "noun",
       "exampleSentence": {
-        "ko": "그 사람 표정 보니까 두려운가 봐요.",
-        "en": "From that person's expression, it seems they're afraid.",
-        "note": "두렵다 (adjective) → -(으)ㄴ가 보다 = evidence-based guess about someone's emotional state"
+        "ko": "그 사람 표정을 보니까 많이 두려워하나 봐요.",
+        "en": "From that person's expression, I guess they're really afraid.",
+        "note": "두려워하다 is an action verb, so it takes -나 봐요. The visible expression is the evidence."
       },
       "collocations": ["두려움을 느끼다", "두려움에 떨다", "두려움을 극복하다", "두렵다"]
     },
@@ -198,9 +258,9 @@
       "english": "respect; admiration",
       "partOfSpeech": "noun",
       "exampleSentence": {
-        "ko": "그분이 그렇게 성실한 걸 보니까 존경스러운가 봐요.",
-        "en": "Seeing how diligent that person is, they must seem admirable.",
-        "note": "존경스럽다 → -(으)ㄴ가 봐요; guessing someone else's feeling of admiration from their behavior"
+        "ko": "그분 이야기가 나오면 다들 조용해지는 걸 보니까 많이 존경하나 봐요.",
+        "en": "Seeing everyone quiet down when that person comes up, I guess they respect them a lot.",
+        "note": "존경하다 is an action verb, so it takes -나 봐요. The group reaction gives the clue."
       },
       "collocations": ["존경하다", "존경스럽다", "존경을 받다", "존경심을 가지다"]
     },
@@ -222,9 +282,9 @@
       "english": "to be honest; truthful; upright",
       "partOfSpeech": "adjective",
       "exampleSentence": {
-        "ko": "그 사람이 모르는 척한 걸 보면 정직한가 싶어요.",
-        "en": "Seeing them pretend not to know makes me wonder if they're actually honest.",
-        "note": "모르는 척하다 directly contradicts 정직하다; this contrast appears naturally in character assessments"
+        "ko": "그 사람이 사실대로 말하는 걸 보니까 정직한 사람인가 봐요.",
+        "en": "Seeing that person tell the truth, I guess they're an honest person.",
+        "note": "정직한 사람인가 봐요 uses noun phrase 사람인가 봐요 after the adjective modifier 정직한."
       },
       "collocations": ["정직하게 말하다", "정직한 사람", "정직함을 지키다", "정직하지 않다"]
     },
@@ -246,9 +306,9 @@
       "english": "to be coolheaded; level-headed; cold; detached",
       "partOfSpeech": "adjective",
       "exampleSentence": {
-        "ko": "감정이 없는 척했지만 사실 힘들었어요.",
-        "en": "I pretended to be emotionless, but it was actually tough.",
-        "note": "감정이 없는 척하다 = pretend to be cold/unemotional; 척하다 used for performing emotional detachment"
+        "ko": "냉정한 척했지만 사실 힘들었어요.",
+        "en": "I pretended to be coolheaded, but it was actually hard.",
+        "note": "냉정한 척하다 uses the target adjective directly: acting detached even when you are shaken inside."
       },
       "collocations": ["냉정하게 판단하다", "냉정한 사람", "냉정을 유지하다", "냉정하게 대하다"]
     },
@@ -278,7 +338,7 @@
     },
     {
       "hangul": "눈치채다",
-      "romanization": "nunchichaeда",
+      "romanization": "nunchichaeda",
       "english": "to pick up on; to sense; to figure out (from cues)",
       "partOfSpeech": "verb",
       "exampleSentence": {
@@ -331,28 +391,28 @@
       {
         "speaker": "지연",
         "ko": "오늘 오전에 발표하다가 목소리가 떨릴 뻔했어요.",
-        "romanization": "oneul ojeone balpyohada ga moksoriga teollil ppeonhaesseoyo.",
+        "romanization": "oneul ojeone balpyohadaga moksoriga tteollil ppeonhaesseoyo.",
         "en": "This morning during my presentation, my voice almost started shaking.",
         "grammarNote": "떨리다 = vowel-stem verb → -ㄹ 뻔했어요; the near-miss is past and already resolved"
       },
       {
         "speaker": "민수",
         "ko": "어, 저도 봤는데 엄청 자연스러웠어요. 몰랐어요.",
-        "romanization": "eo, jeodo bwanneunde eomcheong jayeonseureowoosseoyo. mollasseoyo.",
+        "romanization": "eo, jeodo bwanneunde eomcheong jayeonseureowosseoyo. mollasseoyo.",
         "en": "Oh, I was watching and you were super natural. I couldn't tell.",
         "grammarNote": "No grammar point here — a natural supportive reply that makes the 척하다 line in the next turn more impactful"
       },
       {
         "speaker": "지연",
         "ko": "고마워요. 사실 많이 떨렸는데 괜찮은 척했어요.",
-        "romanization": "gomawoyo. sasil mani teolryeonneunde gwaenchanheun cheokaesseoyo.",
+        "romanization": "gomawoyo. sasil mani tteollyeonneunde gwaenchaneun cheokaesseoyo.",
         "en": "Thank you. I was actually shaking a lot, but I pretended to be fine.",
         "grammarNote": "괜찮다 is an adjective → -(으)ㄴ 척하다: 괜찮은 척했어요; confirms the mask was successfully worn"
       },
       {
         "speaker": "민수",
         "ko": "그래요? 팀장님도 잘 모르시는 것 같던데요.",
-        "romanization": "geuraeyо? timjangnimdo jal moreusineun geot gatdeondeyo.",
+        "romanization": "geuraeyo? timjangnimdo jal moreusineun geot gatdeondeyo.",
         "en": "Really? It seemed like the team leader didn't notice either.",
         "grammarNote": "-것 같던데요 = a gentle evidence-based impression recalled from the past; softer than -나 봐요 here because the speaker is recounting their own observation"
       },
@@ -365,22 +425,22 @@
       },
       {
         "speaker": "민수",
-        "ko": "맞아요. 아침에 표정이 안 좋더라고요. 스트레스 많이 받으시나 봐요.",
-        "romanization": "majayo. achime pyojeongi an jotdeoragoyo. seuteureseu mani badumsina bwayo.",
-        "en": "Right. The expression this morning wasn't great. I'm guessing they're under a lot of stress.",
-        "grammarNote": "받다 = action verb → -나 봐요 (not -(으)ㄴ가); the visible evidence (bad expression) triggers the inference"
+        "ko": "맞아요. 아침에 표정이 안 좋으시더라고요. 스트레스 많이 받으시나 봐요.",
+        "romanization": "majayo. achime pyojeongi an joeusideoragoyo. seuteureseu mani badeusinabwayo.",
+        "en": "Right. Their expression this morning didn't look good. I'm guessing they're under a lot of stress.",
+        "grammarNote": "받으시나 봐요 = honorific 시 + -나 봐요. The visible evidence (bad expression) triggers the inference."
       },
       {
         "speaker": "지연",
         "ko": "하마터면 제가 먼저 물어볼 뻔했는데 참았어요.",
-        "romanization": "hamateomyeon jega meonjeo mureоbol ppeonaennneunde chamasseoyo.",
+        "romanization": "hamateomyeon jega meonjeo mureobol ppeonhaenneunde chamasseoyo.",
         "en": "I almost asked first, but I held back.",
         "grammarNote": "하마터면 + 물어보다 (vowel stem) → -ㄹ 뻔했는데; -는데 adds a contrastive note (almost did, but then...)"
       },
       {
         "speaker": "민수",
         "ko": "잘하셨어요. 지금은 모르는 척하는 게 나을 것 같아요.",
-        "romanization": "jalhaseyosseoyo. jigeumeun moreuneun cheokhaneun ge naeul geot gatayo.",
+        "romanization": "jalhasyeosseoyo. jigeumeun moreuneun cheokhaneun ge naeul geot gatayo.",
         "en": "Good call. Right now, playing dumb is probably better.",
         "grammarNote": "모르다 = action verb → 모르는 척하다; 하는 게 나을 것 같다 = 'it's probably better to...' — 척하다 appears as a noun-modifying clause here"
       }
@@ -389,8 +449,8 @@
   "readingText": {
     "type": "diary",
     "title": "지연의 하루 일기 (Jiyeon's Day Diary)",
-    "body": "오늘은 정말 힘든 하루였다. 아침에 중요한 발표가 있었는데, 엄청 긴장해서 울 뻔했다. 발표하는 내내 떨렸지만 괜찮은 척하면서 끝까지 버텼다. 팀장님은 좀 무표정하게 앉아 계셨는데, 뭔가 불만이신가 봐서 마음이 불안했다. 나중에 동료한테 물어봤더니 요즘 윗사람한테 스트레스 받으시나 봐라고 했다. 그 말 듣고 조금 안심이 됐다. 퇴근하다가 지갑을 잃어버릴 뻔했다. 하마터면 큰일 날 뻔했는데, 다행히 가방 안쪽에 있었다. 내일은 오늘보다 나은 하루이길 바란다.",
-    "bodyTranslation": "Today was a really tough day. There was an important presentation in the morning, and I was so nervous I almost cried. I was shaking the whole time but I pretended to be fine and hung in there to the end. The team leader sat there with a blank expression, and I felt uneasy thinking they seemed dissatisfied with something. I asked a coworker later, and they said it looks like the team leader has been under stress from upper management lately. Hearing that made me feel a bit relieved. On the way out of the office, I almost lost my wallet. That was almost a disaster, but thankfully it was in the inside pocket of my bag. I hope tomorrow is a better day than today.",
+    "body": "오늘은 정말 힘든 하루였다. 아침에 중요한 발표가 있었는데, 엄청 긴장해서 울 뻔했다. 발표하는 내내 떨렸지만 괜찮은 척하면서 끝까지 버텼다. 팀장님은 좀 무표정하게 앉아 계셨는데, 뭔가 불만이 있으신가 봐서 마음이 불안했다. 나중에 동료한테 물어봤더니 \"요즘 윗사람 때문에 스트레스를 많이 받으시나 봐\"라고 했다. 그 말 듣고 조금 안심이 됐다. 퇴근하다가 지갑을 잃어버릴 뻔했다. 하마터면 큰일 날 뻔했는데, 다행히 가방 안쪽에 있었다. 내일은 오늘보다 나은 하루이길 바란다.",
+    "bodyTranslation": "Today was a really tough day. There was an important presentation in the morning, and I was so nervous I almost cried. I was shaking the whole time but I pretended to be fine and hung in there to the end. The team leader sat there with a blank expression, and I felt uneasy thinking they seemed to have some complaint. I asked a coworker later, and they said, \"It looks like the team leader is under a lot of stress because of upper management these days.\" Hearing that made me feel a bit relieved. On the way out of the office, I almost lost my wallet. That was almost a disaster, but thankfully it was in the inside pocket of my bag. I hope tomorrow is a better day than today.",
     "comprehensionQuestions": [
       {
         "question": "Why did Jiyeon pretend to be fine during the presentation?",
@@ -398,17 +458,17 @@
       },
       {
         "question": "How does Jiyeon learn about the team leader's stress? What Korean pattern does she use for this inference?",
-        "answer": "She hears it from a coworker. She uses 스트레스 받으시나 봐 — the -나 봐 pattern (action verb 받다 → 받으시나 봐) because the information is secondhand evidence, not something she observed directly."
+        "answer": "She hears it from a coworker. She uses 스트레스를 많이 받으시나 봐 — the -나 봐 pattern (action verb 받다 → 받으시나 봐) because the coworker is making an evidence-based inference, not stating a confirmed fact."
       },
       {
         "question": "Find every instance of 척하다, 뻔하다, and -나/-(으)ㄴ가 보다 in the text. For each one, explain WHY that particular pattern is used there.",
-        "answer": "척하다: 괜찮은 척하면서 — she is deliberately performing composure she does not feel (adjective 괜찮다 → -(으)ㄴ 척). 뻔하다: 울 뻔했다 — she genuinely nearly cried (ulda vowel stem → 울 뻔했다); 잃어버릴 뻔했다 — she genuinely almost lost her wallet (잃어버리다 vowel stem → -ㄹ 뻔했다); 큰일 날 뻔했는데 — almost a disaster (나다 vowel stem → -ㄹ 뻔했는데). -나/-(으)ㄴ가 보다: 불만이신가 봐서 — 불만이다 is a 이다 predicate → -인가 봐; vague-evidence inference from a blank expression. 스트레스 받으시나 봐 — 받다 is an action verb → -나 봐; secondhand inference from coworker's information."
+        "answer": "척하다: 괜찮은 척하면서 — she is deliberately performing composure she does not feel (adjective 괜찮다 → -(으)ㄴ 척). 뻔하다: 울 뻔했다 — she genuinely nearly cried (울다 ㄹ-stem → 울 뻔했다); 잃어버릴 뻔했다 — she genuinely almost lost her wallet (잃어버리다 vowel stem → -ㄹ 뻔했다); 큰일 날 뻔했는데 — almost a disaster (나다 vowel stem → -ㄹ 뻔했는데). -나/-(으)ㄴ가 보다: 불만이 있으신가 봐서 — 불만이 있다 + honorific 있으시다 + -ㄴ가 봐; evidence-based inference from a blank expression. 스트레스를 많이 받으시나 봐 — 받다 is an action verb → -나 봐; the coworker is inferring from workplace clues."
       }
     ]
   },
   "culturalNote": {
     "title": "척하다 and the Art of Saving Face in Korean Workplaces",
-    "body": "Korean workplace culture places enormous value on 눈치 (the ability to read the room) and not burdening others with your problems. 괜찮은 척하다 (pretending to be fine) is not considered dishonest — it is considered polite, professional, and emotionally mature. If your boss asks how you're doing on a Monday morning and you are exhausted, the socially expected answer is 괜찮아요, not a detailed complaint. Similarly, 모르는 척하다 (pretending not to know) is often used by seniors to give juniors the space to present without the senior's greater knowledge overshadowing the room. Understand this cultural context and you'll find 척하다 appearing everywhere in Korean dramas, office stories, and everyday conversation — it's not always deception; it's often grace."
+    "body": "Korean workplace culture places enormous value on 눈치 (the ability to read the room) and not burdening others with every private feeling. 괜찮은 척하다 (pretending to be fine) can be a way to stay professional in public, especially during a presentation or meeting. If a coworker asks how you're doing on a busy Monday and you are exhausted, the socially expected first answer may still be 괜찮아요, with details saved for a closer conversation. Similarly, 모르는 척하다 (pretending not to know) can sometimes be a face-saving move: you notice something, but you leave room for the other person to handle it. 척하다 is not always noble or dishonest; the meaning depends on the relationship, the motive, and the situation."
   },
   "inlineExercises": [
     {
@@ -423,7 +483,7 @@
       "prompt": "하마터면 지하철을 ___ 뻔했어요. (놓치다 = to miss a train)",
       "options": ["놓칠", "놓치는"],
       "correct": "놓칠",
-      "explanation": "-(으)ㄹ 뻔하다 uses the future/potential modifier -(으)ㄹ, not the present continuous -는. 놓치다 has a consonant-ending stem → -을 뻔했어요. 놓치는 뻔했어요 would be a completely different (and ungrammatical) construction."
+      "explanation": "-(으)ㄹ 뻔하다 uses the future/potential modifier -(으)ㄹ, not the present continuous -는. 놓치다 has a vowel-ending stem 놓치-, so it becomes 놓칠 뻔했어요. 놓치는 뻔했어요 is ungrammatical."
     },
     {
       "type": "fillBlank",

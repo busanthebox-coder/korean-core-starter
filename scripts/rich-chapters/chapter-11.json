@@ -266,7 +266,7 @@
     },
     {
       "hangul": "괜찮다",
-      "romanization": "gwaenchantta",
+      "romanization": "gwaenchanta",
       "english": "to be okay / fine / alright",
       "partOfSpeech": "adjective",
       "exampleSentence": {
@@ -338,13 +338,13 @@
     }
   ],
   "extendedDialogue": {
-    "setting": "Minjun texts his friend Yuna to explain why he can't make it to their group dinner and makes promises about what he'll do instead",
+    "setting": "Minjun texts his colleague Yuna to explain why he can't make it to their group dinner and makes promises about what he'll do instead",
     "lines": [
       {
         "speaker": "유나",
-        "ko": "민준아, 오늘 저녁 같이 먹을 수 있어요?",
-        "romanization": "Minjuna, oneul jeonyeok gachi meogeul su isseoyo?",
-        "en": "Minjun, can you eat dinner together tonight?",
+        "ko": "민준 씨, 오늘 같이 저녁 먹을 수 있어요?",
+        "romanization": "Minjun ssi, oneul gachi jeonyeok meogeul su isseoyo?",
+        "en": "Minjun, can you join dinner tonight?",
         "grammarNote": "ㄹ 수 있어요 (ability) — 먹다 + 을 수 있어요 because 먹 is consonant-final; sets up the situation Minjun needs to respond to with connectors"
       },
       {
@@ -371,28 +371,28 @@
       {
         "speaker": "유나",
         "ko": "알겠어요. 그럼 다음에 같이 먹어요.",
-        "romanization": "Algeseoyo. Geureom daeume gachi meogeoyo.",
+        "romanization": "Algesseoyo. Geureom daeume gachi meogeoyo.",
         "en": "Understood. Then let's eat together next time.",
         "grammarNote": "그럼 is a soft conditional ('in that case then'); suggests an alternative without a hard connector"
       },
       {
         "speaker": "민준",
-        "ko": "고마워요! 다음 주에 시간이 있으면 제가 살게요.",
-        "romanization": "Gomawoyo! Daeum jue sigani isseumyeon jega salgeyo.",
-        "en": "Thank you! If I have time next week, I'll treat you.",
-        "grammarNote": "있으면 (있다 + 으면, consonant-final 다 takes 으면): switch track condition. 살게요 = speaker's first-person promise/decision — the engineer announces treating."
+        "ko": "고마워요! 다음 주에 시간 괜찮으면 제가 살게요.",
+        "romanization": "Gomawoyo! Daeum jue sigan gwaenchanheumyeon jega salgeyo.",
+        "en": "Thank you! If next week works, I'll treat you.",
+        "grammarNote": "괜찮으면 (괜찮다 + 으면): switch track condition. 살게요 = speaker's first-person promise/decision — the speaker commits to treating."
       },
       {
         "speaker": "유나",
-        "ko": "와, 정말요? 그럼 기다릴게요.",
-        "romanization": "Wa, jeongmalyo? Geureom gidarilgeyo.",
-        "en": "Wow, really? Then I'll wait.",
-        "grammarNote": "기다릴게요 = 기다리다 + ㄹ게요 (vowel-final 리 → 릴게요): Yuna's own speaker's promise to wait. ㄹ/을게요 is first-person only — Yuna can say it about herself."
+        "ko": "와, 정말요? 그럼 제가 식당 찾아볼게요.",
+        "romanization": "Wa, jeongmalyo? Geureom jega sikdang chajabolgeyo.",
+        "en": "Wow, really? Then I'll look for a restaurant.",
+        "grammarNote": "찾아볼게요 = 찾아보다 + ㄹ게요: Yuna makes her own first-person promise in response."
       },
       {
         "speaker": "민준",
         "ko": "일 끝나면 바로 연락할게요. 오늘 저녁 맛있게 드세요!",
-        "romanization": "Il kkeutnnamyeon baro yeollakhalgeyo. Oneul jeonyeok masitge deuseyo!",
+        "romanization": "Il kkeunnamyeon baro yeollakhalgeyo. Oneul jeonyeok masitge deuseyo!",
         "en": "When I finish work, I'll contact you right away. Enjoy dinner tonight!",
         "grammarNote": "끝나면 (끝나다 + 면, vowel-final): condition 'when work ends'. 연락할게요: speaker's promise (하다 verb → 할게요). Two connectors in one message."
       }
@@ -401,8 +401,8 @@
   "readingText": {
     "type": "sms",
     "title": "지연 씨의 문자 대화 (Jiyeon's Text Exchange)",
-    "body": "지연: 오빠, 오늘 약속 괜찮아요? 저 요즘 좀 바빠서요.\n수호: 아, 그래요? 많이 바빠요?\n지연: 네, 이번 주에 시험이 있어서 공부해야 해요.\n수호: 알겠어요. 그럼 시험 끝나면 만나요.\n지연: 좋아요! 시험이 목요일이에요. 금요일에 시간 있어요?\n수호: 금요일은 괜찮아요. 제가 예약할게요.\n지연: 감사해요! 시험 잘 보고 연락할게요.",
-    "bodyTranslation": "Jiyeon: Oppa, is our plan for today okay? I've been a bit busy lately.\nSuho: Oh, is that so? Are you very busy?\nJiyeon: Yes, I have an exam this week so I have to study.\nSuho: I see. Then let's meet when the exam is over.\nJiyeon: Sounds good! The exam is Thursday. Do you have time Friday?\nSuho: Friday is fine. I'll make the reservation.\nJiyeon: Thank you! I'll finish the exam and then contact you.",
+    "body": "지연: 수호 씨, 오늘 약속 괜찮아요? 저 요즘 좀 바빠서요.\n수호: 아, 그래요? 많이 바빠요?\n지연: 네, 이번 주에 시험이 있어서 공부해야 해요.\n수호: 알겠어요. 그럼 시험 끝나면 만나요.\n지연: 좋아요! 시험이 목요일이에요. 금요일에 시간 있어요?\n수호: 금요일은 괜찮아요. 제가 예약할게요.\n지연: 감사합니다! 시험 잘 보고 연락할게요.",
+    "bodyTranslation": "Jiyeon: Suho, is our plan for today still okay? I've been a bit busy lately.\nSuho: Oh, is that so? Are you very busy?\nJiyeon: Yes, I have an exam this week so I have to study.\nSuho: I see. Then let's meet when the exam is over.\nJiyeon: Sounds good! The exam is Thursday. Do you have time Friday?\nSuho: Friday is fine. I'll make the reservation.\nJiyeon: Thank you! I'll do well on the exam and then contact you.",
     "comprehensionQuestions": [
       {
         "question": "Why can't Jiyeon meet today?",
@@ -469,14 +469,14 @@
     },
     {
       "type": "multipleChoice",
-      "prompt": "You want to say 'I'm tired, so let's rest.' Which connector is correct?",
+      "prompt": "You want to say 'I'm tired, so I'm going to rest.' Which connector is correct?",
       "options": [
-        "피곤해면 쉬어요.",
-        "피곤해서 쉬어요.",
-        "피곤하고 쉬어요."
+        "피곤하면 쉴게요.",
+        "피곤해서 쉴게요.",
+        "피곤하고 쉴게요."
       ],
-      "correct": "피곤해서 쉬어요.",
-      "explanation": "Being tired is the CAUSE of resting — a domino push — so 아서/어서 (해서 for 하다 verbs) is correct. 해면 (option 1) makes it a condition ('if tired, rest') rather than stating the actual reason. 하고 (option 3) just sequences the states ('tired and rest') without showing that tiredness is WHY you're resting."
+      "correct": "피곤해서 쉴게요.",
+      "explanation": "Being tired is the CAUSE of the speaker's decision to rest, so 아서/어서 (해서 for 하다 verbs) is correct. 피곤하면 쉴게요 means 'if I'm tired, I'll rest,' which changes the real reason into a condition. 피곤하고 쉴게요 just links 'tired and rest' without showing that tiredness is WHY you're resting."
     }
   ],
   "summaryCard": {
@@ -485,6 +485,6 @@
       "고 = COUPLING HOOK: neutral link between actions or descriptions, no cause needed (먹고 가요 / 싸고 맛있어요)",
       "면 = SWITCH TRACK: hypothetical condition before the result (시간이 있으면 전화해요) | ㄹ/을게요 = ENGINEER'S ANNOUNCEMENT: first-person speaker's promise only (전화할게요)"
     ],
-    "nextChapterTeaser": "Next up: Chapter 12 introduces 을/ㄹ 수 있다/없다 (ability and possibility) and 아/어야 하다 (obligation) — the grammar that lets you say what you can do, what you can't, and what you must. Combined with the connectors from Chapter 11, you'll express complex situations with ease."
+    "nextChapterTeaser": "Next up: Chapter 12 moves into opinions, reasons, and soft guessing — how to say what you think, why you think it, and what something seems like without sounding too blunt."
   }
 }

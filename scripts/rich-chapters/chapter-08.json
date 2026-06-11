@@ -30,15 +30,15 @@
         },
         {
           "ko": "맵지 않은 음식을 먹고 싶어요.",
-          "romanization": "maepji aneun eumsigul meokgo sipeoyo.",
+          "romanization": "maepji aneun eumsigeul meokgo sipeoyo.",
           "en": "I want to eat food that isn't spicy.",
           "note": "먹다 → stem 먹 + 고 싶어요. Practical desire at a restaurant — key real-life use of this form."
         },
         {
-          "ko": "한국어를 잘 하고 싶어요.",
-          "romanization": "hangugeo-reul jal hago sipeoyo.",
-          "en": "I want to speak Korean well.",
-          "note": "하다 → stem 하 + 고 싶어요. A longer-term aspiration, not just an immediate craving — 고 싶어요 covers both."
+          "ko": "한국어를 잘하고 싶어요.",
+          "romanization": "hangugeoreul jalhago sipeoyo.",
+          "en": "I want to get better at Korean.",
+          "note": "잘하다 → 잘하 + 고 싶어요. A longer-term aspiration, not just an immediate craving — 고 싶어요 covers both."
         },
         {
           "ko": "오늘은 쉬고 싶어요.",
@@ -84,13 +84,13 @@
         },
         {
           "ko": "매운 음식을 먹을 수 있어요.",
-          "romanization": "maeun eumsigul meogeul su isseoyo.",
+          "romanization": "maeun eumsigeul meogeul su isseoyo.",
           "en": "I can eat spicy food.",
           "note": "먹다 → stem 먹 (ends in consonant ㄱ) → 먹을 수 있어요. Stating ability: I'm capable of eating spicy food."
         },
         {
           "ko": "한국어를 조금 할 수 있어요.",
-          "romanization": "hangugeo-reul jogeum hal su isseoyo.",
+          "romanization": "hangugeoreul jogeum hal su isseoyo.",
           "en": "I can speak a little Korean.",
           "note": "하다 → stem 하 (ends in vowel) → 할 수 있어요. Modest ability claim — very useful for newcomers."
         },
@@ -120,9 +120,9 @@
         }
       ],
       "englishSpeakerPitfall": {
-        "wrong": "한국어를 못 말해요.",
-        "right": "한국어를 못 해요. / 한국어를 못 말해요.",
-        "explanation": "Actually both forms exist — 못 말해요 (can't speak/say) and 못 해요 (can't do it) are both grammatically fine. The real pitfall is 못 가해요 for 가다: learners wrongly apply the 하다 pattern to regular verbs. 가다 is NOT a 하다 verb, so 못 가요 is correct, 못 가해요 is wrong. Only 하다 verbs (공부하다, 운동하다, 전화하다) use 못 해요."
+        "wrong": "오늘 못 가해요.",
+        "right": "오늘 못 가요.",
+        "explanation": "Learners sometimes attach 해요 to every negative ability sentence because they remember 하다 verbs like 운동 못 해요. But 가다 is not a 하다 verb, so 못 goes directly before 가요: 못 가요. For language ability, 한국어를 못 해요 and 한국어로 못 말해요 are both possible; the real error is adding 해요 to regular verbs."
       },
       "exceptions": [
         "하다 verbs with 못: 공부 못 해요, 운동 못 해요, 전화 못 해요 — the 하다 part becomes 해요, and 못 goes before the whole expression or between the noun and 해요.",
@@ -161,8 +161,8 @@
       "romanization": "hada",
       "english": "to do",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "한국어를 잘 하고 싶어요.", "en": "I want to speak Korean well.", "note": "하 + 고 싶어요 — long-term aspiration; note that 못 for 하다 = 못 해요, NOT 못 하해요" },
-      "collocations": ["하고 싶어요", "할 수 있어요", "못 해요", "잘 하다"]
+      "exampleSentence": { "ko": "한국어를 잘하고 싶어요.", "en": "I want to get better at Korean.", "note": "잘하 + 고 싶어요 — long-term aspiration; note that 못 for 하다 = 못 해요, NOT 못 하해요" },
+      "collocations": ["하고 싶어요", "할 수 있어요", "못 해요", "잘하다"]
     },
     {
       "hangul": "말하다",
@@ -274,30 +274,30 @@
     "lines": [
       {
         "speaker": "지혜",
-        "ko": "민수 씨, 오늘 저녁에 삼겹살 먹고 싶지 않아요?",
-        "romanization": "Minsu ssi, oneul jeonyeoge samgyeopsal meokgo sipji anhayo?",
-        "en": "Minsu, don't you want to eat samgyeopsal this evening?",
-        "grammarNote": "먹고 싶지 않아요? — negative form of 먹고 싶어요, used as a soft invitation. Literally 'don't you want to eat?' — gentler than a direct 먹고 싶어요?"
+        "ko": "민수 씨, 오늘 저녁에 삼겹살 먹고 싶어요?",
+        "romanization": "Minsu ssi, oneul jeonyeoge samgyeopsal meokgo sipeoyo?",
+        "en": "Minsu, do you want to eat samgyeopsal this evening?",
+        "grammarNote": "먹고 싶어요? — direct but polite desire question. The speaker is checking whether Minsu also wants the same dinner."
       },
       {
         "speaker": "민수",
         "ko": "네, 먹고 싶어요! 어디에서 먹을 수 있어요?",
-        "romanization": "Ne, meokgo sipeoyo! Eodiese meogeul su isseoyo?",
+        "romanization": "Ne, meokgo sipeoyo! Eodieseo meogeul su isseoyo?",
         "en": "Yes, I want to eat it! Where can we eat it?",
         "grammarNote": "먹고 싶어요 (desire) + 먹을 수 있어요 (possibility) — two separate patterns in two sentences. 먹 ends in a consonant so 을 수 있어요."
       },
       {
         "speaker": "지혜",
         "ko": "회사 근처에 좋은 식당이 있어요. 7시에 갈 수 있어요?",
-        "romanization": "Hoesa geuncheoe joeun sikdangi isseoyo. Ilgop-ssie gal su isseoyo?",
+        "romanization": "Hoesa geuncheoe joeun sikdangi isseoyo. Ilgop sie gal su isseoyo?",
         "en": "There's a good restaurant near the office. Can you go at 7?",
         "grammarNote": "갈 수 있어요? — open-door question: is your door open at 7? 가다 stem 가 (vowel) → 갈 수 있어요."
       },
       {
         "speaker": "민수",
-        "ko": "7시는 좀... 오늘 회의가 있어서 6시까지 못 가요.",
-        "romanization": "Ilgop-ssineun jom... oneul hoeuiga isseoseo yeoseot-ssikkaji mot gayo.",
-        "en": "7 o'clock is a bit... I have a meeting today so I can't go until 6.",
+        "ko": "7시는 좀... 오늘 회의가 있어서 7시까지 못 가요.",
+        "romanization": "Ilgop sineun jom... oneul hoeuiga isseoseo ilgop sikkaji mot gayo.",
+        "en": "7 o'clock is a bit... I have a meeting today so I can't get there by 7.",
         "grammarNote": "못 가요 — locked door: the meeting blocks him. 못 directly precedes the verb stem 가요. Note: NOT 못 가해요."
       },
       {
@@ -309,22 +309,22 @@
       },
       {
         "speaker": "민수",
-        "ko": "감사해요! 그런데 저는 너무 매운 것은 못 먹어요.",
-        "romanization": "Gamsahaeyo! Geureonde jeoneun neomu maeun geoseun mot meogeoyo.",
+        "ko": "고마워요! 그런데 저는 너무 매운 것은 못 먹어요.",
+        "romanization": "Gomawoyo! Geureonde jeoneun neomu maeun geoseun mot meogeoyo.",
         "en": "Thank you! But I can't eat things that are too spicy.",
         "grammarNote": "못 먹어요 — locked door for spicy food: a dietary limitation. This is 못 + 먹어요 (plain verb form). Useful for communicating food restrictions."
       },
       {
         "speaker": "지혜",
         "ko": "괜찮아요. 거기서 맵지 않은 것도 먹을 수 있어요.",
-        "romanization": "Gwaenchanhayo. Geogiseo maepji aneun geotdo meogeul su isseoyo.",
+        "romanization": "Gwaenchanayo. Geogieseo maepji aneun geotdo meogeul su isseoyo.",
         "en": "That's okay. You can also eat non-spicy things there.",
         "grammarNote": "먹을 수 있어요 — open door: the possibility exists. 먹 ends in consonant ㄱ → 을 수 있어요. She's reassuring with an ability/option statement."
       },
       {
         "speaker": "민수",
         "ko": "완전 좋아요! 8시에 식당 앞에서 만나요.",
-        "romanization": "Wanjeon joayo! Yeodeol-ssie sikdang apeseo mannayo.",
+        "romanization": "Wanjeon joayo! Yeodeol sie sikdang apeseo mannayo.",
         "en": "Sounds perfect! Let's meet in front of the restaurant at 8.",
         "grammarNote": "No grammar notes needed — 만나요 is a Chapter 6 review. Notice how want (먹고 싶어요), can (먹을 수 있어요), and can't (못 먹어요) all appeared naturally in this conversation."
       }
@@ -333,8 +333,8 @@
   "readingText": {
     "type": "sms",
     "title": "단체 채팅방 — 이번 주말에 뭐 할 수 있어요? (Group Chat — What can everyone do this weekend?)",
-    "body": "지은: 이번 주말에 같이 한강에 가고 싶어요. 다들 어때요?\n유진: 저도 가고 싶어요! 토요일에 갈 수 있어요.\n다니엘: 저는 토요일에 일이 있어서 못 가요. 일요일은 갈 수 있어요.\n지은: 그럼 일요일에 가요! 자전거도 탈 수 있어요?\n유진: 저는 자전거를 탈 수 있어요. 재미있겠다!\n다니엘: 저는 자전거를 잘 못 타요. 천천히 가도 돼요?\n지은: 물론이죠! 천천히 가고 싶은 사람도 있어요.",
-    "bodyTranslation": "Jieun: I want to go to the Han River together this weekend. What does everyone think?\nYujin: I want to go too! I can go on Saturday.\nDaniel: I have work on Saturday so I can't go. I can go on Sunday.\nJieun: Then let's go on Sunday! Can you also ride bikes?\nYujin: I can ride a bike. That sounds fun!\nDaniel: I can't ride a bike well. Is it okay if we go slowly?\nJieun: Of course! There are also people who want to go slowly.",
+    "body": "지은: 이번 주말에 같이 한강에 가고 싶어요. 다들 어때요?\n유진: 저도 가고 싶어요! 토요일에 갈 수 있어요.\n다니엘: 저는 토요일에 일이 있어서 못 가요. 일요일은 갈 수 있어요.\n지은: 그럼 일요일에 가요! 자전거도 탈 수 있어요?\n유진: 저는 자전거를 탈 수 있어요. 재미있겠다!\n다니엘: 저는 자전거를 잘 못 타요. 천천히 가도 돼요?\n지은: 물론이죠! 천천히 갈 수 있어요.",
+    "bodyTranslation": "Jieun: I want to go to the Han River together this weekend. What does everyone think?\nYujin: I want to go too! I can go on Saturday.\nDaniel: I have work on Saturday so I can't go. I can go on Sunday.\nJieun: Then let's go on Sunday! Can you also ride bikes?\nYujin: I can ride a bike. That sounds fun!\nDaniel: I can't ride a bike well. Is it okay if we go slowly?\nJieun: Of course! We can go slowly.",
     "comprehensionQuestions": [
       {
         "question": "Why can't Daniel go on Saturday?",
@@ -346,7 +346,7 @@
       },
       {
         "question": "Find every instance of 고 싶어요, ㄹ/을 수 있어요, and 못 in the text. For each one, identify which grammar pattern it is and explain why that specific pattern is used instead of the others.",
-        "answer": "고 싶어요 (desire): 한강에 가고 싶어요 (Jieun wants to go — her desire), 저도 가고 싶어요 (Yujin shares the desire), 천천히 가고 싶은 사람도 있어요 (people who want to go slowly — desire modifier). | 수 있어요 (ability/possibility): 토요일에 갈 수 있어요 (Yujin: the door is open Saturday), 일요일은 갈 수 있어요 (Daniel: Sunday door is open), 자전거도 탈 수 있어요? (is the door open for biking?), 자전거를 탈 수 있어요 (Yujin: yes, open door). | 못 (inability): 토요일에 못 가요 (Daniel: work blocks Saturday — locked door), 자전거를 잘 못 타요 (Daniel: skill gap blocks him)."
+        "answer": "고 싶어요 (desire): 한강에 가고 싶어요 (Jieun wants to go — her desire), 저도 가고 싶어요 (Yujin shares the desire). | 수 있어요 (ability/possibility): 토요일에 갈 수 있어요 (Yujin: the door is open Saturday), 일요일은 갈 수 있어요 (Daniel: Sunday door is open), 자전거도 탈 수 있어요? (is the door open for biking?), 자전거를 탈 수 있어요 (Yujin: yes, open door), 천천히 갈 수 있어요 (the slow pace is possible). | 못 (inability): 토요일에 못 가요 (Daniel: work blocks Saturday — locked door), 자전거를 잘 못 타요 (Daniel: skill gap blocks him)."
       }
     ]
   },
@@ -371,20 +371,20 @@
     },
     {
       "type": "errorCorrect",
-      "prompt": "다음 문장에서 틀린 것을 찾아보세요: '운동을 못 가해요.'",
+      "prompt": "다음 문장에서 틀린 것을 찾아보세요: '운동을 못 하해요.'",
       "correct": "운동 못 해요.",
-      "explanation": "운동하다 is a 하다 verb. The 못 inability form for 하다 verbs is 못 해요 — NOT 못 가해요 (that mixes in 가다 for no reason) and NOT 못 하해요 (that doubles the verb). The noun and 못 해요 can be split: 운동 못 해요."
+      "explanation": "운동하다 is a 하다 verb. The 못 inability form for 하다 verbs is 못 해요 — NOT 못 하해요, which doubles the 하다 part. The noun and 못 해요 can be split naturally: 운동 못 해요."
     },
     {
       "type": "multipleChoice",
       "prompt": "You want to say 'I can speak a little Korean.' Which is correct?",
       "options": [
         "한국어를 조금 말하고 싶어요.",
-        "한국어를 조금 말할 수 있어요.",
+        "한국어로 조금 말할 수 있어요.",
         "한국어를 조금 못 말해요."
       ],
-      "correct": "한국어를 조금 말할 수 있어요.",
-      "explanation": "말할 수 있어요 = ability/capability (open door). Option A (말하고 싶어요) = 'I want to speak Korean' — that's desire, not ability. Option C (못 말해요) = 'I can't speak Korean' — the opposite of what you want to say. For expressing language ability, ㄹ/을 수 있어요 is the right tool."
+      "correct": "한국어로 조금 말할 수 있어요.",
+      "explanation": "한국어로 marks the language used as the means of speaking, and 말할 수 있어요 = ability/capability (open door). Option A (말하고 싶어요) = 'I want to speak Korean' — desire, not ability. Option C (못 말해요) = 'I can't speak Korean' — the opposite of what you want to say."
     },
     {
       "type": "translate",
@@ -415,7 +415,7 @@
     "bullets": [
       "MAGNET (고 싶어요): Verb stem + 고 싶어요 = desire, a pull toward an action. Always needs a verb — you can't attach it to a noun.",
       "OPEN DOOR (ㄹ/을 수 있어요): Vowel stem + ㄹ 수 있어요 / Consonant stem + 을 수 있어요 = ability or possibility. The path is clear.",
-      "LOCKED DOOR (못 + verb): 못 goes BEFORE the regular verb form. For 하다 verbs: 못 해요, never 못 가해요 or 못 하해요."
+      "LOCKED DOOR (못 + verb): 못 goes BEFORE the regular verb form. Regular verbs use forms like 못 가요; 하다 verbs use 못 해요. Never make hybrids like 못 가해요 or 못 하해요."
     ],
     "nextChapterTeaser": "Next up: Chapter 9 introduces 아/어서 and 그래서 — connectors that let you give REASONS for your wants, abilities, and inabilities. You'll finally be able to say not just 'I can't go' but 'I can't go because I'm busy.'"
   }

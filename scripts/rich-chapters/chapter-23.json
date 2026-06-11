@@ -1,0 +1,548 @@
+{
+  "id": "chapter-23",
+  "hook": {
+    "situation": "Asking how to get somewhere, choosing a transport method, following exit directions, and saying the purpose of the trip.",
+    "objectives": [
+      "Use N(으)로 for direction or transport method: 오른쪽으로, 지하철로.",
+      "Use V(으)러 가요 for the purpose of going: 친구 만나러 가요, 버스 타러 가요.",
+      "Connect directions with real transit vocabulary: 출구, 정류장, 환승, 갈아타다, 내리다."
+    ],
+    "whyItMatters": "Directions are not just place names. Korean needs the right particle for route, direction, vehicle, and purpose. This chapter makes the difference between 지하철역에 가요, 지하철로 가요, and 지하철을 타러 가요 clear."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-072",
+      "title": "N(으)로 - by, toward, through, or into a route",
+      "mentalModel": "(으)로 points to the way something moves: the direction, route, transport method, or thing you change into.",
+      "formation": "Use 로 after a vowel or ㄹ: 지하철로, 출구로, 길로. Use 으로 after most other consonants: 오른쪽으로, 왼쪽으로, 집으로. In transport, 버스로 가요 means by bus. In directions, 오른쪽으로 가세요 means go to the right.",
+      "examples": [
+        {
+          "ko": "이 길로 직진하세요.",
+          "romanization": "i gillo jikjinhaseyo.",
+          "en": "Go straight on this road.",
+          "note": "길 ends in ㄹ, so it takes 로."
+        },
+        {
+          "ko": "오른쪽으로 가세요.",
+          "romanization": "oreunjjogeuro gaseyo.",
+          "en": "Go to the right.",
+          "note": "오른쪽 ends in a consonant, so it takes 으로."
+        },
+        {
+          "ko": "지하철로 가는 게 빨라요.",
+          "romanization": "jihacheollo ganeun ge ppallayo.",
+          "en": "Going by subway is fast.",
+          "note": "지하철로 marks the means of transport."
+        },
+        {
+          "ko": "시청역에서 2호선으로 갈아타세요.",
+          "romanization": "sicheongnyeogeseo ihoseoneuro garataseyo.",
+          "en": "Transfer to Line 2 at City Hall Station.",
+          "note": "The line you transfer into takes 으로."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "지하철역에 가요.",
+            "en": "I go to the subway station."
+          },
+          "b": {
+            "ko": "지하철로 가요.",
+            "en": "I go by subway."
+          },
+          "explanation": "에 marks a destination. 로 marks the transport method."
+        },
+        {
+          "a": {
+            "ko": "역에서 만나요.",
+            "en": "Let's meet at the station."
+          },
+          "b": {
+            "ko": "역으로 가요.",
+            "en": "Go toward the station."
+          },
+          "explanation": "에서 marks the place where an action happens. 으로 marks direction or heading."
+        },
+        {
+          "a": {
+            "ko": "버스를 타요.",
+            "en": "I take the bus."
+          },
+          "b": {
+            "ko": "버스로 가요.",
+            "en": "I go by bus."
+          },
+          "explanation": "을/를 marks the vehicle you board. 로 marks the means of travel."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "버스에 가요.",
+        "right": "버스로 가요.",
+        "explanation": "For 'by bus,' use 버스로. 버스에 가요 sounds like going to or onto the bus as a destination."
+      },
+      "exceptions": [
+        "로 also appears beyond transport: 한국어로 말해요 means speak in Korean.",
+        "When the final consonant is ㄹ, use 로, not 으로: 지하철로, 길로.",
+        "Destination 에 and route/method 로 can appear together: 지하철로 학교에 가요."
+      ]
+    },
+    {
+      "id": "gn-pattern-073",
+      "title": "V(으)러 가요 - go in order to V",
+      "mentalModel": "(으)러 names the errand or purpose of a movement. It answers 'what are you going there to do?'",
+      "formation": "Attach 러 to a vowel-ending verb stem: 보다 becomes 보러 가요. Attach 으러 to a consonant-ending stem: 먹다 becomes 먹으러 가요. ㄹ stems keep ㄹ and take 러: 놀다 becomes 놀러 가요. The main verb should be a movement verb such as 가다, 오다, 나가다, 다니다.",
+      "examples": [
+        {
+          "ko": "친구 만나러 가요.",
+          "romanization": "chingu mannareo gayo.",
+          "en": "I am going to meet a friend.",
+          "note": "만나다 ends in a vowel stem, so it takes 러."
+        },
+        {
+          "ko": "밥 먹으러 가요.",
+          "romanization": "bap meogeureo gayo.",
+          "en": "I am going to eat.",
+          "note": "먹다 has a consonant stem, so it takes 으러."
+        },
+        {
+          "ko": "영화 보러 가요.",
+          "romanization": "yeonghwa boreo gayo.",
+          "en": "I am going to watch a movie.",
+          "note": "보다 becomes 보러."
+        },
+        {
+          "ko": "버스 타러 정류장에 가요.",
+          "romanization": "beoseu tareo jeongnyujange gayo.",
+          "en": "I go to the bus stop to take the bus.",
+          "note": "타러 gives the purpose; 정류장에 gives the destination."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "버스로 가요.",
+            "en": "I go by bus."
+          },
+          "b": {
+            "ko": "버스 타러 가요.",
+            "en": "I go to take the bus."
+          },
+          "explanation": "버스로 is the method. 타러 is the purpose of the trip."
+        },
+        {
+          "a": {
+            "ko": "공부하러 도서관에 가요.",
+            "en": "I go to the library to study."
+          },
+          "b": {
+            "ko": "도서관에 공부하러 가요.",
+            "en": "I go to the library to study."
+          },
+          "explanation": "Both orders are natural. Put the part you want to emphasize earlier."
+        },
+        {
+          "a": {
+            "ko": "먹으러 가요.",
+            "en": "I go to eat."
+          },
+          "b": {
+            "ko": "먹으려고 일찍 왔어요.",
+            "en": "I came early intending to eat."
+          },
+          "explanation": "(으)러 pairs with movement verbs; (으)려고 can explain broader intention."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "밥 먹으러 공부해요.",
+        "right": "밥 먹으러 가요.",
+        "explanation": "(으)러 needs a movement verb such as 가요 or 와요 after it."
+      },
+      "exceptions": [
+        "놀러 가요 is a fixed common phrase for going to hang out or visit.",
+        "For a broader plan without physical movement, use -(으)려고 rather than -(으)러.",
+        "The destination can be omitted when obvious: 영화 보러 가요."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "지하철",
+      "romanization": "jihacheol",
+      "english": "subway",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "지하철로 가는 게 빨라요.",
+        "en": "Going by subway is fast.",
+        "note": "Use 지하철로 for 'by subway' and 지하철을 타요 for boarding."
+      },
+      "collocations": [
+        "지하철을 타요",
+        "지하철로 가요",
+        "지하철역"
+      ]
+    },
+    {
+      "hangul": "버스",
+      "romanization": "beoseu",
+      "english": "bus",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "버스로 가면 조금 오래 걸려요.",
+        "en": "If you go by bus, it takes a little long.",
+        "note": "버스로 marks travel method."
+      },
+      "collocations": [
+        "버스를 타요",
+        "버스로 가요",
+        "버스 정류장"
+      ]
+    },
+    {
+      "hangul": "택시",
+      "romanization": "taeksi",
+      "english": "taxi",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "시간이 없으면 택시로 가세요.",
+        "en": "If you do not have time, go by taxi.",
+        "note": "택시로 means by taxi."
+      },
+      "collocations": [
+        "택시를 타요",
+        "택시로 가요",
+        "택시 불러 주세요"
+      ]
+    },
+    {
+      "hangul": "역",
+      "romanization": "yeok",
+      "english": "station",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "역에서 2호선으로 갈아타세요.",
+        "en": "Transfer to Line 2 at the station.",
+        "note": "The station where an action happens takes 에서."
+      },
+      "collocations": [
+        "지하철역",
+        "역에 가요",
+        "역에서 만나요"
+      ]
+    },
+    {
+      "hangul": "정류장",
+      "romanization": "jeongnyujang",
+      "english": "bus stop",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "버스 타러 정류장에 가요.",
+        "en": "I go to the bus stop to take the bus.",
+        "note": "정류장에 is the destination; 타러 is the purpose."
+      },
+      "collocations": [
+        "버스 정류장",
+        "정류장에서 내려요",
+        "정류장에 가요"
+      ]
+    },
+    {
+      "hangul": "출구",
+      "romanization": "chulgu",
+      "english": "exit",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "삼 번 출구로 나가세요.",
+        "en": "Go out through exit three.",
+        "note": "출구로 marks the route out."
+      },
+      "collocations": [
+        "몇 번 출구",
+        "출구로 나가요",
+        "역 출구"
+      ]
+    },
+    {
+      "hangul": "오른쪽",
+      "romanization": "oreunjjok",
+      "english": "right side",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "오른쪽으로 가세요.",
+        "en": "Go to the right.",
+        "note": "Direction nouns take 으로."
+      },
+      "collocations": [
+        "오른쪽으로",
+        "오른쪽에 있어요",
+        "오른쪽으로 도세요"
+      ]
+    },
+    {
+      "hangul": "왼쪽",
+      "romanization": "oenjjok",
+      "english": "left side",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "출구에서 왼쪽으로 가세요.",
+        "en": "Go left from the exit.",
+        "note": "왼쪽으로 marks movement direction."
+      },
+      "collocations": [
+        "왼쪽으로",
+        "왼쪽에 있어요",
+        "왼쪽으로 도세요"
+      ]
+    },
+    {
+      "hangul": "직진",
+      "romanization": "jikjin",
+      "english": "going straight ahead",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 길로 계속 직진하세요.",
+        "en": "Keep going straight on this road.",
+        "note": "Often used in directions with 길로."
+      },
+      "collocations": [
+        "직진하세요",
+        "계속 직진",
+        "직진하고 오른쪽"
+      ]
+    },
+    {
+      "hangul": "환승",
+      "romanization": "hwanseung",
+      "english": "transfer",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "시청역에서 환승해요.",
+        "en": "I transfer at City Hall Station.",
+        "note": "Official transit word; 갈아타다 is the everyday verb."
+      },
+      "collocations": [
+        "환승해요",
+        "환승역",
+        "환승해야 해요"
+      ]
+    },
+    {
+      "hangul": "갈아타다",
+      "romanization": "garata-da",
+      "english": "to transfer",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "2호선으로 갈아타세요.",
+        "en": "Transfer to Line 2.",
+        "note": "The line or vehicle you transfer into takes 으로/로."
+      },
+      "collocations": [
+        "갈아타세요",
+        "지하철로 갈아타요",
+        "어디서 갈아타요?"
+      ]
+    },
+    {
+      "hangul": "타다",
+      "romanization": "tada",
+      "english": "to ride; to take",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "버스를 타러 정류장에 가요.",
+        "en": "I go to the bus stop to take the bus.",
+        "note": "The vehicle you board takes 을/를."
+      },
+      "collocations": [
+        "버스를 타요",
+        "지하철을 타요",
+        "타러 가요"
+      ]
+    },
+    {
+      "hangul": "내리다",
+      "romanization": "naerida",
+      "english": "to get off",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "다음 정류장에서 내려요.",
+        "en": "Get off at the next bus stop.",
+        "note": "The place where you get off takes 에서."
+      },
+      "collocations": [
+        "여기서 내려요",
+        "다음 역에서 내려요",
+        "내려서 갈아타요"
+      ]
+    },
+    {
+      "hangul": "걷다",
+      "romanization": "geotda",
+      "english": "to walk",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "역까지 걸어서 십 분 걸려요.",
+        "en": "It takes ten minutes on foot to the station.",
+        "note": "걸어서 is the everyday 'on foot' transport answer."
+      },
+      "collocations": [
+        "걸어서 가요",
+        "십 분 걸려요",
+        "걷기 어려워요"
+      ]
+    },
+    {
+      "hangul": "길",
+      "romanization": "gil",
+      "english": "road; way",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 길로 직진하세요.",
+        "en": "Go straight on this road.",
+        "note": "길로 marks the route."
+      },
+      "collocations": [
+        "이 길로",
+        "길을 잃었어요",
+        "길이 막혀요"
+      ]
+    },
+    {
+      "hangul": "방향",
+      "romanization": "banghyang",
+      "english": "direction",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 방향이 맞아요?",
+        "en": "Is this the right direction?",
+        "note": "Useful when checking whether you are going the right way."
+      },
+      "collocations": [
+        "방향이 맞아요",
+        "반대 방향",
+        "방향으로 가요"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A traveler asks how to reach the subway station, which exit to use, and where to transfer.",
+    "lines": [
+      {
+        "speaker": "민서",
+        "ko": "홍대입구역에 가려면 어디로 가요?",
+        "romanization": "hongdaeipguyeoge garyeomyeon eodiro gayo?",
+        "en": "Which way do I go to get to Hongik University Station?",
+        "grammarNote": "어디로 asks for direction or route."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "이 길로 직진하고 오른쪽으로 가세요.",
+        "romanization": "i gillo jikjinhago oreunjjogeuro gaseyo.",
+        "en": "Go straight on this road and go right.",
+        "grammarNote": "길로 and 오른쪽으로 both use route/direction 로."
+      },
+      {
+        "speaker": "민서",
+        "ko": "지하철로 가는 게 빨라요, 버스로 가는 게 빨라요?",
+        "romanization": "jihacheollo ganeun ge ppallayo, beoseuro ganeun ge ppallayo?",
+        "en": "Is it faster to go by subway or by bus?",
+        "grammarNote": "지하철로 and 버스로 mark transport method."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "지하철로 가세요. 시청역에서 2호선으로 갈아타면 돼요.",
+        "romanization": "jihacheollo gaseyo. sicheongnyeogeseo ihoseoneuro garatamyeon dwaeyo.",
+        "en": "Go by subway. You can transfer to Line 2 at City Hall Station.",
+        "grammarNote": "The line you transfer into takes 으로."
+      },
+      {
+        "speaker": "민서",
+        "ko": "친구 만나러 가는 길이라서 빨리 가야 해요.",
+        "romanization": "chingu mannareo ganeun giriraseo ppalli gaya haeyo.",
+        "en": "I am on my way to meet a friend, so I have to go quickly.",
+        "grammarNote": "만나러 gives the purpose of going."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "그럼 삼 번 출구로 나가서 왼쪽으로 가세요.",
+        "romanization": "geureom sam beon chulguro nagaseo oenjjogeuro gaseyo.",
+        "en": "Then go out through exit three and go left.",
+        "grammarNote": "출구로 marks the route out; 왼쪽으로 marks direction."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "Getting to the right exit",
+    "body": "민서는 친구를 만나러 홍대입구역에 가고 있었어요. 처음에는 버스로 갈까 생각했지만, 시간이 없어서 지하철로 가기로 했어요. 시청역에서 2호선으로 갈아타고, 홍대입구역에서 삼 번 출구로 나가야 했어요. 출구에서 왼쪽으로 조금 걸으면 약속 장소가 나와요. 민서는 길을 다시 확인하고 이 길로 직진한 뒤에 왼쪽으로 갔어요.",
+    "bodyTranslation": "Minseo was going to Hongik University Station to meet a friend. She considered taking the bus, but because she did not have time, she decided to go by subway. She had to transfer to Line 2, go out exit three, and walk a little to the left from the exit.",
+    "comprehensionQuestions": [
+      {
+        "question": "민서는 왜 홍대입구역에 가고 있었어요?",
+        "answer": "친구를 만나러 가고 있었어요."
+      },
+      {
+        "question": "민서는 어디에서 2호선으로 갈아타요?",
+        "answer": "시청역에서 갈아타요."
+      },
+      {
+        "question": "홍대입구역에서 몇 번 출구로 나가야 해요?",
+        "answer": "삼 번 출구로 나가야 해요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Exit numbers matter",
+    "body": "In Korean subway directions, people often anchor the whole route around exit numbers: 몇 번 출구로 나가세요, 3번 출구 앞에서 만나요. The exit is not a tiny detail; it can decide whether you are on the correct side of a large road.",
+    "tip": "When asking for directions, add 출구: 몇 번 출구로 나가요? 어느 출구가 가까워요?"
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence gives a route or direction?",
+      "options": [
+        "이 길로 쭉 가세요.",
+        "이 길을 맛있어요.",
+        "이 길에게 주세요."
+      ],
+      "correct": "이 길로 쭉 가세요.",
+      "explanation": "-로 marks the route or direction."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence means 'I am going to meet a friend'?",
+      "options": [
+        "친구 만나러 가요.",
+        "친구를 만났어요.",
+        "친구에게 가요."
+      ],
+      "correct": "친구 만나러 가요.",
+      "explanation": "-러 가요 gives the purpose of going."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say 'Go by subway.'",
+      "answer": "지하철로 가세요.",
+      "explanation": "Transport method takes 로/으로."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say 'Transfer to Line 2.'",
+      "answer": "2호선으로 갈아타세요.",
+      "explanation": "The line you transfer into takes 으로."
+    },
+    {
+      "type": "errorCorrection",
+      "prompt": "Fix the sentence: 버스에 가요.",
+      "answer": "버스로 가요.",
+      "explanation": "For 'by bus,' use 버스로."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "N(으)로 marks direction, route, transport method, or transfer target: 오른쪽으로, 길로, 지하철로, 2호선으로.",
+      "Destination still uses 에: 지하철로 학교에 가요.",
+      "V(으)러 가요 gives the purpose of movement: 친구 만나러 가요, 버스 타러 가요.",
+      "Exit numbers are practical anchors: 삼 번 출구로 나가세요."
+    ],
+    "nextChapterTeaser": "Chapter 24 makes gentle suggestions with -(으)ㄹ까요? and tries actions with -아/어 보다."
+  }
+}

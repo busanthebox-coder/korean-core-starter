@@ -1,0 +1,639 @@
+{
+  "id": "chapter-48",
+  "hook": {
+    "situation": "You are at a clinic or pharmacy and need to say symptoms clearly, explain what changed your day, and understand medicine instructions before you leave.",
+    "objectives": [
+      "Describe symptoms with body part or symptom + 이/가 + 아프다/나다.",
+      "Explain causes with 아파서, 때문에, 니까, or 는 바람에 without mixing their tones.",
+      "Understand pharmacy directions like 식후에, 하루 세 번, and 드셔야 해요."
+    ],
+    "whyItMatters": "Health Korean is practical under pressure. A learner does not need random body words here; they need symptom phrases, clinic nouns, pharmacy nouns, and instruction patterns that can be used immediately."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-symptom-frame",
+      "title": "Symptom frame — body/symptom + 이/가",
+      "mentalModel": "Korean often makes the symptom or body part the subject: 목이 아파요, 열이 나요, 기침이 나요.",
+      "formation": "Body part + 이/가 아프다. Symptom noun + 이/가 나다/있다/심하다.",
+      "examples": [
+        {
+          "ko": "목이 아파요.",
+          "romanization": "mogi apayo.",
+          "en": "My throat hurts.",
+          "note": "목 is the subject of the pain."
+        },
+        {
+          "ko": "배가 아파서 병원에 왔어요.",
+          "romanization": "baega apaseo byeongwone wasseoyo.",
+          "en": "My stomach hurts, so I came to the clinic.",
+          "note": "아파서 connects the symptom to the visit."
+        },
+        {
+          "ko": "열이 나고 기침도 나요.",
+          "romanization": "yeori nago gichimdo nayo.",
+          "en": "I have a fever and I also have a cough.",
+          "note": "열이 나다 and 기침이 나다 are natural symptom chunks."
+        },
+        {
+          "ko": "두통이 심해서 잠을 못 잤어요.",
+          "romanization": "dutongi simhaeseo jameul mot jasseoyo.",
+          "en": "My headache was bad, so I could not sleep.",
+          "note": "심하다 is useful for severity."
+        }
+      ],
+      "exceptions": [
+        "Do not translate 'I have a fever' as 열을 가지고 있어요. Say 열이 나요."
+      ]
+    },
+    {
+      "id": "gn-pattern-011",
+      "title": "V아/어야 해요 — medical instruction or necessary action",
+      "mentalModel": "At a clinic, 아/어야 해요 turns advice into something the patient needs to do.",
+      "formation": "Attach 아/어야 해요 to the verb stem. In respectful patient instructions, you may hear 드셔야 해요, 쉬셔야 해요, 오셔야 해요.",
+      "examples": [
+        {
+          "ko": "약은 식후에 드셔야 해요.",
+          "romanization": "yageun sikhue deusyeoya haeyo.",
+          "en": "You have to take the medicine after meals.",
+          "note": "Common doctor/pharmacist instruction."
+        },
+        {
+          "ko": "오늘은 집에서 쉬어야 해요.",
+          "romanization": "oneureun jibeseo swieoya haeyo.",
+          "en": "You have to rest at home today.",
+          "note": "Necessary action after a symptom."
+        },
+        {
+          "ko": "열이 계속 나면 다시 와야 해요.",
+          "romanization": "yeori gyesok namyeon dasi waya haeyo.",
+          "en": "If the fever continues, you have to come back.",
+          "note": "Follow-up instruction."
+        },
+        {
+          "ko": "물을 많이 마셔야 해요.",
+          "romanization": "mureul mani masyeoya haeyo.",
+          "en": "You have to drink a lot of water.",
+          "note": "Basic care instruction."
+        }
+      ],
+      "exceptions": [
+        "세요 is a direct polite instruction; 아/어야 해요 adds necessity. 쉬세요 = please rest. 쉬어야 해요 = you need to rest."
+      ]
+    },
+    {
+      "id": "gn-pattern-018",
+      "title": "A/V아서/어서 — symptom cause leading to result",
+      "mentalModel": "아서/어서 is the calm cause-result link: I came because it hurts; I cannot sleep because I cough.",
+      "formation": "Attach 아서/어서 to an adjective or verb stem. Use it for explanation, not for commands.",
+      "examples": [
+        {
+          "ko": "배가 아파서 병원에 왔어요.",
+          "romanization": "baega apaseo byeongwone wasseoyo.",
+          "en": "My stomach hurts, so I came to the clinic.",
+          "note": "A neutral symptom-to-action explanation."
+        },
+        {
+          "ko": "목이 아파서 말을 오래 못 해요.",
+          "romanization": "mogi apaseo mareul orae mot haeyo.",
+          "en": "My throat hurts, so I cannot talk for long.",
+          "note": "Result of the symptom."
+        },
+        {
+          "ko": "열이 나서 하루 쉬었어요.",
+          "romanization": "yeori naseo haru swieosseoyo.",
+          "en": "I had a fever, so I rested for a day.",
+          "note": "열이 나다 becomes 열이 나서."
+        },
+        {
+          "ko": "기침이 심해서 잠을 못 잤어요.",
+          "romanization": "gichimi simhaeseo jameul mot jasseoyo.",
+          "en": "The cough was bad, so I could not sleep.",
+          "note": "심해서 explains the result."
+        }
+      ],
+      "exceptions": [
+        "For a request or instruction after the reason, 니까 usually sounds clearer: 열이 나니까 물을 많이 드세요."
+      ]
+    },
+    {
+      "id": "gn-pattern-086",
+      "title": "N 때문에 — because of a symptom or illness",
+      "mentalModel": "때문에 names the problem as the cause. It often sounds like the symptom blocked or disrupted something.",
+      "formation": "N + 때문에. No subject/object particle goes between the noun and 때문에.",
+      "examples": [
+        {
+          "ko": "감기 때문에 병원에 왔어요.",
+          "romanization": "gamgi ttaemune byeongwone wasseoyo.",
+          "en": "I came to the clinic because of a cold.",
+          "note": "감기 is the named cause."
+        },
+        {
+          "ko": "기침 때문에 잠을 못 잤어요.",
+          "romanization": "gichim ttaemune jameul mot jasseoyo.",
+          "en": "I could not sleep because of the cough.",
+          "note": "Symptom as obstacle."
+        },
+        {
+          "ko": "두통 때문에 일을 못 했어요.",
+          "romanization": "dutong ttaemune ireul mot haesseoyo.",
+          "en": "I could not work because of a headache.",
+          "note": "두통 caused the inability."
+        },
+        {
+          "ko": "약 때문에 속이 불편해요.",
+          "romanization": "yak ttaemune sogi bulpyeonhaeyo.",
+          "en": "My stomach feels uncomfortable because of the medicine.",
+          "note": "Useful when explaining side effects."
+        }
+      ],
+      "exceptions": [
+        "Say 감기 때문에, not 감기가 때문에. 때문에 attaches directly to the noun."
+      ]
+    },
+    {
+      "id": "gn-pattern-087",
+      "title": "A/V(으)니까 — since this is true, do this",
+      "mentalModel": "니까 is useful when the symptom becomes a reason for advice, a request, or the next action.",
+      "formation": "Use 니까 after vowel stems and 으니까 after consonant stems. Descriptive verbs also use this pattern: 아프니까, 심하니까.",
+      "examples": [
+        {
+          "ko": "열이 계속 나니까 물을 많이 드세요.",
+          "romanization": "yeori gyesok nanikka mureul mani deuseyo.",
+          "en": "Since the fever is continuing, drink a lot of water.",
+          "note": "Reason plus advice."
+        },
+        {
+          "ko": "목이 아프니까 말을 많이 하지 마세요.",
+          "romanization": "mogi apeunikka mareul mani haji maseyo.",
+          "en": "Since your throat hurts, do not talk a lot.",
+          "note": "Reason plus instruction."
+        },
+        {
+          "ko": "기침이 심하니까 다시 오세요.",
+          "romanization": "gichimi simhanikka dasi oseyo.",
+          "en": "Since the cough is severe, come back.",
+          "note": "심하니까 supports the doctor's instruction."
+        },
+        {
+          "ko": "약을 먹었으니까 조금 기다려 보세요.",
+          "romanization": "yageul meogeosseunikka jogeum gidaryeo boseyo.",
+          "en": "Since you took the medicine, wait a little and see.",
+          "note": "니까 can use past tense."
+        }
+      ],
+      "exceptions": [
+        "For a plain past result, 아서/어서 often sounds more natural: 아파서 못 갔어요. 니까 is stronger when it leads to advice or a next step."
+      ]
+    },
+    {
+      "id": "gn-pattern-054",
+      "title": "V-는 바람에 — unexpected health problem disrupted something",
+      "mentalModel": "는 바람에 says the event was unwanted and messed up the plan. In health contexts, it works with sudden symptoms or missed medicine.",
+      "formation": "Verb stem + 는 바람에 + usually negative/unwanted result in past tense.",
+      "examples": [
+        {
+          "ko": "갑자기 열이 나는 바람에 수업에 못 갔어요.",
+          "romanization": "gapjagi yeori naneun barame sueobe mot gasseoyo.",
+          "en": "A fever suddenly came on, so I could not go to class.",
+          "note": "Unexpected symptom disrupted the plan."
+        },
+        {
+          "ko": "기침이 심해지는 바람에 잠을 못 잤어요.",
+          "romanization": "gichimi simhaejineun barame jameul mot jasseoyo.",
+          "en": "The cough got worse, so I could not sleep.",
+          "note": "The change caused an unwanted result."
+        },
+        {
+          "ko": "약을 깜빡하는 바람에 두통이 다시 심해졌어요.",
+          "romanization": "yageul kkamppakaneun barame dutongi dasi simhaejyeosseoyo.",
+          "en": "I forgot the medicine, so the headache got bad again.",
+          "note": "A mistake led to a bad result."
+        },
+        {
+          "ko": "배가 갑자기 아파지는 바람에 약속을 취소했어요.",
+          "romanization": "baega gapjagi apajineun barame yaksogeul chwisohesseoyo.",
+          "en": "My stomach suddenly started hurting, so I canceled the appointment.",
+          "note": "바람에 carries the feeling that the plan was ruined."
+        }
+      ],
+      "exceptions": [
+        "Do not use 는 바람에 for good results. For positive cause, use 덕분에. For neutral health explanation, use 아서/어서 or 때문에."
+      ]
+    },
+    {
+      "id": "gn-pattern-027",
+      "title": "V-는 중이에요 — current clinic or recovery action",
+      "mentalModel": "는 중이에요 zooms in on what is happening right now: waiting, taking medicine, resting, or receiving treatment.",
+      "formation": "Verb stem + 는 중이에요. For noun situations, use N 중이에요: 진료 중이에요, 회복 중이에요.",
+      "examples": [
+        {
+          "ko": "지금 진료 기다리는 중이에요.",
+          "romanization": "jigeum jillyo gidarineun jungieyo.",
+          "en": "I am waiting for my appointment right now.",
+          "note": "Current clinic action."
+        },
+        {
+          "ko": "약 먹는 중이에요.",
+          "romanization": "yak meongneun jungieyo.",
+          "en": "I am in the middle of taking medicine.",
+          "note": "Active ongoing treatment action."
+        },
+        {
+          "ko": "집에서 쉬는 중이에요.",
+          "romanization": "jibeseo swineun jungieyo.",
+          "en": "I am resting at home.",
+          "note": "Useful when updating someone after a clinic visit."
+        },
+        {
+          "ko": "아직 회복 중이에요.",
+          "romanization": "ajik hoebok jungieyo.",
+          "en": "I am still recovering.",
+          "note": "N 중이에요 works with recovery/status nouns."
+        }
+      ],
+      "exceptions": [
+        "Do not use 는 중이에요 with static states like 아프다 as 아픈 중이에요 for this context. Say 아직 아파요 or 회복 중이에요."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "증상",
+      "romanization": "jeungsang",
+      "english": "symptom",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "증상이 언제부터 있었어요?",
+        "en": "When did the symptoms start?",
+        "note": "Clinic intake word."
+      },
+      "collocations": [
+        "증상이 있어요",
+        "증상이 심해요",
+        "증상을 말하다"
+      ]
+    },
+    {
+      "hangul": "병원",
+      "romanization": "byeongwon",
+      "english": "hospital / clinic",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "배가 아파서 병원에 왔어요.",
+        "en": "My stomach hurts, so I came to the clinic.",
+        "note": "In Korean, 병원 often covers neighborhood clinics too."
+      },
+      "collocations": [
+        "병원에 가다",
+        "병원에 오다",
+        "동네 병원"
+      ]
+    },
+    {
+      "hangul": "약국",
+      "romanization": "yakguk",
+      "english": "pharmacy",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "처방전을 가지고 약국에 가요.",
+        "en": "I take the prescription to the pharmacy.",
+        "note": "Clinic-to-pharmacy flow."
+      },
+      "collocations": [
+        "약국에 가다",
+        "약국에서 약을 받다",
+        "동네 약국"
+      ]
+    },
+    {
+      "hangul": "목",
+      "romanization": "mok",
+      "english": "neck; throat",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "목이 아파요.",
+        "en": "My throat hurts.",
+        "note": "In symptom talk, 목 often means throat."
+      },
+      "collocations": [
+        "목이 아프다",
+        "목이 붓다",
+        "목감기"
+      ]
+    },
+    {
+      "hangul": "배",
+      "romanization": "bae",
+      "english": "belly; stomach",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "배가 아파요.",
+        "en": "My stomach hurts.",
+        "note": "Most natural first sentence for stomach pain."
+      },
+      "collocations": [
+        "배가 아프다",
+        "배탈이 나다",
+        "배가 고프다"
+      ]
+    },
+    {
+      "hangul": "열",
+      "romanization": "yeol",
+      "english": "fever",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "아침부터 열이 나요.",
+        "en": "I have had a fever since this morning.",
+        "note": "Use 열이 나다 for having a fever."
+      },
+      "collocations": [
+        "열이 나다",
+        "열이 높다",
+        "열이 내리다"
+      ]
+    },
+    {
+      "hangul": "기침",
+      "romanization": "gichim",
+      "english": "cough",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "기침 때문에 잠을 못 잤어요.",
+        "en": "I could not sleep because of the cough.",
+        "note": "Good noun for 때문에."
+      },
+      "collocations": [
+        "기침이 나다",
+        "기침이 심하다",
+        "기침을 하다"
+      ]
+    },
+    {
+      "hangul": "감기",
+      "romanization": "gamgi",
+      "english": "a cold",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "감기 때문에 병원에 왔어요.",
+        "en": "I came to the clinic because of a cold.",
+        "note": "Common named cause in clinic talk."
+      },
+      "collocations": [
+        "감기에 걸리다",
+        "감기 때문에",
+        "감기약"
+      ]
+    },
+    {
+      "hangul": "약",
+      "romanization": "yak",
+      "english": "medicine",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "약은 식후에 드셔야 해요.",
+        "en": "You have to take the medicine after meals.",
+        "note": "Core pharmacy noun."
+      },
+      "collocations": [
+        "약을 먹다",
+        "약을 받다",
+        "약을 드시다"
+      ]
+    },
+    {
+      "hangul": "처방전",
+      "romanization": "cheobangjeon",
+      "english": "prescription",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "병원에서 처방전을 받았어요.",
+        "en": "I got a prescription at the clinic.",
+        "note": "Bridge between clinic and pharmacy."
+      },
+      "collocations": [
+        "처방전을 받다",
+        "처방전을 내다",
+        "처방전이 있어요"
+      ]
+    },
+    {
+      "hangul": "식후",
+      "romanization": "sikhu",
+      "english": "after meals",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "하루 세 번 식후에 드세요.",
+        "en": "Take it three times a day after meals.",
+        "note": "Medicine timing word."
+      },
+      "collocations": [
+        "식후에",
+        "식후 30분",
+        "하루 세 번 식후"
+      ]
+    },
+    {
+      "hangul": "하루",
+      "romanization": "haru",
+      "english": "one day; a day",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "하루 세 번 드세요.",
+        "en": "Take it three times a day.",
+        "note": "Frequency word for medicine instructions."
+      },
+      "collocations": [
+        "하루 세 번",
+        "하루만 쉬다",
+        "하루 종일"
+      ]
+    },
+    {
+      "hangul": "의사",
+      "romanization": "uisa",
+      "english": "doctor",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "의사 선생님께 증상을 말했어요.",
+        "en": "I told the doctor my symptoms.",
+        "note": "의사 선생님 is common in real clinic speech."
+      },
+      "collocations": [
+        "의사 선생님",
+        "의사에게 말하다",
+        "의사에게 진료를 받다"
+      ]
+    },
+    {
+      "hangul": "약사",
+      "romanization": "yaksa",
+      "english": "pharmacist",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "약사에게 식후에 먹는지 물어봤어요.",
+        "en": "I asked the pharmacist whether to take it after meals.",
+        "note": "Pharmacy instruction source."
+      },
+      "collocations": [
+        "약사에게 물어보다",
+        "약사가 설명하다",
+        "약사 선생님"
+      ]
+    },
+    {
+      "hangul": "쉬다",
+      "romanization": "swida",
+      "english": "to rest",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "오늘은 집에서 쉬어야 해요.",
+        "en": "You have to rest at home today.",
+        "note": "Core recovery action."
+      },
+      "collocations": [
+        "집에서 쉬다",
+        "하루 쉬다",
+        "쉬어야 해요"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A clinic visit moves from symptoms to medicine instructions and follow-up advice.",
+    "lines": [
+      {
+        "speaker": "의사",
+        "ko": "어디가 아파서 오셨어요?",
+        "romanization": "eodiga apaseo osyeosseoyo?",
+        "en": "Where does it hurt? What brings you in?",
+        "grammarNote": "아파서 connects the symptom to the clinic visit."
+      },
+      {
+        "speaker": "환자",
+        "ko": "아침부터 열이 나고 목이 아파요. 기침도 나요.",
+        "romanization": "achimbuteo yeori nago mogi apayo. gichimdo nayo.",
+        "en": "Since this morning I have had a fever and a sore throat. I also have a cough.",
+        "grammarNote": "열이 나다, 목이 아프다, and 기침이 나다 are symptom phrases."
+      },
+      {
+        "speaker": "의사",
+        "ko": "감기 때문에 그런 것 같아요. 약은 식후에 하루 세 번 드셔야 해요.",
+        "romanization": "gamgi ttaemune geureon geot gatayo. yageun sikhue haru se beon deusyeoya haeyo.",
+        "en": "It seems to be because of a cold. You have to take the medicine three times a day after meals.",
+        "grammarNote": "때문에 names the cause; 드셔야 해요 gives an instruction."
+      },
+      {
+        "speaker": "환자",
+        "ko": "기침 때문에 잠을 못 자면 다시 와야 하나요?",
+        "romanization": "gichim ttaemune jameul mot jamyeon dasi waya hanayo?",
+        "en": "If I cannot sleep because of the cough, should I come back?",
+        "grammarNote": "기침 때문에 explains the blocked action."
+      },
+      {
+        "speaker": "의사",
+        "ko": "네. 열이 계속 나니까 물을 많이 마시고 쉬세요.",
+        "romanization": "ne. yeori gyesok nanikka mureul mani masigo swiseyo.",
+        "en": "Yes. Since the fever is continuing, drink a lot of water and rest.",
+        "grammarNote": "니까 gives the reason for advice."
+      },
+      {
+        "speaker": "환자",
+        "ko": "네. 처방전을 받고 약국에 가서 약을 기다릴게요.",
+        "romanization": "ne. cheobangjeoneul batgo yakguge gaseo yageul gidarilgeyo.",
+        "en": "Okay. I will take the prescription, go to the pharmacy, and wait for the medicine.",
+        "grammarNote": "The patient repeats the practical next steps after hearing the instructions."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "약은 식후에 하루 세 번 드세요",
+    "body": "민수는 아침부터 열이 나고 목이 아파서 동네 병원에 갔어요. 의사 선생님은 감기 때문에 그런 것 같다고 말했어요. 기침이 심해지는 바람에 어젯밤에는 잠도 거의 못 잤어요. 민수는 처방전을 받아서 약국에 갔고, 약사에게 복약 방법을 들었어요. 약은 식후에 하루 세 번 먹어야 하고, 열이 계속 나니까 물을 많이 마시고 쉬어야 해요. 증상이 나아지지 않으면 다시 병원에 와야 해요.",
+    "bodyTranslation": "Minsu had a fever and sore throat from the morning, so he went to a neighborhood clinic. The doctor said it seemed to be because of a cold. Because his cough got worse, he barely slept the night before. Minsu got a prescription and went to the pharmacy, where he heard the medicine instructions from the pharmacist. He has to take the medicine three times a day after meals, and since the fever is continuing, he has to drink a lot of water and rest. If the symptoms do not improve, he has to go back to the clinic.",
+    "comprehensionQuestions": [
+      {
+        "question": "민수는 왜 병원에 갔어요?",
+        "answer": "열이 나고 목이 아파서 병원에 갔어요."
+      },
+      {
+        "question": "기침이 심해지는 바람에 무엇을 못 했어요?",
+        "answer": "잠을 거의 못 잤어요."
+      },
+      {
+        "question": "약은 언제, 얼마나 먹어야 해요?",
+        "answer": "식후에 하루 세 번 먹어야 해요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Clinic and pharmacy flow",
+    "body": "In Korea, many neighborhood clinics are paired with nearby pharmacies. The clinic gives a 처방전, and the pharmacy prepares medicine by dose. That is why phrases like 하루 세 번, 식후, 식전, 자기 전, and 며칠분 are practical, not optional.",
+    "tip": "At the clinic, lead with symptoms and time: 아침부터, 어제부터, 열이 나요, 목이 아파요. At the pharmacy, confirm timing and frequency: 식후에요? 하루 몇 번이에요?"
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which symptom phrase is natural?",
+      "options": [
+        "열이 나고 목이 아파요.",
+        "열을 하고 목이 있어요.",
+        "열에게 목이 아파요."
+      ],
+      "correct": "열이 나고 목이 아파요.",
+      "explanation": "열이 나다 and 목이 아프다 are natural symptom frames."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence names a symptom as the cause?",
+      "options": [
+        "기침 때문에 잠을 못 잤어요.",
+        "기침이 때문에 잠을 못 잤어요.",
+        "기침으로 때문에 잠을 못 잤어요."
+      ],
+      "correct": "기침 때문에 잠을 못 잤어요.",
+      "explanation": "N 때문에 attaches directly to the noun."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which instruction means 'You have to take the medicine after meals'?",
+      "options": [
+        "약은 식후에 드셔야 해요.",
+        "약은 식후에 드실 리가 없어요.",
+        "약은 식후에 드시더라고요."
+      ],
+      "correct": "약은 식후에 드셔야 해요.",
+      "explanation": "식후에 gives timing; 드셔야 해요 gives a necessary instruction."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence uses 는 바람에 for an unwanted disruption?",
+      "options": [
+        "기침이 심해지는 바람에 잠을 못 잤어요.",
+        "기침이 심해지는 덕분에 잠을 못 잤어요.",
+        "기침이 심해지는 중에 잠을 못 자야 해요."
+      ],
+      "correct": "기침이 심해지는 바람에 잠을 못 잤어요.",
+      "explanation": "는 바람에 fits an unwanted cause that disrupted sleep."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence reports a current pharmacy action?",
+      "options": [
+        "약국에서 약을 기다리는 중이에요.",
+        "약국에서 약을 기다려야 바람에요.",
+        "약국에서 약 때문에 기다리니까요."
+      ],
+      "correct": "약국에서 약을 기다리는 중이에요.",
+      "explanation": "V-는 중이에요 reports an action in progress."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Symptom frames: 목이 아파요, 배가 아파요, 열이 나요, 기침이 나요.",
+      "Clinic flow: 병원에서 증상을 말하고 처방전을 받아요.",
+      "Pharmacy flow: 약국에서 약을 받고 식후/하루 세 번을 확인해요.",
+      "Cause choices: 아파서 is neutral, 때문에 names the problem, 니까 leads to advice, 는 바람에 implies disruption.",
+      "Instruction frame: 약은 식후에 드셔야 해요."
+    ],
+    "nextChapterTeaser": "Chapter 49 moves into housing, where the same standard applies: vocabulary must match the real task, not just the chapter title."
+  }
+}

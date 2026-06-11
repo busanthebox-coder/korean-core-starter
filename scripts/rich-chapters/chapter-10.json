@@ -1,7 +1,7 @@
 {
   "id": "chapter-10",
   "hook": {
-    "situation": "You're lost at Seoul Station. You need the bathroom urgently, but the signs are all in Korean. You try 화장실 어디에요? — and a local points down the hall, speaks three fast sentences, and walks away. You caught the direction but not the words. What do you say next?",
+    "situation": "You're lost at Seoul Station. You need the bathroom urgently, but the signs are all in Korean. You try 화장실 어디예요? — and a local points down the hall, speaks three fast sentences, and walks away. You caught the direction but not the words. What do you say next?",
     "objectives": [
       "Ask where something is using 이/가 어디예요? and 이/가 있어요?",
       "Use 부터/까지 to describe time ranges (9시부터 6시까지) and routes (여기부터 역까지)",
@@ -157,6 +157,22 @@
       "collocations": ["1번 출구", "출구로 나가다", "출구 어디예요?"]
     },
     {
+      "hangul": "안내소",
+      "romanization": "annaeso",
+      "english": "information desk / help desk",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "안내소가 어디예요?", "en": "Where is the information desk?", "note": "A practical travel question when you need staff help, directions, or opening hours" },
+      "collocations": ["안내소가 어디예요?", "안내소에서 물어보다", "안내소는 몇 시까지 열어요?"]
+    },
+    {
+      "hangul": "2호선",
+      "romanization": "i hoseon",
+      "english": "Line 2 (subway)",
+      "partOfSpeech": "noun",
+      "exampleSentence": { "ko": "2호선 타는 곳이 어디예요?", "en": "Where is the Line 2 boarding area?", "note": "타는 곳 = the place where you board; more natural than saying the line itself is an exit" },
+      "collocations": ["2호선 타는 곳", "2호선으로 가다", "2호선은 어디예요?"]
+    },
+    {
       "hangul": "부터",
       "romanization": "buteo",
       "english": "from (starting point)",
@@ -302,43 +318,43 @@
       },
       {
         "speaker": "지민",
-        "ko": "알겠어요! 감사합니다. 혹시 지하철 2호선은 몇 번 출구예요?",
-        "romanization": "algesseoyo! gamsahamnida. hoksi jihacheol 2-hoseon-eun myeot beon chulguye yo?",
-        "en": "Got it! Thank you. Also, which exit is Subway Line 2?",
-        "grammarNote": "알겠어요 = 'I understand' (genuine comprehension). 몇 번 = which number — essential number-question for subway exits"
+        "ko": "알겠어요! 감사합니다. 혹시 2호선 타는 곳은 몇 번 출구 쪽이에요?",
+        "romanization": "algesseoyo! gamsahamnida. hoksi i hoseon taneun goseun myeot beon chulgu jjogiyeyo?",
+        "en": "Got it! Thank you. Also, which exit side is the Line 2 boarding area toward?",
+        "grammarNote": "2호선 타는 곳 = the place to take Line 2. 몇 번 출구 쪽이에요? asks which exit direction/side to follow."
       },
       {
         "speaker": "민준",
-        "ko": "2호선은 5번 출구예요. 여기서 5번 출구까지 걸어서 3분이에요.",
-        "romanization": "2-hoseon-eun 5beon chulguye yo. yeogiseo 5beon chulgukka ji georeoseo 3bunieyo.",
-        "en": "Line 2 is exit 5. It's a 3-minute walk from here to exit 5.",
+        "ko": "2호선 타는 곳은 5번 출구 쪽이에요. 여기서 5번 출구까지 걸어서 3분이에요.",
+        "romanization": "i hoseon taneun goseun obeon chulgu jjogiyeyo. yeogiseo obeon chulgukkaji georeoseo sambunieyo.",
+        "en": "The Line 2 boarding area is toward exit 5. It's a 3-minute walk from here to exit 5.",
         "grammarNote": "여기서 5번 출구까지 — 에서 marks departure point; 까지 marks arrival point; 걸어서 = 'by walking / on foot'"
       },
       {
         "speaker": "지민",
-        "ko": "2호선은 몇 시부터 몇 시까지 운행해요?",
-        "romanization": "2-hoseon-eun myeot sibuteo myeot sikkaji unhaengha eyo?",
-        "en": "From what time to what time does Line 2 operate?",
-        "grammarNote": "몇 시부터 몇 시까지 — RULER pattern for asking time ranges; 운행하다 = to operate/run (for transportation)"
+        "ko": "안내소는 몇 시부터 몇 시까지 열어요?",
+        "romanization": "annaesoneun myeot sibuteo myeot sikkaji yeoreoyo?",
+        "en": "From what time to what time is the information desk open?",
+        "grammarNote": "몇 시부터 몇 시까지 — RULER pattern for asking time ranges; 안내소 keeps the example general instead of pretending to know a real station schedule"
       },
       {
         "speaker": "민준",
-        "ko": "5시 30분부터 자정까지 운행해요. 오늘부터 이용해 보세요!",
-        "romanization": "5si 30bunbuteo jajeongkkaji unhaengha eyo. oneulbuteo iyonghae boseyo!",
-        "en": "It runs from 5:30 to midnight. Start using it from today!",
-        "grammarNote": "5시 30분부터 자정까지 — complete ruler range with both endpoints; 오늘부터 이용해 보세요 = 'try using it from today' — V아/어 보세요 = 'try doing'"
+        "ko": "오전 9시부터 오후 6시까지 열어요. 안내소에서 물어보세요.",
+        "romanization": "ojeon ahopsibuteo ohu yeoseot sikkaji yeoreoyo. annaesoeseo mureoboseyo.",
+        "en": "It's open from 9 a.m. to 6 p.m. Please ask at the information desk.",
+        "grammarNote": "오전 9시부터 오후 6시까지 — complete ruler range with both endpoints; 안내소에서 = at the information desk, the place where asking happens"
       }
     ]
   },
   "readingText": {
     "type": "sms",
     "title": "서울역에서 온 문자 (Text messages from Seoul Station)",
-    "body": "지민: 민아야, 지금 서울역에 있어. 근데 길을 잘 모르겠어.\n민아: 어디 가려고?\n지민: 2호선 타려고. 몇 번 출구인지 몰라.\n민아: 14번 출구야. 거기서 2호선 홈까지 걸어서 5분이야.\n지민: 아, 그리고 화장실도 찾고 있었는데.\n민아: 화장실은 1번 출구 왼쪽에 있어. 출구에서 나오면 바로 보여.\n지민: 알겠어! 참, 이 역 몇 시까지 열어?\n민아: 서울역은 아침 5시부터 자정까지 열어.",
-    "bodyTranslation": "Jimin: Mina, I'm at Seoul Station now. But I don't really know my way around.\nMina: Where are you trying to go?\nJimin: I'm trying to take Line 2. I don't know which exit it is.\nMina: It's exit 14. From there to the Line 2 platform is a 5-minute walk.\nJimin: Oh, and I was also looking for the bathroom.\nMina: The bathroom is to the left of exit 1. Once you come out the exit, you'll see it right away.\nJimin: Got it! By the way, until what time is this station open?\nMina: Seoul Station is open from 5 AM to midnight.",
+    "body": "지민: 민아야, 지금 서울역에 있어. 근데 길을 잘 모르겠어.\n민아: 어디 가려고?\n지민: 2호선 타려고. 몇 번 출구 쪽인지 몰라.\n민아: 14번 출구 쪽이야. 거기서 2호선 타는 곳까지 걸어서 5분이야.\n지민: 아, 그리고 화장실도 찾고 있었는데.\n민아: 화장실은 1번 출구 왼쪽에 있어. 출구에서 나오면 바로 보여.\n지민: 알겠어! 참, 안내소는 몇 시까지 열어?\n민아: 안내소는 오전 9시부터 오후 6시까지 열어.",
+    "bodyTranslation": "Jimin: Mina, I'm at Seoul Station now. But I don't really know my way around.\nMina: Where are you trying to go?\nJimin: I'm trying to take Line 2. I don't know which exit side it is toward.\nMina: It's toward exit 14. From there to the Line 2 boarding area is a 5-minute walk.\nJimin: Oh, and I was also looking for the bathroom.\nMina: The bathroom is to the left of exit 1. Once you come out the exit, you'll see it right away.\nJimin: Got it! By the way, until what time is the information desk open?\nMina: The information desk is open from 9 a.m. to 6 p.m.",
     "comprehensionQuestions": [
       {
         "question": "Which exit should Jimin use to get to Line 2?",
-        "answer": "14번 출구 (exit 14). From there it's a 5-minute walk to the Line 2 platform."
+        "answer": "14번 출구 쪽 (toward exit 14). From there it's a 5-minute walk to the Line 2 boarding area."
       },
       {
         "question": "Where is the bathroom?",
@@ -346,7 +362,7 @@
       },
       {
         "question": "Find every use of 부터 and 까지 in the text. Why is each one used — and why does one sentence use both?",
-        "answer": "몇 시까지 열어? — 까지 alone marks the end-point of the opening hours (asking 'until what time'). 아침 5시부터 자정까지 열어 — both 부터 and 까지 appear because Mina is giving the full range: 'from 5 AM (부터 = start) to midnight (까지 = end)'. The first question only needed the endpoint; the answer needed both endpoints of the ruler."
+        "answer": "몇 시까지 열어? — 까지 alone marks the end-point of the opening hours (asking 'until what time'). 오전 9시부터 오후 6시까지 열어 — both 부터 and 까지 appear because Mina is giving the full range: 'from 9 AM (부터 = start) to 6 PM (까지 = end)'. The first question only needed the endpoint; the answer needed both endpoints of the ruler."
       }
     ]
   },
@@ -402,7 +418,7 @@
     },
     {
       "type": "multipleChoice",
-      "prompt": "역 사무소는 오전 9시___ 오후 6시___ 열어요. Which pair of particles fits?",
+      "prompt": "안내소는 오전 9시___ 오후 6시___ 열어요. Which pair of particles fits?",
       "options": [
         "에 / 에",
         "부터 / 까지",

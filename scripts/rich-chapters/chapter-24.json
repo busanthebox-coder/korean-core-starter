@@ -1,0 +1,649 @@
+{
+  "id": "chapter-24",
+  "hook": {
+    "situation": "Suggesting an option, trying food or clothes before deciding, and asking for help without sounding blunt.",
+    "objectives": [
+      "Use V아/어 보세요 and V아/어 볼까요? for trying an action: 입어 보세요, 먹어 볼까요?",
+      "Use V아/어 주세요 for polite requests: 추천해 주세요, 보여 주세요, 도와주세요.",
+      "Use Vㄹ/을까요? to suggest or ask what to do: 같이 갈까요?, 주문할까요?"
+    ],
+    "whyItMatters": "Korean suggestions often soften the action before the decision. 한번 입어 보세요 feels lighter than 입으세요, and 추천해 주세요 is clearer and more polite than a blunt command."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-074",
+      "title": "V아/어 보다 - try doing V",
+      "mentalModel": "보다 is not 'see' here. It means do the action and see how it goes.",
+      "formation": "Make the 아/어 form first, then add 보다. In suggestions, use 보세요 or 볼까요. 먹다 becomes 먹어 보세요, 입다 becomes 입어 보세요, 하다 becomes 해 보세요, 가다 becomes 가 보세요.",
+      "examples": [
+        {
+          "ko": "이 옷 한번 입어 보세요.",
+          "romanization": "i ot hanbeon ibeo boseyo.",
+          "en": "Try on these clothes once.",
+          "note": "한번 makes the suggestion feel low-pressure."
+        },
+        {
+          "ko": "이 식당 한번 가 볼까요?",
+          "romanization": "i sikdang hanbeon ga bolkkayo?",
+          "en": "Should we try going to this restaurant?",
+          "note": "볼까요 asks about trying before deciding."
+        },
+        {
+          "ko": "이 음식 먹어 봤어요?",
+          "romanization": "i eumsik meogeo bwasseoyo?",
+          "en": "Have you tried this food?",
+          "note": "Past -아/어 봤어요 asks about experience."
+        },
+        {
+          "ko": "혼자 해 보세요.",
+          "romanization": "honja hae boseyo.",
+          "en": "Try doing it by yourself.",
+          "note": "하다 becomes 해 보세요."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "입으세요.",
+            "en": "Please put it on."
+          },
+          "b": {
+            "ko": "입어 보세요.",
+            "en": "Please try it on."
+          },
+          "explanation": "입어 보세요 is softer because the listener can try it before deciding."
+        },
+        {
+          "a": {
+            "ko": "먹어 보세요.",
+            "en": "Try eating it."
+          },
+          "b": {
+            "ko": "먹어 봤어요.",
+            "en": "I tried eating it / Have you tried eating it?"
+          },
+          "explanation": "보세요 suggests a trial now. 봤어요 reports or asks about past experience."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "입다 보세요.",
+        "right": "입어 보세요.",
+        "explanation": "Do not attach 보세요 to the dictionary form. Use the 아/어 form first."
+      },
+      "exceptions": [
+        "For shoes, use 신어 보세요. For clothes, use 입어 보세요.",
+        "한번 often means 'give it a try,' not literally one time.",
+        "In casual speech, 해 봐요 and 해 봐 are common, but 보세요 is safer in service situations."
+      ]
+    },
+    {
+      "id": "gn-pattern-015",
+      "title": "V아/어 주세요 - please do V for me",
+      "mentalModel": "주세요 makes a request feel like a helpful action done for the listener or speaker.",
+      "formation": "Use the 아/어 form plus 주세요: 도와주다 becomes 도와주세요, 추천하다 becomes 추천해 주세요, 보여 주다 becomes 보여 주세요, 바꾸다 becomes 바꿔 주세요.",
+      "examples": [
+        {
+          "ko": "다른 색도 추천해 주세요.",
+          "romanization": "dareun saekdo chucheon hae juseyo.",
+          "en": "Please recommend another color too.",
+          "note": "A natural service-counter request."
+        },
+        {
+          "ko": "한 치수 작은 것도 보여 주세요.",
+          "romanization": "han chisu jageun geotdo boyeo juseyo.",
+          "en": "Please show me one size smaller too.",
+          "note": "보여 주세요 asks staff to show something."
+        },
+        {
+          "ko": "천천히 다시 말해 주세요.",
+          "romanization": "cheoncheonhi dasi malhae juseyo.",
+          "en": "Please say it again slowly.",
+          "note": "A practical help request."
+        },
+        {
+          "ko": "조금 도와주세요.",
+          "romanization": "jogeum dowajuseyo.",
+          "en": "Please help me a little.",
+          "note": "도와주세요 is the core help request."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "추천해 주세요.",
+            "en": "Please recommend one."
+          },
+          "b": {
+            "ko": "추천하세요.",
+            "en": "Recommend one. (sounds like an instruction)"
+          },
+          "explanation": "주세요 makes the request polite and service-appropriate."
+        },
+        {
+          "a": {
+            "ko": "바꿔 주세요.",
+            "en": "Please exchange/change it for me."
+          },
+          "b": {
+            "ko": "바꿔 보세요.",
+            "en": "Try changing it."
+          },
+          "explanation": "주세요 asks someone to do it for you; 보세요 suggests trying the action."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "추천 주세요.",
+        "right": "추천해 주세요.",
+        "explanation": "추천하다 is a 하다 verb. The request form is 추천해 주세요."
+      },
+      "exceptions": [
+        "주세요 can also mean 'give me' with nouns: 물 주세요.",
+        "With close friends, 줘요/줘 can replace 주세요, but use 주세요 with staff and strangers.",
+        "Some service verbs are fixed chunks: 보여 주세요, 바꿔 주세요, 도와주세요."
+      ]
+    },
+    {
+      "id": "gn-pattern-016",
+      "title": "Vㄹ/을까요? - shall we / should I?",
+      "mentalModel": "ㄹ까요 asks for a shared decision or checks what action would be good.",
+      "formation": "Add ㄹ까요 after a vowel stem and 을까요 after a consonant stem: 가다 becomes 갈까요, 먹다 becomes 먹을까요, 기다리다 becomes 기다릴까요, 주문하다 becomes 주문할까요.",
+      "examples": [
+        {
+          "ko": "같이 갈까요?",
+          "romanization": "gachi galkkayo?",
+          "en": "Shall we go together?",
+          "note": "A shared suggestion."
+        },
+        {
+          "ko": "먼저 주문할까요?",
+          "romanization": "meonjeo jumunhalkkayo?",
+          "en": "Should we order first?",
+          "note": "Asks what action would be good."
+        },
+        {
+          "ko": "제가 도와드릴까요?",
+          "romanization": "jega dowadeurilkkayo?",
+          "en": "Shall I help you?",
+          "note": "Polite offer of help."
+        },
+        {
+          "ko": "이 옷 한번 입어 볼까요?",
+          "romanization": "i ot hanbeon ibeo bolkkayo?",
+          "en": "Should I try on these clothes?",
+          "note": "Combines trying with a decision question."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "갈까요?",
+            "en": "Shall we go? / Should I go?"
+          },
+          "b": {
+            "ko": "갈래요?",
+            "en": "Do you want to go?"
+          },
+          "explanation": "ㄹ까요 asks for a decision or suggestion. ㄹ래요 asks about desire or will."
+        },
+        {
+          "a": {
+            "ko": "입어 볼까요?",
+            "en": "Should I try it on?"
+          },
+          "b": {
+            "ko": "입어 보세요.",
+            "en": "Please try it on."
+          },
+          "explanation": "볼까요 asks for the listener's opinion; 보세요 suggests the action."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "가을까요?",
+        "right": "갈까요?",
+        "explanation": "Vowel-ending stems take ㄹ까요 directly: 가다 becomes 갈까요."
+      },
+      "exceptions": [
+        "Context decides whether ㄹ까요 means shall we or should I.",
+        "For a clear command, do not use ㄹ까요; use 주세요 or 세요 depending on the situation.",
+        "With ㄹ-final stems, keep one ㄹ: 만들다 becomes 만들까요."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "해 보다",
+      "romanization": "hae boda",
+      "english": "to try doing",
+      "partOfSpeech": "verb phrase",
+      "exampleSentence": {
+        "ko": "혼자 해 보세요.",
+        "en": "Try doing it by yourself.",
+        "note": "하다 becomes 해 before 보다."
+      },
+      "collocations": [
+        "한번 해 보세요",
+        "해 볼까요?",
+        "해 봤어요?"
+      ]
+    },
+    {
+      "hangul": "입어 보다",
+      "romanization": "ibeo boda",
+      "english": "to try on clothes",
+      "partOfSpeech": "verb phrase",
+      "exampleSentence": {
+        "ko": "이 옷 한번 입어 보세요.",
+        "en": "Try on these clothes once.",
+        "note": "입다 becomes 입어 before 보다."
+      },
+      "collocations": [
+        "입어 보세요",
+        "입어 볼까요?",
+        "입어 봤어요?"
+      ]
+    },
+    {
+      "hangul": "먹어 보다",
+      "romanization": "meogeo boda",
+      "english": "to try eating",
+      "partOfSpeech": "verb phrase",
+      "exampleSentence": {
+        "ko": "이 음식 먹어 볼까요?",
+        "en": "Should we try this food?",
+        "note": "먹다 becomes 먹어 before 보다."
+      },
+      "collocations": [
+        "먹어 보세요",
+        "먹어 볼까요?",
+        "먹어 봤어요?"
+      ]
+    },
+    {
+      "hangul": "가 보다",
+      "romanization": "ga boda",
+      "english": "to try going",
+      "partOfSpeech": "verb phrase",
+      "exampleSentence": {
+        "ko": "이 식당 한번 가 볼까요?",
+        "en": "Should we try going to this restaurant?",
+        "note": "가다 becomes 가 before 보다."
+      },
+      "collocations": [
+        "가 보세요",
+        "가 볼까요?",
+        "가 봤어요?"
+      ]
+    },
+    {
+      "hangul": "추천하다",
+      "romanization": "chucheonhada",
+      "english": "to recommend",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "다른 색도 추천해 주세요.",
+        "en": "Please recommend another color too.",
+        "note": "추천해 주세요 is the useful request form."
+      },
+      "collocations": [
+        "추천해 주세요",
+        "식당을 추천해요",
+        "색을 추천해요"
+      ]
+    },
+    {
+      "hangul": "한번",
+      "romanization": "hanbeon",
+      "english": "once; just to try",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "한번 입어 보세요.",
+        "en": "Try it on once.",
+        "note": "Often softens a trial suggestion."
+      },
+      "collocations": [
+        "한번 해 보세요",
+        "한번 먹어 볼까요?",
+        "한번 가 봐요"
+      ]
+    },
+    {
+      "hangul": "괜찮다",
+      "romanization": "gwaenchanta",
+      "english": "to be okay; fine",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "이 색 괜찮아요?",
+        "en": "Is this color okay?",
+        "note": "Useful when checking a choice after trying."
+      },
+      "collocations": [
+        "괜찮아요",
+        "괜찮으면",
+        "안 해도 괜찮아요"
+      ]
+    },
+    {
+      "hangul": "어때요",
+      "romanization": "eottaeyo",
+      "english": "how is it?; what do you think?",
+      "partOfSpeech": "question phrase",
+      "exampleSentence": {
+        "ko": "이 색 어때요?",
+        "en": "How is this color?",
+        "note": "어때요 asks for an opinion, not a method."
+      },
+      "collocations": [
+        "어때요?",
+        "이거 어때요?",
+        "색이 어때요?"
+      ]
+    },
+    {
+      "hangul": "도전하다",
+      "romanization": "dojeonhada",
+      "english": "to take on a challenge",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "새로운 음식에 한번 도전해 보세요.",
+        "en": "Try taking on a new food.",
+        "note": "Use for a challenge, not every tiny attempt."
+      },
+      "collocations": [
+        "도전해 보세요",
+        "새로운 것에 도전해요",
+        "한번 도전해 봐요"
+      ]
+    },
+    {
+      "hangul": "도와주다",
+      "romanization": "dowajuda",
+      "english": "to help",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "조금 도와주세요.",
+        "en": "Please help me a little.",
+        "note": "도와주세요 is the core polite help request."
+      },
+      "collocations": [
+        "도와주세요",
+        "도와드릴까요?",
+        "도와줄게요"
+      ]
+    },
+    {
+      "hangul": "천천히",
+      "romanization": "cheoncheonhi",
+      "english": "slowly",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "천천히 다시 말해 주세요.",
+        "en": "Please say it again slowly.",
+        "note": "A practical help request."
+      },
+      "collocations": [
+        "천천히 말해 주세요",
+        "천천히 해 보세요",
+        "천천히 가요"
+      ]
+    },
+    {
+      "hangul": "같이",
+      "romanization": "gachi",
+      "english": "together",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "같이 갈까요?",
+        "en": "Shall we go together?",
+        "note": "Pairs naturally with ㄹ까요 suggestions."
+      },
+      "collocations": [
+        "같이 갈까요?",
+        "같이 먹을까요?",
+        "같이 해 볼까요?"
+      ]
+    },
+    {
+      "hangul": "먼저",
+      "romanization": "meonjeo",
+      "english": "first",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "먼저 입어 보세요.",
+        "en": "Try it on first.",
+        "note": "Useful when sequencing a suggestion."
+      },
+      "collocations": [
+        "먼저 해 보세요",
+        "먼저 입어 보세요",
+        "먼저 주문할까요?"
+      ]
+    },
+    {
+      "hangul": "다시",
+      "romanization": "dasi",
+      "english": "again",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "다시 보여 주세요.",
+        "en": "Please show me again.",
+        "note": "Pairs with 주세요 requests."
+      },
+      "collocations": [
+        "다시 말해 주세요",
+        "다시 보여 주세요",
+        "다시 해 볼까요?"
+      ]
+    },
+    {
+      "hangul": "부탁하다",
+      "romanization": "butakada",
+      "english": "to ask a favor",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "작은 부탁 하나 해도 될까요?",
+        "en": "May I ask one small favor?",
+        "note": "Useful before a request."
+      },
+      "collocations": [
+        "부탁해요",
+        "부탁 하나 할게요",
+        "부탁해도 될까요?"
+      ]
+    },
+    {
+      "hangul": "옷",
+      "romanization": "ot",
+      "english": "clothes",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 옷 한번 입어 볼까요?",
+        "en": "Should I try on these clothes?",
+        "note": "Core noun for trying on clothing."
+      },
+      "collocations": [
+        "옷을 입어요",
+        "옷을 입어 보세요",
+        "이 옷 어때요?"
+      ]
+    },
+    {
+      "hangul": "색",
+      "romanization": "saek",
+      "english": "color",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "다른 색도 추천해 주세요.",
+        "en": "Please recommend another color too.",
+        "note": "Useful in clothing and shopping suggestions."
+      },
+      "collocations": [
+        "무슨 색",
+        "다른 색",
+        "색이 어때요?"
+      ]
+    },
+    {
+      "hangul": "어울리다",
+      "romanization": "eoullida",
+      "english": "to suit; to look good on",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "이 색이 잘 어울려요.",
+        "en": "This color suits you well.",
+        "note": "Use the 'to suit' sense, not the 'hang out' sense."
+      },
+      "collocations": [
+        "잘 어울려요",
+        "색이 어울려요",
+        "옷이 어울려요"
+      ]
+    },
+    {
+      "hangul": "바꾸다",
+      "romanization": "bakkuda",
+      "english": "to change; exchange",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "사이즈가 크면 바꿔 주세요.",
+        "en": "If the size is big, please exchange it.",
+        "note": "바꿔 주세요 is a practical service request."
+      },
+      "collocations": [
+        "바꿔 주세요",
+        "색을 바꿔요",
+        "사이즈를 바꿔요"
+      ]
+    },
+    {
+      "hangul": "보이다",
+      "romanization": "boida",
+      "english": "to be seen; to show",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "한 치수 작은 것도 보여 주세요.",
+        "en": "Please show me one size smaller too.",
+        "note": "보여 주세요 is the request form used in shops."
+      },
+      "collocations": [
+        "보여 주세요",
+        "다시 보여 주세요",
+        "잘 보여요"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A shopper tries on clothes, checks the color, and makes polite requests to the staff.",
+    "lines": [
+      {
+        "speaker": "민서",
+        "ko": "이 옷 한번 입어 볼까요?",
+        "romanization": "i ot hanbeon ibeo bolkkayo?",
+        "en": "Should I try on these clothes?",
+        "grammarNote": "입어 볼까요 asks for an opinion before trying."
+      },
+      {
+        "speaker": "직원",
+        "ko": "네, 먼저 입어 보세요. 색이 잘 어울려요.",
+        "romanization": "ne, meonjeo ibeo boseyo. saegi jal eoullyeoyo.",
+        "en": "Yes, try them on first. The color suits you well.",
+        "grammarNote": "입어 보세요 is a soft suggestion."
+      },
+      {
+        "speaker": "민서",
+        "ko": "이 색도 괜찮은데, 다른 색도 추천해 주세요.",
+        "romanization": "i saekdo gwaenchaneunde, dareun saekdo chucheon hae juseyo.",
+        "en": "This color is okay, but please recommend another color too.",
+        "grammarNote": "추천해 주세요 is a polite request."
+      },
+      {
+        "speaker": "직원",
+        "ko": "그럼 이 색도 한번 입어 보세요.",
+        "romanization": "geureom i saekdo hanbeon ibeo boseyo.",
+        "en": "Then try on this color too.",
+        "grammarNote": "한번 keeps the suggestion light."
+      },
+      {
+        "speaker": "민서",
+        "ko": "사이즈가 크면 한 치수 작은 것도 보여 주세요.",
+        "romanization": "saijeuga keumyeon han chisu jageun geotdo boyeo juseyo.",
+        "en": "If the size is big, please show me one size smaller too.",
+        "grammarNote": "보여 주세요 is a service request."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "Trying before deciding",
+    "body": "민서는 옷 가게에서 재킷을 고르고 있었어요. 직원은 먼저 입어 보세요라고 말했어요. 민서는 이 색도 괜찮지만 다른 색도 보고 싶어서 추천해 달라고 했어요. 직원은 더 밝은 색을 한번 입어 보라고 했고, 민서는 그 색이 더 잘 어울린다고 느꼈어요. 사이즈가 조금 커서 한 치수 작은 것도 보여 달라고 부탁했어요. 이렇게 민서는 바로 결정하지 않고 입어 본 뒤에 선택했어요.",
+    "bodyTranslation": "Minseo was choosing a jacket at a clothing store. The staff suggested she try it on first. Minseo asked for another color recommendation, tried a brighter color, and then asked to see one size smaller before deciding.",
+    "comprehensionQuestions": [
+      {
+        "question": "직원은 민서에게 먼저 무엇을 해 보라고 했어요?",
+        "answer": "먼저 입어 보라고 했어요."
+      },
+      {
+        "question": "민서는 왜 추천해 달라고 했어요?",
+        "answer": "다른 색도 보고 싶어서 추천해 달라고 했어요."
+      },
+      {
+        "question": "민서는 사이즈가 커서 무엇을 부탁했어요?",
+        "answer": "한 치수 작은 것도 보여 달라고 부탁했어요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Trying sounds softer than deciding",
+    "body": "In shops, restaurants, and friendly advice, Korean often uses 한번 and -아/어 보다 to lower the pressure. 한번 입어 보세요, 한번 먹어 볼까요, and 한번 가 봐요 all suggest a trial instead of forcing a decision.",
+    "tip": "When recommending something, combine 한번 with -아/어 보세요: 한번 드셔 보세요, 한번 입어 보세요, 한번 해 보세요."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "A shopper wants to try on clothes. Which sentence fits?",
+      "options": [
+        "이 옷 입어 볼까요?",
+        "이 옷 입었어요?",
+        "이 옷 입는 중이었어요?"
+      ],
+      "correct": "이 옷 입어 볼까요?",
+      "explanation": "-아/어 볼까요 asks about trying an action before deciding."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which is a polite service request?",
+      "options": [
+        "한 치수 작은 것도 보여 주세요.",
+        "한 치수 작은 것도 봐요.",
+        "한 치수 작은 것도 보였어요."
+      ],
+      "correct": "한 치수 작은 것도 보여 주세요.",
+      "explanation": "-아/어 주세요 turns the action into a polite request."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say 'Please recommend another color too.'",
+      "answer": "다른 색도 추천해 주세요.",
+      "explanation": "추천하다 becomes 추천해 주세요 in a polite request."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say 'Shall we go together?'",
+      "answer": "같이 갈까요?",
+      "explanation": "가다 becomes 갈까요? with ㄹ까요, and 같이 makes the suggestion shared."
+    },
+    {
+      "type": "errorCorrection",
+      "prompt": "Fix the sentence: 입다 보세요.",
+      "answer": "입어 보세요.",
+      "explanation": "Use the 아/어 form before 보다."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "V아/어 보다 means try doing: 입어 보세요, 먹어 볼까요, 해 봤어요.",
+      "한번 softens trial suggestions: 한번 입어 보세요.",
+      "V아/어 주세요 makes polite requests: 추천해 주세요, 보여 주세요, 도와주세요.",
+      "Vㄹ/을까요? asks for a shared decision or suggestion: 같이 갈까요?, 주문할까요?"
+    ],
+    "nextChapterTeaser": "Chapter 25 connects ideas with contrast and concession instead of only using 그리고."
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "id": "chapter-57",
+  "hook": {
+    "situation": "You need to say that someone caused another person to eat, sleep, wear something, read aloud, sit down, laugh, cry, know something, or lower a level. The key is to separate the person doing the base action from the person or thing causing it.",
+    "objectives": [
+      "Build natural causative pairs such as 먹다/먹이다, 자다/재우다, 입다/입히다, and 앉다/앉히다.",
+      "Choose between a lexical/morphological causative, V-게 하다, and V-게 만들다.",
+      "Avoid confusing causative forms with passive-looking forms such as 읽히다."
+    ],
+    "whyItMatters": "Causatives are not just grammar labels. They change the story: 아이가 먹었어요 means the child ate; 엄마가 아이에게 밥을 먹였어요 means the mother caused or helped the child eat."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-147",
+      "title": "V-이/히/리/기/우/구/추-다 - lexical causative pairs",
+      "mentalModel": "Do not treat the seven suffixes as a machine you can attach to any verb. Learn the common pairs and always ask: who does the base action, and who causes it?",
+      "formation": "Some Korean causatives are built into the verb with a suffix: 먹다 -> 먹이다, 자다 -> 재우다, 입다 -> 입히다, 앉다 -> 앉히다, 웃다 -> 웃기다, 울다 -> 울리다, 낮다 -> 낮추다. The causer is usually the subject. The person affected can appear with 에게/한테 or 을/를 depending on the verb: 아이에게 밥을 먹이다, 학생들을 앉히다, 모두를 웃기다. Some forms, especially 읽히다, can be passive-like or causative depending on the sentence, so context matters more than the suffix shape.",
+      "examples": [
+        {
+          "ko": "엄마가 아이에게 밥을 먹였어요.",
+          "romanization": "eommaga aiege babeul meogyeosseoyo.",
+          "en": "The mother fed the child.",
+          "note": "The child eats; the mother causes or helps it."
+        },
+        {
+          "ko": "아빠가 아기를 재웠어요.",
+          "romanization": "appaga agireul jaewosseoyo.",
+          "en": "The father put the baby to sleep.",
+          "note": "자다 becomes 재우다."
+        },
+        {
+          "ko": "직원이 손님을 창가 자리에 앉혔어요.",
+          "romanization": "jigwoni sonnimeul changga jarie anchyeosseoyo.",
+          "en": "The staff seated the guest by the window.",
+          "note": "앉다 is intransitive; 앉히다 takes the person being seated."
+        },
+        {
+          "ko": "그 농담이 모두를 웃겼어요.",
+          "romanization": "geu nongdami modureul utgyeosseoyo.",
+          "en": "That joke made everyone laugh.",
+          "note": "The joke is the causer."
+        }
+      ],
+      "exceptions": [
+        "읽히다 is the warning example: 선생님이 학생들에게 본문을 읽혔어요 is causative, but 책이 잘 읽혀요 is text-focused/passive-like."
+      ]
+    },
+    {
+      "id": "gn-pattern-148",
+      "title": "V-게 하다 - have or make someone do something",
+      "mentalModel": "Use V-게 하다 when there is no natural lexical causative, or when you want a clearer, more flexible 'have someone do V' sentence.",
+      "formation": "Attach 게 하다 to the action you want someone to do: 읽게 하다, 공부하게 하다, 기다리게 하다. The caused person can be marked by 을/를 or 에게 depending on the sentence. Compared with lexical causatives, V-게 하다 is more transparent and works with many verbs.",
+      "examples": [
+        {
+          "ko": "선생님이 학생들에게 본문을 읽게 했어요.",
+          "romanization": "seonsaengnimi haksaengdeurege bonmuneul ilkge haesseoyo.",
+          "en": "The teacher had the students read the passage.",
+          "note": "Clear analytic causative."
+        },
+        {
+          "ko": "부모님이 저를 일찍 자게 했어요.",
+          "romanization": "bumonimi jeoreul iljjik jage haesseoyo.",
+          "en": "My parents made me sleep early.",
+          "note": "Same idea as 재우다, but more analytic."
+        },
+        {
+          "ko": "팀장이 직원들을 앞자리에 앉게 했어요.",
+          "romanization": "timjangi jigwondeureul apjarie anke haesseoyo.",
+          "en": "The team lead had the staff sit in the front seats.",
+          "note": "Compare with 직원들을 앞자리에 앉혔어요."
+        },
+        {
+          "ko": "회사에서 직원들을 야근하게 했어요.",
+          "romanization": "hoesaeseo jigwondeureul yageunhage haesseoyo.",
+          "en": "The company made the employees work overtime.",
+          "note": "Useful when there is no single lexical causative."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-149",
+      "title": "V-게 만들다 - cause a result, often emotionally or forcefully",
+      "mentalModel": "V-게 만들다 focuses on the resulting state. It often feels stronger or more emotional than V-게 하다.",
+      "formation": "Attach 게 만들다 to the result: 울게 만들다, 웃게 만들다, 생각하게 만들다, 포기하게 만들다. Use it when the cause is a situation, movie, words, pressure, or experience that drives someone into a result. It can sound heavier than V-게 하다, so do not use it for every simple instruction.",
+      "examples": [
+        {
+          "ko": "그 영화가 저를 울게 만들었어요.",
+          "romanization": "geu yeonghwaga jeoreul ulge mandeureosseoyo.",
+          "en": "That movie made me cry.",
+          "note": "Emotional result; compare with 저를 울렸어요."
+        },
+        {
+          "ko": "그 말이 분위기를 어색하게 만들었어요.",
+          "romanization": "geu mari bunwigireul eosaekage mandeureosseoyo.",
+          "en": "Those words made the atmosphere awkward.",
+          "note": "Resultative change."
+        },
+        {
+          "ko": "어려운 문제가 학생들을 생각하게 만들었어요.",
+          "romanization": "eoryeoun munjega haksaengdeureul saenggakage mandeureosseoyo.",
+          "en": "The difficult problem made the students think.",
+          "note": "The problem causes the mental action."
+        },
+        {
+          "ko": "긴 회의가 모두를 지치게 만들었어요.",
+          "romanization": "gin hoeuiga modureul jichige mandeureosseoyo.",
+          "en": "The long meeting made everyone exhausted.",
+          "note": "A situation creates an unwanted result."
+        }
+      ],
+      "exceptions": [
+        "For a direct instruction, V-게 하다 is usually cleaner: 선생님이 학생들에게 읽게 했어요. Use 만들다 when the result or emotional force matters."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "먹이다",
+      "romanization": "meogida",
+      "english": "to feed / make someone take",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "엄마가 아이에게 약을 먹였어요.",
+        "en": "The mother gave the child medicine.",
+        "note": "Linked to chapter card word-ext-ch38-meogida."
+      },
+      "collocations": [
+        "아이에게 밥을 먹이다",
+        "약을 먹이다",
+        "강아지에게 사료를 먹이다"
+      ]
+    },
+    {
+      "hangul": "재우다",
+      "romanization": "jaeuda",
+      "english": "to put someone to sleep",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "아빠가 아기를 재웠어요.",
+        "en": "The father put the baby to sleep.",
+        "note": "Chapter card word-ext-ch57-jaeuda."
+      },
+      "collocations": [
+        "아기를 재우다",
+        "일찍 재우다",
+        "아이를 재우다"
+      ]
+    },
+    {
+      "hangul": "입히다",
+      "romanization": "iphida",
+      "english": "to dress someone / put clothing on someone",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "아버지가 아기에게 코트를 입혔어요.",
+        "en": "The father put a coat on the baby.",
+        "note": "Linked to chapter card word-ext-ch38-iphida."
+      },
+      "collocations": [
+        "옷을 입히다",
+        "코트를 입히다",
+        "유니폼을 입히다"
+      ]
+    },
+    {
+      "hangul": "읽히다",
+      "romanization": "ilkida",
+      "english": "to make someone read / to be read",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "선생님이 학생들에게 본문을 읽혔어요.",
+        "en": "The teacher had the students read the passage.",
+        "note": "Causative use; linked to word-ext-ch38-ilkida-passive."
+      },
+      "collocations": [
+        "본문을 읽히다",
+        "학생에게 읽히다",
+        "책이 잘 읽히다"
+      ]
+    },
+    {
+      "hangul": "앉히다",
+      "romanization": "anjhida",
+      "english": "to seat someone",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "직원이 손님을 창가 자리에 앉혔어요.",
+        "en": "The staff seated the guest by the window.",
+        "note": "Linked to chapter card word-ext-ch38-anjhida."
+      },
+      "collocations": [
+        "앞자리에 앉히다",
+        "손님을 앉히다",
+        "아이를 의자에 앉히다"
+      ]
+    },
+    {
+      "hangul": "웃기다",
+      "romanization": "utgida",
+      "english": "to make someone laugh / to be funny",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "그 농담이 모두를 웃겼어요.",
+        "en": "That joke made everyone laugh.",
+        "note": "Chapter card word-ext-ch57-utgida."
+      },
+      "collocations": [
+        "사람들을 웃기다",
+        "진짜 웃기다",
+        "농담이 웃기다"
+      ]
+    },
+    {
+      "hangul": "울리다",
+      "romanization": "ullida",
+      "english": "to make someone cry / to ring",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "그 영화가 저를 울렸어요.",
+        "en": "That movie made me cry.",
+        "note": "Chapter card word-ext-ch57-ullida."
+      },
+      "collocations": [
+        "사람을 울리다",
+        "벨을 울리다",
+        "마음을 울리다"
+      ]
+    },
+    {
+      "hangul": "알리다",
+      "romanization": "allida",
+      "english": "to inform / let know",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "일정이 바뀌면 바로 알려 주세요.",
+        "en": "If the schedule changes, please let me know right away.",
+        "note": "Linked to dictionary card word-verb-075."
+      },
+      "collocations": [
+        "소식을 알리다",
+        "변경 사항을 알리다",
+        "바로 알려 주세요"
+      ]
+    },
+    {
+      "hangul": "낮추다",
+      "romanization": "natchuda",
+      "english": "to lower",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "회의 중이라서 목소리를 낮췄어요.",
+        "en": "I lowered my voice because we were in a meeting.",
+        "note": "Chapter card word-ext-ch57-natchuda."
+      },
+      "collocations": [
+        "목소리를 낮추다",
+        "가격을 낮추다",
+        "소리를 낮추다"
+      ]
+    },
+    {
+      "hangul": "먹다",
+      "romanization": "meokda",
+      "english": "to eat",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "아이가 밥을 먹어요.",
+        "en": "The child eats rice.",
+        "note": "Base verb for comparison with 먹이다."
+      },
+      "collocations": [
+        "밥을 먹다",
+        "약을 먹다",
+        "먹이다와 비교하다"
+      ]
+    },
+    {
+      "hangul": "자다",
+      "romanization": "jada",
+      "english": "to sleep",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "아기가 자요.",
+        "en": "The baby sleeps.",
+        "note": "Base verb for comparison with 재우다."
+      },
+      "collocations": [
+        "아기가 자다",
+        "일찍 자다",
+        "재우다와 비교하다"
+      ]
+    },
+    {
+      "hangul": "입다",
+      "romanization": "ipda",
+      "english": "to wear",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "아기가 코트를 입었어요.",
+        "en": "The baby wore a coat.",
+        "note": "Base verb for comparison with 입히다."
+      },
+      "collocations": [
+        "옷을 입다",
+        "코트를 입다",
+        "입히다와 비교하다"
+      ]
+    },
+    {
+      "hangul": "앉다",
+      "romanization": "anjda",
+      "english": "to sit",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "학생들이 앞자리에 앉았어요.",
+        "en": "The students sat in the front row.",
+        "note": "Base verb for comparison with 앉히다."
+      },
+      "collocations": [
+        "자리에 앉다",
+        "앞자리에 앉다",
+        "앉히다와 비교하다"
+      ]
+    },
+    {
+      "hangul": "울다",
+      "romanization": "ulda",
+      "english": "to cry",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "저는 그 영화를 보고 울었어요.",
+        "en": "I cried after watching that movie.",
+        "note": "Base verb for comparison with 울리다."
+      },
+      "collocations": [
+        "아기가 울다",
+        "영화를 보고 울다",
+        "울리다와 비교하다"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A learner practices causative pairs in caregiving, classroom, and emotion scenes.",
+    "lines": [
+      {
+        "speaker": "민서",
+        "ko": "아이가 밥을 먹었어요와 엄마가 아이에게 밥을 먹였어요는 다르죠?",
+        "romanization": "aiga babeul meogeosseoyowa eommaga aiege babeul meogyeosseoyoneun dareujyo?",
+        "en": "The child ate and the mother fed the child are different, right?",
+        "grammarNote": "Base action versus caused action."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "네. 먹었어요는 아이가 한 행동이고, 먹였어요는 엄마가 하게 한 행동이에요.",
+        "romanization": "ne. meogeosseoyoneun aiga han haengdongigo, meogyeosseoyoneun eommaga hage han haengdongieyo.",
+        "en": "Yes. Ate is what the child did; fed is what the mother caused to happen.",
+        "grammarNote": "The causer and doer are different."
+      },
+      {
+        "speaker": "민서",
+        "ko": "그럼 선생님이 학생들에게 본문을 읽혔어요도 사동이에요?",
+        "romanization": "geureom seonsaengnimi haksaengdeurege bonmuneul ilkyeosseoyodo sadongieyo?",
+        "en": "Then is 'the teacher had the students read the passage' also causative?",
+        "grammarNote": "읽히다 can be causative in the right sentence."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "맞아요. 하지만 책이 잘 읽혀요는 사동보다 피동처럼 느껴져요.",
+        "romanization": "majayo. hajiman chaegi jal ilkyeoyoneun sadongboda pidongcheoreom neukkyeojyeoyo.",
+        "en": "Right. But 'the book reads well' feels more passive-like than causative.",
+        "grammarNote": "Same-looking form, different sentence role."
+      },
+      {
+        "speaker": "민서",
+        "ko": "웃기다와 울리다는 감정이 바뀌는 사동으로 보면 되겠네요.",
+        "romanization": "utgidawa ullidaneun gamjeongi bakkwineun sadongeuro bomyeon doegenneyo.",
+        "en": "So I can see utgida and ullida as causatives where emotions change.",
+        "grammarNote": "Emotion causatives."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "누가 하게 만들었는지 보기",
+    "body": "사동사를 공부할 때는 접미사만 외우면 헷갈리기 쉬워요. 먼저 누가 실제 행동을 하는지 보고, 그다음 누가 그 행동을 하게 했는지 확인해야 해요. 아이가 밥을 먹으면 아이가 행동의 주체예요. 하지만 엄마가 아이에게 밥을 먹이면 엄마가 사동의 주체이고 아이가 먹는 사람이에요. 선생님이 학생들에게 본문을 읽혔어요는 학생들이 읽지만 선생님이 읽게 한 문장이에요. 반대로 책이 잘 읽혀요는 책이 쉽게 읽힌다는 뜻이라 사동보다 피동처럼 느껴져요. 그래서 먹이다, 재우다, 입히다, 앉히다 같은 단어는 기본형과 짝으로 외우는 것이 좋아요.",
+    "bodyTranslation": "When studying causative verbs, memorizing only suffixes can be confusing. First check who actually performs the action, and then who causes that action to happen. If a child eats rice, the child is the doer. But if a mother feeds the child, the mother is the causative subject and the child is the one eating. In 'the teacher had the students read the passage,' the students read but the teacher caused it. By contrast, 'the book reads well' means the book is easy to read, so it feels more passive-like than causative. That is why words like 먹이다, 재우다, 입히다, and 앉히다 are best memorized as pairs with their base forms.",
+    "comprehensionQuestions": [
+      {
+        "question": "사동사를 공부할 때 먼저 무엇을 확인해야 해요?",
+        "answer": "누가 실제 행동을 하는지 확인해야 해요."
+      },
+      {
+        "question": "엄마가 아이에게 밥을 먹이면 누가 밥을 먹어요?",
+        "answer": "아이가 밥을 먹어요."
+      },
+      {
+        "question": "책이 잘 읽혀요는 사동보다 무엇처럼 느껴져요?",
+        "answer": "피동처럼 느껴져요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Caregiving, Classroom, Workplace",
+    "body": "Korean causatives appear most naturally in roles where someone guides another person's action: parents feed children, teachers have students read, staff seat guests, managers make employees work, and stories make people laugh or cry. If the sentence sounds too forceful with V-게 만들다, switch to V-게 하다 or a lexical causative such as 앉히다.",
+    "tip": "Before choosing the form, name three roles in English: causer, person affected, base action. Then build the Korean sentence."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence means the mother fed the child?",
+      "options": [
+        "엄마가 아이에게 밥을 먹였어요.",
+        "엄마가 아이에게 밥을 먹었어요.",
+        "밥이 엄마에게 아이를 먹였어요."
+      ],
+      "correct": "엄마가 아이에게 밥을 먹였어요.",
+      "explanation": "먹이다 means someone causes or helps another person eat."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence is causative 읽히다?",
+      "options": [
+        "선생님이 학생들에게 본문을 읽혔어요.",
+        "책이 술술 읽혔어요.",
+        "학생들이 책을 읽었어요."
+      ],
+      "correct": "선생님이 학생들에게 본문을 읽혔어요.",
+      "explanation": "The teacher causes the students to read. 책이 술술 읽혔어요 is passive-like/text-focused."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which form is better for a strong emotional result?",
+      "options": [
+        "그 영화가 저를 울게 만들었어요.",
+        "그 영화가 저를 자게 했어요.",
+        "그 영화가 저에게 밥을 먹였어요."
+      ],
+      "correct": "그 영화가 저를 울게 만들었어요.",
+      "explanation": "V-게 만들다 fits emotional or resultative causation."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Base action: 먹다, 자다, 입다, 앉다, 웃다, 울다.",
+      "Lexical causative: 먹이다, 재우다, 입히다, 앉히다, 웃기다, 울리다, 알리다, 낮추다.",
+      "V-게 하다 is flexible and neutral; V-게 만들다 highlights a result or emotional force.",
+      "Always identify the causer, the affected person, and the base action before choosing the form."
+    ],
+    "nextChapterTeaser": "Chapter 58 continues into passive constructions, where the subject receives or undergoes the action."
+  }
+}

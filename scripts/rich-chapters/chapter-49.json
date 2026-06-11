@@ -1,0 +1,639 @@
+{
+  "id": "chapter-49",
+  "hook": {
+    "situation": "You are viewing a studio through a real-estate office and need to ask the questions that change the real cost: deposit, monthly rent, maintenance fee, included utilities, options, and contract details.",
+    "objectives": [
+      "Ask about 보증금, 월세, 관리비, and what is included.",
+      "Describe the room and layout with housing nouns and adjective modifiers.",
+      "Use 조건, 가능, 목적, and 준비 patterns for real housing decisions."
+    ],
+    "whyItMatters": "Housing Korean is full of words that come as a set. 원룸 without 보증금, 월세, 관리비, 포함되다, and 계약서 is not enough for the real task."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-002",
+      "title": "N이/가 있어요 — what the place has",
+      "mentalModel": "Use 있어요 to list useful things in the room or building: 인터넷, 세탁기, 베란다, 엘리베이터.",
+      "formation": "N이/가 있어요. Use 이 after consonants and 가 after vowels.",
+      "examples": [
+        {
+          "ko": "이 원룸에는 베란다가 있어요.",
+          "romanization": "i wollumeneun berandaga isseoyo.",
+          "en": "This studio has a balcony.",
+          "note": "Housing feature as subject."
+        },
+        {
+          "ko": "부엌에 냉장고가 있어요.",
+          "romanization": "bueoke naengjang-goga isseoyo.",
+          "en": "There is a refrigerator in the kitchen.",
+          "note": "Appliance included in the room."
+        },
+        {
+          "ko": "관리비에 인터넷이 포함돼 있어요.",
+          "romanization": "gwallibie inteonesi pohamdwae isseoyo.",
+          "en": "Internet is included in the maintenance fee.",
+          "note": "포함돼 있어요 describes included state."
+        },
+        {
+          "ko": "현관 옆에 세탁기가 있어요.",
+          "romanization": "hyeongwan yeope setakgiga isseoyo.",
+          "en": "There is a washing machine next to the entrance.",
+          "note": "Useful when describing layout."
+        }
+      ],
+      "exceptions": [
+        "For included fees, the included item is the subject: 인터넷이 포함돼 있어요, not 관리비가 인터넷을 포함해요 in beginner housing speech."
+      ]
+    },
+    {
+      "id": "gn-pattern-003",
+      "title": "N이/가 없어요 — missing feature or no extra fee",
+      "mentalModel": "없어요 is practical in housing because missing features and missing fees both matter.",
+      "formation": "N이/가 없어요. Use it for absence, not refusal.",
+      "examples": [
+        {
+          "ko": "이 원룸에는 베란다가 없어요.",
+          "romanization": "i wollumeneun berandaga eopseoyo.",
+          "en": "This studio does not have a balcony.",
+          "note": "Missing feature."
+        },
+        {
+          "ko": "엘리베이터가 없어요.",
+          "romanization": "ellibeiteoga eopseoyo.",
+          "en": "There is no elevator.",
+          "note": "Important building detail."
+        },
+        {
+          "ko": "추가 관리비는 없어요.",
+          "romanization": "chuga gwallibineun eopseoyo.",
+          "en": "There is no extra maintenance fee.",
+          "note": "Cost reassurance."
+        },
+        {
+          "ko": "계약서에 인터넷 내용이 없어요.",
+          "romanization": "gyeyakseoe inteonet naeyongi eopseoyo.",
+          "en": "The contract has no internet details.",
+          "note": "Reason to ask before signing."
+        }
+      ],
+      "exceptions": [
+        "Do not use 안 있어요 as the main learner form for absence. 없어요 is the natural negative existence word."
+      ]
+    },
+    {
+      "id": "gn-pattern-075",
+      "title": "A-ㄴ/은 N — describing listings",
+      "mentalModel": "Korean housing descriptions usually package the description before the noun: 넓은 원룸, 깨끗한 화장실.",
+      "formation": "Adjective stem + ㄴ/은 + noun. 하다 adjectives usually become 한: 조용한, 깨끗한.",
+      "examples": [
+        {
+          "ko": "넓은 원룸을 찾고 있어요.",
+          "romanization": "neolbeun wollumeul chatgo isseoyo.",
+          "en": "I am looking for a spacious studio.",
+          "note": "Desired listing condition."
+        },
+        {
+          "ko": "밝은 방이면 좋아요.",
+          "romanization": "balgeun bangimyeon joayo.",
+          "en": "It would be nice if it is a bright room.",
+          "note": "Modifier plus condition."
+        },
+        {
+          "ko": "조용한 동네를 원해요.",
+          "romanization": "joyonghan dongnereul wonhaeyo.",
+          "en": "I want a quiet neighborhood.",
+          "note": "Neighborhood preference."
+        },
+        {
+          "ko": "깨끗한 화장실이 중요해요.",
+          "romanization": "kkaekkeuthan hwajangsiri jungyohaeyo.",
+          "en": "A clean bathroom is important.",
+          "note": "Inspection detail."
+        }
+      ],
+      "exceptions": [
+        "Do not overuse separate sentences like 원룸이 넓어요 only. 넓은 원룸 lets you describe and identify the place at once."
+      ]
+    },
+    {
+      "id": "gn-pattern-020",
+      "title": "A/V면 — housing conditions",
+      "mentalModel": "면 is for decision points: if the fee is separate, if internet is included, if you like the room.",
+      "formation": "Attach 면/으면 to the predicate. Use it before the decision or result.",
+      "examples": [
+        {
+          "ko": "관리비가 따로면 월세가 비싸게 느껴져요.",
+          "romanization": "gwallibiga ttaromyeon wolsega bissage neukkyeojyeoyo.",
+          "en": "If the maintenance fee is separate, the rent feels expensive.",
+          "note": "Condition changes the real cost."
+        },
+        {
+          "ko": "인터넷이 포함돼 있으면 좋아요.",
+          "romanization": "inteonesi pohamdwae isseumyeon joayo.",
+          "en": "It is good if internet is included.",
+          "note": "Included feature as condition."
+        },
+        {
+          "ko": "마음에 들면 오늘 계약할 수 있어요.",
+          "romanization": "maeume deulmyeon oneul gyeyakal su isseoyo.",
+          "en": "If you like it, you can sign the contract today.",
+          "note": "Agent-style decision line."
+        },
+        {
+          "ko": "전세가 부담되면 월세 원룸을 볼게요.",
+          "romanization": "jeonsega budamdoemyeon wolse wollumeul bolgeyo.",
+          "en": "If jeonse feels burdensome, I will look at monthly-rent studios.",
+          "note": "Lease type condition."
+        }
+      ],
+      "exceptions": [
+        "면 sets a condition. Do not use it when you simply list a fact: 보증금은 500만 원이에요, not 보증금이면 500만 원이에요."
+      ]
+    },
+    {
+      "id": "gn-pattern-007",
+      "title": "Vㄹ/을 수 있어요 — possibility in housing",
+      "mentalModel": "Use 수 있어요 for practical possibility: can sign, can move, can use internet, can see the room.",
+      "formation": "Vowel stem + ㄹ 수 있어요; consonant stem + 을 수 있어요.",
+      "examples": [
+        {
+          "ko": "오늘 계약할 수 있어요?",
+          "romanization": "oneul gyeyakal su isseoyo?",
+          "en": "Can I sign the contract today?",
+          "note": "Contract possibility."
+        },
+        {
+          "ko": "이번 주에 이사할 수 있어요.",
+          "romanization": "ibeon jue isahal su isseoyo.",
+          "en": "I can move this week.",
+          "note": "Moving schedule."
+        },
+        {
+          "ko": "인터넷을 바로 쓸 수 있어요.",
+          "romanization": "inteoneseul baro sseul su isseoyo.",
+          "en": "You can use the internet right away.",
+          "note": "Included utility use."
+        },
+        {
+          "ko": "오늘 방을 볼 수 있어요?",
+          "romanization": "oneul bangeul bol su isseoyo?",
+          "en": "Can I see the room today?",
+          "note": "Viewing question."
+        }
+      ],
+      "exceptions": [
+        "수 있어요 is possibility, not desire. 보고 싶어요 means want to see; 볼 수 있어요 means can see."
+      ]
+    },
+    {
+      "id": "gn-pattern-048",
+      "title": "V-기 위해(서) — planned housing purpose",
+      "mentalModel": "Use 위해서 when the action has a clear purpose: finding a place, lowering rent, checking the contract.",
+      "formation": "Verb stem + 기 위해(서). Noun + 을/를 위해(서).",
+      "examples": [
+        {
+          "ko": "집을 구하기 위해 부동산에 갔어요.",
+          "romanization": "jibeul guhagi wihae budongsane gasseoyo.",
+          "en": "I went to a real-estate office to find a place.",
+          "note": "Purpose of the visit."
+        },
+        {
+          "ko": "월세를 줄이기 위해 작은 원룸을 보고 있어요.",
+          "romanization": "wolser-eul jurigi wihae jageun wollumeul bogo isseoyo.",
+          "en": "I am looking at a small studio to lower rent.",
+          "note": "Purpose behind choice."
+        },
+        {
+          "ko": "계약하기 위해 신분증을 가져왔어요.",
+          "romanization": "gyeyakagi wihae sinbunjeungeul gajyeowasseoyo.",
+          "en": "I brought my ID to sign the contract.",
+          "note": "Purpose of preparation."
+        },
+        {
+          "ko": "이사하기 위해 계약서를 확인했어요.",
+          "romanization": "isahagi wihae gyeyakseoreul hwaginhaesseoyo.",
+          "en": "I checked the contract in order to move.",
+          "note": "Planned pre-move action."
+        }
+      ],
+      "exceptions": [
+        "For casual intention, -(으)려고 is often lighter. 위해서 sounds more planned or formal, which fits contracts and housing goals."
+      ]
+    },
+    {
+      "id": "gn-pattern-129",
+      "title": "V-아/어 두다 — prepare and leave it ready",
+      "mentalModel": "Housing has many before-signing tasks. 두다 says you do something now so it stays ready later.",
+      "formation": "Verb stem + 아/어 두다. 놓다 is similar; 두다 often feels practical and prepared.",
+      "examples": [
+        {
+          "ko": "계약서를 확인해 두세요.",
+          "romanization": "gyeyakseoreul hwaginhae duseyo.",
+          "en": "Check the contract in advance.",
+          "note": "Prepared-action instruction."
+        },
+        {
+          "ko": "관리비 내용을 적어 두세요.",
+          "romanization": "gwallibi naeyongeul jeogeo duseyo.",
+          "en": "Write down the maintenance fee details.",
+          "note": "Keep information for later."
+        },
+        {
+          "ko": "방 사진을 찍어 두면 좋아요.",
+          "romanization": "bang sajineul jjigeo dumyeon joayo.",
+          "en": "It is good to take room photos in advance.",
+          "note": "Useful before deciding."
+        },
+        {
+          "ko": "이사 날짜를 정해 두었어요.",
+          "romanization": "isa naljjareul jeonghae dueosseoyo.",
+          "en": "I set the moving date in advance.",
+          "note": "Prepared schedule."
+        }
+      ],
+      "exceptions": [
+        "아/어 두다 is intentional preparation. 아/어 있다 describes a resulting state, such as 문이 열려 있어요."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "원룸",
+      "romanization": "wollum",
+      "english": "studio apartment",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 원룸은 보증금이 얼마예요?",
+        "en": "How much is the deposit for this studio?",
+        "note": "Core real-estate viewing noun."
+      },
+      "collocations": [
+        "원룸을 보다",
+        "월세 원룸",
+        "넓은 원룸"
+      ]
+    },
+    {
+      "hangul": "부동산",
+      "romanization": "budongsan",
+      "english": "real estate; real-estate office",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "집을 구하기 위해 부동산에 갔어요.",
+        "en": "I went to a real-estate office to find a place.",
+        "note": "In daily speech, 부동산 often means the office."
+      },
+      "collocations": [
+        "부동산에 가다",
+        "부동산에서 계약하다",
+        "동네 부동산"
+      ]
+    },
+    {
+      "hangul": "보증금",
+      "romanization": "bojeunggeum",
+      "english": "deposit",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "보증금은 500만 원이에요.",
+        "en": "The deposit is 5 million won.",
+        "note": "Must be asked together with 월세."
+      },
+      "collocations": [
+        "보증금이 얼마예요?",
+        "보증금을 내다",
+        "보증금을 돌려받다"
+      ]
+    },
+    {
+      "hangul": "월세",
+      "romanization": "wolse",
+      "english": "monthly rent",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "월세는 70만 원이에요.",
+        "en": "The monthly rent is 700,000 won.",
+        "note": "Monthly payment, separate from deposit."
+      },
+      "collocations": [
+        "월세가 얼마예요?",
+        "월세를 내다",
+        "월세 원룸"
+      ]
+    },
+    {
+      "hangul": "전세",
+      "romanization": "jeonse",
+      "english": "large-deposit lease",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "전세보다 월세 원룸을 찾고 있어요.",
+        "en": "I am looking for a monthly-rent studio rather than jeonse.",
+        "note": "Lease type contrast."
+      },
+      "collocations": [
+        "전세 보증금",
+        "전세예요?",
+        "전세보다 월세"
+      ]
+    },
+    {
+      "hangul": "관리비",
+      "romanization": "gwallibi",
+      "english": "maintenance fee",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "관리비는 따로예요?",
+        "en": "Is the maintenance fee separate?",
+        "note": "Core cost question."
+      },
+      "collocations": [
+        "관리비가 얼마예요?",
+        "관리비는 따로예요?",
+        "관리비에 포함되다"
+      ]
+    },
+    {
+      "hangul": "따로",
+      "romanization": "ttaro",
+      "english": "separately",
+      "partOfSpeech": "adverb",
+      "exampleSentence": {
+        "ko": "관리비는 따로예요?",
+        "en": "Is the maintenance fee separate?",
+        "note": "Small word that changes total cost."
+      },
+      "collocations": [
+        "따로예요?",
+        "따로 내다",
+        "따로 확인하다"
+      ]
+    },
+    {
+      "hangul": "포함되다",
+      "romanization": "pohamdoeda",
+      "english": "to be included",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "인터넷이 관리비에 포함돼 있어요.",
+        "en": "Internet is included in the maintenance fee.",
+        "note": "Included item is the subject."
+      },
+      "collocations": [
+        "인터넷이 포함되다",
+        "관리비에 포함되다",
+        "포함돼 있어요"
+      ]
+    },
+    {
+      "hangul": "계약서",
+      "romanization": "gyeyakseo",
+      "english": "contract document",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이사하기 전에 계약서를 확인해 두세요.",
+        "en": "Check the contract before moving.",
+        "note": "Prepared action before signing or moving."
+      },
+      "collocations": [
+        "계약서를 확인하다",
+        "계약서에 적혀 있다",
+        "계약서를 보관하다"
+      ]
+    },
+    {
+      "hangul": "계약하다",
+      "romanization": "gyeyakada",
+      "english": "to sign / make a contract",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "오늘 계약할 수 있어요.",
+        "en": "You can sign the contract today.",
+        "note": "Real-estate action after checking the listing."
+      },
+      "collocations": [
+        "오늘 계약하다",
+        "부동산에서 계약하다",
+        "계약하기 전에"
+      ]
+    },
+    {
+      "hangul": "거실",
+      "romanization": "geosil",
+      "english": "living room",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "거실이 넓어요.",
+        "en": "The living room is spacious.",
+        "note": "Layout noun."
+      },
+      "collocations": [
+        "넓은 거실",
+        "거실이 있어요",
+        "거실에서 쉬다"
+      ]
+    },
+    {
+      "hangul": "부엌",
+      "romanization": "bueok",
+      "english": "kitchen",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "부엌에 냉장고가 있어요.",
+        "en": "There is a refrigerator in the kitchen.",
+        "note": "Appliance/location sentence."
+      },
+      "collocations": [
+        "부엌이 작아요",
+        "부엌에 있다",
+        "부엌에서 요리하다"
+      ]
+    },
+    {
+      "hangul": "화장실",
+      "romanization": "hwajangsil",
+      "english": "bathroom / restroom",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "깨끗한 화장실이 중요해요.",
+        "en": "A clean bathroom is important.",
+        "note": "Inspection detail."
+      },
+      "collocations": [
+        "화장실이 깨끗하다",
+        "화장실이 있어요?",
+        "화장실을 확인하다"
+      ]
+    },
+    {
+      "hangul": "공인중개사",
+      "romanization": "gonginjunggaesa",
+      "english": "licensed real estate agent",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "공인중개사에게 관리비를 물어봤어요.",
+        "en": "I asked the licensed agent about the maintenance fee.",
+        "note": "The person helping with the contract."
+      },
+      "collocations": [
+        "공인중개사에게 묻다",
+        "공인중개사 사무소",
+        "공인중개사와 계약하다"
+      ]
+    },
+    {
+      "hangul": "이사하다",
+      "romanization": "isahada",
+      "english": "to move house",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "다음 달에 이사할 수 있어요.",
+        "en": "I can move next month.",
+        "note": "Moving schedule verb."
+      },
+      "collocations": [
+        "이사하기 전에",
+        "이사할 수 있어요",
+        "이사 날짜"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A tenant checks rent, deposit, utilities, and contract preparation at a real-estate office.",
+    "lines": [
+      {
+        "speaker": "손님",
+        "ko": "이 원룸은 보증금이 얼마예요?",
+        "romanization": "i wollumeun bojeunggeumi eolmayeyo?",
+        "en": "How much is the deposit for this studio?",
+        "grammarNote": "원룸 and 보증금 belong together in listing questions."
+      },
+      {
+        "speaker": "중개사",
+        "ko": "보증금은 500만 원이고 월세는 70만 원이에요.",
+        "romanization": "bojeunggeumeun 500man wonigo wolseneun 70man wonieyo.",
+        "en": "The deposit is 5 million won and the monthly rent is 700,000 won.",
+        "grammarNote": "은/는 separates the two money topics clearly."
+      },
+      {
+        "speaker": "손님",
+        "ko": "관리비는 따로예요? 인터넷도 포함돼 있어요?",
+        "romanization": "gwallibineun ttaroyeyo? inteonesdo pohamdwae isseoyo?",
+        "en": "Is the maintenance fee separate? Is internet included too?",
+        "grammarNote": "따로 and 포함되다 are the key fee-boundary words."
+      },
+      {
+        "speaker": "중개사",
+        "ko": "관리비는 7만 원이고 인터넷은 포함돼 있어요.",
+        "romanization": "gwallibineun 7man wonigo inteones-eun pohamdwae isseoyo.",
+        "en": "The maintenance fee is 70,000 won, and internet is included.",
+        "grammarNote": "인터넷 is the subject of 포함돼 있어요."
+      },
+      {
+        "speaker": "손님",
+        "ko": "이사하기 전에 계약서를 확인해 두면 되죠?",
+        "romanization": "isahagi jeone gyeyakseoreul hwaginhae dumyeon doejyo?",
+        "en": "I should check the contract before moving, right?",
+        "grammarNote": "확인해 두다 means check it in advance and keep it ready."
+      },
+      {
+        "speaker": "중개사",
+        "ko": "네. 마음에 들면 오늘 계약할 수 있어요.",
+        "romanization": "ne. maeume deulmyeon oneul gyeyakal su isseoyo.",
+        "en": "Yes. If you like it, you can sign the contract today.",
+        "grammarNote": "면 sets the condition; ㄹ 수 있어요 gives possibility."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "관리비에 인터넷이 포함돼 있어요?",
+    "body": "하나는 이사하기 위해 부동산에 갔어요. 공인중개사는 넓은 원룸 하나를 보여 줬어요. 보증금은 500만 원이고 월세는 70만 원이었어요. 하나는 관리비가 따로인지, 인터넷이 관리비에 포함돼 있는지 물어봤어요. 베란다는 없었지만 부엌에 냉장고와 세탁기가 있었고 화장실도 깨끗했어요. 마음에 들면 오늘 계약할 수 있다고 해서, 하나는 계약하기 전에 계약서를 다시 확인해 두었어요.",
+    "bodyTranslation": "Hana went to a real-estate office to move. The licensed agent showed her a spacious studio. The deposit was 5 million won and the monthly rent was 700,000 won. Hana asked whether the maintenance fee was separate and whether internet was included in the fee. There was no balcony, but there was a refrigerator and washing machine in the kitchen, and the bathroom was clean. Since she could sign the contract that day if she liked it, Hana checked the contract again before signing.",
+    "comprehensionQuestions": [
+      {
+        "question": "하나는 왜 부동산에 갔어요?",
+        "answer": "이사하기 위해 부동산에 갔어요."
+      },
+      {
+        "question": "하나가 확인한 비용 두 가지는 뭐예요?",
+        "answer": "보증금과 월세를 확인했어요."
+      },
+      {
+        "question": "계약하기 전에 무엇을 확인해 두었어요?",
+        "answer": "계약서를 다시 확인해 두었어요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "The real cost is not only 월세",
+    "body": "In Korean rentals, 월세 is only one part of the monthly burden. 보증금 is paid up front, 관리비 may be separate, and utilities such as internet, water, gas, or electricity may or may not be included. A good housing conversation checks all of these before 계약하다.",
+    "tip": "Ask in this order: 보증금이 얼마예요? 월세가 얼마예요? 관리비는 따로예요? 뭐가 포함돼 있어요? 계약서 먼저 확인해도 돼요?"
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "At a real-estate office, which pair belongs together?",
+      "options": [
+        "보증금 500만 원 / 월세 70만 원",
+        "포크 세 개 / 커피 두 잔",
+        "댓글 ㅋㅋ / 좋아요"
+      ],
+      "correct": "보증금 500만 원 / 월세 70만 원",
+      "explanation": "보증금 and 월세 are core housing price terms."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which question checks whether a fee is separate?",
+      "options": [
+        "관리비는 따로예요?",
+        "관리비는 같이 사람예요?",
+        "관리비는 보증금 먹어요?"
+      ],
+      "correct": "관리비는 따로예요?",
+      "explanation": "따로 means separately and is essential for fee questions."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence asks whether internet is included?",
+      "options": [
+        "인터넷이 관리비에 포함돼 있어요?",
+        "인터넷을 관리비가 포함해요?",
+        "인터넷에 관리비를 따로예요?"
+      ],
+      "correct": "인터넷이 관리비에 포함돼 있어요?",
+      "explanation": "The included item is the subject, and 관리비 takes 에."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Before moving, the prepared-action sentence is:",
+      "options": [
+        "계약서를 확인해 두세요.",
+        "계약서를 확인할 리가 없어요.",
+        "계약서를 확인하는군요."
+      ],
+      "correct": "계약서를 확인해 두세요.",
+      "explanation": "-아/어 두세요 means do it in advance and leave it prepared."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence uses possibility naturally?",
+      "options": [
+        "오늘 계약할 수 있어요.",
+        "오늘 계약이 따로예요 수 있어요.",
+        "오늘 계약서 때문에 포함돼요."
+      ],
+      "correct": "오늘 계약할 수 있어요.",
+      "explanation": "Vㄹ/을 수 있어요 expresses practical possibility."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Cost set: 보증금, 월세, 관리비, 따로, 포함되다.",
+      "Housing nouns: 원룸, 거실, 부엌, 화장실, 베란다, 현관.",
+      "Listing descriptions: 넓은 원룸, 밝은 방, 조용한 동네, 깨끗한 화장실.",
+      "Decision patterns: 마음에 들면, 계약할 수 있어요, 집을 구하기 위해, 확인해 두세요.",
+      "Contract habit: check 계약서 before 계약하다."
+    ],
+    "nextChapterTeaser": "Chapter 50 moves into weather and seasons, where forecasts and plan changes need the same vocabulary-to-task matching."
+  }
+}

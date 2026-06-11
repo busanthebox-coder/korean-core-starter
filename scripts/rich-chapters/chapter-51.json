@@ -1,0 +1,606 @@
+{
+  "id": "chapter-51",
+  "hook": {
+    "situation": "You are in a clothing store, want to try on a shirt, ask for a different size, choose something neat for an interview, and check whether exchange or refund is possible.",
+    "objectives": [
+      "Use clothing words with 입다, 신다, 사이즈가 맞다, and 잘 어울리다.",
+      "Ask store staff politely with 입어 봐도 돼요? and 보여 주시겠어요?",
+      "Describe appearance and interview appropriateness with 커 보여요, 단정해 보여요, and N보다 더 A."
+    ],
+    "whyItMatters": "This chapter should not be a random clothing list. The vocabulary has to serve one real flow: try on clothes, judge fit and style, compare options, and confirm store policy before buying."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-074",
+      "title": "V아/어 보세요 — try doing it",
+      "mentalModel": "Use this when someone suggests trying an action once before deciding. In clothing stores, the key action is 입어 보다: try it on.",
+      "formation": "Make the 아/어 form of the verb and add 보다. 입다 becomes 입어 보다, 신다 becomes 신어 보다, and 해 보다 is used for 하다 verbs. 보세요 is a polite suggestion; 봐도 돼요? asks permission to try.",
+      "examples": [
+        {
+          "ko": "이 셔츠 입어 봐도 돼요?",
+          "romanization": "i syeocheu ibeo bwado dwaeyo?",
+          "en": "May I try on this shirt?",
+          "note": "The most useful fitting-room question."
+        },
+        {
+          "ko": "이 운동화도 신어 봐도 돼요?",
+          "romanization": "i undonghwado sineo bwado dwaeyo?",
+          "en": "May I try on these sneakers too?",
+          "note": "Use 신다 for shoes."
+        },
+        {
+          "ko": "한 치수 작은 것도 입어 보세요.",
+          "romanization": "han chisu jageun geotdo ibeo boseyo.",
+          "en": "Try on one size smaller too.",
+          "note": "A natural staff suggestion."
+        },
+        {
+          "ko": "코트는 꼭 입어 보고 사세요.",
+          "romanization": "koteuneun kkok ibeo bogo saseyo.",
+          "en": "Make sure you try on a coat before buying it.",
+          "note": "Trying before deciding."
+        }
+      ],
+      "exceptions": [
+        "입어 보다 is for trying on clothes. 신어 보다 is for shoes. Do not use 입다 for shoes."
+      ]
+    },
+    {
+      "id": "gn-pattern-082",
+      "title": "V아/어 주시겠어요? — could you please do it for me?",
+      "mentalModel": "Use this for a polite store request when the staff member has to do something for you.",
+      "formation": "Make the 아/어 form, add 주시겠어요? 보여 주시겠어요? asks someone to show you something. 교환해 주시겠어요? asks them to exchange it for you. It is softer than a direct 주세요.",
+      "examples": [
+        {
+          "ko": "한 치수 작은 것도 보여 주시겠어요?",
+          "romanization": "han chisu jageun geotdo boyeo jusigesseoyo?",
+          "en": "Could you show me one size smaller too?",
+          "note": "Polite and practical with staff."
+        },
+        {
+          "ko": "다른 색깔도 보여 주시겠어요?",
+          "romanization": "dareun saekkkaldo boyeo jusigesseoyo?",
+          "en": "Could you show me another color too?",
+          "note": "A color request in a store."
+        },
+        {
+          "ko": "이걸로 교환해 주시겠어요?",
+          "romanization": "igeollo gyohwanhae jusigesseoyo?",
+          "en": "Could you exchange it for this one?",
+          "note": "교환하다 becomes 교환해 주시겠어요."
+        },
+        {
+          "ko": "영수증도 같이 넣어 주시겠어요?",
+          "romanization": "yeongsujeungdo gachi neoeo jusigesseoyo?",
+          "en": "Could you put the receipt in too?",
+          "note": "Useful at checkout."
+        }
+      ],
+      "exceptions": [
+        "주세요 is fine for simple buying. 주시겠어요? is better when you are asking for effort, checking stock, or making a favor-like request."
+      ]
+    },
+    {
+      "id": "gn-pattern-132",
+      "title": "A/V-아/어 보이다 — it looks / appears",
+      "mentalModel": "Use this when you judge how clothing appears, not whether the size technically fits.",
+      "formation": "Attach -아/어 보이다 to a descriptive stem. 크다 becomes 커 보여요, 작다 becomes 작아 보여요, 단정하다 becomes 단정해 보여요, and 비싸다 becomes 비싸 보여요.",
+      "examples": [
+        {
+          "ko": "조금 커 보여요.",
+          "romanization": "jogeum keo boyeoyo.",
+          "en": "It looks a little big.",
+          "note": "Appearance judgment before asking another size."
+        },
+        {
+          "ko": "남색 셔츠가 더 단정해 보여요.",
+          "romanization": "namsaek syeocheuga deo danjeonghae boyeoyo.",
+          "en": "The navy shirt looks neater.",
+          "note": "Good for interview clothing."
+        },
+        {
+          "ko": "이 코트는 비싸 보여요.",
+          "romanization": "i koteuneun bissa boyeoyo.",
+          "en": "This coat looks expensive.",
+          "note": "Looks expensive, not necessarily is expensive."
+        },
+        {
+          "ko": "그 색깔은 얼굴이 밝아 보여요.",
+          "romanization": "geu saekkkareun eolguri balga boyeoyo.",
+          "en": "That color makes your face look bright.",
+          "note": "A natural appearance comment."
+        }
+      ],
+      "exceptions": [
+        "커 보여요 means it looks big. 사이즈가 커요 says the size is big. 사이즈가 맞아요 says it fits."
+      ]
+    },
+    {
+      "id": "gn-pattern-075",
+      "title": "A-ㄴ/은 N — adjective before a clothing noun",
+      "mentalModel": "Use this compact form when comparing clothes by fit, color, style, or occasion.",
+      "formation": "For many adjective stems, add -ㄴ after a vowel and -은 after a consonant: 단정하다 -> 단정한, 작다 -> 작은, 크다 -> 큰. Irregulars appear often in clothing, such as 가볍다 -> 가벼운.",
+      "examples": [
+        {
+          "ko": "단정한 셔츠",
+          "romanization": "danjeonghan syeocheu",
+          "en": "a neat shirt",
+          "note": "Good for interviews and work."
+        },
+        {
+          "ko": "한 치수 작은 거",
+          "romanization": "han chisu jageun geo",
+          "en": "one size smaller",
+          "note": "A practical store phrase."
+        },
+        {
+          "ko": "편한 운동화",
+          "romanization": "pyeonhan undonghwa",
+          "en": "comfortable sneakers",
+          "note": "Use 신다 with 운동화."
+        },
+        {
+          "ko": "가벼운 코트",
+          "romanization": "gabyeoun koteu",
+          "en": "a light coat",
+          "note": "ㅂ-irregular adjective modifier."
+        }
+      ]
+    },
+    {
+      "id": "gn-pattern-078",
+      "title": "N보다 더 A — more A than N",
+      "mentalModel": "Use this when choosing between two clothes, colors, or sizes.",
+      "formation": "Attach 보다 to the comparison baseline, then use 더 plus an adjective. 이 셔츠보다 남색 셔츠가 더 단정해 보여요 means the navy shirt is the one that looks neater.",
+      "examples": [
+        {
+          "ko": "이 셔츠보다 남색 셔츠가 더 단정해 보여요.",
+          "romanization": "i syeocheuboda namsaek syeocheuga deo danjeonghae boyeoyo.",
+          "en": "The navy shirt looks neater than this shirt.",
+          "note": "The baseline is 이 셔츠."
+        },
+        {
+          "ko": "운동화보다 구두가 더 단정해 보여요.",
+          "romanization": "undonghwaboda guduga deo danjeonghae boyeoyo.",
+          "en": "Dress shoes look more presentable than sneakers.",
+          "note": "Useful for interview outfit advice."
+        },
+        {
+          "ko": "이 색깔보다 남색이 더 잘 어울려요.",
+          "romanization": "i saekkkalboda namsaegi deo jal eoullyeoyo.",
+          "en": "Navy suits you better than this color.",
+          "note": "어울리다 is style harmony, not size fit."
+        },
+        {
+          "ko": "이 사이즈보다 한 치수 작은 게 더 맞아요.",
+          "romanization": "i saijeuboda han chisu jageun ge deo majayo.",
+          "en": "One size smaller fits better than this size.",
+          "note": "맞다 handles fit."
+        }
+      ],
+      "exceptions": [
+        "보다 attaches to the thing you compare against. Do not attach it to the item you are recommending."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "옷",
+      "romanization": "ot",
+      "english": "clothes",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 옷이 잘 어울려요.",
+        "en": "This outfit suits you well.",
+        "note": "Linked to dictionary card word-ext-067."
+      },
+      "collocations": [
+        "옷을 입다",
+        "옷이 잘 어울리다",
+        "옷을 교환하다"
+      ]
+    },
+    {
+      "hangul": "셔츠",
+      "romanization": "syeocheu",
+      "english": "shirt",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 셔츠 입어 봐도 돼요?",
+        "en": "May I try on this shirt?",
+        "note": "Linked to dictionary card word-ext-229."
+      },
+      "collocations": [
+        "셔츠를 입다",
+        "단정한 셔츠",
+        "남색 셔츠"
+      ]
+    },
+    {
+      "hangul": "티셔츠",
+      "romanization": "tisyeocheu",
+      "english": "T-shirt",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "여름에는 티셔츠를 자주 입어요.",
+        "en": "I often wear T-shirts in summer.",
+        "note": "Linked to dictionary card word-ext-1887."
+      },
+      "collocations": [
+        "티셔츠를 입다",
+        "흰 티셔츠",
+        "반팔 티셔츠"
+      ]
+    },
+    {
+      "hangul": "바지",
+      "romanization": "baji",
+      "english": "pants",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "바지가 조금 커 보여요.",
+        "en": "The pants look a little big.",
+        "note": "Linked to dictionary card word-ext-230."
+      },
+      "collocations": [
+        "바지를 입다",
+        "바지가 맞다",
+        "바지가 길다"
+      ]
+    },
+    {
+      "hangul": "치마",
+      "romanization": "chima",
+      "english": "skirt",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 구두가 치마하고 잘 어울려요.",
+        "en": "These dress shoes go well with the skirt.",
+        "note": "Linked to dictionary card word-ext-231."
+      },
+      "collocations": [
+        "치마를 입다",
+        "치마하고 어울리다",
+        "단정한 치마"
+      ]
+    },
+    {
+      "hangul": "원피스",
+      "romanization": "wonpiseu",
+      "english": "dress",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 원피스는 면접에는 조금 화려해 보여요.",
+        "en": "This dress looks a little flashy for an interview.",
+        "note": "Linked to dictionary card word-ext-1889."
+      },
+      "collocations": [
+        "원피스를 입다",
+        "원피스가 어울리다",
+        "원피스가 화려하다"
+      ]
+    },
+    {
+      "hangul": "코트",
+      "romanization": "koteu",
+      "english": "coat",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 코트는 비싸 보여요.",
+        "en": "This coat looks expensive.",
+        "note": "Linked to dictionary card word-ext-232."
+      },
+      "collocations": [
+        "코트를 입다",
+        "가벼운 코트",
+        "두꺼운 코트"
+      ]
+    },
+    {
+      "hangul": "운동화",
+      "romanization": "undonghwa",
+      "english": "sneakers",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "이 운동화도 신어 봐도 돼요?",
+        "en": "May I try on these sneakers too?",
+        "note": "Linked to dictionary card word-ext-239."
+      },
+      "collocations": [
+        "운동화를 신다",
+        "편한 운동화",
+        "운동화가 맞다"
+      ]
+    },
+    {
+      "hangul": "구두",
+      "romanization": "gudu",
+      "english": "dress shoes",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "면접에는 운동화보다 구두가 더 단정해 보여요.",
+        "en": "For an interview, dress shoes look more presentable than sneakers.",
+        "note": "Linked to dictionary card word-ext-240."
+      },
+      "collocations": [
+        "구두를 신다",
+        "검은 구두",
+        "구두가 불편하다"
+      ]
+    },
+    {
+      "hangul": "색깔",
+      "romanization": "saekkkal",
+      "english": "color",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "다른 색깔도 보여 주시겠어요?",
+        "en": "Could you show me another color too?",
+        "note": "Linked to dictionary card word-ext-1638."
+      },
+      "collocations": [
+        "다른 색깔",
+        "색깔이 예쁘다",
+        "색깔이 잘 어울리다"
+      ]
+    },
+    {
+      "hangul": "남색",
+      "romanization": "namsaek",
+      "english": "navy; deep blue",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "면접에는 남색 셔츠가 단정해 보여요.",
+        "en": "For an interview, a navy shirt looks neat and presentable.",
+        "note": "Linked to dictionary card word-ext-1019."
+      },
+      "collocations": [
+        "남색 셔츠",
+        "남색 정장",
+        "남색이 잘 어울리다"
+      ]
+    },
+    {
+      "hangul": "사이즈",
+      "romanization": "saijeu",
+      "english": "size",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "사이즈가 조금 커서 한 치수 작은 것도 보여 주시겠어요?",
+        "en": "The size is a little big, so could you show me one size smaller too?",
+        "note": "Linked to chapter card word-ext-ch51-saijeu."
+      },
+      "collocations": [
+        "사이즈가 맞다",
+        "사이즈가 크다",
+        "다른 사이즈"
+      ]
+    },
+    {
+      "hangul": "치수",
+      "romanization": "chisu",
+      "english": "size; measurement",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "한 치수 작은 것도 입어 봐도 돼요?",
+        "en": "May I try on one size smaller too?",
+        "note": "Linked to chapter card word-ext-ch51-chisu."
+      },
+      "collocations": [
+        "한 치수 큰 거",
+        "한 치수 작은 거",
+        "치수가 맞다"
+      ]
+    },
+    {
+      "hangul": "피팅룸",
+      "romanization": "pitingrum",
+      "english": "fitting room",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "피팅룸은 오른쪽에 있어요.",
+        "en": "The fitting room is on the right.",
+        "note": "Linked to chapter card word-ext-ch51-pitingrum."
+      },
+      "collocations": [
+        "피팅룸이 어디예요?",
+        "피팅룸에 들어가다",
+        "피팅룸은 오른쪽"
+      ]
+    },
+    {
+      "hangul": "단정하다",
+      "romanization": "danjeonghada",
+      "english": "to be neat; presentable",
+      "partOfSpeech": "adjective",
+      "exampleSentence": {
+        "ko": "남색 셔츠가 더 단정해 보여요.",
+        "en": "The navy shirt looks neater.",
+        "note": "Linked to chapter card word-ext-ch51-danjeonghada."
+      },
+      "collocations": [
+        "단정한 셔츠",
+        "단정해 보이다",
+        "단정한 옷차림"
+      ]
+    },
+    {
+      "hangul": "어울리다",
+      "romanization": "eoullida",
+      "english": "to suit; to look good on",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "이 옷이 잘 어울려요.",
+        "en": "This outfit suits you well.",
+        "note": "Linked to dictionary card word-verb-304."
+      },
+      "collocations": [
+        "잘 어울려요",
+        "색깔이 어울리다",
+        "옷이 어울리다"
+      ]
+    },
+    {
+      "hangul": "교환",
+      "romanization": "gyohwan",
+      "english": "exchange",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "교환도 돼요?",
+        "en": "Can I exchange it too?",
+        "note": "Linked to dictionary card word-ext-1971 and expression expr-765."
+      },
+      "collocations": [
+        "교환이 되다",
+        "교환해 주세요",
+        "교환 기간"
+      ]
+    },
+    {
+      "hangul": "환불",
+      "romanization": "hwanbul",
+      "english": "refund",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "환불도 돼요?",
+        "en": "Can I get a refund too?",
+        "note": "Linked to dictionary card word-ext-143 and expression expr-764."
+      },
+      "collocations": [
+        "환불이 되다",
+        "환불해 주세요",
+        "환불 규정"
+      ]
+    },
+    {
+      "hangul": "면접",
+      "romanization": "myeonjeop",
+      "english": "job interview",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "면접에는 단정한 셔츠가 좋아요.",
+        "en": "For an interview, a neat shirt is good.",
+        "note": "Linked to dictionary card word-ext-1627."
+      },
+      "collocations": [
+        "면접에 입다",
+        "면접 옷",
+        "면접에는 단정하게"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A shopper tries on a shirt, asks for another size, and chooses an interview outfit.",
+    "lines": [
+      {
+        "speaker": "손님",
+        "ko": "이 셔츠 입어 봐도 돼요?",
+        "romanization": "i syeocheu ibeo bwado dwaeyo?",
+        "en": "May I try on this shirt?",
+        "grammarNote": "-아/어 봐도 돼요 asks permission to try an action."
+      },
+      {
+        "speaker": "직원",
+        "ko": "네, 피팅룸은 오른쪽에 있어요.",
+        "romanization": "ne, pitingrumeun oreunjjoge isseoyo.",
+        "en": "Yes, the fitting room is on the right.",
+        "grammarNote": "피팅룸 is the store-location word connected to trying on."
+      },
+      {
+        "speaker": "손님",
+        "ko": "조금 커 보여요. 한 치수 작은 것도 보여 주시겠어요?",
+        "romanization": "jogeum keo boyeoyo. han chisu jageun geotdo boyeo jusigesseoyo?",
+        "en": "It looks a little big. Could you show me one size smaller too?",
+        "grammarNote": "커 보여요 is appearance; 한 치수 작은 거 is the size request."
+      },
+      {
+        "speaker": "직원",
+        "ko": "네. 면접에는 이 셔츠보다 남색 셔츠가 더 단정해 보여요.",
+        "romanization": "ne. myeonjeobeneun i syeocheuboda namsaek syeocheuga deo danjeonghae boyeoyo.",
+        "en": "Sure. For an interview, the navy shirt looks neater than this shirt.",
+        "grammarNote": "이 셔츠보다 gives the comparison baseline, and 더 단정해 보여요 describes the appearance."
+      },
+      {
+        "speaker": "손님",
+        "ko": "그럼 이걸로 할게요. 교환이나 환불도 돼요?",
+        "romanization": "geureom igeollo halgeyo. gyohwanina hwanbuldo dwaeyo?",
+        "en": "Then I'll take this one. Can I exchange or refund it too?",
+        "grammarNote": "교환/환불이 되다 asks about store policy."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "한 치수 작은 것도 보여 주시겠어요?",
+    "body": "민서는 면접에 입을 셔츠를 사러 갔어요. 먼저 직원에게 '이 셔츠 입어 봐도 돼요?'라고 물었어요. 피팅룸에서 입어 보니 사이즈가 조금 커 보였어요. 그래서 한 치수 작은 것도 보여 달라고 했어요. 직원은 면접에는 이 셔츠보다 남색 셔츠가 더 단정해 보인다고 말했어요. 민서는 그 셔츠가 잘 어울리고 사이즈도 맞아서 샀어요. 마지막으로 교환이나 환불이 되는지도 확인했어요.",
+    "bodyTranslation": "Minseo went to buy a shirt for an interview. First, Minseo asked a staff member if trying on the shirt was allowed. After trying it on in the fitting room, the size looked a little big, so Minseo asked to see one size smaller. The staff member said a navy shirt looked neater for an interview. It suited Minseo and the size fit, so Minseo bought it. Finally, Minseo checked whether exchange or refund was possible.",
+    "comprehensionQuestions": [
+      {
+        "question": "민서는 무엇을 사러 갔어요?",
+        "answer": "면접에 입을 셔츠를 사러 갔어요."
+      },
+      {
+        "question": "셔츠는 어떻게 보였어요?",
+        "answer": "사이즈가 조금 커 보였어요."
+      },
+      {
+        "question": "마지막으로 무엇을 확인했어요?",
+        "answer": "교환이나 환불이 되는지 확인했어요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Fit, style, and policy are separate questions",
+    "body": "In a Korean clothing store, keep three questions separate. First, size: 사이즈가 맞아요? 한 치수 작은 거 있어요? Second, style: 잘 어울려요? 단정해 보여요? Third, policy: 교환돼요? 환불돼요? Learners often mix these because English can say 'it works' for all three, but Korean uses different verbs.",
+    "tip": "For clothes, 입다 is for clothing and 신다 is for shoes. For compliments, the clothing or color is the subject: 이 옷이 잘 어울려요, not 이 옷을 잘 어울려요."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence asks permission to try on a shirt?",
+      "options": [
+        "이 셔츠 입어 봐도 돼요?",
+        "이 셔츠 신어 봐도 돼요?",
+        "이 셔츠 입어 보세요?"
+      ],
+      "correct": "이 셔츠 입어 봐도 돼요?",
+      "explanation": "입다 is for clothing, and -아/어 봐도 돼요? asks permission."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence asks for one size smaller politely?",
+      "options": [
+        "한 치수 작은 것도 보여 주시겠어요?",
+        "한 치수 작은 것도 먹어 보세요?",
+        "한 치수 작은 것도 잘 어울려요?"
+      ],
+      "correct": "한 치수 작은 것도 보여 주시겠어요?",
+      "explanation": "보여 주시겠어요? is a polite request to staff."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence is about style, not size?",
+      "options": [
+        "이 옷이 잘 어울려요.",
+        "사이즈가 맞아요.",
+        "한 치수 커요."
+      ],
+      "correct": "이 옷이 잘 어울려요.",
+      "explanation": "어울리다 describes whether something suits someone. 맞다 is about fit."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Complete: 면접에는 남색 셔츠가 더 단정해 ___.",
+      "answer": "보여요",
+      "explanation": "-아/어 보이다 describes how it appears."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Core flow: try on clothing, ask for another size, compare appearance, then check exchange/refund.",
+      "Use 입다 for clothes and 신다 for shoes.",
+      "맞다 is size fit, 어울리다 is style harmony, and 단정해 보이다 is presentable appearance.",
+      "Use 보여 주시겠어요? for polite staff requests and N보다 더 A for comparing options."
+    ],
+    "nextChapterTeaser": "Chapter 52 moves from clothing choices into expressing personality and impressions."
+  }
+}

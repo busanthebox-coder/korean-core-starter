@@ -18,7 +18,59 @@
   }
   function isCorrect(i) {
     const ex = chapter.inlineExercises[i];
-    return (answers[i] || '').trim().toLowerCase() === (ex.correct || '').trim().toLowerCase();
+    const submitted = normalizeAnswer(answers[i]);
+    if ((ex.options || []).length) {
+      return normalizeAnswer(correctAnswer(ex)) === submitted;
+    }
+    return correctAnswers(ex).some((answer) => normalizeAnswer(answer) === submitted);
+  }
+
+  function correctAnswer(ex) {
+    return String(ex?.correct || ex?.answer || '');
+  }
+
+  function correctAnswers(ex) {
+    const answer = correctAnswer(ex);
+    if (!answer.includes('/')) return [answer];
+    return answer.split('/').map((part) => part.trim()).filter(Boolean);
+  }
+
+  function normalizeAnswer(value) {
+    return String(value || '').trim().toLowerCase();
+  }
+
+  function isTextExercise(ex) {
+    return ex?.type === 'translate'
+      || ex?.type === 'errorCorrect'
+      || ex?.type === 'errorCorrection'
+      || ex?.type === 'correction'
+      || (ex?.type === 'fillBlank' && !(ex.options || []).length);
+  }
+
+  function textPlaceholder(ex) {
+    if (ex?.type === 'translate') return 'Type in Korean…';
+    if (ex?.type === 'fillBlank') return 'Type the answer…';
+    return 'Type the corrected sentence…';
+  }
+
+  function formationSteps(text = '') {
+    const normalized = String(text || '').replace(/\s+/g, ' ').trim();
+    if (!normalized) return [];
+    const protectedText = normalized
+      .replace(/e\.g\./g, '__EG__')
+      .replace(/i\.e\./g, '__IE__')
+      .replace(/Mr\./g, '__MR__')
+      .replace(/Ms\./g, '__MS__');
+    const restored = (part) => part
+      .replace(/__EG__/g, 'e.g.')
+      .replace(/__IE__/g, 'i.e.')
+      .replace(/__MR__/g, 'Mr.')
+      .replace(/__MS__/g, 'Ms.')
+      .trim();
+    return protectedText
+      .split(/(?<=[.!?])\s+(?=[A-Z가-힣'“"(-])/)
+      .map(restored)
+      .filter(Boolean);
   }
 
   $: hook = chapter.hook || null;
@@ -52,6 +104,7 @@
 
 <!-- ── GRAMMAR NOTES ─────────────────────────────────────── -->
 {#each grammarNotes as gn}
+  {@const steps = formationSteps(gn.formation)}
   <div class="rich-block">
     <div class="sec-head"><span class="dot g" />Grammar deep dive: <strong>{gn.title}</strong></div>
 
@@ -60,7 +113,23 @@
       <div><strong>Mental model:</strong> {gn.mentalModel}</div>
     </div>
 
-    <div class="formation-tag">Formation: <code>{gn.formation}</code></div>
+    <div class="formation-card">
+      <div class="formation-label">
+        <span class="formation-kicker">Build</span>
+        <strong>Formation</strong>
+      </div>
+      <div class="formation-body">
+        {#if steps.length > 1}
+          <ol class="formation-steps">
+            {#each steps as step}
+              <li>{step}</li>
+            {/each}
+          </ol>
+        {:else}
+          <p>{gn.formation}</p>
+        {/if}
+      </div>
+    </div>
 
     <div class="examples-grid">
       {#each gn.examples as ex}
@@ -74,7 +143,7 @@
     </div>
 
     {#if gn.contrastPairs?.length}
-      <div class="contrast-head">에 vs 에서 — side by side</div>
+      <div class="contrast-head">{gn.contrastTitle || 'Side-by-side contrast'}</div>
       <div class="contrast-grid">
         {#each gn.contrastPairs as pair}
           <div class="contrast-pair">
@@ -151,14 +220,22 @@
 
 <!-- ── EXTENDED DIALOGUE ─────────────────────────────────── -->
 {#if dialogue}
-  <div class="rich-block">
-    <div class="sec-head"><span class="dot" />Extended dialogue</div>
-    <div class="dl-setting">📍 {dialogue.setting}</div>
+  <div class="rich-block dialogue-block">
+    <div class="chat-titlebar">
+      <div class="chat-room">
+        <span class="chat-avatar">한</span>
+        <div>
+          <div class="chat-name">Chapter chat</div>
+          <div class="chat-subtitle">{dialogue.setting}</div>
+        </div>
+      </div>
+      <span class="chat-status">Practice</span>
+    </div>
     <div class="dl-chat">
       {#each dialogue.lines as line}
         <div class="dl-line" class:right={line.speaker !== dialogue.lines[0].speaker}>
+          <div class="dl-spk">{line.speaker}</div>
           <div class="dl-bubble">
-            <div class="dl-spk">{line.speaker}</div>
             <div class="dl-ko">{line.ko} <AudioButton text={line.ko} size={20} /></div>
             <RomanizationLine text={line.romanization} />
             <div class="dl-en">{line.en}</div>
@@ -215,26 +292,26 @@
           <div class="ex-body">
             <div class="ex-prompt">{ex.prompt}</div>
 
-            {#if ex.type === 'fillBlank' || ex.type === 'multipleChoice'}
+            {#if (ex.type === 'fillBlank' && (ex.options || []).length) || ex.type === 'multipleChoice'}
               <div class="ex-options">
                 {#each (ex.options || []) as opt}
                   <button
                     class="ex-opt"
                     class:picked={answers[i] === opt}
-                    class:opt-correct={revealed[i] && opt === ex.correct}
-                    class:opt-wrong={revealed[i] && answers[i] === opt && opt !== ex.correct}
+                    class:opt-correct={revealed[i] && opt === correctAnswer(ex)}
+                    class:opt-wrong={revealed[i] && answers[i] === opt && opt !== correctAnswer(ex)}
                     disabled={revealed[i]}
                     on:click={() => pick(i, opt)}
                   >{opt}</button>
                 {/each}
               </div>
 
-            {:else if ex.type === 'translate' || ex.type === 'errorCorrect'}
+            {:else if isTextExercise(ex)}
               {#if !revealed[i]}
                 <input
                   class="ex-input"
                   type="text"
-                  placeholder={ex.type === 'translate' ? 'Type in Korean…' : 'Type the corrected sentence…'}
+                  placeholder={textPlaceholder(ex)}
                   bind:value={answers[i]}
                   on:keydown={(e) => e.key === 'Enter' && check(i)}
                 />
@@ -248,7 +325,7 @@
               <button class="ex-check" disabled={!answers[i]} on:click={() => check(i)}>Check</button>
             {:else}
               <div class="ex-verdict" class:ok={isCorrect(i)}>
-                {#if isCorrect(i)}✓ Correct!{:else}✗ The answer is: <strong>{ex.correct}</strong>{/if}
+                {#if isCorrect(i)}✓ Correct!{:else}✗ The answer is: <strong>{correctAnswer(ex)}</strong>{/if}
               </div>
               <div class="ex-explanation">{ex.explanation}</div>
             {/if}
@@ -301,8 +378,71 @@
   .mm-icon { font-size: 20px; flex: none; }
   .mental-model div { font-size: 14px; line-height: 1.6; color: var(--ink); }
 
-  .formation-tag { font-size: 13px; color: var(--ink-2); }
-  .formation-tag code { background: var(--surface-2); padding: 2px 8px; border-radius: 6px; font-size: 13px; font-weight: 800; }
+  .formation-card {
+    display: grid;
+    grid-template-columns: minmax(96px, 128px) 1fr;
+    gap: 14px;
+    align-items: start;
+    padding: 14px;
+    border: 1px solid #d7c7e7;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #fff, #faf7ff);
+  }
+  .formation-label {
+    display: grid;
+    gap: 4px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: #f2e8fb;
+    color: #5c2f7e;
+  }
+  .formation-kicker {
+    font-size: 10px;
+    font-weight: 850;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #7d55a0;
+  }
+  .formation-label strong { font-size: 14px; line-height: 1.2; }
+  .formation-body {
+    min-width: 0;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.68;
+  }
+  .formation-body p { margin: 0; overflow-wrap: anywhere; }
+  .formation-steps {
+    margin: 0;
+    padding: 0;
+    counter-reset: formation;
+    display: grid;
+    gap: 8px;
+    list-style: none;
+  }
+  .formation-steps li {
+    position: relative;
+    padding: 9px 12px 9px 42px;
+    border-radius: 10px;
+    background: rgba(255,255,255,.82);
+    border: 1px solid #eee7f5;
+    overflow-wrap: anywhere;
+  }
+  .formation-steps li::before {
+    counter-increment: formation;
+    content: counter(formation);
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    display: grid;
+    place-items: center;
+    background: #7d55a0;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 850;
+  }
 
   /* EXAMPLES */
   .examples-grid { display: grid; gap: 10px; }
@@ -352,17 +492,137 @@
   .vc-collocations { font-size: 11px; color: var(--ink-3); margin-top: 2px; }
 
   /* DIALOGUE */
-  .dl-setting { font-size: 13px; color: var(--ink-3); padding: 8px 12px; border-radius: 8px; background: var(--surface-2); }
-  .dl-chat { display: grid; gap: 14px; }
-  .dl-line { display: grid; gap: 4px; }
-  .dl-line.right .dl-bubble { margin-left: auto; border-left: none; border-right: 4px solid var(--green); text-align: right; }
-  .dl-line.right .dl-note { text-align: right; }
-  .dl-bubble { max-width: 80%; padding: 12px 14px; border-radius: 14px; background: var(--surface-2); border-left: 4px solid var(--border); display: grid; gap: 2px; }
-  .dl-spk { font-size: 11px; font-weight: 850; text-transform: uppercase; letter-spacing: .05em; color: var(--green-dark); }
-  .dl-ko { font-size: 17px; font-weight: 730; display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+  .dialogue-block {
+    gap: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #b9cfde;
+    border-color: #97b3c7;
+  }
+  .chat-titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 13px 16px;
+    background: #f7df4d;
+    border-bottom: 1px solid rgba(120, 104, 0, .18);
+    color: #241f0a;
+  }
+  .chat-room {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .chat-avatar {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: #2f2b12;
+    color: #f7df4d;
+    font-family: var(--serif-ko);
+    font-size: 16px;
+    font-weight: 850;
+  }
+  .chat-name {
+    font-size: 14px;
+    font-weight: 850;
+    line-height: 1.2;
+  }
+  .chat-subtitle {
+    max-width: 72ch;
+    margin-top: 2px;
+    color: rgba(36,31,10,.72);
+    font-size: 12px;
+    line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .chat-status {
+    flex: none;
+    padding: 4px 9px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.55);
+    color: rgba(36,31,10,.72);
+    font-size: 11px;
+    font-weight: 850;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+  .dl-chat {
+    display: grid;
+    gap: 12px;
+    padding: 18px;
+    background:
+      linear-gradient(rgba(255,255,255,.16) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.12) 1px, transparent 1px),
+      #b9cfde;
+    background-size: 28px 28px;
+  }
+  .dl-line {
+    display: grid;
+    justify-items: start;
+    gap: 5px;
+  }
+  .dl-line.right {
+    justify-items: end;
+  }
+  .dl-line.right .dl-bubble {
+    background: #fee95d;
+    border-color: #efcf2f;
+    border-top-right-radius: 6px;
+  }
+  .dl-line.right .dl-note,
+  .dl-line.right .dl-spk {
+    text-align: right;
+  }
+  .dl-bubble {
+    position: relative;
+    max-width: min(78%, 620px);
+    padding: 11px 13px 12px;
+    border-radius: 15px;
+    border-top-left-radius: 6px;
+    background: #fff;
+    border: 1px solid rgba(70, 91, 105, .12);
+    box-shadow: 0 2px 8px rgba(37, 56, 68, .08);
+    display: grid;
+    gap: 3px;
+  }
+  .dl-spk {
+    max-width: min(78%, 620px);
+    padding: 0 4px;
+    font-size: 11px;
+    font-weight: 850;
+    color: rgba(28,45,57,.72);
+  }
+  .dl-ko {
+    font-size: 17px;
+    line-height: 1.45;
+    font-weight: 760;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+    color: #181818;
+  }
   .dl-line.right .dl-ko { justify-content: flex-end; }
-  .dl-en { color: var(--ink-2); font-size: 14px; }
-  .dl-note { font-size: 12px; color: var(--ink-3); padding: 4px 10px; }
+  .dl-en {
+    color: rgba(24,24,24,.68);
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .dl-note {
+    max-width: min(78%, 620px);
+    color: rgba(28,45,57,.76);
+    font-size: 12px;
+    line-height: 1.45;
+    padding: 0 4px 2px;
+  }
 
   /* READING */
   .reading-body { display: grid; gap: 8px; }
@@ -409,4 +669,15 @@
   .summary-bullets { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
   .summary-bullets li { font-size: 14px; line-height: 1.6; }
   .next-teaser { font-size: 13px; color: var(--ink-3); padding: 10px 12px; border-radius: 8px; background: var(--surface); margin-top: 4px; }
+
+  @media (max-width: 640px) {
+    .formation-card { grid-template-columns: 1fr; }
+    .formation-label { grid-template-columns: auto 1fr; align-items: baseline; }
+    .chat-titlebar { align-items: flex-start; }
+    .chat-subtitle { white-space: normal; }
+    .dl-chat { padding: 14px; }
+    .dl-bubble,
+    .dl-spk,
+    .dl-note { max-width: 92%; }
+  }
 </style>

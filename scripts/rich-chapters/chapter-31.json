@@ -1,0 +1,601 @@
+{
+  "id": "chapter-31",
+  "hook": {
+    "situation": "You explain why you came to Korea, what goal you are working toward, and how long the plan will last.",
+    "objectives": [
+      "Use V-기 위해서 and N을/를 위해서 for deliberate goals.",
+      "Use N 동안 for a time span like 세 달 동안 or 방학 동안.",
+      "Use V-는 동안 when one action or situation continues while something else happens."
+    ],
+    "whyItMatters": "Learners often translate English 'for' in two different ways: for a purpose and for a duration. Korean keeps those separate. 취업을 위해서 means 'for the purpose of employment', while 세 달 동안 means 'for three months'. Mixing them makes the sentence hard to understand."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-048",
+      "title": "V-기 위해서 / N을 위해서 - in order to, for the sake of",
+      "mentalModel": "위해서 names the goal you are deliberately working toward.",
+      "formation": "For a verb goal, attach -기 위해서 to the verb stem: 배우다 becomes 배우기 위해서, 합격하다 becomes 합격하기 위해서, 모으다 becomes 모으기 위해서. For a noun goal, use N을/를 위해서: 취업을 위해서, 건강을 위해서, 가족을 위해서. The goal normally belongs to the same person who does the main action.",
+      "examples": [
+        {
+          "ko": "한국어를 배우기 위해서 한국에 왔어요.",
+          "romanization": "hangugeoreul baeugi wihaeseo hanguge wasseoyo.",
+          "en": "I came to Korea in order to learn Korean.",
+          "note": "배우다 becomes 배우기 before 위해서."
+        },
+        {
+          "ko": "취업을 위해서 매일 한국어를 연습해요.",
+          "romanization": "chwieobeul wihaeseo maeil hangugeoreul yeonseupaeyo.",
+          "en": "I practice Korean every day in order to get a job.",
+          "note": "취업 is a noun, so it takes 을 before 위해서."
+        },
+        {
+          "ko": "시험에 합격하기 위해서 열심히 공부해요.",
+          "romanization": "siheome hapgyeokagi wihaeseo yeolsimhi gongbuhaeyo.",
+          "en": "I study hard in order to pass the exam.",
+          "note": "합격하다 becomes 합격하기."
+        },
+        {
+          "ko": "건강을 위해서 운동해요.",
+          "romanization": "geongangeul wihaeseo undonghaeyo.",
+          "en": "I exercise for my health.",
+          "note": "A noun purpose with 을/를 위해서."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "한국어를 배우러 한국에 왔어요.",
+            "en": "I came to Korea to learn Korean."
+          },
+          "b": {
+            "ko": "한국어를 배우기 위해서 한국에 왔어요.",
+            "en": "I came to Korea in order to learn Korean."
+          },
+          "explanation": "-러 is a simple movement purpose with verbs like 가다 and 오다. -기 위해서 sounds more deliberate and can be used with many actions."
+        },
+        {
+          "a": {
+            "ko": "한국어를 배우려고 왔어요.",
+            "en": "I came because I was planning to learn Korean."
+          },
+          "b": {
+            "ko": "한국어를 배우기 위해서 왔어요.",
+            "en": "I came in order to learn Korean."
+          },
+          "explanation": "-려고 is more conversational intention. -기 위해서 is a little more formal and goal-focused."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "공부하다 위해서 왔어요.",
+        "right": "공부하기 위해서 왔어요.",
+        "explanation": "Before 위해서, a verb must become a noun-like form with -기."
+      },
+      "exceptions": [
+        "In fast speech, Koreans sometimes drop 을/를 before 위해서, but learners should keep 취업을 위해서 and 건강을 위해서 first.",
+        "If the goal is for a different person to do something, use -도록 or -게 instead of forcing 위해서."
+      ]
+    },
+    {
+      "id": "gn-pattern-080",
+      "title": "N 동안 - during N, for N",
+      "mentalModel": "동안 stretches the action across a span of time.",
+      "formation": "Put a time span or period noun directly before 동안: 세 달 동안, 한 시간 동안, 방학 동안, 여행 기간 동안. Do not put 에 before 동안. 동안 answers 'for how long?' or 'during what period?'",
+      "examples": [
+        {
+          "ko": "세 달 동안 한국에 머물 거예요.",
+          "romanization": "se dal dongan hanguge meomul geoyeyo.",
+          "en": "I will stay in Korea for three months.",
+          "note": "A stay has a length, so 동안 is natural."
+        },
+        {
+          "ko": "방학 동안 여행할 거예요.",
+          "romanization": "banghak dongan yeohaenghal geoyeyo.",
+          "en": "I will travel during vacation.",
+          "note": "방학 is the period in which the travel happens."
+        },
+        {
+          "ko": "한 시간 동안 한국어를 연습했어요.",
+          "romanization": "han sigan dongan hangugeoreul yeonseupaesseoyo.",
+          "en": "I practiced Korean for one hour.",
+          "note": "한 시간 동안 is duration, not clock time."
+        },
+        {
+          "ko": "일 년 동안 취업 준비를 했어요.",
+          "romanization": "il nyeon dongan chwieop junbireul haesseoyo.",
+          "en": "I prepared for employment for one year.",
+          "note": "Long preparation periods fit 동안 well."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "세 시에 공부했어요.",
+            "en": "I studied at three."
+          },
+          "b": {
+            "ko": "세 시간 동안 공부했어요.",
+            "en": "I studied for three hours."
+          },
+          "explanation": "에 points to a time. 동안 gives the length of time."
+        },
+        {
+          "a": {
+            "ko": "세 시까지 기다렸어요.",
+            "en": "I waited until three."
+          },
+          "b": {
+            "ko": "세 시간 동안 기다렸어요.",
+            "en": "I waited for three hours."
+          },
+          "explanation": "까지 gives the endpoint. 동안 gives the duration."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "세 달에 동안 머물 거예요.",
+        "right": "세 달 동안 머물 거예요.",
+        "explanation": "No particle goes between the time span and 동안."
+      },
+      "exceptions": [
+        "동안 can attach to plain period nouns like 방학 and 기간, not only counted time.",
+        "For 'every day for three months', say 세 달 동안 매일."
+      ]
+    },
+    {
+      "id": "gn-pattern-095",
+      "title": "V-는 동안 - while, during the time that V happens",
+      "mentalModel": "V-는 동안 puts one event inside the time span of another ongoing situation.",
+      "formation": "Attach -는 동안 to a verb stem: 공부하다 becomes 공부하는 동안, 머물다 becomes 머무는 동안, 살다 becomes 사는 동안. 있다 becomes 있는 동안. The 동안 clause gives the time span, and the main clause says what happens inside that span.",
+      "examples": [
+        {
+          "ko": "한국에 머무는 동안 한국어를 많이 연습할 거예요.",
+          "romanization": "hanguge meomuneun dongan hangugeoreul mani yeonseupal geoyeyo.",
+          "en": "While I stay in Korea, I will practice Korean a lot.",
+          "note": "머무는 동안 is the whole stay period."
+        },
+        {
+          "ko": "한국에 있는 동안 여행도 하고 싶어요.",
+          "romanization": "hanguge inneun dongan yeohaengdo hago sipeoyo.",
+          "en": "While I am in Korea, I also want to travel.",
+          "note": "있는 동안 is very common for temporary stays."
+        },
+        {
+          "ko": "수업을 듣는 동안 휴대폰을 꺼요.",
+          "romanization": "sueobeul deutneun dongan hyudaeponeul kkeoyo.",
+          "en": "While I listen to class, I keep my phone off.",
+          "note": "The phone-off state overlaps with class time."
+        },
+        {
+          "ko": "제가 공부하는 동안 친구가 기다렸어요.",
+          "romanization": "jega gongbuhaneun dongan chinguga gidaryeosseoyo.",
+          "en": "My friend waited while I studied.",
+          "note": "동안 can handle two different subjects."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "a": {
+            "ko": "공부하면서 음악을 들어요.",
+            "en": "I listen to music while studying."
+          },
+          "b": {
+            "ko": "제가 공부하는 동안 친구가 기다려요.",
+            "en": "My friend waits while I study."
+          },
+          "explanation": "-(으)면서 usually has the same subject doing two actions. -는 동안 can frame a span even when subjects differ."
+        },
+        {
+          "a": {
+            "ko": "한국에 있을 때 연락해 주세요.",
+            "en": "Contact me when you are in Korea."
+          },
+          "b": {
+            "ko": "한국에 있는 동안 연락해 주세요.",
+            "en": "Keep in touch while you are in Korea."
+          },
+          "explanation": "때 can point to the occasion. 동안 stresses the whole period."
+        }
+      ],
+      "englishSpeakerPitfall": {
+        "wrong": "자는 동안에? / 자은 동안",
+        "right": "자는 동안",
+        "explanation": "Use the present modifier -는 before 동안. Do not use 은 with action verbs."
+      },
+      "exceptions": [
+        "If English 'while' means contrast, use -지만 or -는데, not 동안.",
+        "동안 can take 에 after it in some full sentences, but beginners should first master the clean frame V-는 동안."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "한국어",
+      "romanization": "hangugeo",
+      "english": "Korean language",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "한국어를 배우기 위해서 한국에 왔어요.",
+        "en": "I came to Korea in order to learn Korean.",
+        "note": "The language is the goal of the stay."
+      },
+      "collocations": [
+        "한국어를 배우다",
+        "한국어를 연습하다",
+        "한국어 공부"
+      ]
+    },
+    {
+      "hangul": "배우다",
+      "romanization": "baeuda",
+      "english": "to learn",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "한국어를 배우기 위해서 왔어요.",
+        "en": "I came in order to learn Korean.",
+        "note": "배우기 위해서 is the purpose frame."
+      },
+      "collocations": [
+        "한국어를 배우다",
+        "배우기 위해서",
+        "새로운 것을 배우다"
+      ]
+    },
+    {
+      "hangul": "공부하다",
+      "romanization": "gongbuhada",
+      "english": "to study",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "시험에 합격하기 위해서 공부해요.",
+        "en": "I study in order to pass the exam.",
+        "note": "A deliberate goal with 위해서."
+      },
+      "collocations": [
+        "한국어를 공부하다",
+        "열심히 공부하다",
+        "공부하는 동안"
+      ]
+    },
+    {
+      "hangul": "연습하다",
+      "romanization": "yeonseupada",
+      "english": "to practice",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "세 달 동안 매일 연습할 거예요.",
+        "en": "I will practice every day for three months.",
+        "note": "A repeated action over a duration."
+      },
+      "collocations": [
+        "매일 연습하다",
+        "한국어를 연습하다",
+        "연습하는 동안"
+      ]
+    },
+    {
+      "hangul": "취업",
+      "romanization": "chwieop",
+      "english": "employment; getting a job",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "취업을 위해서 한국어를 연습해요.",
+        "en": "I practice Korean in order to get a job.",
+        "note": "Noun plus 을 위해서."
+      },
+      "collocations": [
+        "취업을 위해서",
+        "취업 준비",
+        "취업에 성공하다"
+      ]
+    },
+    {
+      "hangul": "합격하다",
+      "romanization": "hapgyeokada",
+      "english": "to pass an exam",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "시험에 합격하기 위해서 준비해요.",
+        "en": "I prepare in order to pass the exam.",
+        "note": "합격하다 becomes 합격하기."
+      },
+      "collocations": [
+        "시험에 합격하다",
+        "합격하기 위해서",
+        "합격할 거예요"
+      ]
+    },
+    {
+      "hangul": "시험",
+      "romanization": "siheom",
+      "english": "exam",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "시험을 위해서 한 달 동안 준비했어요.",
+        "en": "I prepared for the exam for one month.",
+        "note": "A noun goal plus a duration."
+      },
+      "collocations": [
+        "시험을 보다",
+        "시험에 합격하다",
+        "시험 준비"
+      ]
+    },
+    {
+      "hangul": "준비하다",
+      "romanization": "junbihada",
+      "english": "to prepare",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "방학 동안 취업 준비를 할 거예요.",
+        "en": "I will prepare for employment during vacation.",
+        "note": "준비하다 links naturally to both purpose and duration."
+      },
+      "collocations": [
+        "시험을 준비하다",
+        "취업 준비를 하다",
+        "미리 준비하다"
+      ]
+    },
+    {
+      "hangul": "기간",
+      "romanization": "gigan",
+      "english": "period",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "준비 기간 동안 매일 공부했어요.",
+        "en": "I studied every day during the preparation period.",
+        "note": "기간 names the period; 동안 marks what happens through it."
+      },
+      "collocations": [
+        "준비 기간",
+        "여행 기간",
+        "기간 동안"
+      ]
+    },
+    {
+      "hangul": "동안",
+      "romanization": "dongan",
+      "english": "during; for a duration",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "세 달 동안 한국에 머물 거예요.",
+        "en": "I will stay in Korea for three months.",
+        "note": "동안 marks the time span."
+      },
+      "collocations": [
+        "세 달 동안",
+        "방학 동안",
+        "한국에 있는 동안"
+      ]
+    },
+    {
+      "hangul": "머물다",
+      "romanization": "meomulda",
+      "english": "to stay",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "한국에 머무는 동안 많이 연습할 거예요.",
+        "en": "While I stay in Korea, I will practice a lot.",
+        "note": "머무는 동안 uses the verb modifier form."
+      },
+      "collocations": [
+        "한국에 머물다",
+        "세 달 동안 머물다",
+        "머무는 동안"
+      ]
+    },
+    {
+      "hangul": "방학",
+      "romanization": "banghak",
+      "english": "school vacation",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "방학 동안 여행할 거예요.",
+        "en": "I will travel during vacation.",
+        "note": "A common period noun before 동안."
+      },
+      "collocations": [
+        "방학 동안",
+        "방학 계획",
+        "방학에 여행하다"
+      ]
+    },
+    {
+      "hangul": "여행",
+      "romanization": "yeohaeng",
+      "english": "travel; trip",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "한국에 있는 동안 여행도 하고 싶어요.",
+        "en": "While I am in Korea, I also want to travel.",
+        "note": "A natural extra plan during a stay."
+      },
+      "collocations": [
+        "여행을 하다",
+        "여행 기간",
+        "방학 동안 여행하다"
+      ]
+    },
+    {
+      "hangul": "건강",
+      "romanization": "geongang",
+      "english": "health",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "건강을 위해서 운동해요.",
+        "en": "I exercise for my health.",
+        "note": "Noun plus 을 위해서."
+      },
+      "collocations": [
+        "건강을 위해서",
+        "건강을 챙기다",
+        "건강이 중요하다"
+      ]
+    },
+    {
+      "hangul": "운동하다",
+      "romanization": "undonghada",
+      "english": "to exercise",
+      "partOfSpeech": "verb",
+      "exampleSentence": {
+        "ko": "건강을 위해서 일주일 동안 운동했어요.",
+        "en": "I exercised for one week for my health.",
+        "note": "Purpose and duration can appear in one sentence."
+      },
+      "collocations": [
+        "매일 운동하다",
+        "건강을 위해 운동하다",
+        "운동하는 동안"
+      ]
+    },
+    {
+      "hangul": "목적",
+      "romanization": "mokjeok",
+      "english": "purpose; goal",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "한국에 온 목적은 공부예요.",
+        "en": "The purpose of coming to Korea is study.",
+        "note": "Names the idea behind 위해서 sentences."
+      },
+      "collocations": [
+        "여행 목적",
+        "공부 목적",
+        "목적이 있다"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "A learner explains a Korea stay, study goal, and study period.",
+    "lines": [
+      {
+        "speaker": "민서",
+        "ko": "한국에는 왜 왔어요?",
+        "romanization": "hangugeneun wae wasseoyo?",
+        "en": "Why did you come to Korea?",
+        "grammarNote": "왜 opens a purpose explanation."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "한국어를 배우기 위해서 왔어요. 세 달 동안 머물 거예요.",
+        "romanization": "hangugeoreul baeugi wihaeseo wasseoyo. se dal dongan meomul geoyeyo.",
+        "en": "I came in order to learn Korean. I will stay for three months.",
+        "grammarNote": "-기 위해서 gives purpose; N 동안 gives duration."
+      },
+      {
+        "speaker": "민서",
+        "ko": "한국에 있는 동안 뭐 할 거예요?",
+        "romanization": "hanguge inneun dongan mwo hal geoyeyo?",
+        "en": "What will you do while you are in Korea?",
+        "grammarNote": "있는 동안 frames the stay as a time span."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "취업을 위해서 매일 한국어를 연습할 거예요.",
+        "romanization": "chwieobeul wihaeseo maeil hangugeoreul yeonseupal geoyeyo.",
+        "en": "I will practice Korean every day in order to get a job.",
+        "grammarNote": "취업 is a noun, so it takes 을 위해서."
+      },
+      {
+        "speaker": "민서",
+        "ko": "시험 준비도 해요?",
+        "romanization": "siheom junbido haeyo?",
+        "en": "Are you preparing for an exam too?",
+        "grammarNote": "시험 준비 is a natural study-goal phrase."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "네, 합격하기 위해서 방학 동안 계속 공부할 거예요.",
+        "romanization": "ne, hapgyeokagi wihaeseo banghak dongan gyesok gongbuhal geoyeyo.",
+        "en": "Yes, I will keep studying during vacation in order to pass.",
+        "grammarNote": "A verb goal and a duration period can appear together."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "A three-month study plan",
+    "body": "지훈은 한국어를 배우기 위해서 한국에 왔어요. 세 달 동안 서울에 머물 거예요. 한국에 있는 동안 매일 한국어를 연습하고, 주말에는 짧게 여행도 할 거예요. 지훈의 큰 목표는 취업이에요. 그래서 취업을 위해서 시험 준비도 하고 있어요. 방학 동안은 합격하기 위해서 더 오래 공부할 계획이에요.",
+    "bodyTranslation": "Jihoon came to Korea in order to learn Korean. He will stay in Seoul for three months. While he is in Korea, he will practice Korean every day and take short trips on weekends. His big goal is employment. So he is also preparing for an exam in order to get a job. During vacation, he plans to study longer in order to pass.",
+    "comprehensionQuestions": [
+      {
+        "question": "지훈은 왜 한국에 왔어요?",
+        "answer": "한국어를 배우기 위해서 왔어요."
+      },
+      {
+        "question": "지훈은 얼마 동안 한국에 머물 거예요?",
+        "answer": "세 달 동안 머물 거예요."
+      },
+      {
+        "question": "지훈은 방학 동안 왜 더 오래 공부할 거예요?",
+        "answer": "합격하기 위해서 더 오래 공부할 거예요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Goal language sounds deliberate",
+    "body": "-기 위해서 is clear and useful, but it can sound a little formal or earnest. It works well for interviews, plans, introductions, and serious goals. With close friends, -(으)려고 often sounds lighter.",
+    "tip": "Use 위해서 when the goal matters: 취업을 위해서, 건강을 위해서, 합격하기 위해서."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence gives a deliberate purpose?",
+      "options": [
+        "한국어를 배우기 위해서 왔어요.",
+        "한국어를 배우다 위해서 왔어요.",
+        "한국어를 배우는 동안 왔어요."
+      ],
+      "correct": "한국어를 배우기 위해서 왔어요.",
+      "explanation": "Use the -기 form before 위해서."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which phrase gives a duration?",
+      "options": [
+        "세 달 동안",
+        "세 달에 동안",
+        "세 달을 위해서"
+      ],
+      "correct": "세 달 동안",
+      "explanation": "동안 attaches directly to the time span."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence means 'while I am in Korea'?",
+      "options": [
+        "한국에 있는 동안",
+        "한국에 있기 위해서",
+        "한국에 있다 동안"
+      ],
+      "correct": "한국에 있는 동안",
+      "explanation": "있다 becomes 있는 before 동안."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Complete: 취업___ 위해서 한국어를 연습해요.",
+      "answer": "을",
+      "explanation": "취업 is a noun goal, so use 취업을 위해서."
+    },
+    {
+      "type": "correction",
+      "prompt": "Fix the sentence: 공부하다 위해서 한국에 왔어요.",
+      "answer": "공부하기 위해서 한국에 왔어요.",
+      "explanation": "A verb must become the -기 form before 위해서."
+    },
+    {
+      "type": "correction",
+      "prompt": "Fix the sentence: 방학에 동안 여행할 거예요.",
+      "answer": "방학 동안 여행할 거예요.",
+      "explanation": "Do not put 에 between the period noun and 동안."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Use V-기 위해서 for verb goals: 배우기 위해서, 합격하기 위해서.",
+      "Use N을/를 위해서 for noun goals: 취업을 위해서, 건강을 위해서.",
+      "Use N 동안 for duration: 세 달 동안, 방학 동안.",
+      "Use V-는 동안 for overlapping time: 한국에 있는 동안.",
+      "Do not confuse purpose 'for' with duration 'for'."
+    ],
+    "nextChapterTeaser": "Chapter 32 moves from goals and duration into decisions and changes."
+  }
+}

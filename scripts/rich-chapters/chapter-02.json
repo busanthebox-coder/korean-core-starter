@@ -42,7 +42,7 @@
         },
         {
           "ko": "선생님은 친절해요.",
-          "romanization": "seonsaengnigeun chinjeolhaeyo.",
+          "romanization": "seonsaengnimeun chinjeolhaeyo.",
           "en": "The teacher is kind.",
           "note": "선생님 ends in 'm' (consonant) → 은. The teacher is the spotlight — kindness is what's said about them."
         }
@@ -145,8 +145,8 @@
       "romanization": "annyeonghi gyeseyo",
       "english": "Goodbye (said by the one leaving)",
       "partOfSpeech": "expression",
-      "exampleSentence": { "ko": "안녕히 계세요. 또 만나요!", "en": "Goodbye! See you again!", "note": "Said to the person STAYING. The person leaving says 안녕히 가세요 to the one who stays." },
-      "collocations": ["안녕히 가세요", "안녕히 계세요 vs 안녕히 가세요", "잘 가요 (casual)"]
+      "exampleSentence": { "ko": "제가 먼저 갈게요. 안녕히 계세요!", "en": "I'll go first. Goodbye!", "note": "Say 안녕히 계세요 when you are leaving and the other person is staying. Say 안녕히 가세요 to someone who is leaving." },
+      "collocations": ["제가 먼저 갈게요. 안녕히 계세요", "안녕히 가세요", "또 만나요"]
     },
     {
       "hangul": "감사합니다",
@@ -270,19 +270,19 @@
     }
   ],
   "extendedDialogue": {
-    "setting": "A Korean language exchange meetup in Seoul. Minjun approaches a newcomer, Emma, who has just arrived.",
+    "setting": "A Korean language exchange meetup in Seoul. Minjun approaches Emma, who is joining for the first time.",
     "lines": [
       {
         "speaker": "민준",
-        "ko": "안녕하세요! 처음 오셨어요?",
-        "romanization": "Annyeonghaseyo! Cheoeum osyeosseoyo?",
+        "ko": "안녕하세요! 오늘 처음이에요?",
+        "romanization": "Annyeonghaseyo! Oneul cheoeumieyo?",
         "en": "Hello! Is this your first time here?",
-        "grammarNote": "안녕하세요 is the all-purpose polite greeting. 처음 오셨어요 = 'Did you come for the first time?' — 처음 (first time) + 오셨어요 (came, honorific past)."
+        "grammarNote": "안녕하세요 is the all-purpose polite greeting. 오늘 처음이에요? keeps the question beginner-safe: 처음 ends in a consonant, so it takes 이에요."
       },
       {
         "speaker": "엠마",
         "ko": "네, 처음이에요. 저는 엠마예요.",
-        "romanization": "Ne, cheoeumieo. Jeoneun emmaeyeyo.",
+        "romanization": "Ne, cheoeumieyo. Jeoneun emmayeyo.",
         "en": "Yes, it's my first time. I'm Emma.",
         "grammarNote": "처음이에요 — 처음 ends in 'm' (consonant) → 이에요. 저는 엠마예요 — 엠마 ends in 'a' (vowel) → 예요. Two 이에요/예요 forms in one turn!"
       },
@@ -295,58 +295,58 @@
       },
       {
         "speaker": "엠마",
-        "ko": "민준 씨, 만나서 반가워요. 한국어를 공부해요?",
-        "romanization": "Minjun ssi, mannaseo bangawoyo. Hangugeoreul gongbuhaeyo?",
-        "en": "Minjun, nice to meet you. Do you study Korean?",
-        "grammarNote": "씨 is a polite name suffix like 'Mr./Ms.' used with the first name — Minjun씨 is natural and friendly. 한국어를 공부해요 = 'Do you study Korean?' — no 은/는 here since the question is about the action."
+        "ko": "죄송해요, 이름을 다시 말해 주세요.",
+        "romanization": "Joesonghaeyo, ireumeul dasi malhae juseyo.",
+        "en": "Sorry, please say your name again.",
+        "grammarNote": "죄송해요 softens the request, and 다시 말해 주세요 is a survival phrase for first meetings and language class."
       },
       {
         "speaker": "민준",
-        "ko": "아니요, 저는 한국 사람이에요. 영어를 배워요.",
-        "romanization": "Aniyo, jeoneun hanguk saramieyo. Yeongeo-reul baeoyo.",
-        "en": "No, I'm Korean. I'm learning English.",
-        "grammarNote": "아니요 politely denies the question, then 저는 sets the new topic with 은/는 spotlight. 한국 사람 ends in 'm' (consonant) → 이에요."
+        "ko": "네, 민준이에요. 천천히 말할게요. 민-준.",
+        "romanization": "Ne, minjunieyo. Cheoncheonhi malhalgeyo. Min-jun.",
+        "en": "Sure, it is Minjun. I will say it slowly. Min-jun.",
+        "grammarNote": "민준 ends in a consonant, so it takes 이에요. 천천히 is the natural adverb when repeating a name slowly."
       },
       {
         "speaker": "엠마",
-        "ko": "아, 그래요? 저는 미국 사람이에요. 반갑습니다!",
-        "romanization": "A, geuraeyo? Jeoneun miguk saramieyo. Bangapseumnida!",
-        "en": "Oh, really? I'm American. Nice to meet you!",
-        "grammarNote": "그래요 = 'Is that so?' — a very useful filler for showing engagement. 미국 사람 ends in 'm' → 이에요. 반갑습니다 = the formal 'nice to meet you' (입니다-style speech)."
+        "ko": "아, 민준 씨. 감사합니다.",
+        "romanization": "A, Minjun ssi. Gamsahamnida.",
+        "en": "Ah, Minjun. Thank you.",
+        "grammarNote": "씨 is a polite name suffix used after someone else's name. 감사합니다 is the safe thank-you for a new person."
       },
       {
         "speaker": "민준",
-        "ko": "영어 이름이 뭐예요?",
-        "romanization": "Yeongeo ireumi mwoyeyo?",
-        "en": "What's your English name?",
-        "grammarNote": "이름이 뭐예요 = 'What is the name?' — 이름 takes subject marker 이 here (not topic marker 은). 뭐예요 = 'what is it?' (뭐 = what + 예요). 뭐 ends in a vowel → 예요."
+        "ko": "저는 먼저 갈게요. 안녕히 계세요.",
+        "romanization": "Jeoneun meonjeo galgeyo. Annyeonghi gyeseyo.",
+        "en": "I will head out first. Goodbye.",
+        "grammarNote": "안녕히 계세요 is said by the person leaving when the other person stays."
       },
       {
         "speaker": "엠마",
-        "ko": "엠마예요. 한국 이름은 없어요. 언젠가 만들고 싶어요!",
-        "romanization": "Emmaeyeyo. Hanguk ireumeun eopsseoyo. Eonjenga mandeulgo sipeoyo!",
-        "en": "Emma. I don't have a Korean name. I'd like to make one someday!",
-        "grammarNote": "엠마예요 — vowel ending → 예요. 한국 이름은 없어요 — 은/는 spotlight on 'Korean name' (contrasting with the English name just mentioned). 없어요 = 'doesn't exist / don't have.'"
+        "ko": "네, 안녕히 가세요. 다음에 또 만나요.",
+        "romanization": "Ne, annyeonghi gaseyo. Daeume tto mannayo.",
+        "en": "Okay, goodbye. See you again next time.",
+        "grammarNote": "The person staying replies with 안녕히 가세요 to the person leaving. 다음에 또 만나요 is a friendly closing."
       }
     ]
   },
   "readingText": {
     "type": "sms",
     "title": "첫 언어 교환 후 메시지 (Text messages after the first language exchange)",
-    "body": "민준: 오늘 언어 교환 어땠어요?\n엠마: 정말 좋았어요! 저는 한국어가 어렵지만 재미있어요.\n민준: 맞아요! 처음은 어려워요. 엠마 씨는 어디에서 왔어요?\n엠마: 저는 미국에서 왔어요. 뉴욕이에요.\n민준: 아, 그래요? 뉴욕은 멋있는 도시예요!\n엠마: 네, 그렇지만 서울도 정말 좋아요. 다음 주에 또 만나요?",
-    "bodyTranslation": "Minjun: How was the language exchange today?\nEmma: It was really good! Korean is difficult for me but it's fun.\nMinjun: That's right! The beginning is hard. Where are you from, Emma?\nEmma: I'm from America. New York.\nMinjun: Oh really? New York is a cool city!\nEmma: Yes, but Seoul is really nice too. Shall we meet again next week?",
+    "body": "민준: 엠마 씨, 오늘 만나서 반가워요.\n엠마: 저도 반가워요. 이름을 다시 물어봐서 죄송해요.\n민준: 괜찮아요. 한국어 공부는 처음이에요?\n엠마: 네, 처음이에요. 천천히 말해 주세요.\n민준: 네, 좋아요. 다음 주에 또 만나요?\n엠마: 네, 감사합니다. 다음 주에 만나요!",
+    "bodyTranslation": "Minjun: Emma, nice to meet you today.\nEmma: Nice to meet you too. Sorry for asking your name again.\nMinjun: It's okay. Is this your first time studying Korean?\nEmma: Yes, it is my first time. Please speak slowly.\nMinjun: Sure, sounds good. Shall we meet again next week?\nEmma: Yes, thank you. See you next week!",
     "comprehensionQuestions": [
       {
-        "question": "What does Emma say about Korean in the text exchange?",
-        "answer": "She says Korean is difficult (어렵지만) but fun (재미있어요)."
+        "question": "What does Emma apologize for in the text exchange?",
+        "answer": "She apologizes for asking Minjun's name again: 이름을 다시 물어봐서 죄송해요."
       },
       {
-        "question": "Where is Emma from, and what specific city does she mention?",
-        "answer": "She is from America (미국에서 왔어요) and mentions New York (뉴욕이에요 — using 이에요 because 뉴욕 ends in 'k', a consonant)."
+        "question": "What phrase does Emma use when she needs slower Korean?",
+        "answer": "천천히 말해 주세요 — Please speak slowly."
       },
       {
         "question": "Find all instances of 이에요/예요 in the text. For each one, explain whether the noun ends in a consonant or vowel and why that determines the form used.",
-        "answer": "재미있어요 is an adjective form, not 이에요/예요. 뉴욕이에요 — 뉴욕 ends in 'k' (consonant) → 이에요. 도시예요 — 도시 ends in 'i' (vowel) → 예요. These demonstrate the phonetic rule: consonant final → 이에요, vowel final → 예요, with no difference in meaning."
+        "answer": "처음이에요 appears twice. 처음 ends in the final consonant ㅁ, so it takes 이에요. This demonstrates the phonetic rule: consonant-final noun → 이에요, vowel-final noun → 예요."
       }
     ]
   },
@@ -377,14 +377,14 @@
     },
     {
       "type": "multipleChoice",
-      "prompt": "Someone asks you 이름이 뭐예요? How do you answer?",
+      "prompt": "Someone asks you 이름이 뭐예요? How do you answer if your name is 지수?",
       "options": [
         "저는 미국이에요.",
-        "저는 [your name]이에요 / 예요.",
-        "나는 [your name] 이름이에요."
+        "저는 지수예요.",
+        "나는 지수 이름이에요."
       ],
-      "correct": "저는 [your name]이에요 / 예요.",
-      "explanation": "Option 1 is wrong because 미국 is a country, not a name — this says 'I am America.' Option 3 is wrong because 이름 (name) is unnecessary in the answer — 저는 ___이에요 already communicates 'I am ___' perfectly. Option 2 is the natural, correct structure: topic (저는) + what you are (name + 이에요/예요)."
+      "correct": "저는 지수예요.",
+      "explanation": "Option 1 is wrong because 미국 is a country, not a name — this says 'I am America.' Option 3 is wrong because 이름 (name) is unnecessary in the answer and 나 is too casual for a first meeting. Option 2 is the natural, correct structure: topic (저는) + name + 예요. 지수 ends in a vowel, so use 예요."
     },
     {
       "type": "translate",

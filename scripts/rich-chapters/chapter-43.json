@@ -1,0 +1,654 @@
+{
+  "id": "chapter-43",
+  "hook": {
+    "situation": "A class event needs chairs, drinks, guide books, paper, and even a dog coming with a student. In Korean, each of those quantities needs the right counter.",
+    "objectives": [
+      "Use noun + number + counter order confidently.",
+      "Pick the common counter for people, animals, things, cups, books, sheets, clothing sets, machines, and occurrences.",
+      "Use the changed native number forms 한, 두, 세, 네, and 스무 before counters."
+    ],
+    "whyItMatters": "English can say 'three students, two coffees, ten papers' with almost no classifier changes. Korean asks what kind of thing you are counting: people take 명, animals take 마리, drinks take 잔, books take 권, and flat sheets take 장."
+  },
+  "grammarNotes": [
+    {
+      "id": "gn-pattern-119-order",
+      "title": "Basic order — noun + number + counter",
+      "mentalModel": "First name the thing, then count it with the correct counter: 학생 세 명, 커피 두 잔, 책 두 권.",
+      "formation": "Noun + native Korean number + counter is the default pattern for many everyday objects and people.",
+      "examples": [
+        {
+          "ko": "학생 세 명이 와요.",
+          "romanization": "haksaeng se myeongi wayo.",
+          "en": "Three students are coming.",
+          "note": "학생 + 세 + 명."
+        },
+        {
+          "ko": "커피 네 잔 준비할게요.",
+          "romanization": "keopi ne jan junbihalgeyo.",
+          "en": "I will prepare four cups of coffee.",
+          "note": "커피 + 네 + 잔."
+        },
+        {
+          "ko": "책 두 권만 주세요.",
+          "romanization": "chaek du gwonman juseyo.",
+          "en": "Please give me just two books.",
+          "note": "책 + 두 + 권."
+        },
+        {
+          "ko": "종이 열 장이면 돼요.",
+          "romanization": "jongi yeol jangimyeon dwaeyo.",
+          "en": "Ten sheets of paper are enough.",
+          "note": "종이 + 열 + 장."
+        }
+      ],
+      "exceptions": [
+        "The counter follows the number, not the noun directly: 책 두 권, not 책 권 두.",
+        "In speech, the noun can be omitted if it is already clear: 두 잔 주세요."
+      ]
+    },
+    {
+      "id": "gn-pattern-119-native",
+      "title": "Native number contractions — 하나 becomes 한",
+      "mentalModel": "Before counters, the first few native numbers shrink. This is why Koreans say 한 개 and 두 명, not 하나 개 and 둘 명.",
+      "formation": "하나 → 한, 둘 → 두, 셋 → 세, 넷 → 네, 스물 → 스무 before a counter.",
+      "examples": [
+        {
+          "ko": "강아지 한 마리도 데려온대요.",
+          "romanization": "gangaji han marido deryeondaeyo.",
+          "en": "They say they are bringing one dog too.",
+          "note": "하나 becomes 한 before 마리."
+        },
+        {
+          "ko": "학생 두 명이 더 와요.",
+          "romanization": "haksaeng du myeongi deo wayo.",
+          "en": "Two more students are coming.",
+          "note": "둘 becomes 두 before 명."
+        },
+        {
+          "ko": "사과 세 개 주세요.",
+          "romanization": "sagwa se gae juseyo.",
+          "en": "Please give me three apples.",
+          "note": "셋 becomes 세 before 개."
+        },
+        {
+          "ko": "의자 네 개가 필요해요.",
+          "romanization": "uija ne gaega piryohaeyo.",
+          "en": "We need four chairs.",
+          "note": "넷 becomes 네 before 개."
+        }
+      ],
+      "exceptions": [
+        "스물 becomes 스무 only before a counter: 스무 명, but 스물이에요 when standing alone.",
+        "Counters that use Sino-Korean labels, such as room or bus numbers, follow a different number system."
+      ]
+    },
+    {
+      "id": "gn-pattern-119-people-animals",
+      "title": "People and animals — 명, 분, 마리",
+      "mentalModel": "Use 명 for people, 분 when you want to respectfully count people, and 마리 for animals.",
+      "formation": "Person noun + number + 명/분. Animal noun + number + 마리.",
+      "examples": [
+        {
+          "ko": "학생 세 명이 와요.",
+          "romanization": "haksaeng se myeongi wayo.",
+          "en": "Three students are coming.",
+          "note": "명 is the standard people counter."
+        },
+        {
+          "ko": "손님 두 분이 기다리세요.",
+          "romanization": "sonnim du buni gidariseyo.",
+          "en": "Two guests are waiting.",
+          "note": "분 is respectful for people."
+        },
+        {
+          "ko": "강아지 한 마리도 와요.",
+          "romanization": "gangaji han marido wayo.",
+          "en": "One dog is coming too.",
+          "note": "마리 counts animals."
+        },
+        {
+          "ko": "고양이 두 마리를 키워요.",
+          "romanization": "goyangi du marireul kiwoyo.",
+          "en": "I have two cats.",
+          "note": "Use 마리, not 명, for pets."
+        }
+      ],
+      "exceptions": [
+        "Do not use 명 for animals.",
+        "분 can also mean minutes in other contexts; sentence meaning tells you whether it means people or minutes."
+      ]
+    },
+    {
+      "id": "gn-pattern-119-objects",
+      "title": "Objects, drinks, books, and sheets — 개, 잔, 권, 장",
+      "mentalModel": "Generic things take 개, but common item types have their own counters that sound more natural.",
+      "formation": "Use 개 for general objects, 잔 for cups/glasses, 권 for books, and 장 for flat thin items such as paper, photos, or tickets.",
+      "examples": [
+        {
+          "ko": "의자 네 개가 필요해요.",
+          "romanization": "uija ne gaega piryohaeyo.",
+          "en": "We need four chairs.",
+          "note": "개 is a safe general object counter."
+        },
+        {
+          "ko": "커피 두 잔 주세요.",
+          "romanization": "keopi du jan juseyo.",
+          "en": "Two cups of coffee, please.",
+          "note": "잔 counts drinks in cups/glasses."
+        },
+        {
+          "ko": "한국어 책 두 권을 샀어요.",
+          "romanization": "hangugeo chaek du gwoneul sasseoyo.",
+          "en": "I bought two Korean books.",
+          "note": "권 counts books and volumes."
+        },
+        {
+          "ko": "사진 세 장만 보내 주세요.",
+          "romanization": "sajin se jangman bonae juseyo.",
+          "en": "Please send just three photos.",
+          "note": "장 counts flat items like photos and paper."
+        }
+      ],
+      "exceptions": [
+        "개 is understandable for many objects, but 책 두 개 sounds childish or object-like; 책 두 권 is natural.",
+        "장 is for flat thin items, not all physical objects."
+      ]
+    },
+    {
+      "id": "gn-pattern-119-sets-machines",
+      "title": "Sets and machines — 벌 and 대",
+      "mentalModel": "Some counters count a complete set or a machine rather than a loose object.",
+      "formation": "Use 벌 for a set of clothing and 대 for vehicles or machines.",
+      "examples": [
+        {
+          "ko": "옷 한 벌만 챙겼어요.",
+          "romanization": "ot han beolman chaenggyeosseoyo.",
+          "en": "I packed only one set of clothes.",
+          "note": "벌 counts a clothing set."
+        },
+        {
+          "ko": "정장 두 벌을 빌렸어요.",
+          "romanization": "jeongjang du beoreul billyeosseoyo.",
+          "en": "I rented two suits.",
+          "note": "벌 fits suits or outfit sets."
+        },
+        {
+          "ko": "노트북 한 대가 필요해요.",
+          "romanization": "noteubuk han daega piryohaeyo.",
+          "en": "We need one laptop.",
+          "note": "대 counts machines."
+        },
+        {
+          "ko": "차 두 대가 있어요.",
+          "romanization": "cha du daega isseoyo.",
+          "en": "There are two cars.",
+          "note": "대 counts vehicles."
+        }
+      ],
+      "exceptions": [
+        "차 can mean tea or car; context decides. Tea is counted with 잔, cars with 대.",
+        "For a single clothing item that is not a set, Koreans may use 개 or specific garment words, but 벌 is the useful beginner counter for outfits/suits."
+      ]
+    },
+    {
+      "id": "gn-pattern-119-beon",
+      "title": "번 — times, turns, or number labels",
+      "mentalModel": "번 is flexible: it can count occurrences with native numbers, or label a number in a sequence with Sino-Korean numbers.",
+      "formation": "For occurrences, use native-style forms: 한 번, 두 번, 세 번. For labels, use Sino-Korean numbers: 일 번, 이 번, 삼 번.",
+      "examples": [
+        {
+          "ko": "이 준비는 벌써 세 번 해 봤어요.",
+          "romanization": "i junbineun beolsseo se beon hae bwasseoyo.",
+          "en": "We have already done this prep three times.",
+          "note": "세 번 counts occurrences."
+        },
+        {
+          "ko": "한 번만 더 설명해 주세요.",
+          "romanization": "han beonman deo seolmyeonghae juseyo.",
+          "en": "Please explain it one more time.",
+          "note": "한 번 means once or one time."
+        },
+        {
+          "ko": "저는 이 번 좌석이에요.",
+          "romanization": "jeoneun i beon jwaseogieyo.",
+          "en": "I am seat number two.",
+          "note": "이 번 is a number label."
+        },
+        {
+          "ko": "몇 번 했어요?",
+          "romanization": "myeot beon haesseoyo?",
+          "en": "How many times did you do it?",
+          "note": "몇 번 asks about frequency or number, depending on context."
+        }
+      ],
+      "exceptions": [
+        "세 번 means three times; 삼 번 usually means number three.",
+        "첫 번째 / 두 번째 / 세 번째 is the ordinal pattern for first, second, third."
+      ]
+    }
+  ],
+  "extendedVocabulary": [
+    {
+      "hangul": "개",
+      "romanization": "gae",
+      "english": "general counter for things",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "의자 네 개가 필요해요.",
+        "en": "We need four chairs.",
+        "note": "Linked to dictionary card word-ext-010."
+      },
+      "collocations": [
+        "한 개",
+        "두 개",
+        "의자 네 개"
+      ]
+    },
+    {
+      "hangul": "명",
+      "romanization": "myeong",
+      "english": "counter for people",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "학생 세 명이 와요.",
+        "en": "Three students are coming.",
+        "note": "Linked to dictionary card word-ext-011."
+      },
+      "collocations": [
+        "한 명",
+        "두 명",
+        "학생 세 명"
+      ]
+    },
+    {
+      "hangul": "마리",
+      "romanization": "mari",
+      "english": "counter for animals",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "강아지 한 마리도 데려온대요.",
+        "en": "They say they are bringing one dog too.",
+        "note": "Linked to dictionary card word-ext-691."
+      },
+      "collocations": [
+        "한 마리",
+        "강아지 한 마리",
+        "고양이 두 마리"
+      ]
+    },
+    {
+      "hangul": "잔",
+      "romanization": "jan",
+      "english": "counter for cups/glasses",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "커피 네 잔 준비할게요.",
+        "en": "I will prepare four cups of coffee.",
+        "note": "Linked to dictionary card word-ext-682."
+      },
+      "collocations": [
+        "커피 한 잔",
+        "물 두 잔",
+        "한 잔 더"
+      ]
+    },
+    {
+      "hangul": "권",
+      "romanization": "gwon",
+      "english": "counter for books and volumes",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "안내 책도 두 권만 주세요.",
+        "en": "Please give me just two guide books too.",
+        "note": "Linked to dictionary card word-ext-685."
+      },
+      "collocations": [
+        "책 한 권",
+        "책 두 권",
+        "소설 세 권"
+      ]
+    },
+    {
+      "hangul": "장",
+      "romanization": "jang",
+      "english": "counter for flat sheets",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "종이 열 장이면 돼요.",
+        "en": "Ten sheets of paper are enough.",
+        "note": "Linked to dictionary card word-ext-686."
+      },
+      "collocations": [
+        "종이 한 장",
+        "사진 세 장",
+        "표 두 장"
+      ]
+    },
+    {
+      "hangul": "벌",
+      "romanization": "beol",
+      "english": "counter for sets of clothing",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "옷 한 벌만 챙겼어요.",
+        "en": "I packed only one set of clothes.",
+        "note": "Linked to dictionary card word-ext-684."
+      },
+      "collocations": [
+        "옷 한 벌",
+        "정장 두 벌",
+        "한 벌 더"
+      ]
+    },
+    {
+      "hangul": "대",
+      "romanization": "dae",
+      "english": "counter for vehicles and machines",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "노트북 한 대가 필요해요.",
+        "en": "We need one laptop.",
+        "note": "Linked to dictionary card word-ext-687."
+      },
+      "collocations": [
+        "차 한 대",
+        "노트북 두 대",
+        "기계 세 대"
+      ]
+    },
+    {
+      "hangul": "번",
+      "romanization": "beon",
+      "english": "counter for times or number labels",
+      "partOfSpeech": "counter",
+      "exampleSentence": {
+        "ko": "벌써 세 번 해 봤어요.",
+        "en": "I have already tried it three times.",
+        "note": "Linked to dictionary card word-ext-1424."
+      },
+      "collocations": [
+        "한 번",
+        "두 번",
+        "몇 번"
+      ]
+    },
+    {
+      "hangul": "학생",
+      "romanization": "haksaeng",
+      "english": "student",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "학생 세 명이 와요.",
+        "en": "Three students are coming.",
+        "note": "Linked to dictionary card word-noun-001."
+      },
+      "collocations": [
+        "학생 한 명",
+        "학생 세 명",
+        "학생이 와요"
+      ]
+    },
+    {
+      "hangul": "강아지",
+      "romanization": "gangaji",
+      "english": "puppy; dog",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "강아지 한 마리도 데려온대요.",
+        "en": "They say they are bringing one dog too.",
+        "note": "Linked to dictionary card word-ext-216."
+      },
+      "collocations": [
+        "강아지 한 마리",
+        "강아지를 데려오다",
+        "강아지를 키우다"
+      ]
+    },
+    {
+      "hangul": "커피",
+      "romanization": "keopi",
+      "english": "coffee",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "커피 네 잔 준비할게요.",
+        "en": "I will prepare four cups of coffee.",
+        "note": "Linked to dictionary card word-noun-013."
+      },
+      "collocations": [
+        "커피 한 잔",
+        "커피 두 잔",
+        "커피를 마시다"
+      ]
+    },
+    {
+      "hangul": "책",
+      "romanization": "chaek",
+      "english": "book",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "책 두 권만 주세요.",
+        "en": "Please give me just two books.",
+        "note": "Linked to dictionary card word-noun-025."
+      },
+      "collocations": [
+        "책 한 권",
+        "책 두 권",
+        "책을 빌리다"
+      ]
+    },
+    {
+      "hangul": "종이",
+      "romanization": "jongi",
+      "english": "paper",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "종이는 몇 장 필요해요?",
+        "en": "How many sheets of paper do we need?",
+        "note": "Linked to dictionary card word-ext-1374."
+      },
+      "collocations": [
+        "종이 한 장",
+        "종이 열 장",
+        "종이가 필요하다"
+      ]
+    },
+    {
+      "hangul": "의자",
+      "romanization": "uija",
+      "english": "chair",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "의자 네 개가 필요해요.",
+        "en": "We need four chairs.",
+        "note": "Linked to dictionary card word-ext-065."
+      },
+      "collocations": [
+        "의자 한 개",
+        "의자 네 개",
+        "의자가 필요하다"
+      ]
+    },
+    {
+      "hangul": "옷",
+      "romanization": "ot",
+      "english": "clothes",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "옷 한 벌만 챙겼어요.",
+        "en": "I packed only one set of clothes.",
+        "note": "Linked to dictionary card word-ext-067."
+      },
+      "collocations": [
+        "옷 한 벌",
+        "옷 두 벌",
+        "옷을 챙기다"
+      ]
+    },
+    {
+      "hangul": "사진",
+      "romanization": "sajin",
+      "english": "photo",
+      "partOfSpeech": "noun",
+      "exampleSentence": {
+        "ko": "사진 세 장만 보내 주세요.",
+        "en": "Please send just three photos.",
+        "note": "Linked to dictionary card word-noun-023."
+      },
+      "collocations": [
+        "사진 한 장",
+        "사진 세 장",
+        "사진을 보내다"
+      ]
+    }
+  ],
+  "extendedDialogue": {
+    "setting": "Two staff members prepare supplies for a small trial class.",
+    "lines": [
+      {
+        "speaker": "민서",
+        "ko": "오늘 체험 수업에 학생 몇 명 와요?",
+        "romanization": "oneul cheheom sueobe haksaeng myeot myeong wayo?",
+        "en": "How many students are coming to today's trial class?",
+        "grammarNote": "명 counts people; 몇 명 asks how many people."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "학생 세 명이 오고, 강아지 한 마리도 데려온대요.",
+        "romanization": "haksaeng se myeongi ogo, gangaji han marido deryeondaeyo.",
+        "en": "Three students are coming, and they say they are bringing one dog too.",
+        "grammarNote": "세 명 for people; 한 마리 for an animal."
+      },
+      {
+        "speaker": "민서",
+        "ko": "그럼 의자 네 개랑 커피 네 잔 준비할게요.",
+        "romanization": "geureom uija ne gaerang keopi ne jan junbihalgeyo.",
+        "en": "Then I will prepare four chairs and four cups of coffee.",
+        "grammarNote": "개 counts chairs; 잔 counts cups of coffee."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "종이는 몇 장 필요해요?",
+        "romanization": "jongineun myeot jang piryohaeyo?",
+        "en": "How many sheets of paper do we need?",
+        "grammarNote": "장 counts flat sheets such as paper, photos, and tickets."
+      },
+      {
+        "speaker": "민서",
+        "ko": "열 장이면 돼요. 안내 책도 두 권만 주세요.",
+        "romanization": "yeol jangimyeon dwaeyo. annae chaekdo du gwonman juseyo.",
+        "en": "Ten sheets are enough. Please give me just two guide books too.",
+        "grammarNote": "권 counts books; 장 counts paper sheets."
+      },
+      {
+        "speaker": "지훈",
+        "ko": "이 준비는 벌써 세 번 해 봐서 괜찮아요.",
+        "romanization": "i junbineun beolsseo se beon hae bwaseo gwaenchanayo.",
+        "en": "We have already done this prep three times, so it is fine.",
+        "grammarNote": "번 counts occurrences here."
+      }
+    ]
+  },
+  "readingText": {
+    "title": "몇 개가 아니라 무엇을 세는지 먼저 보기",
+    "body": "한국어에서 수량을 말할 때는 숫자만 맞으면 끝이 아니에요. 무엇을 세는지 먼저 봐야 해요. 학생은 세 명, 강아지는 한 마리, 커피는 네 잔, 책은 두 권, 종이는 열 장처럼 명사에 맞는 단위가 달라져요. 처음에는 개를 모든 물건에 붙이고 싶지만, 책 두 개보다 책 두 권이 자연스럽고, 사진 세 개보다 사진 세 장이 자연스러워요. 또 하나, 둘, 셋, 넷은 단위명사 앞에서 한, 두, 세, 네로 줄어들어요. 그래서 하나 명이 아니라 한 명, 둘 잔이 아니라 두 잔이라고 말해요.",
+    "bodyTranslation": "In Korean, counting is not only about choosing the right number. You first look at what kind of thing you are counting. Students are counted with 명, animals with 마리, cups of coffee with 잔, books with 권, and sheets of paper or photos with 장. The first few native Korean numbers also contract before counters: 하나 becomes 한, 둘 becomes 두, 셋 becomes 세, and 넷 becomes 네.",
+    "comprehensionQuestions": [
+      {
+        "question": "학생을 셀 때 어떤 단위명사를 써요?",
+        "answer": "명"
+      },
+      {
+        "question": "책 두 개보다 어떤 표현이 더 자연스러워요?",
+        "answer": "책 두 권"
+      },
+      {
+        "question": "하나, 둘, 셋, 넷은 단위명사 앞에서 어떻게 바뀌어요?",
+        "answer": "한, 두, 세, 네로 바뀌어요."
+      }
+    ]
+  },
+  "culturalNote": {
+    "title": "Using 개 for everything sounds beginner-like",
+    "body": "개 is useful and often understood, but Korean speakers use more specific counters whenever they are common. 책 두 개, 사진 세 개, 커피 두 개 may be understood, but 책 두 권, 사진 세 장, 커피 두 잔 sound much more natural. In service settings, using the right counter also makes requests clearer.",
+    "tip": "When you learn a new noun, learn one counting chunk with it: 책 한 권, 커피 한 잔, 사진 한 장, 강아지 한 마리."
+  },
+  "inlineExercises": [
+    {
+      "type": "multipleChoice",
+      "prompt": "Which counter fits students?",
+      "options": [
+        "학생 세 명",
+        "학생 세 마리",
+        "학생 세 잔"
+      ],
+      "correct": "학생 세 명",
+      "explanation": "명 counts people."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which counter fits a dog?",
+      "options": [
+        "강아지 한 마리",
+        "강아지 한 명",
+        "강아지 한 권"
+      ],
+      "correct": "강아지 한 마리",
+      "explanation": "마리 counts animals."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which counter fits coffee?",
+      "options": [
+        "커피 두 잔",
+        "커피 두 장",
+        "커피 두 권"
+      ],
+      "correct": "커피 두 잔",
+      "explanation": "잔 counts cups or glasses."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which counter fits books?",
+      "options": [
+        "책 두 권",
+        "책 두 잔",
+        "책 두 마리"
+      ],
+      "correct": "책 두 권",
+      "explanation": "권 counts books and volumes."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Paper: 종이 열 ____이면 돼요.",
+      "options": [
+        "장",
+        "권",
+        "명"
+      ],
+      "correct": "장",
+      "explanation": "장 counts flat sheets such as paper."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence counts occurrences?",
+      "options": [
+        "세 번 해 봤어요.",
+        "세 권 해 봤어요.",
+        "세 잔 해 봤어요."
+      ],
+      "correct": "세 번 해 봤어요.",
+      "explanation": "번 counts occurrences or number labels depending on context."
+    }
+  ],
+  "summaryCard": {
+    "bullets": [
+      "Basic order: noun + number + counter, as in 학생 세 명 and 커피 두 잔.",
+      "Native number contractions: 한, 두, 세, 네, 스무 before counters.",
+      "People and animals: 명/분 for people, 마리 for animals.",
+      "Objects and formats: 개 for general things, 잔 for drinks, 권 for books, 장 for flat sheets.",
+      "Sets and machines: 벌 for clothing sets, 대 for vehicles and machines.",
+      "번 can mean times or number labels: 세 번 vs 삼 번."
+    ],
+    "nextChapterTeaser": "Chapter 44 turns from counting words to pronunciation rules that connect written Korean to spoken Korean."
+  }
+}
