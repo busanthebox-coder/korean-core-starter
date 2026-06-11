@@ -49,6 +49,7 @@
 
   $: doneCount = chapters.filter((c) => $lessonProgress.has(c.id)).length;
   $: pct = chapters.length ? Math.round((doneCount / chapters.length) * 100) : 0;
+  $: nextStudyChapter = chapters.find((c) => !$lessonProgress.has(c.id)) || chapters[chapters.length - 1];
 
   // Real mastery, derived from spaced-repetition boxes (not self-reported).
   const chapterItemIds = (ch) => [...new Set([...(ch.coreVocabularyIds || []), ...(ch.linkedEntryIds || []), ...(ch.patternIds || [])])];
@@ -57,7 +58,9 @@
   $: chMastery = (ch) => masteryOf($reviews, chapterItemIds(ch));
   $: currentIds = chapter ? chapterItemIds(chapter) : [];
   $: currentMastery = chapter ? masteryOf($reviews, currentIds) : { total: 0, started: 0, mastered: 0, pct: 0 };
-  $: dueSet = new Set(dueIds($reviews));
+  $: allDueIds = dueIds($reviews);
+  $: dueSet = new Set(allDueIds);
+  $: courseDue = allDueIds.length;
   $: currentDue = chapter ? currentIds.filter((id) => dueSet.has(id)).length : 0;
   $: currentDeckReady = currentIds.length > 0 && currentIds.every((id) => $reviews[id]);
   $: currentPlan = chapter ? lessonPlanState({
@@ -94,6 +97,31 @@
       {#if doneCount}
         <button class="pc-reset" type="button" on:click={resetCompleted}>Reset completed</button>
       {/if}
+    </div>
+
+    <div class="flow-card">
+      <div class="flow-head">
+        <div>
+          <span class="flow-label">Study flow</span>
+          <strong>Use each chapter in this order</strong>
+        </div>
+        <span>{doneCount}/{chapters.length} complete</span>
+      </div>
+      <div class="flow-steps">
+        <div><b>1</b><span>Read the dialogue</span></div>
+        <div><b>2</b><span>Add the chapter deck</span></div>
+        <div><b>3</b><span>Practice until checked</span></div>
+        <div><b>4</b><span>Review due and weak items</span></div>
+        <div><b>5</b><span>Use Guide, Talk, and Chat</span></div>
+      </div>
+      <div class="flow-actions">
+        <button class="flow-primary" type="button" on:click={() => openChapter(nextStudyChapter)}>
+          Continue Ch {nextStudyChapter?.number}
+        </button>
+        <button class="flow-secondary" type="button" on:click={() => push('/practice')}>
+          {courseDue ? `Review ${courseDue} due` : 'Open Practice'}
+        </button>
+      </div>
     </div>
 
     <button class="big-card" on:click={() => { view = 'hangul'; window.scrollTo(0, 0); }}>
@@ -258,6 +286,25 @@
     background: #fff; color: var(--ink-3); font-size: 12px; font-weight: 800; }
   .pc-reset:hover { border-color: var(--ink-3); color: var(--ink); }
 
+  .flow-card { display: grid; gap: 12px; padding: 16px 18px; border-radius: var(--radius);
+    background: #fff; border: 1px solid var(--border); border-left: 4px solid var(--accent); box-shadow: var(--shadow-1); }
+  .flow-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .flow-head > div { display: grid; gap: 1px; }
+  .flow-label { font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-ink); }
+  .flow-head strong { font-size: 18px; line-height: 1.2; }
+  .flow-head > span { color: var(--ink-3); font-size: 12px; font-weight: 800; white-space: nowrap; }
+  .flow-steps { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+  .flow-steps div { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 8px;
+    min-height: 52px; padding: 10px; border-radius: 11px; background: var(--surface-2); border: 1px solid var(--border); }
+  .flow-steps b { width: 22px; height: 22px; display: grid; place-items: center; border-radius: 999px;
+    background: var(--ink); color: #fff; font-size: 12px; line-height: 1; }
+  .flow-steps span { color: var(--ink-2); font-size: 12px; font-weight: 800; line-height: 1.25; }
+  .flow-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .flow-primary, .flow-secondary { padding: 10px 14px; border-radius: 999px; font-size: 13px; font-weight: 850; }
+  .flow-primary { background: var(--ink); color: #fff; }
+  .flow-secondary { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--border); }
+  .flow-primary:hover, .flow-secondary:hover { transform: translateY(-1px); }
+
   .big-card { display: flex; align-items: center; gap: 14px; text-align: left; padding: 16px 18px; border-radius: var(--radius);
     background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-1); }
   .big-card:hover { border-color: var(--ink); box-shadow: var(--shadow-2); transform: translateY(-1px); }
@@ -406,6 +453,8 @@
   .pg-dir { font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }
   .pg-title { font-family: var(--serif-ko); font-size: 15px; font-weight: 600; color: var(--ink); }
   @media (max-width: 520px) {
+    .flow-head { align-items: flex-start; flex-direction: column; }
+    .flow-steps { grid-template-columns: 1fr; }
     .tp-top { align-items: flex-start; flex-direction: column; }
     .tp-progress { margin-left: 0; }
     .tp-steps { grid-template-columns: 1fr 1fr; }
