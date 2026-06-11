@@ -9,6 +9,7 @@
   let ens = shuffle(pairs.map((p) => ({ id: p.id, t: p.en })));
   let selKo = null, selEn = null, wrong = null;
   let matched = new Set();
+  let wrongIds = new Set();
   $: done = matched.size === pairs.length && pairs.length > 0;
 
   function check() {
@@ -16,8 +17,12 @@
     if (selKo.id === selEn.id) {
       matched = new Set(matched).add(selKo.id);
       selKo = null; selEn = null;
-      if (matched.size === pairs.length) setTimeout(() => onDone({ correct: pairs.length, total: pairs.length }), 450);
+      if (matched.size === pairs.length) {
+        const cleanIds = pairs.map((p) => p.id).filter((id) => !wrongIds.has(id));
+        setTimeout(() => onDone({ correct: pairs.length, total: pairs.length, wrongIds: [...wrongIds], correctIds: cleanIds }), 450);
+      }
     } else {
+      wrongIds = new Set([...wrongIds, selKo.id, selEn.id]);
       wrong = { ko: selKo.id, en: selEn.id };
       setTimeout(() => { wrong = null; selKo = null; selEn = null; }, 650);
     }

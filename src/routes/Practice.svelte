@@ -7,6 +7,9 @@
   import ReviewSession from '../lib/components/ReviewSession.svelte';
   import { reviews, dueIds, summarize } from '../lib/srs.js';
   import { study, streak, todayCount, goalOf } from '../lib/progress.js';
+  import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
+
+  const WEAK_DECK = '__weak';
 
   let stage = 'setup';
   let deck = 'all';
@@ -19,7 +22,7 @@
   function syncDeckFromUrl() {
     const query = (window.location.hash.split('?')[1] || '').split('#')[0];
     const requested = new URLSearchParams(query).get('deck');
-    if (chapters.some((c) => c.id === requested)) deck = requested;
+    if (requested === WEAK_DECK || chapters.some((c) => c.id === requested)) deck = requested;
   }
 
   onMount(() => {
@@ -29,12 +32,16 @@
   });
 
   $: dueCards = dueIds($reviews).map(findEntry).filter(Boolean).slice(0, 40);
+  $: weakIds = sortedMistakeIds($mistakes);
+  $: weakItems = weakIds.map(findEntry).filter(Boolean);
   $: deckSize = Object.keys($reviews).length;
   $: sum = summarize($reviews);
   $: streakDays = streak($study);
   $: todayN = todayCount($study);
   $: goal = goalOf($study);
   function startReview() { sessionCards = dueCards.slice(); stage = 'review'; window.scrollTo(0, 0); }
+  function selectWeak() { deck = WEAK_DECK; kind = 'all'; window.scrollTo(0, 0); }
+  function clearWeak() { mistakes.clearAll(); if (deck === WEAK_DECK) deck = 'all'; }
   function addSet() { reviews.addMany(pool.map((e) => e.id)); added = true; setTimeout(() => (added = false), 1800); }
   // ReviewSession passes {reviewed}; the back button passes a click event (no log).
   function reviewDone(e) { if (e && e.reviewed) study.log(e.reviewed); stage = 'setup'; window.scrollTo(0, 0); }
@@ -44,6 +51,7 @@
   const KINDS = [['all', 'All'], ['word', 'Words'], ['expression', 'Expressions'], ['pattern', 'Patterns']];
   let kind = 'all';
   function deckItems(d) {
+    if (d === WEAK_DECK) return weakItems;
     if (d === 'all') return entries;
     const ch = chapters.find((c) => c.id === d);
     if (!ch) return entries;
@@ -58,13 +66,24 @@
     expression: base.filter((e) => e.type === 'expression').length,
     pattern: base.filter((e) => e.type === 'pattern').length,
   };
+  $: canRecognize = pool.length >= 4;
 
   function startQuiz() { questions = buildQuiz(pool, { count: 10 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startWrite() { questions = buildWriteQuiz(pool, { count: 8 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startBuild() { questions = buildSentenceQuiz(pool, { count: 6 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startMatch() { matchData = makeMatch(pool, Math.random, 5); stage = 'match'; window.scrollTo(0, 0); }
   $: canBuild = pool.some((e) => (e.examples || []).some((x) => x.ko && x.ko.trim().split(/\s+/).length >= 2));
-  function finish(r) { result = r; if (r && r.total) study.log(r.total); stage = 'results'; window.scrollTo(0, 0); }
+  function finish(r) {
+    result = r;
+    if (r && r.total) study.log(r.total);
+    if (r?.wrongIds?.length) mistakes.record(r.wrongIds);
+    if (deck === WEAK_DECK && r?.correctIds?.length) {
+      const stillWrong = new Set(r.wrongIds || []);
+      mistakes.resolve(r.correctIds.filter((id) => !stillWrong.has(id)));
+    }
+    stage = 'results';
+    window.scrollTo(0, 0);
+  }
   function reset() { stage = 'setup'; result = null; window.scrollTo(0, 0); }
 </script>
 
@@ -99,9 +118,24 @@
       {/if}
     </div>
 
+    {#if weakItems.length}
+      <div class="weak-bar">
+        <div class="wb-text">
+          <span class="wb-label">Mistake bank</span>
+          <strong>{weakItems.length} weak item{weakItems.length === 1 ? '' : 's'}</strong>
+          <span class="wb-sub">Missed words and patterns stay here until you practice them correctly.</span>
+        </div>
+        <div class="wb-actions">
+          <button class="btn3d" type="button" on:click={selectWeak}>Practice weak items →</button>
+          <button class="mini-clear" type="button" on:click={clearWeak}>Clear</button>
+        </div>
+      </div>
+    {/if}
+
     <label class="deck">Set
       <select bind:value={deck}>
         <option value="all">Everything ({entries.length})</option>
+        {#if weakItems.length}<option value={WEAK_DECK}>Weak items ({weakItems.length})</option>{/if}
         {#each chapters as c}<option value={c.id}>Ch {c.number}: {c.title}</option>{/each}
       </select>
     </label>
@@ -111,15 +145,18 @@
       {/each}
     </div>
     <button class="addset" on:click={addSet}>{added ? '✓ Added to review' : `+ Add these ${pool.length} to your review deck`}</button>
-    {#if pool.length < 4}
-      <p class="warn">This set has only {pool.length} item{pool.length === 1 ? '' : 's'} — pick another set or kind.</p>
+    {#if !pool.length}
+      <p class="warn">This set has no practice items yet — pick another set or kind.</p>
     {:else}
+      {#if !canRecognize}
+        <p class="warn">Quiz and Match need at least 4 items. Use Write or add more missed items.</p>
+      {/if}
       <div class="mode-group">
         <span class="group-label">Recognize · 알아보기</span>
         <div class="modes">
-          <button class="mode-card" on:click={startQuiz}>
+          <button class="mode-card" class:disabled={!canRecognize} disabled={!canRecognize} on:click={startQuiz}>
             <span class="m-ico">🎯</span><strong>Quiz</strong><span>10 questions · meaning, reverse & listen</span></button>
-          <button class="mode-card" on:click={startMatch}>
+          <button class="mode-card" class:disabled={!canRecognize} disabled={!canRecognize} on:click={startMatch}>
             <span class="m-ico">🔗</span><strong>Match</strong><span>Pair 5 Korean words with their meanings</span></button>
         </div>
       </div>
@@ -188,6 +225,15 @@
   .rb-sub { color: var(--ink-3); font-size: 13px; max-width: 46ch; }
   .caught { font-weight: 800; color: var(--type-word); }
   .caught.muted { color: var(--ink-3); }
+  .weak-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+    padding: 16px 18px; border: 1px solid #ffd8c8; border-left: 4px solid #e45f35; border-radius: 10px; background: #fff8f4; }
+  .wb-text { display: grid; gap: 2px; }
+  .wb-label { font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: #b5411f; }
+  .wb-text strong { font-size: 18px; }
+  .wb-sub { color: var(--ink-3); font-size: 13px; max-width: 46ch; }
+  .wb-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .mini-clear { padding: 8px 12px; border-radius: 999px; border: 1px solid #ffd8c8; background: #fff; color: #8b4b37; font-size: 12px; font-weight: 800; }
+  .mini-clear:hover { border-color: #e45f35; color: #b5411f; }
   .addset { justify-self: start; padding: 9px 15px; border-radius: 999px; border: 1px solid var(--border);
     background: var(--surface); color: var(--ink-2); font-weight: 750; font-size: 13px; transition: border-color .12s; }
   .addset:hover { border-color: var(--ink); }

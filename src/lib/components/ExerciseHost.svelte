@@ -7,6 +7,7 @@
   export let onDone = () => {};
 
   let i = 0, score = 0, picked = null, revealed = false, lastPlayed = -1;
+  let wrongIds = new Set(), correctIds = new Set(), runKey = '';
   // production state
   let typed = '';
   let wasCorrect = false;
@@ -16,6 +17,12 @@
 
   $: current = questions[i];
   $: total = questions.length;
+  $: nextRunKey = questions.map((q) => `${q.entryId || ''}:${q.answer || ''}`).join('|');
+  $: if (nextRunKey !== runKey) {
+    runKey = nextRunKey;
+    i = 0; score = 0; picked = null; revealed = false; lastPlayed = -1;
+    wrongIds = new Set(); correctIds = new Set();
+  }
   // Auto-play once when a listen question appears.
   $: if (current && current.type === 'listen' && i !== lastPlayed) { lastPlayed = i; speak(current.audio); }
   // Reset per-question production state whenever we land on a new question.
@@ -29,11 +36,13 @@
     if (revealed) return;
     picked = opt; revealed = true; wasCorrect = opt === current.answer;
     if (wasCorrect) score += 1;
+    noteResult(wasCorrect);
   }
   function checkType() {
     if (revealed || !typed.trim()) return;
     revealed = true; wasCorrect = normalizeKo(typed) === normalizeKo(current.answer);
     if (wasCorrect) score += 1;
+    noteResult(wasCorrect);
   }
   function placeTile(tile) {
     if (revealed) return;
@@ -50,9 +59,15 @@
     revealed = true;
     wasCorrect = built.map((b) => b.t).join(' ') === current.tokens.join(' ');
     if (wasCorrect) score += 1;
+    noteResult(wasCorrect);
+  }
+  function noteResult(ok) {
+    if (!current?.entryId) return;
+    if (ok) correctIds = new Set(correctIds).add(current.entryId);
+    else wrongIds = new Set(wrongIds).add(current.entryId);
   }
   function next() {
-    if (i + 1 >= total) { onDone({ correct: score, total }); return; }
+    if (i + 1 >= total) { onDone({ correct: score, total, wrongIds: [...wrongIds], correctIds: [...correctIds] }); return; }
     i += 1;
   }
   const isCorrect = (opt) => revealed && opt === current.answer;

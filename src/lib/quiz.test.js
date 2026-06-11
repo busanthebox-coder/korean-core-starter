@@ -28,6 +28,7 @@ describe('makeMCQuestion', () => {
     const q = makeMCQuestion(POOL, { direction: 'koToEn' }, seeded());
     expect(q.options.length).toBe(4);
     expect(q.options).toContain(q.answer);
+    expect(POOL.map((e) => e.id)).toContain(q.entryId);
     expect(POOL.map((e) => e.english)).toContain(q.answer);
     expect(POOL.map((e) => e.hangul)).toContain(q.prompt);
   });
@@ -79,6 +80,7 @@ describe('buildWriteQuiz', () => {
     expect(qs.length).toBe(3);
     for (const q of qs) {
       expect(q.type).toBe('type');
+      expect(POOL.map((e) => e.id)).toContain(q.entryId);
       expect(POOL.map((e) => e.hangul)).toContain(q.answer);
       expect(POOL.map((e) => e.english)).toContain(q.prompt);
     }
@@ -99,6 +101,7 @@ describe('buildSentenceQuiz', () => {
     expect(qs.length).toBeGreaterThan(0);
     for (const q of qs) {
       expect(q.type).toBe('build');
+      expect(EX_POOL.map((e) => e.id)).toContain(q.entryId);
       expect([...q.scrambled].sort()).toEqual([...q.tokens].sort());
       expect(q.tokens.join(' ')).toBe(q.answer);
     }

@@ -17,6 +17,7 @@ export function makeMCQuestion(pool, { direction = 'koToEn' } = {}, rng = Math.r
   const choices = shuffle([target, ...distractors], rng);
   const optionText = (e) => (direction === 'koToEn' ? e.english : e.hangul);
   return {
+    entryId: target.id,
     type: direction === 'listen' ? 'listen' : 'mc',
     direction,
     prompt: direction === 'enToKo' ? target.english : target.hangul,
@@ -70,6 +71,7 @@ export function buildWriteQuiz(pool, { count = 8, rng = Math.random } = {}) {
   return shuffle(pool, rng)
     .slice(0, Math.min(count, pool.length))
     .map((target) => ({
+      entryId: target.id,
       type: 'type',
       prompt: target.english,
       answer: target.hangul,
@@ -94,6 +96,7 @@ export function buildSentenceQuiz(pool, { count = 6, rng = Math.random } = {}) {
       const ex = shuffle((target.examples || []).filter(buildable), rng)[0];
       const tokens = ex.ko.trim().split(/\s+/);
       return {
+        entryId: target.id,
         type: 'build',
         prompt: ex.en,
         answer: ex.ko.trim(),
