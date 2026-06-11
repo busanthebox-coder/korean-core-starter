@@ -10,6 +10,7 @@
   let unit = null;
   let selected = null;
   $: track = guideTracks.find((t) => t.id === trackId) || guideTracks[0];
+  $: totalUnits = guideTracks.reduce((sum, t) => sum + (t.units || []).length, 0);
 
   const vocabOf = (u) => [...new Set([...(u.coreVocabularyIds || []), ...(u.linkedEntryIds || [])])].map(findEntry).filter(Boolean);
   function openUnit(u) { unit = u; window.scrollTo(0, 0); }
@@ -31,10 +32,16 @@
       <div class="eyebrow">Just arrived in Korea</div>
       <h1>Newcomer Guide</h1>
       <p>Survival Korean by real situation — phrases first, with the practical steps and official links you need.</p>
+      <div class="guide-stats">
+        <span>{guideTracks.length} tracks</span>
+        <span>{totalUnits} situation guides</span>
+      </div>
     </div>
     <nav class="tracks">
       {#each guideTracks as t}
-        <button class:on={t.id === track.id} on:click={() => pickTrack(t.id)}>{t.letter} · {t.title}</button>
+        <button class:on={t.id === track.id} on:click={() => pickTrack(t.id)}>
+          {t.letter} · {t.title}<span>{(t.units || []).length}</span>
+        </button>
       {/each}
     </nav>
     <p class="summary">{track.summary}</p>
@@ -125,9 +132,14 @@
   .eyebrow { font-size: 12px; font-weight: 850; letter-spacing: .06em; text-transform: uppercase; color: var(--green-dark); }
   h1 { margin: 2px 0; font-size: 30px; letter-spacing: -0.02em; }
   .hero p { margin: 0; color: var(--ink-3); }
+  .guide-stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .guide-stats span { padding: 5px 9px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border);
+    color: var(--ink-2); font-size: 12px; font-weight: 800; }
   .tracks { display: flex; flex-wrap: wrap; gap: 8px; }
-  .tracks button { padding: 8px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; font-size: 13px; }
+  .tracks button { display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; font-size: 13px; }
   .tracks button.on { background: var(--green); color: #fff; }
+  .tracks button span { min-width: 22px; height: 22px; display: grid; place-items: center; border-radius: 999px; background: #fff; color: var(--ink-2); font-size: 11px; }
+  .tracks button.on span { color: var(--green-dark); }
   .summary { margin: 0; color: var(--ink-2); }
   .unit-list { display: grid; gap: 10px; }
   .unit-card { display: grid; gap: 2px; text-align: left; padding: 15px 16px; border-radius: var(--radius); background: var(--surface);

@@ -1912,6 +1912,337 @@
           "notes": "Korean apartment deliveries are usually contactless — drivers leave parcels at the door, in a parcel box (택배함), or with the security office (경비실). Save your tracking number to follow the parcel online."
         }
       ]
+    },
+    {
+      "id": "track-emergency-work",
+      "letter": "E",
+      "title": "Emergency & Work Life",
+      "summary": "What to say when something goes wrong: call emergency services, explain a work or shift problem, and ask for help with neighborhood issues.",
+      "units": [
+        {
+          "id": "guide-e-emergency",
+          "title": "Call 119 or 112 in an Emergency",
+          "situation": "You need urgent help after an accident, sudden illness, fire, or unsafe situation.",
+          "goal": "I can call 119 or 112, state the emergency, give my location, and ask for an interpreter if needed.",
+          "keyPhrases": [
+            {
+              "ko": "도와 주세요.",
+              "romanization": "dowa juseyo.",
+              "en": "Please help me.",
+              "note": "The shortest high-value emergency request."
+            },
+            {
+              "ko": "119에 전화해 주세요.",
+              "romanization": "119-e jeonhwahae juseyo.",
+              "en": "Please call 119.",
+              "note": "Use for ambulance, fire, and rescue help."
+            },
+            {
+              "ko": "112에 신고해 주세요.",
+              "romanization": "112-e singohae juseyo.",
+              "en": "Please report it to 112 / call the police.",
+              "note": "Use for police help or immediate danger."
+            },
+            {
+              "ko": "여기가 어디인지 잘 모르겠어요.",
+              "romanization": "yeogiga eodiinji jal moreugesseoyo.",
+              "en": "I'm not sure where this is.",
+              "note": "Useful when you are lost or shaken."
+            },
+            {
+              "ko": "통역이 필요해요.",
+              "romanization": "tongyeogi piryohaeyo.",
+              "en": "I need interpretation.",
+              "note": "Say this early if the call is difficult."
+            },
+            {
+              "ko": "사람이 다쳤어요.",
+              "romanization": "sarami dachyeosseoyo.",
+              "en": "Someone is hurt.",
+              "note": "다치다 = to get injured; past form 다쳤어요."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "Operator",
+              "ko": "119입니다. 무슨 일이세요?",
+              "romanization": "119-imnida. museun iriseyo?",
+              "en": "This is 119. What happened?"
+            },
+            {
+              "speaker": "You",
+              "ko": "사람이 다쳤어요. 통역이 필요해요.",
+              "romanization": "sarami dachyeosseoyo. tongyeogi piryohaeyo.",
+              "en": "Someone is hurt. I need interpretation."
+            },
+            {
+              "speaker": "Operator",
+              "ko": "지금 위치가 어디예요?",
+              "romanization": "jigeum wichiga eodiyeyo?",
+              "en": "Where are you now?"
+            },
+            {
+              "speaker": "You",
+              "ko": "주소를 보내드릴게요. 빨리 와 주세요.",
+              "romanization": "jusoreul bonaedeurilgeyo. ppalli wa juseyo.",
+              "en": "I'll send the address. Please come quickly."
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "119 vs 112",
+              "body": "Use 119 for ambulance, fire, rescue, and medical emergencies. Use 112 for police help, violence, theft, stalking, or immediate danger. If you freeze, say 도와 주세요 first, then your location."
+            },
+            {
+              "title": "Location first",
+              "body": "Korean emergency calls need your location quickly. Say the building name, subway exit, nearby store, or send the address by text if possible: 주소를 보내드릴게요."
+            },
+            {
+              "title": "Interpreter request",
+              "body": "통역이 필요해요 means “I need interpretation.” Use it early. Keep sentences short: 다쳤어요, 아파요, 불이 났어요, 위험해요."
+            }
+          ],
+          "checkpoints": [
+            "I can ask for help with 도와 주세요.",
+            "I know 119 is for ambulance/fire/rescue and 112 is for police.",
+            "I can say 통역이 필요해요 and give or send my location.",
+            "I can explain injury with 사람이 다쳤어요."
+          ],
+          "linkedEntryIds": [
+            "pattern-015",
+            "pattern-016",
+            "pattern-002",
+            "expr-009"
+          ],
+          "steps": [
+            "Move to a safer place if you can.",
+            "Call 119 for medical/fire/rescue or 112 for police.",
+            "Say the problem first: 사람이 다쳤어요 / 불이 났어요 / 위험해요.",
+            "Give your location or say 주소를 보내드릴게요.",
+            "Ask for interpretation with 통역이 필요해요."
+          ],
+          "deepLinks": [
+            {
+              "label": "Emergency Ready App",
+              "url": "https://english.seoul.go.kr/service/living/disaster-evacuation-tips-citizens/emergency-ready-app/",
+              "note": "Multilingual emergency alerts, safety guidance, and shelter information."
+            }
+          ],
+          "costs": "Emergency calls to 119 and 112 are free. Medical treatment or ambulance-related costs can depend on the situation and insurance.",
+          "notes": "Save your home address in Korean in your phone. In a real emergency, showing or sending the written address can be faster than trying to pronounce it."
+        },
+        {
+          "id": "guide-e-work-shift",
+          "title": "Call in Sick or Explain a Work Problem",
+          "situation": "You have a part-time job, shift, class assistant job, or office role and need to explain illness, lateness, pay, or schedule trouble politely.",
+          "goal": "I can tell a manager I am sick or late, ask about pay or schedule, and know where official labor help starts.",
+          "keyPhrases": [
+            {
+              "ko": "오늘 몸이 안 좋아서 출근이 어려울 것 같아요.",
+              "romanization": "oneul momi an joaseo chulgeuni eoryeoul geot gatayo.",
+              "en": "I do not feel well today, so I think it will be hard to come to work.",
+              "note": "Soft, polite, and workplace-safe."
+            },
+            {
+              "ko": "20분 정도 늦을 것 같아요.",
+              "romanization": "isip bun jeongdo neujeul geot gatayo.",
+              "en": "I think I will be about 20 minutes late.",
+              "note": "Give the time estimate clearly."
+            },
+            {
+              "ko": "근무 시간을 확인하고 싶어요.",
+              "romanization": "geunmu siganeul hwaginhago sipeoyo.",
+              "en": "I want to check my working hours.",
+              "note": "근무 시간 = work hours / shift hours."
+            },
+            {
+              "ko": "급여일이 언제예요?",
+              "romanization": "geubyeoiri eonjeyeyo?",
+              "en": "When is payday?",
+              "note": "급여일 = payday."
+            },
+            {
+              "ko": "계약서를 다시 확인해도 될까요?",
+              "romanization": "gyeyakseoreul dasi hwaginhaedo doelkkayo?",
+              "en": "May I check the contract again?",
+              "note": "A polite way to ask without sounding accusatory."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "Manager",
+              "ko": "오늘 몇 시에 올 수 있어요?",
+              "romanization": "oneul myeot sie ol su isseoyo?",
+              "en": "What time can you come today?"
+            },
+            {
+              "speaker": "You",
+              "ko": "죄송해요. 몸이 안 좋아서 오늘 출근이 어려울 것 같아요.",
+              "romanization": "joesonghaeyo. momi an joaseo oneul chulgeuni eoryeoul geot gatayo.",
+              "en": "I am sorry. I do not feel well, so I think it will be hard to come in today."
+            },
+            {
+              "speaker": "Manager",
+              "ko": "알겠어요. 내일은 괜찮아요?",
+              "romanization": "algesseoyo. naeireun gwaenchanayo?",
+              "en": "Okay. Are you okay for tomorrow?"
+            },
+            {
+              "speaker": "You",
+              "ko": "네, 내일은 출근할 수 있을 것 같아요.",
+              "romanization": "ne, naeireun chulgeunhal su isseul geot gatayo.",
+              "en": "Yes, I think I can come to work tomorrow."
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "Use soft prediction at work",
+              "body": "-ㄹ 것 같아요 softens a difficult message: 어려울 것 같아요, 늦을 것 같아요, 갈 수 있을 것 같아요. It sounds less blunt than 못 가요 or 늦어요."
+            },
+            {
+              "title": "Ask about money and contracts calmly",
+              "body": "For pay, schedule, or contracts, use 확인하고 싶어요 or 다시 확인해도 될까요? These are neutral workplace phrases before a disagreement becomes a complaint."
+            },
+            {
+              "title": "Know the official help line",
+              "body": "For labor law questions, the Ministry of Employment and Labor lists labor counseling at 1350 for domestic calls and an overseas number on its English site."
+            }
+          ],
+          "checkpoints": [
+            "I can say I am sick and cannot come in today politely.",
+            "I can give a lateness estimate with 20분 정도 늦을 것 같아요.",
+            "I can ask about work hours, payday, and a contract without sounding aggressive.",
+            "I know MOEL 1350 is the official starting point for labor-law counseling."
+          ],
+          "linkedEntryIds": [
+            "pattern-031",
+            "pattern-018",
+            "pattern-007",
+            "pattern-014"
+          ],
+          "steps": [
+            "Message or call as early as possible if you are sick or late.",
+            "State the reason briefly: 몸이 안 좋아서 / 지하철이 지연돼서.",
+            "Give the expected action: 출근이 어려울 것 같아요 / 20분 늦을 것 같아요.",
+            "For money or schedule issues, ask to check details first: 확인하고 싶어요.",
+            "If it becomes a legal issue, contact MOEL labor counseling."
+          ],
+          "deepLinks": [
+            {
+              "label": "Ministry of Employment and Labor",
+              "url": "https://www.moel.go.kr/english/",
+              "note": "Official labor information and labor-law counseling contact numbers, including 1350."
+            }
+          ],
+          "costs": "Asking your workplace is free. Official counseling numbers may follow normal phone-rate rules depending on your plan.",
+          "notes": "Keep screenshots of schedules, contract terms, pay dates, and messages. Clear records help if a misunderstanding becomes a formal labor question."
+        },
+        {
+          "id": "guide-e-neighborhood-help",
+          "title": "Noise, Lost Items, and Local Complaints",
+          "situation": "You need help from a neighbor, building guard, local office, or city call center about noise, lost items, or a local living problem.",
+          "goal": "I can ask politely about noise, report a lost item, and contact 120 for local help when I do not know which office handles the issue.",
+          "keyPhrases": [
+            {
+              "ko": "혹시 조금만 조용히 해 주실 수 있을까요?",
+              "romanization": "hoksi jogeumman joyonghi hae jusil su isseulkkayo?",
+              "en": "Could you possibly be a little quieter?",
+              "note": "Very softened; good with neighbors."
+            },
+            {
+              "ko": "지갑을 잃어버렸어요.",
+              "romanization": "jigabeul ireobeoryeosseoyo.",
+              "en": "I lost my wallet.",
+              "note": "Swap 지갑 for 휴대폰, 카드, 여권."
+            },
+            {
+              "ko": "분실물 센터가 어디예요?",
+              "romanization": "bunsilmul senteoga eodiyeyo?",
+              "en": "Where is the lost-and-found center?",
+              "note": "Useful in subway stations, buses, airports, and malls."
+            },
+            {
+              "ko": "이 문제는 어디에 문의해야 해요?",
+              "romanization": "i munjeneun eodie munuihaeya haeyo?",
+              "en": "Where should I ask about this issue?",
+              "note": "When you do not know the right office."
+            },
+            {
+              "ko": "120에 문의해 볼게요.",
+              "romanization": "120-e munuihae bolgeyo.",
+              "en": "I will try asking 120.",
+              "note": "120 is a city service/civil complaint help line in Seoul."
+            }
+          ],
+          "dialogue": [
+            {
+              "speaker": "You",
+              "ko": "안녕하세요. 밤에 소리가 조금 커서요.",
+              "romanization": "annyeonghaseyo. bame soriga jogeum keoseoyo.",
+              "en": "Hello. The noise is a little loud at night."
+            },
+            {
+              "speaker": "Neighbor",
+              "ko": "아, 죄송해요. 몰랐어요.",
+              "romanization": "a, joesonghaeyo. mollasseoyo.",
+              "en": "Oh, I am sorry. I did not know."
+            },
+            {
+              "speaker": "You",
+              "ko": "괜찮아요. 혹시 조금만 조용히 해 주실 수 있을까요?",
+              "romanization": "gwaenchanayo. hoksi jogeumman joyonghi hae jusil su isseulkkayo?",
+              "en": "It is okay. Could you possibly be a little quieter?"
+            }
+          ],
+          "beginnerGuide": [
+            {
+              "title": "Lead with 혹시 and 조금만",
+              "body": "Noise and neighbor issues can sound confrontational. 혹시 and 조금만 soften the request: 혹시 조금만 조용히 해 주실 수 있을까요?"
+            },
+            {
+              "title": "Lost item frame",
+              "body": "Use N을/를 잃어버렸어요 for lost things: 지갑을 잃어버렸어요, 카드를 잃어버렸어요, 여권을 잃어버렸어요. Then ask 분실물 센터가 어디예요?"
+            },
+            {
+              "title": "120 as a routing helper",
+              "body": "If you are in Seoul and do not know whether to ask a district office, transport office, or another city service, 120 Dasan can route general living and civil-service questions."
+            }
+          ],
+          "checkpoints": [
+            "I can soften a neighbor request with 혹시 and 조금만.",
+            "I can say I lost a wallet/card/passport using 잃어버렸어요.",
+            "I can ask where the lost-and-found center is.",
+            "I know 120 can help route Seoul city-service questions and complaints."
+          ],
+          "linkedEntryIds": [
+            "pattern-014",
+            "pattern-015",
+            "pattern-020",
+            "expr-010"
+          ],
+          "steps": [
+            "For a neighbor issue, start polite and specific: 밤에 소리가 조금 커서요.",
+            "Make a soft request: 조금만 조용히 해 주실 수 있을까요?",
+            "For a lost item, name the item and where you lost it if possible.",
+            "Ask 분실물 센터가 어디예요? at stations, malls, buses, or offices.",
+            "If you do not know the right local office, ask 120 or your building manager."
+          ],
+          "deepLinks": [
+            {
+              "label": "120 Dasan Call Center",
+              "url": "https://www.120dasan.or.kr/static/lang/lang1.html",
+              "note": "Foreign-language help for Seoul living information and civil complaints."
+            },
+            {
+              "label": "Seoul foreign language consultation notice",
+              "url": "https://english.seoul.go.kr/120-dasan-call-center-danuri-call-center-now-offer-24-7-foreign-language-consultation/",
+              "note": "Seoul announcement about foreign-language consultation support."
+            }
+          ],
+          "costs": "Calling 120 may follow normal phone charges depending on your plan. Lost-item storage or document replacement fees vary by place and item.",
+          "notes": "For immediate danger, do not use 120 first — call 112 or 119. Use 120 for city-service questions, living information, or non-emergency complaints."
+        }
+      ]
     }
   ]
 }

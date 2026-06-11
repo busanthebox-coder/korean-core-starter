@@ -23,7 +23,8 @@ describe('data layer', () => {
   });
   it('exposes dialogues and guide tracks', () => {
     expect(dialogues.length).toBeGreaterThanOrEqual(8);
-    expect(guideTracks.length).toBe(4);
+    expect(guideTracks.length).toBeGreaterThanOrEqual(5);
+    expect(guideTracks.some((track) => track.id === 'track-emergency-work')).toBe(true);
   });
 
   describe('truthful B1 tagging', () => {

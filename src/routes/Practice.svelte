@@ -4,10 +4,12 @@
   import { buildQuiz, makeMatch, buildWriteQuiz, buildSentenceQuiz } from '../lib/quiz.js';
   import ExerciseHost from '../lib/components/ExerciseHost.svelte';
   import MatchGame from '../lib/components/MatchGame.svelte';
+  import PatternContrastSession from '../lib/components/PatternContrastSession.svelte';
   import ReviewSession from '../lib/components/ReviewSession.svelte';
   import { reviews, dueIds, summarize } from '../lib/srs.js';
   import { study, streak, todayCount, goalOf } from '../lib/progress.js';
   import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
+  import { buildContrastQuiz } from '../lib/patternContrast.js';
 
   const WEAK_DECK = '__weak';
 
@@ -17,6 +19,7 @@
   let matchData = null;
   let result = null;
   let sessionCards = [];
+  let contrastQuestions = [];
   let added = false;
 
   function syncDeckFromUrl() {
@@ -72,6 +75,7 @@
   function startWrite() { questions = buildWriteQuiz(pool, { count: 8 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startBuild() { questions = buildSentenceQuiz(pool, { count: 6 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startMatch() { matchData = makeMatch(pool, Math.random, 5); stage = 'match'; window.scrollTo(0, 0); }
+  function startContrast() { contrastQuestions = buildContrastQuiz({ count: 8 }); stage = 'contrast'; window.scrollTo(0, 0); }
   $: canBuild = pool.some((e) => (e.examples || []).some((x) => x.ko && x.ko.trim().split(/\s+/).length >= 2));
   function finish(r) {
     result = r;
@@ -169,6 +173,13 @@
             <span class="m-ico">🧩</span><strong>Build</strong><span>Arrange the words into a real sentence</span></button>
         </div>
       </div>
+      <div class="mode-group">
+        <span class="group-label contrast">Pattern Lab · 문법 구분</span>
+        <div class="modes single">
+          <button class="mode-card contrast" on:click={startContrast}>
+            <span class="m-ico">⚖️</span><strong>Contrast Lab</strong><span>Choose between similar Korean patterns and learn why</span></button>
+        </div>
+      </div>
     {/if}
 
   {:else if stage === 'quiz'}
@@ -179,6 +190,10 @@
     <button class="back" on:click={reset}>← Practice</button>
     <p class="match-hint">Tap a Korean word, then its English meaning.</p>
     <MatchGame pairs={matchData.pairs} onDone={finish} />
+
+  {:else if stage === 'contrast'}
+    <button class="back" on:click={reset}>← Practice</button>
+    <PatternContrastSession items={contrastQuestions} onDone={finish} />
 
   {:else if stage === 'review'}
     <button class="back" on:click={reviewDone}>← Practice</button>
@@ -249,11 +264,15 @@
   .mode-group { display: grid; gap: 8px; }
   .group-label { font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
   .group-label.produce { color: var(--green-dark); }
+  .group-label.contrast { color: var(--type-pattern); }
   .modes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .modes.single { grid-template-columns: 1fr; }
   .mode-card { display: grid; gap: 4px; padding: 22px 18px; border-radius: var(--radius); background: var(--surface);
     border: 1px solid var(--border); box-shadow: var(--shadow-1); text-align: center; transition: transform .1s var(--bounce), border-color .1s; }
   .mode-card:hover { transform: translateY(-2px); border-color: var(--green); }
   .mode-card.produce { border-left: 4px solid var(--green); }
+  .mode-card.contrast { border-left: 4px solid var(--type-pattern); }
+  .mode-card.contrast:hover { border-color: var(--type-pattern); }
   .mode-card.disabled { opacity: .45; pointer-events: none; }
   .m-ico { font-size: 30px; }
   .mode-card strong { font-size: 18px; }
