@@ -62,4 +62,14 @@ export function markDialogueSeen(id) { updateLessonActivity(id, { dialogueSeen: 
 export function markLessonPracticed(id) { updateLessonActivity(id, { practiceDone: true }); }
 export function resetLessonActivity() { lessonActivity.set({}); }
 
+export const guideProgress = persistedSet('kcs.guide-ready-v1');
+export function toggleGuideReady(id) {
+  guideProgress.update((set) => {
+    const next = new Set(set);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    return next;
+  });
+}
+
 export const filters = writable({ search: '', type: new Set(), level: new Set(), topic: new Set(), pos: new Set() });

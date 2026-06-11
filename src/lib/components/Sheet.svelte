@@ -10,6 +10,7 @@
 {#if open}
   <!-- svelte-ignore a11y-click-events-have-key-events -- click-outside closes; Escape also closes via the window handler above -->
   <div class="overlay" on:click={onClose} role="presentation">
+    <!-- svelte-ignore a11y-no-noninteractive-element-interactions -- this dialog body only stops overlay click propagation -->
     <div class="sheet" on:click|stopPropagation role="dialog" aria-modal="true">
       <button class="close" type="button" on:click={onClose} aria-label="Close">✕</button>
       <div class="sheet-body"><slot /></div>

@@ -8,14 +8,15 @@
   import PracticeRecoveryPanel from '../lib/components/PracticeRecoveryPanel.svelte';
   import PracticeSetupPanel from '../lib/components/PracticeSetupPanel.svelte';
   import ReviewSession from '../lib/components/ReviewSession.svelte';
+  import EntryDetail from '../lib/components/EntryDetail.svelte';
+  import Sheet from '../lib/components/Sheet.svelte';
   import { reviews, dueIds, summarize } from '../lib/srs.js';
   import { study, streak, todayCount, goalOf } from '../lib/progress.js';
   import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
   import { buildContrastQuiz } from '../lib/patternContrast.js';
   import { markLessonPracticed } from '../lib/stores.js';
+  import { FOCUS_DECK, WEAK_DECK, parseFocusParam } from '../lib/studyLinks.js';
   import { push } from 'svelte-spa-router';
-
-  const WEAK_DECK = '__weak';
 
   let stage = 'setup';
   let deck = 'all';
@@ -24,10 +25,18 @@
   let result = null;
   let sessionCards = [];
   let contrastQuestions = [];
+  let selected = null;
   let added = false;
+  let focusIds = [];
 
   function syncDeckFromUrl() {
     const query = (window.location.hash.split('?')[1] || '').split('#')[0];
+    const focus = parseFocusParam(window.location.hash);
+    if (focus.ids.length) {
+      focusIds = focus.ids;
+      deck = FOCUS_DECK;
+      return;
+    }
     const requested = new URLSearchParams(query).get('deck');
     if (requested === WEAK_DECK || chapters.some((c) => c.id === requested)) deck = requested;
   }
@@ -59,6 +68,7 @@
   let kind = 'all';
   const isChapterDeck = (d) => chapters.some((c) => c.id === d);
   function deckItems(d) {
+    if (d === FOCUS_DECK) return focusIds.map(findEntry).filter(Boolean);
     if (d === WEAK_DECK) return weakItems;
     if (d === 'all') return entries;
     const ch = chapters.find((c) => c.id === d);
@@ -68,7 +78,9 @@
   }
   $: base = deckItems(deck);
   $: pool = kind === 'all' ? base : base.filter((e) => e.type === kind);
-  $: deckLabel = deck === WEAK_DECK
+  $: deckLabel = deck === FOCUS_DECK
+    ? 'focused items'
+    : deck === WEAK_DECK
     ? 'weak items'
     : deck === 'all'
       ? 'Everything'
@@ -125,6 +137,7 @@
       bind:kind
       kindOptions={KINDS}
       {kindCounts}
+      focusCount={focusIds.length}
       poolLength={pool.length}
       learned={sum.learned}
       {streakDays}
@@ -171,9 +184,14 @@
       onPracticeWeak={startWeakPractice}
       onReviewDue={startReview}
       onBackToLearn={() => push('/learn')}
+      onStudyItem={(item) => (selected = item)}
     />
   {/if}
 </section>
+
+<Sheet open={!!selected} onClose={() => (selected = null)}>
+  {#if selected}<EntryDetail entry={selected} />{/if}
+</Sheet>
 
 <style>
   .practice { max-width: 760px; margin: 0 auto; padding: 32px 28px; display: grid; gap: 16px; }

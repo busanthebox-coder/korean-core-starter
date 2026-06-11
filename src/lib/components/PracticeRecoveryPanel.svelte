@@ -7,6 +7,7 @@
   export let onPracticeWeak = () => {};
   export let onReviewDue = () => {};
   export let onBackToLearn = () => {};
+  export let onStudyItem = () => {};
 
   $: total = result?.total || 0;
   $: correct = result?.correct || 0;
@@ -50,7 +51,7 @@
       <p>Work the mistake bank before starting new material. These items stay there until you answer them correctly.</p>
       <div class="weak-list" aria-label="Weak items to review">
         {#each previewItems as item}
-          <span><b>{item.hangul}</b>{item.english}</span>
+          <span><b>{item.hangul}</b>{item.english}<button type="button" on:click={() => onStudyItem(item)} aria-label="Study {item.hangul}">Study</button></span>
         {/each}
         {#if weakItems.length > previewItems.length}
           <span class="more">+{weakItems.length - previewItems.length} more</span>
@@ -96,6 +97,8 @@
   .weak-list span { display: inline-flex; align-items: baseline; gap: 6px; padding: 8px 10px; border-radius: 999px;
     border: 1px solid #ffd8c8; background: #fff8f4; color: #8b4b37; font-size: 13px; font-weight: 750; }
   .weak-list b { color: var(--ink); font-size: 16px; }
+  .weak-list button { margin-left: 2px; padding: 3px 7px; border-radius: 999px; background: #fff; border: 1px solid #ffd8c8;
+    color: #b5411f; font-size: 11px; font-weight: 850; }
   .weak-list .more { color: var(--ink-2); background: var(--surface-2); border-color: var(--border); }
   .rec-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
   .rec-steps div { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 8px; min-height: 48px; padding: 10px;

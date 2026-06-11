@@ -4,7 +4,12 @@
   import RomanizationLine from '../lib/components/RomanizationLine.svelte';
   import EntryCard from '../lib/components/EntryCard.svelte';
   import EntryDetail from '../lib/components/EntryDetail.svelte';
+  import GuideActionPanel from '../lib/components/GuideActionPanel.svelte';
   import Sheet from '../lib/components/Sheet.svelte';
+  import { reviews } from '../lib/srs.js';
+  import { guideProgress, toggleGuideReady } from '../lib/stores.js';
+  import { entryIdsForUnit, focusPracticePath } from '../lib/studyLinks.js';
+  import { push } from 'svelte-spa-router';
 
   let trackId = guideTracks[0]?.id;
   let unit = null;
@@ -17,6 +22,17 @@
   function back() { unit = null; window.scrollTo(0, 0); }
   function pickTrack(id) { trackId = id; }
   $: vocab = unit ? vocabOf(unit) : [];
+  $: unitKey = unit ? unit.id || `${track.id}:${unit.title}` : '';
+  $: ready = unitKey ? $guideProgress.has(unitKey) : false;
+
+  function addGuideVocab() {
+    reviews.addMany(vocab.map((e) => e.id));
+  }
+  function practiceGuide() {
+    const ids = entryIdsForUnit(unit);
+    reviews.addMany(ids);
+    push(focusPracticePath(ids));
+  }
 
   // Prev/next pager within the current track so learners move straight to the
   // adjacent unit instead of bouncing back to the unit list.
@@ -57,6 +73,14 @@
   <section class="guide">
     <button class="back" on:click={back}>← {track.title}</button>
     <div class="u-head"><h1>{unit.title}</h1><p class="sit">{unit.situation}</p><p class="goal">{unit.goal}</p></div>
+    <GuideActionPanel
+      {unit}
+      {vocab}
+      {ready}
+      onAddReview={addGuideVocab}
+      onPractice={practiceGuide}
+      onToggleReady={() => toggleGuideReady(unitKey)}
+    />
 
     {#if (unit.beginnerGuide || []).length}
       <div class="bg">{#each unit.beginnerGuide as b}<div class="bg-card"><strong>{b.title}</strong><p>{b.body}</p></div>{/each}</div>

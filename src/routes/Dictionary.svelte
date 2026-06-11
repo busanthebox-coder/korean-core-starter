@@ -1,10 +1,14 @@
 <script>
-  import { entries, levels } from '../lib/data.js';
+  import { entries, levels, chapters } from '../lib/data.js';
   import { filters } from '../lib/stores.js';
   import { filterEntries, facetValues } from '../lib/search.js';
   import EntryCard from '../lib/components/EntryCard.svelte';
   import EntryDetail from '../lib/components/EntryDetail.svelte';
+  import EntryLearningHub from '../lib/components/EntryLearningHub.svelte';
   import Sheet from '../lib/components/Sheet.svelte';
+  import { reviews } from '../lib/srs.js';
+  import { chapterForEntry, focusPracticePath, learnChapterPath } from '../lib/studyLinks.js';
+  import { push } from 'svelte-spa-router';
 
   const TYPES = [['word', 'Words'], ['expression', 'Expressions'], ['pattern', 'Patterns']];
   const LEVELS = levels;
@@ -14,6 +18,7 @@
   let selected = null;
 
   $: results = filterEntries(entries, $filters);
+  $: selectedChapter = selected ? chapterForEntry(chapters, selected.id) : null;
 
   function toggle(facet, value) {
     filters.update((f) => {
@@ -53,7 +58,17 @@
 </section>
 
 <Sheet open={!!selected} onClose={() => (selected = null)}>
-  {#if selected}<EntryDetail entry={selected} />{/if}
+  {#if selected}
+    <EntryLearningHub
+      entry={selected}
+      chapter={selectedChapter}
+      inDeck={!!$reviews[selected.id]}
+      onAddReview={() => reviews.add(selected.id)}
+      onPractice={() => push(focusPracticePath([selected.id]))}
+      onOpenChapter={() => push(learnChapterPath(selectedChapter?.id))}
+    />
+    <EntryDetail entry={selected} />
+  {/if}
 </Sheet>
 
 <style>

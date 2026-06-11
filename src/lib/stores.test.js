@@ -8,8 +8,10 @@ import {
   markDialogueSeen,
   markLessonDone,
   markLessonPracticed,
+  guideProgress,
   resetLessonActivity,
   resetLessonProgress,
+  toggleGuideReady,
   toggleLessonDone,
   unmarkLessonDone,
 } from './stores.js';
@@ -62,5 +64,12 @@ describe('stores', () => {
 
     resetLessonActivity();
     expect(get(lessonActivity)).toEqual({});
+  });
+
+  it('toggles guide unit readiness', () => {
+    toggleGuideReady('unit-a');
+    expect(get(guideProgress).has('unit-a')).toBe(true);
+    toggleGuideReady('unit-a');
+    expect(get(guideProgress).has('unit-a')).toBe(false);
   });
 });

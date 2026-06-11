@@ -5,6 +5,7 @@ import PracticeRecoveryPanel from './PracticeRecoveryPanel.svelte';
 describe('PracticeRecoveryPanel', () => {
   it('points missed sessions toward weak-item recovery first', async () => {
     const onPracticeWeak = vi.fn();
+    const onStudyItem = vi.fn();
 
     render(PracticeRecoveryPanel, {
       result: { correct: 6, total: 10 },
@@ -14,6 +15,7 @@ describe('PracticeRecoveryPanel', () => {
       ],
       dueCount: 3,
       onPracticeWeak,
+      onStudyItem,
     });
 
     expect(screen.getByText('Fix the missed items first')).toBeInTheDocument();
@@ -22,6 +24,10 @@ describe('PracticeRecoveryPanel', () => {
     await fireEvent.click(screen.getByRole('button', { name: /Practice weak items/ }));
 
     expect(onPracticeWeak).toHaveBeenCalledOnce();
+
+    await fireEvent.click(screen.getByRole('button', { name: 'Study 가다' }));
+
+    expect(onStudyItem).toHaveBeenCalledWith(expect.objectContaining({ id: 'word-001' }));
   });
 
   it('sends a perfect session to due review when review cards exist', async () => {

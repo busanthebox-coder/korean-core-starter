@@ -8,6 +8,8 @@
   export let kind = 'all';
   export let kindOptions = [];
   export let kindCounts = {};
+  export let focusCount = 0;
+  export let focusLabel = 'Focused items';
   export let poolLength = 0;
   export let learned = 0;
   export let streakDays = 0;
@@ -75,6 +77,7 @@
 <label class="deck">Set
   <select bind:value={deck}>
     <option value="all">Everything ({entries.length})</option>
+    {#if focusCount}<option value="__focus">{focusLabel} ({focusCount})</option>{/if}
     {#if weakItems.length}<option value="__weak">Weak items ({weakItems.length})</option>{/if}
     {#each chapters as chapter}<option value={chapter.id}>Ch {chapter.number}: {chapter.title}</option>{/each}
   </select>
