@@ -10,6 +10,7 @@
   import { study, streak, todayCount, goalOf } from '../lib/progress.js';
   import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
   import { buildContrastQuiz } from '../lib/patternContrast.js';
+  import { markLessonPracticed } from '../lib/stores.js';
 
   const WEAK_DECK = '__weak';
 
@@ -53,6 +54,7 @@
   // not just vocabulary. `kind` narrows the active set by type.
   const KINDS = [['all', 'All'], ['word', 'Words'], ['expression', 'Expressions'], ['pattern', 'Patterns']];
   let kind = 'all';
+  const isChapterDeck = (d) => chapters.some((c) => c.id === d);
   function deckItems(d) {
     if (d === WEAK_DECK) return weakItems;
     if (d === 'all') return entries;
@@ -80,6 +82,7 @@
   function finish(r) {
     result = r;
     if (r && r.total) study.log(r.total);
+    if (r && r.total && isChapterDeck(deck)) markLessonPracticed(deck);
     if (r?.wrongIds?.length) mistakes.record(r.wrongIds);
     if (deck === WEAK_DECK && r?.correctIds?.length) {
       const stillWrong = new Set(r.wrongIds || []);

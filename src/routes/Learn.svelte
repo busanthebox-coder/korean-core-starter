@@ -1,6 +1,7 @@
 <script>
   import { chapters, findEntry, findGrammar } from '../lib/data.js';
-  import { lessonProgress, resetLessonProgress, toggleLessonDone } from '../lib/stores.js';
+  import { lessonActivity, lessonProgress, markDialogueSeen, resetLessonProgress, toggleLessonDone } from '../lib/stores.js';
+  import { lessonPlanState } from '../lib/lessonPlan.js';
   import { dueIds, reviews, masteryOf } from '../lib/srs.js';
   import { study, streak } from '../lib/progress.js';
   import { push } from 'svelte-spa-router';
@@ -32,6 +33,7 @@
   function practiceChapter(ch) { push(`/practice?deck=${encodeURIComponent(ch.id)}`); }
   function addChapterDeck(ch) { reviews.addMany(chapterItemIds(ch)); }
   function scrollToDialogue() {
+    if (chapter) markDialogueSeen(chapter.id);
     document.querySelector('.dlg')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
@@ -58,6 +60,19 @@
   $: dueSet = new Set(dueIds($reviews));
   $: currentDue = chapter ? currentIds.filter((id) => dueSet.has(id)).length : 0;
   $: currentDeckReady = currentIds.length > 0 && currentIds.every((id) => $reviews[id]);
+  $: currentPlan = chapter ? lessonPlanState({
+    chapter,
+    itemIds: currentIds,
+    reviews: $reviews,
+    activity: $lessonActivity,
+    lessonDone: $lessonProgress.has(chapter.id),
+    deckReady: currentDeckReady,
+  }) : null;
+  $: currentPlanStatus = currentDue
+    ? `${currentDue} due now`
+    : currentPlan?.active
+      ? `Next: ${currentPlan.nextLabel}`
+      : 'Plan complete';
   $: streakDays = streak($study);
 </script>
 
@@ -142,20 +157,21 @@
           <span class="tp-label">Today plan</span>
           <strong>{currentMastery.mastered}/{currentMastery.total} mastered</strong>
         </div>
-        <span class="tp-due">{currentDue ? `${currentDue} due now` : 'Review clear'}</span>
+        <span class="tp-progress">{currentPlan?.doneCount || 0}/{currentPlan?.total || 4} steps</span>
+        <span class="tp-due">{currentPlanStatus}</span>
       </div>
       <div class="tp-steps">
-        <button class="tp-step" type="button" on:click={scrollToDialogue}>
-          <span class="tp-num">1</span><span>Dialogue</span>
+        <button class="tp-step" type="button" class:primary={currentPlan?.active === 'dialogue'} class:done={currentPlan?.dialogueDone} aria-current={currentPlan?.active === 'dialogue' ? 'step' : undefined} on:click={scrollToDialogue}>
+          <span class="tp-num">{currentPlan?.dialogueDone ? '✓' : '1'}</span><span>Dialogue</span>
         </button>
-        <button class="tp-step" type="button" class:done={currentDeckReady} on:click={() => addChapterDeck(chapter)}>
-          <span class="tp-num">2</span><span>{currentDeckReady ? 'Deck ready' : `Add ${currentIds.length}`}</span>
+        <button class="tp-step" type="button" class:primary={currentPlan?.active === 'deck'} class:done={currentPlan?.deckDone} aria-current={currentPlan?.active === 'deck' ? 'step' : undefined} on:click={() => addChapterDeck(chapter)}>
+          <span class="tp-num">{currentPlan?.deckDone ? '✓' : '2'}</span><span>{currentPlan?.deckDone ? 'Deck ready' : `Add ${currentIds.length}`}</span>
         </button>
-        <button class="tp-step primary" type="button" on:click={() => practiceChapter(chapter)}>
-          <span class="tp-num">3</span><span>Practice</span>
+        <button class="tp-step" type="button" class:primary={currentPlan?.active === 'practice'} class:done={currentPlan?.practiceDone} aria-current={currentPlan?.active === 'practice' ? 'step' : undefined} on:click={() => practiceChapter(chapter)}>
+          <span class="tp-num">{currentPlan?.practiceDone ? '✓' : '3'}</span><span>Practice</span>
         </button>
-        <button class="tp-step" type="button" class:done={$lessonProgress.has(chapter.id)} aria-pressed={$lessonProgress.has(chapter.id)} on:click={() => toggleLessonDone(chapter.id)}>
-          <span class="tp-num">4</span><span>{$lessonProgress.has(chapter.id) ? 'Completed' : 'Complete'}</span>
+        <button class="tp-step" type="button" class:primary={currentPlan?.active === 'complete'} class:done={currentPlan?.completeDone} aria-current={currentPlan?.active === 'complete' ? 'step' : undefined} aria-pressed={$lessonProgress.has(chapter.id)} on:click={() => toggleLessonDone(chapter.id)}>
+          <span class="tp-num">{currentPlan?.completeDone ? '✓' : '4'}</span><span>{currentPlan?.completeDone ? 'Completed' : 'Complete'}</span>
         </button>
       </div>
     </div>
@@ -283,6 +299,7 @@
   .tp-top > div { display: grid; gap: 2px; }
   .tp-label { font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; color: #146443; }
   .tp-top strong { font-size: 18px; line-height: 1.1; }
+  .tp-progress { margin-left: auto; color: #146443; font-size: 12px; font-weight: 850; white-space: nowrap; }
   .tp-due { padding: 6px 10px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-size: 12px; font-weight: 850; white-space: nowrap; }
   .tp-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
   .tp-step { min-height: 56px; display: flex; align-items: center; justify-content: center; gap: 8px;
@@ -295,7 +312,11 @@
     border-color: rgba(36, 119, 68, .34);
     box-shadow: inset 0 0 0 1px rgba(36, 119, 68, .14);
   }
-  .tp-step.done { background: #eef7e9; border-color: rgba(36, 119, 68, .24); color: #146443; }
+  .tp-step.done {
+    background: #f7fbf8;
+    border-color: rgba(36, 119, 68, .22);
+    color: #146443;
+  }
   .tp-num { width: 23px; height: 23px; display: grid; place-items: center; border-radius: 999px; background: var(--surface-2);
     color: var(--ink-2); font-size: 12px; font-weight: 900; flex: none; }
   .tp-step.primary .tp-num,
@@ -386,6 +407,7 @@
   .pg-title { font-family: var(--serif-ko); font-size: 15px; font-weight: 600; color: var(--ink); }
   @media (max-width: 520px) {
     .tp-top { align-items: flex-start; flex-direction: column; }
+    .tp-progress { margin-left: 0; }
     .tp-steps { grid-template-columns: 1fr 1fr; }
     .pager { grid-template-columns: 1fr; }
     .pg-spacer { display: none; }

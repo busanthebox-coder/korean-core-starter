@@ -18,6 +18,16 @@ function persistedBool(key, fallback) {
   return store;
 }
 
+function persistedObject(key, fallback = {}) {
+  let initial = fallback;
+  try { initial = JSON.parse(localStorage.getItem(key)) || fallback; } catch { initial = fallback; }
+  const store = writable(initial);
+  store.subscribe((value) => {
+    try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* ignore */ }
+  });
+  return store;
+}
+
 export const romanizationVisible = persistedBool('kcs.roman', true);
 export function toggleRomanization() { romanizationVisible.update((v) => !v); }
 
@@ -39,5 +49,17 @@ export function toggleLessonDone(id) {
   });
 }
 export function resetLessonProgress() { lessonProgress.set(new Set()); }
+
+export const lessonActivity = persistedObject('kcs.lesson-activity-v1', {});
+function updateLessonActivity(id, patch) {
+  if (!id) return;
+  lessonActivity.update((state) => ({
+    ...state,
+    [id]: { ...(state[id] || {}), ...patch, updatedAt: Date.now() },
+  }));
+}
+export function markDialogueSeen(id) { updateLessonActivity(id, { dialogueSeen: true }); }
+export function markLessonPracticed(id) { updateLessonActivity(id, { practiceDone: true }); }
+export function resetLessonActivity() { lessonActivity.set({}); }
 
 export const filters = writable({ search: '', type: new Set(), level: new Set(), topic: new Set(), pos: new Set() });

@@ -3,8 +3,12 @@ import { get } from 'svelte/store';
 import {
   romanizationVisible,
   toggleRomanization,
+  lessonActivity,
   lessonProgress,
+  markDialogueSeen,
   markLessonDone,
+  markLessonPracticed,
+  resetLessonActivity,
   resetLessonProgress,
   toggleLessonDone,
   unmarkLessonDone,
@@ -12,6 +16,7 @@ import {
 
 beforeEach(() => {
   localStorage.clear();
+  resetLessonActivity();
   resetLessonProgress();
 });
 
@@ -45,5 +50,17 @@ describe('stores', () => {
     resetLessonProgress();
     expect([...get(lessonProgress)]).toEqual([]);
     expect(JSON.parse(localStorage.getItem('kcs.progress'))).toEqual([]);
+  });
+
+  it('tracks per-chapter lesson activity', () => {
+    markDialogueSeen('chapter-01');
+    markLessonPracticed('chapter-01');
+    const state = get(lessonActivity);
+    expect(state['chapter-01'].dialogueSeen).toBe(true);
+    expect(state['chapter-01'].practiceDone).toBe(true);
+    expect(JSON.parse(localStorage.getItem('kcs.lesson-activity-v1'))['chapter-01'].practiceDone).toBe(true);
+
+    resetLessonActivity();
+    expect(get(lessonActivity)).toEqual({});
   });
 });
