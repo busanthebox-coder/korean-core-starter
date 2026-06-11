@@ -278,10 +278,10 @@
   .scenario { margin: 0; color: var(--ink-3); font-size: 14px; }
 
   .today-plan { display: grid; gap: 12px; padding: 14px; border-radius: var(--radius); background: var(--surface);
-    border: 1px solid var(--border); border-left: 4px solid var(--green); box-shadow: var(--shadow-1); }
+    border: 1px solid var(--border); border-left: 4px solid #247744; box-shadow: var(--shadow-1); }
   .tp-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
   .tp-top > div { display: grid; gap: 2px; }
-  .tp-label { font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; color: var(--green-dark); }
+  .tp-label { font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; color: #146443; }
   .tp-top strong { font-size: 18px; line-height: 1.1; }
   .tp-due { padding: 6px 10px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-size: 12px; font-weight: 850; white-space: nowrap; }
   .tp-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
@@ -289,12 +289,17 @@
     padding: 10px; border-radius: 11px; border: 1px solid var(--border); background: #fff; color: var(--ink);
     font-size: 13px; font-weight: 850; transition: transform .1s var(--bounce), border-color .1s, background .1s; }
   .tp-step:hover { transform: translateY(-1px); border-color: var(--ink-3); }
-  .tp-step.primary { background: var(--ink); color: #fff; border-color: var(--ink); }
-  .tp-step.done { background: #eef7e9; border-color: rgba(36, 119, 68, .24); color: var(--green-dark); }
+  .tp-step.primary {
+    background: #ecf7f1;
+    color: #146443;
+    border-color: rgba(36, 119, 68, .34);
+    box-shadow: inset 0 0 0 1px rgba(36, 119, 68, .14);
+  }
+  .tp-step.done { background: #eef7e9; border-color: rgba(36, 119, 68, .24); color: #146443; }
   .tp-num { width: 23px; height: 23px; display: grid; place-items: center; border-radius: 999px; background: var(--surface-2);
     color: var(--ink-2); font-size: 12px; font-weight: 900; flex: none; }
-  .tp-step.primary .tp-num { background: rgba(255,255,255,.18); color: #fff; }
-  .tp-step.done .tp-num { background: var(--green); color: #fff; }
+  .tp-step.primary .tp-num,
+  .tp-step.done .tp-num { background: #247744; color: #fff; }
 
   .block { display: grid; gap: 10px; }
   .sec-head { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 750;
