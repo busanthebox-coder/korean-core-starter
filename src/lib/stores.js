@@ -72,4 +72,14 @@ export function toggleGuideReady(id) {
   });
 }
 
+export const shadowProgress = persistedSet('kcs.shadow-done-v1');
+export function toggleShadowDone(id) {
+  shadowProgress.update((set) => {
+    const next = new Set(set);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    return next;
+  });
+}
+
 export const filters = writable({ search: '', type: new Set(), level: new Set(), topic: new Set(), pos: new Set() });

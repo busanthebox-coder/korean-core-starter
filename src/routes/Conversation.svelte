@@ -6,8 +6,8 @@
   import ChatBubble from '../lib/components/ChatBubble.svelte';
 
   const SETTING = {
-    texting: { icon: '📱', label: 'Texting' },
-    hangout: { icon: '🗣️', label: 'Hanging out' },
+    texting: { icon: 'ti-device-mobile', label: 'Texting' },
+    hangout: { icon: 'ti-users', label: 'Hanging out' },
   };
 
   let selected = null;
@@ -70,13 +70,13 @@
   <section class="convo">
     <div class="hero">
       <div class="eyebrow">Casual conversation · 반말</div>
-      <h1>Chat like a friend</h1>
+      <h1>Roleplay</h1>
       <p>Practice real, casual conversations. Pick the natural reply, or type your own and check it.</p>
     </div>
     <div class="cards">
       {#each conversations as c (c.id)}
         <button class="scard" on:click={() => openScenario(c)}>
-          <span class="sicon">{(SETTING[c.setting] || {}).icon || '💬'}</span>
+          <span class="sicon"><i class="ti {(SETTING[c.setting] || {}).icon || 'ti-messages'}" aria-hidden="true"></i></span>
           <span class="smain">
             <strong>{c.title}</strong>
             <span class="ssit">{c.situation}</span>
@@ -189,14 +189,14 @@
   .convo { max-width: 760px; margin: 0 auto; padding: 28px; display: grid; gap: 16px; }
   .hero { display: grid; gap: 4px; padding-bottom: 16px; border-bottom: 1px solid var(--rule); }
   .eyebrow { font-size: 11px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); }
-  h1 { margin: 7px 0 3px; font-size: 38px; font-weight: 850; letter-spacing: -0.03em; line-height: 1.03; }
+  h1 { margin: 7px 0 3px; font-family: var(--serif-ko); font-size: 34px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.05; }
   .hero p { margin: 0; color: var(--ink-3); }
 
   .cards { display: grid; gap: 10px; }
   .scard { display: flex; align-items: center; gap: 13px; text-align: left; padding: 15px 17px; border-radius: var(--radius);
     background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-1); transition: transform .1s var(--bounce), border-color .1s; }
   .scard:hover { transform: translateY(-2px); border-color: var(--green); }
-  .sicon { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; background: var(--green-soft); font-size: 22px; flex: none; }
+  .sicon { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; background: var(--primary-wash); color: var(--accent-ink); font-size: 22px; flex: none; }
   .smain { display: grid; gap: 3px; flex: 1; }
   .smain strong { font-size: 16px; }
   .ssit { color: var(--ink-2); font-size: 13px; }
@@ -209,7 +209,7 @@
   .back:hover { background: var(--border); }
   .modes { margin-left: auto; display: inline-flex; gap: 4px; padding: 4px; border-radius: 999px; background: var(--surface-2); }
   .modes button { padding: 6px 14px; border-radius: 999px; font-weight: 800; font-size: 13px; color: var(--ink-2); }
-  .modes button.on { background: var(--green); color: #fff; }
+  .modes button.on { background: var(--primary); color: var(--primary-on); }
 
   .phead { display: grid; gap: 2px; }
   .ptitle { font-size: 22px; margin: 0; }
@@ -255,7 +255,7 @@
   .model-label { font-size: 11px; font-weight: 850; text-transform: uppercase; letter-spacing: .05em; color: var(--green-dark); }
   .fb.ok { color: var(--green-dark); margin-top: 4px; }
 
-  .cont { justify-self: start; padding: 10px 18px; border-radius: 999px; background: var(--green); color: #fff; font-weight: 850; box-shadow: var(--shadow-1); }
+  .cont { justify-self: start; padding: 10px 18px; border-radius: 999px; background: var(--primary); color: var(--primary-on); font-weight: 850; box-shadow: 0 3px 0 var(--primary-press); }
   .cont:hover { filter: brightness(1.03); }
 
   .finish { display: grid; justify-items: center; gap: 6px; text-align: center; padding: 20px; border-radius: 18px;

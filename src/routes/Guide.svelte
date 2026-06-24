@@ -6,6 +6,7 @@
   import EntryDetail from '../lib/components/EntryDetail.svelte';
   import GuideActionPanel from '../lib/components/GuideActionPanel.svelte';
   import Sheet from '../lib/components/Sheet.svelte';
+  import LessonPlayer from '../lib/components/LessonPlayer.svelte';
   import { reviews } from '../lib/srs.js';
   import { guideProgress, toggleGuideReady } from '../lib/stores.js';
   import { entryIdsForUnit, focusPracticePath } from '../lib/studyLinks.js';
@@ -40,6 +41,26 @@
   $: uIndex = unit ? unitList.indexOf(unit) : -1;
   $: prevUnit = uIndex > 0 ? unitList[uIndex - 1] : null;
   $: nextUnit = uIndex >= 0 && uIndex < unitList.length - 1 ? unitList[uIndex + 1] : null;
+
+  // Map a guide unit onto the shared LessonPlayer's generic `screens` shape.
+  function buildGuideScreens(u, vcb) {
+    const s = [];
+    if ((u.beginnerGuide || []).length) s.push({ phase: 'reference', kind: 'beginner', data: u.beginnerGuide });
+    if ((u.keyPhrases || []).length) s.push({ phase: 'phrases', kind: 'phrases', data: u.keyPhrases });
+    if (vcb.length) s.push({ phase: 'phrases', kind: 'words', data: vcb.map((e) => ({
+      ko: e.hangul || e.korean || '', romanization: e.romanization || '', en: e.english || e.meaning || '', pos: e.partOfSpeech || e.type || '',
+    })).filter((w) => w.ko) });
+    if ((u.dialogue || []).length) s.push({ phase: 'dialogue', kind: 'dialogue', data: { lines: u.dialogue } });
+    if ((u.steps || []).length) s.push({ phase: 'steps', kind: 'steps', data: u.steps });
+    const notes = [];
+    if (u.costs) notes.push({ title: 'Cost', body: u.costs });
+    if (u.notes) notes.push({ title: 'Good to know', body: u.notes });
+    if ((u.checkpoints || []).length) notes.push({ title: 'Before you go', body: u.checkpoints.join(' · ') });
+    if (notes.length) s.push({ phase: 'steps', kind: 'beginner', data: notes });
+    if ((u.deepLinks || []).length) s.push({ phase: 'steps', kind: 'links', data: u.deepLinks });
+    return s;
+  }
+  $: guideScreens = unit ? buildGuideScreens(unit, vocab) : [];
 </script>
 
 {#if !unit}
@@ -70,80 +91,17 @@
     </div>
   </section>
 {:else}
-  <section class="guide">
-    <button class="back" on:click={back}>← {track.title}</button>
-    <div class="u-head"><h1>{unit.title}</h1><p class="sit">{unit.situation}</p><p class="goal">{unit.goal}</p></div>
-    <GuideActionPanel
-      {unit}
-      {vocab}
-      {ready}
-      onAddReview={addGuideVocab}
-      onPractice={practiceGuide}
-      onToggleReady={() => toggleGuideReady(unitKey)}
-    />
-
-    {#if (unit.beginnerGuide || []).length}
-      <div class="bg">{#each unit.beginnerGuide as b}<div class="bg-card"><strong>{b.title}</strong><p>{b.body}</p></div>{/each}</div>
-    {/if}
-
-    {#if (unit.keyPhrases || []).length}
-      <div class="block"><div class="sec-head"><span class="dot" />Key phrases</div>
-        <div class="lines">{#each unit.keyPhrases as p, i}
-          <div class="kp"><span class="kp-n">{i + 1}</span>
-            <div class="lbody"><div class="lko">{p.ko} <AudioButton text={p.ko} size={26} /></div>
-              <RomanizationLine text={p.romanization} /><div class="len">{p.en}</div>
-              {#if p.note}<div class="note">{p.note}</div>{/if}</div></div>
-        {/each}</div></div>
-    {/if}
-
-    {#if (unit.dialogue || []).length}
-      <div class="block"><div class="sec-head"><span class="dot" />Dialogue</div>
-        <div class="lines">{#each unit.dialogue as l}
-          <div class="dline"><span class="spk">{l.speaker}</span>
-            <div class="lbody"><div class="lko">{l.ko} <AudioButton text={l.ko} size={24} /></div>
-              <RomanizationLine text={l.romanization} /><div class="len">{l.en}</div></div></div>
-        {/each}</div></div>
-    {/if}
-
-    {#if vocab.length}
-      <div class="block"><div class="sec-head"><span class="dot" />Vocabulary</div>
-        <div class="grid">{#each vocab as e (e.id)}<EntryCard entry={e} onOpen={(x) => (selected = x)} />{/each}</div></div>
-    {/if}
-
-    {#if (unit.steps || []).length}
-      <div class="block"><div class="sec-head"><span class="dot" />Steps</div>
-        <ol class="steps">{#each unit.steps as s}<li>{s}</li>{/each}</ol></div>
-    {/if}
-
-    {#if unit.costs}<div class="kv"><strong>Cost</strong><span>{unit.costs}</span></div>{/if}
-    {#if unit.notes}<div class="kv good"><strong>Good to know</strong><span>{unit.notes}</span></div>{/if}
-
-    {#if (unit.checkpoints || []).length}
-      <div class="checks"><strong>Before you go</strong><ul>{#each unit.checkpoints as c}<li>{c}</li>{/each}</ul></div>
-    {/if}
-
-    {#if (unit.deepLinks || []).length}
-      <div class="block"><div class="sec-head"><span class="dot" />Official links</div>
-        <div class="links">{#each unit.deepLinks as l}
-          <a class="link" href={l.url} target="_blank" rel="noopener noreferrer">{l.label}{#if l.note} — <em>{l.note}</em>{/if}</a>
-        {/each}</div></div>
-    {/if}
-
-    <nav class="pager">
-      {#if prevUnit}
-        <button class="pg" on:click={() => openUnit(prevUnit)}>
-          <span class="pg-dir">← Previous</span>
-          <span class="pg-title">{prevUnit.title}</span>
-        </button>
-      {:else}<span class="pg-spacer"></span>{/if}
-      {#if nextUnit}
-        <button class="pg next" on:click={() => openUnit(nextUnit)}>
-          <span class="pg-dir">Next →</span>
-          <span class="pg-title">{nextUnit.title}</span>
-        </button>
-      {:else}<span class="pg-spacer"></span>{/if}
-    </nav>
-  </section>
+  <LessonPlayer
+    screens={guideScreens}
+    kicker={`${track.title} · ${unit.title}`}
+    completion={{ goal: unit.goal }}
+    done={ready}
+    nextChapter={nextUnit}
+    onBack={back}
+    onComplete={() => toggleGuideReady(unitKey)}
+    onPractice={practiceGuide}
+    onOpenChapter={openUnit}
+  />
 {/if}
 
 <Sheet open={!!selected} onClose={() => (selected = null)}>
@@ -153,17 +111,17 @@
 <style>
   .guide { max-width: 820px; margin: 0 auto; padding: 28px; display: grid; gap: 16px; }
   .hero { display: grid; gap: 4px; }
-  .eyebrow { font-size: 12px; font-weight: 850; letter-spacing: .06em; text-transform: uppercase; color: var(--green-dark); }
-  h1 { margin: 2px 0; font-size: 30px; letter-spacing: -0.02em; }
+  .eyebrow { font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
+  h1 { margin: 2px 0; font-family: var(--serif-ko); font-size: 32px; font-weight: 600; letter-spacing: -0.02em; }
   .hero p { margin: 0; color: var(--ink-3); }
   .guide-stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
   .guide-stats span { padding: 5px 9px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border);
     color: var(--ink-2); font-size: 12px; font-weight: 800; }
   .tracks { display: flex; flex-wrap: wrap; gap: 8px; }
   .tracks button { display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; font-size: 13px; }
-  .tracks button.on { background: var(--green); color: #fff; }
+  .tracks button.on { background: var(--primary); color: var(--primary-on); }
   .tracks button span { min-width: 22px; height: 22px; display: grid; place-items: center; border-radius: 999px; background: #fff; color: var(--ink-2); font-size: 11px; }
-  .tracks button.on span { color: var(--green-dark); }
+  .tracks button.on span { color: var(--accent-ink); }
   .summary { margin: 0; color: var(--ink-2); }
   .unit-list { display: grid; gap: 10px; }
   .unit-card { display: grid; gap: 2px; text-align: left; padding: 15px 16px; border-radius: var(--radius); background: var(--surface);
@@ -200,7 +158,7 @@
   .checks { padding: 14px 16px; border-radius: 13px; background: var(--surface); border: 1px solid var(--border); }
   .checks ul { margin: 6px 0 0; padding-left: 18px; display: grid; gap: 4px; }
   .links { display: grid; gap: 8px; }
-  .link { display: inline-block; padding: 11px 14px; border-radius: 12px; background: var(--green-soft); color: var(--green-dark); font-weight: 800; }
+  .link { display: inline-block; padding: 11px 14px; border-radius: 12px; background: var(--accent-soft); color: var(--accent-ink); font-weight: 800; }
   .link em { font-style: normal; font-weight: 600; color: var(--ink-2); }
 
   .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 6px; padding-top: 18px; border-top: 1px solid var(--border); }

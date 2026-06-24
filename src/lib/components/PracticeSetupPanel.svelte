@@ -29,6 +29,10 @@
   export let onStartContrast = () => {};
 
   $: goalPct = Math.min(100, goal ? Math.round((todayN / goal) * 100) : 0);
+  // One clear recommendation: clear your due reviews first, otherwise a quick quiz.
+  $: rec = dueCards.length
+    ? { kind: 'review', label: `Review ${dueCards.length} due`, sub: 'Spaced reviews bring each word back right before you would forget it.', cta: `Review ${dueCards.length}`, run: onStartReview, on: true }
+    : { kind: 'quiz', label: 'Quick quiz', sub: deckSize ? 'All caught up on reviews — keep them sharp with a 10-question quiz.' : 'Start with a 10-question quiz, then build your review deck below.', cta: 'Start quiz', run: onStartQuiz, on: canRecognize };
 </script>
 
 <header class="masthead">
@@ -45,101 +49,88 @@
   </div>
 </div>
 
-<div class="review-bar">
-  <div class="rb-text">
-    <span class="rb-label">Spaced review</span>
-    <strong>{dueCards.length} due{deckSize ? ` · ${deckSize} in your deck` : ''}</strong>
-    <span class="rb-sub">Reviews come back on a forgetting-curve schedule so words actually stick.</span>
+<!-- ── ONE recommended action ─────────────────────────────────────────────── -->
+<div class="recommend">
+  <div class="rec-text">
+    <span class="rec-label">Do this now</span>
+    <strong>{rec.label}</strong>
+    <span class="rec-sub">{rec.sub}</span>
   </div>
-  {#if dueCards.length}
-    <button class="btn3d" type="button" on:click={onStartReview}>Review {dueCards.length}</button>
-  {:else if deckSize}
-    <span class="caught">All caught up</span>
-  {:else}
-    <span class="caught muted">Add a set below</span>
-  {/if}
+  <button class="btn3d rec-go" type="button" disabled={!rec.on} on:click={rec.run}>
+    {rec.cta} <i class="ti ti-arrow-right" aria-hidden="true"></i>
+  </button>
 </div>
 
 {#if weakItems.length}
   <div class="weak-bar">
     <div class="wb-text">
-      <span class="wb-label">Mistake bank</span>
+      <span class="wb-label"><i class="ti ti-alert-triangle" aria-hidden="true"></i> Mistake bank</span>
       <strong>{weakItems.length} weak item{weakItems.length === 1 ? '' : 's'}</strong>
-      <span class="wb-sub">Missed words and patterns stay here until you practice them correctly.</span>
+      <span class="wb-sub">Missed words stay here until you get them right.</span>
     </div>
     <div class="wb-actions">
-      <button class="btn3d" type="button" on:click={onSelectWeak}>Practice weak items</button>
+      <button class="ghost-btn" type="button" on:click={onSelectWeak}>Practice weak</button>
       <button class="mini-clear" type="button" on:click={onClearWeak}>Clear</button>
     </div>
   </div>
 {/if}
 
-<label class="deck">Set
-  <select bind:value={deck}>
-    <option value="all">Everything ({entries.length})</option>
-    {#if focusCount}<option value="__focus">{focusLabel} ({focusCount})</option>{/if}
-    {#if weakItems.length}<option value="__weak">Weak items ({weakItems.length})</option>{/if}
-    {#each chapters as chapter}<option value={chapter.id}>Ch {chapter.number}: {chapter.title}</option>{/each}
-  </select>
-</label>
+<!-- ── everything else, tucked away ───────────────────────────────────────── -->
+<details class="more">
+  <summary><span><i class="ti ti-adjustments-horizontal" aria-hidden="true"></i> Choose what to practice</span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></summary>
 
-<div class="kinds">
-  {#each kindOptions as [value, label]}
-    <button class="kchip" type="button" class:on={kind === value} disabled={kindCounts[value] === 0} on:click={() => (kind = value)}>
-      {label} · {kindCounts[value]}
-    </button>
-  {/each}
-</div>
+  <div class="more-body">
+    <label class="deck">Set
+      <select bind:value={deck}>
+        <option value="all">Everything ({entries.length})</option>
+        {#if focusCount}<option value="__focus">{focusLabel} ({focusCount})</option>{/if}
+        {#if weakItems.length}<option value="__weak">Weak items ({weakItems.length})</option>{/if}
+        {#each chapters as chapter}<option value={chapter.id}>Ch {chapter.number}: {chapter.title}</option>{/each}
+      </select>
+    </label>
 
-<button class="addset" type="button" on:click={onAddSet}>{added ? 'Added to review' : `Add these ${poolLength} to your review deck`}</button>
-
-{#if !poolLength}
-  <p class="warn">This set has no practice items yet. Pick another set or kind.</p>
-{:else}
-  {#if !canRecognize}
-    <p class="warn">Quiz and Match need at least 4 items. Use Write or add more missed items.</p>
-  {/if}
-
-  <div class="mode-group">
-    <span class="group-label">Recognize · 알아보기</span>
-    <div class="modes">
-      <button class="mode-card" type="button" class:disabled={!canRecognize} disabled={!canRecognize} on:click={onStartQuiz}>
-        <span class="m-ico">Target</span><strong>Quiz</strong><span>10 questions · meaning, reverse and listen</span>
-      </button>
-      <button class="mode-card" type="button" class:disabled={!canRecognize} disabled={!canRecognize} on:click={onStartMatch}>
-        <span class="m-ico">Pair</span><strong>Match</strong><span>Pair 5 Korean words with their meanings</span>
-      </button>
+    <div class="kinds">
+      {#each kindOptions as [value, label]}
+        <button class="kchip" type="button" class:on={kind === value} disabled={kindCounts[value] === 0} on:click={() => (kind = value)}>
+          {label} · {kindCounts[value]}
+        </button>
+      {/each}
     </div>
-  </div>
 
-  <div class="mode-group">
-    <span class="group-label produce">Produce · 직접 만들기</span>
-    <div class="modes">
-      <button class="mode-card produce" type="button" on:click={onStartWrite}>
-        <span class="m-ico">Write</span><strong>Write</strong><span>See the meaning, type the Korean word</span>
-      </button>
-      <button class="mode-card produce" type="button" class:disabled={!canBuild} disabled={!canBuild} on:click={onStartBuild}>
-        <span class="m-ico">Build</span><strong>Build</strong><span>Arrange the words into a real sentence</span>
-      </button>
-    </div>
-  </div>
+    <button class="addset" type="button" on:click={onAddSet}>{added ? '✓ Added to review' : `Add these ${poolLength} to your review deck`}</button>
 
-  <div class="mode-group">
-    <span class="group-label contrast">Pattern Lab · 문법 구분</span>
-    <div class="modes single">
-      <button class="mode-card contrast" type="button" on:click={onStartContrast}>
-        <span class="m-ico">Lab</span><strong>Contrast Lab</strong><span>Choose between similar Korean patterns and learn why</span>
-      </button>
-    </div>
+    {#if !poolLength}
+      <p class="warn">This set has no practice items yet. Pick another set or kind.</p>
+    {:else}
+      {#if !canRecognize}<p class="warn">Quiz and Match need at least 4 items.</p>{/if}
+      <div class="modes-grid">
+        <button class="mode-card" type="button" disabled={!canRecognize} on:click={onStartQuiz}>
+          <i class="ti ti-list-check" aria-hidden="true"></i><strong>Quiz</strong><span>Meaning, reverse & listen</span>
+        </button>
+        <button class="mode-card" type="button" disabled={!canRecognize} on:click={onStartMatch}>
+          <i class="ti ti-cards" aria-hidden="true"></i><strong>Match</strong><span>Pair words with meanings</span>
+        </button>
+        <button class="mode-card" type="button" on:click={onStartWrite}>
+          <i class="ti ti-pencil" aria-hidden="true"></i><strong>Write</strong><span>Type the Korean word</span>
+        </button>
+        <button class="mode-card" type="button" disabled={!canBuild} on:click={onStartBuild}>
+          <i class="ti ti-puzzle" aria-hidden="true"></i><strong>Build</strong><span>Arrange a sentence</span>
+        </button>
+        <button class="mode-card wide" type="button" on:click={onStartContrast}>
+          <i class="ti ti-arrows-left-right" aria-hidden="true"></i><strong>Contrast Lab</strong><span>Tell similar patterns apart</span>
+        </button>
+      </div>
+    {/if}
   </div>
-{/if}
+</details>
 
 <style>
   .masthead { border-bottom: 1px solid var(--rule); padding-bottom: 16px; }
   .eyebrow { display: block; font-size: 11px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 8px; }
-  h1 { margin: 0; font-size: 42px; font-weight: 850; letter-spacing: -0.03em; line-height: 1.02; }
+  h1 { margin: 0; font-family: var(--serif-ko); font-size: 38px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.04; }
+
   .today { display: grid; grid-template-columns: auto auto 1fr; gap: 18px; align-items: center;
-    padding: 14px 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+    padding: 14px 18px; border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface); box-shadow: var(--shadow-1); }
   .t-stat { display: grid; justify-items: center; gap: 1px; }
   .t-num { font-size: 22px; font-weight: 880; line-height: 1; }
   .t-lbl { font-size: 10px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
@@ -150,54 +141,60 @@
   .t-goal.met .tg-top strong { color: var(--green-dark); }
   .tg-bar { height: 10px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); overflow: hidden; }
   .tg-bar span { display: block; height: 100%; border-radius: 999px; background: var(--green); transition: width .4s var(--bounce); }
-  .review-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
-    padding: 16px 18px; border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 10px; background: var(--surface); }
-  .rb-text { display: grid; gap: 2px; }
-  .rb-label { font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-ink); }
-  .rb-text strong { font-size: 18px; }
-  .rb-sub { color: var(--ink-3); font-size: 13px; max-width: 46ch; }
-  .caught { font-weight: 800; color: var(--type-word); }
-  .caught.muted { color: var(--ink-3); }
+
+  .recommend { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+    padding: 18px 20px; border: 1px solid var(--border); border-left: 4px solid var(--primary); border-radius: var(--r-1);
+    background: var(--surface); box-shadow: var(--shadow-1); }
+  .rec-text { display: grid; gap: 3px; }
+  .rec-label { font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-ink); }
+  .rec-text strong { font-size: 20px; }
+  .rec-sub { color: var(--ink-3); font-size: 13px; max-width: 48ch; }
+
   .weak-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
-    padding: 16px 18px; border: 1px solid #ffd8c8; border-left: 4px solid #e45f35; border-radius: 10px; background: #fff8f4; }
+    padding: 14px 18px; border: 1px solid var(--danger-soft); border-left: 4px solid var(--danger); border-radius: var(--r-1); background: var(--danger-soft); }
   .wb-text { display: grid; gap: 2px; }
-  .wb-label { font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: #b5411f; }
-  .wb-text strong { font-size: 18px; }
-  .wb-sub { color: var(--ink-3); font-size: 13px; max-width: 46ch; }
+  .wb-label { font-size: 11px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; color: var(--danger); }
+  .wb-text strong { font-size: 17px; }
+  .wb-sub { color: var(--ink-3); font-size: 13px; }
   .wb-actions { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-  .mini-clear { padding: 8px 12px; border-radius: 999px; border: 1px solid #ffd8c8; background: #fff; color: #8b4b37; font-size: 12px; font-weight: 800; }
-  .mini-clear:hover { border-color: #e45f35; color: #b5411f; }
-  .addset { justify-self: start; padding: 9px 15px; border-radius: 999px; border: 1px solid var(--border);
-    background: var(--surface); color: var(--ink-2); font-weight: 750; font-size: 13px; transition: border-color .12s; }
-  .addset:hover { border-color: var(--ink); }
+  .ghost-btn { padding: 9px 15px; border-radius: 999px; border: 1px solid var(--border-2); background: var(--surface); color: var(--ink); font-size: 13px; font-weight: 800; }
+  .ghost-btn:hover { border-color: var(--ink-3); }
+  .mini-clear { padding: 8px 12px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--ink-3); font-size: 12px; font-weight: 800; }
+  .mini-clear:hover { color: var(--danger); border-color: var(--danger); }
+
+  .more { border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface); box-shadow: var(--shadow-1); }
+  .more > summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between;
+    padding: 15px 18px; font-weight: 800; color: var(--ink); }
+  .more > summary::-webkit-details-marker { display: none; }
+  .more .chev { color: var(--ink-3); transition: transform .2s; }
+  .more[open] .chev { transform: rotate(180deg); }
+  .more-body { display: grid; gap: 12px; padding: 4px 18px 18px; }
+
   .deck { display: grid; gap: 6px; font-weight: 800; color: var(--ink-2); font-size: 13px; max-width: 420px; }
-  .deck select { padding: 11px 13px; border-radius: 12px; border: 1px solid var(--border); background: #fff; font-size: 15px; }
+  .deck select { padding: 11px 13px; border-radius: var(--r-1); border: 1px solid var(--border); background: #fff; font: inherit; font-size: 15px; }
   .kinds { display: flex; flex-wrap: wrap; gap: 6px; }
   .kchip { font-size: 12px; font-weight: 750; padding: 6px 12px; border-radius: 999px; background: transparent;
     color: var(--ink-2); border: 1px solid var(--border); transition: border-color .12s; }
   .kchip:hover:not(:disabled) { border-color: var(--ink-3); }
-  .kchip.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .kchip.on { background: var(--primary); color: var(--primary-on); border-color: var(--primary); }
   .kchip:disabled { opacity: .35; }
-  .warn { color: #a15c00; }
-  .mode-group { display: grid; gap: 8px; }
-  .group-label { font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
-  .group-label.produce { color: var(--green-dark); }
-  .group-label.contrast { color: var(--type-pattern); }
-  .modes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-  .modes.single { grid-template-columns: 1fr; }
-  .mode-card { display: grid; gap: 4px; padding: 22px 18px; border-radius: var(--radius); background: var(--surface);
-    border: 1px solid var(--border); box-shadow: var(--shadow-1); text-align: center; transition: transform .1s var(--bounce), border-color .1s; }
-  .mode-card:hover { transform: translateY(-2px); border-color: var(--green); }
-  .mode-card.produce { border-left: 4px solid var(--green); }
-  .mode-card.contrast { border-left: 4px solid var(--type-pattern); }
-  .mode-card.contrast:hover { border-color: var(--type-pattern); }
-  .mode-card.disabled { opacity: .45; pointer-events: none; }
-  .m-ico { font-size: 13px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
-  .mode-card strong { font-size: 18px; }
-  .mode-card span { color: var(--ink-2); font-size: 13px; }
+  .addset { justify-self: start; padding: 9px 15px; border-radius: 999px; border: 1px solid var(--border);
+    background: var(--surface); color: var(--ink-2); font-weight: 750; font-size: 13px; transition: border-color .12s; }
+  .addset:hover { border-color: var(--ink); }
+  .warn { color: #a15c00; margin: 0; font-size: 13px; }
+
+  .modes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .mode-card { display: grid; gap: 3px; padding: 16px 14px; border-radius: var(--r-1); background: var(--surface);
+    border: 1px solid var(--border); text-align: center; justify-items: center; transition: transform .1s var(--bounce), border-color .1s; }
+  .mode-card:hover:not(:disabled) { transform: translateY(-2px); border-color: var(--primary); }
+  .mode-card:disabled { opacity: .4; pointer-events: none; }
+  .mode-card.wide { grid-column: 1 / -1; }
+  .mode-card i { font-size: 22px; color: var(--accent-ink); }
+  .mode-card strong { font-size: 16px; }
+  .mode-card span { color: var(--ink-3); font-size: 12px; }
+
   @media (max-width: 520px) {
     .today { grid-template-columns: 1fr 1fr; }
     .t-goal { grid-column: 1 / -1; }
-    .modes { grid-template-columns: 1fr; }
   }
 </style>

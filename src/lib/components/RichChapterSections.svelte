@@ -81,7 +81,55 @@
   $: cultural = chapter.culturalNote || null;
   $: exercises = chapter.inlineExercises || [];
   $: summary = chapter.summaryCard || null;
+
+  // Progressive disclosure — keep the first paint short so the chapter doesn't
+  // look like a wall of text. Learners expand the deep explanations on demand.
+  const VISIBLE_EXAMPLES = 2;
+  let openMore = {};        // grammar note index -> extra examples + contrast + pitfall shown
+  let openVocab = false;
+  let openDialogue = false;
+  let openReading = false;
+  let openCultural = false;
+  let openExercises = false;
+  let allOpen = false;
+
+  function toggleMore(gi) {
+    openMore = { ...openMore, [gi]: !openMore[gi] };
+  }
+
+  function moreLabel(gn) {
+    const extra = Math.max(0, (gn.examples?.length || 0) - VISIBLE_EXAMPLES);
+    const bits = [];
+    if (extra) bits.push(`${extra} more example${extra > 1 ? 's' : ''}`);
+    if (gn.contrastPairs?.length) bits.push('contrast');
+    if (gn.englishSpeakerPitfall) bits.push('pitfall');
+    return `Show ${bits.join(' · ')}`;
+  }
+
+  function setAll(value) {
+    allOpen = value;
+    openMore = Object.fromEntries((grammarNotes || []).map((_, gi) => [gi, value]));
+    openVocab = openDialogue = openReading = openCultural = openExercises = value;
+  }
+
+  // When the learner navigates to a different chapter, collapse everything again.
+  $: if (chapter) { void chapter.id; resetDisclosure(); }
+  function resetDisclosure() {
+    openMore = {};
+    openVocab = openDialogue = openReading = openCultural = openExercises = false;
+    allOpen = false;
+  }
 </script>
+
+<!-- ── DENSITY TOGGLE ────────────────────────────────────── -->
+{#if grammarNotes.length || vocab.length || dialogue || reading || cultural || exercises.length}
+  <div class="density-bar">
+    <span class="db-hint">Essentials are shown first. Open a section when you want the deeper explanation.</span>
+    <button class="db-btn" type="button" on:click={() => setAll(!allOpen)}>
+      {allOpen ? 'Collapse all' : 'Expand all'}
+    </button>
+  </div>
+{/if}
 
 <!-- ── HOOK ─────────────────────────────────────────────── -->
 {#if hook}
@@ -103,8 +151,9 @@
 {/if}
 
 <!-- ── GRAMMAR NOTES ─────────────────────────────────────── -->
-{#each grammarNotes as gn}
+{#each grammarNotes as gn, gi}
   {@const steps = formationSteps(gn.formation)}
+  {@const hasMore = (gn.examples?.length || 0) > VISIBLE_EXAMPLES || gn.contrastPairs?.length || gn.englishSpeakerPitfall}
   <div class="rich-block">
     <div class="sec-head"><span class="dot g" />Grammar deep dive: <strong>{gn.title}</strong></div>
 
@@ -131,9 +180,9 @@
       </div>
     </div>
 
-    <div class="examples-grid">
-      {#each gn.examples as ex}
-        <div class="ex-row">
+    <div class="examples-grid" class:collapsed={!openMore[gi]}>
+      {#each gn.examples as ex, ei}
+        <div class="ex-row" class:extra={ei >= VISIBLE_EXAMPLES}>
           <div class="ex-ko">{ex.ko} <AudioButton text={ex.ko} size={20} /></div>
           <RomanizationLine text={ex.romanization} />
           <div class="ex-en">{ex.en}</div>
@@ -142,7 +191,14 @@
       {/each}
     </div>
 
-    {#if gn.contrastPairs?.length}
+    {#if hasMore}
+      <button class="more-toggle" type="button" aria-expanded={openMore[gi] ? 'true' : 'false'} on:click={() => toggleMore(gi)}>
+        {openMore[gi] ? 'Show less' : moreLabel(gn)}
+        <span class="mt-chev">{openMore[gi] ? '▲' : '▾'}</span>
+      </button>
+    {/if}
+
+    {#if openMore[gi] && gn.contrastPairs?.length}
       <div class="contrast-head">{gn.contrastTitle || 'Side-by-side contrast'}</div>
       <div class="contrast-grid">
         {#each gn.contrastPairs as pair}
@@ -167,7 +223,7 @@
       </div>
     {/if}
 
-    {#if gn.englishSpeakerPitfall}
+    {#if openMore[gi] && gn.englishSpeakerPitfall}
       {@const pit = gn.englishSpeakerPitfall}
       <div class="pitfall">
         <div class="pitfall-head">⚠️ English speaker pitfall</div>
@@ -190,8 +246,8 @@
 
 <!-- ── EXTENDED VOCABULARY ───────────────────────────────── -->
 {#if vocab.length}
-  <div class="rich-block">
-    <div class="sec-head"><span class="dot v" />Vocabulary in context <span class="count-tag">{vocab.length} words</span></div>
+  <details class="rich-block collapsible" bind:open={openVocab}>
+    <summary class="collapse-head"><span class="dot v" />Vocabulary in context <span class="count-tag">{vocab.length} words</span><span class="ch-line"></span><span class="ch-chev">▸</span></summary>
     <div class="vocab-grid">
       {#each vocab as w}
         <div class="vocab-card">
@@ -215,13 +271,13 @@
         </div>
       {/each}
     </div>
-  </div>
+  </details>
 {/if}
 
 <!-- ── EXTENDED DIALOGUE ─────────────────────────────────── -->
 {#if dialogue}
-  <div class="rich-block dialogue-block">
-    <div class="chat-titlebar">
+  <details class="rich-block dialogue-block collapsible" bind:open={openDialogue}>
+    <summary class="chat-titlebar">
       <div class="chat-room">
         <span class="chat-avatar">한</span>
         <div>
@@ -229,8 +285,8 @@
           <div class="chat-subtitle">{dialogue.setting}</div>
         </div>
       </div>
-      <span class="chat-status">Practice</span>
-    </div>
+      <span class="chat-status">Practice <span class="ch-chev dark">▸</span></span>
+    </summary>
     <div class="dl-chat">
       {#each dialogue.lines as line}
         <div class="dl-line" class:right={line.speaker !== dialogue.lines[0].speaker}>
@@ -246,13 +302,13 @@
         </div>
       {/each}
     </div>
-  </div>
+  </details>
 {/if}
 
 <!-- ── READING TEXT ──────────────────────────────────────── -->
 {#if reading}
-  <div class="rich-block">
-    <div class="sec-head"><span class="dot r" />Reading: {reading.title}</div>
+  <details class="rich-block collapsible" bind:open={openReading}>
+    <summary class="collapse-head"><span class="dot r" />Reading: {reading.title}<span class="ch-line"></span><span class="ch-chev">▸</span></summary>
     <div class="reading-body">
       <p class="reading-ko">{reading.body}</p>
       {#if reading.bodyTranslation}
@@ -270,21 +326,21 @@
         {/each}
       </div>
     {/if}
-  </div>
+  </details>
 {/if}
 
 <!-- ── CULTURAL NOTE ─────────────────────────────────────── -->
 {#if cultural}
-  <div class="rich-block cultural">
-    <div class="sec-head"><span class="dot c" />Cultural note: {cultural.title}</div>
+  <details class="rich-block cultural collapsible" bind:open={openCultural}>
+    <summary class="collapse-head"><span class="dot c" />Cultural note: {cultural.title}<span class="ch-line"></span><span class="ch-chev">▸</span></summary>
     <p>{cultural.body}</p>
-  </div>
+  </details>
 {/if}
 
 <!-- ── INLINE EXERCISES ──────────────────────────────────── -->
 {#if exercises.length}
-  <div class="rich-block">
-    <div class="sec-head"><span class="dot e" />Practice — {exercises.length} questions</div>
+  <details class="rich-block collapsible" bind:open={openExercises}>
+    <summary class="collapse-head"><span class="dot e" />Practice — {exercises.length} questions<span class="ch-line"></span><span class="ch-chev">▸</span></summary>
     <div class="exercises">
       {#each exercises as ex, i}
         <div class="exercise" class:done={revealed[i]} class:correct={revealed[i] && isCorrect(i)} class:wrong={revealed[i] && !isCorrect(i)}>
@@ -333,7 +389,7 @@
         </div>
       {/each}
     </div>
-  </div>
+  </details>
 {/if}
 
 <!-- ── SUMMARY CARD ──────────────────────────────────────── -->
@@ -351,6 +407,37 @@
 
 <style>
   .rich-block { display: grid; gap: 12px; padding: 20px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border); }
+
+  /* DENSITY TOGGLE */
+  .density-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    padding: 10px 14px; border-radius: var(--radius); background: var(--surface-2); border: 1px solid var(--border); }
+  .db-hint { font-size: 12px; color: var(--ink-3); line-height: 1.4; }
+  .db-btn { flex: none; padding: 7px 14px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border-2);
+    color: var(--ink); font-size: 12px; font-weight: 850; cursor: pointer; }
+  .db-btn:hover { border-color: var(--ink-3); }
+
+  /* COLLAPSIBLE SECTIONS */
+  details.collapsible > summary { cursor: pointer; list-style: none; }
+  details.collapsible > summary::-webkit-details-marker { display: none; }
+  details.collapsible > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  .collapse-head { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 750;
+    letter-spacing: .15em; text-transform: uppercase; color: var(--ink-3); }
+  details.collapsible[open] > .collapse-head { margin-bottom: 2px; }
+  .ch-line { flex: 1; height: 1px; background: var(--border); }
+  .ch-chev { display: inline-block; flex: none; font-size: 12px; color: var(--ink-3); transition: transform .15s; }
+  details.collapsible[open] .ch-chev { transform: rotate(90deg); }
+  .ch-chev.dark { color: rgba(36,31,10,.6); }
+  summary.chat-titlebar { cursor: pointer; list-style: none; }
+  summary.chat-titlebar::-webkit-details-marker { display: none; }
+  .chat-status { display: inline-flex; align-items: center; gap: 7px; }
+
+  /* GRAMMAR: keep only the first examples until expanded */
+  .examples-grid.collapsed .ex-row.extra { display: none; }
+  .more-toggle { justify-self: start; display: inline-flex; align-items: center; gap: 7px;
+    padding: 8px 15px; border-radius: 999px; background: #faf5ff; border: 1px solid #e1d0f0;
+    color: #6b3f92; font-size: 12px; font-weight: 850; cursor: pointer; }
+  .more-toggle:hover { border-color: #c9a9e3; background: #f5ecfc; }
+  .mt-chev { font-size: 10px; }
 
   /* HOOK */
   .hook-block { background: linear-gradient(135deg, #f0f9f0, #e8f5e9); border-color: var(--green); }

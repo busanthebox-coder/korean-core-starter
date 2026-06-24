@@ -6,6 +6,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "4173"],
       "port": 4173
+    },
+    {
+      "name": "korean-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5175"],
+      "port": 5175
     }
   ]
 }

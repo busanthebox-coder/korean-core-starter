@@ -1,37 +1,41 @@
 :root {
-  /* Editorial palette — warm ink on paper, single red accent (approved mockup A) */
-  --ink: #16140f; --ink-2: #57514a; --ink-3: #948d80;
-  --bg: #f7f5ef; --surface: #ffffff; --surface-2: #f1eee6;
-  --border: #e4e0d6;            /* hairline */
-  --border-2: #d6d0c2;          /* slightly stronger hairline */
-  --rule: #16140f;              /* strong editorial rule */
-  --radius: 12px; --r-1: 9px; --r-2: 14px; --r-3: 18px; --radius-pill: 999px;
+  /* Hanmok — hanji cream, warm ink, Sojum-persimmon accent. "Read Korea, one block at a time." */
+  --ink: #2B2622; --ink-2: #5E5346; --ink-3: #8C7B68;
+  --bg: #FAF4EA; --surface: #FFFFFF; --surface-2: #F2E9DA;
+  --border: #E7DCC9;            /* warm hairline */
+  --border-2: #D9CBB2;          /* slightly stronger hairline */
+  --rule: #2B2622;              /* strong ink rule */
+  --radius: 16px; --r-1: 14px; --r-2: 20px; --r-3: 24px; --radius-pill: 999px;
 
-  --accent: #e4322b; --accent-ink: #b3261e; --accent-soft: #fbe7e5;
+  /* Persimmon primary — primary action, active nav, dojang seal, links. */
+  --accent: #E8552E; --accent-ink: #C13D1B; --accent-soft: #FBE7DD;
+  --primary: #E8552E; --primary-press: #C13D1B; --primary-on: #FFF8F2; --primary-wash: #FBE7DD;
+  --gold: #D99A2B; --gold-wash: #F7ECD2;   /* streak / XP / crown only */
+  --danger: #C4452E; --danger-soft: #F7E2DC;
 
-  /* "green" tokens kept but remapped to editorial ink so the app reads monochrome + red. */
-  --green: #16140f; --green-dark: #000000; --green-soft: #efece4;
-  --blue: #1f6feb;
+  /* Sprout-green carries "correct / positive / mastery" so right≠brand-color. */
+  --green: #3E8E4E; --green-dark: #2E6B3A; --green-soft: #E3F0E2;
+  --blue: #2F6FB0;
 
   /* category color-coding (small accents / legend swatches) */
-  --type-word: #1f7a43; --type-expression: #1f6feb; --type-pattern: #6d44d9; --type-grammar: #c5571a;
+  --type-word: #3E8E4E; --type-expression: #2F6FB0; --type-pattern: #7C5CFF; --type-grammar: #C77B1A;
 
-  --chat-bg: #b2c7da; --chat-bg-2: #a7bdd1; /* KakaoTalk-style messenger backdrop */
+  --chat-bg: #EFE6D4; --chat-bg-2: #E7DCC9; /* warm hanji messenger backdrop */
 
-  /* Elevation — warm, ink-tinted, whisper-soft (was flat 'none') */
-  --shadow-1: 0 1px 2px rgba(22,20,15,.04), 0 5px 14px -8px rgba(22,20,15,.16);
-  --shadow-2: 0 2px 6px rgba(22,20,15,.05), 0 16px 34px -18px rgba(22,20,15,.24);
-  --shadow-3: 0 28px 64px -22px rgba(22,20,15,.34);
+  /* Elevation — warm ink-tinted, soft (never gray rgba(0,0,0)) */
+  --shadow-1: 0 1px 2px rgba(43,38,34,.04), 0 8px 24px -10px rgba(43,38,34,.10);
+  --shadow-2: 0 2px 6px rgba(43,38,34,.05), 0 18px 38px -18px rgba(43,38,34,.20);
+  --shadow-3: 0 28px 64px -22px rgba(43,38,34,.30);
 
-  /* Motion */
-  --ease: cubic-bezier(.2,.7,.2,1);
-  --bounce: cubic-bezier(.2,.8,.3,1.2);
-  --dur-1: .13s; --dur-2: .24s;
+  /* Motion — calm by default, one gentle overshoot for reward moments */
+  --ease: cubic-bezier(.22,.61,.36,1);
+  --bounce: cubic-bezier(.34,1.56,.64,1);
+  --dur-1: .14s; --dur-2: .28s;
 
-  /* Type */
-  --serif: 'Newsreader', Georgia, 'Times New Roman', serif;          /* Latin display/italic */
-  --serif-ko: 'Noto Serif KR', 'Nanum Myeongjo', 'Newsreader', Georgia, serif; /* Korean display */
-  --display: 'Newsreader', 'Noto Serif KR', Georgia, serif;          /* mixed display headlines */
+  /* Type — Hanmok: Fraunces (Latin display) + Gowun Batang (Korean display) + Pretendard (body, EN UI + KO body) */
+  --serif: 'Fraunces', Georgia, 'Times New Roman', serif;                         /* Latin display */
+  --serif-ko: 'Fraunces', 'Gowun Batang', 'Nanum Myeongjo', Georgia, serif;       /* mixed display: Latin→Fraunces, Korean→Gowun Batang */
+  --display: 'Fraunces', 'Gowun Batang', Georgia, serif;
   --sans: 'Pretendard Variable', Pretendard, system-ui, sans-serif;
 }
 
@@ -59,11 +63,11 @@ a { color: inherit; text-decoration: none; }
 .rule { border: 0; border-top: 1px solid var(--rule); margin: 0; }
 .hairline { border: 0; border-top: 1px solid var(--border); margin: 0; }
 
-/* Solid-ink editorial button */
+/* Tactile persimmon key — solid colored depth, presses into the page (Hanmok) */
 .btn3d { display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  padding: 12px 20px; border-radius: var(--r-1); background: var(--ink); color: #fff; font-weight: 720;
-  letter-spacing: .005em; box-shadow: var(--shadow-1); transition: opacity var(--dur-1), transform .08s, box-shadow var(--dur-1); }
-.btn3d:hover { opacity: .93; box-shadow: var(--shadow-2); }
-.btn3d:active { transform: translateY(1px); }
+  padding: 13px 22px; border-radius: var(--r-1); background: var(--primary); color: var(--primary-on); font-weight: 720;
+  letter-spacing: .005em; box-shadow: 0 4px 0 var(--primary-press); transition: transform .09s var(--ease), box-shadow .09s var(--ease), filter var(--dur-1); }
+.btn3d:hover { filter: brightness(1.03); }
+.btn3d:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--primary-press); }
 
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-1); }

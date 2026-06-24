@@ -54,6 +54,8 @@
   $: formsGenerated = !entry.forms && !!generated;
   $: formsEntry = formsObj ? { ...entry, forms: formsObj } : entry;
   $: forms = formsObj ? FORM_ORDER.filter((k) => formsObj[k]) : [];
+  // A few key forms shown as chips inside "How to use" — a quick "the word changes" teaser.
+  $: chipKeys = formsObj ? ['politePresent', 'past', 'want', 'can', 'cannot'].filter((k) => formsObj[k]) : [];
   $: usage = entry.usagePhrases || [];
   $: examples = entry.examples || [];
   $: tips = entry.conjugationTips || [];
@@ -91,14 +93,27 @@
   </div>
 
   {#if entry.explanation || entry.shortExplanation}
-    <div class="callout info">
-      <div class="callout-label"><span class="ico">💡</span> How to use</div>
-      <ul class="points">
-        {#each sentences(entry.explanation || entry.shortExplanation) as s}
-          <li>{#each splitKo(s) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</li>
-        {/each}
-      </ul>
-    </div>
+    <details class="callout info" open>
+      <summary class="callout-head"><span class="ch-l"><i class="ti ti-bulb" aria-hidden="true"></i> How to use</span><i class="ti ti-chevron-down c-chev" aria-hidden="true"></i></summary>
+      <div class="htu">
+        {#if chipKeys.length}
+          <div class="htu-forms">
+            <span class="htu-cap">이렇게 변해요 · forms</span>
+            <div class="form-chips">
+              {#each chipKeys as k}
+                {@const sf = splitForm(formsObj[k])}
+                <span class="fchip"><span class="fc-k"><span class="fc-stem">{sf.stem}</span><span class="fc-end">{sf.end}</span></span><span class="fc-l">{FORM_META[k].label}</span></span>
+              {/each}
+            </div>
+          </div>
+        {/if}
+        <ul class="points">
+          {#each sentences(entry.explanation || entry.shortExplanation) as s}
+            <li>{#each splitKo(s) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</li>
+          {/each}
+        </ul>
+      </div>
+    </details>
   {/if}
 
   {#if forms.length}
@@ -159,39 +174,44 @@
   {/if}
 
   {#if tips.length}
-    <div class="callout tip"><span class="ico">🛠️</span>
-      <div><div class="callout-label">Conjugation tips</div><ul>{#each tips as t}<li>{tipText(t)}</li>{/each}</ul></div></div>
+    <details class="callout tip">
+      <summary class="callout-head"><span class="ch-l"><i class="ti ti-tool" aria-hidden="true"></i> Conjugation tips</span><i class="ti ti-chevron-down c-chev" aria-hidden="true"></i></summary>
+      <ul>{#each tips as t}<li>{tipText(t)}</li>{/each}</ul>
+    </details>
   {/if}
 
-  {#if structuredNuance}
-    <div class="callout nuance"><span class="ico">🔎</span>
-      <div class="nz"><div class="callout-label">Nuance</div>
-        <div class="facets">
-          {#each structuredNuance as f}
-            <div class="facet">
-              <div class="facet-tag"><span class="ft-ko">{f.k}</span>{#if f.e}<span class="ft-en">{f.e}</span>{/if}</div>
-              <div class="facet-body">
-                <p>{#each splitKo(f.t) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</p>
-                {#if f.chips && f.chips.length}<div class="cj">{#each f.chips as c}<span class="cjchip">{c}</span>{/each}</div>{/if}
+  {#if structuredNuance || entry.nuance}
+    <details class="callout nuance">
+      <summary class="callout-head"><span class="ch-l"><i class="ti ti-search" aria-hidden="true"></i> Nuance</span><i class="ti ti-chevron-down c-chev" aria-hidden="true"></i></summary>
+      <div class="nz">
+        {#if structuredNuance}
+          <div class="facets">
+            {#each structuredNuance as f}
+              <div class="facet">
+                <div class="facet-tag"><span class="ft-ko">{f.k}</span>{#if f.e}<span class="ft-en">{f.e}</span>{/if}</div>
+                <div class="facet-body">
+                  <p>{#each splitKo(f.t) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</p>
+                  {#if f.chips && f.chips.length}<div class="cj">{#each f.chips as c}<span class="cjchip">{c}</span>{/each}</div>{/if}
+                </div>
               </div>
-            </div>
-          {/each}
-        </div>
-      </div></div>
-  {:else if entry.nuance}
-    <div class="callout nuance"><span class="ico">🔎</span>
-      <div class="nz"><div class="callout-label">Nuance</div>
-        <div class="nuance-body">
-          {#each nParas as para, i}
-            <p class:lead={i === 0}>{#each splitKo(para) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</p>
-          {/each}
-        </div>
-      </div></div>
+            {/each}
+          </div>
+        {:else}
+          <div class="nuance-body">
+            {#each nParas as para, i}
+              <p class:lead={i === 0}>{#each splitKo(para) as p}{#if p.ko}<b class="ko-hl">{p.s}</b>{:else}{p.s}{/if}{/each}</p>
+            {/each}
+          </div>
+        {/if}
+      </div>
+    </details>
   {/if}
 
   {#if mistakes.length}
-    <div class="callout warn"><span class="ico">⚠️</span>
-      <div><div class="callout-label">Common mistakes</div><ul>{#each mistakes as m}<li>{m}</li>{/each}</ul></div></div>
+    <details class="callout warn">
+      <summary class="callout-head"><span class="ch-l"><i class="ti ti-alert-triangle" aria-hidden="true"></i> Common mistakes</span><i class="ti ti-chevron-down c-chev" aria-hidden="true"></i></summary>
+      <ul>{#each mistakes as m}<li>{m}</li>{/each}</ul>
+    </details>
   {/if}
 
   {#if related.length || grammarLinks.length}
@@ -238,25 +258,35 @@
     border: 1px solid var(--border); border-radius: 999px; padding: 2px 7px; }
   .auto-note { margin: 4px 0 0; font-size: 12px; color: var(--ink-3); line-height: 1.5; }
 
-  /* How to use */
+  /* Collapsible callouts — essence stays open, deep notes fold away */
+  .callout { border: 1px solid var(--border); border-left: 3px solid var(--cl, var(--border-2)); border-radius: var(--r-1); background: var(--surface); line-height: 1.62; }
+  .callout.info { --cl: var(--green); background: var(--surface-2); }
+  .callout.tip { --cl: var(--blue); }
+  .callout.nuance { --cl: var(--ink-3); }
+  .callout.warn { --cl: var(--accent); }
+  .callout > summary.callout-head { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 13px 15px; font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
+  .callout > summary.callout-head::-webkit-details-marker { display: none; }
+  .ch-l { display: inline-flex; align-items: center; gap: 8px; }
+  .ch-l i { font-size: 15px; color: var(--cl, var(--ink-3)); }
+  .c-chev { font-size: 13px; color: var(--ink-3); transition: transform .2s; }
+  .callout[open] .c-chev { transform: rotate(180deg); }
   .callout p { margin: 0; color: var(--ink); }
-  .callout-label { font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 9px; }
-  .callout.info { display: block; padding: 16px 18px; background: var(--surface-2); border-radius: var(--radius); line-height: 1.62; }
-  .callout.info .callout-label { display: flex; align-items: center; gap: 7px; }
-  .callout.info .ico { font-size: 15px; }
+  .htu { padding: 0 15px 15px; display: grid; gap: 13px; }
+  .htu-forms { display: grid; gap: 7px; }
+  .htu-cap { font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+  .form-chips { display: flex; flex-wrap: wrap; gap: 7px; }
+  .fchip { background: var(--surface); border: 1px solid var(--border); border-radius: 9px; padding: 6px 10px; display: inline-grid; gap: 1px; }
+  .fc-k { font-size: 16px; font-weight: 600; }
+  .fc-stem { color: var(--ink); }
+  .fc-end { color: var(--accent-ink); font-weight: 700; }
+  .fc-l { font-size: 10px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); }
   .points { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
   .points li { position: relative; padding-left: 16px; line-height: 1.62; color: var(--ink); }
   .points li::before { content: ''; position: absolute; left: 0; top: 12px; width: 7px; height: 1.5px; background: var(--ink-3); }
   .ko-hl { color: var(--accent-ink); font-weight: 800; }
-
-  /* note callouts (tip / nuance / mistakes) — hairline with colored left rule */
-  .callout.tip, .callout.nuance, .callout.warn { display: flex; gap: 11px; padding: 13px 15px 13px 14px;
-    border: 1px solid var(--border); border-left: 3px solid var(--cl, var(--ink)); border-radius: 8px; background: var(--surface); line-height: 1.6; }
-  .callout.tip { --cl: var(--type-expression); }
-  .callout.nuance { --cl: var(--ink); }
-  .callout.warn { --cl: var(--accent); }
-  .callout .ico { font-size: 16px; line-height: 1.5; flex: none; }
-  .callout ul { margin: 4px 0 0; padding-left: 16px; display: grid; gap: 4px; }
+  .callout > ul:not(.points) { margin: 0; padding: 0 15px 15px 31px; display: grid; gap: 5px; }
+  .callout > .nz { padding: 0 15px 15px; }
 
   /* Nuance — auto-formatted paragraphs (fallback) */
   .nz { min-width: 0; flex: 1; }

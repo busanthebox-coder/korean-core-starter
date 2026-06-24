@@ -19,6 +19,7 @@
 
   $: results = filterEntries(entries, $filters);
   $: selectedChapter = selected ? chapterForEntry(chapters, selected.id) : null;
+  $: extraActive = $filters.level.size + $filters.pos.size + $filters.topic.size;
 
   function toggle(facet, value) {
     filters.update((f) => {
@@ -41,9 +42,15 @@
 
   <div class="facets">
     <div class="facet-row">{#each TYPES as [v, label]}<button class="chip t-{v}" class:on={isOn($filters, 'type', v)} on:click={() => toggle('type', v)}>{label}</button>{/each}</div>
-    <div class="facet-row">{#each LEVELS as v}<button class="chip" class:on={isOn($filters, 'level', v)} on:click={() => toggle('level', v)}>{v}</button>{/each}</div>
-    <div class="facet-row">{#each POS as v}<button class="chip" class:on={isOn($filters, 'pos', v)} on:click={() => toggle('pos', v)}>{v}</button>{/each}</div>
-    <div class="facet-row">{#each TOPICS as v}<button class="chip soft" class:on={isOn($filters, 'topic', v)} on:click={() => toggle('topic', v)}>{v}</button>{/each}</div>
+    <details class="more-filters">
+      <summary><span><i class="ti ti-adjustments-horizontal" aria-hidden="true"></i> Filters{#if extraActive} · {extraActive}{/if}</span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></summary>
+      <div class="ff-body">
+        <div class="ff-group"><span class="ff-cap">Level</span><div class="facet-row">{#each LEVELS as v}<button class="chip" class:on={isOn($filters, 'level', v)} on:click={() => toggle('level', v)}>{v}</button>{/each}</div></div>
+        <div class="ff-group"><span class="ff-cap">Part of speech</span><div class="facet-row">{#each POS as v}<button class="chip" class:on={isOn($filters, 'pos', v)} on:click={() => toggle('pos', v)}>{v}</button>{/each}</div></div>
+        <div class="ff-group"><span class="ff-cap">Topic</span><div class="facet-row">{#each TOPICS as v}<button class="chip soft" class:on={isOn($filters, 'topic', v)} on:click={() => toggle('topic', v)}>{v}</button>{/each}</div></div>
+        {#if extraActive}<button class="ff-clear" type="button" on:click={() => filters.update((f) => ({ ...f, level: new Set(), pos: new Set(), topic: new Set() }))}>Clear filters</button>{/if}
+      </div>
+    </details>
   </div>
 
   <p class="count">{results.length} result{results.length === 1 ? '' : 's'}</p>
@@ -75,18 +82,27 @@
   .dict { max-width: 1120px; margin: 0 auto; padding: 32px 28px; }
   .masthead { border-bottom: 1px solid var(--rule); padding-bottom: 18px; margin-bottom: 18px; }
   .eyebrow { display: block; font-size: 11px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 9px; }
-  h1 { margin: 0 0 5px; font-size: 42px; font-weight: 850; letter-spacing: -0.03em; line-height: 1.02; }
+  h1 { margin: 0 0 5px; font-family: var(--serif-ko); font-size: 38px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.04; }
   .sub { margin: 0; color: var(--ink-3); }
   .search { width: 100%; padding: 13px 16px; border: 1px solid var(--border); border-radius: 9px;
     background: var(--surface); font-size: 15px; }
   .search:focus { outline: none; border-color: var(--ink); }
   .facets { display: grid; gap: 8px; margin: 14px 0 6px; }
   .facet-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .more-filters { border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface); }
+  .more-filters > summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; padding: 9px 13px; font-size: 13px; font-weight: 800; color: var(--ink-2); }
+  .more-filters > summary::-webkit-details-marker { display: none; }
+  .more-filters .chev { color: var(--ink-3); transition: transform .2s; }
+  .more-filters[open] .chev { transform: rotate(180deg); }
+  .ff-body { display: grid; gap: 12px; padding: 6px 13px 14px; }
+  .ff-group { display: grid; gap: 6px; }
+  .ff-cap { font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+  .ff-clear { justify-self: start; font-size: 12px; font-weight: 800; color: var(--accent-ink); padding: 4px 0; background: none; }
   .chip { font-size: 12px; font-weight: 700; letter-spacing: .02em; padding: 6px 13px; border-radius: 999px;
     background: transparent; color: var(--ink-2); border: 1px solid var(--border); transition: border-color .12s; }
   .chip:hover { border-color: var(--ink-3); }
-  .chip.on { background: var(--ink); color: #fff; border-color: var(--ink); }
-  .chip.soft.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .chip.on { background: var(--primary); color: var(--primary-on); border-color: var(--primary); }
+  .chip.soft.on { background: var(--primary); color: var(--primary-on); border-color: var(--primary); }
   .chip.t-word.on { background: var(--type-word); border-color: var(--type-word); }
   .chip.t-expression.on { background: var(--type-expression); border-color: var(--type-expression); }
   .chip.t-pattern.on { background: var(--type-pattern); border-color: var(--type-pattern); }

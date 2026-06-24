@@ -6,7 +6,7 @@
 <nav class="bottomnav">
   {#each NAV as item}
     <a use:link href={item.path} class:active={$location.startsWith(item.path)}>
-      <span class="ic">{item.icon}</span><span class="lb">{item.label}</span>
+      <i class="ic ti {item.icon}" aria-hidden="true"></i><span class="lb">{item.label}</span>
     </a>
   {/each}
 </nav>

@@ -5,6 +5,9 @@
   import AudioButton from '../lib/components/AudioButton.svelte';
   import RomanizationLine from '../lib/components/RomanizationLine.svelte';
   import { speak } from '../lib/audio.js';
+  import { shadowProgress, toggleShadowDone } from '../lib/stores.js';
+
+  const sceneKey = (d) => (d && (d.id || d.title)) || '';
 
   let current = null;
   let hideEn = false;
@@ -48,20 +51,25 @@
   // The first speaker is treated as "me" (right side); everyone else sits on the left.
   $: meSpeaker = current && current.lines && current.lines.length ? current.lines[0].speaker : null;
   $: shadowLine = shadowMode && current?.lines?.length ? current.lines[shadowIndex] : null;
+  $: doneCount = dialogues.filter((d) => $shadowProgress.has(sceneKey(d))).length;
+  $: donePct = dialogues.length ? Math.round((doneCount / dialogues.length) * 100) : 0;
+  $: curDone = current ? $shadowProgress.has(sceneKey(current)) : false;
 </script>
 
 {#if !current}
   <section class="talk">
     <div class="hero">
-      <div class="eyebrow">Real conversations</div>
-      <h1>Talk</h1>
-      <p>Situational dialogues. Tap a scene, listen, then hide the English and rehearse your lines.</p>
-      <button class="start-shadow" type="button" on:click={() => startShadow()}>Start shadow</button>
+      <div class="eyebrow">Listen &amp; repeat</div>
+      <h1>Shadow</h1>
+      <p>Situational dialogues. Tap a scene, listen, then hide the English and shadow each line aloud.</p>
+      <button class="btn3d start-shadow" type="button" on:click={() => startShadow()}>Start shadow</button>
+      <div class="prog"><div class="prog-bar"><span style="width:{donePct}%"></span></div><span class="prog-n">{doneCount}/{dialogues.length} shadowed</span></div>
     </div>
     <div class="scene-grid">
       {#each dialogues as d}
-        <button class="scene" on:click={() => open(d)}>
+        <button class="scene" class:done={$shadowProgress.has(sceneKey(d))} on:click={() => open(d)}>
           <span class="lvl">{d.level || 'A1'}</span>
+          {#if $shadowProgress.has(sceneKey(d))}<span class="scene-done" aria-label="Shadowed"><i class="ti ti-check" aria-hidden="true"></i></span>{/if}
           <strong>{d.title}</strong>
           <span class="sit">{d.situation}</span>
         </button>
@@ -77,6 +85,9 @@
       <button class="ghost" on:click={() => (hideEn = !hideEn)}>{hideEn ? 'Show English' : 'Practice mode · hide English'}</button>
       <button class="ghost" class:on={shadowMode} on:click={() => { shadowMode = !shadowMode; shadowIndex = 0; shadowSaid = false; }}>
         {shadowMode ? 'Exit shadow' : 'Shadow mode'}
+      </button>
+      <button class="ghost mark" class:on={curDone} type="button" on:click={() => toggleShadowDone(sceneKey(current))}>
+        {curDone ? '✓ Shadowed' : 'Mark done'}
       </button>
     </div>
     {#if shadowLine}
@@ -111,15 +122,15 @@
 <style>
   .talk { max-width: 760px; margin: 0 auto; padding: 28px; display: grid; gap: 16px; }
   .hero { display: grid; gap: 4px; }
-  .eyebrow { font-size: 12px; font-weight: 850; letter-spacing: .06em; text-transform: uppercase; color: var(--green-dark); }
-  h1 { margin: 2px 0; font-size: 30px; letter-spacing: -0.02em; }
+  .eyebrow { font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
+  h1 { margin: 2px 0; font-family: var(--serif-ko); font-size: 32px; font-weight: 600; letter-spacing: -0.02em; }
   .hero p { margin: 0; color: var(--ink-3); }
-  .start-shadow { justify-self: start; margin-top: 8px; padding: 10px 16px; border-radius: 999px; background: var(--ink); color: #fff; font-weight: 850; }
+  .start-shadow { justify-self: start; margin-top: 10px; }
   .scene-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
   .scene { display: grid; gap: 4px; text-align: left; padding: 16px; border-radius: var(--radius); background: var(--surface);
     border: 1px solid var(--border); box-shadow: var(--shadow-1); transition: transform .1s var(--bounce), border-color .1s; }
   .scene:hover { transform: translateY(-2px); border-color: var(--green); }
-  .lvl { justify-self: start; font-size: 11px; font-weight: 800; padding: 2px 9px; border-radius: 999px; background: #dbf1ff; color: #0a6aa6; }
+  .lvl { justify-self: start; font-size: 11px; font-weight: 800; padding: 2px 9px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); }
   .scene strong { font-size: 16px; margin-top: 2px; }
   .scene .sit { color: var(--ink-2); font-size: 13px; }
   .back { justify-self: start; padding: 7px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; }
@@ -143,4 +154,13 @@
   .tip { display: flex; gap: 10px; padding: 14px 16px; border-radius: 14px; background: var(--surface-2); border: 1px solid var(--border); }
   .tip p { margin: 0; line-height: 1.6; }
   .ico { font-size: 18px; }
+
+  .prog { display: flex; align-items: center; gap: 10px; margin-top: 12px; }
+  .prog-bar { flex: 1; max-width: 240px; height: 8px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); overflow: hidden; }
+  .prog-bar span { display: block; height: 100%; background: var(--green); border-radius: 999px; transition: width .4s var(--bounce); }
+  .prog-n { font-size: 12px; font-weight: 800; color: var(--ink-3); }
+  .scene { position: relative; }
+  .scene.done { border-color: var(--green); }
+  .scene-done { position: absolute; top: 12px; right: 12px; width: 22px; height: 22px; border-radius: 999px; background: var(--green); color: #fff; display: grid; place-items: center; font-size: 12px; }
+  .ghost.mark.on { background: var(--green); color: #fff; }
 </style>
