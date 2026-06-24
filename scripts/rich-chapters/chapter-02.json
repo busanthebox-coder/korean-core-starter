@@ -43,6 +43,12 @@
           "romanization": "oneureun bappayo.",
           "en": "Today I'm busy.",
           "note": "Spotlighting 오늘 hints at a contrast — other days may be different."
+        },
+        {
+          "ko": "친구는 한국 사람이에요.",
+          "romanization": "chinguneun hanguk saramieyo.",
+          "en": "My friend is Korean.",
+          "note": "친구 ends in a vowel → 는. Everyday topic, everyday words."
         }
       ],
       "keyPoint": {
@@ -98,6 +104,12 @@
           "romanization": "ibuneun seonsaengnimieyo.",
           "en": "This person is a teacher.",
           "note": "It works for other people too — 이분 = 'this person' (polite)."
+        },
+        {
+          "ko": "이건 물이에요.",
+          "romanization": "igeon murieyo.",
+          "en": "This is water.",
+          "note": "물 ends in a consonant → 이에요."
         }
       ],
       "keyPoint": {
@@ -553,5 +565,17 @@
       "감사합니다 (formal) vs 고마워요 (warm/friendly) — same meaning, different register; default to 감사합니다 until you read the room"
     ],
     "nextChapterTeaser": "Next up: Chapter 3 introduces numbers — both the Korean native system (하나, 둘, 셋) and the Sino-Korean system (일, 이, 삼). You'll need both to count things, tell time, and talk about age."
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short self-introduction (3 sentences): your name, what you do, and a polite closing.",
+    "hint": "Use 저는 ___이에요/예요 for the first two, and end with 만나서 반가워요.",
+    "model": "안녕하세요. 저는 마이클이에요. 저는 학생이에요. 만나서 반가워요.",
+    "modelEn": "Hello. I'm Michael. I'm a student. Nice to meet you."
+  },
+  "canDo": [
+    "Greet, thank, and apologize politely (안녕하세요 · 감사합니다 · 죄송합니다)",
+    "Introduce myself with 저는 ___이에요/예요",
+    "Choose 은 or 는 correctly from the 받침",
+    "Tell 감사합니다 from 고마워요 by who I'm talking to"
+  ]
 }

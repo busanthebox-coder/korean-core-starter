@@ -53,6 +53,7 @@
     if (ch.inlineExercises && ch.inlineExercises.length) {
       ch.inlineExercises.forEach((ex) => s.push({ phase: 'practice', kind: 'exercise', data: ex }));
     }
+    if (ch.writingTask && ch.writingTask.prompt) s.push({ phase: 'practice', kind: 'writing', data: ch.writingTask });
     return s;
   }
 
@@ -135,6 +136,12 @@
       <h2>Complete</h2>
       {#if doneGoal}<p class="done-goal">{doneGoal}</p>{/if}
       {#if doneBullets.length}<ul class="done-recap">{#each doneBullets as b}<li>{b}</li>{/each}</ul>{/if}
+      {#if chapter.canDo && chapter.canDo.length}
+        <div class="cando">
+          <span class="cando-cap">I can now…</span>
+          <ul>{#each chapter.canDo as c}<li><i class="ti ti-circle-check" aria-hidden="true"></i> {c}</li>{/each}</ul>
+        </div>
+      {/if}
       {#if doneTeaser}<div class="teaser">▶ {doneTeaser}</div>{/if}
       <div class="done-actions">
         <button class="btn3d" type="button" on:click={onPractice}>Practice this</button>
@@ -211,7 +218,7 @@
         {/if}
 
         <div class="g-examples">
-          {#each (gn.examples || []).slice(0, 3) as ex}
+          {#each (gn.examples || []).slice(0, 4) as ex}
             <div class="g-ex">
               <div class="g-ko">{ex.ko} <AudioButton text={ex.ko} size={18} /></div>
               <RomanizationLine text={ex.romanization} />
@@ -301,6 +308,19 @@
         {:else}
           <div class="verdict" class:ok={exCorrect()}>{exCorrect() ? '✓ Correct!' : `✗ Answer: ${correctOf(ex)}`}</div>
           {#if ex.explanation}<div class="ex-explain">{ex.explanation}</div>{/if}
+        {/if}
+
+      {:else if cur.kind === 'writing'}
+        {@const wt = cur.data}
+        <h2 class="screen-h">Write it</h2>
+        <p class="screen-sub">{wt.prompt}</p>
+        {#if wt.hint}<div class="ex-hint"><i class="ti ti-bulb" aria-hidden="true"></i> {wt.hint}</div>{/if}
+        <textarea class="w-area" rows="3" placeholder="여기에 써 보세요…" bind:value={answers[i]}></textarea>
+        {#if wt.model}
+          <details class="w-model">
+            <summary>Show a model answer</summary>
+            <div class="w-model-body"><div class="w-ko">{wt.model}</div>{#if wt.modelEn}<div class="w-en">{wt.modelEn}</div>{/if}</div>
+          </details>
         {/if}
       {/if}
     </div>
@@ -454,6 +474,20 @@
   .lp-done h2 { margin: 0; font-family: var(--serif-ko); font-weight: 600; font-size: 26px; }
   .done-goal { margin: 0; color: var(--ink-2); font-size: 14px; max-width: 34ch; }
   .done-recap { text-align: left; margin: 8px 0 0; padding-left: 18px; display: grid; gap: 6px; color: var(--ink); font-size: 14px; line-height: 1.55; }
+  .cando { width: 100%; text-align: left; margin-top: 14px; padding: 14px; border-radius: var(--r-1); background: var(--green-soft); }
+  .cando-cap { font-size: 11px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; color: var(--green-dark); }
+  .cando ul { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 7px; }
+  .cando li { display: grid; grid-template-columns: auto 1fr; gap: 8px; font-size: 13px; line-height: 1.5; color: var(--ink); }
+  .cando li :global(i) { color: var(--green); margin-top: 2px; }
+  /* writing task */
+  .w-area { width: 100%; padding: 12px 13px; border-radius: var(--r-1); border: 1px solid var(--border); background: var(--surface); font: inherit; font-size: 16px; resize: vertical; }
+  .w-area:focus { outline: none; border-color: var(--primary); }
+  .w-model { border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface); }
+  .w-model > summary { cursor: pointer; list-style: none; padding: 10px 13px; font-size: 13px; font-weight: 800; color: var(--accent-ink); }
+  .w-model > summary::-webkit-details-marker { display: none; }
+  .w-model-body { padding: 0 13px 13px; display: grid; gap: 3px; }
+  .w-ko { font-size: 15px; font-weight: 600; }
+  .w-en { font-size: 13px; color: var(--ink-2); }
   .teaser { font-size: 13px; color: var(--ink-3); }
   .done-actions { display: grid; gap: 10px; margin-top: 10px; width: 100%; max-width: 320px; }
   .ghost.go { justify-content: center; }
