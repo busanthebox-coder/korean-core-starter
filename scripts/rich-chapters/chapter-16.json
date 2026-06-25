@@ -13,268 +13,334 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-deoni",
-      "title": "-더니 — I watched X happen, then Y followed",
-      "mentalModel": "Think of -더니 as a SECURITY CAMERA REPLAY. You're reviewing footage of someone else's behavior (or the weather, or a situation), and then you narrate the outcome that followed. The camera was rolling on clause 1; clause 2 is the result that played out afterward. Only YOU had access to that footage — that's what makes -더니 feel personal and observational.",
-      "formation": "Verb/Adjective stem + -더니 (no vowel change: 먹다→먹더니, 춥다→춥더니). For your OWN past actions use -았/었더니 (먹었더니 = after I ate X, then Y happened).",
+      "title": "-더니 — \"and then (I noticed)…\"",
+      "func": "Links two clauses where you personally saw or noticed situation X, and then Y followed — as a result or as a contrast. The first clause is something you observed (usually about someone or something else), not a plan of your own.",
+      "formTable": [
+        {
+          "when": "After a verb or adjective stem",
+          "add": "-더니",
+          "ex": "먹다 → 먹더니 / 좋다 → 좋더니"
+        },
+        {
+          "when": "With a noun + 이다",
+          "add": "-(이)더니",
+          "ex": "학생이다 → 학생이더니 / 친구다 → 친구더니"
+        },
+        {
+          "when": "Your own past action → present result",
+          "add": "-았/었더니 (mostly with 나/저)",
+          "ex": "밥을 먹다 → 먹었더니 (배가 불러요)"
+        }
+      ],
       "examples": [
         {
-          "ko": "동생이 매일 야식을 먹더니 살이 쪘어요.",
-          "romanization": "dongsaengi maeil yasigeul meokdeoni sari jjeosseoyo.",
-          "en": "My brother kept eating late-night snacks, and then he gained weight.",
-          "note": "-더니 here: the speaker personally watched the habit build up over time (camera rolling) and then reports the predictable outcome"
+          "ko": "동생이 아까 울더니 지금은 자고 있어요.",
+          "romanization": "dongsaeng-i akka uldeoni jigeum-eun jago isseoyo.",
+          "en": "My little brother was crying a moment ago, and now he's sleeping.",
+          "note": "Plain -더니: I watched him cry, then a new state followed (contrast)."
         },
         {
-          "ko": "날씨가 아까는 맑더니 갑자기 비가 와요.",
-          "romanization": "nalssiga akkaneun malgdeoni gapjagi biga wayo.",
-          "en": "It was clear earlier, and now it's suddenly raining.",
-          "note": "Weather observation → surprising change: the speaker witnessed the clear sky, contrasting it with the current rain"
+          "ko": "친구가 열심히 공부하더니 시험을 잘 봤어요.",
+          "romanization": "chingu-ga yeolsimhi gongbuhadeoni siheom-eul jal bwasseoyo.",
+          "en": "My friend studied hard, and (sure enough) did well on the test.",
+          "note": "X (effort I saw) leads to Y (result); the subject is someone else."
         },
         {
-          "ko": "친구가 열심히 공부하더니 시험에서 1등을 했어요.",
-          "romanization": "chinguga yeolsimhi gongbuhadeoni siheomeseo ildeungeul haesseoyo.",
-          "en": "My friend studied hard and then got first place on the exam.",
-          "note": "I watched the studying (camera rolling on friend) → natural result: top score"
+          "ko": "아침에는 날씨가 좋더니 오후에 비가 왔어요.",
+          "romanization": "achim-eneun nalssi-ga jotdeoni ohu-e bi-ga wasseoyo.",
+          "en": "The weather was nice in the morning, and then it rained in the afternoon.",
+          "note": "-더니 with an adjective (좋다), showing a contrast between two times."
         },
         {
           "ko": "밥을 많이 먹었더니 배가 너무 불러요.",
-          "romanization": "babeul manhi meogeotdeoni baega neomu bulleoyo.",
-          "en": "I ate a lot and now my stomach is too full.",
-          "note": "-았더니 (past form) because it's the speaker's OWN past action leading to a present state they're experiencing"
-        },
-        {
-          "ko": "그 드라마가 재미없더니 결국 폐지됐어요.",
-          "romanization": "geu deuramaga jaemieopdeoni gyeolguk pyejidwaesseoyo.",
-          "en": "That drama kept being boring, and it ended up getting cancelled.",
-          "note": "Speaker watched (or heard about) the ongoing boringness — camera on the drama's quality — and reports the cancellation as the observed outcome"
+          "romanization": "bap-eul mani meogeotdeoni bae-ga neomu bulleoyo.",
+          "en": "I ate a lot, so now I'm really full.",
+          "note": "-았/었더니 with a first-person subject: my own past action causing a present result."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "친구가 매일 운동하더니 살이 빠졌어요.", "en": "My friend exercised every day, and then they lost weight." },
-          "b": { "ko": "친구가 매일 운동해서 살이 빠졌어요.", "en": "My friend lost weight because they exercised every day." },
-          "explanation": "-더니 (A) means: I personally watched this pattern unfold over time, and I'm reporting the result I witnessed. -아서/어서 (B) is a neutral cause-and-effect statement with no sense of personal observation or contrast — just a logical reason. -더니 carries the feeling of 'I saw it coming'."
-        },
-        {
-          "a": { "ko": "밥을 많이 먹었더니 배가 부러요.", "en": "I ate a lot, so now I feel full. (my own action)" },
-          "b": { "ko": "동생이 밥을 많이 먹더니 배가 불렀어요.", "en": "My sibling ate a lot and then had a full stomach. (watching someone else)" },
-          "explanation": "-았/었더니 (A) is for your OWN past action whose result you now experience. Plain -더니 (B) is for observing SOMEONE ELSE'S ongoing behavior and noting its result."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "저는 운동하더니 건강해졌어요.",
-        "right": "저는 운동했더니 건강해졌어요.",
-        "explanation": "English learners often use plain -더니 with first-person subjects, mirroring the English 'I exercised and then got healthy.' But plain -더니 is reserved for observations ABOUT OTHERS (or the weather/situations). When you are reporting what happened AFTER YOUR OWN action, you must use the past form: -았/었더니. 운동했더니 = after I exercised, (I found that) I got healthy."
+      "keyPoint": {
+        "label": "-더니 vs. -았/었더니",
+        "body": "Use plain -더니 when you noticed someone else's situation (친구가 공부하더니… = my friend studied, and then…). Use -았/었더니 when YOU did the action and report the result now (제가 먹었더니… = I ate, so now…). Why the past form attaches the way it does is a later topic — for now, just pair plain -더니 with 'someone else' and -았/었더니 with 'I'."
       },
-      "exceptions": [
-        "-더니 is almost always about another person or outside situation as the subject of clause 1; using it with 저는/나는 + plain stem sounds unnatural — use -았/었더니 instead",
-        "The contrast 아까는 … 더니 now … is very common for weather or mood changes you directly experienced: 아까는 기분이 좋더니 왜 화났어요? (You seemed fine earlier — why are you angry now?)",
-        "In speech, -더니 can be shortened to -데 informally: 그 친구 열심히 하데 결국 됐어요 (that friend was working hard and eventually made it)"
-      ]
+      "pronunciation": "좋더니 sounds like [조터니] — the ㅎ blends with the following ㄷ into an aspirated [ㅌ].",
+      "drill": {
+        "instruction": "Join the two facts into one sentence with -더니 (use -았/었더니 if the subject is 저/나).",
+        "model": "동생이 울다 / 지금 자다 → 동생이 울더니 지금 자요.",
+        "items": [
+          "친구가 열심히 운동하다 / 살이 빠지다 → ____",
+          "아침에 머리가 아프다 / 약을 먹고 괜찮아지다 → ____",
+          "제가 커피를 많이 마시다 / 잠이 안 오다 → ____ (use -았/었더니)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "제가 학교에 가더니 친구를 만났어요.",
+        "right": "제가 학교에 갔더니 친구가 있었어요.",
+        "explanation": "English speakers stick plain -더니 onto their own actions like a simple 'and then.' But plain -더니 reports something you noticed about others; for your own finished action that leads to a result, you need the past form -았/었더니."
+      }
     },
     {
-      "id": "gn-gillae",
-      "title": "-길래 — I noticed X, so I reacted",
-      "mentalModel": "Think of -길래 as a DOORBELL. Something catches your attention right now — rain, no reply, a closed door, a tired face — and you react. The first clause is the thing you personally noticed; the second clause is what you did because of that noticed clue.",
-      "formation": "Verb/adjective stem + -길래: 오다 → 오길래, 피곤하다 → 피곤하길래, 없다 → 없길래. The second clause is usually the speaker's reaction, decision, question, or action.",
+      "title": "-길래 — \"since I saw…, I…\"",
+      "func": "Gives the reason behind your own reaction or decision: because you noticed situation X, you did Y. The first clause is an outside trigger you observed; the second is your own spontaneous response.",
+      "formTable": [
+        {
+          "when": "After a verb stem",
+          "add": "-길래",
+          "ex": "팔다 → 팔길래 / 보이다 → 보이길래"
+        },
+        {
+          "when": "After an adjective stem",
+          "add": "-길래",
+          "ex": "싸다 → 싸길래 / 맛있다 → 맛있길래"
+        },
+        {
+          "when": "After a noun + 이다",
+          "add": "-(이)길래",
+          "ex": "학생이다 → 학생이길래 / 친구다 → 친구(이)길래"
+        }
+      ],
       "examples": [
         {
-          "ko": "비가 오길래 집에 있었어요.",
-          "romanization": "biga ogillae jibe isseosseoyo.",
-          "en": "I saw it was raining, so I stayed home.",
-          "note": "The rain was the noticed clue; staying home was the speaker's reaction."
+          "ko": "가게에서 과일이 싸길래 좀 많이 샀어요.",
+          "romanization": "gage-eseo gwail-i ssagillae jom mani sasseoyo.",
+          "en": "The fruit was cheap at the store, so I bought quite a lot.",
+          "note": "X (I noticed it was cheap) triggers my reaction Y (bought a lot)."
         },
         {
-          "ko": "답장이 없길래 다시 전화했어요.",
-          "romanization": "dapjangi eopgillae dasi jeonhwahaesseoyo.",
-          "en": "There was no reply, so I called again.",
-          "note": "No reply prompted the action. -길래 feels more immediate than a neutral because-clause."
+          "ko": "친구가 배고파하길래 밥을 사 줬어요.",
+          "romanization": "chingu-ga baegopahagillae bap-eul sa jwosseoyo.",
+          "en": "My friend looked hungry, so I bought them a meal.",
+          "note": "The trigger is someone else's state; my reaction is the kind gesture."
         },
         {
-          "ko": "친구가 피곤해 보이길래 먼저 보내 줬어요.",
-          "romanization": "chinguga pigonhae boigillae meonjeo bonae jwosseoyo.",
-          "en": "My friend looked tired, so I let them go first.",
-          "note": "You noticed their condition and reacted considerately."
+          "ko": "날씨가 좋길래 친구하고 산책했어요.",
+          "romanization": "nalssi-ga jotgillae chinguhago sanchaekaesseoyo.",
+          "en": "The weather was nice, so I went for a walk with a friend.",
+          "note": "-길래 with an adjective; the second clause must be the speaker's own action."
+        },
+        {
+          "ko": "책이 재미있길래 끝까지 다 읽었어요.",
+          "romanization": "chaeg-i jaemiitgillae kkeutkkaji da ilgeosseoyo.",
+          "en": "The book was fun, so I read it all the way to the end.",
+          "note": "Reason (the book was fun) → my resulting action (finished reading)."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "비가 오길래 집에 있었어요.", "en": "I noticed it was raining, so I stayed home." },
-          "b": { "ko": "비가 와서 집에 있었어요.", "en": "I stayed home because it rained." },
-          "explanation": "-길래 emphasizes perception and reaction. -아서/어서 is a plain cause. If the story is about what you noticed and how you responded, -길래 sounds more alive."
-        },
-        {
-          "a": { "ko": "친구가 매일 야근하더니 병이 났어요.", "en": "My friend kept working overtime, then got sick." },
-          "b": { "ko": "친구가 피곤해 보이길래 먼저 보냈어요.", "en": "My friend looked tired, so I sent them home first." },
-          "explanation": "-더니 reports an observed sequence and result. -길래 reports your immediate reaction to a noticed clue."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "제가 피곤하길래 쉬었어요.",
-        "right": "제가 피곤해서 쉬었어요. / 친구가 피곤해 보이길래 쉬게 했어요.",
-        "explanation": "-길래 usually reacts to something you notice outside yourself. For your own direct state, plain -아서/어서 is usually more natural. Use -길래 when a clue prompted your response."
+      "keyPoint": {
+        "label": "-길래 vs. -아서/-니까",
+        "body": "-아서 and -니까 give a plain reason for almost any clause, including requests and suggestions. -길래 is narrower: the reason is something you yourself noticed, and the result is your own (usually past) action — you can't say 비싸길래 사지 마세요. When telling someone else to do something, use -니까."
       },
-      "exceptions": [
-        "People do sometimes use -길래 with their own discovered state, but it usually needs a 'noticed after checking' feeling.",
-        "-길래 often appears in questions: 왜 그랬길래? = What happened that made it so?",
-        "The second clause should be a reaction, not just a timeless fact."
-      ]
+      "pronunciation": "맛있길래 sounds like [마싣낄래] — the ㄱ of 길 tenses to [ㄲ] after the preceding consonant.",
+      "drill": {
+        "instruction": "Make one sentence with -길래 (a reason you noticed + your own past reaction).",
+        "model": "과일이 싸다 / 많이 사다 → 과일이 싸길래 많이 샀어요.",
+        "items": [
+          "친구가 영화를 보고 싶어 하다 / 같이 가다 → ____",
+          "날씨가 덥다 / 아이스크림을 사다 → ____",
+          "길이 막히다 / 지하철을 타다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 오길래 우산을 가져가세요.",
+        "right": "비가 오니까 우산을 가져가세요.",
+        "explanation": "English 'since/because' works fine before a command, so learners attach -길래 to requests. But -길래 only leads into your own past action, never a command or suggestion. Switch to -니까 when you're telling someone else to do something."
+      }
     },
     {
-      "id": "gn-barame",
-      "title": "-는 바람에 — Because X happened, the plan got disrupted",
-      "mentalModel": "Think of -는 바람에 as a GUST OF WIND knocking your plan sideways. The cause is usually unexpected, inconvenient, or outside your control, and the result is usually negative: you were late, the event was canceled, the clothes got wet, the plan changed.",
-      "formation": "Action verb present modifier + 바람에: 오다 → 오는 바람에, 생기다 → 생기는 바람에. Past event cause can also appear as -는 바람에 in storytelling when describing the event as the disruptive cause.",
+      "title": "-는 바람에 — \"because of (something unexpected)…\"",
+      "func": "Gives a sudden, usually unwanted cause for a bad or unintended result. It signals that X threw things off and Y happened against your plans.",
+      "formTable": [
+        {
+          "when": "After a verb stem",
+          "add": "-는 바람에",
+          "ex": "늦다 → 늦는 바람에 / 자다 → 자는 바람에"
+        },
+        {
+          "when": "Verb stem ending in ㄹ (ㄹ drops)",
+          "add": "-는 바람에",
+          "ex": "울다 → 우는 바람에 / 놀다 → 노는 바람에"
+        },
+        {
+          "when": "Adjectives — not used",
+          "add": "(use a verb instead)",
+          "ex": "비싸다 (X) → 값이 오르는 바람에 (O)"
+        }
+      ],
       "examples": [
         {
-          "ko": "비가 오는 바람에 약속이 취소됐어요.",
-          "romanization": "biga oneun barame yaksogi chwisodwaesseoyo.",
-          "en": "The appointment got canceled because it rained.",
-          "note": "The rain disrupted the plan. This is stronger and more unfortunate than plain 비가 와서."
+          "ko": "늦잠을 자는 바람에 학교에 늦었어요.",
+          "romanization": "neutjam-eul janeun barame hakgyo-e neujeosseoyo.",
+          "en": "I overslept, so (unfortunately) I was late to school.",
+          "note": "Unexpected cause (oversleeping) → unwanted result (being late)."
         },
         {
-          "ko": "갑자기 일이 생기는 바람에 못 갔어요.",
-          "romanization": "gapjagi iri saenggineun barame mot gasseoyo.",
-          "en": "I couldn't go because something suddenly came up.",
-          "note": "A common excuse frame when a plan was derailed."
+          "ko": "버스를 놓치는 바람에 약속에 늦었어요.",
+          "romanization": "beoseu-reul nochineun barame yaksok-e neujeosseoyo.",
+          "en": "I missed the bus, so I was late to meet up.",
+          "note": "Classic disruption pattern; the result is a setback."
         },
         {
-          "ko": "버스를 놓치는 바람에 지각했어요.",
-          "romanization": "beoseureul nochineun barame jigakhaesseoyo.",
-          "en": "I was late because I missed the bus.",
-          "note": "The missed bus is the disruptive event that caused the bad result."
+          "ko": "동생이 우는 바람에 잠을 못 잤어요.",
+          "romanization": "dongsaeng-i uneun barame jam-eul mot jasseoyo.",
+          "en": "My little brother kept crying, so I couldn't sleep.",
+          "note": "울다 → 우는: ㄹ drops before -는. The cause is someone else's action."
+        },
+        {
+          "ko": "비가 갑자기 오는 바람에 옷이 다 젖었어요.",
+          "romanization": "bi-ga gapjagi oneun barame os-i da jeojeosseoyo.",
+          "en": "It suddenly rained, so my clothes got all wet.",
+          "note": "갑자기 (suddenly) fits the 'unexpected disruption' feel of this form."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "비가 와서 집에 있었어요.", "en": "I stayed home because it rained. (neutral)" },
-          "b": { "ko": "비가 오는 바람에 약속이 취소됐어요.", "en": "Because it rained, the appointment got canceled. (disrupted)" },
-          "explanation": "-아서/어서 can be neutral or even positive. -는 바람에 usually points to an unwanted result."
-        },
-        {
-          "a": { "ko": "발표를 준비하기 위해서 집에 있었어요.", "en": "I stayed home to prepare for the presentation." },
-          "b": { "ko": "비가 오는 바람에 집에 있었어요.", "en": "I stayed home because the rain disrupted my plan." },
-          "explanation": "-기 위해서 gives purpose. -는 바람에 gives an inconvenient cause. They are not interchangeable."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "한국어를 배우는 바람에 친구를 많이 만났어요.",
-        "right": "한국어를 배우면서 친구를 많이 만났어요. / 한국어를 배우기 위해서 학원에 다녀요.",
-        "explanation": "바람에 is usually not for happy planned results. If the result is positive or intentional, choose a different connector."
+      "keyPoint": {
+        "label": "-는 바람에 vs. -아서/-어서",
+        "body": "-아서/-어서 states a plain cause for any kind of result, good or bad. -는 바람에 is saved for an unexpected cause that leads to a bad or unplanned result, and the second clause is normally in the past tense. You wouldn't say 열심히 공부하는 바람에 시험을 잘 봤어요 — for a good result, use -아서/-어서."
       },
-      "exceptions": [
-        "Some speakers use 바람에 lightly for comic exaggeration, but the base nuance is still 'this caused trouble.'",
-        "Use 때문에 when you want a broader because-of phrase; use 바람에 when the disruption matters.",
-        "The result clause usually contains something unwanted: 못 갔어요, 늦었어요, 취소됐어요, 젖었어요."
-      ]
+      "pronunciation": "늦는 sounds like [는는] in fast speech — the ㅈ of 늦 becomes [ㄴ] before the ㄴ of 는.",
+      "drill": {
+        "instruction": "Join the two facts with -는 바람에 (unexpected cause → bad result, second clause in past tense).",
+        "model": "늦잠을 자다 / 학교에 늦다 → 늦잠을 자는 바람에 학교에 늦었어요.",
+        "items": [
+          "버스를 놓치다 / 회의에 늦다 → ____",
+          "휴대폰을 잃어버리다 / 친구한테 연락 못 하다 → ____",
+          "아이가 울다 / 통화를 못 하다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "열심히 연습하는 바람에 시험에 합격했어요.",
+        "right": "열심히 연습한 덕분에 시험에 합격했어요.",
+        "explanation": "Learners use -는 바람에 for any cause, like a neutral 'because.' But -는 바람에 only fits an unexpected cause with a bad result. For a good result you brought about, use -아서/-어서 or -(은)ㄴ 덕분에 ('thanks to')."
+      }
     },
     {
-      "id": "gn-eulsurok",
-      "title": "-(으)ㄹ수록 — The more X, the more Y",
-      "mentalModel": "Think of -(으)ㄹ수록 as a SLIDING SCALE dial. Imagine a dial on a machine: as you turn it further in one direction, another gauge goes up proportionally. The two gauges are linked — one cannot move without the other moving too. -수록 is the linguistic dial that links two proportional changes.",
-      "formation": "Consonant-ending stem + -을수록 (먹다→먹을수록, 작다→작을수록). Vowel-ending stem + -ㄹ수록 (가다→갈수록, 크다→클수록). ㄹ-ending stems drop ㄹ then add -ㄹ수록 (살다→살수록). Often paired with -(으)면 before it for emphasis: 보면 볼수록 (the more you look at it).",
+      "title": "-(으)ㄹ수록 — the more …, the more …",
+      "func": "-(으)ㄹ수록 attaches to a verb or adjective stem to mean \"the more X happens, the more Y.\" It links a rising cause to a rising result, and is often paired with 점점 (\"more and more\").",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel",
+          "add": "-ㄹ수록",
+          "ex": "가다 → 갈수록 · 보다 → 볼수록"
+        },
+        {
+          "when": "Stem ends in a consonant (받침)",
+          "add": "-을수록",
+          "ex": "먹다 → 먹을수록 · 읽다 → 읽을수록"
+        },
+        {
+          "when": "Often doubled with the same verb + -(으)면",
+          "add": "V-(으)면 V-(으)ㄹ수록",
+          "ex": "보면 볼수록 · 알면 알수록"
+        }
+      ],
       "examples": [
         {
-          "ko": "한국어는 공부할수록 더 재미있어요.",
-          "romanization": "hangugeoneun gongbuhalsurok deo jaemiisseoyo.",
-          "en": "The more I study Korean, the more fun it gets.",
-          "note": "Classic sliding scale: study ↑ → enjoyment ↑. 할수록 = consonant-ending 하다 stem 하 + -ㄹ수록"
+          "ko": "한국어는 공부할수록 재미있어요.",
+          "romanization": "han-gu-geo-neun gong-bu-hal-su-rok jae-mi-i-sseo-yo.",
+          "en": "The more I study Korean, the more fun it is.",
+          "note": "공부하다 → 공부할수록 (vowel stem → ㄹ수록)."
         },
         {
-          "ko": "연습하면 할수록 실력이 늘어요.",
-          "romanization": "yeonseupamyeon halsurok sillyeogi neureoyo.",
-          "en": "The more you practice, the more your skills improve.",
-          "note": "-면 할수록 = emphatic form (if you practice, and the more you practice, ...) — both dials moving together"
+          "ko": "친구는 만날수록 좋아요.",
+          "romanization": "chin-gu-neun man-nal-su-rok jo-a-yo.",
+          "en": "The more I see my friend, the more I like them.",
+          "note": "만나다 → 만날수록."
         },
         {
-          "ko": "서울은 살수록 매력이 있어요.",
-          "romanization": "seoureun salsurok maengnyeogi isseoyo.",
-          "en": "The longer you live in Seoul, the more charming it becomes.",
-          "note": "살다 (ㄹ-stem) drops ㄹ → 살수록. Time in Seoul ↑ → appreciation ↑"
+          "ko": "이 책은 읽을수록 어려워요.",
+          "romanization": "i chae-geun il-geul-su-rok eo-ryeo-wo-yo.",
+          "en": "The more I read this book, the harder it gets.",
+          "note": "읽다 → 읽을수록 (consonant stem → 을수록)."
         },
         {
-          "ko": "이 음악은 들을수록 좋아져요.",
-          "romanization": "i eumageun deureulsurok joajyeoyo.",
-          "en": "The more you listen to this music, the more you like it.",
-          "note": "듣다 → irregular: 들으 + -ㄹ수록 → 들을수록. Listening ↑ → liking ↑"
-        },
-        {
-          "ko": "가격이 쌀수록 소비자가 좋아해요.",
-          "romanization": "gagyeogi ssalsurok sobijaga joahaeyo.",
-          "en": "The cheaper the price, the happier consumers are.",
-          "note": "Here the scale is inverse: price ↓ → consumer happiness ↑, but the grammar structure is identical — one dial moving causes the other to move"
+          "ko": "보면 볼수록 예뻐요.",
+          "romanization": "bo-myeon bol-su-rok ye-ppeo-yo.",
+          "en": "The more I look, the prettier it is.",
+          "note": "The doubled 보면 볼수록 frame is very common in speech."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "이 책은 읽을수록 재미있어요.", "en": "The more you read this book, the more interesting it gets." },
-          "b": { "ko": "이 책을 읽어서 재미있었어요.", "en": "I read this book and it was interesting." },
-          "explanation": "-(으)ㄹ수록 (A) describes a proportional, ongoing relationship — as reading increases, interest increases. -아서/어서 (B) is a one-time cause-and-effect: I read it once and found it interesting. The sliding scale vs. a single event."
-        },
-        {
-          "a": { "ko": "보면 볼수록 예뻐요.", "en": "The more I look at it, the prettier it gets." },
-          "b": { "ko": "볼수록 예뻐요.", "en": "The more I look at it, the prettier it gets. (same meaning, slightly less emphatic)" },
-          "explanation": "The -면 V-ㄹ수록 pattern (A) is more emphatic and frequently used in speech. Plain -(으)ㄹ수록 (B) alone is grammatically correct but sounds slightly more literary. Both mean the same proportional relationship."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "한국어를 공부하면 더 재미있어요.",
-        "right": "한국어는 공부할수록 더 재미있어요.",
-        "explanation": "English learners often express the 'the more...the more' pattern with -면 (if/when) alone: 공부하면 재미있어요 = 'When you study, it's fun' — a single conditional. But -면 alone cannot express the proportional SCALING relationship. -(으)ㄹ수록 is the only way to say 'as one thing increases, another increases proportionally'. Don't try to approximate this pattern with -면 alone."
+      "keyPoint": {
+        "label": "Pair it with 점점",
+        "body": "-(으)ㄹ수록 often comes with 점점 (\"gradually, more and more\") to stress the rising effect: 시간이 갈수록 점점 추워져요 (\"as time goes on, it gets colder and colder\"). The doubled V-(으)면 V-(으)ㄹ수록 form (알면 알수록) is a fixed, natural way to say \"the more … the more.\""
       },
-      "exceptions": [
-        "갈수록 (from 가다, 'to go') is a frozen adverb meaning 'increasingly' or 'more and more': 갈수록 힘들어요 = It's getting harder and harder",
-        "When the subject of both clauses is the same (which is typical), no need to repeat it: 공부할수록 더 잘해요 (the more [I] study, the better [I] get)",
-        "The result clause (after -수록) usually contains 더 (more), 점점 (gradually more), or a comparative expression to make the proportional change explicit"
-      ]
+      "pronunciation": "읽을수록 is pronounced [일글쑤록]: the ㄱ links onto the following vowel and 수 tenses to [쑤].",
+      "drill": {
+        "instruction": "Make \"the more …, the more …\" sentences — follow the model.",
+        "model": "(공부하다 / 재미있다) → 공부할수록 재미있어요.",
+        "items": [
+          "(보다 / 예쁘다) → ______",
+          "(먹다 / 맛있다) → ______",
+          "(친구를 알다 / 좋다) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "공부하수록",
+        "right": "공부할수록",
+        "explanation": "Don't drop the (으)ㄹ. A vowel stem still needs the ㄹ (공부할수록), and a consonant stem needs 을 (먹을수록). It is never just stem + 수록."
+      }
     },
     {
-      "id": "gn-wihaeseo",
-      "title": "-기 위해서 — In order to / for the purpose of",
-      "mentalModel": "Think of -기 위해서 as an ARROW aimed at a goal. The first clause names the purpose, and the second clause names the action you take to reach it. It is planned and intentional, not accidental.",
-      "formation": "Verb stem + -기 위해서: 준비하다 → 준비하기 위해서, 합격하다 → 합격하기 위해서. Noun + 을/를 위해서: 발표를 위해서, 건강을 위해서.",
+      "title": "-기 위해서 — in order to / for the sake of",
+      "func": "-기 위해서 marks a purpose — the goal you do something for. Attach -기 위해서 to a verb stem (\"in order to V\"), or N을/를 위해서 to a noun (\"for the sake of N\"). The 서 is optional: 위해 = 위해서.",
+      "formTable": [
+        {
+          "when": "Verb stem + 기 위해서 (\"in order to V\")",
+          "add": "-기 위해서",
+          "ex": "배우다 → 배우기 위해서 · 사다 → 사기 위해서"
+        },
+        {
+          "when": "Noun + 을/를 위해서 (\"for N\")",
+          "add": "을/를 위해서",
+          "ex": "건강 → 건강을 위해서 · 친구 → 친구를 위해서"
+        },
+        {
+          "when": "서 is optional",
+          "add": "위해 = 위해서",
+          "ex": "배우기 위해 / 배우기 위해서"
+        }
+      ],
       "examples": [
         {
-          "ko": "발표를 준비하기 위해서 매일 연습해요.",
-          "romanization": "balpyoreul junbihagi wihaeseo maeil yeonseupaeyo.",
-          "en": "I practice every day in order to prepare for the presentation.",
-          "note": "The purpose is preparing for the presentation; the action is daily practice."
+          "ko": "한국어를 배우기 위해서 한국에 왔어요.",
+          "romanization": "han-gu-geo-reul bae-u-gi wi-hae-seo han-gu-ge wa-sseo-yo.",
+          "en": "I came to Korea (in order) to learn Korean.",
+          "note": "배우다 → 배우기 위해서. The goal comes first, the action second."
         },
         {
-          "ko": "실력을 늘리기 위해서 한국어로 일기를 써요.",
-          "romanization": "sillyeogeul neulligi wihaeseo hangugeoro ilgireul sseoyo.",
-          "en": "I write a diary in Korean to improve my ability.",
-          "note": "늘리다 is transitive: you intentionally increase your ability."
+          "ko": "건강을 위해서 매일 운동해요.",
+          "romanization": "geon-gang-eul wi-hae-seo mae-il un-dong-hae-yo.",
+          "en": "I exercise every day for my health.",
+          "note": "Noun goal → 건강을 위해서."
         },
         {
-          "ko": "건강을 위해서 야식을 줄였어요.",
-          "romanization": "geongangeul wihaeseo yasigeul juryeosseoyo.",
-          "en": "I cut down on late-night snacks for my health.",
-          "note": "Noun + 을/를 위해서 is also common."
+          "ko": "시험을 잘 보기 위해서 열심히 공부해요.",
+          "romanization": "si-heo-meul jal bo-gi wi-hae-seo yeol-sim-hi gong-bu-hae-yo.",
+          "en": "I study hard (in order) to do well on the exam.",
+          "note": "보다 → 보기 위해서."
+        },
+        {
+          "ko": "친구를 위해서 선물을 샀어요.",
+          "romanization": "chin-gu-reul wi-hae-seo seon-mu-reul sa-sseo-yo.",
+          "en": "I bought a gift for my friend.",
+          "note": "Noun + 를 위해서 = \"for (the sake of).\""
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "발표를 준비하기 위해서 집에 있었어요.", "en": "I stayed home to prepare for the presentation." },
-          "b": { "ko": "비가 오길래 집에 있었어요.", "en": "I noticed it was raining, so I stayed home." },
-          "explanation": "-기 위해서 is planned purpose. -길래 is a reaction to a noticed situation."
-        },
-        {
-          "a": { "ko": "실력을 늘리기 위해서 연습해요.", "en": "I practice to improve my skill." },
-          "b": { "ko": "연습할수록 실력이 늘어요.", "en": "The more I practice, the more my skill improves." },
-          "explanation": "-기 위해서 gives the goal of an action. -(으)ㄹ수록 states a proportional relationship."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "비가 오기 위해서 집에 있었어요.",
-        "right": "비가 오길래 집에 있었어요. / 발표를 준비하기 위해서 집에 있었어요.",
-        "explanation": "Use -기 위해서 only when the subject intentionally acts toward a goal. Rain is not your purpose; it is a noticed cause or disruption."
+      "keyPoint": {
+        "label": "-기 위해서 vs -(으)러",
+        "body": "Both express purpose, but -(으)러 attaches only to a verb and only pairs with going/coming verbs (가다/오다): 밥 먹으러 가요 (I go to eat). -기 위해서 is broader — any verb, any main clause, and it can also take a noun goal (건강을 위해서). Use -(으)러 for \"go/come to do,\" and -기 위해서 for any purpose."
       },
-      "exceptions": [
-        "For casual speech, -(으)려고 can replace -기 위해서 in many everyday purpose sentences: 발표 준비하려고 연습해요.",
-        "-기 위해서 sounds clearer and a little more deliberate than -(으)려고.",
-        "For noun goals, use 을/를 위해서: 건강을 위해서, 발표를 위해서."
-      ]
+      "pronunciation": "",
+      "drill": {
+        "instruction": "State a purpose — follow the model.",
+        "model": "(한국어를 배우다 / 한국에 오다) → 한국어를 배우기 위해서 한국에 왔어요.",
+        "items": [
+          "(시험을 잘 보다 / 공부하다) → ______",
+          "(건강 / 운동하다) → ______",
+          "(친구 / 선물을 사다) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "배우 위해서",
+        "right": "배우기 위해서",
+        "explanation": "Don't forget the -기 that turns the verb into a noun-like form. It is verb-stem + 기 + 위해서 (배우기 위해서), never just verb + 위해서."
+      }
     }
   ],
   "extendedVocabulary": [
@@ -283,136 +349,272 @@
       "romanization": "chwisodoeda",
       "english": "to be cancelled (passive)",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "비가 오는 바람에 행사가 취소됐어요.", "en": "The event got cancelled because of the rain.", "note": "취소되다 is passive — the subject is what was cancelled, not who cancelled it" },
-      "collocations": ["약속이 취소되다", "행사가 취소되다", "예약을 취소하다"]
+      "exampleSentence": {
+        "ko": "비가 오는 바람에 행사가 취소됐어요.",
+        "en": "The event got cancelled because of the rain.",
+        "note": "취소되다 is passive — the subject is what was cancelled, not who cancelled it"
+      },
+      "collocations": [
+        "약속이 취소되다",
+        "행사가 취소되다",
+        "예약을 취소하다"
+      ]
     },
     {
       "hangul": "바람에",
       "romanization": "barame",
       "english": "because of (unexpected reason)",
       "partOfSpeech": "connective",
-      "exampleSentence": { "ko": "갑자기 비가 오는 바람에 옷이 다 젖었어요.", "en": "My clothes got completely soaked because it suddenly started raining.", "note": "바람에 carries the nuance that the cause was unexpected or unwelcome, stronger than 때문에" },
-      "collocations": ["V-는 바람에", "갑자기 ~는 바람에", "예상치 못한 ~는 바람에"]
+      "exampleSentence": {
+        "ko": "갑자기 비가 오는 바람에 옷이 다 젖었어요.",
+        "en": "My clothes got completely soaked because it suddenly started raining.",
+        "note": "바람에 carries the nuance that the cause was unexpected or unwelcome, stronger than 때문에"
+      },
+      "collocations": [
+        "V-는 바람에",
+        "갑자기 ~는 바람에",
+        "예상치 못한 ~는 바람에"
+      ]
     },
     {
       "hangul": "연습하다",
       "romanization": "yeonseuphada",
       "english": "to practice",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "연습하면 할수록 실수가 줄어요.", "en": "The more you practice, the fewer mistakes you make.", "note": "Perfect partner for -(으)ㄹ수록: proportional improvement through practice" },
-      "collocations": ["열심히 연습하다", "매일 연습하다", "연습이 필요하다"]
+      "exampleSentence": {
+        "ko": "연습하면 할수록 실수가 줄어요.",
+        "en": "The more you practice, the fewer mistakes you make.",
+        "note": "Perfect partner for -(으)ㄹ수록: proportional improvement through practice"
+      },
+      "collocations": [
+        "열심히 연습하다",
+        "매일 연습하다",
+        "연습이 필요하다"
+      ]
     },
     {
       "hangul": "실력",
       "romanization": "sillyeok",
       "english": "skill level / ability",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "연습할수록 실력이 늘어요.", "en": "The more you practice, the more your skills improve.", "note": "늘다 (to grow/increase) pairs naturally with 실력" },
-      "collocations": ["실력이 늘다", "실력이 쌓이다", "실력을 키우다"]
+      "exampleSentence": {
+        "ko": "연습할수록 실력이 늘어요.",
+        "en": "The more you practice, the more your skills improve.",
+        "note": "늘다 (to grow/increase) pairs naturally with 실력"
+      },
+      "collocations": [
+        "실력이 늘다",
+        "실력이 쌓이다",
+        "실력을 키우다"
+      ]
     },
     {
       "hangul": "늘다",
       "romanization": "neulda",
       "english": "to increase / grow / improve",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "한국어를 쓸수록 실력이 늘어요.", "en": "The more you use Korean, the more your skills grow.", "note": "늘다 is intransitive — the subject improves on its own; contrast with 늘리다 (to increase something intentionally)" },
-      "collocations": ["실력이 늘다", "어휘가 늘다", "자신감이 늘다"]
+      "exampleSentence": {
+        "ko": "한국어를 쓸수록 실력이 늘어요.",
+        "en": "The more you use Korean, the more your skills grow.",
+        "note": "늘다 is intransitive — the subject improves on its own; contrast with 늘리다 (to increase something intentionally)"
+      },
+      "collocations": [
+        "실력이 늘다",
+        "어휘가 늘다",
+        "자신감이 늘다"
+      ]
     },
     {
       "hangul": "야식",
       "romanization": "yasik",
       "english": "late-night snack / midnight food",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "친구가 매일 야식을 먹더니 살이 찐 것 같아요.", "en": "My friend kept eating late-night snacks, and it seems they gained weight.", "note": "Classic -더니 scenario: you observed the habit over time → you're now noting the result" },
-      "collocations": ["야식을 먹다", "야식을 시키다", "야식 배달"]
+      "exampleSentence": {
+        "ko": "친구가 매일 야식을 먹더니 살이 찐 것 같아요.",
+        "en": "My friend kept eating late-night snacks, and it seems they gained weight.",
+        "note": "Classic -더니 scenario: you observed the habit over time → you're now noting the result"
+      },
+      "collocations": [
+        "야식을 먹다",
+        "야식을 시키다",
+        "야식 배달"
+      ]
     },
     {
       "hangul": "살이 찌다",
       "romanization": "sari jjida",
       "english": "to gain weight",
       "partOfSpeech": "verb phrase",
-      "exampleSentence": { "ko": "요즘 스트레스를 받더니 살이 쪘어요.", "en": "They've been stressed lately, and they've gained weight.", "note": "살이 찌다 is an expression — 살 (flesh/fat) + 이 (subject marker) + 찌다 (to fatten/swell)" },
-      "collocations": ["살이 찌다", "살이 빠지다", "살을 빼다"]
+      "exampleSentence": {
+        "ko": "요즘 스트레스를 받더니 살이 쪘어요.",
+        "en": "They've been stressed lately, and they've gained weight.",
+        "note": "살이 찌다 is an expression — 살 (flesh/fat) + 이 (subject marker) + 찌다 (to fatten/swell)"
+      },
+      "collocations": [
+        "살이 찌다",
+        "살이 빠지다",
+        "살을 빼다"
+      ]
     },
     {
       "hangul": "갑자기",
       "romanization": "gapjagi",
       "english": "suddenly / all of a sudden",
       "partOfSpeech": "adverb",
-      "exampleSentence": { "ko": "날씨가 맑더니 갑자기 천둥이 쳤어요.", "en": "It was clear, and then suddenly there was thunder.", "note": "갑자기 intensifies the contrast in -더니 sentences — the unexpected shift" },
-      "collocations": ["갑자기 변하다", "갑자기 아프다", "갑자기 비가 오다"]
+      "exampleSentence": {
+        "ko": "날씨가 맑더니 갑자기 천둥이 쳤어요.",
+        "en": "It was clear, and then suddenly there was thunder.",
+        "note": "갑자기 intensifies the contrast in -더니 sentences — the unexpected shift"
+      },
+      "collocations": [
+        "갑자기 변하다",
+        "갑자기 아프다",
+        "갑자기 비가 오다"
+      ]
     },
     {
       "hangul": "결국",
       "romanization": "gyeolguk",
       "english": "in the end / ultimately / eventually",
       "partOfSpeech": "adverb",
-      "exampleSentence": { "ko": "열심히 노력하더니 결국 합격했어요.", "en": "They kept working hard, and in the end they passed.", "note": "결국 often appears in the result clause of -더니 sentences, marking the endpoint of the observed sequence" },
-      "collocations": ["결국 성공하다", "결국 실패하다", "결국 포기하다"]
+      "exampleSentence": {
+        "ko": "열심히 노력하더니 결국 합격했어요.",
+        "en": "They kept working hard, and in the end they passed.",
+        "note": "결국 often appears in the result clause of -더니 sentences, marking the endpoint of the observed sequence"
+      },
+      "collocations": [
+        "결국 성공하다",
+        "결국 실패하다",
+        "결국 포기하다"
+      ]
     },
     {
       "hangul": "쌓이다",
       "romanization": "ssahida",
       "english": "to pile up / accumulate",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "경험이 쌓일수록 자신감이 생겨요.", "en": "The more experience accumulates, the more confidence you gain.", "note": "쌓이다 is the passive of 쌓다 (to stack/pile); -ㄹ수록 pairs perfectly with gradual accumulation" },
-      "collocations": ["경험이 쌓이다", "스트레스가 쌓이다", "실력이 쌓이다"]
+      "exampleSentence": {
+        "ko": "경험이 쌓일수록 자신감이 생겨요.",
+        "en": "The more experience accumulates, the more confidence you gain.",
+        "note": "쌓이다 is the passive of 쌓다 (to stack/pile); -ㄹ수록 pairs perfectly with gradual accumulation"
+      },
+      "collocations": [
+        "경험이 쌓이다",
+        "스트레스가 쌓이다",
+        "실력이 쌓이다"
+      ]
     },
     {
       "hangul": "매력",
       "romanization": "maengnyeok",
       "english": "charm / appeal / attractiveness",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "한국 음식은 알수록 매력이 있어요.", "en": "Korean food has more charm the more you know about it.", "note": "알다 (ㄹ-stem) drops ㄹ → 알수록. 매력이 있다 = to have charm/appeal" },
-      "collocations": ["매력이 있다", "매력을 느끼다", "매력적이다"]
+      "exampleSentence": {
+        "ko": "한국 음식은 알수록 매력이 있어요.",
+        "en": "Korean food has more charm the more you know about it.",
+        "note": "알다 (ㄹ-stem) drops ㄹ → 알수록. 매력이 있다 = to have charm/appeal"
+      },
+      "collocations": [
+        "매력이 있다",
+        "매력을 느끼다",
+        "매력적이다"
+      ]
     },
     {
       "hangul": "폐지되다",
       "romanization": "pyejidoeda",
       "english": "to be abolished / cancelled (officially)",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "시청률이 낮더니 드라마가 폐지됐어요.", "en": "The ratings were low, and in the end the drama was cancelled.", "note": "폐지되다 is the passive of 폐지하다 (to abolish/cancel); -더니 here: you observed the low ratings → you're reporting the outcome" },
-      "collocations": ["프로그램이 폐지되다", "제도가 폐지되다", "폐지를 결정하다"]
+      "exampleSentence": {
+        "ko": "시청률이 낮더니 드라마가 폐지됐어요.",
+        "en": "The ratings were low, and in the end the drama was cancelled.",
+        "note": "폐지되다 is the passive of 폐지하다 (to abolish/cancel); -더니 here: you observed the low ratings → you're reporting the outcome"
+      },
+      "collocations": [
+        "프로그램이 폐지되다",
+        "제도가 폐지되다",
+        "폐지를 결정하다"
+      ]
     },
     {
       "hangul": "자신감",
       "romanization": "jasingam",
       "english": "self-confidence",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "성공 경험이 쌓일수록 자신감이 높아져요.", "en": "The more success experiences accumulate, the higher your self-confidence rises.", "note": "자신 (self/oneself) + 감 (feeling/sense) — a great -(으)ㄹ수록 vocabulary word" },
-      "collocations": ["자신감이 생기다", "자신감이 높다", "자신감을 갖다"]
+      "exampleSentence": {
+        "ko": "성공 경험이 쌓일수록 자신감이 높아져요.",
+        "en": "The more success experiences accumulate, the higher your self-confidence rises.",
+        "note": "자신 (self/oneself) + 감 (feeling/sense) — a great -(으)ㄹ수록 vocabulary word"
+      },
+      "collocations": [
+        "자신감이 생기다",
+        "자신감이 높다",
+        "자신감을 갖다"
+      ]
     },
     {
       "hangul": "피곤하다",
       "romanization": "pigonhada",
       "english": "to be tired / exhausted",
       "partOfSpeech": "adjective",
-      "exampleSentence": { "ko": "친구가 요즘 너무 피곤하더니 결국 쓰러졌어요.", "en": "My friend seemed so exhausted lately, and they finally collapsed.", "note": "-더니 with an adjective: the speaker observed the state of exhaustion over time → reports the result" },
-      "collocations": ["너무 피곤하다", "피곤해 보이다", "피곤해서 쉬다"]
+      "exampleSentence": {
+        "ko": "친구가 요즘 너무 피곤하더니 결국 쓰러졌어요.",
+        "en": "My friend seemed so exhausted lately, and they finally collapsed.",
+        "note": "-더니 with an adjective: the speaker observed the state of exhaustion over time → reports the result"
+      },
+      "collocations": [
+        "너무 피곤하다",
+        "피곤해 보이다",
+        "피곤해서 쉬다"
+      ]
     },
     {
       "hangul": "보람",
       "romanization": "boram",
       "english": "sense of reward / worth / fulfillment",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "노력할수록 더 보람을 느껴요.", "en": "The more effort you put in, the greater the sense of fulfillment you feel.", "note": "보람 is a uniquely Korean concept for the rewarding feeling that comes from effort well spent" },
-      "collocations": ["보람을 느끼다", "보람이 있다", "보람 있는 일"]
+      "exampleSentence": {
+        "ko": "노력할수록 더 보람을 느껴요.",
+        "en": "The more effort you put in, the greater the sense of fulfillment you feel.",
+        "note": "보람 is a uniquely Korean concept for the rewarding feeling that comes from effort well spent"
+      },
+      "collocations": [
+        "보람을 느끼다",
+        "보람이 있다",
+        "보람 있는 일"
+      ]
     },
     {
       "hangul": "어렵다",
       "romanization": "eoryeopda",
       "english": "to be difficult / hard",
       "partOfSpeech": "adjective",
-      "exampleSentence": { "ko": "한국어는 처음에는 어렵더니 이제는 쉬워요.", "en": "Korean seemed hard at first, and now it's gotten easier.", "note": "-더니 with an adjective: earlier observation (it WAS hard) contrasted with a current changed state (now it's easy)" },
-      "collocations": ["너무 어렵다", "어렵게 느끼다", "어렵지 않다"]
+      "exampleSentence": {
+        "ko": "한국어는 처음에는 어렵더니 이제는 쉬워요.",
+        "en": "Korean seemed hard at first, and now it's gotten easier.",
+        "note": "-더니 with an adjective: earlier observation (it WAS hard) contrasted with a current changed state (now it's easy)"
+      },
+      "collocations": [
+        "너무 어렵다",
+        "어렵게 느끼다",
+        "어렵지 않다"
+      ]
     },
     {
       "hangul": "익숙해지다",
       "romanization": "iksukaejida",
       "english": "to get used to / become accustomed",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "사용할수록 익숙해져요.", "en": "The more you use it, the more accustomed you become.", "note": "익숙하다 (familiar/accustomed) + -아/어지다 (become) = getting used to. Perfect -(으)ㄹ수록 partner" },
-      "collocations": ["점점 익숙해지다", "익숙해지는 데 시간이 걸리다", "금방 익숙해지다"]
+      "exampleSentence": {
+        "ko": "사용할수록 익숙해져요.",
+        "en": "The more you use it, the more accustomed you become.",
+        "note": "익숙하다 (familiar/accustomed) + -아/어지다 (become) = getting used to. Perfect -(으)ㄹ수록 partner"
+      },
+      "collocations": [
+        "점점 익숙해지다",
+        "익숙해지는 데 시간이 걸리다",
+        "금방 익숙해지다"
+      ]
     }
   ],
   "extendedDialogue": {
@@ -504,35 +706,55 @@
     {
       "type": "fillBlank",
       "prompt": "비가 오___ 집에서 연습했어요. (I noticed it was raining, so I practiced at home.)",
-      "options": ["길래", "기 위해서", "수록"],
+      "options": [
+        "길래",
+        "기 위해서",
+        "수록"
+      ],
       "correct": "길래",
       "explanation": "-길래 fits because the rain is something the speaker noticed, and practicing at home was the reaction. -기 위해서 would make the rain a purpose, which is impossible. -수록 would require a proportional 'the more...' relationship."
     },
     {
       "type": "fillBlank",
       "prompt": "발표를 준비하___ 매일 연습해요. (I practice every day to prepare for the presentation.)",
-      "options": ["기 위해서", "는 바람에", "더니"],
+      "options": [
+        "기 위해서",
+        "는 바람에",
+        "더니"
+      ],
       "correct": "기 위해서",
       "explanation": "Preparing for the presentation is the purpose of daily practice, so use -기 위해서. -는 바람에 would mean an unexpected disruption, and -더니 would report an observed sequence."
     },
     {
       "type": "fillBlank",
       "prompt": "갑자기 인터넷이 끊기___ 온라인 수업을 못 들었어요. (The internet suddenly cut out, so I missed the online class.)",
-      "options": ["는 바람에", "기 위해서", "ㄹ수록"],
+      "options": [
+        "는 바람에",
+        "기 위해서",
+        "ㄹ수록"
+      ],
       "correct": "는 바람에",
       "explanation": "The internet outage unexpectedly disrupted the plan, so -는 바람에 is the right connector. -기 위해서 gives purpose, and -(으)ㄹ수록 gives proportional change."
     },
     {
       "type": "fillBlank",
       "prompt": "친구가 매일 운동하___ 날씬해졌어요. (My friend kept exercising and then became slimmer.)",
-      "options": ["더니", "ㄹ수록", "길래"],
+      "options": [
+        "더니",
+        "ㄹ수록",
+        "길래"
+      ],
       "correct": "더니",
       "explanation": "This is a CAMERA REPLAY situation: you personally watched your friend exercise over time (camera rolling) and are reporting the observed result (became slimmer). -(으)ㄹ수록 would express a proportional scale (the more they exercise, the slimmer they get) — ongoing, not a reported sequence. -길래 would mean you reacted to something yourself, which doesn't fit here."
     },
     {
       "type": "fillBlank",
       "prompt": "한국어는 공부___ 더 재미있어요. (The more you study Korean, the more fun it gets.)",
-      "options": ["할수록", "하더니", "해서"],
+      "options": [
+        "할수록",
+        "하더니",
+        "해서"
+      ],
       "correct": "할수록",
       "explanation": "The 'the more X, the more Y' proportional scale pattern requires -(으)ㄹ수록. 하다 has a vowel-class stem 하 → 할수록. -더니 would report an observed past change, not a proportional ongoing relationship. -해서 would give a simple cause-and-effect (I studied, so...) with no sense of proportionality."
     },
@@ -562,7 +784,11 @@
     {
       "type": "fillBlank",
       "prompt": "서울은 살___ 더 좋아지는 것 같아요. (The longer you live in Seoul, the more you come to like it.)",
-      "options": ["수록", "더니", "아서"],
+      "options": [
+        "수록",
+        "더니",
+        "아서"
+      ],
       "correct": "수록",
       "explanation": "살다 is an ㄹ-stem verb. ㄹ-stems drop their ㄹ and attach -(으)ㄹ수록 as -ㄹ수록: 살다 → 살 + -ㄹ수록 → 살수록. This expresses the proportional scale: time in Seoul ↑ → appreciation ↑. -더니 would report an observed change (you watched and noted a result), not a proportional relationship. -아서 is a simple cause connector."
     },

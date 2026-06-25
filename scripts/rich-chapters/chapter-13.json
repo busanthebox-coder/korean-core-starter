@@ -11,124 +11,156 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-dago",
       "title": "-(ㄴ/는)다고 하다 — Reporting What Someone Said",
-      "mentalModel": "Think of -(ㄴ/는)다고 하다 as a TELEGRAM. When you send a telegram, you strip away the politeness, reduce the message to its bare content, and relay it: 'FRIEND / COMING TOMORROW / STOP.' Korean does exactly the same — it drops the polite -요, converts the verb to its plain news-report form, then wraps it in -다고 했어요 to say it came through someone else. The telegram style is always plain Korean — never polite -요 — before 다고.",
-      "formation": "Present verb (vowel stem): drop 다 → add ㄴ다고 (가다 → 간다고) | Present verb (consonant stem): drop 다 → add 는다고 (먹다 → 먹는다고) | Adjective / 있다 / 없다: just add 다고 (춥다 → 춥다고, 재미있다 → 재미있다고) | Past tense (any): -았/었다고 (갔다고, 먹었다고) | Noun: -(이)라고 (학생이라고, 친구라고)",
+      "func": "Use this to report what someone said: \"He says/said that …\". Put the original verb or adjective into its plain (해라체) form and add -고 하다. It works for both \"says\" and \"said\" — 했어요 makes it past.",
+      "formTable": [
+        {
+          "when": "Action verb, stem ends in a vowel",
+          "add": "-ㄴ다고 하다",
+          "ex": "가다 → 간다고 하다 (says he goes)"
+        },
+        {
+          "when": "Action verb, stem ends in a consonant (받침)",
+          "add": "-는다고 하다",
+          "ex": "먹다 → 먹는다고 하다 (says he eats)"
+        },
+        {
+          "when": "Adjective (descriptive verb)",
+          "add": "-다고 하다",
+          "ex": "바쁘다 → 바쁘다고 하다 / 좋다 → 좋다고 하다"
+        },
+        {
+          "when": "이다 (noun + be)",
+          "add": "-(이)라고 하다",
+          "ex": "학생이다 → 학생이라고 하다 / 친구다 → 친구라고 하다"
+        },
+        {
+          "when": "Past tense (any verb/adj)",
+          "add": "-았/었다고 하다",
+          "ex": "먹었다 → 먹었다고 하다 / 갔다 → 갔다고 하다"
+        }
+      ],
       "examples": [
         {
-          "ko": "친구가 내일 온다고 했어요.",
-          "romanization": "chinguga naeil ondago haesseoyo.",
-          "en": "My friend said she's coming tomorrow.",
-          "note": "오다 has a vowel stem (오-), so add ㄴ다고: 온다고. The polite 와요 form is never used before 다고."
+          "ko": "친구가 내일 학교에 간다고 했어요.",
+          "romanization": "chin-gu-ga nae-il hak-gyo-e gan-da-go hae-sseo-yo.",
+          "en": "My friend said she's going to school tomorrow.",
+          "note": "가다 is a vowel-stem action verb, so it takes -ㄴ다고."
         },
         {
-          "ko": "팀장님이 회의가 늦어진다고 하셨어요.",
-          "romanization": "timjangnimi hoeuiga neujeojindago hasyeosseoyo.",
-          "en": "The team lead said the meeting will be late.",
-          "note": "늦어지다 has a vowel-final stem (늦어지-) → ㄴ다고: 늦어진다고. The team lead's own speech gets honorific 하셨어요."
+          "ko": "동생이 지금 밥 먹는다고 해요.",
+          "romanization": "dong-saeng-i ji-geum bap meong-neun-da-go hae-yo.",
+          "en": "My little brother says he's eating now.",
+          "note": "먹다 has 받침, so the action-verb form is -는다고. 밥 먹다 ('eat a meal') is the everyday way to say it."
         },
         {
-          "ko": "뉴스에서 경제가 어렵다고 했어요.",
-          "romanization": "nyusueseo gyeongjega eoryeopdago haesseoyo.",
-          "en": "The news said the economy is difficult.",
-          "note": "어렵다 is an adjective → just add 다고 (no ㄴ다고/는다고). Adjectives always take the simpler form."
+          "ko": "친구가 요즘 너무 바쁘다고 했어요.",
+          "romanization": "chin-gu-ga yo-jeum neo-mu ba-ppeu-da-go hae-sseo-yo.",
+          "en": "My friend said she's really busy these days.",
+          "note": "바쁘다 is an adjective, so it stays -다고 (no ㄴ/는)."
         },
         {
-          "ko": "교수님이 그 전통이 아주 중요하다고 하셨어요.",
-          "romanization": "gyosunimi geu jeontongi aju jungyohadago hasyeosseoyo.",
-          "en": "The professor said that tradition is very important.",
-          "note": "중요하다 is an adjective (ends in 하다 but describes a quality) → 중요하다고. The professor's action gets honorific 하셨어요."
-        },
-        {
-          "ko": "그 사람이 외국에서 왔다고 했어요.",
-          "romanization": "geu sarami oegugeseo watdago haesseoyo.",
-          "en": "That person said they came from abroad.",
-          "note": "오다 in past tense: 왔다고. Past tense always uses -았/었다고 regardless of whether the original verb is action or adjective."
+          "ko": "그 사람이 한국어 선생님이라고 했어요.",
+          "romanization": "geu sa-ra-mi han-gu-geo seon-saeng-ni-mi-ra-go hae-sseo-yo.",
+          "en": "He said he's a Korean teacher.",
+          "note": "With a noun + 이다 you use -이라고, not -다고."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "사회가 변해요.", "en": "Society changes. (direct statement)" },
-          "b": { "ko": "전문가가 사회가 변한다고 했어요.", "en": "The expert said society changes. (reported)" },
-          "explanation": "Direct speech is polite 해요 form. Reported speech switches to the plain form: 변하다 (vowel stem 변하-) → 변한다고. You never say 변해요고 했어요 — the polite ending must be stripped before adding 다고."
-        },
-        {
-          "a": { "ko": "날씨가 추워요.", "en": "The weather is cold. (direct)" },
-          "b": { "ko": "일기예보에서 날씨가 춥다고 했어요.", "en": "The forecast said the weather is cold. (reported)" },
-          "explanation": "춥다 is an adjective. Adjectives always take 다고 directly — no ㄴ다고 or 는다고. If you tried 춥는다고 or 추운다고, it sounds completely wrong."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "친구가 내일 와요고 했어요.",
-        "right": "친구가 내일 온다고 했어요.",
-        "explanation": "English speakers naturally think 'she says she's coming → 와요 + 고 했어요.' But Korean reported speech strips the polite -요 ending entirely. You must use the plain dictionary-adjacent form: 오다 (vowel stem) → 온다고. Gluing 고 onto 와요 is one of the most common mistakes at this level — Koreans will understand you, but it marks you as someone who hasn't learned this pattern yet."
+      "keyPoint": {
+        "label": "Adjectives keep -다고; action verbs split into -ㄴ다고 / -는다고",
+        "body": "This is the one spot learners mix up. Action verbs (먹다, 가다) become 먹는다고/간다고, but adjectives (좋다, 바쁘다) and 있다/없다 just take -다고: 좋다고, 바쁘다고, 재미있다고. So 'It's fun' → 재미있다고 했어요, never 재미있는다고. (Why 있다 acts like an adjective here comes later — for now, just memorize 있다고.)"
       },
-      "exceptions": [
-        "Nouns use -(이)라고, not 다고: 학생이라고 했어요 (said [he] is a student). After a vowel, 이 drops: 의사라고 했어요.",
-        "Commands are reported with -(으)라고 하다: 선생님이 조용히 하라고 했어요 (The teacher said to be quiet).",
-        "The verb 하다 at the end can be said as 했어요 (past, said), 한대요 (colloquial hearsay: apparently says), or 한다고 하더라고요 (I heard that...)."
-      ]
+      "pronunciation": "In 먹는다고, the ㄱ before ㄴ nasalizes: [멍는다고]. 간다고 is said smoothly with no pause before 고.",
+      "drill": {
+        "instruction": "Report each sentence using -(ㄴ/는)다고 했어요 (\"He/She said …\"). Watch whether the word is an action verb or an adjective.",
+        "model": "친구: \"나 집에 가.\" → 친구가 집에 간다고 했어요.",
+        "items": [
+          "동생: \"나 책 읽어.\" → 동생이 책을 ____ 했어요.",
+          "친구: \"날씨가 좋아.\" → 친구가 날씨가 ____ 했어요.",
+          "선생님: \"이건 한국 영화예요.\" → 선생님이 이건 한국 영화 ____ 했어요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "친구가 바쁘는다고 했어요. / 그 사람이 학생다고 했어요.",
+        "right": "친구가 바쁘다고 했어요. / 그 사람이 학생이라고 했어요.",
+        "explanation": "English uses one pattern ('says that…') for everything, so learners over-apply -는다고. But -ㄴ다/-는다 belongs ONLY to action verbs. Adjectives take plain -다고 (바쁘다고), and nouns take -(이)라고 (학생이라고). Match the form to the word type, not to English."
+      }
     },
     {
-      "id": "gn-nyago",
-      "title": "-(느)냐고 하다 — Reporting What Someone Asked",
-      "mentalModel": "Think of -냐고 as a QUESTION BUBBLE being forwarded. In a messaging app, if someone sends you a question and you forward it to a third person, the bubble still has a question mark inside — that's -냐고. The key rule: if the original sentence had a question mark, use -냐고. If it had a period, use -다고. The question mark decides.",
-      "formation": "Any verb stem (action or adjective) + -냐고: 가냐고, 먹냐고, 바쁘냐고, 있냐고 | Past tense: -았/었냐고: 갔냐고, 먹었냐고 | Noun: -(이)냐고: 학생이냐고, 누구냐고 | Reporting verb: 물어봤어요 (asked, natural speech) or 했어요",
+      "title": "-냐고 하다 — Reporting a Question",
+      "func": "Use this to report a question someone asked: \"He asked whether/what …\". Change the original question's ending to the plain question form -냐 and add -고 하다 — though in real speech people usually say 물어보다 ('ask') instead of 하다.",
+      "formTable": [
+        {
+          "when": "Action verb",
+          "add": "-냐고 하다 / 물어보다",
+          "ex": "가다 → 가냐고 / 먹다 → 먹냐고"
+        },
+        {
+          "when": "Adjective (descriptive verb)",
+          "add": "-냐고 하다 / 물어보다",
+          "ex": "바쁘다 → 바쁘냐고 / 좋다 → 좋냐고"
+        },
+        {
+          "when": "이다 (noun + be)",
+          "add": "-(이)냐고 하다",
+          "ex": "학생이다 → 학생이냐고 / 친구다 → 친구냐고"
+        },
+        {
+          "when": "있다/없다",
+          "add": "-냐고 하다",
+          "ex": "있다 → 있냐고 / 없다 → 없냐고"
+        },
+        {
+          "when": "Past tense (any verb/adj)",
+          "add": "-았/었냐고 하다",
+          "ex": "먹었다 → 먹었냐고 / 갔다 → 갔냐고"
+        }
+      ],
       "examples": [
         {
-          "ko": "친구가 주말에 시간 있냐고 물어봤어요.",
-          "romanization": "chinguga jumare sigan innyago mureobwasseoyo.",
-          "en": "My friend asked if I have time on the weekend.",
-          "note": "있다 is a verb → add -냐고: 있냐고. The reporting verb 물어봤어요 sounds natural; 했어요 also works."
+          "ko": "친구가 내일 시간 있냐고 물어봤어요.",
+          "romanization": "chin-gu-ga nae-il si-gan in-nya-go mu-reo-bwa-sseo-yo.",
+          "en": "My friend asked if I had time tomorrow.",
+          "note": "있다 → 있냐고; 물어봤어요 is the natural everyday verb for 'asked'."
         },
         {
-          "ko": "엄마가 밥 먹었냐고 하셨어요.",
-          "romanization": "eommaga bap meogeonnyago hasyeosseoyo.",
-          "en": "My mom asked whether I'd eaten.",
-          "note": "Past tense reported question: 먹다 → past 먹었다 → drop -다 → add -냐고: 먹었냐고. Mom gets honorific 하셨어요."
+          "ko": "동생이 밥 먹었냐고 했어요.",
+          "romanization": "dong-saeng-i bap meo-geon-nya-go hae-sseo-yo.",
+          "en": "My little brother asked whether I'd eaten.",
+          "note": "Past question: 먹었다 → 먹었냐고."
         },
         {
-          "ko": "면접관이 왜 한국 문화에 관심이 있냐고 물어봤어요.",
-          "romanization": "myeonjeopgwani wae hanguk munhwae gwansimi innyago mureobwasseoyo.",
-          "en": "The interviewer asked why I'm interested in Korean culture.",
-          "note": "Wh-questions also use -냐고. The question word 왜 (why) stays in place — -냐고 doesn't change its position."
+          "ko": "친구가 그 영화 재미있냐고 물어봤어요.",
+          "romanization": "chin-gu-ga geu yeong-hwa jae-mi-in-nya-go mu-reo-bwa-sseo-yo.",
+          "en": "My friend asked whether that movie is fun.",
+          "note": "The adjective 재미있다 also just takes -냐고 in everyday speech."
         },
         {
-          "ko": "교수님이 과제를 다 했냐고 물어보셨어요.",
-          "romanization": "gyosunimi gwajereul da haennyago mureobosyeosseoyo.",
-          "en": "The professor asked whether I'd finished the assignment.",
-          "note": "하다 in past: 했냐고. The professor's asking gets honorific 물어보셨어요 (물어보다 + -(으)시- + 었어요)."
-        },
-        {
-          "ko": "걔가 그 사람이 누구냐고 했어.",
-          "romanization": "gyaega geu sarami nugunyago haesseo.",
-          "en": "She asked who that person is.",
-          "note": "누구 is a pronoun — treat like a noun: 누구냐고 (누구 + 이냐고 → 누구냐고 because 누구 ends in vowel, so 이 drops)."
+          "ko": "선생님이 누가 학생이냐고 물어봤어요.",
+          "romanization": "seon-saeng-ni-mi nu-ga hak-saeng-i-nya-go mu-reo-bwa-sseo-yo.",
+          "en": "The teacher asked who the student was.",
+          "note": "Noun + 이다 → 이냐고; the question word 누가 just stays in place."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "친구가 한국에 간다고 했어요.", "en": "My friend said he's going to Korea. (statement)" },
-          "b": { "ko": "친구가 한국에 가냐고 물어봤어요.", "en": "My friend asked if I'm going to Korea. (question)" },
-          "explanation": "Same base verb 가다. If you're relaying a statement (period), use -다고 → 간다고. If you're relaying a question (question mark), use -냐고 → 가냐고. Mixing them up completely changes the meaning — one is news, the other is a request for information."
-        },
-        {
-          "a": { "ko": "엄마가 피곤하다고 했어요.", "en": "Mom said she's tired. (her statement about herself)" },
-          "b": { "ko": "엄마가 피곤하냐고 물어봤어요.", "en": "Mom asked if I'm tired. (her question directed at me)" },
-          "explanation": "피곤하다 is an adjective. 피곤하다고 = she stated she is tired. 피곤하냐고 = she asked whether I (or someone else) am tired. The particle switches the entire conversational role."
-        }
-      ],
+      "keyPoint": {
+        "label": "Statement -다고 vs. question -냐고",
+        "body": "Both report someone's words, but the ending tells you which: a reported statement ends in -다고 (간다고 했어요 = 'said he's going'), and a reported question ends in -냐고 (가냐고 했어요 = 'asked if he's going'). Yes/no and wh-questions use the same -냐고; the question word (언제, 누가, 뭐) just stays inside the clause."
+      },
+      "pronunciation": "있냐고 and 먹었냐고 nasalize across the boundary: [인냐고], [머건냐고] — the ㅆ/ㄱ before ㄴ becomes [ㄴ].",
+      "drill": {
+        "instruction": "Report each question using -냐고 물어봤어요 (\"… asked if/what …\"). Keep any question word in place.",
+        "model": "친구: \"시간 있어?\" → 친구가 시간 있냐고 물어봤어요.",
+        "items": [
+          "동생: \"지금 어디야?\" → 동생이 지금 ____ 물어봤어요.",
+          "친구: \"이 책 재미있어?\" → 친구가 이 책 ____ 물어봤어요.",
+          "선생님: \"숙제 했어요?\" → 선생님이 숙제 ____ 물어봤어요."
+        ]
+      },
       "englishSpeakerPitfall": {
         "wrong": "친구가 시간 있다고 물어봤어요.",
         "right": "친구가 시간 있냐고 물어봤어요.",
-        "explanation": "English 'asked if' sounds very close to 'said that' — both relay someone else's words. But Korean is strict: 다고 is only for statements, 냐고 is only for questions. If you use 있다고 물어봤어요, you're saying 'asked that I have time,' which doesn't make grammatical sense in Korean and will confuse native speakers. When the verb is 물어봤어요 (asked), the clause before it must always end in -냐고."
-      },
-      "exceptions": [
-        "The fuller written/formal form is -느냐고 for action verbs (가느냐고, 먹느냐고), but in everyday speech this sounds stiff — plain -냐고 is preferred.",
-        "Commands relayed as questions use -(으)라고 물어봤어요: 뭐 하라고 했어요? (What did he tell you to do?). Don't confuse this with -냐고.",
-        "물어봤어요 (tried asking) is more natural than 물었어요 (asked) in spoken Korean — the 보다 adds a conversational softness."
-      ]
+        "explanation": "English reports statements and questions almost the same way ('said that…' / 'asked if…'), so learners reuse -다고 for questions too. But a reported QUESTION must end in -냐고: 가냐고 / 있냐고 / 먹었냐고. If the original had a question mark, use -냐고, not -다고."
+      }
     }
   ],
   "extendedVocabulary": [
@@ -142,7 +174,12 @@
         "en": "I think our society is changing rapidly.",
         "note": "다고 생각해요 = 'I think that...' — reported-thought structure using the same 다고 pattern"
       },
-      "collocations": ["현대 사회", "사회 문제", "사회생활", "사회가 변하다"]
+      "collocations": [
+        "현대 사회",
+        "사회 문제",
+        "사회생활",
+        "사회가 변하다"
+      ]
     },
     {
       "hangul": "문화",
@@ -154,7 +191,12 @@
         "en": "My friend said Korean culture is interesting.",
         "note": "재미있다 is 있다-type → add -다고 directly (adjective rule), not -(느)ㄴ다고"
       },
-      "collocations": ["한국 문화", "문화 차이", "전통 문화", "문화를 경험하다"]
+      "collocations": [
+        "한국 문화",
+        "문화 차이",
+        "전통 문화",
+        "문화를 경험하다"
+      ]
     },
     {
       "hangul": "전통",
@@ -166,7 +208,12 @@
         "en": "This village is carrying on its old traditions just as they are.",
         "note": "이어 가다 = keep carrying on; present progressive 가고 있어요 emphasizes the ongoing nature"
       },
-      "collocations": ["전통을 지키다", "전통적이다", "오래된 전통", "전통 문화"]
+      "collocations": [
+        "전통을 지키다",
+        "전통적이다",
+        "오래된 전통",
+        "전통 문화"
+      ]
     },
     {
       "hangul": "역사",
@@ -178,7 +225,12 @@
         "en": "The teacher said Korean history is very deep.",
         "note": "깊다 is an adjective → 깊다고 (plain adjective form + 다고). Teacher gets 하셨어요."
       },
-      "collocations": ["역사를 배우다", "역사가 길다", "한국 역사", "역사적 사건"]
+      "collocations": [
+        "역사를 배우다",
+        "역사가 길다",
+        "한국 역사",
+        "역사적 사건"
+      ]
     },
     {
       "hangul": "경제",
@@ -190,7 +242,12 @@
         "en": "The news said the economy is getting increasingly difficult.",
         "note": "어려워지다 has vowel stem 어려워지- → ㄴ다고: 어려워진다고"
       },
-      "collocations": ["경제가 어렵다", "경제 성장", "경제 문제", "경제적이다"]
+      "collocations": [
+        "경제가 어렵다",
+        "경제 성장",
+        "경제 문제",
+        "경제적이다"
+      ]
     },
     {
       "hangul": "정치",
@@ -202,7 +259,11 @@
         "en": "My friend said he has no interest in politics.",
         "note": "없다 → add -다고 directly (없다고). 없다 is in the same category as 있다 — add -다고, not -는다고."
       },
-      "collocations": ["정치에 관심 있다", "정치 문제", "정치적이다"]
+      "collocations": [
+        "정치에 관심 있다",
+        "정치 문제",
+        "정치적이다"
+      ]
     },
     {
       "hangul": "환경",
@@ -214,7 +275,11 @@
         "en": "Experts warned that the environment is gradually getting worse.",
         "note": "나빠지다 (vowel stem 나빠지-) → ㄴ다고: 나빠진다고. 경고했어요 = warned."
       },
-      "collocations": ["환경 문제", "환경을 보호하다", "자연 환경"]
+      "collocations": [
+        "환경 문제",
+        "환경을 보호하다",
+        "자연 환경"
+      ]
     },
     {
       "hangul": "교육",
@@ -226,7 +291,12 @@
         "en": "My parents always say that education is the most important thing.",
         "note": "중요하다 is an adjective → 중요하다고. 말씀하세요 is the honorific form of 말하다 (말씀하시다), used for parents."
       },
-      "collocations": ["교육을 받다", "교육 문제", "교육적이다", "교육 시스템"]
+      "collocations": [
+        "교육을 받다",
+        "교육 문제",
+        "교육적이다",
+        "교육 시스템"
+      ]
     },
     {
       "hangul": "계시다",
@@ -238,7 +308,11 @@
         "en": "The boss isn't at his desk right now.",
         "note": "계시다 replaces 있다 when the subject is a person you honor and you are talking about physical presence. 사장님이 있으세요 sounds awkward for the boss's location; 계세요 is the natural respectful form."
       },
-      "collocations": ["어디에 계세요?", "집에 계시다", "자리에 계시다"]
+      "collocations": [
+        "어디에 계세요?",
+        "집에 계시다",
+        "자리에 계시다"
+      ]
     },
     {
       "hangul": "드리다",
@@ -250,7 +324,12 @@
         "en": "I gave my parents a gift.",
         "note": "드리다 is used when YOU give to someone above you. 주다 is the neutral form. 부모님께 uses 께 (honorific 에게)."
       },
-      "collocations": ["선물을 드리다", "말씀드리다", "전화드리다", "~께 드리다"]
+      "collocations": [
+        "선물을 드리다",
+        "말씀드리다",
+        "전화드리다",
+        "~께 드리다"
+      ]
     },
     {
       "hangul": "잡수시다",
@@ -262,7 +341,10 @@
         "en": "Grandma, have you finished your meal?",
         "note": "잡수시다 is higher than 드시다 — reserved for grandparents and very senior people. 진지 is the honorific word for 밥 (meal/rice)."
       },
-      "collocations": ["진지를 잡수시다", "잡수세요 (polite imperative)"]
+      "collocations": [
+        "진지를 잡수시다",
+        "잡수세요 (polite imperative)"
+      ]
     },
     {
       "hangul": "말씀드리다",
@@ -274,7 +356,11 @@
         "en": "I explained my situation to the professor.",
         "note": "말씀드리다 = humble form of 말하다. 교수님께 uses 께 (honorific 에게). Compare: 친구한테 말했어요 (told a friend, plain)."
       },
-      "collocations": ["말씀드릴게요", "교수님께 말씀드리다", "한 가지 말씀드리면"]
+      "collocations": [
+        "말씀드릴게요",
+        "교수님께 말씀드리다",
+        "한 가지 말씀드리면"
+      ]
     },
     {
       "hangul": "뵙다",
@@ -286,7 +372,11 @@
         "en": "Would it be possible to see the professor tomorrow?",
         "note": "뵙다 is the humble form of 만나다/보다 when you are meeting someone you respect. 뵈다 is the spoken short form: 뵐게요, 뵈었어요 → 봬어요."
       },
-      "collocations": ["교수님을 뵙다", "뵐게요", "처음 뵙겠습니다"]
+      "collocations": [
+        "교수님을 뵙다",
+        "뵐게요",
+        "처음 뵙겠습니다"
+      ]
     },
     {
       "hangul": "발전하다",
@@ -298,7 +388,11 @@
         "en": "The researchers said technology is advancing rapidly.",
         "note": "발전하다 has vowel stem (발전하-) → ㄴ다고: 발전한다고. Classic example of the 다고 pattern with a 하다 verb."
       },
-      "collocations": ["기술이 발전하다", "경제가 발전하다", "사회가 발전하다"]
+      "collocations": [
+        "기술이 발전하다",
+        "경제가 발전하다",
+        "사회가 발전하다"
+      ]
     },
     {
       "hangul": "존재하다",
@@ -310,7 +404,11 @@
         "en": "I think traditions still exist.",
         "note": "생각해요 (I think) also uses the 다고 pattern: 존재한다고 생각해요. 생각하다 is another common reporting verb alongside 하다."
       },
-      "collocations": ["아직도 존재하다", "문화가 존재하다", "개념이 존재하다"]
+      "collocations": [
+        "아직도 존재하다",
+        "문화가 존재하다",
+        "개념이 존재하다"
+      ]
     },
     {
       "hangul": "참여하다",
@@ -322,7 +420,11 @@
         "en": "The teacher said to be sure to participate in the event.",
         "note": "This is a reported command (not statement) → -(으)라고: 참여하라고 하셨어요. Compare with 다고 (statement) and 냐고 (question)."
       },
-      "collocations": ["행사에 참여하다", "토론에 참여하다", "적극적으로 참여하다"]
+      "collocations": [
+        "행사에 참여하다",
+        "토론에 참여하다",
+        "적극적으로 참여하다"
+      ]
     },
     {
       "hangul": "변하다",
@@ -334,7 +436,11 @@
         "en": "Even as society changes rapidly, traditions remain.",
         "note": "변해도 = even though (it) changes (-(아/어)도 concessive). 남다 (to remain) contrasts with 변하다 (to change) in this classic Chapter 13 sentence."
       },
-      "collocations": ["사회가 변하다", "생각이 변하다", "시대가 변하다"]
+      "collocations": [
+        "사회가 변하다",
+        "생각이 변하다",
+        "시대가 변하다"
+      ]
     }
   ],
   "extendedDialogue": {
@@ -426,14 +532,21 @@
     {
       "type": "fillBlank",
       "prompt": "친구가 내일 학교에 ___ 했어요. (My friend said she's going to school tomorrow.)",
-      "options": ["가요고", "간다고", "가다고"],
+      "options": [
+        "가요고",
+        "간다고",
+        "가다고"
+      ],
       "correct": "간다고",
       "explanation": "가다 has a vowel stem (가-). Present action verb with vowel stem → add ㄴ다고: 간다고. '가요고' is the most common mistake — you can never attach 고 to the polite -요 form for reported speech. '가다고' would only work if 가다 were an adjective, but it's an action verb."
     },
     {
       "type": "fillBlank",
       "prompt": "엄마가 ___ 물어봤어요. (Mom asked whether I was tired.)",
-      "options": ["피곤하냐고", "피곤하다고"],
+      "options": [
+        "피곤하냐고",
+        "피곤하다고"
+      ],
       "correct": "피곤하냐고",
       "explanation": "물어봤어요 means 'asked' — the clause before it must be a reported question, so use -냐고. '피곤하다고 물어봤어요' is a contradiction: 다고 reports a statement, but 물어봤어요 reports a question. Native speakers will immediately sense that something is off."
     },
@@ -463,7 +576,10 @@
     {
       "type": "fillBlank",
       "prompt": "할머니께 생일 선물을 ___. (I gave a birthday present to my grandmother.)",
-      "options": ["줬어요", "드렸어요"],
+      "options": [
+        "줬어요",
+        "드렸어요"
+      ],
       "correct": "드렸어요",
       "explanation": "드리다 is the humble form of 주다 used when YOU give something to someone you respect. 줬어요 is perfectly grammatical but sounds flat and somewhat rude toward a grandmother. Koreans expect 드렸어요 in this context — using 줬어요 for a grandparent will strike them as unnatural, even if technically understood."
     },

@@ -11,124 +11,146 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-buteo-kkaji",
-      "title": "부터 / 까지 — From … to … (Ranges in Time and Space)",
-      "mentalModel": "Think of 부터/까지 as a RULER. Every ruler has a start end and a finish end. 부터 is the zero-end of the ruler — where you begin measuring. 까지 is the other end — where you stop. You can measure time (9시부터 6시까지 = 9 to 6) or space (여기부터 역까지 = from here to the station). A ruler without one end is fine — you can use just 까지 ('until 6') or just 부터 ('from 9 onward') — but using both creates the clearest picture.",
-      "formation": "Start-point + 부터 / End-point + 까지 (either or both, time or place)",
+      "title": "N부터 / N까지 — from … to … (ranges in time and space)",
+      "func": "부터 marks where a range starts and 까지 marks where it ends — \"from A to B.\" They work for time (아홉 시부터 여섯 시까지, from 9 to 6) and for place (집부터 학교까지, from home to school), and each can appear alone too (부터 = \"starting from,\" 까지 = \"up until / by\").",
+      "formTable": [
+        {
+          "when": "Start point of a range (attaches to any noun)",
+          "add": "부터",
+          "ex": "아침 → 아침부터 · 한 시 → 한 시부터"
+        },
+        {
+          "when": "End point of a range (attaches to any noun)",
+          "add": "까지",
+          "ex": "저녁 → 저녁까지 · 여섯 시 → 여섯 시까지"
+        },
+        {
+          "when": "Place: from here to there",
+          "add": "부터 … 까지",
+          "ex": "집 → 집부터 · 학교 → 학교까지"
+        },
+        {
+          "when": "까지 used alone = a deadline, \"by\"",
+          "add": "까지",
+          "ex": "내일 → 내일까지 · 다섯 시 → 다섯 시까지"
+        }
+      ],
       "examples": [
         {
-          "ko": "9시부터 6시까지 일해요.",
-          "romanization": "9sibuteo 6sikkaji ilhaeyo.",
-          "en": "I work from 9 to 6.",
-          "note": "두 끝 모두 사용 — both ends of the ruler used for a time range"
+          "ko": "아홉 시부터 여섯 시까지 일해요.",
+          "romanization": "a-hop si-bu-teo yeo-seot si-kka-ji il-hae-yo.",
+          "en": "I work from nine to six.",
+          "note": "Classic time range: 부터 on the start time, 까지 on the end time."
         },
         {
-          "ko": "월요일부터 금요일까지 수업이 있어요.",
-          "romanization": "woryoilbuteo geumyoilkkaji suebi isseoyo.",
-          "en": "There's class from Monday to Friday.",
-          "note": "Days of the week can also be range endpoints — 부터 and 까지 work the same way"
+          "ko": "집부터 학교까지 멀어요.",
+          "romanization": "jip-bu-teo hak-gyo-kka-ji meo-reo-yo.",
+          "en": "It's far from home to school.",
+          "note": "Place range with 부터…까지. You'll also often hear 집에서 학교까지 — see the key point below."
         },
         {
-          "ko": "여기부터 역까지 걸어요.",
-          "romanization": "yeogibuteo yeokkkaji georeoyo.",
-          "en": "I walk from here to the station.",
-          "note": "Space range: starting point (여기부터) + ending point (역까지)"
+          "ko": "몇 시부터 영화를 봐요?",
+          "romanization": "myeot si-bu-teo yeong-hwa-reul bwa-yo?",
+          "en": "From what time is the movie?",
+          "note": "부터 used alone to ask just the starting time."
         },
         {
-          "ko": "지금부터 공부할게요.",
-          "romanization": "jigeumbuteo gongbuhalgeyo.",
-          "en": "I'll study starting from now.",
-          "note": "Only the start end used — 부터 alone means 'starting from this point'"
-        },
-        {
-          "ko": "서울역까지 얼마나 걸려요?",
-          "romanization": "seoulyeokkkaji eolmana geollyeoyo?",
-          "en": "How long does it take to Seoul Station?",
-          "note": "Only the end used — 까지 alone means 'as far as / all the way to'"
+          "ko": "내일까지 책을 읽어요.",
+          "romanization": "nae-il-kka-ji chae-geul il-geo-yo.",
+          "en": "I'll read the book by tomorrow.",
+          "note": "까지 alone = a deadline, \"by tomorrow.\""
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "3시에 와요.", "en": "Come at 3. (single point in time)" },
-          "b": { "ko": "3시부터 5시까지 있어요.", "en": "I'll be there from 3 to 5. (range)" },
-          "explanation": "에 pins a single moment — one tick on the clock. 부터/까지 draws a segment between two ticks. Use 에 for appointments ('meet me at 3'), use 부터/까지 for durations ('the shop is open from 10 to 9')."
-        },
-        {
-          "a": { "ko": "집에서 학교까지 버스로 가요.", "en": "I go from home to school by bus." },
-          "b": { "ko": "집부터 학교까지 버스로 가요.", "en": "From home to school by bus." },
-          "explanation": "For physical starting places, 에서 (집에서) is more natural than 부터 (집부터). 부터 works but sounds slightly unnatural for concrete departure points. 에서 = 'from' for places; 부터 = 'from' for time and abstract starting points. Both mean roughly the same here, but 에서 is preferred for locations."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "학교부터 가요.",
-        "right": "학교에 가요. / 학교에서 출발해요.",
-        "explanation": "English 'I go from school' uses 'from', which tempts learners to use 부터. But 부터 marks the starting point of a RANGE — it needs a destination (까지) or a specific context. '학교부터 가요' sounds like 'starting from school, I go' with no endpoint, which feels incomplete. Use 에 for simple destinations (학교에 가요 = go to school) or 에서 to mean 'departing from' (학교에서 출발해요)."
+      "keyPoint": {
+        "label": "부터 vs 에서 (both can mean \"from\")",
+        "body": "For a starting point you measure a stretch from — especially time — use 부터: 아침부터 (from morning). For a physical place you set out from, native speakers usually say 에서: 집에서 학교까지 (from home to school). So time ranges lean on 부터…까지, while place ranges usually use 에서…까지. You'll still hear 집부터 학교까지, so it's not wrong — just know that 에서…까지 is the more common \"place-to-place\" frame. The full location particle 에서 gets its own chapter; for now just remember: time → 부터, place → often 에서, and 까지 marks the end either way."
       },
-      "exceptions": [
-        "For physical locations as starting points, 에서 is more natural: 서울에서 부산까지 (from Seoul to Busan) is preferred over 서울부터 부산까지",
-        "오늘부터 (from today) and 지금부터 (from now) are extremely common fixed phrases — memorize both",
-        "까지 also means 'even' as an emphasis marker (너까지 = even you), which is different from the range meaning"
-      ]
+      "pronunciation": "까지 starts with the tense consonant ㄲ, so keep it crisp — [kka-ji], not a soft [ga-ji]. After a 받침 like ㅂ/ㄱ/ㄷ, 부터 tenses a little: 집부터 sounds like [집뿌터].",
+      "drill": {
+        "instruction": "Make a \"from … to …\" sentence with 부터 and 까지, following the model.",
+        "model": "(아침 / 저녁) → 아침부터 저녁까지 일해요.",
+        "items": [
+          "(한 시 / 세 시) → ______ 한국어를 공부해요.",
+          "(여기 / 집) → ______ 걸어요.",
+          "(월요일 / 금요일) → ______ 학교에 가요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "아홉 시까지 여섯 시부터 일해요. / 집까지 학교부터 멀어요.",
+        "right": "아홉 시부터 여섯 시까지 일해요. / 집부터 학교까지 멀어요.",
+        "explanation": "English says \"from … to …,\" and learners often reach for 까지 first or swap the two particles. Tie each particle to its meaning, not to word order: 부터 always sits on the START point and 까지 always sits on the END point."
+      }
     },
     {
-      "id": "gn-juseyo-repair",
-      "title": "V아/어 주세요 — The Request Frame & Repair Phrases",
-      "mentalModel": "Think of V아/어 주세요 as a FAVOR TICKET. In Korean culture, asking someone to do something for you is phrased as asking for a favor (주다 = to give). You hand someone a ticket that says what action you want as a gift: '다시 말해' (say again) + 주세요 (please give me that) = 'Please give me the favor of saying it again.' Swap the verb before 주세요 and you get any polite request.",
-      "formation": "Verb stem + 아/어 주세요 (아 after ㅏ/ㅗ vowels, 어 after all others; 하다 → 해 주세요)",
+      "title": "V아/어 주세요 — asking someone to do something for you",
+      "func": "V아/어 주세요 is the polite way to ask someone to do something for you: \"please (do) … (for me).\" Take the verb stem, add 아/어 by vowel harmony, then attach 주세요. It powers the survival phrases you need in class and out on the street — 다시 말해 주세요 (please say it again), 천천히 말해 주세요 (please speak slowly).",
+      "formTable": [
+        {
+          "when": "Stem's last vowel is ㅏ or ㅗ (bright)",
+          "add": "아 주세요",
+          "ex": "받다 → 받아 주세요 · 보다 → 봐 주세요"
+        },
+        {
+          "when": "Stem's last vowel is anything else (not ㅏ/ㅗ)",
+          "add": "어 주세요",
+          "ex": "읽다 → 읽어 주세요 · 만들다 → 만들어 주세요"
+        },
+        {
+          "when": "하다 verbs",
+          "add": "해 주세요",
+          "ex": "말하다 → 말해 주세요 · 일하다 → 일해 주세요"
+        },
+        {
+          "when": "With a 'help me' adverb (다시, 천천히)",
+          "add": "adverb + V아/어 주세요",
+          "ex": "다시 → 다시 말해 주세요 · 천천히 → 천천히 써 주세요"
+        }
+      ],
       "examples": [
         {
           "ko": "다시 말해 주세요.",
-          "romanization": "dasi malhae juseyo.",
-          "en": "Please say it again.",
-          "note": "말하다 → 말해 주세요 — 하다 verbs become 해 주세요; 다시 means 'again/once more'"
+          "romanization": "da-si mal-hae ju-se-yo.",
+          "en": "Please say that again.",
+          "note": "말하다 is a 하다 verb → 말해. With 다시 (\"again\") it's the #1 classroom phrase."
         },
         {
           "ko": "천천히 말해 주세요.",
-          "romanization": "cheoncheonhi malhae juseyo.",
+          "romanization": "cheon-cheon-hi mal-hae ju-se-yo.",
           "en": "Please speak slowly.",
-          "note": "Same structure — add 천천히 (slowly) before the request to specify how"
+          "note": "천천히 (\"slowly\") + 말해 주세요 — use it when someone talks too fast for you."
         },
         {
-          "ko": "써 주세요.",
-          "romanization": "sseo juseyo.",
-          "en": "Please write it (down).",
-          "note": "쓰다 → 써 주세요 — essential when you can't hear but can read"
+          "ko": "물 좀 주세요.",
+          "romanization": "mul jom ju-se-yo.",
+          "en": "Please give me some water.",
+          "note": "With a plain noun, use 주세요 directly (no 아/어). 좀 softens it to \"please / if you would.\""
         },
         {
-          "ko": "사진 찍어 주세요.",
-          "romanization": "sajin jjigeo juseyo.",
-          "en": "Please take a photo (of me).",
-          "note": "찍다 → 찍어 주세요 — tourist classic; mention what to photograph before the request"
-        },
-        {
-          "ko": "도와주세요.",
-          "romanization": "dowajuseyo.",
-          "en": "Please help me.",
-          "note": "돕다 is irregular → 도와 주세요 / 도와주세요 (often written as one word) — survival phrase"
+          "ko": "이 책을 읽어 주세요.",
+          "romanization": "i chae-geul il-geo ju-se-yo.",
+          "en": "Please read this book (to me).",
+          "note": "읽다's last vowel isn't ㅏ/ㅗ → 읽어 주세요. The 주세요 adds the \"for me\" nuance."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": { "ko": "다시 말해요.", "en": "Say it again. (statement / very direct)" },
-          "b": { "ko": "다시 말해 주세요.", "en": "Please say it again. (polite request)" },
-          "explanation": "Without 주세요 the sentence is a statement or a command. Adding 주세요 reframes it as asking for a favor, which is much more natural and polite. Always use the 주세요 form when asking strangers."
-        },
-        {
-          "a": { "ko": "잠깐만요.", "en": "Just a moment. (pause signal)" },
-          "b": { "ko": "잠깐 기다려 주세요.", "en": "Please wait a moment. (explicit polite request)" },
-          "explanation": "잠깐만요 is a quick pause signal — common but blunt. 기다려 주세요 explicitly asks for the waiting action as a favor, which is softer and clearer."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "천천히 말해요 주세요.",
-        "right": "천천히 말해 주세요.",
-        "explanation": "English speakers sometimes separate the adverb and add 주세요 at the very end after 요: '천천히 말해요 주세요.' But in Korean the verb form before 주세요 must be the plain stem form (말해), not the polite form (말해요). The 요 comes at the very end only once: 말해 주세요, not 말해요 주세요."
+      "keyPoint": {
+        "label": "V아/어 주세요 vs N 주세요",
+        "body": "Plain 주세요 (from 주다, \"to give\") means \"please give me ___\" and attaches straight to a noun: 물 주세요, 책 주세요. But when you want someone to DO something for you, a bare noun won't carry it — you put the verb in the 아/어 form first: 책을 읽어 주세요 (please read the book for me). So: a thing you want handed over → N 주세요; an action you want done → V아/어 주세요. The deeper 주다 \"do-it-for-me\" grammar comes later; for now treat V아/어 주세요 as one fixed request phrase."
       },
-      "exceptions": [
-        "도와주세요 is almost always written as one word (not 도와 주세요), because 돕다 + 아/어 주세요 has become a fixed phrase",
-        "세요 (shorter form) is used with certain verbs: 앉으세요 (please sit), 오세요 (please come) — these are not V아/어 주세요 but honorific imperatives",
-        "주세요 can attach to nouns too: 물 주세요 = Please give me water (no verb stem needed when handing/giving is implied)"
-      ]
+      "pronunciation": "In 말해 주세요 the ㄹ links into 해 — [마래 주세요]. In 읽어 주세요 the hidden ㄱ of 읽 carries onto 어 — [일거 주세요]. Keep 주세요 light and even, don't stress it.",
+      "drill": {
+        "instruction": "Turn each verb into a polite request with V아/어 주세요, following the model.",
+        "model": "(말하다 + 다시) → 다시 말해 주세요.",
+        "items": [
+          "(보다 + 다시) → ______",
+          "(말하다 + 천천히) → ______",
+          "(쓰다) → 이름을 ______ (쓰다 drops 으: 써 주세요)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "다시 말하 주세요 / 천천히 말하세요 (meaning \"please say it again for me\")",
+        "right": "다시 말해 주세요 / 천천히 말해 주세요",
+        "explanation": "Two traps. First, you have to conjugate to the 아/어 form before 주세요 — it's 말해 주세요, never the bare stem 말하 주세요. Second, plain 말하세요 is a polite command (\"speak\") with no \"for me\" warmth; adding 주세요 turns the order into a real request — exactly what you want when asking a teacher or a stranger for help."
+      }
     }
   ],
   "extendedVocabulary": [
@@ -137,152 +159,307 @@
       "romanization": "hwajangsil",
       "english": "bathroom / restroom",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "화장실이 어디예요?", "en": "Where is the bathroom?", "note": "이 follows consonant-ending 실 — subject particle, not topic particle" },
-      "collocations": ["화장실에 가다", "화장실을 찾다", "화장실이 어디예요?"]
+      "exampleSentence": {
+        "ko": "화장실이 어디예요?",
+        "en": "Where is the bathroom?",
+        "note": "이 follows consonant-ending 실 — subject particle, not topic particle"
+      },
+      "collocations": [
+        "화장실에 가다",
+        "화장실을 찾다",
+        "화장실이 어디예요?"
+      ]
     },
     {
       "hangul": "지하철역",
       "romanization": "jihacheollyeok",
       "english": "subway station",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "지하철역까지 얼마나 걸려요?", "en": "How long does it take to the subway station?", "note": "까지 = as far as / to — the end-point of a distance range" },
-      "collocations": ["지하철역에 가다", "지하철역까지 걷다", "지하철역 어디예요?"]
+      "exampleSentence": {
+        "ko": "지하철역까지 얼마나 걸려요?",
+        "en": "How long does it take to the subway station?",
+        "note": "까지 = as far as / to — the end-point of a distance range"
+      },
+      "collocations": [
+        "지하철역에 가다",
+        "지하철역까지 걷다",
+        "지하철역 어디예요?"
+      ]
     },
     {
       "hangul": "출구",
       "romanization": "chulgu",
       "english": "exit",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "몇 번 출구예요?", "en": "Which exit number is it?", "note": "몇 번 = which number — essential for subway navigation" },
-      "collocations": ["1번 출구", "출구로 나가다", "출구 어디예요?"]
+      "exampleSentence": {
+        "ko": "몇 번 출구예요?",
+        "en": "Which exit number is it?",
+        "note": "몇 번 = which number — essential for subway navigation"
+      },
+      "collocations": [
+        "1번 출구",
+        "출구로 나가다",
+        "출구 어디예요?"
+      ]
     },
     {
       "hangul": "안내소",
       "romanization": "annaeso",
       "english": "information desk / help desk",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "안내소가 어디예요?", "en": "Where is the information desk?", "note": "A practical travel question when you need staff help, directions, or opening hours" },
-      "collocations": ["안내소가 어디예요?", "안내소에서 물어보다", "안내소는 몇 시까지 열어요?"]
+      "exampleSentence": {
+        "ko": "안내소가 어디예요?",
+        "en": "Where is the information desk?",
+        "note": "A practical travel question when you need staff help, directions, or opening hours"
+      },
+      "collocations": [
+        "안내소가 어디예요?",
+        "안내소에서 물어보다",
+        "안내소는 몇 시까지 열어요?"
+      ]
     },
     {
       "hangul": "2호선",
       "romanization": "i hoseon",
       "english": "Line 2 (subway)",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "2호선 타는 곳이 어디예요?", "en": "Where is the Line 2 boarding area?", "note": "타는 곳 = the place where you board; more natural than saying the line itself is an exit" },
-      "collocations": ["2호선 타는 곳", "2호선으로 가다", "2호선은 어디예요?"]
+      "exampleSentence": {
+        "ko": "2호선 타는 곳이 어디예요?",
+        "en": "Where is the Line 2 boarding area?",
+        "note": "타는 곳 = the place where you board; more natural than saying the line itself is an exit"
+      },
+      "collocations": [
+        "2호선 타는 곳",
+        "2호선으로 가다",
+        "2호선은 어디예요?"
+      ]
     },
     {
       "hangul": "부터",
       "romanization": "buteo",
       "english": "from (starting point)",
       "partOfSpeech": "particle",
-      "exampleSentence": { "ko": "오늘부터 열심히 공부할게요.", "en": "I'll study hard starting from today.", "note": "부터 attaches to the start-point — 오늘부터 means 'from today onward'" },
-      "collocations": ["지금부터", "오늘부터", "N시부터", "여기부터"]
+      "exampleSentence": {
+        "ko": "오늘부터 열심히 공부할게요.",
+        "en": "I'll study hard starting from today.",
+        "note": "부터 attaches to the start-point — 오늘부터 means 'from today onward'"
+      },
+      "collocations": [
+        "지금부터",
+        "오늘부터",
+        "N시부터",
+        "여기부터"
+      ]
     },
     {
       "hangul": "까지",
       "romanization": "kkaji",
       "english": "to / until / as far as (end point)",
       "partOfSpeech": "particle",
-      "exampleSentence": { "ko": "몇 시까지 열어요?", "en": "Until what time are you open?", "note": "까지 after a time = 'until' — perfect for asking business hours" },
-      "collocations": ["N시까지", "역까지", "몇 시까지?", "언제까지?"]
+      "exampleSentence": {
+        "ko": "몇 시까지 열어요?",
+        "en": "Until what time are you open?",
+        "note": "까지 after a time = 'until' — perfect for asking business hours"
+      },
+      "collocations": [
+        "N시까지",
+        "역까지",
+        "몇 시까지?",
+        "언제까지?"
+      ]
     },
     {
       "hangul": "다시",
       "romanization": "dasi",
       "english": "again / once more",
       "partOfSpeech": "adverb",
-      "exampleSentence": { "ko": "다시 말해 주세요.", "en": "Please say it again.", "note": "다시 placed before the verb — it modifies the action (말하다)" },
-      "collocations": ["다시 말하다", "다시 한 번", "다시 확인하다"]
+      "exampleSentence": {
+        "ko": "다시 말해 주세요.",
+        "en": "Please say it again.",
+        "note": "다시 placed before the verb — it modifies the action (말하다)"
+      },
+      "collocations": [
+        "다시 말하다",
+        "다시 한 번",
+        "다시 확인하다"
+      ]
     },
     {
       "hangul": "천천히",
       "romanization": "cheoncheonhi",
       "english": "slowly",
       "partOfSpeech": "adverb",
-      "exampleSentence": { "ko": "천천히 말해 주세요.", "en": "Please speak slowly.", "note": "천천히 before 말해 주세요 specifies the speed — add it any time you need less pace" },
-      "collocations": ["천천히 말하다", "천천히 걷다", "천천히 하다"]
+      "exampleSentence": {
+        "ko": "천천히 말해 주세요.",
+        "en": "Please speak slowly.",
+        "note": "천천히 before 말해 주세요 specifies the speed — add it any time you need less pace"
+      },
+      "collocations": [
+        "천천히 말하다",
+        "천천히 걷다",
+        "천천히 하다"
+      ]
     },
     {
       "hangul": "모르다",
       "romanization": "moreuda",
       "english": "to not know",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "잘 모르겠어요.", "en": "I'm not quite sure.", "note": "잘 모르겠어요 is softer and more natural than just 몰라요 — 겠 adds an element of 'I think / I guess'" },
-      "collocations": ["잘 모르겠어요", "모르겠어요", "길을 모르다"]
+      "exampleSentence": {
+        "ko": "잘 모르겠어요.",
+        "en": "I'm not quite sure.",
+        "note": "잘 모르겠어요 is softer and more natural than just 몰라요 — 겠 adds an element of 'I think / I guess'"
+      },
+      "collocations": [
+        "잘 모르겠어요",
+        "모르겠어요",
+        "길을 모르다"
+      ]
     },
     {
       "hangul": "걷다",
       "romanization": "geotda",
       "english": "to walk",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "여기서 역까지 걸어요.", "en": "I walk from here to the station.", "note": "걷다 is ㄷ-irregular: 걷 + 어 → 걸어요 (ㄷ changes to ㄹ before a vowel)" },
-      "collocations": ["걸어가다", "N까지 걷다", "걸어서 10분"]
+      "exampleSentence": {
+        "ko": "여기서 역까지 걸어요.",
+        "en": "I walk from here to the station.",
+        "note": "걷다 is ㄷ-irregular: 걷 + 어 → 걸어요 (ㄷ changes to ㄹ before a vowel)"
+      },
+      "collocations": [
+        "걸어가다",
+        "N까지 걷다",
+        "걸어서 10분"
+      ]
     },
     {
       "hangul": "걸리다",
       "romanization": "geollida",
       "english": "to take (time) / to be required",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "버스로 30분 걸려요.", "en": "It takes 30 minutes by bus.", "note": "얼마나 걸려요? (How long does it take?) is a must-know travel question — 걸리다 expresses time cost" },
-      "collocations": ["얼마나 걸려요?", "N분 걸려요", "시간이 걸리다"]
+      "exampleSentence": {
+        "ko": "버스로 30분 걸려요.",
+        "en": "It takes 30 minutes by bus.",
+        "note": "얼마나 걸려요? (How long does it take?) is a must-know travel question — 걸리다 expresses time cost"
+      },
+      "collocations": [
+        "얼마나 걸려요?",
+        "N분 걸려요",
+        "시간이 걸리다"
+      ]
     },
     {
       "hangul": "도와주다",
       "romanization": "dowajuda",
       "english": "to help",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "도와주세요!", "en": "Please help me!", "note": "돕다 + 아/어 주다 → 도와주다 (ㅂ-irregular): 도와주세요 is a one-word survival phrase" },
-      "collocations": ["도와주세요", "도와줘요", "N를 도와주다"]
+      "exampleSentence": {
+        "ko": "도와주세요!",
+        "en": "Please help me!",
+        "note": "돕다 + 아/어 주다 → 도와주다 (ㅂ-irregular): 도와주세요 is a one-word survival phrase"
+      },
+      "collocations": [
+        "도와주세요",
+        "도와줘요",
+        "N를 도와주다"
+      ]
     },
     {
       "hangul": "찾다",
       "romanization": "chatda",
       "english": "to look for / find",
       "partOfSpeech": "verb",
-      "exampleSentence": { "ko": "지하철역을 찾고 있어요.", "en": "I'm looking for the subway station.", "note": "찾고 있어요 = currently searching (ongoing action) — useful when you're lost and need help" },
-      "collocations": ["N을/를 찾다", "길을 찾다", "찾고 있어요"]
+      "exampleSentence": {
+        "ko": "지하철역을 찾고 있어요.",
+        "en": "I'm looking for the subway station.",
+        "note": "찾고 있어요 = currently searching (ongoing action) — useful when you're lost and need help"
+      },
+      "collocations": [
+        "N을/를 찾다",
+        "길을 찾다",
+        "찾고 있어요"
+      ]
     },
     {
       "hangul": "여기",
       "romanization": "yeogi",
       "english": "here (this place)",
       "partOfSpeech": "pronoun",
-      "exampleSentence": { "ko": "여기부터 역까지 걸어서 10분이에요.", "en": "It's a 10-minute walk from here to the station.", "note": "여기부터 = starting from here — pairs naturally with 까지 for distance ranges" },
-      "collocations": ["여기서", "여기에", "여기부터", "여기 있어요"]
+      "exampleSentence": {
+        "ko": "여기부터 역까지 걸어서 10분이에요.",
+        "en": "It's a 10-minute walk from here to the station.",
+        "note": "여기부터 = starting from here — pairs naturally with 까지 for distance ranges"
+      },
+      "collocations": [
+        "여기서",
+        "여기에",
+        "여기부터",
+        "여기 있어요"
+      ]
     },
     {
       "hangul": "저기",
       "romanization": "jeogi",
       "english": "over there (that place in the distance)",
       "partOfSpeech": "pronoun",
-      "exampleSentence": { "ko": "화장실은 저기에 있어요.", "en": "The bathroom is over there.", "note": "저기 = yonder/over there (visible but farther away). 여기 = here, 거기 = there, 저기 = over there" },
-      "collocations": ["저기에 있다", "저기서", "저기 보이다"]
+      "exampleSentence": {
+        "ko": "화장실은 저기에 있어요.",
+        "en": "The bathroom is over there.",
+        "note": "저기 = yonder/over there (visible but farther away). 여기 = here, 거기 = there, 저기 = over there"
+      },
+      "collocations": [
+        "저기에 있다",
+        "저기서",
+        "저기 보이다"
+      ]
     },
     {
       "hangul": "왼쪽",
       "romanization": "oenjjok",
       "english": "left side",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "왼쪽으로 가세요.", "en": "Go to the left.", "note": "으로 = direction marker (go via/toward). 왼쪽으로 가다 = go left" },
-      "collocations": ["왼쪽으로 가다", "왼쪽에 있다", "왼쪽 출구"]
+      "exampleSentence": {
+        "ko": "왼쪽으로 가세요.",
+        "en": "Go to the left.",
+        "note": "으로 = direction marker (go via/toward). 왼쪽으로 가다 = go left"
+      },
+      "collocations": [
+        "왼쪽으로 가다",
+        "왼쪽에 있다",
+        "왼쪽 출구"
+      ]
     },
     {
       "hangul": "오른쪽",
       "romanization": "oreunjjok",
       "english": "right side",
       "partOfSpeech": "noun",
-      "exampleSentence": { "ko": "오른쪽에 편의점이 있어요.", "en": "There's a convenience store on the right.", "note": "에 있다 = something exists in that location — combine direction + 에 있다 to describe where things are" },
-      "collocations": ["오른쪽으로 가다", "오른쪽에 있다", "오른쪽 출구"]
+      "exampleSentence": {
+        "ko": "오른쪽에 편의점이 있어요.",
+        "en": "There's a convenience store on the right.",
+        "note": "에 있다 = something exists in that location — combine direction + 에 있다 to describe where things are"
+      },
+      "collocations": [
+        "오른쪽으로 가다",
+        "오른쪽에 있다",
+        "오른쪽 출구"
+      ]
     },
     {
       "hangul": "알겠어요",
       "romanization": "algesseoyo",
       "english": "I understand / okay / got it",
       "partOfSpeech": "expression",
-      "exampleSentence": { "ko": "네, 알겠어요. 감사합니다.", "en": "Yes, I understand. Thank you.", "note": "알겠어요 is warmer and more engaged than just 네 — it shows you actually processed what was said" },
-      "collocations": ["알겠어요", "알겠습니다 (formal)", "네, 알겠어요"]
+      "exampleSentence": {
+        "ko": "네, 알겠어요. 감사합니다.",
+        "en": "Yes, I understand. Thank you.",
+        "note": "알겠어요 is warmer and more engaged than just 네 — it shows you actually processed what was said"
+      },
+      "collocations": [
+        "알겠어요",
+        "알겠습니다 (formal)",
+        "네, 알겠어요"
+      ]
     }
   ],
   "extendedDialogue": {
@@ -374,14 +551,22 @@
     {
       "type": "fillBlank",
       "prompt": "9시___ 6시___ 일해요. (I work from 9 to 6.)",
-      "options": ["에 / 에", "부터 / 까지", "에서 / 에"],
+      "options": [
+        "에 / 에",
+        "부터 / 까지",
+        "에서 / 에"
+      ],
       "correct": "부터 / 까지",
       "explanation": "부터 marks the start-point (9시부터 = from 9) and 까지 marks the end-point (6시까지 = to/until 6). 에 alone (9시에 / 6시에) would give two single time-points but not express a range. 에서 is for places where actions happen, not time expressions."
     },
     {
       "type": "fillBlank",
       "prompt": "다시 말해 ___. (Please say it again.)",
-      "options": ["요", "주세요", "주어요"],
+      "options": [
+        "요",
+        "주세요",
+        "주어요"
+      ],
       "correct": "주세요",
       "explanation": "The V아/어 주세요 pattern uses 주세요 (from 주다 = to give, as a favor). 말해요 alone is a statement ('you say it again'). 주어요 is not a polite request form — 주세요 is the standard polite imperative of 주다."
     },
@@ -412,7 +597,11 @@
     {
       "type": "fillBlank",
       "prompt": "죄송한데, 천천히 말해 ___ . (Sorry, please speak slowly.)",
-      "options": ["주세요", "요", "주다"],
+      "options": [
+        "주세요",
+        "요",
+        "주다"
+      ],
       "correct": "주세요",
       "explanation": "말해 주세요 = the complete V아/어 주세요 request form. 말해요 alone = a statement or direct command, which would sound rude to a stranger. 주다 is the infinitive/dictionary form — you cannot end a polite sentence with a bare infinitive."
     },
