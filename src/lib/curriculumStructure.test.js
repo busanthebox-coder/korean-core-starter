@@ -19,12 +19,15 @@ const curriculumGrammarIds = [
 
 describe('curriculum structure', () => {
   it('orders the lesson path by recommended difficulty, not raw chapter number', () => {
-    const firstFifteen = chapters.slice(0, 15).map((chapter) => chapter.number);
+    const nums = chapters.map((chapter) => chapter.number);
 
-    expect(firstFifteen).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 17, 18, 19, 20]);
-    expect(chapters.findIndex((chapter) => chapter.number === 17)).toBeLessThan(
-      chapters.findIndex((chapter) => chapter.number === 12),
-    );
+    // After renumbering, the visible "Chapter N" equals the study position: 1..N in order.
+    expect(nums).toEqual(nums.map((_, i) => i + 1));
+    // Difficulty still ascends: the first A2 chapter precedes the first B1 chapter.
+    const firstA2 = chapters.findIndex((c) => c.curriculumTrack?.cefr === 'A2');
+    const firstB1 = chapters.findIndex((c) => c.curriculumTrack?.cefr === 'B1');
+    expect(firstA2).toBeGreaterThan(0);
+    expect(firstA2).toBeLessThan(firstB1);
   });
 
   it('gives every chapter a track, layer plan, prerequisites, and exit task', () => {
@@ -126,7 +129,7 @@ describe('curriculum structure', () => {
   });
 
   it('adds a Natural Why coaching card to the pilot chapter', () => {
-    const pilot = byNumber(17)?.naturalWhy;
+    const pilot = byNumber(12)?.naturalWhy;
 
     expect(pilot?.lessNatural?.ko).toBe('어제 영화를 봐요.');
     expect(pilot?.natural?.ko).toBe('어제 영화를 봤어요.');
@@ -136,8 +139,8 @@ describe('curriculum structure', () => {
     expect(pilot?.askNative).toContain('한국인은 더 짧게 어떻게 말해요?');
   });
 
-  it('keeps chapter 17 warm-up dialogue conversational', () => {
-    const lines = byNumber(17)?.dialogue || [];
+  it('keeps the past-tense (ch.12) warm-up dialogue conversational', () => {
+    const lines = byNumber(12)?.dialogue || [];
     const koreanLines = lines.map((line) => line.ko);
 
     expect(koreanLines).toEqual([
@@ -150,7 +153,7 @@ describe('curriculum structure', () => {
   });
 
   it('keeps warm-up dialogues from turning into grammar example lists', () => {
-    const chapter18 = byNumber(18)?.dialogue?.map((line) => line.ko) || [];
+    const chapter18 = byNumber(13)?.dialogue?.map((line) => line.ko) || [];
     const chapter57 = byNumber(57)?.dialogue?.map((line) => line.ko) || [];
     const chapter58 = byNumber(58)?.dialogue?.map((line) => line.ko) || [];
     const chapter59 = byNumber(59)?.dialogue?.map((line) => line.ko) || [];
@@ -173,7 +176,7 @@ describe('curriculum structure', () => {
     const starts = chapters.filter((chapter, index) => isTrackStart(chapter, chapters[index - 1]));
 
     expect(starts.map((chapter) => chapter.curriculumTrack.cefr)).toEqual(['A1', 'A2', 'B1', 'B2', 'C1']);
-    expect(byNumber(17)?.curriculumTrack.cefr).toBe('A2');
-    expect(byNumber(12)?.curriculumTrack.cefr).toBe('B1');
+    expect(byNumber(12)?.curriculumTrack.cefr).toBe('A2');
+    expect(byNumber(35)?.curriculumTrack.cefr).toBe('B1');
   });
 });
