@@ -11,134 +11,151 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-104",
-      "title": "V-습니다 / ㅂ니다 - formal polite style",
-      "mentalModel": "합쇼체 is public-facing polite Korean: clear, formal, and a little stiff.",
-      "formation": "For statements, attach -습니다 after a consonant-final stem and -ㅂ니다 after a vowel-final stem: 먹다 becomes 먹습니다, 가다 becomes 갑니다. ㄹ stems drop ㄹ before ㅂ니다: 살다 becomes 삽니다. For questions, use -습니까 or -ㅂ니까. For formal commands, use -(으)십시오.",
+      "title": "V-(스)ㅂ니다 — the formal polite ending (합니다체)",
+      "func": "This is the formal polite ending for statements. It sounds more formal than the everyday -아요/-어요 (해요체) ending, so you hear it in announcements, at work, in the news, and when you first meet someone.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel (no 받침)",
+          "add": "stem + ㅂ니다",
+          "ex": "가다 → 갑니다 / 오다 → 옵니다 / 크다 → 큽니다"
+        },
+        {
+          "when": "Stem ends in a consonant (has 받침)",
+          "add": "stem + 습니다",
+          "ex": "먹다 → 먹습니다 / 읽다 → 읽습니다 / 작다 → 작습니다"
+        },
+        {
+          "when": "Stem ends in ㄹ (the ㄹ drops)",
+          "add": "drop ㄹ, then + ㅂ니다",
+          "ex": "살다 → 삽니다 / 만들다 → 만듭니다 / 알다 → 압니다"
+        },
+        {
+          "when": "이다 (to be), after a noun",
+          "add": "noun + 입니다",
+          "ex": "학생이다 → 학생입니다 / 친구이다 → 친구입니다"
+        },
+        {
+          "when": "Question form",
+          "add": "-(스)ㅂ니까?",
+          "ex": "가다 → 갑니까? / 먹다 → 먹습니까?"
+        }
+      ],
       "examples": [
         {
-          "ko": "저는 한국어를 공부합니다.",
-          "romanization": "jeoneun hangugeoreul gongbuhamnida.",
-          "en": "I study Korean.",
-          "note": "Formal statement, useful in presentations or interviews."
+          "ko": "저는 학생입니다.",
+          "romanization": "jeo-neun hak-saeng-im-ni-da.",
+          "en": "I'm a student.",
+          "note": "이다 attaches to the noun 학생 as 입니다 — the standard way to introduce yourself."
         },
         {
-          "ko": "지금부터 발표를 시작하겠습니다.",
-          "romanization": "jigeumbuteo balpyoreul sijakhagetseumnida.",
-          "en": "I will begin the presentation now.",
-          "note": "A natural formal presentation opening."
+          "ko": "아침마다 밥을 먹습니다.",
+          "romanization": "a-chim-ma-da ba-beul meok-seum-ni-da.",
+          "en": "I eat every morning.",
+          "note": "먹다 has a 받침 (ㄱ), so it takes 습니다 → 먹습니다. 밥을 먹다 just means \"to eat (a meal)\"."
         },
         {
-          "ko": "질문 있으십니까?",
-          "romanization": "jilmun isseusimnikka?",
-          "en": "Do you have any questions?",
-          "note": "Formal question style, with subject honorific on 있다."
+          "ko": "지금 학교에 갑니다.",
+          "romanization": "ji-geum hak-gyo-e gam-ni-da.",
+          "en": "I'm going to school now.",
+          "note": "가다 ends in a vowel, so it takes ㅂ니다 → 갑니다."
         },
         {
-          "ko": "잠시 기다려 주십시오.",
-          "romanization": "jamsi gidaryeo jusipsio.",
-          "en": "Please wait a moment.",
-          "note": "Formal command/request style."
+          "ko": "부산에 삽니까?",
+          "romanization": "bu-san-e sam-ni-kka?",
+          "en": "Do you live in Busan?",
+          "note": "살다 ends in ㄹ, which drops before ㅂ; the question ending -ㅂ니까? makes it 삽니까?"
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "발표를 시작하겠습니다.",
-            "en": "I will begin the presentation."
-          },
-          "b": {
-            "ko": "발표 시작할게요.",
-            "en": "I will start the presentation."
-          },
-          "explanation": "The first fits a formal presentation. The second is polite but more conversational."
-        },
-        {
-          "a": {
-            "ko": "질문 있으십니까?",
-            "en": "Do you have any questions?"
-          },
-          "b": {
-            "ko": "질문 있어요?",
-            "en": "Do you have a question?"
-          },
-          "explanation": "Both are polite. The first is more formal and public; the second is ordinary 해요체."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "친구에게 발표를 시작하겠습니다라고 말해요.",
-        "right": "친구에게는 발표 끝났어요처럼 해요체로 말해요.",
-        "explanation": "The stiffest form is not always the best form. Match the setting and relationship."
+      "keyPoint": {
+        "label": "받침 decides ㅂ니다 vs 습니다",
+        "body": "No 받침 → add ㅂ니다 (가 → 갑니다). Has 받침 → add 습니다 (먹 → 먹습니다). The one exception is ㄹ stems: the ㄹ drops and you use ㅂ니다 (살 → 삽니다), so they act like vowel stems."
       },
-      "exceptions": [
-        "합쇼체 is common in public speech, interviews, announcements, and official service language.",
-        "In everyday conversation, 해요체 often sounds more natural even though 합쇼체 is also polite."
-      ]
+      "pronunciation": "The ㅂ in -ㅂ니다 sounds like [m] before ㄴ: 갑니다 sounds like [감니다], 입니다 like [임니다], and 습니다 like [슴니다].",
+      "drill": {
+        "instruction": "Change each dictionary-form verb into the formal 합니다체 statement (V-(스)ㅂ니다).",
+        "model": "읽다 → 읽습니다",
+        "items": [
+          "오다 → ____",
+          "만들다 → ____",
+          "작다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "먹읍니다 / 가습니다",
+        "right": "먹습니다 / 갑니다",
+        "explanation": "The ending depends on the last letter of the stem, not the meaning. A stem ending in a consonant like 먹 takes 습니다 (not ㅂ니다), and a stem ending in a vowel like 가 takes ㅂ니다 (not 습니다). Check the stem's last letter first."
+      }
     },
     {
-      "id": "gn-speech-level-choice",
-      "title": "Choosing 해요체, 합쇼체, 존댓말, and 반말",
-      "mentalModel": "First choose the relationship, then choose the ending.",
-      "formation": "Use 존댓말 as the safe default with people you do not know well, teachers, staff, and older people. Use 해요체 for ordinary polite conversation. Use 합쇼체 for formal public settings. Use 반말 only with close friends, younger people in appropriate settings, or people who agreed to speak casually.",
+      "title": "Choosing the style — 해요체 vs 합니다체 vs 반말",
+      "func": "Korean changes the verb ending depending on who you're talking to. The three everyday styles are 해요체 (polite, all-purpose), 합니다체 (formal polite), and 반말 (casual, no -요). The listener and the situation pick the ending — not the meaning of the sentence — so the wrong choice can sound rude or oddly stiff.",
+      "formTable": [
+        {
+          "when": "해요체 — polite, the default for daily life",
+          "add": "stem + -아요/-어요/-해요",
+          "ex": "가다 → 가요 / 먹다 → 먹어요 / 공부하다 → 공부해요"
+        },
+        {
+          "when": "합니다체 — formal polite (work, announcements, first meeting)",
+          "add": "stem + -(스)ㅂ니다",
+          "ex": "가다 → 갑니다 / 먹다 → 먹습니다"
+        },
+        {
+          "when": "반말 — casual (close friends, younger people, family)",
+          "add": "해요체 minus 요",
+          "ex": "가요 → 가 / 먹어요 → 먹어 / 공부해요 → 공부해"
+        },
+        {
+          "when": "Same sentence, three styles (먹다)",
+          "add": "먹습니다 / 먹어요 / 먹어",
+          "ex": "all mean \"(I) eat\", from most formal to most casual"
+        }
+      ],
       "examples": [
         {
-          "ko": "선생님, 질문해도 돼요?",
-          "romanization": "seonsaengnim, jilmunhaedo dwaeyo?",
-          "en": "Teacher, may I ask a question?",
-          "note": "해요체 is polite and natural in class."
+          "ko": "안녕하세요? 저는 한국 사람이에요.",
+          "romanization": "an-nyeong-ha-se-yo? jeo-neun han-guk sa-ram-i-e-yo.",
+          "en": "Hello. I'm Korean.",
+          "note": "해요체 — the safe, friendly default for people you don't know well."
         },
         {
-          "ko": "면접에서는 존댓말로 또박또박 말합니다.",
-          "romanization": "myeonjeobeseoneun jondaenmalro ttobakttobak malhamnida.",
-          "en": "In an interview, I speak clearly in polite speech.",
-          "note": "Formal setting plus formal ending."
+          "ko": "안녕하십니까? 만나서 반갑습니다.",
+          "romanization": "an-nyeong-ha-sim-ni-kka? man-na-seo ban-gap-seum-ni-da.",
+          "en": "Hello. Nice to meet you.",
+          "note": "합니다체 — a formal first greeting; you'd hear this in business and formal settings."
         },
         {
-          "ko": "친한 친구랑은 반말로 말해요.",
-          "romanization": "chinhan chingurangeun banmallo malhaeyo.",
-          "en": "With close friends, I speak casually.",
-          "note": "The relationship makes 반말 acceptable."
+          "ko": "야, 너 지금 어디 가?",
+          "romanization": "ya, neo ji-geum eo-di ga?",
+          "en": "Hey, where are you going right now?",
+          "note": "반말 — 가요 drops 요 to become 가; used with a close friend the same age. 너 (you) also marks 반말."
         },
         {
-          "ko": "처음 만난 사람에게는 해요체가 안전해요.",
-          "romanization": "cheoeum mannan saramegeneun haeyochega anjeonhaeyo.",
-          "en": "With someone you just met, haeyo style is safe.",
-          "note": "Practical default for learners."
+          "ko": "엄마, 나 배고파.",
+          "romanization": "eom-ma, na bae-go-pa.",
+          "en": "Mom, I'm hungry.",
+          "note": "반말 — used at home with family; 배고파요 drops 요 to 배고파, and 나 (casual \"I\") fits the casual style."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "발표를 시작하겠습니다.",
-            "en": "I will begin the presentation."
-          },
-          "b": {
-            "ko": "발표 끝났어요.",
-            "en": "The presentation is over."
-          },
-          "explanation": "Use formal style for the public speech, then ordinary polite style when talking to a classmate."
-        },
-        {
-          "a": {
-            "ko": "밥 먹었어?",
-            "en": "Did you eat?"
-          },
-          "b": {
-            "ko": "식사하셨어요?",
-            "en": "Did you eat? / Have you had a meal?"
-          },
-          "explanation": "The first is 반말 for close relationships. The second is respectful speech for someone you should honor."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "All polite Korean should use 합니다.",
-        "right": "해요체 is also polite Korean; 합쇼체 is formal polite Korean.",
-        "explanation": "존댓말 is the broad category. 해요체 and 합쇼체 are different polite styles inside it."
+      "keyPoint": {
+        "label": "The listener, not the meaning, picks the ending",
+        "body": "합니다체 = formal/distant (work, strangers, announcements). 해요체 = polite all-purpose (the safe everyday choice). 반말 = casual, only with close friends, younger people, or family. When unsure, use 해요체 — it's polite and never rude."
       },
-      "exceptions": [
-        "Some workplaces use 해요체 internally even in professional settings.",
-        "Some service scripts use 합쇼체, but a staff member may switch to 해요체 to sound warmer."
-      ]
+      "pronunciation": "In 반말 questions, the rising pitch alone marks the question: 가? rises at the end, while the statement 가. falls. There's no -까? ending and no spelling change.",
+      "drill": {
+        "instruction": "Rewrite each 해요체 sentence in the style named in brackets (합니다체 = formal, 반말 = casual).",
+        "model": "가요. [반말] → 가.",
+        "items": [
+          "먹어요. [합니다체] → ____",
+          "와요. [반말] → ____",
+          "공부해요. [합니다체] → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "(to your boss) 야, 밥 먹었어?",
+        "right": "(to your boss) 식사하셨어요? / 점심 드셨어요?",
+        "explanation": "English has one neutral register, so learners drop 요 to sound casual and friendly — but 반말 can be disrespectful to someone older or senior. Default to 해요체 with anyone you aren't clearly close to, and switch to 반말 only once the relationship plainly allows it."
+      }
     }
   ],
   "extendedVocabulary": [

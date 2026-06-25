@@ -11,94 +11,217 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-061",
-      "title": "V-(으)ㄹ 수밖에 없다 — no choice but to",
-      "mentalModel": "This pattern says the situation has cornered you into one option. You can do it, but there is no realistic alternative.",
-      "formation": "Vowel stems take -ㄹ 수밖에 없다: 가다 → 갈 수밖에 없다. Consonant stems take -을 수밖에 없다: 먹다 → 먹을 수밖에 없다. ㄹ-stems drop ㄹ: 만들다 → 만들 수밖에 없다.",
-      "examples": [
+      "title": "V-(으)ㄹ 수밖에 없다 — to have no choice but to",
+      "func": "Use this to say there's no other option, so you end up doing the action whether you want to or not. It often sounds a little reluctant: \"There's nothing else I can do, so I just do this.\"",
+      "formTable": [
         {
-          "ko": "마감이 오늘이라서 야근할 수밖에 없어요.",
-          "romanization": "magami oneuriraseo yageunhal subakke eopseoyo.",
-          "en": "The deadline is today, so we have no choice but to work late.",
-          "note": "The deadline forces the action."
+          "when": "Verb stem ends in a consonant (받침 O)",
+          "add": "-을 수밖에 없다",
+          "ex": "먹다 → 먹을 수밖에 없다 (have no choice but to eat)"
         },
         {
-          "ko": "자료는 맞지만 설명은 다시 쓸 수밖에 없어요.",
-          "romanization": "jaryoneun matjiman seolmyeongeun dasi sseul subakke eopseoyo.",
-          "en": "The data is right, but we have no choice but to rewrite the explanation.",
-          "note": "Only one repair path is left."
+          "when": "Verb stem ends in a vowel (받침 X)",
+          "add": "-ㄹ 수밖에 없다",
+          "ex": "가다 → 갈 수밖에 없다 (have no choice but to go)"
         },
         {
-          "ko": "규칙이 바뀌어서 계획을 다시 세울 수밖에 없었어요.",
-          "romanization": "gyuchigi bakkwieoseo gyehoegeul dasi seul subakke eopseosseoyo.",
-          "en": "The rule changed, so we had no choice but to make the plan again.",
-          "note": "Past no-choice situation."
+          "when": "Verb stem ends in ㄹ (ㄹ stays, just add 수밖에 없다)",
+          "add": "-ㄹ 수밖에 없다",
+          "ex": "살다 → 살 수밖에 없다 (have no choice but to live)"
+        },
+        {
+          "when": "Adjectives work too (= it can only be / it's bound to be)",
+          "add": "-(으)ㄹ 수밖에 없다",
+          "ex": "비싸다 → 비쌀 수밖에 없다 (it's bound to be expensive)"
         }
       ],
-      "exceptions": [
-        "Do not confuse it with -(으)ㄹ 수 없다. 갈 수 없어요 means 'I cannot go'; 갈 수밖에 없어요 means 'I have no choice but to go.'",
-        "수밖에 is written together in this fixed expression."
-      ]
-    },
-    {
-      "id": "gn-pattern-062",
-      "title": "V-(으)ㄹ 리가 없다 — no way that is true",
-      "mentalModel": "리가 없다 rejects a possibility because it does not fit what you know, believe, or expect.",
-      "formation": "Vowel stems take -ㄹ 리가 없다: 오다 → 올 리가 없다. Consonant stems take -을 리가 없다: 먹다 → 먹을 리가 없다. Past uses -았/었을 리가 없다. Nouns use N일 리가 없다.",
       "examples": [
         {
-          "ko": "지금 포기할 리가 없어요.",
-          "romanization": "jigeum pogihal riga eopseoyo.",
-          "en": "There is no way we would give up now.",
-          "note": "Strongly rejects the possibility of giving up."
+          "ko": "버스가 없어서 걸어갈 수밖에 없었어요.",
+          "romanization": "beoseu-ga eopseoseo georeogal su-bakke eopseosseoyo.",
+          "en": "There was no bus, so I had no choice but to walk.",
+          "note": "A reason clause (없어서) plus this pattern is the most common shape: cause, then forced result."
         },
         {
-          "ko": "그 사람이 마감을 잊었을 리가 없어요.",
-          "romanization": "geu sarami magameul ijeosseul riga eopseoyo.",
-          "en": "There is no way that person forgot the deadline.",
-          "note": "Past possibility is rejected."
+          "ko": "시간이 없어서 택시를 탈 수밖에 없어요.",
+          "romanization": "sigani eopseoseo taeksi-reul tal su-bakke eopseoyo.",
+          "en": "I don't have time, so I have no choice but to take a taxi.",
+          "note": "탈 from 타다 (vowel stem) just adds -ㄹ. Shows the everyday 'I'm forced into it' feeling."
         },
         {
-          "ko": "이 자료가 틀렸을 리가 없어요.",
-          "romanization": "i jaryoga teullyeosseul riga eopseoyo.",
-          "en": "There is no way this data is wrong.",
-          "note": "Strong confidence based on what the speaker knows."
+          "ko": "친구가 약속을 안 지켜서 화가 날 수밖에 없었어요.",
+          "romanization": "chinguga yaksogeul an jikyeoseo hwaga nal su-bakke eopseosseoyo.",
+          "en": "My friend broke our plans, so I couldn't help getting angry.",
+          "note": "With feelings it means 'can't help but'. Getting angry was the only natural reaction."
+        },
+        {
+          "ko": "이 식당은 음식이 맛있어서 사람이 많을 수밖에 없어요.",
+          "romanization": "i sikdangeun eumsigi masisseoseo sarami manheul su-bakke eopseoyo.",
+          "en": "This place's food is so good, of course it's packed.",
+          "note": "With an adjective (많다) it means 'it's bound to be'. A natural, can't-be-otherwise conclusion."
         }
       ],
-      "exceptions": [
-        "리가 없다 is stronger than probably not. For a softer guess, use 아마 아닐 거예요 or -(으)ㄹ지도 몰라요.",
-        "Do not use 방법이 없다 for this meaning. 방법이 없다 means there is no method."
-      ]
+      "keyPoint": {
+        "label": "수밖에 없다 vs. -아/어야 하다",
+        "body": "-아/어야 하다 means you 'have to / should' do something (a duty, but other choices might still exist). V-(으)ㄹ 수밖에 없다 means every other option is gone, so you do it even if you'd rather not. '공부해야 해요' = I should study; '공부할 수밖에 없어요' = I've got no other choice but to study. (You'll meet -아/어야 하다 in its own lesson.)"
+      },
+      "pronunciation": "수밖에 sounds like [수바께]: the ㄲ of 밖 links into 에 and stays tense. So 수밖에 없다 comes out as [수바께 업따].",
+      "drill": {
+        "instruction": "Because of the reason, only one thing is left to do. Answer with V-(으)ㄹ 수밖에 없어요.",
+        "model": "비가 와요. (집에 있다) → 비가 와서 집에 있을 수밖에 없어요.",
+        "items": [
+          "돈이 없어요. (집에서 밥을 먹다) → 돈이 없어서 집에서 밥을 ____.",
+          "길이 막혀요. (지하철을 타다) → 길이 막혀서 지하철을 ____.",
+          "숙제가 많아요. (집에 늦게까지 있다) → 숙제가 많아서 집에 늦게까지 ____."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "걸어갈 수밖에 있어요.",
+        "right": "걸어갈 수밖에 없어요.",
+        "explanation": "밖에 ('other than / except') always pairs with a negative, so the ending is always 없다, never 있다. 'There's nothing other than walking' = 없다. Saying 있어요 here flips the meaning and just sounds broken to a Korean ear."
+      }
     },
     {
-      "id": "gn-pattern-046",
+      "title": "V-(으)ㄹ 리가 없다 — there's no way that's true",
+      "func": "Use this to say you really don't believe something: you're sure it can't be the case because it makes no sense. It's the Korean way of saying \"There's no way…\" or \"It can't possibly be that…\"",
+      "formTable": [
+        {
+          "when": "Verb/Adjective stem ends in a consonant (받침 O)",
+          "add": "-을 리가 없다",
+          "ex": "먹다 → 먹을 리가 없다 (there's no way he'd eat it)"
+        },
+        {
+          "when": "Verb/Adjective stem ends in a vowel (받침 X)",
+          "add": "-ㄹ 리가 없다",
+          "ex": "오다 → 올 리가 없다 (there's no way it'll come / he'll come)"
+        },
+        {
+          "when": "Past meaning (it already happened)",
+          "add": "-았/었을 리가 없다",
+          "ex": "가다 → 갔을 리가 없다 (there's no way he went)"
+        },
+        {
+          "when": "Noun + 이다",
+          "add": "일 리가 없다",
+          "ex": "학생 → 학생일 리가 없다 (there's no way he's a student)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "그 친구가 거짓말을 했을 리가 없어요.",
+          "romanization": "geu chinguga geojinmareul haesseul liga eopseoyo.",
+          "en": "There's no way that friend lied.",
+          "note": "Past form 했을 리가 없다 rejects that a past action happened. Very common with 거짓말."
+        },
+        {
+          "ko": "지금 밤 12시인데 학생들이 학교에 있을 리가 없어요.",
+          "romanization": "jigeum bam yeoldu-si-inde haksaengdeuri hakgyo-e isseul liga eopseoyo.",
+          "en": "It's midnight now, so there's no way the students are at school.",
+          "note": "A known fact (it's the middle of the night) makes the idea impossible. The typical 'fact + 리가 없다' shape."
+        },
+        {
+          "ko": "한국어를 배운 지 일주일밖에 안 됐는데 잘할 리가 없어요.",
+          "romanization": "hangugeo-reul baeun ji iljuilbakke an dwaenneunde jalhal liga eopseoyo.",
+          "en": "He's only been learning Korean for a week, so there's no way he's good at it.",
+          "note": "Often follows a reason clause with -는데. Uses 잘하다, an everyday verb."
+        },
+        {
+          "ko": "이 책이 만 원이라고요? 그렇게 쌀 리가 없어요.",
+          "romanization": "i chaegi man wonira-goyo? geureoke ssal liga eopseoyo.",
+          "en": "This book is 10,000 won? There's no way it's that cheap.",
+          "note": "Adjective 싸다 works too. The speaker rejects the claim as impossible, not just unlikely."
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)ㄹ 리가 없다 vs. -(으)ㄹ 수 없다",
+        "body": "-(으)ㄹ 수 없다 is about real ability: 'can't do it' (갈 수 없어요 = I'm not able to go). -(으)ㄹ 리가 없다 is about your certainty that a claim is false: 'there's no way that's true' (갔을 리가 없어요 = no way he went). The first is about being able; the second is about believing."
+      },
+      "pronunciation": "없어요 sounds like [업써요]: the ㅅ of the 없- cluster slides onto the next syllable and goes tense, while ㅂ stays as a stop. So 리가 없어요 comes out as [리가 업써요].",
+      "drill": {
+        "instruction": "You don't believe the statement. Reject it with V-(으)ㄹ 리가 없어요.",
+        "model": "민수가 시험에 떨어졌어요. → 민수가 시험에 떨어졌을 리가 없어요.",
+        "items": [
+          "저 사람이 한국 사람이에요. → 저 사람이 한국 사람일 리가 ____.",
+          "동생이 벌써 집에 갔어요. → 동생이 벌써 집에 ____ 리가 없어요.",
+          "이 영화가 재미없어요. → 이 영화가 재미____ 리가 없어요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 오늘 갈 리가 없어요. (meaning: I can't go today)",
+        "right": "저는 오늘 못 가요. / 갈 수 없어요.",
+        "explanation": "English 'there's no way' covers both 'I'm unable to' and 'I don't believe it.' But 리가 없다 only means disbelief about a fact, and it sounds odd about your own plans. For 'I can't go,' use 못 가요 or 갈 수 없어요. Save 갈 리가 없어요 for 'there's no way he'd go.'"
+      }
+    },
+    {
       "title": "V-(으)ㄹ 뿐이다 / N뿐이다 — only, nothing more",
-      "mentalModel": "뿐이다 closes the statement: this is all there is, and nothing else is being added.",
-      "formation": "Verbs take -(으)ㄹ 뿐이다: 기다릴 뿐이에요. Past uses -았/었을 뿐이다: 도와줬을 뿐이에요. Nouns attach directly: 방법뿐이에요, 친구일 뿐이에요.",
-      "examples": [
+      "func": "Use this to limit things to just one: 'that's all there is, nothing else.' With verbs/adjectives it means 'only does / is only'; attached straight to a noun, 뿐이다 means 'only that, and nothing else.'",
+      "formTable": [
         {
-          "ko": "결국 남은 건 이 방법뿐이에요.",
-          "romanization": "gyeolguk nameun geon i bangbeopppunieyo.",
-          "en": "In the end, this method is the only thing left.",
-          "note": "Only one option remains."
+          "when": "Verb/Adjective stem + 받침 O",
+          "add": "-을 뿐이다",
+          "ex": "믿다 → 믿을 뿐이다 (I just believe it, that's all)"
         },
         {
-          "ko": "저는 상황을 설명했을 뿐이에요.",
-          "romanization": "jeoneun sanghwangeul seolmyeonghaesseul ppunieyo.",
-          "en": "I only explained the situation.",
-          "note": "Limits the speaker's action."
+          "when": "Verb/Adjective stem + 받침 X",
+          "add": "-ㄹ 뿐이다",
+          "ex": "기다리다 → 기다릴 뿐이다 (I'm only waiting)"
         },
         {
-          "ko": "지금은 기다릴 뿐이에요.",
-          "romanization": "jigeumeun gidaril ppunieyo.",
-          "en": "For now, all we can do is wait.",
-          "note": "Only-action nuance."
+          "when": "Past meaning",
+          "add": "-았/었을 뿐이다",
+          "ex": "하다 → 했을 뿐이다 (I just did it, nothing more)"
+        },
+        {
+          "when": "Noun (no -(으)ㄹ; 뿐 attaches straight to the noun)",
+          "add": "N + 뿐이다",
+          "ex": "물 → 물뿐이다 (there's only water)"
         }
       ],
-      "exceptions": [
-        "뿐이다 means only. 뿐만 아니라 means not only but also, so it opens the sentence in the opposite direction.",
-        "만 narrows a noun or object; -(으)ㄹ 뿐이다 can narrow the whole action or situation."
-      ]
+      "examples": [
+        {
+          "ko": "저는 사실대로 말했을 뿐이에요.",
+          "romanization": "jeoneun sasildaero malhaesseul ppunieyo.",
+          "en": "I only told the truth, that's all.",
+          "note": "Past 말했을 뿐이다 is the classic 'I just did X, so don't blame me' use."
+        },
+        {
+          "ko": "그냥 농담했을 뿐이에요. 화내지 마세요.",
+          "romanization": "geunyang nongdamhaesseul ppunieyo. hwanaeji maseyo.",
+          "en": "I was just joking, nothing more. Don't be mad.",
+          "note": "그냥 ('just') goes naturally with 뿐이다 to play an action down."
+        },
+        {
+          "ko": "지금 냉장고에 물뿐이에요.",
+          "romanization": "jigeum naengjango-e mulppunieyo.",
+          "en": "Right now there's only water in the fridge.",
+          "note": "Noun case: 뿐 attaches straight to 물 (no -(으)ㄹ). Means 'water and nothing else.'"
+        },
+        {
+          "ko": "이 동네에서 제 친구는 민수뿐이에요.",
+          "romanization": "i dongne-eseo je chinguneun minsu-ppunieyo.",
+          "en": "In this neighborhood, Minsu is my only friend.",
+          "note": "N뿐이다 with a person noun (민수) = 'only him, no one else.' Very common in speech."
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)ㄹ 뿐이다 vs. N뿐이다 (and 만)",
+        "body": "After a verb or adjective, use the -(으)ㄹ form: 기다릴 뿐이에요. After a noun, drop -(으)ㄹ and stick 뿐 right on: 물뿐이에요. Compare 만 ('only'): 만 picks one out of several options (물만 마셔요 = I drink only water), while N뿐이다 says that noun is all there is (물뿐이에요 = water is all there is)."
+      },
+      "pronunciation": "뿐이에요 links smoothly as [뿌니에요]: the ㄴ of 뿐 slides onto 이. With a noun like 물, 물뿐이에요 sounds like [물뿌니에요].",
+      "drill": {
+        "instruction": "Say it's only this, nothing more. Answer with -(으)ㄹ 뿐이에요 for verbs/adjectives, or N뿐이에요 for nouns.",
+        "model": "(그냥 / 기다리다) → 그냥 기다릴 뿐이에요.",
+        "items": [
+          "(사실대로 / 말하다, 과거) → 저는 사실대로 ____ 뿐이에요.",
+          "(냉장고에 / 물) → 냉장고에 ____이에요.",
+          "(제 친구 / 민수) → 제 친구는 ____이에요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "물일 뿐이에요. (meaning: there's only water)",
+        "right": "물뿐이에요.",
+        "explanation": "After a noun, 뿐 attaches directly with no -(으)ㄹ: 물뿐이에요, 저뿐이에요. The -(으)ㄹ 뿐이다 form is only for verbs and adjectives (기다릴 뿐이에요). English speakers tend to glue an extra ending on before 뿐 with nouns, but the noun just takes 뿐 by itself."
+      }
     }
   ],
   "extendedVocabulary": [

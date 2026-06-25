@@ -11,182 +11,217 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-105",
-      "title": "-(으)시- - subject honorific suffix",
-      "mentalModel": "-(으)시- raises the person who does or experiences the action.",
-      "formation": "Insert -(으)시- between the verb stem and the ending. Use -시- after a vowel or ㄹ stem: 오다 becomes 오세요, 살다 becomes 사세요. Use -으시- after a consonant stem: 읽다 becomes 읽으세요. Some verbs use special honorific forms: 있다 becomes 계시다, 먹다/마시다 becomes 드시다, 자다 becomes 주무시다, 말하다 becomes 말씀하시다.",
+      "title": "-(으)시- — the subject honorific suffix",
+      "func": "You add -(으)시- to a verb or adjective stem to show respect toward the person doing the action or being described — usually someone older or higher than you. It raises the SUBJECT of the sentence, not the listener.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel",
+          "add": "+ -시-",
+          "ex": "가다 → 가시다 → 가세요"
+        },
+        {
+          "when": "Stem ends in a consonant",
+          "add": "+ -으시-",
+          "ex": "읽다 → 읽으시다 → 읽으세요"
+        },
+        {
+          "when": "Stem ends in ㄹ (ㄹ drops)",
+          "add": "ㄹ + -시-",
+          "ex": "살다 → 사시다 → 사세요"
+        },
+        {
+          "when": "Polite speech ending",
+          "add": "-(으)시- → -(으)세요",
+          "ex": "앉다 → 앉으세요 / 오다 → 오세요"
+        }
+      ],
       "examples": [
         {
-          "ko": "선생님이 오세요.",
-          "romanization": "seonsaengnimi oseyo.",
-          "en": "The teacher is coming.",
-          "note": "오다 becomes 오세요 because the teacher is the honored subject."
+          "ko": "선생님이 책을 읽으세요.",
+          "romanization": "seonsaengnim-i chaeg-eul ilgeuseyo.",
+          "en": "The teacher is reading a book.",
+          "note": "The subject 선생님 is honored, so 읽다 takes the -으시- form (consonant stem) → 읽으세요."
         },
         {
-          "ko": "부모님은 집에 계세요.",
-          "romanization": "bumonimeun jibe gyeseyo.",
-          "en": "My parents are at home.",
-          "note": "계시다 is the honorific form of 있다 for people."
+          "ko": "할머니가 지금 주무세요.",
+          "romanization": "halmeoni-ga jigeum jumuseyo.",
+          "en": "Grandmother is sleeping right now.",
+          "note": "주무세요 already has -시- inside it (from the special honorific 주무시다); the honored subject is 할머니."
         },
         {
-          "ko": "할머니께서 식사하세요.",
-          "romanization": "halmeonikkeseo siksahaseyo.",
-          "en": "Grandmother is eating.",
-          "note": "식사하시다 is a respectful meal verb."
+          "ko": "아버지는 매일 아침에 운동하세요.",
+          "romanization": "abeoji-neun maeil achim-e undonghaseyo.",
+          "en": "Dad exercises every morning.",
+          "note": "하다 ends in a vowel, so it just adds -시- → 하세요; the honored subject is 아버지."
         },
         {
-          "ko": "사장님은 지금 회의 중이세요.",
-          "romanization": "sajangnimeun jigeum hoeui jungiseyo.",
-          "en": "The boss is in a meeting now.",
-          "note": "이다 becomes 이세요 when honoring the subject."
+          "ko": "오늘 기분이 좋으세요?",
+          "romanization": "oneul gibun-i joeuseyo?",
+          "en": "Are you in a good mood today?",
+          "note": "Adjectives take -(으)시- too when they describe an honored person: 좋다 (consonant stem) → 좋으세요."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "선생님이 오세요.",
-            "en": "The teacher is coming."
-          },
-          "b": {
-            "ko": "제가 와요.",
-            "en": "I am coming."
-          },
-          "explanation": "Use -(으)시- for the respected subject, not for yourself."
-        },
-        {
-          "a": {
-            "ko": "가방이 있어요.",
-            "en": "There is a bag."
-          },
-          "b": {
-            "ko": "선생님이 계세요.",
-            "en": "The teacher is here."
-          },
-          "explanation": "계시다 is for respected people, not objects."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "제가 가세요.",
-        "right": "제가 가요. / 선생님이 가세요.",
-        "explanation": "-(으)시- honors the subject. Do not use it on your own action just to sound polite."
+      "keyPoint": {
+        "label": "-(으)시- vs. -아/어요",
+        "body": "-아/어요 is polite toward the LISTENER; -(으)시- raises the SUBJECT of the sentence. You can be polite to a friend (친구가 와요) without -시-, but to honor a teacher you add it (선생님이 오세요). Never use -시- about yourself: say 저는 가요, never 저는 가세요."
       },
-      "exceptions": [
-        "If the subject is a close friend or younger person, -(으)시- is usually unnecessary even in polite speech.",
-        "For some family members like 부모님, 할머니, 할아버지, honorific forms are normally expected."
-      ]
+      "pronunciation": "읽으세요 is pronounced [일그세요] (ilgeuseyo) — the ㄱ of 읽 moves over to fill the 으 syllable.",
+      "drill": {
+        "instruction": "Make each sentence honorific by adding -(으)시- (use the -(으)세요 form).",
+        "model": "선생님이 책을 읽어요. → 선생님이 책을 읽으세요.",
+        "items": [
+          "할아버지가 신문을 봐요. → 할아버지가 신문을 ____.",
+          "아버지가 회사에 가요. → 아버지가 회사에 ____.",
+          "어머니가 집에 있어요. → 어머니가 집에 ____."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 한국어를 공부하세요.",
+        "right": "저는 한국어를 공부해요.",
+        "explanation": "English has no grammar that raises the subject, so learners over-use -시- and end up honoring themselves. -(으)시- is only for someone you respect — never 저/나. For yourself, use the plain polite form."
+      }
     },
     {
-      "id": "gn-pattern-146",
-      "title": "N께서 V-(으)시다 - respected subject",
-      "mentalModel": "께서 marks who deserves respect as the subject of the sentence.",
-      "formation": "Use 께서 instead of 이/가 when the subject is someone you honor: 선생님께서, 어머니께서, 고객님께서. It often appears together with -(으)시- or a special honorific verb: 선생님께서 오셨어요, 어머니께서 말씀하셨어요.",
+      "title": "N께서 V-(으)시- — 께서 and the special honorific verbs",
+      "func": "When the subject deserves respect, the subject particle 이/가 changes to 께서, and the verb takes -(으)시-. A few very common verbs have their own honorific forms you just have to memorize, instead of adding -시-.",
+      "formTable": [
+        {
+          "when": "Subject particle 이/가 → 께서",
+          "add": "N + 께서",
+          "ex": "선생님이 → 선생님께서 / 할머니가 → 할머니께서"
+        },
+        {
+          "when": "있다 (to be / stay somewhere) → special form",
+          "add": "있다 → 계시다",
+          "ex": "할아버지께서 집에 계세요."
+        },
+        {
+          "when": "먹다 / 마시다 (eat / drink) → special form",
+          "add": "먹다 → 드시다 (잡수시다)",
+          "ex": "아버지께서 밥을 드세요."
+        },
+        {
+          "when": "자다 (to sleep) → special form",
+          "add": "자다 → 주무시다",
+          "ex": "어머니께서 주무세요."
+        }
+      ],
       "examples": [
         {
-          "ko": "선생님께서 곧 오세요.",
-          "romanization": "seonsaengnimkkeseo got oseyo.",
-          "en": "The teacher is coming soon.",
-          "note": "께서 marks the respected subject."
+          "ko": "할아버지께서 방에 계세요.",
+          "romanization": "harabeoji-kkeseo bang-e gyeseyo.",
+          "en": "Grandfather is in the room.",
+          "note": "있다 (existence) becomes the special honorific 계시다 → 계세요, and the subject takes 께서 instead of 가."
         },
         {
-          "ko": "어머니께서 먼저 말씀하셨어요.",
-          "romanization": "eomeonikkeseo meonjeo malsseumhasyeosseoyo.",
-          "en": "My mother spoke first.",
-          "note": "Respected subject plus honorific verb."
+          "ko": "선생님께서 점심을 드세요.",
+          "romanization": "seonsaengnim-kkeseo jeomsim-eul deuseyo.",
+          "en": "The teacher is eating lunch.",
+          "note": "먹다 → 드시다 (everyday honorific); 잡수시다 is the more formal version. The subject takes 께서."
         },
         {
-          "ko": "고객님께서 기다리고 계세요.",
-          "romanization": "gogaengnimkkeseo gidarigo gyeseyo.",
-          "en": "The customer is waiting.",
-          "note": "Service setting with respected subject."
+          "ko": "부모님께서 주말에 영화를 보세요.",
+          "romanization": "bumonim-kkeseo jumar-e yeonghwa-reul boseyo.",
+          "en": "My parents watch a movie on the weekend.",
+          "note": "보다 has no special form, so it just adds -시- → 보세요, but the honored subject 부모님 still takes 께서."
         },
         {
-          "ko": "부모님께서 일찍 주무세요.",
-          "romanization": "bumonimkkeseo iljjik jumuseyo.",
-          "en": "My parents sleep early.",
-          "note": "Special honorific verb 주무시다."
+          "ko": "할머니께서 일찍 주무세요.",
+          "romanization": "halmeoni-kkeseo iljjik jumuseyo.",
+          "en": "Grandmother goes to sleep early.",
+          "note": "자다 → 주무시다, which already has -시- built in; pair it with 께서 for the honored subject."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "선생님께서 오세요.",
-            "en": "The teacher is coming."
-          },
-          "b": {
-            "ko": "선생님께 질문해요.",
-            "en": "I ask the teacher a question."
-          },
-          "explanation": "께서 marks the respected subject. 께 marks the respected recipient."
-        },
-        {
-          "a": {
-            "ko": "선생님이 오세요.",
-            "en": "The teacher is coming."
-          },
-          "b": {
-            "ko": "선생님께서 오세요.",
-            "en": "The teacher is coming."
-          },
-          "explanation": "Both can be spoken Korean. 께서 is more explicitly respectful and formal."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "선생님께서 말씀드렸어요.",
-        "right": "선생님께서 말씀하셨어요. / 제가 선생님께 말씀드렸어요.",
-        "explanation": "말씀하시다 honors the respected speaker. 말씀드리다 humbly describes your telling a respected recipient."
+      "keyPoint": {
+        "label": "있다: 있으세요 vs. 계세요",
+        "body": "When 있다 means existence/being somewhere ('to be there'), the honorific is 계세요 (할아버지께서 집에 계세요). When 있다 means possession ('to have'), use 있으세요, NOT 계세요 (선생님께서 시간이 있으세요). 계세요 is only for a person being present, never for having things."
       },
-      "exceptions": [
-        "께서 can sound formal in casual speech. 이/가 with -(으)시- is often natural: 선생님이 오셨어요.",
-        "Do not use 께서 for non-human objects."
-      ]
+      "pronunciation": "계세요 is usually said [게세요] (geseyo) in everyday speech — the ㅖ softens to ㅔ after ㄱ.",
+      "drill": {
+        "instruction": "Rewrite each sentence with 께서 and the correct honorific verb (use the special form where one exists).",
+        "model": "할아버지가 집에 있어요. → 할아버지께서 집에 계세요.",
+        "items": [
+          "아버지가 밥을 먹어요. → 아버지____ 밥을 ____.",
+          "할머니가 자요. → 할머니____ ____.",
+          "선생님이 교실에 있어요. → 선생님____ 교실에 ____."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "할아버지께서 집에 있으세요.",
+        "right": "할아버지께서 집에 계세요.",
+        "explanation": "Learners add -으시- to 있다 and get 있으세요, but for a respected person who is present somewhere, Korean swaps in the special verb 계시다 → 계세요. 있으세요 is only for possession ('have')."
+      }
     },
     {
-      "id": "gn-humble-recipient",
-      "title": "N께 V-아/어 드리다 - respected recipient",
-      "mentalModel": "드리다 lowers your action to respect the person receiving it.",
-      "formation": "Use 께 for the respected recipient and 드리다 for your action toward them: 부모님께 연락드려요, 선생님께 말씀드렸어요, 고객님께 안내해 드리겠습니다. This is not subject honorific; it is recipient honorific or humble speech.",
+      "title": "N께 V-아/어 드리다 — honoring the person you do something for",
+      "func": "While -(으)시- honors the subject, 드리다 honors the RECIPIENT — the person you do something FOR. 주다 ('give / do for someone') becomes 드리다, and the recipient particle 에게/한테 becomes 께.",
+      "formTable": [
+        {
+          "when": "Recipient particle 에게/한테 → 께",
+          "add": "N + 께",
+          "ex": "동생한테 → 할머니께 / 친구에게 → 부모님께"
+        },
+        {
+          "when": "주다 (to give) → honorific",
+          "add": "주다 → 드리다",
+          "ex": "선물을 줘요 → 선물을 드려요"
+        },
+        {
+          "when": "V-아/어 주다 (do for someone) → -아/어 드리다",
+          "add": "V-아/어 + 드리다",
+          "ex": "도와주다 → 도와 드리다 / 읽어 주다 → 읽어 드리다"
+        },
+        {
+          "when": "ㅏ/ㅗ stem → -아 드리다; other vowels → -어 드리다",
+          "add": "V-아/어 + 드리다",
+          "ex": "사다 → 사 드려요 / 만들다 → 만들어 드려요"
+        }
+      ],
       "examples": [
         {
-          "ko": "부모님께 먼저 연락드릴게요.",
-          "romanization": "bumonimkke meonjeo yeollakdeurilgeyo.",
-          "en": "I will contact my parents first.",
-          "note": "Parents are the respected recipient."
+          "ko": "할머니께 선물을 드렸어요.",
+          "romanization": "halmeoni-kke seonmur-eul deuryeosseoyo.",
+          "en": "I gave Grandmother a present.",
+          "note": "The recipient 할머니 is honored, so 주다 → 드리다 and 에게/한테 → 께."
         },
         {
-          "ko": "선생님께 말씀드렸어요.",
-          "romanization": "seonsaengnimkke malsseumdeuryeosseoyo.",
-          "en": "I told the teacher.",
-          "note": "The speaker humbly reports their action."
+          "ko": "제가 부모님께 밥을 사 드렸어요.",
+          "romanization": "je-ga bumonim-kke bab-eul sa deuryeosseoyo.",
+          "en": "I bought my parents a meal.",
+          "note": "사 주다 ('buy for someone') → 사 드리다 because the recipient 부모님 deserves respect."
         },
         {
-          "ko": "고객님께 다시 안내해 드리겠습니다.",
-          "romanization": "gogaengnimkke dasi annaehae deurigetseumnida.",
-          "en": "I will guide the customer again.",
-          "note": "Formal service style."
-        }
-      ],
-      "contrastPairs": [
+          "ko": "선생님께 책을 읽어 드릴게요.",
+          "romanization": "seonsaengnim-kke chaeg-eul ilgeo deurilgeyo.",
+          "en": "I'll read the book for the teacher.",
+          "note": "읽어 주다 → 읽어 드리다; the action is done FOR the honored recipient 선생님."
+        },
         {
-          "a": {
-            "ko": "어머니께서 말씀하셨어요.",
-            "en": "My mother spoke."
-          },
-          "b": {
-            "ko": "제가 어머니께 말씀드렸어요.",
-            "en": "I told my mother."
-          },
-          "explanation": "말씀하시다 honors mother as speaker. 말씀드리다 humbly honors mother as recipient."
+          "ko": "할아버지께 길을 가르쳐 드렸어요.",
+          "romanization": "harabeoji-kke gir-eul gareuchyeo deuryeosseoyo.",
+          "en": "I showed Grandfather the way.",
+          "note": "가르쳐 주다 → 가르쳐 드리다, with 께 marking the honored recipient 할아버지."
         }
       ],
-      "englishSpeakerPitfall": {
-        "wrong": "부모님께서 연락드릴게요.",
-        "right": "부모님께 연락드릴게요.",
-        "explanation": "부모님 are the recipient here, not the subject. Use 께, not 께서."
+      "keyPoint": {
+        "label": "-(으)시- vs. -아/어 드리다",
+        "body": "-(으)시- raises the person DOING the action (subject); 드리다 raises the person RECEIVING it (recipient). 선생님께서 가르치세요 = the teacher (subject) teaches; 선생님께 가르쳐 드려요 = I teach FOR the teacher. The 드리다 sentence usually has 저/제가 as the (humble) subject."
       },
-      "exceptions": [
-        "드리다 is not for everything. Use it when your action is directed toward someone respected.",
-        "For close friends, plain 주다 or 하다 is usually enough."
-      ]
+      "pronunciation": "읽어 드려요 is pronounced [일거 드려요] (ilgeo deuryeoyo) — the ㄹㄱ of 읽 links into the next syllable.",
+      "drill": {
+        "instruction": "Rewrite with 께 and 드리다 (or -아/어 드리다) to honor the recipient.",
+        "model": "친구에게 선물을 줬어요. → 부모님께 선물을 드렸어요.",
+        "items": [
+          "동생한테 책을 사 줬어요. → 할머니____ 책을 사 ____.",
+          "친구에게 밥을 만들어 줬어요. → 부모님____ 밥을 만들어 ____.",
+          "동생한테 길을 가르쳐 줬어요. → 선생님____ 길을 가르쳐 ____."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "할머니께 선물을 주세요. (meaning 'I gave Grandmother a gift')",
+        "right": "할머니께 선물을 드렸어요.",
+        "explanation": "Learners reach for 주다 with -시- (주세요) to sound polite, but -(으)시- honors the subject (the giver), not the recipient. To honor the person RECEIVING, you change the verb itself to 드리다. (주세요 only works as a request: 'please give.')"
+      }
     }
   ],
   "extendedVocabulary": [

@@ -11,177 +11,217 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-018",
-      "title": "V/A-아서/어서 - because, so",
-      "mentalModel": "-아서/어서 simply links a reason to its result.",
-      "formation": "Attach -아서 or -어서 to a verb or adjective stem. 하다 becomes 해서. Use it when the result naturally follows from the reason: 비가 와서 우산을 샀어요, 길이 막혀서 늦었어요. In standard beginner grammar, do not use it before commands or suggestions; use -(으)니까 for those.",
+      "title": "V/A-아서/어서 — because, so",
+      "func": "Use -아서/어서 to link a reason to its result: the first part is the cause, the second is what comes from it. It's the everyday, neutral way to say \"because\" or \"so.\"",
+      "formTable": [
+        {
+          "when": "Stem vowel is ㅏ or ㅗ",
+          "add": "-아서",
+          "ex": "가다 → 가서, 좋다 → 좋아서"
+        },
+        {
+          "when": "Any other stem vowel",
+          "add": "-어서",
+          "ex": "먹다 → 먹어서, 없다 → 없어서"
+        },
+        {
+          "when": "하다 verbs/adjectives",
+          "add": "→ 해서",
+          "ex": "공부하다 → 공부해서, 피곤하다 → 피곤해서"
+        },
+        {
+          "when": "Noun + 이다",
+          "add": "-라서/이라서",
+          "ex": "학생이다 → 학생이라서, 친구다 → 친구라서"
+        }
+      ],
       "examples": [
         {
-          "ko": "길이 막혀서 조금 늦었어요.",
-          "romanization": "giri makhyeoseo jogeum neujeosseoyo.",
-          "en": "The road was jammed, so I was a little late.",
-          "note": "Neutral cause and result. It does not automatically blame anyone."
+          "ko": "배가 고파서 밥을 먹었어요.",
+          "romanization": "bae-ga go-pa-seo bap-eul meo-geo-sseo-yo.",
+          "en": "I was hungry, so I ate.",
+          "note": "고프다 (hungry) is the cause; eating is the result."
         },
         {
-          "ko": "비가 와서 우산을 가져왔어요.",
-          "romanization": "biga waseo usaneul gajyeowasseoyo.",
-          "en": "It rained, so I brought an umbrella.",
-          "note": "A practical result follows from the weather."
+          "ko": "시간이 없어서 못 갔어요.",
+          "romanization": "si-gan-i eop-seo-seo mot ga-sseo-yo.",
+          "en": "I had no time, so I couldn't go.",
+          "note": "A reason for not doing something — a very common pattern."
         },
         {
-          "ko": "아파서 오늘 모임에 못 가요.",
-          "romanization": "apaseo oneul moime mot gayo.",
-          "en": "I am sick, so I cannot go to the gathering today.",
-          "note": "아프다 is an adjective, so -아서/어서 is the natural beginner connector."
+          "ko": "친구를 만나서 영화를 봤어요.",
+          "romanization": "chin-gu-reul man-na-seo yeong-hwa-reul bwa-sseo-yo.",
+          "en": "I met my friend and (we) watched a movie.",
+          "note": "Here -아서 instead links two connected actions in order, not cause and result. Same form, different job."
         },
         {
-          "ko": "택시가 안 와서 버스를 탔어요.",
-          "romanization": "taeksiga an waseo beoseureul tasseoyo.",
-          "en": "The taxi did not come, so I took the bus.",
-          "note": "The sentence reports a practical switch, not a dramatic disruption."
+          "ko": "한국어가 재미있어서 매일 공부해요.",
+          "romanization": "han-gu-geo-ga jae-mi-i-sseo-seo mae-il gong-bu-hae-yo.",
+          "en": "Korean is fun, so I study it every day.",
+          "note": "An adjective as the reason; the result is a habit."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "길이 막혀서 늦었어요.",
-            "en": "I was late because the road was jammed."
-          },
-          "b": {
-            "ko": "길이 막히는 바람에 늦었어요.",
-            "en": "The road ended up getting jammed, so I was late."
-          },
-          "explanation": "-아서/어서 is neutral. -는 바람에 adds an unexpected, unwanted disruption."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "비가 와서 우산을 가져오세요.",
-        "right": "비가 오니까 우산을 가져오세요.",
-        "explanation": "For a command or suggestion, use -(으)니까. Save -아서/어서 for reason-result statements."
+      "keyPoint": {
+        "label": "Tense goes on the last verb only",
+        "body": "Don't put past tense before -아서/어서. Say 고파서 먹었어요 (not 고팠어서). The part before -아서/어서 stays plain, and when something happened is shown only on the final verb."
       },
-      "exceptions": [
-        "In casual speech, people may bend this rule, but learners should keep the clean distinction first.",
-        "-아서/어서 can explain good or bad results; the grammar itself is neutral."
-      ]
+      "pronunciation": "없어서 is read [업써서]: the ㅄ batchim links over, so ㅅ moves to the next syllable and tenses to [써].",
+      "drill": {
+        "instruction": "Join the two ideas with -아서/어서 to show reason → result.",
+        "model": "비가 오다 / 집에 있었어요 → 비가 와서 집에 있었어요.",
+        "items": [
+          "배가 아프다 / 병원에 갔어요 → ____",
+          "날씨가 좋다 / 산책했어요 → ____",
+          "돈이 없다 / 못 샀어요 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "어제 바빴어서 못 왔어요.",
+        "right": "어제 바빠서 못 왔어요.",
+        "explanation": "English puts past tense on the \"because\" part (\"because I was busy\"), but Korean doesn't add past tense before -아서/어서. The tense shows up once, on the final verb."
+      }
     },
     {
-      "id": "gn-pattern-054",
-      "title": "V-는 바람에 - because an unwanted event disrupted things",
-      "mentalModel": "-는 바람에 points to the event that knocked the plan off course.",
-      "formation": "Attach -는 바람에 to a verb stem: 고장나다 becomes 고장 나는 바람에, 놓치다 becomes 놓치는 바람에, 막히다 becomes 막히는 바람에. Even when the cause happened in the past, the attached verb usually stays in the -는 shape and the result clause carries the past tense.",
+      "title": "V-는 바람에 — because of (something unexpected)",
+      "func": "Use -는 바람에 when an unplanned or unwanted event causes a result — usually a bad one. It carries the feeling of \"and because of that, things went wrong.\"",
+      "formTable": [
+        {
+          "when": "Verb stem (any)",
+          "add": "-는 바람에",
+          "ex": "늦다 → 늦는 바람에, 오다 → 오는 바람에"
+        },
+        {
+          "when": "Stem ending in ㄹ (drop the ㄹ)",
+          "add": "-는 바람에",
+          "ex": "울다 → 우는 바람에, 놀다 → 노는 바람에"
+        },
+        {
+          "when": "Result part",
+          "add": "usually past tense",
+          "ex": "늦잠을 자는 바람에 학교에 늦었어요."
+        },
+        {
+          "when": "Adjectives / nouns",
+          "add": "not used",
+          "ex": "(use 때문에 instead)"
+        }
+      ],
       "examples": [
         {
-          "ko": "버스가 고장 나는 바람에 약속에 늦었어요.",
-          "romanization": "beoseuga gojang naneun barame yaksoge neujeosseoyo.",
-          "en": "The bus broke down, so I ended up late to the appointment.",
-          "note": "A sudden transport problem disrupted the plan."
+          "ko": "늦잠을 자는 바람에 학교에 늦었어요.",
+          "romanization": "neut-jam-eul ja-neun ba-ram-e hak-gyo-e neu-jeo-sseo-yo.",
+          "en": "I overslept, so I was late for school.",
+          "note": "Oversleeping is an unintended event with a bad result."
         },
         {
-          "ko": "버스를 놓치는 바람에 수업에 늦었어요.",
-          "romanization": "beoseureul notchineun barame sueobe neujeosseoyo.",
-          "en": "I missed the bus, so I was late to class.",
-          "note": "The missed bus caused an unwanted result."
+          "ko": "비가 오는 바람에 옷이 다 젖었어요.",
+          "romanization": "bi-ga o-neun ba-ram-e o-si da jeo-jeo-sseo-yo.",
+          "en": "It started raining, so my clothes got all wet.",
+          "note": "Sudden rain disrupts things — a classic 바람에 use."
         },
         {
-          "ko": "갑자기 비가 오는 바람에 모임을 취소했어요.",
-          "romanization": "gapjagi biga oneun barame moimeul chwisohasseoyo.",
-          "en": "It suddenly rained, so we canceled the gathering.",
-          "note": "갑자기 fits well because 바람에 often frames an unexpected event."
+          "ko": "친구가 전화하는 바람에 잠을 못 잤어요.",
+          "romanization": "chin-gu-ga jeon-hwa-ha-neun ba-ram-e ja-meul mot ja-sseo-yo.",
+          "en": "My friend called, so I couldn't sleep.",
+          "note": "Someone else's action disrupts the speaker; the result is negative."
         },
         {
-          "ko": "앞에서 사고가 나는 바람에 길이 많이 막혔어요.",
-          "romanization": "apeseo sagoga naneun barame giri mani makhyeosseoyo.",
-          "en": "There was an accident ahead, so the road got very jammed.",
-          "note": "사고가 나다 is a common cause for traffic delays."
+          "ko": "버스를 놓치는 바람에 약속에 늦었어요.",
+          "romanization": "beo-seu-reul no-chi-neun ba-ram-e yak-sok-e neu-jeo-sseo-yo.",
+          "en": "I missed the bus, so I was late for the meet-up.",
+          "note": "Unexpected cause + unwanted result, both verbs."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "비가 와서 약속을 취소했어요.",
-            "en": "It rained, so we canceled the appointment."
-          },
-          "b": {
-            "ko": "갑자기 비가 오는 바람에 약속을 취소했어요.",
-            "en": "It suddenly rained, so the appointment got ruined and we canceled."
-          },
-          "explanation": "The second sentence has a stronger 'this caused trouble' feeling."
-        },
-        {
-          "a": {
-            "ko": "친구 덕분에 문제를 해결했어요.",
-            "en": "Thanks to my friend, I solved the problem."
-          },
-          "b": {
-            "ko": "실수하는 바람에 문제가 생겼어요.",
-            "en": "Because of a mistake, a problem came up."
-          },
-          "explanation": "덕분에 is positive cause. 바람에 is usually negative or inconvenient."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "아픈 바람에 못 갔어요.",
-        "right": "아파서 못 갔어요. / 갑자기 몸이 아파지는 바람에 못 갔어요.",
-        "explanation": "Plain adjectives normally use -아서/어서. If you use 바람에, make the cause an event or change."
+      "keyPoint": {
+        "label": "-는 바람에 vs -아서/어서",
+        "body": "-아서/어서 is neutral and works for any reason. -는 바람에 adds the feeling \"and this unexpected thing messed things up,\" so the result is almost always bad and in the past. Don't use 바람에 for a planned action or a good outcome: say 열심히 공부해서 합격했어요 (not 공부하는 바람에)."
       },
-      "exceptions": [
-        "바람에 can sound like an excuse, so add responsibility when needed: 늦어서 죄송해요. 제가 더 일찍 나왔어야 했어요.",
-        "Do not use 바람에 for happy planned reasons. Use 덕분에 for a helpful cause and -기 위해서 for purpose."
-      ]
+      "pronunciation": "늦는 is read [난는]: the ㅈ batchim sounds like [ㄷ], then turns into [ㄴ] before the ㄴ of 는. So read 늦는 바람에 as [난는 바라메].",
+      "drill": {
+        "instruction": "Connect the unexpected cause to its bad result with -는 바람에.",
+        "model": "길이 막히다 / 약속에 늦었어요 → 길이 막히는 바람에 약속에 늦었어요.",
+        "items": [
+          "갑자기 비가 오다 / 우산을 샀어요 → ____",
+          "동생이 울다 / 공부를 못 했어요 → ____",
+          "지하철이 고장 나다 / 학교에 늦었어요 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "열심히 공부하는 바람에 시험을 잘 봤어요.",
+        "right": "열심히 공부해서 시험을 잘 봤어요.",
+        "explanation": "-는 바람에 is only for unwanted disruptions, so it clashes with a good result like doing well on a test. For an intended cause and a good outcome, use -아서/어서."
+      }
     },
     {
-      "id": "gn-pattern-086",
-      "title": "N 때문에 - because of a noun",
-      "mentalModel": "때문에 points at a noun cause: rain, work, a mistake, traffic, or a problem.",
-      "formation": "Put the noun directly before 때문에: 비 때문에, 일 때문에, 실수 때문에, 교통사고 때문에. Do not add 이/가 or 을/를 before 때문에. If the cause is a whole verb or adjective clause, use -기 때문에 or a simpler connector like -아서/어서.",
+      "title": "N 때문에 — because of (a noun)",
+      "func": "Use a noun + 때문에 to point to a person, thing, or situation as the cause. It means \"because of ~\" and is followed by a result.",
+      "formTable": [
+        {
+          "when": "Noun + 때문에",
+          "add": "때문에",
+          "ex": "비 → 비 때문에, 일 → 일 때문에"
+        },
+        {
+          "when": "Noun ends in any sound",
+          "add": "no 이/가 added",
+          "ex": "친구 → 친구 때문에, 돈 → 돈 때문에"
+        },
+        {
+          "when": "Person as the cause",
+          "add": "때문에",
+          "ex": "동생 → 동생 때문에"
+        },
+        {
+          "when": "\"because it is / I am ~\"",
+          "add": "(이)라서 or (이)기 때문에",
+          "ex": "주말이라서, 학생이기 때문에"
+        }
+      ],
       "examples": [
         {
-          "ko": "비 때문에 택시를 못 탔어요.",
-          "romanization": "bi ttaemune taeksireul mot tasseoyo.",
-          "en": "Because of the rain, I could not take a taxi.",
-          "note": "비 is a noun, so it attaches directly to 때문에."
+          "ko": "비 때문에 학교에 못 갔어요.",
+          "romanization": "bi ttae-mu-ne hak-gyo-e mot ga-sseo-yo.",
+          "en": "Because of the rain, I couldn't go to school.",
+          "note": "비 (a noun) is the cause; 때문에 attaches straight to it."
         },
         {
-          "ko": "실수 때문에 문제가 생겼어요.",
-          "romanization": "silsu ttaemune munjega saenggyeosseoyo.",
-          "en": "A problem came up because of a mistake.",
-          "note": "N 때문에 can sound like blame, so use it carefully with people."
+          "ko": "일 때문에 친구를 못 만났어요.",
+          "romanization": "il ttae-mu-ne chin-gu-reul mot man-na-sseo-yo.",
+          "en": "Because of work, I couldn't meet my friend.",
+          "note": "An everyday noun cause with a negative result."
         },
         {
-          "ko": "교통사고 때문에 길이 막혔어요.",
-          "romanization": "gyotongsago ttaemune giri makhyeosseoyo.",
-          "en": "The road was jammed because of a traffic accident.",
-          "note": "A noun cause plus a concrete result."
+          "ko": "동생 때문에 화가 났어요.",
+          "romanization": "dong-saeng ttae-mu-ne hwa-ga na-sseo-yo.",
+          "en": "I got mad because of my little brother.",
+          "note": "A person as the cause — often blame or trouble."
         },
         {
-          "ko": "일 때문에 약속을 바꿨어요.",
-          "romanization": "il ttaemune yaksogeul bakkwosseoyo.",
-          "en": "I changed the appointment because of work.",
-          "note": "Work is named as the cause."
+          "ko": "돈 때문에 여행을 못 가요.",
+          "romanization": "don ttae-mu-ne yeo-haeng-eul mot ga-yo.",
+          "en": "Because of money, I can't go on a trip.",
+          "note": "때문에 takes a bare noun, with no verb on the cause."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "비 때문에 늦었어요.",
-            "en": "I was late because of the rain."
-          },
-          "b": {
-            "ko": "비가 와서 늦었어요.",
-            "en": "I was late because it rained."
-          },
-          "explanation": "N 때문에 uses the noun 비. -아서/어서 uses the clause 비가 오다."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "비가 때문에 늦었어요.",
-        "right": "비 때문에 늦었어요. / 비가 와서 늦었어요.",
-        "explanation": "때문에 does not take 가 before it. Either use the noun directly or make a full clause with -아서/어서."
+      "keyPoint": {
+        "label": "때문에 vs 아서/어서",
+        "body": "때문에 follows a NOUN (비 때문에), while -아서/어서 follows a VERB or ADJECTIVE (비가 와서). Same meaning, just attached to a different kind of word. So if you have a noun, reach for 때문에; if you have a verb or adjective, use -아서/어서."
       },
-      "exceptions": [
-        "너 때문에 is grammatically correct but can sound accusatory. Use it only when the blame tone is intended.",
-        "For a positive cause, use 덕분에: 친구 덕분에 해결했어요."
-      ]
+      "pronunciation": "때 starts with the tense consonant ㄸ — say it hard and tight, not as a soft [대].",
+      "drill": {
+        "instruction": "Use N + 때문에 to give the reason for each result.",
+        "model": "(눈) 길이 미끄러웠어요 → 눈 때문에 길이 미끄러웠어요.",
+        "items": [
+          "(시험) 어제 잠을 못 잤어요 → ____",
+          "(돈) 여행을 못 가요 → ____",
+          "(친구) 영화를 늦게 봤어요 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 오다 때문에 못 갔어요.",
+        "right": "비 때문에 못 갔어요. / 비가 와서 못 갔어요.",
+        "explanation": "때문에 attaches to a noun, not a verb. Use the bare noun (비 때문에), or switch to the verb form with -아서/어서 (비가 와서). Don't stick a verb directly in front of 때문에."
+      }
     }
   ],
   "extendedVocabulary": [

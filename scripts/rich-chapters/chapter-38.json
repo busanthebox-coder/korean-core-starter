@@ -11,163 +11,217 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-38-compressed-noun-phrases",
-      "title": "Compressed noun phrases — actions packed before a noun",
-      "mentalModel": "Think of the phrase before the noun as a label sticker. Korean puts the action or description directly before the noun so the reader can identify exactly which notice, schedule, item, or person is meant.",
-      "formation": "A-ㄴ/은 N, V-는 N, V-(으)ㄴ N, and V-(으)ㄹ N all describe the noun that follows. First find the final noun, then read backward to see what kind of noun it is.",
+      "title": "Stacked Noun Modifiers: Packing a Clause Before a Noun",
+      "func": "In Korean a whole clause can describe a noun, but it always comes BEFORE the noun, and the verb changes into a modifier form ending in -ㄴ/-은/-는/-(으)ㄹ. So \"the book my friend gave me yesterday\" becomes 어제 친구가 준 책 — everything piles up in front of 책.",
+      "formTable": [
+        {
+          "when": "Past action (verb)",
+          "add": "-(으)ㄴ",
+          "ex": "읽다 → 읽은 (책) / 주다 → 친구가 준 (선물)"
+        },
+        {
+          "when": "Present / ongoing (verb)",
+          "add": "-는",
+          "ex": "먹다 → 먹는 (사람) / 보다 → 내가 보는 (영화)"
+        },
+        {
+          "when": "Future / not-yet (verb)",
+          "add": "-(으)ㄹ",
+          "ex": "가다 → 갈 (곳) / 만나다 → 내일 만날 (친구)"
+        },
+        {
+          "when": "Adjective describing a noun",
+          "add": "-(으)ㄴ",
+          "ex": "예쁘다 → 예쁜 (꽃) / 비싸다 → 비싼 (가방)"
+        }
+      ],
       "examples": [
         {
-          "ko": "어제 올라온 공지를 확인했어요.",
-          "romanization": "eoje ollaon gongjireul hwaginhaesseoyo.",
-          "en": "I checked the notice that was posted yesterday.",
-          "note": "올라온 describes which 공지; the notice already went up."
+          "ko": "어제 친구가 준 책을 다 읽었어요.",
+          "romanization": "eoje chinguga jun chaegeul da ilgeosseoyo.",
+          "en": "I finished reading the book my friend gave me yesterday.",
+          "note": "준 (past modifier of 주다) packs \"my friend gave\" in front of 책."
         },
         {
-          "ko": "회의에 참석하는 학생은 이름을 적어 주세요.",
-          "romanization": "hoeuie chamseokaneun haksaengeun ireumeul jeogeo juseyo.",
-          "en": "Students who attend the meeting should write their names.",
-          "note": "참석하는 describes the students who do the action."
+          "ko": "제가 자주 가는 카페가 문을 닫았어요.",
+          "romanization": "jega jaju ganeun kapega muneul dadasseoyo.",
+          "en": "The cafe I often go to closed down.",
+          "note": "가는 (present modifier of 가다) shows an ongoing, habitual action before 카페. 문을 닫다 = to close down."
         },
         {
-          "ko": "내일 제출할 보고서를 다시 검토했어요.",
-          "romanization": "naeil jechulhal bogoseoreul dasi geomtohaesseoyo.",
-          "en": "I reviewed the report that I will submit tomorrow.",
-          "note": "제출할 points to a future action connected to 보고서."
+          "ko": "내일 만날 사람한테 전화했어요.",
+          "romanization": "naeil mannal saramhante jeonhwahaesseoyo.",
+          "en": "I called the person I'm going to meet tomorrow.",
+          "note": "만날 (future modifier of 만나다) marks an action that hasn't happened yet."
         },
         {
-          "ko": "변경된 일정이 공지에 나왔어요.",
-          "romanization": "byeongyeongdoen iljeongi gongjie nawasseoyo.",
-          "en": "The changed schedule appeared in the notice.",
-          "note": "변경된 focuses on the resulting state: the schedule has been changed."
+          "ko": "한국어를 배우는 학생이 많아요.",
+          "romanization": "hangugeoreul baeuneun haksaengi manayo.",
+          "en": "There are a lot of students who study Korean.",
+          "note": "배우는 (present modifier of 배우다) turns a whole clause into one big descriptor for 학생."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "어제 공지가 올라왔어요.",
-            "en": "A notice was posted yesterday."
-          },
-          "b": {
-            "ko": "어제 올라온 공지",
-            "en": "the notice posted yesterday"
-          },
-          "explanation": "The first is a full sentence. The second compresses that sentence into a noun phrase that can fit inside a longer sentence."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "Reading every modifier as a separate sentence and losing the final noun.",
-        "right": "어제 올라온 공지를 확인했어요.",
-        "explanation": "Find the final noun first: 공지. Then attach 어제 올라온 as the information that identifies which notice."
+      "keyPoint": {
+        "label": "Past vs. present vs. future modifier",
+        "body": "The modifier ending carries the TIME, so the final verb of the sentence can stay simple: 친구가 준 책 (already gave), 친구가 주는 책 (is giving), 친구가 줄 책 (will give). Pick the wrong one and the meaning of the whole noun phrase changes."
       },
-      "exceptions": [
-        "Some short modifiers become fixed phrases, but the same reading habit still works: find the noun, then unpack the phrase before it."
-      ]
+      "pronunciation": "읽은 sounds like [일근] — the ㄺ cluster splits and ㄱ links to 은. 많아요 sounds like [마나요], with the ㅎ in ㄶ dropping out.",
+      "drill": {
+        "instruction": "Combine the two ideas into one noun phrase using the correct past/present/future modifier, then finish the sentence.",
+        "model": "친구가 책을 줬어요 + 그 책 → 친구가 준 책을 읽었어요.",
+        "items": [
+          "제가 영화를 봐요 + 그 영화 → 제가 ___ 영화가 재미있어요.",
+          "어제 밥을 먹었어요 + 그 식당 → 어제 ___ 식당이 좋았어요.",
+          "내일 학교에 가요 + 그 친구 → 내일 학교에서 ___ 친구를 만나요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "책 친구가 어제 준",
+        "right": "어제 친구가 준 책",
+        "explanation": "English puts the describing clause AFTER the noun (\"the book that my friend gave\"), so learners often leave 책 first. In Korean the whole clause comes before the noun, and the verb must take a modifier ending — never a sentence-ending form like 줬어요 right in front of the noun."
+      }
     },
     {
-      "id": "gn-38-passive-result-focus",
-      "title": "Passive verbs — focus on the result, not the actor",
-      "mentalModel": "Passive verbs are like camera focus. Korean points the camera at the door, schedule, item, or sound, instead of at the person who caused it.",
-      "formation": "Many common passive verbs are lexical pairs: 닫다 → 닫히다, 팔다 → 팔리다, 잡다 → 잡히다, 보다 → 보이다. Learn them as vocabulary pairs, not as one universal formula.",
+      "title": "Passive Verbs (이/히/리/기): Focusing on What Happens, Not the Doer",
+      "func": "Passive verbs describe what HAPPENS to something without saying who did it — the focus moves to the result or the affected thing. You build them by adding -이-, -히-, -리-, or -기- inside certain action verbs: 열다 (to open) → 열리다 (to be opened / to open on its own).",
+      "formTable": [
+        {
+          "when": "add -이-",
+          "add": "보다→보이다, 놓다→놓이다, 쌓다→쌓이다",
+          "ex": "산이 보여요. (You can see the mountain.)"
+        },
+        {
+          "when": "add -히-",
+          "add": "닫다→닫히다, 막다→막히다, 잡다→잡히다",
+          "ex": "문이 닫혔어요. (The door got closed.)"
+        },
+        {
+          "when": "add -리-",
+          "add": "열다→열리다, 듣다→들리다, 팔다→팔리다",
+          "ex": "음악이 들려요. (You can hear music.)"
+        },
+        {
+          "when": "add -기-",
+          "add": "끊다→끊기다, 쫓다→쫓기다, 안다→안기다",
+          "ex": "전화가 끊겼어요. (The call got cut off.)"
+        }
+      ],
       "examples": [
         {
-          "ko": "문이 자동으로 닫혔어요.",
-          "romanization": "muni jadongeuro datyeosseoyo.",
-          "en": "The door closed automatically.",
-          "note": "닫히다 focuses on the door ending up closed."
+          "ko": "문이 갑자기 닫혔어요.",
+          "romanization": "muni gapjagi dachyeosseoyo.",
+          "en": "The door suddenly closed.",
+          "note": "닫히다 (passive of 닫다) — nobody is named as the one closing it; we just see the result."
         },
         {
-          "ko": "인기 상품이 하루 만에 다 팔렸어요.",
-          "romanization": "ingi sangpumi haru mane da pallyeosseoyo.",
-          "en": "The popular item sold out in one day.",
-          "note": "팔리다 focuses on the product being sold, not on who sold it."
+          "ko": "여기에서 바다가 잘 보여요.",
+          "romanization": "yeogieseo badaga jal boyeoyo.",
+          "en": "You can see the sea well from here.",
+          "note": "보이다 (passive of 보다) means \"is visible,\" focusing on what shows up, not who looks."
         },
         {
-          "ko": "회의 일정이 다음 주로 잡혔어요.",
-          "romanization": "hoeui iljeongi daeum juro japyeosseoyo.",
-          "en": "The meeting schedule was set for next week.",
-          "note": "잡히다 means the schedule got fixed/set."
+          "ko": "옆방에서 음악이 들려요.",
+          "romanization": "yeopbangeseo eumagi deullyeoyo.",
+          "en": "I can hear music from the next room.",
+          "note": "들리다 (passive of 듣다) = \"is heard\"; the sound reaches you on its own."
         },
         {
-          "ko": "멀리서 바다가 보여요.",
-          "romanization": "meolliseo badaga boyeoyo.",
-          "en": "The sea is visible from far away.",
-          "note": "보이다 describes what is seen/visible."
+          "ko": "이 책이 요즘 많이 팔려요.",
+          "romanization": "i chaegi yojeum mani pallyeoyo.",
+          "en": "This book is selling a lot these days.",
+          "note": "팔리다 (passive of 팔다) puts the book, not the seller, in the subject spot."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "직원이 문을 닫았어요.",
-            "en": "The employee closed the door."
-          },
-          "b": {
-            "ko": "문이 닫혔어요.",
-            "en": "The door closed / was closed."
-          },
-          "explanation": "닫다 names the actor and object. 닫히다 makes the door the subject and highlights the result."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "문이 닫았어요.",
-        "right": "문이 닫혔어요.",
-        "explanation": "문 is not doing the transitive action 닫다. If the door is the subject, use the passive/intransitive-style form 닫히다."
+      "keyPoint": {
+        "label": "Active vs. passive subject marking",
+        "body": "In an active sentence the doer takes 이/가 and the thing takes 을/를: 제가 문을 열었어요. In the passive, the affected thing becomes the 이/가 subject and the doer usually drops out: 문이 열렸어요. If you do keep the doer, it takes 에 or 한테/에게: 문이 바람에 열렸어요 (The door opened from the wind)."
       },
-      "exceptions": [
-        "Not every English passive maps neatly to Korean passive. Prefer the common Korean verb pair used in real collocations."
-      ]
+      "pronunciation": "닫히다 sounds like [다치다] — ㄷ and ㅎ blend into ㅊ. 막히다 sounds like [마키다], where ㄱ and ㅎ blend into ㅋ.",
+      "drill": {
+        "instruction": "Rewrite each active sentence as a passive one: drop the doer and move the thing into subject position.",
+        "model": "제가 문을 열었어요. → 문이 열렸어요.",
+        "items": [
+          "제가 창문을 닫았어요. → 창문이 ___.",
+          "사람들이 그 책을 많이 사요. → 그 책이 많이 ___.",
+          "제가 산을 봐요. → 여기에서 산이 ___."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "문이 닫아졌어요 (over-using -아/어지다 for everything)",
+        "right": "문이 닫혔어요",
+        "explanation": "English has one passive (\"be + past participle\"), so learners reach for -아/어지다 every time. But verbs in the 이/히/리/기 group already have their own passive form, and that is the natural choice. Save -아/어지다 mainly for verbs that don't have such a form."
+      }
     },
     {
-      "id": "gn-38-causative-control",
-      "title": "Causative verbs — make or let someone do something",
-      "mentalModel": "Causative verbs add a controller. Someone causes a child, student, customer, or system to do an action or enter a state.",
-      "formation": "Common causatives include 먹다 → 먹이다, 앉다 → 앉히다, 자다 → 재우다, 입다 → 입히다, 알다 → 알리다. The person affected often takes 에게/한테.",
+      "title": "Causative Verbs (이/히/리/기/우): Making or Helping Someone Do Something",
+      "func": "Causative verbs say that the subject CAUSES another person or thing to do or undergo the action. You build them by adding -이-, -히-, -리-, -기-, or -우- inside the verb: 먹다 (to eat) → 먹이다 (to feed = make someone eat).",
+      "formTable": [
+        {
+          "when": "add -이-",
+          "add": "먹다→먹이다, 보다→보이다, 죽다→죽이다",
+          "ex": "아기에게 밥을 먹여요. (I feed the baby rice.)"
+        },
+        {
+          "when": "add -히-",
+          "add": "입다→입히다, 앉다→앉히다, 읽다→읽히다",
+          "ex": "아이에게 옷을 입혀요. (I dress the child.)"
+        },
+        {
+          "when": "add -리-",
+          "add": "울다→울리다, 살다→살리다, 알다→알리다",
+          "ex": "동생을 울렸어요. (I made my sibling cry.)"
+        },
+        {
+          "when": "add -기-/-우-",
+          "add": "웃다→웃기다, 자다→재우다, 타다→태우다",
+          "ex": "아기를 재웠어요. (I put the baby to sleep.)"
+        }
+      ],
       "examples": [
         {
-          "ko": "엄마가 아이에게 약을 먹였어요.",
-          "romanization": "eommaga aiege yageul meogyeosseoyo.",
-          "en": "The mother gave the child medicine / made the child take medicine.",
-          "note": "먹이다 means cause someone to eat/take something."
+          "ko": "엄마가 아기에게 밥을 먹여요.",
+          "romanization": "eommaga agiege babeul meogyeoyo.",
+          "en": "The mom feeds the baby rice.",
+          "note": "먹이다 (causative of 먹다) = make the baby eat; the eater takes 에게/한테."
         },
         {
-          "ko": "직원이 손님을 창가 자리에 앉혔어요.",
-          "romanization": "jigwoni sonnimeul changga jarie anjhyeosseoyo.",
-          "en": "The employee seated the guest by the window.",
-          "note": "앉히다 means make/let someone sit."
+          "ko": "아이에게 따뜻한 옷을 입혔어요.",
+          "romanization": "aiege ttatteutan oseul iphyeosseoyo.",
+          "en": "I dressed the child in warm clothes.",
+          "note": "입히다 (causative of 입다) — the parent makes the child wear the clothes."
         },
         {
-          "ko": "아버지가 아기에게 코트를 입혔어요.",
-          "romanization": "abeojiga agiege koteureul ipyeosseoyo.",
-          "en": "The father put a coat on the baby.",
-          "note": "입히다 is used when someone dresses another person."
+          "ko": "동생을 울려서 엄마한테 혼났어요.",
+          "romanization": "dongsaengeul ullyeoseo eommahante honnasseoyo.",
+          "en": "I made my little brother cry, so Mom scolded me.",
+          "note": "울리다 (causative of 울다) = make cry; the one crying becomes the 을/를 object."
         },
         {
-          "ko": "안내 문자가 변경 사항을 알려 줬어요.",
-          "romanization": "annae munjaga byeongyeong sahangeul allyeo jwosseoyo.",
-          "en": "The 안내 text message informed me of the changes.",
-          "note": "알리다 means make information known."
+          "ko": "아기를 일찍 재웠어요.",
+          "romanization": "agireul iljjik jaewosseoyo.",
+          "en": "I put the baby to sleep early.",
+          "note": "재우다 (causative of 자다, with -우-) = make sleep; very common in daily life."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "아이가 밥을 먹었어요.",
-            "en": "The child ate."
-          },
-          "b": {
-            "ko": "엄마가 아이에게 밥을 먹였어요.",
-            "en": "The mother fed the child."
-          },
-          "explanation": "먹다 is what the child does. 먹이다 adds the person who causes or helps the eating happen."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "엄마가 아이를 먹었어요.",
-        "right": "엄마가 아이에게 밥을 먹였어요.",
-        "explanation": "Do not keep the base verb when someone causes another person to eat. Use 먹이다, and mark the person affected with 에게/한테 when needed."
+      "keyPoint": {
+        "label": "Causative vs. plain verb — who acts",
+        "body": "Plain 자다 means the subject sleeps (아기가 자요 = the baby sleeps). Causative 재우다 means the subject makes someone else sleep (엄마가 아기를 재워요 = Mom puts the baby to sleep). The original doer (the baby) moves from the 이/가 subject to a 을/를 (or 에게) slot — the new subject is the cause."
       },
-      "exceptions": [
-        "Some causatives sound lexical and must be learned as vocabulary. Do not create a new causative form for every verb by guesswork."
-      ]
+      "pronunciation": "입히다 sounds like [이피다] — ㅂ and ㅎ blend into ㅍ. 읽히다 sounds like [일키다], where the ㄱ in the ㄺ cluster joins ㅎ to make ㅋ.",
+      "drill": {
+        "instruction": "Turn the plain action into a causative — \"someone makes the subject do it\" — and complete the sentence.",
+        "model": "아기가 자요. (엄마) → 엄마가 아기를 재워요.",
+        "items": [
+          "아기가 밥을 먹어요. (엄마) → 엄마가 아기에게 밥을 ___.",
+          "아이가 옷을 입어요. (아빠) → 아빠가 아이에게 옷을 ___.",
+          "동생이 울어요. (내가) → 내가 동생을 ___."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "엄마가 아기를 먹게 해요 (always using -게 하다)",
+        "right": "엄마가 아기에게 밥을 먹여요",
+        "explanation": "English forces \"make/let someone do\" with a separate verb, so learners default to -게 하다 for everything. When a verb HAS a built-in causative (먹이다, 입히다, 재우다), that one-word form sounds far more natural for concrete, physical actions like feeding, dressing, and putting to sleep."
+      }
     }
   ],
   "extendedVocabulary": [
