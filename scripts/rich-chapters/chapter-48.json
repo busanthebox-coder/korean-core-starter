@@ -11,249 +11,495 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-symptom-frame",
-      "title": "Symptom frame — body/symptom + 이/가",
-      "mentalModel": "Korean often makes the symptom or body part the subject: 목이 아파요, 열이 나요, 기침이 나요.",
-      "formation": "Body part + 이/가 아프다. Symptom noun + 이/가 나다/있다/심하다.",
+      "title": "Symptom frame — body part + 이/가 아프다",
+      "func": "Say what hurts at the clinic. Korean makes the body part the grammatical subject, marked with 이/가, and 아프다 (to hurt / be sore) describes its state. This is your answer when the doctor asks 어디가 아파요? (Where does it hurt?).",
+      "formTable": [
+        {
+          "when": "Body part ends in a consonant (받침)",
+          "add": "+ 이 아파요",
+          "ex": "목 → 목이 아파요 (my throat hurts)"
+        },
+        {
+          "when": "Body part ends in a vowel",
+          "add": "+ 가 아파요",
+          "ex": "머리 → 머리가 아파요 (my head hurts)"
+        },
+        {
+          "when": "Asking 'where does it hurt?'",
+          "add": "어디 + 가 아파요?",
+          "ex": "어디가 아파요? (where does it hurt?)"
+        },
+        {
+          "when": "Past tense (it hurt)",
+          "add": "아프 → 아팠어요",
+          "ex": "어제부터 배가 아팠어요 (my stomach has hurt since yesterday)"
+        }
+      ],
       "examples": [
         {
-          "ko": "목이 아파요.",
-          "romanization": "mogi apayo.",
-          "en": "My throat hurts.",
-          "note": "목 is the subject of the pain."
+          "ko": "머리가 아파요.",
+          "romanization": "meoriga apayo.",
+          "en": "My head hurts.",
+          "note": "머리 ends in a vowel, so it takes 가; 아프 + 아요 → 아파요."
         },
+        {
+          "ko": "목이 아프고 열도 나요.",
+          "romanization": "mogi apeugo yeoldo nayo.",
+          "en": "My throat hurts and I also have a fever.",
+          "note": "목 has a 받침, so it takes 이; 열이 나다 is the natural way to say 'have a fever.'"
+        },
+        {
+          "ko": "어디가 아파요?",
+          "romanization": "eodiga apayo?",
+          "en": "Where does it hurt?",
+          "note": "The doctor's standard question; 어디 + 가 makes the sore spot the subject."
+        },
+        {
+          "ko": "배가 너무 아파서 왔어요.",
+          "romanization": "baega neomu apaseo wasseoyo.",
+          "en": "My stomach hurts so much that I came in.",
+          "note": "배 + 가; 너무 (so / too much) intensifies the pain."
+        }
+      ],
+      "keyPoint": {
+        "label": "The body part is the SUBJECT, not the object",
+        "body": "Use 아프다 for physical body pain (머리가 아파요). Korean makes the body part the subject with 이/가 — it 'hurts' by itself. There is no 'I have a pain' verb that takes the body part as an object, so never mark it with 을/를 here."
+      },
+      "drill": {
+        "instruction": "Make a sentence saying this body part hurts. Choose 이 or 가 by the final sound.",
+        "model": "목 → 목이 아파요.",
+        "items": [
+          "머리 → ___",
+          "배 → ___",
+          "이 (tooth) → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "나는 머리를 아파요.",
+        "right": "(저는) 머리가 아파요.",
+        "explanation": "English says 'I hurt my head' with the head as object (를). In Korean the body part is the SUBJECT (가), and 아프다 describes its state. Never mark the body part with 를 here."
+      }
+    },
+    {
+      "title": "V-아/어야 해요 — must / have to (medical instruction)",
+      "func": "Give or receive a medical instruction: something you must do. The doctor uses it for what's necessary (약을 먹어야 해요 — you have to take the medicine), and you use it for what you must do (쉬어야 해요 — I have to rest).",
+      "formTable": [
+        {
+          "when": "Verb stem has ㅏ/ㅗ vowel",
+          "add": "+ 아야 해요",
+          "ex": "받다 → 받아야 해요 (have to get / receive)"
+        },
+        {
+          "when": "Verb stem has other vowel",
+          "add": "+ 어야 해요",
+          "ex": "먹다 → 먹어야 해요 (have to take / eat)"
+        },
+        {
+          "when": "하다 verbs",
+          "add": "하 → 해야 해요",
+          "ex": "검사하다 → 검사해야 해요 (have to get tested)"
+        },
+        {
+          "when": "Casual spoken alternative",
+          "add": "-아/어야 돼요",
+          "ex": "쉬어야 돼요 (have to rest)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이 약을 하루에 세 번 먹어야 해요.",
+          "romanization": "i yageul harue se beon meogeoya haeyo.",
+          "en": "You have to take this medicine three times a day.",
+          "note": "먹다 → 먹어야 해요; the doctor's dosage instruction (하루에 세 번 = three times a day)."
+        },
+        {
+          "ko": "푹 쉬어야 해요.",
+          "romanization": "puk swieoya haeyo.",
+          "en": "You have to rest well.",
+          "note": "쉬다 → 쉬어야 해요; 푹 is the set adverb that pairs with resting."
+        },
+        {
+          "ko": "내일 다시 와야 해요?",
+          "romanization": "naeil dasi waya haeyo?",
+          "en": "Do I have to come back tomorrow?",
+          "note": "오다 → 와야 해요; a yes/no question about a required visit."
+        },
+        {
+          "ko": "피 검사를 받아야 해요.",
+          "romanization": "pi geomsareul badaya haeyo.",
+          "en": "You have to get a blood test.",
+          "note": "받다 has ㅏ, so 받아야 해요; 피 검사 = blood test."
+        }
+      ],
+      "keyPoint": {
+        "label": "해요 vs 돼요",
+        "body": "-아/어야 해요 and -아/어야 돼요 both mean 'must / have to.' 돼요 is a touch more conversational and very common in speech; 해요 feels slightly more standard. In a clinic you will hear both."
+      },
+      "drill": {
+        "instruction": "Turn the verb into a 'have to ___' medical instruction with -아/어야 해요.",
+        "model": "약을 먹다 → 약을 먹어야 해요.",
+        "items": [
+          "푹 쉬다 → ___",
+          "물을 많이 마시다 → ___",
+          "검사하다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "약을 먹어 해요.",
+        "right": "약을 먹어야 해요.",
+        "explanation": "Learners drop the 야. The obligation meaning lives entirely in -야; without it the sentence is broken. Always keep -아/어 + 야 + 해요/돼요 together."
+      }
+    },
+    {
+      "title": "A/V-아서/어서 — symptom causing a result",
+      "func": "Link a symptom to its consequence: 'because X, Y happened.' This is your go-to for explaining the visit: 배가 아파서 왔어요 (my stomach hurt, so I came). The 아서/어서 clause is the cause; the second clause is the result.",
+      "formTable": [
+        {
+          "when": "Stem has ㅏ/ㅗ vowel",
+          "add": "+ 아서",
+          "ex": "아프다 → 아파서 (because it hurts)"
+        },
+        {
+          "when": "Stem has other vowel",
+          "add": "+ 어서",
+          "ex": "먹다 → 먹어서 (because I ate)"
+        },
+        {
+          "when": "하다 words",
+          "add": "하 → 해서",
+          "ex": "심하다 → 심해서 (because it's bad / severe)"
+        },
+        {
+          "when": "Symptom 나다 (fever / cough)",
+          "add": "나 + 서 → 나서",
+          "ex": "열이 나서 (because I have a fever)"
+        }
+      ],
+      "examples": [
         {
           "ko": "배가 아파서 병원에 왔어요.",
           "romanization": "baega apaseo byeongwone wasseoyo.",
-          "en": "My stomach hurts, so I came to the clinic.",
-          "note": "아파서 connects the symptom to the visit."
+          "en": "My stomach hurt, so I came to the clinic.",
+          "note": "아프다 → 아파서; the classic reason-for-visit sentence."
         },
         {
-          "ko": "열이 나고 기침도 나요.",
-          "romanization": "yeori nago gichimdo nayo.",
-          "en": "I have a fever and I also have a cough.",
-          "note": "열이 나다 and 기침이 나다 are natural symptom chunks."
-        },
-        {
-          "ko": "두통이 심해서 잠을 못 잤어요.",
-          "romanization": "dutongi simhaeseo jameul mot jasseoyo.",
-          "en": "My headache was bad, so I could not sleep.",
-          "note": "심하다 is useful for severity."
-        }
-      ],
-      "exceptions": [
-        "Do not translate 'I have a fever' as 열을 가지고 있어요. Say 열이 나요."
-      ]
-    },
-    {
-      "id": "gn-pattern-011",
-      "title": "V아/어야 해요 — medical instruction or necessary action",
-      "mentalModel": "At a clinic, 아/어야 해요 turns advice into something the patient needs to do.",
-      "formation": "Attach 아/어야 해요 to the verb stem. In respectful patient instructions, you may hear 드셔야 해요, 쉬셔야 해요, 오셔야 해요.",
-      "examples": [
-        {
-          "ko": "약은 식후에 드셔야 해요.",
-          "romanization": "yageun sikhue deusyeoya haeyo.",
-          "en": "You have to take the medicine after meals.",
-          "note": "Common doctor/pharmacist instruction."
-        },
-        {
-          "ko": "오늘은 집에서 쉬어야 해요.",
-          "romanization": "oneureun jibeseo swieoya haeyo.",
-          "en": "You have to rest at home today.",
-          "note": "Necessary action after a symptom."
-        },
-        {
-          "ko": "열이 계속 나면 다시 와야 해요.",
-          "romanization": "yeori gyesok namyeon dasi waya haeyo.",
-          "en": "If the fever continues, you have to come back.",
-          "note": "Follow-up instruction."
-        },
-        {
-          "ko": "물을 많이 마셔야 해요.",
-          "romanization": "mureul mani masyeoya haeyo.",
-          "en": "You have to drink a lot of water.",
-          "note": "Basic care instruction."
-        }
-      ],
-      "exceptions": [
-        "세요 is a direct polite instruction; 아/어야 해요 adds necessity. 쉬세요 = please rest. 쉬어야 해요 = you need to rest."
-      ]
-    },
-    {
-      "id": "gn-pattern-018",
-      "title": "A/V아서/어서 — symptom cause leading to result",
-      "mentalModel": "아서/어서 is the calm cause-result link: I came because it hurts; I cannot sleep because I cough.",
-      "formation": "Attach 아서/어서 to an adjective or verb stem. Use it for explanation, not for commands.",
-      "examples": [
-        {
-          "ko": "배가 아파서 병원에 왔어요.",
-          "romanization": "baega apaseo byeongwone wasseoyo.",
-          "en": "My stomach hurts, so I came to the clinic.",
-          "note": "A neutral symptom-to-action explanation."
-        },
-        {
-          "ko": "목이 아파서 말을 오래 못 해요.",
-          "romanization": "mogi apaseo mareul orae mot haeyo.",
-          "en": "My throat hurts, so I cannot talk for long.",
-          "note": "Result of the symptom."
-        },
-        {
-          "ko": "열이 나서 하루 쉬었어요.",
-          "romanization": "yeori naseo haru swieosseoyo.",
-          "en": "I had a fever, so I rested for a day.",
-          "note": "열이 나다 becomes 열이 나서."
+          "ko": "열이 나서 학교에 못 갔어요.",
+          "romanization": "yeori naseo hakgyoe mot gasseoyo.",
+          "en": "I had a fever, so I couldn't go to school.",
+          "note": "열이 나다 → 나서; a symptom leading to an inability."
         },
         {
           "ko": "기침이 심해서 잠을 못 잤어요.",
           "romanization": "gichimi simhaeseo jameul mot jasseoyo.",
-          "en": "The cough was bad, so I could not sleep.",
-          "note": "심해서 explains the result."
-        }
-      ],
-      "exceptions": [
-        "For a request or instruction after the reason, 니까 usually sounds clearer: 열이 나니까 물을 많이 드세요."
-      ]
-    },
-    {
-      "id": "gn-pattern-086",
-      "title": "N 때문에 — because of a symptom or illness",
-      "mentalModel": "때문에 names the problem as the cause. It often sounds like the symptom blocked or disrupted something.",
-      "formation": "N + 때문에. No subject/object particle goes between the noun and 때문에.",
-      "examples": [
-        {
-          "ko": "감기 때문에 병원에 왔어요.",
-          "romanization": "gamgi ttaemune byeongwone wasseoyo.",
-          "en": "I came to the clinic because of a cold.",
-          "note": "감기 is the named cause."
+          "en": "My cough was bad, so I couldn't sleep.",
+          "note": "심하다 → 심해서; severity causing a result."
         },
         {
-          "ko": "기침 때문에 잠을 못 잤어요.",
-          "romanization": "gichim ttaemune jameul mot jasseoyo.",
-          "en": "I could not sleep because of the cough.",
-          "note": "Symptom as obstacle."
+          "ko": "콧물이 나서 휴지가 필요해요.",
+          "romanization": "konmuri naseo hyujiga piryohaeyo.",
+          "en": "I have a runny nose, so I need tissues.",
+          "note": "콧물이 나다 → 나서; an everyday cold symptom."
+        }
+      ],
+      "keyPoint": {
+        "label": "아서/어서 vs 때문에",
+        "body": "Both mean 'because.' Use V-아서/어서 to chain a state or action straight into its result in one flowing clause. Use N 때문에 when the cause is a NOUN. With 아서/어서 you cannot put a command or suggestion in the result clause — for that use -(으)니까."
+      },
+      "drill": {
+        "instruction": "Join the symptom and result with -아서/어서.",
+        "model": "배가 아프다 / 병원에 오다 → 배가 아파서 병원에 왔어요.",
+        "items": [
+          "열이 나다 / 회사에 못 가다 → ___",
+          "목이 아프다 / 말을 못 하다 → ___",
+          "기침이 심하다 / 병원에 가다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "열이 나서 약을 드세요.",
+        "right": "열이 나니까 약을 드세요.",
+        "explanation": "You can't end an 아서/어서 result clause with a command or suggestion. 'You have a fever, so take medicine' needs -(으)니까, not 아서/어서."
+      }
+    },
+    {
+      "title": "N 때문에 — because of (a symptom / illness)",
+      "func": "State a NOUN cause: 'because of my cold / fever / headache.' When the reason is a noun — a named symptom or illness — use N 때문에: 감기 때문에 일을 못 했어요 (I couldn't work because of a cold).",
+      "formTable": [
+        {
+          "when": "Cause is a noun",
+          "add": "N + 때문에",
+          "ex": "감기 → 감기 때문에 (because of a cold)"
+        },
+        {
+          "when": "Sentence-initial 'that's why'",
+          "add": "그래서 / 그것 때문에",
+          "ex": "그래서 왔어요 (that's why I came)"
+        },
+        {
+          "when": "Person as cause",
+          "add": "사람 N + 때문에",
+          "ex": "동생 때문에 (because of my sibling)"
+        },
+        {
+          "when": "To say 'thanks to' (positive)",
+          "add": "N + 덕분에",
+          "ex": "약 덕분에 (thanks to the medicine)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "감기 때문에 목이 아파요.",
+          "romanization": "gamgi ttaemune mogi apayo.",
+          "en": "My throat hurts because of a cold.",
+          "note": "감기 is a noun, so 때문에 fits perfectly."
+        },
+        {
+          "ko": "열 때문에 잠을 못 잤어요.",
+          "romanization": "yeol ttaemune jameul mot jasseoyo.",
+          "en": "I couldn't sleep because of the fever.",
+          "note": "열 (fever) as a noun cause of a result."
         },
         {
           "ko": "두통 때문에 일을 못 했어요.",
           "romanization": "dutong ttaemune ireul mot haesseoyo.",
-          "en": "I could not work because of a headache.",
-          "note": "두통 caused the inability."
+          "en": "I couldn't work because of a headache.",
+          "note": "두통 (headache) noun + 때문에."
         },
         {
-          "ko": "약 때문에 속이 불편해요.",
-          "romanization": "yak ttaemune sogi bulpyeonhaeyo.",
-          "en": "My stomach feels uncomfortable because of the medicine.",
-          "note": "Useful when explaining side effects."
+          "ko": "기침 때문에 잠을 못 자요.",
+          "romanization": "gichim ttaemune jameul mot jayo.",
+          "en": "I can't sleep because of the cough.",
+          "note": "기침 (cough) noun + 때문에; a line straight from the clinic."
         }
       ],
-      "exceptions": [
-        "Say 감기 때문에, not 감기가 때문에. 때문에 attaches directly to the noun."
-      ]
+      "keyPoint": {
+        "label": "때문에 (negative cause) vs 덕분에 (positive cause)",
+        "body": "Both attach to a noun. 때문에 marks a cause, usually neutral or negative (감기 때문에 — because of a cold). 덕분에 means 'thanks to' and is positive (약 덕분에 나았어요 — I got better thanks to the medicine)."
+      },
+      "drill": {
+        "instruction": "Make a 'because of N' sentence with N 때문에.",
+        "model": "감기 / 목이 아프다 → 감기 때문에 목이 아파요.",
+        "items": [
+          "열 / 잠을 못 자다 → ___",
+          "두통 / 일을 못 하다 → ___",
+          "감기 / 학교에 못 가다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "아파서 때문에 병원에 왔어요.",
+        "right": "아파서 병원에 왔어요. / 통증 때문에 병원에 왔어요.",
+        "explanation": "때문에 attaches to a NOUN only. You cannot stack a verb-form (아파서) in front of 때문에. Either use 아파서 alone, or put a noun like 통증 (pain) before 때문에."
+      }
     },
     {
-      "id": "gn-pattern-087",
-      "title": "A/V(으)니까 — since this is true, do this",
-      "mentalModel": "니까 is useful when the symptom becomes a reason for advice, a request, or the next action.",
-      "formation": "Use 니까 after vowel stems and 으니까 after consonant stems. Descriptive verbs also use this pattern: 아프니까, 심하니까.",
-      "examples": [
+      "title": "A/V-(으)니까 — since this is so, do this (advice)",
+      "func": "Give advice or instruction grounded in a fact: 'since X is the case, do / let's do Y.' Unlike 아서/어서, the second clause CAN be a command or suggestion — perfect for a doctor's advice: 열이 나니까 약을 드세요 (since you have a fever, take the medicine).",
+      "formTable": [
         {
-          "ko": "열이 계속 나니까 물을 많이 드세요.",
-          "romanization": "yeori gyesok nanikka mureul mani deuseyo.",
-          "en": "Since the fever is continuing, drink a lot of water.",
-          "note": "Reason plus advice."
+          "when": "Stem ends in a consonant",
+          "add": "+ 으니까",
+          "ex": "먹다 → 먹으니까 (since you eat / ate)"
         },
         {
-          "ko": "목이 아프니까 말을 많이 하지 마세요.",
-          "romanization": "mogi apeunikka mareul mani haji maseyo.",
-          "en": "Since your throat hurts, do not talk a lot.",
-          "note": "Reason plus instruction."
+          "when": "Stem ends in a vowel",
+          "add": "+ 니까",
+          "ex": "아프다 → 아프니까 (since it hurts)"
         },
         {
-          "ko": "기침이 심하니까 다시 오세요.",
-          "romanization": "gichimi simhanikka dasi oseyo.",
-          "en": "Since the cough is severe, come back.",
-          "note": "심하니까 supports the doctor's instruction."
+          "when": "ㄹ stem (ㄹ drops)",
+          "add": "ㄹ 빠짐 + 니까",
+          "ex": "만들다 → 만드니까 (since you make it)"
         },
         {
-          "ko": "약을 먹었으니까 조금 기다려 보세요.",
-          "romanization": "yageul meogeosseunikka jogeum gidaryeo boseyo.",
-          "en": "Since you took the medicine, wait a little and see.",
-          "note": "니까 can use past tense."
+          "when": "나다 (fever / cough)",
+          "add": "나 + 니까 → 나니까",
+          "ex": "열이 나니까 (since you have a fever)"
         }
       ],
-      "exceptions": [
-        "For a plain past result, 아서/어서 often sounds more natural: 아파서 못 갔어요. 니까 is stronger when it leads to advice or a next step."
-      ]
+      "examples": [
+        {
+          "ko": "열이 계속 나니까 물을 많이 마시세요.",
+          "romanization": "yeori gyesok nanikka mureul mani masiseyo.",
+          "en": "Since the fever keeps up, drink a lot of water.",
+          "note": "나다 → 나니까; result clause is a command (마시세요) — only 니까 allows this."
+        },
+        {
+          "ko": "목이 아프니까 따뜻한 물을 드세요.",
+          "romanization": "mogi apeunikka ttatteuthan mureul deuseyo.",
+          "en": "Since your throat hurts, drink warm water.",
+          "note": "아프다 → 아프니까; advice based on a stated fact."
+        },
+        {
+          "ko": "약을 먹었으니까 좀 쉬세요.",
+          "romanization": "yageul meogeosseunikka jom swiseyo.",
+          "en": "Since you've taken the medicine, get some rest.",
+          "note": "Past tense + 으니까 → 먹었으니까; the result is a suggestion."
+        },
+        {
+          "ko": "오늘은 병원이 문을 닫았으니까 내일 가요.",
+          "romanization": "oneureun byeongwoni muneul dadasseunikka naeil gayo.",
+          "en": "Since the clinic is closed today, let's go tomorrow.",
+          "note": "닫다 → 닫았으니까; result is a suggestion (가요), which 니까 permits."
+        }
+      ],
+      "keyPoint": {
+        "label": "니까 lets you give a command; 아서/어서 doesn't",
+        "body": "The big difference from 아서/어서 is the second clause. With -(으)니까 the result can be a command (-세요), a suggestion (-아요/-(으)ㅂ시다), or a request. So whenever a doctor's 'because…, do this' sentence ends in an instruction, you must use 니까, not 아서/어서."
+      },
+      "drill": {
+        "instruction": "Join the fact and the advice with -(으)니까, keeping the command in the second clause.",
+        "model": "열이 나다 / 약을 먹다 → 열이 나니까 약을 드세요.",
+        "items": [
+          "목이 아프다 / 말을 많이 하지 않다 → ___",
+          "기침이 심하다 / 병원에 가다 → ___",
+          "약을 먹었다 / 쉬다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "열이 나서 약을 드세요.",
+        "right": "열이 나니까 약을 드세요.",
+        "explanation": "Both 아서/어서 and 니까 mean 'because,' so learners reach for 아서/어서 by habit. But when the result is a command or suggestion (약을 드세요), only -(으)니까 is grammatical."
+      }
     },
     {
-      "id": "gn-pattern-054",
-      "title": "V-는 바람에 — unexpected health problem disrupted something",
-      "mentalModel": "는 바람에 says the event was unwanted and messed up the plan. In health contexts, it works with sudden symptoms or missed medicine.",
-      "formation": "Verb stem + 는 바람에 + usually negative/unwanted result in past tense.",
-      "examples": [
+      "title": "열이 나다 / 기침이 나다 — symptom 'comes out' with 나다",
+      "func": "Describe symptoms that 'come out' of the body — fever, cough, runny nose — with the symptom noun + 이/가 + 나다. You don't 'have' these in Korean; they 나다 ('arise / come out'). This is the most common way to list cold symptoms at the clinic.",
+      "formTable": [
         {
-          "ko": "갑자기 열이 나는 바람에 수업에 못 갔어요.",
-          "romanization": "gapjagi yeori naneun barame sueobe mot gasseoyo.",
-          "en": "A fever suddenly came on, so I could not go to class.",
-          "note": "Unexpected symptom disrupted the plan."
+          "when": "Symptom noun ends in a consonant",
+          "add": "+ 이 나다",
+          "ex": "열 → 열이 나요 (I have a fever)"
         },
         {
-          "ko": "기침이 심해지는 바람에 잠을 못 잤어요.",
-          "romanization": "gichimi simhaejineun barame jameul mot jasseoyo.",
-          "en": "The cough got worse, so I could not sleep.",
-          "note": "The change caused an unwanted result."
+          "when": "Symptom noun ends in a vowel",
+          "add": "+ 가 나다",
+          "ex": "콧물 → 콧물이 나요 (note: 콧물 ends in ㄹ → 이)"
         },
         {
-          "ko": "약을 깜빡하는 바람에 두통이 다시 심해졌어요.",
-          "romanization": "yageul kkamppakaneun barame dutongi dasi simhaejyeosseoyo.",
-          "en": "I forgot the medicine, so the headache got bad again.",
-          "note": "A mistake led to a bad result."
+          "when": "Cough",
+          "add": "기침 + 이 나다",
+          "ex": "기침이 나요 (I have a cough)"
         },
         {
-          "ko": "배가 갑자기 아파지는 바람에 약속을 취소했어요.",
-          "romanization": "baega gapjagi apajineun barame yaksogeul chwisohesseoyo.",
-          "en": "My stomach suddenly started hurting, so I canceled the appointment.",
-          "note": "바람에 carries the feeling that the plan was ruined."
+          "when": "Past tense (had the symptom)",
+          "add": "나 → 났어요",
+          "ex": "어제 열이 났어요 (I had a fever yesterday)"
         }
       ],
-      "exceptions": [
-        "Do not use 는 바람에 for good results. For positive cause, use 덕분에. For neutral health explanation, use 아서/어서 or 때문에."
-      ]
+      "examples": [
+        {
+          "ko": "아침부터 열이 나요.",
+          "romanization": "achimbuteo yeori nayo.",
+          "en": "I've had a fever since this morning.",
+          "note": "열 + 이 나다; 아침부터 (since this morning) sets the start time."
+        },
+        {
+          "ko": "기침이 나고 콧물도 나요.",
+          "romanization": "gichimi nago konmuldo nayo.",
+          "en": "I have a cough and a runny nose too.",
+          "note": "기침이 나다 + 콧물이 나다 chained with -고; the classic cold combo."
+        },
+        {
+          "ko": "열도 나고 목도 아파요.",
+          "romanization": "yeoldo nago mokdo apayo.",
+          "en": "I have a fever and my throat also hurts.",
+          "note": "나다 for fever, but 아프다 for the throat — different verbs."
+        },
+        {
+          "ko": "어제 열이 많이 났어요.",
+          "romanization": "eoje yeori mani nasseoyo.",
+          "en": "I had a high fever yesterday.",
+          "note": "나다 → 났어요 (past); 많이 = a lot / high."
+        }
+      ],
+      "keyPoint": {
+        "label": "나다 symptoms vs 아프다 pain",
+        "body": "Symptoms that 'come out' — 열(fever), 기침(cough), 콧물(runny nose) — use 이/가 나다. A body part that aches — 머리, 목, 배 — uses 이/가 아프다. Mixing them up (열이 아파요 ✗, 머리가 나요 ✗) is the giveaway, so memorize which noun pairs with which verb.",
+        "label2": ""
+      },
+      "drill": {
+        "instruction": "Pick the right verb: symptom that 'comes out' → 나요, body part that aches → 아파요.",
+        "model": "열 → 열이 나요. / 머리 → 머리가 아파요.",
+        "items": [
+          "기침 → ___",
+          "목 → ___",
+          "콧물 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 열이 있어요.",
+        "right": "열이 나요.",
+        "explanation": "English 'I have a fever' tempts you into 열이 있어요 ('a fever exists'), which sounds off for an active symptom. Koreans say 열이 나요 — the fever 'comes out.' Use 나다, not 있다, for fever, cough, and runny nose."
+      }
     },
     {
-      "id": "gn-pattern-027",
-      "title": "V-는 중이에요 — current clinic or recovery action",
-      "mentalModel": "는 중이에요 zooms in on what is happening right now: waiting, taking medicine, resting, or receiving treatment.",
-      "formation": "Verb stem + 는 중이에요. For noun situations, use N 중이에요: 진료 중이에요, 회복 중이에요.",
-      "examples": [
+      "title": "못 + V — can't do it (symptom blocking an action)",
+      "func": "Say you were unable to do something because of a symptom: 'I couldn't ___.' Put 못 right before the verb: 잠을 못 자요 (I can't sleep), 학교에 못 갔어요 (I couldn't go to school). This is how you describe what the illness stopped you from doing.",
+      "formTable": [
         {
-          "ko": "지금 진료 기다리는 중이에요.",
-          "romanization": "jigeum jillyo gidarineun jungieyo.",
-          "en": "I am waiting for my appointment right now.",
-          "note": "Current clinic action."
+          "when": "Plain verb",
+          "add": "못 + 동사",
+          "ex": "자다 → 못 자요 (can't sleep)"
         },
         {
-          "ko": "약 먹는 중이에요.",
-          "romanization": "yak meongneun jungieyo.",
-          "en": "I am in the middle of taking medicine.",
-          "note": "Active ongoing treatment action."
+          "when": "Past tense",
+          "add": "못 + V-았/었어요",
+          "ex": "가다 → 못 갔어요 (couldn't go)"
         },
         {
-          "ko": "집에서 쉬는 중이에요.",
-          "romanization": "jibeseo swineun jungieyo.",
-          "en": "I am resting at home.",
-          "note": "Useful when updating someone after a clinic visit."
+          "when": "하다 verb (못 goes inside)",
+          "add": "N + 못 + 해요",
+          "ex": "일하다 → 일을 못 해요 (can't work)"
         },
         {
-          "ko": "아직 회복 중이에요.",
-          "romanization": "ajik hoebok jungieyo.",
-          "en": "I am still recovering.",
-          "note": "N 중이에요 works with recovery/status nouns."
+          "when": "Written / formal alternative",
+          "add": "V + -지 못해요",
+          "ex": "자다 → 자지 못해요 (cannot sleep)"
         }
       ],
-      "exceptions": [
-        "Do not use 는 중이에요 with static states like 아프다 as 아픈 중이에요 for this context. Say 아직 아파요 or 회복 중이에요."
-      ]
+      "examples": [
+        {
+          "ko": "기침 때문에 잠을 못 자요.",
+          "romanization": "gichim ttaemune jameul mot jayo.",
+          "en": "I can't sleep because of the cough.",
+          "note": "못 sits right before 자요; 잠을 자다 → 잠을 못 자요."
+        },
+        {
+          "ko": "열이 나서 학교에 못 갔어요.",
+          "romanization": "yeori naseo hakgyoe mot gasseoyo.",
+          "en": "I had a fever, so I couldn't go to school.",
+          "note": "Past: 가다 → 못 갔어요."
+        },
+        {
+          "ko": "목이 아파서 밥을 못 먹어요.",
+          "romanization": "mogi apaseo babeul mot meogeoyo.",
+          "en": "My throat hurts, so I can't eat.",
+          "note": "못 + 먹어요; a common reason given at the clinic."
+        },
+        {
+          "ko": "어제 일을 못 했어요.",
+          "romanization": "eoje ireul mot haesseoyo.",
+          "en": "I couldn't work yesterday.",
+          "note": "일하다 splits: 일을 못 했어요 — 못 goes before 하다."
+        }
+      ],
+      "keyPoint": {
+        "label": "못 = couldn't (blocked); 안 = didn't (chose not to)",
+        "body": "못 means you were UNABLE — something (a symptom) prevented you: 못 잤어요 (couldn't sleep). 안 means you simply didn't / chose not to: 안 잤어요 (didn't sleep). At the clinic you almost always want 못, because the illness is what stopped you."
+      },
+      "drill": {
+        "instruction": "Say you couldn't do this because of a symptom, using 못 + verb.",
+        "model": "자다 → 잠을 못 자요.",
+        "items": [
+          "밥을 먹다 → ___",
+          "학교에 가다 (past) → ___",
+          "일하다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "잠을 못 안 자요.",
+        "right": "잠을 못 자요.",
+        "explanation": "Don't stack 못 and 안 together — pick one. Use 못 for 'unable to' (a symptom blocked you). Also keep 못 directly before the verb (못 자요), and for 하다 verbs split the noun off: 일을 못 해요, not 못 일해요."
+      }
     }
   ],
   "extendedVocabulary": [

@@ -11,173 +11,354 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-084",
-      "title": "A/V-(으)ㄹ 것 같아요 — a cautious forecast or guess",
-      "mentalModel": "Use this when you are reading signs, a forecast, or the sky and want to sound careful rather than certain.",
-      "formation": "Add -ㄹ 것 같아요 after a vowel stem and -을 것 같아요 after a consonant stem. 오다 becomes 올 것 같아요, 맑다 becomes 맑을 것 같아요, and 늦다 becomes 늦을 것 같아요. In weather talk, this is the safest first sentence because forecasts can change.",
-      "examples": [
+      "title": "A/V-(으)ㄹ 것 같아요 — \"I think it'll...\" (a soft guess about the weather)",
+      "func": "Use -(으)ㄹ 것 같아요 to make a soft prediction about the weather from signs you can see — clouds, a dark sky, a dropping temperature. It is the everyday way to say \"I think it's going to rain / snow / be cold.\" Because it is a guess, not a fact, it sounds careful and polite rather than absolute.",
+      "formTable": [
         {
-          "ko": "비가 올 것 같아요.",
-          "romanization": "biga ol geot gatayo.",
-          "en": "I think it will rain.",
-          "note": "A cautious forecast, not a promise."
+          "when": "Verb stem ends in a vowel (오다)",
+          "add": "-ㄹ 것 같아요",
+          "ex": "오다 → 올 것 같아요 (it looks like it'll rain)"
         },
         {
-          "ko": "태풍이 올 것 같아서 비행기가 늦을 수도 있어요.",
-          "romanization": "taepungi ol geot gataseo bihaenggiga neujeul sudo isseoyo.",
-          "en": "It looks like a typhoon may come, so the plane might be late.",
-          "note": "The forecast explains why the plan may change."
+          "when": "Verb/adjective stem ends in a consonant (맑다, 좋다)",
+          "add": "-을 것 같아요",
+          "ex": "맑다 → 맑을 것 같아요 (I think it'll be clear)"
         },
         {
-          "ko": "내일은 흐릴 것 같아요.",
-          "romanization": "naeireun heuril geot gatayo.",
-          "en": "I think it will be cloudy tomorrow.",
-          "note": "Use the adjective stem 흐리- plus -ㄹ 것 같아요."
+          "when": "ㅂ-irregular adjective (춥다 → 추우-, 덥다 → 더우-)",
+          "add": "-ㄹ 것 같아요 (on the 우 form)",
+          "ex": "춥다 → 추울 것 같아요 (I think it'll be cold)"
         },
         {
-          "ko": "기온이 떨어질 것 같아요.",
-          "romanization": "gioni tteoreojil geot gatayo.",
-          "en": "I think the temperature will drop.",
-          "note": "A useful forecast sentence before giving advice."
+          "when": "ㄹ-final stem (얼다, 불다) — ㄹ stays, no extra 으",
+          "add": "-ㄹ 것 같아요",
+          "ex": "불다 → 불 것 같아요 (it looks like the wind will blow)"
         }
       ],
-      "exceptions": [
-        "비가 오는 것 같아요 means it seems to be raining now. 비가 올 것 같아요 means it looks like it will rain."
-      ]
-    },
-    {
-      "id": "gn-pattern-055",
-      "title": "V-(으)ㄹ 텐데 — likely situation plus concern",
-      "mentalModel": "Use this when the forecast makes you worry, warn someone softly, or prepare the listener for a plan change.",
-      "formation": "Add -ㄹ 텐데 after a vowel stem and -을 텐데 after a consonant stem. In weather Korean, it often feels like 'it will probably be like this, so...' and the second half may be advice, concern, or a question.",
       "examples": [
         {
-          "ko": "태풍이 올 텐데 비행기 괜찮을까요?",
-          "romanization": "taepungi ol tende bihaenggi gwaenchaneulkkayo?",
-          "en": "A typhoon will probably come; do you think the flight will be okay?",
-          "note": "The speaker is not just predicting; they are worried about the result."
+          "ko": "오늘 오후에 비가 올 것 같아요.",
+          "romanization": "oneul ohue biga ol geot gatayo.",
+          "en": "I think it's going to rain this afternoon.",
+          "note": "오다 is a vowel-stem, so just -ㄹ; the model weather-guess sentence."
         },
         {
-          "ko": "미세먼지가 심할 텐데 일정을 취소할까요?",
-          "romanization": "misemeonjiga simhal tende iljeongeul chwisohalkkayo?",
-          "en": "The fine dust will probably be bad; should we cancel the plan?",
-          "note": "A natural way to raise a concern before deciding."
+          "ko": "하늘을 보니까 눈이 올 것 같아요.",
+          "romanization": "haneureul bonikka nuni ol geot gatayo.",
+          "en": "Looking at the sky, I think it's going to snow.",
+          "note": "Pairs the guess with visible evidence (하늘을 보니까), the natural reason for a forecast."
         },
         {
-          "ko": "장마라서 비가 많이 올 텐데 우산 챙기세요.",
-          "romanization": "jangmaraseo biga mani ol tende usan chaenggiseyo.",
-          "en": "It is rainy season, so it will probably rain a lot. Bring an umbrella.",
-          "note": "Weather expectation leads to practical advice."
+          "ko": "내일은 좀 추울 것 같아요.",
+          "romanization": "naeireun jom chuul geot gatayo.",
+          "en": "I think it'll be a bit cold tomorrow.",
+          "note": "춥다 is ㅂ-irregular → 추우- + ㄹ; 좀 softens the guess even more."
         },
         {
-          "ko": "영하로 떨어질 텐데 따뜻하게 입으세요.",
-          "romanization": "yeongharo tteoreojil tende ttatteutage ibeuseyo.",
-          "en": "It will probably drop below zero, so dress warmly.",
-          "note": "Useful for cold-weather warnings."
+          "ko": "주말에는 날씨가 맑을 것 같아요.",
+          "romanization": "jumareneun nalssiga malgeul geot gatayo.",
+          "en": "I think the weather will be clear this weekend.",
+          "note": "맑다 ends in a consonant, so it takes -을; everyday seasons vocabulary."
         }
       ],
-      "exceptions": [
-        "-(으)ㄹ 텐데 is a guess or concern. Do not confuse it with -(으)ㄹ 건데, which often states the speaker's own plan."
-      ]
+      "keyPoint": {
+        "label": "-(으)ㄹ 것 같아요 vs. -아/어요",
+        "body": "-(으)ㄹ 것 같아요 is a guess about something not yet certain (비가 올 것 같아요 = I think it'll rain), while plain 비가 와요 states it as a present fact (it's raining). Reach for 것 같아요 when you're reading the signs, not reporting what's already true."
+      },
+      "pronunciation": "것 같아요 is pronounced [걷 까타요]: the final ㅅ of 것 becomes a [t] stop, and the following ㄱ tenses to [ㄲ], so it sounds like \"geot kkatayo.\"",
+      "drill": {
+        "instruction": "Make a soft weather guess with -(으)ㄹ 것 같아요. Follow the model.",
+        "model": "비가 오다 → 비가 올 것 같아요.",
+        "items": [
+          "바람이 불다 → ___",
+          "날씨가 춥다 → ___",
+          "눈이 그치다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 올 거예요 같아요.",
+        "right": "비가 올 것 같아요.",
+        "explanation": "English speakers try to glue \"will\" (-ㄹ 거예요) onto \"seems\" (같아요). In Korean the single chunk is -(으)ㄹ 것 같아요 — the noun 것, not the sentence-ending 거예요, attaches before 같아요."
+      }
     },
     {
-      "id": "gn-pattern-020",
-      "title": "V/A면 — if the weather is like this",
-      "mentalModel": "Use this to set the weather condition first, then say what you will do.",
-      "formation": "Attach -면 after vowel stems and -으면 after consonant stems. In this chapter it links weather to a decision: if it rains, bring an umbrella; if fine dust is bad, cancel the schedule.",
-      "examples": [
+      "title": "V/A-(으)ㄹ 텐데 — \"it'll probably... so\" (a likely situation plus concern)",
+      "func": "Use -(으)ㄹ 텐데 to predict a likely situation and then add worry, advice, or a suggestion about it. It is the warm \"it'll probably rain, so (take an umbrella)\" pattern — you forecast something and immediately care about its effect on the listener. The 텐데 part leaves the sentence half-open, inviting a follow-up clause.",
+      "formTable": [
         {
-          "ko": "비가 오면 우산을 가져가세요.",
-          "romanization": "biga omyeon usaneul gajyeogaseyo.",
-          "en": "If it rains, take an umbrella.",
-          "note": "The condition comes before the action."
+          "when": "Verb/adjective, vowel-ending stem (오다)",
+          "add": "-ㄹ 텐데",
+          "ex": "오다 → 올 텐데 (it'll probably rain, so...)"
         },
         {
-          "ko": "미세먼지가 심하면 일정은 취소하는 게 좋겠어요.",
-          "romanization": "misemeonjiga simhamyeon iljeongeun chwisohaneun ge jotgesseoyo.",
-          "en": "If the fine dust is bad, it would be better to cancel the plan.",
-          "note": "A realistic plan-change sentence."
+          "when": "Verb/adjective, consonant-ending stem (좋다, 많다)",
+          "add": "-을 텐데",
+          "ex": "많다 → 많을 텐데 (there'll probably be a lot, so...)"
         },
         {
-          "ko": "날씨가 맑으면 다시 예약해요.",
-          "romanization": "nalssiga malgeumyeon dasi yeyakhaeyo.",
-          "en": "If the weather is clear, let's book again.",
-          "note": "A simple rebooking condition."
+          "when": "ㅂ-irregular adjective (춥다 → 추우-, 덥다 → 더우-)",
+          "add": "-ㄹ 텐데 (on the 우 form)",
+          "ex": "춥다 → 추울 텐데 (it'll probably be cold, so...)"
         },
         {
-          "ko": "기온이 영하로 떨어지면 길이 미끄러워요.",
-          "romanization": "gioni yeongharo tteoreojimyeon giri mikkeureowoyo.",
-          "en": "If the temperature drops below zero, the roads are slippery.",
-          "note": "A condition that explains a safety concern."
-        }
-      ]
-    },
-    {
-      "id": "gn-pattern-086",
-      "title": "N 때문에 — because of a weather cause",
-      "mentalModel": "Use this when a noun such as 비, 눈, 태풍, or 미세먼지 is the reason a plan changes.",
-      "formation": "Put the noun directly before 때문에: 비 때문에, 태풍 때문에, 미세먼지 때문에. Do not add 가 or 를 before 때문에. This form often explains an unwanted result such as cancellation, delay, or inconvenience.",
-      "examples": [
-        {
-          "ko": "비 때문에 산책을 못 했어요.",
-          "romanization": "bi ttaemune sanchaegeul mot haesseoyo.",
-          "en": "I could not take a walk because of the rain.",
-          "note": "The noun 비 is the cause."
-        },
-        {
-          "ko": "태풍 때문에 비행기가 늦었어요.",
-          "romanization": "taepung ttaemune bihaenggiga neujeosseoyo.",
-          "en": "The plane was late because of the typhoon.",
-          "note": "A common travel-disruption sentence."
-        },
-        {
-          "ko": "미세먼지 때문에 일정을 취소했어요.",
-          "romanization": "misemeonji ttaemune iljeongeul chwisohasseoyo.",
-          "en": "We canceled the plan because of fine dust.",
-          "note": "Directly connects air quality to a plan change."
-        },
-        {
-          "ko": "안개 때문에 앞이 잘 안 보여요.",
-          "romanization": "angae ttaemune api jal an boyeoyo.",
-          "en": "I cannot see well ahead because of the fog.",
-          "note": "Weather can also explain a safety problem."
+          "when": "Past situation (already likely happened)",
+          "add": "-았/었을 텐데",
+          "ex": "얼다 → 얼었을 텐데 (it must have frozen, so...)"
         }
       ],
-      "exceptions": [
-        "Use N 때문에 for nouns. For a full clause, use a clause form such as 비가 와서 or 미세먼지가 심해서."
-      ]
+      "examples": [
+        {
+          "ko": "밖에 추울 텐데 코트를 입으세요.",
+          "romanization": "bakke chuul tende koteureul ibeuseyo.",
+          "en": "It'll probably be cold outside, so please wear a coat.",
+          "note": "춥다 → 추우- + ㄹ 텐데; forecast (cold) + caring advice (wear a coat), the core use."
+        },
+        {
+          "ko": "오후에 비가 올 텐데 우산을 가져가세요.",
+          "romanization": "ohue biga ol tende usaneul gajyeogaseyo.",
+          "en": "It'll probably rain in the afternoon, so take an umbrella.",
+          "note": "The everyday \"take an umbrella\" sentence; 올 텐데 sets up the practical suggestion."
+        },
+        {
+          "ko": "눈이 많이 올 텐데 운전 조심하세요.",
+          "romanization": "nuni mani ol tende unjeon josimhaseyo.",
+          "en": "It'll probably snow a lot, so drive carefully.",
+          "note": "Shows 텐데 carrying genuine concern (조심하세요) about a weather outcome."
+        },
+        {
+          "ko": "내일은 더울 텐데 물을 많이 드세요.",
+          "romanization": "naeireun deoul tende mureul mani deuseyo.",
+          "en": "It'll probably be hot tomorrow, so drink a lot of water.",
+          "note": "덥다 → 더우- + ㄹ 텐데; summer-heat advice, everyday seasonal vocabulary."
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)ㄹ 텐데 vs. -(으)ㄹ 것 같아요",
+        "body": "Both predict, but -(으)ㄹ 것 같아요 just states the guess and stops (비가 올 것 같아요 = I think it'll rain). -(으)ㄹ 텐데 predicts and then leans into a consequence — concern or advice — so it almost always has a second clause: 비가 올 텐데 우산을 가져가세요 (it'll rain, so take an umbrella)."
+      },
+      "pronunciation": "올 텐데 links smoothly into one breath group — \"ol-ten-de,\" no pause — so the forecast flows straight into the advice. 텐데 itself is read [텐데] as written.",
+      "drill": {
+        "instruction": "Predict the weather and add caring advice with -(으)ㄹ 텐데. Follow the model.",
+        "model": "비가 오다 / 우산을 가져가세요 → 비가 올 텐데 우산을 가져가세요.",
+        "items": [
+          "날씨가 춥다 / 따뜻하게 입으세요 → ___",
+          "눈이 오다 / 일찍 출발하세요 → ___",
+          "바람이 많이 불다 / 모자를 쓰세요 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 올 텐데. (and then nothing)",
+        "right": "비가 올 텐데 우산을 가져가세요.",
+        "explanation": "English speakers treat -(으)ㄹ 텐데 as a complete sentence (\"it'll probably rain.\"). But 텐데 ends in -ㄴ데, which dangles — it expects a following clause. Left alone it sounds unfinished, as if you trailed off."
+      }
     },
     {
-      "id": "gn-pattern-094",
-      "title": "V(으)ㄹ 때 — when the weather happens",
-      "mentalModel": "Use this to name the time when the weather event happens, then say what action fits that time.",
-      "formation": "Attach -ㄹ 때 after vowel stems and -을 때 after consonant stems. 오다 becomes 올 때, 맑아지다 becomes 맑아질 때, and 춥다 becomes 추울 때. This is different from V면: V면 sets a condition; V(으)ㄹ 때 points to the time or occasion.",
+      "title": "A/V-(으)면 — \"if / when the weather is like this\" (condition)",
+      "func": "Use -(으)면 to set up a weather condition and its result: \"if it rains, I'll stay home,\" \"when spring comes, flowers bloom.\" It covers both English \"if\" (a possibility) and \"when\" (a regular trigger) — exactly how Koreans talk about weather shaping everyday decisions.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel (오다, 따뜻하다)",
+          "add": "-면",
+          "ex": "오다 → 오면 (if/when it rains)"
+        },
+        {
+          "when": "Stem ends in a consonant (좋다, 많다)",
+          "add": "-으면",
+          "ex": "좋다 → 좋으면 (if the weather is good)"
+        },
+        {
+          "when": "ㅂ-irregular adjective (덥다 → 더우-, 춥다 → 추우-)",
+          "add": "-면 (on the 우 form)",
+          "ex": "덥다 → 더우면 (if it's hot)"
+        },
+        {
+          "when": "Past/completed condition",
+          "add": "-았/었으면",
+          "ex": "그치다 → 그쳤으면 (if the rain/snow has stopped)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "비가 오면 집에 있을 거예요.",
+          "romanization": "biga omyeon jibe isseul geoyeyo.",
+          "en": "If it rains, I'll stay home.",
+          "note": "오다 vowel-stem → 오면; the model \"if it rains\" sentence with a plan as the result."
+        },
+        {
+          "ko": "봄이 오면 꽃이 펴요.",
+          "romanization": "bomi omyeon kkochi pyeoyo.",
+          "en": "When spring comes, flowers bloom.",
+          "note": "Here -면 = \"when\" for a regular seasonal pattern, not a one-time \"if.\""
+        },
+        {
+          "ko": "날씨가 더우면 에어컨을 켜요.",
+          "romanization": "nalssiga deoumyeon eeokeoneul kyeoyo.",
+          "en": "When it's hot, I turn on the air conditioner.",
+          "note": "덥다 → 더우- + 면; a habitual weather-triggered action."
+        },
+        {
+          "ko": "눈이 많이 오면 학교에 안 가요.",
+          "romanization": "nuni mani omyeon hakgyoe an gayo.",
+          "en": "If it snows a lot, we don't go to school.",
+          "note": "Shows a weather condition deciding an everyday outcome (no school)."
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)면 vs. -(으)니까",
+        "body": "-(으)면 introduces a condition that may or may not happen (비가 오면 = if/when it rains — uncertain). -(으)니까 gives a reason that is already true (비가 오니까 = since it's raining — a fact right now). Use -면 for forecasts and rules, -니까 for what's actually happening."
+      },
+      "pronunciation": "좋으면 is pronounced [조으면]: the ㅎ of 좋 goes silent (ㅎ-탈락) before the vowel 으, so it's \"jo-eu-myeon,\" not \"joh-eu-myeon.\"",
+      "drill": {
+        "instruction": "Join the weather condition to its result with -(으)면. Follow the model.",
+        "model": "비가 오다 / 집에 있어요 → 비가 오면 집에 있어요.",
+        "items": [
+          "날씨가 춥다 / 두꺼운 옷을 입어요 → ___",
+          "봄이 오다 / 꽃구경을 가요 → ___",
+          "날씨가 좋다 / 산책을 해요 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 올 거면 집에 있을 거예요.",
+        "right": "비가 오면 집에 있을 거예요.",
+        "explanation": "English speakers add a future marker inside the if-clause (\"if it WILL rain\"). Korean keeps the -(으)면 clause plain present — 비가 오면, not 비가 올 거면. Only the result clause carries the future (있을 거예요)."
+      }
+    },
+    {
+      "title": "N 때문에 — \"because of...\" (a weather cause)",
+      "func": "Use N 때문에 to name a noun — usually a weather event — as the cause of something, especially something inconvenient: \"because of the rain,\" \"because of the heat.\" It attaches straight to a noun and is the everyday way to blame the weather for a delay, a cancellation, or how you feel.",
+      "formTable": [
+        {
+          "when": "Noun ending in a vowel (비, 더위)",
+          "add": "+ 때문에",
+          "ex": "비 → 비 때문에 (because of the rain)"
+        },
+        {
+          "when": "Noun ending in a consonant (태풍, 눈)",
+          "add": "+ 때문에 (no change)",
+          "ex": "태풍 → 태풍 때문에 (because of the typhoon)"
+        },
+        {
+          "when": "\"because it is N\" (noun as reason-state)",
+          "add": "+ (이)기 때문에",
+          "ex": "여름 → 여름이기 때문에 (because it's summer)"
+        },
+        {
+          "when": "Adjective/verb cause (the related form)",
+          "add": "-기 때문에",
+          "ex": "춥다 → 춥기 때문에 (because it's cold)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "비 때문에 소풍이 취소됐어요.",
+          "romanization": "bi ttaemune sopungi chwisodwaesseoyo.",
+          "en": "The picnic was cancelled because of the rain.",
+          "note": "비 + 때문에; the classic \"weather ruined the plan\" sentence."
+        },
+        {
+          "ko": "더위 때문에 잠을 못 잤어요.",
+          "romanization": "deowi ttaemune jameul mot jasseoyo.",
+          "en": "I couldn't sleep because of the heat.",
+          "note": "더위 (the heat) as a cause of how you feel — very common in summer."
+        },
+        {
+          "ko": "태풍 때문에 비행기가 늦어요.",
+          "romanization": "taepung ttaemune bihaenggiga neujeoyo.",
+          "en": "The plane is late because of the typhoon.",
+          "note": "태풍 ends in a consonant; 때문에 attaches with no change."
+        },
+        {
+          "ko": "눈 때문에 길이 많이 막혀요.",
+          "romanization": "nun ttaemune giri mani makhyeoyo.",
+          "en": "The roads are really backed up because of the snow.",
+          "note": "Everyday winter complaint; 눈 (snow) named as the cause of traffic."
+        }
+      ],
+      "keyPoint": {
+        "label": "N 때문에 vs. N 덕분에",
+        "body": "때문에 is neutral-to-negative — you usually blame it for trouble (비 때문에 취소됐어요 = cancelled because of the rain). For a good outcome, Koreans switch to 덕분에 \"thanks to\" (좋은 날씨 덕분에 = thanks to the nice weather). Don't use 때문에 to thank the weather."
+      },
+      "pronunciation": "때문에 is pronounced [때무네]: the ㄴ of 문 links into the following 에 (연음), so it sounds like \"ttae-mu-ne,\" run together as one word after the noun.",
+      "drill": {
+        "instruction": "Name the weather cause with N 때문에. Follow the model.",
+        "model": "비 / 소풍이 취소됐어요 → 비 때문에 소풍이 취소됐어요.",
+        "items": [
+          "눈 / 길이 막혀요 → ___",
+          "더위 / 힘들어요 → ___",
+          "태풍 / 학교에 안 가요 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비 때문에 좋은 날씨를 즐겼어요.",
+        "right": "좋은 날씨 덕분에 산책했어요.",
+        "explanation": "English \"because of\" is neutral, so learners use 때문에 for good things too. But 때문에 carries a blaming nuance; for a positive cause Korean uses 덕분에 (thanks to). Saving 때문에 for problems keeps you natural."
+      }
+    },
+    {
+      "title": "V/A-(으)ㄹ 때 — when (a time or situation)",
+      "func": "-(으)ㄹ 때 marks the time or situation when something happens: \"when it rains,\" \"when it's cold.\" Attach it to a verb or adjective stem; for a past time, use -았/었을 때.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel",
+          "add": "-ㄹ 때",
+          "ex": "오다 → 올 때 (when it comes/rains)"
+        },
+        {
+          "when": "Stem ends in a consonant",
+          "add": "-을 때",
+          "ex": "춥다 → 추울 때 (when it's cold)"
+        },
+        {
+          "when": "A past time",
+          "add": "-았/었을 때",
+          "ex": "비가 왔을 때 (when it rained)"
+        }
+      ],
       "examples": [
         {
           "ko": "비가 올 때 우산을 써요.",
           "romanization": "biga ol ttae usaneul sseoyo.",
           "en": "When it rains, I use an umbrella.",
-          "note": "The sentence focuses on the rainy moment."
+          "note": "오다 → 올 때. The 때 clause sets the time for the main action."
         },
         {
-          "ko": "눈이 올 때 길이 미끄러워요.",
-          "romanization": "nuni ol ttae giri mikkeureowoyo.",
-          "en": "When it snows, the roads are slippery.",
-          "note": "Here 눈 means snow, not eye."
+          "ko": "날씨가 추울 때 집에 있어요.",
+          "romanization": "nalssiga chuul ttae jibe isseoyo.",
+          "en": "When the weather is cold, I stay home.",
+          "note": "춥다 (ㅂ-irregular) → 추울 때."
         },
         {
-          "ko": "미세먼지가 심할 때 창문을 닫아요.",
-          "romanization": "misemeonjiga simhal ttae changmuneul dadayo.",
-          "en": "When the fine dust is bad, I close the window.",
-          "note": "A daily-life air-quality sentence."
+          "ko": "더울 때 물을 많이 마셔요.",
+          "romanization": "deoul ttae mureul mani masyeoyo.",
+          "en": "When it's hot, I drink a lot of water.",
+          "note": "덥다 → 더울 때."
         },
         {
-          "ko": "날씨가 맑아질 때 다시 예약해요.",
-          "romanization": "nalssiga malgajil ttae dasi yeyakhaeyo.",
-          "en": "Let's book again when the weather clears.",
-          "note": "The time marker supports the rebooking plan."
+          "ko": "눈이 왔을 때 사진을 찍었어요.",
+          "romanization": "nuni wasseul ttae sajineul jjigeosseoyo.",
+          "en": "When it snowed, I took photos.",
+          "note": "Past time → 왔을 때 (오다 + 았을 때)."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "때 is a noun, so use the -(으)ㄹ modifier",
+        "body": "때 means \"time,\" so the verb in front must be in the noun-modifying -(으)ㄹ form: 올 때, 추울 때 — never 와 때 or 춥어 때. For a finished past time, use -았/었을 때 (왔을 때)."
+      },
+      "pronunciation": "때 begins with the tense consonant ㄸ — say it hard: 올 때 is [올 때], not a soft [대].",
+      "drill": {
+        "instruction": "Make a \"when …\" clause with -(으)ㄹ 때.",
+        "model": "(비가 오다) → 비가 올 때 · (춥다) → 추울 때",
+        "items": [
+          "(덥다) → ______",
+          "(눈이 오다) → ______",
+          "(날씨가 좋다) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 와 때 / 비가 오을 때",
+        "right": "비가 올 때",
+        "explanation": "때 needs the -(으)ㄹ modifier form. 오다 ends in a vowel, so it's 올 때 (not 와 때, not 오을 때). A consonant stem takes -을 때 (추울 때)."
+      }
     }
   ],
   "extendedVocabulary": [

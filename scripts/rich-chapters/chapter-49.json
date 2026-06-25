@@ -11,249 +11,475 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-002",
-      "title": "N이/가 있어요 — what the place has",
-      "mentalModel": "Use 있어요 to list useful things in the room or building: 인터넷, 세탁기, 베란다, 엘리베이터.",
-      "formation": "N이/가 있어요. Use 이 after consonants and 가 after vowels.",
-      "examples": [
+      "title": "N이/가 있어요 — saying what a home has",
+      "func": "Use 있어요 to say a room or feature exists in a home. It is the everyday way to describe what an apartment or house comes with: a balcony, an elevator, parking, and so on.",
+      "formTable": [
         {
-          "ko": "이 원룸에는 베란다가 있어요.",
-          "romanization": "i wollumeneun berandaga isseoyo.",
-          "en": "This studio has a balcony.",
-          "note": "Housing feature as subject."
+          "when": "Noun ends in a consonant (받침)",
+          "add": "+ 이 있어요",
+          "ex": "방 → 방이 있어요 (there is a room)"
         },
         {
-          "ko": "부엌에 냉장고가 있어요.",
-          "romanization": "bueoke naengjang-goga isseoyo.",
-          "en": "There is a refrigerator in the kitchen.",
-          "note": "Appliance included in the room."
+          "when": "Noun ends in a vowel",
+          "add": "+ 가 있어요",
+          "ex": "엘리베이터 → 엘리베이터가 있어요 (there is an elevator)"
         },
         {
-          "ko": "관리비에 인터넷이 포함돼 있어요.",
-          "romanization": "gwallibie inteonesi pohamdwae isseoyo.",
-          "en": "Internet is included in the maintenance fee.",
-          "note": "포함돼 있어요 describes included state."
-        },
-        {
-          "ko": "현관 옆에 세탁기가 있어요.",
-          "romanization": "hyeongwan yeope setakgiga isseoyo.",
-          "en": "There is a washing machine next to the entrance.",
-          "note": "Useful when describing layout."
+          "when": "Yes/no question",
+          "add": "있어요? (rising tone)",
+          "ex": "주차장이 있어요? (Is there parking?)"
         }
       ],
-      "exceptions": [
-        "For included fees, the included item is the subject: 인터넷이 포함돼 있어요, not 관리비가 인터넷을 포함해요 in beginner housing speech."
-      ]
+      "examples": [
+        {
+          "ko": "이 집에 방이 세 개 있어요.",
+          "romanization": "i jibe bangi se gae isseoyo.",
+          "en": "This house has three rooms.",
+          "note": "방 ends in a consonant, so it takes 이; 있어요 says the rooms exist."
+        },
+        {
+          "ko": "우리 아파트에 엘리베이터가 있어요.",
+          "romanization": "uri apateue ellibeiteoga isseoyo.",
+          "en": "Our apartment has an elevator.",
+          "note": "엘리베이터 ends in a vowel, so it takes 가."
+        },
+        {
+          "ko": "집 근처에 큰 마트가 있어요.",
+          "romanization": "jip geuncheoe keun mateuga isseoyo.",
+          "en": "There is a big supermarket near the house.",
+          "note": "있어요 also covers 'there is X nearby,' a common housing detail."
+        },
+        {
+          "ko": "베란다가 있어요?",
+          "romanization": "berandaga isseoyo?",
+          "en": "Is there a balcony?",
+          "note": "A rising tone turns the statement into a yes/no question renters actually ask."
+        }
+      ],
+      "keyPoint": {
+        "label": "있어요 vs 이에요/예요",
+        "body": "있어요 means 'there is / it has' (existence). 이에요/예요 means 'it is' (identity). 방이 있어요 = 'there is a room'; 방이에요 = 'it is a room.' For listing what a home has, you almost always want 있어요."
+      },
+      "pronunciation": "있어요 links the 받침 ㅆ into the next vowel: [이써요]. So 방이 있어요 runs together as [방이 이써요].",
+      "drill": {
+        "instruction": "Add 이 or 가 to the noun and finish with 있어요 to say the home has it.",
+        "model": "주차장 → 주차장이 있어요.",
+        "items": [
+          "화장실 → ____",
+          "에어컨 → ____",
+          "마당 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "이 집은 방 있어요.",
+        "right": "이 집은 방이 있어요.",
+        "explanation": "English drops the subject marker ('the house has rooms'), but Korean normally needs 이/가 on the thing that exists. Don't omit the particle before 있어요 in careful speech."
+      }
     },
     {
-      "id": "gn-pattern-003",
-      "title": "N이/가 없어요 — missing feature or no extra fee",
-      "mentalModel": "없어요 is practical in housing because missing features and missing fees both matter.",
-      "formation": "N이/가 없어요. Use it for absence, not refusal.",
-      "examples": [
+      "title": "N이/가 없어요 — saying a home lacks something",
+      "func": "없어요 is the negative of 있어요: it says a feature does NOT exist. In housing talk it covers a missing room, no parking, no elevator, or 'there is no extra fee.'",
+      "formTable": [
         {
-          "ko": "이 원룸에는 베란다가 없어요.",
-          "romanization": "i wollumeneun berandaga eopseoyo.",
-          "en": "This studio does not have a balcony.",
-          "note": "Missing feature."
+          "when": "Noun ends in a consonant (받침)",
+          "add": "+ 이 없어요",
+          "ex": "창문 → 창문이 없어요 (there is no window)"
         },
         {
-          "ko": "엘리베이터가 없어요.",
-          "romanization": "ellibeiteoga eopseoyo.",
-          "en": "There is no elevator.",
-          "note": "Important building detail."
+          "when": "Noun ends in a vowel",
+          "add": "+ 가 없어요",
+          "ex": "엘리베이터 → 엘리베이터가 없어요 (there is no elevator)"
         },
         {
-          "ko": "추가 관리비는 없어요.",
-          "romanization": "chuga gwallibineun eopseoyo.",
-          "en": "There is no extra maintenance fee.",
-          "note": "Cost reassurance."
-        },
-        {
-          "ko": "계약서에 인터넷 내용이 없어요.",
-          "romanization": "gyeyakseoe inteonet naeyongi eopseoyo.",
-          "en": "The contract has no internet details.",
-          "note": "Reason to ask before signing."
+          "when": "Yes/no question",
+          "add": "없어요? (rising tone)",
+          "ex": "엘리베이터가 없어요? (Is there no elevator?)"
         }
       ],
-      "exceptions": [
-        "Do not use 안 있어요 as the main learner form for absence. 없어요 is the natural negative existence word."
-      ]
+      "examples": [
+        {
+          "ko": "이 방에는 창문이 없어요.",
+          "romanization": "i bangeneun changmuni eopseoyo.",
+          "en": "This room has no window.",
+          "note": "창문 ends in a consonant → 이 없어요; says the feature is absent."
+        },
+        {
+          "ko": "이 건물에는 엘리베이터가 없어요.",
+          "romanization": "i geonmureneun ellibeiteoga eopseoyo.",
+          "en": "This building has no elevator.",
+          "note": "엘리베이터 ends in a vowel → 가 없어요."
+        },
+        {
+          "ko": "보증금 외에 추가 비용이 없어요.",
+          "romanization": "bojeunggeum oee chuga biyongi eopseoyo.",
+          "en": "There's no extra cost besides the deposit.",
+          "note": "A reassuring rental phrase: 없어요 = 'there is no (extra fee).'"
+        },
+        {
+          "ko": "지금은 빈방이 없어요.",
+          "romanization": "jigeumeun binbangi eopseoyo.",
+          "en": "There are no empty rooms right now.",
+          "note": "빈방 'empty room' + 이 없어요 = a common reply from a landlord."
+        }
+      ],
+      "keyPoint": {
+        "label": "있어요 ↔ 없어요",
+        "body": "These are a fixed pair, not 있어요 + 안. To say a home lacks something, use 없어요, never 안 있어요. 방이 있어요 (has a room) ↔ 방이 없어요 (has no room)."
+      },
+      "pronunciation": "없어요 links the cluster ㅄ so only ㅅ carries over: [업써요]. So 창문이 없어요 sounds like [창무니 업써요].",
+      "drill": {
+        "instruction": "Use 이/가 없어요 to say the home lacks the feature.",
+        "model": "엘리베이터 → 엘리베이터가 없어요.",
+        "items": [
+          "주차장 → ____",
+          "에어컨 → ____",
+          "추가 비용 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "이 집은 주차장이 안 있어요.",
+        "right": "이 집은 주차장이 없어요.",
+        "explanation": "There is no '안 있어요.' The negative of 있어요 is the separate word 없어요. Reach for 없어요 directly instead of negating 있어요 with 안."
+      }
     },
     {
-      "id": "gn-pattern-075",
-      "title": "A-ㄴ/은 N — describing listings",
-      "mentalModel": "Korean housing descriptions usually package the description before the noun: 넓은 원룸, 깨끗한 화장실.",
-      "formation": "Adjective stem + ㄴ/은 + noun. 하다 adjectives usually become 한: 조용한, 깨끗한.",
-      "examples": [
+      "title": "A-(으)ㄴ N — describing a home (넓은 방)",
+      "func": "Turn a descriptive adjective into a word that modifies a noun, like 'a spacious room' or 'a clean house.' This is how you describe homes: 넓은 방, 깨끗한 집, 조용한 동네.",
+      "formTable": [
         {
-          "ko": "넓은 원룸을 찾고 있어요.",
-          "romanization": "neolbeun wollumeul chatgo isseoyo.",
-          "en": "I am looking for a spacious studio.",
-          "note": "Desired listing condition."
+          "when": "Adjective stem ends in a consonant (받침)",
+          "add": "+ 은 + N",
+          "ex": "넓다 → 넓은 방 (a spacious room)"
         },
         {
-          "ko": "밝은 방이면 좋아요.",
-          "romanization": "balgeun bangimyeon joayo.",
-          "en": "It would be nice if it is a bright room.",
-          "note": "Modifier plus condition."
+          "when": "Adjective stem ends in a vowel",
+          "add": "+ ㄴ + N",
+          "ex": "깨끗하다 → 깨끗한 집 (a clean house)"
         },
         {
-          "ko": "조용한 동네를 원해요.",
-          "romanization": "joyonghan dongnereul wonhaeyo.",
-          "en": "I want a quiet neighborhood.",
-          "note": "Neighborhood preference."
-        },
-        {
-          "ko": "깨끗한 화장실이 중요해요.",
-          "romanization": "kkaekkeuthan hwajangsiri jungyohaeyo.",
-          "en": "A clean bathroom is important.",
-          "note": "Inspection detail."
+          "when": "ㄹ-final stem (drop ㄹ, add ㄴ)",
+          "add": "ㄹ→ㄴ + N",
+          "ex": "멀다 → 먼 곳 (a faraway place)"
         }
       ],
-      "exceptions": [
-        "Do not overuse separate sentences like 원룸이 넓어요 only. 넓은 원룸 lets you describe and identify the place at once."
-      ]
+      "examples": [
+        {
+          "ko": "넓은 방을 찾고 있어요.",
+          "romanization": "neolbeun bangeul chatgo isseoyo.",
+          "en": "I'm looking for a spacious room.",
+          "note": "넓다 (consonant stem) → 넓은 modifies 방; the adjective comes before the noun."
+        },
+        {
+          "ko": "깨끗한 집이 좋아요.",
+          "romanization": "kkaekkeutan jibi joayo.",
+          "en": "I like a clean house.",
+          "note": "하다-adjective 깨끗하다 → 깨끗한 (drop the vowel-ending 하, add ㄴ)."
+        },
+        {
+          "ko": "조용한 동네에서 살고 싶어요.",
+          "romanization": "joyonghan dongneeseo salgo sipeoyo.",
+          "en": "I want to live in a quiet neighborhood.",
+          "note": "조용하다 → 조용한; describes the kind of 동네 (neighborhood)."
+        },
+        {
+          "ko": "회사에서 가까운 집을 찾고 있어요.",
+          "romanization": "hoesaeeseo gakkaun jibeul chatgo isseoyo.",
+          "en": "I'm looking for a house close to work.",
+          "note": "가깝다 is ㅂ-irregular → 가까운 집; a very common housing criterion."
+        }
+      ],
+      "keyPoint": {
+        "label": "넓은 방 vs 방이 넓어요",
+        "body": "Modifier form goes BEFORE the noun: 넓은 방 ('a spacious room' — naming a thing). Predicate form ends the sentence: 방이 넓어요 ('the room is spacious' — stating a fact). Use 넓은 방 when the adjective is labeling the noun."
+      },
+      "pronunciation": "넓다 is pronounced [널따], and 넓은 links the ㄼ cluster as [널븐]. 가까운 and 깨끗한 link smoothly.",
+      "drill": {
+        "instruction": "Make the adjective modify the noun with -(으)ㄴ.",
+        "model": "조용하다 / 동네 → 조용한 동네",
+        "items": [
+          "넓다 / 거실 → ____",
+          "깨끗하다 / 화장실 → ____",
+          "가깝다 / 지하철역 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "나는 넓어요 방을 원해요.",
+        "right": "나는 넓은 방을 원해요.",
+        "explanation": "Don't put a sentence-ending form in the modifier slot. 넓어요 ends a sentence; to attach it to 방 you must change it to the modifier form 넓은. English uses 'wide' in both spots, but Korean changes the ending."
+      }
     },
     {
-      "id": "gn-pattern-020",
-      "title": "A/V면 — housing conditions",
-      "mentalModel": "면 is for decision points: if the fee is separate, if internet is included, if you like the room.",
-      "formation": "Attach 면/으면 to the predicate. Use it before the decision or result.",
-      "examples": [
+      "title": "A/V-(으)면 — stating a housing condition",
+      "func": "-(으)면 means 'if / when.' Use it to set a condition about a home: 'if it's too expensive...', 'if I like the place...', 'when I sign the contract...'",
+      "formTable": [
         {
-          "ko": "관리비가 따로면 월세가 비싸게 느껴져요.",
-          "romanization": "gwallibiga ttaromyeon wolsega bissage neukkyeojyeoyo.",
-          "en": "If the maintenance fee is separate, the rent feels expensive.",
-          "note": "Condition changes the real cost."
+          "when": "Stem ends in a consonant (받침)",
+          "add": "+ 으면",
+          "ex": "좋다 → 좋으면 (if it's good)"
         },
         {
-          "ko": "인터넷이 포함돼 있으면 좋아요.",
-          "romanization": "inteonesi pohamdwae isseumyeon joayo.",
-          "en": "It is good if internet is included.",
-          "note": "Included feature as condition."
+          "when": "Stem ends in a vowel",
+          "add": "+ 면",
+          "ex": "비싸다 → 비싸면 (if it's expensive)"
         },
         {
-          "ko": "마음에 들면 오늘 계약할 수 있어요.",
-          "romanization": "maeume deulmyeon oneul gyeyakal su isseoyo.",
-          "en": "If you like it, you can sign the contract today.",
-          "note": "Agent-style decision line."
-        },
-        {
-          "ko": "전세가 부담되면 월세 원룸을 볼게요.",
-          "romanization": "jeonsega budamdoemyeon wolse wollumeul bolgeyo.",
-          "en": "If jeonse feels burdensome, I will look at monthly-rent studios.",
-          "note": "Lease type condition."
+          "when": "ㄹ-final stem (keep ㄹ, add 면)",
+          "add": "+ 면",
+          "ex": "멀다 → 멀면 (if it's far)"
         }
       ],
-      "exceptions": [
-        "면 sets a condition. Do not use it when you simply list a fact: 보증금은 500만 원이에요, not 보증금이면 500만 원이에요."
-      ]
+      "examples": [
+        {
+          "ko": "방이 너무 비싸면 다른 집을 볼게요.",
+          "romanization": "bangi neomu bissamyeon dareun jibeul bolgeyo.",
+          "en": "If the room is too expensive, I'll look at another place.",
+          "note": "비싸다 (vowel stem) → 비싸면; sets the condition before the result clause."
+        },
+        {
+          "ko": "지하철역에서 가까우면 좋아요.",
+          "romanization": "jihacheoryeogeseo gakkaumyeon joayo.",
+          "en": "It'd be nice if it's close to the subway station.",
+          "note": "가깝다 → 가까우면 (ㅂ-irregular); '(으)면 좋아요' = 'it'd be nice if.'"
+        },
+        {
+          "ko": "계약하면 보증금을 내요.",
+          "romanization": "gyeyakhamyeon bojeunggeumeul naeyo.",
+          "en": "When you sign the contract, you pay the deposit.",
+          "note": "계약하다 → 계약하면; here -(으)면 means 'when/once' for a routine step."
+        },
+        {
+          "ko": "집이 마음에 들면 계약할 거예요.",
+          "romanization": "jibi maeume deulmyeon gyeyakhal geoyeyo.",
+          "en": "If I like the house, I'll sign the contract.",
+          "note": "들다 is ㄹ-final → 마음에 들면 (keep ㄹ, add 면); 마음에 들다 = 'to like.'"
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)면 vs -아/어서",
+        "body": "-(으)면 is a hypothetical 'if/when' — the result depends on the condition. -아/어서 gives an actual reason that already holds. 비싸면 안 사요 = 'if it's expensive, I won't buy.' 비싸서 안 사요 = 'I'm not buying because it's (actually) expensive.'"
+      },
+      "pronunciation": "After a 받침, 으면 links: 좋으면 sounds like [조으면] (ㅎ weakens between vowels). The ㄹ-stem 들면 is simply [들면].",
+      "drill": {
+        "instruction": "Attach -(으)면 to make the housing condition.",
+        "model": "비싸다 → 비싸면",
+        "items": [
+          "멀다 → ____",
+          "좋다 → ____",
+          "계약하다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "집이 마음에 들으면 계약할 거예요.",
+        "right": "집이 마음에 들면 계약할 거예요.",
+        "explanation": "ㄹ-final stems do NOT add 으; they keep ㄹ and add 면 directly: 들다 → 들면. Learners over-apply 으면 to every consonant ending, but ㄹ is special here."
+      }
     },
     {
-      "id": "gn-pattern-007",
-      "title": "Vㄹ/을 수 있어요 — possibility in housing",
-      "mentalModel": "Use 수 있어요 for practical possibility: can sign, can move, can use internet, can see the room.",
-      "formation": "Vowel stem + ㄹ 수 있어요; consonant stem + 을 수 있어요.",
-      "examples": [
+      "title": "V-(으)ㄹ 수 있어요 — what's possible/allowed at home",
+      "func": "Express that something is possible or allowed in a home: you can park, you can keep a pet, you can move in next week. The opposite, 'cannot,' is V-(으)ㄹ 수 없어요.",
+      "formTable": [
         {
-          "ko": "오늘 계약할 수 있어요?",
-          "romanization": "oneul gyeyakal su isseoyo?",
-          "en": "Can I sign the contract today?",
-          "note": "Contract possibility."
+          "when": "Verb stem ends in a consonant (받침)",
+          "add": "+ 을 수 있어요",
+          "ex": "살다 → 살 수 있어요 (can live)"
         },
         {
-          "ko": "이번 주에 이사할 수 있어요.",
-          "romanization": "ibeon jue isahal su isseoyo.",
-          "en": "I can move this week.",
-          "note": "Moving schedule."
+          "when": "Verb stem ends in a vowel",
+          "add": "+ ㄹ 수 있어요",
+          "ex": "주차하다 → 주차할 수 있어요 (can park)"
         },
         {
-          "ko": "인터넷을 바로 쓸 수 있어요.",
-          "romanization": "inteoneseul baro sseul su isseoyo.",
-          "en": "You can use the internet right away.",
-          "note": "Included utility use."
-        },
-        {
-          "ko": "오늘 방을 볼 수 있어요?",
-          "romanization": "oneul bangeul bol su isseoyo?",
-          "en": "Can I see the room today?",
-          "note": "Viewing question."
+          "when": "Negative 'cannot'",
+          "add": "(으)ㄹ 수 없어요",
+          "ex": "키우다 → 키울 수 없어요 (cannot keep a pet)"
         }
       ],
-      "exceptions": [
-        "수 있어요 is possibility, not desire. 보고 싶어요 means want to see; 볼 수 있어요 means can see."
-      ]
+      "examples": [
+        {
+          "ko": "여기에 주차할 수 있어요?",
+          "romanization": "yeogie juchahal su isseoyo?",
+          "en": "Can I park here?",
+          "note": "주차하다 (vowel stem) → 주차할 수 있어요; a yes/no question about what's allowed."
+        },
+        {
+          "ko": "이 집에서 강아지를 키울 수 있어요.",
+          "romanization": "i jibeseo gangajireul kiul su isseoyo.",
+          "en": "You can keep a dog in this house.",
+          "note": "키우다 (vowel stem) → 키울 수 있어요; asking about pets is a common rental question."
+        },
+        {
+          "ko": "다음 주에 이사할 수 있어요.",
+          "romanization": "daeum jue isahal su isseoyo.",
+          "en": "I can move in next week.",
+          "note": "이사하다 → 이사할 수 있어요; states a possible move-in time."
+        },
+        {
+          "ko": "여기에서는 반려동물을 키울 수 없어요.",
+          "romanization": "yeogieseoneun ballyeodongmureul kiul su eopseoyo.",
+          "en": "You can't keep pets here.",
+          "note": "The negative uses 없어요: 키울 수 없어요 = 'cannot keep.'"
+        }
+      ],
+      "keyPoint": {
+        "label": "있어요 → 없어요 for 'cannot'",
+        "body": "To make V-(으)ㄹ 수 있어요 negative, swap 있어요 for 없어요, not 안: 살 수 있어요 (can live) → 살 수 없어요 (cannot live). The 수 (way/possibility) stays; only the existence verb flips.",
+        "drill": {
+          "instruction": "Make 'can do' with V-(으)ㄹ 수 있어요.",
+          "model": "주차하다 → 주차할 수 있어요",
+          "items": [
+            "살다 → ____",
+            "키우다 → ____",
+            "이사하다 → ____"
+          ]
+        }
+      },
+      "pronunciation": "수 있어요 is pronounced [수 이써요], and the ㄹ before 수 stays light: 살 수 → [살 쑤] (the ㅅ tenses to ㅆ after the ㄹ).",
+      "drill": {
+        "instruction": "Make 'can do' with V-(으)ㄹ 수 있어요.",
+        "model": "주차하다 → 주차할 수 있어요",
+        "items": [
+          "살다 → ____",
+          "키우다 → ____",
+          "이사하다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "여기에서 주차 안 할 수 있어요.",
+        "right": "여기에서 주차할 수 없어요.",
+        "explanation": "To say 'cannot park,' don't insert 안 into the can-phrase. The negative of (으)ㄹ 수 있어요 is (으)ㄹ 수 없어요. 안 주차하다 would mean 'choose not to park,' which is different from 'not allowed/able to park.'"
+      }
     },
     {
-      "id": "gn-pattern-048",
-      "title": "V-기 위해(서) — planned housing purpose",
-      "mentalModel": "Use 위해서 when the action has a clear purpose: finding a place, lowering rent, checking the contract.",
-      "formation": "Verb stem + 기 위해(서). Noun + 을/를 위해(서).",
-      "examples": [
+      "title": "N에 살아요 — saying where you live",
+      "func": "Use 에 + 살아요 to say where you live: in a city, a neighborhood, an apartment, or on a particular floor. 에 marks the place of residence.",
+      "formTable": [
         {
-          "ko": "집을 구하기 위해 부동산에 갔어요.",
-          "romanization": "jibeul guhagi wihae budongsane gasseoyo.",
-          "en": "I went to a real-estate office to find a place.",
-          "note": "Purpose of the visit."
+          "when": "Place + 에 살아요",
+          "add": "N + 에 살아요",
+          "ex": "부산에 살아요 (I live in Busan)"
         },
         {
-          "ko": "월세를 줄이기 위해 작은 원룸을 보고 있어요.",
-          "romanization": "wolser-eul jurigi wihae jageun wollumeul bogo isseoyo.",
-          "en": "I am looking at a small studio to lower rent.",
-          "note": "Purpose behind choice."
+          "when": "Building/room type",
+          "add": "N + 에 살아요",
+          "ex": "아파트에 살아요 (I live in an apartment)"
         },
         {
-          "ko": "계약하기 위해 신분증을 가져왔어요.",
-          "romanization": "gyeyakagi wihae sinbunjeungeul gajyeowasseoyo.",
-          "en": "I brought my ID to sign the contract.",
-          "note": "Purpose of preparation."
-        },
-        {
-          "ko": "이사하기 위해 계약서를 확인했어요.",
-          "romanization": "isahagi wihae gyeyakseoreul hwaginhaesseoyo.",
-          "en": "I checked the contract in order to move.",
-          "note": "Planned pre-move action."
+          "when": "Floor (N층)",
+          "add": "숫자 + 층에 살아요",
+          "ex": "3층에 살아요 (I live on the 3rd floor)"
         }
       ],
-      "exceptions": [
-        "For casual intention, -(으)려고 is often lighter. 위해서 sounds more planned or formal, which fits contracts and housing goals."
-      ]
+      "examples": [
+        {
+          "ko": "저는 부산에 살아요.",
+          "romanization": "jeoneun busane sarayo.",
+          "en": "I live in Busan.",
+          "note": "부산 (place) + 에 살아요; 에 marks where you live."
+        },
+        {
+          "ko": "지금 원룸에 살아요.",
+          "romanization": "jigeum wollume sarayo.",
+          "en": "I live in a studio apartment right now.",
+          "note": "원룸 'one-room/studio' is a very common type of home in Korea."
+        },
+        {
+          "ko": "저는 5층에 살아요.",
+          "romanization": "jeoneun ocheunge sarayo.",
+          "en": "I live on the 5th floor.",
+          "note": "층 'floor' + 에 살아요; 5층 is read 오층."
+        },
+        {
+          "ko": "어느 동네에 살아요?",
+          "romanization": "eoneu dongnee sarayo?",
+          "en": "Which neighborhood do you live in?",
+          "note": "어느 'which' + 동네 + 에 살아요? — a natural getting-to-know-you question."
+        }
+      ],
+      "keyPoint": {
+        "label": "에 살아요 vs 에서 + action",
+        "body": "For living (a state), use 에: 서울에 살아요. For an action that happens at a place, use 에서: 집에서 일해요 ('I work at home'). With 살다 specifically, Korean uses 에, not 에서."
+      },
+      "pronunciation": "살아요 links the ㄹ into the next vowel: [사라요]. 부산에 살아요 runs together as [부사네 사라요].",
+      "drill": {
+        "instruction": "Add 에 살아요 to say where you live.",
+        "model": "서울 → 서울에 살아요.",
+        "items": [
+          "아파트 → ____",
+          "2층 → ____",
+          "조용한 동네 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 부산에서 살아요.",
+        "right": "저는 부산에 살아요.",
+        "explanation": "With 살다 (to live/reside), the standard particle is 에, not 에서. English 'live in/at' tempts learners toward 에서, but residence as a state takes 에."
+      }
     },
     {
-      "id": "gn-pattern-129",
-      "title": "V-아/어 두다 — prepare and leave it ready",
-      "mentalModel": "Housing has many before-signing tasks. 두다 says you do something now so it stays ready later.",
-      "formation": "Verb stem + 아/어 두다. 놓다 is similar; 두다 often feels practical and prepared.",
-      "examples": [
+      "title": "N(으)로 이사 가요/와요 — moving house",
+      "func": "Use (으)로 to mark the destination you move TO when changing homes: 이사 가다 'to move (away to)' and 이사 오다 'to move (here to).' (으)로 means 'to / toward.'",
+      "formTable": [
         {
-          "ko": "계약서를 확인해 두세요.",
-          "romanization": "gyeyakseoreul hwaginhae duseyo.",
-          "en": "Check the contract in advance.",
-          "note": "Prepared-action instruction."
+          "when": "Place ends in a consonant (받침)",
+          "add": "+ 으로 이사 가요",
+          "ex": "서울 → 서울로 이사 가요 (ㄹ받침: just 로)"
         },
         {
-          "ko": "관리비 내용을 적어 두세요.",
-          "romanization": "gwallibi naeyongeul jeogeo duseyo.",
-          "en": "Write down the maintenance fee details.",
-          "note": "Keep information for later."
+          "when": "Place ends in a vowel or ㄹ",
+          "add": "+ 로 이사 가요",
+          "ex": "부산 → 부산으로… / 학교 앞 → 학교 앞으로"
         },
         {
-          "ko": "방 사진을 찍어 두면 좋아요.",
-          "romanization": "bang sajineul jjigeo dumyeon joayo.",
-          "en": "It is good to take room photos in advance.",
-          "note": "Useful before deciding."
-        },
-        {
-          "ko": "이사 날짜를 정해 두었어요.",
-          "romanization": "isa naljjareul jeonghae dueosseoyo.",
-          "en": "I set the moving date in advance.",
-          "note": "Prepared schedule."
+          "when": "Moving here (toward speaker)",
+          "add": "+ (으)로 이사 와요",
+          "ex": "새집으로 이사 와요 (move into a new house)"
         }
       ],
-      "exceptions": [
-        "아/어 두다 is intentional preparation. 아/어 있다 describes a resulting state, such as 문이 열려 있어요."
-      ]
+      "examples": [
+        {
+          "ko": "다음 달에 새집으로 이사 가요.",
+          "romanization": "daeum dare saejibeuro isa gayo.",
+          "en": "I'm moving to a new house next month.",
+          "note": "새집 'new house' + 으로 (받침 ㅂ) + 이사 가요; (으)로 marks the destination."
+        },
+        {
+          "ko": "부산으로 이사 갈 거예요.",
+          "romanization": "busaneuro isa gal geoyeyo.",
+          "en": "I'm going to move to Busan.",
+          "note": "부산 ends in ㄴ → 으로; 이사 갈 거예요 = future 'will move.'"
+        },
+        {
+          "ko": "우리 옆집에 새 이웃이 이사 왔어요.",
+          "romanization": "uri yeopjibe sae iusi isa wasseoyo.",
+          "en": "A new neighbor moved in next door.",
+          "note": "이사 오다 → 이사 왔어요 (past); 옆집 'next-door house,' 이웃 'neighbor.'"
+        },
+        {
+          "ko": "언제 이사 가요?",
+          "romanization": "eonje isa gayo?",
+          "en": "When are you moving out?",
+          "note": "언제 'when' + 이사 가요? — a natural question to a friend who's moving."
+        }
+      ],
+      "keyPoint": {
+        "label": "이사 가요 vs 이사 와요",
+        "body": "이사 가다 = move away (the speaker is not at the destination). 이사 오다 = move here (toward the speaker's location). 서울로 이사 가요 = 'I'm moving to Seoul'; 여기로 이사 왔어요 = 'I moved here.'"
+      },
+      "pronunciation": "이사 가요 is [이사 가요]; 으로 links its ㄹ into 이사: 새집으로 → [새지브로]. 이사 왔어요 sounds like [이사 와써요].",
+      "drill": {
+        "instruction": "Add (으)로 이사 가요 to say where you're moving to.",
+        "model": "새집 → 새집으로 이사 가요.",
+        "items": [
+          "부산 → ____",
+          "서울 → ____",
+          "더 넓은 집 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 새집에 이사 가요.",
+        "right": "저는 새집으로 이사 가요.",
+        "explanation": "For the destination of a move, Korean prefers (으)로 ('toward/to') with 이사 가다, not 에. English 'move to a new house' suggests 에, but the directional (으)로 is the natural choice here."
+      }
     }
   ],
   "extendedVocabulary": [

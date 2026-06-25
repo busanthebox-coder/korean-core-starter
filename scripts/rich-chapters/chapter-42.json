@@ -11,292 +11,567 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-108",
-      "title": "에게 / 한테 / 께 — receiver or target person",
-      "mentalModel": "Use this set when an action points toward a person: giving, sending, asking, telling, or lending.",
-      "formation": "Attach directly to a person noun. 에게 is neutral/written, 한테 is conversational, and 께 is honorific for someone respected.",
+      "title": "에게 / 한테 / 께 — to a person (께 = honorific)",
+      "func": "Marks the person who receives or is the target of an action: giving, sending, asking, telling, lending. English uses 'to (a person)'.",
+      "formTable": [
+        {
+          "when": "Neutral or written, after any person noun",
+          "add": "noun + 에게",
+          "ex": "친구 → 친구에게 (to a friend)"
+        },
+        {
+          "when": "Casual spoken, after any person noun",
+          "add": "noun + 한테",
+          "ex": "동생 → 동생한테 (to my younger sibling)"
+        },
+        {
+          "when": "Honorific, a person you respect",
+          "add": "noun + 께",
+          "ex": "선생님 → 선생님께 (to the teacher)"
+        },
+        {
+          "when": "'from a person' (source)",
+          "add": "noun + 에게서 / 한테서",
+          "ex": "친구한테서 들었어요 (I heard it from a friend)"
+        }
+      ],
       "examples": [
         {
           "ko": "친구에게 선물을 줬어요.",
           "romanization": "chinguege seonmureul jwosseoyo.",
           "en": "I gave a gift to a friend.",
-          "note": "친구 is the receiver, so 에게 fits."
+          "note": "친구 is the receiver of 주다, so the person-target 에게 fits."
         },
         {
-          "ko": "친구한테 책을 빌려줬어요.",
-          "romanization": "chinguhante chaegeul billyeojwosseoyo.",
-          "en": "I lent a book to a friend.",
-          "note": "한테 is the everyday spoken version."
+          "ko": "동생한테 책을 빌려줬어요.",
+          "romanization": "dongsaenghante chaegeul billyeojwosseoyo.",
+          "en": "I lent a book to my younger sibling.",
+          "note": "한테 is the everyday spoken choice in casual talk."
         },
         {
-          "ko": "선생님께 이메일을 드렸어요.",
-          "romanization": "seonsaengnimkke imeireul deuryeosseoyo.",
+          "ko": "선생님께 메일을 드렸어요.",
+          "romanization": "seonsaengnimkke meireul deuryeosseoyo.",
           "en": "I sent an email to the teacher.",
-          "note": "께 matches the respectful verb 드리다."
+          "note": "께 raises the receiver and pairs naturally with the humble verb 드리다."
         },
         {
-          "ko": "회사에 이메일을 보냈어요.",
-          "romanization": "hoesae imeireul bonaesseoyo.",
+          "ko": "회사에 메일을 보냈어요.",
+          "romanization": "hoesae meireul bonaesseoyo.",
           "en": "I sent an email to the company.",
-          "note": "A company as an organization/place often takes 에, not 에게."
+          "note": "A place or organization takes 에, not 에게 — 에게 is only for people (and animals)."
         }
       ],
-      "exceptions": [
-        "For 'from a person', use 에게서 or 한테서: 친구에게서 들었어요.",
-        "Do not attach 에게 to objects: 선물에게 is wrong because 선물 is not the receiver person."
-      ]
+      "keyPoint": {
+        "label": "에게/한테 vs 께",
+        "body": "에게 and 한테 mean the same thing (한테 just sounds more casual). 께 is the honorific version for a respected person and usually rides with humble verbs like 드리다 and 여쭤보다."
+      },
+      "pronunciation": "께 is a tense [kk] sound, like the kk in 'bookkeeper' — 선생님께 is [seon-saeng-nim-kke], never a plain [g].",
+      "drill": {
+        "instruction": "Fill the blank with 에게/한테 or 께, then read the whole sentence aloud.",
+        "model": "친구___ 선물을 줬어요. → 친구에게 선물을 줬어요.",
+        "items": [
+          "선생님___ 메일을 드렸어요. (respected receiver)",
+          "동생___ 책을 빌려줬어요. (casual, spoken)",
+          "친구___ 전화했어요. (neutral)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "선물에게 줬어요.",
+        "right": "친구에게 선물을 줬어요.",
+        "explanation": "English 'gave to the gift' is obviously wrong, but learners attach 에게 to whatever follows 'to'. 에게 marks only the person receiver; the thing given takes the object particle 을/를."
+      }
     },
     {
-      "id": "gn-pattern-109",
-      "title": "와/과 / 하고 / (이)랑 — and or with",
-      "mentalModel": "These connect nouns. The same particle can mean 'and' in a list or 'with' when the sentence describes doing something together.",
-      "formation": "와 after a vowel-final noun, 과 after a consonant-final noun. 하고 attaches to any noun. 랑 follows a vowel-final noun, 이랑 follows a consonant-final noun.",
+      "title": "와/과 · 하고 · (이)랑 — and / with",
+      "func": "Links two nouns ('A and B') or marks the companion you do something with ('with A'). All three mean the same; they differ only in register.",
+      "formTable": [
+        {
+          "when": "After a vowel-final noun (written/tidy)",
+          "add": "noun + 와",
+          "ex": "커피 → 커피와 물 (coffee and water)"
+        },
+        {
+          "when": "After a consonant-final noun (written/tidy)",
+          "add": "noun + 과",
+          "ex": "책 → 책과 가방 (a book and a bag)"
+        },
+        {
+          "when": "Any noun (neutral spoken)",
+          "add": "noun + 하고",
+          "ex": "민수하고 (with Minsu)"
+        },
+        {
+          "when": "Vowel-final / consonant-final (casual spoken)",
+          "add": "noun + 랑 / 이랑",
+          "ex": "친구 → 친구랑 / 동생 → 동생이랑"
+        }
+      ],
       "examples": [
         {
           "ko": "친구랑 영화를 봐요.",
           "romanization": "chingurang yeonghwareul bwayo.",
           "en": "I watch a movie with a friend.",
-          "note": "랑 is natural in casual speech."
+          "note": "친구 ends in a vowel, so 랑; casual speech prefers (이)랑."
         },
         {
-          "ko": "민수하고 같이 준비했어요.",
-          "romanization": "minsuhago gachi junbihaesseoyo.",
-          "en": "I prepared it together with Minsu.",
-          "note": "하고 plus 같이 makes the 'with' meaning very clear."
+          "ko": "민수하고 같이 갔어요.",
+          "romanization": "minsuhago gachi gasseoyo.",
+          "en": "I went together with Minsu.",
+          "note": "하고 plus 같이 makes the 'with / together' reading unmistakable."
         },
         {
           "ko": "커피와 물을 샀어요.",
           "romanization": "keopiwa mureul sasseoyo.",
           "en": "I bought coffee and water.",
-          "note": "와/과 sounds more written or tidy."
+          "note": "커피 ends in a vowel → 와; this sounds tidy and slightly written."
         },
         {
-          "ko": "책하고 가방만 가져왔어요.",
-          "romanization": "chaekhago gabangman gajyeowasseoyo.",
+          "ko": "책과 가방만 가져왔어요.",
+          "romanization": "chaekgwa gabangman gajyeowasseoyo.",
           "en": "I brought only a book and a bag.",
-          "note": "하고 links nouns before another particle appears."
+          "note": "책 ends in a consonant → 과; the linker comes before the next particle 만."
         }
       ],
-      "exceptions": [
-        "These particles connect nouns, not full clauses. For 'and then' between actions, use a connective like -고.",
-        "When you mean doing something together, 같이 often removes ambiguity."
-      ]
+      "keyPoint": {
+        "label": "와/과 vs 하고 vs (이)랑",
+        "body": "Meaning is identical; register differs. 와/과 = neutral-to-written, 하고 = neutral spoken, (이)랑 = casual spoken. Add 같이 when you want 'with' to be clear over 'and'."
+      },
+      "pronunciation": "과 after a consonant tenses: 책과 sounds like [chaek-kkwa]; 와 after a vowel stays light, 커피와 [keo-pi-wa].",
+      "drill": {
+        "instruction": "Choose 와/과 or (이)랑 to match the final sound, then read it aloud.",
+        "model": "커피 ___ 물 → 커피와 물",
+        "items": [
+          "책 ___ 가방 (written, consonant-final)",
+          "친구 ___ 영화를 봐요 (casual, vowel-final)",
+          "동생 ___ 같이 갔어요 (casual, consonant-final)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "친구랑 영화를 보고 팝콘이랑 먹었어요.",
+        "right": "영화를 보고 팝콘을 먹었어요.",
+        "explanation": "와/과·하고·(이)랑 connect nouns, not actions. To join two verbs ('watch and eat'), use the connective -고, not these particles."
+      }
     },
     {
-      "id": "gn-pattern-110",
-      "title": "밖에 + negative — nothing but / only because there is no more",
-      "mentalModel": "밖에 is a limit with a negative ending. It feels like the options are restricted or insufficient.",
-      "formation": "Attach 밖에 to a noun, then use a negative idea such as 없어요, 안 해요, 못 해요, or -지 않아요.",
+      "title": "밖에 + negative — nothing but / only (and it's not enough)",
+      "func": "Marks a limit that always needs a negative predicate. It frames the amount as scarce or insufficient: 'nothing but X', 'only X (and that's all there is)'.",
+      "formTable": [
+        {
+          "when": "noun + 밖에 with 없다",
+          "add": "noun + 밖에 + 없어요",
+          "ex": "한 시간밖에 없어요 (I only have one hour)"
+        },
+        {
+          "when": "noun + 밖에 with 못",
+          "add": "noun + 밖에 + 못 V",
+          "ex": "물밖에 못 마셔요 (I can drink nothing but water)"
+        },
+        {
+          "when": "noun + 밖에 with 안 / -지 않다",
+          "add": "noun + 밖에 + 안 V",
+          "ex": "공부밖에 안 해요 (I do nothing but study)"
+        },
+        {
+          "when": "Replaces 이/가/을/를",
+          "add": "no subject/object particle before 밖에",
+          "ex": "이것밖에 없어요 (✓), 이것을밖에 (✗)"
+        }
+      ],
       "examples": [
         {
           "ko": "공부밖에 못 해요.",
           "romanization": "gongbubakke mot haeyo.",
           "en": "I can do nothing but study.",
-          "note": "못 해요 supplies the required negative meaning."
+          "note": "못 supplies the required negative; 밖에 alone can't stand with a positive verb."
         },
         {
           "ko": "한 시간밖에 없어요.",
           "romanization": "han siganbakke eopseoyo.",
           "en": "I only have one hour.",
-          "note": "밖에 emphasizes that the time is limited."
+          "note": "없어요 carries the negative and signals the time feels too short."
         },
         {
-          "ko": "방법이 이것밖에 없어요.",
-          "romanization": "bangbeobi igeotbakke eopseoyo.",
-          "en": "There is no way except this.",
-          "note": "A strong limited-choice frame."
+          "ko": "이 방법밖에 없어요.",
+          "romanization": "i bangbeopbakke eopseoyo.",
+          "en": "There's no way except this one.",
+          "note": "밖에 plus 없어요 = a forced, no-other-choice frame."
         },
         {
           "ko": "물밖에 못 마셔요.",
           "romanization": "mulbakke mot masyeoyo.",
           "en": "I can only drink water.",
-          "note": "밖에 pairs with 못."
+          "note": "물 takes 밖에 with no extra particle, paired with 못."
         }
       ],
-      "exceptions": [
-        "Do not say 공부밖에 해요. 밖에 needs a negative predicate.",
-        "If you just mean neutral 'only', use 만: 공부만 해요."
-      ]
+      "keyPoint": {
+        "label": "밖에 vs 만",
+        "body": "Both translate as 'only', but 밖에 demands a negative predicate and feels scarce/insufficient (공부밖에 못 해요), while 만 is neutral and takes a positive verb (공부만 해요). If you see a positive verb, you need 만, not 밖에."
+      },
+      "pronunciation": "밖에 links across the ㄲ: [ba-kke], so 공부밖에 is [gong-bu-ba-kke] and 한 시간밖에 is [han si-gan-ba-kke].",
+      "drill": {
+        "instruction": "Complete each sentence so the predicate is negative (못/안/없어요).",
+        "model": "공부밖에 ___ . → 공부밖에 못 해요.",
+        "items": [
+          "한 시간밖에 ___ . (there is none left)",
+          "물밖에 ___ 마셔요. (cannot)",
+          "이 방법밖에 ___ . (there is none)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "공부밖에 해요.",
+        "right": "공부밖에 못 해요. / 공부만 해요.",
+        "explanation": "Because English 'only' goes with positive verbs, learners drop the negative. 밖에 grammatically requires 못/안/없어요. If you want a plain positive 'only', switch to 만."
+      }
     },
     {
-      "id": "gn-pattern-111",
-      "title": "이나 / 나 — as many as, surprisingly much",
-      "mentalModel": "이나 after a number shows the amount feels bigger, longer, or more than expected.",
-      "formation": "Use 이나 after a consonant-final noun or number, 나 after a vowel-final noun or number.",
+      "title": "(이)나 — as many as / or",
+      "func": "After a number or amount it adds 'surprisingly much' (as many as); between two nouns it offers a loose choice ('A or B'). This chapter centers on the 'as many as' use.",
+      "formTable": [
+        {
+          "when": "After a consonant-final number/noun",
+          "add": "+ 이나",
+          "ex": "다섯 잔 → 다섯 잔이나 (as many as 5 cups)"
+        },
+        {
+          "when": "After a vowel-final number/noun",
+          "add": "+ 나",
+          "ex": "세 개 → 세 개나 (as many as 3)"
+        },
+        {
+          "when": "'A or B' (rough choice)",
+          "add": "noun(이)나 noun",
+          "ex": "커피나 물 (coffee or water)"
+        },
+        {
+          "when": "Loose suggestion ('or something')",
+          "add": "noun + (이)나",
+          "ex": "물이나 마실까요? (shall we just drink water or something?)"
+        }
+      ],
       "examples": [
         {
-          "ko": "시험 문제가 세 개나 남았어요.",
-          "romanization": "siheom munjega se gaena namasseoyo.",
-          "en": "As many as three exam questions are left.",
-          "note": "The speaker feels three is a lot."
+          "ko": "문제가 세 개나 남았어요.",
+          "romanization": "munjega se gaena namasseoyo.",
+          "en": "As many as three questions are left.",
+          "note": "개 ends in a vowel → 나; the speaker feels three is a lot."
         },
         {
           "ko": "커피를 다섯 잔이나 마셨어요.",
-          "romanization": "keopireul daseot janina masyeosseoyo.",
+          "romanization": "keopireul daseot jan-ina masyeosseoyo.",
           "en": "I drank as many as five cups of coffee.",
-          "note": "잔 ends in a consonant, so 잔이나."
+          "note": "잔 ends in a consonant → 이나; emphasizes the surprisingly high count."
         },
         {
           "ko": "한 시간이나 기다렸어요.",
           "romanization": "han siganina gidaryeosseoyo.",
-          "en": "I waited for a whole hour.",
-          "note": "The time feels long to the speaker."
+          "en": "I waited a whole hour.",
+          "note": "시간 ends in a consonant → 이나; the wait felt long."
         },
         {
-          "ko": "사람이 열 명이나 왔어요.",
-          "romanization": "sarami yeol myeongina wasseoyo.",
-          "en": "As many as ten people came.",
-          "note": "명 takes 이나 because it ends in a consonant."
+          "ko": "커피나 물 주세요.",
+          "romanization": "keopina mul juseyo.",
+          "en": "Give me coffee or water (either is fine).",
+          "note": "Here (이)나 means a loose 'or' between two acceptable options."
         }
       ],
-      "exceptions": [
-        "이나 can have other meanings, such as 'or' in choices, but this chapter uses the surprising-amount meaning.",
-        "Do not confuse 이나 with 이라도. 커피를 다섯 잔이나 means the amount is surprisingly high; 커피라도 means coffee is a minimum option."
-      ]
+      "keyPoint": {
+        "label": "(이)나 vs 밖에",
+        "body": "Both attach to amounts but pull opposite ways. 다섯 잔이나 = the amount feels big (more than expected); 다섯 잔밖에 못 마셨어요 = the amount feels small (less than wanted). 나 says 'wow, that much'; 밖에 says 'only that little'."
+      },
+      "pronunciation": "이나/나 trigger no special tensing; just match the final sound: 개나 [gae-na], 잔이나 [jan-i-na].",
+      "drill": {
+        "instruction": "Add 이나 or 나 to the number to mean 'as many as'.",
+        "model": "세 개 ___ 남았어요. → 세 개나 남았어요.",
+        "items": [
+          "다섯 잔 ___ 마셨어요. (consonant-final)",
+          "한 시간 ___ 기다렸어요. (consonant-final)",
+          "열 명 ___ 왔어요. (consonant-final)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "세 개나밖에 남았어요.",
+        "right": "세 개나 남았어요. / 세 개밖에 안 남았어요.",
+        "explanation": "Learners blend the two because both attach to numbers. Pick one stance: 나 = surprisingly many (positive verb), 밖에 = surprisingly few (negative verb). They cannot stack."
+      }
     },
     {
-      "id": "gn-pattern-112",
-      "title": "이라도 / 라도 — at least; even if only",
-      "mentalModel": "라도 offers a minimum option when the ideal option is unavailable or uncertain.",
-      "formation": "Use 이라도 after a consonant-final noun and 라도 after a vowel-final noun.",
-      "examples": [
+      "title": "(이)라도 — at least; even if only",
+      "func": "Offers a minimum or fallback option when the ideal one isn't available: 'at least X', 'even if only X', 'X if nothing else'.",
+      "formTable": [
         {
-          "ko": "커피라도 마실래요?",
-          "romanization": "keopirado masillaeyo?",
-          "en": "Do you want to at least drink coffee?",
-          "note": "Coffee is a small possible option, not the full plan."
+          "when": "After a vowel-final noun",
+          "add": "noun + 라도",
+          "ex": "커피 → 커피라도 (coffee, if nothing else)"
         },
         {
-          "ko": "잠깐이라도 만나고 싶어요.",
-          "romanization": "jamkkanirado mannago sipeoyo.",
-          "en": "I want to meet even if only for a moment.",
-          "note": "이라도 makes a small amount feel worthwhile."
+          "when": "After a consonant-final noun",
+          "add": "noun + 이라도",
+          "ex": "물 → 물이라도 (at least water)"
         },
         {
-          "ko": "작은 선물이라도 준비하면 좋겠어요.",
-          "romanization": "jageun seonmurirado junbihamyeon jokesseoyo.",
-          "en": "It would be good to prepare at least a small gift.",
-          "note": "선물 ends in a consonant, so 선물이라도."
+          "when": "With a suggestion (-(으)ㄹ까요? / -읍시다)",
+          "add": "noun(이)라도 + suggestion",
+          "ex": "물이라도 마실까요? (shall we at least drink some water?)"
         },
         {
-          "ko": "물이라도 드릴까요?",
-          "romanization": "murirado deurilkkayo?",
-          "en": "Should I at least bring you water?",
-          "note": "A polite minimum offer."
+          "when": "'even a little' with time/amount",
+          "add": "amount + (이)라도",
+          "ex": "잠깐이라도 쉬세요 (rest, even for a moment)"
         }
       ],
-      "exceptions": [
-        "라도 is not the same as 도. 선물도 means 'a gift too'; 선물이라도 means 'at least a gift.'",
-        "라도 often sounds like a fallback, compromise, or minimum acceptable option."
-      ]
+      "examples": [
+        {
+          "ko": "시간 없으면 물이라도 마셔요.",
+          "romanization": "sigan eopseumyeon murirado masyeoyo.",
+          "en": "If you don't have time, at least drink some water.",
+          "note": "물 is consonant-final → 이라도; water is the fallback when there's no time for more."
+        },
+        {
+          "ko": "커피라도 한잔할까요?",
+          "romanization": "keopirado hanjanhalkkayo?",
+          "en": "Shall we at least grab a coffee?",
+          "note": "커피 is vowel-final → 라도; offers coffee as a modest plan."
+        },
+        {
+          "ko": "잠깐이라도 쉬세요.",
+          "romanization": "jamkkanirado swiseyo.",
+          "en": "Rest, even for just a moment.",
+          "note": "잠깐 is consonant-final → 이라도; 'even a little' time is better than none."
+        },
+        {
+          "ko": "버스라도 타고 가요.",
+          "romanization": "beoseurado tago gayo.",
+          "en": "Let's at least take the bus (go by bus).",
+          "note": "버스 is vowel-final → 라도; the bus is the second-best option."
+        }
+      ],
+      "keyPoint": {
+        "label": "(이)라도 vs 만",
+        "body": "만 picks X as the exclusive choice ('only X'); (이)라도 picks X as a settling-for second choice ('X if nothing better'). 물만 마셔요 = I drink only water (by choice); 물이라도 마셔요 = at least drink water (since there's nothing else)."
+      },
+      "pronunciation": "(이)라도 is light with no tensing; just link smoothly: 물이라도 [mu-ri-ra-do], 커피라도 [keo-pi-ra-do].",
+      "drill": {
+        "instruction": "Add 라도 or 이라도 to the noun to mean 'at least / if nothing else'.",
+        "model": "커피 ___ 마실까요? → 커피라도 마실까요?",
+        "items": [
+          "물 ___ 드세요. (consonant-final)",
+          "버스 ___ 타고 가요. (vowel-final)",
+          "잠깐 ___ 쉬세요. (consonant-final)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "물이라도만 마셔요.",
+        "right": "물이라도 마셔요. / 물만 마셔요.",
+        "explanation": "(이)라도 and 만 express opposite attitudes (settling vs. exclusive), so they don't stack. Choose 이라도 for 'at least, if nothing else' or 만 for 'only, by choice'."
+      }
     },
     {
-      "id": "gn-pattern-118",
-      "title": "의 — possession and noun-to-noun link",
-      "mentalModel": "의 links one noun to another: whose thing, what kind of thing, or what the second noun belongs to.",
-      "formation": "N의 N. In speech, 의 is often reduced or dropped, and pronouns contract: 저의 → 제, 나의 → 내.",
-      "examples": [
+      "title": "의 — 's / of (noun-to-noun link)",
+      "func": "의 links two nouns to show possession or relationship, like English \"'s\" or \"of\": 친구의 가방 (a friend's bag). In speech it is usually dropped (친구 가방), and 저의/나의 contract to 제/내.",
+      "formTable": [
         {
-          "ko": "친구의 책을 돌려줘야 해요.",
-          "romanization": "chinguui chaegeul dollyeojwoya haeyo.",
-          "en": "I need to return my friend's book.",
-          "note": "친구의 책 marks whose book it is."
+          "when": "noun + 의 + noun (possession)",
+          "add": "의",
+          "ex": "친구의 책 (a friend's book) · 한국의 음식 (Korea's food)"
         },
         {
-          "ko": "제 이름도 적었어요.",
-          "romanization": "je ireumdo jeogeosseoyo.",
-          "en": "I wrote my name too.",
-          "note": "제 is the spoken contraction of 저의."
+          "when": "저/나 + 의 contract",
+          "add": "제 / 내",
+          "ex": "저의 → 제 · 나의 → 내"
         },
         {
-          "ko": "오늘의 계획은 공부예요.",
-          "romanization": "oneurui gyehoegeun gongbuyeyo.",
-          "en": "Today's plan is studying.",
-          "note": "의 can link a time noun to a plan or topic."
-        },
-        {
-          "ko": "친구 가방이에요.",
-          "romanization": "chingu gabangieyo.",
-          "en": "It is my friend's bag.",
-          "note": "In speech, 의 is often dropped."
+          "when": "Usually dropped in speech",
+          "add": "(no 의)",
+          "ex": "친구 가방 = 친구의 가방"
         }
       ],
-      "exceptions": [
-        "Do not overuse 의 in every noun pair. 친구 집 and 한국어 수업 are natural without 의.",
-        "Pronouns are special: 저의 almost always becomes 제 in normal speech."
-      ]
+      "examples": [
+        {
+          "ko": "이건 친구의 책이에요.",
+          "romanization": "igeon chinguui chaegieyo.",
+          "en": "This is my friend's book.",
+          "note": "친구 + 의 + 책 — the first noun owns the second."
+        },
+        {
+          "ko": "제 가방이 어디 있어요?",
+          "romanization": "je gabangi eodi isseoyo?",
+          "en": "Where is my bag?",
+          "note": "저의 contracts to 제 — the everyday way to say \"my.\""
+        },
+        {
+          "ko": "한국의 음식을 좋아해요.",
+          "romanization": "han-gugui eumsigeul joahaeyo.",
+          "en": "I like Korean food.",
+          "note": "의 links 한국 to 음식 (\"of Korea\")."
+        },
+        {
+          "ko": "동생 방이 정말 커요.",
+          "romanization": "dongsaeng bangi jeongmal keoyo.",
+          "en": "My sibling's room is really big.",
+          "note": "In speech the 의 is dropped — 동생 방 = 동생의 방."
+        }
+      ],
+      "keyPoint": {
+        "label": "Drop 의 in speech; contract 저의 → 제",
+        "body": "Written Korean keeps 의 (친구의 책), but spoken Korean usually drops it (친구 책). The one place it survives is the contractions 제 (저의), 내 (나의), 네 (너의) — always say 제 책, not 저의 책 in conversation."
+      },
+      "pronunciation": "의 as a particle is pronounced [에]: 친구의 → [친구에]. (의 keeps its [의] sound only at the start of a word, like 의자.)",
+      "drill": {
+        "instruction": "Link the two nouns with 의 (or its contraction).",
+        "model": "(친구 / 책) → 친구의 책 · (저 / 가방) → 제 가방",
+        "items": [
+          "(동생 / 방) → ______",
+          "(저 / 친구) → ______",
+          "(한국 / 음식) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저의 가방",
+        "right": "제 가방",
+        "explanation": "In speech, 저의 always shrinks to 제. Say 제 가방 (my bag), not 저의 가방 — the full form sounds stiff and written."
+      }
     },
     {
-      "id": "gn-pattern-139",
-      "title": "도 — also / too / even",
-      "mentalModel": "도 adds something to an existing set. It can replace subject, object, or topic particles, and it can stack after place/time particles.",
-      "formation": "Attach 도 directly to the noun when it replaces 은/는/이/가/을/를. After place particles, use 에도 or 에서도.",
-      "examples": [
+      "title": "(으)로 — by means of / toward (direction)",
+      "func": "Marks how you do something (tool, means, transport) or which direction you head: 'by/with X', 'toward X'.",
+      "formTable": [
         {
-          "ko": "영화도 보러 가요?",
-          "romanization": "yeonghwado boreo gayo?",
-          "en": "Are you also going to see a movie?",
-          "note": "도 adds movie to another plan or activity."
+          "when": "After a vowel-final noun",
+          "add": "noun + 로",
+          "ex": "버스 → 버스로 (by bus)"
         },
         {
-          "ko": "선생님께 이메일도 드렸어요.",
-          "romanization": "seonsaengnimkke imeildo deuryeosseoyo.",
-          "en": "I also sent the teacher an email.",
-          "note": "도 replaces 을/를 after 이메일."
+          "when": "After a consonant-final noun",
+          "add": "noun + 으로",
+          "ex": "손 → 손으로 (with one's hand)"
         },
         {
-          "ko": "친구도 시간이 없어요.",
-          "romanization": "chingudo sigani eopseoyo.",
-          "en": "My friend does not have time either.",
-          "note": "도 replaces 이/가 after 친구."
+          "when": "After a ㄹ-final noun (no 으)",
+          "add": "noun + 로",
+          "ex": "지하철 → 지하철로 (by subway)"
         },
         {
-          "ko": "카페에서도 공부했어요.",
-          "romanization": "kapeeseodo gongbuhaesseoyo.",
-          "en": "I studied at the cafe too.",
-          "note": "도 stacks after 에서."
+          "when": "Direction (toward)",
+          "add": "place + (으)로",
+          "ex": "오른쪽으로 가세요 (go to the right)"
         }
       ],
-      "exceptions": [
-        "Do not keep 을/를 before 도: 이메일을도 is wrong; say 이메일도.",
-        "도 can mean 'even' in some contexts, but start with 'also/too' at this level."
-      ]
+      "examples": [
+        {
+          "ko": "버스로 학교에 가요.",
+          "romanization": "beoseuro hakgyoe gayo.",
+          "en": "I go to school by bus.",
+          "note": "버스 is vowel-final → 로; (으)로 marks the means of transport."
+        },
+        {
+          "ko": "손으로 먹었어요.",
+          "romanization": "soneuro meogeosseoyo.",
+          "en": "I ate with my hands.",
+          "note": "손 is consonant-final → 으로; the hand is the means/tool."
+        },
+        {
+          "ko": "지하철로 갈아탔어요.",
+          "romanization": "jihacheollo garatasseoyo.",
+          "en": "I transferred to the subway.",
+          "note": "지하철 ends in ㄹ, so just 로 (no 으); pronounced [ji-ha-cheol-lo]."
+        },
+        {
+          "ko": "이쪽으로 오세요.",
+          "romanization": "ijjogeuro oseyo.",
+          "en": "Come this way.",
+          "note": "이쪽 is consonant-final → 으로; here it marks direction, not means."
+        }
+      ],
+      "keyPoint": {
+        "label": "(으)로 vs 에 (destination)",
+        "body": "에 marks the exact destination you arrive at (학교에 가요 = go to school); (으)로 marks the direction you face or the means you use (학교로 가요 = head toward school; 버스로 가요 = go by bus). For transport and tools, always (으)로, never 에."
+      },
+      "pronunciation": "After ㄹ the 로 doubles the ㄹ: 지하철로 is [ji-ha-cheol-lo], not [ji-ha-cheol-ro].",
+      "drill": {
+        "instruction": "Add 로 or 으로 to match the final sound, then read it aloud.",
+        "model": "버스 ___ 가요. → 버스로 가요.",
+        "items": [
+          "손 ___ 먹어요. (consonant-final)",
+          "지하철 ___ 가요. (ㄹ-final, just 로)",
+          "오른쪽 ___ 가세요. (consonant-final, direction)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "버스에 학교에 가요.",
+        "right": "버스로 학교에 가요.",
+        "explanation": "English uses 'by bus' / 'to school' with no particle clash, but in Korean the means takes (으)로 and the destination takes 에. Don't put 에 on the transport — 버스에 가요 would mean 'go onto the bus'."
+      }
     },
     {
-      "id": "gn-pattern-140",
-      "title": "만 — only / just",
-      "mentalModel": "만 limits the focus neutrally. It does not require a negative ending.",
-      "formation": "Attach 만 directly to the noun or quantity. It replaces 은/는/이/가/을/를, but follows place/time particles such as 에서만.",
-      "examples": [
+      "title": "마다 — every / each",
+      "func": "Attaches to a noun to mean 'every X' or 'each X', often for repeated times or all members of a group: 'every morning', 'each person'.",
+      "formTable": [
         {
-          "ko": "한 시간만 쉬고 싶어요.",
-          "romanization": "han siganman swigo sipeoyo.",
-          "en": "I want to rest for just one hour.",
-          "note": "만 limits the amount of time."
+          "when": "After a time noun",
+          "add": "noun + 마다",
+          "ex": "아침 → 아침마다 (every morning)"
         },
         {
-          "ko": "커피만 마셨어요.",
-          "romanization": "keopiman masyeosseoyo.",
-          "en": "I only drank coffee.",
-          "note": "Positive predicate is fine with 만."
+          "when": "After a counted unit",
+          "add": "unit + 마다",
+          "ex": "세 시간 → 세 시간마다 (every three hours)"
         },
         {
-          "ko": "책만 가져왔어요.",
-          "romanization": "chaengman gajyeowasseoyo.",
-          "en": "I brought only the book.",
-          "note": "만 replaces 을/를."
+          "when": "After a person/thing noun",
+          "add": "noun + 마다",
+          "ex": "사람 → 사람마다 (each person)"
         },
         {
-          "ko": "집에서만 공부해요.",
-          "romanization": "jibeseoman gongbuhaeyo.",
-          "en": "I study only at home.",
-          "note": "After 에서, 만 stacks: 에서만."
+          "when": "With a place noun",
+          "add": "place + 마다",
+          "ex": "나라 → 나라마다 (every country)"
         }
       ],
-      "exceptions": [
-        "만 is neutral; 밖에 feels limited and needs a negative: 커피만 마셨어요 vs 커피밖에 못 마셨어요.",
-        "Do not attach both object particle and 만: 책을만 is not the normal form; say 책만."
-      ]
+      "examples": [
+        {
+          "ko": "아침마다 커피를 마셔요.",
+          "romanization": "achimmada keopireul masyeoyo.",
+          "en": "I drink coffee every morning.",
+          "note": "아침 + 마다 = 'every morning'; no extra time particle is needed."
+        },
+        {
+          "ko": "주말마다 친구를 만나요.",
+          "romanization": "jumalmada chingureul mannayo.",
+          "en": "I meet my friends every weekend.",
+          "note": "마다 attaches straight to 주말; it already means 'every', so don't add 에."
+        },
+        {
+          "ko": "사람마다 생각이 달라요.",
+          "romanization": "sarammada saenggagi dallayo.",
+          "en": "Each person thinks differently.",
+          "note": "사람마다 = 'each/every person'; great for talking about variation."
+        },
+        {
+          "ko": "세 시간마다 약을 먹어요.",
+          "romanization": "se siganmada yageul meogeoyo.",
+          "en": "I take medicine every three hours.",
+          "note": "마다 after a counted unit gives regular intervals."
+        }
+      ],
+      "keyPoint": {
+        "label": "마다 vs 매-",
+        "body": "마다 is a particle stuck onto a noun (아침마다, 날마다). 매 is a prefix glued in front (매일 = every day, 매주 = every week). Both mean 'every', but 매 forms set words while 마다 attaches freely to almost any noun."
+      },
+      "pronunciation": "마다 is plain and light: 아침마다 [a-chim-ma-da], 주말마다 [ju-mal-ma-da]. No tensing or linking surprises.",
+      "drill": {
+        "instruction": "Add 마다 to the noun to mean 'every / each'.",
+        "model": "아침 ___ 커피를 마셔요. → 아침마다 커피를 마셔요.",
+        "items": [
+          "주말 ___ 친구를 만나요. (every weekend)",
+          "사람 ___ 생각이 달라요. (each person)",
+          "세 시간 ___ 약을 먹어요. (every three hours)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "아침마다에 커피를 마셔요.",
+        "right": "아침마다 커피를 마셔요.",
+        "explanation": "마다 already carries the 'at every' meaning, so adding the time particle 에 is redundant and wrong. Use 마다 alone — never 마다에."
+      }
     }
   ],
   "extendedVocabulary": [

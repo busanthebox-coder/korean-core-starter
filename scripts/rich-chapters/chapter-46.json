@@ -11,179 +11,359 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-141",
-      "title": "N이었어요 / 였어요 — past identity or past state",
-      "mentalModel": "이다 is the verb inside noun sentences. In the past, it tells the listener what the person, day, job, or situation used to be.",
-      "formation": "Use 이었어요 after a consonant-final noun and 였어요 after a vowel-final noun. 아니다 becomes 아니었어요.",
-      "examples": [
+      "title": "N이었어요 / N였어요 — \"It was an N\" (past of 이다)",
+      "func": "Says what something was in the past — an identity, role, or category that was true before now: \"It was my birthday,\" \"She was a student,\" \"Yesterday was the weekend.\" It is just 이다 put into the past polite form.",
+      "formTable": [
         {
-          "ko": "작년에는 학생이었어요.",
-          "romanization": "jangnyeoneneun haksaengieosseoyo.",
-          "en": "I was a student last year.",
-          "note": "학생 ends in a consonant, so it takes 이었어요."
+          "when": "Noun ends in a consonant (받침)",
+          "add": "N + 이었어요",
+          "ex": "학생 → 학생이었어요 (was a student)"
         },
         {
-          "ko": "전에는 회사원이었어요.",
-          "romanization": "jeoneneun hoesawonieosseoyo.",
-          "en": "I used to be an office worker.",
-          "note": "회사원 is a role noun, so it fits this chapter directly."
+          "when": "Noun ends in a vowel",
+          "add": "N + 였어요 (shortened from 이었어요)",
+          "ex": "친구 → 친구였어요 (was a friend)"
         },
         {
-          "ko": "어제는 휴가였어요.",
-          "romanization": "eoje-neun hyugayeosseoyo.",
-          "en": "Yesterday was a day off / vacation day.",
-          "note": "휴가 ends in a vowel, so it takes 였어요."
+          "when": "Casual 반말 past",
+          "add": "N이었어 / N였어",
+          "ex": "주말이었어 / 친구였어 (was the weekend / was a friend)"
         },
         {
-          "ko": "그분은 의사가 아니었어요.",
-          "romanization": "geubuneun uisaga anieosseoyo.",
-          "en": "That person was not a doctor.",
-          "note": "The negative past of 이다 is 아니었어요, not 안 이었어요."
+          "when": "Negative past (was not N)",
+          "add": "N이/가 아니었어요",
+          "ex": "학생이 아니었어요 (wasn't a student)"
         }
       ],
-      "exceptions": [
-        "Do not use 했어요 just because English says 'was'. 학생했어요 is wrong because 학생 is a noun, not an action."
-      ]
+      "examples": [
+        {
+          "ko": "어제는 제 생일이었어요.",
+          "romanization": "eojeneun je saengirieosseoyo.",
+          "en": "Yesterday was my birthday.",
+          "note": "생일 ends in a consonant (ㄹ), so it takes the full 이었어요."
+        },
+        {
+          "ko": "그 사람은 제 친구였어요.",
+          "romanization": "geu sarameun je chinguyeosseoyo.",
+          "en": "That person was my friend.",
+          "note": "친구 ends in a vowel, so 이었어요 shortens to 였어요."
+        },
+        {
+          "ko": "작년에는 저도 학생이었어요.",
+          "romanization": "jangnyeoneneun jeodo haksaengieosseoyo.",
+          "en": "Last year I was a student too.",
+          "note": "학생 ends in a consonant → 이었어요; 작년 (last year) sets the past time."
+        },
+        {
+          "ko": "그건 제 우산이 아니었어요.",
+          "romanization": "geugeon je usani anieosseoyo.",
+          "en": "That wasn't my umbrella.",
+          "note": "Past negative uses 아니다 → 아니었어요, never 였어요."
+        }
+      ],
+      "keyPoint": {
+        "label": "이었어요 vs 였어요 — just a sound rule",
+        "body": "Both are the same past form of 이다. After a consonant, keep the full 이었어요 (학생이었어요). After a vowel, 이었어요 shrinks to 였어요 (친구였어요). The meaning is identical — only the spelling and sound change, based on the noun's final letter."
+      },
+      "pronunciation": "학생이었어요 links across the boundary and sounds like [학쌩이어써요]; 친구였어요 sounds like [친구여써요].",
+      "drill": {
+        "instruction": "Add the correct past form (이었어요 or 였어요) to each noun.",
+        "model": "학생 → 학생이었어요",
+        "items": [
+          "가수 → ____ (was a singer)",
+          "선생님 → ____ (was a teacher)",
+          "주말 → ____ (was the weekend)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "학생였어요",
+        "right": "학생이었어요",
+        "explanation": "Learners grab 였어요 because it is shorter, but 였어요 only attaches to vowel-final nouns. 학생 ends in a consonant, so it needs the full 이었어요. Choose the ending by the noun's last letter, not by what is easier to say."
+      }
     },
     {
-      "id": "gn-pattern-142",
-      "title": "N인데 / N인데도 — noun background and soft contrast",
-      "mentalModel": "N인데 gives the listener background before the real point. N인데도 adds 'even though this is true'.",
-      "formation": "N이다 + -(으)ㄴ데 becomes 인데 for nouns. Add 도 for contrast: N인데도.",
-      "examples": [
+      "title": "N인데 / N인데도 — \"it's N, and… / even though it's N\"",
+      "func": "Attaches to a noun to set the scene before the main clause: \"It's the weekend, so…/and…\" (인데), or to mark a mild contrast \"even though it's N\" (인데도). 인데 softens a statement and leads into the rest; 인데도 adds \"despite that.\"",
+      "formTable": [
         {
-          "ko": "저는 직원인데요, 담당자는 아니에요.",
-          "romanization": "jeoneun jigwonindeyo, damdangjaneun anieyo.",
-          "en": "I am an employee, but I am not the person in charge.",
-          "note": "인데요 softens the background before the main point."
+          "when": "Noun (any ending) + background / lead-in",
+          "add": "N + 인데",
+          "ex": "학생인데… (I'm a student, so/and…)"
         },
         {
-          "ko": "지금은 회사원인데 계속 공부해요.",
-          "romanization": "jigeumeun hoesawoninde gyesok gongbuhaeyo.",
-          "en": "I am an office worker now, and I still study.",
-          "note": "The role noun sets up why the next sentence matters."
+          "when": "Noun + \"even though it's N\"",
+          "add": "N + 인데도",
+          "ex": "주말인데도 (even though it's the weekend)"
         },
         {
-          "ko": "회사원인데도 한국어를 계속 공부해요.",
-          "romanization": "hoesawonindedo hangugeoreul gyesok gongbuhaeyo.",
-          "en": "Even though I am an office worker, I keep studying Korean.",
-          "note": "인데도 highlights contrast: busy role, continued study."
+          "when": "Past noun background",
+          "add": "N + 이었는데 / 였는데",
+          "ex": "친구였는데 (we were friends, but…)"
         },
         {
-          "ko": "오늘은 평일인데 사람이 많아요.",
-          "romanization": "oneureun pyeongirinde sarami manayo.",
-          "en": "It is a weekday, but there are many people.",
-          "note": "Time nouns also work with 인데 when the time itself is the background."
+          "when": "Polite sentence-ender (soft \"it's N, but…\")",
+          "add": "N + 인데요",
+          "ex": "여기 제 자리인데요. (Um, this is my seat…)"
         }
       ],
-      "exceptions": [
-        "인데 is not a full-stop ending for a strong statement. It usually expects a continuation, a reaction, or a softened next point."
-      ]
+      "examples": [
+        {
+          "ko": "오늘은 주말인데 어디 갈까요?",
+          "romanization": "oneureun jumarinde eodi galkkayo?",
+          "en": "It's the weekend today, so where shall we go?",
+          "note": "인데 gives the noun (주말) as background leading into a suggestion."
+        },
+        {
+          "ko": "저는 처음인데 잘 부탁해요.",
+          "romanization": "jeoneun cheoeuminde jal butakaeyo.",
+          "en": "It's my first time, so please be kind to me.",
+          "note": "처음 (first time) + 인데 sets up the polite request."
+        },
+        {
+          "ko": "주말인데도 회사에 가요.",
+          "romanization": "jumarindedo hoesae gayo.",
+          "en": "Even though it's the weekend, I go to work.",
+          "note": "인데도 = 인데 + 도, marking contrast: \"despite it being the weekend.\""
+        },
+        {
+          "ko": "같은 반인데 이름을 몰라요.",
+          "romanization": "gateun baninde ireumeul mollayo.",
+          "en": "We're in the same class, but I don't know their name.",
+          "note": "인데 here leans contrastive — \"it's the case that…, yet…\""
+        }
+      ],
+      "keyPoint": {
+        "label": "인데 vs 인데도",
+        "body": "인데 is neutral: it just hands you a noun-fact as a lead-in, and context decides whether it means \"so\" or \"but.\" 인데도 is clearly concessive — it always means \"even though it's N,\" and the next clause is something surprising. Add 도 only when you want the firm \"despite\" feeling."
+      },
+      "pronunciation": "인데 sounds like [인데] with no change; 인데도 sounds like [인데도], the 도 stays plain.",
+      "drill": {
+        "instruction": "Turn each noun into a background clause with 인데, then say the 인데도 version.",
+        "model": "방학 → 방학인데 / 방학인데도",
+        "items": [
+          "생일 → ____ / ____",
+          "월요일 → ____ / ____",
+          "처음 → ____ / ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "학생는데",
+        "right": "학생인데",
+        "explanation": "인데 comes from 이다, so a noun needs the 이 (학생 + 이 + ㄴ데 → 학생인데). Learners drop the 인 and stick 는데 straight onto the noun as if it were a verb. 는데 is for verbs and adjectives; 인데 is the noun version."
+      }
     },
     {
-      "id": "gn-pattern-143",
-      "title": "N이라서 / 라서 — because it is N",
-      "mentalModel": "라서 explains the cause quietly. The reason is the noun itself: role, day, time, identity, or category.",
-      "formation": "Use 이라서 after a consonant-final noun and 라서 after a vowel-final noun.",
-      "examples": [
+      "title": "N이라서 / 라서 — \"because it is N\"",
+      "func": "Gives a reason that is a noun fact: \"Because it's the weekend, the shop is closed,\" \"Because I'm a beginner, it's hard.\" It is the 이다 version of the reason ending -아서/어서.",
+      "formTable": [
         {
-          "ko": "회사원이라서 한국어가 더 필요해요.",
-          "romanization": "hoesawoniraseo hangugeoga deo piryohaeyo.",
-          "en": "Because I am an office worker, I need Korean more.",
-          "note": "The job role explains the need."
+          "when": "Noun ends in a consonant",
+          "add": "N + 이라서",
+          "ex": "학생이라서 (because I'm a student)"
         },
         {
-          "ko": "주말이라서 시간이 조금 있어요.",
-          "romanization": "jumariraseo sigani jogeum isseoyo.",
-          "en": "Because it is the weekend, I have a little time.",
-          "note": "The time noun explains the schedule."
+          "when": "Noun ends in a vowel",
+          "add": "N + 라서",
+          "ex": "친구라서 (because we're friends)"
         },
         {
-          "ko": "평일이라서 오래 못 해요.",
-          "romanization": "pyeongiriraseo orae mot haeyo.",
-          "en": "Because it is a weekday, I cannot do it for long.",
-          "note": "평일 naturally pairs with limits on time."
+          "when": "More formal / written-sounding reason",
+          "add": "N + 이어서 / 여서",
+          "ex": "주말이어서 (because it's the weekend)"
         },
         {
-          "ko": "학생이라서 할인을 받을 수 있어요.",
-          "romanization": "haksaengiraseo harineul badeul su isseoyo.",
-          "en": "Because I am a student, I can get a discount.",
-          "note": "학생 and 할인 are a useful real-life pair."
+          "when": "Reason for a noun negative",
+          "add": "N이/가 아니라서",
+          "ex": "가족이 아니라서 (because I'm not family)"
         }
       ],
-      "exceptions": [
-        "Use 해서/하니까 for actions: 공부해서 피곤해요, not 공부이라서 피곤해요 when you mean 'because I studied'."
-      ]
+      "examples": [
+        {
+          "ko": "오늘은 주말이라서 가게가 쉬어요.",
+          "romanization": "oneureun jumariraseo gagega swieoyo.",
+          "en": "Because it's the weekend today, the shop is closed.",
+          "note": "주말 ends in a consonant → 이라서."
+        },
+        {
+          "ko": "저는 초보라서 천천히 할게요.",
+          "romanization": "jeoneun chobolaseo cheoncheonhi halgeyo.",
+          "en": "Because I'm a beginner, I'll go slowly.",
+          "note": "초보 ends in a vowel → 라서."
+        },
+        {
+          "ko": "평일이라서 사람이 없어요.",
+          "romanization": "pyeongiriraseo sarami eopseoyo.",
+          "en": "Because it's a weekday, there's nobody around.",
+          "note": "평일 (consonant-final) + 이라서 gives the reason."
+        },
+        {
+          "ko": "가족이 아니라서 못 들어가요.",
+          "romanization": "gajogi aniraseo mot deureogayo.",
+          "en": "Because I'm not family, I can't go in.",
+          "note": "Noun negative reason: 아니다 → 아니라서."
+        }
+      ],
+      "keyPoint": {
+        "label": "이라서 vs verb -아서/어서",
+        "body": "For verbs and adjectives you say -아서/어서 (먹어서, 좋아서). For nouns you must run the reason through 이다 → 이라서/라서. So \"because it's a student\" is 학생이라서, never 학생어서. Reach for the noun form whenever the reason is a noun."
+      },
+      "pronunciation": "학생이라서 sounds like [학쌩이라서]. The [쌩] is just how 학생 is always said — the ㄱ받침 of 학 tenses the 생; 이라서 itself adds no new tensing.",
+      "drill": {
+        "instruction": "Give the reason form (이라서 or 라서) for each noun.",
+        "model": "주말 → 주말이라서",
+        "items": [
+          "겨울 → ____ (because it's winter)",
+          "친구 → ____ (because we're friends)",
+          "처음 → ____ (because it's the first time)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "주말이어서 가게가 쉬어요 (said casually)",
+        "right": "주말이라서 가게가 쉬어요",
+        "explanation": "이어서/여서 is correct grammar but sounds formal or bookish in speech. In everyday conversation Koreans overwhelmingly say 이라서/라서. Both are right; pick 이라서/라서 to sound natural when you're talking."
+      }
     },
     {
-      "id": "gn-pattern-144",
-      "title": "N이니까 / 니까 — since it is N, so...",
-      "mentalModel": "니까 feels more like a reason you can act on. It often leads into a suggestion, decision, permission, or conclusion.",
-      "formation": "Use 이니까 after a consonant-final noun and 니까 after a vowel-final noun.",
-      "examples": [
+      "title": "N이니까 / 니까 — \"since it is N, so…\"",
+      "func": "Gives a reason with a \"since you know this, therefore let's…\" feel — strong for backing up a command, suggestion, or decision: \"Since it's the weekend, let's study,\" \"Since it's my birthday, I'll treat you.\" It is the 이다 version of -(으)니까.",
+      "formTable": [
         {
-          "ko": "주말이니까 한 시간이라도 공부해요.",
-          "romanization": "jumarinikka han siganirado gongbuhaeyo.",
-          "en": "Since it is the weekend, let's study even if just for one hour.",
-          "note": "주말이니까 gives the reason for the decision."
+          "when": "Noun ends in a consonant",
+          "add": "N + 이니까",
+          "ex": "주말이니까 (since it's the weekend)"
         },
         {
-          "ko": "학생이니까 질문해도 괜찮아요.",
-          "romanization": "haksaenginikka jilmunhaedo gwaenchanayo.",
-          "en": "Since you are a student, it is okay to ask questions.",
-          "note": "The role supports permission."
+          "when": "Noun ends in a vowel",
+          "add": "N + 니까",
+          "ex": "친구니까 (since we're friends)"
         },
         {
-          "ko": "평일이니까 아침에만 조금 해요.",
-          "romanization": "pyeongirinikka achimenman jogeum haeyo.",
-          "en": "Since it is a weekday, I only do a little in the morning.",
-          "note": "The time noun leads to a practical limit."
+          "when": "Leading a suggestion / command",
+          "add": "N이니까 + ~해요/하세요",
+          "ex": "주말이니까 같이 공부해요 (it's the weekend, so let's study together)"
         },
         {
-          "ko": "올해는 회사원이니까 업무 표현이 필요해요.",
-          "romanization": "olhaeneun hoesawoninikka eommu pyohyeoni piryohaeyo.",
-          "en": "Since I am an office worker this year, I need work expressions.",
-          "note": "올해 and 회사원 make the reason feel anchored in the learner's situation."
+          "when": "Noun negative reason",
+          "add": "N이/가 아니니까",
+          "ex": "애기가 아니니까 (since you're not a baby)"
         }
       ],
-      "exceptions": [
-        "이라서 and 이니까 can both mean 'because', but 이니까 often sounds more assertive or action-oriented. Use 라서 for a soft explanation; use 니까 when the reason supports what you will do next."
-      ]
+      "examples": [
+        {
+          "ko": "오늘은 주말이니까 같이 공부해요.",
+          "romanization": "oneureun jumarinikka gachi gongbuhaeyo.",
+          "en": "Since it's the weekend today, let's study together.",
+          "note": "주말 (consonant-final) + 이니까 backs up the suggestion."
+        },
+        {
+          "ko": "우리는 친구니까 괜찮아요.",
+          "romanization": "urineun chingunikka gwaenchanayo.",
+          "en": "Since we're friends, it's okay.",
+          "note": "친구 ends in a vowel → 니까."
+        },
+        {
+          "ko": "오늘은 제 생일이니까 제가 살게요.",
+          "romanization": "oneureun je saengirinikka jega salgeyo.",
+          "en": "Since it's my birthday today, I'll treat you.",
+          "note": "이니까 supports the speaker's decision (제가 살게요)."
+        },
+        {
+          "ko": "평일이니까 일찍 자세요.",
+          "romanization": "pyeongirinikka iljjik jaseyo.",
+          "en": "Since it's a weekday, please go to bed early.",
+          "note": "이니까 + command 자세요 — a natural pairing that 이라서 avoids."
+        }
+      ],
+      "keyPoint": {
+        "label": "이니까 vs 이라서",
+        "body": "Both mean \"because it's N,\" but 이니까 is the one you use before commands and suggestions (조용히 하세요, 같이 공부해요) and when the reason is shared or obvious. 이라서 is more about plain cause and sounds off before a command. Rule of thumb: order or invite → 이니까; just explain → 이라서."
+      },
+      "pronunciation": "주말이니까 sounds like [주마리니까]; 까 is written with ㄲ, so it is always tense.",
+      "drill": {
+        "instruction": "Make a \"since it's N, so…\" clause using 이니까 / 니까.",
+        "model": "주말 → 주말이니까",
+        "items": [
+          "방학 → ____ (since it's vacation)",
+          "가수 → ____ (since she's a singer)",
+          "오늘 → ____ (since it's today)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "주말이라서 같이 공부해요 (before a let's-suggestion)",
+        "right": "주말이니까 같이 공부해요",
+        "explanation": "Before a suggestion (같이 공부해요) or command (하세요), Koreans use 이니까, not 이라서. 이라서 is for plainly stating a cause; it sounds unnatural right before \"let's…\" or an order. When your sentence ends in a suggestion or command, switch the noun reason to 이니까/니까."
+      }
     },
     {
-      "id": "gn-pattern-112",
-      "title": "N이라도 / 라도 — even if only N, at least N",
-      "mentalModel": "라도 says the option is not perfect, but it is acceptable. The noun becomes the minimum you are willing to take, offer, or do.",
-      "formation": "Use 이라도 after a consonant-final noun and 라도 after a vowel-final noun.",
-      "examples": [
+      "title": "N이라도 / 라도 — \"even just an N / at least N\"",
+      "func": "Marks a noun as a not-ideal-but-acceptable fallback: \"Let's study even just one hour,\" \"Have at least some water.\" It says \"this isn't the best option, but it'll do.\" It is the 이다 form behind the 라도 fallback marker.",
+      "formTable": [
         {
-          "ko": "한 시간이라도 공부해요.",
-          "romanization": "han siganirado gongbuhaeyo.",
-          "en": "Let's study even if it is just one hour.",
-          "note": "시간 is the minimum acceptable amount."
+          "when": "Noun ends in a consonant",
+          "add": "N + 이라도",
+          "ex": "한 시간이라도 (even just one hour)"
         },
         {
-          "ko": "주말이 안 되면 평일이라도 괜찮아요.",
-          "romanization": "jumari an doemyeon pyeongirirado gwaenchanayo.",
-          "en": "If the weekend does not work, even a weekday is okay.",
-          "note": "평일 is less ideal, but still acceptable."
+          "when": "Noun ends in a vowel",
+          "add": "N + 라도",
+          "ex": "커피라도 (coffee, at least)"
         },
         {
-          "ko": "아침이라도 괜찮아요?",
-          "romanization": "achimirado gwaenchanayo?",
-          "en": "Would even morning be okay?",
-          "note": "Useful when the preferred time is unavailable."
+          "when": "Offering a fallback choice",
+          "add": "N이라도 + 할까요? / 드세요",
+          "ex": "물이라도 드세요 (at least have some water)"
         },
         {
-          "ko": "질문이라도 하나 해 보세요.",
-          "romanization": "jilmunirado hana hae boseyo.",
-          "en": "Try asking at least one question.",
-          "note": "The smallest useful action is one question."
+          "when": "\"even on/at N\" (time noun)",
+          "add": "시간 noun + 이라도/라도",
+          "ex": "주말이라도 (even on the weekend, at least)"
         }
       ],
-      "exceptions": [
-        "Do not confuse 라도 with 만. 한 시간만 공부해요 is neutral 'only one hour'. 한 시간이라도 공부해요 means one hour is small but still worth doing."
-      ]
+      "examples": [
+        {
+          "ko": "주말이니까 한 시간이라도 같이 공부해요.",
+          "romanization": "jumarinikka han siganirado gachi gongbuhaeyo.",
+          "en": "Since it's the weekend, let's study together even if just for one hour.",
+          "note": "시간 ends in a consonant → 이라도; one hour isn't much, but it's still worth it."
+        },
+        {
+          "ko": "바쁘면 커피라도 한잔해요.",
+          "romanization": "bappeumyeon keopirado hanjanhaeyo.",
+          "en": "If you're busy, let's at least grab a coffee.",
+          "note": "커피 ends in a vowel → 라도; coffee as a quick fallback plan."
+        },
+        {
+          "ko": "배고프면 빵이라도 드세요.",
+          "romanization": "baegopeumyeon ppangirado deuseyo.",
+          "en": "If you're hungry, at least have some bread.",
+          "note": "빵 (consonant-final) + 이라도 offers a fallback food."
+        },
+        {
+          "ko": "시간 없으면 아침에라도 조금 해요.",
+          "romanization": "sigan eopseumyeon achimerado jogeum haeyo.",
+          "en": "If you have no time, do a little even just in the morning.",
+          "note": "아침에 + 라도 — \"even at/in the morning\" as a fallback time."
+        }
+      ],
+      "keyPoint": {
+        "label": "라도 = \"not the best, but okay\"",
+        "body": "이라도/라도 picks a noun that isn't your first choice but is good enough: 한 시간이라도 (even just one hour), 커피라도 (at least a coffee). Use 이라도 after a consonant and 라도 after a vowel — the same sound split you see in 이라서/라서 and 이니까/니까."
+      },
+      "pronunciation": "한 시간이라도 sounds like [한 시가니라도]; 커피라도 sounds like [커피라도], no special change.",
+      "drill": {
+        "instruction": "Add the fallback form (이라도 or 라도) to each noun.",
+        "model": "한 시간 → 한 시간이라도",
+        "items": [
+          "물 → ____ (at least some water)",
+          "빵 → ____ (at least some bread)",
+          "커피 → ____ (at least a coffee)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "한 시간라도",
+        "right": "한 시간이라도",
+        "explanation": "시간 ends in a consonant (ㄴ), so it needs 이라도, not 라도. Learners default to the shorter 라도 everywhere, but 라도 only goes on vowel-final nouns (커피라도). Check the noun's last letter first, just like with 이라서 and 이니까."
+      }
     }
   ],
   "extendedVocabulary": [

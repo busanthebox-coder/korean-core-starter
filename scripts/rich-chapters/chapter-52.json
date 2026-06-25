@@ -11,176 +11,359 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-004",
-      "title": "N 주세요 — ordering an item",
-      "mentalModel": "Use this for the thing you want brought to the table: meat, rice, side dishes, water, or a menu.",
-      "formation": "Put the food item before 주세요. Add numbers and counters when needed: 삼겹살 두 인분 주세요, 공기밥 하나 주세요. Add 좀 for a softer refill request.",
-      "examples": [
+      "title": "N 주세요 — Ordering an Item",
+      "func": "Use N 주세요 to ask someone to give you a thing. In a restaurant or café this is your basic ordering phrase: name the item, optionally with a number, then add 주세요 (\"please give me\"). It is polite and works with any server.",
+      "formTable": [
         {
-          "ko": "삼겹살 두 인분 주세요.",
-          "romanization": "samgyeopsal du inbun juseyo.",
-          "en": "Please give us two servings of samgyeopsal.",
-          "note": "인분 counts restaurant servings."
+          "when": "Item alone",
+          "add": "N + 주세요",
+          "ex": "물 → 물 주세요 (Water, please.)"
         },
         {
-          "ko": "공기밥 하나 주세요.",
-          "romanization": "gonggibap hana juseyo.",
-          "en": "Please give us one bowl of rice.",
-          "note": "공기밥 is the restaurant rice item."
+          "when": "Item + amount",
+          "add": "N + 수량 + 주세요",
+          "ex": "커피 두 잔 → 커피 두 잔 주세요 (Two coffees, please.)"
         },
         {
-          "ko": "밑반찬 좀 더 주세요.",
-          "romanization": "mitbanchan jom deo juseyo.",
-          "en": "Please give us a little more side dishes.",
-          "note": "A common side-dish refill request."
+          "when": "Pointing at the menu",
+          "add": "이거 + 주세요",
+          "ex": "이거 → 이거 주세요 (This one, please.)"
         },
         {
-          "ko": "쌈장 조금만 주세요.",
-          "romanization": "ssamjang jogeumman juseyo.",
-          "en": "Please give me just a little ssamjang.",
-          "note": "조금만 limits the amount."
+          "when": "Softer \"could you give me\"",
+          "add": "N + 좀 + 주세요",
+          "ex": "물 → 물 좀 주세요 (Some water, please.)"
         }
       ],
-      "exceptions": [
-        "N 주세요 asks for an item. For an action, use V아/어 주세요: 잘라 주세요, 포장해 주세요."
-      ]
-    },
-    {
-      "id": "gn-pattern-015",
-      "title": "V아/어 주세요 — asking for an action",
-      "mentalModel": "Use this when you want the staff or someone at the table to do something, not just bring an item.",
-      "formation": "Make the 아/어 form of the verb and add 주세요. 자르다 becomes 잘라 주세요, 포장하다 becomes 포장해 주세요, 굽다 becomes 구워 주세요.",
       "examples": [
         {
-          "ko": "고기가 익었으니까 잘라 주세요.",
-          "romanization": "gogiga igeosseunikka jalla juseyo.",
-          "en": "The meat is cooked, so please cut it.",
-          "note": "A table-grilling request."
+          "ko": "여기 김치찌개 하나 주세요.",
+          "romanization": "yeogi gimchijjigae hana juseyo.",
+          "en": "One kimchi stew here, please.",
+          "note": "여기 (\"here\") flags you're ordering for this table; 하나 is the casual way to count one dish."
         },
         {
-          "ko": "남은 건 포장해 주세요.",
-          "romanization": "nameun geon pojanghae juseyo.",
-          "en": "Please pack the leftovers to go.",
-          "note": "Natural at the end of a meal."
+          "ko": "물 좀 주세요.",
+          "romanization": "mul jom juseyo.",
+          "en": "Some water, please.",
+          "note": "좀 softens the request and is almost automatic with 물 in a restaurant."
         },
         {
-          "ko": "마늘도 같이 구워 주세요.",
-          "romanization": "maneuldo gachi guwo juseyo.",
-          "en": "Please grill the garlic together too.",
-          "note": "굽다 changes to 구워."
+          "ko": "이거 주세요.",
+          "romanization": "igeo juseyo.",
+          "en": "This one, please.",
+          "note": "이거 (\"this thing\") lets you point at the menu without knowing the dish name."
         },
         {
-          "ko": "국물이 뜨거우니까 조심해 주세요.",
-          "romanization": "gungmuri tteugeounikka josimhae juseyo.",
-          "en": "The broth is hot, so please be careful.",
-          "note": "A request-like caution."
+          "ko": "콜라 두 개 주세요.",
+          "romanization": "kolla du gae juseyo.",
+          "en": "Two colas, please.",
+          "note": "개 is the all-purpose counter for canned/bottled drinks; 잔 is for glasses you pour."
         }
       ],
-      "exceptions": [
-        "굽다 has the spoken form 구워요/구워 주세요. Do not say 굽어 주세요."
-      ]
+      "keyPoint": {
+        "label": "주세요 vs. 주문할게요",
+        "body": "주세요 literally means \"give me,\" so you attach it to the THING (커피 주세요). If you want to say \"I'll order,\" that's the verb 주문하다 → 주문할게요. Beginners only need N 주세요 to order; save 주문할게요 for flagging the server that you're ready."
+      },
+      "pronunciation": "주세요 is read [주세요], no special linking. Watch the counter 한 개: say 한 / 개 as two clear beats — learners squash it into 항개. Keep the ㄴ of 한 crisp before 개.",
+      "drill": {
+        "instruction": "You are at a restaurant. Order each item by putting it into the N (수량) 주세요 frame.",
+        "model": "비빔밥 (one) → 비빔밥 하나 주세요.",
+        "items": [
+          "냉면 (one) → ____",
+          "맥주 (two glasses) → ____",
+          "이거 (this one) → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 커피 주세요.",
+        "right": "커피 주세요.",
+        "explanation": "English speakers add \"I\" (저는) out of habit, but 주세요 already means \"give ME,\" so 저는 is redundant and sounds odd. Just name the item + 주세요."
+      }
     },
     {
-      "id": "gn-pattern-019",
-      "title": "V고 — linking food actions",
-      "mentalModel": "Use this to list what happens at the table: order, grill, eat, and then add rice or pack leftovers.",
-      "formation": "Attach -고 to the verb stem. 굽다 becomes 굽고, 먹다 becomes 먹고, 볶다 becomes 볶고. It can simply list actions or show a loose sequence.",
-      "examples": [
+      "title": "V-아/어 주세요 — Asking for an Action",
+      "func": "Use V-아/어 주세요 to ask someone to DO something for you, not just hand you a thing. Take a verb stem, add the 아/어 connector, then 주세요. In a restaurant this is how you ask the server to bring, change, cut, or wrap something.",
+      "formTable": [
         {
-          "ko": "고기를 굽고 마늘도 같이 구워요.",
-          "romanization": "gogireul gupgo maneuldo gachi guwoyo.",
-          "en": "We grill the meat and grill the garlic together too.",
-          "note": "Two table-grilling actions."
+          "when": "Stem vowel ㅏ/ㅗ",
+          "add": "stem + 아 주세요",
+          "ex": "닦다 → 닦아 주세요 (Please wipe it.)"
         },
         {
-          "ko": "삼겹살을 먹고 볶음밥도 주문해요.",
-          "romanization": "samgyeopsareul meokgo bokkeumbapdo jumunhaeyo.",
-          "en": "We eat samgyeopsal and also order fried rice.",
-          "note": "Common end-of-meal flow."
+          "when": "Other stem vowels",
+          "add": "stem + 어 주세요",
+          "ex": "바꾸다 → 바꿔 주세요 (Please change it.)"
         },
         {
-          "ko": "국물을 끓이고 고기도 구워요.",
-          "romanization": "gungmureul kkeurigo gogido guwoyo.",
-          "en": "We boil the broth and grill meat too.",
-          "note": "Two cooking actions in one sentence."
+          "when": "하다 verbs",
+          "add": "해 주세요",
+          "ex": "계산하다 → 계산해 주세요 (Please ring it up.)"
         },
         {
-          "ko": "남은 건 포장하고 집에 가요.",
-          "romanization": "nameun geon pojanghago jibe gayo.",
-          "en": "We pack the leftovers and go home.",
-          "note": "A simple sequence."
-        }
-      ]
-    },
-    {
-      "id": "gn-pattern-018",
-      "title": "V/A아서/어서 — reason and result",
-      "mentalModel": "Use this when the taste, heat, or ingredient quality explains what happens next.",
-      "formation": "Use -아서 after many ㅏ/ㅗ stems and -어서 after other stems; 하다 becomes 해서. In this chapter, use it for plain results: 매워서 밥을 같이 먹어요, 신선해서 맛있어요.",
-      "examples": [
-        {
-          "ko": "양념이 매워서 공기밥을 같이 먹어요.",
-          "romanization": "yangnyeomi maewoseo gonggibabeul gachi meogeoyo.",
-          "en": "The seasoning is spicy, so I eat it with rice.",
-          "note": "Taste explains the result."
-        },
-        {
-          "ko": "국물이 짜서 물을 많이 마셨어요.",
-          "romanization": "gungmuri jjaseo mureul mani masyeosseoyo.",
-          "en": "The broth was salty, so I drank a lot of water.",
-          "note": "A simple cause-result sentence."
-        },
-        {
-          "ko": "고기가 신선해서 맛있어요.",
-          "romanization": "gogiga sinseonhaeseo masisseoyo.",
-          "en": "The meat is tasty because it is fresh.",
-          "note": "Freshness explains taste."
-        },
-        {
-          "ko": "고기가 익어서 바로 먹었어요.",
-          "romanization": "gogiga igeoseo baro meogeosseoyo.",
-          "en": "The meat was cooked, so we ate it right away.",
-          "note": "A result statement, not a command."
+          "when": "ㅂ irregular",
+          "add": "ㅂ→우, then 어",
+          "ex": "굽다 → 구워 주세요 (Please grill it.)"
         }
       ],
-      "exceptions": [
-        "For a request or suggestion, use -(으)니까 more naturally: 고기가 익었으니까 잘라 주세요."
-      ]
-    },
-    {
-      "id": "gn-pattern-087",
-      "title": "V/A(으)니까 — reason for a request or suggestion",
-      "mentalModel": "Use this when the reason comes first and the next sentence is a request, suggestion, or warning.",
-      "formation": "Add -니까 after a vowel stem and -으니까 after a consonant stem. With past tense, use -았/었으니까: 익었으니까. This is very useful at restaurants because reasons often lead to requests.",
       "examples": [
         {
-          "ko": "고기가 익었으니까 이제 잘라 주세요.",
-          "romanization": "gogiga igeosseunikka ije jalla juseyo.",
-          "en": "The meat is cooked now, so please cut it.",
-          "note": "Reason plus request."
+          "ko": "반찬 좀 더 갖다 주세요.",
+          "romanization": "banchan jom deo gatda juseyo.",
+          "en": "Could you bring more side dishes, please.",
+          "note": "갖다 주세요 (\"bring and give\") is the set phrase for asking a server to fetch something; 좀 더 = a bit more."
         },
         {
-          "ko": "밑반찬이 부족하니까 더 주세요.",
-          "romanization": "mitbanchani bujokhanikka deo juseyo.",
-          "en": "The side dishes are not enough, so please give us more.",
-          "note": "A refill request."
+          "ko": "고기 좀 잘라 주세요.",
+          "romanization": "gogi jom jalla juseyo.",
+          "en": "Please cut the meat for us.",
+          "note": "At a Korean BBQ you ask staff to cut the meat; 자르다 → 잘라 (르 irregular)."
         },
         {
-          "ko": "쌈장이 짜니까 조금만 넣으세요.",
-          "romanization": "ssamjangi jjanikka jogeumman neoeuseyo.",
-          "en": "The ssamjang is salty, so put in only a little.",
-          "note": "Reason plus advice."
+          "ko": "이거 포장해 주세요.",
+          "romanization": "igeo pojanghae juseyo.",
+          "en": "Please wrap this to go.",
+          "note": "포장하다 (\"to pack\") → 포장해 주세요 is the standard way to ask for takeout."
         },
         {
-          "ko": "국물이 뜨거우니까 천천히 드세요.",
-          "romanization": "gungmuri tteugeounikka cheoncheonhi deuseyo.",
-          "en": "The broth is hot, so eat slowly.",
-          "note": "Reason plus warning."
+          "ko": "덜 맵게 해 주세요.",
+          "romanization": "deol maepge hae juseyo.",
+          "en": "Please make it less spicy.",
+          "note": "하다 → 해 주세요; 덜 맵게 (\"less spicily\") tells the kitchen how to cook it."
         }
       ],
-      "exceptions": [
-        "Use -아서/어서 for plain results, but -(으)니까 before requests and suggestions."
-      ]
+      "keyPoint": {
+        "label": "N 주세요 vs. V-아/어 주세요",
+        "body": "N 주세요 asks for a THING (물 주세요 = give me water). V-아/어 주세요 asks for an ACTION (포장해 주세요 = pack it). If the English word is a noun (\"water,\" \"the menu\"), use N 주세요; if it's a verb (\"cut it,\" \"wrap it,\" \"bring it\"), use V-아/어 주세요."
+      },
+      "pronunciation": "After a stem ending in ㄹ like 만들다, the form is 만들어 주세요 [만드러 주세요] — the ㄹ links into the next syllable. Say it smoothly as 만드러, not 만들-어.",
+      "drill": {
+        "instruction": "Turn each verb into a polite request with V-아/어 주세요.",
+        "model": "포장하다 (this) → 이거 포장해 주세요.",
+        "items": [
+          "바꾸다 (the spoon) → 숟가락 ____",
+          "굽다 (the meat) → 고기 ____",
+          "갖다주다 (water) → 물 ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "포장하 주세요.",
+        "right": "포장해 주세요.",
+        "explanation": "Learners attach 주세요 to the bare stem (포장하-), but you must first conjugate with 아/어: 하다 → 해. The connector vowel is not optional — 하 주세요 is ungrammatical; it must be 해 주세요."
+      }
+    },
+    {
+      "title": "V-고 — Linking Food Actions in Order",
+      "func": "Use V-고 to chain two verbs done by the same person, usually in sequence: \"do A and (then) B.\" Attach 고 directly to the verb stem — no vowel changes, no tense on the first verb. It's the everyday way to describe eating-and-doing routines.",
+      "formTable": [
+        {
+          "when": "Vowel-ending stem",
+          "add": "stem + 고",
+          "ex": "마시다 → 마시고 (drink and...)"
+        },
+        {
+          "when": "Consonant-ending stem",
+          "add": "stem + 고",
+          "ex": "먹다 → 먹고 (eat and...)"
+        },
+        {
+          "when": "하다 verbs",
+          "add": "하 + 고",
+          "ex": "요리하다 → 요리하고 (cook and...)"
+        },
+        {
+          "when": "Tense goes on the LAST verb only",
+          "add": "V-고 + V-past/future",
+          "ex": "먹고 잤어요 (ate and slept)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "밥을 먹고 커피를 마셔요.",
+          "romanization": "babeul meokgo keopireul masyeoyo.",
+          "en": "I eat a meal and (then) drink coffee.",
+          "note": "Classic sequence; tense (present) appears only on the final verb 마셔요."
+        },
+        {
+          "ko": "손을 씻고 밥을 먹어요.",
+          "romanization": "soneul ssitgo babeul meogeoyo.",
+          "en": "I wash my hands and eat.",
+          "note": "Natural order-of-events use; 씻고 stays plain even though the action is habitual."
+        },
+        {
+          "ko": "라면을 끓이고 김치를 꺼냈어요.",
+          "romanization": "ramyeoneul kkeurigo gimchireul kkeonaesseoyo.",
+          "en": "I cooked ramyeon and took out the kimchi.",
+          "note": "Past tense 꺼냈어요 sits only on the last verb; 끓이고 carries no -었-."
+        },
+        {
+          "ko": "고기를 굽고 상추에 싸 먹어요.",
+          "romanization": "gogireul gupgo sangchue ssa meogeoyo.",
+          "en": "We grill the meat and wrap it in lettuce to eat.",
+          "note": "Describes the two-step BBQ routine; 굽고 links the grilling to the eating."
+        }
+      ],
+      "keyPoint": {
+        "label": "V-고 vs. V-아서/어서 (sequence)",
+        "body": "Both can mean \"and then,\" but 고 just lists separate actions in order (먹고 마셔요 = eat, then drink — different objects). 아서/어서 is used when action B builds on A with the same object (사서 먹어요 = buy it and eat it). For loosely sequenced food steps, 고 is the safe default."
+      },
+      "pronunciation": "After a stem ending in ㄱ, like 먹다, 먹고 is pronounced [먹꼬] — the 고 tenses to 꼬. Likewise 씻고 [씯꼬]. The 고 itself never changes spelling.",
+      "drill": {
+        "instruction": "Join the two actions with V-고. Keep tense on the second verb only.",
+        "model": "손을 씻다 / 밥을 먹다 → 손을 씻고 밥을 먹어요.",
+        "items": [
+          "커피를 마시다 / 신문을 읽다 → ____",
+          "밥을 먹다 / 이를 닦다 → ____",
+          "라면을 끓이다 / 계란을 넣다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "밥을 먹었고 커피를 마셨어요.",
+        "right": "밥을 먹고 커피를 마셨어요.",
+        "explanation": "English marks tense on both verbs (\"ate and drank\"), so learners add -었- to the first verb. In Korean, tense appears ONLY on the final verb; the first stays plain (먹고)."
+      }
+    },
+    {
+      "title": "A/V-아서/어서 — Reason and Result",
+      "func": "Use A/V-아서/어서 to give a reason: \"because A, B.\" The first clause is the cause, the second is the result. Attach the 아/어 connector + 서 to the stem. With food you use it to explain why you can or can't eat something, or why you like a dish.",
+      "formTable": [
+        {
+          "when": "Stem vowel ㅏ/ㅗ",
+          "add": "stem + 아서",
+          "ex": "비싸다 → 비싸서 (because it's expensive)"
+        },
+        {
+          "when": "Other stem vowels",
+          "add": "stem + 어서",
+          "ex": "맛있다 → 맛있어서 (because it's tasty)"
+        },
+        {
+          "when": "하다 words",
+          "add": "해서",
+          "ex": "매콤하다 → 매콤해서 (because it's nicely spicy)"
+        },
+        {
+          "when": "Past/future reason",
+          "add": "NO tense on the -아서/어서 clause",
+          "ex": "배가 고파서 먹었어요 (not 고팠어서)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "너무 매워서 못 먹겠어요.",
+          "romanization": "neomu maewoseo mot meokgesseoyo.",
+          "en": "It's so spicy that I can't eat it.",
+          "note": "맵다 → 매워서 (ㅂ irregular); the spiciness is the reason for not eating."
+        },
+        {
+          "ko": "이 집 김치찌개가 맛있어서 자주 와요.",
+          "romanization": "i jip gimchijjigaega masisseoseo jaju wayo.",
+          "en": "This place's kimchi stew is delicious, so I come often.",
+          "note": "맛있어서 explains the reason for the result 자주 와요 (come often)."
+        },
+        {
+          "ko": "배가 고파서 라면을 끓였어요.",
+          "romanization": "baega gopaseo ramyeoneul kkeuryeosseoyo.",
+          "en": "I was hungry, so I made ramyeon.",
+          "note": "고프다 → 고파서; even though the result is past, the reason clause stays plain (no 고팠어서)."
+        },
+        {
+          "ko": "커피를 많이 마셔서 잠이 안 와요.",
+          "romanization": "keopireul mani masyeoseo jami an wayo.",
+          "en": "I drank a lot of coffee, so I can't sleep.",
+          "note": "마시다 → 마셔서; everyday cause-and-result about a drink."
+        }
+      ],
+      "keyPoint": {
+        "label": "-아서/어서 vs. -(으)니까 (reason)",
+        "body": "Both mean \"because,\" but -아서/어서 cannot be followed by a command or suggestion, and never takes past/future tense in the reason clause. Use -아서/어서 for a plain reason → result (매워서 못 먹어요). When you want to follow with a command or suggestion (\"It's spicy, so order something else\"), switch to -(으)니까."
+      },
+      "pronunciation": "맛있어서 is pronounced [마시써서] — the ㅅ of 맛 links forward and the double ㅆ stays tense. Say it as one smooth 마시써서, not 맛-있-어-서.",
+      "drill": {
+        "instruction": "Combine the two clauses with -아서/어서. Keep the reason clause plain (no past tense on it).",
+        "model": "맛있다 / 자주 와요 → 맛있어서 자주 와요.",
+        "items": [
+          "배가 고프다 / 라면을 끓였어요 → ____",
+          "너무 맵다 / 못 먹어요 → ____",
+          "커피가 진하다 / 잠이 안 와요 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "배가 고팠어서 라면을 먹었어요.",
+        "right": "배가 고파서 라면을 먹었어요.",
+        "explanation": "English puts past tense on both clauses (\"was hungry, so ate\"), so learners write 고팠어서. The -아서/어서 reason clause never carries -었-; the tense lives only in the result clause (먹었어요)."
+      }
+    },
+    {
+      "title": "V-(으)ㄹ게요 — Saying What You'll Have",
+      "func": "Use V-(으)ㄹ게요 to announce a decision you're making on the spot — \"I'll have / I'll do ___.\" At the table it's how you tell the server or your friends what you've chosen, with a nuance of committing to it right now. Add -ㄹ게요 to a vowel-ending stem, -을게요 to a consonant-ending stem.",
+      "formTable": [
+        {
+          "when": "Vowel-ending stem",
+          "add": "stem + ㄹ게요",
+          "ex": "시키다 → 시킬게요 (I'll order it.)"
+        },
+        {
+          "when": "Consonant-ending stem",
+          "add": "stem + 을게요",
+          "ex": "먹다 → 먹을게요 (I'll have it.)"
+        },
+        {
+          "when": "하다 verbs",
+          "add": "할게요",
+          "ex": "주문하다 → 주문할게요 (I'll order.)"
+        },
+        {
+          "when": "ㄹ-ending stem (drop nothing extra)",
+          "add": "stem + 게요",
+          "ex": "만들다 → 만들게요 (I'll make it.)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 비빔밥 먹을게요.",
+          "romanization": "jeoneun bibimbap meogeulgeyo.",
+          "en": "I'll have bibimbap.",
+          "note": "Announcing your own choice at the table; 저는 marks \"as for me\" when each person picks a dish."
+        },
+        {
+          "ko": "저기요, 주문할게요.",
+          "romanization": "jeogiyo, jumunhalgeyo.",
+          "en": "Excuse me, we're ready to order.",
+          "note": "저기요 calls the server; 주문할게요 signals you've decided and want to order now."
+        },
+        {
+          "ko": "그럼 저는 냉면 시킬게요.",
+          "romanization": "geureom jeoneun naengmyeon sikilgeyo.",
+          "en": "Then I'll order naengmyeon.",
+          "note": "시키다 (\"to order/make happen\") → 시킬게요; 그럼 (\"then\") reacts to what others chose."
+        },
+        {
+          "ko": "제가 계산할게요.",
+          "romanization": "jega gyesanhalgeyo.",
+          "en": "I'll pay.",
+          "note": "Offering to pay the bill; -ㄹ게요 carries the \"I'll take care of it\" promise to the listener."
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)ㄹ게요 vs. -(으)ㄹ래요",
+        "body": "-(으)ㄹ게요 is you committing to do something, often for the listener's sake (저는 비빔밥 먹을게요 = I've decided, I'll have bibimbap). -(으)ㄹ래요 is more about your wish/preference and can sound like you're asking or stating want (비빔밥 먹을래요 = I want bibimbap / shall I?). To simply state your order, -(으)ㄹ게요 is the smoother choice."
+      },
+      "pronunciation": "-ㄹ게요 is pronounced [ㄹ께요] — the ㄱ tenses to ㄲ. So 먹을게요 is [머글께요] and 갈게요 is [갈께요]. The spelling stays 게, but you say 께.",
+      "drill": {
+        "instruction": "Say what you'll have using V-(으)ㄹ게요.",
+        "model": "비빔밥 / 먹다 → 저는 비빔밥 먹을게요.",
+        "items": [
+          "냉면 / 시키다 → 저는 냉면 ____",
+          "커피 / 마시다 → 저는 커피 ____",
+          "계산 / 하다 → 제가 ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 비빔밥 먹을 거예요.",
+        "right": "저는 비빔밥 먹을게요.",
+        "explanation": "-(으)ㄹ 거예요 states a future plan as information (\"I'm going to eat bibimbap\") and sounds detached when ordering. -(으)ㄹ게요 directs the decision at the listener — the server or your friends — which is what ordering needs. For \"I'll have ___\" at the table, use -(으)ㄹ게요."
+      }
     }
   ],
   "extendedVocabulary": [

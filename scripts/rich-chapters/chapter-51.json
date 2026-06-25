@@ -11,176 +11,337 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-074",
-      "title": "V아/어 보세요 — try doing it",
-      "mentalModel": "Use this when someone suggests trying an action once before deciding. In clothing stores, the key action is 입어 보다: try it on.",
-      "formation": "Make the 아/어 form of the verb and add 보다. 입다 becomes 입어 보다, 신다 becomes 신어 보다, and 해 보다 is used for 하다 verbs. 보세요 is a polite suggestion; 봐도 돼요? asks permission to try.",
-      "examples": [
+      "title": "V-아/어 보세요 — Try doing it",
+      "func": "Suggest that the listener try an action to see how it goes — perfect for inviting someone to try a piece of clothing on, try a color, or give a style a go. It softens a plain command into friendly encouragement: go ahead and try it.",
+      "formTable": [
         {
-          "ko": "이 셔츠 입어 봐도 돼요?",
-          "romanization": "i syeocheu ibeo bwado dwaeyo?",
-          "en": "May I try on this shirt?",
-          "note": "The most useful fitting-room question."
+          "when": "Verb stem ends in ㅏ or ㅗ",
+          "add": "-아 보세요",
+          "ex": "사다 → 사 보세요 (try buying it)"
         },
         {
-          "ko": "이 운동화도 신어 봐도 돼요?",
-          "romanization": "i undonghwado sineo bwado dwaeyo?",
-          "en": "May I try on these sneakers too?",
-          "note": "Use 신다 for shoes."
+          "when": "Verb stem ends in any other vowel or a consonant",
+          "add": "-어 보세요",
+          "ex": "입다 → 입어 보세요 (try wearing it), 신다 → 신어 보세요 (try them on)"
         },
         {
-          "ko": "한 치수 작은 것도 입어 보세요.",
-          "romanization": "han chisu jageun geotdo ibeo boseyo.",
-          "en": "Try on one size smaller too.",
-          "note": "A natural staff suggestion."
-        },
-        {
-          "ko": "코트는 꼭 입어 보고 사세요.",
-          "romanization": "koteuneun kkok ibeo bogo saseyo.",
-          "en": "Make sure you try on a coat before buying it.",
-          "note": "Trying before deciding."
+          "when": "하다 verbs",
+          "add": "해 보세요",
+          "ex": "착용하다 → 착용해 보세요 (try wearing it on)"
         }
       ],
-      "exceptions": [
-        "입어 보다 is for trying on clothes. 신어 보다 is for shoes. Do not use 입다 for shoes."
-      ]
-    },
-    {
-      "id": "gn-pattern-082",
-      "title": "V아/어 주시겠어요? — could you please do it for me?",
-      "mentalModel": "Use this for a polite store request when the staff member has to do something for you.",
-      "formation": "Make the 아/어 form, add 주시겠어요? 보여 주시겠어요? asks someone to show you something. 교환해 주시겠어요? asks them to exchange it for you. It is softer than a direct 주세요.",
       "examples": [
         {
-          "ko": "한 치수 작은 것도 보여 주시겠어요?",
-          "romanization": "han chisu jageun geotdo boyeo jusigesseoyo?",
-          "en": "Could you show me one size smaller too?",
-          "note": "Polite and practical with staff."
+          "ko": "이 원피스 한번 입어 보세요.",
+          "romanization": "i wonpiseu hanbeon ibeo boseyo.",
+          "en": "Try this dress on.",
+          "note": "한번 (once / give it a go) commonly pairs with -아/어 보세요 to mean a light, no-pressure try."
+        },
+        {
+          "ko": "이 모자도 써 보세요.",
+          "romanization": "i moja-do sseo boseyo.",
+          "en": "Try this hat on too.",
+          "note": "쓰다 (to wear on the head) is a ㅡ-irregular: ㅡ drops before -어, giving 써 보세요."
+        },
+        {
+          "ko": "이 신발 신어 보세요.",
+          "romanization": "i sinbal sineo boseyo.",
+          "en": "Try these shoes on.",
+          "note": "신다 = to wear on the feet. Each clothing verb is different, but all combine the same way with 보세요."
+        },
+        {
+          "ko": "빨간색으로 한번 골라 보세요.",
+          "romanization": "ppalgansaegeuro hanbeon golla boseyo.",
+          "en": "Try picking the red one.",
+          "note": "고르다 is a 르-irregular, so 고르 → 골라 before -아; you are inviting them to try choosing."
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)세요 vs -아/어 보세요",
+        "body": "입으세요 = Put it on (a plain polite command). 입어 보세요 = Try it on (and see) — it adds the nuance of testing or experiencing, which is why a shop clerk says 입어 보세요, not 입으세요."
+      },
+      "drill": {
+        "instruction": "Invite the customer to try each item, using V-아/어 보세요.",
+        "model": "치마 → 이 치마 입어 보세요.",
+        "items": [
+          "안경 (write: 안경 써 보세요)",
+          "장갑 (write: 장갑 껴 보세요)",
+          "목도리 (write: 목도리 해 보세요)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "이 코트 시도해 보세요.",
+        "right": "이 코트 입어 보세요.",
+        "explanation": "English try on makes learners reach for a word meaning try/attempt (시도하다). In Korean you keep the real clothing verb (입다/신다/쓰다) and just attach 보세요; the try meaning comes entirely from 보세요."
+      }
+    },
+    {
+      "title": "V-아/어 주시겠어요? — Could you please do it for me?",
+      "func": "A very polite request asking someone to do something for your benefit. In a shop or fitting room it is how you ask the clerk to bring another size, show you a color, or give you a hand. -주다 adds for me, and -시겠어요? makes it gentle and respectful.",
+      "formTable": [
+        {
+          "when": "Stem ends in ㅏ/ㅗ",
+          "add": "-아 주시겠어요?",
+          "ex": "찾다 → 찾아 주시겠어요? (could you find it for me?)"
+        },
+        {
+          "when": "Stem ends in another vowel or consonant",
+          "add": "-어 주시겠어요?",
+          "ex": "보이다 → 보여 주시겠어요? (could you show me?)"
+        },
+        {
+          "when": "하다 verbs",
+          "add": "해 주시겠어요?",
+          "ex": "추천하다 → 추천해 주시겠어요? (could you recommend one?)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "더 큰 사이즈로 가져다 주시겠어요?",
+          "romanization": "deo keun saijeuro gajyeoda jusigesseoyo?",
+          "en": "Could you bring me a bigger size?",
+          "note": "가져다주다 (bring for someone) is the go-to fitting-room request; -주시겠어요? keeps it polite to the clerk."
         },
         {
           "ko": "다른 색깔도 보여 주시겠어요?",
           "romanization": "dareun saekkkaldo boyeo jusigesseoyo?",
           "en": "Could you show me another color too?",
-          "note": "A color request in a store."
+          "note": "보이다 → 보여; 보여 주다 literally show for me, the natural way to ask to be shown an item."
         },
         {
-          "ko": "이걸로 교환해 주시겠어요?",
-          "romanization": "igeollo gyohwanhae jusigesseoyo?",
-          "en": "Could you exchange it for this one?",
-          "note": "교환하다 becomes 교환해 주시겠어요."
+          "ko": "이 셔츠 좀 찾아 주시겠어요?",
+          "romanization": "i syeocheu jom chaja jusigesseoyo?",
+          "en": "Could you find this shirt for me?",
+          "note": "좀 softens the request even more — a near-obligatory politeness word in spoken requests."
         },
         {
-          "ko": "영수증도 같이 넣어 주시겠어요?",
-          "romanization": "yeongsujeungdo gachi neoeo jusigesseoyo?",
-          "en": "Could you put the receipt in too?",
-          "note": "Useful at checkout."
+          "ko": "이 바지 잘 어울리는지 봐 주시겠어요?",
+          "romanization": "i baji jal eoullineunji bwa jusigesseoyo?",
+          "en": "Could you check whether these pants suit me?",
+          "note": "보다 → 봐; asking someone to look or check for your benefit, a common appearance question to a friend or clerk."
         }
       ],
-      "exceptions": [
-        "주세요 is fine for simple buying. 주시겠어요? is better when you are asking for effort, checking stock, or making a favor-like request."
-      ]
+      "keyPoint": {
+        "label": "-아/어 주세요 vs -아/어 주시겠어요?",
+        "body": "가져다 주세요 = Please bring it (polite request). 가져다 주시겠어요? = Could you bring it? — the -시겠어요? question form is one step more deferential and indirect, the safest choice with a stranger or staff."
+      },
+      "drill": {
+        "instruction": "Make each request polite using V-아/어 주시겠어요?",
+        "model": "보이다 → 색깔 보여 주시겠어요?",
+        "items": [
+          "작은 사이즈 / 찾다 (write: 작은 사이즈 찾아 주시겠어요?)",
+          "거울 / 보이다 (write: 거울 보여 주시겠어요?)",
+          "이 옷 / 추천하다 (write: 이 옷 추천해 주시겠어요?)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "더 큰 사이즈로 가져다 주시겠어요 나를 위해?",
+        "right": "더 큰 사이즈로 가져다 주시겠어요?",
+        "explanation": "Learners add for me as a separate phrase (나를 위해) by analogy with English. The benefit is already built into 주다, so adding 나를 위해 is redundant and unnatural — just use 주시겠어요?."
+      }
     },
     {
-      "id": "gn-pattern-132",
-      "title": "A/V-아/어 보이다 — it looks / appears",
-      "mentalModel": "Use this when you judge how clothing appears, not whether the size technically fits.",
-      "formation": "Attach -아/어 보이다 to a descriptive stem. 크다 becomes 커 보여요, 작다 becomes 작아 보여요, 단정하다 becomes 단정해 보여요, and 비싸다 becomes 비싸 보여요.",
-      "examples": [
+      "title": "A/V-아/어 보이다 — It looks / appears",
+      "func": "Describe how something or someone appears to the observer. Attached to an adjective it means looks (pretty/big/expensive); it is the everyday way to compliment an outfit or comment on how clothes look on someone.",
+      "formTable": [
         {
-          "ko": "조금 커 보여요.",
-          "romanization": "jogeum keo boyeoyo.",
-          "en": "It looks a little big.",
-          "note": "Appearance judgment before asking another size."
+          "when": "Adjective stem ends in ㅏ/ㅗ",
+          "add": "-아 보이다",
+          "ex": "좋다 → 좋아 보여요 (looks good)"
         },
         {
-          "ko": "남색 셔츠가 더 단정해 보여요.",
-          "romanization": "namsaek syeocheuga deo danjeonghae boyeoyo.",
-          "en": "The navy shirt looks neater.",
-          "note": "Good for interview clothing."
+          "when": "Stem ends in another vowel or consonant",
+          "add": "-어 보이다",
+          "ex": "예쁘다 → 예뻐 보여요 (looks pretty)"
         },
         {
-          "ko": "이 코트는 비싸 보여요.",
-          "romanization": "i koteuneun bissa boyeoyo.",
-          "en": "This coat looks expensive.",
-          "note": "Looks expensive, not necessarily is expensive."
-        },
-        {
-          "ko": "그 색깔은 얼굴이 밝아 보여요.",
-          "romanization": "geu saekkkareun eolguri balga boyeoyo.",
-          "en": "That color makes your face look bright.",
-          "note": "A natural appearance comment."
+          "when": "하다 adjectives",
+          "add": "-해 보이다",
+          "ex": "깔끔하다 → 깔끔해 보여요 (looks neat)"
         }
       ],
-      "exceptions": [
-        "커 보여요 means it looks big. 사이즈가 커요 says the size is big. 사이즈가 맞아요 says it fits."
-      ]
-    },
-    {
-      "id": "gn-pattern-075",
-      "title": "A-ㄴ/은 N — adjective before a clothing noun",
-      "mentalModel": "Use this compact form when comparing clothes by fit, color, style, or occasion.",
-      "formation": "For many adjective stems, add -ㄴ after a vowel and -은 after a consonant: 단정하다 -> 단정한, 작다 -> 작은, 크다 -> 큰. Irregulars appear often in clothing, such as 가볍다 -> 가벼운.",
       "examples": [
         {
-          "ko": "단정한 셔츠",
-          "romanization": "danjeonghan syeocheu",
-          "en": "a neat shirt",
-          "note": "Good for interviews and work."
+          "ko": "그 원피스 정말 예뻐 보여요.",
+          "romanization": "geu wonpiseu jeongmal yeppeo boyeoyo.",
+          "en": "That dress really looks pretty.",
+          "note": "예쁘다 → 예뻐 (ㅡ drops before -어); the headline example for this pattern."
         },
         {
-          "ko": "한 치수 작은 거",
-          "romanization": "han chisu jageun geo",
-          "en": "one size smaller",
-          "note": "A practical store phrase."
+          "ko": "이 코트는 좀 비싸 보여요.",
+          "romanization": "i koteuneun jom bissa boyeoyo.",
+          "en": "This coat looks a bit expensive.",
+          "note": "비싸다 ends in ㅏ, so the -아 merges in: 비싸 보여요; commenting on apparent price."
         },
         {
-          "ko": "편한 운동화",
-          "romanization": "pyeonhan undonghwa",
-          "en": "comfortable sneakers",
-          "note": "Use 신다 with 운동화."
+          "ko": "그 색깔이 잘 어울려 보여요.",
+          "romanization": "geu saekkkari jal eoullyeo boyeoyo.",
+          "en": "That color looks like it suits you well.",
+          "note": "어울리다 → 어울려; pairing 잘 어울리다 with 보이다 is the standard it looks good on you comment."
         },
         {
-          "ko": "가벼운 코트",
-          "romanization": "gabyeoun koteu",
-          "en": "a light coat",
-          "note": "ㅂ-irregular adjective modifier."
-        }
-      ]
-    },
-    {
-      "id": "gn-pattern-078",
-      "title": "N보다 더 A — more A than N",
-      "mentalModel": "Use this when choosing between two clothes, colors, or sizes.",
-      "formation": "Attach 보다 to the comparison baseline, then use 더 plus an adjective. 이 셔츠보다 남색 셔츠가 더 단정해 보여요 means the navy shirt is the one that looks neater.",
-      "examples": [
-        {
-          "ko": "이 셔츠보다 남색 셔츠가 더 단정해 보여요.",
-          "romanization": "i syeocheuboda namsaek syeocheuga deo danjeonghae boyeoyo.",
-          "en": "The navy shirt looks neater than this shirt.",
-          "note": "The baseline is 이 셔츠."
-        },
-        {
-          "ko": "운동화보다 구두가 더 단정해 보여요.",
-          "romanization": "undonghwaboda guduga deo danjeonghae boyeoyo.",
-          "en": "Dress shoes look more presentable than sneakers.",
-          "note": "Useful for interview outfit advice."
-        },
-        {
-          "ko": "이 색깔보다 남색이 더 잘 어울려요.",
-          "romanization": "i saekkkalboda namsaegi deo jal eoullyeoyo.",
-          "en": "Navy suits you better than this color.",
-          "note": "어울리다 is style harmony, not size fit."
-        },
-        {
-          "ko": "이 사이즈보다 한 치수 작은 게 더 맞아요.",
-          "romanization": "i saijeuboda han chisu jageun ge deo majayo.",
-          "en": "One size smaller fits better than this size.",
-          "note": "맞다 handles fit."
+          "ko": "이 신발을 신으니까 키가 커 보여요.",
+          "romanization": "i sinbareul sineunikka kiga keo boyeoyo.",
+          "en": "With these shoes on, you look taller.",
+          "note": "크다 → 커; appearance changes caused by clothing are exactly what -아/어 보이다 expresses."
         }
       ],
-      "exceptions": [
-        "보다 attaches to the thing you compare against. Do not attach it to the item you are recommending."
-      ]
+      "keyPoint": {
+        "label": "예뻐요 vs 예뻐 보여요",
+        "body": "예뻐요 = It is pretty (your judgment of the thing itself). 예뻐 보여요 = It looks pretty (how it appears, possibly more than it really is). Use 보이다 when you are describing an impression or the effect an outfit gives."
+      },
+      "pronunciation": "보여요 is pronounced with a smooth y-glide [bo-yeo-yo]; learners often clip it to [bo-eo-yo] — keep the ㅕ. In 좋아 보여요, ㅎ is silent before a vowel, so 좋아 links as [jo-a].",
+      "drill": {
+        "instruction": "Say how each looks using A-아/어 보여요.",
+        "model": "치마 / 예쁘다 → 치마가 예뻐 보여요.",
+        "items": [
+          "코트 / 따뜻하다 (write: 코트가 따뜻해 보여요.)",
+          "가방 / 비싸다 (write: 가방이 비싸 보여요.)",
+          "셔츠 / 작다 (write: 셔츠가 작아 보여요.)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "그 원피스는 예쁜 것처럼 보여요.",
+        "right": "그 원피스는 예뻐 보여요.",
+        "explanation": "English looks like it is pretty tempts learners to build a heavy ~것처럼 보이다 clause. For a simple adjective impression, Korean just fuses the adjective with 보이다: 예뻐 보여요."
+      }
+    },
+    {
+      "title": "A-(으)ㄴ N — An adjective before a noun",
+      "func": "Turn a descriptive adjective into a modifier that sits directly in front of a noun — the basic way to say a pretty dress, a long skirt, black shoes. Essential for describing clothing and appearance with detail.",
+      "formTable": [
+        {
+          "when": "Adjective stem ends in a vowel",
+          "add": "-ㄴ + N",
+          "ex": "예쁘다 → 예쁜 원피스 (a pretty dress)"
+        },
+        {
+          "when": "Adjective stem ends in a consonant",
+          "add": "-은 + N",
+          "ex": "작다 → 작은 신발 (small shoes)"
+        },
+        {
+          "when": "ㄹ-final stem (ㄹ drops)",
+          "add": "-ㄴ + N",
+          "ex": "길다 → 긴 치마 (a long skirt)"
+        },
+        {
+          "when": "있다/없다 type",
+          "add": "-는 + N",
+          "ex": "멋있다 → 멋있는 옷 (cool-looking clothes)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "저는 긴 치마를 좋아해요.",
+          "romanization": "jeoneun gin chimareul joahaeyo.",
+          "en": "I like long skirts.",
+          "note": "길다 is a ㄹ-irregular: ㄹ drops and -ㄴ attaches → 긴. A classic irregular to flag for clothing length."
+        },
+        {
+          "ko": "검은색 구두를 신었어요.",
+          "romanization": "geomeunsaek gudureul sineosseoyo.",
+          "en": "I wore black dress shoes.",
+          "note": "검다 → 검은; consonant-final stems take -은. 검은색 (black color) is everyday clothing vocabulary."
+        },
+        {
+          "ko": "이건 작은 모자예요.",
+          "romanization": "igeon jageun mojayeyo.",
+          "en": "This is a small hat.",
+          "note": "작다 → 작은; the modifier comes directly before the noun with no extra particle — unlike English, no is needed."
+        },
+        {
+          "ko": "새 운동화를 샀어요.",
+          "romanization": "sae undonghwareul sasseoyo.",
+          "en": "I bought new sneakers.",
+          "note": "새 (new) is a determiner that takes no ending at all — a common exception worth memorizing alongside the rule."
+        }
+      ],
+      "keyPoint": {
+        "label": "치마가 길어요 vs 긴 치마",
+        "body": "치마가 길어요 = The skirt is long (adjective as predicate, sentence-final). 긴 치마 = a long skirt (adjective modifying the noun, mid-sentence). The same adjective takes -아/어요 to end a sentence but -(으)ㄴ to sit before a noun."
+      },
+      "pronunciation": "작은 links as [ja-geun] — the final ㄱ of 작 moves onto the -은 (resyllabification). Likewise 검은 → [geo-meun], 좋은 → [jo-eun] (ㅎ silent).",
+      "drill": {
+        "instruction": "Combine the adjective and noun into A-(으)ㄴ N.",
+        "model": "예쁘다 + 가방 → 예쁜 가방",
+        "items": [
+          "짧다 + 바지 (write: 짧은 바지)",
+          "하얗다 + 셔츠 (write: 하얀 셔츠 — ㅎ-irregular: ㅎ drops)",
+          "멋있다 + 코트 (write: 멋있는 코트 — 있다 type takes -는)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "긴은 치마",
+        "right": "긴 치마",
+        "explanation": "With ㄹ-irregular adjectives like 길다, learners try to add -은 to a stem that already kept ㄹ. Instead the ㄹ drops and only -ㄴ attaches: 길다 → 긴 치마, not 길은/긴은 치마."
+      }
+    },
+    {
+      "title": "N보다 (더) — More ... than N",
+      "func": "Compare two things: mark the standard of comparison (the thing you measure against) with 보다, and add 더 (more) for emphasis. Ideal for clothing and appearance — saying one skirt is longer than another, or one coat is more expensive than another.",
+      "formTable": [
+        {
+          "when": "After any noun (the thing compared against)",
+          "add": "N보다",
+          "ex": "이 치마가 저 치마보다 길어요 (this skirt is longer than that one)"
+        },
+        {
+          "when": "Add 더 before the adjective for emphasis",
+          "add": "N보다 더 + A",
+          "ex": "이 코트가 저 코트보다 더 비싸요 (this coat is more expensive than that one)"
+        },
+        {
+          "when": "Opposite direction uses 덜 (less)",
+          "add": "N보다 덜 + A",
+          "ex": "이 신발이 저 신발보다 덜 편해요 (these shoes are less comfortable than those)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이 원피스가 저 원피스보다 예뻐요.",
+          "romanization": "i wonpiseuga jeo wonpiseuboda yeppeoyo.",
+          "en": "This dress is prettier than that one.",
+          "note": "보다 attaches to 저 원피스, the thing being compared against — no separate word for than is needed."
+        },
+        {
+          "ko": "검은색 구두가 흰색보다 더 잘 어울려요.",
+          "romanization": "geomeunsaek guduga huinsaekboda deo jal eoullyeoyo.",
+          "en": "Black shoes suit you better than white ones.",
+          "note": "더 (more) plus 잘 어울리다 is the natural way to say something suits you better."
+        },
+        {
+          "ko": "이 바지가 저 바지보다 짧아요.",
+          "romanization": "i bajiga jeo bajiboda jjalbayo.",
+          "en": "These pants are shorter than those.",
+          "note": "짧다 → 짧아요; comparing length is a very common clothing comment."
+        },
+        {
+          "ko": "이 모자가 저 모자보다 더 커요.",
+          "romanization": "i mojaga jeo mojaboda deo keoyo.",
+          "en": "This hat is bigger than that one.",
+          "note": "크다 → 커요; 더 reinforces the comparison but the sentence is already comparative thanks to 보다."
+        }
+      ],
+      "keyPoint": {
+        "label": "Where 보다 attaches",
+        "body": "보다 attaches to the standard (the thing you measure against), not the subject. 이 치마가 저 치마보다 길어요 = this skirt is longer than that skirt. The 가-marked noun is the winner; the 보다-marked noun is what it beats."
+      },
+      "pronunciation": "보다 is always pronounced [bo-da] and attaches directly with no space in writing: 저 치마보다. 더 [deo] is a separate word with a clear ㅓ vowel — do not reduce it to [deu].",
+      "drill": {
+        "instruction": "Make a comparison with N보다 (더) using the cue.",
+        "model": "이 치마 / 저 치마 / 길다 → 이 치마가 저 치마보다 길어요.",
+        "items": [
+          "이 코트 / 저 코트 / 비싸다 (write: 이 코트가 저 코트보다 비싸요.)",
+          "이 신발 / 저 신발 / 더 편하다 (write: 이 신발이 저 신발보다 더 편해요.)",
+          "빨간색 / 파란색 / 잘 어울리다 (write: 빨간색이 파란색보다 잘 어울려요.)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "이 치마가 길어요 저 치마보다.",
+        "right": "이 치마가 저 치마보다 길어요.",
+        "explanation": "English puts than that one at the end, so learners tack 저 치마보다 on after the adjective. In Korean the 보다 phrase must come before the adjective: subject + 보다-phrase + 더 + adjective."
+      }
     }
   ],
   "extendedVocabulary": [

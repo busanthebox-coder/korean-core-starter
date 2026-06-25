@@ -11,234 +11,494 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-085",
-      "title": "V(으)ㄴ 적이 있어요 — have done it before",
-      "mentalModel": "Use this when asking whether someone has the experience of watching, using, or trying content before.",
-      "formation": "Add -ㄴ 적이 있어요 after a vowel stem and -은 적이 있어요 after a consonant stem. 보다 becomes 본 적이 있어요. 쓰다 becomes 쓴 적이 있어요. Use 없어요 for no experience.",
-      "examples": [
+      "title": "V-(으)ㄴ 적이 있어요 — Have you ever…? (past experience)",
+      "func": "Says you have had the experience of doing something at least once. The negative, V-(으)ㄴ 적이 없어요, means you have never done it. It is about whether something has ever happened, not about one specific past event.",
+      "formTable": [
         {
-          "ko": "이 드라마 본 적 있어요?",
-          "romanization": "i deurama bon jeok isseoyo?",
-          "en": "Have you watched this drama before?",
-          "note": "A natural recommendation opener."
+          "when": "Verb stem ends in a consonant",
+          "add": "+ -은 적이 있어요",
+          "ex": "듣다 → 들은 적이 있어요 (have heard it before)"
         },
         {
-          "ko": "이 배우 나온 영화 본 적 있어요?",
-          "romanization": "i baeu naon yeonghwa bon jeok isseoyo?",
-          "en": "Have you watched a movie with this actor before?",
-          "note": "Experience with an actor's work."
+          "when": "Verb stem ends in a vowel",
+          "add": "+ -ㄴ 적이 있어요",
+          "ex": "보다 → 본 적이 있어요 (have seen it before)"
         },
         {
-          "ko": "이 앱 써 본 적 있어요?",
-          "romanization": "i aep sseo bon jeok isseoyo?",
-          "en": "Have you used this app before?",
-          "note": "Digital-life version."
-        },
-        {
-          "ko": "자막 없이 본 적은 없어요.",
-          "romanization": "jamak eopsi bon jeogeun eopseoyo.",
-          "en": "I have never watched it without subtitles.",
-          "note": "없어요 negates the experience."
+          "when": "Negative (never done it)",
+          "add": "replace 있어요 with 없어요",
+          "ex": "가다 → 간 적이 없어요 (have never gone)"
         }
       ],
-      "exceptions": [
-        "Use 봤어요 for a dated past event: 어제 봤어요. Use 본 적 있어요 for experience."
-      ]
-    },
-    {
-      "id": "gn-pattern-031",
-      "title": "A/V-는 것 같아요 — soft opinion or impression",
-      "mentalModel": "Use this when you want to recommend or judge content without sounding too absolute.",
-      "formation": "Present verbs use -는 것 같아요, adjectives use -(으)ㄴ 것 같아요, and future guesses use -(으)ㄹ 것 같아요. In speech, 것 often becomes 거.",
       "examples": [
         {
-          "ko": "이 드라마 재미있는 것 같아요.",
-          "romanization": "i deurama jaemiinneun geot gatayo.",
-          "en": "I think this drama is fun.",
-          "note": "Soft recommendation."
+          "ko": "저는 그 드라마를 본 적이 있어요.",
+          "romanization": "jeoneun geu deuramareul bon jeogi isseoyo.",
+          "en": "I have seen that drama before.",
+          "note": "보다 ends in a vowel, so just -ㄴ 적이 있어요 — talking about a past viewing experience."
         },
         {
-          "ko": "영상이 계속 끊기는 것 같아요.",
-          "romanization": "yeongsangi gyesok kkeunhgineun geot gatayo.",
-          "en": "It seems like the video keeps cutting out.",
-          "note": "Softly describes a tech problem."
+          "ko": "그 가수 콘서트에 간 적이 있어요?",
+          "romanization": "geu gasu konseoteue gan jeogi isseoyo?",
+          "en": "Have you ever been to that singer's concert?",
+          "note": "As a question it asks about life experience, not one specific event you both know about."
         },
         {
-          "ko": "자막이 조금 안 맞는 것 같아요.",
-          "romanization": "jamagi jogeum an manneun geot gatayo.",
-          "en": "I think the subtitles are a little off.",
-          "note": "A careful complaint."
+          "ko": "이 게임은 한 번도 해 본 적이 없어요.",
+          "romanization": "i geimeun han beondo hae bon jeogi eopseoyo.",
+          "en": "I have never played this game even once.",
+          "note": "없어요 makes it the 'never' negative; 한 번도 reinforces 'not even once.'"
         },
         {
-          "ko": "이 아이돌 무대가 대박인 것 같아요.",
-          "romanization": "i aidol mudaega daebagin geot gatayo.",
-          "en": "I think this idol's stage is amazing.",
-          "note": "Entertainment reaction with a hedge."
-        }
-      ]
-    },
-    {
-      "id": "gn-pattern-035",
-      "title": "V/A-다고 했어요 — said that...",
-      "mentalModel": "Use this to pass along a friend's opinion, recommendation, or warning about content.",
-      "formation": "Adjectives take -다고 했어요: 좋다고 했어요, 재미있다고 했어요. Present action verbs take -ㄴ다고/-는다고 했어요. Nouns use (이)라고 했어요.",
-      "examples": [
-        {
-          "ko": "친구가 이 드라마 재미있다고 했어요.",
-          "romanization": "chinguga i deurama jaemiitdago haesseoyo.",
-          "en": "My friend said this drama is fun.",
-          "note": "Reported recommendation."
-        },
-        {
-          "ko": "친구가 자막이 좋다고 했어요.",
-          "romanization": "chinguga jamagi jotago haesseoyo.",
-          "en": "My friend said the subtitles are good.",
-          "note": "Reported opinion."
-        },
-        {
-          "ko": "댓글에서 영상이 자주 끊긴다고 했어요.",
-          "romanization": "daetgeureseo yeongsangi jaju kkeunhgindago haesseoyo.",
-          "en": "The comments said the video cuts out often.",
-          "note": "Reported digital problem."
-        },
-        {
-          "ko": "친구가 그 아이돌 무대가 대박이라고 했어요.",
-          "romanization": "chinguga geu aidol mudaega daebagirago haesseoyo.",
-          "en": "My friend said that idol's stage was amazing.",
-          "note": "Noun/expression plus (이)라고 했어요."
+          "ko": "유튜브에 영상을 올린 적이 있어요.",
+          "romanization": "yutyubeue yeongsangeul ollin jeogi isseoyo.",
+          "en": "I have uploaded a video to YouTube before.",
+          "note": "올리다 ends in a vowel → 올린; the experience of having uploaded at some point."
         }
       ],
-      "exceptions": [
-        "Questions use -냐고 했어요, not -다고 했어요."
-      ]
+      "keyPoint": {
+        "label": "-(으)ㄴ 적이 있어요 vs. plain past -았/었어요",
+        "body": "Plain past 봤어요 reports one specific event ('I watched it yesterday'). 본 적이 있어요 reports the experience itself ('I have watched it at some point'). Use -(으)ㄴ 적이 있어요 when the time doesn't matter, only whether it has ever happened.",
+        "when": "",
+        "add": "",
+        "ex": ""
+      },
+      "pronunciation": "적이 is pronounced [저기] (jeogi): the final ㄱ of 적 links onto the 이 of the next syllable.",
+      "drill": {
+        "instruction": "Turn each verb into a 'have you ever…?' question using -(으)ㄴ 적이 있어요.",
+        "model": "라이브 방송을 보다 → 라이브 방송을 본 적이 있어요?",
+        "items": [
+          "케이팝 노래를 듣다 → ___",
+          "웹툰을 그리다 → ___",
+          "온라인 게임에서 지다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 그 영화를 봤은 적이 있어요.",
+        "right": "저는 그 영화를 본 적이 있어요.",
+        "explanation": "English speakers add 었 because the meaning feels 'past.' But -(으)ㄴ already carries the past sense; attach it straight to the plain stem (보 → 본), never to the -았/었 form."
+      }
     },
     {
-      "id": "gn-pattern-096",
-      "title": "A/V-지만 — clean contrast",
-      "mentalModel": "Use this when two opinions pull against each other: one good point, one problem, or one comparison.",
-      "formation": "Attach -지만 directly to the adjective or verb stem. For nouns, use N이지만/지만.",
+      "title": "A/V-는 것 같아요 — I think… / It seems… (soft impression)",
+      "func": "Softens a statement into an impression or guess: 'it seems,' 'I think,' 'probably.' It makes you sound less blunt and more polite, which is why Korean speakers use it constantly even when fairly sure.",
+      "formTable": [
+        {
+          "when": "Verb, present",
+          "add": "+ -는 것 같아요",
+          "ex": "보다 → 보는 것 같아요 (seems to be watching)"
+        },
+        {
+          "when": "Adjective, present",
+          "add": "+ -(으)ㄴ 것 같아요",
+          "ex": "재미있다 → 재미있는 것 같아요 / 좋다 → 좋은 것 같아요 (seems good)"
+        },
+        {
+          "when": "Verb, past",
+          "add": "+ -(으)ㄴ 것 같아요",
+          "ex": "끝나다 → 끝난 것 같아요 (seems to have ended)"
+        },
+        {
+          "when": "Any, future/guess",
+          "add": "+ -(으)ㄹ 것 같아요",
+          "ex": "재미있다 → 재미있을 것 같아요 (looks like it'll be fun)"
+        }
+      ],
       "examples": [
         {
-          "ko": "배우도 좋지만 댓글이 더 재미있어요.",
-          "romanization": "baeudo jojiman daetgeuri deo jaemiisseoyo.",
-          "en": "The actor is good too, but the comments are more fun.",
-          "note": "Content contrast."
+          "ko": "이 드라마가 요즘 제일 인기 있는 것 같아요.",
+          "romanization": "i deuramaga yojeum jeil ingi inneun geot gatayo.",
+          "en": "I think this drama is the most popular these days.",
+          "note": "있다 takes the verb-style -는 것 같아요; softens a strong claim into an opinion."
         },
         {
-          "ko": "드라마는 재미있지만 영상이 자주 끊겨요.",
-          "romanization": "deuramaneun jaemiitjiman yeongsangi jaju kkeunhgyeoyo.",
-          "en": "The drama is fun, but the video cuts out often.",
-          "note": "Good content, bad streaming."
+          "ko": "새 앨범이 정말 좋은 것 같아요.",
+          "romanization": "sae aelbeomi jeongmal joeun geot gatayo.",
+          "en": "I think the new album is really good.",
+          "note": "좋다 is an adjective → -은 것 같아요; gives a gentle personal opinion."
         },
         {
-          "ko": "자막은 좋지만 글자가 조금 작아요.",
-          "romanization": "jamageun jojiman geuljjaga jogeum jagayo.",
-          "en": "The subtitles are good, but the text is a little small.",
-          "note": "Usability contrast."
+          "ko": "댓글을 보니까 사람들이 화난 것 같아요.",
+          "romanization": "daetgeureul bonikka saramdeuri hwanan geot gatayo.",
+          "en": "Judging by the comments, people seem to be angry.",
+          "note": "화나다 here is a completed state → past -ㄴ 것 같아요 ('have gotten angry')."
         },
         {
-          "ko": "아이돌은 잘 모르지만 이 노래는 좋아요.",
-          "romanization": "aidoreun jal moreujiman i noraeneun joayo.",
-          "en": "I do not know idols well, but I like this song.",
-          "note": "Safe K-pop conversation line."
+          "ko": "이번 주말에 영화관이 붐빌 것 같아요.",
+          "romanization": "ibeon jumare yeonghwagwani bumbil geot gatayo.",
+          "en": "The movie theater will probably be crowded this weekend.",
+          "note": "-(으)ㄹ 것 같아요 is a guess about the future you can't see yet."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "Present -는 것 같아요 vs. future -(으)ㄹ 것 같아요",
+        "body": "Use -는 것 같아요 for something happening or true now ('seems to be ~ing'). Use -(으)ㄹ 것 같아요 for a prediction about something not yet visible ('will probably ~'). Same softener, different time: 보는 것 같아요 = 'seems to be watching it'; 볼 것 같아요 = 'will probably watch it.'",
+        "when": "",
+        "add": "",
+        "ex": ""
+      },
+      "pronunciation": "것 같아요 is pronounced [걷 가타요] → naturally [걷까타요]: the final ㅅ becomes [t] and tenses the following ㄱ to [ㄲ].",
+      "drill": {
+        "instruction": "Make each statement softer with the correct form of -는 것 같아요.",
+        "model": "이 노래가 좋다 → 이 노래가 좋은 것 같아요.",
+        "items": [
+          "그 배우가 연기를 잘하다 → ___",
+          "방송이 벌써 끝나다 (past) → ___",
+          "내일 콘서트 표가 매진되다 (future guess) → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "이 드라마가 재미있은 것 같아요.",
+        "right": "이 드라마가 재미있는 것 같아요.",
+        "explanation": "재미있다 and 맛있다 look like adjectives but contain 있다, so they pattern as verbs here: use -는 것 같아요, not the adjective -은 것 같아요."
+      }
     },
     {
-      "id": "gn-pattern-022",
-      "title": "V/A-거든요 — here's the reason/background",
-      "mentalModel": "Use this when you add the reason behind your recommendation or reaction.",
-      "formation": "Attach -거든요 to the stem: 재미있거든요, 좋거든요, 끊기거든요. It gives background the listener may not know yet.",
+      "title": "V/A-다고 했어요 — They said that… (reported speech)",
+      "func": "Reports what someone else said (or what you read or heard). It quotes a statement indirectly: 'He said that it's fun.' Used constantly for relaying news, comments, and messages.",
+      "formTable": [
+        {
+          "when": "Verb, present",
+          "add": "+ -ㄴ/는다고 했어요",
+          "ex": "보다 → 본다고 했어요 / 먹다 → 먹는다고 했어요 (said they watch/eat)"
+        },
+        {
+          "when": "Adjective, present",
+          "add": "+ -다고 했어요",
+          "ex": "재미있다 → 재미있다고 했어요 (said it's fun)"
+        },
+        {
+          "when": "Past (verb or adjective)",
+          "add": "+ -았/었다고 했어요",
+          "ex": "끝나다 → 끝났다고 했어요 (said it ended)"
+        },
+        {
+          "when": "Noun statement",
+          "add": "이다 → -(이)라고 했어요",
+          "ex": "가수 → 가수라고 했어요 (said they're a singer)"
+        }
+      ],
       "examples": [
         {
-          "ko": "댓글이 진짜 재미있거든요.",
-          "romanization": "daetgeuri jinjja jaemiitgeodeunyo.",
-          "en": "The comments are really fun, you know.",
-          "note": "Reason for recommending the drama."
+          "ko": "친구가 그 영화 진짜 재미있다고 했어요.",
+          "romanization": "chinguga geu yeonghwa jinjja jaemiitdago haesseoyo.",
+          "en": "My friend said that movie is really fun.",
+          "note": "재미있다 is an adjective, so plain -다고 했어요 with no 는."
         },
         {
-          "ko": "이 배우가 좋거든요.",
-          "romanization": "i baeuga jokeodeunyo.",
-          "en": "I like this actor, you see.",
-          "note": "Personal reason."
+          "ko": "동생이 새 게임을 한다고 했어요.",
+          "romanization": "dongsaengi sae geimeul handago haesseoyo.",
+          "en": "My younger sibling said they're going to play a new game.",
+          "note": "하다 is a verb ending in a vowel → -ㄴ다고 했어요 (한다고)."
         },
         {
-          "ko": "영상이 계속 끊기거든요.",
-          "romanization": "yeongsangi gyesok kkeunhgigeodeunyo.",
-          "en": "The video keeps cutting out, you see.",
-          "note": "Background before asking for help."
+          "ko": "뉴스에서 그 가수가 컴백했다고 했어요.",
+          "romanization": "nyuseueseo geu gasuga keombaekhaetdago haesseoyo.",
+          "en": "The news said that singer made a comeback.",
+          "note": "Past tense 했 + -다고 했어요; the source (뉴스에서) is marked with 에서."
         },
         {
-          "ko": "자막이 좋아서 계속 보거든요.",
-          "romanization": "jamagi joaseo gyesok bogeodeunyo.",
-          "en": "I keep watching because the subtitles are good, you know.",
-          "note": "Why the learner keeps watching."
+          "ko": "그 사람이 인기 유튜버라고 했어요.",
+          "romanization": "geu sarami ingi yutyubeorago haesseoyo.",
+          "en": "They said that person is a popular YouTuber.",
+          "note": "유튜버 is a noun → -(이)라고 했어요; ends in a vowel so 라고, not 이라고."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "Verb -ㄴ/는다고 vs. adjective -다고",
+        "body": "The trap is the present tense. Verbs insert 는/ㄴ: 먹는다고, 본다고. Adjectives do NOT: 좋다고, 재미있다고. Past tense erases the difference — both verbs and adjectives use -았/었다고 (봤다고, 좋았다고).",
+        "when": "",
+        "add": "",
+        "ex": ""
+      },
+      "pronunciation": "-다고 했어요: 했어요 is said [해써요], and the whole reporting tail comes out quickly and flatly, lower in pitch than the quoted part.",
+      "drill": {
+        "instruction": "Report each sentence with -다고 했어요.",
+        "model": "\"콘서트가 멋있어요\" → 콘서트가 멋있다고 했어요.",
+        "items": [
+          "\"저는 매일 웹툰을 봐요\" → ___ (said they watch every day)",
+          "\"그 앨범이 좋았어요\" → ___ (said it was good)",
+          "\"제 친구는 게이머예요\" → ___ (said their friend is a gamer)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "친구가 영화를 본다고 말했어요 라고 했어요.",
+        "right": "친구가 영화를 본다고 했어요.",
+        "explanation": "English 'said that' makes learners reach for an extra verb. In Korean, -다고 했어요 already contains 'said.' Don't double it up; just attach -다고 to the quoted clause and end with 했어요."
+      }
     },
     {
-      "id": "gn-pattern-025",
-      "title": "V/A-는데요 — soft setup or problem raising",
-      "mentalModel": "Use this to bring up a problem gently and leave space for the other person to respond.",
-      "formation": "Action verbs and 있다/없다 take -는데요. Adjectives take -ㄴ/은데요. In tech support, it often sounds like 'the thing is...'.",
+      "title": "A/V-지만 — but / although (clean contrast)",
+      "func": "Joins two clauses in a straightforward 'A, but B' contrast. Neutral and clear, it works in both speech and writing, much like English 'but' or 'although.'",
+      "formTable": [
+        {
+          "when": "Verb or adjective stem",
+          "add": "+ -지만",
+          "ex": "재미있다 → 재미있지만 (is fun, but)"
+        },
+        {
+          "when": "Past tense",
+          "add": "-았/었 + -지만",
+          "ex": "봤다 → 봤지만 (watched it, but)"
+        },
+        {
+          "when": "Noun + 이다",
+          "add": "+ -(이)지만",
+          "ex": "가수 → 가수지만 (is a singer, but)"
+        }
+      ],
       "examples": [
         {
-          "ko": "영상이 계속 끊기는데요.",
-          "romanization": "yeongsangi gyesok kkeunhgineundeyo.",
-          "en": "The video keeps cutting out, though.",
-          "note": "Softly raises a problem."
+          "ko": "이 드라마는 길지만 정말 재미있어요.",
+          "romanization": "i deuramaneun giljiman jeongmal jaemiisseoyo.",
+          "en": "This drama is long, but it's really fun.",
+          "note": "길다 + 지만; clean contrast between 'long' and 'fun.'"
         },
         {
-          "ko": "자막이 안 나오는데요.",
-          "romanization": "jamagi an naoneundeyo.",
-          "en": "The subtitles are not showing, though.",
-          "note": "Streaming app problem."
+          "ko": "그 게임을 좋아하지만 시간이 없어요.",
+          "romanization": "geu geimeul joahajiman sigani eopseoyo.",
+          "en": "I like that game, but I don't have time.",
+          "note": "좋아하다 (verb) + 지만; one clause for liking, one for the obstacle."
         },
         {
-          "ko": "공유했는데요, 친구가 못 봤대요.",
-          "romanization": "gongyuhaenneundeyo, chinguga mot bwatdaeyo.",
-          "en": "I shared it, but my friend says they couldn't see it.",
-          "note": "Past action plus unresolved issue."
+          "ko": "표를 예매했지만 못 갔어요.",
+          "romanization": "pyoreul yemaehaetjiman mot gasseoyo.",
+          "en": "I booked the ticket, but I couldn't go.",
+          "note": "Past -했 + 지만 contrasts a completed action with the result."
         },
         {
-          "ko": "좋아요를 눌렀는데요.",
-          "romanization": "joayoreul nulleonneundeyo.",
-          "en": "I did hit like, though.",
-          "note": "Soft pushback or setup."
+          "ko": "그 사람은 유명한 가수지만 저는 노래를 몰라요.",
+          "romanization": "geu sarameun yumyeonghan gasujiman jeoneun noraereul mollayo.",
+          "en": "That person is a famous singer, but I don't know their songs.",
+          "note": "Noun 가수 + 지만; contrasts fame with the speaker's unfamiliarity."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "-지만 (one sentence) vs. 하지만 (sentence-starter)",
+        "body": "-지만 is a connector glued onto a verb or adjective inside one sentence: 좋지만 비싸요. 하지만 is a standalone conjunction that starts a new sentence: 좋아요. 하지만 비싸요. Same meaning 'but,' different position — don't put -지만 at the start of a sentence or 하지만 in the middle of one.",
+        "when": "",
+        "add": "",
+        "ex": ""
+      },
+      "pronunciation": "-지만 is said evenly as [지만]; in 봤지만 the ㅅ tenses the ㅈ, giving [봗찌만].",
+      "drill": {
+        "instruction": "Join the two ideas into one sentence with -지만.",
+        "model": "이 영화 / 무섭다 + 재미있다 → 이 영화는 무섭지만 재미있어요.",
+        "items": [
+          "이 게임 / 어렵다 + 재미있다 → ___",
+          "표를 사다(past) + 시간이 없어서 못 가다 → ___",
+          "그 배우 / 유명한 사람이다 + 저는 잘 모르다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "이 드라마는 길어요지만 재미있어요.",
+        "right": "이 드라마는 길지만 재미있어요.",
+        "explanation": "Learners attach -지만 to the full polite form (길어요지만). -지만 goes on the plain stem instead: 길다 → 길지만. For past, use 봤지만, not 봤어요지만."
+      }
     },
     {
-      "id": "gn-pattern-074",
-      "title": "V아/어 보세요 — try doing it",
-      "mentalModel": "Use this for troubleshooting advice: try reconnecting, try opening again, try checking settings.",
-      "formation": "Make the 아/어 form and add 보세요. 연결하다 becomes 연결해 보세요. 누르다 becomes 눌러 보세요.",
+      "title": "V-(으)ㄹ게요 — I'll do it (promise / casual intention)",
+      "func": "States what the speaker will do, often as a light promise or a response to the listener: 'I'll watch it,' 'I'll send it to you.' It is speaker-only (you can't use it for someone else) and signals you're deciding in reaction to the situation. Extremely common in texting and chatting.",
+      "formTable": [
+        {
+          "when": "Verb stem ends in a vowel",
+          "add": "+ -ㄹ게요",
+          "ex": "보다 → 볼게요 (I'll watch it)"
+        },
+        {
+          "when": "Verb stem ends in a consonant",
+          "add": "+ -을게요",
+          "ex": "찾다 → 찾을게요 (I'll look it up)"
+        },
+        {
+          "when": "ㄹ-final stem (drop nothing, add 게요)",
+          "add": "+ -게요",
+          "ex": "만들다 → 만들게요 (I'll make it)"
+        }
+      ],
       "examples": [
         {
-          "ko": "와이파이를 다시 연결해 보세요.",
-          "romanization": "waipaireul dasi yeongyeolhae boseyo.",
-          "en": "Try reconnecting the Wi-Fi.",
-          "note": "Core streaming fix."
+          "ko": "그 드라마 오늘 밤에 볼게요.",
+          "romanization": "geu deurama oneul bame bolgeyo.",
+          "en": "I'll watch that drama tonight.",
+          "note": "보다 ends in a vowel → 볼게요; a personal decision about what I'll do."
         },
         {
-          "ko": "좋아요를 눌러 보세요.",
-          "romanization": "joayoreul nulleo boseyo.",
-          "en": "Try pressing like.",
-          "note": "누르다 becomes 눌러."
+          "ko": "링크 보내 줄게요.",
+          "romanization": "lingkeu bonae julgeyo.",
+          "en": "I'll send you the link.",
+          "note": "Very common in chat; 보내 주다 → 보내 줄게요, promising to do it for the listener."
         },
         {
-          "ko": "자막 설정을 다시 확인해 보세요.",
-          "romanization": "jamak seoljeongeul dasi hwaginhae boseyo.",
-          "en": "Try checking the subtitle settings again.",
-          "note": "Troubleshooting with settings."
+          "ko": "제가 영상 편집할게요.",
+          "romanization": "jega yeongsang pyeonjipalgeyo.",
+          "en": "I'll edit the video.",
+          "note": "하다 → 할게요; offering to take on the task yourself."
         },
         {
-          "ko": "영상을 다시 공유해 보세요.",
-          "romanization": "yeongsangeul dasi gongyuhae boseyo.",
-          "en": "Try sharing the video again.",
-          "note": "Digital action plus try."
+          "ko": "댓글 확인하고 답장할게요.",
+          "romanization": "daetgeul hwaginhago datjanghalgeyo.",
+          "en": "I'll check the comments and reply.",
+          "note": "Two actions chained with -고, then -ㄹ게요 for the promise to reply."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "-(으)ㄹ게요 vs. -(으)ㄹ 거예요",
+        "body": "-(으)ㄹ게요 is a promise made to the listener, decided on the spot ('okay, I'll do it'). -(으)ㄹ 거예요 is a plain statement of plan or prediction and can describe anyone ('I/he will probably do it'). Use 볼게요 when responding to someone; 볼 거예요 when just stating your plan.",
+        "when": "",
+        "add": "",
+        "ex": ""
+      },
+      "pronunciation": "-ㄹ게요 is pronounced [ㄹ께요]: the ㄱ is tensed to [ㄲ], so 볼게요 sounds like [볼께요].",
+      "drill": {
+        "instruction": "Answer each situation with a -(으)ㄹ게요 promise using the given verb.",
+        "model": "친구가 영화를 추천했어요. (보다) → 그럼 제가 볼게요.",
+        "items": [
+          "친구가 노래를 추천했어요. (듣다) → ___",
+          "사진이 필요해요. (보내다) → ___",
+          "게임 같이 하고 싶어요. (만들다 / 방을 만들다) → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "친구가 그 드라마를 볼게요.",
+        "right": "친구가 그 드라마를 볼 거예요.",
+        "explanation": "-(으)ㄹ게요 is only for the speaker's own promise. To talk about what someone else will do, switch to -(으)ㄹ 거예요. You can't promise on another person's behalf with -ㄹ게요."
+      }
+    },
+    {
+      "title": "V-아/어 주세요 — Please do it (for me)",
+      "func": "Asks someone to do something for you, politely: 'please send it,' 'please recommend one.' The 주다 ('give') part adds the 'for me / for my benefit' nuance, making it warmer than a bare command. The everyday way to make digital-life requests.",
+      "formTable": [
+        {
+          "when": "Stem vowel ㅏ/ㅗ",
+          "add": "+ -아 주세요",
+          "ex": "찾다 → 찾아 주세요 (please find it)"
+        },
+        {
+          "when": "Other stem vowels",
+          "add": "+ -어 주세요",
+          "ex": "보내다 → 보내 주세요 (please send it)"
+        },
+        {
+          "when": "하다 verbs",
+          "add": "하 → 해 주세요",
+          "ex": "추천하다 → 추천해 주세요 (please recommend one)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "재미있는 드라마 좀 추천해 주세요.",
+          "romanization": "jaemiinneun deurama jom chucheonhae juseyo.",
+          "en": "Please recommend a fun drama.",
+          "note": "추천하다 → 추천해 주세요; 좀 softens the request even more."
+        },
+        {
+          "ko": "그 영상 링크 보내 주세요.",
+          "romanization": "geu yeongsang lingkeu bonae juseyo.",
+          "en": "Please send me that video link.",
+          "note": "보내다 → 보내 주세요; a typical chat request to do something for you."
+        },
+        {
+          "ko": "비밀번호 좀 찾아 주세요.",
+          "romanization": "bimilbeonho jom chaja juseyo.",
+          "en": "Please find the password for me.",
+          "note": "찾다 has stem vowel ㅏ → 찾아 주세요."
+        },
+        {
+          "ko": "잠깐만 음악 좀 꺼 주세요.",
+          "romanization": "jamkkanman eumak jom kkeo juseyo.",
+          "en": "Please turn the music off for a moment.",
+          "note": "끄다 → 꺼 주세요 (ㅡ drops before 어); asking someone to do it for your sake."
+        }
+      ],
+      "keyPoint": {
+        "label": "-아/어 주세요 (do it for me) vs. -(으)세요 (plain polite command)",
+        "body": "-(으)세요 is a polite instruction with no 'for me' feeling: 여기 앉으세요 ('please sit here'). Adding 주다 → -아/어 주세요 frames it as a favor done for the speaker: 사진 보내 주세요 ('send me the photo, please'). For requests where someone helps you, use -아/어 주세요.",
+        "when": "",
+        "add": "",
+        "ex": ""
+      },
+      "pronunciation": "주세요 is said smoothly as [주세요]; keep the 아/어 and 주 as two clear beats (보내 주세요 = bo-nae ju-se-yo), not crushed together.",
+      "drill": {
+        "instruction": "Turn each verb into a polite '(do it) for me' request with -아/어 주세요.",
+        "model": "링크를 보내다 → 링크를 보내 주세요.",
+        "items": [
+          "좋은 노래를 추천하다 → ___",
+          "이 사진을 찾다 → ___",
+          "소리를 조금 줄이다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "드라마 추천 주세요.",
+        "right": "드라마 추천해 주세요.",
+        "explanation": "Learners drop the verb and attach 주세요 to a noun. 주세요 needs an -아/어 verb form in front: 추천하다 → 추천해 주세요. (주세요 by itself only works with a noun meaning 'please give me ~,' e.g. 물 주세요.)"
+      }
+    },
+    {
+      "title": "V/A-거든요 — you see, … (a reason or background)",
+      "func": "-거든요 ends a sentence to offer a reason or new background the listener doesn't know yet — like \"you see\" or \"because…\". It often answers a real or implied \"why?\"",
+      "formTable": [
+        {
+          "when": "Verb/adjective stem (present)",
+          "add": "-거든요",
+          "ex": "재미있다 → 재미있거든요 · 좋아하다 → 좋아하거든요"
+        },
+        {
+          "when": "Past",
+          "add": "-았/었거든요",
+          "ex": "보다 → 봤거든요 (I watched it, you see)"
+        },
+        {
+          "when": "Noun + (이)거든요",
+          "add": "(이)거든요",
+          "ex": "팬이다 → 팬이거든요 (I'm a fan, you see)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이 드라마 꼭 보세요. 정말 재미있거든요.",
+          "romanization": "i deurama kkok boseyo. jeongmal jaemiitgeodeunyo.",
+          "en": "You should definitely watch this drama — it's really fun, you see.",
+          "note": "거든요 gives the reason for the recommendation."
+        },
+        {
+          "ko": "그 노래 알아요. 제가 그 가수 팬이거든요.",
+          "romanization": "geu norae arayo. jega geu gasu paenigeodeunyo.",
+          "en": "I know that song — I'm a fan of that singer, you see.",
+          "note": "Noun + 이거든요 supplies background."
+        },
+        {
+          "ko": "어제 그 영화 봤거든요. 진짜 슬펐어요.",
+          "romanization": "eoje geu yeonghwa bwatgeodeunyo. jinjja seulpeosseoyo.",
+          "en": "I watched that movie yesterday, you see — it was really sad.",
+          "note": "Past 봤거든요 sets up the next comment."
+        },
+        {
+          "ko": "지금 통화 못 해요. 영화 보는 중이거든요.",
+          "romanization": "jigeum tonghwa mot haeyo. yeonghwa boneun jungigeodeunyo.",
+          "en": "I can't talk right now — I'm in the middle of a movie, you see.",
+          "note": "거든요 explains the refusal."
+        }
+      ],
+      "keyPoint": {
+        "label": "거든요 (new info) vs 잖아요 (shared info)",
+        "body": "Both give a reason, but 거든요 tells the listener something NEW they didn't know (재미있거든요), while 잖아요 appeals to something you BOTH already know (재미있잖아요). Use 거든요 to introduce a reason, 잖아요 to remind."
+      },
+      "pronunciation": "재미있거든요: the ㅆ+ㄱ tightens and the ending links — roughly [재미읻꺼든뇨].",
+      "drill": {
+        "instruction": "Add a reason with -거든요.",
+        "model": "(이 드라마 재미있다) → 이 드라마 재미있거든요.",
+        "items": [
+          "(저 그 가수 좋아하다) → ______",
+          "(어제 그 영화 보다 — past) → ______",
+          "(지금 바쁘다) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "재미있거든요? (rising, like a question)",
+        "right": "재미있거든요. (falling, a statement)",
+        "explanation": "거든요 is not a question. Say it with a falling, confiding tone — it sets up a reason or a follow-up, not a yes/no question."
+      }
     }
   ],
   "extendedVocabulary": [
