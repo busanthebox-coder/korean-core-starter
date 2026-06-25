@@ -133,6 +133,9 @@ course.chapters = (course.chapters || []).map((chapter) => {
   const nextGrammarFocus = unique([...(grammarFocus[source.number] || []), ...(source.grammarFocus || [])]);
   const updated = {
     ...source,
+    // Display "Chapter N" follows the curriculum sequence (order[]), so the visible
+    // numbers run 1..65 in study order. (id stays stable; run once on original-numbered course.json.)
+    number: position,
     level: source.level || trackFor(source.number).cefr,
     curriculumOrder: position,
     curriculumTrack: trackFor(source.number),
