@@ -11,202 +11,217 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-084",
-      "title": "A/V-(으)ㄹ 것 같아요 - I think it will / it seems",
-      "mentalModel": "것 같아요 puts a soft layer around your guess. You are saying, 'It seems that way to me,' not claiming it as a fact.",
-      "formation": "For a future or uncertain guess, attach -(으)ㄹ 것 같아요: 오다 becomes 올 것 같아요, 늦다 becomes 늦을 것 같아요, 맛있다 becomes 맛있을 것 같아요. For a current verb guess, use -는 것 같아요: 비가 오는 것 같아요. For a current adjective guess, use -(으)ㄴ 것 같아요: 바쁜 것 같아요, 좋은 것 같아요. For a past guess, use -(으)ㄴ 것 같아요 or -았/었던 것 같아요 depending on the predicate.",
+      "title": "A/V-(으)ㄹ 것 같아요",
+      "func": "A soft guess or gentle opinion — 'I think it'll…' or 'it looks like…'. This is the everyday, all-purpose way to make what you say sound less certain and a bit softer.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel (verb or adjective)",
+          "add": "stem + -ㄹ 것 같아요",
+          "ex": "오다 → 올 것 같아요 (it looks like it'll rain)"
+        },
+        {
+          "when": "Stem ends in a consonant (verb or adjective)",
+          "add": "stem + -을 것 같아요",
+          "ex": "먹다 → 먹을 것 같아요 (I think I'll eat it)"
+        },
+        {
+          "when": "Stem ends in ㄹ",
+          "add": "the ㄹ drops, then add -ㄹ 것 같아요 (so it looks unchanged)",
+          "ex": "살다 → 살 것 같아요 (it seems they'll live/stay)"
+        },
+        {
+          "when": "Guess about the past",
+          "add": "stem + -았/었을 것 같아요",
+          "ex": "가다 → 갔을 것 같아요 (I think they already left)"
+        }
+      ],
       "examples": [
         {
-          "ko": "하늘이 흐려서 비가 올 것 같아요.",
-          "romanization": "haneuri heuryeoseo biga ol geot gatayo.",
-          "en": "The sky is cloudy, so I think it will rain.",
-          "note": "Visible clue plus soft future prediction."
+          "ko": "오늘 비가 올 것 같아요.",
+          "romanization": "oneul biga ol geot gatayo.",
+          "en": "I think it'll rain today.",
+          "note": "A classic guess from looking at the sky."
         },
         {
-          "ko": "길이 막혀서 조금 늦을 것 같아요.",
-          "romanization": "giri makyeoseo jogeum neujeul geot gatayo.",
-          "en": "Traffic is heavy, so I think I will be a little late.",
-          "note": "A polite warning before being late."
+          "ko": "이 영화 재미있을 것 같아요.",
+          "romanization": "i yeonghwa jaemiisseul geot gatayo.",
+          "en": "This movie looks like it'll be fun.",
+          "note": "재미있다 → 재미있을 것 같아요; a guess about something you haven't seen yet."
         },
         {
-          "ko": "이 카페는 사람이 많아서 맛있을 것 같아요.",
-          "romanization": "i kapeneun sarami manaseo masisseul geot gatayo.",
-          "en": "This cafe has many people, so I think it will be good.",
-          "note": "You are guessing from popularity, not reporting a fact."
+          "ko": "친구가 집에 없을 것 같아요.",
+          "romanization": "chinguga jibe eopseul geot gatayo.",
+          "en": "I don't think my friend is home.",
+          "note": "없다 → 없을 것 같아요; softens a guess about right now."
         },
         {
-          "ko": "친구가 아직 오는 것 같아요.",
-          "romanization": "chinguga ajik oneun geot gatayo.",
-          "en": "It seems my friend is still on the way.",
-          "note": "Use -는 것 같아요 for a current action."
+          "ko": "내일은 시간이 있을 것 같아요.",
+          "romanization": "naeireun sigani isseul geot gatayo.",
+          "en": "I think I'll have time tomorrow.",
+          "note": "있다 → 있을 것 같아요; a gentle 'probably yes' about your own plans."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "비가 올 것 같아요.",
-            "en": "I think it will rain."
-          },
-          "b": {
-            "ko": "비가 올 거예요.",
-            "en": "It will rain."
-          },
-          "explanation": "것 같아요 is softer and less certain. -ㄹ 거예요 sounds more like a confident prediction."
-        },
-        {
-          "a": {
-            "ko": "비가 올 것 같아요.",
-            "en": "It looks like it will rain."
-          },
-          "b": {
-            "ko": "비가 오는 것 같아요.",
-            "en": "It seems to be raining."
-          },
-          "explanation": "-ㄹ 것 같아요 looks forward. -는 것 같아요 guesses about an action happening now."
-        }
-      ],
+      "keyPoint": {
+        "label": "-(으)ㄹ 것 같아요 vs. -는/(으)ㄴ 것 같아요",
+        "body": "Use -(으)ㄹ 것 같아요 for the future or something you haven't checked yet (비가 올 것 같아요 = you're looking at the clouds). Use -는 것 같아요 / -(으)ㄴ 것 같아요 for something happening right now or already done that you can sense (비가 오는 것 같아요 = you can hear the rain). The ㄹ form is more of a hunch; the 는/ㄴ form is closer to what you're actually noticing."
+      },
+      "pronunciation": "것 같아요 sounds like [걷 까타요]: the final ㅅ of 것 turns into a [t] stop, which tenses the next ㄱ into [ㄲ], so you hear 'geot-kkatayo'.",
+      "drill": {
+        "instruction": "Make a soft guess with A/V-(으)ㄹ 것 같아요.",
+        "model": "비가 오다 → 비가 올 것 같아요.",
+        "items": [
+          "이 책 재미있다 → ____",
+          "내일 친구가 오다 → ____",
+          "지금 학교에 사람이 없다 → ____"
+        ]
+      },
       "englishSpeakerPitfall": {
-        "wrong": "비가 올 생각해요.",
+        "wrong": "비가 올 것 생각해요.",
         "right": "비가 올 것 같아요.",
-        "explanation": "Do not translate 'I think' word for word with 생각하다 in quick predictions. Korean often uses 것 같아요."
-      },
-      "exceptions": [
-        "When you know the fact, do not soften it: 지금 비가 와요 is better than 지금 비가 오는 것 같아요 if you are literally seeing rain.",
-        "Adjectives use modifier forms: 바쁜 것 같아요, 좋은 것 같아요, 피곤한 것 같아요.",
-        "같아요 here is part of a grammar frame; do not explain it only as 같다 meaning 'same.'"
-      ]
+        "explanation": "English 'I think' makes you want to grab 생각하다, but for a guess or impression Korean uses the set phrase -(으)ㄹ 것 같아요 ('it seems like'). 생각하다 is for an opinion you actually hold, and it doesn't attach to -(으)ㄹ 것 like this."
+      }
     },
     {
-      "id": "gn-pattern-028",
-      "title": "V/A-나 봐요 / -(으)ㄴ가 봐요 - it seems from evidence",
-      "mentalModel": "나 봐요 means your guess is not random. Something you saw, heard, or noticed is pushing you toward that conclusion.",
-      "formation": "Verbs and 있다/없다 usually take -나 봐요: 오나 봐요, 있나 봐요, 없나 봐요. Descriptive adjectives take -(으)ㄴ가 봐요: 바쁜가 봐요, 좋은가 봐요, 피곤한가 봐요. Nouns take 인가 봐요: 휴일인가 봐요, 학생인가 봐요.",
+      "title": "V/A-나 봐요 / -(으)ㄴ가 봐요",
+      "func": "A guess based on something you can see or hear — 'it seems like (because of what I notice)'. Unlike -(으)ㄹ 것 같아요, this one always means you're reading some clue in front of you.",
+      "formTable": [
+        {
+          "when": "Verb stem (and 있다/없다)",
+          "add": "stem + -나 봐요",
+          "ex": "오다 → 오나 봐요 (looks like someone's coming)"
+        },
+        {
+          "when": "Adjective stem ending in a vowel",
+          "add": "stem + -ㄴ가 봐요",
+          "ex": "바쁘다 → 바쁜가 봐요 (she seems busy)"
+        },
+        {
+          "when": "Adjective stem ending in a consonant",
+          "add": "stem + -은가 봐요",
+          "ex": "좋다 → 좋은가 봐요 (it seems good)"
+        },
+        {
+          "when": "Past tense (verb and adjective)",
+          "add": "stem + -았/었나 봐요",
+          "ex": "가다 → 갔나 봐요 (looks like they left)"
+        }
+      ],
       "examples": [
         {
-          "ko": "사람들이 우산을 꺼내네요. 비가 오나 봐요.",
-          "romanization": "saramdeuri usaneul kkeonaeneyo. biga ona bwayo.",
-          "en": "People are taking out umbrellas. I guess it is raining.",
-          "note": "The umbrella is the clue."
+          "ko": "친구가 밥을 다 먹었나 봐요.",
+          "romanization": "chinguga babeul da meogeonna bwayo.",
+          "en": "Looks like my friend finished eating.",
+          "note": "먹었 + 나 봐요; you see the empty bowl — a guess from a clue."
         },
         {
-          "ko": "답장이 없네요. 많이 바쁜가 봐요.",
-          "romanization": "dapjangi eomneyo. mani bappeunga bwayo.",
-          "en": "There is no reply. I guess they are really busy.",
-          "note": "Adjective 바쁘다 becomes 바쁜가 봐요."
+          "ko": "밖에 비가 오나 봐요.",
+          "romanization": "bakke biga ona bwayo.",
+          "en": "Looks like it's raining outside.",
+          "note": "오다 → 오나 봐요; you hear the sound or see wet umbrellas."
         },
         {
-          "ko": "불이 꺼져 있어요. 오늘 쉬는 날인가 봐요.",
-          "romanization": "buri kkeojyeo isseoyo. oneul swineun naringa bwayo.",
-          "en": "The lights are off. I guess today is a day off.",
-          "note": "Nouns take 인가 봐요."
+          "ko": "선생님이 바쁜가 봐요.",
+          "romanization": "seonsaengnimi bappeunga bwayo.",
+          "en": "The teacher seems busy.",
+          "note": "바쁘다 → 바쁜가 봐요; you can see them rushing around."
         },
         {
-          "ko": "목소리가 작아요. 피곤한가 봐요.",
-          "romanization": "moksoriga jagayo. pigonhanga bwayo.",
-          "en": "Their voice is quiet. I guess they are tired.",
-          "note": "A careful inference from how someone sounds."
+          "ko": "이 식당 음식이 맛있나 봐요. 사람이 많아요.",
+          "romanization": "i sikdang eumsigi masinna bwayo. sarami manayo.",
+          "en": "The food here must be good — it's so crowded.",
+          "note": "맛있다 takes -나 봐요 like a verb → 맛있나 봐요; the crowd is the clue."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "비가 올 것 같아요.",
-            "en": "I think it will rain."
-          },
-          "b": {
-            "ko": "비가 오나 봐요.",
-            "en": "I guess it is raining."
-          },
-          "explanation": "것 같아요 is a broad impression or prediction. 나 봐요 stresses a clue you noticed."
-        },
-        {
-          "a": {
-            "ko": "제가 피곤해요.",
-            "en": "I am tired."
-          },
-          "b": {
-            "ko": "친구가 피곤한가 봐요.",
-            "en": "I guess my friend is tired."
-          },
-          "explanation": "Use direct statements for your own clear feelings. Use -(으)ㄴ가 봐요 when you infer someone else's state."
-        }
-      ],
+      "keyPoint": {
+        "label": "-나 봐요 vs. -(으)ㄹ 것 같아요",
+        "body": "-나 봐요 needs a real clue and is usually about other people or the world around you, not your own feelings — you wouldn't say 제가 배고프나 봐요 about yourself. -(으)ㄹ 것 같아요 can be a pure hunch with no clue and can be about you too (저 배고플 것 같아요). If you can point to something you noticed, -나 봐요 sounds more natural."
+      },
+      "pronunciation": "Past forms like 먹었나 봐요 blend across the seam: 먹었나 comes out as [머건나] (the ㅆ becomes [n] before 나), so you hear 'meo-geon-na bwayo'.",
+      "drill": {
+        "instruction": "Look at the clue and guess with V/A-나 봐요 / -(으)ㄴ가 봐요.",
+        "model": "(우산이 젖었어요) 비가 오다 → 비가 오나 봐요.",
+        "items": [
+          "(불이 꺼졌어요) 친구가 자다 → ____",
+          "(사람이 많아요) 그 영화가 재미있다 → ____",
+          "(밥이 없어요) 동생이 다 먹었다 → ____"
+        ]
+      },
       "englishSpeakerPitfall": {
-        "wrong": "저는 피곤한가 봐요.",
-        "right": "저는 피곤해요.",
-        "explanation": "Do not use evidence-based inference for your own obvious feeling unless you intentionally sound self-observing or joking."
-      },
-      "exceptions": [
-        "있다 and 없다 pattern like verbs: 있나 봐요, 없나 봐요.",
-        "In casual speech, the ending can shorten to -나 봐 or -(으)ㄴ가 봐.",
-        "If you have no clue, use 아마 or -ㄹ지도 몰라요 instead of -나 봐요."
-      ]
+        "wrong": "저는 피곤하나 봐요.",
+        "right": "저는 피곤한 것 같아요.",
+        "explanation": "English 'I guess I'm tired' tempts you to use -나 봐요 about yourself, but this pattern is for guessing about others from an outside clue — you can't 'observe' your own feeling that way. For yourself, use -(으)ㄹ/은 것 같아요 instead."
+      }
     },
     {
-      "id": "gn-pattern-064",
-      "title": "V/A-(으)ㄹ지도 몰라요 - might / may",
-      "mentalModel": "-ㄹ지도 몰라요 keeps a possibility open. It often functions like a gentle warning: this may happen, so prepare for it.",
-      "formation": "Attach -ㄹ지도 몰라요 after vowel stems and -을지도 몰라요 after consonant stems: 오다 becomes 올지도 몰라요, 늦다 becomes 늦을지도 몰라요, 많다 becomes 많을지도 몰라요. For past possibility, use -았/었을지도 몰라요: 벌써 갔을지도 몰라요.",
+      "title": "A/V-(으)ㄹ지도 몰라요",
+      "func": "Says something 'might' or 'may' happen — a real but uncertain possibility, often one you want the other person to keep in mind, like 'it might rain, so just in case…'.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel (verb or adjective)",
+          "add": "stem + -ㄹ지도 몰라요",
+          "ex": "오다 → 올지도 몰라요 (it might rain)"
+        },
+        {
+          "when": "Stem ends in a consonant (verb or adjective)",
+          "add": "stem + -을지도 몰라요",
+          "ex": "먹다 → 먹을지도 몰라요 (he might eat)"
+        },
+        {
+          "when": "Stem ends in ㄹ",
+          "add": "the ㄹ drops, then add -ㄹ지도 몰라요",
+          "ex": "멀다 → 멀지도 몰라요 (it might be far)"
+        },
+        {
+          "when": "Possibility about the past",
+          "add": "stem + -았/었을지도 몰라요",
+          "ex": "가다 → 갔을지도 몰라요 (they might have already left)"
+        }
+      ],
       "examples": [
         {
-          "ko": "비가 올지도 몰라요. 우산 챙겨요.",
-          "romanization": "biga oljido mollayo. usan chaenggyeoyo.",
-          "en": "It might rain. Take an umbrella.",
-          "note": "The possibility leads to practical advice."
+          "ko": "내일 친구가 안 올지도 몰라요.",
+          "romanization": "naeil chinguga an oljido mollayo.",
+          "en": "My friend might not come tomorrow.",
+          "note": "오다 → 올지도; raises a possibility to keep in mind."
         },
         {
-          "ko": "버스가 늦을지도 몰라요.",
-          "romanization": "beoseuga neujeuljido mollayo.",
-          "en": "The bus might be late.",
-          "note": "You are not sure, but it is possible."
+          "ko": "지금 가면 시간이 없을지도 몰라요.",
+          "romanization": "jigeum gamyeon sigani eopseuljido mollayo.",
+          "en": "If we go now, we might not have time.",
+          "note": "없다 → 없을지도; a heads-up about a risk."
         },
         {
-          "ko": "비가 금방 그칠지도 몰라요.",
-          "romanization": "biga geumbang geuchiljido mollayo.",
-          "en": "The rain might stop soon.",
-          "note": "A weather possibility."
+          "ko": "그 식당은 벌써 문을 닫았을지도 몰라요.",
+          "romanization": "geu sikdangeun beolsseo muneul dadasseuljido mollayo.",
+          "en": "That restaurant might have closed already.",
+          "note": "닫았 + 을지도 몰라요; a guess about something that may already be true."
         },
         {
-          "ko": "친구가 벌써 출발했을지도 몰라요.",
-          "romanization": "chinguga beolsseo chulbalhaesseuljido mollayo.",
-          "en": "My friend might have already left.",
-          "note": "Past possibility uses -았/었을지도 몰라요."
+          "ko": "이 책은 좀 어려울지도 몰라요.",
+          "romanization": "i chaegeun jom eoryeouljido mollayo.",
+          "en": "This book might be a bit hard.",
+          "note": "어렵다 (ㅂ-irregular) → 어려울지도; a gentle heads-up."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "비가 올 것 같아요.",
-            "en": "I think it will rain."
-          },
-          "b": {
-            "ko": "비가 올지도 몰라요.",
-            "en": "It might rain."
-          },
-          "explanation": "것 같아요 usually feels like a stronger impression. -ㄹ지도 몰라요 leaves the chance open."
-        },
-        {
-          "a": {
-            "ko": "늦을 것 같아요.",
-            "en": "I think I will be late."
-          },
-          "b": {
-            "ko": "늦을지도 몰라요.",
-            "en": "I might be late."
-          },
-          "explanation": "Use -ㄹ 것 같아요 when you lean toward that outcome. Use -ㄹ지도 몰라요 when you want to warn about a possibility."
-        }
-      ],
+      "keyPoint": {
+        "label": "-(으)ㄹ지도 몰라요 vs. -(으)ㄹ 것 같아요",
+        "body": "-(으)ㄹ 것 같아요 leans toward 'probably' — you think it's fairly likely. -(으)ㄹ지도 몰라요 means 'it's just a possibility' — less likely, often flagged as something to watch out for just in case (비가 올 것 같아요 = I expect rain; 비가 올지도 몰라요 = it might rain, so bring an umbrella to be safe)."
+      },
+      "pronunciation": "-지도 몰라요 keeps a clear [지도]. 몰라요 comes from 모르다 (모르 + 아요 → 몰라요), said [몰라요] with a strong double ㄹ.",
+      "drill": {
+        "instruction": "Raise a possibility with A/V-(으)ㄹ지도 몰라요.",
+        "model": "내일 비가 오다 → 내일 비가 올지도 몰라요.",
+        "items": [
+          "친구가 집에 없다 → ____",
+          "그 일이 어렵다 → ____",
+          "시간이 없다 → ____"
+        ]
+      },
       "englishSpeakerPitfall": {
         "wrong": "비가 올 모르다.",
         "right": "비가 올지도 몰라요.",
-        "explanation": "This is a fixed pattern. Keep -ㄹ지도 before 몰라요."
-      },
-      "exceptions": [
-        "In casual speech, 몰라요 can become 몰라: 늦을지도 몰라.",
-        "The pattern means 'might,' not simply 'do not know.'",
-        "For a strong denial, later chapters use -ㄹ 리가 없어요, the opposite of this open possibility."
-      ]
+        "explanation": "몰라요 means 'don't know', so learners try to slot in a bare 모르다 ('비가 올 모르다'). But this is a fixed ending: you need -(으)ㄹ지도 right before 몰라요. And even though 몰라요 is in there, the whole thing is a statement of possibility, not a question — 비가 올지도 몰라요 means 'it might rain', not 'do you know if it'll rain?'"
+      }
     }
   ],
   "extendedVocabulary": [

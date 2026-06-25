@@ -11,202 +11,212 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-096",
-      "title": "A/V-지만 - but",
-      "mentalModel": "지만 is a clean hinge between two facts that pull in different directions.",
-      "formation": "Attach 지만 directly to the verb or adjective stem: 비싸다 becomes 비싸지만, 어렵다 becomes 어렵지만, 가다 becomes 가지만. After a noun, use 이지만 or 지만 depending on the noun ending: 학생이지만, 친구지만.",
+      "title": "A/V-지만 — but",
+      "func": "Use -지만 to join two clauses that go against each other, like English \"but.\" The first clause says one thing, and the second says something that pushes the other way.",
+      "formTable": [
+        {
+          "when": "Verb or adjective stem (consonant or vowel)",
+          "add": "-지만",
+          "ex": "먹다 → 먹지만, 비싸다 → 비싸지만, 가다 → 가지만"
+        },
+        {
+          "when": "Past tense",
+          "add": "-았/었/였- + 지만",
+          "ex": "먹다 → 먹었지만, 가다 → 갔지만, 공부하다 → 공부했지만"
+        },
+        {
+          "when": "Noun + 이다 (\"is\")",
+          "add": "이지만 (after consonant) / 지만 (after vowel)",
+          "ex": "학생 → 학생이지만, 친구 → 친구지만"
+        }
+      ],
       "examples": [
         {
-          "ko": "이 식당은 비싸지만 맛있어요.",
-          "romanization": "i sikdangeun bissajiman masisseoyo.",
-          "en": "This restaurant is expensive, but it is delicious.",
-          "note": "A simple contrast between price and taste."
+          "ko": "이 책은 재미있지만 너무 길어요.",
+          "romanization": "i chaegeun jaemiitjiman neomu gireoyo.",
+          "en": "This book is fun, but it's too long.",
+          "note": "재미있- takes -지만 right on the stem; both clauses are about the same book."
         },
         {
           "ko": "한국어는 어렵지만 재미있어요.",
           "romanization": "hangugeoneun eoryeopjiman jaemiisseoyo.",
-          "en": "Korean is difficult but fun.",
-          "note": "Two different evaluations in one sentence."
+          "en": "Korean is hard, but it's fun.",
+          "note": "The classic shape: one downside, then one upside."
         },
         {
-          "ko": "피곤하지만 계속 공부할 거예요.",
-          "romanization": "pigonhajiman gyesok gongbuhal geoyeyo.",
-          "en": "I am tired, but I will keep studying.",
-          "note": "지만 states the obstacle before the decision."
+          "ko": "밥은 먹었지만 아직 배고파요.",
+          "romanization": "babeun meogeotjiman ajik baegopayo.",
+          "en": "I ate, but I'm still hungry.",
+          "note": "Put the past tense on the first clause: 먹었- + 지만."
         },
         {
-          "ko": "저는 학생이지만 일도 해요.",
-          "romanization": "jeoneun haksaengijiman ildo haeyo.",
-          "en": "I am a student, but I also work.",
-          "note": "Nouns need 이지만/지만."
+          "ko": "제 친구는 학생이지만 일도 해요.",
+          "romanization": "je chinguneun haksaengijiman ildo haeyo.",
+          "en": "My friend is a student, but works too.",
+          "note": "After a noun ending in a consonant, use 이지만: 학생 + 이지만."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "비싸지만 샀어요.",
-            "en": "It was expensive, but I bought it."
-          },
-          "b": {
-            "ko": "비싼데 살까요?",
-            "en": "It is expensive, so/and... should I buy it?"
-          },
-          "explanation": "지만 gives a direct contrast. -는데 often sets background and invites the next thought."
-        },
-        {
-          "a": {
-            "ko": "맛있지만 비싸요.",
-            "en": "It is tasty, but expensive."
-          },
-          "b": {
-            "ko": "맛있어요. 하지만 비싸요.",
-            "en": "It is tasty. However, it is expensive."
-          },
-          "explanation": "지만 connects inside one sentence; 하지만 starts a new sentence."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "하지만 비싸요 맛있어요.",
-        "right": "비싸지만 맛있어요.",
-        "explanation": "Do not place 하지만 inside the clause like English word order. Use -지만 on the first predicate or start a new sentence with 하지만."
+      "keyPoint": {
+        "label": "-지만 vs. 하지만",
+        "body": "-지만 connects two clauses inside one sentence: 비싸지만 맛있어요. 하지만 is a separate word that starts a new sentence: 비싸요. 하지만 맛있어요. Same meaning, but don't drop 하지만 in the middle of a clause — that spot belongs to -지만."
       },
-      "exceptions": [
-        "Tense usually appears on the final predicate unless the contrast specifically needs past marking.",
-        "하지만 and 그렇지만 can start a new sentence; bare 지만 cannot.",
-        "For softer topic-shifting contrast, 그런데 may be more natural than 하지만."
-      ]
+      "pronunciation": "After a final ㄱ or ㅈ-type sound the next syllable tightens: 먹지만 sounds like [먹찌만], 좋지만 like [조치만]. The 지만 part is never the loud part of the word.",
+      "drill": {
+        "instruction": "Join the two ideas into one sentence with A/V-지만. Keep any past tense on the first clause.",
+        "model": "비싸다 / 사고 싶어요 → 비싸지만 사고 싶어요. (It's expensive, but I want to buy it.)",
+        "items": [
+          "시간이 없다 / 운동해요 → ____",
+          "영화를 봤다 / 기억이 안 나요 → ____",
+          "날씨가 춥다 / 괜찮아요 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "한국어는 어려워요지만 재미있어요.",
+        "right": "한국어는 어렵지만 재미있어요.",
+        "explanation": "-지만 goes on the plain stem (어렵-), not on the polite -아/어요 form. Drop the 요, attach -지만 to the stem, and let the politeness show up just once at the very end."
+      }
     },
     {
-      "id": "gn-pattern-045",
-      "title": "A/V-(으)ㄴ/는데도 - even though, and still",
-      "mentalModel": "는데도 says the expected result did not happen. It often carries surprise, frustration, or emphasis.",
-      "formation": "Present verbs take -는데도: 비가 오는데도. Adjectives often take -(으)ㄴ데도: 비싼데도, 어려운데도. Past uses -았/었는데도: 먹었는데도. Nouns use 인데도: 주말인데도.",
+      "title": "A/V-(으)ㄴ/는데도 — even though, and still",
+      "func": "Use -(으)ㄴ/는데도 for \"even though A, B anyway,\" where B is surprising given A. It points out that the result happened in spite of the first clause.",
+      "formTable": [
+        {
+          "when": "Verb stem (present)",
+          "add": "-는데도",
+          "ex": "먹다 → 먹는데도, 오다 → 오는데도"
+        },
+        {
+          "when": "Adjective stem ending in a vowel",
+          "add": "-ㄴ데도",
+          "ex": "비싸다 → 비싼데도, 아프다 → 아픈데도"
+        },
+        {
+          "when": "Adjective stem ending in a consonant",
+          "add": "-은데도",
+          "ex": "좋다 → 좋은데도, 많다 → 많은데도"
+        },
+        {
+          "when": "Past tense (verb or adjective)",
+          "add": "-았/었/였- + 는데도",
+          "ex": "먹다 → 먹었는데도, 비싸다 → 비쌌는데도"
+        }
+      ],
       "examples": [
         {
-          "ko": "비가 오는데도 사람이 많아요.",
-          "romanization": "biga oneundedo sarami manayo.",
-          "en": "Even though it is raining, there are many people.",
-          "note": "You might expect fewer people, but the opposite is true."
+          "ko": "약을 먹었는데도 아직 아파요.",
+          "romanization": "yageul meogeonneundedo ajik apayo.",
+          "en": "Even though I took medicine, I'm still sick.",
+          "note": "먹었- + 는데도; the second clause is the surprising part."
         },
         {
-          "ko": "열심히 했는데도 결과가 안 좋았어요.",
-          "romanization": "yeolsimhi haenneundedo gyeolgwa ga an joasseoyo.",
-          "en": "Even though I worked hard, the result was not good.",
-          "note": "The speaker feels the expected result failed to happen."
+          "ko": "이 식당은 비싼데도 사람이 많아요.",
+          "romanization": "i sikdangeun bissandedo sarami manayo.",
+          "en": "Even though this restaurant is expensive, it's packed.",
+          "note": "Vowel-ending adjective 비싸- takes -ㄴ데도 → 비싼데도."
         },
         {
-          "ko": "밥을 먹었는데도 배고파요.",
-          "romanization": "babeul meogeonneundedo baegopayo.",
-          "en": "Even though I ate, I am hungry.",
-          "note": "Past action plus surprising current result."
+          "ko": "매일 공부하는데도 한국어가 어려워요.",
+          "romanization": "maeil gongbuhaneundedo hangugeoga eoryeowoyo.",
+          "en": "Even though I study every day, Korean is hard.",
+          "note": "Present verb 공부하- takes -는데도, the normal verb shape."
         },
         {
-          "ko": "주말인데도 회사에 가야 해요.",
-          "romanization": "jumarindedo hoesae gaya haeyo.",
-          "en": "Even though it is the weekend, I have to go to work.",
-          "note": "Nouns use 인데도."
+          "ko": "돈이 많은데도 잘 안 써요.",
+          "romanization": "doni maneundedo jal an sseoyo.",
+          "en": "Even though he has a lot of money, he barely spends it.",
+          "note": "Consonant-ending adjective 많- takes -은데도 → 많은데도."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "열심히 했지만 떨어졌어요.",
-            "en": "I worked hard, but I failed."
-          },
-          "b": {
-            "ko": "열심히 했는데도 떨어졌어요.",
-            "en": "Even though I worked hard, I still failed."
-          },
-          "explanation": "지만 is a neutral contrast. -는데도 emphasizes disappointment or surprise."
-        },
-        {
-          "a": {
-            "ko": "비가 와도 갈 거예요.",
-            "en": "I will go even if it rains."
-          },
-          "b": {
-            "ko": "비가 오는데도 사람이 많아요.",
-            "en": "Even though it is raining, there are many people."
-          },
-          "explanation": "-아/어도 often states a condition. -는데도 reacts to an actual situation and unexpected result."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "비가 오는데도 그래도 사람이 많아요.",
-        "right": "비가 오는데도 사람이 많아요.",
-        "explanation": "는데도 already carries the 'even though/still' force. You do not always need to add 그래도."
+      "keyPoint": {
+        "label": "-(으)ㄴ/는데도 vs. -지만",
+        "body": "-지만 is a flat \"but.\" -(으)ㄴ/는데도 adds \"and still,\" with a sense of surprise that B happened anyway. 약을 먹었지만 아파요 just states two facts; 약을 먹었는데도 아파요 sounds more like \"I took the medicine and I'm STILL sick.\""
       },
-      "exceptions": [
-        "In speech, -는데도 can sound emotional; use -지만 for a calmer contrast.",
-        "Adjectives use -(으)ㄴ데도, not always -는데도: 비싼데도, 어려운데도.",
-        "Nouns need 인데도: 휴일인데도, 학생인데도."
-      ]
+      "pronunciation": "Past forms nasalize: 먹었는데도 sounds like [머건는데도], 했는데도 like [핸는데도] — the ㅅ turns into an ㄴ sound before 는. The 도 at the end gets a small push for the \"and still\" feeling.",
+      "drill": {
+        "instruction": "Combine the two clauses with A/V-(으)ㄴ/는데도 for \"even though A, B anyway.\" Watch verb vs. adjective endings.",
+        "model": "운동하다 / 살이 안 빠져요 → 운동하는데도 살이 안 빠져요. (Even though I work out, I don't lose weight.)",
+        "items": [
+          "밥을 많이 먹었다 / 배고파요 → ____",
+          "집이 가깝다 / 자주 늦어요 → ____",
+          "책을 샀다 / 안 읽어요 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비싸는데도 사람이 많아요.",
+        "right": "비싼데도 사람이 많아요.",
+        "explanation": "Learners stick -는데도 on everything, but -는데도 is for verbs only. Adjectives take -(으)ㄴ데도: 비싸다 → 비싼데도, 좋다 → 좋은데도. Ask if the word is an action (verb → 는데도) or a description (adjective → ㄴ/은데도)."
+      }
     },
     {
-      "id": "gn-pattern-089",
-      "title": "V아/어도 - even if / even though",
-      "mentalModel": "-아/어도 says the result holds despite the condition.",
-      "formation": "Make the 아/어 form and add 도: 가다 becomes 가도, 오다 becomes 와도, 먹다 becomes 먹어도, 하다 becomes 해도. It can be used with adjectives too in common speech: 비싸도, 바빠도, 어려워도.",
+      "title": "V-아/어도 — even if / even though",
+      "func": "Use -아/어도 for \"even if\" or \"even though.\" It means that no matter how the first clause turns out, the second clause still holds.",
+      "formTable": [
+        {
+          "when": "Stem with ㅏ or ㅗ as the last vowel",
+          "add": "-아도",
+          "ex": "가다 → 가도, 오다 → 와도, 보다 → 봐도"
+        },
+        {
+          "when": "Stem with any other vowel",
+          "add": "-어도",
+          "ex": "먹다 → 먹어도, 읽다 → 읽어도, 마시다 → 마셔도"
+        },
+        {
+          "when": "하다 verbs and adjectives",
+          "add": "해도",
+          "ex": "공부하다 → 공부해도, 피곤하다 → 피곤해도"
+        },
+        {
+          "when": "Adjective stem 없다/있다",
+          "add": "-어도",
+          "ex": "없다 → 없어도, 맛있다 → 맛있어도"
+        }
+      ],
       "examples": [
         {
-          "ko": "비가 와도 갈 거예요.",
-          "romanization": "biga wado gal geoyeyo.",
-          "en": "I will go even if it rains.",
-          "note": "The plan does not change."
+          "ko": "비가 와도 학교에 가요.",
+          "romanization": "biga wado hakgyoe gayo.",
+          "en": "Even if it rains, I go to school.",
+          "note": "오다 → 와도; the going happens no matter the rain."
         },
         {
-          "ko": "비싸도 상관없어요.",
-          "romanization": "bissado sanggwaneopseoyo.",
-          "en": "It does not matter even if it is expensive.",
-          "note": "상관없어요 pairs naturally with -아/어도."
+          "ko": "아무리 먹어도 배가 안 불러요.",
+          "romanization": "amuri meogeodo baega an bulleoyo.",
+          "en": "No matter how much I eat, I don't get full.",
+          "note": "아무리 ... -아/어도 is the set \"no matter how much\" frame."
         },
         {
-          "ko": "피곤해도 계속할 거예요.",
-          "romanization": "pigonhaedo gyesokal geoyeyo.",
-          "en": "I will keep going even if I am tired.",
-          "note": "The decision holds despite tiredness."
+          "ko": "피곤해도 운동을 해요.",
+          "romanization": "pigonhaedo undongeul haeyo.",
+          "en": "Even when I'm tired, I work out.",
+          "note": "하다 adjective 피곤하- → 피곤해도."
         },
         {
-          "ko": "어려워도 한번 해 볼게요.",
-          "romanization": "eoryeowodo hanbeon hae bolgeyo.",
-          "en": "Even if it is difficult, I will give it a try.",
-          "note": "A common encouragement frame."
+          "ko": "시간이 없어도 밥은 먹어요.",
+          "romanization": "sigani eopseodo babeun meogeoyo.",
+          "en": "Even when I have no time, I still eat.",
+          "note": "없- + 어도 → 없어도; the first clause is the condition you push through."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "비가 오면 안 가요.",
-            "en": "If it rains, I will not go."
-          },
-          "b": {
-            "ko": "비가 와도 가요.",
-            "en": "Even if it rains, I will go."
-          },
-          "explanation": "-(으)면 makes the result depend on the condition. -아/어도 says the result stays the same."
-        },
-        {
-          "a": {
-            "ko": "비싸지만 샀어요.",
-            "en": "It was expensive, but I bought it."
-          },
-          "b": {
-            "ko": "비싸도 살 거예요.",
-            "en": "I will buy it even if it is expensive."
-          },
-          "explanation": "지만 reports actual contrast. -아/어도 can state a condition or concession."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "비가 오아도 가요.",
-        "right": "비가 와도 가요.",
-        "explanation": "오다 contracts to 와 before 도."
+      "keyPoint": {
+        "label": "-아/어도 vs. -(으)ㄴ/는데도",
+        "body": "Both can come out as \"even though\" in English, but -아/어도 covers \"even IF\" — it works for things that may or may not happen (비가 와도 = even if it rains, real or not). -(으)ㄴ/는데도 is for a real fact happening right now (비가 오는데도 = even though it IS raining). Use -아/어도 for conditions, -는데도 for facts."
       },
-      "exceptions": [
-        "For adjectives ending in ㅂ, the form changes: 어렵다 becomes 어려워도.",
-        "괜찮아요 and 상관없어요 are common second clauses after -아/어도.",
-        "Use -지 않아도 for 'even if not': 안 가도 돼요 means you do not have to go."
-      ]
+      "pronunciation": "Watch the vowel squeeze: 오다 → 와도, 보다 → 봐도, 마시다 → 마셔도. The 도 stays quiet; the squeezed syllable carries the beat.",
+      "drill": {
+        "instruction": "Make a sentence with V-아/어도 for \"even if / even though.\" Pick the right 아/어 vowel.",
+        "model": "바쁘다 / 친구를 만나요 → 바빠도 친구를 만나요. (Even if I'm busy, I meet my friend.)",
+        "items": [
+          "돈이 없다 / 행복해요 → ____",
+          "비가 오다 / 가요 → ____",
+          "많이 자다 / 피곤해요 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 와서도 학교에 가요.",
+        "right": "비가 와도 학교에 가요.",
+        "explanation": "There's no 서 in this pattern — -아/어도 attaches straight to the 아/어 stem. And don't mix it up with -아/어서 (\"because\"): -아/어서 gives a reason, while -아/어도 gives a concession (\"even if\")."
+      }
     }
   ],
   "extendedVocabulary": [

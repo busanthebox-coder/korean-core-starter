@@ -11,136 +11,136 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-051",
-      "title": "V-다가 - while doing, then something changes",
-      "mentalModel": "-다가 catches the moment where action 1 is in progress and the situation turns.",
-      "formation": "Attach -다가 directly to the verb stem: 가다 becomes 가다가, 먹다 becomes 먹다가, 보다 becomes 보다가, 공부하다 becomes 공부하다가. The first action is not presented as fully finished. It is interrupted, paused, changed, or becomes the background for what happens next.",
+      "title": "V-다가 — break off one action to do another",
+      "func": "V-다가 says you were in the middle of one action when you stopped partway and switched to (or got interrupted by) a second one. The first action does not finish — you break off from it. The same person does both actions.",
+      "formTable": [
+        {
+          "when": "Add straight to the plain verb stem (no vowel change, same after vowel or consonant)",
+          "add": "-다가",
+          "ex": "가다 → 가다가, 먹다 → 먹다가, 자다 → 자다가"
+        },
+        {
+          "when": "Often cut to just -다 in everyday speech",
+          "add": "-다",
+          "ex": "집에 가다가 → 집에 가다 (친구를 만났어요)"
+        },
+        {
+          "when": "Past stem -았/었다가 = first action was finished, then undone or reversed",
+          "add": "-았다가 / -었다가",
+          "ex": "앉다 → 앉았다가 (일어났어요), 사다 → 샀다가 (환불했어요)"
+        }
+      ],
       "examples": [
         {
-          "ko": "학교에 가다가 전화를 받았어요.",
-          "romanization": "hakgyoe gadaga jeonhwareul badasseoyo.",
-          "en": "I got a phone call while I was on my way to school.",
-          "note": "Going was in progress when the call came."
+          "ko": "학교에 가다가 친구를 만났어요.",
+          "romanization": "hakgyoe gadaga chingureul mannasseoyo.",
+          "en": "I was on my way to school and ran into a friend.",
+          "note": "The going gets cut off partway by something you didn't plan."
         },
         {
-          "ko": "밥을 먹다가 전화가 왔어요.",
-          "romanization": "babeul meokdaga jeonhwaga wasseoyo.",
-          "en": "A call came while I was eating.",
-          "note": "The meal is interrupted or at least paused."
+          "ko": "숙제를 하다가 잠이 들었어요.",
+          "romanization": "sukjereul hadaga jami deureosseoyo.",
+          "en": "I was doing my homework and fell asleep.",
+          "note": "You stop the homework because the second thing happens to you."
         },
         {
-          "ko": "영화를 보다가 잠들었어요.",
-          "romanization": "yeonghwareul bodaga jamdeureosseoyo.",
-          "en": "I fell asleep while watching the movie.",
-          "note": "The watching did not smoothly finish first."
+          "ko": "밥을 먹다가 전화를 받았어요.",
+          "romanization": "babeul meokdaga jeonhwareul badasseoyo.",
+          "en": "I was eating and then took a phone call.",
+          "note": "Same person breaks off from eating to do the next thing."
         },
         {
-          "ko": "공부하다가 잠깐 쉬었어요.",
-          "romanization": "gongbuhadaga jamkkan swieosseoyo.",
-          "en": "I studied, then took a short break in the middle.",
-          "note": "A temporary switch away from studying."
+          "ko": "이 책을 샀다가 환불했어요.",
+          "romanization": "i chaegeul satdaga hwanbulhaesseoyo.",
+          "en": "I bought this book and then returned it.",
+          "note": "-았다가 shows the buying was finished, then reversed."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "밥을 먹고 나서 나갔어요.",
-            "en": "I went out after eating."
-          },
-          "b": {
-            "ko": "밥을 먹다가 나갔어요.",
-            "en": "I left while eating / before finishing."
-          },
-          "explanation": "-고 나서 says the first action finished. -다가 says the first action was cut into."
-        },
-        {
-          "a": {
-            "ko": "음악을 들으면서 공부해요.",
-            "en": "I study while listening to music."
-          },
-          "b": {
-            "ko": "공부하다가 음악을 들었어요.",
-            "en": "I was studying, then switched to listening to music."
-          },
-          "explanation": "-(으)면서 means simultaneous actions. -다가 means a switch or interruption."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "밥을 먹었가다가 전화가 왔어요.",
-        "right": "밥을 먹다가 전화가 왔어요.",
-        "explanation": "Do not put past tense inside the first verb for ordinary -다가. The later clause carries the tense."
+      "keyPoint": {
+        "label": "V-다가 vs. V-고 나서",
+        "body": "V-고 나서 means you finish the first thing all the way, then do the next (밥을 먹고 나서 = after you're done eating). V-다가 means the first thing gets cut off in the middle and you switch (밥을 먹다가 = you were still eating and then stopped to...). 다가 = broke off; 고 나서 = finished."
       },
-      "exceptions": [
-        "In casual Korean, -다가 can shorten to -다: 집에 가다 전화 받았어.",
-        "A different event can interrupt the first action: 밥을 먹다가 전화가 왔어요.",
-        "If action 1 really finished before action 2, use -고 나서 instead."
-      ]
+      "pronunciation": "다가 is said plainly as [다가]. In -았다가/-었다가 the ㅆ makes the ㄷ tense, so 샀다가 sounds like [삳따가].",
+      "drill": {
+        "instruction": "Join the two actions into one sentence with V-다가, so the first action gets interrupted by the second.",
+        "model": "집에 가다 / 친구를 만나다 → 집에 가다가 친구를 만났어요.",
+        "items": [
+          "텔레비전을 보다 / 자다 → ___",
+          "음악을 듣다 / 친구한테서 전화가 오다 → ___",
+          "공부를 하다 / 배가 고프다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "숙제를 하고 잠이 들었어요. (meant: I fell asleep WHILE doing homework)",
+        "right": "숙제를 하다가 잠이 들었어요.",
+        "explanation": "English \"and then\" hides whether action 1 finished. -고 just lists things in order and sounds like you finished the homework. To say you broke off in the middle of it, you need -다가."
+      }
     },
     {
-      "id": "gn-pattern-093",
-      "title": "V-아/어 있다 - the resulting state remains",
-      "mentalModel": "V-아/어 있어요 shows the state left after something happened: sitting, standing, open, closed, on, or placed.",
-      "formation": "Use the 아/어 form plus 있다: 앉다 becomes 앉아 있어요, 서다 becomes 서 있어요, 열리다 becomes 열려 있어요, 켜지다 becomes 켜져 있어요. The subject is usually the thing or person in the state, often with 이/가 or a location with 에.",
+      "title": "V-아/어 있다 — a state that stays after the action",
+      "func": "V-아/어 있다 describes the state that is left over after an action is done. The action already happened, and the subject stays in that result (앉아 있다 = is sitting, having sat down). It goes with verbs that leave a state behind, like 앉다, 서다, 오다, 열리다.",
+      "formTable": [
+        {
+          "when": "Stem vowel is ㅏ or ㅗ",
+          "add": "-아 있다",
+          "ex": "앉다 → 앉아 있다, 오다 → 와 있다"
+        },
+        {
+          "when": "Any other stem vowel",
+          "add": "-어 있다",
+          "ex": "서다 → 서 있다, 열리다 → 열려 있다"
+        },
+        {
+          "when": "Passive / result verbs work too (the door opens, the light comes on)",
+          "add": "-아/어 있다",
+          "ex": "켜지다 → 켜져 있다, 쓰이다 → 쓰여 있다"
+        }
+      ],
       "examples": [
         {
-          "ko": "카페에 앉아 있어요.",
-          "romanization": "kapee anja isseoyo.",
-          "en": "I am sitting at the cafe.",
-          "note": "The action of sitting down is done; the seated state remains."
+          "ko": "친구가 의자에 앉아 있어요.",
+          "romanization": "chinguga uijae anja isseoyo.",
+          "en": "My friend is sitting on the chair.",
+          "note": "They sat down earlier and are still in the seated state now."
         },
         {
           "ko": "문이 열려 있어요.",
           "romanization": "muni yeollyeo isseoyo.",
           "en": "The door is open.",
-          "note": "The door opened and remains open."
+          "note": "Someone opened it before and it stays open — a lasting result. Note 열리다 (opens), not 열다 (open it)."
         },
         {
-          "ko": "불이 켜져 있어요.",
-          "romanization": "buri kyeojyeo isseoyo.",
-          "en": "The light is on.",
-          "note": "The light turned on and remains on."
+          "ko": "칠판에 이름이 쓰여 있어요.",
+          "romanization": "chilpane ireumi sseuyeo isseoyo.",
+          "en": "A name is written on the board.",
+          "note": "Someone wrote it earlier; the result (the name being there) stays. Use the passive 쓰이다 → 쓰여 있다."
         },
         {
-          "ko": "사람들이 줄을 서 있어요.",
-          "romanization": "saramdeuri jureul seo isseoyo.",
-          "en": "People are standing in line.",
-          "note": "서 있어요 describes the standing state."
+          "ko": "동생이 아직 학교에 가 있어요.",
+          "romanization": "dongsaengi ajik hakgyoe ga isseoyo.",
+          "en": "My younger sibling is still at school (went and is there).",
+          "note": "가 있다 = went and is staying there, not the act of going."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "앉고 있어요.",
-            "en": "I am in the act of sitting down."
-          },
-          "b": {
-            "ko": "앉아 있어요.",
-            "en": "I am seated."
-          },
-          "explanation": "-고 있어요 is the action in progress. -아/어 있어요 is the resulting state."
-        },
-        {
-          "a": {
-            "ko": "문을 열고 있어요.",
-            "en": "Someone is opening the door."
-          },
-          "b": {
-            "ko": "문이 열려 있어요.",
-            "en": "The door is open."
-          },
-          "explanation": "Transitive action uses 을/를. Result state usually makes the thing the subject with 이/가."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "문을 열려 있어요.",
-        "right": "문이 열려 있어요.",
-        "explanation": "For result state, the door is the subject of the state. Use 이/가, not 을/를."
+      "keyPoint": {
+        "label": "V-아/어 있다 vs. V-고 있다",
+        "body": "V-고 있다 = an action happening right now (앉고 있어요 = is in the middle of sitting down). V-아/어 있다 = the state after it's done (앉아 있어요 = is already seated and staying that way). Use -아/어 있다 for the leftover result, -고 있다 for the action in progress."
       },
-      "exceptions": [
-        "Do not use -아/어 있다 with ordinary ongoing actions like eating or reading. Say 먹고 있어요, 읽고 있어요.",
-        "Many useful result-state verbs are intransitive or passive-like: 열리다, 닫히다, 켜지다.",
-        "앉아 있어요 and 서 있어요 are extremely common status sentences."
-      ]
+      "pronunciation": "앉아 있어요 links across the words — the ㅈ carries over, so it sounds like [안자 이써요]. 열려 있어요 sounds like [열려 이써요].",
+      "drill": {
+        "instruction": "Answer that the subject is right now in the result state, using V-아/어 있다.",
+        "model": "의자에 앉다 → 의자에 앉아 있어요.",
+        "items": [
+          "창문이 열리다 → ___",
+          "친구가 집에 오다 → ___",
+          "학생들이 서다 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "문이 열고 있어요. (meant: The door is open)",
+        "right": "문이 열려 있어요.",
+        "explanation": "English \"is open\" looks like a -ing form, which tempts -고 있다. But -고 있다 means the action is happening now. A door just staying open is a result state, so you need -아/어 있다 — and with the intransitive 열리다 (opens), not 열다 (open it)."
+      }
     }
   ],
   "extendedVocabulary": [

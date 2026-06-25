@@ -11,202 +11,202 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-074",
-      "title": "V아/어 보다 - try doing V",
-      "mentalModel": "보다 is not 'see' here. It means do the action and see how it goes.",
-      "formation": "Make the 아/어 form first, then add 보다. In suggestions, use 보세요 or 볼까요. 먹다 becomes 먹어 보세요, 입다 becomes 입어 보세요, 하다 becomes 해 보세요, 가다 becomes 가 보세요.",
-      "examples": [
+      "title": "V-아/어 보다 — try doing V (give it a go)",
+      "func": "Add -아/어 보다 to a verb to mean \"try doing something\" — do it once and see how it goes. It's the warm, everyday way to nudge someone: \"go ahead and try it.\"",
+      "formTable": [
         {
-          "ko": "이 옷 한번 입어 보세요.",
-          "romanization": "i ot hanbeon ibeo boseyo.",
-          "en": "Try on these clothes once.",
-          "note": "한번 makes the suggestion feel low-pressure."
+          "when": "Stem ends in ㅏ or ㅗ",
+          "add": "-아 보다",
+          "ex": "가다 → 가 보다 (try going), 오다 → 와 보다 (try coming)"
         },
         {
-          "ko": "이 식당 한번 가 볼까요?",
-          "romanization": "i sikdang hanbeon ga bolkkayo?",
-          "en": "Should we try going to this restaurant?",
-          "note": "볼까요 asks about trying before deciding."
+          "when": "Stem ends in any other vowel",
+          "add": "-어 보다",
+          "ex": "먹다 → 먹어 보다 (try eating), 읽다 → 읽어 보다 (try reading)"
+        },
+        {
+          "when": "하- verb",
+          "add": "-여 보다 → 해 보다",
+          "ex": "하다 → 해 보다 (try doing), 공부하다 → 공부해 보다 (try studying)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "이 책 한번 읽어 보세요.",
+          "romanization": "i chaek hanbeon ilgeo boseyo.",
+          "en": "Try reading this book.",
+          "note": "한번 (\"give it a try\") goes hand in hand with -아/어 보다 to soften a suggestion."
         },
         {
           "ko": "이 음식 먹어 봤어요?",
           "romanization": "i eumsik meogeo bwasseoyo?",
           "en": "Have you tried this food?",
-          "note": "Past -아/어 봤어요 asks about experience."
+          "note": "Past 봤어요 asks about experience — \"have you ever tried it?\""
         },
         {
-          "ko": "혼자 해 보세요.",
-          "romanization": "honja hae boseyo.",
-          "en": "Try doing it by yourself.",
-          "note": "하다 becomes 해 보세요."
-        }
-      ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "입으세요.",
-            "en": "Please put it on."
-          },
-          "b": {
-            "ko": "입어 보세요.",
-            "en": "Please try it on."
-          },
-          "explanation": "입어 보세요 is softer because the listener can try it before deciding."
+          "ko": "한국 음식 만들어 보고 싶어요.",
+          "romanization": "hanguk eumsik mandeureo bogo sipeoyo.",
+          "en": "I want to try making Korean food.",
+          "note": "-아/어 보다 slots right into -고 싶다 when you want to give something a try."
         },
         {
-          "a": {
-            "ko": "먹어 보세요.",
-            "en": "Try eating it."
-          },
-          "b": {
-            "ko": "먹어 봤어요.",
-            "en": "I tried eating it / Have you tried eating it?"
-          },
-          "explanation": "보세요 suggests a trial now. 봤어요 reports or asks about past experience."
+          "ko": "친구한테 한번 물어 보세요.",
+          "romanization": "chinguhante hanbeon mureo boseyo.",
+          "en": "Try asking your friend.",
+          "note": "묻다 is a ㄷ-irregular: 묻- → 물어, then + 보세요."
         }
       ],
-      "englishSpeakerPitfall": {
-        "wrong": "입다 보세요.",
-        "right": "입어 보세요.",
-        "explanation": "Do not attach 보세요 to the dictionary form. Use the 아/어 form first."
+      "keyPoint": {
+        "label": "V-아/어 보다 vs. plain V",
+        "body": "먹으세요 just says \"eat it.\" 먹어 보세요 says \"try it and see how it is\" — it frames the action as something new to test out, which makes the suggestion feel friendlier and less pushy."
       },
-      "exceptions": [
-        "For shoes, use 신어 보세요. For clothes, use 입어 보세요.",
-        "한번 often means 'give it a try,' not literally one time.",
-        "In casual speech, 해 봐요 and 해 봐 are common, but 보세요 is safer in service situations."
-      ]
+      "pronunciation": "In 읽어 보세요, the ㄺ of 읽- links forward, so it sounds like [일거 보세요] — the ㄱ carries into the next syllable.",
+      "drill": {
+        "instruction": "Turn each verb into a friendly suggestion with -아/어 보세요 (\"try ___-ing\").",
+        "model": "입다 (to wear) → 입어 보세요. (Try it on.)",
+        "items": [
+          "가다 (to go) → ______",
+          "마시다 (to drink) → ______",
+          "공부하다 (to study) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "봐 보세요 (for \"try looking\")",
+        "right": "보세요 / 한번 보세요",
+        "explanation": "Here 보다 is already the main verb (\"to look\"), so you don't tack the helper 보다 on top of it. Doubling it — 봐 보세요 — sounds odd. Just say 보세요, or 한번 보세요 for the \"give it a look\" feel. The helper 보다 attaches to OTHER verbs (먹어 보세요, 읽어 보세요), not to 보다 itself."
+      }
     },
     {
-      "id": "gn-pattern-015",
-      "title": "V아/어 주세요 - please do V for me",
-      "mentalModel": "주세요 makes a request feel like a helpful action done for the listener or speaker.",
-      "formation": "Use the 아/어 form plus 주세요: 도와주다 becomes 도와주세요, 추천하다 becomes 추천해 주세요, 보여 주다 becomes 보여 주세요, 바꾸다 becomes 바꿔 주세요.",
+      "title": "V-아/어 주세요 — please do V (for me)",
+      "func": "Add -아/어 주세요 to a verb to politely ask someone to do something for you. It's the normal, warm way to make a request — softer than a bare command.",
+      "formTable": [
+        {
+          "when": "Stem ends in ㅏ or ㅗ",
+          "add": "-아 주세요",
+          "ex": "앉다 → 앉아 주세요 (please sit), 보다 → 봐 주세요 (please look)"
+        },
+        {
+          "when": "Stem ends in any other vowel",
+          "add": "-어 주세요",
+          "ex": "열다 → 열어 주세요 (please open), 기다리다 → 기다려 주세요 (please wait)"
+        },
+        {
+          "when": "하- verb",
+          "add": "-여 주세요 → 해 주세요",
+          "ex": "하다 → 해 주세요 (please do), 말하다 → 말해 주세요 (please tell me)"
+        }
+      ],
       "examples": [
         {
-          "ko": "다른 색도 추천해 주세요.",
-          "romanization": "dareun saekdo chucheon hae juseyo.",
-          "en": "Please recommend another color too.",
-          "note": "A natural service-counter request."
+          "ko": "물 좀 주세요.",
+          "romanization": "mul jom juseyo.",
+          "en": "Please give me some water.",
+          "note": "With 주다 itself you just say 주세요; 좀 (\"a little\") softens it."
         },
         {
-          "ko": "한 치수 작은 것도 보여 주세요.",
-          "romanization": "han chisu jageun geotdo boyeo juseyo.",
-          "en": "Please show me one size smaller too.",
-          "note": "보여 주세요 asks staff to show something."
+          "ko": "문 좀 열어 주세요.",
+          "romanization": "mun jom yeoreo juseyo.",
+          "en": "Please open the door for me.",
+          "note": "열다 → 열어 + 주세요; 좀 makes it gentler."
         },
         {
-          "ko": "천천히 다시 말해 주세요.",
-          "romanization": "cheoncheonhi dasi malhae juseyo.",
-          "en": "Please say it again slowly.",
-          "note": "A practical help request."
+          "ko": "천천히 말해 주세요.",
+          "romanization": "cheoncheonhi malhae juseyo.",
+          "en": "Please speak slowly.",
+          "note": "하다 verb: 말하다 → 말해 주세요. A really useful one for learners."
         },
         {
-          "ko": "조금 도와주세요.",
-          "romanization": "jogeum dowajuseyo.",
-          "en": "Please help me a little.",
-          "note": "도와주세요 is the core help request."
+          "ko": "잠깐만 기다려 주세요.",
+          "romanization": "jamkkanman gidaryeo juseyo.",
+          "en": "Please wait a moment.",
+          "note": "기다리다 → 기다려 주세요; the waiting is for your sake, so 주다 fits."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "추천해 주세요.",
-            "en": "Please recommend one."
-          },
-          "b": {
-            "ko": "추천하세요.",
-            "en": "Recommend one. (sounds like an instruction)"
-          },
-          "explanation": "주세요 makes the request polite and service-appropriate."
-        },
-        {
-          "a": {
-            "ko": "바꿔 주세요.",
-            "en": "Please exchange/change it for me."
-          },
-          "b": {
-            "ko": "바꿔 보세요.",
-            "en": "Try changing it."
-          },
-          "explanation": "주세요 asks someone to do it for you; 보세요 suggests trying the action."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "추천 주세요.",
-        "right": "추천해 주세요.",
-        "explanation": "추천하다 is a 하다 verb. The request form is 추천해 주세요."
+      "keyPoint": {
+        "label": "V-(으)세요 vs. V-아/어 주세요",
+        "body": "앉으세요 is a polite instruction aimed at what the listener does (\"please sit\"). 앉아 주세요 adds 주다 (\"do it for me\"), so it lands as a favor you'd be grateful for — exactly the feel of most polite English requests."
       },
-      "exceptions": [
-        "주세요 can also mean 'give me' with nouns: 물 주세요.",
-        "With close friends, 줘요/줘 can replace 주세요, but use 주세요 with staff and strangers.",
-        "Some service verbs are fixed chunks: 보여 주세요, 바꿔 주세요, 도와주세요."
-      ]
+      "pronunciation": "열어 주세요 links across the ㄹ → [여러 주세요]; the ㄹ of 열- slides into the next syllable.",
+      "drill": {
+        "instruction": "Make a polite request with -아/어 주세요 (\"please ___ for me\").",
+        "model": "보다 (to look) → 봐 주세요. (Please look.)",
+        "items": [
+          "읽다 (to read) → ______",
+          "쓰다 (to write) → ______",
+          "전화하다 (to call) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "기다리세요 (meaning \"please wait for me\")",
+        "right": "기다려 주세요",
+        "explanation": "English \"please\" can't tell apart a plain instruction from a favor. -(으)세요 on its own can sound like an order or a general direction; adding 주다 (기다려 주세요) marks the action as done for your benefit — which is what most polite English requests really mean."
+      }
     },
     {
-      "id": "gn-pattern-016",
-      "title": "Vㄹ/을까요? - shall we / should I?",
-      "mentalModel": "ㄹ까요 asks for a shared decision or checks what action would be good.",
-      "formation": "Add ㄹ까요 after a vowel stem and 을까요 after a consonant stem: 가다 becomes 갈까요, 먹다 becomes 먹을까요, 기다리다 becomes 기다릴까요, 주문하다 becomes 주문할까요.",
+      "title": "V-(으)ㄹ까요? — shall we? / should I?",
+      "func": "Add -(으)ㄹ까요? to a verb to suggest doing something together (\"shall we?\") or to ask what the listener thinks about you doing it (\"should I?\"). It's the standard way to float a friendly idea.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel",
+          "add": "-ㄹ까요?",
+          "ex": "가다 → 갈까요? (shall we go?), 마시다 → 마실까요? (shall we drink?)"
+        },
+        {
+          "when": "Stem ends in a consonant",
+          "add": "-을까요?",
+          "ex": "먹다 → 먹을까요? (shall we eat?), 앉다 → 앉을까요? (shall we sit?)"
+        },
+        {
+          "when": "Stem ends in ㄹ",
+          "add": "-까요? (the ㄹ stays, no 을)",
+          "ex": "놀다 → 놀까요? (shall we hang out?), 만들다 → 만들까요? (shall we make it?)"
+        }
+      ],
       "examples": [
         {
-          "ko": "같이 갈까요?",
-          "romanization": "gachi galkkayo?",
-          "en": "Shall we go together?",
-          "note": "A shared suggestion."
+          "ko": "우리 같이 밥 먹을까요?",
+          "romanization": "uri gachi bap meogeulkkayo?",
+          "en": "Shall we eat together?",
+          "note": "우리 같이 (\"we, together\") makes the group \"shall we?\" clear."
         },
         {
-          "ko": "먼저 주문할까요?",
-          "romanization": "meonjeo jumunhalkkayo?",
-          "en": "Should we order first?",
-          "note": "Asks what action would be good."
+          "ko": "내일 영화 볼까요?",
+          "romanization": "naeil yeonghwa bolkkayo?",
+          "en": "Shall we watch a movie tomorrow?",
+          "note": "보다 ends in a vowel → 볼까요?; a casual invite to do something together."
         },
         {
-          "ko": "제가 도와드릴까요?",
-          "romanization": "jega dowadeurilkkayo?",
-          "en": "Shall I help you?",
-          "note": "Polite offer of help."
+          "ko": "창문을 열까요?",
+          "romanization": "changmuneul yeolkkayo?",
+          "en": "Shall I open the window?",
+          "note": "열다 ends in ㄹ, so just add -까요? → 열까요?. Here it asks the listener's opinion: \"should I?\""
         },
         {
-          "ko": "이 옷 한번 입어 볼까요?",
-          "romanization": "i ot hanbeon ibeo bolkkayo?",
-          "en": "Should I try on these clothes?",
-          "note": "Combines trying with a decision question."
+          "ko": "우리 어디에서 만날까요?",
+          "romanization": "uri eodieseo mannalkkayo?",
+          "en": "Where shall we meet?",
+          "note": "만나다 → 만날까요?; question words like 어디 fit right in."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "갈까요?",
-            "en": "Shall we go? / Should I go?"
-          },
-          "b": {
-            "ko": "갈래요?",
-            "en": "Do you want to go?"
-          },
-          "explanation": "ㄹ까요 asks for a decision or suggestion. ㄹ래요 asks about desire or will."
-        },
-        {
-          "a": {
-            "ko": "입어 볼까요?",
-            "en": "Should I try it on?"
-          },
-          "b": {
-            "ko": "입어 보세요.",
-            "en": "Please try it on."
-          },
-          "explanation": "볼까요 asks for the listener's opinion; 보세요 suggests the action."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "가을까요?",
-        "right": "갈까요?",
-        "explanation": "Vowel-ending stems take ㄹ까요 directly: 가다 becomes 갈까요."
+      "keyPoint": {
+        "label": "V-(으)ㄹ까요? vs. V-아/어요",
+        "body": "먹어요 states or mildly pushes (\"(let's) eat\"). 먹을까요? turns it into a real question that hands the decision to the listener — you propose, they answer. Reach for -(으)ㄹ까요? when you actually want their okay, not just to announce the plan."
       },
-      "exceptions": [
-        "Context decides whether ㄹ까요 means shall we or should I.",
-        "For a clear command, do not use ㄹ까요; use 주세요 or 세요 depending on the situation.",
-        "With ㄹ-final stems, keep one ㄹ: 만들다 becomes 만들까요."
-      ]
+      "pronunciation": "The 까 is always tense (ㄲ): 먹을까요? sounds like [머글까요]. The ㄱ of 먹- links forward into 을.",
+      "drill": {
+        "instruction": "Turn each verb into a \"shall we?\" suggestion with -(으)ㄹ까요?.",
+        "model": "가다 (to go) → 갈까요? (Shall we go?)",
+        "items": [
+          "마시다 (to drink) → ______",
+          "앉다 (to sit) → ______",
+          "산책하다 (to take a walk) → ______"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "놀을까요? (adding 을 to a ㄹ-stem)",
+        "right": "놀까요?",
+        "explanation": "After seeing 먹다 → 먹을까요?, learners often glue 을 onto ㄹ-stems too. But ㄹ-stems already end in a vowel-like ㄹ that carries the sound, so you just add -까요?: 놀다 → 놀까요?, 만들다 → 만들까요?, 열다 → 열까요?. No extra 을."
+      }
     }
   ],
   "extendedVocabulary": [

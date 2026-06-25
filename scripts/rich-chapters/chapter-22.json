@@ -11,202 +11,202 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-071",
-      "title": "N을/를 좋아해요 - I like N",
-      "mentalModel": "좋아하다 is an action verb: someone likes something. The thing you like is the object, so it takes 을/를.",
-      "formation": "Put the liked thing before 을/를 좋아해요. Use 을 after a consonant and 를 after a vowel: 음악을 좋아해요, 커피를 좋아해요. If you use 좋다 instead, the grammar changes: 커피가 좋아요 means coffee is good or appealing to me.",
+      "title": "N을/를 좋아해요 — I like N",
+      "func": "Use 좋아하다 to say you like something or someone. It is an action verb (\"to like\"), not the adjective 좋다 (\"to be good\"), so the thing you like is the object and takes 을/를, not 이/가.",
+      "formTable": [
+        {
+          "when": "Noun ends in a consonant (받침)",
+          "add": "+ 을 좋아해요",
+          "ex": "음악 → 음악을 좋아해요"
+        },
+        {
+          "when": "Noun ends in a vowel",
+          "add": "+ 를 좋아해요",
+          "ex": "커피 → 커피를 좋아해요"
+        },
+        {
+          "when": "Casual speech (particle often dropped)",
+          "add": "drop 을/를",
+          "ex": "커피 좋아해요"
+        }
+      ],
       "examples": [
         {
           "ko": "저는 커피를 좋아해요.",
-          "romanization": "jeoneun keopireul joahaeyo.",
+          "romanization": "jeo-neun keo-pi-reul jo-a-hae-yo.",
           "en": "I like coffee.",
-          "note": "좋아하다 takes the liked item as the object."
+          "note": "커피 ends in a vowel, so it takes 를."
         },
         {
           "ko": "한국 음식을 좋아해요.",
-          "romanization": "hanguk eumsigeul joahaeyo.",
+          "romanization": "han-guk eum-si-geul jo-a-hae-yo.",
           "en": "I like Korean food.",
-          "note": "음식 ends in a consonant, so it takes 을."
+          "note": "음식 ends in a 받침, so it takes 을."
+        },
+        {
+          "ko": "저는 한국어를 좋아해요.",
+          "romanization": "jeo-neun han-gu-geo-reul jo-a-hae-yo.",
+          "en": "I like Korean.",
+          "note": "좋아하다 takes the object with 을/를, never 이/가."
         },
         {
           "ko": "매운 음식은 별로 안 좋아해요.",
-          "romanization": "maeun eumsigeun byeollo an joahaeyo.",
-          "en": "I do not really like spicy food.",
-          "note": "별로 안 softens a dislike."
-        },
-        {
-          "ko": "영화 보는 걸 좋아해요.",
-          "romanization": "yeonghwa boneun geol joahaeyo.",
-          "en": "I like watching movies.",
-          "note": "For activities, use a noun phrase such as 보는 걸."
+          "romanization": "mae-un eum-si-geun byeol-lo an jo-a-hae-yo.",
+          "en": "I don't really like spicy food.",
+          "note": "별로 안 softens it to \"don't really like.\""
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "커피를 좋아해요.",
-            "en": "I like coffee."
-          },
-          "b": {
-            "ko": "커피가 좋아요.",
-            "en": "Coffee is good / I prefer coffee here."
-          },
-          "explanation": "좋아하다 is a verb and takes 을/를. 좋다 is descriptive and takes 이/가."
-        },
-        {
-          "a": {
-            "ko": "그 사람을 좋아해요.",
-            "en": "I have feelings for that person."
-          },
-          "b": {
-            "ko": "그 사람이 좋아요.",
-            "en": "I like that person / that person seems nice to me."
-          },
-          "explanation": "With people, 좋아하다 can sound romantic or emotionally direct. Use context carefully."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "커피가 좋아해요.",
-        "right": "커피를 좋아해요.",
-        "explanation": "If the verb is 좋아하다, the liked thing takes 을/를, not 이/가."
+      "keyPoint": {
+        "label": "좋다 vs 좋아하다",
+        "body": "좋다 is an adjective and takes 이/가: 커피가 좋아요 (\"coffee is good to me\"). 좋아하다 is a verb and takes 을/를: 커피를 좋아해요. Both can translate as \"I like coffee,\" but the particle follows the word you actually use. For now, just lock in 을/를 with 좋아해요."
       },
-      "exceptions": [
-        "In casual speech, particles may drop: 커피 좋아해요. The full form 커피를 좋아해요 explains the structure.",
-        "싫어하다 works the same way: 매운 음식을 싫어해요.",
-        "좋아하는 N is the noun-modifier form from Chapter 21: 좋아하는 음식."
-      ]
+      "pronunciation": "좋아해요 sounds like [조아해요] — the ㅎ in 좋 drops before the vowel, so don't say [졷아해요].",
+      "drill": {
+        "instruction": "Say you like each thing with N을/를 좋아해요. Pick 을 or 를 by the last sound of the noun.",
+        "model": "음악 → 저는 음악을 좋아해요.",
+        "items": [
+          "커피 → 저는 ___ 좋아해요.",
+          "음식 → 저는 한국 ___ 좋아해요.",
+          "한국어 → 저는 ___ 좋아해요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 커피가 좋아해요.",
+        "right": "저는 커피를 좋아해요.",
+        "explanation": "English \"I like X\" pushes you toward the subject particle, but 좋아하다 is a verb that takes an object — use 을/를. The 가 version only works with the adjective 좋다 (커피가 좋아요)."
+      }
     },
     {
-      "id": "gn-pattern-078",
-      "title": "N보다 더 - more than N",
-      "mentalModel": "보다 attaches to the baseline, the option you are comparing against. The thing you prefer or describe usually comes elsewhere in the sentence.",
-      "formation": "Put 보다 after the comparison baseline, then use 더 before the adjective, adverb, or preference verb. 차보다 커피를 더 좋아해요 means coffee is liked more, and tea is the baseline.",
+      "title": "N보다 더 — more than N",
+      "func": "Attach 보다 to the thing you're comparing against (the baseline) to mean \"more than N.\" 더 (\"more\") usually comes right before the adjective or verb. 더 is optional, but adding it makes the comparison clear.",
+      "formTable": [
+        {
+          "when": "Baseline noun (what you compare against)",
+          "add": "+ 보다",
+          "ex": "차 → 차보다"
+        },
+        {
+          "when": "Add 더 before the adjective/verb",
+          "add": "N보다 + 더 + Adj/Verb",
+          "ex": "차보다 더 좋아요"
+        },
+        {
+          "when": "For \"less,\" use 덜 instead of 더",
+          "add": "N보다 + 덜 + Adj",
+          "ex": "어제보다 덜 추워요"
+        }
+      ],
       "examples": [
         {
           "ko": "저는 차보다 커피를 더 좋아해요.",
-          "romanization": "jeoneun chaboda keopireul deo joahaeyo.",
+          "romanization": "jeo-neun cha-bo-da keo-pi-reul deo jo-a-hae-yo.",
           "en": "I like coffee more than tea.",
-          "note": "차 is the baseline with 보다; 커피 is the preferred item."
+          "note": "차 is the baseline (\"than tea\"); 커피 is the one I prefer."
+        },
+        {
+          "ko": "오늘이 어제보다 더 추워요.",
+          "romanization": "o-neu-ri eo-je-bo-da deo chu-wo-yo.",
+          "en": "Today is colder than yesterday.",
+          "note": "보다 attaches to 어제, the thing being compared against."
         },
         {
           "ko": "이 영화가 저 영화보다 더 재미있어요.",
-          "romanization": "i yeonghwaga jeo yeonghwaboda deo jaemiisseoyo.",
-          "en": "This movie is more fun than that movie.",
+          "romanization": "i yeong-hwa-ga jeo yeong-hwa-bo-da deo jae-mi-i-sseo-yo.",
+          "en": "This movie is more fun than that one.",
           "note": "보다 marks what this movie is compared against."
         },
         {
-          "ko": "운동보다 음악 듣는 걸 더 좋아해요.",
-          "romanization": "undongboda eumak deutneun geol deo joahaeyo.",
-          "en": "I like listening to music more than exercising.",
-          "note": "Activities can become noun phrases with -는 걸."
-        },
-        {
-          "ko": "어제보다 오늘이 더 바빠요.",
-          "romanization": "eojeboda oneuri deo bappayo.",
-          "en": "Today is busier than yesterday.",
-          "note": "어제 is the baseline; 오늘 is what is being described."
+          "ko": "버스가 지하철보다 더 느려요.",
+          "romanization": "beo-seu-ga ji-ha-cheol-bo-da deo neu-ryeo-yo.",
+          "en": "The bus is slower than the subway.",
+          "note": "The baseline (지하철) carries 보다, no matter the word order."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "차보다 커피를 더 좋아해요.",
-            "en": "I like coffee more than tea."
-          },
-          "b": {
-            "ko": "커피보다 차를 더 좋아해요.",
-            "en": "I like tea more than coffee."
-          },
-          "explanation": "Moving 보다 changes the meaning completely."
-        },
-        {
-          "a": {
-            "ko": "더 좋아해요.",
-            "en": "I like it more."
-          },
-          "b": {
-            "ko": "제일 좋아해요.",
-            "en": "I like it the most."
-          },
-          "explanation": "더 compares two sides; 제일 chooses the top option among a group."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "커피를 차 더 좋아해요.",
-        "right": "차보다 커피를 더 좋아해요.",
-        "explanation": "Do not translate English 'than' by position alone. Attach 보다 to the baseline noun."
+      "keyPoint": {
+        "label": "보다 marks the baseline, not the winner",
+        "body": "In \"A is more than B,\" 보다 goes on B — the thing you measure against — not on the one that wins: A이/가 B보다 더 ~. English speakers often want to put \"than\" on the smaller side, but in Korean 보다 always sits on the baseline noun. 더 is optional and just makes \"more\" explicit."
       },
-      "exceptions": [
-        "더 is often optional when the comparison is obvious: 어제보다 추워요 still means colder than yesterday.",
-        "For less, use 덜: 어제보다 덜 추워요.",
-        "For 'the most,' use 제일 or 가장, not 보다."
-      ]
+      "pronunciation": "",
+      "drill": {
+        "instruction": "Make a comparison with N보다 더. Put 보다 on the baseline noun.",
+        "model": "차 / 커피 (좋아하다) → 저는 차보다 커피를 더 좋아해요.",
+        "items": [
+          "어제 / 오늘 (춥다) → 오늘이 ___ 더 추워요.",
+          "저 영화 / 이 영화 (재미있다) → 이 영화가 ___ 더 재미있어요.",
+          "지하철 / 버스 (느리다) → 버스가 ___ 더 느려요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 차보다 커피를 더 좋아해요. (said when you actually prefer tea)",
+        "right": "저는 커피보다 차를 더 좋아해요.",
+        "explanation": "Learners flip the nouns because English says \"tea more than coffee.\" In Korean, 보다 sits on the baseline (the one you like less). If you like tea more, coffee is the baseline: 커피보다 차를 더."
+      }
     },
     {
-      "id": "gn-pattern-041",
-      "title": "N만큼 - as much as / as Adj as N",
-      "mentalModel": "만큼 sets an equal-degree yardstick. It says the amount, quality, or expectation reaches the level of that noun or idea.",
-      "formation": "Attach 만큼 directly to a noun or noun phrase: 이 카페 라떼만큼, 생각만큼, 너만큼. The measured adjective or verb usually comes after it: 생각만큼 비싸지 않아요.",
+      "title": "N만큼 — as much as N / as Adj as N",
+      "func": "Attach 만큼 to a noun to mean \"as much as N\" or \"to the same degree as N.\" It marks an equal level in a comparison, and the adjective or verb comes after it. It's very common in \"not as ... as I expected\" sentences with 생각.",
+      "formTable": [
+        {
+          "when": "Baseline noun (the level you match)",
+          "add": "+ 만큼",
+          "ex": "생각 → 생각만큼"
+        },
+        {
+          "when": "With an adjective (equal degree)",
+          "add": "N만큼 + Adj",
+          "ex": "라떼만큼 맛있어요"
+        },
+        {
+          "when": "Very common with a negative",
+          "add": "N만큼 + Adj/Verb + 안/-지 않다",
+          "ex": "생각만큼 안 비싸요"
+        }
+      ],
       "examples": [
         {
           "ko": "이 카페 라떼만큼 맛있는 커피는 없어요.",
-          "romanization": "i kape rattemankeum masinneun keopineun eopseoyo.",
-          "en": "There is no coffee as tasty as this cafe's latte.",
-          "note": "만큼 marks the standard of equal taste."
+          "romanization": "i ka-pe rat-te-man-keum ma-sin-neun keo-pi-neun eop-seo-yo.",
+          "en": "There's no coffee as tasty as this cafe's latte.",
+          "note": "라떼만큼 sets the level of \"tasty.\""
         },
         {
           "ko": "생각만큼 비싸지 않아요.",
-          "romanization": "saenggangmankeum bissaji anayo.",
-          "en": "It is not as expensive as I thought.",
-          "note": "생각만큼 is extremely common in negative expectation sentences."
+          "romanization": "saeng-gang-man-keum bi-ssa-ji a-na-yo.",
+          "en": "It's not as expensive as I thought.",
+          "note": "생각만큼 is a super-common chunk for \"as ... as expected.\""
         },
         {
-          "ko": "친구만큼 운동을 좋아해요.",
-          "romanization": "chingumankeum undongeul joahaeyo.",
-          "en": "I like exercise as much as my friend does.",
-          "note": "The equal degree is about liking exercise."
+          "ko": "오늘은 어제만큼 추워요.",
+          "romanization": "o-neu-reun eo-je-man-keum chu-wo-yo.",
+          "en": "Today is as cold as yesterday.",
+          "note": "만큼 attaches to 어제, the level being matched."
         },
         {
-          "ko": "노력한 만큼 늘어요.",
-          "romanization": "noryeokan mankeum neureoyo.",
-          "en": "You improve as much as you practice.",
-          "note": "After a modifier clause, 만큼 is spaced and means in proportion to."
+          "ko": "저는 친구만큼 커피를 좋아해요.",
+          "romanization": "jeo-neun chin-gu-man-keum keo-pi-reul jo-a-hae-yo.",
+          "en": "I like coffee as much as my friend does.",
+          "note": "만큼 also works with verbs of degree like 좋아해요."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "이 커피가 저 커피보다 더 맛있어요.",
-            "en": "This coffee is tastier than that coffee."
-          },
-          "b": {
-            "ko": "이 커피가 저 커피만큼 맛있어요.",
-            "en": "This coffee is as tasty as that coffee."
-          },
-          "explanation": "보다 더 makes a higher comparison. 만큼 makes an equal-degree comparison."
-        },
-        {
-          "a": {
-            "ko": "너처럼 하고 싶어요.",
-            "en": "I want to do it like you."
-          },
-          "b": {
-            "ko": "너만큼 잘하고 싶어요.",
-            "en": "I want to do it as well as you."
-          },
-          "explanation": "처럼 compares manner or style. 만큼 compares degree or level."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "만큼 이 카페 라떼 맛있어요.",
-        "right": "이 카페 라떼만큼 맛있어요.",
-        "explanation": "Attach 만큼 to the standard first, then put the adjective or verb after it."
+      "keyPoint": {
+        "label": "만큼 (equal) vs 보다 (more)",
+        "body": "Use 보다 for \"more than\" — one side wins: 친구보다 잘해요 = better than my friend. Use 만큼 for \"as much as\" — the two are equal: 친구만큼 잘해요 = as well as my friend. Swapping them turns \"the same\" into \"more,\" so keep them apart."
       },
-      "exceptions": [
-        "N만큼 is written attached to the noun, but 노력한 만큼 is spaced after a modifier clause.",
-        "만큼 is a pattern piece here, not a separate vocabulary card to memorize by itself.",
-        "In everyday comparison, 생각만큼 안/지 않다 is one of the safest first chunks."
-      ]
+      "pronunciation": "라떼만큼 is straightforward, but 책만큼 sounds like [챙만큼] — the ㄱ in 책 turns into [ㅇ] before the nasal ㅁ.",
+      "drill": {
+        "instruction": "Say two things are equal with N만큼. Put 만큼 on the baseline noun.",
+        "model": "친구 (커피를 좋아하다) → 저는 친구만큼 커피를 좋아해요.",
+        "items": [
+          "어제 (춥다) → 오늘은 ___ 추워요.",
+          "생각 (비싸다, negative) → ___ 비싸지 않아요.",
+          "라떼 (맛있다) → 이 커피는 ___ 맛있어요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 친구보다 커피를 좋아해요. (meaning \"as much as,\" not \"more than\")",
+        "right": "저는 친구만큼 커피를 좋아해요.",
+        "explanation": "English \"as much as\" and \"more than\" feel close, but Korean splits them: 만큼 = same degree, 보다 = more. Use 만큼 when the two are equal, and save 보다 for when one really beats the other."
+      }
     }
   ],
   "extendedVocabulary": [

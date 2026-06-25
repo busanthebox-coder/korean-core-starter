@@ -11,98 +11,81 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-question-word-slot",
-      "title": "Question words - put the missing answer in its Korean slot",
-      "mentalModel": "A Korean question word is a blank space with a label. If the answer is a place, use 어디. If the answer is a reason, use 왜. If the answer is a method, use 어떻게. Then attach the particle the answer would have used.",
-      "formation": "Start with the answer sentence, replace the answer with the right question word, and keep the useful particle. 학교에서 공부해요 becomes 어디에서 공부해요? 친구를 만나요 becomes 누구를 만나요?",
+      "title": "Question words (누구, 뭐, 어디, 언제, 왜, 어떻게, 몇, 얼마)",
+      "func": "Question words ask for one missing piece of info — who, what, where, when, why, how, how many, how much. The big thing: in Korean the question word sits in the exact spot the answer would go. It does not jump to the front like English 'where' or 'what' does.",
+      "formTable": [
+        {
+          "when": "who — 누구",
+          "add": "누구 + 가 → 누가 (subject); 누구 + 를 (object); 누구 + 예요",
+          "ex": "누가 와요? / 누구를 만나요? / 이 사람 누구예요?"
+        },
+        {
+          "when": "what — 뭐 (everyday)",
+          "add": "뭐 + 예요; 뭐 + 를 → 뭘 (object). 무엇 is the written form, rare in speech",
+          "ex": "이거 뭐예요? / 뭘 먹어요? / 뭐 해요?"
+        },
+        {
+          "when": "where — 어디",
+          "add": "어디 + 예요; 어디 + 에 (where you go / where something is); 어디 + 에서 (where you do something)",
+          "ex": "집이 어디예요? / 어디에 가요? / 어디에서 일해요?"
+        },
+        {
+          "when": "when / why / how — 언제, 왜, 어떻게",
+          "add": "no particle — they work like adverbs on their own",
+          "ex": "언제 와요? / 왜 안 와요? / 어떻게 가요?"
+        },
+        {
+          "when": "how many / how much — 몇 + counter, 얼마",
+          "add": "몇 + 개/명/시/살 …; 얼마 + 예요 (price)",
+          "ex": "몇 개예요? / 몇 시예요? / 이거 얼마예요?"
+        }
+      ],
       "examples": [
         {
-          "ko": "어디에서 한국어를 배워요?",
-          "romanization": "eodieseo hangugeoreul baewoyo?",
-          "en": "Where do you learn Korean?",
-          "note": "어디에서 asks for the place where the action happens."
+          "ko": "이 사람 누구예요?",
+          "romanization": "i saram nuguyeyo?",
+          "en": "Who is this person?",
+          "note": "누구 sits right where the answer goes: 제 친구예요 (It's my friend). Same slot, just swap the word."
         },
         {
-          "ko": "왜 한국어를 공부해요?",
-          "romanization": "wae hangugeoreul gongbuhaeyo?",
-          "en": "Why do you study Korean?",
-          "note": "왜 asks for the reason; a natural short answer often ends in -아서/어서요."
+          "ko": "점심에 뭘 먹어요?",
+          "romanization": "jeomsime mwol meogeoyo?",
+          "en": "What do you eat for lunch?",
+          "note": "뭘 (뭐+를) stays in the object slot before the verb. Answer 밥을 먹어요 fills the very same slot."
         },
         {
-          "ko": "보통 어떻게 연습해요?",
-          "romanization": "botong eotteoke yeonseupaeyo?",
-          "en": "How do you usually practice?",
-          "note": "어떻게 asks for the method or manner."
+          "ko": "어디에서 일해요?",
+          "romanization": "eodieseo ilhaeyo?",
+          "en": "Where do you work?",
+          "note": "어디 takes 에서 because work happens there (an action). Answer 회사에서 일해요 keeps the same 에서."
         },
         {
-          "ko": "누구랑 같이 공부해요?",
-          "romanization": "nugurang gachi gongbuhaeyo?",
-          "en": "Who do you study with?",
-          "note": "누구 can take particles: 누구랑, 누구를, 누구한테."
-        },
-        {
-          "ko": "수업은 몇 시에 시작해요?",
-          "romanization": "sueobeun myeot sie sijakaeyo?",
-          "en": "What time does class start?",
-          "note": "몇 combines with counters and number nouns such as 시, 명, 개, 번."
+          "ko": "이거 얼마예요?",
+          "romanization": "igeo eolmayeyo?",
+          "en": "How much is this?",
+          "note": "얼마 is the normal word for asking a price. Answer 만 원이에요 drops right into the 얼마 spot."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "어디에 가요?",
-            "en": "Where are you going?"
-          },
-          "b": {
-            "ko": "어디에서 공부해요?",
-            "en": "Where do you study?"
-          },
-          "explanation": "어디에 points to a destination or location. 어디에서 points to the place where an action happens."
-        },
-        {
-          "a": {
-            "ko": "어떻게 가요?",
-            "en": "How do you get there?"
-          },
-          "b": {
-            "ko": "영화 어땠어요?",
-            "en": "How was the movie?"
-          },
-          "explanation": "어떻게 asks method or manner. 어때요/어땠어요 asks for an opinion or condition."
-        },
-        {
-          "a": {
-            "ko": "누구를 만나요?",
-            "en": "Whom are you meeting?"
-          },
-          "b": {
-            "ko": "누가 와요?",
-            "en": "Who is coming?"
-          },
-          "explanation": "누구를 is the object. 누가 is the subject form of 누구 + 가."
-        },
-        {
-          "a": {
-            "ko": "무슨 영화를 봐요?",
-            "en": "What movie are you watching?"
-          },
-          "b": {
-            "ko": "어느 영화가 더 좋아요?",
-            "en": "Which movie is better?"
-          },
-          "explanation": "무슨 asks for the kind, name, or category. 어느 chooses among known options."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "어디 당신은 한국어를 배워요?",
-        "right": "어디에서 한국어를 배워요?",
-        "explanation": "Do not force English word order. In Korean, the question word usually stays where the answer would go, and the particle still carries the role."
+      "keyPoint": {
+        "label": "The question word stays where the answer goes",
+        "body": "English moves the question word up front: 'WHAT do you eat?' Korean leaves it in place, right before the verb: 뭐 먹어요? → 밥 먹어요. Look at the slot: 밥 먹어요 / 뭐 먹어요 — same spot, you just swap 밥 for 뭐. So think of the answer first, then drop the question word into its slot. (어디 still needs 에 or 에서 — that comes next.)"
       },
-      "exceptions": [
-        "Particles often drop in casual speech: 어디 가요? 누구 만나요? The full forms 어디에 가요 and 누구를 만나요 explain the structure.",
-        "왜 is usually placed before the verb phrase because it modifies the reason for the whole action: 왜 공부해요?",
-        "언제 usually does not need 에 in open questions: 언제 만나요? Use 에 for specific time nouns such as 세 시에."
-      ]
+      "pronunciation": "누구 + 가 squeezes down to 누가 (the 구 disappears, it doesn't just link). 뭐 + 를 squeezes to 뭘. 무엇을 links over the patchim and sounds like [무어슬].",
+      "drill": {
+        "instruction": "Turn each statement into a question. Swap the underlined answer for the matching question word and leave it in the same slot (keep the particle).",
+        "model": "친구를 만나요. → 누구를 만나요?",
+        "items": [
+          "학교에 가요. → ___에 가요?",
+          "물을 마셔요. → ___ 마셔요?",
+          "세 시에 와요. → ___ 와요?",
+          "회사에서 일해요. → ___에서 일해요?"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "먹어요 뭐? / 가요 어디?",
+        "right": "뭐 먹어요? / 어디 가요?",
+        "explanation": "From English, people want to swing the question word to the very front of the sentence (Where do you go?). In Korean it does not move up front and it never goes after the verb — it stays in the answer's slot, right before the verb. So it's 어디 가요?, not 가요 어디? and not 어디 가요 fronted away from its slot."
+      }
     }
   ],
   "extendedVocabulary": [

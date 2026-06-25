@@ -11,82 +11,71 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-102",
-      "title": "V-(으)ㄹ 거예요 — Future Plan / Intention / Prediction",
-      "mentalModel": "Think of -(으)ㄹ 거예요 as a FUTURE ARROW. The verb points forward from now: what I plan to do, what will probably happen, or what someone is likely doing. For 'I' it often sounds like intention; for weather or third-person subjects it often sounds like prediction.",
-      "formation": "Remove 다. If the stem ends in a vowel, add -ㄹ 거예요: 가다→갈 거예요, 보다→볼 거예요, 하다→할 거예요. If the stem ends in a consonant, add -을 거예요: 먹다→먹을 거예요, 읽다→읽을 거예요. If the stem already ends in ㄹ, use the ㄹ stem naturally: 살다→살 거예요.",
+      "title": "V-(으)ㄹ 거예요 — saying what you'll do (plans, intentions, predictions)",
+      "func": "Use V-(으)ㄹ 거예요 to say what you plan or mean to do, or to guess what will happen. It's the everyday polite way to say \"will\" or \"be going to\" — perfect for weekend plans, what you'll eat, or what the weather will do.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel",
+          "add": "stem + ㄹ 거예요",
+          "ex": "가다 → 갈 거예요, 보다 → 볼 거예요, 하다 → 할 거예요"
+        },
+        {
+          "when": "Stem ends in a consonant",
+          "add": "stem + 을 거예요",
+          "ex": "먹다 → 먹을 거예요, 읽다 → 읽을 거예요"
+        },
+        {
+          "when": "Stem already ends in ㄹ",
+          "add": "keep ㄹ, add 거예요 (don't add 을)",
+          "ex": "살다 → 살 거예요, 만들다 → 만들 거예요"
+        }
+      ],
       "examples": [
         {
           "ko": "내일 친구를 만날 거예요.",
           "romanization": "naeil chingureul mannal geoyeyo.",
-          "en": "I am going to meet a friend tomorrow.",
-          "note": "만나다 has a vowel-ending stem 만나- → 만날 거예요."
+          "en": "I'm going to meet a friend tomorrow.",
+          "note": "만나다 ends in a vowel, so just add ㄹ 거예요. This is a plan."
         },
         {
-          "ko": "주말에 카페에 갈 거예요.",
-          "romanization": "jumare kape-e gal geoyeyo.",
-          "en": "I am going to go to a cafe on the weekend.",
-          "note": "가다 → 갈 거예요. This is the chapter's basic plan sentence."
+          "ko": "저녁에 집에서 밥 먹을 거예요.",
+          "romanization": "jeonyeoge jibeseo bap meogeul geoyeyo.",
+          "en": "I'm going to eat at home this evening.",
+          "note": "먹다 ends in a consonant, so add 을 거예요."
         },
         {
-          "ko": "비가 오면 집에서 공부할 거예요.",
-          "romanization": "biga omyeon jibeseo gongbuhal geoyeyo.",
-          "en": "If it rains, I am going to study at home.",
-          "note": "하다 → 할 거예요. The condition comes first, then the planned response."
+          "ko": "주말에 영화 볼 거예요.",
+          "romanization": "jumare yeonghwa bol geoyeyo.",
+          "en": "I'm going to watch a movie this weekend.",
+          "note": "보다 → 볼 거예요. A simple plan with a friend-talk feel."
         },
         {
-          "ko": "저녁에는 김밥을 먹을 거예요.",
-          "romanization": "jeonyeogeneun gimbabeul meogeul geoyeyo.",
-          "en": "I am going to eat gimbap in the evening.",
-          "note": "먹다 ends in a consonant → 먹을 거예요."
-        },
-        {
-          "ko": "내일 비가 올 거예요.",
-          "romanization": "naeil biga ol geoyeyo.",
-          "en": "It will probably rain tomorrow.",
-          "note": "With weather, -(으)ㄹ 거예요 is a prediction, not intention."
-        },
-        {
-          "ko": "이 책을 다 읽을 거예요.",
-          "romanization": "i chaegeul da ilgeul geoyeyo.",
-          "en": "I am going to finish reading this book.",
-          "note": "읽다 ends in a consonant → 읽을 거예요."
+          "ko": "내일은 비가 올 거예요.",
+          "romanization": "naeireun biga ol geoyeyo.",
+          "en": "It'll probably rain tomorrow.",
+          "note": "Here 오다 is a guess about the weather, not a personal plan — the same form covers both."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "주말에 카페에 갈 거예요.",
-            "en": "I am going to go to a cafe this weekend. (my plan)"
-          },
-          "b": {
-            "ko": "제가 카페에 갈게요.",
-            "en": "I'll go to the cafe. (promise/offer to you now)"
-          },
-          "explanation": "-ㄹ 거예요 states a future plan. -ㄹ게요 is a first-person promise or offer made to the listener in this conversation."
-        },
-        {
-          "a": {
-            "ko": "내일 친구를 만날 거예요.",
-            "en": "I am going to meet a friend tomorrow."
-          },
-          "b": {
-            "ko": "내일 친구를 만나요.",
-            "en": "I meet / am meeting a friend tomorrow. (scheduled, present form can work)"
-          },
-          "explanation": "Present tense can sometimes describe a scheduled future event when a time word is clear, but -(으)ㄹ 거예요 makes the future plan explicit and is safer for learners."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "비가 올게요.",
-        "right": "비가 올 거예요.",
-        "explanation": "-ㄹ게요 is only for a promise or offer by the speaker. Rain cannot promise you anything. For weather prediction, use -ㄹ 거예요."
+      "keyPoint": {
+        "label": "거예요 (your plan) vs. 게요 (a promise to me)",
+        "body": "Both look to the future. -(으)ㄹ 거예요 just states your plan or a guess: 제가 할 거예요 (I plan to do it). -(으)ㄹ게요 is something you promise the listener right now: 제가 할게요 (I'll do it / I promise). Quick tell: weather and other people can take 거예요 (비가 올 거예요), but never 게요 — rain can't promise you anything. You'll practice 게요 more later; for now, default to 거예요 for plans and guesses."
       },
-      "exceptions": [
-        "ㄹ-ending stems do not double ㄹ: 살다 → 살 거예요, not 살을 거예요.",
-        "For promises to the listener, use -(으)ㄹ게요: 제가 할게요, 제가 갈게요.",
-        "For formal forecasts or written prediction, -(으)ㄹ 것입니다 may appear, but -(으)ㄹ 거예요 is the everyday polite form."
-      ]
+      "pronunciation": "거예요 is said like [거에요]. The ㄹ before it makes the 거 tense, so 갈 거예요 sounds like [갈 꺼예요] and 먹을 거예요 like [머글 꺼예요].",
+      "drill": {
+        "instruction": "Turn each verb into a future-plan sentence with V-(으)ㄹ 거예요.",
+        "model": "보다 (영화를) → 영화를 볼 거예요.",
+        "items": [
+          "읽다 (책을) → ?",
+          "마시다 (물을) → ?",
+          "살다 (서울에서) → ?",
+          "듣다 (음악을) → ?"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "제가 갈 거 있어요. / 제가 갈게 거예요.",
+        "right": "제가 갈 거예요.",
+        "explanation": "Because \"I'm going to go\" feels like two verbs in English, learners try to bolt on an extra 있어요 or mix in 게. But -(으)ㄹ 거예요 is already a finished sentence ending. Just attach -(으)ㄹ 거예요 straight onto the stem — nothing comes after it."
+      }
     }
   ],
   "extendedVocabulary": [

@@ -11,136 +11,146 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-052",
-      "title": "V-고 나서 - after finishing",
-      "mentalModel": "-고 나서 says action 1 is finished and action 2 happens after that completed step.",
-      "formation": "Attach -고 나서 to the verb stem: 씻다 becomes 씻고 나서, 먹다 becomes 먹고 나서, 준비하다 becomes 준비하고 나서. The tense normally appears on the final verb: 손을 씻고 나서 밥을 먹었어요, not 손을 씻었고 나서.",
+      "title": "V-고 나서 — after finishing, then",
+      "func": "V-고 나서 means \"after doing V (and finishing it).\" It tells the listener that the first action is done before the next one starts. Usually the same person does both actions.",
+      "formTable": [
+        {
+          "when": "Verb stem ending in a vowel",
+          "add": "-고 나서",
+          "ex": "보다 → 보고 나서, 자다 → 자고 나서"
+        },
+        {
+          "when": "Verb stem ending in a consonant",
+          "add": "-고 나서",
+          "ex": "먹다 → 먹고 나서, 씻다 → 씻고 나서"
+        },
+        {
+          "when": "ㄹ-final stems (nothing drops here)",
+          "add": "-고 나서",
+          "ex": "놀다 → 놀고 나서, 만들다 → 만들고 나서"
+        },
+        {
+          "when": "Never put past tense on this verb",
+          "add": "keep the stem plain — 나서 already means \"after\"",
+          "ex": "먹었고 나서 (X) → 먹고 나서 (O)"
+        }
+      ],
       "examples": [
         {
-          "ko": "손을 씻고 나서 아침을 먹어요.",
-          "romanization": "soneul ssitgo naseo achimeul meogeoyo.",
-          "en": "After washing my hands, I eat breakfast.",
-          "note": "The washing is complete before eating starts."
+          "ko": "밥을 먹고 나서 이를 닦아요.",
+          "romanization": "bap-eul meokgo naseo i-reul dakkayo.",
+          "en": "After I eat, I brush my teeth.",
+          "note": "Eating finishes first, then the next thing starts."
         },
         {
-          "ko": "준비하고 나서 바로 출발했어요.",
-          "romanization": "junbihago naseo baro chulbalhaesseoyo.",
-          "en": "After getting ready, I left right away.",
-          "note": "The completed preparation is the first step."
+          "ko": "숙제를 하고 나서 친구를 만났어요.",
+          "romanization": "sukje-reul hago naseo chingu-reul mannasseoyo.",
+          "en": "After I did my homework, I met a friend.",
+          "note": "The past tense goes only on the last verb (만났어요), not on 하다."
         },
         {
-          "ko": "수업이 끝나고 나서 친구를 만났어요.",
-          "romanization": "sueobi kkeunnago naseo chingureul mannasseoyo.",
-          "en": "After class ended, I met a friend.",
-          "note": "The event ends first; the meeting happens after."
+          "ko": "손을 씻고 나서 밥을 먹어요.",
+          "romanization": "son-eul ssitgo naseo bap-eul meogeoyo.",
+          "en": "After I wash my hands, I eat.",
+          "note": "Same person does both — the usual case for -고 나서."
         },
         {
-          "ko": "예약을 확인하고 나서 방으로 올라갔어요.",
-          "romanization": "yeyageul hwaginhago naseo bangeuro ollagasseoyo.",
-          "en": "After checking the reservation, I went up to the room.",
-          "note": "A natural travel or hotel step."
+          "ko": "이 책을 읽고 나서 영화를 볼 거예요.",
+          "romanization": "i chaek-eul ilkko naseo yeonghwa-reul bol geoyeyo.",
+          "en": "After I finish this book, I'm going to watch a movie.",
+          "note": "Works for plans too. 읽고 sounds like [일꼬]. The reading has to finish first."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "불을 끄고 문을 닫았어요.",
-            "en": "I turned off the light and closed the door."
-          },
-          "b": {
-            "ko": "불을 끄고 나서 문을 닫았어요.",
-            "en": "After turning off the light, I closed the door."
-          },
-          "explanation": "Plain -고 lists actions. -고 나서 makes the completed first step clearer."
-        },
-        {
-          "a": {
-            "ko": "도착하고 나서 전화할게요.",
-            "en": "I will call after I arrive."
-          },
-          "b": {
-            "ko": "도착하자마자 전화할게요.",
-            "en": "I will call as soon as I arrive."
-          },
-          "explanation": "-고 나서 only says after. -자마자 says there is almost no gap."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "밥을 먹었고 나서 나갔어요.",
-        "right": "밥을 먹고 나서 나갔어요.",
-        "explanation": "Do not put past tense in the first clause. The final verb carries the sentence tense."
+      "keyPoint": {
+        "label": "-고 나서 vs. plain -고",
+        "body": "Plain -고 just links two actions like \"and\": 밥을 먹고 이를 닦아요 (I eat and brush my teeth). Adding 나서 puts the spotlight on finishing the first one before starting the next. Reach for -고 나서 when you want \"after I'm done with this, then that.\""
       },
-      "exceptions": [
-        "Plain -고 is enough when you only list steps and do not need to stress completion.",
-        "-은/ㄴ 다음에 and -은/ㄴ 후에 also mean 'after,' but -고 나서 sounds more conversational and completion-focused.",
-        "When the second action happens instantly, -자마자 is usually sharper."
-      ]
+      "pronunciation": "You hear it as [고 나서]. Note that 고 tenses after a stem ending in a stop sound: 먹고 나서 sounds like [먹꼬 나서], 받고 나서 like [받꼬 나서]. After a vowel (보고 나서) it stays soft. Keep 나서 light so it links right on.",
+      "drill": {
+        "instruction": "Join the two actions into one sentence with V-고 나서, in the 해요 form.",
+        "model": "손을 씻다 + 밥을 먹다 → 손을 씻고 나서 밥을 먹어요.",
+        "items": [
+          "운동하다 + 샤워하다 → ____",
+          "책을 읽다 + 자다 → ____",
+          "청소하다 + 친구를 만나다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "밥을 먹었고 나서 이를 닦아요.",
+        "right": "밥을 먹고 나서 이를 닦아요.",
+        "explanation": "\"After I ate\" feels past in English, so people add -었- to the first verb. But 나서 already carries \"after finishing,\" so the first verb stays a plain stem. Only the last verb shows the real tense."
+      }
     },
     {
-      "id": "gn-pattern-099",
-      "title": "V-자마자 - as soon as",
-      "mentalModel": "-자마자 makes the gap between action 1 and action 2 feel almost zero.",
-      "formation": "Attach -자마자 directly to the verb stem: 도착하다 becomes 도착하자마자, 일어나다 becomes 일어나자마자, 끝나다 becomes 끝나자마자. Do not add past tense before it. Use the final verb for tense: 도착하자마자 전화했어요.",
+      "title": "V-자마자 — as soon as",
+      "func": "V-자마자 means \"as soon as / the moment V happens.\" The second thing comes right after the first, with no time in between. The two halves can have the same person or different ones.",
+      "formTable": [
+        {
+          "when": "Verb stem ending in a vowel",
+          "add": "-자마자",
+          "ex": "오다 → 오자마자, 보다 → 보자마자"
+        },
+        {
+          "when": "Verb stem ending in a consonant",
+          "add": "-자마자",
+          "ex": "듣다 → 듣자마자, 끝나다 → 끝나자마자"
+        },
+        {
+          "when": "ㄹ-final stems (nothing drops here)",
+          "add": "-자마자",
+          "ex": "열다 → 열자마자, 울다 → 울자마자"
+        },
+        {
+          "when": "Never put past tense on this verb",
+          "add": "keep the stem plain — tense goes on the second half only",
+          "ex": "왔자마자 (X) → 오자마자 (O)"
+        }
+      ],
       "examples": [
         {
-          "ko": "도착하자마자 전화해 주세요.",
-          "romanization": "dochakajamaja jeonhwahae juseyo.",
-          "en": "Please call me as soon as you arrive.",
-          "note": "A very practical travel sentence."
+          "ko": "집에 오자마자 손을 씻어요.",
+          "romanization": "jib-e ojamaja son-eul ssiseoyo.",
+          "en": "As soon as I get home, I wash my hands.",
+          "note": "No gap — the washing happens the instant you walk in."
         },
         {
-          "ko": "일어나자마자 물을 마셔요.",
-          "romanization": "ireonajamaja mureul masyeoyo.",
-          "en": "As soon as I wake up, I drink water.",
-          "note": "Morning routine with immediate next action."
+          "ko": "영화가 끝나자마자 집에 갔어요.",
+          "romanization": "yeonghwa-ga kkeunnajamaja jib-e gasseoyo.",
+          "en": "As soon as the movie ended, I went home.",
+          "note": "Here the two halves have different subjects (the movie / I)."
         },
         {
-          "ko": "집에서 나오자마자 지갑을 두고 온 걸 알았어요.",
-          "romanization": "jibeseo naojamaja jigabeul dugo on geol arasseoyo.",
-          "en": "As soon as I came out of the house, I realized I had left my wallet behind.",
-          "note": "Immediate realization after leaving."
+          "ko": "학교에 도착하자마자 친구한테 전화했어요.",
+          "romanization": "hakgyo-e dochakajamaja chingu-hante jeonhwahaesseoyo.",
+          "en": "As soon as I got to school, I called my friend.",
+          "note": "Past tense shows up only on the second verb (전화했어요)."
         },
         {
-          "ko": "수업이 끝나자마자 나갔어요.",
-          "romanization": "sueobi kkeunnajamaja nagasseoyo.",
-          "en": "I left as soon as class ended.",
-          "note": "The final verb 나갔어요 carries the past tense."
+          "ko": "침대에 눕자마자 잤어요.",
+          "romanization": "chimdae-e nupjamaja jasseoyo.",
+          "en": "As soon as I lay down, I fell asleep.",
+          "note": "An immediate, almost automatic reaction with no delay."
         }
       ],
-      "contrastPairs": [
-        {
-          "a": {
-            "ko": "집에 와서 쉬었어요.",
-            "en": "I came home and rested."
-          },
-          "b": {
-            "ko": "집에 오자마자 쉬었어요.",
-            "en": "I rested as soon as I got home."
-          },
-          "explanation": "-아서/어서 or -고 can simply connect events. -자마자 stresses immediacy."
-        },
-        {
-          "a": {
-            "ko": "방금 도착했어요.",
-            "en": "I just arrived."
-          },
-          "b": {
-            "ko": "도착하자마자 전화했어요.",
-            "en": "I called as soon as I arrived."
-          },
-          "explanation": "방금 describes how recent an event is. -자마자 connects two events with no gap."
-        }
-      ],
-      "englishSpeakerPitfall": {
-        "wrong": "도착했자마자 전화했어요.",
-        "right": "도착하자마자 전화했어요.",
-        "explanation": "Even when the whole sentence is past, the first verb before -자마자 stays unmarked for tense."
+      "keyPoint": {
+        "label": "-자마자 vs. -고 나서",
+        "body": "Both put one action before another, but the timing is different. -고 나서 is \"after finishing,\" and a pause is fine: 밥을 먹고 나서 좀 쉬었어요 (I ate, then rested a bit). -자마자 is \"the very moment,\" no gap at all: 집에 오자마자 잤어요 (got home and went straight to sleep). Use -자마자 only when there's truly no time in between."
       },
-      "exceptions": [
-        "In formal planning, -는 대로 can also mean 'as soon as,' but -자마자 is the everyday immediate form.",
-        "If there was a delay, use -고 나서 or -은/ㄴ 후에 instead.",
-        "The two actions can have different subjects: 수업이 끝나자마자 학생들이 나갔어요."
-      ]
+      "pronunciation": "You hear it as [자마자], three even, light beats. After a stem ending in a stop sound it tenses a little: 듣자마자 sounds like [듣짜마자], 눕자마자 like [눕짜마자]. After a vowel (오자마자) it stays soft. No pause before it.",
+      "drill": {
+        "instruction": "Join the two actions into one sentence with V-자마자.",
+        "model": "집에 오다 + 손을 씻다 → 집에 오자마자 손을 씻어요.",
+        "items": [
+          "일어나다 + 물을 마시다 → ____",
+          "수업이 끝나다 + 집에 가다 → ____",
+          "친구를 보다 + 웃다 → ____"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "집에 왔자마자 손을 씻었어요.",
+        "right": "집에 오자마자 손을 씻었어요.",
+        "explanation": "\"As soon as I came home\" is past in English, so people add -았/었- to the first verb. In Korean, 자마자 sticks to the plain stem (오-), never a past form. Put the past tense only on the second verb (씻었어요)."
+      }
     }
   ],
   "extendedVocabulary": [
