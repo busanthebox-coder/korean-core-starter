@@ -11,106 +11,230 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-147",
-      "title": "V-이/히/리/기/우/구/추-다 - lexical causative pairs",
-      "mentalModel": "Do not treat the seven suffixes as a machine you can attach to any verb. Learn the common pairs and always ask: who does the base action, and who causes it?",
-      "formation": "Some Korean causatives are built into the verb with a suffix: 먹다 -> 먹이다, 자다 -> 재우다, 입다 -> 입히다, 앉다 -> 앉히다, 웃다 -> 웃기다, 울다 -> 울리다, 낮다 -> 낮추다. The causer is usually the subject. The person affected can appear with 에게/한테 or 을/를 depending on the verb: 아이에게 밥을 먹이다, 학생들을 앉히다, 모두를 웃기다. Some forms, especially 읽히다, can be passive-like or causative depending on the sentence, so context matters more than the suffix shape.",
-      "examples": [
+      "title": "Lexical causatives: V + -이/히/리/기/우/구/추-",
+      "func": "A fixed, closed set of verbs that build a causative meaning ('make/get X to happen', or 'do the action to X') right into the verb stem by inserting -이-, -히-, -리-, -기-, -우-, -구-, or -추-. The doer of the plain verb becomes the object (usually -을/를), and a new causer becomes the subject. Because the set is fixed, you can't apply it to just any verb — each causative pair is learned as its own vocabulary item.",
+      "formTable": [
         {
-          "ko": "엄마가 아이에게 밥을 먹였어요.",
-          "romanization": "eommaga aiege babeul meogyeosseoyo.",
-          "en": "The mother fed the child.",
-          "note": "The child eats; the mother causes or helps it."
+          "when": "-이- (e.g. after ㄱ, ㅁ, vowel stems)",
+          "add": "먹다 → 먹이다 (feed), 죽다 → 죽이다 (kill), 끓다 → 끓이다 (boil sth)",
+          "ex": "엄마가 아기에게 밥을 먹여요. (Mom feeds the baby.)"
         },
         {
-          "ko": "아빠가 아기를 재웠어요.",
-          "romanization": "appaga agireul jaewosseoyo.",
-          "en": "The father put the baby to sleep.",
-          "note": "자다 becomes 재우다."
+          "when": "-히- (often after ㄱ, ㄷ, ㅂ)",
+          "add": "입다 → 입히다 (dress sb), 앉다 → 앉히다 (seat sb), 눕다 → 눕히다 (lay sb down)",
+          "ex": "아이에게 옷을 입혔어요. (I dressed the child.)"
         },
         {
-          "ko": "직원이 손님을 창가 자리에 앉혔어요.",
-          "romanization": "jigwoni sonnimeul changga jarie anchyeosseoyo.",
-          "en": "The staff seated the guest by the window.",
-          "note": "앉다 is intransitive; 앉히다 takes the person being seated."
+          "when": "-리- (often after ㄹ)",
+          "add": "살다 → 살리다 (save), 울다 → 울리다 (make cry), 알다 → 알리다 (let know)",
+          "ex": "동생이 형을 울렸어요. (The younger one made the older one cry.)"
         },
         {
-          "ko": "그 농담이 모두를 웃겼어요.",
-          "romanization": "geu nongdami modureul utgyeosseoyo.",
-          "en": "That joke made everyone laugh.",
-          "note": "The joke is the causer."
+          "when": "-기-",
+          "add": "웃다 → 웃기다 (make laugh), 벗다 → 벗기다 (take sth off sb), 남다 → 남기다 (leave sth)",
+          "ex": "그 영화가 저를 웃겼어요. (That movie made me laugh.)"
+        },
+        {
+          "when": "-우- (note the stem often changes shape)",
+          "add": "자다 → 재우다 (put to sleep), 깨다 → 깨우다 (wake sb), 타다 → 태우다 (give a ride)",
+          "ex": "아빠가 아기를 재웠어요. (Dad put the baby to sleep.)"
+        },
+        {
+          "when": "-구-/-추- (a very small set)",
+          "add": "달다 → 달구다 (heat sth up), 낮다 → 낮추다 (lower), 맞다 → 맞추다 (set/adjust)",
+          "ex": "소리를 좀 낮춰 주세요. (Please turn the volume down.)"
         }
       ],
-      "exceptions": [
-        "읽히다 is the warning example: 선생님이 학생들에게 본문을 읽혔어요 is causative, but 책이 잘 읽혀요 is text-focused/passive-like."
-      ]
-    },
-    {
-      "id": "gn-pattern-148",
-      "title": "V-게 하다 - have or make someone do something",
-      "mentalModel": "Use V-게 하다 when there is no natural lexical causative, or when you want a clearer, more flexible 'have someone do V' sentence.",
-      "formation": "Attach 게 하다 to the action you want someone to do: 읽게 하다, 공부하게 하다, 기다리게 하다. The caused person can be marked by 을/를 or 에게 depending on the sentence. Compared with lexical causatives, V-게 하다 is more transparent and works with many verbs.",
       "examples": [
         {
-          "ko": "선생님이 학생들에게 본문을 읽게 했어요.",
-          "romanization": "seonsaengnimi haksaengdeurege bonmuneul ilkge haesseoyo.",
-          "en": "The teacher had the students read the passage.",
-          "note": "Clear analytic causative."
+          "ko": "제가 강아지한테 밥을 먹였어요.",
+          "romanization": "Jega gangaji-hante bab-eul meogyeosseoyo.",
+          "en": "I fed the puppy.",
+          "note": "먹다 (eat) → 먹이다 (feed): the eater (강아지) takes -한테/에게, and the new causer (저) becomes the subject."
         },
         {
-          "ko": "부모님이 저를 일찍 자게 했어요.",
-          "romanization": "bumonimi jeoreul iljjik jage haesseoyo.",
-          "en": "My parents made me sleep early.",
-          "note": "Same idea as 재우다, but more analytic."
+          "ko": "엄마가 아이를 일찍 재웠어요.",
+          "romanization": "Eomma-ga ai-reul iljjik jaewosseoyo.",
+          "en": "Mom put the child to bed early.",
+          "note": "자다 (sleep) → 재우다: the stem changes shape (자→재우), so memorize this pair — you can't just add a suffix."
         },
         {
-          "ko": "팀장이 직원들을 앞자리에 앉게 했어요.",
-          "romanization": "timjangi jigwondeureul apjarie anke haesseoyo.",
-          "en": "The team lead had the staff sit in the front seats.",
-          "note": "Compare with 직원들을 앞자리에 앉혔어요."
+          "ko": "간호사가 환자를 침대에 눕혔어요.",
+          "romanization": "Ganhosa-ga hwanja-reul chimdae-e nupyeosseoyo.",
+          "en": "The nurse laid the patient down on the bed.",
+          "note": "눕다 (lie down) → 눕히다: the causee (환자) takes -을/를 because the nurse is physically doing it to them."
         },
         {
-          "ko": "회사에서 직원들을 야근하게 했어요.",
-          "romanization": "hoesaeseo jigwondeureul yageunhage haesseoyo.",
-          "en": "The company made the employees work overtime.",
-          "note": "Useful when there is no single lexical causative."
-        }
-      ]
-    },
-    {
-      "id": "gn-pattern-149",
-      "title": "V-게 만들다 - cause a result, often emotionally or forcefully",
-      "mentalModel": "V-게 만들다 focuses on the resulting state. It often feels stronger or more emotional than V-게 하다.",
-      "formation": "Attach 게 만들다 to the result: 울게 만들다, 웃게 만들다, 생각하게 만들다, 포기하게 만들다. Use it when the cause is a situation, movie, words, pressure, or experience that drives someone into a result. It can sound heavier than V-게 하다, so do not use it for every simple instruction.",
-      "examples": [
-        {
-          "ko": "그 영화가 저를 울게 만들었어요.",
-          "romanization": "geu yeonghwaga jeoreul ulge mandeureosseoyo.",
-          "en": "That movie made me cry.",
-          "note": "Emotional result; compare with 저를 울렸어요."
-        },
-        {
-          "ko": "그 말이 분위기를 어색하게 만들었어요.",
-          "romanization": "geu mari bunwigireul eosaekage mandeureosseoyo.",
-          "en": "Those words made the atmosphere awkward.",
-          "note": "Resultative change."
-        },
-        {
-          "ko": "어려운 문제가 학생들을 생각하게 만들었어요.",
-          "romanization": "eoryeoun munjega haksaengdeureul saenggakage mandeureosseoyo.",
-          "en": "The difficult problem made the students think.",
-          "note": "The problem causes the mental action."
-        },
-        {
-          "ko": "긴 회의가 모두를 지치게 만들었어요.",
-          "romanization": "gin hoeuiga modureul jichige mandeureosseoyo.",
-          "en": "The long meeting made everyone exhausted.",
-          "note": "A situation creates an unwanted result."
+          "ko": "제 친구는 항상 저를 웃겨요.",
+          "romanization": "Je chingu-neun hangsang jeo-reul utkyeoyo.",
+          "en": "My friend always makes me laugh.",
+          "note": "웃다 (laugh) → 웃기다: the causer doesn't have to be a person — a joke or a movie can be the subject too."
         }
       ],
-      "exceptions": [
-        "For a direct instruction, V-게 하다 is usually cleaner: 선생님이 학생들에게 읽게 했어요. Use 만들다 when the result or emotional force matters."
-      ]
+      "keyPoint": {
+        "label": "Same suffix, opposite job: causative vs. passive",
+        "body": "The suffixes -이/히/리/기- also build passives, so one word can be either. 보이다 = 'be seen' (passive) or 'show' (causative); 잡히다 = 'be caught' (passive) or 'get sb to hold' (causative). Tell them apart by the arguments: a causative ADDS a causer-subject and keeps an object (친구가 저를 웃겨요 'my friend makes me laugh'), while a passive DROPS the agent and the old object becomes the subject (도둑이 잡혔어요 'the thief got caught'). If there's still a direct object being acted on, it's causative."
+      },
+      "pronunciation": "Listen for the linking and aspiration the inserted consonant creates: 먹이다 is [머기다] (ㄱ links across), 입히다 is [이피다] (ㅂ+ㅎ → aspirated ㅍ), and 앉히다 is [안치다] (ㅈ+ㅎ → ㅊ). The suffix tends to fuse with the stem-final sound rather than staying separate.",
+      "drill": {
+        "instruction": "Turn the plain verb into its lexical causative and finish the sentence.",
+        "model": "아기가 자다 → 엄마가 아기를 ____. → 엄마가 아기를 재워요. (Mom puts the baby to sleep.)",
+        "items": [
+          "아이가 옷을 입다 → 제가 아이에게 옷을 ____. (→ 입혀요)",
+          "모기가 죽다 → 이 약이 모기를 ____. (→ 죽여요)",
+          "동생이 울다 → 형이 동생을 ____. (→ 울려요)",
+          "아기가 깨다 → 시끄러운 소리가 아기를 ____. (→ 깨워요)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "엄마가 아기를 먹게 했어요. (to mean 'Mom fed the baby')",
+        "right": "엄마가 아기에게 밥을 먹였어요.",
+        "explanation": "English has one verb 'feed', so learners grab the all-purpose V-게 하다 and say 먹게 했어요 — but that means 'made/let the baby eat (on its own)', not 'spoon-fed it'. When Korean has a dedicated lexical causative (먹이다, 재우다, 입히다), native speakers use it for the hands-on action. Save V-게 하다 for getting someone to do it themselves."
+      }
+    },
+    {
+      "title": "V-게 하다 — make / have / let someone do something",
+      "func": "The productive, all-purpose causative: add -게 하다 to almost any verb or adjective stem to mean 'make/have/let someone do or become something.' Unlike the lexical causatives, this works with every verb, so it's the go-to whenever no special causative form exists. The causee is marked with -이/가, -을/를, or -에게/한테 depending on the nuance (letting vs. making vs. getting someone to do it).",
+      "formTable": [
+        {
+          "when": "Verb stem + -게 하다",
+          "add": "가다 → 가게 하다, 먹다 → 먹게 하다, 공부하다 → 공부하게 하다",
+          "ex": "선생님이 학생들을 일찍 가게 했어요. (The teacher made the students leave early.)"
+        },
+        {
+          "when": "Adjective stem + -게 하다 ('make become ~')",
+          "add": "행복하다 → 행복하게 하다, 깨끗하다 → 깨끗하게 하다",
+          "ex": "그 소식이 저를 행복하게 했어요. (That news made me happy.)"
+        },
+        {
+          "when": "Causee marker sets the nuance",
+          "add": "-이/가 (let/allow, softer), -을/를 (make, direct), -에게/한테 (get sb to do)",
+          "ex": "아이에게 채소를 먹게 했어요. (I got the child to eat vegetables.)"
+        },
+        {
+          "when": "Past / negative command",
+          "add": "-게 했어요, -게 하지 마(세요)",
+          "ex": "동생을 울게 하지 마. (Don't make your little sibling cry.)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "엄마가 저를 매일 운동하게 해요.",
+          "romanization": "Eomma-ga jeo-reul maeil undonghage haeyo.",
+          "en": "My mom makes me exercise every day.",
+          "note": "운동하다 has no lexical causative, so -게 하다 is the only choice; -를 here signals fairly direct pressure."
+        },
+        {
+          "ko": "선생님이 학생들에게 책을 읽게 했어요.",
+          "romanization": "Seonsaengnim-i haksaengdeul-ege chaek-eul ilkge haesseoyo.",
+          "en": "The teacher had the students read the book.",
+          "note": "-에게 marks the causee when you get someone to perform the action themselves."
+        },
+        {
+          "ko": "아이가 자고 싶어 해서 자게 했어요.",
+          "romanization": "Ai-ga jago sipeo haeseo jage haesseoyo.",
+          "en": "The child wanted to sleep, so I let him.",
+          "note": "With -이/가 and a permissive context, -게 하다 reads as 'let/allow', not 'force'."
+        },
+        {
+          "ko": "이 노래가 사람들을 춤추게 해요.",
+          "romanization": "I norae-ga saramdeul-eul chumchuge haeyo.",
+          "en": "This song makes people dance.",
+          "note": "The causer can be an inanimate thing (노래); -게 하다 freely takes non-human subjects."
+        }
+      ],
+      "keyPoint": {
+        "label": "Lexical causative vs. V-게 하다 — how hands-on is the causer?",
+        "body": "When both exist, they differ in directness. 재우다 / 먹이다 mean the causer DOES the action to the causee (physically putting to sleep, spoon-feeding). 자게 하다 / 먹게 하다 mean the causer gets the causee to do it THEMSELVES. So 아기를 재웠어요 = 'I put the baby to sleep,' but 아기를 자게 했어요 = 'I made the baby sleep (e.g., by turning off the lights).' Use -게 하다 whenever there's no lexical form, or when you specifically mean indirect causing / letting."
+      },
+      "pronunciation": "-게 하다 is said as written, [게 하다]; in fast speech 하다 can weaken, but unlike some patterns it does NOT contract into one word — keep 게 and 하다 separate. Don't confuse the causative with plain adverbial -게 (e.g. 크게 'loudly'); the causative needs the following 하다.",
+      "drill": {
+        "instruction": "Rewrite using V-게 하다 to express 'make / have someone do it.'",
+        "model": "학생들이 책을 읽어요. (causer: 선생님) → 선생님이 학생들에게 책을 읽게 해요.",
+        "items": [
+          "아이가 일찍 자요. (causer: 엄마) → 엄마가 아이를 일찍 ____. (→ 자게 해요)",
+          "동생이 방을 청소해요. (causer: 형) → 형이 동생에게 방을 ____. (→ 청소하게 해요)",
+          "학생들이 숙제를 내요. (causer: 선생님) → 선생님이 학생들에게 숙제를 ____. (→ 내게 해요)",
+          "아이가 채소를 먹어요. (causer: 아빠) → 아빠가 아이에게 채소를 ____. (→ 먹게 해요)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "선생님이 저를 공부하라고 했어요. (used loosely for 'made me study')",
+        "right": "선생님이 저를 공부하게 했어요.",
+        "explanation": "English 'make me do' covers everything, so learners reach for -라고 하다, which actually means 'told me to' (a reported spoken order), not 'made me'. For the neutral, everyday 'make/have someone do X,' the default is -게 하다. Use -라고 하다 only when there was a real spoken command, and save -게 만들다 (next note) for forceful or emotional results."
+      }
+    },
+    {
+      "title": "V-게 만들다 — bring about a result (often emotional or forceful)",
+      "func": "Structurally just like V-게 하다 (add -게 만들다 to a verb or adjective stem), but with a stronger 'bring about / cause to become' flavor. Since 만들다 means 'make/create,' V-게 만들다 stresses that the causer actively PRODUCES the resulting state or behavior. It's especially common when the result is emotional (made me cry / angry / happy) or when the causing feels forceful, unintended, or hard to resist. The causer is very often an inanimate thing or a situation.",
+      "formTable": [
+        {
+          "when": "Verb stem + -게 만들다",
+          "add": "울다 → 울게 만들다, 떠나다 → 떠나게 만들다, 포기하다 → 포기하게 만들다",
+          "ex": "그 영화가 저를 울게 만들었어요. (That movie made me cry.)"
+        },
+        {
+          "when": "Adjective stem + -게 만들다 ('cause to become ~')",
+          "add": "화나다 → 화나게 만들다, 행복하다 → 행복하게 만들다",
+          "ex": "그 말이 저를 화나게 만들었어요. (Those words made me angry.)"
+        },
+        {
+          "when": "Inanimate / situational causer (very common)",
+          "add": "스트레스가 / 그 일이 / 날씨가 ... + -게 만들다",
+          "ex": "스트레스가 저를 아프게 만들었어요. (Stress made me sick.)"
+        },
+        {
+          "when": "Past / negative command",
+          "add": "-게 만들었어요, -게 만들지 마(세요)",
+          "ex": "분위기를 어색하게 만들지 마세요. (Don't make things awkward.)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "그 드라마가 모두를 울게 만들었어요.",
+          "romanization": "Geu deurama-ga modu-reul ulge mandeureosseoyo.",
+          "en": "That drama made everyone cry.",
+          "note": "Emotional result + inanimate causer (드라마): the most typical use of -게 만들다."
+        },
+        {
+          "ko": "네 말이 나를 화나게 만들었어.",
+          "romanization": "Ne mal-i na-reul hwanage mandeureosseo.",
+          "en": "What you said made me angry.",
+          "note": "-게 만들다 fits strong feelings; here it sounds more loaded than the neutral 화나게 했어."
+        },
+        {
+          "ko": "더운 날씨가 저를 지치게 만들어요.",
+          "romanization": "Deoun nalssi-ga jeo-reul jichige mandeureoyo.",
+          "en": "The hot weather wears me out.",
+          "note": "A situation (날씨) as the causer is very natural with -게 만들다, often for an unwanted result."
+        },
+        {
+          "ko": "그 사고가 사람들을 불안하게 만들었어요.",
+          "romanization": "Geu sago-ga saramdeul-eul buranhage mandeureosseoyo.",
+          "en": "That accident made people anxious.",
+          "note": "With an adjective (불안하다), -게 만들다 means 'cause people to become anxious.'"
+        }
+      ],
+      "keyPoint": {
+        "label": "-게 하다 vs. -게 만들다 — neutral instruction vs. strong/emotional result",
+        "body": "-게 하다 is the neutral default: a person tells or gets someone to do something (엄마가 저를 운동하게 해요 'Mom makes me exercise'). -게 만들다 highlights a produced result, usually emotional or forceful, and very often with a thing/situation as the cause (그 영화가 저를 울게 만들었어요 'That movie made me cry'). You usually wouldn't say 엄마가 저를 운동하게 만들어요 for routine instructing — that sounds like she forced an unwilling you into it. Rule of thumb: choosing/instructing → -게 하다; an event or feeling that takes you over → -게 만들다."
+      },
+      "pronunciation": "만들다 is [만들다]; in the past tense the ㄹ stays and you get 만들었어요 [만드러써요] — don't drop the ㄹ. -게 is light and unstressed, so the phrase often runs together as one breath group: 울게 만들었어요 → [울게 만드러써요].",
+      "drill": {
+        "instruction": "Use V-게 만들다 to say what the thing or situation caused (pick an emotion/result that fits).",
+        "model": "그 영화 / 나 / 울다 → 그 영화가 나를 울게 만들었어. (That movie made me cry.)",
+        "items": [
+          "그 노래 / 사람들 / 춤추다 → ____. (→ 그 노래가 사람들을 춤추게 만들었어요)",
+          "네 말 / 나 / 화나다 → ____. (→ 네 말이 나를 화나게 만들었어)",
+          "시험 / 학생들 / 긴장하다 → ____. (→ 시험이 학생들을 긴장하게 만들었어요)",
+          "그 소식 / 우리 / 행복하다 → ____. (→ 그 소식이 우리를 행복하게 만들었어요)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "엄마가 저를 매일 청소하게 만들어요. (for routine 'Mom makes me clean every day')",
+        "right": "엄마가 저를 매일 청소하게 해요.",
+        "explanation": "English 'make me clean' is neutral, but -게 만들다 adds a forceful, almost resentful 'forced me into it' coloring, so it sounds off for an everyday instruction. For routine 'has me / makes me do X,' use -게 하다. Reserve -게 만들다 for genuinely strong or emotional results, and especially when a thing or situation is the cause (그 영화가 저를 울게 만들었어요)."
+      }
     }
   ],
   "extendedVocabulary": [

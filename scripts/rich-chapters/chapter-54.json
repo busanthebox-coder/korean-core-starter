@@ -11,202 +11,430 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-011",
-      "title": "V아/어야 해요 — school obligation",
-      "mentalModel": "Use this when a class, teacher, professor, or exam creates something you have to do.",
-      "formation": "Make the 아/어 form and add 야 해요. 하다 verbs become 해야 해요, so 공부하다 becomes 공부해야 해요 and 발표하다 becomes 발표해야 해요.",
+      "title": "V-아/어야 해요 — have to / must",
+      "func": "Expresses obligation or necessity: something you have to do. In school life it covers class rules, assignments, deadlines, and things teachers require of students.",
+      "formTable": [
+        {
+          "when": "Verb stem ends in ㅏ or ㅗ",
+          "add": "+ -아야 해요",
+          "ex": "가다 → 가야 해요 (have to go)"
+        },
+        {
+          "when": "Verb stem ends in any other vowel",
+          "add": "+ -어야 해요",
+          "ex": "먹다 → 먹어야 해요 (have to eat)"
+        },
+        {
+          "when": "하다 verbs",
+          "add": "하 → 해야 해요",
+          "ex": "공부하다 → 공부해야 해요 (have to study)"
+        },
+        {
+          "when": "Spoken variant, same meaning",
+          "add": "+ -아/어야 돼요",
+          "ex": "내다 → 내야 돼요 (have to hand it in)"
+        }
+      ],
       "examples": [
         {
-          "ko": "중간고사 전에 발표 과제를 끝내야 해요.",
-          "romanization": "junggangosa jeone balpyo gwajereul kkeutnaeya haeyo.",
-          "en": "We have to finish the presentation assignment before the midterm.",
-          "note": "Deadline plus obligation."
+          "ko": "내일까지 숙제를 내야 해요.",
+          "romanization": "naeilkkaji sukjereul naeya haeyo.",
+          "en": "I have to hand in the homework by tomorrow.",
+          "note": "내다 (to hand in) is the core homework verb; -까지 marks the deadline."
         },
         {
-          "ko": "내일 수업에서 발표해야 해요.",
-          "romanization": "naeil sueobeseo balpyohaeya haeyo.",
-          "en": "I have to present in class tomorrow.",
-          "note": "Class obligation."
+          "ko": "수업 시간에는 휴대폰을 꺼야 해요.",
+          "romanization": "sueop siganeneun hyudaeponeul kkeoya haeyo.",
+          "en": "During class you have to turn off your phone.",
+          "note": "끄다 has a ㅡ stem; ㅡ drops before -어야, giving 꺼야 — a common spelling to notice."
         },
         {
-          "ko": "기말고사 전에 더 공부해야 해요.",
-          "romanization": "gimalgosa jeone deo gongbuhaeya haeyo.",
-          "en": "I have to study more before the final exam.",
-          "note": "Exam preparation."
+          "ko": "시험이 있어서 오늘 도서관에 가야 해요.",
+          "romanization": "siheomi isseoseo oneul doseogwane gaya haeyo.",
+          "en": "I have a test, so I have to go to the library today.",
+          "note": "가다 ends in ㅏ, so it takes -아야; 도서관 keeps it in the school setting."
         },
         {
-          "ko": "장학금을 받으려면 좋은 성적이 필요해요.",
-          "romanization": "janghakgeumeul badeuryeomyeon joeun seongjeogi piryohaeyo.",
-          "en": "If I want to get a scholarship, I need good grades.",
-          "note": "Academic pressure sentence."
+          "ko": "교실에서는 한국어로 말해야 해요.",
+          "romanization": "gyosireseoneun hangugeoro malhaeya haeyo.",
+          "en": "In the classroom you have to speak in Korean.",
+          "note": "말하다 is a 하다 verb → 해야; a typical classroom rule."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "-아/어야 해요 vs. -아/어야 돼요",
+        "body": "Both mean 'have to,' and in everyday speech they are interchangeable. -아/어야 돼요 sounds a touch more colloquial and is very common when talking; -아/어야 해요 is a little more neutral and shows up more in writing. Pick whichever you hear most — the meaning does not change."
+      },
+      "pronunciation": "말해야 is pronounced [마래야]: the ㅎ weakens between vowels. 해야 해요 keeps two clear 해 syllables — don't blur them into one.",
+      "drill": {
+        "instruction": "Change each verb to the -아/어야 해요 form to state a school obligation.",
+        "model": "공부하다 → 공부해야 해요.",
+        "items": [
+          "책을 읽다 → 책을 ___ (have to read the book)",
+          "교복을 입다 → 교복을 ___ (have to wear the uniform)",
+          "일찍 오다 → 일찍 ___ (have to come early)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "숙제를 내야 하는 게 필요해요.",
+        "right": "숙제를 내야 해요.",
+        "explanation": "English 'I need to / it's necessary' tempts learners to add 필요해요. Korean already builds the necessity into -아/어야 해요, so adding 필요하다 on top is redundant and unnatural."
+      }
     },
     {
-      "id": "gn-pattern-079",
-      "title": "V기로 했어요 — decided to V",
-      "mentalModel": "Use this for a study plan or class decision that has already been set.",
-      "formation": "Attach -기로 했어요 to the verb stem: 끝내기로 했어요, 공부하기로 했어요, 질문하기로 했어요. Keep 했어요 because the decision was made before now.",
+      "title": "V-기로 했어요 — decided to V",
+      "func": "States a decision, plan, or promise that you (or a group) have already made. Common when classmates agree on a study plan or you resolve to do something for school.",
+      "formTable": [
+        {
+          "when": "Any verb, attach to the plain stem",
+          "add": "+ -기로 했어요",
+          "ex": "공부하다 → 공부하기로 했어요 (decided to study)"
+        },
+        {
+          "when": "Consonant-ending stem (no change)",
+          "add": "+ -기로 했어요",
+          "ex": "읽다 → 읽기로 했어요 (decided to read)"
+        },
+        {
+          "when": "Negative decision",
+          "add": "안 V / V-지 않 + -기로 했어요",
+          "ex": "지각 안 하기로 했어요 (decided not to be late)"
+        },
+        {
+          "when": "A standing rule (let's make it a habit)",
+          "add": "+ -기로 해요",
+          "ex": "매일 복습하기로 해요 (let's review every day)"
+        }
+      ],
       "examples": [
         {
-          "ko": "중간고사 전에 과제를 끝내기로 했어요.",
-          "romanization": "junggangosa jeone gwajereul kkeutnaegiro haesseoyo.",
-          "en": "We decided to finish the assignment before the midterm.",
-          "note": "A decided school plan."
-        },
-        {
-          "ko": "오늘부터 도서관에서 공부하기로 했어요.",
-          "romanization": "oneulbuteo doseogwaneseo gongbuhagiro haesseoyo.",
-          "en": "I decided to study at the library starting today.",
-          "note": "Personal study decision."
-        },
-        {
-          "ko": "교수님께 질문하기로 했어요.",
-          "romanization": "gyosunimkke jilmunhagiro haesseoyo.",
-          "en": "I decided to ask the professor.",
-          "note": "께 is respectful."
+          "ko": "친구들하고 같이 도서관에서 공부하기로 했어요.",
+          "romanization": "chingudeulhago gachi doseogwaneseo gongbuhagiro haesseoyo.",
+          "en": "I decided to study with my friends at the library.",
+          "note": "A shared decision; 하고 같이 marks who you made the plan with."
         },
         {
           "ko": "이번 학기에는 결석하지 않기로 했어요.",
-          "romanization": "ibeon hakgieneun gyeolseokaji ankigiro haesseoyo.",
-          "en": "I decided not to be absent this semester.",
-          "note": "Negative decision."
+          "romanization": "ibeon hakgieneun gyeolseokhaji anki-ro haesseoyo.",
+          "en": "This semester I decided not to be absent.",
+          "note": "Negative form uses -지 않기로; 결석하다 (to be absent) ties it to attendance."
+        },
+        {
+          "ko": "주말에 같이 시험공부 하기로 했어요.",
+          "romanization": "jumare gachi siheomgongbu hagiro haesseoyo.",
+          "en": "We decided to study for the test together on the weekend.",
+          "note": "A mutual promise between classmates — a very typical use."
+        },
+        {
+          "ko": "선생님이 다음 주에 시험을 보기로 했어요.",
+          "romanization": "seonsaengnimi daeum jue siheomeul bogiro haesseoyo.",
+          "en": "The teacher decided to give a test next week.",
+          "note": "The subject doesn't have to be 'I'; here the teacher made the decision."
         }
       ],
-      "exceptions": [
-        "가기로 할 거예요 means 'I will decide to go,' not 'I decided to go.' For an already-set plan, use 했어요."
-      ]
+      "keyPoint": {
+        "label": "-기로 했어요 vs. -(으)ㄹ 거예요",
+        "body": "-기로 했어요 highlights that a decision was made (often jointly or as a resolution). -(으)ㄹ 거예요 just states a future plan or prediction. Use -기로 했어요 when the point is 'we agreed/decided,' not merely 'I will.'"
+      },
+      "pronunciation": "했어요 is pronounced [해써요] with a tense ㅆ. 않기로 is read [안키로]: the ㅎ of 않 fuses with the following ㄱ into an aspirated [키].",
+      "drill": {
+        "instruction": "Turn each plan into a decision with -기로 했어요.",
+        "model": "매일 단어를 외우다 → 매일 단어를 외우기로 했어요.",
+        "items": [
+          "동아리에 들다 → 동아리에 ___ (decided to join the club)",
+          "수업을 빠지지 않다 → 수업을 ___ (decided not to skip class)",
+          "도서관에서 만나다 → 도서관에서 ___ (decided to meet at the library)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "공부하는 것을 결정했어요.",
+        "right": "공부하기로 했어요.",
+        "explanation": "Learners translate 'decided to study' literally with 결정하다 + a nominalized clause. Native speakers package the decision into -기로 하다 instead. Use the idiomatic pattern, not a word-for-word 'decide that.'"
+      }
     },
     {
-      "id": "gn-pattern-091",
-      "title": "V기 시작하다 — start doing",
-      "mentalModel": "Use this when the study action begins: studying, preparing, reviewing, or attending.",
-      "formation": "Attach -기 to the verb stem, then add 시작하다. 공부하다 becomes 공부하기 시작하다, 준비하다 becomes 준비하기 시작하다.",
-      "examples": [
+      "title": "V-기 시작하다 — start doing",
+      "func": "Says that an action begins or has begun. The verb is nominalized with -기 and followed by 시작하다 (to start). Useful for saying when you started studying, learning, or a new routine.",
+      "formTable": [
         {
-          "ko": "오늘부터 시험 공부를 시작했어요.",
-          "romanization": "oneulbuteo siheom gongbureul sijakaesseoyo.",
-          "en": "I started exam study from today.",
-          "note": "Noun object version: 공부를 시작하다."
+          "when": "Any verb stem + 시작하다",
+          "add": "+ -기 시작하다",
+          "ex": "공부하다 → 공부하기 시작하다 (start studying)"
         },
         {
-          "ko": "오늘부터 준비하기 시작했어요.",
-          "romanization": "oneulbuteo junbihagi sijakaesseoyo.",
-          "en": "I started preparing from today.",
-          "note": "Verb pattern version."
+          "when": "Consonant-ending stem (no change)",
+          "add": "+ -기 시작하다",
+          "ex": "읽다 → 읽기 시작하다 (start reading)"
         },
         {
-          "ko": "한국어를 배우기 시작한 지 일 년 됐어요.",
-          "romanization": "hangugeoreul baeugi sijakan ji il nyeon dwaesseoyo.",
-          "en": "It has been one year since I started learning Korean.",
-          "note": "Study background."
+          "when": "Past (started, and it continues)",
+          "add": "+ -기 시작했어요",
+          "ex": "배우다 → 배우기 시작했어요 (started learning)"
         },
         {
-          "ko": "중간고사 기간이 시작되면 도서관이 붐벼요.",
-          "romanization": "junggangosa gigani sijakdoemyeon doseogwani bumbyeoyo.",
-          "en": "When midterm period starts, the library gets crowded.",
-          "note": "Exam-period context."
-        }
-      ]
-    },
-    {
-      "id": "gn-pattern-080",
-      "title": "N 동안 — for/during a study period",
-      "mentalModel": "Use 동안 for a stretch of time, such as a semester, exam period, vacation, or one hour.",
-      "formation": "Put the time noun before 동안 with no particle: 한 학기 동안, 시험 기간 동안, 방학 동안, 세 시간 동안.",
-      "examples": [
-        {
-          "ko": "시험 기간 동안 도서관에서 공부할 거예요.",
-          "romanization": "siheom gigan dongan doseogwaneseo gongbuhal geoyeyo.",
-          "en": "During exam period, I will study at the library.",
-          "note": "A full study plan."
-        },
-        {
-          "ko": "이번 학기 동안 매일 복습했어요.",
-          "romanization": "ibeon hakgi dongan maeil bokseupaesseoyo.",
-          "en": "I reviewed every day during this semester.",
-          "note": "Semester-length habit."
-        },
-        {
-          "ko": "방학 동안 학원에 다녔어요.",
-          "romanization": "banghak dongan hagwone danyeosseoyo.",
-          "en": "I went to an academy during vacation.",
-          "note": "Vacation study context."
-        },
-        {
-          "ko": "두 시간 동안 과제를 했어요.",
-          "romanization": "du sigan dongan gwajereul haesseoyo.",
-          "en": "I worked on the assignment for two hours.",
-          "note": "Duration, not clock time."
+          "when": "Present / general statement",
+          "add": "+ -기 시작해요",
+          "ex": "듣다 → 듣기 시작해요 (start listening)"
         }
       ],
-      "exceptions": [
-        "Use 에 for a point in time: 세 시에. Use 동안 for a stretch: 세 시간 동안."
-      ]
-    },
-    {
-      "id": "gn-pattern-087",
-      "title": "V/A(으)니까 — reason before a school request or plan",
-      "mentalModel": "Use this when the reason supports what someone should do next.",
-      "formation": "Add -니까 after a vowel stem and -으니까 after a consonant stem. With 하다 adjectives, use 하니까.",
       "examples": [
         {
-          "ko": "성적이 중요하니까 준비해야 해요.",
-          "romanization": "seongjeogi jungyohanikka junbihaeya haeyo.",
-          "en": "Grades are important, so we have to prepare.",
-          "note": "Reason for studying."
+          "ko": "작년부터 한국어를 배우기 시작했어요.",
+          "romanization": "jangnyeonbuteo hangugeoreul baeugi sijakaesseoyo.",
+          "en": "I started learning Korean last year.",
+          "note": "-부터 marks the starting point in time, pairing naturally with -기 시작하다."
         },
         {
-          "ko": "중간고사가 가까우니까 도서관에서 공부해요.",
-          "romanization": "junggangosaga gakkaunikka doseogwaneseo gongbuhaeyo.",
-          "en": "The midterm is close, so I study at the library.",
-          "note": "Exam reason."
+          "ko": "수업이 끝나고 숙제를 하기 시작했어요.",
+          "romanization": "sueobi kkeunnago sukjereul hagi sijakaesseoyo.",
+          "en": "After class ended, I started doing my homework.",
+          "note": "Marks a clear 'began the action' moment right after a school event."
         },
         {
-          "ko": "과제가 많으니까 오늘 시작해요.",
-          "romanization": "gwajega maneunikka oneul sijakaeyo.",
-          "en": "There are many assignments, so I am starting today.",
-          "note": "Reason for action."
+          "ko": "요즘 시험 때문에 도서관에 다니기 시작했어요.",
+          "romanization": "yojeum siheom ttaemune doseogwane danigi sijakaesseoyo.",
+          "en": "These days, because of exams, I've started going to the library.",
+          "note": "다니다 (to go regularly) + 시작하다 = the start of a new routine."
         },
         {
-          "ko": "교수님께 질문해야 하니까 수업 후에 남을게요.",
-          "romanization": "gyosunimkke jilmunhaeya hanikka sueop hue nameulgeyo.",
-          "en": "I need to ask the professor, so I will stay after class.",
-          "note": "Reason plus plan."
+          "ko": "선생님이 설명하기 시작했어요.",
+          "romanization": "seonsaengnimi seolmyeonghagi sijakaesseoyo.",
+          "en": "The teacher started explaining.",
+          "note": "Any subject works; here the teacher is the one beginning the action."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "V-기 시작하다 vs. N을/를 시작하다",
+        "body": "Use V-기 시작하다 to start an action (a verb): 공부하기 시작했어요. To start a thing (a noun), use N을/를 시작하다: 수업을 시작해요 (start the class). Don't say 수업하기 시작하다 when you simply mean 수업을 시작하다."
+      },
+      "pronunciation": "시작했어요 is read [시자캐써요]: the ㄱ of 작 + the ㅎ of 했 fuse into an aspirated [ㅋ], and 했어요 becomes [캐써요].",
+      "drill": {
+        "instruction": "Combine into one sentence using -기 시작했어요.",
+        "model": "한국어 / 배우다 → 한국어를 배우기 시작했어요.",
+        "items": [
+          "단어 / 외우다 → 단어를 ___ (started memorizing words)",
+          "아침에 운동 / 하다 → 아침에 운동을 ___ (started exercising in the morning)",
+          "책 / 읽다 → 책을 ___ (started reading the book)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "한국어를 배우는 것을 시작했어요.",
+        "right": "한국어를 배우기 시작했어요.",
+        "explanation": "English speakers reach for the heavier -는 것 nominalizer for 'started to learn.' With 시작하다, Korean prefers the lighter -기. -는 것을 시작하다 sounds clumsy and over-literal."
+      }
     },
     {
-      "id": "gn-pattern-048",
-      "title": "V기 위해서 — in order to",
-      "mentalModel": "Use this for deliberate school goals: passing, getting a scholarship, improving grades, or entering a program.",
-      "formation": "Attach -기 위해서 to the verb stem: 합격하기 위해서, 장학금을 받기 위해서, 한국어를 잘하기 위해서.",
+      "title": "N 동안 — for / during (a period)",
+      "func": "Marks a span of time over which something happens: 'for' a duration or 'during' a named period. Essential for saying how long you studied, or that something happened over vacation or a semester.",
+      "formTable": [
+        {
+          "when": "After a duration (length of time)",
+          "add": "N 동안 = 'for N'",
+          "ex": "한 시간 동안 (for one hour)"
+        },
+        {
+          "when": "After a named period",
+          "add": "N 동안 = 'during N'",
+          "ex": "방학 동안 (during the vacation)"
+        },
+        {
+          "when": "With a verb ('while V-ing')",
+          "add": "V-는 동안",
+          "ex": "공부하는 동안 (while studying)"
+        },
+        {
+          "when": "No particle before 동안",
+          "add": "(do NOT add 에/을)",
+          "ex": "삼 년 동안 (for three years), not 삼 년에 동안"
+        }
+      ],
       "examples": [
         {
-          "ko": "기말고사에서 좋은 성적을 받기 위해 매일 공부해야 해요.",
-          "romanization": "gimalgosaeseo joeun seongjeogeul batgi wihae maeil gongbuhaeya haeyo.",
-          "en": "I have to study every day in order to get a good grade on the final exam.",
-          "note": "Purpose plus obligation."
+          "ko": "두 시간 동안 도서관에서 공부했어요.",
+          "romanization": "du sigan dongan doseogwaneseo gongbuhaesseoyo.",
+          "en": "I studied at the library for two hours.",
+          "note": "두 시간 is a duration, so 동안 means 'for'; no particle between the number phrase and 동안."
         },
         {
-          "ko": "장학금을 받기 위해 좋은 성적이 필요해요.",
-          "romanization": "janghakgeumeul batgi wihae joeun seongjeogi piryohaeyo.",
-          "en": "Good grades are necessary in order to get a scholarship.",
-          "note": "Academic goal."
+          "ko": "방학 동안 한국어 학원에 다녔어요.",
+          "romanization": "banghak dongan hangugeo hagwone danyeosseoyo.",
+          "en": "During vacation I went to a Korean language academy.",
+          "note": "방학 (school vacation) is a named period, so 동안 means 'during.'"
         },
         {
-          "ko": "전공을 바꾸기 위해 교수님께 질문했어요.",
-          "romanization": "jeongongeul bakkugi wihae gyosunimkke jilmunhaesseoyo.",
-          "en": "I asked the professor a question in order to change my major.",
-          "note": "University context."
+          "ko": "시험을 보는 동안 휴대폰을 쓸 수 없어요.",
+          "romanization": "siheomeul boneun dongan hyudaeponeul sseul su eopseoyo.",
+          "en": "While taking the test, you can't use your phone.",
+          "note": "With a verb, use -는 동안 for 'while'; 시험을 보다 (to take a test) sets the school scene."
         },
         {
-          "ko": "한국어를 잘하기 위해 학원에 다녀요.",
-          "romanization": "hangugeoreul jalhagi wihae hagwone danyeoyo.",
-          "en": "I go to an academy in order to get good at Korean.",
-          "note": "Language-learning goal."
+          "ko": "삼 년 동안 한국어를 공부했어요.",
+          "romanization": "sam nyeon dongan hangugeoreul gongbuhaesseoyo.",
+          "en": "I studied Korean for three years.",
+          "note": "삼 년 (three years) is a duration → 'for'; again no particle before 동안."
         }
-      ]
+      ],
+      "keyPoint": {
+        "label": "N 동안 (a stretch) vs. N에 (a point)",
+        "body": "Use 동안 for a span of time you do something over: 세 시간 동안 (for three hours). Use 에 for a single point in time: 세 시에 (at three o'clock). Don't mix them — 세 시간에 or 세 시간에 동안 are both wrong."
+      },
+      "pronunciation": "동안 is two even syllables [동안]. 공부했어요 is [공부해써요], with the tense ㅆ in 했.",
+      "drill": {
+        "instruction": "Add 동안 (or -는 동안) to express the time span.",
+        "model": "한 시간 / 공부하다 → 한 시간 동안 공부했어요.",
+        "items": [
+          "방학 / 학원에 다니다 → 방학 ___ 학원에 다녔어요",
+          "두 시간 / 숙제를 하다 → 두 시간 ___ 숙제를 했어요",
+          "수업을 듣다 / 졸다 → 수업을 ___ 졸았어요 (dozed off while in class)"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "세 시간에 동안 공부했어요.",
+        "right": "세 시간 동안 공부했어요.",
+        "explanation": "English 'for three hours' makes learners insert a particle, but 동안 attaches straight to the time noun with nothing in between. No 에, no 을 before 동안."
+      }
+    },
+    {
+      "title": "V/A-(으)니까 — because / so (reason before a plan)",
+      "func": "Gives a reason that leads into a request, suggestion, or plan: 'since A, (let's) B.' In school talk it links why something matters to what you should do next.",
+      "formTable": [
+        {
+          "when": "Stem ends in a vowel",
+          "add": "+ -니까",
+          "ex": "바쁘다 → 바쁘니까 (since I'm busy)"
+        },
+        {
+          "when": "Stem ends in a consonant",
+          "add": "+ -으니까",
+          "ex": "많다 → 많으니까 (since there are many)"
+        },
+        {
+          "when": "하다 verbs/adjectives",
+          "add": "하 + -니까",
+          "ex": "중요하다 → 중요하니까 (since it's important)"
+        },
+        {
+          "when": "Past tense",
+          "add": "-았/었 + -으니까",
+          "ex": "끝났다 → 끝났으니까 (since it ended)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "성적이 중요하니까 미리 준비해요.",
+          "romanization": "seongjeogi jungyohanikka miri junbihaeyo.",
+          "en": "Grades are important, so let's prepare in advance.",
+          "note": "Reason (중요하니까) leads into the suggestion."
+        },
+        {
+          "ko": "시험이 가까우니까 도서관에서 공부해요.",
+          "romanization": "siheomi gakkaunikka doseogwaneseo gongbuhaeyo.",
+          "en": "The exam is near, so I study at the library.",
+          "note": "가깝다 is ㅂ-irregular: 가까우니까."
+        },
+        {
+          "ko": "숙제가 많으니까 오늘 시작해요.",
+          "romanization": "sukjega maneunikka oneul sijakaeyo.",
+          "en": "There's a lot of homework, so let's start today.",
+          "note": "Consonant stem 많다 → 많으니까."
+        },
+        {
+          "ko": "수업이 끝났으니까 같이 밥 먹으러 가요.",
+          "romanization": "sueobi kkeunnasseunikka gachi bap meogeureo gayo.",
+          "en": "Class is over, so let's go eat together.",
+          "note": "Past 끝났 + -으니까; reason plus an invitation."
+        }
+      ],
+      "keyPoint": {
+        "label": "-(으)니까 vs. -아/어서 for 'because'",
+        "body": "Both give reasons, but only -(으)니까 can lead into a command, suggestion, or 'let's' (시험이 가까우니까 공부해요). -아/어서 cannot: you can't say 시험이 가까워서 공부합시다. Use -(으)니까 when the next clause is a request or proposal."
+      },
+      "pronunciation": "많으니까 is read [마느니까]: the ㅎ in 많 is silent before a vowel. 끝났으니까 is [끈나쓰니까].",
+      "drill": {
+        "instruction": "Join the reason and the plan with -(으)니까.",
+        "model": "시험이 가깝다 + 도서관에 가요 → 시험이 가까우니까 도서관에 가요.",
+        "items": [
+          "숙제가 많다 + 오늘 시작해요 → ___",
+          "성적이 중요하다 + 열심히 공부해요 → ___",
+          "수업이 끝났다 + 같이 가요 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "비가 와서 우산을 가져가세요.",
+        "right": "비가 오니까 우산을 가져가세요.",
+        "explanation": "When the second clause is a command or suggestion ('take an umbrella'), Korean needs -(으)니까, not -아/어서. -아/어서 only works before a plain statement, not before an order or 'let's.'"
+      }
+    },
+    {
+      "title": "V-기 위해서 — in order to (purpose)",
+      "func": "Marks a deliberate goal: you do B in order to achieve A. Good for academic goals like passing, getting a scholarship, raising your grade, or getting into a program. Often shortened to -기 위해.",
+      "formTable": [
+        {
+          "when": "Any verb, attach to the stem",
+          "add": "+ -기 위해서",
+          "ex": "합격하다 → 합격하기 위해서 (in order to pass)"
+        },
+        {
+          "when": "Common short form",
+          "add": "+ -기 위해",
+          "ex": "받다 → 받기 위해 (in order to get)"
+        },
+        {
+          "when": "With a noun goal",
+          "add": "N을/를 위해서",
+          "ex": "시험을 위해서 (for the exam)"
+        },
+        {
+          "when": "Negative goal (use 지 않기 위해서)",
+          "add": "V-지 않기 위해서",
+          "ex": "늦지 않기 위해서 (in order not to be late)"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "좋은 성적을 받기 위해서 매일 공부해요.",
+          "romanization": "joeun seongjeogeul batgi wihaeseo maeil gongbuhaeyo.",
+          "en": "I study every day in order to get good grades.",
+          "note": "받다 → 받기 위해서; purpose plus the daily habit."
+        },
+        {
+          "ko": "장학금을 받기 위해 열심히 공부했어요.",
+          "romanization": "janghakgeumeul batgi wihae yeolsimhi gongbuhaesseoyo.",
+          "en": "I studied hard in order to get a scholarship.",
+          "note": "Short form -기 위해; a very common academic goal."
+        },
+        {
+          "ko": "시험에 합격하기 위해서 학원에 다녀요.",
+          "romanization": "siheome hapgyeokhagi wihaeseo hagwone danyeoyo.",
+          "en": "I go to an academy in order to pass the exam.",
+          "note": "합격하다 (to pass) + -기 위해서; 학원 is a private academy."
+        },
+        {
+          "ko": "지각하지 않기 위해서 일찍 일어나요.",
+          "romanization": "jigakhaji anki wihaeseo iljjik ireonayo.",
+          "en": "I get up early so as not to be late.",
+          "note": "Negative goal uses -지 않기 위해서; 지각하다 = to be late to school."
+        }
+      ],
+      "keyPoint": {
+        "label": "V-기 위해서 vs. V-(으)러",
+        "body": "Both express purpose, but -(으)러 only attaches to motion verbs like 가다/오다 (공부하러 가요 = go to study). -기 위해서 has no such limit and works with any main verb (장학금을 받기 위해서 공부해요). For a goal that isn't 'going somewhere to do it,' use -기 위해서."
+      },
+      "pronunciation": "받기 위해서 is read [받끼 위해서]: the ㄷ tenses the following ㄱ to [ㄲ]. 합격하기 is [합껴카기].",
+      "drill": {
+        "instruction": "State the goal with -기 위해서.",
+        "model": "좋은 성적을 받다 / 매일 공부해요 → 좋은 성적을 받기 위해서 매일 공부해요.",
+        "items": [
+          "장학금을 받다 / 열심히 공부해요 → ___",
+          "시험에 합격하다 / 학원에 다녀요 → ___",
+          "지각하지 않다 / 일찍 일어나요 → ___"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "장학금을 받으려고 위해서 공부해요.",
+        "right": "장학금을 받기 위해서 공부해요.",
+        "explanation": "Learners mix two purpose patterns. Either use -(으)려고 (받으려고 공부해요) OR -기 위해서 (받기 위해서 공부해요), never both together. Don't stack 위해서 after a -(으)려고 ending."
+      }
     }
   ],
   "extendedVocabulary": [
@@ -360,8 +588,8 @@
       "english": "grades",
       "partOfSpeech": "noun",
       "exampleSentence": {
-          "ko": "장학금을 받기 위해 좋은 성적이 필요해요.",
-          "en": "Good grades are necessary in order to get a scholarship.",
+        "ko": "장학금을 받기 위해 좋은 성적이 필요해요.",
+        "en": "Good grades are necessary in order to get a scholarship.",
         "note": "Linked to dictionary card word-ext-403."
       },
       "collocations": [
@@ -376,8 +604,8 @@
       "english": "scholarship",
       "partOfSpeech": "noun",
       "exampleSentence": {
-          "ko": "장학금을 받기 위해 좋은 성적이 필요해요.",
-          "en": "Good grades are necessary in order to get a scholarship.",
+        "ko": "장학금을 받기 위해 좋은 성적이 필요해요.",
+        "en": "Good grades are necessary in order to get a scholarship.",
         "note": "Linked to dictionary card word-ext-1963."
       },
       "collocations": [
@@ -392,8 +620,8 @@
       "english": "major",
       "partOfSpeech": "noun",
       "exampleSentence": {
-          "ko": "전공을 바꾸기 위해 교수님께 질문했어요.",
-          "en": "I asked the professor a question in order to change my major.",
+        "ko": "전공을 바꾸기 위해 교수님께 질문했어요.",
+        "en": "I asked the professor a question in order to change my major.",
         "note": "Linked to dictionary card word-ext-405."
       },
       "collocations": [

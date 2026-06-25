@@ -11,154 +11,334 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-160",
-      "title": "따라서 / 그러므로: evidence to conclusion",
-      "mentalModel": "Use 따라서 when the previous sentence gives a reason and the next sentence gives the necessary result. It is the formal written version of 'because of that, the following conclusion follows.'",
-      "formation": "Previous sentence with evidence or condition. 따라서 / 그러므로 + formal conclusion sentence.",
+      "title": "따라서 / 그러므로 — Therefore (evidence to conclusion)",
+      "func": "These are the written-register connectors for drawing a logical conclusion from what you just said. They mark the jump from a reason or premise to its result, the way English uses 'therefore.' In conversation Koreans say 그래서, but in essays, reports, and articles they switch to 따라서 or 그러므로. Both open a new sentence.",
+      "formTable": [
+        {
+          "when": "Evidence stated, you give the result (most neutral, the everyday choice in reports and essays)",
+          "add": "따라서",
+          "ex": "근거가 부족하다. 따라서 결론을 다시 검토해야 한다."
+        },
+        {
+          "when": "A more deductive 'thus, it follows that'; slightly weightier, common in arguments",
+          "add": "그러므로",
+          "ex": "누구나 실수를 한다. 그러므로 검토가 필요하다."
+        },
+        {
+          "when": "The casual spoken version you REPLACE in formal writing (shown for contrast)",
+          "add": "그래서 (avoid in essays)",
+          "ex": "비가 와서 안 갔어 → 비가 왔다. 따라서 가지 않았다."
+        }
+      ],
       "examples": [
         {
           "ko": "이 보고서는 근거가 부족하다. 따라서 결론을 다시 검토해야 한다.",
           "romanization": "i bogoseoneun geungeoga bujokhada. ttaraseo gyeolloneul dasi geomtohaeya handa.",
-          "en": "This report lacks evidence. Therefore, the conclusion must be reviewed again.",
-          "note": "The second sentence follows logically from the first."
+          "en": "This report lacks evidence. Therefore the conclusion must be reviewed again.",
+          "note": "따라서 opens the sentence and draws the result straight from the stated problem."
         },
         {
-          "ko": "자료의 출처가 분명하지 않다. 그러므로 이 자료를 핵심 근거로 사용하기 어렵다.",
-          "romanization": "jaryoui chulcheoga bunmyeonghaji anta. geureomeuro i jaryoreul haeksim geungeoro sayonghagi eoryeopda.",
-          "en": "The source of the material is unclear. Therefore, it is difficult to use this material as key evidence.",
-          "note": "그러므로 sounds slightly more argumentative and formal."
+          "ko": "자료의 출처가 분명하지 않다. 그러므로 핵심 근거로 쓰기 어렵다.",
+          "romanization": "jaryoui chulcheoga bunmyeonghaji anta. geureomeuro haeksim geungeoro sseugi eoryeopda.",
+          "en": "The source of the material is unclear. Thus it is hard to use as key evidence.",
+          "note": "그러므로 signals a firm 'it follows that,' suiting an argument."
         },
         {
-          "ko": "조사 대상이 제한적이다. 따라서 결과를 일반화하기에는 한계가 있다.",
-          "romanization": "josa daesangi jehanjeogida. ttaraseo gyeolgwareul ilbanhwahagieneun hangyega itda.",
-          "en": "The survey sample is limited. Therefore, there are limits to generalizing the result.",
-          "note": "따라서 works well when an academic limitation follows from evidence."
+          "ko": "조사 대상이 제한적이다. 따라서 결과를 일반화하기 어렵다.",
+          "romanization": "josa daesangi jehanjeogida. ttaraseo gyeolgwareul ilbanhwahagi eoryeopda.",
+          "en": "The sample is limited. Therefore the result is hard to generalize.",
+          "note": "The limitation comes first, then 따라서 introduces the warranted conclusion."
+        },
+        {
+          "ko": "수요가 계속 줄고 있다. 그러므로 생산을 늘릴 이유가 없다.",
+          "romanization": "suyoga gyesok julgo itda. geureomeuro saengsaneul nullil iyuga eopda.",
+          "en": "Demand keeps falling. Thus there is no reason to raise production.",
+          "note": "그러므로 ties a firm conclusion to the trend just described."
         }
       ],
-      "exceptions": [
-        "그래서 is natural in speech, but it feels too casual in an essay, report, complaint, or news-style summary.",
-        "Do not use 따라서 when the second sentence merely adds another point. Use 또한 or 그리고 for addition."
-      ]
+      "keyPoint": {
+        "label": "따라서 vs 그러므로",
+        "body": "Both mean 'therefore' and both are formal. 따라서 is the everyday workhorse of reports and essays — neutral and safe. 그러므로 feels a notch more deductive ('it necessarily follows'), so it shines in arguments and reasoning. In ordinary expository writing, default to 따라서; reach for 그러므로 when you want the logic to feel airtight."
+      },
+      "pronunciation": "따라서 starts with a tense ㄸ: [tta-ra-seo]. 그러므로 is four light, even syllables [geu-reo-meu-ro] with no tense consonants — don't stress it like English 'therefore.'",
+      "drill": {
+        "instruction": "Replace the casual 그래서 with a formal connector (따라서 or 그러므로) to fit an essay.",
+        "model": "비가 왔다. ___ 행사를 취소했다. → 따라서",
+        "items": [
+          "예산이 부족하다. ___ 사업을 미루기로 했다.",
+          "모든 조건이 같다. ___ 결과도 같아야 한다.",
+          "참가자가 늘었다. ___ 더 큰 장소가 필요하다."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "근거가 부족하다, 따라서 결론을 검토했다.",
+        "right": "근거가 부족하다. 따라서 결론을 검토했다.",
+        "explanation": "English writers tend to splice 'therefore' on with a comma in the middle of a sentence. In formal Korean, 따라서/그러므로 normally start a NEW sentence after a full stop. Hooking it onto the previous clause with a comma reads as a run-on."
+      }
     },
     {
-      "id": "gn-pattern-161",
-      "title": "그러나 / 반면에 / 한편: three kinds of contrast",
-      "mentalModel": "그러나 reverses or limits the previous claim. 반면에 compares two sides. 한편 moves to a parallel development that may not directly oppose the first sentence.",
-      "formation": "Sentence 1. 그러나 / 반면에 / 한편 + sentence 2, with the same formal register.",
+      "title": "그러나 / 반면에 / 한편 — three kinds of contrast",
+      "func": "Formal writing splits into three the contrast that casual 하지만 lumps together. 그러나 directly reverses or limits what you just said ('however'). 반면에 sets two things side by side as opposites ('by contrast, whereas'). 한편 moves to a separate, co-occurring point ('meanwhile, for its part') without contradicting. Picking the right one is a mark of polished writing.",
+      "formTable": [
+        {
+          "when": "Direct reversal or limitation of the previous claim — the strong written 'however'",
+          "add": "그러나",
+          "ex": "핵심 주장은 분명하다. 그러나 근거가 부족하다."
+        },
+        {
+          "when": "Comparing two items as contrasting opposites; often after stating side A",
+          "add": "반면(에)",
+          "ex": "첫 사례는 적절하다. 반면에 두 번째 사례는 약하다."
+        },
+        {
+          "when": "Adding a separate, co-occurring angle or new actor — not a contradiction",
+          "add": "한편",
+          "ex": "보고서는 비용을 강조한다. 한편 안전 검토는 부족하다."
+        }
+      ],
       "examples": [
         {
           "ko": "핵심 주장은 분명하다. 그러나 이를 뒷받침할 근거가 부족하다.",
           "romanization": "haeksim jujangeun bunmyeonghada. geureona ireul dwitbatchimhal geungeoga bujokhada.",
-          "en": "The main claim is clear. However, the evidence supporting it is insufficient.",
-          "note": "그러나 gives a direct limitation."
+          "en": "The main claim is clear. However, the evidence to support it is insufficient.",
+          "note": "그러나 directly limits the positive first sentence."
         },
         {
-          "ko": "첫 번째 사례는 주장을 잘 뒷받침한다. 반면에 두 번째 사례는 관련성이 약하다.",
-          "romanization": "cheot beonjjae saryeneun jujangeul jal dwitbatchimhanda. banmyeone du beonjjae saryeneun gwallyeonseongi yakada.",
-          "en": "The first case supports the claim well. By contrast, the second case is weakly relevant.",
-          "note": "반면에 is strongest when the two sides are clearly comparable."
+          "ko": "첫 번째 사례는 적절하다. 반면에 두 번째 사례는 관련성이 약하다.",
+          "romanization": "cheot beonjjae saryeneun jeokjeolhada. banmyeone du beonjjae saryeneun gwallyeonseongi yakada.",
+          "en": "The first case is fitting. By contrast, the second case is weakly relevant.",
+          "note": "반면에 lines up two comparable cases as opposites."
         },
         {
-          "ko": "보고서는 비용 문제를 강조한다. 한편 안전 문제에 대한 검토는 충분하지 않다.",
-          "romanization": "bogoseoneun biyong munjereul gangjohanda. hanpyeon anjeon munjee daehan geomtoneun chungbunhaji anta.",
-          "en": "The report emphasizes the cost issue. Meanwhile, the review of safety issues is not sufficient.",
-          "note": "한편 shifts to another related line of discussion."
+          "ko": "보고서는 비용 문제를 강조한다. 한편 안전 문제 검토는 충분하지 않다.",
+          "romanization": "bogoseoneun biyong munjereul gangjohanda. hanpyeon anjeon munje geomtoneun chungbunhaji anta.",
+          "en": "The report stresses the cost issue. Meanwhile, the review of safety is not sufficient.",
+          "note": "한편 shifts to a separate line of discussion, not a flat contradiction."
+        },
+        {
+          "ko": "이론은 단순하다. 그러나 적용은 결코 쉽지 않다.",
+          "romanization": "ironeun dansunhada. geureona jeogyongeun gyeolko swipji anta.",
+          "en": "The theory is simple. However, applying it is by no means easy.",
+          "note": "그러나 flags a sharp 'but in reality' reversal, stronger than 하지만."
         }
       ],
-      "exceptions": [
-        "Do not use 한편 when you need a sharp A-versus-B comparison. Use 반면에.",
-        "Do not use 반면에 for a simple objection unless there are two sides being compared."
-      ]
+      "keyPoint": {
+        "label": "그러나 vs 반면에 vs 한편",
+        "body": "Test by relationship: if B cancels or limits A, use 그러나 (however). If B is the mirror-opposite of A, weighed against it, use 반면에 (by contrast). If B is just a separate development from another side, use 한편 (meanwhile). A common error is using 한편 where 반면에 is needed — 한편 does NOT mean 'in contrast,' it means 'from another quarter, at the same time.'"
+      },
+      "pronunciation": "반면에 is [ban-myeo-ne] — the ㄴ of 면 links into 에, so it flows as one word, not 반/면/에 chopped apart. 한편 is [han-pyeon].",
+      "drill": {
+        "instruction": "Choose 그러나, 반면에, or 한편 for the contrast type shown in brackets.",
+        "model": "가격은 올랐다. ___ 판매량은 그대로다. [two opposites compared] → 반면에",
+        "items": [
+          "모두 찬성할 줄 알았다. ___ 반대가 거셌다. [direct reversal]",
+          "서울은 비가 왔다. ___ 부산은 맑았다. [two opposites compared]",
+          "연구진은 실험을 이어갔다. ___ 학계는 논쟁을 벌였다. [separate co-occurring angle]"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "한편, 이 방법은 비싸다. (intending 'however, this method is expensive')",
+        "right": "그러나 이 방법은 비싸다.",
+        "explanation": "Learners map 한편 to 'however' because dictionaries gloss it as 'on the other hand.' But 한편 means 'meanwhile, from another side,' not rebuttal. To overturn a claim use 그러나; to weigh two opposites use 반면에. Using 한편 for a flat contradiction confuses Korean readers."
+      }
     },
     {
-      "id": "gn-pattern-162",
-      "title": "즉 / 다시 말해서: restate, do not add",
-      "mentalModel": "즉 says, 'Here is the same point in a clearer or narrower form.' It should not introduce brand-new evidence.",
-      "formation": "Statement. 즉, restatement / definition / narrowed meaning.",
-      "examples": [
+      "title": "즉 / 다시 말해서 — that is, in other words (restate, don't add)",
+      "func": "These connectors signal that what follows is a RESTATEMENT or clarification of what you just said — not new information. 즉 is a compact written 'namely, that is,' used to pin down a precise equivalent or definition. 다시 말해서 ('to put it again, in other words') reframes the whole idea in plainer words. Both tell the reader: same point, said more clearly.",
+      "formTable": [
         {
-          "ko": "문제는 결론 자체가 아니다. 즉, 결론을 뒷받침하는 근거와 논리가 부족하다는 점이다.",
-          "romanization": "munjeneun gyeollon jachega anida. jeuk, gyeolloneul dwitbatchimhaneun geungeowa nolliga bujokhadaneun jeomida.",
-          "en": "The problem is not the conclusion itself. In other words, the evidence and reasoning supporting the conclusion are insufficient.",
-          "note": "즉 restates the diagnosis more precisely."
+          "when": "Pinpointing an exact equivalent or narrower meaning — terse, very written 'namely, that is'",
+          "add": "즉",
+          "ex": "핵심 변수, 즉 가격이 결과를 좌우한다."
         },
         {
-          "ko": "이 문장은 너무 추상적이다. 다시 말해서, 독자가 떠올릴 수 있는 사례가 없다.",
-          "romanization": "i munjangeun neomu chusangjeogida. dasi malhaeseo, dokjaga tteoolril su inneun saryega eopda.",
+          "when": "Rephrasing the whole idea in plainer words for the reader",
+          "add": "다시 말해서",
+          "ex": "수요가 공급을 넘었다. 다시 말해서, 물건이 부족하다."
+        },
+        {
+          "when": "Shorter written variant of 다시 말해서, often before a clause",
+          "add": "다시 말해",
+          "ex": "비용이 효용을 넘는다. 다시 말해 손해다."
+        }
+      ],
+      "examples": [
+        {
+          "ko": "문제는 결론 자체가 아니다. 즉, 근거와 논리의 연결이 약하다는 점이다.",
+          "romanization": "munjeneun gyeollon jachega anida. jeuk, geungeowa nolliui yeongyeori yakadaneun jeomida.",
+          "en": "The problem is not the conclusion itself. That is, the link between evidence and reasoning is weak.",
+          "note": "즉 restates the diagnosis in a more precise form, adding no new fact."
+        },
+        {
+          "ko": "이 문장은 너무 추상적이다. 다시 말해서, 독자가 떠올릴 사례가 없다.",
+          "romanization": "i munjangeun neomu chusangjeogida. dasi malhaeseo, dokjaga tteoolril saryega eopda.",
           "en": "This sentence is too abstract. In other words, there is no example the reader can picture.",
-          "note": "다시 말해서 is slightly fuller and easier to use in explanation."
+          "note": "다시 말해서 reframes the abstract point in concrete, plainer terms."
         },
         {
-          "ko": "반론 검토가 빠져 있다. 즉, 글의 설득력이 한쪽으로 치우쳐 있다.",
-          "romanization": "ballon geomtoga ppajyeo itda. jeuk, geurui seoldeungnyeogi hanjjogeuro chiuchyeo itda.",
-          "en": "The counterargument review is missing. That is, the persuasiveness of the piece is one-sided.",
-          "note": "The second sentence explains what the missing section means for the whole text."
+          "ko": "가장 중요한 요소, 즉 신뢰가 무너졌다.",
+          "romanization": "gajang jungyohan yoso, jeuk silloega muneojyeotda.",
+          "en": "The most important element — namely, trust — collapsed.",
+          "note": "즉 equates the abstract 'most important element' with the concrete word 신뢰; it sits inside the sentence."
+        },
+        {
+          "ko": "지출이 수입을 넘었다. 다시 말해, 적자가 났다.",
+          "romanization": "jichuri suibeul neomeotda. dasi malhae, jeokjaga natda.",
+          "en": "Spending exceeded income. In other words, there was a deficit.",
+          "note": "다시 말해 (the shorter form) restates the situation with its plain name."
         }
       ],
-      "exceptions": [
-        "If the next sentence is a result, use 따라서.",
-        "If the next sentence is a new supporting example, use 예를 들어 or 또한 instead of 즉."
-      ]
+      "keyPoint": {
+        "label": "즉 vs 다시 말해서",
+        "body": "즉 is for a tight, near-mathematical equivalence ('X, namely Y') and often sits INSIDE a sentence right after the term it defines. 다시 말해서 is for rephrasing a whole idea more accessibly and usually starts a fresh sentence. Rule of thumb: 즉 swaps in a precise synonym; 다시 말해서 explains the same point again in different words. Neither one introduces new evidence — for that, use 또한 or 예를 들어."
+      },
+      "pronunciation": "즉 is one tight syllable [jeuk], ending in a hard ㄱ stop. 다시 말해서 is [da-si mal-hae-seo], even and unstressed.",
+      "drill": {
+        "instruction": "Insert 즉 or 다시 말해서 so the second sentence restates (not adds to) the first.",
+        "model": "이 글은 사례가 없다. ___ 추상적이다. → 다시 말해서",
+        "items": [
+          "문제는 결론이 아니다. ___ 근거가 약하다는 점이다.",
+          "가장 큰 요소, ___ 신뢰가 무너졌다.",
+          "매출은 늘었지만 이익은 줄었다. ___ 효율이 떨어졌다."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "근거가 약하다. 즉, 새로운 사례를 하나 더 들 수 있다.",
+        "right": "근거가 약하다. 즉, 주장을 뒷받침하기 어렵다.",
+        "explanation": "Learners use 즉 like a loose English 'so' and then add a brand-new point. But 즉 only RESTATES what was already said in a clearer form. If you are adding new evidence, use 또한 or 예를 들어; if a result follows, use 따라서."
+      }
     },
     {
-      "id": "gn-pattern-163",
-      "title": "결국 / 궁극적으로: final synthesis",
-      "mentalModel": "결국 gathers the argument and names the final point. It is not just 'finally'; it answers what everything leads to.",
-      "formation": "After several points or a chain of reasoning, use 결국 / 궁극적으로 + final claim.",
+      "title": "결국 / 궁극적으로 — final synthesis (what it all comes to)",
+      "func": "These pull a chain of reasoning together and name the final point. 결국 means 'in the end, ultimately' — the result or conclusion reached after a process. 궁극적으로 is 'ultimately, fundamentally,' a touch more abstract and principle-like. They are not just 'finally' (which only marks the last item in time); they answer what everything has been leading to.",
+      "formTable": [
+        {
+          "when": "Summing up the result after a process or chain of points",
+          "add": "결국",
+          "ex": "여러 자료를 검토했지만 결국 같은 결론에 도달했다."
+        },
+        {
+          "when": "Stating the deepest, most general principle behind it all",
+          "add": "궁극적으로",
+          "ex": "궁극적으로 좋은 글은 주장과 근거가 연결되어야 한다."
+        },
+        {
+          "when": "Marking an awaited event that finally happens (NOT synthesis — contrast only)",
+          "add": "드디어 (different meaning)",
+          "ex": "드디어 보고서를 제출했다. (at last — not a conclusion)"
+        }
+      ],
       "examples": [
         {
-          "ko": "결국 이 보고서의 핵심은 결론을 바꾸는 것이 아니라 근거와 사례를 보완하는 것이다.",
-          "romanization": "gyeolguk i bogoseoui haeksimeun gyeolloneul bakkuneun geosi anira geungeowa saryereul bowanhaneun geosida.",
-          "en": "Ultimately, the key point of this report is not changing the conclusion but strengthening the evidence and cases.",
-          "note": "결국 summarizes the revision direction."
+          "ko": "결국 이 보고서의 핵심은 결론을 바꾸는 것이 아니라 근거를 보완하는 것이다.",
+          "romanization": "gyeolguk i bogoseoui haeksimeun gyeolloneul bakkuneun geosi anira geungeoreul bowanhaneun geosida.",
+          "en": "Ultimately, the key point of this report is not to change the conclusion but to strengthen the evidence.",
+          "note": "결국 gathers the whole discussion and names the real takeaway."
         },
         {
           "ko": "궁극적으로 좋은 글은 주장, 근거, 반론이 서로 연결되어야 한다.",
           "romanization": "gunggeukjeogeuro joeun geureun jujang, geungeo, balloni seoro yeongyeoldoeeoya handa.",
-          "en": "Ultimately, good writing requires the claim, evidence, and counterargument to be connected.",
-          "note": "궁극적으로 sounds broader and more principle-like."
+          "en": "Ultimately, good writing requires the claim, evidence, and counterargument to connect.",
+          "note": "궁극적으로 sounds broader and more principle-like than 결국."
         },
         {
           "ko": "여러 자료를 검토했지만 결국 같은 결론에 도달했다.",
           "romanization": "yeoreo jaryoreul geomtohaetjiman gyeolguk gateun gyeollone dochakhaetda.",
-          "en": "Several materials were reviewed, but in the end they reached the same conclusion.",
-          "note": "결국 can also mark the final result after a process."
+          "en": "Several sources were reviewed, but in the end they reached the same conclusion.",
+          "note": "결국 marks the final result after the process of reviewing."
+        },
+        {
+          "ko": "논의는 길었다. 그러나 결국 핵심은 하나였다.",
+          "romanization": "nonuineun gireotda. geureona gyeolguk haeksimeun hanayeotda.",
+          "en": "The discussion was long. However, in the end the key point was just one.",
+          "note": "결국 closes a long buildup by naming the single point it all reduces to."
         }
       ],
-      "exceptions": [
-        "드디어 marks an anticipated event finally happening. 결국 marks the result or synthesis reached after a process.",
-        "Do not put 결국 at the start of every paragraph. Save it for a real summary or culmination."
-      ]
+      "keyPoint": {
+        "label": "결국 vs 궁극적으로 vs 드디어",
+        "body": "결국 names the result a process arrives at ('in the end'). 궁극적으로 names the deepest principle behind everything ('fundamentally, ultimately'), so it fits broad closing statements. Neither is 드디어, which only means an awaited event 'finally' happened — a time word, not a synthesis. Save 결국/궁극적으로 for a real summary; don't open every paragraph with them."
+      },
+      "pronunciation": "결국 is [gyeol-guk], two syllables both ending in a hard stop. 궁극적으로 is [gung-geuk-jeo-geu-ro], five even syllables — keep it steady, don't rush the middle.",
+      "drill": {
+        "instruction": "Fill the blank with 결국 or 드디어 by meaning: synthesis-of-a-process vs awaited-event-at-last.",
+        "model": "오래 기다린 끝에 ___ 결과가 나왔다. → 드디어",
+        "items": [
+          "여러 안을 비교했지만 ___ 첫 안으로 돌아왔다.",
+          "수정에 수정을 거쳐 ___ 보고서를 제출했다.",
+          "논의가 길었지만 ___ 핵심은 근거 보완이었다."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "오래 준비한 발표를 결국 끝냈다. (intending 'I finally finished it!')",
+        "right": "오래 준비한 발표를 드디어 끝냈다.",
+        "explanation": "English 'finally' covers both 'at long last' and 'in conclusion,' so learners reach for 결국 for an awaited relief. But 결국 carries a result-of-a-process nuance (often a slightly resigned 'in the end'). For the happy 'at last' sense, use 드디어."
+      }
     },
     {
-      "id": "gn-written-register",
-      "title": "Written endings: -다 / -한다 / -이다",
-      "mentalModel": "Formal connectors need formal endings around them. If a paragraph says 따라서 and then ends every sentence in 해요, the logic sounds formal but the voice sounds conversational.",
-      "formation": "Descriptive verb/adjective + -다. Action verb often + -ㄴ다/-는다 in expository prose. Noun + -이다.",
+      "title": "Written endings — -다 / -ㄴ다·-는다 / -이다",
+      "func": "Formal connectors need formal endings around them. If a paragraph uses 따라서 but then ends every sentence in -해요, the logic sounds written but the voice sounds conversational. In expository Korean (essays, reports, articles) you use the plain written style: adjectives and the copula in -다, action verbs in -ㄴ다/-는다, and noun statements in -이다. This is the register that pairs with the connectors in this chapter.",
+      "formTable": [
+        {
+          "when": "Adjective or descriptive verb (the plain dictionary -다 carries the written meaning)",
+          "add": "-다",
+          "ex": "이 글은 사례가 부족하다."
+        },
+        {
+          "when": "Action verb in expository prose — vowel stem +-ㄴ다, consonant stem +-는다",
+          "add": "-ㄴ다 / -는다",
+          "ex": "필자는 비용 문제를 강조한다. / 자료를 충분히 다루지 않는다."
+        },
+        {
+          "when": "Noun or pronoun statement (copula)",
+          "add": "-이다",
+          "ex": "핵심은 자료의 양이 아니라 관련성이다."
+        }
+      ],
       "examples": [
         {
           "ko": "이 글은 사례가 부족하다. 따라서 설득력이 약하다.",
           "romanization": "i geureun saryega bujokhada. ttaraseo seoldeungnyeogi yakada.",
-          "en": "This piece lacks examples. Therefore, it is not very persuasive.",
-          "note": "Both sentences keep the plain written -다 style."
+          "en": "This piece lacks examples. Therefore it is not very persuasive.",
+          "note": "Both sentences keep the plain written -다 on adjectives."
         },
         {
           "ko": "필자는 비용 문제를 강조한다. 그러나 안전 문제는 충분히 다루지 않는다.",
           "romanization": "piljaneun biyong munjereul gangjohanda. geureona anjeon munjeneun chungbunhi daruji anneunda.",
-          "en": "The writer emphasizes the cost issue. However, the safety issue is not addressed sufficiently.",
-          "note": "Action verbs in formal expository writing often use -ㄴ다/-는다."
+          "en": "The writer stresses cost. However, the safety issue is not treated sufficiently.",
+          "note": "Action verbs in formal writing take -ㄴ다/-는다, not -해요."
         },
         {
-          "ko": "핵심은 자료의 양이 아니라 자료의 관련성이다.",
-          "romanization": "haeksimeun jaryoui yangi anira jaryoui gwallyeongseongida.",
+          "ko": "핵심은 자료의 양이 아니라 관련성이다.",
+          "romanization": "haeksimeun jaryoui yangi anira gwallyeonseongida.",
           "en": "The key point is not the amount of material but its relevance.",
-          "note": "Noun conclusions often use -이다."
+          "note": "Noun conclusions take -이다."
+        },
+        {
+          "ko": "결국 좋은 글은 근거와 사례가 연결되어야 한다.",
+          "romanization": "gyeolguk joeun geureun geungeowa saryega yeongyeoldoeeoya handa.",
+          "en": "Ultimately, good writing requires evidence and cases to connect.",
+          "note": "-아야 한다 keeps the obligation in plain written style, matching 결국."
         }
       ],
-      "exceptions": [
-        "-습니다 is also formal and useful for presentations, formal comments, and polite reports.",
-        "해요체 is not wrong grammar, but mixing it with academic connectors can make one paragraph feel stylistically uneven."
-      ]
+      "keyPoint": {
+        "label": "One register per paragraph",
+        "body": "Decide the register first, then keep it. Expository writing uses the plain written style: adjectives/copula in -다·-이다 and action verbs in -ㄴ다/-는다. -습니다 is also formal and fits presentations and polite reports — but pick one. Mixing -해요 with academic connectors like 따라서 and 즉 makes a single paragraph feel stylistically uneven, even when every word is correct."
+      },
+      "pronunciation": "-ㄴ다/-는다 endings end on a clean -다 [da]; don't soften them toward the spoken -다아. -이다 is [i-da], the 이 fully voiced after a consonant.",
+      "drill": {
+        "instruction": "Rewrite each -해요 sentence in plain written style (adjective/noun → -다/-이다, action verb → -ㄴ다/-는다).",
+        "model": "근거가 부족해요. → 근거가 부족하다.",
+        "items": [
+          "필자는 비용 문제를 강조해요.",
+          "핵심은 안전 문제예요.",
+          "따라서 결론을 다시 검토해야 해요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "따라서 결론을 다시 검토해야 해요.",
+        "right": "따라서 결론을 다시 검토해야 한다.",
+        "explanation": "Learners default to the safe spoken -해요 even after a written connector like 따라서. In an essay or report this clashes: the connector says 'formal writing,' the ending says 'conversation.' Match the ending to the register — use -다/-ㄴ다/-는다/-이다 throughout the paragraph."
+      }
     }
   ],
   "extendedVocabulary": [

@@ -11,184 +11,420 @@
   },
   "grammarNotes": [
     {
-      "id": "gn-pattern-154",
-      "title": "V-기: activity as a task, goal, or grammar object",
-      "mentalModel": "Use -기 when the action becomes an activity label: something to start, decide, do before another action, or do for a purpose.",
-      "formation": "Remove 다 from the verb and add -기: 운동하다 -> 운동하기, 걷다 -> 걷기, 듣다 -> 듣기, 외우다 -> 외우기.",
-      "examples": [
+      "title": "V-기 — turning a verb into a noun",
+      "func": "Add 기 to a verb stem to name the action as a thing. The 기-noun can be a task, a goal, or the object of verbs like 좋아하다, 싫어하다, 시작하다, and it is the natural subject of difficulty/ease adjectives like 어렵다, 쉽다, 힘들다.",
+      "formTable": [
         {
-          "ko": "매일 운동하기는 어렵지만 건강을 위해 필요해요.",
-          "romanization": "maeil undonghagineun eoryeopjiman geongangeul wihae piryohaeyo.",
-          "en": "Exercising every day is hard, but it is necessary for health.",
-          "note": "운동하기 names the activity as a general task."
+          "when": "Any verb stem (vowel or consonant)",
+          "add": "stem + 기",
+          "ex": "먹다 → 먹기, 읽다 → 읽기"
         },
         {
-          "ko": "단어를 외우기 전에 예문을 먼저 들어요.",
-          "romanization": "daneoreul oeugi jeone yemuneul meonjeo deureoyo.",
-          "en": "Before memorizing words, I listen to example sentences first.",
-          "note": "기 전에 is a fixed time frame; do not change it to 외우는 것 전에."
+          "when": "Stem ends in ㄹ (ㄹ stays before 기)",
+          "add": "stem + 기",
+          "ex": "살다 → 살기, 만들다 → 만들기"
         },
         {
-          "ko": "건강을 지키기 위해 걷기부터 시작했어요.",
-          "romanization": "geongangeul jikigi wihae geotgibuteo sijakaesseoyo.",
-          "en": "To protect my health, I started with walking.",
-          "note": "지키기 위해 and 걷기 both treat actions as goal/activity nouns."
+          "when": "As the object of 좋아하다/싫어하다 etc.",
+          "add": "V-기 + 를/을",
+          "ex": "운동하기를 좋아해요"
+        },
+        {
+          "when": "As the subject of 어렵다/쉽다/힘들다",
+          "add": "V-기 + 가",
+          "ex": "말하기가 어려워요"
         }
       ],
-      "exceptions": [
-        "Do not use -기 just because English has -ing. If you mean an observed concrete action, -는 것 is usually better.",
-        "Some forms are fixed with -기: 기로 했어요, 기 전에, 기 위해서, 기 시작하다."
-      ]
-    },
-    {
-      "id": "gn-pattern-154-neun-geot",
-      "title": "V-는 것/거: concrete action, habit, or fact",
-      "mentalModel": "Use -는 것 when the action is a thing you can point to: something you saw, know, describe, feel, reduce, or make into the topic.",
-      "formation": "Present modifier + 것: 걷다 -> 걷는 것, 먹다 -> 먹는 것, 듣다 -> 듣는 것. In speech, 것을 often becomes 걸 and 것은 becomes 건.",
       "examples": [
         {
-          "ko": "친구가 매일 걷는 것을 보고 저도 따라 해 보기로 했어요.",
-          "romanization": "chinguga maeil geonneun geoseul bogo jeodo ttara hae bogiro haesseoyo.",
-          "en": "After seeing my friend walk every day, I decided to try following along too.",
-          "note": "The walking is an observed action, so 걷는 것을 fits."
+          "ko": "저는 책 읽기를 좋아해요.",
+          "romanization": "jeo-neun chaek ilg-gi-reul jo-a-hae-yo.",
+          "en": "I like reading books.",
+          "note": "읽기 names the action so it can be the object of 좋아하다."
         },
         {
-          "ko": "자기 전에 휴대폰 보는 것을 줄이기로 했어요.",
-          "romanization": "jagi jeone hyudaepon boneun geoseul jurigiro haesseoyo.",
-          "en": "I decided to cut down on looking at my phone before sleeping.",
-          "note": "보는 것 is the concrete habit being reduced."
+          "ko": "오늘 숙제는 일기 쓰기예요.",
+          "romanization": "o-neul suk-je-neun il-gi sseu-gi-ye-yo.",
+          "en": "Today's homework is writing a diary.",
+          "note": "쓰기 is a plain noun (a task/title) here, right after 은."
         },
         {
-          "ko": "매일 조금씩 듣는 게 발음에 도움이 돼요.",
-          "romanization": "maeil jogeumssik deunneun ge bareume doumi dwaeyo.",
-          "en": "Listening a little every day helps pronunciation.",
-          "note": "게 is the natural spoken contraction of 것이."
+          "ko": "한국어 말하기가 제일 어려워요.",
+          "romanization": "han-gug-eo mal-ha-gi-ga je-il eo-ryeo-wo-yo.",
+          "en": "Speaking Korean is the hardest.",
+          "note": "말하기 is the subject (with 가) of 어렵다 — a very common skill-label use."
+        },
+        {
+          "ko": "저는 일찍 일어나기가 힘들어요.",
+          "romanization": "jeo-neun il-jjik il-eo-na-gi-ga him-deul-eo-yo.",
+          "en": "Getting up early is hard for me.",
+          "note": "Adjectives of difficulty/ease (힘들다, 쉽다, 좋다) naturally take a V-기 subject."
         }
       ],
-      "exceptions": [
-        "When a fixed grammar frame requires -기, use -기 even if English says \"doing\": 걷기로 했어요, 걷기 전에, 걷기 시작했어요.",
-        "For formal writing, 것 may remain as 것; in daily speech, 거/걸/건 are common."
-      ]
+      "keyPoint": {
+        "label": "When to reach for V-기",
+        "body": "Use V-기 to label an action as a thing — especially as the subject of 어렵다/쉽다/좋다/힘들다, or the object of 좋아하다/싫어하다/시작하다. It sounds abstract and title-like, which is exactly why textbook section headings are 듣기, 읽기, 쓰기, 말하기."
+      },
+      "pronunciation": "After a stem ending in a plain consonant, the 기 tenses: 읽기 [일끼], 먹기 [먹끼], 닦기 [닥끼]. Vowel stems stay soft: 가기 [가기], 자기 [자기].",
+      "drill": {
+        "instruction": "Add 기 to the bracketed verb and choose 를 or 가 so the sentence works.",
+        "model": "저는 [수영하다] 좋아해요. → 저는 수영하기를 좋아해요.",
+        "items": [
+          "[운동하다] 건강에 좋아요.",
+          "저는 매운 음식 [먹다] 좋아해요.",
+          "[일찍 자다] 쉽지 않아요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 읽다를 좋아해요.",
+        "right": "저는 읽기를 좋아해요.",
+        "explanation": "English 'reading' can be a noun on its own, but Korean cannot use the dictionary form 읽다 as a noun. Nominalise the stem first: 읽 + 기 → 읽기, then add the particle."
+      }
     },
     {
-      "id": "gn-pattern-079",
-      "title": "V기로 했어요: decided to V",
-      "mentalModel": "기로 했어요 reports a decision that has already been made. The action may be future, but the decision is already settled.",
-      "formation": "Verb stem + 기로 했어요. For negatives, put 안 before the verb: 안 먹기로 했어요, 안 보기로 했어요.",
+      "title": "V-는 것/거 — an action or fact as a noun",
+      "func": "Add 는 것 (casual 는 거) to a verb to name an action, a habit, or something you saw or know — as a noun. It points at the real, ongoing act, and it is the everyday default after 좋아하다 and as a sentence subject.",
+      "formTable": [
+        {
+          "when": "Verb (present action/habit)",
+          "add": "stem + 는 것/거",
+          "ex": "먹다 → 먹는 것, 보다 → 보는 것"
+        },
+        {
+          "when": "Stem ends in ㄹ (ㄹ drops before 는)",
+          "add": "stem(-ㄹ) + 는 것",
+          "ex": "살다 → 사는 것, 만들다 → 만드는 것"
+        },
+        {
+          "when": "Subject, casual speech (것이 → 게)",
+          "add": "는 게",
+          "ex": "보는 게 좋아요"
+        },
+        {
+          "when": "Object, casual speech (것을 → 걸)",
+          "add": "는 걸",
+          "ex": "보는 걸 좋아해요"
+        }
+      ],
       "examples": [
         {
-          "ko": "저는 먼저 걷기부터 시작하기로 했어요.",
-          "romanization": "jeoneun meonjeo geotgibuteo sijakagiro haesseoyo.",
-          "en": "I decided to start with walking first.",
-          "note": "시작하기로 했어요 reports a settled plan."
+          "ko": "저는 영화 보는 것을 좋아해요.",
+          "romanization": "jeo-neun yeong-hwa bo-neun geos-eul jo-a-hae-yo.",
+          "en": "I like watching movies.",
+          "note": "보는 것 names the activity of watching — sounds more everyday than 보기."
+        },
+        {
+          "ko": "친구를 기다리는 게 지루해요.",
+          "romanization": "chin-gu-reul gi-da-ri-neun ge ji-ru-hae-yo.",
+          "en": "Waiting for a friend is boring.",
+          "note": "것이 contracts to 게 in speech; here it is the subject of 지루하다."
+        },
+        {
+          "ko": "매일 운동하는 것이 중요해요.",
+          "romanization": "mae-il un-dong-ha-neun geos-i jung-yo-hae-yo.",
+          "en": "Exercising every day is important.",
+          "note": "는 것 carries the habit (every day), which 기 cannot do as smoothly."
+        },
+        {
+          "ko": "동생이 몰래 과자 먹는 걸 봤어요.",
+          "romanization": "dong-saeng-i mol-lae gwa-ja meog-neun geol bwass-eo-yo.",
+          "en": "I saw my younger sibling secretly eating snacks.",
+          "note": "는 것 names an action you witnessed; 걸 = 것을 in speech."
+        }
+      ],
+      "keyPoint": {
+        "label": "기 vs 는 것",
+        "body": "Both make a verb into a noun. V-기 is abstract and title-like — good for skills, tasks, and subjects of 어렵다/쉽다 (말하기가 어려워요). V-는 것 points at the real act or a habit, and is the default after 좋아하다 and as a subject (영화 보는 게 좋아요). When you are talking and unsure, 는 거 is the safer choice."
+      },
+      "pronunciation": "것 links its final ㅅ into a following vowel: 것을 [거슬], 것이 [거시]. In casual speech learn the contractions early — 것이 → 게 [게], 것을 → 걸 [걸], 것은 → 건 [건] — they are everywhere.",
+      "drill": {
+        "instruction": "Rewrite with V-는 거 and the right contracted particle (게 for subject, 걸 for object).",
+        "model": "[요리하다] 재미있어요. → 요리하는 게 재미있어요.",
+        "items": [
+          "저는 [노래 부르다] 좋아해요.",
+          "[아침에 일찍 일어나다] 힘들어요.",
+          "동생이 [몰래 과자 먹다] 봤어요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 영화 보것을 좋아해요.",
+        "right": "저는 영화 보는 것을 좋아해요.",
+        "explanation": "Learners often drop 는 and glue 것 straight onto the stem. The verb must take its present modifier ending -는 before 것: 보 + 는 + 것. Without 는, the phrase is ungrammatical."
+      }
+    },
+    {
+      "title": "V-기로 했어요 — decided to do",
+      "func": "Use V-기로 하다 for a decision, plan, or agreement to do something. The 기-noun takes 로 ('settle on') plus 하다. It is almost always said in the past — 했어요 — because the decision is already made by the time you mention it.",
+      "formTable": [
+        {
+          "when": "State a decision (most common)",
+          "add": "stem + 기로 했어요",
+          "ex": "운동하다 → 운동하기로 했어요"
+        },
+        {
+          "when": "Deciding right now / promise",
+          "add": "stem + 기로 해요 / 할게요",
+          "ex": "담배를 끊기로 할게요"
+        },
+        {
+          "when": "Mutual agreement (we agreed)",
+          "add": "stem + 기로 했어요 (with 같이/우리)",
+          "ex": "같이 가기로 했어요"
+        },
+        {
+          "when": "Decide NOT to do",
+          "add": "안 + V / V-지 않 + 기로 했어요",
+          "ex": "야식을 안 먹기로 했어요"
+        }
+      ],
+      "examples": [
+        {
+          "ko": "내일부터 일찍 일어나기로 했어요.",
+          "romanization": "nae-il-bu-teo il-jjik il-eo-na-gi-ro haess-eo-yo.",
+          "en": "I've decided to get up early from tomorrow.",
+          "note": "Personal resolution; past 했어요 even though the action is in the future."
+        },
+        {
+          "ko": "우리 주말에 같이 등산하기로 했어요.",
+          "romanization": "u-ri ju-mal-e ga-chi deung-san-ha-gi-ro haess-eo-yo.",
+          "en": "We decided to go hiking together on the weekend.",
+          "note": "우리 + 같이 makes it a mutual agreement, not a solo decision."
         },
         {
           "ko": "밤에는 커피를 안 마시기로 했어요.",
-          "romanization": "bameneun keopireul an masigiro haesseoyo.",
-          "en": "I decided not to drink coffee at night.",
-          "note": "The negative goes before the verb, not after 기로."
+          "romanization": "bam-e-neun keo-pi-reul an ma-si-gi-ro haess-eo-yo.",
+          "en": "I've decided not to drink coffee at night.",
+          "note": "The negative 안 goes before the verb, not after 기로."
         },
         {
-          "ko": "매일 단어 다섯 개씩 외우기로 했어요.",
-          "romanization": "maeil daneo daseot gaessik oeugiro haesseoyo.",
-          "en": "I decided to memorize five words every day.",
-          "note": "A realistic study resolution."
+          "ko": "오늘은 집에서 쉬기로 했어요.",
+          "romanization": "o-neul-eun jib-e-seo swi-gi-ro haess-eo-yo.",
+          "en": "I've decided to rest at home today.",
+          "note": "쉬기 nominalised, then 로 했어요 for the decision."
         }
       ],
-      "exceptions": [
-        "가기로 할 거예요 means you are going to decide, not that the decision is already made.",
-        "가는 것으로 했어요 can exist in other contexts, but it is not the basic learner chunk for \"decided to go.\""
-      ]
+      "keyPoint": {
+        "label": "했어요 vs 해요",
+        "body": "The decision is usually reported in the past: V-기로 했어요 ('I (have) decided'), because the decision already exists by the time you say it. Use the present V-기로 해요 / 할게요 only when you are making the resolution at the very moment of speaking ('okay, I'll do X from now on')."
+      },
+      "pronunciation": "기로 is read smoothly [기로], with no special change. A tensing stem still tenses the 기: 먹기로 [먹끼로]; and ㅎ + ㄱ aspirates: 끊기로 [끈키로].",
+      "drill": {
+        "instruction": "Turn each plan into a decision with V-기로 했어요.",
+        "model": "다이어트를 하다 → 다이어트를 하기로 했어요.",
+        "items": [
+          "매일 한국어를 공부하다",
+          "주말에 친구를 만나다",
+          "이제부터 야식을 안 먹다"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "저는 운동하기를 했어요.",
+        "right": "저는 운동하기로 했어요.",
+        "explanation": "The pattern needs the particle 로 ('settle on'), not the object particle 를. 기 + 로 + 하다 is a fixed chunk meaning 'decide to'; 기를 하다 is not a decision and sounds wrong."
+      }
     },
     {
-      "id": "gn-pattern-048",
-      "title": "V-기 위해(서): action as a purpose",
-      "mentalModel": "The action before 위해 is the purpose. It must be nominalized with -기 when it is a verb.",
-      "formation": "Verb stem + 기 위해(서). With nouns, use N을/를 위해: 건강을 위해, 목표를 위해.",
+      "title": "V-기 위해(서) — in order to do",
+      "func": "Use V-기 위해(서) to give the purpose of an action: 'in order to V'. The verb is nominalised with 기, then 위해(서) ('for the sake of') marks it as the goal. For a noun goal, use N을/를 위해(서) with no 기.",
+      "formTable": [
+        {
+          "when": "Verb purpose",
+          "add": "stem + 기 위해(서)",
+          "ex": "합격하다 → 합격하기 위해서"
+        },
+        {
+          "when": "Noun purpose",
+          "add": "N + 을/를 위해(서)",
+          "ex": "건강을 위해서"
+        },
+        {
+          "when": "Drop 서 (a touch more formal)",
+          "add": "stem + 기 위해",
+          "ex": "살을 빼기 위해 운동해요"
+        },
+        {
+          "when": "Written/formal style",
+          "add": "stem + 기 위하여",
+          "ex": "성공하기 위하여 노력합니다"
+        }
+      ],
       "examples": [
         {
-          "ko": "건강을 지키기 위해 매일 걷기로 했어요.",
-          "romanization": "geongangeul jikigi wihae maeil geotgiro haesseoyo.",
-          "en": "To protect my health, I decided to walk every day.",
-          "note": "지키기 위해 gives the purpose; 걷기로 했어요 gives the decision."
+          "ko": "건강해지기 위해서 매일 운동해요.",
+          "romanization": "geon-gang-hae-ji-gi wi-hae-seo mae-il un-dong-hae-yo.",
+          "en": "I exercise every day in order to get healthy.",
+          "note": "Purpose comes first; the main action (운동해요) follows."
         },
         {
-          "ko": "시험에 합격하기 위해 듣기 연습을 늘렸어요.",
-          "romanization": "siheome hapgyeokagi wihae deutgi yeonseubeul neullyeosseoyo.",
-          "en": "To pass the exam, I increased listening practice.",
-          "note": "합격하기 위해 is a deliberate goal frame."
+          "ko": "시험에 합격하기 위해서 열심히 공부해요.",
+          "romanization": "si-heom-e hap-gyeok-ha-gi wi-hae-seo yeol-sim-hi gong-bu-hae-yo.",
+          "en": "I study hard in order to pass the exam.",
+          "note": "The classic goal-then-effort pattern."
         },
         {
-          "ko": "지출을 줄이기 위해 배달 음식을 덜 먹기로 했어요.",
-          "romanization": "jichureul jurigi wihae baedal eumsigeul deol meokgiro haesseoyo.",
-          "en": "To reduce spending, I decided to eat delivery food less.",
-          "note": "줄이기 위해 uses -기 because reducing spending is the goal."
+          "ko": "한국에서 일하기 위해 한국어를 배워요.",
+          "romanization": "han-gug-e-seo il-ha-gi wi-hae han-gug-eo-reul bae-wo-yo.",
+          "en": "I'm learning Korean in order to work in Korea.",
+          "note": "서 dropped here; the meaning is the same, just a little more formal."
+        },
+        {
+          "ko": "가족을 위해서 열심히 일해요.",
+          "romanization": "ga-jog-eul wi-hae-seo yeol-sim-hi il-hae-yo.",
+          "en": "I work hard for my family.",
+          "note": "Noun version: N + 을 위해서, with no 기 because the goal is already a noun."
         }
       ],
-      "exceptions": [
-        "Do not say 모으다 위해 or 줄이다 위해. A verb before 위해 needs -기.",
-        "If the subject changes, -도록 or -게 may be clearer than 위해."
-      ]
+      "keyPoint": {
+        "label": "V-기 위해서 vs V-(으)려고",
+        "body": "Both mean 'in order to'. 기 위해서 states a deliberate, often weighty goal and works in writing and speech (시험에 합격하기 위해서 공부해요). V-(으)려고 is lighter and conversational. For a noun goal there is no 기 — you must use N을/를 위해서 (건강을 위해서)."
+      },
+      "pronunciation": "위해서 [위해서]; the formal 위하여 [위하여]. The 기 still tenses after a plain-consonant stem: 먹기 위해 [먹끼 위해].",
+      "drill": {
+        "instruction": "Join the goal and the action with V-기 위해서 (or N을/를 위해서 for a noun goal).",
+        "model": "[살을 빼다] / 매일 운동해요 → 살을 빼기 위해서 매일 운동해요.",
+        "items": [
+          "[한국 친구를 사귀다] / 한국어를 배워요",
+          "[건강] / 채소를 많이 먹어요",
+          "[시험에 합격하다] / 매일 단어를 외워요"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "한국어를 배우다 위해서 학원에 다녀요.",
+        "right": "한국어를 배우기 위해서 학원에 다녀요.",
+        "explanation": "A verb before 위해서 must be nominalised: 배우 + 기 → 배우기 위해서. You cannot put the dictionary form 배우다 straight in front of 위해서."
+      }
     },
     {
-      "id": "gn-pattern-103",
-      "title": "V기 전에: before doing",
-      "mentalModel": "전에 needs a noun-like action before it. Korean uses -기 before 전에 for actions.",
-      "formation": "Verb stem + 기 전에. Tense belongs in the main clause, not before 전에.",
+      "title": "V-기 전에 — before doing",
+      "func": "Use V-기 전에 to say one action happens before another: 'before V-ing'. The verb takes 기, then 전에 ('before') follows. The tense lives only in the main clause, never on the verb before 전에.",
+      "formTable": [
+        {
+          "when": "Verb (before doing)",
+          "add": "stem + 기 전에",
+          "ex": "자다 → 자기 전에, 먹다 → 먹기 전에"
+        },
+        {
+          "when": "Noun (before a thing/event)",
+          "add": "N + 전에 (no 기)",
+          "ex": "수업 전에, 점심 전에"
+        },
+        {
+          "when": "Tense stays on the main verb",
+          "add": "...기 전에 + past/present/future main verb",
+          "ex": "먹기 전에 손을 씻었어요"
+        }
+      ],
       "examples": [
         {
           "ko": "자기 전에 휴대폰 보는 것을 줄이기로 했어요.",
-          "romanization": "jagi jeone hyudaepon boneun geoseul jurigiro haesseoyo.",
-          "en": "I decided to reduce looking at my phone before sleeping.",
-          "note": "자기 전에 is fixed; 보는 것을 is the habit being reduced."
+          "romanization": "ja-gi jeon-e hyu-dae-pon bo-neun geos-eul ju-ri-gi-ro haess-eo-yo.",
+          "en": "I decided to cut down on looking at my phone before sleeping.",
+          "note": "자기 전에 is fixed with 기; 보는 것 is the habit being reduced."
         },
         {
-          "ko": "공부하기 전에 목표를 먼저 정해요.",
-          "romanization": "gongbuhagi jeone mokpyoreul meonjeo jeonghaeyo.",
-          "en": "Before studying, I set the goal first.",
-          "note": "공부하기 전에 names the action that comes before the main action."
+          "ko": "밥을 먹기 전에 손을 씻어요.",
+          "romanization": "bab-eul meog-gi jeon-e son-eul ssis-eo-yo.",
+          "en": "I wash my hands before eating.",
+          "note": "An everyday routine sentence; tense is on the main verb 씻어요."
+        },
+        {
+          "ko": "단어를 외우기 전에 예문을 먼저 들어요.",
+          "romanization": "dan-eo-reul oe-u-gi jeon-e ye-mun-eul meon-jeo deul-eo-yo.",
+          "en": "Before memorizing words, I listen to example sentences first.",
+          "note": "외우기 전에 is far more natural than trying to use 외우는 것 here."
         },
         {
           "ko": "말하기 전에 한 번 더 생각해요.",
-          "romanization": "malhagi jeone han beon deo saenggakaeyo.",
+          "romanization": "mal-ha-gi jeon-e han beon deo saeng-gak-hae-yo.",
           "en": "Before speaking, I think one more time.",
-          "note": "A reusable social habit sentence."
+          "note": "A handy social-habit sentence."
         }
       ],
-      "exceptions": [
-        "먹었기 전에 is wrong. Use 먹기 전에, then put tense on the main verb.",
-        "Before a noun, no -기 is needed: 수업 전에, 점심 전에, 회의 전에."
-      ]
+      "keyPoint": {
+        "label": "기 전에 vs N 전에",
+        "body": "Before a verb, you need 기: 먹기 전에, 자기 전에. Before a plain noun, there is no 기 — just add 전에: 수업 전에, 점심 전에, 운동 전에. And the opposite of 전에 is 후에 / -(으)ㄴ 후에 (after doing): 먹은 후에."
+      },
+      "pronunciation": "전에 [저네] in fast speech, as the ㄴ links to the next vowel. The 기 still tenses after a plain-consonant stem: 먹기 전에 [먹끼 저네].",
+      "drill": {
+        "instruction": "Complete each sentence with V-기 전에 using the bracketed verb.",
+        "model": "[자다] 이를 닦아요. → 자기 전에 이를 닦아요.",
+        "items": [
+          "[밥을 먹다] 손을 씻어요.",
+          "[나가다] 날씨를 확인해요.",
+          "[공부하다] 목표를 먼저 정해요."
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "밥을 먹었기 전에 손을 씻었어요.",
+        "right": "밥을 먹기 전에 손을 씻었어요.",
+        "explanation": "Do not put past tense on the verb before 전에. The verb before 전에 stays as plain 기 (먹기 전에); the past meaning goes on the main verb (씻었어요)."
+      }
     },
     {
-      "id": "gn-pattern-091",
-      "title": "V기 시작하다: start doing",
-      "mentalModel": "시작하다 can take a noun object, but when the action is a verb, Korean uses V기 시작하다.",
-      "formation": "Verb stem + 기 시작하다. The tense goes on 시작하다: 시작했어요, 시작해요, 시작할 거예요.",
+      "title": "V-기 시작하다 — start doing",
+      "func": "Use V-기 시작하다 to say you start an action. 시작하다 ('start') can take a plain noun object (운동을 시작하다), but when the thing you start is a verb, you nominalise it with 기 first. The tense goes on 시작하다.",
+      "formTable": [
+        {
+          "when": "Start a verb action",
+          "add": "stem + 기 시작하다",
+          "ex": "듣다 → 듣기 시작하다, 읽다 → 읽기 시작하다"
+        },
+        {
+          "when": "Tense lives on 시작하다",
+          "add": "...기 시작했어요 / 시작해요 / 시작할 거예요",
+          "ex": "걷기 시작했어요"
+        },
+        {
+          "when": "Start a noun (no 기)",
+          "add": "N을/를 시작하다",
+          "ex": "운동을 시작했어요"
+        }
+      ],
       "examples": [
         {
           "ko": "한국어 뉴스를 조금씩 듣기 시작했어요.",
-          "romanization": "hangugeo nyuseureul jogeumssik deutgi sijakaesseoyo.",
+          "romanization": "han-gug-eo nyu-seu-reul jo-geum-ssik deud-gi si-jak-haess-eo-yo.",
           "en": "I started listening to Korean news little by little.",
-          "note": "듣다 becomes 듣기 before 시작하다."
+          "note": "듣다 becomes 듣기 before 시작하다; the past tense is on 시작했어요."
         },
         {
           "ko": "아침에 걷기 시작하니까 잠이 덜 와요.",
-          "romanization": "achime geotgi sijakanikka jami deol wayo.",
+          "romanization": "a-chim-e geod-gi si-jak-ha-ni-kka jam-i deol wa-yo.",
           "en": "Since I started walking in the morning, I feel less sleepy.",
-          "note": "The whole started-action can become a reason with -니까."
+          "note": "The whole started action can become a reason with -니까."
         },
         {
           "ko": "책을 읽기 시작하면 휴대폰을 덜 보게 돼요.",
-          "romanization": "chaegeul ilkgi sijakamyeon hyudaeponeul deol boge dwaeyo.",
+          "romanization": "chaeg-eul ilg-gi si-jak-ha-myeon hyu-dae-pon-eul deol bo-ge dwae-yo.",
           "en": "Once I start reading a book, I end up looking at my phone less.",
-          "note": "시작하면 makes the start a condition."
+          "note": "시작하면 turns the start into a condition."
+        },
+        {
+          "ko": "운동을 시작했어요.",
+          "romanization": "un-dong-eul si-jak-haess-eo-yo.",
+          "en": "I started exercising.",
+          "note": "운동 is already a noun, so it takes 을 directly — no 기 needed."
         }
       ],
-      "exceptions": [
-        "Do not attach -기 to a noun: 운동기 시작하다 is wrong. Say 운동을 시작하다 or 운동하기 시작하다 depending on the frame.",
-        "오게 시작하다 is not the Korean equivalent of \"start to come.\" Use 오기 시작하다."
-      ]
+      "keyPoint": {
+        "label": "기 시작하다 vs N 시작하다",
+        "body": "If you start a verb action, nominalise it: 걷기 시작하다, 듣기 시작하다, 읽기 시작하다. If you start a thing that is already a noun, just add 을/를: 운동을 시작하다, 공부를 시작하다. So '운동하다' becomes 운동하기 시작하다 OR 운동을 시작하다 — but never 운동기 시작하다."
+      },
+      "pronunciation": "The 기 tenses after a plain-consonant stem: 듣기 [듣끼], 읽기 [일끼], 걷기 [걷끼]. 시작하다 is [시자카다], with ㄱ + ㅎ blending into an aspirated sound.",
+      "drill": {
+        "instruction": "Rewrite each into 'started doing' with V-기 시작했어요.",
+        "model": "한국 드라마를 보다 → 한국 드라마를 보기 시작했어요.",
+        "items": [
+          "아침마다 걷다",
+          "한국어 뉴스를 듣다",
+          "매일 책을 읽다"
+        ]
+      },
+      "englishSpeakerPitfall": {
+        "wrong": "운동기 시작했어요.",
+        "right": "운동을 시작했어요. / 운동하기 시작했어요.",
+        "explanation": "Do not attach 기 to a noun. 운동 is a noun, so use 운동을 시작하다; only the verb 운동하다 can take 기 → 운동하기 시작하다."
+      }
     }
   ],
   "extendedVocabulary": [
