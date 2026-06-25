@@ -450,5 +450,17 @@
       "몇 attaches to the unit you need: 몇 시, 몇 분, 몇 잔, 몇 명.",
       "Age is socially sensitive: use 나이가 어떻게 되세요? before jumping to 몇 살이에요?"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3 sentences telling a friend the time you'll meet, the price of a coffee, and how many people are coming.",
+    "hint": "Use Sino-Korean numbers for minutes/price (세 시 삼십 분, 사천 원) and native numbers for the hour and counting people (세 시, 네 명).",
+    "model": "우리 세 시 삼십 분에 만나요. 커피는 사천 원이에요. 친구 네 명이 와요.",
+    "modelEn": "Let's meet at 3:30. The coffee is 4,000 won. Four friends are coming."
+  },
+  "canDo": [
+    "Tell the o'clock hour with native numbers (세 시 · 네 시)",
+    "Say minutes and prices with Sino-Korean numbers (삼십 분 · 사천 원)",
+    "Count people and things with native numbers plus a counter (네 명)",
+    "Ask \"how many / how much\" with 몇 and 얼마 (몇 시 · 얼마예요?)"
+  ]
 }

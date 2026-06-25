@@ -548,5 +548,17 @@
       "존댓말 is the broad polite category; 해요체 and 합쇼체 are both polite styles.",
       "Good Korean matches grammar, relationship, and setting together."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write the same short self-introduction twice — once for a job interview and once for a close friend — to show the difference in speech level.",
+    "hint": "Use the formal -(스)ㅂ니다 (합니다체) for the interview, and switch to 반말 (drop -요) for the friend.",
+    "model": "면접에서는 이렇게 말합니다. \"안녕하십니까? 저는 민수입니다. 잘 부탁드립니다.\" 친구한테는 이렇게 말해. \"안녕? 나는 민수야. 잘 지내?\"",
+    "modelEn": "In an interview I speak like this: \"Hello. I am Minsu. I look forward to working with you.\" To a friend I say it like this: \"Hi. I'm Minsu. How are you?\""
+  },
+  "canDo": [
+    "Use the formal polite ending in formal settings (-(스)ㅂ니다, 합니다체)",
+    "Choose between 해요체, 합니다체, and 반말 to fit the listener",
+    "Switch into casual 반말 with a close friend (drop -요)",
+    "Match my speech level to the situation (발표 · 면접 · 친구)"
+  ]
 }

@@ -563,5 +563,17 @@
       "Passive/result verbs like 잡히다, 닫히다, 팔리다, 보이다 focus on the result or visible state.",
       "Causatives like 먹이다, 앉히다, 입히다 add someone who causes another person to act or enter a state."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short note to a roommate about a club notice: describe the notice using a clause before the noun, and mention what got changed and what you have to do.",
+    "hint": "Stack a modifying clause before a noun (어제 올라온 공지), use a passive verb (일정이 바뀌었어요 / 변경됐어요, 문이 닫혔어요), and a causative if it fits (사람들에게 알리다 → 알렸어요).",
+    "model": "어제 게시판에 올라온 공지를 봤는데, 모임 일정이 바뀌었어요. 변경된 시간은 토요일 2시예요. 그래서 친구들한테도 그 소식을 알렸어요. 그날은 일찍 문이 닫히니까 늦지 마세요.",
+    "modelEn": "I saw the notice that was posted on the board yesterday, and the meeting schedule changed. The changed time is Saturday at 2. So I let our friends know the news too. The door closes early that day, so don't be late."
+  },
+  "canDo": [
+    "Pack a whole clause before a noun to describe it (어제 올라온 공지, 변경된 일정)",
+    "Describe what happens to something with passive verbs (바뀌다, 닫히다, 팔리다)",
+    "Say someone makes/lets another do something with causatives (알리다, 먹이다)",
+    "Build longer, more precise noun phrases for notices and schedules"
+  ]
 }

@@ -647,5 +647,16 @@
       "Use real change words too: 바뀌다, 달라지다, 늘다, 줄다.",
       "Do not use 게 되다 to hide a simple decision unless the situation really led you there."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short note about a decision you made and a change that has happened since, like starting a new habit.",
+    "hint": "Use V-기로 했어요 for the decision, V-게 됐어요 for what came about, and A-아/어졌어요 for how something became.",
+    "model": "저는 매일 운동하기로 했어요. 그래서 아침에 일찍 일어나게 됐어요. 요즘 건강이 좋아졌어요.",
+    "modelEn": "I decided to exercise every day. So I ended up getting up early in the morning. These days my health has gotten better."
+  },
+  "canDo": [
+    "Announce a decision you made (운동하기로 했어요)",
+    "Describe a change that came about from circumstances (-게 됐어요)",
+    "Say how a state changed over time (좋아졌어요 · 달라졌어요)"
+  ]
 }

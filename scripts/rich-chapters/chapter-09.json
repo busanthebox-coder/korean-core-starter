@@ -587,5 +587,17 @@
       "도 돼요? = TRAFFIC LIGHT: V아/어도 돼요? asks if YOU are allowed to perform the action",
       "지 마세요 = RED X SIGN: V지 마세요 prohibits an action | 아/어야 해요 = MUST-DO CHECKLIST: V아/어야 해요 requires an action"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Leave a short note for a guest in your home: ask them to do one thing, grant one permission, and state one rule.",
+    "hint": "Use V아/어 주세요 to ask them to do something, V아/어도 돼요 for permission, and V지 마세요 / V아/어야 돼요 for the rule.",
+    "model": "문을 닫아 주세요. 여기 앉아도 돼요. 하지만 사진은 찍지 마세요. 신발은 벗어야 돼요.",
+    "modelEn": "Please close the door. You may sit here. But please don't take photos. You have to take off your shoes."
+  },
+  "canDo": [
+    "Ask someone to do something for you with V아/어 주세요 (도와주세요)",
+    "Ask or give permission with V아/어도 돼요? (앉아도 돼요?)",
+    "Tell someone not to do something with V지 마세요 (찍지 마세요)",
+    "Say what must be done with V아/어야 돼요 (가야 돼요)"
+  ]
 }

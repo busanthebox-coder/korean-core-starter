@@ -678,5 +678,17 @@
       "Softened refusal: 참석하기 어렵겠습니다.",
       "-(으)ㄹ 거예요 is an ordinary future plan; -(으)ㄹ 것 같아요 is a tentative guess."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "A customer emailed asking about their order. Reply: say you'll check it right away, then add a careful guess about when the result will come.",
+    "hint": "Use V-겠습니다/겠어요 for your own intention (확인하겠습니다), and A/V-겠네요 or -(으)ㄹ 것 같아요 for a soft guess.",
+    "model": "주문은 제가 바로 확인하겠습니다. 자료를 처리하고 결과를 알려 드리겠습니다. 오늘 안에 끝날 것 같아요.",
+    "modelEn": "I'll check your order right away. I'll process the materials and let you know the result. I think it'll be done within today."
+  },
+  "canDo": [
+    "State my own intention politely with V-겠습니다 / V-겠어요 (확인하겠습니다)",
+    "Make a careful inference from evidence with A/V-겠네요 (바쁘겠네요)",
+    "Talk about a future plan with V-(으)ㄹ 거예요 (기다릴 거예요)",
+    "Soften a statement into a tentative guess with -(으)ㄹ 것 같아요 (끝날 것 같아요)"
+  ]
 }

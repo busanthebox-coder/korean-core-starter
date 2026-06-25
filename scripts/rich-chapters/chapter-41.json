@@ -839,5 +839,16 @@
       "ㅎ irregular: 빨갛다→빨개요, 어떻다→어때요, but 좋다→좋아요.",
       "ㄹ deletion: 알다→알아요, but 아세요/압니다/아는."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3-4 sentences about today's weather and how you feel, using describing words that are irregular verbs.",
+    "hint": "Conjugate irregulars into 해요체: ㅂ (춥다→추워요, 덥다→더워요, 맵다→매워요), ㄷ (듣다→들어요), ㅡ (바쁘다→바빠요), 르 (모르다→몰라요, 다르다→달라요).",
+    "model": "오늘은 날씨가 추워요. 요즘 저는 너무 바빠요. 그래서 음악을 들어요. 한국어가 어려워도 답을 몰라도 괜찮아요.",
+    "modelEn": "Today the weather is cold. These days I'm very busy. So I listen to music. Even if Korean is hard and I don't know the answer, it's okay."
+  },
+  "canDo": [
+    "Conjugate ㅂ-irregular adjectives correctly (춥다→추워요 · 어렵다→어려워요)",
+    "Conjugate ㄷ-irregular verbs correctly (듣다→들어요 · 걷다→걸어요)",
+    "Conjugate 르-irregular and ㅡ-irregular words (모르다→몰라요 · 바쁘다→바빠요)"
+  ]
 }

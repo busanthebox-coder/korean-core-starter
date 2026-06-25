@@ -809,5 +809,18 @@
       "Room-reading set: 눈치, 분위기, 어색하다, 도와드리다, 수고하셨습니다.",
       "Gratitude set: 덕분에 is for positive causes; 때문에 can sound like blame."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Advise a foreign friend on what gift to bring to a Korean housewarming and how to address people there.",
+    "hint": "Use V/A-잖아요 for shared knowledge, V/A-거든요 to explain background, V/A-는데요 to soften, V/A-(으)ㄴ/는 편이다 for a tendency, and V/A-(으)니까 for a reason leading to advice.",
+    "model": "집들이에는 보통 휴지나 세제를 선물하잖아요. 그게 좋은 뜻이 있거든요. 그리고 선배는 나이가 많은 편이니까 호칭을 조심하는 게 좋은데요.",
+    "modelEn": "For a housewarming, people usually give toilet paper or detergent, you know. It carries a good meaning, you see. And since seniors tend to be older, it's good to be careful with how you address them."
+  },
+  "canDo": [
+    "Remind someone of shared knowledge (선물하잖아요)",
+    "Explain background or a reason (좋은 뜻이 있거든요)",
+    "Soften a statement or careful question (조심하는 게 좋은데요)",
+    "Describe a tendency modestly (나이가 많은 편이에요)",
+    "Give a reason that leads into advice (선배니까 호칭을 조심하세요)"
+  ]
 }

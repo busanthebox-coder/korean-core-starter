@@ -624,5 +624,17 @@
       "V아/어 주세요 = the FAVOR TICKET: swap any verb in front of 주세요 for any polite request — 말해 주세요, 써 주세요, 찍어 주세요",
       "Repair toolkit: 다시 말해 주세요 (again), 천천히 말해 주세요 (slowly), 잘 모르겠어요 (I'm not sure) — use these freely and Koreans will respect you for it"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a 3-sentence text to a friend: tell them your office hours, then ask them to speak slowly and say it again.",
+    "hint": "Use N부터 N까지 for the time range, and V아/어 주세요 for the two requests (천천히 말해 주세요, 다시 말해 주세요).",
+    "model": "저는 아홉 시부터 여섯 시까지 일해요. 천천히 말해 주세요. 다시 말해 주세요.",
+    "modelEn": "I work from nine to six. Please speak slowly. Please say it again."
+  },
+  "canDo": [
+    "Give a time or place range with N부터 N까지 (아홉 시부터 여섯 시까지)",
+    "Ask someone to do something for me with V아/어 주세요 (말해 주세요)",
+    "Ask for repetition or a slower pace when lost (다시 · 천천히)",
+    "Ask where a place is using survival words (화장실 · 출구 · 지하철역)"
+  ]
 }

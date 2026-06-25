@@ -772,5 +772,18 @@
       "-(으)ㄹ 것 같아요 gives a cautious forecast, while -(으)ㄹ 텐데 adds concern or a soft warning.",
       "N 때문에 explains a weather cause, and V/A면 sets the condition for what to do next."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Text a friend a quick weather update and one piece of advice for tomorrow's outing.",
+    "hint": "Use -(으)ㄹ 것 같아요 to guess the weather, -(으)ㄹ 텐데 to add concern, and N 때문에 for the cause.",
+    "model": "내일은 비가 올 것 같아요. 비 때문에 추울 텐데 우산하고 따뜻한 옷을 가져오세요. 비가 오면 우리 집에서 만나요.",
+    "modelEn": "I think it'll rain tomorrow. It'll probably be cold because of the rain, so bring an umbrella and warm clothes. If it rains, let's meet at my place."
+  },
+  "canDo": [
+    "Make a soft weather guess from what I see (비가 올 것 같아요)",
+    "Forecast a likely situation and add advice (추울 텐데 우산을 가져오세요)",
+    "Set up a weather condition and its result (비가 오면 집에 있어요)",
+    "Name a weather event as the cause (비 때문에, 황사 때문에)",
+    "Point to a time or situation when something happens (추울 때)"
+  ]
 }

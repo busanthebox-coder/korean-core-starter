@@ -662,5 +662,17 @@
       "Fallback: 한 시간이라도 means one hour is not ideal, but it is enough to act.",
       "Vocabulary fit: roles and time nouns belong here because 이다 forms attach directly to nouns."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3-4 sentences about what your job was last year and what plans you have for the weekend, ending sentences in nouns.",
+    "hint": "Use 이다 forms: N이었어요/였어요 (was), N인데 (it's N, and/so), N이라서/라서 (because it's N), N이니까/니까 (since it's N, so), N이라도/라도 (even just N).",
+    "model": "작년에 저는 학생이었어요. 올해는 회사원인데 일이 많아요. 내일은 주말이라서 회사에 안 가요. 주말이니까 친구하고 커피라도 마실까요?",
+    "modelEn": "Last year I was a student. This year I'm an office worker, and there's a lot of work. Tomorrow is the weekend, so I won't go to the office. Since it's the weekend, shall we at least grab a coffee with a friend?"
+  },
+  "canDo": [
+    "Say what something was in the past (학생이었어요 · 주말이었어요)",
+    "Set the scene or mark mild contrast on a noun (회사원인데 · 주말인데도)",
+    "Give a noun-based reason (주말이라서 · 주말이니까)",
+    "Offer a fallback option with N이라도/라도 (커피라도 마셔요)"
+  ]
 }

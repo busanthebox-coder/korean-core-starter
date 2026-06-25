@@ -586,5 +586,17 @@
       "만 = SPOTLIGHT: limits the sentence to exactly one thing, excluding everything else. Place it directly after the word you want to isolate.",
       "로/으로 = CHANNEL SELECTOR: marks the method, means, or tool of an action. Use 로 after vowels or ㄹ; use 으로 after other consonants."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Order at a café counter: ask for one item, add one more thing, and say how you'll pay.",
+    "hint": "Use N도 for 'also' and N만 for 'only', and (으)로 for the payment method (카드로); end a request with 주세요.",
+    "model": "커피 한 잔만 주세요. 물도 주세요. 카드로 계산할게요.",
+    "modelEn": "Just one coffee, please. Water too, please. I'll pay by card."
+  },
+  "canDo": [
+    "Add one more thing with N도 and limit to one with N만",
+    "Say the payment method or means with N(으)로 (카드로, 현금으로)",
+    "Make a simple request with 주세요 (커피 하나 주세요)",
+    "Ask the price and respond (얼마예요? · 됩니다/돼요)"
+  ]
 }

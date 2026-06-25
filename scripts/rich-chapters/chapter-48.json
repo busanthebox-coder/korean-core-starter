@@ -880,5 +880,17 @@
       "Cause choices: 아파서 is neutral, 때문에 names the problem, 니까 leads to advice, 는 바람에 implies disruption.",
       "Instruction frame: 약은 식후에 드셔야 해요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "At the clinic, explain your symptoms to the doctor: say what hurts, what symptom came out, why you came, and what you couldn't do.",
+    "hint": "Use body part + 이/가 아프다 (목이 아파요), symptom + 이/가 나다 (열이 나요), -아서/어서 for cause-result (아파서 왔어요), and 못 + V for what you couldn't do (잠을 못 잤어요).",
+    "model": "어제부터 목이 아프고 열이 나요. 감기 때문에 머리도 아파요. 너무 아파서 병원에 왔어요. 어젯밤에는 기침 때문에 잠을 못 잤어요.",
+    "modelEn": "Since yesterday my throat hurts and I have a fever. Because of a cold my head hurts too. It hurt so much that I came to the hospital. Last night I couldn't sleep because of the cough."
+  },
+  "canDo": [
+    "Say what hurts with body part + 이/가 아프다 (목이 아파요)",
+    "Describe a symptom 'coming out' with 이/가 나다 (열이 나요, 기침이 나요)",
+    "Explain the visit with cause-result -아서/어서 and N 때문에 (아파서 왔어요, 감기 때문에)",
+    "Say what a symptom kept me from doing with 못 + V (잠을 못 잤어요)"
+  ]
 }

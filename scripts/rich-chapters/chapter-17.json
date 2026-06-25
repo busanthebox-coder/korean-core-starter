@@ -455,5 +455,17 @@
       "Memorize the high-frequency contractions: 했어요, 갔어요, 왔어요, 봤어요.",
       "First irregular: 춥다/덥다 become 추웠어요/더웠어요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Answer the question \"What did you do yesterday?\" in 3 sentences about where you went, who you met, and what you ate.",
+    "hint": "Use V았/었어요 for every verb (갔어요, 만났어요, 먹었어요).",
+    "model": "어제 친구를 만났어요. 같이 영화를 봤어요. 그리고 식당에서 밥을 먹었어요.",
+    "modelEn": "Yesterday I met a friend. We watched a movie together. And we ate at a restaurant."
+  },
+  "canDo": [
+    "Say a past action with the polite past tense V았/었어요 (먹었어요 · 갔어요)",
+    "Answer \"what did you do yesterday?\" in one clean sentence (어제 …었어요)",
+    "Conjugate the past tense correctly by vowel harmony (만났어요 · 봤어요 · 했어요)",
+    "Place a past time word at the start (어제 · 지난주 · 작년)"
+  ]
 }

@@ -462,5 +462,17 @@
       "몇, 무슨, and 어느 attach before nouns: 몇 명, 무슨 뜻, 어느 카페.",
       "Best check: answer the question and see whether the answer fits the same slot."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "You just met someone new — write 3 short questions to keep the conversation going: ask where they live, what they do on weekends, and when they're free.",
+    "hint": "Put the question word in the answer's slot, with no inversion (어디 살아요? / 주말에 뭐 해요? / 언제 시간이 있어요?).",
+    "model": "어디에 살아요? 주말에 보통 뭐 해요? 언제 시간이 있어요?",
+    "modelEn": "Where do you live? What do you usually do on weekends? When are you free?"
+  },
+  "canDo": [
+    "Ask who, what, where with question words in the answer's slot (누구 · 뭐 · 어디)",
+    "Ask when and why without changing word order (언제 · 왜)",
+    "Ask how, how many, and how much (어떻게 · 몇 · 얼마나)",
+    "Ask follow-up questions that keep a conversation moving (질문 · 대답)"
+  ]
 }

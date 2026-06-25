@@ -810,5 +810,18 @@
       "Ticket flow: KTX 표를 예매하다, 편도/왕복을 choose, 매진이면 다음 기차를 확인하다.",
       "Delay flow: 지연 is for services; 늦다 is for people. 버스 지연 때문에 늦으면 택시로 갈게요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Message a friend explaining your route to meet them, including a fallback if something goes wrong.",
+    "hint": "Use N(으)로 for the means, V-(으)러 가다 for purpose, V-(으)려고 해요 for intention, A/V-(으)면 for a condition, N 때문에 for a cause, and V-(으)ㄹ 때 for timing.",
+    "model": "지하철 2호선으로 가려고 해요. 표를 사러 매표소에 갈 거예요. 갈아탈 때 조심하세요. 사고 때문에 늦으면 버스로 갈게요.",
+    "modelEn": "I'm planning to go by subway line 2. I'll go to the ticket office to buy a ticket. Be careful when you transfer. If I'm late because of an accident, I'll go by bus."
+  },
+  "canDo": [
+    "Say what I travel by or which way I go (버스로, 2호선으로)",
+    "Give the purpose of a trip (표를 사러 가요)",
+    "State a travel intention (예매하려고 해요)",
+    "Make a fallback plan with a condition (늦으면 버스로 가요)",
+    "Explain a delay's cause and tie a tip to a moment (사고 때문에, 갈아탈 때 조심하세요)"
+  ]
 }

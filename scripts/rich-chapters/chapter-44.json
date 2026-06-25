@@ -618,5 +618,16 @@
       "격음화: ㅎ creates aspirated sounds, as in 좋다 [조타] and 입학 [이팍].",
       "Do not rewrite spelling as sound. Keep 먹어요, but practice saying [머거요]."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3-4 short sentences using everyday words whose spelling and sound differ, and note in English how one of them is pronounced.",
+    "hint": "Use words with sound changes: 연음 (한국어 → [한구거]), 경음화 (학교 → [학꾜]), 비음화 (국민 → [궁민]), 격음화 (좋다 → [조타]). Write the words normally; spelling stays the same.",
+    "model": "저는 한국어를 공부해요. 학교에서 밥을 먹어요. 김치는 좋아요. 그런데 한국어를 잘 못해요.",
+    "modelEn": "I study Korean. I eat at school. Kimchi is good. But I'm not good at Korean. (한국어 is written han-gug-eo but pronounced [han-gu-geo]: the final ㄱ links onto the next vowel.)"
+  },
+  "canDo": [
+    "Read a 받침 linking onto the next vowel (한국어 → [한구거], 연음)",
+    "Hear a plain consonant tense after a stop (학교 → [학꾜], 경음화)",
+    "Recognize nasalization and aspiration in speech (국민 → [궁민]; 좋다 → [조타])"
+  ]
 }

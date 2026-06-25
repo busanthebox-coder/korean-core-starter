@@ -573,5 +573,17 @@
       "만큼 marks equal degree or expectation: 생각만큼 비싸지 않아요.",
       "취향 helps soften preference talk: 제 취향이에요, 취향에 맞아요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3 sentences comparing two foods or drinks: say what you like, which you like more, and one that isn't as good as you hoped.",
+    "hint": "Use N을/를 좋아해요 (커피를 좋아해요), N보다 더 for the comparison (차보다 더), and N만큼 for the equal/not-as comparison (커피만큼).",
+    "model": "저는 커피를 좋아해요. 커피가 차보다 더 좋아요. 그런데 이 차는 커피만큼 맛있지 않아요.",
+    "modelEn": "I like coffee. Coffee is better than tea. But this tea isn't as tasty as coffee."
+  },
+  "canDo": [
+    "Say what I like with the object marker, N을/를 좋아해요 (음악을 좋아해요)",
+    "Compare two things with N보다 더 (커피보다 더 좋아요)",
+    "Say something is as much / not as much as another with N만큼 (커피만큼)",
+    "Say what fits my taste and what I dislike (취향 · 싫어하다 · 제일)"
+  ]
 }

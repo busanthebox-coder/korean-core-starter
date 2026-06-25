@@ -585,5 +585,16 @@
       "V-는 동안 marks an overlapping time span: 회의하는 동안 메시지를 못 봤어요.",
       "Do not use -고 있어요 with adjectives like 바쁘다 or 피곤하다."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Reply to a friend's message saying what you're doing right now and asking them to wait a moment.",
+    "hint": "Use V-고 있다 for an action in progress (공부하고 있어요), V-는 중이에요 for 'in the middle of' (회의 중이에요), and V-는 동안 for 'while' (기다리는 동안).",
+    "model": "지금 회의하는 중이에요. 친구를 기다리는 동안 메시지를 보내요. 잠깐만요, 지금 일하고 있어요.",
+    "modelEn": "I'm in the middle of a meeting right now. I'm sending this message while waiting for a friend. Just a moment, I'm working right now."
+  },
+  "canDo": [
+    "Say an action is in progress with V-고 있다 (공부하고 있어요)",
+    "Say I'm in the middle of something with V-는 중이에요 (회의 중이에요)",
+    "Set one action against a stretch of time with V-는 동안 (기다리는 동안)"
+  ]
 }

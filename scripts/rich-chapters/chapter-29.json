@@ -526,5 +526,16 @@
       "Use -다가, not -고 나서, when the first action did not simply finish before the second.",
       "Result-state sentences usually make the thing or person in the state the subject: 문이, 불이, 사람이."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Text a friend explaining that you were on your way but something interrupted, and describe where you're waiting now.",
+    "hint": "Use V-다가 to break off one action for another (가다가), and V-아/어 있다 for the leftover state (앉아 있어요).",
+    "model": "버스를 타고 가다가 문자를 받았어요. 그래서 중간에 내렸어요. 지금 카페에 앉아 있어요. 문도 열려 있어요.",
+    "modelEn": "I was going by bus when I got a text. So I got off midway. I'm sitting in a cafe now. The door is open too."
+  },
+  "canDo": [
+    "Break off one action to switch to another with V-다가 (가다가 받았어요)",
+    "Describe a state left after an action with V-아/어 있다 (앉아 있어요, 열려 있어요)",
+    "Explain a mid-action change with everyday words (중간에, 바꾸다, 취소하다)"
+  ]
 }

@@ -552,5 +552,17 @@
       "Instructions: -(으)라고 했어요.",
       "Embedded questions: -는지 with 알다, 모르다, 확인하다, 궁금하다."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Message a classmate to relay what the teacher announced today: what the teacher said about the homework, and what a classmate asked you about it.",
+    "hint": "Report a statement with -다고 했어요 (제출하라고 했어요 / 어렵다고 했어요), report a question with -냐고 물어봤어요, and embed a question with -는지 (언제까지인지 몰라서).",
+    "model": "선생님이 오늘 숙제를 금요일까지 제출하라고 했어요. 그리고 시험이 어렵다고 했어요. 민수 씨가 저한테 숙제가 언제까지냐고 물어봤는데, 저도 정확히 언제까지인지 몰라서 다시 확인했어요.",
+    "modelEn": "The teacher said today to submit the homework by Friday. And said the exam is hard. Minsu asked me when the homework is due, but I didn't know exactly when it was due either, so I checked again."
+  },
+  "canDo": [
+    "Pass along what someone said with -다고 했어요 (어렵다고 했어요)",
+    "Relay an order with -(으)라고 하다 (제출하라고 했어요)",
+    "Report a question someone asked with -냐고 물어봤어요",
+    "Tuck a question inside a sentence with -는지/-(으)ㄴ지 (언제까지인지 몰라요)"
+  ]
 }

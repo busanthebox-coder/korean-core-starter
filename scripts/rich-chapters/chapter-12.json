@@ -614,5 +614,17 @@
       "-잖아(요) = REPLAY BUTTON: reminds listener of something they already know or should know — shared information",
       "-거든(요) = UPLOAD BUTTON: introduces new background information or a reason the listener didn't have — use this when telling someone something for the first time"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short comment giving your opinion about a movie you just watched, softening it and adding a reason.",
+    "hint": "Use -는 것 같다 to soften your opinion, and use -거든요 (new info) or -잖아요 (shared info) to give a reason.",
+    "model": "이 영화는 좀 지루한 것 같아요. 전개가 너무 느리거든요. 그래도 배우 연기는 좋잖아요.",
+    "modelEn": "I think this movie is a bit boring. The pacing is too slow (you see). But the acting is good, you know."
+  },
+  "canDo": [
+    "Soften an opinion so it sounds less blunt (-는 것 같다)",
+    "Give a reason as new information the listener didn't know (-거든요)",
+    "Remind the listener of something you both already know (-잖아요)",
+    "Talk about a movie or story using 전개 · 결말 · 연기 · 주인공"
+  ]
 }

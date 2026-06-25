@@ -614,5 +614,16 @@
       "Never say 비가 때문에. Say 비 때문에 or 비가 와서.",
       "If 바람에 sounds like an excuse, add apology or responsibility."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Text a friend to apologize for being late, explaining the cause and the unexpected thing that went wrong.",
+    "hint": "Use V/A-아서/어서 for 'because, so' (늦어서), V-는 바람에 for an unexpected cause (버스가 고장 나는 바람에), and N 때문에 for 'because of' a noun (비 때문에).",
+    "model": "비 때문에 길이 많이 막혔어요. 버스가 고장 나는 바람에 약속에 늦었어요. 정말 늦어서 미안해요.",
+    "modelEn": "Because of the rain, the roads were very jammed. The bus broke down, so I was late for our appointment. I'm really sorry for being late."
+  },
+  "canDo": [
+    "Link a cause to its result with V/A-아서/어서 (늦어서 미안해요)",
+    "Blame an unexpected mishap with V-는 바람에 (고장 나는 바람에 늦었어요)",
+    "Point to a noun cause with N 때문에 (비 때문에 막혔어요)"
+  ]
 }

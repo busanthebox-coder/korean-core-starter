@@ -617,5 +617,17 @@
       "Platform actions need Korean verbs: 댓글을 달다, 좋아요를 누르다, 친구한테 공유하다.",
       "A close friend chat, live chat, professor message, and company post require different surfaces even when the feeling is the same."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Reply to a friend's funny video in a casual KakaoTalk chat (2-3 lines): react with chat tokens and an intensifier, and mention a platform action.",
+    "hint": "Use chat tokens (ㅋㅋ, ㅇㅇ, ㄹㅇ) and intensifiers (완전/진짜/대박), plus a fixed platform phrase like 좋아요 누르다 or 공유하다.",
+    "model": "ㅋㅋㅋ 이거 완전 레전드 ㄹㅇ 개웃겨\n나도 방금 좋아요 눌렀어 ㅇㅇ\n친구한테 공유했어",
+    "modelEn": "Hahaha this is totally legendary, for real so funny. I just hit like too, yeah. I shared it with a friend."
+  },
+  "canDo": [
+    "Read and use chat tokens like ㅋㅋ, ㅠㅠ, ㅇㅇ, ㄹㅇ, ㅇㅈ in casual messages",
+    "Crank up the feeling with colloquial intensifiers (완전 / 진짜 / 대박 / 레전드)",
+    "Use fixed platform verb pairings (좋아요 누르다, 댓글 달다, 공유하다)",
+    "Switch register correctly — ㅇㅇ with friends vs 네 / 알겠어요 in formal replies"
+  ]
 }

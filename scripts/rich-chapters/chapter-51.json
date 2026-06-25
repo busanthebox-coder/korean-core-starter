@@ -762,5 +762,18 @@
       "맞다 is size fit, 어울리다 is style harmony, and 단정해 보이다 is presentable appearance.",
       "Use 보여 주시겠어요? for polite staff requests and N보다 더 A for comparing options."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short message to a shop clerk while trying on clothes: compliment a color, ask for another size, and compare two items.",
+    "hint": "Use A/V-아/어 보이다 to say how it looks, A-(으)ㄴ N for the adjective+noun, N보다 (더) to compare, and V-아/어 주시겠어요? to ask politely.",
+    "model": "이 남색 코트가 정말 따뜻해 보여요. 이 코트가 저 코트보다 더 예뻐요. 한 사이즈 작은 옷을 보여 주시겠어요?",
+    "modelEn": "This navy coat looks really warm. This coat is prettier than that coat. Could you show me a size smaller?"
+  },
+  "canDo": [
+    "Invite someone to try something on (한번 입어 보세요)",
+    "Ask a clerk politely for help (다른 사이즈를 보여 주시겠어요?)",
+    "Say how clothes or a person look (따뜻해 보여요, 예뻐 보여요)",
+    "Put a descriptive adjective before a noun (예쁜 치마, 긴 바지)",
+    "Compare two items (이 옷이 저 옷보다 더 좋아요)"
+  ]
 }

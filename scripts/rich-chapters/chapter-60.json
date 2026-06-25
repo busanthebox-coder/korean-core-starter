@@ -884,5 +884,17 @@
       "Fixed frames do not freely switch forms: 기로 했어요, 기 위해서, 기 전에, and 기 시작하다 stay with -기.",
       "The vocabulary set is tied to the grammar: study actions, health habits, and reduction goals naturally force the -기 vs -는 것 choice."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3 sentences about a new habit: what you decided to do, why (the purpose), and that you've started — turning the actions into nouns.",
+    "hint": "Use V-기로 했어요 for the decision, V-기 위해(서) for the purpose, and V-기 시작했어요 to say you started; name actions with V-기 or V-는 것.",
+    "model": "저는 매일 아침에 운동하기로 했어요. 건강해지기 위해서 일찍 걷기 시작했어요. 운동하는 것이 생각보다 어렵지 않아요.",
+    "modelEn": "I decided to exercise every morning. To get healthy, I started walking early. Exercising isn't as hard as I thought."
+  },
+  "canDo": [
+    "Name an action as a noun with V-기 (운동하기) and V-는 것 (운동하는 것)",
+    "Express a decision or plan with V-기로 했어요 (운동하기로 했어요)",
+    "Give the purpose of an action with V-기 위해(서) (건강해지기 위해서)",
+    "Say something happens before another action (V-기 전에) and that you start it (V-기 시작하다)"
+  ]
 }

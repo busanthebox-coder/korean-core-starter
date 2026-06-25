@@ -600,5 +600,16 @@
       "-(으)ㄹ지도 몰라요 keeps a possibility open: 버스가 늦을지도 몰라요.",
       "Do not use evidence-based inference for your own obvious feeling. Say 피곤해요, not 저는 피곤한가 봐요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Text a friend a careful guess about the weather and why they should bring an umbrella.",
+    "hint": "Use A/V-(으)ㄹ 것 같아요 for a soft guess (올 것 같아요), V/A-나 봐요 for a guess from a clue (흐린가 봐요), and A/V-(으)ㄹ지도 몰라요 for 'might' (올지도 몰라요).",
+    "model": "하늘이 흐린가 봐요. 오후에 비가 올 것 같아요. 비가 올지도 모르니까 우산을 가져가세요.",
+    "modelEn": "It seems cloudy out. I think it'll rain in the afternoon. It might rain, so please take an umbrella."
+  },
+  "canDo": [
+    "Make a soft guess with A/V-(으)ㄹ 것 같아요 (비가 올 것 같아요)",
+    "Guess from a clue I notice with V/A-나 봐요 (흐린가 봐요)",
+    "Flag an uncertain possibility with A/V-(으)ㄹ지도 몰라요 (늦을지도 몰라요)"
+  ]
 }

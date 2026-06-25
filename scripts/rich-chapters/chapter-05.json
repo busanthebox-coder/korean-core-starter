@@ -580,5 +580,17 @@
       "안 = STOP SIGN before a pure verb (안 먹어요); for noun+하다 verbs split it: noun + 안 + 해요",
       "Key daily verbs with their objects: 밥을 먹다, 커피를 마시다, 한국어를 공부하다, 책을 읽다, 음악을 듣다, 영화를 보다"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3 sentences about your daily routine: two things you do and one thing you don't do.",
+    "hint": "Mark the thing with N을/를 and use the present tense (먹어요, 마셔요); make one negative with 안 + verb.",
+    "model": "저는 밥을 먹어요. 커피를 마셔요. 그런데 술은 안 마셔요.",
+    "modelEn": "I eat rice. I drink coffee. But I don't drink alcohol."
+  },
+  "canDo": [
+    "Mark what the action happens to with N을/를 (밥을, 커피를)",
+    "Say everyday actions in the polite present tense (먹어요, 마셔요)",
+    "Make a verb negative with 안 + verb (안 먹어요)",
+    "Choose 을 or 를 from the noun's 받침"
+  ]
 }

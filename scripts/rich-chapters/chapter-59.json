@@ -775,5 +775,17 @@
       "For negative conditions, place the negation before -더라면: 포기하지 않았더라면, 놓치지 않았더라면.",
       "The most useful vocabulary set is not random: 미리 알다, 일찍 도착하다, 버스를 놓치다, 결과가 달라지다, 후회하다, 사과하다."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "You missed the bus and were late for an exam. Write a short note regretting it: one wish, and one 'if I had... I would have...' counterfactual.",
+    "hint": "Use V-았/었으면 좋겠어요 for a wish, and V-았/었으면 … -았/었을 텐데요 (or -았/었더라면 … -았/었을 거예요) for the missed past.",
+    "model": "조금 더 일찍 일어났으면 좋겠어요. 미리 준비했더라면 버스를 놓치지 않았을 거예요. 일찍 도착했으면 시험을 잘 봤을 텐데요.",
+    "modelEn": "I wish I'd gotten up a little earlier. If I had prepared in advance, I wouldn't have missed the bus. If I'd arrived early, I would have done well on the exam."
+  },
+  "canDo": [
+    "Express a wish that things were different with V-았/었으면 좋겠어요 (일찍 일어났으면 좋겠어요)",
+    "Regret a missed past with V-았/었으면 … -았/었을 텐데요 (도착했으면 … 봤을 텐데요)",
+    "State a reflective counterfactual with V-았/었더라면 … -았/었을 거예요 (준비했더라면 … 놓치지 않았을 거예요)",
+    "Tell an open condition (-(으)면) from a missed one (-았/었으면)"
+  ]
 }

@@ -736,5 +736,18 @@
       "N 주세요 orders an item; V아/어 주세요 requests an action.",
       "-아서/어서 explains a plain result, while -(으)니까 works well before a request or suggestion."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write what you say at a Korean BBQ restaurant: order food, ask the server to do one thing, and announce what you'll have.",
+    "hint": "Use N 주세요 to order, V-아/어 주세요 to ask for an action, V-고 to chain actions, A/V-아서/어서 for a reason, and V-(으)ㄹ게요 to announce your choice.",
+    "model": "여기 삼겹살 이 인분 주세요. 고기를 다 굽고 먹기 좋게 잘라 주세요. 저는 배가 고파서 먼저 먹을게요.",
+    "modelEn": "Two servings of pork belly here, please. Please grill the meat fully and cut it into bite-size pieces. I'm hungry, so I'll start eating first."
+  },
+  "canDo": [
+    "Order an item with a quantity (삼겹살 이 인분 주세요)",
+    "Ask the server to do something (잘라 주세요, 바꿔 주세요)",
+    "Chain food actions in order (고기를 굽고 자르고)",
+    "Give a food reason and result (매워서 물을 마셔요)",
+    "Announce what you'll have on the spot (저는 비빔밥을 먹을게요)"
+  ]
 }

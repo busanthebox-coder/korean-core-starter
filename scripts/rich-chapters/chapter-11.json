@@ -592,5 +592,17 @@
       "고 = COUPLING HOOK: neutral link between actions or descriptions, no cause needed (먹고 가요 / 싸고 맛있어요)",
       "면 = SWITCH TRACK: hypothetical condition before the result (시간이 있으면 전화해요) | ㄹ/을게요 = ENGINEER'S ANNOUNCEMENT: first-person speaker's promise only (전화할게요)"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a 3-sentence message canceling plans: give the reason you can't come, then promise to contact your friend later.",
+    "hint": "Use -아서/어서 for the reason (아파서), and -(으)ㄹ게요 for the promise (연락할게요).",
+    "model": "오늘 너무 아파서 약속에 못 가요. 정말 미안해요. 내일 연락할게요.",
+    "modelEn": "I'm too sick today, so I can't make our plans. I'm really sorry. I'll contact you tomorrow."
+  },
+  "canDo": [
+    "Link a reason to a result with -아서/어서 (아파서 못 가요)",
+    "List or sequence two ideas with -고 (바쁘고 피곤해요)",
+    "Set up a condition with -(으)면 (시간이 있으면)",
+    "Make a promise about what I'll do with -(으)ㄹ게요 (연락할게요)"
+  ]
 }

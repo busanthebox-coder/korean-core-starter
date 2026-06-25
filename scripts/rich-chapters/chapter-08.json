@@ -598,5 +598,17 @@
       "OPEN DOOR (ㄹ/을 수 있어요): Vowel stem + ㄹ 수 있어요 / Consonant stem + 을 수 있어요 = ability or possibility. The path is clear.",
       "LOCKED DOOR (못 + verb): 못 goes BEFORE the regular verb form. Regular verbs use forms like 못 가요; 하다 verbs use 못 해요. Never make hybrids like 못 가해요 or 못 하해요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Reply to a friend planning the weekend: say one thing you want to do, one thing you can do, and one thing you can't.",
+    "hint": "Use V-고 싶어요 for wants, V-(으)ㄹ 수 있어요 for can, and V-(으)ㄹ 수 없어요 (or 못) for can't.",
+    "model": "저는 영화를 보고 싶어요. 토요일에 갈 수 있어요. 그런데 일요일에는 못 가요.",
+    "modelEn": "I want to watch a movie. I can go on Saturday. But I can't go on Sunday."
+  },
+  "canDo": [
+    "Say what you want to do with V-고 싶어요 (가고 싶어요)",
+    "Say what you're able to do with V-(으)ㄹ 수 있어요",
+    "Say what you can't do with V-(으)ㄹ 수 없어요 or 못 + verb",
+    "Attach -(으)ㄹ correctly after a 받침 vs a vowel stem"
+  ]
 }

@@ -573,5 +573,17 @@
       "SPOTLIGHT rule: 은/는 marks what you're talking about (topic); consonant → 은, vowel → 는; 이건 (이것은) is the contraction you'll use most",
       "Negative: [noun]이/가 아니에요 — the 이/가 before 아니에요 is required and beginners often drop it"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "A new classmate points at three things and people and asks what they are; write your answers identifying each one.",
+    "hint": "Use N이에요/예요 to say what something is (이에요 after a 받침, 예요 after a vowel), and N이/가 아니에요 for one that is wrong.",
+    "model": "저는 학생이에요. 이 사람은 선생님이에요. 이건 제 이름이에요. 의사가 아니에요.",
+    "modelEn": "I'm a student. This person is a teacher. This is my name. (I'm) not a doctor."
+  },
+  "canDo": [
+    "Say what someone or something is with N이에요/예요",
+    "Pick 이에요 or 예요 from the noun's final sound (받침 vs vowel)",
+    "Single out a topic with N은/는 (저는, 이름은)",
+    "Say what something is NOT with N이/가 아니에요"
+  ]
 }

@@ -612,5 +612,17 @@
       "Completed action descriptions point to a noun already affected by an action: 어제 본 가방, 새로 들어온 물건.",
       "Best check: if the word ends like a sentence, change it before placing it in front of a noun."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Describe a lost item to staff at an information desk in 3 sentences: name the bag you're looking for, what's inside, and where you saw it.",
+    "hint": "Use A-(으)ㄴ N for adjectives (작은 가방), V-는 N for a current action (찾는 가방), and V-(으)ㄴ N for a finished one (어제 본 가방).",
+    "model": "저는 작은 가방을 찾아요. 제가 찾는 가방은 까만색이에요. 어제 여기에서 본 가방이에요.",
+    "modelEn": "I'm looking for a small bag. The bag I'm looking for is black. It's the bag I saw here yesterday."
+  },
+  "canDo": [
+    "Put an adjective before a noun with A-(으)ㄴ N (작은 가방 · 예쁜 옷)",
+    "Describe a noun by a current or habitual action with V-는 N (찾는 가방)",
+    "Describe a noun by a finished action with V-(으)ㄴ N (어제 본 영화)",
+    "Pick out the exact person or thing I mean from several"
+  ]
 }

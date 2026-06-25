@@ -854,5 +854,16 @@
       "Sets and machines: 벌 for clothing sets, 대 for vehicles and machines.",
       "번 can mean times or number labels: 세 번 vs 삼 번."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3-4 sentences counting different things around you: people, drinks, books, and animals.",
+    "hint": "Use NOUN + NUMBER + COUNTER with contracted native numbers (한/두/세/네) and the right counter: 명 (people), 마리 (animals), 잔 (cups), 권 (books), 개 (things).",
+    "model": "교실에 학생이 세 명 있어요. 저는 커피 두 잔을 마셨어요. 책을 네 권 샀어요. 우리 집에 강아지가 한 마리 있어요.",
+    "modelEn": "There are three students in the classroom. I drank two cups of coffee. I bought four books. We have one puppy at home."
+  },
+  "canDo": [
+    "Order a count as NOUN + NUMBER + COUNTER (학생이 세 명)",
+    "Contract native numbers before a counter (하나→한 · 둘→두 · 셋→세 · 넷→네)",
+    "Pick the right counter for people, animals, and objects (명 · 마리 · 잔 · 권 · 개)"
+  ]
 }

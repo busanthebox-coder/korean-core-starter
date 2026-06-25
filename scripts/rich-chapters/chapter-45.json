@@ -676,5 +676,17 @@
       "없어요: absence or not having, as in 시간이 없어요.",
       "Do not translate every English 'not' the same way. Decide what is being denied."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short reply explaining why you can't join an outing today, using different negatives correctly.",
+    "hint": "Use 안 (don't/won't, a choice), 못 (can't, blocked), -지 않아요 (longer negation), and N이/가 없어요 (don't have): e.g. 시간이 없어요, 못 가요.",
+    "model": "오늘은 시간이 없어요. 그래서 못 가요. 저는 고기를 안 먹어요. 운동도 별로 좋아하지 않아요.",
+    "modelEn": "I don't have time today. So I can't go. I don't eat meat. I don't really like exercise either."
+  },
+  "canDo": [
+    "Negate by choice or fact with 안 (안 먹어요)",
+    "Say you can't because something blocks you with 못 (시간이 없어서 못 가요)",
+    "Use the longer written negation -지 않아요 (좋아하지 않아요)",
+    "Express absence or 'don't have' with N이/가 없어요 (시간이 없어요)"
+  ]
 }

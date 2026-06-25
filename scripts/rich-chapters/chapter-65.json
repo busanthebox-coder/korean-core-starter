@@ -427,5 +427,17 @@
       "Adding 요 does not make slang formal; rewrite the whole sentence when the relationship changes.",
       "A strong learner can express the same idea as an interview answer, formal email, coworker chat, and friend KakaoTalk reply."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a 5-6 sentence message to a teacher you couldn't reach: greet politely, explain you missed today's class and why, say what you've decided to do, make a careful guess about the result, and close with a courteous request — keeping register, tense, and connectors consistent.",
+    "hint": "Combine course pieces: honorific 해요체 throughout, past -았/었어요, a decision V-기로 했어요, a soft guess -(으)ㄹ 것 같아요, a connector (그래서/하지만), and a polite closing (확인 부탁드립니다).",
+    "model": "선생님, 안녕하세요. 오늘은 몸이 아파서 수업에 못 갔어요. 그래서 집에서 혼자 공부하기로 했어요. 자료를 미리 확인했으면 좋았을 텐데, 늦어서 죄송합니다. 다음 시간에는 참석할 수 있을 것 같아요. 결과를 확인 부탁드립니다.",
+    "modelEn": "Hello, teacher. Today I was sick, so I couldn't go to class. So I decided to study at home by myself. I wish I had checked the materials in advance; I'm sorry for being late. I think I'll be able to attend next time. Please kindly check the result."
+  },
+  "canDo": [
+    "Build one coherent message that fits the situation and the listener (상황·상대방에 맞게)",
+    "Hold register, tense, and particles consistent across several sentences (문체·시제·조사)",
+    "Combine multiple grammar points — past tense, V-기로 했어요, soft guess, connectors — without breaking the flow",
+    "Close politely with honorific phrasing (확인 부탁드립니다 · 죄송합니다)"
+  ]
 }

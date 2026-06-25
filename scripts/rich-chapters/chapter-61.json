@@ -754,5 +754,17 @@
       "-(으)ㄹ걸요 softens a prediction or assertion: 늦을걸요, 이미 알고 있을걸요.",
       "-았/었을 텐데요 looks back at an unfulfilled past expectation: 같이 갔을 텐데요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "A friend just arrived and you notice the time. Send a 3-line reaction: react to something you just noticed, show you now understand why, and add a soft guess.",
+    "hint": "Use A/V-네요 for an on-the-spot reaction, A/V-군요 for 'I see,' and -(으)ㄹ걸요 for a soft guess.",
+    "model": "벌써 도착했네요! 길이 안 막혔군요. 지금 가면 안 늦을걸요.",
+    "modelEn": "Oh, you've arrived already! I see, the road wasn't jammed. If we go now, we probably won't be late."
+  },
+  "canDo": [
+    "React to something noticed right now with A/V-네요 (벌써 도착했네요)",
+    "Acknowledge newly understood information with A/V-군요 / -구나 (안 막혔군요)",
+    "Offer a soft, reasoned guess with V/A-(으)ㄹ걸요 (안 늦을걸요)",
+    "Suppose about an unrealized past with V-았/었을 텐데(요) (늦었을 텐데요)"
+  ]
 }

@@ -614,5 +614,16 @@
       "Use V-는 동안 for overlapping time: 한국에 있는 동안.",
       "Do not confuse purpose 'for' with duration 'for'."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write 3 sentences explaining why you are studying Korean and for how long you plan to stay or study.",
+    "hint": "Use V-기 위해서 or N을/를 위해서 for the purpose, N 동안 for the time span, and V-는 동안 for 'while doing'.",
+    "model": "저는 취업을 위해서 한국어를 공부해요. 시험에 합격하기 위해서 6개월 동안 준비할 거예요. 그리고 공부하는 동안 한국 친구도 사귈 거예요.",
+    "modelEn": "I study Korean in order to get a job. I'll prepare for six months to pass the exam. And while I'm studying, I'll also make Korean friends."
+  },
+  "canDo": [
+    "State a purpose before the action (V-기 위해서 · N을/를 위해서)",
+    "Say how long something lasts with a time-span noun (6개월 동안 · 방학 동안)",
+    "Mark 'while something is happening' on a verb (공부하는 동안)"
+  ]
 }

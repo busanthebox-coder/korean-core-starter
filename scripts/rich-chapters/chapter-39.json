@@ -533,5 +533,17 @@
       "-뿐이다 = only this action, role, or option.",
       "Do not confuse 할 수 없어요 with 할 수밖에 없어요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Reply to a friend who invited you out tonight: explain that you have no choice but to work late, and that there's no way you'll finish early.",
+    "hint": "Use -(으)ㄹ 수밖에 없다 for 'no choice but to' (야근할 수밖에 없어요), -(으)ㄹ 리가 없다 for 'no way' (일찍 끝날 리가 없어요), and -(으)ㄹ 뿐이다 / N뿐이다 for 'only' (방법이 이것뿐이에요).",
+    "model": "미안해요, 오늘은 마감이라서 야근할 수밖에 없어요. 일이 너무 많아서 일찍 끝날 리가 없어요. 지금은 그냥 열심히 하는 수밖에 없죠. 방법이 이것뿐이에요.",
+    "modelEn": "Sorry, today is the deadline, so I have no choice but to work late. There's so much work that there's no way it'll finish early. For now I just have no choice but to work hard. This is the only way."
+  },
+  "canDo": [
+    "Say I have no other option with -(으)ㄹ 수밖에 없다 (야근할 수밖에 없어요)",
+    "Reject something as impossible with -(으)ㄹ 리가 없다 (끝날 리가 없어요)",
+    "Limit things to just one with -(으)ㄹ 뿐이다 / N뿐이다 (이것뿐이에요)",
+    "Sound resigned about a fixed situation (어쩔 수 없죠, 마감)"
+  ]
 }

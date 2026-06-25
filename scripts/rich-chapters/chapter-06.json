@@ -624,5 +624,17 @@
       "에서 = STAGE: where an active verb (eat, study, work, meet, wait) happens — or FROM a starting point",
       "The golden rule: if you're DOING something there → 에서 / if you're just GOING there or IT EXISTS there → 에"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Tell a friend your plan for today: where you're going and what you'll do there.",
+    "hint": "Use N에 for the destination with 가다/오다 and N에서 for where the action happens (학교에 가요, 도서관에서 공부해요).",
+    "model": "오늘 학교에 가요. 도서관에서 공부해요. 그다음에 집에서 쉬어요.",
+    "modelEn": "Today I'm going to school. I study at the library. After that I rest at home."
+  },
+  "canDo": [
+    "Mark a destination or time with N에 (학교에 가요)",
+    "Mark where an action happens with N에서 (집에서 일해요)",
+    "Keep 에 and 에서 apart by going there vs doing there",
+    "Use 에서 for where you came from (한국에서 왔어요)"
+  ]
 }

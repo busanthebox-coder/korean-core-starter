@@ -53,7 +53,12 @@
     if (ch.inlineExercises && ch.inlineExercises.length) {
       ch.inlineExercises.forEach((ex) => s.push({ phase: 'practice', kind: 'exercise', data: ex }));
     }
-    if (ch.writingTask && ch.writingTask.prompt) s.push({ phase: 'practice', kind: 'writing', data: ch.writingTask });
+    const writing = (ch.writingTask && ch.writingTask.prompt)
+      ? ch.writingTask
+      : (ch.exitTask && ch.exitTask.prompt
+        ? { prompt: ch.exitTask.prompt, hint: '', model: (ch.exitTask.sampleAnswer || {}).ko, modelEn: (ch.exitTask.sampleAnswer || {}).en }
+        : null);
+    if (writing) s.push({ phase: 'practice', kind: 'writing', data: writing });
     return s;
   }
 
@@ -91,6 +96,11 @@
   $: doneGoal = (completion && completion.goal) || (chapter && chapter.goal) || '';
   $: doneBullets = (completion && completion.bullets) || (chapter && chapter.summaryCard && chapter.summaryCard.bullets) || [];
   $: doneTeaser = (completion && completion.teaser) || (chapter && chapter.summaryCard && chapter.summaryCard.nextChapterTeaser) || '';
+  // Can-do checklist: prefer hand-authored chapter.canDo, else reuse the chapter's
+  // exitTask "I can…" checklist items (every chapter has one) so all lessons close on a self-check.
+  $: canDoList = (chapter && chapter.canDo && chapter.canDo.length)
+    ? chapter.canDo
+    : ((chapter && chapter.exitTask && chapter.exitTask.checklist) || []).filter((x) => /^I can\b/i.test(x));
 
   function next() {
     if (i < screenList.length - 1) { i += 1; scrollTop(); }
@@ -136,10 +146,10 @@
       <h2>Complete</h2>
       {#if doneGoal}<p class="done-goal">{doneGoal}</p>{/if}
       {#if doneBullets.length}<ul class="done-recap">{#each doneBullets as b}<li>{b}</li>{/each}</ul>{/if}
-      {#if chapter.canDo && chapter.canDo.length}
+      {#if canDoList.length}
         <div class="cando">
           <span class="cando-cap">I can now…</span>
-          <ul>{#each chapter.canDo as c}<li><i class="ti ti-circle-check" aria-hidden="true"></i> {c}</li>{/each}</ul>
+          <ul>{#each canDoList as c}<li><i class="ti ti-circle-check" aria-hidden="true"></i> {c}</li>{/each}</ul>
         </div>
       {/if}
       {#if doneTeaser}<div class="teaser">▶ {doneTeaser}</div>{/if}

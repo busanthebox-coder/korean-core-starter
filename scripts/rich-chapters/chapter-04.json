@@ -563,5 +563,17 @@
       "SPOTLIGHT particle 이/가: attaches to the noun that exists — 이 after consonant (시간이, 예약이), 가 after vowel (문제가, 친구가)",
       "Never use 을/를 with 있어요 or 없어요 — the thing that exists is a SUBJECT, not an object"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Text a friend who is meeting you at a café: say what you have and don't have right now (time, a seat, water).",
+    "hint": "Use 있어요 for what exists/you have and 없어요 for what's missing, and mark the subject with N이/가.",
+    "model": "지금 시간이 있어요. 자리도 있어요. 그런데 물이 없어요. 빨리 오세요!",
+    "modelEn": "I have time now. There's a seat too. But there's no water. Come quickly!"
+  },
+  "canDo": [
+    "Say something exists or you have it with 있어요",
+    "Say something is missing or you don't have it with 없어요",
+    "Mark the subject or the thing that exists with N이/가",
+    "Ask and answer about availability (시간이 있어요? · 자리가 없어요)"
+  ]
 }

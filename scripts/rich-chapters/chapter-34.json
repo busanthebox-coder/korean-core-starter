@@ -550,5 +550,17 @@
       "Special honorific verbs matter: 계시다, 드시다, 주무시다, 말씀하시다.",
       "Do not use honorifics on yourself or on objects."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a few sentences about your day with a respected elder (e.g. your grandmother), honoring her actions and something you did for her.",
+    "hint": "Use 께서 + -(으)시- and special honorific verbs (계시다·드시다·주무시다), and -아/어 드리다 with 께 for what you did for her.",
+    "model": "할머니께서는 지금 집에 계세요. 아침을 맛있게 드셨어요. 그리고 제가 할머니께 커피를 만들어 드렸어요.",
+    "modelEn": "My grandmother is at home now. She ate breakfast well. And I made coffee for her."
+  },
+  "canDo": [
+    "Raise the subject with the honorific suffix (-(으)시-)",
+    "Use 께서 and special honorific verbs (계시다 · 드시다 · 주무시다)",
+    "Honor the person I do something for (N께 V-아/어 드리다)",
+    "Show respect to elders and seniors naturally (선생님 · 부모님 · 사장님)"
+  ]
 }

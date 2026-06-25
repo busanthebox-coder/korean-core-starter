@@ -855,5 +855,18 @@
       "댓글을 달다, 좋아요를 누르다, 영상을 공유하다, and 와이파이를 연결하다 are the key digital action chunks.",
       "영상이 끊기다 describes buffering or cutting out; do not use active 끊다 for that problem."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Reply to a friend's drama recommendation: say whether you've seen it, give your impression, relay what someone said, and promise to watch.",
+    "hint": "Use V-(으)ㄴ 적이 있어요 for experience, A/V-는 것 같아요 for impression, V-다고 했어요 for reported speech, A/V-지만 for contrast, and V-(으)ㄹ게요 to promise.",
+    "model": "그 드라마는 본 적이 없어요. 친구가 배우들이 정말 좋다고 했어요. 자막은 없지만 재미있는 것 같아요. 오늘 밤에 볼게요.",
+    "modelEn": "I haven't seen that drama. My friend said the actors are really good. There are no subtitles, but it seems fun. I'll watch it tonight."
+  },
+  "canDo": [
+    "Say whether I have ever done something (본 적이 있어요/없어요)",
+    "Give a soft impression or guess (재미있는 것 같아요)",
+    "Relay what someone said (좋다고 했어요)",
+    "Make a clean contrast (자막은 없지만 재미있어요)",
+    "Promise to do something and give the background (볼게요, 보고 싶었거든요)"
+  ]
 }

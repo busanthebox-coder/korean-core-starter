@@ -644,5 +644,16 @@
       "V아/어 주세요 makes polite requests: 추천해 주세요, 보여 주세요, 도와주세요.",
       "Vㄹ/을까요? asks for a shared decision or suggestion: 같이 갈까요?, 주문할까요?"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Recommend a restaurant to a friend and gently suggest going together this weekend.",
+    "hint": "Use V-아/어 보다 to nudge them to try it (가 보세요/먹어 보세요), V-아/어 주세요 for a request, and V-(으)ㄹ까요? to suggest going together.",
+    "model": "이 식당 한번 가 보세요. 정말 맛있어요. 우리 주말에 같이 갈까요? 시간 되면 알려 주세요.",
+    "modelEn": "Try going to this restaurant once. It's really delicious. Shall we go together this weekend? If you have time, please let me know."
+  },
+  "canDo": [
+    "Nudge someone to try something with V-아/어 보다 (한번 먹어 보세요)",
+    "Make a polite request with V-아/어 주세요 (알려 주세요)",
+    "Float a friendly suggestion with V-(으)ㄹ까요? (같이 갈까요?)"
+  ]
 }

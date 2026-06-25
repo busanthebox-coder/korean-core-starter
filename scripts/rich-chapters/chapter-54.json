@@ -746,5 +746,18 @@
       "N 동안 marks a study period, while V기 위해서 marks a deliberate academic purpose.",
       "과제, 발표, 중간고사, 기말고사, 성적, 장학금, 전공, and 교수님 should appear in real school sentences, not as isolated labels."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short note about your study plan: what you must do, what you decided, when you started, and why.",
+    "hint": "Use V-아/어야 해요 for obligation, V-기로 했어요 for a decision, V-기 시작하다 for starting, N 동안 for a period, V/A-(으)니까 for a reason, and V-기 위해서 for purpose.",
+    "model": "다음 주에 중간고사가 있으니까 매일 도서관에서 공부해야 해요. 그래서 시험 기간 동안 친구하고 같이 공부하기로 했어요. 좋은 성적을 받기 위해서 지난주부터 공부하기 시작했어요.",
+    "modelEn": "Since there's a midterm next week, I have to study at the library every day. So I decided to study together with a friend during the exam period. To get good grades, I started studying last week."
+  },
+  "canDo": [
+    "Say what I have to do for school (과제를 내야 해요)",
+    "State a decision or study plan (같이 공부하기로 했어요)",
+    "Say when an action started (공부하기 시작했어요)",
+    "Give a reason that leads to a plan (시험이 있으니까 도서관에 가요)",
+    "State an academic purpose (장학금을 받기 위해서 공부해요)"
+  ]
 }

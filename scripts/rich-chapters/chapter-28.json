@@ -536,5 +536,16 @@
       "먼저, 그다음, 바로, 방금, and 이미 help the timeline feel clear.",
       "Do not put tense on the first verb: 도착하자마자, not 도착했자마자."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Describe your morning routine in order: what you do first, then next, and what you do as soon as you arrive.",
+    "hint": "Use V-고 나서 for 'after finishing, then' (씻고 나서), and V-자마자 for 'as soon as' (도착하자마자).",
+    "model": "먼저 씻고 나서 밥을 먹어요. 그다음에 준비하고 나서 출발해요. 회사에 도착하자마자 메일을 확인해요.",
+    "modelEn": "First I wash up and then eat. After that I get ready and then leave. As soon as I arrive at work, I check my email."
+  },
+  "canDo": [
+    "Order two actions with V-고 나서 (먹고 나서 가요)",
+    "Say one thing follows another instantly with V-자마자 (도착하자마자 전화해요)",
+    "Sequence a routine with everyday words (먼저, 그다음, 준비하다, 출발하다)"
+  ]
 }

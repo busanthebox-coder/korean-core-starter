@@ -982,5 +982,17 @@
       "이라도/라도 offers a minimum option: 커피라도, 잠깐이라도.",
       "의 marks possession or noun-to-noun relation, while 도 and 만 add or limit focus."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short message about giving something to a friend and what you do each week, using several particles.",
+    "hint": "Use 에게/한테 (to a person), 하고/(이)랑 (with/and), 밖에 + negative (only), 마다 (every), and (으)로 (by means of).",
+    "model": "저는 친구한테 선물을 줬어요. 주말마다 친구하고 커피를 마셔요. 그런데 오늘은 시간이 한 시간밖에 없어요. 그래서 버스로 빨리 가요.",
+    "modelEn": "I gave a gift to my friend. Every weekend I drink coffee with my friend. But today I only have one hour. So I go quickly by bus."
+  },
+  "canDo": [
+    "Mark the person who receives an action (친구한테 · 선생님께)",
+    "Link nouns or a companion with 'and/with' (친구하고 · 친구랑)",
+    "Use 밖에 + negative for 'only', and 마다 for 'every' (한 시간밖에 없어요 · 주말마다)",
+    "Show means or direction with (으)로 (버스로 가요)"
+  ]
 }

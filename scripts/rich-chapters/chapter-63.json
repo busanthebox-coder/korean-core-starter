@@ -651,5 +651,17 @@
       "결국: final synthesis after a chain of reasoning.",
       "근거, 결론, 핵심, 논리, 사례, 반론 belong together in report and essay revision."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write a short expository paragraph (3-4 sentences) arguing a point, using formal written connectors and consistent written endings.",
+    "hint": "Use 따라서/그러므로 for the conclusion, 그러나/반면에 for contrast, 즉/다시 말해서 to restate, and written endings -다 / -ㄴ다·-는다 / -이다 throughout (not 해요).",
+    "model": "운동은 건강에 중요하다. 그러나 시간이 없는 사람이 많다. 따라서 짧게라도 매일 걷는 것이 좋다. 즉, 운동은 길이보다 꾸준함이 핵심이다.",
+    "modelEn": "Exercise is important for health. However, many people have no time. Therefore, it is good to walk every day, even briefly. That is, for exercise, consistency rather than length is the key."
+  },
+  "canDo": [
+    "Draw a conclusion in formal writing with 따라서 / 그러므로 (따라서 …다)",
+    "Distinguish three kinds of contrast with 그러나 / 반면에 / 한편",
+    "Restate without adding new information using 즉 / 다시 말해서 (즉, …이다)",
+    "Keep a consistent written register with -다 / -ㄴ다·-는다 / -이다 endings (and 결국/궁극적으로 to synthesize)"
+  ]
 }

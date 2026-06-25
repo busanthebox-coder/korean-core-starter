@@ -605,5 +605,17 @@
       "MOUTH BLUEPRINTS: consonant shapes sketch the mouth position (ㅁ = closed lips, ㄴ = tongue at ridge, ㅇ = silent/circular). COMPASS ROSE: vowel ticks point in the direction of the mouth movement (ㅏ = right/open, ㅓ = left/back, ㅗ = up, ㅜ = down)",
       "Romanization is a CHECKING TOOL, not Korean spelling — use it to verify your reading, then cover it and practice reading Hangul directly"
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Write your own first name (or a Korean word you know) in Hangul, breaking it into syllable blocks.",
+    "hint": "Build each block as 자음 + 모음 (+ 받침 if there is a bottom consonant), e.g. 한 = ㅎ+ㅏ+ㄴ.",
+    "model": "한글: ㅎ + ㅏ + ㄴ → 한, ㄱ + ㅡ + ㄹ → 글. 소리: 한글.",
+    "modelEn": "Hangul: ㅎ + ㅏ + ㄴ → 한, ㄱ + ㅡ + ㄹ → 글. Sound: \"hangeul.\""
+  },
+  "canDo": [
+    "Tell consonants from vowels and name the ten core 자음 shapes",
+    "See a vowel's lines and dots and read its direction (모음)",
+    "Build a syllable block from 자음 + 모음 (+ 받침)",
+    "Read a written block back as one sound, not separate letters (글자 · 소리)"
+  ]
 }

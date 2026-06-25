@@ -860,5 +860,17 @@
       "Decision patterns: 마음에 들면, 계약할 수 있어요, 집을 구하기 위해, 확인해 두세요.",
       "Contract habit: check 계약서 before 계약하다."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Message a friend about a studio apartment you saw at the real-estate office: describe what it has and lacks, say where it is, and add a condition about whether you'll take it.",
+    "hint": "Use N이/가 있어요/없어요 (거실은 있는데 주차장은 없어요), an adjective + noun (넓은 방), N에 살아요 for location, and -(으)면 for the condition (월세가 싸면 계약할 거예요).",
+    "model": "오늘 부동산에서 원룸을 봤는데, 넓은 방하고 깨끗한 부엌이 있어요. 그런데 주차장은 없어요. 조용한 동네에 있어서 마음에 들어요. 월세가 너무 비싸지 않으면 다음 달에 이사 가려고 해요.",
+    "modelEn": "I saw a studio at the real-estate office today, and it has a spacious room and a clean kitchen. But there's no parking lot. It's in a quiet neighborhood, so I like it. If the monthly rent isn't too expensive, I'm planning to move in next month."
+  },
+  "canDo": [
+    "Say what a home has or lacks with N이/가 있어요/없어요 (주차장이 없어요)",
+    "Describe a home with adjective + noun (넓은 방, 깨끗한 집, 조용한 동네)",
+    "State a housing condition with -(으)면 (싸면 계약할 거예요)",
+    "Say where I live and where I'm moving with N에 살아요 / N(으)로 이사 가요"
+  ]
 }

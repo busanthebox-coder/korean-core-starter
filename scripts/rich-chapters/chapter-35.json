@@ -698,5 +698,17 @@
       "그런데 and 근데 shift the conversation, but 근데 is more casual.",
       "A soft marker should still lead to a clear next action."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Text a coworker to ask if you can borrow their notes, but first explain the background (you were absent yesterday) before you make the request.",
+    "hint": "Open with background using -(으)ㄴ/는데 (어제 못 왔는데), give a reason the other person didn't know with -거든요 (감기에 걸렸거든요), and remind them of a shared fact with -잖아요 (내일 시험이 있잖아요).",
+    "model": "어제 학교에 못 왔는데, 혹시 자료 좀 빌려줄 수 있어요? 사실은 감기에 걸렸거든요. 내일 시험이 있잖아요. 그래서 좀 부탁드려요.",
+    "modelEn": "I couldn't come to school yesterday, so could you maybe lend me your materials? Actually, the thing is I caught a cold. We have the exam tomorrow, you know. So I'd appreciate it."
+  },
+  "canDo": [
+    "Lead with background before my real point using -(으)ㄴ/는데 (어제 못 왔는데...)",
+    "Remind someone of something we both know with -잖아요 (시험이 있잖아요)",
+    "Add a reason they didn't know with -거든요 (감기에 걸렸거든요)",
+    "Soften a reply and leave room to react with trailing -는데요"
+  ]
 }

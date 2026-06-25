@@ -851,5 +851,17 @@
       "은/는 also marks contrast: 평소에는..., 오늘은..., 메시지는..., 전화는...",
       "A Korean sentence can have both: 이 문제는 이유가 중요해요."
     ]
-  }
+  },
+  "writingTask": {
+    "prompt": "Answer a friend who asks 'Who texted you first today?' Reply naming who it was, then add what you usually do — choosing 은/는 vs 이/가 by what's new vs known.",
+    "hint": "Use 이/가 to identify the new/focused subject (친구가 보냈어요), and 은/는 for the known topic or contrast (저는 …, 평소에는 …).",
+    "model": "오늘은 친구가 먼저 문자를 보냈어요. 저는 평소에 먼저 연락을 안 해요. 그 친구는 자주 메시지를 보내요.",
+    "modelEn": "Today my friend texted first. I usually don't reach out first. That friend often sends messages."
+  },
+  "canDo": [
+    "Spotlight a new or focused subject with 이/가 (친구가 보냈어요)",
+    "Set up an already-known topic with 은/는 (저는 …, 그 친구는 …)",
+    "Mark contrast or limited scope with 은/는 (평소에는 …)",
+    "Combine topic and inner subject in one sentence (N은/는 N이/가 …)"
+  ]
 }
