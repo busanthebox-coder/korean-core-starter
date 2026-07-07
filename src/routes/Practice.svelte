@@ -239,7 +239,7 @@
 </section>
 
 <Sheet open={!!selected} onClose={() => (selected = null)}>
-  {#if selected}<EntryDetail entry={selected} />{/if}
+  {#if selected}<EntryDetail entry={selected} on:openEntry={(event) => (selected = event.detail)} />{/if}
 </Sheet>
 
 <style>

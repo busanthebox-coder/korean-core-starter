@@ -72,7 +72,7 @@
 
 ## C2 — 연습문제 확충·다양화 (챕터당 5→10, 유형 6종)
 
-✅ done 2026-07-07 — inline exercise schema normalized, LessonPlayer supports `particleChoice`/`conjugate`/`orderWords`, validation is wired into `build-app-data`, and all 65 chapters now have 10+ inline exercises. Total inline exercises: 341→653. This completes C2 only; C3/C4/C6/C7 remain open.
+✅ done 2026-07-07 — inline exercise schema normalized, LessonPlayer supports `particleChoice`/`conjugate`/`orderWords`, validation is wired into `build-app-data`, and all 65 chapters now have 10+ inline exercises. Total inline exercises: 341→653. This completes C2 only; later C3/C4/C6/C7 records are tracked in their own sections.
 
 1. **선행 정리(코드)**: 오류교정 type 3종 표기를 `errorCorrect`로 통일(rich-chapters 일괄 치환 +
    LessonPlayer의 렌더 분기 확인). 이것만 별도 커밋 가치.
@@ -88,7 +88,7 @@
 
 ## C3 — 누적 복습 유닛 (교과서의 "복습과")
 
-✅ done 2026-07-07 — A1/A2/B1 virtual checkpoint cards now render in Learn, each opens a 20-question sampled review from that track's inline exercises, results save to `kcs.checkpoint-v1`, weak chapters link back to lessons, LessonPlayer can inject one prior-chapter spiral review item with a visible source badge, and Guide shows checkpoint progress. This completes C3 only; C4/C6/C7 remain open.
+✅ done 2026-07-07 — A1/A2/B1 virtual checkpoint cards now render in Learn, each opens a 20-question sampled review from that track's inline exercises, results save to `kcs.checkpoint-v1`, weak chapters link back to lessons, LessonPlayer can inject one prior-chapter spiral review item with a visible source badge, and Guide shows checkpoint progress. This completes C3 only; later C4/C6/C7 records are tracked in their own sections.
 
 - **체크포인트 유닛**: 트랙 경계마다(11과 뒤 A1 체크포인트, 34과 뒤 A2, 56과 뒤 B1) 가상 유닛을
   챕터 목록에 카드로 삽입(신규 챕터 파일 없이 코드 생성 — `curriculumStructure.js`에 경계 정의).
@@ -100,7 +100,7 @@
 
 ## C4 — 문법 대조 뱅크 확장 (8쌍 → 30쌍)
 
-✅ done 2026-07-07 — `src/lib/contrastItems.json` now carries 30 grammar contrast groups with 6 questions each (180 total) across A1/A2/B1/B2. `patternContrast.js` imports the bank, supports level-filtered quiz building, and reports stats for UI/tests. Practice setup has Contrast Lab level chips, `PatternContrastSession` guards optional entry ids, `scripts/validate-contrast-items.mjs` verifies group count, item count, ids, levels, options, and answer distribution, and `npm run validate:contrast` exposes the check. This completes C4 only; C6/C7 remain open, while C1/C8 stay deferred to the audio stage.
+✅ done 2026-07-07 — `src/lib/contrastItems.json` now carries 30 grammar contrast groups with 6 questions each (180 total) across A1/A2/B1/B2. `patternContrast.js` imports the bank, supports level-filtered quiz building, and reports stats for UI/tests. Practice setup has Contrast Lab level chips, `PatternContrastSession` guards optional entry ids, `scripts/validate-contrast-items.mjs` verifies group count, item count, ids, levels, options, and answer distribution, and `npm run validate:contrast` exposes the check. This completes C4 only; later C6/C7 records are tracked in their own sections, while C1/C8 stay deferred to the audio stage.
 
 - 기존 `patternContrast.js` 스키마·`PatternContrastSession.svelte` UI 재사용. 추가할 고전 혼동쌍(레벨 표기):
   A1: 에 vs 에서 / 은·는 vs 이·가(기초) / 안 vs 못 / 하고 vs 와·과 vs (이)랑
@@ -120,7 +120,7 @@
 - 데이터: `scripts/readers-src/*.json` → build 파이프라인에 병합(WS1 이후면 core 청크에).
 - 수용 기준: 20편 + 글로스 동작 + 리뷰 통과. 어휘 커버리지 리포트(본문 어절 중 사전 매칭률 ≥85%).
 
-✅ done 2026-07-07 — `scripts/readers-src`에 B5 계획 그대로 A1/A2/B1/B2 각 5편(총 20편)을 작성했고, `scripts/validate-readers.mjs` + `scripts/check-reader-coverage.mjs`를 `npm run validate:readers`로 연결했다. `build-app-data.mjs`가 readers를 검증 후 `app-data.json`/`data-bundle.js`에 병합하며, `src/lib/data.js`는 `readers`/`findReader`를 노출한다. Learn 하위 Reading Room은 레벨 탭, 카드 목록, 글로스 팝오버, 문단별 번역 접기, 4문항 이해 확인, 요약 textarea, `kcs.readers-v1` 완료 저장을 지원한다. C7은 아직 open.
+✅ done 2026-07-07 — `scripts/readers-src`에 B5 계획 그대로 A1/A2/B1/B2 각 5편(총 20편)을 작성했고, `scripts/validate-readers.mjs` + `scripts/check-reader-coverage.mjs`를 `npm run validate:readers`로 연결했다. `build-app-data.mjs`가 readers를 검증 후 `app-data.json`/`data-bundle.js`에 병합하며, `src/lib/data.js`는 `readers`/`findReader`를 노출한다. Learn 하위 Reading Room은 레벨 탭, 카드 목록, 글로스 팝오버, 문단별 번역 접기, 4문항 이해 확인, 요약 textarea, `kcs.readers-v1` 완료 저장을 지원한다. C7 완료 기록은 아래 섹션에 있다.
 
 ## C7 — 한자어 어근 패밀리 (B1+ 어휘 확장 장치)
 
@@ -130,6 +130,8 @@
   (스크립트로 후보 자동 추출 → 사람이 아닌 리뷰 에이전트가 오매칭 제거. 동음이의 한자 주의: 사과의 과≠과일의 과 같은 함정).
 - 노출: EntryDetail에 "같은 어근" 접이식 + Dictionary에 어근 브라우저.
 - 수용 기준: 40어근·오매칭 리뷰 통과·EntryDetail 연동 렌더.
+
+✅ done 2026-07-07 — `scripts/hanja-src/roots.json`에 40개 한자어 어근과 214개 멤버를 작성했고, 각 root/member의 manual review metadata와 `C7-root-review-ledger.md` 전수 검수 기록을 남겼다. `scripts/validate-hanja-roots.mjs`/`npm run validate:hanja`는 entryId·중복·3개 이상 members·동음이의 split뿐 아니라 manual review 40/40 roots, 214/214 members 상태까지 강제한다. `build-app-data.mjs`와 `build-korean-data-bundle.mjs`가 `hanjaRoots`를 검증 후 `app-data.json`/`data-bundle.js`에 병합하며, review-only metadata는 앱 번들에서 제거한다. `src/lib/data.js`는 `hanjaRoots`, `findHanjaRoot`, `hanjaRootsForEntry`를 노출한다. EntryDetail은 Same Root 섹션에서 같은 어근 단어를 같은 시트 안에서 탐색할 수 있고, Guide에는 검색·레벨 필터·멤버 breakdown·고유 선택지 미니 퀴즈를 갖춘 Hanja Root Families 브라우저가 들어갔다. 검증: `npm run validate:hanja`, malformed guard 6종, `npm run test` 196개, `npm run build`, Playwright Chrome 브라우저 QA(Dictionary/Guide/Quiz/Learn/Reading/중(中) 퀴즈 회귀) 통과.
 
 ## C8 — 발음 미니멀 페어 (⏸ 오디오 단계로 이관 — 실험적)
 

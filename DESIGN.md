@@ -51,6 +51,13 @@ This file records the existing Hanmok UI rules so new C0 pack screens extend the
 - Glossable tokens use a subtle dashed underline and one active popover at a time; unmatched tokens stay plain.
 - Completed reader state uses `kcs.readers-v1` with score and read timestamp.
 
+## C7 Hanja Root UI Rules
+
+- Same-root links live inside entry detail sheets as a compact section after ordinary entry connections.
+- Current words read as selected tags; other root-family members are buttons that stay inside the same sheet.
+- Root browser lives in Guide as a reference/practice surface, with search, level tabs, a selected-root panel, and a short unique-option quiz.
+- Hanja cards explain meaning families only; they do not teach stroke order or ask learners to write characters.
+
 ## Mobile
 
 - No horizontal overflow.

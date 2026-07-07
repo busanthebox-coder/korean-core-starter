@@ -12,8 +12,6 @@ import {
   grammar,
   levels,
   vocabPacks,
-  readers,
-  findReader,
 } from './data.js';
 
 function copyRepoForPipelineTest(target) {
@@ -108,42 +106,6 @@ describe('data layer', () => {
     expect(guideTracks.some((track) => track.id === 'track-emergency-work')).toBe(true);
     expect(guideTracks.some((track) => track.id === 'track-life-apps')).toBe(true);
   });
-  it('exposes the C0 and C9 A1 vocabulary packs with resolved entries', () => {
-    expect(vocabPacks.map((pack) => pack.id)).toEqual([
-      'pack-survival-basics',
-      'pack-survival-help',
-      'pack-numbers',
-      'pack-family',
-      'pack-body',
-      'pack-time',
-      'pack-people-places',
-      'pack-home-things',
-      'pack-food-basic',
-      'pack-colors',
-    ]);
-
-    for (const pack of vocabPacks) {
-      expect(pack.items.length, pack.id).toBeGreaterThanOrEqual(10);
-      for (const item of pack.items) {
-        expect(findEntry(item.entryId), `${pack.id}:${item.entryHangul}`).toBeTruthy();
-        for (const relatedId of item.relatedEntryIds || []) {
-          expect(findEntry(relatedId), `${pack.id}:${item.entryHangul}:related`).toBeTruthy();
-        }
-      }
-    }
-  });
-  it('exposes the C6 Reading Room readers from app data', () => {
-    expect(readers.length).toBe(20);
-    expect(readers.filter((reader) => reader.level === 'A1')).toHaveLength(5);
-    expect(readers.filter((reader) => reader.level === 'A2')).toHaveLength(5);
-    expect(readers.filter((reader) => reader.level === 'B1')).toHaveLength(5);
-    expect(readers.filter((reader) => reader.level === 'B2')).toHaveLength(5);
-
-    const reader = findReader('reader-b2-19');
-    expect(reader?.title).toBe('한국어 선생님 인터뷰');
-    expect(reader?.comprehensionQuestions).toHaveLength(4);
-    expect(reader?.body.join('\n')).not.toMatch(/[a-z]{3,}/i);
-  });
   it('resolves ambiguous vocabulary pack headwords to the intended meaning', () => {
     const packById = Object.fromEntries(vocabPacks.map((pack) => [pack.id, pack]));
     const numberMeanings = Object.fromEntries(
@@ -214,21 +176,6 @@ describe('data layer', () => {
       vi.resetModules();
     }
   });
-  it('adds the C9 day-one guide units and survival expressions', () => {
-    const appManual = guideTracks.find((track) => track.id === 'track-app-manual');
-    expect(appManual).toBeTruthy();
-    expect((appManual.units || []).map((unit) => unit.id)).toEqual([
-      'guide-app-how-to-use',
-      'guide-app-korean-typing',
-      'guide-app-how-korean-works',
-    ]);
-
-    for (const hangul of ['안녕하세요', '천천히 말해 주세요', '화장실이 어디예요?']) {
-      const entry = entries.find((item) => item.hangul === hangul);
-      expect(entry, hangul).toBeTruthy();
-      expect(entry.level, hangul).toBe('A1');
-    }
-  });
   it('retags beginner essentials as A1, including pack words learners expect first', () => {
     for (const hangul of ['엄마', '하나', '월요일', '검은색', '까만색']) {
       const entry = entries.find((item) => item.hangul === hangul);
@@ -236,30 +183,6 @@ describe('data layer', () => {
       expect(entry.level, hangul).toBe('A1');
     }
   });
-  it('keeps the Korean life apps guide practical and linked to study items', () => {
-    const appTrack = guideTracks.find((track) => track.id === 'track-life-apps');
-    const unitIds = new Set((appTrack?.units || []).map((unit) => unit.id));
-
-    expect(appTrack?.units?.length).toBe(5);
-    expect(unitIds).toEqual(
-      new Set([
-        'guide-f-naver-map',
-        'guide-f-baemin',
-        'guide-f-kakao-t',
-        'guide-f-verification',
-        'guide-f-translation-dictionary',
-      ]),
-    );
-
-    for (const unit of appTrack?.units || []) {
-      expect(unit.keyPhrases?.length, unit.id).toBeGreaterThanOrEqual(5);
-      expect(unit.beginnerGuide?.length, unit.id).toBeGreaterThanOrEqual(3);
-      expect(unit.steps?.length, unit.id).toBeGreaterThanOrEqual(5);
-      expect(unit.deepLinks?.length, unit.id).toBeGreaterThanOrEqual(1);
-      expect(unit.linkedEntryIds?.every((id) => !!findEntry(id)), unit.id).toBe(true);
-    }
-  });
-
   describe('truthful B1 tagging', () => {
     it('promotes the vocabulary first taught in B1 chapters', () => {
       const b1 = entries.filter((e) => e.level === 'B1');

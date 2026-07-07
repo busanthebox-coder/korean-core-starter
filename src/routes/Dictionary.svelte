@@ -74,7 +74,7 @@
       onPractice={() => push(focusPracticePath([selected.id]))}
       onOpenChapter={() => push(learnChapterPath(selectedChapter?.id))}
     />
-    <EntryDetail entry={selected} />
+    <EntryDetail entry={selected} on:openEntry={(event) => (selected = event.detail)} />
   {/if}
 </Sheet>
 

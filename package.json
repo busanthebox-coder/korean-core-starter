@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:contrast": "node scripts/validate-contrast-items.mjs",
+    "validate:hanja": "node scripts/validate-hanja-roots.mjs",
     "validate:readers": "node scripts/validate-readers.mjs && node scripts/check-reader-coverage.mjs",
     "deploy": "npm run build && gh-pages -d dist"
   },

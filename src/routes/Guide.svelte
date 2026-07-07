@@ -2,6 +2,7 @@
   import { chapters, guideTracks, findEntry } from '../lib/data.js';
   import LessonPlayer from '../lib/components/LessonPlayer.svelte';
   import OrientationPlayer from '../lib/components/OrientationPlayer.svelte';
+  import HanjaRootBrowser from '../lib/components/HanjaRootBrowser.svelte';
   import { reviews } from '../lib/srs.js';
   import { checkpointProgress, guideProgress, markOrientationDone, orientationDone, toggleGuideReady } from '../lib/stores.js';
   import { entryIdsForUnit, focusPracticePath } from '../lib/studyLinks.js';
@@ -87,6 +88,7 @@
         </button>
       {/each}
     </div>
+    <HanjaRootBrowser />
   </section>
 {:else if unit?.orientation}
   <OrientationPlayer

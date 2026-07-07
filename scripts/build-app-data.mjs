@@ -3,6 +3,7 @@ import { buildKoreanDataBundle } from './build-korean-data-bundle.mjs';
 import { formatExerciseReport, validateExercises } from './validate-exercises.mjs';
 import { checkReaderCoverage, formatCoverageReport } from './check-reader-coverage.mjs';
 import { formatReaderReport, readReaders, validateReaderSet } from './validate-readers.mjs';
+import { formatHanjaRootReport, readHanjaRoots, validateHanjaRoots } from './validate-hanja-roots.mjs';
 
 // Emits korean/data/app-data.json: a single slim bundle for the Svelte app.
 // The full per-file JSON stays for the legacy app + audit; here we drop fields the
@@ -89,6 +90,16 @@ if (!readerCoverage.ok) {
 }
 const readers = readersRaw.map(({ __file, ...reader }) => reader);
 
+const hanjaRootsRaw = readHanjaRoots('scripts/hanja-src/roots.json');
+const hanjaValidation = validateHanjaRoots(hanjaRootsRaw, allEntries);
+if (!hanjaValidation.ok) {
+  throw new Error(`Hanja root validation failed before app-data build:\n${formatHanjaRootReport(hanjaValidation)}`);
+}
+const hanjaRoots = hanjaRootsRaw.map(({ review, members = [], ...root }) => ({
+  ...root,
+  members: members.map(({ reviewed, ...member }) => member),
+}));
+
 function resolveById(entryId, hangul, packId) {
   const entry = allEntries.find((item) => item.id === entryId);
   if (!entry) throw new Error(`Vocab pack ${packId} references missing entryId "${entryId}"`);
@@ -154,10 +165,11 @@ const out = {
   conversations: read('conversations.json'),
   vocabPacks: readVocabPacks(),
   readers,
+  hanjaRoots,
 };
 
 writeFileSync(new URL('app-data.json', dir), JSON.stringify(out));
 buildKoreanDataBundle();
 const n = out.words.length + out.newcomerVocab.length + out.extendedVocab.length + out.expressions.length + out.patterns.length;
 const removed = allExpr.length - dedupExpr.length;
-console.log(`Built app-data.json (${n} entries, ${readers.length} readers, lesson stripped; ${removed} duplicate expressions collapsed to richest).`);
+console.log(`Built app-data.json (${n} entries, ${readers.length} readers, ${hanjaRoots.length} hanja roots, lesson stripped; ${removed} duplicate expressions collapsed to richest).`);

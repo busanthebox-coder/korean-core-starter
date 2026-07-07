@@ -94,7 +94,7 @@
 {/if}
 
 <Sheet open={!!selectedEntry} onClose={() => (selectedEntry = null)}>
-  {#if selectedEntry}<EntryDetail entry={selectedEntry} />{/if}
+  {#if selectedEntry}<EntryDetail entry={selectedEntry} on:openEntry={(event) => (selectedEntry = event.detail)} />{/if}
 </Sheet>
 
 <style>

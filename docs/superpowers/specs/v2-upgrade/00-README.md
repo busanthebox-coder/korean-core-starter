@@ -35,7 +35,7 @@
 | 5 | [c3-review-checkpoints.md](c3-review-checkpoints.md) | C3 체크포인트 + 나선형 복습 | ✅ |
 | 6 | [c4-contrast-bank.md](c4-contrast-bank.md) | C4 문법 대조 뱅크 8→30쌍 | ✅ |
 | 7 | [c6-reading-room.md](c6-reading-room.md) | C6 읽기 자료실 (장문 20편 + 탭 글로스) | ✅ |
-| 8 | [c7-hanja-families.md](c7-hanja-families.md) | C7 한자어 어근 패밀리 40개 | ⬜ |
+| 8 | [c7-hanja-families.md](c7-hanja-families.md) | C7 한자어 어근 패밀리 40개 | ✅ |
 
 ### 보류 (착수 조건 명시)
 | 파일/항목 | 조건 |

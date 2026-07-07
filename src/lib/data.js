@@ -48,6 +48,22 @@ export const readers = (data.readers || []).slice().sort((a, b) =>
 );
 export const findReader = (id) => readers.find((reader) => reader.id === id) || null;
 
+export const hanjaRoots = (data.hanjaRoots || []).slice().sort((a, b) =>
+  String(a.reading || '').localeCompare(String(b.reading || ''), 'ko') ||
+  String(a.id || '').localeCompare(String(b.id || ''))
+);
+export const findHanjaRoot = (id) => hanjaRoots.find((root) => root.id === id) || null;
+
+const rootsByEntryId = new Map();
+for (const root of hanjaRoots) {
+  for (const member of root.members || []) {
+    if (!member.entryId) continue;
+    if (!rootsByEntryId.has(member.entryId)) rootsByEntryId.set(member.entryId, []);
+    rootsByEntryId.get(member.entryId).push(root);
+  }
+}
+export const hanjaRootsForEntry = (entryId) => rootsByEntryId.get(entryId) || [];
+
 export const chapters = (data.course.chapters || []).slice().sort((a, b) =>
   curriculumSortValue(a) - curriculumSortValue(b) || a.number - b.number
 );

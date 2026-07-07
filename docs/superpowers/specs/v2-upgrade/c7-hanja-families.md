@@ -71,4 +71,11 @@
 - 자동 추출 결과를 검증 없이 출시(오매칭 = 잘못된 어원 지식을 가르치는 최악의 결과).
 
 ## 완료 기록
-(실행자가 작성)
+
+✅ done 2026-07-07 — Codex ULW session `content-v2-c7-ulw-20260707`.
+
+- 데이터: `scripts/hanja-src/roots.json` 40 roots / 214 members. 각 root/member에 manual review metadata를 남기고, 전수 검수 ledger `C7-root-review-ledger.md`로 40개 루트를 배치별 기록. 동음이의 split은 문(門/文), 사(社/事), 공(工/空) 3개 reading으로 검증됨.
+- 검증: `scripts/validate-hanja-roots.mjs`와 `npm run validate:hanja` 추가. validator가 40/40 roots, 214/214 members manual review 상태를 강제하며, malformed fixture 6종(nonexistent entryId, duplicate member, <3 members, missing homophone split, missing root review metadata, missing member reviewed marker)이 모두 nonzero + named diagnostic으로 실패.
+- 빌드 병합: `build-app-data.mjs`와 `build-korean-data-bundle.mjs`가 `hanjaRoots`를 검증 후 `app-data.json`/`data-bundle.js`에 포함. review-only metadata는 앱 번들에서 제거.
+- 앱 노출: `src/lib/data.js`의 `hanjaRoots`/`findHanjaRoot`/`hanjaRootsForEntry`, EntryDetail Same Root 섹션, Guide Hanja Root Families 브라우저, `buildHanjaRootQuiz` unique-option quiz.
+- 테스트/QA: `npm run test` 196개 통과, `npm run build` 통과(기존 대형 data chunk warning 유지), Playwright Chrome에서 학교→Same Root→학생 이동, Guide 학(學) 브라우저, quiz, Learn regression, Reading Room 목록/reader article regression, 중(中) 퀴즈 회귀를 캡처.

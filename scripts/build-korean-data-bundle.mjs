@@ -31,6 +31,7 @@ export function buildKoreanDataBundle() {
   const appData = JSON.parse(readFileSync(appDataFile, 'utf8'));
   bundle.vocabPacks = appData.vocabPacks || [];
   bundle.readers = appData.readers || [];
+  bundle.hanjaRoots = appData.hanjaRoots || [];
 
   writeFileSync(
     outFile,
