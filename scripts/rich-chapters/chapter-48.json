@@ -870,6 +870,47 @@
       ],
       "correct": "약국에서 약을 기다리는 중이에요.",
       "explanation": "V-는 중이에요 reports an action in progress."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "목___ 아파요. (My throat hurts.)",
+      "options": [
+        "이",
+        "을",
+        "에"
+      ],
+      "correct": "이",
+      "explanation": "아프다 describes the body part that hurts, so 목 takes 이. 목을 아파요 is a common learner error."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "식후에 약을 ___ . (먹다 → must)",
+      "base": "먹다",
+      "form": "must",
+      "correct": "먹어야 해요",
+      "explanation": "-아/어야 해요 gives a must/have-to instruction. 먹다 becomes 먹어야 해요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I have a fever and a cough.'",
+      "tokens": [
+        "열이 나고",
+        "기침이 나요"
+      ],
+      "correct": "열이 나고 기침이 나요",
+      "explanation": "Korean uses 나다 for fever and cough symptoms. -고 links the two symptoms naturally."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'You have to take the medicine after meals.'",
+      "correct": "식후에 약을 드셔야 해요.",
+      "explanation": "식후에 means after meals. 드셔야 해요 is the respectful instruction form for taking medicine."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '배를 아파요.'",
+      "correct": "배가 아파요.",
+      "explanation": "The hurting body part is the subject of 아프다, so use 배가. 를 would mark it as an object."
     }
   ],
   "summaryCard": {

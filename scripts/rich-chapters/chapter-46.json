@@ -652,6 +652,58 @@
       ],
       "correct": "한 시간이라도 공부해요.",
       "explanation": "이라도 means 'even if only / at least'. 만 means only, and 이라서 gives a cause."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "작년___ 학생이었어요. (Last year, I was a student.)",
+      "options": [
+        "에",
+        "에서",
+        "를"
+      ],
+      "correct": "에",
+      "explanation": "작년에 marks the time when the identity was true. 에서 would mark an action place, not a year."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "작년에 ___ . (학생 → past identity)",
+      "base": "학생",
+      "form": "pastCopula",
+      "correct": "학생이었어요",
+      "explanation": "N이었어요/였어요 is the past of 이다. 학생 ends in a consonant, so it becomes 학생이었어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Since it is the weekend, let's meet in the morning.'",
+      "tokens": [
+        "주말이니까",
+        "아침에 만나요"
+      ],
+      "correct": "주말이니까 아침에 만나요",
+      "explanation": "-니까 gives a reason that supports the next decision. 주말이니까 sounds like “since it is the weekend.”"
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Even a question is okay.'",
+      "correct": "질문이라도 괜찮아요.",
+      "explanation": "N이라도 offers a minimum acceptable option. 질문이라도 means even just a question would be okay."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '학생였어요.'",
+      "correct": "학생이었어요.",
+      "explanation": "Consonant-ending nouns take 이었어요. 였어요 is for vowel-ending nouns."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence gives a soft noun background?",
+      "options": [
+        "저는 회사원인데 한국어가 필요해요.",
+        "저는 회사원이라도 한국어가 필요해요.",
+        "저는 회사원뿐 한국어가 필요해요."
+      ],
+      "correct": "저는 회사원인데 한국어가 필요해요.",
+      "explanation": "N인데 gives background before the main point. 이라도 and 뿐 do not fit this explanation."
     }
   ],
   "summaryCard": {

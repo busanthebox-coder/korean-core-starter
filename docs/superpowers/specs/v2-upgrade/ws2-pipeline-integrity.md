@@ -94,4 +94,83 @@ npx vitest run && npm run build
 - rich-chapters, src/ UI 코드 수정 (이 WS는 scripts/와 korean/data만).
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-07 / Codex ULW run.
+
+### 변경 파일 목록
+
+신규:
+- `docs/superpowers/specs/v2-upgrade/ws2-drift-report.md`: 초기 RED drift, 원인 분류, 복구 처리, 최종 zero-drift 결과.
+- `scripts/README.md`: 데이터 파이프라인 순서, manifest 역할, 콘텐츠 추가 절차, 금지 사항.
+- `scripts/diagnose-data-drift.mjs`: `HEAD` 데이터와 재생성 결과를 비교하는 안전 진단 스크립트.
+- `scripts/verify-data-integrity.mjs`: data/id manifest 기반 무결성 검증 및 self-test.
+- `scripts/id-manifest.json`: 기존 데이터의 id/sort 고정값.
+- `scripts/data-manifest.json`: 섹션별 기대 key/count와 final `grammar.json` hash.
+- `scripts/lib/integrity.mjs`, `scripts/lib/entry-manifest.mjs`, `scripts/lib/data-integrity.mjs`: manifest key 생성, 비교, 검증 로직 분리.
+- `scripts/vocab-src/recovered-2026-07.json`: 소실됐던 extended vocab 185개 display key, 188개 entry row 복구 seed.
+- `scripts/pattern-src/recovered-2026-07.json`: 소실됐던 pattern 70개 복구 seed.
+- `scripts/guide-src/track-e-emergency-work.json`, `scripts/guide-src/track-f-life-apps.json`: guide 6-track 상태를 재생성에서도 유지하는 seed.
+
+수정:
+- `docs/superpowers/specs/v2-upgrade/00-README.md`: WS2 상태를 ✅로 갱신하고 `build-app-data.mjs`가 `app-data.json`과 `data-bundle.js`를 함께 갱신한다고 명시.
+- `docs/superpowers/specs/v2-upgrade/ws2-pipeline-integrity.md`: 이 완료 기록 작성.
+- `scripts/generate-korean-data.mjs`: `--out <dir>`, 임시 staging, manifest 기반 id/sort 고정, 생성 후 publish 전 무결성 검증.
+- `scripts/build-app-data.mjs`, `scripts/build-korean-data-bundle.mjs`: `app-data.json`과 `korean/data-bundle.js`가 같은 최신 grammar 기준으로 갱신되도록 연결.
+- `korean/data/words.json`, `korean/data/expressions.json`, `korean/data/patterns.json`, `korean/data/vocab-extended.json`, `korean/data/newcomer-vocab.json`, `korean/data/course.json`, `korean/data/guide.json`, `korean/data/app-data.json`, `korean/data-bundle.js`: `generate -> apply -> build` 결과 반영.
+- `src/lib/data.test.js`: 항목 수/id 안정성, fail-safe, grammar bundle 동기화 회귀 테스트 추가.
+
+### 수용 기준 증거
+
+1. 파이프라인 재실행 후 소실 0, 기존 id 변경 0:
+   - `.omo/ulw-loop/019eb084-99d8-71c3-9515-d45014e7e0db/evidence/C001-happy-path.txt`
+   - `docs/superpowers/specs/v2-upgrade/ws2-drift-report.md`
+   - 최종 drift: `words 545/545`, `expressions 876/876`, `patterns 170/170`, `newcomerVocab 18/18`, `extendedVocab 2247/2247`, all `HEAD-only 0`, `Generated-only 0`, `Existing id changes 0`.
+2. 시드 1개 삭제 시 generate 차단:
+   - `.omo/ulw-loop/019eb084-99d8-71c3-9515-d45014e7e0db/evidence/C002-seed-deletion-guard.txt`
+   - recovered seed `공지` 삭제 + 새 unique seed 추가 상태에서 `node scripts/generate-korean-data.mjs`가 exit 1.
+   - 기존 `korean/data/vocab-extended.json` count/hash와 `scripts/id-manifest.json` hash가 그대로 유지됨.
+3. 시드 분할/순서 변경에도 id 불변:
+   - `.omo/ulw-loop/019eb084-99d8-71c3-9515-d45014e7e0db/evidence/C003-id-stability-tests-build.txt`
+   - recovered vocab/pattern seeds reverse/split 후 `id_sort_changes=0`.
+4. 테스트와 빌드:
+   - `npx vitest run` -> 25 files / 137 tests passed.
+   - `npm run build` -> success.
+5. 185개 원인 분석과 처리 결과:
+   - `ws2-drift-report.md`에 extended vocab 185 display-key loss, recovered 188 entry rows, pattern 70 rows, 원인/처리 표 기록.
+   - 원인 요약: 현 source seed로 재생성 불가한 historical/manual generated data가 복구 대상이었고, same-headword seed가 있는데 생성 필터/키 drift로 빠진 케이스는 0건으로 정리.
+
+### 테스트·빌드 결과
+
+```bash
+node scripts/generate-korean-data.mjs
+node scripts/apply-curriculum-structure.mjs
+node scripts/build-app-data.mjs
+node scripts/verify-data-integrity.mjs --self-test
+node scripts/verify-data-integrity.mjs
+npx vitest run
+npm run build
+git diff --check
+```
+
+- `node scripts/generate-korean-data.mjs` -> `Generated curated Korean starter set: 1591 entries.`
+- `node scripts/build-app-data.mjs` -> `Built Korean data bundle: 10 files.` and `Built app-data.json (3786 entries, lesson stripped; 70 duplicate expressions collapsed to richest).`
+- `node scripts/verify-data-integrity.mjs` -> PASS, `words 545`, `expressions 876`, `patterns 170`, `newcomerVocab 18`, `extendedVocab 2247`, `grammar` hash match, `appDataGrammar` synchronized, `dataBundleGrammar` synchronized.
+- `npx vitest run` -> 25 files / 137 tests passed.
+- `npm run build` -> success.
+- `git diff --check` -> clean.
+
+### 스펙과 다르게 한 것과 이유
+
+- `scripts/README.md`의 intentional content addition 순서는 스펙 문구의 `시드 추가 -> generate -> verify --update-manifest -> build -> 테스트`가 아니라 `generate -> apply -> build -> verify --update-manifest -> verify`로 기록했다.
+  이유: 이 구현의 `scripts/data-manifest.json`은 final `grammar.json` hash와 `app-data.json`/`data-bundle.js` grammar 동기화까지 고정하므로, build 이후에 manifest를 갱신해야 최종 산출물과 manifest가 같은 기준을 갖는다.
+- `scripts/build-app-data.mjs`와 `scripts/build-korean-data-bundle.mjs`를 함께 수정했다.
+  이유: WS2의 완료 조건은 generated data뿐 아니라 실제 앱이 읽는 `app-data.json`과 legacy browser bundle까지 stale하지 않아야 하기 때문이다.
+- `src/lib/data.test.js`를 수정했다.
+  이유: WS2 금지 범위는 `rich-chapters`와 `src/ UI 코드` 수정 금지이며, 이 파일은 UI 동작 변경이 아니라 데이터 무결성 회귀 테스트다.
+- `scripts/guide-src/track-e-emergency-work.json`, `scripts/guide-src/track-f-life-apps.json`를 추가했다.
+  이유: `guide.json`이 재생성 과정에서 6-track 상태를 잃지 않게 만들기 위한 source seed 복구다.
+
+### 남긴 이슈
+
+- Svelte가 tests/build 중 기존 unused CSS/export warning을 계속 보고한다. WS2 pipeline integrity를 막지는 않지만, 별도 UI cleanup에서 정리하는 편이 좋다.
+- Bundle은 여전히 큼(`dist/assets/data-*.js` 약 18 MB before gzip). 이는 WS1 data splitting 이전의 알려진 상태이며 WS2 범위에서 바꾸지 않았다.
+- 지시대로 commit/push/deploy는 하지 않았다.

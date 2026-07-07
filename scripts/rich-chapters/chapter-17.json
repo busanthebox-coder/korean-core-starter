@@ -445,7 +445,44 @@
       "type": "translate",
       "prompt": "Translate: 'I came home late yesterday.'",
       "correct": "어제 집에 늦게 왔어요.",
-      "hint": "오다 becomes 왔어요 in the past."
+      "hint": "오다 becomes 왔어요 in the past.",
+      "explanation": "집에 왔어요 is the natural way to say you came home. 늦게 describes how the coming happened, so it goes before 왔어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "친구___ 영화를 봤어요. (I watched a movie with a friend.)",
+      "options": [
+        "랑",
+        "를",
+        "에"
+      ],
+      "correct": "랑",
+      "explanation": "친구랑 means with a friend. 를 would make the friend the thing watched, and 에 would mark a place or direction."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "어제 영화를 ___ . (보다 → past)",
+      "base": "보다",
+      "form": "past",
+      "correct": "봤어요",
+      "explanation": "보다 contracts in past polite form: 보았어요 becomes 봤어요. 어제 makes the past tense necessary."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I met a friend yesterday.'",
+      "tokens": [
+        "어제",
+        "친구를",
+        "만났어요"
+      ],
+      "correct": "어제 친구를 만났어요",
+      "explanation": "어제 sets the past time, and 만났어요 marks the completed meeting. 친구 is the person met, so 친구를 comes before the verb."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '어제 학교에 가요.'",
+      "correct": "어제 학교에 갔어요.",
+      "explanation": "어제 is a past-time word, so the verb must be past tense. 가요 becomes 갔어요."
     }
   ],
   "summaryCard": {

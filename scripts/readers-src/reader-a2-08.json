@@ -1,0 +1,47 @@
+{
+  "id": "reader-a2-08",
+  "level": "A2",
+  "title": "길을 잃어버린 날",
+  "titleEn": "The Day I Got Lost",
+  "genre": "experience story",
+  "body": [
+    "수진은 친구를 만나러 지하철역으로 갔어요. 약속 장소는 강남역이었어요. 그런데 수진은 반대 방향 지하철을 탔어요. 음악을 듣는 바람에 역 이름을 잘 못 들었어요. 한참 뒤에 밖을 보고 길을 잘못 든 것을 알았어요.",
+    "수진은 급하게 다음 역에서 내렸어요. 너무 당황해서 길을 물어보지 못했어요. 그때 한 할머니가 먼저 도와줬어요. 할머니는 이쪽으로 가면 강남역이 나온다고 말했어요. 수진은 친구에게 전화했어요. 늦었지만 무사히 도착했고 친구도 웃으면서 괜찮다고 했어요. 집에 가서 물을 마시고 쉬었어요. 그날 밤 수진은 지하철 노선을 다시 봤어요. 다음 약속에는 음악을 잠깐 끄고 역 이름을 듣기로 했어요."
+  ],
+  "bodyTranslation": [
+    "Sujin went to the subway station to meet a friend. The meeting place was Gangnam Station. But Sujin got on a subway going the opposite direction. Because she was listening to music, she did not hear the station name well. After a while she looked outside and realized she had gone the wrong way.",
+    "Sujin hurriedly got off at the next station. She was so flustered that she could not ask for directions. Then an elderly woman helped her first. The woman said that if she went this way, Gangnam Station would come up. Sujin called her friend. She arrived safely, though late, and her friend also smiled and said it was okay. She went home, drank water, and rested. That night Sujin looked at the subway route again. For the next appointment, she decided to turn off the music for a moment and listen to the station names."
+  ],
+  "comprehensionQuestions": [
+    {
+      "type": "multipleChoice",
+      "prompt": "수진은 왜 안내 방송을 잘 못 들었어요?",
+      "options": ["음악을 듣는 바람에", "잠을 자는 바람에", "비가 오는 바람에", "전화를 하는 바람에"],
+      "correct": "음악을 듣는 바람에",
+      "explanation": "음악을 듣는 바람에 안내 방송을 잘 못 들었어요. -는 바람에는 예상하지 못한 나쁜 결과가 와요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "수진은 어디에서 내렸어요?",
+      "options": ["다음 역", "집 앞", "공항", "시장"],
+      "correct": "다음 역",
+      "explanation": "급하게 다음 역에서 내렸어요라고 했어요. 반대 방향을 알았기 때문이에요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "누가 수진을 도와주셨어요?",
+      "options": ["한 할머니", "직원", "선생님", "의사"],
+      "correct": "한 할머니",
+      "explanation": "한 할머니가 먼저 도와주셨어요가 정답이에요. 주셨어요는 높임 표현이에요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "마지막에 수진은 어떻게 됐어요?",
+      "options": ["늦었지만 무사히 도착했어요", "집으로만 돌아갔어요", "지갑을 잃었어요", "약속을 취소했어요"],
+      "correct": "늦었지만 무사히 도착했어요",
+      "explanation": "늦었지만 친구에게 전화하고 무사히 도착했어요. 문제는 있었지만 해결됐어요."
+    }
+  ],
+  "summaryPrompt": "수진이 길을 잃은 이유와 해결 방법을 두 문장으로 요약해 보세요.",
+  "newWords": ["수진", "지하철역", "강남역", "장소", "도와주다"]
+}

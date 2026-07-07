@@ -117,6 +117,13 @@ describe('buildWriteQuiz', () => {
     const qs = buildWriteQuiz(POOL, { count: 5, rng: seeded(11) });
     expect(new Set(qs.map((q) => q.answer)).size).toBe(qs.length);
   });
+  it('adds Korean fallback distractors for no-IME tap input', () => {
+    const qs = buildWriteQuiz(POOL, { count: 2, rng: seeded(7) });
+    for (const q of qs) {
+      expect(q.fallbackDistractors.length).toBeGreaterThan(0);
+      expect(q.fallbackDistractors).not.toContain(q.answer);
+    }
+  });
 });
 
 describe('buildSentenceQuiz', () => {

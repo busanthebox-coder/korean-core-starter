@@ -971,6 +971,44 @@
       ],
       "correct": "친구의 책도 돌려줘야 해요.",
       "explanation": "의 links 친구 to 책: the friend's book."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "선생님___ 이메일을 보냈어요. (I sent an email to the teacher.)",
+      "options": [
+        "께",
+        "한테",
+        "를"
+      ],
+      "correct": "께",
+      "explanation": "께 respectfully marks the receiver. 한테 is casual, and 를 would mark the teacher as an object."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I have only one hour, and it is not enough.'",
+      "tokens": [
+        "한 시간밖에",
+        "없어요"
+      ],
+      "correct": "한 시간밖에 없어요",
+      "explanation": "밖에 must pair with a negative like 없어요. It sounds like the amount is limited or insufficient."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Would you like at least coffee?'",
+      "correct": "커피라도 마실래요?",
+      "explanation": "(이)라도 offers a minimum acceptable option. 커피라도 sounds like coffee would be okay even if it is not ideal."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence means “I only drink coffee” without the scarcity feeling?",
+      "options": [
+        "커피만 마셔요.",
+        "커피밖에 안 마셔요.",
+        "커피라도 마셔요."
+      ],
+      "correct": "커피만 마셔요.",
+      "explanation": "만 simply limits the choice to coffee. 밖에 plus negative adds a stronger “nothing except” feeling."
     }
   ],
   "summaryCard": {

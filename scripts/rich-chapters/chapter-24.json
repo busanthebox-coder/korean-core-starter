@@ -621,20 +621,61 @@
     {
       "type": "fillBlank",
       "prompt": "Say 'Please recommend another color too.'",
-      "answer": "다른 색도 추천해 주세요.",
-      "explanation": "추천하다 becomes 추천해 주세요 in a polite request."
+      "explanation": "추천하다 becomes 추천해 주세요 in a polite request.",
+      "correct": "다른 색도 추천해 주세요."
     },
     {
       "type": "fillBlank",
       "prompt": "Say 'Shall we go together?'",
-      "answer": "같이 갈까요?",
-      "explanation": "가다 becomes 갈까요? with ㄹ까요, and 같이 makes the suggestion shared."
+      "explanation": "가다 becomes 갈까요? with ㄹ까요, and 같이 makes the suggestion shared.",
+      "correct": "같이 갈까요?"
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 입다 보세요.",
-      "answer": "입어 보세요.",
-      "explanation": "Use the 아/어 form before 보다."
+      "explanation": "Use the 아/어 form before 보다.",
+      "correct": "입어 보세요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "다른 색___ 보여 주세요. (Please show me another color.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "보여 주다 takes the thing shown as an object, so 다른 색을 fits. 이 would make the color the subject."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "이 옷을 ___ . (입다 → try doing)",
+      "base": "입다",
+      "form": "tryDoing",
+      "correct": "입어 보세요",
+      "explanation": "-아/어 보세요 means try doing something. 입다 becomes 입어 보세요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Shall we go together?'",
+      "tokens": [
+        "같이",
+        "갈까요?"
+      ],
+      "correct": "같이 갈까요?",
+      "explanation": "-(으)ㄹ까요? suggests or asks what to do. 같이 makes the suggestion “together.”"
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Shall we try eating it once?'",
+      "correct": "한번 먹어 볼까요?",
+      "explanation": "한번 softens the idea as “just to try.” 먹어 볼까요? asks whether you should try eating it."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the request: '다른 색 추천해 볼까요?'",
+      "correct": "다른 색 추천해 주세요.",
+      "explanation": "추천해 볼까요? asks whether we should try recommending, which is not a service request. 추천해 주세요 asks the other person to recommend something for you."
     }
   ],
   "summaryCard": {

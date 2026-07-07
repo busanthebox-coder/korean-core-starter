@@ -801,6 +801,65 @@
       ],
       "correct": "버스 지연 때문에 늦었어요.",
       "explanation": "Put the noun cause directly before 때문에 with no extra particle."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "KTX 표___ 예매했어요. (I booked a KTX ticket.)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "예매하다 takes the ticket as an object, so 표를 fits. 가 would make the ticket the subject."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "서울역에서 2호선으로 ___ . (갈아타다 → planning/intending)",
+      "base": "갈아타다",
+      "form": "intention",
+      "correct": "갈아타려고 해요",
+      "explanation": "-려고 해요 expresses an intended plan. 갈아타다 becomes 갈아타려고 해요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Transfer to Line 2 at Seoul Station.'",
+      "tokens": [
+        "서울역에서",
+        "2호선으로",
+        "갈아타세요"
+      ],
+      "correct": "서울역에서 2호선으로 갈아타세요",
+      "explanation": "에서 marks the transfer location, and (으)로 marks the line you transfer to. 갈아타세요 is the transit instruction."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'The tickets are sold out.'",
+      "correct": "표가 매진됐어요.",
+      "explanation": "표가 is the subject of being sold out. 매진됐어요 is the natural completed state."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '지연이 때문에 늦었어요.'",
+      "correct": "지연 때문에 늦었어요.",
+      "explanation": "N 때문에 follows the noun directly. Do not put 이/가 before 때문에."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence says you will go by taxi?",
+      "options": [
+        "택시로 갈게요.",
+        "택시에 갈게요.",
+        "택시를 갈게요."
+      ],
+      "correct": "택시로 갈게요.",
+      "explanation": "Transport method takes (으)로. 택시에 would mean to a taxi, which is not the intended meaning."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I need to top up my transit card.'",
+      "correct": "교통카드를 충전해야 해요.",
+      "explanation": "충전하다 takes 교통카드 as the object. -해야 해요 marks the travel obligation."
     }
   ],
   "summaryCard": {

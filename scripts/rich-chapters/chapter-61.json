@@ -743,8 +743,60 @@
     {
       "type": "fillBlank",
       "prompt": "Complete the acknowledgement: 아, 그런 이유였____.",
-      "answer": "군요",
-      "explanation": "그런 이유였군요 politely acknowledges a newly understood reason."
+      "explanation": "그런 이유였군요 politely acknowledges a newly understood reason.",
+      "correct": "군요"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "생각___ 더 재미있네요. (It is more fun than I expected.)",
+      "options": [
+        "보다",
+        "에",
+        "를"
+      ],
+      "correct": "보다",
+      "explanation": "생각보다 means compared with what I thought or expected. -네요 then reacts to the fresh realization."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "이 문법이 생각보다 ___ . (어렵다 → fresh realization)",
+      "base": "어렵다",
+      "form": "freshRealization",
+      "correct": "어렵네요",
+      "explanation": "-네요 marks something you notice now. 어렵다 becomes 어렵네요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Oh, they already arrived.'",
+      "tokens": [
+        "아,",
+        "벌써 도착했군요"
+      ],
+      "correct": "아, 벌써 도착했군요",
+      "explanation": "-군요 acknowledges or takes in information with a stronger “I see” feeling. 벌써 adds the surprise that it already happened."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Complete the acknowledgement: 아, 그런 이유였____.",
+      "correct": "군요",
+      "explanation": "-군요 is natural when you are acknowledging an explanation. It sounds like “Ah, so that was the reason.”"
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the regret: '같이 갔으면 좋겠어요.' (missed past plan)",
+      "correct": "같이 갔으면 좋았을 텐데요.",
+      "explanation": "For regret about a missed past plan, the result needs past hypothetical language. 좋았을 텐데요 expresses the unfulfilled expectation."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "You just tried the class and are surprised it is fun. Which fits?",
+      "options": [
+        "생각보다 재미있네요.",
+        "생각보다 재미있을걸요.",
+        "생각보다 재미있었을 텐데요."
+      ],
+      "correct": "생각보다 재미있네요.",
+      "explanation": "-네요 fits fresh realization from direct experience. -ㄹ걸요 is a guess, and -었을 텐데요 is regret/hypothetical."
     }
   ],
   "summaryCard": {

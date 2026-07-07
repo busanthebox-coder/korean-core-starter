@@ -17,6 +17,10 @@ export function entryIdsForUnit(unit = {}) {
   return uniqueIds([...(unit.coreVocabularyIds || []), ...(unit.linkedEntryIds || [])]);
 }
 
+export function packItemIds(pack = {}) {
+  return uniqueIds((pack.items || []).flatMap((item) => [item.entryId, ...(item.relatedEntryIds || [])]));
+}
+
 export function chapterForEntry(chapters = [], entryId) {
   if (!entryId) return null;
   return chapters.find((chapter) => chapterItemIds(chapter).includes(entryId)) || null;

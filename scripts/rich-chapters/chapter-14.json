@@ -616,7 +616,8 @@
       "type": "translate",
       "prompt": "Translate: 'I came to understand Korean because I kept studying.'",
       "correct": "계속 공부하다 보니까 한국어를 이해하게 됐어요.",
-      "hint": "Use 게 됐어요 — understanding came about through the circumstance of sustained study. 하다 보니까 = 'as I kept doing...'"
+      "hint": "Use 게 됐어요 — understanding came about through the circumstance of sustained study. 하다 보니까 = 'as I kept doing...'",
+      "explanation": "-다 보니까 describes a result that comes from continuing or repeatedly doing something. -게 됐어요 adds the change of state: you came to understand."
     },
     {
       "type": "multipleChoice",
@@ -650,6 +651,35 @@
       ],
       "correct": "게",
       "explanation": "This is a gradual result that came about through repeated effort — the grammar for that is -게 됐어요. 이해하게 됐어요 = 'came to understand.' 이해하기로 했어요 would mean 'decided to understand,' which is not natural, and 이해할까 봐 would mean being afraid you might understand."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "사업___ 시작하기로 했어요. (I decided to start a business.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "시작하다 is an action verb, and 사업 is what you start, so it takes 을. 이 would make 사업 the subject and break the intended meaning."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "내년에 사업을 ___ . (시작하다 → decided to)",
+      "base": "시작하다",
+      "form": "decision",
+      "correct": "시작하기로 했어요",
+      "explanation": "-기로 했어요 states a decision or agreed plan. 시작하다 drops 다 and takes 기로 했어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I brought an umbrella because I was worried it might rain.'",
+      "tokens": [
+        "비가 올까 봐",
+        "우산을 가져왔어요"
+      ],
+      "correct": "비가 올까 봐 우산을 가져왔어요",
+      "explanation": "-(으)ㄹ까 봐 gives the worry that motivated the action. The umbrella action follows because rain was the feared outcome."
     }
   ],
   "summaryCard": {

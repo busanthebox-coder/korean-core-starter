@@ -1,0 +1,47 @@
+{
+  "id": "reader-a2-06",
+  "level": "A2",
+  "title": "부산 여행 일기",
+  "titleEn": "Busan Travel Diary",
+  "genre": "travel diary",
+  "body": [
+    "지난 주말에 민수와 수진은 부산에 갔어요. 아침에 KTX를 타고 갔기 때문에 생각보다 빨리 도착했어요. 두 사람은 짐을 호텔에 두고 해운대에 갔어요. 바다는 조금 추웠지만 하늘이 맑아서 사진을 많이 찍었어요.",
+    "점심에는 시장에서 회를 먹었어요. 수진은 회를 별로 안 먹어 봤지만 이번에는 맛있다고 했어요. 민수는 따뜻한 국도 주문했어요. 두 사람은 시장 아주머니와 짧게 이야기하고 근처 카페에서 쉬었어요. 저녁에는 일몰을 보러 다시 바다에 가려고 했어요. 그런데 길을 잘못 들어서 일몰을 놓쳤어요. 아쉬웠지만 밤바다를 보면서 다음에 또 오기로 했어요. 호텔에 돌아가서 사진을 다시 봤어요. 다음 여행에는 일몰 시간을 먼저 확인할 거예요."
+  ],
+  "bodyTranslation": [
+    "Last weekend Minsu and Sujin went to Busan. They took the KTX in the morning, so they arrived faster than expected. They left their bags at the hotel and went to Haeundae. The sea was a little cold, but the sky was clear, so they took many photos.",
+    "For lunch they ate raw fish at a market. Sujin had not eaten much raw fish before, but this time she said it was delicious. Minsu also ordered warm soup. The two talked briefly with a market vendor and rested at a nearby cafe. In the evening they planned to go back to the sea to see the sunset. But they went the wrong way and missed the sunset. They were disappointed, but while looking at the night sea they decided to come again. They went back to the hotel and looked at the photos again. On the next trip, they will check the sunset time first."
+  ],
+  "comprehensionQuestions": [
+    {
+      "type": "multipleChoice",
+      "prompt": "민수와 수진은 무엇을 타고 부산에 갔어요?",
+      "options": ["KTX", "버스", "택시", "자전거"],
+      "correct": "KTX",
+      "explanation": "아침에 KTX를 타고 갔어요라고 나와요. 그래서 빨리 도착했어요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "해운대에서 날씨는 어땠어요?",
+      "options": ["조금 추웠지만 하늘이 맑았어요", "비가 많이 왔어요", "눈이 왔어요", "아주 더웠어요"],
+      "correct": "조금 추웠지만 하늘이 맑았어요",
+      "explanation": "바다는 조금 추웠지만 하늘이 맑았어요. -지만은 추움과 맑음을 함께 보여 줘요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "저녁에 두 사람은 무엇을 놓쳤어요?",
+      "options": ["일몰", "기차", "점심", "숙소"],
+      "correct": "일몰",
+      "explanation": "길을 잘못 들어서 일몰을 놓쳤어요라고 했어요. 기차를 놓친 이야기는 없어요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "여행의 마지막 결정은 무엇이에요?",
+      "options": ["다음에 또 오기로 했어요", "바로 집을 사기로 했어요", "학교에 가기로 했어요", "회는 절대 안 먹기로 했어요"],
+      "correct": "다음에 또 오기로 했어요",
+      "explanation": "밤바다를 보면서 다음에 또 오기로 했어요가 정답이에요. 아쉬움이 있지만 여행은 좋았어요."
+    }
+  ],
+  "summaryPrompt": "부산 여행에서 좋았던 점과 아쉬웠던 점을 두 문장으로 요약해 보세요.",
+  "newWords": ["민수", "수진", "부산", "해운대", "일몰"]
+}

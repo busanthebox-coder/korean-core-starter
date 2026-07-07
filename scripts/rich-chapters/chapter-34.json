@@ -526,20 +526,55 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 어머니___ 먼저 말씀하셨어요.",
-      "answer": "께서",
-      "explanation": "어머니 is the respected subject who spoke."
+      "explanation": "어머니 is the respected subject who spoke.",
+      "correct": "께서"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 제가 선생님께서 말씀드렸어요.",
-      "answer": "제가 선생님께 말씀드렸어요.",
-      "explanation": "The teacher is the recipient, so use 께, not 께서."
+      "explanation": "The teacher is the recipient, so use 께, not 께서.",
+      "correct": "제가 선생님께 말씀드렸어요."
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 가방이 책상 위에 계세요.",
-      "answer": "가방이 책상 위에 있어요.",
-      "explanation": "Objects use 있다, not 계시다."
+      "explanation": "Objects use 있다, not 계시다.",
+      "correct": "가방이 책상 위에 있어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "선생님___ 오셨어요. (The teacher came.)",
+      "options": [
+        "께서",
+        "께",
+        "를"
+      ],
+      "correct": "께서",
+      "explanation": "께서 marks a respected subject. 께 marks a respected recipient, not the person doing the action."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "할머니가 아침을 ___ . (드시다 → polite past)",
+      "base": "드시다",
+      "form": "honorificPast",
+      "correct": "드셨어요",
+      "explanation": "드시다 is the honorific verb for eating or drinking. In polite past it becomes 드셨어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I gave it to my parents.'",
+      "tokens": [
+        "부모님께",
+        "드렸어요"
+      ],
+      "correct": "부모님께 드렸어요",
+      "explanation": "께 honors the recipient, and 드리다 is humble for giving upward. This combination respects 부모님."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'My mother is at home.'",
+      "correct": "어머니께서 집에 계세요.",
+      "explanation": "A respected person as subject takes 께서, and 있다 becomes 계세요. Use 있어요 for objects or non-honorific subjects."
     }
   ],
   "summaryCard": {

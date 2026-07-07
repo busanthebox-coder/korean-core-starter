@@ -556,7 +556,8 @@
       "type": "translate",
       "prompt": "Translate: 'I'll pay in cash. Receipt too, please.'",
       "correct": "현금으로 낼게요. 영수증도 주세요.",
-      "hint": "현금 ends in a consonant → which form? And are you adding the receipt (CART) or limiting to only the receipt (SPOTLIGHT)?"
+      "hint": "현금 ends in a consonant → which form? And are you adding the receipt (CART) or limiting to only the receipt (SPOTLIGHT)?",
+      "explanation": "-(으)ㄹ게요 shows the speaker's own decision, so 낼게요 fits 'I'll pay.' 도 adds 'also,' making 영수증도 주세요 natural for 'receipt too, please.'"
     },
     {
       "type": "multipleChoice",
@@ -578,6 +579,35 @@
       ],
       "correct": "만",
       "explanation": "만 is the SPOTLIGHT — the context confirms there's nothing else ('다른 건 없어요'), so 만 is correct. 도 would imply there are other options too, which contradicts the sentence."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "카드___ 결제할게요. (I will pay by card.)",
+      "options": [
+        "로",
+        "도",
+        "만"
+      ],
+      "correct": "로",
+      "explanation": "카드로 means by card or using a card as the method. 도 means also and 만 means only, so neither marks the payment method."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Water too, please.'",
+      "tokens": [
+        "물도",
+        "주세요"
+      ],
+      "correct": "물도 주세요",
+      "explanation": "도 adds “too/also” to 물. 주세요 makes it a polite ordering request."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "영수증도 ___ . (주다 → please do)",
+      "base": "주다",
+      "form": "pleaseDo",
+      "correct": "주세요",
+      "explanation": "주다 becomes 주세요 when you politely ask someone to give something. 도 on 영수증 means “receipt too.”"
     }
   ],
   "summaryCard": {

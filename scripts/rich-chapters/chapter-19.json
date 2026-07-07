@@ -439,20 +439,64 @@
     {
       "type": "fillBlank",
       "prompt": "Ask 'Who are you meeting today?' in Korean.",
-      "answer": "오늘 누구를 만나요?",
-      "explanation": "The person you meet is the object, so 누구를 is the full form."
+      "explanation": "The person you meet is the object, so 누구를 is the full form.",
+      "correct": "오늘 누구를 만나요?"
     },
     {
       "type": "fillBlank",
       "prompt": "Ask 'What time does class start?' using 몇.",
-      "answer": "수업은 몇 시에 시작해요?",
-      "explanation": "몇 combines with 시 to ask for clock time."
+      "explanation": "몇 combines with 시 to ask for clock time.",
+      "correct": "수업은 몇 시에 시작해요?"
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the question: 어떻게 영화였어요?",
-      "answer": "영화는 어땠어요?",
-      "explanation": "Use 어땠어요 for 'How was it?' 어떻게 asks method, as in 어떻게 갔어요?"
+      "explanation": "Use 어땠어요 for 'How was it?' 어떻게 asks method, as in 어떻게 갔어요?",
+      "correct": "영화는 어땠어요?"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "어디___ 일해요? (Where do you work?)",
+      "options": [
+        "에서",
+        "에",
+        "를"
+      ],
+      "correct": "에서",
+      "explanation": "일하다 is an action, so the place where it happens takes 에서. 에 would fit a destination or static location, not work happening there."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Ask: 'How much is this?'",
+      "correct": "이거 얼마예요?",
+      "explanation": "얼마 asks about price. 이거 sets “this thing” as what you are asking about."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'When are you coming?'",
+      "tokens": [
+        "언제",
+        "와요?"
+      ],
+      "correct": "언제 와요?",
+      "explanation": "언제 asks for time and sits before the verb. Korean keeps the question word in the answer slot rather than moving it far away."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the question: '누구가 와요?'",
+      "correct": "누가 와요?",
+      "explanation": "누구 + 가 contracts to 누가. 누구가 is understandable but not the natural spoken form."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which question asks about method or way?",
+      "options": [
+        "어떻게 가요?",
+        "언제 가요?",
+        "왜 가요?"
+      ],
+      "correct": "어떻게 가요?",
+      "explanation": "어떻게 asks “how” or by what method. 언제 asks time, and 왜 asks reason."
     }
   ],
   "summaryCard": {

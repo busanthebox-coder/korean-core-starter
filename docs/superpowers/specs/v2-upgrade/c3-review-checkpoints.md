@@ -55,4 +55,11 @@
 - 신규 챕터 파일/course.json 변경(가상 유닛은 전부 코드에서). 통과 기준·잠금. 신규 문항 창작(샘플링만).
 
 ## 완료 기록
-(실행자가 작성)
+✅ 2026-07-07 완료 — C3 단위만 완료. 전체 콘텐츠 트랙은 C4/C6/C7이 아직 남아 있다.
+
+- 변경: `src/lib/checkpoints.js`에 체크포인트 슬롯/20문항 샘플링/약한 챕터 집계/나선형 복습 삽입 로직 추가, `src/lib/components/CheckpointSession.svelte` 추가, Learn path에 A1/A2/B1 체크포인트 카드 삽입, LessonPlayer 연습 단계에 prior-chapter 복습 배지 연결, Guide에 체크포인트 진행 요약 추가.
+- 상태 저장: `kcs.checkpoint-v1` 추가. 형태는 `{[trackId]: {best, last, total, lastAt, weakChapterIds}}`.
+- 실제 데이터 확인: A1 checkpoint after chapter 11, A2 after chapter 34, B1 after chapter 56. 세 슬롯 모두 20문항 샘플링 가능.
+- 검증: `node scripts/validate-exercises.mjs` 통과, `npm test` 통과(29 files, 163 tests), `npm run build` 통과.
+- 화면 검수: `.omo/evidence/c3-checkpoint-qa/`에 Learn 체크포인트 카드(1280/768), 체크포인트 문항(1280/768), 20문항 결과 화면, spiral review badge, Guide 모바일 요약 캡처와 QA 로그 보관.
+- 남긴 이슈: 브라우저 콘솔에 정적 리소스 404 로그 1건이 보였지만 `pageerror`는 없었고 체크포인트 저장/화면 동작에는 영향이 없었다. Vite 대형 data chunk 경고는 기존 데이터 번들 크기 계열 경고다.

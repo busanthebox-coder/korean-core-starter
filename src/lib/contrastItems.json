@@ -1,0 +1,2708 @@
+[
+  {
+    "id": "place-e-eseo-01",
+    "level": "A1",
+    "contrast": "에 vs 에서",
+    "prompt": "Pick the particle for a destination.",
+    "sentence": "학교__ 가요.",
+    "answer": "에",
+    "answerKey": "e",
+    "options": [
+      "에",
+      "에서"
+    ],
+    "explanation": "에 marks the destination you go to. 에서 would make 학교 sound like the place where an action happens, not the goal of 가요.",
+    "entryId": "pattern-002"
+  },
+  {
+    "id": "place-e-eseo-02",
+    "level": "A1",
+    "contrast": "에 vs 에서",
+    "prompt": "Pick the particle for where the action happens.",
+    "sentence": "카페__ 커피를 마셔요.",
+    "answer": "에서",
+    "answerKey": "eseo",
+    "options": [
+      "에",
+      "에서"
+    ],
+    "explanation": "에서 marks the place where drinking happens. 에 would only mark being at or going to the cafe, not doing the action there.",
+    "entryId": "pattern-002"
+  },
+  {
+    "id": "place-e-eseo-03",
+    "level": "A1",
+    "contrast": "에 vs 에서",
+    "prompt": "Pick the particle for where something is.",
+    "sentence": "지금 집__ 있어요.",
+    "answer": "에",
+    "answerKey": "e",
+    "options": [
+      "에",
+      "에서"
+    ],
+    "explanation": "있어요 takes 에 for location of existence. 에서 would sound like an activity location, but no action is happening here.",
+    "entryId": "pattern-002"
+  },
+  {
+    "id": "place-e-eseo-04",
+    "level": "A1",
+    "contrast": "에 vs 에서",
+    "prompt": "Pick the particle for where the trip starts.",
+    "sentence": "부산__ 왔어요.",
+    "answer": "에서",
+    "answerKey": "eseo",
+    "options": [
+      "에",
+      "에서"
+    ],
+    "explanation": "에서 can mark the place you came from. 부산에 왔어요 means you arrived in Busan, so it flips the direction.",
+    "entryId": "pattern-002"
+  },
+  {
+    "id": "place-e-eseo-05",
+    "level": "A1",
+    "contrast": "에 vs 에서",
+    "prompt": "Pick the particle for where you are going.",
+    "sentence": "친구 집__ 갈 거예요.",
+    "answer": "에",
+    "answerKey": "e",
+    "options": [
+      "에",
+      "에서"
+    ],
+    "explanation": "갈 거예요 needs 에 for the place you are headed to. 에서 would suggest starting from your friend’s house.",
+    "entryId": "pattern-002"
+  },
+  {
+    "id": "place-e-eseo-06",
+    "level": "A1",
+    "contrast": "에 vs 에서",
+    "prompt": "Pick the particle for a meeting location.",
+    "sentence": "회사__ 만나요.",
+    "answer": "에서",
+    "answerKey": "eseo",
+    "options": [
+      "에",
+      "에서"
+    ],
+    "explanation": "만나요 is an action, so 회사에서 is the natural meeting location. 회사에 만나요 is not the normal frame for doing the meeting.",
+    "entryId": "pattern-002"
+  },
+  {
+    "id": "negation-an-mot-01",
+    "level": "A1",
+    "contrast": "안 vs 못",
+    "prompt": "Choose the negation for a personal choice.",
+    "sentence": "다이어트라서 야식을 __ 먹어요.",
+    "answer": "안",
+    "answerKey": "choice",
+    "options": [
+      "안",
+      "못"
+    ],
+    "explanation": "안 shows the speaker chooses not to eat late-night food. 못 would blame inability or outside conditions rather than a diet choice.",
+    "entryId": "pattern-008"
+  },
+  {
+    "id": "negation-an-mot-02",
+    "level": "A1",
+    "contrast": "안 vs 못",
+    "prompt": "Choose the negation for physical inability.",
+    "sentence": "이가 아파서 사과를 __ 먹어요.",
+    "answer": "못",
+    "answerKey": "unable",
+    "options": [
+      "안",
+      "못"
+    ],
+    "explanation": "못 fits because the toothache makes eating impossible. 안 would sound like the speaker simply chooses not to eat apples.",
+    "entryId": "pattern-008"
+  },
+  {
+    "id": "negation-an-mot-03",
+    "level": "A1",
+    "contrast": "안 vs 못",
+    "prompt": "Choose the negation for a busy schedule.",
+    "sentence": "오늘은 바빠서 운동을 __ 했어요.",
+    "answer": "못",
+    "answerKey": "unable",
+    "options": [
+      "안",
+      "못"
+    ],
+    "explanation": "못 했어요 says the situation prevented the exercise. 안 했어요 would sound more like a decision not to exercise.",
+    "entryId": "pattern-008"
+  },
+  {
+    "id": "negation-an-mot-04",
+    "level": "A1",
+    "contrast": "안 vs 못",
+    "prompt": "Choose the negation for dislike.",
+    "sentence": "저는 술을 __ 마셔요. 싫어해서요.",
+    "answer": "안",
+    "answerKey": "choice",
+    "options": [
+      "안",
+      "못"
+    ],
+    "explanation": "안 마셔요 fits a preference or choice. 못 마셔요 would mean the speaker cannot drink, for example because of health or rules.",
+    "entryId": "pattern-008"
+  },
+  {
+    "id": "negation-an-mot-05",
+    "level": "A1",
+    "contrast": "안 vs 못",
+    "prompt": "Choose the negation for no ticket.",
+    "sentence": "표가 없어서 콘서트에 __ 가요.",
+    "answer": "못",
+    "answerKey": "unable",
+    "options": [
+      "안",
+      "못"
+    ],
+    "explanation": "못 가요 fits because the missing ticket blocks the plan. 안 가요 would sound like the speaker decided not to go.",
+    "entryId": "pattern-008"
+  },
+  {
+    "id": "negation-an-mot-06",
+    "level": "A1",
+    "contrast": "안 vs 못",
+    "prompt": "Choose the negation for choosing delivery.",
+    "sentence": "피곤해서 오늘은 요리를 __ 하고 시켜 먹을래요.",
+    "answer": "안",
+    "answerKey": "choice",
+    "options": [
+      "안",
+      "못"
+    ],
+    "explanation": "안 하고 marks a choice to skip cooking today. 못 하고 would stress that cooking is impossible, not just skipped.",
+    "entryId": "pattern-008"
+  },
+  {
+    "id": "noun-and-register-01",
+    "level": "A1",
+    "contrast": "하고 vs (이)랑 vs 와/과",
+    "prompt": "Choose the neutral spoken connector.",
+    "sentence": "수진__ 같이 공부해요.",
+    "answer": "하고",
+    "answerKey": "hago",
+    "options": [
+      "하고",
+      "랑",
+      "와"
+    ],
+    "explanation": "하고 is a safe everyday way to say “with/and.” 랑 is more casual, and 와 sounds more written or careful here.",
+    "entryId": "pattern-109"
+  },
+  {
+    "id": "noun-and-register-02",
+    "level": "A1",
+    "contrast": "하고 vs (이)랑 vs 와/과",
+    "prompt": "Choose the casual spoken connector.",
+    "sentence": "하나__ 영화 봤어요.",
+    "answer": "랑",
+    "answerKey": "rang",
+    "options": [
+      "하고",
+      "랑",
+      "와"
+    ],
+    "explanation": "랑 is relaxed and common in friendly speech. 하고 is neutral, while 와 is more formal than this casual sentence needs.",
+    "entryId": "pattern-109"
+  },
+  {
+    "id": "noun-and-register-03",
+    "level": "A1",
+    "contrast": "하고 vs (이)랑 vs 와/과",
+    "prompt": "Choose the written or careful connector.",
+    "sentence": "하나__ 민수는 같은 반이에요.",
+    "answer": "와",
+    "answerKey": "wa",
+    "options": [
+      "하고",
+      "랑",
+      "와"
+    ],
+    "explanation": "와 sounds cleaner in a careful written-style pairing. 랑 would be too casual, and 하고 is possible but less polished here.",
+    "entryId": "pattern-109"
+  },
+  {
+    "id": "noun-and-register-04",
+    "level": "A1",
+    "contrast": "하고 vs (이)랑 vs 와/과",
+    "prompt": "Choose the safe conversational connector.",
+    "sentence": "친구__ 점심 먹었어요.",
+    "answer": "하고",
+    "answerKey": "hago",
+    "options": [
+      "하고",
+      "랑",
+      "와"
+    ],
+    "explanation": "하고 is neutral conversation and works with 친구. 랑 is more intimate, while 와 makes this casual sentence feel stiff.",
+    "entryId": "pattern-109"
+  },
+  {
+    "id": "noun-and-register-05",
+    "level": "A1",
+    "contrast": "하고 vs (이)랑 vs 와/과",
+    "prompt": "Choose the friend-to-friend connector.",
+    "sentence": "지민__ 카페에 갔어요.",
+    "answer": "랑",
+    "answerKey": "rang",
+    "options": [
+      "하고",
+      "랑",
+      "와"
+    ],
+    "explanation": "랑 fits casual speech with a friend. 와 is careful or written, and 하고 is neutral but less chatty.",
+    "entryId": "pattern-109"
+  },
+  {
+    "id": "noun-and-register-06",
+    "level": "A1",
+    "contrast": "하고 vs (이)랑 vs 와/과",
+    "prompt": "Choose the careful list connector.",
+    "sentence": "수아__ 민지는 자매예요.",
+    "answer": "와",
+    "answerKey": "wa",
+    "options": [
+      "하고",
+      "랑",
+      "와"
+    ],
+    "explanation": "와 is the careful connector for listing two names. 랑 would sound casual, and 하고 is more spoken and plain.",
+    "entryId": "pattern-109"
+  },
+  {
+    "id": "topic-subject-basic-01",
+    "level": "A1",
+    "contrast": "은/는 vs 이/가 (basic)",
+    "prompt": "Choose the particle that introduces yourself as the topic.",
+    "sentence": "저__ 학생이에요.",
+    "answer": "는",
+    "answerKey": "topic",
+    "options": [
+      "는",
+      "가"
+    ],
+    "explanation": "저는 sets “as for me” as the topic for an introduction. 제가 would answer “who?” and put focus on me as the actor.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "topic-subject-basic-02",
+    "level": "A1",
+    "contrast": "은/는 vs 이/가 (basic)",
+    "prompt": "Choose the particle that answers who came.",
+    "sentence": "누가 왔어요? 민수__ 왔어요.",
+    "answer": "가",
+    "answerKey": "subject",
+    "options": [
+      "는",
+      "가"
+    ],
+    "explanation": "민수가 answers the question 누가, so it is focused new information. 민수는 would sound like shifting to Min-su as a topic.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "topic-subject-basic-03",
+    "level": "A1",
+    "contrast": "은/는 vs 이/가 (basic)",
+    "prompt": "Choose the particle that frames today.",
+    "sentence": "오늘__ 시간이 있어요.",
+    "answer": "은",
+    "answerKey": "topic",
+    "options": [
+      "은",
+      "이"
+    ],
+    "explanation": "오늘은 frames the sentence as “today, ...” and can contrast with other days. 오늘이 would make today the focused subject.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "topic-subject-basic-04",
+    "level": "A1",
+    "contrast": "은/는 vs 이/가 (basic)",
+    "prompt": "Choose the particle for a new thing that exists.",
+    "sentence": "가방 안에 지갑__ 있어요.",
+    "answer": "이",
+    "answerKey": "subject",
+    "options": [
+      "은",
+      "이"
+    ],
+    "explanation": "지갑이 introduces the thing that exists. 지갑은 would sound like the wallet is already the topic or being contrasted.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "topic-subject-basic-05",
+    "level": "A1",
+    "contrast": "은/는 vs 이/가 (basic)",
+    "prompt": "Choose the particle for contrast.",
+    "sentence": "커피__ 좋아하지만 술은 안 마셔요.",
+    "answer": "는",
+    "answerKey": "topic",
+    "options": [
+      "는",
+      "가"
+    ],
+    "explanation": "커피는 marks coffee as one side of a contrast. 커피가 would simply identify coffee as the subject and weaken the contrast.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "topic-subject-basic-06",
+    "level": "A1",
+    "contrast": "은/는 vs 이/가 (basic)",
+    "prompt": "Choose the particle for the answer to who.",
+    "sentence": "누가 전화했어요? 친구__ 전화했어요.",
+    "answer": "가",
+    "answerKey": "subject",
+    "options": [
+      "는",
+      "가"
+    ],
+    "explanation": "친구가 gives the new answer to 누가. 친구는 would imply “as for my friend,” not a direct who-answer.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "sequence-go-eoseo-01",
+    "level": "A2",
+    "contrast": "-고 vs -아서/어서 (sequence)",
+    "prompt": "Choose the ending for a simple next action.",
+    "sentence": "아침을 먹__ 학교에 갔어요.",
+    "answer": "고",
+    "answerKey": "go",
+    "options": [
+      "고",
+      "서"
+    ],
+    "explanation": "-고 simply lists one action after another. 먹어서 would imply eating caused or enabled going to school, which is not the point.",
+    "entryId": "pattern-052"
+  },
+  {
+    "id": "sequence-go-eoseo-02",
+    "level": "A2",
+    "contrast": "-고 vs -아서/어서 (sequence)",
+    "prompt": "Choose the ending when the first action enables the second.",
+    "sentence": "편의점에 가__ 물을 샀어요.",
+    "answer": "서",
+    "answerKey": "eoseo",
+    "options": [
+      "고",
+      "서"
+    ],
+    "explanation": "가서 means you went there and then bought water there. 가고 only lists two actions and loses the “there” connection.",
+    "entryId": "pattern-052"
+  },
+  {
+    "id": "sequence-go-eoseo-03",
+    "level": "A2",
+    "contrast": "-고 vs -아서/어서 (sequence)",
+    "prompt": "Choose the ending for two finished actions in order.",
+    "sentence": "샤워하__ 잤어요.",
+    "answer": "고",
+    "answerKey": "go",
+    "options": [
+      "고",
+      "서"
+    ],
+    "explanation": "-고 gives a clean sequence: showered, then slept. 해서 would sound like showering was the reason you slept.",
+    "entryId": "pattern-052"
+  },
+  {
+    "id": "sequence-go-eoseo-04",
+    "level": "A2",
+    "contrast": "-고 vs -아서/어서 (sequence)",
+    "prompt": "Choose the ending when going to the place is necessary.",
+    "sentence": "은행에 가__ 돈을 찾았어요.",
+    "answer": "서",
+    "answerKey": "eoseo",
+    "options": [
+      "고",
+      "서"
+    ],
+    "explanation": "가서 ties the bank visit to withdrawing money. 가고 only says you went and withdrew money, less naturally connected.",
+    "entryId": "pattern-052"
+  },
+  {
+    "id": "sequence-go-eoseo-05",
+    "level": "A2",
+    "contrast": "-고 vs -아서/어서 (sequence)",
+    "prompt": "Choose the ending when meeting leads into the next action.",
+    "sentence": "친구를 만나__ 커피를 마셨어요.",
+    "answer": "서",
+    "answerKey": "eoseo",
+    "options": [
+      "고",
+      "서"
+    ],
+    "explanation": "만나서 makes the meeting the setup for drinking coffee together. 만나고 is possible for a list, but it does not show that link.",
+    "entryId": "pattern-052"
+  },
+  {
+    "id": "sequence-go-eoseo-06",
+    "level": "A2",
+    "contrast": "-고 vs -아서/어서 (sequence)",
+    "prompt": "Choose the ending for a completed sequence.",
+    "sentence": "숙제를 하__ TV를 봤어요.",
+    "answer": "고",
+    "answerKey": "go",
+    "options": [
+      "고",
+      "서"
+    ],
+    "explanation": "-고 is the normal finished-action sequence here. 해서 would suggest homework caused watching TV, which is not intended.",
+    "entryId": "pattern-052"
+  },
+  {
+    "id": "cause-eoseo-nikka-01",
+    "level": "A2",
+    "contrast": "-아서/어서 vs -(으)니까",
+    "prompt": "Choose the natural cause-result ending.",
+    "sentence": "배고파__ 밥을 먹었어요.",
+    "answer": "서",
+    "answerKey": "eoseo",
+    "options": [
+      "서",
+      "니까"
+    ],
+    "explanation": "-아서/어서 smoothly links a cause to a result. -니까 is possible in some contexts, but here it sounds less like one natural flow.",
+    "entryId": "pattern-087"
+  },
+  {
+    "id": "cause-eoseo-nikka-02",
+    "level": "A2",
+    "contrast": "-아서/어서 vs -(으)니까",
+    "prompt": "Choose the reason ending before a request.",
+    "sentence": "시간이 없으__ 빨리 와 주세요.",
+    "answer": "니까",
+    "answerKey": "nikka",
+    "options": [
+      "서",
+      "니까"
+    ],
+    "explanation": "-(으)니까 fits before a request or command. -아서/어서 before 와 주세요 sounds unnatural for this function.",
+    "entryId": "pattern-087"
+  },
+  {
+    "id": "cause-eoseo-nikka-03",
+    "level": "A2",
+    "contrast": "-아서/어서 vs -(으)니까",
+    "prompt": "Choose the ending for a plain result.",
+    "sentence": "비가 와__ 택시를 탔어요.",
+    "answer": "서",
+    "answerKey": "eoseo",
+    "options": [
+      "서",
+      "니까"
+    ],
+    "explanation": "-아서/어서 connects the rain to the result naturally: 비가 와서. -니까 would sound more like presenting a reason to the listener.",
+    "entryId": "pattern-087"
+  },
+  {
+    "id": "cause-eoseo-nikka-04",
+    "level": "A2",
+    "contrast": "-아서/어서 vs -(으)니까",
+    "prompt": "Choose the ending before an instruction.",
+    "sentence": "날씨가 추우__ 문 닫아 주세요.",
+    "answer": "니까",
+    "answerKey": "nikka",
+    "options": [
+      "서",
+      "니까"
+    ],
+    "explanation": "-(으)니까 supports the instruction “please close it.” -아서/어서 is not the right connector before this request.",
+    "entryId": "pattern-087"
+  },
+  {
+    "id": "cause-eoseo-nikka-05",
+    "level": "A2",
+    "contrast": "-아서/어서 vs -(으)니까",
+    "prompt": "Choose the ending for a personal result.",
+    "sentence": "피곤해__ 일찍 잤어요.",
+    "answer": "서",
+    "answerKey": "eoseo",
+    "options": [
+      "서",
+      "니까"
+    ],
+    "explanation": "-아서/어서 is the normal cause-result flow for why you slept early. -니까 would sound more pointed or explanatory.",
+    "entryId": "pattern-087"
+  },
+  {
+    "id": "cause-eoseo-nikka-06",
+    "level": "A2",
+    "contrast": "-아서/어서 vs -(으)니까",
+    "prompt": "Choose the ending before “let’s.”",
+    "sentence": "이 단어가 중요하__ 꼭 외웁시다.",
+    "answer": "니까",
+    "answerKey": "nikka",
+    "options": [
+      "니까",
+      "서"
+    ],
+    "explanation": "-(으)니까 is used before suggestions like -읍시다. -아서/어서 before a suggestion is the classic learner error.",
+    "entryId": "pattern-087"
+  },
+  {
+    "id": "purpose-eureo-euryeogo-01",
+    "level": "A2",
+    "contrast": "-(으)러 vs -(으)려고",
+    "prompt": "Choose the movement-purpose pattern.",
+    "sentence": "친구를 만나__ 카페에 갔어요.",
+    "answer": "러",
+    "answerKey": "eureo",
+    "options": [
+      "러",
+      "려고"
+    ],
+    "explanation": "-(으)러 is the textbook pattern for going/coming somewhere to do something. -(으)려고 is broader intention, but the movement-purpose frame points to 러.",
+    "entryId": "pattern-073"
+  },
+  {
+    "id": "purpose-eureo-euryeogo-02",
+    "level": "A2",
+    "contrast": "-(으)러 vs -(으)려고",
+    "prompt": "Choose the general intention pattern.",
+    "sentence": "한국어를 배우__ 매일 복습해요.",
+    "answer": "려고",
+    "answerKey": "euryeogo",
+    "options": [
+      "러",
+      "려고"
+    ],
+    "explanation": "-(으)려고 marks intention before any action, not only movement. -(으)러 needs a movement verb like 가다 or 오다 after it.",
+    "entryId": "pattern-073"
+  },
+  {
+    "id": "purpose-eureo-euryeogo-03",
+    "level": "A2",
+    "contrast": "-(으)러 vs -(으)려고",
+    "prompt": "Choose the pattern before 가요.",
+    "sentence": "점심 먹으__ 식당에 가요.",
+    "answer": "러",
+    "answerKey": "eureo",
+    "options": [
+      "러",
+      "려고"
+    ],
+    "explanation": "먹으러 가요 is the natural “go to eat” frame. 먹으려고 can state intention, but 러 is the targeted movement-purpose ending.",
+    "entryId": "pattern-073"
+  },
+  {
+    "id": "purpose-eureo-euryeogo-04",
+    "level": "A2",
+    "contrast": "-(으)러 vs -(으)려고",
+    "prompt": "Choose the pattern for planning.",
+    "sentence": "돈을 모으__ 아르바이트를 해요.",
+    "answer": "려고",
+    "answerKey": "euryeogo",
+    "options": [
+      "러",
+      "려고"
+    ],
+    "explanation": "-(으)려고 fits an intention behind working part-time. -(으)러 cannot connect to a non-movement action like 일을 해요.",
+    "entryId": "pattern-073"
+  },
+  {
+    "id": "purpose-eureo-euryeogo-05",
+    "level": "A2",
+    "contrast": "-(으)러 vs -(으)려고",
+    "prompt": "Choose the pattern with 오다.",
+    "sentence": "책을 빌리__ 도서관에 왔어요.",
+    "answer": "러",
+    "answerKey": "eureo",
+    "options": [
+      "러",
+      "려고"
+    ],
+    "explanation": "빌리러 왔어요 means “came to borrow.” -(으)려고 is broader, but the come-to-do frame is 러.",
+    "entryId": "pattern-073"
+  },
+  {
+    "id": "purpose-eureo-euryeogo-06",
+    "level": "A2",
+    "contrast": "-(으)러 vs -(으)려고",
+    "prompt": "Choose the pattern for a future plan.",
+    "sentence": "내년에 한국에서 살__ 준비하고 있어요.",
+    "answer": "려고",
+    "answerKey": "euryeogo",
+    "options": [
+      "러",
+      "려고"
+    ],
+    "explanation": "-(으)려고 works for a plan or intention before preparing. -(으)러 would require a movement verb immediately after it.",
+    "entryId": "pattern-073"
+  },
+  {
+    "id": "contrast-jiman-neunde-01",
+    "level": "A2",
+    "contrast": "-지만 vs -는데",
+    "prompt": "Choose the clean “but” contrast.",
+    "sentence": "비가 오__ 갈 거예요.",
+    "answer": "지만",
+    "answerKey": "jiman",
+    "options": [
+      "지만",
+      "는데"
+    ],
+    "explanation": "-지만 gives a direct contrast: it rains, but I will go. -는데 would sound more like background leading into something.",
+    "entryId": "pattern-126"
+  },
+  {
+    "id": "contrast-jiman-neunde-02",
+    "level": "A2",
+    "contrast": "-지만 vs -는데",
+    "prompt": "Choose the soft background before a question.",
+    "sentence": "지금 공부하__ 잠깐 이야기할 수 있어요?",
+    "answer": "는데",
+    "answerKey": "neunde",
+    "options": [
+      "지만",
+      "는데"
+    ],
+    "explanation": "-는데 sets up the situation softly before the request. -지만 would make the contrast too direct and less natural here.",
+    "entryId": "pattern-126"
+  },
+  {
+    "id": "contrast-jiman-neunde-03",
+    "level": "A2",
+    "contrast": "-지만 vs -는데",
+    "prompt": "Choose the direct contrast.",
+    "sentence": "시간은 걸리__ 경치가 좋아요.",
+    "answer": "지만",
+    "answerKey": "jiman",
+    "options": [
+      "지만",
+      "는데"
+    ],
+    "explanation": "-지만 clearly balances “it takes time” with “the view is good.” -는데 would be softer background, not a clean contrast pair.",
+    "entryId": "pattern-126"
+  },
+  {
+    "id": "contrast-jiman-neunde-04",
+    "level": "A2",
+    "contrast": "-지만 vs -는데",
+    "prompt": "Choose the ending that leads into a suggestion.",
+    "sentence": "시간이 조금 남__ 커피 마실까요?",
+    "answer": "는데",
+    "answerKey": "neunde",
+    "options": [
+      "지만",
+      "는데"
+    ],
+    "explanation": "-는데 naturally gives background before suggesting coffee. -지만 would sound like a sharper “but” without a clear opposing idea.",
+    "entryId": "pattern-126"
+  },
+  {
+    "id": "contrast-jiman-neunde-05",
+    "level": "A2",
+    "contrast": "-지만 vs -는데",
+    "prompt": "Choose the clean contrast between two facts.",
+    "sentence": "가격은 올라가__ 품질이 좋아요.",
+    "answer": "지만",
+    "answerKey": "jiman",
+    "options": [
+      "지만",
+      "는데"
+    ],
+    "explanation": "-지만 directly contrasts price and quality. -는데 can set background, but it is less explicit as a contrast drill answer.",
+    "entryId": "pattern-126"
+  },
+  {
+    "id": "contrast-jiman-neunde-06",
+    "level": "A2",
+    "contrast": "-지만 vs -는데",
+    "prompt": "Choose the soft setup.",
+    "sentence": "밖에 눈이 오__ 우산 있어요?",
+    "answer": "는데",
+    "answerKey": "neunde",
+    "options": [
+      "지만",
+      "는데"
+    ],
+    "explanation": "-는데 sets up the weather as background for asking about an umbrella. -지만 would push a contrast that the question does not need.",
+    "entryId": "pattern-126"
+  },
+  {
+    "id": "duration-dongan-01",
+    "level": "A2",
+    "contrast": "N 동안 vs V-는 동안",
+    "prompt": "Choose the duration marker after a noun.",
+    "sentence": "한 시간 __ 기다렸어요.",
+    "answer": "동안",
+    "answerKey": "noun",
+    "options": [
+      "동안",
+      "는 동안"
+    ],
+    "explanation": "N 동안 follows a time noun like 한 시간. -는 동안 needs a verb before it, so 한 시간는 동안 is not natural.",
+    "entryId": "pattern-095"
+  },
+  {
+    "id": "duration-dongan-02",
+    "level": "A2",
+    "contrast": "N 동안 vs V-는 동안",
+    "prompt": "Choose the marker after a verb.",
+    "sentence": "버스를 기다리__ 음악을 들었어요.",
+    "answer": "는 동안",
+    "answerKey": "verb",
+    "options": [
+      "동안",
+      "는 동안"
+    ],
+    "explanation": "V-는 동안 means “while doing the action.” Plain 동안 follows a noun, not the verb 기다리.",
+    "entryId": "pattern-095"
+  },
+  {
+    "id": "duration-dongan-03",
+    "level": "A2",
+    "contrast": "N 동안 vs V-는 동안",
+    "prompt": "Choose the marker after a period noun.",
+    "sentence": "방학 __ 한국어를 공부했어요.",
+    "answer": "동안",
+    "answerKey": "noun",
+    "options": [
+      "동안",
+      "는 동안"
+    ],
+    "explanation": "방학 is a noun, so 방학 동안 is correct. 방학는 동안 mixes a noun with the verb form.",
+    "entryId": "pattern-095"
+  },
+  {
+    "id": "duration-dongan-04",
+    "level": "A2",
+    "contrast": "N 동안 vs V-는 동안",
+    "prompt": "Choose the marker for simultaneous actions.",
+    "sentence": "요리하__ 친구랑 통화했어요.",
+    "answer": "는 동안",
+    "answerKey": "verb",
+    "options": [
+      "동안",
+      "는 동안"
+    ],
+    "explanation": "요리하는 동안 means “while cooking.” 요리하 동안 is missing the verb modifier.",
+    "entryId": "pattern-095"
+  },
+  {
+    "id": "duration-dongan-05",
+    "level": "A2",
+    "contrast": "N 동안 vs V-는 동안",
+    "prompt": "Choose the marker after “three days.”",
+    "sentence": "삼 일 __ 부산에 있었어요.",
+    "answer": "동안",
+    "answerKey": "noun",
+    "options": [
+      "동안",
+      "는 동안"
+    ],
+    "explanation": "삼 일 동안 marks the length of time. -는 동안 would need a verb such as 지내는 동안.",
+    "entryId": "pattern-095"
+  },
+  {
+    "id": "duration-dongan-06",
+    "level": "A2",
+    "contrast": "N 동안 vs V-는 동안",
+    "prompt": "Choose the marker after a verb phrase.",
+    "sentence": "한국에 사__ 많은 친구를 만났어요.",
+    "answer": "는 동안",
+    "answerKey": "verb",
+    "options": [
+      "동안",
+      "는 동안"
+    ],
+    "explanation": "사는 동안 means “while living.” 동안 alone cannot directly follow the verb stem 사.",
+    "entryId": "pattern-095"
+  },
+  {
+    "id": "can-permission-01",
+    "level": "A2",
+    "contrast": "-(으)ㄹ 수 있다 vs -아/어도 되다",
+    "prompt": "Choose the form for ability.",
+    "sentence": "저는 한글을 읽__.",
+    "answer": "을 수 있어요",
+    "answerKey": "ability",
+    "options": [
+      "을 수 있어요",
+      "어도 돼요"
+    ],
+    "explanation": "-(으)ㄹ 수 있어요 says the speaker has the ability. 읽어도 돼요 would ask or give permission to read.",
+    "entryId": "pattern-013"
+  },
+  {
+    "id": "can-permission-02",
+    "level": "A2",
+    "contrast": "-(으)ㄹ 수 있다 vs -아/어도 되다",
+    "prompt": "Choose the form for permission.",
+    "sentence": "여기에서 사진을 찍__?",
+    "answer": "어도 돼요",
+    "answerKey": "permission",
+    "options": [
+      "을 수 있어요",
+      "어도 돼요"
+    ],
+    "explanation": "-아/어도 돼요 asks if it is okay to do something. 찍을 수 있어요 asks about possibility or ability, not permission.",
+    "entryId": "pattern-013"
+  },
+  {
+    "id": "can-permission-03",
+    "level": "A2",
+    "contrast": "-(으)ㄹ 수 있다 vs -아/어도 되다",
+    "prompt": "Choose the form for being able to make something.",
+    "sentence": "저는 김밥을 __.",
+    "answer": "만들 수 있어요",
+    "answerKey": "ability",
+    "options": [
+      "만들 수 있어요",
+      "만들어도 돼요"
+    ],
+    "explanation": "만들 수 있어요 means “I can make it.” 만들어도 돼요 means “it is okay to make it,” which is different.",
+    "entryId": "pattern-013"
+  },
+  {
+    "id": "can-permission-04",
+    "level": "A2",
+    "contrast": "-(으)ㄹ 수 있다 vs -아/어도 되다",
+    "prompt": "Choose the form for asking if an action is allowed.",
+    "sentence": "여기에 앉__?",
+    "answer": "아도 돼요",
+    "answerKey": "permission",
+    "options": [
+      "을 수 있어요",
+      "아도 돼요"
+    ],
+    "explanation": "앉아도 돼요 asks permission to sit here. 앉을 수 있어요 asks whether sitting is possible.",
+    "entryId": "pattern-013"
+  },
+  {
+    "id": "can-permission-05",
+    "level": "A2",
+    "contrast": "-(으)ㄹ 수 있다 vs -아/어도 되다",
+    "prompt": "Choose the form for capability.",
+    "sentence": "혼자 집을 찾__.",
+    "answer": "을 수 있어요",
+    "answerKey": "ability",
+    "options": [
+      "을 수 있어요",
+      "아도 돼요"
+    ],
+    "explanation": "찾을 수 있어요 says you can find the house. 찾아도 돼요 would mean “may I look for it?”",
+    "entryId": "pattern-013"
+  },
+  {
+    "id": "can-permission-06",
+    "level": "A2",
+    "contrast": "-(으)ㄹ 수 있다 vs -아/어도 되다",
+    "prompt": "Choose the form for “is it okay?”.",
+    "sentence": "이 과자를 먹__?",
+    "answer": "어도 돼요",
+    "answerKey": "permission",
+    "options": [
+      "을 수 있어요",
+      "어도 돼요"
+    ],
+    "explanation": "먹어도 돼요 asks if eating is allowed. 먹을 수 있어요 asks whether eating is possible.",
+    "entryId": "pattern-013"
+  },
+  {
+    "id": "start-buteo-eseo-01",
+    "level": "A2",
+    "contrast": "부터 vs 에서 (starting point)",
+    "prompt": "Choose the marker for a time starting point.",
+    "sentence": "아침 9시__ 수업이 시작해요.",
+    "answer": "부터",
+    "answerKey": "buteo",
+    "options": [
+      "부터",
+      "에서"
+    ],
+    "explanation": "부터 marks the start of time or order. 에서 marks a place where something starts or happens, so it does not fit 9시."
+  },
+  {
+    "id": "start-buteo-eseo-02",
+    "level": "A2",
+    "contrast": "부터 vs 에서 (starting point)",
+    "prompt": "Choose the marker for a place you depart from.",
+    "sentence": "부산__ 서울까지 기차를 탔어요.",
+    "answer": "에서",
+    "answerKey": "eseo",
+    "options": [
+      "부터",
+      "에서"
+    ],
+    "explanation": "에서 marks the spatial starting point 부산. 부터 is more natural for time or sequence, not this travel route."
+  },
+  {
+    "id": "start-buteo-eseo-03",
+    "level": "A2",
+    "contrast": "부터 vs 에서 (starting point)",
+    "prompt": "Choose the marker for a starting day.",
+    "sentence": "오늘__ 운동할 거예요.",
+    "answer": "부터",
+    "answerKey": "buteo",
+    "options": [
+      "부터",
+      "에서"
+    ],
+    "explanation": "오늘부터 means starting today. 오늘에서 is not the normal way to mark a time start."
+  },
+  {
+    "id": "start-buteo-eseo-04",
+    "level": "A2",
+    "contrast": "부터 vs 에서 (starting point)",
+    "prompt": "Choose the marker for a route start.",
+    "sentence": "집__ 학교까지 걸어가요.",
+    "answer": "에서",
+    "answerKey": "eseo",
+    "options": [
+      "부터",
+      "에서"
+    ],
+    "explanation": "집에서 marks where the walking route starts. 집부터 can occur in some sequence contexts, but route start is normally 에서."
+  },
+  {
+    "id": "start-buteo-eseo-05",
+    "level": "A2",
+    "contrast": "부터 vs 에서 (starting point)",
+    "prompt": "Choose the marker for a sequence start.",
+    "sentence": "1과__ 다시 복습해요.",
+    "answer": "부터",
+    "answerKey": "buteo",
+    "options": [
+      "부터",
+      "에서"
+    ],
+    "explanation": "1과부터 means starting from Chapter 1 in order. 1과에서 would mean inside Chapter 1 as a location-like frame."
+  },
+  {
+    "id": "start-buteo-eseo-06",
+    "level": "A2",
+    "contrast": "부터 vs 에서 (starting point)",
+    "prompt": "Choose the marker for a trip origin.",
+    "sentence": "공항__ 호텔까지 택시를 탔어요.",
+    "answer": "에서",
+    "answerKey": "eseo",
+    "options": [
+      "부터",
+      "에서"
+    ],
+    "explanation": "공항에서 is the origin point of the taxi ride. 공항부터 is possible only when stressing a sequence, not the basic route."
+  },
+  {
+    "id": "progressive-resultant-01",
+    "level": "A2",
+    "contrast": "-고 있다 vs -아/어 있다",
+    "prompt": "Choose the form for an action in progress.",
+    "sentence": "지금 책을 읽__.",
+    "answer": "고 있어요",
+    "answerKey": "progress",
+    "options": [
+      "고 있어요",
+      "어 있어요"
+    ],
+    "explanation": "-고 있어요 shows the action is happening now. 읽어 있어요 is not the natural result-state form for reading.",
+    "entryId": "pattern-131"
+  },
+  {
+    "id": "progressive-resultant-02",
+    "level": "A2",
+    "contrast": "-고 있다 vs -아/어 있다",
+    "prompt": "Choose the form for a resulting state.",
+    "sentence": "의자에 앉__.",
+    "answer": "아 있어요",
+    "answerKey": "state",
+    "options": [
+      "고 있어요",
+      "아 있어요"
+    ],
+    "explanation": "앉아 있어요 describes the state after sitting down. 앉고 있어요 means the motion of sitting is happening right now.",
+    "entryId": "pattern-131"
+  },
+  {
+    "id": "progressive-resultant-03",
+    "level": "A2",
+    "contrast": "-고 있다 vs -아/어 있다",
+    "prompt": "Choose the form for doing something now.",
+    "sentence": "동생이 방에서 놀__.",
+    "answer": "고 있어요",
+    "answerKey": "progress",
+    "options": [
+      "고 있어요",
+      "아 있어요"
+    ],
+    "explanation": "놀고 있어요 is an ongoing action. 놀아 있어요 is not the normal state form.",
+    "entryId": "pattern-131"
+  },
+  {
+    "id": "progressive-resultant-04",
+    "level": "A2",
+    "contrast": "-고 있다 vs -아/어 있다",
+    "prompt": "Choose the form for something remaining that way.",
+    "sentence": "음식이 조금 남__.",
+    "answer": "아 있어요",
+    "answerKey": "state",
+    "options": [
+      "고 있어요",
+      "아 있어요"
+    ],
+    "explanation": "남아 있어요 describes a remaining state. 남고 있어요 would sound like an ongoing process, not the result.",
+    "entryId": "pattern-131"
+  },
+  {
+    "id": "progressive-resultant-05",
+    "level": "A2",
+    "contrast": "-고 있다 vs -아/어 있다",
+    "prompt": "Choose the form for an action in progress.",
+    "sentence": "친구를 기다리__.",
+    "answer": "고 있어요",
+    "answerKey": "progress",
+    "options": [
+      "고 있어요",
+      "어 있어요"
+    ],
+    "explanation": "기다리고 있어요 means the waiting is happening now. 기다려 있어요 is not the ordinary result-state form.",
+    "entryId": "pattern-131"
+  },
+  {
+    "id": "progressive-resultant-06",
+    "level": "A2",
+    "contrast": "-고 있다 vs -아/어 있다",
+    "prompt": "Choose the form for a continuing state.",
+    "sentence": "아직 살아__.",
+    "answer": "있어요",
+    "answerKey": "state",
+    "options": [
+      "있어요",
+      "고 있어요"
+    ],
+    "explanation": "살아 있어요 means the state of being alive continues. 살고 있어요 means living somewhere, a different meaning.",
+    "entryId": "pattern-131"
+  },
+  {
+    "id": "immediate-after-01",
+    "level": "A2",
+    "contrast": "-자마자 vs -고 나서",
+    "prompt": "Choose the ending for “as soon as.”",
+    "sentence": "집에 도착하__ 전화했어요.",
+    "answer": "자마자",
+    "answerKey": "immediate",
+    "options": [
+      "자마자",
+      "고 나서"
+    ],
+    "explanation": "-자마자 says the phone call happened immediately after arrival. -고 나서 only says after finishing, without the instant feeling.",
+    "entryId": "pattern-099"
+  },
+  {
+    "id": "immediate-after-02",
+    "level": "A2",
+    "contrast": "-자마자 vs -고 나서",
+    "prompt": "Choose the ending for “after finishing.”",
+    "sentence": "숙제를 하__ 게임했어요.",
+    "answer": "고 나서",
+    "answerKey": "after",
+    "options": [
+      "자마자",
+      "고 나서"
+    ],
+    "explanation": "-고 나서 marks the first action as completed before the next. -자마자 would mean gaming started the instant homework ended.",
+    "entryId": "pattern-099"
+  },
+  {
+    "id": "immediate-after-03",
+    "level": "A2",
+    "contrast": "-자마자 vs -고 나서",
+    "prompt": "Choose the ending for an instant reaction.",
+    "sentence": "문을 열__ 냄새가 났어요.",
+    "answer": "자마자",
+    "answerKey": "immediate",
+    "options": [
+      "자마자",
+      "고 나서"
+    ],
+    "explanation": "-자마자 fits an immediate smell right after opening the door. -고 나서 is less vivid and less immediate.",
+    "entryId": "pattern-099"
+  },
+  {
+    "id": "immediate-after-04",
+    "level": "A2",
+    "contrast": "-자마자 vs -고 나서",
+    "prompt": "Choose the ending for a careful sequence.",
+    "sentence": "밥을 먹__ 약을 먹었어요.",
+    "answer": "고 나서",
+    "answerKey": "after",
+    "options": [
+      "자마자",
+      "고 나서"
+    ],
+    "explanation": "약을 먹는 sequence is simply after eating, so -고 나서 fits. -자마자 would overstate “the instant I ate.”",
+    "entryId": "pattern-099"
+  },
+  {
+    "id": "immediate-after-05",
+    "level": "A2",
+    "contrast": "-자마자 vs -고 나서",
+    "prompt": "Choose the ending for immediate movement.",
+    "sentence": "수업이 끝나__ 학생들이 나갔어요.",
+    "answer": "자마자",
+    "answerKey": "immediate",
+    "options": [
+      "자마자",
+      "고 나서"
+    ],
+    "explanation": "-자마자 captures students leaving right when class ended. -고 나서 only gives a general order.",
+    "entryId": "pattern-099"
+  },
+  {
+    "id": "immediate-after-06",
+    "level": "A2",
+    "contrast": "-자마자 vs -고 나서",
+    "prompt": "Choose the ending for a normal routine order.",
+    "sentence": "샤워하__ 잤어요.",
+    "answer": "고 나서",
+    "answerKey": "after",
+    "options": [
+      "자마자",
+      "고 나서"
+    ],
+    "explanation": "-고 나서 gives the routine order: after showering, slept. -자마자 would make it sound instant.",
+    "entryId": "pattern-099"
+  },
+  {
+    "id": "only-man-bakke-01",
+    "level": "A2",
+    "contrast": "만 vs 밖에",
+    "prompt": "Choose the form that works in a positive sentence.",
+    "sentence": "커피__ 마셨어요. 다른 건 안 마셨어요.",
+    "answer": "만",
+    "answerKey": "man",
+    "options": [
+      "만",
+      "밖에"
+    ],
+    "explanation": "만 can appear in a positive sentence. 밖에 needs a negative predicate, so 커피밖에 마셨어요 is incomplete or wrong.",
+    "entryId": "pattern-110"
+  },
+  {
+    "id": "only-man-bakke-02",
+    "level": "A2",
+    "contrast": "만 vs 밖에",
+    "prompt": "Choose the form that needs a negative ending.",
+    "sentence": "천 원__ 없어요.",
+    "answer": "밖에",
+    "answerKey": "bakke",
+    "options": [
+      "만",
+      "밖에"
+    ],
+    "explanation": "밖에 pairs with a negative word like 없어요. 만 would give 천 원만 없어요, meaning only 1,000 won is missing.",
+    "entryId": "pattern-110"
+  },
+  {
+    "id": "only-man-bakke-03",
+    "level": "A2",
+    "contrast": "만 vs 밖에",
+    "prompt": "Choose the positive “only.”",
+    "sentence": "오늘은 한 시간__ 공부했어요.",
+    "answer": "만",
+    "answerKey": "man",
+    "options": [
+      "만",
+      "밖에"
+    ],
+    "explanation": "한 시간만 공부했어요 is a positive sentence with only. 밖에 would need 안/못/없어요 after it.",
+    "entryId": "pattern-110"
+  },
+  {
+    "id": "only-man-bakke-04",
+    "level": "A2",
+    "contrast": "만 vs 밖에",
+    "prompt": "Choose the form before 안.",
+    "sentence": "모임에 두 명__ 안 왔어요.",
+    "answer": "밖에",
+    "answerKey": "bakke",
+    "options": [
+      "만",
+      "밖에"
+    ],
+    "explanation": "두 명밖에 안 왔어요 means only two people came. 두 명만 안 왔어요 means only two people did not come.",
+    "entryId": "pattern-110"
+  },
+  {
+    "id": "only-man-bakke-05",
+    "level": "A2",
+    "contrast": "만 vs 밖에",
+    "prompt": "Choose the simple limit in a positive sentence.",
+    "sentence": "김밥__ 주문했어요.",
+    "answer": "만",
+    "answerKey": "man",
+    "options": [
+      "만",
+      "밖에"
+    ],
+    "explanation": "김밥만 주문했어요 works with a positive verb. 밖에 would require a negative ending such as 안 주문했어요.",
+    "entryId": "pattern-110"
+  },
+  {
+    "id": "only-man-bakke-06",
+    "level": "A2",
+    "contrast": "만 vs 밖에",
+    "prompt": "Choose the form with 안 남았어요.",
+    "sentence": "물__ 안 남았어요.",
+    "answer": "밖에",
+    "answerKey": "bakke",
+    "options": [
+      "만",
+      "밖에"
+    ],
+    "explanation": "물밖에 안 남았어요 means only water remains. 물만 안 남았어요 means water is the only thing that did not remain.",
+    "entryId": "pattern-110"
+  },
+  {
+    "id": "guess-geotgata-naboda-01",
+    "level": "B1",
+    "contrast": "-는 것 같다 vs -나 보다",
+    "prompt": "Choose the guess based on visible evidence.",
+    "sentence": "밖에 사람들이 우산을 써요. 비가 __.",
+    "answer": "오나 봐요",
+    "answerKey": "na-boda",
+    "options": [
+      "오나 봐요",
+      "오는 것 같아요"
+    ],
+    "explanation": "-나 봐요 fits because the umbrellas are evidence. -는 것 같아요 is a softer personal guess and does not highlight the clue as strongly.",
+    "entryId": "pattern-031"
+  },
+  {
+    "id": "guess-geotgata-naboda-02",
+    "level": "B1",
+    "contrast": "-는 것 같다 vs -나 보다",
+    "prompt": "Choose the softer personal impression.",
+    "sentence": "제 생각에는 이 영화가 조금 __.",
+    "answer": "긴 것 같아요",
+    "answerKey": "geot-gata",
+    "options": [
+      "긴 것 같아요",
+      "긴가 봐요"
+    ],
+    "explanation": "-는 것 같아요 fits a personal impression. -나 보다 would imply you inferred it from outside evidence.",
+    "entryId": "pattern-031"
+  },
+  {
+    "id": "guess-geotgata-naboda-03",
+    "level": "B1",
+    "contrast": "-는 것 같다 vs -나 보다",
+    "prompt": "Choose the inference from what you see.",
+    "sentence": "민수가 계속 하품해요. 많이 __.",
+    "answer": "피곤한가 봐요",
+    "answerKey": "na-boda",
+    "options": [
+      "피곤한가 봐요",
+      "피곤한 것 같아요"
+    ],
+    "explanation": "-나 봐요 points to the visible yawning as evidence. -는 것 같아요 is possible but less evidence-focused.",
+    "entryId": "pattern-031"
+  },
+  {
+    "id": "guess-geotgata-naboda-04",
+    "level": "B1",
+    "contrast": "-는 것 같다 vs -나 보다",
+    "prompt": "Choose the opinion about price.",
+    "sentence": "저는 이 가방이 너무 __.",
+    "answer": "비싼 것 같아요",
+    "answerKey": "geot-gata",
+    "options": [
+      "비싼 것 같아요",
+      "비싼가 봐요"
+    ],
+    "explanation": "This is the speaker’s own judgment, so -는 것 같아요 fits. -나 보다 would sound like the price was inferred from a clue.",
+    "entryId": "pattern-031"
+  },
+  {
+    "id": "guess-geotgata-naboda-05",
+    "level": "B1",
+    "contrast": "-는 것 같다 vs -나 보다",
+    "prompt": "Choose the guess from a clue.",
+    "sentence": "불이 꺼져 있어요. 가게가 이미 __.",
+    "answer": "닫았나 봐요",
+    "answerKey": "na-boda",
+    "options": [
+      "닫았나 봐요",
+      "닫은 것 같아요"
+    ],
+    "explanation": "The lights being off are evidence, so -나 봐요 is natural. -는 것 같아요 is a softer guess without stressing the evidence.",
+    "entryId": "pattern-031"
+  },
+  {
+    "id": "guess-geotgata-naboda-06",
+    "level": "B1",
+    "contrast": "-는 것 같다 vs -나 보다",
+    "prompt": "Choose the forecast without direct evidence.",
+    "sentence": "아직 확실하지 않지만 내일은 __.",
+    "answer": "추울 것 같아요",
+    "answerKey": "geot-gata",
+    "options": [
+      "추울 것 같아요",
+      "춥나 봐요"
+    ],
+    "explanation": "-(으)ㄹ 것 같아요 fits a future prediction. -나 봐요 sounds like you are observing evidence right now.",
+    "entryId": "pattern-031"
+  },
+  {
+    "id": "reason-geodeun-jana-01",
+    "level": "B1",
+    "contrast": "-거든요 vs -잖아요",
+    "prompt": "Choose the ending that gives new background.",
+    "sentence": "오늘 못 가요. 약속이 __.",
+    "answer": "있거든요",
+    "answerKey": "geodeun",
+    "options": [
+      "있거든요",
+      "있잖아요"
+    ],
+    "explanation": "-거든요 gives the listener new background information. -잖아요 would imply the listener already knows about the plans.",
+    "entryId": "pattern-022"
+  },
+  {
+    "id": "reason-geodeun-jana-02",
+    "level": "B1",
+    "contrast": "-거든요 vs -잖아요",
+    "prompt": "Choose the ending that reminds the listener.",
+    "sentence": "여기 맛있어요. 우리 지난번에도 __.",
+    "answer": "왔잖아요",
+    "answerKey": "jana",
+    "options": [
+      "왔거든요",
+      "왔잖아요"
+    ],
+    "explanation": "-잖아요 reminds the listener of a shared fact. -거든요 would sound like you are newly explaining that visit.",
+    "entryId": "pattern-022"
+  },
+  {
+    "id": "reason-geodeun-jana-03",
+    "level": "B1",
+    "contrast": "-거든요 vs -잖아요",
+    "prompt": "Choose the ending for explaining your delay.",
+    "sentence": "제가 조금 늦을게요. 버스가 __.",
+    "answer": "늦거든요",
+    "answerKey": "geodeun",
+    "options": [
+      "늦거든요",
+      "늦잖아요"
+    ],
+    "explanation": "-거든요 introduces the reason the listener may not know. -잖아요 would sound like the bus delay is already obvious to them.",
+    "entryId": "pattern-022"
+  },
+  {
+    "id": "reason-geodeun-jana-04",
+    "level": "B1",
+    "contrast": "-거든요 vs -잖아요",
+    "prompt": "Choose the ending for an obvious/shared reason.",
+    "sentence": "우산 챙겨요. 밖에 비 __.",
+    "answer": "오잖아요",
+    "answerKey": "jana",
+    "options": [
+      "오거든요",
+      "오잖아요"
+    ],
+    "explanation": "-잖아요 fits because the rain is visible or already shared. -거든요 would sound like a new explanation.",
+    "entryId": "pattern-022"
+  },
+  {
+    "id": "reason-geodeun-jana-05",
+    "level": "B1",
+    "contrast": "-거든요 vs -잖아요",
+    "prompt": "Choose the ending for personal background.",
+    "sentence": "그 영화는 안 볼래요. 이미 __.",
+    "answer": "봤거든요",
+    "answerKey": "geodeun",
+    "options": [
+      "봤거든요",
+      "봤잖아요"
+    ],
+    "explanation": "-거든요 explains a personal reason the listener may not know. -잖아요 would mean “you know I saw it,” which may be false.",
+    "entryId": "pattern-022"
+  },
+  {
+    "id": "reason-geodeun-jana-06",
+    "level": "B1",
+    "contrast": "-거든요 vs -잖아요",
+    "prompt": "Choose the ending for a shared difficulty.",
+    "sentence": "다시 설명해 주세요. 이 부분 어렵__.",
+    "answer": "잖아요",
+    "answerKey": "jana",
+    "options": [
+      "거든요",
+      "잖아요"
+    ],
+    "explanation": "-잖아요 reminds the listener of a shared or obvious difficulty. -거든요 would present it as new background instead.",
+    "entryId": "pattern-022"
+  },
+  {
+    "id": "witnessed-past-deorago-01",
+    "level": "B1",
+    "contrast": "-더라고요 vs -았/었어요",
+    "prompt": "Choose the ending for firsthand realization.",
+    "sentence": "어제 그 식당에 가 보니까 사람이 많__.",
+    "answer": "더라고요",
+    "answerKey": "deorago",
+    "options": [
+      "더라고요",
+      "았어요"
+    ],
+    "explanation": "-더라고요 reports what you personally noticed. -았어요 would only report a past fact without that discovery feeling.",
+    "entryId": "pattern-023"
+  },
+  {
+    "id": "witnessed-past-deorago-02",
+    "level": "B1",
+    "contrast": "-더라고요 vs -았/었어요",
+    "prompt": "Choose the neutral past report.",
+    "sentence": "어제 집에서 영화를 봤__.",
+    "answer": "어요",
+    "answerKey": "past",
+    "options": [
+      "더라고요",
+      "어요"
+    ],
+    "explanation": "-았/었어요 simply reports what you did. 봤더라고요 would mean you noticed someone had watched, not “I watched.”",
+    "entryId": "pattern-023"
+  },
+  {
+    "id": "witnessed-past-deorago-03",
+    "level": "B1",
+    "contrast": "-더라고요 vs -았/었어요",
+    "prompt": "Choose the ending after direct experience.",
+    "sentence": "부산에 가 보니 바다가 정말 __.",
+    "answer": "예쁘더라고요",
+    "answerKey": "deorago",
+    "options": [
+      "예쁘더라고요",
+      "예뻤어요"
+    ],
+    "explanation": "-더라고요 fits a firsthand impression from going there. 예뻤어요 is just a neutral past description.",
+    "entryId": "pattern-023"
+  },
+  {
+    "id": "witnessed-past-deorago-04",
+    "level": "B1",
+    "contrast": "-더라고요 vs -았/었어요",
+    "prompt": "Choose the ordinary past tense.",
+    "sentence": "저는 어제 숙제를 했__.",
+    "answer": "어요",
+    "answerKey": "past",
+    "options": [
+      "더라고요",
+      "어요"
+    ],
+    "explanation": "했어요 is the normal past for your own action. 하더라고요 would usually describe what you observed someone else doing.",
+    "entryId": "pattern-023"
+  },
+  {
+    "id": "witnessed-past-deorago-05",
+    "level": "B1",
+    "contrast": "-더라고요 vs -았/었어요",
+    "prompt": "Choose the ending for trying it and noticing.",
+    "sentence": "직접 입어 보니까 사이즈가 작__.",
+    "answer": "더라고요",
+    "answerKey": "deorago",
+    "options": [
+      "더라고요",
+      "았어요"
+    ],
+    "explanation": "-더라고요 highlights the realization after trying it on. 작았어요 only states the past fact.",
+    "entryId": "pattern-023"
+  },
+  {
+    "id": "witnessed-past-deorago-06",
+    "level": "B1",
+    "contrast": "-더라고요 vs -았/었어요",
+    "prompt": "Choose the neutral past report.",
+    "sentence": "지난주에 친구를 만났__.",
+    "answer": "어요",
+    "answerKey": "past",
+    "options": [
+      "더라고요",
+      "어요"
+    ],
+    "explanation": "만났어요 reports your past meeting. 만나더라고요 would sound like you observed someone meeting.",
+    "entryId": "pattern-023"
+  },
+  {
+    "id": "transition-daga-gonaseo-01",
+    "level": "B1",
+    "contrast": "-다가 vs -고 나서",
+    "prompt": "Choose the ending for interruption or switch mid-action.",
+    "sentence": "공부하__ 잠깐 잤어요.",
+    "answer": "다가",
+    "answerKey": "daga",
+    "options": [
+      "다가",
+      "고 나서"
+    ],
+    "explanation": "-다가 shows you switched while studying was in progress. -고 나서 would mean you finished studying first.",
+    "entryId": "pattern-051"
+  },
+  {
+    "id": "transition-daga-gonaseo-02",
+    "level": "B1",
+    "contrast": "-다가 vs -고 나서",
+    "prompt": "Choose the ending after completion.",
+    "sentence": "공부하__ 친구를 만났어요.",
+    "answer": "고 나서",
+    "answerKey": "gonaseo",
+    "options": [
+      "다가",
+      "고 나서"
+    ],
+    "explanation": "-고 나서 says studying finished before meeting the friend. -다가 would imply you stopped studying midstream.",
+    "entryId": "pattern-051"
+  },
+  {
+    "id": "transition-daga-gonaseo-03",
+    "level": "B1",
+    "contrast": "-다가 vs -고 나서",
+    "prompt": "Choose the ending for changing routes.",
+    "sentence": "버스를 타__ 지하철로 갈아탔어요.",
+    "answer": "다가",
+    "answerKey": "daga",
+    "options": [
+      "다가",
+      "고 나서"
+    ],
+    "explanation": "-다가 fits changing from one ongoing action/route to another. -고 나서 would sound like you completed the bus ride first.",
+    "entryId": "pattern-051"
+  },
+  {
+    "id": "transition-daga-gonaseo-04",
+    "level": "B1",
+    "contrast": "-다가 vs -고 나서",
+    "prompt": "Choose the ending for a finished first action.",
+    "sentence": "밥을 먹__ 약을 먹었어요.",
+    "answer": "고 나서",
+    "answerKey": "gonaseo",
+    "options": [
+      "다가",
+      "고 나서"
+    ],
+    "explanation": "Eating is completed before taking medicine, so -고 나서 fits. -다가 would suggest stopping mid-meal.",
+    "entryId": "pattern-051"
+  },
+  {
+    "id": "transition-daga-gonaseo-05",
+    "level": "B1",
+    "contrast": "-다가 vs -고 나서",
+    "prompt": "Choose the ending for an interruption.",
+    "sentence": "청소하__ 전화를 받았어요.",
+    "answer": "다가",
+    "answerKey": "daga",
+    "options": [
+      "다가",
+      "고 나서"
+    ],
+    "explanation": "-다가 shows the phone interrupted cleaning. -고 나서 would mean the call came after cleaning was done.",
+    "entryId": "pattern-051"
+  },
+  {
+    "id": "transition-daga-gonaseo-06",
+    "level": "B1",
+    "contrast": "-다가 vs -고 나서",
+    "prompt": "Choose the ending for routine sequence.",
+    "sentence": "운동하__ 샤워했어요.",
+    "answer": "고 나서",
+    "answerKey": "gonaseo",
+    "options": [
+      "다가",
+      "고 나서"
+    ],
+    "explanation": "-고 나서 gives the completed sequence: after exercising, showered. -다가 would mean stopping exercise midway to shower.",
+    "entryId": "pattern-051"
+  },
+  {
+    "id": "causative-change-ge-01",
+    "level": "B1",
+    "contrast": "-게 하다 vs -게 되다",
+    "prompt": "Choose the form for making someone do it.",
+    "sentence": "선생님이 학생들에게 숙제를 하__.",
+    "answer": "게 했어요",
+    "answerKey": "hada",
+    "options": [
+      "게 했어요",
+      "게 되었어요"
+    ],
+    "explanation": "-게 하다 means someone caused or made another person do it. -게 되다 would mean it ended up happening, not that the teacher assigned it.",
+    "entryId": "pattern-148"
+  },
+  {
+    "id": "causative-change-ge-02",
+    "level": "B1",
+    "contrast": "-게 하다 vs -게 되다",
+    "prompt": "Choose the form for an unplanned change.",
+    "sentence": "새 회사에서 일하__.",
+    "answer": "게 되었어요",
+    "answerKey": "doeda",
+    "options": [
+      "게 했어요",
+      "게 되었어요"
+    ],
+    "explanation": "-게 되다 means you came to do it or ended up doing it. -게 하다 would require someone causing another person.",
+    "entryId": "pattern-148"
+  },
+  {
+    "id": "causative-change-ge-03",
+    "level": "B1",
+    "contrast": "-게 하다 vs -게 되다",
+    "prompt": "Choose the form for causing staff action.",
+    "sentence": "회사가 직원들을 재택근무하__.",
+    "answer": "게 했어요",
+    "answerKey": "hada",
+    "options": [
+      "게 했어요",
+      "게 되었어요"
+    ],
+    "explanation": "The company caused employees to work from home, so -게 했어요 fits. -게 되었어요 would focus on a change that happened to the employees.",
+    "entryId": "pattern-148"
+  },
+  {
+    "id": "causative-change-ge-04",
+    "level": "B1",
+    "contrast": "-게 하다 vs -게 되다",
+    "prompt": "Choose the form for a life change.",
+    "sentence": "한국에서 살__.",
+    "answer": "게 되었어요",
+    "answerKey": "doeda",
+    "options": [
+      "게 했어요",
+      "게 되었어요"
+    ],
+    "explanation": "-게 되었어요 describes how the situation changed so you live in Korea. -게 했어요 would mean someone made someone live there.",
+    "entryId": "pattern-148"
+  },
+  {
+    "id": "causative-change-ge-05",
+    "level": "B1",
+    "contrast": "-게 하다 vs -게 되다",
+    "prompt": "Choose the form for making someone wait.",
+    "sentence": "직원이 손님을 밖에서 기다리__.",
+    "answer": "게 했어요",
+    "answerKey": "hada",
+    "options": [
+      "게 했어요",
+      "게 되었어요"
+    ],
+    "explanation": "-게 했어요 shows the staff made the customer wait. -게 되었어요 would remove the clear causer.",
+    "entryId": "pattern-148"
+  },
+  {
+    "id": "causative-change-ge-06",
+    "level": "B1",
+    "contrast": "-게 하다 vs -게 되다",
+    "prompt": "Choose the form for ending up knowing.",
+    "sentence": "그 일을 통해 많은 것을 배우__.",
+    "answer": "게 되었어요",
+    "answerKey": "doeda",
+    "options": [
+      "게 했어요",
+      "게 되었어요"
+    ],
+    "explanation": "-게 되었어요 marks a result or change that came about. -게 했어요 would mean someone made another person learn.",
+    "entryId": "pattern-148"
+  },
+  {
+    "id": "condition-reason-eumyeon-nikka-01",
+    "level": "B1",
+    "contrast": "-(으)면 vs -(으)니까",
+    "prompt": "Choose the conditional ending.",
+    "sentence": "시간이 있__ 같이 밥 먹어요.",
+    "answer": "으면",
+    "answerKey": "condition",
+    "options": [
+      "으면",
+      "으니까"
+    ],
+    "explanation": "-(으)면 sets a condition: if you have time. -(으)니까 would treat having time as a known reason.",
+    "entryId": "pattern-020"
+  },
+  {
+    "id": "condition-reason-eumyeon-nikka-02",
+    "level": "B1",
+    "contrast": "-(으)면 vs -(으)니까",
+    "prompt": "Choose the reason ending before advice.",
+    "sentence": "시간이 없으__ 먼저 가세요.",
+    "answer": "니까",
+    "answerKey": "reason",
+    "options": [
+      "면",
+      "니까"
+    ],
+    "explanation": "-(으)니까 gives a reason for the advice or instruction. -(으)면 would mean “if there is no time,” changing the logic.",
+    "entryId": "pattern-020"
+  },
+  {
+    "id": "condition-reason-eumyeon-nikka-03",
+    "level": "B1",
+    "contrast": "-(으)면 vs -(으)니까",
+    "prompt": "Choose the “if/when” ending.",
+    "sentence": "비가 오__ 택시 탈게요.",
+    "answer": "면",
+    "answerKey": "condition",
+    "options": [
+      "면",
+      "니까"
+    ],
+    "explanation": "-(으)면 makes rain a condition for taking a taxi. -니까 would mean it is already raining and that is why.",
+    "entryId": "pattern-020"
+  },
+  {
+    "id": "condition-reason-eumyeon-nikka-04",
+    "level": "B1",
+    "contrast": "-(으)면 vs -(으)니까",
+    "prompt": "Choose the ending for a known reason.",
+    "sentence": "날씨가 추우__ 창문 닫아 주세요.",
+    "answer": "니까",
+    "answerKey": "reason",
+    "options": [
+      "면",
+      "니까"
+    ],
+    "explanation": "-(으)니까 supports the request with a current reason. -(으)면 would mean “if it gets cold,” not “because it is cold.”",
+    "entryId": "pattern-020"
+  },
+  {
+    "id": "condition-reason-eumyeon-nikka-05",
+    "level": "B1",
+    "contrast": "-(으)면 vs -(으)니까",
+    "prompt": "Choose the ending for what to do when it happens.",
+    "sentence": "도착하__ 연락해 주세요.",
+    "answer": "면",
+    "answerKey": "condition",
+    "options": [
+      "면",
+      "니까"
+    ],
+    "explanation": "-(으)면 means “when/if you arrive.” -니까 would mean “because you arrive,” which does not fit this instruction.",
+    "entryId": "pattern-020"
+  },
+  {
+    "id": "condition-reason-eumyeon-nikka-06",
+    "level": "B1",
+    "contrast": "-(으)면 vs -(으)니까",
+    "prompt": "Choose the ending before a suggestion.",
+    "sentence": "피곤하__ 오늘은 쉬세요.",
+    "answer": "니까",
+    "answerKey": "reason",
+    "options": [
+      "면",
+      "니까"
+    ],
+    "explanation": "-(으)니까 gives the reason for the suggestion to rest. -(으)면 would make tiredness only a possible condition.",
+    "entryId": "pattern-020"
+  },
+  {
+    "id": "purpose-wihae-dorok-01",
+    "level": "B1",
+    "contrast": "-기 위해서 vs -도록",
+    "prompt": "Choose the purpose form for the same subject.",
+    "sentence": "한국어를 배우__ 매일 연습해요.",
+    "answer": "기 위해서",
+    "answerKey": "wihae",
+    "options": [
+      "기 위해서",
+      "도록"
+    ],
+    "explanation": "-기 위해서 states the speaker’s purpose. -도록 often sets a goal or standard, especially for another outcome.",
+    "entryId": "pattern-048"
+  },
+  {
+    "id": "purpose-wihae-dorok-02",
+    "level": "B1",
+    "contrast": "-기 위해서 vs -도록",
+    "prompt": "Choose the form for causing a desired state.",
+    "sentence": "아이가 잘 자__ 불을 껐어요.",
+    "answer": "도록",
+    "answerKey": "dorok",
+    "options": [
+      "기 위해서",
+      "도록"
+    ],
+    "explanation": "-도록 means the action is done so that the child can sleep well. -기 위해서 would make “the child sleeping” sound like the actor’s own activity.",
+    "entryId": "pattern-048"
+  },
+  {
+    "id": "purpose-wihae-dorok-03",
+    "level": "B1",
+    "contrast": "-기 위해서 vs -도록",
+    "prompt": "Choose the purpose form.",
+    "sentence": "시험에 합격하__ 공부해요.",
+    "answer": "기 위해서",
+    "answerKey": "wihae",
+    "options": [
+      "기 위해서",
+      "도록"
+    ],
+    "explanation": "-기 위해서 cleanly states the purpose of studying. -도록 can work in some goal contexts, but the simple personal purpose is 위해서.",
+    "entryId": "pattern-048"
+  },
+  {
+    "id": "purpose-wihae-dorok-04",
+    "level": "B1",
+    "contrast": "-기 위해서 vs -도록",
+    "prompt": "Choose the form for a standard/result.",
+    "sentence": "모두 들을 수 있__ 크게 말해 주세요.",
+    "answer": "도록",
+    "answerKey": "dorok",
+    "options": [
+      "기 위해서",
+      "도록"
+    ],
+    "explanation": "-도록 sets the desired result: so everyone can hear. -기 위해서 would make it sound like “to hear” is the speaker’s purpose.",
+    "entryId": "pattern-048"
+  },
+  {
+    "id": "purpose-wihae-dorok-05",
+    "level": "B1",
+    "contrast": "-기 위해서 vs -도록",
+    "prompt": "Choose the form for personal purpose.",
+    "sentence": "건강을 지키__ 운동해요.",
+    "answer": "기 위해서",
+    "answerKey": "wihae",
+    "options": [
+      "기 위해서",
+      "도록"
+    ],
+    "explanation": "-기 위해서 states why the subject exercises. -도록 would sound more like arranging conditions for health to be maintained.",
+    "entryId": "pattern-048"
+  },
+  {
+    "id": "purpose-wihae-dorok-06",
+    "level": "B1",
+    "contrast": "-기 위해서 vs -도록",
+    "prompt": "Choose the form for preventing lateness.",
+    "sentence": "늦지 않__ 지금 출발합시다.",
+    "answer": "도록",
+    "answerKey": "dorok",
+    "options": [
+      "기 위해서",
+      "도록"
+    ],
+    "explanation": "-도록 sets the target state: not being late. -기 위해서 is less natural with the negative standard 늦지 않다 here.",
+    "entryId": "pattern-048"
+  },
+  {
+    "id": "honorific-recipient-01",
+    "level": "B1",
+    "contrast": "한테 vs 께 (+ 주다 vs 드리다)",
+    "prompt": "Choose the everyday particle for a friend.",
+    "sentence": "친구__ 책을 빌려줬어요.",
+    "answer": "한테",
+    "answerKey": "plain",
+    "options": [
+      "한테",
+      "께"
+    ],
+    "explanation": "한테 is natural for a friend or equal. 께 is honorific and would sound too formal for 친구 in this sentence.",
+    "entryId": "pattern-108"
+  },
+  {
+    "id": "honorific-recipient-02",
+    "level": "B1",
+    "contrast": "한테 vs 께 (+ 주다 vs 드리다)",
+    "prompt": "Choose the honorific particle for grandmother.",
+    "sentence": "할머니__ 선물을 드렸어요.",
+    "answer": "께",
+    "answerKey": "honorific",
+    "options": [
+      "한테",
+      "께"
+    ],
+    "explanation": "께 matches the respected recipient and 드렸어요. 한테 with 드리다 is mixed and less respectful.",
+    "entryId": "pattern-108"
+  },
+  {
+    "id": "honorific-recipient-03",
+    "level": "B1",
+    "contrast": "한테 vs 께 (+ 주다 vs 드리다)",
+    "prompt": "Choose the particle for a younger sibling.",
+    "sentence": "동생__ 물을 줬어요.",
+    "answer": "한테",
+    "answerKey": "plain",
+    "options": [
+      "한테",
+      "께"
+    ],
+    "explanation": "동생한테 matches an ordinary recipient and 줬어요. 께 would over-honor the younger sibling.",
+    "entryId": "pattern-108"
+  },
+  {
+    "id": "honorific-recipient-04",
+    "level": "B1",
+    "contrast": "한테 vs 께 (+ 주다 vs 드리다)",
+    "prompt": "Choose the particle for a teacher.",
+    "sentence": "선생님__ 이메일을 드렸어요.",
+    "answer": "께",
+    "answerKey": "honorific",
+    "options": [
+      "한테",
+      "께"
+    ],
+    "explanation": "선생님께 aligns with the honorific target and 드렸어요. 선생님한테 is common casually, but less careful here.",
+    "entryId": "pattern-108"
+  },
+  {
+    "id": "honorific-recipient-05",
+    "level": "B1",
+    "contrast": "한테 vs 께 (+ 주다 vs 드리다)",
+    "prompt": "Choose the particle for a peer.",
+    "sentence": "민수__ 전화했어요.",
+    "answer": "한테",
+    "answerKey": "plain",
+    "options": [
+      "한테",
+      "께"
+    ],
+    "explanation": "민수한테 is natural for calling a peer. 민수께 would sound overly formal or odd unless Min-su is being honored.",
+    "entryId": "pattern-108"
+  },
+  {
+    "id": "honorific-recipient-06",
+    "level": "B1",
+    "contrast": "한테 vs 께 (+ 주다 vs 드리다)",
+    "prompt": "Choose the particle for the boss.",
+    "sentence": "사장님__ 말씀드렸어요.",
+    "answer": "께",
+    "answerKey": "honorific",
+    "options": [
+      "한테",
+      "께"
+    ],
+    "explanation": "사장님께 matches the honorific verb 말씀드리다. 한테 would make the respect level uneven.",
+    "entryId": "pattern-108"
+  },
+  {
+    "id": "bbeon-pun-01",
+    "level": "B1",
+    "contrast": "-(으)ㄹ 뻔했다 vs -(으)ㄹ 뿐이다",
+    "prompt": "Choose the form for “almost happened.”",
+    "sentence": "길에서 넘어질 __.",
+    "answer": "뻔했어요",
+    "answerKey": "bbeon",
+    "options": [
+      "뻔했어요",
+      "뿐이에요"
+    ],
+    "explanation": "-(으)ㄹ 뻔했어요 means it almost happened but did not. 뿐이에요 would mean “only,” which does not fit an accident.",
+    "entryId": "pattern-029"
+  },
+  {
+    "id": "bbeon-pun-02",
+    "level": "B1",
+    "contrast": "-(으)ㄹ 뻔했다 vs -(으)ㄹ 뿐이다",
+    "prompt": "Choose the form for “only/merely.”",
+    "sentence": "저는 사실을 말했을 __.",
+    "answer": "뿐이에요",
+    "answerKey": "pun",
+    "options": [
+      "뻔했어요",
+      "뿐이에요"
+    ],
+    "explanation": "-(으)ㄹ 뿐이에요 means “I only said the truth.” 뻔했어요 would mean you almost said it but did not.",
+    "entryId": "pattern-029"
+  },
+  {
+    "id": "bbeon-pun-03",
+    "level": "B1",
+    "contrast": "-(으)ㄹ 뻔했다 vs -(으)ㄹ 뿐이다",
+    "prompt": "Choose the form for a near miss.",
+    "sentence": "버스를 놓칠 __.",
+    "answer": "뻔했어요",
+    "answerKey": "bbeon",
+    "options": [
+      "뻔했어요",
+      "뿐이에요"
+    ],
+    "explanation": "놓칠 뻔했어요 means you almost missed the bus. 놓칠 뿐이에요 would mean “only miss it,” which is the wrong meaning.",
+    "entryId": "pattern-029"
+  },
+  {
+    "id": "bbeon-pun-04",
+    "level": "B1",
+    "contrast": "-(으)ㄹ 뻔했다 vs -(으)ㄹ 뿐이다",
+    "prompt": "Choose the form for limiting the action.",
+    "sentence": "저는 옆에서 도왔을 __.",
+    "answer": "뿐이에요",
+    "answerKey": "pun",
+    "options": [
+      "뻔했어요",
+      "뿐이에요"
+    ],
+    "explanation": "도왔을 뿐이에요 means “I merely helped.” 도울 뻔했어요 would mean you almost helped but did not.",
+    "entryId": "pattern-029"
+  },
+  {
+    "id": "bbeon-pun-05",
+    "level": "B1",
+    "contrast": "-(으)ㄹ 뻔했다 vs -(으)ㄹ 뿐이다",
+    "prompt": "Choose the form for almost forgetting.",
+    "sentence": "약속을 잊을 __.",
+    "answer": "뻔했어요",
+    "answerKey": "bbeon",
+    "options": [
+      "뻔했어요",
+      "뿐이에요"
+    ],
+    "explanation": "잊을 뻔했어요 is a near-mistake expression. 잊을 뿐이에요 means “only forget,” which does not fit.",
+    "entryId": "pattern-029"
+  },
+  {
+    "id": "bbeon-pun-06",
+    "level": "B1",
+    "contrast": "-(으)ㄹ 뻔했다 vs -(으)ㄹ 뿐이다",
+    "prompt": "Choose the form for modestly limiting a claim.",
+    "sentence": "저는 제 일을 했을 __.",
+    "answer": "뿐이에요",
+    "answerKey": "pun",
+    "options": [
+      "뻔했어요",
+      "뿐이에요"
+    ],
+    "explanation": "했을 뿐이에요 means “I only did my job.” 할 뻔했어요 would mean you almost did it, not that you did only that.",
+    "entryId": "pattern-029"
+  },
+  {
+    "id": "wish-past-present-01",
+    "level": "B2",
+    "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
+    "prompt": "Choose the counterfactual-sounding wish.",
+    "sentence": "요즘 시간이 없어요. 하루가 조금 더 __.",
+    "answer": "길었으면 좋겠어요",
+    "answerKey": "past-wish",
+    "options": [
+      "길었으면 좋겠어요",
+      "길면 좋겠어요"
+    ],
+    "explanation": "-았/었으면 좋겠어요 often sounds like wishing reality were different. 길면 좋겠어요 is more general and less regretful.",
+    "entryId": "pattern-116"
+  },
+  {
+    "id": "wish-past-present-02",
+    "level": "B2",
+    "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
+    "prompt": "Choose the ordinary future wish.",
+    "sentence": "내일 날씨가 __.",
+    "answer": "좋으면 좋겠어요",
+    "answerKey": "general-wish",
+    "options": [
+      "좋았으면 좋겠어요",
+      "좋으면 좋겠어요"
+    ],
+    "explanation": "-(으)면 좋겠어요 fits an open future hope. 좋았으면 좋겠어요 can sound like wishing a current or past reality were different.",
+    "entryId": "pattern-116"
+  },
+  {
+    "id": "wish-past-present-03",
+    "level": "B2",
+    "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
+    "prompt": "Choose the wish about a present unreal state.",
+    "sentence": "키가 조금 더 __.",
+    "answer": "컸으면 좋겠어요",
+    "answerKey": "past-wish",
+    "options": [
+      "컸으면 좋겠어요",
+      "크면 좋겠어요"
+    ],
+    "explanation": "컸으면 좋겠어요 sounds like “I wish I were taller.” 크면 좋겠어요 sounds more like a general condition or future growth.",
+    "entryId": "pattern-116"
+  },
+  {
+    "id": "wish-past-present-04",
+    "level": "B2",
+    "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
+    "prompt": "Choose the simple hope.",
+    "sentence": "주말에 시간이 __.",
+    "answer": "있으면 좋겠어요",
+    "answerKey": "general-wish",
+    "options": [
+      "있었으면 좋겠어요",
+      "있으면 좋겠어요"
+    ],
+    "explanation": "있으면 좋겠어요 is a normal hope about the weekend. 있었으면 좋겠어요 sounds more regretful or counterfactual.",
+    "entryId": "pattern-116"
+  },
+  {
+    "id": "wish-past-present-05",
+    "level": "B2",
+    "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
+    "prompt": "Choose the regretful wish.",
+    "sentence": "지금 돈이 조금 더 __.",
+    "answer": "있었으면 좋겠어요",
+    "answerKey": "past-wish",
+    "options": [
+      "있었으면 좋겠어요",
+      "있으면 좋겠어요"
+    ],
+    "explanation": "있었으면 좋겠어요 suggests the speaker wishes current reality were different. 있으면 좋겠어요 is a softer general hope.",
+    "entryId": "pattern-116"
+  },
+  {
+    "id": "wish-past-present-06",
+    "level": "B2",
+    "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
+    "prompt": "Choose the open wish.",
+    "sentence": "다음 학기에 좋은 선생님을 __.",
+    "answer": "만나면 좋겠어요",
+    "answerKey": "general-wish",
+    "options": [
+      "만났으면 좋겠어요",
+      "만나면 좋겠어요"
+    ],
+    "explanation": "만나면 좋겠어요 is an open future hope. 만났으면 좋겠어요 can sound more like imagining a different outcome.",
+    "entryId": "pattern-116"
+  },
+  {
+    "id": "counterfactual-deoramyun-eumyeon-01",
+    "level": "B2",
+    "contrast": "-았/었더라면 vs -았/었으면",
+    "prompt": "Choose the stronger past counterfactual.",
+    "sentence": "어제 일찍 잤__ 덜 피곤했을 텐데요.",
+    "answer": "더라면",
+    "answerKey": "deoramyun",
+    "options": [
+      "더라면",
+      "으면"
+    ],
+    "explanation": "-았/었더라면 strongly looks back at an unreal past condition. -았/었으면 is possible but less explicitly regretful.",
+    "entryId": "pattern-153"
+  },
+  {
+    "id": "counterfactual-deoramyun-eumyeon-02",
+    "level": "B2",
+    "contrast": "-았/었더라면 vs -았/었으면",
+    "prompt": "Choose the more neutral past condition.",
+    "sentence": "시간이 있었__ 같이 갔을 거예요.",
+    "answer": "으면",
+    "answerKey": "eumyeon",
+    "options": [
+      "더라면",
+      "으면"
+    ],
+    "explanation": "-았/었으면 gives a plain past condition. -더라면 would make the regret or counterfactual tone stronger.",
+    "entryId": "pattern-153"
+  },
+  {
+    "id": "counterfactual-deoramyun-eumyeon-03",
+    "level": "B2",
+    "contrast": "-았/었더라면 vs -았/었으면",
+    "prompt": "Choose the regretful counterfactual.",
+    "sentence": "그때 조심했__ 사고가 안 났을 거예요.",
+    "answer": "더라면",
+    "answerKey": "deoramyun",
+    "options": [
+      "더라면",
+      "으면"
+    ],
+    "explanation": "-더라면 fits a strong “if only back then” feeling. -았으면 is less forceful and more neutral.",
+    "entryId": "pattern-153"
+  },
+  {
+    "id": "counterfactual-deoramyun-eumyeon-04",
+    "level": "B2",
+    "contrast": "-았/었더라면 vs -았/었으면",
+    "prompt": "Choose the neutral if-clause.",
+    "sentence": "비가 안 왔__ 산책했을 거예요.",
+    "answer": "으면",
+    "answerKey": "eumyeon",
+    "options": [
+      "더라면",
+      "으면"
+    ],
+    "explanation": "-았으면 gives the condition plainly. -더라면 would make it sound like a more reflective regret.",
+    "entryId": "pattern-153"
+  },
+  {
+    "id": "counterfactual-deoramyun-eumyeon-05",
+    "level": "B2",
+    "contrast": "-았/었더라면 vs -았/었으면",
+    "prompt": "Choose the form for looking back with regret.",
+    "sentence": "그 말을 하지 않았__ 좋았을 텐데요.",
+    "answer": "더라면",
+    "answerKey": "deoramyun",
+    "options": [
+      "더라면",
+      "으면"
+    ],
+    "explanation": "-더라면 naturally pairs with 좋았을 텐데요 for regret. -았으면 works, but the prompt asks for the stronger retrospective form.",
+    "entryId": "pattern-153"
+  },
+  {
+    "id": "counterfactual-deoramyun-eumyeon-06",
+    "level": "B2",
+    "contrast": "-았/었더라면 vs -았/었으면",
+    "prompt": "Choose the softer past condition.",
+    "sentence": "조금 더 빨리 왔__ 만났을 거예요.",
+    "answer": "으면",
+    "answerKey": "eumyeon",
+    "options": [
+      "더라면",
+      "으면"
+    ],
+    "explanation": "-았으면 is the neutral past condition. -더라면 would add a heavier “if only” tone.",
+    "entryId": "pattern-153"
+  },
+  {
+    "id": "nominal-gi-geot-01",
+    "level": "B2",
+    "contrast": "-기 vs -는 것",
+    "prompt": "Choose the compact activity noun.",
+    "sentence": "제 취미는 __예요.",
+    "answer": "수영하기",
+    "answerKey": "gi",
+    "options": [
+      "수영하기",
+      "수영하는 것"
+    ],
+    "explanation": "-기 makes a compact activity label, natural after 취미는. -는 것 is possible but heavier and more event-like.",
+    "entryId": "pattern-154"
+  },
+  {
+    "id": "nominal-gi-geot-02",
+    "level": "B2",
+    "contrast": "-기 vs -는 것",
+    "prompt": "Choose the fuller event-like noun phrase.",
+    "sentence": "매일 일찍 일어나__ 쉽지 않아요.",
+    "answer": "는 것",
+    "answerKey": "geot",
+    "options": [
+      "기",
+      "는 것"
+    ],
+    "explanation": "-는 것 packages the whole event of getting up early. -기 is compact, but here the fuller phrase sounds smoother.",
+    "entryId": "pattern-154"
+  },
+  {
+    "id": "nominal-gi-geot-03",
+    "level": "B2",
+    "contrast": "-기 vs -는 것",
+    "prompt": "Choose the form common in fixed activity labels.",
+    "sentence": "__는 건강에 좋아요.",
+    "answer": "걷기",
+    "answerKey": "gi",
+    "options": [
+      "걷기",
+      "걷는 것"
+    ],
+    "explanation": "걷기 is a natural activity noun in general statements. 걷는 것 also works, but feels heavier and more specific.",
+    "entryId": "pattern-154"
+  },
+  {
+    "id": "nominal-gi-geot-04",
+    "level": "B2",
+    "contrast": "-기 vs -는 것",
+    "prompt": "Choose the form for a concrete experience.",
+    "sentence": "외국어로 전화하__ 아직 어려워요.",
+    "answer": "는 것",
+    "answerKey": "geot",
+    "options": [
+      "기",
+      "는 것"
+    ],
+    "explanation": "-는 것 makes the actual experience of calling feel concrete. -기 is more label-like and less conversational here.",
+    "entryId": "pattern-154"
+  },
+  {
+    "id": "nominal-gi-geot-05",
+    "level": "B2",
+    "contrast": "-기 vs -는 것",
+    "prompt": "Choose the form for a title-like activity.",
+    "sentence": "오늘의 목표는 __예요.",
+    "answer": "단어 외우기",
+    "answerKey": "gi",
+    "options": [
+      "단어 외우기",
+      "단어 외우는 것"
+    ],
+    "explanation": "-기 fits lists, goals, and activity labels. -는 것 is grammatical but heavier than a goal label needs.",
+    "entryId": "pattern-154"
+  },
+  {
+    "id": "nominal-gi-geot-06",
+    "level": "B2",
+    "contrast": "-기 vs -는 것",
+    "prompt": "Choose the form for “the fact/action of doing.”",
+    "sentence": "혼자 여행하__ 생각보다 힘들었어요.",
+    "answer": "는 것",
+    "answerKey": "geot",
+    "options": [
+      "기",
+      "는 것"
+    ],
+    "explanation": "-는 것 points to the lived experience of traveling alone. -기 would sound more like the activity category.",
+    "entryId": "pattern-154"
+  },
+  {
+    "id": "discourse-topic-subject-01",
+    "level": "B2",
+    "contrast": "이/가 vs 은/는 (discourse layer)",
+    "prompt": "Choose the particle that answers “who?”.",
+    "sentence": "누가 먼저 전화했어요? 제__ 먼저 전화했어요.",
+    "answer": "가",
+    "answerKey": "subject-focus",
+    "options": [
+      "가",
+      "는"
+    ],
+    "explanation": "제가 answers who did it, so 이/가 is the focus marker. 저는 would sound contrastive, as if others may not have called.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "discourse-topic-subject-02",
+    "level": "B2",
+    "contrast": "이/가 vs 은/는 (discourse layer)",
+    "prompt": "Choose the particle that contrasts today with usual days.",
+    "sentence": "평소에는 문자해요. 오늘__ 전화했어요.",
+    "answer": "은",
+    "answerKey": "topic-contrast",
+    "options": [
+      "은",
+      "이"
+    ],
+    "explanation": "오늘은 contrasts today with the usual pattern. 오늘이 would make today itself the focused subject.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "discourse-topic-subject-03",
+    "level": "B2",
+    "contrast": "이/가 vs 은/는 (discourse layer)",
+    "prompt": "Choose the particle for new arrival information.",
+    "sentence": "방금 메시지__ 왔어요.",
+    "answer": "가",
+    "answerKey": "subject-focus",
+    "options": [
+      "가",
+      "는"
+    ],
+    "explanation": "메시지가 introduces the new thing that arrived. 메시지는 would sound like contrasting messages with calls or emails.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "discourse-topic-subject-04",
+    "level": "B2",
+    "contrast": "이/가 vs 은/는 (discourse layer)",
+    "prompt": "Choose the particle that contrasts coffee with tea.",
+    "sentence": "커피__ 마시지만 차는 안 마셔요.",
+    "answer": "는",
+    "answerKey": "topic-contrast",
+    "options": [
+      "가",
+      "는"
+    ],
+    "explanation": "커피는 marks coffee as one side of a contrast. 커피가 would answer “what drinks?” rather than set up contrast.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "discourse-topic-subject-05",
+    "level": "B2",
+    "contrast": "이/가 vs 은/는 (discourse layer)",
+    "prompt": "Choose the particle for identifying the actor.",
+    "sentence": "이 일은 누가 했어요? 민수__ 했어요.",
+    "answer": "가",
+    "answerKey": "subject-focus",
+    "options": [
+      "가",
+      "는"
+    ],
+    "explanation": "민수가 identifies the actor as the focused answer. 민수는 would frame Min-su as a topic and imply contrast.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "discourse-topic-subject-06",
+    "level": "B2",
+    "contrast": "이/가 vs 은/는 (discourse layer)",
+    "prompt": "Choose the particle for limited scope.",
+    "sentence": "이 문제__ 이해했지만 다음 문제는 어려워요.",
+    "answer": "는",
+    "answerKey": "topic-contrast",
+    "options": [
+      "가",
+      "는"
+    ],
+    "explanation": "문제는 limits the statement to this problem and contrasts with the next one. 문제가 would present it as new subject information.",
+    "entryId": "pattern-159"
+  },
+  {
+    "id": "future-gesseul-geos-01",
+    "level": "B2",
+    "contrast": "-겠- vs -(으)ㄹ 거예요",
+    "prompt": "Choose the service promise.",
+    "sentence": "제가 바로 __.",
+    "answer": "확인하겠습니다",
+    "answerKey": "gesseul",
+    "options": [
+      "확인하겠습니다",
+      "확인할 거예요"
+    ],
+    "explanation": "-겠- fits a responsible service-style promise. -(으)ㄹ 거예요 would sound like a plain future plan, less polished here.",
+    "entryId": "pattern-125"
+  },
+  {
+    "id": "future-gesseul-geos-02",
+    "level": "B2",
+    "contrast": "-겠- vs -(으)ㄹ 거예요",
+    "prompt": "Choose the plain future prediction.",
+    "sentence": "내일 비가 __.",
+    "answer": "올 거예요",
+    "answerKey": "geos",
+    "options": [
+      "오겠습니다",
+      "올 거예요"
+    ],
+    "explanation": "-(으)ㄹ 거예요 is the plain future prediction. 오겠습니다 would sound like the rain is making a formal promise.",
+    "entryId": "pattern-125"
+  },
+  {
+    "id": "future-gesseul-geos-03",
+    "level": "B2",
+    "contrast": "-겠- vs -(으)ㄹ 거예요",
+    "prompt": "Choose the polite offer.",
+    "sentence": "잠시 __.",
+    "answer": "도와드리겠습니다",
+    "answerKey": "gesseul",
+    "options": [
+      "도와드리겠습니다",
+      "도와드릴 거예요"
+    ],
+    "explanation": "도와드리겠습니다 is a polite commitment. 도와드릴 거예요 is grammatical but sounds like reporting a plan.",
+    "entryId": "pattern-125"
+  },
+  {
+    "id": "future-gesseul-geos-04",
+    "level": "B2",
+    "contrast": "-겠- vs -(으)ㄹ 거예요",
+    "prompt": "Choose the planned future.",
+    "sentence": "주말에 부산에 __.",
+    "answer": "갈 거예요",
+    "answerKey": "geos",
+    "options": [
+      "갈 거예요",
+      "가겠습니다"
+    ],
+    "explanation": "-(으)ㄹ 거예요 states a plan. 가겠습니다 is more formal and sounds like a pledge or service response.",
+    "entryId": "pattern-125"
+  },
+  {
+    "id": "future-gesseul-geos-05",
+    "level": "B2",
+    "contrast": "-겠- vs -(으)ㄹ 거예요",
+    "prompt": "Choose the inference from the situation.",
+    "sentence": "이 문제는 초보자에게 조금 __.",
+    "answer": "어렵겠어요",
+    "answerKey": "gesseul",
+    "options": [
+      "어렵겠어요",
+      "어려울 거예요"
+    ],
+    "explanation": "어렵겠어요 is a speaker inference or softened judgment. 어려울 거예요 is a more objective future prediction.",
+    "entryId": "pattern-125"
+  },
+  {
+    "id": "future-gesseul-geos-06",
+    "level": "B2",
+    "contrast": "-겠- vs -(으)ㄹ 거예요",
+    "prompt": "Choose the normal future plan.",
+    "sentence": "다음 달에 __.",
+    "answer": "이사할 거예요",
+    "answerKey": "geos",
+    "options": [
+      "이사할 거예요",
+      "이사하겠습니다"
+    ],
+    "explanation": "이사할 거예요 is the natural plan statement. 이사하겠습니다 sounds like a formal promise to someone.",
+    "entryId": "pattern-125"
+  },
+  {
+    "id": "lexical-analytic-causative-01",
+    "level": "B2",
+    "contrast": "사동 접미사 vs -게 하다",
+    "prompt": "Choose the compact lexical causative.",
+    "sentence": "엄마가 아이를 의자에 __.",
+    "answer": "앉혔어요",
+    "answerKey": "lexical",
+    "options": [
+      "앉혔어요",
+      "앉게 했어요"
+    ],
+    "explanation": "앉혔어요 is the compact lexical causative for physically seating someone. 앉게 했어요 is possible but sounds more indirect.",
+    "entryId": "pattern-147"
+  },
+  {
+    "id": "lexical-analytic-causative-02",
+    "level": "B2",
+    "contrast": "사동 접미사 vs -게 하다",
+    "prompt": "Choose the analytic causative for assigned action.",
+    "sentence": "선생님이 학생들에게 문장을 여러 번 __.",
+    "answer": "읽게 했어요",
+    "answerKey": "analytic",
+    "options": [
+      "읽혔어요",
+      "읽게 했어요"
+    ],
+    "explanation": "-게 하다 fits making students read. 읽혔어요 is passive/causative-looking and does not mean “made them read” naturally here.",
+    "entryId": "pattern-147"
+  },
+  {
+    "id": "lexical-analytic-causative-03",
+    "level": "B2",
+    "contrast": "사동 접미사 vs -게 하다",
+    "prompt": "Choose the lexical causative verb.",
+    "sentence": "제가 불을 __.",
+    "answer": "켰어요",
+    "answerKey": "lexical",
+    "options": [
+      "켰어요",
+      "켜게 했어요"
+    ],
+    "explanation": "켜다 is the ordinary lexical causative “turn on.” 켜게 했어요 would mean you made someone else turn it on.",
+    "entryId": "pattern-147"
+  },
+  {
+    "id": "lexical-analytic-causative-04",
+    "level": "B2",
+    "contrast": "사동 접미사 vs -게 하다",
+    "prompt": "Choose the analytic causative for a boss making staff work.",
+    "sentence": "부장님이 직원들을 늦게까지 __.",
+    "answer": "일하게 했어요",
+    "answerKey": "analytic",
+    "options": [
+      "일으켰어요",
+      "일하게 했어요"
+    ],
+    "explanation": "일하게 했어요 means the boss made employees work. 일으켰어요 means caused/raised/woke, not “made them work.”",
+    "entryId": "pattern-147"
+  },
+  {
+    "id": "lexical-analytic-causative-05",
+    "level": "B2",
+    "contrast": "사동 접미사 vs -게 하다",
+    "prompt": "Choose the compact causative verb.",
+    "sentence": "형이 동생을 __.",
+    "answer": "울렸어요",
+    "answerKey": "lexical",
+    "options": [
+      "울렸어요",
+      "울게 했어요"
+    ],
+    "explanation": "울렸어요 is the compact causative “made someone cry.” 울게 했어요 is also possible, but feels more analytic and intentional.",
+    "entryId": "pattern-147"
+  },
+  {
+    "id": "lexical-analytic-causative-06",
+    "level": "B2",
+    "contrast": "사동 접미사 vs -게 하다",
+    "prompt": "Choose the form for making a child take medicine.",
+    "sentence": "엄마가 아이에게 약을 __.",
+    "answer": "먹게 했어요",
+    "answerKey": "analytic",
+    "options": [
+      "먹였어요",
+      "먹게 했어요"
+    ],
+    "explanation": "먹게 했어요 focuses on making/letting the child take medicine. 먹였어요 is also a causative, but this prompt targets the analytic -게 하다 contrast.",
+    "entryId": "pattern-147"
+  },
+  {
+    "id": "suggestion-levels-01",
+    "level": "B2",
+    "contrast": "-(으)ㅂ시다 vs -(으)ㄹ까요? vs -자",
+    "prompt": "Choose the formal group suggestion.",
+    "sentence": "회의를 __.",
+    "answer": "시작합시다",
+    "answerKey": "formal",
+    "options": [
+      "시작합시다",
+      "시작할까요",
+      "시작하자"
+    ],
+    "explanation": "-(으)ㅂ시다 fits a formal group setting like a meeting. -ㄹ까요 is softer, and -자 is casual.",
+    "entryId": "pattern-016"
+  },
+  {
+    "id": "suggestion-levels-02",
+    "level": "B2",
+    "contrast": "-(으)ㅂ시다 vs -(으)ㄹ까요? vs -자",
+    "prompt": "Choose the soft suggestion question.",
+    "sentence": "커피 __?",
+    "answer": "마실까요",
+    "answerKey": "soft",
+    "options": [
+      "마십시다",
+      "마실까요",
+      "마시자"
+    ],
+    "explanation": "-(으)ㄹ까요? softly proposes and checks the listener’s will. -(으)ㅂ시다 is more formal, and -자 is casual.",
+    "entryId": "pattern-016"
+  },
+  {
+    "id": "suggestion-levels-03",
+    "level": "B2",
+    "contrast": "-(으)ㅂ시다 vs -(으)ㄹ까요? vs -자",
+    "prompt": "Choose the casual friend-level suggestion.",
+    "sentence": "우리 먼저 __.",
+    "answer": "가자",
+    "answerKey": "casual",
+    "options": [
+      "갑시다",
+      "갈까요",
+      "가자"
+    ],
+    "explanation": "-자 is casual and natural among close friends. 갑시다 is formal, and 갈까요 is softer and more polite.",
+    "entryId": "pattern-016"
+  },
+  {
+    "id": "suggestion-levels-04",
+    "level": "B2",
+    "contrast": "-(으)ㅂ시다 vs -(으)ㄹ까요? vs -자",
+    "prompt": "Choose the announcement-style suggestion.",
+    "sentence": "다 같이 규칙을 __.",
+    "answer": "지킵시다",
+    "answerKey": "formal",
+    "options": [
+      "지킵시다",
+      "지킬까요",
+      "지키자"
+    ],
+    "explanation": "지킵시다 sounds formal and public, like a campaign or announcement. 지키자 is casual, and 지킬까요 asks softly.",
+    "entryId": "pattern-016"
+  },
+  {
+    "id": "suggestion-levels-05",
+    "level": "B2",
+    "contrast": "-(으)ㅂ시다 vs -(으)ㄹ까요? vs -자",
+    "prompt": "Choose the gentle suggestion.",
+    "sentence": "오늘은 여기까지 __?",
+    "answer": "할까요",
+    "answerKey": "soft",
+    "options": [
+      "합시다",
+      "할까요",
+      "하자"
+    ],
+    "explanation": "할까요? gently asks if stopping here is okay. 합시다 is firmer/formal, and 하자 is casual.",
+    "entryId": "pattern-016"
+  },
+  {
+    "id": "suggestion-levels-06",
+    "level": "B2",
+    "contrast": "-(으)ㅂ시다 vs -(으)ㄹ까요? vs -자",
+    "prompt": "Choose the close-friend suggestion.",
+    "sentence": "주말에 영화 __.",
+    "answer": "보자",
+    "answerKey": "casual",
+    "options": [
+      "봅시다",
+      "볼까요",
+      "보자"
+    ],
+    "explanation": "보자 is natural casual speech with a friend. 봅시다 is formal, and 볼까요 is polite or tentative.",
+    "entryId": "pattern-016"
+  }
+]

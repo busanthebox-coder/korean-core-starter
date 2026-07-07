@@ -608,6 +608,51 @@
       ],
       "correct": "[한구거]",
       "explanation": "The ㄱ links into the following vowel."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "먹어요 is heard closer to ___.",
+      "correct": "머거요",
+      "explanation": "With 연음, the final ㄱ slides onto the following vowel. So 먹어요 is heard closer to 머거요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "국민 is naturally heard closer to:",
+      "options": [
+        "궁민",
+        "국민 그대로",
+        "군민"
+      ],
+      "correct": "궁민",
+      "explanation": "Before ㄴ or ㅁ, a stop sound can nasalize. ㄱ before ㅁ is heard closer to ㅇ, giving 궁민."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the pronunciation note: '좋다 sounds like [조다].'",
+      "correct": "좋다 sounds like [조타].",
+      "explanation": "ㅎ combines with ㄷ and makes the aspirated ㅌ sound. That is why 좋다 is heard as [조타]."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Read Korean slowly.'",
+      "tokens": [
+        "한국어를",
+        "천천히",
+        "읽어요"
+      ],
+      "correct": "한국어를 천천히 읽어요",
+      "explanation": "This sentence keeps pronunciation practice inside a real action phrase. 한국어를 is the object and 천천히 tells how to read."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "학교___ 가요. (I go to school.)",
+      "options": [
+        "에",
+        "에서",
+        "를"
+      ],
+      "correct": "에",
+      "explanation": "가요 takes 에 for the destination. The pronunciation of 학교 may tense in speech, but the written particle is still 에."
     }
   ],
   "summaryCard": {

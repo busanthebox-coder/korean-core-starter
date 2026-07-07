@@ -534,7 +534,8 @@
       "type": "translate",
       "prompt": "Translate: 'Nice to meet you. I'm a Korean language teacher.'",
       "correct": "만나서 반가워요. 저는 한국어 선생님이에요.",
-      "hint": "선생님 ends in 'm' (consonant) — which form of 'to be' do you use? 만나서 반가워요 is the standard 'nice to meet you' phrase."
+      "hint": "선생님 ends in 'm' (consonant) — which form of 'to be' do you use? 만나서 반가워요 is the standard 'nice to meet you' phrase.",
+      "explanation": "만나서 반가워요 is the natural fixed greeting for first meetings. 저는 한국어 선생님이에요 uses 저는 for self-introduction and 이에요 after the consonant-ending noun 선생님."
     },
     {
       "type": "fillBlank",
@@ -556,6 +557,33 @@
       ],
       "correct": "죄송합니다",
       "explanation": "감사합니다 means 'thank you' — not an apology. 만나서 반가워요 is 'nice to meet you' — also wrong context. 죄송합니다 is the correct formal apology for causing inconvenience to a stranger. In casual situations with friends, 미안해요 would also work, but 죄송합니다 is the safe formal choice in public."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "저___ 학생이에요. (As for me, I am a student.)",
+      "options": [
+        "는",
+        "가",
+        "를"
+      ],
+      "correct": "는",
+      "explanation": "저는 sets “I/me” as the topic for a polite self-introduction. 가 would mark a subject in a different focus, and 를 would wrongly make 저 an object."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I am a student.'",
+      "tokens": [
+        "저는",
+        "학생이에요"
+      ],
+      "correct": "저는 학생이에요",
+      "explanation": "A simple Korean self-introduction starts with the topic 저는. 학생 ends in a consonant, so the polite “am/is” form is 이에요."
+    },
+    {
+      "type": "translate",
+      "prompt": "Translate: 'Thank you.'",
+      "correct": "감사합니다",
+      "explanation": "감사합니다 is the safest polite thank-you for first meetings and service situations. 고마워요 is warm but a little more familiar."
     }
   ],
   "summaryCard": {

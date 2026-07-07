@@ -1,0 +1,47 @@
+{
+  "id": "reader-a2-07",
+  "level": "A2",
+  "title": "그 식당, 다시 갈 거예요",
+  "titleEn": "I Will Go Back to That Restaurant",
+  "genre": "review",
+  "body": [
+    "어제 지민은 민수와 새 식당에 갔어요. 사람이 많아서 밖에서 삼십 분을 기다렸어요. 직원은 너무 바빴고 처음에는 조금 불친절해 보였어요. 지민은 그냥 다른 곳에 갈까 생각했지만 민수가 조금만 더 기다리자고 했어요.",
+    "드디어 자리에 앉아서 김치찌개와 고기를 주문했어요. 음식은 늦게 나왔지만 냄새가 정말 좋았어요. 찌개는 맵지만 깊은 맛이 있었고 고기는 부드러웠어요. 직원도 마지막에는 물을 더 주면서 미안하다고 했어요. 지민은 집에 가는 길에도 그 맛을 계속 생각했어요. 다음 주에는 가족도 데리고 올 것 같아요. 그래서 지민은 다음에는 평일 낮에 가려고 해요. 그때는 오래 기다리지 않을 것 같아요. 기다리느라 힘들었지만 맛 때문에 두 사람은 다시 갈 거예요."
+  ],
+  "bodyTranslation": [
+    "Yesterday Jimin went to a new restaurant with Minsu. There were many people, so they waited outside for thirty minutes. The staff was very busy and seemed a little unfriendly at first. Jimin thought about just going somewhere else, but Minsu said they should wait a little longer.",
+    "At last they sat down and ordered kimchi stew and meat. The food came late, but it smelled really good. The stew was spicy but had a deep flavor, and the meat was tender. At the end the staff also gave them more water and apologized. Jimin kept thinking about the taste on the way home. She thinks she will bring her family next week. So Jimin plans to go during a weekday lunch next time. Then she thinks she will not wait long. Waiting was hard, but because of the taste the two will go again."
+  ],
+  "comprehensionQuestions": [
+    {
+      "type": "multipleChoice",
+      "prompt": "두 사람은 밖에서 얼마나 기다렸어요?",
+      "options": ["삼십 분", "오 분", "두 시간", "하루"],
+      "correct": "삼십 분",
+      "explanation": "밖에서 삼십 분을 기다렸어요라고 나와요. 기다림은 이 후기의 첫 불편한 점이에요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "처음에 직원은 어떻게 보였어요?",
+      "options": ["조금 불친절해 보였어요", "아주 한가해 보였어요", "학생처럼 보였어요", "손님처럼 보였어요"],
+      "correct": "조금 불친절해 보였어요",
+      "explanation": "직원은 바빴고 처음에는 조금 불친절해 보였어요. 하지만 마지막에는 사과해요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "왜 다시 갈 거예요?",
+      "options": ["맛 때문에", "가격 때문에만", "집이 가까워서만", "기다림이 좋아서"],
+      "correct": "맛 때문에",
+      "explanation": "기다리느라 힘들었지만 맛 때문에 다시 갈 거예요. -지만 앞에는 불편함, 뒤에는 결정 이유가 와요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "주문한 음식은 무엇이에요?",
+      "options": ["김치찌개와 고기", "커피와 빵", "과일과 우유", "생선과 차"],
+      "correct": "김치찌개와 고기",
+      "explanation": "김치찌개와 고기를 주문했어요가 정답이에요. 다른 음식은 보기용이에요."
+    }
+  ],
+  "summaryPrompt": "식당의 불편한 점과 다시 가려는 이유를 두 문장으로 요약해 보세요.",
+  "newWords": ["지민", "민수", "김치찌개"]
+}

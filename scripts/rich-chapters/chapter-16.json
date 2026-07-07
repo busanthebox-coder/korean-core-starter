@@ -768,7 +768,8 @@
       "type": "translate",
       "prompt": "Translate: 'The more experience you gain, the more confident you become.'",
       "correct": "경험이 쌓일수록 자신감이 생겨요.",
-      "hint": "쌓이다 has a vowel before the final ㄹ — how does -(으)ㄹ수록 attach? What word means 'confidence develops'?"
+      "hint": "쌓이다 has a vowel before the final ㄹ — how does -(으)ㄹ수록 attach? What word means 'confidence develops'?",
+      "explanation": "-(으)ㄹ수록 makes the 'the more X, the more Y' structure. 경험이 쌓이다 and 자신감이 생기다 are natural pairings for experience increasing and confidence appearing."
     },
     {
       "type": "multipleChoice",
@@ -802,6 +803,35 @@
       ],
       "correct": "읽다 → 읽을수록 좋아요.",
       "explanation": "읽다 ends in a consonant cluster (ㄱ final). Consonant-ending stems take -을수록: 읽 + 을수록 = 읽을수록. Option A (읽수록) skips the vowel buffer -을 needed after a consonant — this is wrong. Option C (읽어수록) confuses the polite ending 어요 with the -수록 attachment — 수록 never uses the -아/어 vowel; it attaches via -을/ㄹ."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "발표___ 준비하기 위해서 매일 연습해요. (I practice every day to prepare a presentation.)",
+      "options": [
+        "를",
+        "가",
+        "에서"
+      ],
+      "correct": "를",
+      "explanation": "준비하다 takes the thing being prepared as an object, so 발표를 fits. 가 would make 발표 the subject, not the preparation target."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "서울은 살___ 더 좋아져요. (살다 → the more)",
+      "base": "살다",
+      "form": "proportional",
+      "correct": "살수록",
+      "explanation": "-(으)ㄹ수록 means “the more.” 살다 has ㄹ already in the stem, so the natural form is 살수록."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'The internet suddenly cut out, so I missed class.'",
+      "tokens": [
+        "갑자기 인터넷이 끊기는 바람에",
+        "수업을 못 들었어요"
+      ],
+      "correct": "갑자기 인터넷이 끊기는 바람에 수업을 못 들었어요",
+      "explanation": "-는 바람에 frames the cause as an unexpected disruption. 못 들었어요 gives the bad result that followed."
     }
   ],
   "summaryCard": {

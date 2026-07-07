@@ -764,8 +764,60 @@
     {
       "type": "fillBlank",
       "prompt": "Complete the regret: 바로 사과했더라면 이렇게 ____ 않았을 텐데요.",
-      "answer": "후회하지",
-      "explanation": "후회하지 않았을 텐데요 means \"I would not regret it.\""
+      "explanation": "후회하지 않았을 텐데요 means \"I would not regret it.\"",
+      "correct": "후회하지"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "버스___ 놓쳤더라면 늦었을 거예요. (If I had missed the bus...)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "놓치다 takes the thing missed as an object, so 버스를 fits. The counterfactual ending shows this did not actually happen."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "미리 ___ 준비했을 거예요. (알다 → stronger past counterfactual)",
+      "base": "알다",
+      "form": "counterfactualPast",
+      "correct": "알았더라면",
+      "explanation": "-았/었더라면 makes a reflective past counterfactual. 알다 becomes 알았더라면."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'If I had known in advance, I would have prepared.'",
+      "tokens": [
+        "미리 알았더라면",
+        "준비했을 거예요"
+      ],
+      "correct": "미리 알았더라면 준비했을 거예요",
+      "explanation": "The condition is a missed past condition, so 알았더라면 fits. The result stays hypothetical with 했을 거예요."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Complete: 바로 사과했더라면 이렇게 ____ 않았을 텐데요.",
+      "correct": "되지",
+      "explanation": "되지 않았을 텐데요 keeps the result hypothetical and regretful. It means the situation would not have become like this."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the regret: '미리 알면 준비했을 텐데요.'",
+      "correct": "미리 알았으면 준비했을 텐데요.",
+      "explanation": "For a missed past condition, use 알았으면, not the open condition 알면. The result clause 했을 텐데요 stays hypothetical."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which condition is clearly about a missed past chance?",
+      "options": [
+        "일찍 도착했더라면 만났을 거예요.",
+        "일찍 도착하면 만나요.",
+        "일찍 도착해서 만났어요."
+      ],
+      "correct": "일찍 도착했더라면 만났을 거예요.",
+      "explanation": "-았/었더라면 points to a past condition that did not happen. The other choices are open condition or real past result."
     }
   ],
   "summaryCard": {

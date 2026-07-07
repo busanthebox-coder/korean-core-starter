@@ -873,8 +873,60 @@
     {
       "type": "fillBlank",
       "prompt": "Complete the sentence: 단어를 ____ 전에 예문을 들어요.",
-      "answer": "외우기",
-      "explanation": "Before doing uses V기 전에, so 외우다 becomes 외우기 전에."
+      "explanation": "Before doing uses V기 전에, so 외우다 becomes 외우기 전에.",
+      "correct": "외우기"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "운동___ 시작했어요. (I started exercising.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "시작하다 can take the activity noun as an object, so 운동을 fits. 이 would make exercise the subject."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "책을 ___ 단어를 외워요. (읽다 → before doing)",
+      "base": "읽다",
+      "form": "beforeDoing",
+      "correct": "읽기 전에",
+      "explanation": "V-기 전에 means before doing. 읽다 becomes 읽기 전에."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I decided to memorize words.'",
+      "tokens": [
+        "단어를",
+        "외우기로 했어요"
+      ],
+      "correct": "단어를 외우기로 했어요",
+      "explanation": "-기로 했어요 is the fixed decision frame. 외우다 becomes 외우기로 before 했어요."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I started learning Korean.'",
+      "correct": "한국어를 배우기 시작했어요.",
+      "explanation": "V-기 시작하다 means start doing. 배우다 becomes 배우기 before 시작했어요."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '한국어를 공부하는 위해서 왔어요.'",
+      "correct": "한국어를 공부하기 위해서 왔어요.",
+      "explanation": "Purpose uses V-기 위해서, not V-는 위해서. 공부하다 becomes 공부하기 위해서."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence treats walking as an activity label?",
+      "options": [
+        "걷기는 건강에 좋아요.",
+        "걷는 것은 저 사람이에요.",
+        "걷다 건강이에요."
+      ],
+      "correct": "걷기는 건강에 좋아요.",
+      "explanation": "-기 can turn the activity into a topic label. 걷기는 means walking as an activity."
     }
   ],
   "summaryCard": {

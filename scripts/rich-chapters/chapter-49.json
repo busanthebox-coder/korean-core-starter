@@ -850,6 +850,47 @@
       ],
       "correct": "오늘 계약할 수 있어요.",
       "explanation": "Vㄹ/을 수 있어요 expresses practical possibility."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "관리비___ 포함돼요? (Is the maintenance fee included?)",
+      "options": [
+        "가",
+        "를",
+        "에"
+      ],
+      "correct": "가",
+      "explanation": "포함되다 is passive/included, so 관리비 is the subject and takes 가. 를 would fit an active verb like 포함하다."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "인터넷이 관리비에 ___ ? (포함되다 → polite question)",
+      "base": "포함되다",
+      "form": "politeQuestion",
+      "correct": "포함돼요?",
+      "explanation": "포함되다 becomes 포함돼요 in polite speech. As a question, rising intonation or the question mark makes it “is it included?”"
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Is internet included?'",
+      "tokens": [
+        "인터넷이",
+        "포함돼요?"
+      ],
+      "correct": "인터넷이 포함돼요?",
+      "explanation": "인터넷이 is the subject of being included. 포함돼요? is the natural real-estate question."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Ask: 'How much is the deposit?'",
+      "correct": "보증금은 얼마예요?",
+      "explanation": "보증금은 sets the deposit as the topic. 얼마예요 asks for the amount or price."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '원룸에서 살아요.'",
+      "correct": "원룸에 살아요.",
+      "explanation": "살다 uses 에 for where someone lives. 에서 is for actions happening at a place."
     }
   ],
   "summaryCard": {

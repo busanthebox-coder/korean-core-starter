@@ -597,6 +597,34 @@
       ],
       "correct": "I understand / I see / Okay.",
       "explanation": "알겠어요 literally contains 알다 (to know) + 겠 (future/inference marker) + 어요, but it functions as 'I got it / I understand / Okay' in conversation. It is NOT 모르겠어요 (I don't know / I'm not sure), NOT 다시 말해 주세요 (please say it again), NOT 맞아요? (is that right?). Use 알겠어요 to signal to your teacher that you have understood what they just explained."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Type the syllable block made from ㅁ + ㅏ.",
+      "correct": "마",
+      "explanation": "ㅁ gives the first sound and ㅏ sits to its right as a tall vowel. Together they form the single syllable block 마."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Please speak slowly.'",
+      "tokens": [
+        "천천히",
+        "말해",
+        "주세요"
+      ],
+      "correct": "천천히 말해 주세요",
+      "explanation": "천천히 tells how to speak, and 말해 주세요 makes the polite request. This is the classroom phrase learners need when the Korean is too fast."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which block starts with a vowel sound and uses ㅇ as the silent placeholder?",
+      "options": [
+        "아",
+        "나",
+        "한"
+      ],
+      "correct": "아",
+      "explanation": "아 begins with a vowel sound, so ㅇ fills the first consonant slot silently. 나 and 한 begin with real consonant sounds."
     }
   ],
   "summaryCard": {

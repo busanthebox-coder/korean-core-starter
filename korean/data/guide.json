@@ -1,6 +1,153 @@
 {
   "tracks": [
     {
+      "id": "track-app-manual",
+      "letter": "Start",
+      "title": "App Manual",
+      "summary": "Use the app itself first: where to start, how daily study works, how to type Korean, and how to read the big picture before Chapter 1.",
+      "units": [
+        {
+          "id": "guide-app-how-to-use",
+          "title": "How to use this app",
+          "situation": "You opened Korean Core Starter and want a simple daily route instead of wandering through every tab.",
+          "goal": "I can choose what to do first, study for 15 minutes, and understand how review, romanization, and progress fit together.",
+          "beginnerGuide": [
+            {
+              "title": "The six tabs",
+              "body": "Learn is the course path. Practice is review and drills. Shadow is speaking imitation. Roleplay is guided conversation. Dictionary is the reference. Guide is practical help for Korea and for using this app."
+            },
+            {
+              "title": "A 15-minute day",
+              "body": "Start with Practice and clear due review for about 5 minutes. Open Learn for a few new screens for about 8 minutes. Finish with one Shadow line for about 2 minutes so the language reaches your mouth."
+            },
+            {
+              "title": "How review works",
+              "body": "Items you miss can return through spaced review. The app brings them back after longer gaps so weak words stop disappearing."
+            },
+            {
+              "title": "Romanization",
+              "body": "Keep Romaja on at the very beginning. Around Chapter 3, try turning it off for short stretches so Hangul starts doing the work."
+            },
+            {
+              "title": "Progress and backup",
+              "body": "Completion is stored in this browser. When backup/export is added, use it before changing devices. Until then, keep the same browser for steady progress."
+            }
+          ],
+          "steps": [
+            "Open Practice and clear anything due.",
+            "Open Learn and continue the next unfinished chapter or pack.",
+            "Add new words to review only when you want them to return later.",
+            "Use Dictionary when a word appears twice and still feels slippery.",
+            "Use Shadow or Roleplay briefly after study so the sentence becomes speakable.",
+            "Come back to Guide when a real-life Korea task blocks you."
+          ],
+          "checkpoints": [
+            "I know what each tab is for.",
+            "I can follow the 15-minute daily route.",
+            "I know Romaja is temporary support, not the final reading habit.",
+            "I know progress lives in this browser unless I export it later."
+          ],
+          "deepLinks": [
+            {
+              "label": "Open Learn",
+              "url": "#/learn",
+              "note": "Start or continue the course path."
+            },
+            {
+              "label": "Open Practice",
+              "url": "#/practice",
+              "note": "Clear review or run a short drill."
+            },
+            {
+              "label": "Open Dictionary",
+              "url": "#/dictionary",
+              "note": "Search words, expressions, and patterns."
+            }
+          ],
+          "keyPhrases": [],
+          "dialogue": []
+        },
+        {
+          "id": "guide-app-korean-typing",
+          "title": "Set up Korean typing",
+          "situation": "You need to type Korean for drills, search, messages, delivery apps, maps, and daily life.",
+          "goal": "I can install a Korean keyboard, switch to it, and use tap-input fallback when I do not have Korean typing ready.",
+          "beginnerGuide": [
+            {
+              "title": "Why this matters",
+              "body": "Typing Korean lets you search Naver Map, text people, use delivery apps, and complete production drills. The app also gives tap-input fallback for typed answers so you are not blocked on day one."
+            },
+            {
+              "title": "iPhone or iPad",
+              "body": "Open Settings > General > Keyboard > Keyboards > Add New Keyboard > Korean. Use the globe key to switch keyboards."
+            },
+            {
+              "title": "Android",
+              "body": "In Gboard or Samsung Keyboard, open Languages, add Korean, and choose 2-set Korean. Use the globe or spacebar switcher to change languages."
+            },
+            {
+              "title": "Mac",
+              "body": "Open System Settings > Keyboard > Input Sources, add Korean, and choose 2-Set Korean. Control-Space usually switches input sources."
+            },
+            {
+              "title": "Windows",
+              "body": "Open Settings > Time & language > Language & region, add Korean, then switch with Win-Space. Choose the Korean Microsoft IME."
+            },
+            {
+              "title": "2-set in 30 seconds",
+              "body": "Consonants are on the left, vowels are on the right, and final consonants combine automatically. Type ㅎ + ㅏ + ㄴ and the keyboard builds 한."
+            }
+          ],
+          "steps": [
+            "Install Korean input for your device.",
+            "Practice switching between English and Korean.",
+            "Type 한, 국, 어 slowly and watch the blocks combine.",
+            "Open Chapter 1 and use the Hangul trainer.",
+            "When a typing question appears before you are ready, use the tap-input fallback."
+          ],
+          "checkpoints": [
+            "I can switch to Korean input.",
+            "I know 2-set Korean uses left-hand consonants and right-hand vowels.",
+            "I know the app has a tap-input fallback for typed drills."
+          ],
+          "deepLinks": [
+            {
+              "label": "Practice Hangul",
+              "url": "#/learn",
+              "note": "Open Learn, then Start here — Hangul."
+            },
+            {
+              "label": "Try a typing drill",
+              "url": "#/practice",
+              "note": "Use Write mode and turn on tap input if needed."
+            }
+          ],
+          "keyPhrases": [],
+          "dialogue": []
+        },
+        {
+          "id": "guide-app-how-korean-works",
+          "title": "How Korean Works",
+          "situation": "A quick map of Korean before grammar details start.",
+          "goal": "I can explain the ten big ideas that make the first chapters less surprising.",
+          "orientation": true,
+          "beginnerGuide": [
+            {
+              "title": "A five-minute map",
+              "body": "These ten cards explain Hangul, word order, particles, politeness, dropped subjects, numbers, and sound changes before you meet them one by one in the course."
+            }
+          ],
+          "checkpoints": [
+            "I know Korean verbs usually come at the end.",
+            "I know particles show noun roles.",
+            "I know Romaja is temporary support."
+          ],
+          "keyPhrases": [],
+          "dialogue": []
+        }
+      ]
+    },
+    {
       "id": "track-arrival",
       "letter": "A",
       "title": "Arrival & Connectivity",
@@ -1964,27 +2111,27 @@
           ],
           "dialogue": [
             {
-              "speaker": "Operator",
               "ko": "119입니다. 무슨 일이세요?",
               "romanization": "119-imnida. museun iriseyo?",
+              "speaker": "Operator",
               "en": "This is 119. What happened?"
             },
             {
-              "speaker": "You",
               "ko": "사람이 다쳤어요. 통역이 필요해요.",
               "romanization": "sarami dachyeosseoyo. tongyeogi piryohaeyo.",
+              "speaker": "You",
               "en": "Someone is hurt. I need interpretation."
             },
             {
-              "speaker": "Operator",
               "ko": "지금 위치가 어디예요?",
               "romanization": "jigeum wichiga eodiyeyo?",
+              "speaker": "Operator",
               "en": "Where are you now?"
             },
             {
-              "speaker": "You",
               "ko": "주소를 보내드릴게요. 빨리 와 주세요.",
               "romanization": "jusoreul bonaedeurilgeyo. ppalli wa juseyo.",
+              "speaker": "You",
               "en": "I'll send the address. Please come quickly."
             }
           ],
@@ -2070,27 +2217,27 @@
           ],
           "dialogue": [
             {
-              "speaker": "Manager",
               "ko": "오늘 몇 시에 올 수 있어요?",
               "romanization": "oneul myeot sie ol su isseoyo?",
+              "speaker": "Manager",
               "en": "What time can you come today?"
             },
             {
-              "speaker": "You",
               "ko": "죄송해요. 몸이 안 좋아서 오늘 출근이 어려울 것 같아요.",
               "romanization": "joesonghaeyo. momi an joaseo oneul chulgeuni eoryeoul geot gatayo.",
+              "speaker": "You",
               "en": "I am sorry. I do not feel well, so I think it will be hard to come in today."
             },
             {
-              "speaker": "Manager",
               "ko": "알겠어요. 내일은 괜찮아요?",
               "romanization": "algesseoyo. naeireun gwaenchanayo?",
+              "speaker": "Manager",
               "en": "Okay. Are you okay for tomorrow?"
             },
             {
-              "speaker": "You",
               "ko": "네, 내일은 출근할 수 있을 것 같아요.",
               "romanization": "ne, naeireun chulgeunhal su isseul geot gatayo.",
+              "speaker": "You",
               "en": "Yes, I think I can come to work tomorrow."
             }
           ],
@@ -2176,21 +2323,21 @@
           ],
           "dialogue": [
             {
-              "speaker": "You",
               "ko": "안녕하세요. 밤에 소리가 조금 커서요.",
               "romanization": "annyeonghaseyo. bame soriga jogeum keoseoyo.",
+              "speaker": "You",
               "en": "Hello. The noise is a little loud at night."
             },
             {
-              "speaker": "Neighbor",
               "ko": "아, 죄송해요. 몰랐어요.",
               "romanization": "a, joesonghaeyo. mollasseoyo.",
+              "speaker": "Neighbor",
               "en": "Oh, I am sorry. I did not know."
             },
             {
-              "speaker": "You",
               "ko": "괜찮아요. 혹시 조금만 조용히 해 주실 수 있을까요?",
               "romanization": "gwaenchanayo. hoksi jogeumman joyonghi hae jusil su isseulkkayo?",
+              "speaker": "You",
               "en": "It is okay. Could you possibly be a little quieter?"
             }
           ],
@@ -2289,21 +2436,21 @@
           ],
           "dialogue": [
             {
-              "speaker": "You",
               "ko": "여기 주소 좀 보내 주세요.",
               "romanization": "yeogi juso jom bonae juseyo.",
+              "speaker": "You",
               "en": "Please send me the address here."
             },
             {
-              "speaker": "Friend",
               "ko": "네이버 지도 링크 보낼게요.",
               "romanization": "neibeo jido linkeu bonaelgeyo.",
+              "speaker": "Friend",
               "en": "I will send a Naver Map link."
             },
             {
-              "speaker": "You",
               "ko": "고마워요. 몇 번 출구로 가면 돼요?",
               "romanization": "gomawoyo. myeot beon chulguro gamyeon dwaeyo?",
+              "speaker": "You",
               "en": "Thanks. Which exit should I go to?"
             }
           ],
@@ -2395,21 +2542,21 @@
           ],
           "dialogue": [
             {
-              "speaker": "Rider",
               "ko": "주소가 여기 맞나요?",
               "romanization": "jusoga yeogi mannayo?",
+              "speaker": "Rider",
               "en": "Is this the right address?"
             },
             {
-              "speaker": "You",
               "ko": "네, 맞아요. 문 앞에 놔 주세요.",
               "romanization": "ne, majayo. mun ape nwa juseyo.",
+              "speaker": "You",
               "en": "Yes, that is right. Please leave it at the door."
             },
             {
-              "speaker": "Rider",
               "ko": "알겠습니다.",
               "romanization": "algesseumnida.",
+              "speaker": "Rider",
               "en": "Understood."
             }
           ],
@@ -2501,21 +2648,21 @@
           ],
           "dialogue": [
             {
-              "speaker": "Driver",
               "ko": "어디로 가세요?",
               "romanization": "eodiro gaseyo?",
+              "speaker": "Driver",
               "en": "Where are you going?"
             },
             {
-              "speaker": "You",
               "ko": "이 주소로 가 주세요.",
               "romanization": "i jusoro ga juseyo.",
+              "speaker": "You",
               "en": "Please go to this address."
             },
             {
-              "speaker": "Driver",
               "ko": "네, 알겠습니다.",
               "romanization": "ne, algesseumnida.",
+              "speaker": "Driver",
               "en": "Okay, understood."
             }
           ],
@@ -2606,21 +2753,21 @@
           ],
           "dialogue": [
             {
-              "speaker": "You",
               "ko": "본인 인증 어떻게 해요?",
               "romanization": "bonin injeung eotteoke haeyo?",
+              "speaker": "You",
               "en": "How do I verify my identity?"
             },
             {
-              "speaker": "Staff",
               "ko": "휴대폰 번호로 인증하시면 돼요.",
               "romanization": "hyudaepon beonhoro injeunghasimyeon dwaeyo.",
+              "speaker": "Staff",
               "en": "You can verify with your mobile phone number."
             },
             {
-              "speaker": "You",
               "ko": "인증번호가 안 와요.",
               "romanization": "injeungbeonhoga an wayo.",
+              "speaker": "You",
               "en": "The verification code is not coming."
             }
           ],
@@ -2717,21 +2864,21 @@
           ],
           "dialogue": [
             {
-              "speaker": "You",
               "ko": "이 표현 자연스러워요?",
               "romanization": "i pyohyeon jayeonseureowoyo?",
+              "speaker": "You",
               "en": "Does this expression sound natural?"
             },
             {
-              "speaker": "Native",
               "ko": "뜻은 맞는데 조금 딱딱해요.",
               "romanization": "tteuseun manneunde jogeum ttakttakhaeyo.",
+              "speaker": "Native",
               "en": "The meaning is right, but it is a little stiff."
             },
             {
-              "speaker": "You",
               "ko": "그럼 카톡으로는 어떻게 말해요?",
               "romanization": "geureom katogeuro-neun eotteoke marhaeyo?",
+              "speaker": "You",
               "en": "Then how would you say it on KakaoTalk?"
             }
           ],

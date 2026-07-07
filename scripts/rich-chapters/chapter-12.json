@@ -583,7 +583,8 @@
       "type": "translate",
       "prompt": "Translate: 'I think it's going to rain tomorrow.'",
       "correct": "내일 비가 올 것 같아요.",
-      "hint": "Decide whether the rain is happening now, already happened, or expected later. Then choose the modifier before 것 같아요."
+      "hint": "Decide whether the rain is happening now, already happened, or expected later. Then choose the modifier before 것 같아요.",
+      "explanation": "비가 올 것 같아요 is a softened future guess, not a firm plan. The future modifier 올 fits because the rain is expected tomorrow."
     },
     {
       "type": "multipleChoice",
@@ -606,6 +607,36 @@
       ],
       "correct": "은",
       "explanation": "닫다 (to close/be closed) is a verb, but here we're inferring a PRESENT STATE from evidence — the speaker means 'it seems closed right now.' The present state is expressed with the adjective-like -(으)ㄴ modifier: 닫은 것 같다 (seems closed). If you used 닫는 것 같다 it would mean 'seems to be in the process of closing,' and 닫을 것 같다 would mean 'seems like it will close (in the future).' The correct reading is current state: 닫은 것 같다."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "약속___ 있거든요. (I have plans, you see.)",
+      "options": [
+        "이",
+        "을",
+        "에서"
+      ],
+      "correct": "이",
+      "explanation": "있거든요 still uses 이/가 for the thing that exists or is possessed. 을 would wrongly treat 약속 as an object of an action."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "그 영화가 좀 ___ . (지루하다 → soft opinion)",
+      "base": "지루하다",
+      "form": "softOpinion",
+      "correct": "지루한 것 같아요",
+      "explanation": "Adjectives use -(으)ㄴ 것 같아요 for a softened impression. 지루하다 becomes 지루한 것 같아요, not 지루하는 것 같아요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I think this movie is a little boring.'",
+      "tokens": [
+        "이 영화는",
+        "좀",
+        "지루한 것 같아요"
+      ],
+      "correct": "이 영화는 좀 지루한 것 같아요",
+      "explanation": "좀 softens the criticism, and -한 것 같아요 makes it an impression rather than a blunt fact. This is much safer than saying 이 영화는 지루해요 directly."
     }
   ],
   "summaryCard": {

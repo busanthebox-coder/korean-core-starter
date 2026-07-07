@@ -14,7 +14,7 @@
 ### 기술 트랙 (WS)
 | 순서 | 파일 | 제목 | 상태 |
 |---|---|---|---|
-| 1 | [ws2-pipeline-integrity.md](ws2-pipeline-integrity.md) | 데이터 파이프라인 정합성 복구 (185개 소실·id 불안정 해결) | ⬜ |
+| 1 | [ws2-pipeline-integrity.md](ws2-pipeline-integrity.md) | 데이터 파이프라인 정합성 복구 (185개 소실·id 불안정 해결) | ✅ |
 | 2 | [ws11-ci-quality-gate.md](ws11-ci-quality-gate.md) | CI + 콘텐츠 품질 게이트 (Actions·lint-content) | ⬜ |
 | 3 | [ws1-data-splitting.md](ws1-data-splitting.md) | 20MB 데이터 분할 로딩 (부트 gzip ≤1.2MB) | ⬜ |
 | 4 | [ws3-progress-backup.md](ws3-progress-backup.md) | 진도 내보내기/가져오기 | ⬜ |
@@ -28,13 +28,13 @@
 ### 콘텐츠 트랙 (C) — 기술 트랙과 병렬 가능
 | 순서 | 파일 | 제목 | 상태 |
 |---|---|---|---|
-| 1 | [c0-beginner-foundation.md](c0-beginner-foundation.md) | **C0 기초 어휘 기반 정비** (레벨 재태깅 129+·어휘 팩 8개) — 0순위 | ⬜ |
-| 2 | [c9-day1-onramp.md](c9-day1-onramp.md) | **C9 Day-1 온램프** (오리엔테이션 10카드·생존 팩 2·키보드 가이드+타이핑 폴백·앱 사용법+README) — C0 직후 | ⬜ |
-| 3 | [c5-conjugation-trainer.md](c5-conjugation-trainer.md) | C5 활용 트레이너 (495동사×15형 드릴) | ⬜ |
-| 4 | [c2-exercise-expansion.md](c2-exercise-expansion.md) | C2 연습문제 확충 (챕터당 10+, 유형 6종) | ⬜ |
-| 5 | [c3-review-checkpoints.md](c3-review-checkpoints.md) | C3 체크포인트 + 나선형 복습 | ⬜ |
-| 6 | [c4-contrast-bank.md](c4-contrast-bank.md) | C4 문법 대조 뱅크 8→30쌍 | ⬜ |
-| 7 | [c6-reading-room.md](c6-reading-room.md) | C6 읽기 자료실 (장문 20편 + 탭 글로스) | ⬜ |
+| 1 | [c0-beginner-foundation.md](c0-beginner-foundation.md) | **C0 기초 어휘 기반 정비** (레벨 재태깅 129+·어휘 팩 8개) — 0순위 | ✅ |
+| 2 | [c9-day1-onramp.md](c9-day1-onramp.md) | **C9 Day-1 온램프** (오리엔테이션 10카드·생존 팩 2·키보드 가이드+타이핑 폴백·앱 사용법+README) — C0 직후 | ✅ |
+| 3 | [c5-conjugation-trainer.md](c5-conjugation-trainer.md) | C5 활용 트레이너 (495동사×15형 드릴) | ✅ |
+| 4 | [c2-exercise-expansion.md](c2-exercise-expansion.md) | C2 연습문제 확충 (챕터당 10+, 유형 6종) | ✅ |
+| 5 | [c3-review-checkpoints.md](c3-review-checkpoints.md) | C3 체크포인트 + 나선형 복습 | ✅ |
+| 6 | [c4-contrast-bank.md](c4-contrast-bank.md) | C4 문법 대조 뱅크 8→30쌍 | ✅ |
+| 7 | [c6-reading-room.md](c6-reading-room.md) | C6 읽기 자료실 (장문 20편 + 탭 글로스) | ✅ |
 | 8 | [c7-hanja-families.md](c7-hanja-families.md) | C7 한자어 어근 패밀리 40개 | ⬜ |
 
 ### 보류 (착수 조건 명시)
@@ -79,9 +79,10 @@
 scripts/{verb,expr,vocab,pattern}-src/*.json      ← 손편집 시드 (263+ 파일)
   └→ scripts/generate-korean-data.mjs             → korean/data/{words,expressions,vocab-extended,patterns,…}.json
        └→ scripts/apply-curriculum-structure.mjs  → korean/data/course.json  (number = order배열 position)
-            └→ scripts/build-app-data.mjs         → korean/data/app-data.json
+            └→ scripts/build-app-data.mjs         → korean/data/app-data.json + korean/data-bundle.js
                  · scripts/rich-chapters/chapter-NN.json 을 chapter.id 로 병합 ({...chapter, ...rich})
                  · STRIP 필드 제거, headword 중복은 richest만 유지(aliasIds 보존)
+                 · scripts/readers-src/*.json 을 검증 후 readers로 포함
                  └→ src/lib/data.js 가 동기 import → 6개 라우트 전부 소비
 ```
 
@@ -104,12 +105,17 @@ scripts/{verb,expr,vocab,pattern}-src/*.json      ← 손편집 시드 (263+ 파
 | `kcs.lesson-activity-v1` | stores.js | JSON object {chapterId: {dialogueSeen, practiceDone, updatedAt}} |
 | `kcs.guide-ready-v1` | stores.js | JSON array(Set) |
 | `kcs.shadow-done-v1` | stores.js | JSON array(Set) |
+| `kcs.packs-v1` | stores.js | JSON array(Set) — 완료한 Vocab Pack id |
+| `kcs.orientation-v1` | stores.js | '1'/'0' — C9 How Korean Works 오리엔테이션 완료 |
+| `kcs.ime-fallback-v1` | stores.js | '1'/'0' — 타이핑 문항의 어절 뱅크 폴백 사용 |
+| `kcs.roman-nudge-v1` | stores.js | '1'/'0' — 로마자 웨이닝 넛지 1회 확인 |
+| `kcs.checkpoint-v1` | stores.js | JSON object {trackId: {best, last, total, lastAt, weakChapterIds}} |
+| `kcs.readers-v1` | stores.js | JSON object {readerId: {readAt, score, total, summary?}} |
 | `ksrs-v1` | srs.js | JSON object {entryId: {box, due, reps, lapses}} |
 | `kcs.mistakes-v1` | mistakes.js | JSON object {entryId: {misses, lastMissed}} |
 
 계획된 신규 키(해당 WS 완료 시 이 표에서 ⬜→확정으로): `kcs.streak-v1`(WS5) · `kcs.onboarded-v1`,
-`kcs.start-chapter-v1`(WS4) · `kcs.writings-v1`(WS6) · `kcs.checkpoint-v1`(C3) · `kcs.packs-v1`(C0) ·
-`kcs.readers-v1`(C6) · `kcs.learn-open-v1`(WS12) · `kcs.orientation-v1`, `kcs.ime-fallback-v1`,
-`kcs.roman-nudge-v1`(C9) · `kcs.last-backup-at`(WS3, 백업 대상 제외).
+`kcs.start-chapter-v1`(WS4) · `kcs.writings-v1`(WS6) ·
+`kcs.learn-open-v1`(WS12) · `kcs.last-backup-at`(WS3, 백업 대상 제외).
 
 (WS에서 키를 새로 만들면 이 표에 추가할 것. WS3 백업 대상의 단일 소스가 이 표다.)

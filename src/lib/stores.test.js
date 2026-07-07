@@ -3,15 +3,30 @@ import { get } from 'svelte/store';
 import {
   romanizationVisible,
   toggleRomanization,
+  imeFallbackEnabled,
+  checkpointProgress,
   lessonActivity,
   lessonProgress,
+  readerProgress,
+  markOrientationDone,
+  markRomanNudgeSeen,
   markDialogueSeen,
   markLessonDone,
   markLessonPracticed,
+  orientationDone,
+  romanNudgeSeen,
   guideProgress,
+  resetOrientationDone,
+  resetRomanNudgeSeen,
   resetLessonActivity,
+  resetCheckpointProgress,
   resetLessonProgress,
+  resetReaderProgress,
+  recordReaderResult,
+  recordCheckpointResult,
+  setImeFallback,
   toggleGuideReady,
+  toggleImeFallback,
   toggleLessonDone,
   unmarkLessonDone,
 } from './stores.js';
@@ -19,7 +34,12 @@ import {
 beforeEach(() => {
   localStorage.clear();
   resetLessonActivity();
+  resetCheckpointProgress();
   resetLessonProgress();
+  resetReaderProgress();
+  resetOrientationDone();
+  resetRomanNudgeSeen();
+  setImeFallback(false);
 });
 
 describe('stores', () => {
@@ -71,5 +91,56 @@ describe('stores', () => {
     expect(get(guideProgress).has('unit-a')).toBe(true);
     toggleGuideReady('unit-a');
     expect(get(guideProgress).has('unit-a')).toBe(false);
+  });
+
+  it('records checkpoint best, last, and weak chapters', () => {
+    recordCheckpointResult('a1-foundation', {
+      score: 14,
+      total: 20,
+      weakChapterIds: ['chapter-03', 'chapter-07'],
+    }, 10);
+    recordCheckpointResult('a1-foundation', {
+      score: 12,
+      total: 20,
+      weakChapterIds: ['chapter-05'],
+    }, 20);
+
+    expect(get(checkpointProgress)['a1-foundation']).toEqual({
+      best: 14,
+      last: 12,
+      total: 20,
+      lastAt: 20,
+      weakChapterIds: ['chapter-05'],
+    });
+    expect(JSON.parse(localStorage.getItem('kcs.checkpoint-v1'))['a1-foundation'].best).toBe(14);
+  });
+
+  it('records Reading Room progress with score and read time', () => {
+    recordReaderResult('reader-a1-01', { score: 3, total: 4, summary: '짧은 요약' }, 1234);
+
+    expect(get(readerProgress)['reader-a1-01']).toEqual({
+      readAt: 1234,
+      score: 3,
+      total: 4,
+      summary: '짧은 요약',
+    });
+    expect(JSON.parse(localStorage.getItem('kcs.readers-v1'))['reader-a1-01'].score).toBe(3);
+
+    resetReaderProgress();
+    expect(get(readerProgress)).toEqual({});
+  });
+
+  it('tracks C9 onboarding state keys', () => {
+    markOrientationDone();
+    expect(get(orientationDone)).toBe(true);
+    expect(localStorage.getItem('kcs.orientation-v1')).toBe('1');
+
+    toggleImeFallback();
+    expect(get(imeFallbackEnabled)).toBe(true);
+    expect(localStorage.getItem('kcs.ime-fallback-v1')).toBe('1');
+
+    markRomanNudgeSeen();
+    expect(get(romanNudgeSeen)).toBe(true);
+    expect(localStorage.getItem('kcs.roman-nudge-v1')).toBe('1');
   });
 });

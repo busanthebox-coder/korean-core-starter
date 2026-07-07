@@ -844,8 +844,60 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 와이파이를 다시 ___ 보세요.",
-      "answer": "연결해",
-      "explanation": "연결해 보세요 means 'try connecting/reconnecting.'"
+      "explanation": "연결해 보세요 means 'try connecting/reconnecting.'",
+      "correct": "연결해"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "그 드라마___ 본 적 있어요? (Have you ever watched that drama?)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "보다 takes the thing watched as an object, so 드라마를 fits. 본 적 있어요 asks about experience."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "그 배우를 ___ ? (보다 → have ever)",
+      "base": "보다",
+      "form": "experience",
+      "correct": "본 적 있어요?",
+      "explanation": "V-(으)ㄴ 적이 있어요 asks about past experience. 보다 becomes 본 적 있어요?"
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'The video keeps cutting out.'",
+      "tokens": [
+        "영상이",
+        "계속 끊겨요"
+      ],
+      "correct": "영상이 계속 끊겨요",
+      "explanation": "끊기다 describes the stream or video cutting out. 계속 shows it keeps happening."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Try reconnecting the Wi-Fi.'",
+      "correct": "와이파이를 다시 연결해 보세요.",
+      "explanation": "-아/어 보세요 suggests trying an action. 다시 연결해 보세요 is natural troubleshooting Korean."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '그 드라마를 봤는 적 있어요?'",
+      "correct": "그 드라마를 본 적 있어요?",
+      "explanation": "Experience uses the past noun modifier before 적. 보다 becomes 본 적, not 봤는 적."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Your friend said the subtitles are good. Which report fits?",
+      "options": [
+        "친구가 자막이 좋다고 했어요.",
+        "친구가 자막이 좋냐고 했어요.",
+        "친구가 자막을 좋아요 했어요."
+      ],
+      "correct": "친구가 자막이 좋다고 했어요.",
+      "explanation": "-다고 했어요 reports a statement. -냐고 would report a question."
     }
   ],
   "summaryCard": {

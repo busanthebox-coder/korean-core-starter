@@ -1,0 +1,47 @@
+{
+  "id": "reader-a1-02",
+  "level": "A1",
+  "title": "우리 가족",
+  "titleEn": "My Family",
+  "genre": "introduction",
+  "body": [
+    "우리 집에는 네 사람이 있어요. 아빠는 회사원이에요. 엄마는 선생님이에요.",
+    "누나는 학생이에요. 저는 민수예요. 우리 가족은 작지만 재미있어요. 그리고 막내는 사람이 아니에요. 작은 강아지예요. 강아지는 우리 방에서 자주 자요. 가족은 저녁마다 같이 밥을 먹어요."
+  ],
+  "bodyTranslation": [
+    "There are four people in our home. My dad is an office worker. My mom is a teacher.",
+    "My older sister is a student. I am Minsu. Our family is small but fun. And the youngest is not a person. It is a small dog. The dog often sleeps in our room. The family eats together every evening."
+  ],
+  "comprehensionQuestions": [
+    {
+      "type": "multipleChoice",
+      "prompt": "민수의 엄마는 뭐예요?",
+      "options": ["선생님", "의사", "학생", "회사원"],
+      "correct": "선생님",
+      "explanation": "엄마는 선생님이에요가 정답이에요. 회사원은 아빠예요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "누나는 뭐예요?",
+      "options": ["학생", "강아지", "선생님", "의사"],
+      "correct": "학생",
+      "explanation": "누나는 학생이에요라고 했어요. 강아지는 막내예요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "막내는 누구예요?",
+      "options": ["작은 강아지", "아빠", "누나", "엄마"],
+      "correct": "작은 강아지",
+      "explanation": "본문 끝에 작은 강아지예요라고 나와요. 사람 네 명과 강아지 한 마리가 있어요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "우리 집에는 사람이 몇 명 있어요?",
+      "options": ["네 명", "두 명", "한 명", "다섯 명"],
+      "correct": "네 명",
+      "explanation": "첫 문장이 네 사람이 있어요예요. 강아지는 사람이 아니라 막내 반전이에요."
+    }
+  ],
+  "summaryPrompt": "민수의 가족을 두 문장으로 소개해 보세요.",
+  "newWords": ["민수", "막내"]
+}

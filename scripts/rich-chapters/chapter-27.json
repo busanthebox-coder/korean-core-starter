@@ -568,14 +568,56 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 친구를 기다리___ 중이에요.",
-      "answer": "는",
-      "explanation": "Use the verb modifier -는 before 중: 기다리는 중이에요."
+      "explanation": "Use the verb modifier -는 before 중: 기다리는 중이에요.",
+      "correct": "는"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 저는 바쁘고 있어요.",
-      "answer": "저는 바빠요. / 지금 일하고 있어요.",
-      "explanation": "Do not attach -고 있어요 to adjectives. Use a direct adjective or an action verb."
+      "explanation": "Do not attach -고 있어요 to adjectives. Use a direct adjective or an action verb.",
+      "correct": "저는 바빠요. / 지금 일하고 있어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "회의___ 하는 중이에요. (I am in the middle of a meeting.)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "회의를 하다 is the action phrase “to have/do a meeting.” 회의를 하는 중이에요 means you are in the middle of that action."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "지금 한국어를 ___ . (공부하다 → in progress)",
+      "base": "공부하다",
+      "form": "progressive",
+      "correct": "공부하고 있어요",
+      "explanation": "-고 있어요 marks an action currently in progress. 공부하다 becomes 공부하고 있어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I am waiting for a friend now.'",
+      "tokens": [
+        "지금",
+        "친구를",
+        "기다리고 있어요"
+      ],
+      "correct": "지금 친구를 기다리고 있어요",
+      "explanation": "지금 sets the current moment. 기다리고 있어요 shows the waiting is happening now."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I'm in a meeting.'",
+      "correct": "회의 중이에요.",
+      "explanation": "N 중이에요 is the compact way to say you are in the middle of a noun activity. 회의 중이에요 is a natural short status reply."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '공부하고 동안 메시지를 못 봤어요.'",
+      "correct": "공부하는 동안 메시지를 못 봤어요.",
+      "explanation": "동안 needs the modifier form before it. 공부하다 becomes 공부하는 동안, not 공부하고 동안."
     }
   ],
   "summaryCard": {

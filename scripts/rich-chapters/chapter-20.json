@@ -421,26 +421,64 @@
     {
       "type": "fillBlank",
       "prompt": "Write 1:05 in Korean.",
-      "answer": "한 시 오 분",
-      "explanation": "Use native 한 for the hour and Sino-Korean 오 for the minutes."
+      "explanation": "Use native 한 for the hour and Sino-Korean 오 for the minutes.",
+      "correct": "한 시 오 분"
     },
     {
       "type": "fillBlank",
       "prompt": "Write '3,000 won' in Korean.",
-      "answer": "삼천 원",
-      "explanation": "Prices use Sino-Korean numbers before 원."
+      "explanation": "Prices use Sino-Korean numbers before 원.",
+      "correct": "삼천 원"
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 삼 시 십 분에 만나요.",
-      "answer": "세 시 십 분에 만나요.",
-      "explanation": "Clock hour three is 세 시, not 삼 시."
+      "explanation": "Clock hour three is 세 시, not 삼 시.",
+      "correct": "세 시 십 분에 만나요."
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the age sentence: 저는 이십 살이에요.",
-      "answer": "저는 스무 살이에요.",
-      "explanation": "Age uses native Korean numbers with 살; 스물 becomes 스무 before the counter."
+      "explanation": "Age uses native Korean numbers with 살; 스물 becomes 스무 before the counter.",
+      "correct": "저는 스무 살이에요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "커피 두 잔___ 주세요. (Please give me two cups of coffee.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "두 잔 is the counted object being requested, so 을 fits when the particle is shown. In casual ordering, Koreans often drop it, but 을 is the grammatical object marker."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Let's meet at 3:10.'",
+      "tokens": [
+        "세 시 십 분에",
+        "만나요"
+      ],
+      "correct": "세 시 십 분에 만나요",
+      "explanation": "Hours use native Korean numbers, so 3 o’clock is 세 시. Minutes use Sino-Korean numbers, so 10 minutes is 십 분."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Write 'two cups' in Korean.",
+      "correct": "두 잔",
+      "explanation": "잔 is a cup/glass counter and takes native Korean numbers. Two cups is 두 잔, not 이 잔."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which price expression is natural for 3,000 won?",
+      "options": [
+        "삼천 원",
+        "세천 원",
+        "셋 원"
+      ],
+      "correct": "삼천 원",
+      "explanation": "Prices use Sino-Korean numbers, so 3,000 won is 삼천 원. 세 and 셋 are native forms and do not fit this price expression."
     }
   ],
   "summaryCard": {

@@ -22,9 +22,9 @@
     revealed = true;
     if (option === current.answer) {
       score += 1;
-      correctIds = new Set(correctIds).add(current.entryId);
+      if (current.entryId) correctIds = new Set(correctIds).add(current.entryId);
     } else {
-      wrongIds = new Set(wrongIds).add(current.entryId);
+      if (current.entryId) wrongIds = new Set(wrongIds).add(current.entryId);
     }
   }
 
@@ -75,7 +75,7 @@
   .bar { height: 12px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
   .bar span { display: block; height: 100%; background: var(--type-pattern); border-radius: 999px; transition: width .3s var(--bounce); }
   .meta { display: flex; align-items: center; justify-content: space-between; gap: 10px;
-    font-size: 12px; font-weight: 850; color: var(--ink-3); letter-spacing: .06em; text-transform: uppercase; }
+    font-size: 12px; font-weight: 850; color: var(--ink-3); letter-spacing: .06em; }
   .meta strong { color: var(--type-pattern); }
   .card { display: grid; gap: 16px; padding: 22px; border-radius: var(--radius); background: var(--surface);
     border: 1px solid var(--border); box-shadow: var(--shadow-1); }

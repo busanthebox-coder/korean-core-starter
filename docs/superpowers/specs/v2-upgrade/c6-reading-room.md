@@ -72,4 +72,6 @@
 - 오디오 낭독(후순위). 뉴스 등 실제 저작물 발췌(전부 창작). B2 초과 난도(C1 텍스트는 v2에서).
 
 ## 완료 기록
-(실행자가 작성)
+✅ done 2026-07-07 — 20편 reader JSON을 `scripts/readers-src`에 추가하고, 레벨별 허용 문법/어휘 추출 증거와 85% 커버리지 게이트를 `.omo/evidence/c6-reading-room`에 남겼다. `scripts/build-app-data.mjs`는 reader validation/coverage를 통과해야 app-data를 만들며, `src/lib/data.js`가 `readers`/`findReader`를 노출한다. Learn 하위 Reading Room UI는 레벨 탭, 완료 체크, Gowun Batang 본문, 탭 글로스/EntryDetail 시트, 문단 번역 접기, 4문항 채점, 요약 입력, `kcs.readers-v1` 저장을 포함한다.
+
+검증: `npm run validate:readers`, `npx vitest run src/lib/gloss.test.js src/lib/readers.test.js src/lib/components/ReadingRoom.test.js src/lib/data.test.js src/lib/stores.test.js`, `npm run build`.

@@ -3,10 +3,6 @@
 
   export let mission;
   export let onOpenChapter = () => {};
-  // Kept for backward-compat with the caller; the old "Study flow" card was removed
-  // (the lesson player now guides the per-chapter flow), so these are no longer rendered.
-  export let doneCount = 0;
-  export let totalChapters = 0;
 
   function act(step) {
     if (step.chapter) {

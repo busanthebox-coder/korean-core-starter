@@ -73,4 +73,21 @@ export function gradeConjugation(typed, item)  // normalizeKo 비교 → {ok}
 - extendedVocab에 forms 생성(범위 밖, 별도 콘텐츠 작업). 오디오.
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-07 — Codex(GPT-5.5)
+
+- 구현:
+  - `src/lib/conjugationDrill.js`: 15개 forms 라벨, 챕터→형태 매핑, seeded RNG, 불규칙 가중치, 연속 같은 동사 방지, 결손 form 스킵, 정답 채점/해설.
+  - `src/lib/components/ConjugationSession.svelte`: 타이핑형 활용 드릴 카드, 오답 시 정답+간단한 불규칙/형태 설명.
+  - `src/routes/Practice.svelte`, `src/lib/components/PracticeSetupPanel.svelte`: Practice 탭 Conjugate 모드, 형태 다중 선택, 레벨 필터, 10문항 세션, 모바일 1열 카드 보정.
+  - `src/lib/components/LessonPlayer.svelte`, `src/lib/components/lessonPlayer/{LessonScreen,PracticeScreen}.svelte`: 매핑 챕터 practice 단계에 5문항 활용 화면 추가. `chapter-41`은 불규칙 가중치 3배.
+  - `src/lib/conjugationDrill.test.js`: 라벨 완전성, 가중치, 채점, 매핑, 결손 스킵 테스트.
+- 데이터 검수:
+  - 불규칙/non-regular 63개 `forms.politePresent`/`forms.past` 교차 검수 `APPROVE`.
+  - 495개 forms 보유 words × 15 forms 스모크: `missingCells=0`, `selfGradeFailures=0`, `missingFormSkip=PASS`.
+- 검증:
+  - `npm test`: 27 files / 155 tests passed.
+  - `npm run build`: PASS.
+  - `node scripts/verify-data-integrity.mjs`: PASS.
+  - Browser QA: Practice Conjugate 10문항 완료, `chapter-17` LessonPlayer Conjugate 화면 렌더, desktop/mobile page errors 0.
+- 남긴 이슈:
+  - 오디오는 범위 밖. WS5 완료 후 SRS 유입 세부 연결은 해당 WS에서 이어서 확장 가능.

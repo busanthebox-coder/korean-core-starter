@@ -77,4 +77,31 @@
 - B1 이상 재태깅(이번 범위는 기초 A1/A2 경계만. B급은 Part A-3의 B1 후보 목록 기록까지만).
 
 ## 완료 기록
-(실행자가 작성)
+### 2026-07-07 — Codex ULW pass
+
+- 변경 파일:
+  - `scripts/level-audit/a1-checklist.json`, `scripts/level-audit/verb-levels.json`, `scripts/level-audit/audit-a1.mjs`
+  - `scripts/vocab-packs.json`, `scripts/build-app-data.mjs`, `scripts/generate-korean-data.mjs`, `scripts/lib/data-integrity.mjs`
+  - `src/lib/data.js`, `src/lib/stores.js`, `src/lib/studyLinks.js`, `src/lib/components/LessonPlayer.svelte`, `src/routes/Learn.svelte`, `src/lib/data.test.js`
+  - generated data under `korean/data*.json`, `korean/data-bundle.js`, `scripts/id-manifest.json`, `scripts/data-manifest.json`
+  - `docs/superpowers/specs/v2-upgrade/00-README.md`, `DESIGN.md`
+- 구현 내용:
+  - A1 체크리스트 255개와 동사 레벨 리뷰 테이블을 추가하고, 필수 초급어를 A1로 재태깅했다.
+  - `entryHangul` 기반 8개 Vocab Pack을 build 단계에서 entryId로 해석하고, 누락 항목은 빌드 에러로 막는다.
+  - Learn 동선에 8개 pack card를 넣고, LessonPlayer + MatchGame 재사용 흐름과 `kcs.packs-v1` 완료 상태를 추가했다.
+  - Dictionary A1 필터에서 `엄마`, `하나`, `월요일`이 실제 화면 검색으로 확인되도록 회귀 검증을 추가했다.
+- 검증 결과:
+  - `node scripts/level-audit/audit-a1.mjs --json --out .omo/ulw-loop/content-v2-ulw-20260707/evidence/C0-audit-final.json` PASS:
+    A1 checklist label coverage 100%, required reachability 100%, vocab packs 8개.
+  - 누락 pack 항목 edge test PASS:
+    `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C0-pack-missing-entry-guard.txt`
+  - `node scripts/verify-data-integrity.mjs` PASS.
+  - `npx vitest run src/lib/data.test.js` PASS: 12 tests.
+  - `npx vitest run` PASS: 25 files / 139 tests.
+  - `npm run build` PASS.
+  - Browser QA PASS:
+    `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C0-browser-pack-dictionary.txt`,
+    `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C0-browser-pack-dictionary.png`
+- 남긴 이슈:
+  - `npm run build`에서 기존 unused CSS selector 경고와 큰 data chunk 경고가 계속 보인다. C0 기능 실패는 아니며 WS1/WS12/정리 작업 범위로 남긴다.
+  - 커밋·푸시·배포는 사용자 명시 요청이 없어 실행하지 않았다.

@@ -837,6 +837,58 @@
       ],
       "correct": "네, 알겠어요.",
       "explanation": "알겠어요 is a set response meaning 'I understand / okay.'"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "제 생각___ 먼저 물어보는 게 좋아요. (In my opinion...)",
+      "options": [
+        "에는",
+        "을",
+        "에서"
+      ],
+      "correct": "에는",
+      "explanation": "제 생각에는 frames the statement as your opinion. 을 and 에서 do not make the opinion-frame expression."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "팀장님은 아직 회의실에 ___ . (있다 → soft confident guess)",
+      "base": "있다",
+      "form": "softGuess",
+      "correct": "있을걸요",
+      "explanation": "-(으)ㄹ걸요 gives a soft but fairly confident guess. 있다 becomes 있을걸요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'If that is the case, let's ask first.'",
+      "tokens": [
+        "그렇다면",
+        "먼저 물어봐요"
+      ],
+      "correct": "그렇다면 먼저 물어봐요",
+      "explanation": "그렇다면 opens a hypothetical path from the previous idea. 먼저 물어봐요 gives the suggested next step."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I hope it goes well.'",
+      "correct": "잘되면 좋겠어요.",
+      "explanation": "-면 좋겠어요 expresses a hope or gentle wish. 잘되면 sets the hoped-for condition."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence if you mean a wish: '잘될걸요.'",
+      "correct": "잘되면 좋겠어요.",
+      "explanation": "잘될걸요 is a guess that it will probably go well. 잘되면 좋겠어요 is the wish: I hope it goes well."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which response is the cautious “Hmm, I am not sure”?",
+      "options": [
+        "글쎄요.",
+        "좋겠어요.",
+        "그렇다면요."
+      ],
+      "correct": "글쎄요.",
+      "explanation": "글쎄요 is the natural cautious hesitation. 좋겠어요 is a wish, and 그렇다면요 depends on a hypothetical."
     }
   ],
   "summaryCard": {

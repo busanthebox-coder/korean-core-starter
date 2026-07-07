@@ -641,6 +641,56 @@
       ],
       "correct": "결국 좋은 글은 근거와 사례가 연결되어야 한다.",
       "explanation": "결국 plus -다 style keeps the paragraph formal and written."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "근거___ 부족하다. (The evidence is insufficient.)",
+      "options": [
+        "가",
+        "를",
+        "에"
+      ],
+      "correct": "가",
+      "explanation": "부족하다 describes the evidence, so 근거 takes 가. 를 would make evidence an object, which does not fit this adjective."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'The evidence is weak. Therefore, the conclusion must be reviewed.'",
+      "tokens": [
+        "근거가 약하다.",
+        "따라서 결론을 다시 검토해야 한다."
+      ],
+      "correct": "근거가 약하다. 따라서 결론을 다시 검토해야 한다.",
+      "explanation": "따라서 connects evidence to a conclusion or required action. The written ending -다 keeps the register consistent."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Restate with “that is”: 문제는 결론이 아니다. ___ 근거와 논리의 연결이다.",
+      "correct": "즉",
+      "explanation": "즉 restates or clarifies the same point. It should not introduce an unrelated new contrast."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the written-register mismatch: '근거가 약하다 ㅋㅋ 따라서 다시 검토해야 한다.'",
+      "correct": "근거가 약하다. 따라서 다시 검토해야 한다.",
+      "explanation": "ㅋㅋ belongs to casual chat, not a formal written paragraph. Removing it keeps the report register consistent."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which connector best contrasts two cases?",
+      "options": [
+        "반면에",
+        "즉",
+        "따라서"
+      ],
+      "correct": "반면에",
+      "explanation": "반면에 contrasts two sides or cases. 즉 restates, and 따라서 draws a conclusion."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Ultimately, the core is logic.'",
+      "correct": "궁극적으로 핵심은 논리이다.",
+      "explanation": "궁극적으로 gives final synthesis. -이다 keeps the written-register ending consistent."
     }
   ],
   "summaryCard": {

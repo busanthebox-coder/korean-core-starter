@@ -843,6 +843,44 @@
       ],
       "correct": "세 번 해 봤어요.",
       "explanation": "번 counts occurrences or number labels depending on context."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "학생 세 명___ 왔어요. (Three students came.)",
+      "options": [
+        "이",
+        "을",
+        "에"
+      ],
+      "correct": "이",
+      "explanation": "The counted group is the subject that came, so 명 takes 이 here. 을 would make the students an object."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'two cups of coffee'",
+      "tokens": [
+        "커피",
+        "두 잔"
+      ],
+      "correct": "커피 두 잔",
+      "explanation": "Korean counter order is noun + number + counter. 잔 is the counter for cups or glasses."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Write 'three books' in Korean.",
+      "correct": "책 세 권",
+      "explanation": "권 is the counter for books. Three before a counter is 세, not 셋."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which phrase counts two dogs naturally?",
+      "options": [
+        "강아지 두 마리",
+        "강아지 둘 개",
+        "강아지 이 명"
+      ],
+      "correct": "강아지 두 마리",
+      "explanation": "Animals take 마리, and two before a counter is 두. 명 counts people, not animals."
     }
   ],
   "summaryCard": {

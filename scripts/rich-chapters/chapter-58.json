@@ -669,6 +669,64 @@
       ],
       "correct": "죄송하지만 오늘은 참석하기 어렵겠습니다.",
       "explanation": "어렵겠습니다 softens the refusal in formal speech."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "자료___ 많겠네요. (The materials must be a lot.)",
+      "options": [
+        "가",
+        "를",
+        "에"
+      ],
+      "correct": "가",
+      "explanation": "많다 describes the amount of 자료, so 자료 takes 가. 겠네요 gives an inference from what you see or hear."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "제가 바로 ___ . (확인하다 → formal commitment)",
+      "base": "확인하다",
+      "form": "formalCommitment",
+      "correct": "확인하겠습니다",
+      "explanation": "-겠습니다 is a formal commitment in service or professional speech. 확인하다 becomes 확인하겠습니다."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I will help you right away.'",
+      "tokens": [
+        "바로",
+        "도와드리겠습니다"
+      ],
+      "correct": "바로 도와드리겠습니다",
+      "explanation": "도와드리겠습니다 is formal and respectful. 바로 adds the service promise “right away.”"
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'That must be hard.'",
+      "correct": "힘드시겠네요.",
+      "explanation": "-겠네요 gives an inference or empathetic reaction from evidence. 힘드시겠네요 is polite and considerate."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the mixed formal future: '확인할 거겠습니다.'",
+      "correct": "확인하겠습니다.",
+      "explanation": "Do not stack -ㄹ 거예요 and -겠습니다. In formal service speech, use 확인하겠습니다."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence uses 겠 for inference, not a promise?",
+      "options": [
+        "자료가 많겠네요.",
+        "제가 처리하겠습니다.",
+        "제가 참석하겠습니다."
+      ],
+      "correct": "자료가 많겠네요.",
+      "explanation": "많겠네요 is an inference from evidence. 처리하겠습니다 and 참석하겠습니다 are formal commitments."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Write a courteous formal refusal: 'I think attending will be difficult.'",
+      "correct": "참석하기 어렵겠습니다.",
+      "explanation": "어렵겠습니다 softens a formal refusal. 참석하기 turns attending into the thing that is difficult."
     }
   ],
   "summaryCard": {

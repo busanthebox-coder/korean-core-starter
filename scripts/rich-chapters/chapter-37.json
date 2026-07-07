@@ -543,6 +543,65 @@
       ],
       "correct": "시험이 언제인지 알아요?",
       "explanation": "알다 takes the embedded question form -는지/-인지."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "선생님___ 숙제를 제출하라고 하셨어요. (The teacher told us to submit homework.)",
+      "options": [
+        "께서",
+        "께",
+        "를"
+      ],
+      "correct": "께서",
+      "explanation": "선생님 is the respected subject who gave the instruction, so use 께서. 께 would mark a recipient instead."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "친구가 영화를 ___ . (보다 → reported statement)",
+      "base": "보다",
+      "form": "reportedStatement",
+      "correct": "본다고 했어요",
+      "explanation": "Action verbs use -ㄴ/는다고 for reported statements. 보다 becomes 본다고 했어요 in this sentence."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'My friend asked what time we meet.'",
+      "tokens": [
+        "친구가",
+        "몇 시에 만나냐고",
+        "물어봤어요"
+      ],
+      "correct": "친구가 몇 시에 만나냐고 물어봤어요",
+      "explanation": "Reported questions use -냐고 물어봤어요. The embedded question keeps 몇 시에 inside the reported content."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Please check whether there is homework.'",
+      "correct": "숙제가 있는지 확인해 주세요.",
+      "explanation": "-는지 embeds the question inside 확인하다. 숙제가 있는지 means whether homework exists."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the report: '친구가 몇 시에 만나다고 물어봤어요.'",
+      "correct": "친구가 몇 시에 만나냐고 물어봤어요.",
+      "explanation": "A reported question needs -냐고, not -다고. -다고 reports a statement."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which is the spoken short form of 선생님이 내일 시험이 있다고 했어요?",
+      "options": [
+        "내일 시험이 있대요.",
+        "내일 시험이 있냐고요.",
+        "내일 시험이 있으라고요."
+      ],
+      "correct": "내일 시험이 있대요.",
+      "explanation": "-대요 is the common spoken contraction for “they say that.” 있냐고요 would report or repeat a question."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I don't know whether there is an exam.'",
+      "correct": "시험이 있는지 몰라요.",
+      "explanation": "-는지 works inside 모르다 for an embedded question. 시험이 있는지 means whether there is an exam."
     }
   ],
   "summaryCard": {

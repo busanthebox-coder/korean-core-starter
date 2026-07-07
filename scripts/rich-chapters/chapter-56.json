@@ -800,6 +800,64 @@
       ],
       "correct": "선배님 덕분에 분위기가 편해졌어요.",
       "explanation": "덕분에 is the warm positive-cause expression for gratitude."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "어르신___ 도와드렸어요. (I helped the elder.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "도와드리다 still takes the person helped as an object. 드리다 adds respect toward the person receiving help."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "제가 좀 ___ . (도와주다 → respectful help)",
+      "base": "도와주다",
+      "form": "honorificService",
+      "correct": "도와드릴게요",
+      "explanation": "도와드리다 is the respectful form when helping someone senior or socially respected. -ㄹ게요 makes it your offered action."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Thanks to you, I had a good time.'",
+      "tokens": [
+        "덕분에",
+        "좋은 시간 보냈어요"
+      ],
+      "correct": "덕분에 좋은 시간 보냈어요",
+      "explanation": "덕분에 credits the other person as the positive reason. 좋은 시간 보냈어요 is a natural thanks-after-visit phrase."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I am bringing tissue as a housewarming gift.'",
+      "correct": "집들이 선물로 휴지를 가져가요.",
+      "explanation": "선물로 marks the role of the item as a gift. 휴지 is a common practical 집들이 gift."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the phrase for a senior host: '수고했어.'",
+      "correct": "수고하셨습니다.",
+      "explanation": "수고했어 is casual and too low for a senior host. 수고하셨습니다 is safer and respectful."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "You do not know the safest title. Which strategy fits?",
+      "options": [
+        "정중하게 여쭤봐요.",
+        "무조건 반말을 써요.",
+        "이름만 불러요."
+      ],
+      "correct": "정중하게 여쭤봐요.",
+      "explanation": "When title is unclear, asking politely is safer than guessing casually. Korean social titles matter in first meetings."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'If we are the same age, we are 동갑.'",
+      "correct": "나이가 같으면 동갑이에요.",
+      "explanation": "동갑 means the same age. -으면 sets the condition for using that word."
     }
   ],
   "summaryCard": {

@@ -524,6 +524,64 @@
       ],
       "correct": "남은 건 이 방법뿐이에요.",
       "explanation": "N뿐이다 limits the situation to only that noun."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "마감___ 있어서 야근할 수밖에 없어요. (Because there is a deadline...)",
+      "options": [
+        "이",
+        "을",
+        "에"
+      ],
+      "correct": "이",
+      "explanation": "있다 takes 이/가 for the thing that exists. 마감이 있어서 gives the reason before the no-choice result."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "오늘은 ___ . (야근하다 → no choice)",
+      "base": "야근하다",
+      "form": "noChoice",
+      "correct": "야근할 수밖에 없어요",
+      "explanation": "-(으)ㄹ 수밖에 없어요 means there is no choice but to do it. 야근하다 becomes 야근할 수밖에 없어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'There is no way that person will give up.'",
+      "tokens": [
+        "그 사람이",
+        "포기할 리가 없어요"
+      ],
+      "correct": "그 사람이 포기할 리가 없어요",
+      "explanation": "-(으)ㄹ 리가 없어요 strongly rejects a possibility. 포기할 리가 없어요 means giving up is not plausible."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'This is the only method.'",
+      "correct": "방법은 이것뿐이에요.",
+      "explanation": "뿐이에요 limits the situation to only one thing. 방법은 sets the topic as the available method."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '그 사람이 포기할 리가 있어요.' (intended: no way)",
+      "correct": "그 사람이 포기할 리가 없어요.",
+      "explanation": "The “no way” pattern needs 리가 없어요. 리가 있어요 does not express strong rejection."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Only one realistic option remains. Which sentence fits?",
+      "options": [
+        "이 방법뿐이에요.",
+        "이 방법보다 더예요.",
+        "이 방법일걸요."
+      ],
+      "correct": "이 방법뿐이에요.",
+      "explanation": "뿐이에요 means only this and nothing more. The other options compare or guess rather than limit the options."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'It cannot be helped.'",
+      "correct": "어쩔 수 없죠.",
+      "explanation": "어쩔 수 없죠 is the fixed phrase for accepting a no-choice situation. It fits when the speaker cannot change the circumstances."
     }
   ],
   "summaryCard": {

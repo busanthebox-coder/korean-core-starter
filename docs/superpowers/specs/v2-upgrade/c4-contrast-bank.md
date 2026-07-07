@@ -75,4 +75,13 @@
 - PatternContrastSession UI 대개조(필터 칩 추가만). 4지선다화(대조 훈련은 2~3지가 교육적으로 옳다).
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-07 Codex ULW pass:
+- Added `src/lib/contrastItems.json` with 30 contrast groups x 6 questions = 180 items.
+- Added `level` and `answerKey` metadata; `answerKey` is used only to validate educational answer distribution when surface endings differ by conjugation.
+- Refactored `src/lib/patternContrast.js` to import the JSON bank and support `buildContrastQuiz({ level })`.
+- Added Practice setup level chips for Contrast Lab and optional `entryId` guarding in `PatternContrastSession`.
+- Added `scripts/validate-contrast-items.mjs` and `npm run validate:contrast`.
+- RED evidence: `.omo/evidence/c4-contrast-bank/validate-contrast-items-red.txt` failed on the old 7 groups / 8 items / missing levels.
+- GREEN evidence: `.omo/evidence/c4-contrast-bank/validate-contrast-items-green.txt` reports 30 groups / 180 items / A1-A2-B1-B2 distribution.
+- Focused test: `npx vitest run src/lib/patternContrast.test.js` passed after adding level filtering and stats coverage.
+- Remaining after this C item: C6 Reading Room and C7 Hanja families. Audio-related C1/C8 remain deferred.

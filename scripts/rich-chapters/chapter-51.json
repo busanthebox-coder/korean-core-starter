@@ -751,8 +751,60 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 면접에는 남색 셔츠가 더 단정해 ___.",
-      "answer": "보여요",
-      "explanation": "-아/어 보이다 describes how it appears."
+      "explanation": "-아/어 보이다 describes how it appears.",
+      "correct": "보여요"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "셔츠___ 입어 봐도 돼요? (May I try on the shirt?)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "입다 takes the clothing item as an object, so 셔츠를 fits. 가 would make the shirt the subject."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "이 셔츠를 ___ ? (입다 → try with permission)",
+      "base": "입다",
+      "form": "tryPermission",
+      "correct": "입어 봐도 돼요?",
+      "explanation": "-아/어 봐도 돼요? asks whether it is okay to try doing something. 입다 becomes 입어 봐도 돼요?"
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Could you show me a smaller size?'",
+      "tokens": [
+        "한 사이즈 작은 거",
+        "보여 주시겠어요?"
+      ],
+      "correct": "한 사이즈 작은 거 보여 주시겠어요?",
+      "explanation": "작은 거 describes the smaller item you want. -주시겠어요? is a polite staff-facing request."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'It suits you well.'",
+      "correct": "잘 어울려요.",
+      "explanation": "잘 어울려요 comments on style or fit with the person. It is not about the physical size being correct."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '운동화를 입어요.'",
+      "correct": "운동화를 신어요.",
+      "explanation": "Shoes use 신다, not 입다. 입다 is for clothes worn on the body like shirts or coats."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence means “It looks too big”?",
+      "options": [
+        "너무 커 보여요.",
+        "너무 크게 입어요.",
+        "너무 큰 봐요."
+      ],
+      "correct": "너무 커 보여요.",
+      "explanation": "-아/어 보이다 describes how something appears. 커 보여요 is the natural “looks big.”"
     }
   ],
   "summaryCard": {

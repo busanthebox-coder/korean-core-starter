@@ -1,6 +1,8 @@
 <script>
   import { speak } from '../audio.js';
   import { normalizeKo } from '../quiz.js';
+  import { imeFallbackEnabled, toggleImeFallback } from '../stores.js';
+  import KoreanInputFallback from './KoreanInputFallback.svelte';
   import RomanizationLine from './RomanizationLine.svelte';
 
   export let questions = [];
@@ -101,11 +103,27 @@
         <p class="tag">Type it in Korean</p>
         <div class="ask-en">{current.prompt}</div>
       </div>
-      <form class="typer" on:submit|preventDefault={checkType}>
-        <input class="tin" type="text" lang="ko" autocomplete="off" autocapitalize="off" autocorrect="off"
-          spellcheck="false" placeholder="한국어로 입력…" bind:value={typed} disabled={revealed} />
-        {#if !revealed}<button class="btn3d" type="submit" disabled={!typed.trim()}>Check</button>{/if}
-      </form>
+      <div class="ime-help">
+        <button type="button" class:enabled={$imeFallbackEnabled} on:click={toggleImeFallback}>
+          {$imeFallbackEnabled ? 'Typing fallback: On' : 'No Korean keyboard? Tap input'}
+        </button>
+        <a href="#/guide">Set up Korean typing</a>
+      </div>
+      {#if $imeFallbackEnabled}
+        <KoreanInputFallback
+          answer={current.answer}
+          distractors={current.fallbackDistractors || []}
+          disabled={revealed}
+          on:change={(e) => (typed = e.detail.value)}
+        />
+        {#if !revealed}<button class="btn3d check" type="button" disabled={!typed.trim()} on:click={checkType}>Check</button>{/if}
+      {:else}
+        <form class="typer" on:submit|preventDefault={checkType}>
+          <input class="tin" type="text" lang="ko" autocomplete="off" autocapitalize="off" autocorrect="off"
+            spellcheck="false" placeholder="한국어로 입력…" bind:value={typed} disabled={revealed} />
+          {#if !revealed}<button class="btn3d" type="submit" disabled={!typed.trim()}>Check</button>{/if}
+        </form>
+      {/if}
 
     {:else if current.type === 'build'}
       <div class="prompt">
@@ -168,6 +186,11 @@
     font-size: 22px; font-weight: 760; }
   .tin:focus { outline: none; border-color: var(--green); }
   .typer .btn3d { white-space: nowrap; }
+  .ime-help { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: -4px; }
+  .ime-help button, .ime-help a { padding: 7px 11px; border-radius: 999px; border: 1px solid var(--border);
+    background: var(--surface-2); color: var(--ink-2); font-size: 12px; font-weight: 850; }
+  .ime-help button.enabled { background: var(--green-soft); color: var(--green-dark); border-color: rgba(36,119,68,.28); }
+  .ime-help a { text-decoration: none; }
 
   /* Build */
   .answer-line { display: flex; flex-wrap: wrap; gap: 8px; min-height: 56px; padding: 12px 14px; align-items: center;

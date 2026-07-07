@@ -554,6 +554,65 @@
       ],
       "correct": "직원이 손님을 창가 자리에 앉혔어요.",
       "explanation": "앉히다 means someone causes another person to sit."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "공지___ 올라왔어요. (The notice was posted.)",
+      "options": [
+        "가",
+        "를",
+        "에"
+      ],
+      "correct": "가",
+      "explanation": "올라오다 describes the notice appearing or being posted, so 공지 is the subject. 를 would make it an object of someone else’s action."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "___ 일정이 있어요. (변경되다 → noun modifier)",
+      "base": "변경되다",
+      "form": "nounModifier",
+      "correct": "변경된",
+      "explanation": "A completed passive/change before a noun uses -ㄴ/은. 변경되다 becomes 변경된 before 일정."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'the schedule changed today' as a noun phrase",
+      "tokens": [
+        "오늘",
+        "변경된",
+        "일정"
+      ],
+      "correct": "오늘 변경된 일정",
+      "explanation": "Korean packs the description before the noun. 변경된 comes before 일정 to make one noun phrase."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'The door is closed.'",
+      "correct": "문이 닫혀 있어요.",
+      "explanation": "닫혀 있어요 focuses on the resulting closed state. It does not need to mention who closed the door."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the passive sentence: '일정을 잡혔어요.'",
+      "correct": "일정이 잡혔어요.",
+      "explanation": "잡히다 is passive, so 일정 is the subject and takes 이. 일정을 would fit an active verb like 잡았어요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence uses a causative verb naturally?",
+      "options": [
+        "직원이 손님을 자리에 앉혔어요.",
+        "손님이 자리에 앉혔어요.",
+        "자리가 손님을 앉았어요."
+      ],
+      "correct": "직원이 손님을 자리에 앉혔어요.",
+      "explanation": "앉히다 means to seat someone or make/help someone sit. 손님 is the person being seated."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'the report to submit'",
+      "correct": "제출할 보고서",
+      "explanation": "제출할 is the future/required action modifier before 보고서. It means the report that is to be submitted."
     }
   ],
   "summaryCard": {

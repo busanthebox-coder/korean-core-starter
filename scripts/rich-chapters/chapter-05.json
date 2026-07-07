@@ -547,7 +547,8 @@
       "type": "translate",
       "prompt": "Translate: 'I don't watch movies.'",
       "correct": "영화를 안 봐요.",
-      "hint": "영화 ends in a vowel — which form of the object marker do you need? And 보다 is a pure verb, so where does 안 go?"
+      "hint": "영화 ends in a vowel — which form of the object marker do you need? And 보다 is a pure verb, so where does 안 go?",
+      "explanation": "안 goes right before the action verb to make a short negative. 영화 is the thing watched, so 영화를 stays as the object."
     },
     {
       "type": "multipleChoice",
@@ -572,6 +573,36 @@
       ],
       "correct": "It marks 책 as the object receiving the action of reading.",
       "explanation": "을/를 is the object marker — it marks WHAT gets acted upon. 책 is what is being read. Subject markers (이/가) mark who does the action; topic markers (은/는) set what we're talking about. 을/를 is specifically for the thing that receives the verb's action."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "책___ 읽어요. (I read a book.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "읽다 is an action, and 책 is what you read, so it takes the object marker 을. 이 would mark 책 as a subject, not the thing being read."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "매일 한국어를 ___ . (공부하다 → polite present)",
+      "base": "공부하다",
+      "form": "politePresent",
+      "correct": "공부해요",
+      "explanation": "하다 verbs become 해요 in polite present. 매일 makes this a normal present habit: 매일 한국어를 공부해요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I drink coffee every morning.'",
+      "tokens": [
+        "매일 아침",
+        "커피를",
+        "마셔요"
+      ],
+      "correct": "매일 아침 커피를 마셔요",
+      "explanation": "The time phrase comes before the object and verb. 커피 is what you drink, so 커피를 stays right before 마셔요."
     }
   ],
   "summaryCard": {

@@ -418,6 +418,50 @@
       ],
       "correct": "자료 확인 후 수정해서 다시 보내드리겠습니다.",
       "explanation": "The formal email version rewrites the sentence, removes slang, and uses a formal ending."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "답장___ 확인 부탁드립니다. (Please check the reply.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "확인하다 takes the thing checked as an object, so 답장을 fits. 이 would make the reply the subject."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build a formal email line: 'After checking, please reply.'",
+      "tokens": [
+        "확인 후",
+        "답장 부탁드립니다"
+      ],
+      "correct": "확인 후 답장 부탁드립니다",
+      "explanation": "확인 후 is concise written Korean for after checking. 부탁드립니다 keeps the email formal and courteous."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Friend chat: 'I saw it. I'll fix it again.'",
+      "correct": "봤어. 내가 다시 고칠게.",
+      "explanation": "반말 and -ㄹ게 fit a close friend chat. This would be too casual for a company email."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the formal email mismatch: '확인 부탁드립니다 ㅋㅋ.'",
+      "correct": "확인 부탁드립니다.",
+      "explanation": "ㅋㅋ breaks formal email register. The formal request should stay plain and courteous."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Before sending Korean, which review order is safest?",
+      "options": [
+        "상황과 상대방 → 문체 → 조사/시제/높임말",
+        "ㅋㅋ 추가 → 문체 무시 → 조사 확인",
+        "단어만 번역 → 바로 전송"
+      ],
+      "correct": "상황과 상대방 → 문체 → 조사/시제/높임말",
+      "explanation": "Relationship and situation decide the register first. Then you check grammar details like particles, tense, and honorifics."
     }
   ],
   "summaryCard": {

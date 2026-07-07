@@ -567,7 +567,8 @@
       "type": "translate",
       "prompt": "Translate: 'I want to rest today, but I can't.'",
       "correct": "오늘 쉬고 싶어요. 그런데 못 쉬어요.",
-      "hint": "You need two patterns: 쉬다 (to rest) with 고 싶어요 for desire, and 못 + verb for inability. The two parts contrast with 그런데 (but/however)."
+      "hint": "You need two patterns: 쉬다 (to rest) with 고 싶어요 for desire, and 못 + verb for inability. The two parts contrast with 그런데 (but/however).",
+      "explanation": "-고 싶어요 expresses what you want to do. 못 쉬어요 says the situation blocks the action, not simply that you do not want to rest."
     },
     {
       "type": "fillBlank",
@@ -590,6 +591,35 @@
       ],
       "correct": "아니요, 저는 술을 못 마셔요.",
       "explanation": "못 마셔요 is the most natural, socially smooth way to decline — it signals inability/circumstances rather than personal rejection, which is more polite in Korean culture. 마시고 싶지 않아요 (don't want to) sounds blunt. 마실 수 없어요 is grammatically fine but sounds formal/stiff in casual conversation. 못 마셔요 is the everyday go-to for dietary or health limitations."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "한국어___ 조금 말할 수 있어요. (I can speak a little Korean.)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "한국어 is what you speak, so it takes the object marker 를. 가 would make Korean the subject, which changes the sentence logic."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "오늘은 집에 ___ . (가다 → want)",
+      "base": "가다",
+      "form": "want",
+      "correct": "가고 싶어요",
+      "explanation": "-고 싶어요 attaches to the verb stem to express desire. 가다 loses 다, then takes 고 싶어요: 가고 싶어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I cannot eat spicy food.'",
+      "tokens": [
+        "매운 음식을",
+        "못 먹어요"
+      ],
+      "correct": "매운 음식을 못 먹어요",
+      "explanation": "못 before the verb marks inability. 매운 음식 is the thing you cannot eat, so it takes 을."
     }
   ],
   "summaryCard": {

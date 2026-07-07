@@ -1,7 +1,86 @@
-import { mkdirSync, readFileSync, writeFileSync, readdirSync } from 'node:fs';
+// allow: SIZE_OK - durable data-generation pipeline; this change set locks behavior with generate/apply/build/verify/test/browser evidence, while structural generator extraction belongs to the WS2 pipeline refactor.
+import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join, resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
+import {
+  applyStableIds,
+  loadIdManifest,
+  verifyDataDir,
+  writeIdManifest
+} from './lib/integrity.mjs';
 
-const outDir = new URL('../korean/data/', import.meta.url);
-mkdirSync(outDir, { recursive: true });
+function optionsFromArgs(argv) {
+  const defaultDir = new URL('../korean/data/', import.meta.url);
+  const options = {
+    outDir: defaultDir,
+    acceptManifestAdditions: false
+  };
+  for (let index = 0; index < argv.length; index += 1) {
+    const arg = argv[index];
+    if (arg === '--out') {
+      const value = argv[++index];
+      if (!value) throw new Error('Missing value for --out');
+      options.outDir = pathToFileURL(`${resolve(value)}/`);
+    } else if (arg === '--accept-manifest-additions') {
+      options.acceptManifestAdditions = true;
+    } else {
+      throw new Error(`Unknown argument: ${arg}`);
+    }
+  }
+  return options;
+}
+
+const sourceDataDir = new URL('../korean/data/', import.meta.url);
+const generatorOptions = optionsFromArgs(process.argv.slice(2));
+const requestedOutDir = generatorOptions.outDir;
+mkdirSync(requestedOutDir, { recursive: true });
+
+const stagingDirPath = mkdtempSync(join(tmpdir(), 'kcs-generate-'));
+const outDir = pathToFileURL(`${stagingDirPath}/`);
+let stagingCleaned = false;
+function cleanupStaging() {
+  if (stagingCleaned) return;
+  rmSync(stagingDirPath, { recursive: true, force: true });
+  stagingCleaned = true;
+}
+process.once('exit', cleanupStaging);
+
+function readDataInput(name, fallback = null) {
+  const candidates = [new URL(name, outDir), new URL(name, requestedOutDir), new URL(name, sourceDataDir)];
+  for (const candidate of candidates) {
+    try {
+      return JSON.parse(readFileSync(candidate, 'utf8'));
+    } catch (error) {
+      if (error?.code !== 'ENOENT') throw error;
+    }
+  }
+  return fallback;
+}
+
+function publishGeneratedFiles() {
+  for (const file of [
+    'words.json',
+    'expressions.json',
+    'patterns.json',
+    'newcomer-vocab.json',
+    'vocab-extended.json',
+    'guide.json',
+    'dialogues.json',
+    'conversations.json',
+    'grammar.json'
+  ]) {
+    copyFileSync(new URL(file, outDir), new URL(file, requestedOutDir));
+  }
+
+  const bundleTarget = requestedOutDir.href === sourceDataDir.href
+    ? new URL('../korean/data-bundle.js', import.meta.url)
+    : new URL('data-bundle.js', requestedOutDir);
+  copyFileSync(new URL('data-bundle.js', outDir), bundleTarget);
+}
+
+let activeIdManifest = null;
+let pendingIdManifest = null;
 
 const formKeys = [
   'dictionary', 'casualPresent', 'politePresent', 'formalPresent', 'negative',
@@ -994,6 +1073,48 @@ function expressionPatternLinks(entry) {
   return [...new Set(links)];
 }
 
+function readOptionalScriptJson(path, fallback) {
+  try {
+    return JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'));
+  } catch (error) {
+    if (error?.code === 'ENOENT') return fallback;
+    throw error;
+  }
+}
+
+function checklistItems(checklist) {
+  return (checklist.categories || [])
+    .flatMap((category) => (category.items || []).map((item) => String(item).trim()))
+    .filter(Boolean);
+}
+
+const a1Checklist = readOptionalScriptJson('./level-audit/a1-checklist.json', { categories: [] });
+const a1ChecklistSet = new Set(checklistItems(a1Checklist));
+const verbLevelReview = readOptionalScriptJson('./level-audit/verb-levels.json', { a1Core: [], b1Candidates: [], defaultLevel: 'A2' });
+const verbA1Set = new Set(verbLevelReview.a1Core || []);
+const verbB1Set = new Set(verbLevelReview.b1Candidates || []);
+const levelReviewWarnings = [];
+
+function applyReviewedLevel(entry, source = '') {
+  if (!entry) return;
+  if (entry.partOfSpeech === 'verb') {
+    if (verbA1Set.has(entry.hangul)) entry.level = 'A1';
+    else {
+      entry.level = verbLevelReview.defaultLevel || 'A2';
+      if (verbB1Set.has(entry.hangul)) entry.levelCandidate = 'B1';
+    }
+    return;
+  }
+  if (a1ChecklistSet.has(entry.hangul)) {
+    entry.level = 'A1';
+    return;
+  }
+  if (!entry.level) {
+    entry.level = 'A2';
+    levelReviewWarnings.push(`${source || entry.id || 'entry'}:${entry.hangul}`);
+  }
+}
+
 const words = [
   ...verbSeeds.map(verbEntry),
   ...generalWordSeeds.map(generalWordEntry)
@@ -1062,15 +1183,49 @@ const extendedVocab = loadExtendedSeeds().map((o, index) => {
   const entry = generalWordEntry(seed, index);
   entry.id = `word-ext-${String(index + 1).padStart(3, '0')}`;
   entry.sort = 700 + index + 1;
-  entry.level = o.level || 'A2';
+  entry.level = o.level || null;
   entry.category = 'extended';
   if (o.structuredNuance) entry.structuredNuance = o.structuredNuance;
   return entry;
 });
 
+for (const [section, list] of [
+  ['words', words],
+  ['expressions', expressions],
+  ['patterns', patterns],
+  ['newcomerVocab', newcomerVocab],
+  ['extendedVocab', extendedVocab]
+]) {
+  for (const entry of list) applyReviewedLevel(entry, section);
+}
+
+if (levelReviewWarnings.length) {
+  console.warn(
+    `Level review warning: ${levelReviewWarnings.length} generated entries had no explicit source level; ` +
+    `applied reviewed fallback. First items: ${levelReviewWarnings.slice(0, 24).join(', ')}`
+  );
+}
+
+if (existsSync(new URL('./id-manifest.json', import.meta.url))) {
+  const idManifest = loadIdManifest();
+  activeIdManifest = idManifest;
+  let idManifestChanged = false;
+  for (const [section, list] of [
+    ['words', words],
+    ['expressions', expressions],
+    ['patterns', patterns],
+    ['newcomerVocab', newcomerVocab],
+    ['extendedVocab', extendedVocab]
+  ]) {
+    const result = applyStableIds(section, list, idManifest);
+    idManifestChanged = idManifestChanged || result.changed;
+  }
+  if (idManifestChanged) pendingIdManifest = idManifest;
+}
+
 function addTextbookLinks(entries) {
-  const course = JSON.parse(readFileSync(new URL('../korean/data/course.json', import.meta.url), 'utf8'));
-  const activities = JSON.parse(readFileSync(new URL('../korean/data/activities.json', import.meta.url), 'utf8'));
+  const course = readDataInput('course.json', { chapters: [] });
+  const activities = readDataInput('activities.json', { chapterActivities: [] });
   const activityByChapter = new Map((activities.chapterActivities || []).map(group => [
     group.chapterId,
     [...new Set((group.items || []).map(item => item.type))]
@@ -1152,9 +1307,10 @@ function romanizeLine(item) {
   const { ko, romanization, ...rest } = item;
   return { ko, romanization: romanization || romanizeKorean(ko), ...rest };
 }
-const guideTracks = ['track-a', 'track-b', 'track-c', 'track-d'].map(name =>
-  JSON.parse(readFileSync(new URL(`./guide-src/${name}.json`, import.meta.url), 'utf8'))
-);
+const guideTracks = readdirSync(new URL('./guide-src/', import.meta.url))
+  .filter(file => file.endsWith('.json'))
+  .sort()
+  .map(file => JSON.parse(readFileSync(new URL(`./guide-src/${file}`, import.meta.url), 'utf8')));
 for (const track of guideTracks) {
   for (const unit of track.units || []) {
     unit.keyPhrases = (unit.keyPhrases || []).map(romanizeLine);
@@ -1202,7 +1358,7 @@ writeFileSync(new URL('conversations.json', outDir), `${JSON.stringify({ convers
 // (including hand-added grammar cards) stay correct and consistent.
 {
   const grammarPath = new URL('grammar.json', outDir);
-  const grammar = JSON.parse(readFileSync(grammarPath, 'utf8'));
+  const grammar = readDataInput('grammar.json', { grammarItems: [], endingItems: [] });
   grammar.grammarItems = grammar.grammarItems || [];
   grammar.endingItems = grammar.endingItems || [];
   // Merge hand-authored grammar cards from scripts/grammar-src/*.json (idempotent by id).
@@ -1224,12 +1380,22 @@ writeFileSync(new URL('conversations.json', outDir), `${JSON.stringify({ convers
 }
 
 function readDataFile(name, fallback) {
-  try {
-    return JSON.parse(readFileSync(new URL(name, outDir), 'utf8'));
-  } catch {
-    return fallback;
-  }
+  return readDataInput(name, fallback);
 }
+
+const integrity = verifyDataDir(outDir, {
+  idManifest: activeIdManifest,
+  skipSupportFiles: true,
+  skipDerivedArtifacts: true,
+  allowEntryAdditions: generatorOptions.acceptManifestAdditions
+});
+if (!integrity.ok) {
+  throw new Error(`Data integrity check failed:\n${integrity.errors.join('\n')}`);
+}
+for (const warning of integrity.warnings) {
+  if (!warning.includes('data-manifest.json not found')) console.warn(`Data integrity warning: ${warning}`);
+}
+if (pendingIdManifest) writeIdManifest(pendingIdManifest);
 
 const bundle = {
   words: { entries: words },
@@ -1244,10 +1410,8 @@ const bundle = {
   dialogues: readDataFile('dialogues.json', { dialogues: [] })
 };
 
-writeFileSync(
-  new URL('../korean/data-bundle.js', import.meta.url),
-  `window.KOREAN_CORE_DATA = ${JSON.stringify(bundle)};\n`,
-  'utf8'
-);
+writeFileSync(new URL('data-bundle.js', outDir), `window.KOREAN_CORE_DATA = ${JSON.stringify(bundle)};\n`, 'utf8');
+publishGeneratedFiles();
+cleanupStaging();
 
 console.log(`Generated curated Korean starter set: ${words.length + expressions.length + patterns.length} entries.`);

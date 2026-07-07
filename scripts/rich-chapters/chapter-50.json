@@ -761,8 +761,60 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 날씨가 맑아질 ___ 다시 예약해요.",
-      "answer": "때",
-      "explanation": "V(으)ㄹ 때 marks the time when the weather clears."
+      "explanation": "V(으)ㄹ 때 marks the time when the weather clears.",
+      "correct": "때"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "비___ 오면 우산을 가져가요. (If it rains, take an umbrella.)",
+      "options": [
+        "가",
+        "를",
+        "에서"
+      ],
+      "correct": "가",
+      "explanation": "비 is the subject of 오다, so it takes 가. 를 would make rain an object."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "내일 비가 ___ 우산을 가져가세요. (오다 → likely situation/concern)",
+      "base": "오다",
+      "form": "likelyConcern",
+      "correct": "올 텐데",
+      "explanation": "-(으)ㄹ 텐데 gives a likely situation plus concern. 오다 becomes 올 텐데."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Because of fine dust, I canceled the plan.'",
+      "tokens": [
+        "미세먼지 때문에",
+        "일정을 취소했어요"
+      ],
+      "correct": "미세먼지 때문에 일정을 취소했어요",
+      "explanation": "N 때문에 names the weather or pollution cause. 일정을 취소했어요 gives the concrete decision."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I think it will rain.'",
+      "correct": "비가 올 것 같아요.",
+      "explanation": "-(으)ㄹ 것 같아요 softens the weather prediction. 비가 is the subject of the rain coming."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '눈을 오면 운전하지 마세요.'",
+      "correct": "눈이 오면 운전하지 마세요.",
+      "explanation": "Snow as weather takes 이/가 with 오다. 눈을 would make snow an object, which is wrong here."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence delays a plan because the weather may clear later?",
+      "options": [
+        "날씨가 맑아질 때 다시 예약해요.",
+        "날씨가 맑은 때문에 예약해요.",
+        "날씨를 맑으면 예약해요."
+      ],
+      "correct": "날씨가 맑아질 때 다시 예약해요.",
+      "explanation": "-ㄹ 때 marks the situation/time when the weather clears. The other options mix the weather word with the wrong particles or endings."
     }
   ],
   "summaryCard": {

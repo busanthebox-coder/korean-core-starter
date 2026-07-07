@@ -608,6 +608,50 @@
       ],
       "correct": "개웃겨",
       "explanation": "개웃겨 is natural in close peer chat but too rough for formal settings."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "댓글___ 달았어요. (I left a comment.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "댓글을 달다 is the natural verb phrase for leaving a comment. 이 would make the comment the subject."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build a close-friend chat reply: 'Yep, see you tomorrow.'",
+      "tokens": [
+        "ㅇㅇ",
+        "내일 봐"
+      ],
+      "correct": "ㅇㅇ 내일 봐",
+      "explanation": "ㅇㅇ is a casual yes/yeah used with close friends. It should not be used with teachers or formal contacts."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Rewrite ㅇㅇ politely.",
+      "correct": "네, 알겠어요.",
+      "explanation": "네, 알겠어요 is a safer polite reply. ㅇㅇ is too casual outside close chat."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix this professor reply: 'ㅇㅇ 레전드예요.'",
+      "correct": "네, 정말 인상적이었습니다.",
+      "explanation": "ㅇㅇ and 레전드 are too casual for a professor. 정말 인상적이었습니다 keeps the positive reaction but changes the register."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which abbreviation means “for real / seriously” in casual chat?",
+      "options": [
+        "ㄹㅇ",
+        "ㅠㅠ",
+        "ㅇㅈ"
+      ],
+      "correct": "ㄹㅇ",
+      "explanation": "ㄹㅇ is shorthand for real/seriously. ㅠㅠ shows crying, and ㅇㅈ means agreed."
     }
   ],
   "summaryCard": {

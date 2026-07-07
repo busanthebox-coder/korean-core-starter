@@ -1,7 +1,13 @@
 <script>
   import { onMount } from 'svelte';
-  import { entries, chapters, findEntry } from '../lib/data.js';
+  import { entries, chapters, findEntry, levels } from '../lib/data.js';
   import { buildQuiz, makeMatch, buildWriteQuiz, buildSentenceQuiz } from '../lib/quiz.js';
+  import {
+    CONJUGATION_FORM_KEYS,
+    FORM_LABELS,
+    buildConjugationQuiz,
+  } from '../lib/conjugationDrill.js';
+  import ConjugationSession from '../lib/components/ConjugationSession.svelte';
   import ExerciseHost from '../lib/components/ExerciseHost.svelte';
   import MatchGame from '../lib/components/MatchGame.svelte';
   import PatternContrastSession from '../lib/components/PatternContrastSession.svelte';
@@ -13,7 +19,7 @@
   import { reviews, dueIds, summarize } from '../lib/srs.js';
   import { study, streak, todayCount, goalOf } from '../lib/progress.js';
   import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
-  import { buildContrastQuiz } from '../lib/patternContrast.js';
+  import { buildContrastQuiz, contrastLevelOptions, contrastStats } from '../lib/patternContrast.js';
   import { markLessonPracticed } from '../lib/stores.js';
   import { FOCUS_DECK, WEAK_DECK, parseFocusParam } from '../lib/studyLinks.js';
   import { push } from 'svelte-spa-router';
@@ -25,6 +31,10 @@
   let result = null;
   let sessionCards = [];
   let contrastQuestions = [];
+  let contrastLevel = 'all';
+  let conjugationQuestions = [];
+  let conjugationForms = ['past', 'politePresent'];
+  let conjugationLevel = 'all';
   let selected = null;
   let added = false;
   let focusIds = [];
@@ -92,12 +102,37 @@
     pattern: base.filter((e) => e.type === 'pattern').length,
   };
   $: canRecognize = pool.length >= 4;
+  $: conjugationFormOptions = CONJUGATION_FORM_KEYS
+    .filter((form) => form !== 'dictionary')
+    .map((key) => ({ key, ...FORM_LABELS[key] }));
+  $: conjugationLevelOptions = ['all', ...levels];
+  $: conjugationPool = base.filter((e) =>
+    e.type === 'word'
+    && e.forms
+    && (conjugationLevel === 'all' || e.level === conjugationLevel)
+    && conjugationForms.some((form) => e.forms?.[form])
+  );
+  $: canConjugate = conjugationPool.length > 0 && conjugationForms.length > 0;
+  $: contrastCounts = contrastStats().byLevel;
+  $: contrastCount = contrastLevel === 'all'
+    ? Object.values(contrastCounts).reduce((sum, n) => sum + n, 0)
+    : contrastCounts[contrastLevel] || 0;
 
   function startQuiz() { questions = buildQuiz(pool, { count: 10 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startWrite() { questions = buildWriteQuiz(pool, { count: 8 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startBuild() { questions = buildSentenceQuiz(pool, { count: 6 }); stage = 'quiz'; window.scrollTo(0, 0); }
   function startMatch() { matchData = makeMatch(pool, Math.random, 5); stage = 'match'; window.scrollTo(0, 0); }
-  function startContrast() { contrastQuestions = buildContrastQuiz({ count: 8 }); stage = 'contrast'; window.scrollTo(0, 0); }
+  function startContrast() { contrastQuestions = buildContrastQuiz({ count: 8, level: contrastLevel }); stage = 'contrast'; window.scrollTo(0, 0); }
+  function startConjugation() {
+    conjugationQuestions = buildConjugationQuiz(conjugationPool, {
+      forms: conjugationForms,
+      count: 10,
+      irregularWeight: deck === 'chapter-41' ? 3 : 1.5,
+    });
+    if (!conjugationQuestions.length) return;
+    stage = 'conjugation';
+    window.scrollTo(0, 0);
+  }
   $: canBuild = pool.some((e) => (e.examples || []).some((x) => x.ko && x.ko.trim().split(/\s+/).length >= 2));
   function startWeakPractice() {
     const weakPool = weakItems.slice();
@@ -146,6 +181,15 @@
       {added}
       {canRecognize}
       {canBuild}
+      {canConjugate}
+      {conjugationFormOptions}
+      {conjugationLevelOptions}
+      conjugationCount={conjugationPool.length}
+      {contrastLevelOptions}
+      {contrastCount}
+      bind:conjugationForms
+      bind:conjugationLevel
+      bind:contrastLevel
       onStartReview={startReview}
       onSelectWeak={selectWeak}
       onClearWeak={clearWeak}
@@ -155,11 +199,16 @@
       onStartWrite={startWrite}
       onStartBuild={startBuild}
       onStartContrast={startContrast}
+      onStartConjugation={startConjugation}
     />
 
   {:else if stage === 'quiz'}
     <button class="back" on:click={reset}>← Practice</button>
     <ExerciseHost {questions} onDone={finish} />
+
+  {:else if stage === 'conjugation'}
+    <button class="back" on:click={reset}>← Practice</button>
+    <ConjugationSession items={conjugationQuestions} onDone={finish} />
 
   {:else if stage === 'match'}
     <button class="back" on:click={reset}>← Practice</button>
@@ -194,7 +243,7 @@
 </Sheet>
 
 <style>
-  .practice { max-width: 760px; margin: 0 auto; padding: 32px 28px; display: grid; gap: 16px; }
+  .practice { box-sizing: border-box; width: 100%; max-width: 760px; margin: 0 auto; padding: 32px 28px; display: grid; gap: 16px; }
   .back { justify-self: start; padding: 7px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; }
   .match-hint { text-align: center; color: var(--ink-3); margin: 0; }
 </style>

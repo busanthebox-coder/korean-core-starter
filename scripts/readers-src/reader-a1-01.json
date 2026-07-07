@@ -1,0 +1,47 @@
+{
+  "id": "reader-a1-01",
+  "level": "A1",
+  "title": "제 하루",
+  "titleEn": "My Day",
+  "genre": "diary",
+  "body": [
+    "저는 민수예요. 아침에 일어나요. 물을 마시고 학교에 가요. 학교에서 한국어를 공부해요.",
+    "점심에는 친구와 밥을 먹어요. 저녁에는 집에서 책을 읽어요. 밤에는 조금 쉬고 자요. 주말에는 카페에서 친구를 만나요. 친구와 음악을 듣고 한국어로 조금 말해요. 내일도 학교에 가요."
+  ],
+  "bodyTranslation": [
+    "I am Minsu. I wake up in the morning. I drink water and go to school. I study Korean at school.",
+    "At lunch I eat with a friend. In the evening I read a book at home. At night I rest a little and sleep. On the weekend I meet a friend at a cafe. I listen to music with my friend and speak a little in Korean. Tomorrow I go to school again."
+  ],
+  "comprehensionQuestions": [
+    {
+      "type": "multipleChoice",
+      "prompt": "민수는 아침에 어디에 가요?",
+      "options": ["학교", "시장", "병원", "공원"],
+      "correct": "학교",
+      "explanation": "본문에 학교에 가요라고 나와요. 시장, 병원, 공원은 이 하루의 목적지가 아니에요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "민수는 학교에서 무엇을 공부해요?",
+      "options": ["한국어", "요리", "운동", "사진"],
+      "correct": "한국어",
+      "explanation": "학교에서 한국어를 공부해요가 정답이에요. 다른 보기는 본문에 나오지 않아요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "저녁에 민수는 어디에서 책을 읽어요?",
+      "options": ["집", "카페", "식당", "회사"],
+      "correct": "집",
+      "explanation": "저녁에는 집에서 책을 읽어요라고 했어요. 장소 표시는 에서가 붙은 집에서예요."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "이 글의 느낌으로 가장 가까운 것은?",
+      "options": ["보통이지만 편안한 하루", "무서운 여행", "아픈 하루", "바쁜 회사 생활"],
+      "correct": "보통이지만 편안한 하루",
+      "explanation": "일어나고 학교에 가고 집에서 쉬는 평범한 하루예요. 무서운 일이나 회사 이야기는 없어요."
+    }
+  ],
+  "summaryPrompt": "민수의 하루를 두 문장으로 요약해 보세요.",
+  "newWords": ["민수"]
+}

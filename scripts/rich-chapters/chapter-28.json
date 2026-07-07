@@ -519,14 +519,55 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 지갑을 챙기고 ___ 다시 출발했어요.",
-      "answer": "나서",
-      "explanation": "V-고 나서 means after finishing the first action."
+      "explanation": "V-고 나서 means after finishing the first action.",
+      "correct": "나서"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 도착했자마자 전화했어요.",
-      "answer": "도착하자마자 전화했어요.",
-      "explanation": "Do not put past tense before -자마자."
+      "explanation": "Do not put past tense before -자마자.",
+      "correct": "도착하자마자 전화했어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "밥___ 먹고 나서 출발했어요. (After eating, I left.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "밥 is what you eat, so it takes 을. 먹고 나서 then shows the next action happened after eating."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "집에 ___ 전화했어요. (도착하다 → as soon as)",
+      "base": "도착하다",
+      "form": "immediateSequence",
+      "correct": "도착하자마자",
+      "explanation": "-자마자 means as soon as the first action happens. 도착하다 becomes 도착하자마자."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'After washing up, I slept.'",
+      "tokens": [
+        "씻고 나서",
+        "잤어요"
+      ],
+      "correct": "씻고 나서 잤어요",
+      "explanation": "-고 나서 makes the first action clearly finished before the second starts. 씻고 나서 comes before 잤어요."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'First get ready, then depart.'",
+      "correct": "먼저 준비하고 그다음 출발해요.",
+      "explanation": "먼저 and 그다음 make the timeline explicit. 준비하고 links the first step before 출발해요."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '도착했자마자 전화했어요.'",
+      "correct": "도착하자마자 전화했어요.",
+      "explanation": "-자마자 attaches to the verb stem, not the past form. 도착하다 becomes 도착하자마자."
     }
   ],
   "summaryCard": {

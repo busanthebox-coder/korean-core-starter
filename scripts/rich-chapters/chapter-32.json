@@ -623,20 +623,55 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 오늘부터 일찍 자___ 했어요.",
-      "answer": "기로",
-      "explanation": "자다 becomes 자기로 in the decision frame."
+      "explanation": "자다 becomes 자기로 in the decision frame.",
+      "correct": "기로"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 운동하기로 할 거예요. (The decision is already made.)",
-      "answer": "운동하기로 했어요.",
-      "explanation": "Use 했어요 when reporting a decision that has already been made."
+      "explanation": "Use 했어요 when reporting a decision that has already been made.",
+      "correct": "운동하기로 했어요."
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 건강이 좋게 됐어요.",
-      "answer": "건강이 좋아졌어요.",
-      "explanation": "For a simple state improvement, use 좋아지다."
+      "explanation": "For a simple state improvement, use 좋아지다.",
+      "correct": "건강이 좋아졌어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "건강___ 좋아졌어요. (My health got better.)",
+      "options": [
+        "이",
+        "을",
+        "에"
+      ],
+      "correct": "이",
+      "explanation": "좋아지다 describes a subject changing state, so 건강 takes 이. 을 would make health the object of an action."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "오늘부터 운동을 ___ . (시작하다 → decided to)",
+      "base": "시작하다",
+      "form": "decision",
+      "correct": "시작하기로 했어요",
+      "explanation": "V-기로 했어요 states a settled decision. 시작하다 becomes 시작하기로 했어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'My habit changed.'",
+      "tokens": [
+        "습관이",
+        "바뀌었어요"
+      ],
+      "correct": "습관이 바뀌었어요",
+      "explanation": "바뀌다 describes something changing, so 습관이 is the subject. The past form 바뀌었어요 reports the completed change."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I ended up exercising every morning.'",
+      "correct": "매일 아침 운동하게 됐어요.",
+      "explanation": "V-게 됐어요 sounds like the situation developed that way. It is less like a sudden promise and more like a change in routine."
     }
   ],
   "summaryCard": {

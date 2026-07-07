@@ -583,14 +583,55 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 답장이 없네요. 많이 바쁜___ 봐요.",
-      "answer": "가",
-      "explanation": "Adjective 바쁘다 becomes 바쁜가 봐요."
+      "explanation": "Adjective 바쁘다 becomes 바쁜가 봐요.",
+      "correct": "가"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 비가 올 모르다.",
-      "answer": "비가 올지도 몰라요.",
-      "explanation": "The possibility pattern keeps -ㄹ지도 before 몰라요."
+      "explanation": "The possibility pattern keeps -ㄹ지도 before 몰라요.",
+      "correct": "비가 올지도 몰라요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "하늘___ 흐려요. (The sky is cloudy.)",
+      "options": [
+        "이",
+        "을",
+        "에서"
+      ],
+      "correct": "이",
+      "explanation": "하늘 is the subject being described, so it takes 이. 을 would make the sky an object, which does not fit 흐리다."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "버스가 ___ . (늦다 → may/might)",
+      "base": "늦다",
+      "form": "possibility",
+      "correct": "늦을지도 몰라요",
+      "explanation": "-(으)ㄹ지도 몰라요 marks possibility. 늦다 has a consonant-ending stem, so it becomes 늦을지도 몰라요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'There is no reply. I guess they are busy.'",
+      "tokens": [
+        "답장이 없네요.",
+        "바쁜가 봐요"
+      ],
+      "correct": "답장이 없네요. 바쁜가 봐요",
+      "explanation": "The missing reply is the clue. 바쁜가 봐요 gives an evidence-based guess about someone else."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'It will probably rain.'",
+      "correct": "아마 비가 올 것 같아요.",
+      "explanation": "아마 marks probability, and 올 것 같아요 softens the prediction. 비가 is the subject of the rain coming."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '친구가 피곤나 봐요.'",
+      "correct": "친구가 피곤한가 봐요.",
+      "explanation": "Adjectives often use -(으)ㄴ가 봐요 for evidence-based guesses. 피곤하다 becomes 피곤한가 봐요."
     }
   ],
   "summaryCard": {

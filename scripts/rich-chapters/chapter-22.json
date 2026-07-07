@@ -550,20 +550,62 @@
     {
       "type": "fillBlank",
       "prompt": "Say 'It is not as expensive as I thought.'",
-      "answer": "생각만큼 비싸지 않아요.",
-      "explanation": "생각만큼 is the expectation standard; 비싸지 않아요 gives the negative comparison."
+      "explanation": "생각만큼 is the expectation standard; 비싸지 않아요 gives the negative comparison.",
+      "correct": "생각만큼 비싸지 않아요."
     },
     {
       "type": "fillBlank",
       "prompt": "Say 'This cafe fits my taste.'",
-      "answer": "이 카페는 제 취향에 맞아요.",
-      "explanation": "취향에 맞다 is the natural collocation."
+      "explanation": "취향에 맞다 is the natural collocation.",
+      "correct": "이 카페는 제 취향에 맞아요."
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 커피가 좋아해요.",
-      "answer": "커피를 좋아해요.",
-      "explanation": "Use 를 with 좋아하다. 커피가 좋아요 is a different sentence with 좋다."
+      "explanation": "Use 를 with 좋아하다. 커피가 좋아요 is a different sentence with 좋다.",
+      "correct": "커피를 좋아해요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "커피___ 좋아해요. (I like coffee.)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "좋아하다 is a verb, so the thing liked takes 을/를. 커피가 좋아요 is a different adjective sentence meaning coffee is good."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "저는 영화를 ___ . (좋아하다 → polite present)",
+      "base": "좋아하다",
+      "form": "politePresent",
+      "correct": "좋아해요",
+      "explanation": "하다 verbs become 해요 in polite present. 좋아하다 becomes 좋아해요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I like coffee more than tea.'",
+      "tokens": [
+        "차보다",
+        "커피를",
+        "더 좋아해요"
+      ],
+      "correct": "차보다 커피를 더 좋아해요",
+      "explanation": "N보다 sets the comparison baseline. 더 좋아해요 says the second option is preferred more."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I like movies the most.'",
+      "correct": "영화를 제일 좋아해요.",
+      "explanation": "제일 marks the top preference. 영화 is the thing liked, so 영화를 stays before 좋아해요."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '생각만큼 비싸요 않아요.'",
+      "correct": "생각만큼 비싸지 않아요.",
+      "explanation": "Adjectives use -지 않아요 for this negative pattern. 생각만큼 sets the comparison: not as expensive as expected."
     }
   ],
   "summaryCard": {

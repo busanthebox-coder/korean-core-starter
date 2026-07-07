@@ -543,7 +543,8 @@
       "type": "translate",
       "prompt": "Translate: 'What is your name?'",
       "correct": "이름이 뭐예요?",
-      "hint": "이름 (name) + subject marker 이 + 뭐 (what) + 예요 (is). 뭐 ends in a vowel — which ending does that require?"
+      "hint": "이름 (name) + subject marker 이 + 뭐 (what) + 예요 (is). 뭐 ends in a vowel — which ending does that require?",
+      "explanation": "이름이 뭐예요? is the everyday way to ask someone's name. 무엇 is grammatically possible but sounds more written or formal here."
     },
     {
       "type": "multipleChoice",
@@ -565,6 +566,33 @@
       ],
       "correct": "건",
       "explanation": "이건 is the contracted form of 이것 + 은 (이것은 → 이건). This is how native speakers actually say it — 이것은 뭐예요? is grammatically correct but sounds stiff. 이는 is not a standard form. The contraction 이건 is what you will hear in real conversation every time."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "저___ 민준이에요. (As for me, I am Minjun.)",
+      "options": [
+        "는",
+        "를",
+        "가"
+      ],
+      "correct": "는",
+      "explanation": "저는 introduces the topic “as for me” before giving your name. 를 would mark an object, which does not fit an identity sentence."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'This is coffee.'",
+      "tokens": [
+        "이건",
+        "커피예요"
+      ],
+      "correct": "이건 커피예요",
+      "explanation": "이건 sets “this thing” as the topic. 커피 ends in a vowel sound, so the natural copula form is 예요."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '저는 학생예요.'",
+      "correct": "저는 학생이에요.",
+      "explanation": "학생 ends in a consonant sound, so it takes 이에요. 예요 is for vowel-ending nouns like 커피예요."
     }
   ],
   "summaryCard": {

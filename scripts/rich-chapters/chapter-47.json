@@ -674,6 +674,52 @@
       ],
       "correct": "할머니께 안부를 전해 주세요.",
       "explanation": "께 means to a respected person. 께서 means the respected person is the subject."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "어머니___ 오셨어요. (My mother came.)",
+      "options": [
+        "께서",
+        "께",
+        "를"
+      ],
+      "correct": "께서",
+      "explanation": "어머니 is the respected subject, so use 께서. 께 marks a respected receiver instead."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'My family has four people.'",
+      "tokens": [
+        "저희 가족은",
+        "네 명이에요"
+      ],
+      "correct": "저희 가족은 네 명이에요",
+      "explanation": "저희 가족은 politely sets the family as the topic. People are counted with 명, and four before a counter is 네."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "A female speaker says “older sister”: ___.",
+      "correct": "언니",
+      "explanation": "A female speaker calls an older sister 언니. 누나 is used by a male speaker."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "A male speaker is talking about his older sister. Which word fits?",
+      "options": [
+        "누나",
+        "언니",
+        "오빠"
+      ],
+      "correct": "누나",
+      "explanation": "Male speakers use 누나 for older sister. 언니 is from a female speaker’s point of view."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "아버지가 지금 ___ . (주무시다 → polite present)",
+      "base": "주무시다",
+      "form": "honorificPresent",
+      "correct": "주무세요",
+      "explanation": "주무시다 is the honorific verb for sleep. In polite present it becomes 주무세요."
     }
   ],
   "summaryCard": {

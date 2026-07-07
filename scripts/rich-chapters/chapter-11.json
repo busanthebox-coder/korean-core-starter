@@ -561,7 +561,8 @@
       "type": "translate",
       "prompt": "Translate: 'It's expensive, so I won't buy it. I'll buy a cheaper one.'",
       "correct": "비싸서 안 살게요. 더 싼 거 살게요.",
-      "hint": "비싸다 → reason connector → then use the speaker's promise form for both decisions"
+      "hint": "비싸다 → reason connector → then use the speaker's promise form for both decisions",
+      "explanation": "비싸서 gives the reason before the result, 'because it's expensive.' 더 싼 거 means 'a cheaper one,' which is more natural than repeating the noun."
     },
     {
       "type": "multipleChoice",
@@ -584,6 +585,35 @@
       ],
       "correct": "피곤해서 쉴게요.",
       "explanation": "Being tired is the CAUSE of the speaker's decision to rest, so 아서/어서 (해서 for 하다 verbs) is correct. 피곤하면 쉴게요 means 'if I'm tired, I'll rest,' which changes the real reason into a condition. 피곤하고 쉴게요 just links 'tired and rest' without showing that tiredness is WHY you're resting."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "이유___ 있어요? (Is there a reason?)",
+      "options": [
+        "가",
+        "를",
+        "에서"
+      ],
+      "correct": "가",
+      "explanation": "있어요 takes 이/가 for the thing that exists. 이유를 would make 이유 an object, which does not fit 있다/있어요."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "나중에 ___ . (연락하다 → promise)",
+      "base": "연락하다",
+      "form": "promise",
+      "correct": "연락할게요",
+      "explanation": "-(으)ㄹ게요 is used when the speaker promises or decides what they will do. 연락하다 becomes 연락할게요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I'm busy, so I can't go.'",
+      "tokens": [
+        "바빠서",
+        "못 가요"
+      ],
+      "correct": "바빠서 못 가요",
+      "explanation": "-아서/어서 connects the reason to the result in one smooth sentence. 바빠서 gives the reason before 못 가요."
     }
   ],
   "summaryCard": {

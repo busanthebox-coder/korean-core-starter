@@ -70,4 +70,47 @@
 - 로마자 강제/자동 off. 오리엔테이션을 필수 관문화(잠금 금지 원칙). 문법 용어 남발(오리엔테이션은 개념만).
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-07 / Codex ULW `content-v2-ulw-20260707`
+
+- 구현:
+  - 저장소 `README.md` 신설: live URL, local run, test/build, data pipeline, deploy, v2 spec 위치.
+  - Guide 최상단 `App Manual` 트랙 신설: `How to use this app`, `Set up Korean typing`, `How Korean Works`.
+  - Learn 최상단 선택형 `How Korean Works` 10카드 오리엔테이션 추가. 완료 키는 `kcs.orientation-v1`; 완료 후 Learn 카드는 숨고 Guide에서 계속 접근 가능.
+  - `pack-survival-basics`(1과 뒤)·`pack-survival-help`(2과 뒤) 추가. expressions 전용 팩은 `LessonPlayer`의 phrases 화면 + MatchGame으로 학습.
+  - 부재 표현 `화장실이 어디예요?`를 expression seed에 추가하고 생존 도움 팩에 연결.
+  - `KoreanInputFallback.svelte`와 `inputFallback.js` 추가. 타이핑 문항에서 "No Korean keyboard? Tap input" 토글로 어절 뱅크 입력을 사용할 수 있고 `kcs.ime-fallback-v1`에 기억.
+  - Chapter 3 완료 + Romaja On 조건에서 1회 로마자 웨이닝 넛지 추가. 확인 키는 `kcs.roman-nudge-v1`.
+  - 후속 gate 지적 처리:
+    - `Learn.svelte`를 `LearnPathView.svelte`/`LearnProgressCard.svelte`로 분리해 route 파일을 188 pure LOC로 낮춤.
+    - `Guide.svelte` dead CSS/import와 unused export 경고 제거.
+    - `scripts/level-audit/audit-a1.mjs`가 C0 8팩 + C9 생존팩 2개(총 10개)를 필수 팩으로 검사하도록 보강.
+    - `src/lib/data.js`가 vocab pack 항목의 결측 entry/related id를 조용히 필터링하지 않고 즉시 throw하도록 변경.
+    - `scripts/build-app-data.mjs`가 중복 한글 표제어(`열/팔/천/눈/다리` 등)를 `entryId` 없이 해석하려 하면 즉시 실패하도록 변경. 숫자팩은 `열=ten`, `팔=eight`, `천=thousand`로 고정하고 몸팩은 신체 뜻을 유지.
+    - 숫자팩 산수 예문 3건의 Korean/English 불일치(`십이예요` vs ten)를 `십이에요`로 교정하고 회귀 테스트를 추가.
+    - `LessonPlayer.svelte`를 화면별 child component(`lessonPlayer/*`)로 분리해 부모를 187 pure LOC로 낮춤. `scripts/generate-korean-data.mjs`는 data-generation pipeline SIZE_OK 예외를 첫 줄에 명시하고 all-touched LOC audit에 포함.
+    - 데스크톱 폭에서 `BottomNav`가 완료 버튼을 덮는 레이아웃 회귀를 `BottomNav.svelte` 내부 media rule로 수정.
+- 증거:
+  - RED baseline: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-red-baseline.txt`
+  - 생존팩/표현 매칭: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-survival-pack-audit.txt`
+  - 결측 pack entry 가드: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-pack-missing-entry-guard.txt`
+  - 애매한 표제어 가드/의미 검증: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-ambiguous-pack-guard.txt`, `C9-pack-numbers-semantic.txt`
+  - 숫자 산수 예문 검증: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-numbers-arithmetic-content.txt`
+  - 입력 폴백/저장 키 테스트: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-input-fallback-test.txt`
+  - 입력 폴백 실사용 QA: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-input-fallback-browser.txt` + `C9-input-fallback-live.png`
+  - 로마자 넛지 1회성 QA: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-roman-nudge-browser.txt` + `C9-roman-nudge.png`
+  - legacy bundle parity: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-data-bundle-parity.txt`
+  - 브라우저 온램프 QA: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-browser-onramp.txt` + `C9-browser-*.png`
+  - C0 pack/Dictionary 회귀: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-c0-regression.txt` + `C9-c0-regression-numbers-meaning.png`
+  - 수동 QA 매트릭스/런타임 정리: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-manual-qa-matrix.md`, `C9-runtime-cleanup.txt`
+  - 후속 refactor/LOC audit: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-post-gate-refactor-audit.txt`, `C9-all-touched-source-loc-slop-audit.txt`
+  - LessonPlayer split browser QA: `.omo/ulw-loop/content-v2-ulw-20260707/evidence/C9-lessonplayer-refactor-cdp.txt` + `C9-lessonplayer-refactor-initial.png`, `C9-lessonplayer-refactor-complete.png`
+  - 최종 data integrity/A1 audit/git whitespace: `C9-verify-integrity.txt`, `C0-audit-final.txt`, `git-diff-check-final.txt`
+- 테스트/빌드:
+  - targeted tests: `C9-data-store-tests.txt`, `C9-input-fallback-test.txt`, `C9-data-test-after-gate-fix.txt`
+  - full tests/build: `C9-vitest-full.txt` PASS 26 files / 148 tests, `C9-npm-build.txt` PASS.
+  - post-refactor full tests/build: `C9-vitest-after-refactor.txt` PASS 26 files / 148 tests, `C9-npm-build-after-refactor.txt` PASS.
+  - `npm run build` 최종 상태: Svelte unused export/selector 경고 없음. 남은 경고는 기존 대용량 data chunk 경고 1건.
+- 남긴 이슈:
+  - 오디오는 사용자 요청대로 마지막 단계로 남김.
+  - 대용량 `data-*.js` chunk는 기존 WS1(`ws1-data-splitting.md`) 범위로 남김.
+  - `kcs.roman-nudge-v1`은 재노출이 무해한 넛지 상태라 백업 필수 대상에서 제외해도 된다. WS3에서 백업 정책 확정 시 사용자 진행 상태(`progress`, `packs`, `guide-ready`, `srs`, `mistakes`)를 우선 백업 대상으로 삼을 것.

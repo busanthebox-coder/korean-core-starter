@@ -509,14 +509,56 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 밥을 먹___ 전화가 왔어요.",
-      "answer": "다가",
-      "explanation": "먹다가 shows the call interrupted the meal."
+      "explanation": "먹다가 shows the call interrupted the meal.",
+      "correct": "다가"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 불을 켜져 있어요.",
-      "answer": "불이 켜져 있어요.",
-      "explanation": "For result state, the light is the subject with 이/가."
+      "explanation": "For result state, the light is the subject with 이/가.",
+      "correct": "불이 켜져 있어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "문자___ 받다가 전화를 했어요. (I got a text, then switched to calling.)",
+      "options": [
+        "를",
+        "가",
+        "에서"
+      ],
+      "correct": "를",
+      "explanation": "문자를 받다 is the action phrase “receive a text.” 받다가 shows that action was interrupted or shifted."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "지금 자리에 ___ . (앉다 → remaining state)",
+      "base": "앉다",
+      "form": "resultState",
+      "correct": "앉아 있어요",
+      "explanation": "-아/어 있어요 describes a state that remains after an action. 앉다 becomes 앉아 있어요 for the state of being seated."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I was going, then changed plans midway.'",
+      "tokens": [
+        "가다가",
+        "중간에",
+        "계획을 바꿨어요"
+      ],
+      "correct": "가다가 중간에 계획을 바꿨어요",
+      "explanation": "-다가 shows the original action was interrupted. 중간에 makes the mid-way change explicit."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'The door is open.'",
+      "correct": "문이 열려 있어요.",
+      "explanation": "열려 있어요 describes the resulting open state of the door. It is not about someone opening it right now."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '문이 열고 있어요.'",
+      "correct": "문이 열려 있어요.",
+      "explanation": "문이 열고 있어요 makes the door sound like it is actively opening something. For the open state, use 열려 있어요."
     }
   ],
   "summaryCard": {

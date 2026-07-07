@@ -560,6 +560,65 @@
       ],
       "correct": "그 영화가 저를 울게 만들었어요.",
       "explanation": "V-게 만들다 fits emotional or resultative causation."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "아이___ 자리에 앉혔어요. (I seated the child.)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "앉히다 is causative, and 아이 is the person caused/helped to sit. That person takes 를."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "아이에게 밥을 ___ . (먹다 → causative past)",
+      "base": "먹다",
+      "form": "causativePast",
+      "correct": "먹였어요",
+      "explanation": "먹이다 means feed or make someone eat. In polite past it becomes 먹였어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'The teacher made the student read the book.'",
+      "tokens": [
+        "선생님이",
+        "학생에게",
+        "책을 읽혔어요"
+      ],
+      "correct": "선생님이 학생에게 책을 읽혔어요",
+      "explanation": "읽히다 can be causative: make someone read. 학생에게 marks who was made to read."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I put the child to sleep.'",
+      "correct": "아이를 재웠어요.",
+      "explanation": "재우다 is the causative of 자다. 아이를 is the person you caused to sleep."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '아이가 밥을 먹였어요.' (intended: Mom fed the child.)",
+      "correct": "엄마가 아이에게 밥을 먹였어요.",
+      "explanation": "먹이다 needs a causer and the person fed. 엄마가 is the causer, and 아이에게 marks the child who receives the food."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence means “The news made me cry”?",
+      "options": [
+        "그 소식이 저를 울렸어요.",
+        "그 소식이 제가 울었어요.",
+        "그 소식이 울었어요."
+      ],
+      "correct": "그 소식이 저를 울렸어요.",
+      "explanation": "울리다 can mean make someone cry. 저를 marks the person affected by the news."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Please let me know the result.'",
+      "correct": "결과를 알려 주세요.",
+      "explanation": "알리다 means inform or let someone know. 결과를 is the information being given."
     }
   ],
   "summaryCard": {

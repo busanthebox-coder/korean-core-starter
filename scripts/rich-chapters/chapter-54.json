@@ -737,6 +737,65 @@
       ],
       "correct": "시험 기간 동안 매일 공부해요.",
       "explanation": "Put 동안 directly after the time span noun."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "과제___ 해야 해요. (I have to do the assignment.)",
+      "options": [
+        "를",
+        "가",
+        "에"
+      ],
+      "correct": "를",
+      "explanation": "하다 takes the assignment as an object, so 과제를 fits. 가 would make the assignment the subject."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "다음 주에 ___ . (발표하다 → must)",
+      "base": "발표하다",
+      "form": "must",
+      "correct": "발표해야 해요",
+      "explanation": "-아/어야 해요 gives an obligation. 발표하다 becomes 발표해야 해요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I decided to study at the library during exam period.'",
+      "tokens": [
+        "시험 기간 동안",
+        "도서관에서",
+        "공부하기로 했어요"
+      ],
+      "correct": "시험 기간 동안 도서관에서 공부하기로 했어요",
+      "explanation": "동안 gives the period, and 도서관에서 gives the study place. -기로 했어요 states the decision."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I started studying for the midterm.'",
+      "correct": "중간고사를 준비하기 시작했어요.",
+      "explanation": "V-기 시작하다 means start doing. 준비하다 becomes 준비하기 before 시작했어요."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '시험 동안에 합격하기 위해서 공부해요.'",
+      "correct": "시험에 합격하기 위해서 공부해요.",
+      "explanation": "합격하다 takes the exam target with 에. 동안 is for a time span, not the exam you pass."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence states a personal study decision?",
+      "options": [
+        "오늘부터 도서관에서 공부하기로 했어요.",
+        "오늘부터 공부해야 해요.",
+        "오늘부터 공부하는 동안이에요."
+      ],
+      "correct": "오늘부터 도서관에서 공부하기로 했어요.",
+      "explanation": "-기로 했어요 marks a decision. -아/어야 해요 marks obligation instead."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I study for my grades.'",
+      "correct": "성적을 위해서 공부해요.",
+      "explanation": "N을 위해서 marks the goal or thing you are working for. 성적을 위해서 is natural for grade-related study."
     }
   ],
   "summaryCard": {

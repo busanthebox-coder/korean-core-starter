@@ -556,7 +556,8 @@
       "type": "translate",
       "prompt": "Translate: 'Please help me a bit.'",
       "correct": "좀 도와주세요.",
-      "hint": "도와주다 = to help. Which pattern asks someone ELSE to perform an action? And which adverb softens requests?"
+      "hint": "도와주다 = to help. Which pattern asks someone ELSE to perform an action? And which adverb softens requests?",
+      "explanation": "도와주세요 is the direct polite request 'please help me.' 좀 softens the request so it sounds less blunt."
     },
     {
       "type": "fillBlank",
@@ -579,6 +580,35 @@
       ],
       "correct": "미안해요, 가야 해요.",
       "explanation": "가야 해요 = MUST-DO CHECKLIST — I have to go, it's an obligation. 가지 않아도 돼요 means 'I don't have to go' (no obligation), which contradicts your intention. 가지 마세요 would mean 'please don't go' — you'd be repeating your friend's prohibition back to them."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "사진___ 찍어도 돼요? (May I take a photo?)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "사진 is what you take, so it takes the object marker 을. 이 would make the photo the subject instead of the object."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "문을 ___ . (닫다 → please do)",
+      "base": "닫다",
+      "form": "pleaseDo",
+      "correct": "닫아 주세요",
+      "explanation": "닫다 becomes 닫아 주세요 for a polite request. This asks someone to close the door for you."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Please do not touch the exhibit.'",
+      "tokens": [
+        "전시품을",
+        "만지지 마세요"
+      ],
+      "correct": "전시품을 만지지 마세요",
+      "explanation": "-지 마세요 is the polite “please do not” form. 전시품 is the object being touched, so 전시품을 comes before the verb."
     }
   ],
   "summaryCard": {

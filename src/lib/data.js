@@ -18,6 +18,36 @@ for (const e of entries) {
 }
 export const findEntry = (id) => byId.get(id) || null;
 
+function validateVocabPackItems(pack) {
+  return (pack.items || []).map((item) => {
+    if (!item.entryId) {
+      throw new Error(`Invalid vocab pack item: ${pack.id} is missing entryId`);
+    }
+    if (!byId.has(item.entryId)) {
+      throw new Error(`Invalid vocab pack reference: ${pack.id} -> ${item.entryId}`);
+    }
+    for (const relatedId of item.relatedEntryIds || []) {
+      if (!byId.has(relatedId)) {
+        throw new Error(`Invalid vocab pack related reference: ${pack.id} -> ${item.entryId} -> ${relatedId}`);
+      }
+    }
+    return item;
+  });
+}
+
+export const vocabPacks = (data.vocabPacks || []).map((pack) => ({
+  ...pack,
+  items: validateVocabPackItems(pack)
+}));
+export const findVocabPack = (id) => vocabPacks.find((pack) => pack.id === id) || null;
+
+const READER_LEVEL_ORDER = { A1: 1, A2: 2, B1: 3, B2: 4 };
+export const readers = (data.readers || []).slice().sort((a, b) =>
+  (READER_LEVEL_ORDER[a.level] || 99) - (READER_LEVEL_ORDER[b.level] || 99) ||
+  String(a.id || '').localeCompare(String(b.id || ''))
+);
+export const findReader = (id) => readers.find((reader) => reader.id === id) || null;
+
 export const chapters = (data.course.chapters || []).slice().sort((a, b) =>
   curriculumSortValue(a) - curriculumSortValue(b) || a.number - b.number
 );

@@ -499,6 +499,64 @@
       ],
       "correct": "많이 먹었더니 졸렸어요.",
       "explanation": "Use -았/었더니 for your own action leading to a result."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "그 식당___ 가 보니까 생각보다 조용하더라고요. (When I tried going to that restaurant...)",
+      "options": [
+        "에",
+        "에서",
+        "를"
+      ],
+      "correct": "에",
+      "explanation": "가 보다 is movement/trying a place, so the destination takes 에. 에서 would mark an action happening at the place."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "그 카페가 많이 ___ . (붐비다 → firsthand notice)",
+      "base": "붐비다",
+      "form": "firsthandNotice",
+      "correct": "붐비더라고요",
+      "explanation": "-더라고요 reports what you personally noticed. 붐비다 becomes 붐비더라고요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'When I tried going there, it was quieter than expected.'",
+      "tokens": [
+        "가 보니까",
+        "생각보다 조용하더라고요"
+      ],
+      "correct": "가 보니까 생각보다 조용하더라고요",
+      "explanation": "가 보니까 sets up what you learned by trying it yourself. -더라고요 reports the firsthand observation."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'At first it was quiet, and then it quickly got crowded.'",
+      "correct": "처음에는 조용하더니 금방 붐볐어요.",
+      "explanation": "-더니 connects an observed earlier state to a later change. 금방 makes the change feel quick."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence about your own action result: '제가 많이 먹더니 졸렸어요.'",
+      "correct": "제가 많이 먹었더니 졸렸어요.",
+      "explanation": "For your own action leading to a result, use -았/었더니. Plain -더니 is better for something you observed in others or outside yourself."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "You saw a shop get crowded over time. Which sentence fits?",
+      "options": [
+        "처음에는 조용하더니 금방 사람이 많아졌어요.",
+        "제가 조용하더니 사람이 많아졌어요.",
+        "조용할 리가 없어요."
+      ],
+      "correct": "처음에는 조용하더니 금방 사람이 많아졌어요.",
+      "explanation": "-더니 fits the observed change from quiet to crowded. The other choices either misuse the subject or switch to a different grammar."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'These days it turned out to be crowded.'",
+      "correct": "요즘은 붐비더라고요.",
+      "explanation": "요즘은 sets the current period. -더라고요 makes it sound like something you noticed yourself."
     }
   ],
   "summaryCard": {

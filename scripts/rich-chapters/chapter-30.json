@@ -590,20 +590,55 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 버스를 놓치___ 수업에 늦었어요.",
-      "answer": "는 바람에",
-      "explanation": "놓치는 바람에 shows the missed bus caused an unwanted result."
+      "explanation": "놓치는 바람에 shows the missed bus caused an unwanted result.",
+      "correct": "는 바람에"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 비가 때문에 약속을 취소했어요.",
-      "answer": "비 때문에 약속을 취소했어요. / 비가 와서 약속을 취소했어요.",
-      "explanation": "Use N 때문에 with the noun alone, or make a full clause with -아서/어서."
+      "explanation": "Use N 때문에 with the noun alone, or make a full clause with -아서/어서.",
+      "correct": "비 때문에 약속을 취소했어요. / 비가 와서 약속을 취소했어요."
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 추운 바람에 못 갔어요.",
-      "answer": "추워서 못 갔어요. / 갑자기 추워지는 바람에 못 갔어요.",
-      "explanation": "Plain adjectives take -아서/어서. 바람에 works better with an event or change."
+      "explanation": "Plain adjectives take -아서/어서. 바람에 works better with an event or change.",
+      "correct": "추워서 못 갔어요. / 갑자기 추워지는 바람에 못 갔어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "비___ 약속을 취소했어요. (I canceled because of rain.)",
+      "options": [
+        "때문에",
+        "가 때문에",
+        "에서"
+      ],
+      "correct": "때문에",
+      "explanation": "N 때문에 follows the noun directly. 비가 때문에 adds an unnecessary subject marker before 때문에."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "길이 ___ 늦었어요. (막히다 → unexpected disruption)",
+      "base": "막히다",
+      "form": "disruptiveCause",
+      "correct": "막히는 바람에",
+      "explanation": "-는 바람에 frames the cause as an unexpected disruption. 막히다 becomes 막히는 바람에."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I was late because I missed the bus.'",
+      "tokens": [
+        "버스를 놓쳐서",
+        "늦었어요"
+      ],
+      "correct": "버스를 놓쳐서 늦었어요",
+      "explanation": "-아서/어서 gives a neutral reason-result connection. 놓치다 becomes 놓쳐서 before the result 늦었어요."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'I couldn't go because the bus broke down.'",
+      "correct": "버스가 고장나는 바람에 못 갔어요.",
+      "explanation": "고장나는 바람에 makes the broken bus feel like an unexpected cause. 못 갔어요 gives the disrupted result."
     }
   ],
   "summaryCard": {

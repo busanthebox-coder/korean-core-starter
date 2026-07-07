@@ -18,4 +18,7 @@
     padding: 6px 0; color: var(--ink-3); font-size: 11px; font-weight: 800; }
   .bottomnav a.active { color: var(--accent); }
   .ic { font-size: 22px; }
+  @media (min-width: 761px) {
+    .bottomnav { display: none; }
+  }
 </style>

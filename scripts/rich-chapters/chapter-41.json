@@ -828,6 +828,41 @@
       ],
       "correct": "이 단어를 아세요?",
       "explanation": "알다 keeps ㄹ in 알아요 but drops ㄹ before -세요: 아세요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "날씨___ 추워요. (The weather is cold.)",
+      "options": [
+        "가",
+        "를",
+        "에"
+      ],
+      "correct": "가",
+      "explanation": "춥다 describes the weather, so 날씨 takes 가. 를 would make weather an object, which does not fit an adjective sentence."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "오늘은 많이 ___ . (춥다 → polite present)",
+      "base": "춥다",
+      "form": "politePresent",
+      "correct": "추워요",
+      "explanation": "춥다 is a ㅂ irregular, so ㅂ changes to 워 before 어요. The natural spoken form is 추워요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I don't know well.'",
+      "tokens": [
+        "잘",
+        "몰라요"
+      ],
+      "correct": "잘 몰라요",
+      "explanation": "모르다 is a 르 irregular and becomes 몰라요. 잘 softens it to “I do not know well.”"
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "걷다 + 어요 = ___",
+      "correct": "걸어요",
+      "explanation": "걷다 is a ㄷ irregular, so ㄷ changes to ㄹ before 어요. 닫다 is a regular lookalike, but 걷다 becomes 걸어요."
     }
   ],
   "summaryCard": {

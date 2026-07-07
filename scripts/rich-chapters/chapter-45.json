@@ -666,6 +666,47 @@
       ],
       "correct": "안 가요 / 못 가요",
       "explanation": "안 often marks not doing or choosing not to; 못 marks inability or blocked action."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "시간___ 없어요. (I do not have time.)",
+      "options": [
+        "이",
+        "을",
+        "에"
+      ],
+      "correct": "이",
+      "explanation": "없어요 uses 이/가 for the thing that is absent. 시간 is not an object of an action here."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "오늘은 회의가 있어서 ___ . (가다 → cannot)",
+      "base": "가다",
+      "form": "cannot",
+      "correct": "못 가요",
+      "explanation": "못 marks that something blocks the action. A meeting is the blocker, so 못 가요 is more natural than 안 가요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I cannot eat meat because of an allergy.'",
+      "tokens": [
+        "알레르기 때문에",
+        "고기를 못 먹어요"
+      ],
+      "correct": "알레르기 때문에 고기를 못 먹어요",
+      "explanation": "때문에 gives the medical reason, and 못 marks inability. 고기 is what cannot be eaten, so 고기를 is the object."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say carefully: 'This work is not difficult.'",
+      "correct": "이 일은 어렵지 않아요.",
+      "explanation": "-지 않아요 is the longer, careful negative. It often sounds more measured than a short 안 negative."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '고기가 못 먹어요.'",
+      "correct": "고기를 못 먹어요.",
+      "explanation": "The meat is the thing you cannot eat, so it takes 를. 가 would make meat the subject, which changes the structure."
     }
   ],
   "summaryCard": {

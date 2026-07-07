@@ -590,20 +590,55 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 취업___ 위해서 한국어를 연습해요.",
-      "answer": "을",
-      "explanation": "취업 is a noun goal, so use 취업을 위해서."
+      "explanation": "취업 is a noun goal, so use 취업을 위해서.",
+      "correct": "을"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 공부하다 위해서 한국에 왔어요.",
-      "answer": "공부하기 위해서 한국에 왔어요.",
-      "explanation": "A verb must become the -기 form before 위해서."
+      "explanation": "A verb must become the -기 form before 위해서.",
+      "correct": "공부하기 위해서 한국에 왔어요."
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 방학에 동안 여행할 거예요.",
-      "answer": "방학 동안 여행할 거예요.",
-      "explanation": "Do not put 에 between the period noun and 동안."
+      "explanation": "Do not put 에 between the period noun and 동안.",
+      "correct": "방학 동안 여행할 거예요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "취업___ 위해서 한국어를 연습해요. (I practice Korean for employment.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "N을 위해서 marks the purpose or goal you are working for. 취업이 위해서 is not the purpose pattern."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "한국어를 ___ 한국에 왔어요. (배우다 → in order to)",
+      "base": "배우다",
+      "form": "purpose",
+      "correct": "배우기 위해서",
+      "explanation": "V-기 위해서 turns the verb into a deliberate purpose. 배우다 becomes 배우기 위해서."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I studied for three months.'",
+      "tokens": [
+        "세 달 동안",
+        "공부했어요"
+      ],
+      "correct": "세 달 동안 공부했어요",
+      "explanation": "N 동안 marks the time span. 세 달 동안 tells how long the studying continued."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'While I was preparing for the exam, I practiced every day.'",
+      "correct": "시험을 준비하는 동안 매일 연습했어요.",
+      "explanation": "V-는 동안 marks what continued during another action. 준비하다 becomes 준비하는 동안 before the main action."
     }
   ],
   "summaryCard": {

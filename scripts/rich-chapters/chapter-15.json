@@ -623,7 +623,8 @@
       "type": "translate",
       "prompt": "Translate: 'I pretended not to hear.'",
       "correct": "못 들은 척했어요.",
-      "hint": "듣다 is an action verb. But you are pretending you ALREADY didn't hear — this is a past action, so use the past action modifier -(으)ㄴ: 들은 척. Add 못 before it for 'pretended not to have heard.'"
+      "hint": "듣다 is an action verb. But you are pretending you ALREADY didn't hear — this is a past action, so use the past action modifier -(으)ㄴ: 들은 척. Add 못 before it for 'pretended not to have heard.'",
+      "explanation": "못 들은 척했어요 means you acted as if you did not hear. Use the past modifier 들은 before 척 because the pretended state is 'not having heard.'"
     },
     {
       "type": "multipleChoice",
@@ -646,6 +647,35 @@
       ],
       "correct": "아픈 척했어요.",
       "explanation": "아프다 is an adjective. Adjectives take -(으)ㄴ in modifier position: 아프 + 은 → 아픈. Option 1 (아프는 척) wrongly uses the action-verb pattern -는. Option 3 (아팠는 척) incorrectly attaches -는 to a past tense stem — neither 아팠는 nor 척하다 work that way. The correct and only natural form is 아픈 척했어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "친구___ 아픈가 봐요. (I guess my friend is sick.)",
+      "options": [
+        "가",
+        "를",
+        "에서"
+      ],
+      "correct": "가",
+      "explanation": "아프다 describes the friend, so 친구 takes the subject marker 가. 를 would make the friend an object, which does not fit an adjective sentence."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "지하철을 ___ . (놓치다 → almost happened)",
+      "base": "놓치다",
+      "form": "almost",
+      "correct": "놓칠 뻔했어요",
+      "explanation": "-(으)ㄹ 뻔했어요 means something almost happened but did not. 놓치다 becomes 놓칠 뻔했어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I pretended to be busy.'",
+      "tokens": [
+        "바쁜",
+        "척했어요"
+      ],
+      "correct": "바쁜 척했어요",
+      "explanation": "Adjectives take -(으)ㄴ before 척하다, so 바쁘다 becomes 바쁜 척했어요. This means you acted as if you were busy."
     }
   ],
   "summaryCard": {

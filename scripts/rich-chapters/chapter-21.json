@@ -583,26 +583,67 @@
     {
       "type": "fillBlank",
       "prompt": "Change 조용하다 + 카페 into a noun phrase.",
-      "answer": "조용한 카페",
-      "explanation": "하다 adjectives become 한 before a noun."
+      "explanation": "하다 adjectives become 한 before a noun.",
+      "correct": "조용한 카페"
     },
     {
       "type": "fillBlank",
       "prompt": "Change 읽다 + 책 into 'the book I am reading.'",
-      "answer": "읽는 책",
-      "explanation": "A present or habitual verb modifier uses 는."
+      "explanation": "A present or habitual verb modifier uses 는.",
+      "correct": "읽는 책"
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the phrase: 제가 읽어요 책",
-      "answer": "제가 읽는 책",
-      "explanation": "읽어요 is a sentence ending; 읽는 modifies 책."
+      "explanation": "읽어요 is a sentence ending; 읽는 modifies 책.",
+      "correct": "제가 읽는 책"
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the phrase: 가방 작은",
-      "answer": "작은 가방",
-      "explanation": "Adjective modifiers come before the noun."
+      "explanation": "Adjective modifiers come before the noun.",
+      "correct": "작은 가방"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "작은 가방___ 찾고 있어요. (I am looking for a small bag.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "찾다 is an action, and 작은 가방 is what you are looking for, so it takes 을. 이 would make the bag the subject instead."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "___ 가방을 찾고 있어요. (작다 → adjective modifier)",
+      "base": "작다",
+      "form": "adjectiveModifier",
+      "correct": "작은",
+      "explanation": "Adjectives describe nouns with -(으)ㄴ. 작다 becomes 작은 before 가방."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'the book I am reading'",
+      "tokens": [
+        "제가",
+        "읽는",
+        "책"
+      ],
+      "correct": "제가 읽는 책",
+      "explanation": "Present action modifiers use V-는 before the noun. 읽다 becomes 읽는 when it describes 책."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which phrase means “the bag I saw yesterday”?",
+      "options": [
+        "어제 본 가방",
+        "어제 보는 가방",
+        "가방 어제 봤어요"
+      ],
+      "correct": "어제 본 가방",
+      "explanation": "A completed action before a noun uses V-(으)ㄴ, so 보다 becomes 본. 가방 어제 봤어요 is a full sentence, not a noun phrase."
     }
   ],
   "summaryCard": {

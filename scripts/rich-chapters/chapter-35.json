@@ -689,6 +689,64 @@
       ],
       "correct": "사실은 자료가 아직 안 끝났는데요.",
       "explanation": "사실은 opens the topic and -는데요 leaves room for the next step."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "자료___ 아직 안 왔거든요. (The thing is, the materials have not arrived yet.)",
+      "options": [
+        "가",
+        "를",
+        "에"
+      ],
+      "correct": "가",
+      "explanation": "자료 is the subject of not arriving, so it takes 가. 거든요 adds new background the listener may not know."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "자료가 아직 안 ___ . (오다 → soft trailing background)",
+      "base": "오다",
+      "form": "softBackground",
+      "correct": "왔는데요",
+      "explanation": "-는데요 opens background and leaves room for the listener to respond. 오다 in past becomes 왔는데요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Actually, the materials are late, you see.'",
+      "tokens": [
+        "사실은",
+        "자료가 늦었거든요"
+      ],
+      "correct": "사실은 자료가 늦었거든요",
+      "explanation": "사실은 prepares the listener for sensitive background. -거든요 explains new information rather than reminding them of something shared."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'We do not have much time, you know.'",
+      "correct": "시간이 별로 없잖아요.",
+      "explanation": "-잖아요 reminds the listener of shared information. It fits when both people already know time is short."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence if the listener already knows: '시간이 별로 없거든요.'",
+      "correct": "시간이 별로 없잖아요.",
+      "explanation": "If the listener already knows the fact, 잖아요 is more natural. 거든요 presents it as new background."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "You need to bring up bad news softly. Which opener is best?",
+      "options": [
+        "사실은 문제가 좀 있는데요.",
+        "문제 있어요.",
+        "문제입니다."
+      ],
+      "correct": "사실은 문제가 좀 있는데요.",
+      "explanation": "사실은 and -는데요 soften the approach. The shorter alternatives can sound abrupt in a sensitive conversation."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'But I have one question.'",
+      "correct": "근데 질문이 하나 있어요.",
+      "explanation": "근데 shifts the conversation without sounding too formal. 질문이 하나 있어요 is a natural way to bring in one question."
     }
   ],
   "summaryCard": {

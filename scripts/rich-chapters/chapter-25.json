@@ -583,20 +583,61 @@
     {
       "type": "fillBlank",
       "prompt": "Say 'Even though it is raining, there are many people.'",
-      "answer": "비가 오는데도 사람이 많아요.",
-      "explanation": "-는데도 emphasizes the surprising result."
+      "explanation": "-는데도 emphasizes the surprising result.",
+      "correct": "비가 오는데도 사람이 많아요."
     },
     {
       "type": "fillBlank",
       "prompt": "Say 'It is difficult, but possible.'",
-      "answer": "어렵지만 가능해요.",
-      "explanation": "-지만 gives a clean contrast."
+      "explanation": "-지만 gives a clean contrast.",
+      "correct": "어렵지만 가능해요."
     },
     {
-      "type": "errorCorrection",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence: 비가 오아도 가요.",
-      "answer": "비가 와도 가요.",
-      "explanation": "오다 contracts to 와 before 도."
+      "explanation": "오다 contracts to 와 before 도.",
+      "correct": "비가 와도 가요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "비___ 와도 갈 거예요. (Even if it rains, I will go.)",
+      "options": [
+        "가",
+        "를",
+        "에서"
+      ],
+      "correct": "가",
+      "explanation": "비 is the subject of 오다, so it takes 가. 를 would make rain an object, which does not fit the weather verb 오다."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "비싸___ 맛있어요. (비싸다 → but)",
+      "base": "비싸다",
+      "form": "contrast",
+      "correct": "비싸지만",
+      "explanation": "-지만 attaches directly to the stem for a clean contrast. 비싸다 becomes 비싸지만."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'It is hard, but fun.'",
+      "tokens": [
+        "어렵지만",
+        "재미있어요"
+      ],
+      "correct": "어렵지만 재미있어요",
+      "explanation": "-지만 gives a simple but contrast. The sentence balances the negative point with the positive result."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'Even though I am tired, I keep studying.'",
+      "correct": "피곤한데도 계속 공부해요.",
+      "explanation": "-ㄴ데도 shows a surprising result despite the situation. 피곤한데도 keeps the contrast stronger than simple 피곤하지만."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '어렵지만 할 수 없어요.' (intended: difficult but possible)",
+      "correct": "어렵지만 할 수 있어요.",
+      "explanation": "The intended meaning is that it is possible, so use 할 수 있어요. 할 수 없어요 says the opposite: cannot do it."
     }
   ],
   "summaryCard": {

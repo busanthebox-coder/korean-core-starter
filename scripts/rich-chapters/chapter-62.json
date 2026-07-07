@@ -842,6 +842,56 @@
       ],
       "correct": "는 / 가",
       "explanation": "이 문제는 sets the frame; 이유가 is the important subject inside it."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "이 문제___ 이유___ 중요해요. (As for this problem, the reason is important.)",
+      "options": [
+        "는 / 가",
+        "가 / 는",
+        "를 / 이"
+      ],
+      "correct": "는 / 가",
+      "explanation": "The outer topic is 이 문제는, and the inner subject is 이유가. This topic-plus-subject structure is common in Korean."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'My friend called first.'",
+      "tokens": [
+        "친구가",
+        "먼저 전화했어요"
+      ],
+      "correct": "친구가 먼저 전화했어요",
+      "explanation": "When answering 누가 first acted, the focused subject takes 가. 먼저 tells who acted first."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Contrast messages and calls: 'I often send texts. I do not call much.'",
+      "correct": "문자는 자주 보내요. 전화는 잘 안 해요.",
+      "explanation": "은/는 marks contrast between texts and calls. The topic stays clear across the two sentences."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the focused answer to 누가 왔어요?: '친구는 왔어요.'",
+      "correct": "친구가 왔어요.",
+      "explanation": "A focused answer to 누가 uses 이/가. 친구는 would sound like contrast or topic continuation."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which sentence introduces the caller as new information?",
+      "options": [
+        "친구가 전화했어요.",
+        "친구는 전화했어요.",
+        "친구를 전화했어요."
+      ],
+      "correct": "친구가 전화했어요.",
+      "explanation": "New or focused subject information uses 이/가. 은/는 would frame or contrast the friend."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Say: 'A message came.'",
+      "correct": "메시지가 왔어요.",
+      "explanation": "The new thing that arrived takes 가. 메시지는 would sound like you are contrasting messages with something else."
     }
   ],
   "summaryCard": {

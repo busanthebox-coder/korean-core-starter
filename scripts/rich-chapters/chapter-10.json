@@ -592,7 +592,8 @@
       "type": "translate",
       "prompt": "Translate: 'From Monday to Friday there is class.'",
       "correct": "월요일부터 금요일까지 수업이 있어요.",
-      "hint": "Which particle marks the start of a range? Which marks the end? What pattern says 'there is'?"
+      "hint": "Which particle marks the start of a range? Which marks the end? What pattern says 'there is'?",
+      "explanation": "부터 and 까지 mark the start and end of a range. 수업이 있어요 states that class exists or is scheduled during that range."
     },
     {
       "type": "fillBlank",
@@ -616,6 +617,35 @@
       ],
       "correct": "부터 / 까지",
       "explanation": "This is a time range (opening hours), so you need the RULER pair: 부터 for the start (9시부터) and 까지 for the end (6시까지). 에 alone marks single moments, not ranges. 에서 is for physical locations where actions happen, not time expressions. Mixing 에서 or 에 with 까지 would be grammatically wrong here."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "9시___ 6시까지 일해요. (I work from 9 to 6.)",
+      "options": [
+        "부터",
+        "에서",
+        "에"
+      ],
+      "correct": "부터",
+      "explanation": "부터 marks the starting point of a time range. 까지 already marks the endpoint, so the natural pair is 9시부터 6시까지."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "천천히 ___ . (말하다 → please do)",
+      "base": "말하다",
+      "form": "pleaseDo",
+      "correct": "말해 주세요",
+      "explanation": "말하다 becomes 말해 주세요 in a polite request. 천천히 tells the other person to speak slowly."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'Please say it again.'",
+      "tokens": [
+        "다시",
+        "말해 주세요"
+      ],
+      "correct": "다시 말해 주세요",
+      "explanation": "다시 means again, and 말해 주세요 is the polite request. Together they form the repair phrase you use when you missed what someone said."
     }
   ],
   "summaryCard": {

@@ -571,7 +571,8 @@
       "type": "translate",
       "prompt": "Translate: 'My friend asked if I like Korean culture.'",
       "correct": "친구가 한국 문화를 좋아하냐고 물어봤어요.",
-      "hint": "좋아하다 is an action verb (not adjective). The question is reported, so which ending do you need? Which verb means 'asked' in Korean?"
+      "hint": "좋아하다 is an action verb (not adjective). The question is reported, so which ending do you need? Which verb means 'asked' in Korean?",
+      "explanation": "좋아하냐고 물어봤어요 reports the question someone asked. The quoted question is yes/no, so -냐고 is the right reported-question shape."
     },
     {
       "type": "fillBlank",
@@ -593,6 +594,36 @@
       ],
       "correct": "할아버지께서 지금 집에 계세요.",
       "explanation": "'할아버지가 있으세요' combines the wrong subject marker (가 instead of 께서) with the wrong presence verb (있으세요 instead of 계세요). '할아버지께서 있어요' uses 께서 correctly but forgets to honor grandpa's presence with 계시다. The fully correct form uses 께서 (honorific subject marker) and 계세요 (honorific form of 있다 for a person's presence) together."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "할머니___ 선물을 드렸어요. (I gave a present to my grandmother.)",
+      "options": [
+        "께",
+        "한테",
+        "를"
+      ],
+      "correct": "께",
+      "explanation": "께 is the respectful “to” particle for an elder or honored person. 한테 is casual, and 를 would mark 할머니 as the object instead of the recipient."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "친구가 한국 문화를 ___ . (좋아하다 → reported statement)",
+      "base": "좋아하다",
+      "form": "reportedStatement",
+      "correct": "좋아한다고 했어요",
+      "explanation": "Action verbs use -ㄴ/는다고 when you report what someone said. 좋아하다 becomes 좋아한다고 했어요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'My friend said she is going to school tomorrow.'",
+      "tokens": [
+        "친구가",
+        "내일 학교에 간다고",
+        "했어요"
+      ],
+      "correct": "친구가 내일 학교에 간다고 했어요",
+      "explanation": "The reported content ends in 간다고 before 했어요. 내일 학교에 가요 becomes 내일 학교에 간다고 했어요 when reported."
     }
   ],
   "summaryCard": {

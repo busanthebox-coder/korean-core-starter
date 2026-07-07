@@ -594,7 +594,8 @@
       "type": "translate",
       "prompt": "Translate: 'I eat at the restaurant.'",
       "correct": "식당에서 먹어요.",
-      "hint": "먹다 (to eat) is an action. The restaurant is the stage where eating happens. Which particle marks an action stage?"
+      "hint": "먹다 (to eat) is an action. The restaurant is the stage where eating happens. Which particle marks an action stage?",
+      "explanation": "Eating is an action happening at a place, so the place takes 에서. 에 would fit a destination or existence sentence, not this action sentence."
     },
     {
       "type": "multipleChoice",
@@ -616,6 +617,35 @@
       ],
       "correct": "에서",
       "explanation": "만나다 (to meet) is an action. The café is the stage where the meeting happens → 에서."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "카페___ 만나요. (We meet at a cafe.)",
+      "options": [
+        "에서",
+        "에",
+        "를"
+      ],
+      "correct": "에서",
+      "explanation": "Meeting is an action happening at the cafe, so use 에서. 에 would fit going to the cafe or being there, not doing the meeting action."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I go to school.'",
+      "tokens": [
+        "학교에",
+        "가요"
+      ],
+      "correct": "학교에 가요",
+      "explanation": "가요 is movement toward a destination, so the place takes 에. 에서 would wrongly make 학교 the action place."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "친구가 집에 ___ . (오다 → polite present)",
+      "base": "오다",
+      "form": "politePresent",
+      "correct": "와요",
+      "explanation": "오다 changes to 와요 in polite present. 집에 marks the place the friend comes to."
     }
   ],
   "summaryCard": {

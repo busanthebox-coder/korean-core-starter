@@ -1,88 +1,24 @@
 import { shuffle } from './quiz.js';
+import contrastItemsData from './contrastItems.json';
 
-export const contrastItems = [
-  {
-    id: 'topic-subject-01',
-    entryId: 'pattern-159',
-    contrast: '은/는 vs 이/가',
-    prompt: 'Pick the particle that sets 오늘 as the topic frame.',
-    sentence: '오늘__ 민수가 와요.',
-    answer: '은',
-    options: ['은', '이', '를'],
-    explanation: '오늘은 sets the frame for the sentence. 민수가 is the focused subject inside that frame.',
-  },
-  {
-    id: 'topic-subject-02',
-    entryId: 'pattern-159',
-    contrast: '은/는 vs 이/가',
-    prompt: 'Pick the particle for the new subject in the answer.',
-    sentence: '누가 왔어요? 민수__ 왔어요.',
-    answer: '가',
-    options: ['가', '는', '를'],
-    explanation: 'The question asks who came, so 민수가 gives the focused subject/new information.',
-  },
-  {
-    id: 'cause-01',
-    entryId: 'pattern-018',
-    contrast: '-아서/어서 vs -니까 vs -거든요',
-    prompt: 'Choose the smooth cause-result connector.',
-    sentence: '비가 와__ 택시를 탔어요.',
-    answer: '서',
-    options: ['서', '니까', '거든요'],
-    explanation: '-아서/어서 naturally connects a cause to a result inside one flow.',
-  },
-  {
-    id: 'cause-02',
-    entryId: 'pattern-087',
-    contrast: '-아서/어서 vs -니까',
-    prompt: 'Choose the ending that fits a reason before a request.',
-    sentence: '시간이 없으__ 빨리 와 주세요.',
-    answer: '니까',
-    options: ['니까', '서', '고'],
-    explanation: '-(으)니까 works well when the reason supports a request, suggestion, or command.',
-  },
-  {
-    id: 'cause-03',
-    entryId: 'pattern-022',
-    contrast: '-거든요 vs -아서/어서',
-    prompt: 'Choose the ending that gives the listener background information.',
-    sentence: '오늘 못 가요. 약속이 있__.',
-    answer: '거든요',
-    options: ['거든요', '어서요', '고요'],
-    explanation: '-거든요 gives an explanatory “you see / here is why” background reason.',
-  },
-  {
-    id: 'purpose-01',
-    entryId: 'pattern-048',
-    contrast: '-기 위해서 vs -(으)려고요',
-    prompt: 'Choose the formal purpose frame.',
-    sentence: '좋은 성적을 받__ 매일 공부해요.',
-    answer: '기 위해서',
-    options: ['기 위해서', '려고요', '고 나서'],
-    explanation: '-기 위해서 states purpose clearly and works in careful speech or writing.',
-  },
-  {
-    id: 'purpose-02',
-    entryId: 'pattern-026',
-    contrast: '-(으)려고요 vs -기 위해서',
-    prompt: 'Choose the conversational intention ending.',
-    sentence: '퇴근하고 운동하__.',
-    answer: '려고요',
-    options: ['려고요', '기 위해서', '면요'],
-    explanation: '-(으)려고요 sounds like “I’m planning to” in conversation.',
-  },
-  {
-    id: 'nominal-01',
-    entryId: 'pattern-154',
-    contrast: '-기 vs -는 것',
-    prompt: 'Choose the natural noun form for a general activity.',
-    sentence: '한국어 공부하__ 재미있어요.',
-    answer: '는 것',
-    options: ['는 것', '기', '려고'],
-    explanation: '-는 것 often packages an action as a concrete thing/experience: studying Korean is fun.',
-  },
-];
+export const contrastItems = contrastItemsData;
 
-export function buildContrastQuiz({ count = 8, rng = Math.random } = {}) {
-  return shuffle(contrastItems, rng).slice(0, Math.min(count, contrastItems.length));
+export const CONTRAST_LEVELS = ['A1', 'A2', 'B1', 'B2'];
+
+export const contrastLevelOptions = ['all', ...CONTRAST_LEVELS];
+
+export function contrastStats(items = contrastItems) {
+  return items.reduce((stats, item) => {
+    stats.total += 1;
+    stats.byLevel[item.level] = (stats.byLevel[item.level] || 0) + 1;
+    stats.byContrast[item.contrast] = (stats.byContrast[item.contrast] || 0) + 1;
+    return stats;
+  }, { total: 0, byLevel: {}, byContrast: {} });
+}
+
+export function buildContrastQuiz({ count = 8, rng = Math.random, level = 'all' } = {}) {
+  const candidates = level === 'all'
+    ? contrastItems
+    : contrastItems.filter((item) => item.level === level);
+  return shuffle(candidates, rng).slice(0, Math.min(count, candidates.length));
 }

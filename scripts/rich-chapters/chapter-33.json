@@ -524,20 +524,61 @@
     {
       "type": "fillBlank",
       "prompt": "Complete the formal statement: 저는 한국어를 공부___다.",
-      "answer": "합니",
-      "explanation": "공부하다 becomes 공부합니다."
+      "explanation": "공부하다 becomes 공부합니다.",
+      "correct": "합니"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the sentence for a teacher: 선생님, 질문 있어?",
-      "answer": "선생님, 질문 있어요? / 선생님, 질문해도 돼요?",
-      "explanation": "Use 존댓말 with a teacher."
+      "explanation": "Use 존댓말 with a teacher.",
+      "correct": "선생님, 질문 있어요? / 선생님, 질문해도 돼요?"
     },
     {
-      "type": "correction",
+      "type": "errorCorrect",
       "prompt": "Fix the over-formal classmate sentence: 발표를 종료하겠습니다.",
-      "answer": "발표 끝났어요.",
-      "explanation": "With a classmate after the formal setting, 해요체 sounds more natural."
+      "explanation": "With a classmate after the formal setting, 해요체 sounds more natural.",
+      "correct": "발표 끝났어요."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "선생님___ 질문이 있어요. (I have a question for the teacher.)",
+      "options": [
+        "께",
+        "한테",
+        "를"
+      ],
+      "correct": "께",
+      "explanation": "께 is the respectful recipient particle for a teacher. 한테 is casual and 를 would wrongly mark the teacher as an object."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "저는 한국어를 ___ . (공부하다 → formal polite)",
+      "base": "공부하다",
+      "form": "formalPresent",
+      "correct": "공부합니다",
+      "explanation": "Formal polite statements use -ㅂ니다/습니다. 하다 verbs become 합니다, so 공부하다 becomes 공부합니다."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build a formal sentence: 'I study Korean.'",
+      "tokens": [
+        "저는",
+        "한국어를",
+        "공부합니다"
+      ],
+      "correct": "저는 한국어를 공부합니다",
+      "explanation": "합니다체 is appropriate for presentations and interviews. 한국어를 stays as the object before the formal verb."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "After class, you speak casually with a close friend. Which ending fits best?",
+      "options": [
+        "수고했어.",
+        "수고하셨습니다.",
+        "수고하십니까?"
+      ],
+      "correct": "수고했어.",
+      "explanation": "With a close friend, 반말 can be natural. The other two are much more formal and would sound distant after class."
     }
   ],
   "summaryCard": {

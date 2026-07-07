@@ -80,7 +80,8 @@ function scramble(tokens, rng) {
 // Write: show the English, learner TYPES the Korean word. Graded by normalizeKo.
 export function buildWriteQuiz(pool, { count = 8, rng = Math.random } = {}) {
   if (!pool || !pool.length) return [];
-  return shuffle(pool, rng)
+  const shuffled = shuffle(pool, rng);
+  return shuffled
     .slice(0, Math.min(count, pool.length))
     .map((target) => ({
       entryId: target.id,
@@ -88,6 +89,10 @@ export function buildWriteQuiz(pool, { count = 8, rng = Math.random } = {}) {
       prompt: target.english,
       answer: target.hangul,
       answerRomanization: target.romanization,
+      fallbackDistractors: shuffled
+        .map((entry) => entry.hangul)
+        .filter((hangul) => hangul && hangul !== target.hangul)
+        .slice(0, 3),
       reason: target.shortExplanation || `${target.hangul} (${target.romanization}) = ${target.english}`,
     }));
 }

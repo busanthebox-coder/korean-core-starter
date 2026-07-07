@@ -725,8 +725,60 @@
     {
       "type": "fillBlank",
       "prompt": "Complete: 남은 건 ___ 주세요.",
-      "answer": "포장해",
-      "explanation": "포장해 주세요 asks the restaurant to pack leftovers to go."
+      "explanation": "포장해 주세요 asks the restaurant to pack leftovers to go.",
+      "correct": "포장해"
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "삼겹살 2인분___ 주세요. (Two servings of pork belly, please.)",
+      "options": [
+        "을",
+        "이",
+        "에"
+      ],
+      "correct": "을",
+      "explanation": "The ordered amount is the object of 주세요, so 을 is grammatical when the particle is shown. In restaurant speech, this particle is often dropped."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "고기를 좀 ___ . (굽다 → please do)",
+      "base": "굽다",
+      "form": "pleaseDo",
+      "correct": "구워 주세요",
+      "explanation": "굽다 is a ㅂ irregular in this form, becoming 구워. 구워 주세요 asks someone to grill it for you."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'When the meat is cooked, please cut it.'",
+      "tokens": [
+        "고기가 익으면",
+        "잘라 주세요"
+      ],
+      "correct": "고기가 익으면 잘라 주세요",
+      "explanation": "-으면 sets the condition. 익으면 means when it is cooked, and 잘라 주세요 is the request."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Order: 'One bowl of rice, please.'",
+      "correct": "공기밥 하나 주세요.",
+      "explanation": "공기밥 is ordered by item, and 하나 is the native number one. 주세요 makes it a polite restaurant order."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '고기를 익어요.'",
+      "correct": "고기가 익어요.",
+      "explanation": "익다 means the meat becomes cooked, so the meat is the subject and takes 가. If a person cooks it, use 굽다 or 익히다 instead."
+    },
+    {
+      "type": "multipleChoice",
+      "prompt": "Which counter fits Korean barbecue servings?",
+      "options": [
+        "인분",
+        "잔",
+        "권"
+      ],
+      "correct": "인분",
+      "explanation": "Restaurant servings use 인분. 잔 counts cups, and 권 counts books."
     }
   ],
   "summaryCard": {

@@ -75,4 +75,10 @@
 - ExerciseHost 개조(별개 시스템). 듣기 유형(오디오 후순위 — C1로 이관됨). 기존 문항 텍스트 "개선"(추가만).
 
 ## 완료 기록
-(실행자가 작성)
+✅ 2026-07-07 완료 — C2 단위만 완료. 전체 콘텐츠 트랙은 C3/C4/C6/C7이 아직 남아 있다.
+
+- 변경: `scripts/rich-chapters/chapter-01.json`~`chapter-65.json` inline exercises 확충, `scripts/validate-exercises.mjs` 추가, `scripts/build-app-data.mjs`에 검증 연결, `src/lib/inlineExercise.js`/테스트 추가, LessonPlayer/PracticeScreen/LessonScreen에서 신규 유형 렌더·채점 지원.
+- 결과: inline exercises 341→653. 전 챕터 10개 이상. 유형 합계: multipleChoice 225, fillBlank 149, errorCorrect 80, translate 18, particleChoice 64, conjugate 52, orderWords 65.
+- 검증: `node scripts/validate-exercises.mjs` 통과, `node scripts/build-app-data.mjs` 통과, `npm test` 통과(158 tests), `npm run build` 통과.
+- 화면 검수: `.omo/evidence/c2-exercise-expansion-visual-qa/`에 chapter-05 신규 유형 3종 정답 흐름, chapter-59/orderWords mobile, chapter-64/errorCorrect mobile CJK 줄바꿈 수정 후 캡처, chapter-65/orderWords desktop 캡처 보관.
+- 남긴 이슈: Vite build의 대형 chunk 경고는 데이터 번들 크기에서 오는 기존 계열 경고이며 C2 기능 실패는 아니다. 다음 콘텐츠 순서는 C3 체크포인트/나선형 복습이다.

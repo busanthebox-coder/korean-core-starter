@@ -446,7 +446,43 @@
       "type": "translate",
       "prompt": "Translate: 'If it rains, I am going to study at home.'",
       "correct": "비가 오면 집에서 공부할 거예요.",
-      "hint": "Use 오면 for 'if it rains' and 하다 → 할 거예요."
+      "hint": "Use 오면 for 'if it rains' and 하다 → 할 거예요.",
+      "explanation": "-면 sets the condition, 'if it rains.' 공부할 거예요 marks the plan or future action that follows from that condition."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "주말___ 친구를 만날 거예요. (I will meet a friend on the weekend.)",
+      "options": [
+        "에",
+        "에서",
+        "를"
+      ],
+      "correct": "에",
+      "explanation": "주말에 marks when the plan happens. 에서 would mark an action place, not the time of the plan."
+    },
+    {
+      "type": "conjugate",
+      "prompt": "저녁에 김밥을 ___ . (먹다 → future plan)",
+      "base": "먹다",
+      "form": "future",
+      "correct": "먹을 거예요",
+      "explanation": "Consonant-ending stems take -을 거예요 for future plans. 먹다 becomes 먹을 거예요."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I'm going to travel tomorrow.'",
+      "tokens": [
+        "내일",
+        "여행을 갈 거예요"
+      ],
+      "correct": "내일 여행을 갈 거예요",
+      "explanation": "내일 sets the future time. 여행을 가다 is the natural chunk for going on a trip, and 갈 거예요 marks the plan."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '내일 친구를 만나 거예요.'",
+      "correct": "내일 친구를 만날 거예요.",
+      "explanation": "Future plans use the modifier before 거예요. 만나다 becomes 만날 거예요, not 만나 거예요."
     }
   ],
   "summaryCard": {

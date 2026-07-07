@@ -521,7 +521,8 @@
       "type": "translate",
       "prompt": "Translate: 'Is there a bathroom here?'",
       "correct": "여기 화장실이 있어요?",
-      "hint": "화장실 ends in a consonant. Which particle follows a consonant-final noun? The question form of 있어요 uses rising intonation — the word order stays the same."
+      "hint": "화장실 ends in a consonant. Which particle follows a consonant-final noun? The question form of 있어요 uses rising intonation — the word order stays the same.",
+      "explanation": "있어요 asks whether something exists in the place you named. 여기 marks 'here,' so 여기 화장실이 있어요? asks if there is a bathroom here."
     },
     {
       "type": "multipleChoice",
@@ -555,6 +556,33 @@
       ],
       "correct": "예약이 있어요.",
       "explanation": "예약이 있어요 — reservation exists → lamp ON → correct. 예약이 없어요 is the opposite (no reservation found). 예약을 있어요 is ungrammatical — 있어요 can never take 을/를."
+    },
+    {
+      "type": "particleChoice",
+      "prompt": "예약___ 있어요? (Do you have a reservation?)",
+      "options": [
+        "이",
+        "을",
+        "는"
+      ],
+      "correct": "이",
+      "explanation": "있어요 uses 이/가 for the thing that exists or is possessed. 을 would wrongly mark 예약 as an object of an action verb."
+    },
+    {
+      "type": "orderWords",
+      "prompt": "Build: 'I do not have time.'",
+      "tokens": [
+        "시간이",
+        "없어요"
+      ],
+      "correct": "시간이 없어요",
+      "explanation": "The thing you do not have is marked with 이/가. 없어요 states non-existence or not having, so 시간이 없어요 is the natural chunk."
+    },
+    {
+      "type": "errorCorrect",
+      "prompt": "Fix the sentence: '돈을 있어요.'",
+      "correct": "돈이 있어요.",
+      "explanation": "있어요 is not an action done to money, so 돈 cannot take 을. The thing that exists or is possessed takes 이/가: 돈이 있어요."
     }
   ],
   "summaryCard": {
