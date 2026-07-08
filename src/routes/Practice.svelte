@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
-  import { entries, chapters, findEntry, levels } from '../lib/data.js';
+  import { entries, entriesVersion, chapters, findEntry, getEntryFull, levels } from '../lib/data.js';
+  import { ensureSection } from '../lib/dataLoader.js';
   import { buildQuiz, makeMatch, buildWriteQuiz, buildSentenceQuiz } from '../lib/quiz.js';
   import {
     CONJUGATION_FORM_KEYS,
@@ -16,9 +17,11 @@
   import ReviewSession from '../lib/components/ReviewSession.svelte';
   import EntryDetail from '../lib/components/EntryDetail.svelte';
   import Sheet from '../lib/components/Sheet.svelte';
-  import { reviews, dueIds, summarize } from '../lib/srs.js';
-  import { study, streak, todayCount, goalOf } from '../lib/progress.js';
+  import { reviews, dueIds, summarize, nextDueAt, relativeDueLabel } from '../lib/srs.js';
+  import { study, todayCount, goalOf } from '../lib/progress.js';
+  import { streak } from '../lib/streak.js';
   import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
+  import { recordMissedItems } from '../lib/mistakeReview.js';
   import { buildContrastQuiz, contrastLevelOptions, contrastStats } from '../lib/patternContrast.js';
   import { markLessonPracticed } from '../lib/stores.js';
   import { FOCUS_DECK, WEAK_DECK, parseFocusParam } from '../lib/studyLinks.js';
@@ -38,9 +41,28 @@
   let selected = null;
   let added = false;
   let focusIds = [];
+  let autoReview = false;
+  let practiceLoading = true;
+  let practiceDataPromise = null;
+
+  function loadPracticeData() {
+    if (!practiceDataPromise) {
+      practiceDataPromise = Promise.all([
+        ensureSection('words'),
+        ensureSection('expressions'),
+        ensureSection('extended'),
+      ]).finally(() => (practiceLoading = false));
+    }
+    return practiceDataPromise;
+  }
+
+  async function ensurePracticeReady() {
+    if (practiceLoading) await loadPracticeData();
+  }
 
   function syncDeckFromUrl() {
     const query = (window.location.hash.split('?')[1] || '').split('#')[0];
+    autoReview = new URLSearchParams(query).get('review') === '1';
     const focus = parseFocusParam(window.location.hash);
     if (focus.ids.length) {
       focusIds = focus.ids;
@@ -53,22 +75,29 @@
 
   onMount(() => {
     syncDeckFromUrl();
+    loadPracticeData();
     window.addEventListener('hashchange', syncDeckFromUrl);
     return () => window.removeEventListener('hashchange', syncDeckFromUrl);
   });
 
-  $: dueCards = dueIds($reviews).map(findEntry).filter(Boolean).slice(0, 40);
+  $: dataTick = $entriesVersion;
+  $: dueCards = (dataTick, dueIds($reviews).map(findEntry).filter(Boolean).slice(0, 40));
   $: weakIds = sortedMistakeIds($mistakes);
-  $: weakItems = weakIds.map(findEntry).filter(Boolean);
+  $: weakItems = (dataTick, weakIds.map(findEntry).filter(Boolean));
   $: deckSize = Object.keys($reviews).length;
   $: sum = summarize($reviews);
-  $: streakDays = streak($study);
+  $: streakDays = $streak.current || 0;
   $: todayN = todayCount($study);
   $: goal = goalOf($study);
-  function startReview() { sessionCards = dueCards.slice(); stage = 'review'; window.scrollTo(0, 0); }
+  $: nextDueLabel = relativeDueLabel(nextDueAt($reviews));
+  $: if (autoReview && !practiceLoading && stage === 'setup') {
+    autoReview = false;
+    if (dueCards.length) startReview();
+  }
+  async function startReview() { await ensurePracticeReady(); sessionCards = dueCards.slice(); stage = 'review'; window.scrollTo(0, 0); }
   function selectWeak() { deck = WEAK_DECK; kind = 'all'; window.scrollTo(0, 0); }
   function clearWeak() { mistakes.clearAll(); if (deck === WEAK_DECK) deck = 'all'; }
-  function addSet() { reviews.addMany(pool.map((e) => e.id)); added = true; setTimeout(() => (added = false), 1800); }
+  async function addSet() { await ensurePracticeReady(); reviews.addMany(pool.map((e) => e.id)); added = true; setTimeout(() => (added = false), 1800); }
   // ReviewSession passes {reviewed}; the back button passes a click event (no log).
   function reviewDone(e) { if (e && e.reviewed) study.log(e.reviewed); stage = 'setup'; window.scrollTo(0, 0); }
 
@@ -86,7 +115,7 @@
     const ids = new Set([...(ch.coreVocabularyIds || []), ...(ch.linkedEntryIds || []), ...(ch.patternIds || [])]);
     return [...ids].map(findEntry).filter(Boolean);
   }
-  $: base = deckItems(deck);
+  $: base = (dataTick, deckItems(deck));
   $: pool = kind === 'all' ? base : base.filter((e) => e.type === kind);
   $: deckLabel = deck === FOCUS_DECK
     ? 'focused items'
@@ -118,12 +147,13 @@
     ? Object.values(contrastCounts).reduce((sum, n) => sum + n, 0)
     : contrastCounts[contrastLevel] || 0;
 
-  function startQuiz() { questions = buildQuiz(pool, { count: 10 }); stage = 'quiz'; window.scrollTo(0, 0); }
-  function startWrite() { questions = buildWriteQuiz(pool, { count: 8 }); stage = 'quiz'; window.scrollTo(0, 0); }
-  function startBuild() { questions = buildSentenceQuiz(pool, { count: 6 }); stage = 'quiz'; window.scrollTo(0, 0); }
-  function startMatch() { matchData = makeMatch(pool, Math.random, 5); stage = 'match'; window.scrollTo(0, 0); }
+  async function startQuiz() { await ensurePracticeReady(); questions = buildQuiz(pool, { count: 10 }); stage = 'quiz'; window.scrollTo(0, 0); }
+  async function startWrite() { await ensurePracticeReady(); questions = buildWriteQuiz(pool, { count: 8 }); stage = 'quiz'; window.scrollTo(0, 0); }
+  async function startBuild() { await ensurePracticeReady(); questions = buildSentenceQuiz(pool, { count: 6 }); stage = 'quiz'; window.scrollTo(0, 0); }
+  async function startMatch() { await ensurePracticeReady(); matchData = makeMatch(pool, Math.random, 5); stage = 'match'; window.scrollTo(0, 0); }
   function startContrast() { contrastQuestions = buildContrastQuiz({ count: 8, level: contrastLevel }); stage = 'contrast'; window.scrollTo(0, 0); }
-  function startConjugation() {
+  async function startConjugation() {
+    await ensurePracticeReady();
     conjugationQuestions = buildConjugationQuiz(conjugationPool, {
       forms: conjugationForms,
       count: 10,
@@ -134,7 +164,8 @@
     window.scrollTo(0, 0);
   }
   $: canBuild = pool.some((e) => (e.examples || []).some((x) => x.ko && x.ko.trim().split(/\s+/).length >= 2));
-  function startWeakPractice() {
+  async function startWeakPractice() {
+    await ensurePracticeReady();
     const weakPool = weakItems.slice();
     if (!weakPool.length) { reset(); return; }
     deck = WEAK_DECK;
@@ -149,7 +180,7 @@
     result = r;
     if (r && r.total) study.log(r.total);
     if (r && r.total && isChapterDeck(deck)) markLessonPracticed(deck);
-    if (r?.wrongIds?.length) mistakes.record(r.wrongIds);
+    if (r?.wrongIds?.length) recordMissedItems(r.wrongIds);
     if (deck === WEAK_DECK && r?.correctIds?.length) {
       const stillWrong = new Set(r.wrongIds || []);
       mistakes.resolve(r.correctIds.filter((id) => !stillWrong.has(id)));
@@ -158,6 +189,10 @@
     window.scrollTo(0, 0);
   }
   function reset() { stage = 'setup'; result = null; window.scrollTo(0, 0); }
+  async function openEntry(entry) {
+    selected = entry;
+    selected = (await getEntryFull(entry.id)) || entry;
+  }
 </script>
 
 <section class="practice">
@@ -174,6 +209,8 @@
       {kindCounts}
       focusCount={focusIds.length}
       poolLength={pool.length}
+      {nextDueLabel}
+      loading={practiceLoading}
       learned={sum.learned}
       {streakDays}
       {todayN}
@@ -233,13 +270,13 @@
       onPracticeWeak={startWeakPractice}
       onReviewDue={startReview}
       onBackToLearn={() => push('/learn')}
-      onStudyItem={(item) => (selected = item)}
+      onStudyItem={openEntry}
     />
   {/if}
 </section>
 
 <Sheet open={!!selected} onClose={() => (selected = null)}>
-  {#if selected}<EntryDetail entry={selected} on:openEntry={(event) => (selected = event.detail)} />{/if}
+  {#if selected}<EntryDetail entry={selected} on:openEntry={(event) => openEntry(event.detail)} />{/if}
 </Sheet>
 
 <style>

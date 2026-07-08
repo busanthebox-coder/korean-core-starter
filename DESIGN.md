@@ -58,6 +58,13 @@ This file records the existing Hanmok UI rules so new C0 pack screens extend the
 - Root browser lives in Guide as a reference/practice surface, with search, level tabs, a selected-root panel, and a short unique-option quiz.
 - Hanja cards explain meaning families only; they do not teach stroke order or ask learners to write characters.
 
+## WS12 Learn IA Rules
+
+- Learn path is grouped by CEFR track accordions; only the current unfinished track opens by default.
+- User-opened track headers persist in `kcs.learn-open-v1`, while search results open matching groups automatically.
+- Group headers show a stamp-style level mark, chapter-only progress, and the existing curriculum track description.
+- Chapter, vocab pack, and checkpoint cards keep their existing card anatomy inside each group.
+
 ## Mobile
 
 - No horizontal overflow.

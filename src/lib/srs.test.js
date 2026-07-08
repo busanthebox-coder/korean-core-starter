@@ -1,8 +1,14 @@
-import { describe, it, expect } from 'vitest';
-import { addCard, gradeCard, dueIds, summarize, masteryOf } from './srs.js';
+import { beforeEach, describe, it, expect } from 'vitest';
+import { get } from 'svelte/store';
+import { addCard, dueCount, dueIds, gradeCard, masteryOf, nextDueAt, relativeDueLabel, reviews, summarize } from './srs.js';
 
 const DAY = 24 * 60 * 60 * 1000;
 const T0 = 1_000_000_000_000;
+
+beforeEach(() => {
+  localStorage.clear();
+  reviews.reset();
+});
 
 describe('srs', () => {
   it('adds a card due immediately', () => {
@@ -63,5 +69,24 @@ describe('srs', () => {
   it('masteryOf is 0% for an empty/unknown set', () => {
     expect(masteryOf({}, []).pct).toBe(0);
     expect(masteryOf({}, ['x']).mastered).toBe(0);
+  });
+
+  it('exposes a live dueCount store for navigation badges', () => {
+    reviews.addMany(['a', 'b']);
+
+    expect(get(dueCount)).toBe(2);
+
+    reviews.grade('a', 'good');
+    expect(get(dueCount)).toBe(1);
+  });
+
+  it('finds and labels the next scheduled review when nothing is due', () => {
+    const state = {
+      soon: { due: T0 + 90 * 60 * 1000 },
+      later: { due: T0 + DAY },
+    };
+
+    expect(nextDueAt(state, T0)).toBe(T0 + 90 * 60 * 1000);
+    expect(relativeDueLabel(T0 + 90 * 60 * 1000, T0)).toBe('in about 2 hours');
   });
 });

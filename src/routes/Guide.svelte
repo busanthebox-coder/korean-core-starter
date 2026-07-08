@@ -3,7 +3,10 @@
   import LessonPlayer from '../lib/components/LessonPlayer.svelte';
   import OrientationPlayer from '../lib/components/OrientationPlayer.svelte';
   import HanjaRootBrowser from '../lib/components/HanjaRootBrowser.svelte';
+  import BackupCard from '../lib/components/BackupCard.svelte';
+  import WritingArchive from '../lib/components/WritingArchive.svelte';
   import { reviews } from '../lib/srs.js';
+  import { writingsByChapter } from '../lib/writings.js';
   import { checkpointProgress, guideProgress, markOrientationDone, orientationDone, toggleGuideReady } from '../lib/stores.js';
   import { entryIdsForUnit, focusPracticePath } from '../lib/studyLinks.js';
   import { ORIENTATION_CARDS } from '../lib/onramp.js';
@@ -23,6 +26,12 @@
   function pickTrack(id) { trackId = id; }
   function openOrientationChapter(id) {
     push(`/learn?chapter=${encodeURIComponent(id)}`);
+  }
+  function openWritingChapter(chapter) {
+    if (chapter?.id) push(`/learn?chapter=${encodeURIComponent(chapter.id)}`);
+  }
+  function openPlacement() {
+    push('/learn?placement=1');
   }
   $: vocab = unit ? vocabOf(unit) : [];
   $: unitKey = unit ? unit.id || `${track.id}:${unit.title}` : '';
@@ -73,6 +82,11 @@
         <span>{completedCheckpoints}/{checkpoints.length} checkpoints tried</span>
       </div>
     </div>
+    <button class="placement-card" on:click={openPlacement}>
+      <span>Level check</span>
+      <strong>배치 테스트 다시 보기</strong>
+      <small>3분 안에 시작 챕터를 다시 추천받아요. 기존 완료 기록은 그대로 둡니다.</small>
+    </button>
     <nav class="tracks">
       {#each guideTracks as t}
         <button class:on={t.id === track.id} on:click={() => pickTrack(t.id)}>
@@ -89,6 +103,8 @@
       {/each}
     </div>
     <HanjaRootBrowser />
+    <WritingArchive archive={$writingsByChapter} {chapters} onOpenChapter={openWritingChapter} />
+    <BackupCard />
   </section>
 {:else if unit?.orientation}
   <OrientationPlayer
@@ -121,6 +137,13 @@
   .guide-stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
   .guide-stats span { padding: 5px 9px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border);
     color: var(--ink-2); font-size: 12px; font-weight: 800; }
+  .placement-card { display: grid; gap: 3px; text-align: left; padding: 15px 16px; border-radius: var(--radius);
+    background: linear-gradient(180deg, #fff 0%, #fffaf4 100%); border: 1px solid rgba(232,85,46,.28);
+    box-shadow: var(--shadow-1); transition: transform .1s var(--bounce), border-color .1s; }
+  .placement-card:hover { transform: translateY(-1px); border-color: var(--primary); }
+  .placement-card span { color: var(--accent-ink); font-size: 10px; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+  .placement-card strong { font-size: 17px; }
+  .placement-card small { color: var(--ink-2); font-size: 13px; line-height: 1.4; }
   .tracks { display: flex; flex-wrap: wrap; gap: 8px; }
   .tracks button { display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; font-size: 13px; }
   .tracks button.on { background: var(--primary); color: var(--primary-on); }

@@ -1,6 +1,6 @@
 // Spaced-repetition (Leitner-style) review state, persisted to localStorage.
 // Pure functions take state + now so they're testable; `reviews` is the live store.
-import { writable } from 'svelte/store';
+import { derived, readable, writable } from 'svelte/store';
 
 const KEY = 'ksrs-v1';
 const MIN = 60 * 1000;
@@ -33,6 +33,30 @@ export function dueIds(state, now = Date.now()) {
     .filter(([, c]) => c.due <= now)
     .sort((a, b) => a[1].due - b[1].due)
     .map(([id]) => id);
+}
+
+export function dueCountInState(state, now = Date.now()) {
+  return dueIds(state, now).length;
+}
+
+export function nextDueAt(state, now = Date.now()) {
+  const future = Object.values(state)
+    .map((card) => Number(card?.due || 0))
+    .filter((due) => due > now)
+    .sort((a, b) => a - b);
+  return future[0] || null;
+}
+
+export function relativeDueLabel(dueAt, now = Date.now()) {
+  if (!dueAt) return '';
+  const diff = Math.max(0, dueAt - now);
+  if (diff <= MIN) return 'now';
+  const mins = Math.round(diff / MIN);
+  if (mins < 60) return `in ${mins} min`;
+  const hours = Math.round(mins / 60);
+  if (hours < 48) return `in about ${hours} hour${hours === 1 ? '' : 's'}`;
+  const days = Math.round(hours / 24);
+  return `in about ${days} day${days === 1 ? '' : 's'}`;
 }
 
 export function summarize(state, now = Date.now()) {
@@ -80,3 +104,17 @@ function createReviews() {
 }
 
 export const reviews = createReviews();
+
+const minuteTick = readable(Date.now(), (set) => {
+  if (typeof window === 'undefined') return () => {};
+  const refresh = () => set(Date.now());
+  refresh();
+  const id = setInterval(refresh, MIN);
+  window.addEventListener('focus', refresh);
+  return () => {
+    clearInterval(id);
+    window.removeEventListener('focus', refresh);
+  };
+});
+
+export const dueCount = derived([reviews, minuteTick], ([$reviews, now]) => dueCountInState($reviews, now));

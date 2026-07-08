@@ -15,6 +15,7 @@
     '/practice': Practice,
     '/talk': Talk,
     '/chat': Conversation,
+    '/conversation': Conversation,
     '/dictionary': Dictionary,
     '/guide': Guide,
     '*': Learn,

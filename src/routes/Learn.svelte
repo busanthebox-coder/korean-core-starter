@@ -1,10 +1,12 @@
 <script>
   import { onMount } from 'svelte';
   import { push } from 'svelte-spa-router';
-  import { chapters, findEntry, findGrammar, findReader, readers } from '../lib/data.js';
+  import { chapters, entriesVersion, findEntry, findGrammar, findReader, readers } from '../lib/data.js';
+  import { ensureSection } from '../lib/dataLoader.js';
   import {
     lessonProgress,
     markOrientationDone,
+    onboarded,
     orientationDone,
     packProgress,
     readerProgress,
@@ -16,8 +18,10 @@
     toggleRomanization,
     markRomanNudgeSeen
   } from '../lib/stores.js';
+  import { shouldShowOnboarding } from '../lib/placement.js';
   import { reviews } from '../lib/srs.js';
   import { study } from '../lib/progress.js';
+  import { recordActivity } from '../lib/streak.js';
   import { focusPracticePath, chapterItemIds, packItemIds } from '../lib/studyLinks.js';
   import { ORIENTATION_CARDS } from '../lib/onramp.js';
   import LearnPathView from '../lib/components/LearnPathView.svelte';
@@ -27,6 +31,7 @@
   import CheckpointSession from '../lib/components/CheckpointSession.svelte';
   import OrientationPlayer from '../lib/components/OrientationPlayer.svelte';
   import ReadingRoom from '../lib/components/ReadingRoom.svelte';
+  import Onboarding from '../lib/components/Onboarding.svelte';
 
   export let params = {};
 
@@ -38,6 +43,8 @@
   let requestedReaderId = '';
   let packLessonScreens = [];
   let packCompletion = null;
+  let loadingLessonData = false;
+  let forcePlacement = false;
 
   const vocabOf = (item) =>
     [...new Set([...(item.coreVocabularyIds || []), ...(item.linkedEntryIds || [])])]
@@ -56,8 +63,22 @@
     reader = null;
     requestedReaderId = '';
   }
-  function openChapter(nextChapter) { clearSelection(); chapter = nextChapter; show('chapter'); }
-  function openPack(nextPack) { clearSelection(); pack = nextPack; show('pack'); }
+  async function openChapter(nextChapter) {
+    loadingLessonData = true;
+    await ensureSection('words');
+    clearSelection();
+    chapter = nextChapter;
+    loadingLessonData = false;
+    show('chapter');
+  }
+  async function openPack(nextPack) {
+    loadingLessonData = true;
+    await Promise.all([ensureSection('words'), ensureSection('expressions')]);
+    clearSelection();
+    pack = nextPack;
+    loadingLessonData = false;
+    show('pack');
+  }
   function openCheckpoint(nextCheckpoint) { clearSelection(); checkpoint = nextCheckpoint; show('checkpoint'); }
   function openReader(nextReader) { clearSelection(); reader = nextReader; requestedReaderId = nextReader?.id || ''; show('reader'); }
   function openOrientation() { clearSelection(); show('orientation'); }
@@ -72,6 +93,13 @@
     const [hashPath, rawQuery = ''] = window.location.hash.split('?');
     const query = rawQuery.split('#')[0];
     const search = new URLSearchParams(query);
+    if (search.get('placement') === '1') {
+      clearSelection();
+      forcePlacement = true;
+      show('path');
+      return;
+    }
+    forcePlacement = false;
     const requestedReader = search.get('reader');
     if (requestedReader) {
       clearSelection();
@@ -85,13 +113,29 @@
     if (target) openChapter(target);
     else if (hashPath === '#/learn') back();
   }
+  function closeOnboarding() {
+    forcePlacement = false;
+    const [, rawQuery = ''] = window.location.hash.split('?');
+    if (new URLSearchParams(rawQuery.split('#')[0]).get('placement') === '1') push('/learn');
+  }
+  function startOnboardingChapter(item) {
+    forcePlacement = false;
+    if (item) push(`/learn?chapter=${encodeURIComponent(item.id)}`);
+  }
   function resetCompleted() {
     if (confirm('Reset completed chapters?')) resetLessonProgress();
   }
   function practiceChapter(item) { push(`/practice?deck=${encodeURIComponent(item.id)}`); }
   function practicePack(item) { push(focusPracticePath(packItemIds(item))); }
+  function completeChapter(item) {
+    if (!$lessonProgress.has(item.id)) recordActivity();
+    toggleLessonDone(item.id);
+  }
   function completePack(item) {
-    if (!$packProgress.has(item.id)) reviews.addMany(packItemIds(item));
+    if (!$packProgress.has(item.id)) {
+      recordActivity();
+      reviews.addMany(packItemIds(item));
+    }
     togglePackDone(item.id);
   }
   function completeReader(result) {
@@ -109,10 +153,16 @@
     return () => window.removeEventListener('hashchange', syncFromUrl);
   });
 
-  $: vocab = chapter ? vocabOf(chapter) : [];
+  $: dataTick = $entriesVersion;
+  $: vocab = (dataTick, chapter ? vocabOf(chapter) : []);
   $: gram = chapter ? grammarOf(chapter) : [];
   $: chIndex = chapter ? chapters.findIndex((item) => item.id === chapter.id) : -1;
   $: nextCh = chIndex >= 0 && chIndex < chapters.length - 1 ? chapters[chIndex + 1] : null;
+  $: showOnboarding = view === 'path' && shouldShowOnboarding({
+    onboarded: $onboarded,
+    completedIds: $lessonProgress,
+    force: forcePlacement,
+  });
 
   const entryForPackItem = (item) => findEntry(item.entryId);
   function packWords(item) {
@@ -155,7 +205,7 @@
     return screens;
   }
 
-  $: packLessonScreens = pack ? buildPackScreens(pack) : [];
+  $: packLessonScreens = (dataTick, pack ? buildPackScreens(pack) : []);
   $: packCompletion = pack ? {
     goal: pack.goal,
     bullets: [
@@ -166,6 +216,10 @@
     teaser: 'Use these words inside the next chapters instead of memorizing them as a separate list.'
   } : null;
 </script>
+
+{#if showOnboarding}
+  <Onboarding {chapters} onClose={closeOnboarding} onStartChapter={startOnboardingChapter} />
+{/if}
 
 {#if view === 'path'}
   <LearnPathView
@@ -199,6 +253,8 @@
     onComplete={() => { markOrientationDone(); back(); }}
     onOpenChapter={openOrientationChapter}
   />
+{:else if loadingLessonData}
+  <section class="learn"><p class="loading">Loading lesson data...</p></section>
 {:else if view === 'chapter' && chapter}
   <LessonPlayer
     {chapter}
@@ -208,7 +264,7 @@
     nextChapter={nextCh}
     allChapters={chapters}
     onBack={back}
-    onComplete={() => toggleLessonDone(chapter.id)}
+    onComplete={() => completeChapter(chapter)}
     onPractice={() => practiceChapter(chapter)}
     onOpenChapter={openChapter}
   />
@@ -248,4 +304,5 @@
   .back { align-self: start; padding: 7px 14px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; }
   .back:hover { background: var(--border); }
   .sub-h1 { font-family: var(--serif-ko); font-size: 30px; font-weight: 600; }
+  .loading { margin: 0; color: var(--ink-3); font-size: 12px; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
 </style>

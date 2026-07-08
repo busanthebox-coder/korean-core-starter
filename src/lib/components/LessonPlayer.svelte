@@ -4,8 +4,11 @@
   import { entries, findEntry } from '../data.js';
   import { correctOf, exerciseAnswerMatches } from '../inlineExercise.js';
   import { maybeInsertSpiralReview, seededRng } from '../checkpoints.js';
-  import { mistakes } from '../mistakes.js';
+  import { recordMissedItems } from '../mistakeReview.js';
+  import { grammarSelfCheckItems } from '../lessonPlan.js';
   import { study } from '../progress.js';
+  import { recordActivity } from '../streak.js';
+  import { saveWriting, writingsByChapter } from '../writings.js';
   import {
     buildConjugationQuiz,
     getChapterConjugationForms,
@@ -111,7 +114,13 @@
       : (ch.exitTask && ch.exitTask.prompt
         ? { prompt: ch.exitTask.prompt, hint: '', model: (ch.exitTask.sampleAnswer || {}).ko, modelEn: (ch.exitTask.sampleAnswer || {}).en }
         : null);
-    if (writing) withReview.push({ phase: 'practice', kind: 'writing', data: writing });
+    if (writing) {
+      withReview.push({
+        phase: 'practice',
+        kind: 'writing',
+        data: { ...writing, checkItems: grammarSelfCheckItems(ch.grammarNotes || []) },
+      });
+    }
     return withReview;
   }
 
@@ -130,9 +139,10 @@
   let finished = false;
   let answers = {};
   let revealed = {};
+  let writingChecks = {};
 
   $: resetKey = (chapter && chapter.id) || kicker || (screens && screens.length);
-  $: if (resetKey) { void resetKey; i = 0; finished = false; answers = {}; revealed = {}; }
+  $: if (resetKey) { void resetKey; i = 0; finished = false; answers = {}; revealed = {}; writingChecks = {}; }
 
   $: screenList = screens || (chapter ? buildChapterScreens(chapter) : []);
   $: cur = screenList[i] || null;
@@ -144,13 +154,17 @@
   $: curGroup = groups.find((g) => g.p === curPhase);
   $: posInPhase = curGroup ? curGroup.idxs.indexOf(i) + 1 : 0;
   $: phaseLabel = curPhase ? PHASE[curPhase] : null;
-  $: nextLocked = ['match', 'conjugation'].includes(cur?.kind) && !revealed[i];
-  $: lockLabel = cur?.kind === 'conjugation' ? 'Finish drill first' : 'Match all first';
+  $: currentWritingState = (writingChecks, writingState(i));
+  $: writingLocked = (writingChecks, cur?.kind === 'writing' && !writingPassed(cur, i));
+  $: nextLocked = (['match', 'conjugation'].includes(cur?.kind) && !revealed[i]) || writingLocked;
+  $: lockLabel = cur?.kind === 'writing' ? 'Check or skip first' : (cur?.kind === 'conjugation' ? 'Finish drill first' : 'Match all first');
+  $: nextActionLabel = i === screenList.length - 1 ? 'Finish' : '다음 · Next';
 
   $: eyebrow = kicker || (chapter ? `Chapter ${chapter.number} · ${chapter.title}` : '');
   $: doneGoal = (completion && completion.goal) || (chapter && chapter.goal) || '';
   $: doneBullets = (completion && completion.bullets) || (chapter && chapter.summaryCard && chapter.summaryCard.bullets) || [];
   $: doneTeaser = (completion && completion.teaser) || (chapter && chapter.summaryCard && chapter.summaryCard.nextChapterTeaser) || '';
+  $: chapterWritingEntries = chapter?.id ? ($writingsByChapter[chapter.id] || []) : [];
   // Can-do checklist: prefer hand-authored chapter.canDo, else reuse the chapter's
   // exitTask "I can…" checklist items (every chapter has one) so all lessons close on a self-check.
   $: canDoList = (chapter && chapter.canDo && chapter.canDo.length)
@@ -158,6 +172,7 @@
     : ((chapter && chapter.exitTask && chapter.exitTask.checklist) || []).filter((x) => /^I can\b/i.test(x));
 
   function next() {
+    persistCurrentWriting();
     if (i < screenList.length - 1) { i += 1; scrollTop(); }
     else { finished = true; scrollTop(); }
   }
@@ -170,6 +185,42 @@
   function pick(opt) { if (revealed[i]) return; answers = { ...answers, [i]: opt }; }
   function check() { if (answers[i] == null || answers[i] === '') return; revealed = { ...revealed, [i]: true }; }
   function setAnswer(value) { answers = { ...answers, [i]: value }; }
+  function writingState(index = i) {
+    return writingChecks[index] || { checkedIds: [], skipped: false };
+  }
+  function writingItemIds(screen = cur) {
+    return (screen?.data?.checkItems || []).map((item) => item.id);
+  }
+  function writingPassed(screen = cur, index = i) {
+    const ids = writingItemIds(screen);
+    if (!ids.length) return true;
+    const state = writingState(index);
+    return state.skipped || ids.every((id) => state.checkedIds.includes(id));
+  }
+  function setWritingCheck(id, checked) {
+    const state = writingState();
+    const checkedIds = new Set(state.checkedIds);
+    if (checked) checkedIds.add(id);
+    else checkedIds.delete(id);
+    writingChecks = {
+      ...writingChecks,
+      [i]: { checkedIds: [...checkedIds], skipped: false },
+    };
+  }
+  function skipWritingCheck() {
+    const state = writingState();
+    writingChecks = {
+      ...writingChecks,
+      [i]: { ...state, skipped: true },
+    };
+  }
+  function persistCurrentWriting() {
+    if (cur?.kind !== 'writing') return;
+    const ids = writingItemIds(cur);
+    const state = writingState();
+    const checked = ids.length ? (!state.skipped && ids.every((id) => state.checkedIds.includes(id))) : true;
+    if (saveWriting(chapter?.id, answers[i] || '', checked)) recordActivity();
+  }
   function finishMatch(result) {
     revealed = { ...revealed, [i]: true };
     if (cur?.data?.onDone) cur.data.onDone(result);
@@ -177,7 +228,7 @@
   function finishConjugation(result) {
     revealed = { ...revealed, [i]: true };
     if (result?.total) study.log(result.total);
-    if (result?.wrongIds?.length) mistakes.record(result.wrongIds);
+    if (result?.wrongIds?.length) recordMissedItems(result.wrongIds);
     if (cur?.data?.onDone) cur.data.onDone(result);
   }
   function exCorrect() {
@@ -211,6 +262,7 @@
       {doneTeaser}
       {done}
       {nextChapter}
+      writingEntries={chapterWritingEntries}
       {onPractice}
       {onComplete}
       {onOpenChapter}
@@ -229,6 +281,9 @@
       onInput={setAnswer}
       onMatchDone={finishMatch}
       onConjugationDone={finishConjugation}
+      writingState={currentWritingState}
+      onWritingCheck={setWritingCheck}
+      onWritingSkip={skipWritingCheck}
     />
   {/if}
 
@@ -236,7 +291,9 @@
     <div class="lp-nav">
       <button class="ghost" type="button" disabled={i === 0} on:click={prev}><i class="ti ti-arrow-left"></i> Prev</button>
       <button class="btn3d" type="button" disabled={nextLocked} on:click={next}>
-        {nextLocked ? lockLabel : i === screenList.length - 1 ? 'Finish' : '다음 · Next'} <i class="ti ti-arrow-right"></i>
+        <span>{nextActionLabel}</span>
+        {#if nextLocked}<small>{lockLabel}</small>{/if}
+        <i class="ti ti-arrow-right"></i>
       </button>
     </div>
   {/if}
@@ -267,5 +324,7 @@
   .ghost { padding: 12px 18px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; display: inline-flex; align-items: center; gap: 6px; }
   .ghost:hover { background: var(--border); }
   .ghost:disabled { opacity: .4; pointer-events: none; }
+  .btn3d { display: inline-flex; align-items: center; gap: 6px; }
+  .btn3d small { font-size: 11px; font-weight: 800; opacity: .75; }
   .btn3d:disabled { opacity: .52; filter: grayscale(.15); box-shadow: none; pointer-events: none; }
 </style>

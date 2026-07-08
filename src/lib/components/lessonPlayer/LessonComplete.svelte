@@ -5,9 +5,16 @@
   export let doneTeaser = '';
   export let done = false;
   export let nextChapter = null;
+  export let writingEntries = [];
   export let onPractice = () => {};
   export let onComplete = () => {};
   export let onOpenChapter = () => {};
+
+  function formatDate(date) {
+    return new Date(date).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' });
+  }
+
+  $: latestWriting = [...writingEntries].sort((a, b) => b.date - a.date);
 </script>
 
 <div class="lp-done">
@@ -22,6 +29,20 @@
     </div>
   {/if}
   {#if doneTeaser}<div class="teaser">▶ {doneTeaser}</div>{/if}
+  {#if latestWriting.length}
+    <details class="writing-done">
+      <summary>이 챕터에서 쓴 글 {latestWriting.length}개</summary>
+      <div class="writing-list">
+        {#each latestWriting as item}
+          <article>
+            <time datetime={new Date(item.date).toISOString()}>{formatDate(item.date)}</time>
+            <p>{item.text}</p>
+            <span>{item.checked ? '점검 완료' : '점검 건너뜀'}</span>
+          </article>
+        {/each}
+      </div>
+    </details>
+  {/if}
   <div class="done-actions">
     <button class="btn3d" type="button" on:click={onPractice}>Practice this</button>
     <button class="ghost" type="button" aria-pressed={done} on:click={onComplete}>{done ? '✓ Marked done' : 'Mark complete'}</button>
@@ -48,6 +69,14 @@
   .cando li { display: grid; grid-template-columns: auto 1fr; gap: 8px; font-size: 13px; line-height: 1.5; color: var(--ink); }
   .cando li :global(i) { color: var(--green); margin-top: 2px; }
   .teaser { font-size: 13px; color: var(--ink-3); }
+  .writing-done { width: 100%; text-align: left; border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface-2); }
+  .writing-done summary { cursor: pointer; list-style: none; padding: 11px 13px; font-size: 13px; font-weight: 850; color: var(--ink); }
+  .writing-done summary::-webkit-details-marker { display: none; }
+  .writing-list { display: grid; gap: 8px; padding: 0 12px 12px; }
+  .writing-list article { display: grid; gap: 4px; padding: 10px; border-radius: 12px; background: var(--surface); border: 1px solid rgba(140,123,104,.18); }
+  .writing-list time { font-size: 11px; font-weight: 850; color: var(--accent-ink); }
+  .writing-list p { margin: 0; color: var(--ink); font-size: 13px; line-height: 1.5; white-space: pre-wrap; }
+  .writing-list span { justify-self: start; font-size: 11px; font-weight: 850; color: var(--ink-3); }
   .done-actions { display: grid; gap: 10px; margin-top: 10px; width: 100%; max-width: 320px; }
   .ghost { padding: 12px 18px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
   .ghost:hover { background: var(--border); }

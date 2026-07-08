@@ -53,4 +53,18 @@
 - 모범답안과 유사도 점수(오해 유발).
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-08 Codex(GPT-5.5)
+
+- 변경 파일:
+  - `src/lib/lessonPlan.js`, `src/lib/lessonPlan.test.js` — `grammarFormLabel`, `grammarSelfCheckItems` 추가. em dash 앞 형태 추출, 영어 gloss 제거, 한국어 괄호 우선 추출.
+  - `src/lib/writings.js`, `src/lib/writings.test.js` — `kcs.writings-v1` 저장소, 빈 글 제외, 2,000자 제한, 챕터별 최신 10개, 백업 병합 helper.
+  - `src/lib/components/LessonPlayer.svelte`, `src/lib/components/lessonPlayer/LessonScreen.svelte`, `src/lib/components/lessonPlayer/PracticeScreen.svelte`, `src/lib/components/LessonPlayer.test.js` — 쓰기 체크리스트, Skip self-check, Finish 잠금, 저장 시 `recordActivity()` 연결.
+  - `src/lib/components/lessonPlayer/LessonComplete.svelte`, `src/lib/components/WritingArchive.svelte`, `src/lib/components/WritingArchive.test.js`, `src/routes/Guide.svelte` — 완료 화면 챕터별 글 목록, Guide 전체 글 아카이브, 챕터 다시 쓰기 버튼.
+  - `src/lib/backup.js`, `src/lib/backup.test.js`, `docs/superpowers/specs/v2-upgrade/00-README.md`, `docs/superpowers/specs/v2-upgrade/ws3-progress-backup.md` — `kcs.writings-v1` 백업 대상/병합 규칙과 키 표 반영.
+- 테스트/검증:
+  - `npx vitest run src/lib/lessonPlan.test.js src/lib/writings.test.js src/lib/components/LessonPlayer.test.js src/lib/components/WritingArchive.test.js src/lib/backup.test.js` — 5 files / 23 tests passed.
+  - `npm run preflight` — 51 files / 253 tests passed, build passed, boot data gzip 1,099,441 bytes PASS, content lint PASS.
+  - Playwright manual QA: `chapter-19`에서 Write it까지 이동, 체크 전 Finish disabled, 체크 후 enabled, 완료 화면 "이 챕터에서 쓴 글 1개", Guide "내가 쓴 글" 저장 확인, "이 챕터 다시 쓰기"가 `#/learn?chapter=chapter-19`로 이동 확인.
+  - 캡처: `.omo/evidence/ws6-writing-self-check/{desktop-writing-checked.png,desktop-complete-archive-open.png,desktop-guide-archive.png,mobile-writing-checklist.png}`. 1280px/375px 모두 horizontal overflow 0, console error 0.
+- 남긴 이슈:
+  - LLM/API 채점, 문법 자동 검출, 모범답안 유사도 점수는 스펙상 범위 밖이라 추가하지 않음.

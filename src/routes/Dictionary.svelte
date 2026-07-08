@@ -1,5 +1,7 @@
 <script>
-  import { entries, levels, chapters } from '../lib/data.js';
+  import { onMount } from 'svelte';
+  import { entries, entriesVersion, getEntryFull, levels, chapters } from '../lib/data.js';
+  import { ensureSection } from '../lib/dataLoader.js';
   import { filters } from '../lib/stores.js';
   import { filterEntries, facetValues } from '../lib/search.js';
   import EntryCard from '../lib/components/EntryCard.svelte';
@@ -11,15 +13,23 @@
   import { push } from 'svelte-spa-router';
 
   const TYPES = [['word', 'Words'], ['expression', 'Expressions'], ['pattern', 'Patterns']];
-  const LEVELS = levels;
-  const POS = facetValues(entries, (e) => e.partOfSpeech).map((f) => f.value);
-  const TOPICS = facetValues(entries, (e) => e.topic).slice(0, 10).map((f) => f.value);
-
   let selected = null;
+  let selectedLoading = false;
+  let dictionaryLoading = false;
 
+  $: dataTick = $entriesVersion;
+  $: LEVELS = levels;
+  $: POS = (dataTick, facetValues(entries, (e) => e.partOfSpeech).map((f) => f.value));
+  $: TOPICS = (dataTick, facetValues(entries, (e) => e.topic).slice(0, 10).map((f) => f.value));
   $: results = filterEntries(entries, $filters);
   $: selectedChapter = selected ? chapterForEntry(chapters, selected.id) : null;
   $: extraActive = $filters.level.size + $filters.pos.size + $filters.topic.size;
+
+  onMount(() => {
+    dictionaryLoading = true;
+    Promise.all([ensureSection('expressions'), ensureSection('extended')])
+      .finally(() => (dictionaryLoading = false));
+  });
 
   function toggle(facet, value) {
     filters.update((f) => {
@@ -29,6 +39,14 @@
     });
   }
   const isOn = (f, facet, value) => f[facet] && f[facet].has(value);
+
+  async function openEntry(entry) {
+    selected = entry;
+    selectedLoading = !entry?._full;
+    const full = await getEntryFull(entry.id);
+    if (selected?.id === entry.id) selected = full || entry;
+    selectedLoading = false;
+  }
 </script>
 
 <section class="dict">
@@ -53,11 +71,11 @@
     </details>
   </div>
 
-  <p class="count">{results.length} result{results.length === 1 ? '' : 's'}</p>
+  <p class="count">{results.length} result{results.length === 1 ? '' : 's'}{#if dictionaryLoading} · loading deep entries{/if}</p>
 
   {#if results.length}
     <div class="grid">
-      {#each results as e (e.id)}<EntryCard entry={e} onOpen={(x) => (selected = x)} />{/each}
+      {#each results as e (e.id)}<EntryCard entry={e} onOpen={openEntry} />{/each}
     </div>
   {:else}
     <p class="empty">No matches. Try a different word or clear filters.</p>
@@ -66,15 +84,19 @@
 
 <Sheet open={!!selected} onClose={() => (selected = null)}>
   {#if selected}
-    <EntryLearningHub
-      entry={selected}
-      chapter={selectedChapter}
-      inDeck={!!$reviews[selected.id]}
-      onAddReview={() => reviews.add(selected.id)}
-      onPractice={() => push(focusPracticePath([selected.id]))}
-      onOpenChapter={() => push(learnChapterPath(selectedChapter?.id))}
-    />
-    <EntryDetail entry={selected} on:openEntry={(event) => (selected = event.detail)} />
+    {#if selectedLoading}
+      <p class="detail-loading">Loading entry details...</p>
+    {:else}
+      <EntryLearningHub
+        entry={selected}
+        chapter={selectedChapter}
+        inDeck={!!$reviews[selected.id]}
+        onAddReview={() => reviews.add(selected.id)}
+        onPractice={() => push(focusPracticePath([selected.id]))}
+        onOpenChapter={() => push(learnChapterPath(selectedChapter?.id))}
+      />
+      <EntryDetail entry={selected} on:openEntry={(event) => openEntry(event.detail)} />
+    {/if}
   {/if}
 </Sheet>
 
@@ -107,6 +129,7 @@
   .chip.t-expression.on { background: var(--type-expression); border-color: var(--type-expression); }
   .chip.t-pattern.on { background: var(--type-pattern); border-color: var(--type-pattern); }
   .count { color: var(--ink-3); font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin: 10px 0 16px; }
+  .detail-loading { margin: 0; padding: 28px 0; color: var(--ink-3); font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); column-gap: 30px; row-gap: 0;
     border-bottom: 1px solid var(--border); }
   .empty { color: var(--ink-3); padding: 30px 0; text-align: center; }

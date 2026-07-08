@@ -13,6 +13,8 @@
   export let focusCount = 0;
   export let focusLabel = 'Focused items';
   export let poolLength = 0;
+  export let nextDueLabel = '';
+  export let loading = false;
   export let learned = 0;
   export let streakDays = 0;
   export let todayN = 0;
@@ -53,7 +55,7 @@
   // One clear recommendation: clear your due reviews first, otherwise a quick quiz.
   $: rec = dueCards.length
     ? { kind: 'review', label: `Review ${dueCards.length} due`, sub: 'Spaced reviews bring each word back right before you would forget it.', cta: `Review ${dueCards.length}`, run: onStartReview, on: true }
-    : { kind: 'quiz', label: 'Quick quiz', sub: deckSize ? 'All caught up on reviews — keep them sharp with a 10-question quiz.' : 'Start with a 10-question quiz, then build your review deck below.', cta: 'Start quiz', run: onStartQuiz, on: canRecognize };
+    : { kind: 'quiz', label: 'Quick quiz', sub: deckSize ? `All caught up on reviews${nextDueLabel ? ` — next review ${nextDueLabel}.` : ' — keep them sharp with a 10-question quiz.'}` : 'Start with a 10-question quiz, then build your review deck below.', cta: 'Start quiz', run: onStartQuiz, on: canRecognize };
 </script>
 
 <header class="masthead">
@@ -75,7 +77,7 @@
   <div class="rec-text">
     <span class="rec-label">Do this now</span>
     <strong>{rec.label}</strong>
-    <span class="rec-sub">{rec.sub}</span>
+    <span class="rec-sub">{loading ? 'Preparing the full practice data in the background.' : rec.sub}</span>
   </div>
   <button class="btn3d rec-go" type="button" disabled={!rec.on} on:click={rec.run}>
     {rec.cta} <i class="ti ti-arrow-right" aria-hidden="true"></i>

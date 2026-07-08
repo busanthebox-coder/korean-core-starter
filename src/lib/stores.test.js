@@ -4,6 +4,7 @@ import {
   romanizationVisible,
   toggleRomanization,
   imeFallbackEnabled,
+  learnOpenGroups,
   checkpointProgress,
   lessonActivity,
   lessonProgress,
@@ -25,6 +26,8 @@ import {
   recordReaderResult,
   recordCheckpointResult,
   setImeFallback,
+  resetLearnOpenGroups,
+  toggleLearnOpenGroup,
   toggleGuideReady,
   toggleImeFallback,
   toggleLessonDone,
@@ -37,6 +40,7 @@ beforeEach(() => {
   resetCheckpointProgress();
   resetLessonProgress();
   resetReaderProgress();
+  resetLearnOpenGroups();
   resetOrientationDone();
   resetRomanNudgeSeen();
   setImeFallback(false);
@@ -91,6 +95,15 @@ describe('stores', () => {
     expect(get(guideProgress).has('unit-a')).toBe(true);
     toggleGuideReady('unit-a');
     expect(get(guideProgress).has('unit-a')).toBe(false);
+  });
+
+  it('tracks opened Learn accordion groups', () => {
+    toggleLearnOpenGroup('B1');
+    expect(get(learnOpenGroups).has('B1')).toBe(true);
+    expect(JSON.parse(localStorage.getItem('kcs.learn-open-v1'))).toEqual(['B1']);
+
+    toggleLearnOpenGroup('B1');
+    expect(get(learnOpenGroups).has('B1')).toBe(false);
   });
 
   it('records checkpoint best, last, and weak chapters', () => {

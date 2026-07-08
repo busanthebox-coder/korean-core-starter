@@ -42,4 +42,10 @@ korean/data 산출물 대상 기계 검증(전부 이번 세션 감사에서 실
 - 자동 배포·자동 커밋. 커버리지 리포트 등 과설계. main 브랜치 보호 규칙(사용자 결정 사안 — 제안만).
 
 ## 완료 기록
-(실행자가 작성)
+
+✅ done 2026-07-08 — Codex hybrid pass.
+
+- CI: `.github/workflows/ci.yml` 추가. `push`/`pull_request`에서 `test-build` 잡은 `npm ci → npx vitest run → npm run build`, `content-lint` 잡은 `npm ci → npm run lint:content`만 실행한다. 배포 스텝은 없음.
+- 콘텐츠 게이트: `scripts/lint-content.mjs` 추가. generated `app-data.json` 기준 예문 `ko`/`romanization`/`en`, entry level, 중복 id, chapter/vocab pack/guide linked id를 검사하고, inline exercises는 기존 `validate-exercises.mjs`, 카운트/동기화는 기존 `verify-data-integrity.mjs`, A1 커버리지는 기존 `level-audit/audit-a1.mjs`로 위임한다.
+- 로컬 실행: `package.json`에 `lint:content`, `preflight` 추가. `preflight`는 `npm run test && npm run build && npm run lint:content`.
+- 검증: `scripts/lint-content.test.js` 3개 테스트 추가. 예문 romanization 결측과 인위 주입한 inline exercise 정답 누락(`correct`가 `options`에 없음)을 실패로 잡는 것을 증명. `npm run preflight` 통과(36 files / 199 tests, build 통과, `lint:content` PASS). 빌드의 대형 data chunk warning은 기존 WS1 대상 이슈로 유지.

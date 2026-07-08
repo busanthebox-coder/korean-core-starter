@@ -44,6 +44,27 @@ function writeStoredBool(key, value) {
   }
 }
 
+function readStoredString(key, fallback = '') {
+  if (typeof localStorage === 'undefined') return fallback;
+  try {
+    return localStorage.getItem(key) ?? fallback;
+  } catch (error) {
+    if (isRecoverableStorageError(error)) return fallback;
+    throw error;
+  }
+}
+
+function writeStoredString(key, value) {
+  if (typeof localStorage === 'undefined') return;
+  try {
+    const next = String(value || '');
+    if (next) localStorage.setItem(key, next);
+    else localStorage.removeItem(key);
+  } catch (error) {
+    if (!isRecoverableStorageError(error)) throw error;
+  }
+}
+
 function persistedSet(key) {
   const initial = readStoredJson(key, []);
   const store = writable(new Set(initial));
@@ -65,6 +86,13 @@ function persistedObject(key, fallback = {}) {
   return store;
 }
 
+function persistedString(key, fallback = '') {
+  const initial = readStoredString(key, fallback);
+  const store = writable(initial);
+  store.subscribe((value) => writeStoredString(key, value));
+  return store;
+}
+
 export const romanizationVisible = persistedBool('kcs.roman', true);
 export function toggleRomanization() { romanizationVisible.update((v) => !v); }
 
@@ -79,6 +107,26 @@ export function setImeFallback(value) { imeFallbackEnabled.set(!!value); }
 export const romanNudgeSeen = persistedBool('kcs.roman-nudge-v1', false);
 export function markRomanNudgeSeen() { romanNudgeSeen.set(true); }
 export function resetRomanNudgeSeen() { romanNudgeSeen.set(false); }
+
+export const onboarded = persistedBool('kcs.onboarded-v1', false);
+export function markOnboarded() {
+  writeStoredBool('kcs.onboarded-v1', true);
+  onboarded.set(true);
+}
+export function resetOnboarded() {
+  writeStoredBool('kcs.onboarded-v1', false);
+  onboarded.set(false);
+}
+
+export const startChapterId = persistedString('kcs.start-chapter-v1', '');
+export function setStartChapterId(id) {
+  writeStoredString('kcs.start-chapter-v1', id || '');
+  startChapterId.set(id || '');
+}
+export function resetStartChapterId() {
+  writeStoredString('kcs.start-chapter-v1', '');
+  startChapterId.set('');
+}
 
 export const lessonProgress = persistedSet('kcs.progress');
 export function markLessonDone(id) { lessonProgress.update((s) => new Set(s).add(id)); }
@@ -171,6 +219,17 @@ export function recordReaderResult(id, result = {}, now = Date.now()) {
   }));
 }
 export function resetReaderProgress() { readerProgress.set({}); }
+
+export const learnOpenGroups = persistedSet('kcs.learn-open-v1');
+export function toggleLearnOpenGroup(id) {
+  learnOpenGroups.update((set) => {
+    const next = new Set(set);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    return next;
+  });
+}
+export function resetLearnOpenGroups() { learnOpenGroups.set(new Set()); }
 
 export const shadowProgress = persistedSet('kcs.shadow-done-v1');
 export function toggleShadowDone(id) {

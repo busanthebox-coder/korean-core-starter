@@ -7,6 +7,13 @@ export function isTrackStart(chapter, previous) {
   return chapter.curriculumTrack.id !== previous?.curriculumTrack?.id;
 }
 
+export function firstChapterOfLevel(chapters = [], cefr) {
+  return chapters
+    .slice()
+    .sort((a, b) => curriculumSortValue(a) - curriculumSortValue(b) || (a.number || 0) - (b.number || 0))
+    .find((chapter) => (chapter.curriculumTrack?.cefr || chapter.level) === cefr) || null;
+}
+
 export function chapterLayerItemIds(chapter = {}) {
   return [
     ...new Set((chapter.learningLayers || []).flatMap((layer) => layer.itemIds || [])),

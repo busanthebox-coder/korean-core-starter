@@ -1,11 +1,13 @@
-import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync, rmSync } from 'node:fs';
 import { buildKoreanDataBundle } from './build-korean-data-bundle.mjs';
 import { formatExerciseReport, validateExercises } from './validate-exercises.mjs';
 import { checkReaderCoverage, formatCoverageReport } from './check-reader-coverage.mjs';
 import { formatReaderReport, readReaders, validateReaderSet } from './validate-readers.mjs';
 import { formatHanjaRootReport, readHanjaRoots, validateHanjaRoots } from './validate-hanja-roots.mjs';
 
-// Emits korean/data/app-data.json: a single slim bundle for the Svelte app.
+// Emits korean/data/app-data.json for legacy/test surfaces and public/data/*.json
+// for the Svelte app's split runtime loader.
 // The full per-file JSON stays for the legacy app + audit; here we drop fields the
 // new UI never renders (notably the large per-entry `lesson` block) to shrink the build.
 const dir = new URL('../korean/data/', import.meta.url);
@@ -78,6 +80,33 @@ const newcomerVocab = read('newcomer-vocab.json').entries.map(slim);
 const extendedVocab = read('vocab-extended.json').entries.map(slim);
 const patterns = read('patterns.json').entries.map(slim);
 const allEntries = [...words, ...newcomerVocab, ...extendedVocab, ...dedupExpr, ...patterns];
+
+const course = (() => {
+  const c = read('course.json');
+  c.chapters = (c.chapters || []).map(mergeRich);
+  return c;
+})();
+
+function applyB1Promotion(entries, courseData) {
+  const byId = new Map();
+  for (const entry of entries) {
+    if (entry.id) byId.set(entry.id, entry);
+    for (const aliasId of entry.aliasIds || []) if (!byId.has(aliasId)) byId.set(aliasId, entry);
+  }
+  const earlierCore = new Set();
+  const b1Core = new Set();
+  for (const chapter of courseData.chapters || []) {
+    const ids = [...(chapter.coreVocabularyIds || []), ...(chapter.patternIds || [])];
+    for (const id of ids) (/B1/i.test(chapter.level || '') ? b1Core : earlierCore).add(id);
+  }
+  for (const id of b1Core) {
+    if (earlierCore.has(id)) continue;
+    const entry = byId.get(id);
+    if (entry && entry.level !== 'B1') entry.level = 'B1';
+  }
+}
+
+applyB1Promotion(allEntries, course);
 
 const readersRaw = readReaders('scripts/readers-src');
 const readerValidation = validateReaderSet(readersRaw);
@@ -153,11 +182,7 @@ const out = {
   extendedVocab,
   expressions: dedupExpr,
   patterns,
-  course: (() => {
-    const c = read('course.json');
-    c.chapters = (c.chapters || []).map(mergeRich);
-    return c;
-  })(),
+  course,
   grammar: read('grammar.json'),
   activities: read('activities.json'),
   guide: read('guide.json'),
@@ -168,8 +193,90 @@ const out = {
   hanjaRoots,
 };
 
+const publicDataDir = new URL('../public/data/', import.meta.url);
+const sectionById = new Map([
+  ...words.map((entry) => [entry.id, 'words']),
+  ...newcomerVocab.map((entry) => [entry.id, 'core']),
+  ...extendedVocab.map((entry) => [entry.id, 'extended']),
+  ...dedupExpr.map((entry) => [entry.id, 'expressions']),
+  ...patterns.map((entry) => [entry.id, 'core']),
+]);
+
+function sortedEntries(items) {
+  return items.slice().sort((a, b) =>
+    (a.sort ?? 0) - (b.sort ?? 0) ||
+    String(a.id || '').localeCompare(String(b.id || ''))
+  );
+}
+
+function indexEntry(entry) {
+  const row = {
+    id: entry.id,
+    hangul: entry.hangul,
+    romanization: entry.romanization,
+    english: entry.english,
+    level: entry.level,
+    type: entry.type,
+    partOfSpeech: entry.partOfSpeech,
+    topic: entry.topic,
+    section: sectionById.get(entry.id) || 'extended',
+  };
+  if (entry.aliasIds?.length) row.aliasIds = entry.aliasIds;
+  return row;
+}
+
+function writeHashedJson(logicalName, payload) {
+  const json = JSON.stringify(payload);
+  const hash = createHash('sha256').update(json).digest('hex').slice(0, 8);
+  const fileName = `${logicalName}.${hash}.json`;
+  writeFileSync(new URL(fileName, publicDataDir), json, 'utf8');
+  return fileName;
+}
+
+function writeSplitData(data) {
+  mkdirSync(publicDataDir, { recursive: true });
+  for (const file of readdirSync(publicDataDir)) {
+    if (/^(app-(core|index|words|expressions|extended)\.|manifest\.json$)/.test(file)) {
+      rmSync(new URL(file, publicDataDir), { force: true });
+    }
+  }
+
+  const files = {
+    core: writeHashedJson('app-core', {
+      course: data.course,
+      grammar: data.grammar,
+      activities: data.activities,
+      guide: data.guide,
+      dialogues: data.dialogues,
+      conversations: data.conversations,
+      vocabPacks: data.vocabPacks,
+      readers: data.readers,
+      hanjaRoots: data.hanjaRoots,
+      newcomerVocab: data.newcomerVocab,
+      patterns: data.patterns,
+    }),
+    index: writeHashedJson('app-index', {
+      entries: sortedEntries(allEntries).map(indexEntry),
+    }),
+    words: writeHashedJson('app-words', { entries: data.words }),
+    expressions: writeHashedJson('app-expressions', { entries: data.expressions }),
+    extended: writeHashedJson('app-extended', { entries: data.extendedVocab }),
+  };
+
+  writeFileSync(
+    new URL('manifest.json', publicDataDir),
+    JSON.stringify({
+      version: new Date().toISOString(),
+      files,
+    }),
+    'utf8'
+  );
+  return files;
+}
+
 writeFileSync(new URL('app-data.json', dir), JSON.stringify(out));
+const splitFiles = writeSplitData(out);
 buildKoreanDataBundle();
 const n = out.words.length + out.newcomerVocab.length + out.extendedVocab.length + out.expressions.length + out.patterns.length;
 const removed = allExpr.length - dedupExpr.length;
-console.log(`Built app-data.json (${n} entries, ${readers.length} readers, ${hanjaRoots.length} hanja roots, lesson stripped; ${removed} duplicate expressions collapsed to richest).`);
+console.log(`Built app-data.json and public/data manifest (${n} entries, ${readers.length} readers, ${hanjaRoots.length} hanja roots, lesson stripped; ${removed} duplicate expressions collapsed to richest; split: ${Object.values(splitFiles).join(', ')}).`);

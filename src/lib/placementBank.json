@@ -1,0 +1,183 @@
+[
+  {
+    "id": "pl-a1-topic-neun",
+    "level": "A1",
+    "type": "choice",
+    "prompt": "저___ 학생이에요. (As for me, I am a student.)",
+    "choices": [
+      { "ko": "는", "correct": true },
+      { "ko": "가", "correct": false },
+      { "ko": "를", "correct": false }
+    ],
+    "sourceChapterId": "chapter-02"
+  },
+  {
+    "id": "pl-a1-not-copula",
+    "level": "A1",
+    "type": "choice",
+    "prompt": "You want to say 'I am not Japanese.' Which sentence is correct?",
+    "choices": [
+      { "ko": "저는 일본 사람이에요.", "correct": false },
+      { "ko": "저는 일본 사람이 아니에요.", "correct": true },
+      { "ko": "저는 일본 사람이에요 아니에요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-03"
+  },
+  {
+    "id": "pl-a1-existence-i",
+    "level": "A1",
+    "type": "choice",
+    "prompt": "시간___ 있어요? (Do you have time?)",
+    "choices": [
+      { "ko": "이", "correct": true },
+      { "ko": "가", "correct": false },
+      { "ko": "을", "correct": false }
+    ],
+    "sourceChapterId": "chapter-04"
+  },
+  {
+    "id": "pl-a1-object-eul",
+    "level": "A1",
+    "type": "choice",
+    "prompt": "저는 아침___ 먹어요. (I eat breakfast.)",
+    "choices": [
+      { "ko": "을", "correct": true },
+      { "ko": "를", "correct": false },
+      { "ko": "이", "correct": false },
+      { "ko": "가", "correct": false }
+    ],
+    "sourceChapterId": "chapter-05"
+  },
+  {
+    "id": "pl-a1-cannot-mot",
+    "level": "A1",
+    "type": "choice",
+    "prompt": "오늘 회의가 있어서 ___ 가요. (I can't go because I have a meeting today.)",
+    "choices": [
+      { "ko": "못", "correct": true },
+      { "ko": "안", "correct": false },
+      { "ko": "고 싶지", "correct": false }
+    ],
+    "sourceChapterId": "chapter-08"
+  },
+  {
+    "id": "pl-a2-past-bwasseoyo",
+    "level": "A2",
+    "type": "choice",
+    "prompt": "Which sentence correctly reports a completed action yesterday?",
+    "choices": [
+      { "ko": "어제 친구랑 영화를 봤어요.", "correct": true },
+      { "ko": "어제 친구랑 영화를 봐요.", "correct": false },
+      { "ko": "어제 친구랑 영화를 볼 거예요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-17"
+  },
+  {
+    "id": "pl-a2-future-plan",
+    "level": "A2",
+    "type": "choice",
+    "prompt": "A friend asks about your weekend plan. Which answer fits?",
+    "choices": [
+      { "ko": "토요일에 카페에 갈 거예요.", "correct": true },
+      { "ko": "토요일에 카페에 갔어요.", "correct": false },
+      { "ko": "토요일에 카페에 있어요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-18"
+  },
+  {
+    "id": "pl-a2-time-three-ten",
+    "level": "A2",
+    "type": "choice",
+    "prompt": "Which time expression is natural for 3:10?",
+    "choices": [
+      { "ko": "세 시 십 분", "correct": true },
+      { "ko": "삼 시 세 분", "correct": false },
+      { "ko": "셋 시 열 분", "correct": false }
+    ],
+    "sourceChapterId": "chapter-20"
+  },
+  {
+    "id": "pl-a2-contrast-jiman",
+    "level": "A2",
+    "type": "choice",
+    "prompt": "Which sentence contrasts price and quality?",
+    "choices": [
+      { "ko": "비싸지만 맛있어요.", "correct": true },
+      { "ko": "비싸서 맛있을 거예요.", "correct": false },
+      { "ko": "비싸는 동안 맛있어요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-25"
+  },
+  {
+    "id": "pl-a2-reason-nikka",
+    "level": "A2",
+    "type": "choice",
+    "prompt": "Which sentence uses 니까 as a reason for a decision?",
+    "choices": [
+      { "ko": "주말이니까 한 시간이라도 공부해요.", "correct": true },
+      { "ko": "주말이라도 한 시간이에요.", "correct": false },
+      { "ko": "주말이었어요 한 시간 공부해요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-46"
+  },
+  {
+    "id": "pl-b1-reported-statement",
+    "level": "B1",
+    "type": "choice",
+    "prompt": "The teacher said, '금요일에 시험을 봐요.' Which report is correct?",
+    "choices": [
+      { "ko": "금요일에 본다고 하셨어요.", "correct": true },
+      { "ko": "금요일에 보냐고 하셨어요.", "correct": false },
+      { "ko": "금요일에 보라고 하셨어요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-37"
+  },
+  {
+    "id": "pl-b1-reported-question",
+    "level": "B1",
+    "type": "choice",
+    "prompt": "Your friend asked, '몇 시에 만나요?' Which report is correct?",
+    "choices": [
+      { "ko": "몇 시에 만나냐고 물어봤어요.", "correct": true },
+      { "ko": "몇 시에 만난다고 물어봤어요.", "correct": false },
+      { "ko": "몇 시에 만나라고 물어봤어요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-37"
+  },
+  {
+    "id": "pl-b1-honorific-subject",
+    "level": "B1",
+    "type": "choice",
+    "prompt": "Which sentence honors the teacher as subject?",
+    "choices": [
+      { "ko": "선생님께서 오세요.", "correct": true },
+      { "ko": "선생님께 질문해요.", "correct": false },
+      { "ko": "제가 오세요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-34"
+  },
+  {
+    "id": "pl-b1-no-choice",
+    "level": "B1",
+    "type": "choice",
+    "prompt": "Which sentence means “I have no choice but to work late”?",
+    "choices": [
+      { "ko": "야근할 수밖에 없어요.", "correct": true },
+      { "ko": "야근할 수 없어요.", "correct": false },
+      { "ko": "야근할지도 몰라요.", "correct": false }
+    ],
+    "sourceChapterId": "chapter-39"
+  },
+  {
+    "id": "pl-b1-inference-modifier",
+    "level": "B1",
+    "type": "choice",
+    "prompt": "그 식당 오늘 문 닫___ 것 같아요. 불이 꺼져 있어요. (That restaurant seems to be closed today. The lights are off.)",
+    "choices": [
+      { "ko": "는", "correct": false },
+      { "ko": "은", "correct": true },
+      { "ko": "을", "correct": false }
+    ],
+    "sourceChapterId": "chapter-12"
+  }
+]

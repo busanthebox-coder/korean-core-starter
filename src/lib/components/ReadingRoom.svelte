@@ -1,5 +1,5 @@
 <script>
-  import { entries, findEntry } from '../data.js';
+  import { entries, entriesVersion, findEntry, getEntryFull } from '../data.js';
   import { buildGlossIndex } from '../gloss.js';
   import EntryDetail from './EntryDetail.svelte';
   import ReaderArticle from './reading-room/ReaderArticle.svelte';
@@ -24,8 +24,15 @@
   let selectedEntry = null;
   let sessionReaderId = '';
 
-  const byId = new Map(entries.map((entry) => [entry.id, entry]));
-  const byHangul = new Map(entries.map((entry) => [entry.hangul, entry]));
+  let byId = new Map();
+  let byHangul = new Map();
+
+  $: dataTick = $entriesVersion;
+  $: {
+    void dataTick;
+    byId = new Map(entries.map((entry) => [entry.id, entry]));
+    byHangul = new Map(entries.map((entry) => [entry.hangul, entry]));
+  }
 
   function manualEntriesFor(item) {
     return (item?.newWords || []).map((word, index) => {
@@ -47,7 +54,7 @@
     activeGlossKey = '';
     selectedEntry = null;
   }
-  $: glossIndex = reader ? buildGlossIndex([...entries, ...manualEntriesFor(reader)]) : null;
+  $: glossIndex = (dataTick, reader ? buildGlossIndex([...entries, ...manualEntriesFor(reader)]) : null);
   $: questionCount = reader?.comprehensionQuestions?.length || 0;
   $: answeredCount = Object.keys(answers).filter((key) => answers[key]).length;
   $: score = reader
@@ -68,8 +75,9 @@
     activeGlossKey = activeGlossKey === key ? '' : key;
   }
 
-  function openEntry(entry) {
+  async function openEntry(entry) {
     selectedEntry = findEntry(entry?.id);
+    selectedEntry = (await getEntryFull(entry?.id)) || selectedEntry;
   }
 </script>
 
@@ -94,7 +102,7 @@
 {/if}
 
 <Sheet open={!!selectedEntry} onClose={() => (selectedEntry = null)}>
-  {#if selectedEntry}<EntryDetail entry={selectedEntry} on:openEntry={(event) => (selectedEntry = event.detail)} />{/if}
+  {#if selectedEntry}<EntryDetail entry={selectedEntry} on:openEntry={(event) => openEntry(event.detail)} />{/if}
 </Sheet>
 
 <style>

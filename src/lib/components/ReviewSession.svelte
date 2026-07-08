@@ -1,5 +1,6 @@
 <script>
   import { reviews } from '../srs.js';
+  import { recordActivity } from '../streak.js';
   import AudioButton from './AudioButton.svelte';
   import RomanizationLine from './RomanizationLine.svelte';
 
@@ -14,6 +15,7 @@
 
   function rate(r) {
     reviews.grade(card.id, r);
+    recordActivity();
     reviewed += 1;
     revealed = false;
     if (i + 1 >= cards.length) onDone({ reviewed });

@@ -2,7 +2,7 @@
   import PracticeScreen from './lessonPlayer/PracticeScreen.svelte';
   import { sampleCheckpointExercises, seededRng, weakChapterSummary } from '../checkpoints.js';
   import { correctOf, exerciseAnswerMatches } from '../inlineExercise.js';
-  import { mistakes } from '../mistakes.js';
+  import { recordMissedItems } from '../mistakeReview.js';
   import { study } from '../progress.js';
   import { recordCheckpointResult } from '../stores.js';
 
@@ -70,7 +70,7 @@
       },
     ];
     study.log(1);
-    if (!correct && current.entryIds?.length) mistakes.record(current.entryIds);
+    if (!correct && current.entryIds?.length) recordMissedItems(current.entryIds);
     revealed = true;
   }
 

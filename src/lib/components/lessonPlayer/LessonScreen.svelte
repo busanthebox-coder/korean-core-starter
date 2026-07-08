@@ -15,6 +15,9 @@
   export let onInput = () => {};
   export let onMatchDone = () => {};
   export let onConjugationDone = () => {};
+  export let writingState = { checkedIds: [], skipped: false };
+  export let onWritingCheck = () => {};
+  export let onWritingSkip = () => {};
 </script>
 
 <div class="lp-screen" data-phase={cur.phase}>
@@ -41,6 +44,9 @@
       {onInput}
       {onMatchDone}
       {onConjugationDone}
+      {writingState}
+      {onWritingCheck}
+      {onWritingSkip}
     />
   {/if}
 </div>

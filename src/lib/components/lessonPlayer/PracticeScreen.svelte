@@ -14,6 +14,9 @@
   export let onInput = () => {};
   export let onMatchDone = () => {};
   export let onConjugationDone = () => {};
+  export let writingState = { checkedIds: [], skipped: false };
+  export let onWritingCheck = () => {};
+  export let onWritingSkip = () => {};
 
   let orderKey = '';
   let orderBank = [];
@@ -110,6 +113,30 @@
   <p class="screen-sub">{data.prompt}</p>
   {#if data.hint}<div class="ex-hint"><i class="ti ti-bulb" aria-hidden="true"></i> {data.hint}</div>{/if}
   <textarea class="w-area" rows="3" placeholder="여기에 써 보세요…" value={answer || ''} on:input={(e) => onInput(e.currentTarget.value)}></textarea>
+  {#if (data.checkItems || []).length}
+    <div class="w-check">
+      <div class="w-check-head">
+        <strong>쓴 글 점검</strong>
+        <span>자동 채점은 아니고, 오늘 목표를 직접 확인하는 단계예요.</span>
+      </div>
+      <div class="w-check-list">
+        {#each data.checkItems as item}
+          <label class="w-check-row">
+            <input
+              type="checkbox"
+              checked={(writingState.checkedIds || []).includes(item.id)}
+              on:change={(e) => onWritingCheck(item.id, e.currentTarget.checked)}
+            />
+            <span>{item.label}</span>
+          </label>
+        {/each}
+      </div>
+      <div class="w-check-foot">
+        <button class="skip-check" type="button" on:click={onWritingSkip}>Skip self-check</button>
+        {#if writingState.skipped}<span>이번 글은 점검 없이 넘어갑니다.</span>{/if}
+      </div>
+    </div>
+  {/if}
   {#if data.model}
     <details class="w-model">
       <summary>Show a model answer</summary>
@@ -152,6 +179,17 @@
   .ex-explain { font-size: 13px; color: var(--ink-2); line-height: 1.55; }
   .w-area { width: 100%; padding: 12px 13px; border-radius: var(--r-1); border: 1px solid var(--border); background: var(--surface); font: inherit; font-size: 16px; resize: vertical; }
   .w-area:focus { outline: none; border-color: var(--primary); }
+  .w-check { display: grid; gap: 10px; padding: 12px; border-radius: var(--r-1); background: var(--surface-2); border: 1px solid var(--border); }
+  .w-check-head { display: grid; gap: 2px; }
+  .w-check-head strong { font-size: 13px; font-weight: 850; color: var(--ink); }
+  .w-check-head span { font-size: 12px; color: var(--ink-3); line-height: 1.45; }
+  .w-check-list { display: grid; gap: 7px; }
+  .w-check-row { display: grid; grid-template-columns: 20px 1fr; gap: 8px; align-items: start; padding: 8px 9px; border-radius: 12px; background: var(--surface); border: 1px solid rgba(140,123,104,.18); font-size: 13px; font-weight: 750; line-height: 1.4; color: var(--ink-2); }
+  .w-check-row input { width: 17px; height: 17px; margin: 1px 0 0; accent-color: var(--green); }
+  .w-check-foot { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+  .skip-check { padding: 8px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--border); color: var(--ink-2); font-size: 12px; font-weight: 850; }
+  .skip-check:hover { border-color: var(--green); color: var(--green-dark); }
+  .w-check-foot span { font-size: 12px; color: var(--ink-3); }
   .w-model { border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface); }
   .w-model > summary { cursor: pointer; list-style: none; padding: 10px 13px; font-size: 13px; font-weight: 800; color: var(--accent-ink); }
   .w-model > summary::-webkit-details-marker { display: none; }

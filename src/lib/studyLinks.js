@@ -49,9 +49,9 @@ export function buildTodayMission({ chapters = [], completedIds = new Set(), rev
   const steps = [
     {
       kind: 'review',
-      label: dueCount ? `Review ${dueCount} due` : 'Open review',
+      label: dueCount ? `복습 ${dueCount}개 비우기` : 'Open review',
       detail: dueCount ? 'Clear cards scheduled for today.' : 'Add a deck or do a light review.',
-      path: '/practice',
+      path: dueCount ? '/practice?review=1' : '/practice',
     },
     {
       kind: 'weak',

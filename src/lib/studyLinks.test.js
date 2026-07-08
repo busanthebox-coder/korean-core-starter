@@ -49,5 +49,9 @@ describe('studyLinks', () => {
     expect(mission.weakCount).toBe(2);
     expect(mission.nextChapter.id).toBe('chapter-02');
     expect(mission.steps.map((step) => step.kind)).toEqual(['review', 'weak', 'chapter', 'talk']);
+    expect(mission.steps[0]).toMatchObject({
+      label: '복습 1개 비우기',
+      path: '/practice?review=1',
+    });
   });
 });

@@ -1,33 +1,105 @@
-// Single slim bundle built by scripts/build-app-data.mjs (run after generate-korean-data.mjs).
-import data from '../../korean/data/app-data.json';
+import { writable } from 'svelte/store';
 import { curriculumSortValue } from './curriculumStructure.js';
 
-export const entries = [
-  ...data.words,
-  ...data.newcomerVocab,
-  ...data.extendedVocab,
-  ...data.expressions,
-  ...data.patterns,
-].sort((a, b) => (a.sort ?? 0) - (b.sort ?? 0));
+const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1'];
+const READER_LEVEL_ORDER = { A1: 1, A2: 2, B1: 3, B2: 4 };
+const SECTION_KEYS = {
+  words: 'words',
+  newcomerVocab: 'core',
+  extendedVocab: 'extended',
+  expressions: 'expressions',
+  patterns: 'core',
+};
 
-const byId = new Map(entries.map((e) => [e.id, e]));
-// Deduped expressions carry the ids of their dropped duplicates as `aliasIds`,
-// so cross-links pointing at any duplicate resolve to the kept (richest) entry.
-for (const e of entries) {
-  if (e.aliasIds) for (const a of e.aliasIds) if (!byId.has(a)) byId.set(a, e);
+export const entries = [];
+export const entriesVersion = writable(0);
+
+let byId = new Map();
+let rootsByEntryId = new Map();
+let sectionResolver = null;
+
+export let vocabPacks = [];
+export let readers = [];
+export let hanjaRoots = [];
+export let chapters = [];
+export let levels = [];
+export let curriculumGuide = [];
+export let functionTags = [];
+export let grammar = [];
+export let activities = [];
+export let guideTracks = [];
+export let dialogues = [];
+export let conversations = [];
+
+function notifyEntriesChanged() {
+  entriesVersion.update((n) => n + 1);
 }
-export const findEntry = (id) => byId.get(id) || null;
 
-function validateVocabPackItems(pack) {
+function sortedEntries(items) {
+  return (items || []).slice().sort((a, b) =>
+    (a.sort ?? 0) - (b.sort ?? 0) ||
+    String(a.id || '').localeCompare(String(b.id || ''))
+  );
+}
+
+function compactIndexEntry(entry, section) {
+  const row = {
+    id: entry.id,
+    hangul: entry.hangul,
+    romanization: entry.romanization,
+    english: entry.english,
+    level: entry.level,
+    type: entry.type,
+    partOfSpeech: entry.partOfSpeech,
+    topic: entry.topic,
+    section,
+  };
+  if (entry.aliasIds?.length) row.aliasIds = entry.aliasIds;
+  return row;
+}
+
+function markFull(entry, fallbackSection) {
+  return {
+    ...entry,
+    section: entry.section || fallbackSection,
+    _full: true,
+  };
+}
+
+function rebuildById() {
+  byId = new Map();
+  for (const entry of entries) {
+    if (!entry?.id) continue;
+    byId.set(entry.id, entry);
+    for (const aliasId of entry.aliasIds || []) if (!byId.has(aliasId)) byId.set(aliasId, entry);
+  }
+}
+
+function rebuildHanjaRootsByEntryId() {
+  rootsByEntryId = new Map();
+  for (const root of hanjaRoots) {
+    for (const member of root.members || []) {
+      if (!member.entryId) continue;
+      if (!rootsByEntryId.has(member.entryId)) rootsByEntryId.set(member.entryId, []);
+      rootsByEntryId.get(member.entryId).push(root);
+    }
+  }
+}
+
+function refreshLevels() {
+  levels = LEVEL_ORDER.filter((level) => entries.some((entry) => entry.level === level));
+}
+
+export function validateVocabPackItems(pack, lookup = byId) {
   return (pack.items || []).map((item) => {
     if (!item.entryId) {
       throw new Error(`Invalid vocab pack item: ${pack.id} is missing entryId`);
     }
-    if (!byId.has(item.entryId)) {
+    if (!lookup.has(item.entryId)) {
       throw new Error(`Invalid vocab pack reference: ${pack.id} -> ${item.entryId}`);
     }
     for (const relatedId of item.relatedEntryIds || []) {
-      if (!byId.has(relatedId)) {
+      if (!lookup.has(relatedId)) {
         throw new Error(`Invalid vocab pack related reference: ${pack.id} -> ${item.entryId} -> ${relatedId}`);
       }
     }
@@ -35,68 +107,126 @@ function validateVocabPackItems(pack) {
   });
 }
 
-export const vocabPacks = (data.vocabPacks || []).map((pack) => ({
-  ...pack,
-  items: validateVocabPackItems(pack)
-}));
-export const findVocabPack = (id) => vocabPacks.find((pack) => pack.id === id) || null;
-
-const READER_LEVEL_ORDER = { A1: 1, A2: 2, B1: 3, B2: 4 };
-export const readers = (data.readers || []).slice().sort((a, b) =>
-  (READER_LEVEL_ORDER[a.level] || 99) - (READER_LEVEL_ORDER[b.level] || 99) ||
-  String(a.id || '').localeCompare(String(b.id || ''))
-);
-export const findReader = (id) => readers.find((reader) => reader.id === id) || null;
-
-export const hanjaRoots = (data.hanjaRoots || []).slice().sort((a, b) =>
-  String(a.reading || '').localeCompare(String(b.reading || ''), 'ko') ||
-  String(a.id || '').localeCompare(String(b.id || ''))
-);
-export const findHanjaRoot = (id) => hanjaRoots.find((root) => root.id === id) || null;
-
-const rootsByEntryId = new Map();
-for (const root of hanjaRoots) {
-  for (const member of root.members || []) {
-    if (!member.entryId) continue;
-    if (!rootsByEntryId.has(member.entryId)) rootsByEntryId.set(member.entryId, []);
-    rootsByEntryId.get(member.entryId).push(root);
-  }
+function installCoreSurfaces(core) {
+  chapters = (core.course?.chapters || []).slice().sort((a, b) =>
+    curriculumSortValue(a) - curriculumSortValue(b) || a.number - b.number
+  );
+  curriculumGuide = core.course?.curriculumGuide || [];
+  functionTags = core.course?.functionTags || [];
+  grammar = [...(core.grammar?.grammarItems || []), ...(core.grammar?.endingItems || [])];
+  activities = core.activities?.chapterActivities || [];
+  guideTracks = core.guide?.tracks || [];
+  dialogues = core.dialogues?.dialogues || [];
+  conversations = core.conversations?.conversations || [];
+  readers = (core.readers || []).slice().sort((a, b) =>
+    (READER_LEVEL_ORDER[a.level] || 99) - (READER_LEVEL_ORDER[b.level] || 99) ||
+    String(a.id || '').localeCompare(String(b.id || ''))
+  );
+  hanjaRoots = (core.hanjaRoots || []).slice().sort((a, b) =>
+    String(a.reading || '').localeCompare(String(b.reading || ''), 'ko') ||
+    String(a.id || '').localeCompare(String(b.id || ''))
+  );
+  rebuildHanjaRootsByEntryId();
 }
+
+function installVocabPacks(core) {
+  vocabPacks = (core.vocabPacks || []).map((pack) => ({
+    ...pack,
+    items: validateVocabPackItems(pack),
+  }));
+}
+
+function coreEntries(core) {
+  return [
+    ...(core.newcomerVocab || []),
+    ...(core.patterns || []),
+  ].map((entry) => markFull(entry, 'core'));
+}
+
+export function resetDataForTest() {
+  entries.splice(0, entries.length);
+  byId = new Map();
+  rootsByEntryId = new Map();
+  vocabPacks = [];
+  readers = [];
+  hanjaRoots = [];
+  chapters = [];
+  levels = [];
+  curriculumGuide = [];
+  functionTags = [];
+  grammar = [];
+  activities = [];
+  guideTracks = [];
+  dialogues = [];
+  conversations = [];
+  notifyEntriesChanged();
+}
+
+export function installBootData({ core, index }) {
+  entries.splice(0, entries.length);
+  installCoreSurfaces(core);
+
+  const fullCoreById = new Map(coreEntries(core).map((entry) => [entry.id, entry]));
+  const rows = sortedEntries(index.entries || []);
+  for (const row of rows) {
+    const full = fullCoreById.get(row.id);
+    entries.push(full ? { ...full, aliasIds: row.aliasIds || full.aliasIds } : { ...row, _full: false });
+  }
+  for (const full of fullCoreById.values()) {
+    if (!entries.some((entry) => entry.id === full.id)) entries.push(full);
+  }
+
+  rebuildById();
+  refreshLevels();
+  installVocabPacks(core);
+  notifyEntriesChanged();
+}
+
+export function hydrateSection(section, payload) {
+  const incoming = (payload?.entries || []).map((entry) => markFull(entry, section));
+  if (!incoming.length) return;
+
+  const indexById = new Map(entries.map((entry, index) => [entry.id, index]));
+  for (const entry of incoming) {
+    const index = indexById.get(entry.id);
+    if (index == null) {
+      indexById.set(entry.id, entries.length);
+      entries.push(entry);
+    } else {
+      entries[index] = entry;
+    }
+  }
+  rebuildById();
+  refreshLevels();
+  notifyEntriesChanged();
+}
+
+export function installStaticDataForTests(data) {
+  const indexRows = Object.entries(SECTION_KEYS).flatMap(([key, section]) =>
+    (data[key] || []).map((entry) => compactIndexEntry(entry, section))
+  );
+  installBootData({ core: data, index: { entries: indexRows } });
+  hydrateSection('words', { entries: data.words || [] });
+  hydrateSection('expressions', { entries: data.expressions || [] });
+  hydrateSection('extended', { entries: data.extendedVocab || [] });
+}
+
+export const findEntry = (id) => byId.get(id) || null;
+export const findVocabPack = (id) => vocabPacks.find((pack) => pack.id === id) || null;
+export const findReader = (id) => readers.find((reader) => reader.id === id) || null;
+export const findHanjaRoot = (id) => hanjaRoots.find((root) => root.id === id) || null;
 export const hanjaRootsForEntry = (entryId) => rootsByEntryId.get(entryId) || [];
+export const findGrammar = (id) => grammar.find((item) => item.id === id) || null;
+export const isFull = (entry) => !!entry?._full;
 
-export const chapters = (data.course.chapters || []).slice().sort((a, b) =>
-  curriculumSortValue(a) - curriculumSortValue(b) || a.number - b.number
-);
+export function setSectionResolver(resolver) {
+  sectionResolver = resolver;
+}
 
-// ── Truthful B1 tagging ──────────────────────────────────────────────────
-// The dataset ships only A1/A2 levels, yet chapters 12–16 are a real B1 track
-// (reported speech, guessing, abstract society/work vocabulary). A word or
-// pattern that is FIRST taught (core) in a B1 chapter is genuinely B1, so we
-// promote it here — derived from chapter.level, so it survives regeneration and
-// never inflates B1 with guesses. Items reused from an earlier A1/A2 chapter are
-// left untouched.
-(function tagB1() {
-  const earlierCore = new Set();
-  const b1Core = new Set();
-  for (const ch of chapters) {
-    const ids = [...(ch.coreVocabularyIds || []), ...(ch.patternIds || [])];
-    for (const id of ids) (/B1/i.test(ch.level || '') ? b1Core : earlierCore).add(id);
-  }
-  for (const id of b1Core) {
-    if (earlierCore.has(id)) continue;          // taught earlier → keep its level
-    const e = byId.get(id);
-    if (e && e.level !== 'B1') e.level = 'B1';
-  }
-})();
-
-// Levels actually present in the data, low→high, for filter UIs.
-const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1'];
-export const levels = LEVEL_ORDER.filter((l) => entries.some((e) => e.level === l));
-export const curriculumGuide = data.course.curriculumGuide || [];
-export const functionTags = data.course.functionTags || [];
-export const grammar = [...(data.grammar.grammarItems || []), ...(data.grammar.endingItems || [])];
-export const findGrammar = (id) => grammar.find((g) => g.id === id) || null;
-export const activities = data.activities.chapterActivities || [];
-export const guideTracks = data.guide.tracks || [];
-export const dialogues = data.dialogues.dialogues || [];
-export const conversations = (data.conversations && data.conversations.conversations) || [];
+export async function getEntryFull(id) {
+  const entry = findEntry(id);
+  if (!entry || isFull(entry) || !entry.section || entry.section === 'core') return entry;
+  if (!sectionResolver) throw new Error(`No data section resolver installed for ${entry.section}`);
+  await sectionResolver(entry.section);
+  return findEntry(id);
+}

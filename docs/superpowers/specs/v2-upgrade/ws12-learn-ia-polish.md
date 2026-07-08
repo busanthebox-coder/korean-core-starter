@@ -48,3 +48,25 @@
 
 ## 완료 기록
 (실행자가 작성)
+2026-07-08 Codex
+- 변경 파일:
+  - `src/lib/learnGroups.js`, `src/lib/learnGroups.test.js` — curriculumTrack/CEFR 기반 Learn 레벨 그룹, 현재 그룹 기본 펼침, 검색 시 매치 그룹 자동 펼침.
+  - `src/lib/stores.js`, `src/lib/stores.test.js` — `kcs.learn-open-v1` 저장/토글/리셋.
+  - `src/lib/backup.js`, `src/lib/backup.test.js` — Learn open-group 키 백업/복원 합집합 병합.
+  - `src/lib/components/LearnPathView.svelte`, `src/lib/components/LearnLevelGroup.svelte` — 이어 학습, 검색, 레벨 아코디언을 Learn 첫 흐름으로 재배치. 보조 패널은 챕터 그룹 아래로 이동.
+  - `index.html`, `public/404.html`, `public/og.png` — description/OG/Twitter 메타, gh-pages 직접 경로 fallback, 1200×630 공유 이미지.
+  - `DESIGN.md`, `docs/superpowers/specs/v2-upgrade/00-README.md`, `docs/superpowers/specs/v2-upgrade/ws3-progress-backup.md` — WS12 IA 규칙과 localStorage 키 문서화.
+- 검증:
+  - RED evidence: `src/lib/learnGroups.test.js`를 먼저 추가해 `src/lib/learnGroups.js` 부재 실패를 확인한 뒤 구현.
+  - 타깃 테스트: `npx vitest run src/lib/learnGroups.test.js src/lib/stores.test.js src/lib/backup.test.js src/App.test.js` — 4 files / 23 tests passed.
+  - 전체 검증: `npm run preflight` — 48 files / 241 tests passed, production build passed, bundle check passed, content lint passed.
+  - 릴리스 메타: `dist/index.html`에서 description/og/twitter 메타 확인, `dist/og.png` 1200×630 확인, `dist/404.html` 생성 확인.
+  - Browser visual QA: `.omo/evidence/ws12-visual-qa/visual-qa.json` — mobile 375/tablet 768/desktop 1280 screenshots, group persistence, "reported" filter, direct route fallback, keyboard-only lesson progress all passed. Evidence screenshots:
+    `.omo/evidence/ws12-visual-qa/01-mobile-learn-first-screen.png`,
+    `.omo/evidence/ws12-visual-qa/02-tablet-learn-first-screen.png`,
+    `.omo/evidence/ws12-visual-qa/03-desktop-filter-reported.png`,
+    `.omo/evidence/ws12-visual-qa/04-direct-route-fallback.png`,
+    `.omo/evidence/ws12-visual-qa/05-keyboard-lesson-progress.png`.
+- 남긴 이슈:
+  - GitHub Pages 직접 경로 fallback은 로컬 Vite preview가 unknown path에 `index.html`을 반환하므로 Playwright route로 `dist/404.html` 서빙 상황을 모사해 검증했다.
+  - 전면 스크린리더 감사와 고품질 오디오는 본 WS 범위 밖.

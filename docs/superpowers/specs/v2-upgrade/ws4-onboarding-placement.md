@@ -64,7 +64,53 @@ export function placementResult(answers) // → {recommendedLevel: 'A1'|'A2'|'B1
 - 챕터 잠금/강제 경로. B2·C1 배치. 신규 문항 창작(기존 재사용만). 라우터에 /onboarding 경로 추가(오버레이로).
 
 ## 문항 선정 기록
-(실행자가 작성)
+2026-07-08 Codex
+
+원칙: 기존 `inlineExercises`에서 문법 판별력이 있는 선택형만 골랐다. 어휘 뜻만 맞히는 문제는 제외했고,
+레벨당 5문항으로 짧게 유지했다.
+
+### A1
+- `chapter-02` — `저___ 학생이에요.`: 은/는 주제 표지를 초급 초반에서 바로 판별한다.
+- `chapter-03` — `저는 일본 사람이 아니에요.`: 명사 부정 `아니에요`를 단순 어휘가 아니라 문장 구조로 확인한다.
+- `chapter-04` — `시간___ 있어요?`: `있어요/없어요` 존재문에서 이/가 주격을 고르는 대표 오류를 본다.
+- `chapter-05` — `저는 아침___ 먹어요.`: 목적어 조사 을/를을 받침 기준과 함께 확인한다.
+- `chapter-08` — `오늘 회의가 있어서 ___ 가요.`: 의지 부정 `안`과 불가능 `못`을 구분하게 한다.
+
+### A2
+- `chapter-17` — `어제 친구랑 영화를 봤어요.`: 과거 완료 동작을 현재/미래와 구분한다.
+- `chapter-18` — `토요일에 카페에 갈 거예요.`: 미래 계획 `-(으)ㄹ 거예요`를 과거/상태문과 구분한다.
+- `chapter-20` — `세 시 십 분`: 시간 표현에서 고유어 시간+한자어 분 조합을 확인한다.
+- `chapter-25` — `비싸지만 맛있어요.`: 대조 연결 `지만`을 이유/시간 연결과 구분한다.
+- `chapter-46` — `주말이니까 한 시간이라도 공부해요.`: 결정의 근거를 주는 `니까`와 양보/단순 서술을 구분한다.
+
+### B1
+- `chapter-37` — `금요일에 본다고 하셨어요.`: 평서 간접화법 `-다고`를 질문/명령 보고와 구분한다.
+- `chapter-37` — `몇 시에 만나냐고 물어봤어요.`: 의문 간접화법 `-냐고`를 평서/명령 보고와 구분한다.
+- `chapter-34` — `선생님께서 오세요.`: 높임 주체 조사 `께서`와 주체 높임 `-시-` 계열 감각을 확인한다.
+- `chapter-39` — `야근할 수밖에 없어요.`: 불가피성 `-(으)ㄹ 수밖에 없다`를 단순 불가능/추측과 구분한다.
+- `chapter-12` — `문 닫은 것 같아요.`: 상태 추측에서 관형형 `-(으)ㄴ`을 현재 동작 관형형과 구분한다.
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-08 Codex
+- 변경 파일:
+  - `src/lib/placementBank.json` — A1/A2/B1 각 5문항, 기존 inlineExercises 기반 배치 문항 뱅크.
+  - `src/lib/placement.js` — 4/5 경계 라운드 진행, A1/A2/B1 추천, 이어서 학습 대상 계산.
+  - `src/lib/curriculumStructure.js` — `firstChapterOfLevel` 추가. 실제 트랙 값(`curriculumTrack.cefr`)을 오래된 `level`보다 우선한다.
+  - `src/lib/components/Onboarding.svelte` — 신규 사용자 환영/배치 테스트/결과 오버레이.
+  - `src/routes/Learn.svelte` — 신규 사용자 조건부 오버레이, `#/learn?placement=1` 강제 재진입, 추천 챕터 열기.
+  - `src/lib/components/LearnPathView.svelte` — “이어서 학습” 카드.
+  - `src/routes/Guide.svelte` — “배치 테스트 다시 보기” 진입 카드.
+  - `src/lib/stores.js`, `src/lib/backup.js`, `src/lib/backup.test.js` — `kcs.onboarded-v1`, `kcs.start-chapter-v1` 저장/백업.
+  - `index.html`, `public/favicon.svg` — production QA에서 favicon 404 콘솔 에러가 떠서 명시 favicon 추가.
+  - `docs/superpowers/specs/v2-upgrade/00-README.md`, `ws3-progress-backup.md`, 본 파일 — 상태/키/선정 기록 갱신.
+- 검증:
+  - RED evidence: `.omo/ws4-red.txt`에서 `placement.js`, `placementBank.json`, `Onboarding.svelte` 부재 실패 확인 후 구현.
+  - 집중 테스트: `npx vitest run src/lib/placement.test.js src/lib/placementBank.test.js src/lib/components/Onboarding.test.js src/lib/backup.test.js` — 18 tests passed.
+  - 최종 테스트/빌드/콘텐츠: `npm run preflight` — 47 files / 237 tests passed, build passed, content lint passed.
+  - favicon 반영 후 `npm run build && npm run lint:content` — build passed, content lint passed.
+  - Playwright visual QA(production preview `http://127.0.0.1:5193/korean-core-starter/`):
+    신규 온보딩, 모두 정답 시 B1 첫 트랙 챕터 추천, 기존 진도 보유자 미노출, 이어서 학습 카드, Guide 재진입, 콘솔 에러 0.
+    Evidence: `.omo/evidence/ws4-visual-qa/visual-qa.json`.
+- 남긴 이슈:
+  - 배치 테스트는 추천만 한다. 챕터 잠금/강제 경로는 넣지 않았다.
+  - 오디오는 사용자 방침대로 이후 단계로 남겼다.

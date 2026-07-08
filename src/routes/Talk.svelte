@@ -6,6 +6,7 @@
   import RomanizationLine from '../lib/components/RomanizationLine.svelte';
   import { speak } from '../lib/audio.js';
   import { shadowProgress, toggleShadowDone } from '../lib/stores.js';
+  import { recordActivity } from '../lib/streak.js';
 
   const sceneKey = (d) => (d && (d.id || d.title)) || '';
 
@@ -35,6 +36,10 @@
     if (!current?.lines?.length) return;
     shadowIndex = Math.min(shadowIndex + 1, current.lines.length - 1);
     shadowSaid = false;
+  }
+  function toggleCurrentShadow() {
+    if (!curDone) recordActivity();
+    toggleShadowDone(sceneKey(current));
   }
 
   function syncFromUrl() {
@@ -86,7 +91,7 @@
       <button class="ghost" class:on={shadowMode} on:click={() => { shadowMode = !shadowMode; shadowIndex = 0; shadowSaid = false; }}>
         {shadowMode ? 'Exit shadow' : 'Shadow mode'}
       </button>
-      <button class="ghost mark" class:on={curDone} type="button" on:click={() => toggleShadowDone(sceneKey(current))}>
+      <button class="ghost mark" class:on={curDone} type="button" on:click={toggleCurrentShadow}>
         {curDone ? '✓ Shadowed' : 'Mark done'}
       </button>
     </div>

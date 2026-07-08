@@ -67,4 +67,23 @@ export function recordActivity()   // touchStreak 적용
 - 챕터 전체 어휘 자동 등록(덱 폭발).
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-08 Codex
+- 변경 파일:
+  - `src/lib/streak.js` — `kcs.streak-v1` 저장소, 로컬 날짜 기반 `touchStreak`, `recordActivity`.
+  - `src/lib/mistakeReview.js` — 오답을 mistake bank와 SRS에 동시에 유입하는 단일 함수.
+  - `src/lib/srs.js` — `dueCount`, `nextDueAt`, 상대 시각 표시, 1분 tick 및 포커스 갱신.
+  - `src/routes/Practice.svelte` — `?review=1` 자동 복습 진입, 오답 SRS 자동 유입, 다음 복습 안내.
+  - `src/routes/Learn.svelte`, `src/routes/Talk.svelte`, `src/lib/components/ReviewSession.svelte` — 레슨 완료, Vocab Pack 완료, Shadow 완료, Review 채점 시 스트릭 기록.
+  - `src/lib/components/BottomNav.svelte`, `src/lib/components/LearnProgressCard.svelte`, `src/lib/components/PracticeSetupPanel.svelte` — Practice due 배지, 0일 숨김 스트릭, due=0 다음 복습 안내.
+  - `src/lib/backup.js` — `kcs.streak-v1` 백업 대상 및 병합 전략 추가.
+  - `src/lib/components/CheckpointSession.svelte` — 체크포인트 오답도 SRS 자동 유입.
+  - `src/lib/*test.js`, `src/lib/components/*test.js` — 스트릭, 오답 유입, dueCount, 미션, 빈 복습 안내, 리뷰 활동, 백업 병합 테스트.
+  - `docs/superpowers/specs/v2-upgrade/00-README.md`, `ws3-progress-backup.md` — WS5 상태와 새 키 표 갱신.
+- 검증:
+  - RED evidence: `.omo/ws5-red.txt`에서 `streak.js`/`mistakeReview.js` 부재, `dueCount`/`nextDueAt` 부재, Practice 빈 안내·리뷰 스트릭 미기록 실패 확인.
+  - `npx vitest run src/lib/streak.test.js src/lib/mistakeReview.test.js src/lib/srs.test.js src/lib/studyLinks.test.js src/lib/components/LearnMissionPanel.test.js src/lib/components/PracticeSetupPanel.test.js src/lib/components/ReviewSession.test.js src/lib/backup.test.js` — 33 tests passed.
+  - `npm run preflight` — 44 files / 228 tests passed, build passed, bundle size passed, content lint passed.
+  - Playwright visual QA — Learn mobile due mission + Practice badge, `#/practice?review=1` auto review, due=0 next review desktop. Evidence:
+    `.omo/evidence/ws5-visual-qa/visual-qa.json`.
+- 남긴 이슈:
+  - 없음.

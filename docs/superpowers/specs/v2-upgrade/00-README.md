@@ -15,13 +15,13 @@
 | 순서 | 파일 | 제목 | 상태 |
 |---|---|---|---|
 | 1 | [ws2-pipeline-integrity.md](ws2-pipeline-integrity.md) | 데이터 파이프라인 정합성 복구 (185개 소실·id 불안정 해결) | ✅ |
-| 2 | [ws11-ci-quality-gate.md](ws11-ci-quality-gate.md) | CI + 콘텐츠 품질 게이트 (Actions·lint-content) | ⬜ |
-| 3 | [ws1-data-splitting.md](ws1-data-splitting.md) | 20MB 데이터 분할 로딩 (부트 gzip ≤1.2MB) | ⬜ |
-| 4 | [ws3-progress-backup.md](ws3-progress-backup.md) | 진도 내보내기/가져오기 | ⬜ |
-| 5 | [ws5-srs-daily-review.md](ws5-srs-daily-review.md) | SRS 전면화 + 스트릭 | ⬜ |
-| 6 | [ws4-onboarding-placement.md](ws4-onboarding-placement.md) | 온보딩 + 배치 테스트 | ⬜ |
-| 7 | [ws12-learn-ia-polish.md](ws12-learn-ia-polish.md) | Learn 홈 레벨 아코디언 + 메타·a11y 폴리시 (C0/C3 전후 타이밍) | ⬜ |
-| 8 | [ws6-writing-self-check.md](ws6-writing-self-check.md) | 쓰기 자기평가 | ⬜ |
+| 2 | [ws11-ci-quality-gate.md](ws11-ci-quality-gate.md) | CI + 콘텐츠 품질 게이트 (Actions·lint-content) | ✅ |
+| 3 | [ws1-data-splitting.md](ws1-data-splitting.md) | 20MB 데이터 분할 로딩 (부트 gzip ≤1.2MB) | ✅ |
+| 4 | [ws3-progress-backup.md](ws3-progress-backup.md) | 진도 내보내기/가져오기 | ✅ |
+| 5 | [ws5-srs-daily-review.md](ws5-srs-daily-review.md) | SRS 전면화 + 스트릭 | ✅ |
+| 6 | [ws4-onboarding-placement.md](ws4-onboarding-placement.md) | 온보딩 + 배치 테스트 | ✅ |
+| 7 | [ws12-learn-ia-polish.md](ws12-learn-ia-polish.md) | Learn 홈 레벨 아코디언 + 메타·a11y 폴리시 (C0/C3 전후 타이밍) | ✅ |
+| 8 | [ws6-writing-self-check.md](ws6-writing-self-check.md) | 쓰기 자기평가 | ✅ |
 | 9 | [ws8-grammar-gapfill.md](ws8-grammar-gapfill.md) | 문법 갭필 3건 (-지요/죠·반말·-(으)ㅂ시다) | ⬜ |
 | 10 | [ws7-roleplay-grading.md](ws7-roleplay-grading.md) | Roleplay 채점 완화 (규칙 기반 3단계) | ⬜ |
 
@@ -47,7 +47,7 @@
 ### 의존성 요약
 - **WS2가 모든 데이터 작업의 선행**(전까지 generate 금지). WS11은 WS2 직후(가드를 CI에 태움).
 - WS1은 WS2 후. WS12는 C0/C3가 Learn에 카드를 얹기 전후가 적기.
-- WS6·C0·C3·C6·WS12가 새 localStorage 키를 만들면 → WS3 BACKUP_KEYS + 아래 키 표 갱신.
+- WS6 등 앞으로 새 localStorage 키를 만드는 작업은 → WS3 BACKUP_KEYS + 아래 키 표 갱신.
 - 콘텐츠 데이터 편집(C0/C2/C4/C6/C7)은 WS2 완료 후가 안전(전이면 build-app-data만).
 
 ### 2026-07-05 완결성 점검에서 "추가하지 않기로 확인"한 것 (재감사 불요)
@@ -62,7 +62,7 @@
 - 이 경로는 Claude Code 샌드박스 read-denied 하위라 **Bash/python 실행 시 `dangerouslyDisableSandbox: true` 필요**.
   (Read/Edit/Write 도구는 무관. Codex CLI는 해당 없음.)
 - Svelte **4** + Vite + svelte-spa-router. TypeScript 아님 — 전부 plain JS. 스토어는 `svelte/store`.
-- 테스트: `npx vitest run` — 현재 **134개 전부 green**이 기준선. 착수 전 1회 돌려 기준선 확인,
+- 테스트: `npx vitest run` — 현재 **228개 전부 green**이 기준선. 착수 전 1회 돌려 기준선 확인,
   완료 후 green + `npm run build` 성공까지가 "완료"의 정의.
 - **커밋·푸시·배포(gh-pages)는 사용자가 명시 요청할 때만.** 작업 완료 후 변경 요약만 보고.
 - ⚠️ **WS2가 끝나기 전에는 `node scripts/generate-korean-data.mjs` 절대 실행 금지.**
@@ -79,11 +79,12 @@
 scripts/{verb,expr,vocab,pattern}-src/*.json      ← 손편집 시드 (263+ 파일)
   └→ scripts/generate-korean-data.mjs             → korean/data/{words,expressions,vocab-extended,patterns,…}.json
        └→ scripts/apply-curriculum-structure.mjs  → korean/data/course.json  (number = order배열 position)
-            └→ scripts/build-app-data.mjs         → korean/data/app-data.json + korean/data-bundle.js
+            └→ scripts/build-app-data.mjs         → korean/data/app-data.json + korean/data-bundle.js + public/data/*.json
                  · scripts/rich-chapters/chapter-NN.json 을 chapter.id 로 병합 ({...chapter, ...rich})
                  · STRIP 필드 제거, headword 중복은 richest만 유지(aliasIds 보존)
                  · scripts/readers-src/*.json 을 검증 후 readers로 포함
-                 └→ src/lib/data.js 가 동기 import → 6개 라우트 전부 소비
+                 · public/data/manifest.json 이 app-core/app-index/app-words/app-expressions/app-extended 해시 파일 매핑
+                 └→ src/main.js loadBoot() → src/lib/dataLoader.js fetch → src/lib/data.js façade/live binding → 6개 라우트 소비
 ```
 
 - `rich-chapters/chapter-NN.json`의 NN은 **id**(불변)이고 화면 표시 번호(number)와 **다르다**
@@ -92,11 +93,12 @@ scripts/{verb,expr,vocab,pattern}-src/*.json      ← 손편집 시드 (263+ 파
 
 ## 번들/데이터 실측 (2026-07-05, commit 46793a7)
 
-- dist: `data-*.js` 17.6MB(gzip 4.94MB) / `index-*.js` 230KB / css 105KB.
+- dist: WS1 완료 후 예전 `data-*.js` 청크 없음. 부트 데이터는 `app-core`+`app-index` gzip **1,099,441 bytes**.
+- legacy 실측(2026-07-05): `data-*.js` 17.6MB(gzip 4.94MB) / `index-*.js` 230KB / css 105KB.
 - app-data.json 18.8MB = extendedVocab 9.0 + expressions 4.2 + words 2.8 + course 1.7 + patterns 0.5 + grammar 0.3 + 기타.
 - 항목 수: words 545 · newcomerVocab 18 · extendedVocab 2247 · expressions 788(dedupe 후) · patterns → 총 3,768.
 
-## localStorage 키 전수 (2026-07-05 기준)
+## localStorage 키 전수 (2026-07-08 기준)
 
 | 키 | 모듈 | 형태 |
 |---|---|---|
@@ -109,13 +111,17 @@ scripts/{verb,expr,vocab,pattern}-src/*.json      ← 손편집 시드 (263+ 파
 | `kcs.orientation-v1` | stores.js | '1'/'0' — C9 How Korean Works 오리엔테이션 완료 |
 | `kcs.ime-fallback-v1` | stores.js | '1'/'0' — 타이핑 문항의 어절 뱅크 폴백 사용 |
 | `kcs.roman-nudge-v1` | stores.js | '1'/'0' — 로마자 웨이닝 넛지 1회 확인 |
+| `kcs.onboarded-v1` | stores.js | '1'/'0' — 첫 실행 온보딩 완료 |
+| `kcs.start-chapter-v1` | stores.js | string — 배치 테스트 추천 시작 챕터 id |
+| `kcs.learn-open-v1` | stores.js | JSON array(Set) — 사용자가 펼친 Learn 레벨 그룹 |
 | `kcs.checkpoint-v1` | stores.js | JSON object {trackId: {best, last, total, lastAt, weakChapterIds}} |
 | `kcs.readers-v1` | stores.js | JSON object {readerId: {readAt, score, total, summary?}} |
 | `ksrs-v1` | srs.js | JSON object {entryId: {box, due, reps, lapses}} |
 | `kcs.mistakes-v1` | mistakes.js | JSON object {entryId: {misses, lastMissed}} |
+| `kcs.study-v1` | progress.js | JSON object {goal, log: {YYYY-MM-DD: count}} |
+| `kcs.streak-v1` | streak.js | JSON object {current, best, lastDay} |
+| `kcs.writings-v1` | writings.js | JSON object {chapterId: [{text, date, checked}]} — 챕터별 쓰기 아카이브 |
+| `kcs.last-backup-at` | backup.js | string timestamp(ms) — 마지막 백업 시각, 백업 대상 제외 |
 
-계획된 신규 키(해당 WS 완료 시 이 표에서 ⬜→확정으로): `kcs.streak-v1`(WS5) · `kcs.onboarded-v1`,
-`kcs.start-chapter-v1`(WS4) · `kcs.writings-v1`(WS6) ·
-`kcs.learn-open-v1`(WS12) · `kcs.last-backup-at`(WS3, 백업 대상 제외).
-
-(WS에서 키를 새로 만들면 이 표에 추가할 것. WS3 백업 대상의 단일 소스가 이 표다.)
+(WS에서 키를 새로 만들면 이 표와 `src/lib/backup.js`의 `BACKUP_KEYS`에 추가할 것.
+단, `kcs.last-backup-at`은 백업 리마인더 메타데이터라 백업 파일에는 넣지 않는다.)

@@ -1,14 +1,27 @@
 <script>
   import { chapters, readers, vocabPacks } from '../data.js';
   import { mistakes } from '../mistakes.js';
-  import { study, streak } from '../progress.js';
+  import { streak } from '../streak.js';
   import { masteryOf, reviews } from '../srs.js';
   import { checkpointSlots } from '../checkpoints.js';
-  import { isTrackStart } from '../curriculumStructure.js';
+  import { groupsForLearnHome } from '../learnGroups.js';
+  import { continueChapter } from '../placement.js';
   import { buildTodayMission, chapterItemIds, packItemIds } from '../studyLinks.js';
-  import { checkpointProgress, lessonProgress, orientationDone, packProgress, readerProgress, romanizationVisible, romanNudgeSeen } from '../stores.js';
+  import {
+    checkpointProgress,
+    learnOpenGroups,
+    lessonProgress,
+    orientationDone,
+    packProgress,
+    readerProgress,
+    romanizationVisible,
+    romanNudgeSeen,
+    startChapterId,
+    toggleLearnOpenGroup,
+  } from '../stores.js';
   import LearnMissionPanel from './LearnMissionPanel.svelte';
   import LearnProgressCard from './LearnProgressCard.svelte';
+  import LearnLevelGroup from './LearnLevelGroup.svelte';
   import ReadingRoom from './ReadingRoom.svelte';
 
   export let onOpenChapter = () => {};
@@ -20,6 +33,8 @@
   export let onOpenReader = () => {};
   export let onResetCompleted = () => {};
   export let onDismissRomanNudge = () => {};
+
+  let chapterFilter = '';
 
   $: packsByChapter = vocabPacks.reduce((acc, item) => {
     const key = item.insertAfterChapter;
@@ -38,16 +53,25 @@
   const checkpointsAfter = (chapter) => slotsByChapter[chapter.id] || [];
 
   $: doneCount = chapters.filter((chapter) => $lessonProgress.has(chapter.id)).length;
+  $: continueTarget = continueChapter(chapters, $lessonProgress, $startChapterId);
+  $: continueSource = continueTarget && $startChapterId === continueTarget.id ? 'Placement recommendation' : 'Next unfinished chapter';
+  $: continuePct = Math.round((doneCount / Math.max(1, chapters.length)) * 100);
   $: allItemIds = [...new Set(chapters.flatMap(chapterItemIds))];
   $: courseMastery = masteryOf($reviews, allItemIds);
-  $: chMastery = (chapter) => masteryOf($reviews, chapterItemIds(chapter));
-  $: streakDays = streak($study);
+  $: streakDays = $streak.current || 0;
   $: todayMission = buildTodayMission({
     chapters,
     completedIds: $lessonProgress,
     reviews: $reviews,
     mistakeIds: Object.keys($mistakes),
   });
+  $: levelGroups = groupsForLearnHome({
+    chapters,
+    completedIds: $lessonProgress,
+    openKeys: $learnOpenGroups,
+    filterText: chapterFilter,
+  });
+  $: hasFilter = chapterFilter.trim().length > 0;
   $: showRomanNudge = !$romanNudgeSeen && $romanizationVisible && $lessonProgress.has('chapter-03');
 </script>
 
@@ -56,6 +80,46 @@
     <div class="eyebrow">Korean · A1–B1</div>
     <h1>Your lessons</h1>
     <p>Start with Hangul, then work down the chapters. Tap any card to open it.</p>
+  </div>
+
+  {#if continueTarget}
+    <button class="continue-card" on:click={() => onOpenChapter(continueTarget)}>
+      <span class="bc-ico cont">{continueTarget.number}</span>
+      <span class="bc-main">
+        <strong>이어서 학습 · {continueTarget.number}과 {continueTarget.title}</strong>
+        <span>{continueSource} · {continuePct}% complete</span>
+      </span>
+      <span class="chev">▸</span>
+    </button>
+  {/if}
+
+  <label class="chapter-filter">
+    <span>Find a chapter</span>
+    <input bind:value={chapterFilter} placeholder="Search title, number, or topic..." aria-label="Filter chapters" />
+    {#if hasFilter}
+      <button type="button" on:click={() => { chapterFilter = ''; }}>Clear</button>
+    {/if}
+  </label>
+
+  <div class="path">
+    {#each levelGroups as group}
+      <LearnLevelGroup
+        {group}
+        lessonProgress={$lessonProgress}
+        reviewsState={$reviews}
+        packProgress={$packProgress}
+        checkpointProgress={$checkpointProgress}
+        {packsAfter}
+        {checkpointsAfter}
+        {onOpenChapter}
+        {onOpenPack}
+        {onOpenCheckpoint}
+        onToggleGroup={() => toggleLearnOpenGroup(group.key)}
+      />
+    {/each}
+    {#if hasFilter && levelGroups.length === 0}
+      <p class="empty-filter">No chapters match that filter.</p>
+    {/if}
   </div>
 
   <LearnProgressCard {courseMastery} {streakDays} {doneCount} totalChapters={chapters.length} {onResetCompleted} />
@@ -89,54 +153,6 @@
     <span class="chev">▸</span>
   </button>
 
-  <div class="path">
-    {#each chapters as chapter, i}
-      {@const mastery = chMastery(chapter)}
-      {#if isTrackStart(chapter, chapters[i - 1])}<div class="path-divider"><span>{chapter.curriculumTrack.label}</span></div>{/if}
-      <button class="node" on:click={() => onOpenChapter(chapter)}>
-        <span class="num" class:done={$lessonProgress.has(chapter.id)}>{$lessonProgress.has(chapter.id) ? '✓' : chapter.number}</span>
-        <span class="node-main"><strong>{chapter.title}</strong><span>{chapter.goal}</span></span>
-        {#if mastery.started}
-          <span class="node-mast" title="{mastery.mastered} of {mastery.total} mastered">
-            <span class="nm-bar"><span style="width:{mastery.pct}%"></span></span>
-            <span class="nm-pct">{mastery.pct}%</span>
-          </span>
-        {/if}
-        <span class="chev">▸</span>
-      </button>
-      {#each packsAfter(chapter) as pack}
-        {@const packMastery = masteryOf($reviews, packItemIds(pack))}
-        <button class="pack-node" on:click={() => onOpenPack(pack)}>
-          <span class="pack-badge" class:done={$packProgress.has(pack.id)}>{$packProgress.has(pack.id) ? '✓' : '+'}</span>
-          <span class="pack-main">
-            <span class="pack-kicker">Vocab Pack · {pack.items.length} words</span>
-            <strong>{pack.title}</strong>
-            <span>{pack.goal}</span>
-          </span>
-          {#if packMastery.started}
-            <span class="node-mast" title="{packMastery.mastered} of {packMastery.total} mastered">
-              <span class="nm-bar"><span style="width:{packMastery.pct}%"></span></span>
-              <span class="nm-pct">{packMastery.pct}%</span>
-            </span>
-          {/if}
-          <span class="chev">▸</span>
-        </button>
-      {/each}
-      {#each checkpointsAfter(chapter) as slot}
-        {@const checkpoint = $checkpointProgress[slot.trackId]}
-        <button class="checkpoint-node" on:click={() => onOpenCheckpoint(slot)}>
-          <span class="checkpoint-badge" class:done={!!checkpoint}>{checkpoint ? '✓' : slot.track}</span>
-          <span class="checkpoint-main">
-            <span class="checkpoint-kicker">Checkpoint · no lock</span>
-            <strong>{slot.title}</strong>
-            <span>{checkpoint ? `Last ${checkpoint.last}/${checkpoint.total} · best ${checkpoint.best}/${checkpoint.total}` : slot.subtitle}</span>
-          </span>
-          <span class="chev">▸</span>
-        </button>
-      {/each}
-    {/each}
-  </div>
-
   <ReadingRoom readers={readers} progress={$readerProgress} onOpenReader={onOpenReader} />
 
   <button class="big-card" on:click={onOpenGrammar}>
@@ -159,49 +175,24 @@
   .bc-ico { width: 50px; height: 50px; display: grid; place-items: center; border-radius: 13px; background: var(--ink); color: var(--bg); font-family: var(--serif-ko); font-size: 25px; font-weight: 700; flex: none; }
   .bc-ico.gram { background: var(--accent); }
   .bc-ico.compass { background: var(--green); }
+  .bc-ico.cont { background: var(--primary); color: var(--primary-on); }
   .bc-main { display: grid; gap: 2px; flex: 1; }
   .bc-main strong { font-family: var(--serif-ko); font-size: 18px; font-weight: 600; }
   .bc-main span { color: var(--ink-2); font-size: 14px; }
   .chev { color: var(--ink-3); }
+  .continue-card { display: flex; align-items: center; gap: 14px; text-align: left; padding: 16px 18px; border-radius: var(--radius);
+    background: linear-gradient(180deg, #fff 0%, #fffaf4 100%); border: 1px solid rgba(232,85,46,.28);
+    box-shadow: var(--shadow-2); }
+  .continue-card:hover { border-color: var(--primary); transform: translateY(-1px); }
+  .chapter-filter { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
+    padding: 10px 12px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border);
+    box-shadow: var(--shadow-1); }
+  .chapter-filter span { font-size: 11px; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+  .chapter-filter input { min-width: 0; padding: 9px 10px; border-radius: var(--r-1); border: 1px solid var(--border);
+    background: var(--surface-2); color: var(--ink); font: inherit; }
+  .chapter-filter button { padding: 8px 10px; border-radius: var(--radius-pill); background: var(--ink); color: var(--bg); font-size: 12px; font-weight: 850; }
   .path { display: grid; gap: 10px; }
-  .path-divider { display: flex; align-items: center; gap: 12px; margin: 10px 2px 4px;
-    font-size: 11px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); }
-  .path-divider::before, .path-divider::after { content: ''; height: 1px; background: var(--border); flex: 1; }
-  .node { display: flex; align-items: center; gap: 14px; text-align: left; padding: 14px 16px; border-radius: var(--radius);
-    background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-1); transition: transform .1s var(--bounce), border-color .1s; }
-  .node:hover { transform: translateY(-2px); border-color: var(--ink); box-shadow: var(--shadow-2); }
-  .num { width: 46px; height: 46px; display: grid; place-items: center; border-radius: 999px; background: var(--surface);
-    border: 1px solid var(--border-2); color: var(--ink); font-family: var(--serif); font-weight: 600; font-size: 18px; flex: none; }
-  .num.done { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-  .node-main { display: grid; gap: 2px; flex: 1; }
-  .node-main strong { font-family: var(--serif-ko); font-size: 17px; font-weight: 600; }
-  .node-main span { color: var(--ink-2); font-size: 13px; }
-  .node-mast { display: grid; justify-items: end; gap: 3px; flex: none; width: 64px; }
-  .nm-bar { width: 100%; height: 6px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); overflow: hidden; }
-  .nm-bar span { display: block; height: 100%; border-radius: 999px; background: var(--type-word); }
-  .nm-pct { font-size: 11px; font-weight: 800; color: var(--ink-3); }
-  .pack-node { display: flex; align-items: center; gap: 12px; text-align: left; margin-left: 34px; padding: 12px 14px;
-    border-radius: var(--r-1); background: #fffaf4; border: 1px dashed var(--border-2); box-shadow: var(--shadow-1);
-    transition: transform .1s var(--bounce), border-color .1s, background .1s; }
-  .pack-node:hover { transform: translateY(-1px); border-color: var(--accent); background: #fff; }
-  .pack-badge { width: 38px; height: 38px; display: grid; place-items: center; border-radius: 999px;
-    background: var(--primary-wash); color: var(--accent-ink); border: 1px solid rgba(232,85,46,.22); font-weight: 900; flex: none; }
-  .pack-badge.done { background: var(--green-soft); color: var(--green-dark); border-color: rgba(62,142,78,.26); }
-  .pack-main { display: grid; gap: 1px; flex: 1; min-width: 0; }
-  .pack-kicker { color: var(--accent-ink); font-size: 10px; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
-  .pack-main strong { font-size: 16px; font-weight: 850; }
-  .pack-main span:last-child { color: var(--ink-2); font-size: 13px; line-height: 1.35; }
-  .checkpoint-node { display: flex; align-items: center; gap: 12px; text-align: left; margin: 2px 0 2px 34px; padding: 13px 14px;
-    border-radius: var(--r-1); background: #f7fbf8; border: 1px solid rgba(36,119,68,.22); box-shadow: var(--shadow-1);
-    transition: transform .1s var(--bounce), border-color .1s, background .1s; }
-  .checkpoint-node:hover { transform: translateY(-1px); border-color: var(--green); background: #fff; }
-  .checkpoint-badge { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 999px;
-    background: var(--green-soft); color: var(--green-dark); border: 1px solid rgba(62,142,78,.26); font-weight: 900; flex: none; }
-  .checkpoint-badge.done { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-  .checkpoint-main { display: grid; gap: 1px; flex: 1; min-width: 0; }
-  .checkpoint-kicker { color: var(--green-dark); font-size: 10px; font-weight: 850; letter-spacing: .1em; text-transform: uppercase; }
-  .checkpoint-main strong { font-size: 16px; font-weight: 850; }
-  .checkpoint-main span:last-child { color: var(--ink-2); font-size: 13px; line-height: 1.35; }
+  .empty-filter { margin: 0; padding: 15px 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border); color: var(--ink-2); }
   .roman-nudge { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap;
     padding: 14px 16px; border-radius: var(--radius); background: #fff; border: 1px solid rgba(36,119,68,.25);
     border-left: 4px solid var(--green); box-shadow: var(--shadow-1); }
@@ -212,8 +203,7 @@
   .rn-actions button { padding: 9px 13px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--border); font-size: 12px; font-weight: 850; }
   .rn-actions button.primary { background: var(--green); color: #fff; border-color: var(--green); }
   @media (max-width: 520px) {
-    .pack-node { margin-left: 0; align-items: flex-start; }
-    .pack-node .node-mast { display: none; }
-    .checkpoint-node { margin-left: 0; align-items: flex-start; }
+    .chapter-filter { grid-template-columns: 1fr auto; }
+    .chapter-filter span { grid-column: 1 / -1; }
   }
 </style>

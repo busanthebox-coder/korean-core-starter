@@ -47,7 +47,7 @@ let manifest;                       // {name: hashedFilename}
 async function fetchJson(name) { ... } // manifest 조회 → fetch → 실패 시 1회 재시도 → throw
 export async function loadBoot()    // core+index 병렬 로드, data.js 내부 채움, dataState.core=true
 export async function ensureSection(name)  // 'words'|'expressions'|'extended' — 멱등(inflight promise 캐시)
-export function prefetchAll()       // words 즉시, expressions/extended는 requestIdleCallback
+export function prefetchAll()       // words 즉시; expressions/extended는 Dictionary 진입 시
 ```
 
 `src/lib/data.js`는 **façade로 유지**(6개 라우트의 import 문 무수정이 목표):
@@ -112,4 +112,30 @@ Dictionary는 `$entriesVersion` 참조로 리렌더 트리거).
 - 서비스워커/PWA(WS9 별도). IndexedDB 캐시(브라우저 HTTP 캐시로 충분, v1 범위 밖).
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-08 Codex ULW 실행.
+
+변경 파일:
+- `scripts/build-app-data.mjs`: legacy `korean/data/app-data.json`/`data-bundle.js`를 유지하면서 `public/data/manifest.json` + 해시 적용 split JSON 5종 생성.
+- `src/lib/data.js`, `src/lib/dataLoader.js`: 동기 JSON import 제거, `entries` 배열 정체성 유지, `entriesVersion`, `loadBoot`, `ensureSection`, retry/error state, full-entry hydration 추가.
+- `src/main.js`, `index.html`: boot splash, loadBoot gate, 실패 시 retry UI 추가.
+- `src/routes/Dictionary.svelte`, `src/routes/Learn.svelte`, `src/routes/Practice.svelte`, `src/lib/components/ReadingRoom.svelte`: index-first 렌더와 필요한 section hydration 반영.
+- `scripts/check-bundle-size.mjs`, `vite.config.js`, `package.json`: old data chunk 제거, warning limit 1000, boot gzip guard 연결.
+- `src/lib/dataLoader.test.js`, `src/lib/dataConsumers.test.js`, `src/test-setup.js`, `src/lib/data.test.js`: split loader와 sync import 회귀 방지 테스트 추가/수정.
+
+실행 판단:
+- `korean/data/app-data.json` 산출은 하위 호환과 기존 검증 스크립트 때문에 유지했다.
+- 초기 화면 경량화를 우선해 `prefetchAll()`은 `words`만 즉시 로드한다. `expressions`/`extended`는 Dictionary 진입 시 병렬 로드한다.
+- `#/chat`은 유지하고, QA/직관성을 위해 `#/conversation`도 같은 Roleplay 화면으로 여는 alias를 추가했다.
+
+검증 결과:
+- RED: `scripts/check-bundle-size.mjs` 부재 실패, `src/lib/dataLoader.test.js`의 `dataLoader.js` 부재 실패를 evidence로 저장.
+- `npm run preflight`: 38 files / 204 tests passed, build passed, `lint:content` passed.
+- `npm run build`: boot data gzip **1,099,441 bytes** (`app-core` 975,875 + `app-index` 123,566), target 1,200,000 이하.
+- `dist/assets/data-*.js`: 없음.
+- Production preview QA: `#/learn`, `#/dictionary`, `#/practice`, `#/guide`, `#/talk`, `#/conversation` route smoke 통과.
+- Boot failure QA: `/data/manifest.json` 차단 시 "Study data could not load." + "Try again" 버튼 확인.
+- Network order QA: Learn 첫 화면은 `manifest/core/index/words`만 로드, Dictionary 진입 후 `expressions/extended` 로드 확인.
+- Responsive visual QA: 375/768/1280 폭에서 Learn/Dictionary/Practice overflow 0px.
+
+남긴 이슈:
+- 없음. WS9(PWA/offline), WS10(고품질 오디오), 인증/계정은 현 WS 범위 밖.

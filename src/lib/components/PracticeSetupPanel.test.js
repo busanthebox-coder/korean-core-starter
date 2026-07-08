@@ -18,4 +18,19 @@ describe('PracticeSetupPanel', () => {
 
     expect(screen.getByRole('option', { name: 'Focused items (2)' })).toBeInTheDocument();
   });
+
+  it('shows the next review time when due review is empty', () => {
+    render(PracticeSetupPanel, {
+      entries: [],
+      chapters: [],
+      kindOptions: [['all', 'All']],
+      kindCounts: { all: 0 },
+      deckSize: 4,
+      poolLength: 0,
+      goal: 5,
+      nextDueLabel: 'in about 2 hours',
+    });
+
+    expect(screen.getByText(/next review in about 2 hours/i)).toBeInTheDocument();
+  });
 });

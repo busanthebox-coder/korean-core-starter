@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect } from 'vitest';
 import { spawnSync } from 'node:child_process';
 import { cpSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -11,6 +11,7 @@ import {
   guideTracks,
   grammar,
   levels,
+  validateVocabPackItems,
   vocabPacks,
 } from './data.js';
 
@@ -138,43 +139,20 @@ describe('data layer', () => {
       expect(example?.ko).not.toContain('십이예요');
     }
   });
-  it('fails loudly when generated vocab pack items reference missing entries', async () => {
-    const generatedDataWithBadPackReference = {
-      words: [{ id: 'word-known-001', hangul: '테스트', english: 'test', level: 'A1', sort: 1 }],
-      newcomerVocab: [],
-      extendedVocab: [],
-      expressions: [],
-      patterns: [],
-      vocabPacks: [
-        {
-          id: 'pack-test',
-          title: 'Test pack',
-          items: [
-            { entryId: 'word-known-001', entryHangul: '테스트' },
-            { entryId: 'word-missing-001', entryHangul: '누락' },
-          ],
-        },
+  it('fails loudly when generated vocab pack items reference missing entries', () => {
+    const pack = {
+      id: 'pack-test',
+      title: 'Test pack',
+      items: [
+        { entryId: 'word-known-001', entryHangul: '테스트' },
+        { entryId: 'word-missing-001', entryHangul: '누락' },
       ],
-      course: { chapters: [], curriculumGuide: [], functionTags: [] },
-      grammar: { grammarItems: [], endingItems: [] },
-      activities: { chapterActivities: [] },
-      guide: { tracks: [] },
-      dialogues: { dialogues: [] },
-      conversations: { conversations: [] },
     };
+    const lookup = new Map([['word-known-001', { id: 'word-known-001' }]]);
 
-    vi.resetModules();
-    vi.doMock('../../korean/data/app-data.json', () => ({
-      default: generatedDataWithBadPackReference,
-    }));
-    try {
-      await expect(import('./data.js?invalid-vocab-pack-reference')).rejects.toThrow(
-        'Invalid vocab pack reference: pack-test -> word-missing-001',
-      );
-    } finally {
-      vi.doUnmock('../../korean/data/app-data.json');
-      vi.resetModules();
-    }
+    expect(() => validateVocabPackItems(pack, lookup)).toThrow(
+      'Invalid vocab pack reference: pack-test -> word-missing-001',
+    );
   });
   it('retags beginner essentials as A1, including pack words learners expect first', () => {
     for (const hangul of ['엄마', '하나', '월요일', '검은색', '까만색']) {

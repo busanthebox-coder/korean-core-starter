@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/check-bundle-size.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "lint:content": "node scripts/lint-content.mjs",
+    "preflight": "npm run test && npm run build && npm run lint:content",
     "validate:contrast": "node scripts/validate-contrast-items.mjs",
     "validate:hanja": "node scripts/validate-hanja-roots.mjs",
     "validate:readers": "node scripts/validate-readers.mjs && node scripts/check-reader-coverage.mjs",

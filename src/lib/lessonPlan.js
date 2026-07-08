@@ -9,6 +9,23 @@ export function hasPracticeReps(reviews = {}, ids = []) {
   return ids.some((id) => (reviews[id]?.reps || 0) > 0);
 }
 
+export function grammarFormLabel(title = '') {
+  const label = String(title || '').split('—')[0].trim();
+  const outsideParens = label.replace(/\([^)]*\)/g, '').trim();
+  const koreanParen = label.match(/\(([^)]*[ㄱ-ㅎㅏ-ㅣ가-힣][^)]*)\)/);
+  if (koreanParen && !/[ㄱ-ㅎㅏ-ㅣ가-힣]/.test(outsideParens)) return koreanParen[1].trim();
+  return label.replace(/\s*\([^)]*[A-Za-z][^)]*\)\s*$/g, '').trim() || label;
+}
+
+export function grammarSelfCheckItems(notes = []) {
+  return notes
+    .map((note, index) => {
+      const form = grammarFormLabel(note?.title ?? note);
+      return form ? { id: `grammar-${index}`, form, label: `『${form}』를 썼나요?` } : null;
+    })
+    .filter(Boolean);
+}
+
 export function lessonPlanState({
   chapter,
   itemIds = [],
