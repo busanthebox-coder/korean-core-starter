@@ -47,3 +47,40 @@ test('respond mode: a correct typed reply is graded ✓', async () => {
   expect(verdict).not.toBeNull();
   expect(verdict.classList.contains('ok')).toBe(true);
 });
+
+test('respond mode: a close typed reply gives a hidden-answer hint first', async () => {
+  const { container } = render(Conversation);
+  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await fireEvent.click(screen.getByText('받아치기'));
+
+  const input = container.querySelector('textarea.respond');
+  await fireEvent.input(input, { target: { value: '별거 없는데' } });
+  await fireEvent.click(screen.getByText(/Check/));
+
+  expect(screen.getByText(/거의 다 왔어요/)).toBeTruthy();
+  expect(screen.getByText(/Missing hint/)).toBeTruthy();
+  expect(screen.queryByText('A natural reply')).toBeNull();
+  expect(screen.queryByText('별거 없는데, 왜?')).toBeNull();
+  expect(input.disabled).toBe(false);
+});
+
+test('respond mode: repeated misses open copy-the-model flow before advancing', async () => {
+  const { container } = render(Conversation);
+  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await fireEvent.click(screen.getByText('받아치기'));
+
+  const input = container.querySelector('textarea.respond');
+  await fireEvent.input(input, { target: { value: '별거 없는데' } });
+  await fireEvent.click(screen.getByText(/Check/));
+  await fireEvent.click(screen.getByText(/Check/));
+
+  expect(screen.getByText(/따라 써 보세요/)).toBeTruthy();
+  expect(screen.getByText('A natural reply')).toBeTruthy();
+  expect(screen.getByText('별거 없는데, 왜?')).toBeTruthy();
+  expect(container.querySelector('.chat .row.right')).toBeNull();
+
+  await fireEvent.input(input, { target: { value: '별거 없는데, 왜?' } });
+  await fireEvent.click(screen.getByText(/Check/));
+
+  expect(container.querySelector('.chat .row.right')).not.toBeNull();
+});

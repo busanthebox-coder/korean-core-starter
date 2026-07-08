@@ -75,4 +75,28 @@ export function gradeReply(typed, modelKo) // → {verdict: 'correct'|'close'|'w
 - normalizeKo 자체 변경(다른 퀴즈들이 공유 — replyGrader 안에서만 확장).
 
 ## 완료 기록
-(실행자가 작성)
+- 날짜: 2026-07-08
+- 변경 파일:
+  - `src/lib/replyGrader.js`
+  - `src/lib/replyGrader.test.js`
+  - `src/lib/components/ReplyPracticePanel.svelte`
+  - `src/routes/Conversation.svelte`
+  - `src/routes/Conversation.test.js`
+  - `docs/superpowers/specs/v2-upgrade/00-README.md`
+  - `docs/superpowers/specs/v2-upgrade/ws7-roleplay-grading.md`
+- 구현:
+  - `gradeReply(typed, modelKo)` 순수 함수를 추가했다. 조사 생략, 어순 변경, 반말/요체 차이, 과거/현재 스템 차이, ㅋㅋ/ㅠㅠ 같은 대화 노이즈를 규칙 기반으로 완화한다.
+  - `normalizeKo` 공유 함수는 변경하지 않았다. 확장 정규화와 토큰 매칭은 `replyGrader` 내부에만 둔다.
+  - respond 모드는 `correct / close / wrong` 3단계로 동작한다. 첫 close/wrong은 정답을 숨긴 채 masked missing hint만 보여 주고, 같은 턴 두 번째 close/wrong부터 모범답과 따라쓰기 입력을 연다.
+  - respond UI와 상태 관리는 `ReplyPracticePanel.svelte`로 분리해 `Conversation.svelte`가 250 LOC 기준 아래에 머물게 했다.
+  - 따라쓰기 통과는 진행만 시키고 첫 시도 점수에는 반영하지 않는다. pick 모드는 변경하지 않았다.
+- 테스트/검증:
+  - RED: `npx vitest run src/lib/replyGrader.test.js`가 새 모듈 부재로 실패하는 것을 확인했다.
+  - GREEN: `src/lib/replyGrader.test.js` 15개 통과. spec 표 케이스, false-positive 5개, 실제 roleplay 노이즈 케이스, 조사 스트립 예외 케이스를 포함했다.
+  - RED: `npx vitest run src/routes/Conversation.test.js`에서 close/copy-flow 테스트 2개가 기존 즉시 정답 노출 동작 때문에 실패하는 것을 확인했다.
+  - GREEN: `src/lib/replyGrader.test.js` + `src/routes/Conversation.test.js` 총 20개 통과.
+  - 전체 검증: `npx vitest run && npm run build && npm run lint:content` 통과(52 files / 270 tests, build PASS, content lint PASS).
+  - 브라우저 QA: Vite preview `http://127.0.0.1:5195/korean-core-starter/#/conversation`에서 Playwright로 desktop 1280px/mobile 390px 흐름을 검증했다. 증거: `.omo/evidence/ws7-roleplay-grading/qa-result.json`, `desktop-close-hint.png`, `desktop-copy-flow.png`, `desktop-advanced.png`, `mobile-close-hint.png`.
+  - 브라우저 QA 결과: 첫 close에서 모범답 숨김, masked hint 표시, 두 번째 miss에서 copy-flow 표시, 모범답 복사 후 오른쪽 말풍선 진행, console error 없음, horizontal overflow 없음, mobile 390px에서 respond 탭 텍스트 한 줄 유지.
+- 남긴 이슈:
+  - 없음.
