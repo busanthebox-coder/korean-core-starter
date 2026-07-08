@@ -4,25 +4,25 @@
       "id": "track-app-manual",
       "letter": "Start",
       "title": "App Manual",
-      "summary": "Use the app itself first: where to start, how daily study works, how to type Korean, and how to read the big picture before Chapter 1.",
+      "summary": "Start here before the course: what each tab is for, how a short study session flows, how to type Korean, and the big picture before Chapter 1.",
       "units": [
         {
           "id": "guide-app-how-to-use",
           "title": "How to use this app",
           "situation": "You opened Korean Core Starter and want a simple daily route instead of wandering through every tab.",
-          "goal": "I can choose what to do first, study for 15 minutes, and understand how review, romanization, and progress fit together.",
+          "goal": "I can choose the right tab without guessing and understand how review, romanization, progress, and backup fit together.",
           "beginnerGuide": [
             {
               "title": "The six tabs",
-              "body": "Learn is the course path. Practice is review and drills. Shadow is speaking imitation. Roleplay is guided conversation. Dictionary is the reference. Guide is practical help for Korea and for using this app."
+              "body": "Learn is the course path. Practice is review and short drills. Shadow is speaking imitation. Roleplay is guided conversation. Dictionary is the reference. Guide is practical help for Korea and for using this app."
             },
             {
-              "title": "A 15-minute day",
-              "body": "Start with Practice and clear due review for about 5 minutes. Open Learn for a few new screens for about 8 minutes. Finish with one Shadow line for about 2 minutes so the language reaches your mouth."
+              "title": "The main rule",
+              "body": "Do not treat the app like a dictionary database. Use Learn for the next small lesson, Practice for memory, and Dictionary only when a word keeps showing up and still feels unclear."
             },
             {
               "title": "How review works",
-              "body": "Items you miss can return through spaced review. The app brings them back after longer gaps so weak words stop disappearing."
+              "body": "Items you miss can return through spaced review. The app brings them back after longer gaps so weak words stop disappearing instead of being forgotten after one chapter."
             },
             {
               "title": "Romanization",
@@ -30,22 +30,22 @@
             },
             {
               "title": "Progress and backup",
-              "body": "Completion is stored in this browser. When backup/export is added, use it before changing devices. Until then, keep the same browser for steady progress."
+              "body": "Completion is stored in this browser. Use the backup card in Guide before changing devices, clearing browser data, or studying from another computer."
             }
           ],
           "steps": [
-            "Open Practice and clear anything due.",
-            "Open Learn and continue the next unfinished chapter or pack.",
-            "Add new words to review only when you want them to return later.",
-            "Use Dictionary when a word appears twice and still feels slippery.",
-            "Use Shadow or Roleplay briefly after study so the sentence becomes speakable.",
-            "Come back to Guide when a real-life Korea task blocks you."
+            "Open App Manual once and read the study flow.",
+            "Open Learn when you want new material.",
+            "Open Practice when you want a short session or review.",
+            "Open Dictionary when you need a deeper explanation for a word, expression, or pattern.",
+            "Open Guide again for real-life Korea tasks, Korean typing, backup, and app setup.",
+            "Use Shadow or Roleplay briefly after a lesson when you want the sentence to become speakable."
           ],
           "checkpoints": [
             "I know what each tab is for.",
-            "I can follow the 15-minute daily route.",
             "I know Romaja is temporary support, not the final reading habit.",
-            "I know progress lives in this browser unless I export it later."
+            "I know Practice is for memory, not random busywork.",
+            "I know progress lives in this browser unless I export a backup."
           ],
           "deepLinks": [
             {
@@ -62,6 +62,68 @@
               "label": "Open Dictionary",
               "url": "#/dictionary",
               "note": "Search words, expressions, and patterns."
+            }
+          ],
+          "keyPhrases": [],
+          "dialogue": []
+        },
+        {
+          "id": "guide-app-study-flow",
+          "title": "Study flow: short app sessions",
+          "situation": "You want Korean to improve in small daily chunks, like a language app, without turning study into a long textbook sit-down.",
+          "goal": "I can run a 10-15 minute session, finish one useful piece, and know what to ask a Korean friend or native helper later.",
+          "beginnerGuide": [
+            {
+              "title": "Think in small sessions",
+              "body": "One good session is not a whole chapter. It can be one dialogue, one word chunk, one grammar note, one practice set, or one sentence you can actually say."
+            },
+            {
+              "title": "Daily route",
+              "body": "Start with Practice for 3-5 minutes, then Learn for one new chunk, then end by saying or writing one sentence from memory. Stop while the next step still feels easy."
+            },
+            {
+              "title": "Chapter route",
+              "body": "Read the warm-up dialogue first so you know the situation. Add only the words that belong to that chapter. Study the grammar note, then use Practice to prove you can choose the form without looking."
+            },
+            {
+              "title": "Native helper route",
+              "body": "When a Korean native helps twice a week, bring three things: one sentence you made, one expression that felt weird, and one real-life situation you want to handle. Let the app explain the rule; let the native show what sounds natural."
+            },
+            {
+              "title": "When you feel stuck",
+              "body": "Do not restart from Chapter 1. Clear due review, reread the last completed chapter, and try one focused Practice mode. If the same word keeps failing, open its Dictionary page and read the examples."
+            }
+          ],
+          "steps": [
+            "Practice first: clear due review or run one short drill.",
+            "Learn next: continue the next unfinished screen, not necessarily the whole chapter.",
+            "Add review carefully: save useful words and expressions, not every item you see.",
+            "Produce one sentence: say it, type it, or use Roleplay if the chapter gives you enough pieces.",
+            "Mark complete only when the chapter goal feels usable without staring at the explanation.",
+            "On native-helper days, ask for naturalness and examples, not a full grammar lecture."
+          ],
+          "checkpoints": [
+            "I can study for 10-15 minutes without choosing random tabs.",
+            "I know the order: review, new chunk, one output.",
+            "I know Dictionary supports learning but does not replace Learn.",
+            "I know how to use native help even when the helper is not a teacher."
+          ],
+          "notes": "Pronunciation polish can wait until the core sentence habit is steady. For now, the strongest habit is to understand the sentence, recall it, and produce one small version yourself.",
+          "deepLinks": [
+            {
+              "label": "Run Practice first",
+              "url": "#/practice",
+              "note": "A short memory warm-up before new content."
+            },
+            {
+              "label": "Continue Learn",
+              "url": "#/learn",
+              "note": "Move one screen forward, then stop cleanly."
+            },
+            {
+              "label": "Open Roleplay",
+              "url": "#/chat",
+              "note": "Use it after the chapter gives you enough language pieces."
             }
           ],
           "keyPhrases": [],

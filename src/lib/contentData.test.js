@@ -96,9 +96,14 @@ describe('content data surfaces', () => {
     expect(appManual).toBeTruthy();
     expect((appManual.units || []).map((unit) => unit.id)).toEqual([
       'guide-app-how-to-use',
+      'guide-app-study-flow',
       'guide-app-korean-typing',
       'guide-app-how-korean-works',
     ]);
+    const studyFlow = appManual.units.find((unit) => unit.id === 'guide-app-study-flow');
+    expect(studyFlow?.beginnerGuide?.length).toBeGreaterThanOrEqual(5);
+    expect(studyFlow?.steps?.length).toBeGreaterThanOrEqual(6);
+    expect(studyFlow?.checkpoints?.some((item) => item.includes('native help'))).toBe(true);
 
     for (const hangul of ['안녕하세요', '천천히 말해 주세요', '화장실이 어디예요?']) {
       const entry = entries.find((item) => item.hangul === hangul);

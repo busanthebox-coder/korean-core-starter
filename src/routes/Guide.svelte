@@ -61,7 +61,7 @@
     if ((u.steps || []).length) s.push({ phase: 'steps', kind: 'steps', data: u.steps });
     const notes = [];
     if (u.costs) notes.push({ title: 'Cost', body: u.costs });
-    if (u.notes) notes.push({ title: 'Good to know', body: u.notes });
+    if (u.notes) notes.push({ title: 'Keep in mind', body: u.notes });
     if ((u.checkpoints || []).length) notes.push({ title: 'Before you go', body: u.checkpoints.join(' · ') });
     if (notes.length) s.push({ phase: 'steps', kind: 'beginner', data: notes });
     if ((u.deepLinks || []).length) s.push({ phase: 'steps', kind: 'links', data: u.deepLinks });
