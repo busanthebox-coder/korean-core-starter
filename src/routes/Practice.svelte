@@ -11,6 +11,7 @@
   import ConjugationSession from '../lib/components/ConjugationSession.svelte';
   import ExerciseHost from '../lib/components/ExerciseHost.svelte';
   import MatchGame from '../lib/components/MatchGame.svelte';
+  import ListeningSession from '../lib/components/ListeningSession.svelte';
   import PatternContrastSession from '../lib/components/PatternContrastSession.svelte';
   import PracticeRecoveryPanel from '../lib/components/PracticeRecoveryPanel.svelte';
   import PracticeSetupPanel from '../lib/components/PracticeSetupPanel.svelte';
@@ -23,6 +24,8 @@
   import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
   import { recordMissedItems } from '../lib/mistakeReview.js';
   import { buildContrastQuiz, contrastLevelOptions, contrastStats } from '../lib/patternContrast.js';
+  import { canUseKoreanSpeech } from '../lib/audio.js';
+  import { buildListeningPractice, countListeningCandidates } from '../lib/listening.js';
   import { markLessonPracticed } from '../lib/stores.js';
   import { FOCUS_DECK, WEAK_DECK, parseFocusParam } from '../lib/studyLinks.js';
   import { push } from 'svelte-spa-router';
@@ -34,6 +37,7 @@
   let result = null;
   let sessionCards = [];
   let contrastQuestions = [];
+  let listeningQuestions = [];
   let contrastLevel = 'all';
   let conjugationQuestions = [];
   let conjugationForms = ['past', 'politePresent'];
@@ -142,6 +146,9 @@
     && conjugationForms.some((form) => e.forms?.[form])
   );
   $: canConjugate = conjugationPool.length > 0 && conjugationForms.length > 0;
+  $: listeningChapterId = isChapterDeck(deck) ? deck : '';
+  $: listeningCount = countListeningCandidates(chapters, listeningChapterId);
+  $: canListen = canUseKoreanSpeech() && listeningCount >= 4;
   $: contrastCounts = contrastStats().byLevel;
   $: contrastCount = contrastLevel === 'all'
     ? Object.values(contrastCounts).reduce((sum, n) => sum + n, 0)
@@ -161,6 +168,13 @@
     });
     if (!conjugationQuestions.length) return;
     stage = 'conjugation';
+    window.scrollTo(0, 0);
+  }
+  async function startListening() {
+    await ensurePracticeReady();
+    listeningQuestions = buildListeningPractice(chapters, { chapterId: listeningChapterId, count: 8 });
+    if (!listeningQuestions.length) return;
+    stage = 'listening';
     window.scrollTo(0, 0);
   }
   $: canBuild = pool.some((e) => (e.examples || []).some((x) => x.ko && x.ko.trim().split(/\s+/).length >= 2));
@@ -219,6 +233,8 @@
       {canRecognize}
       {canBuild}
       {canConjugate}
+      {canListen}
+      {listeningCount}
       {conjugationFormOptions}
       {conjugationLevelOptions}
       conjugationCount={conjugationPool.length}
@@ -237,6 +253,7 @@
       onStartBuild={startBuild}
       onStartContrast={startContrast}
       onStartConjugation={startConjugation}
+      onStartListening={startListening}
     />
 
   {:else if stage === 'quiz'}
@@ -246,6 +263,10 @@
   {:else if stage === 'conjugation'}
     <button class="back" on:click={reset}>← Practice</button>
     <ConjugationSession items={conjugationQuestions} onDone={finish} />
+
+  {:else if stage === 'listening'}
+    <button class="back" on:click={reset}>← Practice</button>
+    <ListeningSession items={listeningQuestions} onDone={finish} />
 
   {:else if stage === 'match'}
     <button class="back" on:click={reset}>← Practice</button>

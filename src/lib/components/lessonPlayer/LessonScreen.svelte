@@ -15,6 +15,7 @@
   export let onInput = () => {};
   export let onMatchDone = () => {};
   export let onConjugationDone = () => {};
+  export let onListeningDone = () => {};
   export let writingState = { checkedIds: [], skipped: false };
   export let onWritingCheck = () => {};
   export let onWritingSkip = () => {};
@@ -31,7 +32,7 @@
     <GrammarScreen kind={cur.kind} data={cur.data} />
   {:else if ['dialogue', 'reading', 'culture', 'beginner', 'steps', 'links'].includes(cur.kind)}
     <DialogueScreen kind={cur.kind} data={cur.data} />
-  {:else if ['exercise', 'match', 'writing', 'conjugation'].includes(cur.kind)}
+  {:else if ['exercise', 'match', 'writing', 'conjugation', 'listening'].includes(cur.kind)}
     <PracticeScreen
       kind={cur.kind}
       data={cur.data}
@@ -44,6 +45,7 @@
       {onInput}
       {onMatchDone}
       {onConjugationDone}
+      {onListeningDone}
       {writingState}
       {onWritingCheck}
       {onWritingSkip}

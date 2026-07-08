@@ -9,6 +9,8 @@
   import { study } from '../progress.js';
   import { recordActivity } from '../streak.js';
   import { saveWriting, writingsByChapter } from '../writings.js';
+  import { canUseKoreanSpeech } from '../audio.js';
+  import { buildChapterListeningItems } from '../listening.js';
   import {
     buildConjugationQuiz,
     getChapterConjugationForms,
@@ -83,6 +85,12 @@
     };
   }
 
+  function listeningScreen(ch) {
+    if (!canUseKoreanSpeech()) return null;
+    const items = buildChapterListeningItems(ch, { count: 4 });
+    return items.length ? { phase: 'practice', kind: 'listening', data: { items } } : null;
+  }
+
   function buildChapterScreens(ch) {
     const s = [];
     const words = wordsScreenData(ch);
@@ -107,6 +115,8 @@
     const withReview = maybeInsertSpiralReview(s, allChapters, ch, {
       rng: seededRng(`${ch.id}-${new Date().toDateString()}`),
     });
+    const listening = listeningScreen(ch);
+    if (listening) withReview.push(listening);
     const conjugation = conjugationScreen(ch);
     if (conjugation) withReview.push(conjugation);
     const writing = (ch.writingTask && ch.writingTask.prompt)
@@ -156,8 +166,10 @@
   $: phaseLabel = curPhase ? PHASE[curPhase] : null;
   $: currentWritingState = (writingChecks, writingState(i));
   $: writingLocked = (writingChecks, cur?.kind === 'writing' && !writingPassed(cur, i));
-  $: nextLocked = (['match', 'conjugation'].includes(cur?.kind) && !revealed[i]) || writingLocked;
-  $: lockLabel = cur?.kind === 'writing' ? 'Check or skip first' : (cur?.kind === 'conjugation' ? 'Finish drill first' : 'Match all first');
+  $: nextLocked = (['match', 'conjugation', 'listening'].includes(cur?.kind) && !revealed[i]) || writingLocked;
+  $: lockLabel = cur?.kind === 'writing'
+    ? 'Check or skip first'
+    : (cur?.kind === 'match' ? 'Match all first' : 'Finish drill first');
   $: nextActionLabel = i === screenList.length - 1 ? 'Finish' : '다음 · Next';
 
   $: eyebrow = kicker || (chapter ? `Chapter ${chapter.number} · ${chapter.title}` : '');
@@ -231,6 +243,12 @@
     if (result?.wrongIds?.length) recordMissedItems(result.wrongIds);
     if (cur?.data?.onDone) cur.data.onDone(result);
   }
+  function finishListening(result) {
+    revealed = { ...revealed, [i]: true };
+    if (result?.total) study.log(result.total);
+    if (result?.wrongIds?.length) recordMissedItems(result.wrongIds);
+    if (cur?.data?.onDone) cur.data.onDone(result);
+  }
   function exCorrect() {
     return exerciseAnswerMatches(cur.data, answers[i]);
   }
@@ -281,6 +299,7 @@
       onInput={setAnswer}
       onMatchDone={finishMatch}
       onConjugationDone={finishConjugation}
+      onListeningDone={finishListening}
       writingState={currentWritingState}
       onWritingCheck={setWritingCheck}
       onWritingSkip={skipWritingCheck}

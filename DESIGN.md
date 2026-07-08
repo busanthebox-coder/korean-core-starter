@@ -58,6 +58,13 @@ This file records the existing Hanmok UI rules so new C0 pack screens extend the
 - Root browser lives in Guide as a reference/practice surface, with search, level tabs, a selected-root panel, and a short unique-option quiz.
 - Hanja cards explain meaning families only; they do not teach stroke order or ask learners to write characters.
 
+## C1 Listening UI Rules
+
+- Listening practice uses the shared `ListeningSession` surface in LessonPlayer and Practice, not a separate route.
+- The Korean sentence stays hidden until the learner answers; reveal shows Korean, romanization, and English together.
+- Playback is capped at three plays per item, with a 0.8x speed toggle for careful listening.
+- If the browser has no usable Korean Web Speech support, listening screens and mode buttons stay hidden.
+
 ## WS12 Learn IA Rules
 
 - Learn path is grouped by CEFR track accordions; only the current unfinished track opens by default.

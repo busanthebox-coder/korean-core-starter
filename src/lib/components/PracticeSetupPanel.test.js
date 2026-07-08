@@ -33,4 +33,25 @@ describe('PracticeSetupPanel', () => {
 
     expect(screen.getByText(/next review in about 2 hours/i)).toBeInTheDocument();
   });
+
+  it('shows listening mode only when Korean speech is available', async () => {
+    const baseProps = {
+      entries: [],
+      chapters: [],
+      kindOptions: [['all', 'All']],
+      kindCounts: { all: 4 },
+      poolLength: 4,
+      goal: 5,
+      canRecognize: true,
+      canListen: false,
+      listeningCount: 12,
+    };
+
+    const { rerender } = render(PracticeSetupPanel, baseProps);
+    expect(screen.queryByRole('button', { name: /Listening/ })).not.toBeInTheDocument();
+
+    await rerender({ ...baseProps, canListen: true });
+    expect(screen.getByRole('button', { name: /Listening/ })).toBeInTheDocument();
+    expect(screen.getByText('12 sentences ready')).toBeInTheDocument();
+  });
 });

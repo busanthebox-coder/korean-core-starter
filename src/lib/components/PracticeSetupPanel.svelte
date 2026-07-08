@@ -23,6 +23,8 @@
   export let canRecognize = false;
   export let canBuild = false;
   export let canConjugate = false;
+  export let canListen = false;
+  export let listeningCount = 0;
   export let conjugationFormOptions = [];
   export let conjugationLevelOptions = ['all'];
   export let conjugationCount = 0;
@@ -41,6 +43,7 @@
   export let onStartBuild = () => {};
   export let onStartContrast = () => {};
   export let onStartConjugation = () => {};
+  export let onStartListening = () => {};
 
   function toggleConjugationForm(key) {
     if (conjugationForms.includes(key)) {
@@ -164,6 +167,11 @@
         <button class="mode-card" type="button" disabled={!canBuild} on:click={onStartBuild}>
           <i class="ti ti-puzzle" aria-hidden="true"></i><strong>Build</strong><span>Arrange a sentence</span>
         </button>
+        {#if canListen}
+          <button class="mode-card" type="button" on:click={onStartListening}>
+            <i class="ti ti-volume" aria-hidden="true"></i><strong>Listening</strong><span>{listeningCount} sentences ready</span>
+          </button>
+        {/if}
         <button class="mode-card wide" type="button" on:click={onStartContrast}>
           <i class="ti ti-arrows-left-right" aria-hidden="true"></i><strong>Contrast Lab</strong><span>Tell similar patterns apart</span>
         </button>

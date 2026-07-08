@@ -1,6 +1,7 @@
 <script>
   import MatchGame from '../MatchGame.svelte';
   import ConjugationSession from '../ConjugationSession.svelte';
+  import ListeningSession from '../ListeningSession.svelte';
   import { scrambledOrderTokens } from '../../inlineExercise.js';
 
   export let kind = 'exercise';
@@ -14,6 +15,7 @@
   export let onInput = () => {};
   export let onMatchDone = () => {};
   export let onConjugationDone = () => {};
+  export let onListeningDone = () => {};
   export let writingState = { checkedIds: [], skipped: false };
   export let onWritingCheck = () => {};
   export let onWritingSkip = () => {};
@@ -147,6 +149,10 @@
   <h2 class="screen-h">Conjugate it</h2>
   <p class="screen-sub">Change each word into the form this chapter is teaching.</p>
   <ConjugationSession items={data?.items || []} onDone={onConjugationDone} compact />
+{:else if kind === 'listening'}
+  <h2 class="screen-h">Listening practice</h2>
+  <p class="screen-sub">Use the audio first. The Korean sentence appears only after you answer.</p>
+  <ListeningSession items={data?.items || []} onDone={onListeningDone} compact />
 {/if}
 
 <style>

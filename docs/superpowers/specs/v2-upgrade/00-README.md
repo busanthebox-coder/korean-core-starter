@@ -9,7 +9,7 @@
 > 주제·한자 40어근·오리엔테이션 10개념·생존 팩·키보드/앱 사용법 아웃라인)은
 > [02-CONTENT-BRIEFS.md](02-CONTENT-BRIEFS.md)에 확정돼 있다 — 재발명 금지.
 
-## 실행 순서와 파일 (총 19개 활성 + 보류 2)
+## 실행 순서와 파일 (총 20개 활성 + 보류 2)
 
 ### 기술 트랙 (WS)
 | 순서 | 파일 | 제목 | 상태 |
@@ -37,11 +37,12 @@
 | 6 | [c4-contrast-bank.md](c4-contrast-bank.md) | C4 문법 대조 뱅크 8→30쌍 | ✅ |
 | 7 | [c6-reading-room.md](c6-reading-room.md) | C6 읽기 자료실 (장문 20편 + 탭 글로스) | ✅ |
 | 8 | [c7-hanja-families.md](c7-hanja-families.md) | C7 한자어 어근 패밀리 40개 | ✅ |
+| 9 | [09-content-enrichment.md](09-content-enrichment.md#c1--듣기-트랙--오디오-단계로-이관--ws10과-함께-착수) | C1 듣기 트랙 (Web Speech 받아쓰기·듣고 고르기) | ✅ |
 
 ### 보류 (착수 조건 명시)
 | 파일/항목 | 조건 |
 |---|---|
-| [09-content-enrichment.md](09-content-enrichment.md) 내 **C1 듣기·C8 발음** | 오디오 단계(WS10)와 함께 — 사용자 결정 |
+| [09-content-enrichment.md](09-content-enrichment.md) 내 **C8 발음** | 오디오 단계(WS10)와 함께 — 사용자 결정 |
 | WS10 고품질 오디오 (마스터 플랜 §10) | 사용자 명시 승인(비용) — "오디오는 가장 마지막" |
 
 ### 의존성 요약
