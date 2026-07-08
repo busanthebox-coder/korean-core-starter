@@ -22,7 +22,7 @@
 | 6 | [ws4-onboarding-placement.md](ws4-onboarding-placement.md) | 온보딩 + 배치 테스트 | ✅ |
 | 7 | [ws12-learn-ia-polish.md](ws12-learn-ia-polish.md) | Learn 홈 레벨 아코디언 + 메타·a11y 폴리시 (C0/C3 전후 타이밍) | ✅ |
 | 8 | [ws6-writing-self-check.md](ws6-writing-self-check.md) | 쓰기 자기평가 | ✅ |
-| 9 | [ws8-grammar-gapfill.md](ws8-grammar-gapfill.md) | 문법 갭필 3건 (-지요/죠·반말·-(으)ㅂ시다) | ⬜ |
+| 9 | [ws8-grammar-gapfill.md](ws8-grammar-gapfill.md) | 문법 갭필 3건 (-지요/죠·반말·-(으)ㅂ시다) | ✅ |
 | 10 | [ws7-roleplay-grading.md](ws7-roleplay-grading.md) | Roleplay 채점 완화 (규칙 기반 3단계) | ⬜ |
 
 ### 콘텐츠 트랙 (C) — 기술 트랙과 병렬 가능

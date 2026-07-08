@@ -65,4 +65,26 @@
 - 기존 노트 "개선"(범위 밖 — 추가만).
 
 ## 완료 기록
-(실행자가 작성)
+2026-07-08 Codex(GPT-5.5)
+
+- 변경 파일:
+  - `scripts/rich-chapters/chapter-24.json` — `V-(으)ㅂ시다 — formal "let's" for groups` 노트 추가. 기존 `V-(으)ㄹ까요?` 뒤에 배치해 부드러운 제안과 격식 청유를 바로 대비하게 함.
+  - `scripts/rich-chapters/chapter-33.json` — `반말 4형 — casual statements, questions, commands, and let's` 노트 추가. 기존 speech-level 개요 뒤에 배치해 반말의 실제 4형 생산 규칙을 보강함.
+  - `scripts/rich-chapters/chapter-35.json` — `V/A-지요/죠 — Checking Shared Understanding` 노트 추가. `-잖아요` 뒤, `-거든요` 앞에 배치해 shared/confirmed information 계열 흐름을 유지함.
+  - `korean/data/app-data.json`, `korean/data-bundle.js`, `public/data/app-core.b643f72e.json`, `public/data/manifest.json` — `node scripts/build-app-data.mjs`로 앱 데이터 재생성. `generate-korean-data.mjs`는 실행하지 않음.
+  - `docs/superpowers/specs/v2-upgrade/00-README.md` — WS8 상태 ✅ 반영.
+- 검증:
+  - grammarNotes count: `chapter-24` 3→4, `chapter-33` 2→3, `chapter-35` 4→5.
+  - 신규 노트 필드 검증: `title`, `func`, `formTable`, `examples`, `keyPoint`, `pronunciation`, `drill`, `englishSpeakerPitfall` 전부 존재. 각 노트 `examples` 정확히 4개.
+  - `node scripts/build-app-data.mjs` — 성공. split core 해시 `app-core.b643f72e.json`.
+  - `npx vitest run && npm run build` — 51 files / 253 tests passed, build passed, boot data gzip 1,102,180 bytes PASS.
+  - `npm run lint:content` — PASS, dataIntegrity PASS.
+  - Playwright preview QA(`http://127.0.0.1:5194/korean-core-starter/`): 세 노트 모두 LessonPlayer에서 title/form/practice/pitfall 렌더 확인, 1280px horizontal overflow 0, console issue 0.
+  - 캡처: `.omo/evidence/ws8-grammar-gapfill/{chapter-24-eupsida.png,chapter-33-banmal-four-forms.png,chapter-35-jiyo-jyo.png,qa-result.json}`.
+- 셀프 리뷰:
+  - 로마자, 활용, 예문 자연성, 레벨 적정성, 기존 용어 일관성 확인.
+  - `-(으)ㅂ시다`는 회의·안내·건배·캠페인 톤으로 제한했고, 손윗사람 1:1 pitfall을 포함.
+  - 반말은 요 탈락, 명령, 청유, 이다/아니다 특례와 사회적 허가 조건을 포함.
+  - `-지요/죠`는 확인·동의·축약형 죠와 일반 정보 질문 pitfall을 포함.
+- 남긴 이슈:
+  - 없음.
