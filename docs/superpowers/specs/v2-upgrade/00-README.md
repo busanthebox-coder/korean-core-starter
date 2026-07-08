@@ -9,7 +9,7 @@
 > 주제·한자 40어근·오리엔테이션 10개념·생존 팩·키보드/앱 사용법 아웃라인)은
 > [02-CONTENT-BRIEFS.md](02-CONTENT-BRIEFS.md)에 확정돼 있다 — 재발명 금지.
 
-## 실행 순서와 파일 (총 18개 활성 + 보류 3)
+## 실행 순서와 파일 (총 19개 활성 + 보류 2)
 
 ### 기술 트랙 (WS)
 | 순서 | 파일 | 제목 | 상태 |
@@ -24,6 +24,7 @@
 | 8 | [ws6-writing-self-check.md](ws6-writing-self-check.md) | 쓰기 자기평가 | ✅ |
 | 9 | [ws8-grammar-gapfill.md](ws8-grammar-gapfill.md) | 문법 갭필 3건 (-지요/죠·반말·-(으)ㅂ시다) | ✅ |
 | 10 | [ws7-roleplay-grading.md](ws7-roleplay-grading.md) | Roleplay 채점 완화 (규칙 기반 3단계) | ✅ |
+| 11 | [ws9-pwa-offline.md](ws9-pwa-offline.md) | PWA/오프라인 캐시 + 업데이트 토스트 | ✅ |
 
 ### 콘텐츠 트랙 (C) — 기술 트랙과 병렬 가능
 | 순서 | 파일 | 제목 | 상태 |
@@ -41,7 +42,6 @@
 | 파일/항목 | 조건 |
 |---|---|
 | [09-content-enrichment.md](09-content-enrichment.md) 내 **C1 듣기·C8 발음** | 오디오 단계(WS10)와 함께 — 사용자 결정 |
-| WS9 PWA/오프라인 (마스터 플랜 §10) | WS1 완료 후 + 사용자 승인 |
 | WS10 고품질 오디오 (마스터 플랜 §10) | 사용자 명시 승인(비용) — "오디오는 가장 마지막" |
 
 ### 의존성 요약

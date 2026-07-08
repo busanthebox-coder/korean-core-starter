@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte';
   import Router, { push } from 'svelte-spa-router';
   import SideNav from './lib/components/SideNav.svelte';
   import BottomNav from './lib/components/BottomNav.svelte';
@@ -8,6 +9,7 @@
   import Conversation from './routes/Conversation.svelte';
   import Dictionary from './routes/Dictionary.svelte';
   import Guide from './routes/Guide.svelte';
+  import { applyPwaUpdate, pwaStatus, registerPwa } from './lib/pwa.js';
   import { romanizationVisible, toggleRomanization } from './lib/stores.js';
 
   const routes = {
@@ -20,6 +22,10 @@
     '/guide': Guide,
     '*': Learn,
   };
+
+  onMount(() => {
+    registerPwa();
+  });
 
   if (!window.location.hash) push('/learn');
 </script>
@@ -37,6 +43,14 @@
     <main class="content"><Router {routes} /></main>
   </div>
   <BottomNav />
+  {#if $pwaStatus.updateReady}
+    <div class="pwa-toast" role="status" aria-live="polite">
+      <span>Update ready</span>
+      <button type="button" on:click={() => applyPwaUpdate($pwaStatus.waitingWorker)}>Reload</button>
+    </div>
+  {:else if $pwaStatus.offlineReady}
+    <div class="pwa-toast subtle" role="status" aria-live="polite">Offline ready</div>
+  {/if}
 </div>
 
 <style>
@@ -54,9 +68,16 @@
   .body { display: grid; grid-template-columns: 240px minmax(0, 1fr); }
   .rail { position: sticky; top: 58px; height: calc(100vh - 58px); border-right: 1px solid var(--border); background: var(--surface); }
   .content { min-width: 0; padding-bottom: 72px; }
+  .pwa-toast { position: fixed; right: 18px; bottom: 18px; z-index: 70; display: flex; align-items: center; gap: 10px;
+    max-width: min(360px, calc(100vw - 32px)); padding: 11px 12px 11px 15px; border-radius: 14px;
+    background: var(--ink); color: var(--primary-on); box-shadow: var(--shadow-3); font-weight: 800; }
+  .pwa-toast.subtle { background: var(--surface); color: var(--green-dark); border: 1px solid var(--border); }
+  .pwa-toast button { padding: 7px 11px; border-radius: 10px; background: var(--primary); color: var(--primary-on);
+    font-size: 13px; font-weight: 850; white-space: nowrap; }
   @media (max-width: 760px) {
     .body { grid-template-columns: 1fr; }
     .rail { display: none; }
+    .pwa-toast { left: 12px; right: 12px; bottom: 74px; justify-content: space-between; }
   }
   @media (min-width: 761px) {
     :global(.bottomnav) { display: none; }
