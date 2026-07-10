@@ -742,7 +742,7 @@
     },
     {
       "type": "fillBlank",
-      "prompt": "Complete the acknowledgement: 아, 그런 이유였____.",
+      "prompt": "Complete the acknowledgement: 아, 그런 이유였____. (use -군요)",
       "explanation": "그런 이유였군요 politely acknowledges a newly understood reason.",
       "correct": "군요"
     },
@@ -776,12 +776,6 @@
       "explanation": "-군요 acknowledges or takes in information with a stronger “I see” feeling. 벌써 adds the surprise that it already happened."
     },
     {
-      "type": "fillBlank",
-      "prompt": "Complete the acknowledgement: 아, 그런 이유였____.",
-      "correct": "군요",
-      "explanation": "-군요 is natural when you are acknowledging an explanation. It sounds like “Ah, so that was the reason.”"
-    },
-    {
       "type": "errorCorrect",
       "prompt": "Fix the regret: '같이 갔으면 좋겠어요.' (missed past plan)",
       "correct": "같이 갔으면 좋았을 텐데요.",
@@ -797,6 +791,12 @@
       ],
       "correct": "생각보다 재미있네요.",
       "explanation": "-네요 fits fresh realization from direct experience. -ㄹ걸요 is a guess, and -었을 텐데요 is regret/hypothetical."
+    },
+    {
+      "type": "fillBlank",
+      "prompt": "Complete the soft guess: 지금 출발하면 아마 안 늦___. (use -(으)ㄹ걸요)",
+      "correct": "을걸요",
+      "explanation": "-(으)ㄹ걸요 gives a soft, unconfirmed guess. 늦다 ends in the consonant ㅈ, so it takes 을걸요: 안 늦을걸요."
     }
   ],
   "summaryCard": {

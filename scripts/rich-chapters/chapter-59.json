@@ -763,7 +763,7 @@
     },
     {
       "type": "fillBlank",
-      "prompt": "Complete the regret: 바로 사과했더라면 이렇게 ____ 않았을 텐데요.",
+      "prompt": "Complete the regret: 바로 사과했더라면 이렇게 ____ 않았을 텐데요. (use 후회하다)",
       "explanation": "후회하지 않았을 텐데요 means \"I would not regret it.\"",
       "correct": "후회하지"
     },
@@ -798,7 +798,7 @@
     },
     {
       "type": "fillBlank",
-      "prompt": "Complete: 바로 사과했더라면 이렇게 ____ 않았을 텐데요.",
+      "prompt": "Complete: 바로 사과했더라면 이렇게 ____ 않았을 텐데요. (use 되다)",
       "correct": "되지",
       "explanation": "되지 않았을 텐데요 keeps the result hypothetical and regretful. It means the situation would not have become like this."
     },

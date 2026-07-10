@@ -13,7 +13,9 @@ describe('hanja root validation', () => {
 
     expect(valid.ok).toBe(true);
     expect(valid.rootReviewCount).toBe(40);
-    expect(valid.memberReviewCount).toBe(214);
+    // 212 after the 2026-07-10 content review removed two misclassified members
+    // (대단하다 — native-origin, not 大端; 합병증 — 倂, not 病).
+    expect(valid.memberReviewCount).toBe(212);
 
     const missingRootReview = structuredClone(roots);
     delete missingRootReview[0].review;

@@ -724,7 +724,7 @@
     },
     {
       "type": "fillBlank",
-      "prompt": "Complete: 남은 건 ___ 주세요.",
+      "prompt": "Complete: 남은 건 ___ 주세요. (use 포장하다)",
       "explanation": "포장해 주세요 asks the restaurant to pack leftovers to go.",
       "correct": "포장해"
     },
@@ -760,8 +760,8 @@
     {
       "type": "fillBlank",
       "prompt": "Order: 'One bowl of rice, please.'",
-      "correct": "공기밥 하나 주세요.",
-      "explanation": "공기밥 is ordered by item, and 하나 is the native number one. 주세요 makes it a polite restaurant order."
+      "correct": "공깃밥 하나 주세요.",
+      "explanation": "공깃밥 is ordered by item, and 하나 is the native number one. 주세요 makes it a polite restaurant order."
     },
     {
       "type": "errorCorrect",

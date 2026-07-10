@@ -15,39 +15,65 @@
     "In this week's learning column, we met Han Jia, a Korean teacher. Han has taught foreign learners for more than ten years and said she has seen many difficulties especially in the period when learners move from beginner to intermediate. She described that period as a stage where learners know many sentences but the words do not come out immediately.",
     "Question: Why do many learners stop in the middle? Answer: The teacher said their ability has not stopped; their eyes have become higher. At first, even one phrase like hello feels exciting, but after learning a little, learners compare drama sentences with their own sentences. So their lack feels bigger. But she said that this is not failure; it is a sign that their ears have improved.",
     "Question: What should learners do when they have a native-speaking friend but the friend cannot explain well? Answer: Teacher Han advised asking the friend to confirm usability rather than demanding grammar explanations. She said it is enough to ask short questions like Does this sentence sound natural? or Do people really use it often? Why it is natural can be learned from textbooks or app explanations, while the friend is better for confirming the living feel of the sentence.",
-    "Question: What method do you recommend for people who have little time to study every day? Answer: The teacher said it is better to say already-known sentences in different ways than to look at many new sentences. For example, change I cannot go today because I am busy into I cannot go today because I have a meeting or I cannot go today because I do not feel well. He said that when the ability to change sentences builds up, the time spent stopping in real conversation decreases. Finally, she said she hopes learners will not feel ashamed of wrong sentences. Wrong sentences are signposts that show where the explanation you need now is.",
+    "Question: What method do you recommend for people who have little time to study every day? Answer: The teacher said it is better to say already-known sentences in different ways than to look at many new sentences. For example, change I cannot go today because I am busy into I cannot go today because I have a meeting or I cannot go today because I do not feel well. She said that when the ability to change sentences builds up, the time spent stopping in real conversation decreases. Finally, she said she hopes learners will not feel ashamed of wrong sentences. Wrong sentences are signposts that show where the explanation you need now is.",
     "After the interview, the teacher added one more point. A person who is good at Korean is not only someone who knows many difficult grammar patterns. In real conversation, the stronger person is someone who can quickly choose an easy sentence for the situation, check whether the other person understood, and say it again if needed. So learners should practice taking out and using knowledge they have already learned rather than only putting in new knowledge every day. This idea also fits the goal of this app: the app gives explanations, and real conversations confirm how the language feels in use."
   ],
   "comprehensionQuestions": [
     {
       "type": "multipleChoice",
       "prompt": "한 선생님은 초급에서 중급으로 가는 시기를 어떻게 설명했어요?",
-      "options": ["문장을 많이 아는데도 말이 바로 나오지 않는 구간", "아무 단어도 모르는 구간", "공부가 전혀 필요 없는 구간", "발음만 배우는 구간"],
+      "options": [
+        "문장을 많이 아는데도 말이 바로 나오지 않는 구간",
+        "아무 단어도 모르는 구간",
+        "공부가 전혀 필요 없는 구간",
+        "발음만 배우는 구간"
+      ],
       "correct": "문장을 많이 아는데도 말이 바로 나오지 않는 구간",
       "explanation": "첫 문단에서 중간 단계의 어려움을 이렇게 설명해요. 아는 것과 바로 말하는 것은 다르다는 뜻이에요."
     },
     {
       "type": "multipleChoice",
       "prompt": "선생님은 실력이 멈춘 것처럼 느껴지는 이유를 뭐라고 했어요?",
-      "options": ["눈이 높아졌기 때문", "한국어가 갑자기 바뀌었기 때문", "친구가 없기 때문만", "교재가 너무 쉬워서"],
+      "options": [
+        "눈이 높아졌기 때문",
+        "한국어가 갑자기 바뀌었기 때문",
+        "친구가 없기 때문만",
+        "교재가 너무 쉬워서"
+      ],
       "correct": "눈이 높아졌기 때문",
       "explanation": "선생님은 실력이 멈춘 것이 아니라 눈이 높아진 것이라고 했어요. 부족함을 더 잘 보게 된 거예요."
     },
     {
       "type": "multipleChoice",
       "prompt": "원어민 친구에게 무엇을 물어보는 것이 좋다고 했어요?",
-      "options": ["문장이 자연스러운지, 실제로 자주 쓰는지", "모든 문법 설명", "시험 점수", "교재 가격"],
+      "options": [
+        "문장이 자연스러운지, 실제로 자주 쓰는지",
+        "모든 문법 설명",
+        "시험 점수",
+        "교재 가격"
+      ],
       "correct": "문장이 자연스러운지, 실제로 자주 쓰는지",
       "explanation": "친구에게는 살아 있는 사용감을 확인하는 것이 좋다고 했어요. 자세한 설명은 앱이나 교재가 맡는 구조예요."
     },
     {
       "type": "multipleChoice",
       "prompt": "틀린 문장에 대한 선생님의 관점은 무엇이에요?",
-      "options": ["필요한 설명 위치를 알려 주는 표지판", "숨겨야 하는 실패", "바로 지워야 하는 기록", "공부를 그만둘 이유"],
+      "options": [
+        "필요한 설명 위치를 알려 주는 표지판",
+        "숨겨야 하는 실패",
+        "바로 지워야 하는 기록",
+        "공부를 그만둘 이유"
+      ],
       "correct": "필요한 설명 위치를 알려 주는 표지판",
       "explanation": "마지막 문장에서 틀린 문장을 표지판이라고 했어요. 부끄러움보다 학습 방향을 알려 주는 자료로 보라는 뜻이에요."
     }
   ],
   "summaryPrompt": "인터뷰에서 나온 학습 조언 세 가지를 두 문장으로 요약해 보세요.",
-  "newWords": ["인터뷰", "학습자", "원어민", "표지판", "구간"]
+  "newWords": [
+    "인터뷰",
+    "학습자",
+    "원어민",
+    "표지판",
+    "구간"
+  ]
 }

@@ -1788,7 +1788,7 @@
     "id": "condition-reason-eumyeon-nikka-06",
     "level": "B1",
     "contrast": "-(으)면 vs -(으)니까",
-    "prompt": "Choose the ending before a suggestion.",
+    "prompt": "Choose the reason ending before a suggestion.",
     "sentence": "피곤하__ 오늘은 쉬세요.",
     "answer": "니까",
     "answerKey": "reason",
@@ -1878,15 +1878,15 @@
     "id": "purpose-wihae-dorok-06",
     "level": "B1",
     "contrast": "-기 위해서 vs -도록",
-    "prompt": "Choose the form for preventing lateness.",
-    "sentence": "늦지 않__ 지금 출발합시다.",
+    "prompt": "Choose the form for another person's outcome.",
+    "sentence": "아이가 학교에 늦지 않__ 엄마가 매일 아침 깨워 줘요.",
     "answer": "도록",
     "answerKey": "dorok",
     "options": [
       "기 위해서",
       "도록"
     ],
-    "explanation": "-도록 sets the target state: not being late. -기 위해서 is less natural with the negative standard 늦지 않다 here.",
+    "explanation": "-도록 links a desired outcome for someone else: so the child is not late for school. -기 위해서 requires the same subject for both clauses, so it cannot connect the child's outcome to the mother's action.",
     "entryId": "pattern-048"
   },
   {
@@ -2006,7 +2006,7 @@
       "뻔했어요",
       "뿐이에요"
     ],
-    "explanation": "-(으)ㄹ 뿐이에요 means “I only said the truth.” 뻔했어요 would mean you almost said it but did not.",
+    "explanation": "-(으)ㄹ 뿐이에요 means 'I only said the truth.' The near-miss meaning would need 말할 뻔했어요 — with plain -ㄹ, not 말했을 — and would mean you almost said it but did not.",
     "entryId": "pattern-029"
   },
   {
@@ -2088,7 +2088,7 @@
     "id": "wish-past-present-02",
     "level": "B2",
     "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
-    "prompt": "Choose the ordinary future wish.",
+    "prompt": "Choose the plainer, less hypothetical wish.",
     "sentence": "내일 날씨가 __.",
     "answer": "좋으면 좋겠어요",
     "answerKey": "general-wish",
@@ -2096,7 +2096,7 @@
       "좋았으면 좋겠어요",
       "좋으면 좋겠어요"
     ],
-    "explanation": "-(으)면 좋겠어요 fits an open future hope. 좋았으면 좋겠어요 can sound like wishing a current or past reality were different.",
+    "explanation": "Both are natural future wishes: 좋았으면 좋겠어요 is extremely common for tomorrow's weather and does not imply a past or unreal wish — the -았/었- only adds hypothetical strength. 좋으면 좋겠어요 is the plainer, unmarked form asked for here.",
     "entryId": "pattern-116"
   },
   {
@@ -2118,7 +2118,7 @@
     "id": "wish-past-present-04",
     "level": "B2",
     "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
-    "prompt": "Choose the simple hope.",
+    "prompt": "Choose the plainer, less hypothetical wish.",
     "sentence": "주말에 시간이 __.",
     "answer": "있으면 좋겠어요",
     "answerKey": "general-wish",
@@ -2126,7 +2126,7 @@
       "있었으면 좋겠어요",
       "있으면 좋겠어요"
     ],
-    "explanation": "있으면 좋겠어요 is a normal hope about the weekend. 있었으면 좋겠어요 sounds more regretful or counterfactual.",
+    "explanation": "있으면 좋겠어요 is the plain open hope. 있었으면 좋겠어요 is equally natural for a weekend wish — the -았/었- adds only a hypothetical nuance, not past meaning — so choose the plainer form here.",
     "entryId": "pattern-116"
   },
   {
@@ -2148,7 +2148,7 @@
     "id": "wish-past-present-06",
     "level": "B2",
     "contrast": "-았/었으면 좋겠다 vs -(으)면 좋겠다",
-    "prompt": "Choose the open wish.",
+    "prompt": "Choose the plainer, less hypothetical wish.",
     "sentence": "다음 학기에 좋은 선생님을 __.",
     "answer": "만나면 좋겠어요",
     "answerKey": "general-wish",
@@ -2156,7 +2156,7 @@
       "만났으면 좋겠어요",
       "만나면 좋겠어요"
     ],
-    "explanation": "만나면 좋겠어요 is an open future hope. 만났으면 좋겠어요 can sound more like imagining a different outcome.",
+    "explanation": "만나면 좋겠어요 is the plain open hope. 만났으면 좋겠어요 is also natural and very common for future wishes; it only sounds slightly more hypothetical, never past.",
     "entryId": "pattern-116"
   },
   {
@@ -2259,24 +2259,24 @@
     "answerKey": "gi",
     "options": [
       "수영하기",
-      "수영하는 것"
+      "수영하는 거"
     ],
-    "explanation": "-기 makes a compact activity label, natural after 취미는. -는 것 is possible but heavier and more event-like.",
+    "explanation": "-기 makes a compact activity label, natural after 취미는. 수영하는 거예요 is also possible but heavier and more event-like.",
     "entryId": "pattern-154"
   },
   {
     "id": "nominal-gi-geot-02",
     "level": "B2",
     "contrast": "-기 vs -는 것",
-    "prompt": "Choose the fuller event-like noun phrase.",
-    "sentence": "매일 일찍 일어나__ 쉽지 않아요.",
-    "answer": "는 것",
+    "prompt": "Choose the form for a fact you did not know.",
+    "sentence": "민수가 요리를 잘하__ 몰랐어요.",
+    "answer": "는 걸",
     "answerKey": "geot",
     "options": [
-      "기",
-      "는 것"
+      "기를",
+      "는 걸"
     ],
-    "explanation": "-는 것 packages the whole event of getting up early. -기 is compact, but here the fuller phrase sounds smoother.",
+    "explanation": "Fact clauses before 알다/모르다 take -는 것: 잘하는 걸 몰랐어요. -기 cannot mark a known or unknown fact, so 잘하기를 몰랐어요 is impossible.",
     "entryId": "pattern-154"
   },
   {
@@ -2289,24 +2289,24 @@
     "answerKey": "gi",
     "options": [
       "걷기",
-      "걷는 것"
+      "걷는 거"
     ],
-    "explanation": "걷기 is a natural activity noun in general statements. 걷는 것 also works, but feels heavier and more specific.",
+    "explanation": "걷기 is a natural activity noun in general statements. 걷는 거 also works but feels heavier and more specific.",
     "entryId": "pattern-154"
   },
   {
     "id": "nominal-gi-geot-04",
     "level": "B2",
     "contrast": "-기 vs -는 것",
-    "prompt": "Choose the form for a concrete experience.",
-    "sentence": "외국어로 전화하__ 아직 어려워요.",
-    "answer": "는 것",
+    "prompt": "Choose the form that refers to a thing.",
+    "sentence": "지금 드시__ 뭐예요?",
+    "answer": "는 거",
     "answerKey": "geot",
     "options": [
       "기",
-      "는 것"
+      "는 거"
     ],
-    "explanation": "-는 것 makes the actual experience of calling feel concrete. -기 is more label-like and less conversational here.",
+    "explanation": "-는 거 refers to the actual thing being eaten: 지금 드시는 거 뭐예요? -기 only makes an activity noun, so 드시기 뭐예요 is impossible.",
     "entryId": "pattern-154"
   },
   {
@@ -2319,24 +2319,24 @@
     "answerKey": "gi",
     "options": [
       "단어 외우기",
-      "단어 외우는 것"
+      "단어 외우는 거"
     ],
-    "explanation": "-기 fits lists, goals, and activity labels. -는 것 is grammatical but heavier than a goal label needs.",
+    "explanation": "-기 fits lists, goals, and activity labels. 단어 외우는 거예요 is grammatical but heavier than a goal label needs.",
     "entryId": "pattern-154"
   },
   {
     "id": "nominal-gi-geot-06",
     "level": "B2",
     "contrast": "-기 vs -는 것",
-    "prompt": "Choose the form for “the fact/action of doing.”",
-    "sentence": "혼자 여행하__ 생각보다 힘들었어요.",
-    "answer": "는 것",
+    "prompt": "Choose the form for a first-time experience.",
+    "sentence": "혼자 여행하__ 처음이에요.",
+    "answer": "는 건",
     "answerKey": "geot",
     "options": [
       "기",
-      "는 것"
+      "는 건"
     ],
-    "explanation": "-는 것 points to the lived experience of traveling alone. -기 would sound more like the activity category.",
+    "explanation": "-는 것/건 nominalizes the experience: 혼자 여행하는 건 처음이에요. Bare -기 cannot stand before 처음이에요.",
     "entryId": "pattern-154"
   },
   {
@@ -2344,14 +2344,14 @@
     "level": "B2",
     "contrast": "이/가 vs 은/는 (discourse layer)",
     "prompt": "Choose the particle that answers “who?”.",
-    "sentence": "누가 먼저 전화했어요? 제__ 먼저 전화했어요.",
+    "sentence": "누가 먼저 전화했어요? 지수__ 먼저 전화했어요.",
     "answer": "가",
     "answerKey": "subject-focus",
     "options": [
       "가",
       "는"
     ],
-    "explanation": "제가 answers who did it, so 이/가 is the focus marker. 저는 would sound contrastive, as if others may not have called.",
+    "explanation": "지수가 answers who did it, so 이/가 is the focus marker. 지수는 would sound contrastive, as if others may not have called.",
     "entryId": "pattern-159"
   },
   {
@@ -2396,7 +2396,7 @@
       "가",
       "는"
     ],
-    "explanation": "커피는 marks coffee as one side of a contrast. 커피가 would answer “what drinks?” rather than set up contrast.",
+    "explanation": "커피는 marks coffee as one side of a contrast: I drink coffee but not tea. 커피가 is ungrammatical here because 커피 is the object of 마시다 — 이/가 marks subjects and cannot replace the contrastive 은/는 on this object.",
     "entryId": "pattern-159"
   },
   {
@@ -2426,7 +2426,7 @@
       "가",
       "는"
     ],
-    "explanation": "문제는 limits the statement to this problem and contrasts with the next one. 문제가 would present it as new subject information.",
+    "explanation": "문제는 limits the statement to this problem and contrasts it with the next one. 문제가 does not work because 이 문제 is the object of 이해했지만 (the subject is the speaker), so the subject marker 이/가 is ungrammatical here.",
     "entryId": "pattern-159"
   },
   {
@@ -2456,7 +2456,7 @@
       "오겠습니다",
       "올 거예요"
     ],
-    "explanation": "-(으)ㄹ 거예요 is the plain future prediction. 오겠습니다 would sound like the rain is making a formal promise.",
+    "explanation": "-(으)ㄹ 거예요 is the plain conversational prediction. 오겠습니다 is also correct Korean — it is standard formal weather-forecast style, where -겠- marks prediction — but it does not fit plain everyday conversation; it never means the rain is making a promise.",
     "entryId": "pattern-125"
   },
   {
@@ -2546,22 +2546,22 @@
       "읽혔어요",
       "읽게 했어요"
     ],
-    "explanation": "-게 하다 fits making students read. 읽혔어요 is passive/causative-looking and does not mean “made them read” naturally here.",
+    "explanation": "-게 하다 is the analytic causative the prompt asks for: the teacher made the students read. 읽혔어요 is the suffixal causative of 읽다 and can also mean 'made them read' (책을 읽히다), though it is less common in speech — that is why the prompt specifies the analytic form.",
     "entryId": "pattern-147"
   },
   {
     "id": "lexical-analytic-causative-03",
     "level": "B2",
     "contrast": "사동 접미사 vs -게 하다",
-    "prompt": "Choose the lexical causative verb.",
-    "sentence": "제가 불을 __.",
-    "answer": "켰어요",
+    "prompt": "Choose the compact lexical causative.",
+    "sentence": "엄마가 아기에게 옷을 __.",
+    "answer": "입혔어요",
     "answerKey": "lexical",
     "options": [
-      "켰어요",
-      "켜게 했어요"
+      "입혔어요",
+      "입게 했어요"
     ],
-    "explanation": "켜다 is the ordinary lexical causative “turn on.” 켜게 했어요 would mean you made someone else turn it on.",
+    "explanation": "입히다 is the suffixal (lexical) causative of 입다, natural for physically dressing the baby. 입게 했어요 is possible but suggests making the child put the clothes on himself.",
     "entryId": "pattern-147"
   },
   {
@@ -2598,7 +2598,7 @@
     "id": "lexical-analytic-causative-06",
     "level": "B2",
     "contrast": "사동 접미사 vs -게 하다",
-    "prompt": "Choose the form for making a child take medicine.",
+    "prompt": "Choose the analytic causative with -게 하다.",
     "sentence": "엄마가 아이에게 약을 __.",
     "answer": "먹게 했어요",
     "answerKey": "analytic",
@@ -2606,7 +2606,7 @@
       "먹였어요",
       "먹게 했어요"
     ],
-    "explanation": "먹게 했어요 focuses on making/letting the child take medicine. 먹였어요 is also a causative, but this prompt targets the analytic -게 하다 contrast.",
+    "explanation": "먹게 했어요 is the analytic causative: the mother had the child take the medicine. 먹였어요, the lexical causative, is equally natural — even more common for directly giving medicine — so the prompt asks specifically for the -게 하다 form.",
     "entryId": "pattern-147"
   },
   {

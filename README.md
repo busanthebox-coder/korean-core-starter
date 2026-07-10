@@ -46,3 +46,5 @@ npm run deploy
 ## Project Docs
 
 The active v2 upgrade specs are in `docs/superpowers/specs/v2-upgrade/`. They define execution order, content briefs, data safety rules, and completion records.
+
+For learner-facing instructions in Korean, see [`docs/user-guide-ko.md`](docs/user-guide-ko.md).

@@ -602,13 +602,13 @@
     },
     {
       "type": "orderWords",
-      "prompt": "Build: 'Please do not touch the exhibit.'",
+      "prompt": "Build: 'Please do not touch this.'",
       "tokens": [
-        "전시품을",
+        "이것을",
         "만지지 마세요"
       ],
-      "correct": "전시품을 만지지 마세요",
-      "explanation": "-지 마세요 is the polite “please do not” form. 전시품 is the object being touched, so 전시품을 comes before the verb."
+      "correct": "이것을 만지지 마세요",
+      "explanation": "-지 마세요 is the polite \"please do not\" form. 이것 is the thing being touched, so 이것을 comes before the verb."
     }
   ],
   "summaryCard": {
