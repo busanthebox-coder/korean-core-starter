@@ -21,7 +21,7 @@ export function grammarSelfCheckItems(notes = []) {
   return notes
     .map((note, index) => {
       const form = grammarFormLabel(note?.title ?? note);
-      return form ? { id: `grammar-${index}`, form, label: `『${form}』를 썼나요?` } : null;
+      return form ? { id: `grammar-${index}`, form, label: `Did you use 『${form}』?` } : null;
     })
     .filter(Boolean);
 }

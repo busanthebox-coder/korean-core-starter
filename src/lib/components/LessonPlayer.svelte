@@ -13,6 +13,7 @@
   import { saveWriting, writingsByChapter } from '../writings.js';
   import { canUseKoreanSpeech } from '../audio.js';
   import { buildChapterListeningItems } from '../listening.js';
+  import { clearLessonPosition, readLessonPosition, writeLessonPosition } from '../lessonPosition.js';
   import {
     buildConjugationQuiz,
     getChapterConjugationForms,
@@ -92,6 +93,9 @@
 
   function listeningScreen(ch) {
     if (!canUseKoreanSpeech()) return null;
+    // Chapter 1 teaches the alphabet itself — dictating full sentences before the
+    // learner can read or type Hangul is a wall, not practice.
+    if (ch.id === 'chapter-01') return null;
     const items = buildChapterListeningItems(ch, { count: 4 });
     return items.length ? { phase: 'practice', kind: 'listening', data: { items } } : null;
   }
@@ -99,7 +103,7 @@
   function buildChapterScreens(ch) {
     const s = [];
     const words = wordsScreenData(ch);
-    const PER = 6; // chunk into focused screens of ~6 so the Words phase never becomes a long scroll
+    const PER = 3;
     for (let k = 0; k < words.length; k += PER) {
       s.push({ phase: 'words', kind: 'words', data: words.slice(k, k + PER) });
     }
@@ -166,9 +170,25 @@
   let writingChecks = {};
   let sayItChecks = {};
 
+  function initialScreenIndex() {
+    if (startAtKind) {
+      const requestedIndex = screenList.findIndex((screen) => screen.kind === startAtKind);
+      return requestedIndex >= 0 ? requestedIndex : 0;
+    }
+    return chapter?.id ? readLessonPosition(chapter.id, screenList.length) : 0;
+  }
+
+  function persistScreenIndex() {
+    if (chapter?.id && !startAtKind) writeLessonPosition(chapter.id, i, screenList.length);
+  }
+
+  function clearSavedScreenIndex() {
+    if (chapter?.id && !startAtKind) clearLessonPosition(chapter.id);
+  }
+
   $: screenList = screens || (chapter ? buildChapterScreens(chapter) : []);
   $: resetKey = `${(chapter && chapter.id) || kicker || (screens && screens.length)}:${startAtKind}`;
-  $: if (resetKey) { void resetKey; i = startAtKind ? Math.max(0, screenList.findIndex((screen) => screen.kind === startAtKind)) : 0; finished = false; answers = {}; revealed = {}; writingChecks = {}; sayItChecks = {}; }
+  $: if (resetKey) { void resetKey; i = initialScreenIndex(); finished = false; answers = {}; revealed = {}; writingChecks = {}; sayItChecks = {}; }
   $: cur = screenList[i] || null;
   $: phaseOrder = [...new Set(screenList.map((s) => s.phase))];
   $: groups = phaseOrder
@@ -200,12 +220,18 @@
 
   function next() {
     persistCurrentWriting();
-    if (i < screenList.length - 1) { i += 1; scrollTop(); }
-    else { finished = true; scrollTop(); }
+    if (i < screenList.length - 1) { i += 1; persistScreenIndex(); scrollTop(); }
+    else { clearSavedScreenIndex(); finished = true; scrollTop(); }
+  }
+  // Drills nudge you to finish, but never trap you: skipping just moves on
+  // without marking the drill complete (no lock — same principle as writing's skip).
+  function skipDrill() {
+    revealed = { ...revealed, [i]: true };
+    next();
   }
   function prev() {
-    if (finished) { finished = false; scrollTop(); return; }
-    if (i > 0) { i -= 1; scrollTop(); }
+    if (finished) { finished = false; persistScreenIndex(); scrollTop(); return; }
+    if (i > 0) { i -= 1; persistScreenIndex(); scrollTop(); }
   }
   function scrollTop() { document.querySelector('.lp')?.scrollIntoView?.({ block: 'start' }); }
 
@@ -297,7 +323,7 @@
         </div>
       {/each}
     </div>
-    <span class="lp-count">{finished ? 'done' : (phaseLabel ? `${phaseLabel.ko} ${posInPhase}/${curGroup.idxs.length}` : '')}</span>
+    <span class="lp-count">{finished ? 'done' : (phaseLabel ? `${phaseLabel.label} ${posInPhase}/${curGroup.idxs.length}` : '')}</span>
   </div>
 
   <div class="lp-eyebrow">{eyebrow}</div>
@@ -343,6 +369,9 @@
   {#if !finished}
     <div class="lp-nav">
       <button class="ghost" type="button" disabled={i === 0} on:click={prev}><i class="ti ti-arrow-left"></i> Prev</button>
+      {#if nextLocked && cur?.kind !== 'writing'}
+        <button class="skip-drill" type="button" on:click={skipDrill}>Skip for now</button>
+      {/if}
       <button class="btn3d" type="button" disabled={nextLocked} on:click={next}>
         <span>{nextActionLabel}</span>
         {#if nextLocked}<small>{lockLabel}</small>{/if}
@@ -375,6 +404,8 @@
 
   .lp-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
   .ghost { padding: 12px 18px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; display: inline-flex; align-items: center; gap: 6px; }
+  .skip-drill { padding: 10px 14px; border-radius: 999px; background: transparent; border: 1px dashed var(--border); color: var(--ink-3); font-size: 12.5px; font-weight: 800; }
+  .skip-drill:hover { border-color: var(--ink-3); color: var(--ink-2); }
   .ghost:hover { background: var(--border); }
   .ghost:disabled { opacity: .4; pointer-events: none; }
   .btn3d { display: inline-flex; align-items: center; gap: 6px; }

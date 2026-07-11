@@ -109,17 +109,17 @@
   <h2 class="screen-h">Match the words</h2>
   {#if data?.hint}<p class="screen-sub">{data.hint}</p>{/if}
   <MatchGame pairs={data?.pairs || []} onDone={onMatchDone} />
-  {#if !isRevealed}<div class="ex-hint"><i class="ti ti-bulb"></i> Match every pair to unlock the next step.</div>{/if}
+  {#if !isRevealed}<div class="ex-hint"><i class="ti ti-bulb"></i> Match every pair to finish — or skip for now and come back later.</div>{/if}
 {:else if kind === 'writing'}
   <h2 class="screen-h">Write it</h2>
   <p class="screen-sub">{data.prompt}</p>
   {#if data.hint}<div class="ex-hint"><i class="ti ti-bulb" aria-hidden="true"></i> {data.hint}</div>{/if}
-  <textarea class="w-area" rows="3" placeholder="여기에 써 보세요…" value={answer || ''} on:input={(e) => onInput(e.currentTarget.value)}></textarea>
+  <textarea class="w-area" rows="3" placeholder="Write it here, in Korean…" value={answer || ''} on:input={(e) => onInput(e.currentTarget.value)}></textarea>
   {#if (data.checkItems || []).length}
     <div class="w-check">
       <div class="w-check-head">
-        <strong>쓴 글 점검</strong>
-        <span>자동 채점은 아니고, 오늘 목표를 직접 확인하는 단계예요.</span>
+        <strong>Check your writing</strong>
+        <span>Not auto-graded — just confirm you used today's grammar yourself.</span>
       </div>
       <div class="w-check-list">
         {#each data.checkItems as item}
@@ -135,7 +135,7 @@
       </div>
       <div class="w-check-foot">
         <button class="skip-check" type="button" on:click={onWritingSkip}>Skip self-check</button>
-        {#if writingState.skipped}<span>이번 글은 점검 없이 넘어갑니다.</span>{/if}
+        {#if writingState.skipped}<span>Skipping the self-check this time.</span>{/if}
       </div>
     </div>
   {/if}

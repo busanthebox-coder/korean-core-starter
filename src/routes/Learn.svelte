@@ -228,7 +228,7 @@
 </script>
 
 {#if showOnboarding}
-  <Onboarding {chapters} onClose={closeOnboarding} onStartChapter={startOnboardingChapter} />
+  <Onboarding {chapters} startWithPlacement={forcePlacement} onClose={closeOnboarding} onStartChapter={startOnboardingChapter} />
 {/if}
 
 {#if view === 'path'}

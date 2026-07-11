@@ -1,5 +1,5 @@
-import { beforeEach, describe, it, expect } from 'vitest';
-import { render, screen, waitFor } from '@testing-library/svelte';
+import { beforeEach, describe, it, expect, vi } from 'vitest';
+import { fireEvent, render, screen, waitFor } from '@testing-library/svelte';
 import App from './App.svelte';
 import { pwaStatus } from './lib/pwa.js';
 
@@ -28,5 +28,17 @@ describe('App shell', () => {
     render(App);
 
     await waitFor(() => expect(window.location.hash).toBe('#/speak'));
+  });
+
+  it('starts each destination route at the top of the page', async () => {
+    const scrollTo = vi.fn();
+    Object.defineProperty(window, 'scrollTo', { value: scrollTo, writable: true });
+    render(App);
+
+    await screen.findByRole('heading', { name: /minutes for today|today is complete/i });
+    scrollTo.mockClear();
+    await fireEvent.click(screen.getAllByRole('link', { name: 'Guide' })[0]);
+
+    await waitFor(() => expect(scrollTo).toHaveBeenCalledWith({ top: 0, left: 0, behavior: 'auto' }));
   });
 });

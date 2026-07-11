@@ -11,8 +11,8 @@ describe('LessonPlayer writing self-check', () => {
     data: {
       prompt: '오늘 한 일을 써 보세요.',
       checkItems: [
-        { id: 'past', label: '『-았/었어요』를 썼나요?' },
-        { id: 'but', label: '『-지만』를 썼나요?' },
+        { id: 'past', label: 'Did you use 『-았/었어요』?' },
+        { id: 'but', label: 'Did you use 『-지만』?' },
       ],
     },
   }];
@@ -23,10 +23,10 @@ describe('LessonPlayer writing self-check', () => {
     const finish = screen.getByRole('button', { name: /Finish/ });
     expect(finish).toBeDisabled();
 
-    await fireEvent.click(screen.getByLabelText('『-았/었어요』를 썼나요?'));
+    await fireEvent.click(screen.getByLabelText('Did you use 『-았/었어요』?'));
     expect(finish).toBeDisabled();
 
-    await fireEvent.click(screen.getByLabelText('『-지만』를 썼나요?'));
+    await fireEvent.click(screen.getByLabelText('Did you use 『-지만』?'));
     expect(finish).not.toBeDisabled();
   });
 
@@ -64,5 +64,48 @@ describe('LessonPlayer writing self-check', () => {
 
     expect(JSON.parse(localStorage.getItem('kcs.spoken-v1'))['chapter-say']).toHaveLength(1);
     expect(screen.getAllByRole('button', { name: 'Said out loud' })).toHaveLength(3);
+  });
+
+  it('resumes a chapter from the last screen the learner reached', async () => {
+    const chapter = {
+      id: 'chapter-resume',
+      number: 98,
+      title: 'Resume check',
+      extendedDialogue: {
+        lines: [
+          { speaker: 'A', ko: '오늘 시간 있어요?' },
+          { speaker: 'B', ko: '네, 저녁에는 시간 있어요.' },
+          { speaker: 'A', ko: '그럼 같이 저녁 먹어요.' },
+        ],
+      },
+    };
+    const firstVisit = render(LessonPlayer, { props: { chapter } });
+
+    await fireEvent.click(screen.getByRole('button', { name: /Next/ }));
+    expect(screen.getByRole('heading', { name: 'Say it out loud' })).toBeInTheDocument();
+    firstVisit.unmount();
+
+    render(LessonPlayer, { props: { chapter } });
+    expect(screen.getByRole('heading', { name: 'Say it out loud' })).toBeInTheDocument();
+  });
+
+  it('shows no more than three vocabulary entries on one lesson screen', () => {
+    const chapter = {
+      id: 'chapter-word-chunks',
+      number: 97,
+      title: 'Small word groups',
+      extendedVocabulary: Array.from({ length: 7 }, (_, index) => ({
+        hangul: `단어${index + 1}`,
+        romanization: `daneo ${index + 1}`,
+        english: `word ${index + 1}`,
+        partOfSpeech: 'noun',
+      })),
+    };
+
+    render(LessonPlayer, { props: { chapter } });
+
+    expect(screen.getAllByRole('button', { name: 'Play pronunciation' })).toHaveLength(3);
+    expect(screen.getByText('word 3')).toBeInTheDocument();
+    expect(screen.queryByText('word 4')).not.toBeInTheDocument();
   });
 });

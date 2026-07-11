@@ -29,9 +29,8 @@ export function placementResult(answers = []) {
   return { recommendedLevel, correctByLevel: scores };
 }
 
-export function shouldShowOnboarding({ onboarded = false, completedIds = new Set(), force = false } = {}) {
-  if (force) return true;
-  return !onboarded && completedIds.size === 0;
+export function shouldShowOnboarding({ force = false } = {}) {
+  return force;
 }
 
 function sortedChapters(chapters = []) {

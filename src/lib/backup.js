@@ -10,6 +10,7 @@ export const BACKUP_KEYS = [
   'kcs.roman',
   'kcs.progress',
   'kcs.lesson-activity-v1',
+  'kcs.lesson-position-v1',
   'kcs.guide-ready-v1',
   'kcs.shadow-done-v1',
   'kcs.spoken-v1',
@@ -184,7 +185,7 @@ function validateKnownValue(key, raw) {
 export function mergeStrategies(key, mine, theirs) {
   if (JSON_SET_KEYS.has(key)) return mergeUniqueArrays(mine, theirs);
   if (SCALAR_KEYS.has(key)) return theirs;
-  if (key === 'kcs.lesson-activity-v1') return mergeByLatestUpdatedAt(mine, theirs);
+  if (key === 'kcs.lesson-activity-v1' || key === 'kcs.lesson-position-v1') return mergeByLatestUpdatedAt(mine, theirs);
   if (key === 'ksrs-v1') return mergeSrs(mine, theirs);
   if (key === 'kcs.mistakes-v1') return mergeMistakes(mine, theirs);
   if (key === 'kcs.checkpoint-v1') return mergeCheckpoint(mine, theirs);

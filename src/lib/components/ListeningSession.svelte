@@ -115,7 +115,7 @@
           autocapitalize="off"
           autocorrect="off"
           spellcheck="false"
-          placeholder="들은 문장을 한국어로 입력..."
+          placeholder="Type what you heard, in Korean…"
           bind:value={typed}
           disabled={revealed}
         />

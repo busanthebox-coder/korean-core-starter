@@ -17,6 +17,9 @@ function seedProgress() {
   localStorage.setItem('kcs.lesson-activity-v1', JSON.stringify({
     'chapter-01': { dialogueSeen: true, updatedAt: 10 },
   }));
+  localStorage.setItem('kcs.lesson-position-v1', JSON.stringify({
+    'chapter-01': { index: 4, updatedAt: 10 },
+  }));
   localStorage.setItem('kcs.guide-ready-v1', JSON.stringify(['guide-a']));
   localStorage.setItem('kcs.shadow-done-v1', JSON.stringify(['dialogue-a']));
   localStorage.setItem('kcs.spoken-v1', JSON.stringify({
@@ -97,6 +100,10 @@ describe('progress backup', () => {
       'chapter-01': { dialogueSeen: true, updatedAt: 20 },
       'chapter-local': { practiceDone: true, updatedAt: 30 },
     }));
+    localStorage.setItem('kcs.lesson-position-v1', JSON.stringify({
+      'chapter-01': { index: 2, updatedAt: 20 },
+      'chapter-local': { index: 3, updatedAt: 30 },
+    }));
     localStorage.setItem('kcs.spoken-v1', JSON.stringify({
       'chapter-01': ['2026-07-08'],
       'chapter-local': ['2026-07-09'],
@@ -136,6 +143,10 @@ describe('progress backup', () => {
         'kcs.lesson-activity-v1': JSON.stringify({
           'chapter-01': { dialogueSeen: false, practiceDone: true, updatedAt: 50 },
           'chapter-remote': { dialogueSeen: true, updatedAt: 40 },
+        }),
+        'kcs.lesson-position-v1': JSON.stringify({
+          'chapter-01': { index: 8, updatedAt: 50 },
+          'chapter-remote': { index: 1, updatedAt: 40 },
         }),
         'kcs.spoken-v1': JSON.stringify({
           'chapter-01': ['2026-07-08', '2026-07-10'],
@@ -182,6 +193,11 @@ describe('progress backup', () => {
       dialogueSeen: false,
       practiceDone: true,
       updatedAt: 50,
+    });
+    expect(JSON.parse(localStorage.getItem('kcs.lesson-position-v1'))).toEqual({
+      'chapter-01': { index: 8, updatedAt: 50 },
+      'chapter-local': { index: 3, updatedAt: 30 },
+      'chapter-remote': { index: 1, updatedAt: 40 },
     });
     expect(JSON.parse(localStorage.getItem('kcs.spoken-v1'))).toEqual({
       'chapter-01': ['2026-07-08', '2026-07-10'],

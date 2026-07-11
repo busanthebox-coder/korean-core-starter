@@ -119,7 +119,9 @@ function preferQuestion(items = []) {
 
 function addFirst(target, pool, predicate = () => true) {
   const item = pool.find((candidate) => predicate(candidate) && !target.some((picked) => picked.ko === candidate.ko));
-  if (item) target.push(item);
+  if (!item) return false;
+  target.push(item);
+  return true;
 }
 
 export function buildSayItItems(chapter = {}, { count = 3 } = {}) {
@@ -138,8 +140,12 @@ export function buildSayItItems(chapter = {}, { count = 3 } = {}) {
   const question = preferQuestion(primary) || preferQuestion(fallback);
   if (question && !selected.some((item) => item.ko === question.ko)) selected.push(question);
 
-  while (selected.length < count) addFirst(selected, primary);
-  while (selected.length < count) addFirst(selected, fallback);
+  while (selected.length < count) {
+    if (!addFirst(selected, primary)) break;
+  }
+  while (selected.length < count) {
+    if (!addFirst(selected, fallback)) break;
+  }
 
   return selected.slice(0, count).map((item, index) => ({
     ...item,

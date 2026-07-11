@@ -26,7 +26,12 @@
       <div class="ko"><span>{ko}</span><AudioButton text={ko} size={audioSize} /></div>
       <div class="sub"><RomanizationLine text={romanization} /></div>
       {#if en}<div class="en" class:hidden={hideEn}>{en}</div>{/if}
-      {#if note}<div class="note">{note}</div>{/if}
+      {#if note}
+        <details class="note-fold">
+          <summary>Why it's said this way</summary>
+          <div class="note">{note}</div>
+        </details>
+      {/if}
     </div>
   </div>
 </div>
@@ -54,7 +59,14 @@
   .en { margin-top: 3px; font-size: 13px; line-height: 1.4; color: var(--ink-2); }
   .bubble.right .en { color: #6a6320; }
   .en.hidden { visibility: hidden; }
-  .note { margin-top: 5px; font-size: 12px; line-height: 1.4; color: var(--ink-3); }
+  .note-fold { margin-top: 5px; }
+  .note-fold summary { cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 4px;
+    font-size: 11.5px; font-weight: 800; color: var(--accent-ink); }
+  .note-fold summary::-webkit-details-marker { display: none; }
+  .note-fold summary::before { content: '▸'; font-size: 10px; transition: transform .15s; }
+  .note-fold[open] summary::before { transform: rotate(90deg); }
+  .bubble.right .note-fold summary { color: #7a7330; }
+  .note { margin-top: 4px; font-size: 12px; line-height: 1.4; color: var(--ink-3); }
   .bubble.right .note { color: #7a7330; }
 
   /* romanization line sits muted inside the bubble */

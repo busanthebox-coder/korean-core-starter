@@ -30,6 +30,20 @@ describe('say-it sentence selection', () => {
     expect(items.every((item) => item.speaker === '학습자')).toBe(true);
   });
 
+  it('returns no items when every candidate is too short', () => {
+    const chapter = {
+      id: 'chapter-short-lines',
+      extendedDialogue: {
+        lines: [
+          { speaker: 'A', ko: '지금 가요?' },
+          { speaker: 'B', ko: '네, 가요.' },
+        ],
+      },
+    };
+
+    expect(buildSayItItems(chapter)).toEqual([]);
+  });
+
   it('finds three 8-20 syllable items for every shipped chapter', () => {
     const bad = appData.course.chapters
       .map((chapter) => ({ chapter, items: buildSayItItems(chapter) }))

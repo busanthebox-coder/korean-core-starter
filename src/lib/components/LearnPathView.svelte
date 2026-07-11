@@ -1,13 +1,13 @@
 <script>
   import { chapters, readers, vocabPacks } from '../data.js';
   import { mistakes } from '../mistakes.js';
-  import { streak } from '../streak.js';
   import { masteryOf, reviews } from '../srs.js';
   import { checkpointSlots } from '../checkpoints.js';
   import { groupsForLearnHome } from '../learnGroups.js';
   import { continueChapter } from '../placement.js';
   import { chapterItemIds } from '../studyLinks.js';
   import { buildTodayPlan } from '../todayPlan.js';
+  import { hasLessonPosition } from '../lessonPosition.js';
   import {
     checkpointProgress,
     learnOpenGroups,
@@ -60,11 +60,11 @@
   $: continuePct = Math.round((doneCount / Math.max(1, chapters.length)) * 100);
   $: allItemIds = [...new Set(chapters.flatMap(chapterItemIds))];
   $: courseMastery = masteryOf($reviews, allItemIds);
-  $: streakDays = $streak.current || 0;
   $: dueCount = Object.values($reviews).filter((card) => card?.due <= Date.now()).length;
   $: todayPlan = buildTodayPlan({
     dueCount,
     currentChapter: continueTarget,
+    chapterStarted: hasLessonPosition(continueTarget?.id),
     spoken: $spokenProgress,
     today: localDayKey(),
   });
@@ -103,7 +103,6 @@
     {doneCount}
     totalChapters={chapters.length}
     {courseMastery}
-    {streakDays}
     orientationPending={!$orientationDone}
     onStart={startToday}
     onOpenOrientation={onOpenOrientation}

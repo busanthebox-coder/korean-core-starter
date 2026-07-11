@@ -11,9 +11,11 @@ describe('TodayCard', () => {
       onStart,
     });
 
-    await fireEvent.click(screen.getByRole('button', { name: 'Start' }));
-    expect(onStart).toHaveBeenCalledOnce();
     expect(screen.getByText('Review 2 due')).toBeInTheDocument();
+    expect(screen.queryByText('Continue Chapter 4')).not.toBeInTheDocument();
+
+    await fireEvent.click(screen.getByRole('button', { name: 'Start now' }));
+    expect(onStart).toHaveBeenCalledOnce();
   });
 
   it('renders course mastery from the mastery summary object', () => {

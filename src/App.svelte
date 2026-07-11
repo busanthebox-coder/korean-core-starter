@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-  import Router, { push } from 'svelte-spa-router';
+  import Router, { location, push } from 'svelte-spa-router';
   import SideNav from './lib/components/SideNav.svelte';
   import BottomNav from './lib/components/BottomNav.svelte';
   import Learn from './routes/Learn.svelte';
@@ -27,6 +27,8 @@
   onMount(() => {
     registerPwa();
   });
+
+  $: if ($location) window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
 
   if (!window.location.hash) push('/learn');
 </script>

@@ -22,12 +22,15 @@
         </div>
         <div class="word-en">{w.en}</div>
         {#if w.ex}
-          <div class="word-ex">
-            <span class="ex-cap">예문 · example</span>
-            <div class="ex-ko">{w.ex.ko}</div>
-            {#if w.ex.en}<div class="ex-en">{w.ex.en}</div>{/if}
-            {#if w.ex.note}<div class="ex-note">↳ {w.ex.note}</div>{/if}
-          </div>
+          <details class="word-more">
+            <summary>Example &amp; why</summary>
+            <div class="word-ex">
+              <span class="ex-cap">예문 · example</span>
+              <div class="ex-ko">{w.ex.ko}</div>
+              {#if w.ex.en}<div class="ex-en">{w.ex.en}</div>{/if}
+              {#if w.ex.note}<div class="ex-note">{w.ex.note}</div>{/if}
+            </div>
+          </details>
         {/if}
       </div>
     {/each}
@@ -62,7 +65,10 @@
   .word-pos { flex: none; align-self: center; font-size: 11px; font-weight: 700; color: var(--ink-3); background: var(--surface); padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
   .kp-n { width: 22px; height: 22px; flex: none; display: grid; place-items: center; border-radius: 999px; background: var(--primary-wash); color: var(--accent-ink); font-size: 12px; font-weight: 850; }
   .word-en { font-size: 15px; font-weight: 600; color: var(--ink); }
-  .word-ex { background: var(--surface); border-radius: var(--r-1); padding: 10px 12px; display: grid; gap: 3px; }
+  .word-more { border-top: 1px solid var(--border); padding-top: 8px; }
+  .word-more summary { cursor: pointer; color: var(--accent-ink); font-size: 12px; font-weight: 800; }
+  .word-more[open] summary { margin-bottom: 8px; }
+  .word-ex { padding: 2px 0 0; display: grid; gap: 3px; }
   .word-ex span { color: var(--ink-3); font-size: 13px; }
   .ex-cap { font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink); }
   .ex-ko { font-size: 15px; font-weight: 600; }

@@ -36,8 +36,8 @@ describe('placement', () => {
     expect(placementResult([...answers('A1', 5), ...answers('A2', 5), ...answers('B1', 5)]).recommendedLevel).toBe('B1');
   });
 
-  it('shows onboarding only for brand-new learners unless forced from Guide', () => {
-    expect(shouldShowOnboarding({ onboarded: false, completedIds: new Set() })).toBe(true);
+  it('keeps placement optional and shows it only when requested from Guide', () => {
+    expect(shouldShowOnboarding({ onboarded: false, completedIds: new Set() })).toBe(false);
     expect(shouldShowOnboarding({ onboarded: true, completedIds: new Set() })).toBe(false);
     expect(shouldShowOnboarding({ onboarded: false, completedIds: new Set(['chapter-01']) })).toBe(false);
     expect(shouldShowOnboarding({ onboarded: true, completedIds: new Set(['chapter-01']), force: true })).toBe(true);

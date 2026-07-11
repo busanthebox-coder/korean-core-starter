@@ -67,15 +67,27 @@ This file records the existing Hanmok UI rules so new C0 pack screens extend the
 
 ## V3 Speak UI Rules
 
-- Speak is the single primary speaking tab and contains the daily speaking plan plus the existing shadowing and roleplay libraries.
+- Speak is the single primary speaking tab and opens on the daily speaking plan; the larger shadowing and roleplay libraries are mounted only after the learner chooses one.
 - The daily speaking plan is three short actions: say lesson lines, repeat one scene, then answer one prompt.
 - Say-it lines are generated from lesson dialogue first and saved in `kcs.spoken-v1` only after all three lines are checked.
+- Daily speaking actions deep-link to the exact activity instead of reopening the beginning of a chapter.
+- Only one speaking library is visible at a time so the route remains a short session launcher rather than a long catalogue.
 - Old `/talk`, `/chat`, and `/conversation` routes redirect to `/speak` so learners do not have to choose between speaking surfaces.
+
+## Active Lesson UI Rules
+
+- Chapter lessons remember the learner's current screen per chapter and resume there after leaving and returning.
+- A direct activity link such as Say-it temporarily opens that activity without replacing the learner's saved chapter position.
+- Completing a full chapter clears its saved screen position; backing out keeps it.
+- Route changes begin at the top of the destination page. Smooth motion is reserved for deliberate in-page moves initiated by the learner.
+- Each lesson screen should contain one task or one small concept group; content that cannot fit comfortably on a mobile viewport must be split into another screen.
+- Word screens contain no more than three entries. The Korean form and meaning stay visible, while examples and usage rationale open on request.
 
 ## V3 Today UI Rules
 
 - Learn opens with one warm, persimmon-edged Today card. It replaces separate progress and mission cards and exposes one primary Start action.
-- The Today card lists at most three numbered actions, with the current action marked in persimmon; completion is reported by the existing lesson seal rather than a new dashboard.
+- The Today card shows only the next action. Remaining actions stay hidden until the learner finishes the current one.
+- Progress is reduced to chapter count and one slim bar; mastery and streak detail belong in secondary views.
 - On mobile, the first Learn viewport contains the Today card and the current level header. Course library surfaces begin below that point.
 - Practice opens on one recommended drill. The full practice toolbox stays in a native details disclosure labelled "More drills".
 

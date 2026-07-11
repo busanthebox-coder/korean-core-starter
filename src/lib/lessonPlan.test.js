@@ -73,8 +73,8 @@ describe('writing self-check helpers', () => {
       { title: '-고 — and then' },
       { title: '' },
     ])).toEqual([
-      { id: 'grammar-0', form: 'V아/어서', label: '『V아/어서』를 썼나요?' },
-      { id: 'grammar-1', form: '-고', label: '『-고』를 썼나요?' },
+      { id: 'grammar-0', form: 'V아/어서', label: 'Did you use 『V아/어서』?' },
+      { id: 'grammar-1', form: '-고', label: 'Did you use 『-고』?' },
     ]);
   });
 });
