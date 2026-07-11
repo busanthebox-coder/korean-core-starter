@@ -8,6 +8,7 @@
     FORM_LABELS,
     buildConjugationQuiz,
   } from '../lib/conjugationDrill.js';
+  import { getChapterConjugationForms } from '../lib/conjugationDrill.js';
   import ConjugationSession from '../lib/components/ConjugationSession.svelte';
   import ExerciseHost from '../lib/components/ExerciseHost.svelte';
   import MatchGame from '../lib/components/MatchGame.svelte';
@@ -103,7 +104,22 @@
   function clearWeak() { mistakes.clearAll(); if (deck === WEAK_DECK) deck = 'all'; }
   async function addSet() { await ensurePracticeReady(); reviews.addMany(pool.map((e) => e.id)); added = true; setTimeout(() => (added = false), 1800); }
   // ReviewSession passes {reviewed}; the back button passes a click event (no log).
-  function reviewDone(e) { if (e && e.reviewed) study.log(e.reviewed); stage = 'setup'; window.scrollTo(0, 0); }
+  function reviewDone(e) {
+    if (!e?.reviewed) {
+      stage = 'setup';
+      window.scrollTo(0, 0);
+      return;
+    }
+    study.log(e.reviewed);
+    const query = new URLSearchParams((window.location.hash.split('?')[1] || '').split('#')[0]);
+    const todayChapter = query.get('today') === '1' ? query.get('chapter') : '';
+    if (todayChapter) {
+      push(`/learn?chapter=${encodeURIComponent(todayChapter)}&today=lesson`);
+      return;
+    }
+    stage = 'setup';
+    window.scrollTo(0, 0);
+  }
 
   // Practice covers ALL learnable items — words, expressions and patterns —
   // not just vocabulary. `kind` narrows the active set by type.
@@ -146,6 +162,7 @@
     && conjugationForms.some((form) => e.forms?.[form])
   );
   $: canConjugate = conjugationPool.length > 0 && conjugationForms.length > 0;
+  $: chapterHasConjugation = isChapterDeck(deck) && getChapterConjugationForms(deck).length > 0;
   $: listeningChapterId = isChapterDeck(deck) ? deck : '';
   $: listeningCount = countListeningCandidates(chapters, listeningChapterId);
   $: canListen = canUseKoreanSpeech() && listeningCount >= 4;
@@ -240,6 +257,7 @@
       conjugationCount={conjugationPool.length}
       {contrastLevelOptions}
       {contrastCount}
+      {chapterHasConjugation}
       bind:conjugationForms
       bind:conjugationLevel
       bind:contrastLevel

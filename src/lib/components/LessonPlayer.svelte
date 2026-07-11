@@ -8,6 +8,8 @@
   import { grammarSelfCheckItems } from '../lessonPlan.js';
   import { study } from '../progress.js';
   import { recordActivity } from '../streak.js';
+  import { recordSpokenChapter } from '../stores.js';
+  import { buildSayItItems } from '../sayIt.js';
   import { saveWriting, writingsByChapter } from '../writings.js';
   import { canUseKoreanSpeech } from '../audio.js';
   import { buildChapterListeningItems } from '../listening.js';
@@ -33,6 +35,9 @@
   export let onComplete = () => {};
   export let onPractice = () => {};
   export let onOpenChapter = () => {};
+  export let startAtKind = '';
+  export let journeyActionLabel = '';
+  export let onJourneyAction = null;
 
   function wordsScreenData(ch) {
     if (ch.extendedVocabulary && ch.extendedVocabulary.length) {
@@ -131,6 +136,14 @@
         data: { ...writing, checkItems: grammarSelfCheckItems(ch.grammarNotes || []) },
       });
     }
+    const sayItItems = buildSayItItems(ch);
+    if (sayItItems.length) {
+      withReview.push({
+        phase: 'speak',
+        kind: 'sayit',
+        data: { chapterId: ch.id, items: sayItItems },
+      });
+    }
     return withReview;
   }
 
@@ -139,6 +152,7 @@
     grammar: { label: 'Grammar', ko: '문법', icon: 'bulb', tone: 'grammar' },
     dialogue: { label: 'Talk', ko: '대화', icon: 'messages', tone: 'dialogue' },
     practice: { label: 'Practice', ko: '연습', icon: 'pencil', tone: 'practice' },
+    speak: { label: 'Speak', ko: '말하기', icon: 'microphone-2', tone: 'practice' },
     // guide phases
     phrases: { label: 'Phrases', ko: '표현', icon: 'message-2', tone: 'words' },
     steps: { label: 'Steps', ko: '순서', icon: 'list-check', tone: 'practice' },
@@ -150,11 +164,11 @@
   let answers = {};
   let revealed = {};
   let writingChecks = {};
-
-  $: resetKey = (chapter && chapter.id) || kicker || (screens && screens.length);
-  $: if (resetKey) { void resetKey; i = 0; finished = false; answers = {}; revealed = {}; writingChecks = {}; }
+  let sayItChecks = {};
 
   $: screenList = screens || (chapter ? buildChapterScreens(chapter) : []);
+  $: resetKey = `${(chapter && chapter.id) || kicker || (screens && screens.length)}:${startAtKind}`;
+  $: if (resetKey) { void resetKey; i = startAtKind ? Math.max(0, screenList.findIndex((screen) => screen.kind === startAtKind)) : 0; finished = false; answers = {}; revealed = {}; writingChecks = {}; sayItChecks = {}; }
   $: cur = screenList[i] || null;
   $: phaseOrder = [...new Set(screenList.map((s) => s.phase))];
   $: groups = phaseOrder
@@ -165,6 +179,7 @@
   $: posInPhase = curGroup ? curGroup.idxs.indexOf(i) + 1 : 0;
   $: phaseLabel = curPhase ? PHASE[curPhase] : null;
   $: currentWritingState = (writingChecks, writingState(i));
+  $: currentSayItCheckedIds = (sayItChecks, sayItState(i));
   $: writingLocked = (writingChecks, cur?.kind === 'writing' && !writingPassed(cur, i));
   $: nextLocked = (['match', 'conjugation', 'listening'].includes(cur?.kind) && !revealed[i]) || writingLocked;
   $: lockLabel = cur?.kind === 'writing'
@@ -226,6 +241,21 @@
       [i]: { ...state, skipped: true },
     };
   }
+  function sayItState(index = i) {
+    return sayItChecks[index] || [];
+  }
+  function setSayItCheck(id, checked) {
+    const checkedIds = new Set(sayItState());
+    if (checked) checkedIds.add(id);
+    else checkedIds.delete(id);
+    const nextIds = [...checkedIds];
+    sayItChecks = { ...sayItChecks, [i]: nextIds };
+    const items = cur?.data?.items || [];
+    if (items.length && nextIds.length >= items.length) {
+      recordSpokenChapter(cur?.data?.chapterId || chapter?.id);
+      recordActivity();
+    }
+  }
   function persistCurrentWriting() {
     if (cur?.kind !== 'writing') return;
     const ids = writingItemIds(cur);
@@ -284,6 +314,8 @@
       {onPractice}
       {onComplete}
       {onOpenChapter}
+      {journeyActionLabel}
+      {onJourneyAction}
     />
 
   {:else if cur}
@@ -303,6 +335,8 @@
       writingState={currentWritingState}
       onWritingCheck={setWritingCheck}
       onWritingSkip={skipWritingCheck}
+      sayItCheckedIds={currentSayItCheckedIds}
+      onSayItToggle={setSayItCheck}
     />
   {/if}
 

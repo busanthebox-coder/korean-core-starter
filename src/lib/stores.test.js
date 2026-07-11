@@ -9,6 +9,7 @@ import {
   lessonActivity,
   lessonProgress,
   readerProgress,
+  spokenProgress,
   markOrientationDone,
   markRomanNudgeSeen,
   markDialogueSeen,
@@ -23,7 +24,10 @@ import {
   resetCheckpointProgress,
   resetLessonProgress,
   resetReaderProgress,
+  recordSpokenChapter,
   recordReaderResult,
+  resetSpokenProgress,
+  spokenDayCount,
   recordCheckpointResult,
   setImeFallback,
   resetLearnOpenGroups,
@@ -40,6 +44,7 @@ beforeEach(() => {
   resetCheckpointProgress();
   resetLessonProgress();
   resetReaderProgress();
+  resetSpokenProgress();
   resetLearnOpenGroups();
   resetOrientationDone();
   resetRomanNudgeSeen();
@@ -141,6 +146,19 @@ describe('stores', () => {
 
     resetReaderProgress();
     expect(get(readerProgress)).toEqual({});
+  });
+
+  it('records spoken lesson days without duplicating the same day', () => {
+    recordSpokenChapter('chapter-01', new Date('2026-07-10T10:00:00+09:00').getTime());
+    recordSpokenChapter('chapter-01', new Date('2026-07-10T20:00:00+09:00').getTime());
+    recordSpokenChapter('chapter-02', new Date('2026-07-11T10:00:00+09:00').getTime());
+
+    expect(get(spokenProgress)).toEqual({
+      'chapter-01': ['2026-07-10'],
+      'chapter-02': ['2026-07-11'],
+    });
+    expect(spokenDayCount(get(spokenProgress))).toBe(2);
+    expect(JSON.parse(localStorage.getItem('kcs.spoken-v1'))['chapter-01']).toEqual(['2026-07-10']);
   });
 
   it('tracks C9 onboarding state keys', () => {

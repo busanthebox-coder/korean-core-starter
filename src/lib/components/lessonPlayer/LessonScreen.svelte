@@ -2,6 +2,7 @@
   import DialogueScreen from './DialogueScreen.svelte';
   import GrammarScreen from './GrammarScreen.svelte';
   import PracticeScreen from './PracticeScreen.svelte';
+  import SayItScreen from './SayItScreen.svelte';
   import WordsScreen from './WordsScreen.svelte';
 
   export let cur;
@@ -19,6 +20,8 @@
   export let writingState = { checkedIds: [], skipped: false };
   export let onWritingCheck = () => {};
   export let onWritingSkip = () => {};
+  export let sayItCheckedIds = [];
+  export let onSayItToggle = () => {};
 </script>
 
 <div class="lp-screen" data-phase={cur.phase}>
@@ -50,6 +53,8 @@
       {onWritingCheck}
       {onWritingSkip}
     />
+  {:else if cur.kind === 'sayit'}
+    <SayItScreen data={cur.data} checkedIds={sayItCheckedIds} onToggle={onSayItToggle} />
   {/if}
 </div>
 

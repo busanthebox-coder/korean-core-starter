@@ -45,6 +45,7 @@
   let packCompletion = null;
   let loadingLessonData = false;
   let forcePlacement = false;
+  let todayStage = '';
 
   const vocabOf = (item) =>
     [...new Set([...(item.coreVocabularyIds || []), ...(item.linkedEntryIds || [])])]
@@ -93,6 +94,7 @@
     const [hashPath, rawQuery = ''] = window.location.hash.split('?');
     const query = rawQuery.split('#')[0];
     const search = new URLSearchParams(query);
+    todayStage = search.get('today') || '';
     if (search.get('placement') === '1') {
       clearSelection();
       forcePlacement = true;
@@ -129,7 +131,15 @@
   function practicePack(item) { push(focusPracticePath(packItemIds(item))); }
   function completeChapter(item) {
     if (!$lessonProgress.has(item.id)) recordActivity();
-    toggleLessonDone(item.id);
+    if (!$lessonProgress.has(item.id)) toggleLessonDone(item.id);
+  }
+  function advanceTodayChapter() {
+    completeChapter(chapter);
+    push(`/learn?chapter=${encodeURIComponent(chapter.id)}&today=sayit`);
+  }
+  function finishToday() {
+    completeChapter(chapter);
+    push('/learn');
   }
   function completePack(item) {
     if (!$packProgress.has(item.id)) {
@@ -230,7 +240,6 @@
     onOpenGrammar={openGrammar}
     onOpenCheckpoint={openCheckpoint}
     onOpenReader={openReader}
-    onResetCompleted={resetCompleted}
     onDismissRomanNudge={dismissRomanNudge}
   />
 {:else if view === 'hangul'}
@@ -265,6 +274,9 @@
     allChapters={chapters}
     onBack={back}
     onComplete={() => completeChapter(chapter)}
+    startAtKind={todayStage === 'sayit' ? 'sayit' : ''}
+    journeyActionLabel={todayStage === 'lesson' ? 'Continue to Say-it' : (todayStage === 'sayit' ? 'Complete today' : '')}
+    onJourneyAction={todayStage === 'lesson' ? advanceTodayChapter : (todayStage === 'sayit' ? finishToday : null)}
     onPractice={() => practiceChapter(chapter)}
     onOpenChapter={openChapter}
   />

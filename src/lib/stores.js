@@ -241,4 +241,27 @@ export function toggleShadowDone(id) {
   });
 }
 
+export function localDayKey(now = Date.now()) {
+  const d = new Date(now);
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
+export const spokenProgress = persistedObject('kcs.spoken-v1', {});
+export function recordSpokenChapter(id, now = Date.now()) {
+  if (!id) return;
+  const day = localDayKey(now);
+  spokenProgress.update((state) => {
+    const days = new Set(Array.isArray(state[id]) ? state[id] : []);
+    days.add(day);
+    return { ...state, [id]: [...days].sort() };
+  });
+}
+export function spokenDayCount(state = {}) {
+  return new Set(Object.values(state).flatMap((days) => (Array.isArray(days) ? days : []))).size;
+}
+export function resetSpokenProgress() { spokenProgress.set({}); }
+
 export const filters = writable({ search: '', type: new Set(), level: new Set(), topic: new Set(), pos: new Set() });

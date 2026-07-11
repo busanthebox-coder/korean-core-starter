@@ -19,6 +19,9 @@ function seedProgress() {
   }));
   localStorage.setItem('kcs.guide-ready-v1', JSON.stringify(['guide-a']));
   localStorage.setItem('kcs.shadow-done-v1', JSON.stringify(['dialogue-a']));
+  localStorage.setItem('kcs.spoken-v1', JSON.stringify({
+    'chapter-01': ['2026-07-08'],
+  }));
   localStorage.setItem('kcs.packs-v1', JSON.stringify(['pack-a']));
   localStorage.setItem('kcs.orientation-v1', '1');
   localStorage.setItem('kcs.ime-fallback-v1', '1');
@@ -94,6 +97,10 @@ describe('progress backup', () => {
       'chapter-01': { dialogueSeen: true, updatedAt: 20 },
       'chapter-local': { practiceDone: true, updatedAt: 30 },
     }));
+    localStorage.setItem('kcs.spoken-v1', JSON.stringify({
+      'chapter-01': ['2026-07-08'],
+      'chapter-local': ['2026-07-09'],
+    }));
     localStorage.setItem('ksrs-v1', JSON.stringify({
       wordA: { box: 1, due: 400, reps: 2, lapses: 0 },
       wordLocal: { box: 2, due: 600, reps: 4, lapses: 0 },
@@ -129,6 +136,10 @@ describe('progress backup', () => {
         'kcs.lesson-activity-v1': JSON.stringify({
           'chapter-01': { dialogueSeen: false, practiceDone: true, updatedAt: 50 },
           'chapter-remote': { dialogueSeen: true, updatedAt: 40 },
+        }),
+        'kcs.spoken-v1': JSON.stringify({
+          'chapter-01': ['2026-07-08', '2026-07-10'],
+          'chapter-remote': ['2026-07-09'],
         }),
         'ksrs-v1': JSON.stringify({
           wordA: { box: 5, due: 900, reps: 5, lapses: 1 },
@@ -171,6 +182,11 @@ describe('progress backup', () => {
       dialogueSeen: false,
       practiceDone: true,
       updatedAt: 50,
+    });
+    expect(JSON.parse(localStorage.getItem('kcs.spoken-v1'))).toEqual({
+      'chapter-01': ['2026-07-08', '2026-07-10'],
+      'chapter-local': ['2026-07-09'],
+      'chapter-remote': ['2026-07-09'],
     });
     expect(JSON.parse(localStorage.getItem('ksrs-v1')).wordA.reps).toBe(5);
     expect(JSON.parse(localStorage.getItem('ksrs-v1')).wordLocal.reps).toBe(4);
@@ -258,6 +274,21 @@ describe('progress backup', () => {
       current: 2,
       best: 12,
       lastDay: '2026-07-09',
+    });
+  });
+
+  it('merges spoken lesson days by chapter', () => {
+    const mine = JSON.stringify({
+      'chapter-01': ['2026-07-08'],
+      'chapter-02': ['2026-07-09'],
+    });
+    const theirs = JSON.stringify({
+      'chapter-01': ['2026-07-08', '2026-07-10'],
+    });
+
+    expect(JSON.parse(mergeStrategies('kcs.spoken-v1', mine, theirs))).toEqual({
+      'chapter-01': ['2026-07-08', '2026-07-10'],
+      'chapter-02': ['2026-07-09'],
     });
   });
 });

@@ -65,6 +65,20 @@ This file records the existing Hanmok UI rules so new C0 pack screens extend the
 - Playback is capped at three plays per item, with a 0.8x speed toggle for careful listening.
 - If the browser has no usable Korean Web Speech support, listening screens and mode buttons stay hidden.
 
+## V3 Speak UI Rules
+
+- Speak is the single primary speaking tab and contains the daily speaking plan plus the existing shadowing and roleplay libraries.
+- The daily speaking plan is three short actions: say lesson lines, repeat one scene, then answer one prompt.
+- Say-it lines are generated from lesson dialogue first and saved in `kcs.spoken-v1` only after all three lines are checked.
+- Old `/talk`, `/chat`, and `/conversation` routes redirect to `/speak` so learners do not have to choose between speaking surfaces.
+
+## V3 Today UI Rules
+
+- Learn opens with one warm, persimmon-edged Today card. It replaces separate progress and mission cards and exposes one primary Start action.
+- The Today card lists at most three numbered actions, with the current action marked in persimmon; completion is reported by the existing lesson seal rather than a new dashboard.
+- On mobile, the first Learn viewport contains the Today card and the current level header. Course library surfaces begin below that point.
+- Practice opens on one recommended drill. The full practice toolbox stays in a native details disclosure labelled "More drills".
+
 ## WS12 Learn IA Rules
 
 - Learn path is grouped by CEFR track accordions; only the current unfinished track opens by default.

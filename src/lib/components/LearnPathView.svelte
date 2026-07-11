@@ -6,7 +6,8 @@
   import { checkpointSlots } from '../checkpoints.js';
   import { groupsForLearnHome } from '../learnGroups.js';
   import { continueChapter } from '../placement.js';
-  import { buildTodayMission, chapterItemIds, packItemIds } from '../studyLinks.js';
+  import { chapterItemIds } from '../studyLinks.js';
+  import { buildTodayPlan } from '../todayPlan.js';
   import {
     checkpointProgress,
     learnOpenGroups,
@@ -16,13 +17,15 @@
     readerProgress,
     romanizationVisible,
     romanNudgeSeen,
+    spokenProgress,
+    localDayKey,
     startChapterId,
     toggleLearnOpenGroup,
   } from '../stores.js';
-  import LearnMissionPanel from './LearnMissionPanel.svelte';
-  import LearnProgressCard from './LearnProgressCard.svelte';
+  import TodayCard from './TodayCard.svelte';
   import LearnLevelGroup from './LearnLevelGroup.svelte';
   import ReadingRoom from './ReadingRoom.svelte';
+  import { push } from 'svelte-spa-router';
 
   export let onOpenChapter = () => {};
   export let onOpenPack = () => {};
@@ -31,10 +34,10 @@
   export let onOpenGrammar = () => {};
   export let onOpenCheckpoint = () => {};
   export let onOpenReader = () => {};
-  export let onResetCompleted = () => {};
   export let onDismissRomanNudge = () => {};
 
   let chapterFilter = '';
+  let libraryOpened = false;
 
   $: packsByChapter = vocabPacks.reduce((acc, item) => {
     const key = item.insertAfterChapter;
@@ -54,16 +57,16 @@
 
   $: doneCount = chapters.filter((chapter) => $lessonProgress.has(chapter.id)).length;
   $: continueTarget = continueChapter(chapters, $lessonProgress, $startChapterId);
-  $: continueSource = continueTarget && $startChapterId === continueTarget.id ? 'Placement recommendation' : 'Next unfinished chapter';
   $: continuePct = Math.round((doneCount / Math.max(1, chapters.length)) * 100);
   $: allItemIds = [...new Set(chapters.flatMap(chapterItemIds))];
   $: courseMastery = masteryOf($reviews, allItemIds);
   $: streakDays = $streak.current || 0;
-  $: todayMission = buildTodayMission({
-    chapters,
-    completedIds: $lessonProgress,
-    reviews: $reviews,
-    mistakeIds: Object.keys($mistakes),
+  $: dueCount = Object.values($reviews).filter((card) => card?.due <= Date.now()).length;
+  $: todayPlan = buildTodayPlan({
+    dueCount,
+    currentChapter: continueTarget,
+    spoken: $spokenProgress,
+    today: localDayKey(),
   });
   $: levelGroups = groupsForLearnHome({
     chapters,
@@ -72,37 +75,42 @@
     filterText: chapterFilter,
   });
   $: hasFilter = chapterFilter.trim().length > 0;
+  $: activeLevelKey = levelGroups.find((group) => group.chapters.some((chapter) => chapter.id === continueTarget?.id))?.key || '';
+  $: visibleLevelGroups = libraryOpened || hasFilter
+    ? levelGroups
+    : levelGroups.filter((group) => group.key === activeLevelKey);
   $: showRomanNudge = !$romanNudgeSeen && $romanizationVisible && $lessonProgress.has('chapter-03');
+
+  function startToday() {
+    const first = todayPlan[0];
+    if (!first) return;
+    if (first.kind === 'review') {
+      push(`${first.target}&chapter=${encodeURIComponent(continueTarget?.id || '')}`);
+      return;
+    }
+    push(`/learn?chapter=${encodeURIComponent(first.target)}&today=${first.kind}`);
+  }
+
+  function openGroup(group) {
+    libraryOpened = true;
+    toggleLearnOpenGroup(group.key);
+  }
 </script>
 
 <section class="learn">
-  <div class="learn-hero">
-    <div class="eyebrow">Korean · A1–B1</div>
-    <h1>Your lessons</h1>
-    <p>Start with Hangul, then work down the chapters. Tap any card to open it.</p>
-  </div>
-
-  {#if continueTarget}
-    <button class="continue-card" on:click={() => onOpenChapter(continueTarget)}>
-      <span class="bc-ico cont">{continueTarget.number}</span>
-      <span class="bc-main">
-        <strong>이어서 학습 · {continueTarget.number}과 {continueTarget.title}</strong>
-        <span>{continueSource} · {continuePct}% complete</span>
-      </span>
-      <span class="chev">▸</span>
-    </button>
-  {/if}
-
-  <label class="chapter-filter">
-    <span>Find a chapter</span>
-    <input bind:value={chapterFilter} placeholder="Search title, number, or topic..." aria-label="Filter chapters" />
-    {#if hasFilter}
-      <button type="button" on:click={() => { chapterFilter = ''; }}>Clear</button>
-    {/if}
-  </label>
+  <TodayCard
+    plan={todayPlan}
+    {doneCount}
+    totalChapters={chapters.length}
+    {courseMastery}
+    {streakDays}
+    orientationPending={!$orientationDone}
+    onStart={startToday}
+    onOpenOrientation={onOpenOrientation}
+  />
 
   <div class="path">
-    {#each levelGroups as group}
+    {#each visibleLevelGroups as group}
       <LearnLevelGroup
         {group}
         lessonProgress={$lessonProgress}
@@ -114,16 +122,14 @@
         {onOpenChapter}
         {onOpenPack}
         {onOpenCheckpoint}
-        onToggleGroup={() => toggleLearnOpenGroup(group.key)}
+        showBody={libraryOpened || hasFilter}
+        onToggleGroup={() => openGroup(group)}
       />
     {/each}
     {#if hasFilter && levelGroups.length === 0}
       <p class="empty-filter">No chapters match that filter.</p>
     {/if}
   </div>
-
-  <LearnProgressCard {courseMastery} {streakDays} {doneCount} totalChapters={chapters.length} {onResetCompleted} />
-  <LearnMissionPanel mission={todayMission} onOpenChapter={onOpenChapter} />
 
   {#if showRomanNudge}
     <div class="roman-nudge">
@@ -139,51 +145,42 @@
     </div>
   {/if}
 
-  {#if !$orientationDone}
-    <button class="big-card orientation" on:click={onOpenOrientation}>
-      <span class="bc-ico compass">시</span>
-      <span class="bc-main"><strong>Start here — How Korean works</strong><span>Ten quick ideas before the first chapter.</span></span>
+  {#if libraryOpened || hasFilter}
+    <button class="big-card" on:click={onOpenHangul}>
+      <span class="bc-ico">가</span>
+      <span class="bc-main"><strong>Start here — Hangul</strong><span>Read the alphabet and build syllables.</span></span>
+      <span class="chev">▸</span>
+    </button>
+
+    <ReadingRoom readers={readers} progress={$readerProgress} onOpenReader={onOpenReader} />
+
+    <label class="chapter-filter">
+      <span>Find a chapter</span>
+      <input bind:value={chapterFilter} placeholder="Search title, number, or topic..." aria-label="Filter chapters" />
+      {#if hasFilter}
+        <button type="button" on:click={() => { chapterFilter = ''; }}>Clear</button>
+      {/if}
+    </label>
+
+    <button class="big-card" on:click={onOpenGrammar}>
+      <span class="bc-ico gram">文</span>
+      <span class="bc-main"><strong>Grammar roadmap</strong><span>Learn grammar step by step — particles, tenses, endings, connectors.</span></span>
       <span class="chev">▸</span>
     </button>
   {/if}
-
-  <button class="big-card" on:click={onOpenHangul}>
-    <span class="bc-ico">가</span>
-    <span class="bc-main"><strong>Start here — Hangul</strong><span>Read the alphabet and build syllables.</span></span>
-    <span class="chev">▸</span>
-  </button>
-
-  <ReadingRoom readers={readers} progress={$readerProgress} onOpenReader={onOpenReader} />
-
-  <button class="big-card" on:click={onOpenGrammar}>
-    <span class="bc-ico gram">文</span>
-    <span class="bc-main"><strong>Grammar roadmap</strong><span>Learn grammar step by step — particles, tenses, endings, connectors.</span></span>
-    <span class="chev">▸</span>
-  </button>
 </section>
 
 <style>
   .learn { max-width: 1120px; margin: 0 auto; padding: 28px; display: grid; gap: 14px; }
-  .learn-hero { display: grid; gap: 4px; padding: 6px 2px 16px; border-bottom: 1px solid var(--rule); }
-  .eyebrow { font-size: 11px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); }
-  h1 { margin: 9px 0 4px; font-family: var(--serif-ko); font-size: 44px; font-weight: 600; letter-spacing: 0; line-height: 1.05; }
-  .learn-hero p { margin: 0; color: var(--ink-3); }
   .big-card { display: flex; align-items: center; gap: 14px; text-align: left; padding: 16px 18px; border-radius: var(--radius);
     background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-1); }
   .big-card:hover { border-color: var(--ink); box-shadow: var(--shadow-2); transform: translateY(-1px); }
-  .big-card.orientation { border-color: rgba(36,119,68,.24); background: #f7fbf8; }
   .bc-ico { width: 50px; height: 50px; display: grid; place-items: center; border-radius: 13px; background: var(--ink); color: var(--bg); font-family: var(--serif-ko); font-size: 25px; font-weight: 700; flex: none; }
   .bc-ico.gram { background: var(--accent); }
-  .bc-ico.compass { background: var(--green); }
-  .bc-ico.cont { background: var(--primary); color: var(--primary-on); }
   .bc-main { display: grid; gap: 2px; flex: 1; }
   .bc-main strong { font-family: var(--serif-ko); font-size: 18px; font-weight: 600; }
   .bc-main span { color: var(--ink-2); font-size: 14px; }
   .chev { color: var(--ink-3); }
-  .continue-card { display: flex; align-items: center; gap: 14px; text-align: left; padding: 16px 18px; border-radius: var(--radius);
-    background: linear-gradient(180deg, #fff 0%, #fffaf4 100%); border: 1px solid rgba(232,85,46,.28);
-    box-shadow: var(--shadow-2); }
-  .continue-card:hover { border-color: var(--primary); transform: translateY(-1px); }
   .chapter-filter { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
     padding: 10px 12px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--border);
     box-shadow: var(--shadow-1); }

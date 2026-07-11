@@ -54,4 +54,20 @@ describe('PracticeSetupPanel', () => {
     expect(screen.getByRole('button', { name: /Listening/ })).toBeInTheDocument();
     expect(screen.getByText('12 sentences ready')).toBeInTheDocument();
   });
+
+  it('shows one recommended weak-item action before the full drill list', () => {
+    render(PracticeSetupPanel, {
+      entries: [],
+      chapters: [],
+      kindOptions: [['all', 'All']],
+      kindCounts: { all: 4 },
+      weakItems: [{ id: 'weak-1' }, { id: 'weak-2' }],
+      poolLength: 4,
+      goal: 5,
+      canRecognize: true,
+    });
+
+    expect(screen.getByRole('button', { name: 'Practice weak items' })).toBeInTheDocument();
+    expect(screen.getByText('More drills')).toBeInTheDocument();
+  });
 });

@@ -13,6 +13,7 @@
   export let onOpenPack = () => {};
   export let onOpenCheckpoint = () => {};
   export let onToggleGroup = () => {};
+  export let showBody = true;
 
   const chapterMastery = (chapter) => masteryOf(reviewsState, chapterItemIds(chapter));
   const packMastery = (pack) => masteryOf(reviewsState, packItemIds(pack));
@@ -22,7 +23,7 @@
   <button
     type="button"
     class="level-head"
-    aria-expanded={group.open}
+    aria-expanded={group.open && showBody}
     aria-controls={`learn-group-${group.key}`}
     on:click={onToggleGroup}
   >
@@ -32,9 +33,9 @@
       <span>{group.description}</span>
     </span>
     <span class="level-progress">{group.doneCount}/{group.totalCount}</span>
-    <span class="chev" aria-hidden="true">{group.open ? '⌃' : '⌄'}</span>
+    <span class="chev" aria-hidden="true">{group.open && showBody ? '⌃' : '⌄'}</span>
   </button>
-  {#if group.open}
+  {#if group.open && showBody}
     <div class="level-body" id={`learn-group-${group.key}`}>
       {#each group.chapters as chapter}
         {@const mastery = chapterMastery(chapter)}

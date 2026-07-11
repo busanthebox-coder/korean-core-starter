@@ -66,10 +66,10 @@ export function buildTodayMission({ chapters = [], completedIds = new Set(), rev
       chapter: nextChapter,
     },
     {
-      kind: 'talk',
+      kind: 'speak',
       label: 'Shadow 1 scene',
       detail: 'Listen, repeat, and advance line by line.',
-      path: '/talk?mode=shadow',
+      path: '/speak?mode=shadow',
     },
   ];
   return { dueCount, weakCount, nextChapter, steps };

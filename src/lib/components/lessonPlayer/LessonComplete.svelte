@@ -9,6 +9,13 @@
   export let onPractice = () => {};
   export let onComplete = () => {};
   export let onOpenChapter = () => {};
+  export let journeyActionLabel = '';
+  export let onJourneyAction = null;
+
+  function completeJourney() {
+    if (!done) onComplete();
+    onJourneyAction?.();
+  }
 
   function formatDate(date) {
     return new Date(date).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' });
@@ -45,7 +52,11 @@
   {/if}
   <div class="done-actions">
     <button class="btn3d" type="button" on:click={onPractice}>Practice this</button>
-    <button class="ghost" type="button" aria-pressed={done} on:click={onComplete}>{done ? '✓ Marked done' : 'Mark complete'}</button>
+    {#if journeyActionLabel && onJourneyAction}
+      <button class="ghost" type="button" on:click={completeJourney}>{journeyActionLabel}</button>
+    {:else}
+      <button class="ghost" type="button" aria-pressed={done} on:click={onComplete}>{done ? '✓ Marked done' : 'Mark complete'}</button>
+    {/if}
     {#if nextChapter}
       <button class="ghost go" type="button" on:click={() => onOpenChapter(nextChapter)}>Next: {nextChapter.number ? `${nextChapter.number}. ` : ''}{nextChapter.title} →</button>
     {/if}

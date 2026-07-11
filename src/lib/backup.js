@@ -12,6 +12,7 @@ export const BACKUP_KEYS = [
   'kcs.lesson-activity-v1',
   'kcs.guide-ready-v1',
   'kcs.shadow-done-v1',
+  'kcs.spoken-v1',
   'kcs.packs-v1',
   'kcs.orientation-v1',
   'kcs.ime-fallback-v1',
@@ -135,6 +136,18 @@ function mergeReaders(mineRaw, theirsRaw) {
   return stringify(out);
 }
 
+function mergeSpoken(mineRaw, theirsRaw) {
+  const mine = mineRaw ? parseJson(mineRaw) : {};
+  const theirs = theirsRaw ? parseJson(theirsRaw) : {};
+  const out = { ...mine };
+  for (const [chapterId, incomingDays] of objectEntries(theirs)) {
+    const currentDays = Array.isArray(out[chapterId]) ? out[chapterId] : [];
+    const nextDays = Array.isArray(incomingDays) ? incomingDays : [];
+    out[chapterId] = [...new Set([...currentDays, ...nextDays].filter(Boolean))].sort();
+  }
+  return stringify(out);
+}
+
 function mergeStudy(mineRaw, theirsRaw) {
   const mine = mineRaw ? parseJson(mineRaw) : {};
   const theirs = theirsRaw ? parseJson(theirsRaw) : {};
@@ -176,6 +189,7 @@ export function mergeStrategies(key, mine, theirs) {
   if (key === 'kcs.mistakes-v1') return mergeMistakes(mine, theirs);
   if (key === 'kcs.checkpoint-v1') return mergeCheckpoint(mine, theirs);
   if (key === 'kcs.readers-v1') return mergeReaders(mine, theirs);
+  if (key === 'kcs.spoken-v1') return mergeSpoken(mine, theirs);
   if (key === 'kcs.study-v1') return mergeStudy(mine, theirs);
   if (key === 'kcs.streak-v1') return mergeStreak(mine, theirs);
   if (key === WRITINGS_KEY) return mergeWritingArchives(mine, theirs);

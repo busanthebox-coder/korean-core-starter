@@ -110,6 +110,7 @@ scripts/{verb,expr,vocab,pattern}-src/*.json      ← 손편집 시드 (263+ 파
 | `kcs.lesson-activity-v1` | stores.js | JSON object {chapterId: {dialogueSeen, practiceDone, updatedAt}} |
 | `kcs.guide-ready-v1` | stores.js | JSON array(Set) |
 | `kcs.shadow-done-v1` | stores.js | JSON array(Set) |
+| `kcs.spoken-v1` | stores.js | JSON object {chapterId: [YYYY-MM-DD...]} — Say-it 말하기 날짜 |
 | `kcs.packs-v1` | stores.js | JSON array(Set) — 완료한 Vocab Pack id |
 | `kcs.orientation-v1` | stores.js | '1'/'0' — C9 How Korean Works 오리엔테이션 완료 |
 | `kcs.ime-fallback-v1` | stores.js | '1'/'0' — 타이핑 문항의 어절 뱅크 폴백 사용 |

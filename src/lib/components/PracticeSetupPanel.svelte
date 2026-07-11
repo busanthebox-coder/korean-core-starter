@@ -1,5 +1,6 @@
 <script>
   import PracticeContrastPicker from './PracticeContrastPicker.svelte';
+  import { recommendDrill } from '../recommendDrill.js';
 
   export let entries = [];
   export let chapters = [];
@@ -33,6 +34,7 @@
   export let conjugationForms = [];
   export let conjugationLevel = 'all';
   export let contrastLevel = 'all';
+  export let chapterHasConjugation = false;
   export let onStartReview = () => {};
   export let onSelectWeak = () => {};
   export let onClearWeak = () => {};
@@ -55,10 +57,28 @@
   }
 
   $: goalPct = Math.min(100, goal ? Math.round((todayN / goal) * 100) : 0);
-  // One clear recommendation: clear your due reviews first, otherwise a quick quiz.
-  $: rec = dueCards.length
-    ? { kind: 'review', label: `Review ${dueCards.length} due`, sub: 'Spaced reviews bring each word back right before you would forget it.', cta: `Review ${dueCards.length}`, run: onStartReview, on: true }
-    : { kind: 'quiz', label: 'Quick quiz', sub: deckSize ? `All caught up on reviews${nextDueLabel ? ` — next review ${nextDueLabel}.` : ' — keep them sharp with a 10-question quiz.'}` : 'Start with a 10-question quiz, then build your review deck below.', cta: 'Start quiz', run: onStartQuiz, on: canRecognize };
+  $: recommendation = recommendDrill({
+    dueCount: dueCards.length,
+    weakCount: weakItems.length,
+    chapterHasConjugation,
+    canRecognize,
+  });
+  $: rec = {
+    ...recommendation,
+    sub: recommendation.kind === 'quiz' && deckSize && nextDueLabel
+      ? `All caught up on reviews — next review ${nextDueLabel}.`
+      : recommendation.sub,
+    run: recommendation.kind === 'review'
+      ? onStartReview
+      : recommendation.kind === 'weak'
+        ? onSelectWeak
+        : recommendation.kind === 'conjugation'
+          ? onStartConjugation
+          : onStartQuiz,
+    on: recommendation.kind === 'review'
+      || recommendation.kind === 'weak'
+      || (recommendation.kind === 'conjugation' ? canConjugate : canRecognize),
+  };
 </script>
 
 <header class="masthead">
@@ -103,7 +123,7 @@
 
 <!-- ── everything else, tucked away ───────────────────────────────────────── -->
 <details class="more">
-  <summary><span><i class="ti ti-adjustments-horizontal" aria-hidden="true"></i> Choose what to practice</span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></summary>
+  <summary><span><i class="ti ti-adjustments-horizontal" aria-hidden="true"></i> More drills</span><i class="ti ti-chevron-down chev" aria-hidden="true"></i></summary>
 
   <div class="more-body">
     <label class="deck">Set

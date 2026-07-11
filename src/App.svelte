@@ -5,8 +5,8 @@
   import BottomNav from './lib/components/BottomNav.svelte';
   import Learn from './routes/Learn.svelte';
   import Practice from './routes/Practice.svelte';
-  import Talk from './routes/Talk.svelte';
-  import Conversation from './routes/Conversation.svelte';
+  import RedirectToSpeak from './routes/RedirectToSpeak.svelte';
+  import Speak from './routes/Speak.svelte';
   import Dictionary from './routes/Dictionary.svelte';
   import Guide from './routes/Guide.svelte';
   import { applyPwaUpdate, pwaStatus, registerPwa } from './lib/pwa.js';
@@ -15,9 +15,10 @@
   const routes = {
     '/learn': Learn,
     '/practice': Practice,
-    '/talk': Talk,
-    '/chat': Conversation,
-    '/conversation': Conversation,
+    '/speak': Speak,
+    '/talk': RedirectToSpeak,
+    '/chat': RedirectToSpeak,
+    '/conversation': RedirectToSpeak,
     '/dictionary': Dictionary,
     '/guide': Guide,
     '*': Learn,
