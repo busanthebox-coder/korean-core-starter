@@ -48,7 +48,7 @@
         { "ko": "취업을 진심으로 축하드리는 바입니다.", "en": "I hereby sincerely congratulate you on your employment.", "correct": false, "feedback": "축하드리는 바입니다 is ceremonial/written language — way too stiff for a hyped friend." },
         { "ko": "오 어디 회사인데?", "en": "Oh which company?", "correct": false, "feedback": "Jumps to questions without celebrating first — feels cold for huge news." }
       ] },
-      { "role": "partner", "ko": "ㅠㅠ 진짜 면접만 몇 개를 봤는지 몰라 너무 길었어", "en": "ㅠㅠ I lost count of how many interviews I did, it was so long" },
+      { "role": "partner", "ko": "ㅠㅠ 진짜 면접을 몇 번이나 봤는지 몰라. 너무 오래 걸렸어", "en": "ㅠㅠ I lost count of how many interviews I had. It took so long." },
       { "role": "you", "prompt": "Acknowledge how hard it was and ask which company", "choices": [
         { "ko": "ㅠㅠ 알지 알지 진짜 고생 많았어 어느 회사야??", "en": "ㅠㅠ I know I know you went through so much which company is it??", "correct": true, "feedback": "Empathizes (고생 많았어) then asks the natural follow-up — keeps it flowing." },
         { "ko": "구직 활동의 노고를 충분히 이해하는 바입니다.", "en": "I fully understand the toils of your job-seeking efforts.", "correct": false, "feedback": "노고/이해하는 바입니다 sounds like an award speech — robotic for a close friend." },
@@ -89,7 +89,7 @@
         { "ko": "외출 자제는 건강 관리에 도움이 됩니다.", "en": "Refraining from going out helps with health management.", "correct": false, "feedback": "Reads like a public-health notice — bizarrely stiff and off-topic." },
         { "ko": "넌 집에만 있는 게 좋아?", "en": "Do you like staying home?", "correct": false, "feedback": "Slightly contrary and shifts focus onto them — breaks the agreeing flow." }
       ] },
-      { "role": "partner", "ko": "ㅋㅋㅋ 우리 둘 다 집순이네 진짜", "en": "Lol we're both total homebodies for real" },
+      { "role": "partner", "ko": "ㅋㅋㅋ 우리 둘 다 집에만 있었네 진짜", "en": "Lol, we've both been staying home all this time." },
       { "role": "you", "prompt": "Laugh it off and suggest going out somewhere", "choices": [
         { "ko": "ㅋㅋㅋ 맞아 근데 오늘은 나가자 한강 갈래?", "en": "Lol true but let's go out today, wanna hit the Han River?", "correct": true, "feedback": "Agrees with a laugh then pitches 한강 갈래? — turns small talk into a plan." },
         { "ko": "야외 활동을 적극 권장하는 바입니다.", "en": "I strongly recommend outdoor activities.", "correct": false, "feedback": "권장하는 바입니다 sounds like a brochure — not how friends suggest hanging out." },
@@ -102,6 +102,6 @@
         { "ko": "날씨 진짜 좋다 그치?", "en": "The weather's really nice huh?", "correct": false, "feedback": "Loops back to the opening weather line instead of moving on the plan." }
       ] }
     ],
-    "vocab": ["미쳤다", "그러니까", "아깝다", "인정", "집순이", "한강", "치맥"]
+    "vocab": ["미쳤다", "그러니까", "아깝다", "인정", "집에만 있다", "한강", "치맥"]
   }
 ]

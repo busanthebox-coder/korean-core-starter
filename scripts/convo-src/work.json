@@ -20,7 +20,7 @@
         { "ko": "그래도 월급 받잖아 ㅋㅋ", "en": "Still, you get paid lol", "correct": false, "feedback": "Dismissive — invalidates the venting instead of being on their side." }
       ] },
       { "role": "partner", "ko": "몰라 적어도 10시 ㅋㅋㅋ 진짜 퇴사하고 싶다", "en": "Dunno, at least 10pm lol I seriously wanna quit" },
-      { "role": "you", "prompt": "Agree they've earned a treat and cheer them on.", "choices": [
+      { "role": "you", "prompt": "Sympathize and suggest a treat after work.", "choices": [
         { "ko": "고생한다 진짜… 끝나고 치맥 어때?", "en": "You're really working so hard… how about chicken and beer after?", "correct": true, "feedback": "고생한다 + a fun plan (치맥) is the perfect friend move — comfort plus something to look forward to." },
         { "ko": "퇴사는 신중하게 결정하셔야 합니다.", "en": "You should decide on quitting carefully. (formal)", "correct": false, "feedback": "Stiff lecture in 존댓말 — kills the mood when they just wanted to vent." },
         { "ko": "10시? 난 벌써 집인데.", "en": "10pm? I'm already home though.", "correct": false, "feedback": "Comes off as bragging and rubs in their bad situation." }
@@ -28,7 +28,7 @@
       { "role": "partner", "ko": "오 치맥 콜 ㅋㅋ 끝나면 톡할게", "en": "Oh chicken and beer, deal lol I'll text you when I'm done" },
       { "role": "you", "prompt": "Tell them to hang in there and you'll wait.", "choices": [
         { "ko": "ㅇㅋ 힘내! 기다릴게", "en": "Okay, hang in there! I'll be waiting", "correct": true, "feedback": "힘내 + 기다릴게 is a warm, natural casual send-off after a vent." },
-        { "ko": "그럼 수고하십시오.", "en": "Well then, keep up the good work. (formal)", "correct": false, "feedback": "수고하십시오 is what you say to a coworker/boss, not a close friend." },
+        { "ko": "그럼 수고하십시오.", "en": "Well then, keep up the good work. (formal)", "correct": false, "feedback": "Very formal and distant; a close friend would naturally say 힘내 or 고생 많다." },
         { "ko": "보고서 마감이 언제라고?", "en": "When's the report deadline again?", "correct": false, "feedback": "Just repeats a question already answered — doesn't move the chat to a close." }
       ] }
     ],
@@ -42,7 +42,7 @@
     "partner": "친구",
     "tip": "When a friend is weighing a decision, react then dig with 되묻기 (왜?/무슨 일 있었어?) before giving any opinion — friends gather the story first.",
     "turns": [
-      { "role": "partner", "ko": "나 알바 그만둘까 봐 진심", "en": "I'm seriously thinking about quitting my part-time job" },
+      { "role": "partner", "ko": "나 알바 그만둘까 진지하게 고민 중이야", "en": "I'm seriously thinking about quitting my part-time job." },
       { "role": "you", "prompt": "React and ask what happened.", "choices": [
         { "ko": "헐 갑자기? 무슨 일 있었어?", "en": "What, out of nowhere? Did something happen?", "correct": true, "feedback": "Reaction + 무슨 일 있었어? pulls the story out — the natural first response to a friend's big decision." },
         { "ko": "아르바이트를 그만두시려고요?", "en": "You're planning to quit your part-time job? (formal)", "correct": false, "feedback": "그만두시려고요 is 존댓말, and 아르바이트 sounds textbook — friends say 알바 and 반말." },
@@ -78,7 +78,7 @@
     "tip": "Face-to-face venting still runs on 맞장구 (헐/그니까) and 되묻기 (몇 차까지 가?) — match their energy out loud and keep the back-and-forth going.",
     "turns": [
       { "role": "partner", "ko": "아 나 오늘 또 회식이야 가기 싫어 죽겠어", "en": "Ugh, I've got another company dinner tonight, I so don't wanna go" },
-      { "role": "you", "prompt": "React and ask why they don't want to go.", "choices": [
+      { "role": "you", "prompt": "React and ask why the company dinners happen so often.", "choices": [
         { "ko": "또? 왜 이렇게 자주 해 ㅋㅋ", "en": "Again? Why do you guys do it so often lol", "correct": true, "feedback": "또? (맞장구) + 왜 자주 해? bounces it back and matches their groan." },
         { "ko": "회식에 참석하기 싫으신가요?", "en": "Are you reluctant to attend the dinner? (formal)", "correct": false, "feedback": "참석하기 싫으신가요 is 존댓말 — bizarrely formal when sitting right next to a friend." },
         { "ko": "회식은 직장 생활의 일부야.", "en": "Company dinners are part of work life.", "correct": false, "feedback": "Sounds like a lecture — doesn't sympathize or keep the chat casual." }

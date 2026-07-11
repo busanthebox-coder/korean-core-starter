@@ -23,7 +23,7 @@
   <div class="col">
     {#if side === 'left' && showName && name}<span class="name">{name}</span>{/if}
     <div class="bubble {side}">
-      <div class="ko">{ko}<AudioButton text={ko} size={audioSize} /></div>
+      <div class="ko"><span>{ko}</span><AudioButton text={ko} size={audioSize} /></div>
       <div class="sub"><RomanizationLine text={romanization} /></div>
       {#if en}<div class="en" class:hidden={hideEn}>{en}</div>{/if}
       {#if note}<div class="note">{note}</div>{/if}
@@ -43,11 +43,12 @@
   .row.right .col { justify-items: end; }
   .name { font-size: 12px; font-weight: 750; color: #46566b; padding: 0 4px; }
 
-  .bubble { position: relative; padding: 9px 13px; border-radius: 18px; box-shadow: 0 1px 1.5px rgba(20,30,50,.12); word-break: break-word; }
+  .bubble { position: relative; padding: 9px 13px; border-radius: 18px; box-shadow: 0 1px 1.5px rgba(20,30,50,.12); }
   .bubble.left { background: #fff; color: var(--ink); border-top-left-radius: 5px; }
   .bubble.right { background: #fae100; color: #1b1a17; border-top-right-radius: 5px; }
 
   .ko { font-size: 16.5px; font-weight: 600; line-height: 1.45; display: flex; align-items: center; gap: 6px; }
+  .ko span { min-width: 0; word-break: keep-all; overflow-wrap: break-word; }
   .row.right .ko { flex-direction: row-reverse; }
   .sub { margin-top: 2px; }
   .en { margin-top: 3px; font-size: 13px; line-height: 1.4; color: var(--ink-2); }

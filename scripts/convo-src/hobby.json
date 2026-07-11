@@ -129,15 +129,15 @@
   {
     "id": "convo-weekend-climbing-plan",
     "title": "Weekend Climbing Plan",
-    "situation": "A friend texts to invite you climbing this weekend since the weather's nice.",
+    "situation": "A friend texts to invite you to an indoor climbing gym this weekend.",
     "setting": "texting",
     "partner": "친구",
     "tip": "When a friend proposes a weekend activity, show interest with a reaction (오 좋다/콜) and ask a practical follow-up (when/where/what to bring) so it turns into a real plan.",
     "turns": [
       {
         "role": "partner",
-        "ko": "주말에 날씨 좋대 클라이밍 갈래?",
-        "en": "Weather's supposed to be nice this weekend — wanna go climbing?"
+        "ko": "주말에 클라이밍 갈래?",
+        "en": "Wanna go climbing this weekend?"
       },
       {
         "role": "you",
@@ -300,8 +300,8 @@
         "prompt": "Relate and ask how long they've done it",
         "choices": [
           {
-            "ko": "오 그럴 듯 근데 한 지 얼마나 됐어?",
-            "en": "Oh I get that — but how long have you been at it?",
+            "ko": "오, 그럴 것 같아. 근데 시작한 지 얼마나 됐어?",
+            "en": "Oh, I can see that. How long have you been doing it?",
             "correct": true,
             "feedback": "Validates them and asks another follow-up — keeps the curiosity flowing naturally."
           },
@@ -321,7 +321,7 @@
       },
       {
         "role": "partner",
-        "ko": "한 두 달? 처음엔 진짜 다 망했는데 요즘 좀 늘었어",
+        "ko": "한두 달? 처음엔 진짜 다 망했는데 요즘 좀 늘었어",
         "en": "Like two months? At first everything flopped, but I've gotten better lately."
       },
       {
@@ -358,8 +358,8 @@
         "prompt": "Hint that you want to try one",
         "choices": [
           {
-            "ko": "오 휘낭시에 ㅋㅋ 다음에 나도 좀 맛보자!",
-            "en": "Oh financiers lol — let me try some next time!",
+            "ko": "오, 휘낭시에 ㅋㅋ 다음에 나도 하나 맛봐도 돼?",
+            "en": "Oh, financiers lol. Can I try one next time?",
             "correct": true,
             "feedback": "Playful and hints at next time — a natural, friendly way to wrap while leaving the door open."
           },

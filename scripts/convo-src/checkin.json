@@ -7,7 +7,7 @@
     "partner": "친구",
     "tip": "When someone reaches out after a long gap, react first (헐/와) then bounce the same question back so it doesn't feel one-sided.",
     "turns": [
-      { "role": "partner", "ko": "야 우리 진짜 오랜만이다 ㅋㅋ", "en": "Hey, it's been forever lol" },
+      { "role": "partner", "ko": "야 진짜 오랜만이다 ㅋㅋ", "en": "Hey, it's been forever lol" },
       { "role": "you", "prompt": "React to how long it's been and toss it back", "choices": [
         { "ko": "헐 그러게 ㅋㅋ 너 잘 지냈어?", "en": "Whoa right lol you been doing okay?", "correct": true, "feedback": "맞장구(헐 그러게) plus a follow-up question keeps the chat going naturally." },
         { "ko": "네 오랜만에 연락 주셔서 감사합니다.", "en": "Yes, thank you for reaching out after so long.", "correct": false, "feedback": "Way too formal (존댓말) for a close friend texting." },
@@ -21,11 +21,11 @@
       ] },
       { "role": "partner", "ko": "그냥 옛날 사진 보다가 ㅋㅋ 우리 그때 진짜 자주 봤는데", "en": "Just looking at old pics lol we used to hang out so much back then" },
       { "role": "you", "prompt": "Agree and admit you miss those days a little", "choices": [
-        { "ko": "맞아 ㅋㅋ 그때 진짜 맨날 붙어 있었는데 그치", "en": "Right lol we were literally always together back then huh", "correct": true, "feedback": "그치 is the perfect agreement filler and it matches their nostalgic tone." },
+        { "ko": "맞아 ㅋㅋ 그때 진짜 맨날 같이 다녔는데. 좀 그립다, 그치?", "en": "Right lol we used to hang out every day. I kind of miss those days, don't you?", "correct": true, "feedback": "It agrees with the memory, then 좀 그립다 returns the friend's warm, nostalgic tone." },
         { "ko": "사진은 개인정보라 조심하셔야 해요.", "en": "Photos are personal data, you should be careful.", "correct": false, "feedback": "Random, formal, and kills the warm vibe completely." },
         { "ko": "그때 우리 자주 봤어?", "en": "Did we hang out a lot back then?", "correct": false, "feedback": "Just repeats their line as a question instead of agreeing — sounds odd." }
       ] },
-      { "role": "partner", "ko": "ㅇㅇㅇ 우리 조만간 한번 보자 진짜", "en": "Yeah yeah we should actually meet up soon" },
+      { "role": "partner", "ko": "ㅇㅇㅇ 우리 조만간 한 번 보자 진짜", "en": "Yeah yeah, we should actually meet up soon." },
       { "role": "you", "prompt": "Say yes and nudge toward actually setting it up", "choices": [
         { "ko": "콜 ㅋㅋ 언제 시간 돼? 날 잡자", "en": "Down lol when are you free? let's pick a day", "correct": true, "feedback": "콜 plus pushing to actually set a date turns the vague plan real — very natural." },
         { "ko": "긍정적으로 검토해 보겠습니다.", "en": "I'll review it positively.", "correct": false, "feedback": "Corporate/formal phrasing — totally wrong for friends." },
@@ -42,7 +42,7 @@
     "partner": "친구",
     "tip": "For the open-ended '요즘 뭐 해?', give one small real detail then volley the question back — that's how friends keep a check-in flowing.",
     "turns": [
-      { "role": "partner", "ko": "잘 지내? 요즘 뭐 하고 지내", "en": "You good? what've you been up to lately" },
+      { "role": "partner", "ko": "잘 지내? 요즘 뭐 하고 지내?", "en": "You good? What've you been up to lately?" },
       { "role": "you", "prompt": "Say you're alright and give a tiny update, then ask back", "choices": [
         { "ko": "어 그냥 회사 다니지 뭐 ㅋㅋ 넌 요즘 어때?", "en": "Eh just working as usual lol how about you these days?", "correct": true, "feedback": "Casual self-update plus '넌 어때?' bounces it back perfectly." },
         { "ko": "덕분에 잘 지내고 있습니다. 귀하는 어떠신가요?", "en": "I'm doing well thanks to you. And how are you, sir?", "correct": false, "feedback": "Extremely formal — '귀하' is business-letter language, not friend talk." },
@@ -56,13 +56,13 @@
       ] },
       { "role": "partner", "ko": "ㅇㅇ 헬스 ㅋㅋ 살 좀 빼려고. 근데 너무 힘들어", "en": "Yeah the gym lol trying to lose some weight. but it's so hard" },
       { "role": "you", "prompt": "Sympathize and lightly relate", "choices": [
-        { "ko": "헐 인정 ㅋㅋ 나도 작심삼일이라 못 하겠더라", "en": "Ugh facts lol I always quit after three days too", "correct": true, "feedback": "헐 인정 is super natural agreement and relating back makes it feel mutual." },
+        { "ko": "헐 인정 ㅋㅋ 나도 맨날 작심삼일이라 금방 포기해", "en": "Ugh, same lol I always give up after a few days too.", "correct": true, "feedback": "헐 인정 agrees naturally, and the matching experience makes the reply feel mutual." },
         { "ko": "체지방 감량을 위해서는 식단 관리가 필수입니다.", "en": "Diet control is essential for reducing body fat.", "correct": false, "feedback": "Reads like a fitness lecture — way too stiff for a casual chat." },
         { "ko": "왜 살을 빼려고 하는데?", "en": "Why are you trying to lose weight?", "correct": false, "feedback": "Slightly prying and changes the mood instead of just sympathizing." }
       ] },
       { "role": "partner", "ko": "ㅋㅋㅋ 그치 진짜. 너도 운동 같이 할래?", "en": "Lol right for real. you wanna work out together too?" },
       { "role": "you", "prompt": "Show interest but stay realistic", "choices": [
-        { "ko": "오 좋지 ㅋㅋ 근데 나 게을러서 끌고 가 줘야 됨", "en": "Oh nice lol but I'm lazy so you gotta drag me", "correct": true, "feedback": "Warm yes with a self-deprecating joke — exactly how friends reply." },
+        { "ko": "오 좋지 ㅋㅋ 근데 나 게을러서 끌고 가 줘야 돼", "en": "Oh nice lol, but I'm lazy, so you'll have to drag me along.", "correct": true, "feedback": "The warm yes and self-deprecating joke fit a close-friend reply." },
         { "ko": "제안은 감사하나 정중히 거절하겠습니다.", "en": "I appreciate the offer but I must politely decline.", "correct": false, "feedback": "Cold and formal — sounds like declining a meeting invite." },
         { "ko": "운동 같이 하자고?", "en": "You're saying work out together?", "correct": false, "feedback": "Just repeats their question back instead of giving an actual answer." }
       ] }
@@ -89,7 +89,7 @@
         { "ko": "정확한 날짜는 기록을 확인해 봐야 알 수 있습니다.", "en": "I'd have to check my records for the exact date.", "correct": false, "feedback": "Robotic and formal — kills the nostalgic, easy tone." },
         { "ko": "우리 마지막으로 언제 봤지?", "en": "When did we last meet?", "correct": false, "feedback": "Just throws their question back without engaging at all." }
       ] },
-      { "role": "partner", "ko": "ㄹㅇ ㅋㅋ 우리 밥 한번 먹자 진짜로", "en": "For real lol let's actually grab a meal sometime" },
+      { "role": "partner", "ko": "ㄹㅇ ㅋㅋ 우리 밥 한 번 먹자 진짜로", "en": "For real lol, let's actually grab a meal sometime." },
       { "role": "you", "prompt": "Say yes and ask what they're feeling food-wise", "choices": [
         { "ko": "콜콜 ㅋㅋ 뭐 먹고 싶어? 요즘 땡기는 거 있어?", "en": "Yes yes lol what do you wanna eat? craving anything lately?", "correct": true, "feedback": "Enthusiastic yes plus a follow-up about food moves the plan forward naturally." },
         { "ko": "식사 일정은 추후 별도로 공지하겠습니다.", "en": "I'll announce the dining schedule separately later.", "correct": false, "feedback": "Sounds like an office memo — totally wrong register." },
@@ -98,7 +98,7 @@
       { "role": "partner", "ko": "음 매운 거? ㅋㅋ 떡볶이나 마라탕 어때", "en": "Hmm something spicy? lol how about tteokbokki or malatang" },
       { "role": "you", "prompt": "Pick one and lock down when", "choices": [
         { "ko": "오 마라탕 좋다 ㅋㅋ 그럼 이번 주말 어때?", "en": "Oh malatang sounds great lol so how about this weekend?", "correct": true, "feedback": "Picks a choice and pins down the timing — closes the plan like a real friend." },
-        { "ko": "메뉴 선정은 신중하게 결정하도록 하겠습니다.", "en": "I shall decide on the menu with great care.", "correct": false, "feedback": "Over-formal and stalls the plan with empty words." },
+        { "ko": "메뉴는 신중하게 결정하도록 하겠습니다.", "en": "I shall decide on the menu with great care.", "correct": false, "feedback": "Over-formal and stalls the plan with empty words." },
         { "ko": "마라탕은 중국 음식이야.", "en": "Malatang is Chinese food.", "correct": false, "feedback": "Pointless trivia that ignores their suggestion and the plan." }
       ] }
     ],

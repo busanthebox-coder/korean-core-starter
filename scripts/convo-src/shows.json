@@ -15,7 +15,7 @@
       ] },
       { "role": "partner", "ko": "스릴러! 몰입되는 거 보고 싶어", "en": "Thriller! I wanna watch something gripping" },
       { "role": "you", "prompt": "React and recommend one, selling that it's super fun.", "choices": [
-        { "ko": "오 그럼 내가 본 거 하나 있는데 완전 꿀잼이라 순삭이야", "en": "Oh then I've got one I watched, it's so good you'll fly through it", "correct": true, "feedback": "내가 본 거 하나 있는데 + 꿀잼/순삭 is exactly how friends hype a binge-worthy pick." },
+        { "ko": "오, 그럼 내가 추천작 링크 하나 보낼게. 완전 꿀잼이라 순삭이야", "en": "Oh, then I'll send you a link to one I recommend. It's so good you'll fly through it.", "correct": true, "feedback": "추천작 링크 하나 보낼게 gives a concrete recommendation, and 꿀잼/순삭 sells it naturally." },
         { "ko": "그 작품은 매우 흥미진진합니다.", "en": "That work is very thrilling. (formal)", "correct": false, "feedback": "흥미진진합니다 reads like a review article. Friends say 완전 꿀잼." },
         { "ko": "글쎄, 딱히 생각 안 나는데.", "en": "Hmm, nothing really comes to mind.", "correct": false, "feedback": "Doesn't deliver — they want a pick, this stalls the conversation." }
       ] },
@@ -32,7 +32,7 @@
         { "ko": "응 잘 가.", "en": "Yeah, bye.", "correct": false, "feedback": "Odd here — nobody's leaving, and it cuts the fun short." }
       ] }
     ],
-    "vocab": ["정주행", "꿀잼", "순삭", "부작", "후기"]
+    "vocab": ["정주행", "꿀잼", "순삭", "8부작", "후기"]
   },
   {
     "id": "convo-share-youtube-clip",
@@ -42,15 +42,15 @@
     "partner": "친구",
     "tip": "When someone shares a clip, react big (ㅋㅋㅋ 미쳤다) and ask for context (어디서 찾았어?) — that's how friends trade videos.",
     "turns": [
-      { "role": "partner", "ko": "이거 봤어? 영상 보냈는데 진짜 웃겨ㅋㅋㅋㅋ", "en": "Did you see this? I sent a video, it's so funny lolll" },
+      { "role": "partner", "ko": "내가 보낸 영상 봤어? 진짜 웃겨ㅋㅋㅋㅋ", "en": "Did you see the video I sent? It's so funny lolll." },
       { "role": "you", "prompt": "React to how funny it is and ask where they found it.", "choices": [
         { "ko": "ㅋㅋㅋㅋ 뭐야 이거 어디서 찾았어", "en": "Lolll what is this, where'd you find it", "correct": true, "feedback": "Big laugh + 어디서 찾았어 keeps the back-and-forth going naturally." },
         { "ko": "해당 영상을 어디서 발견하셨나요?", "en": "Where did you discover the video? (formal)", "correct": false, "feedback": "발견하셨나요 is way too stiff for sharing a meme. Say 어디서 찾았어." },
         { "ko": "나 그거 안 볼래.", "en": "I don't wanna watch that.", "correct": false, "feedback": "Kills the vibe — they sent it to share a laugh with you." }
       ] },
-      { "role": "partner", "ko": "알고리즘 떴어ㅋㅋ 이 채널 구독했잖아", "en": "It popped up on my feed lol I subscribed to this channel" },
+      { "role": "partner", "ko": "유튜브 알고리즘에 떴어ㅋㅋ 이 채널 구독했잖아", "en": "It showed up in my YouTube recommendations lol. I subscribed to this channel." },
       { "role": "you", "prompt": "Say you laughed at the part where the guy falls.", "choices": [
-        { "ko": "아 뒤에 자빠지는 부분에서 빵 터졌잖아ㅋㅋ", "en": "Ah I burst out laughing at the part where he falls lol", "correct": true, "feedback": "빵 터지다 ('cracked up') is super natural for reacting to a funny clip." },
+        { "ko": "아, 뒤에 자빠지는 부분에서 빵 터졌어ㅋㅋ", "en": "Ah, I burst out laughing at the part where he falls lol.", "correct": true, "feedback": "빵 터졌어 is a natural way to report your own fresh reaction to the clip." },
         { "ko": "후반부 낙상 장면이 인상 깊었습니다.", "en": "The falling scene in the latter half was impressive. (formal)", "correct": false, "feedback": "Reads like a film critique. Friends say 빵 터졌잖아." },
         { "ko": "알고리즘이 뭐야?", "en": "What's an algorithm?", "correct": false, "feedback": "Changes the subject and ignores the actual clip." }
       ] },
@@ -79,11 +79,11 @@
     "turns": [
       { "role": "partner", "ko": "넷플 뭐 보지? 볼 게 없네", "en": "What should we put on Netflix? There's nothing to watch" },
       { "role": "you", "prompt": "Bounce it back and ask if they want a movie or a show.", "choices": [
-        { "ko": "그르게ㅋㅋ 영화 볼까 아님 예능?", "en": "Right lol movie or maybe a variety show?", "correct": true, "feedback": "그르게 (agree) + giving options moves the decision along instead of stalling." },
+        { "ko": "그러게ㅋㅋ 영화 볼까, 아님 예능?", "en": "Right lol. Movie or maybe a variety show?", "correct": true, "feedback": "그러게 agrees, then the two options move the decision along." },
         { "ko": "무엇을 시청하길 원하십니까?", "en": "What do you wish to watch? (formal)", "correct": false, "feedback": "원하십니까 is hotel-staff formal. Say 뭐 볼까?" },
         { "ko": "넷플릭스에는 콘텐츠가 많아.", "en": "Netflix has a lot of content.", "correct": false, "feedback": "Stating the obvious — it doesn't help you two decide." }
       ] },
-      { "role": "partner", "ko": "음 머리 비우게 가벼운 예능?", "en": "Hmm something light to turn my brain off, a variety show?" },
+      { "role": "partner", "ko": "음, 머리 비우고 볼 수 있는 가벼운 예능?", "en": "Hmm, maybe a light variety show I can watch without thinking too much?" },
       { "role": "you", "prompt": "Like the idea and suggest the show everyone's talking about.", "choices": [
         { "ko": "오 좋아, 요즘 다들 보는 그거 볼래?", "en": "Oh nice, wanna watch the one everyone's on about lately?", "correct": true, "feedback": "오 좋아 + a concrete suggestion (그거) is how friends close in on a pick." },
         { "ko": "예능 프로그램 시청을 제안드립니다.", "en": "I propose viewing a variety program. (formal)", "correct": false, "feedback": "제안드립니다 sounds like a meeting. Just say 그거 볼래?" },
@@ -97,7 +97,7 @@
       ] },
       { "role": "partner", "ko": "콜 근데 나 팝콘 먹고 싶어ㅋㅋ", "en": "Deal but I kinda want popcorn lol" },
       { "role": "you", "prompt": "Agree and say you'll grab snacks first.", "choices": [
-        { "ko": "ㅋㅋ 콜, 간식 챙겨올게 잠만!", "en": "Lol deal, I'll grab snacks, hold on!", "correct": true, "feedback": "콜 + 챙겨올게 + 잠만 is peak casual hangout talk." },
+        { "ko": "ㅋㅋ 콜, 간식 챙겨 올게. 잠깐만!", "en": "Lol, deal. I'll grab snacks. Hold on!", "correct": true, "feedback": "콜 + 챙겨 올게 + 잠깐만 is natural casual hangout talk." },
         { "ko": "간식을 준비해 오도록 하겠습니다.", "en": "I shall prepare and bring snacks. (formal)", "correct": false, "feedback": "하도록 하겠습니다 is way too stiff. Friends say 챙겨올게." },
         { "ko": "팝콘은 영화관에서 먹는 거야.", "en": "Popcorn is for the movie theater.", "correct": false, "feedback": "Needlessly contradicts them and derails the cozy plan." }
       ] }

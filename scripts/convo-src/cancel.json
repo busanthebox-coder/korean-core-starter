@@ -42,7 +42,7 @@
     "partner": "친구",
     "tip": "Give a heads-up early with a time (한 20분), a reason, and what they should do meanwhile (먼저 들어가 있어). 미안 ㅠ goes a long way.",
     "turns": [
-      { "role": "partner", "ko": "야 너 어디야? 나 거의 다 왔어", "en": "Hey where are you? I'm almost there" },
+      { "role": "partner", "ko": "야 너 어디야? 나 도착했어", "en": "Hey, where are you? I'm here." },
       { "role": "you", "prompt": "Warn them you'll be about 20 min late and say sorry.", "choices": [
         { "ko": "헉 미안ㅠ 나 한 20분 늦을 거 같아", "en": "Oh no, sorry ㅠ I think I'll be about 20 min late", "correct": true, "feedback": "Heads-up with a number (한 20분) + 미안 is exactly the right move when you're running late." },
         { "ko": "도착이 지연될 예정입니다.", "en": "My arrival is expected to be delayed.", "correct": false, "feedback": "지연/예정입니다 reads like a train announcement — friends say 늦을 거 같아." },
@@ -56,7 +56,7 @@
       ] },
       { "role": "partner", "ko": "아 괜찮아ㅋㅋ 천천히 와~", "en": "Ah it's fine lol take your time~" },
       { "role": "you", "prompt": "Tell them to go in first and order without you.", "choices": [
-        { "ko": "ㅇㅇ 먼저 들어가 있어! 음료 시켜놔ㅋㅋ", "en": "Yeah go in first! Order me a drink lol", "correct": true, "feedback": "먼저 들어가 있어 + 시켜놔 is the natural casual way to handle it while they wait." },
+        { "ko": "ㅇㅇ 먼저 들어가 있어! 음료 먼저 시켜 놔ㅋㅋ", "en": "Yeah, go in first and order a drink while you wait lol", "correct": true, "feedback": "먼저 들어가 있어 + 음료 먼저 시켜 놔 naturally gives your waiting friend something to do." },
         { "ko": "먼저 입장해 주시기 바랍니다.", "en": "Please enter ahead of me (formal).", "correct": false, "feedback": "입장/바랍니다 is announcement-speak — say 먼저 들어가 있어." },
         { "ko": "거기 카페 분위기 어때?", "en": "How's the vibe at that cafe?", "correct": false, "feedback": "Random subject change — doesn't deal with you being late." }
       ] },

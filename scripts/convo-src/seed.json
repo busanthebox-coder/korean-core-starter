@@ -21,7 +21,7 @@
       ] },
       { "role": "partner", "ko": "그럼 토요일 저녁 어때?", "en": "Then how about Saturday evening?" },
       { "role": "you", "prompt": "Confirm Saturday and say you'll text later.", "choices": [
-        { "ko": "토요일 좋아. 이따 톡할게!", "en": "Saturday's good. I'll text you later!", "correct": true, "feedback": "Perfect casual sign-off — 이따 톡할게 is super common." },
+        { "ko": "토요일 저녁 좋아. 이따 톡할게!", "en": "Saturday evening works. I'll text you later!", "correct": true, "feedback": "This confirms the proposed evening, and 이따 톡할게 is a natural casual sign-off." },
         { "ko": "토요일에 시간이 있습니다.", "en": "I have time on Saturday.", "correct": false, "feedback": "Stiff. With a friend: 토요일 좋아." },
         { "ko": "안녕히 계세요.", "en": "Goodbye (formal).", "correct": false, "feedback": "Way too formal to end a chat with a friend." }
       ] }
@@ -46,7 +46,7 @@
       { "role": "you", "prompt": "Love the idea and suggest a place.", "choices": [
         { "ko": "오 좋아! 학교 앞 거기 갈까?", "en": "Oh nice! Should we go to that place by school?", "correct": true, "feedback": "Enthusiasm + a concrete suggestion keeps the plan moving." },
         { "ko": "떡볶이는 맵습니다.", "en": "Tteokbokki is spicy.", "correct": false, "feedback": "A fact, but it doesn't move the plan forward." },
-        { "ko": "그러게요.", "en": "I guess so (polite).", "correct": false, "feedback": "요 makes it formal; with a friend say 그러게." }
+        { "ko": "그러게요.", "en": "Right.", "correct": false, "feedback": "This neither accepts nor rejects the suggestion, and -요 mismatches the close-friend register." }
       ] },
       { "role": "partner", "ko": "콜! 지금 갈까?", "en": "Deal! Shall we go now?" },
       { "role": "you", "prompt": "Agree and say let's go.", "choices": [

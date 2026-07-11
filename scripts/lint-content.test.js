@@ -27,6 +27,32 @@ function validAppData() {
       }],
     },
     grammar: { grammarItems: [{ id: 'grammar-001' }], endingItems: [] },
+    conversations: {
+      conversations: [{
+        id: 'convo-001',
+        title: 'Making a plan',
+        situation: 'A friend asks what you want to do.',
+        setting: 'texting',
+        partner: '친구',
+        tip: 'Match the close-friend register.',
+        buddyCard: {
+          instructionKo: '친한 친구 역할을 해 주세요. 학습자는 초급이니 천천히 말해 주세요.',
+          reactionKo: '좋아, 같이 하자!',
+        },
+        turns: [
+          { role: 'partner', ko: '주말에 뭐 해?', romanization: 'jumare mwo hae?', en: 'What are you doing this weekend?' },
+          {
+            role: 'you',
+            prompt: 'Say you are free and ask why.',
+            choices: [
+              { ko: '별거 없는데, 왜?', romanization: 'byeolgeo eomneunde, wae?', en: 'Nothing much, why?', correct: true, feedback: 'Natural and casual.' },
+              { ko: '바쁩니다.', romanization: 'bappeumnida.', en: 'I am busy.', correct: false, feedback: 'Too formal and contradicts the prompt.' },
+            ],
+          },
+        ],
+        vocab: ['주말'],
+      }],
+    },
     vocabPacks: [{ id: 'pack-001', items: [{ entryId: 'word-001', relatedEntryIds: ['pattern-001'] }] }],
     guide: { tracks: [{ units: [{ id: 'guide-001', linkedEntryIds: ['word-001'] }] }] },
   };
@@ -62,6 +88,54 @@ describe('content lint', () => {
 
     expect(result.ok).toBe(false);
     expect(result.errors).toContain('words:word-001 example #1 missing romanization');
+  });
+
+  it('catches malformed conversation choices and vocab', () => {
+    const data = validAppData();
+    const conversation = data.conversations.conversations[0];
+    delete conversation.turns[1].choices[0].correct;
+    delete conversation.turns[1].choices[0].feedback;
+    conversation.vocab = [{ ko: '주말', en: 'weekend' }];
+    conversation.buddyCard.instructionKo = 'Play the friend role.';
+
+    const result = lintContentData(data);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain('conversation:convo-001 turn #2: expected exactly one correct choice, got 0');
+    expect(result.errors).toContain('conversation:convo-001 turn #2 choice #1: missing feedback');
+    expect(result.errors).toContain('conversation:convo-001: vocab must contain nonempty strings');
+    expect(result.errors).toContain('conversation:convo-001.buddyCard.instructionKo: must be Korean-only helper text');
+    expect(result.errors).toContain('conversation:convo-001.buddyCard.instructionKo: must contain 2-3 sentences');
+  });
+
+  it('catches a Korean buddy instruction that misses the card style contract', () => {
+    const data = validAppData();
+    data.conversations.conversations[0].buddyCard.instructionKo = '친한 친구 역할입니다.';
+
+    const result = lintContentData(data);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain('conversation:convo-001.buddyCard.instructionKo: must contain 2-3 sentences');
+    expect(result.errors).toContain('conversation:convo-001.buddyCard.instructionKo: must use a polite request ending');
+  });
+
+  it('catches missing, duplicate, and non-string conversation fields', () => {
+    const missing = validAppData();
+    delete missing.conversations;
+    expect(lintContentData(missing).errors).toContain('conversations: must contain a conversations array');
+
+    const malformed = validAppData();
+    const duplicate = structuredClone(malformed.conversations.conversations[0]);
+    malformed.conversations.conversations.push(duplicate);
+    malformed.conversations.conversations[0].title = {};
+    malformed.conversations.conversations[0].turns[1].choices[0].en = {};
+    delete malformed.conversations.conversations[0].vocab;
+
+    const result = lintContentData(malformed);
+    expect(result.errors).toContain('conversation:convo-001: missing title');
+    expect(result.errors).toContain('conversation:convo-001: duplicate id convo-001');
+    expect(result.errors).toContain('conversation:convo-001: vocab must contain nonempty strings');
+    expect(result.errors).toContain('conversation:convo-001 turn #2 choice #1: missing en');
   });
 
   it('catches an injected inline exercise answer that is not an option', () => {

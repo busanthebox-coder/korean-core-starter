@@ -158,7 +158,9 @@ todayPlan·recommendDrill 단위 테스트 / 기존 Learn 테스트 회귀 없�
    ("천천히 읽어 주세요. 학습자가 못 알아들으면 한 번 더."), 학습자(B역) 첫 시도 힌트 가림, 역할 교대 버튼.
 3. Roleplay 라이브: 시나리오별 친구용 상황 카드(한국어) 데이터 — 기존 conversations 46개의
    situation/setting/partner 필드에서 파생 생성(간결한 한국어 지시 2~3문장, 배치 생성→교차 리뷰 —
-   02-CONTENT-BRIEFS 공통 리뷰 체크리스트 적용). 종료 후 친구 평가 3버튼, 💬 선택 시 표현 메모 입력→
+   02-CONTENT-BRIEFS 공통 리뷰 체크리스트 적용). 원본은 `scripts/convo-src/*.json`의 시나리오와
+   `scripts/convo-buddy-cards.json`의 친구용 카드이며, 두 파일군을 ID로 1:1 결합해 생성한다.
+   종료 후 친구 평가 3버튼, 💬 선택 시 표현 메모 입력→
    buddy-notes 저장(사전 검색 링크 포함). 노트 목록은 Speak 탭 하단 "Friend's notes".
 4. 친구 퀴즈: 기존 quiz 풀 재사용 — 친구 화면(정답+한국어 지시)/학습자 구두 답/친구 O·X → 오답 SRS 유입.
 5. 친구용 텍스트 전수 한국어 검증(스크립트로 buddy 컴포넌트 내 문자열 추출→한글 비율 검사) — 원칙 리트머스.

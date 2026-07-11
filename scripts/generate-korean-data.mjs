@@ -1338,20 +1338,33 @@ writeFileSync(new URL('dialogues.json', outDir), `${JSON.stringify({ dialogues }
 // Each scenario has turns: partner lines ({role:'partner',ko,en}) and your turns
 // ({role:'you',prompt,choices:[{ko,en,correct,feedback}]}). Romanize every Korean line.
 const conversations = [];
-try {
-  const cdir = new URL('./convo-src/', import.meta.url);
-  for (const file of readdirSync(cdir).filter(f => f.endsWith('.json')).sort()) {
-    const arr = JSON.parse(readFileSync(new URL(file, cdir), 'utf8'));
-    for (const c of (Array.isArray(arr) ? arr : [])) {
-      c.turns = (c.turns || []).map((t) =>
-        (t.role === 'you' && Array.isArray(t.choices))
-          ? { ...t, choices: t.choices.map(romanizeLine) }
-          : romanizeLine(t)
-      );
-      conversations.push(c);
-    }
+const buddyCardRows = JSON.parse(readFileSync(new URL('./convo-buddy-cards.json', import.meta.url), 'utf8'));
+const buddyCardsById = new Map();
+for (const card of buddyCardRows) {
+  if (!card?.id || buddyCardsById.has(card.id)) throw new Error(`Invalid or duplicate buddy card id: ${card?.id || ''}`);
+  buddyCardsById.set(card.id, { instructionKo: card.instructionKo, reactionKo: card.reactionKo });
+}
+const cdir = new URL('./convo-src/', import.meta.url);
+const conversationSourceIds = new Set();
+for (const file of readdirSync(cdir).filter(f => f.endsWith('.json')).sort()) {
+  const arr = JSON.parse(readFileSync(new URL(file, cdir), 'utf8'));
+  for (const c of (Array.isArray(arr) ? arr : [])) {
+    if (!c?.id || conversationSourceIds.has(c.id)) throw new Error(`Invalid or duplicate conversation id: ${c?.id || ''}`);
+    conversationSourceIds.add(c.id);
+    const buddyCard = buddyCardsById.get(c.id);
+    if (!buddyCard) throw new Error(`Missing buddy card for conversation: ${c.id}`);
+    c.turns = (c.turns || []).map((t) =>
+      (t.role === 'you' && Array.isArray(t.choices))
+        ? { ...t, choices: t.choices.map(romanizeLine) }
+        : romanizeLine(t)
+    );
+    c.buddyCard = buddyCard;
+    conversations.push(c);
   }
-} catch { /* no convo-src dir yet */ }
+}
+const conversationIds = new Set(conversations.map((conversation) => conversation.id));
+const extraBuddyCardIds = [...buddyCardsById.keys()].filter((id) => !conversationIds.has(id));
+if (extraBuddyCardIds.length) throw new Error(`Buddy cards without conversations: ${extraBuddyCardIds.join(', ')}`);
 writeFileSync(new URL('conversations.json', outDir), `${JSON.stringify({ conversations }, null, 2)}\n`, 'utf8');
 
 // Re-romanize Korean in grammar.json with the fixed romanizer so all examples

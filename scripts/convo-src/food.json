@@ -21,7 +21,7 @@
       ] },
       { "role": "partner", "ko": "콜ㅋㅋ 양념 반 후라이드 반 어때?", "en": "Deal lol how about half seasoned half fried?" },
       { "role": "you", "prompt": "Love it, and bring up paying.", "choices": [
-        { "ko": "완전 좋아! 배달비는 더치페이ㄱㄱ", "en": "Love it! let's split the delivery fee, let's go", "correct": true, "feedback": "완전 좋아 shows enthusiasm and ㄱㄱ (=go go) is super common casual texting." },
+        { "ko": "완전 좋아! 음식값은 반반 내자 ㅋㅋ", "en": "Love it! Let's split the food cost.", "correct": true, "feedback": "완전 좋아 keeps the energy up, and 반반 내자 brings up payment clearly and naturally." },
         { "ko": "반반은 진리지ㅋㅋ 근데 나 다이어트 중인데", "en": "Half-and-half is the truth lol but I'm on a diet", "correct": false, "feedback": "Funny, but it backpedals right after agreeing — mixed signal that stalls the order." },
         { "ko": "그렇게 하시면 됩니다.", "en": "You may do it that way. (formal)", "correct": false, "feedback": "Sounds like a customer-service reply, not a friend hyped about chicken." }
       ] },
@@ -32,7 +32,7 @@
         { "ko": "30분이나 걸려?", "en": "It takes a whole 30 minutes?", "correct": false, "feedback": "Reads as complaining when they just did you a favor by ordering." }
       ] }
     ],
-    "vocab": ["야식", "땡기다", "시키다", "반반", "배달비", "더치페이"]
+    "vocab": ["야식", "땡기다", "시키다", "반반", "음식값", "반반 내다"]
   },
   {
     "id": "convo-cafe-dessert",

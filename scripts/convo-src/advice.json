@@ -13,13 +13,13 @@
         { "ko": "아직 취침 전입니다.", "en": "I have not yet gone to bed. (formal)", "correct": false, "feedback": "취침 전입니다 is stiff 존댓말 — nobody texts a close friend like this." },
         { "ko": "응 잘 자.", "en": "Yeah, goodnight.", "correct": false, "feedback": "Shuts the chat down right when they were checking in on you." }
       ] },
-      { "role": "partner", "ko": "왜 무슨 일 있어? 너 요즘 좀 다운돼 보이더라", "en": "Why, is something up? you've seemed kinda down lately" },
+      { "role": "partner", "ko": "왜? 무슨 일 있어? 너 요즘 좀 다운돼 보이더라", "en": "Why, is something up? You've seemed kind of down lately." },
       { "role": "you", "prompt": "Admit you're overwhelmed without over-explaining.", "choices": [
         { "ko": "그냥 좀… 요즘 다 벅차 ㅠㅠ 번아웃 온 거 같아", "en": "Just kinda… everything feels like too much lately ㅠㅠ I think I'm burned out", "correct": true, "feedback": "Honest but short — 다 벅차 + 번아웃 is exactly how 20-30s name this feeling, and it invites them in." },
         { "ko": "심리적 압박감이 상당히 누적된 상태입니다.", "en": "A considerable amount of psychological pressure has accumulated. (formal)", "correct": false, "feedback": "Reads like a report — way too clinical and formal for venting to a friend." },
         { "ko": "아니야 별일 아니야 신경 쓰지 마.", "en": "No it's nothing, don't worry about it.", "correct": false, "feedback": "Brushes them off and closes up — defeats the point of opening the chat." }
       ] },
-      { "role": "partner", "ko": "헐… 그랬구나 ㅠㅠ 혼자 끙끙 앓지 말지 그랬어", "en": "Oh no… I had no idea ㅠㅠ you shouldn't have been bottling it up alone" },
+      { "role": "partner", "ko": "헐… 그랬구나 ㅠㅠ 혼자 끙끙 앓지 말고 진작 말하지 그랬어", "en": "Oh no… I had no idea ㅠㅠ You should've told me sooner instead of bottling it up alone." },
       { "role": "you", "prompt": "Thank them and admit it's hard to say out loud.", "choices": [
         { "ko": "ㅠㅠ 고마워 막상 말하려니까 좀 그렇더라", "en": "ㅠㅠ thanks, it's just kinda hard to actually say it out loud", "correct": true, "feedback": "Warm and real — 막상 말하려니까 그렇더라 is a very natural way to admit it's awkward to open up." },
         { "ko": "경청해 주셔서 진심으로 감사드립니다.", "en": "I sincerely thank you for listening. (formal)", "correct": false, "feedback": "감사드립니다 is business-letter formal — kills the intimate moment." },
@@ -32,7 +32,7 @@
         { "ko": "아니야 안 사줘도 돼 그냥 둬.", "en": "No you don't have to buy anything, just leave it.", "correct": false, "feedback": "Reflexively refusing the kindness shuts down their warm offer." }
       ] }
     ],
-    "vocab": ["다운되다", "벅차다", "번아웃", "끙끙 앓다", "막상", "살 거 같다", "조율하다"]
+    "vocab": ["다운되다", "벅차다", "번아웃", "끙끙 앓다", "막상", "살 거 같다", "덕분에"]
   },
   {
     "id": "convo-comforting-down-friend",
@@ -95,7 +95,7 @@
         { "ko": "원만한 대화로 해결하시길 권합니다.", "en": "I recommend resolving it through amicable conversation. (formal)", "correct": false, "feedback": "Sounds like an HR memo — formal and preachy, not what a ranting friend wants." },
         { "ko": "근데 우리 뭐 마실지 안 정했다.", "en": "Anyway we still haven't decided what to drink.", "correct": false, "feedback": "Changes the subject mid-rant — leaves them hanging." }
       ] },
-      { "role": "partner", "ko": "그냥 포기했어 ㅋㅋㅋ 내가 치우고 만다", "en": "I just gave up lol I end up cleaning it myself" },
+      { "role": "partner", "ko": "그냥 포기했어 ㅋㅋㅋ 결국 내가 치워야지 뭐", "en": "I just gave up lol I guess I'll have to clean it myself in the end." },
       { "role": "you", "prompt": "Sympathize and lightly side with them.", "choices": [
         { "ko": "에휴 고생이다 진짜 ㅋㅋ 넌 너무 착하다", "en": "Aw what a pain seriously lol you're way too nice", "correct": true, "feedback": "고생이다 + 넌 너무 착하다 (the -다 exclamatory ending is super natural here) sympathizes and subtly takes their side — a natural rant wrap-up." },
         { "ko": "갈등 해결을 위해 규칙을 정립하시는 게 어떨까요?", "en": "How about establishing rules to resolve the conflict? (formal)", "correct": false, "feedback": "규칙을 정립하시는 is stiff 존댓말 — overly solution-y for a casual vent." },

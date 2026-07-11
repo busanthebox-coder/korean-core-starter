@@ -8,7 +8,7 @@
     "tip": "To make a casual plan, lead with a reaction to what they said, then pitch it with ~하자/~할래?. 한잔하자 and 콜 are how friends really lock in drinks.",
     "turns": [
       { "role": "partner", "ko": "아 오늘 금요일이네 드디어ㅋㅋ", "en": "Ah it's finally Friday lol" },
-      { "role": "you", "prompt": "Agree it's been a long week and float the idea of a drink tonight.", "choices": [
+      { "role": "you", "prompt": "Agree that Friday has finally arrived and float the idea of a drink tonight.", "choices": [
         { "ko": "그니까ㅋㅋ 오늘 가볍게 한잔할래?", "en": "Right lol wanna grab a quick drink tonight?", "correct": true, "feedback": "그니까 agrees, then 한잔할래? pitches the plan — exactly how friends start this." },
         { "ko": "금일 음주 가능하십니까?", "en": "Is drinking possible today? (formal)", "correct": false, "feedback": "금일/가능하십니까 is stiff business-speak. Friends say 오늘 한잔할래?" },
         { "ko": "응 금요일 맞아.", "en": "Yeah, it's Friday.", "correct": false, "feedback": "Just confirms the fact and stalls — it doesn't pitch a plan or keep things moving." }

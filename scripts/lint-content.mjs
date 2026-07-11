@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { validateExercises } from './validate-exercises.mjs';
+import { validateConversations } from './validate-conversations.mjs';
 import { defaultDataDir, verifyDataDir } from './lib/integrity.mjs';
 
 const REPO_ROOT = process.cwd();
@@ -113,6 +114,8 @@ export function lintContentData(data) {
   for (const unit of guideUnits(data?.guide)) {
     addLinkedErrors(unit.linkedEntryIds, linkableEntryIds, `guide:${unit.id || 'unknown'}.linkedEntryIds`, errors);
   }
+
+  validateConversations(data?.conversations, errors);
 
   return {
     ok: errors.length === 0,

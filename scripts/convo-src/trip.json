@@ -15,7 +15,7 @@
       ] },
       { "role": "partner", "ko": "아직 안 정했어ㅋㅋ 그냥 어디든 떠나고 싶어", "en": "Haven't decided yetㅋㅋ I just wanna get away somewhere." },
       { "role": "you", "prompt": "Agree and ask when they're thinking", "choices": [
-        { "ko": "그 마음 너무 알지ㅋㅋ 언제 갈 생각인데?", "en": "I totally feel thatㅋㅋ when are you thinking of going?", "correct": true, "feedback": "맞장구 (그 마음 알지) plus a practical follow-up — natural and keeps planning." },
+        { "ko": "그 마음 너무 잘 알지ㅋㅋ 언제 갈 생각인데?", "en": "I totally get that lol. When are you thinking of going?", "correct": true, "feedback": "그 마음 너무 잘 알지 agrees warmly, and the practical follow-up keeps the planning going." },
         { "ko": "저는 일정이 아직 미정입니다.", "en": "My schedule is still undecided.", "correct": false, "feedback": "Stiff 존댓말 — way too businesslike for texting a close friend." },
         { "ko": "떠나고 싶다는 게 무슨 의미야?", "en": "What do you mean you wanna get away?", "correct": false, "feedback": "Over-analyzing an obvious feeling — kills the vibe instead of going along with it." }
       ] },
@@ -50,7 +50,7 @@
       ] },
       { "role": "partner", "ko": "오 제주 좋다! 근데 비행기값 비싸지 않나?", "en": "Oh Jeju sounds good! But isn't the flight pricey?" },
       { "role": "you", "prompt": "Acknowledge the concern, stay flexible", "choices": [
-        { "ko": "그것도 그래ㅋㅋ 그럼 부산도 괜찮고? 난 둘 다 좋아", "en": "True thatㅋㅋ then Busan works too? I'm good with both.", "correct": true, "feedback": "맞장구 (그것도 그래) and staying open — realistic give-and-take when budgets come up." },
+        { "ko": "그것도 그렇네ㅋㅋ 그럼 부산도 괜찮아. 난 둘 다 좋아", "en": "That's true too lol. Busan works for me then. I like both.", "correct": true, "feedback": "그것도 그렇네 accepts the budget concern, and 부산도 괜찮아 keeps the decision collaborative." },
         { "ko": "비행기값에 대해서는 제가 관여하지 않겠습니다.", "en": "I won't get involved regarding the flight cost.", "correct": false, "feedback": "Cold and formal — sounds like dodging responsibility, not chatting with a friend." },
         { "ko": "비행기 처음 타봐?", "en": "Is it your first time on a plane?", "correct": false, "feedback": "Off-topic and a little odd — ignores the actual point about cost." }
       ] },
@@ -89,15 +89,15 @@
         { "ko": "그 업무는 귀하께 일임하겠습니다.", "en": "I shall entrust that task to you.", "correct": false, "feedback": "Stiff, work-style 존댓말 — way too formal for divvying up trip chores." },
         { "ko": "숙소를 왜 네가 찾아?", "en": "Why are YOU looking for the place?", "correct": false, "feedback": "Sounds suspicious of a kind offer — discourages your friend from helping." }
       ] },
-      { "role": "partner", "ko": "굿굿ㅋㅋ 근데 우리 1박 2일이야 2박 3일이야?", "en": "Good goodㅋㅋ but are we doing one night or two nights?" },
+      { "role": "partner", "ko": "굿굿ㅋㅋ 근데 우리 1박 2일이야 2박 3일이야?", "en": "Good good lol, but are we doing one night and two days or two nights and three days?" },
       { "role": "you", "prompt": "Suggest longer and check with them", "choices": [
-        { "ko": "이왕 가는 거 2박 3일 어때? 하루는 너무 짧잖아", "en": "Since we're going anyway, how about two nights? One day's too short.", "correct": true, "feedback": "Offers a suggestion with reasoning and 어때 to check in — natural collaborative tone." },
+        { "ko": "이왕 가는 거 2박 3일 어때? 1박 2일은 너무 짧잖아", "en": "Since we're going anyway, how about two nights and three days? One night and two days is too short.", "correct": true, "feedback": "Offers a specific longer plan, then gives a clear reason and checks with 어때." },
         { "ko": "여행 기간은 추후 공지하도록 하겠습니다.", "en": "The trip duration will be announced at a later date.", "correct": false, "feedback": "Reads like an official notice — totally out of place between friends." },
         { "ko": "1박이 며칠이야?", "en": "How many days is one night?", "correct": false, "feedback": "Confuses a basic term — derails the chat and sounds clueless." }
       ] },
       { "role": "partner", "ko": "오케이 2박 3일 좋아! 첫날부터 빡세게 놀자ㅋㅋ", "en": "Okay two nights, love it! Let's party hard from day oneㅋㅋ" },
       { "role": "you", "prompt": "Match the energy and wrap up", "choices": [
-        { "ko": "ㅋㅋㅋ 좋아 다 짜놓고 공유할게! 완전 기대된다", "en": "ㅋㅋㅋ nice, I'll plan it all and share it! Super excited.", "correct": true, "feedback": "Matches their energy, confirms a next step, ends on excitement — a great closer." },
+        { "ko": "ㅋㅋㅋ 좋아, 맛집 리스트 짜서 공유할게! 완전 기대된다", "en": "Lol, nice. I'll make a restaurant list and share it! I'm so excited.", "correct": true, "feedback": "This keeps the earlier task split, confirms the next step, and ends with matching excitement." },
         { "ko": "일정표 작성 완료 시 송부해 드리겠습니다.", "en": "I will dispatch the itinerary upon completion.", "correct": false, "feedback": "Sounds like a memo to a client — wrong register for texting a friend." },
         { "ko": "빡세게 노는 게 뭔데?", "en": "What does partying hard even mean?", "correct": false, "feedback": "Questions an obvious phrase — flattens the hyped mood instead of matching it." }
       ] }
