@@ -2,7 +2,7 @@
   import MatchGame from '../MatchGame.svelte';
   import ConjugationSession from '../ConjugationSession.svelte';
   import ListeningSession from '../ListeningSession.svelte';
-  import { scrambledOrderTokens } from '../../inlineExercise.js';
+  import { scrambledOrderTokens, scrambledOptions } from '../../inlineExercise.js';
 
   export let kind = 'exercise';
   export let data = {};
@@ -35,6 +35,11 @@
     if (isOrderWords) onInput('');
   }
   $: hasAnswer = isOrderWords ? orderPicked.length > 0 && orderBank.length === 0 : answer != null && answer !== '';
+  // Authored options overwhelmingly store the correct choice first — display
+  // in a per-exercise scrambled order so the on-screen position isn't a tell.
+  $: displayOptions = (data?.options || []).length
+    ? scrambledOptions(data.options, data?.prompt || '')
+    : [];
 
   function emitOrderAnswer(items) {
     onInput(items.map((item) => item.text).join(' '));
@@ -83,9 +88,9 @@
         {/each}
       </div>
     </div>
-  {:else if (data.options || []).length}
+  {:else if displayOptions.length}
     <div class="ex-opts">
-      {#each data.options as opt}
+      {#each displayOptions as opt}
         <button class="ex-opt"
           class:picked={answer === opt}
           class:ok={isRevealed && opt === correctOf(data)}
