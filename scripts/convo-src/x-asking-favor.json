@@ -16,9 +16,24 @@
         "role": "you",
         "prompt": "Flag that you have a favor to ask before getting into it.",
         "choices": [
-          { "ko": "어 부탁이 있는데… 들어줄 수 있어?", "en": "Hey, I've got a favor to ask… could you do it for me?", "correct": true, "feedback": "부탁이 있는데 prepares your friend before the request, and -줄 수 있어? asks without sounding demanding." },
-          { "ko": "내 부탁 들어.", "en": "Do what I'm asking. (sounds like an order)", "correct": false, "feedback": "The command 들어 leaves your friend no room to respond and sounds demanding." },
-          { "ko": "혹시 부탁 좀 드려도 될까요?", "en": "Might I trouble you for a favor? (too formal for a close friend)", "correct": false, "feedback": "드려도 될까요 is polite and useful elsewhere, but it is too formal for this close-friend text." }
+          {
+            "ko": "어 부탁이 있는데… 들어줄 수 있어?",
+            "en": "Hey, I've got a favor to ask… could you do it for me?",
+            "correct": true,
+            "feedback": "부탁이 있는데 prepares your friend before the request, and -줄 수 있어? asks without sounding demanding."
+          },
+          {
+            "ko": "내 부탁 들어.",
+            "en": "Do what I'm asking. (sounds like an order)",
+            "correct": false,
+            "feedback": "The command 들어 leaves your friend no room to respond and sounds demanding."
+          },
+          {
+            "ko": "혹시 부탁 좀 드려도 될까요?",
+            "en": "Might I trouble you for a favor? (too formal for a close friend)",
+            "correct": false,
+            "feedback": "드려도 될까요 is polite and useful elsewhere, but it is too formal for this close-friend text."
+          }
         ]
       },
       {
@@ -30,9 +45,24 @@
         "role": "you",
         "prompt": "Explain your phone is dying and ask to borrow their charger, softening it.",
         "choices": [
-          { "ko": "미안한데 폰 배터리가 거의 다 돼서… 충전기 좀 빌려줄 수 있어?", "en": "Sorry to ask, my phone's almost out of battery… could you lend me your charger?", "correct": true, "feedback": "미안한데 softens the request, and 배터리가 거의 다 됐어 is the natural way to say the battery is nearly empty." },
-          { "ko": "충전기 내놔, 폰 죽어.", "en": "Hand over your charger, my phone's dying. (rude/demanding)", "correct": false, "feedback": "내놔 is a forceful command, and 폰 죽어 sounds translated rather than natural Korean." },
-          { "ko": "충전기 있어?", "en": "Do you have a charger? (abrupt, leaves out the actual request)", "correct": false, "feedback": "This only checks whether a charger exists; it never asks to borrow it." }
+          {
+            "ko": "미안한데 폰 배터리가 거의 다 돼서… 충전기 좀 빌려줄 수 있어?",
+            "en": "Sorry to ask, my phone's almost out of battery… could you lend me your charger?",
+            "correct": true,
+            "feedback": "미안한데 softens the request, and 배터리가 거의 다 됐어 is the natural way to say the battery is nearly empty."
+          },
+          {
+            "ko": "충전기 내놔, 폰 죽어.",
+            "en": "Hand over your charger, my phone's dying. (rude/demanding)",
+            "correct": false,
+            "feedback": "내놔 is a forceful command, and 폰 죽어 sounds translated rather than natural Korean."
+          },
+          {
+            "ko": "충전기 있어?",
+            "en": "Do you have a charger? (abrupt, leaves out the actual request)",
+            "correct": false,
+            "feedback": "This only checks whether a charger exists; it never asks to borrow it."
+          }
         ]
       },
       {
@@ -44,9 +74,24 @@
         "role": "you",
         "prompt": "Ask them to also bring yesterday's class notes for you.",
         "choices": [
-          { "ko": "오 진짜? 고마워!! 아 그리고 어제 수업 필기한 것도 좀 가져다줄 수 있어?", "en": "Oh really? Thank you!! Could you also bring the notes you took in class yesterday?", "correct": true, "feedback": "The thanks comes first, and -것도 좀 가져다줄 수 있어? adds a second request gently." },
-          { "ko": "당연히 필기도 가져와야지.", "en": "Obviously you have to bring the notes too. (entitled tone)", "correct": false, "feedback": "당연히 and -아야지 treat your friend's help as an obligation." },
-          { "ko": "필기 안 가져오면 안 돼.", "en": "Don't you dare not bring the notes. (pushy)", "correct": false, "feedback": "This is a prohibition, not a request, so it sounds pushy even between close friends." }
+          {
+            "ko": "오 진짜? 고마워!! 아 그리고 어제 수업 필기한 것도 좀 가져다줄 수 있어?",
+            "en": "Oh really? Thank you!! Could you also bring the notes you took in class yesterday?",
+            "correct": true,
+            "feedback": "The thanks comes first, and -것도 좀 가져다줄 수 있어? adds a second request gently."
+          },
+          {
+            "ko": "당연히 필기도 가져와야지.",
+            "en": "Obviously you have to bring the notes too. (entitled tone)",
+            "correct": false,
+            "feedback": "당연히 and -아야지 treat your friend's help as an obligation."
+          },
+          {
+            "ko": "필기 안 가져오면 안 돼.",
+            "en": "Don't you dare not bring the notes. (pushy)",
+            "correct": false,
+            "feedback": "This is a prohibition, not a request, so it sounds pushy even between close friends."
+          }
         ]
       },
       {
@@ -58,9 +103,24 @@
         "role": "you",
         "prompt": "Sheepishly ask to borrow a little cash for the bus since you left your card at home, and promise to pay it back.",
         "choices": [
-          { "ko": "헐 진짜 미안한데… 나 카드를 집에 두고 와서 그런데 버스비로 이천 원만 빌려줄 수 있어? 이따 바로 갚을게", "en": "I'm really sorry… I left my card at home. Could you lend me just 2,000 won for the bus? I'll pay you back right away.", "correct": true, "feedback": "The reason, small amount, -줄 수 있어?, and 갚을게 make the request specific and considerate." },
-          { "ko": "돈 좀 빌려줘, 만 원.", "en": "Lend me some money, 10,000 won. (blunt, no softening)", "correct": false, "feedback": "This jumps straight to a larger amount without explaining why or promising to repay it." },
-          { "ko": "만 원 있지? 그냥 줘.", "en": "You've got 10,000 won, right? Just give it to me. (demanding)", "correct": false, "feedback": "그냥 줘 asks your friend to give you money rather than lend it and sounds entitled." }
+          {
+            "ko": "헐 진짜 미안한데… 나 카드를 집에 두고 와서 그런데 버스비로 이천 원만 빌려줄 수 있어? 이따 바로 갚을게",
+            "en": "I'm really sorry… I left my card at home. Could you lend me just 2,000 won for the bus? I'll pay you back right away.",
+            "correct": true,
+            "feedback": "The reason, small amount, -줄 수 있어?, and 갚을게 make the request specific and considerate."
+          },
+          {
+            "ko": "돈 좀 빌려줘, 만 원.",
+            "en": "Lend me some money, 10,000 won. (blunt, no softening)",
+            "correct": false,
+            "feedback": "This jumps straight to a larger amount without explaining why or promising to repay it."
+          },
+          {
+            "ko": "만 원 있지? 그냥 줘.",
+            "en": "You've got 10,000 won, right? Just give it to me. (demanding)",
+            "correct": false,
+            "feedback": "그냥 줘 asks your friend to give you money rather than lend it and sounds entitled."
+          }
         ]
       },
       {
@@ -76,7 +136,8 @@
       "보조배터리",
       "필기",
       "갚다"
-    ]
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-favor-coworker-neighbor",
@@ -95,9 +156,24 @@
         "role": "you",
         "prompt": "Politely ask permission to make a request before explaining.",
         "choices": [
-          { "ko": "혹시 부탁 하나만 드려도 될까요?", "en": "Could I possibly ask you a favor?", "correct": true, "feedback": "혹시 and -드려도 될까요? politely ask permission before you explain the favor." },
-          { "ko": "부탁 하나 들어줘요.", "en": "Do me a favor. (too blunt for a coworker)", "correct": false, "feedback": "The request is grammatically polite, but the direct command 들어줘요 is too blunt for this coworker." },
-          { "ko": "부탁이 있는데 들어줄 수 있어?", "en": "I've got a favor, can you do it? (반말 — too casual at work)", "correct": false, "feedback": "-줄 수 있어? is casual speech and mismatches the polite workplace conversation." }
+          {
+            "ko": "혹시 부탁 하나만 드려도 될까요?",
+            "en": "Could I possibly ask you a favor?",
+            "correct": true,
+            "feedback": "혹시 and -드려도 될까요? politely ask permission before you explain the favor."
+          },
+          {
+            "ko": "부탁 하나 들어줘요.",
+            "en": "Do me a favor. (too blunt for a coworker)",
+            "correct": false,
+            "feedback": "The request is grammatically polite, but the direct command 들어줘요 is too blunt for this coworker."
+          },
+          {
+            "ko": "부탁이 있는데 들어줄 수 있어?",
+            "en": "I've got a favor, can you do it? (반말 — too casual at work)",
+            "correct": false,
+            "feedback": "-줄 수 있어? is casual speech and mismatches the polite workplace conversation."
+          }
         ]
       },
       {
@@ -109,9 +185,24 @@
         "role": "you",
         "prompt": "Explain you have to leave early and ask if they could pass a document to the team lead.",
         "choices": [
-          { "ko": "제가 오늘 좀 일찍 나가야 해서요. 죄송하지만 이 서류를 팀장님께 좀 전달해 주실 수 있을까요?", "en": "I have to leave a bit early today. I'm sorry to ask, but could you pass this document to the team lead for me?", "correct": true, "feedback": "The reason comes first, and 죄송하지만 plus -주실 수 있을까요? makes the workplace request considerate." },
-          { "ko": "저 먼저 갈게요. 이거 팀장님 주세요.", "en": "I'm heading out first. Give this to the team lead. (curt, no softening)", "correct": false, "feedback": "This announces your departure and gives an order without first asking whether your coworker can help." },
-          { "ko": "이 서류 좀 전달해. 나 가야 돼.", "en": "Pass this document along. I gotta go. (반말, ordering)", "correct": false, "feedback": "Both sentences are in casual speech and sound like an order in this workplace setting." }
+          {
+            "ko": "제가 오늘 좀 일찍 나가야 해서요. 죄송하지만 이 서류를 팀장님께 좀 전달해 주실 수 있을까요?",
+            "en": "I have to leave a bit early today. I'm sorry to ask, but could you pass this document to the team lead for me?",
+            "correct": true,
+            "feedback": "The reason comes first, and 죄송하지만 plus -주실 수 있을까요? makes the workplace request considerate."
+          },
+          {
+            "ko": "저 먼저 갈게요. 이거 팀장님 주세요.",
+            "en": "I'm heading out first. Give this to the team lead. (curt, no softening)",
+            "correct": false,
+            "feedback": "This announces your departure and gives an order without first asking whether your coworker can help."
+          },
+          {
+            "ko": "이 서류 좀 전달해. 나 가야 돼.",
+            "en": "Pass this document along. I gotta go. (반말, ordering)",
+            "correct": false,
+            "feedback": "Both sentences are in casual speech and sound like an order in this workplace setting."
+          }
         ]
       },
       {
@@ -123,9 +214,24 @@
         "role": "you",
         "prompt": "Say before the 3 o'clock meeting is fine, and add a second small request to answer a call if a client phones.",
         "choices": [
-          { "ko": "3시 회의 전까지만 팀장님께 전달해 주시면 돼요. 그리고 혹시 거래처에서 전화가 오면 대신 좀 받아 주실 수 있을까요?", "en": "Just pass it to the team lead before the 3 o'clock meeting. And if a client calls, could you answer it for me?", "correct": true, "feedback": "전까지만 gives a clear deadline, and the second favor is introduced again with 혹시 and a polite question." },
-          { "ko": "회의 전에. 전화도 네가 받아.", "en": "Before the meeting. You answer the phone too. (반말, bossy)", "correct": false, "feedback": "The clipped deadline and 네가 받아 sound bossy, and the casual speech is wrong for this coworker." },
-          { "ko": "아무 때나요. 전화는 알아서 하세요.", "en": "Whenever. Just deal with the phone yourself. (dismissive)", "correct": false, "feedback": "아무 때나요 is vague, and 알아서 하세요 pushes responsibility onto the coworker dismissively." }
+          {
+            "ko": "3시 회의 전까지만 팀장님께 전달해 주시면 돼요. 그리고 혹시 거래처에서 전화가 오면 대신 좀 받아 주실 수 있을까요?",
+            "en": "Just pass it to the team lead before the 3 o'clock meeting. And if a client calls, could you answer it for me?",
+            "correct": true,
+            "feedback": "전까지만 gives a clear deadline, and the second favor is introduced again with 혹시 and a polite question."
+          },
+          {
+            "ko": "회의 전에. 전화도 네가 받아.",
+            "en": "Before the meeting. You answer the phone too. (반말, bossy)",
+            "correct": false,
+            "feedback": "The clipped deadline and 네가 받아 sound bossy, and the casual speech is wrong for this coworker."
+          },
+          {
+            "ko": "아무 때나요. 전화는 알아서 하세요.",
+            "en": "Whenever. Just deal with the phone yourself. (dismissive)",
+            "correct": false,
+            "feedback": "아무 때나요 is vague, and 알아서 하세요 pushes responsibility onto the coworker dismissively."
+          }
         ]
       },
       {
@@ -137,9 +243,24 @@
         "role": "you",
         "prompt": "Graciously accept their limit, make it easy for them, and thank them sincerely.",
         "choices": [
-          { "ko": "그럼요, 메모만 남겨 주셔도 충분해요. 무리한 부탁을 드려서 죄송하고, 정말 감사합니다. 다음에 꼭 보답할게요!", "en": "Of course, just a note is more than enough. Sorry for asking so much, and thank you so much. I'll definitely return the favor next time!", "correct": true, "feedback": "This accepts the coworker's limit, lowers the burden, apologizes, and closes with sincere thanks." },
-          { "ko": "아니요, 꼭 통화하고 처리해 주셔야 돼요.", "en": "No, you absolutely have to handle it on the call. (pushy, ignores their limit)", "correct": false, "feedback": "꼭 and -주셔야 돼요 ignore the coworker's reasonable limit and turn the favor into a demand." },
-          { "ko": "메모요? 그건 좀 곤란한데.", "en": "A note? That's kind of a problem. (ungracious)", "correct": false, "feedback": "This rejects the help being offered without gratitude or an easier alternative." }
+          {
+            "ko": "그럼요, 메모만 남겨 주셔도 충분해요. 무리한 부탁을 드려서 죄송하고, 정말 감사합니다. 다음에 꼭 보답할게요!",
+            "en": "Of course, just a note is more than enough. Sorry for asking so much, and thank you so much. I'll definitely return the favor next time!",
+            "correct": true,
+            "feedback": "This accepts the coworker's limit, lowers the burden, apologizes, and closes with sincere thanks."
+          },
+          {
+            "ko": "아니요, 꼭 통화하고 처리해 주셔야 돼요.",
+            "en": "No, you absolutely have to handle it on the call. (pushy, ignores their limit)",
+            "correct": false,
+            "feedback": "꼭 and -주셔야 돼요 ignore the coworker's reasonable limit and turn the favor into a demand."
+          },
+          {
+            "ko": "메모요? 그건 좀 곤란한데.",
+            "en": "A note? That's kind of a problem. (ungracious)",
+            "correct": false,
+            "feedback": "This rejects the help being offered without gratitude or an easier alternative."
+          }
         ]
       },
       {
@@ -155,6 +276,7 @@
       "무리한 부탁",
       "보답하다",
       "다녀오다"
-    ]
+    ],
+    "register": "haeyo"
   }
 ]

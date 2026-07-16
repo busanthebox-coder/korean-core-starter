@@ -7,32 +7,132 @@
     "partner": "친구",
     "tip": "When a friend asks you to choose between two things, don't just say 'both nice' — react (오/음), pick a side, and give a quick reason. A clear opinion with a why is what they actually want.",
     "turns": [
-      { "role": "partner", "ko": "야 이거 둘 중에 뭐가 나아?? 사진 보냈어ㅋㅋ", "en": "Hey which of these two is better?? I sent pics lol" },
-      { "role": "you", "prompt": "React and ask what the occasion is before choosing.", "choices": [
-        { "ko": "오 둘 다 예쁜데ㅋㅋ 어디 입고 갈 건데?", "en": "Oh they're both cute lol where are you gonna wear it?", "correct": true, "feedback": "오 reacts, and 어디 입고 갈 건데? gets the context you need to actually help — keeps it rolling." },
-        { "ko": "둘 다 잘 어울리십니다.", "en": "Both suit you well. (formal)", "correct": false, "feedback": "어울리십니다 is way too formal for texting a friend about clothes — drop the 십니다." },
-        { "ko": "옷 또 사? 옷장 터지겠다.", "en": "Buying clothes again? Your closet's gonna explode.", "correct": false, "feedback": "Reads as nagging when they just want a quick opinion." }
-      ] },
-      { "role": "partner", "ko": "주말에 소개팅ㅋㅋㅋ 첫인상 중요하잖아", "en": "A blind date this weekend lol first impressions matter you know" },
-      { "role": "you", "prompt": "Pick the white one and give a quick reason.", "choices": [
-        { "ko": "헐 소개팅?? 그럼 무조건 흰색! 깔끔해 보여", "en": "Whoa a blind date?? then definitely the white one! looks clean", "correct": true, "feedback": "Reacts to the news and commits to a pick with a reason (깔끔해 보여) — exactly the help they asked for." },
-        { "ko": "흰색 상의가 더 단정해 보입니다.", "en": "The white top looks more tidy. (formal)", "correct": false, "feedback": "단정해 보입니다 is textbook-stiff — friends say 깔끔해 보여." },
-        { "ko": "둘 중에 뭐가 나은지 모르겠어.", "en": "I can't tell which one's better.", "correct": false, "feedback": "Dodges the question — they asked you to choose, so just pick one." }
-      ] },
-      { "role": "partner", "ko": "오 그치? 근데 흰색은 음식 흘리면 티 나잖아ㅠ", "en": "Oh right? but white shows stains if I spill food ㅠ" },
-      { "role": "you", "prompt": "Agree but reassure her and tell her to just be careful.", "choices": [
-        { "ko": "ㅋㅋㅋ 그건 그래 근데 조심하면 되지! 흰색이 훨 나아", "en": "Lol true but just be careful! white's way better", "correct": true, "feedback": "그건 그래 validates her worry, then you hold your pick — natural back-and-forth that lands the decision." },
-        { "ko": "흰 옷은 오염에 취약하므로 주의가 필요합니다.", "en": "White clothes are prone to stains so caution is needed. (formal)", "correct": false, "feedback": "Sounds like a care-label warning, not a friend hyping her up." },
-        { "ko": "그럼 그냥 검은색 사.", "en": "Then just buy the black one.", "correct": false, "feedback": "Flip-flops the second she hesitates — wishy-washy when she wanted you to be sure." }
-      ] },
-      { "role": "partner", "ko": "ㅇㅋㅋㅋ 결정했어 흰색 살게! 고마워", "en": "Okok lol decided, I'll get the white one! thanks" },
-      { "role": "you", "prompt": "Hype her up and tell her to send a full pic after.", "choices": [
-        { "ko": "ㅋㅋ 잘 골랐어! 입고 풀샷 한 번 보내봐", "en": "Lol good pick! put it on and send me a full shot", "correct": true, "feedback": "잘 골랐어 closes it warmly and 풀샷 보내봐 keeps the thread alive — perfect casual sign-off." },
-        { "ko": "탁월한 선택이십니다. 사진 부탁드립니다.", "en": "An excellent choice. Please send a photo. (formal)", "correct": false, "feedback": "Reads like a shop clerk — friends say 잘 골랐어 / 보내봐." },
-        { "ko": "소개팅 잘 안 되면 옷 탓이야ㅋㅋ", "en": "If the date flops it's the outfit's fault lol", "correct": false, "feedback": "Joke lands flat — adds pressure right when she finally felt good about it." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "야 이거 둘 중에 뭐가 나아?? 사진 보냈어ㅋㅋ",
+        "en": "Hey which of these two is better?? I sent pics lol"
+      },
+      {
+        "role": "you",
+        "prompt": "React and ask what the occasion is before choosing.",
+        "choices": [
+          {
+            "ko": "오 둘 다 예쁜데ㅋㅋ 어디 입고 갈 건데?",
+            "en": "Oh they're both cute lol where are you gonna wear it?",
+            "correct": true,
+            "feedback": "오 reacts, and 어디 입고 갈 건데? gets the context you need to actually help — keeps it rolling."
+          },
+          {
+            "ko": "둘 다 잘 어울리십니다.",
+            "en": "Both suit you well. (formal)",
+            "correct": false,
+            "feedback": "어울리십니다 is way too formal for texting a friend about clothes — drop the 십니다."
+          },
+          {
+            "ko": "옷 또 사? 옷장 터지겠다.",
+            "en": "Buying clothes again? Your closet's gonna explode.",
+            "correct": false,
+            "feedback": "Reads as nagging when they just want a quick opinion."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "주말에 소개팅ㅋㅋㅋ 첫인상 중요하잖아",
+        "en": "A blind date this weekend lol first impressions matter you know"
+      },
+      {
+        "role": "you",
+        "prompt": "Pick the white one and give a quick reason.",
+        "choices": [
+          {
+            "ko": "헐 소개팅?? 그럼 무조건 흰색! 깔끔해 보여",
+            "en": "Whoa a blind date?? then definitely the white one! looks clean",
+            "correct": true,
+            "feedback": "Reacts to the news and commits to a pick with a reason (깔끔해 보여) — exactly the help they asked for."
+          },
+          {
+            "ko": "흰색 상의가 더 단정해 보입니다.",
+            "en": "The white top looks more tidy. (formal)",
+            "correct": false,
+            "feedback": "단정해 보입니다 is textbook-stiff — friends say 깔끔해 보여."
+          },
+          {
+            "ko": "둘 중에 뭐가 나은지 모르겠어.",
+            "en": "I can't tell which one's better.",
+            "correct": false,
+            "feedback": "Dodges the question — they asked you to choose, so just pick one."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 그치? 근데 흰색은 음식 흘리면 티 나잖아ㅠ",
+        "en": "Oh right? but white shows stains if I spill food ㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree but reassure her and tell her to just be careful.",
+        "choices": [
+          {
+            "ko": "ㅋㅋㅋ 그건 그래 근데 조심하면 되지! 흰색이 훨 나아",
+            "en": "Lol true but just be careful! white's way better",
+            "correct": true,
+            "feedback": "그건 그래 validates her worry, then you hold your pick — natural back-and-forth that lands the decision."
+          },
+          {
+            "ko": "흰 옷은 오염에 취약하므로 주의가 필요합니다.",
+            "en": "White clothes are prone to stains so caution is needed. (formal)",
+            "correct": false,
+            "feedback": "Sounds like a care-label warning, not a friend hyping her up."
+          },
+          {
+            "ko": "그럼 그냥 검은색 사.",
+            "en": "Then just buy the black one.",
+            "correct": false,
+            "feedback": "Flip-flops the second she hesitates — wishy-washy when she wanted you to be sure."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅇㅋㅋㅋ 결정했어 흰색 살게! 고마워",
+        "en": "Okok lol decided, I'll get the white one! thanks"
+      },
+      {
+        "role": "you",
+        "prompt": "Hype her up and tell her to send a full pic after.",
+        "choices": [
+          {
+            "ko": "ㅋㅋ 잘 골랐어! 입고 풀샷 한 번 보내봐",
+            "en": "Lol good pick! put it on and send me a full shot",
+            "correct": true,
+            "feedback": "잘 골랐어 closes it warmly and 풀샷 보내봐 keeps the thread alive — perfect casual sign-off."
+          },
+          {
+            "ko": "탁월한 선택이십니다. 사진 부탁드립니다.",
+            "en": "An excellent choice. Please send a photo. (formal)",
+            "correct": false,
+            "feedback": "Reads like a shop clerk — friends say 잘 골랐어 / 보내봐."
+          },
+          {
+            "ko": "소개팅 잘 안 되면 옷 탓이야ㅋㅋ",
+            "en": "If the date flops it's the outfit's fault lol",
+            "correct": false,
+            "feedback": "Joke lands flat — adds pressure right when she finally felt good about it."
+          }
+        ]
+      }
     ],
-    "vocab": ["둘 중에", "소개팅", "첫인상", "깔끔하다", "티 나다", "풀샷"]
+    "vocab": [
+      "둘 중에",
+      "소개팅",
+      "첫인상",
+      "깔끔하다",
+      "티 나다",
+      "풀샷"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-should-i-change-phone",
@@ -42,32 +142,132 @@
     "partner": "친구",
     "tip": "When a friend is on the fence about a purchase, ask a probing question (왜? / 얼마나 됐는데?) before giving advice. Drawing out the details is how friends help each other decide.",
     "turns": [
-      { "role": "partner", "ko": "아 진짜 폰 바꿀까 말까 고민된다…", "en": "Ugh should I get a new phone or not… I keep going back and forth" },
-      { "role": "you", "prompt": "Ask what's wrong with the current one.", "choices": [
-        { "ko": "갑자기? 지금 폰 왜, 뭐 문제 있어?", "en": "Out of nowhere? what's up with your phone, something wrong?", "correct": true, "feedback": "왜 + 뭐 문제 있어? digs into the reason before advising — that's how you actually help them decide." },
-        { "ko": "기기 교체를 고려 중이신가요?", "en": "Are you considering replacing your device? (formal)", "correct": false, "feedback": "교체를 고려 중이신가요 sounds like a carrier rep — say 폰 왜, 문제 있어?" },
-        { "ko": "응 바꿔 바꿔.", "en": "Yeah change it change it.", "correct": false, "feedback": "Snap advice with zero context — you don't even know what's wrong yet." }
-      ] },
-      { "role": "partner", "ko": "배터리가 반나절도 안 가ㅠㅠ 산 지 4년 됐거든", "en": "The battery doesn't even last half a day ㅠㅠ I've had it 4 years" },
-      { "role": "you", "prompt": "React that 4 years is a lot and lean toward upgrading.", "choices": [
-        { "ko": "헐 4년이면 오래 썼네ㅋㅋ 그 정도면 바꿀 때 됐지", "en": "Whoa 4 years is a long time lol at that point it's time to upgrade", "correct": true, "feedback": "헐 reacts to the detail and 바꿀 때 됐지 gives a clear, reasoned nudge — exactly what they're fishing for." },
-        { "ko": "4년 사용하셨다면 교체를 권장드립니다.", "en": "If you've used it 4 years I recommend replacement. (formal)", "correct": false, "feedback": "권장드립니다 is customer-service formal — friends say 바꿀 때 됐지." },
-        { "ko": "4년이면 아직 새 폰이네.", "en": "Four years? It's practically still a new phone.", "correct": false, "feedback": "Four years is already a long replacement cycle, so this dismisses the battery problem instead of responding realistically." }
-      ] },
-      { "role": "partner", "ko": "근데 새 폰 너무 비싸… 백만원 훌쩍 넘던데", "en": "but new phones are so expensive… way over a million won" },
-      { "role": "you", "prompt": "Sympathize and suggest a cheaper route like a deal or last year's model.", "choices": [
-        { "ko": "그니까ㅋㅋ 미쳤어 요즘. 그냥 작년 모델 노려봐, 훨 싸", "en": "Right lol prices are insane these days. just go for last year's model, way cheaper", "correct": true, "feedback": "그니까 commiserates and you offer a real fix (작년 모델) — keeps solving the problem together." },
-        { "ko": "최신 기종은 가격대가 상당히 높은 편입니다.", "en": "The latest models are in a fairly high price range. (formal)", "correct": false, "feedback": "Just restates their point in stiff 습니다 form without offering anything." },
-        { "ko": "돈 없으면 그냥 쓰던 거 써.", "en": "If you're broke just keep using your old one.", "correct": false, "feedback": "Comes off blunt and unhelpful — they wanted ideas, not a dead end." }
-      ] },
-      { "role": "partner", "ko": "오 작년 모델! 그 생각은 못 했네ㅋㅋ 가성비 괜찮아?", "en": "Oh last year's model! didn't think of that lol is the value good?" },
-      { "role": "you", "prompt": "Confirm it's worth it and tell her to check it out.", "choices": [
-        { "ko": "ㅇㅇ 성능 거의 똑같은데 싸ㅋㅋ 한 번 알아봐!", "en": "Yep performance is basically the same but cheaper lol go check it out!", "correct": true, "feedback": "Gives the verdict (가성비 좋다) and a nudge to act (알아봐!) — wraps the advice cleanly." },
-        { "ko": "가성비 측면에서 매우 합리적인 선택입니다.", "en": "In terms of value it's a very reasonable choice. (formal)", "correct": false, "feedback": "Reads like a product review. Just say 싸고 좋아, 알아봐!" },
-        { "ko": "가성비가 뭐냐면 말이지…", "en": "Let me explain what 'value for money' means…", "correct": false, "feedback": "She knows the word — explaining it derails the chat and sounds condescending." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "아 진짜 폰 바꿀까 말까 고민된다…",
+        "en": "Ugh should I get a new phone or not… I keep going back and forth"
+      },
+      {
+        "role": "you",
+        "prompt": "Ask what's wrong with the current one.",
+        "choices": [
+          {
+            "ko": "갑자기? 지금 폰 왜, 뭐 문제 있어?",
+            "en": "Out of nowhere? what's up with your phone, something wrong?",
+            "correct": true,
+            "feedback": "왜 + 뭐 문제 있어? digs into the reason before advising — that's how you actually help them decide."
+          },
+          {
+            "ko": "기기 교체를 고려 중이신가요?",
+            "en": "Are you considering replacing your device? (formal)",
+            "correct": false,
+            "feedback": "교체를 고려 중이신가요 sounds like a carrier rep — say 폰 왜, 문제 있어?"
+          },
+          {
+            "ko": "응 바꿔 바꿔.",
+            "en": "Yeah change it change it.",
+            "correct": false,
+            "feedback": "Snap advice with zero context — you don't even know what's wrong yet."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "배터리가 반나절도 안 가ㅠㅠ 산 지 4년 됐거든",
+        "en": "The battery doesn't even last half a day ㅠㅠ I've had it 4 years"
+      },
+      {
+        "role": "you",
+        "prompt": "React that 4 years is a lot and lean toward upgrading.",
+        "choices": [
+          {
+            "ko": "헐 4년이면 오래 썼네ㅋㅋ 그 정도면 바꿀 때 됐지",
+            "en": "Whoa 4 years is a long time lol at that point it's time to upgrade",
+            "correct": true,
+            "feedback": "헐 reacts to the detail and 바꿀 때 됐지 gives a clear, reasoned nudge — exactly what they're fishing for."
+          },
+          {
+            "ko": "4년 사용하셨다면 교체를 권장드립니다.",
+            "en": "If you've used it 4 years I recommend replacement. (formal)",
+            "correct": false,
+            "feedback": "권장드립니다 is customer-service formal — friends say 바꿀 때 됐지."
+          },
+          {
+            "ko": "4년이면 아직 새 폰이네.",
+            "en": "Four years? It's practically still a new phone.",
+            "correct": false,
+            "feedback": "Four years is already a long replacement cycle, so this dismisses the battery problem instead of responding realistically."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "근데 새 폰 너무 비싸… 백만원 훌쩍 넘던데",
+        "en": "but new phones are so expensive… way over a million won"
+      },
+      {
+        "role": "you",
+        "prompt": "Sympathize and suggest a cheaper route like a deal or last year's model.",
+        "choices": [
+          {
+            "ko": "그니까ㅋㅋ 미쳤어 요즘. 그냥 작년 모델 노려봐, 훨 싸",
+            "en": "Right lol prices are insane these days. just go for last year's model, way cheaper",
+            "correct": true,
+            "feedback": "그니까 commiserates and you offer a real fix (작년 모델) — keeps solving the problem together."
+          },
+          {
+            "ko": "최신 기종은 가격대가 상당히 높은 편입니다.",
+            "en": "The latest models are in a fairly high price range. (formal)",
+            "correct": false,
+            "feedback": "Just restates their point in stiff 습니다 form without offering anything."
+          },
+          {
+            "ko": "돈 없으면 그냥 쓰던 거 써.",
+            "en": "If you're broke just keep using your old one.",
+            "correct": false,
+            "feedback": "Comes off blunt and unhelpful — they wanted ideas, not a dead end."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 작년 모델! 그 생각은 못 했네ㅋㅋ 가성비 괜찮아?",
+        "en": "Oh last year's model! didn't think of that lol is the value good?"
+      },
+      {
+        "role": "you",
+        "prompt": "Confirm it's worth it and tell her to check it out.",
+        "choices": [
+          {
+            "ko": "ㅇㅇ 성능 거의 똑같은데 싸ㅋㅋ 한 번 알아봐!",
+            "en": "Yep performance is basically the same but cheaper lol go check it out!",
+            "correct": true,
+            "feedback": "Gives the verdict (가성비 좋다) and a nudge to act (알아봐!) — wraps the advice cleanly."
+          },
+          {
+            "ko": "가성비 측면에서 매우 합리적인 선택입니다.",
+            "en": "In terms of value it's a very reasonable choice. (formal)",
+            "correct": false,
+            "feedback": "Reads like a product review. Just say 싸고 좋아, 알아봐!"
+          },
+          {
+            "ko": "가성비가 뭐냐면 말이지…",
+            "en": "Let me explain what 'value for money' means…",
+            "correct": false,
+            "feedback": "She knows the word — explaining it derails the chat and sounds condescending."
+          }
+        ]
+      }
     ],
-    "vocab": ["바꿀까 말까", "고민되다", "배터리", "훌쩍 넘다", "작년 모델", "가성비"]
+    "vocab": [
+      "바꿀까 말까",
+      "고민되다",
+      "배터리",
+      "훌쩍 넘다",
+      "작년 모델",
+      "가성비"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-gift-for-friend",
@@ -77,31 +277,131 @@
     "partner": "친구",
     "tip": "When asked for a recommendation, ask about budget and the person's taste first (예산? 걔 뭐 좋아해?). Narrowing it down before suggesting is what makes the help genuinely useful.",
     "turns": [
-      { "role": "partner", "ko": "야 다음 주 지민이 생일인데 뭐 선물하지?? 도와줘ㅠ", "en": "Hey it's Jimin's birthday next week, what should I get?? help me ㅠ" },
-      { "role": "you", "prompt": "Ask how much she's thinking of spending.", "choices": [
-        { "ko": "오 벌써 생일이구나ㅋㅋ 예산 얼마 정도 생각해?", "en": "Oh it's her birthday already lol how much are you thinking of spending?", "correct": true, "feedback": "예산 얼마? narrows it down right away — you can't recommend well without knowing the budget." },
-        { "ko": "예산은 어느 정도로 책정하셨습니까?", "en": "What budget have you allocated? (formal)", "correct": false, "feedback": "책정하셨습니까 sounds like a finance meeting — say 예산 얼마 정도 생각해?" },
-        { "ko": "선물은 마음이 중요한 거야.", "en": "It's the thought that counts with gifts.", "correct": false, "feedback": "True but useless here — she asked for actual ideas, so help her brainstorm." }
-      ] },
-      { "role": "partner", "ko": "한 5만 원 안쪽? 너무 부담 주긴 싫어서ㅋㅋ", "en": "Like under 50k? Don't wanna make it too much lol." },
-      { "role": "you", "prompt": "React, then ask about the friend's taste before suggesting.", "choices": [
-        { "ko": "오케이 적당하네ㅋㅋ 근데 걔 요즘 뭐에 빠져 있어?", "en": "Okay, that's reasonable lol. But what's she into these days?", "correct": true, "feedback": "Confirms the budget, then 뭐에 빠져 있어? asks about her taste before choosing a gift." },
-        { "ko": "해당 금액은 적정하다고 사료됩니다.", "en": "That amount seems appropriate. (formal)", "correct": false, "feedback": "사료됩니다 is super stiff and old-fashioned — friends say 적당하네." },
-        { "ko": "5만 원이면 뭐 살 수 있나?", "en": "Can you even buy anything for 50k?", "correct": false, "feedback": "Sounds dismissive of her budget — plenty of good gifts fit, so stay constructive." }
-      ] },
-      { "role": "partner", "ko": "요즘 향수에 진심이더라고ㅋㅋ 인스타에 맨날 올려", "en": "She's really into perfume lately lol. She posts it on Instagram all the time." },
-      { "role": "you", "prompt": "Light up and suggest a perfume or a diffuser.", "choices": [
-        { "ko": "오 그럼 답 나왔네ㅋㅋ 디퓨저나 미니 향수 어때?", "en": "Oh then we've got our answer lol how about a diffuser or a mini perfume?", "correct": true, "feedback": "답 나왔네 reacts, and two concrete options move the decision forward — solid recommending." },
-        { "ko": "향수 또는 디퓨저를 선물하시는 것을 추천드립니다.", "en": "I recommend gifting a perfume or diffuser. (formal)", "correct": false, "feedback": "추천드립니다 reads like a shopping site. Just say 디퓨저나 향수 어때?" },
-        { "ko": "향수는 취향 타서 고르기 어려워.", "en": "Perfume's hard to pick since it's a taste thing.", "correct": false, "feedback": "Shoots down the idea instead of running with the great lead she just gave you." }
-      ] },
-      { "role": "partner", "ko": "오 디퓨저 좋다! 근데 어디서 사지? 추천 좀ㅋㅋ", "en": "Oh a diffuser's nice! but where do I buy it? give me a rec lol" },
-      { "role": "you", "prompt": "Offer to send a link to a shop you know.", "choices": [
-        { "ko": "내가 자주 가는 데 있어ㅋㅋ 링크 보내줄게!", "en": "There's a place I go to a lot lol I'll send you the link!", "correct": true, "feedback": "Offers a concrete next step (링크 보내줄게) — exactly how friends hand off a rec and keep things moving." },
-        { "ko": "제가 즐겨 이용하는 매장 링크를 전송해 드리겠습니다.", "en": "I'll send you a link to the store I frequent. (formal)", "correct": false, "feedback": "전송해 드리겠습니다 is robotic — friends say 링크 보내줄게." },
-        { "ko": "그냥 인터넷에 검색하면 다 나와.", "en": "Just search online, it all comes up.", "correct": false, "feedback": "Brushes her off after she asked you specifically — unhelpful when you could just share a spot." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "야 다음 주 지민이 생일인데 뭐 선물하지?? 도와줘ㅠ",
+        "en": "Hey it's Jimin's birthday next week, what should I get?? help me ㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Ask how much she's thinking of spending.",
+        "choices": [
+          {
+            "ko": "오 벌써 생일이구나ㅋㅋ 예산 얼마 정도 생각해?",
+            "en": "Oh it's her birthday already lol how much are you thinking of spending?",
+            "correct": true,
+            "feedback": "예산 얼마? narrows it down right away — you can't recommend well without knowing the budget."
+          },
+          {
+            "ko": "예산은 어느 정도로 책정하셨습니까?",
+            "en": "What budget have you allocated? (formal)",
+            "correct": false,
+            "feedback": "책정하셨습니까 sounds like a finance meeting — say 예산 얼마 정도 생각해?"
+          },
+          {
+            "ko": "선물은 마음이 중요한 거야.",
+            "en": "It's the thought that counts with gifts.",
+            "correct": false,
+            "feedback": "True but useless here — she asked for actual ideas, so help her brainstorm."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "한 5만 원 안쪽? 너무 부담 주긴 싫어서ㅋㅋ",
+        "en": "Like under 50k? Don't wanna make it too much lol."
+      },
+      {
+        "role": "you",
+        "prompt": "React, then ask about the friend's taste before suggesting.",
+        "choices": [
+          {
+            "ko": "오케이 적당하네ㅋㅋ 근데 걔 요즘 뭐에 빠져 있어?",
+            "en": "Okay, that's reasonable lol. But what's she into these days?",
+            "correct": true,
+            "feedback": "Confirms the budget, then 뭐에 빠져 있어? asks about her taste before choosing a gift."
+          },
+          {
+            "ko": "해당 금액은 적정하다고 사료됩니다.",
+            "en": "That amount seems appropriate. (formal)",
+            "correct": false,
+            "feedback": "사료됩니다 is super stiff and old-fashioned — friends say 적당하네."
+          },
+          {
+            "ko": "5만 원이면 뭐 살 수 있나?",
+            "en": "Can you even buy anything for 50k?",
+            "correct": false,
+            "feedback": "Sounds dismissive of her budget — plenty of good gifts fit, so stay constructive."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "요즘 향수에 진심이더라고ㅋㅋ 인스타에 맨날 올려",
+        "en": "She's really into perfume lately lol. She posts it on Instagram all the time."
+      },
+      {
+        "role": "you",
+        "prompt": "Light up and suggest a perfume or a diffuser.",
+        "choices": [
+          {
+            "ko": "오 그럼 답 나왔네ㅋㅋ 디퓨저나 미니 향수 어때?",
+            "en": "Oh then we've got our answer lol how about a diffuser or a mini perfume?",
+            "correct": true,
+            "feedback": "답 나왔네 reacts, and two concrete options move the decision forward — solid recommending."
+          },
+          {
+            "ko": "향수 또는 디퓨저를 선물하시는 것을 추천드립니다.",
+            "en": "I recommend gifting a perfume or diffuser. (formal)",
+            "correct": false,
+            "feedback": "추천드립니다 reads like a shopping site. Just say 디퓨저나 향수 어때?"
+          },
+          {
+            "ko": "향수는 취향 타서 고르기 어려워.",
+            "en": "Perfume's hard to pick since it's a taste thing.",
+            "correct": false,
+            "feedback": "Shoots down the idea instead of running with the great lead she just gave you."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 디퓨저 좋다! 근데 어디서 사지? 추천 좀ㅋㅋ",
+        "en": "Oh a diffuser's nice! but where do I buy it? give me a rec lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Offer to send a link to a shop you know.",
+        "choices": [
+          {
+            "ko": "내가 자주 가는 데 있어ㅋㅋ 링크 보내줄게!",
+            "en": "There's a place I go to a lot lol I'll send you the link!",
+            "correct": true,
+            "feedback": "Offers a concrete next step (링크 보내줄게) — exactly how friends hand off a rec and keep things moving."
+          },
+          {
+            "ko": "제가 즐겨 이용하는 매장 링크를 전송해 드리겠습니다.",
+            "en": "I'll send you a link to the store I frequent. (formal)",
+            "correct": false,
+            "feedback": "전송해 드리겠습니다 is robotic — friends say 링크 보내줄게."
+          },
+          {
+            "ko": "그냥 인터넷에 검색하면 다 나와.",
+            "en": "Just search online, it all comes up.",
+            "correct": false,
+            "feedback": "Brushes her off after she asked you specifically — unhelpful when you could just share a spot."
+          }
+        ]
+      }
     ],
-    "vocab": ["선물", "예산", "부담 주다", "빠져 있다", "진심이다", "디퓨저"]
+    "vocab": [
+      "선물",
+      "예산",
+      "부담 주다",
+      "빠져 있다",
+      "진심이다",
+      "디퓨저"
+    ],
+    "register": "banmal"
   }
 ]

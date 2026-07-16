@@ -7,32 +7,134 @@
     "partner": "친구",
     "tip": "When a friend floats a sudden idea, react with energy first (헐/완전) before getting into details. Matching their excitement keeps the plan alive.",
     "turns": [
-      { "role": "partner", "ko": "야 우리 여행이나 갈까?", "en": "Hey, should we go on a trip or something?" },
-      { "role": "you", "prompt": "React with excitement and ask where", "choices": [
-        { "ko": "오 완전 좋지! 어디로?", "en": "Oh totally down! Where to?", "correct": true, "feedback": "Reaction + follow-up question — exactly how a friend keeps the plan rolling." },
-        { "ko": "여행을 가도 괜찮을까요?", "en": "Would it be okay for us to go on a trip?", "correct": false, "feedback": "Too formal (존댓말) and wishy-washy — sounds like you're asking a boss, not a friend." },
-        { "ko": "여행? 갑자기?", "en": "A trip? Out of nowhere?", "correct": false, "feedback": "Sounds reluctant and puts the brakes on — it deflates their excitement instead of matching it." }
-      ] },
-      { "role": "partner", "ko": "아직 안 정했어ㅋㅋ 그냥 어디든 떠나고 싶어", "en": "Haven't decided yetㅋㅋ I just wanna get away somewhere." },
-      { "role": "you", "prompt": "Agree and ask when they're thinking", "choices": [
-        { "ko": "그 마음 너무 잘 알지ㅋㅋ 언제 갈 생각인데?", "en": "I totally get that lol. When are you thinking of going?", "correct": true, "feedback": "그 마음 너무 잘 알지 agrees warmly, and the practical follow-up keeps the planning going." },
-        { "ko": "저는 일정이 아직 미정입니다.", "en": "My schedule is still undecided.", "correct": false, "feedback": "Stiff 존댓말 — way too businesslike for texting a close friend." },
-        { "ko": "떠나고 싶다는 게 무슨 의미야?", "en": "What do you mean you wanna get away?", "correct": false, "feedback": "Over-analyzing an obvious feeling — kills the vibe instead of going along with it." }
-      ] },
-      { "role": "partner", "ko": "다음 달 초쯤? 너 주말에 시간 돼?", "en": "Early next month maybe? You free on the weekend?" },
-      { "role": "you", "prompt": "Say you're free and push to lock it in", "choices": [
-        { "ko": "오 나 그때 완전 괜찮아! 그럼 우리 진짜 가는 거다?", "en": "Oh I'm totally good then! So we're really doing this?", "correct": true, "feedback": "Confirms availability and seals the plan — energetic and decisive, just like a friend." },
-        { "ko": "시간 여부를 확인 후 다시 연락드리겠습니다.", "en": "I'll check my availability and get back to you.", "correct": false, "feedback": "Reads like a work email — far too formal and distant for a buddy." },
-        { "ko": "주말이 무슨 요일이더라?", "en": "What day is the weekend again?", "correct": false, "feedback": "Random and confusing — sidetracks the conversation instead of answering." }
-      ] },
-      { "role": "partner", "ko": "ㅋㅋㅋ 가는 거지! 내가 후보 몇 개 찾아볼게", "en": "ㅋㅋㅋ we're going! I'll look up a few options." },
-      { "role": "you", "prompt": "Show you're hyped and offer to help", "choices": [
-        { "ko": "콜! 나도 찾아볼게ㅎㅎ 기대된다", "en": "Deal! I'll look too haha can't wait.", "correct": true, "feedback": "Enthusiastic agreement (콜) plus pitching in — perfect way to wrap a planning text." },
-        { "ko": "알겠습니다. 검토 후 회신 바랍니다.", "en": "Understood. Please reply after reviewing.", "correct": false, "feedback": "Sounds like a corporate memo — nobody texts a friend like this." },
-        { "ko": "후보가 뭔지 잘 모르겠어.", "en": "I don't really know what 'options' means.", "correct": false, "feedback": "Feigns confusion at a clear word — stalls the chat for no reason." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "야 우리 여행이나 갈까?",
+        "en": "Hey, should we go on a trip or something?"
+      },
+      {
+        "role": "you",
+        "prompt": "React with excitement and ask where",
+        "choices": [
+          {
+            "ko": "오 완전 좋지! 어디로?",
+            "en": "Oh totally down! Where to?",
+            "correct": true,
+            "feedback": "Reaction + follow-up question — exactly how a friend keeps the plan rolling."
+          },
+          {
+            "ko": "여행을 가도 괜찮을까요?",
+            "en": "Would it be okay for us to go on a trip?",
+            "correct": false,
+            "feedback": "Too formal (존댓말) and wishy-washy — sounds like you're asking a boss, not a friend."
+          },
+          {
+            "ko": "여행? 갑자기?",
+            "en": "A trip? Out of nowhere?",
+            "correct": false,
+            "feedback": "Sounds reluctant and puts the brakes on — it deflates their excitement instead of matching it."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아직 안 정했어ㅋㅋ 그냥 어디든 떠나고 싶어",
+        "en": "Haven't decided yetㅋㅋ I just wanna get away somewhere."
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and ask when they're thinking",
+        "choices": [
+          {
+            "ko": "그 마음 너무 잘 알지ㅋㅋ 언제 갈 생각인데?",
+            "en": "I totally get that lol. When are you thinking of going?",
+            "correct": true,
+            "feedback": "그 마음 너무 잘 알지 agrees warmly, and the practical follow-up keeps the planning going."
+          },
+          {
+            "ko": "저는 일정이 아직 미정입니다.",
+            "en": "My schedule is still undecided.",
+            "correct": false,
+            "feedback": "Stiff 존댓말 — way too businesslike for texting a close friend."
+          },
+          {
+            "ko": "떠나고 싶다는 게 무슨 의미야?",
+            "en": "What do you mean you wanna get away?",
+            "correct": false,
+            "feedback": "Over-analyzing an obvious feeling — kills the vibe instead of going along with it."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "다음 달 초쯤? 너 주말에 시간 돼?",
+        "en": "Early next month maybe? You free on the weekend?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you're free and push to lock it in",
+        "choices": [
+          {
+            "ko": "오 나 그때 완전 괜찮아! 그럼 우리 진짜 가는 거다?",
+            "en": "Oh I'm totally good then! So we're really doing this?",
+            "correct": true,
+            "feedback": "Confirms availability and seals the plan — energetic and decisive, just like a friend."
+          },
+          {
+            "ko": "시간 여부를 확인 후 다시 연락드리겠습니다.",
+            "en": "I'll check my availability and get back to you.",
+            "correct": false,
+            "feedback": "Reads like a work email — far too formal and distant for a buddy."
+          },
+          {
+            "ko": "주말이 무슨 요일이더라?",
+            "en": "What day is the weekend again?",
+            "correct": false,
+            "feedback": "Random and confusing — sidetracks the conversation instead of answering."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 가는 거지! 내가 후보 몇 개 찾아볼게",
+        "en": "ㅋㅋㅋ we're going! I'll look up a few options."
+      },
+      {
+        "role": "you",
+        "prompt": "Show you're hyped and offer to help",
+        "choices": [
+          {
+            "ko": "콜! 나도 찾아볼게ㅎㅎ 기대된다",
+            "en": "Deal! I'll look too haha can't wait.",
+            "correct": true,
+            "feedback": "Enthusiastic agreement (콜) plus pitching in — perfect way to wrap a planning text."
+          },
+          {
+            "ko": "알겠습니다. 검토 후 회신 바랍니다.",
+            "en": "Understood. Please reply after reviewing.",
+            "correct": false,
+            "feedback": "Sounds like a corporate memo — nobody texts a friend like this."
+          },
+          {
+            "ko": "후보가 뭔지 잘 모르겠어.",
+            "en": "I don't really know what 'options' means.",
+            "correct": false,
+            "feedback": "Feigns confusion at a clear word — stalls the chat for no reason."
+          }
+        ]
+      }
     ],
-    "vocab": ["여행", "완전", "떠나다", "일정", "주말", "후보", "콜", "기대되다"]
+    "vocab": [
+      "여행",
+      "완전",
+      "떠나다",
+      "일정",
+      "주말",
+      "후보",
+      "콜",
+      "기대되다"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-busan-or-jeju",
@@ -42,32 +144,134 @@
     "partner": "친구",
     "tip": "When deciding between two options, share a real preference with a reason and bounce the question back (넌?). Casual chat is a back-and-forth, not a one-way vote.",
     "turns": [
-      { "role": "partner", "ko": "근데 우리 부산 갈까 제주 갈까?", "en": "So should we go to Busan or Jeju?" },
-      { "role": "you", "prompt": "Give your lean and ask theirs", "choices": [
-        { "ko": "음 난 바다 보고 싶어서 제주 끌리는데, 넌?", "en": "Hmm I'm leaning Jeju 'cause I wanna see the ocean — you?", "correct": true, "feedback": "States a preference with a reason and tosses it back — keeps the decision collaborative." },
-        { "ko": "어느 곳을 선호하시는지 여쭤봐도 될까요?", "en": "May I ask which place you prefer?", "correct": false, "feedback": "Overly polite 존댓말 — sounds like a survey, not two friends deciding." },
-        { "ko": "부산 갈까 제주 갈까?", "en": "Should we go to Busan or Jeju?", "correct": false, "feedback": "Just echoes their question — adds nothing and dodges the decision." }
-      ] },
-      { "role": "partner", "ko": "오 제주 좋다! 근데 비행기값 비싸지 않나?", "en": "Oh Jeju sounds good! But isn't the flight pricey?" },
-      { "role": "you", "prompt": "Acknowledge the concern, stay flexible", "choices": [
-        { "ko": "그것도 그렇네ㅋㅋ 그럼 부산도 괜찮아. 난 둘 다 좋아", "en": "That's true too lol. Busan works for me then. I like both.", "correct": true, "feedback": "그것도 그렇네 accepts the budget concern, and 부산도 괜찮아 keeps the decision collaborative." },
-        { "ko": "비행기값에 대해서는 제가 관여하지 않겠습니다.", "en": "I won't get involved regarding the flight cost.", "correct": false, "feedback": "Cold and formal — sounds like dodging responsibility, not chatting with a friend." },
-        { "ko": "비행기 처음 타봐?", "en": "Is it your first time on a plane?", "correct": false, "feedback": "Off-topic and a little odd — ignores the actual point about cost." }
-      ] },
-      { "role": "partner", "ko": "흠 사실 난 부산 가서 회 먹고 싶긴 해", "en": "Hmm honestly I kinda wanna go to Busan and eat sashimi." },
-      { "role": "you", "prompt": "Get excited about the food angle", "choices": [
-        { "ko": "헐 회 좋지!! 그럼 부산으로 가자, 먹킷리스트 짜자ㅋㅋ", "en": "Whoa sashimi yes!! Let's do Busan then, let's make a food bucket listㅋㅋ", "correct": true, "feedback": "Big reaction (헐) and runs with their idea toward a concrete next step — super natural." },
-        { "ko": "회는 건강에 좋은 음식입니다.", "en": "Sashimi is a healthy food.", "correct": false, "feedback": "Random fact in textbook 존댓말 — kills the fun, friendly tone instantly." },
-        { "ko": "왜 갑자기 회 얘기를 하는 거야?", "en": "Why are you suddenly talking about sashimi?", "correct": false, "feedback": "Sounds annoyed at a normal suggestion — discourages your friend from sharing." }
-      ] },
-      { "role": "partner", "ko": "콜콜 부산 가자!! 광안리에서 회에 소주 어때", "en": "Deal deal, let's do Busan!! Sashimi and soju at Gwangalli, how about it?" },
-      { "role": "you", "prompt": "Lock it in and hype the plan", "choices": [
-        { "ko": "캬 그거지ㅋㅋ 벌써 설렌다 빨리 가자", "en": "Ahh that's the oneㅋㅋ I'm already excited, let's go soon.", "correct": true, "feedback": "Playful interjection (캬) and shared excitement — a perfect upbeat closer." },
-        { "ko": "광안리 방문을 긍정적으로 검토하겠습니다.", "en": "I will positively consider visiting Gwangalli.", "correct": false, "feedback": "Bureaucratic 존댓말 — completely wrong register for hyping a trip with a friend." },
-        { "ko": "소주 말고 다른 건 없어?", "en": "Is there nothing besides soju?", "correct": false, "feedback": "Nitpicks a casual suggestion — dampens the excitement they just shared." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "근데 우리 부산 갈까 제주 갈까?",
+        "en": "So should we go to Busan or Jeju?"
+      },
+      {
+        "role": "you",
+        "prompt": "Give your lean and ask theirs",
+        "choices": [
+          {
+            "ko": "음 난 바다 보고 싶어서 제주 끌리는데, 넌?",
+            "en": "Hmm I'm leaning Jeju 'cause I wanna see the ocean — you?",
+            "correct": true,
+            "feedback": "States a preference with a reason and tosses it back — keeps the decision collaborative."
+          },
+          {
+            "ko": "어느 곳을 선호하시는지 여쭤봐도 될까요?",
+            "en": "May I ask which place you prefer?",
+            "correct": false,
+            "feedback": "Overly polite 존댓말 — sounds like a survey, not two friends deciding."
+          },
+          {
+            "ko": "부산 갈까 제주 갈까?",
+            "en": "Should we go to Busan or Jeju?",
+            "correct": false,
+            "feedback": "Just echoes their question — adds nothing and dodges the decision."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 제주 좋다! 근데 비행기값 비싸지 않나?",
+        "en": "Oh Jeju sounds good! But isn't the flight pricey?"
+      },
+      {
+        "role": "you",
+        "prompt": "Acknowledge the concern, stay flexible",
+        "choices": [
+          {
+            "ko": "그것도 그렇네ㅋㅋ 그럼 부산도 괜찮아. 난 둘 다 좋아",
+            "en": "That's true too lol. Busan works for me then. I like both.",
+            "correct": true,
+            "feedback": "그것도 그렇네 accepts the budget concern, and 부산도 괜찮아 keeps the decision collaborative."
+          },
+          {
+            "ko": "비행기값에 대해서는 제가 관여하지 않겠습니다.",
+            "en": "I won't get involved regarding the flight cost.",
+            "correct": false,
+            "feedback": "Cold and formal — sounds like dodging responsibility, not chatting with a friend."
+          },
+          {
+            "ko": "비행기 처음 타봐?",
+            "en": "Is it your first time on a plane?",
+            "correct": false,
+            "feedback": "Off-topic and a little odd — ignores the actual point about cost."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "흠 사실 난 부산 가서 회 먹고 싶긴 해",
+        "en": "Hmm honestly I kinda wanna go to Busan and eat sashimi."
+      },
+      {
+        "role": "you",
+        "prompt": "Get excited about the food angle",
+        "choices": [
+          {
+            "ko": "헐 회 좋지!! 그럼 부산으로 가자, 먹킷리스트 짜자ㅋㅋ",
+            "en": "Whoa sashimi yes!! Let's do Busan then, let's make a food bucket listㅋㅋ",
+            "correct": true,
+            "feedback": "Big reaction (헐) and runs with their idea toward a concrete next step — super natural."
+          },
+          {
+            "ko": "회는 건강에 좋은 음식입니다.",
+            "en": "Sashimi is a healthy food.",
+            "correct": false,
+            "feedback": "Random fact in textbook 존댓말 — kills the fun, friendly tone instantly."
+          },
+          {
+            "ko": "왜 갑자기 회 얘기를 하는 거야?",
+            "en": "Why are you suddenly talking about sashimi?",
+            "correct": false,
+            "feedback": "Sounds annoyed at a normal suggestion — discourages your friend from sharing."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "콜콜 부산 가자!! 광안리에서 회에 소주 어때",
+        "en": "Deal deal, let's do Busan!! Sashimi and soju at Gwangalli, how about it?"
+      },
+      {
+        "role": "you",
+        "prompt": "Lock it in and hype the plan",
+        "choices": [
+          {
+            "ko": "캬 그거지ㅋㅋ 벌써 설렌다 빨리 가자",
+            "en": "Ahh that's the oneㅋㅋ I'm already excited, let's go soon.",
+            "correct": true,
+            "feedback": "Playful interjection (캬) and shared excitement — a perfect upbeat closer."
+          },
+          {
+            "ko": "광안리 방문을 긍정적으로 검토하겠습니다.",
+            "en": "I will positively consider visiting Gwangalli.",
+            "correct": false,
+            "feedback": "Bureaucratic 존댓말 — completely wrong register for hyping a trip with a friend."
+          },
+          {
+            "ko": "소주 말고 다른 건 없어?",
+            "en": "Is there nothing besides soju?",
+            "correct": false,
+            "feedback": "Nitpicks a casual suggestion — dampens the excitement they just shared."
+          }
+        ]
+      }
     ],
-    "vocab": ["바다", "끌리다", "비행기값", "회", "먹킷리스트", "광안리", "소주", "설레다"]
+    "vocab": [
+      "바다",
+      "끌리다",
+      "비행기값",
+      "회",
+      "먹킷리스트",
+      "광안리",
+      "소주",
+      "설레다"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-booking-and-itinerary",
@@ -77,31 +281,133 @@
     "partner": "친구",
     "tip": "When working out logistics, give a clear opinion but offer to share the load (내가 ~할게). Friends split tasks and check in with each other rather than just demanding.",
     "turns": [
-      { "role": "partner", "ko": "숙소는 어디로 잡지? 호텔 아니면 에어비앤비?", "en": "Where should we book to stay? Hotel or Airbnb?" },
-      { "role": "you", "prompt": "Give a clear pick with a reason", "choices": [
-        { "ko": "난 에어비앤비! 우리끼리 편하게 놀 수 있잖아", "en": "I say Airbnb! We can just chill comfortably on our own.", "correct": true, "feedback": "Clear preference with a quick reason — decisive and friendly, moves planning along." },
-        { "ko": "숙소 선정은 귀하의 결정에 따르겠습니다.", "en": "I shall defer to your decision on the accommodation.", "correct": false, "feedback": "Absurdly formal 존댓말 — sounds like a contract, not two friends planning a trip." },
-        { "ko": "호텔이랑 에어비앤비 중에 뭐가 좋아?", "en": "Which is better, a hotel or an Airbnb?", "correct": false, "feedback": "Bounces the same question back without committing — stalls the decision." }
-      ] },
-      { "role": "partner", "ko": "오 좋아 에어비앤비 콜! 그럼 내가 찾아볼까?", "en": "Oh nice, Airbnb it is! Should I look one up then?" },
-      { "role": "you", "prompt": "Split the work with them", "choices": [
-        { "ko": "오키 그럼 숙소는 네가, 맛집은 내가 찾을게!", "en": "Okay then you take the stay, I'll find the restaurants!", "correct": true, "feedback": "Divides the tasks (네가 / 내가) — exactly how friends share the load casually." },
-        { "ko": "그 업무는 귀하께 일임하겠습니다.", "en": "I shall entrust that task to you.", "correct": false, "feedback": "Stiff, work-style 존댓말 — way too formal for divvying up trip chores." },
-        { "ko": "숙소를 왜 네가 찾아?", "en": "Why are YOU looking for the place?", "correct": false, "feedback": "Sounds suspicious of a kind offer — discourages your friend from helping." }
-      ] },
-      { "role": "partner", "ko": "굿굿ㅋㅋ 근데 우리 1박 2일이야 2박 3일이야?", "en": "Good good lol, but are we doing one night and two days or two nights and three days?" },
-      { "role": "you", "prompt": "Suggest longer and check with them", "choices": [
-        { "ko": "이왕 가는 거 2박 3일 어때? 1박 2일은 너무 짧잖아", "en": "Since we're going anyway, how about two nights and three days? One night and two days is too short.", "correct": true, "feedback": "Offers a specific longer plan, then gives a clear reason and checks with 어때." },
-        { "ko": "여행 기간은 추후 공지하도록 하겠습니다.", "en": "The trip duration will be announced at a later date.", "correct": false, "feedback": "Reads like an official notice — totally out of place between friends." },
-        { "ko": "1박이 며칠이야?", "en": "How many days is one night?", "correct": false, "feedback": "Confuses a basic term — derails the chat and sounds clueless." }
-      ] },
-      { "role": "partner", "ko": "오케이 2박 3일 좋아! 첫날부터 빡세게 놀자ㅋㅋ", "en": "Okay two nights, love it! Let's party hard from day oneㅋㅋ" },
-      { "role": "you", "prompt": "Match the energy and wrap up", "choices": [
-        { "ko": "ㅋㅋㅋ 좋아, 맛집 리스트 짜서 공유할게! 완전 기대된다", "en": "Lol, nice. I'll make a restaurant list and share it! I'm so excited.", "correct": true, "feedback": "This keeps the earlier task split, confirms the next step, and ends with matching excitement." },
-        { "ko": "일정표 작성 완료 시 송부해 드리겠습니다.", "en": "I will dispatch the itinerary upon completion.", "correct": false, "feedback": "Sounds like a memo to a client — wrong register for texting a friend." },
-        { "ko": "빡세게 노는 게 뭔데?", "en": "What does partying hard even mean?", "correct": false, "feedback": "Questions an obvious phrase — flattens the hyped mood instead of matching it." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "숙소는 어디로 잡지? 호텔 아니면 에어비앤비?",
+        "en": "Where should we book to stay? Hotel or Airbnb?"
+      },
+      {
+        "role": "you",
+        "prompt": "Give a clear pick with a reason",
+        "choices": [
+          {
+            "ko": "난 에어비앤비! 우리끼리 편하게 놀 수 있잖아",
+            "en": "I say Airbnb! We can just chill comfortably on our own.",
+            "correct": true,
+            "feedback": "Clear preference with a quick reason — decisive and friendly, moves planning along."
+          },
+          {
+            "ko": "숙소 선정은 귀하의 결정에 따르겠습니다.",
+            "en": "I shall defer to your decision on the accommodation.",
+            "correct": false,
+            "feedback": "Absurdly formal 존댓말 — sounds like a contract, not two friends planning a trip."
+          },
+          {
+            "ko": "호텔이랑 에어비앤비 중에 뭐가 좋아?",
+            "en": "Which is better, a hotel or an Airbnb?",
+            "correct": false,
+            "feedback": "Bounces the same question back without committing — stalls the decision."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 좋아 에어비앤비 콜! 그럼 내가 찾아볼까?",
+        "en": "Oh nice, Airbnb it is! Should I look one up then?"
+      },
+      {
+        "role": "you",
+        "prompt": "Split the work with them",
+        "choices": [
+          {
+            "ko": "오키 그럼 숙소는 네가, 맛집은 내가 찾을게!",
+            "en": "Okay then you take the stay, I'll find the restaurants!",
+            "correct": true,
+            "feedback": "Divides the tasks (네가 / 내가) — exactly how friends share the load casually."
+          },
+          {
+            "ko": "그 업무는 귀하께 일임하겠습니다.",
+            "en": "I shall entrust that task to you.",
+            "correct": false,
+            "feedback": "Stiff, work-style 존댓말 — way too formal for divvying up trip chores."
+          },
+          {
+            "ko": "숙소를 왜 네가 찾아?",
+            "en": "Why are YOU looking for the place?",
+            "correct": false,
+            "feedback": "Sounds suspicious of a kind offer — discourages your friend from helping."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "굿굿ㅋㅋ 근데 우리 1박 2일이야 2박 3일이야?",
+        "en": "Good good lol, but are we doing one night and two days or two nights and three days?"
+      },
+      {
+        "role": "you",
+        "prompt": "Suggest longer and check with them",
+        "choices": [
+          {
+            "ko": "이왕 가는 거 2박 3일 어때? 1박 2일은 너무 짧잖아",
+            "en": "Since we're going anyway, how about two nights and three days? One night and two days is too short.",
+            "correct": true,
+            "feedback": "Offers a specific longer plan, then gives a clear reason and checks with 어때."
+          },
+          {
+            "ko": "여행 기간은 추후 공지하도록 하겠습니다.",
+            "en": "The trip duration will be announced at a later date.",
+            "correct": false,
+            "feedback": "Reads like an official notice — totally out of place between friends."
+          },
+          {
+            "ko": "1박이 며칠이야?",
+            "en": "How many days is one night?",
+            "correct": false,
+            "feedback": "Confuses a basic term — derails the chat and sounds clueless."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오케이 2박 3일 좋아! 첫날부터 빡세게 놀자ㅋㅋ",
+        "en": "Okay two nights, love it! Let's party hard from day oneㅋㅋ"
+      },
+      {
+        "role": "you",
+        "prompt": "Match the energy and wrap up",
+        "choices": [
+          {
+            "ko": "ㅋㅋㅋ 좋아, 맛집 리스트 짜서 공유할게! 완전 기대된다",
+            "en": "Lol, nice. I'll make a restaurant list and share it! I'm so excited.",
+            "correct": true,
+            "feedback": "This keeps the earlier task split, confirms the next step, and ends with matching excitement."
+          },
+          {
+            "ko": "일정표 작성 완료 시 송부해 드리겠습니다.",
+            "en": "I will dispatch the itinerary upon completion.",
+            "correct": false,
+            "feedback": "Sounds like a memo to a client — wrong register for texting a friend."
+          },
+          {
+            "ko": "빡세게 노는 게 뭔데?",
+            "en": "What does partying hard even mean?",
+            "correct": false,
+            "feedback": "Questions an obvious phrase — flattens the hyped mood instead of matching it."
+          }
+        ]
+      }
     ],
-    "vocab": ["숙소", "에어비앤비", "맛집", "1박 2일", "2박 3일", "이왕", "빡세게", "공유하다"]
+    "vocab": [
+      "숙소",
+      "에어비앤비",
+      "맛집",
+      "1박 2일",
+      "2박 3일",
+      "이왕",
+      "빡세게",
+      "공유하다"
+    ],
+    "register": "banmal"
   }
 ]

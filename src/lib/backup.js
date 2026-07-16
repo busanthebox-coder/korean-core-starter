@@ -20,6 +20,7 @@ export const BACKUP_KEYS = [
   'kcs.roman-nudge-v1',
   'kcs.onboarded-v1',
   'kcs.start-chapter-v1',
+  'kcs.roleplay-register-v1',
   'kcs.learn-open-v1',
   'kcs.checkpoint-v1',
   'kcs.readers-v1',
@@ -39,6 +40,7 @@ const SCALAR_KEYS = new Set([
   'kcs.roman-nudge-v1',
   'kcs.onboarded-v1',
   'kcs.start-chapter-v1',
+  'kcs.roleplay-register-v1',
 ]);
 const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
 

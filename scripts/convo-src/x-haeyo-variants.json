@@ -1,0 +1,2044 @@
+[
+  {
+    "id": "convo-weather-small-talk-haeyo",
+    "title": "Weather and small talk (polite)",
+    "situation": "You're hanging out with your language exchange partner and start chatting about how nice the weather's been.",
+    "setting": "hangout",
+    "partner": "언어교환 파트너",
+    "tip": "Weather is the easiest opener with someone you don't know well yet. Agree (그러니까요/맞아요), add one small opinion, then pivot to a plan — that's how 해요체 small talk turns into actually hanging out.",
+    "register": "haeyo",
+    "pairId": "convo-weather-small-talk",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "와 오늘 날씨 진짜 좋네요 완전 봄이에요",
+        "en": "Wow the weather today is really nice, totally spring"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and add how you feel about it",
+        "choices": [
+          {
+            "ko": "그러니까요ㅋㅋ 이런 날엔 어디 나가고 싶어요",
+            "en": "Right lol on days like this I just wanna go somewhere",
+            "correct": true,
+            "feedback": "그러니까요 agrees, then a small opinion opens the door to a plan. ㅋㅋ keeps 해요체 from sounding stiff."
+          },
+          {
+            "ko": "금일 기온은 평년보다 높은 편입니다.",
+            "en": "Today's temperature is above the seasonal average.",
+            "correct": false,
+            "feedback": "This is weather-report language. 해요체 with a partner is friendly, not 합니다체."
+          },
+          {
+            "ko": "네, 날씨 좋네요.",
+            "en": "Yes, nice weather.",
+            "correct": false,
+            "feedback": "Polite but flat — you agree and add nothing, so the small talk dies right there."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 그쵸 요즘 집에만 있기 너무 아까워요",
+        "en": "Lol right, it feels like such a waste to just stay home these days"
+      },
+      {
+        "role": "you",
+        "prompt": "Strongly agree and relate it to yourself",
+        "choices": [
+          {
+            "ko": "헐 인정이요ㅋㅋ 저도 주말 내내 집에만 있었어요",
+            "en": "Ugh facts lol I stayed home all weekend too",
+            "correct": true,
+            "feedback": "헐 인정 is natural agreement even in 해요체, and sharing your own weekend makes it mutual instead of one-sided."
+          },
+          {
+            "ko": "외출을 줄이면 건강 관리에 도움이 됩니다.",
+            "en": "Cutting down on going out helps with health management.",
+            "correct": false,
+            "feedback": "Reads like a public notice — it neither agrees nor shares anything about you."
+          },
+          {
+            "ko": "집에만 있는 거 좋아해요?",
+            "en": "Do you like staying home?",
+            "correct": false,
+            "feedback": "Slightly contrary and turns the spotlight on them — it breaks the agreeing flow you just had."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 우리 둘 다 집에만 있었네요 진짜",
+        "en": "Lol we've both been staying home this whole time"
+      },
+      {
+        "role": "you",
+        "prompt": "Laugh it off and suggest going out somewhere",
+        "choices": [
+          {
+            "ko": "ㅋㅋㅋ 맞아요 근데 오늘은 나가요! 한강 갈래요?",
+            "en": "Lol true, but let's go out today! wanna hit the Han River?",
+            "correct": true,
+            "feedback": "Agree with a laugh, then pitch something concrete (한강 갈래요?) — that's how small talk becomes a real plan."
+          },
+          {
+            "ko": "야외 활동을 적극 권장하는 바입니다.",
+            "en": "I strongly recommend outdoor activities.",
+            "correct": false,
+            "feedback": "Brochure language. You're not advising a stranger, you're inviting someone out."
+          },
+          {
+            "ko": "그러게 오늘은 나가자.",
+            "en": "Right, let's go out today.",
+            "correct": false,
+            "feedback": "The idea is right but it drops into 반말 — you two are on 해요체 terms, so it lands as too familiar too fast."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 한강 좋아요!! 가서 치맥 해요 ㅋㅋ",
+        "en": "Oh the Han River sounds great!! let's get chicken and beer there lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Get hyped and say let's head out now",
+        "choices": [
+          {
+            "ko": "오 완전 좋아요ㅋㅋ 날씨도 좋은데 지금 바로 가요!",
+            "en": "Oh totally down lol the weather's nice so let's go right now!",
+            "correct": true,
+            "feedback": "완전 좋아요 + 지금 바로 가요 locks the plan with real energy — 해요체 can be just as excited as 반말."
+          },
+          {
+            "ko": "치킨과 맥주 섭취 후 귀가 시간을 정하시지요.",
+            "en": "Let us set a return time after consuming chicken and beer.",
+            "correct": false,
+            "feedback": "Over-formal and weirdly logistical — it sucks the fun out of an easy yes."
+          },
+          {
+            "ko": "오늘 날씨 진짜 좋죠?",
+            "en": "The weather's really nice today, isn't it?",
+            "correct": false,
+            "feedback": "Loops back to the opening weather line instead of answering the invitation."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "날씨",
+      "봄",
+      "아깝다",
+      "인정",
+      "한강",
+      "치맥",
+      "나가다"
+    ]
+  },
+  {
+    "id": "convo-coffee-catch-up-haeyo",
+    "title": "Inviting a new friend for coffee (polite)",
+    "situation": "You met someone at a meetup a while back and text them to grab coffee this weekend.",
+    "setting": "texting",
+    "partner": "새로 알게 된 친구",
+    "tip": "With someone you've only met once or twice, a soft 우리 ~할까요? is the perfect invite. React first, then ask one follow-up each turn so the details get settled without either of you feeling pushy.",
+    "register": "haeyo",
+    "pairId": "convo-coffee-catch-up",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "안녕하세요! 저번에 보고 진짜 오랜만이에요ㅋㅋ",
+        "en": "Hi! it's been ages since we met last time lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree it's been a while and suggest meeting for coffee soon.",
+        "choices": [
+          {
+            "ko": "그러니까요ㅎㅎ 우리 조만간 커피 한잔할까요?",
+            "en": "I know right haha, should we grab coffee sometime soon?",
+            "correct": true,
+            "feedback": "Matches their energy, and 커피 한잔할까요? is the natural soft invite — low pressure, easy to say yes to."
+          },
+          {
+            "ko": "오랜만에 차 한잔 대접하고 싶습니다.",
+            "en": "I'd like to treat you to tea after so long.",
+            "correct": false,
+            "feedback": "대접하고 싶습니다 is old-fashioned and formal — it sounds like hosting a client, not texting a new friend."
+          },
+          {
+            "ko": "네, 오랜만이에요.",
+            "en": "Yes, it's been a while.",
+            "correct": false,
+            "feedback": "Polite but it stops there — no invite, so the thread just fizzles out."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "완전 좋아요! 언제 볼까요?",
+        "en": "Totally down! when should we meet?"
+      },
+      {
+        "role": "you",
+        "prompt": "Propose Saturday afternoon and check if it works for them.",
+        "choices": [
+          {
+            "ko": "토요일 오후 어때요? 시간 괜찮아요?",
+            "en": "How about Saturday afternoon? are you free?",
+            "correct": true,
+            "feedback": "A concrete time plus 시간 괜찮아요? keeps the decision shared instead of dictating it."
+          },
+          {
+            "ko": "귀하의 일정을 확인 부탁드립니다.",
+            "en": "Please confirm your schedule.",
+            "correct": false,
+            "feedback": "귀하 is business-letter language — nobody texts a friend like this, however new."
+          },
+          {
+            "ko": "저는 커피 좋아해요.",
+            "en": "I like coffee.",
+            "correct": false,
+            "feedback": "Doesn't answer when to meet — it drifts away from the actual question."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "토요일 좋아요 근데 어디서 볼까요?",
+        "en": "Saturday works, but where should we meet?"
+      },
+      {
+        "role": "you",
+        "prompt": "Suggest a cafe near them and offer to send the location.",
+        "choices": [
+          {
+            "ko": "그럼 사시는 동네 근처 카페 어때요? 위치 보낼게요",
+            "en": "Then how about a cafe near where you live? I'll send the spot",
+            "correct": true,
+            "feedback": "Picking a place that's easy for them + 위치 보낼게요 is exactly how you wrap up details in a friendly way."
+          },
+          {
+            "ko": "장소 선정 후 별도 안내드리겠습니다.",
+            "en": "I'll inform you separately once a venue is selected.",
+            "correct": false,
+            "feedback": "별도 안내드리겠습니다 sounds like an event organizer's email, not a coffee plan."
+          },
+          {
+            "ko": "토요일 오후에 볼까요?",
+            "en": "Shall we meet Saturday afternoon?",
+            "correct": false,
+            "feedback": "You already settled Saturday — repeating it stalls the plan instead of answering 어디서."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오키 그럼 토요일에 봐요!",
+        "en": "Okay, see you Saturday then!"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you're looking forward to it.",
+        "choices": [
+          {
+            "ko": "좋아요 완전 기대돼요 그때 봐요!",
+            "en": "Nice, really looking forward to it, see you then!",
+            "correct": true,
+            "feedback": "기대돼요 adds warmth and 그때 봐요 closes cleanly — friendly 해요체 without going stiff."
+          },
+          {
+            "ko": "그럼 그때 뵙겠습니다.",
+            "en": "I shall see you then.",
+            "correct": false,
+            "feedback": "뵙겠습니다 is honorific — you'd say it to a boss, not to someone you're getting coffee with."
+          },
+          {
+            "ko": "커피 한잔할까요?",
+            "en": "Shall we grab coffee?",
+            "correct": false,
+            "feedback": "The plan is already set — re-inviting loops the conversation back awkwardly."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "오랜만",
+      "조만간",
+      "커피 한잔",
+      "위치",
+      "기대되다"
+    ]
+  },
+  {
+    "id": "convo-what-for-lunch-haeyo",
+    "title": "Figuring out lunch with a coworker (polite)",
+    "situation": "It's lunchtime and a coworker you're friendly with asks what you two should eat.",
+    "setting": "hangout",
+    "partner": "회사 동료",
+    "tip": "\"아무거나 괜찮아요\" feels polite but it stalls the decision. With a coworker, give a soft preference plus one real suggestion so they aren't stuck choosing alone.",
+    "register": "haeyo",
+    "pairId": "convo-what-for-lunch",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "벌써 점심시간이네요ㅋㅋ 오늘 뭐 먹을까요?",
+        "en": "It's already lunchtime lol what should we eat today?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you're starving and ask if they have anything in mind.",
+        "choices": [
+          {
+            "ko": "헐 저 완전 배고파요ㅠㅠ 드시고 싶은 거 있어요?",
+            "en": "Ugh I'm starving :( is there anything you feel like?",
+            "correct": true,
+            "feedback": "Reacts with energy, and 드시고 싶은 거 있어요? invites their idea instead of dead-ending the decision."
+          },
+          {
+            "ko": "저는 매우 배가 고픕니다.",
+            "en": "I am very hungry.",
+            "correct": false,
+            "feedback": "고픕니다 is 합니다체 — far too formal for deciding lunch with a coworker you eat with regularly."
+          },
+          {
+            "ko": "아무거나 괜찮아요.",
+            "en": "Anything's fine.",
+            "correct": false,
+            "feedback": "Sounds easygoing but it dumps the whole decision on them and the conversation goes nowhere."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "음… 어제 치킨 먹어서 좀 느끼해요",
+        "en": "Hmm… I had chicken yesterday so I'm kinda sick of greasy stuff"
+      },
+      {
+        "role": "you",
+        "prompt": "Empathize and suggest something light like kalguksu.",
+        "choices": [
+          {
+            "ko": "아 그쵸ㅋㅋ 그럼 칼국수 같은 거 어때요?",
+            "en": "Ah right lol then how about something like kalguksu?",
+            "correct": true,
+            "feedback": "그쵸 shows you get it, and a concrete suggestion (칼국수) actually moves the decision forward."
+          },
+          {
+            "ko": "느끼한 음식은 건강에 해롭습니다.",
+            "en": "Greasy food is harmful to your health.",
+            "correct": false,
+            "feedback": "Lecture-y and formal — they shared a preference, not a health question."
+          },
+          {
+            "ko": "그럼 오늘도 치킨 먹어요!",
+            "en": "Then let's have chicken again today!",
+            "correct": false,
+            "feedback": "They just said they're sick of greasy food — this ignores what they told you."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 칼국수 좋아요! 근데 거기 항상 줄 길지 않아요?",
+        "en": "Oh kalguksu sounds good! but isn't there always a line there?"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree it gets busy and suggest going a bit early.",
+        "choices": [
+          {
+            "ko": "맞아요 점심엔 웨이팅 길죠ㅋㅋ 좀 일찍 갈까요?",
+            "en": "Yeah the wait's long at lunch lol shall we go a bit early?",
+            "correct": true,
+            "feedback": "맞아요 confirms their worry, then 좀 일찍 갈까요? solves it together — agreeing plus fixing is the whole move here."
+          },
+          {
+            "ko": "그곳은 항상 사람이 많습니다.",
+            "en": "That place is always crowded.",
+            "correct": false,
+            "feedback": "Just restates their point in stiff 합니다체 and offers no way around the line."
+          },
+          {
+            "ko": "그럼 우리 좀 일찍 가자.",
+            "en": "Then let's go a bit early.",
+            "correct": false,
+            "feedback": "Good idea, wrong register — 가자 is 반말, and with a coworker you're on 해요체 terms with it lands too familiar."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "콜! 그럼 지금 나갈까요?",
+        "en": "Deal! shall we head out now?"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and say let's go.",
+        "choices": [
+          {
+            "ko": "좋아요 가요 가요!",
+            "en": "Sounds good, let's go let's go!",
+            "correct": true,
+            "feedback": "가요 is the 해요체 'let's go,' and doubling it adds a friendly little push of energy."
+          },
+          {
+            "ko": "네, 지금 출발하겠습니다.",
+            "en": "Yes, I will depart now.",
+            "correct": false,
+            "feedback": "출발하겠습니다 sounds like an announcement to a superior — just say 가요."
+          },
+          {
+            "ko": "잠깐만요, 저 아직 배 안 고픈데요.",
+            "en": "Hold on, I'm not actually hungry yet.",
+            "correct": false,
+            "feedback": "Contradicts what you said at the start and stalls the plan right at the finish line."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "점심시간",
+      "느끼하다",
+      "칼국수",
+      "웨이팅",
+      "일찍",
+      "배고프다"
+    ]
+  },
+  {
+    "id": "convo-cafe-dessert-haeyo",
+    "title": "Picking a dessert with a new friend (polite)",
+    "situation": "You and a friend you recently met are at a cafe staring at the dessert case, trying to decide.",
+    "setting": "hangout",
+    "partner": "새로 알게 된 친구",
+    "tip": "In person, fillers (음…, 그러게요) and quick agreement tokens (그쵸) buy you time and show you're listening. Pair one with a suggestion so the decision actually moves.",
+    "register": "haeyo",
+    "pairId": "convo-cafe-dessert",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "와 여기 디저트 다 맛있어 보여요… 뭐 먹을까요?",
+        "en": "Wow everything here looks good… what should we get?"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree it all looks good and ask what they're craving.",
+        "choices": [
+          {
+            "ko": "그러게요ㅋㅋ 뭐 드시고 싶어요?",
+            "en": "Right lol what are you feeling?",
+            "correct": true,
+            "feedback": "그러게요 agrees naturally, and 뭐 드시고 싶어요? throws the choice back so you decide together."
+          },
+          {
+            "ko": "전부 다 맛있어 보입니다.",
+            "en": "Everything looks delicious.",
+            "correct": false,
+            "feedback": "보입니다 is 합니다체 — too formal facing a cake display with a friend."
+          },
+          {
+            "ko": "여기 디저트 다 맛있어 보여요?",
+            "en": "Does all the dessert here look good?",
+            "correct": false,
+            "feedback": "Just echoes what they said as a question — it adds nothing and asks them to repeat themselves."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "저는 치즈케이크? 근데 요즘 약과 쿠키도 핫하잖아요",
+        "en": "Cheesecake for me? but yakgwa cookies are trendy these days too"
+      },
+      {
+        "role": "you",
+        "prompt": "Suggest splitting both so you don't have to choose.",
+        "choices": [
+          {
+            "ko": "오 그럼 둘 다 시켜서 나눠 먹을까요?",
+            "en": "Oh then shall we get both and share?",
+            "correct": true,
+            "feedback": "Solves the indecision, and 나눠 먹을까요? includes them — a classic friendly cafe move."
+          },
+          {
+            "ko": "약과는 한국 전통 과자입니다.",
+            "en": "Yakgwa is a traditional Korean sweet.",
+            "correct": false,
+            "feedback": "A random fact dump that ignores the actual choice the two of you are making."
+          },
+          {
+            "ko": "마음대로 하세요.",
+            "en": "Do as you please.",
+            "correct": false,
+            "feedback": "Polite on paper but cold — it sounds like you don't want to decide with them."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 좋아요! 음료는 뭐 마실래요?",
+        "en": "Oh nice! what do you want to drink?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say iced americano and ask what they're getting.",
+        "choices": [
+          {
+            "ko": "저는 아아요! 어떤 거 마실 거예요?",
+            "en": "Iced americano for me! what are you getting?",
+            "correct": true,
+            "feedback": "아아 (iced americano) is everyday slang and works fine in 해요체, and the question back keeps it bouncing."
+          },
+          {
+            "ko": "저는 아이스 아메리카노로 하겠습니다.",
+            "en": "I will have an iced americano.",
+            "correct": false,
+            "feedback": "This is what you say to the barista — with a friend it's just 저는 아아요!"
+          },
+          {
+            "ko": "커피는 몸에 안 좋아요.",
+            "en": "Coffee is bad for you.",
+            "correct": false,
+            "feedback": "Turns a fun choice into a lecture and dodges their question."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "저는 라떼요! 자리 잡고 있어요, 제가 주문할게요",
+        "en": "Latte for me! grab us a seat, I'll order"
+      },
+      {
+        "role": "you",
+        "prompt": "Offer to pay this round instead.",
+        "choices": [
+          {
+            "ko": "오키! 근데 이번엔 제가 살게요ㅋㅋ",
+            "en": "Okay! but this round's on me lol",
+            "correct": true,
+            "feedback": "제가 살게요 is warm and natural, and offering back keeps the give-and-take going with someone new."
+          },
+          {
+            "ko": "제가 계산하도록 하겠습니다.",
+            "en": "I shall take care of the payment.",
+            "correct": false,
+            "feedback": "하도록 하겠습니다 reads like staff at a counter — friends say 제가 살게요."
+          },
+          {
+            "ko": "네, 빨리 오세요.",
+            "en": "Yes, come back quickly.",
+            "correct": false,
+            "feedback": "A bit bossy and flat when they just offered to go order for you."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "디저트",
+      "약과",
+      "나눠 먹다",
+      "아아",
+      "자리 잡다",
+      "제가 살게요"
+    ]
+  },
+  {
+    "id": "convo-which-top-is-better-haeyo",
+    "title": "Which top looks better (polite)",
+    "situation": "You're out shopping with an acquaintance and they hold up two tops and ask you to pick one.",
+    "setting": "hangout",
+    "partner": "같이 쇼핑 온 지인",
+    "tip": "When someone asks you to choose between two things, don't hedge with 둘 다 좋아요 — react (오/음), pick a side, and give a quick reason. A clear opinion with a why is what they actually want, even in 해요체.",
+    "register": "haeyo",
+    "pairId": "convo-which-top-is-better",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "이거 둘 중에 뭐가 나아요?? 한번 봐 주세요ㅋㅋ",
+        "en": "Which of these two is better?? take a look lol"
+      },
+      {
+        "role": "you",
+        "prompt": "React and ask what the occasion is before choosing.",
+        "choices": [
+          {
+            "ko": "오 둘 다 예쁜데요ㅋㅋ 어디 입고 가실 거예요?",
+            "en": "Oh they're both cute lol where are you gonna wear it?",
+            "correct": true,
+            "feedback": "오 reacts, and 어디 입고 가실 거예요? gets the context you need to actually help — it keeps the chat rolling too."
+          },
+          {
+            "ko": "둘 다 잘 어울리십니다.",
+            "en": "Both suit you well.",
+            "correct": false,
+            "feedback": "어울리십니다 is 합니다체 — way too formal standing next to them in a shop. Try 둘 다 예쁜데요."
+          },
+          {
+            "ko": "옷 또 사요? 옷장 터지겠어요.",
+            "en": "Buying clothes again? your closet's gonna explode.",
+            "correct": false,
+            "feedback": "Teasing like this only works with a close friend — with an acquaintance it just reads as nagging."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "주말에 소개팅이요ㅋㅋㅋ 첫인상 중요하잖아요",
+        "en": "A blind date this weekend lol first impressions matter you know"
+      },
+      {
+        "role": "you",
+        "prompt": "Pick the white one and give a quick reason.",
+        "choices": [
+          {
+            "ko": "헐 소개팅이요?? 그럼 무조건 흰색이요! 깔끔해 보여요",
+            "en": "Whoa a blind date?? then definitely the white one! it looks clean",
+            "correct": true,
+            "feedback": "Reacts to the news, then commits to a pick with a reason (깔끔해 보여요) — exactly the help they asked for."
+          },
+          {
+            "ko": "흰색 상의가 더 단정해 보입니다.",
+            "en": "The white top looks more tidy.",
+            "correct": false,
+            "feedback": "Textbook-stiff. The opinion is fine but 합니다체 makes it sound like a product review."
+          },
+          {
+            "ko": "둘 중에 뭐가 나은지 모르겠어요.",
+            "en": "I can't tell which one's better.",
+            "correct": false,
+            "feedback": "Dodges the question — they asked you to choose, so pick one and say why."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 그쵸? 근데 흰색은 음식 흘리면 티 나잖아요ㅠ",
+        "en": "Oh right? but white shows stains if I spill food ㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree with the worry but hold your pick.",
+        "choices": [
+          {
+            "ko": "ㅋㅋㅋ 그건 그래요 근데 조심하면 되죠! 흰색이 훨 나아요",
+            "en": "Lol true, but just be careful! white's way better",
+            "correct": true,
+            "feedback": "그건 그래요 validates the worry, then you hold your pick — that back-and-forth is what lands the decision."
+          },
+          {
+            "ko": "흰 옷은 오염에 취약하므로 주의가 필요합니다.",
+            "en": "White clothes are prone to stains so caution is required.",
+            "correct": false,
+            "feedback": "Sounds like a care label, not someone helping them feel good about a choice."
+          },
+          {
+            "ko": "그럼 그냥 검은색 사세요.",
+            "en": "Then just buy the black one.",
+            "correct": false,
+            "feedback": "Flip-flops the moment they hesitate — wishy-washy when they wanted you to be sure."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅇㅋㅋㅋ 결정했어요 흰색 살게요! 고마워요",
+        "en": "Okok lol decided, I'll get the white one! thanks"
+      },
+      {
+        "role": "you",
+        "prompt": "Hype them up and ask to see it on later.",
+        "choices": [
+          {
+            "ko": "ㅋㅋ 잘 고르셨어요! 나중에 입은 사진 보내 주세요",
+            "en": "Lol good pick! send me a photo of you in it later",
+            "correct": true,
+            "feedback": "잘 고르셨어요 closes it warmly and asking for a photo keeps the thread alive for next time."
+          },
+          {
+            "ko": "탁월한 선택이십니다. 사진 부탁드립니다.",
+            "en": "An excellent choice. Please send a photo.",
+            "correct": false,
+            "feedback": "Reads like a shop clerk closing a sale — the 십니다 puts distance where you wanted warmth."
+          },
+          {
+            "ko": "소개팅 잘 안 되면 옷 탓이에요ㅋㅋ",
+            "en": "If the date flops it's the outfit's fault lol",
+            "correct": false,
+            "feedback": "The joke lands flat and adds pressure right when they finally felt good about the choice."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "둘 중에",
+      "소개팅",
+      "첫인상",
+      "깔끔하다",
+      "티 나다",
+      "고르다"
+    ]
+  },
+  {
+    "id": "convo-gift-for-friend-haeyo",
+    "title": "Help a coworker pick a gift",
+    "situation": "A coworker messages you for help choosing a birthday gift for someone on your team.",
+    "setting": "texting",
+    "partner": "회사 동료",
+    "tip": "With a coworker you're friendly with, keep 해요체 but stay warm. Ask about budget and taste first (예산 얼마 정도 생각해요? / 뭐에 빠져 있어요?) — narrowing it down is what makes the help useful.",
+    "register": "haeyo",
+    "pairId": "convo-gift-for-friend",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "다음 주가 지민 씨 생일인데 뭐 선물하죠? 좀 도와주세요ㅠ",
+        "en": "It's Jimin's birthday next week — what should I get? Help me out ㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Ask how much they're thinking of spending.",
+        "choices": [
+          {
+            "ko": "오 벌써 생일이네요ㅋㅋ 예산 얼마 정도 생각해요?",
+            "en": "Oh it's their birthday already lol — how much are you thinking of spending?",
+            "correct": true,
+            "feedback": "Reacts first (오 벌써), then 예산 얼마 정도 생각해요? narrows it down. Friendly 해요체 with ㅋㅋ keeps it from sounding like an interview."
+          },
+          {
+            "ko": "예산은 어느 정도로 책정하셨습니까?",
+            "en": "What budget have you allocated? (formal)",
+            "correct": false,
+            "feedback": "책정하셨습니까 is 합니다체 budget-meeting language. Same question, but 예산 얼마 정도 생각해요? is what a coworker actually says."
+          },
+          {
+            "ko": "선물은 마음이 중요한 거죠.",
+            "en": "It's the thought that counts with gifts.",
+            "correct": false,
+            "feedback": "Polite and grammatical, but it's a platitude — they asked for real ideas, so this gives them nothing to work with."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "한 5만 원 안쪽요? 너무 부담 주긴 싫어서요ㅋㅋ",
+        "en": "Under 50k or so? I don't want to make it too much lol"
+      },
+      {
+        "role": "you",
+        "prompt": "React to the budget, then ask what they're into before suggesting.",
+        "choices": [
+          {
+            "ko": "오케이 적당하네요ㅋㅋ 근데 그분 요즘 뭐에 빠져 있어요?",
+            "en": "Okay, that's reasonable lol — but what are they into these days?",
+            "correct": true,
+            "feedback": "Confirms the budget, then asks about taste. Gathering one more fact before recommending is what makes you sound genuinely helpful, not just polite."
+          },
+          {
+            "ko": "해당 금액은 적정하다고 사료됩니다.",
+            "en": "That amount is deemed appropriate. (formal)",
+            "correct": false,
+            "feedback": "사료됩니다 is written-report language. Even at work, spoken 해요체 would just be 적당하네요."
+          },
+          {
+            "ko": "5만 원으로 살 게 있나요?",
+            "en": "Is there anything you can even buy for 50k?",
+            "correct": false,
+            "feedback": "Grammatical, but it dismisses the budget they just set instead of working inside it — it makes them defend themselves rather than keep planning."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "요즘 향수에 진심이더라고요ㅋㅋ 인스타에 맨날 올려요",
+        "en": "They're really into perfume lately lol — they post it on Instagram all the time"
+      },
+      {
+        "role": "you",
+        "prompt": "Light up and suggest a diffuser or a mini perfume.",
+        "choices": [
+          {
+            "ko": "오 그럼 답 나왔네요ㅋㅋ 디퓨저나 미니 향수 어때요?",
+            "en": "Oh then we've got our answer lol — how about a diffuser or a mini perfume?",
+            "correct": true,
+            "feedback": "답 나왔네요 shows you picked up their hint, and two concrete options let them choose. Reaction plus suggestion is the pattern that moves a decision."
+          },
+          {
+            "ko": "향수 또는 디퓨저를 선물하시는 것을 추천드립니다.",
+            "en": "I recommend gifting a perfume or a diffuser. (formal)",
+            "correct": false,
+            "feedback": "추천드립니다 reads like a shopping site. Between coworkers it's 디퓨저나 향수 어때요?"
+          },
+          {
+            "ko": "향수는 취향 타서 고르기 어려워요.",
+            "en": "Perfume is hard to pick since it's a taste thing.",
+            "correct": false,
+            "feedback": "Polite 해요체 but it shuts down the lead they just handed you. If you raise a problem, pair it with an alternative."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 디퓨저 좋네요! 근데 어디서 사죠? 추천 좀요ㅋㅋ",
+        "en": "Oh a diffuser sounds good! But where do I buy one? Give me a rec lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Offer to send a link to a shop you like.",
+        "choices": [
+          {
+            "ko": "제가 자주 가는 데 있어요ㅋㅋ 링크 보내 드릴게요!",
+            "en": "There's a place I go to a lot lol — I'll send you the link!",
+            "correct": true,
+            "feedback": "보내 드릴게요 offers a concrete next step. Ending on an action you'll take is a warm way to close a favor between coworkers."
+          },
+          {
+            "ko": "제가 즐겨 이용하는 매장 링크를 전송해 드리겠습니다.",
+            "en": "I shall transmit a link to the store I frequent. (formal)",
+            "correct": false,
+            "feedback": "전송해 드리겠습니다 is 합니다체 and sounds automated. 링크 보내 드릴게요 says the same thing like a person."
+          },
+          {
+            "ko": "그냥 인터넷에 검색하면 다 나와요.",
+            "en": "It all comes up if you just search online.",
+            "correct": false,
+            "feedback": "Perfectly polite, but they asked you specifically — pointing them back to a search engine reads as brushing them off."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "선물",
+      "예산",
+      "부담 주다",
+      "빠져 있다",
+      "진심이다",
+      "디퓨저"
+    ]
+  },
+  {
+    "id": "convo-drama-binge-rec-haeyo",
+    "title": "Recommending a drama to a language partner",
+    "situation": "Your language exchange partner messages you asking for a drama to binge this weekend.",
+    "setting": "texting",
+    "partner": "언어교환 파트너",
+    "tip": "해요체 doesn't have to be stiff. React first (오!), then sell the pick with a quick reason (완전 꿀잼이라 순삭이에요) — slang works fine in 해요체 and keeps you from sounding like a textbook.",
+    "register": "haeyo",
+    "pairId": "convo-drama-binge-rec",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "주말에 정주행할 드라마 없을까요? 추천 좀 해 주세요ㅠ",
+        "en": "Is there a drama I could binge this weekend? Recommend me something ㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Ask what genre they're in the mood for.",
+        "choices": [
+          {
+            "ko": "요즘 뭐 땡겨요? 로맨스? 스릴러?",
+            "en": "What are you in the mood for these days? Romance? Thriller?",
+            "correct": true,
+            "feedback": "뭐 땡겨요? is casual slang that still lands as 해요체, and offering two genres makes it easy for them to answer."
+          },
+          {
+            "ko": "어떤 장르를 선호하십니까?",
+            "en": "Which genre do you prefer? (formal)",
+            "correct": false,
+            "feedback": "선호하십니까 is 합니다체 survey language. With a language partner, 뭐 땡겨요? gets the same info without the distance."
+          },
+          {
+            "ko": "저는 드라마 별로 안 봐요.",
+            "en": "I don't really watch dramas.",
+            "correct": false,
+            "feedback": "Fine 해요체, but they asked you for a rec — leading with what you don't do ends the thread instead of helping."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "스릴러요! 몰입되는 거 보고 싶어요",
+        "en": "Thriller! I want something gripping"
+      },
+      {
+        "role": "you",
+        "prompt": "React and recommend one, selling how fun it is.",
+        "choices": [
+          {
+            "ko": "오, 그럼 제가 추천작 링크 하나 보낼게요. 완전 꿀잼이라 순삭이에요",
+            "en": "Oh, then I'll send you a link to one I recommend. It's so good you'll fly through it.",
+            "correct": true,
+            "feedback": "Delivers an actual pick and sells it. 꿀잼/순삭 are register-neutral slang, so they sit comfortably inside 해요체."
+          },
+          {
+            "ko": "그 작품은 매우 흥미진진합니다.",
+            "en": "That work is very thrilling. (formal)",
+            "correct": false,
+            "feedback": "흥미진진합니다 reads like a review blurb. 완전 꿀잼이에요 is the same praise in a voice a real person uses."
+          },
+          {
+            "ko": "글쎄요, 딱히 생각 안 나는데요.",
+            "en": "Hmm, nothing really comes to mind.",
+            "correct": false,
+            "feedback": "Natural 해요체, but it doesn't deliver what they asked for and leaves them with nothing to reply to."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 몇 부작이에요? 너무 길면 부담돼요",
+        "en": "Oh how many episodes? If it's too long that's a lot"
+      },
+      {
+        "role": "you",
+        "prompt": "Say it's short, and nudge them to start tonight.",
+        "choices": [
+          {
+            "ko": "8부작이라 하루면 끝나요ㅋㅋ 오늘 바로 보세요",
+            "en": "It's 8 episodes, so you can finish in a day lol — start it tonight",
+            "correct": true,
+            "feedback": "Answers the question, then 오늘 바로 보세요 gives a friendly push. In 해요체, -세요 works as an easy nudge, not an order."
+          },
+          {
+            "ko": "총 8회이며 시청을 권장드립니다.",
+            "en": "It is 8 episodes in total and viewing is recommended. (formal)",
+            "correct": false,
+            "feedback": "권장드립니다 is customer-service 합니다체. Same content, but it makes a fun rec sound like a notice."
+          },
+          {
+            "ko": "몇 부작인지 궁금해요?",
+            "en": "You're curious how many episodes?",
+            "correct": false,
+            "feedback": "Grammatical, but it just mirrors their question back instead of answering — the conversation stalls."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오케이 그럼 오늘 1화 볼게요",
+        "en": "Okay, then I'll start episode 1 today"
+      },
+      {
+        "role": "you",
+        "prompt": "Tease what's coming and ask them to report back.",
+        "choices": [
+          {
+            "ko": "ㅋㅋ 보고 후기 톡해 주세요! 4화부터 미쳤어요",
+            "en": "lol message me your thoughts after! It goes crazy from ep 4",
+            "correct": true,
+            "feedback": "A teaser plus 후기 톡해 주세요 invites them back — a sign-off that opens the next conversation instead of ending this one."
+          },
+          {
+            "ko": "시청 후 감상을 공유해 주시기 바랍니다.",
+            "en": "Please share your impressions after viewing. (formal)",
+            "correct": false,
+            "feedback": "주시기 바랍니다 is announcement language. 후기 톡해 주세요 is the same request, warm instead of official."
+          },
+          {
+            "ko": "네 잘 가요.",
+            "en": "Okay, bye.",
+            "correct": false,
+            "feedback": "Polite and correct, but nobody's leaving — a goodbye here cuts off a chat that was still going."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "정주행",
+      "꿀잼",
+      "순삭",
+      "8부작",
+      "후기"
+    ]
+  },
+  {
+    "id": "convo-netflix-what-to-watch-haeyo",
+    "title": "Deciding what to watch with a new friend",
+    "situation": "You're hanging out with someone you recently got to know and you can't decide what to put on Netflix.",
+    "setting": "hangout",
+    "partner": "새로 알게 된 친구",
+    "tip": "With someone you've just gotten to know, 해요체 is the comfortable middle. Don't say 아무거나 — offer two options or a concrete pick, and react to theirs so you actually land on something.",
+    "register": "haeyo",
+    "pairId": "convo-netflix-what-to-watch",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "넷플 뭐 볼까요? 볼 게 없네요",
+        "en": "What should we put on Netflix? There's nothing to watch"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree, then offer two options.",
+        "choices": [
+          {
+            "ko": "그러게요ㅋㅋ 영화 볼까요, 아님 예능?",
+            "en": "Right lol — movie, or maybe a variety show?",
+            "correct": true,
+            "feedback": "그러게요 is the 해요체 agreement token, and two options give them something easy to pick from instead of an open question."
+          },
+          {
+            "ko": "무엇을 시청하길 원하십니까?",
+            "en": "What do you wish to view? (formal)",
+            "correct": false,
+            "feedback": "원하십니까 is hotel-staff 합니다체 — far too distant for two people on a couch. 뭐 볼까요? covers it."
+          },
+          {
+            "ko": "넷플릭스에는 콘텐츠가 많아요.",
+            "en": "Netflix has a lot of content.",
+            "correct": false,
+            "feedback": "Perfectly grammatical 해요체 that states the obvious. It doesn't help you two narrow anything down."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "음, 머리 비우고 볼 수 있는 가벼운 예능요?",
+        "en": "Hmm, maybe a light variety show I can watch without thinking?"
+      },
+      {
+        "role": "you",
+        "prompt": "Like the idea and suggest the show everyone's talking about.",
+        "choices": [
+          {
+            "ko": "오 좋아요, 요즘 다들 보는 그거 볼래요?",
+            "en": "Oh nice — wanna watch the one everyone's on about lately?",
+            "correct": true,
+            "feedback": "오 좋아요 accepts their direction, then a concrete suggestion closes in on a pick. 볼래요? invites without pushing."
+          },
+          {
+            "ko": "예능 프로그램 시청을 제안드립니다.",
+            "en": "I propose the viewing of a variety program. (formal)",
+            "correct": false,
+            "feedback": "제안드립니다 belongs in a meeting. 그거 볼래요? is the same proposal at the right distance."
+          },
+          {
+            "ko": "예능보다 다큐가 유익해요.",
+            "en": "Documentaries are more worthwhile than variety shows.",
+            "correct": false,
+            "feedback": "Grammatical, but it overrides what they just said they wanted and comes off preachy."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아 그거 1화만 봤는데 개웃기더라고요ㅋㅋ",
+        "en": "Ah I only saw episode 1 of that, it was hilarious lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Match their reaction and suggest starting from episode 2.",
+        "choices": [
+          {
+            "ko": "그쵸ㅋㅋ 그럼 2화부터 틀어요",
+            "en": "Right lol — then let's put on episode 2",
+            "correct": true,
+            "feedback": "그쵸 matches their energy in 해요체, and 틀어요 turns the chat into an action. Agreement plus a move is what ends indecision."
+          },
+          {
+            "ko": "그러면 2화부터 재생하도록 하겠습니다.",
+            "en": "Then I shall proceed to play from episode 2. (formal)",
+            "correct": false,
+            "feedback": "하도록 하겠습니다 is 합니다체 — jarringly official for pressing play on a couch. Just 2화부터 틀어요."
+          },
+          {
+            "ko": "1화가 그렇게 웃겼어요?",
+            "en": "Was episode 1 really that funny?",
+            "correct": false,
+            "feedback": "Natural 해요체, but it just re-asks what they told you rather than moving to actually watching."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "콜이요 근데 저 팝콘 먹고 싶어요ㅋㅋ",
+        "en": "Deal, but I kind of want popcorn lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and offer to grab snacks.",
+        "choices": [
+          {
+            "ko": "ㅋㅋ 좋아요, 제가 간식 챙겨 올게요. 잠깐만요!",
+            "en": "Lol okay, I'll grab snacks. Hold on!",
+            "correct": true,
+            "feedback": "챙겨 올게요 volunteers you for the small task, and 잠깐만요 is the everyday 해요체 'hold on' — easy and warm."
+          },
+          {
+            "ko": "간식을 준비해 오도록 하겠습니다.",
+            "en": "I shall prepare and bring snacks. (formal)",
+            "correct": false,
+            "feedback": "준비해 오도록 하겠습니다 sounds like catering staff. 간식 챙겨 올게요 is the same offer, human-sized."
+          },
+          {
+            "ko": "팝콘은 영화관에서 먹는 거예요.",
+            "en": "Popcorn is something you eat at the theater.",
+            "correct": false,
+            "feedback": "Grammatical 해요체, but contradicting a harmless craving just derails the cozy plan you two built."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "넷플",
+      "예능",
+      "개웃기다",
+      "틀다",
+      "간식"
+    ]
+  },
+  {
+    "id": "convo-starting-new-hobby-haeyo",
+    "title": "Hearing about a new hobby",
+    "situation": "Someone from your club mentions they just picked up baking, and you're curious to hear about it.",
+    "setting": "hangout",
+    "partner": "동호회에서 만난 사람",
+    "tip": "Curiosity carries the conversation. Stack follow-ups (진짜요? / 얼마나 됐어요? / 뭐 만들었어요?) and react warmly — in 해요체 the reactions do the friendliness work.",
+    "register": "haeyo",
+    "pairId": "convo-starting-new-hobby",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "저 요즘 베이킹 시작했거든요",
+        "en": "So I started baking recently"
+      },
+      {
+        "role": "you",
+        "prompt": "React with surprise and ask why baking.",
+        "choices": [
+          {
+            "ko": "헐 진짜요? 갑자기 베이킹은 왜요?",
+            "en": "Whoa, really? Why baking all of a sudden?",
+            "correct": true,
+            "feedback": "헐 진짜요? reacts before asking — 헐 is register-neutral, so it warms up 해요체 without turning it into 반말. Then 왜요? opens them up."
+          },
+          {
+            "ko": "베이킹을 시작하셨다니 놀랍습니다.",
+            "en": "I am surprised to hear you started baking. (formal)",
+            "correct": false,
+            "feedback": "놀랍습니다 states surprise instead of showing it. 합니다체 makes a genuine reaction sound like a written comment."
+          },
+          {
+            "ko": "아 그렇군요. 저도 밥 먹어야 되는데요.",
+            "en": "Ah, I see. I should eat something too.",
+            "correct": false,
+            "feedback": "Polite and grammatical, but it drops what they shared and swerves to yourself — their excitement has nowhere to go."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그냥 스트레스 풀려고요? 빵 만들면 좀 힐링되더라고요",
+        "en": "Just to de-stress, I guess? Making bread is kind of therapeutic"
+      },
+      {
+        "role": "you",
+        "prompt": "Show you get it and ask how long they've been doing it.",
+        "choices": [
+          {
+            "ko": "오, 그럴 것 같아요. 근데 시작한 지 얼마나 됐어요?",
+            "en": "Oh, I can see that. How long have you been doing it?",
+            "correct": true,
+            "feedback": "그럴 것 같아요 validates their reason, and the follow-up keeps the spotlight on them. Validate-then-ask is the engine of this whole chat."
+          },
+          {
+            "ko": "베이킹의 치유 효과에 대해 동의하는 바입니다.",
+            "en": "I concur regarding the therapeutic effects of baking. (formal)",
+            "correct": false,
+            "feedback": "동의하는 바입니다 is speech-giving language. Face to face, 그럴 것 같아요 is all the agreement you need."
+          },
+          {
+            "ko": "그래서 빵은 언제 주실 거예요?",
+            "en": "So when are you going to give me some bread?",
+            "correct": false,
+            "feedback": "Grammatical 해요체, but jumping to what you get out of it this early pulls focus off their story."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "한두 달요? 처음엔 진짜 다 망했는데 요즘 좀 늘었어요",
+        "en": "Like two months? At first everything flopped, but I've gotten better lately"
+      },
+      {
+        "role": "you",
+        "prompt": "Cheer them on and ask what they made recently.",
+        "choices": [
+          {
+            "ko": "대박 부러워요ㅋㅋ 최근엔 뭐 만들었어요?",
+            "en": "That's awesome, I'm jealous lol — what did you make recently?",
+            "correct": true,
+            "feedback": "대박 and ㅋㅋ carry the warmth while 부러워요 keeps the 해요체 clean, and the question invites the next story."
+          },
+          {
+            "ko": "지속적인 노력의 결과라고 사료됩니다.",
+            "en": "I presume it is the result of continuous effort. (formal)",
+            "correct": false,
+            "feedback": "사료됩니다 is report-writing 합니다체 — praise this stiff reads as sarcasm in a friendly chat."
+          },
+          {
+            "ko": "두 달이면 아직 초보네요 뭐.",
+            "en": "Two months means you're still a beginner, I guess.",
+            "correct": false,
+            "feedback": "Correct 해요체, but it deflates the progress they were proud of instead of celebrating it."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "지난주에 휘낭시에 구웠는데 그건 좀 성공했어요ㅋㅋ",
+        "en": "I baked financiers last week and those actually turned out lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Hint playfully that you'd like to try one.",
+        "choices": [
+          {
+            "ko": "오, 휘낭시에ㅋㅋ 다음에 저도 하나 맛봐도 돼요?",
+            "en": "Oh, financiers lol — can I try one next time?",
+            "correct": true,
+            "feedback": "맛봐도 돼요? asks permission lightly, and 다음에 leaves the door open for a next meetup — a great way to close with someone you're still getting to know."
+          },
+          {
+            "ko": "다음 기회에 시식할 수 있도록 부탁드립니다.",
+            "en": "I request the opportunity to taste them at the next occasion. (formal)",
+            "correct": false,
+            "feedback": "시식/부탁드립니다 is event-organizer language and clashes with the easy ㅋㅋ tone they set."
+          },
+          {
+            "ko": "휘낭시에가 뭐예요? 저는 관심 없어요.",
+            "en": "What's a financier? I'm not interested.",
+            "correct": false,
+            "feedback": "Grammatical, but announcing you're not interested right after they opened up shuts the whole thing down."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "베이킹",
+      "힐링",
+      "망하다",
+      "늘다",
+      "대박",
+      "맛보다"
+    ]
+  },
+  {
+    "id": "convo-weekend-climbing-plan-haeyo",
+    "title": "Climbing plan with a club member",
+    "situation": "Someone from your club messages to invite you to an indoor climbing gym this weekend.",
+    "setting": "texting",
+    "partner": "동호회에서 만난 사람",
+    "tip": "When someone you're still getting to know proposes an activity, react (오 좋아요/콜이요) then ask one practical question (which day, what to bring). That's what turns an invite into a real plan.",
+    "register": "haeyo",
+    "pairId": "convo-weekend-climbing-plan",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "주말에 클라이밍 갈래요?",
+        "en": "Wanna go climbing this weekend?"
+      },
+      {
+        "role": "you",
+        "prompt": "React with interest and ask which day.",
+        "choices": [
+          {
+            "ko": "오 좋아요 토요일요, 일요일요?",
+            "en": "Oh nice — Saturday or Sunday?",
+            "correct": true,
+            "feedback": "오 좋아요 says yes with feeling, and asking which day immediately starts building the actual plan."
+          },
+          {
+            "ko": "주말에 클라이밍을 가는 것에 동의합니다.",
+            "en": "I agree to going climbing this weekend. (formal)",
+            "correct": false,
+            "feedback": "동의합니다 sounds like approving a motion. An invite gets 좋아요, not agreement in 합니다체."
+          },
+          {
+            "ko": "주말에 날씨 좋대요?",
+            "en": "Is the weather supposed to be nice this weekend?",
+            "correct": false,
+            "feedback": "Fine 해요체, but it's indoor climbing and you never answered — the invite is left hanging."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "토요일 오전 어때요? 사람 적을 때 가요",
+        "en": "How about Saturday morning? Let's go when it's less crowded"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree, but be honest that you're a beginner.",
+        "choices": [
+          {
+            "ko": "콜이요 근데 저 완전 초보인데 괜찮아요?",
+            "en": "Deal — but I'm a total beginner, is that okay?",
+            "correct": true,
+            "feedback": "콜이요 accepts, then a quick honest check gives them something to respond to. Admitting a gap invites help rather than ending the thread."
+          },
+          {
+            "ko": "저는 클라이밍 경험이 전혀 없는 초보자입니다.",
+            "en": "I am a beginner with no climbing experience whatsoever. (formal)",
+            "correct": false,
+            "feedback": "The content is right but 초보자입니다 is a self-introduction at a podium. 저 완전 초보인데 괜찮아요? asks and confesses at once."
+          },
+          {
+            "ko": "토요일 오전 어때요, 사람 적을 때요?",
+            "en": "Saturday morning, when it's less crowded?",
+            "correct": false,
+            "feedback": "Grammatical, but it repeats their suggestion back word for word — that reads as not having replied at all."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "괜찮아요 제가 다 알려 드릴게요 신발만 빌리면 돼요",
+        "en": "It's fine, I'll show you everything — you just need to rent shoes"
+      },
+      {
+        "role": "you",
+        "prompt": "Show relief and ask what to bring.",
+        "choices": [
+          {
+            "ko": "오 다행이에요ㅋㅋ 그럼 뭐 챙겨 가면 돼요?",
+            "en": "Oh what a relief lol — so what should I bring?",
+            "correct": true,
+            "feedback": "다행이에요 reacts to their reassurance, and 뭐 챙겨 가면 돼요? is the practical question that keeps the plan concrete."
+          },
+          {
+            "ko": "준비물에 관하여 안내해 주시면 감사하겠습니다.",
+            "en": "I would appreciate it if you could advise me regarding the required items. (formal)",
+            "correct": false,
+            "feedback": "안내해 주시면 감사하겠습니다 is email-to-a-stranger politeness — much heavier than the text they just sent you."
+          },
+          {
+            "ko": "저 클라이밍 말고 등산이 더 좋은데요.",
+            "en": "I'd actually rather go hiking than climbing.",
+            "correct": false,
+            "feedback": "Natural 해요체, but you already agreed to climbing — changing the plan after they offered to teach you is confusing."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "편한 운동복이랑 물만 챙겨 오세요 끝나고 밥 먹어요",
+        "en": "Just bring comfy workout clothes and water — let's eat after"
+      },
+      {
+        "role": "you",
+        "prompt": "Lock the plan in with some energy.",
+        "choices": [
+          {
+            "ko": "콜이요 완전 기대돼요 토요일에 봐요!",
+            "en": "Deal — I'm so excited, see you Saturday!",
+            "correct": true,
+            "feedback": "기대돼요 adds real enthusiasm and 토요일에 봐요 confirms the plan. Closing with the day locked in is what makes it feel settled."
+          },
+          {
+            "ko": "그렇게 진행하도록 하겠습니다.",
+            "en": "I shall proceed accordingly. (formal)",
+            "correct": false,
+            "feedback": "진행하도록 하겠습니다 is a work confirmation. It's polite, but it reads as zero excitement about the weekend."
+          },
+          {
+            "ko": "밥은 누가 사는 거예요?",
+            "en": "So who's paying for the food?",
+            "correct": false,
+            "feedback": "Grammatical, but it gets transactional right at the close. 끝나고 같이 먹어요 first — sort out the bill on the day."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "클라이밍",
+      "초보",
+      "괜찮다",
+      "챙기다",
+      "운동복",
+      "기대되다"
+    ]
+  },
+  {
+    "id": "convo-busan-or-jeju-haeyo",
+    "title": "Busan or Jeju? (polite)",
+    "situation": "Your language exchange partner is texting you to decide whether your weekend trip should be to Busan or Jeju.",
+    "setting": "texting",
+    "partner": "언어교환 파트너",
+    "tip": "해요체 is not the same as being distant. Share a real preference with a reason, then bounce it back (어때요? / 그쪽은요?) — friendly 해요체 keeps the decision two-way instead of turning it into a survey.",
+    "register": "haeyo",
+    "pairId": "convo-busan-or-jeju",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "그런데 우리 부산 갈까요, 제주 갈까요?",
+        "en": "So should we go to Busan or Jeju?"
+      },
+      {
+        "role": "you",
+        "prompt": "Give your lean and ask theirs",
+        "choices": [
+          {
+            "ko": "음 저는 바다가 보고 싶어서 제주가 끌리는데, 어때요?",
+            "en": "Hmm I'm leaning Jeju because I want to see the ocean — how about you?",
+            "correct": true,
+            "feedback": "A preference plus a reason, then 어때요? hands the turn back — that's what makes 해요체 feel warm instead of formal."
+          },
+          {
+            "ko": "어느 곳을 선호하시는지 여쭤봐도 될까요?",
+            "en": "May I ask which place you prefer?",
+            "correct": false,
+            "feedback": "Grammatical, but 여쭤봐도 될까요 is customer-service polite — it interviews your partner instead of chatting with them."
+          },
+          {
+            "ko": "부산 갈까요, 제주 갈까요?",
+            "en": "Should we go to Busan or Jeju?",
+            "correct": false,
+            "feedback": "Echoes their question word for word. Polite, but it adds no opinion, so the decision stalls."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 제주 좋아요! 근데 비행기값 비싸지 않아요?",
+        "en": "Oh Jeju sounds good! But isn't the flight pricey?"
+      },
+      {
+        "role": "you",
+        "prompt": "Acknowledge the concern, stay flexible",
+        "choices": [
+          {
+            "ko": "그것도 그렇네요ㅋㅋ 그럼 부산도 괜찮아요. 저는 둘 다 좋아요",
+            "en": "That's true tooㅋㅋ Busan works for me then. I like both.",
+            "correct": true,
+            "feedback": "그것도 그렇네요 accepts their point out loud, and 저는 둘 다 좋아요 keeps you deciding together. ㅋㅋ softens 해요체 nicely."
+          },
+          {
+            "ko": "비행기값에 대해서는 제가 관여하지 않겠습니다.",
+            "en": "I will not get involved regarding the flight cost.",
+            "correct": false,
+            "feedback": "합니다체 plus 관여하지 않겠습니다 sounds like dodging responsibility at work — far too cold for planning a trip."
+          },
+          {
+            "ko": "비행기 처음 타봐요?",
+            "en": "Is it your first time on a plane?",
+            "correct": false,
+            "feedback": "Perfectly polite, but it ignores the actual issue (money) and drifts off topic."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "흠 사실 저는 부산 가서 회 먹고 싶긴 해요",
+        "en": "Hmm honestly I kind of want to go to Busan and eat sashimi."
+      },
+      {
+        "role": "you",
+        "prompt": "Get excited about the food angle",
+        "choices": [
+          {
+            "ko": "오 회 좋죠!! 그럼 부산으로 가요, 먹킷리스트 짜요ㅋㅋ",
+            "en": "Oh sashimi, yes!! Let's do Busan then, let's make a food bucket listㅋㅋ",
+            "correct": true,
+            "feedback": "좋죠 is an enthusiastic 해요체 agreement, and running with their idea toward a next step (먹킷리스트 짜요) keeps the energy up."
+          },
+          {
+            "ko": "회는 건강에 좋은 음식입니다.",
+            "en": "Sashimi is a healthy food.",
+            "correct": false,
+            "feedback": "A textbook fact in 합니다체. It answers nothing and drops the friendly tone in one line."
+          },
+          {
+            "ko": "왜 갑자기 회 얘기를 하는 거예요?",
+            "en": "Why are you suddenly talking about sashimi?",
+            "correct": false,
+            "feedback": "Polite but sounds irritated at a normal suggestion — your partner will stop offering ideas."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "콜콜 부산 가요!! 광안리에서 회에 소주 어때요?",
+        "en": "Deal deal, let's do Busan!! Sashimi and soju at Gwangalli, how about it?"
+      },
+      {
+        "role": "you",
+        "prompt": "Lock it in and hype the plan",
+        "choices": [
+          {
+            "ko": "캬 그거죠ㅋㅋ 벌써 설레요 빨리 가요",
+            "en": "Ahh that's the oneㅋㅋ I'm already excited, let's go soon.",
+            "correct": true,
+            "feedback": "캬 is style-neutral, so it works fine in 해요체, and 벌써 설레요 shares the excitement instead of just agreeing."
+          },
+          {
+            "ko": "광안리 방문을 긍정적으로 검토하겠습니다.",
+            "en": "I will positively consider visiting Gwangalli.",
+            "correct": false,
+            "feedback": "Office-memo language. It technically says yes but reads like you're stalling a proposal."
+          },
+          {
+            "ko": "소주 말고 다른 건 없어요?",
+            "en": "Is there nothing besides soju?",
+            "correct": false,
+            "feedback": "Nitpicks the fun suggestion they just made — it deflates the moment right at the close."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "바다",
+      "끌리다",
+      "비행기값",
+      "회",
+      "먹킷리스트",
+      "광안리",
+      "소주",
+      "설레다"
+    ]
+  },
+  {
+    "id": "convo-lets-study-together-haeyo",
+    "title": "Let's study together (polite)",
+    "situation": "Someone from your Korean class texts that the exam is close and they have not started, so you suggest studying together.",
+    "setting": "texting",
+    "partner": "같은 수업 듣는 사람",
+    "tip": "해요체 proposals still sound casual: ~할래요?, ~해요, 어때요?. Suggest, then nail down the details (어디서? 몇 시?) — that's how a classmate turns into a study buddy.",
+    "register": "haeyo",
+    "pairId": "convo-lets-study-together",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "아 시험 코앞인데 하나도 못 했어요",
+        "en": "Ugh the exam's right around the corner and I haven't done a thing"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you're the same and suggest studying together.",
+        "choices": [
+          {
+            "ko": "저도요ㅋㅋ 우리 같이 공부할래요?",
+            "en": "Same hereㅋㅋ want to study together?",
+            "correct": true,
+            "feedback": "저도요 relates first, then ~할래요? invites. This is the everyday 해요체 way to propose something without sounding pushy."
+          },
+          {
+            "ko": "함께 공부하는 것이 어떻겠습니까?",
+            "en": "How would it be to study together?",
+            "correct": false,
+            "feedback": "Correct Korean, but 어떻겠습니까 is meeting-room 합니다체 — nobody invites a classmate like this."
+          },
+          {
+            "ko": "시험공부는 혼자 하는 게 좋아요.",
+            "en": "It's better to study for exams alone.",
+            "correct": false,
+            "feedback": "Polite and fine grammatically, but it shuts down the chance to make a plan together."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 좋아요! 어디서 할까요?",
+        "en": "Oh nice! Where should we do it?"
+      },
+      {
+        "role": "you",
+        "prompt": "Suggest a cafe and ask if it works.",
+        "choices": [
+          {
+            "ko": "학교 앞 카페 어때요? 거기 조용하잖아요",
+            "en": "How about the cafe by school? It's quiet there",
+            "correct": true,
+            "feedback": "A concrete spot plus a reason (조용하잖아요). ~잖아요 assumes shared knowledge, which is exactly how classmates talk."
+          },
+          {
+            "ko": "장소는 당신이 정하세요.",
+            "en": "You decide the place.",
+            "correct": false,
+            "feedback": "당신 and 정하세요 land cold and distant — and it dumps the whole decision on them."
+          },
+          {
+            "ko": "도서관은 자리가 없어요.",
+            "en": "The library has no seats.",
+            "correct": false,
+            "feedback": "Only says where NOT to go. They asked for a place, so give one."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "콜! 몇 시에 만날까요?",
+        "en": "Deal! What time should we meet?"
+      },
+      {
+        "role": "you",
+        "prompt": "Propose 2 PM and check it's okay.",
+        "choices": [
+          {
+            "ko": "두 시 어때요? 점심 먹고 가요",
+            "en": "How about 2? Let's go after lunch",
+            "correct": true,
+            "feedback": "Names a time and adds 점심 먹고 가요 — a small extra detail that makes the plan feel real, not just scheduled."
+          },
+          {
+            "ko": "오후 두 시에 뵙겠습니다.",
+            "en": "I will see you at 2 PM.",
+            "correct": false,
+            "feedback": "뵙겠습니다 is honorific 합니다체 for a boss or a client, not for a classmate you study with."
+          },
+          {
+            "ko": "저는 아침을 안 먹어요.",
+            "en": "I don't eat breakfast.",
+            "correct": false,
+            "feedback": "Grammatical but off-topic — they asked what time to meet."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오케이! 그럼 이따 봐요",
+        "en": "Okay! See you later then"
+      },
+      {
+        "role": "you",
+        "prompt": "Confirm and tell them to bring their notes.",
+        "choices": [
+          {
+            "ko": "네ㅋㅋ 필기 꼭 챙겨 와요",
+            "en": "Sureㅋㅋ make sure you bring your notes",
+            "correct": true,
+            "feedback": "챙겨 와요 is a light 해요체 reminder — it closes the chat while giving them one useful thing to do."
+          },
+          {
+            "ko": "필기를 지참해 주시기 바랍니다.",
+            "en": "Please bring your notes.",
+            "correct": false,
+            "feedback": "지참해 주시기 바랍니다 belongs on an official notice board, not in a text to a classmate."
+          },
+          {
+            "ko": "그런데 시험 범위가 어디까지예요?",
+            "en": "By the way, how far does the exam go?",
+            "correct": false,
+            "feedback": "A fine question at the wrong moment — they were saying bye, and this reopens the thread."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "코앞",
+      "공부하다",
+      "조용하다",
+      "필기",
+      "챙기다"
+    ]
+  },
+  {
+    "id": "convo-whats-new-these-days-haeyo",
+    "title": "So what's new lately? (polite)",
+    "situation": "An acquaintance you haven't seen in a while asks how you've been and what you've been up to.",
+    "setting": "texting",
+    "partner": "오랜만에 만난 지인",
+    "tip": "For the open-ended '요즘 뭐 해요?', give one small real detail and volley it back (요즘 어때요?). One-word answers in 해요체 sound polite but end the conversation.",
+    "register": "haeyo",
+    "pairId": "convo-whats-new-these-days",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "잘 지내요? 요즘 뭐 하고 지내요?",
+        "en": "You doing well? What have you been up to lately?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you're alright and give a tiny update, then ask back",
+        "choices": [
+          {
+            "ko": "네 그냥 회사 다니죠 뭐ㅋㅋ 요즘 어떻게 지내요?",
+            "en": "Yeah, just working as usualㅋㅋ how have you been lately?",
+            "correct": true,
+            "feedback": "~죠 뭐 is a relaxed 해요체 shrug, and asking back keeps the check-in mutual rather than one-sided."
+          },
+          {
+            "ko": "덕분에 잘 지내고 있습니다. 귀하는 어떠신가요?",
+            "en": "I am doing well thanks to you. And how are you, sir?",
+            "correct": false,
+            "feedback": "귀하 is business-letter language. This is polite to the point of sounding like a form reply."
+          },
+          {
+            "ko": "요즘 뭐 하고 지내요?",
+            "en": "What have you been up to lately?",
+            "correct": false,
+            "feedback": "Bounces the question back without answering first — polite, but it reads as evasive."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "저요? 저 요즘 운동 시작했어요ㅋㅋ",
+        "en": "Me? I started working out lately ㅋㅋ"
+      },
+      {
+        "role": "you",
+        "prompt": "React with surprise and ask what kind",
+        "choices": [
+          {
+            "ko": "오 진짜요? 무슨 운동이요? 헬스요?",
+            "en": "Oh really? what kind? the gym?",
+            "correct": true,
+            "feedback": "Reacting first (오 진짜요?) then asking a narrow follow-up shows you actually care — the engine of any check-in."
+          },
+          {
+            "ko": "운동은 건강에 매우 이롭습니다.",
+            "en": "Exercise is very beneficial for one's health.",
+            "correct": false,
+            "feedback": "Textbook 합니다체. It responds to the topic but not to the person."
+          },
+          {
+            "ko": "아 그렇군요.",
+            "en": "Ah, I see.",
+            "correct": false,
+            "feedback": "Polite but flat, with no follow-up. The conversation quietly dies here."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네 헬스요ㅋㅋ 살 좀 빼려고요. 근데 너무 힘들어요",
+        "en": "Yeah, the gym ㅋㅋ trying to lose some weight. but it's so hard"
+      },
+      {
+        "role": "you",
+        "prompt": "Sympathize and lightly relate",
+        "choices": [
+          {
+            "ko": "헐 맞아요ㅋㅋ 저도 맨날 작심삼일이라 금방 포기해요",
+            "en": "Ugh, so trueㅋㅋ I always give up after a few days too.",
+            "correct": true,
+            "feedback": "헐 and 맞아요 agree naturally, and sharing your own version of the struggle makes it feel mutual, not just polite."
+          },
+          {
+            "ko": "체지방 감량을 위해서는 식단 관리가 필수입니다.",
+            "en": "Diet control is essential for reducing body fat.",
+            "correct": false,
+            "feedback": "Reads like a fitness pamphlet — they wanted sympathy, not advice."
+          },
+          {
+            "ko": "왜 살을 빼려고 해요?",
+            "en": "Why are you trying to lose weight?",
+            "correct": false,
+            "feedback": "Grammatical, but it's a prying question to an acquaintance and changes the mood."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 그쵸 진짜. 우리 같이 운동할래요?",
+        "en": "Lol right, for real. want to work out together?"
+      },
+      {
+        "role": "you",
+        "prompt": "Show interest but stay realistic",
+        "choices": [
+          {
+            "ko": "오 좋죠ㅋㅋ 근데 저 게을러서 끌고 가 주셔야 돼요",
+            "en": "Oh, sounds greatㅋㅋ but I'm lazy, so you'll have to drag me along.",
+            "correct": true,
+            "feedback": "A warm yes plus a self-deprecating joke. Humor works perfectly well in 해요체 and turns an acquaintance into a friend."
+          },
+          {
+            "ko": "제안은 감사하나 정중히 거절하겠습니다.",
+            "en": "I appreciate the offer but I must politely decline.",
+            "correct": false,
+            "feedback": "Sounds like declining a business proposal — cold for someone just inviting you along."
+          },
+          {
+            "ko": "같이 운동하자고요?",
+            "en": "You're saying work out together?",
+            "correct": false,
+            "feedback": "Repeats their question back instead of answering it, which stalls the invitation."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "잘 지내다",
+      "그냥",
+      "헬스",
+      "작심삼일",
+      "게으르다",
+      "끌고 가다",
+      "맞아요"
+    ]
+  },
+  {
+    "id": "convo-long-time-no-talk-haeyo",
+    "title": "Long time, no text (polite)",
+    "situation": "An acquaintance you haven't talked to in months suddenly texts you out of nowhere.",
+    "setting": "texting",
+    "partner": "오랜만에 연락 온 지인",
+    "tip": "When someone reaches out after a long gap, react first (헐/와 그러게요) and then bounce the same question back. In 해요체, the reaction is what keeps politeness from reading as distance.",
+    "register": "haeyo",
+    "pairId": "convo-long-time-no-talk",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "와 진짜 오랜만이에요ㅋㅋ",
+        "en": "Wow, it's been forever ㅋㅋ"
+      },
+      {
+        "role": "you",
+        "prompt": "React to how long it's been and toss it back",
+        "choices": [
+          {
+            "ko": "헐 그러게요ㅋㅋ 잘 지냈어요?",
+            "en": "Whoa, right?ㅋㅋ have you been doing okay?",
+            "correct": true,
+            "feedback": "그러게요 is the 해요체 맞장구 (matching reaction), and 잘 지냈어요? immediately gives them something to answer."
+          },
+          {
+            "ko": "네 오랜만에 연락 주셔서 감사합니다.",
+            "en": "Yes, thank you for reaching out after so long.",
+            "correct": false,
+            "feedback": "Grammatical, but 감사합니다 for a text makes it sound like a client email. It quietly pushes them away."
+          },
+          {
+            "ko": "네.",
+            "en": "Yes.",
+            "correct": false,
+            "feedback": "Polite and completely flat. No reaction, no question, no conversation."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네 그럭저럭요? 갑자기 생각나서 연락했어요ㅋㅋ",
+        "en": "Yeah, more or less? I just suddenly thought of you ㅋㅋ"
+      },
+      {
+        "role": "you",
+        "prompt": "Say that's sweet and ask what made them think of you",
+        "choices": [
+          {
+            "ko": "오 뭐예요ㅋㅋ 갑자기 왜 제 생각이 났어요?",
+            "en": "Aw, what's this?ㅋㅋ what made you think of me all of a sudden?",
+            "correct": true,
+            "feedback": "뭐예요ㅋㅋ is playful, not rude, and asking 왜? digs into the warm thing they just said."
+          },
+          {
+            "ko": "제 생각을 해 주셨다니 영광입니다.",
+            "en": "I am honored that you thought of me.",
+            "correct": false,
+            "feedback": "영광입니다 is award-ceremony language. Nobody texts an acquaintance like this."
+          },
+          {
+            "ko": "저도 그럭저럭 지내고 있어요.",
+            "en": "I've been so-so too.",
+            "correct": false,
+            "feedback": "Polite but it skips right past the nicest part of their message — that they thought of you."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그냥 옛날 사진 보다가요ㅋㅋ 우리 그때 진짜 자주 봤는데요",
+        "en": "Just looking at old pics ㅋㅋ we used to see each other so much back then"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and admit you miss those days a little",
+        "choices": [
+          {
+            "ko": "맞아요ㅋㅋ 그때 진짜 자주 만났는데요. 좀 그립네요, 그쵸?",
+            "en": "Right?ㅋㅋ we did meet up all the time. I kind of miss it — you too?",
+            "correct": true,
+            "feedback": "Agrees with the memory, then 그립네요, 그쵸? matches their nostalgic tone and invites them to say the same."
+          },
+          {
+            "ko": "사진은 개인정보라 조심하셔야 해요.",
+            "en": "Photos are personal data, so you should be careful.",
+            "correct": false,
+            "feedback": "Technically polite advice, but it answers a warm memory with a warning. The mood dies instantly."
+          },
+          {
+            "ko": "그때 우리 자주 봤어요?",
+            "en": "Did we see each other a lot back then?",
+            "correct": false,
+            "feedback": "Turning their line into a question sounds like you don't remember — a little cold here."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "맞아요 우리 조만간 한번 봐요 진짜",
+        "en": "Right, we should actually meet up sometime soon."
+      },
+      {
+        "role": "you",
+        "prompt": "Say yes and nudge toward actually setting it up",
+        "choices": [
+          {
+            "ko": "좋아요ㅋㅋ 언제 시간 돼요? 날 잡아요",
+            "en": "Sounds goodㅋㅋ when are you free? let's pick a day",
+            "correct": true,
+            "feedback": "언제 시간 돼요? and 날 잡아요 turn a vague 'someday' into a real plan — the whole point of the reconnect."
+          },
+          {
+            "ko": "긍정적으로 검토해 보겠습니다.",
+            "en": "I will review it positively.",
+            "correct": false,
+            "feedback": "Corporate 합니다체 for meeting a person. It sounds like a polite no."
+          },
+          {
+            "ko": "네 언젠가는 보겠죠 뭐.",
+            "en": "Yeah, we'll meet someday I guess.",
+            "correct": false,
+            "feedback": "Lukewarm — it brushes off their offer instead of taking them up on it."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "오랜만",
+      "그러게요",
+      "그럭저럭",
+      "그쵸",
+      "조만간",
+      "날 잡다",
+      "그립다"
+    ]
+  },
+  {
+    "id": "convo-congrats-new-job-haeyo",
+    "title": "Congrats on the new job (polite)",
+    "situation": "An acquaintance texts that they finally got hired after a long job hunt, and you celebrate with them.",
+    "setting": "texting",
+    "partner": "지인",
+    "tip": "For big news, react big first (헐 대박!!! 축하해요) before asking anything. 해요체 does not mean toning the excitement down — acknowledging the grind (고생 많았어요) lands harder than a plain congrats.",
+    "register": "haeyo",
+    "pairId": "convo-congrats-new-job",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "저 드디어 취뽀했어요!!!ㅠㅠㅠ",
+        "en": "I finally landed a job!!! ㅠㅠㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "React big and congratulate them",
+        "choices": [
+          {
+            "ko": "헐 대박!!! 진짜 축하해요ㅠㅠ 고생 많으셨어요",
+            "en": "Whoa, amazing!!! congrats for realㅠㅠ you worked so hard",
+            "correct": true,
+            "feedback": "헐 and 대박 are style-neutral, so they sit fine in 해요체, and 고생 많으셨어요 honors the long grind behind the news."
+          },
+          {
+            "ko": "취업을 진심으로 축하드리는 바입니다.",
+            "en": "I hereby sincerely congratulate you on your employment.",
+            "correct": false,
+            "feedback": "축하드리는 바입니다 is written, ceremonial language — it congratulates the news but not the person."
+          },
+          {
+            "ko": "오 어디 회사예요?",
+            "en": "Oh, which company?",
+            "correct": false,
+            "feedback": "Polite, but jumping straight to questions without celebrating first feels cold for news this big."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅠㅠ 진짜 면접을 몇 번이나 봤는지 몰라요. 너무 오래 걸렸어요",
+        "en": "ㅠㅠ I lost count of how many interviews I had. It took so long."
+      },
+      {
+        "role": "you",
+        "prompt": "Acknowledge how hard it was and ask which company",
+        "choices": [
+          {
+            "ko": "ㅠㅠ 그쵸 그쵸 진짜 고생 많았어요 어느 회사예요??",
+            "en": "ㅠㅠ I know, I know, you really went through a lot — which company is it??",
+            "correct": true,
+            "feedback": "Empathize first (고생 많았어요), then ask the follow-up they're waiting to answer. That order is what keeps it flowing."
+          },
+          {
+            "ko": "구직 활동의 노고를 충분히 이해하는 바입니다.",
+            "en": "I fully understand the toils of your job-seeking efforts.",
+            "correct": false,
+            "feedback": "노고 and 이해하는 바입니다 belong in a speech. It sounds like a statement, not sympathy."
+          },
+          {
+            "ko": "면접 그렇게 많이 봤어요?",
+            "en": "You did that many interviews?",
+            "correct": false,
+            "feedback": "Repeats their line back as a question instead of reacting to it — the emotion goes unanswered."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그 아이티 회사요! 저 다음 달부터 출근이에요ㅋㅋㅋ",
+        "en": "That IT company! I start next month ㅋㅋ"
+      },
+      {
+        "role": "you",
+        "prompt": "React and tease them lightly about a celebration",
+        "choices": [
+          {
+            "ko": "와 진짜 대박이에요ㅋㅋ 이건 한턱 쏘셔야 되는 거 알죠?",
+            "en": "Wow, that's amazingㅋㅋ you know you have to treat me, right?",
+            "correct": true,
+            "feedback": "알죠? is teasing in 해요체 — the light 한턱 쏘다 joke is exactly how people celebrate good news without getting stiff."
+          },
+          {
+            "ko": "입사 후 첫 급여일에 식사를 제공해 주시기 바랍니다.",
+            "en": "Please provide a meal on your first payday after joining.",
+            "correct": false,
+            "feedback": "Reads like a formal request memo. The joke is there, but the register kills it."
+          },
+          {
+            "ko": "아이티 회사는 야근이 많대요.",
+            "en": "I heard IT companies have a lot of overtime.",
+            "correct": false,
+            "feedback": "Negative and off-topic — it deflates the happy news instead of celebrating it."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 당연하죠 제가 거하게 쏠게요 뭐 먹고 싶어요?",
+        "en": "Lol of course, I'll treat you big time — what do you want to eat?"
+      },
+      {
+        "role": "you",
+        "prompt": "Happily accept and suggest meeting up to celebrate",
+        "choices": [
+          {
+            "ko": "오예ㅋㅋ 그럼 이번 주말에 만나서 제대로 축하해요!",
+            "en": "Yesssㅋㅋ let's meet this weekend and celebrate properly then!",
+            "correct": true,
+            "feedback": "An excited yes plus ~해요 as a suggestion turns the chat into an actual plan — the strongest way to close."
+          },
+          {
+            "ko": "메뉴 및 일정은 별도 협의 후 확정하겠습니다.",
+            "en": "The menu and schedule will be finalized after separate consultation.",
+            "correct": false,
+            "feedback": "Meeting-minutes language. It answers the question but sounds like scheduling a vendor call."
+          },
+          {
+            "ko": "고생 많으셨어요 진짜.",
+            "en": "You really worked so hard.",
+            "correct": false,
+            "feedback": "Kind, but you already said this — repeating it ignores their offer and lets the chat stall."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "취뽀",
+      "대박",
+      "고생하다",
+      "한턱 쏘다",
+      "거하게",
+      "오예",
+      "축하하다"
+    ]
+  }
+]

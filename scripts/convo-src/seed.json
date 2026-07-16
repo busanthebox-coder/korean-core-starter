@@ -7,26 +7,101 @@
     "partner": "친구",
     "tip": "With friends, keep replies short and toss back a question (왜?, 뭐 볼까?) to keep the conversation rolling.",
     "turns": [
-      { "role": "partner", "ko": "주말에 뭐 해?", "en": "What are you up to this weekend?" },
-      { "role": "you", "prompt": "Say nothing's planned and ask why.", "choices": [
-        { "ko": "별거 없는데, 왜?", "en": "Nothing much, why?", "correct": true, "feedback": "Natural — 왜? bounces it back and keeps the chat going." },
-        { "ko": "저는 계획이 없습니다.", "en": "I have no plans.", "correct": false, "feedback": "Too formal for a friend. Drop to 반말: 별거 없어." },
-        { "ko": "주말 잘 보내세요.", "en": "Have a good weekend.", "correct": false, "feedback": "That ends the conversation instead of continuing it." }
-      ] },
-      { "role": "partner", "ko": "같이 영화 볼래?", "en": "Wanna watch a movie together?" },
-      { "role": "you", "prompt": "Agree happily and ask what to watch.", "choices": [
-        { "ko": "좋아! 뭐 볼까?", "en": "Sounds good! What should we watch?", "correct": true, "feedback": "좋아 + a follow-up question is exactly how friends keep momentum." },
-        { "ko": "글쎄, 별로.", "en": "Hmm, not really.", "correct": false, "feedback": "That shuts the plan down — fine if true, but not 'keeping it going'." },
-        { "ko": "영화를 좋아합니다.", "en": "I like movies.", "correct": false, "feedback": "Doesn't actually answer the invitation." }
-      ] },
-      { "role": "partner", "ko": "그럼 토요일 저녁 어때?", "en": "Then how about Saturday evening?" },
-      { "role": "you", "prompt": "Confirm Saturday and say you'll text later.", "choices": [
-        { "ko": "토요일 저녁 좋아. 이따 톡할게!", "en": "Saturday evening works. I'll text you later!", "correct": true, "feedback": "This confirms the proposed evening, and 이따 톡할게 is a natural casual sign-off." },
-        { "ko": "토요일에 시간이 있습니다.", "en": "I have time on Saturday.", "correct": false, "feedback": "Stiff. With a friend: 토요일 좋아." },
-        { "ko": "안녕히 계세요.", "en": "Goodbye (formal).", "correct": false, "feedback": "Way too formal to end a chat with a friend." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "주말에 뭐 해?",
+        "en": "What are you up to this weekend?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say nothing's planned and ask why.",
+        "choices": [
+          {
+            "ko": "별거 없는데, 왜?",
+            "en": "Nothing much, why?",
+            "correct": true,
+            "feedback": "Natural — 왜? bounces it back and keeps the chat going."
+          },
+          {
+            "ko": "저는 계획이 없습니다.",
+            "en": "I have no plans.",
+            "correct": false,
+            "feedback": "Too formal for a friend. Drop to 반말: 별거 없어."
+          },
+          {
+            "ko": "주말 잘 보내세요.",
+            "en": "Have a good weekend.",
+            "correct": false,
+            "feedback": "That ends the conversation instead of continuing it."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "같이 영화 볼래?",
+        "en": "Wanna watch a movie together?"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree happily and ask what to watch.",
+        "choices": [
+          {
+            "ko": "좋아! 뭐 볼까?",
+            "en": "Sounds good! What should we watch?",
+            "correct": true,
+            "feedback": "좋아 + a follow-up question is exactly how friends keep momentum."
+          },
+          {
+            "ko": "글쎄, 별로.",
+            "en": "Hmm, not really.",
+            "correct": false,
+            "feedback": "That shuts the plan down — fine if true, but not 'keeping it going'."
+          },
+          {
+            "ko": "영화를 좋아합니다.",
+            "en": "I like movies.",
+            "correct": false,
+            "feedback": "Doesn't actually answer the invitation."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그럼 토요일 저녁 어때?",
+        "en": "Then how about Saturday evening?"
+      },
+      {
+        "role": "you",
+        "prompt": "Confirm Saturday and say you'll text later.",
+        "choices": [
+          {
+            "ko": "토요일 저녁 좋아. 이따 톡할게!",
+            "en": "Saturday evening works. I'll text you later!",
+            "correct": true,
+            "feedback": "This confirms the proposed evening, and 이따 톡할게 is a natural casual sign-off."
+          },
+          {
+            "ko": "토요일에 시간이 있습니다.",
+            "en": "I have time on Saturday.",
+            "correct": false,
+            "feedback": "Stiff. With a friend: 토요일 좋아."
+          },
+          {
+            "ko": "안녕히 계세요.",
+            "en": "Goodbye (formal).",
+            "correct": false,
+            "feedback": "Way too formal to end a chat with a friend."
+          }
+        ]
+      }
     ],
-    "vocab": ["주말", "영화", "토요일", "톡하다"]
+    "vocab": [
+      "주말",
+      "영화",
+      "토요일",
+      "톡하다"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-what-to-eat",
@@ -36,26 +111,101 @@
     "partner": "친구",
     "tip": "땡기다 (to crave), 콜 (deal!), and 가자 (let's go) are everyday casual staples between friends.",
     "turns": [
-      { "role": "partner", "ko": "배고프다… 뭐 먹지?", "en": "I'm hungry… what should we eat?" },
-      { "role": "you", "prompt": "Say you don't mind and ask what they're craving.", "choices": [
-        { "ko": "아무거나. 넌 뭐 땡겨?", "en": "Anything's fine. What are you craving?", "correct": true, "feedback": "넌 뭐 땡겨? is very natural casual Korean for 'what do you feel like?'." },
-        { "ko": "저는 무엇이든 괜찮습니다.", "en": "Anything is fine with me.", "correct": false, "feedback": "Correct grammar, but too formal among friends." },
-        { "ko": "밥을 먹읍시다.", "en": "Let's eat (formal).", "correct": false, "feedback": "읍시다 is stiff — friends say 먹자." }
-      ] },
-      { "role": "partner", "ko": "음… 떡볶이 어때?", "en": "Hmm… how about tteokbokki?" },
-      { "role": "you", "prompt": "Love the idea and suggest a place.", "choices": [
-        { "ko": "오 좋아! 학교 앞 거기 갈까?", "en": "Oh nice! Should we go to that place by school?", "correct": true, "feedback": "Enthusiasm + a concrete suggestion keeps the plan moving." },
-        { "ko": "떡볶이는 맵습니다.", "en": "Tteokbokki is spicy.", "correct": false, "feedback": "A fact, but it doesn't move the plan forward." },
-        { "ko": "그러게요.", "en": "Right.", "correct": false, "feedback": "This neither accepts nor rejects the suggestion, and -요 mismatches the close-friend register." }
-      ] },
-      { "role": "partner", "ko": "콜! 지금 갈까?", "en": "Deal! Shall we go now?" },
-      { "role": "you", "prompt": "Agree and say let's go.", "choices": [
-        { "ko": "콜, 가자!", "en": "Deal, let's go!", "correct": true, "feedback": "가자 is the casual 'let's go' — perfect." },
-        { "ko": "네, 가겠습니다.", "en": "Yes, I will go (formal).", "correct": false, "feedback": "Too formal — 가자 fits a friend." },
-        { "ko": "잠시만 기다려 주시겠어요?", "en": "Could you please wait? (polite)", "correct": false, "feedback": "Over-polite for a close friend." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "배고프다… 뭐 먹지?",
+        "en": "I'm hungry… what should we eat?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you don't mind and ask what they're craving.",
+        "choices": [
+          {
+            "ko": "아무거나. 넌 뭐 땡겨?",
+            "en": "Anything's fine. What are you craving?",
+            "correct": true,
+            "feedback": "넌 뭐 땡겨? is very natural casual Korean for 'what do you feel like?'."
+          },
+          {
+            "ko": "저는 무엇이든 괜찮습니다.",
+            "en": "Anything is fine with me.",
+            "correct": false,
+            "feedback": "Correct grammar, but too formal among friends."
+          },
+          {
+            "ko": "밥을 먹읍시다.",
+            "en": "Let's eat (formal).",
+            "correct": false,
+            "feedback": "읍시다 is stiff — friends say 먹자."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "음… 떡볶이 어때?",
+        "en": "Hmm… how about tteokbokki?"
+      },
+      {
+        "role": "you",
+        "prompt": "Love the idea and suggest a place.",
+        "choices": [
+          {
+            "ko": "오 좋아! 학교 앞 거기 갈까?",
+            "en": "Oh nice! Should we go to that place by school?",
+            "correct": true,
+            "feedback": "Enthusiasm + a concrete suggestion keeps the plan moving."
+          },
+          {
+            "ko": "떡볶이는 맵습니다.",
+            "en": "Tteokbokki is spicy.",
+            "correct": false,
+            "feedback": "A fact, but it doesn't move the plan forward."
+          },
+          {
+            "ko": "그러게요.",
+            "en": "Right.",
+            "correct": false,
+            "feedback": "This neither accepts nor rejects the suggestion, and -요 mismatches the close-friend register."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "콜! 지금 갈까?",
+        "en": "Deal! Shall we go now?"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and say let's go.",
+        "choices": [
+          {
+            "ko": "콜, 가자!",
+            "en": "Deal, let's go!",
+            "correct": true,
+            "feedback": "가자 is the casual 'let's go' — perfect."
+          },
+          {
+            "ko": "네, 가겠습니다.",
+            "en": "Yes, I will go (formal).",
+            "correct": false,
+            "feedback": "Too formal — 가자 fits a friend."
+          },
+          {
+            "ko": "잠시만 기다려 주시겠어요?",
+            "en": "Could you please wait? (polite)",
+            "correct": false,
+            "feedback": "Over-polite for a close friend."
+          }
+        ]
+      }
     ],
-    "vocab": ["배고프다", "떡볶이", "땡기다", "가자"]
+    "vocab": [
+      "배고프다",
+      "떡볶이",
+      "땡기다",
+      "가자"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-react-to-news",
@@ -65,25 +215,100 @@
     "partner": "친구",
     "tip": "Reactions (헐, 대박, 부럽다) plus a quick question (누구?, 사진 찍었어?) are the heart of casual Korean chatting.",
     "turns": [
-      { "role": "partner", "ko": "나 오늘 길에서 연예인 봤어!", "en": "I saw a celebrity on the street today!" },
-      { "role": "you", "prompt": "React with surprise and ask who it was.", "choices": [
-        { "ko": "헐 진짜? 누구?", "en": "What, really? Who?", "correct": true, "feedback": "헐 진짜? (reaction) + 누구? (follow-up) is textbook casual chatting." },
-        { "ko": "그렇군요.", "en": "I see (polite).", "correct": false, "feedback": "Flat and formal — friends react bigger than this." },
-        { "ko": "축하합니다.", "en": "Congratulations.", "correct": false, "feedback": "Doesn't fit — there's nothing to congratulate." }
-      ] },
-      { "role": "partner", "ko": "아이유! 카페에서 봤어ㅋㅋ", "en": "IU! I saw her at a cafe lol" },
-      { "role": "you", "prompt": "Show you're jealous and ask if they got a photo.", "choices": [
-        { "ko": "대박 부럽다… 사진 찍었어?", "en": "No way, I'm jealous… did you take a photo?", "correct": true, "feedback": "대박 + 부럽다 + a follow-up keeps the energy up." },
-        { "ko": "사진을 찍으셨습니까?", "en": "Did you take a photo? (formal)", "correct": false, "feedback": "Too formal — just say 사진 찍었어?" },
-        { "ko": "저도 아이유를 좋아해요.", "en": "I like IU too (polite).", "correct": false, "feedback": "요 is a touch formal, and it turns the spotlight onto you." }
-      ] },
-      { "role": "partner", "ko": "당연하지ㅋㅋ 이따 보여줄게", "en": "Of course lol I'll show you later" },
-      { "role": "you", "prompt": "Say you can't wait.", "choices": [
-        { "ko": "오 완전 기대된다!", "en": "Oh I can't wait!", "correct": true, "feedback": "완전 + 기대된다 is natural casual excitement." },
-        { "ko": "기대하겠습니다.", "en": "I will look forward to it (formal).", "correct": false, "feedback": "Stiff — friends say 기대된다." },
-        { "ko": "알겠습니다.", "en": "Understood (formal).", "correct": false, "feedback": "Cold and formal for a fun chat." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "나 오늘 길에서 연예인 봤어!",
+        "en": "I saw a celebrity on the street today!"
+      },
+      {
+        "role": "you",
+        "prompt": "React with surprise and ask who it was.",
+        "choices": [
+          {
+            "ko": "헐 진짜? 누구?",
+            "en": "What, really? Who?",
+            "correct": true,
+            "feedback": "헐 진짜? (reaction) + 누구? (follow-up) is textbook casual chatting."
+          },
+          {
+            "ko": "그렇군요.",
+            "en": "I see (polite).",
+            "correct": false,
+            "feedback": "Flat and formal — friends react bigger than this."
+          },
+          {
+            "ko": "축하합니다.",
+            "en": "Congratulations.",
+            "correct": false,
+            "feedback": "Doesn't fit — there's nothing to congratulate."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아이유! 카페에서 봤어ㅋㅋ",
+        "en": "IU! I saw her at a cafe lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Show you're jealous and ask if they got a photo.",
+        "choices": [
+          {
+            "ko": "대박 부럽다… 사진 찍었어?",
+            "en": "No way, I'm jealous… did you take a photo?",
+            "correct": true,
+            "feedback": "대박 + 부럽다 + a follow-up keeps the energy up."
+          },
+          {
+            "ko": "사진을 찍으셨습니까?",
+            "en": "Did you take a photo? (formal)",
+            "correct": false,
+            "feedback": "Too formal — just say 사진 찍었어?"
+          },
+          {
+            "ko": "저도 아이유를 좋아해요.",
+            "en": "I like IU too (polite).",
+            "correct": false,
+            "feedback": "요 is a touch formal, and it turns the spotlight onto you."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "당연하지ㅋㅋ 이따 보여줄게",
+        "en": "Of course lol I'll show you later"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you can't wait.",
+        "choices": [
+          {
+            "ko": "오 완전 기대된다!",
+            "en": "Oh I can't wait!",
+            "correct": true,
+            "feedback": "완전 + 기대된다 is natural casual excitement."
+          },
+          {
+            "ko": "기대하겠습니다.",
+            "en": "I will look forward to it (formal).",
+            "correct": false,
+            "feedback": "Stiff — friends say 기대된다."
+          },
+          {
+            "ko": "알겠습니다.",
+            "en": "Understood (formal).",
+            "correct": false,
+            "feedback": "Cold and formal for a fun chat."
+          }
+        ]
+      }
     ],
-    "vocab": ["연예인", "부럽다", "사진", "기대되다"]
+    "vocab": [
+      "연예인",
+      "부럽다",
+      "사진",
+      "기대되다"
+    ],
+    "register": "banmal"
   }
 ]

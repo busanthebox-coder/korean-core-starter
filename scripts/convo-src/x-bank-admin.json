@@ -16,9 +16,24 @@
         "role": "you",
         "prompt": "Say you'd like to open a bank account.",
         "choices": [
-          { "ko": "계좌를 만들고 싶어요.", "en": "I'd like to open an account.", "correct": true, "feedback": "-고 싶어요 states what service you want clearly and politely at the counter." },
-          { "ko": "계좌 만들어.", "en": "Make me an account. (too casual/rude)", "correct": false, "feedback": "The casual command 만들어 is rude to a bank employee." },
-          { "ko": "돈이 필요해요.", "en": "I need money. (wrong meaning)", "correct": false, "feedback": "This says you need money; it does not ask to open an account." }
+          {
+            "ko": "계좌를 만들고 싶어요.",
+            "en": "I'd like to open an account.",
+            "correct": true,
+            "feedback": "-고 싶어요 states what service you want clearly and politely at the counter."
+          },
+          {
+            "ko": "계좌 만들어.",
+            "en": "Make me an account. (too casual/rude)",
+            "correct": false,
+            "feedback": "The casual command 만들어 is rude to a bank employee."
+          },
+          {
+            "ko": "돈이 필요해요.",
+            "en": "I need money. (wrong meaning)",
+            "correct": false,
+            "feedback": "This says you need money; it does not ask to open an account."
+          }
         ]
       },
       {
@@ -30,9 +45,24 @@
         "role": "you",
         "prompt": "Hand over your ID and say 'here you are'. (You only have your foreigner ID card.)",
         "choices": [
-          { "ko": "여기 외국인등록증이요.", "en": "Here's my foreigner registration card.", "correct": true, "feedback": "여기 N이요 is a concise, polite way to hand over the requested document." },
-          { "ko": "신분증 없어요.", "en": "I don't have an ID. (then you can't open one)", "correct": false, "feedback": "This contradicts the situation because you do have your foreigner registration card." },
-          { "ko": "여권 집에 있어요.", "en": "My passport is at home. (unhelpful)", "correct": false, "feedback": "This does not hand over the ID you have with you, so the transaction cannot continue." }
+          {
+            "ko": "여기 외국인등록증이요.",
+            "en": "Here's my foreigner registration card.",
+            "correct": true,
+            "feedback": "여기 N이요 is a concise, polite way to hand over the requested document."
+          },
+          {
+            "ko": "신분증 없어요.",
+            "en": "I don't have an ID. (then you can't open one)",
+            "correct": false,
+            "feedback": "This contradicts the situation because you do have your foreigner registration card."
+          },
+          {
+            "ko": "여권 집에 있어요.",
+            "en": "My passport is at home. (unhelpful)",
+            "correct": false,
+            "feedback": "This does not hand over the ID you have with you, so the transaction cannot continue."
+          }
         ]
       },
       {
@@ -44,9 +74,24 @@
         "role": "you",
         "prompt": "Ask where you should write your phone number on the form.",
         "choices": [
-          { "ko": "전화번호는 어디에 적으면 돼요?", "en": "Where should I write my phone number?", "correct": true, "feedback": "어디에 적으면 돼요? asks for the exact place on the form naturally and politely." },
-          { "ko": "전화번호 몰라요.", "en": "I don't know the phone number. (odd)", "correct": false, "feedback": "This says you do not know the number instead of asking where to write it." },
-          { "ko": "이거 다 써요?", "en": "Do I write all of this? (vague)", "correct": false, "feedback": "이거 and 다 are too vague; the question must identify the phone-number field." }
+          {
+            "ko": "전화번호는 어디에 적으면 돼요?",
+            "en": "Where should I write my phone number?",
+            "correct": true,
+            "feedback": "어디에 적으면 돼요? asks for the exact place on the form naturally and politely."
+          },
+          {
+            "ko": "전화번호 몰라요.",
+            "en": "I don't know the phone number. (odd)",
+            "correct": false,
+            "feedback": "This says you do not know the number instead of asking where to write it."
+          },
+          {
+            "ko": "이거 다 써요?",
+            "en": "Do I write all of this? (vague)",
+            "correct": false,
+            "feedback": "이거 and 다 are too vague; the question must identify the phone-number field."
+          }
         ]
       },
       {
@@ -58,9 +103,24 @@
         "role": "you",
         "prompt": "Say yes, and ask if there's a fee.",
         "choices": [
-          { "ko": "네, 만들어 주세요. 수수료가 있나요?", "en": "Yes, please make one. Is there a fee?", "correct": true, "feedback": "This accepts the card offer and follows with the practical fee question in polite speech." },
-          { "ko": "아니요, 통장만요. 카드 싫어요.", "en": "No, just the bankbook. I hate cards. (blunt)", "correct": false, "feedback": "This rejects the card and does not ask about the fee; 카드 싫어요 also sounds unnecessarily blunt." },
-          { "ko": "카드가 뭐예요?", "en": "What's a card? (unnatural here)", "correct": false, "feedback": "The employee already offered a specific debit card, so this broad question is unnatural and misses the fee prompt." }
+          {
+            "ko": "네, 만들어 주세요. 수수료가 있나요?",
+            "en": "Yes, please make one. Is there a fee?",
+            "correct": true,
+            "feedback": "This accepts the card offer and follows with the practical fee question in polite speech."
+          },
+          {
+            "ko": "아니요, 통장만요. 카드 싫어요.",
+            "en": "No, just the bankbook. I hate cards. (blunt)",
+            "correct": false,
+            "feedback": "This rejects the card and does not ask about the fee; 카드 싫어요 also sounds unnecessarily blunt."
+          },
+          {
+            "ko": "카드가 뭐예요?",
+            "en": "What's a card? (unnatural here)",
+            "correct": false,
+            "feedback": "The employee already offered a specific debit card, so this broad question is unnatural and misses the fee prompt."
+          }
         ]
       },
       {
@@ -76,7 +136,8 @@
       "통장",
       "체크카드",
       "수수료"
-    ]
+    ],
+    "register": "haeyo"
   },
   {
     "id": "convo-gu-office-document",
@@ -95,9 +156,24 @@
         "role": "you",
         "prompt": "Ask where the number-ticket machine is.",
         "choices": [
-          { "ko": "번호표는 어디에서 뽑아요?", "en": "Where do I take a number ticket?", "correct": true, "feedback": "어디에서 뽑아요? asks for the ticket machine's location clearly and politely." },
-          { "ko": "번호표 줘.", "en": "Give me a number. (too casual/rude)", "correct": false, "feedback": "줘 is a casual command to the staff member and does not ask where the machine is." },
-          { "ko": "번호가 뭐예요?", "en": "What's the number? (confusing)", "correct": false, "feedback": "This asks what a number is, not where to take a number ticket." }
+          {
+            "ko": "번호표는 어디에서 뽑아요?",
+            "en": "Where do I take a number ticket?",
+            "correct": true,
+            "feedback": "어디에서 뽑아요? asks for the ticket machine's location clearly and politely."
+          },
+          {
+            "ko": "번호표 줘.",
+            "en": "Give me a number. (too casual/rude)",
+            "correct": false,
+            "feedback": "줘 is a casual command to the staff member and does not ask where the machine is."
+          },
+          {
+            "ko": "번호가 뭐예요?",
+            "en": "What's the number? (confusing)",
+            "correct": false,
+            "feedback": "This asks what a number is, not where to take a number ticket."
+          }
         ]
       },
       {
@@ -109,9 +185,24 @@
         "role": "you",
         "prompt": "Say you came to apply for a certificate of residence (a document).",
         "choices": [
-          { "ko": "주민등록등본을 발급받으러 왔어요.", "en": "I came to get a copy of my resident registration issued.", "correct": true, "feedback": "Naming the document and using -으러 왔어요 tells the clerk exactly why you came." },
-          { "ko": "서류 주세요, 빨리요.", "en": "Give me the document, quickly. (impolite)", "correct": false, "feedback": "The document is not identified, and 빨리요 makes the request sound impatient." },
-          { "ko": "여기 서류 있어요?", "en": "Do you have documents here? (vague)", "correct": false, "feedback": "서류 is too vague, and this does not explain that you came to have one issued." }
+          {
+            "ko": "주민등록등본을 발급받으러 왔어요.",
+            "en": "I came to get a copy of my resident registration issued.",
+            "correct": true,
+            "feedback": "Naming the document and using -으러 왔어요 tells the clerk exactly why you came."
+          },
+          {
+            "ko": "서류 주세요, 빨리요.",
+            "en": "Give me the document, quickly. (impolite)",
+            "correct": false,
+            "feedback": "The document is not identified, and 빨리요 makes the request sound impatient."
+          },
+          {
+            "ko": "여기 서류 있어요?",
+            "en": "Do you have documents here? (vague)",
+            "correct": false,
+            "feedback": "서류 is too vague, and this does not explain that you came to have one issued."
+          }
         ]
       },
       {
@@ -123,9 +214,24 @@
         "role": "you",
         "prompt": "Hand them over and say you've already filled out the form.",
         "choices": [
-          { "ko": "여기 있어요. 신청서는 미리 작성했어요.", "en": "Here you are. I filled out the form in advance.", "correct": true, "feedback": "여기 있어요 hands over both items, and 미리 작성했어요 gives the requested status clearly." },
-          { "ko": "신청서 안 썼어요, 그냥 주세요.", "en": "I didn't fill it out, just give it to me. (won't work)", "correct": false, "feedback": "This refuses the required form and demands the document without completing the process." },
-          { "ko": "이거 맞아요?", "en": "Is this right? (too vague)", "correct": false, "feedback": "이거 does not identify the ID or form, and the sentence never says the form is complete." }
+          {
+            "ko": "여기 있어요. 신청서는 미리 작성했어요.",
+            "en": "Here you are. I filled out the form in advance.",
+            "correct": true,
+            "feedback": "여기 있어요 hands over both items, and 미리 작성했어요 gives the requested status clearly."
+          },
+          {
+            "ko": "신청서 안 썼어요, 그냥 주세요.",
+            "en": "I didn't fill it out, just give it to me. (won't work)",
+            "correct": false,
+            "feedback": "This refuses the required form and demands the document without completing the process."
+          },
+          {
+            "ko": "이거 맞아요?",
+            "en": "Is this right? (too vague)",
+            "correct": false,
+            "feedback": "이거 does not identify the ID or form, and the sentence never says the form is complete."
+          }
         ]
       },
       {
@@ -137,9 +243,24 @@
         "role": "you",
         "prompt": "Pay, and ask when the document will be ready.",
         "choices": [
-          { "ko": "여기요. 서류는 언제 받을 수 있을까요?", "en": "Here you go. When will I be able to receive the document?", "correct": true, "feedback": "여기요 accompanies the payment, and -을 수 있을까요? asks the ready time politely." },
-          { "ko": "왜 이렇게 비싸요?", "en": "Why is it so expensive? (rude over 1,000 won)", "correct": false, "feedback": "This complains about the stated fee and never asks when the document will be ready." },
-          { "ko": "지금 당장 주세요.", "en": "Give it to me right now. (demanding)", "correct": false, "feedback": "지금 당장 주세요 is a demand and ignores the processing time." }
+          {
+            "ko": "여기요. 서류는 언제 받을 수 있을까요?",
+            "en": "Here you go. When will I be able to receive the document?",
+            "correct": true,
+            "feedback": "여기요 accompanies the payment, and -을 수 있을까요? asks the ready time politely."
+          },
+          {
+            "ko": "왜 이렇게 비싸요?",
+            "en": "Why is it so expensive? (rude over 1,000 won)",
+            "correct": false,
+            "feedback": "This complains about the stated fee and never asks when the document will be ready."
+          },
+          {
+            "ko": "지금 당장 주세요.",
+            "en": "Give it to me right now. (demanding)",
+            "correct": false,
+            "feedback": "지금 당장 주세요 is a demand and ignores the processing time."
+          }
         ]
       },
       {
@@ -155,6 +276,7 @@
       "발급받다",
       "접수하다",
       "수수료"
-    ]
+    ],
+    "register": "haeyo"
   }
 ]

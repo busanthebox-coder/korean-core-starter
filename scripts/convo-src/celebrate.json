@@ -7,32 +7,133 @@
     "partner": "친구",
     "tip": "For a birthday text, lead with the wish (생일 축하해!) then add a follow-up like 선물 뭐 받고 싶어? — friends keep it warm by moving toward an actual celebration.",
     "turns": [
-      { "role": "partner", "ko": "헐 너 내 생일 기억하고 있었어? ㅋㅋㅋ", "en": "Whoa you remembered my birthday? lol" },
-      { "role": "you", "prompt": "Say of course, wish them happy birthday warmly", "choices": [
-        { "ko": "당연하지 ㅋㅋ 생일 진짜 축하해!! 🎂", "en": "Of course lol happy birthday for real!! 🎂", "correct": true, "feedback": "당연하지 + 생일 축하해 is the warm, natural birthday opener friends use." },
-        { "ko": "귀하의 생신을 진심으로 경축드립니다.", "en": "I sincerely congratulate you on your birthday.", "correct": false, "feedback": "생신/경축드립니다 is honorific, for elders or formal cards — way too stiff for a friend." },
-        { "ko": "응 오늘이 며칠이지?", "en": "Yeah, what's the date today?", "correct": false, "feedback": "Doesn't actually wish them anything and changes the subject — kills the moment." }
-      ] },
-      { "role": "partner", "ko": "고마워 ㅠㅠ 챙겨주는 사람 너밖에 없다 진짜", "en": "Thank you ㅠㅠ you're literally the only one who looks out for me" },
-      { "role": "you", "prompt": "Brush it off sweetly and ask what they want as a gift", "choices": [
-        { "ko": "에이 무슨 ㅋㅋ 선물 뭐 받고 싶어? 말만 해", "en": "Aw come on lol what do you wanna get? just say the word", "correct": true, "feedback": "에이 무슨 deflects the compliment cutely, and the gift question moves it forward." },
-        { "ko": "선물 구매는 예산 범위 내에서 검토하겠습니다.", "en": "I'll review the gift purchase within the budget range.", "correct": false, "feedback": "Reads like a purchase order — corporate phrasing nobody texts a friend." },
-        { "ko": "맞아 내가 너 진짜 잘 챙기지.", "en": "True, I really do take good care of you.", "correct": false, "feedback": "Self-congratulating instead of reacting warmly — comes off cocky and dead-ends it." }
-      ] },
-      { "role": "partner", "ko": "음 딱히 없는데 ㅋㅋ 그냥 너랑 맛있는 거 먹고 싶어", "en": "Hmm nothing really lol I just wanna eat something good with you" },
-      { "role": "you", "prompt": "React happily and offer to treat them", "choices": [
-        { "ko": "오 콜 ㅋㅋ 오늘 생일이니까 내가 쏠게! 뭐 먹을까?", "en": "Oh deal lol it's your birthday so it's on me! what should we eat?", "correct": true, "feedback": "콜 + 내가 쏠게 is exactly how a friend offers to treat, plus a question keeps it rolling." },
-        { "ko": "식대는 더치페이로 정산하는 것이 합리적입니다.", "en": "Splitting the bill is the rational way to settle the cost.", "correct": false, "feedback": "정산/합리적 is accountant-speak — bizarrely cold on someone's birthday." },
-        { "ko": "나도 맛있는 거 먹고 싶어.", "en": "I wanna eat something good too.", "correct": false, "feedback": "Just mirrors them with no offer or plan — the chat stalls." }
-      ] },
-      { "role": "partner", "ko": "헐 진짜?? 완전 좋아 ㅋㅋ 고기 어때 고기!", "en": "Whoa really?? love it lol how about meat, meat!" },
-      { "role": "you", "prompt": "Agree and lock down when to meet", "choices": [
-        { "ko": "ㅋㅋㅋ 역시 생일엔 고기지 그럼 이따 7시에 볼까?", "en": "Lol meat is a must on your birthday so wanna meet at 7 later?", "correct": true, "feedback": "Playful agreement plus pinning the time turns the plan real — perfect close." },
-        { "ko": "육류 섭취 일정을 추후 통보드리겠습니다.", "en": "I'll notify you of the meat-consumption schedule later.", "correct": false, "feedback": "Sounds like an office memo — totally wrong register for a birthday plan." },
-        { "ko": "선물 뭐 받고 싶어?", "en": "What do you wanna get as a gift?", "correct": false, "feedback": "You already covered the gift earlier — looping back stalls the plan." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "헐 너 내 생일 기억하고 있었어? ㅋㅋㅋ",
+        "en": "Whoa you remembered my birthday? lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Say of course, wish them happy birthday warmly",
+        "choices": [
+          {
+            "ko": "당연하지 ㅋㅋ 생일 진짜 축하해!! 🎂",
+            "en": "Of course lol happy birthday for real!! 🎂",
+            "correct": true,
+            "feedback": "당연하지 + 생일 축하해 is the warm, natural birthday opener friends use."
+          },
+          {
+            "ko": "귀하의 생신을 진심으로 경축드립니다.",
+            "en": "I sincerely congratulate you on your birthday.",
+            "correct": false,
+            "feedback": "생신/경축드립니다 is honorific, for elders or formal cards — way too stiff for a friend."
+          },
+          {
+            "ko": "응 오늘이 며칠이지?",
+            "en": "Yeah, what's the date today?",
+            "correct": false,
+            "feedback": "Doesn't actually wish them anything and changes the subject — kills the moment."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "고마워 ㅠㅠ 챙겨주는 사람 너밖에 없다 진짜",
+        "en": "Thank you ㅠㅠ you're literally the only one who looks out for me"
+      },
+      {
+        "role": "you",
+        "prompt": "Brush it off sweetly and ask what they want as a gift",
+        "choices": [
+          {
+            "ko": "에이 무슨 ㅋㅋ 선물 뭐 받고 싶어? 말만 해",
+            "en": "Aw come on lol what do you wanna get? just say the word",
+            "correct": true,
+            "feedback": "에이 무슨 deflects the compliment cutely, and the gift question moves it forward."
+          },
+          {
+            "ko": "선물 구매는 예산 범위 내에서 검토하겠습니다.",
+            "en": "I'll review the gift purchase within the budget range.",
+            "correct": false,
+            "feedback": "Reads like a purchase order — corporate phrasing nobody texts a friend."
+          },
+          {
+            "ko": "맞아 내가 너 진짜 잘 챙기지.",
+            "en": "True, I really do take good care of you.",
+            "correct": false,
+            "feedback": "Self-congratulating instead of reacting warmly — comes off cocky and dead-ends it."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "음 딱히 없는데 ㅋㅋ 그냥 너랑 맛있는 거 먹고 싶어",
+        "en": "Hmm nothing really lol I just wanna eat something good with you"
+      },
+      {
+        "role": "you",
+        "prompt": "React happily and offer to treat them",
+        "choices": [
+          {
+            "ko": "오 콜 ㅋㅋ 오늘 생일이니까 내가 쏠게! 뭐 먹을까?",
+            "en": "Oh deal lol it's your birthday so it's on me! what should we eat?",
+            "correct": true,
+            "feedback": "콜 + 내가 쏠게 is exactly how a friend offers to treat, plus a question keeps it rolling."
+          },
+          {
+            "ko": "식대는 더치페이로 정산하는 것이 합리적입니다.",
+            "en": "Splitting the bill is the rational way to settle the cost.",
+            "correct": false,
+            "feedback": "정산/합리적 is accountant-speak — bizarrely cold on someone's birthday."
+          },
+          {
+            "ko": "나도 맛있는 거 먹고 싶어.",
+            "en": "I wanna eat something good too.",
+            "correct": false,
+            "feedback": "Just mirrors them with no offer or plan — the chat stalls."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "헐 진짜?? 완전 좋아 ㅋㅋ 고기 어때 고기!",
+        "en": "Whoa really?? love it lol how about meat, meat!"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and lock down when to meet",
+        "choices": [
+          {
+            "ko": "ㅋㅋㅋ 역시 생일엔 고기지 그럼 이따 7시에 볼까?",
+            "en": "Lol meat is a must on your birthday so wanna meet at 7 later?",
+            "correct": true,
+            "feedback": "Playful agreement plus pinning the time turns the plan real — perfect close."
+          },
+          {
+            "ko": "육류 섭취 일정을 추후 통보드리겠습니다.",
+            "en": "I'll notify you of the meat-consumption schedule later.",
+            "correct": false,
+            "feedback": "Sounds like an office memo — totally wrong register for a birthday plan."
+          },
+          {
+            "ko": "선물 뭐 받고 싶어?",
+            "en": "What do you wanna get as a gift?",
+            "correct": false,
+            "feedback": "You already covered the gift earlier — looping back stalls the plan."
+          }
+        ]
+      }
     ],
-    "vocab": ["당연하지", "생일 축하해", "챙기다", "에이 무슨", "쏘다", "콜", "역시"]
+    "vocab": [
+      "당연하지",
+      "생일 축하해",
+      "챙기다",
+      "에이 무슨",
+      "쏘다",
+      "콜",
+      "역시"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-congrats-new-job",
@@ -42,32 +143,133 @@
     "partner": "친구",
     "tip": "For big news, react big first (대박/축하해!) before any questions. After a long job hunt, acknowledging the grind (고생했어) hits harder than just 'congrats'.",
     "turns": [
-      { "role": "partner", "ko": "야 나 드디어 취뽀했다!!! ㅠㅠㅠ", "en": "Hey I finally landed a job!!! ㅠㅠㅠ" },
-      { "role": "you", "prompt": "React big and congratulate them", "choices": [
-        { "ko": "헐 대박!!! 진짜 축하해 ㅠㅠ 고생했어 진짜", "en": "Whoa amazing!!! congrats for real ㅠㅠ you worked so hard", "correct": true, "feedback": "대박 + 축하해 + 고생했어 nails the big reaction and honors the long grind." },
-        { "ko": "취업을 진심으로 축하드리는 바입니다.", "en": "I hereby sincerely congratulate you on your employment.", "correct": false, "feedback": "축하드리는 바입니다 is ceremonial/written language — way too stiff for a hyped friend." },
-        { "ko": "오 어디 회사인데?", "en": "Oh which company?", "correct": false, "feedback": "Jumps to questions without celebrating first — feels cold for huge news." }
-      ] },
-      { "role": "partner", "ko": "ㅠㅠ 진짜 면접을 몇 번이나 봤는지 몰라. 너무 오래 걸렸어", "en": "ㅠㅠ I lost count of how many interviews I had. It took so long." },
-      { "role": "you", "prompt": "Acknowledge how hard it was and ask which company", "choices": [
-        { "ko": "ㅠㅠ 알지 알지 진짜 고생 많았어 어느 회사야??", "en": "ㅠㅠ I know I know you went through so much which company is it??", "correct": true, "feedback": "Empathizes (고생 많았어) then asks the natural follow-up — keeps it flowing." },
-        { "ko": "구직 활동의 노고를 충분히 이해하는 바입니다.", "en": "I fully understand the toils of your job-seeking efforts.", "correct": false, "feedback": "노고/이해하는 바입니다 sounds like an award speech — robotic for a close friend." },
-        { "ko": "면접 그렇게 많이 봤어?", "en": "You did that many interviews?", "correct": false, "feedback": "Just repeats their line back as a question instead of reacting — sounds odd." }
-      ] },
-      { "role": "partner", "ko": "그 IT 회사! 나 다음 달부터 출근이야 ㅋㅋㅋ", "en": "That IT company! I start next month lol" },
-      { "role": "you", "prompt": "React and tease them lightly about a celebration", "choices": [
-        { "ko": "와 미쳤다 ㅋㅋ 이건 한턱 쏴야 되는 거 알지?", "en": "Wow that's insane lol you know you gotta treat me, right?", "correct": true, "feedback": "와 미쳤다 + the playful 한턱 쏴야 is exactly how friends tease over good news." },
-        { "ko": "입사 후 첫 급여일에 식사를 제공해 주시기 바랍니다.", "en": "Please provide a meal on your first payday after joining.", "correct": false, "feedback": "Reads like a formal request memo — kills the playful vibe completely." },
-        { "ko": "IT 회사는 야근이 많대.", "en": "I heard IT companies have a lot of overtime.", "correct": false, "feedback": "Negative and off-topic — deflates their happy news instead of celebrating." }
-      ] },
-      { "role": "partner", "ko": "ㅋㅋㅋ 당연하지 내가 거하게 쏜다 뭐 먹고 싶어?", "en": "Lol of course I'll treat you big time what do you wanna eat?" },
-      { "role": "you", "prompt": "Happily accept and suggest meeting up to celebrate", "choices": [
-        { "ko": "오예 ㅋㅋ 그럼 이번 주말에 만나서 제대로 축하하자!", "en": "Yess lol let's meet this weekend and celebrate properly then!", "correct": true, "feedback": "Excited yes plus 만나서 축하하자 turns the chat into a real plan — great close." },
-        { "ko": "메뉴 및 일정은 별도 협의 후 확정하겠습니다.", "en": "The menu and schedule will be finalized after separate consultation.", "correct": false, "feedback": "협의/확정하겠습니다 is meeting-minutes language — totally off for friends." },
-        { "ko": "고생했어 진짜.", "en": "You really worked hard.", "correct": false, "feedback": "You already said this earlier — repeating it ignores their offer and stalls." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "야 나 드디어 취뽀했다!!! ㅠㅠㅠ",
+        "en": "Hey I finally landed a job!!! ㅠㅠㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "React big and congratulate them",
+        "choices": [
+          {
+            "ko": "헐 대박!!! 진짜 축하해 ㅠㅠ 고생했어 진짜",
+            "en": "Whoa amazing!!! congrats for real ㅠㅠ you worked so hard",
+            "correct": true,
+            "feedback": "대박 + 축하해 + 고생했어 nails the big reaction and honors the long grind."
+          },
+          {
+            "ko": "취업을 진심으로 축하드리는 바입니다.",
+            "en": "I hereby sincerely congratulate you on your employment.",
+            "correct": false,
+            "feedback": "축하드리는 바입니다 is ceremonial/written language — way too stiff for a hyped friend."
+          },
+          {
+            "ko": "오 어디 회사인데?",
+            "en": "Oh which company?",
+            "correct": false,
+            "feedback": "Jumps to questions without celebrating first — feels cold for huge news."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅠㅠ 진짜 면접을 몇 번이나 봤는지 몰라. 너무 오래 걸렸어",
+        "en": "ㅠㅠ I lost count of how many interviews I had. It took so long."
+      },
+      {
+        "role": "you",
+        "prompt": "Acknowledge how hard it was and ask which company",
+        "choices": [
+          {
+            "ko": "ㅠㅠ 알지 알지 진짜 고생 많았어 어느 회사야??",
+            "en": "ㅠㅠ I know I know you went through so much which company is it??",
+            "correct": true,
+            "feedback": "Empathizes (고생 많았어) then asks the natural follow-up — keeps it flowing."
+          },
+          {
+            "ko": "구직 활동의 노고를 충분히 이해하는 바입니다.",
+            "en": "I fully understand the toils of your job-seeking efforts.",
+            "correct": false,
+            "feedback": "노고/이해하는 바입니다 sounds like an award speech — robotic for a close friend."
+          },
+          {
+            "ko": "면접 그렇게 많이 봤어?",
+            "en": "You did that many interviews?",
+            "correct": false,
+            "feedback": "Just repeats their line back as a question instead of reacting — sounds odd."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그 IT 회사! 나 다음 달부터 출근이야 ㅋㅋㅋ",
+        "en": "That IT company! I start next month lol"
+      },
+      {
+        "role": "you",
+        "prompt": "React and tease them lightly about a celebration",
+        "choices": [
+          {
+            "ko": "와 미쳤다 ㅋㅋ 이건 한턱 쏴야 되는 거 알지?",
+            "en": "Wow that's insane lol you know you gotta treat me, right?",
+            "correct": true,
+            "feedback": "와 미쳤다 + the playful 한턱 쏴야 is exactly how friends tease over good news."
+          },
+          {
+            "ko": "입사 후 첫 급여일에 식사를 제공해 주시기 바랍니다.",
+            "en": "Please provide a meal on your first payday after joining.",
+            "correct": false,
+            "feedback": "Reads like a formal request memo — kills the playful vibe completely."
+          },
+          {
+            "ko": "IT 회사는 야근이 많대.",
+            "en": "I heard IT companies have a lot of overtime.",
+            "correct": false,
+            "feedback": "Negative and off-topic — deflates their happy news instead of celebrating."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 당연하지 내가 거하게 쏜다 뭐 먹고 싶어?",
+        "en": "Lol of course I'll treat you big time what do you wanna eat?"
+      },
+      {
+        "role": "you",
+        "prompt": "Happily accept and suggest meeting up to celebrate",
+        "choices": [
+          {
+            "ko": "오예 ㅋㅋ 그럼 이번 주말에 만나서 제대로 축하하자!",
+            "en": "Yess lol let's meet this weekend and celebrate properly then!",
+            "correct": true,
+            "feedback": "Excited yes plus 만나서 축하하자 turns the chat into a real plan — great close."
+          },
+          {
+            "ko": "메뉴 및 일정은 별도 협의 후 확정하겠습니다.",
+            "en": "The menu and schedule will be finalized after separate consultation.",
+            "correct": false,
+            "feedback": "협의/확정하겠습니다 is meeting-minutes language — totally off for friends."
+          },
+          {
+            "ko": "고생했어 진짜.",
+            "en": "You really worked hard.",
+            "correct": false,
+            "feedback": "You already said this earlier — repeating it ignores their offer and stalls."
+          }
+        ]
+      }
     ],
-    "vocab": ["취뽀", "대박", "고생했어", "미쳤다", "한턱 쏘다", "거하게", "오예"]
+    "vocab": [
+      "취뽀",
+      "대박",
+      "고생했어",
+      "미쳤다",
+      "한턱 쏘다",
+      "거하게",
+      "오예"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-weather-small-talk",
@@ -77,31 +279,132 @@
     "partner": "친구",
     "tip": "Weather is the easiest small-talk opener. Agree (그치/그러니까), add a tiny opinion, then pivot to a plan — that's how casual chat turns into actually doing something.",
     "turns": [
-      { "role": "partner", "ko": "와 오늘 날씨 진짜 미쳤다 완전 봄이네", "en": "Wow the weather today is insane, totally spring" },
-      { "role": "you", "prompt": "Agree and add how you feel about it", "choices": [
-        { "ko": "그러니까 ㅋㅋ 이런 날엔 막 어디 나가고 싶어", "en": "Right lol on days like this I just wanna go somewhere", "correct": true, "feedback": "그러니까 agrees, then a little opinion opens the door to a plan — very natural." },
-        { "ko": "금일 기온은 평년 대비 다소 높은 편입니다.", "en": "Today's temperature is somewhat above the seasonal average.", "correct": false, "feedback": "Sounds like a weather broadcast — way too formal for chatting with a friend." },
-        { "ko": "응 날씨 좋네.", "en": "Yeah, nice weather.", "correct": false, "feedback": "Agrees but adds nothing — flat and the small talk just dies." }
-      ] },
-      { "role": "partner", "ko": "ㅋㅋㅋ 그치 요즘 집에만 있기 너무 아까워", "en": "Lol right it feels like such a waste to just stay home these days" },
-      { "role": "you", "prompt": "Strongly agree and relate it to yourself", "choices": [
-        { "ko": "헐 인정 ㅋㅋ 나도 주말 내내 집에만 있었잖아", "en": "Ugh facts lol I literally stayed home all weekend too", "correct": true, "feedback": "헐 인정 is super natural agreement, and relating back makes it feel mutual." },
-        { "ko": "외출 자제는 건강 관리에 도움이 됩니다.", "en": "Refraining from going out helps with health management.", "correct": false, "feedback": "Reads like a public-health notice — bizarrely stiff and off-topic." },
-        { "ko": "넌 집에만 있는 게 좋아?", "en": "Do you like staying home?", "correct": false, "feedback": "Slightly contrary and shifts focus onto them — breaks the agreeing flow." }
-      ] },
-      { "role": "partner", "ko": "ㅋㅋㅋ 우리 둘 다 집에만 있었네 진짜", "en": "Lol, we've both been staying home all this time." },
-      { "role": "you", "prompt": "Laugh it off and suggest going out somewhere", "choices": [
-        { "ko": "ㅋㅋㅋ 맞아 근데 오늘은 나가자 한강 갈래?", "en": "Lol true but let's go out today, wanna hit the Han River?", "correct": true, "feedback": "Agrees with a laugh then pitches 한강 갈래? — turns small talk into a plan." },
-        { "ko": "야외 활동을 적극 권장하는 바입니다.", "en": "I strongly recommend outdoor activities.", "correct": false, "feedback": "권장하는 바입니다 sounds like a brochure — not how friends suggest hanging out." },
-        { "ko": "집순이가 무슨 뜻이야?", "en": "What does homebody mean?", "correct": false, "feedback": "Derails into a definition question instead of riding the easy vibe." }
-      ] },
-      { "role": "partner", "ko": "오 한강 좋다!! 가서 치맥 하자 ㅋㅋ", "en": "Oh the Han River sounds great!! let's get chicken and beer there lol" },
-      { "role": "you", "prompt": "Get hyped and say let's head out now", "choices": [
-        { "ko": "오 완전 콜 ㅋㅋ 날씨도 좋은데 지금 바로 가자!", "en": "Oh totally deal lol weather's nice so let's go right now!", "correct": true, "feedback": "콜 + 지금 바로 가자 locks the plan with great energy — a perfect close." },
-        { "ko": "치킨과 맥주 섭취 후 귀가 시간을 정하시지요.", "en": "Let us set a return time after consuming chicken and beer.", "correct": false, "feedback": "Over-formal and weirdly logistical — sucks all the fun out of it." },
-        { "ko": "날씨 진짜 좋다 그치?", "en": "The weather's really nice huh?", "correct": false, "feedback": "Loops back to the opening weather line instead of moving on the plan." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "와 오늘 날씨 진짜 미쳤다 완전 봄이네",
+        "en": "Wow the weather today is insane, totally spring"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and add how you feel about it",
+        "choices": [
+          {
+            "ko": "그러니까 ㅋㅋ 이런 날엔 막 어디 나가고 싶어",
+            "en": "Right lol on days like this I just wanna go somewhere",
+            "correct": true,
+            "feedback": "그러니까 agrees, then a little opinion opens the door to a plan — very natural."
+          },
+          {
+            "ko": "금일 기온은 평년 대비 다소 높은 편입니다.",
+            "en": "Today's temperature is somewhat above the seasonal average.",
+            "correct": false,
+            "feedback": "Sounds like a weather broadcast — way too formal for chatting with a friend."
+          },
+          {
+            "ko": "응 날씨 좋네.",
+            "en": "Yeah, nice weather.",
+            "correct": false,
+            "feedback": "Agrees but adds nothing — flat and the small talk just dies."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 그치 요즘 집에만 있기 너무 아까워",
+        "en": "Lol right it feels like such a waste to just stay home these days"
+      },
+      {
+        "role": "you",
+        "prompt": "Strongly agree and relate it to yourself",
+        "choices": [
+          {
+            "ko": "헐 인정 ㅋㅋ 나도 주말 내내 집에만 있었잖아",
+            "en": "Ugh facts lol I literally stayed home all weekend too",
+            "correct": true,
+            "feedback": "헐 인정 is super natural agreement, and relating back makes it feel mutual."
+          },
+          {
+            "ko": "외출 자제는 건강 관리에 도움이 됩니다.",
+            "en": "Refraining from going out helps with health management.",
+            "correct": false,
+            "feedback": "Reads like a public-health notice — bizarrely stiff and off-topic."
+          },
+          {
+            "ko": "넌 집에만 있는 게 좋아?",
+            "en": "Do you like staying home?",
+            "correct": false,
+            "feedback": "Slightly contrary and shifts focus onto them — breaks the agreeing flow."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 우리 둘 다 집에만 있었네 진짜",
+        "en": "Lol, we've both been staying home all this time."
+      },
+      {
+        "role": "you",
+        "prompt": "Laugh it off and suggest going out somewhere",
+        "choices": [
+          {
+            "ko": "ㅋㅋㅋ 맞아 근데 오늘은 나가자 한강 갈래?",
+            "en": "Lol true but let's go out today, wanna hit the Han River?",
+            "correct": true,
+            "feedback": "Agrees with a laugh then pitches 한강 갈래? — turns small talk into a plan."
+          },
+          {
+            "ko": "야외 활동을 적극 권장하는 바입니다.",
+            "en": "I strongly recommend outdoor activities.",
+            "correct": false,
+            "feedback": "권장하는 바입니다 sounds like a brochure — not how friends suggest hanging out."
+          },
+          {
+            "ko": "집순이가 무슨 뜻이야?",
+            "en": "What does homebody mean?",
+            "correct": false,
+            "feedback": "Derails into a definition question instead of riding the easy vibe."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 한강 좋다!! 가서 치맥 하자 ㅋㅋ",
+        "en": "Oh the Han River sounds great!! let's get chicken and beer there lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Get hyped and say let's head out now",
+        "choices": [
+          {
+            "ko": "오 완전 콜 ㅋㅋ 날씨도 좋은데 지금 바로 가자!",
+            "en": "Oh totally deal lol weather's nice so let's go right now!",
+            "correct": true,
+            "feedback": "콜 + 지금 바로 가자 locks the plan with great energy — a perfect close."
+          },
+          {
+            "ko": "치킨과 맥주 섭취 후 귀가 시간을 정하시지요.",
+            "en": "Let us set a return time after consuming chicken and beer.",
+            "correct": false,
+            "feedback": "Over-formal and weirdly logistical — sucks all the fun out of it."
+          },
+          {
+            "ko": "날씨 진짜 좋다 그치?",
+            "en": "The weather's really nice huh?",
+            "correct": false,
+            "feedback": "Loops back to the opening weather line instead of moving on the plan."
+          }
+        ]
+      }
     ],
-    "vocab": ["미쳤다", "그러니까", "아깝다", "인정", "집에만 있다", "한강", "치맥"]
+    "vocab": [
+      "미쳤다",
+      "그러니까",
+      "아깝다",
+      "인정",
+      "집에만 있다",
+      "한강",
+      "치맥"
+    ],
+    "register": "banmal"
   }
 ]

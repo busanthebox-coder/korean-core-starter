@@ -3,7 +3,7 @@
   import { push } from 'svelte-spa-router';
   import { chapters, conversations, dialogues } from '../lib/data.js';
   import { buildSayItItems } from '../lib/sayIt.js';
-  import { lessonProgress, shadowProgress, spokenDayCount, spokenProgress } from '../lib/stores.js';
+  import { filterByRegister, lessonProgress, roleplayRegister, shadowProgress, spokenDayCount, spokenProgress } from '../lib/stores.js';
   import AudioButton from '../lib/components/AudioButton.svelte';
   import Talk from './Talk.svelte';
   import Conversation from './Conversation.svelte';
@@ -36,7 +36,9 @@
   $: currentChapter = chapters.find((chapter) => !$lessonProgress.has(chapter.id)) || chapters[0] || null;
   $: sayItItems = currentChapter ? buildSayItItems(currentChapter) : [];
   $: recommendedShadow = dialogues.find((dialogue) => !$shadowProgress.has(sceneKey(dialogue))) || dialogues[0] || null;
-  $: recommendedRoleplay = conversations[0] || null;
+  // Follow the learner's Roleplay register choice (해요체 by default) so the
+  // suggested scene matches the speech style they're actually practising.
+  $: recommendedRoleplay = filterByRegister(conversations, $roleplayRegister)[0] || conversations[0] || null;
   $: dayCount = spokenDayCount($spokenProgress);
 </script>
 

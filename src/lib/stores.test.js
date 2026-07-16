@@ -36,6 +36,9 @@ import {
   toggleImeFallback,
   toggleLessonDone,
   unmarkLessonDone,
+  roleplayRegister,
+  setRoleplayRegister,
+  filterByRegister,
 } from './stores.js';
 
 beforeEach(() => {
@@ -173,5 +176,28 @@ describe('stores', () => {
     markRomanNudgeSeen();
     expect(get(romanNudgeSeen)).toBe(true);
     expect(localStorage.getItem('kcs.roman-nudge-v1')).toBe('1');
+  });
+
+  it('defaults the roleplay register to 해요체 and persists changes', () => {
+    expect(get(roleplayRegister)).toBe('haeyo');
+    setRoleplayRegister('banmal');
+    expect(get(roleplayRegister)).toBe('banmal');
+    expect(localStorage.getItem('kcs.roleplay-register-v1')).toBe('banmal');
+  });
+
+  it('falls back to 해요체 when given an unknown register', () => {
+    setRoleplayRegister('nonsense');
+    expect(get(roleplayRegister)).toBe('haeyo');
+  });
+
+  it('filters scenarios by register, treating untagged items as 반말', () => {
+    const items = [
+      { id: 'a', register: 'haeyo' },
+      { id: 'b', register: 'banmal' },
+      { id: 'c' }, // untagged legacy scenario
+    ];
+    expect(filterByRegister(items, 'haeyo').map((i) => i.id)).toEqual(['a']);
+    expect(filterByRegister(items, 'banmal').map((i) => i.id)).toEqual(['b', 'c']);
+    expect(filterByRegister(items, 'all')).toHaveLength(3);
   });
 });

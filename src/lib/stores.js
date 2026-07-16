@@ -264,4 +264,19 @@ export function spokenDayCount(state = {}) {
 }
 export function resetSpokenProgress() { spokenProgress.set({}); }
 
+// Roleplay register filter. Defaults to 해요체: a learner meeting Koreans for the
+// first time speaks 해요체 with them, and that is the register the course teaches —
+// 반말 scenarios stay one tap away rather than being the default practice.
+export const ROLEPLAY_REGISTERS = ['haeyo', 'banmal', 'all'];
+export const roleplayRegister = persistedString('kcs.roleplay-register-v1', 'haeyo');
+export function setRoleplayRegister(value) {
+  const next = ROLEPLAY_REGISTERS.includes(value) ? value : 'haeyo';
+  writeStoredString('kcs.roleplay-register-v1', next);
+  roleplayRegister.set(next);
+}
+export function filterByRegister(items = [], register = 'haeyo') {
+  if (register === 'all') return items;
+  return items.filter((item) => (item?.register || 'banmal') === register);
+}
+
 export const filters = writable({ search: '', type: new Set(), level: new Set(), topic: new Set(), pos: new Set() });

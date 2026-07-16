@@ -1,13 +1,36 @@
 <script>
   import { conversations } from '../lib/data.js';
   import { shuffle } from '../lib/quiz.js';
+  import { roleplayRegister, setRoleplayRegister, filterByRegister } from '../lib/stores.js';
   import ChatBubble from '../lib/components/ChatBubble.svelte';
   import ReplyPracticePanel from '../lib/components/ReplyPracticePanel.svelte';
 
   const SETTING = {
     texting: { icon: 'ti-device-mobile', label: 'Texting' },
     hangout: { icon: 'ti-users', label: 'Hanging out' },
+    counter: { icon: 'ti-building-store', label: 'At a counter' },
+    'in person': { icon: 'ti-users', label: 'In person' },
+    cafe: { icon: 'ti-coffee', label: 'Cafe' },
+    restaurant: { icon: 'ti-tools-kitchen-2', label: 'Restaurant' },
+    office: { icon: 'ti-briefcase', label: 'Office' },
+    elevator: { icon: 'ti-building', label: 'Neighbours' },
+    salon: { icon: 'ti-scissors', label: 'Salon' },
+    taxi: { icon: 'ti-car', label: 'Taxi' },
+    gym: { icon: 'ti-barbell', label: 'Gym' },
+    home: { icon: 'ti-home', label: 'Visiting' },
   };
+
+  const REGISTERS = [
+    { key: 'haeyo', label: '해요체 · Polite' },
+    { key: 'banmal', label: '반말 · Casual' },
+    { key: 'all', label: 'All' },
+  ];
+  const REGISTER_BADGE = { haeyo: '해요체', banmal: '반말' };
+
+  $: visibleConversations = filterByRegister(conversations, $roleplayRegister);
+  $: pairedWith = selected?.pairId
+    ? conversations.find((c) => c.id === selected.pairId)
+    : conversations.find((c) => c.pairId === selected?.id);
 
   let selected = null;
   let mode = 'roleplay'; // 'roleplay' | 'respond'
@@ -59,23 +82,42 @@
 {#if !selected}
   <section class="convo">
     <div class="hero">
-      <div class="eyebrow">Casual conversation · 반말</div>
+      <div class="eyebrow">Real conversations</div>
       <h1>Roleplay</h1>
-      <p>Practice real, casual conversations. Pick the natural reply, or type your own and check it.</p>
+      <p>Practice replying in real situations. Pick the natural reply, or type your own and check it.</p>
     </div>
+    <div class="reg-filter" role="group" aria-label="Speech style">
+      {#each REGISTERS as r}
+        <button class="reg" class:on={$roleplayRegister === r.key}
+          aria-pressed={$roleplayRegister === r.key}
+          on:click={() => setRoleplayRegister(r.key)}>{r.label}</button>
+      {/each}
+    </div>
+    <p class="reg-note">
+      {#if $roleplayRegister === 'haeyo'}
+        Polite 해요체 — what you'll actually speak with Koreans you've just met.
+      {:else if $roleplayRegister === 'banmal'}
+        Casual 반말 — for close friends. Save these until someone offers to drop the 요.
+      {:else}
+        Every scenario, both speech styles.
+      {/if}
+    </p>
     <div class="cards">
-      {#each conversations as c (c.id)}
+      {#each visibleConversations as c (c.id)}
         <button class="scard" on:click={() => openScenario(c)}>
           <span class="sicon"><i class="ti {(SETTING[c.setting] || {}).icon || 'ti-messages'}" aria-hidden="true"></i></span>
           <span class="smain">
             <strong>{c.title}</strong>
             <span class="ssit">{c.situation}</span>
-            <span class="schip">{(SETTING[c.setting] || {}).label || c.setting}</span>
+            <span class="chips">
+              <span class="schip">{(SETTING[c.setting] || {}).label || c.setting}</span>
+              <span class="schip reg-chip" class:polite={c.register === 'haeyo'}>{REGISTER_BADGE[c.register] || '반말'}</span>
+            </span>
           </span>
           <span class="chev">▸</span>
         </button>
       {:else}
-        <p class="empty">No conversations yet.</p>
+        <p class="empty">No conversations in this style yet.</p>
       {/each}
     </div>
   </section>
@@ -92,6 +134,12 @@
     <div class="phead">
       <h1 class="ptitle">{selected.title}</h1>
       <p class="psit">{selected.situation}</p>
+      {#if pairedWith}
+        <button class="pair-link" on:click={() => openScenario(pairedWith)}>
+          <i class="ti ti-switch-horizontal" aria-hidden="true"></i>
+          {selected.register === 'haeyo' ? 'See the 반말 version (close friends)' : 'See the 해요체 version (polite)'}
+        </button>
+      {/if}
     </div>
 
     <div class="thread">
@@ -169,7 +217,22 @@
   .smain { display: grid; gap: 3px; flex: 1; }
   .smain strong { font-size: 16px; }
   .ssit { color: var(--ink-2); font-size: 13px; }
-  .schip { justify-self: start; margin-top: 2px; font-size: 11px; font-weight: 800; padding: 2px 9px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+  .schip { justify-self: start; font-size: 11px; font-weight: 800; padding: 2px 9px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); }
+  .reg-chip { background: var(--surface-2); color: var(--ink-3); }
+  .reg-chip.polite { background: var(--green-soft); color: var(--green-dark); }
+
+  .reg-filter { display: flex; flex-wrap: wrap; gap: 8px; }
+  .reg { padding: 8px 14px; border-radius: 999px; border: 1.5px solid var(--border); background: var(--surface);
+    color: var(--ink-2); font-size: 13px; font-weight: 800; }
+  .reg:hover { border-color: var(--ink-3); }
+  .reg.on { border-color: var(--primary); background: var(--primary-wash); color: var(--accent-ink); }
+  .reg-note { margin: -4px 0 0; color: var(--ink-3); font-size: 12.5px; line-height: 1.5; }
+
+  .pair-link { justify-self: start; margin-top: 8px; display: inline-flex; align-items: center; gap: 6px;
+    padding: 7px 12px; border-radius: 999px; border: 1px dashed var(--border); background: transparent;
+    color: var(--ink-2); font-size: 12.5px; font-weight: 800; }
+  .pair-link:hover { border-color: var(--primary); color: var(--accent-ink); }
   .chev { color: var(--ink-3); }
   .empty { color: var(--ink-3); }
 

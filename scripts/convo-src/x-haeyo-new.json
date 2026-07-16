@@ -1,0 +1,1072 @@
+[
+  {
+    "id": "convo-cafe-regular-smalltalk",
+    "title": "Your Usual at the Café",
+    "situation": "You walk into the café you go to every week and the owner recognizes you right away.",
+    "setting": "cafe",
+    "partner": "카페 사장님",
+    "tip": "Regular-customer small talk lives on tiny extras: order, add one small comment, then ask the owner something back. A bare 네 ends the chat before it starts.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "어, 오셨네요! 오늘도 같은 걸로 드릴까요?",
+        "en": "Oh, you're here! Same thing as always?"
+      },
+      {
+        "role": "you",
+        "prompt": "Order your usual and add a small friendly comment",
+        "choices": [
+          {
+            "ko": "네, 아이스 아메리카노요! 여기 커피가 제일 맛있어서요ㅎㅎ",
+            "en": "Yes, iced americano! Your coffee is the best, that's whyㅎㅎ",
+            "correct": true,
+            "feedback": "Orders and adds a small compliment — that extra half-sentence is what turns a transaction into small talk."
+          },
+          {
+            "ko": "네.",
+            "en": "Yes.",
+            "correct": false,
+            "feedback": "Grammatical but a dead end. The owner opened a friendly door and you closed it in one syllable."
+          },
+          {
+            "ko": "동일한 음료로 주문하도록 하겠습니다.",
+            "en": "I shall place an order for the identical beverage.",
+            "correct": false,
+            "feedback": "합니다체 plus stiff written vocabulary (동일한 음료) — sounds like a form, not a regular saying hi."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아이고 감사해요ㅎㅎ 오늘 진짜 덥죠? 밖에 난리예요.",
+        "en": "Aw, thank youㅎㅎ It's really hot today, right? It's wild outside."
+      },
+      {
+        "role": "you",
+        "prompt": "Agree about the heat and ask the owner something back",
+        "choices": [
+          {
+            "ko": "그러니까요, 나오자마자 땀났어요. 사장님은 오늘 바쁘셨어요?",
+            "en": "Right? I started sweating the second I stepped out. Were you busy today?",
+            "correct": true,
+            "feedback": "그러니까요 agrees, one concrete detail (땀났어요) proves you mean it, and the question back makes it two-way."
+          },
+          {
+            "ko": "네, 덥습니다.",
+            "en": "Yes, it is hot.",
+            "correct": false,
+            "feedback": "Correct Korean, but flat and one-way — the owner has to do all the work of keeping this going."
+          },
+          {
+            "ko": "오늘 최고 기온이 삼십사 도까지 올라간다고 합니다.",
+            "en": "Today's high is reported to reach thirty-four degrees.",
+            "correct": false,
+            "feedback": "You answered like a weather forecast instead of a person. Reporting facts isn't reacting."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아침엔 좀 바빴는데 지금은 한가해요. 저는 이 시간이 제일 좋아요.",
+        "en": "Mornings get busy, but it's quiet now. This is my favorite time of day."
+      },
+      {
+        "role": "you",
+        "prompt": "Say you like this time too and give a reason",
+        "choices": [
+          {
+            "ko": "저도 이 시간이 좋아요. 조용해서 책 읽기 딱이에요.",
+            "en": "I like this time too. It's quiet, so it's perfect for reading.",
+            "correct": true,
+            "feedback": "저도 finds common ground, and the reason (조용해서) gives the owner something to keep talking about."
+          },
+          {
+            "ko": "그렇군요.",
+            "en": "I see.",
+            "correct": false,
+            "feedback": "Polite but empty. 그렇군요 acknowledges without offering anything — the conversation stalls right here."
+          },
+          {
+            "ko": "그럼 장사가 잘 안되시나 봐요?",
+            "en": "So business must be slow, then?",
+            "correct": false,
+            "feedback": "Grammatical, but it turns a warm remark into a jab at their business. Read 한가해요 as relief, not a complaint."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "맞아요ㅎㅎ 편하게 계시다 가세요. 커피 나오면 불러 드릴게요.",
+        "en": "Exactlyㅎㅎ Make yourself comfortable. I'll call you when the coffee's ready."
+      },
+      {
+        "role": "you",
+        "prompt": "Close the chat warmly",
+        "choices": [
+          {
+            "ko": "네, 감사합니다! 잘 마실게요ㅎㅎ",
+            "en": "Sure, thank you! I'll enjoy itㅎㅎ",
+            "correct": true,
+            "feedback": "Short, warm, and 잘 마실게요 is the natural little sign-off Koreans use when someone hands them a drink."
+          },
+          {
+            "ko": "응, 알겠어.",
+            "en": "Yeah, got it.",
+            "correct": false,
+            "feedback": "This is 반말. Even with a friendly owner you know well, dropping to 반말 first sounds presumptuous — stay in 해요체."
+          },
+          {
+            "ko": "커피가 몇 분 후에 나오는지 정확히 알려 주시겠습니까?",
+            "en": "Could you tell me precisely how many minutes until the coffee is ready?",
+            "correct": false,
+            "feedback": "Over-formal and oddly demanding for a café you visit weekly — it makes a kind offer sound like a complaint."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "같은 걸로",
+      "덥다",
+      "땀나다",
+      "바쁘다",
+      "한가하다",
+      "조용하다",
+      "딱이다"
+    ]
+  },
+  {
+    "id": "convo-language-exchange-first-meet",
+    "title": "Language Exchange: First Meeting",
+    "situation": "You meet your new language exchange partner at a café for the very first time.",
+    "setting": "cafe",
+    "partner": "언어교환 파트너",
+    "tip": "First meetings run on 해요체 both ways. Answer, add one honest detail, then hand the question back (…씨는요?) — that loop is what makes a second meeting happen.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "안녕하세요! 저 지수예요. 만나서 반가워요ㅎㅎ",
+        "en": "Hi! I'm Jisu. Nice to meet youㅎㅎ"
+      },
+      {
+        "role": "you",
+        "prompt": "Introduce yourself and greet them back",
+        "choices": [
+          {
+            "ko": "안녕하세요, 저는 크리스예요! 저도 반가워요. 오래 기다리셨어요?",
+            "en": "Hi, I'm Chris! Nice to meet you too. Did you wait long?",
+            "correct": true,
+            "feedback": "Name, matching greeting, and a small caring question — 해요체 like this is exactly the register between new peers."
+          },
+          {
+            "ko": "안녕하십니까. 저는 크리스라고 합니다.",
+            "en": "Good day. I am called Chris.",
+            "correct": false,
+            "feedback": "합니다체 is fine on a stage or in a job interview, not across a café table. It puts distance where you want warmth."
+          },
+          {
+            "ko": "네, 안녕하세요.",
+            "en": "Yes, hello.",
+            "correct": false,
+            "feedback": "You never said your name. They introduced themselves and got almost nothing back — an awkward start."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아니에요, 저도 방금 왔어요. 한국어 공부한 지 얼마나 됐어요?",
+        "en": "Not at all, I just got here too. How long have you been studying Korean?"
+      },
+      {
+        "role": "you",
+        "prompt": "Answer how long, then ask about their English",
+        "choices": [
+          {
+            "ko": "한 육 개월 됐어요. 아직 어려운데 재밌어요! 지수 씨는 영어 오래 했어요?",
+            "en": "About six months. Still hard, but fun! Jisu, have you studied English long?",
+            "correct": true,
+            "feedback": "한 육 개월 (about six months) sounds relaxed, the honest 어려운데 재밌어요 invites empathy, and the bounce-back keeps it balanced."
+          },
+          {
+            "ko": "육 개월이요.",
+            "en": "Six months.",
+            "correct": false,
+            "feedback": "A bare fact. True, polite, and the conversation now has nowhere to go."
+          },
+          {
+            "ko": "저는 한국어를 육 개월 동안 학습하였습니다.",
+            "en": "I have been engaged in the study of the Korean language for six months.",
+            "correct": false,
+            "feedback": "학습하였습니다 is textbook written Korean. Nobody says this out loud to someone they just met over coffee."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "저는 학교 때부터 했는데 말하기는 아직 자신 없어요ㅠㅠ",
+        "en": "Since school, but I'm still not confident speakingㅠㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Relate to their nerves instead of advising them",
+        "choices": [
+          {
+            "ko": "저도 똑같아요! 말할 때 제일 떨려요. 그래서 이런 만남이 좋은 것 같아요.",
+            "en": "Same here! Speaking makes me the most nervous. That's why meetups like this are good.",
+            "correct": true,
+            "feedback": "저도 똑같아요 turns their weak spot into shared ground, and it quietly explains why you're both sitting here."
+          },
+          {
+            "ko": "그럼 더 열심히 공부하셔야 돼요.",
+            "en": "Then you'll have to study harder.",
+            "correct": false,
+            "feedback": "Grammatical, but they were being vulnerable, not asking for advice. This lands as a lecture."
+          },
+          {
+            "ko": "아 그렇군요.",
+            "en": "Ah, I see.",
+            "correct": false,
+            "feedback": "They just admitted something a bit embarrassing and you gave them nothing back. React first, always."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "맞아요ㅎㅎ 그럼 우리 반은 한국어, 반은 영어로 할까요?",
+        "en": "Rightㅎㅎ So should we do half Korean, half English?"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree to the plan and set up a next meeting",
+        "choices": [
+          {
+            "ko": "좋아요! 삼십 분씩 나눠서 해요. 다음 주에도 이 시간에 만날 수 있어요?",
+            "en": "Sounds good! Let's split it thirty minutes each. Can we meet at this time next week too?",
+            "correct": true,
+            "feedback": "Says yes, makes it concrete (삼십 분씩), then proposes a next time — this is how a first meeting becomes a routine."
+          },
+          {
+            "ko": "네, 그렇게 하시죠.",
+            "en": "Yes, let's proceed that way.",
+            "correct": false,
+            "feedback": "하시죠 sounds like a manager closing a meeting. Correct grammar, wrong power dynamic between equals."
+          },
+          {
+            "ko": "저는 영어로만 하고 싶어요.",
+            "en": "I'd like to do it in English only.",
+            "correct": false,
+            "feedback": "Perfectly grammatical and completely misses the point — a language exchange only works if both sides get practice."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네 좋아요! 그럼 다음 주 같은 시간에 여기서 봐요ㅎㅎ",
+        "en": "Great! Then see you here at the same time next weekㅎㅎ"
+      }
+    ],
+    "vocab": [
+      "언어교환",
+      "반갑다",
+      "얼마나",
+      "자신 없다",
+      "떨리다",
+      "나누다",
+      "만나다"
+    ]
+  },
+  {
+    "id": "convo-coworker-lunch-chat",
+    "title": "Lunch with a Coworker",
+    "situation": "You grab lunch near the office with a coworker and make easy small talk.",
+    "setting": "restaurant",
+    "partner": "회사 동료",
+    "tip": "Coworker lunch talk stays light: give a real answer, keep it short, and pass the question back. Never judge what they say they enjoy.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "오늘 점심 뭐 드실래요? 여기 김치찌개 괜찮아요.",
+        "en": "What do you want for lunch? The kimchi jjigae here is good."
+      },
+      {
+        "role": "you",
+        "prompt": "Go along with their suggestion warmly",
+        "choices": [
+          {
+            "ko": "오 좋아요, 저 김치찌개 좋아해요. 그걸로 할게요!",
+            "en": "Oh nice, I love kimchi jjigae. I'll go with that!",
+            "correct": true,
+            "feedback": "Takes the suggestion and shows you actually want it — 그걸로 할게요 is the everyday way to lock in an order."
+          },
+          {
+            "ko": "저는 아무거나 상관없습니다.",
+            "en": "Anything is fine with me.",
+            "correct": false,
+            "feedback": "합니다체 plus total indifference. It reads as 'I don't care', which is a cold answer to a friendly recommendation."
+          },
+          {
+            "ko": "그건 제가 결정할 사항이 아닌 것 같아요.",
+            "en": "I don't think that's a matter for me to decide.",
+            "correct": false,
+            "feedback": "Grammatical, but treating a lunch order like a business decision is oddly distant."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그럼 두 개 시킬게요. 참, 주말에 뭐 했어요?",
+        "en": "I'll order two then. Oh, what did you do this weekend?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say what you did and ask about their weekend",
+        "choices": [
+          {
+            "ko": "친구랑 한강 갔어요! 날씨 좋아서 좋더라고요. 지수 씨는요?",
+            "en": "I went to the Han River with a friend! The weather was great. How about you?",
+            "correct": true,
+            "feedback": "One concrete thing, one feeling (좋더라고요), then …씨는요? — the shortest way to hand the turn back."
+          },
+          {
+            "ko": "그냥 쉬었어요.",
+            "en": "I just rested.",
+            "correct": false,
+            "feedback": "A safe answer that gives them nothing to ask about. Add one detail or a question back."
+          },
+          {
+            "ko": "주말 활동에 대해서 말씀드리겠습니다.",
+            "en": "I shall now report on my weekend activities.",
+            "correct": false,
+            "feedback": "This is presentation Korean. Announcing that you're about to answer sounds like a work briefing, not lunch."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "저는 그냥 집에서 밀린 드라마 봤어요ㅎㅎ 요즘 뭐 재밌는 거 있어요?",
+        "en": "I just caught up on dramas at homeㅎㅎ Anything fun going on for you these days?"
+      },
+      {
+        "role": "you",
+        "prompt": "Share what you're into and ask about their drama",
+        "choices": [
+          {
+            "ko": "요즘 클라이밍 배워요. 힘든데 재밌어요ㅎㅎ 드라마 뭐 보셨어요?",
+            "en": "I'm learning climbing these days. Tough but funㅎㅎ Which drama did you watch?",
+            "correct": true,
+            "feedback": "Answers with something specific, then picks up the thing they mentioned. Reusing their topic shows you were listening."
+          },
+          {
+            "ko": "특별히 없어요.",
+            "en": "Nothing in particular.",
+            "correct": false,
+            "feedback": "A polite door slam. They shared theirs and asked — give them something, even something small."
+          },
+          {
+            "ko": "드라마 보는 건 시간 낭비 아니에요?",
+            "en": "Isn't watching dramas a waste of time?",
+            "correct": false,
+            "feedback": "Grammatical, but you just criticized how they spend their weekend. That ends coworker small talk fast."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 클라이밍이요? 저도 한번 해 보고 싶었는데요!",
+        "en": "Oh, climbing? I've been wanting to try that!"
+      },
+      {
+        "role": "you",
+        "prompt": "Invite them along and lower the barrier",
+        "choices": [
+          {
+            "ko": "그럼 언제 같이 가요! 초보자도 다 하니까 괜찮아요.",
+            "en": "Then let's go together sometime! Beginners do it all the time, so it's fine.",
+            "correct": true,
+            "feedback": "같이 가요 turns interest into a real invitation, and 초보자도 다 하니까 removes the excuse to say no."
+          },
+          {
+            "ko": "네, 재밌어요.",
+            "en": "Yeah, it's fun.",
+            "correct": false,
+            "feedback": "They basically invited themselves and you didn't catch it. A clear opening went unanswered."
+          },
+          {
+            "ko": "저와 함께 등반하시기를 정중히 요청드립니다.",
+            "en": "I respectfully request that you go climbing with me.",
+            "correct": false,
+            "feedback": "Grammatical and wildly over-formal — it makes a casual lunch invite sound like an official letter."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "김치찌개",
+      "시키다",
+      "주말",
+      "밀리다",
+      "클라이밍",
+      "초보자",
+      "같이 가다"
+    ]
+  },
+  {
+    "id": "convo-neighbor-elevator",
+    "title": "Neighbor in the Elevator",
+    "situation": "You run into a neighbor from your building in the elevator on the way up.",
+    "setting": "elevator",
+    "partner": "이웃",
+    "tip": "An elevator ride is thirty seconds long. Greet, add one light comment, and close — anything longer or more formal feels heavy for the space.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "아, 안녕하세요! 몇 층 누를까요?",
+        "en": "Oh, hello! Which floor should I press?"
+      },
+      {
+        "role": "you",
+        "prompt": "Greet back and answer the floor",
+        "choices": [
+          {
+            "ko": "안녕하세요! 십이 층이요, 감사합니다ㅎㅎ",
+            "en": "Hello! Twelfth floor, thank youㅎㅎ",
+            "correct": true,
+            "feedback": "Greeting, floor, thanks — the whole elevator exchange in one breath. This is exactly the right size."
+          },
+          {
+            "ko": "십이 층.",
+            "en": "Twelfth floor.",
+            "correct": false,
+            "feedback": "You skipped both the greeting and the thanks. Grammatical, but it comes off as brusque to a neighbor doing you a favor."
+          },
+          {
+            "ko": "십이 층 버튼을 눌러 주시기 바랍니다.",
+            "en": "Kindly press the button for the twelfth floor.",
+            "correct": false,
+            "feedback": "주시기 바랍니다 belongs in an announcement. Answering a neighbor's small kindness this formally sounds cold."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네네. 오늘 밖에 많이 춥죠? 장 보고 오시나 봐요.",
+        "en": "Sure. It's really cold out today, isn't it? Looks like you've been grocery shopping."
+      },
+      {
+        "role": "you",
+        "prompt": "Agree about the cold and add a light comment about your bags",
+        "choices": [
+          {
+            "ko": "네, 진짜 춥더라고요. 마트 갔다가 너무 많이 샀어요ㅎㅎ",
+            "en": "Yeah, it was really cold. I went to the mart and bought way too muchㅎㅎ",
+            "correct": true,
+            "feedback": "Agrees, then makes a tiny joke at your own expense — light, warm, and over in one line."
+          },
+          {
+            "ko": "네, 춥습니다.",
+            "en": "Yes, it is cold.",
+            "correct": false,
+            "feedback": "합니다체 and nothing else. It's correct, but it makes the last ten floors feel very long."
+          },
+          {
+            "ko": "오늘 최저 기온은 영하 오 도입니다.",
+            "en": "Today's low is minus five degrees.",
+            "correct": false,
+            "feedback": "Reciting numbers instead of reacting. They were being friendly, not asking for data."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "무거워 보여요ㅎㅎ 하나 들어 드릴까요?",
+        "en": "Looks heavyㅎㅎ Want me to carry one?"
+      },
+      {
+        "role": "you",
+        "prompt": "Turn down the offer without making it awkward",
+        "choices": [
+          {
+            "ko": "아니에요, 괜찮아요! 마음만 받을게요ㅎㅎ 감사합니다.",
+            "en": "Oh no, I'm fine! I'll just take the thoughtㅎㅎ Thank you.",
+            "correct": true,
+            "feedback": "마음만 받을게요 is the set phrase for declining a kind offer while still accepting the kindness — perfect elevator-sized close."
+          },
+          {
+            "ko": "네, 들어 주세요.",
+            "en": "Sure, please carry one.",
+            "correct": false,
+            "feedback": "Grammatical, but a passing courtesy for a short ride isn't really meant to be taken up. It puts your neighbor on the spot."
+          },
+          {
+            "ko": "괜찮습니다.",
+            "en": "That is fine.",
+            "correct": false,
+            "feedback": "Declines, but so curtly it sounds like you're brushing them off. Soften it and thank them."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네ㅎㅎ 그럼 조심히 들어가세요!",
+        "en": "Okayㅎㅎ Get home safe, then!"
+      }
+    ],
+    "vocab": [
+      "몇 층",
+      "누르다",
+      "춥다",
+      "장 보다",
+      "무겁다",
+      "들다",
+      "마음만 받다"
+    ]
+  },
+  {
+    "id": "convo-hair-salon-chat",
+    "title": "At the Hair Salon",
+    "situation": "You're at a hair salon telling the stylist what you want, and she chats with you while she cuts.",
+    "setting": "salon",
+    "partner": "미용사",
+    "tip": "Keep your request short and concrete (얼마나 / 어디를), then react to the stylist's small talk instead of just answering. 해요체 is exactly right here — friendly but polite, no need for 합니다체.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "안녕하세요~ 오늘 어떻게 해 드릴까요?",
+        "en": "Hello~ What would you like done today?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say what you want, simply",
+        "choices": [
+          {
+            "ko": "안녕하세요. 너무 짧지 않게 조금만 잘라 주세요.",
+            "en": "Hello. Just a little trim, not too short please.",
+            "correct": true,
+            "feedback": "Short, concrete, and 해요체 — 조금만 잘라 주세요 gives the stylist exactly what she needs without complicated vocabulary."
+          },
+          {
+            "ko": "제 두발을 단정하게 정리해 주시기 바랍니다.",
+            "en": "I request that you tidy up my hair neatly.",
+            "correct": false,
+            "feedback": "Grammatical, but 두발 and -주시기 바랍니다 belong on an official notice. In a salon it sounds like you're filing paperwork."
+          },
+          {
+            "ko": "저는 아무거나 괜찮아요.",
+            "en": "Anything is fine with me.",
+            "correct": false,
+            "feedback": "Polite but useless here — she asked a real question, and 아무거나 leaves her guessing. Give one specific detail instead."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네~ 그럼 이 정도 길이면 괜찮을까요?",
+        "en": "Sure~ So would about this length be okay?"
+      },
+      {
+        "role": "you",
+        "prompt": "Confirm and add one small request",
+        "choices": [
+          {
+            "ko": "네, 딱 좋아요. 옆머리도 조금 다듬어 주세요.",
+            "en": "Yes, that's just right. Could you tidy up the sides a bit too?",
+            "correct": true,
+            "feedback": "네, 딱 좋아요 confirms clearly, and adding 옆머리도 조금 다듬어 주세요 is the natural moment to ask for one more thing."
+          },
+          {
+            "ko": "네.",
+            "en": "Yes.",
+            "correct": false,
+            "feedback": "Correct, but a bare 네 ends the exchange. She's checking with you — a one-word answer makes her guess whether you're actually happy."
+          },
+          {
+            "ko": "길이는 미용사님이 알아서 판단해 주세요.",
+            "en": "Please judge the length however you see fit.",
+            "correct": false,
+            "feedback": "Grammatical, but handing the whole decision back sounds distant — and it's how people end up unhappy with their haircut."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "한국말 잘하시네요! 한국에 오래 사셨어요?",
+        "en": "Your Korean is good! Have you lived in Korea long?"
+      },
+      {
+        "role": "you",
+        "prompt": "Answer and keep the chat going",
+        "choices": [
+          {
+            "ko": "아 아직 일 년밖에 안 됐어요ㅎㅎ 여기 오래 하셨어요?",
+            "en": "Ah it's only been a year ㅎㅎ Have you worked here long?",
+            "correct": true,
+            "feedback": "Deflects the compliment lightly, then bounces a question back — that's what turns small talk into a real conversation. ㅎㅎ softens 해요체 nicely."
+          },
+          {
+            "ko": "일 년 됐어요.",
+            "en": "It's been a year.",
+            "correct": false,
+            "feedback": "Grammatical and polite, but it answers and stops. She opened the door to chat; give her something to reply to."
+          },
+          {
+            "ko": "한국에 거주한 지 일 년이 경과하였습니다.",
+            "en": "One year has elapsed since I took up residence in Korea.",
+            "correct": false,
+            "feedback": "Textbook 합니다체 with 거주하다 and 경과하다 — reads like a visa form. Casual salon chat wants 일 년 됐어요."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "다 됐어요! 어떠세요, 마음에 드세요?",
+        "en": "All done! How is it, do you like it?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you like it and close warmly",
+        "choices": [
+          {
+            "ko": "우와 마음에 들어요! 감사합니다, 다음에 또 올게요.",
+            "en": "Wow, I love it! Thank you, I'll come again next time.",
+            "correct": true,
+            "feedback": "A quick reaction (우와) plus 또 올게요 is the standard warm way to leave a salon — it thanks her and signals you'd come back."
+          },
+          {
+            "ko": "네, 마음에 들어요.",
+            "en": "Yes, I like it.",
+            "correct": false,
+            "feedback": "Fine grammar, flat delivery. After she's worked on you for an hour, a flat 네 lands as lukewarm."
+          },
+          {
+            "ko": "결과에 대해서 만족한다고 말씀드릴 수 있습니다.",
+            "en": "I can state that I am satisfied with the result.",
+            "correct": false,
+            "feedback": "Grammatical but sounds like a customer survey response. Stick to plain 해요체: 마음에 들어요."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "미용실",
+      "자르다",
+      "다듬다",
+      "길이",
+      "옆머리",
+      "마음에 들다",
+      "어떠세요"
+    ]
+  },
+  {
+    "id": "convo-taxi-driver-chat",
+    "title": "Chatting in the Taxi",
+    "situation": "You get in a taxi, tell the driver where you're going, and make small talk on the way.",
+    "setting": "taxi",
+    "partner": "택시 기사님",
+    "tip": "Destination first, in one clean line: 「(장소)로 가 주세요」. After that, 해요체 keeps things friendly — the driver may sound warm and chatty, but you never need to switch registers.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "어서 오세요~ 어디로 모실까요?",
+        "en": "Welcome~ Where shall I take you?"
+      },
+      {
+        "role": "you",
+        "prompt": "Give your destination",
+        "choices": [
+          {
+            "ko": "안녕하세요, 서울역으로 가 주세요.",
+            "en": "Hello, to Seoul Station please.",
+            "correct": true,
+            "feedback": "The standard formula: 장소 + 로 가 주세요. Clear, polite, and it's the first thing every driver is waiting to hear."
+          },
+          {
+            "ko": "서울역까지 운행 부탁드립니다.",
+            "en": "I request operation as far as Seoul Station.",
+            "correct": false,
+            "feedback": "Grammatical, but 운행 is what a bus company says. To a driver it sounds oddly official — 가 주세요 is what people actually say."
+          },
+          {
+            "ko": "혹시 서울역 아세요?",
+            "en": "Do you happen to know Seoul Station?",
+            "correct": false,
+            "feedback": "Perfectly grammatical, but asking a taxi driver if he knows Seoul Station sounds like you doubt him. Just name the place."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "네, 서울역이요. 지금 길이 좀 막히는데 괜찮으세요?",
+        "en": "Okay, Seoul Station. Traffic's a bit heavy right now — is that alright?"
+      },
+      {
+        "role": "you",
+        "prompt": "Tell him it's fine",
+        "choices": [
+          {
+            "ko": "네 괜찮아요. 시간 넉넉해서 천천히 가도 돼요.",
+            "en": "Yeah it's fine. I have plenty of time, so we can take it slow.",
+            "correct": true,
+            "feedback": "Answers the question and explains why — 시간 넉넉해요 tells him he doesn't have to rush, which is the real information he wants."
+          },
+          {
+            "ko": "얼마나 막혀요? 지각하면 안 되는데요.",
+            "en": "How bad is the traffic? I really can't be late.",
+            "correct": false,
+            "feedback": "Grammatical, but he asked whether you're okay with it and you've turned it into pressure. If you're not in a hurry, don't create one."
+          },
+          {
+            "ko": "교통 상황은 본인이 감수하겠습니다.",
+            "en": "I shall bear the traffic conditions myself.",
+            "correct": false,
+            "feedback": "Stiff 합니다체 with 감수하다 — it's a courtroom sentence in a taxi. 괜찮아요 does the whole job."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "한국말 잘하시네요~ 한국에 여행 오셨어요?",
+        "en": "Your Korean is good~ Are you visiting Korea?"
+      },
+      {
+        "role": "you",
+        "prompt": "Answer and show interest back",
+        "choices": [
+          {
+            "ko": "아니요, 여기 살아요. 기사님은 이 일 오래 하셨어요?",
+            "en": "No, I live here. Have you been driving long?",
+            "correct": true,
+            "feedback": "Corrects the guess and bounces a question back with 기사님 — drivers love this, and it turns the ride into a real conversation."
+          },
+          {
+            "ko": "아니요, 여행 아니에요.",
+            "en": "No, it's not travel.",
+            "correct": false,
+            "feedback": "Grammatical but a dead end. He offered friendly small talk; a bare correction shuts it down."
+          },
+          {
+            "ko": "본인은 관광 목적으로 방문한 것이 아닙니다.",
+            "en": "I have not visited for tourism purposes.",
+            "correct": false,
+            "feedback": "Grammatical, but 본인 and 방문 목적 sound like immigration control. Warm chat needs warm 해요체."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "다 왔어요. 여기 앞에 세워 드릴게요. 만이천 원이에요.",
+        "en": "Here we are. I'll pull over up front. That'll be 12,000 won."
+      },
+      {
+        "role": "you",
+        "prompt": "Pay and say goodbye",
+        "choices": [
+          {
+            "ko": "카드로 할게요. 감사합니다, 안전 운전하세요!",
+            "en": "I'll pay by card. Thank you, drive safely!",
+            "correct": true,
+            "feedback": "카드로 할게요 handles payment in three words, and 안전 운전하세요 is the classic warm goodbye to a driver."
+          },
+          {
+            "ko": "네, 카드요.",
+            "en": "Yeah, card.",
+            "correct": false,
+            "feedback": "Grammatical and not rude, but after a friendly chat it lands cold. A quick 감사합니다 costs nothing."
+          },
+          {
+            "ko": "요금 만이천 원을 카드로 결제하도록 하겠습니다.",
+            "en": "I shall proceed to settle the fare of 12,000 won by card.",
+            "correct": false,
+            "feedback": "Grammatical but 결제하도록 하겠습니다 is bank-teller language. Say 카드로 할게요."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "기사님",
+      "서울역",
+      "가 주세요",
+      "막히다",
+      "넉넉하다",
+      "세우다",
+      "요금",
+      "안전 운전"
+    ]
+  },
+  {
+    "id": "convo-gym-class-chat",
+    "title": "Small Talk at the Gym",
+    "situation": "You chat with the person next to you before and after a workout class at your gym.",
+    "setting": "gym",
+    "partner": "같이 운동하는 사람",
+    "tip": "Gym strangers bond over shared suffering. React honestly (힘들었어요ㅠㅠ), then ask something back — 해요체 with a ㅋㅋ or ㅎㅎ is the perfect register with someone you've just met.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "안녕하세요~ 여기 처음 오셨어요?",
+        "en": "Hi~ Is this your first time here?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say it's your first time and ask about them",
+        "choices": [
+          {
+            "ko": "네, 오늘 처음 왔어요ㅎㅎ 여기 자주 오세요?",
+            "en": "Yeah, today's my first time ㅎㅎ Do you come here often?",
+            "correct": true,
+            "feedback": "Answers, softens it with ㅎㅎ, and immediately asks back — three seconds of work that opens a whole conversation."
+          },
+          {
+            "ko": "네, 처음이에요.",
+            "en": "Yes, it's my first time.",
+            "correct": false,
+            "feedback": "Grammatical and polite, but it stops dead. They reached out first; give them a thread to pull."
+          },
+          {
+            "ko": "본 시설은 금일 최초로 방문하였습니다.",
+            "en": "I have visited this facility for the first time as of today.",
+            "correct": false,
+            "feedback": "Grammatical, but 본 시설 and 금일 belong in a report. Nobody talks like this in workout clothes."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "저는 일주일에 세 번 와요. 이 수업 좀 힘들어요ㅋㅋ",
+        "en": "I come three times a week. This class is kinda tough ㅋㅋ"
+      },
+      {
+        "role": "you",
+        "prompt": "React to the warning",
+        "choices": [
+          {
+            "ko": "아 진짜요? 그럼 저 오늘 큰일 났네요ㅋㅋ",
+            "en": "Oh really? Then I'm in trouble today ㅋㅋ",
+            "correct": true,
+            "feedback": "아 진짜요? reacts before adding anything, and the joke matches their ㅋㅋ. Matching someone's energy is half of small talk."
+          },
+          {
+            "ko": "저는 운동을 좋아해서 괜찮아요.",
+            "en": "I like working out, so I'm fine.",
+            "correct": false,
+            "feedback": "Grammatical, but brushing off their warning reads as bragging. They were being friendly, not testing you."
+          },
+          {
+            "ko": "해당 수업의 난이도가 높은 편입니까?",
+            "en": "Is the difficulty level of the class relatively high?",
+            "correct": false,
+            "feedback": "Grammatical, but 해당 수업 and 편입니까 sound like an interview question. They just told you it's hard."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "수고하셨어요~ 어땠어요? 많이 힘들었죠?",
+        "en": "Good work~ How was it? Pretty tough, right?"
+      },
+      {
+        "role": "you",
+        "prompt": "Admit it was hard, keep it light",
+        "choices": [
+          {
+            "ko": "진짜 힘들었어요ㅠㅠ 지금 다리가 후들거려요ㅋㅋ",
+            "en": "It was seriously hard ㅠㅠ My legs are shaking right now ㅋㅋ",
+            "correct": true,
+            "feedback": "Agreeing with -죠? and adding one concrete detail (다리가 후들거려요) is what makes it funny instead of just polite."
+          },
+          {
+            "ko": "네, 조금 힘들었어요.",
+            "en": "Yes, it was a bit hard.",
+            "correct": false,
+            "feedback": "Grammatical, but 조금 downplays the shared struggle they're inviting you to bond over. Lean in a little."
+          },
+          {
+            "ko": "운동 강도가 적절했다고 생각합니다.",
+            "en": "I believe the intensity of the exercise was appropriate.",
+            "correct": false,
+            "feedback": "Grammatical, but that's feedback for the instructor, not a reply to a sweaty classmate. 해요체 and a real reaction."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그쵸ㅋㅋ 저도 처음엔 그랬어요. 다음 주에도 오세요?",
+        "en": "Right? ㅋㅋ I was like that at first too. Are you coming next week too?"
+      },
+      {
+        "role": "you",
+        "prompt": "Say yes and close it out",
+        "choices": [
+          {
+            "ko": "네 또 올게요! 다음에 또 봬요~",
+            "en": "Yeah, I'll come again! See you next time~",
+            "correct": true,
+            "feedback": "또 봬요 is the standard warm sign-off with someone you'll run into again — it says you'd be happy to talk more."
+          },
+          {
+            "ko": "네, 올 거예요.",
+            "en": "Yes, I'll come.",
+            "correct": false,
+            "feedback": "Grammatical, but no goodbye at all. After a friendly chat, ending without 또 봬요 feels like walking off mid-sentence."
+          },
+          {
+            "ko": "다음 주 참석 여부는 추후에 알려 드리겠습니다.",
+            "en": "I will inform you of my attendance next week at a later date.",
+            "correct": false,
+            "feedback": "Grammatical, but 참석 여부 turns a friendly question into a scheduling matter. Just say 네, 또 올게요."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "운동",
+      "수업",
+      "힘들다",
+      "수고하셨어요",
+      "후들거리다",
+      "또 봬요"
+    ]
+  },
+  {
+    "id": "convo-friend-parents-greeting",
+    "title": "Meeting a Friend's Parents",
+    "situation": "You visit your Korean friend's home for the first time and greet his mother.",
+    "setting": "home",
+    "partner": "친구 부모님",
+    "tip": "This is the one place to lean formal. Stay in 해요체 overall, but keep the fixed 합니다체 set-pieces intact — 처음 뵙겠습니다 / 감사합니다 / 잘 먹겠습니다. They're frozen ritual phrases, not a full register switch, so mixing them into 해요체 is exactly what Koreans do with a friend's parents.",
+    "register": "haeyo",
+    "turns": [
+      {
+        "role": "partner",
+        "ko": "어서 와요~ 민수 친구죠? 반가워요.",
+        "en": "Come on in~ You're Minsu's friend, right? Nice to meet you."
+      },
+      {
+        "role": "you",
+        "prompt": "Greet her properly and introduce yourself",
+        "choices": [
+          {
+            "ko": "안녕하세요, 처음 뵙겠습니다. 민수 친구 제임스예요.",
+            "en": "Hello, it's nice to meet you. I'm James, Minsu's friend.",
+            "correct": true,
+            "feedback": "처음 뵙겠습니다 is a fixed first-meeting phrase — you keep it as-is, then drop back into 해요체 for the introduction. That mix is the real target register here."
+          },
+          {
+            "ko": "안녕하세요~ 저 민수 친구예요. 반가워요!",
+            "en": "Hi~ I'm Minsu's friend. Nice to meet you!",
+            "correct": false,
+            "feedback": "Grammatical 해요체, and fine with someone your age — but 반가워요 back to a friend's mother is too level. First greeting to a parent needs 처음 뵙겠습니다."
+          },
+          {
+            "ko": "안녕하십니까. 본인은 민수의 친우 제임스입니다.",
+            "en": "Good day. I am James, the companion of Minsu.",
+            "correct": false,
+            "feedback": "Grammatical, but 본인 and 친우 in full 합니다체 sound like a news anchor. Formal set phrases yes, formal everything no."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "어머, 한국말 잘하네요. 어느 나라에서 왔어요?",
+        "en": "Oh my, your Korean is good. What country are you from?"
+      },
+      {
+        "role": "you",
+        "prompt": "Give a short self-introduction",
+        "choices": [
+          {
+            "ko": "미국에서 왔어요. 한국에 온 지 육 개월 됐어요.",
+            "en": "I'm from the U.S. It's been six months since I came to Korea.",
+            "correct": true,
+            "feedback": "Two short 해요체 sentences: where you're from plus how long you've been here. That second detail is what she's really curious about."
+          },
+          {
+            "ko": "미국이요.",
+            "en": "The U.S.",
+            "correct": false,
+            "feedback": "Not wrong, but a one-word answer to a parent making an effort feels closed off. Add one sentence."
+          },
+          {
+            "ko": "저는 미국 국적을 보유하고 있으며 육 개월 전에 입국하였습니다.",
+            "en": "I hold U.S. nationality and entered the country six months ago.",
+            "correct": false,
+            "feedback": "Grammatical, but 국적 보유 and 입국하였습니다 are airport-immigration words. Warm formality, not bureaucratic formality."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "밥은 먹었어요? 여기 앉아요. 많이 차렸어요.",
+        "en": "Have you eaten? Sit here. I made a lot."
+      },
+      {
+        "role": "you",
+        "prompt": "Thank her before eating",
+        "choices": [
+          {
+            "ko": "잘 먹겠습니다. 이렇게 준비해 주셔서 감사합니다.",
+            "en": "Thank you for the food. Thank you for going to all this trouble.",
+            "correct": true,
+            "feedback": "잘 먹겠습니다 is fixed — nobody says 잘 먹을게요 to a friend's mother. Pairing it with 감사합니다 is the expected move before you touch the food."
+          },
+          {
+            "ko": "네, 잘 먹을게요. 고마워요.",
+            "en": "Okay, I'll eat well. Thanks.",
+            "correct": false,
+            "feedback": "Grammatical, but 잘 먹을게요 and 고마워요 are what you'd say to a friend. To a parent who cooked for you, the frozen forms 잘 먹겠습니다 / 감사합니다 are the ones that land."
+          },
+          {
+            "ko": "음식을 많이 준비하셨네요. 다 먹을 수 있을까요?",
+            "en": "You've prepared a lot of food. Will I be able to finish it all?",
+            "correct": false,
+            "feedback": "Grammatical, and it's a joke a Korean might make — but as a first-time guest it reads as commenting on her cooking instead of thanking her."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "많이 먹어요~ 앞으로 자주 놀러 와요.",
+        "en": "Eat lots~ Come visit often from now on."
+      },
+      {
+        "role": "you",
+        "prompt": "Close warmly and accept the invitation",
+        "choices": [
+          {
+            "ko": "네, 정말 맛있게 잘 먹었습니다. 또 인사드릴게요.",
+            "en": "Yes, it was really delicious, thank you. I'll come pay my respects again.",
+            "correct": true,
+            "feedback": "잘 먹었습니다 closes the meal ritual that 잘 먹겠습니다 opened, and 인사드릴게요 accepts her invitation with the humble verb 드리다 — warm, not stiff."
+          },
+          {
+            "ko": "네, 맛있었어요. 또 올게요.",
+            "en": "Yeah, it was tasty. I'll come again.",
+            "correct": false,
+            "feedback": "Grammatical 해요체 and not rude — just level. After a meal a parent cooked for you, 잘 먹었습니다 is the phrase everyone expects to hear."
+          },
+          {
+            "ko": "차후 방문 일정을 조율하여 다시 연락드리겠습니다.",
+            "en": "I will coordinate a future visit schedule and contact you again.",
+            "correct": false,
+            "feedback": "Grammatical, but 일정을 조율하여 turns her warm invitation into a business appointment. Formal doesn't mean corporate."
+          }
+        ]
+      }
+    ],
+    "vocab": [
+      "처음 뵙겠습니다",
+      "친구",
+      "부모님",
+      "차리다",
+      "잘 먹겠습니다",
+      "잘 먹었습니다",
+      "놀러 오다",
+      "인사드리다"
+    ]
+  }
+]

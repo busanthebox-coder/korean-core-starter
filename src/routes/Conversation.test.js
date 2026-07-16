@@ -1,11 +1,49 @@
 import { render, fireEvent, screen } from '@testing-library/svelte';
 import Conversation from './Conversation.svelte';
+import { setRoleplayRegister } from '../lib/stores.js';
+
+// The scenario list defaults to 해요체 now, so the 반말 fixtures these mechanics
+// tests rely on need one filter tap first.
+async function openCasualScenario(title = 'Making weekend plans') {
+  await fireEvent.click(await screen.findByText('반말 · Casual'));
+  await fireEvent.click(await screen.findByText(title));
+}
+
+beforeEach(() => {
+  localStorage.clear();
+  setRoleplayRegister('haeyo');
+});
+
+test('scenario list defaults to 해요체 and switches on demand', async () => {
+  render(Conversation);
+
+  // Polite-first: a 반말 scenario is not offered until you ask for it.
+  expect(await screen.findByText('Language Exchange: First Meeting')).toBeTruthy();
+  expect(screen.queryByText('Making weekend plans')).toBeNull();
+
+  await fireEvent.click(screen.getByText('반말 · Casual'));
+  expect(await screen.findByText('Making weekend plans')).toBeTruthy();
+  expect(screen.queryByText('Language Exchange: First Meeting')).toBeNull();
+
+  await fireEvent.click(screen.getByText('All'));
+  expect(await screen.findByText('Making weekend plans')).toBeTruthy();
+  expect(screen.getByText('Language Exchange: First Meeting')).toBeTruthy();
+});
+
+test('a paired scenario links to its other-register twin', async () => {
+  render(Conversation);
+  await fireEvent.click(await screen.findByText('Weather and small talk (polite)'));
+
+  // The 해요체 variant offers the 반말 original.
+  const link = await screen.findByText(/See the 반말 version/);
+  await fireEvent.click(link);
+  expect(await screen.findByText(/See the 해요체 version/)).toBeTruthy();
+});
 
 test('roleplay: open a scenario and pick the natural reply', async () => {
   const { container } = render(Conversation);
 
-  // Scenario list → open one
-  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await openCasualScenario();
 
   // Partner's opening line is shown, and the first "you" turn offers choices
   expect(screen.getByText('주말에 뭐 해?')).toBeTruthy();
@@ -25,7 +63,7 @@ test('roleplay: open a scenario and pick the natural reply', async () => {
 
 test('respond mode: giving up reveals the model answer (no credit)', async () => {
   const { container } = render(Conversation);
-  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await openCasualScenario();
   await fireEvent.click(screen.getByText('받아치기'));        // switch mode
   expect(container.querySelector('textarea.respond')).not.toBeNull();
   await fireEvent.click(screen.getByText(/Show answer/));
@@ -35,7 +73,7 @@ test('respond mode: giving up reveals the model answer (no credit)', async () =>
 
 test('respond mode: a correct typed reply is graded ✓', async () => {
   const { container } = render(Conversation);
-  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await openCasualScenario();
   await fireEvent.click(screen.getByText('받아치기'));
 
   // The model (correct) reply for the first you-turn, typed verbatim, should grade as correct.
@@ -50,7 +88,7 @@ test('respond mode: a correct typed reply is graded ✓', async () => {
 
 test('respond mode: a close typed reply gives a hidden-answer hint first', async () => {
   const { container } = render(Conversation);
-  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await openCasualScenario();
   await fireEvent.click(screen.getByText('받아치기'));
 
   const input = container.querySelector('textarea.respond');
@@ -66,7 +104,7 @@ test('respond mode: a close typed reply gives a hidden-answer hint first', async
 
 test('respond mode: repeated misses open copy-the-model flow before advancing', async () => {
   const { container } = render(Conversation);
-  await fireEvent.click(await screen.findByText('Making weekend plans'));
+  await openCasualScenario();
   await fireEvent.click(screen.getByText('받아치기'));
 
   const input = container.querySelector('textarea.respond');

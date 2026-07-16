@@ -31,6 +31,7 @@ function seedProgress() {
   localStorage.setItem('kcs.roman-nudge-v1', '1');
   localStorage.setItem('kcs.onboarded-v1', '1');
   localStorage.setItem('kcs.start-chapter-v1', 'chapter-17');
+  localStorage.setItem('kcs.roleplay-register-v1', 'banmal');
   localStorage.setItem('kcs.learn-open-v1', JSON.stringify(['A1', 'B1']));
   localStorage.setItem('kcs.checkpoint-v1', JSON.stringify({
     a1: { best: 8, last: 7, total: 10, lastAt: 100, weakChapterIds: ['chapter-02'] },

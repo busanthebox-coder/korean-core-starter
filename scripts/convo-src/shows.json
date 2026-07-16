@@ -7,32 +7,131 @@
     "partner": "친구",
     "tip": "When a friend asks for a rec, react first (오 그거!), then add a hook (완전 꿀잼) — selling it with a quick reason keeps the chat alive.",
     "turns": [
-      { "role": "partner", "ko": "주말에 정주행할 드라마 없나? 추천 좀ㅠ", "en": "Got a drama I can binge this weekend? Recommend me something ㅠ" },
-      { "role": "you", "prompt": "Ask what genre they're into right now.", "choices": [
-        { "ko": "요즘 뭐 땡겨? 로맨스? 스릴러?", "en": "What are you feeling these days? Romance? Thriller?", "correct": true, "feedback": "Natural — you bounce it back with 뭐 땡겨? to narrow it down before reccing." },
-        { "ko": "어떤 장르를 선호하십니까?", "en": "Which genre do you prefer? (formal)", "correct": false, "feedback": "Way too formal for a friend — 선호하십니까 sounds like a survey. Say 뭐 땡겨?" },
-        { "ko": "나는 드라마 별로 안 봐.", "en": "I don't really watch dramas.", "correct": false, "feedback": "Shuts it down — they asked you for a rec, so this kills the chat." }
-      ] },
-      { "role": "partner", "ko": "스릴러! 몰입되는 거 보고 싶어", "en": "Thriller! I wanna watch something gripping" },
-      { "role": "you", "prompt": "React and recommend one, selling that it's super fun.", "choices": [
-        { "ko": "오, 그럼 내가 추천작 링크 하나 보낼게. 완전 꿀잼이라 순삭이야", "en": "Oh, then I'll send you a link to one I recommend. It's so good you'll fly through it.", "correct": true, "feedback": "추천작 링크 하나 보낼게 gives a concrete recommendation, and 꿀잼/순삭 sells it naturally." },
-        { "ko": "그 작품은 매우 흥미진진합니다.", "en": "That work is very thrilling. (formal)", "correct": false, "feedback": "흥미진진합니다 reads like a review article. Friends say 완전 꿀잼." },
-        { "ko": "글쎄, 딱히 생각 안 나는데.", "en": "Hmm, nothing really comes to mind.", "correct": false, "feedback": "Doesn't deliver — they want a pick, this stalls the conversation." }
-      ] },
-      { "role": "partner", "ko": "오 몇 부작인데? 너무 길면 부담돼", "en": "Oh how many episodes? If it's too long it's a lot" },
-      { "role": "you", "prompt": "Say it's short, and tell them to start it tonight.", "choices": [
-        { "ko": "8부작이라 하루면 끝나ㅋㅋ 오늘 바로 봐", "en": "Only 8 episodes so you can finish in a day lol just start tonight", "correct": true, "feedback": "Gives the info + a casual push (오늘 바로 봐) — keeps the momentum." },
-        { "ko": "총 8회이며 시청을 권장드립니다.", "en": "It's 8 episodes total and I recommend viewing it. (formal)", "correct": false, "feedback": "권장드립니다 is customer-service formal. Just say 오늘 바로 봐." },
-        { "ko": "몇 부작인지 궁금해?", "en": "You're curious how many episodes?", "correct": false, "feedback": "Just repeats their question instead of answering it." }
-      ] },
-      { "role": "partner", "ko": "오케이 그럼 오늘 1화 ㄱㄱ", "en": "Okay then I'll start ep 1 today, let's go" },
-      { "role": "you", "prompt": "Tell them to text you their reaction after.", "choices": [
-        { "ko": "ㅋㅋ 보고 후기 톡해! 4화부터 미쳤어", "en": "lol text me your thoughts after! It goes crazy from ep 4", "correct": true, "feedback": "A teaser + 후기 톡해 invites them back — perfect casual sign-off." },
-        { "ko": "시청 후 감상을 공유해 주시기 바랍니다.", "en": "Please share your impressions after viewing. (formal)", "correct": false, "feedback": "Sounds like an email signature. Friends say 후기 톡해!" },
-        { "ko": "응 잘 가.", "en": "Yeah, bye.", "correct": false, "feedback": "Odd here — nobody's leaving, and it cuts the fun short." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "주말에 정주행할 드라마 없나? 추천 좀ㅠ",
+        "en": "Got a drama I can binge this weekend? Recommend me something ㅠ"
+      },
+      {
+        "role": "you",
+        "prompt": "Ask what genre they're into right now.",
+        "choices": [
+          {
+            "ko": "요즘 뭐 땡겨? 로맨스? 스릴러?",
+            "en": "What are you feeling these days? Romance? Thriller?",
+            "correct": true,
+            "feedback": "Natural — you bounce it back with 뭐 땡겨? to narrow it down before reccing."
+          },
+          {
+            "ko": "어떤 장르를 선호하십니까?",
+            "en": "Which genre do you prefer? (formal)",
+            "correct": false,
+            "feedback": "Way too formal for a friend — 선호하십니까 sounds like a survey. Say 뭐 땡겨?"
+          },
+          {
+            "ko": "나는 드라마 별로 안 봐.",
+            "en": "I don't really watch dramas.",
+            "correct": false,
+            "feedback": "Shuts it down — they asked you for a rec, so this kills the chat."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "스릴러! 몰입되는 거 보고 싶어",
+        "en": "Thriller! I wanna watch something gripping"
+      },
+      {
+        "role": "you",
+        "prompt": "React and recommend one, selling that it's super fun.",
+        "choices": [
+          {
+            "ko": "오, 그럼 내가 추천작 링크 하나 보낼게. 완전 꿀잼이라 순삭이야",
+            "en": "Oh, then I'll send you a link to one I recommend. It's so good you'll fly through it.",
+            "correct": true,
+            "feedback": "추천작 링크 하나 보낼게 gives a concrete recommendation, and 꿀잼/순삭 sells it naturally."
+          },
+          {
+            "ko": "그 작품은 매우 흥미진진합니다.",
+            "en": "That work is very thrilling. (formal)",
+            "correct": false,
+            "feedback": "흥미진진합니다 reads like a review article. Friends say 완전 꿀잼."
+          },
+          {
+            "ko": "글쎄, 딱히 생각 안 나는데.",
+            "en": "Hmm, nothing really comes to mind.",
+            "correct": false,
+            "feedback": "Doesn't deliver — they want a pick, this stalls the conversation."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오 몇 부작인데? 너무 길면 부담돼",
+        "en": "Oh how many episodes? If it's too long it's a lot"
+      },
+      {
+        "role": "you",
+        "prompt": "Say it's short, and tell them to start it tonight.",
+        "choices": [
+          {
+            "ko": "8부작이라 하루면 끝나ㅋㅋ 오늘 바로 봐",
+            "en": "Only 8 episodes so you can finish in a day lol just start tonight",
+            "correct": true,
+            "feedback": "Gives the info + a casual push (오늘 바로 봐) — keeps the momentum."
+          },
+          {
+            "ko": "총 8회이며 시청을 권장드립니다.",
+            "en": "It's 8 episodes total and I recommend viewing it. (formal)",
+            "correct": false,
+            "feedback": "권장드립니다 is customer-service formal. Just say 오늘 바로 봐."
+          },
+          {
+            "ko": "몇 부작인지 궁금해?",
+            "en": "You're curious how many episodes?",
+            "correct": false,
+            "feedback": "Just repeats their question instead of answering it."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "오케이 그럼 오늘 1화 ㄱㄱ",
+        "en": "Okay then I'll start ep 1 today, let's go"
+      },
+      {
+        "role": "you",
+        "prompt": "Tell them to text you their reaction after.",
+        "choices": [
+          {
+            "ko": "ㅋㅋ 보고 후기 톡해! 4화부터 미쳤어",
+            "en": "lol text me your thoughts after! It goes crazy from ep 4",
+            "correct": true,
+            "feedback": "A teaser + 후기 톡해 invites them back — perfect casual sign-off."
+          },
+          {
+            "ko": "시청 후 감상을 공유해 주시기 바랍니다.",
+            "en": "Please share your impressions after viewing. (formal)",
+            "correct": false,
+            "feedback": "Sounds like an email signature. Friends say 후기 톡해!"
+          },
+          {
+            "ko": "응 잘 가.",
+            "en": "Yeah, bye.",
+            "correct": false,
+            "feedback": "Odd here — nobody's leaving, and it cuts the fun short."
+          }
+        ]
+      }
     ],
-    "vocab": ["정주행", "꿀잼", "순삭", "8부작", "후기"]
+    "vocab": [
+      "정주행",
+      "꿀잼",
+      "순삭",
+      "8부작",
+      "후기"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-share-youtube-clip",
@@ -42,32 +141,131 @@
     "partner": "친구",
     "tip": "When someone shares a clip, react big (ㅋㅋㅋ 미쳤다) and ask for context (어디서 찾았어?) — that's how friends trade videos.",
     "turns": [
-      { "role": "partner", "ko": "내가 보낸 영상 봤어? 진짜 웃겨ㅋㅋㅋㅋ", "en": "Did you see the video I sent? It's so funny lolll." },
-      { "role": "you", "prompt": "React to how funny it is and ask where they found it.", "choices": [
-        { "ko": "ㅋㅋㅋㅋ 뭐야 이거 어디서 찾았어", "en": "Lolll what is this, where'd you find it", "correct": true, "feedback": "Big laugh + 어디서 찾았어 keeps the back-and-forth going naturally." },
-        { "ko": "해당 영상을 어디서 발견하셨나요?", "en": "Where did you discover the video? (formal)", "correct": false, "feedback": "발견하셨나요 is way too stiff for sharing a meme. Say 어디서 찾았어." },
-        { "ko": "나 그거 안 볼래.", "en": "I don't wanna watch that.", "correct": false, "feedback": "Kills the vibe — they sent it to share a laugh with you." }
-      ] },
-      { "role": "partner", "ko": "유튜브 알고리즘에 떴어ㅋㅋ 이 채널 구독했잖아", "en": "It showed up in my YouTube recommendations lol. I subscribed to this channel." },
-      { "role": "you", "prompt": "Say you laughed at the part where the guy falls.", "choices": [
-        { "ko": "아, 뒤에 자빠지는 부분에서 빵 터졌어ㅋㅋ", "en": "Ah, I burst out laughing at the part where he falls lol.", "correct": true, "feedback": "빵 터졌어 is a natural way to report your own fresh reaction to the clip." },
-        { "ko": "후반부 낙상 장면이 인상 깊었습니다.", "en": "The falling scene in the latter half was impressive. (formal)", "correct": false, "feedback": "Reads like a film critique. Friends say 빵 터졌잖아." },
-        { "ko": "알고리즘이 뭐야?", "en": "What's an algorithm?", "correct": false, "feedback": "Changes the subject and ignores the actual clip." }
-      ] },
-      { "role": "partner", "ko": "그치ㅋㅋㅋ 이 사람 영상 다 웃겨, 구독 ㄱ", "en": "Right lolll all this guy's videos are funny, go subscribe" },
-      { "role": "you", "prompt": "Agree and say you just subscribed and saved it.", "choices": [
-        { "ko": "방금 구독했어ㅋㅋ 일단 저장해놨다", "en": "Just subscribed lol saved it for now too", "correct": true, "feedback": "Shows you're in + 저장해놨다 carries the chat forward." },
-        { "ko": "구독 절차를 완료하였습니다.", "en": "I have completed the subscription process. (formal)", "correct": false, "feedback": "절차를 완료하였습니다 sounds like a bank notice. Just say 방금 구독했어." },
-        { "ko": "영상 다 웃기다며?", "en": "You said all the videos are funny?", "correct": false, "feedback": "Just echoes what they said — adds nothing new." }
-      ] },
-      { "role": "partner", "ko": "ㅋㅋㅋ 나중에 또 웃긴 거 보내줄게", "en": "Lol I'll send you more funny ones later" },
-      { "role": "you", "prompt": "Say you'll send some back too.", "choices": [
-        { "ko": "ㅇㅋ 나도 웃긴 거 뜨면 바로 쏠게ㅋㅋ", "en": "Ok lol if a funny one shows up I'll fire it right over", "correct": true, "feedback": "ㅇㅋ + 쏠게 keeps the trading-videos relationship going — perfect close." },
-        { "ko": "추후 재미있는 콘텐츠를 전송하겠습니다.", "en": "I will transmit amusing content at a later time. (formal)", "correct": false, "feedback": "전송하겠습니다 is robotic. Friends say 바로 쏠게." },
-        { "ko": "감사합니다, 잘 봤어요.", "en": "Thank you, I enjoyed it. (polite)", "correct": false, "feedback": "요 with 감사합니다 is too polite and formal between close friends." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "내가 보낸 영상 봤어? 진짜 웃겨ㅋㅋㅋㅋ",
+        "en": "Did you see the video I sent? It's so funny lolll."
+      },
+      {
+        "role": "you",
+        "prompt": "React to how funny it is and ask where they found it.",
+        "choices": [
+          {
+            "ko": "ㅋㅋㅋㅋ 뭐야 이거 어디서 찾았어",
+            "en": "Lolll what is this, where'd you find it",
+            "correct": true,
+            "feedback": "Big laugh + 어디서 찾았어 keeps the back-and-forth going naturally."
+          },
+          {
+            "ko": "해당 영상을 어디서 발견하셨나요?",
+            "en": "Where did you discover the video? (formal)",
+            "correct": false,
+            "feedback": "발견하셨나요 is way too stiff for sharing a meme. Say 어디서 찾았어."
+          },
+          {
+            "ko": "나 그거 안 볼래.",
+            "en": "I don't wanna watch that.",
+            "correct": false,
+            "feedback": "Kills the vibe — they sent it to share a laugh with you."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "유튜브 알고리즘에 떴어ㅋㅋ 이 채널 구독했잖아",
+        "en": "It showed up in my YouTube recommendations lol. I subscribed to this channel."
+      },
+      {
+        "role": "you",
+        "prompt": "Say you laughed at the part where the guy falls.",
+        "choices": [
+          {
+            "ko": "아, 뒤에 자빠지는 부분에서 빵 터졌어ㅋㅋ",
+            "en": "Ah, I burst out laughing at the part where he falls lol.",
+            "correct": true,
+            "feedback": "빵 터졌어 is a natural way to report your own fresh reaction to the clip."
+          },
+          {
+            "ko": "후반부 낙상 장면이 인상 깊었습니다.",
+            "en": "The falling scene in the latter half was impressive. (formal)",
+            "correct": false,
+            "feedback": "Reads like a film critique. Friends say 빵 터졌잖아."
+          },
+          {
+            "ko": "알고리즘이 뭐야?",
+            "en": "What's an algorithm?",
+            "correct": false,
+            "feedback": "Changes the subject and ignores the actual clip."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "그치ㅋㅋㅋ 이 사람 영상 다 웃겨, 구독 ㄱ",
+        "en": "Right lolll all this guy's videos are funny, go subscribe"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and say you just subscribed and saved it.",
+        "choices": [
+          {
+            "ko": "방금 구독했어ㅋㅋ 일단 저장해놨다",
+            "en": "Just subscribed lol saved it for now too",
+            "correct": true,
+            "feedback": "Shows you're in + 저장해놨다 carries the chat forward."
+          },
+          {
+            "ko": "구독 절차를 완료하였습니다.",
+            "en": "I have completed the subscription process. (formal)",
+            "correct": false,
+            "feedback": "절차를 완료하였습니다 sounds like a bank notice. Just say 방금 구독했어."
+          },
+          {
+            "ko": "영상 다 웃기다며?",
+            "en": "You said all the videos are funny?",
+            "correct": false,
+            "feedback": "Just echoes what they said — adds nothing new."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "ㅋㅋㅋ 나중에 또 웃긴 거 보내줄게",
+        "en": "Lol I'll send you more funny ones later"
+      },
+      {
+        "role": "you",
+        "prompt": "Say you'll send some back too.",
+        "choices": [
+          {
+            "ko": "ㅇㅋ 나도 웃긴 거 뜨면 바로 쏠게ㅋㅋ",
+            "en": "Ok lol if a funny one shows up I'll fire it right over",
+            "correct": true,
+            "feedback": "ㅇㅋ + 쏠게 keeps the trading-videos relationship going — perfect close."
+          },
+          {
+            "ko": "추후 재미있는 콘텐츠를 전송하겠습니다.",
+            "en": "I will transmit amusing content at a later time. (formal)",
+            "correct": false,
+            "feedback": "전송하겠습니다 is robotic. Friends say 바로 쏠게."
+          },
+          {
+            "ko": "감사합니다, 잘 봤어요.",
+            "en": "Thank you, I enjoyed it. (polite)",
+            "correct": false,
+            "feedback": "요 with 감사합니다 is too polite and formal between close friends."
+          }
+        ]
+      }
     ],
-    "vocab": ["알고리즘", "구독", "빵 터지다", "저장하다", "쏘다"]
+    "vocab": [
+      "알고리즘",
+      "구독",
+      "빵 터지다",
+      "저장하다",
+      "쏘다"
+    ],
+    "register": "banmal"
   },
   {
     "id": "convo-netflix-what-to-watch",
@@ -77,31 +275,130 @@
     "partner": "친구",
     "tip": "When deciding together, don't just say 아무거나 — toss back a real question (넌 뭐 보고 싶은데?) and react to each idea to land on something.",
     "turns": [
-      { "role": "partner", "ko": "넷플 뭐 보지? 볼 게 없네", "en": "What should we put on Netflix? There's nothing to watch" },
-      { "role": "you", "prompt": "Bounce it back and ask if they want a movie or a show.", "choices": [
-        { "ko": "그러게ㅋㅋ 영화 볼까, 아님 예능?", "en": "Right lol. Movie or maybe a variety show?", "correct": true, "feedback": "그러게 agrees, then the two options move the decision along." },
-        { "ko": "무엇을 시청하길 원하십니까?", "en": "What do you wish to watch? (formal)", "correct": false, "feedback": "원하십니까 is hotel-staff formal. Say 뭐 볼까?" },
-        { "ko": "넷플릭스에는 콘텐츠가 많아.", "en": "Netflix has a lot of content.", "correct": false, "feedback": "Stating the obvious — it doesn't help you two decide." }
-      ] },
-      { "role": "partner", "ko": "음, 머리 비우고 볼 수 있는 가벼운 예능?", "en": "Hmm, maybe a light variety show I can watch without thinking too much?" },
-      { "role": "you", "prompt": "Like the idea and suggest the show everyone's talking about.", "choices": [
-        { "ko": "오 좋아, 요즘 다들 보는 그거 볼래?", "en": "Oh nice, wanna watch the one everyone's on about lately?", "correct": true, "feedback": "오 좋아 + a concrete suggestion (그거) is how friends close in on a pick." },
-        { "ko": "예능 프로그램 시청을 제안드립니다.", "en": "I propose viewing a variety program. (formal)", "correct": false, "feedback": "제안드립니다 sounds like a meeting. Just say 그거 볼래?" },
-        { "ko": "예능보다 다큐가 유익해.", "en": "Documentaries are more beneficial than variety shows.", "correct": false, "feedback": "Contradicts what they just wanted and sounds preachy." }
-      ] },
-      { "role": "partner", "ko": "아 그거 1화만 봤는데 개웃기더라ㅋㅋ", "en": "Ah I only saw ep 1 of that, it was hilarious lol" },
-      { "role": "you", "prompt": "React and suggest just starting from episode 2.", "choices": [
-        { "ko": "그치ㅋㅋ 그럼 2화부터 틀자", "en": "Right lol then let's put on ep 2", "correct": true, "feedback": "그치 (matching reaction) + 틀자 ('let's put it on') keeps it casual and decisive." },
-        { "ko": "그러면 2화부터 재생하시겠어요?", "en": "Then would you like to play from ep 2? (polite)", "correct": false, "feedback": "재생하시겠어요 is too polite for a friend on the couch. Say 2화부터 틀자." },
-        { "ko": "1화가 그렇게 웃겼어?", "en": "Was ep 1 really that funny?", "correct": false, "feedback": "Just repeats their point instead of moving to actually watching." }
-      ] },
-      { "role": "partner", "ko": "콜 근데 나 팝콘 먹고 싶어ㅋㅋ", "en": "Deal but I kinda want popcorn lol" },
-      { "role": "you", "prompt": "Agree and say you'll grab snacks first.", "choices": [
-        { "ko": "ㅋㅋ 콜, 간식 챙겨 올게. 잠깐만!", "en": "Lol, deal. I'll grab snacks. Hold on!", "correct": true, "feedback": "콜 + 챙겨 올게 + 잠깐만 is natural casual hangout talk." },
-        { "ko": "간식을 준비해 오도록 하겠습니다.", "en": "I shall prepare and bring snacks. (formal)", "correct": false, "feedback": "하도록 하겠습니다 is way too stiff. Friends say 챙겨올게." },
-        { "ko": "팝콘은 영화관에서 먹는 거야.", "en": "Popcorn is for the movie theater.", "correct": false, "feedback": "Needlessly contradicts them and derails the cozy plan." }
-      ] }
+      {
+        "role": "partner",
+        "ko": "넷플 뭐 보지? 볼 게 없네",
+        "en": "What should we put on Netflix? There's nothing to watch"
+      },
+      {
+        "role": "you",
+        "prompt": "Bounce it back and ask if they want a movie or a show.",
+        "choices": [
+          {
+            "ko": "그러게ㅋㅋ 영화 볼까, 아님 예능?",
+            "en": "Right lol. Movie or maybe a variety show?",
+            "correct": true,
+            "feedback": "그러게 agrees, then the two options move the decision along."
+          },
+          {
+            "ko": "무엇을 시청하길 원하십니까?",
+            "en": "What do you wish to watch? (formal)",
+            "correct": false,
+            "feedback": "원하십니까 is hotel-staff formal. Say 뭐 볼까?"
+          },
+          {
+            "ko": "넷플릭스에는 콘텐츠가 많아.",
+            "en": "Netflix has a lot of content.",
+            "correct": false,
+            "feedback": "Stating the obvious — it doesn't help you two decide."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "음, 머리 비우고 볼 수 있는 가벼운 예능?",
+        "en": "Hmm, maybe a light variety show I can watch without thinking too much?"
+      },
+      {
+        "role": "you",
+        "prompt": "Like the idea and suggest the show everyone's talking about.",
+        "choices": [
+          {
+            "ko": "오 좋아, 요즘 다들 보는 그거 볼래?",
+            "en": "Oh nice, wanna watch the one everyone's on about lately?",
+            "correct": true,
+            "feedback": "오 좋아 + a concrete suggestion (그거) is how friends close in on a pick."
+          },
+          {
+            "ko": "예능 프로그램 시청을 제안드립니다.",
+            "en": "I propose viewing a variety program. (formal)",
+            "correct": false,
+            "feedback": "제안드립니다 sounds like a meeting. Just say 그거 볼래?"
+          },
+          {
+            "ko": "예능보다 다큐가 유익해.",
+            "en": "Documentaries are more beneficial than variety shows.",
+            "correct": false,
+            "feedback": "Contradicts what they just wanted and sounds preachy."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "아 그거 1화만 봤는데 개웃기더라ㅋㅋ",
+        "en": "Ah I only saw ep 1 of that, it was hilarious lol"
+      },
+      {
+        "role": "you",
+        "prompt": "React and suggest just starting from episode 2.",
+        "choices": [
+          {
+            "ko": "그치ㅋㅋ 그럼 2화부터 틀자",
+            "en": "Right lol then let's put on ep 2",
+            "correct": true,
+            "feedback": "그치 (matching reaction) + 틀자 ('let's put it on') keeps it casual and decisive."
+          },
+          {
+            "ko": "그러면 2화부터 재생하시겠어요?",
+            "en": "Then would you like to play from ep 2? (polite)",
+            "correct": false,
+            "feedback": "재생하시겠어요 is too polite for a friend on the couch. Say 2화부터 틀자."
+          },
+          {
+            "ko": "1화가 그렇게 웃겼어?",
+            "en": "Was ep 1 really that funny?",
+            "correct": false,
+            "feedback": "Just repeats their point instead of moving to actually watching."
+          }
+        ]
+      },
+      {
+        "role": "partner",
+        "ko": "콜 근데 나 팝콘 먹고 싶어ㅋㅋ",
+        "en": "Deal but I kinda want popcorn lol"
+      },
+      {
+        "role": "you",
+        "prompt": "Agree and say you'll grab snacks first.",
+        "choices": [
+          {
+            "ko": "ㅋㅋ 콜, 간식 챙겨 올게. 잠깐만!",
+            "en": "Lol, deal. I'll grab snacks. Hold on!",
+            "correct": true,
+            "feedback": "콜 + 챙겨 올게 + 잠깐만 is natural casual hangout talk."
+          },
+          {
+            "ko": "간식을 준비해 오도록 하겠습니다.",
+            "en": "I shall prepare and bring snacks. (formal)",
+            "correct": false,
+            "feedback": "하도록 하겠습니다 is way too stiff. Friends say 챙겨올게."
+          },
+          {
+            "ko": "팝콘은 영화관에서 먹는 거야.",
+            "en": "Popcorn is for the movie theater.",
+            "correct": false,
+            "feedback": "Needlessly contradicts them and derails the cozy plan."
+          }
+        ]
+      }
     ],
-    "vocab": ["넷플", "예능", "개웃기다", "틀다", "간식"]
+    "vocab": [
+      "넷플",
+      "예능",
+      "개웃기다",
+      "틀다",
+      "간식"
+    ],
+    "register": "banmal"
   }
 ]
