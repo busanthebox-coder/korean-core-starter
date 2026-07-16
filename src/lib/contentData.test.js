@@ -23,6 +23,8 @@ describe('content data surfaces', () => {
       'pack-home-things',
       'pack-food-basic',
       'pack-colors',
+      'pack-reactions-agree',
+      'pack-reactions-surprise',
     ]);
 
     for (const pack of vocabPacks) {

@@ -44,6 +44,7 @@
   export let onStartWrite = () => {};
   export let onStartBuild = () => {};
   export let onStartContrast = () => {};
+  export let onStartReactions = () => {};
   export let onStartConjugation = () => {};
   export let onStartListening = () => {};
 
@@ -194,6 +195,9 @@
         {/if}
         <button class="mode-card wide" type="button" on:click={onStartContrast}>
           <i class="ti ti-arrows-left-right" aria-hidden="true"></i><strong>Contrast Lab</strong><span>Tell similar patterns apart</span>
+        </button>
+        <button class="mode-card wide" type="button" on:click={onStartReactions}>
+          <i class="ti ti-message-2-heart" aria-hidden="true"></i><strong>Reactions</strong><span>Say the right thing back</span>
         </button>
         <button class="mode-card wide" type="button" disabled={!canConjugate} on:click={onStartConjugation}>
           <i class="ti ti-repeat" aria-hidden="true"></i><strong>Conjugate</strong><span>Turn verbs into usable Korean forms</span>

@@ -51,4 +51,37 @@
 - 리액션 자동 생성 무리뷰 적용. 40문항 초과 확장(v1 규모 고정).
 
 ## 완료 기록
-(실행자가 작성)
+✅ done 2026-07-17 — Opus 4.8 직접 구현.
+
+- **표현 시드 8개**(`scripts/expr-src/x-reactions-basic.json` 16→24): 그렇군요·아 그래요?·그러니까요·
+  잘됐네요·저도요·아 맞다·수고하셨어요·아까워요. 각 항목이 비슷한 리액션과의 차이를 structuredNuance에 명시.
+  사실 확인이 특히 중요했던 2건 — **수고하셨어요**: 국립국어원 표준 언어 예절상 윗사람에겐 부적절(현대 직장에선
+  광범위하나 연배 있는 윗사람은 인지) + **고생하셨어요도 안전한 대체재가 아님**을 명시. **아까워요 vs 아쉬워요**:
+  가졌던 가치를 낭비/상실(아깝다) vs 기대 미달·애초에 못 가짐(아쉽다).
+- **팩 2개**(vocab-packs 10→12): pack-reactions-agree(2과 뒤)·pack-reactions-surprise(7과 뒤), 각 10항목.
+- **reaction 드릴 40문항**(`src/lib/reactionDrills.json`) + `src/lib/reactions.js` + `ReactionSession.svelte`
+  + Practice에 Reactions 모드(10문항). 상대 말풍선(ChatBubble 재사용) → 리액션 3택 → 오답 시 why 설명.
+
+### 검증
+- 생성물 **직접 전수 검증**: 스키마 0오류, **partnerKo 40개 전부 원천 시나리오 발화와 verbatim 일치**(대조 확인),
+  26개 해요체 시나리오 전부 활용, 반말 종결 0건.
+- 보기 순서는 C2에서 만든 `scrambledOptions`를 태움 — 정답 슬롯 편향 회귀 테스트 포함(3슬롯 15~55% 분산).
+- 테스트 64파일 / **329개 green**(신규 reactions 7개). build + bundle guard + lint:content +
+  verify-data-integrity PASS.
+- 브라우저 QA(모바일 375px): Reactions 카드 → 세션 렌더 → 오답 피드백("수고하셨어요는 끝난 노고를 마무리하는 말인데
+  아직 십 분 기다려야 함") → 완주 → **mistakes/SRS 3장 유입 확인**.
+
+### 스펙과 다르게 한 것
+1. **lint-content에 드릴 스키마 검사 추가 안 함.** lint-content는 생성된 app-data를 검사하는데 드릴은
+   `src/lib` 번들 데이터라 대상이 아니다. 이미 작성한 `reactions.test.js`가 동일 검사(+슬롯 분산)를 하고
+   같은 CI(test-build 잡)에서 돌아 중복이므로 생략.
+2. **Part D(대화 화면 맞장구 칩) 생략** — 스펙이 "부담 크면 v1 생략 가능(결정 기록)"으로 허용한 항목.
+3. 팩 항목을 8→**10개**로 늘림 — 기존 `contentData.test.js`가 팩당 ≥10을 강제(테스트가 잡아냄).
+4. **entryIds는 40개 중 16개만 부여**. 정답이 바른 표제어가 아니라 자연스러운 문장이라(콘텐츠로는 옳음)
+   정확 일치는 0/40이었고, 리액션 표제어를 포함하는 16개만 해석해 붙였다. 나머지 24개는 붙일 표제어가 없어
+   SRS 유입이 없다 — 브라우저 QA에서 유입 0인 걸 발견해 추적한 결과. entryId 실존 검증 테스트 추가.
+
+### 파이프라인 메모
+표현 8개 추가는 의도된 콘텐츠 증가라 generate가 무결성 가드에 걸린다(정상 동작). 정식 절차대로
+`node scripts/generate-korean-data.mjs --accept-manifest-additions` → `node scripts/verify-data-integrity.mjs
+--update-manifest` 순으로 처리(expressions 877→885). C13과 동일하게 apply-curriculum-structure는 건너뜀.

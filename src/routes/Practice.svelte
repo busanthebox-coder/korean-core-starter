@@ -14,6 +14,7 @@
   import MatchGame from '../lib/components/MatchGame.svelte';
   import ListeningSession from '../lib/components/ListeningSession.svelte';
   import PatternContrastSession from '../lib/components/PatternContrastSession.svelte';
+  import ReactionSession from '../lib/components/ReactionSession.svelte';
   import PracticeRecoveryPanel from '../lib/components/PracticeRecoveryPanel.svelte';
   import PracticeSetupPanel from '../lib/components/PracticeSetupPanel.svelte';
   import ReviewSession from '../lib/components/ReviewSession.svelte';
@@ -25,6 +26,7 @@
   import { mistakes, sortedMistakeIds } from '../lib/mistakes.js';
   import { recordMissedItems } from '../lib/mistakeReview.js';
   import { buildContrastQuiz, contrastLevelOptions, contrastStats } from '../lib/patternContrast.js';
+  import { buildReactionQuiz } from '../lib/reactions.js';
   import { canUseKoreanSpeech } from '../lib/audio.js';
   import { buildListeningPractice, countListeningCandidates } from '../lib/listening.js';
   import { markLessonPracticed } from '../lib/stores.js';
@@ -38,6 +40,7 @@
   let result = null;
   let sessionCards = [];
   let contrastQuestions = [];
+  let reactionQuestions = [];
   let listeningQuestions = [];
   let contrastLevel = 'all';
   let conjugationQuestions = [];
@@ -176,6 +179,12 @@
   async function startBuild() { await ensurePracticeReady(); questions = buildSentenceQuiz(pool, { count: 6 }); stage = 'quiz'; window.scrollTo(0, 0); }
   async function startMatch() { await ensurePracticeReady(); matchData = makeMatch(pool, Math.random, 5); stage = 'match'; window.scrollTo(0, 0); }
   function startContrast() { contrastQuestions = buildContrastQuiz({ count: 8, level: contrastLevel }); stage = 'contrast'; window.scrollTo(0, 0); }
+  function startReactions() {
+    reactionQuestions = buildReactionQuiz({ count: 10 });
+    if (!reactionQuestions.length) return;
+    stage = 'reactions';
+    window.scrollTo(0, 0);
+  }
   async function startConjugation() {
     await ensurePracticeReady();
     conjugationQuestions = buildConjugationQuiz(conjugationPool, {
@@ -270,6 +279,7 @@
       onStartWrite={startWrite}
       onStartBuild={startBuild}
       onStartContrast={startContrast}
+      onStartReactions={startReactions}
       onStartConjugation={startConjugation}
       onStartListening={startListening}
     />
@@ -294,6 +304,10 @@
   {:else if stage === 'contrast'}
     <button class="back" on:click={reset}>← Practice</button>
     <PatternContrastSession items={contrastQuestions} onDone={finish} />
+
+  {:else if stage === 'reactions'}
+    <button class="back" on:click={reset}>← Practice</button>
+    <ReactionSession items={reactionQuestions} onDone={finish} />
 
   {:else if stage === 'review'}
     <button class="back" on:click={reviewDone}>← Practice</button>

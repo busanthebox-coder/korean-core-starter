@@ -1,0 +1,1011 @@
+[
+  {
+    "id": "react-001",
+    "partnerKo": "전화는 제가 받을게요. 그런데 거래처 건은 제가 내용을 잘 몰라서, 메모만 남겨 둬도 될까요?",
+    "partnerEn": "I'll take the call. But I don't really know the details on the client thing, so is it okay if I just leave you a memo?",
+    "sourceId": "convo-favor-coworker-neighbor",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "그럼요, 그렇게 해 주세요.",
+        "natural": true,
+        "why": "They're asking permission to do a smaller version of the favor. 그럼요 grants it warmly and 그렇게 해 주세요 tells them the reduced plan is fine — the question gets an actual answer."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 piles onto an opinion or gripe the other person voiced ('right, exactly'). Here there is a 될까요? question on the table, so co-signing a view leaves them still waiting for a yes or no."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 closes out effort someone has already finished. The call hasn't happened yet — they're mid-negotiation with you, so this signs off on work that hasn't started."
+      }
+    ]
+  },
+  {
+    "id": "react-002",
+    "partnerKo": "카드 발급 수수료는 없어요. 통장과 카드는 잠시 후에 나옵니다.",
+    "partnerEn": "There's no fee for issuing the card. Your passbook and card will come out in a moment.",
+    "sourceId": "convo-open-bank-account",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "아, 그렇군요. 감사합니다.",
+        "natural": true,
+        "why": "그렇군요 is the calm 'ah, I see' for taking in information you didn't have. The teller is stating bank policy and a timeline, and this signals you received it without making a fuss."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 agrees with a view the other person expressed, implying you already thought the same. The teller is handing you brand-new factual information, not an opinion you can second."
+      },
+      {
+        "ko": "잘됐네요.",
+        "natural": false,
+        "why": "잘됐네요 celebrates a situation that happened to work out. A standing no-fee policy isn't a lucky break, and it's the bank's rule rather than good fortune that befell either of you."
+      }
+    ],
+    "entryIds": [
+      "expr-878"
+    ]
+  },
+  {
+    "id": "react-003",
+    "partnerKo": "네, 신분증 좀 보여 주시겠어요?",
+    "partnerEn": "Sure — could you show me your ID?",
+    "sourceId": "convo-open-bank-account",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "네, 여기 있어요.",
+        "natural": true,
+        "why": "A request for an object is answered by handing it over. 여기 있어요 is the standard 'here you go' that completes the exchange."
+      },
+      {
+        "ko": "그럼요, 말씀하세요.",
+        "natural": false,
+        "why": "그럼요, 말씀하세요 invites someone to go ahead and state their request. They already stated it — saying this loops back to a step you're past."
+      },
+      {
+        "ko": "아, 그래요?",
+        "natural": false,
+        "why": "아 그래요? is light surprise plus checking a piece of news. A teller asking for ID is completely routine, so reacting as if it's a revelation sounds like you're questioning whether they really need it."
+      }
+    ]
+  },
+  {
+    "id": "react-004",
+    "partnerKo": "십 분 정도 걸려요. 성함을 부르면 이쪽으로 와 주세요.",
+    "partnerEn": "It'll take about ten minutes. When we call your name, please come over here.",
+    "sourceId": "convo-gu-office-document",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "네, 알겠습니다.",
+        "natural": true,
+        "why": "알겠습니다 confirms you understood an instruction and will follow it. The clerk gave you a wait time and a step to take, and this is the acknowledgement they need before moving to the next customer."
+      },
+      {
+        "ko": "그러게요.",
+        "natural": false,
+        "why": "그러게요 co-signs an observation — 'yeah, isn't it.' A staff instruction isn't an observation to agree with, and agreeing doesn't tell them you'll actually come when called."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 wraps up someone's completed effort. The clerk is still processing your document and you're about to wait ten minutes — nothing is finished yet."
+      }
+    ]
+  },
+  {
+    "id": "react-005",
+    "partnerKo": "아이고 감사해요ㅎㅎ 오늘 진짜 덥죠? 밖에 난리예요.",
+    "partnerEn": "Aw, thank you haha. It's really hot today, isn't it? It's chaos out there.",
+    "sourceId": "convo-cafe-regular-smalltalk",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "그러니까요, 밖에 나가기가 무서워요.",
+        "natural": true,
+        "why": "그러니까요 piles onto a complaint you fully share — stronger than mere agreement, it says 'don't even get me started.' They're griping about the heat, so matching the gripe keeps the small talk rolling."
+      },
+      {
+        "ko": "아, 그래요?",
+        "natural": false,
+        "why": "아 그래요? treats what you heard as news you're learning. You just walked in out of that heat, so acting surprised by it makes it sound like you weren't outside at all."
+      },
+      {
+        "ko": "다행이네요.",
+        "natural": false,
+        "why": "다행이네요 expresses relief that a bad outcome was avoided. Nothing was avoided here — the heat is the bad thing, and it's happening — so relief has nothing to attach to."
+      }
+    ],
+    "entryIds": [
+      "expr-880"
+    ]
+  },
+  {
+    "id": "react-006",
+    "partnerKo": "아침엔 좀 바빴는데 지금은 한가해요. 저는 이 시간이 제일 좋아요.",
+    "partnerEn": "It was busy in the morning but it's quiet now. This is my favorite time of day.",
+    "sourceId": "convo-cafe-regular-smalltalk",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "저도요. 조용해서 좋아요.",
+        "natural": true,
+        "why": "저도요 says 'same here' — it matches a personal preference with your own. They opened up about what they like, so offering the same back builds the connection rather than just noting theirs."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 is envy for something the other person has and you don't. You're sitting in that same quiet café right now, so there's no advantage of theirs you're locked out of."
+      },
+      {
+        "ko": "아까워요.",
+        "natural": false,
+        "why": "아까워요 is for something valuable being wasted or slipping away — a missed chance, food thrown out. Nothing is being lost here; they're describing a moment they enjoy."
+      }
+    ],
+    "entryIds": [
+      "expr-882"
+    ]
+  },
+  {
+    "id": "react-007",
+    "partnerKo": "안녕하세요! 저 지수예요. 만나서 반가워요ㅎㅎ",
+    "partnerEn": "Hi! I'm Jisu. Nice to meet you haha.",
+    "sourceId": "convo-language-exchange-first-meet",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "저도 반가워요!",
+        "natural": true,
+        "why": "A greeting wants the greeting returned. 저도 반가워요 mirrors 반가워요 back, which is what closes the introduction ritual."
+      },
+      {
+        "ko": "네, 그렇군요.",
+        "natural": false,
+        "why": "그렇군요 files a statement away as new information. A name and a greeting aren't a data point to absorb — leaving it here makes you sound like you're taking notes instead of saying hello back."
+      },
+      {
+        "ko": "아, 그래요?",
+        "natural": false,
+        "why": "아 그래요? is mild surprise plus double-checking something you heard. Aimed at someone telling you their own name, it sounds like you doubt they know it."
+      }
+    ]
+  },
+  {
+    "id": "react-008",
+    "partnerKo": "저는 학교 때부터 했는데 말하기는 아직 자신 없어요ㅠㅠ",
+    "partnerEn": "I've been doing it since school, but I'm still not confident about speaking ㅠㅠ",
+    "sourceId": "convo-language-exchange-first-meet",
+    "level": "B1",
+    "options": [
+      {
+        "ko": "에이, 지금도 충분히 잘하시는데요.",
+        "natural": true,
+        "why": "They're putting themselves down about a weak point. The expected move is to push back on the self-criticism — 에이 waves it off and 잘하시는데요 reassures, which is what keeps a first meeting warm."
+      },
+      {
+        "ko": "아까워요.",
+        "natural": false,
+        "why": "아까워요 mourns something valuable that got wasted or missed. Nothing was lost — they're just admitting they feel shaky when they speak."
+      },
+      {
+        "ko": "축하해요.",
+        "natural": false,
+        "why": "축하해요 marks an achievement. They confessed a weakness, so congratulating them reads as sarcasm rather than support."
+      }
+    ]
+  },
+  {
+    "id": "react-009",
+    "partnerKo": "맞아요ㅎㅎ 그럼 우리 반은 한국어, 반은 영어로 할까요?",
+    "partnerEn": "Right haha. So shall we do half in Korean and half in English?",
+    "sourceId": "convo-language-exchange-first-meet",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "좋아요! 그렇게 해요.",
+        "natural": true,
+        "why": "-(으)ㄹ까요? is a proposal asking you to decide together. 좋아요 accepts it and 그렇게 해요 locks the plan in, which is the response the grammar is fishing for."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 seconds an opinion someone voiced. A proposal isn't an opinion — agreeing that it's a good idea in the abstract still never says whether you'll do it."
+      },
+      {
+        "ko": "그렇군요.",
+        "natural": false,
+        "why": "그렇군요 receives new information calmly. But there's no information here to receive — there's an invitation sitting there waiting on your answer, and this quietly ignores it."
+      }
+    ]
+  },
+  {
+    "id": "react-010",
+    "partnerKo": "오 클라이밍이요? 저도 한번 해 보고 싶었는데요!",
+    "partnerEn": "Oh, climbing? I've been wanting to try that too!",
+    "sourceId": "convo-coworker-lunch-chat",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "진짜요? 그럼 다음에 같이 가요!",
+        "natural": true,
+        "why": "진짜요? is the light 'oh really?' that shows their interest registered, and it naturally opens into an invitation — which is what someone saying '해 보고 싶었는데요' is angling for."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 is envy for what the other person has. They just said they've never tried it — you're the one who climbs, so the envy is pointed the wrong way."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 credits effort someone put in. They've only expressed curiosity; there's no effort of theirs to acknowledge yet."
+      }
+    ],
+    "entryIds": [
+      "expr-645"
+    ]
+  },
+  {
+    "id": "react-011",
+    "partnerKo": "네네. 오늘 밖에 많이 춥죠? 장 보고 오시나 봐요.",
+    "partnerEn": "Sure. It's really cold out today, isn't it? Looks like you've been grocery shopping.",
+    "sourceId": "convo-neighbor-elevator",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "그러게요, 오늘 유난히 춥네요.",
+        "natural": true,
+        "why": "그러게요 agrees with an observation the other person just made — 'yeah, isn't it.' The -죠? ending is fishing for exactly this co-signing, and it keeps the elevator small talk going."
+      },
+      {
+        "ko": "그렇군요.",
+        "natural": false,
+        "why": "그렇군요 takes something in as fresh information from someone who knows more than you. You just came in from that cold carrying groceries, so the weather isn't news you're learning from them."
+      },
+      {
+        "ko": "다행이에요.",
+        "natural": false,
+        "why": "다행이에요 is relief that things didn't go badly. The cold isn't a relief, and they're inviting you to commiserate, not to be grateful."
+      }
+    ],
+    "entryIds": [
+      "expr-658"
+    ]
+  },
+  {
+    "id": "react-012",
+    "partnerKo": "무거워 보여요ㅎㅎ 하나 들어 드릴까요?",
+    "partnerEn": "That looks heavy haha. Shall I carry one for you?",
+    "sourceId": "convo-neighbor-elevator",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "아니에요, 괜찮아요. 고마워요.",
+        "natural": true,
+        "why": "An offer of help needs accepting or declining. 아니에요, 괜찮아요 turns it down without rejecting the kindness, and 고마워요 keeps the neighborly warmth."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 thanks someone for effort they've already spent. They've only offered — nothing has been carried — and the offer is still hanging unanswered."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 seconds a shared opinion. Here it would mean 'right, they ARE heavy' — agreeing with the observation while completely dodging the question of whether they should help."
+      }
+    ]
+  },
+  {
+    "id": "react-013",
+    "partnerKo": "한국말 잘하시네요! 한국에 오래 사셨어요?",
+    "partnerEn": "Your Korean is good! Have you lived in Korea a long time?",
+    "sourceId": "convo-hair-salon-chat",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "아니에요, 아직 멀었어요. 이 년쯤 됐어요.",
+        "natural": true,
+        "why": "A compliment gets deflected before it gets accepted — 아직 멀었어요 is the standard modest brush-off — and then you answer the question they attached to it."
+      },
+      {
+        "ko": "축하해요.",
+        "natural": false,
+        "why": "축하해요 celebrates the other person's achievement. The compliment was about you, so congratulating them back points the reaction at the wrong person."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 agrees with a view the speaker expressed. Used on a compliment about yourself it becomes 'right, I am good' — bragging — and it still leaves their question unanswered."
+      }
+    ]
+  },
+  {
+    "id": "react-014",
+    "partnerKo": "다 됐어요! 어떠세요, 마음에 드세요?",
+    "partnerEn": "All done! How is it — do you like it?",
+    "sourceId": "convo-hair-salon-chat",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "와, 마음에 들어요. 감사합니다.",
+        "natural": true,
+        "why": "They asked for your verdict on their work. 마음에 들어요 delivers it, and 와 supplies the bit of visible pleasure the stylist is actually waiting for."
+      },
+      {
+        "ko": "잘됐네요.",
+        "natural": false,
+        "why": "잘됐네요 congratulates the other person on how their situation turned out. The haircut is yours, not a stroke of luck of theirs, and it dodges the question about what you think."
+      },
+      {
+        "ko": "그러게요.",
+        "natural": false,
+        "why": "그러게요 co-signs an observation someone made. There's a direct question here asking for your opinion, and vague agreement doesn't give one."
+      }
+    ]
+  },
+  {
+    "id": "react-015",
+    "partnerKo": "네, 서울역이요. 지금 길이 좀 막히는데 괜찮으세요?",
+    "partnerEn": "Sure, Seoul Station. Traffic's a bit backed up right now — is that okay with you?",
+    "sourceId": "convo-taxi-driver-chat",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "네, 괜찮아요. 천천히 가 주세요.",
+        "natural": true,
+        "why": "He's asking your permission before setting off into traffic. 괜찮아요 gives it and 천천히 가 주세요 tells him not to feel rushed — the driver can't move until he has this."
+      },
+      {
+        "ko": "어떡해요.",
+        "natural": false,
+        "why": "어떡해요 is dismay at misfortune that hit the other person. Traffic on your own ride isn't a disaster that befell him, and it leaves him not knowing whether to go."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 joins in on a gripe. He isn't complaining about traffic — he's asking your permission — so agreeing about the traffic still gives him no answer."
+      }
+    ]
+  },
+  {
+    "id": "react-016",
+    "partnerKo": "수고하셨어요~ 어땠어요? 많이 힘들었죠?",
+    "partnerEn": "Good work~ How was it? Pretty tough, right?",
+    "sourceId": "convo-gym-class-chat",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "네ㅋㅋ 진짜 힘들었어요. 수고하셨어요~",
+        "natural": true,
+        "why": "The -죠? is fishing for shared suffering, so confirm it and send 수고하셨어요 back — you both just did the same class, so the effort acknowledgement runs in both directions."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 is envy for something the other person has that you don't. You were in that class right beside them, so there's nothing of theirs to be envious of."
+      },
+      {
+        "ko": "다행이네요.",
+        "natural": false,
+        "why": "다행이네요 is relief that a bad outcome was dodged. They're inviting you to commiserate about how brutal it was, not to be relieved about anything."
+      }
+    ],
+    "entryIds": [
+      "expr-884"
+    ]
+  },
+  {
+    "id": "react-017",
+    "partnerKo": "저는 일주일에 세 번 와요. 이 수업 좀 힘들어요ㅋㅋ",
+    "partnerEn": "I come three times a week. This class is kind of tough haha.",
+    "sourceId": "convo-gym-class-chat",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "헐, 세 번이요? 대단하시네요.",
+        "natural": true,
+        "why": "헐 registers genuine surprise at a number that's higher than you expected, and 대단하시네요 turns it into admiration — which is what someone mentioning their training frequency is quietly hoping for."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 signs off on effort that has finished. They're describing an ongoing weekly routine, and today's class hasn't even started — you're both still waiting for it."
+      },
+      {
+        "ko": "아까워요.",
+        "natural": false,
+        "why": "아까워요 is for something valuable being wasted or missed. Nothing is slipping away here; they're telling you how often they show up."
+      }
+    ],
+    "entryIds": [
+      "expr-647"
+    ]
+  },
+  {
+    "id": "react-018",
+    "partnerKo": "밥은 먹었어요? 여기 앉아요. 많이 차렸어요.",
+    "partnerEn": "Have you eaten? Sit here. I've made plenty.",
+    "sourceId": "convo-friend-parents-greeting",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "아, 감사합니다. 잘 먹겠습니다.",
+        "natural": true,
+        "why": "Hospitality from a friend's parent is accepted, not evaluated. 잘 먹겠습니다 is the set phrase before eating food someone prepared for you, and it answers the invitation to sit."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 credits someone's labour, but aimed upward at your friend's mother about food she just cooked for you, it sounds like you're grading her work. Toward elders this reaction needs real care — accept the hospitality instead."
+      },
+      {
+        "ko": "그러게요.",
+        "natural": false,
+        "why": "그러게요 co-signs an observation. She asked whether you've eaten and told you to sit down — vague agreement answers neither."
+      }
+    ]
+  },
+  {
+    "id": "react-019",
+    "partnerKo": "와 오늘 날씨 진짜 좋네요 완전 봄이에요",
+    "partnerEn": "Wow, the weather is so nice today — it's totally spring.",
+    "sourceId": "convo-weather-small-talk-haeyo",
+    "level": "A1",
+    "options": [
+      {
+        "ko": "맞아요, 이제 진짜 봄인가 봐요.",
+        "natural": true,
+        "why": "맞아요 confirms that what they said is true and then extends it. They made a claim about the season, so confirming it and adding a line keeps the small talk moving."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 is envy for something the other person has. The nice weather belongs to both of you standing in it — there's nobody to envy."
+      },
+      {
+        "ko": "다행이네요.",
+        "natural": false,
+        "why": "다행이네요 expresses relief that a feared bad outcome didn't happen. Nothing was at risk here; they're just savoring a pleasant day."
+      }
+    ]
+  },
+  {
+    "id": "react-020",
+    "partnerKo": "안녕하세요! 저번에 보고 진짜 오랜만이에요ㅋㅋ",
+    "partnerEn": "Hi! It's been so long since we last met haha.",
+    "sourceId": "convo-coffee-catch-up-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "그쵸ㅋㅋ 진짜 오랜만이에요. 잘 지냈어요?",
+        "natural": true,
+        "why": "그쵸 agrees with something you both already know is true, which is exactly what '오랜만이에요' wants — then you hand the conversation back with 잘 지냈어요?"
+      },
+      {
+        "ko": "처음 뵙겠습니다.",
+        "natural": false,
+        "why": "처음 뵙겠습니다 is the polite greeting for meeting someone for the very first time. They just said you've met before, so this says you don't remember them at all."
+      },
+      {
+        "ko": "그렇군요.",
+        "natural": false,
+        "why": "그렇군요 files away information you're hearing for the first time. There's no new information here — they're opening warm small talk, and this reads as cold distance."
+      }
+    ]
+  },
+  {
+    "id": "react-021",
+    "partnerKo": "벌써 점심시간이네요ㅋㅋ 오늘 뭐 먹을까요?",
+    "partnerEn": "It's lunchtime already lol. What should we eat today?",
+    "sourceId": "convo-what-for-lunch-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "그러게요, 시간 진짜 빠르네요.",
+        "natural": true,
+        "why": "They noticed something you're both experiencing. 그러게요 = 'right, I notice it too' — it co-signs an observation the two of you share, which is exactly what 네요 is fishing for."
+      },
+      {
+        "ko": "아, 그렇군요.",
+        "natural": false,
+        "why": "그렇군요 files away information you just learned FROM them. Fine for 'the store closes at 8' — but you're sitting in the same lunch hour, so treating the clock as their news makes you sound like a stranger to your own day."
+      },
+      {
+        "ko": "저도요.",
+        "natural": false,
+        "why": "저도요 mirrors a statement about the speaker themselves ('I'm hungry' → 저도요). Here they commented on the time, and time isn't something you can also-be."
+      }
+    ],
+    "entryIds": [
+      "expr-658"
+    ]
+  },
+  {
+    "id": "react-022",
+    "partnerKo": "오 칼국수 좋아요! 근데 거기 항상 줄 길지 않아요?",
+    "partnerEn": "Ooh kalguksu sounds good! But isn't there always a line there?",
+    "sourceId": "convo-what-for-lunch-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "맞아요, 점심때는 좀 기다려야 돼요.",
+        "natural": true,
+        "why": "지 않아요? asks you to confirm a fact you know. 맞아요 confirms it ('yes, that's right') and then supplies the detail they were checking for."
+      },
+      {
+        "ko": "그렇군요.",
+        "natural": false,
+        "why": "그렇군요 receives news. But the arrow points the other way here — they're asking YOU, so nodding as if you just learned it leaves the question hanging."
+      },
+      {
+        "ko": "저도요.",
+        "natural": false,
+        "why": "저도요 answers 'I like X / I did X' by saying you match. A yes-no question about a restaurant's queue has nothing for you to match."
+      }
+    ]
+  },
+  {
+    "id": "react-023",
+    "partnerKo": "와 여기 디저트 다 맛있어 보여요… 뭐 먹을까요?",
+    "partnerEn": "Wow, all the desserts here look good… what should we get?",
+    "sourceId": "convo-cafe-dessert-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "그러니까요, 다 맛있어 보여서 못 고르겠어요.",
+        "natural": true,
+        "why": "You're both staring at the same case, so their line is an opinion inviting you in. 그러니까요 = 'exactly, that's what I'm saying' — it says you feel the same pull, then adds why."
+      },
+      {
+        "ko": "아, 그렇군요.",
+        "natural": false,
+        "why": "그렇군요 is for information only they had. You can see the dessert case yourself — nodding at it as news makes you sound like you weren't looking."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 goes to someone who has something you don't. You're standing at the same counter with the same choice, so there's nothing of theirs to envy."
+      }
+    ],
+    "entryIds": [
+      "expr-880"
+    ]
+  },
+  {
+    "id": "react-024",
+    "partnerKo": "저는 라떼요! 자리 잡고 있어요, 제가 주문할게요",
+    "partnerEn": "I'll have a latte! Go grab us a seat, I'll order.",
+    "sourceId": "convo-cafe-dessert-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "어, 그래요? 그럼 고마워요.",
+        "natural": true,
+        "why": "They offered to do something for you. The move is to accept — 그래요? takes up the offer and 고마워요 pays for it. Offers need acceptance, not just acknowledgment."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 looks backward at effort already spent — you'd say it after they came back with the drinks. They haven't ordered yet, so it lands a step too early."
+      },
+      {
+        "ko": "저도요.",
+        "natural": false,
+        "why": "저도요 claims you're the same as them. An offer isn't a statement to match — answering 'me too' to '제가 주문할게요' says nothing about whether you accept."
+      }
+    ]
+  },
+  {
+    "id": "react-025",
+    "partnerKo": "주말에 소개팅이요ㅋㅋㅋ 첫인상 중요하잖아요",
+    "partnerEn": "I've got a blind date this weekend lol. First impressions matter, you know?",
+    "sourceId": "convo-which-top-is-better-haeyo",
+    "level": "B1",
+    "options": [
+      {
+        "ko": "그쵸, 첫인상이 진짜 크죠.",
+        "natural": true,
+        "why": "잖아요 says 'you already know this too, right?' — it hands you a fact to co-sign. 그쵸 co-signs it, which is why the shirt question suddenly makes sense."
+      },
+      {
+        "ko": "아 그래요?",
+        "natural": false,
+        "why": "아 그래요? treats what they said as fresh news. But 잖아요 assumes you already knew it — reacting with surprise contradicts the assumption built into their sentence."
+      },
+      {
+        "ko": "다행이네요.",
+        "natural": false,
+        "why": "다행이네요 is relief that something bad was avoided. Nothing has gone wrong or been dodged here — they're explaining why the outfit matters, not reporting a near miss."
+      }
+    ]
+  },
+  {
+    "id": "react-026",
+    "partnerKo": "ㅇㅋㅋㅋ 결정했어요 흰색 살게요! 고마워요",
+    "partnerEn": "Ok lol, decided — I'm buying the white one! Thanks.",
+    "sourceId": "convo-which-top-is-better-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "네, 잘 골랐어요ㅎㅎ 소개팅 잘 보고 오세요.",
+        "natural": true,
+        "why": "They made a call using your input and thanked you. Backing the choice (잘 골랐어요) closes the loop and sends them off — it matches the light, friendly weight of the moment."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 credits someone for labour they put in. Picking a shirt while you chatted isn't work to be credited — it recasts a fun shopping trip as a completed shift."
+      },
+      {
+        "ko": "축하해요.",
+        "natural": false,
+        "why": "축하해요 marks an achievement — a job, an exam, a wedding. Buying a top isn't one, so congratulating it is a comic overshoot in tone."
+      }
+    ]
+  },
+  {
+    "id": "react-027",
+    "partnerKo": "다음 주가 지민 씨 생일인데 뭐 선물하죠? 좀 도와주세요ㅠ",
+    "partnerEn": "It's Jimin's birthday next week — what should I get her? Help me out ㅠ",
+    "sourceId": "convo-gift-for-friend-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "아, 그래요? 그럼 같이 한번 골라 봐요.",
+        "natural": true,
+        "why": "This is a question plus a request for help. Taking up the request (같이 골라 봐요) is what they're actually after — a reaction that doesn't agree to help leaves them stuck."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 agrees with an opinion or a gripe. There's no opinion on the table — they asked a question, and 'exactly' doesn't answer 뭐 선물하죠?"
+      },
+      {
+        "ko": "축하해요.",
+        "natural": false,
+        "why": "축하해요 goes to the person whose good thing it is. The birthday belongs to Jimin, not to the coworker in front of you — and it hasn't happened yet either."
+      }
+    ]
+  },
+  {
+    "id": "react-028",
+    "partnerKo": "요즘 향수에 진심이더라고요ㅋㅋ 인스타에 맨날 올려요",
+    "partnerEn": "She's really into perfume these days lol — posts about it on Insta constantly.",
+    "sourceId": "convo-gift-for-friend-haeyo",
+    "level": "B1",
+    "options": [
+      {
+        "ko": "아, 그렇군요. 그럼 향 나는 걸로 하면 되겠네요.",
+        "natural": true,
+        "why": "더라고요 delivers something they observed and you didn't. 그렇군요 is the calm 'ah, got it' for exactly that — new information received, then put to use."
+      },
+      {
+        "ko": "그러게요.",
+        "natural": false,
+        "why": "그러게요 means 'yeah, I see it too' — it needs something you can both see. Jimin's Instagram habit is knowledge only they have, so agreeing pretends to a view you don't hold."
+      },
+      {
+        "ko": "저도요.",
+        "natural": false,
+        "why": "저도요 would say YOU are into perfume. They're telling you about a third person's taste to solve the gift problem — turning it back to yourself drops the thread."
+      }
+    ],
+    "entryIds": [
+      "expr-878"
+    ]
+  },
+  {
+    "id": "react-029",
+    "partnerKo": "주말에 정주행할 드라마 없을까요? 추천 좀 해 주세요ㅠ",
+    "partnerEn": "Any drama I can binge this weekend? Give me a rec ㅠ",
+    "sourceId": "convo-drama-binge-rec-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "오, 그럼 어떤 장르 좋아해요?",
+        "natural": true,
+        "why": "A request for a recommendation needs either a title or a narrowing question. Asking the genre takes up the request and keeps it moving — that's the reaction the ㅠ is asking for."
+      },
+      {
+        "ko": "그렇군요.",
+        "natural": false,
+        "why": "그렇군요 receives information. They didn't give you any — they asked you for some. Nodding 'I see' at a request just leaves them waiting."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 responds to something enviable they have. A free weekend could qualify in another sentence, but here the sentence is a question aimed at you, and envy doesn't answer it."
+      }
+    ]
+  },
+  {
+    "id": "react-030",
+    "partnerKo": "오케이 그럼 오늘 1화 볼게요",
+    "partnerEn": "Okay, I'll watch episode 1 tonight then.",
+    "sourceId": "convo-drama-binge-rec-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "아 맞다, 초반이 좀 느린데 2화까지는 꼭 보세요.",
+        "natural": true,
+        "why": "아 맞다 marks something you nearly forgot and had better say now. Their plan to start tonight is what jogs it loose — the timing is what makes it land."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 thanks someone for effort already finished. They haven't watched anything yet — and watching a drama you recommended isn't a chore you'd credit them for."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 agrees with an opinion. They announced a plan, and there's no opinion in it to agree with — 'exactly' has nothing to attach to."
+      }
+    ],
+    "entryIds": [
+      "expr-883"
+    ]
+  },
+  {
+    "id": "react-031",
+    "partnerKo": "아 그거 1화만 봤는데 개웃기더라고요ㅋㅋ",
+    "partnerEn": "Oh I only watched episode 1 of that but it was hilarious lol.",
+    "sourceId": "convo-netflix-what-to-watch-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "아 그래요? 그럼 그거 이어서 봐요ㅋㅋ",
+        "natural": true,
+        "why": "아 그래요? is light surprise plus interest — the right size for a small discovery. It picks up their 더라고요 and turns it into the decision you're both trying to make."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 acknowledges effort someone put in for a task. Watching one funny episode isn't labour, so crediting it reads as a joke about how hard their evening was."
+      },
+      {
+        "ko": "다행이네요.",
+        "natural": false,
+        "why": "다행이네요 is relief that a feared outcome didn't happen. Nothing was at stake — they just liked a show, and relief implies a risk that was never there."
+      }
+    ],
+    "entryIds": [
+      "expr-879"
+    ]
+  },
+  {
+    "id": "react-032",
+    "partnerKo": "저 요즘 베이킹 시작했거든요",
+    "partnerEn": "So I started baking recently.",
+    "sourceId": "convo-starting-new-hobby-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "오, 진짜요? 어쩌다 시작했어요?",
+        "natural": true,
+        "why": "거든요 is a setup — it plants news and waits for you to pull on it. 진짜요? shows the news landed, and the follow-up question gives them the opening they were angling for."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 agrees with a view you share. Fresh personal news isn't a view — you can't 'exactly' someone's announcement that they took up a hobby."
+      },
+      {
+        "ko": "잘됐네요.",
+        "natural": false,
+        "why": "잘됐네요 celebrates a situation working out after being uncertain — an approved visa, a found apartment. Starting a hobby wasn't a problem awaiting resolution, so it treats a story-opener as a finish line."
+      }
+    ],
+    "entryIds": [
+      "expr-645"
+    ]
+  },
+  {
+    "id": "react-033",
+    "partnerKo": "한두 달요? 처음엔 진짜 다 망했는데 요즘 좀 늘었어요",
+    "partnerEn": "A month or two? Everything flopped at first, but I've gotten better lately.",
+    "sourceId": "convo-starting-new-hobby-haeyo",
+    "level": "B1",
+    "options": [
+      {
+        "ko": "오 대박, 두 달 만에요? 진짜 빠르네요.",
+        "natural": true,
+        "why": "The sentence ends on 늘었어요 — that's the part they're proud of. 대박 puts the energy on the win and 두 달 만에요? shows you did the math on how fast it was."
+      },
+      {
+        "ko": "어떡해요.",
+        "natural": false,
+        "why": "어떡해요 sympathizes with trouble. They mentioned the failures only as the before-picture; landing on that half means you commiserate about a problem they already solved."
+      },
+      {
+        "ko": "저도요.",
+        "natural": false,
+        "why": "저도요 makes it about you matching them. When someone reports personal progress, mirroring competes with their moment instead of giving them credit for it."
+      }
+    ],
+    "entryIds": [
+      "expr-646"
+    ]
+  },
+  {
+    "id": "react-034",
+    "partnerKo": "괜찮아요 제가 다 알려 드릴게요 신발만 빌리면 돼요",
+    "partnerEn": "It's fine, I'll teach you everything — you just need to rent shoes.",
+    "sourceId": "convo-weekend-climbing-plan-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "아, 다행이네요. 저 완전 초보라 걱정했거든요.",
+        "natural": true,
+        "why": "You were worried about being a beginner; their reassurance removes the worry. 다행이네요 is precisely that — relief that a thing you feared won't be a problem after all."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 pays someone back for effort already spent. The lesson is still in the future — you'd say this on the way home from the gym, not while they're offering."
+      },
+      {
+        "ko": "그러게요.",
+        "natural": false,
+        "why": "그러게요 agrees with an observation. They made an offer, and offers get accepted or declined — agreeing with one doesn't tell them whether you're in."
+      }
+    ]
+  },
+  {
+    "id": "react-035",
+    "partnerKo": "오 제주 좋아요! 근데 비행기값 비싸지 않아요?",
+    "partnerEn": "Ooh Jeju sounds great! But aren't the flights expensive?",
+    "sourceId": "convo-busan-or-jeju-haeyo",
+    "level": "B1",
+    "options": [
+      {
+        "ko": "그렇긴 해요. 주말이라 더 비쌀 거예요.",
+        "natural": true,
+        "why": "그렇긴 해요 concedes a point that cuts against what you'd rather do — 'true, though…'. It admits the flight cost while keeping Jeju alive, which is why the conversation can continue."
+      },
+      {
+        "ko": "그렇군요.",
+        "natural": false,
+        "why": "그렇군요 files away news from them. But 지 않아요? is a check aimed at you, on a price you both roughly know — nodding at it as new information sidesteps the question."
+      },
+      {
+        "ko": "아까워요.",
+        "natural": false,
+        "why": "아까워요 mourns something valuable being wasted or lost — money already spent, a chance already missed. No one has bought anything yet; you're still deciding."
+      }
+    ]
+  },
+  {
+    "id": "react-036",
+    "partnerKo": "아 시험 코앞인데 하나도 못 했어요",
+    "partnerEn": "Ugh, the exam is right around the corner and I haven't done a thing.",
+    "sourceId": "convo-lets-study-together-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "헐, 어떡해요. 그럼 같이 준비해요.",
+        "natural": true,
+        "why": "They're reporting trouble they're stuck in. 헐 registers the alarm and 어떡해요 puts you on their side of it — sympathy first, then the offer that fixes it."
+      },
+      {
+        "ko": "수고하셨어요.",
+        "natural": false,
+        "why": "수고하셨어요 credits effort someone has put in. They just told you they've put in none — thanking them for their hard work reads as sarcasm."
+      },
+      {
+        "ko": "다행이네요.",
+        "natural": false,
+        "why": "다행이네요 is relief that something turned out okay. Nothing has turned out okay — the bad thing is still coming, so relief points at the wrong end of the timeline."
+      }
+    ],
+    "entryIds": [
+      "expr-255",
+      "expr-647"
+    ]
+  },
+  {
+    "id": "react-037",
+    "partnerKo": "네 헬스요ㅋㅋ 살 좀 빼려고요. 근데 너무 힘들어요",
+    "partnerEn": "Yeah, the gym lol. Trying to lose some weight. But it's so hard.",
+    "sourceId": "convo-whats-new-these-days-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "저도요, 저도 처음엔 진짜 힘들었어요.",
+        "natural": true,
+        "why": "They're confiding that something is hard. 저도요 says you've stood where they're standing — shared experience is what makes a complaint feel heard rather than judged."
+      },
+      {
+        "ko": "축하해요.",
+        "natural": false,
+        "why": "축하해요 marks an achievement. Signing up and finding it brutal isn't a result yet — congratulating mid-struggle skips past the part they actually told you about."
+      },
+      {
+        "ko": "그럼요.",
+        "natural": false,
+        "why": "그럼요 is a firm 'of course' for granting a request or affirming something certain ('도와줄 수 있어요?' → '그럼요'). It has no job in response to someone admitting they're finding the gym hard."
+      }
+    ],
+    "entryIds": [
+      "expr-882"
+    ]
+  },
+  {
+    "id": "react-038",
+    "partnerKo": "그냥 옛날 사진 보다가요ㅋㅋ 우리 그때 진짜 자주 봤는데요",
+    "partnerEn": "I was just looking at old photos lol. We really used to hang out all the time back then.",
+    "sourceId": "convo-long-time-no-talk-haeyo",
+    "level": "B1",
+    "options": [
+      {
+        "ko": "그러게 말이에요, 그땐 진짜 매주 봤죠.",
+        "natural": true,
+        "why": "는데요 trails off, holding the memory out for you to hold too. 그러게 말이에요 is the warm 'right? I know' for a shared past — it confirms you remember it the same way."
+      },
+      {
+        "ko": "그렇군요.",
+        "natural": false,
+        "why": "그렇군요 receives information you didn't have. You were in those photos — nodding as though you're learning about your own friendship puts a stranger's distance between you."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 envies something that's theirs and not yours. The memory belongs to both of you, so envying it makes no sense — you were there."
+      }
+    ]
+  },
+  {
+    "id": "react-039",
+    "partnerKo": "저 드디어 취뽀했어요!!!ㅠㅠㅠ",
+    "partnerEn": "I finally got a job!!! ㅠㅠㅠ",
+    "sourceId": "convo-congrats-new-job-haeyo",
+    "level": "A2",
+    "options": [
+      {
+        "ko": "와, 진짜 축하해요!!",
+        "natural": true,
+        "why": "축하해요 marks an achievement someone earned — exactly what a job offer after a long hunt is. The 와 and the exclamation match the energy they brought."
+      },
+      {
+        "ko": "그러니까요.",
+        "natural": false,
+        "why": "그러니까요 agrees with an opinion or a shared gripe. Brand-new news isn't a claim to agree with — 'exactly' implies you were both already saying it."
+      },
+      {
+        "ko": "아 그래요?",
+        "natural": false,
+        "why": "아 그래요? is mild surprise, sized for small news like a changed meeting time. Aimed at someone crying with relief over months of job hunting, that flatness reads as indifference."
+      }
+    ]
+  },
+  {
+    "id": "react-040",
+    "partnerKo": "ㅠㅠ 진짜 면접을 몇 번이나 봤는지 몰라요. 너무 오래 걸렸어요",
+    "partnerEn": "ㅠㅠ I honestly lost count of how many interviews I did. It took so long.",
+    "sourceId": "convo-congrats-new-job-haeyo",
+    "level": "B1",
+    "options": [
+      {
+        "ko": "고생하셨어요, 진짜. 마음고생 심했겠어요.",
+        "natural": true,
+        "why": "고생하셨어요 acknowledges an ordeal someone endured, not just a task they did — heavier than 수고하셨어요, which is why it fits months of interviews and rejection."
+      },
+      {
+        "ko": "부러워요.",
+        "natural": false,
+        "why": "부러워요 responds to the outcome — the job you'd want too. But this line is about the grind that came before it, so envy answers the wrong sentence and skips the hard part they're showing you."
+      },
+      {
+        "ko": "아까워요.",
+        "natural": false,
+        "why": "아까워요 mourns something valuable gone to waste. Those interviews weren't wasted — they ended in the offer, so calling the time a loss contradicts what just happened."
+      }
+    ]
+  }
+]
