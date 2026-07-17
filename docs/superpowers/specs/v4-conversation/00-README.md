@@ -29,7 +29,7 @@
 | 2 | [c11-reactions.md](c11-reactions.md) | 리액션·맞장구 팩 + reaction 드릴 | 중 | ✅ |
 | 3 | [c15-buddy-guide.md](c15-buddy-guide.md) | 버디 세션 가이드 (buddyCard 살리기 + 주간 미션) | 소~중 | ✅ |
 | 4 | [c14-expression-nuance.md](c14-expression-nuance.md) | 표현 뉘앙스 비교 (클러스터 30 + 비교 UI) | 중 | ✅ |
-| 5 | [c12-spoken-contractions.md](c12-spoken-contractions.md) | 구어 축약 노트 | 소 | ⬜ |
+| 5 | [c12-spoken-contractions.md](c12-spoken-contractions.md) | 구어 축약 노트 | 소 | ✅ |
 
 의존성: 서로 독립. 단 C11의 리액션 표현 시드가 C14 클러스터(맞장구 계열)와 겹치므로 C11 먼저면 C14가 재사용.
 
