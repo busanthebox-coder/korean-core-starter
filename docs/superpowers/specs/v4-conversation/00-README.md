@@ -27,7 +27,7 @@
 |---|---|---|---|---|
 | 1 | [c13-roleplay-polite.md](c13-roleplay-polite.md) | Roleplay 해요체 정렬 (변형 15 + 신규 8) | 중 | ✅ |
 | 2 | [c11-reactions.md](c11-reactions.md) | 리액션·맞장구 팩 + reaction 드릴 | 중 | ✅ |
-| 3 | [c15-buddy-guide.md](c15-buddy-guide.md) | 버디 세션 가이드 (buddyCard 살리기 + 주간 미션) | 소~중 | ⬜ |
+| 3 | [c15-buddy-guide.md](c15-buddy-guide.md) | 버디 세션 가이드 (buddyCard 살리기 + 주간 미션) | 소~중 | ✅ |
 | 4 | [c14-expression-nuance.md](c14-expression-nuance.md) | 표현 뉘앙스 비교 (클러스터 30 + 비교 UI) | 중 | ⬜ |
 | 5 | [c12-spoken-contractions.md](c12-spoken-contractions.md) | 구어 축약 노트 | 소 | ⬜ |
 

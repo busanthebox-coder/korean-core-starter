@@ -50,4 +50,24 @@
 - buddyCard 내용 대량 재작성(C13의 해요체 변형분만 새로 쓰고 기존은 유지).
 
 ## 완료 기록
-(실행자가 작성)
+✅ done 2026-07-17 — Opus 4.8 직접 구현.
+
+- **Part A — buddyCard 부활**: Roleplay 시나리오 상세에 접이식 "With a Korean friend? · 친구와 함께".
+  기본 접힘(혼자 할 땐 방해 없음), 펼치면 학습자용 영어 한 줄 + **친구가 바로 읽을 크기의 instructionKo** +
+  reactionKo. 69개 시나리오 전부 데이터에 있었으나 **UI 렌더가 0곳이던 죽은 기능**이 이제 살아남.
+  buddyCard 부재 방어 렌더(`{#if selected.buddyCard?.instructionKo}`).
+- **Part B — 주간 버디 미션**: `src/lib/buddySession.js`(`isoWeekKey`, `pickBuddyMissions`) + Speak 탭 섹션.
+  ISO 주차 해시로 결정론적 3개 선택 — **같은 주 내내 동일**(친구와 미리 약속하고 나중에 앉아도 그대로),
+  다음 주 회전. 미완료(spokenProgress) 시나리오 우선, 다 하면 전체 풀로 폴백. C13의 register 필터를 따름
+  (해요체 기본). 완료 체크는 기존 `spokenProgress` 재사용 — **신규 저장 키 0개**.
+- **Part C — Guide 매뉴얼**: "Studying with a Korean friend" 섹션 추가 — 친구에게 기대할 것/말 것 명시
+  ("문법 설명은 앱이 합니다 — 친구는 자기 역할만 하고 '실제로 그렇게 말하냐'만 봐주면 충분").
+
+### 검증
+- TDD: `buddySession.test.js`를 먼저 작성해 RED(모듈 부재) 확인 후 구현 → 6/6.
+  주차 경계(월~일 동일 키, 다음 월요일 롤오버), 주중 불변, 주간 회전, 미완료 우선, 전부 완료 시 폴백, 개수 하한.
+- 테스트 65파일 / **335개 green**. build + bundle guard + lint:content + verify-data-integrity PASS.
+- 브라우저 QA(모바일 375px): 버디 세션 3개 렌더(해요체만) + 3단계 안내 / 시나리오 상세에서 buddyCard
+  기본 접힘 확인 후 펼쳐서 한국어 안내·모범 리액션 표시(스크린샷).
+- buddyCard 자체 검증은 `validate-conversations.mjs`가 이미 강제 중(한국어 전용·2~3문장·주세요 포함) —
+  스펙이 "없으면 추가"라 했으나 이미 있어 추가 불필요.

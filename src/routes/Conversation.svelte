@@ -140,6 +140,25 @@
           {selected.register === 'haeyo' ? 'See the 반말 version (close friends)' : 'See the 해요체 version (polite)'}
         </button>
       {/if}
+
+      {#if selected.buddyCard?.instructionKo}
+        <details class="buddy">
+          <summary>
+            <i class="ti ti-users" aria-hidden="true"></i>
+            With a Korean friend? · 친구와 함께
+          </summary>
+          <div class="buddy-body">
+            <p class="buddy-lead">Hand them your phone — the Korean note below tells them their part. You don't have to explain anything.</p>
+            <p class="buddy-ko">{selected.buddyCard.instructionKo}</p>
+            {#if selected.buddyCard.reactionKo}
+              <p class="buddy-react">
+                <span>친구가 이렇게 반응해 주면 좋아요</span>
+                <strong>“{selected.buddyCard.reactionKo}”</strong>
+              </p>
+            {/if}
+          </div>
+        </details>
+      {/if}
     </div>
 
     <div class="thread">
@@ -233,6 +252,20 @@
     padding: 7px 12px; border-radius: 999px; border: 1px dashed var(--border); background: transparent;
     color: var(--ink-2); font-size: 12.5px; font-weight: 800; }
   .pair-link:hover { border-color: var(--primary); color: var(--accent-ink); }
+
+  .buddy { margin-top: 12px; border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface-2); }
+  .buddy summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 7px;
+    padding: 11px 14px; font-size: 13px; font-weight: 850; color: var(--green-dark); }
+  .buddy summary::-webkit-details-marker { display: none; }
+  .buddy summary::after { content: '▸'; margin-left: auto; font-size: 11px; color: var(--ink-3); transition: transform .15s; }
+  .buddy[open] summary::after { transform: rotate(90deg); }
+  .buddy-body { display: grid; gap: 10px; padding: 0 14px 14px; }
+  .buddy-lead { margin: 0; color: var(--ink-2); font-size: 12.5px; line-height: 1.5; }
+  .buddy-ko { margin: 0; padding: 12px 14px; border-radius: var(--r-1); background: #fff; border: 1px solid var(--border);
+    font-size: 16px; font-weight: 600; line-height: 1.6; word-break: keep-all; }
+  .buddy-react { margin: 0; display: grid; gap: 3px; }
+  .buddy-react span { color: var(--ink-3); font-size: 11px; font-weight: 800; letter-spacing: .04em; }
+  .buddy-react strong { font-size: 14.5px; font-weight: 600; color: var(--ink-2); }
   .chev { color: var(--ink-3); }
   .empty { color: var(--ink-3); }
 
