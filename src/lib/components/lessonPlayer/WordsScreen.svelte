@@ -1,9 +1,15 @@
 <script>
   import AudioButton from '../AudioButton.svelte';
   import RomanizationLine from '../RomanizationLine.svelte';
+  import { clustersForHangul } from '../../data.js';
+  import { clusterHintLine } from '../../clusterHint.js';
 
   export let kind = 'words';
   export let items = [];
+
+  // A word can sit in two clusters; the lesson screen shows the first — the
+  // dictionary is where the full comparison lives.
+  const hintFor = (ko) => clusterHintLine(clustersForHangul(ko)[0], ko);
 </script>
 
 {#if kind === 'words'}
@@ -21,15 +27,20 @@
           <AudioButton text={w.ko} size={22} />
         </div>
         <div class="word-en">{w.en}</div>
-        {#if w.ex}
+        {#if w.ex || hintFor(w.ko)}
           <details class="word-more">
             <summary>Example &amp; why</summary>
-            <div class="word-ex">
-              <span class="ex-cap">예문 · example</span>
-              <div class="ex-ko">{w.ex.ko}</div>
-              {#if w.ex.en}<div class="ex-en">{w.ex.en}</div>{/if}
-              {#if w.ex.note}<div class="ex-note">{w.ex.note}</div>{/if}
-            </div>
+            {#if w.ex}
+              <div class="word-ex">
+                <span class="ex-cap">예문 · example</span>
+                <div class="ex-ko">{w.ex.ko}</div>
+                {#if w.ex.en}<div class="ex-en">{w.ex.en}</div>{/if}
+                {#if w.ex.note}<div class="ex-note">{w.ex.note}</div>{/if}
+              </div>
+            {/if}
+            {#if hintFor(w.ko)}
+              <div class="ex-vs">{hintFor(w.ko)}</div>
+            {/if}
           </details>
         {/if}
       </div>
@@ -74,4 +85,7 @@
   .ex-ko { font-size: 15px; font-weight: 600; }
   .ex-en { font-size: 13px; color: var(--ink-2); }
   .ex-note { font-size: 12px; color: var(--ink-3); }
+  .ex-vs { margin-top: 8px; padding: 8px 10px; border-radius: 8px; background: var(--primary-wash);
+    color: var(--accent-ink); font-size: 12.5px; font-weight: 700; line-height: 1.45; word-break: keep-all; }
+  .word-ex + .ex-vs { margin-top: 10px; }
 </style>

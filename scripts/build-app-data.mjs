@@ -131,19 +131,19 @@ const hanjaRoots = hanjaRootsRaw.map(({ review, members = [], ...root }) => ({
 
 function resolveById(entryId, hangul, packId) {
   const entry = allEntries.find((item) => item.id === entryId);
-  if (!entry) throw new Error(`Vocab pack ${packId} references missing entryId "${entryId}"`);
+  if (!entry) throw new Error(`${packId} references missing entryId "${entryId}"`);
   if (hangul && entry.hangul !== hangul) {
-    throw new Error(`Vocab pack ${packId} entryId "${entryId}" is ${entry.hangul}, not ${hangul}`);
+    throw new Error(`${packId} entryId "${entryId}" is ${entry.hangul}, not ${hangul}`);
   }
   return entry;
 }
 
 function resolveByHangul(hangul, packId) {
   const matches = allEntries.filter((entry) => entry.hangul === hangul);
-  if (!matches.length) throw new Error(`Vocab pack ${packId} references missing entryHangul "${hangul}"`);
+  if (!matches.length) throw new Error(`${packId} references missing entryHangul "${hangul}"`);
   if (matches.length > 1) {
     const candidates = matches.map((entry) => `${entry.id}:${entry.english}`).join(', ');
-    throw new Error(`Vocab pack ${packId} has ambiguous entryHangul "${hangul}" (${candidates}); add entryId`);
+    throw new Error(`${packId} has ambiguous entryHangul "${hangul}" (${candidates}); add entryId`);
   }
   return matches
     .slice()
@@ -160,9 +160,9 @@ function readVocabPacks() {
     ...pack,
     items: (pack.items || []).map((item, index) => {
       const entry = item.entryId
-        ? resolveById(item.entryId, item.entryHangul, pack.id)
-        : resolveByHangul(item.entryHangul, pack.id);
-      const relatedEntries = (item.relatedHangul || []).map((hangul) => resolveByHangul(hangul, pack.id));
+        ? resolveById(item.entryId, item.entryHangul, `Vocab pack ${pack.id}`)
+        : resolveByHangul(item.entryHangul, `Vocab pack ${pack.id}`);
+      const relatedEntries = (item.relatedHangul || []).map((hangul) => resolveByHangul(hangul, `Vocab pack ${pack.id}`));
       return {
         ...item,
         order: index + 1,
@@ -174,6 +174,41 @@ function readVocabPacks() {
       };
     })
   }));
+}
+
+// Expression clusters ("진짜 vs 정말 vs 참") are an added comparison layer over the
+// dictionary: they own the deciding rule, the entries own the gloss. Members are
+// authored as hangul and resolved here so a typo fails the build, not the page.
+function readExpressionClusters() {
+  const clusters = JSON.parse(readFileSync(new URL('./expression-clusters.json', import.meta.url), 'utf8'));
+  const seenIds = new Set();
+  const clusterCountByEntry = new Map();
+  return clusters.map((cluster) => {
+    const label = `Expression cluster ${cluster.id}`;
+    if (seenIds.has(cluster.id)) throw new Error(`Duplicate expression cluster id "${cluster.id}"`);
+    seenIds.add(cluster.id);
+    if (!cluster.rule) throw new Error(`${label} is missing a rule`);
+    if ((cluster.members || []).length < 2) throw new Error(`${label} needs at least 2 members to compare`);
+    const members = cluster.members.map((member) => {
+      const entry = member.entryId
+        ? resolveById(member.entryId, member.hangul, label)
+        : resolveByHangul(member.hangul, label);
+      if (!member.when || !member.hint || !member.example?.ko) {
+        throw new Error(`${label} member "${member.hangul}" is missing when/hint/example`);
+      }
+      const count = (clusterCountByEntry.get(entry.id) || 0) + 1;
+      clusterCountByEntry.set(entry.id, count);
+      if (count > 2) throw new Error(`${label}: "${member.hangul}" is in ${count} clusters (max 2)`);
+      return {
+        ...member,
+        entryId: entry.id,
+        entryEnglish: entry.english,
+        entryRomanization: entry.romanization,
+        entryLevel: entry.level,
+      };
+    });
+    return { ...cluster, members };
+  });
 }
 
 const out = {
@@ -189,6 +224,7 @@ const out = {
   dialogues: read('dialogues.json'),
   conversations: read('conversations.json'),
   vocabPacks: readVocabPacks(),
+  expressionClusters: readExpressionClusters(),
   readers,
   hanjaRoots,
 };
@@ -250,6 +286,7 @@ function writeSplitData(data) {
       dialogues: data.dialogues,
       conversations: data.conversations,
       vocabPacks: data.vocabPacks,
+      expressionClusters: data.expressionClusters,
       readers: data.readers,
       hanjaRoots: data.hanjaRoots,
       newcomerVocab: data.newcomerVocab,

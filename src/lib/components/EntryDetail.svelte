@@ -1,12 +1,15 @@
 <script>
+  import { createEventDispatcher } from 'svelte';
   import AudioButton from './AudioButton.svelte';
   import EntryConjugationSections from './EntryConjugationSections.svelte';
   import EntryRootFamilies from './EntryRootFamilies.svelte';
   import RomanizationLine from './RomanizationLine.svelte';
-  import { findEntry, findGrammar } from '../data.js';
+  import { clusterForEntry, findEntry, findGrammar } from '../data.js';
   import { reviews } from '../srs.js';
 
   export let entry;
+  const dispatch = createEventDispatcher();
+  $: cluster = clusterForEntry(entry.id);
   $: inDeck = !!$reviews[entry.id];
 
   const TYPE_LABEL = { word: 'Word', expression: 'Expression', pattern: 'Pattern' };
@@ -96,6 +99,32 @@
     </details>
   {/if}
 
+  {#if cluster}
+    <details class="callout compare">
+      <summary class="callout-head"><span class="ch-l"><i class="ti ti-arrows-left-right" aria-hidden="true"></i> Similar words · 뭐가 달라요?</span><i class="ti ti-chevron-down c-chev" aria-hidden="true"></i></summary>
+      <div class="cmp">
+        <p class="cmp-rule">{cluster.rule}</p>
+        <div class="cmp-rows">
+          {#each cluster.members as m}
+            <div class="cmp-row" class:this={m.entryId === entry.id}>
+              <div class="cmp-word">
+                {#if m.entryId === entry.id}
+                  <span class="cw-ko">{m.hangul}</span><span class="cw-you">this one</span>
+                {:else}
+                  <button class="cw-ko link" type="button" on:click={() => dispatch('openEntry', findEntry(m.entryId))}>{m.hangul}</button>
+                {/if}
+              </div>
+              <div class="cmp-body">
+                <div class="cmp-when">{m.when}</div>
+                <div class="cmp-ex">{m.example.ko}<span class="cmp-en">{m.example.en}</span></div>
+              </div>
+            </div>
+          {/each}
+        </div>
+      </div>
+    </details>
+  {/if}
+
   {#if structuredNuance || entry.nuance}
     <details class="callout nuance">
       <summary class="callout-head"><span class="ch-l"><i class="ti ti-search" aria-hidden="true"></i> Nuance</span><i class="ti ti-chevron-down c-chev" aria-hidden="true"></i></summary>
@@ -177,6 +206,7 @@
   .callout { border: 1px solid var(--border); border-left: 3px solid var(--cl, var(--border-2)); border-radius: var(--r-1); background: var(--surface); line-height: 1.62; }
   .callout.tip { --cl: var(--blue); }
   .callout.nuance { --cl: var(--ink-3); }
+  .callout.compare { --cl: var(--accent); }
   .callout.warn { --cl: var(--accent); }
   .callout > summary.callout-head { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 10px;
     padding: 13px 15px; font-size: 11px; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); }
@@ -189,6 +219,25 @@
   .ko-hl { color: var(--accent-ink); font-weight: 800; }
   .callout > ul { margin: 0; padding: 0 15px 15px 31px; display: grid; gap: 5px; }
   .callout > .nz { padding: 0 15px 15px; }
+
+  /* Compare — rows, not a table: a table would need sideways scrolling on a phone */
+  .cmp { padding: 0 15px 15px; display: grid; gap: 12px; }
+  .cmp-rule { color: var(--ink); font-weight: 500; line-height: 1.55; border-left: 2px solid var(--accent); padding-left: 11px; }
+  .cmp-rows { display: grid; }
+  .cmp-row { display: grid; grid-template-columns: 92px 1fr; gap: 13px; padding: 11px 0; border-top: 1px solid var(--border); }
+  .cmp-row.this { background: var(--primary-wash); border-radius: 8px; padding: 11px 10px; margin: 0 -10px; }
+  .cmp-word { display: grid; gap: 2px; align-content: start; }
+  .cw-ko { font-family: var(--serif-ko); font-size: 19px; font-weight: 600; color: var(--ink); line-height: 1.15; text-align: left; }
+  .cw-ko.link { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .cw-you { font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-ink); }
+  .cmp-body { min-width: 0; display: grid; gap: 4px; }
+  .cmp-when { color: var(--ink-2); line-height: 1.45; }
+  .cmp-ex { font-weight: 700; color: var(--ink); word-break: keep-all; }
+  .cmp-en { display: block; font-weight: 400; font-size: 13px; color: var(--ink-3); margin-top: 1px; }
+  @media (max-width: 480px) {
+    .cmp-row { grid-template-columns: 1fr; gap: 3px; }
+    .cmp-word { grid-auto-flow: column; justify-content: start; align-items: baseline; gap: 8px; }
+  }
 
   /* Nuance — auto-formatted paragraphs (fallback) */
   .nz { min-width: 0; flex: 1; }

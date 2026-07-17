@@ -70,6 +70,38 @@ function guideUnits(guide) {
   return (guide?.tracks || []).flatMap((track) => track.units || []);
 }
 
+// Clusters are the "which one do I use" layer. A member pointing at a dead entry, or a
+// word spread across so many clusters that no comparison is memorable, both make the
+// feature worse than absent — so they fail the build rather than ship quietly.
+function lintExpressionClusters(clusters, linkableEntryIds, errors, warnings) {
+  const clusterCountByEntry = new Map();
+  const seenIds = new Set();
+  for (const cluster of clusters || []) {
+    const label = `cluster:${cluster.id || 'unknown'}`;
+    if (seenIds.has(cluster.id)) errors.push(`${label}: duplicate cluster id`);
+    seenIds.add(cluster.id);
+    if (!clean(cluster.rule)) errors.push(`${label}: missing rule`);
+    if (!clean(cluster.title)) errors.push(`${label}: missing title`);
+    const members = cluster.members || [];
+    if (members.length < 2) errors.push(`${label}: needs at least 2 members to compare`);
+    const seenHangul = new Set();
+    for (const member of members) {
+      addLinkedErrors([member.entryId], linkableEntryIds, `${label}.members`, errors);
+      if (!clean(member.hangul)) errors.push(`${label}: member with blank hangul`);
+      if (seenHangul.has(member.hangul)) errors.push(`${label}: "${member.hangul}" listed twice`);
+      seenHangul.add(member.hangul);
+      if (!clean(member.when)) errors.push(`${label}: "${member.hangul}" has no "when"`);
+      if (!clean(member.hint)) errors.push(`${label}: "${member.hangul}" has no hint`);
+      if (!clean(member.example?.ko)) errors.push(`${label}: "${member.hangul}" has no Korean example`);
+      else if (!clean(member.example?.en)) errors.push(`${label}: "${member.hangul}" example has no translation`);
+      if (member.entryId) clusterCountByEntry.set(member.entryId, (clusterCountByEntry.get(member.entryId) || 0) + 1);
+    }
+  }
+  for (const [entryId, count] of clusterCountByEntry) {
+    if (count > 2) errors.push(`cluster: entry ${entryId} belongs to ${count} clusters (max 2)`);
+  }
+}
+
 export function lintContentData(data) {
   const errors = [];
   const warnings = [];
@@ -116,6 +148,7 @@ export function lintContentData(data) {
   }
 
   validateConversations(data?.conversations, errors);
+  lintExpressionClusters(data?.expressionClusters, linkableEntryIds, errors, warnings);
 
   return {
     ok: errors.length === 0,
@@ -125,6 +158,7 @@ export function lintContentData(data) {
       entries: rows.length,
       chapters: data?.course?.chapters?.length || 0,
       guideUnits: guideUnits(data?.guide).length,
+      expressionClusters: (data?.expressionClusters || []).length,
     },
   };
 }

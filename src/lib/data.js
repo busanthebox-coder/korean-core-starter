@@ -16,6 +16,8 @@ export const entriesVersion = writable(0);
 
 let byId = new Map();
 let rootsByEntryId = new Map();
+let clusterByEntryId = new Map();
+let clustersByHangul = new Map();
 let sectionResolver = null;
 
 export let vocabPacks = [];
@@ -30,6 +32,7 @@ export let activities = [];
 export let guideTracks = [];
 export let dialogues = [];
 export let conversations = [];
+export let expressionClusters = [];
 
 function notifyEntriesChanged() {
   entriesVersion.update((n) => n + 1);
@@ -86,6 +89,21 @@ function rebuildHanjaRootsByEntryId() {
   }
 }
 
+// A word can sit in more than one cluster (보다 is both "meet up with" and "see"),
+// so hangul maps to a list while an entry keeps its primary (first) cluster.
+function rebuildClusterIndex() {
+  clusterByEntryId = new Map();
+  clustersByHangul = new Map();
+  for (const cluster of expressionClusters) {
+    for (const member of cluster.members || []) {
+      if (member.entryId && !clusterByEntryId.has(member.entryId)) clusterByEntryId.set(member.entryId, cluster);
+      if (!member.hangul) continue;
+      if (!clustersByHangul.has(member.hangul)) clustersByHangul.set(member.hangul, []);
+      clustersByHangul.get(member.hangul).push(cluster);
+    }
+  }
+}
+
 function refreshLevels() {
   levels = LEVEL_ORDER.filter((level) => entries.some((entry) => entry.level === level));
 }
@@ -126,7 +144,9 @@ function installCoreSurfaces(core) {
     String(a.reading || '').localeCompare(String(b.reading || ''), 'ko') ||
     String(a.id || '').localeCompare(String(b.id || ''))
   );
+  expressionClusters = core.expressionClusters || [];
   rebuildHanjaRootsByEntryId();
+  rebuildClusterIndex();
 }
 
 function installVocabPacks(core) {
@@ -159,6 +179,9 @@ export function resetDataForTest() {
   guideTracks = [];
   dialogues = [];
   conversations = [];
+  expressionClusters = [];
+  clusterByEntryId = new Map();
+  clustersByHangul = new Map();
   notifyEntriesChanged();
 }
 
@@ -217,6 +240,8 @@ export const findReader = (id) => readers.find((reader) => reader.id === id) || 
 export const findHanjaRoot = (id) => hanjaRoots.find((root) => root.id === id) || null;
 export const hanjaRootsForEntry = (entryId) => rootsByEntryId.get(entryId) || [];
 export const findGrammar = (id) => grammar.find((item) => item.id === id) || null;
+export const clusterForEntry = (entryId) => clusterByEntryId.get(entryId) || null;
+export const clustersForHangul = (hangul) => (hangul && clustersByHangul.get(hangul)) || [];
 export const isFull = (entry) => !!entry?._full;
 
 export function setSectionResolver(resolver) {
