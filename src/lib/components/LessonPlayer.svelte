@@ -1,7 +1,8 @@
 <script>
   import LessonComplete from './lessonPlayer/LessonComplete.svelte';
   import LessonScreen from './lessonPlayer/LessonScreen.svelte';
-  import { entries, findEntry } from '../data.js';
+  import { chapters, entries, findEntry } from '../data.js';
+  import { entryIdsUpToChapter } from '../studiedScope.js';
   import { correctOf, exerciseAnswerMatches } from '../inlineExercise.js';
   import { maybeInsertSpiralReview, seededRng } from '../checkpoints.js';
   import { recordMissedItems } from '../mistakeReview.js';
@@ -62,16 +63,22 @@
     });
   }
 
+  const MIN_CONJUGATION_POOL = 12;
+
+  // This chapter's own verbs first, then everything taught before it. Widening to the
+  // whole CEFR level (the old rule) reached 401 words, most of them from chapters the
+  // learner has not opened yet — the drill is meant to test what they have met.
   function chapterConjugationPool(ch, forms) {
+    const drillable = (entry) => entry?.type === 'word' && entry.forms && forms.some((form) => entry.forms?.[form]);
     const ids = new Set([...(ch.coreVocabularyIds || []), ...(ch.linkedEntryIds || [])]);
-    const localWords = [...ids].map(findEntry).filter((entry) => entry?.type === 'word' && entry.forms);
-    const levelWords = entries.filter((entry) =>
-      entry.type === 'word'
-      && entry.forms
-      && (!ch.level || entry.level === ch.level)
-      && forms.some((form) => entry.forms?.[form])
-    );
-    return uniqueEntries([...localWords, ...levelWords]);
+    const localWords = [...ids].map(findEntry).filter(drillable);
+    const taughtWords = entryIdsUpToChapter(chapters, ch.id).map(findEntry).filter(drillable);
+    const pool = uniqueEntries([...localWords, ...taughtWords]);
+    if (pool.length >= MIN_CONJUGATION_POOL) return pool;
+    // Early chapters have barely any conjugable verbs yet; fall back to same-level
+    // words so the drill still has something to ask.
+    const levelWords = entries.filter((entry) => drillable(entry) && (!ch.level || entry.level === ch.level));
+    return uniqueEntries([...pool, ...levelWords]);
   }
 
   function conjugationScreen(ch) {

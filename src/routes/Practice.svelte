@@ -29,12 +29,16 @@
   import { buildReactionQuiz } from '../lib/reactions.js';
   import { canUseKoreanSpeech } from '../lib/audio.js';
   import { buildListeningPractice, countListeningCandidates } from '../lib/listening.js';
-  import { markLessonPracticed } from '../lib/stores.js';
+  import { lessonProgress, markLessonPracticed } from '../lib/stores.js';
+  import { studiedEntryIds, studiedLabel } from '../lib/studiedScope.js';
   import { FOCUS_DECK, WEAK_DECK, parseFocusParam } from '../lib/studyLinks.js';
   import { push } from 'svelte-spa-router';
 
   let stage = 'setup';
-  let deck = 'all';
+  const STUDIED_DECK = '__studied';
+  // Default to what the learner has actually met. 'Everything' is 3,848 items —
+  // useful late, useless on day three.
+  let deck = STUDIED_DECK;
   let questions = [];
   let matchData = null;
   let result = null;
@@ -104,7 +108,7 @@
   }
   async function startReview() { await ensurePracticeReady(); sessionCards = dueCards.slice(); stage = 'review'; window.scrollTo(0, 0); }
   function selectWeak() { deck = WEAK_DECK; kind = 'all'; window.scrollTo(0, 0); }
-  function clearWeak() { mistakes.clearAll(); if (deck === WEAK_DECK) deck = 'all'; }
+  function clearWeak() { mistakes.clearAll(); if (deck === WEAK_DECK) deck = STUDIED_DECK; }
   async function addSet() { await ensurePracticeReady(); reviews.addMany(pool.map((e) => e.id)); added = true; setTimeout(() => (added = false), 1800); }
   // ReviewSession passes {reviewed}; the back button passes a click event (no log).
   function reviewDone(e) {
@@ -130,6 +134,11 @@
   let kind = 'all';
   const isChapterDeck = (d) => chapters.some((c) => c.id === d);
   function deckItems(d) {
+    if (d === STUDIED_DECK) {
+      const studied = studiedEntryIds(chapters, $lessonProgress).map(findEntry).filter(Boolean);
+      // A chapter with nothing linked yet should not leave the learner with an empty drill.
+      return studied.length ? studied : entries;
+    }
     if (d === FOCUS_DECK) return focusIds.map(findEntry).filter(Boolean);
     if (d === WEAK_DECK) return weakItems;
     if (d === 'all') return entries;
@@ -140,7 +149,9 @@
   }
   $: base = (dataTick, deckItems(deck));
   $: pool = kind === 'all' ? base : base.filter((e) => e.type === kind);
-  $: deckLabel = deck === FOCUS_DECK
+  $: deckLabel = deck === STUDIED_DECK
+    ? studiedLabel(chapters, $lessonProgress)
+    : deck === FOCUS_DECK
     ? 'focused items'
     : deck === WEAK_DECK
     ? 'weak items'
@@ -244,6 +255,9 @@
       {deckSize}
       {weakItems}
       bind:deck
+      studiedDeck={STUDIED_DECK}
+      studiedLabel={studiedLabel(chapters, $lessonProgress)}
+      studiedCount={studiedEntryIds(chapters, $lessonProgress).length}
       bind:kind
       kindOptions={KINDS}
       {kindCounts}

@@ -8,6 +8,9 @@
   export let deckSize = 0;
   export let weakItems = [];
   export let deck = 'all';
+  export let studiedDeck = '__studied';
+  export let studiedLabel = '';
+  export let studiedCount = 0;
   export let kind = 'all';
   export let kindOptions = [];
   export let kindCounts = {};
@@ -129,6 +132,7 @@
   <div class="more-body">
     <label class="deck">Set
       <select bind:value={deck}>
+        <option value={studiedDeck}>{studiedLabel || 'What you\'ve studied'} ({studiedCount})</option>
         <option value="all">Everything ({entries.length})</option>
         {#if focusCount}<option value="__focus">{focusLabel} ({focusCount})</option>{/if}
         {#if weakItems.length}<option value="__weak">Weak items ({weakItems.length})</option>{/if}
