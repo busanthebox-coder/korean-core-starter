@@ -3,6 +3,7 @@
   import LessonScreen from './lessonPlayer/LessonScreen.svelte';
   import { chapters, entries, findEntry } from '../data.js';
   import { entryIdsUpToChapter } from '../studiedScope.js';
+  import { withSessionBreak } from '../lessonSessions.js';
   import { correctOf, exerciseAnswerMatches } from '../inlineExercise.js';
   import { maybeInsertSpiralReview, seededRng } from '../checkpoints.js';
   import { recordMissedItems } from '../mistakeReview.js';
@@ -155,7 +156,7 @@
         data: { chapterId: ch.id, items: sayItItems },
       });
     }
-    return withReview;
+    return withSessionBreak(withReview);
   }
 
   const PHASE = {
@@ -193,6 +194,13 @@
     if (chapter?.id && !startAtKind) clearLessonPosition(chapter.id);
   }
 
+
+  // Leaving from the break must resume PAST it — coming back to "good place to stop"
+  // as your first screen would be telling the learner to quit before they began.
+  function stopForToday() {
+    if (chapter?.id && !startAtKind) writeLessonPosition(chapter.id, i + 1, screenList.length);
+    onBack();
+  }
   $: screenList = screens || (chapter ? buildChapterScreens(chapter) : []);
   $: resetKey = `${(chapter && chapter.id) || kicker || (screens && screens.length)}:${startAtKind}`;
   $: if (resetKey) { void resetKey; i = initialScreenIndex(); finished = false; answers = {}; revealed = {}; writingChecks = {}; sayItChecks = {}; }
@@ -354,6 +362,7 @@
   {:else if cur}
     <LessonScreen
       {cur}
+      onSessionStop={stopForToday}
       {phaseLabel}
       answer={answers[i]}
       isRevealed={!!revealed[i]}

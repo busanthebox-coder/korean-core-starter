@@ -3,6 +3,7 @@
   import GrammarScreen from './GrammarScreen.svelte';
   import PracticeScreen from './PracticeScreen.svelte';
   import SayItScreen from './SayItScreen.svelte';
+  import SessionBreak from './SessionBreak.svelte';
   import WordsScreen from './WordsScreen.svelte';
 
   export let cur;
@@ -21,15 +22,20 @@
   export let onWritingCheck = () => {};
   export let onWritingSkip = () => {};
   export let sayItCheckedIds = [];
+  export let onSessionStop = () => {};
   export let onSayItToggle = () => {};
 </script>
 
 <div class="lp-screen" data-phase={cur.phase}>
-  <span class="phase-tag tag-{phaseLabel?.tone || 'words'}">
-    <i class="ti ti-{phaseLabel?.icon || 'circle'}"></i> {phaseLabel?.label || ''}
-  </span>
+  {#if cur.kind !== 'sessionBreak'}
+    <span class="phase-tag tag-{phaseLabel?.tone || 'words'}">
+      <i class="ti ti-{phaseLabel?.icon || 'circle'}"></i> {phaseLabel?.label || ''}
+    </span>
+  {/if}
 
-  {#if cur.kind === 'words' || cur.kind === 'phrases'}
+  {#if cur.kind === 'sessionBreak'}
+    <SessionBreak data={cur.data} onStop={onSessionStop} />
+  {:else if cur.kind === 'words' || cur.kind === 'phrases'}
     <WordsScreen kind={cur.kind} items={cur.data} />
   {:else if cur.kind === 'grammar' || cur.kind === 'grammarFocus'}
     <GrammarScreen kind={cur.kind} data={cur.data} />
