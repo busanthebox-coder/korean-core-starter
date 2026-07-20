@@ -5,6 +5,7 @@ import { resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { validateExercises } from './validate-exercises.mjs';
 import { validateConversations } from './validate-conversations.mjs';
+import { validateCurriculumPath } from './validate-curriculum-path.mjs';
 import { defaultDataDir, verifyDataDir } from './lib/integrity.mjs';
 
 const REPO_ROOT = process.cwd();
@@ -149,6 +150,7 @@ export function lintContentData(data) {
 
   validateConversations(data?.conversations, errors);
   lintExpressionClusters(data?.expressionClusters, linkableEntryIds, errors, warnings);
+  for (const error of validateCurriculumPath(data?.course).errors) errors.push(`curriculum: ${error}`);
 
   return {
     ok: errors.length === 0,

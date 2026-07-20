@@ -20,6 +20,10 @@ function validAppData() {
       chapters: [{
         id: 'chapter-01',
         level: 'A1',
+        // The curriculum lint reads position and track, so a valid fixture carries them.
+        number: 1,
+        curriculumOrder: 1,
+        curriculumTrack: { id: 'a1-foundation', cefr: 'A1', label: 'A1 Foundation' },
         linkedEntryIds: ['word-001'],
         coreVocabularyIds: ['word-001'],
         patternIds: ['pattern-001'],

@@ -3,6 +3,9 @@ import { chapters, findEntry, grammar } from './data.js';
 import { chapterLayerItemIds, isTrackStart } from './curriculumStructure.js';
 
 const byNumber = (number) => chapters.find((chapter) => chapter.number === number);
+// Pin content assertions to the chapter id, never the displayed number: the number is
+// the study position and moves whenever the curriculum path is resequenced.
+const byId = (id) => chapters.find((chapter) => chapter.id === id);
 const curriculumGrammarIds = [
   'grammar-question-words',
   'grammar-speech-levels',
@@ -111,10 +114,10 @@ describe('curriculum structure', () => {
       for (const fragment of stiffFragments) expect(visibleStudyText).not.toContain(fragment);
     }
 
-    expect(byNumber(6)?.dialogue?.map((line) => line.ko)).toContain('카페에서 친구를 만나요.');
-    expect(byNumber(11)?.exitTask?.sampleAnswer?.ko).toBe('일이 있어서 못 가요. 끝나고 전화할게요.');
-    expect(byNumber(57)?.exitTask?.sampleAnswer?.ko).toBe('선생님이 학생들에게 문장을 읽혔어요. 학생들이 문장을 읽게 했어요.');
-    expect(byNumber(65)?.goal).toBe('Put the whole course together in one message that fits the situation.');
+    expect(byId('chapter-06')?.dialogue?.map((line) => line.ko)).toContain('카페에서 친구를 만나요.');
+    expect(byId('chapter-11')?.exitTask?.sampleAnswer?.ko).toBe('일이 있어서 못 가요. 끝나고 전화할게요.');
+    expect(byId('chapter-57')?.exitTask?.sampleAnswer?.ko).toBe('선생님이 학생들에게 문장을 읽혔어요. 학생들이 문장을 읽게 했어요.');
+    expect(byId('chapter-65')?.goal).toBe('Put the whole course together in one message that fits the situation.');
   });
 
   it('keeps chapter sample answers visibly polished', () => {
@@ -129,7 +132,7 @@ describe('curriculum structure', () => {
   });
 
   it('adds a Natural Why coaching card to the pilot chapter', () => {
-    const pilot = byNumber(12)?.naturalWhy;
+    const pilot = byId('chapter-41')?.naturalWhy;
 
     expect(pilot?.lessNatural?.ko).toBe('어제 영화를 봐요.');
     expect(pilot?.natural?.ko).toBe('어제 영화를 봤어요.');
@@ -139,8 +142,8 @@ describe('curriculum structure', () => {
     expect(pilot?.askNative).toContain('한국인은 더 짧게 어떻게 말해요?');
   });
 
-  it('keeps the past-tense (ch.12) warm-up dialogue conversational', () => {
-    const lines = byNumber(12)?.dialogue || [];
+  it('keeps the irregular-verb chapter warm-up dialogue conversational', () => {
+    const lines = byId('chapter-41')?.dialogue || [];
     const koreanLines = lines.map((line) => line.ko);
 
     expect(koreanLines).toEqual([
@@ -153,23 +156,23 @@ describe('curriculum structure', () => {
   });
 
   it('keeps warm-up dialogues from turning into grammar example lists', () => {
-    const chapter18 = byNumber(13)?.dialogue?.map((line) => line.ko) || [];
-    const chapter57 = byNumber(57)?.dialogue?.map((line) => line.ko) || [];
-    const chapter58 = byNumber(58)?.dialogue?.map((line) => line.ko) || [];
-    const chapter59 = byNumber(59)?.dialogue?.map((line) => line.ko) || [];
+    const workMoney = byId('chapter-14')?.dialogue?.map((line) => line.ko) || [];
+    const causatives = byId('chapter-57')?.dialogue?.map((line) => line.ko) || [];
+    const gyet = byId('chapter-58')?.dialogue?.map((line) => line.ko) || [];
+    const unreal = byId('chapter-59')?.dialogue?.map((line) => line.ko) || [];
 
-    expect(chapter18).toEqual([
+    expect(workMoney).toEqual([
       '주말에 뭐 할 거예요?',
       '친구를 만나서 카페에 갈 거예요.',
       '비가 오면요?',
       '비가 오면 집에서 공부할 거예요.',
     ]);
-    expect(chapter57).toContain('네. 밥을 먹이고 낮잠도 재웠어요.');
-    expect(chapter57).not.toContain('알리다와 낮추다도 기본형이랑 비교해서 외워야 해요.');
-    expect(chapter58).toContain('사람이 많아서 시간이 좀 걸리겠네요.');
-    expect(chapter58).not.toContain('자료를 보니 결과가 달라지겠네요.');
-    expect(chapter59).toContain('어제 면접에 늦었다면서요?');
-    expect(chapter59).not.toContain('친구에게 바로 사과했더라면 지금 이렇게 후회하지 않았을 텐데요.');
+    expect(causatives).toContain('네. 밥을 먹이고 낮잠도 재웠어요.');
+    expect(causatives).not.toContain('알리다와 낮추다도 기본형이랑 비교해서 외워야 해요.');
+    expect(gyet).toContain('사람이 많아서 시간이 좀 걸리겠네요.');
+    expect(gyet).not.toContain('자료를 보니 결과가 달라지겠네요.');
+    expect(unreal).toContain('어제 면접에 늦었다면서요?');
+    expect(unreal).not.toContain('친구에게 바로 사과했더라면 지금 이렇게 후회하지 않았을 텐데요.');
   });
 
   it('marks the start of each track for the Learn path', () => {
