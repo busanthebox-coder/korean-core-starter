@@ -50,6 +50,9 @@
 축약표의 `난/전`은 **3과의 은/는**을, `게/걸/건`·`뭘`은 **5과의 을/를**을 이미 배웠어야 이해된다.
 3과에 두면 표의 절반이 미배운 조사에 기대게 되므로 5과가 맞다(5과 노트 2 → 3, `Grammar 3/3`으로 렌더).
 
+> 제목 변경(2026-07-21): `구어 축약` → **`자연스럽게 말하기`**. 사용자 요청 — "축약"은 문법 용어라
+> 초보에게 무엇을 얻는지 알려주지 않는다. 영어 부제(How Korean actually sounds)는 유지.
+
 ### Part A — 문법 노트 1개 (`scripts/rich-chapters/chapter-05.json` grammarNotes[2])
 `구어 축약 — How Korean actually sounds`. 스펙의 7행 표 확정안 그대로 + formTable/examples/keyPoint/
 pronunciation/drill/englishSpeakerPitfall(형제 노트 스키마·키 순서 동일).
