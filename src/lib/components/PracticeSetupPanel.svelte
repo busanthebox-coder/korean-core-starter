@@ -216,8 +216,9 @@
   .eyebrow { display: block; font-size: 11px; font-weight: 750; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 8px; }
   h1 { margin: 0; font-family: var(--serif-ko); font-size: 38px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.04; }
 
+  /* P11 — the numbers are information, not a widget: plain row, hairline below. */
   .today { min-width: 0; display: grid; grid-template-columns: auto auto 1fr; gap: 18px; align-items: center;
-    padding: 14px 18px; border: 1px solid var(--border); border-radius: var(--r-1); background: var(--surface); box-shadow: var(--shadow-1); }
+    padding: 4px 2px 16px; border-bottom: 1px solid var(--border-2); }
   .t-stat { display: grid; justify-items: center; gap: 1px; }
   .t-num { font-size: 22px; font-weight: 880; line-height: 1; }
   .t-lbl { font-size: 10px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }

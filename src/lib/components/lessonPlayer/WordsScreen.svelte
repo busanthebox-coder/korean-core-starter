@@ -13,19 +13,15 @@
 </script>
 
 {#if kind === 'words'}
-  <h2 class="screen-h">Key words</h2>
-  <p class="screen-sub">The pieces you'll combine.</p>
   <div class="word-list">
     {#each items as w}
       <div class="word">
-        <div class="word-head">
-          <div class="word-id">
-            <span class="word-ko">{w.ko}</span>
-            <RomanizationLine text={w.romanization} />
-          </div>
-          {#if w.pos}<span class="word-pos">{w.pos}</span>{/if}
-          <AudioButton text={w.ko} size={22} />
+        {#if w.pos}<span class="word-pos">{w.pos}</span>{/if}
+        <div class="word-ko-row">
+          <span class="word-ko">{w.ko}</span>
+          <AudioButton text={w.ko} size={30} />
         </div>
+        <RomanizationLine text={w.romanization} />
         <div class="word-en">{w.en}</div>
         {#if w.ex || hintFor(w.ko)}
           <details class="word-more">
@@ -66,20 +62,21 @@
 {/if}
 
 <style>
-  /* P9/P11 — no boxes: each word is a hairline row and the Korean is the
-     biggest thing in it (Cake's hierarchy: target language huge, gloss small). */
+  /* P9 — one word, deck-style: the Korean is the screen (Cake, Drops).
+     Everything else is caption-sized around it. */
   .word-list { display: grid; }
-  .word { padding: 18px 0; border-top: 1px solid var(--border); display: grid; gap: 8px; }
-  .word:first-child { border-top: 0; padding-top: 4px; }
-  .word-head { display: flex; align-items: flex-start; gap: 10px; }
+  .word { min-height: 42vh; display: grid; align-content: center; justify-items: center;
+    text-align: center; gap: 7px; padding: 12px 0 4px; }
   .word-top { display: flex; align-items: center; gap: 8px; }
-  .word-id { flex: 1; min-width: 0; display: grid; gap: 2px; }
+  .word-ko-row { display: flex; align-items: center; gap: 12px; }
   .word-ko { font-size: 19px; font-weight: 800; }
-  .word-id .word-ko { font-family: var(--serif-ko); font-size: 31px; font-weight: 650; line-height: 1.12; letter-spacing: -.01em; }
-  .word-pos { flex: none; align-self: center; font-size: 11px; font-weight: 700; color: var(--ink-3); white-space: nowrap; }
+  .word-ko-row .word-ko { font-family: var(--serif-ko); font-size: clamp(40px, 12vw, 52px); font-weight: 650;
+    line-height: 1.1; letter-spacing: -.01em; word-break: keep-all; }
+  .word-pos { font-size: 10.5px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--ink-3); white-space: nowrap; }
   .kp-n { width: 22px; height: 22px; flex: none; display: grid; place-items: center; border-radius: 999px; background: var(--primary-wash); color: var(--accent-ink); font-size: 12px; font-weight: 850; }
-  .word-en { font-size: 15px; font-weight: 600; color: var(--ink); }
-  .word-more { padding-top: 2px; }
+  .word-en { font-size: 17px; font-weight: 600; color: var(--ink); }
+  .word-more { padding-top: 8px; justify-self: stretch; text-align: left; }
   .word-more summary { cursor: pointer; color: var(--accent-ink); font-size: 12px; font-weight: 800; }
   .word-more[open] summary { margin-bottom: 8px; }
   .word-ex { padding: 2px 0 0; display: grid; gap: 3px; }

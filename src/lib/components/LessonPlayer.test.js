@@ -89,7 +89,9 @@ describe('LessonPlayer writing self-check', () => {
     expect(screen.getByRole('heading', { name: 'Say it out loud' })).toBeInTheDocument();
   });
 
-  it('shows no more than three vocabulary entries on one lesson screen', () => {
+  // P9 — one word per screen (deck-style). The learner taps through them one at a
+  // time rather than reading a list of three, so a single word must be on screen.
+  it('shows exactly one vocabulary entry on one lesson screen', () => {
     const chapter = {
       id: 'chapter-word-chunks',
       number: 97,
@@ -104,8 +106,8 @@ describe('LessonPlayer writing self-check', () => {
 
     render(LessonPlayer, { props: { chapter } });
 
-    expect(screen.getAllByRole('button', { name: 'Play pronunciation' })).toHaveLength(3);
-    expect(screen.getByText('word 3')).toBeInTheDocument();
-    expect(screen.queryByText('word 4')).not.toBeInTheDocument();
+    expect(screen.getAllByRole('button', { name: 'Play pronunciation' })).toHaveLength(1);
+    expect(screen.getByText('word 1')).toBeInTheDocument();
+    expect(screen.queryByText('word 2')).not.toBeInTheDocument();
   });
 });

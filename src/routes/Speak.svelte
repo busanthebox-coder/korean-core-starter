@@ -147,15 +147,15 @@
 
 <style>
   .speak { max-width: 1080px; margin: 0 auto; padding: 28px; display: grid; gap: 20px; }
-  .hero { display: flex; align-items: end; justify-content: space-between; gap: 18px; padding: 20px;
-    border-radius: var(--r-2); background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-1); }
+  /* P11 — headline on the background; the day-count reads as a figure, not a widget. */
+  .hero { display: flex; align-items: end; justify-content: space-between; gap: 18px;
+    padding: 4px 2px 18px; border-bottom: 1px solid var(--border-2); }
   .eyebrow, .step, .library-picker > div > span { color: var(--green-dark); font-size: 11px; font-weight: 850;
     letter-spacing: .14em; text-transform: uppercase; }
   h1, h2 { margin: 0; font-family: var(--serif-ko); font-weight: 600; letter-spacing: 0; }
   h1 { margin-top: 4px; font-size: clamp(31px, 5vw, 48px); line-height: 1.02; }
   .hero p, .today-card p { margin: 5px 0 0; color: var(--ink-3); line-height: 1.5; }
-  .metric { min-width: 126px; padding: 13px 15px; border-radius: var(--r-1); background: var(--green-soft);
-    color: var(--green-dark); text-align: center; }
+  .metric { min-width: 0; color: var(--green-dark); text-align: right; }
   .metric strong { display: block; font-size: 34px; line-height: 1; }
   .metric span { display: block; margin-top: 3px; font-size: 12px; font-weight: 850; }
   .today-grid { display: grid; grid-template-columns: 1.35fr 1fr 1fr; gap: 12px; align-items: stretch; }
@@ -170,8 +170,7 @@
   .ghost { justify-self: start; margin-top: 4px; padding: 11px 16px; border-radius: 999px;
     background: var(--surface-2); color: var(--ink-2); font-weight: 850; }
   .ghost:hover { background: var(--border); color: var(--ink); }
-  .buddy-session { display: grid; gap: 14px; padding: 20px; border-radius: var(--r-2);
-    border: 1px solid var(--border); border-left: 5px solid var(--green); background: var(--surface); box-shadow: var(--shadow-1); }
+  .buddy-session { display: grid; gap: 14px; padding: 2px 0 4px 15px; border-left: 3px solid var(--green); }
   .bs-head { display: grid; gap: 4px; }
   .bs-eyebrow { display: inline-flex; align-items: center; gap: 6px; color: var(--green-dark);
     font-size: 11px; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }

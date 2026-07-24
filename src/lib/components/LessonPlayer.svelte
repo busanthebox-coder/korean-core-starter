@@ -111,7 +111,9 @@
   function buildChapterScreens(ch) {
     const s = [];
     const words = wordsScreenData(ch);
-    const PER = 3;
+    // P9 — one word per screen, deck-style. A screen you tap through in two
+    // seconds beats three words competing for attention (Cake, Drops).
+    const PER = 1;
     for (let k = 0; k < words.length; k += PER) {
       s.push({ phase: 'words', kind: 'words', data: words.slice(k, k + PER) });
     }

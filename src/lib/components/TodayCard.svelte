@@ -43,10 +43,11 @@
 </section>
 
 <style>
-  .today-card { display: grid; gap: 15px; padding: 20px; border-radius: var(--r-2); border: 1px solid rgba(232,85,46,.3); border-left: 5px solid var(--primary); background: linear-gradient(145deg, #fff 0%, #fffaf4 100%); box-shadow: var(--shadow-2); }
+  /* P11 — the hero is a headline, not a box. */
+  .today-card { display: grid; gap: 15px; padding: 6px 0 18px; border-bottom: 1px solid var(--border-2); }
   .today-top { display: flex; align-items: start; justify-content: space-between; gap: 14px; }
   .cap { display: block; color: var(--accent-ink); font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; }
-  h2 { margin: 5px 0 0; font-family: var(--serif-ko); font-size: 27px; font-weight: 600; line-height: 1.1; }
+  h2 { margin: 5px 0 0; font-family: var(--serif-ko); font-size: clamp(30px, 8vw, 36px); font-weight: 600; line-height: 1.08; }
   .chapter-progress { color: var(--ink-2); font-size: 12px; font-weight: 800; white-space: nowrap; }
   .orientation-note { justify-self: start; padding: 0; color: var(--green-dark); font-size: 12px; font-weight: 800; text-decoration: underline; text-decoration-color: rgba(36,119,68,.35); text-underline-offset: 3px; }
   .current-task { display: grid; gap: 2px; padding: 13px 14px; border-left: 3px solid var(--primary); background: var(--primary-wash); }

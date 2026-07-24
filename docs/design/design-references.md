@@ -98,9 +98,9 @@ https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/fe/dc/4bfedcc3-25
 | P6 | Duolingo·LingoDeer·Busuu 연습 화면 | 연습 중 상단 크롬 = ×+진행바뿐. 우리 레슨은 진행점 + 챕터 제목 + phase 태그 3층 | LessonPlayer 상단 — 연습 phase에서 제목/태그 숨김 | ✅ 적용 |
 | P7 | Duolingo·LingoDeer | 선택지 2×2 그리드(선택 시 테두리 강조), 문제는 작게 | PracticeScreen 객관식 — 14자 이하 전원이면 2×2, 아니면 세로 유지 | ✅ 적용 |
 | P8 | LingoDeer·(Duolingo 동일 관행) | 정답 피드백 = 하단 고정 시트(초록/빨강) + CONTINUE | PracticeScreen — 고정 시트 + CONTINUE(next 배선), 시트 중 lp-nav 숨김 | ✅ 적용 |
-| P9 | Cake | 문장 하나가 화면의 전부, 진행은 11/46 카운터 | WordsScreen — 상자 제거 + 한국어 31px 세리프(행당 위계) 적용. 완전한 1화면 1단어 덱은 후보로 유지 | ✅ 부분 적용 |
+| P9 | Cake | 문장 하나가 화면의 전부, 진행은 11/46 카운터 | WordsScreen — **1화면 1단어 덱** 완성(PER=1, 한국어 clamp 40~52px 중앙). 단어화면 수 중앙값 6→16이지만 세션 브레이크(S3)가 흡수 | ✅ 완전 적용 |
 | P10 | Brilliant | 피드백을 말풍선(대화체)으로 — 채점이 아니라 코치처럼 | SessionBreak는 이미 대화체("come back later and pick up right here"), 시트 해설은 콘텐츠 소유(P2) — 별도 변경 불필요로 판정 | ✅ 기존 충족 |
-| P11 | 6개 앱 공통 | 카드-안-카드 없음: 콘텐츠가 배경에 직접 | LessonPlayer 화면 카드 제거(콘텐츠가 한지 배경에 직접, 폭 295→335px). 탭 홈들(Learn/Practice/Speak)의 카드는 후속 후보 | ✅ 레슨 적용 |
+| P11 | 6개 앱 공통 | 카드-안-카드 없음: 콘텐츠가 배경에 직접 | LessonPlayer 화면 카드 제거(295→335px) + **탭 홈 3곳**(Learn hero·Practice stats·Speak hero/buddy) 장식 프레임 제거 → 헤어라인·헤드라인만 | ✅ 완전 적용 |
 
 ## 5. 적용 규칙
 
