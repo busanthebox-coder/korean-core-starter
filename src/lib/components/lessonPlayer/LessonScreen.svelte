@@ -67,8 +67,10 @@
 </div>
 
 <style>
-  .lp-screen { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-2);
-    padding: 22px 20px; box-shadow: var(--shadow-1); display: grid; gap: 12px; position: relative; overflow: hidden;
+  /* P11 — no card around the screen. All six reference apps set lesson content
+     straight on the background; the white box was a frame repeated 24 times per
+     chapter. position+overflow stay for the grammar watermark. */
+  .lp-screen { padding: 10px 2px 4px; display: grid; gap: 13px; position: relative; overflow: hidden;
     animation: lp-in .26s var(--ease); }
   @keyframes lp-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 

@@ -431,6 +431,8 @@
   .ghost:hover { background: var(--border); }
   .ghost:disabled { opacity: .4; pointer-events: none; }
   .btn3d { display: inline-flex; align-items: center; gap: 6px; }
-  .btn3d small { font-size: 11px; font-weight: 800; opacity: .75; }
+  /* The lock hint stacks under the label — inline it wrapped into the arrow at 375px. */
+  .btn3d small { flex-basis: 100%; order: 3; font-size: 11px; font-weight: 800; opacity: .75; white-space: nowrap; }
+  .btn3d:disabled { flex-wrap: wrap; justify-content: center; row-gap: 0; }
   .btn3d:disabled { opacity: .52; filter: grayscale(.15); box-shadow: none; pointer-events: none; }
 </style>
