@@ -4,6 +4,7 @@
   import { chapters, entries, findEntry } from '../data.js';
   import { entryIdsUpToChapter } from '../studiedScope.js';
   import { withSessionBreak } from '../lessonSessions.js';
+  import { withoutTyping } from '../typingScreens.js';
   import { correctOf, exerciseAnswerMatches } from '../inlineExercise.js';
   import { maybeInsertSpiralReview, seededRng } from '../checkpoints.js';
   import { recordMissedItems } from '../mistakeReview.js';
@@ -158,7 +159,9 @@
         data: { chapterId: ch.id, items: sayItItems },
       });
     }
-    return withSessionBreak(withReview);
+    // Typing is set aside for now — filter the free-text screens out of every
+    // chapter before the session break is placed, so the break lands on what's left.
+    return withSessionBreak(withoutTyping(withReview));
   }
 
   const PHASE = {
