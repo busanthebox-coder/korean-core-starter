@@ -12,6 +12,7 @@
   export let isCorrect = () => false;
   export let onPick = () => {};
   export let onCheck = () => {};
+  export let onNext = () => {};
   export let onInput = () => {};
   export let onMatchDone = () => {};
   export let onConjugationDone = () => {};
@@ -40,6 +41,9 @@
   $: displayOptions = (data?.options || []).length
     ? scrambledOptions(data.options, data?.prompt || '')
     : [];
+  // Short choices read as tiles in a 2-column grid (P7 — the layout every
+  // reference app converged on); long, sentence-shaped choices stack instead.
+  $: gridChoices = displayOptions.length > 1 && displayOptions.every((opt) => String(opt).length <= 14);
 
   function emitOrderAnswer(items) {
     onInput(items.map((item) => item.text).join(' '));
@@ -89,7 +93,7 @@
       </div>
     </div>
   {:else if displayOptions.length}
-    <div class="ex-opts">
+    <div class="ex-opts" class:grid={gridChoices}>
       {#each displayOptions as opt}
         <button class="ex-opt"
           class:picked={answer === opt}
@@ -107,8 +111,14 @@
   {#if !isRevealed}
     <button class="check" disabled={!hasAnswer} on:click={onCheck}>Check</button>
   {:else}
-    <div class="verdict" class:ok={isCorrect()}>{isCorrect() ? '✓ Correct!' : `✗ Answer: ${correctOf(data)}`}</div>
-    {#if data.explanation}<div class="ex-explain">{data.explanation}</div>{/if}
+    <div class="sheet" class:ok={isCorrect()} role="status">
+      <div class="sheet-inner">
+        <div class="sheet-verdict">{isCorrect() ? '✓ Correct!' : `✗ Answer: ${correctOf(data)}`}</div>
+        {#if data.explanation}<p class="sheet-why">{data.explanation}</p>{/if}
+        <button class="sheet-next" type="button" on:click={onNext}>다음 · Continue</button>
+      </div>
+    </div>
+    <div class="sheet-spacer" aria-hidden="true"></div>
   {/if}
 {:else if kind === 'match'}
   <h2 class="screen-h">Match the words</h2>
@@ -161,11 +171,15 @@
 {/if}
 
 <style>
-  .ex-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .ex-opts { display: grid; gap: 8px; }
+  .ex-opts.grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .ex-opts.grid .ex-opt { border-radius: var(--r-1); padding: 18px 12px; font-size: 19px;
+    font-weight: 750; text-align: center; min-height: 64px; word-break: keep-all; }
   .review-badge { justify-self: start; margin-bottom: -2px; padding: 5px 9px; border-radius: 999px;
     background: var(--green-soft); color: var(--green-dark); font-size: 11px; font-weight: 850;
     letter-spacing: .08em; text-transform: uppercase; }
-  .ex-opt { padding: 11px 18px; border-radius: 999px; border: 1.5px solid var(--border); background: var(--surface); font-size: 16px; font-weight: 700; }
+  .ex-opt { padding: 12px 16px; border-radius: var(--r-1); border: 1.5px solid var(--border);
+    background: var(--surface); font-size: 16px; font-weight: 700; text-align: left; }
   .ex-opt.picked { border-color: var(--primary); background: var(--primary-wash); }
   .ex-opt.ok { border-color: var(--green); background: var(--green-soft); color: var(--green-dark); }
   .ex-opt.no { border-color: #e3b4ab; background: var(--danger-soft); color: #9a3324; }
@@ -185,9 +199,6 @@
   .ex-hint { font-size: 12px; color: var(--ink-3); }
   .check { justify-self: start; padding: 10px 20px; border-radius: 999px; background: var(--primary); color: var(--primary-on); font-weight: 850; box-shadow: 0 3px 0 var(--primary-press); }
   .check:disabled { opacity: .45; box-shadow: none; }
-  .verdict { font-size: 14px; font-weight: 800; padding: 8px 12px; border-radius: var(--r-1); background: var(--danger-soft); color: #9a3324; }
-  .verdict.ok { background: var(--green-soft); color: var(--green-dark); }
-  .ex-explain { font-size: 13px; color: var(--ink-2); line-height: 1.55; }
   .w-area { width: 100%; padding: 12px 13px; border-radius: var(--r-1); border: 1px solid var(--border); background: var(--surface); font: inherit; font-size: 16px; resize: vertical; }
   .w-area:focus { outline: none; border-color: var(--primary); }
   .w-check { display: grid; gap: 10px; padding: 12px; border-radius: var(--r-1); background: var(--surface-2); border: 1px solid var(--border); }
@@ -207,4 +218,20 @@
   .w-model-body { padding: 0 13px 13px; display: grid; gap: 3px; }
   .w-ko { font-size: 15px; font-weight: 600; }
   .w-en { font-size: 13px; color: var(--ink-2); }
+  /* P8 — fixed feedback sheet */
+  .sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
+    background: var(--danger-soft); border-top: 2px solid var(--danger);
+    animation: sheet-up .22s var(--ease); }
+  .sheet.ok { background: var(--green-soft); border-top-color: var(--green); }
+  .sheet-inner { max-width: 720px; margin: 0 auto; padding: 14px 18px calc(14px + env(safe-area-inset-bottom));
+    display: grid; gap: 8px; }
+  .sheet-verdict { font-size: 17px; font-weight: 850; color: #9a3324; }
+  .sheet.ok .sheet-verdict { color: var(--green-dark); }
+  .sheet-why { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--ink-2); word-break: keep-all; }
+  .sheet-next { justify-self: stretch; padding: 13px; border-radius: 14px; border: 0; cursor: pointer;
+    background: var(--primary); color: var(--primary-on); font: inherit; font-size: 15px; font-weight: 850; }
+  .sheet-next:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .sheet-spacer { height: 150px; }
+  @keyframes sheet-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
+  @media (prefers-reduced-motion: reduce) { .sheet { animation: none; } }
 </style>

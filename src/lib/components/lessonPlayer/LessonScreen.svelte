@@ -14,6 +14,7 @@
   export let isCorrect = () => false;
   export let onPick = () => {};
   export let onCheck = () => {};
+  export let onNext = () => {};
   export let onInput = () => {};
   export let onMatchDone = () => {};
   export let onConjugationDone = () => {};
@@ -27,7 +28,7 @@
 </script>
 
 <div class="lp-screen" data-phase={cur.phase}>
-  {#if cur.kind !== 'sessionBreak'}
+  {#if cur.kind !== 'sessionBreak' && cur.phase !== 'practice' && cur.phase !== 'speak'}
     <span class="phase-tag tag-{phaseLabel?.tone || 'words'}">
       <i class="ti ti-{phaseLabel?.icon || 'circle'}"></i> {phaseLabel?.label || ''}
     </span>
@@ -51,6 +52,7 @@
       {isCorrect}
       {onPick}
       {onCheck}
+      {onNext}
       {onInput}
       {onMatchDone}
       {onConjugationDone}

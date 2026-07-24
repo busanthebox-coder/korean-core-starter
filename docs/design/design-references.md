@@ -95,9 +95,9 @@ https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4b/fe/dc/4bfedcc3-25
 | P3 | LingoDeer 레슨 스크린샷 | 그림 선택 2×2 그리드 + 상단 진행바 + 하단 고정 정답 피드백(초록) + CONTINUE. 문항 텍스트는 상단 중앙 한 줄 | PracticeScreen 객관식 — 현재는 세로 리스트. 그림 없는 우리는 2×2 텍스트 그리드 검토 | ⬜ |
 | P4 | growth.design 목록 | Duolingo Retention·Headspace Onboarding 등 사례 연구 공개 — 시각 갤러리가 아니라 UX 심리 분해 | 온보딩·복귀 설계 시 정독 | ⬜ |
 | P5 | 레이아웃 5종 시안 (자체 제작, 실콘텐츠) | 카드스택/덱/편집물/고정헤더/탭 비교 — 아티팩트: claude.ai/code/artifact/aec3426c-473b-4e13-89eb-00a68022313d | 사용자 방향 결정 대기. 추천: 03(카드 제거)+02(덱) | ⬜ 대기 |
-| P6 | Duolingo·LingoDeer·Busuu 연습 화면 | 연습 중 상단 크롬 = ×+진행바뿐. 우리 레슨은 진행점 + 챕터 제목 + phase 태그 3층 | LessonPlayer 상단 — 연습 phase에서 제목/태그 숨김 검토 | ⬜ |
-| P7 | Duolingo·LingoDeer | 선택지 2×2 그리드(선택 시 테두리 강조), 문제는 작게 | PracticeScreen 객관식 — 현재 세로 리스트 | ⬜ |
-| P8 | LingoDeer·(Duolingo 동일 관행) | 정답 피드백 = 하단 고정 시트(초록/빨강) + CONTINUE | PracticeScreen — 현재 인라인 표시 | ⬜ |
+| P6 | Duolingo·LingoDeer·Busuu 연습 화면 | 연습 중 상단 크롬 = ×+진행바뿐. 우리 레슨은 진행점 + 챕터 제목 + phase 태그 3층 | LessonPlayer 상단 — 연습 phase에서 제목/태그 숨김 | ✅ 적용 |
+| P7 | Duolingo·LingoDeer | 선택지 2×2 그리드(선택 시 테두리 강조), 문제는 작게 | PracticeScreen 객관식 — 14자 이하 전원이면 2×2, 아니면 세로 유지 | ✅ 적용 |
+| P8 | LingoDeer·(Duolingo 동일 관행) | 정답 피드백 = 하단 고정 시트(초록/빨강) + CONTINUE | PracticeScreen — 고정 시트 + CONTINUE(next 배선), 시트 중 lp-nav 숨김 | ✅ 적용 |
 | P9 | Cake | 문장 하나가 화면의 전부, 진행은 11/46 카운터 | 덱 레이아웃(시안 02)의 실증 — WordsScreen/SayIt 후보 | ⬜ |
 | P10 | Brilliant | 피드백을 말풍선(대화체)으로 — 채점이 아니라 코치처럼 | SessionBreak·오답 해설 톤 참고 | ⬜ |
 | P11 | 6개 앱 공통 | 카드-안-카드 없음: 콘텐츠가 배경에 직접 | 시안 03(카드 제거)의 실증 — 전 화면 공통 원칙 후보 | ⬜ |

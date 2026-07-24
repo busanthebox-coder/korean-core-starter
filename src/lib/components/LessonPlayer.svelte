@@ -341,7 +341,12 @@
     <span class="lp-count">{finished ? 'done' : (phaseLabel ? `${phaseLabel.label} ${posInPhase}/${curGroup.idxs.length}` : '')}</span>
   </div>
 
-  <div class="lp-eyebrow">{eyebrow}</div>
+  {#if !finished && cur && (cur.phase === 'practice' || cur.phase === 'speak')}
+    <!-- Drill screens: exit + progress only (P6). The chapter line is context
+         for reading, noise while answering — every reference app drops it here. -->
+  {:else}
+    <div class="lp-eyebrow">{eyebrow}</div>
+  {/if}
 
   {#if finished}
     <LessonComplete
@@ -370,6 +375,7 @@
       isCorrect={exCorrect}
       onPick={pick}
       onCheck={check}
+      onNext={next}
       onInput={setAnswer}
       onMatchDone={finishMatch}
       onConjugationDone={finishConjugation}
@@ -382,7 +388,7 @@
     />
   {/if}
 
-  {#if !finished}
+  {#if !finished && !(revealed[i] && cur?.kind === 'exercise')}
     <div class="lp-nav">
       <button class="ghost" type="button" disabled={i === 0} on:click={prev}><i class="ti ti-arrow-left"></i> Prev</button>
       {#if nextLocked && cur?.kind !== 'writing'}
