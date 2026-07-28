@@ -59,14 +59,42 @@
 
   onMount(() => {
     let timer = null;
+    let cancelled = false;
     if (activeHighlightId) {
       const targetId = activeHighlightId;
-      tick().then(() => {
-        document.getElementById(`learn-chapter-${targetId}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // The group's chapters render off a store update (openLearnGroup), which
+      // can land a frame after this component's own first tick — poll a few
+      // frames instead of assuming one tick is always enough.
+      (async () => {
+        let el = null;
+        for (let attempt = 0; attempt < 20 && !cancelled; attempt++) {
+          await tick();
+          el = document.getElementById(`learn-chapter-${targetId}`);
+          if (el) break;
+          await new Promise((resolve) => requestAnimationFrame(resolve));
+        }
+        if (!el || cancelled) return;
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Some environments (reduced-motion settings, older WebViews) silently
+        // drop a smooth scrollIntoView instead of just animating slower. Tell
+        // "genuinely still gliding" apart from "never moved at all" by sampling
+        // scrollY twice — only a completely static position between samples
+        // means it's stuck, so force an instant jump; a real animation in
+        // progress (even a slow one, over a long list) is left alone.
+        await new Promise((resolve) => setTimeout(resolve, 150));
+        if (cancelled) return;
+        const before = window.scrollY;
+        await new Promise((resolve) => setTimeout(resolve, 150));
+        if (cancelled) return;
+        if (window.scrollY === before) {
+          const rect = el.getBoundingClientRect();
+          const inView = rect.top > -40 && rect.top < window.innerHeight - 40;
+          if (!inView) el.scrollIntoView({ behavior: 'auto', block: 'center' });
+        }
         timer = setTimeout(() => { activeHighlightId = null; }, 2600);
-      });
+      })();
     }
-    return () => { if (timer) clearTimeout(timer); };
+    return () => { cancelled = true; if (timer) clearTimeout(timer); };
   });
 
   $: packsByChapter = vocabPacks.reduce((acc, item) => {
