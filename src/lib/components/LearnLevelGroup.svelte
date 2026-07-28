@@ -14,6 +14,7 @@
   export let onOpenCheckpoint = () => {};
   export let onToggleGroup = () => {};
   export let showBody = true;
+  export let highlightChapterId = null;
 
   const chapterMastery = (chapter) => masteryOf(reviewsState, chapterItemIds(chapter));
   const packMastery = (pack) => masteryOf(reviewsState, packItemIds(pack));
@@ -39,7 +40,12 @@
     <div class="level-body" id={`learn-group-${group.key}`}>
       {#each group.chapters as chapter}
         {@const mastery = chapterMastery(chapter)}
-        <button class="node" on:click={() => onOpenChapter(chapter)}>
+        <button
+          class="node"
+          id={`learn-chapter-${chapter.id}`}
+          class:highlighted={chapter.id === highlightChapterId}
+          on:click={() => onOpenChapter(chapter)}
+        >
           <span class="num" class:done={lessonProgress.has(chapter.id)}>{lessonProgress.has(chapter.id) ? '✓' : chapter.number}</span>
           <span class="node-main"><strong>{chapter.title}</strong><span>{chapter.goal}</span></span>
           {#if mastery.started}
@@ -102,8 +108,9 @@
     color: var(--ink-2); font-size: 12px; font-weight: 900; white-space: nowrap; }
   .chev { color: var(--ink-3); }
   .node { gap: 14px; padding: 14px 16px; border-radius: var(--radius); background: var(--surface);
-    border: 1px solid var(--border); transition: transform .1s var(--bounce), border-color .1s; }
+    border: 1px solid var(--border); transition: transform .1s var(--bounce), border-color .15s, box-shadow .15s; }
   .node:hover { transform: translateY(-2px); border-color: var(--ink); box-shadow: var(--shadow-2); }
+  .node.highlighted { border-color: var(--accent); box-shadow: 0 0 0 3px var(--primary-wash); }
   .num { width: 46px; height: 46px; display: grid; place-items: center; border-radius: 999px; background: var(--surface);
     border: 1px solid var(--border-2); color: var(--ink); font-family: var(--serif); font-weight: 600; font-size: 18px; flex: none; }
   .num.done { background: var(--ink); color: var(--bg); border-color: var(--ink); }

@@ -1,9 +1,10 @@
 <script>
+  import { onMount, tick } from 'svelte';
   import { chapters, readers, vocabPacks } from '../data.js';
   import { mistakes } from '../mistakes.js';
   import { masteryOf, reviews } from '../srs.js';
   import { checkpointSlots } from '../checkpoints.js';
-  import { groupsForLearnHome } from '../learnGroups.js';
+  import { groupChaptersByLevel, groupsForLearnHome } from '../learnGroups.js';
   import { continueChapter } from '../placement.js';
   import { chapterItemIds } from '../studyLinks.js';
   import { buildTodayPlan } from '../todayPlan.js';
@@ -12,6 +13,7 @@
     checkpointProgress,
     learnOpenGroups,
     lessonProgress,
+    openLearnGroup,
     orientationDone,
     packProgress,
     readerProgress,
@@ -35,9 +37,37 @@
   export let onOpenCheckpoint = () => {};
   export let onOpenReader = () => {};
   export let onDismissRomanNudge = () => {};
+  export let highlightChapterId = null;
 
   let chapterFilter = '';
   let libraryOpened = false;
+  let activeHighlightId = null;
+
+  // Coming back (X) from a chapter should land where you were, not reset to
+  // the top of the list — open its level group and mark it so we can scroll
+  // to and outline it once the DOM exists.
+  const returningGroup = highlightChapterId
+    ? groupChaptersByLevel(chapters, $lessonProgress).find((g) =>
+        g.chapters.some((c) => c.id === highlightChapterId)
+      )
+    : null;
+  if (returningGroup) {
+    libraryOpened = true;
+    openLearnGroup(returningGroup.key);
+    activeHighlightId = highlightChapterId;
+  }
+
+  onMount(() => {
+    let timer = null;
+    if (activeHighlightId) {
+      const targetId = activeHighlightId;
+      tick().then(() => {
+        document.getElementById(`learn-chapter-${targetId}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        timer = setTimeout(() => { activeHighlightId = null; }, 2600);
+      });
+    }
+    return () => { if (timer) clearTimeout(timer); };
+  });
 
   $: packsByChapter = vocabPacks.reduce((acc, item) => {
     const key = item.insertAfterChapter;
@@ -123,6 +153,7 @@
         {onOpenCheckpoint}
         showBody={libraryOpened || hasFilter}
         onToggleGroup={() => openGroup(group)}
+        highlightChapterId={activeHighlightId}
       />
     {/each}
     {#if hasFilter && levelGroups.length === 0}

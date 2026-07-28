@@ -62,16 +62,17 @@
 {/if}
 
 <style>
-  /* P9 — one word, deck-style: the Korean is the screen (Cake, Drops).
-     Everything else is caption-sized around it. */
-  .word-list { display: grid; }
-  .word { min-height: 42vh; display: grid; align-content: center; justify-items: center;
-    text-align: center; gap: 7px; padding: 12px 0 4px; }
+  /* Several words per screen, list-style, so the learner isn't tapping
+     through one at a time — each still gets its own card to stay scannable. */
+  .word-list { display: grid; gap: 12px; }
+  .word { display: grid; justify-items: start; text-align: left; gap: 6px;
+    padding: 16px 18px; border-radius: var(--radius); background: var(--surface);
+    border: 1px solid var(--border); box-shadow: var(--shadow-1); }
   .word-top { display: flex; align-items: center; gap: 8px; }
-  .word-ko-row { display: flex; align-items: center; gap: 12px; }
+  .word-ko-row { display: flex; align-items: center; gap: 10px; }
   .word-ko { font-size: 19px; font-weight: 800; }
-  .word-ko-row .word-ko { font-family: var(--serif-ko); font-size: clamp(40px, 12vw, 52px); font-weight: 650;
-    line-height: 1.1; letter-spacing: -.01em; word-break: keep-all; }
+  .word-ko-row .word-ko { font-family: var(--serif-ko); font-size: clamp(26px, 8vw, 34px); font-weight: 650;
+    line-height: 1.15; letter-spacing: -.01em; word-break: keep-all; }
   .word-pos { font-size: 10.5px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase;
     color: var(--ink-3); white-space: nowrap; }
   .kp-n { width: 22px; height: 22px; flex: none; display: grid; place-items: center; border-radius: 999px; background: var(--primary-wash); color: var(--accent-ink); font-size: 12px; font-weight: 850; }

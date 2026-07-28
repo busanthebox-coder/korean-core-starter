@@ -36,6 +36,7 @@
   export let params = {};
 
   let view = 'path';
+  let returnHighlightChapterId = null;
   let chapter = null;
   let pack = null;
   let checkpoint = null;
@@ -85,7 +86,12 @@
   function openOrientation() { clearSelection(); show('orientation'); }
   function openHangul() { clearSelection(); show('hangul'); }
   function openGrammar() { clearSelection(); show('grammar'); }
-  function back() { clearSelection(); show('path'); }
+  function back() {
+    const returningChapterId = chapter?.id || null;
+    clearSelection();
+    show('path');
+    returnHighlightChapterId = returningChapterId;
+  }
   function openOrientationChapter(id) {
     const target = chapters.find((item) => item.id === id);
     if (target) openChapter(target);
@@ -241,6 +247,7 @@
     onOpenCheckpoint={openCheckpoint}
     onOpenReader={openReader}
     onDismissRomanNudge={dismissRomanNudge}
+    highlightChapterId={returnHighlightChapterId}
   />
 {:else if view === 'hangul'}
   <section class="learn">

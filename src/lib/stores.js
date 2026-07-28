@@ -229,6 +229,11 @@ export function toggleLearnOpenGroup(id) {
     return next;
   });
 }
+// Idempotent add — unlike toggle, safe to call when we just need a group open
+// (e.g. scrolling back to it) without risking closing it if it already was.
+export function openLearnGroup(id) {
+  learnOpenGroups.update((set) => (set.has(id) ? set : new Set(set).add(id)));
+}
 export function resetLearnOpenGroups() { learnOpenGroups.set(new Set()); }
 
 export const shadowProgress = persistedSet('kcs.shadow-done-v1');
