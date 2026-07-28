@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'kcs-pwa-688143c88ae5';
+const CACHE_VERSION = 'kcs-pwa-f4607c7a64c5';
 const PRECACHE_URLS = [
   ".",
   "404.html",
