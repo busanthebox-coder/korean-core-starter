@@ -22,6 +22,12 @@
   }
   $: model = splitLead(data?.mentalModel);
   $: examples = (data?.examples || []).slice(0, 4);
+  // One worked example is enough for the first read — the rest unfold on
+  // request, so the screen stops being a wall of text.
+  let showAllExamples = false;
+  $: if (data) showAllExamples = false;
+  $: visibleExamples = showAllExamples ? examples : examples.slice(0, 1);
+  $: hiddenExampleCount = examples.length - 1;
 </script>
 
 {#if kind === 'grammar'}
@@ -51,7 +57,7 @@
     <section class="block">
       <span class="cap">예문 · Examples</span>
       <div class="exs">
-        {#each examples as ex}
+        {#each visibleExamples as ex}
           <div class="ex">
             <div class="ex-ko">{ex.ko}<AudioButton text={ex.ko} size={20} /></div>
             <RomanizationLine text={ex.romanization} />
@@ -60,6 +66,11 @@
           </div>
         {/each}
       </div>
+      {#if !showAllExamples && hiddenExampleCount > 0}
+        <button type="button" class="more-ex" on:click={() => { showAllExamples = true; }}>
+          예문 더 보기 · {hiddenExampleCount} more example{hiddenExampleCount > 1 ? 's' : ''} ⌄
+        </button>
+      {/if}
     </section>
   {/if}
 
@@ -113,10 +124,13 @@
     line-height: 1.12; letter-spacing: -.01em; color: var(--ink); text-wrap: balance; }
   .g-sub { margin: 0; color: var(--ink-2); font-size: 14.5px; line-height: 1.5; }
 
-  /* The forms carry the screen: condition small, the Korean you must produce large. */
-  .forms { display: grid; }
-  .form { padding: 16px 0; border-top: 1px solid var(--border); display: grid; gap: 4px; }
-  .form:first-child { border-top: 0; padding-top: 6px; }
+  /* The forms carry the screen: condition small, the Korean you must produce
+     large. Boxed as one rule card so the pattern reads as a designed artifact,
+     not loose lines on the page. */
+  .forms { display: grid; background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--r-2); box-shadow: var(--shadow-1); padding: 2px 16px; }
+  .form { padding: 14px 0; border-top: 1px solid var(--border); display: grid; gap: 4px; }
+  .form:first-child { border-top: 0; }
   .form-when { font-size: 11px; font-weight: 800; letter-spacing: .09em; text-transform: uppercase;
     line-height: 1.45; color: var(--ink-3); }
   .form-add { font-family: var(--serif-ko); font-size: clamp(26px, 7.5vw, 32px); font-weight: 650;
@@ -139,6 +153,10 @@
     display: flex; align-items: center; gap: 8px; flex-wrap: wrap; word-break: keep-all; }
   .ex-en { font-size: 14.5px; color: var(--ink-2); margin-top: 2px; }
   .ex-note { margin: 5px 0 0; font-size: 13px; line-height: 1.55; color: var(--ink-3); word-break: keep-all; }
+  .more-ex { justify-self: start; padding: 8px 14px; border-radius: 999px; background: var(--surface-2);
+    color: var(--ink-2); font-size: 12.5px; font-weight: 800; border: 1px solid var(--border);
+    transition: border-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease); }
+  .more-ex:hover { border-color: var(--ink-3); color: var(--ink); }
 
   .drill { display: grid; gap: 7px; padding: 15px 16px; border-radius: var(--r-1);
     background: var(--green-soft); border: 1px solid rgba(62,142,78,.16); }

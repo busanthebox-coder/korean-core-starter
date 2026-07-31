@@ -40,7 +40,6 @@
   export let highlightChapterId = null;
 
   let chapterFilter = '';
-  let libraryOpened = false;
   let activeHighlightId = null;
 
   // Coming back (X) from a chapter should land where you were, not reset to
@@ -52,7 +51,6 @@
       )
     : null;
   if (returningGroup) {
-    libraryOpened = true;
     openLearnGroup(returningGroup.key);
     activeHighlightId = highlightChapterId;
   }
@@ -133,10 +131,6 @@
     filterText: chapterFilter,
   });
   $: hasFilter = chapterFilter.trim().length > 0;
-  $: activeLevelKey = levelGroups.find((group) => group.chapters.some((chapter) => chapter.id === continueTarget?.id))?.key || '';
-  $: visibleLevelGroups = libraryOpened || hasFilter
-    ? levelGroups
-    : levelGroups.filter((group) => group.key === activeLevelKey);
   $: showRomanNudge = !$romanNudgeSeen && $romanizationVisible && $lessonProgress.has('chapter-03');
 
   function startToday() {
@@ -150,7 +144,6 @@
   }
 
   function openGroup(group) {
-    libraryOpened = true;
     toggleLearnOpenGroup(group.key);
   }
 </script>
@@ -166,8 +159,18 @@
     onOpenOrientation={onOpenOrientation}
   />
 
+  <label class="chapter-filter">
+    <span>Find a chapter</span>
+    <input bind:value={chapterFilter} placeholder="Search title, number, or topic..." aria-label="Filter chapters" />
+    {#if hasFilter}
+      <button type="button" on:click={() => { chapterFilter = ''; }}>Clear</button>
+    {/if}
+  </label>
+
+  <!-- The whole course is on the table: every level group shows its header,
+       and the group you're in opens by default. No hidden library to discover. -->
   <div class="path">
-    {#each visibleLevelGroups as group}
+    {#each levelGroups as group}
       <LearnLevelGroup
         {group}
         lessonProgress={$lessonProgress}
@@ -179,7 +182,6 @@
         {onOpenChapter}
         {onOpenPack}
         {onOpenCheckpoint}
-        showBody={libraryOpened || hasFilter}
         onToggleGroup={() => openGroup(group)}
         highlightChapterId={activeHighlightId}
       />
@@ -203,29 +205,19 @@
     </div>
   {/if}
 
-  {#if libraryOpened || hasFilter}
-    <button class="big-card" on:click={onOpenHangul}>
-      <span class="bc-ico">가</span>
-      <span class="bc-main"><strong>Start here — Hangul</strong><span>Read the alphabet and build syllables.</span></span>
-      <span class="chev">▸</span>
-    </button>
+  <button class="big-card" on:click={onOpenHangul}>
+    <span class="bc-ico">가</span>
+    <span class="bc-main"><strong>Start here — Hangul</strong><span>Read the alphabet and build syllables.</span></span>
+    <span class="chev">▸</span>
+  </button>
 
-    <ReadingRoom readers={readers} progress={$readerProgress} onOpenReader={onOpenReader} />
+  <button class="big-card" on:click={onOpenGrammar}>
+    <span class="bc-ico gram">文</span>
+    <span class="bc-main"><strong>Grammar roadmap</strong><span>Learn grammar step by step — particles, tenses, endings, connectors.</span></span>
+    <span class="chev">▸</span>
+  </button>
 
-    <label class="chapter-filter">
-      <span>Find a chapter</span>
-      <input bind:value={chapterFilter} placeholder="Search title, number, or topic..." aria-label="Filter chapters" />
-      {#if hasFilter}
-        <button type="button" on:click={() => { chapterFilter = ''; }}>Clear</button>
-      {/if}
-    </label>
-
-    <button class="big-card" on:click={onOpenGrammar}>
-      <span class="bc-ico gram">文</span>
-      <span class="bc-main"><strong>Grammar roadmap</strong><span>Learn grammar step by step — particles, tenses, endings, connectors.</span></span>
-      <span class="chev">▸</span>
-    </button>
-  {/if}
+  <ReadingRoom readers={readers} progress={$readerProgress} onOpenReader={onOpenReader} />
 </section>
 
 <style>

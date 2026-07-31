@@ -335,10 +335,9 @@
     <button class="lp-x" type="button" on:click={onBack} aria-label="Back"><i class="ti ti-x"></i></button>
     <div class="lp-prog" aria-hidden="true">
       {#each groups as g}
-        <div class="pg-group" style="flex:{g.idxs.length}">
-          {#each g.idxs as idx}
-            <span class="pg-cell" class:on={finished || idx <= i} class:cur={!finished && idx === i}></span>
-          {/each}
+        {@const doneInGroup = finished ? g.idxs.length : g.idxs.filter((idx) => idx <= i).length}
+        <div class="pg-seg" class:active={!finished && g.p === curPhase} style="flex:{g.idxs.length}">
+          <span class="pg-fill" style="width:{Math.round((doneInGroup / g.idxs.length) * 100)}%"></span>
         </div>
       {/each}
     </div>
@@ -419,16 +418,26 @@
   .lp-x { width: 34px; height: 34px; flex: none; display: grid; place-items: center; border-radius: 999px;
     background: var(--surface); border: 1px solid var(--border); color: var(--ink-2); font-size: 18px; }
   .lp-x:hover { border-color: var(--ink-3); }
-  .lp-prog { flex: 1; display: flex; gap: 8px; align-items: center; }
-  .pg-group { display: flex; gap: 4px; }
-  .pg-cell { height: 7px; flex: 1; border-radius: 999px; background: var(--primary-wash); transition: background .25s var(--ease); }
-  .pg-cell.on { background: var(--primary); }
-  .pg-cell.cur { box-shadow: 0 0 0 2px var(--primary-wash); }
-  .lp-count { flex: none; font-size: 12px; font-weight: 800; color: var(--ink-3); white-space: nowrap; min-width: 56px; text-align: right; }
+  /* One segment per phase, filled by how far you are in it — five readable
+     bars instead of thirty dots. */
+  .lp-prog { flex: 1; display: flex; gap: 5px; align-items: center; }
+  .pg-seg { height: 7px; border-radius: 999px; background: var(--primary-wash); overflow: hidden; min-width: 14px; }
+  .pg-seg.active { box-shadow: 0 0 0 2px var(--accent-soft); }
+  .pg-fill { display: block; height: 100%; border-radius: 999px; background: var(--primary);
+    transition: width .25s var(--ease); }
+  .lp-count { flex: none; font-size: 12px; font-weight: 800; color: var(--ink-3); white-space: nowrap; min-width: 56px; text-align: right;
+    font-variant-numeric: tabular-nums; }
 
-  .lp-eyebrow { font-size: 11px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+  .lp-eyebrow { font-size: 11px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-  .lp-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  /* The nav docks to the bottom of the viewport while the screen scrolls, so
+     다음 is always one thumb-reach away — no hunting below the fold. It sits
+     above the fixed tab bar (72px) and melts into the page with a paper fade. */
+  .lp-nav { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    position: sticky; bottom: calc(72px + env(safe-area-inset-bottom, 0px)); z-index: 5;
+    margin: 0 -20px; padding: 10px 20px 12px;
+    background: linear-gradient(to top, var(--bg) 78%, transparent); }
   .ghost { padding: 12px 18px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); font-weight: 800; display: inline-flex; align-items: center; gap: 6px; }
   .skip-drill { padding: 10px 14px; border-radius: 999px; background: transparent; border: 1px dashed var(--border); color: var(--ink-3); font-size: 12.5px; font-weight: 800; }
   .skip-drill:hover { border-color: var(--ink-3); color: var(--ink-2); }
