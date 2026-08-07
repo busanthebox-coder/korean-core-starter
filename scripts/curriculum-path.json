@@ -1,5 +1,5 @@
 {
-  "note": "The study order of the 69 chapters, as chapter ids. Position in this list becomes the displayed 'Chapter N' and the Learn path order. Ids are stable, so reordering never disturbs saved progress (which is keyed by id in localStorage). Content difficulty must never descend: every chapter's `level` has to be >= the one before it. `why` records the dependency that pins each chapter here — keep it truthful, it is what the next editor reads before moving anything.",
+  "note": "The study order of the 72 chapters, as chapter ids. Position in this list becomes the displayed 'Chapter N' and the Learn path order. Ids are stable, so reordering never disturbs saved progress (which is keyed by id in localStorage). Content difficulty must never descend: every chapter's `level` has to be >= the one before it. `why` records the dependency that pins each chapter here — keep it truthful, it is what the next editor reads before moving anything.",
   "levelOrder": ["A1", "A2", "B1", "B2", "C1", "B2/C1"],
   "path": [
     { "id": "chapter-01", "why": "Hangul first — nothing is readable without it." },
@@ -74,6 +74,9 @@
     { "id": "chapter-69", "why": "-아/어 버리다/-고 말다/-(으)ㄹ 뻔하다/-(으)ㄴ 척하다: auxiliary endings that close the B2 band." },
 
     { "id": "chapter-63", "why": "Advanced written Korean — the written register, separate from everything spoken." },
+    { "id": "chapter-70", "why": "Written connective endings and nominal -(으)ㅁ: the clause-internal layer under chapter-63's sentence connectors." },
+    { "id": "chapter-71", "why": "News and notice reading: needs the passive from chapter-66 and the written register from chapter-70." },
+    { "id": "chapter-72", "why": "Idioms and proverbs: the expressive layer, last before the closing synthesis review." },
     { "id": "chapter-65", "why": "Synthesis and production review: the closing check over the whole course." }
   ]
 }
