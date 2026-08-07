@@ -1,0 +1,16 @@
+{
+  "chapter": "chapter-71",
+  "auditor": "sonnet",
+  "date": "2026-08-07",
+  "findings": [
+    {
+      "severity": "minor",
+      "where": "inlineExercises[6] (multipleChoice, 'Which sentence signals the LEAST confirmed claim?', option 3)",
+      "what": "One of the three options is '다음 달에 발표됐다.' — pairing the future-referring time phrase 다음 달에 ('next month') with the plain past-tense verb 발표됐다 ('was announced') is a temporal mismatch: as written it says an announcement scheduled for a future month has already happened in the past.",
+      "why": "This is one of two distractors (alongside 확인됐다) meant to represent progressively MORE confirmed versions of the same claim than the correct answer (다음 달에 발표될 것으로 알려졌다). The exercise still functions — a learner reasons from the taught certainty hierarchy (알려졌다 < 확인됐다 < flat statement) to the correct answer regardless — but the specific distractor sentence is not itself a coherent, natural Korean sentence as worded.",
+      "suggestedFix": "Reword the flat-statement distractor to remove the tense/time mismatch, e.g. '발표가 이미 있었다' or drop 다음 달에 and use a past-referring time phrase, e.g. '지난주에 발표됐다.'"
+    }
+  ],
+  "counts": { "blocker": 0, "minor": 1 },
+  "verdict": "pass"
+}

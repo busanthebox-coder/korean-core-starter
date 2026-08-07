@@ -8,16 +8,20 @@
       "where": "inlineExercises[7] (orderWords: '의사 선생님이 이 약을 하루에 두 번 먹으래요')",
       "what": "The tokens '이 약을' and '하루에 두 번' are both free to appear on either side of the other around the final verb 먹으래요. '의사 선생님이 하루에 두 번 이 약을 먹으래요' is equally grammatical Korean, but only the given ordering is marked 'correct'. The prompt's 'Start with 의사 선생님이' hint fixes only the first chunk; it does not constrain the order of the remaining two.",
       "why": "Korean object/adverbial order is generally free once the subject leads and the verb stays final, and nothing here forces one order over the other the way chapter 66's orderWords item is fully pinned by its 'start with' hint (leaving only a fixed subject+verb pair), or chapter 68's item is pinned by the semantic/collocational bond between 십오 층까지 and 걸어 올라갔어요. A learner who produces the equally correct alternate order would be marked wrong by exact-string grading — precisely the free-word-order grading risk the audit brief calls out for orderWords items.",
-      "suggestedFix": "Either extend the hint to fix more of the order (e.g. 'Start with 의사 선생님이 이 약을'), accept both token orders as correct, or restructure the chunks (e.g. merge '이 약을' and '하루에 두 번' into one token) so only one ordering is possible."
+      "suggestedFix": "Either extend the hint to fix more of the order (e.g. 'Start with 의사 선생님이 이 약을'), accept both token orders as correct, or restructure the chunks (e.g. merge '이 약을' and '하루에 두 번' into one token) so only one ordering is possible.",
+      "resolved": true,
+      "resolutionNote": "Verified against commit 198f3fd (git show 198f3fd -- scripts/rich-chapters/chapter-67.json). The tokens array was changed from ['의사 선생님이','이 약을','하루에 두 번','먹으래요'] to ['의사 선생님이','이 약을 하루에 두 번','먹으래요'] — the third of my suggested fixes, merging the ambiguous pair into one atomic token. With only 3 tokens now (fixed start, one middle chunk, fixed final verb), no reordering is possible, so the free-word-order grading risk is eliminated. The 'correct' field ('의사 선생님이 이 약을 하루에 두 번 먹으래요') was already consistent with the concatenated new tokens and did not need to change. No new issue introduced."
     },
     {
       "severity": "minor",
       "where": "grammarNotes[3].pronunciation (V-재요)",
       "what": "The note states: 'After a ㄱ or ㅂ final the ㅈ of 재 tenses: 먹재요 is [먹째요] and 입재요 is [입째요]. 말재요 is [말째요].' — but 말 ends in ㄹ, not ㄱ or ㅂ, so this example does not fit the conditioning environment the sentence itself just stated.",
       "why": "Tensification of a following plain consonant is regularly triggered by an obstruent coda (ㄱ,ㄷ,ㅂ, etc.); ㄹ is a sonorant and does not trigger the same process in ordinary native verb-stem + ending combinations (compare 놀자, 살자, and the verb reading of 팔자, all pronounced untensed). 말재요 is most likely pronounced [말재요], not [말째요]; as written, the claim contradicts its own stated rule.",
-      "suggestedFix": "Either drop 말재요 from this note (먹재요/입재요 already illustrate the ㄱ/ㅂ pattern on their own), or correct the bracketed pronunciation to the untensed form after verifying against a native-speaker source."
+      "suggestedFix": "Either drop 말재요 from this note (먹재요/입재요 already illustrate the ㄱ/ㅂ pattern on their own), or correct the bracketed pronunciation to the untensed form after verifying against a native-speaker source.",
+      "resolved": true,
+      "resolutionNote": "Verified: the sentence now reads '...먹재요 is [먹째요] and 입재요 is [입째요]. A ㄹ-final stem does not tense it — 말재요 stays [말재요].' This corrects the transcription to the untensed form AND makes the ㄹ-vs-obstruent contrast explicit, which is stronger than simply deleting the example. Consistent with my own phonological analysis (ㄹ codas do not trigger tensification in native verb-stem + ending combinations)."
     }
   ],
-  "counts": { "blocker": 1, "minor": 1 },
-  "verdict": "needs-fixes"
+  "counts": { "blocker": 0, "minor": 0 },
+  "verdict": "pass"
 }

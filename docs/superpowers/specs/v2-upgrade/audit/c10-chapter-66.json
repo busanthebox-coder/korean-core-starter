@@ -8,23 +8,29 @@
       "where": "grammarNotes[0].drill.items[2] (피동 -이/히/리/기-, drill item 3)",
       "what": "The drill converts active sentences into their -이/히/리/기- passive by dropping the doer and re-marking the subject (model: 직원이 창문을 열었어요 → 창문이 열렸어요; item 1: 닫다→닫혔어요; item 2: 막다→막혔어요). Item 3's source sentence is '사람들이 그 책을 다 샀어요' (people bought all the books), built on 사다 (to buy). 사다 has no -이/히/리/기- passive form at all — there is no word 사이다/사히다/사기다 meaning 'to be bought' (사이다 is an unrelated word, a soda drink). A learner mechanically applying the drill's own instruction has no correct form to produce.",
       "why": "This grammar note's entire formTable is organized around which final consonant takes which infix (이/히/리/기), i.e. teaching the closed set of verbs that DO have a lexicalized passive. 사다 is simply not in that set, so presenting it as a plain drill item — with no flag that it needs a different verb — either invites the learner to invent a nonexistent word or silently requires an unsignalled verb swap. The likely intended source verb is 팔다 (sell), whose passive 팔리다 is already established earlier in this exact note ('표가 예매 시작 십 분 만에 다 팔렸어요'), and which would make the semantic point (the books sold out) while fitting the mechanical pattern the other two items use.",
-      "suggestedFix": "Replace the source sentence with one built on an actual -이/히/리/기- verb whose meaning matches, e.g. '가게에서 그 책을 다 팔았어요. → 그 책이 다 _______.' (expected: 팔렸어요), which keeps the same 'the books are gone' meaning while using a verb the note actually teaches."
+      "suggestedFix": "Replace the source sentence with one built on an actual -이/히/리/기- verb whose meaning matches, e.g. '가게에서 그 책을 다 팔았어요. → 그 책이 다 _______.' (expected: 팔렸어요), which keeps the same 'the books are gone' meaning while using a verb the note actually teaches.",
+      "resolved": true,
+      "resolutionNote": "Verified against commit 198f3fd (git show 198f3fd -- scripts/rich-chapters/chapter-66.json). Item 3 was rewritten to '가게에서 그 책을 다 팔았어요. → 그 책이 다 _______.', matching the suggested fix exactly. 팔다 → 팔리다 is a genuine -이/히/리/기- passive already established in this note's own examples, so the drill is now mechanically answerable (팔렸어요) and consistent with items 1-2's drop-the-doer pattern. No new issue introduced — 가게에서 as a location phrase (rather than an explicit subject like 직원이/사고가) is natural and does not conflict with the instruction, since there is no doer noun phrase to drop in the first place. Re-verified 팔리다/팔렸어요 remains consistent with the note's formTable and other examples."
     },
     {
       "severity": "minor",
       "where": "grammarNotes[1].formTable[2] (N에 의해(서), formal writing/news row)",
       "what": "The example illustrating formal/news register with 에 의해(서) is '이 법은 국회에 의해 바뀌었다', which uses the native -이- passive 바뀌다 rather than a typical Sino-Korean -되다 verb.",
       "why": "The sentence is grammatical, but 에 의해(서) is most idiomatically paired with -되다 passives in the bureaucratic/news register the row is meant to illustrate (e.g. 개정되다, 변경되다) — a native -이/히/리/기- passive like 바뀌다 reads a shade more conversational/narrative than the dry news register the row is contrasting against the 'no cause named' default.",
-      "suggestedFix": "Swap in a -되다 example, e.g. '이 법은 국회에 의해 개정되었다', to more prototypically illustrate the formal register this row is teaching."
+      "suggestedFix": "Swap in a -되다 example, e.g. '이 법은 국회에 의해 개정되었다', to more prototypically illustrate the formal register this row is teaching.",
+      "resolved": true,
+      "resolutionNote": "Verified: the row now reads '국회 → 이 법은 국회에 의해 개정되었다', the exact suggested fix. 개정되다 (改正되다, 'to be revised/amended') is a real, standard Sino-Korean -되다 passive and is the idiomatic verb for a law being revised — this now prototypically represents the formal/news register the row is teaching."
     },
     {
       "severity": "minor",
       "where": "grammarNotes[3].drill.items[2] (V-게 되다, drill item 3)",
       "what": "The first two drill items give a present-tense base ('이번 주 모임에 못 가요', '한국어를 배워요'), but the third gives a past-tense base ('그 사실을 알았어요') for the same 'rewrite with -게 되다' instruction.",
       "why": "The target answer (그 사실을 알게 됐어요) is still natural Korean, so this does not produce a wrong or unanswerable item, but the inconsistent tense in the prompt is a small internal-consistency slip within one drill's three parallel items.",
-      "suggestedFix": "Change the third item's base to present tense for consistency, e.g. '그 사실을 알아요. → 그 사실을 _______.'"
+      "suggestedFix": "Change the third item's base to present tense for consistency, e.g. '그 사실을 알아요. → 그 사실을 _______.'",
+      "resolved": true,
+      "resolutionNote": "Verified: item 3 now reads '그 사실을 알아요. → 그 사실을 _______.', matching the suggested fix. All three drill items are now present-tense bases, consistent with each other."
     }
   ],
-  "counts": { "blocker": 1, "minor": 2 },
-  "verdict": "needs-fixes"
+  "counts": { "blocker": 0, "minor": 0 },
+  "verdict": "pass"
 }

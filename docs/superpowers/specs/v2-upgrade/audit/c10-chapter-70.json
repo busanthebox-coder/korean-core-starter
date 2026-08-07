@@ -1,0 +1,23 @@
+{
+  "chapter": "chapter-70",
+  "auditor": "sonnet",
+  "date": "2026-08-07",
+  "findings": [
+    {
+      "severity": "minor",
+      "where": "grammarNotes[3].pronunciation (V-고자)",
+      "what": "The note states '-고자 never tenses: 하고자 is [하고자] and 확인하고자 is [화긴하고자]. 안내드리고자 runs straight through as [안내드리고자].' Every single example of -고자 in this entire grammar note (formTable, examples, drill, vocabulary) attaches to a vowel-final 하다-compound (문의하다, 도입하다, 파악하다, 확인하다, 안내드리다, 검토하다). The blanket claim 'never tenses' is therefore never actually tested against a consonant-final action verb.",
+      "why": "-고자 shares its onset ㄱ with the plain connective -고, which regularly tenses after an obstruent coda (먹고 → [먹꼬], 잡고 → [잡꼬]). By the same rule, an obstruent-final verb + -고자 (e.g. 찾다 → 찾고자, 잡다 → 잡고자) should be expected to tense the same way (찾고자 → [찯꼬자]). The chapter only ever demonstrates -고자 on vowel-final stems, where no tensing is expected anyway, so the universal phrasing 'never tenses' overgeneralizes from a sample that happens to avoid the one environment where it would be tested.",
+      "suggestedFix": "Narrow the claim to what is actually demonstrated, e.g. '-고자 doesn't change the preceding vowel-final stem: 하고자 is [하고자]...', or add a consonant-stem example (찾고자 [찯꼬자]) and correct the pronunciation note to note that it tenses under the same obstruent-coda rule as -고."
+    },
+    {
+      "severity": "minor",
+      "where": "grammarNotes[0].keyPoint (label: 'Two different layers of written Korean')",
+      "what": "The keyPoint groups 즉 together with 따라서 and 그러나 as connectors that 'stand BETWEEN sentences and begin a new one.' But chapter-63's own grammarNotes[2] (즉 / 다시 말해서) explicitly teaches and demonstrates that 즉 frequently sits INSIDE a sentence, right after the term it defines — its own formTable example is '핵심 변수, 즉 가격이 결과를 좌우한다' and another example is '가장 중요한 요소, 즉 신뢰가 무너졌다,' both mid-sentence, comma-joined, no period.",
+      "why": "This directly contradicts chapter-63's own characterization of 즉, which the audit brief specifically asked to be checked. 따라서 and 그러나 genuinely are always sentence-initial per chapter-63's own teaching, so the core two-layer distinction chapter-70 is built on is sound — but citing 즉 as a third clean example of 'always between sentences' overstates its distributional behavior. Notably, summaryCard's restatement of this same point ('따라서 and 그러나 join sentences to each other') quietly drops 즉 from the list, suggesting the omission in the keyPoint is an oversight rather than a deliberate simplification.",
+      "suggestedFix": "Either drop 즉 from this specific keyPoint sentence (following summaryCard's lead, which already only cites 따라서/그러나), or add a caveat that 즉 can also appear mid-sentence and is included here only for its between-sentence use."
+    }
+  ],
+  "counts": { "blocker": 0, "minor": 2 },
+  "verdict": "pass"
+}
