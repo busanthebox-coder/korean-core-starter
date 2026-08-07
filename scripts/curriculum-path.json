@@ -1,5 +1,5 @@
 {
-  "note": "The study order of the 65 chapters, as chapter ids. Position in this list becomes the displayed 'Chapter N' and the Learn path order. Ids are stable, so reordering never disturbs saved progress (which is keyed by id in localStorage). Content difficulty must never descend: every chapter's `level` has to be >= the one before it. `why` records the dependency that pins each chapter here — keep it truthful, it is what the next editor reads before moving anything.",
+  "note": "The study order of the 69 chapters, as chapter ids. Position in this list becomes the displayed 'Chapter N' and the Learn path order. Ids are stable, so reordering never disturbs saved progress (which is keyed by id in localStorage). Content difficulty must never descend: every chapter's `level` has to be >= the one before it. `why` records the dependency that pins each chapter here — keep it truthful, it is what the next editor reads before moving anything.",
   "levelOrder": ["A1", "A2", "B1", "B2", "C1", "B2/C1"],
   "path": [
     { "id": "chapter-01", "why": "Hangul first — nothing is readable without it." },
@@ -68,6 +68,10 @@
     { "id": "chapter-57", "why": "Causatives -이/히/리/기 and -게 하다 — needs nominalisation to describe." },
     { "id": "chapter-59", "why": "Unreal conditionals -았/었더라면: the most layered tense stacking." },
     { "id": "chapter-64", "why": "Internet language: register awareness once every register is known." },
+    { "id": "chapter-66", "why": "Passive -이/히/리/기: needs the causative chapter to contrast against, and feeds the news register later." },
+    { "id": "chapter-67", "why": "Contracted reported speech -대요/-래요/-냬요/-재요: only lands once the full -다고 하다 forms are solid." },
+    { "id": "chapter-68", "why": "-느라고/-는 바람에/-더니/-았더니: reason connectors that need every earlier tense and subject rule in place." },
+    { "id": "chapter-69", "why": "-아/어 버리다/-고 말다/-(으)ㄹ 뻔하다/-(으)ㄴ 척하다: auxiliary endings that close the B2 band." },
 
     { "id": "chapter-63", "why": "Advanced written Korean — the written register, separate from everything spoken." },
     { "id": "chapter-65", "why": "Synthesis and production review: the closing check over the whole course." }

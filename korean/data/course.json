@@ -14867,8 +14867,671 @@
       }
     },
     {
-      "id": "chapter-63",
+      "id": "chapter-66",
       "number": 64,
+      "title": "Passive Verbs — 이/히/리/기, -아/어지다, and -게 되다",
+      "level": "B2",
+      "goal": "Say what happened without naming who did it.",
+      "scenario": "Your commute falls apart: the road is jammed, a call drops, and the meeting time changes.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "버스가 삼십 분째 안 와요. 무슨 일이죠?",
+          "romanization": "beoseuga samsip bunjjae an wayo. museun iljyo?",
+          "en": "The bus hasn't come for thirty minutes. What's going on?"
+        },
+        {
+          "speaker": "B",
+          "ko": "앞에 사고가 나서 도로가 꽉 막혔어요.",
+          "romanization": "ape sagoga naseo doroga kkwak makyeosseoyo.",
+          "en": "There was an accident up ahead, so the road is completely jammed."
+        },
+        {
+          "speaker": "A",
+          "ko": "아, 어쩐지. 그럼 지하철로 갈아탈까요?",
+          "romanization": "a, eojjeonji. geureom jihacheollo garatalkkayo?",
+          "en": "Ah, that explains it. Shall we switch to the subway then?"
+        },
+        {
+          "speaker": "B",
+          "ko": "네. 근데 아까 전화가 끊겨서 팀장님께 아직 연락을 못 했어요.",
+          "romanization": "ne. geunde akka jeonhwaga kkeunkyeoseo timjangnimkke ajik yeollageul mot haesseoyo.",
+          "en": "Yes. But my call got cut off earlier, so I still haven't reached the team lead."
+        },
+        {
+          "speaker": "A",
+          "ko": "지금 하세요. 회의 시간이 열 시로 바뀌었어요.",
+          "romanization": "jigeum haseyo. hoeui sigani yeol siro bakkwieosseoyo.",
+          "en": "Do it now. The meeting time was changed to ten."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-passive",
+        "grammar-passive-eojida",
+        "grammar-ending-ge-doeda",
+        "grammar-causative",
+        "grammar-particle-ege-hante"
+      ],
+      "linkedEntryIds": [
+        "word-verb-367",
+        "word-verb-368",
+        "word-ext-ch29-yeollida",
+        "word-ext-ch38-dachida",
+        "word-verb-381",
+        "word-ext-ch38-pallida",
+        "word-verb-220",
+        "word-ext-ch38-japhida",
+        "word-ext-ch53-kkeunhgida",
+        "word-ext-ch38-sseuyida",
+        "word-ext-ch29-kyeojida",
+        "word-verb-122",
+        "word-noun-017",
+        "word-ext-768",
+        "word-ext-1771"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-367",
+        "word-verb-368",
+        "word-ext-ch29-yeollida",
+        "word-ext-ch38-dachida",
+        "word-verb-381",
+        "word-ext-ch38-pallida",
+        "word-ext-ch38-japhida",
+        "word-ext-ch53-kkeunhgida",
+        "word-ext-ch38-sseuyida",
+        "word-verb-122"
+      ],
+      "patternIds": [],
+      "guidedPractice": "Take five things that went wrong today and say each one twice: once actively (누가 무엇을 했다) and once passively (무엇이 어떻게 됐다). Then decide which version a Korean colleague would actually say out loud.",
+      "realLifeTask": "Send a three-sentence message reporting a delay without naming anyone, using 막히다, 끊기다, and 바뀌다.",
+      "friendPractice": "A partner names a cause — 바람, 경찰, 시간, 강아지, 사고. You build a passive sentence and choose 에 or 에게/한테 correctly for each one.",
+      "review": "Can you say 문이 닫혔어요 instead of 누가 문을 닫았어요, mark 바람에 and 경찰한테 correctly, and keep away from the double passive 열려졌어요?",
+      "beginnerGuide": [
+        {
+          "title": "Drop the doer first",
+          "body": "Start from the active sentence, delete the person, and move the affected thing into the 이/가 slot: 직원이 문을 닫았어요 → 문이 닫혔어요. If 을/를 is still sitting in front of the passive verb, the sentence is not finished."
+        },
+        {
+          "title": "에 or 에게 — is it alive?",
+          "body": "Only a person or an animal takes 에게 or 한테. Wind, time, deadlines, accidents, and machines take plain 에. That single question fixes most of the passive mistakes English speakers make, because English uses one word, 'by', for all of them."
+        },
+        {
+          "title": "Three endings, three jobs",
+          "body": "-이/히/리/기- is the built-in passive for a closed list of verbs. -아/어지다 covers the verbs that have no built-in form. -게 되다 is not a passive at all: it keeps the doer and only says circumstances made the decision. Never stack the first two — 열려졌어요 is a double passive."
+        }
+      ],
+      "checkpoints": [
+        "I can rewrite an active sentence as a passive one and drop the object particle.",
+        "I can choose 에 or 에게/한테 for the cause without thinking about English 'by'.",
+        "I can tell 피동, 사동, and -게 되다 apart in a sentence I read."
+      ],
+      "curriculumOrder": 64,
+      "curriculumTrack": {
+        "id": "b2-advanced-control",
+        "cefr": "B2",
+        "label": "B2 Advanced Control",
+        "description": "Causatives, counterfactuals, nominalisation, attitude endings, discourse control, and register switching."
+      },
+      "prerequisiteChapterIds": [
+        "chapter-64",
+        "chapter-59"
+      ],
+      "learningLayers": [
+        {
+          "id": "core",
+          "label": "Core",
+          "purpose": "Start here: these are the words and patterns you need for the main sentence.",
+          "minutes": 20,
+          "itemIds": [
+            "word-verb-367",
+            "word-verb-368",
+            "word-ext-ch29-yeollida",
+            "word-ext-ch38-dachida",
+            "word-verb-381",
+            "word-ext-ch38-pallida",
+            "word-ext-ch38-japhida",
+            "word-ext-ch53-kkeunhgida",
+            "word-ext-ch38-sseuyida",
+            "word-verb-122"
+          ]
+        },
+        {
+          "id": "expand",
+          "label": "Expand",
+          "purpose": "Use these next so the same grammar works in more real situations.",
+          "minutes": 15,
+          "itemIds": [
+            "word-verb-220",
+            "word-ext-ch29-kyeojida",
+            "word-noun-017",
+            "word-ext-768",
+            "word-ext-1771"
+          ]
+        },
+        {
+          "id": "reference",
+          "label": "Reference",
+          "purpose": "Open these when a sentence feels confusing or you want to check the rule.",
+          "minutes": 5,
+          "grammarIds": [
+            "grammar-passive",
+            "grammar-passive-eojida",
+            "grammar-ending-ge-doeda",
+            "grammar-causative"
+          ]
+        }
+      ],
+      "exitTask": {
+        "canDo": "Say what happened without naming who did it.",
+        "prompt": "Send a three-sentence message reporting a delay without naming anyone, using 막히다, 끊기다, and 바뀌다.",
+        "sampleAnswer": {
+          "ko": "사고가 나서 도로가 꽉 막혔어요. 아까 통화하다가 전화도 끊겼고요. 회의 시간이 열 시로 바뀌었으니까 그때 뵐게요.",
+          "en": "There was an accident, so the road is completely jammed. My call got cut off earlier too. The meeting time was changed to ten, so I'll see you then."
+        },
+        "checklist": [
+          "I can rewrite an active sentence as a passive one and drop the object particle.",
+          "I can choose 에 or 에게/한테 for the cause without thinking about English 'by'.",
+          "I can tell 피동, 사동, and -게 되다 apart in a sentence I read.",
+          "Make it about your real day: your name, place, time, or plan.",
+          "Keep the first version short before you make it longer."
+        ]
+      }
+    },
+    {
+      "id": "chapter-67",
+      "number": 65,
+      "title": "Reported Speech, Contracted — -대요, -래요, -냬요, -재요",
+      "level": "B2",
+      "goal": "Pass on what someone else said the way Koreans actually say it.",
+      "scenario": "You are the middle of a group chat and a team notice: news, an instruction, a question, and an invitation all have to be relayed.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "무슨 공지 왔어요? 저는 못 봤는데요.",
+          "romanization": "museun gongji wasseoyo? jeoneun mot bwanneundeyo.",
+          "en": "What notice came through? I didn't see it."
+        },
+        {
+          "speaker": "B",
+          "ko": "회식이 다음 주로 미뤄졌대요.",
+          "romanization": "hoesigi daeum juro mirwojyeotdaeyo.",
+          "en": "They say the team dinner got pushed to next week."
+        },
+        {
+          "speaker": "A",
+          "ko": "아, 그럼 예약은요?",
+          "romanization": "a, geureom yeyageunnyo?",
+          "en": "Ah, then what about the reservation?"
+        },
+        {
+          "speaker": "B",
+          "ko": "팀장님이 지훈 씨한테 다시 확인해 보래요.",
+          "romanization": "timjangnimi jihun ssihante dasi hwaginhae boraeyo.",
+          "en": "The team lead says to have Jihoon double-check it."
+        },
+        {
+          "speaker": "A",
+          "ko": "알겠어요. 그리고 동기들이 그날 같이 가재요.",
+          "romanization": "algesseoyo. geurigo donggideuri geunal gachi gajaeyo.",
+          "en": "Got it. And the others say let's go together that day."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-indirect-statement",
+        "grammar-indirect-question"
+      ],
+      "linkedEntryIds": [
+        "word-verb-074",
+        "word-ext-1451",
+        "word-ext-ch38-gongji",
+        "word-ext-1454",
+        "word-ext-452",
+        "word-ext-548",
+        "word-verb-262",
+        "word-verb-482",
+        "word-ext-ch37-mureoboda",
+        "word-verb-436",
+        "word-adjective-038",
+        "word-ext-539",
+        "word-ext-1567",
+        "word-ext-142"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-074",
+        "word-ext-1451",
+        "word-ext-1454",
+        "word-ext-452",
+        "word-verb-482",
+        "word-verb-436",
+        "word-adjective-038"
+      ],
+      "patternIds": [],
+      "guidedPractice": "Take four messages off your phone — a piece of news, an instruction, a question, and an invitation — and say each one out loud as if relaying it, naming who it came from.",
+      "realLifeTask": "Relay four messages to a colleague using -대요, -래요, -냬요, and -재요, one of each.",
+      "friendPractice": "A partner says a sentence in one of four shapes: a statement, an order, a question, or a suggestion. You repeat it back as if passing it on to somebody else.",
+      "review": "Can you tell 학생이래요 from 가래요, and 갈래요 from 가래요, without stopping to think about it?",
+      "beginnerGuide": [
+        {
+          "title": "Only the tail gets shorter",
+          "body": "The front of the sentence is exactly what it was with -다고 하다. A present-tense verb still needs its -ㄴ/는- (운동한대요), an adjective still attaches bare (바쁘대요), and any past still carries -았/었- (봤대요). Learn the four tails and the rest is already familiar."
+        },
+        {
+          "title": "There are two different 래요",
+          "body": "After a noun, 래요 comes from -(이)라고 해요 and means 'they say it is': 학생이래요. After a verb stem it comes from -(으)라고 해요 and reports an order: 가래요. Look at the word in front to know which one you are hearing."
+        },
+        {
+          "title": "Name your source",
+          "body": "A bare -래요 can sound as though you are giving the order yourself. Koreans almost always open with the person: 팀장님이 …래요, 엄마가 …래요. It makes clear you are the messenger, not the boss."
+        }
+      ],
+      "checkpoints": [
+        "I can contract -다고 해요 to -대요 without losing the -ㄴ/는- on a verb.",
+        "I can choose between 학생이래요 and 가래요 by looking at the word in front.",
+        "I can relay a question with -냬요 and an invitation with -재요."
+      ],
+      "curriculumOrder": 65,
+      "curriculumTrack": {
+        "id": "b2-advanced-control",
+        "cefr": "B2",
+        "label": "B2 Advanced Control",
+        "description": "Causatives, counterfactuals, nominalisation, attitude endings, discourse control, and register switching."
+      },
+      "prerequisiteChapterIds": [
+        "chapter-66",
+        "chapter-64"
+      ],
+      "learningLayers": [
+        {
+          "id": "core",
+          "label": "Core",
+          "purpose": "Start here: these are the words and patterns you need for the main sentence.",
+          "minutes": 20,
+          "itemIds": [
+            "word-verb-074",
+            "word-ext-1451",
+            "word-ext-1454",
+            "word-ext-452",
+            "word-verb-482",
+            "word-verb-436",
+            "word-adjective-038"
+          ]
+        },
+        {
+          "id": "expand",
+          "label": "Expand",
+          "purpose": "Use these next so the same grammar works in more real situations.",
+          "minutes": 15,
+          "itemIds": [
+            "word-ext-548",
+            "word-verb-262",
+            "word-ext-539",
+            "word-ext-1567",
+            "word-ext-142",
+            "word-ext-ch38-gongji",
+            "word-ext-ch37-mureoboda"
+          ]
+        },
+        {
+          "id": "reference",
+          "label": "Reference",
+          "purpose": "Open these when a sentence feels confusing or you want to check the rule.",
+          "minutes": 5,
+          "grammarIds": [
+            "grammar-indirect-statement",
+            "grammar-indirect-question"
+          ]
+        }
+      ],
+      "exitTask": {
+        "canDo": "Pass on what someone else said the way Koreans actually say it.",
+        "prompt": "Relay four messages to a colleague using -대요, -래요, -냬요, and -재요, one of each.",
+        "sampleAnswer": {
+          "ko": "팀장님이 회식이 다음 주로 미뤄졌대요. 그리고 자료는 미리 올려 놓으래요. 지훈 씨는 예약을 다시 확인했냬요.",
+          "en": "The team lead says the dinner got pushed to next week. And she says to upload the materials in advance. Jihoon is asking whether the reservation has been double-checked."
+        },
+        "checklist": [
+          "I can contract -다고 해요 to -대요 without losing the -ㄴ/는- on a verb.",
+          "I can choose between 학생이래요 and 가래요 by looking at the word in front.",
+          "I can relay a question with -냬요 and an invitation with -재요.",
+          "Make it about your real day: your name, place, time, or plan.",
+          "Keep the first version short before you make it longer."
+        ]
+      }
+    },
+    {
+      "id": "chapter-68",
+      "number": 66,
+      "title": "Reasons and Excuses — -느라고, -는 바람에, -더니, -았더니",
+      "level": "B2",
+      "goal": "Say why something went wrong, and whose doing it was.",
+      "scenario": "A Monday post-mortem: what you were too busy for, what hit you out of nowhere, and what you found out the hard way.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "어제 왜 답장이 없었어요?",
+          "romanization": "eoje wae dapjangi eopseosseoyo?",
+          "en": "Why didn't you reply yesterday?"
+        },
+        {
+          "speaker": "B",
+          "ko": "짐 정리하느라고 휴대폰을 아예 못 봤어요.",
+          "romanization": "jim jeongnihaneurago hyudaeponeul aye mot bwasseoyo.",
+          "en": "I was sorting out my things, so I didn't look at my phone at all."
+        },
+        {
+          "speaker": "A",
+          "ko": "오늘은요? 아침에 왜 늦었어요?",
+          "romanization": "oneureunyo? achime wae neujeosseoyo?",
+          "en": "And today? Why were you late this morning?"
+        },
+        {
+          "speaker": "B",
+          "ko": "지하철이 멈추는 바람에 삼십 분이나 서 있었어요.",
+          "romanization": "jihacheori meomchuneun barame samsip bunina seo isseosseoyo.",
+          "en": "The subway stopped, so I stood there for a full thirty minutes."
+        },
+        {
+          "speaker": "A",
+          "ko": "고생했네요. 저는 어제 일찍 잤더니 오늘은 좀 괜찮아요.",
+          "romanization": "gosaenghaenneyo. jeoneun eoje iljjik jatdeoni oneureun jom gwaenchanayo.",
+          "en": "That sounds rough. I got to bed early yesterday, so I'm doing okay today."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-connector-neura",
+        "grammar-connector-barame",
+        "grammar-ending-deoni",
+        "grammar-connector-because"
+      ],
+      "linkedEntryIds": [
+        "word-ext-110",
+        "word-verb-385",
+        "word-ext-600",
+        "word-ext-ch36-bumbida",
+        "word-verb-222",
+        "word-verb-364",
+        "word-verb-382",
+        "word-verb-388",
+        "word-ext-1038",
+        "word-ext-817",
+        "word-ext-547",
+        "word-verb-052",
+        "word-verb-026",
+        "word-verb-176"
+      ],
+      "coreVocabularyIds": [
+        "word-ext-110",
+        "word-verb-385",
+        "word-ext-600",
+        "word-ext-ch36-bumbida",
+        "word-verb-222",
+        "word-verb-388",
+        "word-ext-1038",
+        "word-verb-052",
+        "word-verb-176"
+      ],
+      "patternIds": [],
+      "guidedPractice": "List three things that went wrong this week. For each one, decide whether you were the one who used up the time, whether something sudden hit you, or whether the result was actually fine — then pick -느라고, -는 바람에, or -아서/어서.",
+      "realLifeTask": "Write four sentences about a bad Monday using -느라고, -는 바람에, -더니, and -았더니, one of each.",
+      "friendPractice": "A partner names a cause and a result. You decide whether the two clauses share a subject, then choose the connector that fits.",
+      "review": "Can you explain why 동생이 떠드는 바람에 제가 못 잤어요 works but 동생이 떠드느라고 제가 못 잤어요 does not?",
+      "beginnerGuide": [
+        {
+          "title": "Same subject or not",
+          "body": "This one question sorts most of the chapter. -느라고 needs both halves to share a subject, because it means you personally were tied up in something. -는 바람에 does not, because it blames whatever hit you from outside. If the person who caused it is not the person who suffered it, you need -는 바람에."
+        },
+        {
+          "title": "The tense goes at the end",
+          "body": "-느라고 and -는 바람에 never carry -았/었- themselves. 썼느라고 and 멈췄는 바람에 are both wrong. Put the past tense only in the final clause: 쓰느라고 못 잤어요, 멈추는 바람에 늦었어요."
+        },
+        {
+          "title": "Who was watching",
+          "body": "-더니 reports something you watched somebody else do, so it does not sit with 제가. -았/었더니 reports your own past action and what you then discovered. 지훈 씨가 야근하더니 versus 제가 야근했더니."
+        }
+      ],
+      "checkpoints": [
+        "I can keep one subject across both halves when I use -느라고.",
+        "I can leave the tense off -느라고 and -는 바람에 and put it in the final clause.",
+        "I can choose -더니 for somebody else and -았/었더니 for myself."
+      ],
+      "curriculumOrder": 66,
+      "curriculumTrack": {
+        "id": "b2-advanced-control",
+        "cefr": "B2",
+        "label": "B2 Advanced Control",
+        "description": "Causatives, counterfactuals, nominalisation, attitude endings, discourse control, and register switching."
+      },
+      "prerequisiteChapterIds": [
+        "chapter-67",
+        "chapter-66"
+      ],
+      "learningLayers": [
+        {
+          "id": "core",
+          "label": "Core",
+          "purpose": "Start here: these are the words and patterns you need for the main sentence.",
+          "minutes": 20,
+          "itemIds": [
+            "word-ext-110",
+            "word-verb-385",
+            "word-ext-600",
+            "word-ext-ch36-bumbida",
+            "word-verb-222",
+            "word-verb-388",
+            "word-ext-1038",
+            "word-verb-052",
+            "word-verb-176"
+          ]
+        },
+        {
+          "id": "expand",
+          "label": "Expand",
+          "purpose": "Use these next so the same grammar works in more real situations.",
+          "minutes": 15,
+          "itemIds": [
+            "word-verb-364",
+            "word-verb-382",
+            "word-ext-817",
+            "word-ext-547",
+            "word-verb-026"
+          ]
+        },
+        {
+          "id": "reference",
+          "label": "Reference",
+          "purpose": "Open these when a sentence feels confusing or you want to check the rule.",
+          "minutes": 5,
+          "grammarIds": [
+            "grammar-connector-neura",
+            "grammar-connector-barame",
+            "grammar-ending-deoni",
+            "grammar-connector-because"
+          ]
+        }
+      ],
+      "exitTask": {
+        "canDo": "Say why something went wrong, and whose doing it was.",
+        "prompt": "Write four sentences about a bad Monday using -느라고, -는 바람에, -더니, and -았더니, one of each.",
+        "sampleAnswer": {
+          "ko": "이사 준비하느라고 주말에 한숨도 못 잤어요. 오늘은 엘리베이터가 고장 나는 바람에 걸어 올라왔고요. 커피를 마셨더니 이제 좀 괜찮아요.",
+          "en": "I was getting ready to move, so I didn't sleep a wink at the weekend. Today the lift broke down, so I walked up. I had a coffee, and now I'm doing a bit better."
+        },
+        "checklist": [
+          "I can keep one subject across both halves when I use -느라고.",
+          "I can leave the tense off -느라고 and -는 바람에 and put it in the final clause.",
+          "I can choose -더니 for somebody else and -았/었더니 for myself.",
+          "Make it about your real day: your name, place, time, or plan.",
+          "Keep the first version short before you make it longer."
+        ]
+      }
+    },
+    {
+      "id": "chapter-69",
+      "number": 67,
+      "title": "Finished, Defeated, and Nearly — -아/어 버리다, -고 말다, -(으)ㄹ 뻔하다, -(으)ㄴ 척하다",
+      "level": "B2",
+      "goal": "Say how something ended, and how you felt about the ending.",
+      "scenario": "Looking back at one day: what you finished off, what beat you, what you barely avoided, and what you put a brave face on.",
+      "dialogue": [
+        {
+          "speaker": "A",
+          "ko": "어제 그 일 어떻게 됐어요?",
+          "romanization": "eoje geu il eotteoke dwaesseoyo?",
+          "en": "How did that thing turn out yesterday?"
+        },
+        {
+          "speaker": "B",
+          "ko": "밤늦게까지 해서 다 끝내 버렸어요.",
+          "romanization": "bamneutgekkaji haeseo da kkeunnae beoryeosseoyo.",
+          "en": "I stayed at it until late and got the whole thing done."
+        },
+        {
+          "speaker": "A",
+          "ko": "고생했어요. 근데 얼굴이 왜 그래요?",
+          "romanization": "gosaenghaesseoyo. geunde eolguri wae geuraeyo?",
+          "en": "Nice work. But what's with your face?"
+        },
+        {
+          "speaker": "B",
+          "ko": "졸려서 계단에서 넘어질 뻔했어요. 괜찮은 척했는데 사실 놀랐어요.",
+          "romanization": "jollyeoseo gyedaneseo neomeojil ppeonhaesseoyo. gwaenchaneun cheokaenneunde sasil nollasseoyo.",
+          "en": "I was so sleepy I nearly fell on the stairs. I acted fine, but honestly it shook me."
+        },
+        {
+          "speaker": "A",
+          "ko": "오늘은 일찍 들어가세요. 그러다 진짜 다치고 말 거예요.",
+          "romanization": "oneureun iljjik deureogaseyo. geureoda jinjja dachigo mal geoyeyo.",
+          "en": "Go home early today. At this rate you'll actually end up hurt."
+        }
+      ],
+      "grammarFocus": [
+        "grammar-ending-cheok",
+        "grammar-ending-l-ppeon",
+        "grammar-tense-past"
+      ],
+      "linkedEntryIds": [
+        "word-verb-356",
+        "word-verb-469",
+        "word-ext-ch15-hamateomyeon",
+        "word-verb-242",
+        "word-verb-411",
+        "word-verb-345",
+        "word-verb-467",
+        "word-verb-470",
+        "word-ext-874",
+        "expr-652",
+        "word-verb-008",
+        "word-verb-130",
+        "word-verb-033",
+        "word-verb-384"
+      ],
+      "coreVocabularyIds": [
+        "word-verb-356",
+        "word-verb-469",
+        "word-verb-242",
+        "word-verb-411",
+        "word-verb-345",
+        "word-verb-467",
+        "word-verb-470",
+        "word-ext-874"
+      ],
+      "patternIds": [],
+      "guidedPractice": "Take one thing you finished yesterday and say it twice: once with -아/어 버리다 and once with -고 말다. Notice that only one of the two can sit next to 후련해요.",
+      "realLifeTask": "Write four sentences about yesterday using -아/어 버리다, -고 말다, 하마터면 …-(으)ㄹ 뻔했어요, and -(으)ㄴ/는 척하다.",
+      "friendPractice": "A partner describes an ending and how it felt. You decide whether it takes -아/어 버리다 or -고 말다, and say why.",
+      "review": "Can you explain why 기분 좋게 끝내 버렸어요 works but 기분 좋게 끝내고 말았어요 does not?",
+      "beginnerGuide": [
+        {
+          "title": "Did you want it to end that way?",
+          "body": "-아/어 버리다 usually reports something you chose, and it can feel like relief: 다 끝내 버렸어요. -고 말다 reports an ending that beat you, and it never feels like relief: 결국 울고 말았어요. Ask how you felt about the ending before you pick one."
+        },
+        {
+          "title": "A near miss is always in the past",
+          "body": "-(으)ㄹ 뻔했다 means it came close and then did not happen, so it lives in the past: 넘어질 뻔했어요. 하마터면 is its usual partner at the front. Watch out for standalone 뻔하다 — that is a different word meaning 'obvious'."
+        },
+        {
+          "title": "Check the base word before 척하다",
+          "body": "Verbs in progress take -는 척하다 (자는 척), finished actions take -(으)ㄴ 척하다 (못 들은 척), and adjectives also take -(으)ㄴ (아픈 척). 아프는 척하다 is the mistake almost every English speaker makes at least once."
+        }
+      ],
+      "checkpoints": [
+        "I can choose -아/어 버리다 or -고 말다 based on how the ending felt.",
+        "I can keep -(으)ㄹ 뻔했다 in the past and pair it with 하마터면.",
+        "I can pick -는 or -(으)ㄴ in front of 척하다 by checking the base word."
+      ],
+      "curriculumOrder": 67,
+      "curriculumTrack": {
+        "id": "b2-advanced-control",
+        "cefr": "B2",
+        "label": "B2 Advanced Control",
+        "description": "Causatives, counterfactuals, nominalisation, attitude endings, discourse control, and register switching."
+      },
+      "prerequisiteChapterIds": [
+        "chapter-68",
+        "chapter-67"
+      ],
+      "learningLayers": [
+        {
+          "id": "core",
+          "label": "Core",
+          "purpose": "Start here: these are the words and patterns you need for the main sentence.",
+          "minutes": 20,
+          "itemIds": [
+            "word-verb-356",
+            "word-verb-469",
+            "word-verb-242",
+            "word-verb-411",
+            "word-verb-345",
+            "word-verb-467",
+            "word-verb-470",
+            "word-ext-874"
+          ]
+        },
+        {
+          "id": "expand",
+          "label": "Expand",
+          "purpose": "Use these next so the same grammar works in more real situations.",
+          "minutes": 15,
+          "itemIds": [
+            "expr-652",
+            "word-verb-008",
+            "word-verb-130",
+            "word-verb-033",
+            "word-verb-384",
+            "word-ext-ch15-hamateomyeon"
+          ]
+        },
+        {
+          "id": "reference",
+          "label": "Reference",
+          "purpose": "Open these when a sentence feels confusing or you want to check the rule.",
+          "minutes": 5,
+          "grammarIds": [
+            "grammar-ending-cheok",
+            "grammar-ending-l-ppeon",
+            "grammar-tense-past"
+          ]
+        }
+      ],
+      "exitTask": {
+        "canDo": "Say how something ended, and how you felt about the ending.",
+        "prompt": "Write four sentences about yesterday using -아/어 버리다, -고 말다, 하마터면 …-(으)ㄹ 뻔했어요, and -(으)ㄴ/는 척하다.",
+        "sampleAnswer": {
+          "ko": "어제는 밀린 일을 다 끝내 버렸어요. 그런데 참다가 결국 화를 내고 말았어요. 퇴근길에는 하마터면 지갑을 두고 나올 뻔했어요.",
+          "en": "Yesterday I finished off all my backlog. But I held back and then lost my temper in the end. On the way home I very nearly left my wallet behind."
+        },
+        "checklist": [
+          "I can choose -아/어 버리다 or -고 말다 based on how the ending felt.",
+          "I can keep -(으)ㄹ 뻔했다 in the past and pair it with 하마터면.",
+          "I can pick -는 or -(으)ㄴ in front of 척하다 by checking the base word.",
+          "Make it about your real day: your name, place, time, or plan.",
+          "Keep the first version short before you make it longer."
+        ]
+      }
+    },
+    {
+      "id": "chapter-63",
+      "number": 68,
       "title": "Advanced Written Korean",
       "level": "C1",
       "goal": "Make formal writing easier to follow with clear connectors.",
@@ -14995,7 +15658,7 @@
         "I can keep formal connectors and formal endings in the same register.",
         "I can revise a paragraph so the reader can follow the claim and reason."
       ],
-      "curriculumOrder": 64,
+      "curriculumOrder": 68,
       "curriculumTrack": {
         "id": "c1-written-synthesis",
         "cefr": "C1",
@@ -15003,8 +15666,8 @@
         "description": "Formal writing, internet register awareness, and whole-course production checks."
       },
       "prerequisiteChapterIds": [
-        "chapter-64",
-        "chapter-59"
+        "chapter-69",
+        "chapter-68"
       ],
       "learningLayers": [
         {
@@ -15080,7 +15743,7 @@
     },
     {
       "id": "chapter-65",
-      "number": 65,
+      "number": 69,
       "title": "Synthesis and Production Review",
       "level": "B2/C1",
       "goal": "Put the whole course together in one message that fits the situation.",
@@ -15221,7 +15884,7 @@
         "I can check particles, tense, honorifics, connector, and closing in one pass.",
         "I can rewrite the same meaning for formal email and casual chat."
       ],
-      "curriculumOrder": 65,
+      "curriculumOrder": 69,
       "curriculumTrack": {
         "id": "c1-written-synthesis",
         "cefr": "C1",
@@ -15230,7 +15893,7 @@
       },
       "prerequisiteChapterIds": [
         "chapter-63",
-        "chapter-64"
+        "chapter-69"
       ],
       "learningLayers": [
         {
