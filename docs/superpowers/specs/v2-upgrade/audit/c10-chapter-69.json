@@ -1,0 +1,23 @@
+{
+  "chapter": "chapter-69",
+  "auditor": "sonnet",
+  "date": "2026-08-07",
+  "findings": [
+    {
+      "severity": "minor",
+      "where": "grammarNotes[1].pronunciation (V-고 말다)",
+      "what": "The note states '...and the future 말겠어요 tenses to [말게써요]' — but the bracketed transcription itself is written with a plain ㄱ (게), not a tensed ㄲ (께), so the prose claim of tensing contradicts the transcription given right next to it. grammarNotes[4].pronunciation later renders the same word (inside 붙고 말겠어요) the same untensed way without claiming any tensing, so the two notes are also inconsistent with each other about the same word.",
+      "why": "Whichever pronunciation is actually correct, a sentence cannot claim a sound change and then show a transcription without it — a learner trying to sound out the word from the bracketed form has no way to reconcile 'tenses to' with an untensed spelling. Native ㄹ-final stems do not generally trigger tensification of a following plain consonant in ordinary conjugation (compare 알겠어요, 팔겠어요), which suggests the untensed [말게써요] is the one that's actually right and the word 'tenses' is the error.",
+      "suggestedFix": "Remove the word 'tenses' (or the whole 말겠어요 clause) from this note, since grammarNotes[4].pronunciation already gives the correct, untensed form for the same word inside 붙고 말겠어요; keep the two notes consistent."
+    },
+    {
+      "severity": "minor",
+      "where": "extendedDialogue.lines[5].romanization ('말하고 말았네요' → 'mallanneyo')",
+      "what": "말았네요 (말다 stem 말- + 았 + 네요) resyllabifies and nasalizes to roughly [마란네요] (the ㄹ of 말 links into 았, and the resulting ㅆ-coda nasalizes to ㄴ before the following ㄴ of 네). The given romanization 'mallanneyo' has a doubled 'll' that does not correspond to this derivation.",
+      "why": "Flagged at lower confidence than the other findings in this batch — the exact mechanism producing the doubled letter isn't certain — but the string does not match any derivation of 말았네요 checked by hand, so it is likely a transcription slip rather than a deliberate convention.",
+      "suggestedFix": "Re-derive or spot-check this romanization against the pronunciation [마란네요]; expect something close to 'maranneyo'."
+    }
+  ],
+  "counts": { "blocker": 0, "minor": 2 },
+  "verdict": "pass"
+}
