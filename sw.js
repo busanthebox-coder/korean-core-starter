@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'kcs-pwa-1535692b38b0';
+const CACHE_VERSION = 'kcs-pwa-099193ca273f';
 const PRECACHE_URLS = [
   ".",
   "404.html",
@@ -7,11 +7,11 @@ const PRECACHE_URLS = [
   "assets/index-BG1YTym7.js",
   "assets/index-Cd1Exfud.css",
   "assets/vendor-IyN17Iu6.js",
-  "data/app-core.3fbf2e40.json",
+  "data/app-core.9cc2c027.json",
   "data/app-expressions.87a51151.json",
-  "data/app-extended.2b15d8a1.json",
-  "data/app-index.f14c5e0d.json",
-  "data/app-words.72e4eead.json",
+  "data/app-extended.a7cdb845.json",
+  "data/app-index.b7a6a445.json",
+  "data/app-words.5ccf5788.json",
   "data/manifest.json",
   "favicon.svg",
   "icons/icon-192.png",
