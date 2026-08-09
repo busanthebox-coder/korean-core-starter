@@ -476,76 +476,76 @@
         "ko": "소라 씨, 지금 어디에 있어요?",
         "romanization": "Sora ssi, jigeum eodie isseoyo?",
         "en": "Sora, where are you right now?",
-        "grammarNote": "어디에 있어요? — 있다 is static existence, so the location takes 에, not 에서"
+        "grammarNote": "어디에 있어요? — 있다 is static existence, so the place takes 에, not 에서"
       },
       {
         "speaker": "소라",
         "ko": "저는 회사에 있어요. 왜요?",
-        "romanization": "Jeoneun hoesae isseoyo. waeyo?",
+        "romanization": "Jeoneun hoesae isseoyo. Waeyo?",
         "en": "I'm at the office. Why?",
-        "grammarNote": "회사에 있어요 — same rule: 있다 + 에 = just existing at a place"
+        "grammarNote": "회사에 있어요 — same rule: 있다 + 에 = simply being at a place"
       },
       {
         "speaker": "지훈",
-        "ko": "점심 같이 먹어요! 어디에서 먹을까요?",
-        "romanization": "Jeomsim gachi meogeoyo! Eodieseo meogeulkkayo?",
-        "en": "Let's have lunch together! Where should we eat?",
+        "ko": "저녁 같이 먹어요! 어디에서 먹을까요?",
+        "romanization": "Jeonyeok gachi meogeoyo! Eodieseo meogeulkkayo?",
+        "en": "Let's eat dinner together! Where should we eat?",
         "grammarNote": "어디에서 먹을까요? — eating is an action, so 에서 asks about the stage for that action"
       },
       {
         "speaker": "소라",
-        "ko": "회사 근처 식당에서 먹어요. 거기 음식이 맛있어요.",
-        "romanization": "Hoesa geuncheo sikdangeseo meogeoyo. Geogi eumsigi massisseoyo.",
-        "en": "Let's eat at the restaurant near the office. The food there is good.",
-        "grammarNote": "식당에서 먹어요 — 에서 marks the restaurant as the stage where eating happens"
+        "ko": "회사 식당에서 먹어요. 거기 밥이 아주 좋아요.",
+        "romanization": "Hoesa sikdangeseo meogeoyo. Geogi babi aju joayo.",
+        "en": "Let's eat at the company cafeteria. The food there is really good.",
+        "grammarNote": "식당에서 먹어요 — 에서 marks the cafeteria as the stage where the eating happens"
       },
       {
         "speaker": "지훈",
         "ko": "좋아요! 몇 시에 가요?",
         "romanization": "Joayo! Myeot sie gayo?",
         "en": "Great! What time do we go?",
-        "grammarNote": "몇 시에 — time takes 에; 가요 is movement so no location particle needed here"
+        "grammarNote": "몇 시에 — a point in time takes 에, exactly like a destination does"
       },
       {
         "speaker": "소라",
-        "ko": "12시에 식당에 가요.",
-        "romanization": "Yeoldu sie sikdange gayo.",
-        "en": "We go to the restaurant at 12.",
-        "grammarNote": "12시에 (time → 에) + 식당에 가요 (destination of 가다 → 에) — two 에 in one sentence!"
+        "ko": "여섯 시에 가요. 저는 지금 도서관에 있어요.",
+        "romanization": "Yeoseot sie gayo. Jeoneun jigeum doseogwane isseoyo.",
+        "en": "We go at six. I'm at the library right now.",
+        "grammarNote": "Two 에 in two sentences doing different jobs: 여섯 시에 (time) and 도서관에 있어요 (static location)"
       },
       {
         "speaker": "지훈",
-        "ko": "저는 지금 카페에서 일해요. 12시에 식당 앞에서 만나요.",
-        "romanization": "Jeoneun jigeum kapeeseo ilhaeyo. Yeoldu sie sikdang apeseo mannayo.",
-        "en": "I'm working at a café right now. Let's meet in front of the restaurant at 12.",
-        "grammarNote": "카페에서 일해요 (action at café → 에서) + 식당 앞에서 만나요 (meeting is an action → 에서)"
+        "ko": "저는 카페에서 일해요. 그럼 식당에서 만나요.",
+        "romanization": "Jeoneun kapeeseo ilhaeyo. Geureom sikdangeseo mannayo.",
+        "en": "I'm working at a cafe. Then let's meet at the restaurant.",
+        "grammarNote": "카페에서 일해요 (action at the cafe → 에서) and 식당에서 만나요 (meeting is an action → 에서)"
       },
       {
         "speaker": "소라",
-        "ko": "알겠어요! 그럼 12시에 봐요.",
-        "romanization": "Algesseoyo! Geureom yeoldu sie bwayo.",
-        "en": "Got it! See you at twelve then.",
-        "grammarNote": "12시에 봐요 — time takes 에; no location particle since 보다 (to see) doesn't specify a stage here"
+        "ko": "알겠어요! 저녁에 봐요.",
+        "romanization": "Algesseoyo! Jeonyeoge bwayo.",
+        "en": "Got it! See you in the evening.",
+        "grammarNote": "저녁에 — a time point again takes 에; no place particle is needed here"
       }
     ]
   },
   "readingText": {
     "type": "diary",
-    "title": "수진의 하루 (Sujin's Day)",
-    "body": "오늘 아침 7시에 일어나요. 그리고 집에서 아침을 먹어요. 9시에 학교에 가요. 학교에서 한국어를 공부해요. 점심에 학교 식당에서 친구를 만나요. 오후에 도서관에서 숙제를 해요. 저녁 6시에 집에 와요. 집에서 쉬어요.",
-    "bodyTranslation": "This morning I wake up at 7. Then I eat breakfast at home. At 9 I go to school. At school I study Korean. At lunch I meet a friend at the school cafeteria. In the afternoon I do homework at the library. At 6 in the evening I come home. I rest at home.",
+    "title": "소라의 하루 (Sora's Day)",
+    "body": "저는 아침에 집에서 밥을 먹어요. 그리고 학교에 가요. 학교에서 한국어를 공부해요. 오후에는 도서관에 가요. 도서관에서 책을 읽어요. 그리고 카페에서 커피를 마셔요. 저녁에 식당에서 친구를 만나요. 친구는 회사에서 일해요. 그래서 저녁에 시간이 있어요. 우리는 같이 공원에 가요. 공원에서 음악을 들어요. 그리고 집에 와요. 집에서 다시 한국어를 조금 공부해요.",
+    "bodyTranslation": "In the morning I eat at home. Then I go to school. At school I study Korean. In the afternoon I go to the library. At the library I read books. And I drink coffee at a cafe. In the evening I meet a friend at a restaurant. My friend works at a company. So she has time in the evening. We go to the park together. At the park we listen to music. Then I come home. At home I study a little more Korean.",
     "comprehensionQuestions": [
       {
-        "question": "What time did Sujin wake up?",
-        "answer": "7시에 (at 7 o'clock)"
+        "question": "Where does the writer study Korean, and where does she read books?",
+        "answer": "학교에서 한국어를 공부해요 (studies Korean at school) and 도서관에서 책을 읽어요 (reads books at the library)."
       },
       {
-        "question": "Where did Sujin meet her friend?",
-        "answer": "학교 식당에서 (at the school cafeteria)"
+        "question": "Why does the friend have time in the evening?",
+        "answer": "친구는 회사에서 일해요. 그래서 저녁에 시간이 있어요 — she works at a company during the day, so the evening is free."
       },
       {
-        "question": "Find all the 에서 in the text. Why does each one use 에서 and not 에?",
-        "answer": "집에서 먹어요 (eating is an action), 학교에서 공부해요 (studying is an action), 식당에서 만나요 (meeting is an action), 도서관에서 해요 (doing homework is an action), 집에서 쉬어요 (resting is an action at home)."
+        "question": "Find all the 에 and all the 에서 in the text. Why does each one take that particle and not the other?",
+        "answer": "에서 marks the stage of an action: 집에서 먹어요, 학교에서 공부해요, 도서관에서 읽어요, 카페에서 마셔요, 식당에서 만나요, 회사에서 일해요, 공원에서 들어요, 집에서 공부해요. 에 marks a destination or a time: 학교에 가요, 도서관에 가요, 공원에 가요, 집에 와요 (destinations of 가다/오다), and 아침에, 오후에는, 저녁에 (points in time). Rule of thumb: going there takes 에, doing there takes 에서."
       }
     ]
   },
