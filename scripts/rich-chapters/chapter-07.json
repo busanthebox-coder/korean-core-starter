@@ -435,79 +435,79 @@
     "lines": [
       {
         "speaker": "직원",
-        "ko": "어서 오세요! 뭐 드릴까요?",
-        "romanization": "Eoseo oseyo! Mwo deurilkkayo?",
-        "en": "Welcome! What can I get you?",
-        "grammarNote": "뭐 드릴까요? — the polite 'what shall I offer you?' form staff use in Korean cafés; 드리다 is the honorific of 주다"
+        "ko": "어서 오세요! 메뉴 여기 있어요.",
+        "romanization": "Eoseo oseyo! Menyu yeogi isseoyo.",
+        "en": "Welcome! Here's the menu.",
+        "grammarNote": "The opening line staff actually use, plus 메뉴 — the noun the whole order hangs on"
       },
       {
         "speaker": "민준",
-        "ko": "아메리카노 한 잔 주세요.",
-        "romanization": "Amerikano han jan juseyo.",
-        "en": "One Americano, please.",
-        "grammarNote": "N 주세요 ordering pattern; 한 잔 = one cup using native Korean number 한 + counter 잔"
+        "ko": "커피 하나 주세요. 이거 얼마예요?",
+        "romanization": "Keopi hana juseyo. Igeo eolmayeyo?",
+        "en": "One coffee, please. How much is this?",
+        "grammarNote": "N 주세요 is the ordering pattern; 하나 is the native-Korean number one. 이거 얼마예요? is the price question in full."
       },
       {
         "speaker": "직원",
-        "ko": "다른 거 더 필요하세요?",
-        "romanization": "Dareun geo deo piryohaseyo?",
-        "en": "Do you need anything else?",
-        "grammarNote": "더 (more/else) here asks if there's anything to add — functions like 도 in a question context"
+        "ko": "이천 원이에요. 더 주문해요?",
+        "romanization": "Icheon wonieyo. Deo jumunhaeyo?",
+        "en": "It's 2,000 won. Anything else to order?",
+        "grammarNote": "The price answer mirrors the question's frame; 더 opens the door for a 도 sentence in reply"
       },
       {
         "speaker": "민준",
-        "ko": "빵도 하나 주세요.",
-        "romanization": "Ppangdo hana juseyo.",
-        "en": "Bread too, please.",
-        "grammarNote": "빵 + 도 = adding the bread to the cart (SHOPPING CART rule); 하나 = one (native Korean number)"
+        "ko": "물도 하나 주세요. 그리고 포장도 돼요?",
+        "romanization": "Muldo hana juseyo. Geurigo pojangdo dwaeyo?",
+        "en": "Water too, please. And can I get it to go?",
+        "grammarNote": "물 + 도 = adding water to the cart (SHOPPING CART rule); 포장도 돼요? asks whether takeout is also possible"
       },
       {
         "speaker": "유나",
         "ko": "저는 물만 주세요. 커피는 안 마셔요.",
         "romanization": "Jeoneun mulman juseyo. Keopineun an masyeoyo.",
         "en": "Just water for me, please. I don't drink coffee.",
-        "grammarNote": "물 + 만 = spotlight on water alone (SPOTLIGHT rule); this is 만 as a preference restriction"
+        "grammarNote": "물 + 만 = spotlight on water alone (SPOTLIGHT rule); 만 here is a preference restriction"
       },
       {
         "speaker": "직원",
-        "ko": "알겠습니다. 결제는 어떻게 하시겠어요?",
-        "romanization": "Algesseumnida. Gyeoljeneun eotteoke hashigesseoyo?",
-        "en": "Got it. How would you like to pay?",
-        "grammarNote": "어떻게 (how) + 하시겠어요? is the polite 'how will you do X?' frame — staff asking the payment method opens the 로/으로 response"
+        "ko": "네, 알겠어요. 결제는 어떻게 하시겠어요?",
+        "romanization": "Ne, algesseoyo. Gyeoljeneun eotteoke hasigesseoyo?",
+        "en": "Sure, got it. How would you like to pay?",
+        "grammarNote": "어떻게 (how) + 하시겠어요? is the polite 'how will you do X?' frame — the question that invites a 로/으로 answer"
       },
       {
         "speaker": "민준",
-        "ko": "카드로 결제해도 돼요?",
-        "romanization": "Kadeuro gyeoljehaedo dwaeyo?",
-        "en": "Can I pay by card?",
-        "grammarNote": "카드 + 로 = the CHANNEL SELECTOR (method particle); 카드 ends in vowel 드 → 로, not 으로. 결제해도 돼요? is the polite permission question."
+        "ko": "현금이 없어요. 카드로 결제해도 돼요?",
+        "romanization": "Hyeongeumi eopseoyo. Kadeuro gyeoljehaedo dwaeyo?",
+        "en": "I have no cash. Can I pay by card?",
+        "grammarNote": "카드 + 로 = the CHANNEL SELECTOR (means particle); 카드 ends in the vowel 드 → 로, not 으로"
       },
       {
         "speaker": "직원",
-        "ko": "네, 카드 됩니다. 영수증은 필요하세요?",
-        "romanization": "Ne, kadeu doemnida. Yeongsujeungeun piryohaseyo?",
-        "en": "Yes, card is fine. Do you need a receipt?",
-        "grammarNote": "카드 됩니다 is the staff-side confirmation; 영수증 주세요 or 영수증도 주세요 is the natural follow-up if you want the receipt"
+        "ko": "네, 카드 됩니다. 영수증도 여기 있어요.",
+        "romanization": "Ne, kadeu doemnida. Yeongsujeungdo yeogi isseoyo.",
+        "en": "Yes, card works. Here's your receipt too.",
+        "grammarNote": "카드 됩니다 is the staff-side confirmation; 영수증도 adds the receipt with the same 도 the customer used"
       }
     ]
   },
   "readingText": {
     "type": "sms",
     "title": "편의점에서 (At the Convenience Store)",
-    "body": "오늘 편의점에 가요. 과자를 하나 사요. 직원에게 '이거 얼마예요?'라고 물어요. 삼천 원이에요. 현금이 없어요. 그래서 카드로 결제해요. 영수증도 받아요. 음료는 안 사요. 이것만 사요. 다음에는 할인도 확인해요.",
-    "bodyTranslation": "Today I go to a convenience store. I buy one snack. I ask the staff, 'How much is this?' It is 3,000 won. I don't have cash, so I pay by card. I get a receipt too. I don't buy a drink. I buy only this. Next time I check discounts too.",
+    "body": "오늘 편의점에 가요. 커피하고 물이 있어요. 직원 추천은 커피예요. 커피는 이천 원이에요. 물은 천 원이에요. 저는 커피만 사요. 물은 안 사요. 현금이 없어요. 그래서 카드로 결제해요. 여기 카드도 돼요. 영수증도 주세요. 그리고 할인도 봐요. 오늘은 할인이 있어요! 그래서 커피를 하나 더 사요. 하나는 지금 마셔요. 하나는 포장해요. 물은 내일 사요. 오늘은 커피만 마셔요.",
+    "bodyTranslation": "Today I go to a convenience store. There is coffee and water. The staff's recommendation is the coffee. The coffee is 2,000 won. The water is 1,000 won. I buy only coffee. I don't buy water. I have no cash, so I pay by card. Card works here too. I ask for a receipt as well. And I check the discounts too. Today there is a discount! So I buy one more coffee. One I drink now. One I take to go. I'll buy the water tomorrow. Today I drink only coffee.",
     "comprehensionQuestions": [
       {
-        "question": "How did the speaker pay, and why?",
-        "answer": "카드로 결제해요 — they pay by card because they have no cash (현금이 없어요. 그래서...)"
+        "question": "How does the speaker pay, and why?",
+        "answer": "카드로 결제해요 — by card, because 현금이 없어요 (no cash). 로 marks the means of payment."
       },
       {
         "question": "What does the speaker buy, and what do they not buy?",
-        "answer": "과자를 하나 사요. 음료는 안 사요 — they buy one snack and do not buy a drink."
+        "answer": "커피만 사요 (only coffee) and 물은 안 사요 (does not buy the water) — 만 limits the purchase to one item."
       },
       {
         "question": "Find every 도 and 만 in the text. For each one, explain whether it is adding something or limiting something.",
-        "answer": "영수증도 받아요 — 도 adds the receipt to the list of things that happen (CART: one more item); 이것만 사요 — 만 limits the purchase to only this item (SPOTLIGHT: nothing else); 할인도 확인해요 — 도 adds checking discounts to the plan (CART: another thing to do)"
+        "answer": "커피만 사요 — 만 limits the purchase to coffee alone (SPOTLIGHT). 카드도 돼요 — 도 adds card to what the shop accepts (CART). 영수증도 주세요 — 도 adds the receipt to the order. 할인도 봐요 — 도 adds checking the discount to the list of things done. Note that 도 replaces the particle it stands in for: 영수증을 주세요 becomes 영수증도 주세요, never 영수증을도."
       }
     ]
   },
