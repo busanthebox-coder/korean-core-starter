@@ -97,11 +97,23 @@ export function reachOf(n) {
     if (word.endsWith('다') && word.length > 1) known.add(word.slice(0, -1));
   }
 
+  // A one-syllable stem must not swallow the language: prefix-matching 가 (가다)
+  // would pass 가족, and 이 (이다) would pass 이야기. Single syllables only count
+  // when what follows them is a particle or an ending — i.e. when the eojeol
+  // really is that word inflected, not a different word that starts the same.
+  const PARTICLE = /^(는|은|이|가|를|을|도|만|에|의|와|과|야|랑|나|서|께|한|부|까)/;
+  const ENDING = /^(아|어|여|였|었|았|요|고|지|니|는|나|면|서|자|세|셨|시|겠|께|ㄹ|을|를|던|더|네|죠|야)/;
   const inReach = (eojeol) => {
     const bare = String(eojeol).replace(/[^가-힣]/g, '');
     if (!bare) return null;                       // punctuation / latin only
-    for (const nm of names) if (bare.startsWith(nm)) return true;
-    for (const k of known) if (k.length >= 1 && bare.startsWith(k)) return true;
+    for (const nm of names) if (bare.length >= nm.length && bare.startsWith(nm)) return true;
+    for (const k of known) {
+      if (!bare.startsWith(k)) continue;
+      const rest = bare.slice(k.length);
+      if (k.length >= 2 || !rest) return true;    // multi-syllable stems keep prefix matching
+      if (PARTICLE.test(rest) || ENDING.test(rest)) return true;
+      // single syllable followed by something else — a different word
+    }
     return false;
   };
 
